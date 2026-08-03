@@ -1,0 +1,259 @@
+@import "tailwindcss";
+
+/* =========================================================================
+   OSLER · "The Clinical Chart" design system
+   The visual language of medicine's own instruments: ruled vitals charts,
+   graph/ECG paper, formulary tables, fine anatomical line-work. Cool clinical
+   paper, surgical-teal accent, calibrated meters. Light-first, built for long
+   reading. No glass, no gradients-as-decoration, no glow.
+   ========================================================================= */
+
+@theme {
+  /* ---- Type ---------------------------------------------------------- */
+  --font-sans: "Geist Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Source Serif 4 Variable", Georgia, "Times New Roman", serif;
+  --font-mono: "Geist Mono Variable", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* ---- Ground & ink (warm porcelain) -------------------------------- */
+  --color-paper: #f6f1e9;      /* warm porcelain — premium light ground */
+  --color-surface: #fffdfa;    /* warm white */
+  --color-surface-2: #f1ebe1;
+  --color-inset: #ece4d7;
+
+  --color-ink: #241d16;        /* warm near-black */
+  --color-ink-2: #6b6053;      /* warm taupe, ≥4.5:1 on paper */
+  --color-ink-3: #9c9083;      /* faint — large/decorative only */
+
+  --color-line: #e8dfd1;       /* warm hairline */
+  --color-line-2: #dacfbd;     /* stronger rule */
+  --color-grid: #ede4d6;       /* faint chart grid */
+  --color-grid-major: #e2d8c8; /* graph-paper major line */
+
+  /* ---- Clay accent (premium terracotta) ----------------------------- */
+  --color-accent: #b0512b;
+  --color-accent-strong: #8c3d1d;
+  --color-accent-soft: #cd7d55;
+  --color-accent-tint: #f4e5d9;
+  --color-accent-line: #e6c6b1;
+  --color-on-accent: #fdf7f2;
+
+  /* ---- Signals ------------------------------------------------------- */
+  --color-success: #5e7a4f;    /* muted sage — functional "good" only */
+  --color-success-tint: #eaefdf;
+  --color-warning: #a5732a;
+  --color-warning-tint: #f6ecd6;
+  --color-danger: #b23a3a;
+  --color-danger-tint: #f6e5df;
+
+  /* Heatmap ramp (porcelain → clay) */
+  --color-scale-0: #ece4d5;
+  --color-scale-1: #edccb2;
+  --color-scale-2: #dda57c;
+  --color-scale-3: #cb7d4f;
+  --color-scale-4: #b0512b;
+  --color-scale-5: #8c3d1d;
+
+  /* ---- Radius -------------------------------------------------------- */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+
+  /* ---- Elevation (offset + soft blur; never a flat halo) ------------- */
+  --shadow-panel: 0 1px 2px rgba(20, 26, 25, 0.05), 0 1px 1px rgba(20, 26, 25, 0.03);
+  --shadow-raised: 0 4px 16px -6px rgba(20, 26, 25, 0.12), 0 1px 2px rgba(20, 26, 25, 0.05);
+  --shadow-pop: 0 14px 34px -12px rgba(20, 26, 25, 0.22), 0 3px 8px rgba(20, 26, 25, 0.08);
+
+  /* ---- Motion -------------------------------------------------------- */
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
+
+  /* ---- Layout -------------------------------------------------------- */
+  --spacing-sidebar: 15rem;
+  --spacing-sidebar-collapsed: 4.25rem;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  *,
+  ::before,
+  ::after {
+    border-color: var(--color-line);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scrollbar-color: var(--color-line-2) transparent;
+    overflow-x: clip;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background-color: var(--color-paper);
+    /* Faint paper grain for a premium, tactile ground */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    touch-action: manipulation;
+  }
+
+  body:has([aria-modal="true"]) {
+    overflow: hidden;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-serif);
+    font-weight: 560;
+    letter-spacing: -0.011em;
+    line-height: 1.14;
+    color: var(--color-ink);
+    text-wrap: balance;
+  }
+
+  p { text-wrap: pretty; }
+
+  ::selection {
+    background: var(--color-accent-tint);
+    color: var(--color-accent-strong);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Thin, quiet scrollbars — WebKit */
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-line-2);
+    border: 3px solid var(--color-paper);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: #b9c1bb; }
+}
+
+/* Faint graph-paper grid — a specific clinical material, used sparingly */
+@utility grid-chart {
+  background-image:
+    linear-gradient(to right, var(--color-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grid) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Vitals-chart grid with a major line every fifth cell, like ECG paper */
+@utility grid-chart-major {
+  background-image:
+    linear-gradient(to right, var(--color-grid-major) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grid-major) 1px, transparent 1px),
+    linear-gradient(to right, var(--color-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grid) 1px, transparent 1px);
+  background-size: 110px 110px, 110px 110px, 22px 22px, 22px 22px;
+}
+
+/* Aligned figures for every number that sits in a column or meter */
+@utility tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Entrances — one authored moment, from an already-visible default */
+@keyframes osler-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes osler-pop {
+  from { opacity: 0; transform: translateY(6px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes osler-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+@utility animate-fade {
+  animation: osler-fade 0.15s var(--ease-out-quint) both;
+}
+@utility animate-pop {
+  animation: osler-pop 0.18s var(--ease-out-quint) both;
+}
+@keyframes osler-slide-x {
+  from { transform: translateX(-100%); }
+  to { transform: none; }
+}
+@keyframes osler-ring-fill {
+  from { stroke-dashoffset: var(--ring-circumference); }
+  to { stroke-dashoffset: var(--ring-target-offset); }
+}
+@keyframes osler-readiness-fill {
+  from { left: 0%; }
+  to { left: var(--readiness-value); }
+}
+@keyframes osler-performance-line {
+  from { stroke-dashoffset: 1000; }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes osler-performance-area {
+  from { opacity: 0; transform: scaleX(0); }
+  to { opacity: 0.55; transform: scaleX(1); }
+}
+
+/* Percentage gauges draw once on page entry, like a calibrated instrument
+   settling on its reading. The final value remains visible after motion. */
+.metric-ring-fill {
+  stroke-dashoffset: var(--ring-target-offset);
+  animation: osler-ring-fill 0.9s var(--ease-out-quint) 0.12s both;
+}
+
+.readiness-marker-fill {
+  left: var(--readiness-value);
+  animation: osler-readiness-fill 0.9s var(--ease-out-quint) 0.12s both;
+}
+
+.performance-line-fill {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation: osler-performance-line 0.9s var(--ease-out-quint) 0.12s both;
+}
+
+.performance-area-fill {
+  transform-box: fill-box;
+  transform-origin: left center;
+  animation: osler-performance-area 0.75s var(--ease-out-quint) 0.18s both;
+}
+
+@utility animate-rise {
+  animation: osler-rise 0.5s var(--ease-out-quint) both;
+}
+@utility animate-slide-x {
+  animation: osler-slide-x 0.24s var(--ease-out-quint) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

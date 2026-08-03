@@ -1,0 +1,117 @@
+import type { LucideIcon } from 'lucide-react'
+import {
+  LayoutDashboard,
+  BookOpen,
+  ListChecks,
+  Stethoscope,
+  CalendarDays,
+  LineChart,
+  FolderOpen,
+  PenTool,
+  Notebook,
+  Users,
+  CreditCard,
+  UserCog,
+  Gauge,
+  GraduationCap,
+  Library,
+  FileQuestion,
+  Clapperboard,
+  Mail,
+  Banknote,
+  LifeBuoy,
+  Settings,
+  ShieldCheck,
+  Flag,
+  BellRing,
+  TicketPercent,
+} from 'lucide-react'
+
+export type Portal = 'student' | 'admin'
+
+export interface NavItem {
+  label: string
+  to: string
+  icon: LucideIcon
+  end?: boolean
+}
+
+export interface NavGroup {
+  label?: string
+  items: NavItem[]
+}
+
+export const studentNav: NavGroup[] = [
+  {
+    items: [
+      { label: 'Dashboard', to: '/app', icon: LayoutDashboard, end: true },
+      { label: 'Calendar', to: '/app/calendar', icon: CalendarDays },
+    ],
+  },
+  {
+    label: 'Study',
+    items: [
+      { label: 'Library', to: '/app/library', icon: BookOpen },
+      { label: 'Question Bank', to: '/app/qbank', icon: ListChecks },
+      { label: 'Practical', to: '/app/practical', icon: Stethoscope },
+      { label: 'Resources', to: '/app/resources', icon: FolderOpen },
+    ],
+  },
+  {
+    label: 'Plan',
+    items: [
+      { label: 'Performance', to: '/app/performance', icon: LineChart },
+    ],
+  },
+  {
+    label: 'Workspace',
+    items: [
+      { label: 'Whiteboard', to: '/app/whiteboard', icon: PenTool },
+      { label: 'Notebook', to: '/app/notebook', icon: Notebook },
+      { label: 'Study Together', to: '/app/study-together', icon: Users },
+    ],
+  },
+  {
+    label: 'Account',
+    items: [
+      { label: 'Manage your account', to: '/app/account', icon: UserCog },
+      { label: 'Billing', to: '/app/billing', icon: CreditCard },
+    ],
+  },
+]
+
+export const adminNav: NavGroup[] = [
+  { items: [{ label: 'Control Dashboard', to: '/admin', icon: Gauge, end: true }] },
+  {
+    label: 'Content',
+    items: [
+      { label: 'Academic Setup', to: '/admin/academic', icon: GraduationCap },
+      { label: 'Library Setup', to: '/admin/library', icon: Library },
+      { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },
+      { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
+      { label: 'Resources & Media', to: '/admin/resources', icon: Clapperboard },
+      { label: 'Content Reports', to: '/admin/reports', icon: Flag },
+    ],
+  },
+  {
+    label: 'Operations',
+    items: [
+      { label: 'Email & Automations', to: '/admin/email', icon: Mail },
+      { label: 'Student Notifications', to: '/admin/notifications', icon: BellRing },
+      { label: 'Payments & Finance', to: '/admin/payments', icon: Banknote },
+      { label: 'Vouchers', to: '/admin/vouchers', icon: TicketPercent },
+    ],
+  },
+  {
+    label: 'Governance',
+    items: [
+      { label: 'Privacy & Support', to: '/admin/privacy', icon: LifeBuoy },
+      { label: 'Settings', to: '/admin/settings', icon: Settings },
+      { label: 'Audit & Security', to: '/admin/audit', icon: ShieldCheck },
+    ],
+  },
+]
+
+export function navFor(portal: Portal): NavGroup[] {
+  return portal === 'student' ? studentNav : adminNav
+}

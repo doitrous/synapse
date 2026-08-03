@@ -1,0 +1,59 @@
+import { useMemo } from 'react'
+import {
+  CONTENT_LEDGER_STORAGE_KEY,
+  initialManagedContent,
+  type ManagedContentItem,
+} from '@/data/contentControl'
+import type { Difficulty, Question } from '@/data/qbank'
+import { usePersistentState } from './usePersistentState'
+
+function difficultyFor(item: ManagedContentItem): Difficulty {
+  const value = item.questionData?.tags.intendedDifficulty ?? item.fields.Difficulty
+  return value === 'Easy' || value === 'Hard' ? value : 'Moderate'
+}
+
+/** Convert the admin authoring shape into the exact question shape used by students. */
+export function managedQuestionToStudentQuestion(
+  item: ManagedContentItem,
+  catalogue: ManagedContentItem[],
+): Question | null {
+  if (item.kind !== 'question' || item.status !== 'Published' || !item.questionData) return null
+
+  const data = item.questionData
+  const answers = data.answers.filter((answer) => answer.text.trim())
+  if (answers.length < 2 || !answers.some((answer) => answer.label === data.correctAnswer)) return null
+
+  const titlesById = new Map(catalogue.map((entry) => [entry.id, entry.title]))
+  const correctExplanation = answers.find((answer) => answer.label === data.correctAnswer)?.explanation ?? ''
+
+  return {
+    id: item.id,
+    subjectId: item.subjectId,
+    topic: data.tags.topic.trim() || item.fields.Topic?.trim() || 'General',
+    difficulty: difficultyFor(item),
+    vignette: item.fields.Vignette?.trim() ?? '',
+    stem: item.title,
+    options: answers.map((answer) => ({
+      text: answer.text,
+      correct: answer.label === data.correctAnswer,
+      rationale: answer.explanation,
+    })),
+    explanation: item.fields.Explanation?.trim() || correctExplanation,
+    libraryRefs: data.libraryIds.map((id) => ({ id, title: titlesById.get(id) ?? id })),
+    resourceRefs: data.resourceIds.map((id) => titlesById.get(id) ?? id),
+    attachedImage: data.attachedImage.trim() || undefined,
+    attachments: (data.attachments ?? []).map((attachment) => ({ ...attachment })),
+  }
+}
+
+export function publishedQuestionsFromCatalogue(catalogue: ManagedContentItem[]): Question[] {
+  return catalogue
+    .map((item) => managedQuestionToStudentQuestion(item, catalogue))
+    .filter((question): question is Question => question !== null)
+}
+
+/** Published admin content is the single source of truth for every student question surface. */
+export function usePublishedQuestions() {
+  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  return useMemo(() => publishedQuestionsFromCatalogue(catalogue), [catalogue])
+}
