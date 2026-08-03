@@ -4,6 +4,7 @@ import {
   GraduationCap,
   ShieldCheck,
   ArrowRight,
+  Globe,
   BookOpen,
   ListChecks,
   Stethoscope,
@@ -158,13 +159,23 @@ export function Landing() {
     <div className="min-h-dvh">
       <header className="mx-auto flex max-w-[1140px] items-center justify-between px-5 py-5 sm:px-8">
         <Wordmark />
-        <Link
-          to="/app"
-          className="inline-flex items-center gap-1.5 text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink"
-        >
-          Sign in
-          <Icon icon={ArrowRight} size={15} />
-        </Link>
+        <div className="flex items-center gap-4 sm:gap-6">
+          <Link
+            to="/ar"
+            lang="ar"
+            className="inline-flex items-center gap-1.5 text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink"
+          >
+            <Icon icon={Globe} size={15} />
+            العربية
+          </Link>
+          <Link
+            to="/app"
+            className="inline-flex items-center gap-1.5 text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink"
+          >
+            Sign in
+            <Icon icon={ArrowRight} size={15} />
+          </Link>
+        </div>
       </header>
 
       <main className="mx-auto max-w-[1140px] px-5 pb-20 sm:px-8">
