@@ -1,4 +1,4 @@
-# Osler
+# Synapse
 
 A medical learning platform for undergraduate medical students — a single calm
 clinical workspace where you read the library, drill the question bank, practise

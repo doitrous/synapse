@@ -1,9 +1,10 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
 import {
   GraduationCap,
   ShieldCheck,
-  ArrowRight,
+  ArrowLeft,
   BookOpen,
   ListChecks,
   Stethoscope,
@@ -18,7 +19,7 @@ import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 
-/* ---- A live specimen of the product, to prove rather than claim --------- */
+/* Arabic (RTL) counterpart of Landing. Same clinical-chart system, mirrored. */
 
 function ReferenceBar({ value }: { value: number }) {
   return (
@@ -47,8 +48,8 @@ function Specimen() {
     <div className="grid-chart-major rounded-2xl border border-line bg-surface-2/60 p-5 sm:p-8">
       <Panel className="mx-auto max-w-sm shadow-raised">
         <div className="flex items-center justify-between border-b border-line px-4 py-3">
-          <h3 className="font-sans text-[13px] font-semibold text-ink">Today · your focus</h3>
-          <span className="tnum font-mono text-[12px] text-ink-3">31 Jul</span>
+          <h3 className="font-sans text-[13px] font-semibold text-ink">اليوم · تركيزك</h3>
+          <span className="tnum font-mono text-[12px] text-ink-3">٣١ يوليو</span>
         </div>
 
         <div className="space-y-4 p-4">
@@ -56,32 +57,30 @@ function Specimen() {
             <span className="tnum font-mono text-[15px] font-medium text-ink">09:00</span>
             <span className="size-2 rounded-full" style={{ backgroundColor: '#a8462f' }} />
             <span className="flex-1 truncate text-[13.5px] text-ink">
-              Heart failure: pathophysiology
+              قصور القلب: الفيزيولوجيا المرضية
             </span>
-            <Badge tone="accent">Lecture</Badge>
+            <Badge tone="accent">محاضرة</Badge>
           </div>
 
           <div className="border-t border-line pt-3">
             <div className="flex items-baseline justify-between">
-              <span className="text-[12.5px] font-medium text-ink-2">Exam readiness</span>
+              <span className="text-[12.5px] font-medium text-ink-2">الجاهزية للامتحان</span>
               <span className="tnum font-mono text-[15px] font-semibold text-ink">68%</span>
             </div>
             <ReferenceBar value={68} />
           </div>
 
           <div className="space-y-2 border-t border-line pt-3">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-              Deserves attention
-            </p>
+            <p className="text-[11px] font-semibold text-ink-3">يستحق الانتباه</p>
             <div className="flex items-center gap-2.5">
               <span className="size-2 rounded-full" style={{ backgroundColor: '#a8462f' }} />
-              <span className="flex-1 truncate text-[13px] text-ink">Acute coronary syndromes</span>
-              <Badge tone="danger">Overdue</Badge>
+              <span className="flex-1 truncate text-[13px] text-ink">المتلازمات التاجية الحادة</span>
+              <Badge tone="danger">متأخّر</Badge>
             </div>
             <div className="flex items-center gap-2.5">
               <span className="size-2 rounded-full" style={{ backgroundColor: '#c06a3f' }} />
-              <span className="flex-1 truncate text-[13px] text-ink">Diuretics: sites of action</span>
-              <Badge tone="warning">Due today</Badge>
+              <span className="flex-1 truncate text-[13px] text-ink">مدرّات البول: مواقع التأثير</span>
+              <Badge tone="warning">مستحق اليوم</Badge>
             </div>
           </div>
         </div>
@@ -89,8 +88,6 @@ function Specimen() {
     </div>
   )
 }
-
-/* ---- Pathway doors ------------------------------------------------------ */
 
 function PrimaryDoor() {
   return (
@@ -102,15 +99,15 @@ function PrimaryDoor() {
         <Icon icon={GraduationCap} size={22} className="text-on-accent" />
       </span>
       <span className="flex-1">
-        <span className="block text-[15px] font-semibold">Enter as a student</span>
+        <span className="block text-[15px] font-semibold">ادخل كطالب</span>
         <span className="block text-[13px] text-on-accent/80">
-          Dashboard, library, question bank, practicals and more
+          لوحة المتابعة، المكتبة، بنك الأسئلة، التدريب العملي والمزيد
         </span>
       </span>
       <Icon
-        icon={ArrowRight}
+        icon={ArrowLeft}
         size={20}
-        className="text-on-accent/80 transition-transform group-hover:translate-x-0.5"
+        className="text-on-accent/80 transition-transform group-hover:-translate-x-0.5"
       />
     </Link>
   )
@@ -126,57 +123,68 @@ function SecondaryDoor() {
         <Icon icon={ShieldCheck} size={22} />
       </span>
       <span className="flex-1">
-        <span className="block text-[15px] font-semibold">Admin console</span>
+        <span className="block text-[15px] font-semibold">لوحة الإدارة</span>
         <span className="block text-[13px] text-ink-3">
-          Curriculum, content, payments and governance
+          المناهج، المحتوى، المدفوعات والصلاحيات
         </span>
       </span>
       <Icon
-        icon={ArrowRight}
+        icon={ArrowLeft}
         size={20}
-        className="text-ink-3 transition-transform group-hover:translate-x-0.5"
+        className="text-ink-3 transition-transform group-hover:-translate-x-0.5"
       />
     </Link>
   )
 }
 
-/* ---- Inside Synapse (a chart-index, not a card grid) ---------------------- */
-
 const INSIDE: { icon: LucideIcon; label: string; line: string }[] = [
-  { icon: BookOpen, label: 'Library', line: 'Every topic and subtopic in one place' },
-  { icon: ListChecks, label: 'Question Bank', line: 'Explained answers, linked to the library' },
-  { icon: Stethoscope, label: 'Practical', line: 'OSCE, cases, skills, lab & imaging' },
-  { icon: CalendarDays, label: 'Calendar', line: 'Curriculum and your plan, one view' },
-  { icon: LineChart, label: 'Performance', line: 'By subject, by question type, over time' },
-  { icon: FolderOpen, label: 'Resources', line: 'Books, videos and guidelines, filtered' },
-  { icon: PenTool, label: 'Whiteboard', line: 'An infinite canvas to connect ideas' },
-  { icon: Users, label: 'Study Together', line: 'Solve a shared test from a link' },
+  { icon: BookOpen, label: 'المكتبة', line: 'كل موضوع وموضوع فرعي في مكان واحد' },
+  { icon: ListChecks, label: 'بنك الأسئلة', line: 'إجابات مشروحة، مرتبطة بالمكتبة' },
+  { icon: Stethoscope, label: 'العملي السريري', line: 'OSCE، حالات، مهارات، مختبر وأشعة' },
+  { icon: CalendarDays, label: 'التقويم', line: 'المنهج وخطتك في عرض واحد' },
+  { icon: LineChart, label: 'الأداء', line: 'حسب المادة ونوع السؤال وعبر الزمن' },
+  { icon: FolderOpen, label: 'المصادر', line: 'كتب وفيديوهات وإرشادات، مُصفّاة' },
+  { icon: PenTool, label: 'السبورة', line: 'لوحة لا نهائية لربط الأفكار' },
+  { icon: Users, label: 'ادرس مع زملائك', line: 'حل اختبارًا مشتركًا عبر رابط' },
 ]
 
-export function Landing() {
+export function LandingAr() {
+  useEffect(() => {
+    // /ar is the only RTL surface; the rest of the app is LTR. Set on enter,
+    // hard-reset to the app default on leave (a direct load starts RTL).
+    const el = document.documentElement
+    el.dir = 'rtl'
+    el.lang = 'ar'
+    document.title = 'Synapse · مذاكرة مفصلة عليك'
+    return () => {
+      el.dir = 'ltr'
+      el.lang = 'en'
+      document.title = 'Synapse · Clinical study, in one place'
+    }
+  }, [])
+
   return (
-    <div className="min-h-dvh">
+    <div className="min-h-dvh" dir="rtl" lang="ar">
       <header className="mx-auto flex max-w-[1140px] items-center justify-between px-5 py-5 sm:px-8">
         <Wordmark />
         <Link
           to="/app"
           className="inline-flex items-center gap-1.5 text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink"
         >
-          Sign in
-          <Icon icon={ArrowRight} size={15} />
+          تسجيل الدخول
+          <Icon icon={ArrowLeft} size={15} />
         </Link>
       </header>
 
       <main className="mx-auto max-w-[1140px] px-5 pb-20 sm:px-8">
         <section className="grid items-center gap-10 pt-8 lg:grid-cols-2 lg:gap-14 lg:pt-16">
           <div>
-            <h1 className="max-w-xl font-serif text-[38px] font-semibold leading-[1.05] tracking-[-0.025em] text-ink text-balance sm:text-[52px]">
-              See exactly what to study next.
+            <h1 className="max-w-xl font-serif text-[38px] font-semibold leading-[1.15] tracking-[-0.01em] text-ink text-balance sm:text-[52px]">
+              مذاكرة مفصلة عليك.
             </h1>
             <p className="mt-5 max-w-lg text-[16px] leading-relaxed text-ink-2">
-              Synapse brings your library, question bank, practicals, and schedule into one calm
-              clinical workspace for undergraduate medicine — then tells you what deserves attention
-              today.
+              يجمع Synapse مكتبتك وبنك الأسئلة والتدريب العملي وجدولك في مساحة سريرية
+              واحدة هادئة لطلاب الطب — ثم يخبرك بما يستحق انتباهك اليوم.
             </p>
 
             <div className="mt-8 flex max-w-md flex-col gap-3">
@@ -185,25 +193,22 @@ export function Landing() {
             </div>
 
             <p className="mt-6 text-[13px] text-ink-3">
-              Built around spaced repetition and the organ-system curriculum.
+              مبني على التكرار المتباعد ومنهج أجهزة الجسم.
             </p>
           </div>
 
-          <div className="lg:pl-4">
+          <div className="lg:pr-4">
             <Specimen />
           </div>
         </section>
 
         <section className="mt-20 border-t border-line pt-10">
-          <h2 className="font-serif text-[22px] font-semibold tracking-[-0.015em] text-ink">
-            Everything in one place
+          <h2 className="font-serif text-[22px] font-semibold tracking-[-0.005em] text-ink">
+            كل شيء في مكان واحد
           </h2>
           <dl className="mt-6 grid gap-x-10 sm:grid-cols-2">
             {INSIDE.map((item) => (
-              <div
-                key={item.label}
-                className="flex items-start gap-3 border-b border-line py-4"
-              >
+              <div key={item.label} className="flex items-start gap-3 border-b border-line py-4">
                 <Icon icon={item.icon} size={18} className="mt-0.5 shrink-0 text-accent" />
                 <div>
                   <dt className="text-[14px] font-semibold text-ink">{item.label}</dt>
@@ -220,9 +225,8 @@ export function Landing() {
           <div className="flex items-center gap-2">
             <Wordmark />
           </div>
-          <p className="max-w-md sm:text-right">
-            A demonstration build. Content is illustrative for undergraduate medical education, not
-            clinical guidance.
+          <p className="max-w-md sm:text-left">
+            نسخة عرض توضيحية. المحتوى توضيحي لتعليم الطب الجامعي، وليس إرشادًا سريريًا.
           </p>
         </div>
       </footer>

@@ -203,7 +203,7 @@ function Reader({
   const subject = getSubject(st.subjectId)
   const available = universityCatalogue.filter((u) => !tags.includes(u.id))
   const chapterIndex = libraryTopics.find((topic) => topic.id === st.topicId)?.subtopics.findIndex((item) => item.id === id) ?? 0
-  const [readArticles, setReadArticles] = usePersistentState<Record<string, boolean>>('osler.library.read', {})
+  const [readArticles, setReadArticles] = usePersistentState<Record<string, boolean>>('synapse.library.read', {})
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
   const traps = st.blocks.filter((block) => block.type === 'callout' && block.tone === 'warning')
   const isRead = Boolean(readArticles[id])

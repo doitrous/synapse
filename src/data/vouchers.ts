@@ -18,8 +18,8 @@ export interface Voucher {
   updatedAt: string
 }
 
-export const VOUCHER_STORAGE_KEY = 'osler-vouchers-v1'
-export const APPLIED_VOUCHER_STORAGE_KEY = 'osler-applied-voucher-v1'
+export const VOUCHER_STORAGE_KEY = 'synapse-vouchers-v1'
+export const APPLIED_VOUCHER_STORAGE_KEY = 'synapse-applied-voucher-v1'
 
 export const initialVouchers: Voucher[] = [
   {

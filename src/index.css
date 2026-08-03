@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* =========================================================================
-   OSLER · "The Clinical Chart" design system
+   SYNAPSE · "The Clinical Chart" design system
    The visual language of medicine's own instruments: ruled vitals charts,
    graph/ECG paper, formulary tables, fine anatomical line-work. Cool clinical
    paper, surgical-teal accent, calibrated meters. Light-first, built for long
@@ -177,41 +177,41 @@
 }
 
 /* Entrances — one authored moment, from an already-visible default */
-@keyframes osler-fade {
+@keyframes synapse-fade {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-@keyframes osler-pop {
+@keyframes synapse-pop {
   from { opacity: 0; transform: translateY(6px) scale(0.985); }
   to { opacity: 1; transform: none; }
 }
-@keyframes osler-rise {
+@keyframes synapse-rise {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: none; }
 }
 @utility animate-fade {
-  animation: osler-fade 0.15s var(--ease-out-quint) both;
+  animation: synapse-fade 0.15s var(--ease-out-quint) both;
 }
 @utility animate-pop {
-  animation: osler-pop 0.18s var(--ease-out-quint) both;
+  animation: synapse-pop 0.18s var(--ease-out-quint) both;
 }
-@keyframes osler-slide-x {
+@keyframes synapse-slide-x {
   from { transform: translateX(-100%); }
   to { transform: none; }
 }
-@keyframes osler-ring-fill {
+@keyframes synapse-ring-fill {
   from { stroke-dashoffset: var(--ring-circumference); }
   to { stroke-dashoffset: var(--ring-target-offset); }
 }
-@keyframes osler-readiness-fill {
+@keyframes synapse-readiness-fill {
   from { left: 0%; }
   to { left: var(--readiness-value); }
 }
-@keyframes osler-performance-line {
+@keyframes synapse-performance-line {
   from { stroke-dashoffset: 1000; }
   to { stroke-dashoffset: 0; }
 }
-@keyframes osler-performance-area {
+@keyframes synapse-performance-area {
   from { opacity: 0; transform: scaleX(0); }
   to { opacity: 0.55; transform: scaleX(1); }
 }
@@ -220,31 +220,31 @@
    settling on its reading. The final value remains visible after motion. */
 .metric-ring-fill {
   stroke-dashoffset: var(--ring-target-offset);
-  animation: osler-ring-fill 0.9s var(--ease-out-quint) 0.12s both;
+  animation: synapse-ring-fill 0.9s var(--ease-out-quint) 0.12s both;
 }
 
 .readiness-marker-fill {
   left: var(--readiness-value);
-  animation: osler-readiness-fill 0.9s var(--ease-out-quint) 0.12s both;
+  animation: synapse-readiness-fill 0.9s var(--ease-out-quint) 0.12s both;
 }
 
 .performance-line-fill {
   stroke-dasharray: 1000;
   stroke-dashoffset: 0;
-  animation: osler-performance-line 0.9s var(--ease-out-quint) 0.12s both;
+  animation: synapse-performance-line 0.9s var(--ease-out-quint) 0.12s both;
 }
 
 .performance-area-fill {
   transform-box: fill-box;
   transform-origin: left center;
-  animation: osler-performance-area 0.75s var(--ease-out-quint) 0.18s both;
+  animation: synapse-performance-area 0.75s var(--ease-out-quint) 0.18s both;
 }
 
 @utility animate-rise {
-  animation: osler-rise 0.5s var(--ease-out-quint) both;
+  animation: synapse-rise 0.5s var(--ease-out-quint) both;
 }
 @utility animate-slide-x {
-  animation: osler-slide-x 0.24s var(--ease-out-quint) both;
+  animation: synapse-slide-x 0.24s var(--ease-out-quint) both;
 }
 
 @media (prefers-reduced-motion: reduce) {

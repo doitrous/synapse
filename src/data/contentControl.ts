@@ -8,7 +8,7 @@ import type { ConceptAnnotation } from './conceptGraph'
 
 export type ContentKind = 'question' | 'article' | 'practical' | 'resource'
 
-export const CONTENT_LEDGER_STORAGE_KEY = 'osler-admin-content-ledger-v4'
+export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
 export type AnswerLabel = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
 

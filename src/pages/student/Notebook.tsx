@@ -19,7 +19,7 @@ export function Notebook() {
   const [params] = useSearchParams()
   const linkedArticle = params.get('article')
   const createFromArticle = params.get('new') === '1'
-  const [notes, setNotes] = usePersistentState<Note[]>('osler.notebook.notes', initialNotes)
+  const [notes, setNotes] = usePersistentState<Note[]>('synapse.notebook.notes', initialNotes)
   const [selectedId, setSelectedId] = useState<string | null>(initialNotes[0]?.id ?? null)
   const [query, setQuery] = useState('')
   const [listOpen, setListOpen] = useState(false)

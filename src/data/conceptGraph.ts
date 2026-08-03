@@ -80,7 +80,7 @@ export function initialConceptGraph(): ConceptGraph {
 
 export function conceptGraphFromStorage(): ConceptGraph {
   try {
-    const stored = localStorage.getItem('osler-concept-graph-v1')
+    const stored = localStorage.getItem('synapse-concept-graph-v1')
     if (stored) return JSON.parse(stored) as ConceptGraph
   } catch {
     // Fall back to the built-in graph when storage is unavailable or malformed.

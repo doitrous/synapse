@@ -18,8 +18,8 @@ import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 export function AcademicSetup() {
   const [unis, setUnis] = useUniversityCatalogue()
   const [contentItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
-  const [curricula, setCurricula] = usePersistentState<Record<string, CourseCurriculumSelection>>('osler-course-curricula-v1', {})
-  const [schedules, setSchedules] = usePersistentState<ModuleScheduleStore>('osler-module-schedules-v1', {})
+  const [curricula, setCurricula] = usePersistentState<Record<string, CourseCurriculumSelection>>('synapse-course-curricula-v1', {})
+  const [schedules, setSchedules] = usePersistentState<ModuleScheduleStore>('synapse-module-schedules-v1', {})
   const [selectedId, setSelectedId] = useState(unis[0].id)
   const [addingUni, setAddingUni] = useState(false)
   const [uniName, setUniName] = useState('')

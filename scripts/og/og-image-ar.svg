@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ede4d6" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#f6f1e9"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- faint synapse watermark bleeding off the LEFT edge (RTL balance) -->
+  <g opacity="0.09" transform="translate(185 300) scale(7) translate(-32 -32)" fill="#b0512b">
+    <g transform="rotate(45 32 32)">
+      <rect x="28" y="7" width="8" height="15" rx="4"/>
+      <circle cx="32" cy="27" r="11.5"/>
+      <circle cx="30" cy="41.5" r="1.4"/>
+      <circle cx="34.5" cy="42" r="1.1"/>
+      <path d="M18 46 Q32 61 46 46 L41.5 46 Q32 54 22.5 46 Z"/>
+      <rect x="29" y="54" width="6" height="6" rx="3"/>
+    </g>
+  </g>
+
+  <!-- brand lockup, top-right: mark + wordmark -->
+  <g transform="translate(1002 90) scale(1.6875)">
+    <rect x="1" y="1" width="62" height="62" rx="16" fill="#b0512b"/>
+    <rect x="1.5" y="1.5" width="61" height="61" rx="15.5" fill="none" stroke="#000000" stroke-opacity="0.1"/>
+    <g transform="rotate(45 32 32)" fill="#fdf7f2">
+      <rect x="28" y="7" width="8" height="15" rx="4"/>
+      <circle cx="32" cy="27" r="11.5"/>
+      <circle cx="27.5" cy="25" r="2.4" fill="#b0512b"/>
+      <circle cx="35.5" cy="24" r="2" fill="#b0512b"/>
+      <circle cx="31" cy="31" r="2.7" fill="#b0512b"/>
+      <circle cx="30" cy="41.5" r="1.4"/>
+      <circle cx="34.5" cy="42" r="1.1"/>
+      <path d="M18 46 Q32 61 46 46 L41.5 46 Q32 54 22.5 46 Z"/>
+      <rect x="29" y="54" width="6" height="6" rx="3"/>
+    </g>
+  </g>
+  <text x="978" y="170" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="bold" fill="#241d16" letter-spacing="-1.5">Synapse</text>
+
+  <!-- Arabic headline (personalization motto), right-aligned -->
+  <text x="1110" y="360" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Baghdad','Noto Sans Arabic',Arial,sans-serif" font-size="96" font-weight="bold" fill="#241d16">مذاكرة مفصلة عليك</text>
+
+  <!-- Arabic subline -->
+  <text x="1110" y="432" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Noto Sans Arabic',Arial,sans-serif" font-size="30" fill="#6b6053">منصة دراسة سريرية لطلاب الطب، تتكيف مع تقدمك.</text>
+
+  <!-- footer rule + Arabic surfaces -->
+  <line x1="92" y1="552" x2="1108" y2="552" stroke="#e6c6b1" stroke-width="1.5"/>
+  <text x="1108" y="592" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Noto Sans Arabic',Arial,sans-serif" font-size="26" font-weight="bold" fill="#8c3d1d">المكتبة  ·  بنك الأسئلة  ·  العملي السريري  ·  الجدول</text>
+</svg>

@@ -38,7 +38,7 @@ type Drag = { type: 'pan'; sx: number; sy: number; ox: number; oy: number } | { 
 export function Whiteboard() {
   const canvasRef = useRef<HTMLDivElement>(null)
   const [view, setView] = useState({ x: 40, y: 40, scale: 1 })
-  const [board, setBoard] = usePersistentState<BoardState>('osler.whiteboard.board', INITIAL_BOARD)
+  const [board, setBoard] = usePersistentState<BoardState>('synapse.whiteboard.board', INITIAL_BOARD)
   const [selected, setSelected] = useState<string | null>(null)
   const [editing, setEditing] = useState<string | null>(null)
   const [connectMode, setConnectMode] = useState(false)

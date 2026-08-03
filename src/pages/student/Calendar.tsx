@@ -124,7 +124,7 @@ export function CalendarPage() {
   const [showCurriculum, setShowCurriculum] = useState(true)
   const [showPersonal, setShowPersonal] = useState(true)
   const [dialogDate, setDialogDate] = useState<Date | null>(null)
-  const [blocks, setBlocks] = usePersistentState<StoredBlock[]>('osler.calendar.blocks', [])
+  const [blocks, setBlocks] = usePersistentState<StoredBlock[]>('synapse.calendar.blocks', [])
   const today = new Date()
 
   const days = useMemo(() => {

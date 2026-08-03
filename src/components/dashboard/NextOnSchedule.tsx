@@ -47,7 +47,7 @@ export function NextOnSchedule() {
   const subject = getSubject(nextSession.subjectId)
   const later = todaySessions.filter((session) => session.id !== nextSession.id).slice(0, 3)
   const chapterIndex = todaySessions.findIndex((session) => session.id === nextSession.id) + 1
-  const [blocks, setBlocks] = usePersistentState<PlannedCalendarBlock[]>('osler.calendar.blocks', [])
+  const [blocks, setBlocks] = usePersistentState<PlannedCalendarBlock[]>('synapse.calendar.blocks', [])
   const planned = blocks.some((block) => block.sourceSessionId === nextSession.id)
   const action = nextSession.kind === 'OSCE' || nextSession.kind === 'Lab'
     ? { label: 'Open station', to: '/app/practical', icon: Stethoscope }

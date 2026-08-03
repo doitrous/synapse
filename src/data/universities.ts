@@ -18,7 +18,7 @@ export interface University {
   years: UniYear[]
 }
 
-export const UNIVERSITY_CATALOGUE_STORAGE_KEY = 'osler-academic-universities-v1'
+export const UNIVERSITY_CATALOGUE_STORAGE_KEY = 'synapse-academic-universities-v1'
 
 const YEAR_COURSES: Record<string, string[]> = {
   'Year 1': ['Foundations of Medicine', 'Anatomy & Physiology', 'Cell & Molecular Biology'],

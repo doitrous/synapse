@@ -18,7 +18,7 @@ export interface ContentReport {
   reviewNote?: string
 }
 
-export const REPORT_STORAGE_KEY = 'osler-content-reports-v1'
+export const REPORT_STORAGE_KEY = 'synapse-content-reports-v1'
 
 export const reportCategories: Record<ReportContentKind, string[]> = {
   question: ['Incorrect answer', 'Unclear wording', 'Outdated guidance', 'Broken attachment', 'Other'],

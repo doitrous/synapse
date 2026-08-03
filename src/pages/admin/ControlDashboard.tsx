@@ -77,7 +77,7 @@ function relativeUpdated(value: string) {
 
 export function ControlDashboard({ initialKind = 'question', lockedKind = false }: { initialKind?: ContentKind; lockedKind?: boolean }) {
   const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
-  const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>('osler-concept-graph-v1', initialConceptGraph)
+  const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>('synapse-concept-graph-v1', initialConceptGraph)
   const [kind, setKind] = useState<ContentKind>(initialKind)
   const [status, setStatus] = useState<Status | 'All'>('All')
   const [query, setQuery] = useState('')

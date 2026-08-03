@@ -20,8 +20,8 @@ export interface NotificationCampaign {
   sentAt?: string
 }
 
-export const NOTIFICATION_STORAGE_KEY = 'osler-notification-campaigns-v1'
-export const NOTIFICATION_READ_STORAGE_KEY = 'osler-notification-read-v1'
+export const NOTIFICATION_STORAGE_KEY = 'synapse-notification-campaigns-v1'
+export const NOTIFICATION_READ_STORAGE_KEY = 'synapse-notification-read-v1'
 
 export const initialNotificationCampaigns: NotificationCampaign[] = [
   {

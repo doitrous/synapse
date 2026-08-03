@@ -34,7 +34,7 @@ const DEFAULTS: AccountSettings = {
 }
 
 export function Account() {
-  const [settings, setSettings] = usePersistentState<AccountSettings>('osler.account.settings', DEFAULTS)
+  const [settings, setSettings] = usePersistentState<AccountSettings>('synapse.account.settings', DEFAULTS)
   const [savedAt, setSavedAt] = useState<Date | null>(null)
   const [passwordChanged, setPasswordChanged] = useState(false)
   const [signedOut, setSignedOut] = useState(false)
@@ -65,7 +65,7 @@ export function Account() {
                 ['Review reminders', 'When an article or question set deserves attention.', 'reviewReminders'],
                 ['Calendar reminders', 'Before personal blocks and curriculum sessions.', 'calendarReminders'],
                 ['Weekly study digest', 'A concise summary of accuracy and time used.', 'weeklyDigest'],
-                ['Product updates', 'Changes to Osler and new study tools.', 'productUpdates'],
+                ['Product updates', 'Changes to Synapse and new study tools.', 'productUpdates'],
               ].map(([title, description, key]) => <label key={key} className="flex cursor-pointer items-center justify-between gap-4 py-3.5"><span><span className="block text-[13.5px] font-medium text-ink">{title}</span><span className="mt-0.5 block text-[12px] text-ink-3">{description}</span></span><Toggle checked={settings[key as keyof AccountSettings] as boolean} onChange={(value) => patch({ [key]: value })} label={title} /></label>)}
             </div>
           </Panel>
@@ -81,7 +81,7 @@ export function Account() {
           </Panel>
           <Panel>
             <PanelHeader title="Privacy and data" />
-            <div className="space-y-2 p-4"><Button className="w-full justify-start" variant="secondary" iconLeft={Download} onClick={() => { const blob = new Blob([JSON.stringify(settings, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const anchor = document.createElement('a'); anchor.href = url; anchor.download = 'osler-account-data.json'; anchor.click(); URL.revokeObjectURL(url) }}>Download your data</Button><p className="text-[11.5px] leading-relaxed text-ink-3">Includes profile settings stored by this prototype. Study activity remains on this device.</p></div>
+            <div className="space-y-2 p-4"><Button className="w-full justify-start" variant="secondary" iconLeft={Download} onClick={() => { const blob = new Blob([JSON.stringify(settings, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const anchor = document.createElement('a'); anchor.href = url; anchor.download = 'synapse-account-data.json'; anchor.click(); URL.revokeObjectURL(url) }}>Download your data</Button><p className="text-[11.5px] leading-relaxed text-ink-3">Includes profile settings stored by this prototype. Study activity remains on this device.</p></div>
           </Panel>
           <Panel>
             <PanelHeader title="Active sessions" />

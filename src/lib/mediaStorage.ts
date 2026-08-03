@@ -1,7 +1,7 @@
-const DATABASE_NAME = 'osler-media-v1'
+const DATABASE_NAME = 'synapse-media-v1'
 const STORE_NAME = 'attachments'
 const DATABASE_VERSION = 1
-const MEDIA_REFERENCE_PREFIX = 'osler-media:'
+const MEDIA_REFERENCE_PREFIX = 'synapse-media:'
 
 function openDatabase(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {

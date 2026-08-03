@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ede4d6" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- porcelain ground + faint clinical-chart grid -->
+  <rect width="1200" height="630" fill="#f6f1e9"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- faint synapse watermark bleeding off the right edge -->
+  <g opacity="0.09" transform="translate(1015 300) scale(7) translate(-32 -32)" fill="#b0512b">
+    <g transform="rotate(45 32 32)">
+      <rect x="28" y="7" width="8" height="15" rx="4"/>
+      <circle cx="32" cy="27" r="11.5"/>
+      <circle cx="30" cy="41.5" r="1.4"/>
+      <circle cx="34.5" cy="42" r="1.1"/>
+      <path d="M18 46 Q32 61 46 46 L41.5 46 Q32 54 22.5 46 Z"/>
+      <rect x="29" y="54" width="6" height="6" rx="3"/>
+    </g>
+  </g>
+
+  <!-- brand lockup: mark + wordmark -->
+  <g transform="translate(90 90) scale(1.6875)">
+    <rect x="1" y="1" width="62" height="62" rx="16" fill="#b0512b"/>
+    <rect x="1.5" y="1.5" width="61" height="61" rx="15.5" fill="none" stroke="#000000" stroke-opacity="0.1"/>
+    <g transform="rotate(45 32 32)" fill="#fdf7f2">
+      <rect x="28" y="7" width="8" height="15" rx="4"/>
+      <circle cx="32" cy="27" r="11.5"/>
+      <circle cx="27.5" cy="25" r="2.4" fill="#b0512b"/>
+      <circle cx="35.5" cy="24" r="2" fill="#b0512b"/>
+      <circle cx="31" cy="31" r="2.7" fill="#b0512b"/>
+      <circle cx="30" cy="41.5" r="1.4"/>
+      <circle cx="34.5" cy="42" r="1.1"/>
+      <path d="M18 46 Q32 61 46 46 L41.5 46 Q32 54 22.5 46 Z"/>
+      <rect x="29" y="54" width="6" height="6" rx="3"/>
+    </g>
+  </g>
+  <text x="226" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="bold" fill="#241d16" letter-spacing="-1.5">Synapse</text>
+
+  <!-- headline: the product's hero line -->
+  <text x="90" y="348" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="bold" fill="#241d16" letter-spacing="-2">See exactly what to</text>
+  <text x="90" y="430" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="bold" fill="#241d16" letter-spacing="-2">study next.</text>
+
+  <!-- subline -->
+  <text x="92" y="492" font-family="Helvetica, Arial, sans-serif" font-size="27" fill="#6b6053">A calm clinical workspace for undergraduate medicine.</text>
+
+  <!-- footer rule + surfaces -->
+  <line x1="92" y1="552" x2="1108" y2="552" stroke="#e6c6b1" stroke-width="1.5"/>
+  <text x="92" y="590" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" letter-spacing="2.5" fill="#8c3d1d">LIBRARY&#160;&#160;·&#160;&#160;QUESTION BANK&#160;&#160;·&#160;&#160;PRACTICAL&#160;&#160;·&#160;&#160;SCHEDULE</text>
+</svg>

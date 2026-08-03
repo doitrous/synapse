@@ -20,9 +20,9 @@ const PLAN_FEATURES = [
 ]
 
 const INVOICES = [
-  { id: 'INV-2026-08', date: '1 Aug 2026', desc: 'Osler Student — annual', amount: '£69.00', status: 'Paid' },
-  { id: 'INV-2025-08', date: '1 Aug 2025', desc: 'Osler Student — annual', amount: '£59.00', status: 'Paid' },
-  { id: 'INV-2024-08', date: '1 Aug 2024', desc: 'Osler Student — annual', amount: '£59.00', status: 'Paid' },
+  { id: 'INV-2026-08', date: '1 Aug 2026', desc: 'Synapse Student — annual', amount: '£69.00', status: 'Paid' },
+  { id: 'INV-2025-08', date: '1 Aug 2025', desc: 'Synapse Student — annual', amount: '£59.00', status: 'Paid' },
+  { id: 'INV-2024-08', date: '1 Aug 2024', desc: 'Synapse Student — annual', amount: '£59.00', status: 'Paid' },
 ]
 
 export function Billing() {
@@ -76,7 +76,7 @@ export function Billing() {
           />
           <div className="p-5">
             <div className="flex items-baseline gap-2">
-              <span className="font-serif text-[24px] font-semibold text-ink">Osler Student</span>
+              <span className="font-serif text-[24px] font-semibold text-ink">Synapse Student</span>
               <span className="tnum font-mono text-[15px] text-ink-2">£{renewalPrice.toFixed(2)}/year</span>
             </div>
             <p className="mt-1 text-[13px] text-ink-3">Renews on 1 August 2027 · student rate</p>
@@ -119,7 +119,7 @@ export function Billing() {
               Update payment method
             </Button>
             <p className="mt-3 text-[12px] text-ink-3">
-              Payments are handled securely by our provider. Card details are never stored by Osler.
+              Payments are handled securely by our provider. Card details are never stored by Synapse.
             </p>
           </div>
         </Panel>

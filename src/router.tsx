@@ -2,6 +2,7 @@ import type { ReactElement } from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
 import { Landing } from '@/pages/Landing'
+import { LandingAr } from '@/pages/LandingAr'
 import { NotFound } from '@/pages/NotFound'
 import { Placeholder } from '@/pages/Placeholder'
 import { Dashboard } from '@/pages/student/Dashboard'
@@ -102,6 +103,8 @@ const adminRoutes = adminPaths.map((path) => ({
 
 export const router = createBrowserRouter([
   { path: '/', element: <Landing /> },
+  { path: '/en', element: <Landing /> },
+  { path: '/ar', element: <LandingAr /> },
   {
     path: '/app',
     element: <AppShell portal="student" />,
