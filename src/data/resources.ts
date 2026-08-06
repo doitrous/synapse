@@ -10,6 +10,8 @@ export interface Resource {
   year: number
   recommended?: boolean
   saved?: boolean
+  /** Chapter/topic a video belongs to — used to group the Videos section. */
+  chapter?: string
 }
 
 export const resources: Resource[] = [
@@ -20,10 +22,16 @@ export const resources: Resource[] = [
   { id: 'r-guyton', title: 'Guyton & Hall Physiology', type: 'Book', subjectId: 'renal', source: 'Elsevier', meta: 'Acid–base regulation', year: 2021 },
   { id: 'r-grays', title: "Gray's Anatomy for Students", type: 'Book', subjectId: 'neuro', source: 'Elsevier', meta: 'The cranial nerves', year: 2023 },
 
-  { id: 'r-osm-hf', title: 'Heart failure: compensatory mechanisms', type: 'Video', subjectId: 'cvs', source: 'Osmosis', meta: '12 min', year: 2024, recommended: true, saved: true },
-  { id: 'r-osm-neph', title: 'The nephron & diuretic sites', type: 'Video', subjectId: 'pharm', source: 'Osmosis', meta: '15 min', year: 2023 },
-  { id: 'r-osm-acs', title: 'Acute coronary syndromes explained', type: 'Video', subjectId: 'cvs', source: 'Osmosis', meta: '18 min', year: 2024 },
-  { id: 'r-osm-asthma', title: 'Asthma pathophysiology', type: 'Video', subjectId: 'resp', source: 'Osmosis', meta: '10 min', year: 2022 },
+  { id: 'r-osm-hf', title: 'Heart failure: compensatory mechanisms', type: 'Video', subjectId: 'cvs', source: 'Osmosis', meta: '12 min', year: 2024, recommended: true, saved: true, chapter: 'Heart failure' },
+  { id: 'r-osm-hf2', title: 'Heart failure: the four pillars of therapy', type: 'Video', subjectId: 'cvs', source: 'Osmosis', meta: '14 min', year: 2024, chapter: 'Heart failure' },
+  { id: 'r-osm-acs', title: 'Acute coronary syndromes explained', type: 'Video', subjectId: 'cvs', source: 'Osmosis', meta: '18 min', year: 2024, chapter: 'Acute coronary syndromes' },
+  { id: 'r-osm-acs2', title: 'STEMI vs NSTEMI on the ECG', type: 'Video', subjectId: 'cvs', source: 'Ninja Nerd', meta: '22 min', year: 2023, chapter: 'Acute coronary syndromes' },
+  { id: 'r-osm-neph', title: 'The nephron & diuretic sites', type: 'Video', subjectId: 'pharm', source: 'Osmosis', meta: '15 min', year: 2023, chapter: 'Diuretics' },
+  { id: 'r-osm-diur2', title: 'Loop, thiazide & potassium-sparing diuretics', type: 'Video', subjectId: 'pharm', source: 'Ninja Nerd', meta: '20 min', year: 2023, chapter: 'Diuretics' },
+  { id: 'r-osm-asthma', title: 'Asthma pathophysiology', type: 'Video', subjectId: 'resp', source: 'Osmosis', meta: '10 min', year: 2022, chapter: 'Asthma' },
+  { id: 'r-osm-asthma2', title: 'Stepwise management of asthma', type: 'Video', subjectId: 'resp', source: 'Osmosis', meta: '13 min', year: 2024, chapter: 'Asthma' },
+  { id: 'r-osm-cn', title: 'Cranial nerves: an overview', type: 'Video', subjectId: 'neuro', source: 'Ninja Nerd', meta: '28 min', year: 2023, chapter: 'Cranial nerves' },
+  { id: 'r-osm-abg', title: 'Interpreting the arterial blood gas', type: 'Video', subjectId: 'renal', source: 'Strong Medicine', meta: '17 min', year: 2022, chapter: 'Acid–base balance' },
 
   { id: 'r-ng106', title: 'NICE NG106 · Chronic heart failure', type: 'Guideline', subjectId: 'cvs', source: 'NICE', meta: 'Guideline', year: 2018, recommended: true },
   { id: 'r-ng185', title: 'NICE NG185 · Acute coronary syndromes', type: 'Guideline', subjectId: 'cvs', source: 'NICE', meta: 'Guideline', year: 2020 },
