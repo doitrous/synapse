@@ -6,6 +6,7 @@ import { Wordmark } from '@/components/brand/Wordmark'
 import { Avatar } from '@/components/ui/Avatar'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 export function Sidebar({
   portal,
@@ -17,6 +18,7 @@ export function Sidebar({
   onNavigate?: () => void
 }) {
   const groups = navFor(portal)
+  const t = useT()
 
   return (
     <div className="flex h-full flex-col bg-surface">
@@ -39,7 +41,7 @@ export function Sidebar({
                 <div className="mx-2 my-2 h-px bg-line" />
               ) : (
                 <div className="px-2.5 pb-1.5 text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">
-                  {group.label}
+                  {t(group.label)}
                 </div>
               ))}
             <ul className="space-y-0.5">
@@ -49,7 +51,7 @@ export function Sidebar({
                     to={item.to}
                     end={item.end}
                     onClick={onNavigate}
-                    title={collapsed ? item.label : undefined}
+                    title={collapsed ? t(item.label) : undefined}
                     className={({ isActive }) =>
                       cn(
                         'group flex h-11 items-center gap-2.5 rounded-md text-[13.5px] transition-colors duration-100 lg:h-9',
@@ -67,7 +69,7 @@ export function Sidebar({
                           size={17}
                           className={isActive ? 'text-accent' : 'text-ink-3 group-hover:text-ink-2'}
                         />
-                        {!collapsed && <span className="truncate">{item.label}</span>}
+                        {!collapsed && <span className="truncate">{t(item.label)}</span>}
                       </>
                     )}
                   </NavLink>
@@ -83,7 +85,7 @@ export function Sidebar({
         <NavLink
           to={portal === 'admin' ? '/admin/settings' : '/app/account'}
           className={cn(
-            'flex w-full items-center gap-2.5 rounded-md py-1.5 text-left transition-colors hover:bg-inset',
+            'flex w-full items-center gap-2.5 rounded-md py-1.5 text-start transition-colors hover:bg-inset',
             collapsed ? 'justify-center px-0' : 'px-2',
           )}
           title={collapsed ? 'Maya Adeyemi · Year 3' : undefined}
@@ -94,7 +96,7 @@ export function Sidebar({
               <span className="min-w-0 flex-1">
                 <span className="block truncate text-[13px] font-medium text-ink">Maya Adeyemi</span>
                 <span className="block truncate text-[11.5px] text-ink-3">
-                  {portal === 'admin' ? 'Curriculum admin' : 'Year 3 · Medicine'}
+                  {portal === 'admin' ? t('Curriculum admin') : t('Year 3 · Medicine')}
                 </span>
               </span>
               <Icon icon={ChevronsUpDown} size={15} className="text-ink-3" />

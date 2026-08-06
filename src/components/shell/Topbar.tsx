@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, PanelLeft, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight } from 'lucide-react'
+import { Menu, PanelLeft, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, Languages } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
+import { useI18n } from '@/lib/i18n'
 import { initialNotificationCampaigns, notificationIsDue, notificationMatchesStudent, NOTIFICATION_READ_STORAGE_KEY, NOTIFICATION_STORAGE_KEY, type NotificationCampaign } from '@/data/notifications'
 import { usePersistentState } from '@/lib/usePersistentState'
 
@@ -38,6 +39,7 @@ export function Topbar({
   onOpenSearch: () => void
 }) {
   const { pathname } = useLocation()
+  const { t, lang, toggle } = useI18n()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
   const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, initialNotificationCampaigns)
   const [readIds, setReadIds] = usePersistentState<string[]>(`${NOTIFICATION_READ_STORAGE_KEY}-${portal}`, [])
@@ -48,7 +50,7 @@ export function Topbar({
   const popoverRef = useRef<HTMLDivElement>(null)
   const title = currentTitle(portal, pathname)
   const other = portal === 'admin' ? '/app' : '/admin'
-  const otherLabel = portal === 'admin' ? 'Student app' : 'Admin console'
+  const otherLabel = portal === 'admin' ? t('Student app') : t('Admin console')
   const unreadCount = notifications.filter((notification) => !readIds.includes(notification.id)).length
   const popupNotification = notifications.find((notification) => notification.id === popupId)
 
@@ -75,36 +77,45 @@ export function Topbar({
 
   return (
     <header className="sticky top-0 z-30 flex h-[calc(3.5rem+env(safe-area-inset-top))] min-w-0 items-center gap-1.5 border-b border-line bg-paper px-2.5 pt-[env(safe-area-inset-top)] sm:gap-2 sm:px-4">
-      <button className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label="Open navigation">
+      <button className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
         <Icon icon={Menu} size={18} />
       </button>
       <button
         className={cn(iconBtn, 'hidden lg:inline-flex')}
         onClick={onToggleCollapse}
-        aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
+        aria-label={collapsed ? t('Expand sidebar') : t('Collapse sidebar')}
       >
         <Icon icon={PanelLeft} size={18} />
       </button>
 
       <nav className="flex min-w-0 flex-1 items-center gap-2" aria-label="Breadcrumb">
         <span className="hidden text-[12.5px] text-ink-3 sm:inline">
-          {portal === 'admin' ? 'Admin console' : 'Student'}
+          {portal === 'admin' ? t('Admin console') : t('Student')}
         </span>
         <span className="hidden text-ink-3 sm:inline">/</span>
-        <span className="truncate text-[13.5px] font-medium text-ink">{title}</span>
+        <span className="truncate text-[13.5px] font-medium text-ink">{t(title)}</span>
       </nav>
 
-      <div className="ml-auto flex shrink-0 items-center gap-0.5 sm:gap-1.5">
+      <div className="ms-auto flex shrink-0 items-center gap-0.5 sm:gap-1.5">
         <button
           onClick={onOpenSearch}
           className="hidden h-9 w-60 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] text-ink-3 transition-colors hover:border-line-2 sm:flex"
         >
           <Icon icon={Search} size={16} />
-          <span className="flex-1 text-left">Search…</span>
+          <span className="flex-1 text-start">{t('Search…')}</span>
           <Kbd>⌘K</Kbd>
         </button>
-        <button onClick={onOpenSearch} className={cn(iconBtn, 'sm:hidden')} aria-label="Search">
+        <button onClick={onOpenSearch} className={cn(iconBtn, 'sm:hidden')} aria-label={t('Search')}>
           <Icon icon={Search} size={18} />
+        </button>
+
+        <button
+          onClick={toggle}
+          className="hidden h-9 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] font-medium text-ink-2 transition-colors hover:border-line-2 hover:text-ink sm:inline-flex"
+          aria-label={lang === 'ar' ? 'Switch to English' : 'التبديل إلى العربية'}
+        >
+          <Icon icon={Languages} size={15} />
+          <span lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? 'EN' : 'العربية'}</span>
         </button>
 
         <Link
@@ -118,32 +129,32 @@ export function Topbar({
         <div className="relative" ref={popoverRef}>
           <button
             className={cn(iconBtn, 'relative')}
-            aria-label="Notifications"
+            aria-label={t('Notifications')}
             aria-haspopup="dialog"
             aria-expanded={notificationsOpen}
             onClick={() => setNotificationsOpen((open) => !open)}
           >
             <Icon icon={Bell} size={18} />
             {unreadCount > 0 && (
-              <span className="absolute right-2 top-2 size-1.5 rounded-full bg-accent ring-2 ring-paper" />
+              <span className="absolute end-2 top-2 size-1.5 rounded-full bg-accent ring-2 ring-paper" />
             )}
           </button>
           {notificationsOpen && (
             <div
               role="dialog"
-              aria-label="Latest notifications"
-              className="animate-pop absolute right-0 top-[calc(100%+0.5rem)] z-50 max-h-[min(36rem,calc(100dvh-5rem-env(safe-area-inset-top)))] w-[min(23rem,calc(100vw-1rem))] overflow-y-auto overscroll-contain rounded-xl border border-line bg-surface shadow-pop"
+              aria-label={t('Latest notifications')}
+              className="animate-pop absolute end-0 top-[calc(100%+0.5rem)] z-50 max-h-[min(36rem,calc(100dvh-5rem-env(safe-area-inset-top)))] w-[min(23rem,calc(100vw-1rem))] overflow-y-auto overscroll-contain rounded-xl border border-line bg-surface shadow-pop"
             >
               <div className="flex items-center justify-between border-b border-line px-4 py-3">
                 <div>
-                  <p className="text-[13.5px] font-semibold text-ink">Latest notifications</p>
-                  <p className="text-[11.5px] text-ink-3">{unreadCount} unread</p>
+                  <p className="text-[13.5px] font-semibold text-ink">{t('Latest notifications')}</p>
+                  <p className="text-[11.5px] text-ink-3">{unreadCount} {t('unread')}</p>
                 </div>
                 <button
                   className="text-[12px] font-medium text-accent hover:text-accent-strong"
                   onClick={() => setReadIds((current) => [...new Set([...current, ...notifications.map((notification) => notification.id)])])}
                 >
-                  Mark all read
+                  {t('Mark all read')}
                 </button>
               </div>
               <ul className="p-1.5">
@@ -181,11 +192,11 @@ export function Topbar({
           <div className="animate-pop w-full max-w-md overflow-hidden rounded-xl border border-line bg-surface shadow-pop">
             <div className="flex items-start gap-3 border-b border-line px-4 py-3.5 sm:px-5">
               <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent"><Icon icon={BellRing} size={18} /></span>
-              <div className="min-w-0 flex-1"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent-strong">For your year and group</p><h2 id="notification-popup-title" className="mt-0.5 text-[16px] font-bold leading-snug text-ink">{popupNotification.title}</h2></div>
-              <button type="button" className="grid size-10 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink sm:size-8" aria-label="Dismiss notification" onClick={() => { setReadIds((current) => current.includes(popupNotification.id) ? current : [...current, popupNotification.id]); setPopupId(null) }}><Icon icon={X} size={17} /></button>
+              <div className="min-w-0 flex-1"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent-strong">{t('For your year and group')}</p><h2 id="notification-popup-title" className="mt-0.5 text-[16px] font-bold leading-snug text-ink">{popupNotification.title}</h2></div>
+              <button type="button" className="grid size-10 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink sm:size-8" aria-label={t('Close')} onClick={() => { setReadIds((current) => current.includes(popupNotification.id) ? current : [...current, popupNotification.id]); setPopupId(null) }}><Icon icon={X} size={17} /></button>
             </div>
             <div className="px-4 py-5 sm:px-5"><p className="text-[14px] leading-relaxed text-ink-2">{popupNotification.message}</p><p className="mt-3 font-mono text-[10.5px] text-ink-3">{formatDateTime(new Date(popupNotification.sentAt ?? popupNotification.scheduledAt))}</p></div>
-            <div className="flex flex-col-reverse gap-2 border-t border-line bg-surface-2/45 px-4 py-3 sm:flex-row sm:justify-end sm:px-5"><button type="button" className="min-h-11 rounded-lg px-3.5 text-[13px] font-semibold text-ink-2 hover:bg-inset sm:min-h-9" onClick={() => { setReadIds((current) => current.includes(popupNotification.id) ? current : [...current, popupNotification.id]); setPopupId(null) }}>Not now</button><Link to={popupNotification.to} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-accent-strong/25 bg-accent px-3.5 text-[13px] font-semibold text-on-accent hover:bg-accent-strong sm:min-h-9" onClick={() => { setReadIds((current) => current.includes(popupNotification.id) ? current : [...current, popupNotification.id]); setPopupId(null) }}>Open <Icon icon={ArrowRight} size={15} /></Link></div>
+            <div className="flex flex-col-reverse gap-2 border-t border-line bg-surface-2/45 px-4 py-3 sm:flex-row sm:justify-end sm:px-5"><button type="button" className="min-h-11 rounded-lg px-3.5 text-[13px] font-semibold text-ink-2 hover:bg-inset sm:min-h-9" onClick={() => { setReadIds((current) => current.includes(popupNotification.id) ? current : [...current, popupNotification.id]); setPopupId(null) }}>{t('Not now')}</button><Link to={popupNotification.to} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-accent-strong/25 bg-accent px-3.5 text-[13px] font-semibold text-on-accent hover:bg-accent-strong sm:min-h-9" onClick={() => { setReadIds((current) => current.includes(popupNotification.id) ? current : [...current, popupNotification.id]); setPopupId(null) }}>{t('Open')} <Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" /></Link></div>
           </div>
         </div>
       )}

@@ -199,6 +199,14 @@
   from { transform: translateX(-100%); }
   to { transform: none; }
 }
+@keyframes synapse-slide-x-rtl {
+  from { transform: translateX(100%); }
+  to { transform: none; }
+}
+/* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */
+[dir="rtl"] .animate-slide-x {
+  animation-name: synapse-slide-x-rtl;
+}
 @keyframes synapse-ring-fill {
   from { stroke-dashoffset: var(--ring-circumference); }
   to { stroke-dashoffset: var(--ring-target-offset); }

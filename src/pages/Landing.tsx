@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
 import {
@@ -155,6 +156,13 @@ const INSIDE: { icon: LucideIcon; label: string; line: string }[] = [
 ]
 
 export function Landing() {
+  // The English marketing page is always LTR, regardless of any in-app
+  // language preference the visitor may have set.
+  useEffect(() => {
+    const el = document.documentElement
+    el.dir = 'ltr'
+    el.lang = 'en'
+  }, [])
   return (
     <div className="min-h-dvh">
       <header className="mx-auto flex max-w-[1140px] items-center justify-between px-5 py-5 sm:px-8">
