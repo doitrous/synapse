@@ -8,6 +8,7 @@ import { Badge } from '@/components/ui/Badge'
 import { BarList } from '@/components/charts/BarList'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
+import { useT } from '@/lib/i18n'
 import { Segmented } from '@/components/ui/Tabs'
 import { formatMinutes, formatTimeString } from '@/lib/format'
 import { cn } from '@/lib/cn'
@@ -31,10 +32,11 @@ function WhenYouStudy() {
 }
 
 export function Performance() {
+  const t = useT()
   const totalStudy = studyAllocation.reduce((sum, item) => sum + item.minutes, 0)
   return (
     <PageContainer>
-      <PageHeader title="Performance" description="First-attempt accuracy, cohort context, weak areas, and the shape of your study time." />
+      <PageHeader title={t('Performance')} description={t('First-attempt accuracy, cohort context, weak areas, and the shape of your study time.')} />
 
       <div className="space-y-4">
         <Panel>

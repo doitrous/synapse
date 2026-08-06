@@ -9,6 +9,7 @@ import { IconButton } from '@/components/ui/IconButton'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { TextInput } from '@/components/ui/Field'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useT } from '@/lib/i18n'
 import { APPLIED_VOUCHER_STORAGE_KEY, initialVouchers, voucherDiscount, voucherEligibility, VOUCHER_STORAGE_KEY, type Voucher } from '@/data/vouchers'
 
 const PLAN_FEATURES = [
@@ -26,6 +27,7 @@ const INVOICES = [
 ]
 
 export function Billing() {
+  const t = useT()
   const [vouchers, setVouchers] = usePersistentState<Voucher[]>(VOUCHER_STORAGE_KEY, initialVouchers)
   const [appliedVoucherId, setAppliedVoucherId] = usePersistentState<string | null>(APPLIED_VOUCHER_STORAGE_KEY, null)
   const [code, setCode] = useState('')
@@ -63,8 +65,8 @@ export function Billing() {
   return (
     <PageContainer>
       <PageHeader
-        title="Billing"
-        description="Your plan, payment method, and invoices."
+        title={t('Billing')}
+        description={t('Your plan, payment method, and invoices.')}
       />
 
       <div className="grid gap-4 lg:grid-cols-[1.5fr_1fr]">

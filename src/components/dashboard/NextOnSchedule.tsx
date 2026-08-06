@@ -19,6 +19,7 @@ import { Icon } from '@/components/ui/Icon'
 import { ChapterMark } from '@/components/ui/ChapterMark'
 import { formatClock, formatLongDate, formatMinutes } from '@/lib/format'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useT } from '@/lib/i18n'
 
 interface PlannedCalendarBlock {
   id: string
@@ -44,16 +45,17 @@ function timeValue(date: Date): string {
 }
 
 export function NextOnSchedule() {
+  const t = useT()
   const subject = getSubject(nextSession.subjectId)
   const later = todaySessions.filter((session) => session.id !== nextSession.id).slice(0, 3)
   const chapterIndex = todaySessions.findIndex((session) => session.id === nextSession.id) + 1
   const [blocks, setBlocks] = usePersistentState<PlannedCalendarBlock[]>('synapse.calendar.blocks', [])
   const planned = blocks.some((block) => block.sourceSessionId === nextSession.id)
   const action = nextSession.kind === 'OSCE' || nextSession.kind === 'Lab'
-    ? { label: 'Open station', to: '/app/practical', icon: Stethoscope }
+    ? { label: t('Open station'), to: '/app/practical', icon: Stethoscope }
     : nextSession.kind === 'Self-study'
-      ? { label: 'Start test block', to: '/app/qbank', icon: ListChecks }
-      : { label: 'Open prep materials', to: '/app/library', icon: BookOpen }
+      ? { label: t('Start test block'), to: '/app/qbank', icon: ListChecks }
+      : { label: t('Open prep materials'), to: '/app/library', icon: BookOpen }
 
   function addToPlan() {
     if (planned) return
@@ -75,16 +77,16 @@ export function NextOnSchedule() {
   return (
     <Panel className="flex h-full flex-col overflow-hidden">
       <PanelHeader
-        title="Next on your schedule"
+        title={t('Next on your schedule')}
         icon={CalendarClock}
-        hint="Today"
+        hint={t('Today')}
         action={
           <Link
             to="/app/calendar"
             className="inline-flex items-center gap-1 text-[12.5px] font-medium text-accent hover:text-accent-strong"
           >
-            Full schedule
-            <Icon icon={ArrowRight} size={14} />
+            {t('Full schedule')}
+            <Icon icon={ArrowRight} size={14} className="rtl:-scale-x-100" />
           </Link>
         }
       />
@@ -114,7 +116,7 @@ export function NextOnSchedule() {
             {nextSession.location}
           </span>
           <ChapterMark subjectId={subject.id} index={Math.max(1, chapterIndex)} />
-          <Badge tone="accent" className="px-3 py-1 text-[12px]">{nextSession.kind}</Badge>
+          <Badge tone="accent" className="px-3 py-1 text-[12px]">{t(nextSession.kind)}</Badge>
         </div>
 
         <div className="mt-7 flex flex-wrap gap-2.5">
@@ -130,7 +132,7 @@ export function NextOnSchedule() {
             onClick={addToPlan}
             className="max-sm:w-full"
           >
-            {planned ? 'Added to plan' : 'Add to plan'}
+            {planned ? t('Added to plan') : t('Add to plan')}
           </Button>
         </div>
       </div>
@@ -138,7 +140,7 @@ export function NextOnSchedule() {
       {later.length > 0 && (
         <div className="mt-auto border-t border-line px-4 pb-2 pt-3 sm:px-5">
           <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-            Later today
+            {t('Later today')}
           </p>
           <ul>
             {later.map((session) => (
@@ -158,7 +160,7 @@ export function NextOnSchedule() {
                   <span className="min-w-0 flex-1 truncate text-[13px] text-ink">
                     {session.title}
                   </span>
-                  <span className="hidden text-[11.5px] text-ink-3 sm:inline">{session.kind}</span>
+                  <span className="hidden text-[11.5px] text-ink-3 sm:inline">{t(session.kind)}</span>
                 </Link>
               </li>
             ))}

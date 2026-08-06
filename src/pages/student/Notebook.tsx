@@ -14,8 +14,10 @@ import { subjects } from '@/data/student'
 import { Select } from '@/components/ui/Field'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
+import { useT } from '@/lib/i18n'
 
 export function Notebook() {
+  const t = useT()
   const [params] = useSearchParams()
   const linkedArticle = params.get('article')
   const createFromArticle = params.get('new') === '1'
@@ -95,9 +97,9 @@ export function Notebook() {
         <SearchInput
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search notes…"
+          placeholder={t('Search notes…')}
         />
-        <IconButton icon={Plus} label="New note" variant="surface" onClick={newNote} />
+        <IconButton icon={Plus} label={t('New note')} variant="surface" onClick={newNote} />
       </div>
       <ul className="flex-1 overflow-y-auto px-2 pb-3">
         {filtered.map((n) => (
@@ -175,7 +177,7 @@ export function Notebook() {
             <input
               value={note.title}
               onChange={(e) => update(note.id, { title: e.target.value })}
-              placeholder="Note title"
+              placeholder={t('Note title')}
               className="w-full bg-transparent font-serif text-[27px] font-semibold tracking-[-0.02em] text-ink outline-none placeholder:text-ink-3"
             />
 
@@ -197,7 +199,7 @@ export function Notebook() {
               value={note.body}
               onChange={(e) => update(note.id, { body: e.target.value })}
               onPaste={pasteImage}
-              placeholder="Start writing, or paste a copied image…"
+              placeholder={t('Start writing, or paste a copied image…')}
               className="mt-5 min-h-[60vh] w-full resize-none bg-transparent text-[15px] leading-[1.7] text-ink/90 outline-none placeholder:text-ink-3"
             />
             <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />Paste an image from your clipboard directly into this note.</p>
@@ -205,8 +207,8 @@ export function Notebook() {
         ) : (
           <EmptyState
             icon={FileText}
-            title="No note selected"
-            description="Pick a note from the list or create a new one."
+            title={t('No note selected')}
+            description={t('Pick a note from the list or create a new one.')}
             action={
               <Button variant="primary" size="sm" iconLeft={Plus} onClick={newNote}>
                 New note

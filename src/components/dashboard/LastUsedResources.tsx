@@ -14,6 +14,7 @@ import { getSubject, lastUsedResources } from '@/data/student'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
+import { useT } from '@/lib/i18n'
 
 const TYPE_ICON: Record<ResourceType, LucideIcon> = {
   Book: BookMarked,
@@ -24,18 +25,19 @@ const TYPE_ICON: Record<ResourceType, LucideIcon> = {
 }
 
 export function LastUsedResources() {
+  const t = useT()
   return (
     <Panel className="flex h-full flex-col">
       <PanelHeader
-        title="Last used resources"
+        title={t('Last used resources')}
         icon={Clock}
         action={
           <Link
             to="/app/resources"
             className="inline-flex items-center gap-1 text-[12.5px] font-medium text-accent hover:text-accent-strong"
           >
-            All
-            <Icon icon={ArrowRight} size={14} />
+            {t('All')}
+            <Icon icon={ArrowRight} size={14} className="rtl:-scale-x-100" />
           </Link>
         }
       />

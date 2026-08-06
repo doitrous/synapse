@@ -11,8 +11,9 @@ import { LastUsedResources } from '@/components/dashboard/LastUsedResources'
 import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
 import { progress } from '@/data/student'
 import { formatLongDate } from '@/lib/format'
+import { useT } from '@/lib/i18n'
 
-function greeting(): string {
+function greetingKey(): string {
   const h = new Date().getHours()
   if (h < 12) return 'Good morning'
   if (h < 18) return 'Good afternoon'
@@ -20,20 +21,20 @@ function greeting(): string {
 }
 
 export function Dashboard() {
+  const t = useT()
   return (
     <PageContainer>
       <div className="mb-6 flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
         <div>
           <h1 className="font-serif text-[28px] font-semibold tracking-[-0.02em] text-ink sm:text-[32px]">
-            {greeting()}, Maya
+            {t(greetingKey())}، Maya
           </h1>
           <p className="mt-1.5 text-[14px] text-ink-2">
             {formatLongDate(new Date())} ·{' '}
-            <span className="font-medium text-ink">{progress.daysToExam} days</span> to your
-            Cardiovascular exam — you're on track.
+            <span className="font-medium text-ink">{progress.daysToExam} {t('days')}</span> {t('to your Cardiovascular exam — you\'re on track.')}
           </p>
         </div>
-        <Link to="/app/calendar"><Button variant="primary" size="md" iconLeft={Play}>Continue today's plan</Button></Link>
+        <Link to="/app/calendar"><Button variant="primary" size="md" iconLeft={Play}>{t("Continue today's plan")}</Button></Link>
       </div>
 
       <div className="space-y-4">

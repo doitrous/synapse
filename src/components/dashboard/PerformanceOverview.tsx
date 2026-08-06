@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { TrendingUp } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Select } from '@/components/ui/Field'
+import { useT } from '@/lib/i18n'
 
 type Range = 'week' | 'month' | 'year'
 
@@ -32,6 +33,7 @@ function points(values: number[]) {
 }
 
 export function PerformanceOverview({ compact = false }: { compact?: boolean }) {
+  const t = useT()
   const [range, setRange] = useState<Range>('week')
   const [hovered, setHovered] = useState<number | null>(null)
   const data = SERIES[range]
@@ -43,14 +45,14 @@ export function PerformanceOverview({ compact = false }: { compact?: boolean }) 
   return (
     <Panel className="flex h-full flex-col">
       <PanelHeader
-        title="Performance overview"
+        title={t('Performance overview')}
         icon={TrendingUp}
-        hint="First-attempt accuracy"
+        hint={t('First-attempt accuracy')}
         action={
           <Select value={range} onChange={(event) => setRange(event.target.value as Range)} className="h-8 w-28 text-[12px]">
-            <option value="week">Last week</option>
-            <option value="month">Last month</option>
-            <option value="year">Last year</option>
+            <option value="week">{t('Last week')}</option>
+            <option value="month">{t('Last month')}</option>
+            <option value="year">{t('Last year')}</option>
           </Select>
         }
       />
@@ -91,8 +93,8 @@ export function PerformanceOverview({ compact = false }: { compact?: boolean }) 
               style={{ left: `clamp(0px, calc(${yourPoints[hovered].x}% - 72px), calc(100% - 144px))` }}
             >
               <p className="text-[11px] font-semibold text-ink">{data.labels[hovered]}</p>
-              <p className="mt-1 text-[11.5px] text-ink-2">Your accuracy <span className="tnum font-mono font-semibold text-accent-strong">{data.you[hovered]}%</span></p>
-              <p className="text-[11.5px] text-ink-3">Year median <span className="tnum font-mono">{data.year[hovered]}%</span></p>
+              <p className="mt-1 text-[11.5px] text-ink-2">{t('Your accuracy')} <span className="tnum font-mono font-semibold text-accent-strong">{data.you[hovered]}%</span></p>
+              <p className="text-[11.5px] text-ink-3">{t('Year median')} <span className="tnum font-mono">{data.year[hovered]}%</span></p>
             </div>
           )}
           <div className="absolute inset-x-0 bottom-0 flex justify-between text-[10.5px] text-ink-3">
@@ -100,8 +102,8 @@ export function PerformanceOverview({ compact = false }: { compact?: boolean }) 
           </div>
         </div>
         <div className={compact ? 'mt-1 flex items-center gap-4 text-[10.5px] text-ink-2' : 'mt-2 flex items-center gap-5 text-[11.5px] text-ink-2'}>
-          <span className="inline-flex items-center gap-1.5"><span className="h-0.5 w-5 bg-accent" />Your accuracy</span>
-          <span className="inline-flex items-center gap-1.5"><span className="w-5 border-t border-dashed border-ink-3" />Year median</span>
+          <span className="inline-flex items-center gap-1.5"><span className="h-0.5 w-5 bg-accent" />{t('Your accuracy')}</span>
+          <span className="inline-flex items-center gap-1.5"><span className="w-5 border-t border-dashed border-ink-3" />{t('Year median')}</span>
         </div>
       </div>
     </Panel>

@@ -4,6 +4,7 @@ import { studyHeatmap } from '@/data/student'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { formatDayLabel, formatMinutes } from '@/lib/format'
+import { useT } from '@/lib/i18n'
 
 const DAY_MS = 86_400_000
 const SCALE = [
@@ -65,6 +66,7 @@ function currentStreak(): number {
 const DAY_LABELS = ['Mon', '', 'Wed', '', 'Fri', '', '']
 
 export function StudyHeatmap() {
+  const t = useT()
   const streak = currentStreak()
   const activeDays = studyHeatmap.filter((cell) => cell.minutes > 0).length
   const dailyAverage = Math.round(totalMinutes / Math.max(1, activeDays))
@@ -78,13 +80,13 @@ export function StudyHeatmap() {
   return (
     <Panel className="h-full min-w-0">
       <PanelHeader
-        title="Study heatmap"
+        title={t('Study heatmap')}
         icon={Activity}
-        hint="Minutes per day · last 17 weeks"
+        hint={t('Minutes per day · last 17 weeks')}
         action={
           <div className="flex items-center gap-1.5">
-            <Badge tone="accent">{Math.round(totalMinutes / 60)}h total</Badge>
-            <Badge tone="success">{streak}-day streak</Badge>
+            <Badge tone="accent">{Math.round(totalMinutes / 60)}{t('h total')}</Badge>
+            <Badge tone="success">{streak}{t('-day streak')}</Badge>
           </div>
         }
       />
@@ -131,14 +133,14 @@ export function StudyHeatmap() {
 
         <div className="mt-4 flex items-center justify-between">
           <p className="text-[12px] text-ink-3">
-            You've studied{' '}
+            {t("You've studied")}{' '}
             <span className="tnum font-mono font-medium text-ink-2">
-              {Math.round(totalMinutes / 60)} hours
+              {Math.round(totalMinutes / 60)} {t('hours')}
             </span>{' '}
-            over this block.
+            {t('over this block.')}
           </p>
           <div className="flex items-center gap-1.5 text-[11px] text-ink-3">
-            <span>Less</span>
+            <span>{t('Less')}</span>
             {SCALE.map((c) => (
               <span
                 key={c}
@@ -146,15 +148,15 @@ export function StudyHeatmap() {
                 style={{ backgroundColor: c }}
               />
             ))}
-            <span>More</span>
+            <span>{t('More')}</span>
           </div>
         </div>
         <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-4">
           {[
-            ['Daily average', `${dailyAverage} min`],
-            ['Days learned', `${Math.round((activeDays / studyHeatmap.length) * 100)}%`],
-            ['Longest streak', `${longest} days`],
-            ['Current streak', `${streak} days`],
+            [t('Daily average'), `${dailyAverage} ${t('min')}`],
+            [t('Days learned'), `${Math.round((activeDays / studyHeatmap.length) * 100)}%`],
+            [t('Longest streak'), `${longest} ${t('days')}`],
+            [t('Current streak'), `${streak} ${t('days')}`],
           ].map(([label, value]) => (
             <div key={label} className="bg-surface px-3 py-2.5">
               <p className="tnum font-mono text-[14px] font-semibold text-ink">{value}</p>

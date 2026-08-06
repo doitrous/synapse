@@ -8,6 +8,7 @@ import { Icon } from '@/components/ui/Icon'
 import { ChapterMark } from '@/components/ui/ChapterMark'
 import { formatLongDate, formatMinutes, formatTimeString } from '@/lib/format'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 const DAY_START = 6
 const DAY_END = 24
@@ -50,6 +51,7 @@ function PlanRow({ block, index, onToggle }: { block: PlanBlock; index: number; 
 }
 
 export function TodaysPlan() {
+  const t = useT()
   const [blocks, setBlocks] = useState<PlanBlock[]>(todaysPlan)
   const now = new Date()
   const current = Math.min(100, Math.max(0, position(hourValue(now))))
@@ -63,11 +65,11 @@ export function TodaysPlan() {
 
   return (
     <Panel className="flex h-full flex-col overflow-hidden">
-      <PanelHeader title="Today" icon={Clock3} hint={formatLongDate(now)} action={<div className="flex items-center gap-4 text-[11.5px] text-ink-2"><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded bg-accent" />Faculty</span><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded border border-line-2 bg-[repeating-linear-gradient(45deg,var(--color-line),var(--color-line)_2px,transparent_2px,transparent_4px)]" />Yours</span></div>} />
+      <PanelHeader title={t('Today')} icon={Clock3} hint={formatLongDate(now)} action={<div className="flex items-center gap-4 text-[11.5px] text-ink-2"><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded bg-accent" />{t('Faculty')}</span><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded border border-line-2 bg-[repeating-linear-gradient(45deg,var(--color-line),var(--color-line)_2px,transparent_2px,transparent_4px)]" />{t('Yours')}</span></div>} />
 
       <div className="border-b border-line px-3 py-4 sm:px-5 sm:py-5">
-        <div className="relative pl-14 sm:pl-20">
-          <div className="absolute left-0 top-0 text-[10.5px] font-bold uppercase tracking-[0.07em] text-ink-3">Faculty</div>
+        <div className="relative ps-14 sm:ps-20">
+          <div className="absolute start-0 top-0 text-[10.5px] font-bold uppercase tracking-[0.07em] text-ink-3">{t('Faculty')}</div>
           <div className="relative h-10 rounded-lg bg-inset">
             {todaySessions.map((session) => {
               const start = position(hourValue(session.start))
@@ -79,7 +81,7 @@ export function TodaysPlan() {
             })}
           </div>
 
-          <div className="absolute left-0 top-14 text-[10.5px] font-bold uppercase tracking-[0.07em] text-ink-3">Your plan</div>
+          <div className="absolute start-0 top-14 text-[10.5px] font-bold uppercase tracking-[0.07em] text-ink-3">{t('Your plan')}</div>
           <div className="relative mt-3 h-10 rounded-lg bg-inset">
             {blocks.map((block) => {
               const late = storedHour(block.time) >= 18
@@ -101,13 +103,13 @@ export function TodaysPlan() {
       </div>
 
       <div className="flex-1 px-3 py-3">
-        <p className="px-2 pb-1 text-[10.5px] font-bold uppercase tracking-[0.08em] text-ink-3">Today&apos;s plan</p>
+        <p className="px-2 pb-1 text-[10.5px] font-bold uppercase tracking-[0.08em] text-ink-3">{t("Today's plan")}</p>
         <ul>{blocks.map((block, index) => <li key={block.id}><PlanRow block={block} index={index} onToggle={() => toggle(block.id)} /></li>)}</ul>
       </div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line px-4 py-3 sm:px-5">
-        <span className="shrink-0 text-[12.5px] text-ink-2"><span className="tnum font-mono font-semibold text-ink">{done} of {blocks.length}</span> done</span>
+        <span className="shrink-0 text-[12.5px] text-ink-2"><span className="tnum font-mono font-semibold text-ink">{done} {t('of')} {blocks.length}</span> {t('done')}</span>
         <Meter value={donePct} tone="success" className="order-3 basis-full sm:order-none sm:flex-1 sm:basis-auto" />
-        <span className="tnum shrink-0 font-mono text-[12px] text-ink-3">{formatMinutes(remaining)} left</span>
+        <span className="tnum shrink-0 font-mono text-[12px] text-ink-3">{formatMinutes(remaining)} {t('left')}</span>
       </div>
     </Panel>
   )

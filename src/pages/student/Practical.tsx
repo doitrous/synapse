@@ -25,6 +25,7 @@ import { ChapterMark } from '@/components/ui/ChapterMark'
 import { PracticalRunner } from '@/components/practical/PracticalRunner'
 import type { RunnerTarget } from '@/components/practical/PracticalRunner'
 import { ExaminerWarning } from '@/components/practical/ExaminerWarning'
+import { useT } from '@/lib/i18n'
 
 type Open = (target: RunnerTarget) => void
 
@@ -279,6 +280,7 @@ function LabTab({ onOpen }: { onOpen: Open }) {
 /* ---- Page -------------------------------------------------------------- */
 
 export function Practical() {
+  const t = useT()
   const [tab, setTab] = useState('osce')
   const [active, setActive] = useState<RunnerTarget | null>(null)
 
@@ -289,8 +291,8 @@ export function Practical() {
   return (
     <PageContainer>
       <PageHeader
-        title="Practical"
-        description="Rehearse OSCE stations, work through clinical cases, track skills sign-off, and practise lab and imaging interpretation."
+        title={t('Practical')}
+        description={t('Rehearse OSCE stations, work through clinical cases, track skills sign-off, and practise lab and imaging interpretation.')}
       />
 
       <ExaminerWarning className="mb-4" />

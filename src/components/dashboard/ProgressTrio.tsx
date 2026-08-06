@@ -5,6 +5,7 @@ import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
+import { useT } from '@/lib/i18n'
 
 type Tone = 'danger' | 'accent' | 'success'
 
@@ -16,6 +17,7 @@ function zoneOf(v: number): { name: string; tone: Tone } {
 
 /** A lab-style reference range: zones + a marker at the reading. */
 function ReadinessScale({ value }: { value: number }) {
+  const t = useT()
   const zones = [
     { label: 'Building', width: 40, fill: 'bg-danger/20' },
     { label: 'On track', width: 30, fill: 'bg-warning/25' },
@@ -57,7 +59,7 @@ function ReadinessScale({ value }: { value: number }) {
               z.label === active ? 'font-semibold text-ink' : 'text-ink-3',
             )}
           >
-            {z.label}
+            {t(z.label)}
           </span>
         ))}
       </div>
@@ -101,15 +103,16 @@ function RingReading({ value, label, tone = 'accent', compact = false }: { value
 }
 
 function DualReading({ accuracy, used, detail, compact = false }: { accuracy: number; used: number; detail: string; compact?: boolean }) {
+  const t = useT()
   return (
     <div>
       <div className={cn('grid grid-cols-[1fr_auto_1fr] items-center', compact ? 'gap-2' : 'gap-3 py-1')}>
         <div className="grid place-items-center">
-          <RingReading value={accuracy} label="Correct" tone="success" compact={compact} />
+          <RingReading value={accuracy} label={t('Correct')} tone="success" compact={compact} />
         </div>
         <div className={cn('w-px bg-line', compact ? 'h-16' : 'h-20')} aria-hidden />
         <div className="grid place-items-center">
-          <RingReading value={used} label="Used" compact={compact} />
+          <RingReading value={used} label={t('Used')} compact={compact} />
         </div>
       </div>
       <p className={cn('text-center font-mono text-ink-3', compact ? 'mt-0.5 text-[9.5px] leading-none' : 'mt-2 text-[10.5px]')}>{detail}</p>
@@ -151,15 +154,16 @@ function StatBox({
 }
 
 export function ExamReadinessCard({ compact = false }: { compact?: boolean }) {
+  const t = useT()
   const zone = zoneOf(progress.examReadiness)
 
   return (
     <StatBox
-      label="Exam readiness"
+      label={t('Exam readiness')}
       value={String(progress.examReadiness)}
       unit="%"
-      sub={`${progress.examLabel} · ${progress.daysToExam} days`}
-      footer={<Badge tone={zone.tone}>{zone.name}</Badge>}
+      sub={`${progress.examLabel} · ${progress.daysToExam} ${t('days')}`}
+      footer={<Badge tone={zone.tone}>{t(zone.name)}</Badge>}
       compact={compact}
     >
       <ReadinessScale value={progress.examReadiness} />
@@ -168,37 +172,39 @@ export function ExamReadinessCard({ compact = false }: { compact?: boolean }) {
 }
 
 export function QuestionBankCard({ compact = false }: { compact?: boolean }) {
+  const t = useT()
   const qbankPct = Math.round((progress.qbankAnswered / progress.qbankTotal) * 100)
 
   return (
     <StatBox
-      label="Question bank"
+      label={t('Question bank')}
       value=""
-      sub="First attempt · whole bank"
+      sub={t('First attempt · whole bank')}
       footer={
         <span className="inline-flex items-center gap-1 text-[11.5px] font-medium text-success">
           <Icon icon={TrendingUp} size={13} />
-          128 this week
+          128 {t('this week')}
         </span>
       }
       compact={compact}
     >
-      <DualReading accuracy={72} used={qbankPct} detail={`${progress.qbankAnswered.toLocaleString()} / ${progress.qbankTotal.toLocaleString()} questions`} compact={compact} />
+      <DualReading accuracy={72} used={qbankPct} detail={`${progress.qbankAnswered.toLocaleString()} / ${progress.qbankTotal.toLocaleString()} ${t('questions')}`} compact={compact} />
     </StatBox>
   )
 }
 
 export function PracticalSkillsCard({ compact = false }: { compact?: boolean }) {
+  const t = useT()
   const practicalPct = Math.round((progress.practicalSigned / progress.practicalTotal) * 100)
 
   return (
     <StatBox
-      label="Practical skills"
+      label={t('Practical skills')}
       value=""
-      sub="First attempt · assigned stations"
+      sub={t('First attempt · assigned stations')}
       compact={compact}
     >
-      <DualReading accuracy={78} used={practicalPct} detail={`${progress.practicalSigned} / ${progress.practicalTotal} skills signed off`} compact={compact} />
+      <DualReading accuracy={78} used={practicalPct} detail={`${progress.practicalSigned} / ${progress.practicalTotal} ${t('skills signed off')}`} compact={compact} />
     </StatBox>
   )
 }

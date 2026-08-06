@@ -8,6 +8,7 @@ import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { formatDateTime } from '@/lib/format'
+import { useT } from '@/lib/i18n'
 
 interface AccountSettings {
   name: string
@@ -34,6 +35,7 @@ const DEFAULTS: AccountSettings = {
 }
 
 export function Account() {
+  const t = useT()
   const [settings, setSettings] = usePersistentState<AccountSettings>('synapse.account.settings', DEFAULTS)
   const [savedAt, setSavedAt] = useState<Date | null>(null)
   const [passwordChanged, setPasswordChanged] = useState(false)
@@ -43,7 +45,7 @@ export function Account() {
 
   return (
     <PageContainer>
-      <PageHeader title="Manage your account" description="Profile, study preferences, security, notifications, privacy, and active sessions." />
+      <PageHeader title={t('Manage your account')} description={t('Profile, study preferences, security, notifications, privacy, and active sessions.')} />
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.65fr)]">
         <div className="space-y-4">
           <Panel>
