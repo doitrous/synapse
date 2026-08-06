@@ -20,7 +20,7 @@ import {
   TrendingDown,
 } from 'lucide-react'
 import type { Question } from '@/data/qbank'
-import { dueReviews, subjects, getSubject } from '@/data/student'
+import { dueReviews, getSubject } from '@/data/student'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -28,13 +28,15 @@ import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Meter } from '@/components/ui/Meter'
 import { Segmented } from '@/components/ui/Tabs'
-import { FilterChip } from '@/components/ui/FilterChip'
 import { SubjectDot } from '@/components/ui/Subject'
 import { ConceptText } from '@/components/concepts/ConceptText'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { cn } from '@/lib/cn'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
+import { TopicChooser } from '@/components/qbank/TopicChooser'
+import { questionsInScope, type Scope } from '@/data/qbankScope'
+import { useT } from '@/lib/i18n'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
@@ -59,14 +61,19 @@ function diffTone(d: Question['difficulty']): 'success' | 'warning' | 'danger' {
   return d === 'Easy' ? 'success' : d === 'Moderate' ? 'warning' : 'danger'
 }
 
+const MAX_QUESTIONS = 40
+
 export function QuestionBank() {
+  const t = useT()
   const questions = usePublishedQuestions()
   const [params] = useSearchParams()
   const articleFilter = params.get('article')
   const [phase, setPhase] = useState<Phase>('setup')
-  const [filter, setFilter] = useState<Set<string>>(() => new Set((params.get('topics') ?? '').split(',').filter(Boolean)))
+  const [scope, setScope] = useState<Scope>(() => new Set())
   const [mode, setMode] = useState<Mode>('tutor')
-  const [count, setCount] = useState(5)
+  const [lenChoice, setLenChoice] = useState<'5' | '10' | '20' | '40' | 'custom'>('5')
+  const [customLen, setCustomLen] = useState(15)
+  const count = lenChoice === 'custom' ? Math.min(MAX_QUESTIONS, Math.max(1, customLen || 1)) : Number(lenChoice)
 
   const [session, setSession] = useState<Question[]>([])
   const [idx, setIdx] = useState(0)
@@ -76,13 +83,11 @@ export function QuestionBank() {
   const [elapsed, setElapsed] = useState(0)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
 
-  const available = useMemo(
-    () => {
-      const articleQuestions = articleFilter ? questions.filter((question) => question.libraryRefs.some((ref) => ref.id === articleFilter)) : questions
-      return filter.size === 0 ? articleQuestions : articleQuestions.filter((q) => filter.has(q.subjectId))
-    },
-    [articleFilter, filter, questions],
+  const articleQuestions = useMemo(
+    () => (articleFilter ? questions.filter((question) => question.libraryRefs.some((ref) => ref.id === articleFilter)) : questions),
+    [articleFilter, questions],
   )
+  const available = useMemo(() => questionsInScope(articleQuestions, scope), [articleQuestions, scope])
 
   const presetCounts = useMemo(() => ({
     weak: questions.filter((question) => ['renal', 'pharm', 'endo'].includes(question.subjectId)).length,
@@ -110,15 +115,6 @@ export function QuestionBank() {
     const id = setInterval(() => setElapsed((e) => e + 1), 1000)
     return () => clearInterval(id)
   }, [phase, mode, reviewing])
-
-  function toggle(id: string) {
-    setFilter((prev) => {
-      const next = new Set(prev)
-      if (next.has(id)) next.delete(id)
-      else next.add(id)
-      return next
-    })
-  }
 
   function start() {
     const picked = shuffle(available).slice(0, Math.min(count, available.length))
@@ -167,18 +163,18 @@ export function QuestionBank() {
     return (
       <PageContainer>
         <PageHeader
-          title="Question Bank"
-          description="Build a session, then work through exam-style questions with worked explanations linked back to the library."
+          title={t('Question Bank')}
+          description={t('Build a session, then work through exam-style questions with worked explanations linked back to the library.')}
         />
 
         <section className="mb-4 sm:mb-5" aria-labelledby="quick-start-title">
-          <h2 id="quick-start-title" className="mb-2.5 text-[11px] font-bold uppercase tracking-[0.09em] text-ink-3">Quick start</h2>
+          <h2 id="quick-start-title" className="mb-2.5 text-[11px] font-bold uppercase tracking-[0.09em] text-ink-3">{t('Quick start')}</h2>
           <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
             {[
-              { id: 'weak' as const, title: 'Your weakest topics', text: 'Targets the subjects you score lowest in.', icon: TrendingDown, count: presetCounts.weak || questions.length },
-              { id: 'emergency' as const, title: 'Emergencies only', text: 'Time-critical questions across all systems.', icon: Siren, count: presetCounts.emergency || questions.length },
-              { id: 'demanding' as const, title: 'Demanding questions', text: 'Cohort accuracy below 50%.', icon: Flame, count: presetCounts.demanding || questions.length },
-              { id: 'everything' as const, title: 'Everything, shuffled', text: 'The full bank in random order.', icon: Shuffle, count: presetCounts.everything },
+              { id: 'weak' as const, title: t('Your weakest topics'), text: t('Targets the subjects you score lowest in.'), icon: TrendingDown, count: presetCounts.weak || questions.length },
+              { id: 'emergency' as const, title: t('Emergencies only'), text: t('Time-critical questions across all systems.'), icon: Siren, count: presetCounts.emergency || questions.length },
+              { id: 'demanding' as const, title: t('Demanding questions'), text: t('Cohort accuracy below 50%.'), icon: Flame, count: presetCounts.demanding || questions.length },
+              { id: 'everything' as const, title: t('Everything, shuffled'), text: t('The full bank in random order.'), icon: Shuffle, count: presetCounts.everything },
             ].map((preset) => (
               <button
                 key={preset.id}
@@ -190,7 +186,7 @@ export function QuestionBank() {
                   <span className="grid size-10 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent transition-colors group-hover:bg-accent group-hover:text-on-accent">
                     <Icon icon={preset.icon} size={19} strokeWidth={2.15} />
                   </span>
-                  <span className="tnum pt-1 font-mono text-[11.5px] text-ink-3">{preset.count} {preset.count === 1 ? 'Q' : 'Qs'}</span>
+                  <span className="tnum pt-1 font-mono text-[11.5px] text-ink-3">{preset.count} {preset.count === 1 ? t('Q') : t('Qs')}</span>
                 </span>
                 <strong className="mt-5 block text-[14px] font-semibold tracking-[-0.01em] text-ink">{preset.title}</strong>
                 <span className="mt-1 block text-[12.5px] leading-relaxed text-ink-2">{preset.text}</span>
@@ -201,57 +197,69 @@ export function QuestionBank() {
 
         <div className="grid items-start gap-4 lg:grid-cols-[1.4fr_1fr]">
           <Panel>
-            <PanelHeader title="New session" icon={GraduationCap} />
+            <PanelHeader title={t('New session')} icon={GraduationCap} />
             <div className="space-y-6 p-5">
               <div>
-                <p className="mb-2 text-[12.5px] font-medium text-ink-2">Subjects</p>
-                <div className="flex flex-wrap gap-2">
-                  <FilterChip active={filter.size === 0} onClick={() => setFilter(new Set())}>
-                    All subjects
-                  </FilterChip>
-                  {subjects
-                    .filter((s) => questions.some((q) => q.subjectId === s.id))
-                    .map((s) => (
-                      <FilterChip
-                        key={s.id}
-                        active={filter.has(s.id)}
-                        onClick={() => toggle(s.id)}
-                        color={s.color}
-                      >
-                        {s.name}
-                      </FilterChip>
-                    ))}
+                <div className="mb-2 flex items-center justify-between">
+                  <p className="text-[12.5px] font-medium text-ink-2">{t('Choose a topic or subtopic')}</p>
+                  {scope.size > 0 && (
+                    <button onClick={() => setScope(new Set())} className="text-[12px] font-medium text-accent hover:text-accent-strong">
+                      {t('Clear')}
+                    </button>
+                  )}
                 </div>
+                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} />
+                <p className="mt-2 text-[11.5px] text-ink-3">
+                  {scope.size === 0
+                    ? t('Nothing selected — questions are drawn from the whole bank.')
+                    : t('Pick a whole chapter, or expand it to choose individual subtopics.')}
+                </p>
               </div>
 
               <div className="flex flex-wrap gap-x-10 gap-y-5">
                 <div>
-                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">Mode</p>
+                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Mode')}</p>
                   <Segmented
                     value={mode}
                     onChange={(v) => setMode(v as Mode)}
                     items={[
-                      { value: 'tutor', label: 'Tutor' },
-                      { value: 'timed', label: 'Timed' },
+                      { value: 'tutor', label: t('Tutor') },
+                      { value: 'timed', label: t('Timed') },
                     ]}
                   />
                   <p className="mt-2 max-w-xs text-[12px] text-ink-3">
                     {mode === 'tutor'
-                      ? 'Explanations shown after each question.'
-                      : 'Explanations shown at the end, with a timer.'}
+                      ? t('Explanations shown after each question.')
+                      : t('Explanations shown at the end, with a timer.')}
                   </p>
                 </div>
                 <div>
-                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">Length</p>
-                  <Segmented
-                    value={String(count)}
-                    onChange={(v) => setCount(Number(v))}
-                    items={[
-                      { value: '5', label: '5' },
-                      { value: '10', label: '10' },
-                      { value: '20', label: '20' },
-                    ]}
-                  />
+                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Number of questions')}</p>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <Segmented
+                      value={lenChoice}
+                      onChange={(v) => setLenChoice(v as typeof lenChoice)}
+                      items={[
+                        { value: '5', label: '5' },
+                        { value: '10', label: '10' },
+                        { value: '20', label: '20' },
+                        { value: '40', label: '40' },
+                        { value: 'custom', label: t('Custom') },
+                      ]}
+                    />
+                    {lenChoice === 'custom' && (
+                      <input
+                        type="number"
+                        min={1}
+                        max={MAX_QUESTIONS}
+                        value={customLen}
+                        onChange={(e) => setCustomLen(Math.min(MAX_QUESTIONS, Math.max(1, Number(e.target.value) || 1)))}
+                        className="h-9 w-20 rounded-md border border-line bg-surface px-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
+                        aria-label={t('Number of questions')}
+                      />
+                    )}
+                  </div>
+                  <p className="mt-2 text-[12px] text-ink-3">{t('Up to 40 questions per block.')}</p>
                 </div>
               </div>
 
@@ -260,31 +268,83 @@ export function QuestionBank() {
                   <span className="tnum font-mono font-medium text-ink">
                     {Math.min(count, available.length)}
                   </span>{' '}
-                  of {available.length} available questions
+                  {t('of')} {available.length} {t('available questions')}
                 </span>
                 <Button variant="primary" size="md" iconLeft={Play} onClick={start} disabled={available.length === 0}>
-                  Start session
+                  {t('Start session')}
                 </Button>
               </div>
             </div>
           </Panel>
 
           <Panel className="h-fit">
-            <PanelHeader title="Your Qbank" icon={ListChecks} />
-            <div className="space-y-4 p-5">
-              <div className="flex items-baseline justify-between">
-                <span className="text-[13px] text-ink-2">Answered</span>
-                <span className="tnum font-mono text-[15px] font-semibold text-ink">1,842 / 3,200</span>
-              </div>
-              <Meter value={58} tone="accent" ticks />
-              <div className="grid grid-cols-2 gap-4 border-t border-line pt-4">
-                <div>
-                  <p className="tnum font-mono text-[24px] font-semibold text-ink">72%</p>
-                  <p className="text-[12px] text-ink-3">Overall accuracy</p>
+            <PanelHeader title={t('Your Qbank')} icon={ListChecks} />
+            <div className="space-y-5 p-5">
+              {/* Completion ring + headline */}
+              <div className="flex items-center gap-4">
+                <div className="relative grid size-[76px] shrink-0 place-items-center">
+                  <svg viewBox="0 0 36 36" className="size-full -rotate-90">
+                    <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-inset)" strokeWidth="3.2" />
+                    <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-accent)" strokeWidth="3.2" strokeLinecap="round" strokeDasharray={`${58 * 0.9739} 100`} pathLength={100} />
+                  </svg>
+                  <span className="absolute tnum font-mono text-[16px] font-semibold text-ink">58%</span>
                 </div>
-                <div>
-                  <p className="tnum font-mono text-[24px] font-semibold text-ink">128</p>
-                  <p className="text-[12px] text-ink-3">Answered this week</p>
+                <div className="min-w-0">
+                  <p className="text-[12px] text-ink-3">{t('Bank completed')}</p>
+                  <p className="tnum font-mono text-[17px] font-semibold text-ink">1,842 / 3,200</p>
+                  <p className="mt-0.5 text-[11.5px] text-ink-3">1,358 {t('remaining')}</p>
+                </div>
+              </div>
+
+              {/* Stat trio */}
+              <div className="grid grid-cols-3 gap-2 border-t border-line pt-4">
+                {[
+                  { value: '72%', label: t('Accuracy'), tone: 'text-success' },
+                  { value: '128', label: t('This week'), tone: 'text-ink' },
+                  { value: '9', label: t('Day streak'), tone: 'text-accent' },
+                ].map((s) => (
+                  <div key={s.label} className="rounded-lg border border-line bg-surface-2/40 p-2.5 text-center">
+                    <p className={cn('tnum font-mono text-[19px] font-semibold', s.tone)}>{s.value}</p>
+                    <p className="mt-0.5 text-[10.5px] leading-tight text-ink-3">{s.label}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* Weekly activity */}
+              <div className="border-t border-line pt-4">
+                <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Last 7 days')}</p>
+                <div className="flex items-end justify-between gap-1.5" aria-hidden>
+                  {[12, 20, 8, 24, 18, 30, 16].map((v, i) => (
+                    <div key={i} className="flex flex-1 flex-col items-center gap-1">
+                      <div className="flex h-16 w-full items-end rounded-sm bg-inset/60">
+                        <div className="w-full rounded-sm bg-accent-soft" style={{ height: `${(v / 30) * 100}%` }} />
+                      </div>
+                      <span className="text-[9px] text-ink-3">{t(['M', 'T', 'W', 'T', 'F', 'S', 'S'][i])}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Accuracy by subject */}
+              <div className="border-t border-line pt-4">
+                <p className="mb-2.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Accuracy by subject')}</p>
+                <div className="space-y-2.5">
+                  {[
+                    { id: 'cvs', acc: 81 },
+                    { id: 'resp', acc: 74 },
+                    { id: 'renal', acc: 63 },
+                    { id: 'pharm', acc: 58 },
+                    { id: 'neuro', acc: 69 },
+                  ].map(({ id, acc }) => {
+                    const subject = getSubject(id)
+                    return (
+                      <div key={id} className="flex items-center gap-2.5">
+                        <span className="inline-flex w-24 shrink-0 items-center gap-1.5 truncate text-[11.5px] text-ink-2"><SubjectDot id={id} />{subject.short}</span>
+                        <Meter value={acc} tone={acc >= 75 ? 'success' : acc >= 60 ? 'accent' : 'warning'} className="flex-1" />
+                        <span className="tnum w-9 text-end font-mono text-[11px] text-ink-2">{acc}%</span>
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
             </div>

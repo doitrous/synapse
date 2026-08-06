@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Users, Hash, Copy, Check, Play, Plus, RotateCcw, LogIn } from 'lucide-react'
-import { subjects } from '@/data/student'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -10,8 +9,12 @@ import { Avatar } from '@/components/ui/Avatar'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
-import { FilterChip } from '@/components/ui/FilterChip'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import { TopicChooser } from '@/components/qbank/TopicChooser'
+import { questionsInScope, type Scope } from '@/data/qbankScope'
+import { useT } from '@/lib/i18n'
+
+const MAX_QUESTIONS = 40
 
 interface Created {
   name: string
@@ -31,10 +34,13 @@ const OPEN_NOW = [
 ]
 
 export function StudyTogether() {
+  const t = useT()
   const questions = usePublishedQuestions()
   const [name, setName] = useState('')
-  const [subs, setSubs] = useState<Set<string>>(new Set(['cvs']))
-  const [count, setCount] = useState(10)
+  const [scope, setScope] = useState<Scope>(() => new Set())
+  const [lenChoice, setLenChoice] = useState<'5' | '10' | '20' | '40' | 'custom'>('10')
+  const [customLen, setCustomLen] = useState(15)
+  const count = lenChoice === 'custom' ? Math.min(MAX_QUESTIONS, Math.max(1, customLen || 1)) : Number(lenChoice)
   const [timed, setTimed] = useState(true)
   const [created, setCreated] = useState<Created | null>(null)
   const [copied, setCopied] = useState(false)
@@ -42,19 +48,11 @@ export function StudyTogether() {
   const [joined, setJoined] = useState<string | null>(null)
   const [started, setStarted] = useState(false)
 
-  const withQuestions = subjects.filter((s) => questions.some((q) => q.subjectId === s.id))
+  const available = questionsInScope(questions, scope)
 
-  function toggle(id: string) {
-    setSubs((prev) => {
-      const next = new Set(prev)
-      if (next.has(id)) next.delete(id)
-      else next.add(id)
-      return next
-    })
-  }
   function create() {
     const code = Math.random().toString(36).slice(2, 8).toUpperCase()
-    setCreated({ name: name.trim() || 'Untitled test', code })
+    setCreated({ name: name.trim() || t('Untitled test'), code })
   }
   function copy() {
     if (!created) return
@@ -66,20 +64,19 @@ export function StudyTogether() {
   return (
     <PageContainer>
       <PageHeader
-        title="Study Together"
-        description="Create or join a shared test with a short code, then work through it live with classmates."
+        title={t('Study Together')}
+        description={t('Create or join a shared test with a short code, then work through it live with classmates.')}
       />
 
       <div className="grid gap-4 lg:grid-cols-[1.5fr_1fr]">
         {created ? (
           <Panel>
-            <PanelHeader title="Test ready to share" icon={Hash} action={started ? <Badge tone="success">Open now</Badge> : undefined} />
+            <PanelHeader title={t('Test ready to share')} icon={Hash} action={started ? <Badge tone="success">{t('Open now')}</Badge> : undefined} />
             <div className="space-y-5 p-5">
               <div>
                 <p className="font-serif text-[20px] font-semibold text-ink">{created.name}</p>
                 <p className="mt-1 text-[13px] text-ink-3">
-                  {count} questions · {timed ? 'Timed' : 'Untimed'} · {subs.size} subject
-                  {subs.size === 1 ? '' : 's'}
+                  {count} {t('questions')} · {timed ? t('Timed') : t('Untimed')} · {scope.size === 0 ? t('whole bank') : `${scope.size} ${t('selected')}`}
                 </p>
               </div>
 
@@ -94,13 +91,13 @@ export function StudyTogether() {
                   iconLeft={copied ? Check : Copy}
                   onClick={copy}
                 >
-                  {copied ? 'Copied' : 'Copy code'}
+                  {copied ? t('Copied') : t('Copy code')}
                 </Button>
               </div>
 
               <div className="rounded-lg border border-line p-4">
                 <p className="mb-3 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-                  Lobby
+                  {t('Lobby')}
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="flex -space-x-2">
@@ -109,60 +106,82 @@ export function StudyTogether() {
                     ))}
                   </div>
                   <span className="text-[13px] text-ink-2">
-                    You and 2 others joined · waiting for more…
+                    {t('You and 2 others joined · waiting for more…')}
                   </span>
                 </div>
               </div>
 
               <div className="flex gap-2">
                 <Button variant="primary" size="md" iconLeft={Play} onClick={() => setStarted((value) => !value)}>
-                  {started ? 'Finish test' : 'Start test'}
+                  {started ? t('Finish test') : t('Start test')}
                 </Button>
                 <Button variant="ghost" size="md" onClick={() => setCreated(null)}>
-                  Edit test
+                  {t('Edit test')}
                 </Button>
               </div>
             </div>
           </Panel>
         ) : (
           <Panel>
-            <PanelHeader title="Create a shared test" icon={Plus} />
+            <PanelHeader title={t('Create a shared test')} icon={Plus} />
             <div className="space-y-5 p-5">
-              <Field label="Test name">
+              <Field label={t('Test name')}>
                 <TextInput
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  placeholder="e.g. Cardiology crunch"
+                  placeholder={t('e.g. Cardiology crunch')}
                 />
               </Field>
 
               <div>
-                <p className="mb-2 text-[12.5px] font-medium text-ink-2">Subjects</p>
-                <div className="flex flex-wrap gap-2">
-                  {withQuestions.map((s) => (
-                    <FilterChip key={s.id} active={subs.has(s.id)} onClick={() => toggle(s.id)} color={s.color}>
-                      {s.name}
-                    </FilterChip>
-                  ))}
+                <div className="mb-2 flex items-center justify-between">
+                  <p className="text-[12.5px] font-medium text-ink-2">{t('Choose a topic or subtopic')}</p>
+                  {scope.size > 0 && (
+                    <button onClick={() => setScope(new Set())} className="text-[12px] font-medium text-accent hover:text-accent-strong">
+                      {t('Clear')}
+                    </button>
+                  )}
                 </div>
+                <TopicChooser value={scope} onChange={setScope} pool={questions} />
+                <p className="mt-2 text-[11.5px] text-ink-3">
+                  {scope.size === 0
+                    ? t('Nothing selected — questions are drawn from the whole bank.')
+                    : `${Math.min(count, available.length)} ${t('of')} ${available.length} ${t('available questions')}`}
+                </p>
               </div>
 
               <div className="flex flex-wrap items-end gap-x-10 gap-y-4">
                 <div>
-                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">Questions</p>
-                  <Segmented
-                    value={String(count)}
-                    onChange={(v) => setCount(Number(v))}
-                    items={[
-                      { value: '10', label: '10' },
-                      { value: '20', label: '20' },
-                      { value: '30', label: '30' },
-                    ]}
-                  />
+                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Number of questions')}</p>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <Segmented
+                      value={lenChoice}
+                      onChange={(v) => setLenChoice(v as typeof lenChoice)}
+                      items={[
+                        { value: '5', label: '5' },
+                        { value: '10', label: '10' },
+                        { value: '20', label: '20' },
+                        { value: '40', label: '40' },
+                        { value: 'custom', label: t('Custom') },
+                      ]}
+                    />
+                    {lenChoice === 'custom' && (
+                      <input
+                        type="number"
+                        min={1}
+                        max={MAX_QUESTIONS}
+                        value={customLen}
+                        onChange={(e) => setCustomLen(Math.min(MAX_QUESTIONS, Math.max(1, Number(e.target.value) || 1)))}
+                        className="h-9 w-20 rounded-md border border-line bg-surface px-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
+                        aria-label={t('Number of questions')}
+                      />
+                    )}
+                  </div>
+                  <p className="mt-2 text-[12px] text-ink-3">{t('Up to 40 questions per block.')}</p>
                 </div>
                 <label className="flex cursor-pointer items-center gap-2.5 pb-1 text-[13px] text-ink-2">
-                  Timed
-                  <Toggle checked={timed} onChange={setTimed} label="Timed" />
+                  {t('Timed')}
+                  <Toggle checked={timed} onChange={setTimed} label={t('Timed')} />
                 </label>
               </div>
 
@@ -172,9 +191,8 @@ export function StudyTogether() {
                   size="md"
                   iconLeft={Hash}
                   onClick={create}
-                  disabled={subs.size === 0}
                 >
-                  Create test code
+                  {t('Create test code')}
                 </Button>
               </div>
             </div>
@@ -183,32 +201,32 @@ export function StudyTogether() {
 
         <div className="space-y-4">
         <Panel className="h-fit">
-          <PanelHeader title="Join with a code" icon={LogIn} />
+          <PanelHeader title={t('Join with a code')} icon={LogIn} />
           <div className="p-4">
-            <Field label="Test code" hint={joined ? `Joined ${joined}` : 'Codes contain six letters or numbers.'}>
-              <div className="flex gap-2"><TextInput value={joinCode} onChange={(event) => setJoinCode(event.target.value.toUpperCase().slice(0, 6))} placeholder="e.g. ACUTE7" className="font-mono uppercase tracking-[0.12em]" /><Button variant="primary" onClick={() => joinCode.length >= 4 && setJoined(joinCode)} disabled={joinCode.length < 4}>Join</Button></div>
+            <Field label={t('Test code')} hint={joined ? `${t('Joined')} ${joined}` : t('Codes contain six letters or numbers.')}>
+              <div className="flex gap-2"><TextInput value={joinCode} onChange={(event) => setJoinCode(event.target.value.toUpperCase().slice(0, 6))} placeholder="e.g. ACUTE7" className="font-mono uppercase tracking-[0.12em]" /><Button variant="primary" onClick={() => joinCode.length >= 4 && setJoined(joinCode)} disabled={joinCode.length < 4}>{t('Join')}</Button></div>
             </Field>
           </div>
         </Panel>
         <Panel className="h-fit">
-          <PanelHeader title="Open now" icon={Users} hint={`${OPEN_NOW.length} tests`} />
+          <PanelHeader title={t('Open now')} icon={Users} hint={`${OPEN_NOW.length} ${t('tests')}`} />
           <ul className="divide-y divide-line">
-            {OPEN_NOW.map((test) => <li key={test.id} className="flex items-center gap-3 px-4 py-3"><div className="min-w-0 flex-1"><p className="truncate text-[13.5px] font-medium text-ink">{test.name}</p><p className="mt-0.5 text-[12px] text-ink-3">{test.joined} joined · {test.questions} questions · code <span className="font-mono">{test.code}</span></p></div><Button size="sm" variant="secondary" onClick={() => { setJoinCode(test.code); setJoined(test.code) }}>Join</Button></li>)}
+            {OPEN_NOW.map((test) => <li key={test.id} className="flex items-center gap-3 px-4 py-3"><div className="min-w-0 flex-1"><p className="truncate text-[13.5px] font-medium text-ink">{test.name}</p><p className="mt-0.5 text-[12px] text-ink-3">{test.joined} {t('joined')} · {test.questions} {t('questions')} · {t('code')} <span className="font-mono">{test.code}</span></p></div><Button size="sm" variant="secondary" onClick={() => { setJoinCode(test.code); setJoined(test.code) }}>{t('Join')}</Button></li>)}
           </ul>
         </Panel>
         <Panel className="h-fit">
-          <PanelHeader title="Finished" icon={Check} />
+          <PanelHeader title={t('Finished')} icon={Check} />
           <ul className="divide-y divide-line">
-            {PAST.map((t) => (
-              <li key={t.id} className="flex flex-wrap items-center gap-3 px-4 py-3 sm:flex-nowrap">
+            {PAST.map((past) => (
+              <li key={past.id} className="flex flex-wrap items-center gap-3 px-4 py-3 sm:flex-nowrap">
                 <div className="min-w-0 flex-1">
-                  <p className="truncate text-[13.5px] font-medium text-ink">{t.name}</p>
+                  <p className="truncate text-[13.5px] font-medium text-ink">{past.name}</p>
                   <p className="mt-0.5 text-[12px] text-ink-3">
-                    {t.joined} joined · {t.when}
+                    {past.joined} {t('joined')} · {past.when}
                   </p>
                 </div>
-                <Badge tone="neutral">avg {t.avg}%</Badge>
-                <Button size="sm" variant="ghost" iconLeft={RotateCcw} onClick={() => { setName(t.name); setCreated(null) }}>Sit it again</Button>
+                <Badge tone="neutral">{t('avg')} {past.avg}%</Badge>
+                <Button size="sm" variant="ghost" iconLeft={RotateCcw} onClick={() => { setName(past.name); setCreated(null) }}>{t('Sit it again')}</Button>
               </li>
             ))}
           </ul>
