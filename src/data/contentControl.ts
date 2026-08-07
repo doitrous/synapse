@@ -163,6 +163,35 @@ export interface LabAuthoringData {
 
 export type PracticalAuthoringData = OsceAuthoringData | CaseAuthoringData | LabAuthoringData
 
+/**
+ * Pins a concept to a precise place inside a resource so the app can deep-link
+ * a concept straight to "where it is explained". `locator` is free text but
+ * interpreted by `kind`: a page number, a slide number, a line number, or a
+ * `mm:ss` video timestamp. The player/reader jumps there when a student opens
+ * the concept's "see it in context" link.
+ */
+export interface ResourceConceptLocation {
+  id: string
+  conceptId: string
+  kind: 'page' | 'line' | 'slide' | 'timestamp'
+  /** e.g. "142", "142–148", "3:20" for a timestamp, or "L. 12". */
+  locator: string
+  note?: string
+}
+
+export interface ResourceAuthoringData {
+  /** Every chapter this resource covers (multi-select). */
+  chapters: string[]
+  /** Every module ID this resource is attached to (multi-select). */
+  moduleIds: string[]
+  /** Concept IDs whose material appears in this resource. */
+  includedConceptIds: string[]
+  /** Library article IDs bundled with this resource. */
+  includedArticleIds: string[]
+  /** Concept → page/line/slide/timestamp deep-link map. */
+  conceptLocations: ResourceConceptLocation[]
+}
+
 export interface ManagedContentItem {
   id: string
   kind: ContentKind
@@ -175,6 +204,7 @@ export interface ManagedContentItem {
   questionData?: QuestionAuthoringData
   articleData?: ArticleAuthoringData
   practicalData?: PracticalAuthoringData
+  resourceData?: ResourceAuthoringData
 }
 
 const nowMinus = (hours: number) => new Date(Date.now() - hours * 3_600_000).toISOString()

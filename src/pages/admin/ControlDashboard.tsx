@@ -42,6 +42,8 @@ import { ContentEditorDialog, ConfirmDeleteDialog } from '@/components/admin/Con
 import { QuestionEditorDialog } from '@/components/admin/QuestionEditorDialog'
 import { LibraryArticleEditorDialog } from '@/components/admin/LibraryArticleEditorDialog'
 import { PracticalEditorDialog } from '@/components/admin/PracticalEditorDialog'
+import { ResourceEditorDialog } from '@/components/admin/ResourceEditorDialog'
+import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { cn } from '@/lib/cn'
@@ -70,8 +72,10 @@ function bySubjectSubgroups(items: ManagedContentItem[]): Subgroup[] {
   return subjects.filter((s) => map.has(s.id)).map((s) => ({ key: s.id, label: s.name, items: map.get(s.id)! }))
 }
 
+type ResourceTab = 'Files' | 'Videos'
+
 /** Group filtered rows for the active kind: subject→topic, type, or Files/Videos→module. */
-function buildGroups(kind: ContentKind, rows: ManagedContentItem[]): Group[] {
+function buildGroups(kind: ContentKind, rows: ManagedContentItem[], resourceTab: ResourceTab = 'Files'): Group[] {
   if (kind === 'question' || kind === 'article') {
     return subjects
       .map((subj) => {
@@ -102,14 +106,15 @@ function buildGroups(kind: ContentKind, rows: ManagedContentItem[]): Group[] {
       .sort((a, b) => (PRACTICAL_TYPE_ORDER.indexOf(a) + 1 || 99) - (PRACTICAL_TYPE_ORDER.indexOf(b) + 1 || 99))
       .map((type) => ({ key: type, label: type, count: types.get(type)!.length, subs: bySubjectSubgroups(types.get(type)!) }))
   }
-  // resource → Files / Videos, each grouped by module (subject)
-  return (['Files', 'Videos'] as const)
-    .map((bucket) => {
-      const items = rows.filter((r) => (bucket === 'Videos' ? r.fields.Type === 'Video' : r.fields.Type !== 'Video'))
-      if (!items.length) return null
-      return { key: bucket, label: bucket, icon: bucket === 'Videos' ? 'video' : 'file', count: items.length, subs: bySubjectSubgroups(items) } as Group
-    })
-    .filter((g): g is Group => g !== null)
+  // resource → the active Files/Videos tab, grouped by module (subject)
+  const bucketItems = rows.filter((r) => (resourceTab === 'Videos' ? r.fields.Type === 'Video' : r.fields.Type !== 'Video'))
+  return bySubjectSubgroups(bucketItems).map((sub) => ({
+    key: sub.key,
+    label: sub.label,
+    color: getSubject(sub.key).color,
+    count: sub.items.length,
+    subs: [{ key: `${sub.key}-all`, label: resourceTab, items: sub.items }],
+  }))
 }
 
 function itemSummary(item: ManagedContentItem) {
@@ -177,7 +182,12 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false 
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
   }, [activeKind, items, query, status])
 
-  const groups = useMemo(() => buildGroups(activeKind, rows), [activeKind, rows])
+  const [resourceTab, setResourceTab] = useState<ResourceTab>('Files')
+  const resourceCounts = useMemo(() => ({
+    Files: rows.filter((r) => r.fields.Type !== 'Video').length,
+    Videos: rows.filter((r) => r.fields.Type === 'Video').length,
+  }), [rows])
+  const groups = useMemo(() => buildGroups(activeKind, rows, resourceTab), [activeKind, rows, resourceTab])
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const toggleGroup = (key: string) =>
     setCollapsed((prev) => {
@@ -203,7 +213,9 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false 
     // Auto-link: a resource tagged with concepts adds itself to those concepts'
     // approved file/video resource lists (so concepts only reference vetted media).
     if (next.kind === 'resource') {
-      const conceptIds = (next.fields['Included concepts'] ?? '').split(/[\n,;|]/).map((s) => s.trim()).filter(Boolean)
+      const conceptIds = next.resourceData?.includedConceptIds?.length
+        ? next.resourceData.includedConceptIds
+        : (next.fields['Included concepts'] ?? '').split(/[\n,;|]/).map((s) => s.trim()).filter(Boolean)
       if (conceptIds.length) {
         const isVideo = next.fields.Type === 'Video'
         setConceptGraph((g) => ({
@@ -286,6 +298,19 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false 
               ] as const).map(([value, label]) => ({ value, label, icon: KIND_ICON[value], count: kindCounts[value] }))}
             />
           </div>}
+
+          {activeKind === 'resource' && (
+            <div className="border-b border-line px-4 pt-3">
+              <Segmented
+                value={resourceTab}
+                onChange={(value) => setResourceTab(value as ResourceTab)}
+                items={[
+                  { value: 'Files', label: `Files (${resourceCounts.Files})` },
+                  { value: 'Videos', label: `Videos (${resourceCounts.Videos})` },
+                ]}
+              />
+            </div>
+          )}
 
           <div className="flex flex-wrap items-center gap-2 border-b border-line bg-surface-2/45 px-4 py-3">
             <SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder={`Search ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}…`} className="w-72" />
@@ -423,6 +448,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false 
         <LibraryArticleEditorDialog open={editorOpen} item={editing} contentItems={items} graph={conceptGraph} onGraphChange={setConceptGraph} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'practical' && editing?.fields.Type !== 'Skills checklist' ? (
         <PracticalEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+      ) : activeKind === 'resource' ? (
+        <ResourceEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : (
         <ContentEditorDialog open={editorOpen} kind={activeKind} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       )}
