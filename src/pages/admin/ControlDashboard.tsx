@@ -139,8 +139,11 @@ function relativeUpdated(value: string) {
 }
 
 export interface QuestionScope { universityId?: string; year?: string }
+/** Alias kept for readability at resource call sites. */
+export type ContentScope = QuestionScope
 
-export function ControlDashboard({ initialKind = 'question', lockedKind = false, questionScope }: { initialKind?: ContentKind; lockedKind?: boolean; questionScope?: QuestionScope }) {
+export function ControlDashboard({ initialKind = 'question', lockedKind = false, questionScope, scope }: { initialKind?: ContentKind; lockedKind?: boolean; questionScope?: QuestionScope; scope?: ContentScope }) {
+  const activeScope = scope ?? questionScope
   const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [kind, setKind] = useState<ContentKind>(initialKind)
@@ -181,16 +184,16 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     return items
       .filter((item) => item.kind === activeKind)
       .filter((item) => status === 'All' || item.status === status)
-      // Question navigator scope (Master Question Bank → university → year).
+      // Navigator scope (Master → university → year) for question & resource catalogues.
       .filter((item) => {
-        if (activeKind !== 'question' || !questionScope) return true
-        if (questionScope.universityId && !scopeUniversities(item.id).includes(questionScope.universityId)) return false
-        if (questionScope.year && scopeYear(item.subjectId) !== questionScope.year) return false
+        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource')) return true
+        if (activeScope.universityId && !scopeUniversities(item.id).includes(activeScope.universityId)) return false
+        if (activeScope.year && scopeYear(item.subjectId) !== activeScope.year) return false
         return true
       })
       .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')}`.toLowerCase().includes(normalized))
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
-  }, [activeKind, items, query, status, questionScope])
+  }, [activeKind, items, query, status, activeScope])
 
   const [resourceTab, setResourceTab] = useState<ResourceTab>('Files')
   const resourceCounts = useMemo(() => ({
