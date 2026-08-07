@@ -102,7 +102,8 @@ const adminRoutes = adminPaths.map((path) => ({
 }))
 
 export const router = createBrowserRouter([
-  { path: '/', element: <Landing /> },
+  // Arabic-first: the root renders the Arabic landing.
+  { path: '/', element: <LandingAr /> },
   { path: '/en', element: <Landing /> },
   { path: '/ar', element: <LandingAr /> },
   {
