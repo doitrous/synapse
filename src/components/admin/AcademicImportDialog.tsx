@@ -101,7 +101,18 @@ export function AcademicImportDialog({ open, university, onClose, onImport }: {
 
   const commit = () => {
     if (!result || result.years.length === 0) return
-    onImport(mode === 'replace' ? result.years : [...university.years, ...result.years])
+    if (mode === 'replace') { onImport(result.years); return }
+    // Append: keep year labels unique so each year keeps a distinct year_ID.
+    const taken = new Set(university.years.map((y) => y.year.toLowerCase()))
+    const deduped = result.years.map((y) => {
+      if (!taken.has(y.year.toLowerCase())) { taken.add(y.year.toLowerCase()); return y }
+      let n = 2
+      let label = `${y.year} (${n})`
+      while (taken.has(label.toLowerCase())) { n++; label = `${y.year} (${n})` }
+      taken.add(label.toLowerCase())
+      return { ...y, year: label }
+    })
+    onImport([...university.years, ...deduped])
   }
 
   return (
