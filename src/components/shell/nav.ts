@@ -90,13 +90,13 @@ export const adminNav: NavGroup[] = [
   {
     label: 'Content',
     items: [
+      { label: 'Subjects & Topics', to: '/admin/taxonomy', icon: Network },
       { label: 'Academic Setup', to: '/admin/academic', icon: GraduationCap },
       { label: 'Library Setup', to: '/admin/library', icon: Library },
       { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },
+      { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
       { label: 'Concepts', to: '/admin/concepts', icon: Braces },
       { label: 'Relationships', to: '/admin/relationships', icon: GitFork },
-      { label: 'Subjects & Topics', to: '/admin/taxonomy', icon: Network },
-      { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
       { label: 'Resources & Media', to: '/admin/resources', icon: Clapperboard },
       { label: 'Content Reports', to: '/admin/reports', icon: Flag },
     ],
@@ -106,6 +106,7 @@ export const adminNav: NavGroup[] = [
     items: [
       { label: 'Email & Automations', to: '/admin/email', icon: Mail },
       { label: 'Student Notifications', to: '/admin/notifications', icon: BellRing },
+      { label: 'Students', to: '/admin/students', icon: Users },
       { label: 'Payments & Finance', to: '/admin/payments', icon: Banknote },
       { label: 'Vouchers', to: '/admin/vouchers', icon: TicketPercent },
     ],

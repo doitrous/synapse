@@ -32,6 +32,7 @@ import { BulkImportPage } from '@/pages/admin/BulkImportPage'
 import { ConceptsSetup } from '@/pages/admin/ConceptsSetup'
 import { RelationshipsSetup } from '@/pages/admin/RelationshipsSetup'
 import { TaxonomySetup } from '@/pages/admin/TaxonomySetup'
+import { StudentsManagement } from '@/pages/admin/StudentsManagement'
 
 // Surfaces that are built get their real component; the rest render the
 // intentional Placeholder. Adding a surface = one entry here.
@@ -60,6 +61,7 @@ const adminBuilt: Record<string, ReactElement> = {
   practical: <ControlDashboard key="practical-catalogue" initialKind="practical" lockedKind />,
   resources: <ControlDashboard key="resources-catalogue" initialKind="resource" lockedKind />,
   reports: <ReportsReview />,
+  students: <StudentsManagement />,
   notifications: <NotificationCampaigns />,
   vouchers: <VoucherManagement />,
   payments: <PaymentsFinance />,
@@ -94,6 +96,7 @@ const adminPaths = [
   'practical',
   'resources',
   'reports',
+  'students',
   'notifications',
   'vouchers',
   'email',
