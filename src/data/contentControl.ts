@@ -94,6 +94,8 @@ export interface ArticleAuthoringData {
   microtopicId?: string
   /** Concept IDs related to this article (from here, or auto-caught from a concept). */
   relatedConceptIds?: string[]
+  /** University-specific notes (e.g. "Ain Shams only"), rendered as distinct callouts. */
+  universityNotes?: Array<{ id: string; universityId: string; text: string }>
 }
 
 export interface PracticalAnswerDraft {

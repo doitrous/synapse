@@ -189,6 +189,26 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               />
             </div>
 
+            {/* University-only notes */}
+            <div className="mt-6 border-t border-line pt-5">
+              <div className="flex items-center gap-2"><Icon icon={Flag} size={15} className="text-accent" /><p className="text-[12.5px] font-bold text-ink">University-only notes</p></div>
+              <p className="mb-2 mt-1 text-[11px] leading-snug text-ink-3">A note shown only to one university's students (e.g. "Ain Shams only"), highlighted in the article.</p>
+              <div className="space-y-2">
+                {(data.universityNotes ?? []).map((note) => (
+                  <div key={note.id} className="rounded-lg border border-accent-line bg-accent-tint/30 p-2">
+                    <div className="flex items-center gap-1.5">
+                      <Select aria-label="University" value={note.universityId} onChange={(e) => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).map((x) => x.id === note.id ? { ...x, universityId: e.target.value } : x) }))} className="h-8 text-[12px]">
+                        {universities.map((u) => <option key={u.id} value={u.id}>{u.short}</option>)}
+                      </Select>
+                      <button type="button" onClick={() => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).filter((x) => x.id !== note.id) }))} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label="Remove note"><Icon icon={Trash2} size={13} /></button>
+                    </div>
+                    <Textarea aria-label="Note text" value={note.text} onChange={(e) => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).map((x) => x.id === note.id ? { ...x, text: e.target.value } : x) }))} placeholder="Note shown only to this university…" className="mt-1.5 min-h-16 text-[12.5px]" />
+                  </div>
+                ))}
+                <Button type="button" size="sm" variant="secondary" iconLeft={Plus} onClick={() => updateData((c) => ({ ...c, universityNotes: [...(c.universityNotes ?? []), { id: newId('unote'), universityId: universities[0]?.id ?? 'oms', text: '' }] }))}>Add university note</Button>
+              </div>
+            </div>
+
             <div className="mt-6 border-t border-line pt-5"><div className="flex items-center gap-2"><Icon icon={GitFork} size={15} className="text-accent" /><p className="text-[12.5px] font-bold text-ink">Create canonical concept</p></div><div className="mt-3 space-y-2"><TextInput aria-label="Canonical concept ID" value={conceptId} onChange={(event) => setConceptId(event.target.value)} placeholder="med.concept.example" /><TextInput aria-label="Concept label" value={conceptLabel} onChange={(event) => setConceptLabel(event.target.value)} placeholder="Concept label" /><Textarea aria-label="Concept definition" className="min-h-20" value={conceptDefinition} onChange={(event) => setConceptDefinition(event.target.value)} placeholder="Canonical definition" /><Button type="button" size="sm" className="w-full" iconLeft={Plus} onClick={createConcept}>Create concept</Button></div></div>
 
             <div className="mt-6 border-t border-line pt-5"><p className="text-[12.5px] font-bold text-ink">Relate two concepts</p><div className="mt-3 space-y-2"><Select aria-label="Source concept" value={relationSource} onChange={(event) => setRelationSource(event.target.value)}>{graph.concepts.map((concept) => <option key={concept.id} value={concept.id}>{concept.label} · {concept.id}</option>)}</Select><Select aria-label="Concept relationship" value={relationType} onChange={(event) => setRelationType(event.target.value as ConceptRelationType)}>{CONCEPT_RELATIONS.map((relation) => <option key={relation}>{relation}</option>)}</Select><Select aria-label="Target concept" value={relationTarget} onChange={(event) => setRelationTarget(event.target.value)}>{graph.concepts.map((concept) => <option key={concept.id} value={concept.id}>{concept.label} · {concept.id}</option>)}</Select><Button type="button" size="sm" className="w-full" iconLeft={Link2} onClick={createRelation}>Add relationship</Button></div></div>
@@ -201,6 +221,21 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               <div className="mt-3 flex items-center gap-3 text-[12px] text-ink-3"><span>{draft.fields['Reading time'] || '8'} min read</span><span>·</span><span>{draft.status}</span></div>
 
               <div className="mt-7"><div className="mb-1.5 flex items-center justify-between"><label htmlFor="article-summary" className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Summary</label><Button type="button" size="sm" variant="ghost" onClick={() => captureSelection('summary')}>Use selected text</Button></div><Textarea id="article-summary" className="min-h-32 border-transparent bg-transparent px-0 text-[16.5px] leading-[1.65] shadow-none focus:border-line" value={data.summary} onChange={(event) => updateData((current) => ({ ...current, summary: event.target.value }))} /></div>
+
+              {/* Distinct university-only note callouts, shown inside the article */}
+              {(data.universityNotes ?? []).filter((n) => n.text.trim()).map((note) => {
+                const uni = universities.find((u) => u.id === note.universityId)
+                return (
+                  <div key={note.id} className="mt-4 overflow-hidden rounded-xl border-s-4 border-s-accent border-y border-e border-accent-line bg-accent-tint/40">
+                    <div className="flex items-center gap-1.5 border-b border-accent-line/70 px-3.5 py-1.5">
+                      <Icon icon={Flag} size={13} className="text-accent-strong" />
+                      <span className="text-[11px] font-bold uppercase tracking-[0.06em] text-accent-strong">{uni?.short ?? note.universityId} only</span>
+                    </div>
+                    <p className="px-3.5 py-2.5 text-[13.5px] leading-relaxed text-ink">{note.text}</p>
+                  </div>
+                )
+              })}
+
               <div className="mt-5 border-t border-line pt-5"><div className="mb-2.5 flex items-center justify-between"><label className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Sections</label><span className="text-[11px] text-ink-3">Rename or remove to fit this article</span></div><SectionsEditor sections={data.sections ?? []} onChange={(sections) => updateData((current) => ({ ...current, sections }))} /></div>
 
               {data.annotations.length > 0 && <section className="mt-8 rounded-xl border border-accent-line bg-accent-tint/35 p-4"><div className="flex items-center gap-2"><Icon icon={Flag} size={15} className="text-accent" /><h3 className="text-[13px] font-bold text-ink">Concept annotations</h3></div><ul className="mt-3 divide-y divide-accent-line">{data.annotations.map((annotation) => <li key={annotation.id} className="flex gap-3 py-2.5"><div className="min-w-0 flex-1"><p className="text-[12.5px] text-ink">“{annotation.quote}”</p><p className="mt-0.5 font-mono text-[10.5px] text-accent-strong">{annotation.relation} → {annotation.conceptId}</p></div><button type="button" className="grid size-9 place-items-center text-ink-3 hover:text-danger" aria-label="Remove annotation" onClick={() => updateData((current) => ({ ...current, annotations: current.annotations.filter((item) => item.id !== annotation.id) }))}><Icon icon={Trash2} size={14} /></button></li>)}</ul></section>}

@@ -1,11 +1,11 @@
 import { useMemo, useState } from 'react'
-import { Plus, Trash2, ArrowRight, Upload, Search, CircleCheck, TriangleAlert } from 'lucide-react'
+import { Plus, Trash2, ArrowRight, Upload, Search, CircleCheck, TriangleAlert, Tag } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
-import { Field, SearchInput, Select, Textarea } from '@/components/ui/Field'
+import { Field, SearchInput, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { usePersistentState } from '@/lib/usePersistentState'
 import {
@@ -16,16 +16,21 @@ import {
   type ConceptRelationType,
 } from '@/data/conceptGraph'
 
-/** Directed relationship types (source → target). */
+/** Built-in directed relationship types (source → target). */
 const RELATION_TYPES: readonly ConceptRelationType[] = CONCEPT_RELATIONS
+const RELATION_TYPES_KEY = 'synapse-relation-types-v1'
+const slugType = (s: string) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '_').replace(/(^_|_$)/g, '')
 
 export function RelationshipsSetup() {
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [customTypes, setCustomTypes] = usePersistentState<string[]>(RELATION_TYPES_KEY, [])
+  const allTypes = [...RELATION_TYPES, ...customTypes.filter((t) => !RELATION_TYPES.includes(t as ConceptRelationType))]
   const [query, setQuery] = useState('')
   const [filterType, setFilterType] = useState<string>('all')
   const [source, setSource] = useState('')
   const [type, setType] = useState<ConceptRelationType>('associated_with')
   const [target, setTarget] = useState('')
+  const [newType, setNewType] = useState('')
   const [notice, setNotice] = useState<string | null>(null)
   const [importing, setImporting] = useState(false)
   const [importText, setImportText] = useState('')
@@ -58,11 +63,20 @@ export function RelationshipsSetup() {
     setGraph((g) => ({ ...g, relations: g.relations.filter((r) => r.id !== id) }))
   }
 
+  function addCustomType() {
+    const t = slugType(newType)
+    if (!t || allTypes.includes(t as ConceptRelationType)) { setNewType(''); return }
+    setCustomTypes((cur) => [...cur, t])
+    setType(t as ConceptRelationType)
+    setNewType('')
+    setNotice(`Added relationship type "${t}".`)
+  }
+
   function runImport() {
     const byId = new Map(graph.concepts.map((c) => [c.id, c]))
     const byLabel = new Map(graph.concepts.map((c) => [c.label.toLowerCase(), c]))
     const resolve = (token: string) => byId.get(token.trim()) ?? byLabel.get(token.trim().toLowerCase())
-    const validTypes = new Set<string>(RELATION_TYPES)
+    const validTypes = new Set<string>(allTypes)
     const existing = new Set(graph.relations.map((r) => `${r.sourceId}|${r.type}|${r.targetId}`))
     const additions: ConceptGraph['relations'] = []
     const errors: string[] = []
@@ -117,7 +131,7 @@ export function RelationshipsSetup() {
           </Field>
           <Field label="Relation (direction →)">
             <Select value={type} onChange={(e) => setType(e.target.value as ConceptRelationType)}>
-              {RELATION_TYPES.map((rt) => <option key={rt} value={rt}>{rt}</option>)}
+              {allTypes.map((rt) => <option key={rt} value={rt}>{rt}</option>)}
             </Select>
           </Field>
           <Field label="Target concept">
@@ -128,6 +142,23 @@ export function RelationshipsSetup() {
           </Field>
           <Button variant="primary" iconLeft={Plus} onClick={addRelation} disabled={!source || !target || source === target}>Add</Button>
         </div>
+        <div className="flex flex-wrap items-end gap-2 border-t border-line px-4 py-3">
+          <Field label="Add a custom relationship type" hint="Define your own directed type — it becomes available above and in bulk import." className="min-w-[16rem] flex-1">
+            <TextInput value={newType} onChange={(e) => setNewType(e.target.value)} placeholder="e.g. exacerbated_by" onKeyDown={(e) => { if (e.key === 'Enter') addCustomType() }} />
+          </Field>
+          <Button variant="secondary" iconLeft={Tag} onClick={addCustomType} disabled={!newType.trim()}>Add type</Button>
+          {customTypes.length > 0 && (
+            <div className="flex w-full flex-wrap items-center gap-1.5 pt-1">
+              <span className="text-[11px] text-ink-3">Custom:</span>
+              {customTypes.map((ct) => (
+                <span key={ct} className="inline-flex items-center gap-1 rounded-full border border-accent-line bg-accent-tint py-0.5 pe-1.5 ps-2.5 text-[11.5px] font-medium text-accent-strong">
+                  {ct}
+                  <button onClick={() => setCustomTypes((cur) => cur.filter((x) => x !== ct))} aria-label={`Remove ${ct}`} className="text-accent/70 hover:text-accent"><Icon icon={Trash2} size={11} /></button>
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
       </Panel>
 
       {/* Relationship list */}
@@ -136,7 +167,7 @@ export function RelationshipsSetup() {
           <SearchInput value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search relationships…" className="w-72" />
           <Select value={filterType} onChange={(e) => setFilterType(e.target.value)} className="w-52">
             <option value="all">All types</option>
-            {RELATION_TYPES.map((rt) => <option key={rt} value={rt}>{rt}</option>)}
+            {allTypes.map((rt) => <option key={rt} value={rt}>{rt}</option>)}
           </Select>
           <span className="ms-auto tnum font-mono text-[11.5px] text-ink-3">{rows.length} of {graph.relations.length}</span>
         </div>
