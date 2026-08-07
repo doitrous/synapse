@@ -1,36 +1,84 @@
 import { useState } from 'react'
-import { Network, Plus, Trash2, ChevronRight, RotateCcw, Hash } from 'lucide-react'
+import { Network, Plus, Trash2, ChevronRight, RotateCcw, Hash, Upload, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
-import { Panel } from '@/components/ui/Panel'
+import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
+import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
-import { TextInput } from '@/components/ui/Field'
+import { Field, TextInput, Textarea } from '@/components/ui/Field'
 import { SubjectDot } from '@/components/ui/Subject'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { taxonomyTree, systemId, topicIdOf, subtopicIdOf, microtopicIdOf } from '@/data/taxonomy'
 
-const KEY = 'synapse-taxonomy-tree-v1'
-const slug = (s: string) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+const KEY = 'synapse-taxonomy-tree-v2'
+const SUBJECT_IDS = ['cvs', 'resp', 'renal', 'neuro', 'pharm', 'gi', 'endo', 'msk']
+const slug = (s: string) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'item'
 
 interface Micro { id: string; title: string; micId: string }
 interface Sub { id: string; title: string; subId: string; micros: Micro[] }
 interface Topic { id: string; title: string; tpcId: string; subs: Sub[] }
-interface Sys { id: string; name: string; short: string; color?: string; sysId: string; topics: Topic[] }
+interface Sys { id: string; name: string; short: string; sysId: string; topics: Topic[] }
+
+/** A few demo microtopics so every level is populated out of the box. */
+const DEMO_MICROS: Record<string, string[]> = {
+  'hf-patho': ['Frank–Starling curve', 'Neurohormonal activation'],
+  'acs-dx': ['ECG territories', 'Troponin kinetics'],
+  'asthma-patho': ['Type-2 inflammation'],
+  'diur-sites': ['Nephron transporters'],
+}
 
 function seed(): Sys[] {
   return taxonomyTree().map((s) => ({
     id: s.id, name: s.name, short: s.short, sysId: s.sysId,
     topics: s.topics.map((t) => ({
       id: t.id, title: t.title, tpcId: t.tpcId,
-      subs: t.subtopics.map((st) => ({ id: st.id, title: st.title, subId: st.subId, micros: [] as Micro[] })),
+      subs: t.subtopics.map((st) => ({
+        id: st.id, title: st.title, subId: st.subId,
+        micros: (DEMO_MICROS[st.id] ?? []).map((m) => ({ id: slug(m), title: m, micId: microtopicIdOf(slug(m)) })),
+      })),
     })),
   }))
 }
 
-/** Small monospace ID chip. */
+/** Every ID currently in the tree, for uniqueness checks. */
+function allIds(tree: Sys[]): Set<string> {
+  const set = new Set<string>()
+  tree.forEach((s) => {
+    set.add(s.id)
+    s.topics.forEach((t) => { set.add(t.id); t.subs.forEach((su) => { set.add(su.id); su.micros.forEach((m) => set.add(m.id)) }) })
+  })
+  return set
+}
+
+/** Guarantee a fresh slug ID — appends -2, -3… if the name's slug is taken. */
+function uniqueId(base: string, taken: Set<string>): string {
+  let candidate = base
+  let n = 2
+  while (taken.has(candidate)) candidate = `${base}-${n++}`
+  return candidate
+}
+
 function Id({ value }: { value: string }) {
   return <span className="inline-flex items-center gap-1 rounded bg-inset px-1.5 py-0.5 font-mono text-[10px] text-ink-2"><Icon icon={Hash} size={9} className="text-ink-3" />{value}</span>
+}
+
+/** Click-to-rename title. */
+function Editable({ value, onSave, className }: { value: string; onSave: (v: string) => void; className?: string }) {
+  const [editing, setEditing] = useState(false)
+  const [v, setV] = useState(value)
+  if (editing) {
+    return (
+      <input
+        autoFocus value={v}
+        onChange={(e) => setV(e.target.value)}
+        onBlur={() => { setEditing(false); if (v.trim() && v !== value) onSave(v.trim()) }}
+        onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); if (e.key === 'Escape') { setV(value); setEditing(false) } }}
+        className={cn('rounded border border-accent bg-surface px-1.5 py-0.5 text-ink outline-none', className)}
+      />
+    )
+  }
+  return <button type="button" onClick={() => { setV(value); setEditing(true) }} title="Click to rename" className={cn('rounded px-1 py-0.5 text-start hover:bg-inset', className)}>{value || '—'}</button>
 }
 
 function AddInline({ placeholder, onAdd }: { placeholder: string; onAdd: (value: string) => void }) {
@@ -46,6 +94,9 @@ function AddInline({ placeholder, onAdd }: { placeholder: string; onAdd: (value:
 export function TaxonomySetup() {
   const [tree, setTree] = usePersistentState<Sys[]>(KEY, seed)
   const [open, setOpen] = useState<Record<string, boolean>>({})
+  const [importing, setImporting] = useState(false)
+  const [importText, setImportText] = useState('')
+  const [report, setReport] = useState<{ systems: number; topics: number; subs: number; micros: number; skipped: number; errors: string[] } | null>(null)
   const toggle = (k: string) => setOpen((o) => ({ ...o, [k]: !o[k] }))
 
   const totals = {
@@ -56,22 +107,76 @@ export function TaxonomySetup() {
   }
 
   const update = (fn: (draft: Sys[]) => Sys[]) => setTree((cur) => fn(structuredClone(cur)))
+  const findSys = (d: Sys[], id: string) => d.find((x) => x.id === id)!
+  const findTop = (d: Sys[], sid: string, tid: string) => findSys(d, sid).topics.find((x) => x.id === tid)!
+  const findSub = (d: Sys[], sid: string, tid: string, suid: string) => findTop(d, sid, tid).subs.find((x) => x.id === suid)!
 
-  const addSystem = (name: string) => update((d) => [...d, { id: slug(name), name, short: name.slice(0, 3).toUpperCase(), sysId: systemId(slug(name)), topics: [] }])
-  const addTopic = (sysIdx: string, title: string) => update((d) => { const s = d.find((x) => x.id === sysIdx)!; s.topics.push({ id: slug(title), title, tpcId: topicIdOf(slug(title)), subs: [] }); return d })
-  const addSub = (sysIdx: string, topId: string, title: string) => update((d) => { const t = d.find((x) => x.id === sysIdx)!.topics.find((x) => x.id === topId)!; t.subs.push({ id: slug(title), title, subId: subtopicIdOf(slug(title)), micros: [] }); return d })
-  const addMicro = (sysIdx: string, topId: string, subId: string, title: string) => update((d) => { const su = d.find((x) => x.id === sysIdx)!.topics.find((x) => x.id === topId)!.subs.find((x) => x.id === subId)!; su.micros.push({ id: slug(title), title, micId: microtopicIdOf(slug(title)) }); return d })
-  const removeSystem = (sysIdx: string) => update((d) => d.filter((x) => x.id !== sysIdx))
-  const removeTopic = (sysIdx: string, topId: string) => update((d) => { const s = d.find((x) => x.id === sysIdx)!; s.topics = s.topics.filter((t) => t.id !== topId); return d })
-  const removeSub = (sysIdx: string, topId: string, subId: string) => update((d) => { const t = d.find((x) => x.id === sysIdx)!.topics.find((x) => x.id === topId)!; t.subs = t.subs.filter((s) => s.id !== subId); return d })
-  const removeMicro = (sysIdx: string, topId: string, subId: string, micId: string) => update((d) => { const su = d.find((x) => x.id === sysIdx)!.topics.find((x) => x.id === topId)!.subs.find((x) => x.id === subId)!; su.micros = su.micros.filter((m) => m.id !== micId); return d })
+  const dotId = (id: string) => (SUBJECT_IDS.includes(id) ? id : 'cvs')
+
+  const addSystem = (name: string) => update((d) => { const id = uniqueId(slug(name), allIds(d)); return [...d, { id, name, short: name.slice(0, 3).toUpperCase(), sysId: systemId(id), topics: [] }] })
+  const addTopic = (sid: string, title: string) => update((d) => { const id = uniqueId(slug(title), allIds(d)); findSys(d, sid).topics.push({ id, title, tpcId: topicIdOf(id), subs: [] }); return d })
+  const addSub = (sid: string, tid: string, title: string) => update((d) => { const id = uniqueId(slug(title), allIds(d)); findTop(d, sid, tid).subs.push({ id, title, subId: subtopicIdOf(id), micros: [] }); return d })
+  const addMicro = (sid: string, tid: string, suid: string, title: string) => update((d) => { const id = uniqueId(slug(title), allIds(d)); findSub(d, sid, tid, suid).micros.push({ id, title, micId: microtopicIdOf(id) }); return d })
+
+  const renameSystem = (sid: string, name: string) => update((d) => { findSys(d, sid).name = name; return d })
+  const renameTopic = (sid: string, tid: string, title: string) => update((d) => { findTop(d, sid, tid).title = title; return d })
+  const renameSub = (sid: string, tid: string, suid: string, title: string) => update((d) => { findSub(d, sid, tid, suid).title = title; return d })
+  const renameMicro = (sid: string, tid: string, suid: string, mid: string, title: string) => update((d) => { const m = findSub(d, sid, tid, suid).micros.find((x) => x.id === mid)!; m.title = title; return d })
+
+  const removeSystem = (sid: string) => update((d) => d.filter((x) => x.id !== sid))
+  const removeTopic = (sid: string, tid: string) => update((d) => { const s = findSys(d, sid); s.topics = s.topics.filter((t) => t.id !== tid); return d })
+  const removeSub = (sid: string, tid: string, suid: string) => update((d) => { const t = findTop(d, sid, tid); t.subs = t.subs.filter((s) => s.id !== suid); return d })
+  const removeMicro = (sid: string, tid: string, suid: string, mid: string) => update((d) => { const su = findSub(d, sid, tid, suid); su.micros = su.micros.filter((m) => m.id !== mid); return d })
+
+  function runImport() {
+    let sAdd = 0, tAdd = 0, suAdd = 0, mAdd = 0, skipped = 0
+    const errors: string[] = []
+    update((d) => {
+      const taken = allIds(d)
+      const newId = (name: string) => { const id = uniqueId(slug(name), taken); taken.add(id); return id }
+      let sys: Sys | null = null, top: Topic | null = null, sub: Sub | null = null
+      importText.split(/\r?\n/).forEach((raw, i) => {
+        const line = raw.trim()
+        if (!line || line.startsWith('# ') === false && !/^#{2,4}\s/.test(line)) {
+          if (line && !line.startsWith('#')) errors.push(`Line ${i + 1}: expected a #/##/###/#### heading.`)
+          if (!/^#{1,4}\s/.test(line)) return
+        }
+        const m = line.match(/^(#{1,4})\s+(.+)/)
+        if (!m) return
+        const level = m[1].length; const name = m[2].trim()
+        if (level === 1) {
+          const existing = d.find((x) => x.name.toLowerCase() === name.toLowerCase())
+          if (existing) { sys = existing; skipped++; top = null; sub = null; return }
+          const id = newId(name); sys = { id, name, short: name.slice(0, 3).toUpperCase(), sysId: systemId(id), topics: [] }; d.push(sys); sAdd++; top = null; sub = null
+        } else if (level === 2) {
+          if (!sys) { errors.push(`Line ${i + 1}: topic "${name}" has no parent system.`); return }
+          const existing = sys.topics.find((x) => x.title.toLowerCase() === name.toLowerCase())
+          if (existing) { top = existing; skipped++; sub = null; return }
+          const id = newId(name); top = { id, title: name, tpcId: topicIdOf(id), subs: [] }; sys.topics.push(top); tAdd++; sub = null
+        } else if (level === 3) {
+          if (!top) { errors.push(`Line ${i + 1}: subtopic "${name}" has no parent topic.`); return }
+          const existing = top.subs.find((x) => x.title.toLowerCase() === name.toLowerCase())
+          if (existing) { sub = existing; skipped++; return }
+          const id = newId(name); sub = { id, title: name, subId: subtopicIdOf(id), micros: [] }; top.subs.push(sub); suAdd++
+        } else if (level === 4) {
+          if (!sub) { errors.push(`Line ${i + 1}: microtopic "${name}" has no parent subtopic.`); return }
+          if (sub.micros.some((x) => x.title.toLowerCase() === name.toLowerCase())) { skipped++; return }
+          const id = newId(name); sub.micros.push({ id, title: name, micId: microtopicIdOf(id) }); mAdd++
+        }
+      })
+      return d
+    })
+    setReport({ systems: sAdd, topics: tAdd, subs: suAdd, micros: mAdd, skipped, errors })
+  }
+
+  const template = `# Immunology\n## Hypersensitivity\n### Type I hypersensitivity\n#### Mast cell degranulation\n### Type IV hypersensitivity\n## Autoimmunity\n### Tolerance mechanisms`
 
   return (
     <PageContainer>
       <PageHeader
         title="Subjects & Topics"
-        description="Manage the curriculum taxonomy — Systems → Topics → Subtopics → Microtopics. Each level gets a unique, visible ID that concepts, questions, articles, and resources tag themselves with."
-        actions={<Button variant="secondary" size="md" iconLeft={RotateCcw} onClick={() => setTree(seed())}>Reset to default</Button>}
+        description="The single source of the curriculum taxonomy — Systems → Topics → Subtopics → Microtopics. Names are click-to-rename; each level gets a unique, visible ID (never reused) that concepts, questions, articles, and resources tag against."
+        actions={<><Button variant="secondary" size="md" iconLeft={Upload} onClick={() => { setImporting(true); setReport(null); setImportText('') }}>Bulk import</Button><Button variant="secondary" size="md" iconLeft={RotateCcw} onClick={() => setTree(seed())}>Reset</Button></>}
       />
 
       <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -89,8 +194,8 @@ export function TaxonomySetup() {
             <Panel key={sys.id} className="overflow-hidden">
               <div className="flex items-center gap-2 border-b border-line bg-surface-2/50 px-3 py-2.5">
                 <button onClick={() => toggle(sk)} className="grid size-6 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={15} className={cn('transition-transform', (open[sk] ?? true) && 'rotate-90')} /></button>
-                <SubjectDot id={sys.color ? sys.id : (['cvs', 'resp', 'renal', 'neuro', 'pharm', 'gi', 'endo', 'msk'].includes(sys.id) ? sys.id : 'cvs')} />
-                <span className="text-[14px] font-semibold text-ink">{sys.name}</span>
+                <SubjectDot id={dotId(sys.id)} />
+                <Editable value={sys.name} onSave={(v) => renameSystem(sys.id, v)} className="text-[14px] font-semibold text-ink" />
                 <Id value={sys.sysId} />
                 <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{sys.topics.length} topics</span>
                 <Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeSystem(sys.id)}>Remove</Button>
@@ -103,7 +208,7 @@ export function TaxonomySetup() {
                       <div key={top.id} className="rounded-lg border border-line">
                         <div className="flex items-center gap-2 px-3 py-2">
                           <button onClick={() => toggle(tk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={14} className={cn('transition-transform', open[tk] && 'rotate-90')} /></button>
-                          <span className="text-[13.5px] font-medium text-ink">{top.title}</span>
+                          <Editable value={top.title} onSave={(v) => renameTopic(sys.id, top.id, v)} className="text-[13.5px] font-medium text-ink" />
                           <Id value={top.tpcId} />
                           <span className="tnum ms-auto font-mono text-[10.5px] text-ink-3">{top.subs.length}</span>
                           <button onClick={() => removeTopic(sys.id, top.id)} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label="Remove topic"><Icon icon={Trash2} size={14} /></button>
@@ -116,15 +221,15 @@ export function TaxonomySetup() {
                                 <div key={sub.id} className="ms-4">
                                   <div className="flex items-center gap-2 py-1">
                                     <button onClick={() => toggle(suk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={13} className={cn('transition-transform', open[suk] && 'rotate-90')} /></button>
-                                    <span className="text-[12.5px] text-ink-2">{sub.title}</span>
+                                    <Editable value={sub.title} onSave={(v) => renameSub(sys.id, top.id, sub.id, v)} className="text-[12.5px] text-ink-2" />
                                     <Id value={sub.subId} />
                                     <button onClick={() => removeSub(sys.id, top.id, sub.id)} className="ms-auto grid size-7 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label="Remove subtopic"><Icon icon={Trash2} size={13} /></button>
                                   </div>
                                   {open[suk] && (
-                                    <div className="ms-6 space-y-1 border-s border-line-2 ps-2 py-1">
+                                    <div className="ms-6 space-y-1 border-s border-line-2 py-1 ps-2">
                                       {sub.micros.map((mic) => (
                                         <div key={mic.id} className="flex items-center gap-2 py-0.5">
-                                          <span className="text-[12px] text-ink-3">{mic.title}</span>
+                                          <Editable value={mic.title} onSave={(v) => renameMicro(sys.id, top.id, sub.id, mic.id, v)} className="text-[12px] text-ink-3" />
                                           <Id value={mic.micId} />
                                           <button onClick={() => removeMicro(sys.id, top.id, sub.id, mic.id)} className="ms-auto grid size-6 place-items-center rounded text-ink-3 hover:text-danger" aria-label="Remove microtopic"><Icon icon={Trash2} size={12} /></button>
                                         </div>
@@ -151,8 +256,43 @@ export function TaxonomySetup() {
 
       <div className="mt-4 flex items-center gap-2 text-[11.5px] text-ink-3">
         <Icon icon={Network} size={13} />
-        IDs are generated automatically from each name and stay visible so questions, articles, concepts, and resources can tag against them.
+        IDs are generated automatically and never reused — if a name's slug is taken, a numeric suffix is appended.
       </div>
+
+      {/* Bulk import dialog */}
+      {importing && (
+        <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label="Bulk import taxonomy" onMouseDown={() => setImporting(false)}>
+          <Panel className="animate-pop flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-xl sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
+            <PanelHeader title="Bulk import taxonomy" icon={Upload} />
+            <div className="min-h-0 flex-1 space-y-3 overflow-y-auto p-5">
+              <ol className="list-inside list-decimal space-y-1 text-[12.5px] text-ink-2">
+                <li>Use Markdown heading depth for the level: <code className="rounded bg-inset px-1 font-mono text-[11px]">#</code> system, <code className="rounded bg-inset px-1 font-mono text-[11px]">##</code> topic, <code className="rounded bg-inset px-1 font-mono text-[11px]">###</code> subtopic, <code className="rounded bg-inset px-1 font-mono text-[11px]">####</code> microtopic.</li>
+                <li>Each node is created under the most recent parent above it.</li>
+                <li>Names matching an existing node at that level are reused (not duplicated); every new node gets a unique ID.</li>
+                <li>Press <b>Import</b> for a report of what was added, reused, and rejected.</li>
+              </ol>
+              <Field label="Taxonomy"><Textarea value={importText} onChange={(e) => setImportText(e.target.value)} placeholder={template} className="min-h-[12rem] font-mono text-[12px]" /></Field>
+              {report && (
+                <div className="rounded-lg border border-line bg-surface-2/50 p-3">
+                  <div className="flex flex-wrap gap-2">
+                    <Badge tone="success">{report.systems} systems</Badge>
+                    <Badge tone="success">{report.topics} topics</Badge>
+                    <Badge tone="success">{report.subs} subtopics</Badge>
+                    <Badge tone="success">{report.micros} microtopics</Badge>
+                    <Badge tone="neutral">{report.skipped} reused</Badge>
+                    <Badge tone={report.errors.length ? 'danger' : 'neutral'}>{report.errors.length} rejected</Badge>
+                  </div>
+                  {report.errors.length > 0 && <ul className="mt-2 max-h-32 space-y-0.5 overflow-y-auto">{report.errors.map((e, i) => <li key={i} className="flex items-start gap-1.5 text-[11.5px] text-danger"><Icon icon={TriangleAlert} size={12} className="mt-0.5 shrink-0" />{e}</li>)}</ul>}
+                </div>
+              )}
+            </div>
+            <div className="flex items-center justify-between gap-2 border-t border-line bg-surface-2/40 px-5 py-3">
+              <Button variant="ghost" onClick={() => setImporting(false)}>Close</Button>
+              <Button variant="primary" iconLeft={Upload} onClick={runImport} disabled={!importText.trim()}>Import</Button>
+            </div>
+          </Panel>
+        </div>
+      )}
     </PageContainer>
   )
 }
