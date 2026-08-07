@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { cn } from '@/lib/cn'
 import type { CSSProperties } from 'react'
 import type { LucideIcon } from 'lucide-react'
 import {
@@ -251,6 +252,46 @@ export function LandingShell({ content }: { content: LandingContent }) {
               <div className="mt-2"><ReferenceBar value={68} /></div>
             </div>
           </div>
+        </section>
+
+        {/* ---- Plans & pricing ---- */}
+        <section className="mt-24">
+          <div className="flex items-end justify-between gap-4 border-b-2 border-ink/85 pb-3">
+            <h2 className="font-serif text-[27px] font-semibold tracking-[-0.015em] text-ink sm:text-[32px]">{c.plans.title}</h2>
+            <p className="hidden max-w-sm text-[13.5px] leading-snug text-ink-3 sm:block">{c.plans.sub}</p>
+          </div>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {c.plans.items.map((plan) => (
+              <div
+                key={plan.name}
+                className={cn(
+                  'relative flex flex-col rounded-2xl border bg-surface p-5 shadow-panel',
+                  plan.featured ? 'border-accent shadow-raised ring-1 ring-accent/25' : 'border-line',
+                )}
+              >
+                {plan.badge && (
+                  <span className="absolute -top-2.5 start-5 rounded-full bg-accent px-2.5 py-0.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-on-accent">{plan.badge}</span>
+                )}
+                <p className="text-[15px] font-semibold text-ink">{plan.name}</p>
+                <div className="mt-2 flex items-baseline gap-1.5">
+                  <span className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink">{plan.price}</span>
+                  {plan.period && <span className="text-[13px] text-ink-3">{plan.period}</span>}
+                </div>
+                {plan.alt && <p className="mt-1 text-[12px] text-ink-3">{plan.alt}</p>}
+                <p className="mt-3 flex-1 border-t border-line pt-3 text-[13px] leading-relaxed text-ink-2">{plan.entitlement}</p>
+                <Link
+                  to="/app"
+                  className={cn(
+                    'mt-4 inline-flex h-10 items-center justify-center rounded-lg text-[13.5px] font-semibold transition-colors',
+                    plan.featured ? 'bg-accent text-on-accent hover:bg-accent-strong' : 'border border-line-2 bg-surface text-ink hover:bg-surface-2',
+                  )}
+                >
+                  {plan.cta}
+                </Link>
+              </div>
+            ))}
+          </div>
+          <p className="mt-4 text-[12px] text-ink-3">{c.plans.refund}</p>
         </section>
 
         {/* ---- Close ---- */}

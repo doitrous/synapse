@@ -41,6 +41,12 @@ export interface LandingContent {
     sub: string
     points: string[]
   }
+  plans: {
+    title: string
+    sub: string
+    refund: string
+    items: { name: string; price: string; period: string; alt: string; entitlement: string; featured?: boolean; badge?: string; cta: string }[]
+  }
   cta: { title: string; sub: string; button: string; secondary: string }
   specimen: {
     title: string
@@ -103,6 +109,19 @@ export const AR_CONTENT: LandingContent = {
     title: 'مصمَّم للعربية، وكامل بالإنجليزية',
     sub: 'واجهة تدعم الكتابة من اليمين إلى اليسار بالكامل — تخطيط معكوس، أرقام عربية، ومصطلحات طبية دقيقة — مع تبديل فوري بين اللغتين دون أن تفقد مكانك.',
     points: ['دعم RTL كامل عبر كل صفحة', 'تبديل بين اللغتين بنقرة واحدة', 'مصطلحات سريرية مُراجَعة'],
+  },
+  plans: {
+    title: 'خطط وأسعار',
+    sub: 'اختر ما يناسبك — يمكن الترقية في أي وقت.',
+    refund: 'نافذة استرداد ١٤ يومًا، وفق سياسة الاسترداد المنشورة وضوابط الاستخدام.',
+    items: [
+      { name: 'مجاني', price: '٠ ج.م', period: '', alt: 'تشخيص + ١٠ أسئلة يوميًا بعد تجربة Adaptive كاملة ٧ أيام — دون بطاقة', entitlement: 'وصول محدود للتقدّم والمكتبة', cta: 'ابدأ مجانًا' },
+      { name: 'بنك الأسئلة', price: '٩٩ ج.م', period: '/ شهر', alt: '٢٤٩ / ٣ أشهر · ٧٩٩ / سنة', entitlement: 'بنك الأسئلة المعتمد كاملًا، كتل مخصّصة، شروح، إشارات وملاحظات، وتقدّم أساسي', cta: 'اشترك' },
+      { name: 'Adaptive', price: '١٩٩ ج.م', period: '/ شهر', alt: '٤٩٩ / ٣ أشهر · ١٬٤٩٩ / سنة', entitlement: 'بنك الأسئلة + كتل تكيّفية، خطة دراسة، مراجعة متباعدة، تقييمات جاهزية، مصادر مستهدفة، وتحليلات أغنى', featured: true, badge: 'الأكثر قيمة', cta: 'اشترك' },
+      { name: 'إضافة Adaptive', price: '٧٩ ج.م', period: '/ شهر', alt: 'أو ١٩٩ / فصل دراسي', entitlement: 'أضِف ميزة Adaptive إلى اشتراك حالي مؤهّل دون دفع مرتين عن المحتوى المتداخل', cta: 'أضِف' },
+      { name: 'Exam Sprint', price: '٢٤٩ ج.م', period: '/ ٣٠ يومًا', alt: 'نطاق امتحان واحد محدّد', entitlement: 'خطة مكثّفة، اختبارات محاكاة وجاهزية، إصلاح تكيّفي، وتحليلات السبرنت', cta: 'ابدأ سبرنت' },
+      { name: 'المؤسسات / الدفعات', price: 'حسب الطلب', period: '', alt: 'تسعير لكل طالب', entitlement: 'وصول وتحليلات على مستوى الجامعة أو الدفعة', cta: 'تواصل معنا' },
+    ],
   },
   cta: {
     title: 'ابدأ رحلتك مع Synapse اليوم',
@@ -171,6 +190,19 @@ export const EN_CONTENT: LandingContent = {
     title: 'Designed for Arabic, complete in English',
     sub: 'A fully right-to-left interface — mirrored layout, Arabic numerals, and precise medical terminology — with instant switching between languages without losing your place.',
     points: ['Full RTL support on every page', 'Switch languages in one click', 'Reviewed clinical terminology'],
+  },
+  plans: {
+    title: 'Plans & pricing',
+    sub: 'Pick what fits — upgrade any time.',
+    refund: '14-day refund window, subject to the published refund policy and abuse controls.',
+    items: [
+      { name: 'Free', price: 'EGP 0', period: '', alt: 'Diagnostic + 10 questions/day after a 7-day full Adaptive trial — no card required', entitlement: 'Limited progress and library access', cta: 'Start free' },
+      { name: 'QBank', price: 'EGP 99', period: '/ month', alt: 'EGP 249 / 3 months · EGP 799 / year', entitlement: 'Full approved question bank, custom blocks, explanations, bookmarks & notes, basic progress', cta: 'Subscribe' },
+      { name: 'Adaptive', price: 'EGP 199', period: '/ month', alt: 'EGP 499 / 3 months · EGP 1,499 / year', entitlement: 'QBank plus adaptive blocks, study plan, spaced review, readiness assessments, targeted resources, richer analytics', featured: true, badge: 'Best value', cta: 'Subscribe' },
+      { name: 'Adaptive add-on', price: 'EGP 79', period: '/ month', alt: 'or EGP 199 / term', entitlement: 'Adds Adaptive to an eligible current course without paying twice for overlapping content', cta: 'Add on' },
+      { name: 'Exam Sprint', price: 'EGP 249', period: '/ 30 days', alt: 'One defined exam scope', entitlement: 'Compressed plan, mocks & readiness, adaptive repair, and sprint analytics', cta: 'Start a sprint' },
+      { name: 'Campus / cohort', price: 'Quoted', period: '', alt: 'per student', entitlement: 'Institution-wide access and analytics', cta: 'Contact us' },
+    ],
   },
   cta: {
     title: 'Start your journey with Synapse today',
