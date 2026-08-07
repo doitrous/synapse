@@ -22,7 +22,7 @@ import {
   Trash2,
 } from 'lucide-react'
 import type { LibBlock } from '@/data/library'
-import { libraryTopics, allSubtopics, updatedAtFor } from '@/data/library'
+import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { subjects, getSubject } from '@/data/student'
 import { scopeUniversities } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
@@ -67,6 +67,7 @@ function Tree({
   onToggleTopic: (topicId: string) => void
 }) {
   const t = useT()
+  const { topics: libraryTopics, subtopics: allSubtopics } = useLiveLibrary()
   const q = query.trim().toLowerCase()
 
   const tagsOf = (id: string) => personalTags[id] ?? []
@@ -370,6 +371,7 @@ function Reader({
 }) {
   const t = useT()
   const [universityCatalogue] = useUniversityCatalogue()
+  const { topics: libraryTopics, subtopics: allSubtopics, updatedAtFor } = useLiveLibrary()
   const st = allSubtopics.find((s) => s.id === id)!
   const subject = getSubject(st.subjectId)
   const appliesTo = scopeUniversities(id)
@@ -540,6 +542,7 @@ function UserReader({
 
 export function Library() {
   const t = useT()
+  const { topics: libraryTopics, subtopics: allSubtopics } = useLiveLibrary()
   const [params] = useSearchParams()
   const paramId = params.get('s')
   const [userArticles, setUserArticles] = usePersistentState<UserArticle[]>(USER_ARTICLES_KEY, [])
