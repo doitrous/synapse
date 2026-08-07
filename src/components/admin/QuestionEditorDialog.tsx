@@ -10,6 +10,7 @@ import {
 } from '@/data/contentControl'
 import { subjects } from '@/data/student'
 import { YEARS } from '@/data/universities'
+import { yearId } from '@/data/taxonomy'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
@@ -21,6 +22,7 @@ import { removeStoredMedia, storeMediaFile } from '@/lib/mediaStorage'
 
 const ANSWERS: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
+const clamp01 = (v: string | number) => Math.min(1, Math.max(0, Number(v) || 0))
 const MAX_MEDIA_BYTES = 100_000_000
 
 function fileMediaType(file: File): MediaAttachment['type'] | null {
@@ -82,6 +84,14 @@ function blankQuestionData(): QuestionAuthoringData {
       inferredDifficulty: 50,
       examRelevance: 5,
       contextualConceptIds: [],
+      questionType: '',
+      mainConceptIds: [],
+      moduleIds: [],
+      clinicalRelevance: 0.5,
+      academicRelevance: 0.5,
+      cognitiveEffortScore: 0.5,
+      examWeightByYear: {},
+      questionOnlyFor: [],
     },
     learningObjective: '',
     authorNotes: '',
@@ -208,7 +218,7 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
       <form className="flex h-full flex-col pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)]" onSubmit={(event) => { event.preventDefault(); if (!valid) return; const finalData = draft.questionData ?? blankQuestionData(); onSave({ ...draft, id: draft.id || `question-${Date.now()}`, title: draft.title.trim(), updatedAt: new Date().toISOString(), fields: { Topic: finalData.tags.topic, Difficulty: finalData.tags.intendedDifficulty, Vignette: draft.fields.Vignette ?? '', Explanation: draft.fields.Explanation ?? '' }, questionData: finalData }) }}>
         <header className="flex shrink-0 flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-2.5 sm:h-16 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-0">
           <span className="grid size-9 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Tags} size={17} /></span>
-          <div className="min-w-0 flex-1"><h2 id="question-editor-title" className="font-serif text-[18px] font-semibold text-ink">{item ? 'Edit question' : 'Add question'}</h2><p className="text-[11.5px] text-ink-3">Question, evidence links, blueprint tags, and psychometric intent</p></div>
+          <div className="min-w-0 flex-1"><h2 id="question-editor-title" className="font-serif text-[18px] font-semibold text-ink">{item ? 'Edit question' : 'Add question'}</h2><p className="truncate text-[11.5px] text-ink-3"><span className="font-mono">{draft.id || 'Question_ID auto-generated on save'}</span> · blueprint tags and psychometric intent</p></div>
           <button type="button" onClick={onClose} className="grid size-10 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close question editor"><Icon icon={X} size={19} /></button>
           <div className="flex basis-full items-center gap-2 sm:contents">
             <StatusBadgeSelect value={draft.status} onChange={(status) => setDraft((current) => ({ ...current, status }))} />
@@ -267,11 +277,49 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
                   <Field label="Clinical-reasoning level (0–5)" htmlFor="tag-reasoning"><TextInput id="tag-reasoning" type="number" min={0} max={5} value={data.tags.clinicalReasoningLevel} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, clinicalReasoningLevel: Number(event.target.value) } }))} /></Field>
                   <Field label={`Psychometric accuracy · ${inferredLabel}`} htmlFor="tag-psychometric"><TextInput id="tag-psychometric" type="number" min={0} max={100} value={data.tags.inferredDifficulty} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, inferredDifficulty: Number(event.target.value) } }))} /></Field>
                   <Field label="Exam relevance (0–10)" htmlFor="tag-relevance"><TextInput id="tag-relevance" type="number" min={0} max={10} value={data.tags.examRelevance} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, examRelevance: Number(event.target.value) } }))} /></Field>
+                  <Field label="Question type" htmlFor="tag-qtype" hint="What the item tests."><Select id="tag-qtype" value={data.tags.questionType ?? ''} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, questionType: event.target.value } }))}><option value="">— Select —</option>{['Pathophysiology', 'Diagnosis', 'Investigation', 'Treatment', 'Management', 'Mechanism', 'Classification', 'Pharmacology', 'Anatomy', 'Other'].map((qt) => <option key={qt} value={qt}>{qt}</option>)}</Select></Field>
+                  <Field label="Clinical relevance (0–1)" htmlFor="tag-clin"><TextInput id="tag-clin" type="number" min={0} max={1} step={0.05} value={data.tags.clinicalRelevance ?? 0.5} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, clinicalRelevance: clamp01(event.target.value) } }))} /></Field>
+                  <Field label="Academic relevance (0–1)" htmlFor="tag-acad"><TextInput id="tag-acad" type="number" min={0} max={1} step={0.05} value={data.tags.academicRelevance ?? 0.5} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, academicRelevance: clamp01(event.target.value) } }))} /></Field>
+                  <Field label="Cognitive effort (0–1)" htmlFor="tag-cog"><TextInput id="tag-cog" type="number" min={0} max={1} step={0.05} value={data.tags.cognitiveEffortScore ?? 0.5} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, cognitiveEffortScore: clamp01(event.target.value) } }))} /></Field>
                 </div>
+                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Main concept(s) · what this question primarily tests</p><CheckList options={conceptOptions} selected={data.tags.mainConceptIds ?? []} onChange={(mainConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, mainConceptIds } }))} />
                 <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Related concepts · mastery evidence</p><CheckList options={conceptOptions} selected={data.tags.conceptIds} onChange={(conceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, conceptIds } }))} />
                 <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Contextual concepts · no mastery evidence</p><CheckList options={conceptOptions} selected={data.tags.contextualConceptIds} onChange={(contextualConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, contextualConceptIds } }))} />
                 <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant years</p><CheckList columns={3} options={YEARS.map((year) => ({ id: year, label: year }))} selected={data.tags.years} onChange={(years) => updateData((current) => ({ ...current, tags: { ...current.tags, years } }))} />
                 <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant universities</p><CheckList options={universityCatalogue.map((university) => ({ id: university.id, label: `${university.short} · ${university.name}` }))} selected={data.tags.universityIds} onChange={(universityIds) => updateData((current) => ({ ...current, tags: { ...current.tags, universityIds } }))} />
+
+                {/* Per-year exam-blueprint weight (one unique weight per selected university-year) */}
+                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Exam blueprint weight by year</p>
+                {(() => {
+                  const keys = data.tags.universityIds.flatMap((uid) => data.tags.years.map((y) => yearId(uid, y)))
+                  if (keys.length === 0) return <p className="text-[11.5px] text-ink-3">Select relevant universities and years above to set per-year weights.</p>
+                  return (
+                    <div className="space-y-1.5">
+                      {keys.map((key) => {
+                        const weight = data.tags.examWeightByYear?.[key] ?? 0.5
+                        return (
+                          <div key={key} className="flex items-center gap-2">
+                            <span className="tnum w-24 font-mono text-[11px] text-ink-2">{key}</span>
+                            <input type="range" min={0} max={1} step={0.05} value={weight} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, examWeightByYear: { ...(current.tags.examWeightByYear ?? {}), [key]: clamp01(event.target.value) } } }))} className="flex-1 accent-[var(--color-accent)]" />
+                            <span className="tnum w-8 text-end font-mono text-[11px] text-ink">{weight.toFixed(2)}</span>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  )
+                })()}
+
+                <div className="mt-4 flex items-center justify-between rounded-lg border border-line bg-surface-2 px-3 py-2.5">
+                  <div className="min-w-0 pr-3">
+                    <p className="text-[12.5px] font-medium text-ink">Restrict to selected years &amp; universities only</p>
+                    <p className="text-[11px] leading-snug text-ink-3">When on, the question applies ONLY to the chosen years/universities — even if its subject is picked from a resource or article.</p>
+                  </div>
+                  <Toggle
+                    label="Restrict to selected years and universities"
+                    checked={(data.tags.questionOnlyFor ?? []).length > 0}
+                    onChange={(on) => updateData((current) => ({ ...current, tags: { ...current.tags, questionOnlyFor: on ? [...current.tags.years, ...current.tags.universityIds] : [] } }))}
+                  />
+                </div>
               </Section>
 
               <Section title="Editorial settings" hint="Additional settings that support review and delivery." icon={Tags}>

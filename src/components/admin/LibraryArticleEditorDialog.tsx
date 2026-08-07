@@ -13,6 +13,7 @@ import type { ArticleAuthoringData, ManagedContentItem } from '@/data/contentCon
 import { emptySections, newId, type ArticleSection } from '@/data/userLibrary'
 import { libraryTopics } from '@/data/library'
 import { subjects, getSubject } from '@/data/student'
+import { universities, YEARS } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
@@ -160,6 +161,33 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
           <aside className="order-2 border-b border-line bg-surface p-4 lg:order-none lg:overflow-y-auto lg:border-b-0 lg:border-r">
             <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Article settings</p>
             <div className="space-y-4"><Field label="Subject" htmlFor="article-subject"><Select id="article-subject" value={draft.subjectId} onChange={(event) => setDraft((current) => ({ ...current, subjectId: event.target.value }))}>{subjects.map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</Select></Field><Field label="Chapter" htmlFor="article-topic"><TextInput id="article-topic" value={draft.fields.Topic ?? ''} onChange={(event) => setDraft((current) => ({ ...current, fields: { ...current.fields, Topic: event.target.value } }))} /></Field><Field label="Reading time" htmlFor="article-reading"><TextInput id="article-reading" type="number" min={1} value={draft.fields['Reading time'] ?? '8'} onChange={(event) => setDraft((current) => ({ ...current, fields: { ...current.fields, 'Reading time': event.target.value } }))} /></Field><Field label="Content owner" htmlFor="article-owner"><TextInput id="article-owner" value={draft.owner} onChange={(event) => setDraft((current) => ({ ...current, owner: event.target.value }))} /></Field></div>
+
+            {/* Scope & concept tags */}
+            <div className="mt-6 border-t border-line pt-5">
+              <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Applies to</p>
+              <p className="mb-1 text-[11px] font-medium text-ink-2">Universities</p>
+              <LinkCheckList items={universities.map((u) => ({ id: u.id, title: `${u.short} · ${u.name}` }))} selected={data.universityIds ?? []} onChange={(universityIds) => updateData((current) => ({ ...current, universityIds }))} />
+              <p className="mb-1 mt-3 text-[11px] font-medium text-ink-2">Years</p>
+              <LinkCheckList items={YEARS.map((y) => ({ id: y, title: y }))} selected={data.yearIds ?? []} onChange={(yearIds) => updateData((current) => ({ ...current, yearIds }))} />
+              <div className="mt-3 space-y-2.5">
+                <Field label="Module ID(s)" htmlFor="article-modules" hint="Comma-separated."><TextInput id="article-modules" value={(data.moduleIds ?? []).join(', ')} onChange={(event) => updateData((current) => ({ ...current, moduleIds: event.target.value.split(',').map((s) => s.trim()).filter(Boolean) }))} placeholder="cvs, MOD_CVS" /></Field>
+                <div className="grid grid-cols-2 gap-2">
+                  <Field label="Subtopic ID" htmlFor="article-sub"><TextInput id="article-sub" value={data.subtopicId ?? ''} onChange={(event) => updateData((current) => ({ ...current, subtopicId: event.target.value }))} placeholder="SUB_*" /></Field>
+                  <Field label="Microtopic ID" htmlFor="article-mic"><TextInput id="article-mic" value={data.microtopicId ?? ''} onChange={(event) => updateData((current) => ({ ...current, microtopicId: event.target.value }))} placeholder="MIC_*" /></Field>
+                </div>
+              </div>
+            </div>
+
+            {/* Related concepts — accepts direct selection here, or concepts that link back */}
+            <div className="mt-6 border-t border-line pt-5">
+              <div className="flex items-center gap-2"><Icon icon={GitFork} size={15} className="text-accent" /><p className="text-[12.5px] font-bold text-ink">Related concepts</p></div>
+              <p className="mb-2 mt-1 text-[11px] leading-snug text-ink-3">Concepts this article discusses. A concept that lists this article also appears here automatically.</p>
+              <LinkCheckList
+                items={graph.concepts.map((c) => ({ id: c.id, title: c.label }))}
+                selected={[...new Set([...(data.relatedConceptIds ?? []), ...graph.concepts.filter((c) => (c.relatedArticleIds ?? c.articleIds).includes(draft.id)).map((c) => c.id)])]}
+                onChange={(relatedConceptIds) => updateData((current) => ({ ...current, relatedConceptIds }))}
+              />
+            </div>
 
             <div className="mt-6 border-t border-line pt-5"><div className="flex items-center gap-2"><Icon icon={GitFork} size={15} className="text-accent" /><p className="text-[12.5px] font-bold text-ink">Create canonical concept</p></div><div className="mt-3 space-y-2"><TextInput aria-label="Canonical concept ID" value={conceptId} onChange={(event) => setConceptId(event.target.value)} placeholder="med.concept.example" /><TextInput aria-label="Concept label" value={conceptLabel} onChange={(event) => setConceptLabel(event.target.value)} placeholder="Concept label" /><Textarea aria-label="Concept definition" className="min-h-20" value={conceptDefinition} onChange={(event) => setConceptDefinition(event.target.value)} placeholder="Canonical definition" /><Button type="button" size="sm" className="w-full" iconLeft={Plus} onClick={createConcept}>Create concept</Button></div></div>
 
