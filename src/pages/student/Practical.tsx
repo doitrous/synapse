@@ -10,9 +10,13 @@ import {
   CircleDashed,
   Circle,
   FlaskConical,
+  MessagesSquare,
+  Eye,
+  EyeOff,
 } from 'lucide-react'
 import type { Skill } from '@/data/practical'
-import { osceStations, clinicalCases, skills, labImaging, skillsTotals } from '@/data/practical'
+import { osceStations, clinicalCases, skills, labImaging, skillsTotals, oralQuestions } from '@/data/practical'
+import { subjects } from '@/data/student'
 import { getSubject } from '@/data/student'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
@@ -25,6 +29,7 @@ import { ChapterMark } from '@/components/ui/ChapterMark'
 import { PracticalRunner } from '@/components/practical/PracticalRunner'
 import type { RunnerTarget } from '@/components/practical/PracticalRunner'
 import { ExaminerWarning } from '@/components/practical/ExaminerWarning'
+import { ConceptText } from '@/components/concepts/ConceptText'
 import { useT } from '@/lib/i18n'
 
 type Open = (target: RunnerTarget) => void
@@ -279,6 +284,67 @@ function LabTab({ onOpen }: { onOpen: Open }) {
 
 /* ---- Page -------------------------------------------------------------- */
 
+/* ---- Oral questions ---------------------------------------------------- */
+
+function OralTab() {
+  const [revealed, setRevealed] = useState<Set<string>>(new Set())
+  const toggle = (id: string) =>
+    setRevealed((prev) => {
+      const next = new Set(prev)
+      if (next.has(id)) next.delete(id)
+      else next.add(id)
+      return next
+    })
+
+  const groups = subjects
+    .map((subj) => ({ subj, questions: oralQuestions.filter((q) => q.subjectId === subj.id) }))
+    .filter((g) => g.questions.length > 0)
+
+  return (
+    <div className="space-y-5">
+      <p className="flex items-center gap-2 text-[12.5px] text-ink-3">
+        <MessagesSquare size={14} />
+        The most common viva questions by module. Attempt each one aloud, then reveal the model answer to mark yourself.
+      </p>
+      {groups.map(({ subj, questions }, gi) => (
+        <section key={subj.id}>
+          <div className="mb-2 flex items-center gap-2">
+            <ChapterMark subjectId={subj.id} index={gi + 1} compact />
+            <h2 className="font-serif text-[16px] font-semibold text-ink">{subj.name}</h2>
+            <span className="tnum font-mono text-[11px] text-ink-3">{questions.length}</span>
+          </div>
+          <div className="space-y-2.5">
+            {questions.map((q) => {
+              const isOpen = revealed.has(q.id)
+              return (
+                <Panel key={q.id} className="p-4">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{q.topic}</p>
+                  <p className="mt-1 text-[14.5px] font-medium leading-snug text-ink">{q.question}</p>
+                  {isOpen ? (
+                    <div className="mt-3 rounded-lg border border-accent-line bg-accent-tint/30 p-3">
+                      <p className="mb-1 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-accent-strong">
+                        <CircleCheck size={13} /> Model answer
+                      </p>
+                      <p className="text-[13.5px] leading-relaxed text-ink"><ConceptText text={q.modelAnswer} /></p>
+                      <Button variant="ghost" size="sm" iconLeft={EyeOff} className="mt-2" onClick={() => toggle(q.id)}>
+                        Hide answer
+                      </Button>
+                    </div>
+                  ) : (
+                    <Button variant="secondary" size="sm" iconLeft={Eye} className="mt-3" onClick={() => toggle(q.id)}>
+                      Reveal model answer
+                    </Button>
+                  )}
+                </Panel>
+              )
+            })}
+          </div>
+        </section>
+      ))}
+    </div>
+  )
+}
+
 export function Practical() {
   const t = useT()
   const [tab, setTab] = useState('osce')
@@ -304,6 +370,7 @@ export function Practical() {
         items={[
           { value: 'osce', label: 'OSCE stations', icon: Stethoscope, count: osceStations.length },
           { value: 'cases', label: 'Clinical cases', icon: ClipboardList, count: clinicalCases.length },
+          { value: 'oral', label: 'Oral questions', icon: MessagesSquare, count: oralQuestions.length },
           { value: 'skills', label: 'Skills', icon: ListChecks, count: skills.length },
           { value: 'lab', label: 'Lab & imaging', icon: ScanLine, count: labImaging.length },
         ]}
@@ -311,6 +378,7 @@ export function Practical() {
 
       {tab === 'osce' && <OsceTab onOpen={setActive} />}
       {tab === 'cases' && <CasesTab onOpen={setActive} />}
+      {tab === 'oral' && <OralTab />}
       {tab === 'skills' && <SkillsTab />}
       {tab === 'lab' && <LabTab onOpen={setActive} />}
     </PageContainer>

@@ -76,5 +76,40 @@ export const labImaging: LabImagingSet[] = [
   { id: 'li-ct', title: 'CT head essentials', type: 'Imaging', subjectId: 'neuro', items: 16, done: 0 },
 ]
 
+export interface OralQuestion {
+  id: string
+  subjectId: string
+  topic: string
+  question: string
+  modelAnswer: string
+}
+
+/** The most common viva / oral-exam questions, grouped by module (subject). */
+export const oralQuestions: OralQuestion[] = [
+  // Cardiovascular
+  { id: 'or-hf-1', subjectId: 'cvs', topic: 'Heart failure', question: 'Define heart failure and classify it by ejection fraction.', modelAnswer: 'Heart failure is a clinical syndrome in which the heart cannot deliver output sufficient for metabolic demand at normal filling pressures. By ejection fraction it is classified as HFrEF (≤40%), HFmrEF (41–49%), and HFpEF (≥50%).' },
+  { id: 'or-hf-2', subjectId: 'cvs', topic: 'Heart failure', question: 'What are the four pillars of prognostic therapy in HFrEF?', modelAnswer: 'ARNI (or ACE inhibitor/ARB), a beta-blocker, a mineralocorticoid receptor antagonist, and an SGLT2 inhibitor. They are started early at low dose and up-titrated together; they work by interrupting maladaptive compensation, not by inotropy.' },
+  { id: 'or-acs-1', subjectId: 'cvs', topic: 'Acute coronary syndromes', question: 'How do you distinguish STEMI, NSTEMI, and unstable angina?', modelAnswer: 'By the 12-lead ECG and serial troponin. STEMI has persistent ST elevation (or new LBBB) with troponin rise; NSTEMI has a troponin rise without ST elevation; unstable angina has ischaemic symptoms without a troponin rise.' },
+
+  // Respiratory
+  { id: 'or-asth-1', subjectId: 'resp', topic: 'Asthma', question: 'What spirometric finding supports a diagnosis of asthma?', modelAnswer: 'Reversible airflow obstruction — a ≥12% (and ≥200 mL) improvement in FEV₁ after a bronchodilator — supported by diurnal peak-flow variability, raised FeNO, and eosinophilia.' },
+  { id: 'or-asth-2', subjectId: 'resp', topic: 'Asthma', question: 'Why is SABA-only reliever therapy discouraged?', modelAnswer: 'It relieves bronchospasm but leaves airway inflammation untreated, and frequent SABA use is associated with a higher risk of severe exacerbations. Modern guidelines centre inhaled corticosteroids, increasingly as ICS-formoterol reliever therapy.' },
+
+  // Renal & urinary
+  { id: 'or-ab-1', subjectId: 'renal', topic: 'Acid–base balance', question: 'Describe a structured approach to interpreting an arterial blood gas.', modelAnswer: 'Five steps: read the pH (acidaemia/alkalaemia); identify the primary respiratory (CO₂) or metabolic (HCO₃⁻) driver; assess whether compensation is appropriate; calculate the anion gap in a metabolic acidosis; then interpret in the clinical context.' },
+
+  // Pharmacology
+  { id: 'or-diur-1', subjectId: 'pharm', topic: 'Diuretics', question: 'Classify diuretics by their site of action along the nephron.', modelAnswer: 'Loop diuretics act on the Na-K-2Cl cotransporter in the thick ascending limb (most potent); thiazides block Na-Cl in the distal convoluted tubule; potassium-sparing agents/MRAs act in the collecting duct; carbonic anhydrase inhibitors act proximally.' },
+
+  // Neurology
+  { id: 'or-cn-1', subjectId: 'neuro', topic: 'Cranial nerves', question: 'What does forehead sparing indicate in a facial nerve palsy?', modelAnswer: 'An upper motor neurone lesion. The forehead receives bilateral cortical input, so it is spared in a UMN lesion but involved in a lower motor neurone (Bell) palsy, which affects the whole half of the face.' },
+
+  // GI
+  { id: 'or-gi-1', subjectId: 'gi', topic: 'Abdominal examination', question: 'How would you present the signs of chronic liver disease found on examination?', modelAnswer: 'Peripheral: leuconychia, clubbing, palmar erythema, Dupuytren\'s, spider naevi, gynaecomastia. Abdominal: distension, caput medusae, splenomegaly, ascites (shifting dullness). Complete by assessing for encephalopathy (asterixis) and jaundice.' },
+
+  // Endocrine
+  { id: 'or-endo-1', subjectId: 'endo', topic: 'Diabetes', question: 'How is diabetes mellitus diagnosed biochemically?', modelAnswer: 'Fasting glucose ≥7.0 mmol/L, random/2-hour OGTT glucose ≥11.1 mmol/L, or HbA1c ≥48 mmol/mol (6.5%). In an asymptomatic patient the abnormal result should be confirmed on a second occasion.' },
+]
+
 /** Year-wide skills sign-off total (matches the dashboard headline). */
 export const skillsTotals = { signed: 14, total: 22 }
