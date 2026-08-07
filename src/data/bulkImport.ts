@@ -35,8 +35,15 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       ]),
       { key: 'topic', label: 'Topic', help: 'Canonical topic or blueprint heading.' },
       { key: 'subtopic', label: 'Subtopic', help: 'More specific curriculum location.' },
-      { key: 'difficulty', label: 'Intended difficulty', help: 'Easy, Moderate, or Hard.' },
-      { key: 'module', label: 'Related module', help: 'Module ID or title.' },
+      { key: 'difficulty', label: 'Intended difficulty', help: 'Easy, Moderate, Hard, or Challenging.' },
+      { key: 'question_type', label: 'Question type', help: 'What it tests — e.g. Pathophysiology, Diagnosis, Investigation, Treatment, Mechanism.' },
+      { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this question primarily tests. At least one is expected.' },
+      { key: 'module', label: 'Module ID(s)', help: 'Every module this question is applicable to, separated by |, ; or new lines.' },
+      { key: 'clinical_relevance', label: 'Clinical relevance (0–1)', help: 'How clinically relevant the question is.' },
+      { key: 'academic_relevance', label: 'Academic relevance (0–1)', help: 'How academically relevant the question is.' },
+      { key: 'cognitive_effort', label: 'Cognitive effort (0–1)', help: 'How much thinking the question demands.' },
+      { key: 'exam_weight_by_year', label: 'Exam weight by year', help: 'Per-year blueprint weight as "YEAR_ID=weight" entries, e.g. OMS_Y2=0.7 | OMS_Y3=0.5.' },
+      { key: 'question_only_for', label: 'Restrict to years/universities', help: 'If set, the question ONLY applies to these year/university IDs, regardless of subject scope.' },
       { key: 'concept_ids', label: 'Concept IDs', help: 'Canonical concept IDs separated by |, semicolon, or new lines.' },
       { key: 'years', label: 'Relevant years', help: 'Year labels separated by |, semicolon, or new lines.' },
       { key: 'universities', label: 'Relevant universities', help: 'Canonical university IDs separated by |, semicolon, or new lines.' },
@@ -63,6 +70,12 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'body', label: 'Article body (legacy)', help: 'Optional plain-text body used only if no sections are given.' },
       { key: 'hold_these', label: 'Hold these', help: 'High-yield points separated by new lines, |, or semicolons.' },
       { key: 'lose_the_mark', label: 'Where people lose the mark', help: 'Common traps separated by new lines, |, or semicolons.' },
+      { key: 'universities', label: 'University IDs', help: 'All universities this article applies to, separated by |, ; or new lines (e.g. OMS | MMS).' },
+      { key: 'years', label: 'Year IDs', help: 'All years this article is applicable on (e.g. OMS_Y2).' },
+      { key: 'module', label: 'Module ID(s)', help: 'Module(s) this article sits under.' },
+      { key: 'subtopic', label: 'Subtopic ID', help: 'Subtopic ID (SUB_*).' },
+      { key: 'microtopic', label: 'Microtopic ID', help: 'Microtopic ID (MIC_*).' },
+      { key: 'related_concepts', label: 'Related concepts', help: 'Concept IDs discussed by this article.' },
       { key: 'question_ids', label: 'Question IDs', help: 'Canonical question IDs that test this article.' },
       { key: 'resource_ids', label: 'Resource IDs', help: 'Canonical resources that teach this article.' },
       { key: 'reading_time', label: 'Reading time', help: 'Estimated minutes.' },
@@ -98,9 +111,13 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'source', label: 'Source', required: true, help: 'Publisher, institution, or author.' },
       { key: 'url', label: 'Resource URL', help: 'Direct link or internal asset URL.' },
       { key: 'year', label: 'Publication year', help: 'Four-digit year.' },
+      { key: 'topics', label: 'Tagged topics', help: 'Topic/subtopic IDs or titles this resource covers, separated by |, ; or new lines. Solving questions on this resource pulls in these topics.' },
+      { key: 'chapter', label: 'Chapter / module', help: 'Chapter or module the resource sits under (used to group videos).' },
+      { key: 'included_concepts', label: 'Included concepts', help: 'Concept IDs this resource covers. Each concept is auto-updated to approve this resource.' },
+      { key: 'included_articles', label: 'Included library articles', help: 'Library article IDs this resource supports.' },
       { key: 'description', label: 'Description', help: 'What the resource teaches and why it is relevant.' },
     ],
-    markdownExample: `# Item\n\n## title\nNICE NG158 · Venous thromboembolic diseases\n\n## subject\ncvs\n\n## type\nGuideline\n\n## source\nNICE\n\n## url\nhttps://www.nice.org.uk/guidance/ng158\n\n## year\n2026\n\n## description\nDiagnosis and initial management of suspected pulmonary embolism.`,
+    markdownExample: `# Item\n\n## title\nNICE NG158 · Venous thromboembolic diseases\n\n## subject\ncvs\n\n## type\nGuideline\n\n## source\nNICE\n\n## url\nhttps://www.nice.org.uk/guidance/ng158\n\n## year\n2026\n\n## topics\nTPC_HF\nSUB_HF_MGMT\n\n## chapter\nVenous thromboembolism\n\n## included_concepts\nmed.concept.loop-diuretics\nmed.concept.heart-failure\n\n## included_articles\nhf-mgmt\n\n## description\nDiagnosis and initial management of suspected pulmonary embolism.`,
   },
 }
 
@@ -119,6 +136,24 @@ export function parseSections(value = ''): Array<{ id: string; heading: string; 
     else if (raw.trim()) out.push({ id: `sec-${out.length}`, heading: '', body: raw })
   }
   return out.map((s) => ({ ...s, body: s.body.trim() })).filter((s) => s.heading || s.body)
+}
+
+/** Parse "YEAR_ID=weight | OTHER=weight" into a { yearId: number } map (0–1). */
+export function parseWeightMap(value = ''): Record<string, number> {
+  const out: Record<string, number> = {}
+  value.split(/\r?\n|\||;/).forEach((pair) => {
+    const [k, v] = pair.split('=').map((p) => p.trim())
+    if (k && v !== undefined) {
+      const n = Number(v)
+      if (Number.isFinite(n)) out[k] = Math.min(1, Math.max(0, n))
+    }
+  })
+  return out
+}
+
+const clamp01 = (value?: string) => {
+  const n = Number(value)
+  return Number.isFinite(n) ? Math.min(1, Math.max(0, n)) : undefined
 }
 
 export function validateImportRow(kind: ContentKind, values: Record<string, string>) {
@@ -163,13 +198,13 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const labels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
     const answers: QuestionAnswerDraft[] = labels.map((label) => ({ label, text: values[`answer_${label.toLowerCase()}`]?.trim() ?? '', explanation: values[`explanation_${label.toLowerCase()}`]?.trim() ?? '' }))
     const difficulty = ['Easy', 'Moderate', 'Hard'].includes(values.difficulty) ? values.difficulty as 'Easy' | 'Moderate' | 'Hard' : 'Moderate'
-    return { ...base, title: values.question?.trim() || base.title, fields: { Topic: values.topic ?? '', Difficulty: difficulty, Vignette: values.vignette ?? '', Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '' }, questionData: { attachments: [], correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel, answers, attachedImage: '', libraryIds: splitImportList(values.library_ids), resourceIds: splitImportList(values.resource_ids), tags: { module: values.module || base.subjectId, topic: values.topic || '', subtopic: values.subtopic || '', conceptIds: splitImportList(values.concept_ids), years: splitImportList(values.years), universityIds: splitImportList(values.universities), cognitiveEffort: ['Low', 'Medium', 'High'].includes(values.cognitive_effort) ? values.cognitive_effort as 'Low' | 'Medium' | 'High' : 'Medium', setting: ['Academic', 'Clinical', 'Both'].includes(values.setting) ? values.setting as 'Academic' | 'Clinical' | 'Both' : 'Both', intendedDifficulty: difficulty, clinicalReasoningLevel: numberInRange(values.reasoning_level, 2, 0, 5), inferredDifficulty: numberInRange(values.inferred_difficulty, 50, 0, 100), examRelevance: numberInRange(values.exam_relevance, 5, 0, 10), contextualConceptIds: splitImportList(values.contextual_concept_ids) }, learningObjective: values.learning_objective || '', authorNotes: '', sourceCitation: values.source_citation || '', estimatedSeconds: 90, randomiseAnswers: true } }
+    return { ...base, title: values.question?.trim() || base.title, fields: { Topic: values.topic ?? '', Difficulty: difficulty, Vignette: values.vignette ?? '', Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '' }, questionData: { attachments: [], correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel, answers, attachedImage: '', libraryIds: splitImportList(values.library_ids), resourceIds: splitImportList(values.resource_ids), tags: { module: values.module || base.subjectId, topic: values.topic || '', subtopic: values.subtopic || '', conceptIds: splitImportList(values.concept_ids), years: splitImportList(values.years), universityIds: splitImportList(values.universities), cognitiveEffort: ['Low', 'Medium', 'High'].includes(values.cognitive_effort) ? values.cognitive_effort as 'Low' | 'Medium' | 'High' : 'Medium', setting: ['Academic', 'Clinical', 'Both'].includes(values.setting) ? values.setting as 'Academic' | 'Clinical' | 'Both' : 'Both', intendedDifficulty: difficulty, clinicalReasoningLevel: numberInRange(values.reasoning_level, 2, 0, 5), inferredDifficulty: numberInRange(values.inferred_difficulty, 50, 0, 100), examRelevance: numberInRange(values.exam_relevance, 5, 0, 10), contextualConceptIds: splitImportList(values.contextual_concept_ids), questionType: values.question_type || undefined, mainConceptIds: splitImportList(values.main_concept), moduleIds: splitImportList(values.module), clinicalRelevance: clamp01(values.clinical_relevance), academicRelevance: clamp01(values.academic_relevance), cognitiveEffortScore: clamp01(values.cognitive_effort), examWeightByYear: parseWeightMap(values.exam_weight_by_year), questionOnlyFor: splitImportList(values.question_only_for) }, learningObjective: values.learning_objective || '', authorNotes: '', sourceCitation: values.source_citation || '', estimatedSeconds: 90, randomiseAnswers: true } }
   }
   if (kind === 'article') {
     const sections = parseSections(values.sections)
     const body = values.body || sections.map((s) => `${s.heading}\n${s.body}`).join('\n\n')
-    return { ...base, fields: { Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5', 'Key point': splitImportList(values.hold_these)[0] || '' }, articleData: { summary: values.summary || '', body, sections, holdThese: splitImportList(values.hold_these), loseTheMark: splitImportList(values.lose_the_mark), questionIds: splitImportList(values.question_ids), resourceIds: splitImportList(values.resource_ids), annotations: [] } }
+    return { ...base, fields: { Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5', 'Key point': splitImportList(values.hold_these)[0] || '' }, articleData: { summary: values.summary || '', body, sections, holdThese: splitImportList(values.hold_these), loseTheMark: splitImportList(values.lose_the_mark), questionIds: splitImportList(values.question_ids), resourceIds: splitImportList(values.resource_ids), annotations: [], universityIds: splitImportList(values.universities), yearIds: splitImportList(values.years), moduleIds: splitImportList(values.module), subtopicId: values.subtopic || undefined, microtopicId: values.microtopic || undefined, relatedConceptIds: splitImportList(values.related_concepts) } }
   }
   if (kind === 'practical') return { ...base, fields: { Type: values.type || 'OSCE station', Duration: values.duration || '8', Marks: values.marks || '20', Difficulty: values.difficulty || 'Moderate', 'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', References: values.references || '' } }
-  return { ...base, fields: { Type: values.type || 'Article', Source: values.source || '', URL: values.url || '', Year: values.year || '', Description: values.description || '' } }
+  return { ...base, fields: { Type: values.type || 'Article', Source: values.source || '', URL: values.url || '', Year: values.year || '', Topics: values.topics || '', Chapter: values.chapter || '', 'Included concepts': values.included_concepts || '', 'Included articles': values.included_articles || '', Description: values.description || '' } }
 }

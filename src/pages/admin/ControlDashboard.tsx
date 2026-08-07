@@ -200,6 +200,22 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false 
   function saveItem(next: ManagedContentItem) {
     const exists = items.some((item) => item.id === next.id)
     setItems((current) => exists ? current.map((item) => item.id === next.id ? next : item) : [next, ...current])
+    // Auto-link: a resource tagged with concepts adds itself to those concepts'
+    // approved file/video resource lists (so concepts only reference vetted media).
+    if (next.kind === 'resource') {
+      const conceptIds = (next.fields['Included concepts'] ?? '').split(/[\n,;|]/).map((s) => s.trim()).filter(Boolean)
+      if (conceptIds.length) {
+        const isVideo = next.fields.Type === 'Video'
+        setConceptGraph((g) => ({
+          ...g,
+          concepts: g.concepts.map((c) => conceptIds.includes(c.id) ? {
+            ...c,
+            approvedVideoResourceIds: isVideo ? [...new Set([...(c.approvedVideoResourceIds ?? []), next.id])] : c.approvedVideoResourceIds,
+            approvedFileResourceIds: isVideo ? c.approvedFileResourceIds : [...new Set([...(c.approvedFileResourceIds ?? []), next.id])],
+          } : c),
+        }))
+      }
+    }
     setEditorOpen(false)
     setEditing(null)
     setNotice(exists ? `${CONTENT_KIND_LABEL[next.kind].singular} updated.` : `${CONTENT_KIND_LABEL[next.kind].singular} added as ${next.status.toLowerCase()}.`)

@@ -42,6 +42,20 @@ export interface QuestionTags {
   inferredDifficulty: number
   examRelevance: number
   contextualConceptIds: string[]
+  // ---- Extended blueprint tagging ----
+  questionType?: string
+  /** The concept ID(s) this question primarily assesses. */
+  mainConceptIds?: string[]
+  /** Every module ID this question applies to. */
+  moduleIds?: string[]
+  clinicalRelevance?: number
+  academicRelevance?: number
+  /** Cognitive effort on a 0–1 scale (finer than the Low/Medium/High band). */
+  cognitiveEffortScore?: number
+  /** Per-year exam-blueprint weight, keyed by year_ID, each 0–1. */
+  examWeightByYear?: Record<string, number>
+  /** If set, the question applies ONLY to these year/university IDs. */
+  questionOnlyFor?: string[]
 }
 
 export interface QuestionAuthoringData {
@@ -70,6 +84,16 @@ export interface ArticleAuthoringData {
   questionIds: string[]
   resourceIds: string[]
   annotations: ConceptAnnotation[]
+  // ---- Scoping & concept tags ----
+  /** University IDs this article applies to. */
+  universityIds?: string[]
+  /** Year IDs this article applies to. */
+  yearIds?: string[]
+  moduleIds?: string[]
+  subtopicId?: string
+  microtopicId?: string
+  /** Concept IDs related to this article (from here, or auto-caught from a concept). */
+  relatedConceptIds?: string[]
 }
 
 export interface PracticalAnswerDraft {
@@ -348,5 +372,9 @@ export const CONTENT_FIELDS: Record<ContentKind, Array<{ key: string; label: str
     { key: 'Source', label: 'Source or publisher' },
     { key: 'Location', label: 'Exact page, slide, chapter, or timestamp' },
     { key: 'Year', label: 'Publication year' },
+    { key: 'Topics', label: 'Tagged topics (IDs/titles)', multiline: true },
+    { key: 'Chapter', label: 'Chapter / module' },
+    { key: 'Included concepts', label: 'Included concept IDs (one per line)', multiline: true },
+    { key: 'Included articles', label: 'Included library article IDs', multiline: true },
   ],
 }
