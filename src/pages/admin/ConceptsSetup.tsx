@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Braces, BookOpenText, Plus, Save, Trash2, ChevronRight, Check } from 'lucide-react'
+import { Braces, BookOpenText, Plus, Save, Trash2, ChevronRight, Check, Upload, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -66,6 +66,9 @@ export function ConceptsSetup() {
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
   const [selectedId, setSelectedId] = useState<string | null>(graph.concepts[0]?.id ?? null)
   const [creating, setCreating] = useState(false)
+  const [importing, setImporting] = useState(false)
+  const [importText, setImportText] = useState('')
+  const [report, setReport] = useState<{ added: number; skipped: number; errors: string[] } | null>(null)
 
   const selected = graph.concepts.find((c) => c.id === selectedId) ?? null
 
@@ -180,11 +183,57 @@ export function ConceptsSetup() {
     setExpanded((prev) => ({ ...prev, [`${scope.subjectId}:${scope.topicId}`]: true }))
   }
 
+  function runImport() {
+    const blocks = importText.split(/^\s*---\s*$/m).map((b) => b.trim()).filter(Boolean)
+    const existing = new Set(graph.concepts.map((c) => c.id))
+    const additions: Concept[] = []
+    const errors: string[] = []
+    let skipped = 0
+    const num01 = (v?: string) => { const n = Number(v); return Number.isFinite(n) ? Math.min(1, Math.max(0, n)) : undefined }
+
+    blocks.forEach((block, index) => {
+      const fields: Record<string, string> = {}
+      let key = ''
+      block.split(/\r?\n/).forEach((line) => {
+        const m = line.match(/^##\s+(.+)/)
+        if (m) { key = m[1].trim().toLowerCase(); fields[key] = '' }
+        else if (key) fields[key] = (fields[key] ? fields[key] + '\n' : '') + line
+      })
+      Object.keys(fields).forEach((k) => (fields[k] = fields[k].trim()))
+      const label = fields.label
+      if (!label) { errors.push(`Block ${index + 1}: missing "## label".`); return }
+      const id = fields.id || `med.concept.${slug(label)}`
+      if (existing.has(id) || additions.some((a) => a.id === id)) { skipped++; return }
+      const topic = libraryTopics.find((t) => t.id === fields.topic || t.title.toLowerCase() === (fields.topic ?? '').toLowerCase())
+      const status = (['active', 'inactive', 'under review'].includes(fields.status) ? fields.status : 'active') as Concept['status']
+      additions.push({
+        id, label,
+        aliases: (fields.aliases ?? '').split(/[,\n]/).map((a) => a.trim()).filter(Boolean),
+        definition: fields.definition ?? '',
+        pitfalls: fields.pitfalls || undefined,
+        status,
+        articleIds: topic ? topic.subtopics.map((s) => s.id) : [],
+        subjectId: fields.subject || topic?.subjectId,
+        topicId: topic?.id,
+        blueprintWeight: num01(fields.blueprint_weight),
+        clinicalRelevance: num01(fields.clinical_relevance),
+        academicRelevance: num01(fields.academic_relevance),
+        relatedArticleIds: topic ? topic.subtopics.map((s) => s.id) : [],
+      })
+    })
+
+    if (additions.length) setGraph((g) => ({ ...g, concepts: [...additions, ...g.concepts] }))
+    setReport({ added: additions.length, skipped, errors })
+  }
+
+  const importTemplate = `# One concept per block, separated by ---\n## label\nAnion gap\n## subject\nrenal\n## topic\nacidbase\n## definition\nThe calculated difference between measured serum cations and anions, used to classify metabolic acidosis.\n## pitfalls\nForgetting to calculate the anion gap in every metabolic acidosis.\n## aliases\nAG\n## status\nactive\n## blueprint_weight\n0.6\n## clinical_relevance\n0.7\n## academic_relevance\n0.8\n---\n## label\nAnother concept\n...`
+
   return (
     <PageContainer>
       <PageHeader
         title="Concepts"
-        description="Author the definition or note for every clinical concept, by subject and topic. Definitions surface inside a question — in the stem and answers — only after the student reveals the answer."
+        description="Concepts are the smallest assessable objectives. Author each one's definition, pitfalls, curriculum placement, weighting, and relationships. Definitions surface in a question — stem and answers — only after the student reveals the answer."
+        actions={<Button variant="secondary" size="md" iconLeft={Upload} onClick={() => { setImporting(true); setReport(null); setImportText('') }}>Bulk import</Button>}
       />
 
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)]">
@@ -396,6 +445,44 @@ export function ConceptsSetup() {
             <div className="flex items-center justify-end gap-2 border-t border-line bg-surface-2/40 px-5 py-3">
               <Button variant="ghost" onClick={() => setCreating(false)}>Cancel</Button>
               <Button variant="primary" iconLeft={Plus} onClick={createConcept} disabled={!nLabel.trim()}>Create concept</Button>
+            </div>
+          </Panel>
+        </div>
+      )}
+
+      {/* ---- Bulk import dialog ---- */}
+      {importing && (
+        <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label="Bulk import concepts" onMouseDown={() => setImporting(false)}>
+          <Panel className="animate-pop flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-xl sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
+            <PanelHeader title="Bulk import concepts" icon={Upload} />
+            <div className="min-h-0 flex-1 space-y-3 overflow-y-auto p-5">
+              <ol className="list-inside list-decimal space-y-1 text-[12.5px] text-ink-2">
+                <li>One concept per block; separate blocks with a line containing only <code className="rounded bg-inset px-1 font-mono text-[11px]">---</code>.</li>
+                <li>Each field is a <code className="font-mono text-[11px]">## fieldname</code> line followed by its value. <b>label</b> is required.</li>
+                <li>Fields: label, id, subject, topic, definition, pitfalls, aliases, status, blueprint_weight, clinical_relevance, academic_relevance.</li>
+                <li>Press <b>Import</b> — you'll get a batch report of added, skipped (duplicates), and rejected blocks.</li>
+              </ol>
+              <Field label="Concepts">
+                <Textarea value={importText} onChange={(e) => setImportText(e.target.value)} placeholder={importTemplate} className="min-h-[13rem] font-mono text-[12px]" />
+              </Field>
+              {report && (
+                <div className="rounded-lg border border-line bg-surface-2/50 p-3">
+                  <div className="flex flex-wrap gap-2">
+                    <Badge tone="success">{report.added} added</Badge>
+                    <Badge tone="neutral">{report.skipped} skipped (duplicate)</Badge>
+                    <Badge tone={report.errors.length ? 'danger' : 'neutral'}>{report.errors.length} rejected</Badge>
+                  </div>
+                  {report.errors.length > 0 && (
+                    <ul className="mt-2 max-h-32 space-y-0.5 overflow-y-auto">
+                      {report.errors.map((e, i) => <li key={i} className="flex items-start gap-1.5 text-[11.5px] text-danger"><Icon icon={TriangleAlert} size={12} className="mt-0.5 shrink-0" />{e}</li>)}
+                    </ul>
+                  )}
+                </div>
+              )}
+            </div>
+            <div className="flex items-center justify-between gap-2 border-t border-line bg-surface-2/40 px-5 py-3">
+              <Button variant="ghost" onClick={() => setImporting(false)}>Close</Button>
+              <Button variant="primary" iconLeft={Upload} onClick={runImport} disabled={!importText.trim()}>Import</Button>
             </div>
           </Panel>
         </div>
