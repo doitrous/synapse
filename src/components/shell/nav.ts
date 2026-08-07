@@ -16,6 +16,7 @@ import {
   GraduationCap,
   Library,
   FileQuestion,
+  Languages,
   Clapperboard,
   Mail,
   Banknote,
@@ -26,6 +27,8 @@ import {
   BellRing,
   TicketPercent,
   Braces,
+  GitFork,
+  Network,
 } from 'lucide-react'
 
 export type Portal = 'student' | 'admin'
@@ -56,6 +59,7 @@ export const studentNav: NavGroup[] = [
       { label: 'Question Bank', to: '/app/qbank', icon: ListChecks },
       { label: 'Practical', to: '/app/practical', icon: Stethoscope },
       { label: 'Resources', to: '/app/resources', icon: FolderOpen },
+      { label: 'Medical Taxonomy', to: '/app/taxonomy', icon: Languages },
     ],
   },
   {
@@ -90,6 +94,8 @@ export const adminNav: NavGroup[] = [
       { label: 'Library Setup', to: '/admin/library', icon: Library },
       { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },
       { label: 'Concepts', to: '/admin/concepts', icon: Braces },
+      { label: 'Relationships', to: '/admin/relationships', icon: GitFork },
+      { label: 'Subjects & Topics', to: '/admin/taxonomy', icon: Network },
       { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
       { label: 'Resources & Media', to: '/admin/resources', icon: Clapperboard },
       { label: 'Content Reports', to: '/admin/reports', icon: Flag },

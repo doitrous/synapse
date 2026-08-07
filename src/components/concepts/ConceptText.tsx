@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { BookOpenText, GitFork, X } from 'lucide-react'
+import { BookOpenText, GitFork, TriangleAlert, X } from 'lucide-react'
 import { conceptGraphFromStorage, type Concept } from '@/data/conceptGraph'
 import { Icon } from '@/components/ui/Icon'
 
@@ -59,6 +59,12 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
             <button type="button" onClick={() => setActive(null)} className="grid size-8 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close concept details"><Icon icon={X} size={15} /></button>
           </span>
           <span className="mt-3 block text-[12.5px] leading-relaxed text-ink-2">{active.definition || 'Definition awaiting editorial review.'}</span>
+          {active.pitfalls && (
+            <span className="mt-3 block rounded-lg border border-warning/30 bg-warning-tint/50 p-2.5">
+              <span className="mb-1 flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-warning"><Icon icon={TriangleAlert} size={12} />Pitfall</span>
+              <span className="block text-[11.5px] leading-relaxed text-ink-2">{active.pitfalls}</span>
+            </span>
+          )}
           {relations.length > 0 && (
             <span className="mt-3 block border-t border-line pt-3">
               <span className="mb-1.5 flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={GitFork} size={12} />Relationships</span>

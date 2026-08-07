@@ -42,7 +42,7 @@ import { ContentEditorDialog, ConfirmDeleteDialog } from '@/components/admin/Con
 import { QuestionEditorDialog } from '@/components/admin/QuestionEditorDialog'
 import { LibraryArticleEditorDialog } from '@/components/admin/LibraryArticleEditorDialog'
 import { PracticalEditorDialog } from '@/components/admin/PracticalEditorDialog'
-import { initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
@@ -134,7 +134,7 @@ function relativeUpdated(value: string) {
 
 export function ControlDashboard({ initialKind = 'question', lockedKind = false }: { initialKind?: ContentKind; lockedKind?: boolean }) {
   const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
-  const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>('synapse-concept-graph-v1', initialConceptGraph)
+  const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [kind, setKind] = useState<ContentKind>(initialKind)
   const [status, setStatus] = useState<Status | 'All'>('All')
   const [query, setQuery] = useState('')

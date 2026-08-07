@@ -9,6 +9,7 @@ import { Dashboard } from '@/pages/student/Dashboard'
 import { Library } from '@/pages/student/Library'
 import { QuestionBank } from '@/pages/student/QuestionBank'
 import { Resources } from '@/pages/student/Resources'
+import { MedicalTaxonomy } from '@/pages/student/MedicalTaxonomy'
 import { Practical } from '@/pages/student/Practical'
 import { CalendarPage } from '@/pages/student/Calendar'
 import { Performance } from '@/pages/student/Performance'
@@ -29,6 +30,8 @@ import { VoucherManagement } from '@/pages/admin/VoucherManagement'
 import { NotificationCampaigns } from '@/pages/admin/NotificationCampaigns'
 import { BulkImportPage } from '@/pages/admin/BulkImportPage'
 import { ConceptsSetup } from '@/pages/admin/ConceptsSetup'
+import { RelationshipsSetup } from '@/pages/admin/RelationshipsSetup'
+import { TaxonomySetup } from '@/pages/admin/TaxonomySetup'
 
 // Surfaces that are built get their real component; the rest render the
 // intentional Placeholder. Adding a surface = one entry here.
@@ -36,6 +39,7 @@ const studentBuilt: Record<string, ReactElement> = {
   library: <Library />,
   qbank: <QuestionBank />,
   resources: <Resources />,
+  taxonomy: <MedicalTaxonomy />,
   practical: <Practical />,
   calendar: <CalendarPage />,
   performance: <Performance />,
@@ -51,6 +55,8 @@ const adminBuilt: Record<string, ReactElement> = {
   library: <ControlDashboard key="library-catalogue" initialKind="article" lockedKind />,
   questions: <ControlDashboard key="questions-catalogue" initialKind="question" lockedKind />,
   concepts: <ConceptsSetup />,
+  relationships: <RelationshipsSetup />,
+  taxonomy: <TaxonomySetup />,
   practical: <ControlDashboard key="practical-catalogue" initialKind="practical" lockedKind />,
   resources: <ControlDashboard key="resources-catalogue" initialKind="resource" lockedKind />,
   reports: <ReportsReview />,
@@ -68,6 +74,7 @@ const studentPaths = [
   'qbank',
   'practical',
   'resources',
+  'taxonomy',
   'calendar',
   'performance',
   'whiteboard',
@@ -82,6 +89,8 @@ const adminPaths = [
   'library',
   'questions',
   'concepts',
+  'relationships',
+  'taxonomy',
   'practical',
   'resources',
   'reports',

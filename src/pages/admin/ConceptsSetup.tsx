@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Braces, BookOpenText, Plus, Save, Trash2, ChevronRight, Check } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -69,6 +70,7 @@ export function ConceptsSetup() {
   const selected = graph.concepts.find((c) => c.id === selectedId) ?? null
 
   // Draft fields for the selected concept editor.
+  const [draft, setDraft] = useState<Partial<Concept>>({})
   const [draftDef, setDraftDef] = useState(selected?.definition ?? '')
   const [draftAliases, setDraftAliases] = useState(selected?.aliases.join(', ') ?? '')
   const [savedId, setSavedId] = useState<string | null>(null)
@@ -78,10 +80,14 @@ export function ConceptsSetup() {
     const concept = graph.concepts.find((c) => c.id === selectedId)
     setDraftDef(concept?.definition ?? '')
     setDraftAliases(concept?.aliases.join(', ') ?? '')
+    setDraft(concept ? { ...concept } : {})
     setSavedId(null)
     // Intentionally keyed on selectedId only, so edits survive graph updates.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedId])
+
+  const patch = (next: Partial<Concept>) => setDraft((d) => ({ ...d, ...next }))
+  const num01 = (v: string) => Math.min(1, Math.max(0, Number(v) || 0))
 
   // New-concept draft.
   const [nLabel, setNLabel] = useState('')
@@ -111,11 +117,13 @@ export function ConceptsSetup() {
 
   const topicTitle = (topicId: string) => libraryTopics.find((t) => t.id === topicId)?.title ?? 'Unassigned'
   const withQuestions = () => graph.concepts.length
+  const conceptLabel = (id: string) => graph.concepts.find((c) => c.id === id)?.label ?? id
 
   function selectConcept(concept: Concept) {
     setSelectedId(concept.id)
     setDraftDef(concept.definition)
     setDraftAliases(concept.aliases.join(', '))
+    setDraft({ ...concept })
     setSavedId(null)
   }
 
@@ -124,7 +132,17 @@ export function ConceptsSetup() {
     const aliases = draftAliases.split(',').map((a) => a.trim()).filter(Boolean)
     setGraph((g) => ({
       ...g,
-      concepts: g.concepts.map((c) => (c.id === selected.id ? { ...c, definition: draftDef.trim(), aliases } : c)),
+      concepts: g.concepts.map((c) => (c.id === selected.id ? {
+        ...c,
+        definition: draftDef.trim(),
+        aliases,
+        pitfalls: draft.pitfalls,
+        status: draft.status,
+        blueprintWeight: draft.blueprintWeight,
+        clinicalRelevance: draft.clinicalRelevance,
+        academicRelevance: draft.academicRelevance,
+        examWeightByYear: draft.examWeightByYear,
+      } : c)),
     }))
     setSavedId(selected.id)
   }
@@ -248,7 +266,85 @@ export function ConceptsSetup() {
                 <Field label="Also matches (aliases)" hint="Comma-separated terms that should surface this concept, e.g. HF, HFrEF.">
                   <TextInput value={draftAliases} onChange={(e) => setDraftAliases(e.target.value)} placeholder="alias one, alias two" />
                 </Field>
-                <div className="flex items-center gap-2">
+
+                <Field label="Common pitfall" hint="A trap or common mistake — shown to students as a warning in the concept card.">
+                  <Textarea value={draft.pitfalls ?? ''} onChange={(e) => patch({ pitfalls: e.target.value })} placeholder="What do students get wrong here?" className="min-h-[4.5rem]" />
+                </Field>
+
+                <div className="grid grid-cols-2 gap-3">
+                  <Field label="Status">
+                    <Select value={draft.status ?? 'active'} onChange={(e) => patch({ status: e.target.value as Concept['status'] })}>
+                      <option value="active">Active</option>
+                      <option value="under review">Under review</option>
+                      <option value="inactive">Inactive</option>
+                    </Select>
+                  </Field>
+                  <Field label="Blueprint weight (0–1)">
+                    <TextInput type="number" min={0} max={1} step={0.05} value={draft.blueprintWeight ?? 0} onChange={(e) => patch({ blueprintWeight: num01(e.target.value) })} />
+                  </Field>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3">
+                  <Field label="Clinical relevance (0–1)">
+                    <TextInput type="number" min={0} max={1} step={0.05} value={draft.clinicalRelevance ?? 0} onChange={(e) => patch({ clinicalRelevance: num01(e.target.value) })} />
+                  </Field>
+                  <Field label="Academic relevance (0–1)">
+                    <TextInput type="number" min={0} max={1} step={0.05} value={draft.academicRelevance ?? 0} onChange={(e) => patch({ academicRelevance: num01(e.target.value) })} />
+                  </Field>
+                </div>
+
+                {/* Curriculum placement — auto-derived visible IDs */}
+                <div className="rounded-lg border border-line bg-surface-2/40 p-3">
+                  <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Curriculum placement</p>
+                  <div className="grid grid-cols-2 gap-1.5 font-mono text-[10.5px] text-ink-2">
+                    <span>System: <span className="text-ink">{selected.systemId ?? '—'}</span></span>
+                    <span>Topic: <span className="text-ink">{selected.topicTagId ?? '—'}</span></span>
+                    <span>Subtopic: <span className="text-ink">{selected.subtopicId ?? '—'}</span></span>
+                    <span>Micro: <span className="text-ink">{selected.microtopicId ?? '—'}</span></span>
+                  </div>
+                </div>
+
+                {/* Per-year exam blueprint weights */}
+                <div className="rounded-lg border border-line bg-surface-2/40 p-3">
+                  <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Exam blueprint weight by year</p>
+                  <div className="space-y-1.5">
+                    {Object.entries(draft.examWeightByYear ?? {}).map(([yearKey, weight]) => (
+                      <div key={yearKey} className="flex items-center gap-2">
+                        <span className="tnum w-20 font-mono text-[11px] text-ink-2">{yearKey}</span>
+                        <input type="range" min={0} max={1} step={0.05} value={weight} onChange={(e) => patch({ examWeightByYear: { ...(draft.examWeightByYear ?? {}), [yearKey]: num01(e.target.value) } })} className="flex-1 accent-[var(--color-accent)]" />
+                        <span className="tnum w-8 text-end font-mono text-[11px] text-ink">{Number(weight).toFixed(2)}</span>
+                      </div>
+                    ))}
+                    {Object.keys(draft.examWeightByYear ?? {}).length === 0 && (
+                      <button type="button" onClick={() => patch({ examWeightByYear: { OMS_Y2: 0.5, OMS_Y3: 0.5 } })} className="text-[12px] font-medium text-accent hover:text-accent-strong">+ Add year weights</button>
+                    )}
+                  </div>
+                </div>
+
+                {/* Relationships — shared with the Relationships tab */}
+                <div className="rounded-lg border border-line bg-surface-2/40 p-3">
+                  <div className="mb-1.5 flex items-center justify-between">
+                    <p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Relationships</p>
+                    <Link to="/admin/relationships" className="text-[11px] font-medium text-accent hover:text-accent-strong">Manage →</Link>
+                  </div>
+                  {graph.relations.filter((rel) => rel.sourceId === selected.id || rel.targetId === selected.id).slice(0, 6).map((rel) => (
+                    <p key={rel.id} className="font-mono text-[10.5px] leading-relaxed text-ink-2">
+                      {rel.sourceId === selected.id ? <><span className="text-accent-strong">{rel.type}</span> → {conceptLabel(rel.targetId)}</> : <>{conceptLabel(rel.sourceId)} → <span className="text-accent-strong">{rel.type}</span></>}
+                    </p>
+                  ))}
+                  {graph.relations.filter((rel) => rel.sourceId === selected.id || rel.targetId === selected.id).length === 0 && (
+                    <p className="text-[11.5px] text-ink-3">No relationships yet — add them in the Relationships tab.</p>
+                  )}
+                </div>
+
+                {/* Approved resources & articles (auto-maintained) */}
+                <div className="grid grid-cols-2 gap-1.5 font-mono text-[10.5px] text-ink-2">
+                  <span>Approved files: <span className="text-ink">{selected.approvedFileResourceIds?.length ?? 0}</span></span>
+                  <span>Approved videos: <span className="text-ink">{selected.approvedVideoResourceIds?.length ?? 0}</span></span>
+                  <span className="col-span-2">Related articles: <span className="text-ink">{selected.relatedArticleIds?.length ?? selected.articleIds.length}</span></span>
+                </div>
+
+                <div className="flex items-center gap-2 border-t border-line pt-3">
                   <Button variant="primary" iconLeft={savedId === selected.id ? Check : Save} onClick={saveConcept}>
                     {savedId === selected.id ? 'Saved' : 'Save concept'}
                   </Button>
