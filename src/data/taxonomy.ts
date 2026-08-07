@@ -6,7 +6,7 @@
  */
 import { subjects, getSubject } from './student'
 import { libraryTopics } from './library'
-import { universities } from './universities'
+import { getUniversity } from './universities'
 
 const up = (s: string) => s.toUpperCase().replace(/[^A-Z0-9]+/g, '_').replace(/(^_|_$)/g, '')
 
@@ -18,7 +18,10 @@ export const universityId = (uniId: string) => (getUniShort(uniId) || up(uniId))
 export const yearId = (uniId: string, year: string) => `${getUniShort(uniId) || up(uniId)}_Y${year.replace(/\D/g, '') || '1'}`
 
 function getUniShort(uniId: string): string | undefined {
-  return universities.find((u) => u.id === uniId)?.short
+  // Read from the persistent Academic Setup catalogue (localStorage) first, so a
+  // newly-added or renamed university uses its real abbreviation (e.g. HU_Y1),
+  // then fall back to the seeded list.
+  return getUniversity(uniId)?.short
 }
 
 export interface TaxSubtopic { id: string; title: string; subId: string }

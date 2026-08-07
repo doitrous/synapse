@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FolderOpen, ChevronRight, Network, GraduationCap } from 'lucide-react'
-import { universities, YEARS } from '@/data/universities'
 import { ControlDashboard, type ContentScope } from './ControlDashboard'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 
@@ -15,6 +15,7 @@ type Selection = { universityId?: string; year?: string }
  * rail only narrows the scope. Systems/topics are edited in Subjects & Topics.
  */
 export function ResourcesSetup() {
+  const [universities] = useUniversityCatalogue()
   const [selection, setSelection] = useState<Selection>({})
   const [openUni, setOpenUni] = useState<string | null>(null)
 
@@ -68,7 +69,7 @@ export function ResourcesSetup() {
                 </div>
                 {uniOpen && (
                   <ul className="ms-8 mt-0.5 space-y-0.5 border-s border-line ps-2">
-                    {YEARS.map((y) => {
+                    {u.years.map((yr) => yr.year).map((y) => {
                       const yearActive = selection.universityId === u.id && selection.year === y
                       return (
                         <li key={y}>
