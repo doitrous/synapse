@@ -15,7 +15,7 @@ import {
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import type { ResourceType } from '@/data/types'
-import { resources } from '@/data/resources'
+import { useLiveResources } from '@/lib/useLiveResources'
 import { subjects, getSubject } from '@/data/student'
 import { YEARS, scopeUniversities, scopeYear } from '@/data/universities'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -47,6 +47,7 @@ const PDF_TYPES: ResourceType[] = ['Book', 'Guideline', 'Deck', 'Article']
 
 export function Resources() {
   const t = useT()
+  const resources = useLiveResources()
   const [universityCatalogue] = useUniversityCatalogue()
   const [params] = useSearchParams()
   const [section, setSection] = useState<'pdf' | 'video'>('pdf')

@@ -15,7 +15,8 @@ import {
   EyeOff,
 } from 'lucide-react'
 import type { Skill } from '@/data/practical'
-import { osceStations, clinicalCases, skills, labImaging, skillsTotals, oralQuestions } from '@/data/practical'
+import { skills, skillsTotals, oralQuestions } from '@/data/practical'
+import { useLivePracticals } from '@/lib/useLivePracticals'
 import { subjects } from '@/data/student'
 import { getSubject } from '@/data/student'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -58,6 +59,7 @@ function clickable(onOpen: () => void) {
 /* ---- OSCE -------------------------------------------------------------- */
 
 function OsceTab({ onOpen }: { onOpen: Open }) {
+  const { osceStations } = useLivePracticals()
   return (
     <Panel>
       <ul className="divide-y divide-line">
@@ -122,6 +124,7 @@ function caseStatus(status: string) {
 }
 
 function CasesTab({ onOpen }: { onOpen: Open }) {
+  const { clinicalCases } = useLivePracticals()
   return (
     <Panel>
       <ul className="divide-y divide-line">
@@ -235,6 +238,7 @@ function SkillsTab() {
 /* ---- Lab & imaging ----------------------------------------------------- */
 
 function LabTab({ onOpen }: { onOpen: Open }) {
+  const { labImaging } = useLivePracticals()
   return (
     <Panel>
       <ul className="divide-y divide-line">
@@ -347,6 +351,7 @@ function OralTab() {
 
 export function Practical() {
   const t = useT()
+  const { osceStations, clinicalCases, labImaging } = useLivePracticals()
   const [tab, setTab] = useState('osce')
   const [active, setActive] = useState<RunnerTarget | null>(null)
 
