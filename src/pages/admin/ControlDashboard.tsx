@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { Fragment, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   BookOpenText,
@@ -14,6 +14,9 @@ import {
   Trash2,
   Upload,
   Flag,
+  ChevronRight,
+  PlayCircle,
+  FileText,
 } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import {
@@ -23,7 +26,7 @@ import {
   type ContentKind,
   type ManagedContentItem,
 } from '@/data/contentControl'
-import { getSubject } from '@/data/student'
+import { getSubject, subjects } from '@/data/student'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -41,6 +44,7 @@ import { LibraryArticleEditorDialog } from '@/components/admin/LibraryArticleEdi
 import { PracticalEditorDialog } from '@/components/admin/PracticalEditorDialog'
 import { initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { removeStoredMedia } from '@/lib/mediaStorage'
 import { initialContentReports, REPORT_STORAGE_KEY, type ContentReport } from '@/data/contentReports'
@@ -54,6 +58,59 @@ const KIND_ICON = {
 }
 
 const STATUSES: Array<Status | 'All'> = ['All', 'Draft', 'In review', 'Published', 'Archived']
+
+const PRACTICAL_TYPE_ORDER = ['OSCE station', 'Clinical case', 'Skills checklist', 'Lab interpretation', 'Imaging interpretation']
+
+interface Subgroup { key: string; label: string; items: ManagedContentItem[] }
+interface Group { key: string; label: string; color?: string; icon?: 'video' | 'file'; count: number; subs: Subgroup[] }
+
+function bySubjectSubgroups(items: ManagedContentItem[]): Subgroup[] {
+  const map = new Map<string, ManagedContentItem[]>()
+  items.forEach((r) => map.set(r.subjectId, [...(map.get(r.subjectId) ?? []), r]))
+  return subjects.filter((s) => map.has(s.id)).map((s) => ({ key: s.id, label: s.name, items: map.get(s.id)! }))
+}
+
+/** Group filtered rows for the active kind: subject→topic, type, or Files/Videos→module. */
+function buildGroups(kind: ContentKind, rows: ManagedContentItem[]): Group[] {
+  if (kind === 'question' || kind === 'article') {
+    return subjects
+      .map((subj) => {
+        const subjRows = rows.filter((r) => r.subjectId === subj.id)
+        if (!subjRows.length) return null
+        const topics = new Map<string, ManagedContentItem[]>()
+        subjRows.forEach((r) => {
+          const topic = r.fields.Topic || 'Other'
+          topics.set(topic, [...(topics.get(topic) ?? []), r])
+        })
+        return {
+          key: subj.id,
+          label: subj.name,
+          color: subj.color,
+          count: subjRows.length,
+          subs: [...topics.entries()].map(([label, items]) => ({ key: label, label, items })),
+        } as Group
+      })
+      .filter((g): g is Group => g !== null)
+  }
+  if (kind === 'practical') {
+    const types = new Map<string, ManagedContentItem[]>()
+    rows.forEach((r) => {
+      const type = r.fields.Type || 'Other'
+      types.set(type, [...(types.get(type) ?? []), r])
+    })
+    return [...types.keys()]
+      .sort((a, b) => (PRACTICAL_TYPE_ORDER.indexOf(a) + 1 || 99) - (PRACTICAL_TYPE_ORDER.indexOf(b) + 1 || 99))
+      .map((type) => ({ key: type, label: type, count: types.get(type)!.length, subs: bySubjectSubgroups(types.get(type)!) }))
+  }
+  // resource → Files / Videos, each grouped by module (subject)
+  return (['Files', 'Videos'] as const)
+    .map((bucket) => {
+      const items = rows.filter((r) => (bucket === 'Videos' ? r.fields.Type === 'Video' : r.fields.Type !== 'Video'))
+      if (!items.length) return null
+      return { key: bucket, label: bucket, icon: bucket === 'Videos' ? 'video' : 'file', count: items.length, subs: bySubjectSubgroups(items) } as Group
+    })
+    .filter((g): g is Group => g !== null)
+}
 
 function itemSummary(item: ManagedContentItem) {
   if (item.kind === 'question') return `${item.fields.Topic} · ${item.fields.Difficulty}`
@@ -119,6 +176,16 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false 
       .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')}`.toLowerCase().includes(normalized))
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
   }, [activeKind, items, query, status])
+
+  const groups = useMemo(() => buildGroups(activeKind, rows), [activeKind, rows])
+  const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
+  const toggleGroup = (key: string) =>
+    setCollapsed((prev) => {
+      const next = new Set(prev)
+      if (next.has(key)) next.delete(key)
+      else next.add(key)
+      return next
+    })
 
   const reviewQueue = useMemo(
     () => scopedItems.filter((item) => item.status === 'In review').sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()).slice(0, 7),
@@ -223,31 +290,63 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false 
               </tr>
             </thead>
             <tbody>
-              {rows.map((item) => {
-                const subject = getSubject(item.subjectId)
+              {groups.map((group) => {
+                const groupCollapsed = collapsed.has(group.key)
                 return (
-                  <Tr key={item.id} hover>
-                    <Td className="max-w-md pl-4">
-                      <p className="line-clamp-2 font-medium leading-snug text-ink">{item.title}</p>
-                      <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{itemSummary(item)}</p>
-                    </Td>
-                    <Td>
-                      <span className="inline-flex items-center gap-1.5 whitespace-nowrap text-[12.5px] text-ink-2"><SubjectDot id={subject.id} />{subject.short}</span>
-                    </Td>
-                    <Td className="whitespace-nowrap">
-                      <p className="text-[12px] text-ink-2">{item.owner}</p>
-                      <p className="text-[10.5px] text-ink-3" title={formatDateTime(new Date(item.updatedAt))}>{relativeUpdated(item.updatedAt)}</p>
-                    </Td>
-                    <Td><StatusBadge status={item.status} /></Td>
-                    <Td align="right" className="pr-4">
-                      <div className="inline-flex items-center justify-end gap-1">
-                        <IconButton icon={Pencil} label={`Edit ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10" onClick={() => { setEditing(item); setEditorOpen(true) }} />
-                        {item.kind === 'question' && <IconButton icon={Flag} label={`Report “${item.title}” for editorial review`} size="sm" className="size-10" onClick={() => setReportTarget({ kind: 'question', id: item.id, title: item.title })} />}
-                        <IconButton icon={item.status === 'In review' ? CircleCheck : Send} label={item.status === 'In review' ? 'Awaiting review' : 'Send for review'} size="sm" className="size-10" disabled={item.status === 'In review'} onClick={() => sendForReview(item)} />
-                        <IconButton icon={Trash2} label={`Delete ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10 text-danger hover:border-danger/20 hover:bg-danger-tint hover:text-danger" onClick={() => setDeleting(item)} />
-                      </div>
-                    </Td>
-                  </Tr>
+                  <Fragment key={group.key}>
+                    <tr className="border-t border-line bg-surface-2/70">
+                      <td colSpan={5} className="px-2 py-0">
+                        <button
+                          type="button"
+                          onClick={() => toggleGroup(group.key)}
+                          aria-expanded={!groupCollapsed}
+                          className="flex w-full items-center gap-2 px-2 py-2 text-left"
+                        >
+                          <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !groupCollapsed && 'rotate-90')} />
+                          {group.color && <SubjectDot id={group.key} />}
+                          {group.icon && <Icon icon={group.icon === 'video' ? PlayCircle : FileText} size={15} className="text-accent" />}
+                          <span className="text-[13px] font-semibold text-ink">{group.label}</span>
+                          <span className="tnum font-mono text-[11px] text-ink-3">{group.count}</span>
+                        </button>
+                      </td>
+                    </tr>
+                    {!groupCollapsed && group.subs.map((sub) => (
+                      <Fragment key={sub.key}>
+                        <tr className="bg-surface-2/25">
+                          <td colSpan={5} className="px-4 py-1.5 ps-10 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+                            {sub.label} <span className="tnum ms-1 font-mono text-ink-3/70">{sub.items.length}</span>
+                          </td>
+                        </tr>
+                        {sub.items.map((item) => {
+                          const subject = getSubject(item.subjectId)
+                          return (
+                            <Tr key={item.id} hover>
+                              <Td className="max-w-md pl-4">
+                                <p className="line-clamp-2 font-medium leading-snug text-ink">{item.title}</p>
+                                <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{itemSummary(item)}</p>
+                              </Td>
+                              <Td>
+                                <span className="inline-flex items-center gap-1.5 whitespace-nowrap text-[12.5px] text-ink-2"><SubjectDot id={subject.id} />{subject.short}</span>
+                              </Td>
+                              <Td className="whitespace-nowrap">
+                                <p className="text-[12px] text-ink-2">{item.owner}</p>
+                                <p className="text-[10.5px] text-ink-3" title={formatDateTime(new Date(item.updatedAt))}>{relativeUpdated(item.updatedAt)}</p>
+                              </Td>
+                              <Td><StatusBadge status={item.status} /></Td>
+                              <Td align="right" className="pr-4">
+                                <div className="inline-flex items-center justify-end gap-1">
+                                  <IconButton icon={Pencil} label={`Edit ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10" onClick={() => { setEditing(item); setEditorOpen(true) }} />
+                                  {item.kind === 'question' && <IconButton icon={Flag} label={`Report “${item.title}” for editorial review`} size="sm" className="size-10" onClick={() => setReportTarget({ kind: 'question', id: item.id, title: item.title })} />}
+                                  <IconButton icon={item.status === 'In review' ? CircleCheck : Send} label={item.status === 'In review' ? 'Awaiting review' : 'Send for review'} size="sm" className="size-10" disabled={item.status === 'In review'} onClick={() => sendForReview(item)} />
+                                  <IconButton icon={Trash2} label={`Delete ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10 text-danger hover:border-danger/20 hover:bg-danger-tint hover:text-danger" onClick={() => setDeleting(item)} />
+                                </div>
+                              </Td>
+                            </Tr>
+                          )
+                        })}
+                      </Fragment>
+                    ))}
+                  </Fragment>
                 )
               })}
               {rows.length === 0 && (
