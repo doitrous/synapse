@@ -421,7 +421,7 @@ export function QuestionBank() {
 
   /* ---- Running ------------------------------------------------------- */
   const q = session[idx]
-  const revealed = reviewing || checked[q.id]
+  const revealed = reviewing || Boolean(checked[q.id])
   const chosen = answers[q.id]
   const last = idx === session.length - 1
 
@@ -488,8 +488,8 @@ export function QuestionBank() {
           </Badge>
         </div>
 
-        <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><ConceptText text={q.vignette} /></p>
-        <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><ConceptText text={q.stem} /></p>
+        <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><ConceptText text={q.vignette} enabled={revealed} /></p>
+        <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><ConceptText text={q.stem} enabled={revealed} /></p>
 
         {q.attachedImage && (
           <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
@@ -534,10 +534,10 @@ export function QuestionBank() {
                     LETTERS[i]
                   )}
                 </span>
-                <span className="flex-1 pt-0.5 text-[14px] text-ink">{opt.text}</span>
+                <span className="flex-1 pt-0.5 text-[14px] text-ink"><ConceptText text={opt.text} enabled={revealed} /></span>
               </button>
               {revealed && (chosen === i || opt.correct) && (
-                <p className="mt-1 pl-9 pr-1 text-[12.5px] leading-snug text-ink-2">{opt.rationale}</p>
+                <p className="mt-1 ps-9 pe-1 text-[12.5px] leading-snug text-ink-2"><ConceptText text={opt.rationale} enabled={revealed} /></p>
               )}
             </div>
           ))}
@@ -549,7 +549,7 @@ export function QuestionBank() {
             <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
               Explanation
             </p>
-            <p className="text-[14px] leading-relaxed text-ink">{q.explanation}</p>
+            <p className="text-[14px] leading-relaxed text-ink"><ConceptText text={q.explanation} enabled={revealed} /></p>
             <div className="mt-3 flex flex-wrap gap-2 border-t border-line pt-3">
               {q.libraryRefs.map((r) => (
                 <Link

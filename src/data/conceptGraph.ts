@@ -22,12 +22,17 @@ export const STATEMENT_RELATIONS = ['definition_of', ...CONCEPT_RELATIONS] as co
 export type ConceptRelationType = (typeof CONCEPT_RELATIONS)[number]
 export type StatementRelationType = (typeof STATEMENT_RELATIONS)[number]
 
+export const CONCEPT_STORAGE_KEY = 'synapse-concept-graph-v1'
+
 export interface Concept {
   id: string
   label: string
   aliases: string[]
   definition: string
   articleIds: string[]
+  /** Explicit scope for admin-authored concepts; existing ones derive from articleIds. */
+  subjectId?: string
+  topicId?: string
 }
 
 export interface ConceptRelation {
@@ -80,7 +85,7 @@ export function initialConceptGraph(): ConceptGraph {
 
 export function conceptGraphFromStorage(): ConceptGraph {
   try {
-    const stored = localStorage.getItem('synapse-concept-graph-v1')
+    const stored = localStorage.getItem(CONCEPT_STORAGE_KEY)
     if (stored) return JSON.parse(stored) as ConceptGraph
   } catch {
     // Fall back to the built-in graph when storage is unavailable or malformed.

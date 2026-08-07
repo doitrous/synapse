@@ -25,6 +25,7 @@ import {
   Flag,
   BellRing,
   TicketPercent,
+  Braces,
 } from 'lucide-react'
 
 export type Portal = 'student' | 'admin'
@@ -88,6 +89,7 @@ export const adminNav: NavGroup[] = [
       { label: 'Academic Setup', to: '/admin/academic', icon: GraduationCap },
       { label: 'Library Setup', to: '/admin/library', icon: Library },
       { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },
+      { label: 'Concepts', to: '/admin/concepts', icon: Braces },
       { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
       { label: 'Resources & Media', to: '/admin/resources', icon: Clapperboard },
       { label: 'Content Reports', to: '/admin/reports', icon: Flag },

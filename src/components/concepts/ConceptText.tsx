@@ -7,10 +7,11 @@ function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
-export function ConceptText({ text }: { text: string }) {
+export function ConceptText({ text, enabled = true }: { text: string; enabled?: boolean }) {
   const [active, setActive] = useState<Concept | null>(null)
   const graph = useMemo(conceptGraphFromStorage, [])
   const matches = useMemo(() => {
+    if (!enabled) return [{ text, concept: null as Concept | null }]
     const lookup = new Map<string, Concept>()
     graph.concepts.forEach((concept) => [concept.label, ...concept.aliases].forEach((term) => {
       if (term.trim()) lookup.set(term.toLowerCase(), concept)
@@ -28,7 +29,7 @@ export function ConceptText({ text }: { text: string }) {
     }
     if (cursor < text.length) parts.push({ text: text.slice(cursor), concept: null })
     return parts
-  }, [graph.concepts, text])
+  }, [graph.concepts, text, enabled])
 
   const relations = active ? graph.relations.filter((relation) => relation.sourceId === active.id || relation.targetId === active.id).slice(0, 5) : []
   const conceptName = (id: string) => graph.concepts.find((concept) => concept.id === id)?.label ?? id
