@@ -1,203 +1,114 @@
 import { useState } from 'react'
-import { Plus, Pencil, Flag, Upload } from 'lucide-react'
-import { questions } from '@/data/qbank'
-import { questionMeta } from '@/data/admin'
-import { subjects, getSubject } from '@/data/student'
-import { YEARS, scopeUniversities, scopeYear } from '@/data/universities'
-import { PageContainer, PageHeader } from '@/components/shell/Page'
-import { Panel } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
-import { Badge } from '@/components/ui/Badge'
-import { StatusBadge } from '@/components/ui/StatusBadge'
-import { IconButton } from '@/components/ui/IconButton'
-import { FilterChip } from '@/components/ui/FilterChip'
-import { Select } from '@/components/ui/Field'
-import { Table, Th, Td, Tr } from '@/components/ui/Table'
-import { SubjectDot } from '@/components/ui/Subject'
-import { BulkImport } from '@/components/admin/BulkImport'
-import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
+import { Link } from 'react-router-dom'
+import { Database, ChevronRight, Network, GraduationCap } from 'lucide-react'
+import { universities, YEARS } from '@/data/universities'
+import { ControlDashboard, type QuestionScope } from './ControlDashboard'
+import { Icon } from '@/components/ui/Icon'
+import { cn } from '@/lib/cn'
 
-const STATUSES = ['All', 'Published', 'In review', 'Draft']
+type Selection = { universityId?: string; year?: string }
 
-const SAMPLE = `stem,subject,topic,difficulty,university,year
-Which vessel is occluded in an inferior STEMI?,Cardiovascular,ACS,Moderate,OMS;MMS,Year 3
-First-line management of anaphylaxis?,Pharmacology,Emergencies,Easy,OMS,Year 2
-Which nerve lesion causes wrist drop?,Neurology,Peripheral nerves,Hard,OMS;NUM,Year 3
-Typical ECG change in hyperkalaemia?,Renal & Urinary,Electrolytes,Moderate,MMS,Year 2`
-
-function diffTone(d: string): 'success' | 'warning' | 'danger' {
-  return d === 'Easy' ? 'success' : d === 'Moderate' ? 'warning' : 'danger'
-}
-
+/**
+ * Questions Setup = a left "Master Question Bank" navigator (all questions →
+ * per-university → per-year) wrapped around the full question catalogue. The
+ * catalogue keeps its own search, status filter, systems→topics grouping, and
+ * editor; the rail only narrows the scope. Systems/topics themselves are edited
+ * in the single-source Subjects & Topics tab.
+ */
 export function QuestionsSetup() {
-  const [universityCatalogue] = useUniversityCatalogue()
-  const [status, setStatus] = useState('All')
-  const [uni, setUni] = useState('all')
-  const [year, setYear] = useState('all')
-  const [subject, setSubject] = useState('all')
-  const [importOpen, setImportOpen] = useState(false)
-  const [imported, setImported] = useState(0)
+  const [selection, setSelection] = useState<Selection>({})
+  const [openUni, setOpenUni] = useState<string | null>(null)
 
-  const rows = questions.filter((q) => {
-    if (status !== 'All' && questionMeta[q.id]?.status !== status) return false
-    if (uni !== 'all' && !scopeUniversities(q.id).includes(uni)) return false
-    if (year !== 'all' && scopeYear(q.subjectId) !== year) return false
-    if (subject !== 'all' && q.subjectId !== subject) return false
-    return true
-  })
-  const inReview = questions.filter((q) => questionMeta[q.id]?.status === 'In review').length
+  const scope: QuestionScope = { universityId: selection.universityId, year: selection.year }
+  const isMaster = !selection.universityId && !selection.year
 
   return (
-    <PageContainer>
-      <PageHeader
-        title="Questions Setup"
-        description="Write, review, filter, and bulk-import question-bank items."
-        actions={
-          <>
-            <Button variant="secondary" size="md" iconLeft={Upload} onClick={() => setImportOpen(true)}>
-              Bulk import
-            </Button>
-            <Button variant="primary" size="md" iconLeft={Plus}>
-              New question
-            </Button>
-          </>
-        }
-      />
-
-      {imported > 0 && (
-        <div className="mb-4 rounded-lg border border-success/25 bg-success-tint/70 px-4 py-2.5 text-[13px] text-ink">
-          {imported} questions imported and added to the review queue.
-        </div>
-      )}
-
-      <div className="mb-4 space-y-3">
-        <div className="flex flex-wrap items-center gap-2">
-          {STATUSES.map((s) => (
-            <FilterChip key={s} active={status === s} onClick={() => setStatus(s)}>
-              {s}
-            </FilterChip>
-          ))}
-          {inReview > 0 && (
-            <span className="ml-auto inline-flex items-center gap-1.5 text-[12.5px] text-warning">
-              <Flag size={13} />
-              {inReview} awaiting review
-            </span>
+    <div className="flex min-h-[calc(100dvh-4rem)] flex-col lg:flex-row">
+      {/* Left navigator */}
+      <aside className="shrink-0 border-b border-line bg-surface-2/40 p-3 lg:w-64 lg:border-b-0 lg:border-e">
+        <button
+          type="button"
+          onClick={() => { setSelection({}); setOpenUni(null) }}
+          className={cn(
+            'flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-left text-[13.5px] font-semibold',
+            isMaster ? 'bg-accent-tint text-accent-strong' : 'text-ink hover:bg-inset',
           )}
-        </div>
-        <div className="flex flex-wrap items-center gap-2.5">
-          <span className="text-[12px] font-medium text-ink-3">Filter</span>
-          <Select value={uni} onChange={(e) => setUni(e.target.value)} className="w-52">
-            <option value="all">All universities</option>
-            {universityCatalogue.map((u) => (
-              <option key={u.id} value={u.id}>
-                {u.short} — {u.name}
-              </option>
-            ))}
-          </Select>
-          <Select value={year} onChange={(e) => setYear(e.target.value)} className="w-36">
-            <option value="all">All years</option>
-            {YEARS.map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </Select>
-          <Select value={subject} onChange={(e) => setSubject(e.target.value)} className="w-44">
-            <option value="all">All subjects</option>
-            {subjects.map((s) => (
-              <option key={s.id} value={s.id}>
-                {s.name}
-              </option>
-            ))}
-          </Select>
-        </div>
-      </div>
+        >
+          <Icon icon={Database} size={16} />
+          Master Question Bank
+        </button>
 
-      <Panel>
-        <Table>
-          <thead>
-            <tr>
-              <Th className="pl-4">Question</Th>
-              <Th>Subject</Th>
-              <Th>Year</Th>
-              <Th>Universities</Th>
-              <Th>Difficulty</Th>
-              <Th>Status</Th>
-              <Th align="center">Flags</Th>
-              <Th align="right" className="pr-4">
-                <span className="sr-only">Actions</span>
-              </Th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((q) => {
-              const meta = questionMeta[q.id]
-              const subj = getSubject(q.subjectId)
-              return (
-                <Tr key={q.id} hover>
-                  <Td className="max-w-xs pl-4">
-                    <span className="line-clamp-1 font-medium">{q.stem}</span>
-                    <span className="text-[11.5px] text-ink-3">{q.topic}</span>
-                  </Td>
-                  <Td>
-                    <span className="inline-flex items-center gap-1.5 text-ink-2">
-                      <SubjectDot id={subj.id} />
-                      {subj.short}
-                    </span>
-                  </Td>
-                  <Td className="whitespace-nowrap text-[12.5px] text-ink-2">{scopeYear(q.subjectId)}</Td>
-                  <Td>
-                    <div className="flex flex-wrap gap-1">
-                      {scopeUniversities(q.id).map((id) => (
-                        <span
-                          key={id}
-                          className="rounded bg-inset px-1.5 py-0.5 text-[10.5px] font-medium text-ink-2"
-                        >
-                          {universityFrom(universityCatalogue, id)?.short}
-                        </span>
-                      ))}
-                    </div>
-                  </Td>
-                  <Td>
-                    <Badge tone={diffTone(q.difficulty)}>{q.difficulty}</Badge>
-                  </Td>
-                  <Td>{meta ? <StatusBadge status={meta.status} /> : null}</Td>
-                  <Td align="center">
-                    {meta && meta.flags > 0 ? (
-                      <span className="tnum inline-flex items-center gap-1 font-mono text-[12px] text-danger">
-                        <Flag size={12} />
-                        {meta.flags}
-                      </span>
-                    ) : (
-                      <span className="text-ink-3">—</span>
+        <p className="mt-4 mb-1.5 px-3 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">By university & year</p>
+        <ul className="space-y-0.5">
+          {universities.map((u) => {
+            const uniOpen = openUni === u.id
+            const uniActive = selection.universityId === u.id && !selection.year
+            return (
+              <li key={u.id}>
+                <div className="flex items-center">
+                  <button
+                    type="button"
+                    onClick={() => setOpenUni(uniOpen ? null : u.id)}
+                    className="grid size-7 place-items-center rounded text-ink-3 hover:text-ink"
+                    aria-label={uniOpen ? `Collapse ${u.short}` : `Expand ${u.short}`}
+                  >
+                    <Icon icon={ChevronRight} size={14} className={cn('transition-transform', uniOpen && 'rotate-90')} />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => { setSelection({ universityId: u.id }); setOpenUni(u.id) }}
+                    className={cn(
+                      'flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-left text-[13px]',
+                      uniActive ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset',
                     )}
-                  </Td>
-                  <Td align="right" className="pr-4">
-                    <IconButton icon={Pencil} label="Edit question" size="sm" />
-                  </Td>
-                </Tr>
-              )
-            })}
-            {rows.length === 0 && (
-              <tr>
-                <td colSpan={8} className="px-4 py-10 text-center text-[13px] text-ink-3">
-                  No questions match these filters.
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </Table>
-      </Panel>
+                  >
+                    <Icon icon={GraduationCap} size={14} />
+                    <span className="font-medium">{u.short}</span>
+                    <span className="truncate text-[11.5px] text-ink-3">{u.name}</span>
+                  </button>
+                </div>
+                {uniOpen && (
+                  <ul className="ms-8 mt-0.5 space-y-0.5 border-s border-line ps-2">
+                    {YEARS.map((y) => {
+                      const yearActive = selection.universityId === u.id && selection.year === y
+                      return (
+                        <li key={y}>
+                          <button
+                            type="button"
+                            onClick={() => setSelection({ universityId: u.id, year: y })}
+                            className={cn(
+                              'block w-full rounded px-2.5 py-1.5 text-left text-[12.5px]',
+                              yearActive ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-3 hover:bg-inset hover:text-ink-2',
+                            )}
+                          >
+                            {y}
+                          </button>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                )}
+              </li>
+            )
+          })}
+        </ul>
 
-      <BulkImport
-        open={importOpen}
-        onClose={() => setImportOpen(false)}
-        title="Bulk import questions"
-        itemNoun="questions"
-        fields={['Stem', 'Subject', 'Topic', 'Difficulty', 'University', 'Year', 'Explanation']}
-        sampleCsv={SAMPLE}
-        onImport={(n) => setImported(n)}
-      />
-    </PageContainer>
+        <Link to="/admin/taxonomy" className="mt-4 flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-[12px] text-ink-2 hover:border-accent-line hover:text-accent-strong">
+          <Icon icon={Network} size={14} />
+          Edit systems & topics
+        </Link>
+      </aside>
+
+      {/* Scoped catalogue */}
+      <div className="min-w-0 flex-1">
+        <div className="border-b border-line bg-surface px-5 py-2.5 text-[12.5px] text-ink-2">
+          <span className="font-medium text-ink">Scope:</span>{' '}
+          {isMaster
+            ? 'Master Question Bank — every question'
+            : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
+        </div>
+        <ControlDashboard key={`${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="question" lockedKind questionScope={scope} />
+      </div>
+    </div>
   )
 }

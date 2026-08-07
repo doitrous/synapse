@@ -33,6 +33,7 @@ import { ConceptsSetup } from '@/pages/admin/ConceptsSetup'
 import { RelationshipsSetup } from '@/pages/admin/RelationshipsSetup'
 import { TaxonomySetup } from '@/pages/admin/TaxonomySetup'
 import { StudentsManagement } from '@/pages/admin/StudentsManagement'
+import { QuestionsSetup } from '@/pages/admin/QuestionsSetup'
 
 // Surfaces that are built get their real component; the rest render the
 // intentional Placeholder. Adding a surface = one entry here.
@@ -54,7 +55,7 @@ const studentBuilt: Record<string, ReactElement> = {
 const adminBuilt: Record<string, ReactElement> = {
   academic: <AcademicSetup />,
   library: <ControlDashboard key="library-catalogue" initialKind="article" lockedKind />,
-  questions: <ControlDashboard key="questions-catalogue" initialKind="question" lockedKind />,
+  questions: <QuestionsSetup />,
   concepts: <ConceptsSetup />,
   relationships: <RelationshipsSetup />,
   taxonomy: <TaxonomySetup />,

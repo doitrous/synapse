@@ -27,6 +27,7 @@ import {
   type ManagedContentItem,
 } from '@/data/contentControl'
 import { getSubject, subjects } from '@/data/student'
+import { scopeUniversities, scopeYear } from '@/data/universities'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -137,7 +138,9 @@ function relativeUpdated(value: string) {
   return `${Math.floor(hours / 24)}d ago`
 }
 
-export function ControlDashboard({ initialKind = 'question', lockedKind = false }: { initialKind?: ContentKind; lockedKind?: boolean }) {
+export interface QuestionScope { universityId?: string; year?: string }
+
+export function ControlDashboard({ initialKind = 'question', lockedKind = false, questionScope }: { initialKind?: ContentKind; lockedKind?: boolean; questionScope?: QuestionScope }) {
   const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [kind, setKind] = useState<ContentKind>(initialKind)
@@ -178,9 +181,16 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false 
     return items
       .filter((item) => item.kind === activeKind)
       .filter((item) => status === 'All' || item.status === status)
+      // Question navigator scope (Master Question Bank → university → year).
+      .filter((item) => {
+        if (activeKind !== 'question' || !questionScope) return true
+        if (questionScope.universityId && !scopeUniversities(item.id).includes(questionScope.universityId)) return false
+        if (questionScope.year && scopeYear(item.subjectId) !== questionScope.year) return false
+        return true
+      })
       .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')}`.toLowerCase().includes(normalized))
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
-  }, [activeKind, items, query, status])
+  }, [activeKind, items, query, status, questionScope])
 
   const [resourceTab, setResourceTab] = useState<ResourceTab>('Files')
   const resourceCounts = useMemo(() => ({
