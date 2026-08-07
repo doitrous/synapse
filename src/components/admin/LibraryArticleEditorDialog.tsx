@@ -10,6 +10,7 @@ import {
   type StatementRelationType,
 } from '@/data/conceptGraph'
 import type { ArticleAuthoringData, ManagedContentItem } from '@/data/contentControl'
+import { emptySections, newId, type ArticleSection } from '@/data/userLibrary'
 import { libraryTopics } from '@/data/library'
 import { subjects, getSubject } from '@/data/student'
 import { Button } from '@/components/ui/Button'
@@ -21,7 +22,30 @@ import { ChapterMark } from '@/components/ui/ChapterMark'
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
 function blankArticleData(): ArticleAuthoringData {
-  return { summary: '', body: '', holdThese: [''], loseTheMark: [''], questionIds: [], resourceIds: [], annotations: [] }
+  return { summary: '', body: '', sections: emptySections(), holdThese: [''], loseTheMark: [''], questionIds: [], resourceIds: [], annotations: [] }
+}
+
+/** Named-section editor — the same clinical scaffold students author with. */
+function SectionsEditor({ sections, onChange }: { sections: ArticleSection[]; onChange: (next: ArticleSection[]) => void }) {
+  return (
+    <div className="space-y-3">
+      {sections.map((section, index) => (
+        <div key={section.id} className="rounded-xl border border-line bg-surface-2/40 p-3">
+          <div className="flex items-center gap-2">
+            <input
+              value={section.heading}
+              onChange={(e) => onChange(sections.map((s, i) => (i === index ? { ...s, heading: e.target.value } : s)))}
+              placeholder="Section heading"
+              className="h-9 flex-1 rounded-md border border-line bg-surface px-2.5 text-[13.5px] font-semibold text-ink focus:border-accent focus:outline-none"
+            />
+            <button type="button" onClick={() => onChange(sections.filter((_, i) => i !== index))} className="grid size-9 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Remove section ${index + 1}`}><Icon icon={Trash2} size={15} /></button>
+          </div>
+          <Textarea value={section.body} onChange={(e) => onChange(sections.map((s, i) => (i === index ? { ...s, body: e.target.value } : s)))} placeholder="Write this section…" className="mt-2 min-h-24 text-[14px] leading-relaxed" />
+        </div>
+      ))}
+      <Button type="button" size="sm" variant="secondary" iconLeft={Plus} onClick={() => onChange([...sections, { id: newId('sec'), heading: '', body: '' }])}>Add section</Button>
+    </div>
+  )
 }
 
 function blankArticle(): ManagedContentItem {
@@ -81,7 +105,8 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
   const subject = getSubject(draft.subjectId)
   const questionItems = contentItems.filter((content) => content.kind === 'question')
   const resourceItems = contentItems.filter((content) => content.kind === 'resource')
-  const valid = draft.title.trim() && draft.fields.Topic?.trim() && data.summary.trim() && data.body.trim()
+  const hasBody = (data.sections ?? []).some((s) => s.heading.trim() || s.body.trim()) || data.body.trim()
+  const valid = draft.title.trim() && draft.fields.Topic?.trim() && data.summary.trim() && hasBody
   const chapterIndex = Math.max(0, libraryTopics.filter((topic) => topic.subjectId === draft.subjectId).findIndex((topic) => topic.title === draft.fields.Topic))
 
   function updateData(updater: (current: ArticleAuthoringData) => ArticleAuthoringData) {
@@ -123,7 +148,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
 
   return (
     <div className="fixed inset-0 z-50 bg-paper" role="dialog" aria-modal="true" aria-labelledby="article-editor-title">
-      <form className="flex h-full flex-col pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)]" onSubmit={(event) => { event.preventDefault(); if (!valid) return; const finalData = draft.articleData ?? blankArticleData(); onSave({ ...draft, id: draft.id || `article-${Date.now()}`, title: draft.title.trim(), updatedAt: new Date().toISOString(), fields: { ...draft.fields, Summary: finalData.summary, 'Key point': finalData.holdThese[0] ?? '' }, articleData: finalData }) }}>
+      <form className="flex h-full flex-col pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)]" onSubmit={(event) => { event.preventDefault(); if (!valid) return; const base = draft.articleData ?? blankArticleData(); const sections = (base.sections ?? []).map((s) => ({ ...s, heading: s.heading.trim(), body: s.body.trim() })).filter((s) => s.heading || s.body); const finalData = { ...base, sections, body: base.body || sections.map((s) => `${s.heading}\n${s.body}`).join('\n\n') }; onSave({ ...draft, id: draft.id || `article-${Date.now()}`, title: draft.title.trim(), updatedAt: new Date().toISOString(), fields: { ...draft.fields, Summary: finalData.summary, 'Key point': finalData.holdThese[0] ?? '' }, articleData: finalData }) }}>
         <header className="flex shrink-0 flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-2.5 sm:h-16 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-0">
           <span className="grid size-9 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={BookOpen} size={17} /></span>
           <div className="min-w-0 flex-1"><h2 id="article-editor-title" className="font-serif text-[18px] font-semibold text-ink">{item ? 'Edit library article' : 'Add library article'}</h2><p className="text-[11.5px] text-ink-3">Published-layout editor · canonical concept graph</p></div>
@@ -148,7 +173,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               <div className="mt-3 flex items-center gap-3 text-[12px] text-ink-3"><span>{draft.fields['Reading time'] || '8'} min read</span><span>·</span><span>{draft.status}</span></div>
 
               <div className="mt-7"><div className="mb-1.5 flex items-center justify-between"><label htmlFor="article-summary" className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Summary</label><Button type="button" size="sm" variant="ghost" onClick={() => captureSelection('summary')}>Use selected text</Button></div><Textarea id="article-summary" className="min-h-32 border-transparent bg-transparent px-0 text-[16.5px] leading-[1.65] shadow-none focus:border-line" value={data.summary} onChange={(event) => updateData((current) => ({ ...current, summary: event.target.value }))} /></div>
-              <div className="mt-5 border-t border-line pt-5"><div className="mb-1.5 flex items-center justify-between"><label htmlFor="article-body" className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Article text</label><Button type="button" size="sm" variant="ghost" onClick={() => captureSelection('body')}>Use selected text</Button></div><Textarea id="article-body" className="min-h-[32rem] border-transparent bg-transparent px-0 text-[15px] leading-[1.75] shadow-none focus:border-line" value={data.body} onChange={(event) => updateData((current) => ({ ...current, body: event.target.value }))} /></div>
+              <div className="mt-5 border-t border-line pt-5"><div className="mb-2.5 flex items-center justify-between"><label className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Sections</label><span className="text-[11px] text-ink-3">Rename or remove to fit this article</span></div><SectionsEditor sections={data.sections ?? []} onChange={(sections) => updateData((current) => ({ ...current, sections }))} /></div>
 
               {data.annotations.length > 0 && <section className="mt-8 rounded-xl border border-accent-line bg-accent-tint/35 p-4"><div className="flex items-center gap-2"><Icon icon={Flag} size={15} className="text-accent" /><h3 className="text-[13px] font-bold text-ink">Concept annotations</h3></div><ul className="mt-3 divide-y divide-accent-line">{data.annotations.map((annotation) => <li key={annotation.id} className="flex gap-3 py-2.5"><div className="min-w-0 flex-1"><p className="text-[12.5px] text-ink">“{annotation.quote}”</p><p className="mt-0.5 font-mono text-[10.5px] text-accent-strong">{annotation.relation} → {annotation.conceptId}</p></div><button type="button" className="grid size-9 place-items-center text-ink-3 hover:text-danger" aria-label="Remove annotation" onClick={() => updateData((current) => ({ ...current, annotations: current.annotations.filter((item) => item.id !== annotation.id) }))}><Icon icon={Trash2} size={14} /></button></li>)}</ul></section>}
             </article>

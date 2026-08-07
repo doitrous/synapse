@@ -59,14 +59,15 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       ...common,
       { key: 'topic', label: 'Library topic', required: true, help: 'Parent topic shown in the library navigator.' },
       { key: 'summary', label: 'Summary', required: true, help: 'Opening summary for the article.' },
-      { key: 'body', label: 'Article body', required: true, help: 'Markdown or plain text body. Multi-line content is preserved.' },
+      { key: 'sections', label: 'Sections', help: 'Named clinical sections. Start each with "### Heading" on its own line, then the section text. Common headings: Definition, Incidence, Pathophysiology, Pathology, Clinical Picture, Investigation, Treatment.' },
+      { key: 'body', label: 'Article body (legacy)', help: 'Optional plain-text body used only if no sections are given.' },
       { key: 'hold_these', label: 'Hold these', help: 'High-yield points separated by new lines, |, or semicolons.' },
       { key: 'lose_the_mark', label: 'Where people lose the mark', help: 'Common traps separated by new lines, |, or semicolons.' },
       { key: 'question_ids', label: 'Question IDs', help: 'Canonical question IDs that test this article.' },
       { key: 'resource_ids', label: 'Resource IDs', help: 'Canonical resources that teach this article.' },
       { key: 'reading_time', label: 'Reading time', help: 'Estimated minutes.' },
     ],
-    markdownExample: `# Item\n\n## title\nInitial management of pulmonary embolism\n\n## subject\ncvs\n\n## topic\nVenous thromboembolism\n\n## summary\nTreat immediate threats while confirming the diagnosis.\n\n## body\nGive oxygen for hypoxia and assess haemodynamic stability.\n\n## hold_these\nOxygen and ABC assessment come first.\nAnticoagulation should not wait in a high-probability patient without contraindications.\n\n## lose_the_mark\nOrdering D-dimer when CTPA is already indicated.\nWaiting for imaging before treating a high-probability patient.\n\n---\n\n# Item\n...`,
+    markdownExample: `# Item\n\n## title\nPulmonary embolism\n\n## subject\ncvs\n\n## topic\nVenous thromboembolism\n\n## summary\nA common, treatable cause of acute breathlessness that must be confirmed and treated in parallel.\n\n## sections\n### Definition\nOcclusion of the pulmonary arterial tree, usually by thrombus embolising from a deep vein.\n### Incidence\nCommon; risk rises with immobility, surgery, malignancy, and pregnancy.\n### Pathophysiology\nMechanical obstruction and vasoactive mediators raise pulmonary vascular resistance and strain the right ventricle.\n### Clinical Picture\nPleuritic chest pain, breathlessness, tachycardia; massive PE causes haemodynamic collapse.\n### Investigation\nWells score guides D-dimer vs CTPA; ECG and ABG are supportive.\n### Treatment\nOxygen for hypoxia, anticoagulation, and thrombolysis for haemodynamic instability.\n\n## hold_these\nOxygen and ABC assessment come first.\nAnticoagulation should not wait in a high-probability patient without contraindications.\n\n## lose_the_mark\nOrdering D-dimer when CTPA is already indicated.\n\n---\n\n# Item\n...`,
   },
   practical: {
     noun: 'practical items',
@@ -79,11 +80,15 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'candidate_instructions', label: 'Candidate instructions', help: 'Student-facing station brief.' },
       { key: 'actor_opening', label: 'Actor opening', help: 'Opening statement for the actor.' },
       { key: 'actor_sections', label: 'Actor brief sections', help: 'One “Section: content” entry per line.' },
-      { key: 'actor_flags', label: 'Actor flags', help: 'Behavioural flags separated by new lines.' },
-      { key: 'mark_scheme', label: 'Mark scheme', help: 'One “Section (marks): item” entry per line.' },
+      { key: 'actor_flags', label: 'Actor flags', help: 'Behavioural flags separated by new lines. (OSCE station)' },
+      { key: 'mark_scheme', label: 'Mark scheme', help: 'One “Section (marks): item” entry per line. (OSCE station)' },
+      { key: 'decisions', label: 'Case decisions', help: 'Clinical-case decision points. Start each with "### Decision title", then "Q: question", options as "* option" (mark the right one "*= option"), and "Rationale: …". (Clinical case)' },
+      { key: 'debrief', label: 'Case debrief', help: 'Summary shown after a clinical case. (Clinical case)' },
+      { key: 'lab_subtype', label: 'Lab / Imaging', help: 'Lab or Imaging — for interpretation sets.' },
+      { key: 'lab_questions', label: 'Interpretation questions', help: 'Start each with "### Stem", then "Q: question", options as "* option" ("*= option" is correct), and "Explanation: …". (Lab/Imaging interpretation)' },
       { key: 'references', label: 'Read around it', help: 'Resource references separated by new lines.' },
     ],
-    markdownExample: `# Item\n\n## title\nHistory: chest pain in a 54-year-old\n\n## subject\ncvs\n\n## type\nOSCE station\n\n## duration\n8\n\n## candidate_instructions\nTake a focused history and present your differential.\n\n## actor_opening\nIt came on when I was carrying shopping upstairs.\n\n## actor_sections\nWho you are: Daniel Rossi, 54, self-employed builder.\nRadiation: Down my left arm and into my jaw.\n\n## actor_flags\nIf the candidate lectures without checking understanding, become quieter.\n\n## mark_scheme\nOpening and structure (15): Introduces self and confirms identity\nPain characterisation (25): Establishes site, onset, character and radiation`,
+    markdownExample: `# One file can mix every practical type — separate items with ---\n\n# Item\n\n## title\nHistory: chest pain in a 54-year-old\n\n## subject\ncvs\n\n## type\nOSCE station\n\n## duration\n8\n\n## candidate_instructions\nTake a focused history and present your differential.\n\n## actor_opening\nIt came on when I was carrying shopping upstairs.\n\n## actor_sections\nWho you are: Daniel Rossi, 54, self-employed builder.\nRadiation: Down my left arm and into my jaw.\n\n## mark_scheme\nOpening and structure (15): Introduces self and confirms identity\nPain characterisation (25): Establishes site, onset, character and radiation\n\n---\n\n# Item\n\n## title\nAcute central chest pain\n\n## subject\ncvs\n\n## type\nClinical case\n\n## decisions\n### Immediate action\nQ: What is your first step?\n*= Give aspirin and arrange an ECG\n* Send home with analgesia\nRationale: Early ECG and aspirin are time-critical in suspected ACS.\n\n## debrief\nThe case rewards early recognition and treatment of immediate threats.\n\n---\n\n# Item\n\n## title\nChest X-ray basics\n\n## subject\nresp\n\n## type\nImaging interpretation\n\n## lab_subtype\nImaging\n\n## lab_questions\n### Consolidation vs effusion\nQ: What does the blunted costophrenic angle indicate?\n*= A pleural effusion\n* Lobar consolidation\nExplanation: A meniscus and blunted angle indicate fluid, not consolidation.\n\n---\n\n# Item\n\n## title\nCardiovascular examination\n\n## subject\ncvs\n\n## type\nSkills checklist\n\n## duration\n8\n\n## marks\n20`,
   },
   resource: {
     noun: 'resources',
@@ -101,6 +106,19 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
 
 export function splitImportList(value = '') {
   return value.split(/\r?\n|\||;/).map((item) => item.trim()).filter(Boolean)
+}
+
+/** Parse a "### Heading" delimited block into named article sections. */
+export function parseSections(value = ''): Array<{ id: string; heading: string; body: string }> {
+  if (!value.trim()) return []
+  const out: Array<{ id: string; heading: string; body: string }> = []
+  for (const raw of value.split(/\r?\n/)) {
+    const heading = raw.match(/^###\s+(.*)/)
+    if (heading) out.push({ id: `sec-${out.length}`, heading: heading[1].trim(), body: '' })
+    else if (out.length) out[out.length - 1].body += (out[out.length - 1].body ? '\n' : '') + raw
+    else if (raw.trim()) out.push({ id: `sec-${out.length}`, heading: '', body: raw })
+  }
+  return out.map((s) => ({ ...s, body: s.body.trim() })).filter((s) => s.heading || s.body)
 }
 
 export function validateImportRow(kind: ContentKind, values: Record<string, string>) {
@@ -147,7 +165,11 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const difficulty = ['Easy', 'Moderate', 'Hard'].includes(values.difficulty) ? values.difficulty as 'Easy' | 'Moderate' | 'Hard' : 'Moderate'
     return { ...base, title: values.question?.trim() || base.title, fields: { Topic: values.topic ?? '', Difficulty: difficulty, Vignette: values.vignette ?? '', Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '' }, questionData: { attachments: [], correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel, answers, attachedImage: '', libraryIds: splitImportList(values.library_ids), resourceIds: splitImportList(values.resource_ids), tags: { module: values.module || base.subjectId, topic: values.topic || '', subtopic: values.subtopic || '', conceptIds: splitImportList(values.concept_ids), years: splitImportList(values.years), universityIds: splitImportList(values.universities), cognitiveEffort: ['Low', 'Medium', 'High'].includes(values.cognitive_effort) ? values.cognitive_effort as 'Low' | 'Medium' | 'High' : 'Medium', setting: ['Academic', 'Clinical', 'Both'].includes(values.setting) ? values.setting as 'Academic' | 'Clinical' | 'Both' : 'Both', intendedDifficulty: difficulty, clinicalReasoningLevel: numberInRange(values.reasoning_level, 2, 0, 5), inferredDifficulty: numberInRange(values.inferred_difficulty, 50, 0, 100), examRelevance: numberInRange(values.exam_relevance, 5, 0, 10), contextualConceptIds: splitImportList(values.contextual_concept_ids) }, learningObjective: values.learning_objective || '', authorNotes: '', sourceCitation: values.source_citation || '', estimatedSeconds: 90, randomiseAnswers: true } }
   }
-  if (kind === 'article') return { ...base, fields: { Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5', 'Key point': splitImportList(values.hold_these)[0] || '' }, articleData: { summary: values.summary || '', body: values.body || '', holdThese: splitImportList(values.hold_these), loseTheMark: splitImportList(values.lose_the_mark), questionIds: splitImportList(values.question_ids), resourceIds: splitImportList(values.resource_ids), annotations: [] } }
-  if (kind === 'practical') return { ...base, fields: { Type: values.type || 'OSCE station', Duration: values.duration || '8', Marks: values.marks || '20', Difficulty: values.difficulty || 'Moderate', 'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', References: values.references || '' } }
+  if (kind === 'article') {
+    const sections = parseSections(values.sections)
+    const body = values.body || sections.map((s) => `${s.heading}\n${s.body}`).join('\n\n')
+    return { ...base, fields: { Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5', 'Key point': splitImportList(values.hold_these)[0] || '' }, articleData: { summary: values.summary || '', body, sections, holdThese: splitImportList(values.hold_these), loseTheMark: splitImportList(values.lose_the_mark), questionIds: splitImportList(values.question_ids), resourceIds: splitImportList(values.resource_ids), annotations: [] } }
+  }
+  if (kind === 'practical') return { ...base, fields: { Type: values.type || 'OSCE station', Duration: values.duration || '8', Marks: values.marks || '20', Difficulty: values.difficulty || 'Moderate', 'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', References: values.references || '' } }
   return { ...base, fields: { Type: values.type || 'Article', Source: values.source || '', URL: values.url || '', Year: values.year || '', Description: values.description || '' } }
 }

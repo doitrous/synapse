@@ -5,6 +5,7 @@ import { osceStations, clinicalCases, skills, labImaging } from './practical'
 import { questions } from './qbank'
 import { resources } from './resources'
 import type { ConceptAnnotation } from './conceptGraph'
+import type { ArticleSection } from './userLibrary'
 
 export type ContentKind = 'question' | 'article' | 'practical' | 'resource'
 
@@ -60,7 +61,10 @@ export interface QuestionAuthoringData {
 
 export interface ArticleAuthoringData {
   summary: string
+  /** Legacy single-body text; superseded by named `sections` but kept for imports. */
   body: string
+  /** Named clinical sections (Definition, Incidence, Pathophysiology, …). */
+  sections: ArticleSection[]
   holdThese: string[]
   loseTheMark: string[]
   questionIds: string[]
@@ -219,6 +223,9 @@ export function initialManagedContent(): ManagedContentItem[] {
       articleData: {
         summary: article.summary,
         body: article.blocks.map((block) => block.text ?? block.items?.join('\n') ?? '').filter(Boolean).join('\n\n'),
+        sections: article.blocks
+          .filter((block) => block.type === 'h')
+          .map((block, i) => ({ id: `sec-${article.id}-${i}`, heading: block.text ?? '', body: '' })),
         holdThese: article.keyPoints,
         loseTheMark: article.blocks.filter((block) => block.type === 'callout' && block.tone === 'warning').map((block) => block.text ?? '').filter(Boolean),
         questionIds: article.questions.map((question) => question.id),
