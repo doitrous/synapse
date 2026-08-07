@@ -330,6 +330,7 @@ export const AR: Record<string, string> = {
   'Due today': 'مستحق اليوم',
   'What deserves attention': 'ما يستحق الانتباه',
   'Reviews ordered by urgency and retention.': 'مرتّبة حسب الإلحاح ومستوى التثبيت.',
+  'Show all': 'عرض الكل',
   'Start review': 'ابدأ المراجعة',
   'Next on your schedule': 'التالي في جدولك',
   'Study heatmap': 'خريطة النشاط الدراسي',

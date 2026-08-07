@@ -92,7 +92,7 @@ export function StudyHeatmap() {
       />
       <div className="p-4 sm:p-5">
         <div className="overflow-x-auto pb-1">
-          <div className="flex gap-2">
+          <div className="mx-auto flex w-max gap-2">
             {/* weekday rail */}
             <div className="flex shrink-0 flex-col gap-[3px] pt-[1px]">
               {DAY_LABELS.map((d, i) => (

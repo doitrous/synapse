@@ -47,7 +47,6 @@ function timeValue(date: Date): string {
 export function NextOnSchedule() {
   const t = useT()
   const subject = getSubject(nextSession.subjectId)
-  const later = todaySessions.filter((session) => session.id !== nextSession.id).slice(0, 3)
   const chapterIndex = todaySessions.findIndex((session) => session.id === nextSession.id) + 1
   const [blocks, setBlocks] = usePersistentState<PlannedCalendarBlock[]>('synapse.calendar.blocks', [])
   const planned = blocks.some((block) => block.sourceSessionId === nextSession.id)
@@ -91,7 +90,7 @@ export function NextOnSchedule() {
         }
       />
 
-      <div className="flex flex-col p-5 sm:p-6">
+      <div className="flex flex-1 flex-col justify-center p-5 sm:p-6">
         <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
           <span className="tnum font-serif text-[38px] font-semibold leading-none tracking-[-0.035em] text-ink sm:text-[44px]">
             {formatClock(nextSession.start)}
@@ -136,37 +135,6 @@ export function NextOnSchedule() {
           </Button>
         </div>
       </div>
-
-      {later.length > 0 && (
-        <div className="mt-auto border-t border-line px-4 pb-2 pt-3 sm:px-5">
-          <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-            {t('Later today')}
-          </p>
-          <ul>
-            {later.map((session) => (
-              <li key={session.id}>
-                <Link
-                  to="/app/calendar"
-                  className="group flex w-full items-center gap-3 rounded-md px-2 py-2 text-left transition-colors hover:bg-inset"
-                >
-                  <span className="tnum w-28 shrink-0 whitespace-nowrap font-mono text-[11.5px] text-ink-2 sm:w-36 sm:text-[12.5px]">
-                    {formatClock(session.start)}–{formatClock(session.end)}
-                  </span>
-                  <ChapterMark
-                    subjectId={session.subjectId}
-                    index={todaySessions.findIndex((item) => item.id === session.id) + 1}
-                    compact
-                  />
-                  <span className="min-w-0 flex-1 truncate text-[13px] text-ink">
-                    {session.title}
-                  </span>
-                  <span className="hidden text-[11.5px] text-ink-3 sm:inline">{t(session.kind)}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
     </Panel>
   )
 }

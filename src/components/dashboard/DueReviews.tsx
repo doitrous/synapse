@@ -1,4 +1,5 @@
-import { Flag, Play } from 'lucide-react'
+import { useState } from 'react'
+import { Flag, Play, ArrowRight, X } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import type { ReviewItem } from '@/data/types'
 import { dueReviews } from '@/data/student'
@@ -6,8 +7,12 @@ import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Meter } from '@/components/ui/Meter'
+import { Icon } from '@/components/ui/Icon'
+import { IconButton } from '@/components/ui/IconButton'
 import { ChapterMark } from '@/components/ui/ChapterMark'
 import { useT } from '@/lib/i18n'
+
+const VISIBLE = 3
 
 function retentionTone(r: number): 'danger' | 'warning' | 'success' {
   if (r < 50) return 'danger'
@@ -57,9 +62,12 @@ function ReviewRow({ item, index }: { item: ReviewItem; index: number }) {
 
 export function DueReviews() {
   const t = useT()
+  const [showAll, setShowAll] = useState(false)
   const items = [...dueReviews].sort((a, b) => a.dueInDays - b.dueInDays)
   const totalItems = items.reduce((sum, r) => sum + r.count, 0)
   const overdue = items.filter((r) => r.dueInDays < 0).length
+  const visible = items.slice(0, VISIBLE)
+  const hidden = items.length - visible.length
 
   return (
     <Panel className="flex h-full flex-col">
@@ -71,10 +79,20 @@ export function DueReviews() {
       <p className="border-b border-line px-4 py-2 text-[12px] text-ink-3">{t('Reviews ordered by urgency and retention.')}</p>
       <div className="flex-1 p-2">
         <ul>
-          {items.map((item, index) => (
+          {visible.map((item, index) => (
             <ReviewRow key={item.id} item={item} index={index} />
           ))}
         </ul>
+        {hidden > 0 && (
+          <button
+            type="button"
+            onClick={() => setShowAll(true)}
+            className="mt-1 flex w-full items-center justify-center gap-1.5 rounded-md px-2 py-2 text-[12.5px] font-medium text-accent transition-colors hover:bg-accent-tint/40 hover:text-accent-strong"
+          >
+            {t('Show all')} · {items.length}
+            <Icon icon={ArrowRight} size={14} className="rtl:-scale-x-100" />
+          </button>
+        )}
       </div>
       <div className="flex items-center justify-between gap-3 border-t border-line px-4 py-3">
         <span className="text-[12.5px] text-ink-2">
@@ -85,6 +103,42 @@ export function DueReviews() {
           <Button variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</Button>
         </Link>
       </div>
+
+      {showAll && (
+        <div
+          className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4"
+          role="dialog"
+          aria-modal="true"
+          aria-label={t('What deserves attention')}
+          onMouseDown={() => setShowAll(false)}
+        >
+          <Panel
+            className="animate-pop flex max-h-[calc(100dvh-2rem)] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-md sm:rounded-xl sm:pb-0"
+            onMouseDown={(event) => event.stopPropagation()}
+          >
+            <PanelHeader
+              title={t('What deserves attention')}
+              icon={Flag}
+              action={<IconButton icon={X} label={t('Close')} size="sm" onClick={() => setShowAll(false)} />}
+            />
+            <div className="min-h-0 flex-1 overflow-y-auto p-2">
+              <ul>
+                {items.map((item, index) => (
+                  <ReviewRow key={item.id} item={item} index={index} />
+                ))}
+              </ul>
+            </div>
+            <div className="flex items-center justify-between gap-3 border-t border-line px-4 py-3">
+              <span className="text-[12.5px] text-ink-2">
+                <span className="tnum font-mono font-medium text-ink">{totalItems}</span> {t('items')} · {items.length} {t('topics')}
+              </span>
+              <Link to="/app/qbank?session=review" onClick={() => setShowAll(false)}>
+                <Button variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</Button>
+              </Link>
+            </div>
+          </Panel>
+        </div>
+      )}
     </Panel>
   )
 }
