@@ -2,12 +2,24 @@ export interface CurriculumCourse {
   id: string
   name: string
   block: string
+  /** Visible, editable, university-unique module ID (chip style, e.g. "CVS 01"). */
+  moduleId?: string
+  /** The term this module sits in (a year has one or more terms). */
+  term?: string
+}
+
+/** Derive a default module ID like "CVS 01" from a system short + sequence. */
+export function defaultModuleId(systemShort: string, index: number): string {
+  const code = systemShort.replace(/[^A-Za-z]/g, '').slice(0, 4).toUpperCase() || 'MOD'
+  return `${code} ${String(index).padStart(2, '0')}`
 }
 
 export interface UniYear {
   year: string
   students: number
   courses: CurriculumCourse[]
+  /** Explicit term names for this year (a year has one or more terms). */
+  terms?: string[]
 }
 
 export interface University {

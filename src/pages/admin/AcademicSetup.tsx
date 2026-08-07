@@ -1,19 +1,39 @@
 import { useState } from 'react'
-import { CalendarDays, Plus, X, Trash2, MapPin, Building2, SlidersHorizontal, Pencil, Check } from 'lucide-react'
+import { CalendarDays, Plus, X, Trash2, MapPin, Building2, SlidersHorizontal, Pencil, Check, Upload } from 'lucide-react'
 import type { CurriculumCourse } from '@/data/universities'
-import { newUniversityYears } from '@/data/universities'
+import { newUniversityYears, defaultModuleId } from '@/data/universities'
+import { yearId } from '@/data/taxonomy'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { ModuleIdChip } from '@/components/ui/ModuleIdChip'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
 import { CourseCurriculumDialog, type CourseCurriculumSelection } from '@/components/admin/CourseCurriculumDialog'
 import { ModuleScheduleDialog } from '@/components/admin/ModuleScheduleDialog'
+import { AcademicImportDialog } from '@/components/admin/AcademicImportDialog'
 import type { ModuleScheduleStore } from '@/data/moduleSchedule'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+
+const DEFAULT_TERM = 'Term 1'
+
+/** Every module ID already used in a university (for uniqueness checks). */
+function usedModuleIds(years: { courses: CurriculumCourse[] }[], exceptId?: string): Set<string> {
+  const set = new Set<string>()
+  years.forEach((y) => y.courses.forEach((c) => { if (c.id !== exceptId && c.moduleId) set.add(c.moduleId.toUpperCase()) }))
+  return set
+}
+
+/** Ensure a module ID is unique within a university by appending a suffix. */
+function uniqueModuleId(base: string, taken: Set<string>): string {
+  let candidate = base
+  let n = 2
+  while (taken.has(candidate.toUpperCase())) { candidate = `${base}-${n}`; n++ }
+  return candidate
+}
 
 export function AcademicSetup() {
   const [unis, setUnis] = useUniversityCatalogue()
@@ -29,10 +49,56 @@ export function AcademicSetup() {
   const [editName, setEditName] = useState('')
   const [editShort, setEditShort] = useState('')
   const [editLocation, setEditLocation] = useState('')
-  const [addCourseYear, setAddCourseYear] = useState<number | null>(null)
+  const [addModuleTerm, setAddModuleTerm] = useState<{ yearIdx: number; term: string } | null>(null)
   const [courseName, setCourseName] = useState('')
+  const [renamingYear, setRenamingYear] = useState<number | null>(null)
+  const [yearLabel, setYearLabel] = useState('')
+  const [editingModuleId, setEditingModuleId] = useState<string | null>(null)
+  const [moduleIdDraft, setModuleIdDraft] = useState('')
+  const [importOpen, setImportOpen] = useState(false)
   const [curriculumEditor, setCurriculumEditor] = useState<{ course: CurriculumCourse; year: string; key: string } | null>(null)
   const [scheduleEditor, setScheduleEditor] = useState<{ course: CurriculumCourse; year: string; key: string } | null>(null)
+
+  /** All terms in a year: explicit terms ∪ terms used by its modules. */
+  const termsOf = (y: { terms?: string[]; courses: CurriculumCourse[] }): string[] => {
+    const set = new Set<string>(y.terms ?? [])
+    y.courses.forEach((c) => set.add(c.term || DEFAULT_TERM))
+    if (set.size === 0) set.add(DEFAULT_TERM)
+    return [...set]
+  }
+
+  const patchSelected = (fn: (u: typeof uni) => typeof uni) =>
+    setUnis((prev) => prev.map((u) => (u.id === selectedId ? fn(u) : u)))
+
+  function addYear() {
+    patchSelected((u) => ({ ...u, years: [...u.years, { year: `Year ${u.years.length + 1}`, students: 0, courses: [], terms: [DEFAULT_TERM] }] }))
+  }
+  function removeYear(yearIdx: number) {
+    patchSelected((u) => ({ ...u, years: u.years.filter((_, i) => i !== yearIdx) }))
+  }
+  function saveYearLabel(yearIdx: number) {
+    const label = yearLabel.trim()
+    if (label) patchSelected((u) => ({ ...u, years: u.years.map((y, i) => (i === yearIdx ? { ...y, year: label } : y)) }))
+    setRenamingYear(null)
+  }
+  function addTerm(yearIdx: number) {
+    patchSelected((u) => ({
+      ...u,
+      years: u.years.map((y, i) => {
+        if (i !== yearIdx) return y
+        const existing = termsOf(y)
+        return { ...y, terms: [...existing, `Term ${existing.length + 1}`] }
+      }),
+    }))
+  }
+  function saveModuleId(courseId: string) {
+    const draft = moduleIdDraft.trim()
+    setEditingModuleId(null)
+    if (!draft) return
+    const taken = usedModuleIds(uni.years, courseId)
+    const unique = uniqueModuleId(draft, taken)
+    patchSelected((u) => ({ ...u, years: u.years.map((y) => ({ ...y, courses: y.courses.map((c) => (c.id === courseId ? { ...c, moduleId: unique } : c)) })) }))
+  }
 
   const uni = unis.find((u) => u.id === selectedId) ?? unis[0]
   const totalStudents = uni.years.reduce((s, y) => s + y.students, 0)
@@ -71,28 +137,22 @@ export function AcademicSetup() {
     setEditingIdentity(false)
   }
 
-  function addCourse(yearIdx: number) {
+  function addCourse(yearIdx: number, term: string) {
     const name = courseName.trim()
     if (!name) return
-    setUnis((prev) =>
-      prev.map((u) =>
-        u.id !== selectedId
-          ? u
-          : {
-              ...u,
-              years: u.years.map((y, i) =>
-                i !== yearIdx
-                  ? y
-                  : {
-                      ...y,
-                      courses: [...y.courses, { id: `c${Date.now()}`, name, block: `Block ${y.courses.length + 1}` }],
-                    },
-              ),
-            },
+    const taken = usedModuleIds(uni.years)
+    const base = defaultModuleId(name, uni.years[yearIdx].courses.length + 1)
+    const moduleId = uniqueModuleId(base, taken)
+    patchSelected((u) => ({
+      ...u,
+      years: u.years.map((y, i) =>
+        i !== yearIdx
+          ? y
+          : { ...y, courses: [...y.courses, { id: `c${Date.now()}`, name, block: `Block ${y.courses.length + 1}`, moduleId, term }] },
       ),
-    )
+    }))
     setCourseName('')
-    setAddCourseYear(null)
+    setAddModuleTerm(null)
   }
 
   function removeCourse(yearIdx: number, courseId: string) {
@@ -114,11 +174,16 @@ export function AcademicSetup() {
     <PageContainer>
       <PageHeader
         title="Academic Setup"
-        description="Manage universities, modules, curricula, teaching schedules, exams, and logbook requirements."
+        description="Manage universities, years, terms, modules, curricula, and teaching schedules — each year carries a unique year_ID and each module a unique module_ID."
         actions={
-          <Button variant="primary" size="md" iconLeft={Plus} onClick={() => setAddingUni((v) => !v)}>
-            Add university
-          </Button>
+          <>
+            <Button variant="secondary" size="md" iconLeft={Upload} onClick={() => setImportOpen(true)}>
+              Bulk import
+            </Button>
+            <Button variant="primary" size="md" iconLeft={Plus} onClick={() => setAddingUni((v) => !v)}>
+              Add university
+            </Button>
+          </>
         }
       />
 
@@ -193,70 +258,80 @@ export function AcademicSetup() {
           </Panel>
 
           {uni.years.map((y, i) => (
-            <Panel key={y.year}>
-              <PanelHeader
-                title={y.year}
-                hint={`${y.students} students · ${y.courses.length} modules`}
-                action={
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    iconLeft={Plus}
-                    onClick={() => {
-                      setAddCourseYear(addCourseYear === i ? null : i)
-                      setCourseName('')
-                    }}
-                  >
-                    Add module
-                  </Button>
-                }
-              />
-              {addCourseYear === i && (
-                <div className="flex items-center gap-2 border-b border-line p-2.5">
-                  <TextInput
-                    value={courseName}
-                    onChange={(e) => setCourseName(e.target.value)}
-                    onKeyDown={(e) => e.key === 'Enter' && addCourse(i)}
-                    placeholder="Module name"
-                  />
-                  <Button variant="primary" size="sm" onClick={() => addCourse(i)}>
-                    Add
-                  </Button>
-                  <Button variant="ghost" size="sm" onClick={() => setAddCourseYear(null)}>
-                    <Icon icon={X} size={16} />
-                  </Button>
-                </div>
-              )}
-              <ul className="divide-y divide-line">
-                {y.courses.map((c) => (
-                  <li key={c.id} className="group flex min-w-0 flex-wrap items-center gap-2.5 px-4 py-3 sm:flex-nowrap">
-                    <span className="min-w-0 basis-full sm:flex-1"><span className="block truncate text-[13.5px] font-medium text-ink">{c.name}</span><span className="mt-0.5 block text-[11px] text-ink-3">{c.block}</span></span>
-                    {(() => {
-                      const key = `${uni.id}:${y.year}:${c.id}`
-                      const curriculum = curricula[key]
-                      const count = (curriculum?.articleIds.length ?? 0) + (curriculum?.questionIds.length ?? 0) + (curriculum?.practicalIds.length ?? 0)
-                      return <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={SlidersHorizontal} onClick={() => setCurriculumEditor({ course: c, year: y.year, key })}>Curriculum{count > 0 ? ` · ${count}` : ''}</Button>
-                    })()}
-                    {(() => {
-                      const key = `${uni.id}:${y.year}:${c.id}`
-                      const count = schedules[key]?.length ?? 0
-                      return <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={CalendarDays} onClick={() => setScheduleEditor({ course: c, year: y.year, key })}>Schedule{count > 0 ? ` · ${count}` : ''}</Button>
-                    })()}
-                    <button
-                      onClick={() => removeCourse(i, c.id)}
-                      className="grid size-11 place-items-center rounded-lg text-ink-3 transition-opacity hover:bg-danger-tint hover:text-danger sm:size-10 sm:opacity-0 sm:focus:opacity-100 sm:group-hover:opacity-100"
-                      aria-label="Remove module"
-                    >
-                      <Icon icon={Trash2} size={15} />
-                    </button>
-                  </li>
-                ))}
-                {y.courses.length === 0 && (
-                  <li className="px-4 py-3 text-[13px] text-ink-3">No modules yet.</li>
+            <Panel key={`${y.year}-${i}`}>
+              <div className="flex flex-wrap items-center gap-2 border-b border-line px-4 py-3">
+                {renamingYear === i ? (
+                  <form className="flex items-center gap-2" onSubmit={(e) => { e.preventDefault(); saveYearLabel(i) }}>
+                    <TextInput value={yearLabel} onChange={(e) => setYearLabel(e.target.value)} className="h-9 w-40" autoFocus aria-label="Year name" />
+                    <Button type="submit" variant="primary" size="sm" iconLeft={Check}>Save</Button>
+                    <Button type="button" variant="ghost" size="sm" onClick={() => setRenamingYear(null)}><Icon icon={X} size={15} /></Button>
+                  </form>
+                ) : (
+                  <>
+                    <h3 className="font-serif text-[16px] font-semibold text-ink">{y.year}</h3>
+                    <span className="rounded-md border border-accent-line bg-accent-tint px-2 py-0.5 font-mono text-[10.5px] font-bold text-accent-strong" title="Unique year ID">{yearId(uni.id, y.year)}</span>
+                    <button onClick={() => { setRenamingYear(i); setYearLabel(y.year) }} className="grid size-7 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink" aria-label="Rename year"><Icon icon={Pencil} size={13} /></button>
+                    <span className="text-[11.5px] text-ink-3">{y.students} students · {y.courses.length} modules · {termsOf(y).length} terms</span>
+                    <div className="ms-auto flex items-center gap-1">
+                      <Button variant="ghost" size="sm" iconLeft={Plus} onClick={() => addTerm(i)}>Add term</Button>
+                      <button onClick={() => removeYear(i)} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label="Remove year"><Icon icon={Trash2} size={14} /></button>
+                    </div>
+                  </>
                 )}
-              </ul>
+              </div>
+
+              {termsOf(y).map((term) => {
+                const termCourses = y.courses.filter((c) => (c.term || DEFAULT_TERM) === term)
+                const adding = addModuleTerm?.yearIdx === i && addModuleTerm?.term === term
+                return (
+                  <section key={term} className="border-b border-line last:border-b-0">
+                    <div className="flex items-center gap-2 bg-surface-2/50 px-4 py-1.5">
+                      <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-2">{term}</span>
+                      <span className="tnum font-mono text-[10.5px] text-ink-3">{termCourses.length}</span>
+                      <Button className="ms-auto" variant="ghost" size="sm" iconLeft={Plus} onClick={() => { setAddModuleTerm(adding ? null : { yearIdx: i, term }); setCourseName('') }}>Add module</Button>
+                    </div>
+                    {adding && (
+                      <div className="flex items-center gap-2 border-b border-line p-2.5">
+                        <TextInput value={courseName} onChange={(e) => setCourseName(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && addCourse(i, term)} placeholder="Module name" autoFocus />
+                        <Button variant="primary" size="sm" onClick={() => addCourse(i, term)}>Add</Button>
+                        <Button variant="ghost" size="sm" onClick={() => setAddModuleTerm(null)}><Icon icon={X} size={16} /></Button>
+                      </div>
+                    )}
+                    <ul className="divide-y divide-line">
+                      {termCourses.map((c) => {
+                        const key = `${uni.id}:${y.year}:${c.id}`
+                        const curriculum = curricula[key]
+                        const curriculumCount = (curriculum?.articleIds.length ?? 0) + (curriculum?.questionIds.length ?? 0) + (curriculum?.practicalIds.length ?? 0)
+                        const scheduleCount = schedules[key]?.length ?? 0
+                        const fallbackModuleId = c.moduleId ?? defaultModuleId(c.name, y.courses.indexOf(c) + 1)
+                        return (
+                          <li key={c.id} className="group flex min-w-0 flex-wrap items-center gap-2.5 px-4 py-3 sm:flex-nowrap">
+                            {editingModuleId === c.id ? (
+                              <form className="flex items-center gap-1.5" onSubmit={(e) => { e.preventDefault(); saveModuleId(c.id) }}>
+                                <TextInput value={moduleIdDraft} onChange={(e) => setModuleIdDraft(e.target.value)} className="h-8 w-28 font-mono" autoFocus aria-label="Module ID" />
+                                <Button type="submit" variant="primary" size="sm"><Icon icon={Check} size={14} /></Button>
+                              </form>
+                            ) : (
+                              <button onClick={() => { setEditingModuleId(c.id); setModuleIdDraft(fallbackModuleId) }} title="Edit module ID" className="shrink-0">
+                                <ModuleIdChip moduleId={fallbackModuleId} />
+                              </button>
+                            )}
+                            <span className="min-w-0 basis-full sm:flex-1"><span className="block truncate text-[13.5px] font-medium text-ink">{c.name}</span><span className="mt-0.5 block text-[11px] text-ink-3">{c.block}</span></span>
+                            <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={SlidersHorizontal} onClick={() => setCurriculumEditor({ course: c, year: y.year, key })}>Curriculum{curriculumCount > 0 ? ` · ${curriculumCount}` : ''}</Button>
+                            <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={CalendarDays} onClick={() => setScheduleEditor({ course: c, year: y.year, key })}>Schedule{scheduleCount > 0 ? ` · ${scheduleCount}` : ''}</Button>
+                            <button onClick={() => removeCourse(i, c.id)} className="grid size-11 place-items-center rounded-lg text-ink-3 transition-opacity hover:bg-danger-tint hover:text-danger sm:size-10 sm:opacity-0 sm:focus:opacity-100 sm:group-hover:opacity-100" aria-label="Remove module"><Icon icon={Trash2} size={15} /></button>
+                          </li>
+                        )
+                      })}
+                      {termCourses.length === 0 && <li className="px-4 py-2.5 text-[12.5px] text-ink-3">No modules in this term yet.</li>}
+                    </ul>
+                  </section>
+                )
+              })}
             </Panel>
           ))}
+
+          <Button variant="secondary" size="md" iconLeft={Plus} onClick={addYear} className="w-full">Add year</Button>
         </div>
       </div>
       {curriculumEditor && (
@@ -283,6 +358,12 @@ export function AcademicSetup() {
           onChange={(value) => setSchedules((current) => ({ ...current, [scheduleEditor.key]: value }))}
         />
       )}
+      <AcademicImportDialog
+        open={importOpen}
+        university={uni}
+        onClose={() => setImportOpen(false)}
+        onImport={(years) => { patchSelected((u) => ({ ...u, years })); setImportOpen(false) }}
+      />
     </PageContainer>
   )
 }
