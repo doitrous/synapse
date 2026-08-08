@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { Plus, Trash2, ArrowRight, Upload, Search, CircleCheck, TriangleAlert, Tag, Pencil, Check, X } from 'lucide-react'
+import { Fragment, useMemo, useState } from 'react'
+import { Plus, Trash2, ArrowRight, Upload, Search, CircleCheck, TriangleAlert, Tag, Pencil, Check, X, ChevronDown, ChevronRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -9,7 +9,7 @@ import { SubjectDot } from '@/components/ui/Subject'
 import { Field, SearchInput, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { subjects } from '@/data/student'
+import { subjects, getSubject } from '@/data/student'
 import { libraryTopics } from '@/data/library'
 import { cn } from '@/lib/cn'
 import {
@@ -42,20 +42,29 @@ export function RelationshipsSetup() {
   const [report, setReport] = useState<{ added: number; skipped: number; errors: string[] } | null>(null)
   const [editingId, setEditingId] = useState<string | null>(null)
   const [editDraft, setEditDraft] = useState<{ sourceId: string; type: string; targetId: string }>({ sourceId: '', type: '', targetId: '' })
+  const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
+  const [sourcePickerOpen, setSourcePickerOpen] = useState(false)
+  const [pickerQuery, setPickerQuery] = useState('')
+  const toggleGroup = (k: string) => setCollapsed((prev) => { const n = new Set(prev); if (n.has(k)) n.delete(k); else n.add(k); return n })
 
   const conceptLabel = (id: string) => graph.concepts.find((c) => c.id === id)?.label ?? id
   const conceptOptions = [...graph.concepts].sort((a, b) => a.label.localeCompare(b.label))
 
-  // Map each concept to its System (subject), for sorting by source system.
-  const subjectOfArticle = useMemo(() => {
-    const m: Record<string, string> = {}
-    libraryTopics.forEach((t) => t.subtopics.forEach((s) => { m[s.id] = t.subjectId }))
-    return m
+  // Map each concept to its System (subject) and Topic, for grouping.
+  const { subjectOfArticle, topicOfArticle } = useMemo(() => {
+    const s: Record<string, string> = {}
+    const tp: Record<string, string> = {}
+    libraryTopics.forEach((t) => t.subtopics.forEach((sub) => { s[sub.id] = t.subjectId; tp[sub.id] = t.title }))
+    return { subjectOfArticle: s, topicOfArticle: tp }
   }, [])
   const knownSubjects = useMemo(() => new Set(subjects.map((s) => s.id)), [])
   const conceptSubject = (id: string): string => {
     const c = graph.concepts.find((x) => x.id === id)
     return c?.subjectId || c?.articleIds?.map((a) => subjectOfArticle[a]).find(Boolean) || ''
+  }
+  const conceptTopic = (id: string): string => {
+    const c = graph.concepts.find((x) => x.id === id)
+    return c?.articleIds?.map((a) => topicOfArticle[a]).find(Boolean) || 'General'
   }
 
   const rows = useMemo(() => {
@@ -76,6 +85,32 @@ export function RelationshipsSetup() {
       })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [graph.relations, query, filterType, graph.concepts])
+
+  // Group the filtered rows into System → Topic for the collapsible list.
+  const grouped = useMemo(() => {
+    const bySys = new Map<string, Map<string, typeof rows>>()
+    rows.forEach((rel) => {
+      const sys = conceptSubject(rel.sourceId) || 'zzz'
+      const top = conceptTopic(rel.sourceId)
+      if (!bySys.has(sys)) bySys.set(sys, new Map())
+      const tmap = bySys.get(sys)!
+      tmap.set(top, [...(tmap.get(top) ?? []), rel])
+    })
+    const order = [...subjects.map((s) => s.id), 'zzz']
+    return [...bySys.entries()]
+      .sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]))
+      .map(([sys, tmap]) => ({ sys, count: [...tmap.values()].reduce((n, l) => n + l.length, 0), topics: [...tmap.entries()] }))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [rows])
+
+  // Concepts grouped by system for the built-in source picker.
+  const conceptsBySystem = useMemo(() => {
+    const bySys = new Map<string, typeof graph.concepts>()
+    conceptOptions.forEach((c) => { const sys = conceptSubject(c.id) || 'zzz'; bySys.set(sys, [...(bySys.get(sys) ?? []), c]) })
+    const order = [...subjects.map((s) => s.id), 'zzz']
+    return [...bySys.entries()].sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [graph.concepts])
 
   function startEdit(rel: ConceptGraph['relations'][number]) {
     setEditingId(rel.id)
@@ -180,11 +215,36 @@ export function RelationshipsSetup() {
       <Panel className="mb-4">
         <PanelHeader title="Add a relationship" icon={Plus} hint="One source → one or more targets; optionally both directions" />
         <div className="grid items-start gap-3 p-4 lg:grid-cols-[1fr_auto_1fr]">
-          <Field label="Source concept">
-            <Select value={source} onChange={(e) => setSource(e.target.value)}>
-              <option value="">— Select —</option>
-              {conceptOptions.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}
-            </Select>
+          <Field label="Source concept" hint="Grouped by system">
+            <div className="relative">
+              <button type="button" onClick={() => { setSourcePickerOpen((o) => !o); setPickerQuery('') }} className="flex h-9 w-full items-center gap-2 rounded-lg border border-line bg-surface px-3 text-start text-[13px] hover:border-line-2">
+                {source ? (<>{knownSubjects.has(conceptSubject(source)) && <SubjectDot id={conceptSubject(source)} />}<span className="truncate text-ink">{conceptLabel(source)}</span></>) : <span className="text-ink-3">— Select a concept —</span>}
+                <Icon icon={ChevronDown} size={15} className="ms-auto shrink-0 text-ink-3" />
+              </button>
+              {sourcePickerOpen && (
+                <>
+                  <button type="button" className="fixed inset-0 z-10" aria-label="Close" onClick={() => setSourcePickerOpen(false)} />
+                  <div className="absolute z-20 mt-1 max-h-80 w-full overflow-y-auto rounded-lg border border-line bg-surface p-1.5 shadow-pop">
+                    <div className="sticky top-0 mb-1 bg-surface pb-1"><SearchInput value={pickerQuery} onChange={(e) => setPickerQuery(e.target.value)} placeholder="Search concepts…" className="w-full" /></div>
+                    {conceptsBySystem.map(([sys, concepts]) => {
+                      const q = pickerQuery.trim().toLowerCase()
+                      const list = q ? concepts.filter((c) => c.label.toLowerCase().includes(q)) : concepts
+                      if (list.length === 0) return null
+                      return (
+                        <div key={sys} className="mb-1">
+                          <div className="flex items-center gap-1.5 px-2 py-1 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">
+                            {knownSubjects.has(sys) ? <><SubjectDot id={sys} />{getSubject(sys).name}</> : 'Unassigned'}
+                          </div>
+                          {list.map((c) => (
+                            <button key={c.id} type="button" onClick={() => { setSource(c.id); setSourcePickerOpen(false) }} className={cn('block w-full truncate rounded-md px-2.5 py-1.5 text-start text-[13px]', source === c.id ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset')}>{c.label}</button>
+                          ))}
+                        </div>
+                      )
+                    })}
+                  </div>
+                </>
+              )}
+            </div>
           </Field>
           <Field label="Relation & direction">
             <div className="flex items-center gap-1.5">
@@ -256,25 +316,52 @@ export function RelationshipsSetup() {
         <Table>
           <thead><tr><Th className="pl-4">Source</Th><Th>Relation</Th><Th>Target</Th><Th align="right" className="pr-4">Actions</Th></tr></thead>
           <tbody>
-            {rows.map((rel) => {
-              const sys = conceptSubject(rel.sourceId)
-              if (editingId === rel.id) {
-                return (
-                  <Tr key={rel.id}>
-                    <Td className="pl-4"><Select value={editDraft.sourceId} onChange={(e) => setEditDraft((d) => ({ ...d, sourceId: e.target.value }))} className="h-9">{conceptOptions.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
-                    <Td><Select value={editDraft.type} onChange={(e) => setEditDraft((d) => ({ ...d, type: e.target.value }))} className="h-9">{allTypes.map((rt) => <option key={rt} value={rt}>{rt}</option>)}</Select></Td>
-                    <Td><Select value={editDraft.targetId} onChange={(e) => setEditDraft((d) => ({ ...d, targetId: e.target.value }))} className="h-9">{conceptOptions.filter((c) => c.id !== editDraft.sourceId).map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
-                    <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="primary" size="sm" iconLeft={Check} onClick={saveEdit}>Save</Button><Button variant="ghost" size="sm" iconLeft={X} onClick={() => setEditingId(null)}>Cancel</Button></div></Td>
-                  </Tr>
-                )
-              }
+            {grouped.map(({ sys, count, topics }) => {
+              const sysKey = `sys-${sys}`
+              const sysCollapsed = collapsed.has(sysKey)
               return (
-                <Tr key={rel.id} hover>
-                  <Td className="pl-4 font-medium"><span className="inline-flex items-center gap-2">{sys && knownSubjects.has(sys) && <SubjectDot id={sys} />}{conceptLabel(rel.sourceId)}</span></Td>
-                  <Td><span className="inline-flex items-center gap-1.5"><Badge tone="accent">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span></Td>
-                  <Td className="text-ink-2">{conceptLabel(rel.targetId)}</Td>
-                  <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="ghost" size="sm" iconLeft={Pencil} onClick={() => startEdit(rel)}>Edit</Button><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)}>Remove</Button></div></Td>
-                </Tr>
+                <Fragment key={sysKey}>
+                  <tr className="border-t border-line bg-surface-2/70">
+                    <td colSpan={4} className="px-2 py-0">
+                      <button type="button" onClick={() => toggleGroup(sysKey)} aria-expanded={!sysCollapsed} className="flex w-full items-center gap-2 px-2 py-2 text-start">
+                        <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !sysCollapsed && 'rotate-90')} />
+                        {knownSubjects.has(sys) ? <><SubjectDot id={sys} /><span className="text-[13px] font-semibold text-ink">{getSubject(sys).name}</span></> : <span className="text-[13px] font-semibold text-ink">Unassigned</span>}
+                        <span className="tnum ms-1 font-mono text-[11px] text-ink-3">{count}</span>
+                      </button>
+                    </td>
+                  </tr>
+                  {!sysCollapsed && topics.map(([topic, list]) => {
+                    const topKey = `${sysKey}::${topic}`
+                    const topCollapsed = collapsed.has(topKey)
+                    return (
+                      <Fragment key={topKey}>
+                        <tr className="bg-surface-2/25">
+                          <td colSpan={4} className="px-4 py-0">
+                            <button type="button" onClick={() => toggleGroup(topKey)} aria-expanded={!topCollapsed} className="flex w-full items-center gap-2 py-1.5 ps-6 text-start text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+                              <Icon icon={ChevronRight} size={12} className={cn('transition-transform', !topCollapsed && 'rotate-90')} />
+                              {topic}<span className="tnum ms-1 font-mono text-ink-3/70">{list.length}</span>
+                            </button>
+                          </td>
+                        </tr>
+                        {!topCollapsed && list.map((rel) => editingId === rel.id ? (
+                          <Tr key={rel.id}>
+                            <Td className="pl-4"><Select value={editDraft.sourceId} onChange={(e) => setEditDraft((d) => ({ ...d, sourceId: e.target.value }))} className="h-9">{conceptOptions.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
+                            <Td><Select value={editDraft.type} onChange={(e) => setEditDraft((d) => ({ ...d, type: e.target.value }))} className="h-9">{allTypes.map((rt) => <option key={rt} value={rt}>{rt}</option>)}</Select></Td>
+                            <Td><Select value={editDraft.targetId} onChange={(e) => setEditDraft((d) => ({ ...d, targetId: e.target.value }))} className="h-9">{conceptOptions.filter((c) => c.id !== editDraft.sourceId).map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
+                            <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="primary" size="sm" iconLeft={Check} onClick={saveEdit}>Save</Button><Button variant="ghost" size="sm" iconLeft={X} onClick={() => setEditingId(null)}>Cancel</Button></div></Td>
+                          </Tr>
+                        ) : (
+                          <Tr key={rel.id} hover>
+                            <Td className="pl-4 font-medium ps-10">{conceptLabel(rel.sourceId)}</Td>
+                            <Td><span className="inline-flex items-center gap-1.5"><Badge tone="accent">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span></Td>
+                            <Td className="text-ink-2">{conceptLabel(rel.targetId)}</Td>
+                            <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="ghost" size="sm" iconLeft={Pencil} onClick={() => startEdit(rel)}>Edit</Button><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)}>Remove</Button></div></Td>
+                          </Tr>
+                        ))}
+                      </Fragment>
+                    )
+                  })}
+                </Fragment>
               )
             })}
             {rows.length === 0 && (
