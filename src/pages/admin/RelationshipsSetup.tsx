@@ -45,6 +45,8 @@ export function RelationshipsSetup() {
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const [sourcePickerOpen, setSourcePickerOpen] = useState(false)
   const [pickerQuery, setPickerQuery] = useState('')
+  const [targetPickerOpen, setTargetPickerOpen] = useState(false)
+  const [targetQuery, setTargetQuery] = useState('')
   const toggleGroup = (k: string) => setCollapsed((prev) => { const n = new Set(prev); if (n.has(k)) n.delete(k); else n.add(k); return n })
 
   const conceptLabel = (id: string) => graph.concepts.find((c) => c.id === id)?.label ?? id
@@ -263,11 +265,36 @@ export function RelationshipsSetup() {
               </button>
             </div>
           </Field>
-          <Field label="Target concept(s)" hint="Add several to connect one concept to many at once.">
-            <Select value="" onChange={(e) => addTarget(e.target.value)}>
-              <option value="">— Add target —</option>
-              {conceptOptions.filter((c) => c.id !== source && !targets.includes(c.id)).map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}
-            </Select>
+          <Field label="Target concept(s)" hint="Grouped by system — add several to connect one concept to many at once.">
+            <div className="relative">
+              <button type="button" onClick={() => { setTargetPickerOpen((o) => !o); setTargetQuery('') }} className="flex h-9 w-full items-center gap-2 rounded-lg border border-line bg-surface px-3 text-start text-[13px] text-ink-3 hover:border-line-2">
+                <Plus size={14} /> Add target concept
+                <Icon icon={ChevronDown} size={15} className="ms-auto shrink-0 text-ink-3" />
+              </button>
+              {targetPickerOpen && (
+                <>
+                  <button type="button" className="fixed inset-0 z-10" aria-label="Close" onClick={() => setTargetPickerOpen(false)} />
+                  <div className="absolute z-20 mt-1 max-h-80 w-full overflow-y-auto rounded-lg border border-line bg-surface p-1.5 shadow-pop">
+                    <div className="sticky top-0 mb-1 bg-surface pb-1"><SearchInput value={targetQuery} onChange={(e) => setTargetQuery(e.target.value)} placeholder="Search concepts…" className="w-full" /></div>
+                    {conceptsBySystem.map(([sys, concepts]) => {
+                      const tq = targetQuery.trim().toLowerCase()
+                      const list = concepts.filter((c) => c.id !== source && !targets.includes(c.id) && (!tq || c.label.toLowerCase().includes(tq)))
+                      if (list.length === 0) return null
+                      return (
+                        <div key={sys} className="mb-1">
+                          <div className="flex items-center gap-1.5 px-2 py-1 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">
+                            {knownSubjects.has(sys) ? <><SubjectDot id={sys} />{getSubject(sys).name}</> : 'Unassigned'}
+                          </div>
+                          {list.map((c) => (
+                            <button key={c.id} type="button" onClick={() => addTarget(c.id)} className="block w-full truncate rounded-md px-2.5 py-1.5 text-start text-[13px] text-ink-2 hover:bg-inset">{c.label}</button>
+                          ))}
+                        </div>
+                      )
+                    })}
+                  </div>
+                </>
+              )}
+            </div>
             {targets.length > 0 && (
               <div className="mt-2 flex flex-wrap gap-1.5">
                 {targets.map((tid) => (
