@@ -50,24 +50,18 @@ function PlanRow({ block, index, onToggle }: { block: PlanBlock; index: number; 
   )
 }
 
-export function TodaysPlan() {
+/** The full-width schedule timeline (top of the dashboard "L"). */
+export function TodaysSchedule() {
   const t = useT()
-  const [blocks, setBlocks] = useState<PlanBlock[]>(todaysPlan)
+  const blocks = todaysPlan
   const now = new Date()
   const current = Math.min(100, Math.max(0, position(hourValue(now))))
-  const done = blocks.filter((block) => block.done).length
-  const donePct = Math.round((done / blocks.length) * 100)
-  const remaining = blocks.filter((block) => !block.done).reduce((sum, block) => sum + block.minutes, 0)
-
-  function toggle(id: string) {
-    setBlocks((previous) => previous.map((block) => block.id === id ? { ...block, done: !block.done } : block))
-  }
 
   return (
-    <Panel className="flex h-full flex-col overflow-hidden">
+    <Panel className="overflow-hidden">
       <PanelHeader title={t('Today')} icon={Clock3} hint={formatLongDate(now)} action={<div className="flex items-center gap-4 text-[11.5px] text-ink-2"><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded bg-accent" />{t('Faculty')}</span><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded border border-line-2 bg-[repeating-linear-gradient(45deg,var(--color-line),var(--color-line)_2px,transparent_2px,transparent_4px)]" />{t('Yours')}</span></div>} />
 
-      <div className="border-b border-line px-3 py-4 sm:px-5 sm:py-5">
+      <div className="px-3 py-4 sm:px-6 sm:py-5">
         <div className="relative ps-14 sm:ps-20">
           <div className="absolute start-0 top-0 text-[10.5px] font-bold uppercase tracking-[0.07em] text-ink-3">{t('Faculty')}</div>
           <div className="relative h-10 rounded-lg bg-inset">
@@ -101,9 +95,26 @@ export function TodaysPlan() {
           </div>
         </div>
       </div>
+    </Panel>
+  )
+}
 
+/** The half-width task checklist (left leg of the "L"). */
+export function TodaysPlanList() {
+  const t = useT()
+  const [blocks, setBlocks] = useState<PlanBlock[]>(todaysPlan)
+  const done = blocks.filter((block) => block.done).length
+  const donePct = Math.round((done / blocks.length) * 100)
+  const remaining = blocks.filter((block) => !block.done).reduce((sum, block) => sum + block.minutes, 0)
+
+  function toggle(id: string) {
+    setBlocks((previous) => previous.map((block) => block.id === id ? { ...block, done: !block.done } : block))
+  }
+
+  return (
+    <Panel className="flex h-full flex-col overflow-hidden">
+      <PanelHeader title={t("Today's plan")} icon={Clock3} hint={`${blocks.length} ${t('blocks')}`} />
       <div className="flex-1 px-3 py-3">
-        <p className="px-2 pb-1 text-[10.5px] font-bold uppercase tracking-[0.08em] text-ink-3">{t("Today's plan")}</p>
         <ul>{blocks.map((block, index) => <li key={block.id}><PlanRow block={block} index={index} onToggle={() => toggle(block.id)} /></li>)}</ul>
       </div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line px-4 py-3 sm:px-5">

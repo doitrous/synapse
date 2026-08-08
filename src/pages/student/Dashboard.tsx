@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button'
 import { NextOnSchedule } from '@/components/dashboard/NextOnSchedule'
 import { DueReviews } from '@/components/dashboard/DueReviews'
 import { ExamReadinessCard, PracticalSkillsCard, QuestionBankCard } from '@/components/dashboard/ProgressTrio'
-import { TodaysPlan } from '@/components/dashboard/TodaysPlan'
+import { TodaysSchedule, TodaysPlanList } from '@/components/dashboard/TodaysPlan'
 import { StudyHeatmap } from '@/components/dashboard/StudyHeatmap'
 import { LastUsedResources } from '@/components/dashboard/LastUsedResources'
 import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
@@ -48,9 +48,12 @@ export function Dashboard() {
           </div>
         </div>
 
-        {/* Today up top; right column: Performance, Exam readiness, then Question bank + Practical */}
+        {/* Full-width schedule timeline (top bar of the "L") */}
+        <TodaysSchedule />
+
+        {/* Left leg: today's plan list; right: Performance, Exam readiness, Question bank + Practical */}
         <div className="grid items-start gap-4 lg:grid-cols-2">
-          <div className="h-full min-w-0"><TodaysPlan /></div>
+          <div className="h-full min-w-0"><TodaysPlanList /></div>
           <div className="grid min-w-0 content-start gap-4">
             <PerformanceOverview compact />
             <ExamReadinessCard compact />
