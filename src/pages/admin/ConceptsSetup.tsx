@@ -1,13 +1,12 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Braces, BookOpenText, Plus, Save, Trash2, ChevronRight, Check, Upload, TriangleAlert } from 'lucide-react'
+import { Braces, BookOpenText, Plus, Save, Trash2, ChevronRight, Check, Upload, TriangleAlert, Pencil } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Field, SearchInput, Select, TextInput, Textarea } from '@/components/ui/Field'
-import { SubjectDot } from '@/components/ui/Subject'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import {
@@ -18,6 +17,8 @@ import {
 } from '@/data/conceptGraph'
 import { allSubtopics, libraryTopics } from '@/data/library'
 import { subjects } from '@/data/student'
+import { useTaxonomyTree, type TaxSysNode } from '@/data/taxonomyStore'
+import { TaxonomyPlacementPicker, type TaxonomyPlacement } from '@/components/admin/TaxonomyPlacementPicker'
 
 /** Resolve a concept's subject + topic — explicit fields first, else via articleIds. */
 function scopeOf(concept: Concept): { subjectId: string; topicId: string } {
@@ -60,8 +61,78 @@ function AfterRevealPreview({ concept }: { concept: Concept }) {
   )
 }
 
+/** A node in the concept placement tree. */
+interface TreeNode { key: string; label: string; level: string; nodeId: string; children: Map<string, TreeNode>; concepts: Concept[] }
+
+function countIn(node: TreeNode): number {
+  return node.concepts.length + [...node.children.values()].reduce((n, c) => n + countIn(c), 0)
+}
+
+/** Recursive collapsible branch with an editable label (topic/subtopic/…). */
+function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId, onSelect, onRename }: {
+  node: TreeNode
+  depth: number
+  expanded: Record<string, boolean>
+  onToggle: (key: string) => void
+  selectedId: string | null
+  onSelect: (c: Concept) => void
+  onRename: (level: string, nodeId: string, title: string) => void
+}) {
+  const [editing, setEditing] = useState(false)
+  const [value, setValue] = useState(node.label)
+  const open = expanded[node.key] ?? true
+  const total = countIn(node)
+  const canRename = node.level !== 'system' && node.nodeId !== 'unassigned'
+  return (
+    <div style={{ paddingInlineStart: depth === 0 ? 0 : 10 }} className={depth === 0 ? '' : 'border-s border-line-2'}>
+      <div className="group/branch flex items-center gap-1.5 rounded-md px-2 py-1.5 hover:bg-inset/50">
+        <button onClick={() => onToggle(node.key)} className="grid size-5 place-items-center text-ink-3 hover:text-ink" aria-expanded={open}>
+          <Icon icon={ChevronRight} size={14} className={cn('transition-transform', open && 'rotate-90')} />
+        </button>
+        {editing ? (
+          <input
+            autoFocus value={value} onChange={(e) => setValue(e.target.value)}
+            onBlur={() => { setEditing(false); if (value.trim() && value !== node.label) onRename(node.level, node.nodeId, value.trim()) }}
+            onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); if (e.key === 'Escape') { setValue(node.label); setEditing(false) } }}
+            className="flex-1 rounded border border-accent bg-surface px-1.5 py-0.5 text-[13px] font-semibold text-ink outline-none"
+          />
+        ) : (
+          <span className={cn('flex-1 truncate font-semibold text-ink', depth === 0 ? 'text-[13px]' : 'text-[12.5px]')}>{node.label}</span>
+        )}
+        {canRename && !editing && (
+          <button onClick={() => { setValue(node.label); setEditing(true) }} title="Rename" className="grid size-6 place-items-center rounded text-ink-3 opacity-0 hover:bg-inset hover:text-ink group-hover/branch:opacity-100"><Icon icon={Pencil} size={12} /></button>
+        )}
+        <span className="tnum font-mono text-[10.5px] text-ink-3">{total}</span>
+      </div>
+      {open && (
+        <div className="ms-2.5">
+          {[...node.children.values()].map((child) => (
+            <ConceptTreeBranch key={child.key} node={child} depth={depth + 1} expanded={expanded} onToggle={onToggle} selectedId={selectedId} onSelect={onSelect} onRename={onRename} />
+          ))}
+          {node.concepts.length > 0 && (
+            <ul className="ms-2 space-y-0.5 border-s border-line-2 ps-2">
+              {node.concepts.map((concept) => (
+                <li key={concept.id}>
+                  <button
+                    onClick={() => onSelect(concept)}
+                    className={cn('flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left transition-colors', selectedId === concept.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
+                  >
+                    <span className="truncate text-[12.5px] font-medium">{concept.label}</span>
+                    {!concept.definition && <Badge tone="warning">No definition</Badge>}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export function ConceptsSetup() {
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [query, setQuery] = useState('')
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
   const [selectedId, setSelectedId] = useState<string | null>(graph.concepts[0]?.id ?? null)
@@ -94,31 +165,95 @@ export function ConceptsSetup() {
 
   // New-concept draft.
   const [nLabel, setNLabel] = useState('')
-  const [nSubject, setNSubject] = useState(subjects[0]?.id ?? '')
-  const [nTopic, setNTopic] = useState('')
+  const [nPlacement, setNPlacement] = useState<TaxonomyPlacement>({})
   const [nAliases, setNAliases] = useState('')
   const [nDef, setNDef] = useState('')
 
+  /** Article IDs implied by a placement's deepest node (for auto-linking). */
+  const articleIdsFor = (p: TaxonomyPlacement): string[] => {
+    const sys = taxonomy.find((s) => s.sysId === p.systemId)
+    const top = sys?.topics.find((t) => t.tpcId === p.topicTagId)
+    const sub = top?.subs.find((s) => s.subId === p.subtopicId)
+    if (sub) return [sub.id]
+    if (top) return top.subs.map((s) => s.id)
+    return []
+  }
+
   const q = query.trim().toLowerCase()
-  const groups = useMemo(() => {
+
+  /** Resolve a concept's placement path (system → … → deepest) from the taxonomy. */
+  const pathOf = (concept: Concept): TreeNode[] => {
+    const legacy = scopeOf(concept)
+    const sys = taxonomy.find((s) => s.id === concept.subjectId || s.sysId === concept.systemId) || taxonomy.find((s) => s.id === legacy.subjectId)
+    if (!sys) return [{ key: 'sys:unassigned', label: 'Unassigned', level: 'system', nodeId: 'unassigned', children: new Map(), concepts: [] }]
+    const path: TreeNode[] = [{ key: `sys:${sys.id}`, label: sys.name, level: 'system', nodeId: sys.id, children: new Map(), concepts: [] }]
+    const top = sys.topics.find((t) => t.tpcId === concept.topicTagId) || sys.topics.find((t) => t.id === legacy.topicId)
+    if (top) {
+      path.push({ key: `tpc:${top.id}`, label: top.title, level: 'topic', nodeId: top.id, children: new Map(), concepts: [] })
+      const sub = top.subs.find((s) => s.subId === concept.subtopicId)
+      if (sub) {
+        path.push({ key: `sub:${sub.id}`, label: sub.title, level: 'subtopic', nodeId: sub.id, children: new Map(), concepts: [] })
+        const mic = sub.micros.find((m) => m.micId === concept.microtopicId)
+        if (mic) {
+          path.push({ key: `mic:${mic.id}`, label: mic.title, level: 'microtopic', nodeId: mic.id, children: new Map(), concepts: [] })
+          const nan = mic.nanos.find((n) => n.nanId === concept.nanotopicId)
+          if (nan) path.push({ key: `nan:${nan.id}`, label: nan.title, level: 'nanotopic', nodeId: nan.id, children: new Map(), concepts: [] })
+        }
+      }
+    }
+    return path
+  }
+
+  const tree = useMemo(() => {
     const filtered = graph.concepts.filter(
       (c) => !q || c.label.toLowerCase().includes(q) || c.aliases.some((a) => a.toLowerCase().includes(q)) || c.definition.toLowerCase().includes(q),
     )
-    // subjectId -> topicId -> concepts
-    const bySubject = new Map<string, Map<string, Concept[]>>()
+    const roots = new Map<string, TreeNode>()
     filtered.forEach((concept) => {
-      const { subjectId, topicId } = scopeOf(concept)
-      if (!bySubject.has(subjectId)) bySubject.set(subjectId, new Map())
-      const topics = bySubject.get(subjectId)!
-      topics.set(topicId, [...(topics.get(topicId) ?? []), concept])
+      const path = pathOf(concept)
+      let level = roots
+      let node: TreeNode | undefined
+      path.forEach((step) => {
+        if (!level.has(step.key)) level.set(step.key, { ...step, children: new Map(), concepts: [] })
+        node = level.get(step.key)!
+        level = node.children
+      })
+      node?.concepts.push(concept)
     })
-    return subjects
-      .map((subj) => ({ subj, topics: bySubject.get(subj.id) }))
-      .filter((g) => g.topics && g.topics.size > 0)
-      .concat(bySubject.has('unassigned') ? [{ subj: { id: 'unassigned', name: 'Unassigned', short: '—', color: '#9c9083' }, topics: bySubject.get('unassigned') }] : [])
-  }, [graph.concepts, q])
+    // Order roots by subjects order, unassigned last.
+    const order = [...subjects.map((s) => `sys:${s.id}`), 'sys:unassigned']
+    return [...roots.values()].sort((a, b) => order.indexOf(a.key) - order.indexOf(b.key))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [graph.concepts, q, taxonomy])
 
-  const topicTitle = (topicId: string) => libraryTopics.find((t) => t.id === topicId)?.title ?? 'Unassigned'
+  /** Rename a taxonomy branch (topic/subtopic/microtopic/nanotopic) live. */
+  function renameBranch(level: string, nodeId: string, title: string) {
+    const t = title.trim()
+    if (!t) return
+    setTaxonomy((tree) => structuredClone(tree).map((sys: TaxSysNode) => {
+      if (level === 'system' && sys.id === nodeId) return { ...sys, name: t }
+      return {
+        ...sys,
+        topics: sys.topics.map((tp) => {
+          if (level === 'topic' && tp.id === nodeId) return { ...tp, title: t }
+          return {
+            ...tp,
+            subs: tp.subs.map((su) => {
+              if (level === 'subtopic' && su.id === nodeId) return { ...su, title: t }
+              return {
+                ...su,
+                micros: su.micros.map((mi) => {
+                  if (level === 'microtopic' && mi.id === nodeId) return { ...mi, title: t }
+                  return { ...mi, nanos: mi.nanos.map((na) => (level === 'nanotopic' && na.id === nodeId ? { ...na, title: t } : na)) }
+                }),
+              }
+            }),
+          }
+        }),
+      }
+    }))
+  }
+
   const withQuestions = () => graph.concepts.length
   const conceptLabel = (id: string) => graph.concepts.find((c) => c.id === id)?.label ?? id
 
@@ -145,6 +280,12 @@ export function ConceptsSetup() {
         clinicalRelevance: draft.clinicalRelevance,
         academicRelevance: draft.academicRelevance,
         examWeightByYear: draft.examWeightByYear,
+        subjectId: draft.subjectId,
+        systemId: draft.systemId,
+        topicTagId: draft.topicTagId,
+        subtopicId: draft.subtopicId,
+        microtopicId: draft.microtopicId,
+        nanotopicId: draft.nanotopicId,
       } : c)),
     }))
     setSavedId(selected.id)
@@ -158,29 +299,28 @@ export function ConceptsSetup() {
     if (selectedId === id) setSelectedId(null)
   }
 
-  const topicsForSubject = libraryTopics.filter((t) => t.subjectId === nSubject)
-
   function createConcept() {
     const label = nLabel.trim()
     if (!label) return
     const id = `med.concept.${slug(label)}`
     if (graph.concepts.some((c) => c.id === id)) return
-    const topic = libraryTopics.find((t) => t.id === nTopic)
     const concept: Concept = {
       id,
       label,
       aliases: nAliases.split(',').map((a) => a.trim()).filter(Boolean),
       definition: nDef.trim(),
-      articleIds: topic ? topic.subtopics.map((s) => s.id) : [],
-      subjectId: nSubject,
-      topicId: nTopic || undefined,
+      articleIds: articleIdsFor(nPlacement),
+      subjectId: nPlacement.subjectId,
+      systemId: nPlacement.systemId,
+      topicTagId: nPlacement.topicTagId,
+      subtopicId: nPlacement.subtopicId,
+      microtopicId: nPlacement.microtopicId,
+      nanotopicId: nPlacement.nanotopicId,
     }
     setGraph((g) => ({ ...g, concepts: [concept, ...g.concepts] }))
     setCreating(false)
-    setNLabel(''); setNAliases(''); setNDef(''); setNTopic('')
+    setNLabel(''); setNAliases(''); setNDef(''); setNPlacement({})
     selectConcept(concept)
-    const scope = scopeOf(concept)
-    setExpanded((prev) => ({ ...prev, [`${scope.subjectId}:${scope.topicId}`]: true }))
   }
 
   function runImport() {
@@ -244,51 +384,20 @@ export function ConceptsSetup() {
             <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)}>New concept</Button>
           </div>
           <div className="flex-1 overflow-y-auto p-2">
-            {groups.length === 0 ? (
+            {tree.length === 0 ? (
               <p className="px-2 py-10 text-center text-[13px] text-ink-3">No concepts match “{query}”.</p>
             ) : (
-              groups.map(({ subj, topics }) => (
-                <div key={subj.id} className="mb-3">
-                  <div className="mb-1 flex items-center gap-2 px-2">
-                    <SubjectDot id={subj.id === 'unassigned' ? 'cvs' : subj.id} />
-                    <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{subj.name}</span>
-                  </div>
-                  {[...topics!.entries()].map(([topicId, concepts]) => {
-                    const key = `${subj.id}:${topicId}`
-                    const open = expanded[key] ?? true
-                    return (
-                      <div key={topicId} className="mb-1">
-                        <button
-                          onClick={() => setExpanded((p) => ({ ...p, [key]: !open }))}
-                          className="flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-left text-[13px] font-semibold text-ink hover:bg-inset"
-                          aria-expanded={open}
-                        >
-                          <Icon icon={ChevronRight} size={14} className={cn('text-ink-3 transition-transform', open && 'rotate-90')} />
-                          <span className="flex-1 truncate">{topicTitle(topicId)}</span>
-                          <span className="tnum font-mono text-[10.5px] text-ink-3">{concepts.length}</span>
-                        </button>
-                        {open && (
-                          <ul className="ml-[1.1rem] space-y-0.5 border-l border-line-2 pl-2">
-                            {concepts.map((concept) => (
-                              <li key={concept.id}>
-                                <button
-                                  onClick={() => selectConcept(concept)}
-                                  className={cn(
-                                    'flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left transition-colors',
-                                    selectedId === concept.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
-                                  )}
-                                >
-                                  <span className="truncate text-[13px] font-medium">{concept.label}</span>
-                                  {!concept.definition && <Badge tone="warning">No definition</Badge>}
-                                </button>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </div>
-                    )
-                  })}
-                </div>
+              tree.map((node) => (
+                <ConceptTreeBranch
+                  key={node.key}
+                  node={node}
+                  depth={0}
+                  expanded={expanded}
+                  onToggle={(key) => setExpanded((p) => ({ ...p, [key]: !(p[key] ?? true) }))}
+                  selectedId={selectedId}
+                  onSelect={selectConcept}
+                  onRename={renameBranch}
+                />
               ))
             )}
           </div>
@@ -342,15 +451,15 @@ export function ConceptsSetup() {
                   </Field>
                 </div>
 
-                {/* Curriculum placement — auto-derived visible IDs */}
+                {/* Curriculum placement — editable, from the single Subjects & Topics source */}
                 <div className="rounded-lg border border-line bg-surface-2/40 p-3">
-                  <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Curriculum placement</p>
-                  <div className="grid grid-cols-2 gap-1.5 font-mono text-[10.5px] text-ink-2">
-                    <span>System: <span className="text-ink">{selected.systemId ?? '—'}</span></span>
-                    <span>Topic: <span className="text-ink">{selected.topicTagId ?? '—'}</span></span>
-                    <span>Subtopic: <span className="text-ink">{selected.subtopicId ?? '—'}</span></span>
-                    <span>Micro: <span className="text-ink">{selected.microtopicId ?? '—'}</span></span>
-                  </div>
+                  <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Curriculum placement (Subjects & Topics)</p>
+                  <TaxonomyPlacementPicker
+                    tree={taxonomy}
+                    compact
+                    value={{ subjectId: draft.subjectId, systemId: draft.systemId, topicTagId: draft.topicTagId, subtopicId: draft.subtopicId, microtopicId: draft.microtopicId, nanotopicId: draft.nanotopicId }}
+                    onChange={(p) => patch({ subjectId: p.subjectId, systemId: p.systemId, topicTagId: p.topicTagId, subtopicId: p.subtopicId, microtopicId: p.microtopicId, nanotopicId: p.nanotopicId })}
+                  />
                 </div>
 
                 {/* Per-year exam blueprint weights */}
@@ -422,18 +531,9 @@ export function ConceptsSetup() {
               <Field label="Concept name">
                 <TextInput value={nLabel} onChange={(e) => setNLabel(e.target.value)} placeholder="e.g. Anion gap" autoFocus />
               </Field>
-              <div className="grid gap-3 sm:grid-cols-2">
-                <Field label="Subject">
-                  <Select value={nSubject} onChange={(e) => { setNSubject(e.target.value); setNTopic('') }}>
-                    {subjects.map((s) => <option key={s.id} value={s.id}>{s.name}</option>)}
-                  </Select>
-                </Field>
-                <Field label="Topic">
-                  <Select value={nTopic} onChange={(e) => setNTopic(e.target.value)}>
-                    <option value="">— Select topic —</option>
-                    {topicsForSubject.map((t) => <option key={t.id} value={t.id}>{t.title}</option>)}
-                  </Select>
-                </Field>
+              <div>
+                <p className="mb-1.5 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Placement (Subjects & Topics)</p>
+                <TaxonomyPlacementPicker tree={taxonomy} value={nPlacement} onChange={setNPlacement} />
               </div>
               <Field label="Also matches (aliases)" hint="Comma-separated.">
                 <TextInput value={nAliases} onChange={(e) => setNAliases(e.target.value)} placeholder="alias one, alias two" />

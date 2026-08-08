@@ -52,6 +52,7 @@ export interface Concept {
   topicTagId?: string
   subtopicId?: string
   microtopicId?: string
+  nanotopicId?: string
   /** Overall exam-blueprint weight, 0–1. */
   blueprintWeight?: number
   /** Per-year exam-blueprint weight, keyed by year_ID (e.g. OMS_Y2), each 0–1. */
