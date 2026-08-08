@@ -1,195 +1,111 @@
 import { useState } from 'react'
-import { Plus, Pencil, Stethoscope, ClipboardList, ListChecks, Upload } from 'lucide-react'
-import { osceStations, clinicalCases, skills } from '@/data/practical'
-import { getSubject } from '@/data/student'
-import { PageContainer, PageHeader } from '@/components/shell/Page'
-import { Panel } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
-import { Badge } from '@/components/ui/Badge'
-import { StatusBadge } from '@/components/ui/StatusBadge'
-import { IconButton } from '@/components/ui/IconButton'
-import { Tabs } from '@/components/ui/Tabs'
-import { Table, Th, Td, Tr } from '@/components/ui/Table'
-import { SubjectDot } from '@/components/ui/Subject'
-import { BulkImport } from '@/components/admin/BulkImport'
+import { Link } from 'react-router-dom'
+import { Stethoscope, ChevronRight, Network, GraduationCap } from 'lucide-react'
+import { ControlDashboard, type ContentScope } from './ControlDashboard'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+import { Icon } from '@/components/ui/Icon'
+import { cn } from '@/lib/cn'
 
-const SAMPLE = `title,type,subject,minutes,marks
-Thyroid examination,OSCE,Endocrine,8,22
-Diabetic foot assessment,OSCE,Endocrine,8,20
-Chest X-ray interpretation,Imaging,Respiratory,5,10`
+type Selection = { universityId?: string; year?: string }
 
-const CYCLE = ['Published', 'Published', 'Draft', 'In review', 'Published']
-const st = (i: number) => CYCLE[i % CYCLE.length]
-
-function EditCell() {
-  return (
-    <Td align="right" className="pr-4">
-      <IconButton icon={Pencil} label="Edit" size="sm" />
-    </Td>
-  )
-}
-
+/**
+ * Practical Setup = a left "Master Practical" navigator (all practicals →
+ * per-university → per-year) wrapped around the full practical catalogue, matching
+ * Questions Setup and Resources & Media. Systems/topics are edited in Subjects & Topics.
+ */
 export function PracticalSetup() {
-  const [tab, setTab] = useState('osce')
-  const [importOpen, setImportOpen] = useState(false)
-  const [imported, setImported] = useState(0)
+  const [universities] = useUniversityCatalogue()
+  const [selection, setSelection] = useState<Selection>({})
+  const [openUni, setOpenUni] = useState<string | null>(null)
+
+  const scope: ContentScope = { universityId: selection.universityId, year: selection.year }
+  const isMaster = !selection.universityId && !selection.year
 
   return (
-    <PageContainer>
-      <PageHeader
-        title="Practical Setup"
-        description="Build OSCE stations, clinical cases, and skills checklists — or bulk-import them."
-        actions={
-          <>
-            <Button variant="secondary" size="md" iconLeft={Upload} onClick={() => setImportOpen(true)}>
-              Bulk import
-            </Button>
-            <Button variant="primary" size="md" iconLeft={Plus}>
-              New item
-            </Button>
-          </>
-        }
-      />
+    <div className="flex min-h-[calc(100dvh-4rem)] flex-col lg:flex-row">
+      <aside className="shrink-0 border-b border-line bg-surface-2/40 p-3 lg:w-64 lg:border-b-0 lg:border-e">
+        <button
+          type="button"
+          onClick={() => { setSelection({}); setOpenUni(null) }}
+          className={cn(
+            'flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-left text-[13.5px] font-semibold',
+            isMaster ? 'bg-accent-tint text-accent-strong' : 'text-ink hover:bg-inset',
+          )}
+        >
+          <Icon icon={Stethoscope} size={16} />
+          Master Practical
+        </button>
 
-      {imported > 0 && (
-        <div className="mb-4 rounded-lg border border-success/25 bg-success-tint/70 px-4 py-2.5 text-[13px] text-ink">
-          {imported} practical items imported and queued for review.
+        <p className="mt-4 mb-1.5 px-3 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">By university & year</p>
+        <ul className="space-y-0.5">
+          {universities.map((u) => {
+            const uniOpen = openUni === u.id
+            const uniActive = selection.universityId === u.id && !selection.year
+            return (
+              <li key={u.id}>
+                <div className="flex items-center">
+                  <button
+                    type="button"
+                    onClick={() => setOpenUni(uniOpen ? null : u.id)}
+                    className="grid size-7 place-items-center rounded text-ink-3 hover:text-ink"
+                    aria-label={uniOpen ? `Collapse ${u.short}` : `Expand ${u.short}`}
+                  >
+                    <Icon icon={ChevronRight} size={14} className={cn('transition-transform', uniOpen && 'rotate-90')} />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => { setSelection({ universityId: u.id }); setOpenUni(u.id) }}
+                    className={cn(
+                      'flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-left text-[13px]',
+                      uniActive ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset',
+                    )}
+                  >
+                    <Icon icon={GraduationCap} size={14} />
+                    <span className="font-medium">{u.short}</span>
+                    <span className="truncate text-[11.5px] text-ink-3">{u.name}</span>
+                  </button>
+                </div>
+                {uniOpen && (
+                  <ul className="ms-8 mt-0.5 space-y-0.5 border-s border-line ps-2">
+                    {u.years.map((yr) => yr.year).map((y) => {
+                      const yearActive = selection.universityId === u.id && selection.year === y
+                      return (
+                        <li key={y}>
+                          <button
+                            type="button"
+                            onClick={() => setSelection({ universityId: u.id, year: y })}
+                            className={cn(
+                              'block w-full rounded px-2.5 py-1.5 text-left text-[12.5px]',
+                              yearActive ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-3 hover:bg-inset hover:text-ink-2',
+                            )}
+                          >
+                            {y}
+                          </button>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                )}
+              </li>
+            )
+          })}
+        </ul>
+
+        <Link to="/admin/taxonomy" className="mt-4 flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-[12px] text-ink-2 hover:border-accent-line hover:text-accent-strong">
+          <Icon icon={Network} size={14} />
+          Edit systems & topics
+        </Link>
+      </aside>
+
+      <div className="min-w-0 flex-1">
+        <div className="border-b border-line bg-surface px-5 py-2.5 text-[12.5px] text-ink-2">
+          <span className="font-medium text-ink">Scope:</span>{' '}
+          {isMaster
+            ? 'Master Practical — every station & case'
+            : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
         </div>
-      )}
-
-      <Tabs
-        value={tab}
-        onChange={setTab}
-        className="mb-4"
-        items={[
-          { value: 'osce', label: 'OSCE stations', icon: Stethoscope, count: osceStations.length },
-          { value: 'cases', label: 'Clinical cases', icon: ClipboardList, count: clinicalCases.length },
-          { value: 'skills', label: 'Skills', icon: ListChecks, count: skills.length },
-        ]}
-      />
-
-      {tab === 'osce' && (
-        <Panel>
-          <Table>
-            <thead>
-              <tr>
-                <Th className="pl-4">Station</Th>
-                <Th>Subject</Th>
-                <Th align="right">Minutes</Th>
-                <Th align="right">Marks</Th>
-                <Th>Status</Th>
-                <Th align="right" className="pr-4">
-                  <span className="sr-only">Actions</span>
-                </Th>
-              </tr>
-            </thead>
-            <tbody>
-              {osceStations.map((s, i) => (
-                <Tr key={s.id} hover>
-                  <Td className="pl-4 font-medium">{s.title}</Td>
-                  <Td>
-                    <span className="inline-flex items-center gap-1.5 text-ink-2">
-                      <SubjectDot id={s.subjectId} />
-                      {getSubject(s.subjectId).short}
-                    </span>
-                  </Td>
-                  <Td align="right" className="tnum font-mono text-ink-2">
-                    {s.minutes}
-                  </Td>
-                  <Td align="right" className="tnum font-mono text-ink-2">
-                    {s.marks}
-                  </Td>
-                  <Td>
-                    <StatusBadge status={st(i)} />
-                  </Td>
-                  <EditCell />
-                </Tr>
-              ))}
-            </tbody>
-          </Table>
-        </Panel>
-      )}
-
-      {tab === 'cases' && (
-        <Panel>
-          <Table>
-            <thead>
-              <tr>
-                <Th className="pl-4">Case</Th>
-                <Th>Subject</Th>
-                <Th align="right">Steps</Th>
-                <Th>Status</Th>
-                <Th align="right" className="pr-4">
-                  <span className="sr-only">Actions</span>
-                </Th>
-              </tr>
-            </thead>
-            <tbody>
-              {clinicalCases.map((c, i) => (
-                <Tr key={c.id} hover>
-                  <Td className="pl-4">
-                    <span className="font-medium">{c.title}</span>
-                    <span className="text-[11.5px] text-ink-3">{c.presentation}</span>
-                  </Td>
-                  <Td>
-                    <span className="inline-flex items-center gap-1.5 text-ink-2">
-                      <SubjectDot id={c.subjectId} />
-                      {getSubject(c.subjectId).short}
-                    </span>
-                  </Td>
-                  <Td align="right" className="tnum font-mono text-ink-2">
-                    {c.steps}
-                  </Td>
-                  <Td>
-                    <StatusBadge status={st(i + 1)} />
-                  </Td>
-                  <EditCell />
-                </Tr>
-              ))}
-            </tbody>
-          </Table>
-        </Panel>
-      )}
-
-      {tab === 'skills' && (
-        <Panel>
-          <Table>
-            <thead>
-              <tr>
-                <Th className="pl-4">Skill</Th>
-                <Th>Category</Th>
-                <Th>Status</Th>
-                <Th align="right" className="pr-4">
-                  <span className="sr-only">Actions</span>
-                </Th>
-              </tr>
-            </thead>
-            <tbody>
-              {skills.map((s) => (
-                <Tr key={s.id} hover>
-                  <Td className="pl-4 font-medium">{s.name}</Td>
-                  <Td>
-                    <Badge tone="neutral">{s.category}</Badge>
-                  </Td>
-                  <Td>
-                    <StatusBadge status="Published" />
-                  </Td>
-                  <EditCell />
-                </Tr>
-              ))}
-            </tbody>
-          </Table>
-        </Panel>
-      )}
-      <BulkImport
-        open={importOpen}
-        onClose={() => setImportOpen(false)}
-        title="Bulk import practical items"
-        itemNoun="items"
-        fields={['Title', 'Type', 'Subject', 'Duration', 'Marks', 'Mark scheme']}
-        sampleCsv={SAMPLE}
-        onImport={(n) => setImported(n)}
-      />
-    </PageContainer>
+        <ControlDashboard key={`${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="practical" lockedKind scope={scope} />
+      </div>
+    </div>
   )
 }

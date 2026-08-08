@@ -35,6 +35,7 @@ import { TaxonomySetup } from '@/pages/admin/TaxonomySetup'
 import { StudentsManagement } from '@/pages/admin/StudentsManagement'
 import { QuestionsSetup } from '@/pages/admin/QuestionsSetup'
 import { ResourcesSetup } from '@/pages/admin/ResourcesSetup'
+import { PracticalSetup } from '@/pages/admin/PracticalSetup'
 
 // Surfaces that are built get their real component; the rest render the
 // intentional Placeholder. Adding a surface = one entry here.
@@ -60,7 +61,7 @@ const adminBuilt: Record<string, ReactElement> = {
   concepts: <ConceptsSetup />,
   relationships: <RelationshipsSetup />,
   taxonomy: <TaxonomySetup />,
-  practical: <ControlDashboard key="practical-catalogue" initialKind="practical" lockedKind />,
+  practical: <PracticalSetup />,
   resources: <ResourcesSetup />,
   reports: <ReportsReview />,
   students: <StudentsManagement />,

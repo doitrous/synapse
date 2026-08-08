@@ -209,7 +209,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       .filter((item) => status === 'All' || item.status === status)
       // Navigator scope (Master → university → year) for question & resource catalogues.
       .filter((item) => {
-        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource')) return true
+        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical')) return true
         if (activeScope.universityId && !scopeUniversities(item.id).includes(activeScope.universityId)) return false
         if (activeScope.year && scopeYear(item.subjectId) !== activeScope.year) return false
         return true
