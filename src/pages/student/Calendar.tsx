@@ -200,6 +200,42 @@ function EventDetailDialog({ event, endTime, onClose }: { event: CalEvent; endTi
   )
 }
 
+/** A day's agenda as a bottom sheet — the readable, tappable day view on mobile. */
+function DaySheet({ date, events, onClose, onEvent, onAdd }: { date: Date; events: CalEvent[]; onClose: () => void; onEvent: (e: CalEvent) => void; onAdd: () => void }) {
+  const t = useT()
+  return (
+    <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label={formatLongDate(date)} onMouseDown={onClose}>
+      <Panel className="animate-pop max-h-[80dvh] w-full overflow-y-auto overscroll-contain rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-md sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
+        <PanelHeader title={formatLongDate(date)} icon={CalendarDays} hint={`${events.length} ${events.length === 1 ? t('event') : t('events')}`} action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />} />
+        <div className="p-3">
+          {events.length ? (
+            <ul className="space-y-2">
+              {events.map((event) => {
+                const subject = getSubject(event.subjectId)
+                return (
+                  <li key={event.id}>
+                    <button type="button" onClick={() => onEvent(event)} className="grid w-full grid-cols-[3.5rem_1fr_auto] items-center gap-2 rounded-lg border border-line bg-surface-2/50 p-2.5 text-start transition-colors hover:border-accent-line hover:bg-accent-tint/25">
+                      <span className="tnum font-mono text-[11px] text-ink-3">{formatTimeString(event.time)}</span>
+                      <span className="min-w-0">
+                        <span className="flex items-center gap-1.5"><span className="h-3 w-0.5 shrink-0 rounded-full" style={{ backgroundColor: subject.color }} /><span className="truncate text-[13px] font-medium text-ink">{event.title}</span></span>
+                        <span className="mt-0.5 block ps-2 text-[11px] text-ink-3">{event.kind} · {subject.name}</span>
+                      </span>
+                      <Icon icon={ChevronRight} size={15} className="text-ink-3 rtl:-scale-x-100" />
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          ) : (
+            <p className="rounded-lg border border-dashed border-line bg-surface-2/40 px-4 py-6 text-center text-[13px] text-ink-3">{t('Nothing scheduled this day.')}</p>
+          )}
+          <Button className="mt-3 w-full" variant="primary" size="sm" iconLeft={Plus} onClick={onAdd}>{t('Add a block')}</Button>
+        </div>
+      </Panel>
+    </div>
+  )
+}
+
 export function CalendarPage() {
   const t = useT()
   const [anchor, setAnchor] = useState(() => new Date())
@@ -208,6 +244,7 @@ export function CalendarPage() {
   const [showPersonal, setShowPersonal] = useState(true)
   const [dialogDate, setDialogDate] = useState<Date | null>(null)
   const [detailEvent, setDetailEvent] = useState<CalEvent | null>(null)
+  const [daySheet, setDaySheet] = useState<Date | null>(null)
   const [blocks, setBlocks] = usePersistentState<StoredBlock[]>('synapse.calendar.blocks', [])
   const today = new Date()
 
@@ -254,19 +291,20 @@ export function CalendarPage() {
 
   return (
     <PageContainer>
-      <div className="mb-4 flex min-w-0 flex-wrap items-center justify-between gap-3">
-        <div className="flex w-full min-w-0 items-center gap-1.5 sm:w-auto sm:gap-2">
+      <div className="mb-4 space-y-3">
+        {/* Row 1: navigation + view switch (always visible on mobile) */}
+        <div className="flex flex-wrap items-center gap-2">
           <IconButton icon={ChevronLeft} label={t('Previous')} variant="surface" size="sm" className="rtl:-scale-x-100" onClick={() => shift(-1)} />
-          <h1 className="min-w-0 flex-1 truncate text-center font-serif text-[16px] font-semibold text-ink sm:min-w-[11rem] sm:flex-none sm:text-[19px]">{label}</h1>
+          <h1 className="min-w-0 flex-1 truncate font-serif text-[17px] font-semibold text-ink sm:min-w-[11rem] sm:flex-none sm:text-[19px]">{label}</h1>
           <IconButton icon={ChevronRight} label={t('Next')} variant="surface" size="sm" className="rtl:-scale-x-100" onClick={() => shift(1)} />
-          <Button className="hidden sm:inline-flex" variant="secondary" size="sm" onClick={() => setAnchor(new Date())}>{t('Today')}</Button>
+          <Button variant="secondary" size="sm" onClick={() => setAnchor(new Date())}>{t('Today')}</Button>
+          <Segmented value={view} onChange={setView} items={[{ value: 'month', label: t('Month') }, { value: 'week', label: t('Week') }]} />
         </div>
-        <div className="flex w-full flex-nowrap items-center gap-3 overflow-x-auto overscroll-x-contain pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:w-auto sm:flex-wrap sm:overflow-visible sm:pb-0">
-          <Button className="shrink-0 sm:hidden" variant="secondary" size="sm" onClick={() => setAnchor(new Date())}>{t('Today')}</Button>
+        {/* Row 2: filters + add */}
+        <div className="flex flex-wrap items-center gap-3">
           <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-2"><span className="size-2.5 rounded-sm bg-accent-tint ring-1 ring-accent-line" />{t('Curriculum')}<Toggle checked={showCurriculum} onChange={setShowCurriculum} label={t('Curriculum')} /></label>
           <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-2"><span className="size-2.5 rounded-sm border border-dashed border-line-2 bg-surface" />{t('Personal')}<Toggle checked={showPersonal} onChange={setShowPersonal} label={t('Personal')} tint="#55605c" /></label>
-          <Segmented value={view} onChange={setView} items={[{ value: 'month', label: t('Month') }, { value: 'week', label: t('Week') }]} />
-          <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setDialogDate(new Date())}>{t('Add block')}</Button>
+          <Button className="ms-auto" variant="primary" size="sm" iconLeft={Plus} onClick={() => setDialogDate(new Date())}>{t('Add block')}</Button>
         </div>
       </div>
 
@@ -280,7 +318,7 @@ export function CalendarPage() {
                 const inMonth = date.getMonth() === anchor.getMonth()
                 const isToday = sameDay(date, today)
                 return (
-                  <button key={dayKey(date)} onClick={() => setDialogDate(date)} className={cn('group min-h-[64px] border-b border-r border-line p-1 text-left transition-colors hover:bg-accent-tint/25 focus-visible:z-10 focus-visible:outline-2 focus-visible:outline-accent sm:min-h-[112px] sm:p-1.5', index % 7 === 6 && 'border-r-0', !inMonth && 'bg-surface-2/40')} aria-label={`Add block on ${formatLongDate(date)}`}>
+                  <button key={dayKey(date)} onClick={() => setDaySheet(date)} className={cn('group min-h-[64px] border-b border-r border-line p-1 text-left transition-colors hover:bg-accent-tint/25 focus-visible:z-10 focus-visible:outline-2 focus-visible:outline-accent sm:min-h-[112px] sm:p-1.5', index % 7 === 6 && 'border-r-0', !inMonth && 'bg-surface-2/40')} aria-label={`${formatLongDate(date)} — ${events.length} events`}>
                     <div className="mb-1 flex items-center justify-between">
                       <Icon icon={Plus} size={12} className="text-ink-3 opacity-0 transition-opacity group-hover:opacity-100" />
                       <span className={cn('tnum grid size-6 place-items-center rounded-full text-[12px] font-medium', isToday ? 'bg-accent text-on-accent' : inMonth ? 'text-ink-2' : 'text-ink-3')}>{date.getDate()}</span>
@@ -320,6 +358,15 @@ export function CalendarPage() {
       </div>
 
       <p className="mt-3 flex items-center gap-1.5 text-[12px] text-ink-3"><CalendarDays size={13} />{t('Select any day to add a personal block. Curriculum sessions are filled; your plan is outlined.')}</p>
+      {daySheet && (
+        <DaySheet
+          date={daySheet}
+          events={visible(eventMap.get(dayKey(daySheet)))}
+          onClose={() => setDaySheet(null)}
+          onEvent={(e) => { setDaySheet(null); setDetailEvent(e) }}
+          onAdd={() => { const d = daySheet; setDaySheet(null); setDialogDate(d) }}
+        />
+      )}
       {dialogDate && <BlockDialog date={dialogDate} onClose={() => setDialogDate(null)} onSave={saveBlock} />}
       {detailEvent && (
         <EventDetailDialog
