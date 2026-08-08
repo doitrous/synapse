@@ -90,42 +90,42 @@ export function NextOnSchedule() {
         }
       />
 
-      <div className="flex flex-1 flex-col justify-center p-5 sm:p-6">
-        <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-          <span className="tnum font-serif text-[38px] font-semibold leading-none tracking-[-0.035em] text-ink sm:text-[44px]">
+      <div className="flex flex-1 flex-col items-center justify-center p-4 text-center">
+        <div className="flex flex-wrap items-baseline justify-center gap-x-3 gap-y-0.5">
+          <span className="tnum font-serif text-[30px] font-semibold leading-none tracking-[-0.03em] text-ink sm:text-[34px]">
             {formatClock(nextSession.start)}
           </span>
-          <span className="text-[14px] font-medium text-ink-3 sm:text-[15px]">
+          <span className="text-[13px] font-medium text-ink-3">
             {formatLongDate(nextSession.start)}
           </span>
         </div>
 
-        <h3 className="mt-5 max-w-4xl text-balance font-serif text-[24px] font-semibold leading-[1.16] tracking-[-0.02em] text-ink sm:text-[28px]">
+        <h3 className="mt-2.5 max-w-xl text-balance font-serif text-[19px] font-semibold leading-[1.18] tracking-[-0.02em] text-ink sm:text-[21px]">
           {nextSession.title}
         </h3>
 
-        <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3 text-[13px] text-ink-2 sm:text-[14px]">
-          <span className="inline-flex items-center gap-2 whitespace-nowrap">
-            <Icon icon={CalendarClock} size={17} strokeWidth={2.15} className="text-ink-3" />
+        <div className="mt-2.5 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[12.5px] text-ink-2">
+          <span className="inline-flex items-center gap-1.5 whitespace-nowrap">
+            <Icon icon={CalendarClock} size={15} strokeWidth={2.15} className="text-ink-3" />
             <span className="tnum">{formatClock(nextSession.start)} – {formatClock(nextSession.end)}</span>
             <span className="text-ink-3">· {durationLabel(nextSession)}</span>
           </span>
-          <span className="inline-flex items-center gap-2">
-            <Icon icon={nextSession.online ? Video : MapPin} size={17} strokeWidth={2.15} className="shrink-0 text-ink-3" />
+          <span className="inline-flex items-center gap-1.5">
+            <Icon icon={nextSession.online ? Video : MapPin} size={15} strokeWidth={2.15} className="shrink-0 text-ink-3" />
             {nextSession.location}
           </span>
-          <ChapterMark subjectId={subject.id} index={Math.max(1, chapterIndex)} />
-          <Badge tone="accent" className="px-3 py-1 text-[12px]">{t(nextSession.kind)}</Badge>
+          <ChapterMark subjectId={subject.id} index={Math.max(1, chapterIndex)} compact />
+          <Badge tone="accent" className="text-[11.5px]">{t(nextSession.kind)}</Badge>
         </div>
 
-        <div className="mt-7 flex flex-wrap gap-2.5">
+        <div className="mt-4 flex flex-wrap justify-center gap-2">
           <Link to={action.to} className="max-sm:w-full">
-            <Button className="max-sm:w-full" variant="primary" size="lg" iconLeft={action.icon}>{action.label}</Button>
+            <Button className="max-sm:w-full" variant="primary" size="md" iconLeft={action.icon}>{action.label}</Button>
           </Link>
           <Button
             type="button"
             variant="secondary"
-            size="lg"
+            size="md"
             iconLeft={planned ? Check : CalendarPlus}
             disabled={planned}
             onClick={addToPlan}

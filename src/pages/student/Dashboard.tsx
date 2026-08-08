@@ -48,22 +48,24 @@ export function Dashboard() {
           </div>
         </div>
 
-        {/* Today up top; Performance stacked directly above Exam readiness */}
+        {/* Today up top; right column: Performance, Exam readiness, then Question bank + Practical */}
         <div className="grid items-start gap-4 lg:grid-cols-2">
           <div className="h-full min-w-0"><TodaysPlan /></div>
           <div className="grid min-w-0 content-start gap-4">
             <PerformanceOverview compact />
             <ExamReadinessCard compact />
+            <div className="grid gap-4 sm:grid-cols-2">
+              <QuestionBankCard compact />
+              <PracticalSkillsCard compact />
+            </div>
           </div>
         </div>
 
-        <div className="grid items-stretch gap-4 lg:grid-cols-3">
-          <QuestionBankCard compact />
-          <PracticalSkillsCard compact />
+        {/* Heatmap left half, Last used resources right half */}
+        <div className="grid items-stretch gap-4 lg:grid-cols-2">
           <StudyHeatmap />
+          <LastUsedResources />
         </div>
-
-        <LastUsedResources />
       </div>
     </PageContainer>
   )
