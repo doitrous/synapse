@@ -14,6 +14,7 @@ export const systemId = (subjectId: string) => `SYS_${up(subjectId)}`
 export const topicIdOf = (topicId: string) => `TPC_${up(topicId)}`
 export const subtopicIdOf = (subtopicId: string) => `SUB_${up(subtopicId)}`
 export const microtopicIdOf = (microtopicId: string) => `MIC_${up(microtopicId)}`
+export const nanotopicIdOf = (nanotopicId: string) => `NAN_${up(nanotopicId)}`
 export const universityId = (uniId: string) => (getUniShort(uniId) || up(uniId))
 export const yearId = (uniId: string, year: string) => `${getUniShort(uniId) || up(uniId)}_Y${year.replace(/\D/g, '') || '1'}`
 
