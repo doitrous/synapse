@@ -11,7 +11,21 @@ import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { subjects, getSubject } from '@/data/student'
 import { libraryTopics } from '@/data/library'
+import { useTaxonomyTree, renameTaxonomyNode } from '@/data/taxonomyStore'
 import { cn } from '@/lib/cn'
+
+/** Click-to-rename inline label. */
+function EditableLabel({ value, onSave }: { value: string; onSave: (v: string) => void }) {
+  const [editing, setEditing] = useState(false)
+  const [v, setV] = useState(value)
+  if (editing) return (
+    <input autoFocus value={v} onChange={(e) => setV(e.target.value)} onClick={(e) => e.stopPropagation()}
+      onBlur={() => { setEditing(false); if (v.trim() && v !== value) onSave(v.trim()) }}
+      onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); if (e.key === 'Escape') { setV(value); setEditing(false) } }}
+      className="rounded border border-accent bg-surface px-1 py-0.5 text-[11px] uppercase text-ink outline-none" />
+  )
+  return <button type="button" onClick={(e) => { e.stopPropagation(); setV(value); setEditing(true) }} title="Rename topic" className="rounded px-1 hover:bg-inset">{value}</button>
+}
 import {
   CONCEPT_STORAGE_KEY,
   CONCEPT_RELATIONS,
@@ -27,6 +41,7 @@ const slugType = (s: string) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '_
 
 export function RelationshipsSetup() {
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [customTypes, setCustomTypes] = usePersistentState<string[]>(RELATION_TYPES_KEY, [])
   const allTypes = [...RELATION_TYPES, ...customTypes.filter((t) => !RELATION_TYPES.includes(t as ConceptRelationType))]
   const [query, setQuery] = useState('')
@@ -66,7 +81,21 @@ export function RelationshipsSetup() {
   }
   const conceptTopic = (id: string): string => {
     const c = graph.concepts.find((x) => x.id === id)
-    return c?.articleIds?.map((a) => topicOfArticle[a]).find(Boolean) || 'General'
+    if (!c) return 'General'
+    // Prefer the single-source taxonomy: explicit topic tag, else the topic that
+    // owns one of the concept's article/subtopic nodes.
+    const sys = taxonomy.find((s) => s.id === c.subjectId || s.sysId === c.systemId)
+    if (sys) {
+      if (c.topicTagId) { const t = sys.topics.find((x) => x.tpcId === c.topicTagId); if (t) return t.title }
+      for (const a of c.articleIds ?? []) { const t = sys.topics.find((x) => x.subs.some((su) => su.id === a)); if (t) return t.title }
+    }
+    return c.articleIds?.map((a) => topicOfArticle[a]).find(Boolean) || 'General'
+  }
+
+  /** Rename a topic in the single-source taxonomy (system matched by subject). */
+  function renameTopic(sysSubjectId: string, oldTitle: string, newTitle: string) {
+    const topic = taxonomy.find((s) => s.id === sysSubjectId)?.topics.find((t) => t.title === oldTitle)
+    if (topic) setTaxonomy((tree) => renameTaxonomyNode(tree, 'topic', topic.id, newTitle))
   }
 
   const rows = useMemo(() => {
@@ -103,7 +132,7 @@ export function RelationshipsSetup() {
       .sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]))
       .map(([sys, tmap]) => ({ sys, count: [...tmap.values()].reduce((n, l) => n + l.length, 0), topics: [...tmap.entries()] }))
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [rows])
+  }, [rows, taxonomy])
 
   // Concepts grouped by system for the built-in source picker.
   const conceptsBySystem = useMemo(() => {
@@ -363,11 +392,12 @@ export function RelationshipsSetup() {
                     return (
                       <Fragment key={topKey}>
                         <tr className="bg-surface-2/25">
-                          <td colSpan={4} className="px-4 py-0">
-                            <button type="button" onClick={() => toggleGroup(topKey)} aria-expanded={!topCollapsed} className="flex w-full items-center gap-2 py-1.5 ps-6 text-start text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-                              <Icon icon={ChevronRight} size={12} className={cn('transition-transform', !topCollapsed && 'rotate-90')} />
-                              {topic}<span className="tnum ms-1 font-mono text-ink-3/70">{list.length}</span>
-                            </button>
+                          <td colSpan={4} className="px-4 py-1.5 ps-6">
+                            <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+                              <button type="button" onClick={() => toggleGroup(topKey)} aria-expanded={!topCollapsed} className="grid size-4 place-items-center"><Icon icon={ChevronRight} size={12} className={cn('transition-transform', !topCollapsed && 'rotate-90')} /></button>
+                              {knownSubjects.has(sys) && topic !== 'General' ? <EditableLabel value={topic} onSave={(v) => renameTopic(sys, topic, v)} /> : topic}
+                              <span className="tnum font-mono text-ink-3/70">{list.length}</span>
+                            </div>
                           </td>
                         </tr>
                         {!topCollapsed && list.map((rel) => editingId === rel.id ? (
