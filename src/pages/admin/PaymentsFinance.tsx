@@ -2,7 +2,8 @@ import { useMemo } from 'react'
 import { Banknote, TrendingUp, Users, Repeat, CircleDollarSign, GraduationCap, CalendarRange, Plus, Trash2, Tags } from 'lucide-react'
 import { finance, revenueByMonth, transactions } from '@/data/admin'
 import { adminStudents } from '@/data/students'
-import { universities, YEARS } from '@/data/universities'
+import { YEARS } from '@/data/universities'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { initialPlans, priceForTier, PLANS_STORAGE_KEY, type PlanDef } from '@/data/plans'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -22,13 +23,14 @@ import { usePersistentState } from '@/lib/usePersistentState'
 const egp = (n: number) => `EGP ${Math.round(n).toLocaleString()}`
 
 export function PaymentsFinance() {
+  const [universities] = useUniversityCatalogue()
   const [plans, setPlans] = usePersistentState<PlanDef[]>(PLANS_STORAGE_KEY, initialPlans)
 
   const byUniversity = useMemo(() => universities.map((u) => {
     const students = adminStudents.filter((s) => s.universityId === u.id)
     const revenue = students.reduce((n, s) => n + priceForTier(plans, s.plan), 0)
     return { id: u.id, short: u.short, name: u.name, students: students.length, revenue, arpu: students.length ? revenue / students.length : 0 }
-  }).sort((a, b) => b.revenue - a.revenue), [plans])
+  }).sort((a, b) => b.revenue - a.revenue), [plans, universities])
 
   const byYear = useMemo(() => YEARS.map((y) => {
     const students = adminStudents.filter((s) => s.year === y)

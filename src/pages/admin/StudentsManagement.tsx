@@ -8,7 +8,7 @@ import { Avatar } from '@/components/ui/Avatar'
 import { SearchInput } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { cn } from '@/lib/cn'
-import { universities } from '@/data/universities'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { adminStudents, type AdminStudent, type StudentStatus } from '@/data/students'
 
 function statusTone(s: StudentStatus): 'success' | 'accent' | 'warning' | 'danger' {
@@ -16,6 +16,7 @@ function statusTone(s: StudentStatus): 'success' | 'accent' | 'warning' | 'dange
 }
 
 export function StudentsManagement() {
+  const [universities] = useUniversityCatalogue()
   const [scope, setScope] = useState<string>('all') // 'all' | uniId | uniId:year
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
   const [query, setQuery] = useState('')
