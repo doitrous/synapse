@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { CalendarDays, Plus, X, Trash2, MapPin, Building2, SlidersHorizontal, Pencil, Check, Upload } from 'lucide-react'
 import type { CurriculumCourse } from '@/data/universities'
 import { newUniversityYears, defaultModuleId } from '@/data/universities'
@@ -177,9 +178,7 @@ export function AcademicSetup() {
         description="Manage universities, years, terms, modules, curricula, and teaching schedules — each year carries a unique year_ID and each module a unique module_ID."
         actions={
           <>
-            <Button variant="secondary" size="md" iconLeft={Upload} onClick={() => setImportOpen(true)}>
-              Bulk import
-            </Button>
+            <Link to="/admin/academic/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link>
             <Button variant="primary" size="md" iconLeft={Plus} onClick={() => setAddingUni((v) => !v)}>
               Add university
             </Button>

@@ -385,7 +385,7 @@ export function ConceptsSetup() {
       <PageHeader
         title="Concepts"
         description="Concepts are the smallest assessable objectives. Author each one's definition, pitfalls, curriculum placement, weighting, and relationships. Definitions surface in a question — stem and answers — only after the student reveals the answer."
-        actions={<Button variant="secondary" size="md" iconLeft={Upload} onClick={() => { setImporting(true); setReport(null); setImportText('') }}>Bulk import</Button>}
+        actions={<Link to="/admin/concepts/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link>}
       />
 
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)]">
