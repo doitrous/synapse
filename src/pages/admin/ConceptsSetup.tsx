@@ -346,6 +346,11 @@ export function ConceptsSetup() {
       if (existing.has(id) || additions.some((a) => a.id === id)) { skipped++; return }
       const topic = libraryTopics.find((t) => t.id === fields.topic || t.title.toLowerCase() === (fields.topic ?? '').toLowerCase())
       const status = (['active', 'inactive', 'under review'].includes(fields.status) ? fields.status : 'active') as Concept['status']
+      const examWeightByYear = (fields.exam_weight_by_year ?? '').split(/[|\n;]/).map((p) => p.trim()).filter(Boolean).reduce<Record<string, number>>((acc, pair) => {
+        const [yr, w] = pair.split('=').map((s) => s.trim())
+        const n = num01(w); if (yr && n !== undefined) acc[yr] = n
+        return acc
+      }, {})
       additions.push({
         id, label,
         aliases: (fields.aliases ?? '').split(/[,\n]/).map((a) => a.trim()).filter(Boolean),
@@ -355,9 +360,16 @@ export function ConceptsSetup() {
         articleIds: topic ? topic.subtopics.map((s) => s.id) : [],
         subjectId: fields.subject || topic?.subjectId,
         topicId: topic?.id,
+        // Single-source taxonomy placement (visible IDs), if provided.
+        systemId: fields.system || undefined,
+        topicTagId: fields.topic_id || undefined,
+        subtopicId: fields.subtopic || undefined,
+        microtopicId: fields.microtopic || undefined,
+        nanotopicId: fields.nanotopic || undefined,
         blueprintWeight: num01(fields.blueprint_weight),
         clinicalRelevance: num01(fields.clinical_relevance),
         academicRelevance: num01(fields.academic_relevance),
+        examWeightByYear: Object.keys(examWeightByYear).length ? examWeightByYear : undefined,
         relatedArticleIds: topic ? topic.subtopics.map((s) => s.id) : [],
       })
     })
@@ -366,7 +378,7 @@ export function ConceptsSetup() {
     setReport({ added: additions.length, skipped, errors })
   }
 
-  const importTemplate = `# One concept per block, separated by ---\n## label\nAnion gap\n## subject\nrenal\n## topic\nacidbase\n## definition\nThe calculated difference between measured serum cations and anions, used to classify metabolic acidosis.\n## pitfalls\nForgetting to calculate the anion gap in every metabolic acidosis.\n## aliases\nAG\n## status\nactive\n## blueprint_weight\n0.6\n## clinical_relevance\n0.7\n## academic_relevance\n0.8\n---\n## label\nAnother concept\n...`
+  const importTemplate = `# One concept per block, separated by ---\n## label\nAnion gap\n## subject\nrenal\n## topic\nacidbase\n## subtopic\nSUB_ACID_BASE\n## microtopic\nMIC_ANION_GAP\n## nanotopic\nNAN_DELTA_GAP\n## definition\nThe calculated difference between measured serum cations and anions, used to classify metabolic acidosis.\n## pitfalls\nForgetting to calculate the anion gap in every metabolic acidosis.\n## aliases\nAG\n## status\nactive\n## blueprint_weight\n0.6\n## clinical_relevance\n0.7\n## academic_relevance\n0.8\n## exam_weight_by_year\nHU_Y2=0.6 | HU_Y3=0.4\n---\n## label\nAnother concept\n...`
 
   return (
     <PageContainer>
@@ -559,7 +571,7 @@ export function ConceptsSetup() {
               <ol className="list-inside list-decimal space-y-1 text-[12.5px] text-ink-2">
                 <li>One concept per block; separate blocks with a line containing only <code className="rounded bg-inset px-1 font-mono text-[11px]">---</code>.</li>
                 <li>Each field is a <code className="font-mono text-[11px]">## fieldname</code> line followed by its value. <b>label</b> is required.</li>
-                <li>Fields: label, id, subject, topic, definition, pitfalls, aliases, status, blueprint_weight, clinical_relevance, academic_relevance.</li>
+                <li>Fields: label, id, subject, topic, subtopic (SUB_*), microtopic (MIC_*), nanotopic (NAN_*), definition, pitfalls, aliases, status, blueprint_weight, clinical_relevance, academic_relevance, exam_weight_by_year (e.g. HU_Y2=0.6 | HU_Y3=0.4).</li>
                 <li>Press <b>Import</b> — you'll get a batch report of added, skipped (duplicates), and rejected blocks.</li>
               </ol>
               <Field label="Concepts">
