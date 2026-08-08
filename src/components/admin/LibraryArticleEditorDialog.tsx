@@ -19,6 +19,7 @@ import { Badge } from '@/components/ui/Badge'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { ChapterMark } from '@/components/ui/ChapterMark'
+import { useTaxonomyTree } from '@/data/taxonomyStore'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
@@ -82,6 +83,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
   const [relationType, setRelationType] = useState<ConceptRelationType>('associated_with')
   const graphRef = useRef(graph)
   graphRef.current = graph
+  const [taxonomy] = useTaxonomyTree()
 
   useEffect(() => {
     if (!open) return
@@ -104,6 +106,10 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
 
   const data = draft.articleData ?? blankArticleData()
   const subject = getSubject(draft.subjectId)
+  // Single-source taxonomy (Subjects & Topics) → cascading pickers.
+  const sysNode = taxonomy.find((s) => s.id === draft.subjectId)
+  const topicNode = sysNode?.topics.find((t) => t.title === draft.fields.Topic)
+  const subNode = topicNode?.subs.find((su) => su.subId === data.subtopicId)
   const questionItems = contentItems.filter((content) => content.kind === 'question')
   const resourceItems = contentItems.filter((content) => content.kind === 'resource')
   const hasBody = (data.sections ?? []).some((s) => s.heading.trim() || s.body.trim()) || data.body.trim()
@@ -160,7 +166,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
         <div className="flex min-h-0 flex-1 flex-col overflow-y-auto lg:grid lg:grid-cols-[16rem_minmax(0,1fr)_21rem] lg:overflow-hidden">
           <aside className="order-2 border-b border-line bg-surface p-4 lg:order-none lg:overflow-y-auto lg:border-b-0 lg:border-r">
             <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Article settings</p>
-            <div className="space-y-4"><Field label="Subject" htmlFor="article-subject"><Select id="article-subject" value={draft.subjectId} onChange={(event) => setDraft((current) => ({ ...current, subjectId: event.target.value }))}>{subjects.map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</Select></Field><Field label="Chapter" htmlFor="article-topic"><TextInput id="article-topic" value={draft.fields.Topic ?? ''} onChange={(event) => setDraft((current) => ({ ...current, fields: { ...current.fields, Topic: event.target.value } }))} /></Field><Field label="Reading time" htmlFor="article-reading"><TextInput id="article-reading" type="number" min={1} value={draft.fields['Reading time'] ?? '8'} onChange={(event) => setDraft((current) => ({ ...current, fields: { ...current.fields, 'Reading time': event.target.value } }))} /></Field><Field label="Content owner" htmlFor="article-owner"><TextInput id="article-owner" value={draft.owner} onChange={(event) => setDraft((current) => ({ ...current, owner: event.target.value }))} /></Field></div>
+            <div className="space-y-4"><Field label="Subject" htmlFor="article-subject"><Select id="article-subject" value={draft.subjectId} onChange={(event) => setDraft((current) => ({ ...current, subjectId: event.target.value }))}>{subjects.map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</Select></Field><Field label="Chapter (Topic)" htmlFor="article-topic" hint="From Subjects & Topics"><Select id="article-topic" value={draft.fields.Topic ?? ''} onChange={(event) => { setDraft((current) => ({ ...current, fields: { ...current.fields, Topic: event.target.value } })); updateData((current) => ({ ...current, subtopicId: undefined, microtopicId: undefined })) }}><option value="">— Select topic —</option>{sysNode?.topics.map((tp) => <option key={tp.id} value={tp.title}>{tp.title}</option>)}{draft.fields.Topic && !sysNode?.topics.some((tp) => tp.title === draft.fields.Topic) && <option value={draft.fields.Topic}>{draft.fields.Topic} (legacy)</option>}</Select></Field><Field label="Reading time" htmlFor="article-reading"><TextInput id="article-reading" type="number" min={1} value={draft.fields['Reading time'] ?? '8'} onChange={(event) => setDraft((current) => ({ ...current, fields: { ...current.fields, 'Reading time': event.target.value } }))} /></Field><Field label="Content owner" htmlFor="article-owner"><TextInput id="article-owner" value={draft.owner} onChange={(event) => setDraft((current) => ({ ...current, owner: event.target.value }))} /></Field></div>
 
             {/* Scope & concept tags */}
             <div className="mt-6 border-t border-line pt-5">
@@ -172,8 +178,8 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               <div className="mt-3 space-y-2.5">
                 <Field label="Module ID(s)" htmlFor="article-modules" hint="Comma-separated."><TextInput id="article-modules" value={(data.moduleIds ?? []).join(', ')} onChange={(event) => updateData((current) => ({ ...current, moduleIds: event.target.value.split(',').map((s) => s.trim()).filter(Boolean) }))} placeholder="cvs, MOD_CVS" /></Field>
                 <div className="grid grid-cols-2 gap-2">
-                  <Field label="Subtopic ID" htmlFor="article-sub"><TextInput id="article-sub" value={data.subtopicId ?? ''} onChange={(event) => updateData((current) => ({ ...current, subtopicId: event.target.value }))} placeholder="SUB_*" /></Field>
-                  <Field label="Microtopic ID" htmlFor="article-mic"><TextInput id="article-mic" value={data.microtopicId ?? ''} onChange={(event) => updateData((current) => ({ ...current, microtopicId: event.target.value }))} placeholder="MIC_*" /></Field>
+                  <Field label="Subtopic" htmlFor="article-sub" hint="From Subjects & Topics"><Select id="article-sub" value={data.subtopicId ?? ''} disabled={!topicNode} onChange={(event) => updateData((current) => ({ ...current, subtopicId: event.target.value || undefined, microtopicId: undefined }))}><option value="">— None —</option>{topicNode?.subs.map((su) => <option key={su.id} value={su.subId}>{su.title}</option>)}{data.subtopicId && !topicNode?.subs.some((su) => su.subId === data.subtopicId) && <option value={data.subtopicId}>{data.subtopicId} (legacy)</option>}</Select></Field>
+                  <Field label="Microtopic" htmlFor="article-mic" hint="From Subjects & Topics"><Select id="article-mic" value={data.microtopicId ?? ''} disabled={!subNode} onChange={(event) => updateData((current) => ({ ...current, microtopicId: event.target.value || undefined }))}><option value="">— None —</option>{subNode?.micros.map((mi) => <option key={mi.id} value={mi.micId}>{mi.title}</option>)}{data.microtopicId && !subNode?.micros.some((mi) => mi.micId === data.microtopicId) && <option value={data.microtopicId}>{data.microtopicId} (legacy)</option>}</Select></Field>
                 </div>
               </div>
             </div>
