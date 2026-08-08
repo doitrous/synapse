@@ -46,6 +46,7 @@ import { PracticalEditorDialog } from '@/components/admin/PracticalEditorDialog'
 import { ResourceEditorDialog } from '@/components/admin/ResourceEditorDialog'
 import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
+import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
@@ -138,6 +139,25 @@ function relativeUpdated(value: string) {
   return `${Math.floor(hours / 24)}d ago`
 }
 
+/** Click-to-rename inline label used for editable topic subheaders. */
+function EditableLabel({ value, onSave, className }: { value: string; onSave: (v: string) => void; className?: string }) {
+  const [editing, setEditing] = useState(false)
+  const [v, setV] = useState(value)
+  if (editing) {
+    return (
+      <input
+        autoFocus value={v}
+        onChange={(e) => setV(e.target.value)}
+        onClick={(e) => e.stopPropagation()}
+        onBlur={() => { setEditing(false); if (v.trim() && v !== value) onSave(v.trim()) }}
+        onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); if (e.key === 'Escape') { setV(value); setEditing(false) } }}
+        className="rounded border border-accent bg-surface px-1 py-0.5 text-[11px] uppercase text-ink outline-none"
+      />
+    )
+  }
+  return <button type="button" onClick={(e) => { e.stopPropagation(); setV(value); setEditing(true) }} title="Rename topic" className={cn('rounded px-1 hover:bg-inset', className)}>{value}</button>
+}
+
 export interface QuestionScope { universityId?: string; year?: string }
 /** Alias kept for readability at resource call sites. */
 export type ContentScope = QuestionScope
@@ -146,6 +166,9 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   const activeScope = scope ?? questionScope
   const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [taxonomy, setTaxonomy] = useTaxonomyTree()
+  const [addingTopicFor, setAddingTopicFor] = useState<string | null>(null)
+  const [newTopicName, setNewTopicName] = useState('')
   const [kind, setKind] = useState<ContentKind>(initialKind)
   const [status, setStatus] = useState<Status | 'All'>('All')
   const [query, setQuery] = useState('')
@@ -244,6 +267,26 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     setEditorOpen(false)
     setEditing(null)
     setNotice(exists ? `${CONTENT_KIND_LABEL[next.kind].singular} updated.` : `${CONTENT_KIND_LABEL[next.kind].singular} added as ${next.status.toLowerCase()}.`)
+  }
+
+  const isTaxonomyKind = activeKind === 'question' || activeKind === 'article'
+
+  /** Rename a topic group: retag every item in it and rename the taxonomy node. */
+  function renameTopic(subjectId: string, oldLabel: string, newLabel: string) {
+    if (!newLabel.trim() || newLabel === oldLabel) return
+    setItems((cur) => cur.map((it) => it.kind === activeKind && it.subjectId === subjectId && (it.fields.Topic || 'Other') === oldLabel ? { ...it, fields: { ...it.fields, Topic: newLabel } } : it))
+    const topic = taxonomy.find((s) => s.id === subjectId)?.topics.find((t) => t.title === oldLabel)
+    if (topic) setTaxonomy((tree) => renameTaxonomyNode(tree, 'topic', topic.id, newLabel))
+    setNotice(`Topic renamed to “${newLabel}”.`)
+  }
+
+  /** Add a topic to a subject in the single-source taxonomy. */
+  function addTopic(subjectId: string) {
+    const name = newTopicName.trim()
+    if (!name) return
+    setTaxonomy((tree) => addTaxTopic(tree, subjectId, name))
+    setAddingTopicFor(null); setNewTopicName('')
+    setNotice(`Topic “${name}” added to Subjects & Topics.`)
   }
 
   function sendForReview(item: ManagedContentItem) {
@@ -361,14 +404,29 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                           {group.icon && <Icon icon={group.icon === 'video' ? PlayCircle : FileText} size={15} className="text-accent" />}
                           <span className="text-[13px] font-semibold text-ink">{group.label}</span>
                           <span className="tnum font-mono text-[11px] text-ink-3">{group.count}</span>
+                          {isTaxonomyKind && group.color && (
+                            <span role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setAddingTopicFor(addingTopicFor === group.key ? null : group.key); setNewTopicName('') }} className="ms-auto inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-[11px] font-medium text-ink-3 hover:bg-inset hover:text-accent-strong"><Icon icon={Plus} size={12} />Add topic</span>
+                          )}
                         </button>
                       </td>
                     </tr>
+                    {isTaxonomyKind && addingTopicFor === group.key && (
+                      <tr><td colSpan={5} className="px-4 py-2 ps-10">
+                        <form className="flex items-center gap-2" onSubmit={(e) => { e.preventDefault(); addTopic(group.key) }}>
+                          <SearchInput value={newTopicName} onChange={(e) => setNewTopicName(e.target.value)} placeholder="New topic name…" className="w-64" />
+                          <Button type="submit" variant="primary" size="sm">Add</Button>
+                          <Button type="button" variant="ghost" size="sm" onClick={() => setAddingTopicFor(null)}>Cancel</Button>
+                        </form>
+                      </td></tr>
+                    )}
                     {!groupCollapsed && group.subs.map((sub) => (
                       <Fragment key={sub.key}>
                         <tr className="bg-surface-2/25">
                           <td colSpan={5} className="px-4 py-1.5 ps-10 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-                            {sub.label} <span className="tnum ms-1 font-mono text-ink-3/70">{sub.items.length}</span>
+                            {isTaxonomyKind
+                              ? <EditableLabel value={sub.label} onSave={(v) => renameTopic(group.key, sub.label, v)} className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3" />
+                              : sub.label}
+                            <span className="tnum ms-1 font-mono text-ink-3/70">{sub.items.length}</span>
                           </td>
                         </tr>
                         {sub.items.map((item) => {
