@@ -168,6 +168,11 @@ export function ConceptsSetup() {
   const [nPlacement, setNPlacement] = useState<TaxonomyPlacement>({})
   const [nAliases, setNAliases] = useState('')
   const [nDef, setNDef] = useState('')
+  const [nPitfalls, setNPitfalls] = useState('')
+  const [nStatus, setNStatus] = useState<Concept['status']>('active')
+  const [nBlueprint, setNBlueprint] = useState('')
+  const [nClinical, setNClinical] = useState('')
+  const [nAcademic, setNAcademic] = useState('')
 
   /** Article IDs implied by a placement's deepest node (for auto-linking). */
   const articleIdsFor = (p: TaxonomyPlacement): string[] => {
@@ -304,11 +309,17 @@ export function ConceptsSetup() {
     if (!label) return
     const id = `med.concept.${slug(label)}`
     if (graph.concepts.some((c) => c.id === id)) return
+    const clamp = (v: string) => { const n = Number(v); return Number.isFinite(n) && v.trim() ? Math.min(1, Math.max(0, n)) : undefined }
     const concept: Concept = {
       id,
       label,
       aliases: nAliases.split(',').map((a) => a.trim()).filter(Boolean),
       definition: nDef.trim(),
+      pitfalls: nPitfalls.trim() || undefined,
+      status: nStatus,
+      blueprintWeight: clamp(nBlueprint),
+      clinicalRelevance: clamp(nClinical),
+      academicRelevance: clamp(nAcademic),
       articleIds: articleIdsFor(nPlacement),
       subjectId: nPlacement.subjectId,
       systemId: nPlacement.systemId,
@@ -319,7 +330,7 @@ export function ConceptsSetup() {
     }
     setGraph((g) => ({ ...g, concepts: [concept, ...g.concepts] }))
     setCreating(false)
-    setNLabel(''); setNAliases(''); setNDef(''); setNPlacement({})
+    setNLabel(''); setNAliases(''); setNDef(''); setNPlacement({}); setNPitfalls(''); setNStatus('active'); setNBlueprint(''); setNClinical(''); setNAcademic('')
     selectConcept(concept)
   }
 
@@ -553,6 +564,27 @@ export function ConceptsSetup() {
               <Field label="Definition / note">
                 <Textarea value={nDef} onChange={(e) => setNDef(e.target.value)} placeholder="Write the definition or note…" />
               </Field>
+              <Field label="Common pitfall" hint="A trap shown as a warning in the concept card.">
+                <Textarea value={nPitfalls} onChange={(e) => setNPitfalls(e.target.value)} placeholder="What do students get wrong here?" className="min-h-[3.5rem]" />
+              </Field>
+              <div className="grid grid-cols-2 gap-3">
+                <Field label="Status">
+                  <Select value={nStatus ?? 'active'} onChange={(e) => setNStatus(e.target.value as Concept['status'])}>
+                    <option value="active">Active</option>
+                    <option value="under review">Under review</option>
+                    <option value="inactive">Inactive</option>
+                  </Select>
+                </Field>
+                <Field label="Blueprint weight (0–1)">
+                  <TextInput type="number" min={0} max={1} step={0.05} value={nBlueprint} onChange={(e) => setNBlueprint(e.target.value)} placeholder="0.5" />
+                </Field>
+                <Field label="Clinical relevance (0–1)">
+                  <TextInput type="number" min={0} max={1} step={0.05} value={nClinical} onChange={(e) => setNClinical(e.target.value)} placeholder="0.5" />
+                </Field>
+                <Field label="Academic relevance (0–1)">
+                  <TextInput type="number" min={0} max={1} step={0.05} value={nAcademic} onChange={(e) => setNAcademic(e.target.value)} placeholder="0.5" />
+                </Field>
+              </div>
             </div>
             <div className="flex items-center justify-end gap-2 border-t border-line bg-surface-2/40 px-5 py-3">
               <Button variant="ghost" onClick={() => setCreating(false)}>Cancel</Button>
