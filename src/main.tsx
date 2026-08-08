@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router'
 import { I18nProvider } from './lib/i18n'
+import { ErrorBoundary } from './components/shell/ErrorBoundary'
 
 // Self-hosted variable fonts (Fontsource) — offline, no external requests.
 import '@fontsource-variable/source-serif-4'
@@ -12,8 +13,10 @@ import './index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <I18nProvider>
-      <RouterProvider router={router} />
-    </I18nProvider>
+    <ErrorBoundary>
+      <I18nProvider>
+        <RouterProvider router={router} />
+      </I18nProvider>
+    </ErrorBoundary>
   </StrictMode>,
 )
