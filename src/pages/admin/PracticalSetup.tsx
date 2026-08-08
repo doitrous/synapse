@@ -23,7 +23,7 @@ export function PracticalSetup() {
 
   return (
     <div className="flex min-h-[calc(100dvh-4rem)] flex-col lg:flex-row">
-      <aside className="shrink-0 border-b border-line bg-surface-2/40 p-3 lg:w-64 lg:border-b-0 lg:border-e">
+      <aside className="max-h-[45vh] shrink-0 overflow-y-auto border-b border-line bg-surface-2/40 p-3 lg:max-h-none lg:w-64 lg:overflow-visible lg:border-b-0 lg:border-e">
         <button
           type="button"
           onClick={() => { setSelection({}); setOpenUni(null) }}
