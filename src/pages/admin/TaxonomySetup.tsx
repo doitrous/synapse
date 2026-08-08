@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Field, TextInput, Textarea } from '@/components/ui/Field'
 import { SystemBadge } from '@/components/ui/SystemBadge'
+import { useSystemColor, setSystemColor, SYSTEM_COLOR_PALETTE } from '@/data/systemColors'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { taxonomyTree, systemId, topicIdOf, subtopicIdOf, microtopicIdOf, nanotopicIdOf } from '@/data/taxonomy'
@@ -90,6 +91,29 @@ function AddInline({ placeholder, onAdd }: { placeholder: string; onAdd: (value:
     <div className="flex items-center gap-1.5">
       <TextInput value={v} onChange={(e) => setV(e.target.value)} placeholder={placeholder} className="h-8 text-[12.5px]" onKeyDown={(e) => { if (e.key === 'Enter' && v.trim()) { onAdd(v.trim()); setV('') } }} />
       <Button type="button" size="sm" variant="secondary" iconLeft={Plus} onClick={() => { if (v.trim()) { onAdd(v.trim()); setV('') } }}>Add</Button>
+    </div>
+  )
+}
+
+/** Colored system badge that opens a swatch palette to recolour the system. */
+function SystemColorControl({ systemId, short }: { systemId: string; short: string }) {
+  const color = useSystemColor(systemId)
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="relative">
+      <button type="button" onClick={() => setOpen((o) => !o)} title="Change colour" className="rounded-[7px] outline-offset-2 hover:outline hover:outline-1 hover:outline-line-2">
+        <SystemBadge short={short} color={color} />
+      </button>
+      {open && (
+        <>
+          <button type="button" className="fixed inset-0 z-10" aria-label="Close" onClick={() => setOpen(false)} />
+          <div className="absolute start-0 top-8 z-20 flex w-40 flex-wrap gap-1.5 rounded-lg border border-line bg-surface p-2 shadow-pop">
+            {SYSTEM_COLOR_PALETTE.map((c) => (
+              <button key={c} type="button" onClick={() => { setSystemColor(systemId, c); setOpen(false) }} className={cn('size-6 rounded-md border', color.toLowerCase() === c.toLowerCase() ? 'border-ink' : 'border-line-2')} style={{ backgroundColor: c }} aria-label={`Set colour ${c}`} />
+            ))}
+          </div>
+        </>
+      )}
     </div>
   )
 }
@@ -203,7 +227,7 @@ export function TaxonomySetup() {
             <Panel key={sys.id} className="overflow-hidden">
               <div className="flex items-center gap-2 border-b border-line bg-surface-2/50 px-3 py-2.5">
                 <button onClick={() => toggle(sk)} className="grid size-6 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={15} className={cn('transition-transform', (open[sk] ?? true) && 'rotate-90')} /></button>
-                <SystemBadge short={sys.short} />
+                <SystemColorControl systemId={sys.id} short={sys.short} />
                 <Editable value={sys.name} onSave={(v) => renameSystem(sys.id, v)} className="text-[14px] font-semibold text-ink" />
                 <Id value={sys.sysId} />
                 <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{sys.topics.length} topics</span>
