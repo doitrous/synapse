@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Network, Plus, Trash2, ChevronRight, RotateCcw, Hash, Upload, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -209,7 +210,7 @@ export function TaxonomySetup() {
       <PageHeader
         title="Subjects & Topics"
         description="The single source of the curriculum taxonomy — Systems → Topics → Subtopics → Microtopics → Nanotopics. Names are click-to-rename; each level gets a unique, visible ID (never reused) that concepts, questions, articles, and resources tag against."
-        actions={<><Button variant="secondary" size="md" iconLeft={Upload} onClick={() => { setImporting(true); setReport(null); setImportText('') }}>Bulk import</Button><Button variant="secondary" size="md" iconLeft={RotateCcw} onClick={() => setTree(seed())}>Reset</Button></>}
+        actions={<><Link to="/admin/taxonomy/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link><Button variant="secondary" size="md" iconLeft={RotateCcw} onClick={() => setTree(seed())}>Reset</Button></>}
       />
 
       <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-5">

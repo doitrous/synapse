@@ -38,6 +38,7 @@ import { ResourcesSetup } from '@/pages/admin/ResourcesSetup'
 import { PracticalSetup } from '@/pages/admin/PracticalSetup'
 import { ConceptsImportPage } from '@/pages/admin/ConceptsImportPage'
 import { AcademicImportPage } from '@/pages/admin/AcademicImportPage'
+import { SubjectsImportPage } from '@/pages/admin/SubjectsImportPage'
 
 // Surfaces that are built get their real component; the rest render the
 // intentional Placeholder. Adding a surface = one entry here.
@@ -134,7 +135,7 @@ export const router = createBrowserRouter([
   {
     path: '/admin',
     element: <AppShell portal="admin" />,
-    children: [{ index: true, element: <ControlDashboard /> }, { path: 'import/:kind', element: <BulkImportPage /> }, { path: 'concepts/import', element: <ConceptsImportPage /> }, { path: 'academic/import', element: <AcademicImportPage /> }, ...adminRoutes],
+    children: [{ index: true, element: <ControlDashboard /> }, { path: 'import/:kind', element: <BulkImportPage /> }, { path: 'concepts/import', element: <ConceptsImportPage /> }, { path: 'academic/import', element: <AcademicImportPage /> }, { path: 'taxonomy/import', element: <SubjectsImportPage /> }, ...adminRoutes],
   },
   { path: '*', element: <NotFound /> },
 ])
