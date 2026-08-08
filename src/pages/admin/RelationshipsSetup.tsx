@@ -1,13 +1,16 @@
 import { useMemo, useState } from 'react'
-import { Plus, Trash2, ArrowRight, Upload, Search, CircleCheck, TriangleAlert, Tag } from 'lucide-react'
+import { Plus, Trash2, ArrowRight, Upload, Search, CircleCheck, TriangleAlert, Tag, Pencil, Check, X } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
+import { SubjectDot } from '@/components/ui/Subject'
 import { Field, SearchInput, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { subjects } from '@/data/student'
+import { libraryTopics } from '@/data/library'
 import { cn } from '@/lib/cn'
 import {
   CONCEPT_STORAGE_KEY,
@@ -37,19 +40,52 @@ export function RelationshipsSetup() {
   const [importing, setImporting] = useState(false)
   const [importText, setImportText] = useState('')
   const [report, setReport] = useState<{ added: number; skipped: number; errors: string[] } | null>(null)
+  const [editingId, setEditingId] = useState<string | null>(null)
+  const [editDraft, setEditDraft] = useState<{ sourceId: string; type: string; targetId: string }>({ sourceId: '', type: '', targetId: '' })
 
   const conceptLabel = (id: string) => graph.concepts.find((c) => c.id === id)?.label ?? id
   const conceptOptions = [...graph.concepts].sort((a, b) => a.label.localeCompare(b.label))
 
+  // Map each concept to its System (subject), for sorting by source system.
+  const subjectOfArticle = useMemo(() => {
+    const m: Record<string, string> = {}
+    libraryTopics.forEach((t) => t.subtopics.forEach((s) => { m[s.id] = t.subjectId }))
+    return m
+  }, [])
+  const knownSubjects = useMemo(() => new Set(subjects.map((s) => s.id)), [])
+  const conceptSubject = (id: string): string => {
+    const c = graph.concepts.find((x) => x.id === id)
+    return c?.subjectId || c?.articleIds?.map((a) => subjectOfArticle[a]).find(Boolean) || ''
+  }
+
   const rows = useMemo(() => {
     const q = query.trim().toLowerCase()
-    return graph.relations.filter((rel) => {
-      if (filterType !== 'all' && rel.type !== filterType) return false
-      if (!q) return true
-      return `${conceptLabel(rel.sourceId)} ${rel.type} ${conceptLabel(rel.targetId)} ${rel.sourceId} ${rel.targetId}`.toLowerCase().includes(q)
-    })
+    return graph.relations
+      .filter((rel) => {
+        if (filterType !== 'all' && rel.type !== filterType) return false
+        if (!q) return true
+        return `${conceptLabel(rel.sourceId)} ${rel.type} ${conceptLabel(rel.targetId)} ${rel.sourceId} ${rel.targetId}`.toLowerCase().includes(q)
+      })
+      // Sort by the system of the source concept, then by source, then target.
+      .sort((a, b) => {
+        const sa = conceptSubject(a.sourceId) || 'zzz'
+        const sb = conceptSubject(b.sourceId) || 'zzz'
+        if (sa !== sb) return sa.localeCompare(sb)
+        const la = conceptLabel(a.sourceId).localeCompare(conceptLabel(b.sourceId))
+        return la !== 0 ? la : conceptLabel(a.targetId).localeCompare(conceptLabel(b.targetId))
+      })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [graph.relations, query, filterType, graph.concepts])
+
+  function startEdit(rel: ConceptGraph['relations'][number]) {
+    setEditingId(rel.id)
+    setEditDraft({ sourceId: rel.sourceId, type: rel.type, targetId: rel.targetId })
+  }
+  function saveEdit() {
+    if (!editingId || !editDraft.sourceId || !editDraft.targetId || editDraft.sourceId === editDraft.targetId) { setEditingId(null); return }
+    setGraph((g) => ({ ...g, relations: g.relations.map((r) => r.id === editingId ? { ...r, sourceId: editDraft.sourceId, type: editDraft.type as ConceptRelationType, targetId: editDraft.targetId } : r) }))
+    setEditingId(null)
+  }
 
   function addRelation() {
     const tgts = targets.filter((t) => t && t !== source)
@@ -220,14 +256,27 @@ export function RelationshipsSetup() {
         <Table>
           <thead><tr><Th className="pl-4">Source</Th><Th>Relation</Th><Th>Target</Th><Th align="right" className="pr-4">Actions</Th></tr></thead>
           <tbody>
-            {rows.map((rel) => (
-              <Tr key={rel.id} hover>
-                <Td className="pl-4 font-medium">{conceptLabel(rel.sourceId)}</Td>
-                <Td><span className="inline-flex items-center gap-1.5"><Badge tone="accent">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span></Td>
-                <Td className="text-ink-2">{conceptLabel(rel.targetId)}</Td>
-                <Td align="right" className="pr-4"><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)}>Remove</Button></Td>
-              </Tr>
-            ))}
+            {rows.map((rel) => {
+              const sys = conceptSubject(rel.sourceId)
+              if (editingId === rel.id) {
+                return (
+                  <Tr key={rel.id}>
+                    <Td className="pl-4"><Select value={editDraft.sourceId} onChange={(e) => setEditDraft((d) => ({ ...d, sourceId: e.target.value }))} className="h-9">{conceptOptions.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
+                    <Td><Select value={editDraft.type} onChange={(e) => setEditDraft((d) => ({ ...d, type: e.target.value }))} className="h-9">{allTypes.map((rt) => <option key={rt} value={rt}>{rt}</option>)}</Select></Td>
+                    <Td><Select value={editDraft.targetId} onChange={(e) => setEditDraft((d) => ({ ...d, targetId: e.target.value }))} className="h-9">{conceptOptions.filter((c) => c.id !== editDraft.sourceId).map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
+                    <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="primary" size="sm" iconLeft={Check} onClick={saveEdit}>Save</Button><Button variant="ghost" size="sm" iconLeft={X} onClick={() => setEditingId(null)}>Cancel</Button></div></Td>
+                  </Tr>
+                )
+              }
+              return (
+                <Tr key={rel.id} hover>
+                  <Td className="pl-4 font-medium"><span className="inline-flex items-center gap-2">{sys && knownSubjects.has(sys) && <SubjectDot id={sys} />}{conceptLabel(rel.sourceId)}</span></Td>
+                  <Td><span className="inline-flex items-center gap-1.5"><Badge tone="accent">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span></Td>
+                  <Td className="text-ink-2">{conceptLabel(rel.targetId)}</Td>
+                  <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="ghost" size="sm" iconLeft={Pencil} onClick={() => startEdit(rel)}>Edit</Button><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)}>Remove</Button></div></Td>
+                </Tr>
+              )
+            })}
             {rows.length === 0 && (
               <tr><td colSpan={4} className="px-4 py-14 text-center"><Icon icon={Search} size={20} className="mx-auto text-ink-3" /><p className="mt-2 text-[13px] font-medium text-ink">No relationships</p><p className="mt-1 text-[12px] text-ink-3">Add one above or bulk-import.</p></td></tr>
             )}
