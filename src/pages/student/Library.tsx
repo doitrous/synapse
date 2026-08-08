@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams, useLocation } from 'react-router-dom'
 import {
   Clock,
   NotebookPen,
@@ -33,6 +33,7 @@ import { cn } from '@/lib/cn'
 import { formatLongDate } from '@/lib/format'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
+import { BackBar, backState } from '@/components/ui/BackBar'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
 import { useT } from '@/lib/i18n'
 import { NewArticleDialog } from '@/components/library/NewArticleDialog'
@@ -370,6 +371,7 @@ function Reader({
   query: string
 }) {
   const t = useT()
+  const location = useLocation()
   const [universityCatalogue] = useUniversityCatalogue()
   const { topics: libraryTopics, subtopics: allSubtopics, updatedAtFor } = useLiveLibrary()
   const st = allSubtopics.find((s) => s.id === id)!
@@ -382,7 +384,9 @@ function Reader({
   const isRead = Boolean(readArticles[id])
 
   return (
-    <div className="mx-auto grid max-w-[78rem] items-start gap-8 px-5 py-8 sm:px-8 lg:grid-cols-[minmax(0,46rem)_20rem] lg:py-10">
+    <div className="mx-auto max-w-[78rem] px-5 py-8 sm:px-8 lg:py-10">
+    <BackBar />
+    <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,46rem)_20rem]">
     <article>
       <nav className="flex items-center gap-2 text-[12.5px] text-ink-3">
         <span className="inline-flex items-center gap-1.5 font-medium text-ink-2">
@@ -460,9 +464,10 @@ function Reader({
       </Link>
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
         <h2 className="text-[13px] font-semibold text-ink">{t('Resources that teach it')}</h2>
-        <ul className="mt-2 divide-y divide-line">{st.resources.map((resource) => <li key={resource}><Link to={`/app/resources?q=${encodeURIComponent(resource)}`} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={FileText} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{resource}<span className="mt-0.5 block text-[10.5px] text-ink-3">{t('Open at the relevant page')}</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>)}</ul>
+        <ul className="mt-2 divide-y divide-line">{st.resources.map((resource) => <li key={resource}><Link to={`/app/resources?q=${encodeURIComponent(resource)}`} state={backState(location, t('Back to reading'))} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={FileText} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{resource}<span className="mt-0.5 block text-[10.5px] text-ink-3">{t('Open at the relevant page')}</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>)}</ul>
       </section>
     </aside>
+    </div>
     <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
     </div>
   )

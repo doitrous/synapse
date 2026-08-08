@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import { backState } from '@/components/ui/BackBar'
 import {
   ArrowLeft,
   ArrowRight,
@@ -99,6 +100,7 @@ function Header({
 /* ---- OSCE runner ------------------------------------------------------- */
 
 function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
+  const location = useLocation()
   const authored = useMemo(() => authoredPractical(target.id), [target.id])
   const staticDetail = getOsceDetail(target.id)
   const detail = authored?.format === 'osce' ? {
@@ -196,7 +198,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
             </Panel>
             <div className="overflow-hidden rounded-lg border border-line bg-surface text-left">
               <p className="px-3 pt-2.5 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Read around it</p>
-              <ul className="mt-1.5 divide-y divide-line px-3 pb-1">{(detail.references ?? ['Clinical examination guide', 'Relevant system guideline']).map((reference) => <li key={reference}><Link to={`/app/resources?q=${encodeURIComponent(reference)}`} className="group flex items-center gap-2 py-2 text-[11.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-6 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={13} /></span><span className="min-w-0 flex-1">{reference}</span><Icon icon={ExternalLink} size={12} className="text-ink-3" /></Link></li>)}</ul>
+              <ul className="mt-1.5 divide-y divide-line px-3 pb-1">{(detail.references ?? ['Clinical examination guide', 'Relevant system guideline']).map((reference) => <li key={reference}><Link to={`/app/resources?q=${encodeURIComponent(reference)}`} state={backState(location, 'Back to case')} className="group flex items-center gap-2 py-2 text-[11.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-6 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={13} /></span><span className="min-w-0 flex-1">{reference}</span><Icon icon={ExternalLink} size={12} className="text-ink-3" /></Link></li>)}</ul>
             </div>
           </div>
         }
@@ -277,6 +279,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 /* ---- Case runner ------------------------------------------------------- */
 
 function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
+  const location = useLocation()
   const authored = useMemo(() => authoredPractical(target.id), [target.id])
   const staticDetail = getCaseDetail(target.id)
   const detail = authored?.format === 'case' ? {
@@ -307,7 +310,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
           <div className="border-b border-line px-5 py-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent">Case debrief</p><h2 className="mt-1 font-serif text-[22px] font-semibold text-ink">See the debrief</h2><p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink-2">{detail.debrief ?? 'The case rewards a structured approach, early treatment of immediate threats, and decisions that remain coherent as new information arrives.'}</p></div>
           <div className="divide-y divide-line px-5">{stages.map((decision, decisionIndex) => <div key={decision.title} className="grid gap-2 py-4 sm:grid-cols-[9rem_1fr]"><p className="font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Decision {decisionIndex + 1}</p><div><p className="text-[13px] font-medium text-ink">{decision.prompt}</p><p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">{decision.answer}</p></div></div>)}</div>
         </Panel>
-        <Panel className="mt-4 p-4"><h3 className="text-[13px] font-semibold text-ink">Read around it</h3><ul className="mt-2 divide-y divide-line">{(detail.references ?? ['Relevant clinical guideline']).map((reference) => <li key={reference}><Link to={`/app/resources?q=${encodeURIComponent(reference)}`} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{reference}<span className="mt-0.5 block text-[10.5px] text-ink-3">Open at the relevant page</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>)}</ul><Button className="mt-4" variant="primary" onClick={onExit}>Finish case</Button></Panel>
+        <Panel className="mt-4 p-4"><h3 className="text-[13px] font-semibold text-ink">Read around it</h3><ul className="mt-2 divide-y divide-line">{(detail.references ?? ['Relevant clinical guideline']).map((reference) => <li key={reference}><Link to={`/app/resources?q=${encodeURIComponent(reference)}`} state={backState(location, 'Back to case')} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{reference}<span className="mt-0.5 block text-[10.5px] text-ink-3">Open at the relevant page</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>)}</ul><Button className="mt-4" variant="primary" onClick={onExit}>Finish case</Button></Panel>
       </div>
     )
   }

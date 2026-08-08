@@ -35,6 +35,7 @@ import type { Resource } from '@/data/resources'
 import { Button } from '@/components/ui/Button'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
+import { BackBar } from '@/components/ui/BackBar'
 import { useT } from '@/lib/i18n'
 
 const TYPE_ICON: Record<ResourceType, LucideIcon> = {
@@ -117,6 +118,7 @@ export function Resources() {
 
   return (
     <PageContainer>
+      <BackBar />
       <PageHeader
         title={t('Resources')}
         description={t('Every book, video, guideline, and deck — filter by subject and type, and save what you use.')}

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams, useLocation } from 'react-router-dom'
+import { backState } from '@/components/ui/BackBar'
 import {
   ListChecks,
   Clock,
@@ -65,6 +66,7 @@ const MAX_QUESTIONS = 40
 
 export function QuestionBank() {
   const t = useT()
+  const location = useLocation()
   const questions = usePublishedQuestions()
   const [params] = useSearchParams()
   const articleFilter = params.get('article')
@@ -555,6 +557,7 @@ export function QuestionBank() {
                 <Link
                   key={r.id}
                   to={`/app/library?s=${r.id}`}
+                  state={backState(location, t('Back to question'))}
                   className="inline-flex items-center gap-1.5 rounded-md border border-accent-line bg-accent-tint/60 px-2.5 py-1.5 text-[12.5px] font-medium text-accent-strong transition-colors hover:bg-accent-tint"
                 >
                   <Icon icon={BookOpen} size={14} />
@@ -564,7 +567,8 @@ export function QuestionBank() {
               {q.resourceRefs.map((r) => (
                 <Link
                   key={r}
-                  to="/app/resources"
+                  to={`/app/resources?q=${encodeURIComponent(r.split(' · ')[0])}`}
+                  state={backState(location, t('Back to question'))}
                   className="inline-flex items-center gap-1.5 rounded-md border border-line bg-surface px-2.5 py-1.5 text-[12.5px] text-ink-2 transition-colors hover:text-ink"
                 >
                   <Icon icon={FileText} size={14} className="text-ink-3" />
