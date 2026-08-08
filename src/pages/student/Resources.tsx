@@ -11,6 +11,8 @@ import {
   ExternalLink,
   FileText,
   Clapperboard,
+  ChevronRight,
+  Folder,
   X,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
@@ -32,6 +34,7 @@ import { SubjectDot } from '@/components/ui/Subject'
 import type { Resource } from '@/data/resources'
 import { Button } from '@/components/ui/Button'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
+import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 const TYPE_ICON: Record<ResourceType, LucideIcon> = {
@@ -51,6 +54,8 @@ export function Resources() {
   const [universityCatalogue] = useUniversityCatalogue()
   const [params] = useSearchParams()
   const [section, setSection] = useState<'pdf' | 'video'>('pdf')
+  const [groupBy, setGroupBy] = useState<'system' | 'module'>('system')
+  const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const [query, setQuery] = useState(params.get('q') ?? '')
   const [type, setType] = useState<ResourceType | 'all'>('all')
   const [subject, setSubject] = useState('all')
@@ -58,6 +63,7 @@ export function Resources() {
   const [year, setYear] = useState('all')
   const [savedOnly, setSavedOnly] = useState(false)
   const [opened, setOpened] = useState<Resource | null>(null)
+  const toggleFolder = (key: string) => setCollapsed((prev) => { const next = new Set(prev); if (next.has(key)) next.delete(key); else next.add(key); return next })
   const [lastOpenedId, setLastOpenedId] = useState<string | null>(null)
   const [saved, setSaved] = useState<Set<string>>(
     () => new Set(resources.filter((r) => r.saved).map((r) => r.id)),
@@ -75,19 +81,28 @@ export function Resources() {
 
   const pdfItems = base.filter((r) => r.type !== 'Video' && (type === 'all' || r.type === type))
   const videoItems = base.filter((r) => r.type === 'Video')
+  const sectionItems = section === 'video' ? videoItems : pdfItems
 
-  // Group videos by subject → chapter, preserving the catalogue subject order.
-  const videoGroups = subjects
-    .map((subj) => {
-      const subjVideos = videoItems.filter((v) => v.subjectId === subj.id)
-      const chapters = new Map<string, Resource[]>()
-      subjVideos.forEach((v) => {
-        const key = v.chapter ?? t('Other')
-        chapters.set(key, [...(chapters.get(key) ?? []), v])
-      })
-      return { subj, chapters: [...chapters.entries()] }
+  // Folder tree: primary (System or Module) → subfolder (chapter) → items.
+  const tree = (() => {
+    const primaryOrder = groupBy === 'system' ? subjects.map((s) => s.id) : []
+    const primaries = new Map<string, typeof sectionItems>()
+    sectionItems.forEach((r) => {
+      const key = groupBy === 'system' ? r.subjectId : (r.modules[0] ?? '__none__')
+      primaries.set(key, [...(primaries.get(key) ?? []), r])
     })
-    .filter((g) => g.chapters.length > 0)
+    const keys = groupBy === 'system'
+      ? primaryOrder.filter((k) => primaries.has(k))
+      : [...primaries.keys()].sort((a, b) => (a === '__none__' ? 1 : b === '__none__' ? -1 : a.localeCompare(b)))
+    return keys.map((pkey) => {
+      const items = primaries.get(pkey)!
+      const label = groupBy === 'system' ? getSubject(pkey).name : (pkey === '__none__' ? t('No module') : pkey)
+      const subjectId = groupBy === 'system' ? pkey : items[0]?.subjectId
+      const subs = new Map<string, typeof sectionItems>()
+      items.forEach((r) => { const sk = r.chapter ?? t('General'); subs.set(sk, [...(subs.get(sk) ?? []), r]) })
+      return { pkey, label, subjectId, count: items.length, subfolders: [...subs.entries()] }
+    })
+  })()
 
   function toggleSaved(id: string) {
     setSaved((prev) => {
@@ -107,16 +122,28 @@ export function Resources() {
         description={t('Every book, video, guideline, and deck — filter by subject and type, and save what you use.')}
       />
 
-      {/* Section switch: PDFs vs Videos */}
-      <div className="mb-4">
-        <Segmented
-          value={section}
-          onChange={(v) => setSection(v as 'pdf' | 'video')}
-          items={[
-            { value: 'pdf', label: t('PDFs') },
-            { value: 'video', label: t('Videos') },
-          ]}
-        />
+      {/* Prominent Files / Videos switch + organize-by control */}
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <div className="inline-flex rounded-xl border border-line bg-surface-2/60 p-1 shadow-panel">
+          {([['pdf', t('Files'), FileText], ['video', t('Videos'), Clapperboard]] as const).map(([val, label, icon]) => (
+            <button
+              key={val}
+              type="button"
+              onClick={() => setSection(val)}
+              className={cn(
+                'inline-flex items-center gap-2 rounded-lg px-4 py-2 text-[13.5px] font-semibold transition-colors',
+                section === val ? 'bg-surface text-accent-strong shadow-panel' : 'text-ink-3 hover:text-ink',
+              )}
+            >
+              <Icon icon={icon} size={16} />
+              {label}
+            </button>
+          ))}
+        </div>
+        <label className="inline-flex items-center gap-2 text-[12.5px] text-ink-2">
+          {t('Organize by')}
+          <Segmented value={groupBy} onChange={(v) => setGroupBy(v as 'system' | 'module')} items={[{ value: 'system', label: t('System') }, { value: 'module', label: t('Module') }]} />
+        </label>
       </div>
 
       {/* Filter bar */}
@@ -178,98 +205,98 @@ export function Resources() {
           : count === 1 ? t('resource') : t('resources')}
       </p>
 
-      {section === 'pdf' ? (
+      {tree.length === 0 ? (
         <Panel>
-          {pdfItems.length === 0 ? (
-            <EmptyState icon={FileText} title={t('No resources match')} description={t('Try clearing a filter or searching for something else.')} />
-          ) : (
-            <ul className="divide-y divide-line">
-              {pdfItems.map((r) => {
-                const subj = getSubject(r.subjectId)
-                const isSaved = saved.has(r.id)
-                return (
-                  <li key={r.id} className="group flex items-center gap-3 px-3 py-3 transition-colors hover:bg-inset/60 sm:px-4">
-                    <span className="grid size-10 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2">
-                      <Icon icon={TYPE_ICON[r.type]} size={18} />
-                    </span>
-                    <div className="min-w-0 flex-1">
-                      <div className="flex flex-wrap items-center gap-2">
-                        <span className="truncate text-[14px] font-medium text-ink">{r.title}</span>
-                        {r.recommended && <Badge tone="accent">{t('Recommended')}</Badge>}
-                        {lastOpenedId === r.id && <Badge tone="success">{t('Opened')} · {r.meta}</Badge>}
-                      </div>
-                      <div className="mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[12px] text-ink-3">
-                        <span className="inline-flex items-center gap-1.5"><SubjectDot id={subj.id} />{subj.name}</span>
-                        <span>·</span>
-                        <span>{r.source}</span>
-                        <span>·</span>
-                        <span>{r.meta}</span>
-                        <span className="hidden sm:inline">·</span>
-                        <span className="tnum hidden sm:inline">{r.year}</span>
-                      </div>
-                    </div>
-                    <div className="hidden shrink-0 items-center gap-1 lg:flex">
-                      <span className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-3">{scopeYear(r.subjectId).replace('Year ', 'Y')}</span>
-                      {scopeUniversities(r.id).map((id) => (
-                        <span key={id} className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-3">{universityFrom(universityCatalogue, id)?.short}</span>
-                      ))}
-                    </div>
-                    <span className="hidden shrink-0 rounded bg-inset px-1.5 py-0.5 text-[10.5px] font-medium text-ink-2 md:inline">{t(r.type)}</span>
-                    <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
-                    <IconButton icon={ExternalLink} label={t('Open resource')} size="sm" variant="surface" className="transition-opacity lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100" onClick={() => setOpened(r)} />
-                  </li>
-                )
-              })}
-            </ul>
-          )}
-        </Panel>
-      ) : videoGroups.length === 0 ? (
-        <Panel>
-          <EmptyState icon={Clapperboard} title={t('No videos match')} description={t('Try clearing a filter or searching for something else.')} />
+          <EmptyState icon={section === 'video' ? Clapperboard : FileText} title={section === 'video' ? t('No videos match') : t('No resources match')} description={t('Try clearing a filter or searching for something else.')} />
         </Panel>
       ) : (
-        <div className="space-y-5">
-          {videoGroups.map(({ subj, chapters }) => (
-            <section key={subj.id}>
-              <div className="mb-2 flex items-center gap-2">
-                <SubjectDot id={subj.id} />
-                <h2 className="font-serif text-[16px] font-semibold text-ink">{subj.name}</h2>
-                <span className="tnum font-mono text-[11px] text-ink-3">{chapters.reduce((n, [, list]) => n + list.length, 0)}</span>
-              </div>
-              <div className="space-y-4">
-                {chapters.map(([chapter, list]) => (
-                  <div key={chapter}>
-                    <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{chapter}</p>
-                    <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
-                      {list.map((r) => {
-                        const isSaved = saved.has(r.id)
-                        return (
-                          <div key={r.id} className="group flex flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel transition-colors hover:border-accent-line">
-                            <button
-                              type="button"
-                              onClick={() => setOpened(r)}
-                              className="relative flex aspect-video items-center justify-center bg-surface-2 text-ink-3 transition-colors group-hover:bg-accent-tint/30"
-                              aria-label={`${t('Open resource')}: ${r.title}`}
-                            >
-                              <Icon icon={PlayCircle} size={34} className="text-accent/80 transition-transform group-hover:scale-110" />
-                              <span className="tnum absolute bottom-1.5 end-1.5 rounded bg-ink/75 px-1.5 py-0.5 font-mono text-[10px] font-medium text-white">{r.meta}</span>
-                            </button>
-                            <div className="flex flex-1 items-start gap-2 p-3">
-                              <div className="min-w-0 flex-1">
-                                <p className="line-clamp-2 text-[13px] font-medium leading-snug text-ink">{r.title}</p>
-                                <p className="mt-1 flex items-center gap-1.5 text-[11.5px] text-ink-3">{r.source} · {r.year}{r.recommended && <Badge tone="accent">{t('Recommended')}</Badge>}</p>
-                              </div>
-                              <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
+        <div className="space-y-3">
+          {tree.map((folder) => {
+            const folderKey = `${section}-${groupBy}-${folder.pkey}`
+            const isCollapsed = collapsed.has(folderKey)
+            return (
+              <Panel key={folderKey} className="overflow-hidden">
+                <button type="button" onClick={() => toggleFolder(folderKey)} aria-expanded={!isCollapsed} className="flex w-full items-center gap-2.5 border-b border-line bg-surface-2/50 px-3 py-2.5 text-start hover:bg-inset/60 sm:px-4">
+                  <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !isCollapsed && 'rotate-90')} />
+                  {folder.subjectId && <SubjectDot id={folder.subjectId} />}
+                  <h2 className="font-serif text-[15.5px] font-semibold text-ink">{folder.label}</h2>
+                  <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{folder.count}</span>
+                </button>
+                {!isCollapsed && (
+                  <div className="divide-y divide-line">
+                    {folder.subfolders.map(([subLabel, list]) => {
+                      const subKey = `${folderKey}::${subLabel}`
+                      const subCollapsed = collapsed.has(subKey)
+                      return (
+                        <div key={subKey}>
+                          <button type="button" onClick={() => toggleFolder(subKey)} aria-expanded={!subCollapsed} className="flex w-full items-center gap-2 px-4 py-2 text-start ps-8 hover:bg-inset/50">
+                            <Icon icon={Folder} size={13} className="text-ink-3" />
+                            <span className="text-[11.5px] font-semibold uppercase tracking-[0.06em] text-ink-2">{subLabel}</span>
+                            <span className="tnum ms-1 font-mono text-[10.5px] text-ink-3">{list.length}</span>
+                          </button>
+                          {!subCollapsed && (section === 'video' ? (
+                            <div className="grid gap-2 px-4 pb-3 ps-8 sm:grid-cols-2 xl:grid-cols-3">
+                              {list.map((r) => {
+                                const isSaved = saved.has(r.id)
+                                return (
+                                  <div key={r.id} className="group flex flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel transition-colors hover:border-accent-line">
+                                    <button type="button" onClick={() => setOpened(r)} className="relative flex aspect-video items-center justify-center bg-surface-2 text-ink-3 transition-colors group-hover:bg-accent-tint/30" aria-label={`${t('Open resource')}: ${r.title}`}>
+                                      <Icon icon={PlayCircle} size={34} className="text-accent/80 transition-transform group-hover:scale-110" />
+                                      <span className="tnum absolute bottom-1.5 end-1.5 rounded bg-ink/75 px-1.5 py-0.5 font-mono text-[10px] font-medium text-white">{r.meta}</span>
+                                    </button>
+                                    <div className="flex flex-1 items-start gap-2 p-3">
+                                      <div className="min-w-0 flex-1">
+                                        <p className="line-clamp-2 text-[13px] font-medium leading-snug text-ink">{r.title}</p>
+                                        <p className="mt-1 flex items-center gap-1.5 text-[11.5px] text-ink-3">{r.source} · {r.year}{r.recommended && <Badge tone="accent">{t('Recommended')}</Badge>}</p>
+                                      </div>
+                                      <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
+                                    </div>
+                                  </div>
+                                )
+                              })}
                             </div>
-                          </div>
-                        )
-                      })}
-                    </div>
+                          ) : (
+                            <ul className="pb-1">
+                              {list.map((r) => {
+                                const subj = getSubject(r.subjectId)
+                                const isSaved = saved.has(r.id)
+                                return (
+                                  <li key={r.id} className="group flex items-center gap-3 px-4 py-2.5 ps-8 transition-colors hover:bg-inset/60">
+                                    <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={TYPE_ICON[r.type]} size={16} /></span>
+                                    <div className="min-w-0 flex-1">
+                                      <div className="flex flex-wrap items-center gap-2">
+                                        <span className="truncate text-[13.5px] font-medium text-ink">{r.title}</span>
+                                        {r.recommended && <Badge tone="accent">{t('Recommended')}</Badge>}
+                                        {lastOpenedId === r.id && <Badge tone="success">{t('Opened')} · {r.meta}</Badge>}
+                                      </div>
+                                      <div className="mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11.5px] text-ink-3">
+                                        <span className="inline-flex items-center gap-1.5"><SubjectDot id={subj.id} />{subj.name}</span>
+                                        <span>·</span><span>{r.source}</span><span>·</span><span>{r.meta}</span>
+                                        <span className="hidden sm:inline">·</span><span className="tnum hidden sm:inline">{r.year}</span>
+                                      </div>
+                                    </div>
+                                    <div className="hidden shrink-0 items-center gap-1 lg:flex">
+                                      <span className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-3">{scopeYear(r.subjectId).replace('Year ', 'Y')}</span>
+                                      {scopeUniversities(r.id).map((id) => (
+                                        <span key={id} className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-3">{universityFrom(universityCatalogue, id)?.short}</span>
+                                      ))}
+                                    </div>
+                                    <span className="hidden shrink-0 rounded bg-inset px-1.5 py-0.5 text-[10.5px] font-medium text-ink-2 md:inline">{t(r.type)}</span>
+                                    <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
+                                    <IconButton icon={ExternalLink} label={t('Open resource')} size="sm" variant="surface" onClick={() => setOpened(r)} />
+                                  </li>
+                                )
+                              })}
+                            </ul>
+                          ))}
+                        </div>
+                      )
+                    })}
                   </div>
-                ))}
-              </div>
-            </section>
-          ))}
+                )}
+              </Panel>
+            )
+          })}
         </div>
       )}
 
