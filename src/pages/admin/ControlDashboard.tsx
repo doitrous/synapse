@@ -108,15 +108,22 @@ function buildGroups(kind: ContentKind, rows: ManagedContentItem[], resourceTab:
       .sort((a, b) => (PRACTICAL_TYPE_ORDER.indexOf(a) + 1 || 99) - (PRACTICAL_TYPE_ORDER.indexOf(b) + 1 || 99))
       .map((type) => ({ key: type, label: type, count: types.get(type)!.length, subs: bySubjectSubgroups(types.get(type)!) }))
   }
-  // resource → the active Files/Videos tab, grouped by module (subject)
+  // resource → the active Files/Videos tab, grouped by subject → chapter (topic)
   const bucketItems = rows.filter((r) => (resourceTab === 'Videos' ? r.fields.Type === 'Video' : r.fields.Type !== 'Video'))
-  return bySubjectSubgroups(bucketItems).map((sub) => ({
-    key: sub.key,
-    label: sub.label,
-    color: getSubject(sub.key).color,
-    count: sub.items.length,
-    subs: [{ key: `${sub.key}-all`, label: resourceTab, items: sub.items }],
-  }))
+  return bySubjectSubgroups(bucketItems).map((sub) => {
+    const byChapter = new Map<string, ManagedContentItem[]>()
+    sub.items.forEach((r) => {
+      const ch = r.fields.Chapter?.trim() || r.resourceData?.chapters?.[0] || 'General'
+      byChapter.set(ch, [...(byChapter.get(ch) ?? []), r])
+    })
+    return {
+      key: sub.key,
+      label: sub.label,
+      color: getSubject(sub.key).color,
+      count: sub.items.length,
+      subs: [...byChapter.entries()].map(([label, items]) => ({ key: `${sub.key}::${label}`, label, items })),
+    }
+  })
 }
 
 function itemSummary(item: ManagedContentItem) {
@@ -269,15 +276,27 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     setNotice(exists ? `${CONTENT_KIND_LABEL[next.kind].singular} updated.` : `${CONTENT_KIND_LABEL[next.kind].singular} added as ${next.status.toLowerCase()}.`)
   }
 
-  const isTaxonomyKind = activeKind === 'question' || activeKind === 'article'
+  const isTaxonomyKind = activeKind === 'question' || activeKind === 'article' || activeKind === 'resource'
+  // The field a group's topic label maps to: chapter for resources, Topic otherwise.
+  const topicField = activeKind === 'resource' ? 'Chapter' : 'Topic'
 
-  /** Rename a topic group: retag every item in it and rename the taxonomy node. */
+  /** Rename a topic/chapter group: retag every item in it and rename the taxonomy node. */
   function renameTopic(subjectId: string, oldLabel: string, newLabel: string) {
     if (!newLabel.trim() || newLabel === oldLabel) return
-    setItems((cur) => cur.map((it) => it.kind === activeKind && it.subjectId === subjectId && (it.fields.Topic || 'Other') === oldLabel ? { ...it, fields: { ...it.fields, Topic: newLabel } } : it))
+    setItems((cur) => cur.map((it) => {
+      if (it.kind !== activeKind || it.subjectId !== subjectId) return it
+      const current = it.fields[topicField]?.trim() || (activeKind === 'resource' ? it.resourceData?.chapters?.[0] : '') || (activeKind === 'resource' ? 'General' : 'Other')
+      if (current !== oldLabel) return it
+      const nextFields = { ...it.fields, [topicField]: newLabel }
+      if (activeKind === 'resource' && it.resourceData) {
+        const chapters = (it.resourceData.chapters ?? []).map((c) => (c === oldLabel ? newLabel : c))
+        return { ...it, fields: nextFields, resourceData: { ...it.resourceData, chapters: chapters.length ? chapters : [newLabel] } }
+      }
+      return { ...it, fields: nextFields }
+    }))
     const topic = taxonomy.find((s) => s.id === subjectId)?.topics.find((t) => t.title === oldLabel)
     if (topic) setTaxonomy((tree) => renameTaxonomyNode(tree, 'topic', topic.id, newLabel))
-    setNotice(`Topic renamed to “${newLabel}”.`)
+    setNotice(`${activeKind === 'resource' ? 'Chapter' : 'Topic'} renamed to “${newLabel}”.`)
   }
 
   /** Add a topic to a subject in the single-source taxonomy. */
