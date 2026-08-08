@@ -1,5 +1,6 @@
 import { UNIVERSITY_CATALOGUE_STORAGE_KEY, universities, type University } from '@/data/universities'
 import { usePersistentState } from './usePersistentState'
+import { seedOr } from './api'
 
 export { UNIVERSITY_CATALOGUE_STORAGE_KEY }
 
@@ -15,7 +16,7 @@ export function cloneUniversityCatalogue(list: University[] = universities): Uni
 
 /** The single persistent source used by Academic Setup and every university selector. */
 export function useUniversityCatalogue() {
-  return usePersistentState<University[]>(UNIVERSITY_CATALOGUE_STORAGE_KEY, () => cloneUniversityCatalogue())
+  return usePersistentState<University[]>(UNIVERSITY_CATALOGUE_STORAGE_KEY, () => seedOr(() => cloneUniversityCatalogue(), () => []))
 }
 
 export function universityFrom(catalogue: University[], id: string) {

@@ -1,3 +1,5 @@
+import { API_MODE } from '@/lib/api'
+
 export type MessageStatus = 'Queued' | 'Sent' | 'Delivered' | 'Opened' | 'Bounced' | 'Failed' | 'Received'
 export type MessageDirection = 'outbound' | 'inbound'
 
@@ -17,7 +19,7 @@ export const EMAIL_LOG_STORAGE_KEY = 'synapse-email-log-v1'
 
 const ago = (h: number) => new Date(Date.now() - h * 3_600_000).toISOString()
 
-export const initialEmailLog: EmailMessage[] = [
+export const initialEmailLog: EmailMessage[] = API_MODE ? [] : [
   { id: 'em-1', direction: 'outbound', to: 'maya.adeyemi@oms.edu', from: 'no-reply@synapse.app', subject: 'Welcome to Synapse', automation: 'Welcome to Synapse', status: 'Delivered', at: ago(1.5), provider: 'Resend' },
   { id: 'em-2', direction: 'outbound', to: 'sam.okoro@oms.edu', from: 'no-reply@synapse.app', subject: 'Your assessment result is ready', automation: 'Your assessment result is ready', status: 'Opened', at: ago(3), provider: 'Resend' },
   { id: 'em-3', direction: 'outbound', to: 'priya.nair@mms.edu', from: 'billing@synapse.app', subject: 'Synapse Payment Receipt', automation: 'Synapse Payment Receipt', status: 'Sent', at: ago(5), provider: 'Resend' },

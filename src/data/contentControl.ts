@@ -1,4 +1,5 @@
 import type { Status } from './admin'
+import { API_MODE } from '@/lib/api'
 import { libraryTopicMeta, questionMeta } from './admin'
 import { libraryTopics } from './library'
 import { osceStations, clinicalCases, skills, labImaging } from './practical'
@@ -212,6 +213,7 @@ const practicalStatus = (index: number): Status => ['Published', 'Published', 'D
 
 /** Seed the writable admin ledger from the same content the student app ships with. */
 export function initialManagedContent(): ManagedContentItem[] {
+  if (API_MODE) return [] // live mode: start empty, hydrate real content from the backend
   const answerLabels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
   const questionItems: ManagedContentItem[] = questions.map((question, index) => ({
     id: question.id,

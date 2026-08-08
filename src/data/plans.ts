@@ -1,4 +1,5 @@
 import { universities, YEARS } from './universities'
+import { API_MODE } from '@/lib/api'
 import type { PlanTier } from './students'
 
 export interface PlanDef {
@@ -17,7 +18,7 @@ export interface PlanDef {
 
 export const PLANS_STORAGE_KEY = 'synapse-plans-v1'
 
-export const initialPlans: PlanDef[] = [
+export const initialPlans: PlanDef[] = API_MODE ? [] : [
   { id: 'free', name: 'Free', priceEGP: 0, priceLabel: 'EGP 0', active: true, universityIds: [], years: [] },
   { id: 'qbank', name: 'QBank', priceEGP: 99, priceLabel: 'EGP 99 / mo · 249 / 3mo · 799 / yr', active: true, universityIds: [], years: [] },
   { id: 'adaptive', name: 'Adaptive', priceEGP: 199, priceLabel: 'EGP 199 / mo · 499 / 3mo · 1,499 / yr', active: true, universityIds: [], years: [] },

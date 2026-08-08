@@ -1,4 +1,5 @@
 import { scopeForSubtopic } from './taxonomy'
+import { API_MODE } from '@/lib/api'
 
 export const CONCEPT_RELATIONS = [
   'related_concepts',
@@ -89,6 +90,7 @@ export interface ConceptAnnotation {
 }
 
 export function initialConceptGraph(): ConceptGraph {
+  if (API_MODE) return { concepts: [], relations: [] } // live mode: authored in-app, stored in backend
   const concepts: Concept[] = [
     { id: 'med.concept.heart-failure', label: 'Heart failure', aliases: ['HF', 'HFrEF', 'HFpEF'], definition: 'A clinical syndrome caused by structural or functional impairment of ventricular filling or ejection.', articleIds: ['hf-patho', 'hf-class', 'hf-mgmt'] },
     { id: 'med.concept.sympathetic-activation', label: 'Sympathetic activation', aliases: ['sympathetic drive'], definition: 'A compensatory neurohormonal response that raises rate and contractility but promotes adverse remodelling when chronic.', articleIds: ['hf-patho'] },

@@ -1,4 +1,5 @@
 import { usePersistentState } from '@/lib/usePersistentState'
+import { API_MODE } from '@/lib/api'
 import { taxonomyTree, systemId, topicIdOf, subtopicIdOf, microtopicIdOf, nanotopicIdOf } from '@/data/taxonomy'
 
 export const TAXONOMY_STORAGE_KEY = 'synapse-taxonomy-tree-v3'
@@ -20,6 +21,7 @@ const DEMO_MICROS: Record<string, Record<string, string[]>> = {
 }
 
 export function seedTaxonomy(): TaxSysNode[] {
+  if (API_MODE) return [] // live mode: taxonomy is authored in-app and stored in the backend
   return taxonomyTree().map((s) => ({
     id: s.id, name: s.name, short: s.short, sysId: s.sysId,
     topics: s.topics.map((t) => ({

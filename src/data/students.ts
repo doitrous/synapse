@@ -1,4 +1,5 @@
 import { universities } from './universities'
+import { API_MODE } from '@/lib/api'
 
 export type StudentStatus = 'Active' | 'Trial' | 'Lapsed' | 'Suspended'
 export type PlanTier = 'Free' | 'QBank' | 'Adaptive' | 'Adaptive add-on' | 'Exam Sprint'
@@ -28,7 +29,7 @@ function pick<T>(arr: T[], seed: number): T {
 }
 
 /** Deterministic demo roster spread across universities and years. */
-export const adminStudents: AdminStudent[] = (() => {
+export const adminStudents: AdminStudent[] = API_MODE ? [] : (() => {
   const out: AdminStudent[] = []
   let n = 0
   universities.forEach((uni, ui) => {

@@ -1,3 +1,5 @@
+import { API_MODE } from '@/lib/api'
+
 export type ReportContentKind = 'question' | 'library article' | 'image'
 export type ReportStatus = 'Open' | 'In review' | 'Resolved' | 'Dismissed'
 export type ReporterRole = 'Student' | 'Admin'
@@ -26,7 +28,7 @@ export const reportCategories: Record<ReportContentKind, string[]> = {
   image: ['Image does not load', 'Poor image quality', 'Incorrect label or annotation', 'Image does not match the question', 'Other'],
 }
 
-export const initialContentReports: ContentReport[] = [
+export const initialContentReports: ContentReport[] = API_MODE ? [] : [
   {
     id: 'report-seed-1',
     contentKind: 'question',
