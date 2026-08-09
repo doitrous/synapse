@@ -19,6 +19,7 @@ import {
   Languages,
   Clapperboard,
   Mail,
+  Inbox,
   Banknote,
   LifeBuoy,
   Settings,
@@ -105,6 +106,7 @@ export const adminNav: NavGroup[] = [
     label: 'Operations',
     items: [
       { label: 'Email & Automations', to: '/admin/email', icon: Mail },
+      { label: 'Mail Box', to: '/admin/mailbox', icon: Inbox },
       { label: 'Student Notifications', to: '/admin/notifications', icon: BellRing },
       { label: 'Students', to: '/admin/students', icon: Users },
       { label: 'Payments & Finance', to: '/admin/payments', icon: Banknote },

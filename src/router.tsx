@@ -39,6 +39,7 @@ import { PracticalSetup } from '@/pages/admin/PracticalSetup'
 import { ConceptsImportPage } from '@/pages/admin/ConceptsImportPage'
 import { AcademicImportPage } from '@/pages/admin/AcademicImportPage'
 import { SubjectsImportPage } from '@/pages/admin/SubjectsImportPage'
+import { MailBox } from '@/pages/admin/MailBox'
 
 // Surfaces that are built get their real component; the rest render the
 // intentional Placeholder. Adding a surface = one entry here.
@@ -72,6 +73,7 @@ const adminBuilt: Record<string, ReactElement> = {
   vouchers: <VoucherManagement />,
   payments: <PaymentsFinance />,
   email: <EmailAutomations />,
+  mailbox: <MailBox />,
   privacy: <PrivacySupport />,
   settings: <AdminSettings />,
   audit: <AuditSecurity />,
@@ -106,6 +108,7 @@ const adminPaths = [
   'notifications',
   'vouchers',
   'email',
+  'mailbox',
   'payments',
   'privacy',
   'settings',

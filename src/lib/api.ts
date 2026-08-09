@@ -32,6 +32,21 @@ export const apiPut = <T>(path: string, body: unknown) => apiSend<T>(path, 'PUT'
 export const apiPost = <T>(path: string, body?: unknown) => apiSend<T>(path, 'POST', body)
 export const apiDelete = <T>(path: string) => apiSend<T>(path, 'DELETE')
 
+/** Fetch a binary path (with auth) and trigger a browser download. */
+export async function apiDownload(path: string, filename: string): Promise<void> {
+  const res = await fetch(`${BASE}${path}`, { headers: headers() })
+  if (!res.ok) throw new Error(`GET ${path} → ${res.status}`)
+  const blob = await res.blob()
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = filename
+  document.body.appendChild(a)
+  a.click()
+  a.remove()
+  URL.revokeObjectURL(url)
+}
+
 /** Read a state document by key. Returns null when unset. */
 export async function getState<T>(key: string): Promise<T | null> {
   try { const r = await apiGet<{ value: T | null }>(`/state/${encodeURIComponent(key)}`); return r.value }
