@@ -1,117 +1,82 @@
-# Go-live, step by step (Coolify)
+# Go-live, step by step (Coolify) — single app + MariaDB
 
-You deploy **two things** into the same Coolify Project → Environment as your
-MariaDB, so they share the private network:
+You only need **two resources**, which is exactly what you have:
 
-1. **The API** (`server/`) — talks to MariaDB + Resend.
-2. **The SPA** (this repo root) — the website; talks only to the API.
+1. **One Application** (this repo) that serves **both the website and the API**.
+2. **MariaDB**.
 
-Your secret values are in the repo's `.env.local` (gitignored). Open that file
-side-by-side; below, "copy `X` from `.env.local`" means the value after `X=`.
+The root `Dockerfile` builds the website and bundles it into the API container, so
+the app answers the website on `/` and the backend on `/api` from the same origin.
 
----
-
-## STEP 1 — Get the MariaDB **internal** connection details
-
-In Coolify, open your **MariaDB** resource. Look for the **connection strings**
-(usually under the resource's main page or a "Connection" section). You'll see two:
-
-- an **Internal** one (host looks like a service name, e.g. `mariadb-xxxxx` or a
-  UUID, port `3306`) ← **use this**
-- an **External/Public** one (your server IP + `8823`) ← do NOT use for the app
-
-Note the **internal host** and confirm the **internal port is 3306**.
-Database/user are `synapsedb` (from `.env.local`).
-
-> Why internal: the API runs inside Coolify next to the DB, so it reaches it over
-> the private network. That's also what lets you close the public port in Step 4.
+Your secret values are in the repo's `.env.local` (gitignored). Open it alongside
+this file; "copy `X`" = the value after `X=`.
 
 ---
 
-## STEP 2 — Deploy the API (`server/`)
+## STEP 1 — MariaDB internal connection
 
-1. Coolify → your Project → **+ New** → **Resource** → **Application** → **Public
-   Repository** (or GitHub App) → repo `omary98/synapse`, branch `main`.
-2. **Build settings**:
-   - **Base Directory**: `server`
-   - **Build Pack**: Dockerfile (Coolify auto-detects `server/Dockerfile`)
-   - **Port (Ports Exposes)**: `8080`
-3. **Environment Variables** (Application → *Environment Variables* tab → add each;
-   paste values from `.env.local`):
+Open your **MariaDB** resource in Coolify and find its **Internal** connection
+string (host looks like a service name/UUID, **port 3306**). Use that — not the
+public `188.34.198.167:8823`. Confirm the **database name** shown (your pasted
+string said `default`).
 
-   | Name | Value (where from) |
-   |------|--------------------|
-   | `DB_HOST` | the **internal host** from Step 1 |
-   | `DB_PORT` | `3306` |
-   | `DB_NAME` | `synapsedb` |
-   | `DB_USER` | `synapsedb` |
-   | `DB_PASSWORD` | copy `DB_PASSWORD` from `.env.local` |
-   | `RESEND_API_KEY` | copy `RESEND_API_KEY` (the **sending** key) from `.env.local` |
-   | `MAIL_FROM` | `synapse@mail.doitrous.com` |
-   | `API_BEARER` | make up a long random string (e.g. run `openssl rand -hex 32`) — **remember it for Step 3** |
-   | `CORS_ORIGIN` | your website URL, e.g. `https://synapse.doitrous.com` (you can fill this after Step 3 and redeploy) |
-
-4. **Deploy**. When it's up, open `https://<api-domain>/api/health` — you should
-   see `{"ok":true}`. (The schema is created automatically on first boot.)
-
-Give the API a domain in Coolify (e.g. `api.synapse.doitrous.com`) — note it for Step 3.
+Build the URL: `mysql://synapsedb:<DB_PASSWORD>@<internal-host>:3306/<dbname>`
 
 ---
 
-## STEP 3 — Deploy the SPA (repo root)
+## STEP 2 — Configure the Application (the one you already made)
 
-1. Coolify → same Project → **+ New** → **Application** → same repo, branch `main`.
-2. **Build settings**:
-   - **Base Directory**: `/` (root)
-   - **Build Pack**: **Nixpacks** (Node) — or Static
-   - **Install**: `npm ci` · **Build**: `npm run build` · **Output/Publish dir**: `dist`
-   - It's a single-page app, so enable **SPA fallback** (serve `index.html` for all
-     paths). Coolify's static option has this; the repo also ships `vercel.json` and
-     `public/_redirects` for other hosts.
-3. **Environment Variables** (these are safe to expose — they're build-time):
+Point it at this repo, branch `main`, and set:
 
-   | Name | Value |
-   |------|-------|
-   | `VITE_API_BASE` | `https://<api-domain>/api` (from Step 2, note the `/api`) |
-   | `VITE_API_TOKEN` | the **same** random string you set as `API_BEARER` |
+- **Base Directory**: `/` (root)
+- **Build Pack**: **Dockerfile** (Coolify uses the root `Dockerfile`)
+- **Port**: `8080`
+- A **domain** (e.g. `synapse.doitrous.com`).
 
-4. **Deploy**. Visit the site → it loads **empty** (no demo data), reads/writes to
-   MariaDB. Add a system in Subjects & Topics, reload → it persists. 🎉
-5. Go back to the **API** app, set `CORS_ORIGIN` to this site's URL, redeploy the API.
+**Environment variables** (Application → *Environment Variables*):
 
----
+| Name | Value | Also a build variable? |
+|------|-------|------------------------|
+| `DATABASE_URL` | the internal URL from Step 1 | no |
+| `RESEND_API_KEY` | copy the **sending** key from `.env.local` | no |
+| `MAIL_FROM` | `synapse@mail.doitrous.com` | no |
+| `API_BEARER` | a long random string (`openssl rand -hex 32`) | no |
+| `VITE_API_TOKEN` | **the same** random string as `API_BEARER` | **yes — tick "Build variable"** |
 
-## STEP 4 — Lock the public MariaDB port (8823)
+> `VITE_API_TOKEN` must be available **at build time** (it's baked into the
+> website's JS so it can call your API). In Coolify, mark it as a *Build Variable*
+> (or *Build Time*). `VITE_API_BASE` is already hardcoded to `/api` in the
+> Dockerfile — you don't set it. `CORS_ORIGIN` isn't needed (same origin).
 
-Now that the API uses the internal network, the public port is unnecessary — close it:
-
-1. Coolify → your **MariaDB** resource.
-2. Find where the public port was set. Depending on your Coolify version it's one of:
-   - the **"Public Port"** field (a number input showing `8823`) → **clear it (empty)** → Save, **or**
-   - a **"Make it publicly available"** / **"Enable public port"** toggle → **turn it OFF** → Save.
-   (It's on the resource's main **Configuration** page, often under a *Network* /
-   *General* section, near where you originally set `8823`.)
-3. **Redeploy / Restart** the MariaDB resource so the change takes effect.
-4. Verify it's closed: from your laptop, `nc -vz <your-server-ip> 8823` should now
-   **fail/timeout** (before, it connected). Your API keeps working because it uses
-   the internal host from Step 1.
-
-If you can't find the toggle, tell me your Coolify version (bottom of the dashboard)
-and I'll point to the exact spot.
+**Deploy.** Then:
+- `https://<your-domain>/api/health` → `{"ok":true}` (DB tables auto-create on first boot).
+- `https://<your-domain>/` → the app loads **empty** (no demo data), reads/writes MariaDB.
+  Add a system in Subjects & Topics, reload → it persists. Open **Mail Box** → compose works.
 
 ---
 
-## STEP 5 — Rotate the exposed secrets
+## STEP 3 — Close the public MariaDB port (8823)
 
-You pasted these in chat, so treat them as burned once everything works:
-- In **Resend** → API Keys → roll both keys → update `RESEND_API_KEY` in the API env.
-- In **Coolify** → MariaDB → change the DB/root passwords → update `DB_PASSWORD`
-  in the API env + your `.env.local`.
+The app now uses the internal DB host, so the public port is unnecessary:
+
+1. Coolify → **MariaDB** resource → its **Configuration** page (where you set `8823`).
+2. Either **clear the "Public Port" field** or **turn off "Make it publicly available"** → Save.
+3. **Restart** the MariaDB resource.
+4. Verify from your laptop: `nc -vz 188.34.198.167 8823` should now **time out**.
 
 ---
 
-## Mail later
-Sending works as soon as the API has `RESEND_API_KEY` (verify `mail.doitrous.com`
-is a verified domain in Resend). The **inbox** needs Resend inbound routing pointed
-at `https://<api-domain>/api/webhooks/resend/inbound`, and the admin **Mail Box UI**
-(not built yet) to read it. Say the word and I'll build that page.
+## STEP 4 — Rotate the exposed secrets
+You pasted these in chat — once everything works, roll both Resend keys and the
+DB passwords, and update `RESEND_API_KEY` / `DATABASE_URL` in the app's env.
+
+---
+
+## Mail: sending vs inbox
+- **Sending** works immediately (verify `mail.doitrous.com` is a **verified domain**
+  in Resend). Compose → Send in the Mail Box.
+- **Receiving (Inbox)** needs Resend **inbound routing** for `mail.doitrous.com`
+  pointed at `https://<your-domain>/api/webhooks/resend/inbound`. Until then the
+  Inbox is empty but Outbox, attachments, and new addresses all work.
+- **New addresses**: Mail Box → Addresses → New → e.g. `admissions` →
+  creates `admissions@mail.doitrous.com`.

@@ -1,9 +1,13 @@
 import { randomUUID } from 'node:crypto'
+import { fileURLToPath } from 'node:url'
+import { dirname, join } from 'node:path'
+import { existsSync } from 'node:fs'
 import express from 'express'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
 
+const __dirname = dirname(fileURLToPath(import.meta.url))
 const app = express()
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
 app.use(express.json({ limit: '25mb' }))
@@ -11,8 +15,10 @@ app.use(express.json({ limit: '25mb' }))
 const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 const MAIL_FROM = process.env.MAIL_FROM || 'synapse@mail.doitrous.com'
 
-/** Shared bearer-token gate (until real auth). Webhooks & health are exempt. */
+/** Shared bearer-token gate (until real auth). Only /api is gated; the served
+ *  website, health, and the inbound webhook are exempt. */
 app.use((req, res, next) => {
+  if (!req.path.startsWith('/api')) return next()
   if (req.path === '/api/health' || req.path === '/api/webhooks/resend/inbound') return next()
   const token = process.env.API_BEARER
   if (!token) return next() // no token configured → open (dev only)
@@ -176,7 +182,21 @@ app.post('/api/webhooks/resend/inbound', wrap(async (req, res) => {
   res.json({ ok: true })
 }))
 
+/* ── Serve the built SPA (single-origin deploy) ──────────────────────────────
+ * If a ../public folder exists (the Vite build, copied in by the Dockerfile),
+ * serve it and fall back to index.html for client-side routes. When it's absent
+ * (API-only deploy), these are no-ops. */
+const PUBLIC_DIR = process.env.PUBLIC_DIR || join(__dirname, '..', 'public')
+if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
+  app.use(express.static(PUBLIC_DIR, { index: false, maxAge: '1h' }))
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next()
+    res.sendFile(join(PUBLIC_DIR, 'index.html'))
+  })
+  console.log('Serving SPA from', PUBLIC_DIR)
+}
+
 const port = Number(process.env.PORT) || 8080
 migrate()
-  .then(() => app.listen(port, () => console.log(`Synapse API on :${port}`)))
+  .then(() => app.listen(port, () => console.log(`Synapse on :${port}`)))
   .catch((e) => { console.error('startup failed (DB unreachable?):', e.message); process.exit(1) })
