@@ -8,6 +8,7 @@
   "scripts": {
     "start": "node src/index.js",
     "migrate": "node src/migrate.js",
+    "medical:apply-v4": "node scripts/apply-medical-library-v4.mjs",
     "test": "node --test src/*.test.js"
   },
   "engines": {

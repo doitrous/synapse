@@ -1,10 +1,10 @@
 import { readFile, mkdir, writeFile } from 'node:fs/promises'
-import { basename, dirname, join, resolve } from 'node:path'
+import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const projectRoot = resolve(here, '..')
-const bundlePath = process.env.MEDICAL_BUNDLE_PATH || '/Users/doitrous/Documents/CodexGPT/Concepts and Questions Creation Codex/medical-library/systems/cardiovascular/reviewed-bundle.json'
+const bundlePath = process.env.MEDICAL_BUNDLE_PATH || '/Users/doitrous/Documents/CodexGPT/Concepts and Questions Creation Codex/medical-library/full-catalog.json'
 const outputPath = join(projectRoot, 'server', 'data', 'medical-library-v1.json')
 const bundle = JSON.parse(await readFile(bundlePath, 'utf8'))
 const { CURRICULUM_CATALOG, PILOT_ARTICLE_PLACEMENTS } = await import('../src/data/curriculumCatalog.ts')
@@ -37,6 +37,7 @@ const buildYears = (code) => [1, 2, 3, 4, 5].map((n) => ({ id: `${code}_Y${n}`, 
 const universities = universitySeeds.map(([id, name, short, region]) => ({ id, name, short, region, years: buildYears(short) }))
 
 const safeName = (value) => value.replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim()
+const tidyFolderName = (value) => safeName(value).replace(/^\d+\.\s*/, '').trim() || 'Miscellaneous'
 const sanitisePublicValue = (value) => {
   if (typeof value === 'string') return /(?:file:\/\/)?\/Users\//.test(value) ? undefined : value
   if (Array.isArray(value)) return value.map(sanitisePublicValue).filter((item) => item !== undefined)
@@ -45,9 +46,16 @@ const sanitisePublicValue = (value) => {
 }
 const storageKeyFor = (resource) => {
   if (!resource.source_relative_path || /^https?:/i.test(resource.source_uri || '')) return undefined
-  const institution = resource.institution === 'Kasr Alainy' ? 'KAU' : safeName(resource.institution || 'Miscellaneous')
-  const collection = resource.collection_id ? safeName(resource.collection_id.replace(/[_-]+/g, ' ')) : 'Miscellaneous'
-  return `${institution}/Cardiovascular/${collection}/${safeName(basename(resource.source_relative_path))}`
+  const institutionCodes = { 'Kasr Alainy': 'KAU', 'Ain Shams Books Drive': 'ASU', 'Alexandria Uni NewAug08': 'AU' }
+  const institution = institutionCodes[resource.institution] || safeName(resource.institution || 'Miscellaneous')
+  const parts = resource.source_relative_path.split('/').filter(Boolean)
+  const fileName = safeName(parts.pop() || resource.title || resource.id)
+  // The first source-relative folder names the university collection. The
+  // remaining hierarchy (Anatomy, Physiology/Practical, etc.) is preserved so
+  // the authenticated resource volume remains intelligible to administrators.
+  if (parts.length && /books|drive|alexandria|kasr|ain shams/i.test(parts[0])) parts.shift()
+  const folders = parts.map(tidyFolderName).filter(Boolean)
+  return [institution, ...(folders.length ? folders : ['Miscellaneous']), fileName].join('/')
 }
 
 const resources = bundle.resources.map((resource) => ({
@@ -77,16 +85,8 @@ const spanById = new Map(bundle.article_spans.map((span) => [span.id, span]))
 const claimsById = new Map(bundle.claims.map((claim) => [claim.id, claim]))
 const citationsById = new Map(bundle.citations.map((citation) => [citation.id, citation]))
 
-const placementFor = (articleId) => {
-  const target = PILOT_ARTICLE_PLACEMENTS[articleId]
-  const system = CURRICULUM_CATALOG.find((node) => node.id === 'cvs')
-  const topic = system?.topics.find((node) => node.title === target?.topicTitle)
-  const subtopic = topic?.subs.find((node) => node.title === target?.subtopicTitle)
-  if (!system || !topic || !subtopic) throw new Error(`Missing taxonomy placement for ${articleId}`)
-  return { system, topic, subtopic }
-}
-
-const canonicalPlacementSeeds = {
+const canonicalNodeIds = new Set(MEDICAL_TAXONOMY_SEED.map((node) => node.id))
+const canonicalPlacementFallbacks = {
   'ART-CVS-HEART-ORIENTATION': ['SYS-CVS-T01-S01', ['DIS-ANA-T04']],
   'ART-CVS-CHAMBERS-VALVES': ['SYS-CVS-T01-S01', ['SYS-CVS-T01-S01-M01', 'SYS-CVS-T01-S01-M02', 'DIS-ANA-T04']],
   'ART-CVS-CORONARY-CIRCULATION': ['SYS-CVS-T01-S01-M03', ['SYS-CVS-T01-S01', 'DIS-ANA-T04']],
@@ -98,15 +98,38 @@ const canonicalPlacementSeeds = {
   'ART-CVS-BLOOD-PRESSURE': ['SYS-CVS-T01-S02-M03', ['DIS-PHY-T02']],
   'ART-CVS-VASCULAR-FLOW': ['SYS-CVS-T01-S02-M02', ['DIS-PHY-T02']],
 }
-const canonicalNodeIds = new Set(MEDICAL_TAXONOMY_SEED.map((node) => node.id))
-const canonicalPlacementFor = (articleId) => {
-  const seed = canonicalPlacementSeeds[articleId]
-  if (!seed) throw new Error(`Missing canonical medical taxonomy placement for ${articleId}`)
-  const [primaryNodeId, secondaryNodeIds] = seed
+const canonicalPlacementFor = (record) => {
+  const fallbackArticleId = record.id.startsWith('ART-') ? record.id : record.related_article_ids?.[0]
+  const fallback = canonicalPlacementFallbacks[fallbackArticleId]
+  const primaryNodeId = canonicalNodeIds.has(record.primary_node_id) ? record.primary_node_id : fallback?.[0]
+  const secondaryNodeIds = [...new Set([...(record.secondary_node_ids || []), ...(fallback?.[1] || [])])].filter((nodeId) => canonicalNodeIds.has(nodeId) && nodeId !== primaryNodeId)
+  if (!primaryNodeId) throw new Error(`Missing canonical medical taxonomy placement for ${record.id}`)
   for (const nodeId of [primaryNodeId, ...secondaryNodeIds]) {
-    if (!canonicalNodeIds.has(nodeId)) throw new Error(`Unknown canonical medical taxonomy ID ${nodeId} for ${articleId}`)
+    if (!canonicalNodeIds.has(nodeId)) throw new Error(`Unknown canonical medical taxonomy ID ${nodeId} for ${record.id}`)
   }
   return { primaryNodeId, secondaryNodeIds }
+}
+
+const systemCodeFor = (recordId = '') => recordId.split('-')[1]?.toLowerCase() || 'medical'
+const legacySubjectIds = {
+  cvs: 'cvs', res: 'resp', ren: 'renal', git: 'gi', neu: 'neuro', end: 'endo', msk: 'msk',
+  inf: 'pharm', fnd: 'pharm', dev: 'medical', imm: 'medical', hem: 'medical', der: 'medical',
+  obs: 'medical', gyn: 'medical', and: 'medical',
+}
+const subjectIdFor = (record) => legacySubjectIds[systemCodeFor(record.id)] || 'medical'
+const normal = (value = '') => value.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+const legacyPlacementFor = (article) => {
+  const pilot = PILOT_ARTICLE_PLACEMENTS[article.id]
+  const system = CURRICULUM_CATALOG.find((node) => node.id === subjectIdFor(article))
+  if (!system) return { system: undefined, topic: undefined, subtopic: undefined }
+  const topic = pilot
+    ? system.topics.find((node) => node.title === pilot.topicTitle)
+    : system.topics.find((node) => normal(node.title) === normal(article.topic))
+      || system.topics.find((node) => normal(article.topic).includes(normal(node.title)) || normal(node.title).includes(normal(article.topic)))
+  const subtopic = pilot
+    ? topic?.subs.find((node) => node.title === pilot.subtopicTitle)
+    : topic?.subs.find((node) => normal(node.title) === normal(article.subtopic || article.title))
+  return { system, topic, subtopic }
 }
 
 const archetypeMap = {
@@ -165,8 +188,8 @@ const publicationGateFor = (article) => {
 }
 
 const articleItems = bundle.articles.map((article) => {
-  const place = placementFor(article.id)
-  const canonicalPlace = canonicalPlacementFor(article.id)
+  const place = legacyPlacementFor(article)
+  const canonicalPlace = canonicalPlacementFor(article)
   const sortedSections = readableSectionsFor(article)
   const publishable = article.status === 'published'
   const universityNotes = Object.entries(article.university_notes || {}).map(([name, text], index) => ({ id: `${article.id}-unote-${index + 1}`, universityId: name === 'Kasr Alainy' ? 'kau' : '', text }))
@@ -175,7 +198,8 @@ const articleItems = bundle.articles.map((article) => {
     arabicTitle: 'No reviewed Arabic title was supplied; left empty rather than translated by the model.',
     ...((article.aliases || []).length || (articleAliases[article.id] || []).length ? {} : { aliases: 'No distinct evidence-supported search alias was needed for this title.' }),
     questionIds: 'No validated question records are linked to this pilot article yet.',
-    moduleIds: 'The source names the Cardiovascular module but does not supply a verified live module ID.',
+    moduleIds: 'No verified live module ID was supplied; curriculum mapping remains explicit and unguessed.',
+    ...(place.subtopic ? {} : { subtopicId: 'No verified legacy curriculum subtopic matches this canonical medical-taxonomy placement.' }),
     microtopicId: 'The canonical medical taxonomy placement is more precise than this optional legacy curriculum overlay.',
     nanotopicId: 'No separate legacy nanotopic ID is needed; canonical placement remains the source of truth.',
     media: 'No rights-cleared, necessity-reviewed media item was supplied.',
@@ -186,12 +210,12 @@ const articleItems = bundle.articles.map((article) => {
     id: article.id,
     kind: 'article',
     title: article.title,
-    subjectId: 'cvs',
+    subjectId: subjectIdFor(article),
     status: publishable ? 'Published' : 'In review',
     owner,
     updatedAt: generatedAt,
     fields: {
-      Topic: place.topic.title,
+      Topic: article.topic || place.topic?.title || article.title,
       Summary: article.summary,
       'Reading time': String(article.reading_time || 8),
       'Content owner': owner,
@@ -223,7 +247,9 @@ const articleItems = bundle.articles.map((article) => {
       moduleIds: [],
       primaryNodeId: canonicalPlace.primaryNodeId,
       secondaryNodeIds: canonicalPlace.secondaryNodeIds,
-      subtopicId: place.subtopic.subId,
+      subtopicId: place.subtopic?.subId || null,
+      microtopicId: null,
+      nanotopicId: null,
       relatedConceptIds: article.related_concept_ids || [],
       relatedArticleIds: [...new Set([...(article.related_article_ids || []), ...(relatedArticles[article.id] || [])])],
       universityNotes,
@@ -247,51 +273,60 @@ const articleItems = bundle.articles.map((article) => {
   }
 })
 
-const resourceItems = resources.map((resource) => ({
-  id: resource.id,
-  kind: 'resource',
-  title: resource.title,
-  subjectId: 'cvs',
-  status: resource.sourceUri ? 'Published' : 'In review',
-  owner,
-  updatedAt: generatedAt,
-  fields: {
-    Type: resource.sourceUri ? 'Article' : resource.mediaType === 'pdf' ? 'Book' : 'Article',
-    Source: resource.institution || '',
-    Location: resource.storageKey || resource.sourceUri || 'Pending secure upload',
-    Year: resource.publicationDate ? String(resource.publicationDate).slice(0, 4) : '',
-    Chapter: 'Cardiovascular pilot',
-    'Processing state': resource.processingStatus,
-    'Storage state': resource.storageKey ? 'pending_upload' : 'external',
-    Rights: typeof resource.rights === 'string' ? resource.rights : JSON.stringify(resource.rights || {}),
-  },
-  resourceData: {
-    universityIds: resource.institution === 'Kasr Alainy' ? ['kau'] : [],
-    yearIds: [],
-    institution: resource.institution,
-    collectionId: resource.collectionId,
-    storageKey: resource.storageKey,
-    sha256: resource.sha256,
-    rights: typeof resource.rights === 'string' ? resource.rights : JSON.stringify(resource.rights || {}),
-    processingStatus: resource.processingStatus,
-    reviewer,
-    finalPublisher: publisher,
-    chapters: ['Cardiovascular pilot'],
-    moduleIds: [],
-    includedConceptIds: bundle.concepts.filter((concept) => (concept.atomic_claim_ids || []).some((claimId) => (claimsById.get(claimId)?.citation_ids || []).some((citationId) => citationsById.get(citationId)?.resource_id === resource.id))).map((concept) => concept.id),
-    includedArticleIds: bundle.articles.filter((article) => (article.resource_ids || []).includes(resource.id)).map((article) => article.id),
-    conceptLocations: [],
-  },
-}))
+const resourceItems = resources.map((resource) => {
+  const includedArticles = bundle.articles.filter((article) => (article.resource_ids || []).includes(resource.id))
+  const subjectId = includedArticles[0] ? subjectIdFor(includedArticles[0]) : 'medical'
+  const chapters = [...new Set(includedArticles.map((article) => article.topic || article.system).filter(Boolean))]
+  return {
+    id: resource.id,
+    kind: 'resource',
+    title: resource.title,
+    subjectId,
+    status: resource.sourceUri ? 'Published' : 'In review',
+    owner,
+    updatedAt: generatedAt,
+    fields: {
+      Type: resource.sourceUri ? 'Article' : resource.mediaType === 'pdf' ? 'Book' : 'Article',
+      Source: resource.institution || '',
+      Location: resource.storageKey || resource.sourceUri || 'Pending secure upload',
+      Year: resource.publicationDate ? String(resource.publicationDate).slice(0, 4) : '',
+      Chapter: chapters.join(', ') || 'Miscellaneous',
+      'Processing state': resource.processingStatus,
+      'Storage state': resource.storageKey ? 'pending_upload' : 'external',
+      Rights: typeof resource.rights === 'string' ? resource.rights : JSON.stringify(resource.rights || {}),
+    },
+    resourceData: {
+      universityIds: resource.institution === 'Kasr Alainy' ? ['kau'] : [],
+      yearIds: [],
+      institution: resource.institution,
+      collectionId: resource.collectionId,
+      storageKey: resource.storageKey,
+      sha256: resource.sha256,
+      rights: typeof resource.rights === 'string' ? resource.rights : JSON.stringify(resource.rights || {}),
+      processingStatus: resource.processingStatus,
+      reviewer,
+      finalPublisher: publisher,
+      chapters,
+      moduleIds: [],
+      includedConceptIds: bundle.concepts.filter((concept) => (concept.atomic_claim_ids || []).some((claimId) => (claimsById.get(claimId)?.citation_ids || []).some((citationId) => citationsById.get(citationId)?.resource_id === resource.id))).map((concept) => concept.id),
+      includedArticleIds: includedArticles.map((article) => article.id),
+      conceptLocations: [],
+    },
+  }
+})
 
 const articleForConcept = new Map()
-bundle.concepts.forEach((concept) => (concept.related_article_ids || []).forEach((articleId) => articleForConcept.set(concept.id, articleId)))
+bundle.concepts.forEach((concept) => (concept.related_article_ids || []).forEach((articleId) => {
+  if (!articleForConcept.has(concept.id)) articleForConcept.set(concept.id, articleId)
+}))
 
 const concepts = bundle.concepts.map((concept) => {
   const articleId = articleForConcept.get(concept.id)
-  const place = placementFor(articleId)
-  const canonicalPlace = canonicalPlacementFor(articleId)
-  const micro = place.subtopic.micros.find((node) => node.title.toLowerCase() === String(concept.subtopic || '').toLowerCase())
+  const article = bundle.articles.find((entry) => entry.id === articleId)
+  if (!article) throw new Error(`Missing article for concept ${concept.id}`)
+  const place = legacyPlacementFor(article)
+  const canonicalPlace = canonicalPlacementFor(concept)
+  const micro = place.subtopic?.micros.find((node) => node.title.toLowerCase() === String(concept.subtopic || '').toLowerCase())
   const conceptCitationIds = (concept.atomic_claim_ids || []).flatMap((claimId) => claimsById.get(claimId)?.citation_ids || [])
   const conceptResourceIds = [...new Set([...(concept.resource_ids || []), ...conceptCitationIds.map((citationId) => citationsById.get(citationId)?.resource_id).filter(Boolean)])]
   const approvedFileResourceIds = conceptResourceIds.filter((resourceId) => resources.find((resource) => resource.id === resourceId)?.sourceUri)
@@ -299,7 +334,10 @@ const concepts = bundle.concepts.map((concept) => {
     ...(concept.arabic_label ? {} : { arabicLabel: 'No reviewed Arabic terminology was supplied; left empty rather than model-translated.' }),
     ...((concept.aliases || []).length ? {} : { aliases: 'No distinct source-supported synonym or abbreviation was supplied.' }),
     ...((concept.pitfalls || []).length ? {} : { pitfalls: 'No concept-specific misconception was explicitly supported by the qualified source.' }),
-    moduleIds: 'The source names the Cardiovascular module but does not supply a verified live module ID.',
+    moduleIds: 'No verified live module ID was supplied; curriculum mapping remains explicit and unguessed.',
+    ...(place.system ? {} : { systemId: 'No truthful system exists in the optional eight-system curriculum overlay; canonical placement is complete.' }),
+    ...(place.topic ? {} : { topicTagId: 'No truthful topic exists in the optional eight-system curriculum overlay; canonical placement is complete.' }),
+    ...(place.subtopic ? {} : { subtopicId: 'No truthful subtopic exists in the optional eight-system curriculum overlay; canonical placement is complete.' }),
     microtopicId: 'Optional legacy overlay; the canonical medical taxonomy placement remains the source of truth.',
     nanotopicId: 'Optional legacy overlay; no verified nanotopic ID was supplied.',
     ...(approvedFileResourceIds.length ? {} : { approvedFileResourceIds: 'Qualified local files retain exact occurrences but remain pending secure upload.' }),
@@ -318,12 +356,13 @@ const concepts = bundle.concepts.map((concept) => {
     pitfalls: (concept.pitfalls || []).join('\n'),
     status: concept.status === 'published' ? 'active' : 'under review',
     articleIds: concept.related_article_ids || [],
-    subjectId: 'cvs',
-    topicId: place.topic.id,
-    systemId: place.system.sysId,
-    topicTagId: place.topic.tpcId,
-    subtopicId: place.subtopic.subId,
-    microtopicId: micro?.micId,
+    subjectId: subjectIdFor(article),
+    topicId: place.topic?.id || null,
+    systemId: place.system?.sysId || null,
+    topicTagId: place.topic?.tpcId || null,
+    subtopicId: place.subtopic?.subId || null,
+    microtopicId: micro?.micId || null,
+    nanotopicId: null,
     primaryNodeId: canonicalPlace.primaryNodeId,
     secondaryNodeIds: [...new Set([...canonicalPlace.secondaryNodeIds, ...(concept.secondary_node_ids || []).filter((nodeId) => canonicalNodeIds.has(nodeId))])],
     conceptType: concept.concept_type,
@@ -478,7 +517,7 @@ const publishedEvidence = {
 }
 
 const data = {
-  migrationId: '2026-08-10-medical-library-v3',
+  migrationId: '2026-08-11-medical-library-all-systems-v4',
   generatedAt,
   states: {
     'synapse-academic-universities-v1': universities,
@@ -496,8 +535,10 @@ const data = {
   report: {
     universities: universities.length,
     years: universities.reduce((sum, university) => sum + university.years.length, 0),
-    systems: CURRICULUM_CATALOG.length,
-    topics: CURRICULUM_CATALOG.reduce((sum, system) => sum + system.topics.length, 0),
+    systems: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'system' && node.parentId === null).length,
+    topics: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'system' && node.level === 'Topic').length,
+    curriculumOverlaySystems: CURRICULUM_CATALOG.length,
+    curriculumOverlayTopics: CURRICULUM_CATALOG.reduce((sum, system) => sum + system.topics.length, 0),
     medicalTaxonomyNodes: MEDICAL_TAXONOMY_SEED.length,
     medicalSystemRoots: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'system' && node.parentId === null).length,
     medicalDisciplineRoots: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'discipline' && node.parentId === null).length,
@@ -525,10 +566,12 @@ const data = {
 
 if (data.report.absolutePathsExposed) throw new Error('Sanitisation failed: an absolute authoring path remains in the launch package')
 if (data.report.universities !== 12 || data.report.years !== 84) throw new Error('University/year catalogue failed deterministic-count validation')
-if (data.report.articles !== 10 || data.report.concepts !== 98 || data.report.claims !== 110) throw new Error('Reviewed pilot coverage count mismatch')
+if (data.report.articles !== bundle.articles.length || data.report.concepts !== bundle.concepts.length || data.report.claims !== bundle.claims.length) throw new Error('Reviewed full-catalog coverage count mismatch')
 if (articleItems.some((article) => article.articleData.sections.at(-1)?.kind !== 'components')) throw new Error('Every article must end with Components and relations')
 if (articleItems.some((article) => !article.owner || !article.articleData.reviewer || !article.articleData.finalPublisher)) throw new Error('Article governance fields are incomplete')
 if (concepts.some((concept) => !concept.owner || !concept.reviewer || !concept.finalPublisher || !concept.primaryNodeId || !concept.atomicClaimIds.length || !concept.resourceIds.length)) throw new Error('Concept identity, placement, evidence, resources, or governance fields are incomplete')
+if (concepts.some((concept) => concept.publicationStatus === 'published' && concept.atomicClaimIds.some((claimId) => claims.find((claim) => claim.id === claimId)?.verificationStatus !== 'verified'))) throw new Error('A published concept contains an unverified claim')
+if (concepts.some((concept) => concept.atomicClaimIds.some((claimId) => claims.find((claim) => claim.id === claimId)?.riskClass === 'treatment_or_action') && concept.publicationStatus !== 'faculty_review')) throw new Error('Treatment or action content bypassed faculty review')
 if (new Set(articleItems.flatMap((article) => article.articleData.sections.flatMap((section) => section.spanIds || []))).size !== bundle.article_spans.length) throw new Error('Readable article sections do not cover every evidence span exactly once')
 
 await mkdir(dirname(outputPath), { recursive: true })

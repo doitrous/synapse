@@ -12,30 +12,53 @@ const errors = []
 
 const get = (value, path) => path.split('.').reduce((current, key) => current?.[key], value)
 const hasValue = (value) => Array.isArray(value) ? value.length > 0 : value && typeof value === 'object' ? Object.keys(value).length > 0 : value !== '' && value !== null && value !== undefined
-const missing = (items, paths) => Object.fromEntries(paths.map((path) => [path, items.filter((item) => !hasValue(get(item, path))).map((item) => item.id)]).filter(([, ids]) => ids.length))
-const requirePaths = (kind, items, paths) => {
-  const absent = missing(items, paths)
+const hasPath = (value, path) => path.split('.').every((key) => {
+  if (value === null || value === undefined || !Object.hasOwn(value, key)) return false
+  value = value[key]
+  return true
+})
+const missing = (items, paths, predicate = hasValue) => Object.fromEntries(paths.map((path) => [path, items.filter((item) => !predicate(get(item, path))).map((item) => item.id)]).filter(([, ids]) => ids.length))
+const requirePaths = (kind, items, paths, predicate = hasValue) => {
+  const absent = missing(items, paths, predicate)
   for (const [path, ids] of Object.entries(absent)) errors.push(`${kind}.${path} missing for ${ids.join(', ')}`)
   return absent
 }
 
-const articleRequired = [
+// These fields must contain a useful value for every article. Canonical taxonomy
+// placement is the source of truth; the older curriculum overlay is optional.
+const articlePopulated = [
   'title', 'subjectId', 'status', 'owner', 'updatedAt', 'fields.Topic', 'fields.Summary', 'fields.Reading time', 'fields.Content owner', 'fields.Reviewer', 'fields.Publisher',
   'articleData.templateId', 'articleData.archetype', 'articleData.language', 'articleData.learnerStage', 'articleData.summary', 'articleData.body', 'articleData.sections',
-  'articleData.holdThese', 'articleData.loseTheMark', 'articleData.resourceIds', 'articleData.universityIds', 'articleData.yearIds', 'articleData.primaryNodeId',
-  'articleData.secondaryNodeIds', 'articleData.subtopicId', 'articleData.relatedConceptIds', 'articleData.relatedArticleIds', 'articleData.universityNotes',
+  'articleData.resourceIds', 'articleData.universityIds', 'articleData.yearIds', 'articleData.primaryNodeId', 'articleData.relatedConceptIds', 'articleData.relatedArticleIds',
   'articleData.reviewer', 'articleData.finalPublisher', 'articleData.highYield', 'articleData.timeSensitive', 'articleData.publicationGate', 'articleData.evidenceBasis',
-  'articleData.articleLevelSourceIds', 'articleData.claimIds', 'articleData.spanIds', 'articleData.notes', 'articleData.fieldNotes',
+  'articleData.claimIds', 'articleData.spanIds', 'articleData.notes', 'articleData.fieldNotes',
 ]
-const conceptRequired = [
-  'label', 'canonicalKey', 'definition', 'status', 'articleIds', 'subjectId', 'systemId', 'topicTagId', 'subtopicId', 'primaryNodeId', 'secondaryNodeIds',
+const articlePresent = [
+  'articleData.holdThese', 'articleData.loseTheMark', 'articleData.questionIds', 'articleData.moduleIds', 'articleData.secondaryNodeIds',
+  'articleData.subtopicId', 'articleData.microtopicId', 'articleData.nanotopicId', 'articleData.universityNotes', 'articleData.articleLevelSourceIds',
+  'articleData.conflicts', 'articleData.evidenceGaps', 'articleData.media', 'articleData.lastReviewed', 'articleData.reviewDue',
+]
+const conceptPopulated = [
+  'label', 'canonicalKey', 'definition', 'status', 'articleIds', 'subjectId', 'primaryNodeId',
   'conceptType', 'learnerYears', 'universityIds', 'explicitObjective', 'blueprintWeight', 'examWeightByYear', 'clinicalRelevance', 'academicRelevance',
   'relatedArticleIds', 'resourceIds', 'atomicClaimIds', 'resourceOccurrenceIds', 'supportMode', 'confidence', 'sourceCandidateIds', 'originalWording', 'owner', 'reviewer',
   'finalPublisher', 'publicationStatus', 'editorialReviewStatus', 'weightConfidence', 'fieldNotes',
 ]
+const conceptPresent = [
+  'systemId', 'topicTagId', 'subtopicId', 'microtopicId', 'nanotopicId', 'secondaryNodeIds', 'relatedConceptIds', 'moduleIds',
+  'aliases', 'arabicLabel', 'arabicAliases', 'pitfalls', 'approvedFileResourceIds', 'approvedVideoResourceIds', 'conflicts', 'uncertainty',
+  'evidenceGaps', 'mergeIds', 'rejectedMergeCandidateIds', 'lastReviewed', 'reviewDue', 'exclusionReason',
+]
 
-const articleMissing = requirePaths('article', articles, articleRequired)
-const conceptMissing = requirePaths('concept', graph.concepts, conceptRequired)
+const articleMissing = requirePaths('article', articles, articlePopulated)
+const conceptMissing = requirePaths('concept', graph.concepts, conceptPopulated)
+const articleFieldsAbsent = Object.fromEntries(articlePresent.map((path) => [path, articles.filter((article) => !hasPath(article, path)).map((article) => article.id)]).filter(([, ids]) => ids.length))
+const conceptFieldsAbsent = Object.fromEntries(conceptPresent.map((path) => [path, graph.concepts.filter((concept) => !hasPath(concept, path)).map((concept) => concept.id)]).filter(([, ids]) => ids.length))
+
+// requirePaths passes only the resolved value. Presence is checked separately to
+// distinguish an intentional empty array/null from a field omitted by projection.
+for (const article of articles) for (const path of articlePresent) if (!hasPath(article, path)) errors.push(`article.${path} absent for ${article.id}`)
+for (const concept of graph.concepts) for (const path of conceptPresent) if (!hasPath(concept, path)) errors.push(`concept.${path} absent for ${concept.id}`)
 
 const articleIntentionalBlanks = ['arabicTitle', 'aliases', 'questionIds', 'moduleIds', 'microtopicId', 'nanotopicId', 'media', 'lastReviewed', 'reviewDue']
 for (const article of articles) {
@@ -84,11 +107,11 @@ const citedResourceCount = (span) => new Set(span.citationIds.map((id) => eviden
 const report = {
   migrationId: launch.migrationId,
   articles: articles.length,
-  articleFieldsChecked: articleRequired.length + articleIntentionalBlanks.length,
+  articleFieldsChecked: articlePopulated.length + articlePresent.length + articleIntentionalBlanks.length,
   articleSections: articles.reduce((sum, article) => sum + article.articleData.sections.length, 0),
   evidenceLinkedSections: articles.reduce((sum, article) => sum + article.articleData.sections.filter((section) => section.spanIds?.length).length, 0),
   concepts: graph.concepts.length,
-  conceptFieldsChecked: conceptRequired.length + conceptIntentionalBlanks.length,
+  conceptFieldsChecked: conceptPopulated.length + conceptPresent.length + conceptIntentionalBlanks.length,
   conceptsWithTypedRelationships: graph.concepts.filter((concept) => graph.relations.some((relation) => relation.sourceId === concept.id || relation.targetId === concept.id)).length,
   relations: graph.relations.length,
   verifiedRelations: graph.relations.filter((relation) => relation.verificationStatus === 'verified').length,
@@ -97,6 +120,8 @@ const report = {
   spansWithMultipleResources: evidence.articleSpans.filter((span) => citedResourceCount(span) > 1).length,
   articleMissing,
   conceptMissing,
+  articleFieldsAbsent,
+  conceptFieldsAbsent,
   errors,
 }
 
