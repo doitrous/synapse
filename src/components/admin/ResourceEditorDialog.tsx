@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { X, Plus, Trash2, MapPin, Play, FileText } from 'lucide-react'
+import { X, Plus, Trash2, MapPin, Play, FileText, Upload, Check } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import type { ResourceType } from '@/data/types'
 import {
@@ -10,12 +10,15 @@ import {
 } from '@/data/contentControl'
 import { resources } from '@/data/resources'
 import { subjects } from '@/data/student'
-import { initialConceptGraph } from '@/data/conceptGraph'
+import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { newId } from '@/data/userLibrary'
 import { Button } from '@/components/ui/Button'
 import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { apiUploadMedicalResource } from '@/lib/api'
+import { universities } from '@/data/universities'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 const RESOURCE_TYPES: ResourceType[] = ['Book', 'Video', 'Guideline', 'Deck', 'Article']
@@ -26,11 +29,8 @@ const LOCATION_KINDS: Array<{ value: ResourceConceptLocation['kind']; label: str
   { value: 'timestamp', label: 'Timestamp', hint: 'e.g. 3:20' },
 ]
 
-/** All concepts available for the deep-link map (id + human label). */
-const CONCEPTS = initialConceptGraph().concepts.map((c) => ({ id: c.id, label: c.label }))
-
 function emptyResourceData(): ResourceAuthoringData {
-  return { chapters: [], moduleIds: [], includedConceptIds: [], includedArticleIds: [], conceptLocations: [] }
+  return { universityIds: [], yearIds: [], institution: '', collectionId: '', storageKey: '', sha256: '', rights: '', processingStatus: '', reviewer: 'Medical team, Admin team', finalPublisher: 'Admin team', chapters: [], moduleIds: [], includedConceptIds: [], includedArticleIds: [], conceptLocations: [] }
 }
 
 function emptyResource(): ManagedContentItem {
@@ -100,9 +100,17 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
   onSave: (item: ManagedContentItem) => void
 }) {
   const [draft, setDraft] = useState<ManagedContentItem>(() => item ?? emptyResource())
+  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const concepts = useMemo(() => graph.concepts.map((concept) => ({ id: concept.id, label: concept.label })), [graph.concepts])
+  const [uploadState, setUploadState] = useState<'idle' | 'uploading' | 'done' | 'error'>('idle')
+  const [uploadMessage, setUploadMessage] = useState('')
 
   useEffect(() => {
-    if (open) setDraft(item ? { ...item, fields: { ...item.fields }, resourceData: { ...emptyResourceData(), ...item.resourceData } } : emptyResource())
+    if (open) {
+      setDraft(item ? { ...item, fields: { ...item.fields }, resourceData: { ...emptyResourceData(), ...item.resourceData } } : emptyResource())
+      setUploadState('idle')
+      setUploadMessage('')
+    }
   }, [item, open])
 
   useEffect(() => {
@@ -127,8 +135,22 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
   const isVideo = draft.fields.Type === 'Video'
   const valid = draft.title.trim() && draft.subjectId && draft.fields.Type
 
-  const addLocation = () => patchData({ conceptLocations: [...data.conceptLocations, { id: newId('loc'), conceptId: CONCEPTS[0]?.id ?? '', kind: isVideo ? 'timestamp' : 'page', locator: '' }] })
+  const addLocation = () => patchData({ conceptLocations: [...data.conceptLocations, { id: newId('loc'), conceptId: concepts[0]?.id ?? '', kind: isVideo ? 'timestamp' : 'page', locator: '' }] })
   const setLocation = (id: string, patch: Partial<ResourceConceptLocation>) => patchData({ conceptLocations: data.conceptLocations.map((l) => l.id === id ? { ...l, ...patch } : l) })
+  const uploadQualifiedFile = async (file: File | undefined) => {
+    if (!file || !draft.id) return
+    setUploadState('uploading')
+    setUploadMessage('Checking and securely uploading…')
+    try {
+      const result = await apiUploadMedicalResource(draft.id, file)
+      setUploadState('done')
+      setUploadMessage(`Uploaded and hash-checked · ${(result.sizeBytes / 1_048_576).toFixed(1)} MB`)
+      setField('Storage state', 'uploaded')
+    } catch (error) {
+      setUploadState('error')
+      setUploadMessage(error instanceof Error ? error.message : 'Upload failed')
+    }
+  }
 
   return (
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-labelledby="resource-editor-title">
@@ -177,6 +199,38 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
               <Field label="Content owner" className="sm:col-span-2"><TextInput value={draft.owner} onChange={(e) => setDraft((c) => ({ ...c, owner: e.target.value }))} /></Field>
             </div>
 
+            <div className="rounded-lg border border-line bg-surface-2/40 p-4">
+              <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Source, access & governance</p>
+              <div className="grid gap-4 sm:grid-cols-2">
+                <Field label="Institution"><TextInput value={data.institution ?? ''} onChange={(event) => patchData({ institution: event.target.value })} placeholder="Kasr Alainy" /></Field>
+                <Field label="Collection / folder"><TextInput value={data.collectionId ?? ''} onChange={(event) => patchData({ collectionId: event.target.value })} placeholder="anatomy, physiology, miscellaneous…" /></Field>
+                <Field label="Reviewer"><TextInput value={data.reviewer ?? ''} onChange={(event) => patchData({ reviewer: event.target.value })} /></Field>
+                <Field label="Final publisher"><TextInput value={data.finalPublisher ?? ''} onChange={(event) => patchData({ finalPublisher: event.target.value })} /></Field>
+                <Field label="Processing status"><TextInput value={data.processingStatus ?? ''} onChange={(event) => patchData({ processingStatus: event.target.value })} /></Field>
+                <Field label="SHA-256" hint="Qualified source hash"><TextInput readOnly value={data.sha256 ?? ''} className="font-mono text-[10.5px]" /></Field>
+                <Field label="Secure storage path" hint="University / subject / collection / file" className="sm:col-span-2"><TextInput readOnly value={data.storageKey ?? ''} className="font-mono text-[10.5px]" /></Field>
+                <Field label="Rights / permission" className="sm:col-span-2"><TextInput value={data.rights ?? ''} onChange={(event) => patchData({ rights: event.target.value })} /></Field>
+              </div>
+              <div className="mt-3">
+                <p className="mb-1.5 text-[11.5px] font-medium text-ink-2">Universities</p>
+                <div className="grid grid-cols-2 gap-1 sm:grid-cols-4">
+                  {universities.map((university) => <label key={university.id} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-accent)]" checked={(data.universityIds ?? []).includes(university.id)} onChange={() => patchData({ universityIds: (data.universityIds ?? []).includes(university.id) ? (data.universityIds ?? []).filter((id) => id !== university.id) : [...(data.universityIds ?? []), university.id] })} />{university.short}</label>)}
+                </div>
+              </div>
+              {data.storageKey && draft.id && (
+                <div className="mt-4 rounded-lg border border-accent-line bg-accent-tint/30 p-3">
+                  <div className="flex flex-wrap items-center gap-3">
+                    <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-accent-line bg-surface px-3 py-2 text-[12px] font-semibold text-accent-strong hover:bg-accent-tint">
+                      <Icon icon={uploadState === 'done' ? Check : Upload} size={14} />
+                      {uploadState === 'uploading' ? 'Uploading…' : uploadState === 'done' ? 'Uploaded' : 'Choose exact source file'}
+                      <input type="file" accept="application/pdf,.pdf" className="sr-only" disabled={uploadState === 'uploading' || uploadState === 'done'} onChange={(event) => { void uploadQualifiedFile(event.currentTarget.files?.[0]); event.currentTarget.value = '' }} />
+                    </label>
+                    <span className={cn('text-[11.5px]', uploadState === 'error' ? 'text-danger' : uploadState === 'done' ? 'text-success' : 'text-ink-3')}>{uploadMessage || 'The file is accepted only when its hash matches this qualified record.'}</span>
+                  </div>
+                </div>
+              )}
+            </div>
+
             {/* Placement: chapters + modules (multi-select) */}
             <div className="grid gap-4 rounded-lg border border-line bg-surface-2/40 p-4 sm:grid-cols-2">
               <ChipEditor label="Chapters" hint="Select one or more — type and press Enter to add." values={data.chapters} suggestions={chapterSuggestions} placeholder="Add a chapter…" onChange={(chapters) => patchData({ chapters })} />
@@ -185,7 +239,7 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
 
             {/* Links */}
             <div className="grid gap-4 sm:grid-cols-2">
-              <ChipEditor label="Included concept IDs" hint="Auto-links to each concept's approved media." values={data.includedConceptIds} suggestions={CONCEPTS.map((c) => c.id)} placeholder="med.concept.…" onChange={(includedConceptIds) => patchData({ includedConceptIds })} />
+              <ChipEditor label="Included concept IDs" hint="Auto-links to each concept's approved media." values={data.includedConceptIds} suggestions={concepts.map((c) => c.id)} placeholder="med.concept.…" onChange={(includedConceptIds) => patchData({ includedConceptIds })} />
               <ChipEditor label="Included article IDs" values={data.includedArticleIds} placeholder="hf-patho…" onChange={(includedArticleIds) => patchData({ includedArticleIds })} />
             </div>
 
@@ -207,7 +261,7 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
                       <div className="min-w-[10rem] flex-1">
                         <label className="mb-1 block text-[10.5px] font-medium uppercase tracking-wide text-ink-3">Concept</label>
                         <Select value={loc.conceptId} onChange={(e) => setLocation(loc.id, { conceptId: e.target.value })} className="h-9">
-                          {CONCEPTS.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}
+                          {concepts.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}
                         </Select>
                       </div>
                       <div className="w-28">

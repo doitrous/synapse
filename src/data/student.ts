@@ -7,19 +7,11 @@ import type {
   Session,
   Subject,
 } from './types'
+import { CURRICULUM_SUBJECTS } from './curriculumCatalog'
 
 /* ---- Subjects (organ-system + discipline, undergraduate) --------------- */
 
-export const subjects: Subject[] = [
-  { id: 'cvs', name: 'Cardiovascular', short: 'CVS', color: '#a8462f' },
-  { id: 'resp', name: 'Respiratory', short: 'RESP', color: '#3f6f7a' },
-  { id: 'renal', name: 'Renal & Urinary', short: 'RENAL', color: '#6f5788' },
-  { id: 'gi', name: 'Gastrointestinal', short: 'GI', color: '#a07b34' },
-  { id: 'neuro', name: 'Neurology', short: 'NEURO', color: '#5b7a4a' },
-  { id: 'endo', name: 'Endocrine', short: 'ENDO', color: '#9c5f7e' },
-  { id: 'msk', name: 'Musculoskeletal', short: 'MSK', color: '#877258' },
-  { id: 'pharm', name: 'Pharmacology', short: 'PHARM', color: '#c06a3f' },
-]
+export const subjects: Subject[] = CURRICULUM_SUBJECTS
 
 export const subjectsById: Record<string, Subject> = Object.fromEntries(
   subjects.map((s) => [s.id, s]),

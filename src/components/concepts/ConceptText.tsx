@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react'
 import { BookOpenText, GitFork, TriangleAlert, X } from 'lucide-react'
-import { conceptGraphFromStorage, type Concept } from '@/data/conceptGraph'
+import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
 import { Icon } from '@/components/ui/Icon'
+import { usePersistentState } from '@/lib/usePersistentState'
 
 function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
@@ -9,7 +10,7 @@ function escapeRegExp(value: string) {
 
 export function ConceptText({ text, enabled = true }: { text: string; enabled?: boolean }) {
   const [active, setActive] = useState<Concept | null>(null)
-  const graph = useMemo(conceptGraphFromStorage, [])
+  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const matches = useMemo(() => {
     if (!enabled) return [{ text, concept: null as Concept | null }]
     const lookup = new Map<string, Concept>()

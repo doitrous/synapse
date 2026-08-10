@@ -74,6 +74,34 @@ export async function apiDownload(path: string, filename: string): Promise<void>
   URL.revokeObjectURL(url)
 }
 
+/** Open an authenticated file in a new tab, optionally at an exact PDF page. */
+export async function apiOpenFile(path: string, fragment = ''): Promise<void> {
+  const popup = window.open('', '_blank', 'noopener,noreferrer')
+  try {
+    const res = await fetch(`${BASE}${path}`, { headers: await headers() })
+    if (!res.ok) throw new Error(`GET ${path} → ${res.status}`)
+    const blob = await res.blob()
+    const url = URL.createObjectURL(blob)
+    if (popup) popup.location.href = `${url}${fragment}`
+    else window.open(`${url}${fragment}`, '_blank', 'noopener,noreferrer')
+    window.setTimeout(() => URL.revokeObjectURL(url), 10 * 60 * 1000)
+  } catch (error) {
+    popup?.close()
+    throw error
+  }
+}
+
+/** Stream an admin-selected source file to its pre-qualified resource record. */
+export async function apiUploadMedicalResource(resourceId: string, file: File): Promise<{ ok: boolean; sizeBytes: number; sha256: string }> {
+  const res = await fetch(`${BASE}/medical-resources/${encodeURIComponent(resourceId)}/file`, {
+    method: 'PUT',
+    headers: { ...(await headers()), 'Content-Type': file.type || 'application/octet-stream' },
+    body: file,
+  })
+  if (!res.ok) throw new Error(`PUT medical resource → ${res.status}`)
+  return res.json()
+}
+
 /** Read a state document by key. Returns null when unset. */
 export async function getState<T>(key: string): Promise<T | null> {
   try { const r = await apiGet<{ value: T | null }>(`/state/${encodeURIComponent(key)}`); return r.value }

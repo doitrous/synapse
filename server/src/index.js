@@ -1,15 +1,21 @@
-import { randomUUID } from 'node:crypto'
+import { createHash, randomUUID } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
-import { dirname, join } from 'node:path'
-import { existsSync } from 'node:fs'
+import { basename, dirname, join, resolve, sep } from 'node:path'
+import { createWriteStream, existsSync } from 'node:fs'
+import { mkdir, readFile, rename, unlink } from 'node:fs/promises'
+import { Transform } from 'node:stream'
+import { pipeline } from 'node:stream/promises'
 import express from 'express'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
-import { apiAuthGate, bypassEnabled, requireAdmin } from './auth.js'
+import { apiAuthGate, bypassEnabled, requireAdmin, requireAuthenticated } from './auth.js'
 import { toMariaDbDate } from './datetime.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
+const LAUNCH_DATA_PATH = join(__dirname, '..', 'data', 'medical-library-v1.json')
+const RESOURCE_STORAGE_DIR = resolve(process.env.RESOURCE_STORAGE_DIR || '/data/medical-library')
+const RESOURCE_MAX_BYTES = Number(process.env.RESOURCE_MAX_BYTES) || 250 * 1024 * 1024
 const app = express()
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
 app.use(express.json({
@@ -54,7 +60,8 @@ const STUDENT_READABLE_STATE = new Set([
   'synapse-admin-content-ledger-v4',
   'synapse-concept-graph-v2',
   'synapse-relation-types-v1',
-  'synapse-taxonomy-tree-v3',
+  'synapse-taxonomy-tree-v4',
+  'synapse-medical-evidence-published-v1',
   'synapse-plans-v1',
   'synapse-notification-campaigns-v1',
   'synapse-vouchers-v1',
@@ -224,6 +231,93 @@ async function createDataSnapshot(label, createdBy) {
   )
   return { id, label }
 }
+
+async function readMedicalLibraryLaunchData() {
+  return JSON.parse(await readFile(LAUNCH_DATA_PATH, 'utf8'))
+}
+
+/** Read-only launch preflight. It never changes production data. */
+app.get('/api/launch/medical-library-v1/preview', requireAdmin, wrap(async (_req, res) => {
+  const launch = await readMedicalLibraryLaunchData()
+  const [migration] = await pool.query('SELECT id, applied_at AS appliedAt FROM schema_migrations WHERE id = ?', [launch.migrationId])
+  const keys = Object.keys(launch.states)
+  const [stateRows] = await pool.query('SELECT k, OCTET_LENGTH(v) AS sizeBytes, updated_at AS updatedAt FROM app_state WHERE k IN (?)', [keys])
+  res.json({
+    migrationId: launch.migrationId,
+    alreadyApplied: Boolean(migration.length),
+    appliedAt: migration[0]?.appliedAt || null,
+    report: launch.report,
+    statesToReplace: keys,
+    existingStates: stateRows,
+  })
+}))
+
+async function resourceRecord(resourceId) {
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-medical-evidence-v1'])
+  if (!rows.length) return null
+  const evidence = JSON.parse(rows[0].v)
+  return evidence.resources?.find((resource) => resource.id === resourceId) || null
+}
+
+function resolvedResourcePath(storageKey) {
+  if (!storageKey || typeof storageKey !== 'string' || storageKey.includes('\0')) return null
+  const fullPath = resolve(RESOURCE_STORAGE_DIR, storageKey)
+  return fullPath.startsWith(`${RESOURCE_STORAGE_DIR}${sep}`) ? fullPath : null
+}
+
+app.get('/api/medical-resources/:resourceId/status', requireAuthenticated, wrap(async (req, res) => {
+  const resource = await resourceRecord(req.params.resourceId)
+  if (!resource) return res.status(404).json({ error: 'resource not found' })
+  const fullPath = resolvedResourcePath(resource.storageKey)
+  res.json({
+    id: resource.id,
+    available: Boolean(fullPath && existsSync(fullPath)),
+    externalUrl: resource.sourceUri || null,
+    storageKey: req.identity.role === 'admin' ? resource.storageKey || null : undefined,
+  })
+}))
+
+app.get('/api/medical-resources/:resourceId', requireAuthenticated, wrap(async (req, res) => {
+  const resource = await resourceRecord(req.params.resourceId)
+  if (!resource) return res.status(404).json({ error: 'resource not found' })
+  if (resource.sourceUri) return res.redirect(302, resource.sourceUri)
+  const fullPath = resolvedResourcePath(resource.storageKey)
+  if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'resource file is pending secure upload' })
+  res.setHeader('Content-Type', resource.mediaType === 'pdf' ? 'application/pdf' : 'application/octet-stream')
+  res.setHeader('Content-Disposition', `inline; filename="${basename(resource.title).replace(/["\r\n]/g, '')}"`)
+  res.setHeader('X-Content-Type-Options', 'nosniff')
+  res.sendFile(fullPath)
+}))
+
+app.put('/api/medical-resources/:resourceId/file', requireAdmin, wrap(async (req, res) => {
+  const resource = await resourceRecord(req.params.resourceId)
+  if (!resource) return res.status(404).json({ error: 'resource not found' })
+  const fullPath = resolvedResourcePath(resource.storageKey)
+  if (!fullPath) return res.status(400).json({ error: 'resource has no valid authenticated storage key' })
+  if (existsSync(fullPath)) return res.status(409).json({ error: 'resource is already uploaded; replacement requires a separate reviewed operation' })
+  await mkdir(dirname(fullPath), { recursive: true })
+  const temporaryPath = `${fullPath}.upload-${randomUUID()}`
+  const hash = createHash('sha256')
+  let sizeBytes = 0
+  const meter = new Transform({
+    transform(chunk, _encoding, callback) {
+      sizeBytes += chunk.length
+      if (sizeBytes > RESOURCE_MAX_BYTES) return callback(new Error(`resource exceeds ${RESOURCE_MAX_BYTES} byte limit`))
+      hash.update(chunk)
+      callback(null, chunk)
+    },
+  })
+  try {
+    await pipeline(req, meter, createWriteStream(temporaryPath, { flags: 'wx' }))
+    const sha256 = hash.digest('hex')
+    if (resource.sha256 && resource.sha256 !== sha256) throw new Error('uploaded file hash does not match the qualified source')
+    await rename(temporaryPath, fullPath)
+    res.json({ ok: true, id: resource.id, sizeBytes, sha256 })
+  } catch (error) {
+    await unlink(temporaryPath).catch(() => {})
+    throw error
+  }
+}))
 
 app.post('/api/backups', requireAdmin, wrap(async (req, res) => {
   const label = req.body?.label || `Manual snapshot ${new Date().toISOString()}`

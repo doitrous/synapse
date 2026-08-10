@@ -19,6 +19,7 @@ import { allSubtopics, libraryTopics } from '@/data/library'
 import { subjects } from '@/data/student'
 import { useTaxonomyTree, type TaxSysNode } from '@/data/taxonomyStore'
 import { TaxonomyPlacementPicker, type TaxonomyPlacement } from '@/components/admin/TaxonomyPlacementPicker'
+import { universities } from '@/data/universities'
 
 /** Resolve a concept's subject + topic — explicit fields first, else via articleIds. */
 function scopeOf(concept: Concept): { subjectId: string; topicId: string } {
@@ -130,6 +131,49 @@ function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId, onSele
   )
 }
 
+function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; onPatch: (next: Partial<Concept>) => void }) {
+  const list = (text: string) => text.split(/[\n,]/).map((item) => item.trim()).filter(Boolean)
+  const numbers = (text: string) => list(text).map(Number).filter((number) => Number.isFinite(number))
+  return (
+    <details className="rounded-lg border border-line bg-surface-2/40 p-3">
+      <summary className="cursor-pointer text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Evidence, audience & governance fields</summary>
+      <div className="mt-4 space-y-3">
+        <div className="grid grid-cols-2 gap-3">
+          <Field label="Canonical key"><TextInput value={value.canonicalKey ?? ''} onChange={(event) => onPatch({ canonicalKey: event.target.value })} placeholder="entity.relation.qualifier" /></Field>
+          <Field label="Concept type"><TextInput value={value.conceptType ?? ''} onChange={(event) => onPatch({ conceptType: event.target.value })} placeholder="mechanism, structure…" /></Field>
+          <Field label="Arabic label"><TextInput dir="rtl" value={value.arabicLabel ?? ''} onChange={(event) => onPatch({ arabicLabel: event.target.value })} /></Field>
+          <Field label="Arabic aliases" hint="Comma-separated"><TextInput dir="rtl" value={(value.arabicAliases ?? []).join(', ')} onChange={(event) => onPatch({ arabicAliases: list(event.target.value) })} /></Field>
+          <Field label="Learner years" hint="e.g. 1, 2, 3"><TextInput value={(value.learnerYears ?? []).join(', ')} onChange={(event) => onPatch({ learnerYears: numbers(event.target.value) })} /></Field>
+          <Field label="Module IDs" hint="Leave empty until verified"><TextInput value={(value.moduleIds ?? []).join(', ')} onChange={(event) => onPatch({ moduleIds: list(event.target.value) })} /></Field>
+          <Field label="Evidence confidence (0–1)"><TextInput type="number" min={0} max={1} step={0.01} value={value.confidence ?? 0} onChange={(event) => onPatch({ confidence: Math.min(1, Math.max(0, Number(event.target.value) || 0)) })} /></Field>
+          <Field label="Weight confidence (0–1)"><TextInput type="number" min={0} max={1} step={0.01} value={value.weightConfidence ?? 0} onChange={(event) => onPatch({ weightConfidence: Math.min(1, Math.max(0, Number(event.target.value) || 0)) })} /></Field>
+        </div>
+        <Field label="Universities">
+          <div className="grid max-h-44 grid-cols-2 gap-1 overflow-y-auto rounded-lg border border-line bg-surface p-2">
+            {universities.map((university) => <label key={university.id} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-accent)]" checked={(value.universityIds ?? []).includes(university.id)} onChange={() => onPatch({ universityIds: (value.universityIds ?? []).includes(university.id) ? (value.universityIds ?? []).filter((id) => id !== university.id) : [...(value.universityIds ?? []), university.id] })} />{university.short}</label>)}
+          </div>
+        </Field>
+        <Field label="Explicit learning objective"><Textarea value={value.explicitObjective ?? ''} onChange={(event) => onPatch({ explicitObjective: event.target.value })} className="min-h-16" /></Field>
+        <div className="grid grid-cols-2 gap-3">
+          <Field label="Support mode"><TextInput value={value.supportMode ?? ''} onChange={(event) => onPatch({ supportMode: event.target.value })} /></Field>
+          <Field label="Publication status"><TextInput value={value.publicationStatus ?? ''} onChange={(event) => onPatch({ publicationStatus: event.target.value })} /></Field>
+          <Field label="Owner"><TextInput value={value.owner ?? ''} onChange={(event) => onPatch({ owner: event.target.value })} /></Field>
+          <Field label="Reviewer"><TextInput value={value.reviewer ?? ''} onChange={(event) => onPatch({ reviewer: event.target.value })} /></Field>
+          <Field label="Last reviewed"><TextInput type="date" value={value.lastReviewed ?? ''} onChange={(event) => onPatch({ lastReviewed: event.target.value })} /></Field>
+          <Field label="Review due"><TextInput type="date" value={value.reviewDue ?? ''} onChange={(event) => onPatch({ reviewDue: event.target.value })} /></Field>
+        </div>
+        <Field label="Atomic claim IDs" hint="One per line"><Textarea value={(value.atomicClaimIds ?? []).join('\n')} onChange={(event) => onPatch({ atomicClaimIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
+        <Field label="Related article IDs" hint="One per line"><Textarea value={(value.relatedArticleIds ?? value.articleIds ?? []).join('\n')} onChange={(event) => onPatch({ relatedArticleIds: list(event.target.value), articleIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
+        <Field label="Evidence gaps" hint="One per line"><Textarea value={(value.evidenceGaps ?? []).join('\n')} onChange={(event) => onPatch({ evidenceGaps: list(event.target.value) })} className="min-h-20" /></Field>
+        <Field label="Conflicts" hint="One per line"><Textarea value={(value.conflicts ?? []).join('\n')} onChange={(event) => onPatch({ conflicts: list(event.target.value) })} className="min-h-16" /></Field>
+        <Field label="Uncertainty" hint="One per line"><Textarea value={(value.uncertainty ?? []).join('\n')} onChange={(event) => onPatch({ uncertainty: list(event.target.value) })} className="min-h-16" /></Field>
+        <Field label="Original wording" hint="Preserved source wording, one per line"><Textarea value={(value.originalWording ?? []).join('\n')} onChange={(event) => onPatch({ originalWording: list(event.target.value) })} className="min-h-20" /></Field>
+        <Field label="Exclusion reason"><Textarea value={value.exclusionReason ?? ''} onChange={(event) => onPatch({ exclusionReason: event.target.value || null })} className="min-h-16" /></Field>
+      </div>
+    </details>
+  )
+}
+
 export function ConceptsSetup() {
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
@@ -169,10 +213,11 @@ export function ConceptsSetup() {
   const [nAliases, setNAliases] = useState('')
   const [nDef, setNDef] = useState('')
   const [nPitfalls, setNPitfalls] = useState('')
-  const [nStatus, setNStatus] = useState<Concept['status']>('active')
+  const [nStatus, setNStatus] = useState<Concept['status']>('under review')
   const [nBlueprint, setNBlueprint] = useState('')
   const [nClinical, setNClinical] = useState('')
   const [nAcademic, setNAcademic] = useState('')
+  const [nExtra, setNExtra] = useState<Partial<Concept>>({ owner: 'Admin team', reviewer: 'Medical team, Admin team', publicationStatus: 'under review', universityIds: [], learnerYears: [], moduleIds: [], evidenceGaps: ['Evidence must be attached before publication.'] })
 
   /** Article IDs implied by a placement's deepest node (for auto-linking). */
   const articleIdsFor = (p: TaxonomyPlacement): string[] => {
@@ -277,6 +322,9 @@ export function ConceptsSetup() {
       ...g,
       concepts: g.concepts.map((c) => (c.id === selected.id ? {
         ...c,
+        ...draft,
+        id: c.id,
+        label: c.label,
         definition: draftDef.trim(),
         aliases,
         pitfalls: draft.pitfalls,
@@ -320,6 +368,7 @@ export function ConceptsSetup() {
       blueprintWeight: clamp(nBlueprint),
       clinicalRelevance: clamp(nClinical),
       academicRelevance: clamp(nAcademic),
+      ...nExtra,
       articleIds: articleIdsFor(nPlacement),
       subjectId: nPlacement.subjectId,
       systemId: nPlacement.systemId,
@@ -330,7 +379,7 @@ export function ConceptsSetup() {
     }
     setGraph((g) => ({ ...g, concepts: [concept, ...g.concepts] }))
     setCreating(false)
-    setNLabel(''); setNAliases(''); setNDef(''); setNPlacement({}); setNPitfalls(''); setNStatus('active'); setNBlueprint(''); setNClinical(''); setNAcademic('')
+    setNLabel(''); setNAliases(''); setNDef(''); setNPlacement({}); setNPitfalls(''); setNStatus('under review'); setNBlueprint(''); setNClinical(''); setNAcademic(''); setNExtra({ owner: 'Admin team', reviewer: 'Medical team, Admin team', publicationStatus: 'under review', universityIds: [], learnerYears: [], moduleIds: [], evidenceGaps: ['Evidence must be attached before publication.'] })
     selectConcept(concept)
   }
 
@@ -356,7 +405,7 @@ export function ConceptsSetup() {
       const id = fields.id || `med.concept.${slug(label)}`
       if (existing.has(id) || additions.some((a) => a.id === id)) { skipped++; return }
       const topic = libraryTopics.find((t) => t.id === fields.topic || t.title.toLowerCase() === (fields.topic ?? '').toLowerCase())
-      const status = (['active', 'inactive', 'under review'].includes(fields.status) ? fields.status : 'active') as Concept['status']
+      const status = (['active', 'inactive', 'under review'].includes(fields.status) ? fields.status : 'under review') as Concept['status']
       const examWeightByYear = (fields.exam_weight_by_year ?? '').split(/[|\n;]/).map((p) => p.trim()).filter(Boolean).reduce<Record<string, number>>((acc, pair) => {
         const [yr, w] = pair.split('=').map((s) => s.trim())
         const n = num01(w); if (yr && n !== undefined) acc[yr] = n
@@ -485,6 +534,8 @@ export function ConceptsSetup() {
                   />
                 </div>
 
+                <ConceptAdvancedFields value={draft} onPatch={patch} />
+
                 {/* Per-year exam blueprint weights */}
                 <div className="rounded-lg border border-line bg-surface-2/40 p-3">
                   <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Exam blueprint weight by year</p>
@@ -497,7 +548,7 @@ export function ConceptsSetup() {
                       </div>
                     ))}
                     {Object.keys(draft.examWeightByYear ?? {}).length === 0 && (
-                      <button type="button" onClick={() => patch({ examWeightByYear: { OMS_Y2: 0.5, OMS_Y3: 0.5 } })} className="text-[12px] font-medium text-accent hover:text-accent-strong">+ Add year weights</button>
+                      <button type="button" onClick={() => patch({ examWeightByYear: { KAU_Y2: 0.5, KAU_Y3: 0.5 } })} className="text-[12px] font-medium text-accent hover:text-accent-strong">+ Add year weights</button>
                     )}
                   </div>
                 </div>
@@ -585,6 +636,7 @@ export function ConceptsSetup() {
                   <TextInput type="number" min={0} max={1} step={0.05} value={nAcademic} onChange={(e) => setNAcademic(e.target.value)} placeholder="0.5" />
                 </Field>
               </div>
+              <ConceptAdvancedFields value={nExtra} onPatch={(next) => setNExtra((current) => ({ ...current, ...next }))} />
             </div>
             <div className="flex items-center justify-end gap-2 border-t border-line bg-surface-2/40 px-5 py-3">
               <Button variant="ghost" onClick={() => setCreating(false)}>Cancel</Button>

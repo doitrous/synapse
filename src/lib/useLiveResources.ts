@@ -3,6 +3,7 @@ import { usePersistentState } from './usePersistentState'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
 import { resources as SEED_RESOURCES, type Resource } from '@/data/resources'
 import type { ResourceType } from '@/data/types'
+import { API_MODE } from './api'
 
 /** A live resource carries the full chapters/modules lists for folder grouping. */
 export interface LiveResource extends Resource {
@@ -61,7 +62,7 @@ export function useLiveResources(): LiveResource[] {
     const byId = new Map(items.map((i) => [i.id, i]))
     const seededIds = new Set(SEED_RESOURCES.map((r) => r.id))
 
-    const overlaid = SEED_RESOURCES
+    const overlaid = (API_MODE ? [] : SEED_RESOURCES)
       .filter((r) => byId.get(r.id)?.status !== 'Archived') // hide if archived in admin
       .map((r) => overlayResource(r, byId.get(r.id)))
 

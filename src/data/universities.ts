@@ -15,6 +15,8 @@ export function defaultModuleId(systemShort: string, index: number): string {
 }
 
 export interface UniYear {
+  /** Stable university-scoped ID, e.g. KAU_Y1 or KAU_INT2. */
+  id: string
   year: string
   students: number
   courses: CurriculumCourse[]
@@ -32,31 +34,50 @@ export interface University {
 
 export const UNIVERSITY_CATALOGUE_STORAGE_KEY = 'synapse-academic-universities-v1'
 
-const YEAR_COURSES: Record<string, string[]> = {
-  'Year 1': ['Foundations of Medicine', 'Anatomy & Physiology', 'Cell & Molecular Biology'],
-  'Year 2': ['Cardiovascular System', 'Respiratory System', 'Renal & Urinary'],
-  'Year 3': ['Clinical Pharmacology', 'Neurology', 'Clinical Skills'],
-  'Year 4': ['Clinical Rotations', 'Specialties in Practice'],
-  'Year 5': ['Preparation for Practice', 'Electives'],
+function buildYears(short: string): UniYear[] {
+  const code = short.toUpperCase()
+  return [1, 2, 3, 4, 5].map((number) => ({
+    id: `${code}_Y${number}`,
+    year: `Year ${number}`,
+    students: 0,
+    courses: [],
+    terms: [],
+  })).concat([
+    { id: `${code}_INT1`, year: 'Internship Year 1', students: 0, courses: [], terms: [] },
+    { id: `${code}_INT2`, year: 'Internship Year 2', students: 0, courses: [], terms: [] },
+  ])
 }
 
-function buildYears(uni: string, base: number): UniYear[] {
-  return Object.entries(YEAR_COURSES).map(([year, names], i) => ({
-    year,
-    students: base - i * 22,
-    courses: names.map((name, j) => ({ id: `${uni}-${i}-${j}`, name, block: `Block ${j + 1}` })),
-  }))
+/** Build a readable, university-scoped year ID from a year label. */
+export function universityYearId(universityShort: string, label: string): string {
+  const code = universityShort.replace(/[^A-Za-z0-9]/g, '').toUpperCase() || 'UNI'
+  const normalized = label.trim().toLowerCase()
+  const yearNumber = normalized.match(/^year\s*(\d+)$/)?.[1]
+  if (yearNumber) return `${code}_Y${yearNumber}`
+  const internshipNumber = normalized.match(/^internship(?:\s+year)?\s*(\d+)$/)?.[1]
+  if (internshipNumber) return `${code}_INT${internshipNumber}`
+  const suffix = label.replace(/[^A-Za-z0-9]+/g, '_').replace(/^_+|_+$/g, '').toUpperCase() || 'YEAR'
+  return `${code}_${suffix}`
 }
 
 export const universities: University[] = [
-  { id: 'oms', name: 'Osler School of Medicine', short: 'OMS', region: 'United Kingdom', years: buildYears('oms', 312) },
-  { id: 'meridian', name: 'Meridian Medical School', short: 'MMS', region: 'United Kingdom', years: buildYears('meridian', 268) },
-  { id: 'northgate', name: 'Northgate University Medicine', short: 'NUM', region: 'Ireland', years: buildYears('northgate', 224) },
+  { id: 'kau', name: 'Kasr Alainy - Cairo University', short: 'KAU', region: 'Cairo', years: buildYears('KAU') },
+  { id: 'asu', name: 'Ain Shams University', short: 'ASU', region: 'Cairo', years: buildYears('ASU') },
+  { id: 'au', name: 'Alexandria University', short: 'AU', region: 'Alexandria', years: buildYears('AU') },
+  { id: 'hu', name: 'Helwan University', short: 'HU', region: 'Helwan, Cairo', years: buildYears('HU') },
+  { id: 'bu', name: 'Beni Suef University', short: 'BU', region: 'Beni Suef', years: buildYears('BU') },
+  { id: 'fu', name: 'Fayoum University', short: 'FU', region: 'Fayoum', years: buildYears('FU') },
+  { id: 'mu', name: 'Menoufia University', short: 'MU', region: 'Menoufia', years: buildYears('MU') },
+  { id: 'tu', name: 'Tanta University', short: 'TU', region: 'Tanta', years: buildYears('TU') },
+  { id: 'zu', name: 'Zagazig University', short: 'ZU', region: 'Zagazig', years: buildYears('ZU') },
+  { id: 'mti', name: 'MTI University', short: 'MTI', region: 'Cairo', years: buildYears('MTI') },
+  { id: 'must', name: 'MUST University', short: 'MUST', region: 'October City, Cairo', years: buildYears('MUST') },
+  { id: 'ksu', name: 'Kafr Elsheikh University', short: 'KSU', region: 'Kafr El Sheikh', years: buildYears('KSU') },
 ]
 
 /** A fresh set of years (default curriculum) for a newly added university. */
 export function newUniversityYears(uniId: string): UniYear[] {
-  return buildYears(uniId, 200)
+  return buildYears(uniId.replace(/[^A-Za-z0-9]/g, '').slice(0, 6) || 'UNI')
 }
 
 export const universitiesById: Record<string, University> = Object.fromEntries(
@@ -79,7 +100,7 @@ export function getUniversity(id: string): University | undefined {
   return universitiesById[id]
 }
 
-export const YEARS = ['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5']
+export const YEARS = ['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5', 'Internship Year 1', 'Internship Year 2']
 
 /* ---- Deterministic content scoping ------------------------------------- */
 
@@ -89,12 +110,12 @@ function hash(s: string): number {
   return h
 }
 
-/** Which universities a content item is tagged for (always includes OMS). */
+/** Legacy deterministic scope helper. New live content must use explicit scope. */
 export function scopeUniversities(key: string): string[] {
   const h = hash(key)
-  const ids = ['oms']
-  if (h % 2 === 0) ids.push('meridian')
-  if (h % 3 === 0) ids.push('northgate')
+  const ids = ['kau']
+  if (h % 2 === 0) ids.push('asu')
+  if (h % 3 === 0) ids.push('au')
   return ids
 }
 

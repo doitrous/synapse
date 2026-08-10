@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { X, Upload, FileText, CheckCircle2 } from 'lucide-react'
 import type { University, UniYear, CurriculumCourse } from '@/data/universities'
-import { defaultModuleId } from '@/data/universities'
+import { defaultModuleId, universityYearId } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
 import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -63,7 +63,8 @@ function parse(md: string): ParseResult {
       curYear.terms = [...(curYear.terms ?? []), curTerm]
       terms++
     } else if (line.startsWith('# ')) {
-      curYear = { year: line.slice(2).trim(), students: 0, courses: [], terms: [] }
+      const label = line.slice(2).trim()
+      curYear = { id: universityYearId('IMPORT', label), year: label, students: 0, courses: [], terms: [] }
       years.push(curYear)
       curTerm = null
     } else if (line.startsWith('- ') || line.startsWith('* ')) {
@@ -105,12 +106,15 @@ export function AcademicImportDialog({ open, university, onClose, onImport }: {
     // Append: keep year labels unique so each year keeps a distinct year_ID.
     const taken = new Set(university.years.map((y) => y.year.toLowerCase()))
     const deduped = result.years.map((y) => {
-      if (!taken.has(y.year.toLowerCase())) { taken.add(y.year.toLowerCase()); return y }
+      if (!taken.has(y.year.toLowerCase())) {
+        taken.add(y.year.toLowerCase())
+        return { ...y, id: universityYearId(university.short, y.year) }
+      }
       let n = 2
       let label = `${y.year} (${n})`
       while (taken.has(label.toLowerCase())) { n++; label = `${y.year} (${n})` }
       taken.add(label.toLowerCase())
-      return { ...y, year: label }
+      return { ...y, id: universityYearId(university.short, label), year: label }
     })
     onImport([...university.years, ...deduped])
   }

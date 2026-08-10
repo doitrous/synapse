@@ -19,6 +19,15 @@ export const CONCEPT_RELATIONS = [
   'associated_with',
   'contrasts_with',
   'often_confused_with',
+  'is_a',
+  'located_in',
+  'supplies',
+  'drains_into',
+  'contains',
+  'composed_of',
+  'accompanies',
+  'regulates',
+  'connects_to',
 ] as const
 
 export const STATEMENT_RELATIONS = ['definition_of', ...CONCEPT_RELATIONS] as const
@@ -40,6 +49,9 @@ export interface Concept {
   id: string
   label: string
   aliases: string[]
+  canonicalKey?: string
+  arabicLabel?: string
+  arabicAliases?: string[]
   definition: string
   /** Common mistakes / traps for this concept. */
   pitfalls?: string
@@ -54,6 +66,12 @@ export interface Concept {
   subtopicId?: string
   microtopicId?: string
   nanotopicId?: string
+  secondaryNodeIds?: string[]
+  conceptType?: string
+  learnerYears?: number[]
+  universityIds?: string[]
+  moduleIds?: string[]
+  explicitObjective?: string
   /** Overall exam-blueprint weight, 0–1. */
   blueprintWeight?: number
   /** Per-year exam-blueprint weight, keyed by year_ID (e.g. OMS_Y2), each 0–1. */
@@ -67,6 +85,25 @@ export interface Concept {
   /** Resource IDs approved for this concept — auto-maintained as resources are tagged. */
   approvedFileResourceIds?: string[]
   approvedVideoResourceIds?: string[]
+  /** Claim-level evidence and reversible canonicalisation lineage. */
+  atomicClaimIds?: string[]
+  resourceOccurrenceIds?: string[]
+  supportMode?: string
+  confidence?: number
+  conflicts?: string[]
+  uncertainty?: string[]
+  evidenceGaps?: string[]
+  sourceCandidateIds?: string[]
+  mergeIds?: string[]
+  rejectedMergeCandidateIds?: string[]
+  originalWording?: string[]
+  owner?: string
+  reviewer?: string
+  lastReviewed?: string
+  reviewDue?: string
+  publicationStatus?: string
+  exclusionReason?: string | null
+  weightConfidence?: number
 }
 
 export interface ConceptRelation {
@@ -74,6 +111,13 @@ export interface ConceptRelation {
   sourceId: string
   type: ConceptRelationType
   targetId: string
+  evidenceClaimIds?: string[]
+  citationIds?: string[]
+  confidence?: number
+  verificationStatus?: 'verified' | 'needs_evidence' | 'conflicted'
+  qualifiers?: Record<string, string | number | boolean | string[]>
+  reviewer?: string
+  reviewedAt?: string
 }
 
 export interface ConceptGraph {

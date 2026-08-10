@@ -20,6 +20,7 @@ import {
   Tag as TagIcon,
   PenLine,
   Trash2,
+  Database,
 } from 'lucide-react'
 import type { LibBlock } from '@/data/library'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
@@ -38,6 +39,8 @@ import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatal
 import { useT } from '@/lib/i18n'
 import { NewArticleDialog } from '@/components/library/NewArticleDialog'
 import { PERSONAL_TAGS_KEY, USER_ARTICLES_KEY, type UserArticle } from '@/data/userLibrary'
+import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type ArticleSpan, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore } from '@/data/medicalEvidence'
+import { apiOpenFile } from '@/lib/api'
 
 function Highlight({ text, query }: { text: string; query: string }) {
   const q = query.trim()
@@ -246,7 +249,7 @@ function Callout({ tone, title, text, query }: { tone: 'accent' | 'warning'; tit
   )
 }
 
-function Blocks({ blocks, query }: { blocks: LibBlock[]; query: string }) {
+function Blocks({ blocks, query, onEvidence }: { blocks: LibBlock[]; query: string; onEvidence?: (spanId: string) => void }) {
   return (
     <>
       {blocks.map((b, i) => {
@@ -273,9 +276,99 @@ function Blocks({ blocks, query }: { blocks: LibBlock[]; query: string }) {
               ))}
             </ul>
           )
+        if (b.type === 'fact')
+          return (
+            <button
+              key={b.spanId ?? i}
+              type="button"
+              onClick={() => b.spanId && onEvidence?.(b.spanId)}
+              className="group mt-3 flex w-full items-start gap-3 rounded-lg border border-accent-line/70 bg-accent-tint/25 px-4 py-3 text-start transition-colors hover:border-accent hover:bg-accent-tint/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35"
+            >
+              <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
+              <span className="min-w-0 flex-1 text-[15px] leading-[1.65] text-ink/90"><Highlight text={b.text ?? ''} query={query} /></span>
+              <span className="inline-flex shrink-0 items-center gap-1 rounded-full border border-accent-line bg-surface px-2 py-0.5 font-mono text-[10px] font-semibold text-accent-strong">
+                <Icon icon={Database} size={11} />{b.citationIds?.length ?? 0}
+              </span>
+            </button>
+          )
         return <Callout key={i} tone={b.tone ?? 'accent'} title={b.title ?? ''} text={b.text ?? ''} query={query} />
       })}
     </>
+  )
+}
+
+function locatorLabel(locator: EvidenceLocator | string): string {
+  if (typeof locator === 'string') return locator
+  const parts = [
+    locator.page != null ? `Page ${locator.page}` : '',
+    locator.printed_page != null ? `Printed page ${locator.printed_page}` : '',
+    locator.section ? `Section ${locator.section}` : '',
+    locator.line ? `Line ${locator.line}` : '',
+    locator.timestamp ? `Time ${locator.timestamp}` : '',
+  ].filter(Boolean)
+  return parts.join(' · ') || locator.type || 'Exact source location'
+}
+
+function citationPage(locator: EvidenceLocator | string): string {
+  if (typeof locator === 'string') return ''
+  return locator.page != null ? `#page=${locator.page}` : ''
+}
+
+function EvidenceDrawer({ span, evidence, onClose }: { span: ArticleSpan; evidence: MedicalEvidenceStore; onClose: () => void }) {
+  const citations = span.citationIds.map((id) => evidence.citations.find((citation) => citation.id === id)).filter(Boolean) as CitationLink[]
+  const claims = span.claimIds.map((id) => evidence.claims.find((claim) => claim.id === id)).filter(Boolean)
+
+  async function openCitation(citation: CitationLink) {
+    const resource = evidence.resources.find((entry) => entry.id === citation.resourceId)
+    if (!resource) return
+    if (resource.sourceUri) {
+      window.open(`${resource.sourceUri}${citationPage(citation.locator)}`, '_blank', 'noopener,noreferrer')
+      return
+    }
+    await apiOpenFile(`/medical-resources/${encodeURIComponent(resource.id)}`, citationPage(citation.locator))
+  }
+
+  return (
+    <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-labelledby="evidence-drawer-title">
+      <button type="button" className="absolute inset-0 bg-ink/25" onClick={onClose} aria-label="Close sources" />
+      <aside className="absolute inset-y-0 end-0 flex w-full max-w-lg flex-col border-s border-line bg-paper shadow-pop">
+        <header className="flex items-start gap-3 border-b border-line bg-surface px-5 py-4">
+          <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Database} size={17} /></span>
+          <div className="min-w-0 flex-1">
+            <h2 id="evidence-drawer-title" className="font-serif text-[18px] font-semibold text-ink">Sources for this fact</h2>
+            <p className="mt-0.5 text-[11.5px] text-ink-3">{citations.length} exact source link{citations.length === 1 ? '' : 's'} · stable fact ID {span.id}</p>
+          </div>
+          <button type="button" onClick={onClose} className="grid size-9 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close sources"><Icon icon={X} size={18} /></button>
+        </header>
+        <div className="min-h-0 flex-1 overflow-y-auto p-5">
+          <div className="rounded-xl border border-line bg-surface p-4">
+            <p className="text-[14px] leading-relaxed text-ink">{span.text}</p>
+            {claims.map((claim) => <span key={claim!.id} className={cn('mt-3 inline-flex rounded-full border px-2 py-0.5 font-mono text-[10px] font-semibold', claim!.verificationStatus === 'verified' ? 'border-success/25 bg-success-tint text-success' : 'border-warning/30 bg-warning-tint text-warning')}>{claim!.verificationStatus.replace('_', ' ')}</span>)}
+          </div>
+          <div className="mt-4 space-y-3">
+            {citations.map((citation) => {
+              const resource = evidence.resources.find((entry) => entry.id === citation.resourceId)
+              return (
+                <section key={citation.id} className="rounded-xl border border-line bg-surface p-4 shadow-panel">
+                  <div className="flex items-start gap-3">
+                    <span className="grid size-8 shrink-0 place-items-center rounded-md bg-inset text-ink-3"><Icon icon={FileText} size={15} /></span>
+                    <div className="min-w-0 flex-1">
+                      <h3 className="text-[13px] font-semibold leading-snug text-ink">{resource?.title ?? citation.resourceId}</h3>
+                      <p className="mt-1 text-[11.5px] text-ink-3">{resource?.institution} · {locatorLabel(citation.locator)}</p>
+                    </div>
+                  </div>
+                  {citation.supportSpan && <p className="mt-3 border-s-2 border-accent-line ps-3 text-[12.5px] leading-relaxed text-ink-2">{citation.supportSpan}</p>}
+                  <div className="mt-3 flex items-center justify-between gap-3">
+                    <span className="text-[10.5px] text-ink-3">{citation.countsAsClaimEvidence ? 'Counts as claim evidence' : 'Article-level context'}</span>
+                    <Button size="sm" variant="secondary" iconLeft={ExternalLink} onClick={() => void openCitation(citation)}>Go to exact source</Button>
+                  </div>
+                </section>
+              )
+            })}
+          </div>
+        </div>
+      </aside>
+    </div>
   )
 }
 
@@ -376,7 +469,10 @@ function Reader({
   const { topics: libraryTopics, subtopics: allSubtopics, updatedAtFor } = useLiveLibrary()
   const st = allSubtopics.find((s) => s.id === id)!
   const subject = getSubject(st.subjectId)
-  const appliesTo = scopeUniversities(id)
+  const appliesTo = st.universityIds?.length ? st.universityIds : scopeUniversities(id)
+  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+  const [selectedSpanId, setSelectedSpanId] = useState<string | null>(null)
+  const selectedSpan = evidence.articleSpans.find((span) => span.id === selectedSpanId)
   const chapterIndex = libraryTopics.find((topic) => topic.id === st.topicId)?.subtopics.findIndex((item) => item.id === id) ?? 0
   const [readArticles, setReadArticles] = usePersistentState<Record<string, boolean>>('synapse.library.read', {})
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
@@ -441,7 +537,7 @@ function Reader({
       <p className="mt-6 text-[16.5px] leading-[1.6] text-ink"><Highlight text={st.summary} query={query} /></p>
 
       <div className="mt-2">
-        <Blocks blocks={st.blocks} query={query} />
+        <Blocks blocks={st.blocks} query={query} onEvidence={setSelectedSpanId} />
       </div>
 
       <div className="mt-10 flex flex-wrap items-center gap-2 border-t border-line pt-5">
@@ -469,6 +565,7 @@ function Reader({
     </aside>
     </div>
     <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
+    {selectedSpan && <EvidenceDrawer span={selectedSpan} evidence={evidence} onClose={() => setSelectedSpanId(null)} />}
     </div>
   )
 }
@@ -553,7 +650,7 @@ export function Library() {
   const [userArticles, setUserArticles] = usePersistentState<UserArticle[]>(USER_ARTICLES_KEY, [])
   const [personalTags, setPersonalTags] = usePersistentState<Record<string, string[]>>(PERSONAL_TAGS_KEY, {})
   const [selectedId, setSelectedId] = useState(
-    allSubtopics.some((s) => s.id === paramId) ? (paramId as string) : allSubtopics[0].id,
+    allSubtopics.some((s) => s.id === paramId) ? (paramId as string) : (allSubtopics[0]?.id ?? userArticles[0]?.id ?? ''),
   )
   const [query, setQuery] = useState('')
   const [activeTag, setActiveTag] = useState<string | null>(null)
@@ -561,7 +658,7 @@ export function Library() {
   const [creating, setCreating] = useState(false)
   const [expanded, setExpanded] = useState<Record<string, boolean>>(() => {
     // Expand the topic that owns the initially-selected subtopic.
-    const owner = libraryTopics.find((tp) => tp.subtopics.some((s) => s.id === (allSubtopics.some((x) => x.id === paramId) ? paramId : allSubtopics[0].id)))
+    const owner = libraryTopics.find((tp) => tp.subtopics.some((s) => s.id === (allSubtopics.some((x) => x.id === paramId) ? paramId : allSubtopics[0]?.id)))
     return owner ? { [owner.id]: true } : {}
   })
 
@@ -572,7 +669,11 @@ export function Library() {
       const owner = libraryTopics.find((tp) => tp.subtopics.some((s) => s.id === paramId))
       if (owner) setExpanded((prev) => ({ ...prev, [owner.id]: true }))
     }
-  }, [paramId])
+  }, [allSubtopics, libraryTopics, paramId])
+
+  useEffect(() => {
+    if (!selectedId && allSubtopics[0]?.id) setSelectedId(allSubtopics[0].id)
+  }, [allSubtopics, selectedId])
 
   const reusableTags = useMemo(() => {
     const set = new Set<string>()
@@ -672,11 +773,11 @@ export function Library() {
             onDelete={() => {
               setUserArticles((prev) => prev.filter((a) => a.id !== selectedUserArticle.id))
               setTagsFor(selectedUserArticle.id, [])
-              setSelectedId(allSubtopics[0].id)
+              setSelectedId(allSubtopics[0]?.id ?? '')
             }}
             query={query}
           />
-        ) : (
+        ) : allSubtopics.some((article) => article.id === selectedId) ? (
           <Reader
             id={selectedId}
             tags={personalTags[selectedId] ?? []}
@@ -684,6 +785,14 @@ export function Library() {
             onTagsChange={(next) => setTagsFor(selectedId, next)}
             query={query}
           />
+        ) : (
+          <div className="grid min-h-[60vh] place-items-center px-6 text-center">
+            <div className="max-w-md">
+              <span className="mx-auto grid size-11 place-items-center rounded-xl bg-accent-tint text-accent-strong"><Icon icon={BookOpen} size={20} /></span>
+              <h1 className="mt-4 font-serif text-[22px] font-semibold text-ink">The medical library is being prepared</h1>
+              <p className="mt-2 text-[13px] leading-relaxed text-ink-3">Only medically reviewed articles appear here. Drafts and claims that still need evidence remain in the admin review queue.</p>
+            </div>
+          </div>
         )}
       </div>
 

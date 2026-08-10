@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ImportWizard, type ImportField } from '@/components/admin/ImportWizard'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
-import { defaultModuleId, type CurriculumCourse, type UniYear } from '@/data/universities'
+import { defaultModuleId, universityYearId, type CurriculumCourse, type UniYear } from '@/data/universities'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Field, Select } from '@/components/ui/Field'
 
@@ -37,7 +37,10 @@ export function AcademicImportPage() {
       if (!yearLabel || !moduleName) { errors.push(`Row ${i + 2}: year and module are required.`); return }
       const term = v.term?.trim() || 'Term 1'
       let year = years.find((y) => y.year.toLowerCase() === yearLabel.toLowerCase())
-      if (!year) { year = { year: yearLabel, students: Number(v.students) || 0, courses: [], terms: [] }; years.push(year) }
+      if (!year) {
+        year = { id: universityYearId(uni.short, yearLabel), year: yearLabel, students: Number(v.students) || 0, courses: [], terms: [] }
+        years.push(year)
+      }
       if (v.students && !year.students) year.students = Number(v.students) || 0
       if (!year.terms?.includes(term)) year.terms = [...(year.terms ?? []), term]
       const moduleId = uniqueId((v.module_id?.trim() || defaultModuleId(moduleName, year.courses.length + 1)))

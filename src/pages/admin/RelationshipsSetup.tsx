@@ -13,6 +13,7 @@ import { subjects, getSubject } from '@/data/student'
 import { libraryTopics } from '@/data/library'
 import { useTaxonomyTree, renameTaxonomyNode } from '@/data/taxonomyStore'
 import { cn } from '@/lib/cn'
+import { MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 
 /** Click-to-rename inline label. */
 function EditableLabel({ value, onSave }: { value: string; onSave: (v: string) => void }) {
@@ -41,6 +42,7 @@ const slugType = (s: string) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '_
 
 export function RelationshipsSetup() {
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [customTypes, setCustomTypes] = usePersistentState<string[]>(RELATION_TYPES_KEY, [])
   const allTypes = [...RELATION_TYPES, ...customTypes.filter((t) => !RELATION_TYPES.includes(t as ConceptRelationType))]
@@ -50,6 +52,8 @@ export function RelationshipsSetup() {
   const [type, setType] = useState<ConceptRelationType>('associated_with')
   const [targets, setTargets] = useState<string[]>([])
   const [bidirectional, setBidirectional] = useState(false)
+  const [evidenceClaimText, setEvidenceClaimText] = useState('')
+  const [citationText, setCitationText] = useState('')
   const [newType, setNewType] = useState('')
   const [notice, setNotice] = useState<string | null>(null)
   const [importing, setImporting] = useState(false)
@@ -158,11 +162,20 @@ export function RelationshipsSetup() {
     if (!source || tgts.length === 0) return
     const exists = new Set(graph.relations.map((r) => `${r.sourceId}|${r.type}|${r.targetId}`))
     const additions: ConceptGraph['relations'] = []
+    const requestedClaims = evidenceClaimText.split(/[\s,;|]+/).map((value) => value.trim()).filter(Boolean)
+    const evidenceClaimIds = requestedClaims.filter((id) => evidence.claims.some((claim) => claim.id === id))
+    const requestedCitations = citationText.split(/[\s,;|]+/).map((value) => value.trim()).filter(Boolean)
+    const citationIds = requestedCitations.filter((id) => evidence.citations.some((citation) => citation.id === id && evidenceClaimIds.includes(citation.claimId)))
+    const supportingClaims = evidenceClaimIds.map((id) => evidence.claims.find((claim) => claim.id === id)!).filter(Boolean)
+    const verificationStatus = supportingClaims.length > 0 && supportingClaims.every((claim) => claim.verificationStatus === 'verified') && citationIds.length > 0
+      ? 'verified' as const
+      : 'needs_evidence' as const
+    const confidence = supportingClaims.length ? Math.min(...supportingClaims.map((claim) => claim.confidence)) : 0
     let dup = 0
     const push = (s: string, t: string) => {
       const key = `${s}|${type}|${t}`
       if (exists.has(key) || additions.some((a) => `${a.sourceId}|${a.type}|${a.targetId}` === key)) { dup++; return }
-      additions.push({ id: `rel-${Date.now()}-${additions.length}`, sourceId: s, type, targetId: t })
+      additions.push({ id: `rel-${Date.now()}-${additions.length}`, sourceId: s, type, targetId: t, evidenceClaimIds, citationIds, confidence, verificationStatus, reviewer: 'Medical team, Admin team', reviewedAt: verificationStatus === 'verified' ? new Date().toISOString() : undefined })
     }
     // One source → many targets; optionally back-and-forth (both directions).
     tgts.forEach((t) => { push(source, t); if (bidirectional) push(t, source) })
@@ -172,6 +185,8 @@ export function RelationshipsSetup() {
       ? `Added ${additions.length} relationship${additions.length === 1 ? '' : 's'}${dir}${dup ? `, ${dup} duplicate skipped` : ''}.`
       : 'Those relationships already exist.')
     setTargets([])
+    setEvidenceClaimText('')
+    setCitationText('')
   }
 
   const addTarget = (id: string) => { if (id && !targets.includes(id)) setTargets((cur) => [...cur, id]) }
@@ -215,7 +230,7 @@ export function RelationshipsSetup() {
       const addOne = (sId: string, tId: string) => {
         const key = `${sId}|${ty}|${tId}`
         if (existing.has(key) || additions.some((a) => `${a.sourceId}|${a.type}|${a.targetId}` === key)) { skipped++; return }
-        additions.push({ id: `rel-imp-${Date.now()}-${index}-${additions.length}`, sourceId: sId, type: ty as ConceptRelationType, targetId: tId })
+        additions.push({ id: `rel-imp-${Date.now()}-${index}-${additions.length}`, sourceId: sId, type: ty as ConceptRelationType, targetId: tId, evidenceClaimIds: [], citationIds: [], confidence: 0, verificationStatus: 'needs_evidence', reviewer: 'Medical team, Admin team' })
       }
       addOne(src.id, tgt.id)
       if (both) addOne(tgt.id, src.id)
@@ -336,6 +351,15 @@ export function RelationshipsSetup() {
             )}
           </Field>
         </div>
+        <div className="grid gap-3 border-t border-line px-4 py-3 sm:grid-cols-2">
+          <Field label="Evidence claim ID(s)" hint="Required for a verified relationship. Comma-separated.">
+            <TextInput value={evidenceClaimText} onChange={(event) => setEvidenceClaimText(event.target.value)} placeholder="CLM-CVS-…" />
+          </Field>
+          <Field label="Citation ID(s)" hint="Must belong to the selected claims and point to exact source locations.">
+            <TextInput value={citationText} onChange={(event) => setCitationText(event.target.value)} placeholder="CIT-…, CIT-…" />
+          </Field>
+          <p className="sm:col-span-2 text-[11px] leading-relaxed text-ink-3">Synapse marks the relationship verified only when every supplied claim is verified and at least one matching exact citation is present. Otherwise it remains “needs evidence.”</p>
+        </div>
         <div className="flex items-center justify-between gap-2 px-4 pb-4">
           <p className="text-[11.5px] text-ink-3">{source && targets.length ? `${conceptLabel(source)} ${bidirectional ? '↔' : '→'} ${type} ${bidirectional ? '↔' : '→'} ${targets.length} concept${targets.length === 1 ? '' : 's'}` : 'Pick a source and one or more targets.'}</p>
           <Button variant="primary" iconLeft={Plus} onClick={addRelation} disabled={!source || targets.length === 0}>Add {targets.length > 1 ? `${targets.length} relations` : 'relation'}</Button>
@@ -410,7 +434,7 @@ export function RelationshipsSetup() {
                         ) : (
                           <Tr key={rel.id} hover>
                             <Td className="pl-4 font-medium ps-10">{conceptLabel(rel.sourceId)}</Td>
-                            <Td><span className="inline-flex items-center gap-1.5"><Badge tone="accent">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span></Td>
+                            <Td><span className="inline-flex items-center gap-1.5"><Badge tone="accent">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span><span className="mt-1 block"><Badge tone={rel.verificationStatus === 'verified' ? 'success' : 'warning'}>{rel.verificationStatus ?? 'needs evidence'}</Badge></span></Td>
                             <Td className="text-ink-2">{conceptLabel(rel.targetId)}</Td>
                             <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="ghost" size="sm" iconLeft={Pencil} onClick={() => startEdit(rel)}>Edit</Button><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)}>Remove</Button></div></Td>
                           </Tr>

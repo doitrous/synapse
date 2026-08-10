@@ -5,18 +5,29 @@
  * concepts, questions, articles, and resources tag themselves with.
  */
 import { subjects, getSubject } from './student'
-import { libraryTopics } from './library'
 import { getUniversity } from './universities'
+import {
+  CURRICULUM_CATALOG,
+  curriculumSystemId,
+  curriculumTopicId,
+  curriculumSubtopicId,
+  curriculumMicrotopicId,
+  curriculumNanotopicId,
+} from './curriculumCatalog'
 
 const up = (s: string) => s.toUpperCase().replace(/[^A-Z0-9]+/g, '_').replace(/(^_|_$)/g, '')
 
-export const systemId = (subjectId: string) => `SYS_${up(subjectId)}`
-export const topicIdOf = (topicId: string) => `TPC_${up(topicId)}`
-export const subtopicIdOf = (subtopicId: string) => `SUB_${up(subtopicId)}`
-export const microtopicIdOf = (microtopicId: string) => `MIC_${up(microtopicId)}`
-export const nanotopicIdOf = (nanotopicId: string) => `NAN_${up(nanotopicId)}`
+export const systemId = curriculumSystemId
+export const topicIdOf = curriculumTopicId
+export const subtopicIdOf = curriculumSubtopicId
+export const microtopicIdOf = curriculumMicrotopicId
+export const nanotopicIdOf = curriculumNanotopicId
 export const universityId = (uniId: string) => (getUniShort(uniId) || up(uniId))
-export const yearId = (uniId: string, year: string) => `${getUniShort(uniId) || up(uniId)}_Y${year.replace(/\D/g, '') || '1'}`
+export const yearId = (uniId: string, year: string) => {
+  const short = getUniShort(uniId) || up(uniId)
+  const number = year.replace(/\D/g, '') || '1'
+  return /internship/i.test(year) ? `${short}_INT${number}` : `${short}_Y${number}`
+}
 
 function getUniShort(uniId: string): string | undefined {
   // Read from the persistent Academic Setup catalogue (localStorage) first, so a
@@ -31,33 +42,32 @@ export interface TaxSystem { id: string; name: string; short: string; sysId: str
 
 /** The full derived taxonomy tree with visible IDs, for pickers and the editor. */
 export function taxonomyTree(): TaxSystem[] {
-  return subjects.map((subj) => ({
-    id: subj.id,
-    name: subj.name,
-    short: subj.short,
-    sysId: systemId(subj.id),
-    topics: libraryTopics
-      .filter((t) => t.subjectId === subj.id)
-      .map((t) => ({
-        id: t.id,
-        title: t.title,
-        tpcId: topicIdOf(t.id),
-        subtopics: t.subtopics.map((s) => ({ id: s.id, title: s.title, subId: subtopicIdOf(s.id) })),
-      })),
+  return CURRICULUM_CATALOG.map((system) => ({
+    id: system.id,
+    name: system.name,
+    short: system.short,
+    sysId: system.sysId,
+    topics: system.topics.map((topic) => ({
+      id: topic.id,
+      title: topic.title,
+      tpcId: topic.tpcId,
+      subtopics: topic.subs.map(({ id, title, subId }) => ({ id, title, subId })),
+    })),
   }))
 }
 
-/** Resolve the system/topic/subtopic IDs for a library subtopic (article) id. */
+/** Resolve any curriculum node slug or visible ID to its complete path. */
 export function scopeForSubtopic(subtopicId: string): { systemId?: string; topicId?: string; subtopicId?: string; subjectId?: string; topicSlug?: string } {
-  for (const topic of libraryTopics) {
-    const sub = topic.subtopics.find((s) => s.id === subtopicId)
-    if (sub) {
+  for (const system of CURRICULUM_CATALOG) {
+    for (const topic of system.topics) {
+      const subtopic = topic.subs.find((node) => node.id === subtopicId || node.subId === subtopicId)
+      if (!subtopic) continue
       return {
-        subjectId: topic.subjectId,
+        subjectId: system.id,
         topicSlug: topic.id,
-        systemId: systemId(topic.subjectId),
-        topicId: topicIdOf(topic.id),
-        subtopicId: subtopicIdOf(sub.id),
+        systemId: system.sysId,
+        topicId: topic.tpcId,
+        subtopicId: subtopic.subId,
       }
     }
   }

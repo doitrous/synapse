@@ -4,6 +4,8 @@ import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentI
 import { libraryTopics as SEED_TOPICS, updatedAtFor as seedUpdatedAtFor, type LibTopic, type Subtopic, type LibBlock } from '@/data/library'
 import { universities } from '@/data/universities'
 import { subjects } from '@/data/student'
+import { API_MODE } from './api'
+import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 
 export type LiveSubtopic = Subtopic & { topicId: string; topicTitle: string; subjectId: string }
 
@@ -58,13 +60,19 @@ function overlaySubtopic(sub: Subtopic, item: ManagedContentItem | undefined): S
 }
 
 /** Build a fresh subtopic from an admin-created article that has no seed. */
-function articleToSubtopic(item: ManagedContentItem): Subtopic {
+function articleToSubtopic(item: ManagedContentItem, evidence: MedicalEvidenceStore): Subtopic {
   const d = item.articleData
-  const sections = (d?.sections ?? []).filter((s) => s.heading?.trim() || s.body?.trim())
+  const sections = (d?.sections ?? [])
+    .filter((s) => s.heading?.trim() || s.body?.trim())
+    .filter((s) => !/^Evidence not yet available/i.test(s.body.trim()))
+    .sort((a, b) => (a.kind === 'components' ? 1 : 0) - (b.kind === 'components' ? 1 : 0))
   const blocks: LibBlock[] = []
   sections.forEach((s) => {
     if (s.heading?.trim()) blocks.push({ type: 'h', text: s.heading.trim() })
-    if (s.body?.trim()) blocks.push(...bodyToBlocks(s.body))
+    const spans = (s.spanIds ?? []).map((id) => evidence.articleSpans.find((span) => span.id === id)).filter(Boolean)
+    if (spans.length) {
+      spans.forEach((span) => blocks.push({ type: 'fact', text: span!.text, spanId: span!.id, claimIds: span!.claimIds, citationIds: span!.citationIds }))
+    } else if (s.body?.trim()) blocks.push(...bodyToBlocks(s.body))
   })
   ;(d?.loseTheMark ?? []).filter(Boolean).forEach((text) => blocks.push({ type: 'callout', tone: 'warning', text }))
   ;(d?.universityNotes ?? []).filter((n) => n.text?.trim()).forEach((n) => {
@@ -79,8 +87,15 @@ function articleToSubtopic(item: ManagedContentItem): Subtopic {
     blocks,
     keyPoints: (d?.holdThese ?? []).filter(Boolean),
     questions: [],
-    resources: [],
+    resources: (d?.resourceIds ?? []).map((id) => evidence.resources.find((resource) => resource.id === id)?.title ?? id),
     updatedAt: item.updatedAt,
+    universityIds: d?.universityIds ?? [],
+    yearIds: d?.yearIds ?? [],
+    moduleIds: d?.moduleIds ?? [],
+    relatedConceptIds: d?.relatedConceptIds ?? [],
+    resourceIds: d?.resourceIds ?? [],
+    evidenceState: item.fields['Evidence state'],
+    publicationGate: d?.publicationGate,
   }
 }
 
@@ -92,14 +107,16 @@ function articleToSubtopic(item: ManagedContentItem): Subtopic {
  */
 export function useLiveLibrary() {
   const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
 
   return useMemo(() => {
-    const articleItems = ledger.filter((i) => i.kind === 'article' && i.status !== 'Archived')
+    const articleItems = ledger.filter((i) => i.kind === 'article' && i.status !== 'Archived' && (!API_MODE || i.status === 'Published'))
     const byId = new Map(articleItems.map((i) => [i.id, i]))
-    const seededIds = new Set(SEED_TOPICS.flatMap((t) => t.subtopics.map((s) => s.id)))
+    const baseTopics = API_MODE ? [] : SEED_TOPICS
+    const seededIds = new Set(baseTopics.flatMap((t) => t.subtopics.map((s) => s.id)))
 
     // 1) Seeded topics with overlays, dropping any article the admin archived.
-    const topics: LibTopic[] = SEED_TOPICS.map((tp) => ({
+    const topics: LibTopic[] = baseTopics.map((tp) => ({
       ...tp,
       subtopics: tp.subtopics
         .filter((s) => byId.has(s.id) || !ledger.some((i) => i.id === s.id)) // hide only if explicitly archived
@@ -119,7 +136,7 @@ export function useLiveLibrary() {
           topics.push(topic)
           topicByKey.set(key, topic)
         }
-        topic.subtopics.push(articleToSubtopic(item))
+        topic.subtopics.push(articleToSubtopic(item, evidence))
       })
 
     const orderedTopics = topics.filter((t) => t.subtopics.length > 0)
@@ -133,5 +150,5 @@ export function useLiveLibrary() {
     }
 
     return { topics: orderedTopics, subtopics, updatedAtFor, subjects }
-  }, [ledger])
+  }, [evidence, ledger])
 }

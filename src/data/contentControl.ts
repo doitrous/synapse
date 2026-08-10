@@ -8,6 +8,9 @@ import { resources } from './resources'
 import type { ConceptAnnotation } from './conceptGraph'
 import type { ArticleSection } from './userLibrary'
 
+export type ArticleArchetype = 'condition' | 'presentation' | 'concept' | 'anatomy' | 'drug' | 'skill' | 'investigation' | 'organism' | 'emergency' | 'public-health'
+export type PublicationGate = 'publishable' | 'needs_evidence' | 'faculty_review' | 'conflicted' | 'excluded'
+
 export type ContentKind = 'question' | 'article' | 'practical' | 'resource'
 
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
@@ -75,6 +78,12 @@ export interface QuestionAuthoringData {
 }
 
 export interface ArticleAuthoringData {
+  /** Canonical identity and article-template fields. */
+  arabicTitle?: string
+  aliases?: string[]
+  templateId?: string
+  archetype?: ArticleArchetype
+  language?: string
   summary: string
   /** Legacy single-body text; superseded by named `sections` but kept for imports. */
   body: string
@@ -93,10 +102,27 @@ export interface ArticleAuthoringData {
   moduleIds?: string[]
   subtopicId?: string
   microtopicId?: string
+  nanotopicId?: string
   /** Concept IDs related to this article (from here, or auto-caught from a concept). */
   relatedConceptIds?: string[]
   /** University-specific notes (e.g. "Ain Shams only"), rendered as distinct callouts. */
   universityNotes?: Array<{ id: string; universityId: string; text: string }>
+  /** Article and evidence governance. */
+  reviewer?: string
+  finalPublisher?: string
+  reviewDue?: string
+  lastReviewed?: string
+  highYield?: 'Core' | 'High' | 'Supplementary'
+  timeSensitive?: 'stable' | 'time_sensitive'
+  publicationGate?: PublicationGate
+  evidenceBasis?: string[]
+  articleLevelSourceIds?: string[]
+  claimIds?: string[]
+  spanIds?: string[]
+  conflicts?: string[]
+  evidenceGaps?: string[]
+  relatedArticleIds?: string[]
+  notes?: string
 }
 
 export interface PracticalAnswerDraft {
@@ -181,6 +207,16 @@ export interface ResourceConceptLocation {
 }
 
 export interface ResourceAuthoringData {
+  universityIds?: string[]
+  yearIds?: string[]
+  institution?: string
+  collectionId?: string
+  storageKey?: string
+  sha256?: string
+  rights?: string
+  processingStatus?: string
+  reviewer?: string
+  finalPublisher?: string
   /** Every chapter this resource covers (multi-select). */
   chapters: string[]
   /** Every module ID this resource is attached to (multi-select). */

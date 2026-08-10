@@ -1,9 +1,13 @@
 export interface LibBlock {
-  type: 'p' | 'h' | 'list' | 'callout'
+  type: 'p' | 'h' | 'list' | 'callout' | 'fact'
   text?: string
   items?: string[]
   title?: string
   tone?: 'accent' | 'warning'
+  /** Stable evidence anchor and all claims/citations supporting this fact. */
+  spanId?: string
+  claimIds?: string[]
+  citationIds?: string[]
 }
 
 export interface LinkedQuestion {
@@ -22,6 +26,13 @@ export interface Subtopic {
   resources: string[]
   /** Editorial timestamp for the reader byline. */
   updatedAt?: string
+  universityIds?: string[]
+  yearIds?: string[]
+  moduleIds?: string[]
+  relatedConceptIds?: string[]
+  resourceIds?: string[]
+  evidenceState?: string
+  publicationGate?: string
 }
 
 export interface LibTopic {

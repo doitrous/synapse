@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import { ChevronsUpDown } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
@@ -7,6 +8,8 @@ import { Avatar } from '@/components/ui/Avatar'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
+import { API_MODE } from '@/lib/api'
+import { supabase } from '@/lib/supabase'
 
 export function Sidebar({
   portal,
@@ -19,6 +22,18 @@ export function Sidebar({
 }) {
   const groups = navFor(portal)
   const t = useT()
+  const [profile, setProfile] = useState(() => API_MODE
+    ? { name: portal === 'admin' ? 'Admin team' : 'Student', detail: portal === 'admin' ? 'Curriculum admin' : 'Medicine' }
+    : { name: 'Maya Adeyemi', detail: portal === 'admin' ? 'Curriculum admin' : 'Year 3 · Medicine' })
+
+  useEffect(() => {
+    if (!API_MODE || !supabase) return
+    void supabase.auth.getUser().then(({ data }) => {
+      const email = data.user?.email
+      const metadataName = data.user?.user_metadata?.full_name || data.user?.user_metadata?.name
+      if (email || metadataName) setProfile({ name: metadataName || email || 'Synapse user', detail: portal === 'admin' ? 'Curriculum admin' : 'Medicine' })
+    })
+  }, [portal])
 
   return (
     <div className="flex h-full flex-col bg-surface">
@@ -88,15 +103,15 @@ export function Sidebar({
             'flex w-full items-center gap-2.5 rounded-md py-1.5 text-start transition-colors hover:bg-inset',
             collapsed ? 'justify-center px-0' : 'px-2',
           )}
-          title={collapsed ? 'Maya Adeyemi · Year 3' : undefined}
+          title={collapsed ? `${profile.name} · ${profile.detail}` : undefined}
         >
-          <Avatar name="Maya Adeyemi" size="sm" />
+          <Avatar name={profile.name} size="sm" />
           {!collapsed && (
             <>
               <span className="min-w-0 flex-1">
-                <span className="block truncate text-[13px] font-medium text-ink">Maya Adeyemi</span>
+                <span className="block truncate text-[13px] font-medium text-ink">{profile.name}</span>
                 <span className="block truncate text-[11.5px] text-ink-3">
-                  {portal === 'admin' ? t('Curriculum admin') : t('Year 3 · Medicine')}
+                  {t(profile.detail)}
                 </span>
               </span>
               <Icon icon={ChevronsUpDown} size={15} className="text-ink-3" />

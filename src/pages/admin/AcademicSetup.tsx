@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { CalendarDays, Plus, X, Trash2, MapPin, Building2, SlidersHorizontal, Pencil, Check, Upload } from 'lucide-react'
 import type { CurriculumCourse, University } from '@/data/universities'
-import { newUniversityYears, defaultModuleId } from '@/data/universities'
+import { newUniversityYears, defaultModuleId, universityYearId } from '@/data/universities'
 import { yearId } from '@/data/taxonomy'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -82,14 +82,17 @@ export function AcademicSetup() {
     setUnis((prev) => prev.map((u) => (u.id === selectedId ? fn(u) : u)))
 
   function addYear() {
-    patchSelected((u) => ({ ...u, years: [...u.years, { year: `Year ${u.years.length + 1}`, students: 0, courses: [], terms: [DEFAULT_TERM] }] }))
+    patchSelected((u) => {
+      const label = `Year ${u.years.length + 1}`
+      return { ...u, years: [...u.years, { id: universityYearId(u.short, label), year: label, students: 0, courses: [], terms: [DEFAULT_TERM] }] }
+    })
   }
   function removeYear(yearIdx: number) {
     patchSelected((u) => ({ ...u, years: u.years.filter((_, i) => i !== yearIdx) }))
   }
   function saveYearLabel(yearIdx: number) {
     const label = yearLabel.trim()
-    if (label) patchSelected((u) => ({ ...u, years: u.years.map((y, i) => (i === yearIdx ? { ...y, year: label } : y)) }))
+    if (label) patchSelected((u) => ({ ...u, years: u.years.map((y, i) => (i === yearIdx ? { ...y, id: universityYearId(u.short, label), year: label } : y)) }))
     setRenamingYear(null)
   }
   function addTerm(yearIdx: number) {

@@ -36,7 +36,11 @@ export function SubjectsImportPage() {
       const sysName = v.system?.trim()
       if (!sysName) { errors.push(`Row ${i + 2}: system is required.`); return }
       let sys = draft.find((s) => s.name.toLowerCase() === sysName.toLowerCase())
-      if (!sys) { const id = uid(slug(sysName)); sys = { id, name: sysName, short: sysName.slice(0, 3).toUpperCase(), sysId: systemId(id), topics: [] }; draft.push(sys); systems++ }
+      if (!sys) {
+        const id = uid(slug(sysName))
+        const created: TaxSysNode = { id, name: sysName, short: sysName.slice(0, 3).toUpperCase(), color: '#8a938f', sysId: systemId(id), topics: [] }
+        sys = created; draft.push(created); systems++
+      }
 
       if (!v.topic?.trim()) return
       let top = byName(sys.topics, v.topic.trim())

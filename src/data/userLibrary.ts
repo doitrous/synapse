@@ -14,6 +14,10 @@ export interface ArticleSection {
   heading: string
   /** Free-text body for the section. */
   body: string
+  /** Content sections render first; the components section is always placed last. */
+  kind?: 'content' | 'components'
+  /** Stable evidence spans inside this section. */
+  spanIds?: string[]
 }
 
 export interface UserArticle {

@@ -88,3 +88,9 @@ export function requireAdmin(req, res, next) {
   }
   return next()
 }
+
+/** Explicit route-level guard for student/staff-only files. */
+export function requireAuthenticated(req, res, next) {
+  if (!req.identity) return res.status(401).json({ error: 'unauthorized' })
+  return next()
+}

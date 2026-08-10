@@ -1,43 +1,38 @@
 import { usePersistentState } from '@/lib/usePersistentState'
-import { API_MODE } from '@/lib/api'
-import { taxonomyTree, systemId, topicIdOf, subtopicIdOf, microtopicIdOf, nanotopicIdOf } from '@/data/taxonomy'
+import {
+  freshCurriculumCatalog,
+  curriculumSlug,
+  curriculumSystemId,
+  curriculumTopicId,
+  curriculumSubtopicId,
+  curriculumMicrotopicId,
+  curriculumNanotopicId,
+  type CurriculumNano,
+  type CurriculumMicro,
+  type CurriculumSubtopic,
+  type CurriculumTopic,
+  type CurriculumSystem,
+} from '@/data/curriculumCatalog'
 
-export const TAXONOMY_STORAGE_KEY = 'synapse-taxonomy-tree-v3'
+export const TAXONOMY_STORAGE_KEY = 'synapse-taxonomy-tree-v4'
 
-export const slug = (s: string) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'item'
+export const slug = curriculumSlug
 
-export interface TaxNano { id: string; title: string; nanId: string }
-export interface TaxMicro { id: string; title: string; micId: string; nanos: TaxNano[] }
-export interface TaxSub { id: string; title: string; subId: string; micros: TaxMicro[] }
-export interface TaxTopicNode { id: string; title: string; tpcId: string; subs: TaxSub[] }
-export interface TaxSysNode { id: string; name: string; short: string; sysId: string; topics: TaxTopicNode[] }
-
-/** A few demo microtopics (with nanotopics) so every level is populated. */
-const DEMO_MICROS: Record<string, Record<string, string[]>> = {
-  'hf-patho': { 'Frank–Starling curve': ['Preload reserve', 'Length–tension relationship'], 'Neurohormonal activation': [] },
-  'acs-dx': { 'ECG territories': ['Inferior leads (II, III, aVF)'], 'Troponin kinetics': [] },
-  'asthma-patho': { 'Type-2 inflammation': [] },
-  'diur-sites': { 'Nephron transporters': [] },
-}
+export type TaxNano = CurriculumNano
+export type TaxMicro = CurriculumMicro
+export type TaxSub = CurriculumSubtopic
+export type TaxTopicNode = CurriculumTopic
+export type TaxSysNode = CurriculumSystem
 
 export function seedTaxonomy(): TaxSysNode[] {
-  if (API_MODE) return [] // live mode: taxonomy is authored in-app and stored in the backend
-  return taxonomyTree().map((s) => ({
-    id: s.id, name: s.name, short: s.short, sysId: s.sysId,
-    topics: s.topics.map((t) => ({
-      id: t.id, title: t.title, tpcId: t.tpcId,
-      subs: t.subtopics.map((st) => ({
-        id: st.id, title: st.title, subId: st.subId,
-        micros: Object.entries(DEMO_MICROS[st.id] ?? {}).map(([m, nanos]) => ({
-          id: slug(m), title: m, micId: microtopicIdOf(slug(m)),
-          nanos: nanos.map((n) => ({ id: slug(n), title: n, nanId: nanotopicIdOf(slug(n)) })),
-        })),
-      })),
-    })),
-  }))
+  return freshCurriculumCatalog()
 }
 
-export { systemId, topicIdOf, subtopicIdOf, microtopicIdOf, nanotopicIdOf }
+export const systemId = curriculumSystemId
+export const topicIdOf = curriculumTopicId
+export const subtopicIdOf = curriculumSubtopicId
+export const microtopicIdOf = curriculumMicrotopicId
+export const nanotopicIdOf = curriculumNanotopicId
 
 /** Every slug ID in the tree, for uniqueness checks. */
 function allTaxIds(tree: TaxSysNode[]): Set<string> {
