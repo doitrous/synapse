@@ -41,15 +41,23 @@ Point it at this repo, branch `main`, and set:
 | `RESEND_API_KEY` | copy the **sending** key from `.env.local` | no |
 | `MAIL_FROM` | `synapse@mail.doitrous.com` | no |
 | `API_BEARER` | a long random string (`openssl rand -hex 32`) | no |
-| `VITE_API_TOKEN` | **the same** random string as `API_BEARER` | **yes — tick "Build variable"** |
+| `AUTH_BYPASS_ENABLED` | `true` until preview access is explicitly removed | no |
+| `SUPABASE_URL` | your Supabase project URL | no |
+| `VITE_SUPABASE_URL` | the same Supabase project URL | **yes** |
+| `VITE_SUPABASE_PUBLISHABLE_KEY` | Supabase publishable key (never service-role) | **yes** |
 
-> `VITE_API_TOKEN` must be available **at build time** (it's baked into the
-> website's JS so it can call your API). In Coolify, mark it as a *Build Variable*
-> (or *Build Time*). `VITE_API_BASE` is already hardcoded to `/api` in the
-> Dockerfile — you don't set it. `CORS_ORIGIN` isn't needed (same origin).
+> Never create `VITE_API_TOKEN`: every `VITE_` value is public in the browser
+> bundle. `API_BEARER` stays server-only. Open `/login`, enter it under
+> **Temporary owner access**, and it will live only in that browser tab.
+> `VITE_API_BASE` is already hardcoded to `/api` in the Dockerfile.
+
+The preview credential is not the final student authentication system. Once
+Supabase is connected and tested, disable it only by explicit owner instruction:
+set `AUTH_BYPASS_ENABLED=false`, remove `API_BEARER`, rebuild,
+and confirm both student and admin role checks before declaring the bypass closed.
 
 **Deploy.** Then:
-- `https://<your-domain>/api/health` → `{"ok":true}` (DB tables auto-create on first boot).
+- `https://<your-domain>/api/health` → `{"ok":true,"authBypass":true}` (DB tables auto-create on first boot).
 - `https://<your-domain>/` → the app loads **empty** (no demo data), reads/writes MariaDB.
   Add a system in Subjects & Topics, reload → it persists. Open **Mail Box** → compose works.
 

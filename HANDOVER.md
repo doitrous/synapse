@@ -118,26 +118,28 @@ it into the API image.
 
 ## 5. What's PENDING / next steps
 
-1. **Deploy the live stack** (the app is currently only running in local demo mode).
-   Follow **`DEPLOY-STEPS.md`**: one Coolify app (root Dockerfile, port 8080) + the
-   existing MariaDB. Set `DATABASE_URL` (internal host), `RESEND_API_KEY`, `MAIL_FROM`,
-   `API_BEARER`, and `VITE_API_TOKEN` (build variable). Then close the public DB port.
-   - **Not yet verified end-to-end against a real DB** — the Docker build and the live
-     DB connection couldn't run in the dev sandbox (no daemon / no egress). First real
-     deploy should confirm `/api/health` and that data persists.
-2. **Mail Box — Inbox (receiving)**: sending/outbox/attachments/new-addresses are built;
-   the Inbox needs **Resend inbound routing** for `mail.doitrous.com` pointed at
-   `POST /api/webhooks/resend/inbound` (the endpoint exists). DNS/MX + Resend config, then done.
-3. **Real authentication**: currently a shared `API_BEARER` (baked into the client as
-   `VITE_API_TOKEN`) gates `/api`. Replace with real login (email+password or magic link)
-   before multi-user production. There is **no user auth / roles** yet.
+1. **Deploy the current live stack** by following **`DEPLOY-STEPS.md`**: one Coolify
+   app (root Dockerfile, port 8080) + the existing MariaDB. The production deploy
+   must verify `/api/health`, empty academic setup, persistence, and a downloadable
+   database snapshot.
+2. **Mail Box — external inbound proof**: Resend sending, SPF, DKIM, and inbound MX
+   are verified. Send one message from a genuinely external mailbox to
+   `synapse@mail.doitrous.com` and confirm it appears in Inbox; a same-address
+   loopback is not a valid final receiving test.
+3. **Account provider connection**: login, signup, email verification, password
+   recovery, logout, TOTP MFA, per-user MariaDB ownership, explicit audited admin
+   promotion, and AAL2 API enforcement are implemented. Add the Supabase project
+   URL/publishable key and configure Resend as Supabase custom SMTP to activate them.
+   The temporary owner key remains server-only and is entered on `/login`; no admin
+   secret is compiled into the browser.
 4. **Curriculum ↔ module linking (design agreed, not built)**: a module should carry a
    typed selection (systems/topics/questions/practical types/articles) that flows to the
    student view, and schedule blocks (lecture/training) pick a subset with a "add to
    module?" confirm. Approach is written up in a prior message / could be added to BACKEND-PLAN.
 5. **Rotate secrets**: the Resend keys and MariaDB passwords were shared in chat and sit
    in `.env.local` — rotate after first successful deploy.
-6. **Optional**: route-level code-splitting (initial JS is one ~285 KB gzip chunk).
+6. **Completed**: route-level code splitting reduced the main JavaScript chunk to
+   about 110 KB gzip; individual screens are loaded only when visited.
 
 ---
 
@@ -181,13 +183,15 @@ and **create new `name@mail.doitrous.com` addresses**. In demo mode it shows a
   identical; they read universities from `useUniversityCatalogue` and cap to 45vh on mobile.
 - `.env*` is gitignored (`.env.example` kept). Never `VITE_`-prefix a real secret — Vite
   bundles those into public JS. Server secrets: `RESEND_API_KEY`, `DATABASE_URL`, `API_BEARER`.
+  The owner enters `API_BEARER` at runtime on `/login`; it stays in session storage
+  for that tab and is cleared at logout.
 - Commit style: end messages with `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`.
   Commit/push only when asked; the user has been reviewing per-feature commits.
 
 ---
 
 ## 9. Suggested first actions for the next session
-1. Read `DEPLOY-STEPS.md`; help the user complete the first real deploy and verify
-   `/api/health` + data persistence.
-2. Wire Resend inbound so the Mail Box Inbox fills.
-3. Then tackle real auth, and the curriculum↔module linking feature.
+1. Read `DEPLOY-STEPS.md`; verify the latest Coolify deployment and MariaDB snapshot.
+2. Complete the genuinely external Resend inbound test.
+3. Connect the Supabase project keys and custom SMTP, then perform the real
+   signup → verification → TOTP → sign-in sequence.

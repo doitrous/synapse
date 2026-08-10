@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
+import { DataBackupsPanel } from '@/components/admin/DataBackupsPanel'
 
 const CHECK_ICON = {
   pass: { icon: CircleCheck, cls: 'text-success' },
@@ -27,6 +28,8 @@ export function AuditSecurity() {
           </Button>
         }
       />
+
+      <DataBackupsPanel />
 
       <Panel className="mb-4">
         <PanelHeader

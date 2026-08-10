@@ -1,0 +1,9 @@
+{
+  "surface": "Synapse authentication",
+  "option": "Longitudinal MFA security dossier",
+  "approved": false,
+  "carryForward": [
+    "Authenticator-app setup treatment",
+    "SMS visibly gated until a provider is configured"
+  ]
+}

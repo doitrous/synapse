@@ -1,29 +1,50 @@
+import { authAccessToken } from './supabase'
+
 /**
  * Thin API client. When VITE_API_BASE is set the app runs in "live" mode: state
  * persists to the backend (MariaDB) instead of localStorage, and demo data is
  * suppressed. When it is unset the app is the self-contained demo (localStorage).
  */
 const BASE = import.meta.env.VITE_API_BASE as string | undefined
-const TOKEN = import.meta.env.VITE_API_TOKEN as string | undefined
+const OWNER_ACCESS_KEY = 'synapse-owner-access'
+
+function ownerAccessToken(): string | null {
+  if (typeof window === 'undefined') return null
+  return window.sessionStorage.getItem(OWNER_ACCESS_KEY)
+}
+
+export function setOwnerAccessToken(token: string): void {
+  if (typeof window === 'undefined') return
+  const clean = token.trim()
+  if (clean) window.sessionStorage.setItem(OWNER_ACCESS_KEY, clean)
+  else window.sessionStorage.removeItem(OWNER_ACCESS_KEY)
+}
+
+export function clearOwnerAccessToken(): void {
+  if (typeof window !== 'undefined') window.sessionStorage.removeItem(OWNER_ACCESS_KEY)
+}
 
 /** True when a backend is configured — the switch between live and demo modes. */
 export const API_MODE = Boolean(BASE)
 
-function headers(json = false): HeadersInit {
+async function headers(json = false): Promise<HeadersInit> {
   const h: Record<string, string> = {}
   if (json) h['Content-Type'] = 'application/json'
-  if (TOKEN) h['Authorization'] = `Bearer ${TOKEN}`
+  // The temporary owner key is typed at runtime and lives only in this tab. It
+  // is never a Vite build variable, so production JavaScript cannot disclose it.
+  const token = ownerAccessToken() || await authAccessToken()
+  if (token) h['Authorization'] = `Bearer ${token}`
   return h
 }
 
 export async function apiGet<T>(path: string): Promise<T> {
-  const res = await fetch(`${BASE}${path}`, { headers: headers() })
+  const res = await fetch(`${BASE}${path}`, { headers: await headers() })
   if (!res.ok) throw new Error(`GET ${path} → ${res.status}`)
   return res.json() as Promise<T>
 }
 
-export async function apiSend<T>(path: string, method: string, body?: unknown): Promise<T> {
-  const res = await fetch(`${BASE}${path}`, { method, headers: headers(true), body: body == null ? undefined : JSON.stringify(body) })
+export async function apiSend<T>(path: string, method: string, body?: unknown, keepalive = false): Promise<T> {
+  const res = await fetch(`${BASE}${path}`, { method, headers: await headers(true), body: body == null ? undefined : JSON.stringify(body), keepalive })
   if (!res.ok) throw new Error(`${method} ${path} → ${res.status}`)
   return res.json() as Promise<T>
 }
@@ -34,7 +55,7 @@ export const apiDelete = <T>(path: string) => apiSend<T>(path, 'DELETE')
 
 /** Fetch a binary path (with auth) and trigger a browser download. */
 export async function apiDownload(path: string, filename: string): Promise<void> {
-  const res = await fetch(`${BASE}${path}`, { headers: headers() })
+  const res = await fetch(`${BASE}${path}`, { headers: await headers() })
   if (!res.ok) throw new Error(`GET ${path} → ${res.status}`)
   const blob = await res.blob()
   const url = URL.createObjectURL(blob)
@@ -54,7 +75,16 @@ export async function getState<T>(key: string): Promise<T | null> {
 }
 /** Write a state document by key. */
 export function putState(key: string, value: unknown): Promise<unknown> {
-  return apiPut(`/state/${encodeURIComponent(key)}`, { value }).catch(() => undefined)
+  return apiPut(`/state/${encodeURIComponent(key)}`, { value })
+}
+
+export async function getUserState<T>(key: string): Promise<T | null> {
+  try { const r = await apiGet<{ value: T | null }>(`/user-state/${encodeURIComponent(key)}`); return r.value }
+  catch { return null }
+}
+
+export function putUserState(key: string, value: unknown, keepalive = false): Promise<unknown> {
+  return apiSend(`/user-state/${encodeURIComponent(key)}`, 'PUT', { value }, keepalive)
 }
 
 /**

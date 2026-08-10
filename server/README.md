@@ -22,9 +22,9 @@ Health check: `GET /api/health` → `{ ok: true }`.
    `DB_HOST/DB_PORT/DB_NAME/DB_USER/DB_PASSWORD`, `RESEND_API_KEY`, `MAIL_FROM`,
    `API_BEARER`, `CORS_ORIGIN=https://<your-spa-domain>`.
 3. **Lock the MariaDB port (8823) to the private network** so it isn't public.
-4. In the SPA build env set `VITE_API_BASE=https://<api-domain>/api` and
-   `VITE_API_TOKEN=<same API_BEARER>`. With `VITE_API_BASE` set, the SPA runs with
-   **no demo data** and persists everything to MariaDB.
+4. In a split deployment, set `VITE_API_BASE=https://<api-domain>/api`. Never
+   expose `API_BEARER` as a `VITE_` variable. Enter the owner key at runtime on
+   `/login`; it is retained only in that browser tab.
 
 ## Endpoints
 
@@ -38,6 +38,8 @@ Health check: `GET /api/health` → `{ ok: true }`.
 
 ## Auth
 
-Every `/api/*` route (except health + the inbound webhook) requires
-`Authorization: Bearer $API_BEARER`. Replace with real per-user auth before public
-launch.
+Every `/api/*` route (except health + the signed inbound webhook) requires either
+a verified Supabase user token or the temporary server-only owner access key.
+New users are students. Admin promotion is explicit, audited, and requires MFA
+assurance level 2. Remove `API_BEARER` and set `AUTH_BYPASS_ENABLED=false` only
+when the owner explicitly closes preview access.

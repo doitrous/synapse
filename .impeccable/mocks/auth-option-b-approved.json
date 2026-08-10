@@ -1,0 +1,12 @@
+{
+  "surface": "Synapse authentication",
+  "option": "Wide clinical intake sheet with explicit ownership ledger",
+  "approved": true,
+  "approval": "Delegated by the user’s instruction to proceed within the existing design system",
+  "carryForward": [
+    "Single wide intake sheet",
+    "Account, email verification, and account protection sequence",
+    "Ownership ledger beside signup",
+    "Temporary dashboard preview utility kept visible"
+  ]
+}

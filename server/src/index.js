@@ -6,6 +6,7 @@ import express from 'express'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
+import { apiAuthGate, bypassEnabled, requireAdmin } from './auth.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const app = express()
@@ -22,28 +23,45 @@ const resendReceivingKey = process.env.RESEND_ADMIN_API_KEY || process.env.RESEN
 const resendReceiving = resendReceivingKey ? new Resend(resendReceivingKey) : null
 const MAIL_FROM = process.env.MAIL_FROM || 'synapse@mail.doitrous.com'
 
-/** Shared bearer-token gate (until real auth). Only /api is gated; the served
- *  website, health, and the inbound webhook are exempt. */
-app.use((req, res, next) => {
-  if (!req.path.startsWith('/api')) return next()
-  if (req.path === '/api/health' || req.path === '/api/webhooks/resend/inbound') return next()
-  const token = process.env.API_BEARER
-  if (!token) return next() // no token configured → open (dev only)
-  const auth = req.header('authorization') || ''
-  if (auth === `Bearer ${token}`) return next()
-  return res.status(401).json({ error: 'unauthorized' })
-})
+app.use(apiAuthGate)
 
 const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((e) => {
   console.error(e); res.status(500).json({ error: e.message || 'server error' })
 })
 
-app.get('/api/health', (_req, res) => res.json({ ok: true }))
+app.get('/api/health', (_req, res) => res.json({ ok: true, authBypass: bypassEnabled }))
+
+app.get('/api/session', (req, res) => res.json({
+  user: req.identity ? {
+    id: req.identity.id,
+    email: req.identity.email,
+    role: req.identity.role,
+    aal: req.identity.aal,
+    bypass: req.identity.bypass,
+  } : null,
+}))
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */
 
+// Shared catalogue documents that students need in order to use the learning
+// product. All other shared documents (reports, imports, email logs, settings)
+// remain admin-only even when a key is guessed.
+const STUDENT_READABLE_STATE = new Set([
+  'synapse-academic-universities-v1',
+  'synapse-course-curricula-v1',
+  'synapse-module-schedules-v1',
+  'synapse-admin-content-ledger-v4',
+  'synapse-concept-graph-v2',
+  'synapse-relation-types-v1',
+  'synapse-taxonomy-tree-v3',
+  'synapse-plans-v1',
+  'synapse-notification-campaigns-v1',
+  'synapse-vouchers-v1',
+  'synapse-system-colors-v1',
+])
+
 // Bulk hydrate on app boot.
-app.get('/api/state', wrap(async (_req, res) => {
+app.get('/api/state', requireAdmin, wrap(async (_req, res) => {
   const [rows] = await pool.query('SELECT k, v FROM app_state')
   const out = {}
   for (const r of rows) { try { out[r.k] = JSON.parse(r.v) } catch { out[r.k] = null } }
@@ -51,23 +69,176 @@ app.get('/api/state', wrap(async (_req, res) => {
 }))
 
 app.get('/api/state/:key', wrap(async (req, res) => {
+  if (!STUDENT_READABLE_STATE.has(req.params.key)) {
+    if (req.identity?.role !== 'admin') return res.status(403).json({ error: 'admin role required' })
+    if (!req.identity.bypass && req.identity.aal !== 'aal2') return res.status(403).json({ error: 'mfa_required' })
+  }
   const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [req.params.key])
   if (!rows.length) return res.json({ value: null })
   try { res.json({ value: JSON.parse(rows[0].v) }) } catch { res.json({ value: null }) }
 }))
 
-app.put('/api/state/:key', wrap(async (req, res) => {
+app.put('/api/state/:key', requireAdmin, wrap(async (req, res) => {
   const v = JSON.stringify(req.body?.value ?? null)
-  await pool.query(
-    'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)',
-    [req.params.key, v],
-  )
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [current] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [req.params.key])
+    if (!current.length || current[0].v !== v) {
+      await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [req.params.key, v, req.identity.id])
+      await conn.query(
+        'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)',
+        [req.params.key, v],
+      )
+    }
+    await conn.commit()
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
   res.json({ ok: true })
 }))
 
-app.delete('/api/state/:key', wrap(async (req, res) => {
+app.delete('/api/state/:key', requireAdmin, wrap(async (req, res) => {
   await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
   res.json({ ok: true })
+}))
+
+/* ── Private, per-user state ─────────────────────────────────────────────── */
+
+app.get('/api/user-state/:key', wrap(async (req, res) => {
+  const [rows] = await pool.query(
+    'SELECT v FROM user_state WHERE user_id = ? AND k = ?',
+    [req.identity.id, req.params.key],
+  )
+  if (!rows.length) return res.json({ value: null })
+  try { res.json({ value: JSON.parse(rows[0].v) }) } catch { res.json({ value: null }) }
+}))
+
+app.put('/api/user-state/:key', wrap(async (req, res) => {
+  const v = JSON.stringify(req.body?.value ?? null)
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [current] = await conn.query(
+      'SELECT v FROM user_state WHERE user_id = ? AND k = ? FOR UPDATE',
+      [req.identity.id, req.params.key],
+    )
+    if (!current.length || current[0].v !== v) {
+      await conn.query(
+        'INSERT INTO user_state_versions (user_id, k, v) VALUES (?, ?, ?)',
+        [req.identity.id, req.params.key, v],
+      )
+      await conn.query(
+        `INSERT INTO user_state (user_id, k, v) VALUES (?, ?, ?)
+         ON DUPLICATE KEY UPDATE v = VALUES(v)`,
+        [req.identity.id, req.params.key, v],
+      )
+    }
+    await conn.commit()
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+  res.json({ ok: true })
+}))
+
+app.delete('/api/user-state/:key', wrap(async (req, res) => {
+  await pool.query('DELETE FROM user_state WHERE user_id = ? AND k = ?', [req.identity.id, req.params.key])
+  res.json({ ok: true })
+}))
+
+// Student accounts can read shared catalogue state, but operational records and
+// mailbox contents remain admin-only even if a route is guessed manually.
+app.use(['/api/students', '/api/mailboxes', '/api/mail'], requireAdmin)
+
+/* ── Roles and recoverable snapshots ───────────────────────────────────── */
+
+app.get('/api/access/users', requireAdmin, wrap(async (_req, res) => {
+  const [rows] = await pool.query(
+    'SELECT user_id AS userId, email, role, status, promoted_by AS promotedBy, promoted_at AS promotedAt, created_at AS createdAt FROM user_access ORDER BY created_at DESC',
+  )
+  res.json(rows)
+}))
+
+app.post('/api/access/users/:userId/promote', requireAdmin, wrap(async (req, res) => {
+  const role = req.body?.role
+  const reason = String(req.body?.reason || '').trim()
+  if (!['student', 'admin'].includes(role)) return res.status(400).json({ error: 'invalid role' })
+  if (reason.length < 8) return res.status(400).json({ error: 'promotion reason must be explicit' })
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [rows] = await conn.query('SELECT role, status FROM user_access WHERE user_id = ? FOR UPDATE', [req.params.userId])
+    if (!rows.length) {
+      await conn.rollback()
+      return res.status(404).json({ error: 'user not found' })
+    }
+    if (rows[0].status !== 'active') {
+      await conn.rollback()
+      return res.status(409).json({ error: 'suspended account must be reactivated before role changes' })
+    }
+    const previousRole = rows[0].role
+    await conn.query(
+      'UPDATE user_access SET role = ?, promoted_by = ?, promoted_at = NOW() WHERE user_id = ?',
+      [role, req.identity.id, req.params.userId],
+    )
+    await conn.query(
+      'INSERT INTO role_promotion_audit (user_id, previous_role, next_role, promoted_by, reason) VALUES (?, ?, ?, ?, ?)',
+      [req.params.userId, previousRole, role, req.identity.id, reason],
+    )
+    await conn.commit()
+    res.json({ ok: true })
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
+app.get('/api/backups', requireAdmin, wrap(async (_req, res) => {
+  const [rows] = await pool.query(
+    'SELECT id, label, created_by AS createdBy, created_at AS createdAt, OCTET_LENGTH(snapshot_json) AS sizeBytes FROM data_snapshots ORDER BY created_at DESC LIMIT 50',
+  )
+  res.json(rows)
+}))
+
+async function createDataSnapshot(label, createdBy) {
+  const tables = ['schema_migrations', 'app_state', 'app_state_versions', 'user_state', 'user_state_versions', 'students', 'mailboxes', 'emails', 'attachments', 'user_access', 'role_promotion_audit']
+  const snapshot = { schemaVersion: 1, createdAt: new Date().toISOString(), tables: {} }
+  for (const table of tables) {
+    const [rows] = await pool.query(`SELECT * FROM ${table}`)
+    snapshot.tables[table] = rows
+  }
+  const id = `snapshot-${randomUUID()}`
+  await pool.query(
+    'INSERT INTO data_snapshots (id, label, snapshot_json, created_by) VALUES (?, ?, ?, ?)',
+    [id, String(label).slice(0, 255), JSON.stringify(snapshot), createdBy],
+  )
+  return { id, label }
+}
+
+app.post('/api/backups', requireAdmin, wrap(async (req, res) => {
+  const label = req.body?.label || `Manual snapshot ${new Date().toISOString()}`
+  res.json(await createDataSnapshot(label, req.identity.id))
+}))
+
+app.get('/api/backups/:id/download', requireAdmin, wrap(async (req, res) => {
+  const [rows] = await pool.query(
+    'SELECT label, snapshot_json AS snapshotJson FROM data_snapshots WHERE id = ?',
+    [req.params.id],
+  )
+  if (!rows.length) return res.status(404).json({ error: 'snapshot not found' })
+  const filename = `${req.params.id.replace(/[^a-zA-Z0-9_-]/g, '')}.json`
+  res.setHeader('Content-Type', 'application/json; charset=utf-8')
+  res.setHeader('Content-Disposition', `attachment; filename="${filename}"`)
+  res.send(rows[0].snapshotJson)
 }))
 
 /* ── Students ────────────────────────────────────────────────────────────── */
@@ -238,7 +409,14 @@ app.post('/api/webhooks/resend/inbound', wrap(async (req, res) => {
  * (API-only deploy), these are no-ops. */
 const PUBLIC_DIR = process.env.PUBLIC_DIR || join(__dirname, '..', 'public')
 if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
-  app.use(express.static(PUBLIC_DIR, { index: false, maxAge: '1h' }))
+  app.use('/assets', express.static(join(PUBLIC_DIR, 'assets'), { index: false, maxAge: '1y', immutable: true }))
+  app.use(express.static(PUBLIC_DIR, {
+    index: false,
+    maxAge: '1h',
+    setHeaders: (res, filePath) => {
+      if (filePath.endsWith('.html')) res.setHeader('Cache-Control', 'no-cache')
+    },
+  }))
   app.get('*', (req, res, next) => {
     if (req.path.startsWith('/api')) return next()
     res.sendFile(join(PUBLIC_DIR, 'index.html'))
@@ -248,5 +426,11 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
 
 const port = Number(process.env.PORT) || 8080
 migrate()
-  .then(() => app.listen(port, () => console.log(`Synapse on :${port}`)))
+  .then(async () => {
+    const [recent] = await pool.query(
+      "SELECT id FROM data_snapshots WHERE created_at >= NOW() - INTERVAL 24 HOUR AND created_by = 'system:daily' LIMIT 1",
+    )
+    if (!recent.length) await createDataSnapshot(`Daily recovery point ${new Date().toISOString()}`, 'system:daily')
+    app.listen(port, () => console.log(`Synapse on :${port}`))
+  })
   .catch((e) => { console.error('startup failed (DB unreachable?):', e.message); process.exit(1) })

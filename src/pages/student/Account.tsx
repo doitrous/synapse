@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Download, KeyRound, LogOut, Save, ShieldCheck, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -38,8 +39,6 @@ export function Account() {
   const t = useT()
   const [settings, setSettings] = usePersistentState<AccountSettings>('synapse.account.settings', DEFAULTS)
   const [savedAt, setSavedAt] = useState<Date | null>(null)
-  const [passwordChanged, setPasswordChanged] = useState(false)
-  const [signedOut, setSignedOut] = useState(false)
 
   const patch = (next: Partial<AccountSettings>) => setSettings((current) => ({ ...current, ...next }))
 
@@ -77,17 +76,17 @@ export function Account() {
           <Panel>
             <PanelHeader title="Security" icon={ShieldCheck} />
             <div className="space-y-3 p-4">
-              <div className="rounded-lg border border-line bg-surface-2 p-3"><p className="text-[13px] font-medium text-ink">Password</p><p className="mt-0.5 text-[11.5px] text-ink-3">Last changed 42 days ago</p><Button className="mt-3" size="sm" variant="secondary" iconLeft={KeyRound} onClick={() => setPasswordChanged(true)}>{passwordChanged ? 'Reset email sent' : 'Change password'}</Button></div>
-              <div className="rounded-lg border border-line p-3"><div className="flex items-center justify-between"><div><p className="text-[13px] font-medium text-ink">Two-factor authentication</p><p className="mt-0.5 text-[11.5px] text-ink-3">Authenticator app</p></div><Badge tone="success">Enabled</Badge></div></div>
+              <div className="rounded-lg border border-line bg-surface-2 p-3"><p className="text-[13px] font-medium text-ink">Password</p><p className="mt-0.5 text-[11.5px] text-ink-3">Reset through a time-limited email link.</p><Link to="/auth/forgot-password" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset"><KeyRound size={15} />Change password</Link></div>
+              <div className="rounded-lg border border-line p-3"><div className="flex items-center justify-between gap-3"><div><p className="text-[13px] font-medium text-ink">Two-factor authentication</p><p className="mt-0.5 text-[11.5px] text-ink-3">Free authenticator app · mandatory for admins</p></div><Badge tone="accent">TOTP</Badge></div><Link to="/auth/mfa" className="mt-3 inline-flex min-h-9 items-center rounded-lg px-3 text-[12.5px] font-semibold text-accent-strong hover:bg-accent-tint">Set up or verify MFA</Link></div>
             </div>
           </Panel>
           <Panel>
             <PanelHeader title="Privacy and data" />
-            <div className="space-y-2 p-4"><Button className="w-full justify-start" variant="secondary" iconLeft={Download} onClick={() => { const blob = new Blob([JSON.stringify(settings, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const anchor = document.createElement('a'); anchor.href = url; anchor.download = 'synapse-account-data.json'; anchor.click(); URL.revokeObjectURL(url) }}>Download your data</Button><p className="text-[11.5px] leading-relaxed text-ink-3">Includes profile settings stored by this prototype. Study activity remains on this device.</p></div>
+            <div className="space-y-2 p-4"><Button className="w-full justify-start" variant="secondary" iconLeft={Download} onClick={() => { const blob = new Blob([JSON.stringify(settings, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const anchor = document.createElement('a'); anchor.href = url; anchor.download = 'synapse-account-data.json'; anchor.click(); URL.revokeObjectURL(url) }}>Download profile settings</Button><p className="text-[11.5px] leading-relaxed text-ink-3">Live notes, highlights, plans, and progress are stored in user-owned MariaDB records and included in database recovery snapshots.</p></div>
           </Panel>
           <Panel>
             <PanelHeader title="Active sessions" />
-            <div className="p-4"><div className="flex items-start justify-between gap-3"><div><p className="text-[13px] font-medium text-ink">This Mac · Cairo</p><p className="mt-0.5 text-[11.5px] text-ink-3">Current session</p></div><Badge tone={signedOut ? 'neutral' : 'success'}>{signedOut ? 'Signed out' : 'Active'}</Badge></div><Button className="mt-3" size="sm" variant="ghost" iconLeft={LogOut} onClick={() => setSignedOut(true)} disabled={signedOut}>Sign out other sessions</Button></div>
+            <div className="p-4"><div className="flex items-start justify-between gap-3"><div><p className="text-[13px] font-medium text-ink">This browser</p><p className="mt-0.5 text-[11.5px] text-ink-3">Authenticated session or temporary owner preview</p></div><Badge tone="success">Open</Badge></div><Link to="/logout" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg px-3 text-[12.5px] font-semibold text-ink-2 hover:bg-inset hover:text-ink"><LogOut size={15} />Open sign-out screen</Link></div>
           </Panel>
         </div>
       </div>

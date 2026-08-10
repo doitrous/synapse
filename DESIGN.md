@@ -59,12 +59,75 @@ subject colors live in `src/data/student.ts` (8 medium-chroma clinical hues).
 - **Calibrated meters** (`Meter`) and the **reference-range scale** (exam readiness: Building / On track / Exam-ready zones with a marker) — the clinical alternative to generic donut rings.
 - **Retention meters** color-coded by strength (danger < 50 < warning < 70 < success).
 
+## Authentication surfaces
+
+Authentication uses a **clinical intake sheet**, not a detached marketing card.
+`AuthLayout` owns the full porcelain page, quiet ruled header, wordmark, page title,
+supporting copy, optional account-progress line, bordered warm-white sheet, and the
+persistent trust statement below it. Account creation uses the wide version of
+the sheet (`max-w-5xl`): the form occupies the primary column and a narrower,
+tonally inset ownership ledger explains which notes, plans, attempts, and
+progress records belong to the verified account. Sign-in, verification,
+password recovery, sign-out, and MFA use the compact width (`max-w-4xl`) and
+center their task content inside the same material language.
+
+The three-stage **Account → Verify email → Protect account** progress treatment
+appears only while the user is actually moving through that lifecycle. Completed
+stages use the success signal, the active stage uses clay, and future stages stay
+neutral. Sign-in, reset, and sign-out omit it rather than presenting false setup
+progress. MFA adds a narrow status rail inside the sheet and makes the free TOTP
+authenticator the active method: QR code, manual secret, six-digit code, and
+verification action form one continuous task. SMS remains visible as a subdued,
+non-interactive future method with a `Provider required` badge and explicit cost
+copy; never style or describe it as available before the provider is configured.
+
+### Security and trust cues
+
+- State the boundary in plain language at the point of commitment: Supabase Auth
+  verifies identity; private learning records are stored in MariaDB under the
+  verified account ID. The ownership ledger makes this concrete with real data
+  categories rather than generic privacy claims.
+- Use semantic tints sparingly and literally: warning for an unconfigured account
+  service, danger for an actionable failure, and success only after confirmed
+  verification or completion. Provider errors are translated into calm
+  problem-and-recovery copy; raw service messages do not become interface voice.
+- Student and Admin preview destinations remain visible at every breakpoint.
+  Their labels shorten to `Student` and `Admin` on narrow screens. Preview
+  navigation is not an authorization claim: editing live admin data requires a
+  server-provided owner key entered at runtime, retained only in the current
+  browser tab, and cleared on sign-out. Never embed that key in the built site.
+- Admin role changes use a list-and-review composition with visible role and
+  account-status badges, a recorded reason, explicit confirmation, and disabled
+  controls for suspended accounts. Recovery-point actions use the same honest
+  loading/status language and identify automatic versus manual snapshots.
+- Meaningful helper, status, identifier, and disabled-method copy uses
+  `text-ink-2` or stronger to preserve 4.5:1 contrast. `text-ink-3` remains
+  decorative only. Password rules use a neutral circle until met and a check
+  only after success, so state is never communicated by colour alone.
+
+### Responsive auth composition
+
+- Below `lg`, split sheets become one vertical reading order: the form first,
+  then the ownership ledger separated by a top rule. MFA moves its status rail
+  above the method content with a bottom rule. Do not compress either pattern
+  into side-by-side columns on a phone.
+- Page padding is 16px on mobile, 24px from `sm`, and 32px from `lg`; sheet
+  padding steps from 20px to 28px to 36px. Inputs and primary actions retain a
+  minimum 44px touch height on mobile.
+- Header preview links remain available on mobile as two compact destinations,
+  never one ambiguous plural link. Paired actions stack vertically on narrow
+  screens and may align horizontally from `sm` when labels remain comfortable.
+- Keep auth body copy at a readable measure (about 52–65ch), allow titles to
+  balance naturally, and let long emails, setup secrets, and recovery messages
+  wrap without widening the sheet.
+
 ## Component inventory
 
 - Primitives (`src/components/ui/`): `Button` (primary/secondary/ghost/danger · sm/md/lg · icon + loading), `IconButton`, `Panel` + `PanelHeader`, `Badge` (6 tones + dot), `Meter`, `Avatar`, `Kbd`, `Icon` (lucide at a single 1.75 stroke), `Subject` (dot/tag), `Tabs` + `Segmented`, `Toggle`, `Table`, `Field`/`TextInput`/`Textarea`/`Select`/`SearchInput`, `FilterChip`, `EmptyState`.
 - Charts (`src/components/charts/`): `BarList` — single-hue horizontal magnitude bars (dataviz-guided: thin marks, rounded ends, direct labels, identity via label not colour). Study heatmap is hand-rolled SVG-free CSS cells.
 - Shell (`src/components/shell/`): `AppShell` (collapsible sidebar + mobile drawer + ⌘K), `Sidebar` (grouped nav, portal-aware), `Topbar` (breadcrumb, search, portal switch), `CommandSearch` (keyboard-navigable palette), `Page` (container + header).
 - Dashboard (`src/components/dashboard/`): `NextOnSchedule`, `DueReviews`, `ProgressTrio`, `TodaysPlan` (live checkboxes), `StudyHeatmap`, `LastUsedResources`.
+- Authentication (`src/pages/auth/`): `AuthLayout` (wide/compact sheet · optional lifecycle progress · preview navigation · trust footer), ownership ledger, password-rule checklist, verification status, TOTP enrollment/challenge, disabled future-method row, and centered confirmation/recovery states.
 
 ## Guardrails (do / don't)
 

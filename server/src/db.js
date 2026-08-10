@@ -31,6 +31,37 @@ export async function migrate() {
   const conn = await pool.getConnection()
   try {
     for (const statement of statements) await conn.query(statement)
+
+    // The owner authorised a clean academic slate before any real university
+    // data exists. Archive and clear these documents exactly once; the marker
+    // prevents later restarts from touching real records added afterward.
+    const migrationId = '2026-08-10-clear-academic-catalogue'
+    const [applied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [migrationId])
+    if (!applied.length) {
+      const cleanDocuments = new Map([
+        ['synapse-academic-universities-v1', '[]'],
+        ['synapse-course-curricula-v1', '{}'],
+        ['synapse-module-schedules-v1', '{}'],
+      ])
+      await conn.beginTransaction()
+      try {
+        for (const [key, cleanValue] of cleanDocuments) {
+          const [rows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [key])
+          if (rows.length) {
+            await conn.query(
+              'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)',
+              [key, rows[0].v, `migration:${migrationId}`],
+            )
+            await conn.query('UPDATE app_state SET v = ? WHERE k = ?', [cleanValue, key])
+          }
+        }
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [migrationId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
   } finally {
     conn.release()
   }

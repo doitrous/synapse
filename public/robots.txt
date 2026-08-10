@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /app
+Disallow: /admin
+Disallow: /login
+Disallow: /signup
+Disallow: /logout
+Disallow: /auth/
+
+Sitemap: https://synapse.doitrous.com/sitemap.xml

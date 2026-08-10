@@ -10,6 +10,7 @@ import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { adminStudents, type AdminStudent, type StudentStatus } from '@/data/students'
+import { AccountAccessPanel } from '@/components/admin/AccountAccessPanel'
 
 function statusTone(s: StudentStatus): 'success' | 'accent' | 'warning' | 'danger' {
   return s === 'Active' ? 'success' : s === 'Trial' ? 'accent' : s === 'Lapsed' ? 'warning' : 'danger'
@@ -44,6 +45,8 @@ export function StudentsManagement() {
   return (
     <PageContainer>
       <PageHeader title="Students" description="Every registered student, organised by university and year. Select a scope on the left to focus." />
+
+      <AccountAccessPanel />
 
       <div className="grid items-start gap-4 lg:grid-cols-[16rem_minmax(0,1fr)]">
         {/* ---- Left menu: Master Students → university → year ---- */}

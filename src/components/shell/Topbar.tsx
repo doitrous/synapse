@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, PanelLeft, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, Languages } from 'lucide-react'
+import { Menu, PanelLeft, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, Languages, LogOut } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Icon } from '@/components/ui/Icon'
@@ -124,6 +124,10 @@ export function Topbar({
         >
           <Icon icon={ArrowLeftRight} size={15} />
           {otherLabel}
+        </Link>
+
+        <Link to="/logout" className={iconBtn} aria-label={t('Sign out')} title={t('Sign out')}>
+          <Icon icon={LogOut} size={17} />
         </Link>
 
         <div className="relative" ref={popoverRef}>

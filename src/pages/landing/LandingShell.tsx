@@ -124,11 +124,11 @@ export function LandingShell({ content }: { content: LandingContent }) {
               <Icon icon={Globe} size={15} />
               {c.otherLabel}
             </Link>
-            <Link to="/app" className="hidden text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink sm:inline">
+            <Link to="/login" className="hidden text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink sm:inline">
               {c.signIn}
             </Link>
             <Link
-              to="/app"
+              to="/signup"
               className="inline-flex items-center gap-1.5 rounded-lg bg-accent px-3.5 py-2 text-[13.5px] font-semibold text-on-accent shadow-panel transition-colors hover:bg-accent-strong"
             >
               {c.nav.start}
@@ -149,7 +149,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
-                to="/app"
+                to="/signup"
                 className="group inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-[15px] font-semibold text-on-accent shadow-raised transition-colors hover:bg-accent-strong"
               >
                 <Icon icon={GraduationCap} size={19} />
@@ -280,7 +280,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
                 {plan.alt && <p className="mt-1 text-[12px] text-ink-3">{plan.alt}</p>}
                 <p className="mt-3 flex-1 border-t border-line pt-3 text-[13px] leading-relaxed text-ink-2">{plan.entitlement}</p>
                 <Link
-                  to="/app"
+                  to="/signup"
                   className={cn(
                     'mt-4 inline-flex h-10 items-center justify-center rounded-lg text-[13.5px] font-semibold transition-colors',
                     plan.featured ? 'bg-accent text-on-accent hover:bg-accent-strong' : 'border border-line-2 bg-surface text-ink hover:bg-surface-2',
@@ -299,7 +299,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
           <h2 className="mx-auto max-w-2xl text-balance font-serif text-[30px] font-semibold leading-[1.1] tracking-[-0.02em] sm:text-[38px]">{c.cta.title}</h2>
           <p className="mx-auto mt-4 max-w-xl text-[15.5px] leading-relaxed text-on-accent/85">{c.cta.sub}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link to="/app" className="group inline-flex items-center gap-2 rounded-xl bg-on-accent px-5 py-3 text-[15px] font-semibold text-accent-strong shadow-raised transition-transform hover:-translate-y-0.5">
+            <Link to="/signup" className="group inline-flex items-center gap-2 rounded-xl bg-on-accent px-5 py-3 text-[15px] font-semibold text-accent-strong shadow-raised transition-transform hover:-translate-y-0.5">
               {c.cta.button}
               <Icon icon={ArrowRight} size={17} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100 rtl:group-hover:-translate-x-0.5" />
             </Link>

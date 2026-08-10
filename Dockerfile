@@ -6,8 +6,10 @@ FROM node:20-alpine AS web
 WORKDIR /web
 # Same-origin: the app calls /api on its own host, so no separate API domain.
 ENV VITE_API_BASE=/api
-ARG VITE_API_TOKEN=""
-ENV VITE_API_TOKEN=$VITE_API_TOKEN
+ARG VITE_SUPABASE_URL=""
+ENV VITE_SUPABASE_URL=$VITE_SUPABASE_URL
+ARG VITE_SUPABASE_PUBLISHABLE_KEY=""
+ENV VITE_SUPABASE_PUBLISHABLE_KEY=$VITE_SUPABASE_PUBLISHABLE_KEY
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY . .

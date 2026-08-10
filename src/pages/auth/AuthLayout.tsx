@@ -1,0 +1,96 @@
+import type { ReactNode } from 'react'
+import { Link } from 'react-router-dom'
+import { ArrowLeftRight, Check, LockKeyhole } from 'lucide-react'
+import { Wordmark } from '@/components/brand/Wordmark'
+import { Icon } from '@/components/ui/Icon'
+import { cn } from '@/lib/cn'
+
+export type AuthStep = 'account' | 'verify' | 'protect'
+
+const steps: Array<{ id: AuthStep; label: string }> = [
+  { id: 'account', label: 'Account' },
+  { id: 'verify', label: 'Verify email' },
+  { id: 'protect', label: 'Protect account' },
+]
+
+export function AuthLayout({
+  step,
+  title,
+  description,
+  children,
+  aside,
+  compact = false,
+  completedSteps,
+  showProgress = true,
+}: {
+  step: AuthStep
+  title: string
+  description: string
+  children: ReactNode
+  aside?: ReactNode
+  compact?: boolean
+  completedSteps?: AuthStep[]
+  showProgress?: boolean
+}) {
+  const activeIndex = steps.findIndex((item) => item.id === step)
+
+  return (
+    <div className="min-h-dvh bg-paper">
+      <header className="border-b border-line bg-surface/70">
+        <div className="mx-auto flex min-h-16 max-w-7xl items-center gap-3 px-4 sm:px-6 lg:px-8">
+          <Link to="/" aria-label="Synapse home"><Wordmark /></Link>
+          <nav className="ms-auto flex items-center gap-1.5" aria-label="Temporary preview access">
+            <Link className="inline-flex min-h-11 items-center gap-2 rounded-lg px-2.5 text-[12px] font-semibold text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:px-3 sm:text-[13px]" to="/app">
+              <Icon icon={ArrowLeftRight} size={15} /> Student<span className="hidden sm:inline"> preview</span>
+            </Link>
+            <Link className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-accent-line bg-accent-tint px-2.5 text-[12px] font-semibold text-accent-strong transition-colors hover:border-accent hover:bg-accent-tint/70 sm:px-3 sm:text-[13px]" to="/admin">
+              Admin<span className="hidden sm:inline"> preview</span>
+            </Link>
+          </nav>
+        </div>
+      </header>
+
+      <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+        <div className={cn('mx-auto', compact ? 'max-w-4xl' : 'max-w-5xl')}>
+          <div className="mb-8 max-w-2xl">
+            <h1 className="text-[clamp(2rem,4vw,3.25rem)] leading-[1.02] tracking-[-0.025em] text-ink">{title}</h1>
+            <p className="mt-3 max-w-[65ch] text-[15px] leading-relaxed text-ink-2">{description}</p>
+          </div>
+
+          {showProgress && <ol className="mb-7 grid grid-cols-3" aria-label="Account setup progress">
+            {steps.map((item, index) => {
+              const complete = completedSteps ? completedSteps.includes(item.id) : index < activeIndex
+              const active = index === activeIndex
+              return (
+                <li key={item.id} className="relative flex min-w-0 flex-col items-center text-center">
+                  {index > 0 && <span className={cn('absolute end-1/2 top-4 h-px w-full', index <= activeIndex ? 'bg-accent' : 'bg-line-2')} aria-hidden />}
+                  <span className={cn(
+                    'relative z-10 grid size-8 place-items-center rounded-full border bg-paper font-mono text-[12px] font-semibold',
+                    complete && 'border-success bg-success text-white',
+                    active && 'border-accent bg-accent text-on-accent',
+                    !complete && !active && 'border-line-2 text-ink-2',
+                  )}>
+                    {complete ? <Icon icon={Check} size={14} /> : index + 1}
+                  </span>
+                  <span className={cn('mt-2 truncate text-[12px] font-semibold sm:text-[13px]', active ? 'text-accent-strong' : complete ? 'text-success' : 'text-ink-2')}>{item.label}</span>
+                </li>
+              )
+            })}
+          </ol>}
+
+          <section className={cn(
+            'overflow-hidden rounded-2xl border border-line bg-surface shadow-panel',
+            Boolean(aside) && 'grid lg:grid-cols-[minmax(0,1fr)_minmax(19rem,0.78fr)]',
+          )}>
+            <div className="p-5 sm:p-7 lg:p-9">{children}</div>
+            {aside && <aside className="border-t border-line bg-surface-2/45 p-5 sm:p-7 lg:border-s lg:border-t-0 lg:p-9">{aside}</aside>}
+          </section>
+
+          <p className="mx-auto mt-6 flex max-w-2xl items-center justify-center gap-2 text-center text-[12px] leading-relaxed text-ink-2">
+            <Icon icon={LockKeyhole} size={14} /> Account identity is verified by Supabase Auth; learning data remains in Synapse MariaDB.
+          </p>
+        </div>
+      </main>
+    </div>
+  )
+}
