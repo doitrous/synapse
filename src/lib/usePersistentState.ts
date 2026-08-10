@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { API_MODE, getState, getUserState, putState, putUserState } from './api'
+import { API_MODE, getState, getUserState, putState, putUserState, stateOwnerId } from './api'
 import { isUserOwnedState } from './stateOwnership'
 
 /**
@@ -10,7 +10,8 @@ import { isUserOwnedState } from './stateOwnership'
  */
 export function usePersistentState<T>(key: string, initial: T | (() => T)) {
   const userOwned = isUserOwnedState(key)
-  const recoveryKey = `synapse.pending.v1:${userOwned ? 'user' : 'shared'}:${key}`
+  const sharedRecoveryKey = `synapse.pending.v1:shared:${key}`
+  const recoveryKeyRef = useRef<string | null>(userOwned ? null : sharedRecoveryKey)
   const [value, setValue] = useState<T>(() => {
     if (!API_MODE) {
       try {
@@ -54,7 +55,7 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
         lastWritten.current = pending.serialized
         if (queued.current?.serialized === pending.serialized) {
           queued.current = null
-          try { localStorage.removeItem(recoveryKey) } catch { /* ignore */ }
+          try { if (recoveryKeyRef.current) localStorage.removeItem(recoveryKeyRef.current) } catch { /* ignore */ }
         }
       }
     } finally {
@@ -67,11 +68,19 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
     if (!API_MODE) return
     let cancelled = false
     const readRemote = userOwned ? getUserState<T>(key) : getState<T>(key)
-    readRemote.then((remote) => {
+    readRemote.then(async (remote) => {
       if (cancelled) return
+      if (userOwned) {
+        const ownerId = await stateOwnerId()
+        if (cancelled) return
+        recoveryKeyRef.current = ownerId ? `synapse.pending.v2:user:${ownerId}:${key}` : null
+        // The former unscoped recovery key is deliberately retired so data
+        // from one account can never be adopted by another account.
+        try { localStorage.removeItem(`synapse.pending.v1:user:${key}`) } catch { /* ignore */ }
+      }
       let recovered: { value: T; savedAt: string } | null = null
       try {
-        const pending = localStorage.getItem(recoveryKey)
+        const pending = recoveryKeyRef.current ? localStorage.getItem(recoveryKeyRef.current) : null
         if (pending) recovered = JSON.parse(pending) as { value: T; savedAt: string }
       } catch { /* ignore malformed recovery data */ }
 
@@ -87,7 +96,7 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
       void flushRef.current()
     })
     return () => { cancelled = true }
-  }, [key, recoveryKey, userOwned, writeRemote])
+  }, [key, sharedRecoveryKey, userOwned, writeRemote])
 
   // Persist changes.
   useEffect(() => {
@@ -98,13 +107,13 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
       if (!hydrated.current) return // don't overwrite the server with the pre-hydration empty value
       queued.current = { serialized, value }
       try {
-        localStorage.setItem(recoveryKey, JSON.stringify({ value, savedAt: new Date().toISOString() }))
+        if (recoveryKeyRef.current) localStorage.setItem(recoveryKeyRef.current, JSON.stringify({ value, savedAt: new Date().toISOString() }))
       } catch { /* the remote queue still continues */ }
       void flushRef.current()
     } else {
       try { lastWritten.current = serialized; localStorage.setItem(key, serialized) } catch { /* ignore */ }
     }
-  }, [key, recoveryKey, value])
+  }, [key, sharedRecoveryKey, value])
 
   // Recover failed writes when connectivity returns. During page exit the
   // browser gets one best-effort keepalive request; the local recovery copy is

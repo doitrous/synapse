@@ -1,4 +1,4 @@
-import { authAccessToken } from './supabase'
+import { authAccessToken, authUserId } from './supabase'
 
 /**
  * Thin API client. When VITE_API_BASE is set the app runs in "live" mode: state
@@ -22,6 +22,12 @@ export function setOwnerAccessToken(token: string): void {
 
 export function clearOwnerAccessToken(): void {
   if (typeof window !== 'undefined') window.sessionStorage.removeItem(OWNER_ACCESS_KEY)
+}
+
+/** Scope browser crash-recovery data to the same verified owner as MariaDB. */
+export async function stateOwnerId(): Promise<string | null> {
+  if (ownerAccessToken()) return 'preview-owner'
+  return authUserId()
 }
 
 /** True when a backend is configured — the switch between live and demo modes. */
