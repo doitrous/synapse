@@ -1,10 +1,4 @@
 import type { Status } from './admin'
-import { API_MODE } from '@/lib/api'
-import { libraryTopicMeta, questionMeta } from './admin'
-import { libraryTopics } from './library'
-import { osceStations, clinicalCases, skills, labImaging } from './practical'
-import { questions } from './qbank'
-import { resources } from './resources'
 import type { ConceptAnnotation } from './conceptGraph'
 import type { ArticleSection } from './userLibrary'
 
@@ -30,6 +24,20 @@ export interface MediaAttachment {
   url: string
   mimeType?: string
   size?: number
+}
+
+/** Rights-checked media embedded in a library article. */
+export interface ArticleMediaRecord {
+  id: string
+  type: 'image' | 'audio' | 'video'
+  sourceId?: string
+  exactSource?: string
+  locator?: string
+  url?: string
+  caption: string
+  altText: string
+  rights: string
+  necessity: string
 }
 
 export interface QuestionTags {
@@ -84,6 +92,7 @@ export interface ArticleAuthoringData {
   templateId?: string
   archetype?: ArticleArchetype
   language?: string
+  learnerStage?: string
   summary: string
   /** Legacy single-body text; superseded by named `sections` but kept for imports. */
   body: string
@@ -111,6 +120,8 @@ export interface ArticleAuthoringData {
   relatedConceptIds?: string[]
   /** University-specific notes (e.g. "Ain Shams only"), rendered as distinct callouts. */
   universityNotes?: Array<{ id: string; universityId: string; text: string }>
+  /** Field-specific reasons for values intentionally left empty. */
+  fieldNotes?: Record<string, string>
   /** Article and evidence governance. */
   reviewer?: string
   finalPublisher?: string
@@ -126,6 +137,7 @@ export interface ArticleAuthoringData {
   conflicts?: string[]
   evidenceGaps?: string[]
   relatedArticleIds?: string[]
+  media?: ArticleMediaRecord[]
   notes?: string
 }
 
@@ -248,171 +260,9 @@ export interface ManagedContentItem {
   resourceData?: ResourceAuthoringData
 }
 
-const nowMinus = (hours: number) => new Date(Date.now() - hours * 3_600_000).toISOString()
-const practicalStatus = (index: number): Status => ['Published', 'Published', 'Draft', 'In review'][index % 4] as Status
-
-/** Seed the writable admin ledger from the same content the student app ships with. */
+/** Production content is hydrated from the backend; never seed demo records. */
 export function initialManagedContent(): ManagedContentItem[] {
-  if (API_MODE) return [] // live mode: start empty, hydrate real content from the backend
-  const answerLabels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
-  const questionItems: ManagedContentItem[] = questions.map((question, index) => ({
-    id: question.id,
-    kind: 'question',
-    title: question.stem,
-    subjectId: question.subjectId,
-    status: questionMeta[question.id]?.status ?? 'Draft',
-    owner: questionMeta[question.id]?.author ?? 'Curriculum team',
-    updatedAt: nowMinus(12 + index * 7),
-    fields: {
-      Topic: question.topic,
-      Difficulty: question.difficulty,
-      Vignette: question.vignette,
-      Explanation: question.explanation,
-    },
-    questionData: {
-      attachments: [],
-      correctAnswer: (answerLabels[question.options.findIndex((option) => option.correct)] ?? 'A'),
-      answers: answerLabels.map((label, answerIndex) => ({
-        label,
-        text: question.options[answerIndex]?.text ?? '',
-        explanation: question.options[answerIndex]?.rationale ?? '',
-      })),
-      attachedImage: '',
-      libraryIds: question.libraryRefs.map((reference) => reference.id),
-      resourceIds: resources.filter((resource) => question.resourceRefs.some((reference) => reference.includes(resource.title) || resource.title.includes(reference.split(' · ')[0]))).map((resource) => resource.id),
-      tags: {
-        module: question.subjectId,
-        topic: question.topic,
-        subtopic: question.libraryRefs[0]?.title ?? '',
-        conceptIds: [],
-        years: ['Year 3'],
-        universityIds: ['oms'],
-        cognitiveEffort: question.difficulty === 'Easy' ? 'Low' : question.difficulty === 'Hard' ? 'High' : 'Medium',
-        setting: 'Both',
-        intendedDifficulty: question.difficulty,
-        clinicalReasoningLevel: question.difficulty === 'Easy' ? 1 : question.difficulty === 'Hard' ? 4 : 3,
-        inferredDifficulty: question.difficulty === 'Easy' ? 72 : question.difficulty === 'Hard' ? 38 : 56,
-        examRelevance: question.difficulty === 'Hard' ? 8 : 7,
-        contextualConceptIds: [],
-      },
-      learningObjective: question.explanation.split('. ')[0],
-      authorNotes: '',
-      sourceCitation: question.resourceRefs[0] ?? '',
-      estimatedSeconds: question.difficulty === 'Hard' ? 120 : 90,
-      randomiseAnswers: true,
-    },
-  }))
-
-  const articleItems: ManagedContentItem[] = libraryTopics.flatMap((topic, topicIndex) =>
-    topic.subtopics.map((article, articleIndex) => ({
-      id: article.id,
-      kind: 'article' as const,
-      title: article.title,
-      subjectId: topic.subjectId,
-      status: libraryTopicMeta[topic.id]?.status ?? 'Draft',
-      owner: libraryTopicMeta[topic.id]?.author ?? 'Curriculum team',
-      updatedAt: nowMinus(8 + topicIndex * 18 + articleIndex * 3),
-      fields: {
-        Topic: topic.title,
-        Summary: article.summary,
-        'Reading time': String(article.readingMin),
-        'Key point': article.keyPoints[0] ?? '',
-      },
-      articleData: {
-        summary: article.summary,
-        body: article.blocks.map((block) => block.text ?? block.items?.join('\n') ?? '').filter(Boolean).join('\n\n'),
-        sections: article.blocks
-          .filter((block) => block.type === 'h')
-          .map((block, i) => ({ id: `sec-${article.id}-${i}`, heading: block.text ?? '', body: '' })),
-        holdThese: article.keyPoints,
-        loseTheMark: article.blocks.filter((block) => block.type === 'callout' && block.tone === 'warning').map((block) => block.text ?? '').filter(Boolean),
-        questionIds: article.questions.map((question) => question.id),
-        resourceIds: resources.filter((resource) => article.resources.some((reference) => reference.includes(resource.title) || resource.title.includes(reference.split(' · ')[0]))).map((resource) => resource.id),
-        annotations: [],
-      },
-    })),
-  )
-
-  const practicalItems: ManagedContentItem[] = [
-    ...osceStations.map((station, index) => ({
-      id: station.id,
-      kind: 'practical' as const,
-      title: station.title,
-      subjectId: station.subjectId,
-      status: practicalStatus(index),
-      owner: 'Clinical skills team',
-      updatedAt: nowMinus(20 + index * 5),
-      fields: {
-        Type: 'OSCE station',
-        Duration: String(station.minutes),
-        Marks: String(station.marks),
-        Difficulty: station.difficulty,
-      },
-    })),
-    ...clinicalCases.map((item, index) => ({
-      id: item.id,
-      kind: 'practical' as const,
-      title: item.title,
-      subjectId: item.subjectId,
-      status: practicalStatus(index + 1),
-      owner: 'Clinical cases team',
-      updatedAt: nowMinus(36 + index * 6),
-      fields: {
-        Type: 'Clinical case',
-        Duration: String(item.minutes),
-        Marks: String(item.steps),
-        Difficulty: 'Moderate',
-      },
-    })),
-    ...skills.map((skill, index) => ({
-      id: skill.id,
-      kind: 'practical' as const,
-      title: skill.name,
-      subjectId: 'cvs',
-      status: practicalStatus(index + 2),
-      owner: 'Clinical skills team',
-      updatedAt: nowMinus(54 + index * 3),
-      fields: {
-        Type: 'Skills checklist',
-        Duration: '8',
-        Marks: '20',
-        Difficulty: 'Moderate',
-      },
-    })),
-    ...labImaging.map((set, index) => ({
-      id: set.id,
-      kind: 'practical' as const,
-      title: set.title,
-      subjectId: set.subjectId,
-      status: practicalStatus(index + 3),
-      owner: 'Investigations team',
-      updatedAt: nowMinus(68 + index * 4),
-      fields: {
-        Type: set.type === 'Lab' ? 'Lab interpretation' : 'Imaging interpretation',
-        Duration: '10',
-        Marks: String(set.items),
-        Difficulty: 'Moderate',
-      },
-    })),
-  ]
-
-  const resourceItems: ManagedContentItem[] = resources.map((resource, index) => ({
-    id: resource.id,
-    kind: 'resource',
-    title: resource.title,
-    subjectId: resource.subjectId,
-    status: index === 4 ? 'Archived' : index % 7 === 0 ? 'In review' : 'Published',
-    owner: resource.source,
-    updatedAt: nowMinus(16 + index * 9),
-    fields: {
-      Type: resource.type,
-      Source: resource.source,
-      Location: resource.meta,
-      Year: String(resource.year),
-    },
-  }))
-
-  return [...questionItems, ...articleItems, ...practicalItems, ...resourceItems]
+  return []
 }
 
 export const CONTENT_KIND_LABEL: Record<ContentKind, { singular: string; plural: string }> = {

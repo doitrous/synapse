@@ -9,7 +9,7 @@ import {
   type ConceptRelationType,
   type StatementRelationType,
 } from '@/data/conceptGraph'
-import type { ArticleAuthoringData, ManagedContentItem } from '@/data/contentControl'
+import type { ArticleAuthoringData, ArticleMediaRecord, ManagedContentItem } from '@/data/contentControl'
 import { emptySections, newId, type ArticleSection } from '@/data/userLibrary'
 import { libraryTopics } from '@/data/library'
 import { subjects, getSubject } from '@/data/student'
@@ -27,9 +27,9 @@ const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
 function blankArticleData(): ArticleAuthoringData {
   return {
-    arabicTitle: '', aliases: [], templateId: '', archetype: 'concept', language: 'English',
+    arabicTitle: '', aliases: [], templateId: '', archetype: 'concept', language: 'English', learnerStage: '',
     summary: '', body: '', sections: emptySections(), holdThese: [''], loseTheMark: [''], questionIds: [], resourceIds: [], annotations: [],
-    universityIds: [], yearIds: [], moduleIds: [], relatedConceptIds: [], relatedArticleIds: [], universityNotes: [],
+    universityIds: [], yearIds: [], moduleIds: [], relatedConceptIds: [], relatedArticleIds: [], universityNotes: [], fieldNotes: {}, media: [],
     reviewer: 'Medical team, Admin team', finalPublisher: 'Admin team', highYield: 'Core', timeSensitive: 'stable',
     publicationGate: 'needs_evidence', evidenceBasis: [], articleLevelSourceIds: [], claimIds: [], spanIds: [], conflicts: [], evidenceGaps: [], notes: '',
   }
@@ -81,6 +81,22 @@ function LinkCheckList({ items, selected, onChange }: { items: Array<{ id: strin
   return <div className="max-h-52 space-y-1 overflow-y-auto pr-1">{items.map((item) => <label key={item.id} className="flex min-h-10 cursor-pointer items-center gap-2 rounded-md px-2 py-1.5 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" checked={selected.includes(item.id)} onChange={() => onChange(selected.includes(item.id) ? selected.filter((id) => id !== item.id) : [...selected, item.id])} className="size-4 accent-[var(--color-accent)]" /><span className="line-clamp-2">{item.title}</span></label>)}</div>
 }
 
+const listFromText = (text: string) => text.split(/[\n,]/).map((value) => value.trim()).filter(Boolean)
+const fieldNotesText = (notes?: Record<string, string>) => Object.entries(notes ?? {}).map(([field, reason]) => `${field}: ${reason}`).join('\n')
+const fieldNotesFromText = (text: string) => Object.fromEntries(text.split('\n').map((line) => {
+  const separator = line.indexOf(':')
+  return separator < 1 ? null : [line.slice(0, separator).trim(), line.slice(separator + 1).trim()]
+}).filter((entry): entry is [string, string] => Boolean(entry?.[0] && entry?.[1])))
+
+function ArticleMediaEditor({ media, onChange }: { media: ArticleMediaRecord[]; onChange: (media: ArticleMediaRecord[]) => void }) {
+  const patch = (index: number, value: Partial<ArticleMediaRecord>) => onChange(media.map((item, itemIndex) => itemIndex === index ? { ...item, ...value } : item))
+  return <div className="space-y-3">{media.map((item, index) => <div key={item.id} className="rounded-lg border border-line bg-surface-2/40 p-3">
+    <div className="flex items-center gap-2"><Select aria-label={`Media type ${index + 1}`} value={item.type} onChange={(event) => patch(index, { type: event.target.value as ArticleMediaRecord['type'] })}><option value="image">Image</option><option value="audio">Audio</option><option value="video">Video</option></Select><button type="button" className="grid size-9 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Remove media ${index + 1}`} onClick={() => onChange(media.filter((_, itemIndex) => itemIndex !== index))}><Icon icon={Trash2} size={14} /></button></div>
+    <div className="mt-2 grid gap-2 sm:grid-cols-2"><Field label="Media ID"><TextInput value={item.id} onChange={(event) => patch(index, { id: event.target.value })} /></Field><Field label="Resource ID"><TextInput value={item.sourceId ?? ''} onChange={(event) => patch(index, { sourceId: event.target.value })} /></Field><Field label="Exact source"><TextInput value={item.exactSource ?? ''} onChange={(event) => patch(index, { exactSource: event.target.value })} /></Field><Field label="Locator"><TextInput value={item.locator ?? ''} onChange={(event) => patch(index, { locator: event.target.value })} /></Field><Field label="URL"><TextInput value={item.url ?? ''} onChange={(event) => patch(index, { url: event.target.value })} /></Field><Field label="Rights"><TextInput value={item.rights} onChange={(event) => patch(index, { rights: event.target.value })} /></Field></div>
+    <Field label="Caption"><Textarea className="mt-2 min-h-14" value={item.caption} onChange={(event) => patch(index, { caption: event.target.value })} /></Field><Field label="Alt text"><Textarea className="mt-2 min-h-14" value={item.altText} onChange={(event) => patch(index, { altText: event.target.value })} /></Field><Field label="Why this media is needed"><Textarea className="mt-2 min-h-14" value={item.necessity} onChange={(event) => patch(index, { necessity: event.target.value })} /></Field>
+  </div>)}<Button type="button" size="sm" variant="secondary" iconLeft={Plus} onClick={() => onChange([...media, { id: newId('media'), type: 'image', caption: '', altText: '', rights: '', necessity: '' }])}>Add media</Button></div>
+}
+
 export function LibraryArticleEditorDialog({ open, item, contentItems, graph, onGraphChange, onClose, onSave }: { open: boolean; item: ManagedContentItem | null; contentItems: ManagedContentItem[]; graph: ConceptGraph; onGraphChange: (graph: ConceptGraph) => void; onClose: () => void; onSave: (item: ManagedContentItem) => void }) {
   const [draft, setDraft] = useState<ManagedContentItem>(() => blankArticle())
   const [quote, setQuote] = useState('')
@@ -127,6 +143,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
   const yearOptions = universities.flatMap((university) => university.years.map((year) => ({ id: year.id, title: `${university.short} · ${year.year}` })))
   const questionItems = contentItems.filter((content) => content.kind === 'question')
   const resourceItems = contentItems.filter((content) => content.kind === 'resource')
+  const articleItems = contentItems.filter((content) => content.kind === 'article' && content.id !== draft.id)
   const hasBody = (data.sections ?? []).some((s) => s.heading.trim() || s.body.trim()) || data.body.trim()
   const valid = draft.title.trim() && (data.primaryNodeId || draft.fields.Topic?.trim()) && data.summary.trim() && hasBody
   const chapterIndex = Math.max(0, libraryTopics.filter((topic) => topic.subjectId === draft.subjectId).findIndex((topic) => topic.title === draft.fields.Topic))
@@ -193,7 +210,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
 
   return (
     <div className="fixed inset-0 z-50 bg-paper" role="dialog" aria-modal="true" aria-labelledby="article-editor-title">
-      <form className="flex h-full flex-col pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)]" onSubmit={(event) => { event.preventDefault(); if (!valid) return; const base = draft.articleData ?? blankArticleData(); const sections = (base.sections ?? []).map((s) => ({ ...s, heading: s.heading.trim(), body: s.body.trim() })).filter((s) => s.heading || s.body).sort((a, b) => (a.kind === 'components' ? 1 : 0) - (b.kind === 'components' ? 1 : 0)); const finalData = { ...base, sections, body: base.body || sections.map((s) => `${s.heading}\n${s.body}`).join('\n\n') }; onSave({ ...draft, id: draft.id || `article-${Date.now()}`, title: draft.title.trim(), updatedAt: new Date().toISOString(), fields: { ...draft.fields, Summary: finalData.summary, 'Key point': finalData.holdThese[0] ?? '', Reviewer: finalData.reviewer ?? '', Publisher: finalData.finalPublisher ?? '', 'Publication gate': finalData.publicationGate ?? '' }, articleData: finalData }) }}>
+      <form className="flex h-full flex-col pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)]" onSubmit={(event) => { event.preventDefault(); if (!valid) return; const base = draft.articleData ?? blankArticleData(); const sections = (base.sections ?? []).map((s) => ({ ...s, heading: s.heading.trim(), body: s.body.trim() })).filter((s) => s.heading || s.body).sort((a, b) => (a.kind === 'components' ? 1 : 0) - (b.kind === 'components' ? 1 : 0)); const finalData = { ...base, sections, body: base.body || sections.map((s) => `${s.heading}\n${s.body}`).join('\n\n') }; onSave({ ...draft, id: draft.id || `article-${Date.now()}`, title: draft.title.trim(), updatedAt: new Date().toISOString(), fields: { ...draft.fields, Summary: finalData.summary, 'Key point': finalData.holdThese[0] ?? '', 'Content owner': draft.owner, Reviewer: finalData.reviewer ?? '', Publisher: finalData.finalPublisher ?? '', 'Publication gate': finalData.publicationGate ?? '' }, articleData: finalData }) }}>
         <header className="flex shrink-0 flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-2.5 sm:h-16 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-0">
           <span className="grid size-9 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={BookOpen} size={17} /></span>
           <div className="min-w-0 flex-1"><h2 id="article-editor-title" className="font-serif text-[18px] font-semibold text-ink">{item ? 'Edit library article' : 'Add library article'}</h2><p className="text-[11.5px] text-ink-3">Published-layout editor · canonical concept graph</p></div>
@@ -287,6 +304,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
                 <Field label="Article archetype" htmlFor="article-archetype"><Select id="article-archetype" value={data.archetype ?? 'concept'} onChange={(event) => updateData((current) => ({ ...current, archetype: event.target.value as NonNullable<ArticleAuthoringData['archetype']> }))}>{['condition', 'presentation', 'concept', 'anatomy', 'drug', 'skill', 'investigation', 'organism', 'emergency', 'public-health'].map((value) => <option key={value} value={value}>{value}</option>)}</Select></Field>
                 <Field label="Language" htmlFor="article-language"><TextInput id="article-language" value={data.language ?? 'English'} onChange={(event) => updateData((current) => ({ ...current, language: event.target.value }))} /></Field>
                 <Field label="High-yield level" htmlFor="article-yield"><Select id="article-yield" value={data.highYield ?? 'Core'} onChange={(event) => updateData((current) => ({ ...current, highYield: event.target.value as NonNullable<ArticleAuthoringData['highYield']> }))}><option>Core</option><option>High</option><option>Supplementary</option></Select></Field>
+                <Field label="Learner stage" className="sm:col-span-2"><TextInput value={data.learnerStage ?? ''} onChange={(event) => updateData((current) => ({ ...current, learnerStage: event.target.value }))} placeholder="e.g. Years 1–3 foundation" /></Field>
               </div>
 
               <div className="mt-7"><div className="mb-1.5 flex items-center justify-between"><label htmlFor="article-summary" className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Summary</label><Button type="button" size="sm" variant="ghost" onClick={() => captureSelection('summary')}>Use selected text</Button></div><Textarea id="article-summary" className="min-h-32 border-transparent bg-transparent px-0 text-[16.5px] leading-[1.65] shadow-none focus:border-line" value={data.summary} onChange={(event) => updateData((current) => ({ ...current, summary: event.target.value }))} /></div>
@@ -316,6 +334,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
             <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><div className="flex items-center gap-2"><Icon icon={CircleAlert} size={15} className="text-danger" /><h3 className="text-[13px] font-bold text-ink">Where people lose the mark</h3></div><div className="mt-3"><StringListEditor values={data.loseTheMark} onChange={(loseTheMark) => updateData((current) => ({ ...current, loseTheMark }))} addLabel="Add trap" placeholder="Common error or misconception" /></div></section>
             <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><div className="flex items-center gap-2"><Icon icon={ListChecks} size={15} className="text-accent" /><h3 className="text-[13px] font-bold text-ink">Questions that test this</h3></div><div className="mt-2"><LinkCheckList items={questionItems.map((content) => ({ id: content.id, title: content.title }))} selected={data.questionIds} onChange={(questionIds) => updateData((current) => ({ ...current, questionIds }))} /></div></section>
             <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><h3 className="text-[13px] font-bold text-ink">Resources that teach it</h3><div className="mt-2"><LinkCheckList items={resourceItems.map((content) => ({ id: content.id, title: content.title }))} selected={data.resourceIds} onChange={(resourceIds) => updateData((current) => ({ ...current, resourceIds }))} /></div></section>
+            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><h3 className="text-[13px] font-bold text-ink">Related articles</h3><p className="mt-1 text-[11px] text-ink-3">Student-facing reading connections.</p><div className="mt-2"><LinkCheckList items={articleItems.map((content) => ({ id: content.id, title: content.title }))} selected={data.relatedArticleIds ?? []} onChange={(relatedArticleIds) => updateData((current) => ({ ...current, relatedArticleIds }))} /></div></section>
 
             <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel">
               <h3 className="text-[13px] font-bold text-ink">Evidence & publication</h3>
@@ -325,11 +344,17 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
                 <Field label="Last reviewed"><TextInput type="date" value={data.lastReviewed ?? ''} onChange={(event) => updateData((current) => ({ ...current, lastReviewed: event.target.value }))} /></Field>
                 <Field label="Review due"><TextInput type="date" value={data.reviewDue ?? ''} onChange={(event) => updateData((current) => ({ ...current, reviewDue: event.target.value }))} /></Field>
                 <Field label="Evidence basis" hint="One source rule or note per line"><Textarea className="min-h-24" value={(data.evidenceBasis ?? []).join('\n')} onChange={(event) => updateData((current) => ({ ...current, evidenceBasis: event.target.value.split('\n').map((value) => value.trim()).filter(Boolean) }))} /></Field>
+                <Field label="Article-level source IDs" hint="One per line"><Textarea className="min-h-20 font-mono text-[10.5px]" value={(data.articleLevelSourceIds ?? []).join('\n')} onChange={(event) => updateData((current) => ({ ...current, articleLevelSourceIds: listFromText(event.target.value) }))} /></Field>
+                <Field label="Evidence claim IDs" hint="One per line"><Textarea className="min-h-20 font-mono text-[10.5px]" value={(data.claimIds ?? []).join('\n')} onChange={(event) => updateData((current) => ({ ...current, claimIds: listFromText(event.target.value) }))} /></Field>
+                <Field label="Stable span IDs" hint="One per line"><Textarea className="min-h-20 font-mono text-[10.5px]" value={(data.spanIds ?? []).join('\n')} onChange={(event) => updateData((current) => ({ ...current, spanIds: listFromText(event.target.value) }))} /></Field>
                 <Field label="Evidence gaps"><Textarea className="min-h-20" value={(data.evidenceGaps ?? []).join('\n')} onChange={(event) => updateData((current) => ({ ...current, evidenceGaps: event.target.value.split('\n').map((value) => value.trim()).filter(Boolean) }))} /></Field>
                 <Field label="Conflicts"><Textarea className="min-h-20" value={(data.conflicts ?? []).join('\n')} onChange={(event) => updateData((current) => ({ ...current, conflicts: event.target.value.split('\n').map((value) => value.trim()).filter(Boolean) }))} /></Field>
+                <Field label="Intentionally blank fields" hint="field: reason, one per line"><Textarea className="min-h-24" value={fieldNotesText(data.fieldNotes)} onChange={(event) => updateData((current) => ({ ...current, fieldNotes: fieldNotesFromText(event.target.value) }))} /></Field>
                 <Field label="Editorial notes"><Textarea className="min-h-20" value={data.notes ?? ''} onChange={(event) => updateData((current) => ({ ...current, notes: event.target.value }))} /></Field>
               </div>
             </section>
+
+            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><h3 className="text-[13px] font-bold text-ink">Media & rights</h3><p className="mb-3 mt-1 text-[11px] leading-relaxed text-ink-3">Add media only when its exact source, rights, alternative text, and teaching need are known.</p><ArticleMediaEditor media={data.media ?? []} onChange={(media) => updateData((current) => ({ ...current, media }))} /></section>
 
             <section className="mt-3 rounded-xl border border-accent-line bg-accent-tint/35 p-4"><div className="flex items-center gap-2"><Icon icon={Flag} size={15} className="text-accent" /><h3 className="text-[13px] font-bold text-ink">Tag selected statement</h3></div><p className="mt-1 text-[11px] leading-relaxed text-ink-3">Select text in the summary or article, press “Use selected text,” then link it to an existing canonical ID.</p><div className="mt-3 space-y-2"><Textarea aria-label="Selected statement" className="min-h-20" value={quote} onChange={(event) => setQuote(event.target.value)} placeholder="Selected word, sentence, or statement" /><Select aria-label="Statement relationship" value={annotationRelation} onChange={(event) => setAnnotationRelation(event.target.value as StatementRelationType)}>{STATEMENT_RELATIONS.map((relation) => <option key={relation}>{relation}</option>)}</Select><Select aria-label="Canonical concept" value={annotationConcept} onChange={(event) => setAnnotationConcept(event.target.value)}>{graph.concepts.map((concept) => <option key={concept.id} value={concept.id}>{concept.label} · {concept.id}</option>)}</Select><Button type="button" className="w-full" size="sm" iconLeft={Flag} disabled={!quote.trim() || !annotationConcept} onClick={addAnnotation}>Tag with canonical ID</Button></div></section>
 

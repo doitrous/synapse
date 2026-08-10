@@ -137,6 +137,11 @@ function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId, onSele
 function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; onPatch: (next: Partial<Concept>) => void }) {
   const list = (text: string) => text.split(/[\n,]/).map((item) => item.trim()).filter(Boolean)
   const numbers = (text: string) => list(text).map(Number).filter((number) => Number.isFinite(number))
+  const fieldNotesText = (notes?: Record<string, string>) => Object.entries(notes ?? {}).map(([field, reason]) => `${field}: ${reason}`).join('\n')
+  const fieldNotes = (text: string) => Object.fromEntries(text.split('\n').map((line) => {
+    const separator = line.indexOf(':')
+    return separator < 1 ? null : [line.slice(0, separator).trim(), line.slice(separator + 1).trim()]
+  }).filter((entry): entry is [string, string] => Boolean(entry?.[0] && entry?.[1])))
   return (
     <details className="rounded-lg border border-line bg-surface-2/40 p-3">
       <summary className="cursor-pointer text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Evidence, audience & governance fields</summary>
@@ -162,15 +167,24 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
           <Field label="Publication status"><TextInput value={value.publicationStatus ?? ''} onChange={(event) => onPatch({ publicationStatus: event.target.value })} /></Field>
           <Field label="Owner"><TextInput value={value.owner ?? ''} onChange={(event) => onPatch({ owner: event.target.value })} /></Field>
           <Field label="Reviewer"><TextInput value={value.reviewer ?? ''} onChange={(event) => onPatch({ reviewer: event.target.value })} /></Field>
+          <Field label="Final publisher"><TextInput value={value.finalPublisher ?? ''} onChange={(event) => onPatch({ finalPublisher: event.target.value })} /></Field>
           <Field label="Last reviewed"><TextInput type="date" value={value.lastReviewed ?? ''} onChange={(event) => onPatch({ lastReviewed: event.target.value })} /></Field>
           <Field label="Review due"><TextInput type="date" value={value.reviewDue ?? ''} onChange={(event) => onPatch({ reviewDue: event.target.value })} /></Field>
         </div>
         <Field label="Atomic claim IDs" hint="One per line"><Textarea value={(value.atomicClaimIds ?? []).join('\n')} onChange={(event) => onPatch({ atomicClaimIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Related article IDs" hint="One per line"><Textarea value={(value.relatedArticleIds ?? value.articleIds ?? []).join('\n')} onChange={(event) => onPatch({ relatedArticleIds: list(event.target.value), articleIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
+        <Field label="Related concept IDs" hint="Typed links remain in Relationships"><Textarea value={(value.relatedConceptIds ?? []).join('\n')} onChange={(event) => onPatch({ relatedConceptIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
+        <Field label="Resource occurrence IDs" hint="Exact source occurrences, one per line"><Textarea value={(value.resourceOccurrenceIds ?? []).join('\n')} onChange={(event) => onPatch({ resourceOccurrenceIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
+        <Field label="Approved file resource IDs" hint="One per line"><Textarea value={(value.approvedFileResourceIds ?? []).join('\n')} onChange={(event) => onPatch({ approvedFileResourceIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
+        <Field label="Approved video resource IDs" hint="One per line"><Textarea value={(value.approvedVideoResourceIds ?? []).join('\n')} onChange={(event) => onPatch({ approvedVideoResourceIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Evidence gaps" hint="One per line"><Textarea value={(value.evidenceGaps ?? []).join('\n')} onChange={(event) => onPatch({ evidenceGaps: list(event.target.value) })} className="min-h-20" /></Field>
         <Field label="Conflicts" hint="One per line"><Textarea value={(value.conflicts ?? []).join('\n')} onChange={(event) => onPatch({ conflicts: list(event.target.value) })} className="min-h-16" /></Field>
         <Field label="Uncertainty" hint="One per line"><Textarea value={(value.uncertainty ?? []).join('\n')} onChange={(event) => onPatch({ uncertainty: list(event.target.value) })} className="min-h-16" /></Field>
+        <Field label="Source candidate IDs" hint="Preserved extraction lineage"><Textarea value={(value.sourceCandidateIds ?? []).join('\n')} onChange={(event) => onPatch({ sourceCandidateIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
+        <Field label="Merge record IDs" hint="Reversible canonicalisation records"><Textarea value={(value.mergeIds ?? []).join('\n')} onChange={(event) => onPatch({ mergeIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
+        <Field label="Rejected merge candidate IDs" hint="Similar but intentionally separate"><Textarea value={(value.rejectedMergeCandidateIds ?? []).join('\n')} onChange={(event) => onPatch({ rejectedMergeCandidateIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Original wording" hint="Preserved source wording, one per line"><Textarea value={(value.originalWording ?? []).join('\n')} onChange={(event) => onPatch({ originalWording: list(event.target.value) })} className="min-h-20" /></Field>
+        <Field label="Intentionally blank fields" hint="field: reason, one per line"><Textarea value={fieldNotesText(value.fieldNotes)} onChange={(event) => onPatch({ fieldNotes: fieldNotes(event.target.value) })} className="min-h-20" /></Field>
         <Field label="Exclusion reason"><Textarea value={value.exclusionReason ?? ''} onChange={(event) => onPatch({ exclusionReason: event.target.value || null })} className="min-h-16" /></Field>
       </div>
     </details>
@@ -222,7 +236,7 @@ export function ConceptsSetup() {
   const [nBlueprint, setNBlueprint] = useState('')
   const [nClinical, setNClinical] = useState('')
   const [nAcademic, setNAcademic] = useState('')
-  const [nExtra, setNExtra] = useState<Partial<Concept>>({ owner: 'Admin team', reviewer: 'Medical team, Admin team', publicationStatus: 'under review', universityIds: [], learnerYears: [], moduleIds: [], evidenceGaps: ['Evidence must be attached before publication.'] })
+  const [nExtra, setNExtra] = useState<Partial<Concept>>({ owner: 'Admin team', reviewer: 'Medical team, Admin team', finalPublisher: 'Admin team', publicationStatus: 'under review', universityIds: [], learnerYears: [], moduleIds: [], evidenceGaps: ['Evidence must be attached before publication.'] })
 
   /** Article IDs implied by a placement's deepest node (for auto-linking). */
   const articleIdsFor = (p: TaxonomyPlacement): string[] => {
@@ -394,7 +408,7 @@ export function ConceptsSetup() {
     }
     setGraph((g) => ({ ...g, concepts: [concept, ...g.concepts] }))
     setCreating(false)
-    setNLabel(''); setNAliases(''); setNDef(''); setNPlacement({}); setNPitfalls(''); setNStatus('under review'); setNBlueprint(''); setNClinical(''); setNAcademic(''); setNExtra({ owner: 'Admin team', reviewer: 'Medical team, Admin team', publicationStatus: 'under review', universityIds: [], learnerYears: [], moduleIds: [], evidenceGaps: ['Evidence must be attached before publication.'] })
+    setNLabel(''); setNAliases(''); setNDef(''); setNPlacement({}); setNPitfalls(''); setNStatus('under review'); setNBlueprint(''); setNClinical(''); setNAcademic(''); setNExtra({ owner: 'Admin team', reviewer: 'Medical team, Admin team', finalPublisher: 'Admin team', publicationStatus: 'under review', universityIds: [], learnerYears: [], moduleIds: [], evidenceGaps: ['Evidence must be attached before publication.'] })
     selectConcept(concept)
   }
 

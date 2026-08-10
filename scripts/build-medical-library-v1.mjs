@@ -77,12 +77,6 @@ const spanById = new Map(bundle.article_spans.map((span) => [span.id, span]))
 const claimsById = new Map(bundle.claims.map((claim) => [claim.id, claim]))
 const citationsById = new Map(bundle.citations.map((citation) => [citation.id, citation]))
 
-const stripEvidenceMarkup = (body) => String(body || '')
-  .replace(/<!--\s*\/?evidence:[^>]*-->/g, '')
-  .replace(/^[-*]\s+/gm, '')
-  .replace(/\n{3,}/g, '\n\n')
-  .trim()
-
 const placementFor = (articleId) => {
   const target = PILOT_ARTICLE_PLACEMENTS[articleId]
   const system = CURRICULUM_CATALOG.find((node) => node.id === 'cvs')
@@ -128,22 +122,80 @@ const archetypeMap = {
   'Public health / prevention': 'public-health',
 }
 
+const articleAliases = {
+  'ART-CVS-CARDIAC-ELECTRICAL': ['ECG foundations', 'Electrocardiography foundations'],
+  'ART-CVS-CARDIAC-OUTPUT': ['Cardiac output', 'Preload and afterload'],
+  'ART-CVS-BLOOD-PRESSURE': ['Arterial blood pressure', 'Blood pressure regulation'],
+  'ART-CVS-VASCULAR-FLOW': ['Vascular flow', 'Microcirculation'],
+}
+
+const relatedArticles = {
+  'ART-CVS-HEART-ORIENTATION': ['ART-CVS-CHAMBERS-VALVES', 'ART-CVS-CORONARY-CIRCULATION'],
+  'ART-CVS-CHAMBERS-VALVES': ['ART-CVS-HEART-ORIENTATION', 'ART-CVS-CONDUCTION', 'ART-CVS-CARDIAC-CYCLE'],
+  'ART-CVS-CORONARY-CIRCULATION': ['ART-CVS-HEART-ORIENTATION', 'ART-CVS-CHAMBERS-VALVES'],
+  'ART-CVS-CARDIAC-HISTOLOGY': ['ART-CVS-CONDUCTION', 'ART-CVS-CARDIAC-ELECTRICAL', 'ART-CVS-VASCULAR-FLOW'],
+  'ART-CVS-CONDUCTION': ['ART-CVS-CARDIAC-HISTOLOGY', 'ART-CVS-CARDIAC-ELECTRICAL'],
+  'ART-CVS-CARDIAC-ELECTRICAL': ['ART-CVS-CONDUCTION', 'ART-CVS-CARDIAC-CYCLE'],
+  'ART-CVS-CARDIAC-CYCLE': ['ART-CVS-CHAMBERS-VALVES', 'ART-CVS-CARDIAC-ELECTRICAL', 'ART-CVS-CARDIAC-OUTPUT'],
+  'ART-CVS-CARDIAC-OUTPUT': ['ART-CVS-CARDIAC-CYCLE', 'ART-CVS-BLOOD-PRESSURE', 'ART-CVS-VASCULAR-FLOW'],
+  'ART-CVS-BLOOD-PRESSURE': ['ART-CVS-CARDIAC-OUTPUT', 'ART-CVS-VASCULAR-FLOW'],
+  'ART-CVS-VASCULAR-FLOW': ['ART-CVS-CARDIAC-HISTOLOGY', 'ART-CVS-CARDIAC-OUTPUT', 'ART-CVS-BLOOD-PRESSURE'],
+}
+
+const slug = (value) => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'section'
+const articleSpansByArticle = new Map()
+for (const span of bundle.article_spans) articleSpansByArticle.set(span.article_id, [...(articleSpansByArticle.get(span.article_id) || []), span])
+
+const readableSectionsFor = (article) => {
+  const articleConcepts = bundle.concepts.filter((concept) => (concept.related_article_ids || []).includes(article.id))
+  const groups = new Map()
+  for (const concept of articleConcepts) {
+    const heading = concept.subtopic || concept.topic || 'Core concepts'
+    const claimIds = new Set(concept.atomic_claim_ids || [])
+    const spans = (articleSpansByArticle.get(article.id) || []).filter((span) => (span.claim_ids || []).some((claimId) => claimIds.has(claimId)))
+    groups.set(heading, [...(groups.get(heading) || []), ...spans])
+  }
+  const sections = [...groups.entries()].map(([heading, spans]) => {
+    const uniqueSpans = [...new Map(spans.map((span) => [span.id, span])).values()]
+    return {
+      id: `${article.id}-section-${slug(heading)}`,
+      heading,
+      body: uniqueSpans.map((span) => (span.claim_ids || []).map((claimId) => claimsById.get(claimId)?.display_text).filter(Boolean).join(' ')).filter(Boolean).join('\n\n'),
+      kind: 'content',
+      spanIds: uniqueSpans.map((span) => span.id),
+    }
+  })
+  const conceptLines = articleConcepts.map((concept) => `${concept.label} · ${concept.id}`)
+  const articleLines = (relatedArticles[article.id] || []).map((articleId) => `${bundle.articles.find((item) => item.id === articleId)?.title || articleId} · ${articleId}`)
+  sections.push({ id: `${article.id}-components-and-relations`, heading: 'Components and relations', body: [`Concepts in this article:\n${conceptLines.join('\n')}`, `Continue with:\n${articleLines.join('\n')}`].join('\n\n'), kind: 'components', spanIds: [] })
+  return sections
+}
+
+const publicationGateFor = (article) => {
+  if (article.status === 'published') return 'publishable'
+  if (/faculty/i.test(article.publication_gate || '')) return 'faculty_review'
+  if ((article.conflicts || []).length) return 'conflicted'
+  return 'needs_evidence'
+}
+
 const articleItems = bundle.articles.map((article) => {
   const place = placementFor(article.id)
   const canonicalPlace = canonicalPlacementFor(article.id)
-  const sectionSpans = new Map()
-  bundle.article_spans.filter((span) => span.article_id === article.id).forEach((span) => sectionSpans.set(span.section_id, [...(sectionSpans.get(span.section_id) || []), span.id]))
-  const sortedSections = [...article.sections]
-    .map((section) => ({
-      id: section.id,
-      heading: section.heading,
-      body: stripEvidenceMarkup(section.body),
-      kind: /components\s+and\s+relations/i.test(section.heading) ? 'components' : 'content',
-      spanIds: sectionSpans.get(section.id) || [],
-    }))
-    .sort((a, b) => (a.kind === 'components' ? 1 : 0) - (b.kind === 'components' ? 1 : 0))
+  const sortedSections = readableSectionsFor(article)
   const publishable = article.status === 'published'
   const universityNotes = Object.entries(article.university_notes || {}).map(([name, text], index) => ({ id: `${article.id}-unote-${index + 1}`, universityId: name === 'Kasr Alainy' ? 'kau' : '', text }))
+  const claimIds = (article.claim_annotations || []).flatMap((spanId) => spanById.get(spanId)?.claim_ids || [])
+  const fieldNotes = {
+    arabicTitle: 'No reviewed Arabic title was supplied; left empty rather than translated by the model.',
+    ...((article.aliases || []).length || (articleAliases[article.id] || []).length ? {} : { aliases: 'No distinct evidence-supported search alias was needed for this title.' }),
+    questionIds: 'No validated question records are linked to this pilot article yet.',
+    moduleIds: 'The source names the Cardiovascular module but does not supply a verified live module ID.',
+    microtopicId: 'The canonical medical taxonomy placement is more precise than this optional legacy curriculum overlay.',
+    nanotopicId: 'No separate legacy nanotopic ID is needed; canonical placement remains the source of truth.',
+    media: 'No rights-cleared, necessity-reviewed media item was supplied.',
+    ...(article.last_reviewed ? {} : { lastReviewed: 'Not set until the evidence gate is passed by review.' }),
+    ...(article.review_due ? {} : { reviewDue: 'Not scheduled until initial evidence review is complete.' }),
+  }
   return {
     id: article.id,
     kind: 'article',
@@ -154,8 +206,9 @@ const articleItems = bundle.articles.map((article) => {
     updatedAt: generatedAt,
     fields: {
       Topic: place.topic.title,
-      Summary: article.summary,
+      Summary: `${article.title} is organised here as ${claimIds.length} evidence-linked facts for years 1–3. Select any fact to inspect every exact source and locator. Items that still need independent verification remain under review.`,
       'Reading time': String(article.reading_time || 8),
+      'Content owner': owner,
       'Key point': article.hold_these?.[0] || '',
       'Template ID': article.template_id || '',
       Archetype: article.archetype || '',
@@ -166,12 +219,13 @@ const articleItems = bundle.articles.map((article) => {
     },
     articleData: {
       arabicTitle: article.arabic_title || '',
-      aliases: article.aliases || [],
+      aliases: [...new Set([...(article.aliases || []), ...(articleAliases[article.id] || [])])],
       templateId: article.template_id,
       archetype: archetypeMap[article.archetype] || 'concept',
       language: article.language || 'English',
-      summary: article.summary,
-      body: stripEvidenceMarkup(article.body),
+      learnerStage: article.learner_stage || 'Years 1–3 foundation',
+      summary: `${article.title} is organised here as ${claimIds.length} evidence-linked facts for years 1–3. Select any fact to inspect every exact source and locator. Items that still need independent verification remain under review.`,
+      body: sortedSections.map((section) => `${section.heading}\n${section.body}`).join('\n\n'),
       sections: sortedSections,
       holdThese: article.hold_these || [],
       loseTheMark: article.lose_the_mark || [],
@@ -185,21 +239,23 @@ const articleItems = bundle.articles.map((article) => {
       secondaryNodeIds: canonicalPlace.secondaryNodeIds,
       subtopicId: place.subtopic.subId,
       relatedConceptIds: article.related_concept_ids || [],
-      relatedArticleIds: article.related_article_ids || [],
+      relatedArticleIds: [...new Set([...(article.related_article_ids || []), ...(relatedArticles[article.id] || [])])],
       universityNotes,
+      fieldNotes,
       reviewer,
       finalPublisher: publisher,
       reviewDue: article.review_due || '',
       lastReviewed: article.last_reviewed || '',
       highYield: article.high_yield || 'Core',
       timeSensitive: article.time_sensitive === 'time_sensitive' ? 'time_sensitive' : 'stable',
-      publicationGate: publishable ? 'publishable' : 'needs_evidence',
+      publicationGate: publicationGateFor(article),
       evidenceBasis: article.evidence_basis || [],
       articleLevelSourceIds: article.article_level_sources || [],
-      claimIds: (article.claim_annotations || []).flatMap((spanId) => spanById.get(spanId)?.claim_ids || []),
+      claimIds,
       spanIds: article.claim_annotations || [],
       conflicts: article.conflicts || [],
       evidenceGaps: article.evidence_gaps || [],
+      media: article.media || [],
       notes: article.notes || '',
     },
   }
@@ -250,6 +306,21 @@ const concepts = bundle.concepts.map((concept) => {
   const place = placementFor(articleId)
   const canonicalPlace = canonicalPlacementFor(articleId)
   const micro = place.subtopic.micros.find((node) => node.title.toLowerCase() === String(concept.subtopic || '').toLowerCase())
+  const conceptCitationIds = (concept.atomic_claim_ids || []).flatMap((claimId) => claimsById.get(claimId)?.citation_ids || [])
+  const conceptResourceIds = [...new Set(conceptCitationIds.map((citationId) => citationsById.get(citationId)?.resource_id).filter(Boolean))]
+  const approvedFileResourceIds = conceptResourceIds.filter((resourceId) => resources.find((resource) => resource.id === resourceId)?.sourceUri)
+  const fieldNotes = {
+    ...(concept.arabic_label ? {} : { arabicLabel: 'No reviewed Arabic terminology was supplied; left empty rather than model-translated.' }),
+    ...((concept.aliases || []).length ? {} : { aliases: 'No distinct source-supported synonym or abbreviation was supplied.' }),
+    ...((concept.pitfalls || []).length ? {} : { pitfalls: 'No concept-specific misconception was explicitly supported by the qualified source.' }),
+    moduleIds: 'The source names the Cardiovascular module but does not supply a verified live module ID.',
+    microtopicId: 'Optional legacy overlay; the canonical medical taxonomy placement remains the source of truth.',
+    nanotopicId: 'Optional legacy overlay; no verified nanotopic ID was supplied.',
+    ...(approvedFileResourceIds.length ? {} : { approvedFileResourceIds: 'Qualified local files retain exact occurrences but remain pending secure upload.' }),
+    approvedVideoResourceIds: 'No qualified video source was supplied for this concept.',
+    ...(concept.last_reviewed ? {} : { lastReviewed: 'Not set until the claim passes its evidence gate.' }),
+    ...(concept.review_due ? {} : { reviewDue: 'Not scheduled until initial evidence review is complete.' }),
+  }
   return {
     id: concept.id,
     label: concept.label,
@@ -280,7 +351,7 @@ const concepts = bundle.concepts.map((concept) => {
     academicRelevance: concept.academic_relevance,
     relatedConceptIds: [],
     relatedArticleIds: concept.related_article_ids || [],
-    approvedFileResourceIds: [],
+    approvedFileResourceIds,
     approvedVideoResourceIds: [],
     atomicClaimIds: concept.atomic_claim_ids || [],
     resourceOccurrenceIds: concept.resource_occurrence_ids || [],
@@ -295,38 +366,57 @@ const concepts = bundle.concepts.map((concept) => {
     originalWording: concept.original_wording || [],
     owner,
     reviewer,
+    finalPublisher: publisher,
     lastReviewed: concept.last_reviewed || '',
     reviewDue: concept.review_due || '',
     publicationStatus: concept.publication_status,
     exclusionReason: concept.exclusion_reason,
     weightConfidence: concept.weight_confidence,
+    fieldNotes,
   }
 })
 
-// Only emit a semantic concept-to-concept relation when the supplied wording
-// explicitly names another canonical concept. Shared article membership alone
-// never creates a relationship.
-const relations = []
-for (const concept of concepts) {
-  for (const target of concepts) {
-    if (concept.id === target.id || target.label.length < 9) continue
-    if (!concept.definition.toLowerCase().includes(target.label.toLowerCase())) continue
-    const claimIds = concept.atomicClaimIds || []
-    const citationIds = claimIds.flatMap((id) => claimsById.get(id)?.citation_ids || [])
-    relations.push({
-      id: `REL-${concept.id}-${target.id}`,
-      sourceId: concept.id,
-      type: 'related_concepts',
-      targetId: target.id,
-      evidenceClaimIds: claimIds,
-      citationIds,
-      confidence: Math.min(concept.confidence || 0, target.confidence || 0),
-      verificationStatus: claimIds.every((id) => claimsById.get(id)?.verification_status === 'verified') ? 'verified' : 'needs_evidence',
-      qualifiers: { derivation: 'explicit_target_label_in_supplied_definition' },
-      reviewer,
-      reviewedAt: generatedAt,
-    })
+const relationSeeds = [
+  ['Fibrous and serous pericardial coverings', 'related_concepts', 'Heart within the pericardium and middle mediastinum'],
+  ['Heart within the pericardium and middle mediastinum', 'related_concepts', 'Retrosternal position of the heart'],
+  ['Aortic sinuses', 'related_concepts', 'Aortic sinuses of the ascending aorta'],
+  ['Circumflex relation to coronary sinus', 'related_concepts', 'Course of coronary sinus with circumflex artery'],
+  ['Coronary sinus opening in the right atrium', 'related_concepts', 'Course of coronary sinus with circumflex artery'],
+  ['AV block is disturbed conduction between atria and ventricles at the atrioventricular node', 'presents_as', 'Atrioventricular block may prolong PR or produce P waves not followed by QRS'],
+  ['AV block is disturbed conduction between atria and ventricles at the atrioventricular node', 'presents_as', 'AV block can increase PR interval or produce P waves without following QRS complexes'],
+  ['Atrioventricular block disturbs conduction between atria and ventricles', 'related_concepts', 'AV block is disturbed conduction between atria and ventricles at the atrioventricular node'],
+  ['Pericyte contraction regulates capillary blood flow', 'related_concepts', 'Pericyte processes usually surround capillary endothelium'],
+  ['Continuous capillaries occur in connective tissue, bone, skin, and exocrine glands', 'contrasts_with', 'Fenestrated capillaries occur in intestine, endocrine glands, and renal glomeruli'],
+  ['Afterload is the load against which cardiac muscle contracts', 'related_concepts', 'Afterload mainly affects end-systolic volume'],
+  ['Arterial baroreceptors are mechanical stretch receptors that sense arterial pressure', 'related_concepts', 'Arterial baroreceptors are located mainly in the carotid sinus and aortic arch'],
+  ['Arterial baroreceptors are mechanical stretch receptors that sense arterial pressure', 'related_concepts', 'Arterial baroreceptors begin responding near an arterial pressure of 50 mmHg'],
+  ['Coronary blockage causes myocardial infarction', 'related_concepts', 'Coronary narrowing causes myocardial ischemia'],
+  ['Arterial pressure equals cardiac output multiplied by total peripheral resistance', 'related_concepts', 'Arterial pressure equals heart rate multiplied by stroke volume and total peripheral resistance'],
+  ['A cardiac murmur is an abnormal heart sound heard over chest-wall auscultatory areas', 'related_concepts', 'Abnormal heart sounds may have altered intensity'],
+]
+const conceptByLabel = new Map(concepts.map((concept) => [concept.label, concept]))
+const relations = relationSeeds.map(([sourceLabel, type, targetLabel], index) => {
+  const source = conceptByLabel.get(sourceLabel)
+  const target = conceptByLabel.get(targetLabel)
+  if (!source || !target) throw new Error(`Curated relationship references a missing concept: ${sourceLabel} -> ${targetLabel}`)
+  const evidenceClaimIds = [...new Set([...(source.atomicClaimIds || []), ...(target.atomicClaimIds || [])])]
+  const citationIds = [...new Set(evidenceClaimIds.flatMap((claimId) => claimsById.get(claimId)?.citation_ids || []))]
+  const verified = evidenceClaimIds.length > 0 && evidenceClaimIds.every((claimId) => claimsById.get(claimId)?.verification_status === 'verified')
+  return {
+    id: `REL-CVS-${String(index + 1).padStart(3, '0')}`,
+    sourceId: source.id,
+    type,
+    targetId: target.id,
+    evidenceClaimIds,
+    citationIds,
+    confidence: Math.min(source.confidence || 0, target.confidence || 0),
+    verificationStatus: verified ? 'verified' : 'needs_evidence',
+    qualifiers: { derivation: 'curated_shared_entity_or_explicit_relation_from_supplied_claims', reviewMode: 'evidence_gate_not_faculty_signoff' },
+    reviewer,
   }
+})
+for (const concept of concepts) {
+  concept.relatedConceptIds = [...new Set(relations.filter((relation) => relation.sourceId === concept.id || relation.targetId === concept.id).map((relation) => relation.sourceId === concept.id ? relation.targetId : relation.sourceId))]
 }
 
 const claims = bundle.claims.map((claim) => ({
@@ -440,11 +530,15 @@ const data = {
     medicalSkillRoots: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'skills' && node.parentId === null).length,
     medicalKnowledgeRoots: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'knowledge' && node.parentId === null).length,
     articles: articleItems.length,
+    articleSections: articleItems.reduce((sum, article) => sum + (article.articleData?.sections?.length || 0), 0),
+    articleSectionsWithEvidence: articleItems.reduce((sum, article) => sum + (article.articleData?.sections || []).filter((section) => section.spanIds?.length).length, 0),
+    articlesWithRelatedReading: articleItems.filter((article) => article.articleData?.relatedArticleIds?.length).length,
     publishedArticles: articleItems.filter((item) => item.status === 'Published').length,
     concepts: concepts.length,
     activeConcepts: concepts.filter((concept) => concept.status === 'active').length,
     relations: relations.length,
     verifiedRelations: relations.filter((relation) => relation.verificationStatus === 'verified').length,
+    conceptsWithRelations: concepts.filter((concept) => concept.relatedConceptIds?.length).length,
     claims: claims.length,
     verifiedClaims: claims.filter((claim) => claim.verificationStatus === 'verified').length,
     citations: citations.length,
@@ -458,6 +552,10 @@ const data = {
 if (data.report.absolutePathsExposed) throw new Error('Sanitisation failed: an absolute authoring path remains in the launch package')
 if (data.report.universities !== 12 || data.report.years !== 84) throw new Error('University/year catalogue failed deterministic-count validation')
 if (data.report.articles !== 10 || data.report.concepts !== 140 || data.report.claims !== 140) throw new Error('Pilot coverage count mismatch')
+if (articleItems.some((article) => article.articleData.sections.at(-1)?.kind !== 'components')) throw new Error('Every article must end with Components and relations')
+if (articleItems.some((article) => !article.owner || !article.articleData.reviewer || !article.articleData.finalPublisher)) throw new Error('Article governance fields are incomplete')
+if (concepts.some((concept) => !concept.owner || !concept.reviewer || !concept.finalPublisher || !concept.primaryNodeId || !concept.atomicClaimIds.length)) throw new Error('Concept identity, placement, evidence, or governance fields are incomplete')
+if (new Set(articleItems.flatMap((article) => article.articleData.sections.flatMap((section) => section.spanIds || []))).size !== bundle.article_spans.length) throw new Error('Readable article sections do not cover every evidence span exactly once')
 
 await mkdir(dirname(outputPath), { recursive: true })
 await writeFile(outputPath, `${JSON.stringify(data, null, 2)}\n`)
