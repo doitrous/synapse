@@ -100,6 +100,10 @@ export interface ArticleAuthoringData {
   /** Year IDs this article applies to. */
   yearIds?: string[]
   moduleIds?: string[]
+  /** Canonical placement in the complete medical-library taxonomy. */
+  primaryNodeId?: string
+  /** Additional valid placements across systems, disciplines, skills, and knowledge. */
+  secondaryNodeIds?: string[]
   subtopicId?: string
   microtopicId?: string
   nanotopicId?: string

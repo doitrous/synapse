@@ -19,6 +19,9 @@ import { allSubtopics, libraryTopics } from '@/data/library'
 import { subjects } from '@/data/student'
 import { useTaxonomyTree, type TaxSysNode } from '@/data/taxonomyStore'
 import { TaxonomyPlacementPicker, type TaxonomyPlacement } from '@/components/admin/TaxonomyPlacementPicker'
+import { MedicalTaxonomyPlacementPicker } from '@/components/admin/MedicalTaxonomyPlacementPicker'
+import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
+import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { universities } from '@/data/universities'
 
 /** Resolve a concept's subject + topic — explicit fields first, else via articleIds. */
@@ -83,7 +86,7 @@ function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId, onSele
   const [value, setValue] = useState(node.label)
   const open = expanded[node.key] ?? true
   const total = countIn(node)
-  const canRename = node.level !== 'system' && node.nodeId !== 'unassigned'
+  const canRename = node.level !== 'system' && node.level !== 'canonical' && node.nodeId !== 'unassigned'
   return (
     <div style={{ paddingInlineStart: depth === 0 ? 0 : 10 }} className={depth === 0 ? '' : 'border-s border-line-2'}>
       <div className="group/branch flex items-center gap-1.5 rounded-md px-2 py-1.5 hover:bg-inset/50">
@@ -177,6 +180,8 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
 export function ConceptsSetup() {
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
+  const [medicalTaxonomy] = useMedicalTaxonomy()
+  const medicalIndex = useMemo(() => indexMedicalTaxonomy(medicalTaxonomy), [medicalTaxonomy])
   const [query, setQuery] = useState('')
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
   const [selectedId, setSelectedId] = useState<string | null>(graph.concepts[0]?.id ?? null)
@@ -233,6 +238,9 @@ export function ConceptsSetup() {
 
   /** Resolve a concept's placement path (system → … → deepest) from the taxonomy. */
   const pathOf = (concept: Concept): TreeNode[] => {
+    if (concept.primaryNodeId && medicalIndex.byId.has(concept.primaryNodeId)) {
+      return medicalIndex.lineage(concept.primaryNodeId).map((node) => ({ key: `canonical:${node.id}`, label: node.title, level: 'canonical', nodeId: node.id, children: new Map(), concepts: [] }))
+    }
     const legacy = scopeOf(concept)
     const sys = taxonomy.find((s) => s.id === concept.subjectId || s.sysId === concept.systemId) || taxonomy.find((s) => s.id === legacy.subjectId)
     if (!sys) return [{ key: 'sys:unassigned', label: 'Unassigned', level: 'system', nodeId: 'unassigned', children: new Map(), concepts: [] }]
@@ -271,10 +279,17 @@ export function ConceptsSetup() {
       node?.concepts.push(concept)
     })
     // Order roots by subjects order, unassigned last.
-    const order = [...subjects.map((s) => `sys:${s.id}`), 'sys:unassigned']
-    return [...roots.values()].sort((a, b) => order.indexOf(a.key) - order.indexOf(b.key))
+    const order = [...medicalIndex.roots('system'), ...medicalIndex.roots('discipline'), ...medicalIndex.roots('skills'), ...medicalIndex.roots('knowledge')].map((node) => `canonical:${node.id}`)
+    order.push(...subjects.map((s) => `sys:${s.id}`), 'sys:unassigned')
+    return [...roots.values()].sort((a, b) => {
+      const ai = order.indexOf(a.key); const bi = order.indexOf(b.key)
+      if (ai === -1 && bi === -1) return a.label.localeCompare(b.label)
+      if (ai === -1) return 1
+      if (bi === -1) return -1
+      return ai - bi
+    })
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [graph.concepts, q, taxonomy])
+  }, [graph.concepts, medicalIndex, q, taxonomy])
 
   /** Rename a taxonomy branch (topic/subtopic/microtopic/nanotopic) live. */
   function renameBranch(level: string, nodeId: string, title: string) {
@@ -523,16 +538,22 @@ export function ConceptsSetup() {
                   </Field>
                 </div>
 
-                {/* Curriculum placement — editable, from the single Subjects & Topics source */}
+                {/* Canonical medical placement — shared with the Library. */}
                 <div className="rounded-lg border border-line bg-surface-2/40 p-3">
-                  <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Curriculum placement (Subjects & Topics)</p>
+                  <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Canonical placement (Subjects & Topics)</p>
+                  <MedicalTaxonomyPlacementPicker nodes={medicalTaxonomy} primaryNodeId={draft.primaryNodeId} secondaryNodeIds={draft.secondaryNodeIds} onPrimaryChange={(primaryNodeId) => patch({ primaryNodeId })} onSecondaryChange={(secondaryNodeIds) => patch({ secondaryNodeIds })} compact />
+                </div>
+
+                <details className="rounded-lg border border-line bg-surface-2/40 p-3">
+                  <summary className="cursor-pointer text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">University curriculum overlay</summary>
+                  <p className="mb-2 mt-2 text-[10.5px] leading-relaxed text-ink-3">Optional compatibility placement for an existing university module.</p>
                   <TaxonomyPlacementPicker
                     tree={taxonomy}
                     compact
                     value={{ subjectId: draft.subjectId, systemId: draft.systemId, topicTagId: draft.topicTagId, subtopicId: draft.subtopicId, microtopicId: draft.microtopicId, nanotopicId: draft.nanotopicId }}
                     onChange={(p) => patch({ subjectId: p.subjectId, systemId: p.systemId, topicTagId: p.topicTagId, subtopicId: p.subtopicId, microtopicId: p.microtopicId, nanotopicId: p.nanotopicId })}
                   />
-                </div>
+                </details>
 
                 <ConceptAdvancedFields value={draft} onPatch={patch} />
 
@@ -606,9 +627,10 @@ export function ConceptsSetup() {
                 <TextInput value={nLabel} onChange={(e) => setNLabel(e.target.value)} placeholder="e.g. Anion gap" autoFocus />
               </Field>
               <div>
-                <p className="mb-1.5 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Placement (Subjects & Topics)</p>
-                <TaxonomyPlacementPicker tree={taxonomy} value={nPlacement} onChange={setNPlacement} />
+                <p className="mb-1.5 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Canonical placement (Subjects & Topics)</p>
+                <MedicalTaxonomyPlacementPicker nodes={medicalTaxonomy} primaryNodeId={nExtra.primaryNodeId} secondaryNodeIds={nExtra.secondaryNodeIds} onPrimaryChange={(primaryNodeId) => setNExtra((current) => ({ ...current, primaryNodeId }))} onSecondaryChange={(secondaryNodeIds) => setNExtra((current) => ({ ...current, secondaryNodeIds }))} />
               </div>
+              <details className="rounded-lg border border-line bg-surface-2/40 p-3"><summary className="cursor-pointer text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">University curriculum overlay</summary><div className="mt-3"><TaxonomyPlacementPicker tree={taxonomy} value={nPlacement} onChange={setNPlacement} /></div></details>
               <Field label="Also matches (aliases)" hint="Comma-separated.">
                 <TextInput value={nAliases} onChange={(e) => setNAliases(e.target.value)} placeholder="alias one, alias two" />
               </Field>

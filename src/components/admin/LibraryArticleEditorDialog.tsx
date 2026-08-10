@@ -20,6 +20,8 @@ import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { ChapterMark } from '@/components/ui/ChapterMark'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
+import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
+import { MedicalTaxonomyPlacementPicker } from '@/components/admin/MedicalTaxonomyPlacementPicker'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
@@ -94,6 +96,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
   const graphRef = useRef(graph)
   graphRef.current = graph
   const [taxonomy] = useTaxonomyTree()
+  const [medicalTaxonomy] = useMedicalTaxonomy()
 
   useEffect(() => {
     if (!open) return
@@ -125,7 +128,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
   const questionItems = contentItems.filter((content) => content.kind === 'question')
   const resourceItems = contentItems.filter((content) => content.kind === 'resource')
   const hasBody = (data.sections ?? []).some((s) => s.heading.trim() || s.body.trim()) || data.body.trim()
-  const valid = draft.title.trim() && draft.fields.Topic?.trim() && data.summary.trim() && hasBody
+  const valid = draft.title.trim() && (data.primaryNodeId || draft.fields.Topic?.trim()) && data.summary.trim() && hasBody
   const chapterIndex = Math.max(0, libraryTopics.filter((topic) => topic.subjectId === draft.subjectId).findIndex((topic) => topic.title === draft.fields.Topic))
 
   function updateData(updater: (current: ArticleAuthoringData) => ArticleAuthoringData) {
@@ -166,6 +169,8 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
       subtopicId: data.subtopicId,
       microtopicId: data.microtopicId,
       nanotopicId: data.nanotopicId,
+      primaryNodeId: data.primaryNodeId,
+      secondaryNodeIds: data.secondaryNodeIds ?? [],
       universityIds: data.universityIds ?? [],
       moduleIds: data.moduleIds ?? [],
       owner: 'Admin team',
@@ -200,12 +205,20 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
           <aside className="order-2 border-b border-line bg-surface p-4 lg:order-none lg:overflow-y-auto lg:border-b-0 lg:border-r">
             <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Article settings</p>
             <div className="space-y-4">
-              <Field label="Subject" htmlFor="article-subject"><Select id="article-subject" value={draft.subjectId} onChange={(event) => setDraft((current) => ({ ...current, subjectId: event.target.value, fields: { ...current.fields, Topic: '' } }))}>{subjects.map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</Select></Field>
-              <Field label="Chapter (Topic)" htmlFor="article-topic" hint="From Subjects & Topics"><Select id="article-topic" value={draft.fields.Topic ?? ''} onChange={(event) => { setDraft((current) => ({ ...current, fields: { ...current.fields, Topic: event.target.value } })); updateData((current) => ({ ...current, subtopicId: undefined, microtopicId: undefined, nanotopicId: undefined })) }}><option value="">— Select topic —</option>{sysNode?.topics.map((tp) => <option key={tp.id} value={tp.title}>{tp.title}</option>)}{draft.fields.Topic && !sysNode?.topics.some((tp) => tp.title === draft.fields.Topic) && <option value={draft.fields.Topic}>{draft.fields.Topic} (legacy)</option>}</Select></Field>
+              <MedicalTaxonomyPlacementPicker nodes={medicalTaxonomy} primaryNodeId={data.primaryNodeId} secondaryNodeIds={data.secondaryNodeIds} onPrimaryChange={(primaryNodeId) => updateData((current) => ({ ...current, primaryNodeId }))} onSecondaryChange={(secondaryNodeIds) => updateData((current) => ({ ...current, secondaryNodeIds }))} compact />
               <Field label="Reading time" htmlFor="article-reading"><TextInput id="article-reading" type="number" min={1} value={draft.fields['Reading time'] ?? '8'} onChange={(event) => setDraft((current) => ({ ...current, fields: { ...current.fields, 'Reading time': event.target.value } }))} /></Field>
               <Field label="Content owner" htmlFor="article-owner"><TextInput id="article-owner" value={draft.owner} onChange={(event) => setDraft((current) => ({ ...current, owner: event.target.value }))} /></Field>
               <Field label="Reviewer" htmlFor="article-reviewer"><TextInput id="article-reviewer" value={data.reviewer ?? ''} onChange={(event) => updateData((current) => ({ ...current, reviewer: event.target.value }))} /></Field>
               <Field label="Final publisher" htmlFor="article-publisher"><TextInput id="article-publisher" value={data.finalPublisher ?? ''} onChange={(event) => updateData((current) => ({ ...current, finalPublisher: event.target.value }))} /></Field>
+            </div>
+
+            <div className="mt-6 border-t border-line pt-5">
+              <p className="mb-1 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">University curriculum overlay</p>
+              <p className="mb-3 text-[10.5px] leading-relaxed text-ink-3">Optional compatibility placement for an existing university module. The canonical medical placement above remains the article's main home.</p>
+              <div className="space-y-3">
+                <Field label="Subject" htmlFor="article-subject"><Select id="article-subject" value={draft.subjectId} onChange={(event) => setDraft((current) => ({ ...current, subjectId: event.target.value, fields: { ...current.fields, Topic: '' } }))}>{subjects.map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</Select></Field>
+                <Field label="Chapter (Topic)" htmlFor="article-topic"><Select id="article-topic" value={draft.fields.Topic ?? ''} onChange={(event) => { setDraft((current) => ({ ...current, fields: { ...current.fields, Topic: event.target.value } })); updateData((current) => ({ ...current, subtopicId: undefined, microtopicId: undefined, nanotopicId: undefined })) }}><option value="">— None —</option>{sysNode?.topics.map((tp) => <option key={tp.id} value={tp.title}>{tp.title}</option>)}{draft.fields.Topic && !sysNode?.topics.some((tp) => tp.title === draft.fields.Topic) && <option value={draft.fields.Topic}>{draft.fields.Topic} (legacy)</option>}</Select></Field>
+              </div>
             </div>
 
             {/* Scope & concept tags */}

@@ -29,6 +29,8 @@ export interface Subtopic {
   universityIds?: string[]
   yearIds?: string[]
   moduleIds?: string[]
+  primaryNodeId?: string
+  secondaryNodeIds?: string[]
   relatedConceptIds?: string[]
   resourceIds?: string[]
   evidenceState?: string

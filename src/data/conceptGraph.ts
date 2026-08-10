@@ -66,6 +66,8 @@ export interface Concept {
   subtopicId?: string
   microtopicId?: string
   nanotopicId?: string
+  /** Canonical placement in the complete medical-library taxonomy. */
+  primaryNodeId?: string
   secondaryNodeIds?: string[]
   conceptType?: string
   learnerYears?: number[]

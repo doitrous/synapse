@@ -61,6 +61,7 @@ const STUDENT_READABLE_STATE = new Set([
   'synapse-concept-graph-v2',
   'synapse-relation-types-v1',
   'synapse-taxonomy-tree-v4',
+  'synapse-medical-library-taxonomy-v1',
   'synapse-medical-evidence-published-v1',
   'synapse-plans-v1',
   'synapse-notification-campaigns-v1',

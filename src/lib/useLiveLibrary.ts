@@ -92,6 +92,8 @@ function articleToSubtopic(item: ManagedContentItem, evidence: MedicalEvidenceSt
     universityIds: d?.universityIds ?? [],
     yearIds: d?.yearIds ?? [],
     moduleIds: d?.moduleIds ?? [],
+    primaryNodeId: d?.primaryNodeId,
+    secondaryNodeIds: d?.secondaryNodeIds ?? [],
     relatedConceptIds: d?.relatedConceptIds ?? [],
     resourceIds: d?.resourceIds ?? [],
     evidenceState: item.fields['Evidence state'],

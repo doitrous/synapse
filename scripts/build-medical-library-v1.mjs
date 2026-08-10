@@ -8,6 +8,7 @@ const bundlePath = process.env.MEDICAL_BUNDLE_PATH || '/Users/doitrous/Documents
 const outputPath = join(projectRoot, 'server', 'data', 'medical-library-v1.json')
 const bundle = JSON.parse(await readFile(bundlePath, 'utf8'))
 const { CURRICULUM_CATALOG, PILOT_ARTICLE_PLACEMENTS } = await import('../src/data/curriculumCatalog.ts')
+const { MEDICAL_TAXONOMY_SEED } = await import('../src/data/medicalLibraryTaxonomy.ts')
 
 const owner = 'Admin team'
 const reviewer = 'Medical team, Admin team'
@@ -91,6 +92,29 @@ const placementFor = (articleId) => {
   return { system, topic, subtopic }
 }
 
+const canonicalPlacementSeeds = {
+  'ART-CVS-HEART-ORIENTATION': ['SYS-CVS-T01-S01', ['DIS-ANA-T04']],
+  'ART-CVS-CHAMBERS-VALVES': ['SYS-CVS-T01-S01', ['SYS-CVS-T01-S01-M01', 'SYS-CVS-T01-S01-M02', 'DIS-ANA-T04']],
+  'ART-CVS-CORONARY-CIRCULATION': ['SYS-CVS-T01-S01-M03', ['SYS-CVS-T01-S01', 'DIS-ANA-T04']],
+  'ART-CVS-CARDIAC-HISTOLOGY': ['SYS-CVS-T01-S01', ['DIS-HIS-T03']],
+  'ART-CVS-CONDUCTION': ['SYS-CVS-T01-S01-M04', ['DIS-ANA-T04', 'DIS-PHY-T02']],
+  'ART-CVS-CARDIAC-ELECTRICAL': ['SYS-CVS-T01-S02', ['SYS-CVS-T01-S01-M04', 'DIS-PHY-T02', 'SKL-INT-T03-S01']],
+  'ART-CVS-CARDIAC-CYCLE': ['SYS-CVS-T01-S02-M01', ['DIS-PHY-T02']],
+  'ART-CVS-CARDIAC-OUTPUT': ['SYS-CVS-T01-S02-M02', ['DIS-PHY-T02']],
+  'ART-CVS-BLOOD-PRESSURE': ['SYS-CVS-T01-S02-M03', ['DIS-PHY-T02']],
+  'ART-CVS-VASCULAR-FLOW': ['SYS-CVS-T01-S02-M02', ['DIS-PHY-T02']],
+}
+const canonicalNodeIds = new Set(MEDICAL_TAXONOMY_SEED.map((node) => node.id))
+const canonicalPlacementFor = (articleId) => {
+  const seed = canonicalPlacementSeeds[articleId]
+  if (!seed) throw new Error(`Missing canonical medical taxonomy placement for ${articleId}`)
+  const [primaryNodeId, secondaryNodeIds] = seed
+  for (const nodeId of [primaryNodeId, ...secondaryNodeIds]) {
+    if (!canonicalNodeIds.has(nodeId)) throw new Error(`Unknown canonical medical taxonomy ID ${nodeId} for ${articleId}`)
+  }
+  return { primaryNodeId, secondaryNodeIds }
+}
+
 const archetypeMap = {
   'Anatomy / structure': 'anatomy',
   'Concept / mechanism': 'concept',
@@ -106,6 +130,7 @@ const archetypeMap = {
 
 const articleItems = bundle.articles.map((article) => {
   const place = placementFor(article.id)
+  const canonicalPlace = canonicalPlacementFor(article.id)
   const sectionSpans = new Map()
   bundle.article_spans.filter((span) => span.article_id === article.id).forEach((span) => sectionSpans.set(span.section_id, [...(sectionSpans.get(span.section_id) || []), span.id]))
   const sortedSections = [...article.sections]
@@ -156,6 +181,8 @@ const articleItems = bundle.articles.map((article) => {
       universityIds: ['kau'],
       yearIds: (article.years || []).map((year) => `KAU_Y${year}`),
       moduleIds: [],
+      primaryNodeId: canonicalPlace.primaryNodeId,
+      secondaryNodeIds: canonicalPlace.secondaryNodeIds,
       subtopicId: place.subtopic.subId,
       relatedConceptIds: article.related_concept_ids || [],
       relatedArticleIds: article.related_article_ids || [],
@@ -221,6 +248,7 @@ bundle.concepts.forEach((concept) => (concept.related_article_ids || []).forEach
 const concepts = bundle.concepts.map((concept) => {
   const articleId = articleForConcept.get(concept.id)
   const place = placementFor(articleId)
+  const canonicalPlace = canonicalPlacementFor(articleId)
   const micro = place.subtopic.micros.find((node) => node.title.toLowerCase() === String(concept.subtopic || '').toLowerCase())
   return {
     id: concept.id,
@@ -239,7 +267,8 @@ const concepts = bundle.concepts.map((concept) => {
     topicTagId: place.topic.tpcId,
     subtopicId: place.subtopic.subId,
     microtopicId: micro?.micId,
-    secondaryNodeIds: concept.secondary_node_ids || [],
+    primaryNodeId: canonicalPlace.primaryNodeId,
+    secondaryNodeIds: [...new Set([...canonicalPlace.secondaryNodeIds, ...(concept.secondary_node_ids || []).filter((nodeId) => canonicalNodeIds.has(nodeId))])],
     conceptType: concept.concept_type,
     learnerYears: concept.years || [],
     universityIds: ['kau'],
@@ -385,13 +414,14 @@ const publishedEvidence = {
 }
 
 const data = {
-  migrationId: '2026-08-10-medical-library-v1',
+  migrationId: '2026-08-10-medical-library-v2',
   generatedAt,
   states: {
     'synapse-academic-universities-v1': universities,
     'synapse-course-curricula-v1': {},
     'synapse-module-schedules-v1': {},
     'synapse-taxonomy-tree-v4': CURRICULUM_CATALOG,
+    'synapse-medical-library-taxonomy-v1': MEDICAL_TAXONOMY_SEED,
     'synapse-admin-content-ledger-v4': [...articleItems, ...resourceItems],
     'synapse-concept-graph-v2': { concepts, relations },
     'synapse-medical-evidence-v1': evidence,
@@ -404,6 +434,11 @@ const data = {
     years: universities.reduce((sum, university) => sum + university.years.length, 0),
     systems: CURRICULUM_CATALOG.length,
     topics: CURRICULUM_CATALOG.reduce((sum, system) => sum + system.topics.length, 0),
+    medicalTaxonomyNodes: MEDICAL_TAXONOMY_SEED.length,
+    medicalSystemRoots: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'system' && node.parentId === null).length,
+    medicalDisciplineRoots: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'discipline' && node.parentId === null).length,
+    medicalSkillRoots: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'skills' && node.parentId === null).length,
+    medicalKnowledgeRoots: MEDICAL_TAXONOMY_SEED.filter((node) => node.division === 'knowledge' && node.parentId === null).length,
     articles: articleItems.length,
     publishedArticles: articleItems.filter((item) => item.status === 'Published').length,
     concepts: concepts.length,

@@ -27,6 +27,8 @@ import {
 } from '@/data/taxonomyStore'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
+import { MedicalTaxonomyAdminBrowser } from '@/components/admin/MedicalTaxonomyAdminBrowser'
 
 /** Every ID currently in the tree, for uniqueness checks. */
 function allIds(tree: Sys[]): Set<string> {
@@ -102,6 +104,7 @@ function SystemColorControl({ systemId, short }: { systemId: string; short: stri
 }
 
 export function TaxonomySetup() {
+  const [medicalTaxonomy] = useMedicalTaxonomy()
   const [tree, setTree] = usePersistentState<Sys[]>(TAXONOMY_STORAGE_KEY, seedTaxonomy)
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
@@ -110,6 +113,7 @@ export function TaxonomySetup() {
   const [importText, setImportText] = useState('')
   const [report, setReport] = useState<{ systems: number; topics: number; subs: number; micros: number; nanos: number; skipped: number; errors: string[] } | null>(null)
   const [deleteNotice, setDeleteNotice] = useState<string | null>(null)
+  const [view, setView] = useState<'canonical' | 'curriculum'>('canonical')
   const toggle = (k: string) => setOpen((o) => ({ ...o, [k]: !o[k] }))
 
   const totals = {
@@ -210,10 +214,16 @@ export function TaxonomySetup() {
     <PageContainer>
       <PageHeader
         title="Subjects & Topics"
-        description="The single source of the curriculum taxonomy — Systems → Topics → Subtopics → Microtopics → Nanotopics. Names are click-to-rename; each level gets a unique, visible ID (never reused) that concepts, questions, articles, and resources tag against."
-        actions={<><Link to="/admin/taxonomy/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link><Button variant="secondary" size="md" iconLeft={RotateCcw} onClick={() => guardedRemove('the current taxonomy', tree.flatMap(idsInSystem), () => setTree(seedTaxonomy()))}>Reset</Button></>}
+        description="The source of truth for the medical library. The reviewed canonical atlas supports systems and general domains, disciplines, clinical skills, and clinical knowledge; university curriculum structures sit on top without duplicating medical topics."
+        actions={view === 'curriculum' ? <><Link to="/admin/taxonomy/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import overlay</Button></Link><Button variant="secondary" size="md" iconLeft={RotateCcw} onClick={() => guardedRemove('the current curriculum overlay', tree.flatMap(idsInSystem), () => setTree(seedTaxonomy()))}>Reset overlay</Button></> : undefined}
       />
 
+      <div className="mb-4 inline-flex rounded-lg border border-line bg-surface p-1">
+        <button type="button" onClick={() => setView('canonical')} className={cn('rounded-md px-3 py-2 text-[12px] font-semibold transition-colors', view === 'canonical' ? 'bg-accent-tint text-accent-strong shadow-hairline' : 'text-ink-2 hover:text-ink')}>Reviewed medical taxonomy</button>
+        <button type="button" onClick={() => setView('curriculum')} className={cn('rounded-md px-3 py-2 text-[12px] font-semibold transition-colors', view === 'curriculum' ? 'bg-accent-tint text-accent-strong shadow-hairline' : 'text-ink-2 hover:text-ink')}>University curriculum overlays</button>
+      </div>
+
+      {view === 'canonical' ? <MedicalTaxonomyAdminBrowser taxonomy={medicalTaxonomy} /> : <>
       {deleteNotice && <div role="alert" className="mb-4 flex items-start gap-2 rounded-lg border border-warning/30 bg-warning-tint/60 px-4 py-3 text-[12.5px] leading-relaxed text-ink-2"><Icon icon={TriangleAlert} size={15} className="mt-0.5 shrink-0 text-warning" /><span className="flex-1">{deleteNotice}</span><button type="button" onClick={() => setDeleteNotice(null)} className="font-medium text-ink-3 hover:text-ink">Dismiss</button></div>}
 
       <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-5">
@@ -312,8 +322,9 @@ export function TaxonomySetup() {
 
       <div className="mt-4 flex items-center gap-2 text-[11.5px] text-ink-3">
         <Icon icon={Network} size={13} />
-        IDs are generated automatically and never reused — if a name's slug is taken, a numeric suffix is appended.
+        Curriculum overlay IDs are generated automatically and never reused. Canonical medical IDs stay in the reviewed atlas above.
       </div>
+      </>}
 
       {/* Bulk import dialog */}
       {importing && (

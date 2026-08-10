@@ -28,7 +28,6 @@ import { subjects, getSubject } from '@/data/student'
 import { scopeUniversities } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
-import { SearchInput } from '@/components/ui/Field'
 import { ChapterMark } from '@/components/ui/ChapterMark'
 import { cn } from '@/lib/cn'
 import { formatLongDate } from '@/lib/format'
@@ -41,6 +40,9 @@ import { NewArticleDialog } from '@/components/library/NewArticleDialog'
 import { PERSONAL_TAGS_KEY, USER_ARTICLES_KEY, type UserArticle } from '@/data/userLibrary'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type ArticleSpan, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 import { apiOpenFile } from '@/lib/api'
+import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
+import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
+import { AtlasNavigation, LibraryLanding, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
 
 function Highlight({ text, query }: { text: string; query: string }) {
   const q = query.trim()
@@ -51,7 +53,7 @@ function Highlight({ text, query }: { text: string; query: string }) {
 
 /* ---- Navigator --------------------------------------------------------- */
 
-function Tree({
+export function LegacyLibraryTree({
   selectedId,
   onSelect,
   query,
@@ -644,36 +646,36 @@ function UserReader({
 
 export function Library() {
   const t = useT()
-  const { topics: libraryTopics, subtopics: allSubtopics } = useLiveLibrary()
-  const [params] = useSearchParams()
+  const { subtopics: allSubtopics } = useLiveLibrary()
+  const [taxonomy] = useMedicalTaxonomy()
+  const taxonomyIndex = useMemo(() => indexMedicalTaxonomy(taxonomy), [taxonomy])
+  const [universityCatalogue] = useUniversityCatalogue()
+  const [params, setParams] = useSearchParams()
   const paramId = params.get('s')
+  const paramView = params.get('view')
+  const paramNode = params.get('node')
+  const initialView: MedicalLibraryView = ['system', 'discipline', 'skills', 'knowledge', 'curriculum'].includes(paramView ?? '') ? paramView as MedicalLibraryView : paramId ? 'system' : 'home'
   const [userArticles, setUserArticles] = usePersistentState<UserArticle[]>(USER_ARTICLES_KEY, [])
   const [personalTags, setPersonalTags] = usePersistentState<Record<string, string[]>>(PERSONAL_TAGS_KEY, {})
-  const [selectedId, setSelectedId] = useState(
-    allSubtopics.some((s) => s.id === paramId) ? (paramId as string) : (allSubtopics[0]?.id ?? userArticles[0]?.id ?? ''),
-  )
-  const [query, setQuery] = useState('')
-  const [activeTag, setActiveTag] = useState<string | null>(null)
+  const [selectedId, setSelectedId] = useState(allSubtopics.some((s) => s.id === paramId) ? (paramId as string) : '')
+  const [selectedNodeId, setSelectedNodeId] = useState<string | undefined>(paramNode && taxonomyIndex.byId.has(paramNode) ? paramNode : undefined)
+  const [view, setView] = useState<MedicalLibraryView>(initialView)
   const [treeOpen, setTreeOpen] = useState(false)
   const [creating, setCreating] = useState(false)
-  const [expanded, setExpanded] = useState<Record<string, boolean>>(() => {
-    // Expand the topic that owns the initially-selected subtopic.
-    const owner = libraryTopics.find((tp) => tp.subtopics.some((s) => s.id === (allSubtopics.some((x) => x.id === paramId) ? paramId : allSubtopics[0]?.id)))
-    return owner ? { [owner.id]: true } : {}
-  })
+  const atlasArticles = useMemo<AtlasArticle[]>(() => allSubtopics.map((article) => ({ id: article.id, title: article.title, summary: article.summary, subjectId: article.subjectId, topicTitle: article.topicTitle, primaryNodeId: article.primaryNodeId, secondaryNodeIds: article.secondaryNodeIds })), [allSubtopics])
 
   // Follow ?s= when arriving from a question's reference link.
   useEffect(() => {
     if (paramId && allSubtopics.some((s) => s.id === paramId)) {
       setSelectedId(paramId)
-      const owner = libraryTopics.find((tp) => tp.subtopics.some((s) => s.id === paramId))
-      if (owner) setExpanded((prev) => ({ ...prev, [owner.id]: true }))
+      const article = allSubtopics.find((item) => item.id === paramId)
+      const node = article?.primaryNodeId ? taxonomyIndex.byId.get(article.primaryNodeId) : undefined
+      if (node) {
+        setSelectedNodeId(node.id)
+        setView(node.division)
+      } else if (view === 'home') setView('system')
     }
-  }, [allSubtopics, libraryTopics, paramId])
-
-  useEffect(() => {
-    if (!selectedId && allSubtopics[0]?.id) setSelectedId(allSubtopics[0].id)
-  }, [allSubtopics, selectedId])
+  }, [allSubtopics, paramId, taxonomyIndex, view])
 
   const reusableTags = useMemo(() => {
     const set = new Set<string>()
@@ -689,82 +691,74 @@ export function Library() {
       return copy
     })
 
-  const toggleTopic = (topicId: string) => setExpanded((prev) => ({ ...prev, [topicId]: !prev[topicId] }))
-
   const selectedUserArticle = userArticles.find((a) => a.id === selectedId)
 
-  const nav = (
-    <>
-      <div className="space-y-2 border-b border-line p-3">
-        <SearchInput value={query} onChange={(e) => setQuery(e.target.value)} placeholder={t('Search the library…')} />
-        <Button variant="primary" size="sm" iconLeft={Plus} className="w-full" onClick={() => setCreating(true)}>
-          {t('New article')}
-        </Button>
-        {reusableTags.length > 0 && (
-          <div className="flex flex-wrap gap-1.5 pt-1">
-            {reusableTags.map((tag) => (
-              <button
-                key={tag}
-                onClick={() => setActiveTag((cur) => (cur === tag ? null : tag))}
-                className={cn(
-                  'inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-[11.5px] transition-colors',
-                  activeTag === tag
-                    ? 'border-accent-line bg-accent-tint text-accent-strong'
-                    : 'border-line bg-surface text-ink-2 hover:border-accent-line hover:text-accent-strong',
-                )}
-              >
-                <Icon icon={TagIcon} size={11} />
-                {tag}
-              </button>
-            ))}
-            {activeTag && (
-              <button onClick={() => setActiveTag(null)} className="text-[11.5px] text-ink-3 underline hover:text-ink">
-                {t('Clear')}
-              </button>
-            )}
-          </div>
-        )}
-      </div>
-      <div className="flex-1 overflow-y-auto px-2 pb-4 pt-2">
-        <Tree
-          selectedId={selectedId}
-          query={query}
-          activeTag={activeTag}
-          userArticles={userArticles}
-          personalTags={personalTags}
-          expanded={expanded}
-          onToggleTopic={toggleTopic}
-          onSelect={(id) => {
-            setSelectedId(id)
-            setTreeOpen(false)
-          }}
-        />
-      </div>
-    </>
-  )
+  const openView = (nextView: Exclude<MedicalLibraryView, 'home'>, nodeId?: string) => {
+    setView(nextView)
+    setSelectedId('')
+    setSelectedNodeId(nodeId)
+    const next = new URLSearchParams()
+    next.set('view', nextView)
+    if (nodeId) next.set('node', nodeId)
+    setParams(next)
+  }
+
+  const openArticle = (articleId: string) => {
+    const article = allSubtopics.find((item) => item.id === articleId)
+    const node = article?.primaryNodeId ? taxonomyIndex.byId.get(article.primaryNodeId) : undefined
+    const nextView: MedicalLibraryView = node?.division ?? (view === 'home' || view === 'curriculum' ? 'system' : view)
+    setView(nextView)
+    setSelectedNodeId(node?.id)
+    setSelectedId(articleId)
+    const next = new URLSearchParams()
+    next.set('view', nextView)
+    next.set('s', articleId)
+    if (node) next.set('node', node.id)
+    setParams(next)
+  }
+
+  const changeView = (nextView: MedicalLibraryView) => {
+    if (nextView === 'home') {
+      setView('home')
+      setSelectedId('')
+      setSelectedNodeId(undefined)
+      setParams(new URLSearchParams())
+      return
+    }
+    openView(nextView)
+  }
+
+  const selectNode = (nodeId: string) => {
+    const node = taxonomyIndex.byId.get(nodeId)
+    if (!node) return
+    setSelectedNodeId(nodeId)
+    setSelectedId('')
+    setView(node.division)
+    const next = new URLSearchParams()
+    next.set('view', node.division)
+    next.set('node', nodeId)
+    setParams(next)
+  }
+
+  const yearCount = universityCatalogue.reduce((sum, university) => sum + university.years.length, 0)
+  const selectedNode = selectedNodeId ? taxonomyIndex.byId.get(selectedNodeId) : undefined
+  const publishedSelected = allSubtopics.some((article) => article.id === selectedId)
 
   return (
-    <div className="flex h-[calc(100dvh-3.5rem)]">
-      {/* Desktop navigator */}
-      <aside className="hidden w-72 shrink-0 flex-col border-e border-line bg-surface lg:flex">
-        <div className="flex h-12 items-center gap-2 border-b border-line px-4">
-          <Icon icon={BookOpen} size={16} className="text-accent" />
-          <span className="font-serif text-[16px] font-semibold text-ink">{t('Library')}</span>
-        </div>
-        {nav}
-      </aside>
+    <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
+      <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
+        <button type="button" className="inline-flex items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="font-serif text-[16px] font-semibold text-ink">{t('Library')}</span></button>
+        {view !== 'home' && <><Icon icon={ChevronRight} size={12} className="text-ink-3" /><span className="hidden text-[11.5px] text-ink-3 sm:inline">{view === 'system' ? 'Systems & General' : view === 'discipline' ? 'By Discipline' : view === 'skills' ? 'Clinical Skills' : view === 'knowledge' ? 'Clinical Knowledge' : 'My Curriculum'}</span></>}
+        {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="ms-auto xl:hidden">{t('Browse topics')}</Button>}
+        <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className={view === 'home' ? 'ms-auto' : 'xl:ms-auto'}>{t('New article')}</Button>
+      </header>
 
-      {/* Content */}
-      <div className="flex-1 overflow-y-auto">
-        <div className="flex items-center gap-2 border-b border-line px-4 py-2 lg:hidden">
-          <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)}>
-            {t('Browse topics')}
-          </Button>
-          <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)}>
-            {t('New article')}
-          </Button>
-        </div>
-        {selectedUserArticle ? (
+      <div className="min-h-0 flex-1">
+        {view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} universityCount={universityCatalogue.length} yearCount={yearCount} onOpenView={openView} onOpenArticle={openArticle} /> : (
+          <div className="grid h-full min-h-0 grid-cols-[18rem_minmax(0,1fr)] max-xl:grid-cols-[18rem_minmax(0,1fr)] max-lg:grid-cols-1 xl:grid-cols-[13rem_18rem_minmax(0,1fr)]">
+            <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onViewChange={changeView} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>
+            <main className="min-w-0 overflow-y-auto">
+              {selectedUserArticle ? (
           <UserReader
             article={selectedUserArticle}
             tags={personalTags[selectedUserArticle.id] ?? []}
@@ -773,41 +767,38 @@ export function Library() {
             onDelete={() => {
               setUserArticles((prev) => prev.filter((a) => a.id !== selectedUserArticle.id))
               setTagsFor(selectedUserArticle.id, [])
-              setSelectedId(allSubtopics[0]?.id ?? '')
+              setSelectedId('')
             }}
-            query={query}
+            query=""
           />
-        ) : allSubtopics.some((article) => article.id === selectedId) ? (
+        ) : publishedSelected ? (
           <Reader
             id={selectedId}
             tags={personalTags[selectedId] ?? []}
             reusable={reusableTags}
             onTagsChange={(next) => setTagsFor(selectedId, next)}
-            query={query}
+            query=""
           />
         ) : (
-          <div className="grid min-h-[60vh] place-items-center px-6 text-center">
-            <div className="max-w-md">
-              <span className="mx-auto grid size-11 place-items-center rounded-xl bg-accent-tint text-accent-strong"><Icon icon={BookOpen} size={20} /></span>
-              <h1 className="mt-4 font-serif text-[22px] font-semibold text-ink">The medical library is being prepared</h1>
-              <p className="mt-2 text-[13px] leading-relaxed text-ink-3">Only medically reviewed articles appear here. Drafts and claims that still need evidence remain in the admin review queue.</p>
-            </div>
+          <TaxonomyNodeOverview node={selectedNode} taxonomy={taxonomy} articles={atlasArticles} onOpenArticle={openArticle} />
+        )}
+            </main>
           </div>
         )}
       </div>
 
       {/* Mobile navigator */}
       {treeOpen && (
-        <div className="fixed inset-0 z-40 lg:hidden">
+        <div className="fixed inset-0 z-40 xl:hidden">
           <div className="absolute inset-0 bg-ink/30 animate-fade" onClick={() => setTreeOpen(false)} />
-          <div className="animate-slide-x absolute inset-y-0 start-0 flex w-[17rem] flex-col bg-surface shadow-pop">
+          <div className="animate-slide-x absolute inset-y-0 start-0 flex w-[min(22rem,90vw)] flex-col bg-surface shadow-pop">
             <div className="flex h-12 items-center justify-between border-b border-line px-4">
               <span className="font-serif text-[16px] font-semibold text-ink">{t('Library')}</span>
-              <button onClick={() => setTreeOpen(false)} className="text-ink-3 hover:text-ink">
+              <button type="button" onClick={() => setTreeOpen(false)} className="grid size-9 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close library navigation">
                 <Icon icon={X} size={18} />
               </button>
             </div>
-            {nav}
+            <div className="grid min-h-0 flex-1 grid-cols-1"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onViewChange={(next) => { changeView(next); if (next === 'home') setTreeOpen(false) }} onNodeSelect={(nodeId) => { selectNode(nodeId); setTreeOpen(false) }} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} /></div>
           </div>
         </div>
       )}
@@ -820,7 +811,7 @@ export function Library() {
           setUserArticles((prev) => [article, ...prev])
           if (article.tags.length) setTagsFor(article.id, article.tags)
           setSelectedId(article.id)
-          setExpanded((prev) => ({ ...prev, [`mine-${article.subjectId}`]: true }))
+          setView('system')
         }}
       />
     </div>
