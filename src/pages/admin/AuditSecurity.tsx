@@ -1,4 +1,5 @@
-import { Download, ShieldCheck, ScrollText, CircleCheck, TriangleAlert, CircleX } from 'lucide-react'
+import { useState } from 'react'
+import { Download, ShieldCheck, ScrollText, CircleCheck, TriangleAlert, CircleX, Database, RefreshCw } from 'lucide-react'
 import { auditLog, securityChecks } from '@/data/admin'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -7,6 +8,16 @@ import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { DataBackupsPanel } from '@/components/admin/DataBackupsPanel'
+import { API_MODE, apiGet } from '@/lib/api'
+
+interface MedicalLibraryLaunchPreview {
+  migrationId: string
+  alreadyApplied: boolean
+  appliedAt: string | null
+  report: Record<string, number | boolean>
+  statesToReplace: string[]
+  existingStates: Array<{ k: string; sizeBytes: number; updatedAt: string }>
+}
 
 const CHECK_ICON = {
   pass: { icon: CircleCheck, cls: 'text-success' },
@@ -16,6 +27,21 @@ const CHECK_ICON = {
 
 export function AuditSecurity() {
   const warnings = securityChecks.filter((c) => c.status !== 'pass').length
+  const [launchPreview, setLaunchPreview] = useState<MedicalLibraryLaunchPreview | null>(null)
+  const [launchPreviewError, setLaunchPreviewError] = useState('')
+  const [launchPreviewLoading, setLaunchPreviewLoading] = useState(false)
+
+  async function loadMedicalLibraryPreview() {
+    setLaunchPreviewLoading(true)
+    setLaunchPreviewError('')
+    try {
+      setLaunchPreview(await apiGet<MedicalLibraryLaunchPreview>('/launch/medical-library-v1/preview'))
+    } catch {
+      setLaunchPreviewError('The production preflight could not be read. Confirm the admin session and try again.')
+    } finally {
+      setLaunchPreviewLoading(false)
+    }
+  }
 
   return (
     <PageContainer>
@@ -30,6 +56,57 @@ export function AuditSecurity() {
       />
 
       <DataBackupsPanel />
+
+      {API_MODE && (
+        <Panel className="mb-4">
+          <PanelHeader
+            title="Medical library launch preflight"
+            icon={Database}
+            hint="Read-only · makes no database changes"
+            action={
+              <Button variant="secondary" size="sm" iconLeft={RefreshCw} loading={launchPreviewLoading} onClick={() => void loadMedicalLibraryPreview()}>
+                {launchPreview ? 'Refresh preflight' : 'Run preflight'}
+              </Button>
+            }
+          />
+          <div className="p-4">
+            {!launchPreview && !launchPreviewError && (
+              <p className="text-[12.5px] leading-relaxed text-ink-2">Check the exact production state documents and launch-package totals before approving any replacement.</p>
+            )}
+            {launchPreviewError && <p role="alert" className="rounded-lg border border-danger/25 bg-danger-tint px-3 py-2 text-[12.5px] text-danger">{launchPreviewError}</p>}
+            {launchPreview && (
+              <div className="space-y-4">
+                <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+                  {['systems', 'topics', 'articles', 'concepts'].map((key) => (
+                    <div key={key} className="rounded-lg border border-line bg-inset/40 px-3 py-2.5">
+                      <p className="text-[10.5px] font-semibold uppercase tracking-wide text-ink-3">{key}</p>
+                      <p className="mt-1 font-mono text-[18px] font-semibold text-ink">{String(launchPreview.report[key] ?? 0)}</p>
+                    </div>
+                  ))}
+                </div>
+                <div className="rounded-lg border border-line">
+                  <div className="flex items-center justify-between border-b border-line px-3 py-2">
+                    <p className="text-[12.5px] font-semibold text-ink">Existing live documents</p>
+                    <Badge tone={launchPreview.existingStates.length ? 'warning' : 'success'}>{launchPreview.existingStates.length} found</Badge>
+                  </div>
+                  <ul className="divide-y divide-line">
+                    {launchPreview.statesToReplace.map((key) => {
+                      const existing = launchPreview.existingStates.find((entry) => entry.k === key)
+                      return (
+                        <li key={key} className="flex flex-wrap items-center justify-between gap-2 px-3 py-2.5">
+                          <code className="text-[11px] text-ink-2">{key}</code>
+                          <span className="text-[11px] text-ink-3">{existing ? `${Math.ceil(existing.sizeBytes / 1024)} KB · would be replaced` : 'New document'}</span>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
+                <p className="text-[11.5px] text-ink-3">Migration {launchPreview.migrationId} · {launchPreview.alreadyApplied ? `already applied ${launchPreview.appliedAt ?? ''}` : 'not applied'}</p>
+              </div>
+            )}
+          </div>
+        </Panel>
+      )}
 
       <Panel className="mb-4">
         <PanelHeader
