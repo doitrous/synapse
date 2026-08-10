@@ -10,9 +10,16 @@ import { pool, migrate } from './db.js'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const app = express()
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
-app.use(express.json({ limit: '25mb' }))
+app.use(express.json({
+  limit: '25mb',
+  verify: (req, _res, buffer) => {
+    if (req.originalUrl === '/api/webhooks/resend/inbound') req.rawBody = buffer.toString('utf8')
+  },
+}))
 
 const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
+const resendReceivingKey = process.env.RESEND_ADMIN_API_KEY || process.env.RESEND_API_KEY
+const resendReceiving = resendReceivingKey ? new Resend(resendReceivingKey) : null
 const MAIL_FROM = process.env.MAIL_FROM || 'synapse@mail.doitrous.com'
 
 /** Shared bearer-token gate (until real auth). Only /api is gated; the served
@@ -165,19 +172,62 @@ app.post('/api/mail/send', wrap(async (req, res) => {
   res.json({ id, status, resendId })
 }))
 
-// Resend inbound webhook → store received mail + attachments.
+// Verified Resend email.received webhook → retrieve and store the complete
+// message. Webhook events contain metadata only, so the Receiving API is used
+// for the body and signed attachment downloads.
 app.post('/api/webhooks/resend/inbound', wrap(async (req, res) => {
-  const p = req.body?.data || req.body || {}
-  const id = `mail-${randomUUID().slice(0, 12)}`
-  const toAddr = Array.isArray(p.to) ? p.to.join(', ') : (p.to || '')
+  if (!resendReceiving) return res.status(503).json({ error: 'Resend receiving is not configured' })
+  const webhookSecret = process.env.RESEND_WEBHOOK_SECRET
+  if (!webhookSecret) return res.status(503).json({ error: 'Resend webhook verification is not configured' })
+
+  let event
+  try {
+    event = resendReceiving.webhooks.verify({
+      payload: req.rawBody || JSON.stringify(req.body || {}),
+      headers: {
+        id: req.header('svix-id') || '',
+        timestamp: req.header('svix-timestamp') || '',
+        signature: req.header('svix-signature') || '',
+      },
+      webhookSecret,
+    })
+  } catch {
+    return res.status(401).json({ error: 'invalid webhook signature' })
+  }
+
+  if (event.type !== 'email.received') return res.json({ ok: true, ignored: true })
+  const p = event.data
+  const { data: received, error } = await resendReceiving.emails.receiving.get(p.email_id)
+  if (error || !received) throw new Error(error?.message || 'Could not retrieve received email')
+
+  const id = `mail-in-${p.email_id}`
+  const to = received.to?.length ? received.to : p.to
+  const toAddr = to.join(', ')
   const mailbox = (toAddr.split(',')[0] || '').trim()
   await pool.query(
-    'INSERT INTO emails (id, direction, mailbox, from_addr, to_addr, subject, html, text, status, at) VALUES (?,?,?,?,?,?,?,?,?,NOW())',
-    [id, 'inbound', mailbox, p.from || '', toAddr, p.subject || '', p.html || null, p.text || null, 'Received'],
+    `INSERT INTO emails (id, direction, mailbox, from_addr, to_addr, cc, bcc, subject, html, text, status, resend_id, at)
+     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
+     ON DUPLICATE KEY UPDATE from_addr=VALUES(from_addr), to_addr=VALUES(to_addr), cc=VALUES(cc), bcc=VALUES(bcc),
+       subject=VALUES(subject), html=VALUES(html), text=VALUES(text), status=VALUES(status), at=VALUES(at)`,
+    [id, 'inbound', mailbox, received.from || p.from || '', toAddr, received.cc?.join(', ') || null,
+      received.bcc?.join(', ') || null, received.subject || p.subject || '', received.html || null,
+      received.text || null, 'Received', p.email_id, received.created_at || p.created_at || new Date()],
   )
-  for (const a of p.attachments || []) {
-    await pool.query('INSERT INTO attachments (id, email_id, filename, content_type, size_bytes, content_b64) VALUES (?,?,?,?,?,?)',
-      [`att-${randomUUID().slice(0, 12)}`, id, a.filename, a.content_type || a.contentType || 'application/octet-stream', a.size || 0, a.content || a.content_b64 || null])
+
+  for (const a of received.attachments || []) {
+    const { data: attachment, error: attachmentError } = await resendReceiving.emails.receiving.attachments.get({
+      emailId: p.email_id,
+      id: a.id,
+    })
+    if (attachmentError || !attachment?.download_url) throw new Error(attachmentError?.message || `Could not retrieve attachment ${a.id}`)
+    const download = await fetch(attachment.download_url)
+    if (!download.ok) throw new Error(`Could not download attachment ${a.id}: ${download.status}`)
+    const b64 = Buffer.from(await download.arrayBuffer()).toString('base64')
+    await pool.query(
+      `INSERT INTO attachments (id, email_id, filename, content_type, size_bytes, content_b64) VALUES (?,?,?,?,?,?)
+       ON DUPLICATE KEY UPDATE filename=VALUES(filename), content_type=VALUES(content_type), size_bytes=VALUES(size_bytes), content_b64=VALUES(content_b64)`,
+      [`att-in-${a.id}`, id, a.filename || 'attachment', a.content_type || 'application/octet-stream', a.size || 0, b64],
+    )
   }
   res.json({ ok: true })
 }))

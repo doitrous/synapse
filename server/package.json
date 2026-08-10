@@ -9,11 +9,13 @@
     "start": "node src/index.js",
     "migrate": "node src/migrate.js"
   },
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "mysql2": "^3.11.5",
-    "resend": "^4.0.1"
+    "resend": "^6.18.1"
   }
 }
