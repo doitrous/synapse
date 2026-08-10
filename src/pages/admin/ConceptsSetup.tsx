@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Braces, BookOpenText, Plus, Save, Trash2, ChevronRight, Check, Upload, TriangleAlert, Pencil } from 'lucide-react'
+import { Braces, BookOpenText, Plus, Save, Trash2, ChevronRight, Check, Upload, TriangleAlert, Pencil, ExternalLink, FileText, Database } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -23,6 +23,8 @@ import { MedicalTaxonomyPlacementPicker } from '@/components/admin/MedicalTaxono
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { universities } from '@/data/universities'
+import { MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore, type ResourceRecord } from '@/data/medicalEvidence'
+import { apiOpenFile } from '@/lib/api'
 
 /** Resolve a concept's subject + topic — explicit fields first, else via articleIds. */
 function scopeOf(concept: Concept): { subjectId: string; topicId: string } {
@@ -62,6 +64,117 @@ function AfterRevealPreview({ concept }: { concept: Concept }) {
         </p>
       </div>
     </div>
+  )
+}
+
+function sourceLocatorLabel(locator: EvidenceLocator | string): string {
+  if (typeof locator === 'string') return locator || 'Source location recorded'
+  return [
+    locator.page != null ? `Page ${locator.page}` : '',
+    locator.printed_page != null ? `Printed page ${locator.printed_page}` : '',
+    locator.section ? `Section ${locator.section}` : '',
+    locator.line ? `Line ${locator.line}` : '',
+    locator.timestamp ? `Time ${locator.timestamp}` : '',
+  ].filter(Boolean).join(' · ') || locator.type || 'Source location recorded'
+}
+
+function sourcePageFragment(locator?: EvidenceLocator | string): string {
+  if (!locator || typeof locator === 'string' || locator.page == null) return ''
+  return `#page=${locator.page}`
+}
+
+/** The concept's evidence ledger: real source titles, exact locators and one-click access. */
+function ConceptSources({ concept, evidence }: { concept: Concept; evidence: MedicalEvidenceStore }) {
+  const [openError, setOpenError] = useState<string | null>(null)
+  const claimIds = new Set([
+    ...(concept.atomicClaimIds ?? []),
+    ...evidence.claims.filter((claim) => claim.conceptId === concept.id).map((claim) => claim.id),
+  ])
+  const citations = evidence.citations.filter((citation) => claimIds.has(citation.claimId))
+  const resourceIds = [...new Set([...(concept.resourceIds ?? []), ...citations.map((citation) => citation.resourceId)])]
+  const resources = resourceIds.map((resourceId) => evidence.resources.find((resource) => resource.id === resourceId) ?? {
+    id: resourceId,
+    title: resourceId,
+    institution: 'Source record unavailable',
+    languages: [],
+    processingStatus: 'missing_record',
+    confidence: 0,
+  } satisfies ResourceRecord)
+
+  async function openResource(resource: ResourceRecord, resourceCitations: CitationLink[]) {
+    setOpenError(null)
+    const fragment = sourcePageFragment(resourceCitations[0]?.locator)
+    if (resource.sourceUri && /^https?:\/\//i.test(resource.sourceUri)) {
+      window.open(`${resource.sourceUri}${fragment}`, '_blank', 'noopener,noreferrer')
+      return
+    }
+    try {
+      await apiOpenFile(`/medical-resources/${encodeURIComponent(resource.id)}`, fragment)
+    } catch {
+      setOpenError(resource.id)
+    }
+  }
+
+  return (
+    <section className="overflow-hidden rounded-lg border border-line bg-surface" aria-labelledby={`concept-sources-${concept.id}`}>
+      <div className="flex items-start gap-2.5 border-b border-line bg-surface-2/50 px-3.5 py-3">
+        <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Database} size={15} /></span>
+        <div className="min-w-0 flex-1">
+          <p id={`concept-sources-${concept.id}`} className="text-[12px] font-bold uppercase tracking-[0.06em] text-ink">Sources that teach this concept</p>
+          <p className="mt-0.5 text-[11px] leading-relaxed text-ink-3">Every source is preserved with its supporting passage and exact location when available.</p>
+        </div>
+        <span className="tnum rounded-full border border-line bg-surface px-2 py-0.5 font-mono text-[10px] font-semibold text-ink-2">{resources.length}</span>
+      </div>
+
+      {resources.length === 0 ? (
+        <div className="px-3.5 py-4">
+          <p className="text-[12px] font-medium text-warning">No source is linked yet.</p>
+          <p className="mt-1 text-[11px] leading-relaxed text-ink-3">Keep this concept under review until a qualified source and locator are attached.</p>
+        </div>
+      ) : (
+        <div className="divide-y divide-line">
+          {resources.map((resource) => {
+            const resourceCitations = citations.filter((citation) => citation.resourceId === resource.id)
+            const exactCitations = resourceCitations.filter((citation) => citation.countsAsClaimEvidence)
+            return (
+              <article key={resource.id} className="p-3.5">
+                <div className="flex items-start gap-2.5">
+                  <span className="mt-0.5 grid size-7 shrink-0 place-items-center rounded-md bg-inset text-ink-3"><Icon icon={FileText} size={13} /></span>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-[12.5px] font-semibold leading-snug text-ink">{resource.title}</p>
+                    <p className="mt-0.5 text-[10.5px] text-ink-3">{resource.institution} · {resource.mediaType?.toUpperCase() || 'SOURCE'}</p>
+                  </div>
+                </div>
+
+                <div className="mt-2.5 space-y-2">
+                  {resourceCitations.length > 0 ? resourceCitations.map((citation) => (
+                    <div key={citation.id} className="rounded-md border-s-2 border-accent-line bg-surface-2/45 px-2.5 py-2">
+                      <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                        <span className="font-mono text-[10px] font-semibold text-accent-strong">{sourceLocatorLabel(citation.locator)}</span>
+                        <span className={cn('text-[9.5px] font-semibold uppercase tracking-[0.04em]', citation.countsAsClaimEvidence ? 'text-success' : 'text-ink-3')}>
+                          {citation.countsAsClaimEvidence ? 'Exact evidence' : 'Context'}
+                        </span>
+                      </div>
+                      {citation.supportSpan && <p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">{citation.supportSpan}</p>}
+                    </div>
+                  )) : (
+                    <p className="rounded-md bg-warning-tint px-2.5 py-2 text-[11px] leading-relaxed text-warning">Linked at concept level; an exact supporting location is still required.</p>
+                  )}
+                </div>
+
+                <div className="mt-2.5 flex flex-wrap items-center justify-between gap-2">
+                  <span className="text-[10px] text-ink-3">{exactCitations.length} exact citation{exactCitations.length === 1 ? '' : 's'} · {resource.id}</span>
+                  <Button size="sm" variant="secondary" iconLeft={ExternalLink} onClick={() => void openResource(resource, resourceCitations)}>Go to source</Button>
+                </div>
+                {openError === resource.id && (
+                  <p role="alert" className="mt-2 rounded-md border border-warning/25 bg-warning-tint px-2.5 py-2 text-[10.5px] leading-relaxed text-warning">The citation is preserved, but this file is still awaiting secure upload to Synapse storage.</p>
+                )}
+              </article>
+            )
+          })}
+        </div>
+      )}
+    </section>
   )
 }
 
@@ -195,6 +308,7 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
 
 export function ConceptsSetup() {
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [medicalTaxonomy] = useMedicalTaxonomy()
   const medicalIndex = useMemo(() => indexMedicalTaxonomy(medicalTaxonomy), [medicalTaxonomy])
@@ -606,12 +720,14 @@ export function ConceptsSetup() {
                   )}
                 </div>
 
-                {/* Approved resources & articles (auto-maintained) */}
+                {/* Evidence ledger — auto-maintained from the concept's atomic claims. */}
+                <ConceptSources concept={selected} evidence={evidence} />
+
                 <div className="grid grid-cols-2 gap-1.5 font-mono text-[10.5px] text-ink-2">
-                  <span>Linked sources: <span className="text-ink">{selected.resourceIds?.length ?? 0}</span></span>
                   <span>Approved files: <span className="text-ink">{selected.approvedFileResourceIds?.length ?? 0}</span></span>
                   <span>Approved videos: <span className="text-ink">{selected.approvedVideoResourceIds?.length ?? 0}</span></span>
                   <span>Related articles: <span className="text-ink">{selected.relatedArticleIds?.length ?? selected.articleIds.length}</span></span>
+                  <span>Atomic claims: <span className="text-ink">{selected.atomicClaimIds?.length ?? 0}</span></span>
                 </div>
 
                 <div className="flex items-center gap-2 border-t border-line pt-3">
