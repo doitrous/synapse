@@ -1,8 +1,9 @@
 import { createHash, randomUUID } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { basename, dirname, join, resolve, sep } from 'node:path'
-import { createWriteStream, existsSync } from 'node:fs'
-import { mkdir, readFile, rename, unlink } from 'node:fs/promises'
+import { createReadStream, createWriteStream, existsSync } from 'node:fs'
+import { mkdir, readFile, rename, rm, stat, unlink } from 'node:fs/promises'
+import { once } from 'node:events'
 import { Transform } from 'node:stream'
 import { pipeline } from 'node:stream/promises'
 import express from 'express'
@@ -16,6 +17,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const LAUNCH_DATA_PATH = join(__dirname, '..', 'data', 'medical-library-v1.json')
 const RESOURCE_STORAGE_DIR = resolve(process.env.RESOURCE_STORAGE_DIR || '/data/medical-library')
 const RESOURCE_MAX_BYTES = Number(process.env.RESOURCE_MAX_BYTES) || 250 * 1024 * 1024
+const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
+const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
 const app = express()
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
 app.use(express.json({
@@ -266,6 +269,13 @@ function resolvedResourcePath(storageKey) {
   return fullPath.startsWith(`${RESOURCE_STORAGE_DIR}${sep}`) ? fullPath : null
 }
 
+function resolvedChunkUploadPath(resourceId, uploadId) {
+  if (!/^[a-zA-Z0-9_-]{8,80}$/.test(uploadId)) return null
+  const safeResourceId = String(resourceId).replace(/[^a-zA-Z0-9_-]/g, '_')
+  const uploadPath = resolve(RESOURCE_STORAGE_DIR, '.__uploads', safeResourceId, uploadId)
+  return uploadPath.startsWith(`${RESOURCE_STORAGE_DIR}${sep}`) ? uploadPath : null
+}
+
 app.get('/api/medical-resources/:resourceId/status', requireAuthenticated, wrap(async (req, res) => {
   const resource = await resourceRecord(req.params.resourceId)
   if (!resource) return res.status(404).json({ error: 'resource not found' })
@@ -315,6 +325,92 @@ app.put('/api/medical-resources/:resourceId/file', requireAdmin, wrap(async (req
     await rename(temporaryPath, fullPath)
     res.json({ ok: true, id: resource.id, sizeBytes, sha256 })
   } catch (error) {
+    await unlink(temporaryPath).catch(() => {})
+    throw error
+  }
+}))
+
+/**
+ * Cloud delivery networks commonly cap a single request below textbook size.
+ * These endpoints accept bounded chunks, then verify the reconstructed file
+ * against the qualified source hash before it becomes visible to readers.
+ */
+app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireAdmin, wrap(async (req, res) => {
+  const resource = await resourceRecord(req.params.resourceId)
+  if (!resource) return res.status(404).json({ error: 'resource not found' })
+  const fullPath = resolvedResourcePath(resource.storageKey)
+  if (!fullPath) return res.status(400).json({ error: 'resource has no valid authenticated storage key' })
+  if (existsSync(fullPath)) return res.status(409).json({ error: 'resource is already uploaded' })
+  const uploadPath = resolvedChunkUploadPath(resource.id, req.params.uploadId)
+  const index = Number(req.params.index)
+  if (!uploadPath || !Number.isInteger(index) || index < 0 || index > 1023) return res.status(400).json({ error: 'invalid chunk upload path' })
+  const declaredLength = Number(req.header('content-length'))
+  if (Number.isFinite(declaredLength) && declaredLength > RESOURCE_CHUNK_MAX_BYTES) return res.status(413).json({ error: 'chunk exceeds configured limit' })
+
+  await mkdir(uploadPath, { recursive: true })
+  const chunkPath = join(uploadPath, `${String(index).padStart(4, '0')}.part`)
+  const temporaryPath = `${chunkPath}.upload-${randomUUID()}`
+  let sizeBytes = 0
+  const meter = new Transform({
+    transform(chunk, _encoding, callback) {
+      sizeBytes += chunk.length
+      if (sizeBytes > RESOURCE_CHUNK_MAX_BYTES) return callback(new Error('chunk exceeds configured limit'))
+      callback(null, chunk)
+    },
+  })
+  try {
+    await pipeline(req, meter, createWriteStream(temporaryPath, { flags: 'wx' }))
+    await rename(temporaryPath, chunkPath)
+    res.json({ ok: true, index, sizeBytes })
+  } catch (error) {
+    await unlink(temporaryPath).catch(() => {})
+    throw error
+  }
+}))
+
+app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', requireAdmin, wrap(async (req, res) => {
+  const resource = await resourceRecord(req.params.resourceId)
+  if (!resource) return res.status(404).json({ error: 'resource not found' })
+  const fullPath = resolvedResourcePath(resource.storageKey)
+  if (!fullPath) return res.status(400).json({ error: 'resource has no valid authenticated storage key' })
+  if (existsSync(fullPath)) return res.status(409).json({ error: 'resource is already uploaded' })
+  const uploadPath = resolvedChunkUploadPath(resource.id, req.params.uploadId)
+  const totalChunks = Number(req.body?.totalChunks)
+  const declaredSize = Number(req.body?.sizeBytes)
+  if (!uploadPath || !Number.isInteger(totalChunks) || totalChunks < 1 || totalChunks > 1024) return res.status(400).json({ error: 'invalid chunk count' })
+  if (!Number.isFinite(declaredSize) || declaredSize < 1 || declaredSize > RESOURCE_CHUNKED_MAX_BYTES) return res.status(413).json({ error: 'resource exceeds configured chunked-upload limit' })
+
+  const chunkPaths = Array.from({ length: totalChunks }, (_, index) => join(uploadPath, `${String(index).padStart(4, '0')}.part`))
+  for (const chunkPath of chunkPaths) if (!existsSync(chunkPath)) return res.status(409).json({ error: `chunk ${basename(chunkPath, '.part')} is missing` })
+  const measuredChunks = await Promise.all(chunkPaths.map((chunkPath) => stat(chunkPath)))
+  if (measuredChunks.some((chunk) => chunk.size > RESOURCE_CHUNK_MAX_BYTES)) return res.status(413).json({ error: 'stored chunk exceeds configured limit' })
+  if (measuredChunks.reduce((sum, chunk) => sum + chunk.size, 0) !== declaredSize) return res.status(409).json({ error: 'chunk sizes do not match the declared resource size' })
+
+  await mkdir(dirname(fullPath), { recursive: true })
+  const temporaryPath = `${fullPath}.assemble-${randomUUID()}`
+  const hash = createHash('sha256')
+  let sizeBytes = 0
+  const output = createWriteStream(temporaryPath, { flags: 'wx' })
+  try {
+    for (const chunkPath of chunkPaths) {
+      for await (const chunk of createReadStream(chunkPath)) {
+        sizeBytes += chunk.length
+        if (sizeBytes > RESOURCE_CHUNKED_MAX_BYTES) throw new Error('resource exceeds configured chunked-upload limit')
+        hash.update(chunk)
+        if (!output.write(chunk)) await once(output, 'drain')
+      }
+    }
+    const closed = once(output, 'close')
+    output.end()
+    await closed
+    const sha256 = hash.digest('hex')
+    if (sizeBytes !== declaredSize) throw new Error('assembled resource size does not match the declaration')
+    if (resource.sha256 && resource.sha256 !== sha256) throw new Error('assembled file hash does not match the qualified source')
+    await rename(temporaryPath, fullPath)
+    await rm(uploadPath, { recursive: true, force: true })
+    res.json({ ok: true, id: resource.id, sizeBytes, sha256, chunks: totalChunks })
+  } catch (error) {
+    output.destroy()
     await unlink(temporaryPath).catch(() => {})
     throw error
   }
