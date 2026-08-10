@@ -7,6 +7,7 @@ import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
 import { apiAuthGate, bypassEnabled, requireAdmin } from './auth.js'
+import { toMariaDbDate } from './datetime.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const app = express()
@@ -382,7 +383,7 @@ app.post('/api/webhooks/resend/inbound', wrap(async (req, res) => {
        subject=VALUES(subject), html=VALUES(html), text=VALUES(text), status=VALUES(status), at=VALUES(at)`,
     [id, 'inbound', mailbox, received.from || p.from || '', toAddr, received.cc?.join(', ') || null,
       received.bcc?.join(', ') || null, received.subject || p.subject || '', received.html || null,
-      received.text || null, 'Received', p.email_id, received.created_at || p.created_at || new Date()],
+      received.text || null, 'Received', p.email_id, toMariaDbDate(received.created_at || p.created_at)],
   )
 
   for (const a of received.attachments || []) {
