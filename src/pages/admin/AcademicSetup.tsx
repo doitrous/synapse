@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { CalendarDays, Plus, X, Trash2, MapPin, Building2, SlidersHorizontal, Pencil, Check, Upload } from 'lucide-react'
-import type { CurriculumCourse } from '@/data/universities'
+import type { CurriculumCourse, University } from '@/data/universities'
 import { newUniversityYears, defaultModuleId } from '@/data/universities'
 import { yearId } from '@/data/taxonomy'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -41,7 +41,7 @@ export function AcademicSetup() {
   const [contentItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [curricula, setCurricula] = usePersistentState<Record<string, CourseCurriculumSelection>>('synapse-course-curricula-v1', {})
   const [schedules, setSchedules] = usePersistentState<ModuleScheduleStore>('synapse-module-schedules-v1', {})
-  const [selectedId, setSelectedId] = useState(unis[0].id)
+  const [selectedId, setSelectedId] = useState(unis[0]?.id ?? '')
   const [addingUni, setAddingUni] = useState(false)
   const [uniName, setUniName] = useState('')
   const [uniShort, setUniShort] = useState('')
@@ -60,6 +60,16 @@ export function AcademicSetup() {
   const [curriculumEditor, setCurriculumEditor] = useState<{ course: CurriculumCourse; year: string; key: string } | null>(null)
   const [scheduleEditor, setScheduleEditor] = useState<{ course: CurriculumCourse; year: string; key: string } | null>(null)
 
+  // Live mode intentionally starts with an empty catalogue and hydrates it from
+  // MariaDB. Keep the selection valid both before hydration and after deletions.
+  useEffect(() => {
+    if (unis.length === 0) {
+      if (selectedId) setSelectedId('')
+      return
+    }
+    if (!unis.some((university) => university.id === selectedId)) setSelectedId(unis[0].id)
+  }, [selectedId, unis])
+
   /** All terms in a year: explicit terms ∪ terms used by its modules. */
   const termsOf = (y: { terms?: string[]; courses: CurriculumCourse[] }): string[] => {
     const set = new Set<string>(y.terms ?? [])
@@ -68,7 +78,7 @@ export function AcademicSetup() {
     return [...set]
   }
 
-  const patchSelected = (fn: (u: typeof uni) => typeof uni) =>
+  const patchSelected = (fn: (u: University) => University) =>
     setUnis((prev) => prev.map((u) => (u.id === selectedId ? fn(u) : u)))
 
   function addYear() {
@@ -93,6 +103,7 @@ export function AcademicSetup() {
     }))
   }
   function saveModuleId(courseId: string) {
+    if (!uni) return
     const draft = moduleIdDraft.trim()
     setEditingModuleId(null)
     if (!draft) return
@@ -102,7 +113,7 @@ export function AcademicSetup() {
   }
 
   const uni = unis.find((u) => u.id === selectedId) ?? unis[0]
-  const totalStudents = uni.years.reduce((s, y) => s + y.students, 0)
+  const totalStudents = uni?.years.reduce((s, y) => s + y.students, 0) ?? 0
 
   function addUniversity() {
     const name = uniName.trim()
@@ -120,6 +131,36 @@ export function AcademicSetup() {
     setUniShort('')
     setUniLocation('')
     setAddingUni(false)
+  }
+
+  if (!uni) {
+    return (
+      <PageContainer>
+        <PageHeader
+          title="Academic Setup"
+          description="Start by adding the first university. Years, terms, modules, curricula, and schedules can then be configured here."
+        />
+        <Panel className="mx-auto w-full max-w-2xl p-5">
+          <PanelHeader title="Add your first university" icon={Building2} />
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <Field label="University name" htmlFor="first-university-name">
+              <TextInput id="first-university-name" value={uniName} onChange={(event) => setUniName(event.target.value)} placeholder="University name" autoFocus />
+            </Field>
+            <Field label="Abbreviation" htmlFor="first-university-short" hint="Up to 8 characters">
+              <TextInput id="first-university-short" value={uniShort} onChange={(event) => setUniShort(event.target.value.toUpperCase())} placeholder="e.g. OMS" maxLength={8} />
+            </Field>
+            <Field label="Location" htmlFor="first-university-location">
+              <TextInput id="first-university-location" value={uniLocation} onChange={(event) => setUniLocation(event.target.value)} placeholder="City or country" />
+            </Field>
+            <div className="flex items-end">
+              <Button variant="primary" size="md" iconLeft={Plus} onClick={addUniversity} disabled={!uniName.trim()} className="w-full">
+                Add university
+              </Button>
+            </div>
+          </div>
+        </Panel>
+      </PageContainer>
+    )
   }
 
   function startIdentityEdit() {
