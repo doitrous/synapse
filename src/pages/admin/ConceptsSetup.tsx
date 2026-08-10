@@ -174,6 +174,7 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
         <Field label="Atomic claim IDs" hint="One per line"><Textarea value={(value.atomicClaimIds ?? []).join('\n')} onChange={(event) => onPatch({ atomicClaimIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Related article IDs" hint="One per line"><Textarea value={(value.relatedArticleIds ?? value.articleIds ?? []).join('\n')} onChange={(event) => onPatch({ relatedArticleIds: list(event.target.value), articleIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Related concept IDs" hint="Typed links remain in Relationships"><Textarea value={(value.relatedConceptIds ?? []).join('\n')} onChange={(event) => onPatch({ relatedConceptIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
+        <Field label="Resource IDs" hint="Every source that teaches or verifies this concept, one per line"><Textarea value={(value.resourceIds ?? []).join('\n')} onChange={(event) => onPatch({ resourceIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Resource occurrence IDs" hint="Exact source occurrences, one per line"><Textarea value={(value.resourceOccurrenceIds ?? []).join('\n')} onChange={(event) => onPatch({ resourceOccurrenceIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Approved file resource IDs" hint="One per line"><Textarea value={(value.approvedFileResourceIds ?? []).join('\n')} onChange={(event) => onPatch({ approvedFileResourceIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Approved video resource IDs" hint="One per line"><Textarea value={(value.approvedVideoResourceIds ?? []).join('\n')} onChange={(event) => onPatch({ approvedVideoResourceIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
@@ -184,6 +185,7 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
         <Field label="Merge record IDs" hint="Reversible canonicalisation records"><Textarea value={(value.mergeIds ?? []).join('\n')} onChange={(event) => onPatch({ mergeIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Rejected merge candidate IDs" hint="Similar but intentionally separate"><Textarea value={(value.rejectedMergeCandidateIds ?? []).join('\n')} onChange={(event) => onPatch({ rejectedMergeCandidateIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Original wording" hint="Preserved source wording, one per line"><Textarea value={(value.originalWording ?? []).join('\n')} onChange={(event) => onPatch({ originalWording: list(event.target.value) })} className="min-h-20" /></Field>
+        <Field label="Editorial review status"><TextInput value={value.editorialReviewStatus ?? ''} onChange={(event) => onPatch({ editorialReviewStatus: event.target.value })} placeholder="evidence_gate_passed" /></Field>
         <Field label="Intentionally blank fields" hint="field: reason, one per line"><Textarea value={fieldNotesText(value.fieldNotes)} onChange={(event) => onPatch({ fieldNotes: fieldNotes(event.target.value) })} className="min-h-20" /></Field>
         <Field label="Exclusion reason"><Textarea value={value.exclusionReason ?? ''} onChange={(event) => onPatch({ exclusionReason: event.target.value || null })} className="min-h-16" /></Field>
       </div>
@@ -606,9 +608,10 @@ export function ConceptsSetup() {
 
                 {/* Approved resources & articles (auto-maintained) */}
                 <div className="grid grid-cols-2 gap-1.5 font-mono text-[10.5px] text-ink-2">
+                  <span>Linked sources: <span className="text-ink">{selected.resourceIds?.length ?? 0}</span></span>
                   <span>Approved files: <span className="text-ink">{selected.approvedFileResourceIds?.length ?? 0}</span></span>
                   <span>Approved videos: <span className="text-ink">{selected.approvedVideoResourceIds?.length ?? 0}</span></span>
-                  <span className="col-span-2">Related articles: <span className="text-ink">{selected.relatedArticleIds?.length ?? selected.articleIds.length}</span></span>
+                  <span>Related articles: <span className="text-ink">{selected.relatedArticleIds?.length ?? selected.articleIds.length}</span></span>
                 </div>
 
                 <div className="flex items-center gap-2 border-t border-line pt-3">

@@ -25,13 +25,13 @@ const articleRequired = [
   'articleData.holdThese', 'articleData.loseTheMark', 'articleData.resourceIds', 'articleData.universityIds', 'articleData.yearIds', 'articleData.primaryNodeId',
   'articleData.secondaryNodeIds', 'articleData.subtopicId', 'articleData.relatedConceptIds', 'articleData.relatedArticleIds', 'articleData.universityNotes',
   'articleData.reviewer', 'articleData.finalPublisher', 'articleData.highYield', 'articleData.timeSensitive', 'articleData.publicationGate', 'articleData.evidenceBasis',
-  'articleData.articleLevelSourceIds', 'articleData.claimIds', 'articleData.spanIds', 'articleData.evidenceGaps', 'articleData.notes', 'articleData.fieldNotes',
+  'articleData.articleLevelSourceIds', 'articleData.claimIds', 'articleData.spanIds', 'articleData.notes', 'articleData.fieldNotes',
 ]
 const conceptRequired = [
   'label', 'canonicalKey', 'definition', 'status', 'articleIds', 'subjectId', 'systemId', 'topicTagId', 'subtopicId', 'primaryNodeId', 'secondaryNodeIds',
   'conceptType', 'learnerYears', 'universityIds', 'explicitObjective', 'blueprintWeight', 'examWeightByYear', 'clinicalRelevance', 'academicRelevance',
-  'relatedArticleIds', 'atomicClaimIds', 'resourceOccurrenceIds', 'supportMode', 'confidence', 'sourceCandidateIds', 'originalWording', 'owner', 'reviewer',
-  'finalPublisher', 'publicationStatus', 'weightConfidence', 'fieldNotes',
+  'relatedArticleIds', 'resourceIds', 'atomicClaimIds', 'resourceOccurrenceIds', 'supportMode', 'confidence', 'sourceCandidateIds', 'originalWording', 'owner', 'reviewer',
+  'finalPublisher', 'publicationStatus', 'editorialReviewStatus', 'weightConfidence', 'fieldNotes',
 ]
 
 const articleMissing = requirePaths('article', articles, articleRequired)
@@ -39,6 +39,7 @@ const conceptMissing = requirePaths('concept', graph.concepts, conceptRequired)
 
 const articleIntentionalBlanks = ['arabicTitle', 'aliases', 'questionIds', 'moduleIds', 'microtopicId', 'nanotopicId', 'media', 'lastReviewed', 'reviewDue']
 for (const article of articles) {
+  if (!Object.hasOwn(article.articleData || {}, 'evidenceGaps') || !Array.isArray(article.articleData.evidenceGaps)) errors.push(`${article.id}.evidenceGaps must be present as an array, including when no gaps remain`)
   for (const field of articleIntentionalBlanks) {
     if (!hasValue(article.articleData?.[field]) && !article.articleData?.fieldNotes?.[field]) errors.push(`${article.id}.${field} is blank without an explicit reason`)
   }
@@ -58,6 +59,9 @@ const claimIds = new Set(evidence.claims.map((claim) => claim.id))
 const citationIds = new Set(evidence.citations.map((citation) => citation.id))
 const resourceIds = new Set(evidence.resources.map((resource) => resource.id))
 const spanIds = new Set(evidence.articleSpans.map((span) => span.id))
+for (const concept of graph.concepts) {
+  for (const id of concept.resourceIds || []) if (!resourceIds.has(id)) errors.push(`${concept.id} references unknown resource ${id}`)
+}
 for (const article of articles) {
   for (const id of article.articleData.relatedConceptIds || []) if (!conceptIds.has(id)) errors.push(`${article.id} references unknown concept ${id}`)
   for (const id of article.articleData.relatedArticleIds || []) if (!articleIds.has(id)) errors.push(`${article.id} references unknown article ${id}`)

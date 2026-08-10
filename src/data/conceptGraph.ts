@@ -82,6 +82,7 @@ export interface Concept {
   /** Article IDs that discuss this concept. */
   relatedArticleIds?: string[]
   /** Resource IDs approved for this concept — auto-maintained as resources are tagged. */
+  resourceIds?: string[]
   approvedFileResourceIds?: string[]
   approvedVideoResourceIds?: string[]
   /** Claim-level evidence and reversible canonicalisation lineage. */
@@ -102,6 +103,7 @@ export interface Concept {
   lastReviewed?: string
   reviewDue?: string
   publicationStatus?: string
+  editorialReviewStatus?: string
   exclusionReason?: string | null
   weightConfidence?: number
   /** Field-specific reasons for values intentionally left empty. */

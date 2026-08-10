@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const projectRoot = resolve(here, '..')
-const bundlePath = process.env.MEDICAL_BUNDLE_PATH || '/Users/doitrous/Documents/CodexGPT/Concepts and Questions Creation Codex/medical-library/systems/cardiovascular/bundle.json'
+const bundlePath = process.env.MEDICAL_BUNDLE_PATH || '/Users/doitrous/Documents/CodexGPT/Concepts and Questions Creation Codex/medical-library/systems/cardiovascular/reviewed-bundle.json'
 const outputPath = join(projectRoot, 'server', 'data', 'medical-library-v1.json')
 const bundle = JSON.parse(await readFile(bundlePath, 'utf8'))
 const { CURRICULUM_CATALOG, PILOT_ARTICLE_PLACEMENTS } = await import('../src/data/curriculumCatalog.ts')
@@ -142,33 +142,19 @@ const relatedArticles = {
   'ART-CVS-VASCULAR-FLOW': ['ART-CVS-CARDIAC-HISTOLOGY', 'ART-CVS-CARDIAC-OUTPUT', 'ART-CVS-BLOOD-PRESSURE'],
 }
 
-const slug = (value) => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'section'
 const articleSpansByArticle = new Map()
 for (const span of bundle.article_spans) articleSpansByArticle.set(span.article_id, [...(articleSpansByArticle.get(span.article_id) || []), span])
 
 const readableSectionsFor = (article) => {
-  const articleConcepts = bundle.concepts.filter((concept) => (concept.related_article_ids || []).includes(article.id))
-  const groups = new Map()
-  for (const concept of articleConcepts) {
-    const heading = concept.subtopic || concept.topic || 'Core concepts'
-    const claimIds = new Set(concept.atomic_claim_ids || [])
-    const spans = (articleSpansByArticle.get(article.id) || []).filter((span) => (span.claim_ids || []).some((claimId) => claimIds.has(claimId)))
-    groups.set(heading, [...(groups.get(heading) || []), ...spans])
-  }
-  const sections = [...groups.entries()].map(([heading, spans]) => {
-    const uniqueSpans = [...new Map(spans.map((span) => [span.id, span])).values()]
-    return {
-      id: `${article.id}-section-${slug(heading)}`,
-      heading,
-      body: uniqueSpans.map((span) => (span.claim_ids || []).map((claimId) => claimsById.get(claimId)?.display_text).filter(Boolean).join(' ')).filter(Boolean).join('\n\n'),
-      kind: 'content',
-      spanIds: uniqueSpans.map((span) => span.id),
-    }
-  })
-  const conceptLines = articleConcepts.map((concept) => `${concept.label} · ${concept.id}`)
-  const articleLines = (relatedArticles[article.id] || []).map((articleId) => `${bundle.articles.find((item) => item.id === articleId)?.title || articleId} · ${articleId}`)
-  sections.push({ id: `${article.id}-components-and-relations`, heading: 'Components and relations', body: [`Concepts in this article:\n${conceptLines.join('\n')}`, `Continue with:\n${articleLines.join('\n')}`].join('\n\n'), kind: 'components', spanIds: [] })
-  return sections
+  const spans = articleSpansByArticle.get(article.id) || []
+  const stripMarkers = (value = '') => value.replace(/<!--\s*\/?evidence:[\s\S]*?-->/g, '').replace(/\n{3,}/g, '\n\n').trim()
+  return (article.sections || []).map((section) => ({
+    id: section.id,
+    heading: section.heading,
+    body: stripMarkers(section.body),
+    kind: section.heading === 'Components and relations' ? 'components' : 'content',
+    spanIds: spans.filter((span) => span.section_id === section.id).map((span) => span.id),
+  }))
 }
 
 const publicationGateFor = (article) => {
@@ -206,7 +192,7 @@ const articleItems = bundle.articles.map((article) => {
     updatedAt: generatedAt,
     fields: {
       Topic: place.topic.title,
-      Summary: `${article.title} is organised here as ${claimIds.length} evidence-linked facts for years 1–3. Select any fact to inspect every exact source and locator. Items that still need independent verification remain under review.`,
+      Summary: article.summary,
       'Reading time': String(article.reading_time || 8),
       'Content owner': owner,
       'Key point': article.hold_these?.[0] || '',
@@ -224,7 +210,7 @@ const articleItems = bundle.articles.map((article) => {
       archetype: archetypeMap[article.archetype] || 'concept',
       language: article.language || 'English',
       learnerStage: article.learner_stage || 'Years 1–3 foundation',
-      summary: `${article.title} is organised here as ${claimIds.length} evidence-linked facts for years 1–3. Select any fact to inspect every exact source and locator. Items that still need independent verification remain under review.`,
+      summary: article.summary,
       body: sortedSections.map((section) => `${section.heading}\n${section.body}`).join('\n\n'),
       sections: sortedSections,
       holdThese: article.hold_these || [],
@@ -307,7 +293,7 @@ const concepts = bundle.concepts.map((concept) => {
   const canonicalPlace = canonicalPlacementFor(articleId)
   const micro = place.subtopic.micros.find((node) => node.title.toLowerCase() === String(concept.subtopic || '').toLowerCase())
   const conceptCitationIds = (concept.atomic_claim_ids || []).flatMap((claimId) => claimsById.get(claimId)?.citation_ids || [])
-  const conceptResourceIds = [...new Set(conceptCitationIds.map((citationId) => citationsById.get(citationId)?.resource_id).filter(Boolean))]
+  const conceptResourceIds = [...new Set([...(concept.resource_ids || []), ...conceptCitationIds.map((citationId) => citationsById.get(citationId)?.resource_id).filter(Boolean)])]
   const approvedFileResourceIds = conceptResourceIds.filter((resourceId) => resources.find((resource) => resource.id === resourceId)?.sourceUri)
   const fieldNotes = {
     ...(concept.arabic_label ? {} : { arabicLabel: 'No reviewed Arabic terminology was supplied; left empty rather than model-translated.' }),
@@ -351,6 +337,7 @@ const concepts = bundle.concepts.map((concept) => {
     academicRelevance: concept.academic_relevance,
     relatedConceptIds: [],
     relatedArticleIds: concept.related_article_ids || [],
+    resourceIds: conceptResourceIds,
     approvedFileResourceIds,
     approvedVideoResourceIds: [],
     atomicClaimIds: concept.atomic_claim_ids || [],
@@ -370,48 +357,28 @@ const concepts = bundle.concepts.map((concept) => {
     lastReviewed: concept.last_reviewed || '',
     reviewDue: concept.review_due || '',
     publicationStatus: concept.publication_status,
+    editorialReviewStatus: concept.editorial_review_status,
     exclusionReason: concept.exclusion_reason,
     weightConfidence: concept.weight_confidence,
     fieldNotes,
   }
 })
 
-const relationSeeds = [
-  ['Fibrous and serous pericardial coverings', 'related_concepts', 'Heart within the pericardium and middle mediastinum'],
-  ['Heart within the pericardium and middle mediastinum', 'related_concepts', 'Retrosternal position of the heart'],
-  ['Aortic sinuses', 'related_concepts', 'Aortic sinuses of the ascending aorta'],
-  ['Circumflex relation to coronary sinus', 'related_concepts', 'Course of coronary sinus with circumflex artery'],
-  ['Coronary sinus opening in the right atrium', 'related_concepts', 'Course of coronary sinus with circumflex artery'],
-  ['AV block is disturbed conduction between atria and ventricles at the atrioventricular node', 'presents_as', 'Atrioventricular block may prolong PR or produce P waves not followed by QRS'],
-  ['AV block is disturbed conduction between atria and ventricles at the atrioventricular node', 'presents_as', 'AV block can increase PR interval or produce P waves without following QRS complexes'],
-  ['Atrioventricular block disturbs conduction between atria and ventricles', 'related_concepts', 'AV block is disturbed conduction between atria and ventricles at the atrioventricular node'],
-  ['Pericyte contraction regulates capillary blood flow', 'related_concepts', 'Pericyte processes usually surround capillary endothelium'],
-  ['Continuous capillaries occur in connective tissue, bone, skin, and exocrine glands', 'contrasts_with', 'Fenestrated capillaries occur in intestine, endocrine glands, and renal glomeruli'],
-  ['Afterload is the load against which cardiac muscle contracts', 'related_concepts', 'Afterload mainly affects end-systolic volume'],
-  ['Arterial baroreceptors are mechanical stretch receptors that sense arterial pressure', 'related_concepts', 'Arterial baroreceptors are located mainly in the carotid sinus and aortic arch'],
-  ['Arterial baroreceptors are mechanical stretch receptors that sense arterial pressure', 'related_concepts', 'Arterial baroreceptors begin responding near an arterial pressure of 50 mmHg'],
-  ['Coronary blockage causes myocardial infarction', 'related_concepts', 'Coronary narrowing causes myocardial ischemia'],
-  ['Arterial pressure equals cardiac output multiplied by total peripheral resistance', 'related_concepts', 'Arterial pressure equals heart rate multiplied by stroke volume and total peripheral resistance'],
-  ['A cardiac murmur is an abnormal heart sound heard over chest-wall auscultatory areas', 'related_concepts', 'Abnormal heart sounds may have altered intensity'],
-]
-const conceptByLabel = new Map(concepts.map((concept) => [concept.label, concept]))
-const relations = relationSeeds.map(([sourceLabel, type, targetLabel], index) => {
-  const source = conceptByLabel.get(sourceLabel)
-  const target = conceptByLabel.get(targetLabel)
-  if (!source || !target) throw new Error(`Curated relationship references a missing concept: ${sourceLabel} -> ${targetLabel}`)
-  const evidenceClaimIds = [...new Set([...(source.atomicClaimIds || []), ...(target.atomicClaimIds || [])])]
-  const citationIds = [...new Set(evidenceClaimIds.flatMap((claimId) => claimsById.get(claimId)?.citation_ids || []))]
-  const verified = evidenceClaimIds.length > 0 && evidenceClaimIds.every((claimId) => claimsById.get(claimId)?.verification_status === 'verified')
+const conceptById = new Map(concepts.map((concept) => [concept.id, concept]))
+const relations = (bundle.concept_relations || []).map((relation) => {
+  const source = conceptById.get(relation.source_concept_id)
+  const target = conceptById.get(relation.target_concept_id)
+  if (!source || !target) throw new Error(`Reviewed relationship references a missing concept: ${relation.source_concept_id} -> ${relation.target_concept_id}`)
   return {
-    id: `REL-CVS-${String(index + 1).padStart(3, '0')}`,
+    id: relation.id,
     sourceId: source.id,
-    type,
+    type: relation.type,
     targetId: target.id,
-    evidenceClaimIds,
-    citationIds,
-    confidence: Math.min(source.confidence || 0, target.confidence || 0),
-    verificationStatus: verified ? 'verified' : 'needs_evidence',
-    qualifiers: { derivation: 'curated_shared_entity_or_explicit_relation_from_supplied_claims', reviewMode: 'evidence_gate_not_faculty_signoff' },
+    evidenceClaimIds: relation.claim_ids || [],
+    citationIds: relation.citation_ids || [],
+    confidence: relation.confidence,
+    verificationStatus: relation.status,
+    qualifiers: { derivation: relation.origin, reviewMode: 'relationship_requires_separate_edge_review' },
     reviewer,
   }
 })
@@ -455,7 +422,14 @@ const articleSpans = bundle.article_spans.map((span) => ({
   sectionId: span.section_id,
   textHash: span.text_hash,
   currentLine: span.current_line,
-  text: (span.claim_ids || []).map((id) => claimsById.get(id)?.display_text).filter(Boolean).join(' '),
+  text: (() => {
+    const conceptIds = [...new Set((span.claim_ids || []).map((id) => claimsById.get(id)?.concept_id).filter(Boolean))]
+    if (conceptIds.length === 1) {
+      const concept = bundle.concepts.find((entry) => entry.id === conceptIds[0])
+      if (concept) return `${concept.label}. ${concept.definition}`
+    }
+    return (span.claim_ids || []).map((id) => claimsById.get(id)?.display_text).filter(Boolean).join(' ')
+  })(),
   claimIds: span.claim_ids || [],
   citationIds: span.citation_ids || [],
 }))
@@ -504,7 +478,7 @@ const publishedEvidence = {
 }
 
 const data = {
-  migrationId: '2026-08-10-medical-library-v2',
+  migrationId: '2026-08-10-medical-library-v3',
   generatedAt,
   states: {
     'synapse-academic-universities-v1': universities,
@@ -551,10 +525,10 @@ const data = {
 
 if (data.report.absolutePathsExposed) throw new Error('Sanitisation failed: an absolute authoring path remains in the launch package')
 if (data.report.universities !== 12 || data.report.years !== 84) throw new Error('University/year catalogue failed deterministic-count validation')
-if (data.report.articles !== 10 || data.report.concepts !== 140 || data.report.claims !== 140) throw new Error('Pilot coverage count mismatch')
+if (data.report.articles !== 10 || data.report.concepts !== 98 || data.report.claims !== 110) throw new Error('Reviewed pilot coverage count mismatch')
 if (articleItems.some((article) => article.articleData.sections.at(-1)?.kind !== 'components')) throw new Error('Every article must end with Components and relations')
 if (articleItems.some((article) => !article.owner || !article.articleData.reviewer || !article.articleData.finalPublisher)) throw new Error('Article governance fields are incomplete')
-if (concepts.some((concept) => !concept.owner || !concept.reviewer || !concept.finalPublisher || !concept.primaryNodeId || !concept.atomicClaimIds.length)) throw new Error('Concept identity, placement, evidence, or governance fields are incomplete')
+if (concepts.some((concept) => !concept.owner || !concept.reviewer || !concept.finalPublisher || !concept.primaryNodeId || !concept.atomicClaimIds.length || !concept.resourceIds.length)) throw new Error('Concept identity, placement, evidence, resources, or governance fields are incomplete')
 if (new Set(articleItems.flatMap((article) => article.articleData.sections.flatMap((section) => section.spanIds || []))).size !== bundle.article_spans.length) throw new Error('Readable article sections do not cover every evidence span exactly once')
 
 await mkdir(dirname(outputPath), { recursive: true })
