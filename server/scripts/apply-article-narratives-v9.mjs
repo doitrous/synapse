@@ -36,8 +36,12 @@ const option = (name) => {
   return index === -1 ? undefined : args[index + 1]
 }
 
-const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..')
-const narrativesDir = resolve(repoRoot, option('narratives') ?? 'server/scripts/narratives')
+// Resolve defaults against this script's own directory, not an assumed repo
+// layout: in the container the Dockerfile's build context is server/, so these
+// scripts live at /app/scripts rather than <repo>/server/scripts. Paths given on
+// the command line are resolved against the working directory, as expected.
+const scriptDir = dirname(fileURLToPath(import.meta.url))
+const narrativesDir = option('narratives') ? resolve(process.cwd(), option('narratives')) : join(scriptDir, 'narratives')
 const sourceFile = option('source')
 const emitFile = option('emit')
 
@@ -153,7 +157,7 @@ function applyNarratives(ledger) {
 /* ── Offline rehearsal: same transformation, no database ─────────────────── */
 
 if (sourceFile) {
-  const bundle = JSON.parse(await readFile(resolve(repoRoot, sourceFile), 'utf8'))
+  const bundle = JSON.parse(await readFile(resolve(process.cwd(), sourceFile), 'utf8'))
   const raw = bundle.states?.[LEDGER_KEY]
   if (raw === undefined) throw new Error(`Bundle ${sourceFile} has no state ${LEDGER_KEY}`)
   const ledger = typeof raw === 'string' ? JSON.parse(raw) : raw
@@ -168,7 +172,7 @@ if (sourceFile) {
     ledgerBytes: { before: JSON.stringify(ledger).length, after: serialized.length },
   }, null, 2))
   if (emitFile) {
-    await writeFile(resolve(repoRoot, emitFile), serialized)
+    await writeFile(resolve(process.cwd(), emitFile), serialized)
     console.log(`\nWrote the resulting ledger to ${emitFile}`)
   }
   console.log('\nRehearsal against a bundle — the database was never opened.')

@@ -28,8 +28,12 @@ const option = (name) => {
   return index === -1 ? undefined : args[index + 1]
 }
 
-const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..')
-const outDir = resolve(repoRoot, option('out') ?? 'server/scripts/prose-packets')
+// Resolve the default against this script's own directory, not an assumed repo
+// layout: in the container the Dockerfile's build context is server/, so these
+// scripts live at /app/scripts rather than <repo>/server/scripts. Paths given on
+// the command line are resolved against the working directory, as expected.
+const scriptDir = dirname(fileURLToPath(import.meta.url))
+const outDir = option('out') ? resolve(process.cwd(), option('out')) : join(scriptDir, 'prose-packets')
 const explicitIds = option('ids')?.split(',').map((id) => id.trim()).filter(Boolean)
 
 /**
@@ -40,7 +44,7 @@ const explicitIds = option('ids')?.split(',').map((id) => id.trim()).filter(Bool
 async function openSource() {
   const sourceFile = option('source')
   if (sourceFile) {
-    const bundle = JSON.parse(await readFile(resolve(repoRoot, sourceFile), 'utf8'))
+    const bundle = JSON.parse(await readFile(resolve(process.cwd(), sourceFile), 'utf8'))
     const read = (key) => {
       const value = bundle.states?.[key]
       if (value === undefined) throw new Error(`Bundle ${sourceFile} has no state ${key}`)
