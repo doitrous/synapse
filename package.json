@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "og": "node scripts/og/render.mjs",
     "medical:build": "node --experimental-strip-types scripts/build-medical-library-v1.mjs",
-    "medical:audit": "node scripts/audit-medical-content-fields.mjs"
+    "medical:audit": "node scripts/audit-medical-content-fields.mjs",
+    "medical:validate:taxonomy": "node --experimental-strip-types scripts/validate-reviewed-medical-taxonomy.mjs",
+    "medical:validate:authoring": "node --experimental-strip-types scripts/validate-authoring-contract.mjs"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",

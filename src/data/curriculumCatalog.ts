@@ -31,6 +31,12 @@ export interface CurriculumTopic {
   title: string
   tpcId: string
   subs: CurriculumSubtopic[]
+  /**
+   * Subtopic node IDs owned by another subject that are also relevant here.
+   * A cross-reference is a link, never a second node: it exists so a label is
+   * declared once and browsed from everywhere it matters.
+   */
+  crossRefs?: string[]
 }
 
 export interface CurriculumSystem {
@@ -40,11 +46,14 @@ export interface CurriculumSystem {
   color: string
   sysId: string
   topics: CurriculumTopic[]
+  /** Whole topics owned by another subject that are also relevant here. */
+  crossRefs?: string[]
 }
 
 interface TopicSeed {
   title: string
   subtopics: Array<string | { title: string; microtopics: Array<string | { title: string; nanotopics: string[] }> }>
+  crossRefs?: string[]
 }
 
 interface SystemSeed {
@@ -53,6 +62,7 @@ interface SystemSeed {
   short: string
   color: string
   topics: TopicSeed[]
+  crossRefs?: string[]
 }
 
 export const curriculumSlug = (value: string) =>
@@ -66,12 +76,13 @@ export const curriculumSubtopicId = (nodeId: string) => `SUB_${upperId(nodeId)}`
 export const curriculumMicrotopicId = (nodeId: string) => `MIC_${upperId(nodeId)}`
 export const curriculumNanotopicId = (nodeId: string) => `NAN_${upperId(nodeId)}`
 
-const topic = (title: string, subtopics: TopicSeed['subtopics']): TopicSeed => ({ title, subtopics })
+const topic = (title: string, subtopics: TopicSeed['subtopics'], crossRefs?: string[]): TopicSeed => ({ title, subtopics, crossRefs })
 const sub = (title: string, microtopics: Array<string | { title: string; nanotopics: string[] }>) => ({ title, microtopics })
 
 const SYSTEM_SEEDS: SystemSeed[] = [
   {
     id: 'cvs', name: 'Cardiovascular', short: 'CVS', color: '#a8462f',
+    crossRefs: ['pharm-cardiovascular-pharmacology'],
     topics: [
       topic('Cardiac anatomy', [
         sub('Heart orientation and pericardium', ['Pericardial coverings', 'Mediastinal position and relations', 'Cardiac surfaces and borders', 'Valve and papillary apparatus']),
@@ -85,12 +96,12 @@ const SYSTEM_SEEDS: SystemSeed[] = [
         'Development of the heart tube and looping',
         'Septation and outflow tract development',
         'Fetal circulation and postnatal changes',
-        'Developmental anomalies',
+        'Cardiac developmental anomalies',
       ]),
       topic('Cardiac electrophysiology', [
         sub('Conduction system', ['Sinoatrial node', 'Atrioventricular node', 'His–Purkinje system', 'Autonomic modulation']),
         sub('Cardiac electrical activity and ECG foundations', ['Cardiac action potentials', 'Refractory periods', 'ECG waves and intervals', 'Electrical axis and lead orientation']),
-        'Excitation–contraction coupling',
+        'Cardiac excitation–contraction coupling',
         'Rhythm generation and conduction disturbances',
       ]),
       topic('Cardiac mechanics and haemodynamics', [
@@ -111,15 +122,11 @@ const SYSTEM_SEEDS: SystemSeed[] = [
         'Valvular heart disease', 'Cardiomyopathies', 'Pericardial disease', 'Congenital heart disease',
       ]),
       topic('Cardiovascular presentations', [
-        'Chest pain', 'Dyspnoea and orthopnoea', 'Palpitations and syncope', 'Oedema', 'Cyanosis', 'Shock and poor perfusion',
-      ]),
+        'Chest pain', 'Palpitations and syncope', 'Oedema', 'Shock and poor perfusion',
+      ], ['resp-respiratory-presentations-dyspnoea', 'resp-respiratory-presentations-cyanosis']),
       topic('Cardiovascular examination and investigations', [
         'Cardiovascular history', 'Pulse and blood pressure examination', 'Precordial examination', 'Electrocardiography',
         'Cardiac biomarkers', 'Echocardiography', 'Chest imaging', 'Haemodynamic assessment',
-      ]),
-      topic('Cardiovascular pharmacology', [
-        'Antihypertensive drugs', 'Antianginal drugs', 'Heart failure pharmacology', 'Antiarrhythmic drugs',
-        'Antiplatelet and anticoagulant drugs', 'Lipid-lowering drugs',
       ]),
       topic('Cardiovascular emergencies and skills', [
         'Acute coronary syndromes', 'Acute heart failure', 'Tachyarrhythmias and bradyarrhythmias',
@@ -129,21 +136,22 @@ const SYSTEM_SEEDS: SystemSeed[] = [
   },
   {
     id: 'resp', name: 'Respiratory', short: 'RESP', color: '#3f6f7a',
+    crossRefs: ['pharm-respiratory-and-allergy-pharmacology'],
     topics: [
       topic('Respiratory anatomy', ['Upper airway', 'Larynx and trachea', 'Bronchial tree', 'Lungs and lobes', 'Pleura and thoracic cavity', 'Respiratory muscles', 'Pulmonary circulation']),
-      topic('Respiratory histology and development', ['Conducting airway histology', 'Respiratory unit histology', 'Alveolar cells and surfactant', 'Lung development', 'Developmental anomalies']),
+      topic('Respiratory histology and development', ['Conducting airway histology', 'Respiratory unit histology', 'Alveolar cells and surfactant', 'Lung development', 'Respiratory developmental anomalies']),
       topic('Ventilation and mechanics', ['Lung volumes and capacities', 'Compliance and elastic recoil', 'Airway resistance', 'Work of breathing', 'Dynamic airway compression']),
       topic('Gas exchange and transport', ['Ventilation–perfusion relationships', 'Diffusion across the alveolar membrane', 'Oxygen transport', 'Carbon dioxide transport', 'Hypoxaemia mechanisms']),
       topic('Control of breathing', ['Brainstem respiratory centres', 'Central and peripheral chemoreceptors', 'Neural reflexes', 'Exercise and altitude adaptation']),
       topic('Respiratory pathology', ['Obstructive airway disease', 'Restrictive lung disease', 'Pulmonary infection', 'Interstitial lung disease', 'Pulmonary vascular disease', 'Pleural disease', 'Respiratory neoplasia']),
-      topic('Respiratory presentations', ['Cough', 'Dyspnoea', 'Wheeze and stridor', 'Haemoptysis', 'Chest pain', 'Cyanosis']),
+      topic('Respiratory presentations', ['Cough', 'Dyspnoea', 'Wheeze and stridor', 'Haemoptysis', 'Cyanosis'], ['cvs-cardiovascular-presentations-chest-pain']),
       topic('Respiratory examination and investigations', ['Respiratory history', 'Chest examination', 'Pulse oximetry', 'Arterial blood gases', 'Spirometry and peak flow', 'Chest radiography', 'Computed tomography', 'Pleural fluid analysis']),
-      topic('Respiratory pharmacology', ['Bronchodilators', 'Inhaled and systemic corticosteroids', 'Leukotriene modifiers', 'Antitussives and mucolytics', 'Pulmonary vascular drugs', 'Inhaler devices']),
       topic('Respiratory emergencies and skills', ['Acute severe asthma', 'Acute respiratory failure', 'Pneumothorax', 'Pulmonary embolism', 'Oxygen delivery', 'Inhaler technique', 'Arterial blood gas sampling']),
     ],
   },
   {
     id: 'renal', name: 'Renal & Urinary', short: 'RENAL', color: '#6f5788',
+    crossRefs: ['pharm-renal-and-endocrine-pharmacology', 'pharm-safe-prescribing-and-calculations'],
     topics: [
       topic('Renal and urinary anatomy', ['Kidneys and coverings', 'Renal blood supply', 'Ureters', 'Urinary bladder', 'Urethra', 'Pelvic relations']),
       topic('Renal histology and development', ['Nephron segments', 'Glomerular filtration barrier', 'Juxtaglomerular apparatus', 'Collecting system histology', 'Development of the urinary system', 'Congenital anomalies']),
@@ -152,31 +160,32 @@ const SYSTEM_SEEDS: SystemSeed[] = [
       topic('Fluid, electrolytes and acid–base', ['Body fluid compartments', 'Sodium and water balance', 'Potassium balance', 'Calcium, phosphate and magnesium', 'Acid–base physiology', 'Acid–base disorders']),
       topic('Endocrine functions of the kidney', ['Renin and blood pressure control', 'Erythropoietin', 'Vitamin D activation', 'Prostaglandins and renal mediators']),
       topic('Renal pathology', ['Acute kidney injury', 'Chronic kidney disease', 'Glomerular disease', 'Tubulointerstitial disease', 'Renovascular disease', 'Urinary tract infection', 'Obstruction and stones', 'Renal neoplasia']),
-      topic('Renal presentations', ['Oliguria and anuria', 'Haematuria', 'Proteinuria', 'Dysuria and frequency', 'Flank pain', 'Oedema', 'Uraemic symptoms']),
+      topic('Renal presentations', ['Oliguria and anuria', 'Haematuria', 'Proteinuria', 'Dysuria and frequency', 'Flank pain', 'Uraemic symptoms'], ['cvs-cardiovascular-presentations-oedema']),
       topic('Renal examination and investigations', ['Renal history', 'Urinalysis', 'Renal function tests', 'Urine microscopy and culture', 'Renal imaging', 'Kidney biopsy', 'Fluid balance assessment']),
-      topic('Renal pharmacology and replacement therapy', ['Diuretics', 'Drugs affecting the renin–angiotensin system', 'Nephrotoxic drugs', 'Dose adjustment in renal impairment', 'Haemodialysis', 'Peritoneal dialysis', 'Renal transplantation']),
+      topic('Renal replacement therapy', ['Haemodialysis', 'Peritoneal dialysis', 'Renal transplantation']),
     ],
   },
   {
     id: 'gi', name: 'Gastrointestinal', short: 'GI', color: '#a07b34',
+    crossRefs: ['pharm-gastrointestinal-pharmacology'],
     topics: [
       topic('Gastrointestinal anatomy', ['Oral cavity and pharynx', 'Oesophagus', 'Stomach', 'Small intestine', 'Large intestine', 'Peritoneum and mesenteries', 'Abdominal blood supply and portal system']),
-      topic('Gastrointestinal histology and development', ['General gut wall organisation', 'Oesophageal histology', 'Gastric histology', 'Small and large bowel histology', 'Enteric nervous system', 'Gut development and rotation', 'Developmental anomalies']),
+      topic('Gastrointestinal histology and development', ['General gut wall organisation', 'Oesophageal histology', 'Gastric histology', 'Small and large bowel histology', 'Enteric nervous system', 'Gut development and rotation', 'Gastrointestinal developmental anomalies']),
       topic('Gastrointestinal motility and secretion', ['Swallowing and oesophageal motility', 'Gastric motility and emptying', 'Intestinal motility', 'Gastric secretion', 'Pancreatic secretion', 'Biliary secretion', 'Enteric and hormonal control']),
       topic('Digestion and absorption', ['Carbohydrate digestion and absorption', 'Protein digestion and absorption', 'Lipid digestion and absorption', 'Vitamin and mineral absorption', 'Water and electrolyte absorption', 'Gut microbiome foundations']),
       topic('Liver, biliary system and pancreas', ['Liver anatomy and histology', 'Hepatic metabolism', 'Bilirubin metabolism', 'Gallbladder and bile ducts', 'Exocrine pancreas', 'Portal hypertension']),
       topic('Gastrointestinal pathology', ['Reflux and peptic disease', 'Malabsorption', 'Inflammatory bowel disease', 'Functional bowel disorders', 'Hepatitis and cirrhosis', 'Biliary disease', 'Pancreatitis', 'Gastrointestinal neoplasia']),
       topic('Gastrointestinal presentations', ['Dysphagia', 'Dyspepsia', 'Abdominal pain', 'Nausea and vomiting', 'Diarrhoea and constipation', 'Gastrointestinal bleeding', 'Jaundice', 'Ascites and abdominal distension']),
       topic('Gastrointestinal examination and investigations', ['Gastrointestinal history', 'Abdominal examination', 'Liver function tests', 'Stool studies', 'Endoscopy', 'Abdominal imaging', 'Hepatobiliary imaging', 'Nutritional assessment']),
-      topic('Gastrointestinal pharmacology', ['Acid suppression', 'Antiemetics and prokinetics', 'Laxatives and antidiarrhoeals', 'Inflammatory bowel disease drugs', 'Hepatobiliary drugs', 'Pancreatic enzyme replacement']),
       topic('Gastrointestinal emergencies and skills', ['Acute abdomen', 'Gastrointestinal haemorrhage', 'Acute liver failure', 'Bowel obstruction', 'Acute pancreatitis', 'Nasogastric tube skills', 'Abdominal fluid assessment']),
     ],
   },
   {
     id: 'neuro', name: 'Neurology', short: 'NEURO', color: '#5b7a4a',
+    crossRefs: ['pharm-neuropsychopharmacology'],
     topics: [
       topic('Neuroanatomy', ['Cerebral hemispheres and lobes', 'Basal ganglia', 'Thalamus and hypothalamus', 'Brainstem', 'Cerebellum', 'Spinal cord', 'Meninges and cerebrospinal fluid', 'Cerebral blood supply', 'Cranial nerves', 'Peripheral nerves']),
-      topic('Neural histology and development', ['Neurones and glia', 'Synapses', 'Myelin and nerve fibres', 'Peripheral nerve histology', 'Neural tube development', 'Brain vesicles and ventricular development', 'Developmental anomalies']),
+      topic('Neural histology and development', ['Neurones and glia', 'Synapses', 'Myelin and nerve fibres', 'Peripheral nerve histology', 'Neural tube development', 'Brain vesicles and ventricular development', 'Neural developmental anomalies']),
       topic('Cellular neurophysiology', ['Resting membrane potential', 'Action potentials', 'Synaptic transmission', 'Neurotransmitters', 'Receptors and second messengers', 'Neural plasticity']),
       topic('Sensory systems', ['Somatic sensation', 'Pain pathways and modulation', 'Vision', 'Hearing', 'Vestibular function', 'Taste and olfaction']),
       topic('Motor systems', ['Upper and lower motor neurones', 'Corticospinal pathways', 'Basal ganglia circuits', 'Cerebellar control', 'Reflexes', 'Muscle tone and posture']),
@@ -184,11 +193,12 @@ const SYSTEM_SEEDS: SystemSeed[] = [
       topic('Higher functions and behaviour', ['Consciousness and arousal', 'Language', 'Memory and learning', 'Emotion and limbic function', 'Sleep', 'Executive function']),
       topic('Neurological pathology', ['Cerebrovascular disease', 'Seizure disorders', 'Demyelinating disease', 'Neurodegeneration', 'Peripheral neuropathy', 'Neuromuscular junction disease', 'Central nervous system infection', 'Neuro-oncology']),
       topic('Neurological presentations and examination', ['Headache', 'Weakness', 'Sensory disturbance', 'Seizures and collapse', 'Dizziness and vertigo', 'Altered consciousness', 'Cranial nerve examination', 'Motor and sensory examination', 'Coordination and gait']),
-      topic('Neurological investigations and pharmacology', ['Neuroimaging', 'Electroencephalography', 'Nerve conduction and electromyography', 'Cerebrospinal fluid analysis', 'Antiseizure drugs', 'Parkinson disease drugs', 'Analgesics', 'Anaesthetic foundations']),
+      topic('Neurological investigations', ['Neuroimaging', 'Electroencephalography', 'Nerve conduction and electromyography', 'Cerebrospinal fluid analysis']),
     ],
   },
   {
     id: 'endo', name: 'Endocrine', short: 'ENDO', color: '#9c5f7e',
+    crossRefs: ['pharm-renal-and-endocrine-pharmacology'],
     topics: [
       topic('Endocrine anatomy and histology', ['Hypothalamus and pituitary', 'Thyroid and parathyroids', 'Adrenal glands', 'Endocrine pancreas', 'Gonads', 'Diffuse endocrine system']),
       topic('Hormone signalling and regulation', ['Hormone classes', 'Receptor signalling', 'Feedback control', 'Hormone transport and metabolism', 'Biological rhythms']),
@@ -199,22 +209,23 @@ const SYSTEM_SEEDS: SystemSeed[] = [
       topic('Calcium, phosphate and bone metabolism', ['Parathyroid hormone', 'Vitamin D', 'Calcitonin', 'Calcium and phosphate balance', 'Metabolic bone disease']),
       topic('Reproductive endocrinology', ['Puberty', 'Menstrual cycle', 'Pregnancy hormones', 'Male reproductive hormones', 'Menopause', 'Disorders of sexual development']),
       topic('Endocrine presentations and investigations', ['Weight change', 'Polyuria and polydipsia', 'Growth disturbance', 'Electrolyte clues', 'Dynamic endocrine testing', 'Endocrine imaging']),
-      topic('Endocrine pharmacology and emergencies', ['Insulins and non-insulin glucose-lowering drugs', 'Thyroid drugs', 'Corticosteroids', 'Pituitary and adrenal drugs', 'Diabetic emergencies', 'Adrenal crisis', 'Thyroid emergencies']),
+      topic('Endocrine emergencies', ['Diabetic emergencies', 'Adrenal crisis', 'Thyroid emergencies']),
     ],
   },
   {
     id: 'msk', name: 'Musculoskeletal', short: 'MSK', color: '#877258',
+    crossRefs: ['pharm-inflammation-immunity-and-cancer-pharmacology', 'pharm-neuropsychopharmacology'],
     topics: [
       topic('Musculoskeletal foundations', ['Anatomical terminology and movement', 'Bones and joints', 'Skeletal muscle architecture', 'Fascia and compartments', 'Peripheral nerves and vessels']),
       topic('Bone, cartilage and connective tissue', ['Bone histology', 'Bone formation and remodelling', 'Cartilage histology', 'Tendons and ligaments', 'Connective tissue matrix', 'Fracture healing']),
-      topic('Muscle physiology', ['Neuromuscular junction', 'Excitation–contraction coupling', 'Motor units', 'Length–tension relationship', 'Muscle energetics', 'Fatigue and adaptation']),
+      topic('Muscle physiology', ['Neuromuscular junction', 'Skeletal muscle excitation–contraction coupling', 'Motor units', 'Length–tension relationship', 'Muscle energetics', 'Fatigue and adaptation']),
       topic('Upper limb', ['Pectoral region and axilla', 'Shoulder', 'Arm', 'Elbow and cubital fossa', 'Forearm', 'Wrist and hand', 'Upper-limb nerves and vessels']),
       topic('Lower limb', ['Gluteal region', 'Hip', 'Thigh', 'Knee and popliteal fossa', 'Leg', 'Ankle and foot', 'Lower-limb nerves and vessels']),
       topic('Back and axial skeleton', ['Vertebral column', 'Back muscles', 'Spinal joints and ligaments', 'Thoracic cage', 'Posture and gait']),
-      topic('Musculoskeletal pathology', ['Trauma and fractures', 'Osteoarthritis', 'Inflammatory arthritis', 'Crystal arthropathy', 'Bone infection', 'Metabolic bone disease', 'Muscle disease', 'Bone and soft-tissue tumours']),
+      topic('Musculoskeletal pathology', ['Trauma and fractures', 'Osteoarthritis', 'Inflammatory arthritis', 'Crystal arthropathy', 'Bone infection', 'Muscle disease', 'Bone and soft-tissue tumours'], ['endo-calcium-phosphate-and-bone-metabolism-metabolic-bone-disease']),
       topic('Musculoskeletal presentations and examination', ['Joint pain and swelling', 'Back pain', 'Muscle weakness', 'Limb injury', 'Upper-limb examination', 'Lower-limb examination', 'Spine examination', 'Gait assessment']),
-      topic('Musculoskeletal investigations', ['Plain radiography', 'Computed tomography', 'Magnetic resonance imaging', 'Ultrasound', 'Synovial fluid analysis', 'Bone biochemistry', 'Electrodiagnostic studies']),
-      topic('Musculoskeletal pharmacology and skills', ['Analgesics', 'Non-steroidal anti-inflammatory drugs', 'Disease-modifying antirheumatic drugs', 'Drugs for gout', 'Drugs for osteoporosis', 'Immobilisation principles', 'Joint aspiration foundations']),
+      topic('Musculoskeletal investigations', ['Plain radiography', 'Magnetic resonance imaging', 'Ultrasound', 'Synovial fluid analysis', 'Bone biochemistry', 'Electrodiagnostic studies'], ['resp-respiratory-examination-and-investigations-computed-tomography']),
+      topic('Musculoskeletal skills', ['Immobilisation principles', 'Joint aspiration foundations']),
     ],
   },
   {
@@ -226,12 +237,12 @@ const SYSTEM_SEEDS: SystemSeed[] = [
       topic('Adverse effects and interactions', ['Adverse drug reaction classification', 'Drug–drug interactions', 'Drug–food interactions', 'Pharmacovigilance', 'Medication errors', 'Deprescribing']),
       topic('Autonomic pharmacology', ['Cholinergic agonists', 'Antimuscarinic drugs', 'Adrenergic agonists', 'Alpha-adrenoceptor antagonists', 'Beta-adrenoceptor antagonists', 'Neuromuscular blockers']),
       topic('Cardiovascular pharmacology', ['Antihypertensive drugs', 'Antianginal drugs', 'Heart failure drugs', 'Antiarrhythmic drugs', 'Antiplatelet drugs', 'Anticoagulants and thrombolytics', 'Lipid-lowering drugs']),
-      topic('Respiratory and allergy pharmacology', ['Bronchodilators', 'Corticosteroids', 'Leukotriene modifiers', 'Antihistamines', 'Anaphylaxis medicines', 'Inhaler devices']),
-      topic('Renal and endocrine pharmacology', ['Diuretics', 'Renin–angiotensin system drugs', 'Insulins', 'Non-insulin glucose-lowering drugs', 'Thyroid drugs', 'Corticosteroids', 'Reproductive hormones']),
-      topic('Gastrointestinal pharmacology', ['Acid suppression', 'Antiemetics', 'Prokinetics', 'Laxatives', 'Antidiarrhoeals', 'Inflammatory bowel disease drugs']),
+      topic('Respiratory and allergy pharmacology', ['Bronchodilators', 'Leukotriene modifiers', 'Antihistamines', 'Anaphylaxis medicines', 'Antitussives and mucolytics', 'Pulmonary vascular drugs', 'Inhaler devices'], ['pharm-inflammation-immunity-and-cancer-pharmacology-corticosteroids']),
+      topic('Renal and endocrine pharmacology', ['Diuretics', 'Renin–angiotensin system drugs', 'Nephrotoxic drugs', 'Insulins', 'Non-insulin glucose-lowering drugs', 'Thyroid drugs', 'Pituitary and adrenal drugs', 'Reproductive hormones'], ['pharm-inflammation-immunity-and-cancer-pharmacology-corticosteroids']),
+      topic('Gastrointestinal pharmacology', ['Acid suppression', 'Antiemetics', 'Prokinetics', 'Laxatives', 'Antidiarrhoeals', 'Inflammatory bowel disease drugs', 'Hepatobiliary drugs', 'Pancreatic enzyme replacement']),
       topic('Neuropsychopharmacology', ['Analgesics', 'Local and general anaesthetics', 'Antiseizure drugs', 'Parkinson disease drugs', 'Antidepressants', 'Antipsychotics', 'Anxiolytics and sedatives']),
       topic('Antimicrobial pharmacology', ['Antibacterial principles', 'Cell-wall active antibacterials', 'Protein-synthesis inhibitors', 'Nucleic-acid inhibitors', 'Antimycobacterial drugs', 'Antifungal drugs', 'Antiviral drugs', 'Antiparasitic drugs', 'Antimicrobial stewardship']),
-      topic('Inflammation, immunity and cancer pharmacology', ['Non-steroidal anti-inflammatory drugs', 'Glucocorticoids', 'Disease-modifying antirheumatic drugs', 'Immunosuppressants', 'Biological therapies', 'Cytotoxic chemotherapy', 'Targeted anticancer therapy']),
+      topic('Inflammation, immunity and cancer pharmacology', ['Non-steroidal anti-inflammatory drugs', 'Corticosteroids', 'Disease-modifying antirheumatic drugs', 'Drugs for gout', 'Drugs for osteoporosis', 'Immunosuppressants', 'Biological therapies', 'Cytotoxic chemotherapy', 'Targeted anticancer therapy']),
       topic('Toxicology and antidotes', ['Initial poisoning assessment', 'Decontamination principles', 'Paracetamol poisoning', 'Opioid poisoning', 'Cholinergic toxicity', 'Toxic alcohols', 'Common antidotes']),
       topic('Special populations and personalised therapy', ['Paediatric pharmacology', 'Pregnancy and lactation', 'Older adults and polypharmacy', 'Pharmacogenomics', 'Therapeutic drug monitoring']),
     ],
@@ -262,7 +273,7 @@ function buildSystem(seed: SystemSeed): CurriculumSystem {
       })
       return { id: subNodeId, title: subTitle, subId: curriculumSubtopicId(subNodeId), micros }
     })
-    return { id: topicNodeId, title: topicSeed.title, tpcId: curriculumTopicId(topicNodeId), subs }
+    return { id: topicNodeId, title: topicSeed.title, tpcId: curriculumTopicId(topicNodeId), subs, ...(topicSeed.crossRefs ? { crossRefs: topicSeed.crossRefs } : {}) }
   })
   return { ...seed, sysId, topics }
 }

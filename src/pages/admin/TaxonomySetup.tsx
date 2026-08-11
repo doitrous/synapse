@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Network, Plus, Trash2, ChevronRight, RotateCcw, Hash, Upload, TriangleAlert } from 'lucide-react'
+import { Network, Plus, Trash2, ChevronRight, RotateCcw, Hash, Upload, TriangleAlert, Link2 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -68,6 +68,38 @@ function Editable({ value, onSave, className }: { value: string; onSave: (v: str
     )
   }
   return <button type="button" onClick={() => { setV(value); setEditing(true) }} title="Click to rename" className={cn('rounded px-1 py-0.5 text-start hover:bg-inset', className)}>{value || '—'}</button>
+}
+
+/** Human-readable "Subject › Topic › Subtopic" path for a cross-referenced node. */
+function crossRefPath(tree: Sys[], nodeId: string): string | undefined {
+  for (const sys of tree) {
+    for (const top of sys.topics) {
+      if (top.id === nodeId) return `${sys.name} › ${top.title}`
+      for (const sub of top.subs) {
+        if (sub.id === nodeId) return `${sys.name} › ${top.title} › ${sub.title}`
+      }
+    }
+  }
+  return undefined
+}
+
+/**
+ * Cross-references are links, not nodes. A label lives in exactly one place;
+ * everywhere else it matters, it appears here as a pointer to its real home.
+ */
+function CrossRefs({ tree, ids }: { tree: Sys[]; ids?: string[] }) {
+  if (!ids?.length) return null
+  return (
+    <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
+      <span className="text-[10.5px] font-medium uppercase tracking-[0.06em] text-ink-3">Also relevant here</span>
+      {ids.map((id) => (
+        <span key={id} className="inline-flex items-center gap-1 rounded border border-line-2 bg-surface-2/60 px-1.5 py-0.5 text-[11px] text-ink-3">
+          <Icon icon={Link2} size={11} />
+          {crossRefPath(tree, id) ?? id}
+        </span>
+      ))}
+    </div>
+  )
 }
 
 function AddInline({ placeholder, onAdd }: { placeholder: string; onAdd: (value: string) => void }) {
@@ -307,12 +339,14 @@ export function TaxonomySetup() {
                               )
                             })}
                             <div className="ms-4 pt-1"><AddInline placeholder="Add subtopic…" onAdd={(v) => addSub(sys.id, top.id, v)} /></div>
+                            <div className="ms-4"><CrossRefs tree={tree} ids={top.crossRefs} /></div>
                           </div>
                         )}
                       </div>
                     )
                   })}
                   <div className="pt-1"><AddInline placeholder="Add topic…" onAdd={(v) => addTopic(sys.id, v)} /></div>
+                  <CrossRefs tree={tree} ids={sys.crossRefs} />
                 </div>
               )}
             </Panel>

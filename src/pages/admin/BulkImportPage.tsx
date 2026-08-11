@@ -59,7 +59,11 @@ function parseMarkdown(text: string): SourceSheet {
   const objects = documents.map((document) => {
     const result: Record<string, string> = {}
     const h1 = document.match(/^#\s+(.+)$/m)?.[1]?.trim()
-    const matcher = /^##\s+(.+)\s*\n([\s\S]*?)(?=^##\s+|$)/gm
+    // The terminator must be the next "## " heading or the true end of the
+    // document. `$` under the /m flag matches at every line end, which silently
+    // truncated every multi-line field (sections, mark schemes, decisions) to
+    // its first line; `(?![\s\S])` is the end-of-input assertion JS lacks.
+    const matcher = /^##[ \t]*(.+?)[ \t]*\r?\n([\s\S]*?)(?=\r?\n##[ \t]|(?![\s\S]))/gm
     let match: RegExpExecArray | null
     while ((match = matcher.exec(document))) result[normalize(match[1])] = match[2].trim()
     if (h1 && normalize(h1) !== 'item' && !result.title) result.title = h1

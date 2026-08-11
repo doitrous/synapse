@@ -1,4 +1,9 @@
-import type { ContentKind, ManagedContentItem, QuestionAnswerDraft, AnswerLabel } from './contentControl'
+import type {
+  ContentKind, ManagedContentItem, QuestionAnswerDraft, AnswerLabel, ArticleArchetype,
+  ActorBriefSectionDraft, PracticalMarkSectionDraft, PracticalAnswerDraft,
+  ClinicalDecisionDraft, LabQuestionDraft, PracticalAuthoringData,
+} from './contentControl'
+import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates'
 
 export interface ImportFieldDefinition {
   key: string
@@ -76,6 +81,12 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'module', label: 'Module ID(s)', help: 'Module(s) this article sits under.' },
       { key: 'subtopic', label: 'Subtopic ID', help: 'Subtopic ID (SUB_*).' },
       { key: 'microtopic', label: 'Microtopic ID', help: 'Microtopic ID (MIC_*).' },
+      { key: 'template_id', label: 'Article template', help: `Which article template this follows: ${ARTICLE_TEMPLATE_IDS.join(', ')}. Sets the expected section headings.` },
+      { key: 'archetype', label: 'Archetype', help: 'Derived from the template when omitted. One of condition, presentation, concept, anatomy, drug, skill, investigation, organism, emergency, public-health.' },
+      { key: 'learner_stage', label: 'Learner stage', help: 'Who this is written for, e.g. "Years 1–3 foundation" or "Years 4–6 clinical".' },
+      { key: 'high_yield', label: 'High-yield band', help: 'Core, High, or Supplementary. Defaults to Core.' },
+      { key: 'primary_node_id', label: 'Canonical node ID', help: 'Primary placement in the canonical medical taxonomy (e.g. SYS-CVS-T01). Derived from the subject/topic crosswalk when omitted.' },
+      { key: 'secondary_node_ids', label: 'Secondary node IDs', help: 'Other valid canonical placements across the four views, separated by |, ; or new lines.' },
       { key: 'related_concepts', label: 'Related concepts', help: 'Concept IDs discussed by this article.' },
       { key: 'question_ids', label: 'Question IDs', help: 'Canonical question IDs that test this article.' },
       { key: 'resource_ids', label: 'Resource IDs', help: 'Canonical resources that teach this article.' },
@@ -141,6 +152,140 @@ export function parseSections(value = ''): Array<{ id: string; heading: string; 
   return out.map((s) => ({ ...s, body: s.body.trim() })).filter((s) => s.heading || s.body)
 }
 
+/**
+ * Split on new lines only.
+ *
+ * The structured practical blocks below carry prose that legitimately contains
+ * "|" and ";", so they cannot use `splitImportList`, which treats both as list
+ * separators.
+ */
+const importLines = (value = '') => value.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)
+
+export const PRACTICAL_TYPES = ['OSCE station', 'Clinical case', 'Skills checklist', 'Lab interpretation', 'Imaging interpretation'] as const
+export type PracticalType = (typeof PRACTICAL_TYPES)[number]
+
+/** Parse "Label: content" lines into an actor brief. */
+export function parseActorSections(value = ''): ActorBriefSectionDraft[] {
+  return importLines(value)
+    .map((line, index) => {
+      const [label, ...rest] = line.split(':')
+      return { id: `actor-imp-${index}`, label: label.trim(), content: rest.join(':').trim() }
+    })
+    .filter((section) => section.label && section.content)
+}
+
+/** Parse "Section (marks): item" lines, grouping repeated section titles. */
+export function parseMarkSections(value = ''): PracticalMarkSectionDraft[] {
+  const sections: PracticalMarkSectionDraft[] = []
+  importLines(value).forEach((line, index) => {
+    const match = line.match(/^(.*?)\s*(?:\((\d+)\))?\s*:\s*(.+)$/)
+    if (!match) return
+    const title = match[1].trim()
+    const text = match[3].trim()
+    if (!title || !text) return
+    const marks = Number(match[2] ?? '')
+    let section = sections.find((entry) => entry.title === title)
+    if (!section) {
+      section = { id: `mark-imp-${sections.length}`, title, marks: Number.isFinite(marks) ? marks : 0, items: [] }
+      sections.push(section)
+    } else if (Number.isFinite(marks) && !section.marks) {
+      section.marks = marks
+    }
+    section.items.push({ id: `mark-item-imp-${index}`, text })
+  })
+  return sections
+}
+
+type BlockField = 'context' | 'question' | 'rationale' | 'explanation' | 'media'
+
+const BLOCK_LABELS: Record<string, BlockField> = { q: 'question', rationale: 'rationale', explanation: 'explanation', media: 'media' }
+
+/**
+ * Parse one `### heading` block into its labelled parts.
+ *
+ * A label's value runs until the next label or option line, so `Rationale:` and
+ * `Q:` may wrap across several lines without their continuation falling back
+ * into the block's context. Lines before the first label are the context.
+ */
+function parseLabelledBlock(body = '') {
+  const parts: Record<BlockField, string[]> = { context: [], question: [], rationale: [], explanation: [], media: [] }
+  const answers: PracticalAnswerDraft[] = []
+  let current: BlockField = 'context'
+  importLines(body).forEach((line, index) => {
+    const option = line.match(/^\*(=)?\s+(.+)$/)
+    if (option) {
+      answers.push({ id: `pa-imp-${index}`, text: option[2].trim(), explanation: '', correct: Boolean(option[1]) })
+      return
+    }
+    const label = line.match(/^(Q|Rationale|Explanation|Media)\s*:\s*(.*)$/i)
+    if (label) {
+      current = BLOCK_LABELS[label[1].toLowerCase()]
+      if (label[2].trim()) parts[current].push(label[2].trim())
+      return
+    }
+    parts[current].push(line)
+  })
+  return {
+    context: parts.context.join('\n').trim(),
+    question: parts.question.join(' ').trim(),
+    rationale: parts.rationale.join(' ').trim(),
+    explanation: parts.explanation.join(' ').trim(),
+    mediaUrl: parts.media.join('').trim(),
+    answers,
+  }
+}
+
+/** Parse "### title / Q: / * options / Rationale:" blocks into case decisions. */
+export function parseDecisions(value = ''): ClinicalDecisionDraft[] {
+  return parseSections(value)
+    .map((section, index) => {
+      const block = parseLabelledBlock(section.body)
+      return { id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question, answers: block.answers, rationale: block.rationale }
+    })
+    .filter((decision) => decision.question && decision.answers.length)
+}
+
+/** Parse "### stem / Q: / * options / Explanation:" blocks into interpretation questions. */
+export function parseLabQuestions(value = ''): LabQuestionDraft[] {
+  return parseSections(value)
+    .map((section, index) => {
+      const block = parseLabelledBlock(section.body)
+      // The heading is the stem; any prose before `Q:` extends it.
+      const context = [section.heading, block.context].filter(Boolean).join('\n')
+      return { id: `lab-imp-${index}`, context, question: block.question, mediaUrl: block.mediaUrl, answers: block.answers, explanation: block.explanation }
+    })
+    .filter((question) => question.question && question.answers.length)
+}
+
+/**
+ * Build the runnable practical record.
+ *
+ * `PracticalRunner` reads `practicalData`, not the flat `fields` strings, so an
+ * imported practical is only usable once this returns the right shape.
+ */
+export function practicalDataFrom(values: Record<string, string>): PracticalAuthoringData {
+  const type = values.type?.trim()
+  const references = importLines(values.references)
+  if (type === 'Clinical case') {
+    return { format: 'case', decisions: parseDecisions(values.decisions), debrief: values.debrief?.trim() ?? '', references }
+  }
+  if (type === 'Lab interpretation' || type === 'Imaging interpretation') {
+    const subtype = values.lab_subtype?.trim() === 'Imaging' || type === 'Imaging interpretation' ? 'Imaging' : 'Lab'
+    return { format: 'lab', subtype, questions: parseLabQuestions(values.lab_questions), references }
+  }
+  // OSCE station and Skills checklist share the mark-scheme shape; a checklist
+  // simply has no actor brief.
+  return {
+    format: 'osce',
+    candidateInstructions: values.candidate_instructions?.trim() ?? '',
+    actorOpening: values.actor_opening?.trim() ?? '',
+    actorSections: parseActorSections(values.actor_sections),
+    actorFlags: importLines(values.actor_flags),
+    markSections: parseMarkSections(values.mark_scheme),
+    references,
+  }
+}
+
 /** Parse "YEAR_ID=weight | OTHER=weight" into a { yearId: number } map (0–1). */
 export function parseWeightMap(value = ''): Record<string, number> {
   const out: Record<string, number> = {}
@@ -165,6 +310,38 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
     const answer = values.correct_answer?.trim().toUpperCase()
     if (answer && !/^[A-F]$/.test(answer)) errors.push('Correct answer must be A–F')
     if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
+  }
+  if (kind === 'article') {
+    const templateId = values.template_id?.trim()
+    if (templateId && !ARTICLE_TEMPLATE_IDS.includes(canonicalTemplateId(templateId))) {
+      errors.push(`Article template must be one of ${ARTICLE_TEMPLATE_IDS.join(', ')}`)
+    }
+    const archetype = values.archetype?.trim()
+    if (archetype && !ARTICLE_TEMPLATES.some((template) => template.archetype === archetype)) {
+      errors.push(`Archetype must be one of ${ARTICLE_TEMPLATES.map((template) => template.archetype).join(', ')}`)
+    }
+  }
+  if (kind === 'practical') {
+    const type = values.type?.trim()
+    if (type && !PRACTICAL_TYPES.includes(type as PracticalType)) {
+      errors.push(`Practical type must be one of ${PRACTICAL_TYPES.join(', ')}`)
+    }
+    const data = practicalDataFrom(values)
+    if (data.format === 'case') {
+      if (!data.decisions.length) errors.push('Clinical case needs at least one decision with a "Q:" line and "*" options')
+      data.decisions.forEach((decision, index) => {
+        if (!decision.answers.some((answer) => answer.correct)) errors.push(`Decision ${index + 1} (${decision.title || 'untitled'}) has no correct option marked with "*="`)
+      })
+    }
+    if (data.format === 'lab') {
+      if (!data.questions.length) errors.push('Interpretation set needs at least one question with a "Q:" line and "*" options')
+      data.questions.forEach((question, index) => {
+        if (!question.answers.some((answer) => answer.correct)) errors.push(`Interpretation question ${index + 1} has no correct option marked with "*="`)
+      })
+    }
+    if (data.format === 'osce' && type === 'OSCE station' && !data.markSections.length) {
+      errors.push('OSCE station needs a mark scheme as "Section (marks): item" lines')
+    }
   }
   return errors
 }
@@ -210,9 +387,18 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       const [uni, ...rest] = line.split(':')
       return { id: `unote-import-${i}`, universityId: uni.trim(), text: rest.join(':').trim() }
     }).filter((n) => n.universityId && n.text)
-    return { ...base, fields: { Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5', 'Key point': splitImportList(values.hold_these)[0] || '' }, articleData: { summary: values.summary || '', body, sections, holdThese: splitImportList(values.hold_these), loseTheMark: splitImportList(values.lose_the_mark), questionIds: splitImportList(values.question_ids), resourceIds: splitImportList(values.resource_ids), annotations: [], universityIds: splitImportList(values.universities), yearIds: splitImportList(values.years), moduleIds: splitImportList(values.module), subtopicId: values.subtopic || undefined, microtopicId: values.microtopic || undefined, relatedConceptIds: splitImportList(values.related_concepts), universityNotes } }
+    const templateId = values.template_id?.trim() ? canonicalTemplateId(values.template_id.trim()) : undefined
+    const archetype = (values.archetype?.trim() || ARTICLE_TEMPLATES.find((template) => template.id === templateId)?.archetype) as ArticleArchetype | undefined
+    const highYield = ['Core', 'High', 'Supplementary'].includes(values.high_yield) ? values.high_yield as 'Core' | 'High' | 'Supplementary' : 'Core'
+    return { ...base, fields: { Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5', 'Key point': splitImportList(values.hold_these)[0] || '', 'Template ID': templateId || '', Archetype: archetype || '' }, articleData: { summary: values.summary || '', body, sections, holdThese: splitImportList(values.hold_these), loseTheMark: splitImportList(values.lose_the_mark), questionIds: splitImportList(values.question_ids), resourceIds: splitImportList(values.resource_ids), annotations: [], universityIds: splitImportList(values.universities), yearIds: splitImportList(values.years), moduleIds: splitImportList(values.module), subtopicId: values.subtopic || undefined, microtopicId: values.microtopic || undefined, relatedConceptIds: splitImportList(values.related_concepts), universityNotes, templateId, archetype, learnerStage: values.learner_stage?.trim() || undefined, highYield, primaryNodeId: values.primary_node_id?.trim() || undefined, secondaryNodeIds: splitImportList(values.secondary_node_ids) } }
   }
-  if (kind === 'practical') return { ...base, fields: { Type: values.type || 'OSCE station', Duration: values.duration || '8', Marks: values.marks || '20', Difficulty: values.difficulty || 'Moderate', 'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', References: values.references || '' } }
+  if (kind === 'practical') {
+    return {
+      ...base,
+      fields: { Type: values.type || 'OSCE station', Duration: values.duration || '8', Marks: values.marks || '20', Difficulty: values.difficulty || 'Moderate', 'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', References: values.references || '' },
+      practicalData: practicalDataFrom(values),
+    }
+  }
   return {
     ...base,
     fields: { Type: values.type || 'Article', Source: values.source || '', URL: values.url || '', Year: values.year || '', Topics: values.topics || '', Chapter: values.chapter || '', 'Included concepts': values.included_concepts || '', 'Included articles': values.included_articles || '', Description: values.description || '' },

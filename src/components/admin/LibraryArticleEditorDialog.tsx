@@ -22,6 +22,7 @@ import { ChapterMark } from '@/components/ui/ChapterMark'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { MedicalTaxonomyPlacementPicker } from '@/components/admin/MedicalTaxonomyPlacementPicker'
+import { canonicalPlacementFor } from '@/data/taxonomyCrosswalk'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
@@ -234,7 +235,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               <p className="mb-3 text-[10.5px] leading-relaxed text-ink-3">Optional compatibility placement for an existing university module. The canonical medical placement above remains the article's main home.</p>
               <div className="space-y-3">
                 <Field label="Subject" htmlFor="article-subject"><Select id="article-subject" value={draft.subjectId} onChange={(event) => setDraft((current) => ({ ...current, subjectId: event.target.value, fields: { ...current.fields, Topic: '' } }))}>{subjects.map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</Select></Field>
-                <Field label="Chapter (Topic)" htmlFor="article-topic"><Select id="article-topic" value={draft.fields.Topic ?? ''} onChange={(event) => { setDraft((current) => ({ ...current, fields: { ...current.fields, Topic: event.target.value } })); updateData((current) => ({ ...current, subtopicId: undefined, microtopicId: undefined, nanotopicId: undefined })) }}><option value="">— None —</option>{sysNode?.topics.map((tp) => <option key={tp.id} value={tp.title}>{tp.title}</option>)}{draft.fields.Topic && !sysNode?.topics.some((tp) => tp.title === draft.fields.Topic) && <option value={draft.fields.Topic}>{draft.fields.Topic} (legacy)</option>}</Select></Field>
+                <Field label="Chapter (Topic)" htmlFor="article-topic"><Select id="article-topic" value={draft.fields.Topic ?? ''} onChange={(event) => { const topicTitle = event.target.value; const topicNode = sysNode?.topics.find((tp) => tp.title === topicTitle); const derived = topicNode ? canonicalPlacementFor(topicNode.id) : undefined; setDraft((current) => ({ ...current, fields: { ...current.fields, Topic: topicTitle } })); updateData((current) => ({ ...current, subtopicId: undefined, microtopicId: undefined, nanotopicId: undefined, ...(derived && !current.primaryNodeId ? { primaryNodeId: derived.primaryNodeId, secondaryNodeIds: [...new Set([...(current.secondaryNodeIds ?? []), ...derived.secondaryNodeIds])] } : {}) })) }}><option value="">— None —</option>{sysNode?.topics.map((tp) => <option key={tp.id} value={tp.title}>{tp.title}</option>)}{draft.fields.Topic && !sysNode?.topics.some((tp) => tp.title === draft.fields.Topic) && <option value={draft.fields.Topic}>{draft.fields.Topic} (legacy)</option>}</Select></Field>
               </div>
             </div>
 

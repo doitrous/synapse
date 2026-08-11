@@ -79,6 +79,63 @@ The taxonomy is not a claim that every branch already has publishable content. E
 
 Automated validation currently passes with no duplicate IDs, missing parents, cross-division parent links, invalid depths, duplicate sibling titles, or cycles. The validator is `scripts/validate-reviewed-medical-taxonomy.mjs`.
 
+## Authoring contract
+
+The rules above are now written down as templates authors and agents work from,
+in [`docs/authoring/`](authoring/README.md): the shared contract, plus one
+template each for Subjects & Topics, library articles, article archetypes,
+concepts, questions, and practicals. Each opens with a copy-paste prompt.
+
+Two pieces of code make those templates enforceable rather than advisory:
+
+- `src/data/articleTemplates.ts` defines every `TPL-*` ID the taxonomy
+  references. Before this, `templateId` and `slots` pointed at nothing.
+  `TPL-PUBLIC` (used on 101 blueprint rows) is retained as an alias of the
+  canonical `TPL-PUBLIC-HEALTH` (used on 10 reviewed rows).
+- `src/data/taxonomyCrosswalk.ts` binds the eight-subject runtime tree to this
+  blueprint — 8 subjects and 81 topics explicitly mapped, with subtopics refined
+  only where a canonical descendant matches unambiguously. Canonical placement
+  is derived, not typed twice.
+
+`npm run medical:validate:authoring` fails on a duplicate label, an unresolved
+cross-reference, an unmapped topic, or an undefined template ID.
+
+## De-duplication of the Subjects & Topics tree (2026-08-12)
+
+The anti-redundancy rule above was not being met by the runtime tree: 26 labels
+were declared in two or more subjects, and `Corticosteroids` was declared twice
+inside `pharm` alone. Several duplicates had drifted apart in wording — "Heart
+failure pharmacology" against "Heart failure drugs", "Dyspnoea and orthopnoea"
+against "Dyspnoea" — which is worse than an exact copy, because it hides the
+duplication from a reader.
+
+All 26 are resolved. A `crossRefs` field on systems and topics now carries the
+non-owning placements as links rather than second nodes.
+
+| Rule applied | Effect |
+|---|---|
+| Drug and therapeutic-class labels belong to `pharm` | The duplicated `Cardiovascular pharmacology` and `Gastrointestinal pharmacology` topics are removed from `cvs`/`gi`; `resp`, `renal`, `neuro`, `endo` and `msk` keep only their non-drug content. `pharm` absorbed the classes that existed only in a system subject (antitussives, pulmonary vascular drugs, nephrotoxic drugs, pituitary and adrenal drugs, hepatobiliary drugs, pancreatic enzyme replacement, drugs for gout, drugs for osteoporosis). |
+| One home per shared presentation | Chest pain → `cvs`; Dyspnoea → `resp`; Oedema → `cvs`; Cyanosis → `resp`. The others cross-reference. |
+| One home per shared label | Metabolic bone disease → `endo`; Computed tomography → `resp`; Analgesics → `pharm`. |
+| Disambiguate where the meaning differs | "Developmental anomalies" became `Cardiac`/`Respiratory`/`Gastrointestinal`/`Neural developmental anomalies`; "Excitation–contraction coupling" became `Cardiac` and `Skeletal muscle` variants. These are different subject matter that happened to share a generic label. |
+| One label inside a subject | `pharm`'s two `Corticosteroids` entries and its separate `Glucocorticoids` entry merged into one node under Inflammation, immunity and cancer pharmacology, cross-referenced from the respiratory and renal/endocrine topics. |
+
+Renamed topics: `Renal pharmacology and replacement therapy` → **Renal
+replacement therapy**; `Neurological investigations and pharmacology` →
+**Neurological investigations**; `Endocrine pharmacology and emergencies` →
+**Endocrine emergencies**; `Musculoskeletal pharmacology and skills` →
+**Musculoskeletal skills**. Each shed the drug classes that `pharm` owns and kept
+what is genuinely its own.
+
+No published record was orphaned: `npm run medical:build && npm run medical:audit`
+passes with 145 articles and 1,718 concepts and no errors.
+
+Rebuilding also brought `server/data/medical-library-v1.json` back in line with the
+current audit. The committed artifact predated the move to prose articles and
+still carried a generated "Components and relations" section on all 145 articles,
+which the field audit now rejects; the rebuilt artifact drops those 145 sections
+and keeps all 480 narrative bodies intact.
+
 ## Reference basis
 
 - [Egyptian National Academic Reference Standards — Medicine, 2nd edition (2017)](https://admin.naqaae.eg/api/v1/archive/download/4719): the Egyptian minimum is competency-based and covers the graduate as healthcare provider, health promoter, professional, scholar/scientist, health-team member, and lifelong learner/researcher.
