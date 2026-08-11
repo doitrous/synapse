@@ -1,9 +1,12 @@
 export interface LibBlock {
-  type: 'p' | 'h' | 'list' | 'callout' | 'fact'
+  /** `sources` is a divider: every `fact` after it belongs to the Sources section. */
+  type: 'p' | 'h' | 'list' | 'callout' | 'fact' | 'sources'
   text?: string
   items?: string[]
   title?: string
   tone?: 'accent' | 'warning'
+  /** Number of verified facts listed under a `sources` divider. */
+  count?: number
   /** Stable evidence anchor and all claims/citations supporting this fact. */
   spanId?: string
   claimIds?: string[]

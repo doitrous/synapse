@@ -42,7 +42,7 @@ import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type
 import { apiOpenFile } from '@/lib/api'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
-import { AtlasNavigation, LibraryLanding, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
+import { AtlasNavigation, LibraryLanding, LibraryViewTabs, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
 
 function Highlight({ text, query }: { text: string; query: string }) {
   const q = query.trim()
@@ -277,6 +277,18 @@ function Blocks({ blocks, query, onEvidence }: { blocks: LibBlock[]; query: stri
                 </li>
               ))}
             </ul>
+          )
+        if (b.type === 'sources')
+          return (
+            <div key={i} className="mt-10 border-t border-line pt-5">
+              <div className="flex items-center gap-2">
+                <Icon icon={Database} size={16} className="text-accent" />
+                <h2 className="font-serif text-[19px] font-semibold tracking-[-0.01em] text-ink">Sources</h2>
+              </div>
+              <p className="mt-1 text-[12px] text-ink-3">
+                {b.count ?? 0} verified fact{b.count === 1 ? '' : 's'} behind this article. Select one to see its exact source pages.
+              </p>
+            </div>
           )
         if (b.type === 'fact')
           return (
@@ -748,16 +760,19 @@ export function Library() {
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
-        <button type="button" className="inline-flex items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="font-serif text-[16px] font-semibold text-ink">{t('Library')}</span></button>
-        {view !== 'home' && <><Icon icon={ChevronRight} size={12} className="text-ink-3" /><span className="hidden text-[11.5px] text-ink-3 sm:inline">{view === 'system' ? 'Systems & General' : view === 'discipline' ? 'By Discipline' : view === 'skills' ? 'Clinical Skills' : view === 'knowledge' ? 'Clinical Knowledge' : 'My Curriculum'}</span></>}
-        {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="ms-auto xl:hidden">{t('Browse topics')}</Button>}
-        <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className={view === 'home' ? 'ms-auto' : 'xl:ms-auto'}>{t('New article')}</Button>
+        <button type="button" className="inline-flex shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
+        <span className="hidden h-5 w-px shrink-0 bg-line sm:block" />
+        {/* Too narrow for six tabs on a phone — the Browse topics drawer carries them there. */}
+        <LibraryViewTabs view={view} onViewChange={changeView} className="max-sm:hidden" />
+        <span className="flex-1 sm:hidden" />
+        {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
+        <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="shrink-0">{t('New article')}</Button>
       </header>
 
       <div className="min-h-0 flex-1">
         {view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} universityCount={universityCatalogue.length} yearCount={yearCount} onOpenView={openView} onOpenArticle={openArticle} /> : (
-          <div className="grid h-full min-h-0 grid-cols-[18rem_minmax(0,1fr)] max-xl:grid-cols-[18rem_minmax(0,1fr)] max-lg:grid-cols-1 xl:grid-cols-[13rem_18rem_minmax(0,1fr)]">
-            <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onViewChange={changeView} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>
+          <div className="grid h-full min-h-0 grid-cols-[18rem_minmax(0,1fr)] max-lg:grid-cols-1">
+            <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>
             <main className="min-w-0 overflow-y-auto">
               {selectedUserArticle ? (
           <UserReader
@@ -790,7 +805,7 @@ export function Library() {
 
       {/* Mobile navigator */}
       {treeOpen && (
-        <div className="fixed inset-0 z-40 xl:hidden">
+        <div className="fixed inset-0 z-40 lg:hidden">
           <div className="absolute inset-0 bg-ink/30 animate-fade" onClick={() => setTreeOpen(false)} />
           <div className="animate-slide-x absolute inset-y-0 start-0 flex w-[min(22rem,90vw)] flex-col bg-surface shadow-pop">
             <div className="flex h-12 items-center justify-between border-b border-line px-4">
@@ -799,7 +814,8 @@ export function Library() {
                 <Icon icon={X} size={18} />
               </button>
             </div>
-            <div className="grid min-h-0 flex-1 grid-cols-1"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onViewChange={(next) => { changeView(next); if (next === 'home') setTreeOpen(false) }} onNodeSelect={(nodeId) => { selectNode(nodeId); setTreeOpen(false) }} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} /></div>
+            <div className="border-b border-line px-2 py-2"><LibraryViewTabs view={view} onViewChange={(next) => { changeView(next); if (next === 'home') setTreeOpen(false) }} /></div>
+            <div className="grid min-h-0 flex-1 grid-cols-1"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onNodeSelect={(nodeId) => { selectNode(nodeId); setTreeOpen(false) }} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} /></div>
           </div>
         </div>
       )}

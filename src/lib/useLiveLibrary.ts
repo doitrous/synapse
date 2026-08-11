@@ -63,16 +63,30 @@ function overlaySubtopic(sub: Subtopic, item: ManagedContentItem | undefined): S
 function articleToSubtopic(item: ManagedContentItem, evidence: MedicalEvidenceStore): Subtopic {
   const d = item.articleData
   const isEvidenceGated = Boolean(d?.publishedSections)
+  // The generated "Components and relations" section is a machine listing of
+  // concepts and relations, not reading material. It never reaches the reader.
   const sections = (d?.publishedSections ?? d?.sections ?? [])
-    .filter((s) => s.heading?.trim() || s.body?.trim())
+    .filter((s) => s.kind !== 'components')
+    .filter((s) => s.heading?.trim() || s.narrative?.trim() || s.body?.trim())
     .filter((s) => !/^Evidence not yet available/i.test(s.body.trim()))
-    .sort((a, b) => (a.kind === 'components' ? 1 : 0) - (b.kind === 'components' ? 1 : 0))
   const blocks: LibBlock[] = []
+  // Facts are collected as we go and listed once, under Sources, at the end —
+  // so the article reads as prose rather than as a column of sourced sentences.
+  const sourceBlocks: LibBlock[] = []
+  let hasNarrative = false
   sections.forEach((s) => {
     if (s.heading?.trim()) blocks.push({ type: 'h', text: s.heading.trim() })
     const spans = (s.spanIds ?? []).map((id) => evidence.articleSpans.find((span) => span.id === id)).filter(Boolean)
-    if (spans.length) {
-      spans.forEach((span) => blocks.push({ type: 'fact', text: span!.text, spanId: span!.id, claimIds: span!.claimIds, citationIds: span!.citationIds }))
+    const facts: LibBlock[] = spans.map((span) => ({ type: 'fact', text: span!.text, spanId: span!.id, claimIds: span!.claimIds, citationIds: span!.citationIds }))
+    if (s.narrative?.trim()) {
+      // Reviewed narrative prose: read the article, then check its sources.
+      hasNarrative = true
+      blocks.push(...bodyToBlocks(s.narrative))
+      sourceBlocks.push(...facts)
+    } else if (facts.length) {
+      // No prose written for this section yet — keep the verified facts inline
+      // rather than dropping content a student can already read.
+      blocks.push(...facts)
     } else if (!(s.spanIds?.length) && s.body?.trim()) {
       // Never fall back to draft prose when its named evidence spans are absent
       // from the publication-gated evidence store.
@@ -84,15 +98,20 @@ function articleToSubtopic(item: ManagedContentItem, evidence: MedicalEvidenceSt
     const short = universities.find((u) => u.id === n.universityId)?.short ?? n.universityId
     blocks.push({ type: 'callout', tone: 'accent', title: `${short} only`, text: n.text!.trim() })
   })
+  if (sourceBlocks.length) blocks.push({ type: 'sources', count: sourceBlocks.length }, ...sourceBlocks)
+  const authoredKeyPoints = (d?.holdThese ?? []).filter(Boolean)
+  // `blocks` already contains sourceBlocks by this point — reading both would
+  // repeat every fact, and key points are rendered keyed by their own text.
+  const factKeyPoints = blocks.filter((block) => block.type === 'fact').map((block) => block.text ?? '').filter(Boolean).slice(0, 5)
   return {
     id: item.id,
     title: item.title,
     readingMin: Number(item.fields['Reading time']) || 6,
     summary: d?.publishedSummary || d?.summary || item.fields.Summary || '',
     blocks,
-    keyPoints: isEvidenceGated
-      ? blocks.filter((block) => block.type === 'fact').map((block) => block.text ?? '').filter(Boolean).slice(0, 5)
-      : (d?.holdThese ?? []).filter(Boolean),
+    // Prefer the authored key points once an article has reviewed prose; before
+    // that, the verified facts are the only student-safe summary available.
+    keyPoints: isEvidenceGated && !hasNarrative ? factKeyPoints : (authoredKeyPoints.length ? authoredKeyPoints : factKeyPoints),
     questions: [],
     resources: (d?.resourceIds ?? []).filter((id) => evidence.resources.some((resource) => resource.id === id)).map((id) => evidence.resources.find((resource) => resource.id === id)?.title ?? id),
     updatedAt: item.updatedAt,

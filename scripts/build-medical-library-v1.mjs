@@ -206,50 +206,28 @@ const claimQualifies = (claimId) => {
 }
 const spanQualifies = (span) => Boolean(span?.claim_ids?.length && span.claim_ids.every(claimQualifies))
 const publishableSpanIds = new Set(bundle.article_spans.filter(spanQualifies).map((span) => span.id))
-const articleHasPublishableSpan = new Map(bundle.articles.map((article) => [
-  article.id,
-  (articleSpansByArticle.get(article.id) || []).some((span) => publishableSpanIds.has(span.id)),
-]))
-
 const readableSectionsFor = (article) => {
   const spans = articleSpansByArticle.get(article.id) || []
   const stripMarkers = (value = '') => value.replace(/<!--\s*\/?evidence:[\s\S]*?-->/g, '').replace(/\n{3,}/g, '\n\n').trim()
-  return (article.sections || []).map((section) => ({
-    id: section.id,
-    heading: section.heading,
-    body: stripMarkers(section.body),
-    kind: section.heading === 'Components and relations' ? 'components' : 'content',
-    spanIds: spans.filter((span) => span.section_id === section.id).map((span) => span.id),
-  }))
+  // "Components and relations" is a machine listing of concepts and relations,
+  // not reading material. It is no longer carried into the article.
+  return (article.sections || [])
+    .filter((section) => section.heading !== 'Components and relations')
+    .map((section) => ({
+      id: section.id,
+      heading: section.heading,
+      body: stripMarkers(section.body),
+      kind: 'content',
+      spanIds: spans.filter((span) => span.section_id === section.id).map((span) => span.id),
+    }))
 }
 
 const publishedSectionsFor = (article, sections) => {
-  const publishableSpans = (articleSpansByArticle.get(article.id) || []).filter((span) => publishableSpanIds.has(span.id))
-  const representedConceptIds = new Set(publishableSpans.flatMap((span) => span.claim_ids.map((id) => claimsById.get(id)?.concept_id).filter(Boolean)))
   const content = sections
-    .filter((section) => section.kind !== 'components')
     .map((section) => ({ ...section, body: '', spanIds: (section.spanIds || []).filter((id) => publishableSpanIds.has(id)) }))
     .filter((section) => section.spanIds.length)
   if (!content.length) return []
-
-  const concepts = bundle.concepts.filter((concept) => representedConceptIds.has(concept.id))
-  const relationCount = (conceptId) => (bundle.concept_relations || []).filter((relation) => relation.source_concept_id === conceptId || relation.target_concept_id === conceptId).length
-  const related = [...new Set([...(article.related_article_ids || []), ...(relatedArticles[article.id] || [])])]
-    .filter((articleId) => articleHasPublishableSpan.get(articleId))
-  const components = {
-    id: `${article.id.toLowerCase()}-published-components-and-relations`,
-    heading: 'Components and relations',
-    kind: 'components',
-    spanIds: [],
-    body: [
-      'Verified concepts in this article:',
-      ...concepts.map((concept) => `- ${concept.label} · ${concept.id} · ${(concept.resource_ids || []).length} source${(concept.resource_ids || []).length === 1 ? '' : 's'} · ${relationCount(concept.id)} reviewed relation${relationCount(concept.id) === 1 ? '' : 's'}`),
-      '',
-      'Related published articles:',
-      ...(related.length ? related.map((id) => `- ${bundle.articles.find((entry) => entry.id === id)?.title || id} · ${id}`) : ['- None yet.']),
-    ].join('\n'),
-  }
-  return [...content, components]
+  return content
 }
 
 const publicationGateFor = (article) => {
@@ -688,8 +666,8 @@ const coverageData = {
 if (data.report.absolutePathsExposed) throw new Error('Sanitisation failed: an absolute authoring path remains in the launch package')
 if (data.report.universities !== 12 || data.report.years !== 84) throw new Error('University/year catalogue failed deterministic-count validation')
 if (data.report.articles !== bundle.articles.length || data.report.concepts !== bundle.concepts.length || data.report.claims !== bundle.claims.length) throw new Error('Reviewed full-catalog coverage count mismatch')
-if (articleItems.some((article) => article.articleData.sections.at(-1)?.kind !== 'components')) throw new Error('Every article must end with Components and relations')
-if (articleItems.some((article) => article.status === 'Published' && (!article.articleData.publishedSections?.length || article.articleData.publishedSections.at(-1)?.kind !== 'components'))) throw new Error('Every student-visible article must have a verified section projection ending with Components and relations')
+if (articleItems.some((article) => [...article.articleData.sections, ...(article.articleData.publishedSections || [])].some((section) => section.kind === 'components'))) throw new Error('A Components and relations section survived: articles must carry reading material only')
+if (articleItems.some((article) => article.status === 'Published' && !article.articleData.publishedSections?.length)) throw new Error('Every student-visible article must have a verified section projection')
 if (articleItems.some((article) => !article.owner || !article.articleData.reviewer || !article.articleData.finalPublisher)) throw new Error('Article governance fields are incomplete')
 if (concepts.some((concept) => !concept.owner || !concept.reviewer || !concept.finalPublisher || !concept.primaryNodeId || !concept.atomicClaimIds.length || !concept.resourceIds.length)) throw new Error('Concept identity, placement, evidence, resources, or governance fields are incomplete')
 if (concepts.some((concept) => concept.publicationStatus === 'published' && concept.atomicClaimIds.some((claimId) => claims.find((claim) => claim.id === claimId)?.verificationStatus !== 'verified'))) throw new Error('A published concept contains an unverified claim')

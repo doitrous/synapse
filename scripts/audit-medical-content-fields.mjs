@@ -66,8 +66,8 @@ for (const article of articles) {
   for (const field of articleIntentionalBlanks) {
     if (!hasValue(article.articleData?.[field]) && !article.articleData?.fieldNotes?.[field]) errors.push(`${article.id}.${field} is blank without an explicit reason`)
   }
-  if (article.articleData.sections.at(-1)?.kind !== 'components') errors.push(`${article.id} does not end with Components and relations`)
-  if (article.status === 'Published' && (!article.articleData.publishedSections.length || article.articleData.publishedSections.at(-1)?.kind !== 'components')) errors.push(`${article.id} has no safe student projection ending with Components and relations`)
+  if ([...article.articleData.sections, ...(article.articleData.publishedSections || [])].some((section) => section.kind === 'components')) errors.push(`${article.id} still carries a Components and relations section`)
+  if (article.status === 'Published' && !article.articleData.publishedSections.length) errors.push(`${article.id} has no safe student projection`)
 }
 
 const conceptIntentionalBlanks = ['arabicLabel', 'aliases', 'pitfalls', 'moduleIds', 'microtopicId', 'nanotopicId', 'approvedFileResourceIds', 'approvedVideoResourceIds', 'lastReviewed', 'reviewDue']

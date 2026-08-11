@@ -153,6 +153,56 @@ function TaxonomyBranch({ node, index, open, selectedNodeId, articleCounts, onTo
   )
 }
 
+/**
+ * The five library routes as a compact strip. Replaces the old fixed sidebar so a
+ * chosen view owns the full width of the page beneath it.
+ */
+export function LibraryViewTabs({
+  view,
+  onViewChange,
+  className,
+}: {
+  view: MedicalLibraryView
+  onViewChange: (view: MedicalLibraryView) => void
+  className?: string
+}) {
+  return (
+    <nav
+      aria-label="Medical library views"
+      className={cn('flex min-w-0 flex-1 items-center gap-1 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden', className)}
+    >
+      <button
+        type="button"
+        onClick={() => onViewChange('home')}
+        aria-current={view === 'home' ? 'page' : undefined}
+        className={cn(
+          'inline-flex h-8 shrink-0 items-center gap-1.5 rounded-lg px-2.5 text-[12px] font-medium transition-colors',
+          view === 'home' ? 'bg-accent-tint text-accent-strong' : 'text-ink-3 hover:bg-inset hover:text-ink',
+        )}
+      >
+        <Icon icon={Home} size={14} />
+        Home
+      </button>
+      {MEDICAL_LIBRARY_VIEWS.map((item) => (
+        <button
+          key={item.id}
+          type="button"
+          onClick={() => onViewChange(item.id)}
+          title={item.description}
+          aria-current={view === item.id ? 'page' : undefined}
+          className={cn(
+            'inline-flex h-8 shrink-0 items-center gap-1.5 rounded-lg px-2.5 text-[12px] font-medium transition-colors',
+            view === item.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
+          )}
+        >
+          <Icon icon={item.icon} size={14} />
+          {item.shortLabel}
+        </button>
+      ))}
+    </nav>
+  )
+}
+
 export function AtlasNavigation({
   taxonomy,
   articles,
@@ -161,7 +211,6 @@ export function AtlasNavigation({
   selectedArticleId,
   universityCount,
   yearCount,
-  onViewChange,
   onNodeSelect,
   onArticleSelect,
 }: {
@@ -172,7 +221,6 @@ export function AtlasNavigation({
   selectedArticleId?: string
   universityCount: number
   yearCount: number
-  onViewChange: (view: MedicalLibraryView) => void
   onNodeSelect: (nodeId: string) => void
   onArticleSelect: (articleId: string) => void
 }) {
@@ -207,20 +255,10 @@ export function AtlasNavigation({
   }
 
   return (
-    <div className="contents">
-      <aside className="hidden min-h-0 flex-col border-e border-line bg-surface-2/35 xl:flex">
-        <div className="flex h-12 items-center gap-2 border-b border-line px-3"><Icon icon={Layers3} size={15} className="text-accent" /><span className="font-serif text-[15px] font-semibold text-ink">Library views</span></div>
-        <nav className="space-y-1 p-2" aria-label="Medical library views">
-          <button type="button" onClick={() => onViewChange('home')} className="flex w-full items-center gap-2.5 rounded-lg px-2.5 py-2 text-[12px] font-medium text-ink-2 hover:bg-surface hover:text-ink"><Icon icon={Home} size={15} />Library home</button>
-          {MEDICAL_LIBRARY_VIEWS.map((item) => <button key={item.id} type="button" onClick={() => onViewChange(item.id)} className={cn('flex w-full items-center gap-2.5 rounded-lg px-2.5 py-2 text-start text-[12px] font-medium', view === item.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-surface hover:text-ink')}><Icon icon={item.icon} size={15} /><span className="min-w-0 flex-1 truncate">{item.shortLabel}</span></button>)}
-        </nav>
-        <div className="mt-auto border-t border-line px-3 py-3 text-[10.5px] leading-relaxed text-ink-3">{taxonomy.length.toLocaleString()} reviewed taxonomy nodes<br />{articles.length.toLocaleString()} published {articles.length === 1 ? 'article' : 'articles'}</div>
-      </aside>
-
-      <aside className="flex min-h-0 flex-col border-e border-line bg-surface">
-        <div className="border-b border-line p-3"><SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search this view…" /></div>
-        <div className="border-b border-line px-3 py-2.5"><p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{MEDICAL_LIBRARY_VIEWS.find((item) => item.id === view)?.label}</p><p className="mt-1 text-[10.5px] text-ink-3">{view === 'curriculum' ? `${universityCount} universities · ${yearCount} years` : `${roots.length} roots · ${taxonomy.filter((node) => node.division === view).length.toLocaleString()} nodes`}</p></div>
-        <div className="min-h-0 flex-1 overflow-y-auto p-2">
+    <aside className="flex min-h-0 flex-col border-e border-line bg-surface">
+      <div className="border-b border-line p-3"><SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search this view…" /></div>
+      <div className="border-b border-line px-3 py-2.5"><p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{MEDICAL_LIBRARY_VIEWS.find((item) => item.id === view)?.label}</p><p className="mt-1 text-[10.5px] text-ink-3">{view === 'curriculum' ? `${universityCount} universities · ${yearCount} years` : `${roots.length} roots · ${taxonomy.filter((node) => node.division === view).length.toLocaleString()} nodes`}</p></div>
+      <div className="min-h-0 flex-1 overflow-y-auto p-2">
           {view === 'curriculum' ? <div className="rounded-lg border border-line bg-surface-2/50 p-3"><p className="text-[12.5px] font-semibold text-ink">Curriculum mapping is ready</p><p className="mt-1.5 text-[11.5px] leading-relaxed text-ink-3">Published articles appear here only after a university, year, and module are explicitly assigned. No placement is guessed.</p></div> : deferredQuery.trim() ? (
             <div className="space-y-3">
               {articleResults.length > 0 && <div><p className="px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.06em] text-ink-3">Articles</p>{articleResults.map((article) => <button key={article.id} type="button" onClick={() => onArticleSelect(article.id)} className={cn('w-full rounded-md px-2 py-2 text-start text-[12px] hover:bg-inset', selectedArticleId === article.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2')}>{article.title}</button>)}</div>}
@@ -228,9 +266,9 @@ export function AtlasNavigation({
               {articleResults.length === 0 && nodeResults.length === 0 && <p className="px-2 py-6 text-center text-[12px] text-ink-3">No result in this view.</p>}
             </div>
           ) : <ul>{roots.map((root) => <TaxonomyBranch key={root.id} node={root} index={index} open={open} selectedNodeId={selectedNodeId} articleCounts={articleCounts} onToggle={(nodeId) => setOpen((current) => { const next = new Set(current); if (next.has(nodeId)) next.delete(nodeId); else next.add(nodeId); return next })} onSelect={selectNode} />)}</ul>}
-        </div>
-      </aside>
-    </div>
+      </div>
+      <div className="border-t border-line px-3 py-2.5 text-[10.5px] leading-relaxed text-ink-3">{taxonomy.length.toLocaleString()} reviewed taxonomy nodes<br />{articles.length.toLocaleString()} published {articles.length === 1 ? 'article' : 'articles'}</div>
+    </aside>
   )
 }
 

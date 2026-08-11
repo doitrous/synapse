@@ -14,7 +14,17 @@ export interface ArticleSection {
   heading: string
   /** Free-text body for the section. */
   body: string
-  /** Content sections render first; the components section is always placed last. */
+  /**
+   * Reviewed narrative prose for the student projection. `body` remains the admin
+   * draft: the reader shows `narrative` when it exists so an article reads as an
+   * article, and its verified facts move to the Sources section at the end.
+   */
+  narrative?: string
+  /**
+   * `components` marks the generated concepts-and-relations listing. It is no
+   * longer produced or shown to students; the tag remains only so existing
+   * records can be recognised and filtered out.
+   */
   kind?: 'content' | 'components'
   /** Stable evidence spans inside this section. */
   spanIds?: string[]
