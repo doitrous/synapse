@@ -34,7 +34,7 @@ const articlePopulated = [
   'articleData.claimIds', 'articleData.spanIds', 'articleData.notes', 'articleData.fieldNotes',
 ]
 const articlePresent = [
-  'articleData.holdThese', 'articleData.loseTheMark', 'articleData.questionIds', 'articleData.moduleIds', 'articleData.secondaryNodeIds',
+  'articleData.publishedSections', 'articleData.publishedSummary', 'articleData.holdThese', 'articleData.loseTheMark', 'articleData.questionIds', 'articleData.moduleIds', 'articleData.secondaryNodeIds',
   'articleData.subtopicId', 'articleData.microtopicId', 'articleData.nanotopicId', 'articleData.universityNotes', 'articleData.articleLevelSourceIds',
   'articleData.conflicts', 'articleData.evidenceGaps', 'articleData.media', 'articleData.lastReviewed', 'articleData.reviewDue',
 ]
@@ -67,6 +67,7 @@ for (const article of articles) {
     if (!hasValue(article.articleData?.[field]) && !article.articleData?.fieldNotes?.[field]) errors.push(`${article.id}.${field} is blank without an explicit reason`)
   }
   if (article.articleData.sections.at(-1)?.kind !== 'components') errors.push(`${article.id} does not end with Components and relations`)
+  if (article.status === 'Published' && (!article.articleData.publishedSections.length || article.articleData.publishedSections.at(-1)?.kind !== 'components')) errors.push(`${article.id} has no safe student projection ending with Components and relations`)
 }
 
 const conceptIntentionalBlanks = ['arabicLabel', 'aliases', 'pitfalls', 'moduleIds', 'microtopicId', 'nanotopicId', 'approvedFileResourceIds', 'approvedVideoResourceIds', 'lastReviewed', 'reviewDue']

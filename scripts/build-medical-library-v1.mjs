@@ -168,6 +168,35 @@ const relatedArticles = {
 const articleSpansByArticle = new Map()
 for (const span of bundle.article_spans) articleSpansByArticle.set(span.article_id, [...(articleSpansByArticle.get(span.article_id) || []), span])
 
+const resourceById = new Map(bundle.resources.map((resource) => [resource.id, resource]))
+const citationQualifies = (citationId) => {
+  const citation = citationsById.get(citationId)
+  const resource = citation ? resourceById.get(citation.resource_id) : undefined
+  return Boolean(
+    citation?.counts_as_claim_evidence
+    && citation.locator
+    && resource
+    && resource.qualification?.eligible !== false
+    && !/quarantin/i.test(resource.processing_status || ''),
+  )
+}
+const claimQualifies = (claimId) => {
+  const claim = claimsById.get(claimId)
+  return Boolean(
+    claim
+    && claim.verification_status === 'verified'
+    && claim.risk_class !== 'treatment_or_action'
+    && claim.conflict_status !== 'conflicted'
+    && (claim.citation_ids || []).some(citationQualifies),
+  )
+}
+const spanQualifies = (span) => Boolean(span?.claim_ids?.length && span.claim_ids.every(claimQualifies))
+const publishableSpanIds = new Set(bundle.article_spans.filter(spanQualifies).map((span) => span.id))
+const articleHasPublishableSpan = new Map(bundle.articles.map((article) => [
+  article.id,
+  (articleSpansByArticle.get(article.id) || []).some((span) => publishableSpanIds.has(span.id)),
+]))
+
 const readableSectionsFor = (article) => {
   const spans = articleSpansByArticle.get(article.id) || []
   const stripMarkers = (value = '') => value.replace(/<!--\s*\/?evidence:[\s\S]*?-->/g, '').replace(/\n{3,}/g, '\n\n').trim()
@@ -178,6 +207,35 @@ const readableSectionsFor = (article) => {
     kind: section.heading === 'Components and relations' ? 'components' : 'content',
     spanIds: spans.filter((span) => span.section_id === section.id).map((span) => span.id),
   }))
+}
+
+const publishedSectionsFor = (article, sections) => {
+  const publishableSpans = (articleSpansByArticle.get(article.id) || []).filter((span) => publishableSpanIds.has(span.id))
+  const representedConceptIds = new Set(publishableSpans.flatMap((span) => span.claim_ids.map((id) => claimsById.get(id)?.concept_id).filter(Boolean)))
+  const content = sections
+    .filter((section) => section.kind !== 'components')
+    .map((section) => ({ ...section, body: '', spanIds: (section.spanIds || []).filter((id) => publishableSpanIds.has(id)) }))
+    .filter((section) => section.spanIds.length)
+  if (!content.length) return []
+
+  const concepts = bundle.concepts.filter((concept) => representedConceptIds.has(concept.id))
+  const relationCount = (conceptId) => (bundle.concept_relations || []).filter((relation) => relation.source_concept_id === conceptId || relation.target_concept_id === conceptId).length
+  const related = [...new Set([...(article.related_article_ids || []), ...(relatedArticles[article.id] || [])])]
+    .filter((articleId) => articleHasPublishableSpan.get(articleId))
+  const components = {
+    id: `${article.id.toLowerCase()}-published-components-and-relations`,
+    heading: 'Components and relations',
+    kind: 'components',
+    spanIds: [],
+    body: [
+      'Verified concepts in this article:',
+      ...concepts.map((concept) => `- ${concept.label} · ${concept.id} · ${(concept.resource_ids || []).length} source${(concept.resource_ids || []).length === 1 ? '' : 's'} · ${relationCount(concept.id)} reviewed relation${relationCount(concept.id) === 1 ? '' : 's'}`),
+      '',
+      'Related published articles:',
+      ...(related.length ? related.map((id) => `- ${bundle.articles.find((entry) => entry.id === id)?.title || id} · ${id}`) : ['- None yet.']),
+    ].join('\n'),
+  }
+  return [...content, components]
 }
 
 const publicationGateFor = (article) => {
@@ -191,7 +249,8 @@ const articleItems = bundle.articles.map((article) => {
   const place = legacyPlacementFor(article)
   const canonicalPlace = canonicalPlacementFor(article)
   const sortedSections = readableSectionsFor(article)
-  const publishable = article.status === 'published'
+  const publishedSections = publishedSectionsFor(article, sortedSections)
+  const publishable = publishedSections.length > 0
   const universityNotes = Object.entries(article.university_notes || {}).map(([name, text], index) => ({ id: `${article.id}-unote-${index + 1}`, universityId: name === 'Kasr Alainy' ? 'kau' : '', text }))
   const claimIds = (article.claim_annotations || []).flatMap((spanId) => spanById.get(spanId)?.claim_ids || [])
   const fieldNotes = {
@@ -224,6 +283,7 @@ const articleItems = bundle.articles.map((article) => {
       Archetype: article.archetype || '',
       'Evidence state': article.status,
       'Publication gate': article.publication_gate || '',
+      'Student release': publishable ? 'Verified spans only' : 'Not released',
       Reviewer: reviewer,
       Publisher: publisher,
     },
@@ -237,6 +297,10 @@ const articleItems = bundle.articles.map((article) => {
       summary: article.summary,
       body: sortedSections.map((section) => `${section.heading}\n${section.body}`).join('\n\n'),
       sections: sortedSections,
+      publishedSections,
+      publishedSummary: publishable
+        ? `A verified, source-linked selection from ${article.title}. Select any factual statement to inspect every supporting resource and exact locator.`
+        : '',
       holdThese: article.hold_these || [],
       loseTheMark: article.lose_the_mark || [],
       questionIds: article.question_ids || [],
@@ -499,9 +563,9 @@ const evidence = {
 }
 
 const publishedArticleIds = new Set(articleItems.filter((item) => item.status === 'Published').map((item) => item.id))
-const publishedArticleSpans = articleSpans.filter((span) => publishedArticleIds.has(span.articleId))
+const publishedArticleSpans = articleSpans.filter((span) => publishedArticleIds.has(span.articleId) && publishableSpanIds.has(span.id))
 const publishedClaimIds = new Set(publishedArticleSpans.flatMap((span) => span.claimIds))
-const publishedClaims = claims.filter((claim) => publishedClaimIds.has(claim.id) && claim.verificationStatus === 'verified')
+const publishedClaims = claims.filter((claim) => publishedClaimIds.has(claim.id) && claimQualifies(claim.id))
 const verifiedPublishedClaimIds = new Set(publishedClaims.map((claim) => claim.id))
 const publishedCitations = citations.filter((citation) => verifiedPublishedClaimIds.has(citation.claimId))
 const publishedResourceIds = new Set(publishedCitations.map((citation) => citation.resourceId))
@@ -517,7 +581,7 @@ const publishedEvidence = {
 }
 
 const data = {
-  migrationId: '2026-08-11-medical-library-all-systems-v4',
+  migrationId: '2026-08-11-medical-library-release-quality-v5',
   generatedAt,
   states: {
     'synapse-academic-universities-v1': universities,
@@ -549,6 +613,7 @@ const data = {
     articleSectionsWithEvidence: articleItems.reduce((sum, article) => sum + (article.articleData?.sections || []).filter((section) => section.spanIds?.length).length, 0),
     articlesWithRelatedReading: articleItems.filter((article) => article.articleData?.relatedArticleIds?.length).length,
     publishedArticles: articleItems.filter((item) => item.status === 'Published').length,
+    publishedSpans: publishedArticleSpans.length,
     concepts: concepts.length,
     activeConcepts: concepts.filter((concept) => concept.status === 'active').length,
     relations: relations.length,
@@ -568,11 +633,14 @@ if (data.report.absolutePathsExposed) throw new Error('Sanitisation failed: an a
 if (data.report.universities !== 12 || data.report.years !== 84) throw new Error('University/year catalogue failed deterministic-count validation')
 if (data.report.articles !== bundle.articles.length || data.report.concepts !== bundle.concepts.length || data.report.claims !== bundle.claims.length) throw new Error('Reviewed full-catalog coverage count mismatch')
 if (articleItems.some((article) => article.articleData.sections.at(-1)?.kind !== 'components')) throw new Error('Every article must end with Components and relations')
+if (articleItems.some((article) => article.status === 'Published' && (!article.articleData.publishedSections?.length || article.articleData.publishedSections.at(-1)?.kind !== 'components'))) throw new Error('Every student-visible article must have a verified section projection ending with Components and relations')
 if (articleItems.some((article) => !article.owner || !article.articleData.reviewer || !article.articleData.finalPublisher)) throw new Error('Article governance fields are incomplete')
 if (concepts.some((concept) => !concept.owner || !concept.reviewer || !concept.finalPublisher || !concept.primaryNodeId || !concept.atomicClaimIds.length || !concept.resourceIds.length)) throw new Error('Concept identity, placement, evidence, resources, or governance fields are incomplete')
 if (concepts.some((concept) => concept.publicationStatus === 'published' && concept.atomicClaimIds.some((claimId) => claims.find((claim) => claim.id === claimId)?.verificationStatus !== 'verified'))) throw new Error('A published concept contains an unverified claim')
 if (concepts.some((concept) => concept.atomicClaimIds.some((claimId) => claims.find((claim) => claim.id === claimId)?.riskClass === 'treatment_or_action') && concept.publicationStatus !== 'faculty_review')) throw new Error('Treatment or action content bypassed faculty review')
 if (new Set(articleItems.flatMap((article) => article.articleData.sections.flatMap((section) => section.spanIds || []))).size !== bundle.article_spans.length) throw new Error('Readable article sections do not cover every evidence span exactly once')
+if (publishedArticleSpans.some((span) => !span.claimIds.length || span.claimIds.some((claimId) => !claimQualifies(claimId)))) throw new Error('A student-visible article span bypassed the claim publication gate')
+if (publishedEvidence.resources.some((resource) => /quarantin/i.test(resource.processingStatus || ''))) throw new Error('A quarantined resource entered student-visible evidence')
 
 await mkdir(dirname(outputPath), { recursive: true })
 await writeFile(outputPath, `${JSON.stringify(data, null, 2)}\n`)

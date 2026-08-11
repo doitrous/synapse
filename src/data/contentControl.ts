@@ -98,6 +98,10 @@ export interface ArticleAuthoringData {
   body: string
   /** Named clinical sections (Definition, Incidence, Pathophysiology, …). */
   sections: ArticleSection[]
+  /** Evidence-gated student projection; `sections` remains the complete admin draft. */
+  publishedSections?: ArticleSection[]
+  /** Student summary for the evidence-gated projection. */
+  publishedSummary?: string
   holdThese: string[]
   loseTheMark: string[]
   questionIds: string[]

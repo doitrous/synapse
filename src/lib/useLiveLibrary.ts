@@ -62,7 +62,8 @@ function overlaySubtopic(sub: Subtopic, item: ManagedContentItem | undefined): S
 /** Build a fresh subtopic from an admin-created article that has no seed. */
 function articleToSubtopic(item: ManagedContentItem, evidence: MedicalEvidenceStore): Subtopic {
   const d = item.articleData
-  const sections = (d?.sections ?? [])
+  const isEvidenceGated = Boolean(d?.publishedSections)
+  const sections = (d?.publishedSections ?? d?.sections ?? [])
     .filter((s) => s.heading?.trim() || s.body?.trim())
     .filter((s) => !/^Evidence not yet available/i.test(s.body.trim()))
     .sort((a, b) => (a.kind === 'components' ? 1 : 0) - (b.kind === 'components' ? 1 : 0))
@@ -72,10 +73,14 @@ function articleToSubtopic(item: ManagedContentItem, evidence: MedicalEvidenceSt
     const spans = (s.spanIds ?? []).map((id) => evidence.articleSpans.find((span) => span.id === id)).filter(Boolean)
     if (spans.length) {
       spans.forEach((span) => blocks.push({ type: 'fact', text: span!.text, spanId: span!.id, claimIds: span!.claimIds, citationIds: span!.citationIds }))
-    } else if (s.body?.trim()) blocks.push(...bodyToBlocks(s.body))
+    } else if (!(s.spanIds?.length) && s.body?.trim()) {
+      // Never fall back to draft prose when its named evidence spans are absent
+      // from the publication-gated evidence store.
+      blocks.push(...bodyToBlocks(s.body))
+    }
   })
-  ;(d?.loseTheMark ?? []).filter(Boolean).forEach((text) => blocks.push({ type: 'callout', tone: 'warning', text }))
-  ;(d?.universityNotes ?? []).filter((n) => n.text?.trim()).forEach((n) => {
+  ;(isEvidenceGated ? [] : d?.loseTheMark ?? []).filter(Boolean).forEach((text) => blocks.push({ type: 'callout', tone: 'warning', text }))
+  ;(isEvidenceGated ? [] : d?.universityNotes ?? []).filter((n) => n.text?.trim()).forEach((n) => {
     const short = universities.find((u) => u.id === n.universityId)?.short ?? n.universityId
     blocks.push({ type: 'callout', tone: 'accent', title: `${short} only`, text: n.text!.trim() })
   })
@@ -83,19 +88,21 @@ function articleToSubtopic(item: ManagedContentItem, evidence: MedicalEvidenceSt
     id: item.id,
     title: item.title,
     readingMin: Number(item.fields['Reading time']) || 6,
-    summary: d?.summary || item.fields.Summary || '',
+    summary: d?.publishedSummary || d?.summary || item.fields.Summary || '',
     blocks,
-    keyPoints: (d?.holdThese ?? []).filter(Boolean),
+    keyPoints: isEvidenceGated
+      ? blocks.filter((block) => block.type === 'fact').map((block) => block.text).slice(0, 5)
+      : (d?.holdThese ?? []).filter(Boolean),
     questions: [],
-    resources: (d?.resourceIds ?? []).map((id) => evidence.resources.find((resource) => resource.id === id)?.title ?? id),
+    resources: (d?.resourceIds ?? []).filter((id) => evidence.resources.some((resource) => resource.id === id)).map((id) => evidence.resources.find((resource) => resource.id === id)?.title ?? id),
     updatedAt: item.updatedAt,
     universityIds: d?.universityIds ?? [],
     yearIds: d?.yearIds ?? [],
     moduleIds: d?.moduleIds ?? [],
     primaryNodeId: d?.primaryNodeId,
     secondaryNodeIds: d?.secondaryNodeIds ?? [],
-    relatedConceptIds: d?.relatedConceptIds ?? [],
-    resourceIds: d?.resourceIds ?? [],
+    relatedConceptIds: (d?.relatedConceptIds ?? []).filter((id) => !isEvidenceGated || evidence.claims.some((claim) => claim.conceptId === id)),
+    resourceIds: (d?.resourceIds ?? []).filter((id) => evidence.resources.some((resource) => resource.id === id)),
     evidenceState: item.fields['Evidence state'],
     publicationGate: d?.publicationGate,
   }
