@@ -28,15 +28,18 @@ const apiBase = (argument('--api') || 'https://synapse.doitrous.com/api').replac
 const dryRun = process.argv.includes('--dry-run')
 const shardCount = Number(argument('--shard-count') || 1)
 const shardIndex = Number(argument('--shard-index') || 0)
+const startItem = Number(argument('--start-item') || 1)
 const token = await readToken()
 
 if (!catalogPath) throw new Error('Pass --catalog /absolute/path/to/full-catalog.json')
 if (!token) throw new Error('Pass the server owner key through standard input.')
 if (!Number.isInteger(shardCount) || shardCount < 1 || !Number.isInteger(shardIndex) || shardIndex < 0 || shardIndex >= shardCount) throw new Error('Shard index must be within the configured shard count.')
+if (!Number.isInteger(startItem) || startItem < 1) throw new Error('Start item must be a positive, one-based index.')
 
 const catalog = JSON.parse(readFileSync(resolve(catalogPath), 'utf8'))
 const allLocalResources = catalog.resources.filter((resource) => resource.source_path && existsSync(resource.source_path))
-const localResources = allLocalResources.filter((_resource, index) => index % shardCount === shardIndex)
+const shardResources = allLocalResources.filter((_resource, index) => index % shardCount === shardIndex)
+const localResources = shardResources.slice(startItem - 1)
 const result = { uploaded: 0, alreadyAvailable: 0, skippedOversize: 0, failed: 0, uploadedBytes: 0 }
 
 async function status(resource) {
@@ -119,7 +122,7 @@ async function uploadInChunks(resource, size) {
   return response.json()
 }
 
-console.log(`Qualified local resources: ${allLocalResources.length} · worker ${shardIndex + 1}/${shardCount} handles ${localResources.length}`)
+console.log(`Qualified local resources: ${allLocalResources.length} · worker ${shardIndex + 1}/${shardCount} handles ${localResources.length} from shard item ${startItem}`)
 for (let index = 0; index < localResources.length; index += 1) {
   const resource = localResources[index]
   const size = statSync(resource.source_path).size
