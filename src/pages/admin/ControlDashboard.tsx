@@ -17,6 +17,7 @@ import {
   ChevronRight,
   PlayCircle,
   FileText,
+  Database,
 } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import {
@@ -331,7 +332,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       <PageHeader
         title={lockedKind ? `${CONTENT_KIND_LABEL[activeKind].plural} setup` : 'Content control'}
         description={lockedKind ? `Create, revise, review, and import ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} without leaving this catalogue.` : 'Create, revise, review, and remove everything students can open in the question bank, library, practical area, and resources.'}
-        actions={<><Link to={`/admin/import/${activeKind}`}><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link><Button variant="primary" size="md" iconLeft={Plus} onClick={openNew}>Add {CONTENT_KIND_LABEL[activeKind].singular}</Button></>}
+        actions={<>{lockedKind && activeKind === 'article' && API_MODE && <Link to="/admin/library/coverage"><Button variant="secondary" size="md" iconLeft={Database}>Evidence review</Button></Link>}<Link to={`/admin/import/${activeKind}`}><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link><Button variant="primary" size="md" iconLeft={Plus} onClick={openNew}>Add {CONTENT_KIND_LABEL[activeKind].singular}</Button></>}
       />
 
       {notice && (

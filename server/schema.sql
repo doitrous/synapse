@@ -134,3 +134,49 @@ CREATE TABLE IF NOT EXISTS attachments (
   storage_url  TEXT,
   FOREIGN KEY (email_id) REFERENCES emails(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Admin-only medical extraction review queue. Candidate wording is preserved
+-- here for coverage and editorial work; it is never student-readable evidence.
+CREATE TABLE IF NOT EXISTS medical_library_candidate_coverage (
+  candidate_id          VARCHAR(96) PRIMARY KEY,
+  source_id             VARCHAR(96) NOT NULL,
+  system_id             VARCHAR(64),
+  subject               VARCHAR(255),
+  topic                 VARCHAR(500),
+  subtopic              VARCHAR(500),
+  microtopic            VARCHAR(500),
+  label                 TEXT,
+  statement             MEDIUMTEXT,
+  concept_type          VARCHAR(255),
+  risk_class            VARCHAR(64),
+  confidence            DECIMAL(6,5),
+  destination           VARCHAR(96) NOT NULL,
+  reason_code           VARCHAR(128) NOT NULL,
+  reason                TEXT NOT NULL,
+  target_concept_id     VARCHAR(96),
+  resource_relative_path TEXT,
+  locator_page          INT,
+  locator_printed_page  VARCHAR(64),
+  locator_section       VARCHAR(500),
+  locator_start         INT,
+  locator_end           INT,
+  coverage_unit_id      VARCHAR(191),
+  support_span          TEXT,
+  updated_at            TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_medical_candidate_destination (destination),
+  INDEX idx_medical_candidate_system (system_id),
+  INDEX idx_medical_candidate_source (source_id),
+  INDEX idx_medical_candidate_target (target_concept_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Availability is kept separately from evidence qualification: a digest may
+-- exist while its source binary or exact locator is unavailable.
+CREATE TABLE IF NOT EXISTS medical_library_source_availability (
+  source_id           VARCHAR(96) PRIMARY KEY,
+  collection_id       VARCHAR(96) NOT NULL,
+  relative_path       TEXT,
+  availability_status VARCHAR(96) NOT NULL,
+  updated_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_medical_source_collection (collection_id),
+  INDEX idx_medical_source_status (availability_status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

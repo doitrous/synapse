@@ -1,4 +1,5 @@
 import { readFile, mkdir, writeFile } from 'node:fs/promises'
+import { gzipSync } from 'node:zlib'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -6,7 +7,11 @@ const here = dirname(fileURLToPath(import.meta.url))
 const projectRoot = resolve(here, '..')
 const bundlePath = process.env.MEDICAL_BUNDLE_PATH || '/Users/doitrous/Documents/CodexGPT/Concepts and Questions Creation Codex/medical-library/full-catalog.json'
 const outputPath = join(projectRoot, 'server', 'data', 'medical-library-v1.json')
+const coverageOutputPath = join(projectRoot, 'server', 'data', 'medical-library-coverage-v6.json.gz')
 const bundle = JSON.parse(await readFile(bundlePath, 'utf8'))
+const manifestDirectory = join(dirname(bundlePath), 'manifests')
+const kasrCoverageAudit = JSON.parse(await readFile(join(manifestDirectory, 'kasr-coverage-quality-audit.json'), 'utf8'))
+const sourceAvailabilityAudit = JSON.parse(await readFile(join(manifestDirectory, 'source-availability-audit.json'), 'utf8'))
 const { CURRICULUM_CATALOG, PILOT_ARTICLE_PLACEMENTS } = await import('../src/data/curriculumCatalog.ts')
 const { MEDICAL_TAXONOMY_SEED } = await import('../src/data/medicalLibraryTaxonomy.ts')
 
@@ -44,6 +49,15 @@ const sanitisePublicValue = (value) => {
   if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, sanitisePublicValue(item)]).filter(([, item]) => item !== undefined))
   return value
 }
+const sanitiseLocator = (locator = {}) => ({
+  page: locator.page ?? null,
+  printedPage: locator.printed_page ?? null,
+  section: locator.section ?? null,
+  start: locator.start ?? null,
+  end: locator.end ?? null,
+  coverageUnitId: locator.coverage_unit_id ?? null,
+  supportSpan: locator.support_span ?? null,
+})
 const storageKeyFor = (resource) => {
   if (!resource.source_relative_path || /^https?:/i.test(resource.source_uri || '')) return undefined
   const institutionCodes = { 'Kasr Alainy': 'KAU', 'Ain Shams Books Drive': 'ASU', 'Alexandria Uni NewAug08': 'AU' }
@@ -581,7 +595,7 @@ const publishedEvidence = {
 }
 
 const data = {
-  migrationId: '2026-08-11-medical-library-release-quality-v5',
+  migrationId: '2026-08-11-medical-library-coverage-v6',
   generatedAt,
   states: {
     'synapse-academic-universities-v1': universities,
@@ -625,8 +639,44 @@ const data = {
     claimEvidenceCitations: citations.filter((citation) => citation.countsAsClaimEvidence).length,
     resources: resources.length,
     resourcesPendingUpload: resources.filter((resource) => resource.storageKey).length,
+    reviewCandidates: kasrCoverageAudit.records.length,
+    sourceAvailabilityRecords: sourceAvailabilityAudit.records.length,
+    sourceFilesAvailable: sourceAvailabilityAudit.records.filter((record) => record.status === 'available_file').length,
     absolutePathsExposed: JSON.stringify({ articleItems, concepts, relations, evidence }).includes('/Users/'),
   },
+}
+
+const coverageData = {
+  migrationId: data.migrationId,
+  generatedAt,
+  policy: kasrCoverageAudit.policy,
+  counts: kasrCoverageAudit.counts,
+  candidateCoverage: kasrCoverageAudit.records.map((record) => ({
+    candidateId: record.candidate_id,
+    sourceId: record.source_id,
+    systemId: record.system_id,
+    subject: record.subject,
+    topic: record.topic,
+    subtopic: record.subtopic,
+    microtopic: record.microtopic,
+    label: record.label,
+    statement: record.statement,
+    conceptType: record.concept_type,
+    riskClass: record.risk_class,
+    confidence: record.confidence,
+    destination: record.destination,
+    reasonCode: record.reason_code,
+    reason: record.reason,
+    targetConceptId: record.target_concept_id,
+    resourceRelativePath: record.resource_relative_path,
+    locator: sanitiseLocator(record.locator),
+  })),
+  sourceAvailability: sourceAvailabilityAudit.records.map((record) => ({
+    sourceId: record.source_id,
+    collectionId: record.collection_id,
+    relativePath: record.relative_path,
+    status: record.status,
+  })),
 }
 
 if (data.report.absolutePathsExposed) throw new Error('Sanitisation failed: an absolute authoring path remains in the launch package')
@@ -641,7 +691,11 @@ if (concepts.some((concept) => concept.atomicClaimIds.some((claimId) => claims.f
 if (new Set(articleItems.flatMap((article) => article.articleData.sections.flatMap((section) => section.spanIds || []))).size !== bundle.article_spans.length) throw new Error('Readable article sections do not cover every evidence span exactly once')
 if (publishedArticleSpans.some((span) => !span.claimIds.length || span.claimIds.some((claimId) => !claimQualifies(claimId)))) throw new Error('A student-visible article span bypassed the claim publication gate')
 if (publishedEvidence.resources.some((resource) => /quarantin/i.test(resource.processingStatus || ''))) throw new Error('A quarantined resource entered student-visible evidence')
+if (coverageData.candidateCoverage.some((record) => /^queued/.test(record.destination))) throw new Error('A candidate still has an unresolved queue destination')
+if (new Set(coverageData.candidateCoverage.map((record) => record.candidateId)).size !== coverageData.candidateCoverage.length) throw new Error('Coverage candidate IDs are not unique')
+if (JSON.stringify(coverageData).includes('/Users/')) throw new Error('Coverage sanitisation failed: an absolute authoring path remains')
 
 await mkdir(dirname(outputPath), { recursive: true })
 await writeFile(outputPath, `${JSON.stringify(data, null, 2)}\n`)
+await writeFile(coverageOutputPath, gzipSync(JSON.stringify(coverageData), { level: 9 }))
 console.log(JSON.stringify(data.report, null, 2))

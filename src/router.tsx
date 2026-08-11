@@ -45,6 +45,7 @@ const EmailAutomations = lazyNamed(() => import('@/pages/admin/EmailAutomations'
 const PrivacySupport = lazyNamed(() => import('@/pages/admin/PrivacySupport'), 'PrivacySupport')
 const AdminSettings = lazyNamed(() => import('@/pages/admin/Settings'), 'Settings')
 const AuditSecurity = lazyNamed(() => import('@/pages/admin/AuditSecurity'), 'AuditSecurity')
+const MedicalCoverageReview = lazyNamed(() => import('@/pages/admin/MedicalCoverageReview'), 'MedicalCoverageReview')
 const ReportsReview = lazyNamed(() => import('@/pages/admin/ReportsReview'), 'ReportsReview')
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
 const NotificationCampaigns = lazyNamed(() => import('@/pages/admin/NotificationCampaigns'), 'NotificationCampaigns')
@@ -128,6 +129,7 @@ export const router = createBrowserRouter([
       { path: 'concepts/import', element: render(ConceptsImportPage) },
       { path: 'academic/import', element: render(AcademicImportPage) },
       { path: 'taxonomy/import', element: render(SubjectsImportPage) },
+      { path: 'library/coverage', element: render(MedicalCoverageReview) },
       ...adminRoutes,
     ],
   },

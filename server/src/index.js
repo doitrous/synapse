@@ -267,6 +267,82 @@ app.get('/api/launch/medical-library-v1/preview', requireAdmin, wrap(async (_req
   })
 }))
 
+/* ── Medical library coverage review (admin-only) ───────────────────────── */
+
+app.get('/api/medical-library/coverage/summary', requireAdmin, wrap(async (_req, res) => {
+  const [[totals], destinations, systems, sourceStates, collections] = await Promise.all([
+    pool.query('SELECT COUNT(*) AS candidates, COUNT(DISTINCT source_id) AS candidateSources FROM medical_library_candidate_coverage').then(([rows]) => rows),
+    pool.query('SELECT destination, COUNT(*) AS count FROM medical_library_candidate_coverage GROUP BY destination ORDER BY count DESC').then(([rows]) => rows),
+    pool.query('SELECT system_id AS systemId, COUNT(*) AS count FROM medical_library_candidate_coverage GROUP BY system_id ORDER BY count DESC').then(([rows]) => rows),
+    pool.query('SELECT availability_status AS status, COUNT(*) AS count FROM medical_library_source_availability GROUP BY availability_status ORDER BY count DESC').then(([rows]) => rows),
+    pool.query('SELECT collection_id AS collectionId, COUNT(*) AS count FROM medical_library_source_availability GROUP BY collection_id ORDER BY count DESC').then(([rows]) => rows),
+  ])
+  res.json({
+    candidates: Number(totals?.candidates || 0),
+    candidateSources: Number(totals?.candidateSources || 0),
+    destinations: destinations.map((row) => ({ ...row, count: Number(row.count) })),
+    systems: systems.map((row) => ({ ...row, count: Number(row.count) })),
+    sourceStates: sourceStates.map((row) => ({ ...row, count: Number(row.count) })),
+    collections: collections.map((row) => ({ ...row, count: Number(row.count) })),
+  })
+}))
+
+app.get('/api/medical-library/coverage/candidates', requireAdmin, wrap(async (req, res) => {
+  const page = Math.max(1, Number.parseInt(String(req.query.page || '1'), 10) || 1)
+  const pageSize = Math.min(100, Math.max(10, Number.parseInt(String(req.query.pageSize || '50'), 10) || 50))
+  const destination = String(req.query.destination || '').trim()
+  const systemId = String(req.query.systemId || '').trim()
+  const sourceId = String(req.query.sourceId || '').trim()
+  const search = String(req.query.search || '').trim().slice(0, 160)
+  const where = []
+  const params = []
+  if (destination) { where.push('destination = ?'); params.push(destination) }
+  if (systemId) { where.push('system_id = ?'); params.push(systemId) }
+  if (sourceId) { where.push('source_id = ?'); params.push(sourceId) }
+  if (search) {
+    where.push('(label LIKE ? OR statement LIKE ? OR candidate_id LIKE ? OR source_id LIKE ?)')
+    const like = `%${search}%`
+    params.push(like, like, like, like)
+  }
+  const clause = where.length ? `WHERE ${where.join(' AND ')}` : ''
+  const [[countRow]] = await pool.query(`SELECT COUNT(*) AS total FROM medical_library_candidate_coverage ${clause}`, params)
+  const [rows] = await pool.query(
+    `SELECT candidate_id AS candidateId, source_id AS sourceId, system_id AS systemId,
+       subject, topic, subtopic, microtopic, label, statement, concept_type AS conceptType,
+       risk_class AS riskClass, confidence, destination, reason_code AS reasonCode, reason,
+       target_concept_id AS targetConceptId, resource_relative_path AS resourceRelativePath,
+       locator_page AS locatorPage, locator_printed_page AS locatorPrintedPage,
+       locator_section AS locatorSection, locator_start AS locatorStart, locator_end AS locatorEnd,
+       coverage_unit_id AS coverageUnitId, support_span AS supportSpan
+     FROM medical_library_candidate_coverage ${clause}
+     ORDER BY system_id, source_id, candidate_id LIMIT ? OFFSET ?`,
+    [...params, pageSize, (page - 1) * pageSize],
+  )
+  res.json({
+    page,
+    pageSize,
+    total: Number(countRow.total || 0),
+    items: rows.map((row) => ({ ...row, confidence: row.confidence == null ? null : Number(row.confidence) })),
+  })
+}))
+
+app.get('/api/medical-library/coverage/sources', requireAdmin, wrap(async (req, res) => {
+  const collectionId = String(req.query.collectionId || '').trim()
+  const status = String(req.query.status || '').trim()
+  const where = []
+  const params = []
+  if (collectionId) { where.push('collection_id = ?'); params.push(collectionId) }
+  if (status) { where.push('availability_status = ?'); params.push(status) }
+  const clause = where.length ? `WHERE ${where.join(' AND ')}` : ''
+  const [rows] = await pool.query(
+    `SELECT source_id AS sourceId, collection_id AS collectionId, relative_path AS relativePath,
+       availability_status AS status FROM medical_library_source_availability ${clause}
+     ORDER BY collection_id, relative_path, source_id`,
+    params,
+  )
+  res.json({ items: rows })
+}))
+
 async function medicalResourceRecords() {
   if (medicalResourceSnapshot) return medicalResourceSnapshot.resources
   if (!medicalResourceLoad) {
