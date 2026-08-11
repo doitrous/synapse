@@ -107,8 +107,7 @@ if (new Set(coveragePackage.candidateCoverage.map((record) => record.candidateId
 if (JSON.stringify(coveragePackage).includes('/Users/')) throw new Error('Coverage package contains an absolute authoring path')
 
 const snapshotTables = [
-  'schema_migrations', 'app_state', 'app_state_versions', 'user_state',
-  'user_state_versions', 'students', 'mailboxes', 'emails', 'attachments',
+  'schema_migrations', 'app_state', 'user_state', 'students', 'mailboxes', 'emails', 'attachments',
   'user_access', 'role_promotion_audit', 'medical_library_candidate_coverage',
   'medical_library_source_availability',
 ]
@@ -157,7 +156,13 @@ try {
     console.log(JSON.stringify({ applied: false, alreadyApplied: true, migration: applied[0] }, null, 2))
     process.exitCode = 0
   } else {
-    const snapshot = { schemaVersion: 1, createdAt: new Date().toISOString(), tables: {} }
+    const snapshot = {
+      schemaVersion: 1,
+      createdAt: new Date().toISOString(),
+      tables: {},
+      historyTablesExcluded: ['app_state_versions', 'user_state_versions'],
+      historyNote: 'This point-in-time migration snapshot contains current values. Existing version history remains unchanged in MariaDB.',
+    }
     for (const table of snapshotTables) {
       const [rows] = await conn.query(`SELECT * FROM ${table}`)
       snapshot.tables[table] = rows
