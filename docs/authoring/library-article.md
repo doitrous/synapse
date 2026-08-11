@@ -44,10 +44,10 @@ While writing:
   when articles became prose; the audit rejects any article that still has one.
 - Never state a dose, a treatment recommendation, or an emergency action without
   a source. Set status to Draft; these never auto-publish.
-- Add media only where a figure teaches something the prose cannot. Every item
-  needs a URL, alt text, and cleared rights or it will not reach a student.
-  Anchor it to a phrase when it explains those exact words; otherwise leave it
-  article-level.
+- Add media only where a figure teaches something the prose cannot. Give every
+  item a URL, alt text, and its rights; an item missing rights or alt text is
+  held back until an admin releases it. Anchor it to a phrase when it explains
+  those exact words; otherwise leave it article-level.
 - British spelling. Short sentences. No filler transitions.
 
 If a required field cannot be filled honestly, leave it empty and add a
@@ -107,9 +107,15 @@ A media item is either **anchored** to a phrase or **article-level**:
 Either way the item is listed in the sidebar's *Media in this article* panel, so
 an anchored figure is never hidden from a student who is looking for it.
 
-An item only reaches a student when it has a URL, alt text, **and** cleared
-rights. Anything missing one of the three is held back — the same gate the rest
-of the library uses.
+**What reaches a student.** An item with a URL, alt text, and cleared rights is
+shown. An item missing rights or alt text is **held back by default** — but that
+is a default, not a rule. The article editor states which items are held back and
+why, and offers *Show to students anyway* on each one; in the importer the same
+override is `Release without review: yes`. Nothing is ever withheld silently, and
+the admin has the final say.
+
+The one thing an override cannot fix is a missing URL: there is nothing to
+render. Alt text falls back to the caption when an item is released without it.
 
 ```markdown
 ## media
@@ -227,6 +233,7 @@ Rights: <licence or permission>
 Necessity: <what it teaches that the prose cannot>
 Anchor: <verbatim phrase from the article, or omit for article-level>
 Anchor block: body
+Release without review: <yes, only to publish before rights/alt are recorded>
 
 ## related_concepts
 med.concept.<slug>
@@ -280,7 +287,7 @@ Giving a positive inotrope as chronic therapy because "the heart is weak".
   note, not a library article.
 - Any concept ID, resource ID, or canonical node ID in the record does not exist.
 - The article carries a `Components and relations` section.
-- A media item has no cleared rights, no alt text, or no URL.
+- A media item has no URL — there is nothing to show.
 - A media anchor quotes text that is not in the article.
 - The record contains a dose, treatment recommendation, or emergency action you
   cannot cite.

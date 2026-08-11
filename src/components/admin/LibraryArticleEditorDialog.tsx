@@ -9,7 +9,8 @@ import {
   type ConceptRelationType,
   type StatementRelationType,
 } from '@/data/conceptGraph'
-import type { ArticleAuthoringData, ArticleMediaRecord, ManagedContentItem } from '@/data/contentControl'
+import { isMediaReleased, mediaReleaseBlockers, type ArticleAuthoringData, type ArticleMediaRecord, type ManagedContentItem } from '@/data/contentControl'
+import { cn } from '@/lib/cn'
 import { emptySections, newId, type ArticleSection } from '@/data/userLibrary'
 import { libraryTopics } from '@/data/library'
 import { subjects, getSubject } from '@/data/student'
@@ -106,6 +107,34 @@ function readableArticleText(data: ArticleAuthoringData): string {
   ].filter(Boolean).join('\n')
 }
 
+/**
+ * States plainly whether this item reaches students, and lets the admin
+ * release it anyway. Incomplete media is held back by default, never silently.
+ */
+function MediaReleaseControl({ item, onToggle }: { item: ArticleMediaRecord; onToggle: (value: boolean) => void }) {
+  const blockers = mediaReleaseBlockers(item)
+  const released = isMediaReleased(item)
+  const noUrl = !item.url?.trim()
+  return (
+    <div className={cn('mt-3 rounded-md border p-2.5', released ? 'border-success/30 bg-success-tint/50' : 'border-warning/35 bg-warning-tint/50')}>
+      <p className={cn('text-[11.5px] font-semibold', released ? 'text-success' : 'text-warning')}>
+        {released ? 'Shown to students' : noUrl ? 'Not shown — nothing to display' : 'Held back from students'}
+      </p>
+      {blockers.length > 0 && (
+        <p className="mt-0.5 text-[10.5px] leading-relaxed text-ink-3">
+          {released ? 'Published despite: ' : 'Incomplete: '}{blockers.join(', ')}.
+        </p>
+      )}
+      {!noUrl && blockers.length > 0 && (
+        <label className="mt-2 flex items-start gap-2 text-[11px] leading-snug text-ink-2">
+          <input type="checkbox" className="mt-0.5 size-3.5 shrink-0 accent-current" checked={item.releaseWithoutReview ?? false} onChange={(event) => onToggle(event.target.checked)} />
+          <span>Show to students anyway. Use this when you have the rights but have not recorded them here yet — the item ships exactly as it stands.</span>
+        </label>
+      )}
+    </div>
+  )
+}
+
 function ArticleMediaEditor({ media, articleText, onChange }: { media: ArticleMediaRecord[]; articleText: string; onChange: (media: ArticleMediaRecord[]) => void }) {
   const patch = (index: number, value: Partial<ArticleMediaRecord>) => onChange(media.map((item, itemIndex) => itemIndex === index ? { ...item, ...value } : item))
   return <div className="space-y-3">{media.map((item, index) => <div key={item.id} className="rounded-lg border border-line bg-surface-2/40 p-3">
@@ -123,6 +152,7 @@ function ArticleMediaEditor({ media, articleText, onChange }: { media: ArticleMe
         <p className="mt-1.5 text-[10.5px] font-medium text-danger">This phrase is not in the article text yet, so nothing will be pressable.</p>
       )}
     </div>
+    <MediaReleaseControl item={item} onToggle={(releaseWithoutReview) => patch(index, { releaseWithoutReview })} />
   </div>)}<Button type="button" size="sm" variant="secondary" iconLeft={Plus} onClick={() => onChange([...media, { id: newId('media'), type: 'image', caption: '', altText: '', rights: '', necessity: '' }])}>Add media</Button></div>
 }
 

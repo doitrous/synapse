@@ -87,7 +87,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'high_yield', label: 'High-yield band', help: 'Core, High, or Supplementary. Defaults to Core.' },
       { key: 'primary_node_id', label: 'Canonical node ID', help: 'Primary placement in the canonical medical taxonomy (e.g. SYS-CVS-T01). Derived from the subject/topic crosswalk when omitted.' },
       { key: 'secondary_node_ids', label: 'Secondary node IDs', help: 'Other valid canonical placements across the four views, separated by |, ; or new lines.' },
-      { key: 'media', label: 'Media', help: 'One "### image|video|audio · URL" block per item, then "Caption:", "Alt:", "Rights:", "Necessity:", and optionally "Anchor:" with the exact phrase it explains (plus "Anchor block:" — body, summary, hold, or trap).' },
+      { key: 'media', label: 'Media', help: 'One "### image|video|audio · URL" block per item, then "Caption:", "Alt:", "Rights:", "Necessity:", and optionally "Anchor:" with the exact phrase it explains (plus "Anchor block:" — body, summary, hold, or trap). Incomplete items are held back unless you add "Release without review: yes".' },
       { key: 'related_concepts', label: 'Related concepts', help: 'Concept IDs discussed by this article.' },
       { key: 'question_ids', label: 'Question IDs', help: 'Canonical question IDs that test this article.' },
       { key: 'resource_ids', label: 'Resource IDs', help: 'Canonical resources that teach this article.' },
@@ -216,7 +216,9 @@ export function parseArticleMedia(value = ''): ArticleMediaRecord[] {
         importLines(section.body).find((line) => new RegExp(`^${label}\\s*:`, 'i').test(line))?.replace(new RegExp(`^${label}\\s*:\\s*`, 'i'), '').trim() ?? ''
       const quote = labelled('Anchor')
       const rawBlock = labelled('Anchor block').toLocaleLowerCase()
+      const release = labelled('Release without review').toLocaleLowerCase()
       return {
+        ...(/^(yes|true|1)$/.test(release) ? { releaseWithoutReview: true } : {}),
         id: `media-imp-${index}`,
         type: (MEDIA_TYPES as readonly string[]).includes(type) ? type as ArticleMediaRecord['type'] : 'image',
         url,
@@ -355,6 +357,12 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
     const archetype = values.archetype?.trim()
     if (archetype && !ARTICLE_TEMPLATES.some((template) => template.archetype === archetype)) {
       errors.push(`Archetype must be one of ${ARTICLE_TEMPLATES.map((template) => template.archetype).join(', ')}`)
+    }
+    // A media block with no URL is dropped, so say so rather than let it vanish.
+    const mediaBlocks = parseSections(values.media).length
+    const parsedMedia = parseArticleMedia(values.media).length
+    if (mediaBlocks > parsedMedia) {
+      errors.push(`${mediaBlocks - parsedMedia} media block${mediaBlocks - parsedMedia === 1 ? '' : 's'} have no URL after "### type ·" and would be dropped`)
     }
   }
   if (kind === 'practical') {

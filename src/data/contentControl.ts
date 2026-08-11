@@ -58,6 +58,34 @@ export interface ArticleMediaRecord {
    * in the article's media section. Either way it appears in the media list.
    */
   anchor?: ArticleMediaAnchor
+  /**
+   * Publish this item even though its rights or alt text are still blank.
+   *
+   * Incomplete media is held back by default, but that is a default and not a
+   * rule: the admin decides what ships. The editor always states which items
+   * are held back and why, so nothing is withheld silently.
+   */
+  releaseWithoutReview?: boolean
+}
+
+/** Why a media item would not currently reach a student. */
+export function mediaReleaseBlockers(item: ArticleMediaRecord): string[] {
+  const blockers: string[] = []
+  if (!item.url?.trim()) blockers.push('no URL to display')
+  if (!item.rights?.trim()) blockers.push('no cleared rights')
+  if (!item.altText?.trim()) blockers.push('no alt text')
+  return blockers
+}
+
+/**
+ * Whether a student sees this item.
+ *
+ * A missing URL is the one thing an override cannot fix — there is nothing to
+ * render. Everything else is the admin's call.
+ */
+export function isMediaReleased(item: ArticleMediaRecord): boolean {
+  if (!item.url?.trim()) return false
+  return item.releaseWithoutReview === true || mediaReleaseBlockers(item).length === 0
 }
 
 export interface QuestionTags {

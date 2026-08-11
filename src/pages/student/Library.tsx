@@ -317,20 +317,19 @@ function ReaderText({
 
 /** The media itself, sized to its container. */
 function MediaFrame({ item, className }: { item: ArticleMediaRecord; className?: string }) {
-  if (item.type === 'image') return <img src={item.url} alt={item.altText} className={cn('w-full rounded-lg object-contain', className)} />
-  if (item.type === 'video') return <video src={item.url} controls aria-label={item.altText} className={cn('w-full rounded-lg', className)} />
-  return <audio src={item.url} controls aria-label={item.altText} className={cn('w-full', className)} />
+  // An admin can release an item before its alt text is written, so fall back
+  // to the caption rather than shipping an unlabelled element.
+  const label = item.altText?.trim() || item.caption?.trim() || MEDIA_LABEL[item.type]
+  if (item.type === 'image') return <img src={item.url} alt={label} className={cn('w-full rounded-lg object-contain', className)} />
+  if (item.type === 'video') return <video src={item.url} controls aria-label={label} className={cn('w-full rounded-lg', className)} />
+  return <audio src={item.url} controls aria-label={label} className={cn('w-full', className)} />
 }
 
-/** Attribution line shown under every media item. */
+/** Attribution line shown under a media item, when there is one to show. */
 function MediaCredit({ item }: { item: ArticleMediaRecord }) {
-  const source = [item.exactSource, item.locator].filter(Boolean).join(' · ')
-  return (
-    <p className="mt-1.5 text-[11px] leading-relaxed text-ink-3">
-      {source && <span>{source} · </span>}
-      {item.rights}
-    </p>
-  )
+  const credit = [item.exactSource, item.locator, item.rights].map((part) => part?.trim()).filter(Boolean).join(' · ')
+  if (!credit) return null
+  return <p className="mt-1.5 text-[11px] leading-relaxed text-ink-3">{credit}</p>
 }
 
 /** Full-size view, opened by pressing an anchored phrase or a media thumbnail. */

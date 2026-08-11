@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem, type ArticleMediaRecord } from '@/data/contentControl'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, isMediaReleased, type ManagedContentItem, type ArticleMediaRecord } from '@/data/contentControl'
 import { libraryTopics as SEED_TOPICS, updatedAtFor as seedUpdatedAtFor, type LibTopic, type Subtopic, type LibBlock } from '@/data/library'
 import { universities } from '@/data/universities'
 import { subjects } from '@/data/student'
@@ -10,14 +10,14 @@ import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type
 export type LiveSubtopic = Subtopic & { topicId: string; topicTitle: string; subjectId: string }
 
 /**
- * Media a student may actually be shown.
+ * Media a student is shown.
  *
- * A record with no URL has nothing to display, and one with no alt text or no
- * cleared rights has not finished review — neither reaches the reader, matching
- * how the rest of the library gates unreviewed content.
+ * Incomplete records are held back by default, but an admin can release any of
+ * them with `releaseWithoutReview`. The admin editor states which items are
+ * held back and why, so this never withholds anything silently.
  */
 function publishableMedia(media?: ArticleMediaRecord[]): ArticleMediaRecord[] {
-  return (media ?? []).filter((item) => item.url?.trim() && item.altText?.trim() && item.rights?.trim())
+  return (media ?? []).filter(isMediaReleased)
 }
 
 /** Split a section body into paragraph blocks. */
