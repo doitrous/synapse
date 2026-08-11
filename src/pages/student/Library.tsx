@@ -23,7 +23,7 @@ import {
   Database,
 } from 'lucide-react'
 import type { LibBlock } from '@/data/library'
-import { useLiveLibrary } from '@/lib/useLiveLibrary'
+import { useLiveLibrary, type LiveSubtopic } from '@/lib/useLiveLibrary'
 import { subjects, getSubject } from '@/data/student'
 import { scopeUniversities } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
@@ -453,13 +453,13 @@ function PersonalTagStrip({
 /* ---- Reading view: built-in article ------------------------------------ */
 
 function Reader({
-  id,
+  article,
   tags,
   reusable,
   onTagsChange,
   query,
 }: {
-  id: string
+  article: LiveSubtopic
   tags: string[]
   reusable: string[]
   onTagsChange: (next: string[]) => void
@@ -468,8 +468,9 @@ function Reader({
   const t = useT()
   const location = useLocation()
   const [universityCatalogue] = useUniversityCatalogue()
-  const { topics: libraryTopics, subtopics: allSubtopics, updatedAtFor } = useLiveLibrary()
-  const st = allSubtopics.find((s) => s.id === id)!
+  const { topics: libraryTopics, updatedAtFor } = useLiveLibrary()
+  const st = article
+  const id = article.id
   const subject = getSubject(st.subjectId)
   const appliesTo = st.universityIds?.length ? st.universityIds : scopeUniversities(id)
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
@@ -742,7 +743,7 @@ export function Library() {
 
   const yearCount = universityCatalogue.reduce((sum, university) => sum + university.years.length, 0)
   const selectedNode = selectedNodeId ? taxonomyIndex.byId.get(selectedNodeId) : undefined
-  const publishedSelected = allSubtopics.some((article) => article.id === selectedId)
+  const selectedPublishedArticle = allSubtopics.find((article) => article.id === selectedId)
 
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
@@ -771,9 +772,9 @@ export function Library() {
             }}
             query=""
           />
-        ) : publishedSelected ? (
+        ) : selectedPublishedArticle ? (
           <Reader
-            id={selectedId}
+            article={selectedPublishedArticle}
             tags={personalTags[selectedId] ?? []}
             reusable={reusableTags}
             onTagsChange={(next) => setTagsFor(selectedId, next)}
