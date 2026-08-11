@@ -10,6 +10,7 @@
     "migrate": "node src/migrate.js",
     "medical:apply-v4": "node scripts/apply-medical-library-v4.mjs",
     "medical:apply-v6": "node scripts/apply-medical-library-v6.mjs",
+    "medical:apply-v7": "node scripts/apply-medical-library-v7.mjs",
     "test": "node --test src/*.test.js"
   },
   "engines": {

@@ -543,7 +543,13 @@ const articleSpans = bundle.article_spans.map((span) => ({
     const conceptIds = [...new Set((span.claim_ids || []).map((id) => claimsById.get(id)?.concept_id).filter(Boolean))]
     if (conceptIds.length === 1) {
       const concept = bundle.concepts.find((entry) => entry.id === conceptIds[0])
-      if (concept) return `${concept.label}. ${concept.definition}`
+      if (concept) {
+        const label = String(concept.label || '').trim()
+        const definition = String(concept.definition || '').trim()
+        if (normal(label) === normal(definition)) return definition || label
+        if (normal(definition).startsWith(normal(label))) return definition
+        return [label.replace(/[.!?]$/, ''), definition].filter(Boolean).join('. ')
+      }
     }
     return (span.claim_ids || []).map((id) => claimsById.get(id)?.display_text).filter(Boolean).join(' ')
   })(),
@@ -595,7 +601,7 @@ const publishedEvidence = {
 }
 
 const data = {
-  migrationId: '2026-08-11-medical-library-coverage-v6',
+  migrationId: '2026-08-11-medical-library-reader-quality-v7',
   generatedAt,
   states: {
     'synapse-academic-universities-v1': universities,
@@ -647,7 +653,7 @@ const data = {
 }
 
 const coverageData = {
-  migrationId: data.migrationId,
+  migrationId: '2026-08-11-medical-library-coverage-v6',
   generatedAt,
   policy: kasrCoverageAudit.policy,
   counts: kasrCoverageAudit.counts,
