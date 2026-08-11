@@ -1,0 +1,17 @@
+{
+  "articleId": "ART-MSK-TOP-C25BAA2467",
+  "publishedSummary": "The upper limb has two venous systems — one superficial in the fascia, one deep beside the arteries — freely joined to each other and equipped with valves. That arrangement is what makes venepuncture and cannulation safe, and what makes the limb tolerant of losing either system.",
+  "holdThese": [
+    "Superficial upper-limb veins run in the superficial fascia; deep veins accompany the arteries.",
+    "The two systems communicate freely through perforating veins.",
+    "Superficial veins ultimately end in deep veins, so all blood eventually leaves by the deep route.",
+    "Upper-limb veins are provided with valves, enforcing flow superficial-to-deep and distal-to-proximal.",
+    "Free communication is why a superficial vein can be cannulated or harvested without compromising drainage."
+  ],
+  "sections": [
+    {
+      "id": "art-msk-top-c25baa2467-structure-and-components",
+      "narrative": "Venous return from the upper limb travels by two routes at once. The superficial upper-limb veins run in the superficial fascia, in the layer of loose tissue immediately beneath the skin and outside the deep fascia that invests the muscles — which is why they can be seen and palpated through the skin, and why they are the veins reached in routine venepuncture. The deep veins lie beneath the deep fascia, accompanying the arteries, often as paired venae comitantes flanking the vessel.\n\nThe two systems are not independent. Superficial and deep upper-limb veins communicate freely through perforating veins that pierce the deep fascia along the length of the limb, and the superficial veins ultimately end in deep veins. All blood leaving the arm therefore exits by the deep route in the end; the superficial system is a parallel channel that feeds into it rather than a separate outflow.\n\nWhat gives this arrangement direction is valvular. Upper-limb veins are provided with valves, and the valves in the perforating veins are oriented so that blood passes from superficial to deep and not the reverse, while valves along the main channels enforce flow from distal to proximal. Combined with the compression that muscle contraction applies to the deep veins, this converts limb movement into a pump.\n\nThe redundancy has direct clinical value. Because the two systems communicate freely and share the same final outflow, a superficial vein can be cannulated, sacrificed, or harvested as a graft without obstructing drainage of the limb — the deep system simply carries the load. It also explains the different presentations of thrombosis: a superficial thrombus is painful and visible but rarely threatens the limb, whereas a deep thrombus obstructs the route that all the blood must eventually take."
+    }
+  ]
+}

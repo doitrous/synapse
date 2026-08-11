@@ -1,0 +1,25 @@
+{
+  "articleId": "ART-AND-TOP-80453918B2",
+  "publishedSummary": "Semen is mostly accessory-gland secretion, and only a small fraction is sperm. That is why semen analysis reads the fluid as well as the cells: volume, appearance and viscosity report on the glands, and each of them bears on fertility in its own right.",
+  "holdThese": [
+    "Normal semen is white and opalescent; sperm contribute little to its volume.",
+    "Most of the volume is accessory-gland secretion — seminal vesicles, prostate and bulbourethral glands.",
+    "Reduced semen volume and reduced fructose content both reduce fertility, and fructose reports specifically on seminal-vesicle function.",
+    "Increased viscosity reduces sperm motility and therefore fertility, by impeding movement rather than by damaging sperm.",
+    "Semen analysis is a test of the accessory glands as much as of spermatogenesis."
+  ],
+  "sections": [
+    {
+      "id": "art-and-top-80453918b2-core-concepts",
+      "narrative": "Semen is the fluid ejaculated at orgasm: spermatozoa suspended in the combined secretions of the accessory glands. The proportions are not what intuition suggests — the sperm themselves account for only a small part of the volume, and the great majority is fluid contributed by the seminal vesicles, the prostate, the bulbourethral glands and the urethral glands.\n\nNormal semen is white and opalescent. That appearance is itself informative, because it comes from the accessory-gland secretions rather than from the sperm, and is therefore a statement about glandular function. Departures from it are read the same way: a clear, watery ejaculate suggests deficient glandular contribution, while discoloration suggests blood or infection. This is the reason the first observations recorded in a semen analysis are of the fluid itself, before any cell is counted."
+    },
+    {
+      "id": "art-and-top-80453918b2-quantitative-facts",
+      "narrative": "Two measurements of the fluid bear directly on fertility. Reduced semen volume and reduced fructose content both reduce fertility, and the two are related, because both are largely determined by the seminal vesicles.\n\nVolume matters because the ejaculate is the vehicle: too little fluid delivers sperm poorly, however many of them there are. Fructose matters for a different reason — it is the principal energy substrate available to sperm in the ejaculate, and sperm rely on it to sustain motility during their journey. Low fructose therefore means poorly fuelled sperm.\n\nFructose is also a specific marker, and that is its diagnostic value. It is contributed almost entirely by the seminal vesicles, so its absence in a low-volume ejaculate points to those structures — either absent, obstructed, or not emptying — rather than to a failure of sperm production. A single measurement of the fluid can thus separate a transport problem from a testicular one."
+    },
+    {
+      "id": "art-and-top-80453918b2-mechanisms-and-physiology",
+      "narrative": "Freshly ejaculated semen coagulates and then liquefies again within a short time, under the action of prostatic enzymes. Failure of that second step leaves the sample abnormally thick, and increased semen viscosity reduces sperm motility and fertility.\n\nThe mechanism is mechanical rather than toxic. The sperm are not damaged by a viscous medium; they are impeded by it. Progressive motility depends on flagellar beating overcoming the resistance of the surrounding fluid, and raising that resistance reduces the distance a sperm can travel — which matters because it must traverse the cervical mucus and the length of the female tract to reach the ovum.\n\nThis is why viscosity is assessed separately from sperm concentration and count. A sample may contain entirely normal numbers of morphologically normal sperm and still be functionally infertile, because the fluid they are suspended in prevents them from going anywhere. It also points to where the fault lies: since liquefaction is a prostatic function, persistent hyperviscosity implicates the prostate rather than the testis."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "articleId": "ART-RES-TOP-DE0DBD4695",
+  "publishedSummary": "Moving down the bronchial tree, the airway loses cartilage, glands, goblet cells and finally cilia, while smooth muscle becomes relatively more important. What is left at the end is the alveolus: two cell types, one for surface and one for surfactant.",
+  "holdThese": [
+    "Cilia and goblet cells both decrease distally, and goblet cells disappear before cilia do.",
+    "That order matters: mucus is never secreted below the level at which cilia can still clear it.",
+    "Bronchiolar smooth muscle is arranged circularly, so its contraction narrows the lumen.",
+    "With no cartilage to splint them, bronchioles depend on that muscle and on surrounding lung recoil to stay open.",
+    "The alveolus has two epithelial cells: type I pneumocytes for the exchange surface, type II for surfactant."
+  ],
+  "sections": [
+    {
+      "id": "art-res-top-de0dbd4695-structure-and-components",
+      "narrative": "The conducting airway does not end abruptly; it thins out. Cilia and goblet cells both decrease distally, and the order in which they disappear is the informative part: goblet cells disappear before cilia do. That sequence is not accidental. Mucus is only useful if something can move it, so the airway never secretes mucus at a level below which the ciliary escalator can still clear it. Losing that order — as in chronic irritation, where goblet cells extend further distally than normal — leaves mucus in small airways with no efficient means of removal, which is why it obstructs.\n\nAt the end of the tree the epithelium reduces to two cell types working as a pair. Type I pneumocytes are identified in the lung alveoli as the thin squamous lining that forms the gas-exchange surface itself; they cover most of the alveolar area precisely because they are so attenuated. Type II pneumocytes are identified in the same alveoli as the rounded, granular cells sitting in the corners between them. They occupy far less surface but produce surfactant, and they serve as the progenitor that restores the epithelium after injury — so the cell that does the least exchanging is the one the alveolus depends on to keep exchanging at all."
+    },
+    {
+      "id": "art-res-top-de0dbd4695-quantitative-facts",
+      "narrative": "Bronchiolar smooth muscle is circularly arranged, and that geometry is the whole point: a circular band shortening around a tube reduces its radius. Because airway resistance depends steeply on radius, a modest degree of circular smooth-muscle contraction produces a disproportionate rise in resistance.\n\nThis matters most in the bronchioles specifically, because by this level cartilage has been lost from the wall. A bronchus is splinted open by cartilage plates and cannot be closed by muscle alone; a bronchiole has no such support and depends on its smooth-muscle tone and on the radial traction of the surrounding lung parenchyma to stay patent. That is why the bronchiole, not the bronchus, is the site where bronchoconstriction becomes clinically significant, and why bronchodilators act where they do."
+    }
+  ]
+}

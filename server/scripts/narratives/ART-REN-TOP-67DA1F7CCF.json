@@ -1,0 +1,16 @@
+{
+  "articleId": "ART-REN-TOP-67DA1F7CCF",
+  "publishedSummary": "Clearance is the volume of plasma completely cleared of a substance per unit time — a virtual volume, not a real one. Comparing a substance's clearance with GFR tells you at once whether the tubule reabsorbed it, secreted it, or left it alone.",
+  "holdThese": [
+    "Clearance is the volume of plasma completely cleared of a substance per unit time.",
+    "Clearance below GFR means net reabsorption; above GFR means net secretion; equal to GFR means neither.",
+    "PAH is freely filtered and then extensively secreted, so its clearance approximates renal plasma flow rather than GFR.",
+    "Cockcroft–Gault estimates creatinine clearance from age, sex, weight and plasma creatinine — no urine collection required."
+  ],
+  "sections": [
+    {
+      "id": "art-ren-top-67da1f7ccf-core-concepts",
+      "narrative": "Clearance is the volume of plasma that would have to be stripped completely of a substance each minute to account for the amount appearing in the urine. It is a virtual volume rather than a real one — no actual parcel of plasma is entirely cleared — but it is exactly the right construct, because it converts a rate of excretion into a number that can be compared directly with the rate of filtration.\n\nThat comparison is the whole method. If a substance's clearance is lower than GFR, less of it is leaving in the urine than was filtered, so the tubule must have reabsorbed some. If clearance exceeds GFR, more is leaving than was filtered, so the tubule must have secreted the difference. If clearance equals GFR, the tubule did neither. One measurement therefore settles the qualitative question of tubular handling before any mechanism is invoked.\n\nPara-aminohippurate is the instructive case at the secretory extreme. PAH is freely filtered, so filtration alone would give it a clearance equal to GFR; but the proximal tubule then secretes it so avidly that most of the PAH remaining in the peritubular blood is also removed on a single pass. Its clearance consequently far exceeds GFR and approximates renal plasma flow instead — the same measurement principle, applied to a substance with opposite tubular behaviour, yields an entirely different physiological quantity.\n\nAt the practical end, clearance measurement normally demands a timed urine collection, which is awkward and often done badly. The Cockcroft–Gault equation avoids it: it estimates creatinine clearance from age, sex, weight and plasma creatinine, with no urine required. The substitutions it makes are worth remembering, since they are where it fails — weight stands in for muscle mass, and age and sex adjust for its expected decline, so the estimate becomes unreliable in patients whose muscle mass does not match those assumptions."
+    }
+  ]
+}

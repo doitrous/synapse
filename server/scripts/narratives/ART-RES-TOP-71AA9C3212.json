@@ -1,0 +1,26 @@
+{
+  "articleId": "ART-RES-TOP-71AA9C3212",
+  "publishedSummary": "The airway changes its lining progressively from nose to alveolus, and every change serves the same trade-off: the deeper you go, the more the tissue is optimised for gas exchange and the less it is defended by bulk mucus and cartilage.",
+  "holdThese": [
+    "Middle and inferior conchae carry respiratory epithelium; the superior concha carries olfactory epithelium.",
+    "Olfactory-neuron axons enter the lamina propria and form the olfactory nerve fibres; olfactory stem cells give these neurons an unusual capacity to regenerate.",
+    "The tracheal wall has four layers: mucosa, submucosa, fibrocartilaginous coat and adventitia.",
+    "Type I pneumocytes are flat squamous cells with flat nuclei and scant cytoplasm — the gas-exchange surface itself.",
+    "Alveolar macrophages, including dust cells and heart-failure cells, derive from blood monocytes.",
+    "Pleural fluid lubricates the sliding of lung against chest wall and reduces friction."
+  ],
+  "sections": [
+    {
+      "id": "art-res-top-71aa9c3212-structure-and-components",
+      "narrative": "The upper airway is where inspired air is conditioned, and the histology reflects two separate jobs done in the same space. The nasopharyngeal lamina propria contains mucous glands that humidify the air, the pharyngeal tonsil that samples it immunologically, and the openings of the Eustachian tubes that equalise middle-ear pressure. Higher in the nasal cavity, a specialised sensory epithelium takes over: olfactory-neuron axons leave their cell bodies, enter the lamina propria, and gather there as the olfactory nerve fibres that pass through the cribriform plate to the olfactory bulb.\n\nAt the far end of the tract the tissue is stripped down to what gas exchange requires. Type I pneumocytes are flat squamous cells with flattened nuclei and very little cytoplasm — a shape chosen to make the diffusion path as short as possible, and the reason a single cell can cover a large area of alveolar surface. The alveoli are not isolated sacs: interalveolar septa are delicate loose-connective-tissue partitions between adjacent alveoli, and it is within these septa that the pulmonary capillaries run, so that one capillary can face air on both sides.\n\nThat thinness is also a vulnerability, which is why the alveolus is patrolled rather than walled off. Alveolar macrophages arrive from the bloodstream — dust cells and heart-failure cells both originate from blood monocytes. The two names describe the same cell doing the same job on different debris: dust cells laden with inhaled particulate, and heart-failure cells laden with haemosiderin after phagocytosing red cells that leaked into the alveoli when pulmonary venous pressure rose. Finding haemosiderin-laden macrophages in sputum is therefore a statement about the left heart, not the lung."
+    },
+    {
+      "id": "art-res-top-71aa9c3212-core-concepts",
+      "narrative": "The epithelium of the nasal cavity is not uniform, and the distribution is functional. The middle and inferior conchae are covered by respiratory epithelium, warming and humidifying the main airstream, whereas the superior concha carries olfactory epithelium, positioned high in the cavity where a small sampled fraction of inspired air reaches it. This is the anatomical reason sniffing improves smell: it redirects airflow superiorly toward the sensory epithelium.\n\nBelow the larynx the wall acquires the layered plan it will keep in modified form all the way down. The tracheal wall has a mucosa, a submucosa, a fibrocartilaginous coat and an adventitia. The fibrocartilaginous coat is the distinctive element — incomplete cartilage rings holding the lumen open against the negative intrathoracic pressures of inspiration, deficient posteriorly so the oesophagus behind can distend.\n\nOutside the lung entirely, a much simpler mechanism solves a mechanical problem. Pleural fluid lubricates respiratory sliding and reduces friction, allowing the lung surface to move against the chest wall through many thousands of breaths a day. The same thin film that permits sliding also couples the two surfaces, so that when the chest wall expands, the lung is obliged to follow."
+    },
+    {
+      "id": "art-res-top-71aa9c3212-quantitative-facts",
+      "narrative": "Olfactory receptor neurons are a genuine exception among neurons: they are replaced throughout life. Olfactory neurons have a high regenerative capacity because of olfactory stem cells in the basal layer of the epithelium, which continuously produce replacements. The reason is exposure — these are neurons whose endings sit directly in inspired air, in contact with pathogens, toxins and desiccation, and turnover is the price of putting a neuron in such a place."
+    }
+  ]
+}

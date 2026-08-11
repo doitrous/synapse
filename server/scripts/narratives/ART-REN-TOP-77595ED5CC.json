@@ -1,0 +1,16 @@
+{
+  "articleId": "ART-REN-TOP-77595ED5CC",
+  "publishedSummary": "Glomerular filtration rate is the volume of plasma filtered per unit time, and it can only be measured indirectly — by finding a substance whose appearance in urine reflects filtration and nothing else. Inulin is the substance that satisfies that condition exactly.",
+  "holdThese": [
+    "GFR is the volume of plasma filtered by all glomeruli per unit time.",
+    "Inulin is freely filtered and then neither reabsorbed nor secreted, so all filtered inulin appears in the urine.",
+    "That makes inulin clearance equal to GFR — the reference standard against which other markers are judged.",
+    "Creatinine is used instead for convenience because it is endogenous, but a small amount is secreted, so creatinine clearance slightly overestimates GFR."
+  ],
+  "sections": [
+    {
+      "id": "art-ren-top-77595ed5cc-mechanisms-and-physiology",
+      "narrative": "Glomerular filtration rate is the volume of plasma filtered across all glomeruli in a given time. It cannot be measured directly — there is no way to collect filtrate at the point it is formed — so it has to be inferred from something measurable downstream, in the urine. The logic of that inference sets a strict requirement for the marker used.\n\nAfter a substance is filtered at the glomerulus, the tubule can do two further things to it: reabsorb it back into the blood, or secrete additional amounts into the lumen. Either would break the link between what was filtered and what is excreted. Reabsorption would leave less in the urine than was filtered, so the calculation would underestimate GFR; secretion would put more in, and overestimate it. What is needed, then, is a substance that is freely filtered and thereafter left completely alone.\n\nInulin is that substance: it is neither reabsorbed nor secreted. Everything the glomerulus filters, the urine receives, so the rate at which inulin appears in the urine is exactly the rate at which plasma was filtered, and inulin clearance equals GFR. That is why inulin is the reference standard against which every other marker of filtration is calibrated.\n\nIn practice inulin has to be infused and its clearance measured under controlled conditions, which is why clinical work uses creatinine instead — an endogenous substance produced steadily from muscle creatine, requiring no infusion. The trade-off is precisely the property inulin was chosen for: a small fraction of creatinine is secreted by the proximal tubule, so creatinine clearance modestly exceeds true GFR. Knowing the direction of that error is usually more useful than the exact figure."
+    }
+  ]
+}

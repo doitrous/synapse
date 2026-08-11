@@ -1,0 +1,16 @@
+{
+  "articleId": "ART-REN-TOP-0104C5F19E",
+  "publishedSummary": "The kidney receives a large share of cardiac output but filters only a fraction of the plasma delivered to it. Filtration fraction is the name for that ratio, and its behaviour explains why the glomerulus is regulated by two arterioles rather than one.",
+  "holdThese": [
+    "Filtration fraction = GFR ÷ renal plasma flow.",
+    "It expresses the proportion of plasma reaching the glomeruli that is actually filtered — normally about a fifth.",
+    "GFR and renal plasma flow can move independently, because the glomerulus sits between two arterioles.",
+    "Efferent constriction raises filtration fraction; afferent constriction lowers both terms together."
+  ],
+  "sections": [
+    {
+      "id": "art-ren-top-0104c5f19e-quantitative-facts",
+      "narrative": "Not all the plasma delivered to the kidney is filtered. Filtration fraction is the ratio that expresses how much of it is: filtration fraction is GFR divided by renal plasma flow. Normally around a fifth of the plasma entering the glomeruli crosses into Bowman's space, while the remainder continues into the efferent arteriole and on to the peritubular capillaries.\n\nThe reason this ratio can vary at all is anatomical. The glomerular capillary bed is unusual in lying between two arterioles rather than between an arteriole and a venule, so there is a resistance vessel upstream and another downstream, and the two can be adjusted independently. Constricting the efferent arteriole raises pressure within the glomerular capillary while reducing flow through it, so GFR is defended even as renal plasma flow falls — the numerator holds up while the denominator drops, and filtration fraction rises. Constricting the afferent arteriole lowers glomerular pressure and flow together, so both terms fall.\n\nThat asymmetry is why the two arterioles are targeted differently in physiology and in pharmacology, and it is the reason filtration fraction is worth tracking as a quantity in its own right: it reports which of the two arterioles the kidney is currently using to regulate itself. It also has a downstream consequence. Because filtration concentrates protein in the blood that leaves the glomerulus, a higher filtration fraction raises the oncotic pressure in the peritubular capillaries, which in turn favours reabsorption from the proximal tubule."
+    }
+  ]
+}

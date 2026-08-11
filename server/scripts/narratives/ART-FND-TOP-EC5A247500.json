@@ -1,0 +1,21 @@
+{
+  "articleId": "ART-FND-TOP-EC5A247500",
+  "publishedSummary": "The face is supplied by arteries that anastomose freely and drained by veins that largely lack valves. The first fact explains why facial wounds bleed so briskly and heal so well; the second explains why facial infection was once genuinely dangerous.",
+  "holdThese": [
+    "Supraorbital and supratrochlear veins drain the anterior scalp and unite at the medial canthus to form the angular vein, which continues as the facial vein.",
+    "The facial and retromandibular veins are the main superficial venous channels of the face.",
+    "The retromandibular vein divides into anterior and posterior divisions near the lower end of the parotid gland.",
+    "The superficial temporal vein drains the lateral scalp; the occipital vein drains the posterior scalp to the suboccipital plexus or the internal jugular vein.",
+    "The superior and inferior labial arteries supply the upper and lower lips respectively."
+  ],
+  "sections": [
+    {
+      "id": "art-fnd-top-ec5a247500-facial-and-scalp-veins",
+      "narrative": "The venous drainage of the scalp and face is best followed as a circle, starting at the front. Supraorbital and supratrochlear veins drain the anterior scalp, running down the forehead toward the orbit. Near the medial canthus of the eye the two unite to form the angular vein, and the angular vein continues downward across the face as the facial vein. Laterally, the superficial temporal vein drains the lateral scalp; behind, the occipital vein drains the posterior scalp, ending either in the suboccipital venous plexus or in the internal jugular vein directly.\n\nOn the face itself, two channels carry most of the superficial blood: the facial and retromandibular veins are the main superficial venous channels. The retromandibular vein is formed within the substance of the parotid gland, and near the lower end of that gland it divides into an anterior and a posterior division. The division is the reason it appears twice in descriptions of neck drainage — the anterior division joins the facial vein to reach the internal jugular, while the posterior division joins the posterior auricular vein to form the external jugular. One vessel, two destinations.\n\nThe clinically important property of this system is what it lacks. These facial veins are largely valveless, and the angular vein at the medial canthus communicates through the ophthalmic veins with the cavernous sinus inside the skull. Blood in this territory can therefore move in either direction, and infection in the region drained by the angular vein — around the nose and upper lip — could historically spread backward into the cranial cavity, which is the origin of the term danger area of the face."
+    },
+    {
+      "id": "art-fnd-top-ec5a247500-facial-and-scalp-arteries",
+      "narrative": "The arterial supply of the lips comes from a pair of branches given off by the facial artery as it crosses the face. The superior labial artery supplies the upper lip and the inferior labial artery supplies the lower lip, each running near the vermilion border deep to the muscle of the lip.\n\nThe practical significance is that these vessels anastomose freely across the midline with their counterparts from the opposite side, forming a continuous arterial ring around the mouth. A cut lip therefore bleeds from both ends, because blood arrives from both directions — which is also why simple pressure on one side does not control it, and why the lip, like the rest of the face, is so well perfused that wounds there heal quickly and tolerate reconstruction that would fail elsewhere."
+    }
+  ]
+}

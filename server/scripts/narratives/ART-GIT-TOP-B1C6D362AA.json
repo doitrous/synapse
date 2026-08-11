@@ -1,0 +1,16 @@
+{
+  "articleId": "ART-GIT-TOP-B1C6D362AA",
+  "publishedSummary": "The pancreas is two glands sharing one organ: an exocrine acinar mass that makes digestive enzymes, and endocrine islets scattered through it. A delicate reticular scaffold holds both, which is why the gland has so little to resist inflammation once its own enzymes are activated.",
+  "holdThese": [
+    "The pancreas has an exocrine acinar component and endocrine islets within the same organ.",
+    "A silver-staining reticular stroma forms the background scaffold that supports both.",
+    "That stroma is fine reticular fibre, not dense fibrous tissue — the gland is poorly encapsulated and poorly septated.",
+    "Weak stromal containment is why activated enzymes in pancreatitis spread so readily through and beyond the gland."
+  ],
+  "sections": [
+    {
+      "id": "art-git-top-b1c6d362aa-core-concepts",
+      "narrative": "The pancreas is best understood as two glands occupying one organ. The bulk of it is exocrine: acini of pyramidal cells packed with zymogen granules, draining through a duct system into the duodenum. Scattered through that mass are the islets of Langerhans, the endocrine portion, secreting into the bloodstream rather than into ducts. The two are not compartmentalised into separate regions; the islets sit embedded within the exocrine tissue.\n\nWhat holds this arrangement together is a delicate connective-tissue framework. Silver-staining reticular stroma forms the pancreatic background — a fine meshwork of reticular fibres, demonstrated by silver impregnation rather than by routine stains, investing the acini and islets and carrying the capillaries that serve them. It is a scaffold, not a barrier: the pancreas has only a thin capsule and slender interlobular septa, and nothing resembling the dense fibrous partitioning found in some other glands.\n\nThat structural fact has a direct clinical consequence. The exocrine pancreas manufactures enzymes capable of digesting protein and fat, normally kept safe by being secreted as inactive zymogens. When those enzymes are activated prematurely within the gland, the fine reticular stroma offers very little resistance to their spread. Inflammation and digestion therefore extend rapidly through the parenchyma and out into the surrounding retroperitoneal fat, which is why acute pancreatitis is characteristically an illness of the whole upper abdomen rather than a localised one, and why its complications are so often defined by where the process tracked rather than by the gland itself."
+    }
+  ]
+}

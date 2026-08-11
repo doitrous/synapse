@@ -1,0 +1,16 @@
+{
+  "articleId": "ART-CVS-CORONARY-CIRCULATION",
+  "publishedSummary": "The heart cannot take oxygen from the blood inside its chambers; it feeds itself through the coronary arteries running in the sulci on its surface. Which artery supplies the posterior interventricular groove defines the dominance pattern, and dominance decides what a given occlusion will cost.",
+  "holdThese": [
+    "In a balanced pattern, two posterior interventricular branches arise — one from each coronary artery.",
+    "The right marginal artery supplies the right ventricle.",
+    "The small cardiac vein runs backward and to the left in the coronary sulcus alongside the right coronary artery.",
+    "Coronary veins largely accompany the arteries, which is why venous anatomy predicts arterial territory."
+  ],
+  "sections": [
+    {
+      "id": "art-cvs-coronary-circulation-coronary-arterial-anatomy",
+      "narrative": "The myocardium is too thick to be supplied by diffusion from the blood passing through the chambers, so it has its own circulation. The right and left coronary arteries arise from the aortic sinuses just above the aortic valve and run in the grooves on the surface of the heart — the coronary (atrioventricular) sulcus encircling the heart between atria and ventricles, and the interventricular grooves running down front and back over the septum. Branches then dive from these surface vessels into the muscle.\n\nThe right coronary artery passes in the right side of the coronary sulcus and gives a right marginal artery, which runs along the acute margin and supplies the right ventricle. The clinically decisive question is which vessel reaches the posterior interventricular groove and so supplies the inferior wall and the posterior part of the septum. Most hearts are right-dominant; some are left-dominant. In a balanced pattern, neither vessel takes the territory alone — two posterior interventricular branches arise, one from each coronary artery. Dominance matters because it determines how much muscle, and which conducting tissue, a single proximal occlusion will threaten.\n\nThe venous drainage broadly retraces the arterial path. Most cardiac veins accompany arteries, so venous anatomy is a reliable guide to arterial territory. The small cardiac vein illustrates the pattern: it turns backward and to the left within the coronary sulcus in company with the right coronary artery, ultimately draining with its fellows into the coronary sinus and thence into the right atrium. That companionship is also why a narrowing anywhere along a major branch produces ischaemia in a territory that can be predicted, and located, from surface anatomy alone."
+    }
+  ]
+}

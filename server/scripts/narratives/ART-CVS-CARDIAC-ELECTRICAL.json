@@ -1,0 +1,16 @@
+{
+  "articleId": "ART-CVS-CARDIAC-ELECTRICAL",
+  "publishedSummary": "The ECG is a recording of the order in which cardiac muscle depolarises and repolarises. Reading a rhythm is therefore a question about origin: each waveform tells you which tissue fired, and a missing waveform tells you that a chamber is no longer being driven in an organised way.",
+  "holdThese": [
+    "Each ECG waveform maps to a step in activation: P to atrial depolarisation, QRS to ventricular depolarisation, T to ventricular repolarisation.",
+    "In atrial fibrillation there are no discrete, consistently shaped P waves — organised atrial depolarisation has been lost.",
+    "An irregularly irregular ventricular response follows from the AV node being bombarded at random by disorganised atrial activity.",
+    "Ask of any rhythm: is there organised atrial activity, is there ventricular activity, and are the two related?"
+  ],
+  "sections": [
+    {
+      "id": "art-cvs-cardiac-electrical-rhythm-and-conduction-findings",
+      "narrative": "The ECG records the sequence in which the heart's muscle mass depolarises and repolarises, viewed from the body surface. Each deflection therefore stands for a specific event: the P wave is the spread of depolarisation across the atria, the QRS complex is depolarisation of the far larger ventricular mass, and the T wave is ventricular repolarisation. Because a waveform exists only when a substantial block of muscle depolarises together, in one direction, the presence and shape of each deflection is a statement about how organised that tissue's activation is.\n\nThis is what makes the P wave so informative. A normal P wave requires that a single impulse, arising from the sinoatrial node, sweeps across the atria in a reproducible direction, so that every beat produces a similarly shaped deflection. Atrial fibrillation destroys exactly that condition: the atria are depolarised continuously and chaotically by many wavefronts at once, so no single organised wave of depolarisation exists to record. The result is the defining ECG finding — atrial fibrillation has no discrete, consistently shaped P waves.\n\nThe practical consequences follow from the mechanism rather than having to be memorised separately. With no coordinated atrial contraction, the atrial contribution to ventricular filling is lost, which matters most in hearts that depend on it. Since the atrioventricular node is now bombarded by impulses arriving at random, it conducts some and blocks others, and the ventricular response becomes irregularly irregular. And because blood is no longer being swept cleanly out of the atria, stasis favours thrombus formation. Approaching any rhythm strip with the same three questions — is there organised atrial activity, is there ventricular activity, and are the two related to each other — resolves most of them."
+    }
+  ]
+}

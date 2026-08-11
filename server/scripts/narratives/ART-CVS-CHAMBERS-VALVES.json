@@ -1,0 +1,16 @@
+{
+  "articleId": "ART-CVS-CHAMBERS-VALVES",
+  "publishedSummary": "The heart is two pumps in one organ: two atria that receive and two ventricles that eject, separated by septa and governed by valves that make flow one-way. The four-chamber plan is what allows pulmonary and systemic circulations to run in series without mixing.",
+  "holdThese": [
+    "The heart has four chambers — two atria and two ventricles.",
+    "Atria are low-pressure receiving chambers; ventricles are the pumps, and their wall thickness follows the pressure they generate.",
+    "Septa keep the pulmonary and systemic circuits separate so deoxygenated and oxygenated blood do not mix.",
+    "Valves make flow one-way; they open and close passively, driven by pressure differences alone."
+  ],
+  "sections": [
+    {
+      "id": "art-cvs-chambers-valves-chambers-and-valve-structure",
+      "narrative": "The heart is built as four chambers: two atria above and two ventricles below. The division is not decorative. The atria are thin-walled, low-pressure chambers whose job is to receive blood continuously from the great veins and hold it until the ventricles are ready; the ventricles are the muscular pumps that generate the pressure needed to move that blood onward. Because they do different work, they are built differently — atrial walls are thin, ventricular walls are thick, and the left ventricle, which must drive blood through the whole systemic circuit, is markedly thicker than the right, which only has to reach the lungs.\n\nThe two sides are separated along the midline by the interatrial and interventricular septa. This separation is what allows the pulmonary and systemic circulations to run in series rather than in parallel: deoxygenated blood returning from the body passes through the right heart to the lungs, and oxygenated blood returning from the lungs passes through the left heart to the body, without the two streams mixing. A defect anywhere in that partition permits shunting, and the direction of the shunt follows the pressure difference across it.\n\nBetween each atrium and its ventricle, and at the outlet of each ventricle, sits a valve. The valves have no muscle of their own and are not actively opened or closed; they are passive flaps moved entirely by the pressure difference across them. A valve opens when the pressure behind it exceeds the pressure in front, and shuts when that gradient reverses. It is this arrangement — four chambers, two septa, four one-way valves — that converts rhythmic squeezing into directional flow."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "articleId": "ART-CVS-HEART-ORIENTATION",
+  "publishedSummary": "The heart hangs in a tough, inelastic sac in the middle mediastinum, pressed against the back of the sternum. Almost everything you can do to a heart from the outside — listen to it, tap it, drain it, compress it — follows from that one fact of position.",
+  "holdThese": [
+    "The pericardium has an inelastic fibrous layer and an inner serous layer enclosing a fluid-filled space.",
+    "The heart lies in the middle mediastinum, retrosternal, anchored forward by the sternopericardial ligaments.",
+    "Because the fibrous layer will not stretch acutely, a small rapid effusion raises pressure steeply — the basis of tamponade.",
+    "Retrosternal position is what makes chest compressions and the subxiphoid needle work."
+  ],
+  "sections": [
+    {
+      "id": "art-cvs-heart-orientation-pericardium-and-position",
+      "narrative": "The heart does not sit loose in the chest. It is enclosed by the pericardium, a sac of two quite different materials. The outer fibrous layer is dense collagen — strong, and for practical purposes inelastic over short timescales. Inside it, the serous layer folds back on itself, so that one continuous membrane lines the fibrous sac and also covers the surface of the heart. Between those two reflections lies a closed, thin, fluid-filled space that lets the heart change shape with every beat while sliding almost without friction.\n\nThat sac occupies the middle mediastinum, the central compartment of the thorax between the lungs. It lies directly behind the sternum and the costal cartilages, and it is tethered forward: the superior and inferior sternopericardial ligaments anchor the fibrous pericardium to the sternum, so the heart cannot fall away from the anterior chest wall when the body is upright or supine.\n\nThose two properties together — an unyielding outer layer and a fixed retrosternal position — explain most of the clinical behaviour of this region. Because the fibrous layer will not stretch quickly, fluid entering the pericardial space acutely has nowhere to go; intrapericardial pressure climbs steeply after only a modest volume, compresses the thin-walled chambers, and prevents filling. That is cardiac tamponade, and it is why a rapid bleed of a couple of hundred millilitres can be lethal while a slow effusion of a litre may be tolerated, the fibrous layer having had months to remodel. The same fixed anterior position is what makes the heart accessible: it can be compressed between the sternum and the vertebral column during external cardiac massage, and reached from below and behind the xiphoid process with a needle."
+    }
+  ]
+}

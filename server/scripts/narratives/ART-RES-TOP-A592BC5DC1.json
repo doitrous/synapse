@@ -1,0 +1,17 @@
+{
+  "articleId": "ART-RES-TOP-A592BC5DC1",
+  "publishedSummary": "Lung volumes are the amounts of air moved or retained in defined manoeuvres; capacities are sums of two or more volumes. Keeping the difference straight is what makes the arithmetic of spirometry — and its one real limitation — obvious.",
+  "holdThese": [
+    "A volume is a single measured quantity; a capacity is the sum of two or more volumes.",
+    "Inspiratory capacity = tidal volume + inspiratory reserve volume.",
+    "Functional residual capacity = expiratory reserve volume + residual volume.",
+    "Because residual volume cannot be exhaled, FRC and residual volume cannot be measured by spirometry — they need dilution or plethysmography.",
+    "FRC is the volume left in the lung at the end of a quiet breath out — the resting balance point of the respiratory system."
+  ],
+  "sections": [
+    {
+      "id": "art-res-top-a592bc5dc1-quantitative-facts",
+      "narrative": "The four primary lung volumes do not overlap, and every capacity is simply a sum of some of them. Tidal volume is the air moved in a quiet breath. Inspiratory reserve volume is the extra that can still be drawn in after a normal inspiration; expiratory reserve volume is the extra that can still be pushed out after a normal expiration. Residual volume is what remains after a maximal expiration and cannot be exhaled at all.\n\nTwo capacities follow directly. Inspiratory capacity equals tidal volume plus inspiratory reserve volume — everything that can be inhaled starting from the end of a quiet breath out. Functional residual capacity equals expiratory reserve volume plus residual volume — everything still in the lung at that same point. The two are complementary halves of the resting position: from the end of quiet expiration, IC is what can still go in and FRC is what is already there.\n\nThat resting position is not arbitrary. FRC is the volume at which the inward elastic recoil of the lung is exactly balanced by the outward recoil of the chest wall, so it is where the respiratory system sits when no muscle is contracting. Anything that stiffens the lung lowers it; anything that traps air raises it.\n\nThe arithmetic also exposes the one thing spirometry cannot do. A spirometer measures air that moves, and residual volume by definition never moves. Any quantity containing it — residual volume itself, functional residual capacity, and total lung capacity — is therefore beyond a spirometer's reach and must be obtained by gas dilution, nitrogen washout or body plethysmography."
+    }
+  ]
+}

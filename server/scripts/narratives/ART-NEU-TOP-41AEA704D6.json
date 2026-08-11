@@ -1,0 +1,16 @@
+{
+  "articleId": "ART-NEU-TOP-41AEA704D6",
+  "publishedSummary": "Sensory examination is an anatomical test, not a list of manoeuvres. Each modality is chosen because it travels in a known pathway, so the pattern of loss localises the lesion — which is why crude and fine touch, carried differently, must be tested differently.",
+  "holdThese": [
+    "Crude touch localises poorly and discriminates intensity poorly; fine touch does both well.",
+    "The difference reflects receptor type and pathway, not effort of testing.",
+    "Test each modality against its own expectation, and compare side with side and distal with proximal.",
+    "The value of the examination lies in the pattern of loss, not in any single finding."
+  ],
+  "sections": [
+    {
+      "id": "art-neu-top-41aea704d6-core-concepts",
+      "narrative": "Somatic sensory testing is worth doing carefully only because different sensations travel by different routes. Touch is not one modality but two, carried by different receptors and largely different ascending pathways, and the examination is designed around that split.\n\nCrude touch has poor intensity discrimination and poor localisation. A patient can tell that they were touched, but not precisely where, and not reliably how firmly. That imprecision is a property of the system carrying it — receptors with large, overlapping receptive fields, and an ascending pathway that is diffuse and bilaterally represented. Fine touch is the opposite: small receptive fields and a highly ordered pathway allow a patient to localise a stimulus accurately and to judge fine gradations, and it is fine touch that supports two-point discrimination.\n\nThe practical consequence is that the two must be tested separately, with different expectations of the answer. Asking a patient to localise a light touch tests the fine system; establishing merely that a stimulus was felt tests the crude one, and a preserved crude response can mask a substantial fine-touch deficit. Because crude touch is carried diffusely and bilaterally, it is also relatively resistant to a unilateral lesion — so a patient may report that they still feel everything while nonetheless having lost the ability to localise it.\n\nThis is why sensory examination should be read as a pattern rather than a series of individual results. Each side is compared with the other and distal regions with proximal, and the modalities that are lost together are matched against the pathways that run together. A deficit that respects a dermatome points to a root; one that follows a peripheral nerve distribution points to that nerve; and dissociation between modalities — one lost while another is preserved — points to a lesion within the cord, where the two pathways are separated."
+    }
+  ]
+}
