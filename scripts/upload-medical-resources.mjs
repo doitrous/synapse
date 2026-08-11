@@ -45,6 +45,7 @@ const result = { uploaded: 0, alreadyAvailable: 0, skippedOversize: 0, failed: 0
 async function status(resource) {
   const response = await fetch(`${apiBase}/medical-resources/${encodeURIComponent(resource.id)}/status`, {
     headers: { Authorization: `Bearer ${token}` },
+    signal: AbortSignal.timeout(30 * 1000),
   })
   if (!response.ok) throw new Error(`status ${response.status}`)
   return response.json()

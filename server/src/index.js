@@ -19,6 +19,15 @@ const RESOURCE_STORAGE_DIR = resolve(process.env.RESOURCE_STORAGE_DIR || '/data/
 const RESOURCE_MAX_BYTES = Number(process.env.RESOURCE_MAX_BYTES) || 250 * 1024 * 1024
 const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
 const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
+const MEDICAL_EVIDENCE_STATE_KEY = 'synapse-medical-evidence-v1'
+let medicalResourceSnapshot = null
+let medicalResourceLoad = null
+
+function invalidateMedicalResourceSnapshot(key) {
+  if (key !== MEDICAL_EVIDENCE_STATE_KEY) return
+  medicalResourceSnapshot = null
+  medicalResourceLoad = null
+}
 const app = express()
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
 app.use(express.json({
@@ -104,6 +113,7 @@ app.put('/api/state/:key', requireAdmin, wrap(async (req, res) => {
       )
     }
     await conn.commit()
+    invalidateMedicalResourceSnapshot(req.params.key)
   } catch (error) {
     await conn.rollback()
     throw error
@@ -115,6 +125,7 @@ app.put('/api/state/:key', requireAdmin, wrap(async (req, res) => {
 
 app.delete('/api/state/:key', requireAdmin, wrap(async (req, res) => {
   await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
+  invalidateMedicalResourceSnapshot(req.params.key)
   res.json({ ok: true })
 }))
 
@@ -256,17 +267,25 @@ app.get('/api/launch/medical-library-v1/preview', requireAdmin, wrap(async (_req
   })
 }))
 
-async function resourceRecord(resourceId) {
-  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-medical-evidence-v1'])
-  if (!rows.length) return null
-  const evidence = JSON.parse(rows[0].v)
-  return evidence.resources?.find((resource) => resource.id === resourceId) || null
+async function medicalResourceRecords() {
+  if (medicalResourceSnapshot) return medicalResourceSnapshot.resources
+  if (!medicalResourceLoad) {
+    medicalResourceLoad = (async () => {
+      const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [MEDICAL_EVIDENCE_STATE_KEY])
+      const resources = rows.length ? JSON.parse(rows[0].v).resources ?? [] : []
+      medicalResourceSnapshot = {
+        resources,
+        byId: new Map(resources.map((resource) => [resource.id, resource])),
+      }
+      return medicalResourceSnapshot
+    })().finally(() => { medicalResourceLoad = null })
+  }
+  return (await medicalResourceLoad).resources
 }
 
-async function medicalResourceRecords() {
-  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-medical-evidence-v1'])
-  if (!rows.length) return []
-  return JSON.parse(rows[0].v).resources ?? []
+async function resourceRecord(resourceId) {
+  await medicalResourceRecords()
+  return medicalResourceSnapshot?.byId.get(resourceId) || null
 }
 
 function resolvedResourcePath(storageKey) {
@@ -647,6 +666,11 @@ migrate()
       "SELECT id FROM data_snapshots WHERE created_at >= NOW() - INTERVAL 24 HOUR AND created_by = 'system:daily' LIMIT 1",
     )
     if (!recent.length) await createDataSnapshot(`Daily recovery point ${new Date().toISOString()}`, 'system:daily')
-    app.listen(port, () => console.log(`Synapse on :${port}`))
+    app.listen(port, () => {
+      console.log(`Synapse on :${port}`)
+      void medicalResourceRecords()
+        .then((resources) => console.log(`Medical resource index ready (${resources.length} records)`))
+        .catch((error) => console.error('Medical resource index warm-up failed:', error.message))
+    })
   })
   .catch((e) => { console.error('startup failed (DB unreachable?):', e.message); process.exit(1) })
