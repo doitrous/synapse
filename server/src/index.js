@@ -263,6 +263,12 @@ async function resourceRecord(resourceId) {
   return evidence.resources?.find((resource) => resource.id === resourceId) || null
 }
 
+async function medicalResourceRecords() {
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-medical-evidence-v1'])
+  if (!rows.length) return []
+  return JSON.parse(rows[0].v).resources ?? []
+}
+
 function resolvedResourcePath(storageKey) {
   if (!storageKey || typeof storageKey !== 'string' || storageKey.includes('\0')) return null
   const fullPath = resolve(RESOURCE_STORAGE_DIR, storageKey)
@@ -275,6 +281,21 @@ function resolvedChunkUploadPath(resourceId, uploadId) {
   const uploadPath = resolve(RESOURCE_STORAGE_DIR, '.__uploads', safeResourceId, uploadId)
   return uploadPath.startsWith(`${RESOURCE_STORAGE_DIR}${sep}`) ? uploadPath : null
 }
+
+/** Remove interrupted upload work only after every stored resource is live. */
+app.post('/api/medical-resources/cleanup-uploads', requireAdmin, wrap(async (_req, res) => {
+  const storedResources = (await medicalResourceRecords()).filter((resource) => resource.storageKey)
+  if (!storedResources.length) return res.status(409).json({ error: 'no qualified stored resources are registered' })
+  const missingResourceIds = storedResources
+    .filter((resource) => {
+      const fullPath = resolvedResourcePath(resource.storageKey)
+      return !fullPath || !existsSync(fullPath)
+    })
+    .map((resource) => resource.id)
+  if (missingResourceIds.length) return res.status(409).json({ error: 'qualified resources are still pending upload', missingResourceIds })
+  await rm(resolve(RESOURCE_STORAGE_DIR, '.__uploads'), { recursive: true, force: true })
+  res.json({ ok: true, storedResources: storedResources.length })
+}))
 
 app.get('/api/medical-resources/:resourceId/status', requireAuthenticated, wrap(async (req, res) => {
   const resource = await resourceRecord(req.params.resourceId)
@@ -407,7 +428,10 @@ app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', require
     if (sizeBytes !== declaredSize) throw new Error('assembled resource size does not match the declaration')
     if (resource.sha256 && resource.sha256 !== sha256) throw new Error('assembled file hash does not match the qualified source')
     await rename(temporaryPath, fullPath)
-    await rm(uploadPath, { recursive: true, force: true })
+    // A successful, hash-verified assembly makes every partial attempt for
+    // this resource obsolete. Remove the resource's entire upload workspace
+    // so interrupted retry profiles do not consume persistent-volume space.
+    await rm(dirname(uploadPath), { recursive: true, force: true })
     res.json({ ok: true, id: resource.id, sizeBytes, sha256, chunks: totalChunks })
   } catch (error) {
     output.destroy()

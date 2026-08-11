@@ -4,7 +4,13 @@ import { createReadStream, existsSync, openSync, closeSync, readFileSync, readSy
 import { basename, resolve } from 'node:path'
 import { randomUUID } from 'node:crypto'
 
-const EDGE_SAFE_CHUNK_BYTES = 48 * 1024 * 1024
+const EDGE_SAFE_CHUNK_BYTES = 4 * 1024 * 1024
+const RETRYABLE_STATUS_CODES = new Set([408, 425, 429, 500, 502, 503, 504])
+const MAX_CHUNK_ATTEMPTS = 7
+
+function wait(milliseconds) {
+  return new Promise((resolvePromise) => setTimeout(resolvePromise, milliseconds))
+}
 
 function argument(name) {
   const index = process.argv.indexOf(name)
@@ -20,13 +26,17 @@ async function readToken() {
 const catalogPath = argument('--catalog')
 const apiBase = (argument('--api') || 'https://synapse.doitrous.com/api').replace(/\/$/, '')
 const dryRun = process.argv.includes('--dry-run')
+const shardCount = Number(argument('--shard-count') || 1)
+const shardIndex = Number(argument('--shard-index') || 0)
 const token = await readToken()
 
 if (!catalogPath) throw new Error('Pass --catalog /absolute/path/to/full-catalog.json')
 if (!token) throw new Error('Pass the server owner key through standard input.')
+if (!Number.isInteger(shardCount) || shardCount < 1 || !Number.isInteger(shardIndex) || shardIndex < 0 || shardIndex >= shardCount) throw new Error('Shard index must be within the configured shard count.')
 
 const catalog = JSON.parse(readFileSync(resolve(catalogPath), 'utf8'))
-const localResources = catalog.resources.filter((resource) => resource.source_path && existsSync(resource.source_path))
+const allLocalResources = catalog.resources.filter((resource) => resource.source_path && existsSync(resource.source_path))
+const localResources = allLocalResources.filter((_resource, index) => index % shardCount === shardIndex)
 const result = { uploaded: 0, alreadyAvailable: 0, skippedOversize: 0, failed: 0, uploadedBytes: 0 }
 
 async function status(resource) {
@@ -38,7 +48,7 @@ async function status(resource) {
 }
 
 async function upload(resource, size) {
-  if (size > 90 * 1024 * 1024) return uploadInChunks(resource, size)
+  if (size > EDGE_SAFE_CHUNK_BYTES) return uploadInChunks(resource, size)
   const response = await fetch(`${apiBase}/medical-resources/${encodeURIComponent(resource.id)}/file`, {
     method: 'PUT',
     headers: {
@@ -56,7 +66,8 @@ async function upload(resource, size) {
 }
 
 async function uploadInChunks(resource, size) {
-  const uploadId = `local-${randomUUID()}`
+  const chunkProfile = `${Math.round(EDGE_SAFE_CHUNK_BYTES / 1024 / 1024)}m`
+  const uploadId = resource.sha256 ? `qualified-${chunkProfile}-${resource.sha256.slice(0, 32)}` : `local-${randomUUID()}`
   const totalChunks = Math.ceil(size / EDGE_SAFE_CHUNK_BYTES)
   const handle = openSync(resource.source_path, 'r')
   try {
@@ -66,18 +77,30 @@ async function uploadInChunks(resource, size) {
       const buffer = Buffer.allocUnsafe(length)
       let read = 0
       while (read < length) read += readSync(handle, buffer, read, length - read, offset + read)
-      const response = await fetch(`${apiBase}/medical-resources/${encodeURIComponent(resource.id)}/chunks/${uploadId}/${index}`, {
-        method: 'PUT',
-        headers: {
-          Authorization: `Bearer ${token}`,
-          'Content-Type': 'application/octet-stream',
-          'Content-Length': String(length),
-        },
-        body: buffer,
-        signal: AbortSignal.timeout(30 * 60 * 1000),
-      })
+      let response
+      let lastError
+      for (let attempt = 1; attempt <= MAX_CHUNK_ATTEMPTS; attempt += 1) {
+        try {
+          response = await fetch(`${apiBase}/medical-resources/${encodeURIComponent(resource.id)}/chunks/${uploadId}/${index}`, {
+            method: 'PUT',
+            headers: {
+              Authorization: `Bearer ${token}`,
+              'Content-Type': 'application/octet-stream',
+              'Content-Length': String(length),
+            },
+            body: buffer,
+            signal: AbortSignal.timeout(90 * 1000),
+          })
+          if (response.ok || response.status === 409 || !RETRYABLE_STATUS_CODES.has(response.status)) break
+          lastError = new Error(`HTTP ${response.status}: ${(await response.text()).slice(0, 180)}`)
+        } catch (error) {
+          lastError = error
+        }
+        if (attempt < MAX_CHUNK_ATTEMPTS) await wait(Math.min(20_000, 750 * 2 ** (attempt - 1)))
+      }
+      if (!response) throw new Error(`chunk ${index + 1}/${totalChunks} failed after ${MAX_CHUNK_ATTEMPTS} attempts: ${lastError instanceof Error ? lastError.message : String(lastError)}`)
       if (response.status === 409) return { alreadyAvailable: true }
-      if (!response.ok) throw new Error(`chunk ${index + 1}/${totalChunks} failed with ${response.status}: ${(await response.text()).slice(0, 180)}`)
+      if (!response.ok) throw new Error(`chunk ${index + 1}/${totalChunks} failed after ${MAX_CHUNK_ATTEMPTS} attempts: ${lastError instanceof Error ? lastError.message : `HTTP ${response.status}`}`)
     }
   } finally {
     closeSync(handle)
@@ -96,7 +119,7 @@ async function uploadInChunks(resource, size) {
   return response.json()
 }
 
-console.log(`Qualified local resources: ${localResources.length}`)
+console.log(`Qualified local resources: ${allLocalResources.length} · worker ${shardIndex + 1}/${shardCount} handles ${localResources.length}`)
 for (let index = 0; index < localResources.length; index += 1) {
   const resource = localResources[index]
   const size = statSync(resource.source_path).size

@@ -1,11 +1,19 @@
-/* Admin console mock data. Student identities are anonymised (codes), matching
-   the platform's privacy stance; staff are named. */
+/* Demo catalogue values are available only when no live API is configured. */
+
+import { API_MODE } from '@/lib/api'
 
 export type Status = 'Published' | 'Draft' | 'In review' | 'Archived'
 
 /* ---- Control dashboard ------------------------------------------------- */
 
-export const overview = {
+export const overview = API_MODE ? {
+  activeStudents: 0,
+  newThisMonth: 0,
+  contentItems: 0,
+  mrr: 0,
+  openTickets: 0,
+  completionRate: 0,
+} : {
   activeStudents: 1248,
   newThisMonth: 86,
   contentItems: 3412,
@@ -14,7 +22,7 @@ export const overview = {
   completionRate: 71,
 }
 
-export const enrolmentByMonth = [
+export const enrolmentByMonth = API_MODE ? [] : [
   { month: 'Mar', students: 1042 },
   { month: 'Apr', students: 1090 },
   { month: 'May', students: 1131 },
@@ -23,21 +31,21 @@ export const enrolmentByMonth = [
   { month: 'Aug', students: 1248 },
 ]
 
-export const atRiskStudents = [
+export const atRiskStudents = API_MODE ? [] : [
   { code: 'S-4471', year: 'Year 3', lastActive: '9 days ago', readiness: 38, reason: 'Low activity' },
   { code: 'S-2093', year: 'Year 2', lastActive: '6 days ago', readiness: 44, reason: 'Failing Qbank accuracy' },
   { code: 'S-7752', year: 'Year 3', lastActive: '5 days ago', readiness: 41, reason: 'Missed 3 assessments' },
   { code: 'S-1180', year: 'Year 1', lastActive: '8 days ago', readiness: 47, reason: 'Low activity' },
 ]
 
-export const contentHealth = [
+export const contentHealth = API_MODE ? [] : [
   { area: 'Library', items: 642, coverage: 88 },
   { area: 'Question Bank', items: 3200, coverage: 74 },
   { area: 'Practical', items: 96, coverage: 61 },
   { area: 'Resources', items: 418, coverage: 92 },
 ]
 
-export const recentActivity = [
+export const recentActivity = API_MODE ? [] : [
   { id: 'a1', actor: 'Dr Owusu', action: 'published 12 questions in Cardiovascular', when: '18 min ago' },
   { id: 'a2', actor: 'Dr Fielding', action: 'edited Library topic “Acid–base balance”', when: '1 hour ago' },
   { id: 'a3', actor: 'System', action: 'sent “Exam block reminder” to 1,204 students', when: '3 hours ago' },
@@ -47,7 +55,7 @@ export const recentActivity = [
 
 /* ---- Academic setup ---------------------------------------------------- */
 
-export const academicYears = [
+export const academicYears = API_MODE ? [] : [
   { year: 'Year 1', students: 312, courses: 6, status: 'Active' },
   { year: 'Year 2', students: 298, courses: 7, status: 'Active' },
   { year: 'Year 3', students: 284, courses: 8, status: 'Active' },
@@ -55,7 +63,7 @@ export const academicYears = [
   { year: 'Year 5', students: 153, courses: 4, status: 'Active' },
 ]
 
-export const courses = [
+export const courses = API_MODE ? [] : [
   { id: 'c1', name: 'Cardiovascular system', year: 'Year 2', block: 'Block 3', students: 298, lead: 'Dr Owusu', status: 'Published' as Status },
   { id: 'c2', name: 'Respiratory system', year: 'Year 2', block: 'Block 4', students: 298, lead: 'Dr Fielding', status: 'Published' as Status },
   { id: 'c3', name: 'Renal & urinary', year: 'Year 2', block: 'Block 5', students: 291, lead: 'Dr Shah', status: 'Published' as Status },
@@ -63,7 +71,7 @@ export const courses = [
   { id: 'c5', name: 'Neurology', year: 'Year 3', block: 'Block 2', students: 284, lead: 'Dr Mensah', status: 'Draft' as Status },
 ]
 
-export const termDates = [
+export const termDates = API_MODE ? [] : [
   { name: 'Autumn term', start: '22 Sep 2026', end: '12 Dec 2026' },
   { name: 'Spring term', start: '12 Jan 2027', end: '27 Mar 2027' },
   { name: 'Summer term', start: '20 Apr 2027', end: '3 Jul 2027' },
@@ -71,7 +79,7 @@ export const termDates = [
 
 /* ---- Content status (Library / Questions / Practical / Resources) ------ */
 
-export const libraryTopicMeta: Record<string, { status: Status; updated: string; author: string }> = {
+export const libraryTopicMeta: Record<string, { status: Status; updated: string; author: string }> = API_MODE ? {} : {
   hf: { status: 'Published', updated: '2 days ago', author: 'Dr Owusu' },
   acs: { status: 'Published', updated: '5 days ago', author: 'Dr Owusu' },
   asthma: { status: 'Published', updated: '1 week ago', author: 'Dr Fielding' },
@@ -80,7 +88,7 @@ export const libraryTopicMeta: Record<string, { status: Status; updated: string;
   'cranial-nerves': { status: 'Draft', updated: '3 days ago', author: 'Dr Mensah' },
 }
 
-export const questionMeta: Record<string, { status: Status; author: string; updated: string; flags: number }> = {
+export const questionMeta: Record<string, { status: Status; author: string; updated: string; flags: number }> = API_MODE ? {} : {
   'q-hf-1': { status: 'Published', author: 'Dr Owusu', updated: '3 days ago', flags: 0 },
   'q-hf-4': { status: 'Published', author: 'Dr Owusu', updated: '3 days ago', flags: 0 },
   'q-acs-1': { status: 'Published', author: 'Dr Fielding', updated: '1 week ago', flags: 1 },
@@ -93,11 +101,11 @@ export const questionMeta: Record<string, { status: Status; author: string; upda
 
 export const resourceMeta: Record<string, { sizeMb: number; downloads: number; status: Status }> = {}
 
-export const storage = { usedGb: 214, totalGb: 500 }
+export const storage = API_MODE ? { usedGb: 0, totalGb: 0 } : { usedGb: 214, totalGb: 500 }
 
 /* ---- Email & automations ----------------------------------------------- */
 
-export const campaigns = [
+export const campaigns = API_MODE ? [] : [
   { id: 'm1', subject: 'Cardiovascular exam block — key dates', status: 'Sent', recipients: 1204, openRate: 68, when: '3 days ago' },
   { id: 'm2', subject: 'New: OSCE practice stations are live', status: 'Sent', recipients: 1180, openRate: 74, when: '1 week ago' },
   { id: 'm3', subject: 'August newsletter', status: 'Scheduled', recipients: 1248, openRate: 0, when: 'in 2 days' },
@@ -134,7 +142,7 @@ export const automationCategories: AutomationCategory[] = [
   'Operations',
 ]
 
-export const automations: Automation[] = [
+export const automations: Automation[] = API_MODE ? [] : [
   // Onboarding
   { id: 'au-welcome', name: 'Welcome to Synapse', description: 'The first email a new student receives after signing up.', trigger: 'On sign-up', enabled: true, category: 'Onboarding', audience: 'student' },
 
@@ -176,9 +184,9 @@ export const automations: Automation[] = [
 
 /* ---- Payments & finance ------------------------------------------------ */
 
-export const finance = { mrr: 7180, arr: 86160, activeSubs: 1132, churnPct: 2.4, arpu: 6.34 }
+export const finance = API_MODE ? { mrr: 0, arr: 0, activeSubs: 0, churnPct: 0, arpu: 0 } : { mrr: 7180, arr: 86160, activeSubs: 1132, churnPct: 2.4, arpu: 6.34 }
 
-export const revenueByMonth = [
+export const revenueByMonth = API_MODE ? [] : [
   { month: 'Mar', revenue: 5820 },
   { month: 'Apr', revenue: 6110 },
   { month: 'May', revenue: 6440 },
@@ -187,13 +195,13 @@ export const revenueByMonth = [
   { month: 'Aug', revenue: 7180 },
 ]
 
-export const plans = [
+export const plans = API_MODE ? [] : [
   { name: 'Student — annual', price: '£69/yr', subs: 842, active: true },
   { name: 'Student — monthly', price: '£8/mo', subs: 214, active: true },
   { name: 'Institutional licence', price: 'Custom', subs: 76, active: true },
 ]
 
-export const transactions = [
+export const transactions = API_MODE ? [] : [
   { id: 'INV-9921', code: 'S-4471', plan: 'Student — annual', amount: '£69.00', status: 'Paid', date: '1 Aug 2026' },
   { id: 'INV-9920', code: 'S-2093', plan: 'Student — monthly', amount: '£8.00', status: 'Paid', date: '1 Aug 2026' },
   { id: 'INV-9919', code: 'S-7752', plan: 'Student — annual', amount: '£69.00', status: 'Refunded', date: '31 Jul 2026' },
@@ -203,7 +211,7 @@ export const transactions = [
 
 /* ---- Privacy & support ------------------------------------------------- */
 
-export const tickets = [
+export const tickets = API_MODE ? [] : [
   { id: 'T-3391', subject: 'Cannot access Year 3 question bank', code: 'S-4471', status: 'Open', priority: 'High', age: '2h' },
   { id: 'T-3390', subject: 'Billing — charged twice', code: 'S-2093', status: 'Open', priority: 'High', age: '5h' },
   { id: 'T-3388', subject: 'Request to change registered email', code: 'S-7752', status: 'Pending', priority: 'Normal', age: '1d' },
@@ -211,13 +219,13 @@ export const tickets = [
   { id: 'T-3379', subject: 'Feedback on OSCE mark scheme', code: 'S-5540', status: 'Resolved', priority: 'Low', age: '4d' },
 ]
 
-export const dataRequests = [
+export const dataRequests = API_MODE ? [] : [
   { id: 'DR-118', type: 'Export', code: 'S-4471', status: 'Completed', date: '29 Jul 2026' },
   { id: 'DR-117', type: 'Erasure', code: 'S-9902', status: 'In progress', date: '31 Jul 2026' },
   { id: 'DR-116', type: 'Export', code: 'S-2093', status: 'Completed', date: '24 Jul 2026' },
 ]
 
-export const consentSettings = [
+export const consentSettings = API_MODE ? [] : [
   { id: 'cs1', name: 'Analytics cookies', description: 'Product usage analytics, off by default', enabled: false },
   { id: 'cs2', name: 'Study reminders by email', description: 'Students may opt out individually', enabled: true },
   { id: 'cs3', name: 'Data retention: 24 months after graduation', description: 'Automatic erasure schedule', enabled: true },
@@ -225,28 +233,33 @@ export const consentSettings = [
 
 /* ---- Settings ---------------------------------------------------------- */
 
-export const institution = {
+export const institution = API_MODE ? {
+  name: 'Synapse',
+  domain: 'synapse.doitrous.com',
+  region: 'Egypt',
+  contact: '',
+} : {
   name: 'Osler School of Medicine',
   domain: 'oslermed.ac.uk',
   region: 'United Kingdom',
   contact: 'admin@oslermed.ac.uk',
 }
 
-export const roles = [
+export const roles = API_MODE ? [] : [
   { name: 'Administrator', members: 4, description: 'Full access to all settings and data' },
   { name: 'Curriculum lead', members: 9, description: 'Authors and publishes content' },
   { name: 'Faculty', members: 38, description: 'Authors content, signs off skills' },
   { name: 'Support', members: 6, description: 'Handles tickets and data requests' },
 ]
 
-export const integrations = [
+export const integrations = API_MODE ? [] : [
   { name: 'Single sign-on (SAML)', description: 'University identity provider', connected: true },
   { name: 'Stripe', description: 'Payments and subscriptions', connected: true },
   { name: 'Zoom', description: 'Live sessions and recordings', connected: false },
   { name: 'Slack', description: 'Admin alerts and digests', connected: false },
 ]
 
-export const featureFlags = [
+export const featureFlags = API_MODE ? [] : [
   { id: 'ff1', name: 'Study Together', description: 'Shared live tests', enabled: true },
   { id: 'ff2', name: 'Infinite whiteboard', description: 'Concept-map workspace', enabled: true },
   { id: 'ff3', name: 'AI study suggestions', description: 'Beta — recommended next topics', enabled: false },
@@ -254,7 +267,7 @@ export const featureFlags = [
 
 /* ---- Audit & security -------------------------------------------------- */
 
-export const auditLog = [
+export const auditLog = API_MODE ? [] : [
   { id: 'e1', time: '10:42', actor: 'Dr Owusu', action: 'Published', target: '12 questions · Cardiovascular', ip: '192.0.2.14' },
   { id: 'e2', time: '10:31', actor: 'admin@osler', action: 'Changed role', target: 'S-5540 → Faculty', ip: '192.0.2.9' },
   { id: 'e3', time: '09:58', actor: 'Dr Fielding', action: 'Edited', target: 'Library · Acid–base balance', ip: '198.51.100.7' },
@@ -263,10 +276,10 @@ export const auditLog = [
   { id: 'e6', time: '08:12', actor: 'admin@osler', action: 'Sign-in', target: 'Admin console', ip: '192.0.2.9' },
 ]
 
-export const securityChecks = [
+export const securityChecks = API_MODE ? [] : ([
   { name: 'Two-factor authentication for staff', status: 'pass', detail: 'Enforced for all 57 staff accounts' },
   { name: 'Data encryption at rest', status: 'pass', detail: 'AES-256 on all stores' },
   { name: 'Inactive admin sessions', status: 'warn', detail: '2 admin accounts inactive > 90 days' },
   { name: 'Backups', status: 'pass', detail: 'Last verified restore: 3 days ago' },
   { name: 'Password policy', status: 'pass', detail: 'Minimum 12 characters, breach-checked' },
-] as const
+] as const)

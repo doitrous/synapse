@@ -53,6 +53,7 @@ import { formatDateTime } from '@/lib/format'
 import { removeStoredMedia } from '@/lib/mediaStorage'
 import { initialContentReports, REPORT_STORAGE_KEY, type ContentReport } from '@/data/contentReports'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
+import { API_MODE } from '@/lib/api'
 
 const KIND_ICON = {
   question: FileQuestion,
@@ -524,11 +525,11 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
             <Link to="/admin/reports" className="mt-3 block"><Button variant="secondary" size="sm" className="w-full">Open report queue</Button></Link>
           </Panel>
 
-          <Panel className="p-4">
+          {!API_MODE && <Panel className="p-4">
             <div className="flex items-center gap-2"><Icon icon={RotateCcw} size={15} className="text-ink-3" /><p className="text-[12.5px] font-medium text-ink">Prototype data</p></div>
             <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">Content changes persist in this browser. Reset only when you want to restore the original student catalogue.</p>
             <Button variant="secondary" size="sm" className="mt-3 w-full" onClick={() => { setItems(initialManagedContent()); setNotice('Original content catalogue restored.') }}>Restore original catalogue</Button>
-          </Panel>
+          </Panel>}
         </div>
       </div>
 

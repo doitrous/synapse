@@ -76,13 +76,20 @@ export async function apiDownload(path: string, filename: string): Promise<void>
 
 /** Open an authenticated file in a new tab, optionally at an exact PDF page. */
 export async function apiOpenFile(path: string, fragment = ''): Promise<void> {
-  const popup = window.open('', '_blank', 'noopener,noreferrer')
+  // Open synchronously so browsers treat this as the user's click, then sever
+  // the opener before the authenticated file replaces the placeholder.
+  const popup = window.open('about:blank', '_blank')
+  if (popup) {
+    popup.opener = null
+    popup.document.title = 'Opening source…'
+    popup.document.body.textContent = 'Opening the cited source…'
+  }
   try {
     const res = await fetch(`${BASE}${path}`, { headers: await headers() })
     if (!res.ok) throw new Error(`GET ${path} → ${res.status}`)
     const blob = await res.blob()
     const url = URL.createObjectURL(blob)
-    if (popup) popup.location.href = `${url}${fragment}`
+    if (popup) popup.location.replace(`${url}${fragment}`)
     else window.open(`${url}${fragment}`, '_blank', 'noopener,noreferrer')
     window.setTimeout(() => URL.revokeObjectURL(url), 10 * 60 * 1000)
   } catch (error) {

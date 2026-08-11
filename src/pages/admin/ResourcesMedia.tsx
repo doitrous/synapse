@@ -10,8 +10,8 @@ import {
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import type { ResourceType } from '@/data/types'
-import { resources } from '@/data/resources'
 import { storage } from '@/data/admin'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
 import { getSubject } from '@/data/student'
 import { scopeUniversities, scopeYear } from '@/data/universities'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -24,6 +24,9 @@ import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
+import { useLiveResources } from '@/lib/useLiveResources'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { API_MODE } from '@/lib/api'
 
 const TYPE_ICON: Record<ResourceType, LucideIcon> = {
   Book: BookMarked,
@@ -32,15 +35,38 @@ const TYPE_ICON: Record<ResourceType, LucideIcon> = {
   Deck: Layers,
   Article: Newspaper,
 }
-const SIZE_MB: Record<ResourceType, number> = { Book: 4.2, Video: 182, Guideline: 1.1, Deck: 8.4, Article: 0.4 }
 
-function fmtSize(mb: number) {
-  return mb >= 1000 ? `${(mb / 1000).toFixed(1)} GB` : `${mb.toFixed(1)} MB`
+const RESOURCE_TYPES: ResourceType[] = ['Book', 'Video', 'Guideline', 'Deck', 'Article']
+
+function resourceType(value?: string): ResourceType {
+  return RESOURCE_TYPES.includes(value as ResourceType) ? value as ResourceType : 'Article'
+}
+
+function managedResource(item: ManagedContentItem) {
+  return {
+    id: item.id,
+    title: item.title,
+    type: resourceType(item.fields.Type),
+    subjectId: item.subjectId,
+    year: Number(item.fields.Year) || null,
+    status: item.status,
+    universityIds: item.resourceData?.universityIds ?? [],
+  }
 }
 
 export function ResourcesMedia() {
+  const demoResources = useLiveResources()
+  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [universityCatalogue] = useUniversityCatalogue()
-  const pct = Math.round((storage.usedGb / storage.totalGb) * 100)
+  const resources = (API_MODE
+    ? ledger.filter((item) => item.kind === 'resource' && item.status !== 'Archived').map(managedResource)
+    : demoResources.map((resource) => ({
+      ...resource,
+      status: 'Published' as const,
+      universityIds: scopeUniversities(resource.id),
+    })))
+    .sort((a, b) => (a.universityIds[0] ?? '').localeCompare(b.universityIds[0] ?? '') || a.title.localeCompare(b.title))
+  const pct = storage.totalGb > 0 ? Math.round((storage.usedGb / storage.totalGb) * 100) : 0
 
   return (
     <PageContainer>
@@ -62,7 +88,7 @@ export function ResourcesMedia() {
           <div className="mb-1.5 flex items-baseline justify-between">
             <span className="text-[13px] font-medium text-ink">Storage</span>
             <span className="tnum font-mono text-[12.5px] text-ink-2">
-              {storage.usedGb} GB of {storage.totalGb} GB
+              {storage.totalGb > 0 ? `${storage.usedGb} GB of ${storage.totalGb} GB` : 'Usage is measured by the production volume'}
             </span>
           </div>
           <Meter value={pct} tone={pct > 85 ? 'warning' : 'accent'} />
@@ -87,7 +113,7 @@ export function ResourcesMedia() {
             </tr>
           </thead>
           <tbody>
-            {resources.map((r, i) => (
+            {resources.map((r) => (
               <Tr key={r.id} hover>
                 <Td className="pl-4">
                   <span className="inline-flex items-center gap-2.5">
@@ -109,7 +135,7 @@ export function ResourcesMedia() {
                     <span className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-2">
                       {scopeYear(r.subjectId).replace('Year ', 'Y')}
                     </span>
-                    {scopeUniversities(r.id).map((id) => (
+                    {r.universityIds.map((id) => (
                       <span
                         key={id}
                         className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-3"
@@ -120,13 +146,13 @@ export function ResourcesMedia() {
                   </div>
                 </Td>
                 <Td align="right" className="tnum font-mono text-ink-2">
-                  {fmtSize(SIZE_MB[r.type])}
+                  —
                 </Td>
                 <Td align="right" className="tnum font-mono text-ink-2">
-                  {r.year}
+                  {r.year ?? '—'}
                 </Td>
                 <Td>
-                  <StatusBadge status={i === 4 ? 'Archived' : 'Published'} />
+                  <StatusBadge status={r.status} />
                 </Td>
                 <Td align="right" className="pr-4">
                   <IconButton icon={Pencil} label="Edit resource" size="sm" />

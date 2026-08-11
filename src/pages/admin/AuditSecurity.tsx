@@ -47,12 +47,12 @@ export function AuditSecurity() {
     <PageContainer>
       <PageHeader
         title="Audit & Security"
-        description="Security posture and a full, immutable audit trail."
-        actions={
+        description={API_MODE ? 'Production recovery points, launch preflight, and persisted audit events.' : 'Security posture and a full, immutable audit trail.'}
+        actions={!API_MODE || auditLog.length ? (
           <Button variant="secondary" size="md" iconLeft={Download}>
             Export log
           </Button>
-        }
+        ) : undefined}
       />
 
       <DataBackupsPanel />
@@ -113,7 +113,9 @@ export function AuditSecurity() {
           title="Security posture"
           icon={ShieldCheck}
           action={
-            warnings === 0 ? (
+            securityChecks.length === 0 ? (
+              <Badge tone="neutral">Awaiting live checks</Badge>
+            ) : warnings === 0 ? (
               <Badge tone="success">All clear</Badge>
             ) : (
               <Badge tone="warning">{warnings} to review</Badge>
@@ -121,6 +123,7 @@ export function AuditSecurity() {
           }
         />
         <ul className="divide-y divide-line">
+          {securityChecks.length === 0 && <li className="px-4 py-4 text-[12.5px] leading-relaxed text-ink-2">No synthetic security results are shown in production. Add a persisted check only after the live control has been measured.</li>}
           {securityChecks.map((c) => {
             const m = CHECK_ICON[c.status]
             return (
@@ -151,6 +154,9 @@ export function AuditSecurity() {
             </tr>
           </thead>
           <tbody>
+            {auditLog.length === 0 && (
+              <tr><td colSpan={5} className="px-4 py-10 text-center text-[12.5px] text-ink-3">No persisted audit events have been recorded yet.</td></tr>
+            )}
             {auditLog.map((e) => (
               <Tr key={e.id} hover>
                 <Td className="tnum pl-4 font-mono text-[12.5px] text-ink-2">{e.time}</Td>
