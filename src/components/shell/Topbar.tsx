@@ -10,6 +10,7 @@ import { formatDateTime } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
 import { initialNotificationCampaigns, notificationIsDue, notificationMatchesStudent, NOTIFICATION_READ_STORAGE_KEY, NOTIFICATION_STORAGE_KEY, type NotificationCampaign } from '@/data/notifications'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { seedOr } from '@/lib/api'
 
 function currentTitle(portal: Portal, pathname: string): string {
   const items = navFor(portal).flatMap((g) => g.items)
@@ -41,7 +42,7 @@ export function Topbar({
   const { pathname } = useLocation()
   const { t, lang, toggle } = useI18n()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
-  const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, initialNotificationCampaigns)
+  const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, seedOr(initialNotificationCampaigns, []))
   const [readIds, setReadIds] = usePersistentState<string[]>(`${NOTIFICATION_READ_STORAGE_KEY}-${portal}`, [])
   const notifications = campaigns
     .filter((campaign) => portal === 'admin' ? campaign.active : notificationMatchesStudent(campaign) && notificationIsDue(campaign))
