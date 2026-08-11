@@ -233,7 +233,10 @@ app.get('/api/backups', requireAdmin, wrap(async (_req, res) => {
 }))
 
 async function createDataSnapshot(label, createdBy) {
-  const tables = ['schema_migrations', 'app_state', 'app_state_versions', 'user_state', 'user_state_versions', 'students', 'mailboxes', 'emails', 'attachments', 'user_access', 'role_promotion_audit']
+  // Snapshot current recoverable state, not the append-only version ledgers.
+  // Including those ledgers duplicates large historical JSON documents inside
+  // one packet and can exceed MariaDB's max_allowed_packet as the library grows.
+  const tables = ['schema_migrations', 'app_state', 'user_state', 'students', 'mailboxes', 'emails', 'attachments', 'user_access', 'role_promotion_audit']
   const snapshot = { schemaVersion: 1, createdAt: new Date().toISOString(), tables: {} }
   for (const table of tables) {
     const [rows] = await pool.query(`SELECT * FROM ${table}`)
@@ -738,15 +741,21 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
 const port = Number(process.env.PORT) || 8080
 migrate()
   .then(async () => {
-    const [recent] = await pool.query(
-      "SELECT id FROM data_snapshots WHERE created_at >= NOW() - INTERVAL 24 HOUR AND created_by = 'system:daily' LIMIT 1",
-    )
-    if (!recent.length) await createDataSnapshot(`Daily recovery point ${new Date().toISOString()}`, 'system:daily')
     app.listen(port, () => {
       console.log(`Synapse on :${port}`)
       void medicalResourceRecords()
         .then((resources) => console.log(`Medical resource index ready (${resources.length} records)`))
         .catch((error) => console.error('Medical resource index warm-up failed:', error.message))
     })
+    // Recovery-point creation must never prevent the HTTP server from coming
+    // online. A backup failure is reported for operators but is non-fatal.
+    try {
+      const [recent] = await pool.query(
+        "SELECT id FROM data_snapshots WHERE created_at >= NOW() - INTERVAL 24 HOUR AND created_by = 'system:daily' LIMIT 1",
+      )
+      if (!recent.length) await createDataSnapshot(`Daily recovery point ${new Date().toISOString()}`, 'system:daily')
+    } catch (error) {
+      console.error('Daily recovery snapshot skipped:', error.message)
+    }
   })
   .catch((e) => { console.error('startup failed (DB unreachable?):', e.message); process.exit(1) })
