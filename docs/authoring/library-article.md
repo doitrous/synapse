@@ -44,6 +44,10 @@ While writing:
   when articles became prose; the audit rejects any article that still has one.
 - Never state a dose, a treatment recommendation, or an emergency action without
   a source. Set status to Draft; these never auto-publish.
+- Add media only where a figure teaches something the prose cannot. Every item
+  needs a URL, alt text, and cleared rights or it will not reach a student.
+  Anchor it to a phrase when it explains those exact words; otherwise leave it
+  article-level.
 - British spelling. Short sentences. No filler transitions.
 
 If a required field cannot be filled honestly, leave it empty and add a
@@ -84,6 +88,58 @@ If a required field cannot be filled honestly, leave it empty and add a
 | `secondary_node_ids` | `articleData.secondaryNodeIds` | Other genuine placements across the four views. Not a tag cloud — each must be defensible. |
 | `subtopic` | `articleData.subtopicId` | Optional curriculum overlay, `SUB_*`. |
 | `microtopic` | `articleData.microtopicId` | Optional overlay, `MIC_*`. Leave empty with a `fieldNotes` reason when canonical placement is more precise. |
+
+### Media
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `media` | `articleData.media` | One `### type · URL` block per item, then its labelled lines. |
+
+A media item is either **anchored** to a phrase or **article-level**:
+
+- **Anchored** — add `Anchor:` with text copied verbatim from the article. The
+  reader marks that phrase as pressable and opens the media when a student
+  presses it. Use `Anchor block:` to say where the phrase lives: `body`
+  (default), `summary`, `hold`, or `trap`.
+- **Article-level** — omit `Anchor:`. The item appears in the article's **Media**
+  section instead.
+
+Either way the item is listed in the sidebar's *Media in this article* panel, so
+an anchored figure is never hidden from a student who is looking for it.
+
+An item only reaches a student when it has a URL, alt text, **and** cleared
+rights. Anything missing one of the three is held back — the same gate the rest
+of the library uses.
+
+```markdown
+## media
+### image · https://example.org/pv-loop.png
+Caption: Pressure–volume loop in HFrEF.
+Alt: A pressure–volume loop shifted right and down.
+Rights: CC BY-SA 4.0
+Necessity: The flattened curve is hard to picture from text alone.
+Source: Kumar & Clark's Clinical Medicine
+Locator: page 1042
+Anchor: the curve is flattened and shifted downward
+Anchor block: body
+
+### video · https://example.org/cardiac-cycle.mp4
+Caption: Cardiac cycle walkthrough.
+Alt: Animation of valve events across one cardiac cycle.
+Rights: Licensed for teaching use.
+Necessity: Valve timing is clearer in motion than in a still figure.
+```
+
+**Anchor rules**
+
+- The quote must appear **verbatim** in the article, or nothing becomes
+  pressable. The editor warns you when it does not match.
+- Anchor the words that name the thing, not a whole paragraph. "the curve is
+  flattened" is a good anchor; a five-line sentence is not.
+- One phrase carries one media item. Where two items match the same text, the
+  first wins and the second stays article-level — split the sentence instead.
+- Anchoring is for media that *explains that specific phrase*. If it illustrates
+  the article generally, leave it article-level.
 
 ### Links — these make the library navigable
 
@@ -163,6 +219,15 @@ Draft
 <DIS-XXX>
 <KNW-XXX>
 
+## media
+### image · <url>
+Caption: <what the figure shows>
+Alt: <what a screen reader should say>
+Rights: <licence or permission>
+Necessity: <what it teaches that the prose cannot>
+Anchor: <verbatim phrase from the article, or omit for article-level>
+Anchor block: body
+
 ## related_concepts
 med.concept.<slug>
 med.concept.<slug>
@@ -215,6 +280,8 @@ Giving a positive inotrope as chronic therapy because "the heart is weak".
   note, not a library article.
 - Any concept ID, resource ID, or canonical node ID in the record does not exist.
 - The article carries a `Components and relations` section.
+- A media item has no cleared rights, no alt text, or no URL.
+- A media anchor quotes text that is not in the article.
 - The record contains a dose, treatment recommendation, or emergency action you
   cannot cite.
 - `summary` describes the article ("This article explains…") instead of the topic.

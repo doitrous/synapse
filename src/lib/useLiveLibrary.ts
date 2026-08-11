@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem, type ArticleMediaRecord } from '@/data/contentControl'
 import { libraryTopics as SEED_TOPICS, updatedAtFor as seedUpdatedAtFor, type LibTopic, type Subtopic, type LibBlock } from '@/data/library'
 import { universities } from '@/data/universities'
 import { subjects } from '@/data/student'
@@ -8,6 +8,17 @@ import { API_MODE } from './api'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 
 export type LiveSubtopic = Subtopic & { topicId: string; topicTitle: string; subjectId: string }
+
+/**
+ * Media a student may actually be shown.
+ *
+ * A record with no URL has nothing to display, and one with no alt text or no
+ * cleared rights has not finished review — neither reaches the reader, matching
+ * how the rest of the library gates unreviewed content.
+ */
+function publishableMedia(media?: ArticleMediaRecord[]): ArticleMediaRecord[] {
+  return (media ?? []).filter((item) => item.url?.trim() && item.altText?.trim() && item.rights?.trim())
+}
 
 /** Split a section body into paragraph blocks. */
 function bodyToBlocks(body: string): LibBlock[] {
@@ -55,6 +66,7 @@ function overlaySubtopic(sub: Subtopic, item: ManagedContentItem | undefined): S
     readingMin: Number(item.fields['Reading time']) || sub.readingMin,
     keyPoints: keyPoints.length ? keyPoints : sub.keyPoints,
     blocks,
+    media: publishableMedia(d?.media),
     updatedAt: item.updatedAt || sub.updatedAt,
   }
 }
@@ -113,6 +125,7 @@ function articleToSubtopic(item: ManagedContentItem, evidence: MedicalEvidenceSt
     // that, the verified facts are the only student-safe summary available.
     keyPoints: isEvidenceGated && !hasNarrative ? factKeyPoints : (authoredKeyPoints.length ? authoredKeyPoints : factKeyPoints),
     questions: [],
+    media: publishableMedia(d?.media),
     resources: (d?.resourceIds ?? []).filter((id) => evidence.resources.some((resource) => resource.id === id)).map((id) => evidence.resources.find((resource) => resource.id === id)?.title ?? id),
     updatedAt: item.updatedAt,
     universityIds: d?.universityIds ?? [],

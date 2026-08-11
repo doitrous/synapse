@@ -1,7 +1,7 @@
 import type {
   ContentKind, ManagedContentItem, QuestionAnswerDraft, AnswerLabel, ArticleArchetype,
   ActorBriefSectionDraft, PracticalMarkSectionDraft, PracticalAnswerDraft,
-  ClinicalDecisionDraft, LabQuestionDraft, PracticalAuthoringData,
+  ClinicalDecisionDraft, LabQuestionDraft, PracticalAuthoringData, ArticleMediaRecord,
 } from './contentControl'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates'
 
@@ -87,6 +87,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'high_yield', label: 'High-yield band', help: 'Core, High, or Supplementary. Defaults to Core.' },
       { key: 'primary_node_id', label: 'Canonical node ID', help: 'Primary placement in the canonical medical taxonomy (e.g. SYS-CVS-T01). Derived from the subject/topic crosswalk when omitted.' },
       { key: 'secondary_node_ids', label: 'Secondary node IDs', help: 'Other valid canonical placements across the four views, separated by |, ; or new lines.' },
+      { key: 'media', label: 'Media', help: 'One "### image|video|audio · URL" block per item, then "Caption:", "Alt:", "Rights:", "Necessity:", and optionally "Anchor:" with the exact phrase it explains (plus "Anchor block:" — body, summary, hold, or trap).' },
       { key: 'related_concepts', label: 'Related concepts', help: 'Concept IDs discussed by this article.' },
       { key: 'question_ids', label: 'Question IDs', help: 'Canonical question IDs that test this article.' },
       { key: 'resource_ids', label: 'Resource IDs', help: 'Canonical resources that teach this article.' },
@@ -194,6 +195,41 @@ export function parseMarkSections(value = ''): PracticalMarkSectionDraft[] {
     section.items.push({ id: `mark-item-imp-${index}`, text })
   })
   return sections
+}
+
+const MEDIA_TYPES = ['image', 'video', 'audio'] as const
+const ANCHOR_BLOCKS = ['body', 'summary', 'hold', 'trap'] as const
+
+/**
+ * Parse "### type · url" blocks into article media.
+ *
+ * An `Anchor:` line pins the item to a phrase in the article, which the reader
+ * makes pressable. Without one the item belongs to the article as a whole.
+ */
+export function parseArticleMedia(value = ''): ArticleMediaRecord[] {
+  return parseSections(value)
+    .map((section, index) => {
+      const [rawType, ...rest] = section.heading.split(/[|·]/)
+      const type = rawType.trim().toLocaleLowerCase()
+      const url = rest.join('·').trim()
+      const labelled = (label: string) =>
+        importLines(section.body).find((line) => new RegExp(`^${label}\\s*:`, 'i').test(line))?.replace(new RegExp(`^${label}\\s*:\\s*`, 'i'), '').trim() ?? ''
+      const quote = labelled('Anchor')
+      const rawBlock = labelled('Anchor block').toLocaleLowerCase()
+      return {
+        id: `media-imp-${index}`,
+        type: (MEDIA_TYPES as readonly string[]).includes(type) ? type as ArticleMediaRecord['type'] : 'image',
+        url,
+        caption: labelled('Caption'),
+        altText: labelled('Alt'),
+        rights: labelled('Rights'),
+        necessity: labelled('Necessity'),
+        exactSource: labelled('Source') || undefined,
+        locator: labelled('Locator') || undefined,
+        ...(quote ? { anchor: { quote, block: (ANCHOR_BLOCKS as readonly string[]).includes(rawBlock) ? rawBlock as NonNullable<ArticleMediaRecord['anchor']>['block'] : 'body' } } : {}),
+      }
+    })
+    .filter((item) => item.url)
 }
 
 type BlockField = 'context' | 'question' | 'rationale' | 'explanation' | 'media'
@@ -390,7 +426,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const templateId = values.template_id?.trim() ? canonicalTemplateId(values.template_id.trim()) : undefined
     const archetype = (values.archetype?.trim() || ARTICLE_TEMPLATES.find((template) => template.id === templateId)?.archetype) as ArticleArchetype | undefined
     const highYield = ['Core', 'High', 'Supplementary'].includes(values.high_yield) ? values.high_yield as 'Core' | 'High' | 'Supplementary' : 'Core'
-    return { ...base, fields: { Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5', 'Key point': splitImportList(values.hold_these)[0] || '', 'Template ID': templateId || '', Archetype: archetype || '' }, articleData: { summary: values.summary || '', body, sections, holdThese: splitImportList(values.hold_these), loseTheMark: splitImportList(values.lose_the_mark), questionIds: splitImportList(values.question_ids), resourceIds: splitImportList(values.resource_ids), annotations: [], universityIds: splitImportList(values.universities), yearIds: splitImportList(values.years), moduleIds: splitImportList(values.module), subtopicId: values.subtopic || undefined, microtopicId: values.microtopic || undefined, relatedConceptIds: splitImportList(values.related_concepts), universityNotes, templateId, archetype, learnerStage: values.learner_stage?.trim() || undefined, highYield, primaryNodeId: values.primary_node_id?.trim() || undefined, secondaryNodeIds: splitImportList(values.secondary_node_ids) } }
+    return { ...base, fields: { Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5', 'Key point': splitImportList(values.hold_these)[0] || '', 'Template ID': templateId || '', Archetype: archetype || '' }, articleData: { summary: values.summary || '', body, sections, holdThese: splitImportList(values.hold_these), loseTheMark: splitImportList(values.lose_the_mark), questionIds: splitImportList(values.question_ids), resourceIds: splitImportList(values.resource_ids), annotations: [], universityIds: splitImportList(values.universities), yearIds: splitImportList(values.years), moduleIds: splitImportList(values.module), subtopicId: values.subtopic || undefined, microtopicId: values.microtopic || undefined, relatedConceptIds: splitImportList(values.related_concepts), universityNotes, templateId, archetype, learnerStage: values.learner_stage?.trim() || undefined, highYield, primaryNodeId: values.primary_node_id?.trim() || undefined, secondaryNodeIds: splitImportList(values.secondary_node_ids), media: parseArticleMedia(values.media) } }
   }
   if (kind === 'practical') {
     return {

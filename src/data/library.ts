@@ -1,3 +1,5 @@
+import type { ArticleMediaRecord } from './contentControl'
+
 export interface LibBlock {
   /** `sources` is a divider: every `fact` after it belongs to the Sources section. */
   type: 'p' | 'h' | 'list' | 'callout' | 'fact' | 'sources'
@@ -27,6 +29,8 @@ export interface Subtopic {
   keyPoints: string[]
   questions: LinkedQuestion[]
   resources: string[]
+  /** Rights-checked images, audio and video. Anchored items are also listed here. */
+  media?: ArticleMediaRecord[]
   /** Editorial timestamp for the reader byline. */
   updatedAt?: string
   universityIds?: string[]

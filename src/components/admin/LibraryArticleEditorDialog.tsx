@@ -89,12 +89,40 @@ const fieldNotesFromText = (text: string) => Object.fromEntries(text.split('\n')
   return separator < 1 ? null : [line.slice(0, separator).trim(), line.slice(separator + 1).trim()]
 }).filter((entry): entry is [string, string] => Boolean(entry?.[0] && entry?.[1])))
 
-function ArticleMediaEditor({ media, onChange }: { media: ArticleMediaRecord[]; onChange: (media: ArticleMediaRecord[]) => void }) {
+/**
+ * An anchor only works if its phrase is actually in the article, so the editor
+ * checks it as you type rather than letting a silent no-op ship.
+ */
+const anchorFoundIn = (articleText: string, quote: string) =>
+  articleText.toLocaleLowerCase().includes(quote.trim().toLocaleLowerCase())
+
+/** Every run of text a media anchor could point at. */
+function readableArticleText(data: ArticleAuthoringData): string {
+  return [
+    data.summary,
+    ...(data.sections ?? []).flatMap((section) => [section.heading, section.body, section.narrative ?? '']),
+    ...(data.holdThese ?? []),
+    ...(data.loseTheMark ?? []),
+  ].filter(Boolean).join('\n')
+}
+
+function ArticleMediaEditor({ media, articleText, onChange }: { media: ArticleMediaRecord[]; articleText: string; onChange: (media: ArticleMediaRecord[]) => void }) {
   const patch = (index: number, value: Partial<ArticleMediaRecord>) => onChange(media.map((item, itemIndex) => itemIndex === index ? { ...item, ...value } : item))
   return <div className="space-y-3">{media.map((item, index) => <div key={item.id} className="rounded-lg border border-line bg-surface-2/40 p-3">
     <div className="flex items-center gap-2"><Select aria-label={`Media type ${index + 1}`} value={item.type} onChange={(event) => patch(index, { type: event.target.value as ArticleMediaRecord['type'] })}><option value="image">Image</option><option value="audio">Audio</option><option value="video">Video</option></Select><button type="button" className="grid size-9 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Remove media ${index + 1}`} onClick={() => onChange(media.filter((_, itemIndex) => itemIndex !== index))}><Icon icon={Trash2} size={14} /></button></div>
     <div className="mt-2 grid gap-2 sm:grid-cols-2"><Field label="Media ID"><TextInput value={item.id} onChange={(event) => patch(index, { id: event.target.value })} /></Field><Field label="Resource ID"><TextInput value={item.sourceId ?? ''} onChange={(event) => patch(index, { sourceId: event.target.value })} /></Field><Field label="Exact source"><TextInput value={item.exactSource ?? ''} onChange={(event) => patch(index, { exactSource: event.target.value })} /></Field><Field label="Locator"><TextInput value={item.locator ?? ''} onChange={(event) => patch(index, { locator: event.target.value })} /></Field><Field label="URL"><TextInput value={item.url ?? ''} onChange={(event) => patch(index, { url: event.target.value })} /></Field><Field label="Rights"><TextInput value={item.rights} onChange={(event) => patch(index, { rights: event.target.value })} /></Field></div>
     <Field label="Caption"><Textarea className="mt-2 min-h-14" value={item.caption} onChange={(event) => patch(index, { caption: event.target.value })} /></Field><Field label="Alt text"><Textarea className="mt-2 min-h-14" value={item.altText} onChange={(event) => patch(index, { altText: event.target.value })} /></Field><Field label="Why this media is needed"><Textarea className="mt-2 min-h-14" value={item.necessity} onChange={(event) => patch(index, { necessity: event.target.value })} /></Field>
+    <div className="mt-3 border-t border-line pt-3">
+      <p className="text-[11.5px] font-semibold text-ink-2">Where it appears</p>
+      <p className="mt-0.5 text-[10.5px] leading-relaxed text-ink-3">Leave the phrase empty and this sits in the article's Media section. Fill it and the phrase becomes pressable in the text — it still appears in the media list either way.</p>
+      <div className="mt-2 grid gap-2 sm:grid-cols-[1fr_10rem]">
+        <Field label="Phrase in the article"><TextInput value={item.anchor?.quote ?? ''} placeholder="Exact words this media explains" onChange={(event) => patch(index, { anchor: event.target.value.trim() ? { quote: event.target.value, block: item.anchor?.block ?? 'body' } : undefined })} /></Field>
+        <Field label="Part of article"><Select aria-label={`Anchor location ${index + 1}`} value={item.anchor?.block ?? 'body'} disabled={!item.anchor?.quote} onChange={(event) => patch(index, { anchor: item.anchor?.quote ? { quote: item.anchor.quote, block: event.target.value as NonNullable<ArticleMediaRecord['anchor']>['block'] } : undefined })}><option value="body">Body</option><option value="summary">Summary</option><option value="hold">Hold these</option><option value="trap">Where people lose the mark</option></Select></Field>
+      </div>
+      {item.anchor?.quote && !anchorFoundIn(articleText, item.anchor.quote) && (
+        <p className="mt-1.5 text-[10.5px] font-medium text-danger">This phrase is not in the article text yet, so nothing will be pressable.</p>
+      )}
+    </div>
   </div>)}<Button type="button" size="sm" variant="secondary" iconLeft={Plus} onClick={() => onChange([...media, { id: newId('media'), type: 'image', caption: '', altText: '', rights: '', necessity: '' }])}>Add media</Button></div>
 }
 
@@ -355,7 +383,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               </div>
             </section>
 
-            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><h3 className="text-[13px] font-bold text-ink">Media & rights</h3><p className="mb-3 mt-1 text-[11px] leading-relaxed text-ink-3">Add media only when its exact source, rights, alternative text, and teaching need are known.</p><ArticleMediaEditor media={data.media ?? []} onChange={(media) => updateData((current) => ({ ...current, media }))} /></section>
+            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><h3 className="text-[13px] font-bold text-ink">Media & rights</h3><p className="mb-3 mt-1 text-[11px] leading-relaxed text-ink-3">Add media only when its exact source, rights, alternative text, and teaching need are known.</p><ArticleMediaEditor media={data.media ?? []} articleText={readableArticleText(data)} onChange={(media) => updateData((current) => ({ ...current, media }))} /></section>
 
             <section className="mt-3 rounded-xl border border-accent-line bg-accent-tint/35 p-4"><div className="flex items-center gap-2"><Icon icon={Flag} size={15} className="text-accent" /><h3 className="text-[13px] font-bold text-ink">Tag selected statement</h3></div><p className="mt-1 text-[11px] leading-relaxed text-ink-3">Select text in the summary or article, press “Use selected text,” then link it to an existing canonical ID.</p><div className="mt-3 space-y-2"><Textarea aria-label="Selected statement" className="min-h-20" value={quote} onChange={(event) => setQuote(event.target.value)} placeholder="Selected word, sentence, or statement" /><Select aria-label="Statement relationship" value={annotationRelation} onChange={(event) => setAnnotationRelation(event.target.value as StatementRelationType)}>{STATEMENT_RELATIONS.map((relation) => <option key={relation}>{relation}</option>)}</Select><Select aria-label="Canonical concept" value={annotationConcept} onChange={(event) => setAnnotationConcept(event.target.value)}>{graph.concepts.map((concept) => <option key={concept.id} value={concept.id}>{concept.label} · {concept.id}</option>)}</Select><Button type="button" className="w-full" size="sm" iconLeft={Flag} disabled={!quote.trim() || !annotationConcept} onClick={addAnnotation}>Tag with canonical ID</Button></div></section>
 

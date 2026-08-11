@@ -26,6 +26,20 @@ export interface MediaAttachment {
   size?: number
 }
 
+/**
+ * Ties a media item to the exact words it illustrates.
+ *
+ * The reader marks that text as pressable; pressing it opens the media. The
+ * quote must appear verbatim in the article, so a reflow of the surrounding
+ * prose cannot silently detach the media from what it explains.
+ */
+export interface ArticleMediaAnchor {
+  /** Verbatim text from the article — a word, a phrase, or a whole sentence. */
+  quote: string
+  /** Which part of the article the quote sits in. Defaults to the body. */
+  block?: 'summary' | 'body' | 'hold' | 'trap'
+}
+
 /** Rights-checked media embedded in a library article. */
 export interface ArticleMediaRecord {
   id: string
@@ -38,6 +52,12 @@ export interface ArticleMediaRecord {
   altText: string
   rights: string
   necessity: string
+  /**
+   * When set, this media belongs to a specific phrase and is revealed by
+   * pressing it. When absent, it belongs to the article as a whole and shows
+   * in the article's media section. Either way it appears in the media list.
+   */
+  anchor?: ArticleMediaAnchor
 }
 
 export interface QuestionTags {

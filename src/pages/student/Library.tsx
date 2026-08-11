@@ -21,8 +21,13 @@ import {
   PenLine,
   Trash2,
   Database,
+  Image as ImageIcon,
+  Film,
+  AudioLines,
+  Expand,
 } from 'lucide-react'
 import type { LibBlock } from '@/data/library'
+import type { ArticleMediaRecord } from '@/data/contentControl'
 import { useLiveLibrary, type LiveSubtopic } from '@/lib/useLiveLibrary'
 import { subjects, getSubject } from '@/data/student'
 import { scopeUniversities } from '@/data/universities'
@@ -229,9 +234,212 @@ export function LegacyLibraryTree({
   )
 }
 
+/* ---- Article media ----------------------------------------------------- */
+
+const MEDIA_ICON = { image: ImageIcon, video: Film, audio: AudioLines } as const
+const MEDIA_LABEL = { image: 'Image', video: 'Video', audio: 'Audio' } as const
+
+/** Media pinned to words inside a given part of the article. */
+function anchoredMedia(media: ArticleMediaRecord[] | undefined, block: 'summary' | 'body' | 'hold' | 'trap') {
+  return (media ?? []).filter((item) => item.anchor?.quote?.trim() && (item.anchor.block ?? 'body') === block)
+}
+
+/** Media that belongs to the article as a whole rather than to a phrase. */
+function standaloneMedia(media: ArticleMediaRecord[] | undefined) {
+  return (media ?? []).filter((item) => !item.anchor?.quote?.trim())
+}
+
+/**
+ * Locate each anchor quote inside a run of text.
+ *
+ * Matching is case-insensitive so an anchor still resolves when a sentence is
+ * recased, and overlapping anchors resolve first-come so a phrase is never
+ * wrapped twice.
+ */
+function anchorSegments(text: string, media: ArticleMediaRecord[]) {
+  const haystack = text.toLocaleLowerCase()
+  const hits = media
+    .map((item) => {
+      const quote = item.anchor!.quote.trim()
+      const start = haystack.indexOf(quote.toLocaleLowerCase())
+      return start === -1 ? undefined : { start, end: start + quote.length, item }
+    })
+    .filter((hit): hit is { start: number; end: number; item: ArticleMediaRecord } => Boolean(hit))
+    .sort((a, b) => a.start - b.start)
+
+  const kept: typeof hits = []
+  let cursor = 0
+  for (const hit of hits) {
+    if (hit.start >= cursor) { kept.push(hit); cursor = hit.end }
+  }
+  return kept
+}
+
+/**
+ * Article prose with search highlighting and, where an anchor matches, a
+ * pressable phrase that opens its media.
+ */
+function ReaderText({
+  text,
+  query,
+  media = [],
+  onOpenMedia,
+}: {
+  text: string
+  query: string
+  media?: ArticleMediaRecord[]
+  onOpenMedia?: (item: ArticleMediaRecord) => void
+}) {
+  const hits = media.length && onOpenMedia ? anchorSegments(text, media) : []
+  if (!hits.length) return <Highlight text={text} query={query} />
+
+  const parts: React.ReactNode[] = []
+  let cursor = 0
+  hits.forEach((hit, index) => {
+    if (hit.start > cursor) parts.push(<Highlight key={`t-${index}`} text={text.slice(cursor, hit.start)} query={query} />)
+    parts.push(
+      <button
+        key={`m-${hit.item.id}`}
+        type="button"
+        onClick={() => onOpenMedia!(hit.item)}
+        title={hit.item.caption || `Open ${MEDIA_LABEL[hit.item.type].toLowerCase()}`}
+        className="mx-px inline items-baseline gap-1 rounded-sm border-b-2 border-dotted border-accent/70 bg-accent-tint/30 px-0.5 text-start font-medium text-ink transition-colors hover:bg-accent-tint hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+      >
+        <Highlight text={text.slice(hit.start, hit.end)} query={query} />
+        <Icon icon={MEDIA_ICON[hit.item.type]} size={12} className="ms-1 inline align-baseline text-accent-strong" />
+      </button>,
+    )
+    cursor = hit.end
+  })
+  if (cursor < text.length) parts.push(<Highlight key="t-last" text={text.slice(cursor)} query={query} />)
+  return <>{parts}</>
+}
+
+/** The media itself, sized to its container. */
+function MediaFrame({ item, className }: { item: ArticleMediaRecord; className?: string }) {
+  if (item.type === 'image') return <img src={item.url} alt={item.altText} className={cn('w-full rounded-lg object-contain', className)} />
+  if (item.type === 'video') return <video src={item.url} controls aria-label={item.altText} className={cn('w-full rounded-lg', className)} />
+  return <audio src={item.url} controls aria-label={item.altText} className={cn('w-full', className)} />
+}
+
+/** Attribution line shown under every media item. */
+function MediaCredit({ item }: { item: ArticleMediaRecord }) {
+  const source = [item.exactSource, item.locator].filter(Boolean).join(' · ')
+  return (
+    <p className="mt-1.5 text-[11px] leading-relaxed text-ink-3">
+      {source && <span>{source} · </span>}
+      {item.rights}
+    </p>
+  )
+}
+
+/** Full-size view, opened by pressing an anchored phrase or a media thumbnail. */
+function MediaLightbox({ item, onClose }: { item: ArticleMediaRecord; onClose: () => void }) {
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => { if (event.key === 'Escape') onClose() }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [onClose])
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="media-lightbox-title">
+      <button type="button" className="absolute inset-0 bg-ink/60" onClick={onClose} aria-label="Close media" />
+      <figure className="relative flex max-h-full w-full max-w-3xl flex-col overflow-hidden rounded-xl border border-line bg-paper shadow-pop">
+        <header className="flex items-start gap-3 border-b border-line bg-surface px-4 py-3">
+          <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={MEDIA_ICON[item.type]} size={16} /></span>
+          <div className="min-w-0 flex-1">
+            <h2 id="media-lightbox-title" className="text-[13.5px] font-semibold leading-snug text-ink">{item.caption || MEDIA_LABEL[item.type]}</h2>
+            {item.anchor?.quote && <p className="mt-0.5 truncate text-[11.5px] text-ink-3">Explains “{item.anchor.quote}”</p>}
+          </div>
+          <button type="button" onClick={onClose} className="grid size-8 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close media"><Icon icon={X} size={17} /></button>
+        </header>
+        <div className="min-h-0 flex-1 overflow-y-auto bg-inset/40 p-4">
+          <MediaFrame item={item} className="max-h-[65vh]" />
+          <figcaption className="mt-3">
+            {item.caption && <p className="text-[13px] leading-relaxed text-ink-2">{item.caption}</p>}
+            <MediaCredit item={item} />
+          </figcaption>
+        </div>
+      </figure>
+    </div>
+  )
+}
+
+/** The article's own media space: everything not pinned to a phrase. */
+function ArticleMediaSection({ media, onOpenMedia, t }: { media: ArticleMediaRecord[]; onOpenMedia: (item: ArticleMediaRecord) => void; t: (value: string) => string }) {
+  if (!media.length) return null
+  return (
+    <section className="mt-10 border-t border-line pt-5">
+      <div className="flex items-center gap-2">
+        <Icon icon={ImageIcon} size={16} className="text-accent" />
+        <h2 className="font-serif text-[19px] font-semibold tracking-[-0.01em] text-ink">{t('Media')}</h2>
+      </div>
+      <p className="mt-1 text-[12px] text-ink-3">{t('Figures and recordings for this article.')}</p>
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+        {media.map((item) => (
+          <figure key={item.id} className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
+            <button
+              type="button"
+              onClick={() => onOpenMedia(item)}
+              className="group relative block w-full bg-inset/40 text-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+              aria-label={`${t('Open')} ${item.caption || MEDIA_LABEL[item.type]}`}
+            >
+              <MediaFrame item={item} className="max-h-56" />
+              {item.type === 'image' && (
+                <span className="absolute end-2 top-2 grid size-7 place-items-center rounded-md bg-paper/85 text-ink-2 opacity-0 transition-opacity group-hover:opacity-100"><Icon icon={Expand} size={14} /></span>
+              )}
+            </button>
+            <figcaption className="border-t border-line px-3.5 py-3">
+              <p className="text-[12.5px] leading-relaxed text-ink-2">{item.caption || item.altText}</p>
+              <MediaCredit item={item} />
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+/**
+ * Every media item in the article, anchored or not.
+ *
+ * A figure pinned to a phrase is easy to miss while reading, so it is listed
+ * here too — this panel is the article's complete media index.
+ */
+function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[]; onOpenMedia: (item: ArticleMediaRecord) => void; t: (value: string) => string }) {
+  if (!media.length) return null
+  return (
+    <section className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
+      <div className="border-b border-line px-4 py-3">
+        <div className="flex items-center gap-2"><Icon icon={ImageIcon} size={15} className="text-accent" /><h2 className="text-[13px] font-semibold text-ink">{t('Media in this article')}</h2></div>
+        <p className="mt-0.5 font-mono text-[10.5px] text-ink-3">{media.length} {media.length === 1 ? t('item') : t('items')}</p>
+      </div>
+      <ul className="divide-y divide-line">
+        {media.map((item) => (
+          <li key={item.id}>
+            <button
+              type="button"
+              onClick={() => onOpenMedia(item)}
+              className="group flex w-full items-start gap-2.5 px-4 py-3 text-start transition-colors hover:bg-accent-tint/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-accent/40"
+            >
+              <span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset text-ink-3"><Icon icon={MEDIA_ICON[item.type]} size={14} /></span>
+              <span className="min-w-0 flex-1">
+                <span className="block truncate text-[12.5px] font-medium text-ink-2 group-hover:text-ink">{item.caption || item.altText || MEDIA_LABEL[item.type]}</span>
+                <span className="mt-0.5 block truncate text-[10.5px] text-ink-3">
+                  {item.anchor?.quote ? `${t('Linked to')} “${item.anchor.quote}”` : t('Whole article')}
+                </span>
+              </span>
+            </button>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
 /* ---- Reading blocks ---------------------------------------------------- */
 
-function Callout({ tone, title, text, query }: { tone: 'accent' | 'warning'; title: string; text: string; query: string }) {
+function Callout({ tone, title, text, query, media, onOpenMedia }: { tone: 'accent' | 'warning'; title: string; text: string; query: string; media?: ArticleMediaRecord[]; onOpenMedia?: (item: ArticleMediaRecord) => void }) {
   const accent = tone === 'accent'
   return (
     <div
@@ -246,12 +454,26 @@ function Callout({ tone, title, text, query }: { tone: 'accent' | 'warning'; tit
           <Highlight text={title} query={query} />
         </span>
       </div>
-      <p className="mt-1.5 text-[14px] leading-relaxed text-ink"><Highlight text={text} query={query} /></p>
+      <p className="mt-1.5 text-[14px] leading-relaxed text-ink"><ReaderText text={text} query={query} media={media} onOpenMedia={onOpenMedia} /></p>
     </div>
   )
 }
 
-function Blocks({ blocks, query, onEvidence }: { blocks: LibBlock[]; query: string; onEvidence?: (spanId: string) => void }) {
+function Blocks({
+  blocks,
+  query,
+  onEvidence,
+  bodyMedia = [],
+  trapMedia = [],
+  onOpenMedia,
+}: {
+  blocks: LibBlock[]
+  query: string
+  onEvidence?: (spanId: string) => void
+  bodyMedia?: ArticleMediaRecord[]
+  trapMedia?: ArticleMediaRecord[]
+  onOpenMedia?: (item: ArticleMediaRecord) => void
+}) {
   return (
     <>
       {blocks.map((b, i) => {
@@ -264,7 +486,7 @@ function Blocks({ blocks, query, onEvidence }: { blocks: LibBlock[]; query: stri
         if (b.type === 'p')
           return (
             <p key={i} className="mt-3 text-[15px] leading-[1.7] text-ink/90">
-              <Highlight text={b.text ?? ''} query={query} />
+              <ReaderText text={b.text ?? ''} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} />
             </p>
           )
         if (b.type === 'list')
@@ -273,7 +495,7 @@ function Blocks({ blocks, query, onEvidence }: { blocks: LibBlock[]; query: stri
               {b.items?.map((it, j) => (
                 <li key={j} className="flex gap-2.5 text-[15px] leading-[1.6] text-ink/90">
                   <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent-soft" />
-                  <Highlight text={it} query={query} />
+                  <span><ReaderText text={it} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} /></span>
                 </li>
               ))}
             </ul>
@@ -305,7 +527,17 @@ function Blocks({ blocks, query, onEvidence }: { blocks: LibBlock[]; query: stri
               </span>
             </button>
           )
-        return <Callout key={i} tone={b.tone ?? 'accent'} title={b.title ?? ''} text={b.text ?? ''} query={query} />
+        return (
+          <Callout
+            key={i}
+            tone={b.tone ?? 'accent'}
+            title={b.title ?? ''}
+            text={b.text ?? ''}
+            query={query}
+            media={b.tone === 'warning' ? trapMedia : bodyMedia}
+            onOpenMedia={onOpenMedia}
+          />
+        )
       })}
     </>
   )
@@ -493,6 +725,8 @@ function Reader({
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
   const traps = st.blocks.filter((block) => block.type === 'callout' && block.tone === 'warning')
   const isRead = Boolean(readArticles[id])
+  const [openMedia, setOpenMedia] = useState<ArticleMediaRecord | null>(null)
+  const media = st.media ?? []
 
   return (
     <div className="mx-auto max-w-[78rem] px-5 py-8 sm:px-8 lg:py-10">
@@ -549,11 +783,22 @@ function Reader({
       {/* Personal, student-owned tags */}
       <PersonalTagStrip articleId={st.id} tags={tags} reusable={reusable} onChange={onTagsChange} />
 
-      <p className="mt-6 text-[16.5px] leading-[1.6] text-ink"><Highlight text={st.summary} query={query} /></p>
+      <p className="mt-6 text-[16.5px] leading-[1.6] text-ink">
+        <ReaderText text={st.summary} query={query} media={anchoredMedia(media, 'summary')} onOpenMedia={setOpenMedia} />
+      </p>
 
       <div className="mt-2">
-        <Blocks blocks={st.blocks} query={query} onEvidence={setSelectedSpanId} />
+        <Blocks
+          blocks={st.blocks}
+          query={query}
+          onEvidence={setSelectedSpanId}
+          bodyMedia={anchoredMedia(media, 'body')}
+          trapMedia={anchoredMedia(media, 'trap')}
+          onOpenMedia={setOpenMedia}
+        />
       </div>
+
+      <ArticleMediaSection media={standaloneMedia(media)} onOpenMedia={setOpenMedia} t={t} />
 
       <div className="mt-10 flex flex-wrap items-center gap-2 border-t border-line pt-5">
         <Button variant={isRead ? 'secondary' : 'primary'} iconLeft={isRead ? Check : BookmarkCheck} onClick={() => setReadArticles((current) => ({ ...current, [id]: !isRead }))}>{isRead ? t('Marked as read') : t('Mark as read')}</Button>
@@ -561,11 +806,14 @@ function Reader({
         <Link to={`/app/notebook?article=${st.id}&new=1`}><Button variant="ghost" iconLeft={NotebookPen}>{t('Take a note')}</Button></Link>
       </div>
     </article>
-    <aside className="space-y-3 lg:sticky lg:top-[4.75rem]">
+    {/* min-w-0: on mobile the aside shares one grid column with the article, so
+        without it the widest sidebar row sets the column width for both. */}
+    <aside className="min-w-0 space-y-3 lg:sticky lg:top-[4.75rem]">
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
         <div className="flex items-center gap-2"><Icon icon={Lightbulb} size={15} className="text-accent" /><h2 className="text-[13px] font-semibold text-ink">{t('Hold these')}</h2></div>
-        <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-accent" />{point}</li>)}</ul>
+        <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-accent" /><span><ReaderText text={point} query="" media={anchoredMedia(media, 'hold')} onOpenMedia={setOpenMedia} /></span></li>)}</ul>
       </section>
+      <MediaIndexPanel media={media} onOpenMedia={setOpenMedia} t={t} />
       <section className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
         <div className="border-b border-line px-4 py-3"><div className="flex items-center gap-2"><Icon icon={CircleAlert} size={16} className="text-danger" /><h2 className="text-[13px] font-bold text-ink">{t('Where people lose the mark')}</h2></div><p className="mt-0.5 font-mono text-[10.5px] text-ink-3">{Math.max(2, traps.length)} {t('traps')}</p></div>
         <ul className="divide-y divide-line px-4 py-1">{(traps.length ? traps.map((trap) => trap.text ?? '') : ['Naming the mechanism without linking it to the clinical consequence.', 'Choosing a treatment without stating the finding that makes it appropriate.']).map((trap) => <li key={trap} className="flex gap-2.5 py-3 text-[12.5px] leading-relaxed text-ink-2"><Icon icon={TriangleAlert} size={16} className="mt-0.5 text-danger" /><span>{trap}</span></li>)}</ul>
@@ -581,6 +829,7 @@ function Reader({
     </div>
     <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
     {selectedSpan && <EvidenceDrawer span={selectedSpan} evidence={evidence} onClose={() => setSelectedSpanId(null)} />}
+    {openMedia && <MediaLightbox item={openMedia} onClose={() => setOpenMedia(null)} />}
     </div>
   )
 }
