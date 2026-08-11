@@ -91,7 +91,7 @@ function articleToSubtopic(item: ManagedContentItem, evidence: MedicalEvidenceSt
     summary: d?.publishedSummary || d?.summary || item.fields.Summary || '',
     blocks,
     keyPoints: isEvidenceGated
-      ? blocks.filter((block) => block.type === 'fact').map((block) => block.text).slice(0, 5)
+      ? blocks.filter((block) => block.type === 'fact').map((block) => block.text ?? '').filter(Boolean).slice(0, 5)
       : (d?.holdThese ?? []).filter(Boolean),
     questions: [],
     resources: (d?.resourceIds ?? []).filter((id) => evidence.resources.some((resource) => resource.id === id)).map((id) => evidence.resources.find((resource) => resource.id === id)?.title ?? id),
