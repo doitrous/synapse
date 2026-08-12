@@ -1,0 +1,20 @@
+{
+ "task": "SYS-MUL-INVENTORY-001",
+ "rule": "Stable IDs are preserved (LD-06). Nothing is deleted; BLK-09 records are corrected under a documented migration.",
+ "summary": {
+  "articles": {
+   "touching": 0,
+   "canonicalHere": 0,
+   "byDisposition": {},
+   "outsideSubjectContract": 0
+  },
+  "concepts": {
+   "touching": 0,
+   "canonicalHere": 0,
+   "byDisposition": {},
+   "outsideSubjectContract": 0
+  }
+ },
+ "articles": [],
+ "concepts": []
+}

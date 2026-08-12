@@ -1,0 +1,553 @@
+{
+ "task": "SYS-IMM-INVENTORY-001",
+ "rule": "A parent is a hub; a leaf is an article home only where its label names a distinct studiable unit (LD-04). Local corpus signal raises priority, never creates an article.",
+ "classifications": [
+  "navigation-only hub",
+  "overview article",
+  "atomic article home",
+  "secondary placement only",
+  "empty but legitimate planned destination"
+ ],
+ "summary": {
+  "total": 48,
+  "byLevel": {
+   "Topic": 5,
+   "Subtopic": 10,
+   "Microtopic": 33
+  },
+  "byClassification": {
+   "navigation-only hub": 15,
+   "atomic article home": 33
+  }
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-IMM-T01",
+   "title": "Normal immune function",
+   "level": "Topic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 33
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S01",
+   "title": "Innate immunity",
+   "level": "Subtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 4
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S01-M01",
+   "title": "Barriers",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 21 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 21
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S01-M02",
+   "title": "Complement",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S01-M03",
+   "title": "Phagocytes",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 4 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 4
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S01-M04",
+   "title": "Inflammation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 6 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 6
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S02",
+   "title": "Adaptive immunity",
+   "level": "Subtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 4
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S02-M01",
+   "title": "B cells",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 5 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 5
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S02-M02",
+   "title": "T cells",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 5 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 5
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S02-M03",
+   "title": "Antibodies",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 5 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 5
+  },
+  {
+   "nodeId": "SYS-IMM-T01-S02-M04",
+   "title": "Tolerance",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-IMM-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 6 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 6
+  },
+  {
+   "nodeId": "SYS-IMM-T02",
+   "title": "Hypersensitivity and allergy",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T02-S01",
+   "title": "Immediate hypersensitivity",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T02",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T02-S01-M01",
+   "title": "Anaphylaxis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T02-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T02-S01-M02",
+   "title": "Atopy",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T02-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T02-S01-M03",
+   "title": "Urticaria",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T02-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T02-S02",
+   "title": "Delayed and immune-complex disease",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T02",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T02-S02-M01",
+   "title": "Type II",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 8 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 8
+  },
+  {
+   "nodeId": "SYS-IMM-T02-S02-M02",
+   "title": "Type III",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T02-S02-M03",
+   "title": "Type IV",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-IMM-T03",
+   "title": "Autoimmune disease",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 6
+  },
+  {
+   "nodeId": "SYS-IMM-T03-S01",
+   "title": "Systemic autoimmune disease",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T03",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T03-S01-M01",
+   "title": "SLE",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T03-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T03-S01-M02",
+   "title": "Systemic sclerosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T03-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T03-S01-M03",
+   "title": "Vasculitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T03-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T03-S02",
+   "title": "Organ-specific autoimmunity",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T03",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T03-S02-M01",
+   "title": "Thyroid",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T03-S02-M02",
+   "title": "Neuromuscular",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T03-S02-M03",
+   "title": "Gastrointestinal",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T04",
+   "title": "Immunodeficiency",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T04-S01",
+   "title": "Primary immunodeficiency",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T04",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T04-S01-M01",
+   "title": "Humoral",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-IMM-T04-S01-M02",
+   "title": "Cellular",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T04-S01-M03",
+   "title": "Combined",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T04-S01-M04",
+   "title": "Phagocyte",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T04-S02",
+   "title": "Secondary immunodeficiency",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T04",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T04-S02-M01",
+   "title": "HIV",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T04-S02-M02",
+   "title": "Malnutrition",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T04-S02-M03",
+   "title": "Iatrogenic",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T05",
+   "title": "Transplantation and immunotherapy",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T05-S01",
+   "title": "Transplant immunology",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T05",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T05-S01-M01",
+   "title": "Rejection",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T05-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 6 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 6
+  },
+  {
+   "nodeId": "SYS-IMM-T05-S01-M02",
+   "title": "GVHD",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T05-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T05-S01-M03",
+   "title": "Immunosuppression",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T05-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T05-S02",
+   "title": "Biologics and immunomodulation",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T05",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T05-S02-M01",
+   "title": "Monoclonal antibodies",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T05-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-IMM-T05-S02-M02",
+   "title": "Cytokine therapy",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T05-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 4 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 4
+  },
+  {
+   "nodeId": "SYS-IMM-T05-S02-M03",
+   "title": "Vaccines",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-IMM-T05-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  }
+ ]
+}

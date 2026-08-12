@@ -79,6 +79,22 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 
 </details>
 
+### Decided classification (`SYS-GYN-INVENTORY-001`, 2026-08-12)
+
+All 63 nodes are classified. Evidence:
+[`SYS-GYN-node-classification.json`](../evidence/SYS-GYN-node-classification.json).
+
+| Classification | Nodes |
+|---|---:|
+| navigation-only hub | 21 |
+| overview article | 0 |
+| atomic article home | 42 |
+| empty but legitimate planned destination | 0 |
+| **Planned articles** | **42** |
+
+13 of these nodes carry a local teaching signal — the corpus teaches
+them in two or more processed sources — and are the ones to author first (`LD-14`).
+
 *Initial classification is a placeholder. `SYS-GYN-INVENTORY-001` replaces every
 row with a decided classification from the five allowed values in the master
 plan's article catalogue rules.*
@@ -158,6 +174,23 @@ No canonical article or concept. 9 articles and 111 concepts secondary. 1 `Publi
 | Article ID | Title | Status | Gate | Template | Disposition and why |
 |---|---|---|---|---|---|
 | — | *No article has `SYS-GYN` as its canonical home* | — | — | — | Every article in this system is new, or is a `move of canonical home` decision on a discipline-rooted record (DEC-005) |
+
+### Decided dispositions (`SYS-GYN-INVENTORY-001`, 2026-08-12)
+
+Evidence: [`SYS-GYN-disposition-ledger.json`](../evidence/SYS-GYN-disposition-ledger.json).
+
+| | Articles | Concepts |
+|---|---:|---:|
+| Touching this system | 9 | 111 |
+| Canonically homed here | 0 | 0 |
+| `enrich` | 0 | 0 |
+| `correct` (BLK-09) | 9 | 111 |
+| Outside the subject-ID contract | 9 | 111 |
+
+No record is `keep` on sight. Every existing article lacks statement
+annotations, image recommendations and per-line callout evidence — all three
+became possible in Phase 0 and none exists yet — so `enrich` is the honest
+default rather than a judgement that the record is poor.
 
 Allowed dispositions: `keep` · `enrich` · `correct` · `merge` · `split` ·
 `redirect` · `deprecate` · `exclude`. Every row states why. Stable IDs are

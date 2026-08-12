@@ -71,6 +71,22 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 
 </details>
 
+### Decided classification (`SYS-HEM-INVENTORY-001`, 2026-08-12)
+
+All 56 nodes are classified. Evidence:
+[`SYS-HEM-node-classification.json`](../evidence/SYS-HEM-node-classification.json).
+
+| Classification | Nodes |
+|---|---:|
+| navigation-only hub | 18 |
+| overview article | 1 |
+| atomic article home | 37 |
+| empty but legitimate planned destination | 0 |
+| **Planned articles** | **38** |
+
+18 of these nodes carry a local teaching signal — the corpus teaches
+them in two or more processed sources — and are the ones to author first (`LD-14`).
+
 *Initial classification is a placeholder. `SYS-HEM-INVENTORY-001` replaces every
 row with a decided classification from the five allowed values in the master
 plan's article catalogue rules.*
@@ -155,6 +171,23 @@ impact, and a rollback strategy (LD-06).
 | `ART-HEM-TOP-5F717A708E` | Primary Hemostasis | In review | `needs_evidence` | `TPL-CONCEPT` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
 | `ART-HEM-TOP-FD61B0A3D0` | Platelet Physiology | In review | `needs_evidence` | `TPL-CONCEPT` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
 | `ART-HEM-TOP-5E60609123` | Anticoagulant Physiology | In review | `needs_evidence` | `TPL-CONCEPT` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
+
+### Decided dispositions (`SYS-HEM-INVENTORY-001`, 2026-08-12)
+
+Evidence: [`SYS-HEM-disposition-ledger.json`](../evidence/SYS-HEM-disposition-ledger.json).
+
+| | Articles | Concepts |
+|---|---:|---:|
+| Touching this system | 9 | 122 |
+| Canonically homed here | 7 | 94 |
+| `enrich` | 0 | 0 |
+| `correct` (BLK-09) | 9 | 122 |
+| Outside the subject-ID contract | 9 | 122 |
+
+No record is `keep` on sight. Every existing article lacks statement
+annotations, image recommendations and per-line callout evidence — all three
+became possible in Phase 0 and none exists yet — so `enrich` is the honest
+default rather than a judgement that the record is poor.
 
 Allowed dispositions: `keep` · `enrich` · `correct` · `merge` · `split` ·
 `redirect` · `deprecate` · `exclude`. Every row states why. Stable IDs are

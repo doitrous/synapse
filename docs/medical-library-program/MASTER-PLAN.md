@@ -19,14 +19,14 @@ starts here and ends here. Nothing below depends on any chat transcript.
 
 | | |
 |---|---|
-| **Overall status** | Phases 0 and 1 complete. Phase 2 ready — system-by-system content work |
+| **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — all 19 inventories done, 943 articles planned, authoring not started |
 | **Active phase** | Phase 2 — article & concept programme, starting at `SYS-FND` |
 | **Active system** | `SYS-FND` Foundations & General Principles (system 1 of 19) |
-| **Active task ID** | `SYS-FND-INVENTORY-001` (Not started) |
+| **Active task ID** | `SYS-FND-SOURCE-001` (Not started) |
 | **Last verified commit** | `781558b` — *Write the medical-library programme plan, and its 19 system plans* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (Phase 1 complete — `GATE-TAX-001` passed) |
+| **Last update** | 2026-08-12 (all 19 system inventories complete) |
 
 ### Gate status
 
@@ -175,32 +175,38 @@ counts primary **or** secondary. The gap between the two columns is the finding
 that shapes Phase 2: almost all existing content is *secondarily* attached to
 systems while its canonical home is a discipline root.
 
-| # | System | Plan | Status | Canonical topics / descendants | Articles (primary / any) | Concepts (primary / any) | Blocker | Next task |
-|---:|---|---|---|---:|---:|---:|---|---|
-| 1 | `SYS-FND` Foundations & General Principles | [plan](systems/SYS-FND.md) | Not started | 6 / 74 | 3 / 5 | 22 / 45 | `GATE-TAX-001` | `SYS-FND-INVENTORY-001` |
-| 2 | `SYS-DEV` Human Development & Life Stages | [plan](systems/SYS-DEV.md) | Not started | 4 / 45 | 0 / 9 | 0 / 111 | `GATE-TAX-001` | `SYS-DEV-INVENTORY-001` |
-| 3 | `SYS-CVS` Cardiovascular System | [plan](systems/SYS-CVS.md) | Not started | 9 / 93 | 10 / 10 | 98 / 98 | `GATE-TAX-001` | `SYS-CVS-INVENTORY-001` |
-| 4 | `SYS-RES` Respiratory System | [plan](systems/SYS-RES.md) | Not started | 8 / 82 | 0 / 9 | 0 / 112 | `GATE-TAX-001` | `SYS-RES-INVENTORY-001` |
-| 5 | `SYS-REN` Renal & Urinary System | [plan](systems/SYS-REN.md) | Not started | 7 / 81 | 0 / 10 | 0 / 119 | `GATE-TAX-001` | `SYS-REN-INVENTORY-001` |
-| 6 | `SYS-GIT` Gastrointestinal, Hepatobiliary & Pancreatic | [plan](systems/SYS-GIT.md) | Not started | 9 / 108 | 0 / 10 | 0 / 126 | `GATE-TAX-001` | `SYS-GIT-INVENTORY-001` |
-| 7 | `SYS-END` Endocrine & Metabolic System | [plan](systems/SYS-END.md) | Not started | 7 / 61 | 1 / 8 | 5 / 95 | `GATE-TAX-001` | `SYS-END-INVENTORY-001` |
-| 8 | `SYS-NEU` Nervous System & Special Senses | [plan](systems/SYS-NEU.md) | Not started | 8 / 78 | 0 / 10 | 0 / 121 | `GATE-TAX-001` | `SYS-NEU-INVENTORY-001` |
-| 9 | `SYS-MSK` Musculoskeletal System | [plan](systems/SYS-MSK.md) | Not started | 6 / 66 | 0 / 9 | 0 / 123 | `GATE-TAX-001` | `SYS-MSK-INVENTORY-001` |
-| 10 | `SYS-HEM` Blood & Lymphoreticular System | [plan](systems/SYS-HEM.md) | Not started | 6 / 56 | 7 / 9 | 94 / 122 | `GATE-TAX-001` | `SYS-HEM-INVENTORY-001` |
-| 11 | `SYS-IMM` Immune System | [plan](systems/SYS-IMM.md) | Not started | 5 / 48 | 0 / 10 | 0 / 133 | `GATE-TAX-001` | `SYS-IMM-INVENTORY-001` |
-| 12 | `SYS-INF` Infection & Tropical Medicine | [plan](systems/SYS-INF.md) | Not started | 7 / 84 | 0 / 10 | 0 / 121 | `GATE-TAX-001` | `SYS-INF-INVENTORY-001` |
-| 13 | `SYS-OBS` Pregnancy, Childbirth & Puerperium | [plan](systems/SYS-OBS.md) | Not started | 6 / 54 | 0 / 9 | 0 / 87 | `GATE-TAX-001` | `SYS-OBS-INVENTORY-001` |
-| 14 | `SYS-GYN` Female Reproductive System & Breast | [plan](systems/SYS-GYN.md) | Not started | 7 / 63 | 0 / 9 | 0 / 111 | `GATE-TAX-001` | `SYS-GYN-INVENTORY-001` |
-| 15 | `SYS-AND` Male Reproductive System | [plan](systems/SYS-AND.md) | Not started | 6 / 53 | 0 / 10 | 0 / 115 | `GATE-TAX-001` | `SYS-AND-INVENTORY-001` |
-| 16 | `SYS-PSY` Behavioral Health | [plan](systems/SYS-PSY.md) | Not started | 6 / 58 | 0 / 0 | 0 / 0 | `GATE-TAX-001` | `SYS-PSY-INVENTORY-001` |
-| 17 | `SYS-DER` Skin & Subcutaneous Tissue | [plan](systems/SYS-DER.md) | Not started | 6 / 55 | 0 / 6 | 0 / 57 | `GATE-TAX-001` | `SYS-DER-INVENTORY-001` |
-| 18 | `SYS-MUL` Multisystem Processes, Emergencies & Critical Care | [plan](systems/SYS-MUL.md) | Not started | 7 / 83 | 0 / 0 | 0 / 0 | `GATE-TAX-001` | `SYS-MUL-INVENTORY-001` |
-| 19 | `SYS-POP` Population Health, Evidence & Social Sciences | [plan](systems/SYS-POP.md) | Not started | 7 / 83 | 0 / 0 | 0 / 0 | `GATE-TAX-001` | `SYS-POP-INVENTORY-001` |
-| | **Total** | | | **127 / 1,344** | **21 / 145** | **219 / 1,718** | | |
+| # | System | Plan | Status | Nodes | Hubs | Planned articles | Local signal | Existing articles / concepts | Next task |
+|---:|---|---|---|---:|---:|---:|---:|---|---|
+| 1 | `SYS-FND` Foundations & General Principles | [plan](systems/SYS-FND.md) | Inventory done | 74 | 18 | 56 | 36 | 5 / 45 | `SYS-FND-SOURCE-001` |
+| 2 | `SYS-DEV` Human Development & Life Stages | [plan](systems/SYS-DEV.md) | Inventory done | 45 | 12 | 33 | 10 | 9 / 111 | `SYS-DEV-SOURCE-001` |
+| 3 | `SYS-CVS` Cardiovascular System | [plan](systems/SYS-CVS.md) | Inventory done | 93 | 27 | 66 | 22 | 10 / 98 | `SYS-CVS-SOURCE-001` |
+| 4 | `SYS-RES` Respiratory System | [plan](systems/SYS-RES.md) | Inventory done | 82 | 24 | 58 | 23 | 9 / 112 | `SYS-RES-SOURCE-001` |
+| 5 | `SYS-REN` Renal & Urinary System | [plan](systems/SYS-REN.md) | Inventory done | 81 | 21 | 60 | 16 | 10 / 119 | `SYS-REN-SOURCE-001` |
+| 6 | `SYS-GIT` Gastrointestinal, Hepatobiliary & Pancreatic | [plan](systems/SYS-GIT.md) | Inventory done | 108 | 27 | 81 | 39 | 10 / 126 | `SYS-GIT-SOURCE-001` |
+| 7 | `SYS-END` Endocrine & Metabolic System | [plan](systems/SYS-END.md) | Inventory done | 61 | 21 | 40 | 28 | 8 / 95 | `SYS-END-SOURCE-001` |
+| 8 | `SYS-NEU` Nervous System & Special Senses | [plan](systems/SYS-NEU.md) | Inventory done | 78 | 24 | 54 | 12 | 10 / 121 | `SYS-NEU-SOURCE-001` |
+| 9 | `SYS-MSK` Musculoskeletal System | [plan](systems/SYS-MSK.md) | Inventory done | 66 | 18 | 48 | 13 | 9 / 123 | `SYS-MSK-SOURCE-001` |
+| 10 | `SYS-HEM` Blood & Lymphoreticular System | [plan](systems/SYS-HEM.md) | Inventory done | 56 | 18 | 38 | 18 | 9 / 122 | `SYS-HEM-SOURCE-001` |
+| 11 | `SYS-IMM` Immune System | [plan](systems/SYS-IMM.md) | Inventory done | 48 | 15 | 33 | 16 | 10 / 133 | `SYS-IMM-SOURCE-001` |
+| 12 | `SYS-INF` Infection & Tropical Medicine | [plan](systems/SYS-INF.md) | Inventory done | 84 | 21 | 63 | 27 | 10 / 121 | `SYS-INF-SOURCE-001` |
+| 13 | `SYS-OBS` Pregnancy, Childbirth & Puerperium | [plan](systems/SYS-OBS.md) | Inventory done | 54 | 18 | 36 | 11 | 9 / 87 | `SYS-OBS-SOURCE-001` |
+| 14 | `SYS-GYN` Female reproductive system | [plan](systems/SYS-GYN.md) | Inventory done | 63 | 21 | 42 | 13 | 9 / 111 | `SYS-GYN-SOURCE-001` |
+| 15 | `SYS-AND` Male Reproductive System | [plan](systems/SYS-AND.md) | Inventory done | 53 | 18 | 35 | 15 | 10 / 115 | `SYS-AND-SOURCE-001` |
+| 16 | `SYS-PSY` Behavioral Health | [plan](systems/SYS-PSY.md) | Inventory done | 58 | 18 | 40 | 2 | 0 / 0 | `SYS-PSY-SOURCE-001` |
+| 17 | `SYS-DER` Skin & Subcutaneous Tissue | [plan](systems/SYS-DER.md) | Inventory done | 55 | 18 | 37 | 10 | 6 / 57 | `SYS-DER-SOURCE-001` |
+| 18 | `SYS-MUL` Multisystem Processes, Emergencies & Critical Care | [plan](systems/SYS-MUL.md) | Inventory done | 83 | 21 | 61 | 12 | 0 / 0 | `SYS-MUL-SOURCE-001` |
+| 19 | `SYS-POP` Population Health, Evidence & Social Sciences | [plan](systems/SYS-POP.md) | Inventory done | 83 | 21 | 62 | 12 | 0 / 0 | `SYS-POP-SOURCE-001` |
+| | **Total** | | | **1325** | **381** | **943** | **335** | | |
 
-*Note on totals: the "any placement" columns do not sum to 145 and 1,718 because
-one record may be placed under several systems. 124 of 145 articles and 1,499 of
-1,718 concepts have a **discipline** root as their canonical home.*
+*Existing article and concept counts do not sum to 145 and 1,718: one record may
+be placed under several systems. 124 of 145 articles and 1,499 of 1,718 concepts
+have a **discipline** root as their canonical home (`DEC-005`).*
+
+**943 planned articles** is the decided catalogue, not an estimate — it lands
+mid-range of the 900–1,600 the plan projected before the nodes were classified.
+335 of those nodes carry a local teaching signal and are authored first (`LD-14`).
+`SYS-PSY`, `SYS-MUL` and `SYS-POP` have no existing content of any kind and are
+entirely greenfield.
 
 ---
 
@@ -527,6 +533,29 @@ Three findings worth carrying forward:
   "Pathology", "Clinical correlations" and "Relevant pharmacology" under most
   systems. That is the same presentation-facet pattern the taxonomy review
   already rejected in the supplied blueprint.
+
+| 2026-08-12 | `SYS-*-INVENTORY-001` ×19 | Classified all 1,325 nodes across the 19 systems and disposed of every article and concept touching them. **943 articles planned.** No content authored. | uncommitted | `medical:audit` pass, unchanged | `evidence/SYS-*-node-classification.json` ×19, `evidence/SYS-*-disposition-ledger.json` ×19, `scripts/build-system-inventory.mjs` | `SYS-FND-SOURCE-001` |
+
+### All 19 inventories (2026-08-12)
+
+| | |
+|---|---:|
+| Nodes classified | 1,325 |
+| — navigation-only hubs | 383 |
+| — overview articles | 19 |
+| — atomic article homes | 922 |
+| — legitimate empty destinations | 1 |
+| **Planned articles** | **943** |
+| Nodes the corpus actually teaches | 335 |
+| `BLK-09` articles to correct | 62 |
+| `BLK-09` concepts to correct | 736 |
+
+Every existing article is `enrich`, not `keep`: none carries statement
+annotations, image recommendations or per-line callout evidence, all three of
+which Phase 0 made possible and none of which exists yet.
+
+`SYS-PSY`, `SYS-MUL` and `SYS-POP` have no article, concept or relation at all —
+138 planned articles with nothing to build on.
 
 ### Phase 0 outputs (2026-08-12)
 

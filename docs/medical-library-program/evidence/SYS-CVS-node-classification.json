@@ -1,0 +1,1071 @@
+{
+ "task": "SYS-CVS-INVENTORY-001",
+ "rule": "A parent is a hub; a leaf is an article home only where its label names a distinct studiable unit (LD-04). Local corpus signal raises priority, never creates an article.",
+ "classifications": [
+  "navigation-only hub",
+  "overview article",
+  "atomic article home",
+  "secondary placement only",
+  "empty but legitimate planned destination"
+ ],
+ "summary": {
+  "total": 93,
+  "byLevel": {
+   "Topic": 9,
+   "Subtopic": 18,
+   "Microtopic": 66
+  },
+  "byClassification": {
+   "navigation-only hub": 27,
+   "atomic article home": 66
+  }
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-CVS-T01",
+   "title": "Structure and function",
+   "level": "Topic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 14
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S01",
+   "title": "Cardiac anatomy and histology",
+   "level": "Subtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS-T01",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [
+    "ART-CVS-HEART-ORIENTATION",
+    "ART-CVS-CHAMBERS-VALVES",
+    "ART-CVS-CORONARY-CIRCULATION",
+    "ART-CVS-CARDIAC-HISTOLOGY"
+   ],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S01-M01",
+   "title": "Chambers",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Already the canonical or secondary home of 1 article.",
+   "existingArticles": [
+    "ART-CVS-CHAMBERS-VALVES"
+   ],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S01-M02",
+   "title": "Valves",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Already the canonical or secondary home of 1 article.",
+   "existingArticles": [
+    "ART-CVS-CHAMBERS-VALVES"
+   ],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S01-M03",
+   "title": "Coronary circulation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Already the canonical or secondary home of 1 article.",
+   "existingArticles": [
+    "ART-CVS-CORONARY-CIRCULATION"
+   ],
+   "localTeachingSources": 3
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S01-M04",
+   "title": "Conduction",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Already the canonical or secondary home of 2 articles.",
+   "existingArticles": [
+    "ART-CVS-CONDUCTION",
+    "ART-CVS-CARDIAC-ELECTRICAL"
+   ],
+   "localTeachingSources": 3
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S02",
+   "title": "Cardiovascular physiology",
+   "level": "Subtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS-T01",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [
+    "ART-CVS-CARDIAC-ELECTRICAL"
+   ],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S02-M01",
+   "title": "Cardiac cycle",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Already the canonical or secondary home of 1 article.",
+   "existingArticles": [
+    "ART-CVS-CARDIAC-CYCLE"
+   ],
+   "localTeachingSources": 5
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S02-M02",
+   "title": "Hemodynamics",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Already the canonical or secondary home of 2 articles.",
+   "existingArticles": [
+    "ART-CVS-CARDIAC-OUTPUT",
+    "ART-CVS-VASCULAR-FLOW"
+   ],
+   "localTeachingSources": 3
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S02-M03",
+   "title": "Blood pressure regulation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-CVS-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Already the canonical or secondary home of 1 article.",
+   "existingArticles": [
+    "ART-CVS-BLOOD-PRESSURE"
+   ],
+   "localTeachingSources": 17
+  },
+  {
+   "nodeId": "SYS-CVS-T02",
+   "title": "Cardiovascular presentations",
+   "level": "Topic",
+   "templateId": "TPL-PRESENTATION",
+   "parentId": "SYS-CVS",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S01",
+   "title": "Chest symptoms",
+   "level": "Subtopic",
+   "templateId": "TPL-PRESENTATION",
+   "parentId": "SYS-CVS-T02",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S01-M01",
+   "title": "Chest pain",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "parentId": "SYS-CVS-T02-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S01-M02",
+   "title": "Palpitations",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "parentId": "SYS-CVS-T02-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S01-M03",
+   "title": "Dyspnea",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "parentId": "SYS-CVS-T02-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S02",
+   "title": "Perfusion and volume symptoms",
+   "level": "Subtopic",
+   "templateId": "TPL-PRESENTATION",
+   "parentId": "SYS-CVS-T02",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S02-M01",
+   "title": "Syncope",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "parentId": "SYS-CVS-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S02-M02",
+   "title": "Edema",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "parentId": "SYS-CVS-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 5 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 5
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S02-M03",
+   "title": "Claudication",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "parentId": "SYS-CVS-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T03",
+   "title": "Ischemic heart disease",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 4
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S01",
+   "title": "Chronic coronary syndromes",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T03",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S01-M01",
+   "title": "Stable angina",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T03-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S01-M02",
+   "title": "Silent ischemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T03-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S02",
+   "title": "Acute coronary syndromes",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T03",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S02-M01",
+   "title": "Unstable angina",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S02-M02",
+   "title": "NSTEMI",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S02-M03",
+   "title": "STEMI",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S02-M04",
+   "title": "Post-MI complications",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04",
+   "title": "Heart failure and cardiomyopathy",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S01",
+   "title": "Heart failure syndromes",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S01-M01",
+   "title": "HFrEF",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S01-M02",
+   "title": "HFpEF",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S01-M03",
+   "title": "Acute heart failure",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S01-M04",
+   "title": "Right heart failure",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S02",
+   "title": "Cardiomyopathy",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S02-M01",
+   "title": "Dilated",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S02-M02",
+   "title": "Hypertrophic",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S02-M03",
+   "title": "Restrictive",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S02-M04",
+   "title": "Myocarditis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T05",
+   "title": "Rhythm and conduction",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S01",
+   "title": "Bradyarrhythmia",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T05",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S01-M01",
+   "title": "Sinus node disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T05-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S01-M02",
+   "title": "AV block",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T05-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02",
+   "title": "Tachyarrhythmia",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T05",
+   "classification": "navigation-only hub",
+   "rationale": "Has 5 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M01",
+   "title": "AF",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T05-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M02",
+   "title": "SVT",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T05-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M03",
+   "title": "VT",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T05-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M04",
+   "title": "VF",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T05-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M05",
+   "title": "Long-QT syndromes",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T05-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T06",
+   "title": "Valvular and pericardial disease",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S01",
+   "title": "Valve disease",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 5
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S01-M01",
+   "title": "Aortic",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S01-M02",
+   "title": "Mitral",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S01-M03",
+   "title": "Tricuspid",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S01-M04",
+   "title": "Pulmonary",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 9 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 9
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S02",
+   "title": "Pericardial disease",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S02-M01",
+   "title": "Pericarditis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S02-M02",
+   "title": "Effusion",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S02-M03",
+   "title": "Tamponade",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S02-M04",
+   "title": "Constrictive disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T06-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T07",
+   "title": "Hypertension and vascular disease",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S01",
+   "title": "Blood-pressure disorders",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 4
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S01-M01",
+   "title": "Primary hypertension",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S01-M02",
+   "title": "Secondary hypertension",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S01-M03",
+   "title": "Hypertensive emergency",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02",
+   "title": "Arterial and venous disease",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07",
+   "classification": "navigation-only hub",
+   "rationale": "Has 5 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M01",
+   "title": "Aortic aneurysm",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M02",
+   "title": "Dissection",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M03",
+   "title": "PAD",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M04",
+   "title": "DVT",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M05",
+   "title": "Venous insufficiency",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T07-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08",
+   "title": "Congenital and inflammatory disease",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01",
+   "title": "Congenital heart disease",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08",
+   "classification": "navigation-only hub",
+   "rationale": "Has 5 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M01",
+   "title": "ASD",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M02",
+   "title": "VSD",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M03",
+   "title": "PDA",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M04",
+   "title": "Tetralogy",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M05",
+   "title": "Coarctation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S02",
+   "title": "Infection and inflammation",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S02-M01",
+   "title": "Endocarditis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S02-M02",
+   "title": "Rheumatic heart disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S02-M03",
+   "title": "Vasculitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-CVS-T08-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09",
+   "title": "Cardiovascular investigations and procedures",
+   "level": "Topic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S01",
+   "title": "Diagnostic tests",
+   "level": "Subtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S01-M01",
+   "title": "ECG",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S01-M02",
+   "title": "Echocardiography",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S01-M03",
+   "title": "Cardiac biomarkers",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S01-M04",
+   "title": "Stress testing",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S02",
+   "title": "Procedures",
+   "level": "Subtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 3
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S02-M01",
+   "title": "CPR",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S02-M02",
+   "title": "Cardioversion",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S02-M03",
+   "title": "Pacing",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S02-M04",
+   "title": "Catheterization",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "parentId": "SYS-CVS-T09-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  }
+ ]
+}

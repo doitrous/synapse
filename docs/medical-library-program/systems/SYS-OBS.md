@@ -70,6 +70,22 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 
 </details>
 
+### Decided classification (`SYS-OBS-INVENTORY-001`, 2026-08-12)
+
+All 54 nodes are classified. Evidence:
+[`SYS-OBS-node-classification.json`](../evidence/SYS-OBS-node-classification.json).
+
+| Classification | Nodes |
+|---|---:|
+| navigation-only hub | 18 |
+| overview article | 0 |
+| atomic article home | 36 |
+| empty but legitimate planned destination | 0 |
+| **Planned articles** | **36** |
+
+11 of these nodes carry a local teaching signal — the corpus teaches
+them in two or more processed sources — and are the ones to author first (`LD-14`).
+
 *Initial classification is a placeholder. `SYS-OBS-INVENTORY-001` replaces every
 row with a decided classification from the five allowed values in the master
 plan's article catalogue rules.*
@@ -148,6 +164,23 @@ No canonical article or concept. 9 articles and 87 concepts secondary — the lo
 | Article ID | Title | Status | Gate | Template | Disposition and why |
 |---|---|---|---|---|---|
 | — | *No article has `SYS-OBS` as its canonical home* | — | — | — | Every article in this system is new, or is a `move of canonical home` decision on a discipline-rooted record (DEC-005) |
+
+### Decided dispositions (`SYS-OBS-INVENTORY-001`, 2026-08-12)
+
+Evidence: [`SYS-OBS-disposition-ledger.json`](../evidence/SYS-OBS-disposition-ledger.json).
+
+| | Articles | Concepts |
+|---|---:|---:|
+| Touching this system | 9 | 87 |
+| Canonically homed here | 0 | 0 |
+| `enrich` | 0 | 0 |
+| `correct` (BLK-09) | 9 | 87 |
+| Outside the subject-ID contract | 9 | 87 |
+
+No record is `keep` on sight. Every existing article lacks statement
+annotations, image recommendations and per-line callout evidence — all three
+became possible in Phase 0 and none exists yet — so `enrich` is the honest
+default rather than a judgement that the record is poor.
 
 Allowed dispositions: `keep` · `enrich` · `correct` · `merge` · `split` ·
 `redirect` · `deprecate` · `exclude`. Every row states why. Stable IDs are

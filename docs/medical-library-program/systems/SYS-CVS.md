@@ -82,6 +82,22 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 
 </details>
 
+### Decided classification (`SYS-CVS-INVENTORY-001`, 2026-08-12)
+
+All 93 nodes are classified. Evidence:
+[`SYS-CVS-node-classification.json`](../evidence/SYS-CVS-node-classification.json).
+
+| Classification | Nodes |
+|---|---:|
+| navigation-only hub | 27 |
+| overview article | 0 |
+| atomic article home | 66 |
+| empty but legitimate planned destination | 0 |
+| **Planned articles** | **66** |
+
+22 of these nodes carry a local teaching signal — the corpus teaches
+them in two or more processed sources — and are the ones to author first (`LD-14`).
+
 *Initial classification is a placeholder. `SYS-CVS-INVENTORY-001` replaces every
 row with a decided classification from the five allowed values in the master
 plan's article catalogue rules.*
@@ -170,6 +186,23 @@ impact, and a rollback strategy (LD-06).
 | `ART-CVS-CARDIAC-ELECTRICAL` | Cardiac electrical activity and ECG foundations | Published | `needs_evidence` | `TPL-INVESTIGATION` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
 | `ART-CVS-BLOOD-PRESSURE` | Arterial pressure and its regulation | In review | `needs_evidence` | `TPL-CONCEPT` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
 | `ART-CVS-VASCULAR-FLOW` | Blood vessels, flow and microcirculation | In review | `needs_evidence` | `TPL-CONCEPT` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
+
+### Decided dispositions (`SYS-CVS-INVENTORY-001`, 2026-08-12)
+
+Evidence: [`SYS-CVS-disposition-ledger.json`](../evidence/SYS-CVS-disposition-ledger.json).
+
+| | Articles | Concepts |
+|---|---:|---:|
+| Touching this system | 10 | 98 |
+| Canonically homed here | 10 | 98 |
+| `enrich` | 10 | 98 |
+| `correct` (BLK-09) | 0 | 0 |
+| Outside the subject-ID contract | 0 | 0 |
+
+No record is `keep` on sight. Every existing article lacks statement
+annotations, image recommendations and per-line callout evidence — all three
+became possible in Phase 0 and none exists yet — so `enrich` is the honest
+default rather than a judgement that the record is poor.
 
 Allowed dispositions: `keep` · `enrich` · `correct` · `merge` · `split` ·
 `redirect` · `deprecate` · `exclude`. Every row states why. Stable IDs are

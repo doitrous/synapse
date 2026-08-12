@@ -1,0 +1,581 @@
+{
+ "task": "SYS-FND-INVENTORY-001",
+ "rule": "Stable IDs are preserved (LD-06). Nothing is deleted; BLK-09 records are corrected under a documented migration.",
+ "summary": {
+  "articles": {
+   "touching": 5,
+   "canonicalHere": 3,
+   "byDisposition": {
+    "enrich": 5
+   },
+   "outsideSubjectContract": 0
+  },
+  "concepts": {
+   "touching": 45,
+   "canonicalHere": 22,
+   "byDisposition": {
+    "enrich": 45
+   },
+   "outsideSubjectContract": 0
+  }
+ },
+ "articles": [
+  {
+   "id": "ART-FND-TOP-9E1180D1D1",
+   "title": "Membrane Transport",
+   "status": "In review",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T01-S01-M01",
+   "canonicalHere": true,
+   "publicationGate": "needs_evidence",
+   "templateId": "TPL-CONCEPT",
+   "disposition": "enrich",
+   "why": "no statement annotations; no image recommendations; callouts carry no per-line evidence"
+  },
+  {
+   "id": "ART-FND-TOP-770778D86F",
+   "title": "Pharmacokinetics: Distribution, Dosing, and Clearance",
+   "status": "In review",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01",
+   "canonicalHere": true,
+   "publicationGate": "faculty_review",
+   "templateId": "TPL-DRUG",
+   "disposition": "enrich",
+   "why": "no statement annotations; no image recommendations; callouts carry no per-line evidence"
+  },
+  {
+   "id": "ART-FND-TOP-EB8CCAC9B3",
+   "title": "Gene Expression and Its Regulation",
+   "status": "In review",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "publicationGate": "needs_evidence",
+   "templateId": "TPL-CONCEPT",
+   "disposition": "enrich",
+   "why": "no statement annotations; no image recommendations; callouts carry no per-line evidence"
+  },
+  {
+   "id": "ART-FND-TOP-008C54089F",
+   "title": "Acids, Bases, and pH",
+   "status": "In review",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "publicationGate": "needs_evidence",
+   "templateId": "TPL-CONCEPT",
+   "disposition": "enrich",
+   "why": "no statement annotations; no image recommendations; callouts carry no per-line evidence"
+  },
+  {
+   "id": "ART-FND-TOP-18792C56A5",
+   "title": "Ultrasound Physics for Medical Imaging",
+   "status": "In review",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "publicationGate": "needs_evidence",
+   "templateId": "TPL-ANATOMY",
+   "disposition": "enrich",
+   "why": "no statement annotations; no image recommendations; callouts carry no per-line evidence"
+  }
+ ],
+ "concepts": [
+  {
+   "id": "CON-FND-2EDA697071E588",
+   "label": "Ungated or leak channels",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T01-S01-M01",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-FD53CFAE6AAC72",
+   "label": "Interpretation of a high apparent volume of distribution",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01-M02",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_pharmacology_concept",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-3CC86CC26BF549",
+   "label": "Loading dose",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_pharmacology_concept",
+   "publicationStatus": "faculty_review",
+   "disposition": "enrich",
+   "why": "publication status faculty_review"
+  },
+  {
+   "id": "CON-FND-43BED56FA9D1E9",
+   "label": "Interpretation of a low apparent volume of distribution",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01-M02",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_pharmacology_concept",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-7F59EAD61B05E0",
+   "label": "A maintenance dose replaces drug eliminated since the preceding dose to maintain steady state",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_pharmacology_concept",
+   "publicationStatus": "faculty_review",
+   "disposition": "enrich",
+   "why": "publication status faculty_review"
+  },
+  {
+   "id": "CON-FND-01E59D0FD26046",
+   "label": "Active tubular excretion is saturable and is a site of competition and drug interaction",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_pharmacology_concept",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-CBA2A73AE9A6D8",
+   "label": "Apparent volume of distribution",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01-M02",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_pharmacology_concept",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-0D3254CF812B1A",
+   "label": "Apparent volume of distribution can exceed body volume",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01-M02",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_pharmacology_concept",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-9D89A82094F8AA",
+   "label": "Biliary drug excretion can be followed by intestinal reabsorption and enterohepatic circulation",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_pharmacology_concept",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-87C323BB0CE321",
+   "label": "Clearance is the volume of body fluid from which drug is removed per unit time",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T04-S01-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_pharmacology_concept",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-F7A9E4F0859AC7",
+   "label": "A trans-acting regulatory factor is a diffusible molecule that can act at a DNA-binding site distant from its gene of origin",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-32922831AC9408",
+   "label": "An operon groups coordinately controlled bacterial genes for one metabolic pathway and transcribes them as polycistronic mRNA",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-2211CDF4111505",
+   "label": "Chromatin remodeling changes DNA accessibility to RNA polymerase and transcription factors",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-10A0729748355A",
+   "label": "Cis-acting regulatory DNA affects genes on the same chromosome",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-F7AA6A550EF4E7",
+   "label": "Constitutive housekeeping genes are continually expressed because their products support basic cellular functions",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-B5B2112BF2CADE",
+   "label": "lacI repressor in the lac operon",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-2447F778E94F18",
+   "label": "Promoter DNA methylation and transcription",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-61E39EDAE8CEB8",
+   "label": "Enhancers bind proteins that facilitate transcription initiation and can act far upstream or downstream on either DNA strand",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-874900BD61D030",
+   "label": "Epigenetics changes gene expression without changing DNA sequence",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-46C6FBC25A26CF",
+   "label": "Eukaryotic expression is regulated at pretranscriptional, transcriptional, posttranscriptional, translational, and post-translational levels",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-B88BC2FA88E415",
+   "label": "Gene amplification increases gene dosage and can increase gene-product abundance",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "under_review",
+   "disposition": "enrich",
+   "why": "publication status under_review"
+  },
+  {
+   "id": "CON-FND-EFFC99E43DF137",
+   "label": "Gene expression converts information in a gene into a functional RNA or protein product",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-BIO-T06",
+   "canonicalHere": false,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-7A13EADDDC6F2B",
+   "label": "Definition of a base",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-0E928D053BCD48",
+   "label": "A basic solution has pH above 7 and hydrogen-ion concentration below hydroxyl-ion concentration",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-A8A72BC2005748",
+   "label": "A neutral solution has pH 7 with equal hydrogen and hydroxyl concentrations",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-C0E41863BB113A",
+   "label": "Acid and base relative strengths are expressed by Ka and Kb",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-C580DAFC89ED2A",
+   "label": "Definition of an acid",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-ADD586E767E034",
+   "label": "An acidic solution has pH below 7 and hydrogen-ion concentration greater than hydroxyl-ion concentration",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-48E1C0E33B1DD3",
+   "label": "For aqueous solutions, pH plus pOH equals 14",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-FBAA90D61BE8AB",
+   "label": "In water solutions, increasing hydrogen-ion concentration decreases hydroxyl-ion concentration while their product remains 10^-14",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-454CB40359E468",
+   "label": "Definition of pH",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-B984AA153E7E66",
+   "label": "pKa equals the negative logarithm of Ka",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-13363AFA5239CE",
+   "label": "Definition of pOH",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-737A22D642DD70",
+   "label": "Pure water is neutral because it contains equal hydrogen-ion and hydroxyl-ion concentrations",
+   "subjectId": "pharm",
+   "primaryNodeId": "SYS-FND-T06-S02-M04",
+   "canonicalHere": true,
+   "conceptType": "directly_taught_fact",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-6E998D571E01DE",
+   "label": "Acoustic impedance",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "definition",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-AF53567298C963",
+   "label": "Bone and air interfaces limit ultrasound transmission",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "limitation",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-D512A1DD04E4E1",
+   "label": "Frequency is repetitions per second",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "definition",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-A0381E05127763",
+   "label": "Greater impedance difference increases reflection",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "quantitative_relationship",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-66880A9E1304B9",
+   "label": "Echo strength and image brightness",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "image_interpretation",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-E9F78CB13306BE",
+   "label": "High-frequency ultrasound is suited to superficial structures",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "clinical_application",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-ACF8AA12D8B601",
+   "label": "Higher ultrasound frequency has shorter wavelength",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "quantitative_relationship",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-7BBB2225E77749",
+   "label": "Ultrasound signal attenuation with depth",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "quantitative_relationship",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-CE7F5BA1BCDD72",
+   "label": "Sound speed depends on tissue mechanical properties",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "determinant",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "no typed relation; publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-3FC9145CE14DD4",
+   "label": "Posterior acoustic shadowing",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "image_interpretation",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  },
+  {
+   "id": "CON-FND-96D11A163FF027",
+   "label": "Ultrasound attenuation increases with frequency",
+   "subjectId": "pharm",
+   "primaryNodeId": "DIS-RAD-T03",
+   "canonicalHere": false,
+   "conceptType": "quantitative_relationship",
+   "publicationStatus": "needs_evidence",
+   "disposition": "enrich",
+   "why": "publication status needs_evidence"
+  }
+ ]
+}

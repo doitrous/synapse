@@ -75,6 +75,22 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 
 </details>
 
+### Decided classification (`SYS-MUL-INVENTORY-001`, 2026-08-12)
+
+All 83 nodes are classified. Evidence:
+[`SYS-MUL-node-classification.json`](../evidence/SYS-MUL-node-classification.json).
+
+| Classification | Nodes |
+|---|---:|
+| navigation-only hub | 21 |
+| overview article | 1 |
+| atomic article home | 60 |
+| empty but legitimate planned destination | 1 |
+| **Planned articles** | **61** |
+
+12 of these nodes carry a local teaching signal — the corpus teaches
+them in two or more processed sources — and are the ones to author first (`LD-14`).
+
 *Initial classification is a placeholder. `SYS-MUL-INVENTORY-001` replaces every
 row with a decided classification from the five allowed values in the master
 plan's article catalogue rules.*
@@ -155,6 +171,23 @@ impact, and a rollback strategy (LD-06).
 | Article ID | Title | Status | Gate | Template | Disposition and why |
 |---|---|---|---|---|---|
 | — | *No article has `SYS-MUL` as its canonical home* | — | — | — | Every article in this system is new, or is a `move of canonical home` decision on a discipline-rooted record (DEC-005) |
+
+### Decided dispositions (`SYS-MUL-INVENTORY-001`, 2026-08-12)
+
+Evidence: [`SYS-MUL-disposition-ledger.json`](../evidence/SYS-MUL-disposition-ledger.json).
+
+| | Articles | Concepts |
+|---|---:|---:|
+| Touching this system | 0 | 0 |
+| Canonically homed here | 0 | 0 |
+| `enrich` | 0 | 0 |
+| `correct` (BLK-09) | 0 | 0 |
+| Outside the subject-ID contract | 0 | 0 |
+
+No record is `keep` on sight. Every existing article lacks statement
+annotations, image recommendations and per-line callout evidence — all three
+became possible in Phase 0 and none exists yet — so `enrich` is the honest
+default rather than a judgement that the record is poor.
 
 Allowed dispositions: `keep` · `enrich` · `correct` · `merge` · `split` ·
 `redirect` · `deprecate` · `exclude`. Every row states why. Stable IDs are

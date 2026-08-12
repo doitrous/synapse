@@ -73,6 +73,22 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 
 </details>
 
+### Decided classification (`SYS-FND-INVENTORY-001`, 2026-08-12)
+
+All 74 nodes are classified. Evidence:
+[`SYS-FND-node-classification.json`](../evidence/SYS-FND-node-classification.json).
+
+| Classification | Nodes |
+|---|---:|
+| navigation-only hub | 18 |
+| overview article | 3 |
+| atomic article home | 53 |
+| empty but legitimate planned destination | 0 |
+| **Planned articles** | **56** |
+
+36 of these nodes carry a local teaching signal — the corpus teaches
+them in two or more processed sources — and are the ones to author first (`LD-14`).
+
 *Initial classification is a placeholder. `SYS-FND-INVENTORY-001` replaces every
 row with a decided classification from the five allowed values in the master
 plan's article catalogue rules.*
@@ -155,6 +171,23 @@ impact, and a rollback strategy (LD-06).
 | `ART-FND-TOP-9E1180D1D1` | Membrane Transport | In review | `needs_evidence` | `TPL-CONCEPT` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
 | `ART-FND-TOP-770778D86F` | Pharmacokinetics: Distribution, Dosing, and Clearance | In review | `faculty_review` | `TPL-DRUG` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
 | `ART-FND-TOP-008C54089F` | Acids, Bases, and pH | In review | `needs_evidence` | `TPL-CONCEPT` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
+
+### Decided dispositions (`SYS-FND-INVENTORY-001`, 2026-08-12)
+
+Evidence: [`SYS-FND-disposition-ledger.json`](../evidence/SYS-FND-disposition-ledger.json).
+
+| | Articles | Concepts |
+|---|---:|---:|
+| Touching this system | 5 | 45 |
+| Canonically homed here | 3 | 22 |
+| `enrich` | 5 | 45 |
+| `correct` (BLK-09) | 0 | 0 |
+| Outside the subject-ID contract | 0 | 0 |
+
+No record is `keep` on sight. Every existing article lacks statement
+annotations, image recommendations and per-line callout evidence — all three
+became possible in Phase 0 and none exists yet — so `enrich` is the honest
+default rather than a judgement that the record is poor.
 
 Allowed dispositions: `keep` · `enrich` · `correct` · `merge` · `split` ·
 `redirect` · `deprecate` · `exclude`. Every row states why. Stable IDs are

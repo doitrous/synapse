@@ -248,6 +248,20 @@ await writeFile(join(outDir, 'curriculum-gap-list.json'), `${JSON.stringify({
   minimumSourcesForCandidate: MIN_SOURCES,
   summary,
   candidates,
+  // Every label taught in two or more processed sources, matched or not. This is
+  // the local-emphasis signal each system's INVENTORY task reads: a node the
+  // corpus actually teaches is a higher priority than one that only exists in
+  // the blueprint.
+  taught: assessed
+    .filter((entry) => entry.distinctSources >= MIN_SOURCES)
+    .map((entry) => ({
+      label: entry.label,
+      level: entry.level,
+      distinctSources: entry.distinctSources,
+      occurrences: entry.occurrences,
+      synapseNodeId: entry.synapseNodeId,
+    }))
+    .sort((a, b) => b.distinctSources - a.distinctSources),
 }, null, 1)}\n`)
 
 const md = [

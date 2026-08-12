@@ -74,6 +74,22 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 
 </details>
 
+### Decided classification (`SYS-END-INVENTORY-001`, 2026-08-12)
+
+All 61 nodes are classified. Evidence:
+[`SYS-END-node-classification.json`](../evidence/SYS-END-node-classification.json).
+
+| Classification | Nodes |
+|---|---:|
+| navigation-only hub | 21 |
+| overview article | 0 |
+| atomic article home | 40 |
+| empty but legitimate planned destination | 0 |
+| **Planned articles** | **40** |
+
+28 of these nodes carry a local teaching signal — the corpus teaches
+them in two or more processed sources — and are the ones to author first (`LD-14`).
+
 *Initial classification is a placeholder. `SYS-END-INVENTORY-001` replaces every
 row with a decided classification from the five allowed values in the master
 plan's article catalogue rules.*
@@ -152,6 +168,23 @@ impact, and a rollback strategy (LD-06).
 | Article ID | Title | Status | Gate | Template | Disposition and why |
 |---|---|---|---|---|---|
 | `ART-FND-TOP-D2A4AC7CD4` | Energy Balance, Appetite, and Body-Mass Index | In review | `needs_evidence` | `TPL-CONCEPT` | **enrich** — annotations (0), related-reading projection, image recommendations, archetype-contract completion |
+
+### Decided dispositions (`SYS-END-INVENTORY-001`, 2026-08-12)
+
+Evidence: [`SYS-END-disposition-ledger.json`](../evidence/SYS-END-disposition-ledger.json).
+
+| | Articles | Concepts |
+|---|---:|---:|
+| Touching this system | 8 | 95 |
+| Canonically homed here | 1 | 5 |
+| `enrich` | 8 | 95 |
+| `correct` (BLK-09) | 0 | 0 |
+| Outside the subject-ID contract | 0 | 0 |
+
+No record is `keep` on sight. Every existing article lacks statement
+annotations, image recommendations and per-line callout evidence — all three
+became possible in Phase 0 and none exists yet — so `enrich` is the honest
+default rather than a judgement that the record is poor.
 
 Allowed dispositions: `keep` · `enrich` · `correct` · `merge` · `split` ·
 `redirect` · `deprecate` · `exclude`. Every row states why. Stable IDs are

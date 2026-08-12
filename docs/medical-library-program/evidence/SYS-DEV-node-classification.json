@@ -1,0 +1,521 @@
+{
+ "task": "SYS-DEV-INVENTORY-001",
+ "rule": "A parent is a hub; a leaf is an article home only where its label names a distinct studiable unit (LD-04). Local corpus signal raises priority, never creates an article.",
+ "classifications": [
+  "navigation-only hub",
+  "overview article",
+  "atomic article home",
+  "secondary placement only",
+  "empty but legitimate planned destination"
+ ],
+ "summary": {
+  "total": 45,
+  "byLevel": {
+   "Topic": 4,
+   "Subtopic": 9,
+   "Microtopic": 32
+  },
+  "byClassification": {
+   "navigation-only hub": 12,
+   "atomic article home": 32,
+   "overview article": 1
+  }
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-DEV-T01",
+   "title": "Growth and development",
+   "level": "Topic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 4
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S01",
+   "title": "Infancy and early childhood",
+   "level": "Subtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S01-M01",
+   "title": "Growth",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 22 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 22
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S01-M02",
+   "title": "Milestones",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S01-M03",
+   "title": "Nutrition",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S01-M04",
+   "title": "Screening",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 3 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 3
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S02",
+   "title": "School age and adolescence",
+   "level": "Subtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S02-M01",
+   "title": "Puberty",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S02-M02",
+   "title": "Development",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 13 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 13
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S02-M03",
+   "title": "Risk behavior",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S02-M04",
+   "title": "Preventive care",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T01-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T02",
+   "title": "Adult health",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S01",
+   "title": "Young and middle adulthood",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T02",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S01-M01",
+   "title": "Lifestyle",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T02-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S01-M02",
+   "title": "Screening",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T02-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 3 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 3
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S01-M03",
+   "title": "Occupational health",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T02-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S02",
+   "title": "Healthy aging",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T02",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S02-M01",
+   "title": "Normal aging",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S02-M02",
+   "title": "Frailty",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S02-M03",
+   "title": "Falls",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S02-M04",
+   "title": "Polypharmacy",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T02-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T03",
+   "title": "Nutrition across the life course",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV",
+   "classification": "navigation-only hub",
+   "rationale": "Has 2 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 8
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S01",
+   "title": "Macronutrients and micronutrients",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T03",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S01-M01",
+   "title": "Requirements",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T03-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S01-M02",
+   "title": "Deficiency",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T03-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 17 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 17
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S01-M03",
+   "title": "Excess",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T03-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S02",
+   "title": "Clinical nutrition",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T03",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S02-M01",
+   "title": "Malnutrition",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S02-M02",
+   "title": "Enteral nutrition",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S02-M03",
+   "title": "Parenteral nutrition",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T03-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04",
+   "title": "Care of the well patient",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV",
+   "classification": "overview article",
+   "rationale": "3 child clusters — an overview earns its place by saying how they relate. The teaching itself sits in the children.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S01",
+   "title": "Screening and anticipatory guidance",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T04",
+   "classification": "navigation-only hub",
+   "rationale": "Has 3 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S01-M01",
+   "title": "Risk assessment",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S01-M02",
+   "title": "Counseling",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S01-M03",
+   "title": "Vaccination",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T04-S01",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit, taught in 2 processed corpus sources.",
+   "existingArticles": [],
+   "localTeachingSources": 2
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S02",
+   "title": "Social and developmental context",
+   "level": "Subtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T04",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S02-M01",
+   "title": "Family",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S02-M02",
+   "title": "School",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S02-M03",
+   "title": "Work",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S02-M04",
+   "title": "Caregiving",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "parentId": "SYS-DEV-T04-S02",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S03",
+   "title": "Disability and inclusive care",
+   "level": "Subtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T04",
+   "classification": "navigation-only hub",
+   "rationale": "Has 4 child nodes that carry the teaching. A hub, not an article (LD-04).",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S03-M01",
+   "title": "Function and participation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T04-S03",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S03-M02",
+   "title": "Communication and access needs",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T04-S03",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S03-M03",
+   "title": "Reasonable adjustments",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T04-S03",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S03-M04",
+   "title": "Caregiver and community support",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "parentId": "SYS-DEV-T04-S03",
+   "classification": "atomic article home",
+   "rationale": "Leaf naming a distinct, reusable unit.",
+   "existingArticles": [],
+   "localTeachingSources": 0
+  }
+ ]
+}
