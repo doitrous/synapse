@@ -8,6 +8,7 @@
   "scripts": {
     "start": "node --env-file-if-exists=.env src/index.js",
     "migrate": "node --env-file-if-exists=.env src/migrate.js",
+    "conncheck": "node --env-file-if-exists=.env scripts/conncheck.mjs",
     "medical:apply-v4": "node scripts/apply-medical-library-v4.mjs",
     "medical:apply-v6": "node scripts/apply-medical-library-v6.mjs",
     "medical:apply-v7": "node scripts/apply-medical-library-v7.mjs",
