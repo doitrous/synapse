@@ -19,11 +19,11 @@ starts here and ends here. Nothing below depends on any chat transcript.
 
 | | |
 |---|---|
-| **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — all 19 inventories and source plans done; 943 articles planned; authoring not started |
-| **Active phase** | Phase 2 — article & concept programme, starting at `SYS-FND` |
-| **Active system** | `SYS-FND` Foundations & General Principles (system 1 of 19) |
-| **Active task ID** | `SYS-FND-CONCEPT-007` (Not started) — 29 articles and 30 concepts authored across 24 batches, all simulated clean; awaiting a real import |
-| **Last verified commit** | `781558b` — *Write the medical-library programme plan, and its 19 system plans* |
+| **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — all 19 inventories and source plans done; 943 articles planned; **`SYS-FND` complete: all 56 article homes covered** by 55 articles, with 64 concepts, 101 relations, 118 claims and 168 citations. Every batch validated, simulated against a copy of live state, and audited clean. Nothing imported yet |
+| **Active phase** | Phase 2 — article & concept programme |
+| **Active system** | `SYS-DEV` Human Development & Life Stages (system 2 of 19) |
+| **Active task ID** | `SYS-DEV-CONCEPT-001` (Not started) — `SYS-FND` is done and simulated clean; nothing has been imported yet |
+| **Last verified commit** | `d17a480` — *Add the three topic overviews, and stop counting an article twice* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
 | **Last update** | 2026-08-12 (SYS-FND topics T01–T04 complete; 29 of 56 SYS-FND articles authored) |
@@ -163,7 +163,7 @@ Status values: `Not started` · `In progress` · `Blocked` · `Done` · `Superse
 |---|---|---|---|
 | **Phase 0** — Platform readiness | **Done** 2026-08-12 | — | — |
 | **Phase 1** — Structure validation | **Done** 2026-08-12 | — | — |
-| **Phase 2** — Article & concept programme (19 systems) | **Ready** | — | `SYS-FND-INVENTORY-001` |
+| **Phase 2** — Article & concept programme (19 systems) | **In progress** — 1 of 19 systems complete | — | `SYS-DEV-CONCEPT-001` |
 | **Phase 3** — Library Completion Gate | Blocked | all `GATE-SYS-*` | `GATE-LIBRARY-001` |
 | **Phase 4** — Assessment programme | Blocked | `GATE-LIBRARY-001` | `ASSESS-PLAN-001` |
 
@@ -177,8 +177,8 @@ systems while its canonical home is a discipline root.
 
 | # | System | Plan | Status | Nodes | Hubs | Planned articles | With local source | Existing articles / concepts | Next task |
 |---:|---|---|---|---:|---:|---:|---:|---|---|
-| 1 | `SYS-FND` Foundations & General Principles | [plan](systems/SYS-FND.md) | Inventory + source plan done | 74 | 18 | 56 | 50 | 5 / 45 | `SYS-FND-CONCEPT-001` |
-| 2 | `SYS-DEV` Human Development & Life Stages | [plan](systems/SYS-DEV.md) | Inventory + source plan done | 45 | 12 | 33 | 20 | 9 / 111 | `SYS-DEV-CONCEPT-001` |
+| 1 | `SYS-FND` Foundations & General Principles | [plan](systems/SYS-FND.md) | **Authored — 56/56 homes** | 74 | 18 | 56 | 50 | 5 / 45 | `GATE-SYS-FND` |
+| 2 | `SYS-DEV` Human Development & Life Stages | [plan](systems/SYS-DEV.md) | **Next** — inventory + source plan done | 45 | 12 | 33 | 20 | 9 / 111 | `SYS-DEV-CONCEPT-001` |
 | 3 | `SYS-CVS` Cardiovascular System | [plan](systems/SYS-CVS.md) | Inventory + source plan done | 93 | 27 | 66 | 39 | 10 / 98 | `SYS-CVS-CONCEPT-001` |
 | 4 | `SYS-RES` Respiratory System | [plan](systems/SYS-RES.md) | Inventory + source plan done | 82 | 24 | 58 | 44 | 9 / 112 | `SYS-RES-CONCEPT-001` |
 | 5 | `SYS-REN` Renal & Urinary System | [plan](systems/SYS-REN.md) | Inventory + source plan done | 81 | 21 | 60 | 38 | 10 / 119 | `SYS-REN-CONCEPT-001` |
