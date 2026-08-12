@@ -118,6 +118,23 @@ substitute for that ledger.
 
 No dedicated endocrine folder. `0. General/Metabolism` (62 files, 0 processed) is directly relevant and entirely unprocessed — this is the single most valuable unprocessed folder for this system.
 
+### Decided source plan (`SYS-END-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-END-source-plan.md`](../evidence/SYS-END-source-plan.md) ·
+[`SYS-END-source-plan.json`](../evidence/SYS-END-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 40 |
+| — with a processed local source | 32 |
+| — authored from authoritative sources only | 8 |
+| Distinct corpus files touching this system | 88 |
+
+The 8 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

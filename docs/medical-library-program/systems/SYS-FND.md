@@ -119,6 +119,23 @@ substitute for that ledger.
 
 Kasr Alainy `4. Biochemistry` (5 files, 4 complete) and `5. Pathology` (7 files, 6 complete) are the strongest local signals. `0. General/Pathology` (25 files) and `0. General/Metabolism` (62 files) are **entirely unprocessed** — 87 files that plausibly carry the bulk of local foundational teaching. Treat foundational coverage as under-evidenced locally and lean on authoritative open textbooks.
 
+### Decided source plan (`SYS-FND-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-FND-source-plan.md`](../evidence/SYS-FND-source-plan.md) ·
+[`SYS-FND-source-plan.json`](../evidence/SYS-FND-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 56 |
+| — with a processed local source | 50 |
+| — authored from authoritative sources only | 6 |
+| Distinct corpus files touching this system | 174 |
+
+The 6 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

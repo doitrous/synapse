@@ -1,0 +1,2680 @@
+{
+ "task": "SYS-MUL-SOURCE-001",
+ "rule": "Only files the corpus marks as processed are read. Extraction confidence is not medical verification (LD-08); every local claim is corroborated before publication.",
+ "summary": {
+  "system": "SYS-MUL",
+  "title": "Multisystem Processes, Emergencies & Critical Care",
+  "plannedArticles": 61,
+  "withLocalEvidence": 39,
+  "withoutLocalEvidence": 22,
+  "distinctCorpusFiles": 153,
+  "corpusRecordsScanned": 110850,
+  "reviewedSources": 53
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-MUL-T01-S01-M01",
+   "title": "Airway",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 41,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      49,
+      50,
+      51,
+      134,
+      135,
+      146,
+      147,
+      148
+     ],
+     "records": 28
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      7,
+      38,
+      39,
+      40
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_769c490217241bd0ca85",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Physio of Resp..pdf",
+     "sha256": "c0672d1c7d18d8a7ccead27c3c5e975f29dcb378e01477a2e1f05cecfc9592b9",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      19
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      103
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      59
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T01-S01-M02",
+   "title": "Breathing",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 87,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      95,
+      141,
+      143,
+      145,
+      157,
+      158,
+      346,
+      347
+     ],
+     "records": 47
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      45,
+      44,
+      9,
+      56,
+      13
+     ],
+     "records": 35
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      45,
+      47,
+      129
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      200,
+      209
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T01-S01-M03",
+   "title": "Circulation",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 233,
+   "localSources": 24,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      100,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246
+     ],
+     "records": 47
+    },
+    {
+     "sourceId": "src_6e70bbff9296838b22d7",
+     "sourceRelativePath": "0. General/Anatomy_Basis_Sameh_Doss.pdf",
+     "sha256": "cc9013c14a2fd06589b161286d41387fa6ec240a7748ed2c062301c75d65f88f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      32
+     ],
+     "records": 36
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      41,
+      42,
+      43,
+      44,
+      45,
+      57,
+      58
+     ],
+     "records": 30
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+     ],
+     "records": 28
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      37,
+      38,
+      39,
+      64,
+      71
+     ],
+     "records": 21
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      10,
+      11,
+      99,
+      173,
+      186
+     ],
+     "records": 12
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T01-S01-M04",
+   "title": "Disability",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T01-S01-M05",
+   "title": "Exposure",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 17,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b8a68e8d4a5401b7dc6c",
+     "sourceRelativePath": "5. Beni Suef Uni Books/عملي الفارما GIT.pdf",
+     "sha256": "3036d2cc5a0310a1e8dad9d12c60a18b4aba2f6efb9edcfa7f4876d5ddcd8c6a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4
+     ],
+     "records": 15
+    },
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      128
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_63c89598431216afd910",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Blood 2021 - 2022.pdf",
+     "sha256": "409b268a20ab7fd069260345a84eba27a7000a975d18f0259c20148d56aff375",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T01-S02-M01",
+   "title": "Hypovolemic",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      220
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T01-S02-M02",
+   "title": "Cardiogenic",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      220
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T01-S02-M03",
+   "title": "Distributive",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      220
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T01-S02-M04",
+   "title": "Obstructive",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 445,
+   "localSources": 12,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "records": 254
+    },
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      9,
+      10
+     ],
+     "records": 126
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237
+     ],
+     "records": 21
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      149,
+      150
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      10
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T02-S01-M01",
+   "title": "Recognition",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 6,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9d85d3cc05071c446cb3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/pharmPractical_heme_2023.pdf",
+     "sha256": "28870d740c5e7df036679c0303dc249a663b3358fe415370962503d54e78bc14",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      13
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_aef7b9a181ae846ad642",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم اولي.PDF",
+     "sha256": "0ead4d5906cfd710f5df58a02bf2e80fe9ca079bdf070e04272bdb55cb27999e",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      135
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      68
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_543a4cf673b4e8017858",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro hematopoietic.pdf",
+     "sha256": "11f0a2bd61ad1f41036f0c1ae066a822f678436f783b6110cbd640fe96620b7a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      19
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T02-S01-M02",
+   "title": "Initial management",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T02-S01-M03",
+   "title": "Source control",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 28,
+   "localSources": 12,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      26,
+      40,
+      55,
+      85,
+      91,
+      96,
+      174
+     ],
+     "records": 14
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      86,
+      116
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_a165a98952ffefcc0ebc",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+     "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      116
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_b53daf0114f285089f1a",
+     "sourceRelativePath": "4. Alexandria Uni Books/GIT system 2021 - 2022.pdf",
+     "sha256": "8ff888164297ff783343ff062b652c8b783b9a3047ab79742373016d0584876f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      216
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_21f1b07a441941435a9f",
+     "sourceRelativePath": "10. MTI Uni Books/med-musiii325-theoretical.pdf",
+     "sha256": "d3652f42726a1bbcafc9c920753856b3345045741b6ce7ecae88b90d9595c450",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      277
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      91
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T02-S02-M01",
+   "title": "Respiratory",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 5055,
+   "localSources": 40,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      46,
+      16,
+      19,
+      22,
+      31,
+      63,
+      7,
+      21
+     ],
+     "records": 1378
+    },
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "records": 1081
+    },
+    {
+     "sourceId": "src_f8d9ce390234a0b2042e",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب الاناتومى.pptx",
+     "sha256": "97c94d2865abeabf1227c13c4eb41ac5c8c7d433a830d1385073fbfb3942e0b5",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      5,
+      31,
+      24,
+      11,
+      4,
+      16,
+      28,
+      23
+     ],
+     "records": 629
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      6,
+      17,
+      36,
+      37,
+      38,
+      39,
+      40
+     ],
+     "records": 379
+    },
+    {
+     "sourceId": "src_2c2bc311f32080b6ff30",
+     "sourceRelativePath": "10. MTI Uni Books/med-res216-p.pdf",
+     "sha256": "7cb825781fb50f82495761b71ecc711df7b4fd796f0d0bceb929dbc2388a8099",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      111,
+      49,
+      45,
+      13,
+      133,
+      132,
+      14,
+      15
+     ],
+     "records": 358
+    },
+    {
+     "sourceId": "src_769c490217241bd0ca85",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Physio of Resp..pdf",
+     "sha256": "c0672d1c7d18d8a7ccead27c3c5e975f29dcb378e01477a2e1f05cecfc9592b9",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      4,
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      15
+     ],
+     "records": 251
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T02-S02-M02",
+   "title": "Renal",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 7040,
+   "localSources": 41,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      51,
+      72,
+      7,
+      29,
+      43,
+      20,
+      10,
+      13
+     ],
+     "records": 1594
+    },
+    {
+     "sourceId": "src_d50ba2f3208d0af32738",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب الأناتومي نظري renal.pdf",
+     "sha256": "81ca3ed228bdbf410851bccbb890c0038c320b99711dcaaf4bfdc7b828ac1c20",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      32,
+      2,
+      42,
+      6,
+      17,
+      21,
+      25,
+      41
+     ],
+     "records": 1148
+    },
+    {
+     "sourceId": "src_c2f00939ec0a817aa2f3",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم بايو نظري Renal..pdf",
+     "sha256": "e04e65e9fee0acdb07efa92664ddc19aa686e033b26c2a6ef66c43112423fbe6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      36,
+      21,
+      40,
+      30,
+      44,
+      12,
+      18,
+      32
+     ],
+     "records": 1084
+    },
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11
+     ],
+     "records": 702
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      2,
+      5,
+      8,
+      30,
+      31,
+      32,
+      33
+     ],
+     "records": 399
+    },
+    {
+     "sourceId": "src_4dbf77e842882f152efc",
+     "sourceRelativePath": "7. Menoufia Uni Books/histo renal_20200317024155.pdf",
+     "sha256": "628d783f3737d3d6af616265e8ba275e09c69e3230763f4f6ea19de13f9b19e5",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      7,
+      12,
+      8,
+      3,
+      9,
+      4,
+      11,
+      10
+     ],
+     "records": 371
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T02-S02-M03",
+   "title": "Cardiovascular",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 8109,
+   "localSources": 32,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7697de59513ed0564d89",
+     "sourceRelativePath": "7. Menoufia Uni Books/anatomy cvs_20191026195400.pdf",
+     "sha256": "8abd56ed4dc0f3fd4c195b1fe495ae6eff3d5146d60f7414bda43e8c0c9ad4c3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      52,
+      10,
+      9,
+      55,
+      21,
+      36,
+      39,
+      24
+     ],
+     "records": 2233
+    },
+    {
+     "sourceId": "src_a83ff53b70833dd85932",
+     "sourceRelativePath": "7. Menoufia Uni Books/physio cardio_20191120230121.pdf",
+     "sha256": "a87085ed6e7c404b508c0a8e18a498da5f711f2982805d8a4eda3e1f16aaa12d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      82,
+      43,
+      97,
+      32,
+      11,
+      36,
+      30,
+      39
+     ],
+     "records": 1939
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "records": 858
+    },
+    {
+     "sourceId": "src_2eea679773736fe01753",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+     "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+     ],
+     "records": 607
+    },
+    {
+     "sourceId": "src_7fb882664bb78c626a84",
+     "sourceRelativePath": "10. MTI Uni Books/med-cvs217-t.pdf",
+     "sha256": "0773b9939f1127db27873d0d2f66d615a4f6d4a6b27d7fdf1813925e26381a1d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      262,
+      103,
+      251,
+      130,
+      355,
+      216,
+      356,
+      169
+     ],
+     "records": 412
+    },
+    {
+     "sourceId": "src_358ec7a9923525754062",
+     "sourceRelativePath": "10. MTI Uni Books/med-cvs217-p (1).pdf",
+     "sha256": "d7ec8557476d7aa1c3110a4c5173df2ab9a5f1cf36818f90e43bdd91ea2787da",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      132,
+      147,
+      157,
+      16,
+      69,
+      65,
+      17,
+      20
+     ],
+     "records": 398
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T02-S02-M04",
+   "title": "Neurologic",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_f7d34fd6de6d716551fd",
+     "sourceRelativePath": "5. Beni Suef Uni Books/endo-patho-book.pdf",
+     "sha256": "77028c797a93dc602d92bb222f4632235d1ba43b8bd87594585d0a9020ae5d4d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      24
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T03-S01-M01",
+   "title": "Airway",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T03-S01-M02",
+   "title": "Chest",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 6,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a83ff53b70833dd85932",
+     "sourceRelativePath": "7. Menoufia Uni Books/physio cardio_20191120230121.pdf",
+     "sha256": "a87085ed6e7c404b508c0a8e18a498da5f711f2982805d8a4eda3e1f16aaa12d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      36
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_b87d5a13859712bb20e6",
+     "sourceRelativePath": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+     "sha256": "d38135a48512ee9f64ddd47041c3fd205631e7594686ed45fa4ac9797b33f1bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      154,
+      156
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      93
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T03-S01-M03",
+   "title": "Abdomen",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 15,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      88
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_7bf413896ce181e91869",
+     "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+     "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      3
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_828edfebb8d166fa9e90",
+     "sourceRelativePath": "9. Zagazig Uni Books/Micro GIT.pdf",
+     "sha256": "4cd737422f0de91ebd39560fd8de4575439ee9b878026b7e4d5c40959618e20f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      27
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T03-S01-M04",
+   "title": "Pelvis",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 183,
+   "localSources": 12,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5392d945ded425d18196",
+     "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+     "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      6
+     ],
+     "records": 36
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+     ],
+     "records": 33
+    },
+    {
+     "sourceId": "src_1de03c91d02ea8fdf973",
+     "sourceRelativePath": "4. Alexandria Uni Books/Genital system 2021 - 2022.pdf",
+     "sha256": "248953523af1652cf2d03caba976d04501b7a89af0dcd184f07d3de712f5bc2c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "records": 31
+    },
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      64,
+      62,
+      63
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_35b4811ecfef37fdee17",
+     "sourceRelativePath": "5. Beni Suef Uni Books/anatomy repro.pdf",
+     "sha256": "8f34f3c6dcebae3504e3c6b3398d938ff6766b5924a5030bfb287369bf05c496",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      7,
+      8,
+      10,
+      12,
+      13,
+      14
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      263
+     ],
+     "records": 18
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T03-S01-M05",
+   "title": "Neurologic",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T03-S02-M01",
+   "title": "Head injury",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T03-S02-M02",
+   "title": "Spinal injury",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T03-S02-M03",
+   "title": "Burns",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T03-S02-M04",
+   "title": "Hemorrhage",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 63,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      183,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222
+     ],
+     "records": 35
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      167,
+      168,
+      169
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_b8a68e8d4a5401b7dc6c",
+     "sourceRelativePath": "5. Beni Suef Uni Books/عملي الفارما GIT.pdf",
+     "sha256": "3036d2cc5a0310a1e8dad9d12c60a18b4aba2f6efb9edcfa7f4876d5ddcd8c6a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      5
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      110,
+      111
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      123,
+      127
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      538
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T04-S01-M01",
+   "title": "Paracetamol",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_f9632e8643fb6e8bbc85",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٢-١٧-٢٠٢٢ ١١٥٨_230805_212145.pdf",
+     "sha256": "9b638ca01dc2fc72e03d86991a61dc24121b594eb5935eba9c952059b9c38ee6",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      11
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_64ac35c148f824c08f48",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology (concepts of health & disease) 2022.pdf",
+     "sha256": "249c6b21c62ebae4013540ff413aa09eb783adb9560c311eb3946c2bf441c63b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      46
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T04-S01-M02",
+   "title": "Organophosphate",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T04-S01-M03",
+   "title": "Opioid",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 43,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      115,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+     ],
+     "records": 43
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T04-S01-M04",
+   "title": "Corrosives",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T04-S02-M01",
+   "title": "Heat illness",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0be26fd6e96f62f37bba",
+     "sourceRelativePath": "10. MTI Uni Books/Final HIM 110 practical 2022.pdf",
+     "sha256": "52c6c58ad88c79b4f92ed601a487a4f8f14aaa26acaea8ad43da87c15a97a67a",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      129
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T04-S02-M02",
+   "title": "Drowning",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T04-S02-M03",
+   "title": "Envenomation",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 7,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      191,
+      192,
+      194
+     ],
+     "records": 7
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T04-S02-M04",
+   "title": "Electrical injury",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T05-S01-M01",
+   "title": "Screening",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 33,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b87d5a13859712bb20e6",
+     "sourceRelativePath": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+     "sha256": "d38135a48512ee9f64ddd47041c3fd205631e7594686ed45fa4ac9797b33f1bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ],
+     "records": 21
+    },
+    {
+     "sourceId": "src_8921a37f2df407a0948c",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical Blood 2021 - 2022.pdf",
+     "sha256": "aa7e85c648c0c6bec914e92c23e74b94d101475af50e29b05954a8ba3c4f629f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      31
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      168,
+      169
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      352,
+      354
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      240,
+      241
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T05-S01-M02",
+   "title": "Biopsy",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 8,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5686f79a1ae67a1b1d6d",
+     "sourceRelativePath": "4. Alexandria Uni Books/Tropical book 2021.pdf",
+     "sha256": "372d032793d963d02f26ab716704d51f8d37147e6d8d4c3363cddc0eea2e0d11",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      14,
+      97,
+      101,
+      102
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_7fb882664bb78c626a84",
+     "sourceRelativePath": "10. MTI Uni Books/med-cvs217-t.pdf",
+     "sha256": "0773b9939f1127db27873d0d2f66d615a4f6d4a6b27d7fdf1813925e26381a1d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      355
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_f372f89a417bbcee9bdc",
+     "sourceRelativePath": "6. Fayoum Uni Books/ميكرو القسم.pdf",
+     "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      15
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T05-S01-M03",
+   "title": "TNM",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T05-S01-M04",
+   "title": "Performance status",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T05-S02-M01",
+   "title": "Chemotherapy",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 24,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e6b96209d05b9a61260a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro.pdf",
+     "sha256": "3c0078b59699b46e02f09b236a91b7a8dbf6d9f8692c1f5bc93a704309ea58ec",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      44,
+      69,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+     ],
+     "records": 21
+    },
+    {
+     "sourceId": "src_18f91caf6a8e4a695944",
+     "sourceRelativePath": "10. MTI Uni Books/PAT 108 I.pdf",
+     "sha256": "7f03015eaf758a4b704f09f4e9d28b9981d016712f871a332372c6a413f61337",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      123
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      205
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      340
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T05-S02-M02",
+   "title": "Radiotherapy",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8ebcb5f6ee01503617e4",
+     "sourceRelativePath": "8. Tanta Uni Books/General Pathology 2018-2019.pdf",
+     "sha256": "0ec7ced73dd02cf8a8ace0a1edc4a5e54fe584e0f8a76d33f7061a312091465a",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      166
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T05-S02-M03",
+   "title": "Neutropenic sepsis",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T05-S02-M04",
+   "title": "Cord compression",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      216
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T05-S02-M05",
+   "title": "TLS",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T06",
+   "title": "Perioperative and critical care",
+   "level": "Topic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "overview article",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S01-M01",
+   "title": "Risk assessment",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S01-M02",
+   "title": "Fluids",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 196,
+   "localSources": 23,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_ce9b41e2db5a7d4d26cf",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical EGU 2021 - 2022.pdf",
+     "sha256": "213f0b4f813e387ca17b93f76c4e0e6f394494d237215e9331e39a2a193000b4",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "records": 56
+    },
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      77,
+      78
+     ],
+     "records": 51
+    },
+    {
+     "sourceId": "src_99f3fabd8db78204412d",
+     "sourceRelativePath": "7. Menoufia Uni Books/Micro MSK Class38 Students.pdf",
+     "sha256": "a58506b8736d7ae2524490d88841f32d053f7adff72e05da3ce9f49c6ee136a3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      5,
+      6
+     ],
+     "records": 22
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      128,
+      175,
+      176
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_6b5723c9bc02068ded20",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 1) 2021 - 2022.pdf",
+     "sha256": "363da3bb14aed1328dcb6aa3ffaa8397508a82046d5fb0313adf5c9878449463",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      13,
+      14
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_7d505a85dccf43116061",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Handout.pdf",
+     "sha256": "4028e6da730045cbde6593cd393a090138b3d3d1ae2416217417759b213ffad8",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      60
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S01-M03",
+   "title": "Analgesia",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 13,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_aef7b9a181ae846ad642",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم اولي.PDF",
+     "sha256": "0ead4d5906cfd710f5df58a02bf2e80fe9ca079bdf070e04272bdb55cb27999e",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      71
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      114,
+      115
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S01-M04",
+   "title": "Complications",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 381,
+   "localSources": 38,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      19,
+      22
+     ],
+     "records": 116
+    },
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      36,
+      37,
+      39,
+      44,
+      62,
+      66,
+      76,
+      80
+     ],
+     "records": 29
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      104,
+      206,
+      208,
+      209,
+      210,
+      224,
+      225,
+      239
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      15,
+      19,
+      25,
+      40,
+      50,
+      67,
+      68
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      17
+     ],
+     "records": 19
+    },
+    {
+     "sourceId": "src_65669c0c689c63fa1142",
+     "sourceRelativePath": "5. Beni Suef Uni Books/para&MCQ_heme_2023.pdf",
+     "sha256": "61c7aec52fc92c9d4f17dc10e1c969a741673d741057a44a61cd6a02b449054d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      37,
+      38
+     ],
+     "records": 15
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S02-M01",
+   "title": "Oxygen",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 90,
+   "localSources": 14,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      34,
+      27,
+      24
+     ],
+     "records": 33
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      248,
+      249,
+      250,
+      261,
+      358
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      95,
+      183
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_215c1184c14bc22467dd",
+     "sourceRelativePath": "7. Menoufia Uni Books/نظرى bio_20191002184045.pdf",
+     "sha256": "47473dfb77305c19d94b7441a7661b948085f61a414163874e0b5b37d58db65c",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      64,
+      65,
+      72,
+      79,
+      112,
+      114
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      17,
+      23
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S02-M02",
+   "title": "Ventilation",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 87,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a643292c103e128628c2",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Cardiopulmonary 2021 - 2022.pdf",
+     "sha256": "9a5db3d3f6cae4736a5993f5f81552822e88bf77d90238fb8e79ffec2b00e1a5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      39,
+      40
+     ],
+     "records": 28
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      1
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      135,
+      137,
+      164,
+      165,
+      166,
+      167,
+      169,
+      170
+     ],
+     "records": 17
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      6,
+      37,
+      48,
+      50,
+      51,
+      57,
+      58
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      190,
+      191
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      235
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S02-M03",
+   "title": "Vasopressors",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S02-M04",
+   "title": "Nutrition",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 319,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b53daf0114f285089f1a",
+     "sourceRelativePath": "4. Alexandria Uni Books/GIT system 2021 - 2022.pdf",
+     "sha256": "8ff888164297ff783343ff062b652c8b783b9a3047ab79742373016d0584876f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      6,
+      9,
+      11,
+      13,
+      14,
+      16,
+      17
+     ],
+     "records": 209
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "records": 106
+    },
+    {
+     "sourceId": "src_af97f6fc67d736e97f64",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Histo MSK (شرح )_230805_212014.pdf",
+     "sha256": "7865339772585870958002b2c285af7189a0a419974b34163cc645592c39069c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      30,
+      33
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_455a492b63cc8ab4da2a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Biochemistry_Heme.pdf",
+     "sha256": "75953d09333b2a879fa57ae04b5addb221bcf1dd988ae25dd6c2fbd02a62ffc5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      17
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T07-S01-M01",
+   "title": "Assessment",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 373,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_eccfb5b037b6d1a5ef8c",
+     "sourceRelativePath": "1. Kasr Alainy Books/Kasr alainy anatomy questions.pdf",
+     "sha256": "38d555d9a886b98d51f8d7215c16e26f96431de5b37b9295eeec67f5ae56c7d8",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "records": 154
+    },
+    {
+     "sourceId": "src_789e395c0d3c47f88302",
+     "sourceRelativePath": "6. Fayoum Uni Books/Practical Neuroscience 2 physiology 2023.pdf",
+     "sha256": "54c3b2ae68e78cd804c46966ac8662c98b2471ff46eed30652846d2e2a3457a0",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+     ],
+     "records": 124
+    },
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      149
+     ],
+     "records": 95
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T07-S01-M02",
+   "title": "Non-opioids",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T07-S01-M03",
+   "title": "Opioids",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T07-S01-M04",
+   "title": "Neuropathic pain",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 38,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_027c21a2fde7573b1cfc",
+     "sourceRelativePath": "6. Fayoum Uni Books/Sensory_nervous_system_كتاب_القسم_فسيولوجي.pdf",
+     "sha256": "8c06a0a9978663c539998ad847b8b1af4a5138abf8b2b630888b4cc3e21b8661",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      21,
+      22
+     ],
+     "records": 38
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T07-S02-M01",
+   "title": "Symptom control",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T07-S02-M02",
+   "title": "Goals of care",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_64ac35c148f824c08f48",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology (concepts of health & disease) 2022.pdf",
+     "sha256": "249c6b21c62ebae4013540ff413aa09eb783adb9560c311eb3946c2bf441c63b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T07-S02-M03",
+   "title": "End-of-life communication",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 17,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_365f180b6e211ecfef11",
+     "sourceRelativePath": "4. Alexandria Uni Books/Orientation book - 2022.pdf",
+     "sha256": "4a50dd0a4fdceb3797cd41c7caa51e5fe5dd22a006ee65d8fe9da0b6c6f4a272",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      22,
+      24,
+      25,
+      26,
+      28,
+      38,
+      39
+     ],
+     "records": 14
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      314,
+      325
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_b87d5a13859712bb20e6",
+     "sourceRelativePath": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+     "sha256": "d38135a48512ee9f64ddd47041c3fd205631e7594686ed45fa4ac9797b33f1bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      89
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S03-M01",
+   "title": "Preoperative preparation",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 4,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_3a85381193653300586a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظري فارما الايندو (القسم).pdf",
+     "sha256": "6bb508021c6cb9994a6eb286aaef986569aefd9d22e27e31162e1da167d2196f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      9,
+      31
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S03-M02",
+   "title": "Airway and ventilation",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MUL-T06-S03-M04",
+   "title": "Monitoring and recovery",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 8,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_02a7a2555cd987fd92ab",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharma practical ID1 2022.pdf",
+     "sha256": "576862ebc340880e6418f6f2a4cbd7548ceb96667033ba3a0a536ec75764ba3f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      359,
+      360
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      241
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_db878e9254e3bc62e0b7",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Physio MSK (شرح)_230805_212040.pdf",
+     "sha256": "9a8f1224f1f91d7bffb8b79e9b7d6485a435a5d1a07be2152f40081e6c34de84",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      40
+     ],
+     "records": 1
+    }
+   ]
+  }
+ ]
+}

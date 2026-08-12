@@ -1,0 +1,2057 @@
+{
+ "task": "SYS-NEU-SOURCE-001",
+ "rule": "Only files the corpus marks as processed are read. Extraction confidence is not medical verification (LD-08); every local claim is corroborated before publication.",
+ "summary": {
+  "system": "SYS-NEU",
+  "title": "Nervous System & Special Senses",
+  "plannedArticles": 54,
+  "withLocalEvidence": 37,
+  "withoutLocalEvidence": 17,
+  "distinctCorpusFiles": 68,
+  "corpusRecordsScanned": 110850,
+  "reviewedSources": 30
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-NEU-T01-S01-M01",
+   "title": "Cortex",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 330,
+   "localSources": 24,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      27,
+      28,
+      35,
+      36,
+      106,
+      107
+     ],
+     "records": 106
+    },
+    {
+     "sourceId": "src_c541c2e5d199dfafe2a3",
+     "sourceRelativePath": "6. Fayoum Uni Books/هستو القسم.PDF",
+     "sha256": "04ef2831fdbc6365cd66870ca5dc64af29692b12b0e817ce3b3c1bd98ba240c6",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      30,
+      32,
+      33
+     ],
+     "records": 67
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      64,
+      65,
+      66,
+      67,
+      131,
+      132,
+      133,
+      134
+     ],
+     "records": 50
+    },
+    {
+     "sourceId": "src_027c21a2fde7573b1cfc",
+     "sourceRelativePath": "6. Fayoum Uni Books/Sensory_nervous_system_كتاب_القسم_فسيولوجي.pdf",
+     "sha256": "8c06a0a9978663c539998ad847b8b1af4a5138abf8b2b630888b4cc3e21b8661",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      12,
+      13
+     ],
+     "records": 42
+    },
+    {
+     "sourceId": "src_890a0079eb448cdb8aa9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical CNS 2021 - 2022.pdf",
+     "sha256": "b2e2e657aea64d5e924a0dfcc08f30e088868dcfb62f60a6ac1984a469faf5cd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      19,
+      20,
+      21,
+      22
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      29
+     ],
+     "records": 10
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T01-S01-M02",
+   "title": "Basal ganglia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 173,
+   "localSources": 9,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+     ],
+     "records": 135
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229
+     ],
+     "records": 20
+    },
+    {
+     "sourceId": "src_a49393e12294e35c1563",
+     "sourceRelativePath": "6. Fayoum Uni Books/_Neuroscience 2 physiology 2023.pdf",
+     "sha256": "a57f56a42cefe06e35ec8fb6533fbdebc6e4df961ca0c9225850d872fe22f134",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      57
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_33db19276e2bf2d0c9d4",
+     "sourceRelativePath": "4. Alexandria Uni Books/CNS 2022.pdf",
+     "sha256": "70667940e27e58a5ca479c1440704f219414fd4a3c6ceba401267e364b8158bd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      58,
+      148,
+      149
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_a165a98952ffefcc0ebc",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+     "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      126
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      88
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T01-S01-M03",
+   "title": "Brainstem",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 316,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+     ],
+     "records": 229
+    },
+    {
+     "sourceId": "src_c541c2e5d199dfafe2a3",
+     "sourceRelativePath": "6. Fayoum Uni Books/هستو القسم.PDF",
+     "sha256": "04ef2831fdbc6365cd66870ca5dc64af29692b12b0e817ce3b3c1bd98ba240c6",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      18,
+      22,
+      23,
+      24,
+      41,
+      42,
+      45
+     ],
+     "records": 55
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      263,
+      264,
+      265,
+      294
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_33db19276e2bf2d0c9d4",
+     "sourceRelativePath": "4. Alexandria Uni Books/CNS 2022.pdf",
+     "sha256": "70667940e27e58a5ca479c1440704f219414fd4a3c6ceba401267e364b8158bd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      131,
+      132,
+      133,
+      134
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      62
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T01-S01-M04",
+   "title": "Spinal cord",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 202,
+   "localSources": 14,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_c541c2e5d199dfafe2a3",
+     "sourceRelativePath": "6. Fayoum Uni Books/هستو القسم.PDF",
+     "sha256": "04ef2831fdbc6365cd66870ca5dc64af29692b12b0e817ce3b3c1bd98ba240c6",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "records": 68
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      37,
+      38,
+      39,
+      40,
+      141,
+      142,
+      143,
+      144
+     ],
+     "records": 49
+    },
+    {
+     "sourceId": "src_63b1c487c9042661a28f",
+     "sourceRelativePath": "6. Fayoum Uni Books/كتاب_القسم_فسيولوجي_ANS.pdf",
+     "sha256": "f6ad6e86e4e3e8cd80b370b7415f1a6db6fde6f45462c1313f0e2faddba7d882",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      3
+     ],
+     "records": 29
+    },
+    {
+     "sourceId": "src_33db19276e2bf2d0c9d4",
+     "sourceRelativePath": "4. Alexandria Uni Books/CNS 2022.pdf",
+     "sha256": "70667940e27e58a5ca479c1440704f219414fd4a3c6ceba401267e364b8158bd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      67,
+      106,
+      107,
+      108,
+      123,
+      125,
+      229
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_890a0079eb448cdb8aa9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical CNS 2021 - 2022.pdf",
+     "sha256": "b2e2e657aea64d5e924a0dfcc08f30e088868dcfb62f60a6ac1984a469faf5cd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13,
+      14,
+      15,
+      17
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      79
+     ],
+     "records": 9
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T01-S02-M01",
+   "title": "Roots",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 95,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_6e70bbff9296838b22d7",
+     "sourceRelativePath": "0. General/Anatomy_Basis_Sameh_Doss.pdf",
+     "sha256": "cc9013c14a2fd06589b161286d41387fa6ec240a7748ed2c062301c75d65f88f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      46,
+      45
+     ],
+     "records": 55
+    },
+    {
+     "sourceId": "src_365f180b6e211ecfef11",
+     "sourceRelativePath": "4. Alexandria Uni Books/Orientation book - 2022.pdf",
+     "sha256": "4a50dd0a4fdceb3797cd41c7caa51e5fe5dd22a006ee65d8fe9da0b6c6f4a272",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      74,
+      75,
+      77,
+      81,
+      91,
+      92,
+      100
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      106,
+      109,
+      110
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      141,
+      283
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_db01cd3c84232b926002",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب القسم نظري اناتومي الريسب.pdf",
+     "sha256": "5dee0706bbc675a028a8c21b45a14f627559bb1e91ff8eca97de9b96988a0eab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      95,
+      96
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      84,
+      76
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T01-S02-M02",
+   "title": "Plexuses",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 15,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2f47106dea9a12f989b9",
+     "sourceRelativePath": "6. Fayoum Uni Books/Book.docx.pdf",
+     "sha256": "4c3a6b2c92bf66ddee5c279f35e3f3cf67480ee59813b0ec2e341041e4bae57d",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      9
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      251,
+      252
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_91a92977626e4008db12",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - GIT Physiology.pdf",
+     "sha256": "127821290aaac4463d96d6c7f8d0cbdf78848da4e408ccf9a3d01f37887e6430",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      7
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      95
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_346eb5565d7cfb85254f",
+     "sourceRelativePath": "5. Beni Suef Uni Books/New histo GIT.pdf",
+     "sha256": "adfbe28c1b3b3ea587544c281c6ff852ef509b9514206d0e50647fb87bff9c82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_35b4811ecfef37fdee17",
+     "sourceRelativePath": "5. Beni Suef Uni Books/anatomy repro.pdf",
+     "sha256": "8f34f3c6dcebae3504e3c6b3398d938ff6766b5924a5030bfb287369bf05c496",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      46
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T01-S02-M03",
+   "title": "Peripheral nerves",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 32,
+   "localSources": 9,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      26,
+      28,
+      29,
+      30,
+      33
+     ],
+     "records": 13
+    },
+    {
+     "sourceId": "src_b8bf29eda2d326ac2c10",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "41e8a9f74d816acc5b01fae63f86a08b6351e82d93fd9c3de35d51a9fa4537c2",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      28,
+      29,
+      35
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_baa86647105c5abdc773",
+     "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Musculoskeletal Histology 2021-2022.pdf",
+     "sha256": "2f62b0d70c7c5c169a0740f415ddaf52a40f78a235a30d80de4c0434bc798490",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      34
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      69,
+      80
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_7a61da0e6aac8881c636",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظري الاناتومي GIT.pdf",
+     "sha256": "4f6b737b0039b5652aa1e3c1272ab154486b419d7d7dfcaf6f1b51dc7c107983",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      38,
+      39
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_db01cd3c84232b926002",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب القسم نظري اناتومي الريسب.pdf",
+     "sha256": "5dee0706bbc675a028a8c21b45a14f627559bb1e91ff8eca97de9b96988a0eab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      47
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T01-S02-M04",
+   "title": "NMJ",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T02-S01-M01",
+   "title": "Coma",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 13,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2789d9f775cb9e0951b1",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Bio. Endocrine.pdf",
+     "sha256": "e4d2d8d98aabca42fead74fd6e89115edbf9cb0029a1aea63a975525c887955d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      12,
+      13
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_d172a06788fd6b78ae39",
+     "sourceRelativePath": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+     "sha256": "7303bdd66061b5c10f455d03ea96bf65b97bccd55f423b65e989279ffef6665e",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      78
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      89
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T02-S01-M02",
+   "title": "Confusion",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T02-S01-M03",
+   "title": "Memory loss",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_543a4cf673b4e8017858",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro hematopoietic.pdf",
+     "sha256": "11f0a2bd61ad1f41036f0c1ae066a822f678436f783b6110cbd640fe96620b7a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      62
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_a49393e12294e35c1563",
+     "sourceRelativePath": "6. Fayoum Uni Books/_Neuroscience 2 physiology 2023.pdf",
+     "sha256": "a57f56a42cefe06e35ec8fb6533fbdebc6e4df961ca0c9225850d872fe22f134",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      71
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T02-S02-M01",
+   "title": "Weakness",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7bf413896ce181e91869",
+     "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+     "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      56
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      213
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T02-S02-M02",
+   "title": "Sensory loss",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a49393e12294e35c1563",
+     "sourceRelativePath": "6. Fayoum Uni Books/_Neuroscience 2 physiology 2023.pdf",
+     "sha256": "a57f56a42cefe06e35ec8fb6533fbdebc6e4df961ca0c9225850d872fe22f134",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      36
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T02-S02-M03",
+   "title": "Seizure",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T02-S02-M04",
+   "title": "Headache",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 55,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_027c21a2fde7573b1cfc",
+     "sourceRelativePath": "6. Fayoum Uni Books/Sensory_nervous_system_كتاب_القسم_فسيولوجي.pdf",
+     "sha256": "8c06a0a9978663c539998ad847b8b1af4a5138abf8b2b630888b4cc3e21b8661",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      25,
+      26
+     ],
+     "records": 50
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      112,
+      113
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T02-S02-M05",
+   "title": "Dizziness",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7fb318593dd3d9933cf9",
+     "sourceRelativePath": "10. MTI Uni Books/ENT 332 Book-1.pdf",
+     "sha256": "8d30ea67504444534d4295c4e9a92957e38d8b773e00d3a12b6c343f6ead2022",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      245
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T03-S01-M01",
+   "title": "TIA",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      535
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T03-S01-M02",
+   "title": "Ischemic stroke",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      535
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T03-S02-M01",
+   "title": "Intracerebral hemorrhage",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 6,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      110,
+      111
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      538
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      216
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      123
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T03-S02-M02",
+   "title": "Subarachnoid hemorrhage",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T04-S01-M01",
+   "title": "Focal seizures",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T04-S01-M02",
+   "title": "Generalized seizures",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T04-S01-M03",
+   "title": "Status epilepticus",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      411
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T04-S02-M01",
+   "title": "Migraine",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 11,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      113,
+      411,
+      412
+     ],
+     "records": 11
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T04-S02-M02",
+   "title": "Tension headache",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T04-S02-M03",
+   "title": "Cluster headache",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T04-S02-M04",
+   "title": "Secondary headache",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T05-S01-M01",
+   "title": "Parkinsonism",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 19,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238
+     ],
+     "records": 19
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T05-S01-M02",
+   "title": "Tremor",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 4,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a49393e12294e35c1563",
+     "sourceRelativePath": "6. Fayoum Uni Books/_Neuroscience 2 physiology 2023.pdf",
+     "sha256": "a57f56a42cefe06e35ec8fb6533fbdebc6e4df961ca0c9225850d872fe22f134",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      59
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      256
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T05-S01-M03",
+   "title": "Chorea",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_80789da965192fb095dc",
+     "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+     "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T05-S01-M04",
+   "title": "Dystonia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T05-S02-M01",
+   "title": "Dementia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      513,
+      517,
+      535
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T05-S02-M02",
+   "title": "Motor neuron disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 105,
+   "localSources": 12,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      136,
+      137,
+      138,
+      139,
+      140,
+      153,
+      154,
+      156
+     ],
+     "records": 36
+    },
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      33,
+      34
+     ],
+     "records": 35
+    },
+    {
+     "sourceId": "src_c541c2e5d199dfafe2a3",
+     "sourceRelativePath": "6. Fayoum Uni Books/هستو القسم.PDF",
+     "sha256": "04ef2831fdbc6365cd66870ca5dc64af29692b12b0e817ce3b3c1bd98ba240c6",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      14
+     ],
+     "records": 18
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      31
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_b8bf29eda2d326ac2c10",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "41e8a9f74d816acc5b01fae63f86a08b6351e82d93fd9c3de35d51a9fa4537c2",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      24,
+      26
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      20
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T05-S02-M03",
+   "title": "Ataxia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 63,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      158,
+      159,
+      160
+     ],
+     "records": 34
+    },
+    {
+     "sourceId": "src_789e395c0d3c47f88302",
+     "sourceRelativePath": "6. Fayoum Uni Books/Practical Neuroscience 2 physiology 2023.pdf",
+     "sha256": "54c3b2ae68e78cd804c46966ac8662c98b2471ff46eed30652846d2e2a3457a0",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      49,
+      50
+     ],
+     "records": 24
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      217,
+      256
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T06-S01-M01",
+   "title": "Multiple sclerosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 25,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      524,
+      525,
+      526,
+      528,
+      529,
+      530
+     ],
+     "records": 24
+    },
+    {
+     "sourceId": "src_543a4cf673b4e8017858",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro hematopoietic.pdf",
+     "sha256": "11f0a2bd61ad1f41036f0c1ae066a822f678436f783b6110cbd640fe96620b7a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      96
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T06-S01-M02",
+   "title": "GBS",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T06-S01-M03",
+   "title": "Myasthenia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 6,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      17,
+      85
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_db878e9254e3bc62e0b7",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Physio MSK (شرح)_230805_212040.pdf",
+     "sha256": "9a8f1224f1f91d7bffb8b79e9b7d6485a435a5d1a07be2152f40081e6c34de84",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      17
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T06-S02-M01",
+   "title": "Meningitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 257,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+     ],
+     "records": 227
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      482,
+      483,
+      484,
+      485,
+      486,
+      505,
+      506
+     ],
+     "records": 27
+    },
+    {
+     "sourceId": "src_bcb1634dbfe10808b5c3",
+     "sourceRelativePath": "10. MTI Uni Books/PHA 109 I.pdf",
+     "sha256": "ad50ba216f5deb527107cd507d1f55abeb07160b110c41609d060f5fca21eab5",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      59
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      123
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T06-S02-M02",
+   "title": "Encephalitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 20,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      487,
+      488,
+      489,
+      507,
+      508
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      99
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_62c623b8561352d2b845",
+     "sourceRelativePath": "10. MTI Uni Books/med-neuii326-t (1).pdf",
+     "sha256": "a4c83351a091eaa6f5733bcd62d1acae0c292a5d9a8dc277486df92cab46543d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      325
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_72f9476b91e96e4cbd99",
+     "sourceRelativePath": "6. Fayoum Uni Books/CNS LECTURE NOTES.pdf",
+     "sha256": "dd85fe4c9c29811379b25b6beb40b498f8eec69efa5800068d44149e8fd8d1dc",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      5
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T06-S02-M03",
+   "title": "Brain tumors",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 7,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      61,
+      62
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      128
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T07-S01-M01",
+   "title": "Visual loss",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T07-S01-M02",
+   "title": "Painful red eye",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T07-S01-M03",
+   "title": "Pupil abnormalities",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_49c78c9bacd6060a27d8",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Bio MSK (شرح)_230805_211920.pdf",
+     "sha256": "d48dddff871bca21bf80fcfd14d4afeb08f2ee9603c9fdd07b80b6dd0fa54671",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      38
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T07-S02-M01",
+   "title": "Cataract",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 10,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      103
+     ],
+     "records": 10
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T07-S02-M02",
+   "title": "Glaucoma",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 17,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      141,
+      142
+     ],
+     "records": 15
+    },
+    {
+     "sourceId": "src_33db19276e2bf2d0c9d4",
+     "sourceRelativePath": "4. Alexandria Uni Books/CNS 2022.pdf",
+     "sha256": "70667940e27e58a5ca479c1440704f219414fd4a3c6ceba401267e364b8158bd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      208
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_18e63345a66c9a76a312",
+     "sourceRelativePath": "9. Zagazig Uni Books/فارما البري.PDF",
+     "sha256": "591b8501345c9345446a3fbda371e77a418e15209f9e526559ca055066237aac",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      32
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T07-S02-M03",
+   "title": "Retinal disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 39,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      91,
+      92
+     ],
+     "records": 35
+    },
+    {
+     "sourceId": "src_33db19276e2bf2d0c9d4",
+     "sourceRelativePath": "4. Alexandria Uni Books/CNS 2022.pdf",
+     "sha256": "70667940e27e58a5ca479c1440704f219414fd4a3c6ceba401267e364b8158bd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      58
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_890a0079eb448cdb8aa9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical CNS 2021 - 2022.pdf",
+     "sha256": "b2e2e657aea64d5e924a0dfcc08f30e088868dcfb62f60a6ac1984a469faf5cd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      32
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_1028df0326123f12fcc0",
+     "sourceRelativePath": "9. Zagazig Uni Books/CNS FINAL EDITION.pdf",
+     "sha256": "06400068e012ceffc1a31fd814de1db2bfb52733ee93621e845b462d0b4f8cad",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      287
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_26946fbba92c005dad1a",
+     "sourceRelativePath": "9. Zagazig Uni Books/CNS book.pdf",
+     "sha256": "9456ee00018918275254c17d45c57d6004a777d1b7599d64319d78b93692e086",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      387
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T07-S02-M04",
+   "title": "Ocular trauma",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T08-S01-M01",
+   "title": "Otitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 43,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      11
+     ],
+     "records": 31
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      44,
+      317,
+      318
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_7fb318593dd3d9933cf9",
+     "sourceRelativePath": "10. MTI Uni Books/ENT 332 Book-1.pdf",
+     "sha256": "8d30ea67504444534d4295c4e9a92957e38d8b773e00d3a12b6c343f6ead2022",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      196
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T08-S01-M02",
+   "title": "Hearing loss",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_3feaf5eb4b1f6d0da08f",
+     "sourceRelativePath": "10. MTI Uni Books/ENT 332 Atlas.pdf",
+     "sha256": "c465b42a82362c4e5b48f8ec9d7a9c5e700289a6e14067ac9c5658b56b85b991",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      72
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T08-S01-M03",
+   "title": "Vertigo",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T08-S02-M01",
+   "title": "Rhinitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 98,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      5
+     ],
+     "records": 95
+    },
+    {
+     "sourceId": "src_7fb318593dd3d9933cf9",
+     "sourceRelativePath": "10. MTI Uni Books/ENT 332 Book-1.pdf",
+     "sha256": "8d30ea67504444534d4295c4e9a92957e38d8b773e00d3a12b6c343f6ead2022",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      37
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      49
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_18e63345a66c9a76a312",
+     "sourceRelativePath": "9. Zagazig Uni Books/فارما البري.PDF",
+     "sha256": "591b8501345c9345446a3fbda371e77a418e15209f9e526559ca055066237aac",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      41
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T08-S02-M02",
+   "title": "Sinusitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 22,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      6
+     ],
+     "records": 15
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      44,
+      45
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_7fb318593dd3d9933cf9",
+     "sourceRelativePath": "10. MTI Uni Books/ENT 332 Book-1.pdf",
+     "sha256": "8d30ea67504444534d4295c4e9a92957e38d8b773e00d3a12b6c343f6ead2022",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      55
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-NEU-T08-S02-M03",
+   "title": "Tonsillar disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-NEU-T08-S02-M04",
+   "title": "Neck masses",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  }
+ ]
+}

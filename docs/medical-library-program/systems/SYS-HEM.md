@@ -115,6 +115,23 @@ substitute for that ledger.
 
 Kasr Alainy `3. Histology` (5 of 6 complete) covers blood and lymphoid tissue. This is the source behind the 94 canonical SYS-HEM concepts.
 
+### Decided source plan (`SYS-HEM-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-HEM-source-plan.md`](../evidence/SYS-HEM-source-plan.md) ·
+[`SYS-HEM-source-plan.json`](../evidence/SYS-HEM-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 38 |
+| — with a processed local source | 23 |
+| — authored from authoritative sources only | 15 |
+| Distinct corpus files touching this system | 85 |
+
+The 15 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

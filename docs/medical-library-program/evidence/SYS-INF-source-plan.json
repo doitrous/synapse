@@ -1,0 +1,2968 @@
+{
+ "task": "SYS-INF-SOURCE-001",
+ "rule": "Only files the corpus marks as processed are read. Extraction confidence is not medical verification (LD-08); every local claim is corroborated before publication.",
+ "summary": {
+  "system": "SYS-INF",
+  "title": "Infection & Tropical Medicine",
+  "plannedArticles": 63,
+  "withLocalEvidence": 50,
+  "withoutLocalEvidence": 13,
+  "distinctCorpusFiles": 94,
+  "corpusRecordsScanned": 110850,
+  "reviewedSources": 46
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-INF-T01",
+   "title": "Bacterial disease",
+   "level": "Topic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "overview article",
+   "localRecords": 282,
+   "localSources": 16,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0f9ac0f57d6feef6f0f5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Micro practical ID1 2022.pdf",
+     "sha256": "f476170707cc40b9db47ff4cf70d105c4a410fc1bcafb393e88c10d3706cbb43",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "records": 103
+    },
+    {
+     "sourceId": "src_e6b96209d05b9a61260a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro.pdf",
+     "sha256": "3c0078b59699b46e02f09b236a91b7a8dbf6d9f8692c1f5bc93a704309ea58ec",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+     ],
+     "records": 71
+    },
+    {
+     "sourceId": "src_6658fe937e28d6994f59",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro resp (نظرى )2023.pdf",
+     "sha256": "497ced692630cb7a74dd16d6ffefe1e53233de8108f9ab9f188b69d25c3785bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6,
+      8,
+      11,
+      16,
+      17,
+      18,
+      19
+     ],
+     "records": 19
+    },
+    {
+     "sourceId": "src_99f3fabd8db78204412d",
+     "sourceRelativePath": "7. Menoufia Uni Books/Micro MSK Class38 Students.pdf",
+     "sha256": "a58506b8736d7ae2524490d88841f32d053f7adff72e05da3ce9f49c6ee136a3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      6
+     ],
+     "records": 19
+    },
+    {
+     "sourceId": "src_5543d9ea39fa2c86a207",
+     "sourceRelativePath": "6. Fayoum Uni Books/lymph node diseases.pdf",
+     "sha256": "a2aea0689e06f16c053549ef688ac05896d4f8ff67f041d81dccfd947323c7ab",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3
+     ],
+     "records": 13
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T01-S01-M01",
+   "title": "Staphylococci",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 10,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      75
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      17,
+      41,
+      44
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_f372f89a417bbcee9bdc",
+     "sourceRelativePath": "6. Fayoum Uni Books/ميكرو القسم.pdf",
+     "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      4
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T01-S01-M02",
+   "title": "Streptococci",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 9,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7c2fcd4885e62546a922",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى ميكرو الكارديو.pdf",
+     "sha256": "c7d95d569d5c5bfb0f08bfcc399df941382f75fc50e112f49f4ca9c878700a6e",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      21,
+      26
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_f372f89a417bbcee9bdc",
+     "sourceRelativePath": "6. Fayoum Uni Books/ميكرو القسم.pdf",
+     "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      7
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T01-S01-M03",
+   "title": "Clostridia",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 12,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_063ab13067c43658a438",
+     "sourceRelativePath": "6. Fayoum Uni Books/micro git القسم.pdf",
+     "sha256": "2243ec6443994c6adc0bfedd11fd78bd70b6e7f439c43b516429e67aa98d2fa8",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      6
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_f372f89a417bbcee9bdc",
+     "sourceRelativePath": "6. Fayoum Uni Books/ميكرو القسم.pdf",
+     "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      12
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T01-S02-M01",
+   "title": "Enteric bacteria",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_543a4cf673b4e8017858",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro hematopoietic.pdf",
+     "sha256": "11f0a2bd61ad1f41036f0c1ae066a822f678436f783b6110cbd640fe96620b7a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      64
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_e6b96209d05b9a61260a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro.pdf",
+     "sha256": "3c0078b59699b46e02f09b236a91b7a8dbf6d9f8692c1f5bc93a704309ea58ec",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T01-S02-M02",
+   "title": "Neisseria",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 18,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      109
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_2610b7c9cbd92e89a513",
+     "sourceRelativePath": "10. MTI Uni Books/med-musii215-t.pdf",
+     "sha256": "fd4b8d72830c689833e4dc2944a55899a57ee31c94c24c206ce998a9fdcea6af",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      202
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T01-S02-M03",
+   "title": "Pseudomonas",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 10,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      195,
+      196
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_1028df0326123f12fcc0",
+     "sourceRelativePath": "9. Zagazig Uni Books/CNS FINAL EDITION.pdf",
+     "sha256": "06400068e012ceffc1a31fd814de1db2bfb52733ee93621e845b462d0b4f8cad",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      345
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_26946fbba92c005dad1a",
+     "sourceRelativePath": "9. Zagazig Uni Books/CNS book.pdf",
+     "sha256": "9456ee00018918275254c17d45c57d6004a777d1b7599d64319d78b93692e086",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      358
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T01-S03-M01",
+   "title": "Tuberculosis",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 658,
+   "localSources": 20,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "records": 319
+    },
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      27,
+      28,
+      29,
+      30
+     ],
+     "records": 156
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      370
+     ],
+     "records": 53
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      55,
+      57,
+      58,
+      59,
+      60,
+      62,
+      63,
+      64
+     ],
+     "records": 39
+    },
+    {
+     "sourceId": "src_f372f89a417bbcee9bdc",
+     "sourceRelativePath": "6. Fayoum Uni Books/ميكرو القسم.pdf",
+     "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14,
+      16
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_6658fe937e28d6994f59",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro resp (نظرى )2023.pdf",
+     "sha256": "497ced692630cb7a74dd16d6ffefe1e53233de8108f9ab9f188b69d25c3785bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+     ],
+     "records": 15
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T01-S03-M02",
+   "title": "Leprosy",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 18,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_f372f89a417bbcee9bdc",
+     "sourceRelativePath": "6. Fayoum Uni Books/ميكرو القسم.pdf",
+     "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      15
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      135,
+      136
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_8ebcb5f6ee01503617e4",
+     "sourceRelativePath": "8. Tanta Uni Books/General Pathology 2018-2019.pdf",
+     "sha256": "0ec7ced73dd02cf8a8ace0a1edc4a5e54fe584e0f8a76d33f7061a312091465a",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      65,
+      64
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T01-S03-M03",
+   "title": "Nontuberculous mycobacteria",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_f372f89a417bbcee9bdc",
+     "sourceRelativePath": "6. Fayoum Uni Books/ميكرو القسم.pdf",
+     "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T02",
+   "title": "Viral disease",
+   "level": "Topic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "overview article",
+   "localRecords": 714,
+   "localSources": 12,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+     ],
+     "records": 548
+    },
+    {
+     "sourceId": "src_0f9ac0f57d6feef6f0f5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Micro practical ID1 2022.pdf",
+     "sha256": "f476170707cc40b9db47ff4cf70d105c4a410fc1bcafb393e88c10d3706cbb43",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+     ],
+     "records": 57
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      98,
+      131,
+      132,
+      133,
+      134,
+      184,
+      185,
+      342
+     ],
+     "records": 31
+    },
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      23
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      486,
+      487,
+      488,
+      489,
+      506,
+      507
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      144,
+      151,
+      154,
+      155,
+      156,
+      203
+     ],
+     "records": 16
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T02-S01-M01",
+   "title": "Influenza",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 187,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+     ],
+     "records": 171
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      366,
+      367,
+      368
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_6658fe937e28d6994f59",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro resp (نظرى )2023.pdf",
+     "sha256": "497ced692630cb7a74dd16d6ffefe1e53233de8108f9ab9f188b69d25c3785bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      44,
+      45,
+      46
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T02-S01-M02",
+   "title": "Coronaviruses",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_6658fe937e28d6994f59",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro resp (نظرى )2023.pdf",
+     "sha256": "497ced692630cb7a74dd16d6ffefe1e53233de8108f9ab9f188b69d25c3785bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      49
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T02-S01-M03",
+   "title": "Measles",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 10,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      151,
+      152,
+      153
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_b87d5a13859712bb20e6",
+     "sourceRelativePath": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+     "sha256": "d38135a48512ee9f64ddd47041c3fd205631e7594686ed45fa4ac9797b33f1bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      134
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T02-S01-M04",
+   "title": "Mumps",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 9,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      109,
+      110,
+      114
+     ],
+     "records": 9
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T02-S01-M05",
+   "title": "Rubella",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 13,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_1188da2889a27a243f32",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro Urogenital 2022.pdf",
+     "sha256": "498d913bf0267f0d99adac4f06dfc339311b8354302561ebd02cdf07ae54e48a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      58
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      153
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      231
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_befa0991254f3749a0ee",
+     "sourceRelativePath": "9. Zagazig Uni Books/REPRODUCTIVE HAND OUT_compressed.pdf",
+     "sha256": "718af80ac6e4ca42e0a3f57988fed8bcb809b53fc56d631a685becb022619093",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      8
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T02-S02-M01",
+   "title": "HIV",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      508
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T02-S02-M02",
+   "title": "HBV",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T02-S02-M03",
+   "title": "HCV",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T02-S03-M01",
+   "title": "HSV",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T02-S03-M02",
+   "title": "VZV",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T02-S03-M03",
+   "title": "CMV",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      200
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T02-S03-M04",
+   "title": "Rabies",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 111,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128
+     ],
+     "records": 102
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      490,
+      491,
+      492
+     ],
+     "records": 9
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T03-S01-M01",
+   "title": "Dermatophytes",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T03-S01-M02",
+   "title": "Candida",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 11,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      77
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_497785a97d77065d2dce",
+     "sourceRelativePath": "9. Zagazig Uni Books/arranged practical Handout repro_compressed.pdf",
+     "sha256": "da2fb65aa8a3cfdfc0bfb4db396a6ae239721e4aba0ae6ba6d682eaa358dc410",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      4
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      197,
+      198
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      99
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T03-S02-M01",
+   "title": "Aspergillus",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 7,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_36f11b1cd87a7c99ee75",
+     "sourceRelativePath": "10. MTI Uni Books/med-res216-t.pdf",
+     "sha256": "cf9d03d02ef6f1c61f670e62c4266c76ed40465f3b4e02f0b73097a32803b192",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      233
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      97
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T03-S02-M02",
+   "title": "Cryptococcus",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_62c623b8561352d2b845",
+     "sourceRelativePath": "10. MTI Uni Books/med-neuii326-t (1).pdf",
+     "sha256": "a4c83351a091eaa6f5733bcd62d1acae0c292a5d9a8dc277486df92cab46543d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      337
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T03-S02-M03",
+   "title": "Mucor",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T04-S01-M01",
+   "title": "Malaria",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 117,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_65669c0c689c63fa1142",
+     "sourceRelativePath": "5. Beni Suef Uni Books/para&MCQ_heme_2023.pdf",
+     "sha256": "61c7aec52fc92c9d4f17dc10e1c969a741673d741057a44a61cd6a02b449054d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+     ],
+     "records": 67
+    },
+    {
+     "sourceId": "src_59c224c6343d1e51e931",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 2) - 2022.pdf",
+     "sha256": "5e265ecc4930b6a32fe6f39cf8238889ac91ffe1ce01850526eff515b3fb06b2",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      34,
+      36,
+      37,
+      40,
+      41,
+      42,
+      43,
+      44
+     ],
+     "records": 29
+    },
+    {
+     "sourceId": "src_b87d5a13859712bb20e6",
+     "sourceRelativePath": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+     "sha256": "d38135a48512ee9f64ddd47041c3fd205631e7594686ed45fa4ac9797b33f1bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+     ],
+     "records": 18
+    },
+    {
+     "sourceId": "src_82f776d8eed5667059f7",
+     "sourceRelativePath": "10. MTI Uni Books/Final HIM 110 theoretical 2022.pdf",
+     "sha256": "1d572da90603c5b2c5dd3556a2a3b9fcf270bb4e2ede82dc4041abdaad72c01f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      297
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T04-S01-M02",
+   "title": "Amoebiasis",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 58,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      307,
+      308,
+      309,
+      310,
+      311,
+      312
+     ],
+     "records": 30
+    },
+    {
+     "sourceId": "src_59c224c6343d1e51e931",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 2) - 2022.pdf",
+     "sha256": "5e265ecc4930b6a32fe6f39cf8238889ac91ffe1ce01850526eff515b3fb06b2",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "records": 28
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T04-S01-M03",
+   "title": "Giardiasis",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 22,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_59c224c6343d1e51e931",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 2) - 2022.pdf",
+     "sha256": "5e265ecc4930b6a32fe6f39cf8238889ac91ffe1ce01850526eff515b3fb06b2",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+     ],
+     "records": 15
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      227,
+      228,
+      229
+     ],
+     "records": 7
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T04-S01-M04",
+   "title": "Toxoplasmosis",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 28,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_59c224c6343d1e51e931",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 2) - 2022.pdf",
+     "sha256": "5e265ecc4930b6a32fe6f39cf8238889ac91ffe1ce01850526eff515b3fb06b2",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      58,
+      59,
+      60,
+      62,
+      63,
+      64,
+      65,
+      66
+     ],
+     "records": 22
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      504
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_497785a97d77065d2dce",
+     "sourceRelativePath": "9. Zagazig Uni Books/arranged practical Handout repro_compressed.pdf",
+     "sha256": "da2fb65aa8a3cfdfc0bfb4db396a6ae239721e4aba0ae6ba6d682eaa358dc410",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      4
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T04-S02-M01",
+   "title": "Schistosomiasis",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 189,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_65669c0c689c63fa1142",
+     "sourceRelativePath": "5. Beni Suef Uni Books/para&MCQ_heme_2023.pdf",
+     "sha256": "61c7aec52fc92c9d4f17dc10e1c969a741673d741057a44a61cd6a02b449054d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "records": 64
+    },
+    {
+     "sourceId": "src_38232e973c9c45f6dacc",
+     "sourceRelativePath": "5. Beni Suef Uni Books/بارا urogenital.pdf",
+     "sha256": "bd5e97ba832b12eb798dfa51dc7b4bfd53bb3a31b47d68d36ee3b8e61477f7d8",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "records": 44
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      340,
+      341
+     ],
+     "records": 34
+    },
+    {
+     "sourceId": "src_59c224c6343d1e51e931",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 2) - 2022.pdf",
+     "sha256": "5e265ecc4930b6a32fe6f39cf8238889ac91ffe1ce01850526eff515b3fb06b2",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+     ],
+     "records": 32
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      186,
+      188,
+      189,
+      190,
+      191
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_9537fe3796bdbec981fc",
+     "sourceRelativePath": "10. MTI Uni Books/Final Theoretical URO Book 2022.pdf",
+     "sha256": "a819c51f1cdf82724f761944ad781084f7a6bf06bbec33e6092824be1a84a6ed",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      216
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T04-S02-M02",
+   "title": "Filaria",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T04-S02-M03",
+   "title": "Cestodes",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 35,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214
+     ],
+     "records": 24
+    },
+    {
+     "sourceId": "src_eb2c897d91079312eee5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Para practical ID1 2022.pdf",
+     "sha256": "fdcb623706eff73e2efe33709d45f17f9519f3d5daca00c2d4787f73ec7b0754",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      7,
+      8
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      109,
+      110
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T04-S02-M04",
+   "title": "Nematodes",
+   "level": "Microtopic",
+   "templateId": "TPL-ORGANISM",
+   "classification": "atomic article home",
+   "localRecords": 6,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_eb2c897d91079312eee5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Para practical ID1 2022.pdf",
+     "sha256": "fdcb623706eff73e2efe33709d45f17f9519f3d5daca00c2d4787f73ec7b0754",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      9,
+      10
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      111,
+      112
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T05-S01-M01",
+   "title": "Fever of unknown origin",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 89,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261
+     ],
+     "records": 80
+    },
+    {
+     "sourceId": "src_7c2fcd4885e62546a922",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى ميكرو الكارديو.pdf",
+     "sha256": "c7d95d569d5c5bfb0f08bfcc399df941382f75fc50e112f49f4ca9c878700a6e",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      47,
+      48
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_5686f79a1ae67a1b1d6d",
+     "sourceRelativePath": "4. Alexandria Uni Books/Tropical book 2021.pdf",
+     "sha256": "372d032793d963d02f26ab716704d51f8d37147e6d8d4c3363cddc0eea2e0d11",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      87,
+      93
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T05-S01-M02",
+   "title": "Sepsis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 15,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7c2fcd4885e62546a922",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى ميكرو الكارديو.pdf",
+     "sha256": "c7d95d569d5c5bfb0f08bfcc399df941382f75fc50e112f49f4ca9c878700a6e",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      8,
+      9
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      227
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_bc82197e9431fa6c93bc",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي القسم  د-محمد المهدي.pdf",
+     "sha256": "9bf7d30670b378ee59a0bb95be6abc4c956abd3c8a8ad80231b0fdefeef45cd1",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      9
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      105
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T05-S01-M03",
+   "title": "Febrile traveler",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T05-S02-M01",
+   "title": "Meningitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 246,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+     ],
+     "records": 218
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      482,
+      483,
+      484,
+      485,
+      486,
+      505,
+      506
+     ],
+     "records": 25
+    },
+    {
+     "sourceId": "src_bcb1634dbfe10808b5c3",
+     "sourceRelativePath": "10. MTI Uni Books/PHA 109 I.pdf",
+     "sha256": "ad50ba216f5deb527107cd507d1f55abeb07160b110c41609d060f5fca21eab5",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      59
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      123
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T05-S02-M02",
+   "title": "Endocarditis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 67,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155
+     ],
+     "records": 44
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_7c2fcd4885e62546a922",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى ميكرو الكارديو.pdf",
+     "sha256": "c7d95d569d5c5bfb0f08bfcc399df941382f75fc50e112f49f4ca9c878700a6e",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13,
+      14,
+      15
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      17
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T05-S02-M03",
+   "title": "Pneumonia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 342,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+     ],
+     "records": 249
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+     ],
+     "records": 37
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      281,
+      282,
+      283,
+      284,
+      285,
+      303,
+      315,
+      323
+     ],
+     "records": 33
+    },
+    {
+     "sourceId": "src_6658fe937e28d6994f59",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro resp (نظرى )2023.pdf",
+     "sha256": "497ced692630cb7a74dd16d6ffefe1e53233de8108f9ab9f188b69d25c3785bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      18,
+      30,
+      31,
+      38,
+      62
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_33f3bba572c536675aa7",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الريسب.pdf",
+     "sha256": "70c644ce4febbe2b737c6ccb10aa5500462f1f65f830760c3aba3ca066488106",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      17,
+      18,
+      19,
+      20
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      28,
+      33
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T05-S02-M04",
+   "title": "Gastroenteritis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 36,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      269,
+      270,
+      271,
+      272,
+      273,
+      274
+     ],
+     "records": 36
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T05-S02-M05",
+   "title": "UTI",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      192
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T06",
+   "title": "Antimicrobials and stewardship",
+   "level": "Topic",
+   "templateId": "TPL-DRUG",
+   "classification": "overview article",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      150,
+      152
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T06-S01-M01",
+   "title": "Drug classes",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 23,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2eea679773736fe01753",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+     "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      39
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      138,
+      339
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_ce7eefa2bb550ddf439b",
+     "sourceRelativePath": "8. Tanta Uni Books/Tanta pharmacology book.pdf",
+     "sha256": "e8e6d3b3093fe3f0d5899643438cf1a4404b7e666c42899e1b4f814c2ccb2b86",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      102
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      406
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_9d85d3cc05071c446cb3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/pharmPractical_heme_2023.pdf",
+     "sha256": "28870d740c5e7df036679c0303dc249a663b3358fe415370962503d54e78bc14",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      14
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T06-S01-M02",
+   "title": "Empiric choice",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T06-S01-M03",
+   "title": "Resistance",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 81,
+   "localSources": 15,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2789d9f775cb9e0951b1",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Bio. Endocrine.pdf",
+     "sha256": "e4d2d8d98aabca42fead74fd6e89115edbf9cb0029a1aea63a975525c887955d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6
+     ],
+     "records": 14
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      177,
+      178,
+      191,
+      198,
+      256
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      104,
+      156,
+      189,
+      190
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      9,
+      24,
+      204
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_65669c0c689c63fa1142",
+     "sourceRelativePath": "5. Beni Suef Uni Books/para&MCQ_heme_2023.pdf",
+     "sha256": "61c7aec52fc92c9d4f17dc10e1c969a741673d741057a44a61cd6a02b449054d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      41
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      94
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T06-S02-M01",
+   "title": "Indications",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 34,
+   "localSources": 11,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_65669c0c689c63fa1142",
+     "sourceRelativePath": "5. Beni Suef Uni Books/para&MCQ_heme_2023.pdf",
+     "sha256": "61c7aec52fc92c9d4f17dc10e1c969a741673d741057a44a61cd6a02b449054d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      49
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_347bf0c779fd036cd133",
+     "sourceRelativePath": "4. Alexandria Uni Books/Genetics (concepts of health & disease) 2021 - 2022.pdf",
+     "sha256": "90ae3ee2ed8fcea5e50a47050c055d887eefd7051da89f56ab72fc0ed493aa22",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      26,
+      44,
+      49
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_6b6a0bf275ce9c751163",
+     "sourceRelativePath": "5. Beni Suef Uni Books/pharma endocrine.pdf",
+     "sha256": "fd464658a287d9cf35d162797956aa2e0db0acb00ab213a9d4873a4894fd3b28",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      30
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      230
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_8921a37f2df407a0948c",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical Blood 2021 - 2022.pdf",
+     "sha256": "aa7e85c648c0c6bec914e92c23e74b94d101475af50e29b05954a8ba3c4f629f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      24
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_358ec7a9923525754062",
+     "sourceRelativePath": "10. MTI Uni Books/med-cvs217-p (1).pdf",
+     "sha256": "d7ec8557476d7aa1c3110a4c5173df2ab9a5f1cf36818f90e43bdd91ea2787da",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      132
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T06-S02-M02",
+   "title": "Toxicity",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 68,
+   "localSources": 15,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2eea679773736fe01753",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+     "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      44
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_215c1184c14bc22467dd",
+     "sourceRelativePath": "7. Menoufia Uni Books/نظرى bio_20191002184045.pdf",
+     "sha256": "47473dfb77305c19d94b7441a7661b948085f61a414163874e0b5b37d58db65c",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      23,
+      14
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_f9632e8643fb6e8bbc85",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٢-١٧-٢٠٢٢ ١١٥٨_230805_212145.pdf",
+     "sha256": "9b638ca01dc2fc72e03d86991a61dc24121b594eb5935eba9c952059b9c38ee6",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      8,
+      9,
+      10,
+      11
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      68,
+      73,
+      123,
+      405,
+      529
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      18,
+      73,
+      74
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      154,
+      155
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T06-S02-M03",
+   "title": "Interactions",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 68,
+   "localSources": 9,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4865e798657dae9ae555",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology Practical.pdf_20200402185629.pdf",
+     "sha256": "7ccc70186c677e5a3224c6368995b8adf8133ecda0903d84b2de5bc288c8f256",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      71,
+      72
+     ],
+     "records": 32
+    },
+    {
+     "sourceId": "src_2eea679773736fe01753",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+     "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      32
+     ],
+     "records": 17
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      123,
+      241,
+      405,
+      410
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      170,
+      178
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      159
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_d92a1333f12f2bbefc08",
+     "sourceRelativePath": "4. Alexandria Uni Books/Endocrine 2021 - 2022.pdf",
+     "sha256": "08b585c2bd43a25bad56e0644b4137f831901d0bf3ba8aadf70285dea9f3af86",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13,
+      84
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T06-S03-M01",
+   "title": "Specimens",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 192,
+   "localSources": 18,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0f9ac0f57d6feef6f0f5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Micro practical ID1 2022.pdf",
+     "sha256": "f476170707cc40b9db47ff4cf70d105c4a410fc1bcafb393e88c10d3706cbb43",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "records": 81
+    },
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      5,
+      9,
+      14,
+      15,
+      36,
+      37,
+      109
+     ],
+     "records": 42
+    },
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      64,
+      62,
+      63
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_8921a37f2df407a0948c",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical Blood 2021 - 2022.pdf",
+     "sha256": "aa7e85c648c0c6bec914e92c23e74b94d101475af50e29b05954a8ba3c4f629f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      5,
+      28
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_9d63d472b745614683b3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical Cardio 2021 - 2022.pdf",
+     "sha256": "c3fcb550506f02abe808f56510411cd508341f6d1d379008ff14cfc56cd4550f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      12
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_ce9b41e2db5a7d4d26cf",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical EGU 2021 - 2022.pdf",
+     "sha256": "213f0b4f813e387ca17b93f76c4e0e6f394494d237215e9331e39a2a193000b4",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      10,
+      27,
+      28
+     ],
+     "records": 8
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T06-S03-M02",
+   "title": "De-escalation",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T06-S03-M03",
+   "title": "Duration",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 15,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7fb882664bb78c626a84",
+     "sourceRelativePath": "10. MTI Uni Books/med-cvs217-t.pdf",
+     "sha256": "0773b9939f1127db27873d0d2f66d615a4f6d4a6b27d7fdf1813925e26381a1d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      169
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_aef7b9a181ae846ad642",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم اولي.PDF",
+     "sha256": "0ead4d5906cfd710f5df58a02bf2e80fe9ca079bdf070e04272bdb55cb27999e",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      18,
+      99,
+      109,
+      112
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      325
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      214
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_0481e9249a22ef312ed3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      114
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_02a7a2555cd987fd92ab",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharma practical ID1 2022.pdf",
+     "sha256": "576862ebc340880e6418f6f2a4cbd7548ceb96667033ba3a0a536ec75764ba3f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T06-S03-M04",
+   "title": "Prophylaxis",
+   "level": "Microtopic",
+   "templateId": "TPL-DRUG",
+   "classification": "atomic article home",
+   "localRecords": 18,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9cdbddc08621d1242165",
+     "sourceRelativePath": "7. Menoufia Uni Books/Pharma MSK Class38 Students.pdf",
+     "sha256": "e6eddbae04db11e8756df673d15cdf38a315431c15c2a3e35a18bd9a82cd445d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      13
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_02a7a2555cd987fd92ab",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharma practical ID1 2022.pdf",
+     "sha256": "576862ebc340880e6418f6f2a4cbd7548ceb96667033ba3a0a536ec75764ba3f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_bcb1634dbfe10808b5c3",
+     "sourceRelativePath": "10. MTI Uni Books/PHA 109 I.pdf",
+     "sha256": "ad50ba216f5deb527107cd507d1f55abeb07160b110c41609d060f5fca21eab5",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      59
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_62c623b8561352d2b845",
+     "sourceRelativePath": "10. MTI Uni Books/med-neuii326-t (1).pdf",
+     "sha256": "a4c83351a091eaa6f5733bcd62d1acae0c292a5d9a8dc277486df92cab46543d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      328
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      128
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_e6b96209d05b9a61260a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro.pdf",
+     "sha256": "3c0078b59699b46e02f09b236a91b7a8dbf6d9f8692c1f5bc93a704309ea58ec",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      72
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T07-S01-M01",
+   "title": "Isolation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 14,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_063ab13067c43658a438",
+     "sourceRelativePath": "6. Fayoum Uni Books/micro git القسم.pdf",
+     "sha256": "2243ec6443994c6adc0bfedd11fd78bd70b6e7f439c43b516429e67aa98d2fa8",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      16
+     ],
+     "records": 13
+    },
+    {
+     "sourceId": "src_332628cc60066dda3bd1",
+     "sourceRelativePath": "9. Zagazig Uni Books/ميكرو الريبرو.pdf",
+     "sha256": "76da799c87b7d9fd37d575924f46cf850fb38f38359147895183759e209891e1",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      33
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T07-S01-M02",
+   "title": "Vaccination",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 9,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      347,
+      348
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      371,
+      372
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      492,
+      493
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T07-S01-M03",
+   "title": "Needlestick injury",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T07-S01-M04",
+   "title": "Outbreaks",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 58,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b87d5a13859712bb20e6",
+     "sourceRelativePath": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+     "sha256": "d38135a48512ee9f64ddd47041c3fd205631e7594686ed45fa4ac9797b33f1bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+     ],
+     "records": 57
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      348
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T07-S02-M01",
+   "title": "Schistosomiasis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T07-S02-M02",
+   "title": "Viral hepatitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 32,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      95
+     ],
+     "records": 24
+    },
+    {
+     "sourceId": "src_4b0eb8dad1f1d4486ae8",
+     "sourceRelativePath": "5. Beni Suef Uni Books/patho book.pdf",
+     "sha256": "71ef5f810a808709f76bae30ee796ae25ab3908c194dab46321306caf725f247",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      50,
+      51,
+      57
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_56eb013c175fea3c42a4",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Pathology of GIT final.pdf",
+     "sha256": "aa47fff65da2dffce87cb5703499cb92214592007e81f453b9b1c7bc6d6cd386",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      49
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-INF-T07-S02-M03",
+   "title": "Tuberculosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-INF-T07-S02-M04",
+   "title": "Food- and water-borne disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      168
+     ],
+     "records": 1
+    }
+   ]
+  }
+ ]
+}

@@ -115,6 +115,23 @@ substitute for that ledger.
 
 **No processed local source and no secondary content whatsoever.** This is one of three systems with zero article and zero concept placement of any kind.
 
+### Decided source plan (`SYS-PSY-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-PSY-source-plan.md`](../evidence/SYS-PSY-source-plan.md) ·
+[`SYS-PSY-source-plan.json`](../evidence/SYS-PSY-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 40 |
+| — with a processed local source | 10 |
+| — authored from authoritative sources only | 30 |
+| Distinct corpus files touching this system | 105 |
+
+The 30 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

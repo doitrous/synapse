@@ -1,0 +1,1458 @@
+{
+ "task": "SYS-HEM-SOURCE-001",
+ "rule": "Only files the corpus marks as processed are read. Extraction confidence is not medical verification (LD-08); every local claim is corroborated before publication.",
+ "summary": {
+  "system": "SYS-HEM",
+  "title": "Blood & Lymphoreticular System",
+  "plannedArticles": 38,
+  "withLocalEvidence": 23,
+  "withoutLocalEvidence": 15,
+  "distinctCorpusFiles": 85,
+  "corpusRecordsScanned": 110850,
+  "reviewedSources": 31
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-HEM-T01-S01-M01",
+   "title": "Erythropoiesis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 40,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+     ],
+     "records": 31
+    },
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_9d85d3cc05071c446cb3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/pharmPractical_heme_2023.pdf",
+     "sha256": "28870d740c5e7df036679c0303dc249a663b3358fe415370962503d54e78bc14",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      10
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_9fdc407e9dbaaa5190e8",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٣-٠١-٢٠٢٣ ١٨.١٧.pdf",
+     "sha256": "198b96461cfe7f6052d70375ccfecf8238b41a24129ac207b999c389fe9c53ee",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      11
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_db0f80b5eedc1a994902",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical Blood 2021 - 2022.pdf",
+     "sha256": "5bf75e615b58ee742afd0be56e6f998bbd91bd2fc58e63adfab5fc6e8b3e0e35",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T01-S01-M02",
+   "title": "Leukopoiesis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T01-S01-M03",
+   "title": "Platelets",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 58,
+   "localSources": 9,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2eea679773736fe01753",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+     "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_91e182a69ecb1b026e54",
+     "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Blood Histology 2021-2022.pdf",
+     "sha256": "fe67f20e2a7aa5825200d8b0bd61a44dc288343f24ebbed79a4b41b9cea31019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      11,
+      12
+     ],
+     "records": 15
+    },
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      57,
+      58,
+      61,
+      103
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_8c592e760329230ce118",
+     "sourceRelativePath": "7. Menoufia Uni Books/Physio Blood Class38 Students.pdf",
+     "sha256": "384b7b53de01b92cfaf54c2c8796ca009872ddf5023d2a90eebda38739ed0bad",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      43,
+      56
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_9fdc407e9dbaaa5190e8",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٣-٠١-٢٠٢٣ ١٨.١٧.pdf",
+     "sha256": "198b96461cfe7f6052d70375ccfecf8238b41a24129ac207b999c389fe9c53ee",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      18
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_82f776d8eed5667059f7",
+     "sourceRelativePath": "10. MTI Uni Books/Final HIM 110 theoretical 2022.pdf",
+     "sha256": "1d572da90603c5b2c5dd3556a2a3b9fcf270bb4e2ede82dc4041abdaad72c01f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      380
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T01-S02-M01",
+   "title": "CBC",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T01-S02-M02",
+   "title": "Blood film",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_db0f80b5eedc1a994902",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical Blood 2021 - 2022.pdf",
+     "sha256": "5bf75e615b58ee742afd0be56e6f998bbd91bd2fc58e63adfab5fc6e8b3e0e35",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      143
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T01-S02-M03",
+   "title": "Bone marrow",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 318,
+   "localSources": 11,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a21160347e621c471c24",
+     "sourceRelativePath": "6. Fayoum Uni Books/هستو.pdf",
+     "sha256": "2f07650d8dad127a38c8f0e2d9c588d0c942ceaa41932029611bd00f7d77cb9f",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "records": 189
+    },
+    {
+     "sourceId": "src_af97f6fc67d736e97f64",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Histo MSK (شرح )_230805_212014.pdf",
+     "sha256": "7865339772585870958002b2c285af7189a0a419974b34163cc645592c39069c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+     ],
+     "records": 56
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      88,
+      97
+     ],
+     "records": 22
+    },
+    {
+     "sourceId": "src_8c592e760329230ce118",
+     "sourceRelativePath": "7. Menoufia Uni Books/Physio Blood Class38 Students.pdf",
+     "sha256": "384b7b53de01b92cfaf54c2c8796ca009872ddf5023d2a90eebda38739ed0bad",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      73
+     ],
+     "records": 22
+    },
+    {
+     "sourceId": "src_6e70bbff9296838b22d7",
+     "sourceRelativePath": "0. General/Anatomy_Basis_Sameh_Doss.pdf",
+     "sha256": "cc9013c14a2fd06589b161286d41387fa6ec240a7748ed2c062301c75d65f88f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      13
+     ],
+     "records": 19
+    },
+    {
+     "sourceId": "src_b219d2e6f0b05ddc7571",
+     "sourceRelativePath": "0. General/Introduction to Anatomy Khaled Milad.pdf",
+     "sha256": "e7fc4e66c98ee648ea04e10cf4e879cc48f30f97f1a9a0aa815be67c81038dce",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      33
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T02",
+   "title": "Anemia and red-cell disorders",
+   "level": "Topic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "overview article",
+   "localRecords": 22,
+   "localSources": 7,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a165a98952ffefcc0ebc",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+     "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      23,
+      24,
+      25
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_9d85d3cc05071c446cb3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/pharmPractical_heme_2023.pdf",
+     "sha256": "28870d740c5e7df036679c0303dc249a663b3358fe415370962503d54e78bc14",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      63
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      250
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_9fdc407e9dbaaa5190e8",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٣-٠١-٢٠٢٣ ١٨.١٧.pdf",
+     "sha256": "198b96461cfe7f6052d70375ccfecf8238b41a24129ac207b999c389fe9c53ee",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      15
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_63c89598431216afd910",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Blood 2021 - 2022.pdf",
+     "sha256": "409b268a20ab7fd069260345a84eba27a7000a975d18f0259c20148d56aff375",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T02-S01-M01",
+   "title": "Iron deficiency",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 18,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      35,
+      69,
+      70
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      173,
+      174
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      39,
+      41
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_9d85d3cc05071c446cb3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/pharmPractical_heme_2023.pdf",
+     "sha256": "28870d740c5e7df036679c0303dc249a663b3358fe415370962503d54e78bc14",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T02-S01-M02",
+   "title": "Thalassemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 9,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      24,
+      25
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      68,
+      71
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T02-S01-M03",
+   "title": "Chronic disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 546,
+   "localSources": 42,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      8,
+      15
+     ],
+     "records": 170
+    },
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      5,
+      8,
+      9,
+      12
+     ],
+     "records": 115
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+     ],
+     "records": 33
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      171,
+      172,
+      227,
+      228,
+      229,
+      238,
+      243,
+      248
+     ],
+     "records": 28
+    },
+    {
+     "sourceId": "src_538a7745c950e57b53d9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Basic HISTOPATHOLOGY.pdf",
+     "sha256": "bdfe046401b928cf726061be479f1037ee793ee8c7f3372ae9d641311d08535a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      81,
+      82,
+      87,
+      121
+     ],
+     "records": 18
+    },
+    {
+     "sourceId": "src_5543d9ea39fa2c86a207",
+     "sourceRelativePath": "6. Fayoum Uni Books/lymph node diseases.pdf",
+     "sha256": "a2aea0689e06f16c053549ef688ac05896d4f8ff67f041d81dccfd947323c7ab",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      5
+     ],
+     "records": 17
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T02-S02-M01",
+   "title": "Hemolysis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 20,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8921a37f2df407a0948c",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical Blood 2021 - 2022.pdf",
+     "sha256": "aa7e85c648c0c6bec914e92c23e74b94d101475af50e29b05954a8ba3c4f629f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "records": 20
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T02-S02-M02",
+   "title": "B12 and folate",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 19,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      35,
+      36,
+      37,
+      38,
+      39
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_c6eba5b000ed483b25e5",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Bio-cardio-book.pdf",
+     "sha256": "6b71199ed8fb4c6140a0ff4831bb51ab0b3f38d3e8fce79dc62f770ddcf4c941",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      41,
+      42
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T02-S02-M03",
+   "title": "Marrow failure",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T02-S03-M01",
+   "title": "Sickle cell disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 10,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      23,
+      24,
+      25
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_82f776d8eed5667059f7",
+     "sourceRelativePath": "10. MTI Uni Books/Final HIM 110 theoretical 2022.pdf",
+     "sha256": "1d572da90603c5b2c5dd3556a2a3b9fcf270bb4e2ede82dc4041abdaad72c01f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      115
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      67
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T02-S03-M02",
+   "title": "Thalassemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T03-S01-M01",
+   "title": "Platelet disorders",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T03-S01-M02",
+   "title": "Hemophilia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      71
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T03-S01-M03",
+   "title": "von Willebrand disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T03-S02-M01",
+   "title": "VTE",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T03-S02-M02",
+   "title": "Thrombophilia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T03-S02-M03",
+   "title": "DIC",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T04-S01-M01",
+   "title": "Neutropenia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_06e3c908e9827611a925",
+     "sourceRelativePath": "5. Beni Suef Uni Books/patho_heme_2023.pdf",
+     "sha256": "aa5b78244991d184b2acfb08861c0c76b4e5b0197cd54f817c94707b1e9be06b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T04-S01-M02",
+   "title": "Leukocytosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_06e3c908e9827611a925",
+     "sourceRelativePath": "5. Beni Suef Uni Books/patho_heme_2023.pdf",
+     "sha256": "aa5b78244991d184b2acfb08861c0c76b4e5b0197cd54f817c94707b1e9be06b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T04-S01-M03",
+   "title": "Reactive changes",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15,
+      47
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T04-S02-M01",
+   "title": "Acute leukemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 9,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_06e3c908e9827611a925",
+     "sourceRelativePath": "5. Beni Suef Uni Books/patho_heme_2023.pdf",
+     "sha256": "aa5b78244991d184b2acfb08861c0c76b4e5b0197cd54f817c94707b1e9be06b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      153
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T04-S02-M02",
+   "title": "Chronic leukemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T04-S02-M03",
+   "title": "MPN",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T05-S01-M01",
+   "title": "Hodgkin",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 14,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5543d9ea39fa2c86a207",
+     "sourceRelativePath": "6. Fayoum Uni Books/lymph node diseases.pdf",
+     "sha256": "a2aea0689e06f16c053549ef688ac05896d4f8ff67f041d81dccfd947323c7ab",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      9
+     ],
+     "records": 14
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T05-S01-M02",
+   "title": "Non-Hodgkin",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T05-S02-M01",
+   "title": "Multiple myeloma",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 21,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      12
+     ],
+     "records": 15
+    },
+    {
+     "sourceId": "src_06e3c908e9827611a925",
+     "sourceRelativePath": "5. Beni Suef Uni Books/patho_heme_2023.pdf",
+     "sha256": "aa5b78244991d184b2acfb08861c0c76b4e5b0197cd54f817c94707b1e9be06b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      18,
+      19
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T05-S02-M02",
+   "title": "Monoclonal gammopathy",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T06-S01-M01",
+   "title": "Red cells",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 91,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      42,
+      44,
+      45
+     ],
+     "records": 34
+    },
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      10,
+      11,
+      12,
+      13,
+      33,
+      47,
+      104,
+      110
+     ],
+     "records": 31
+    },
+    {
+     "sourceId": "src_9fdc407e9dbaaa5190e8",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٣-٠١-٢٠٢٣ ١٨.١٧.pdf",
+     "sha256": "198b96461cfe7f6052d70375ccfecf8238b41a24129ac207b999c389fe9c53ee",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      8,
+      12,
+      13,
+      15
+     ],
+     "records": 15
+    },
+    {
+     "sourceId": "src_63c89598431216afd910",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Blood 2021 - 2022.pdf",
+     "sha256": "409b268a20ab7fd069260345a84eba27a7000a975d18f0259c20148d56aff375",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3,
+      4
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_d172a06788fd6b78ae39",
+     "sourceRelativePath": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+     "sha256": "7303bdd66061b5c10f455d03ea96bf65b97bccd55f423b65e989279ffef6665e",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      12
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      31
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T06-S01-M02",
+   "title": "Platelets",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-HEM-T06-S01-M03",
+   "title": "Plasma",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 275,
+   "localSources": 23,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_89c32fe6e3e377f4804a",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical EGU 2021 - 2022.pdf",
+     "sha256": "b36954f9e057b4c8c8a60b5792fdf63a5000e59b24fde361dde58e12652887f2",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+     ],
+     "records": 94
+    },
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "records": 38
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      65,
+      71,
+      72,
+      73,
+      74,
+      75
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      5,
+      57
+     ],
+     "records": 21
+    },
+    {
+     "sourceId": "src_c2f00939ec0a817aa2f3",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم بايو نظري Renal..pdf",
+     "sha256": "e04e65e9fee0acdb07efa92664ddc19aa686e033b26c2a6ef66c43112423fbe6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      44,
+      12
+     ],
+     "records": 21
+    },
+    {
+     "sourceId": "src_6b5723c9bc02068ded20",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 1) 2021 - 2022.pdf",
+     "sha256": "363da3bb14aed1328dcb6aa3ffaa8397508a82046d5fb0313adf5c9878449463",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3,
+      4
+     ],
+     "records": 14
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T06-S01-M04",
+   "title": "Cryoprecipitate",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_90d61885d211f235136d",
+     "sourceRelativePath": "5. Beni Suef Uni Books/pharma_heme_2023.pdf",
+     "sha256": "91370946d8260d151f3935768241df8c9e2de190aeb5e3e1c1e4bda9b4532685",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      28
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T06-S02-M01",
+   "title": "Compatibility",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 11,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d7e6ce9ce75a240e07b3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro heme dr Kareem .pdf",
+     "sha256": "ed4d6228e8c693c9204da0ca486bf8aa0fcaac45e708ab51d37b182a2bc7ae56",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      89,
+      90
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_543a4cf673b4e8017858",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro hematopoietic.pdf",
+     "sha256": "11f0a2bd61ad1f41036f0c1ae066a822f678436f783b6110cbd640fe96620b7a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      123,
+      124
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      57,
+      77
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_9fdc407e9dbaaa5190e8",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٣-٠١-٢٠٢٣ ١٨.١٧.pdf",
+     "sha256": "198b96461cfe7f6052d70375ccfecf8238b41a24129ac207b999c389fe9c53ee",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      23
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T06-S02-M02",
+   "title": "Reactions",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 161,
+   "localSources": 20,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4865e798657dae9ae555",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology Practical.pdf_20200402185629.pdf",
+     "sha256": "7ccc70186c677e5a3224c6368995b8adf8133ecda0903d84b2de5bc288c8f256",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      69,
+      70
+     ],
+     "records": 42
+    },
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      41,
+      107,
+      108,
+      114,
+      115,
+      121,
+      124,
+      125
+     ],
+     "records": 22
+    },
+    {
+     "sourceId": "src_d172a06788fd6b78ae39",
+     "sourceRelativePath": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+     "sha256": "7303bdd66061b5c10f455d03ea96bf65b97bccd55f423b65e989279ffef6665e",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      10
+     ],
+     "records": 22
+    },
+    {
+     "sourceId": "src_65669c0c689c63fa1142",
+     "sourceRelativePath": "5. Beni Suef Uni Books/para&MCQ_heme_2023.pdf",
+     "sha256": "61c7aec52fc92c9d4f17dc10e1c969a741673d741057a44a61cd6a02b449054d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      46
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      48,
+      41
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      42,
+      43
+     ],
+     "records": 9
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-HEM-T06-S02-M03",
+   "title": "Massive transfusion",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  }
+ ]
+}

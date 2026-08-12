@@ -1,0 +1,2544 @@
+{
+ "task": "SYS-REN-SOURCE-001",
+ "rule": "Only files the corpus marks as processed are read. Extraction confidence is not medical verification (LD-08); every local claim is corroborated before publication.",
+ "summary": {
+  "system": "SYS-REN",
+  "title": "Renal & Urinary System",
+  "plannedArticles": 60,
+  "withLocalEvidence": 38,
+  "withoutLocalEvidence": 22,
+  "distinctCorpusFiles": 127,
+  "corpusRecordsScanned": 110850,
+  "reviewedSources": 45
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-REN-T01-S01-M01",
+   "title": "Kidney",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 291,
+   "localSources": 24,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      11,
+      12
+     ],
+     "records": 77
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "records": 60
+    },
+    {
+     "sourceId": "src_d50ba2f3208d0af32738",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب الأناتومي نظري renal.pdf",
+     "sha256": "81ca3ed228bdbf410851bccbb890c0038c320b99711dcaaf4bfdc7b828ac1c20",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      32,
+      2,
+      15,
+      6
+     ],
+     "records": 33
+    },
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      20,
+      21,
+      2,
+      19,
+      3,
+      18
+     ],
+     "records": 29
+    },
+    {
+     "sourceId": "src_eae08c8e97b2175e51e1",
+     "sourceRelativePath": "7. Menoufia Uni Books/Anatomy endocrine.pdf",
+     "sha256": "4f0aa8351af5de173cabc7d874b9655e5e1d175d9db8f03112ba098db5de03b8",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      17
+     ],
+     "records": 14
+    },
+    {
+     "sourceId": "src_8921a37f2df407a0948c",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical Blood 2021 - 2022.pdf",
+     "sha256": "aa7e85c648c0c6bec914e92c23e74b94d101475af50e29b05954a8ba3c4f629f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      30,
+      31,
+      32
+     ],
+     "records": 12
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T01-S01-M02",
+   "title": "Nephron",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 72,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      29,
+      35,
+      36,
+      37,
+      38,
+      53,
+      54
+     ],
+     "records": 54
+    },
+    {
+     "sourceId": "src_9c5990b4b729d6a41c46",
+     "sourceRelativePath": "5. Beni Suef Uni Books/هستو يورو 2023.pdf",
+     "sha256": "1fad3304500aa1bb1db490e4386c72965f56f0a8f29df4779e2dac88eccd5f8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      7,
+      8
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_7d44e8434facd463e279",
+     "sourceRelativePath": "4. Alexandria Uni Books/Urinary system 2021 - 2022.pdf",
+     "sha256": "b49ac559b32b1fa380adf4aaf75237673e9ce0954a46fbc08ac648c35b29acc3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      39,
+      40,
+      90
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_0b015323154ac8af481e",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Histo Urogenital Module 2023 (نظرى).pdf",
+     "sha256": "4ab209bca9f0da9910d550a45762c06d275b17578f92dac46f2f0eb0c70dec48",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      8
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T01-S01-M03",
+   "title": "Urinary tract",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      92,
+      93
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_1188da2889a27a243f32",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro Urogenital 2022.pdf",
+     "sha256": "498d913bf0267f0d99adac4f06dfc339311b8354302561ebd02cdf07ae54e48a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T01-S02-M01",
+   "title": "Filtration",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 93,
+   "localSources": 10,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      31,
+      32,
+      33,
+      34,
+      35,
+      65,
+      66
+     ],
+     "records": 73
+    },
+    {
+     "sourceId": "src_7d44e8434facd463e279",
+     "sourceRelativePath": "4. Alexandria Uni Books/Urinary system 2021 - 2022.pdf",
+     "sha256": "b49ac559b32b1fa380adf4aaf75237673e9ce0954a46fbc08ac648c35b29acc3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      18,
+      19,
+      22,
+      23,
+      24
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_9c5990b4b729d6a41c46",
+     "sourceRelativePath": "5. Beni Suef Uni Books/هستو يورو 2023.pdf",
+     "sha256": "1fad3304500aa1bb1db490e4386c72965f56f0a8f29df4779e2dac88eccd5f8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_0b015323154ac8af481e",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Histo Urogenital Module 2023 (نظرى).pdf",
+     "sha256": "4ab209bca9f0da9910d550a45762c06d275b17578f92dac46f2f0eb0c70dec48",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_2734be2dd88c5c7371bf",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal hand out (2).pdf",
+     "sha256": "6ebc8522bb6c5441466be553e02a357c4c1987e21430d601ae32dcd367f4cfc9",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      32
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_9537fe3796bdbec981fc",
+     "sourceRelativePath": "10. MTI Uni Books/Final Theoretical URO Book 2022.pdf",
+     "sha256": "a819c51f1cdf82724f761944ad781084f7a6bf06bbec33e6092824be1a84a6ed",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      107
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T01-S02-M02",
+   "title": "Tubular handling",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      72
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T01-S02-M03",
+   "title": "Concentration",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 117,
+   "localSources": 14,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4865e798657dae9ae555",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology Practical.pdf_20200402185629.pdf",
+     "sha256": "7ccc70186c677e5a3224c6368995b8adf8133ecda0903d84b2de5bc288c8f256",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+     ],
+     "records": 67
+    },
+    {
+     "sourceId": "src_215c1184c14bc22467dd",
+     "sourceRelativePath": "7. Menoufia Uni Books/نظرى bio_20191002184045.pdf",
+     "sha256": "47473dfb77305c19d94b7441a7661b948085f61a414163874e0b5b37d58db65c",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      23
+     ],
+     "records": 17
+    },
+    {
+     "sourceId": "src_8c592e760329230ce118",
+     "sourceRelativePath": "7. Menoufia Uni Books/Physio Blood Class38 Students.pdf",
+     "sha256": "384b7b53de01b92cfaf54c2c8796ca009872ddf5023d2a90eebda38739ed0bad",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      89
+     ],
+     "records": 13
+    },
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      35
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_0016e485f38841afe7bf",
+     "sourceRelativePath": "10. MTI Uni Books/Final Practical URO Book 2022.pdf",
+     "sha256": "c0574f9e0f80dceb7e685bf3b9fd053bd1deba70b14cfb5bc8f9448848108dd9",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      92,
+      99
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      123,
+      124
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T01-S02-M04",
+   "title": "RAAS",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 4,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      172
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      135
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_64ac35c148f824c08f48",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology (concepts of health & disease) 2022.pdf",
+     "sha256": "249c6b21c62ebae4013540ff413aa09eb783adb9560c311eb3946c2bf441c63b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      53
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_59b694385cf8d1bbe7ed",
+     "sourceRelativePath": "5. Beni Suef Uni Books/physio endocrine (نظرى )2023.pdf",
+     "sha256": "5c6a1380daa433bc261f824199c2b5ce208f22d3f22e2588a57da44787389121",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      99
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02",
+   "title": "Fluid, electrolytes and acid-base",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "classification": "overview article",
+   "localRecords": 18,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7d505a85dccf43116061",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Handout.pdf",
+     "sha256": "4028e6da730045cbde6593cd393a090138b3d3d1ae2416217417759b213ffad8",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      60
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_2734be2dd88c5c7371bf",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal hand out (2).pdf",
+     "sha256": "6ebc8522bb6c5441466be553e02a357c4c1987e21430d601ae32dcd367f4cfc9",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      60
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_215c1184c14bc22467dd",
+     "sourceRelativePath": "7. Menoufia Uni Books/نظرى bio_20191002184045.pdf",
+     "sha256": "47473dfb77305c19d94b7441a7661b948085f61a414163874e0b5b37d58db65c",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      2
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      209
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      137
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_b53daf0114f285089f1a",
+     "sourceRelativePath": "4. Alexandria Uni Books/GIT system 2021 - 2022.pdf",
+     "sha256": "8ff888164297ff783343ff062b652c8b783b9a3047ab79742373016d0584876f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      35
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S01-M01",
+   "title": "Hypovolemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T02-S01-M02",
+   "title": "Hypervolemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T02-S01-M03",
+   "title": "Hyponatremia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      176,
+      177
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S01-M04",
+   "title": "Hypernatremia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      178
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S02-M01",
+   "title": "Hypokalemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 17,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_215c1184c14bc22467dd",
+     "sourceRelativePath": "7. Menoufia Uni Books/نظرى bio_20191002184045.pdf",
+     "sha256": "47473dfb77305c19d94b7441a7661b948085f61a414163874e0b5b37d58db65c",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      24
+     ],
+     "records": 14
+    },
+    {
+     "sourceId": "src_d172a06788fd6b78ae39",
+     "sourceRelativePath": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+     "sha256": "7303bdd66061b5c10f455d03ea96bf65b97bccd55f423b65e989279ffef6665e",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      78
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S02-M02",
+   "title": "Hyperkalemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 11,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9cdbddc08621d1242165",
+     "sourceRelativePath": "7. Menoufia Uni Books/Pharma MSK Class38 Students.pdf",
+     "sha256": "e6eddbae04db11e8756df673d15cdf38a315431c15c2a3e35a18bd9a82cd445d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      24
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      179
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_ce7eefa2bb550ddf439b",
+     "sourceRelativePath": "8. Tanta Uni Books/Tanta pharmacology book.pdf",
+     "sha256": "e8e6d3b3093fe3f0d5899643438cf1a4404b7e666c42899e1b4f814c2ccb2b86",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      74
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_18e63345a66c9a76a312",
+     "sourceRelativePath": "9. Zagazig Uni Books/فارما البري.PDF",
+     "sha256": "591b8501345c9345446a3fbda371e77a418e15209f9e526559ca055066237aac",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      31
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S02-M03",
+   "title": "Calcium",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 207,
+   "localSources": 20,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2eea679773736fe01753",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+     "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      20,
+      21,
+      22
+     ],
+     "records": 43
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      22,
+      86,
+      88,
+      91,
+      92,
+      93,
+      94,
+      95
+     ],
+     "records": 40
+    },
+    {
+     "sourceId": "src_59b694385cf8d1bbe7ed",
+     "sourceRelativePath": "5. Beni Suef Uni Books/physio endocrine (نظرى )2023.pdf",
+     "sha256": "5c6a1380daa433bc261f824199c2b5ce208f22d3f22e2588a57da44787389121",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      22,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_a438d15ad3d4595d7169",
+     "sourceRelativePath": "5. Beni Suef Uni Books/endo_physio_book.pdf",
+     "sha256": "256b1fb5d27fa9d48066e54c34d89b8f72f888072df3f087a1a9a2d58a75b8d7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      82,
+      83,
+      84,
+      85,
+      88,
+      89,
+      91,
+      92
+     ],
+     "records": 22
+    },
+    {
+     "sourceId": "src_f31c39c2a11cd918e879",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner 12-29-2022 19.42.pdf",
+     "sha256": "04744c1ddd3697a5f1a42c7823d2e6d1733ee15a6da2ffb8e159760c744d02a5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      17,
+      18,
+      19,
+      20
+     ],
+     "records": 18
+    },
+    {
+     "sourceId": "src_f9632e8643fb6e8bbc85",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٢-١٧-٢٠٢٢ ١١٥٨_230805_212145.pdf",
+     "sha256": "9b638ca01dc2fc72e03d86991a61dc24121b594eb5935eba9c952059b9c38ee6",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      16,
+      17,
+      18,
+      19
+     ],
+     "records": 17
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S02-M04",
+   "title": "Magnesium",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 6,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      180
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S03-M01",
+   "title": "Metabolic acidosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 16,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      164,
+      165,
+      184
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_d172a06788fd6b78ae39",
+     "sourceRelativePath": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+     "sha256": "7303bdd66061b5c10f455d03ea96bf65b97bccd55f423b65e989279ffef6665e",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      78
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_215c1184c14bc22467dd",
+     "sourceRelativePath": "7. Menoufia Uni Books/نظرى bio_20191002184045.pdf",
+     "sha256": "47473dfb77305c19d94b7441a7661b948085f61a414163874e0b5b37d58db65c",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      7
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_7d44e8434facd463e279",
+     "sourceRelativePath": "4. Alexandria Uni Books/Urinary system 2021 - 2022.pdf",
+     "sha256": "b49ac559b32b1fa380adf4aaf75237673e9ce0954a46fbc08ac648c35b29acc3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      86
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S03-M02",
+   "title": "Metabolic alkalosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 23,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_215c1184c14bc22467dd",
+     "sourceRelativePath": "7. Menoufia Uni Books/نظرى bio_20191002184045.pdf",
+     "sha256": "47473dfb77305c19d94b7441a7661b948085f61a414163874e0b5b37d58db65c",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      8
+     ],
+     "records": 18
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      165,
+      184
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S03-M03",
+   "title": "Respiratory disorders",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 5420,
+   "localSources": 41,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      46,
+      16,
+      19,
+      22,
+      31,
+      63,
+      45,
+      44
+     ],
+     "records": 1497
+    },
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "records": 1335
+    },
+    {
+     "sourceId": "src_f8d9ce390234a0b2042e",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب الاناتومى.pptx",
+     "sha256": "97c94d2865abeabf1227c13c4eb41ac5c8c7d433a830d1385073fbfb3942e0b5",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      5,
+      31,
+      24,
+      11,
+      4,
+      16,
+      28,
+      23
+     ],
+     "records": 629
+    },
+    {
+     "sourceId": "src_2c2bc311f32080b6ff30",
+     "sourceRelativePath": "10. MTI Uni Books/med-res216-p.pdf",
+     "sha256": "7cb825781fb50f82495761b71ecc711df7b4fd796f0d0bceb929dbc2388a8099",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      111,
+      49,
+      45,
+      13,
+      133,
+      132,
+      14,
+      15
+     ],
+     "records": 358
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      6,
+      17,
+      61,
+      62,
+      63,
+      64,
+      80
+     ],
+     "records": 337
+    },
+    {
+     "sourceId": "src_769c490217241bd0ca85",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Physio of Resp..pdf",
+     "sha256": "c0672d1c7d18d8a7ccead27c3c5e975f29dcb378e01477a2e1f05cecfc9592b9",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      4,
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      15
+     ],
+     "records": 257
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T02-S03-M04",
+   "title": "Mixed disorders",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 28,
+   "localSources": 13,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b219d2e6f0b05ddc7571",
+     "sourceRelativePath": "0. General/Introduction to Anatomy Khaled Milad.pdf",
+     "sha256": "e7fc4e66c98ee648ea04e10cf4e879cc48f30f97f1a9a0aa815be67c81038dce",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      18
+     ],
+     "records": 13
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      64
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_56eb013c175fea3c42a4",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Pathology of GIT final.pdf",
+     "sha256": "aa47fff65da2dffce87cb5703499cb92214592007e81f453b9b1c7bc6d6cd386",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      9
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_3feaf5eb4b1f6d0da08f",
+     "sourceRelativePath": "10. MTI Uni Books/ENT 332 Atlas.pdf",
+     "sha256": "c465b42a82362c4e5b48f8ec9d7a9c5e700289a6e14067ac9c5658b56b85b991",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      72
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      122
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      221
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T03-S01-M01",
+   "title": "Prerenal",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T03-S01-M02",
+   "title": "Intrinsic",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 55,
+   "localSources": 11,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      51,
+      52
+     ],
+     "records": 31
+    },
+    {
+     "sourceId": "src_2f47106dea9a12f989b9",
+     "sourceRelativePath": "6. Fayoum Uni Books/Book.docx.pdf",
+     "sha256": "4c3a6b2c92bf66ddee5c279f35e3f3cf67480ee59813b0ec2e341041e4bae57d",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      9
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      137,
+      138
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_57dbd368d453ab5368e4",
+     "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+     "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      63,
+      64
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_91a92977626e4008db12",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - GIT Physiology.pdf",
+     "sha256": "127821290aaac4463d96d6c7f8d0cbdf78848da4e408ccf9a3d01f37887e6430",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      7
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_21f1b07a441941435a9f",
+     "sourceRelativePath": "10. MTI Uni Books/med-musiii325-theoretical.pdf",
+     "sha256": "d3652f42726a1bbcafc9c920753856b3345045741b6ce7ecae88b90d9595c450",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      38,
+      120
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T03-S01-M03",
+   "title": "Postrenal",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T03-S02-M01",
+   "title": "Staging",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 37,
+   "localSources": 10,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5543d9ea39fa2c86a207",
+     "sourceRelativePath": "6. Fayoum Uni Books/lymph node diseases.pdf",
+     "sha256": "a2aea0689e06f16c053549ef688ac05896d4f8ff67f041d81dccfd947323c7ab",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      12,
+      13
+     ],
+     "records": 22
+    },
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      119
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_06e3c908e9827611a925",
+     "sourceRelativePath": "5. Beni Suef Uni Books/patho_heme_2023.pdf",
+     "sha256": "aa5b78244991d184b2acfb08861c0c76b4e5b0197cd54f817c94707b1e9be06b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15,
+      16
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      226
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      325
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_18f91caf6a8e4a695944",
+     "sourceRelativePath": "10. MTI Uni Books/PAT 108 I.pdf",
+     "sha256": "7f03015eaf758a4b704f09f4e9d28b9981d016712f871a332372c6a413f61337",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      121
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T03-S02-M02",
+   "title": "Complications",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 403,
+   "localSources": 37,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      19,
+      22
+     ],
+     "records": 116
+    },
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      12,
+      17
+     ],
+     "records": 40
+    },
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      36,
+      37,
+      39,
+      44,
+      62,
+      66,
+      76,
+      80
+     ],
+     "records": 29
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      104,
+      206,
+      208,
+      209,
+      210,
+      224,
+      225,
+      239
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      15,
+      19,
+      25,
+      40,
+      50,
+      67,
+      68
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_65669c0c689c63fa1142",
+     "sourceRelativePath": "5. Beni Suef Uni Books/para&MCQ_heme_2023.pdf",
+     "sha256": "61c7aec52fc92c9d4f17dc10e1c969a741673d741057a44a61cd6a02b449054d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      37,
+      38
+     ],
+     "records": 15
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T03-S02-M03",
+   "title": "Progression",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 4,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      221
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      248
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_a412b42b76f15be61536",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب الأناتومي عملي renal.pdf",
+     "sha256": "0b00fa0305a40ec2bd54c0c63a1c8a8779c0c7bb797bff1edcbcb6fc92eb09a9",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      2
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T03-S02-M04",
+   "title": "Conservative care",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T04",
+   "title": "Glomerular and vascular disease",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "classification": "overview article",
+   "localRecords": 46,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      260,
+      261,
+      262,
+      263,
+      264,
+      265
+     ],
+     "records": 31
+    },
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "records": 15
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T04-S01-M01",
+   "title": "IgA nephropathy",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T04-S01-M02",
+   "title": "Postinfectious GN",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T04-S01-M03",
+   "title": "RPGN",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T04-S02-M01",
+   "title": "Minimal change",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 16,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      5
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15,
+      47
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T04-S02-M02",
+   "title": "FSGS",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T04-S02-M03",
+   "title": "Membranous disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 43,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      5
+     ],
+     "records": 27
+    },
+    {
+     "sourceId": "src_d50ba2f3208d0af32738",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب الأناتومي نظري renal.pdf",
+     "sha256": "81ca3ed228bdbf410851bccbb890c0038c320b99711dcaaf4bfdc7b828ac1c20",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      41,
+      25
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_890a0079eb448cdb8aa9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical CNS 2021 - 2022.pdf",
+     "sha256": "b2e2e657aea64d5e924a0dfcc08f30e088868dcfb62f60a6ac1984a469faf5cd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      25
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_2734be2dd88c5c7371bf",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal hand out (2).pdf",
+     "sha256": "6ebc8522bb6c5441466be553e02a357c4c1987e21430d601ae32dcd367f4cfc9",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      113
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T04-S03-M01",
+   "title": "Renal artery stenosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 20,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a412b42b76f15be61536",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب الأناتومي عملي renal.pdf",
+     "sha256": "0b00fa0305a40ec2bd54c0c63a1c8a8779c0c7bb797bff1edcbcb6fc92eb09a9",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      19
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      133,
+      134
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_7a61da0e6aac8881c636",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظري الاناتومي GIT.pdf",
+     "sha256": "4f6b737b0039b5652aa1e3c1272ab154486b419d7d7dfcaf6f1b51dc7c107983",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      30
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_f1684c0668afa70efe21",
+     "sourceRelativePath": "5. Beni Suef Uni Books/هستو الكارديو شرح.pdf",
+     "sha256": "4caf88e753377ad87acdf0bd0f0e10215a5e345b52848358e7eb02e4f7b1a3fb",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      8
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      37
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      232
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T04-S03-M02",
+   "title": "TMA",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T04-S03-M03",
+   "title": "Hypertensive nephropathy",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T05-S01-M01",
+   "title": "RTA",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T05-S01-M02",
+   "title": "Fanconi syndrome",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 9,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      143
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      146
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T05-S01-M03",
+   "title": "Diabetes insipidus",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 9,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      42,
+      57,
+      159
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_6b6a0bf275ce9c751163",
+     "sourceRelativePath": "5. Beni Suef Uni Books/pharma endocrine.pdf",
+     "sha256": "fd464658a287d9cf35d162797956aa2e0db0acb00ab213a9d4873a4894fd3b28",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      28
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_d92a1333f12f2bbefc08",
+     "sourceRelativePath": "4. Alexandria Uni Books/Endocrine 2021 - 2022.pdf",
+     "sha256": "08b585c2bd43a25bad56e0644b4137f831901d0bf3ba8aadf70285dea9f3af86",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      38
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T05-S02-M01",
+   "title": "Acute interstitial nephritis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T05-S02-M02",
+   "title": "Chronic tubulointerstitial disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T05-S02-M03",
+   "title": "Pyelonephritis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 109,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      9
+     ],
+     "records": 90
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      203,
+      227,
+      228,
+      229
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      83,
+      88
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_538a7745c950e57b53d9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Basic HISTOPATHOLOGY.pdf",
+     "sha256": "bdfe046401b928cf726061be479f1037ee793ee8c7f3372ae9d641311d08535a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      87
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      9
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T06",
+   "title": "Urinary tract and urology",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "classification": "overview article",
+   "localRecords": 4,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_aef7b9a181ae846ad642",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم اولي.PDF",
+     "sha256": "0ead4d5906cfd710f5df58a02bf2e80fe9ca079bdf070e04272bdb55cb27999e",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      59
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T06-S01-M01",
+   "title": "Cystitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 261,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      14,
+      15,
+      16,
+      17
+     ],
+     "records": 240
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      203,
+      243,
+      244
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15,
+      16,
+      17,
+      18
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      83
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T06-S01-M02",
+   "title": "Pyelonephritis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T06-S01-M03",
+   "title": "Urosepsis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T06-S02-M01",
+   "title": "Nephrolithiasis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T06-S02-M02",
+   "title": "Hydronephrosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 64,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      10
+     ],
+     "records": 57
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      236
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      10
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      83
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_80789da965192fb095dc",
+     "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+     "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      165
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T06-S02-M03",
+   "title": "Urinary retention",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T06-S03-M01",
+   "title": "Bladder cancer",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      244
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T06-S03-M02",
+   "title": "Incontinence",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T06-S03-M03",
+   "title": "Neurogenic bladder",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T07-S01-M01",
+   "title": "Hemodialysis",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d172a06788fd6b78ae39",
+     "sourceRelativePath": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+     "sha256": "7303bdd66061b5c10f455d03ea96bf65b97bccd55f423b65e989279ffef6665e",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      106
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T07-S01-M02",
+   "title": "Peritoneal dialysis",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T07-S01-M03",
+   "title": "Transplantation",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 106,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_543a4cf673b4e8017858",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro hematopoietic.pdf",
+     "sha256": "11f0a2bd61ad1f41036f0c1ae066a822f678436f783b6110cbd640fe96620b7a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118
+     ],
+     "records": 50
+    },
+    {
+     "sourceId": "src_d7e6ce9ce75a240e07b3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro heme dr Kareem .pdf",
+     "sha256": "ed4d6228e8c693c9204da0ca486bf8aa0fcaac45e708ab51d37b182a2bc7ae56",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+     ],
+     "records": 30
+    },
+    {
+     "sourceId": "src_8c592e760329230ce118",
+     "sourceRelativePath": "7. Menoufia Uni Books/Physio Blood Class38 Students.pdf",
+     "sha256": "384b7b53de01b92cfaf54c2c8796ca009872ddf5023d2a90eebda38739ed0bad",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      97
+     ],
+     "records": 19
+    },
+    {
+     "sourceId": "src_1188da2889a27a243f32",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro Urogenital 2022.pdf",
+     "sha256": "498d913bf0267f0d99adac4f06dfc339311b8354302561ebd02cdf07ae54e48a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      67
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_08460f67cb0b5a6e6b27",
+     "sourceRelativePath": "8. Tanta Uni Books/a14786de-78b8-42e5-a3e3-26b231151b4e.pdf",
+     "sha256": "6af81385c15d412e8096a16d7c4c9afe04b1980e44d53a080679e32ddbd37ae5",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      123
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_e78b60c4052bc4b7e3fd",
+     "sourceRelativePath": "9. Zagazig Uni Books/بايو الريبرو.pdf",
+     "sha256": "8b4aae2bddd208961692a85b63922980dc85283b4e5505303864bf63d253ad47",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      25
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T07-S02-M01",
+   "title": "Urinalysis",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 95,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_ce9b41e2db5a7d4d26cf",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical EGU 2021 - 2022.pdf",
+     "sha256": "213f0b4f813e387ca17b93f76c4e0e6f394494d237215e9331e39a2a193000b4",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+     ],
+     "records": 86
+    },
+    {
+     "sourceId": "src_7d44e8434facd463e279",
+     "sourceRelativePath": "4. Alexandria Uni Books/Urinary system 2021 - 2022.pdf",
+     "sha256": "b49ac559b32b1fa380adf4aaf75237673e9ce0954a46fbc08ac648c35b29acc3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      71,
+      72,
+      73,
+      74,
+      75
+     ],
+     "records": 9
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T07-S02-M02",
+   "title": "Renal imaging",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      18
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      175
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-REN-T07-S02-M03",
+   "title": "Catheterization",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-REN-T07-S02-M04",
+   "title": "Fluid prescription",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  }
+ ]
+}

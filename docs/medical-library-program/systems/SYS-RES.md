@@ -124,6 +124,23 @@ substitute for that ledger.
 
 No dedicated respiratory folder in the Kasr Alainy set. Ain Shams 2nd Year (501 files) is unprocessed and is the likely carrier of respiratory physiology teaching. Local evidence is currently thin; expect heavy reliance on authoritative sources, with Egyptian TB and occupational-exposure epidemiology sourced regionally.
 
+### Decided source plan (`SYS-RES-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-RES-source-plan.md`](../evidence/SYS-RES-source-plan.md) ·
+[`SYS-RES-source-plan.json`](../evidence/SYS-RES-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 58 |
+| — with a processed local source | 44 |
+| — authored from authoritative sources only | 14 |
+| Distinct corpus files touching this system | 142 |
+
+The 14 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

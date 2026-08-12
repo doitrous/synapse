@@ -121,6 +121,23 @@ substitute for that ledger.
 
 No dedicated renal folder. Kasr Alainy `2. Physiology` covers renal physiology. Ain Shams 2nd/3rd Year (1,910 files, 0 processed) is the likely carrier of renal pathology teaching. Local evidence thin.
 
+### Decided source plan (`SYS-REN-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-REN-source-plan.md`](../evidence/SYS-REN-source-plan.md) ·
+[`SYS-REN-source-plan.json`](../evidence/SYS-REN-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 60 |
+| — with a processed local source | 38 |
+| — authored from authoritative sources only | 22 |
+| Distinct corpus files touching this system | 127 |
+
+The 22 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

@@ -1,0 +1,2336 @@
+{
+ "task": "SYS-MSK-SOURCE-001",
+ "rule": "Only files the corpus marks as processed are read. Extraction confidence is not medical verification (LD-08); every local claim is corroborated before publication.",
+ "summary": {
+  "system": "SYS-MSK",
+  "title": "Musculoskeletal System",
+  "plannedArticles": 48,
+  "withLocalEvidence": 31,
+  "withoutLocalEvidence": 17,
+  "distinctCorpusFiles": 104,
+  "corpusRecordsScanned": 110850,
+  "reviewedSources": 30
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-MSK-T01",
+   "title": "Regional anatomy and biomechanics",
+   "level": "Topic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "overview article",
+   "localRecords": 20087,
+   "localSources": 34,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_6e43bd4ea3b5c90fd67a",
+     "sourceRelativePath": "10. MTI Uni Books/OPH 331 Book.pdf",
+     "sha256": "99cbb4bc1e8be26c0902daf5f90861dd7578d304b6d00b30eb63185a9ed0eb1f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      170,
+      27,
+      104,
+      90,
+      132,
+      26,
+      137,
+      115
+     ],
+     "records": 4811
+    },
+    {
+     "sourceId": "src_6e70bbff9296838b22d7",
+     "sourceRelativePath": "0. General/Anatomy_Basis_Sameh_Doss.pdf",
+     "sha256": "cc9013c14a2fd06589b161286d41387fa6ec240a7748ed2c062301c75d65f88f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      25,
+      7,
+      28,
+      3,
+      27,
+      41,
+      30,
+      4
+     ],
+     "records": 3373
+    },
+    {
+     "sourceId": "src_4f9d6aeba0a295648d63",
+     "sourceRelativePath": "0. General/Anatomy SD General Embryology Sameh Doss.pdf",
+     "sha256": "edcbb60e14eff797b3a53cb42586a01f3d063844c6ca74c5436f1087a3a1dd54",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      49,
+      24,
+      19,
+      23,
+      50,
+      59,
+      2,
+      9
+     ],
+     "records": 2207
+    },
+    {
+     "sourceId": "src_5392d945ded425d18196",
+     "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+     "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      91,
+      88,
+      90,
+      87,
+      79,
+      83,
+      86,
+      85
+     ],
+     "records": 2186
+    },
+    {
+     "sourceId": "src_7bf413896ce181e91869",
+     "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+     "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      73,
+      23,
+      61,
+      60,
+      37,
+      7,
+      4,
+      46
+     ],
+     "records": 2118
+    },
+    {
+     "sourceId": "src_7e9c785eecaa77ff26aa",
+     "sourceRelativePath": "10. MTI Uni Books/OPH 331 Clinical Book.pdf",
+     "sha256": "33ede63640917bdae9144f8400ae852ff55a40510fa58495bba03c5ce3090d5b",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      70,
+      174,
+      102,
+      103,
+      213,
+      124,
+      95,
+      215
+     ],
+     "records": 1094
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S01-M01",
+   "title": "Shoulder",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 7,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_eedbee231bac87efdbc5",
+     "sourceRelativePath": "10. MTI Uni Books/Final musculoskeletal I theoretical book 2022.pdf",
+     "sha256": "5fb9eacb91c9b3bff4e7ff08e7304593a980d82bfbf197fa9514d8136200d727",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      93,
+      35
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_0481e9249a22ef312ed3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      20,
+      25
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      102
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S01-M02",
+   "title": "Arm",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 4,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_eedbee231bac87efdbc5",
+     "sourceRelativePath": "10. MTI Uni Books/Final musculoskeletal I theoretical book 2022.pdf",
+     "sha256": "5fb9eacb91c9b3bff4e7ff08e7304593a980d82bfbf197fa9514d8136200d727",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      50
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S01-M03",
+   "title": "Elbow",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 10,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      61
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_0481e9249a22ef312ed3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      91,
+      92
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_b219d2e6f0b05ddc7571",
+     "sourceRelativePath": "0. General/Introduction to Anatomy Khaled Milad.pdf",
+     "sha256": "e7fc4e66c98ee648ea04e10cf4e879cc48f30f97f1a9a0aa815be67c81038dce",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      31
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_358ec7a9923525754062",
+     "sourceRelativePath": "10. MTI Uni Books/med-cvs217-p (1).pdf",
+     "sha256": "d7ec8557476d7aa1c3110a4c5173df2ab9a5f1cf36818f90e43bdd91ea2787da",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      23
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S01-M04",
+   "title": "Forearm",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 16,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7697de59513ed0564d89",
+     "sourceRelativePath": "7. Menoufia Uni Books/anatomy cvs_20191026195400.pdf",
+     "sha256": "8abd56ed4dc0f3fd4c195b1fe495ae6eff3d5146d60f7414bda43e8c0c9ad4c3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      55,
+      79
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      104,
+      105,
+      106,
+      107
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_0481e9249a22ef312ed3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      60,
+      94
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_eedbee231bac87efdbc5",
+     "sourceRelativePath": "10. MTI Uni Books/Final musculoskeletal I theoretical book 2022.pdf",
+     "sha256": "5fb9eacb91c9b3bff4e7ff08e7304593a980d82bfbf197fa9514d8136200d727",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      94
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      101
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S01-M05",
+   "title": "Hand",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 248,
+   "localSources": 10,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_befa0991254f3749a0ee",
+     "sourceRelativePath": "9. Zagazig Uni Books/REPRODUCTIVE HAND OUT_compressed.pdf",
+     "sha256": "718af80ac6e4ca42e0a3f57988fed8bcb809b53fc56d631a685becb022619093",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      378,
+      326,
+      2,
+      446,
+      242,
+      435,
+      434,
+      92
+     ],
+     "records": 132
+    },
+    {
+     "sourceId": "src_2734be2dd88c5c7371bf",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal hand out (2).pdf",
+     "sha256": "6ebc8522bb6c5441466be553e02a357c4c1987e21430d601ae32dcd367f4cfc9",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      153,
+      62,
+      116,
+      34,
+      45,
+      178,
+      133,
+      96
+     ],
+     "records": 84
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      84
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_eedbee231bac87efdbc5",
+     "sourceRelativePath": "10. MTI Uni Books/Final musculoskeletal I theoretical book 2022.pdf",
+     "sha256": "5fb9eacb91c9b3bff4e7ff08e7304593a980d82bfbf197fa9514d8136200d727",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      74
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_0481e9249a22ef312ed3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      55,
+      66,
+      96
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      97,
+      106,
+      107
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S02-M01",
+   "title": "Hip",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S02-M02",
+   "title": "Thigh",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 375,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5392d945ded425d18196",
+     "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+     "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      22,
+      26,
+      20,
+      16,
+      24,
+      18,
+      28,
+      79
+     ],
+     "records": 260
+    },
+    {
+     "sourceId": "src_eb021e3162a3a30101a9",
+     "sourceRelativePath": "0. General/Lower Limb.pdf",
+     "sha256": "33047bd6f00fa1ed72f03e1238893b77a0645847327211629ea85e4c371f02c0",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      1,
+      3,
+      7
+     ],
+     "records": 88
+    },
+    {
+     "sourceId": "src_eedbee231bac87efdbc5",
+     "sourceRelativePath": "10. MTI Uni Books/Final musculoskeletal I theoretical book 2022.pdf",
+     "sha256": "5fb9eacb91c9b3bff4e7ff08e7304593a980d82bfbf197fa9514d8136200d727",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      135
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      111,
+      112,
+      114,
+      116
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      87
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_0481e9249a22ef312ed3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      121,
+      122,
+      125
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S02-M03",
+   "title": "Knee",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 149,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5392d945ded425d18196",
+     "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+     "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      30,
+      38,
+      32
+     ],
+     "records": 98
+    },
+    {
+     "sourceId": "src_789e395c0d3c47f88302",
+     "sourceRelativePath": "6. Fayoum Uni Books/Practical Neuroscience 2 physiology 2023.pdf",
+     "sha256": "54c3b2ae68e78cd804c46966ac8662c98b2471ff46eed30652846d2e2a3457a0",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      46,
+      47,
+      48
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      91,
+      89
+     ],
+     "records": 18
+    },
+    {
+     "sourceId": "src_7bf413896ce181e91869",
+     "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+     "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_0481e9249a22ef312ed3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      95,
+      161,
+      167
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_eb021e3162a3a30101a9",
+     "sourceRelativePath": "0. General/Lower Limb.pdf",
+     "sha256": "33047bd6f00fa1ed72f03e1238893b77a0645847327211629ea85e4c371f02c0",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      17
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S02-M04",
+   "title": "Leg",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S02-M05",
+   "title": "Ankle",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 123,
+   "localSources": 7,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5392d945ded425d18196",
+     "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+     "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      46,
+      48
+     ],
+     "records": 78
+    },
+    {
+     "sourceId": "src_6e70bbff9296838b22d7",
+     "sourceRelativePath": "0. General/Anatomy_Basis_Sameh_Doss.pdf",
+     "sha256": "cc9013c14a2fd06589b161286d41387fa6ec240a7748ed2c062301c75d65f88f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      9
+     ],
+     "records": 31
+    },
+    {
+     "sourceId": "src_eb021e3162a3a30101a9",
+     "sourceRelativePath": "0. General/Lower Limb.pdf",
+     "sha256": "33047bd6f00fa1ed72f03e1238893b77a0645847327211629ea85e4c371f02c0",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      17
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      91
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_0481e9249a22ef312ed3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      91,
+      201
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      121
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S02-M06",
+   "title": "Foot",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 210,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5392d945ded425d18196",
+     "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+     "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      44,
+      42,
+      64,
+      66,
+      62
+     ],
+     "records": 178
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_7bf413896ce181e91869",
+     "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+     "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      9
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      87
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_eedbee231bac87efdbc5",
+     "sourceRelativePath": "10. MTI Uni Books/Final musculoskeletal I theoretical book 2022.pdf",
+     "sha256": "5fb9eacb91c9b3bff4e7ff08e7304593a980d82bfbf197fa9514d8136200d727",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      187
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      76
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S03-M01",
+   "title": "Vertebral column",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 10,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a165a98952ffefcc0ebc",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+     "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      54,
+      55,
+      56
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_3e3bfa28cce8bc7f51cd",
+     "sourceRelativePath": "10. MTI Uni Books/med-musii215-p.pdf",
+     "sha256": "e732008070a5b79a9ca85f92df44aed30d62c15897d0f4579327d234e759430a",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      26
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_db01cd3c84232b926002",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب القسم نظري اناتومي الريسب.pdf",
+     "sha256": "5dee0706bbc675a028a8c21b45a14f627559bb1e91ff8eca97de9b96988a0eab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      23
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      11
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S03-M02",
+   "title": "Back",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 81,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b219d2e6f0b05ddc7571",
+     "sourceRelativePath": "0. General/Introduction to Anatomy Khaled Milad.pdf",
+     "sha256": "e7fc4e66c98ee648ea04e10cf4e879cc48f30f97f1a9a0aa815be67c81038dce",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      40
+     ],
+     "records": 79
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      101
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      99
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T01-S03-M03",
+   "title": "Pelvis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 183,
+   "localSources": 13,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5392d945ded425d18196",
+     "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+     "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      6
+     ],
+     "records": 36
+    },
+    {
+     "sourceId": "src_1de03c91d02ea8fdf973",
+     "sourceRelativePath": "4. Alexandria Uni Books/Genital system 2021 - 2022.pdf",
+     "sha256": "248953523af1652cf2d03caba976d04501b7a89af0dcd184f07d3de712f5bc2c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "records": 31
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+     ],
+     "records": 30
+    },
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      30,
+      64,
+      62,
+      63
+     ],
+     "records": 30
+    },
+    {
+     "sourceId": "src_35b4811ecfef37fdee17",
+     "sourceRelativePath": "5. Beni Suef Uni Books/anatomy repro.pdf",
+     "sha256": "8f34f3c6dcebae3504e3c6b3398d938ff6766b5924a5030bfb287369bf05c496",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      7,
+      8,
+      10,
+      12,
+      13,
+      15
+     ],
+     "records": 21
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      263
+     ],
+     "records": 17
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T02-S01-M01",
+   "title": "Monoarthritis",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T02-S01-M02",
+   "title": "Polyarthritis",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 7,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      15
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_b3ac0010a74f397c2eeb",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      15
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T02-S01-M03",
+   "title": "Back pain",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T02-S01-M04",
+   "title": "Limb pain",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T02-S02-M01",
+   "title": "Weakness",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7bf413896ce181e91869",
+     "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+     "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      56
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      213
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T02-S02-M02",
+   "title": "Gait disorder",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 133,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      152,
+      153,
+      154,
+      158,
+      159,
+      160,
+      161
+     ],
+     "records": 99
+    },
+    {
+     "sourceId": "src_789e395c0d3c47f88302",
+     "sourceRelativePath": "6. Fayoum Uni Books/Practical Neuroscience 2 physiology 2023.pdf",
+     "sha256": "54c3b2ae68e78cd804c46966ac8662c98b2471ff46eed30652846d2e2a3457a0",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      53
+     ],
+     "records": 24
+    },
+    {
+     "sourceId": "src_4865e798657dae9ae555",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology Practical.pdf_20200402185629.pdf",
+     "sha256": "7ccc70186c677e5a3224c6368995b8adf8133ecda0903d84b2de5bc288c8f256",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      66
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      256
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_735e899515323dc5e944",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical CNS 2021 - 2022.pdf",
+     "sha256": "5d76b0c5b4da30a7120e6f15bf69ed9bbf5bd7ff5b2ae03d84c734809da24ba7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      28
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T02-S02-M03",
+   "title": "Reduced range of motion",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T03-S01-M01",
+   "title": "Upper limb",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T03-S01-M02",
+   "title": "Lower limb",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T03-S01-M03",
+   "title": "Spine",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      20,
+      16
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T03-S02-M01",
+   "title": "Tendon",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 163,
+   "localSources": 11,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      11,
+      12,
+      13,
+      14,
+      154,
+      155,
+      156,
+      157
+     ],
+     "records": 86
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      90,
+      89,
+      86
+     ],
+     "records": 27
+    },
+    {
+     "sourceId": "src_789e395c0d3c47f88302",
+     "sourceRelativePath": "6. Fayoum Uni Books/Practical Neuroscience 2 physiology 2023.pdf",
+     "sha256": "54c3b2ae68e78cd804c46966ac8662c98b2471ff46eed30652846d2e2a3457a0",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      46
+     ],
+     "records": 25
+    },
+    {
+     "sourceId": "src_6e70bbff9296838b22d7",
+     "sourceRelativePath": "0. General/Anatomy_Basis_Sameh_Doss.pdf",
+     "sha256": "cc9013c14a2fd06589b161286d41387fa6ec240a7748ed2c062301c75d65f88f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      10
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      21,
+      189,
+      190
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_7bf413896ce181e91869",
+     "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+     "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      20
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T03-S02-M02",
+   "title": "Ligament",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 148,
+   "localSources": 21,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5392d945ded425d18196",
+     "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+     "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      34,
+      36
+     ],
+     "records": 50
+    },
+    {
+     "sourceId": "src_d50ba2f3208d0af32738",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب الأناتومي نظري renal.pdf",
+     "sha256": "81ca3ed228bdbf410851bccbb890c0038c320b99711dcaaf4bfdc7b828ac1c20",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      21
+     ],
+     "records": 21
+    },
+    {
+     "sourceId": "src_7bf413896ce181e91869",
+     "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+     "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      56,
+      55,
+      13
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      81,
+      86,
+      87,
+      88,
+      89
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_497785a97d77065d2dce",
+     "sourceRelativePath": "9. Zagazig Uni Books/arranged practical Handout repro_compressed.pdf",
+     "sha256": "da2fb65aa8a3cfdfc0bfb4db396a6ae239721e4aba0ae6ba6d682eaa358dc410",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      105
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_b219d2e6f0b05ddc7571",
+     "sourceRelativePath": "0. General/Introduction to Anatomy Khaled Milad.pdf",
+     "sha256": "e7fc4e66c98ee648ea04e10cf4e879cc48f30f97f1a9a0aa815be67c81038dce",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      24,
+      25
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T03-S02-M03",
+   "title": "Muscle",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 1687,
+   "localSources": 67,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a21160347e621c471c24",
+     "sourceRelativePath": "6. Fayoum Uni Books/هستو.pdf",
+     "sha256": "2f07650d8dad127a38c8f0e2d9c588d0c942ceaa41932029611bd00f7d77cb9f",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26
+     ],
+     "records": 260
+    },
+    {
+     "sourceId": "src_9d0a2341d73ae6ff0330",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "fe7e6a7c1bfe5ac4d87e9774c2367f5cb9ba81ca129c7446cbc8f1600d567c3d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "records": 222
+    },
+    {
+     "sourceId": "src_5392d945ded425d18196",
+     "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+     "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      56,
+      12,
+      54,
+      50,
+      52
+     ],
+     "records": 158
+    },
+    {
+     "sourceId": "src_8c8b6c422d69be23772f",
+     "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+     "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+     "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      6,
+      7,
+      10,
+      149,
+      150,
+      151,
+      152
+     ],
+     "records": 136
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "records": 115
+    },
+    {
+     "sourceId": "src_db878e9254e3bc62e0b7",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Physio MSK (شرح)_230805_212040.pdf",
+     "sha256": "9a8f1224f1f91d7bffb8b79e9b7d6485a435a5d1a07be2152f40081e6c34de84",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "records": 100
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T03-S02-M04",
+   "title": "Compartment syndrome",
+   "level": "Microtopic",
+   "templateId": "TPL-EMERGENCY",
+   "classification": "atomic article home",
+   "localRecords": 7,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      49,
+      90
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      146
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T04-S01-M01",
+   "title": "Rheumatoid",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 19,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14,
+      15
+     ],
+     "records": 13
+    },
+    {
+     "sourceId": "src_f9632e8643fb6e8bbc85",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٢-١٧-٢٠٢٢ ١١٥٨_230805_212145.pdf",
+     "sha256": "9b638ca01dc2fc72e03d86991a61dc24121b594eb5935eba9c952059b9c38ee6",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_d7e6ce9ce75a240e07b3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro heme dr Kareem .pdf",
+     "sha256": "ed4d6228e8c693c9204da0ca486bf8aa0fcaac45e708ab51d37b182a2bc7ae56",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      72
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_b3ac0010a74f397c2eeb",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14,
+      15
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T04-S01-M02",
+   "title": "Spondyloarthritis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T04-S01-M03",
+   "title": "Juvenile arthritis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T04-S02-M01",
+   "title": "Gout",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 67,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9cdbddc08621d1242165",
+     "sourceRelativePath": "7. Menoufia Uni Books/Pharma MSK Class38 Students.pdf",
+     "sha256": "e6eddbae04db11e8756df673d15cdf38a315431c15c2a3e35a18bd9a82cd445d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      11,
+      13,
+      12
+     ],
+     "records": 40
+    },
+    {
+     "sourceId": "src_f9632e8643fb6e8bbc85",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٢-١٧-٢٠٢٢ ١١٥٨_230805_212145.pdf",
+     "sha256": "9b638ca01dc2fc72e03d86991a61dc24121b594eb5935eba9c952059b9c38ee6",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      10,
+      13,
+      14
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_49c78c9bacd6060a27d8",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Bio MSK (شرح)_230805_211920.pdf",
+     "sha256": "d48dddff871bca21bf80fcfd14d4afeb08f2ee9603c9fdd07b80b6dd0fa54671",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      59,
+      60,
+      61
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_18e63345a66c9a76a312",
+     "sourceRelativePath": "9. Zagazig Uni Books/فارما البري.PDF",
+     "sha256": "591b8501345c9345446a3fbda371e77a418e15209f9e526559ca055066237aac",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      37,
+      38,
+      39
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_b53daf0114f285089f1a",
+     "sourceRelativePath": "4. Alexandria Uni Books/GIT system 2021 - 2022.pdf",
+     "sha256": "8ff888164297ff783343ff062b652c8b783b9a3047ab79742373016d0584876f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      37
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T04-S02-M02",
+   "title": "Pseudogout",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T04-S02-M03",
+   "title": "Osteoarthritis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 32,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      16
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_b3ac0010a74f397c2eeb",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      16
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T05-S01-M01",
+   "title": "Osteoporosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 19,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_78b0227a89a9f97f1220",
+     "sourceRelativePath": "9. Zagazig Uni Books/Endocrine  System Handout.pdf",
+     "sha256": "72e87aa652d6b7ec8a1aae3e5f8f93b5677b19d889bc0c5a463326b38a106bac",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      112
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_b3ac0010a74f397c2eeb",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      117
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_baa86647105c5abdc773",
+     "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Musculoskeletal Histology 2021-2022.pdf",
+     "sha256": "2f62b0d70c7c5c169a0740f415ddaf52a40f78a235a30d80de4c0434bc798490",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      32
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_80789da965192fb095dc",
+     "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+     "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      287
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T05-S01-M02",
+   "title": "Osteomalacia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      117
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T05-S01-M03",
+   "title": "Paget disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 11,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_1bddee7b866fc1411162",
+     "sourceRelativePath": "5. Beni Suef Uni Books/patho repro.pdf",
+     "sha256": "cbb2c00a753639a1c442175ee13c6301c283c8b7c80ec9a2498e1ace831f9613",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      164,
+      208
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T05-S02-M01",
+   "title": "Osteomyelitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 87,
+   "localSources": 7,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_99f3fabd8db78204412d",
+     "sourceRelativePath": "7. Menoufia Uni Books/Micro MSK Class38 Students.pdf",
+     "sha256": "a58506b8736d7ae2524490d88841f32d053f7adff72e05da3ce9f49c6ee136a3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      3
+     ],
+     "records": 39
+    },
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      5
+     ],
+     "records": 38
+    },
+    {
+     "sourceId": "src_b3ac0010a74f397c2eeb",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      5
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_7fb318593dd3d9933cf9",
+     "sourceRelativePath": "10. MTI Uni Books/ENT 332 Book-1.pdf",
+     "sha256": "8d30ea67504444534d4295c4e9a92957e38d8b773e00d3a12b6c343f6ead2022",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      22
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_2610b7c9cbd92e89a513",
+     "sourceRelativePath": "10. MTI Uni Books/med-musii215-t.pdf",
+     "sha256": "fd4b8d72830c689833e4dc2944a55899a57ee31c94c24c206ce998a9fdcea6af",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      218
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_8ebcb5f6ee01503617e4",
+     "sourceRelativePath": "8. Tanta Uni Books/General Pathology 2018-2019.pdf",
+     "sha256": "0ec7ced73dd02cf8a8ace0a1edc4a5e54fe584e0f8a76d33f7061a312091465a",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      61
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T05-S02-M02",
+   "title": "Septic arthritis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 15,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      15
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_b3ac0010a74f397c2eeb",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      15
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_2610b7c9cbd92e89a513",
+     "sourceRelativePath": "10. MTI Uni Books/med-musii215-t.pdf",
+     "sha256": "fd4b8d72830c689833e4dc2944a55899a57ee31c94c24c206ce998a9fdcea6af",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      207
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T05-S02-M03",
+   "title": "Bone tumors",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 31,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      7,
+      10
+     ],
+     "records": 20
+    },
+    {
+     "sourceId": "src_b3ac0010a74f397c2eeb",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      10
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      138,
+      141
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_538a7745c950e57b53d9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Basic HISTOPATHOLOGY.pdf",
+     "sha256": "bdfe046401b928cf726061be479f1037ee793ee8c7f3372ae9d641311d08535a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      126
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_80789da965192fb095dc",
+     "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+     "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      291,
+      296
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_2610b7c9cbd92e89a513",
+     "sourceRelativePath": "10. MTI Uni Books/med-musii215-t.pdf",
+     "sha256": "fd4b8d72830c689833e4dc2944a55899a57ee31c94c24c206ce998a9fdcea6af",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      226
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T06-S01-M01",
+   "title": "Joint examination",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 75,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      89,
+      98,
+      122
+     ],
+     "records": 33
+    },
+    {
+     "sourceId": "src_a165a98952ffefcc0ebc",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+     "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      57,
+      58,
+      59,
+      60,
+      61
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_af97f6fc67d736e97f64",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Histo MSK (شرح )_230805_212014.pdf",
+     "sha256": "7865339772585870958002b2c285af7189a0a419974b34163cc645592c39069c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      53,
+      54
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_b219d2e6f0b05ddc7571",
+     "sourceRelativePath": "0. General/Introduction to Anatomy Khaled Milad.pdf",
+     "sha256": "e7fc4e66c98ee648ea04e10cf4e879cc48f30f97f1a9a0aa815be67c81038dce",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      25
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      32,
+      79,
+      80
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_6e70bbff9296838b22d7",
+     "sourceRelativePath": "0. General/Anatomy_Basis_Sameh_Doss.pdf",
+     "sha256": "cc9013c14a2fd06589b161286d41387fa6ec240a7748ed2c062301c75d65f88f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      20
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-MSK-T06-S01-M02",
+   "title": "X-ray",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T06-S01-M03",
+   "title": "MRI",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T06-S02-M01",
+   "title": "Casting",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T06-S02-M02",
+   "title": "Splinting",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T06-S02-M03",
+   "title": "Physiotherapy",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-MSK-T06-S02-M04",
+   "title": "Joint aspiration",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  }
+ ]
+}

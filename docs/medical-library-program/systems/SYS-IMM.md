@@ -110,6 +110,23 @@ substitute for that ledger.
 
 No dedicated immunology folder in the processed set. 121 concepts already carry DIS-IMU as their canonical home, derived from existing sources. Disease-level immunology has no processed local source.
 
+### Decided source plan (`SYS-IMM-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-IMM-source-plan.md`](../evidence/SYS-IMM-source-plan.md) ·
+[`SYS-IMM-source-plan.json`](../evidence/SYS-IMM-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 33 |
+| — with a processed local source | 29 |
+| — authored from authoritative sources only | 4 |
+| Distinct corpus files touching this system | 97 |
+
+The 4 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

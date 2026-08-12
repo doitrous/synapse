@@ -114,6 +114,23 @@ substitute for that ledger.
 
 No processed local source. 1 article `Published` (`ART-AND-TOP-80453918B2`) with 3 published sections — one of the more developed published records. 115 concepts secondary.
 
+### Decided source plan (`SYS-AND-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-AND-source-plan.md`](../evidence/SYS-AND-source-plan.md) ·
+[`SYS-AND-source-plan.json`](../evidence/SYS-AND-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 35 |
+| — with a processed local source | 25 |
+| — authored from authoritative sources only | 10 |
+| Distinct corpus files touching this system | 144 |
+
+The 10 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

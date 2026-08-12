@@ -127,6 +127,23 @@ substitute for that ledger.
 
 The strongest-evidenced system in the repository. Kasr Alainy `ANATOMY CARDIOVASCULAR SYSTEM.pdf` is `taxonomy_complete` and is the source behind the 10 canonical CVS articles and 98 concepts. Kasr Alainy `2. Physiology` (13 of 14 complete) covers cardiac mechanics. This is the only system where local curriculum signal is genuinely strong today.
 
+### Decided source plan (`SYS-CVS-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-CVS-source-plan.md`](../evidence/SYS-CVS-source-plan.md) ·
+[`SYS-CVS-source-plan.json`](../evidence/SYS-CVS-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 66 |
+| — with a processed local source | 39 |
+| — authored from authoritative sources only | 27 |
+| Distinct corpus files touching this system | 78 |
+
+The 27 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

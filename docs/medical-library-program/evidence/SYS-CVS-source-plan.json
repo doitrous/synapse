@@ -1,0 +1,2271 @@
+{
+ "task": "SYS-CVS-SOURCE-001",
+ "rule": "Only files the corpus marks as processed are read. Extraction confidence is not medical verification (LD-08); every local claim is corroborated before publication.",
+ "summary": {
+  "system": "SYS-CVS",
+  "title": "Cardiovascular System",
+  "plannedArticles": 66,
+  "withLocalEvidence": 39,
+  "withoutLocalEvidence": 27,
+  "distinctCorpusFiles": 78,
+  "corpusRecordsScanned": 110850,
+  "reviewedSources": 34
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-CVS-T01-S01-M01",
+   "title": "Chambers",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 10,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_1028df0326123f12fcc0",
+     "sourceRelativePath": "9. Zagazig Uni Books/CNS FINAL EDITION.pdf",
+     "sha256": "06400068e012ceffc1a31fd814de1db2bfb52733ee93621e845b462d0b4f8cad",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      137
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_26946fbba92c005dad1a",
+     "sourceRelativePath": "9. Zagazig Uni Books/CNS book.pdf",
+     "sha256": "9456ee00018918275254c17d45c57d6004a777d1b7599d64319d78b93692e086",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      367
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_7e9c785eecaa77ff26aa",
+     "sourceRelativePath": "10. MTI Uni Books/OPH 331 Clinical Book.pdf",
+     "sha256": "33ede63640917bdae9144f8400ae852ff55a40510fa58495bba03c5ce3090d5b",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      124
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_890a0079eb448cdb8aa9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical CNS 2021 - 2022.pdf",
+     "sha256": "b2e2e657aea64d5e924a0dfcc08f30e088868dcfb62f60a6ac1984a469faf5cd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      33
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_a7204784b99378d6e9da",
+     "sourceRelativePath": "5. Beni Suef Uni Books/cardio-anatomy-book.pdf",
+     "sha256": "e4a72dd8939cc1f7544f0a4f0cc90ddef4d4750429d3c973575675d7c6ee4cd6",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      11
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S01-M02",
+   "title": "Valves",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a7204784b99378d6e9da",
+     "sourceRelativePath": "5. Beni Suef Uni Books/cardio-anatomy-book.pdf",
+     "sha256": "e4a72dd8939cc1f7544f0a4f0cc90ddef4d4750429d3c973575675d7c6ee4cd6",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      115
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S01-M03",
+   "title": "Coronary circulation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 52,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_6e70bbff9296838b22d7",
+     "sourceRelativePath": "0. General/Anatomy_Basis_Sameh_Doss.pdf",
+     "sha256": "cc9013c14a2fd06589b161286d41387fa6ec240a7748ed2c062301c75d65f88f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      32
+     ],
+     "records": 36
+    },
+    {
+     "sourceId": "src_b7e75ef057d1c36a463d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+     "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      39,
+      64,
+      71
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_a7204784b99378d6e9da",
+     "sourceRelativePath": "5. Beni Suef Uni Books/cardio-anatomy-book.pdf",
+     "sha256": "e4a72dd8939cc1f7544f0a4f0cc90ddef4d4750429d3c973575675d7c6ee4cd6",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      26,
+      27
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      123
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_a165a98952ffefcc0ebc",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+     "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      107
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S01-M04",
+   "title": "Conduction",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 114,
+   "localSources": 10,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_789e395c0d3c47f88302",
+     "sourceRelativePath": "6. Fayoum Uni Books/Practical Neuroscience 2 physiology 2023.pdf",
+     "sha256": "54c3b2ae68e78cd804c46966ac8662c98b2471ff46eed30652846d2e2a3457a0",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      30
+     ],
+     "records": 38
+    },
+    {
+     "sourceId": "src_31a0f1c5d3f190bbb092",
+     "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+     "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      95,
+      94
+     ],
+     "records": 24
+    },
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+     ],
+     "records": 20
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      1,
+      5,
+      30,
+      31,
+      32
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_9d0a2341d73ae6ff0330",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "fe7e6a7c1bfe5ac4d87e9774c2367f5cb9ba81ca129c7446cbc8f1600d567c3d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_0481e9249a22ef312ed3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+     "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      113,
+      117,
+      119
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S02-M01",
+   "title": "Cardiac cycle",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 62,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_a83ff53b70833dd85932",
+     "sourceRelativePath": "7. Menoufia Uni Books/physio cardio_20191120230121.pdf",
+     "sha256": "a87085ed6e7c404b508c0a8e18a498da5f711f2982805d8a4eda3e1f16aaa12d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      62
+     ],
+     "records": 19
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      48,
+      49,
+      50
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      131,
+      137,
+      138
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      242
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      62
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S02-M02",
+   "title": "Hemodynamics",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 93,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "records": 34
+    },
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      128,
+      129,
+      130,
+      131,
+      132
+     ],
+     "records": 20
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      57,
+      58,
+      59,
+      60
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      100,
+      101,
+      102,
+      149,
+      186,
+      187
+     ],
+     "records": 13
+    },
+    {
+     "sourceId": "src_8ebcb5f6ee01503617e4",
+     "sourceRelativePath": "8. Tanta Uni Books/General Pathology 2018-2019.pdf",
+     "sha256": "0ec7ced73dd02cf8a8ace0a1edc4a5e54fe584e0f8a76d33f7061a312091465a",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      104,
+      100
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      242
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T01-S02-M03",
+   "title": "Blood pressure regulation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 127,
+   "localSources": 19,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      118,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+     ],
+     "records": 78
+    },
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      17,
+      20,
+      26,
+      45,
+      50
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_49c78c9bacd6060a27d8",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Bio MSK (شرح)_230805_211920.pdf",
+     "sha256": "d48dddff871bca21bf80fcfd14d4afeb08f2ee9603c9fdd07b80b6dd0fa54671",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      28,
+      29,
+      35,
+      36
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      115,
+      181
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      76
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      132,
+      174
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S01-M01",
+   "title": "Chest pain",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      105
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_735e899515323dc5e944",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical CNS 2021 - 2022.pdf",
+     "sha256": "5d76b0c5b4da30a7120e6f15bf69ed9bbf5bd7ff5b2ae03d84c734809da24ba7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S01-M02",
+   "title": "Palpitations",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_ce7eefa2bb550ddf439b",
+     "sourceRelativePath": "8. Tanta Uni Books/Tanta pharmacology book.pdf",
+     "sha256": "e8e6d3b3093fe3f0d5899643438cf1a4404b7e666c42899e1b4f814c2ccb2b86",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      59
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S01-M03",
+   "title": "Dyspnea",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 18,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      60
+     ],
+     "records": 16
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      126
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S02-M01",
+   "title": "Syncope",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 12,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      212,
+      213,
+      214,
+      215,
+      216
+     ],
+     "records": 12
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S02-M02",
+   "title": "Edema",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 17,
+   "localSources": 7,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      534
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      9
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      253,
+      254
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      128
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_7ce0efcd6dd7a554ac3b",
+     "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Foundation Histology 2021-2022.pdf",
+     "sha256": "668f930a52f99b744d0a2fc2aa54beec79853291e38b52fe4f1727e2f74ee52e",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      54
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      249
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T02-S02-M03",
+   "title": "Claudication",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S01-M01",
+   "title": "Stable angina",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 7,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      146,
+      147,
+      157
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S01-M02",
+   "title": "Silent ischemia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      105
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S02-M01",
+   "title": "Unstable angina",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S02-M02",
+   "title": "NSTEMI",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S02-M03",
+   "title": "STEMI",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T03-S02-M04",
+   "title": "Post-MI complications",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 110,
+   "localSources": 17,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      36,
+      37,
+      39,
+      44,
+      62,
+      66,
+      76,
+      80
+     ],
+     "records": 29
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15,
+      25,
+      50,
+      67,
+      68
+     ],
+     "records": 13
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      124,
+      298,
+      299,
+      303,
+      306,
+      309,
+      314,
+      328
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_72f9476b91e96e4cbd99",
+     "sourceRelativePath": "6. Fayoum Uni Books/CNS LECTURE NOTES.pdf",
+     "sha256": "dd85fe4c9c29811379b25b6beb40b498f8eec69efa5800068d44149e8fd8d1dc",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      3,
+      5,
+      8
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_f7d34fd6de6d716551fd",
+     "sourceRelativePath": "5. Beni Suef Uni Books/endo-patho-book.pdf",
+     "sha256": "77028c797a93dc602d92bb222f4632235d1ba43b8bd87594585d0a9020ae5d4d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      9,
+      24
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      17,
+      21,
+      31
+     ],
+     "records": 7
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S01-M01",
+   "title": "HFrEF",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S01-M02",
+   "title": "HFpEF",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S01-M03",
+   "title": "Acute heart failure",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      238
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S01-M04",
+   "title": "Right heart failure",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 8,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7697de59513ed0564d89",
+     "sourceRelativePath": "7. Menoufia Uni Books/anatomy cvs_20191026195400.pdf",
+     "sha256": "8abd56ed4dc0f3fd4c195b1fe495ae6eff3d5146d60f7414bda43e8c0c9ad4c3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      9,
+      28,
+      10
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_a83ff53b70833dd85932",
+     "sourceRelativePath": "7. Menoufia Uni Books/physio cardio_20191120230121.pdf",
+     "sha256": "a87085ed6e7c404b508c0a8e18a498da5f711f2982805d8a4eda3e1f16aaa12d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      97
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_80789da965192fb095dc",
+     "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+     "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      24
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S02-M01",
+   "title": "Dilated",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_72f9476b91e96e4cbd99",
+     "sourceRelativePath": "6. Fayoum Uni Books/CNS LECTURE NOTES.pdf",
+     "sha256": "dd85fe4c9c29811379b25b6beb40b498f8eec69efa5800068d44149e8fd8d1dc",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      3
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S02-M02",
+   "title": "Hypertrophic",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      44
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S02-M03",
+   "title": "Restrictive",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7e9c785eecaa77ff26aa",
+     "sourceRelativePath": "10. MTI Uni Books/OPH 331 Clinical Book.pdf",
+     "sha256": "33ede63640917bdae9144f8400ae852ff55a40510fa58495bba03c5ce3090d5b",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      215
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T04-S02-M04",
+   "title": "Myocarditis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 15,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      159,
+      160,
+      161
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_7c2fcd4885e62546a922",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى ميكرو الكارديو.pdf",
+     "sha256": "c7d95d569d5c5bfb0f08bfcc399df941382f75fc50e112f49f4ca9c878700a6e",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      17
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S01-M01",
+   "title": "Sinus node disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S01-M02",
+   "title": "AV block",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M01",
+   "title": "AF",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M02",
+   "title": "SVT",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M03",
+   "title": "VT",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M04",
+   "title": "VF",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T05-S02-M05",
+   "title": "Long-QT syndromes",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S01-M01",
+   "title": "Aortic",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 61,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      8,
+      17,
+      18,
+      19,
+      262
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_7697de59513ed0564d89",
+     "sourceRelativePath": "7. Menoufia Uni Books/anatomy cvs_20191026195400.pdf",
+     "sha256": "8abd56ed4dc0f3fd4c195b1fe495ae6eff3d5146d60f7414bda43e8c0c9ad4c3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      35
+     ],
+     "records": 20
+    },
+    {
+     "sourceId": "src_9a709c6c8649783749fe",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+     "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      252,
+      253
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      56,
+      58
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      38
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      10
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S01-M02",
+   "title": "Mitral",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a49393e12294e35c1563",
+     "sourceRelativePath": "6. Fayoum Uni Books/_Neuroscience 2 physiology 2023.pdf",
+     "sha256": "a57f56a42cefe06e35ec8fb6533fbdebc6e4df961ca0c9225850d872fe22f134",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      116
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S01-M03",
+   "title": "Tricuspid",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S01-M04",
+   "title": "Pulmonary",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 940,
+   "localSources": 30,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "records": 331
+    },
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      14,
+      15,
+      16,
+      27,
+      28,
+      29,
+      30
+     ],
+     "records": 255
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      168,
+      169,
+      181,
+      209,
+      211,
+      245,
+      246,
+      256
+     ],
+     "records": 134
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      10,
+      5,
+      1
+     ],
+     "records": 59
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      46,
+      55,
+      57,
+      58,
+      59,
+      60,
+      62,
+      63
+     ],
+     "records": 39
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15,
+      16,
+      24,
+      254,
+      255,
+      256,
+      257,
+      258
+     ],
+     "records": 35
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S02-M01",
+   "title": "Pericarditis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 35,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7c2fcd4885e62546a922",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى ميكرو الكارديو.pdf",
+     "sha256": "c7d95d569d5c5bfb0f08bfcc399df941382f75fc50e112f49f4ca9c878700a6e",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      17,
+      18
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      161,
+      162,
+      163
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      21,
+      22,
+      23,
+      24
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_80789da965192fb095dc",
+     "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+     "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      16,
+      31
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S02-M02",
+   "title": "Effusion",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 15,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      117,
+      118,
+      119
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      163
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      24
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S02-M03",
+   "title": "Tamponade",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T06-S02-M04",
+   "title": "Constrictive disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S01-M01",
+   "title": "Primary hypertension",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S01-M02",
+   "title": "Secondary hypertension",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      209,
+      210
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S01-M03",
+   "title": "Hypertensive emergency",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 12,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2eea679773736fe01753",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+     "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      27
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      194
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_3a85381193653300586a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظري فارما الايندو (القسم).pdf",
+     "sha256": "6bb508021c6cb9994a6eb286aaef986569aefd9d22e27e31162e1da167d2196f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      27
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M01",
+   "title": "Aortic aneurysm",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 24,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      260,
+      261
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_80789da965192fb095dc",
+     "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+     "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      40
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      538,
+      539
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      10
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M02",
+   "title": "Dissection",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M03",
+   "title": "PAD",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_380dbc64a0d99dde6672",
+     "sourceRelativePath": "0. General/Biochemistry - Made After Dr. Wala'a..pdf",
+     "sha256": "12e9aac7044216661cd60506193a2c4c0dd100ec47d2cc596fffc9b430fc1d00",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      1
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M04",
+   "title": "DVT",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T07-S02-M05",
+   "title": "Venous insufficiency",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M01",
+   "title": "ASD",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M02",
+   "title": "VSD",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 16,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7697de59513ed0564d89",
+     "sourceRelativePath": "7. Menoufia Uni Books/anatomy cvs_20191026195400.pdf",
+     "sha256": "8abd56ed4dc0f3fd4c195b1fe495ae6eff3d5146d60f7414bda43e8c0c9ad4c3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      99
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_497785a97d77065d2dce",
+     "sourceRelativePath": "9. Zagazig Uni Books/arranged practical Handout repro_compressed.pdf",
+     "sha256": "da2fb65aa8a3cfdfc0bfb4db396a6ae239721e4aba0ae6ba6d682eaa358dc410",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      125
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M03",
+   "title": "PDA",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M04",
+   "title": "Tetralogy",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      20
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S01-M05",
+   "title": "Coarctation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 6,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      21
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      21
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S02-M01",
+   "title": "Endocarditis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 70,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155
+     ],
+     "records": 45
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_7c2fcd4885e62546a922",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى ميكرو الكارديو.pdf",
+     "sha256": "c7d95d569d5c5bfb0f08bfcc399df941382f75fc50e112f49f4ca9c878700a6e",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13,
+      14,
+      15
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_80789da965192fb095dc",
+     "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+     "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      20
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      17
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S02-M02",
+   "title": "Rheumatic heart disease",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 17,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "records": 14
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      16
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T08-S02-M03",
+   "title": "Vasculitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 12,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      263,
+      264,
+      265
+     ],
+     "records": 12
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S01-M01",
+   "title": "ECG",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7fb882664bb78c626a84",
+     "sourceRelativePath": "10. MTI Uni Books/med-cvs217-t.pdf",
+     "sha256": "0773b9939f1127db27873d0d2f66d615a4f6d4a6b27d7fdf1813925e26381a1d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      170
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S01-M02",
+   "title": "Echocardiography",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      68
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S01-M03",
+   "title": "Cardiac biomarkers",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "classification": "atomic article home",
+   "localRecords": 38,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9d63d472b745614683b3",
+     "sourceRelativePath": "4. Alexandria Uni Books/Bio practical Cardio 2021 - 2022.pdf",
+     "sha256": "c3fcb550506f02abe808f56510411cd508341f6d1d379008ff14cfc56cd4550f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      9,
+      10,
+      11
+     ],
+     "records": 36
+    },
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      64,
+      179
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S01-M04",
+   "title": "Stress testing",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S02-M01",
+   "title": "CPR",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S02-M02",
+   "title": "Cardioversion",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S02-M03",
+   "title": "Pacing",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-CVS-T09-S02-M04",
+   "title": "Catheterization",
+   "level": "Microtopic",
+   "templateId": "TPL-INVESTIGATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  }
+ ]
+}

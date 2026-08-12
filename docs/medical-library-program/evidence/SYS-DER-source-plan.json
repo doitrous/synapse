@@ -1,0 +1,1231 @@
+{
+ "task": "SYS-DER-SOURCE-001",
+ "rule": "Only files the corpus marks as processed are read. Extraction confidence is not medical verification (LD-08); every local claim is corroborated before publication.",
+ "summary": {
+  "system": "SYS-DER",
+  "title": "Skin & Subcutaneous Tissue",
+  "plannedArticles": 37,
+  "withLocalEvidence": 21,
+  "withoutLocalEvidence": 16,
+  "distinctCorpusFiles": 63,
+  "corpusRecordsScanned": 110850,
+  "reviewedSources": 29
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-DER-T01-S01-M01",
+   "title": "Primary lesions",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T01-S01-M02",
+   "title": "Secondary changes",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15,
+      47
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_bc82197e9431fa6c93bc",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي القسم  د-محمد المهدي.pdf",
+     "sha256": "9bf7d30670b378ee59a0bb95be6abc4c956abd3c8a8ad80231b0fdefeef45cd1",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T01-S01-M03",
+   "title": "Distribution",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 242,
+   "localSources": 26,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5787ebb65b677c6f85af",
+     "sourceRelativePath": "4. Alexandria Uni Books/Research step 3 - 2022.pdf",
+     "sha256": "06af1e3298b24ed1d5a0170e9dcfb6259b378e44b3641b62f608d86fab286946",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      73,
+      74,
+      75
+     ],
+     "records": 130
+    },
+    {
+     "sourceId": "src_63b1c487c9042661a28f",
+     "sourceRelativePath": "6. Fayoum Uni Books/كتاب_القسم_فسيولوجي_ANS.pdf",
+     "sha256": "f6ad6e86e4e3e8cd80b370b7415f1a6db6fde6f45462c1313f0e2faddba7d882",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      18,
+      19
+     ],
+     "records": 32
+    },
+    {
+     "sourceId": "src_027c21a2fde7573b1cfc",
+     "sourceRelativePath": "6. Fayoum Uni Books/Sensory_nervous_system_كتاب_القسم_فسيولوجي.pdf",
+     "sha256": "8c06a0a9978663c539998ad847b8b1af4a5138abf8b2b630888b4cc3e21b8661",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      22
+     ],
+     "records": 19
+    },
+    {
+     "sourceId": "src_2eea679773736fe01753",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+     "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6
+     ],
+     "records": 14
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      12,
+      109
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_64ac35c148f824c08f48",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology (concepts of health & disease) 2022.pdf",
+     "sha256": "249c6b21c62ebae4013540ff413aa09eb783adb9560c311eb3946c2bf441c63b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      24,
+      25,
+      26,
+      47
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T01-S02-M01",
+   "title": "Rash",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T01-S02-M02",
+   "title": "Pruritus",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T01-S02-M03",
+   "title": "Ulcer",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 180,
+   "localSources": 14,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      188,
+      191,
+      194,
+      195,
+      196,
+      209,
+      211,
+      212
+     ],
+     "records": 62
+    },
+    {
+     "sourceId": "src_b8a68e8d4a5401b7dc6c",
+     "sourceRelativePath": "5. Beni Suef Uni Books/عملي الفارما GIT.pdf",
+     "sha256": "3036d2cc5a0310a1e8dad9d12c60a18b4aba2f6efb9edcfa7f4876d5ddcd8c6a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "records": 47
+    },
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      19,
+      25
+     ],
+     "records": 24
+    },
+    {
+     "sourceId": "src_59d7251356a7e1b17994",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظري الفارما GIT.pdf",
+     "sha256": "7ff54a7ea0110ad1ea01ec2481e4b86d91355009e775a99d777c608b216a92fa",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      14
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_1188da2889a27a243f32",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro Urogenital 2022.pdf",
+     "sha256": "498d913bf0267f0d99adac4f06dfc339311b8354302561ebd02cdf07ae54e48a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      22
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_56eb013c175fea3c42a4",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Pathology of GIT final.pdf",
+     "sha256": "aa47fff65da2dffce87cb5703499cb92214592007e81f453b9b1c7bc6d6cd386",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      3,
+      20,
+      21
+     ],
+     "records": 8
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T01-S02-M04",
+   "title": "Pigment change",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 12,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      33,
+      34,
+      35
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      109,
+      124
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_f372f89a417bbcee9bdc",
+     "sourceRelativePath": "6. Fayoum Uni Books/ميكرو القسم.pdf",
+     "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      2
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_6b5723c9bc02068ded20",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 1) 2021 - 2022.pdf",
+     "sha256": "363da3bb14aed1328dcb6aa3ffaa8397508a82046d5fb0313adf5c9878449463",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      33
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T02-S01-M01",
+   "title": "Atopic dermatitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T02-S01-M02",
+   "title": "Contact dermatitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T02-S01-M03",
+   "title": "Psoriasis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 4,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      107,
+      201
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_18e63345a66c9a76a312",
+     "sourceRelativePath": "9. Zagazig Uni Books/فارما البري.PDF",
+     "sha256": "591b8501345c9345446a3fbda371e77a418e15209f9e526559ca055066237aac",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      35
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T02-S02-M01",
+   "title": "Acne",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      118,
+      134
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T02-S02-M02",
+   "title": "Rosacea",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T02-S02-M03",
+   "title": "Hidradenitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T03-S01-M01",
+   "title": "Cellulitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      131
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T03-S01-M02",
+   "title": "Impetigo",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      130
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_0db967c49be93f1a8fae",
+     "sourceRelativePath": "9. Zagazig Uni Books/CVS Handout (1).pdf",
+     "sha256": "7fbe309957609a24bb52c7fd5ad0f7ea3217bf05849adce3175179eec1c05b26",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      97
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T03-S01-M03",
+   "title": "Herpes",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 25,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      144,
+      145,
+      146
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_1188da2889a27a243f32",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro Urogenital 2022.pdf",
+     "sha256": "498d913bf0267f0d99adac4f06dfc339311b8354302561ebd02cdf07ae54e48a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      23,
+      59
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_1aa62233fb17a44c123d",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+     "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      150,
+      200,
+      233
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_21f1b07a441941435a9f",
+     "sourceRelativePath": "10. MTI Uni Books/med-musiii325-theoretical.pdf",
+     "sha256": "d3652f42726a1bbcafc9c920753856b3345045741b6ce7ecae88b90d9595c450",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      224
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      86
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T03-S01-M04",
+   "title": "Warts",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T03-S02-M01",
+   "title": "Dermatophytes",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T03-S02-M02",
+   "title": "Candida",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 11,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      77
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_497785a97d77065d2dce",
+     "sourceRelativePath": "9. Zagazig Uni Books/arranged practical Handout repro_compressed.pdf",
+     "sha256": "da2fb65aa8a3cfdfc0bfb4db396a6ae239721e4aba0ae6ba6d682eaa358dc410",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      4
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      197,
+      198
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_03e1739b27816f53b1df",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+     "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      99
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T03-S02-M03",
+   "title": "Scabies",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 13,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      177,
+      178,
+      179,
+      180
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_eb2c897d91079312eee5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Para practical ID1 2022.pdf",
+     "sha256": "fdcb623706eff73e2efe33709d45f17f9519f3d5daca00c2d4787f73ec7b0754",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      17
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_ff8aa084811ad812c70a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٢-١٢-٢٠٢٢ ١٨١٦_230805_212113.pdf",
+     "sha256": "acc4b03c54a826c12f3fd59a62b79643f250ffe71af5e7b39675b2272157645f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      31
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T03-S02-M04",
+   "title": "Lice",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_eb2c897d91079312eee5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Para practical ID1 2022.pdf",
+     "sha256": "fdcb623706eff73e2efe33709d45f17f9519f3d5daca00c2d4787f73ec7b0754",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      197
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T04-S01-M01",
+   "title": "Pemphigus",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T04-S01-M02",
+   "title": "Pemphigoid",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T04-S01-M03",
+   "title": "Dermatitis herpetiformis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T04-S02-M01",
+   "title": "Lupus",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 7,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      226
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      19
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T04-S02-M02",
+   "title": "Dermatomyositis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      88
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T04-S02-M03",
+   "title": "Scleroderma",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T05-S01-M01",
+   "title": "Nevi",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      109,
+      209
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T05-S01-M02",
+   "title": "Keratoses",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T05-S02-M01",
+   "title": "Melanoma",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 13,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      109,
+      210,
+      211
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_538a7745c950e57b53d9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Basic HISTOPATHOLOGY.pdf",
+     "sha256": "bdfe046401b928cf726061be479f1037ee793ee8c7f3372ae9d641311d08535a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      59
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      144
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_80789da965192fb095dc",
+     "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+     "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      157
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T05-S02-M02",
+   "title": "Basal cell carcinoma",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 107,
+   "localSources": 16,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_04262f8c5e6b26ed931b",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+     "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      13
+     ],
+     "records": 47
+    },
+    {
+     "sourceId": "src_538a7745c950e57b53d9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Basic HISTOPATHOLOGY.pdf",
+     "sha256": "bdfe046401b928cf726061be479f1037ee793ee8c7f3372ae9d641311d08535a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      58,
+      88
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      239,
+      240
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_a165a98952ffefcc0ebc",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+     "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      23,
+      24,
+      25
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      121
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_d33ff177d7f007f4fc72",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+     "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      12,
+      13,
+      14
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T05-S02-M03",
+   "title": "Squamous cell carcinoma",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 70,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      10,
+      11
+     ],
+     "records": 52
+    },
+    {
+     "sourceId": "src_538a7745c950e57b53d9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Basic HISTOPATHOLOGY.pdf",
+     "sha256": "bdfe046401b928cf726061be479f1037ee793ee8c7f3372ae9d641311d08535a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      56,
+      57,
+      68
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      206,
+      207
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      334
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_37d3e4715bb86cca6932",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+     "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      247
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      144
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T06-S01-M01",
+   "title": "Pressure injury",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      242,
+      250,
+      255
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_735e899515323dc5e944",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical CNS 2021 - 2022.pdf",
+     "sha256": "5d76b0c5b4da30a7120e6f15bf69ed9bbf5bd7ff5b2ae03d84c734809da24ba7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T06-S01-M02",
+   "title": "Burn assessment",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T06-S01-M03",
+   "title": "Wound healing",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      119
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      24
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-DER-T06-S02-M01",
+   "title": "Alopecia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-DER-T06-S02-M02",
+   "title": "Nail disorders",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_21f1b07a441941435a9f",
+     "sourceRelativePath": "10. MTI Uni Books/med-musiii325-theoretical.pdf",
+     "sha256": "d3652f42726a1bbcafc9c920753856b3345045741b6ce7ecae88b90d9595c450",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      169
+     ],
+     "records": 3
+    }
+   ]
+  }
+ ]
+}

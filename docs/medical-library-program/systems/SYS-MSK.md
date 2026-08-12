@@ -116,6 +116,23 @@ substitute for that ledger.
 
 Kasr Alainy `1. Anatomy` covers upper limb, lower limb and back. Together with CVS and NEU anatomy this is the best-evidenced local material. Rheumatology and orthopaedics have no processed local source.
 
+### Decided source plan (`SYS-MSK-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-MSK-source-plan.md`](../evidence/SYS-MSK-source-plan.md) ·
+[`SYS-MSK-source-plan.json`](../evidence/SYS-MSK-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 48 |
+| — with a processed local source | 31 |
+| — authored from authoritative sources only | 17 |
+| Distinct corpus files touching this system | 104 |
+
+The 17 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

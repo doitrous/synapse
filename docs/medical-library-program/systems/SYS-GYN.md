@@ -124,6 +124,23 @@ substitute for that ledger.
 
 No processed local source. 1 article is `Published` from this area (`ART-GYN-TOP-758E189B73`) with 111 concepts reaching in secondarily, largely anatomical and histological.
 
+### Decided source plan (`SYS-GYN-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-GYN-source-plan.md`](../evidence/SYS-GYN-source-plan.md) ·
+[`SYS-GYN-source-plan.json`](../evidence/SYS-GYN-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 42 |
+| — with a processed local source | 26 |
+| — authored from authoritative sources only | 16 |
+| Distinct corpus files touching this system | 139 |
+
+The 16 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

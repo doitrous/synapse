@@ -121,6 +121,23 @@ substitute for that ledger.
 
 **No processed local source and no content of any kind.** One of three zero-content systems.
 
+### Decided source plan (`SYS-MUL-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-MUL-source-plan.md`](../evidence/SYS-MUL-source-plan.md) ·
+[`SYS-MUL-source-plan.json`](../evidence/SYS-MUL-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 61 |
+| — with a processed local source | 39 |
+| — authored from authoritative sources only | 22 |
+| Distinct corpus files touching this system | 153 |
+
+The 22 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

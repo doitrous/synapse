@@ -124,6 +124,23 @@ substitute for that ledger.
 
 Kasr Alainy `1. Anatomy` (14 of 15 complete) carries substantial neuroanatomy. This is the second-best-evidenced system after CVS for the anatomy component; disease content has no processed local source.
 
+### Decided source plan (`SYS-NEU-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-NEU-source-plan.md`](../evidence/SYS-NEU-source-plan.md) ·
+[`SYS-NEU-source-plan.json`](../evidence/SYS-NEU-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 54 |
+| — with a processed local source | 37 |
+| — authored from authoritative sources only | 17 |
+| Distinct corpus files touching this system | 68 |
+
+The 17 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.

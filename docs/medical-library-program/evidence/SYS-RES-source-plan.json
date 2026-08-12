@@ -1,0 +1,2785 @@
+{
+ "task": "SYS-RES-SOURCE-001",
+ "rule": "Only files the corpus marks as processed are read. Extraction confidence is not medical verification (LD-08); every local claim is corroborated before publication.",
+ "summary": {
+  "system": "SYS-RES",
+  "title": "Respiratory System",
+  "plannedArticles": 58,
+  "withLocalEvidence": 44,
+  "withoutLocalEvidence": 14,
+  "distinctCorpusFiles": 142,
+  "corpusRecordsScanned": 110850,
+  "reviewedSources": 45
+ },
+ "nodes": [
+  {
+   "nodeId": "SYS-RES-T01-S01-M01",
+   "title": "Airways",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 42,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      49,
+      50,
+      51,
+      134,
+      135,
+      146,
+      147,
+      148
+     ],
+     "records": 28
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      6,
+      7,
+      37,
+      38,
+      39,
+      40
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_769c490217241bd0ca85",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Physio of Resp..pdf",
+     "sha256": "c0672d1c7d18d8a7ccead27c3c5e975f29dcb378e01477a2e1f05cecfc9592b9",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      19
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      103
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      59
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T01-S01-M02",
+   "title": "Lungs",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 979,
+   "localSources": 19,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "records": 533
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      58,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+     ],
+     "records": 109
+    },
+    {
+     "sourceId": "src_a643292c103e128628c2",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Cardiopulmonary 2021 - 2022.pdf",
+     "sha256": "9a5db3d3f6cae4736a5993f5f81552822e88bf77d90238fb8e79ffec2b00e1a5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+     ],
+     "records": 101
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      9,
+      34,
+      11,
+      50,
+      16,
+      49
+     ],
+     "records": 71
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38
+     ],
+     "records": 46
+    },
+    {
+     "sourceId": "src_215c1184c14bc22467dd",
+     "sourceRelativePath": "7. Menoufia Uni Books/نظرى bio_20191002184045.pdf",
+     "sha256": "47473dfb77305c19d94b7441a7661b948085f61a414163874e0b5b37d58db65c",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      21,
+      19,
+      20
+     ],
+     "records": 32
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T01-S01-M03",
+   "title": "Pleura",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 60,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      64,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      128
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_ec6b20fed61883c857c7",
+     "sourceRelativePath": "7. Menoufia Uni Books/هستو Resp.pdf",
+     "sha256": "ac54762fa8209b02d4ef55bfd91dae7434c30904daba50322d640a4b913f0c25",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      14
+     ],
+     "records": 19
+    },
+    {
+     "sourceId": "src_db01cd3c84232b926002",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب القسم نظري اناتومي الريسب.pdf",
+     "sha256": "5dee0706bbc675a028a8c21b45a14f627559bb1e91ff8eca97de9b96988a0eab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      85,
+      86,
+      88,
+      89
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_36f11b1cd87a7c99ee75",
+     "sourceRelativePath": "10. MTI Uni Books/med-res216-t.pdf",
+     "sha256": "cf9d03d02ef6f1c61f670e62c4266c76ed40465f3b4e02f0b73097a32803b192",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      18
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      51,
+      170
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_ed083ed39fefc3a804a6",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى هستو الريسب.pdf",
+     "sha256": "87637fbb135ef4f8d70924deb803bcb58431f04aaa61a5f5259c59416c1b02d0",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T01-S01-M04",
+   "title": "Chest wall",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a93aed3c2553231a1a21",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical GIT 2021 - 2022.pdf",
+     "sha256": "7970dafb47f3608b634f3a65a0f9da6af80da26e54b28d7effd7b367072b988f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      38
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_7a61da0e6aac8881c636",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظري الاناتومي GIT.pdf",
+     "sha256": "4f6b737b0039b5652aa1e3c1272ab154486b419d7d7dfcaf6f1b51dc7c107983",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      9
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T01-S02-M01",
+   "title": "Ventilation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 87,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a643292c103e128628c2",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Cardiopulmonary 2021 - 2022.pdf",
+     "sha256": "9a5db3d3f6cae4736a5993f5f81552822e88bf77d90238fb8e79ffec2b00e1a5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      39,
+      40
+     ],
+     "records": 28
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      1
+     ],
+     "records": 26
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      135,
+      137,
+      164,
+      165,
+      166,
+      167,
+      169,
+      170
+     ],
+     "records": 17
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      6,
+      37,
+      48,
+      50,
+      51,
+      57,
+      58
+     ],
+     "records": 11
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      190,
+      191
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      235
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T01-S02-M02",
+   "title": "Perfusion",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      202
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      169
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      212
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T01-S02-M03",
+   "title": "Diffusion",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 26,
+   "localSources": 7,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_6b5723c9bc02068ded20",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 1) 2021 - 2022.pdf",
+     "sha256": "363da3bb14aed1328dcb6aa3ffaa8397508a82046d5fb0313adf5c9878449463",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      8,
+      9,
+      10
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      216,
+      217,
+      218
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      245,
+      247
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      53,
+      55,
+      56
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_769c490217241bd0ca85",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Physio of Resp..pdf",
+     "sha256": "c0672d1c7d18d8a7ccead27c3c5e975f29dcb378e01477a2e1f05cecfc9592b9",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      65
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      19
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T01-S02-M04",
+   "title": "Gas transport",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 30,
+   "localSources": 8,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      54,
+      64,
+      65,
+      72,
+      75,
+      76,
+      78
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      23
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_2ccb76359b37e4eb949c",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+     "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      29,
+      32,
+      33
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_a438d15ad3d4595d7169",
+     "sourceRelativePath": "5. Beni Suef Uni Books/endo_physio_book.pdf",
+     "sha256": "256b1fb5d27fa9d48066e54c34d89b8f72f888072df3f087a1a9a2d58a75b8d7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      7,
+      61
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      116
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      196
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T01-S02-M05",
+   "title": "Control of breathing",
+   "level": "Microtopic",
+   "templateId": "TPL-CONCEPT",
+   "classification": "atomic article home",
+   "localRecords": 60,
+   "localSources": 10,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353
+     ],
+     "records": 37
+    },
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      26,
+      40,
+      55,
+      85,
+      91,
+      96,
+      174
+     ],
+     "records": 14
+    },
+    {
+     "sourceId": "src_a165a98952ffefcc0ebc",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+     "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      116
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_21f1b07a441941435a9f",
+     "sourceRelativePath": "10. MTI Uni Books/med-musiii325-theoretical.pdf",
+     "sha256": "d3652f42726a1bbcafc9c920753856b3345045741b6ce7ecae88b90d9595c450",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      277
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      116
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_042ca4d81b1c29fe2f86",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+     "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      91
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T02-S01-M01",
+   "title": "Dyspnea",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 15,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      60
+     ],
+     "records": 13
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      126
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T02-S01-M02",
+   "title": "Wheeze",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T02-S01-M03",
+   "title": "Cough",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 10,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      326,
+      327,
+      328,
+      329
+     ],
+     "records": 10
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T02-S02-M01",
+   "title": "Hemoptysis",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 28,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      35,
+      5,
+      20,
+      22,
+      24,
+      28,
+      30,
+      34
+     ],
+     "records": 28
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T02-S02-M02",
+   "title": "Pleuritic pain",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e39eba39327a2e96d185",
+     "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+     "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      105
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_735e899515323dc5e944",
+     "sourceRelativePath": "4. Alexandria Uni Books/Physio practical CNS 2021 - 2022.pdf",
+     "sha256": "5d76b0c5b4da30a7120e6f15bf69ed9bbf5bd7ff5b2ae03d84c734809da24ba7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T02-S02-M03",
+   "title": "Cyanosis",
+   "level": "Microtopic",
+   "templateId": "TPL-PRESENTATION",
+   "classification": "atomic article home",
+   "localRecords": 22,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      58
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      114,
+      115,
+      116
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      262
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_4fcde2b57a0e19aeed02",
+     "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+     "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      224,
+      238
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_769c490217241bd0ca85",
+     "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Physio of Resp..pdf",
+     "sha256": "c0672d1c7d18d8a7ccead27c3c5e975f29dcb378e01477a2e1f05cecfc9592b9",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      68
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T03-S01-M01",
+   "title": "Diagnosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1136,
+   "localSources": 88,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_0fa7fc721daaaaba9b83",
+     "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+     "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13,
+      14,
+      15,
+      16,
+      26,
+      36,
+      37,
+      41
+     ],
+     "records": 259
+    },
+    {
+     "sourceId": "src_0f9ac0f57d6feef6f0f5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Micro practical ID1 2022.pdf",
+     "sha256": "f476170707cc40b9db47ff4cf70d105c4a410fc1bcafb393e88c10d3706cbb43",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "records": 240
+    },
+    {
+     "sourceId": "src_65669c0c689c63fa1142",
+     "sourceRelativePath": "5. Beni Suef Uni Books/para&MCQ_heme_2023.pdf",
+     "sha256": "61c7aec52fc92c9d4f17dc10e1c969a741673d741057a44a61cd6a02b449054d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      12,
+      19,
+      26,
+      31,
+      38,
+      39,
+      43
+     ],
+     "records": 58
+    },
+    {
+     "sourceId": "src_1188da2889a27a243f32",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro Urogenital 2022.pdf",
+     "sha256": "498d913bf0267f0d99adac4f06dfc339311b8354302561ebd02cdf07ae54e48a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      10,
+      25,
+      37,
+      40,
+      43,
+      65
+     ],
+     "records": 51
+    },
+    {
+     "sourceId": "src_9723e7eea15ca076987e",
+     "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+     "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      50,
+      35,
+      36,
+      40,
+      51,
+      54,
+      78,
+      79
+     ],
+     "records": 39
+    },
+    {
+     "sourceId": "src_6e43bd4ea3b5c90fd67a",
+     "sourceRelativePath": "10. MTI Uni Books/OPH 331 Book.pdf",
+     "sha256": "99cbb4bc1e8be26c0902daf5f90861dd7578d304b6d00b30eb63185a9ed0eb1f",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      161,
+      42,
+      92,
+      180,
+      202,
+      158,
+      182,
+      95
+     ],
+     "records": 35
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T03-S01-M02",
+   "title": "Severity",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 78,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4865e798657dae9ae555",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology Practical.pdf_20200402185629.pdf",
+     "sha256": "7ccc70186c677e5a3224c6368995b8adf8133ecda0903d84b2de5bc288c8f256",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      69,
+      70,
+      71,
+      72
+     ],
+     "records": 74
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      315,
+      324
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      216
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      11
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T03-S01-M03",
+   "title": "Acute attack",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      153
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T03-S01-M04",
+   "title": "Long-term control",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 21,
+   "localSources": 7,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      110,
+      190,
+      202,
+      219
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_aae1edfe64873641d32b",
+     "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+     "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      131,
+      132,
+      169
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_121fc7e66378adf48d74",
+     "sourceRelativePath": "6. Fayoum Uni Books/Synaptic_transmission_كتاب_القسم_فسيولوجي.pdf",
+     "sha256": "f900e7d8d48d5148bf59583facafdfad392a1aad17e7d15d19b6adfd4ff9d9d4",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      11
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_167b4afb7ce843338d76",
+     "sourceRelativePath": "7. Menoufia Uni Books/practical pharmacology.pdf",
+     "sha256": "85bb68897467691521d25c3d6994a025a337a28fb3cd7316157519f411cb706d",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      19,
+      10
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_33db19276e2bf2d0c9d4",
+     "sourceRelativePath": "4. Alexandria Uni Books/CNS 2022.pdf",
+     "sha256": "70667940e27e58a5ca479c1440704f219414fd4a3c6ceba401267e364b8158bd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      103
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_1028df0326123f12fcc0",
+     "sourceRelativePath": "9. Zagazig Uni Books/CNS FINAL EDITION.pdf",
+     "sha256": "06400068e012ceffc1a31fd814de1db2bfb52733ee93621e845b462d0b4f8cad",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      299
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T03-S02-M01",
+   "title": "COPD",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9b10127ab60cdaf1724d",
+     "sourceRelativePath": "7. Menoufia Uni Books/نظرى pharma_20191003230159.pdf",
+     "sha256": "4ae38a483cd7cb4602a4c5a59b9f849c614fd5f19a2eb067ba093f6367e50c4e",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      4
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T03-S02-M02",
+   "title": "Exacerbation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T03-S02-M03",
+   "title": "Bronchiectasis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 92,
+   "localSources": 5,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      19
+     ],
+     "records": 58
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "records": 20
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      188,
+      189
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_33f3bba572c536675aa7",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الريسب.pdf",
+     "sha256": "70c644ce4febbe2b737c6ccb10aa5500462f1f65f830760c3aba3ca066488106",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      8,
+      9,
+      10
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      31
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T03-S02-M04",
+   "title": "Cystic fibrosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      227
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_b53daf0114f285089f1a",
+     "sourceRelativePath": "4. Alexandria Uni Books/GIT system 2021 - 2022.pdf",
+     "sha256": "8ff888164297ff783343ff062b652c8b783b9a3047ab79742373016d0584876f",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      137
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_d172a06788fd6b78ae39",
+     "sourceRelativePath": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+     "sha256": "7303bdd66061b5c10f455d03ea96bf65b97bccd55f423b65e989279ffef6665e",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      105
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T04-S01-M01",
+   "title": "URTI",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T04-S01-M02",
+   "title": "Pneumonia",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 208,
+   "localSources": 7,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      20,
+      21,
+      22,
+      23
+     ],
+     "records": 85
+    },
+    {
+     "sourceId": "src_6658fe937e28d6994f59",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro resp (نظرى )2023.pdf",
+     "sha256": "497ced692630cb7a74dd16d6ffefe1e53233de8108f9ab9f188b69d25c3785bc",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      19,
+      21,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+     ],
+     "records": 44
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+     ],
+     "records": 37
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      282,
+      283,
+      284,
+      285,
+      303,
+      323,
+      324,
+      325
+     ],
+     "records": 30
+    },
+    {
+     "sourceId": "src_33f3bba572c536675aa7",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الريسب.pdf",
+     "sha256": "70c644ce4febbe2b737c6ccb10aa5500462f1f65f830760c3aba3ca066488106",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      16,
+      17,
+      18,
+      19,
+      20
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      28,
+      33
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T04-S01-M03",
+   "title": "Lung abscess",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 100,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      24,
+      25
+     ],
+     "records": 77
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      23,
+      24,
+      25,
+      26
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      281,
+      282
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_33f3bba572c536675aa7",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الريسب.pdf",
+     "sha256": "70c644ce4febbe2b737c6ccb10aa5500462f1f65f830760c3aba3ca066488106",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      21,
+      22
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      129
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_36f11b1cd87a7c99ee75",
+     "sourceRelativePath": "10. MTI Uni Books/med-res216-t.pdf",
+     "sha256": "cf9d03d02ef6f1c61f670e62c4266c76ed40465f3b4e02f0b73097a32803b192",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      270
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T04-S02-M01",
+   "title": "Pulmonary TB",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T04-S02-M02",
+   "title": "Extrapulmonary TB",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T04-S02-M03",
+   "title": "Latent TB",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      278
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T05-S01-M01",
+   "title": "Idiopathic pulmonary fibrosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      209,
+      211
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T05-S01-M02",
+   "title": "Sarcoidosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 39,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d29389d5b0d7664fe7cf",
+     "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      24
+     ],
+     "records": 22
+    },
+    {
+     "sourceId": "src_8ebcb5f6ee01503617e4",
+     "sourceRelativePath": "8. Tanta Uni Books/General Pathology 2018-2019.pdf",
+     "sha256": "0ec7ced73dd02cf8a8ace0a1edc4a5e54fe584e0f8a76d33f7061a312091465a",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      63
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_b3ac0010a74f397c2eeb",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم.PDF",
+     "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      24
+     ],
+     "records": 8
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T05-S01-M03",
+   "title": "Connective-tissue ILD",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 454,
+   "localSources": 12,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_a21160347e621c471c24",
+     "sourceRelativePath": "6. Fayoum Uni Books/هستو.pdf",
+     "sha256": "2f07650d8dad127a38c8f0e2d9c588d0c942ceaa41932029611bd00f7d77cb9f",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+     ],
+     "records": 354
+    },
+    {
+     "sourceId": "src_a165a98952ffefcc0ebc",
+     "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+     "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      5,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+     ],
+     "records": 27
+    },
+    {
+     "sourceId": "src_ed90145ab9a95dac05d6",
+     "sourceRelativePath": "4. Alexandria Uni Books/Histo practical Foundation 2021 - 2022.pdf",
+     "sha256": "4463fbb9d9f62aba5e1fef80cf7ef7f175e81227b2462cc6aeee641f6b2e3cfd",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_7ce0efcd6dd7a554ac3b",
+     "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Foundation Histology 2021-2022.pdf",
+     "sha256": "668f930a52f99b744d0a2fc2aa54beec79853291e38b52fe4f1727e2f74ee52e",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      42,
+      53,
+      54
+     ],
+     "records": 17
+    },
+    {
+     "sourceId": "src_d172a06788fd6b78ae39",
+     "sourceRelativePath": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+     "sha256": "7303bdd66061b5c10f455d03ea96bf65b97bccd55f423b65e989279ffef6665e",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      91
+     ],
+     "records": 12
+    },
+    {
+     "sourceId": "src_7bf413896ce181e91869",
+     "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+     "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      49
+     ],
+     "records": 5
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T05-S02-M01",
+   "title": "Pneumoconiosis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 42,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      31
+     ],
+     "records": 34
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      211,
+      212
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_33f3bba572c536675aa7",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الريسب.pdf",
+     "sha256": "70c644ce4febbe2b737c6ccb10aa5500462f1f65f830760c3aba3ca066488106",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      32,
+      33
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T05-S02-M02",
+   "title": "Hypersensitivity pneumonitis",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 18,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_d7e6ce9ce75a240e07b3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro heme dr Kareem .pdf",
+     "sha256": "ed4d6228e8c693c9204da0ca486bf8aa0fcaac45e708ab51d37b182a2bc7ae56",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      48,
+      55,
+      56,
+      57
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_543a4cf673b4e8017858",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro hematopoietic.pdf",
+     "sha256": "11f0a2bd61ad1f41036f0c1ae066a822f678436f783b6110cbd640fe96620b7a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      68,
+      72,
+      75,
+      76,
+      77
+     ],
+     "records": 7
+    },
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      81
+     ],
+     "records": 2
+    },
+    {
+     "sourceId": "src_9fcedc12be691a455a31",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+     "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      191
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T05-S02-M03",
+   "title": "Smoking injury",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 2,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      376
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T06-S01-M01",
+   "title": "Pulmonary embolism",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 12,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      340,
+      341
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      102,
+      103
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_18f91caf6a8e4a695944",
+     "sourceRelativePath": "10. MTI Uni Books/PAT 108 I.pdf",
+     "sha256": "7f03015eaf758a4b704f09f4e9d28b9981d016712f871a332372c6a413f61337",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      68
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      19
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T06-S01-M02",
+   "title": "Pulmonary hypertension",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 196,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_2eea679773736fe01753",
+     "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+     "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+     ],
+     "records": 164
+    },
+    {
+     "sourceId": "src_58458a9e861096466774",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+     "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      208,
+      209,
+      210,
+      256
+     ],
+     "records": 19
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      11,
+      32,
+      33,
+      34,
+      35
+     ],
+     "records": 10
+    },
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      15
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T06-S02-M01",
+   "title": "Effusion",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 13,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      117,
+      118,
+      119
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_99d6986f57e3e3c8e44f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+     "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      163
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_f6b7f1d5343f3cdd7802",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+     "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      24
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T06-S02-M02",
+   "title": "Pneumothorax",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 26,
+   "localSources": 4,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      7
+     ],
+     "records": 15
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      119,
+      140
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      87
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      22,
+      23
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T06-S02-M03",
+   "title": "Empyema",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 43,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_b1a99fb4f92445424ff2",
+     "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+     "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+     "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+     "reviewState": "processed",
+     "pages": [
+      25,
+      26
+     ],
+     "records": 33
+    },
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      88,
+      89,
+      90
+     ],
+     "records": 8
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      118,
+      119
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T06-S02-M04",
+   "title": "Mesothelioma",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 9,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9bd66b9ed82032793f44",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+     "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      83,
+      84
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      121
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_cf2a12cc2afaad70152f",
+     "sourceRelativePath": "7. Menoufia Uni Books/patho_respiratory.pdf",
+     "sha256": "a1f01db812a2e37215aad1240bdc8907d26a7a502b1fcf5beb04ffe6c2fb6448",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      43
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T07",
+   "title": "Respiratory failure, sleep and neoplasia",
+   "level": "Topic",
+   "templateId": "TPL-CONDITION",
+   "classification": "overview article",
+   "localRecords": 128,
+   "localSources": 3,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_538a7745c950e57b53d9",
+     "sourceRelativePath": "4. Alexandria Uni Books/Basic HISTOPATHOLOGY.pdf",
+     "sha256": "bdfe046401b928cf726061be479f1037ee793ee8c7f3372ae9d641311d08535a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      43,
+      44,
+      45,
+      49,
+      51,
+      53,
+      54,
+      56
+     ],
+     "records": 68
+    },
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+     ],
+     "records": 57
+    },
+    {
+     "sourceId": "src_9a046bd2ae8727ae3d6f",
+     "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+     "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      147,
+      148
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T07-S01-M01",
+   "title": "Type I",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 97,
+   "localSources": 20,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_5787ebb65b677c6f85af",
+     "sourceRelativePath": "4. Alexandria Uni Books/Research step 3 - 2022.pdf",
+     "sha256": "06af1e3298b24ed1d5a0170e9dcfb6259b378e44b3641b62f608d86fab286946",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      69,
+      70,
+      71
+     ],
+     "records": 38
+    },
+    {
+     "sourceId": "src_d7e6ce9ce75a240e07b3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro heme dr Kareem .pdf",
+     "sha256": "ed4d6228e8c693c9204da0ca486bf8aa0fcaac45e708ab51d37b182a2bc7ae56",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      49,
+      50,
+      51,
+      52
+     ],
+     "records": 9
+    },
+    {
+     "sourceId": "src_063ab13067c43658a438",
+     "sourceRelativePath": "6. Fayoum Uni Books/micro git القسم.pdf",
+     "sha256": "2243ec6443994c6adc0bfedd11fd78bd70b6e7f439c43b516429e67aa98d2fa8",
+     "processingStatus": "taxonomy_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      5,
+      7,
+      13
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      108,
+      110,
+      111,
+      112
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      81,
+      82
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_455a492b63cc8ab4da2a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Biochemistry_Heme.pdf",
+     "sha256": "75953d09333b2a879fa57ae04b5addb221bcf1dd988ae25dd6c2fbd02a62ffc5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      11
+     ],
+     "records": 4
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T07-S01-M02",
+   "title": "Type II",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 21,
+   "localSources": 6,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_25b20814c2356badddf5",
+     "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+     "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      83,
+      84
+     ],
+     "records": 6
+    },
+    {
+     "sourceId": "src_543a4cf673b4e8017858",
+     "sourceRelativePath": "5. Beni Suef Uni Books/Micro hematopoietic.pdf",
+     "sha256": "11f0a2bd61ad1f41036f0c1ae066a822f678436f783b6110cbd640fe96620b7a",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      73,
+      74
+     ],
+     "records": 5
+    },
+    {
+     "sourceId": "src_faff0099eb36bfb00297",
+     "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Cardiopulmonary Histology 2021-2022.pdf",
+     "sha256": "9d75a67ec2462eb6cdbb9eb5e0527483165f51cbb5a0ef026abd115b0c844692",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      14,
+      27
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_d7e6ce9ce75a240e07b3",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro heme dr Kareem .pdf",
+     "sha256": "ed4d6228e8c693c9204da0ca486bf8aa0fcaac45e708ab51d37b182a2bc7ae56",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      53,
+      54
+     ],
+     "records": 4
+    },
+    {
+     "sourceId": "src_ed083ed39fefc3a804a6",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى هستو الريسب.pdf",
+     "sha256": "87637fbb135ef4f8d70924deb803bcb58431f04aaa61a5f5259c59416c1b02d0",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      13
+     ],
+     "records": 1
+    },
+    {
+     "sourceId": "src_ce7eefa2bb550ddf439b",
+     "sourceRelativePath": "8. Tanta Uni Books/Tanta pharmacology book.pdf",
+     "sha256": "e8e6d3b3093fe3f0d5899643438cf1a4404b7e666c42899e1b4f814c2ccb2b86",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      137
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T07-S01-M03",
+   "title": "ARDS",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 5,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      177,
+      178
+     ],
+     "records": 3
+    },
+    {
+     "sourceId": "src_33f3bba572c536675aa7",
+     "sourceRelativePath": "5. Beni Suef Uni Books/باثو الريسب.pdf",
+     "sha256": "70c644ce4febbe2b737c6ccb10aa5500462f1f65f830760c3aba3ca066488106",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      34
+     ],
+     "records": 2
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T07-S01-M04",
+   "title": "Ventilation",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T07-S02-M01",
+   "title": "OSA",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T07-S02-M02",
+   "title": "Central sleep apnea",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 24,
+   "localSources": 2,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_4ed9bc5e3d4dde5baf51",
+     "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+     "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+     "processingStatus": "machine_complete_review_required",
+     "reviewState": "review required",
+     "pages": [
+      62
+     ],
+     "records": 23
+    },
+    {
+     "sourceId": "src_7b6d4d7196f92a52cb16",
+     "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+     "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      127
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T07-S03-M01",
+   "title": "Lung cancer",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 3,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_410ad21e1175cc81451f",
+     "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+     "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      42
+     ],
+     "records": 3
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T07-S03-M02",
+   "title": "Mediastinal tumors",
+   "level": "Microtopic",
+   "templateId": "TPL-CONDITION",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T08-S01-M01",
+   "title": "Chest X-ray",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T08-S01-M02",
+   "title": "CT chest",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T08-S01-M03",
+   "title": "Spirometry",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 6,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_9a68413d2b875b3cb4ca",
+     "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+     "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      161,
+      162,
+      163,
+      362
+     ],
+     "records": 6
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T08-S01-M04",
+   "title": "ABG",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T08-S02-M01",
+   "title": "Oxygen delivery",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 1,
+   "localSources": 1,
+   "sourcePlan": "local corpus, corroborated",
+   "coverageRisk": null,
+   "sources": [
+    {
+     "sourceId": "src_e6b96209d05b9a61260a",
+     "sourceRelativePath": "5. Beni Suef Uni Books/micro.pdf",
+     "sha256": "3c0078b59699b46e02f09b236a91b7a8dbf6d9f8692c1f5bc93a704309ea58ec",
+     "processingStatus": "taxonomy_complete",
+     "reviewState": "processed",
+     "pages": [
+      30
+     ],
+     "records": 1
+    }
+   ]
+  },
+  {
+   "nodeId": "SYS-RES-T08-S02-M02",
+   "title": "Nebulization",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T08-S02-M03",
+   "title": "Pleural aspiration",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  },
+  {
+   "nodeId": "SYS-RES-T08-S02-M04",
+   "title": "Chest drain",
+   "level": "Microtopic",
+   "templateId": "TPL-SKILL",
+   "classification": "atomic article home",
+   "localRecords": 0,
+   "localSources": 0,
+   "sourcePlan": "authoritative sources only",
+   "coverageRisk": "No processed local source teaches this node. Authored from current authoritative sources; local curriculum emphasis is unverified until more of the corpus is processed (LD-14).",
+   "sources": []
+  }
+ ]
+}

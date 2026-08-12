@@ -108,6 +108,23 @@ substitute for that ledger.
 
 No university folder maps cleanly to SYS-DEV. Helwan `Files & MCQs` (509 complete) is the most likely carrier of paediatrics and community-medicine teaching and must be searched by content rather than by folder name. Expect to author predominantly from authoritative web sources with Egyptian national programme sources for immunisation schedules.
 
+### Decided source plan (`SYS-DEV-SOURCE-001`, 2026-08-12)
+
+Evidence: [`SYS-DEV-source-plan.md`](../evidence/SYS-DEV-source-plan.md) ·
+[`SYS-DEV-source-plan.json`](../evidence/SYS-DEV-source-plan.json).
+
+| | |
+|---|---:|
+| Planned articles | 33 |
+| — with a processed local source | 20 |
+| — authored from authoritative sources only | 13 |
+| Distinct corpus files touching this system | 91 |
+
+The 13 without a local source are **not** blocked. Under `LD-14` they are
+authored from current authoritative sources, and their local curriculum emphasis
+is recorded as a coverage risk rather than hidden. Local material establishes
+emphasis; it never substitutes for medical verification (`LD-08`).
+
 **Corpus-wide readiness (2026-08-12):** 765 of 3,238 files complete
 (29,432 of 106,362 pages, 27.7%); 2,356 pending; 96 blocked; 15 retracted.
 Every "complete" file is in a `*_review_required` state.
