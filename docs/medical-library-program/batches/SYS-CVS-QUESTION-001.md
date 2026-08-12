@@ -22,7 +22,7 @@ A
 The fibrous pericardium and the serous pericardium
 
 ## explanation_a
-Correct. The pericardium has two components: an outer fibrous pericardium, a tough and inextensible connective-tissue sac, and an inner serous pericardium arranged as a parietal layer lining that sac and a visceral layer on the heart itself. Naming both, and knowing that the serous one has two layers while the fibrous one does not, is what this concept asks for.
+The pericardium has two components: an outer fibrous pericardium, a tough and inextensible connective-tissue sac, and an inner serous pericardium arranged as a parietal layer lining that sac and a visceral layer on the heart itself. Naming both, and knowing that the serous one has two layers while the fibrous one does not, is what this concept asks for.
 
 ## answer_b
 The endocardium and the epicardium
@@ -128,7 +128,7 @@ A
 The parietal and visceral layers of the serous pericardium
 
 ## explanation_a
-Correct. The pericardial cavity is the potential space between the parietal serous layer, which lines the fibrous pericardium, and the visceral serous layer, which is the epicardium. Normally it holds only a thin film of serous fluid that lets the heart move without friction. An effusion is an abnormal volume in that same space, not a new one.
+The pericardial cavity is the potential space between the parietal serous layer, which lines the fibrous pericardium, and the visceral serous layer, which is the epicardium. Normally it holds only a thin film of serous fluid that lets the heart move without friction. An effusion is an abnormal volume in that same space, not a new one.
 
 ## answer_b
 The fibrous pericardium and the parietal layer of the serous pericardium
@@ -246,7 +246,7 @@ The apex lies free within the pericardial cavity and is covered by visceral laye
 Where the serous pericardium reflects around the roots of the great vessels
 
 ## explanation_b
-Correct. The serous pericardium is a single closed sac that the heart has pushed into from behind, so the two layers are continuous at the reflections: an arterial reflection around the ascending aorta and pulmonary trunk, and a venous one around the venae cavae and pulmonary veins. Those reflections are what create the transverse and oblique pericardial sinuses.
+The serous pericardium is a single closed sac that the heart has pushed into from behind, so the two layers are continuous at the reflections: an arterial reflection around the ascending aorta and pulmonary trunk, and a venous one around the venae cavae and pulmonary veins. Those reflections are what create the transverse and oblique pericardial sinuses.
 
 ## answer_c
 Along the atrioventricular groove
@@ -358,7 +358,7 @@ The anterior mediastinum is the narrow space between the sternum and the front o
 The middle mediastinum
 
 ## explanation_c
-Correct. The inferior mediastinum is subdivided by the pericardium: what lies within the pericardium is the middle mediastinum, so the heart, the pericardium and the roots of the great vessels define this compartment rather than merely sitting in it. This is why the compartment boundaries are worth learning as relations rather than as a list.
+The inferior mediastinum is subdivided by the pericardium: what lies within the pericardium is the middle mediastinum, so the heart, the pericardium and the roots of the great vessels define this compartment rather than merely sitting in it. This is why the compartment boundaries are worth learning as relations rather than as a list.
 
 ## answer_d
 The posterior mediastinum
@@ -478,7 +478,7 @@ The phrenic nerve does run alongside the pericardium, but on its lateral surface
 The oesophagus
 
 ## explanation_d
-Correct. The oesophagus runs in the posterior mediastinum immediately behind the pericardium, separated from the left atrium by little more than the pericardium itself. A mass expanding forwards from behind meets it before anything else. This close relation is also why an enlarged left atrium indents the oesophagus.
+The oesophagus runs in the posterior mediastinum immediately behind the pericardium, separated from the left atrium by little more than the pericardium itself. A mass expanding forwards from behind meets it before anything else. This close relation is also why an enlarged left atrium indents the oesophagus.
 
 ## main_concept
 CON-CVS-AE28ABD8CE2B0B
@@ -575,7 +575,7 @@ Nothing of the heart lies in front of the sternum. This is chosen by students wh
 The heart lies behind the sternum and the adjacent costal cartilages
 
 ## explanation_b
-Correct. The heart, within its pericardium, lies immediately behind the body of the sternum and the costal cartilages that flank it. This single relation is what makes the anterior chest wall the route for cardiac examination, for surface marking, and for compressing the heart between the sternum and the vertebral column.
+The heart, within its pericardium, lies immediately behind the body of the sternum and the costal cartilages that flank it. This single relation is what makes the anterior chest wall the route for cardiac examination, for surface marking, and for compressing the heart between the sternum and the vertebral column.
 
 ## answer_c
 The heart lies behind the manubrium, above the plane of the sternal angle
@@ -675,7 +675,7 @@ A
 The body of the sternum and the thoracic vertebral column
 
 ## explanation_a
-Correct. The heart lies retrosternally, and the vertebral bodies lie directly behind it. Because the anteroposterior distance between these two rigid structures is short and both are unyielding, depressing the sternum reduces the space and compresses the heart within it. This is the anatomical consequence of the retrosternal position, and it is the reason the position matters clinically rather than only descriptively.
+The heart lies retrosternally, and the vertebral bodies lie directly behind it. Because the anteroposterior distance between these two rigid structures is short and both are unyielding, depressing the sternum reduces the space and compresses the heart within it. This is the anatomical consequence of the retrosternal position, and it is the reason the position matters clinically rather than only descriptively.
 
 ## answer_b
 The manubrium and the arch of the aorta
@@ -796,7 +796,7 @@ No such named ligament anchors the pericardium; the thymus lies in front of the 
 The superior and inferior sternopericardial ligaments
 
 ## explanation_c
-Correct. Two condensations of connective tissue, named superior and inferior sternopericardial ligaments, run from the fibrous pericardium to the posterior surface of the sternum. Together with the diaphragmatic and great-vessel attachments they hold the heart in a stable position through the movements of respiration, which is why the heart does not swing freely inside the thorax.
+Two condensations of connective tissue, named superior and inferior sternopericardial ligaments, run from the fibrous pericardium to the posterior surface of the sternum. Together with the diaphragmatic and great-vessel attachments they hold the heart in a stable position through the movements of respiration, which is why the heart does not swing freely inside the thorax.
 
 ## answer_d
 The fibrous continuation of the endothoracic fascia over the pericardium
@@ -914,7 +914,7 @@ The right atrium forms the right border of the heart, lying to the right of the 
 Right ventricle
 
 ## explanation_d
-Correct. The heart is rotated so that the morphologically right chambers lie anteriorly, and the right ventricle forms most of the sternocostal surface. It therefore lies immediately behind the body of the sternum and the left parasternal costal cartilages. This is the reason the right ventricle is the chamber most often injured by penetrating anterior chest trauma, despite being the one students think of last.
+The heart is rotated so that the morphologically right chambers lie anteriorly, and the right ventricle forms most of the sternocostal surface. It therefore lies immediately behind the body of the sternum and the left parasternal costal cartilages. This is the reason the right ventricle is the chamber most often injured by penetrating anterior chest trauma, despite being the one students think of last.
 
 ## main_concept
 CON-CVS-4B1B7D6AE18CC6
@@ -1019,7 +1019,7 @@ The right atrium contributes to the base, but only to a lesser extent; its main 
 The left atrium
 
 ## explanation_b
-Correct. The base is formed mainly by the left atrium, with a smaller contribution from the right atrium. The left atrium is the most posterior chamber, receiving the pulmonary veins, and it is this position that puts it directly in front of the oesophagus.
+The base is formed mainly by the left atrium, with a smaller contribution from the right atrium. The left atrium is the most posterior chamber, receiving the pulmonary veins, and it is this position that puts it directly in front of the oesophagus.
 
 ## answer_c
 The left ventricle
@@ -1134,7 +1134,7 @@ The right ventricle is the anterior chamber; enlargement lifts the apex and fill
 The left atrium, because it lies posteriorly, directly in front of the oesophagus and below the carina
 
 ## explanation_c
-Correct. The left atrium is the most posterior chamber, sitting immediately anterior to the oesophagus and inferior to the tracheal bifurcation. As it enlarges it displaces the oesophagus backwards, splays the carina upwards, and projects to the right far enough to appear as a second contour within the right heart border. One position explains all three findings, which is what makes the left atrium's posterior relation worth knowing rather than merely reciting.
+The left atrium is the most posterior chamber, sitting immediately anterior to the oesophagus and inferior to the tracheal bifurcation. As it enlarges it displaces the oesophagus backwards, splays the carina upwards, and projects to the right far enough to appear as a second contour within the right heart border. One position explains all three findings, which is what makes the left atrium's posterior relation worth knowing rather than merely reciting.
 
 ## answer_d
 The left ventricle, because mitral stenosis obstructs its filling
@@ -1242,7 +1242,7 @@ A
 It begins anterior to the aorta, then passes to its left, and ends behind it as it divides
 
 ## explanation_a
-Correct. The pulmonary trunk arises in front of the ascending aorta, winds to the left of it, and its bifurcation lies behind and to the left. The relation changes along the vessel's course rather than staying fixed, which is why the answer has to be given as a sequence. This spiral arrangement is the adult trace of a spiral aorticopulmonary septum.
+The pulmonary trunk arises in front of the ascending aorta, winds to the left of it, and its bifurcation lies behind and to the left. The relation changes along the vessel's course rather than staying fixed, which is why the answer has to be given as a sequence. This spiral arrangement is the adult trace of a spiral aorticopulmonary septum.
 
 ## answer_b
 It lies posterior to the aorta along its whole course
@@ -1357,7 +1357,7 @@ Complete failure of the septum gives a persistent truncus arteriosus: one vessel
 The aorticopulmonary septum formed but descended straight instead of spiralling
 
 ## explanation_b
-Correct. The normal septum spirals as it descends, which is what carries the aorta round to the left ventricle and the pulmonary trunk to the right, and what leaves the two vessels winding around one another in the adult. A septum that descends without spiralling connects each vessel to the ventricle it started in front of, giving transposition: aorta from the right ventricle, pulmonary trunk from the left, and two parallel vessels rather than crossing ones.
+The normal septum spirals as it descends, which is what carries the aorta round to the left ventricle and the pulmonary trunk to the right, and what leaves the two vessels winding around one another in the adult. A septum that descends without spiralling connects each vessel to the ventricle it started in front of, giving transposition: aorta from the right ventricle, pulmonary trunk from the left, and two parallel vessels rather than crossing ones.
 
 ## answer_c
 The endocardial cushions failed to fuse
@@ -1471,7 +1471,7 @@ A
 The point in the second intercostal space at the right sternal edge
 
 ## explanation_a
-Correct. The aortic area is at the right second intercostal space, even though the aortic valve itself lies behind the left half of the sternum at about the third space. The area is placed where the sound arrives, not where the valve sits: blood ejected through the valve travels up and to the right in the ascending aorta, carrying the sound with it.
+The aortic area is at the right second intercostal space, even though the aortic valve itself lies behind the left half of the sternum at about the third space. The area is placed where the sound arrives, not where the valve sits: blood ejected through the valve travels up and to the right in the ascending aorta, carrying the sound with it.
 
 ## answer_b
 The point in the second intercostal space at the left sternal edge
@@ -1606,7 +1606,7 @@ Turbulence does arise at and beyond the narrowed orifice, and sound is generated
 Sound is transmitted in the direction of blood flow, and ejected blood travels up and to the right in the ascending aorta
 
 ## explanation_d
-Correct. Auscultation areas are positioned downstream of each valve, along the path the blood takes. Blood crossing the aortic valve enters the ascending aorta, which runs upwards and to the right, so the sound is carried to the right second intercostal space. The valve's own position is not where the sound arrives, which is the whole reason the areas are named separately from the valves.
+Auscultation areas are positioned downstream of each valve, along the path the blood takes. Blood crossing the aortic valve enters the ascending aorta, which runs upwards and to the right, so the sound is carried to the right second intercostal space. The valve's own position is not where the sound arrives, which is the whole reason the areas are named separately from the valves.
 
 ## main_concept
 CON-CVS-AA14CA86F39233
@@ -1709,7 +1709,7 @@ This applies the aortic answer to a different valve. Blood crossing the *mitral*
 At the apex, because blood crossing the mitral valve flows towards the apex of the left ventricle
 
 ## explanation_c
-Correct. The rule is directional, not positional: listen downstream. Mitral flow is atrium to ventricle, directed towards the apex, so the sound is carried there and the mitral area is at the apex in the fifth intercostal space at the midclavicular line. Applying the method rather than recalling the answer is what this question asks for.
+The rule is directional, not positional: listen downstream. Mitral flow is atrium to ventricle, directed towards the apex, so the sound is carried there and the mitral area is at the apex in the fifth intercostal space at the midclavicular line. Applying the method rather than recalling the answer is what this question asks for.
 
 ## answer_d
 At the lower left sternal edge, because that lies between the mitral valve and the apex

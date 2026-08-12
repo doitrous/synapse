@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useSearchParams, useLocation } from 'react-router-dom'
-import { backState } from '@/components/ui/BackBar'
+import { useSearchParams, useLocation } from 'react-router-dom'
 import {
   ListChecks,
   Clock,
@@ -10,7 +9,7 @@ import {
   ArrowLeft,
   Play,
   BookOpen,
-  FileText,
+  ChevronDown,
   RotateCcw,
   Trophy,
   GraduationCap,
@@ -18,6 +17,7 @@ import {
   Flame,
   Shuffle,
   Flag,
+  Bookmark,
   TrendingDown,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
@@ -36,6 +36,8 @@ import { cn } from '@/lib/cn'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { TopicChooser } from '@/components/qbank/TopicChooser'
+import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
+import { StudyRail } from '@/components/qbank/StudyRail'
 import { questionsInScope, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
 
@@ -84,6 +86,10 @@ export function QuestionBank() {
   const [reviewing, setReviewing] = useState(false)
   const [elapsed, setElapsed] = useState(0)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
+  /** Indexes the student has actually landed on — what separates "omitted" from "unseen". */
+  const [visited, setVisited] = useState<Set<number>>(() => new Set([0]))
+  const [marked, setMarked] = useState<Set<string>>(() => new Set())
+  const [showAllRationales, setShowAllRationales] = useState(false)
 
   const articleQuestions = useMemo(
     () => (articleFilter ? questions.filter((question) => question.libraryRefs.some((ref) => ref.id === articleFilter)) : questions),
@@ -109,6 +115,9 @@ export function QuestionBank() {
     setChecked({})
     setReviewing(false)
     setElapsed(0)
+    setVisited(new Set([0]))
+    setMarked(new Set())
+    setShowAllRationales(false)
     setPhase('running')
   }, [questions, requestedReview])
 
@@ -118,6 +127,13 @@ export function QuestionBank() {
     return () => clearInterval(id)
   }, [phase, mode, reviewing])
 
+  // Landing on a question is what makes it "seen", however the student got here —
+  // Next, Previous, or a jump from the navigator.
+  useEffect(() => {
+    setVisited((current) => (current.has(idx) ? current : new Set(current).add(idx)))
+    setShowAllRationales(false)
+  }, [idx])
+
   function start() {
     const picked = shuffle(available).slice(0, Math.min(count, available.length))
     setSession(picked)
@@ -126,6 +142,9 @@ export function QuestionBank() {
     setChecked({})
     setReviewing(false)
     setElapsed(0)
+    setVisited(new Set([0]))
+    setMarked(new Set())
+    setShowAllRationales(false)
     setPhase('running')
   }
 
@@ -144,6 +163,9 @@ export function QuestionBank() {
     setChecked({})
     setReviewing(false)
     setElapsed(0)
+    setVisited(new Set([0]))
+    setMarked(new Set())
+    setShowAllRationales(false)
     setPhase('running')
   }
 
@@ -426,6 +448,19 @@ export function QuestionBank() {
   const revealed = reviewing || Boolean(checked[q.id])
   const chosen = answers[q.id]
   const last = idx === session.length - 1
+  const correctRationale = q.options.find((option) => option.correct)?.rationale.trim() ?? ''
+  // The importer copies the correct option's explanation into `Explanation`, so on
+  // an imported question the panel below would repeat the rationale already sitting
+  // under the right answer. Only show it when it genuinely says something else.
+  const hasSeparateExplanation = Boolean(q.explanation.trim()) && q.explanation.trim() !== correctRationale
+
+  function stateFor(i: number): QuestionState {
+    const item = session[i]
+    const picked = answers[item.id]
+    if (picked == null) return visited.has(i) && i !== idx ? 'omitted' : 'unseen'
+    if (reviewing || checked[item.id]) return item.options[picked]?.correct ? 'correct' : 'incorrect'
+    return 'answered'
+  }
 
   function optionClasses(i: number): string {
     if (!revealed)
@@ -438,21 +473,40 @@ export function QuestionBank() {
   }
 
   return (
-    <div className="mx-auto max-w-[760px] px-4 py-6 sm:px-6">
+    <div className="mx-auto max-w-[1100px] px-4 py-6 sm:px-6">
       {/* Runner header */}
-      <div className="mb-5">
-        <div className="flex items-center justify-between gap-3">
-          <span className="text-[13px] font-medium text-ink-2">
+      <div className="mb-4">
+        {/* Four controls will not sit on one 375px line, so the count takes its own. */}
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+          <span className="w-full text-[13px] font-medium text-ink-2 sm:w-auto">
             Question <span className="tnum font-mono text-ink">{idx + 1}</span> of {session.length}
             {reviewing && <span className="ml-2 text-accent">· review</span>}
           </span>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 sm:ms-auto">
             {mode === 'timed' && !reviewing && (
               <span className="tnum inline-flex items-center gap-1.5 font-mono text-[13px] text-ink-2">
                 <Icon icon={Clock} size={14} />
                 {clock(elapsed)}
               </span>
             )}
+            <button
+              type="button"
+              aria-pressed={marked.has(q.id)}
+              onClick={() =>
+                setMarked((current) => {
+                  const next = new Set(current)
+                  if (!next.delete(q.id)) next.add(q.id)
+                  return next
+                })
+              }
+              className={cn(
+                'inline-flex min-h-10 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium transition-colors sm:min-h-0',
+                marked.has(q.id) ? 'text-accent-strong' : 'text-ink-3 hover:text-ink',
+              )}
+            >
+              <Icon icon={Bookmark} size={13} className={cn(marked.has(q.id) && 'fill-current')} />
+              {marked.has(q.id) ? t('Marked') : t('Mark')}
+            </button>
             <button
               type="button"
               onClick={() => setReportTarget({ kind: 'question', id: q.id, title: q.stem })}
@@ -476,6 +530,18 @@ export function QuestionBank() {
           />
         </div>
       </div>
+
+      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] lg:items-start lg:gap-5">
+        <div className="min-w-0">
+      <QuestionNavigator
+        className="mb-4"
+        count={session.length}
+        current={idx}
+        stateFor={stateFor}
+        isFlagged={(i) => marked.has(session[i].id)}
+        onJump={setIdx}
+        graded={reviewing || mode === 'tutor'}
+      />
 
       <Panel className="p-5 sm:p-6">
         <div className="flex flex-wrap items-center gap-2">
@@ -538,44 +604,37 @@ export function QuestionBank() {
                 </span>
                 <span className="flex-1 pt-0.5 text-[14px] text-ink"><ConceptText text={opt.text} enabled={revealed} /></span>
               </button>
-              {revealed && (chosen === i || opt.correct) && (
+              {revealed && (showAllRationales || chosen === i || opt.correct) && opt.rationale.trim() && (
                 <p className="mt-1 ps-9 pe-1 text-[12.5px] leading-snug text-ink-2"><ConceptText text={opt.rationale} enabled={revealed} /></p>
               )}
             </div>
           ))}
         </div>
 
-        {/* Explanation */}
-        {revealed && (
+        {/* The two that matter come first; the rest are one click away. */}
+        {revealed && q.options.some((option, i) => !option.correct && chosen !== i && option.rationale.trim()) && (
+          <button
+            type="button"
+            onClick={() => setShowAllRationales((value) => !value)}
+            aria-expanded={showAllRationales}
+            className="mt-3 inline-flex min-h-10 items-center gap-1.5 text-[12.5px] font-medium text-accent-strong transition-colors hover:text-accent sm:min-h-0"
+          >
+            <Icon
+              icon={ChevronDown}
+              size={14}
+              className={cn('transition-transform duration-200', !showAllRationales && '-rotate-90 rtl:rotate-90')}
+            />
+            {showAllRationales ? t('Hide the other options') : t('Why the other options fail')}
+          </button>
+        )}
+
+        {/* Only when it adds something the option rationales did not already say. */}
+        {revealed && hasSeparateExplanation && (
           <div className="mt-5 rounded-xl border border-line bg-surface-2 p-4">
             <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-              Explanation
+              {t('Explanation')}
             </p>
             <p className="text-[14px] leading-relaxed text-ink"><ConceptText text={q.explanation} enabled={revealed} /></p>
-            <div className="mt-3 flex flex-wrap gap-2 border-t border-line pt-3">
-              {q.libraryRefs.map((r) => (
-                <Link
-                  key={r.id}
-                  to={`/app/library?s=${r.id}`}
-                  state={backState(location, t('Back to question'))}
-                  className="inline-flex items-center gap-1.5 rounded-md border border-accent-line bg-accent-tint/60 px-2.5 py-1.5 text-[12.5px] font-medium text-accent-strong transition-colors hover:bg-accent-tint"
-                >
-                  <Icon icon={BookOpen} size={14} />
-                  {r.title}
-                </Link>
-              ))}
-              {q.resourceRefs.map((r) => (
-                <Link
-                  key={r}
-                  to={`/app/resources?q=${encodeURIComponent(r.split(' · ')[0])}`}
-                  state={backState(location, t('Back to question'))}
-                  className="inline-flex items-center gap-1.5 rounded-md border border-line bg-surface px-2.5 py-1.5 text-[12.5px] text-ink-2 transition-colors hover:text-ink"
-                >
-                  <Icon icon={FileText} size={14} className="text-ink-3" />
-                  {r}
-                </Link>
-              ))}
-            </div>
           </div>
         )}
 
@@ -616,6 +675,10 @@ export function QuestionBank() {
           )}
         </div>
       </Panel>
+        </div>
+
+        <StudyRail question={q} revealed={revealed} location={location} className="lg:sticky lg:top-6" />
+      </div>
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
     </div>
   )

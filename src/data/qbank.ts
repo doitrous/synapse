@@ -43,6 +43,15 @@ export interface Question {
   resourceRefs: string[]
   attachedImage?: string
   attachments?: QuestionMedia[]
+  /** What a correct response demonstrates. Held back until the answer is revealed. */
+  learningObjective?: string
+  /**
+   * Concepts the question actually assesses — `mainConceptIds` then `conceptIds`.
+   * Contextual concepts are deliberately excluded: they are mentioned by the
+   * vignette but not tested, and listing them would tell a student to revise
+   * something this question never measured.
+   */
+  conceptIds?: string[]
 }
 
 export const questions: Question[] = [

@@ -43,6 +43,11 @@ export function managedQuestionToStudentQuestion(
     resourceRefs: data.resourceIds.map((id) => titlesById.get(id) ?? id),
     attachedImage: data.attachedImage.trim() || undefined,
     attachments: (data.attachments ?? []).map((attachment) => ({ ...attachment })),
+    learningObjective: data.learningObjective.trim() || undefined,
+    // `contextualConceptIds` is deliberately absent: those are mentioned by the
+    // vignette but never assessed, so surfacing them would send a student to
+    // revise something this question did not measure.
+    conceptIds: [...new Set([...(data.tags.mainConceptIds ?? []), ...data.tags.conceptIds])],
   }
 }
 
