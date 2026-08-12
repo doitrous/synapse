@@ -60,6 +60,7 @@ const PracticalSetup = lazyNamed(() => import('@/pages/admin/PracticalSetup'), '
 const ConceptsImportPage = lazyNamed(() => import('@/pages/admin/ConceptsImportPage'), 'ConceptsImportPage')
 const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImportPage'), 'RelationsImportPage')
 const ImageRecommendations = lazyNamed(() => import('@/pages/admin/ImageRecommendations'), 'ImageRecommendations')
+const EvidenceImportPage = lazyNamed(() => import('@/pages/admin/EvidenceImportPage'), 'EvidenceImportPage')
 const AcademicImportPage = lazyNamed(() => import('@/pages/admin/AcademicImportPage'), 'AcademicImportPage')
 const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportPage'), 'SubjectsImportPage')
 const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
@@ -134,6 +135,7 @@ export const router = createBrowserRouter([
       { path: 'taxonomy/import', element: render(SubjectsImportPage) },
       { path: 'library/coverage', element: render(MedicalCoverageReview) },
       { path: 'library/images', element: render(ImageRecommendations) },
+      { path: 'library/evidence/import', element: render(EvidenceImportPage) },
       ...adminRoutes,
     ],
   },

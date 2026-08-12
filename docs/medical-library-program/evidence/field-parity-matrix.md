@@ -14,6 +14,10 @@ drift when a field is added.
 | Question | `QuestionAuthoringData` | 12 | 49 | 12 | 0 | 0 |
 | Question · tags | `QuestionTags` | 21 | 49 | 21 | 0 | 0 |
 | Resource | `ResourceAuthoringData` | 15 | 18 | 8 | 0 | 7 |
+| Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
+| Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |
+| Evidence · citation | `CitationLink` | 9 | 12 | 9 | 0 | 0 |
+| Evidence · article span | `ArticleSpan` | 8 | 7 | 7 | 0 | 1 |
 | Subjects & Topics | `CurriculumSystem tree` | 23 | 14 | 23 | 0 | 0 |
 
 ## Gaps
@@ -31,3 +35,7 @@ None. Every model field is reachable by bulk import, or is recorded as not autho
 | `ResourceAuthoringData.processingStatus` | Owned by the ingest pipeline state machine. |
 | `ResourceAuthoringData.reviewer` | Set by the review workflow. |
 | `ResourceAuthoringData.finalPublisher` | Set by the publish workflow. |
+| `ResourceRecord.collectionPriority` | Ranking assigned by the ingest pipeline, not by an author. |
+| `ResourceRecord.storageKey` | Set on upload to authenticated storage. |
+| `ResourceRecord.validation` | Produced by the validation pipeline. |
+| `ArticleSpan.currentLine` | A convenience pointer recomputed on render. The durable locator is the text hash. |

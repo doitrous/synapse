@@ -74,6 +74,42 @@
       "notApplicable": 7
     },
     {
+      "contentType": "Evidence · source",
+      "model": "ResourceRecord",
+      "modelFields": 20,
+      "importFields": 17,
+      "ok": 17,
+      "missing": 0,
+      "notApplicable": 3
+    },
+    {
+      "contentType": "Evidence · claim",
+      "model": "EvidenceClaim",
+      "modelFields": 15,
+      "importFields": 14,
+      "ok": 15,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Evidence · citation",
+      "model": "CitationLink",
+      "modelFields": 9,
+      "importFields": 12,
+      "ok": 9,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Evidence · article span",
+      "model": "ArticleSpan",
+      "modelFields": 8,
+      "importFields": 7,
+      "ok": 7,
+      "missing": 0,
+      "notApplicable": 1
+    },
+    {
       "contentType": "Subjects & Topics",
       "model": "CurriculumSystem tree",
       "modelFields": 23,
@@ -1198,6 +1234,346 @@
         {
           "field": "conceptLocations",
           "column": "concept_locations",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Evidence · source",
+      "model": "ResourceRecord",
+      "importFields": 17,
+      "fields": [
+        {
+          "field": "id",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "institution",
+          "column": "institution",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "collectionId",
+          "column": "collection_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "collectionPriority",
+          "column": null,
+          "state": "n/a",
+          "reason": "Ranking assigned by the ingest pipeline, not by an author."
+        },
+        {
+          "field": "title",
+          "column": "title",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "storageKey",
+          "column": null,
+          "state": "n/a",
+          "reason": "Set on upload to authenticated storage."
+        },
+        {
+          "field": "sourceRelativePath",
+          "column": "source_relative_path",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sourceUri",
+          "column": "source_uri",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaType",
+          "column": "media_type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "languages",
+          "column": "languages",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "publicationDate",
+          "column": "publication_date",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "pageCount",
+          "column": "page_count",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sha256",
+          "column": "sha256",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "processingStatus",
+          "column": "processing_status",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rights",
+          "column": "rights",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "validation",
+          "column": null,
+          "state": "n/a",
+          "reason": "Produced by the validation pipeline."
+        },
+        {
+          "field": "confidence",
+          "column": "confidence",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "isAssessment",
+          "column": "is_assessment",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "qualification",
+          "column": "qualification",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "accessedAt",
+          "column": "accessed_at",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Evidence · claim",
+      "model": "EvidenceClaim",
+      "importFields": 14,
+      "fields": [
+        {
+          "field": "id",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptId",
+          "column": "concept_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "subject",
+          "column": "subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "predicate",
+          "column": "predicate",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "object",
+          "column": "object",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "qualifiers",
+          "column": "qualifiers",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "displayText",
+          "column": "display_text",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "riskClass",
+          "column": "risk_class",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "verificationStatus",
+          "column": "verification_status",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conflictStatus",
+          "column": "conflict_status",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "confidence",
+          "column": "confidence",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "freshness",
+          "column": "freshness",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "timeSensitive",
+          "column": "time_sensitive",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewDue",
+          "column": "review_due",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "citationIds",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Evidence · citation",
+      "model": "CitationLink",
+      "importFields": 12,
+      "fields": [
+        {
+          "field": "id",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "claimId",
+          "column": "claim_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "resourceId",
+          "column": "resource_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "evidenceRole",
+          "column": "evidence_role",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "locator",
+          "column": "locator_type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "supportSpan",
+          "column": "support_span",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "contextNote",
+          "column": "context_note",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "confidence",
+          "column": "confidence",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "countsAsClaimEvidence",
+          "column": "counts_as_claim_evidence",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Evidence · article span",
+      "model": "ArticleSpan",
+      "importFields": 7,
+      "fields": [
+        {
+          "field": "id",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "articleId",
+          "column": "article_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sectionId",
+          "column": "section_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "textHash",
+          "column": "text_hash",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "currentLine",
+          "column": null,
+          "state": "n/a",
+          "reason": "A convenience pointer recomputed on render. The durable locator is the text hash."
+        },
+        {
+          "field": "text",
+          "column": "text",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "claimIds",
+          "column": "claim_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "citationIds",
+          "column": "citation_ids",
           "state": "ok",
           "reason": ""
         }

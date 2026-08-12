@@ -18,7 +18,7 @@
  },
  "synapse": {
   "canonicalNodes": 1883,
-  "runtimeSubjects": 8
+  "runtimeSubjects": 20
  },
  "counts": {
   "nodes": 644,
@@ -4155,11 +4155,11 @@
    "childGroups": 1,
    "articleCount": 5,
    "synapseAnchor": "SYS-OBS",
-   "synapseNodeId": "SYS-OBS",
+   "synapseNodeId": "obs",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Same subject matter as SYS-OBS “Pregnancy, Childbirth & Puerperium”, which carries a broader or narrower label for it.",
+   "rationale": "Declared in the runtime curriculum tree as system “obs”.",
    "confidence": "medium",
-   "decidedBy": "rule:token-in-anchor"
+   "decidedBy": "rule:runtime"
   },
   {
    "ambossId": "yF0dk3",

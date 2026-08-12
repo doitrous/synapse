@@ -37,14 +37,14 @@ covers the comparator at undergraduate depth.
 | Rule | Nodes | What it means |
 |---|---:|---|
 | `rule:token-elsewhere` | 200 | Same subject, covered in another Synapse view |
-| `rule:token-in-anchor` | 127 | Same subject under a broader or narrower label, inside the mapped branch |
+| `rule:token-in-anchor` | 126 | Same subject under a broader or narrower label, inside the mapped branch |
 | `rule:below-floor` | 91 | Inside the right Synapse root, finer than its floor — granularity is an LD-04 call |
 | `rule:facet` | 63 | A discipline lens AMBOSS repeats under many systems, not subject matter |
 | `hand` | 55 | Decided by hand (every depth-1 branch) |
 | `rule:exact-elsewhere` | 49 | Exact title match, but in another Synapse view |
 | `rule:exact-in-anchor` | 43 | Exact title match inside the mapped Synapse branch |
 | `rule:spelling` | 9 | US spelling or plural of a Synapse node |
-| `rule:runtime` | 7 | Already declared in the runtime curriculum tree |
+| `rule:runtime` | 8 | Already declared in the runtime curriculum tree |
 
 ## Confidence
 

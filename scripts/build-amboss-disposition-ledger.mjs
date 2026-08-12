@@ -25,7 +25,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import {
-  norm, stem, tokens, bestTokenMatch, canonicalByTitle, canonicalByStem, runtimeByTitle, isUnder,
+  norm, stem, bestTokenMatch, canonicalByTitle, canonicalByStem, runtimeByTitle, isUnder,
   MEDICAL_TAXONOMY_SEED, MEDICAL_TAXONOMY_INDEX, CURRICULUM_CATALOG,
 } from './lib/taxonomy-match.mjs'
 

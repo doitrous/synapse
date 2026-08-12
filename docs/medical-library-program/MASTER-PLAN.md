@@ -22,11 +22,11 @@ starts here and ends here. Nothing below depends on any chat transcript.
 | **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — all 19 inventories and source plans done; 943 articles planned; authoring not started |
 | **Active phase** | Phase 2 — article & concept programme, starting at `SYS-FND` |
 | **Active system** | `SYS-FND` Foundations & General Principles (system 1 of 19) |
-| **Active task ID** | `SYS-FND-CONCEPT-002` (Not started) — `-001` is authored and validated, awaiting import |
+| **Active task ID** | `SYS-FND-ARTICLE-001` (Not started) — concept batches `-001` and `-002` are authored and validated, awaiting import |
 | **Last verified commit** | `781558b` — *Write the medical-library programme plan, and its 19 system plans* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (first content batch authored and validated) |
+| **Last update** | 2026-08-12 (`BLK-12` closed; first evidence batch authored and validated) |
 
 ### Gate status
 
@@ -398,6 +398,7 @@ Targets are ranges with stated assumptions, not commitments to a date.
 | `BLK-09` | 62 articles and 736 concepts carry `subjectId: "medical"`, which is not one of the eight valid subject IDs, so the student library cannot group them | **Open** — Phase 2 | Repair under a documented migration (LD-06). Each system's `INVENTORY-001` counts its share |
 | `BLK-10` | All 17 `Published` articles carry `publicationGate: needs_evidence` | **Open** — `PLAT-GATE-001` | Publication status and evidence gate still disagree in the data. The callout policy no longer depends on the gate, so this is a data-consistency task rather than a platform blocker |
 | `BLK-11` | `server/data/medical-library-v1.json` is at migration v7 with `apply-article-narratives-v9.mjs` and 23 narrative files unapplied | **Open** — `PLAT-GATE-001` | Requires a database migration with `MEDICAL_LIBRARY_APPLY`, which is an owner-approved production action |
+| `BLK-12` | Claims, citations, sources and article spans had **no import surface at all** — they could only be created by the generation pipeline, so an authored concept could never leave `needs_evidence` | **Closed** 2026-08-12 | `src/data/evidenceImport.ts` and `src/pages/admin/EvidenceImportPage.tsx` at `/admin/library/evidence/import`; 4 contracts, 22 tests; parity matrix extended and still 0 gaps |
 
 ### Open questions
 
@@ -433,6 +434,8 @@ Append-only. Never edit or delete an entry; supersede it with a new one.
 | 2026-08-12 | `DEC-012` | `ImageRecommendation` is a **separate type** from `ArticleMediaRecord`, not a status flag on it | An unfulfilled recommendation stored as media would sit one `releaseWithoutReview` flag away from a student. Separation makes the leak structurally impossible, and a test asserts it | `PLAT-IMAGE-001` |
 | 2026-08-12 | `DEC-013` | Arabic terminology is authored from the sources actually consulted and **cited as such**. The WHO/Arab Medical Union *Unified Medical Dictionary* (المعجم الطبي الموحد) is named as the source of record, but a term is only attributed to it once it has genuinely been looked up there | `LD-15` requires Arabic fields to be filled, not deferred. It does not license attributing a term to a dictionary nobody opened — that would be a fabricated citation, which the standing rules forbid outright. Terms sourced elsewhere are recorded with the source used | every concept and article batch |
 | 2026-08-12 | `DEC-014` | Content batches are authored as importer Markdown under `docs/medical-library-program/batches/`, validated by `npm run medical:batch` **before** import, and only then imported | A batch that fails in the admin UI half-applies. Validating the file against the real importer — same parser, same builder, same placement check — moves that failure to a command that changes nothing | all Phase 2 authoring |
+| 2026-08-12 | `DEC-015` | A claim carries **two** citations where it can: one `local_curriculum` establishing that the fact is taught here, one `independent_verification` establishing that it is true. Only the second counts as claim evidence | `LD-08` puts the corpus in charge of emphasis and authoritative sources in charge of fact. Recording both, and marking which is which, is what makes that separation auditable rather than a slogan. A corpus heading is not a sentence, so it supports emphasis and not wording | every evidence batch |
+| 2026-08-12 | `DEC-016` | A claim and the citations backing it are authored in the same batch, and the claim row does **not** repeat its citation IDs. The citation names its claim; the reverse is filled in at commit | Asking an author to keep both directions in step by hand guarantees a mismatch. The validator understands the batch as a unit, which is what `linkCitationsToClaims` already does at commit | `PLAT-EVIDENCE-001` |
 
 ---
 
@@ -541,6 +544,46 @@ Three findings worth carrying forward:
 | 2026-08-12 | `SYS-*-SOURCE-001` ×19 | Mapped every planned article to the processed corpus files that teach it, with page locators and review state. **627 of 943 (66%) have a processed local source.** No content authored. | uncommitted | read-only | `evidence/SYS-*-source-plan.{json,md}` ×19, `scripts/build-system-source-plan.mjs` | `SYS-FND-CONCEPT-001` |
 
 | 2026-08-12 | `SYS-FND-CONCEPT-001` | Authored the first content batch: 5 concepts for `SYS-FND-T01-S01`, complete against the 54-field contract, with real corpus provenance and researched Arabic terms. Validated, **not yet imported**. | uncommitted | `medical:batch` clean — 5 items, 33 fields, all placements canonical, 0 errors | `docs/medical-library-program/batches/SYS-FND-CONCEPT-001.md`, `scripts/validate-content-batch.mjs` | `SYS-FND-CONCEPT-002` |
+
+| 2026-08-12 | `PLAT-EVIDENCE-001` (`BLK-12`) | Built the missing import surface for claims, citations, sources and article spans. Extended the parity matrix to cover all four; still 0 gaps. | uncommitted | 122/122 tests · `medical:parity` 0 gaps · typecheck, lint, build clean | `src/data/evidenceImport.ts`, `src/pages/admin/EvidenceImportPage.tsx`, `src/data/evidenceImport.test.ts` | `SYS-FND-ARTICLE-001` |
+| 2026-08-12 | `SYS-FND-CONCEPT-002` | Authored the evidence batch for the five concepts: 7 sources, 6 claims, 11 citations. Every claim carries an independent verification citation with a quoted support span. Validated, **not yet imported**. | uncommitted | `medical:batch` clean on all three files | `batches/SYS-FND-CONCEPT-002-{sources,claims,citations}.md` | Import, then `SYS-FND-ARTICLE-001` |
+
+### `BLK-12` — the blocker `SYS-FND-CONCEPT-002` found (2026-08-12)
+
+Trying to lift batch 001 out of `needs_evidence` surfaced a gap Phase 0 had
+missed: **claims, citations, sources and article spans had no import path at
+all.** They existed only as output of the generation pipeline. The parity matrix
+had not caught it because those types live in `medicalEvidence.ts`, not in the
+authoring contracts it walked.
+
+The consequence was quiet and total: a concept could be authored perfectly and
+still never leave `needs_evidence`, because there was nowhere to record the
+source supporting it. The five corpus files behind batch 001 were not in the
+evidence store either, so no citation could even name them.
+
+The surface now exists, with the rules the field audit enforces at rest applied
+at import time instead — a citation that counts as evidence must carry an exact
+locator, a claim may only be `verified` when a counting citation resolves, and a
+`treatment_or_action` claim needs two independent citations. Catching those
+before the write means the store never holds an unsupported claim, even briefly.
+The parity matrix now covers all four types and still reports zero gaps.
+
+### First evidence batch (2026-08-12)
+
+`SYS-FND-CONCEPT-002`: 7 sources, 6 claims, 11 citations for the five concepts
+in batch 001.
+
+Every claim carries an independent verification citation whose support span is
+**quoted from the source**, not paraphrased — from OpenStax *Anatomy and
+Physiology 2e* §3.1 and §3.2, and NCBI *Molecular Biology of the Cell* 4e. Each
+also carries a local curriculum citation naming the Alexandria or Fayoum file and
+its page, marked `counts_as_claim_evidence: no` with a context note explaining
+why: the corpus records a taught **heading**, not a sentence, so it establishes
+that the topic is examined here without supporting the claim's wording.
+
+That split is `DEC-015`, and it is what makes `LD-08` auditable rather than a
+slogan: the corpus decides emphasis, authoritative sources decide fact, and the
+record says which did which.
 
 ### First content batch (2026-08-12)
 

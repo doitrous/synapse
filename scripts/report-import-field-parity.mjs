@@ -21,6 +21,7 @@ import { fileURLToPath } from 'node:url'
 import { IMPORT_SCHEMAS } from '../src/data/bulkImport.ts'
 import { CONCEPT_IMPORT_FIELDS, RELATION_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
 import { SUBJECTS_IMPORT_FIELDS } from '../src/data/subjectsImport.ts'
+import { EVIDENCE_IMPORT_FIELDS } from '../src/data/evidenceImport.ts'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const root = join(here, '..')
@@ -133,6 +134,10 @@ const EXEMPT = {
   'ResourceAuthoringData.processingStatus': 'Owned by the ingest pipeline state machine.',
   'ResourceAuthoringData.reviewer': 'Set by the review workflow.',
   'ResourceAuthoringData.finalPublisher': 'Set by the publish workflow.',
+  'ResourceRecord.collectionPriority': 'Ranking assigned by the ingest pipeline, not by an author.',
+  'ResourceRecord.storageKey': 'Set on upload to authenticated storage.',
+  'ResourceRecord.validation': 'Produced by the validation pipeline.',
+  'ArticleSpan.currentLine': 'A convenience pointer recomputed on render. The durable locator is the text hash.',
 }
 
 const SUBJECT_MAP = {
@@ -168,6 +173,30 @@ const resourceKeys = keysOf(IMPORT_SCHEMAS.resource.fields)
 const conceptKeys = keysOf(CONCEPT_IMPORT_FIELDS)
 const relationKeys = keysOf(RELATION_IMPORT_FIELDS)
 const subjectKeys = keysOf(SUBJECTS_IMPORT_FIELDS)
+const evidenceKeys = Object.fromEntries(Object.entries(EVIDENCE_IMPORT_FIELDS).map(([kind, fields]) => [kind, keysOf(fields)]))
+
+const RESOURCE_RECORD_MAP = {
+  id: 'id', institution: 'institution', collectionId: 'collection_id', collectionPriority: null,
+  title: 'title', storageKey: null, sourceRelativePath: 'source_relative_path', sourceUri: 'source_uri',
+  mediaType: 'media_type', languages: 'languages', publicationDate: 'publication_date', pageCount: 'page_count',
+  sha256: 'sha256', processingStatus: 'processing_status', rights: 'rights', validation: null,
+  confidence: 'confidence', isAssessment: 'is_assessment', qualification: 'qualification', accessedAt: 'accessed_at',
+}
+const CLAIM_MAP = {
+  id: 'id', conceptId: 'concept_id', subject: 'subject', predicate: 'predicate', object: 'object',
+  qualifiers: 'qualifiers', displayText: 'display_text', riskClass: 'risk_class',
+  verificationStatus: 'verification_status', conflictStatus: 'conflict_status', confidence: 'confidence',
+  freshness: 'freshness', timeSensitive: 'time_sensitive', reviewDue: 'review_due', citationIds: 'id',
+}
+const CITATION_MAP = {
+  id: 'id', claimId: 'claim_id', resourceId: 'resource_id', evidenceRole: 'evidence_role',
+  locator: 'locator_type', supportSpan: 'support_span', contextNote: 'context_note',
+  confidence: 'confidence', countsAsClaimEvidence: 'counts_as_claim_evidence',
+}
+const SPAN_MAP = {
+  id: 'id', articleId: 'article_id', sectionId: 'section_id', textHash: 'text_hash',
+  currentLine: null, text: 'text', claimIds: 'claim_ids', citationIds: 'citation_ids',
+}
 
 const groups = []
 
@@ -227,6 +256,30 @@ for (const name of ['CurriculumSystem', 'CurriculumTopic', 'CurriculumSubtopic',
   subjectFields.push(...assess(name, fields, Object.fromEntries(fields.map((field) => [field, SUBJECT_MAP[`${name}.${field}`]])), subjectKeys, name)
     .map((entry) => ({ ...entry, field: `${name}.${entry.field}` })))
 }
+groups.push({
+  contentType: 'Evidence · source',
+  model: 'ResourceRecord',
+  importFields: evidenceKeys.resource.size,
+  fields: assess('ResourceRecord', await interfaceFields('src/data/medicalEvidence.ts', 'ResourceRecord'), RESOURCE_RECORD_MAP, evidenceKeys.resource),
+})
+groups.push({
+  contentType: 'Evidence · claim',
+  model: 'EvidenceClaim',
+  importFields: evidenceKeys.claim.size,
+  fields: assess('EvidenceClaim', await interfaceFields('src/data/medicalEvidence.ts', 'EvidenceClaim'), CLAIM_MAP, evidenceKeys.claim),
+})
+groups.push({
+  contentType: 'Evidence · citation',
+  model: 'CitationLink',
+  importFields: evidenceKeys.citation.size,
+  fields: assess('CitationLink', await interfaceFields('src/data/medicalEvidence.ts', 'CitationLink'), CITATION_MAP, evidenceKeys.citation),
+})
+groups.push({
+  contentType: 'Evidence · article span',
+  model: 'ArticleSpan',
+  importFields: evidenceKeys.span.size,
+  fields: assess('ArticleSpan', await interfaceFields('src/data/medicalEvidence.ts', 'ArticleSpan'), SPAN_MAP, evidenceKeys.span),
+})
 groups.push({ contentType: 'Subjects & Topics', model: 'CurriculumSystem tree', importFields: subjectKeys.size, fields: subjectFields })
 
 const summary = groups.map((group) => ({

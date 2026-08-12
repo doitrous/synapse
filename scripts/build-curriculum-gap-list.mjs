@@ -20,7 +20,7 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-import { norm, bestTokenMatch, canonicalByTitle, canonicalByStem, runtimeByTitle, stem, MEDICAL_TAXONOMY_SEED } from './lib/taxonomy-match.mjs'
+import { norm, bestTokenMatch, canonicalByTitle, canonicalByStem, runtimeByTitle, stem } from './lib/taxonomy-match.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const outDir = join(here, '..', 'docs', 'medical-library-program', 'evidence')
@@ -63,7 +63,7 @@ function isHeadingArtefact(label) {
   if (/^\S{14,}$/.test(value) && !/\s/.test(value)) return true
   if (/[a-z][A-Z]{3,}|[A-Z]{4,}[a-z]/.test(value.replace(/\s+/g, ''))) return true
   // Chemical formulae and stray symbols the extractor kept as headings.
-  if (/^[A-Za-z]{1,3}\d?[,+\-]?$/.test(value)) return true
+  if (/^[A-Za-z]{1,3}\d?[,+-]?$/.test(value)) return true
   if (/\d/.test(value) && value.length <= 6) return true
   if (/^[A-Z]{2,5}$/.test(value)) return true
   return false
