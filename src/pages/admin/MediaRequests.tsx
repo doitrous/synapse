@@ -9,15 +9,17 @@ import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SearchInput, Select } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
+import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import {
   CONTENT_LEDGER_STORAGE_KEY, initialManagedContent,
   MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES, MEDIA_REQUEST_MEDIA,
-  type MediaRequest, type ManagedContentItem,
+  type MediaRequest, type ManagedContentItem, type PracticalAuthoringData,
 } from '@/data/contentControl'
 import { MEDICAL_TAXONOMY_INDEX } from '@/data/medicalLibraryTaxonomy'
 
 interface Row extends MediaRequest {
+  ownerId: string
   ownerTitle: string
   systemId: string
   systemTitle: string
@@ -28,11 +30,12 @@ const PRIORITY_TONE: Record<string, 'danger' | 'warning' | 'neutral'> = {
   'strongly helpful': 'warning',
   optional: 'neutral',
 }
-const STATUS_TONE: Record<string, 'neutral' | 'accent' | 'success' | 'warning'> = {
-  needed: 'warning',
-  planned: 'accent',
-  supplied: 'success',
-  declined: 'neutral',
+/** The colour that lets the backlog be scanned rather than read row by row. */
+const STATUS_DOT: Record<string, string> = {
+  needed: 'bg-warning',
+  planned: 'bg-accent',
+  supplied: 'bg-success',
+  declined: 'bg-ink-3',
 }
 const OWNER_LABEL: Record<MediaRequest['ownerKind'], string> = {
   article: 'Article',
@@ -58,7 +61,7 @@ function rootOf(nodeId: string | undefined): { id: string; title: string } {
  * article or a question is waiting on it.
  */
 export function MediaRequests() {
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [ledger, setLedger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [query, setQuery] = useState('')
   const [system, setSystem] = useState('all')
   const [medium, setMedium] = useState('all')
@@ -86,6 +89,7 @@ export function MediaRequests() {
       const root = rootOf(nodeId)
       return requests.map((request) => ({
         ...request,
+        ownerId: item.id,
         ownerTitle: item.title,
         systemId: root.id,
         systemTitle: root.title,
@@ -108,6 +112,30 @@ export function MediaRequests() {
       return `${row.brief} ${row.teachingPurpose} ${row.ownerTitle} ${row.medium} ${row.kind}`.toLowerCase().includes(q)
     })
   }, [medium, owner, priority, query, rows, status, system])
+
+  /**
+   * Move one request along.
+   *
+   * The backlog is only useful if it can be worked, and working it means
+   * recording that an asset has been commissioned or has arrived. The request
+   * lives inside whichever of the three authoring records owns it, so the update
+   * rewrites that record's own list rather than keeping a parallel status table
+   * that could disagree with it.
+   */
+  function setRequestStatus(row: Row, next: MediaRequest['status']) {
+    setLedger((items) => items.map((item) => {
+      if (item.id !== row.ownerId) return item
+      const patch = (list: MediaRequest[] | undefined) =>
+        list?.map((request) => (request.id === row.id ? { ...request, status: next } : request))
+      if (item.kind === 'article' && item.articleData) return { ...item, articleData: { ...item.articleData, mediaRequests: patch(item.articleData.mediaRequests) } }
+      if (item.kind === 'question' && item.questionData) return { ...item, questionData: { ...item.questionData, mediaRequests: patch(item.questionData.mediaRequests) } }
+      if (item.kind === 'practical' && item.practicalData) {
+        const practicalData = { ...item.practicalData, mediaRequests: patch(item.practicalData.mediaRequests) } as PracticalAuthoringData
+        return { ...item, practicalData }
+      }
+      return item
+    }))
+  }
 
   const outstanding = rows.filter((row) => row.status === 'needed' || row.status === 'planned')
   const requiredOutstanding = outstanding.filter((row) => row.priority === 'required')
@@ -202,13 +230,31 @@ export function MediaRequests() {
                     <Td>
                       <span className="flex items-center gap-1.5">
                         <Badge tone="outline">{OWNER_LABEL[row.ownerKind]}</Badge>
-                        <span className="text-[12.5px] text-ink-2">{row.ownerTitle}</span>
+                        {/* Straight to the item that is waiting, so sourcing an
+                            asset does not begin with hunting for its article. */}
+                        <Link to={`/admin/library?item=${encodeURIComponent(row.ownerId)}`} className="truncate text-[12.5px] text-ink-2 underline decoration-line-2 underline-offset-2 hover:text-ink">
+                          {row.ownerTitle}
+                        </Link>
                       </span>
                       {row.section && <span className="mt-0.5 block text-[11px] text-ink-3">{row.section}</span>}
                     </Td>
                     <Td><span className="text-[12px] text-ink-2">{row.systemTitle}</span></Td>
                     <Td><Badge tone={PRIORITY_TONE[row.priority] ?? 'neutral'}>{row.priority}</Badge></Td>
-                    <Td><Badge tone={STATUS_TONE[row.status] ?? 'neutral'}>{row.status}</Badge></Td>
+                    <Td>
+                      {/* Editable in place: the backlog is a worklist, and a
+                          status you can read but not change is a report. */}
+                      <span className="flex items-center gap-1.5">
+                        <span aria-hidden className={cn('size-1.5 shrink-0 rounded-full', STATUS_DOT[row.status] ?? 'bg-ink-3')} />
+                      <Select
+                        aria-label={`Status for ${row.brief}`}
+                        value={row.status}
+                        onChange={(event) => setRequestStatus(row, event.target.value as MediaRequest['status'])}
+                        className="h-8 min-w-[8.5rem] text-[12px]"
+                      >
+                        {MEDIA_REQUEST_STATUSES.map((value) => <option key={value} value={value}>{value}</option>)}
+                      </Select>
+                      </span>
+                    </Td>
                   </Tr>
                 ))}
               </tbody>
