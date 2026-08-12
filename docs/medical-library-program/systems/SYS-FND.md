@@ -7,7 +7,8 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 |---|---|
 | **Status** | Not started |
 | **Blocked by** | `GATE-TAX-001`. `GATE-PLATFORM-001` **passed** 2026-08-12 |
-| **Active task** | `SYS-FND-INVENTORY-001` (Not started) |
+| **Active task** | `SYS-FND-CONCEPT-002` (Not started) |
+| **Done** | `INVENTORY-001` · `SOURCE-001` · `CONCEPT-001` (authored, validated, not imported) |
 | **Baseline date** | 2026-08-12 at commit `2df5853` |
 
 ---

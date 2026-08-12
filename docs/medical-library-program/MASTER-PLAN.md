@@ -22,11 +22,11 @@ starts here and ends here. Nothing below depends on any chat transcript.
 | **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — all 19 inventories and source plans done; 943 articles planned; authoring not started |
 | **Active phase** | Phase 2 — article & concept programme, starting at `SYS-FND` |
 | **Active system** | `SYS-FND` Foundations & General Principles (system 1 of 19) |
-| **Active task ID** | `SYS-FND-CONCEPT-001` (Not started) |
+| **Active task ID** | `SYS-FND-CONCEPT-002` (Not started) — `-001` is authored and validated, awaiting import |
 | **Last verified commit** | `781558b` — *Write the medical-library programme plan, and its 19 system plans* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (all 19 inventories and source plans complete) |
+| **Last update** | 2026-08-12 (first content batch authored and validated) |
 
 ### Gate status
 
@@ -196,7 +196,7 @@ systems while its canonical home is a discipline root.
 | 17 | `SYS-DER` Skin & Subcutaneous Tissue | [plan](systems/SYS-DER.md) | Inventory + source plan done | 55 | 18 | 37 | 21 | 6 / 57 | `SYS-DER-CONCEPT-001` |
 | 18 | `SYS-MUL` Multisystem Processes, Emergencies & Critical Care | [plan](systems/SYS-MUL.md) | Inventory + source plan done | 83 | 21 | 61 | 39 | 0 / 0 | `SYS-MUL-CONCEPT-001` |
 | 19 | `SYS-POP` Population Health, Evidence & Social Sciences | [plan](systems/SYS-POP.md) | Inventory + source plan done | 83 | 21 | 62 | 32 | 0 / 0 | `SYS-POP-CONCEPT-001` |
-| | **Total** | | | **1325** | **381** | **943** | **335** | | |
+| | **Total** | | | **1,325** | **381** | **943** | **627** | | |
 
 *Existing article and concept counts do not sum to 145 and 1,718: one record may
 be placed under several systems. 124 of 145 articles and 1,499 of 1,718 concepts
@@ -431,6 +431,8 @@ Append-only. Never edit or delete an entry; supersede it with a new one.
 | 2026-08-12 | `DEC-010` | An import cell that is **blank or absent leaves the existing value alone**; `[clear]` empties a list on purpose; a leading `+` appends | A spreadsheet cannot otherwise distinguish "not mentioned" from "make it empty". Without the distinction every partial update silently wiped nested data | `src/data/importSemantics.ts`, `src/data/importMerge.ts` |
 | 2026-08-12 | `DEC-011` | The 2 font-encoding-corrupted corpus sources are **permanent gaps**, not OCR targets | The corpus carries a standing instruction against source-image/OCR inspection, and 2 files of 3,238 do not justify overriding it. Each is recorded as a named coverage risk on the systems it touches | `OQ-05` |
 | 2026-08-12 | `DEC-012` | `ImageRecommendation` is a **separate type** from `ArticleMediaRecord`, not a status flag on it | An unfulfilled recommendation stored as media would sit one `releaseWithoutReview` flag away from a student. Separation makes the leak structurally impossible, and a test asserts it | `PLAT-IMAGE-001` |
+| 2026-08-12 | `DEC-013` | Arabic terminology is authored from the sources actually consulted and **cited as such**. The WHO/Arab Medical Union *Unified Medical Dictionary* (المعجم الطبي الموحد) is named as the source of record, but a term is only attributed to it once it has genuinely been looked up there | `LD-15` requires Arabic fields to be filled, not deferred. It does not license attributing a term to a dictionary nobody opened — that would be a fabricated citation, which the standing rules forbid outright. Terms sourced elsewhere are recorded with the source used | every concept and article batch |
+| 2026-08-12 | `DEC-014` | Content batches are authored as importer Markdown under `docs/medical-library-program/batches/`, validated by `npm run medical:batch` **before** import, and only then imported | A batch that fails in the admin UI half-applies. Validating the file against the real importer — same parser, same builder, same placement check — moves that failure to a command that changes nothing | all Phase 2 authoring |
 
 ---
 
@@ -538,6 +540,28 @@ Three findings worth carrying forward:
 
 | 2026-08-12 | `SYS-*-SOURCE-001` ×19 | Mapped every planned article to the processed corpus files that teach it, with page locators and review state. **627 of 943 (66%) have a processed local source.** No content authored. | uncommitted | read-only | `evidence/SYS-*-source-plan.{json,md}` ×19, `scripts/build-system-source-plan.mjs` | `SYS-FND-CONCEPT-001` |
 
+| 2026-08-12 | `SYS-FND-CONCEPT-001` | Authored the first content batch: 5 concepts for `SYS-FND-T01-S01`, complete against the 54-field contract, with real corpus provenance and researched Arabic terms. Validated, **not yet imported**. | uncommitted | `medical:batch` clean — 5 items, 33 fields, all placements canonical, 0 errors | `docs/medical-library-program/batches/SYS-FND-CONCEPT-001.md`, `scripts/validate-content-batch.mjs` | `SYS-FND-CONCEPT-002` |
+
+### First content batch (2026-08-12)
+
+`SYS-FND-CONCEPT-001` covers the four microtopics of *Cell structure and
+organelles*: plasma membrane, selective permeability, cytoskeleton, cell nucleus,
+mitochondrion.
+
+It is the proof that the Phase 0 pipeline works end to end. Each concept carries
+a definition, an explicit assessable objective, a specific pitfall, a canonical
+primary placement and reviewed secondary placements, honest weights with a low
+`weightConfidence`, an Arabic label, and real `source_candidate_ids` naming the
+Alexandria, Fayoum and Zagazig source files that teach it — with their processing
+state, so a review-required source is visible as such.
+
+Nothing is invented to fill a field. Where a field cannot be filled honestly it
+carries a `fieldNotes` reason: module IDs are blank because no verified live
+module ID exists, file-resource approvals because the PDFs are still pending
+upload. Every concept records its own `uncertainty` and `evidenceGaps` rather
+than presenting extraction as verification, and all five sit at
+`publication_status: needs_evidence` — authored is not verified.
+
 ### All 19 source plans (2026-08-12)
 
 | | |
@@ -557,9 +581,9 @@ greenfield systems in areas the processed corpus barely touches.
 | | |
 |---|---:|
 | Nodes classified | 1,325 |
-| — navigation-only hubs | 383 |
+| — navigation-only hubs | 381 |
 | — overview articles | 19 |
-| — atomic article homes | 922 |
+| — atomic article homes | 924 |
 | — legitimate empty destinations | 1 |
 | **Planned articles** | **943** |
 | Nodes the corpus actually teaches | 335 |
