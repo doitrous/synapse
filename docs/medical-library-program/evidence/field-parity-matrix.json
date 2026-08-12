@@ -65,6 +65,60 @@
       "notApplicable": 0
     },
     {
+      "contentType": "Practical · OSCE and checklist",
+      "model": "OsceAuthoringData",
+      "modelFields": 11,
+      "importFields": 24,
+      "ok": 11,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Practical · clinical case",
+      "model": "CaseAuthoringData",
+      "modelFields": 7,
+      "importFields": 24,
+      "ok": 7,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Practical · case decision",
+      "model": "ClinicalDecisionDraft",
+      "modelFields": 9,
+      "importFields": 24,
+      "ok": 9,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Practical · interpretation set",
+      "model": "LabAuthoringData",
+      "modelFields": 7,
+      "importFields": 24,
+      "ok": 7,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Practical · interpretation question",
+      "model": "LabQuestionDraft",
+      "modelFields": 9,
+      "importFields": 24,
+      "ok": 9,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Practical · media request",
+      "model": "PracticalMediaRequest",
+      "modelFields": 10,
+      "importFields": 24,
+      "ok": 10,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
       "contentType": "Resource",
       "model": "ResourceAuthoringData",
       "modelFields": 15,
@@ -1137,6 +1191,366 @@
         {
           "field": "questionOnlyFor",
           "column": "question_only_for",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Practical · OSCE and checklist",
+      "model": "OsceAuthoringData",
+      "importFields": 24,
+      "fields": [
+        {
+          "field": "format",
+          "column": "type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "candidateInstructions",
+          "column": "candidate_instructions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "actorOpening",
+          "column": "actor_opening",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "actorSections",
+          "column": "actor_sections",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "actorFlags",
+          "column": "actor_flags",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "markSections",
+          "column": "mark_scheme",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "difficulty",
+          "column": "difficulty",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "references",
+          "column": "references",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptTags",
+          "column": "main_concept",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaRequests",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "learningObjective",
+          "column": "learning_objective",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Practical · clinical case",
+      "model": "CaseAuthoringData",
+      "importFields": 24,
+      "fields": [
+        {
+          "field": "format",
+          "column": "type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "decisions",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "debrief",
+          "column": "debrief",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "references",
+          "column": "references",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptTags",
+          "column": "main_concept",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaRequests",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "learningObjective",
+          "column": "learning_objective",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Practical · case decision",
+      "model": "ClinicalDecisionDraft",
+      "importFields": 24,
+      "fields": [
+        {
+          "field": "id",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "title",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "context",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "question",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "answers",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rationale",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptId",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "secondaryConceptIds",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "difficulty",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Practical · interpretation set",
+      "model": "LabAuthoringData",
+      "importFields": 24,
+      "fields": [
+        {
+          "field": "format",
+          "column": "type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "subtype",
+          "column": "lab_subtype",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "questions",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "references",
+          "column": "references",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptTags",
+          "column": "main_concept",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaRequests",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "learningObjective",
+          "column": "learning_objective",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Practical · interpretation question",
+      "model": "LabQuestionDraft",
+      "importFields": 24,
+      "fields": [
+        {
+          "field": "id",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "context",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "question",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaUrl",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "answers",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "explanation",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptId",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "secondaryConceptIds",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "difficulty",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Practical · media request",
+      "model": "PracticalMediaRequest",
+      "importFields": 24,
+      "fields": [
+        {
+          "field": "id",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "kind",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "target",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "brief",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "teachingPurpose",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "priority",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "status",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sourceDirection",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rightsNotes",
+          "column": "media_needed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "notes",
+          "column": "media_needed",
           "state": "ok",
           "reason": ""
         }

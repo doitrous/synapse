@@ -13,6 +13,12 @@ drift when a field is added.
 | Concept relation | `ConceptRelation` | 11 | 11 | 11 | 0 | 0 |
 | Question | `QuestionAuthoringData` | 12 | 49 | 12 | 0 | 0 |
 | Question · tags | `QuestionTags` | 21 | 49 | 21 | 0 | 0 |
+| Practical · OSCE and checklist | `OsceAuthoringData` | 11 | 24 | 11 | 0 | 0 |
+| Practical · clinical case | `CaseAuthoringData` | 7 | 24 | 7 | 0 | 0 |
+| Practical · case decision | `ClinicalDecisionDraft` | 9 | 24 | 9 | 0 | 0 |
+| Practical · interpretation set | `LabAuthoringData` | 7 | 24 | 7 | 0 | 0 |
+| Practical · interpretation question | `LabQuestionDraft` | 9 | 24 | 9 | 0 | 0 |
+| Practical · media request | `PracticalMediaRequest` | 10 | 24 | 10 | 0 | 0 |
 | Resource | `ResourceAuthoringData` | 15 | 18 | 8 | 0 | 7 |
 | Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
 | Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |

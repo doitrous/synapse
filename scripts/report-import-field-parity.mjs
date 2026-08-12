@@ -30,9 +30,22 @@ const outDir = join(root, 'docs', 'medical-library-program', 'evidence')
 /** Field names declared on one exported interface. */
 async function interfaceFields(relativePath, name) {
   const source = await readFile(join(root, relativePath), 'utf8')
-  const match = source.match(new RegExp(`export interface ${name} \\{([\\s\\S]*?)\\n\\}`))
+  const match = source.match(new RegExp(`export interface ${name}(?: extends [A-Za-z, ]+)? \\{([\\s\\S]*?)\\n\\}`))
   if (!match) throw new Error(`${name} not found in ${relativePath}`)
   return [...match[1].matchAll(/^ {2}([A-Za-z_][A-Za-z0-9_]*)\??:/gm)].map((entry) => entry[1])
+}
+
+/**
+ * The fields one practical format actually carries, inherited ones included.
+ *
+ * The three formats extend `PracticalCommon`, so reading the interface alone
+ * would report a format as having no `references` or `conceptTags` and quietly
+ * drop four shared fields out of the matrix.
+ */
+async function practicalInterfaceFields(name) {
+  const own = await interfaceFields('src/data/contentControl.ts', name)
+  const shared = await interfaceFields('src/data/contentControl.ts', 'PracticalCommon')
+  return [...own, ...shared.filter((field) => !own.includes(field))]
 }
 
 /**
@@ -105,6 +118,44 @@ const RELATION_MAP = {
 
 const ANNOTATION_MAP = { id: 'annotations', quote: 'annotations', conceptId: 'annotations', relation: 'annotations', block: 'annotations' }
 
+/**
+ * The three practical formats are separate interfaces that share a base, so the
+ * shared block is asserted once here and each format adds only its own fields.
+ */
+const PRACTICAL_COMMON_MAP = {
+  references: 'references', conceptTags: 'main_concept', mediaRequests: 'media_needed',
+  learningObjective: 'learning_objective',
+}
+
+const OSCE_MAP = {
+  ...PRACTICAL_COMMON_MAP,
+  format: 'type', candidateInstructions: 'candidate_instructions', actorOpening: 'actor_opening',
+  actorSections: 'actor_sections', actorFlags: 'actor_flags', markSections: 'mark_scheme',
+  difficulty: 'difficulty',
+}
+
+const CASE_MAP = { ...PRACTICAL_COMMON_MAP, format: 'type', decisions: 'decisions', debrief: 'debrief' }
+
+const LAB_MAP = { ...PRACTICAL_COMMON_MAP, format: 'type', subtype: 'lab_subtype', questions: 'lab_questions' }
+
+/** One decision inside `decisions`, and one question inside `lab_questions`. */
+const DECISION_MAP = {
+  id: 'decisions', title: 'decisions', context: 'decisions', question: 'decisions', answers: 'decisions',
+  rationale: 'decisions', conceptId: 'decisions', secondaryConceptIds: 'decisions', difficulty: 'decisions',
+}
+
+const LAB_QUESTION_MAP = {
+  id: 'lab_questions', context: 'lab_questions', question: 'lab_questions', mediaUrl: 'lab_questions',
+  answers: 'lab_questions', explanation: 'lab_questions', conceptId: 'lab_questions',
+  secondaryConceptIds: 'lab_questions', difficulty: 'lab_questions',
+}
+
+const PRACTICAL_MEDIA_MAP = {
+  id: 'media_needed', kind: 'media_needed', target: 'media_needed', brief: 'media_needed',
+  teachingPurpose: 'media_needed', priority: 'media_needed', status: 'media_needed',
+  sourceDirection: 'media_needed', rightsNotes: 'media_needed', notes: 'media_needed',
+}
+
 const IMAGE_MAP = {
   id: 'image_recommendations', articleId: 'image_recommendations', kind: 'image_recommendations',
   brief: 'image_recommendations', teachingPurpose: 'image_recommendations', section: 'image_recommendations',
@@ -169,6 +220,7 @@ function assess(modelName, modelFields, map, importKeys, prefix = modelName) {
 
 const articleKeys = keysOf(IMPORT_SCHEMAS.article.fields)
 const questionKeys = keysOf(IMPORT_SCHEMAS.question.fields)
+const practicalKeys = keysOf(IMPORT_SCHEMAS.practical.fields)
 const resourceKeys = keysOf(IMPORT_SCHEMAS.resource.fields)
 const conceptKeys = keysOf(CONCEPT_IMPORT_FIELDS)
 const relationKeys = keysOf(RELATION_IMPORT_FIELDS)
@@ -241,6 +293,42 @@ groups.push({
   model: 'QuestionTags',
   importFields: questionKeys.size,
   fields: assess('QuestionTags', await interfaceFields('src/data/contentControl.ts', 'QuestionTags'), QUESTION_TAGS_MAP, questionKeys),
+})
+groups.push({
+  contentType: 'Practical · OSCE and checklist',
+  model: 'OsceAuthoringData',
+  importFields: practicalKeys.size,
+  fields: assess('OsceAuthoringData', await practicalInterfaceFields('OsceAuthoringData'), OSCE_MAP, practicalKeys),
+})
+groups.push({
+  contentType: 'Practical · clinical case',
+  model: 'CaseAuthoringData',
+  importFields: practicalKeys.size,
+  fields: assess('CaseAuthoringData', await practicalInterfaceFields('CaseAuthoringData'), CASE_MAP, practicalKeys),
+})
+groups.push({
+  contentType: 'Practical · case decision',
+  model: 'ClinicalDecisionDraft',
+  importFields: practicalKeys.size,
+  fields: assess('ClinicalDecisionDraft', await interfaceFields('src/data/contentControl.ts', 'ClinicalDecisionDraft'), DECISION_MAP, practicalKeys),
+})
+groups.push({
+  contentType: 'Practical · interpretation set',
+  model: 'LabAuthoringData',
+  importFields: practicalKeys.size,
+  fields: assess('LabAuthoringData', await practicalInterfaceFields('LabAuthoringData'), LAB_MAP, practicalKeys),
+})
+groups.push({
+  contentType: 'Practical · interpretation question',
+  model: 'LabQuestionDraft',
+  importFields: practicalKeys.size,
+  fields: assess('LabQuestionDraft', await interfaceFields('src/data/contentControl.ts', 'LabQuestionDraft'), LAB_QUESTION_MAP, practicalKeys),
+})
+groups.push({
+  contentType: 'Practical · media request',
+  model: 'PracticalMediaRequest',
+  importFields: practicalKeys.size,
+  fields: assess('PracticalMediaRequest', await interfaceFields('src/data/contentControl.ts', 'PracticalMediaRequest'), PRACTICAL_MEDIA_MAP, practicalKeys),
 })
 groups.push({
   contentType: 'Resource',
