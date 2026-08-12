@@ -5,7 +5,7 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 
 | | |
 |---|---|
-| **Status** | Practicals authored for `SYS-CVS-T01`. Articles and concepts not started |
+| **Status** | Assessment authored for `SYS-CVS-T01`: 219 questions and 46 practical items, both covering all 98 pilot concepts. Articles and concepts for `T02`–`T09` not started |
 | **Blocked by** | `GATE-TAX-001`. `GATE-PLATFORM-001` **passed** 2026-08-12 |
 | **Active task** | `SYS-CVS-INVENTORY-001` (Not started) |
 | **Baseline date** | 2026-08-12 at commit `2df5853` |
@@ -411,11 +411,11 @@ high-risk ones are stuck.
 
 ---
 
-## 12. Admin-only image recommendation inventory
+## 12. Admin-only media request inventory
 
-Blocked by `PLAT-IMAGE-001` (`BLK-08`). Recommendations are **admin-only** and
-must never reach a student projection until an admin supplies approved media —
-this is test-enforced.
+Requests are **admin-only** and must never reach a student projection until an
+admin supplies approved media — this is test-enforced. Articles, questions and
+practicals share one `MediaRequest` record and one backlog (`DEC-025`).
 
 Identified needs for this system:
 
@@ -440,18 +440,52 @@ conveyed reliably in prose.
 
 ---
 
-## 13. Future Qbank and practical coverage notes
+## 13. Qbank and practical coverage
 
-> **Notes only.** No stem, option, explanation, station brief, actor script,
-> mark scheme or assessment record may be authored before `GATE-LIBRARY-001`
-> (LD-10). This section records intent and dependencies, nothing else.
+LD-10 was waived on 2026-08-12 (`DEC-023`), so this section records what exists
+rather than what is intended. The constraint that still binds is `DEC-024`: a
+question may only test a concept an article covers, every record lands as
+`Draft`, and treatment content still needs a citable source and faculty review.
 
-Highest expected Qbank density of any clinical system. Very high OSCE relevance: cardiovascular examination, chest-pain history, ECG interpretation stations. Record targets only; author nothing before GATE-LIBRARY-001.
+### Question bank — 219 questions, complete for `SYS-CVS-T01`
 
-Recorded intent for this system: target concepts are the atomic-article concepts
-identified in §8; proposed formats follow from the archetypes in §7; the
-dependency is that a question may only target a concept that is published and
-reciprocally linked to a published article.
+Files are in [`docs/import-ready/`](../../import-ready/INDEX.md), validated and
+waiting to be applied by hand through **Admin → Questions Setup → Bulk import**.
+
+| Batch | Article | Questions | Media flagged |
+|---|---|---:|---:|
+| `SYS-CVS-QUESTION-001` | `ART-CVS-HEART-ORIENTATION` | 16 | 5 |
+| `SYS-CVS-QUESTION-002` | `ART-CVS-CHAMBERS-VALVES` | 24 | 7 |
+| `SYS-CVS-QUESTION-003` | `ART-CVS-CORONARY-CIRCULATION` | 27 | 8 |
+| `SYS-CVS-QUESTION-004` | `ART-CVS-CONDUCTION` | 23 | 7 |
+| `SYS-CVS-QUESTION-005` | `ART-CVS-CARDIAC-HISTOLOGY` | 26 | 8 |
+| `SYS-CVS-QUESTION-006` | `ART-CVS-CARDIAC-CYCLE` | 20 | 6 |
+| `SYS-CVS-QUESTION-007` | `ART-CVS-CARDIAC-OUTPUT` | 20 | 5 |
+| `SYS-CVS-QUESTION-008` | `ART-CVS-CARDIAC-ELECTRICAL` | 24 | 8 |
+| `SYS-CVS-QUESTION-009` | `ART-CVS-BLOOD-PRESSURE` | 21 | 3 |
+| `SYS-CVS-QUESTION-010` | `ART-CVS-VASCULAR-FLOW` | 18 | 4 |
+| | **Total** | **219** | **61** |
+
+Difficulty: Easy 55 (25%) · Moderate 119 (54%) · Hard 34 (16%) · Challenging 11
+(5%). All 98 concepts of the pilot are the main concept of at least one question.
+
+**Coverage stops at T01 because the library does.** `SYS-CVS-T02`–`T09` have no
+articles and no concepts, so no question may test them. Ischaemic heart disease,
+heart failure, arrhythmia, valve disease, hypertension, congenital disease and
+the investigation topics are all unwritten. Authoring their articles is the
+prerequisite for extending the bank, and it is the largest remaining piece of
+cardiovascular work.
+
+**Two open dependencies.** 39 questions carry a `required` media request and
+cannot publish until the asset exists — they are in the backlog at Library Setup
+→ Media requests. 171 target concepts that have not passed the evidence gate;
+each says so in `author_notes` so the concept and the question can be promoted
+together.
+
+### Practicals — 46 items
+
+Authored separately (`SYS-CVS-PRACTICAL-001..009`), covering the same 98
+concepts. See the decision log entry of 2026-08-12.
 
 ---
 
