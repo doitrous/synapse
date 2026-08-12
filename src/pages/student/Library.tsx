@@ -701,12 +701,14 @@ function Reader({
   reusable,
   onTagsChange,
   query,
+  onOpenArticle,
 }: {
   article: LiveSubtopic
   tags: string[]
   reusable: string[]
   onTagsChange: (next: string[]) => void
   query: string
+  onOpenArticle: (articleId: string) => void
 }) {
   const t = useT()
   const location = useLocation()
@@ -722,7 +724,10 @@ function Reader({
   const chapterIndex = libraryTopics.find((topic) => topic.id === st.topicId)?.subtopics.findIndex((item) => item.id === id) ?? 0
   const [readArticles, setReadArticles] = usePersistentState<Record<string, boolean>>('synapse.library.read', {})
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
-  const traps = st.blocks.filter((block) => block.type === 'callout' && block.tone === 'warning')
+  // Traps come from the projection, which has already applied the callout
+  // evidence policy. Nothing is invented here when an article has none.
+  const traps = st.traps ?? st.blocks.filter((block) => block.type === 'callout' && block.tone === 'warning').map((block) => block.text ?? '').filter(Boolean)
+  const relatedArticles = st.relatedArticles ?? []
   const isRead = Boolean(readArticles[id])
   const [openMedia, setOpenMedia] = useState<ArticleMediaRecord | null>(null)
   const media = st.media ?? []
@@ -808,15 +813,35 @@ function Reader({
     {/* min-w-0: on mobile the aside shares one grid column with the article, so
         without it the widest sidebar row sets the column width for both. */}
     <aside className="min-w-0 space-y-3 lg:sticky lg:top-[4.75rem]">
+      {st.keyPoints.length > 0 && (
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
         <div className="flex items-center gap-2"><Icon icon={Lightbulb} size={15} className="text-accent" /><h2 className="text-[13px] font-semibold text-ink">{t('Hold these')}</h2></div>
         <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-accent" /><span><ReaderText text={point} query="" media={anchoredMedia(media, 'hold')} onOpenMedia={setOpenMedia} /></span></li>)}</ul>
       </section>
+      )}
       <MediaIndexPanel media={media} onOpenMedia={setOpenMedia} t={t} />
+      {/* Shown only when this article has reviewed traps. An article with none
+          says nothing rather than offering generic advice as its own. */}
+      {traps.length > 0 && (
       <section className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
-        <div className="border-b border-line px-4 py-3"><div className="flex items-center gap-2"><Icon icon={CircleAlert} size={16} className="text-danger" /><h2 className="text-[13px] font-bold text-ink">{t('Where people lose the mark')}</h2></div><p className="mt-0.5 font-mono text-[10.5px] text-ink-3">{Math.max(2, traps.length)} {t('traps')}</p></div>
-        <ul className="divide-y divide-line px-4 py-1">{(traps.length ? traps.map((trap) => trap.text ?? '') : ['Naming the mechanism without linking it to the clinical consequence.', 'Choosing a treatment without stating the finding that makes it appropriate.']).map((trap) => <li key={trap} className="flex gap-2.5 py-3 text-[12.5px] leading-relaxed text-ink-2"><Icon icon={TriangleAlert} size={16} className="mt-0.5 text-danger" /><span>{trap}</span></li>)}</ul>
+        <div className="border-b border-line px-4 py-3"><div className="flex items-center gap-2"><Icon icon={CircleAlert} size={16} className="text-danger" /><h2 className="text-[13px] font-bold text-ink">{t('Where people lose the mark')}</h2></div><p className="mt-0.5 font-mono text-[10.5px] text-ink-3">{traps.length} {t('traps')}</p></div>
+        <ul className="divide-y divide-line px-4 py-1">{traps.map((trap) => <li key={trap} className="flex gap-2.5 py-3 text-[12.5px] leading-relaxed text-ink-2"><Icon icon={TriangleAlert} size={16} className="mt-0.5 text-danger" /><span>{trap}</span></li>)}</ul>
       </section>
+      )}
+      {relatedArticles.length > 0 && (
+      <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
+        <h2 className="text-[13px] font-semibold text-ink">{t('Read next')}</h2>
+        <ul className="mt-2 divide-y divide-line">{relatedArticles.map((related) => (
+          <li key={related.id}>
+            <button type="button" onClick={() => onOpenArticle(related.id)} className="group flex w-full items-start gap-2.5 py-2.5 text-start text-[12.5px] leading-snug text-ink-2 hover:text-ink">
+              <span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={14} className="text-ink-3" /></span>
+              <span className="min-w-0 flex-1">{related.title}{related.reason && <span className="mt-0.5 block text-[10.5px] text-ink-3">{related.reason}</span>}</span>
+              <Icon icon={ChevronRight} size={14} className="mt-1 text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
+            </button>
+          </li>
+        ))}</ul>
+      </section>
+      )}
       <Link to={`/app/qbank?article=${st.id}`} className="group flex items-center gap-3 rounded-xl border border-line bg-surface p-4 shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/20">
         <span className="tnum grid size-10 shrink-0 place-items-center rounded-lg bg-accent-tint font-mono text-[15px] font-bold text-accent-strong">{st.questions.length}</span><span className="min-w-0 flex-1"><span className="block text-[13px] font-bold text-ink">{t('Questions that test this')}</span><span className="mt-0.5 block text-[11.5px] text-ink-3">{t('Start a filtered session')}</span></span><Icon icon={ChevronRight} size={17} className="text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
       </Link>
@@ -1042,6 +1067,7 @@ export function Library() {
             reusable={reusableTags}
             onTagsChange={(next) => setTagsFor(selectedId, next)}
             query=""
+            onOpenArticle={openArticle}
           />
         ) : (
           <TaxonomyNodeOverview node={selectedNode} taxonomy={taxonomy} articles={atlasArticles} onOpenArticle={openArticle} />

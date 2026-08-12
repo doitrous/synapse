@@ -76,6 +76,33 @@ Canonical placement is **not** stored on the node. It comes from
 `CURRICULUM_TOPIC_CROSSWALK` in `taxonomyCrosswalk.ts`, so every new topic needs
 a crosswalk entry — the validator fails without one.
 
+## Import columns
+
+Bulk import is at **Subjects & Topics → Bulk import**. Give a node ID to update
+or rename *that exact node*; omit it and the row matches by name or creates a new
+node. This is the difference between renaming a topic and silently creating a
+second one beside it.
+
+| Column | Effect |
+|---|---|
+| `system_id` | The system to update. Required to rename or to move a topic into it. |
+| `system` | System name. Renames when `system_id` is given. |
+| `system_short` | Uppercase abbreviation, e.g. `CVS`. |
+| `system_color` | Hex colour for the subject dot, e.g. `#b4442f`. |
+| `system_cross_refs` | Topic node IDs owned elsewhere that also belong here. A link, never a node. |
+| `topic_id` | The topic to update, rename, or move. Moving it to another `system_id` is reported as a move. |
+| `topic` | Topic name. |
+| `topic_cross_refs` | Subtopic node IDs owned elsewhere that are also relevant here. |
+| `subtopic_id` / `subtopic` | Subtopic to update or rename, and its name. |
+| `microtopic_id` / `microtopic` | Microtopic to update or rename, and its name. |
+| `nanotopic_id` / `nanotopic` | Nanotopic to update or rename, and its name. |
+
+Before writing, the importer checks that no label would end up declared in two
+places — the "one label, one home" rule — and refuses the whole file if it would.
+It then reports every create, rename and move, and names the articles and
+concepts that reference any node it renamed or moved, so the blast radius is
+visible rather than discovered later.
+
 ## Naming rules
 
 **Do**

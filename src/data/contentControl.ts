@@ -1,6 +1,6 @@
-import type { Status } from './admin'
-import type { ConceptAnnotation } from './conceptGraph'
-import type { ArticleSection } from './userLibrary'
+import type { Status } from './admin.ts'
+import type { ConceptAnnotation } from './conceptGraph.ts'
+import type { ArticleSection } from './userLibrary.ts'
 
 export type ArticleArchetype = 'condition' | 'presentation' | 'concept' | 'anatomy' | 'drug' | 'skill' | 'investigation' | 'organism' | 'emergency' | 'public-health'
 export type PublicationGate = 'publishable' | 'needs_evidence' | 'faculty_review' | 'conflicted' | 'excluded'
@@ -86,6 +86,66 @@ export function mediaReleaseBlockers(item: ArticleMediaRecord): string[] {
 export function isMediaReleased(item: ArticleMediaRecord): boolean {
   if (!item.url?.trim()) return false
   return item.releaseWithoutReview === true || mediaReleaseBlockers(item).length === 0
+}
+
+/* ---- Admin-only image recommendations ---------------------------------- */
+
+export const IMAGE_RECOMMENDATION_PRIORITIES = ['required', 'strongly helpful', 'optional'] as const
+export const IMAGE_RECOMMENDATION_STATUSES = ['needed', 'planned', 'supplied', 'declined'] as const
+export const IMAGE_RECOMMENDATION_KINDS = [
+  'diagram', 'anatomy plate', 'histology', 'flowchart', 'graph',
+  'comparison table', 'imaging example', 'algorithm', 'clinical photograph', 'other',
+] as const
+
+export type ImageRecommendationPriority = (typeof IMAGE_RECOMMENDATION_PRIORITIES)[number]
+export type ImageRecommendationStatus = (typeof IMAGE_RECOMMENDATION_STATUSES)[number]
+export type ImageRecommendationKind = (typeof IMAGE_RECOMMENDATION_KINDS)[number]
+
+/**
+ * A visual an article needs but does not yet have.
+ *
+ * This is deliberately NOT an `ArticleMediaRecord`. That type is a student media
+ * record whose release is governed by `isMediaReleased`, so an unfulfilled
+ * recommendation stored there would sit one `releaseWithoutReview` flag away
+ * from a student. A recommendation is an editorial instruction to a human; it
+ * carries no URL and never reaches a published projection. `mediaId` links it to
+ * the real media once that media exists.
+ */
+export interface ImageRecommendation {
+  id: string
+  articleId: string
+  kind: ImageRecommendationKind
+  /** What to draw or source, in one line. */
+  brief: string
+  /** What a student should be able to do after seeing it, and why prose cannot carry it. */
+  teachingPurpose: string
+  /** Which section this belongs beside. */
+  section?: string
+  block?: 'summary' | 'body' | 'hold' | 'trap'
+  /** Verbatim article text this visual illustrates, when it belongs to one phrase. */
+  anchorQuote?: string
+  priority: ImageRecommendationPriority
+  status: ImageRecommendationStatus
+  notes?: string
+  /** Where a fulfiller should look, e.g. "openly licensed anatomy atlas". */
+  sourceDirection?: string
+  rightsNotes?: string
+  /** Set once an `ArticleMediaRecord` fulfils this recommendation. */
+  mediaId?: string
+}
+
+/**
+ * Evidence backing one "Hold these" or "Where people lose the mark" line.
+ *
+ * Keyed by the callout's exact text rather than its index, so reordering or
+ * inserting a line cannot silently re-point evidence at a different claim.
+ */
+export interface CalloutEvidence {
+  claimIds?: string[]
+  citationIds?: string[]
+  spanId?: string
+  reviewedBy?: string
+  reviewedAt?: string
 }
 
 export interface QuestionTags {
@@ -190,6 +250,10 @@ export interface ArticleAuthoringData {
   evidenceGaps?: string[]
   relatedArticleIds?: string[]
   media?: ArticleMediaRecord[]
+  /** Admin-only. Never projected to a student — see `ImageRecommendation`. */
+  imageRecommendations?: ImageRecommendation[]
+  /** Evidence for individual `holdThese` / `loseTheMark` lines, keyed by exact text. */
+  calloutEvidence?: Record<string, CalloutEvidence>
   notes?: string
 }
 

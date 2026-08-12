@@ -73,6 +73,13 @@ British spelling. Set status to Draft.
 
 ---
 
+### Identity
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `id` | `ManagedContentItem.id` | Existing canonical ID to update. Omit to create. |
+| `owner` | `ManagedContentItem.owner` | Author or team responsible for review. |
+
 ## Type 1 · OSCE station
 
 | Field key | Required? | Source of truth | Rule |

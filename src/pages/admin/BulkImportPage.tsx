@@ -12,6 +12,7 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import { cn } from '@/lib/cn'
 import { CONTENT_KIND_LABEL, CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ContentKind, type ManagedContentItem } from '@/data/contentControl'
 import { IMPORT_SCHEMAS, importRowToContent, validateImportRow } from '@/data/bulkImport'
+import { materialiseNewItem, mergeContentItem } from '@/data/importMerge'
 
 interface SourceSheet { name: string; headers: string[]; rows: string[][] }
 interface ImportJournal { fingerprint: string; rowKeys: string[]; imported: number; failed: number; updatedAt: string }
@@ -80,13 +81,6 @@ function cellText(value: unknown) {
 
 function fingerprint(file: File, kind: ContentKind) {
   return `${kind}:${file.name}:${file.size}:${file.lastModified}`
-}
-
-function mergeImported(existing: ManagedContentItem, imported: ManagedContentItem, overrideEmpty: boolean) {
-  if (overrideEmpty) return imported
-  const fields = { ...existing.fields }
-  Object.entries(imported.fields).forEach(([key, value]) => { if (value.trim()) fields[key] = value })
-  return { ...existing, ...imported, title: imported.title || existing.title, subjectId: imported.subjectId || existing.subjectId, fields }
 }
 
 export function BulkImportPage() {
@@ -190,8 +184,8 @@ export function BulkImportPage() {
         let next = [...current]
         converted.forEach((incoming) => {
           const index = next.findIndex((item) => item.id === incoming.id)
-          if (index >= 0 && mergeMode === 'update') next[index] = mergeImported(next[index], incoming, overrideEmpty)
-          else if (index < 0) next.unshift(incoming)
+          if (index >= 0 && mergeMode === 'update') next[index] = mergeContentItem(next[index], incoming, overrideEmpty)
+          else if (index < 0) next.unshift(materialiseNewItem(incoming))
         })
         return next
       })

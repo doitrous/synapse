@@ -1,4 +1,4 @@
-import type { ArticleMediaRecord } from './contentControl'
+import type { ArticleMediaRecord } from './contentControl.ts'
 
 export interface LibBlock {
   /** `sources` is a divider: every `fact` after it belongs to the Sources section. */
@@ -20,6 +20,22 @@ export interface LinkedQuestion {
   stem: string
 }
 
+/** A related-reading link a student can actually follow. */
+export interface RelatedArticleLink {
+  id: string
+  title: string
+  /** Why the two articles are connected, shown beside the link. */
+  reason?: string
+}
+
+/** A concept an article's prose points at, anchored to the exact words. */
+export interface ReaderAnnotation {
+  quote: string
+  conceptId: string
+  conceptLabel: string
+  block: 'summary' | 'body' | 'hold' | 'trap'
+}
+
 export interface Subtopic {
   id: string
   title: string
@@ -27,6 +43,15 @@ export interface Subtopic {
   summary: string
   blocks: LibBlock[]
   keyPoints: string[]
+  /**
+   * "Where people lose the mark", already filtered by the callout evidence
+   * policy. The reader shows these and never substitutes generic text for them.
+   */
+  traps?: string[]
+  /** Related reading that resolves to a readable article. */
+  relatedArticles?: RelatedArticleLink[]
+  /** Publishable statement annotations, for inline concept affordances. */
+  annotations?: ReaderAnnotation[]
   questions: LinkedQuestion[]
   resources: string[]
   /** Rights-checked images, audio and video. Anchored items are also listed here. */

@@ -1,5 +1,6 @@
 import { Fragment, useMemo, useState } from 'react'
-import { Plus, Trash2, ArrowRight, Upload, Search, CircleCheck, TriangleAlert, Tag, Pencil, Check, X, ChevronDown, ChevronRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Plus, Trash2, ArrowRight, Upload, FileSpreadsheet, Search, CircleCheck, TriangleAlert, Tag, Pencil, Check, X, ChevronDown, ChevronRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { ConceptNavigator } from '@/components/admin/ConceptNavigator'
@@ -256,7 +257,12 @@ export function RelationshipsSetup() {
       <PageHeader
         title="Relationships"
         description="Relationships between concepts — directional (source → target) or back-and-forth (↔). One concept can link to many at once, and the same pair can hold several relations of different types."
-        actions={<Button variant="secondary" size="md" iconLeft={Upload} onClick={() => { setImporting(true); setReport(null); setImportText('') }}>Bulk import</Button>}
+        actions={
+          <div className="flex flex-wrap gap-2">
+            <Button variant="secondary" size="md" iconLeft={Upload} onClick={() => { setImporting(true); setReport(null); setImportText('') }}>Paste relationships</Button>
+            <Link to="/admin/relationships/import"><Button variant="secondary" size="md" iconLeft={FileSpreadsheet}>Import a file</Button></Link>
+          </div>
+        }
       />
 
       {notice && (

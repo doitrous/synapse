@@ -114,6 +114,18 @@ error in this template: it silently corrupts a student's mastery profile.
 | `years`, `universities` | `tags.years`, `tags.universityIds` | Where it applies. |
 | `question_only_for` | `tags.questionOnlyFor` | **Restrictive.** If set, the question applies ONLY to these year/university IDs, overriding subject scope. Use sparingly. |
 
+### Identity, attachments and behaviour
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `id` | `ManagedContentItem.id` | Existing canonical ID to update. Omit to create. |
+| `owner` | `ManagedContentItem.owner` | Author or team responsible for review. |
+| `attachments` | `questionData.attachments` | One `### image\|audio\|video · URL` block per item, then `Name:` and optionally `Mime:`. |
+| `attached_image` | `questionData.attachedImage` | A single image URL shown with the stem. |
+| `author_notes` | `questionData.authorNotes` | Internal notes. Never shown to a student. |
+| `estimated_seconds` | `questionData.estimatedSeconds` | How long the item should take. Defaults to 90. |
+| `randomise_answers` | `questionData.randomiseAnswers` | `yes` or `no`. Defaults to yes. |
+
 ## Writing a distractor that works
 
 A distractor earns its place by catching a **specific, nameable** error.

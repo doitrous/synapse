@@ -121,6 +121,46 @@ honest weight beats a confident guess.
 | `publicationStatus`, `editorialReviewStatus` | `Concept.*` | Governance state. |
 | `fieldNotes` | `Concept.fieldNotes` | Why any applicable field is empty. |
 
+### Import columns
+
+The tables above name the model fields. These are the column keys the bulk
+importer reads, at **Concepts → Bulk import**. Give an existing `id` to update a
+concept in place: a blank column leaves that field alone, and `[clear]` empties a
+list on purpose.
+
+| Column | Sets | Column | Sets |
+|---|---|---|---|
+| `label` | `label` | `id` | `id` |
+| `canonical_key` | `canonicalKey` | `aliases` | `aliases` |
+| `arabic_label` | `arabicLabel` | `arabic_aliases` | `arabicAliases` |
+| `definition` | `definition` | `explicit_objective` | `explicitObjective` |
+| `pitfalls` | `pitfalls` | `concept_type` | `conceptType` |
+| `status` | `status` | `subject` | `subjectId`, `systemId` |
+| `topic` | `topicTagId` | `subtopic` | `subtopicId` |
+| `microtopic` | `microtopicId` | `nanotopic` | `nanotopicId` |
+| `primary_node_id` | `primaryNodeId` | `secondary_node_ids` | `secondaryNodeIds` |
+| `learner_years` | `learnerYears` | `universities` | `universityIds` |
+| `modules` | `moduleIds` | `article_ids` | `articleIds` |
+| `related_article_ids` | `relatedArticleIds` | `related_concept_ids` | `relatedConceptIds` |
+| `resource_ids` | `resourceIds` | `approved_file_resource_ids` | `approvedFileResourceIds` |
+| `approved_video_resource_ids` | `approvedVideoResourceIds` | `blueprint_weight` | `blueprintWeight` |
+| `exam_weight_by_year` | `examWeightByYear` | `clinical_relevance` | `clinicalRelevance` |
+| `academic_relevance` | `academicRelevance` | `weight_confidence` | `weightConfidence` |
+| `confidence` | `confidence` | `support_mode` | `supportMode` |
+| `atomic_claim_ids` | `atomicClaimIds` | `resource_occurrence_ids` | `resourceOccurrenceIds` |
+| `source_candidate_ids` | `sourceCandidateIds` | `original_wording` | `originalWording` |
+| `merge_ids` | `mergeIds` | `rejected_merge_candidate_ids` | `rejectedMergeCandidateIds` |
+| `conflicts` | `conflicts` | `uncertainty` | `uncertainty` |
+| `evidence_gaps` | `evidenceGaps` | `owner` | `owner` |
+| `reviewer` | `reviewer` | `final_publisher` | `finalPublisher` |
+| `last_reviewed` | `lastReviewed` | `review_due` | `reviewDue` |
+| `publication_status` | `publicationStatus` | `editorial_review_status` | `editorialReviewStatus` |
+| `exclusion_reason` | `exclusionReason` | `field_notes` | `fieldNotes` |
+
+Merge lineage — `merge_ids`, `rejected_merge_candidate_ids`,
+`source_candidate_ids`, `original_wording` — survives an update that does not
+mention it. Canonicalisation history is never lost by re-importing.
+
 ## Typed relations
 
 Relations are what turn a list of concepts into a graph. Use the exact type
@@ -141,6 +181,29 @@ what lets the app surface the distinction a student is about to get wrong.
 Every relation carries `verificationStatus`: `needs_evidence` (default),
 `verified` (has a claim + citation chain), or `conflicted`. Never write
 `verified` without the evidence.
+
+### Importing relations
+
+Relations have their own importer at **Relationships → Import a file**. Both
+endpoints, the type, and every named claim and citation are checked before
+anything is written, so a broken edge never reaches the graph.
+
+| Column | Sets | Rule |
+|---|---|---|
+| `source` | `sourceId` | Must be an existing concept ID. |
+| `type` | `type` | One of the types above. |
+| `target` | `targetId` | Must exist, and must not be the source. |
+| `evidence_claim_ids` | `evidenceClaimIds` | Each must resolve to a real claim. |
+| `citation_ids` | `citationIds` | Each must resolve to a real citation. |
+| `confidence` | `confidence` | 0–1. |
+| `verification_status` | `verificationStatus` | `verified` is refused unless both a claim and a citation are named. |
+| `qualifiers` | `qualifiers` | One `key: value` per line. |
+| `reviewer` | `reviewer` | |
+| `reviewed_at` | `reviewedAt` | ISO date. |
+| `id` | `id` | Omit it: the ID is derived from source, type and target, so re-importing the same file changes nothing. |
+
+A second edge with the same direction, type and endpoints is refused as a
+duplicate even under a different ID. The reverse direction is a different edge.
 
 ## Skeleton
 

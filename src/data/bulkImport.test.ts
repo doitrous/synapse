@@ -1,0 +1,313 @@
+import test from 'node:test'
+import assert from 'node:assert/strict'
+import {
+  IMPORT_SCHEMAS, importRowToContent, validateImportRow,
+  parseAnnotations, parseImageRecommendations, parseCalloutEvidence, parseRelatedArticles, parseFieldNotes,
+} from './bulkImport.ts'
+import { mergeContentItem, materialiseNewItem } from './importMerge.ts'
+import { listDirective, applyListDirective, optionalList } from './importSemantics.ts'
+import type { ManagedContentItem } from './contentControl.ts'
+
+/* ---- list semantics ---------------------------------------------------- */
+
+test('a blank cell leaves an existing list alone', () => {
+  assert.equal(listDirective('').mode, 'untouched')
+  assert.deepEqual(applyListDirective(listDirective(''), ['a', 'b']), ['a', 'b'])
+  assert.equal(optionalList('  '), undefined)
+})
+
+test('a value replaces the list', () => {
+  assert.deepEqual(applyListDirective(listDirective('x | y'), ['a']), ['x', 'y'])
+})
+
+test('a leading + appends and does not duplicate on re-import', () => {
+  const once = applyListDirective(listDirective('+c'), ['a', 'b'])
+  assert.deepEqual(once, ['a', 'b', 'c'])
+  assert.deepEqual(applyListDirective(listDirective('+c'), once), ['a', 'b', 'c'])
+})
+
+test('[clear] empties the list explicitly', () => {
+  assert.deepEqual(applyListDirective(listDirective('[clear]'), ['a']), [])
+  assert.deepEqual(optionalList('[clear]'), [])
+})
+
+/* ---- annotations ------------------------------------------------------- */
+
+const ANNOTATION_BLOCK = `### definition_of · med.concept.cardiac-output
+Quote: the volume of blood ejected by one ventricle in one minute
+Block: body
+Id: ann-cvs-co-001`
+
+test('an annotation block parses into a complete record', () => {
+  const [annotation] = parseAnnotations(ANNOTATION_BLOCK)
+  assert.equal(annotation.id, 'ann-cvs-co-001')
+  assert.equal(annotation.conceptId, 'med.concept.cardiac-output')
+  assert.equal(annotation.relation, 'definition_of')
+  assert.equal(annotation.block, 'body')
+  assert.equal(annotation.quote, 'the volume of blood ejected by one ventricle in one minute')
+})
+
+test('an omitted annotation id is derived so re-import is idempotent', () => {
+  const withoutId = ANNOTATION_BLOCK.split('\n').filter((line) => !line.startsWith('Id:')).join('\n')
+  const first = parseAnnotations(withoutId)[0]
+  const second = parseAnnotations(withoutId)[0]
+  assert.equal(first.id, second.id)
+  assert.match(first.id, /^ann-/)
+})
+
+test('a quote that is not in the stated block is a row error', () => {
+  const errors = validateImportRow('article', {
+    title: 'T', subject: 'cvs', topic: 'Chapter', summary: 'S',
+    sections: '### Definition\nSomething entirely different.',
+    annotations: ANNOTATION_BLOCK,
+  })
+  assert.ok(errors.some((error) => /does not appear in the body block/.test(error)), errors.join(' | '))
+})
+
+test('a quote present in the stated block passes', () => {
+  const errors = validateImportRow('article', {
+    title: 'T', subject: 'cvs', topic: 'Chapter', summary: 'S',
+    sections: '### Definition\nCardiac output is the volume of blood ejected by one ventricle in one minute.',
+    annotations: ANNOTATION_BLOCK,
+  })
+  assert.deepEqual(errors, [])
+})
+
+test('an unknown relation type is a row error', () => {
+  const errors = validateImportRow('article', {
+    title: 'T', subject: 'cvs', topic: 'Chapter', summary: 'the quote',
+    annotations: '### invented_relation · med.concept.x\nQuote: the quote\nBlock: summary',
+  })
+  assert.ok(errors.some((error) => /is not a relation type/.test(error)), errors.join(' | '))
+})
+
+/* ---- image recommendations --------------------------------------------- */
+
+test('an image recommendation parses with its priority and status', () => {
+  const [recommendation] = parseImageRecommendations(
+    `### anatomy plate · Coronary artery territories mapped to ECG leads
+Purpose: A student cannot hold the lead-to-territory mapping from prose.
+Priority: required
+Status: needed
+Section: Structure
+Source direction: openly licensed anatomy atlas
+Rights: must be CC-BY or public domain`,
+    'ART-CVS-CORONARY-CIRCULATION',
+  )
+  assert.equal(recommendation.kind, 'anatomy plate')
+  assert.equal(recommendation.priority, 'required')
+  assert.equal(recommendation.status, 'needed')
+  assert.equal(recommendation.articleId, 'ART-CVS-CORONARY-CIRCULATION')
+  assert.match(recommendation.teachingPurpose, /cannot hold/)
+})
+
+test('a recommendation with no teaching purpose is a row error', () => {
+  const errors = validateImportRow('article', {
+    title: 'T', subject: 'cvs', topic: 'Chapter', summary: 'S',
+    image_recommendations: '### diagram · Something pretty\nPriority: optional',
+  })
+  assert.ok(errors.some((error) => /no Purpose:/.test(error)), errors.join(' | '))
+})
+
+/* ---- callout evidence -------------------------------------------------- */
+
+test('callout evidence keys on the exact callout text', () => {
+  const evidence = parseCalloutEvidence('### Ordering D-dimer when CTPA is already indicated.\nClaims: claim-1\nReviewed by: Dr Omar')
+  assert.deepEqual(evidence['Ordering D-dimer when CTPA is already indicated.'], { claimIds: ['claim-1'], reviewedBy: 'Dr Omar' })
+})
+
+test('callout evidence naming a line the article does not have is a row error', () => {
+  const errors = validateImportRow('article', {
+    title: 'T', subject: 'cvs', topic: 'Chapter', summary: 'S',
+    lose_the_mark: 'A real trap.',
+    callout_evidence: '### A trap that is not in the list.\nClaims: claim-1',
+  })
+  assert.ok(errors.some((error) => /not one of this article/.test(error)), errors.join(' | '))
+})
+
+/* ---- related articles and field notes ---------------------------------- */
+
+test('a related article carries its reason under a pair-specific key', () => {
+  const { ids, reasons } = parseRelatedArticles('ART-A: Explains the mechanism you just read.\nART-B')
+  assert.deepEqual(ids, ['ART-A', 'ART-B'])
+  assert.equal(reasons['relatedArticle:ART-A'], 'Explains the mechanism you just read.')
+  assert.equal(reasons['relatedArticle:ART-B'], undefined)
+})
+
+test('field notes parse into the intentional-empty map the audit reads', () => {
+  assert.deepEqual(parseFieldNotes('arabicTitle: awaiting reviewed terminology\nmedia: no rights-cleared image yet'), {
+    arabicTitle: 'awaiting reviewed terminology',
+    media: 'no rights-cleared image yet',
+  })
+})
+
+/* ---- full round trip --------------------------------------------------- */
+
+const FULL_ARTICLE: Record<string, string> = {
+  id: 'ART-TEST-FULL',
+  title: 'Pulmonary embolism',
+  subject: 'cvs',
+  status: 'In review',
+  owner: 'Dr Omar',
+  topic: 'Venous thromboembolism',
+  summary: 'A common, treatable cause of acute breathlessness.',
+  sections: '### Definition\nOcclusion of the pulmonary arterial tree.\n### Investigation\nWells score guides D-dimer versus CTPA.',
+  published_sections: '### Definition\nOcclusion of the pulmonary arterial tree.',
+  published_summary: 'A common, treatable cause of acute breathlessness.',
+  body: 'Legacy body text.',
+  hold_these: 'Oxygen and ABC assessment come first.',
+  lose_the_mark: 'Ordering D-dimer when CTPA is already indicated.',
+  callout_evidence: '### Ordering D-dimer when CTPA is already indicated.\nClaims: claim-1\nReviewed by: Dr Omar',
+  universities: 'HU | ASU',
+  university_notes: 'HU: Kasr Alainy expects the two-level Wells score.',
+  years: 'HU_Y3',
+  module: 'CVS 01',
+  subtopic: 'SUB_PE',
+  microtopic: 'MIC_WELLS',
+  nanotopic: 'NAN_DDIMER',
+  template_id: 'TPL-CONDITION',
+  archetype: 'condition',
+  learner_stage: 'Years 3–4 clinical',
+  high_yield: 'High',
+  language: 'en',
+  arabic_title: 'الانصمام الرئوي',
+  aliases: 'PE | Pulmonary thromboembolism',
+  time_sensitive: 'time_sensitive',
+  publication_gate: 'faculty_review',
+  primary_node_id: 'SYS-RES-T06',
+  secondary_node_ids: 'SYS-CVS-T07 | KNW-EMG',
+  evidence_basis: 'Guideline plus textbook corroboration',
+  article_source_ids: 'r-ng158',
+  claim_ids: 'claim-1',
+  span_ids: 'span-1',
+  conflicts: 'Two-level versus three-level Wells score by faculty',
+  evidence_gaps: 'Egyptian incidence data not yet sourced',
+  reviewer: 'Dr Omar',
+  final_publisher: 'Dr Omar',
+  last_reviewed: '2026-08-11',
+  review_due: '2027-08-11',
+  media: '### image · https://example.org/ctpa.png\nCaption: CTPA showing a filling defect\nAlt: Axial CT with a filling defect\nRights: CC-BY\nNecessity: The filling defect is the diagnosis',
+  image_recommendations: '### algorithm · Wells score decision pathway\nPurpose: The branching cannot be read reliably as prose.\nPriority: required\nStatus: needed',
+  annotations: '### definition_of · med.concept.pe\nQuote: Occlusion of the pulmonary arterial tree\nBlock: body',
+  related_concepts: 'med.concept.pe',
+  related_articles: 'ART-A: Explains the mechanism.',
+  question_ids: 'q-pe-1',
+  resource_ids: 'r-ng158',
+  field_notes: 'moduleIds: awaiting a verified live module ID',
+  notes: 'Draft pending faculty sign-off.',
+  reading_time: '9',
+}
+
+test('a fully populated article row imports with every field present', () => {
+  assert.deepEqual(validateImportRow('article', FULL_ARTICLE), [])
+  const item = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  const data = item.articleData!
+
+  assert.equal(item.id, 'ART-TEST-FULL')
+  assert.equal(item.title, 'Pulmonary embolism')
+  assert.equal(item.subjectId, 'cvs')
+  assert.equal(item.owner, 'Dr Omar')
+  assert.equal(data.arabicTitle, 'الانصمام الرئوي')
+  assert.deepEqual(data.aliases, ['PE', 'Pulmonary thromboembolism'])
+  assert.equal(data.language, 'en')
+  assert.equal(data.timeSensitive, 'time_sensitive')
+  assert.equal(data.publicationGate, 'faculty_review')
+  assert.equal(data.highYield, 'High')
+  assert.equal(data.nanotopicId, 'NAN_DDIMER')
+  assert.equal(data.sections.length, 2)
+  assert.equal(data.publishedSections?.length, 1)
+  assert.equal(data.publishedSummary, 'A common, treatable cause of acute breathlessness.')
+  assert.deepEqual(data.secondaryNodeIds, ['SYS-CVS-T07', 'KNW-EMG'])
+  assert.deepEqual(data.claimIds, ['claim-1'])
+  assert.deepEqual(data.spanIds, ['span-1'])
+  assert.deepEqual(data.conflicts, ['Two-level versus three-level Wells score by faculty'])
+  assert.deepEqual(data.evidenceGaps, ['Egyptian incidence data not yet sourced'])
+  assert.equal(data.reviewer, 'Dr Omar')
+  assert.equal(data.lastReviewed, '2026-08-11')
+  assert.equal(data.reviewDue, '2027-08-11')
+  assert.equal(data.media?.length, 1)
+  assert.equal(data.imageRecommendations?.length, 1)
+  assert.equal(data.imageRecommendations?.[0].priority, 'required')
+  assert.equal(data.annotations.length, 1)
+  assert.equal(data.annotations[0].conceptId, 'med.concept.pe')
+  assert.deepEqual(data.relatedArticleIds, ['ART-A'])
+  assert.equal(data.fieldNotes?.['relatedArticle:ART-A'], 'Explains the mechanism.')
+  assert.equal(data.fieldNotes?.moduleIds, 'awaiting a verified live module ID')
+  assert.equal(data.calloutEvidence?.['Ordering D-dimer when CTPA is already indicated.']?.reviewedBy, 'Dr Omar')
+  assert.equal(data.universityNotes?.length, 1)
+  assert.equal(data.notes, 'Draft pending faculty sign-off.')
+})
+
+test('every article import field is reachable from the schema', () => {
+  // The round-trip fixture must exercise the whole schema, or parity is a claim
+  // rather than a fact.
+  const schemaKeys = IMPORT_SCHEMAS.article.fields.map((field) => field.key)
+  const missing = schemaKeys.filter((key) => !(key in FULL_ARTICLE))
+  assert.deepEqual(missing, [], `fixture does not cover: ${missing.join(', ')}`)
+})
+
+/* ---- partial update must not erase nested data ------------------------- */
+
+test('a partial update leaves untouched nested fields alone', () => {
+  const existing = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  const patch = importRowToContent('article', { id: 'ART-TEST-FULL', title: 'Pulmonary embolism (revised)', subject: 'cvs', topic: 'Venous thromboembolism', summary: 'A revised summary.' }, 'row-2')
+  const merged = mergeContentItem(existing, patch, false)
+  const data = merged.articleData!
+
+  assert.equal(merged.title, 'Pulmonary embolism (revised)')
+  assert.equal(data.summary, 'A revised summary.')
+  // Everything the patch did not mention survives — this is the whole point.
+  assert.equal(data.annotations.length, 1)
+  assert.deepEqual(data.claimIds, ['claim-1'])
+  assert.deepEqual(data.aliases, ['PE', 'Pulmonary thromboembolism'])
+  assert.equal(data.imageRecommendations?.length, 1)
+  assert.equal(data.calloutEvidence?.['Ordering D-dimer when CTPA is already indicated.']?.reviewedBy, 'Dr Omar')
+  assert.equal(data.reviewer, 'Dr Omar')
+  assert.equal(data.media?.length, 1)
+})
+
+test('an explicit [clear] does empty a list on update', () => {
+  const existing = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  const patch = importRowToContent('article', { id: 'ART-TEST-FULL', title: 'T', subject: 'cvs', topic: 'C', summary: 'S', conflicts: '[clear]' }, 'row-2')
+  const merged = mergeContentItem(existing, patch, false)
+  assert.deepEqual(merged.articleData!.conflicts, [])
+  // and nothing else moved
+  assert.deepEqual(merged.articleData!.claimIds, ['claim-1'])
+})
+
+test('nested objects accumulate rather than replace on update', () => {
+  const existing = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  const patch = importRowToContent('article', { id: 'ART-TEST-FULL', title: 'T', subject: 'cvs', topic: 'C', summary: 'S', field_notes: 'questionIds: no validated questions yet' }, 'row-2')
+  const merged = mergeContentItem(existing, patch, false)
+  assert.equal(merged.articleData!.fieldNotes?.questionIds, 'no validated questions yet')
+  assert.equal(merged.articleData!.fieldNotes?.moduleIds, 'awaiting a verified live module ID')
+})
+
+test('override-with-blanks is still available and does replace wholesale', () => {
+  const existing = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  const patch = materialiseNewItem(importRowToContent('article', { id: 'ART-TEST-FULL', title: 'T', subject: 'cvs', topic: 'C', summary: 'S' }, 'row-2'))
+  const merged = mergeContentItem(existing, patch, true)
+  assert.deepEqual(merged.articleData!.claimIds, [])
+})
+
+/* ---- questions --------------------------------------------------------- */
+
+test('question attachments and authoring fields round-trip', () => {
+  const item: ManagedContentItem = importRowToContent('question', {
+    title: 'Q', subject: 'cvs', question: 'What is the first action?', correct_answer: 'A',
+    answer_a: 'Give oxygen', explanation_a: 'Treat hypoxia first.',
+    attachments: '### image · https://example.org/ecg.png\nName: 12-lead ECG\nMime: image/png',
+    attached_image: 'https://example.org/ecg.png',
+    author_notes: 'Checked against NG185.',
+    estimated_seconds: '120',
+    randomise_answers: 'no',
+  }, 'row-q')
+  const data = item.questionData!
+  assert.equal(data.attachments.length, 1)
+  assert.equal(data.attachments[0].name, '12-lead ECG')
+  assert.equal(data.attachments[0].mimeType, 'image/png')
+  assert.equal(data.attachedImage, 'https://example.org/ecg.png')
+  assert.equal(data.authorNotes, 'Checked against NG185.')
+  assert.equal(data.estimatedSeconds, 120)
+  assert.equal(data.randomiseAnswers, false)
+})

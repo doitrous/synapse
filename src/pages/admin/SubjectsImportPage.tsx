@@ -1,81 +1,142 @@
-import { ImportWizard, type ImportField } from '@/components/admin/ImportWizard'
+import { useState } from 'react'
+import { ImportWizard } from '@/components/admin/ImportWizard'
+import { Badge } from '@/components/ui/Badge'
+import { usePersistentState } from '@/lib/usePersistentState'
 import {
-  useTaxonomyTree, slug, systemId, topicIdOf, subtopicIdOf, microtopicIdOf, nanotopicIdOf,
+  useTaxonomyTree, systemId, topicIdOf, subtopicIdOf, microtopicIdOf, nanotopicIdOf,
   type TaxSysNode,
 } from '@/data/taxonomyStore'
+import {
+  SUBJECTS_IMPORT_FIELDS, applyRow, indexTree, duplicateLabelsIn, referencesTo,
+  type StructuralChange,
+} from '@/data/subjectsImport'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 
-const FIELDS: ImportField[] = [
-  { key: 'system', label: 'System', required: true, help: 'Top-level system (e.g. Cardiovascular). Reused if it already exists.' },
-  { key: 'topic', label: 'Topic', help: 'Topic under the system.' },
-  { key: 'subtopic', label: 'Subtopic', help: 'Subtopic under the topic.' },
-  { key: 'microtopic', label: 'Microtopic', help: 'Microtopic under the subtopic.' },
-  { key: 'nanotopic', label: 'Nanotopic', help: 'Nanotopic under the microtopic.' },
-]
+const MD = `# Item
+## system
+Immunology
+## system_short
+IMM
+## system_color
+#4a6fa5
+## topic
+Hypersensitivity
+## subtopic
+Type I hypersensitivity
+## microtopic
+Mast cell degranulation
+## nanotopic
+IgE cross-linking
 
-const MD = `# Item\n## system\nImmunology\n## topic\nHypersensitivity\n## subtopic\nType I hypersensitivity\n## microtopic\nMast cell degranulation\n## nanotopic\nIgE cross-linking\n\n---\n\n# Item\n## system\nImmunology\n## topic\nAutoimmunity\n## subtopic\nTolerance mechanisms`
+---
 
-function allIds(tree: TaxSysNode[]): Set<string> {
-  const set = new Set<string>()
-  tree.forEach((s) => { set.add(s.id); s.topics.forEach((t) => { set.add(t.id); t.subs.forEach((su) => { set.add(su.id); su.micros.forEach((m) => { set.add(m.id); m.nanos.forEach((n) => set.add(n.id)) }) }) }) })
-  return set
+# Item
+## system_id
+cvs
+## system
+Cardiovascular
+## topic_id
+cvs-cardiac-anatomy
+## topic
+Cardiac anatomy and imaging`
+
+/** One line describing a structural change, for the report an admin reads. */
+function describe(change: StructuralChange): string {
+  if (change.action === 'create') return `Create ${change.level} “${change.to}” (${change.nodeId})`
+  if (change.action === 'rename') return `Rename ${change.level} ${change.nodeId}: “${change.from}” → “${change.to}”`
+  if (change.action === 'move') return `Move ${change.level} ${change.nodeId} from ${change.from} to ${change.newParentId}`
+  return `Update ${change.level} ${change.nodeId}`
 }
 
 export function SubjectsImportPage() {
   const [tree, setTree] = useTaxonomyTree()
+  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [impact, setImpact] = useState<string[]>([])
 
   function commit(rows: Array<Record<string, string>>) {
-    const errors: string[] = []
-    let systems = 0, topics = 0, subs = 0, micros = 0, nanos = 0
     const draft: TaxSysNode[] = structuredClone(tree)
-    const taken = allIds(draft)
-    const uid = (base: string) => { let id = base, n = 2; while (taken.has(id)) id = `${base}-${n++}`; taken.add(id); return id }
-    const byName = <T extends { title?: string; name?: string }>(arr: T[], name: string) =>
-      arr.find((x) => (x.title ?? x.name ?? '').toLowerCase() === name.toLowerCase())
+    const context = { tree: draft, taken: new Set(indexTree(draft).keys()), changes: [] as StructuralChange[], errors: [] as string[] }
+    const ids = { systemId, topicId: topicIdOf, subtopicId: subtopicIdOf, microtopicId: microtopicIdOf, nanotopicId: nanotopicIdOf }
 
-    rows.forEach((v, i) => {
-      const sysName = v.system?.trim()
-      if (!sysName) { errors.push(`Row ${i + 2}: system is required.`); return }
-      let sys = draft.find((s) => s.name.toLowerCase() === sysName.toLowerCase())
-      if (!sys) {
-        const id = uid(slug(sysName))
-        const created: TaxSysNode = { id, name: sysName, short: sysName.slice(0, 3).toUpperCase(), color: '#8a938f', sysId: systemId(id), topics: [] }
-        sys = created; draft.push(created); systems++
+    rows.forEach((values, index) => applyRow(values, context, ids, index + 2))
+
+    // "One label, one home" is the rule the authoring validator enforces. Catch a
+    // breach here, before it is written, rather than in CI afterwards.
+    const duplicates = duplicateLabelsIn(draft)
+    if (duplicates.length) {
+      return {
+        imported: 0,
+        failed: duplicates.length,
+        errors: duplicates.map((entry) => `“${entry.label}” would be declared in ${entry.paths.length} places: ${entry.paths.join(' · ')}. Nothing was imported.`),
       }
+    }
 
-      if (!v.topic?.trim()) return
-      let top = byName(sys.topics, v.topic.trim())
-      if (!top) { const id = uid(slug(v.topic.trim())); top = { id, title: v.topic.trim(), tpcId: topicIdOf(id), subs: [] }; sys.topics.push(top); topics++ }
-
-      if (!v.subtopic?.trim()) return
-      let sub = byName(top.subs, v.subtopic.trim())
-      if (!sub) { const id = uid(slug(v.subtopic.trim())); sub = { id, title: v.subtopic.trim(), subId: subtopicIdOf(id), micros: [] }; top.subs.push(sub); subs++ }
-
-      if (!v.microtopic?.trim()) return
-      let mic = byName(sub.micros, v.microtopic.trim())
-      if (!mic) { const id = uid(slug(v.microtopic.trim())); mic = { id, title: v.microtopic.trim(), micId: microtopicIdOf(id), nanos: [] }; sub.micros.push(mic); micros++ }
-
-      if (!v.nanotopic?.trim()) return
-      if (!byName(mic.nanos, v.nanotopic.trim())) { const id = uid(slug(v.nanotopic.trim())); mic.nanos.push({ id, title: v.nanotopic.trim(), nanId: nanotopicIdOf(id) }); nanos++ }
-    })
+    // Renames and moves are the changes that can strand a reference, so the
+    // affected records are named before the write, not discovered after it.
+    const disruptive = context.changes.filter((change) => change.action === 'rename' || change.action === 'move')
+    const affected = referencesTo(
+      disruptive.map((change) => change.nodeId),
+      {
+        articles: ledger.filter((item) => item.kind === 'article').map((item) => ({ id: item.id, ...item.articleData })),
+        concepts: graph.concepts,
+      },
+    )
 
     setTree(draft)
-    const imported = systems + topics + subs + micros + nanos
-    return { imported, failed: errors.length, errors: [...errors, `Added ${systems} systems · ${topics} topics · ${subs} subtopics · ${micros} microtopics · ${nanos} nanotopics`].filter(Boolean) }
+    setImpact([
+      ...context.changes.map(describe),
+      ...affected.map((entry) => `${entry.recordIds.length} ${entry.kind}${entry.recordIds.length === 1 ? '' : 's'} reference ${entry.nodeId}: ${entry.recordIds.slice(0, 6).join(', ')}${entry.recordIds.length > 6 ? '…' : ''}`),
+    ])
+
+    const created = context.changes.filter((change) => change.action === 'create').length
+    const renamed = context.changes.filter((change) => change.action === 'rename').length
+    const moved = context.changes.filter((change) => change.action === 'move').length
+    return {
+      imported: context.changes.length,
+      failed: context.errors.length,
+      errors: [
+        ...context.errors,
+        `Created ${created} · renamed ${renamed} · moved ${moved}`,
+        ...(affected.length ? [`${affected.length} node reference group${affected.length === 1 ? '' : 's'} affected — see the impact report below.`] : []),
+      ],
+    }
   }
 
   return (
-    <ImportWizard
-      title="Bulk import Subjects & Topics"
-      description="Open a spreadsheet, CSV, or Markdown file; map every column, preview each row, then merge into the single-source taxonomy. Existing names are reused; new nodes get unique IDs."
-      noun="taxonomy nodes"
-      fields={FIELDS}
-      markdownExample={MD}
-      aliases={{ subject: 'system', chapter: 'topic', sub_topic: 'subtopic', micro: 'microtopic', nano: 'nanotopic' }}
-      previewSecondary={{ header: 'Path', get: (v) => [v.system, v.topic, v.subtopic, v.microtopic, v.nanotopic].filter(Boolean).join(' › ') || '—' }}
-      validateRow={(v) => (v.system?.trim() ? [] : ['System is required'])}
-      commit={commit}
-      backTo="/admin/taxonomy"
-      backLabel="Back to Subjects & Topics"
-    />
+    <>
+      <ImportWizard
+        title="Bulk import Subjects & Topics"
+        description="Open a spreadsheet, CSV, or Markdown file; map every column, preview each row, then merge into the single-source taxonomy. Give a node ID to update or rename that exact node; omit it to match by name or create a new one."
+        noun="taxonomy nodes"
+        fields={SUBJECTS_IMPORT_FIELDS}
+        markdownExample={MD}
+        aliases={{ subject: 'system', subject_id: 'system_id', short: 'system_short', color: 'system_color', sys_id: 'system_id', tpc_id: 'topic_id', sub_id: 'subtopic_id' }}
+        previewSecondary={{ header: 'Path', get: (v) => [v.system, v.topic, v.subtopic, v.microtopic, v.nanotopic].filter(Boolean).join(' › ') || '—' }}
+        validateRow={(v) => {
+          const errors = v.system?.trim() ? [] : ['System is required']
+          if (v.system_color?.trim() && !/^#[0-9a-f]{3,8}$/i.test(v.system_color.trim())) errors.push('System colour must be a hex value such as #b4442f')
+          if (v.topic_id?.trim() && !v.topic?.trim() && !v.subtopic?.trim()) errors.push('A topic ID with no topic name and no child does nothing')
+          return errors
+        }}
+        commit={commit}
+        backTo="/admin/taxonomy"
+        backLabel="Back to Subjects & Topics"
+      />
+      {impact.length > 0 && (
+        <div className="mx-auto max-w-[78rem] px-5 pb-10 sm:px-8">
+          <div className="rounded-xl border border-line bg-surface p-4 shadow-panel">
+            <div className="flex items-center gap-2">
+              <h2 className="text-[13px] font-semibold text-ink">Impact report</h2>
+              <Badge tone="neutral">{impact.length}</Badge>
+            </div>
+            <ul className="mt-2 space-y-1">
+              {impact.map((line) => <li key={line} className="text-[12px] leading-relaxed text-ink-2">{line}</li>)}
+            </ul>
+          </div>
+        </div>
+      )}
+    </>
   )
 }

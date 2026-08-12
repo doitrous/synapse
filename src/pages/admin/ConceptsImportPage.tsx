@@ -1,47 +1,75 @@
-import { ImportWizard, type ImportField } from '@/components/admin/ImportWizard'
+import { useState } from 'react'
+import { ImportWizard } from '@/components/admin/ImportWizard'
+import { Select } from '@/components/ui/Field'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
+import { CONCEPT_IMPORT_FIELDS, conceptFromRow, materialiseNewConcept, mergeConcept } from '@/data/conceptImport'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
 import { subjects } from '@/data/student'
 
-const slug = (v: string) => v.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'concept'
-const num01 = (v?: string) => { const n = Number(v); return Number.isFinite(n) && v?.trim() ? Math.min(1, Math.max(0, n)) : undefined }
-const list = (v?: string) => (v ?? '').split(/[\n,;|]/).map((x) => x.trim()).filter(Boolean)
-
-const FIELDS: ImportField[] = [
-  { key: 'label', label: 'Concept name', required: true, help: 'The concept label students see.' },
-  { key: 'id', label: 'Canonical ID', help: 'Optional; auto-derived from the label if omitted.' },
-  { key: 'subject', label: 'System / subject ID', help: 'e.g. cvs, resp, renal — from Subjects & Topics.' },
-  { key: 'topic', label: 'Topic', help: 'Topic title or TPC_ ID from Subjects & Topics.' },
-  { key: 'subtopic', label: 'Subtopic', help: 'Subtopic title or SUB_ ID.' },
-  { key: 'microtopic', label: 'Microtopic', help: 'Microtopic title or MIC_ ID.' },
-  { key: 'nanotopic', label: 'Nanotopic', help: 'Nanotopic title or NAN_ ID.' },
-  { key: 'definition', label: 'Definition', help: 'Shown after the answer is revealed.' },
-  { key: 'pitfalls', label: 'Common pitfall', help: 'A trap shown as a warning.' },
-  { key: 'aliases', label: 'Aliases', help: 'Comma/line separated alternate terms.' },
-  { key: 'status', label: 'Status', help: 'active, under review, or inactive.' },
-  { key: 'blueprint_weight', label: 'Blueprint weight (0–1)' },
-  { key: 'clinical_relevance', label: 'Clinical relevance (0–1)' },
-  { key: 'academic_relevance', label: 'Academic relevance (0–1)' },
-  { key: 'exam_weight_by_year', label: 'Exam weight by year', help: 'e.g. OMS_Y2=0.7 | OMS_Y3=0.5' },
-]
-
-const MD = `# Item\n## label\nAnion gap\n## subject\nrenal\n## topic\nAcid–base balance\n## subtopic\nMetabolic acidosis\n## definition\nThe calculated difference between measured serum cations and anions.\n## pitfalls\nForgetting to calculate it in every metabolic acidosis.\n## aliases\nAG\n## status\nactive\n## blueprint_weight\n0.6\n## clinical_relevance\n0.7\n## academic_relevance\n0.8\n## exam_weight_by_year\nOMS_Y2=0.6 | OMS_Y3=0.4`
-
-function parseWeights(v?: string): Record<string, number> | undefined {
-  const entries = list(v).map((e) => e.split('=').map((s) => s.trim())).filter(([k, w]) => k && w)
-  if (!entries.length) return undefined
-  return Object.fromEntries(entries.map(([k, w]) => [k, Math.min(1, Math.max(0, Number(w) || 0))]))
-}
+const MD = `# Item
+## label
+Anion gap
+## id
+med.concept.anion-gap
+## subject
+renal
+## topic
+Acid–base balance
+## subtopic
+Metabolic acidosis
+## primary_node_id
+SYS-REN-T02
+## secondary_node_ids
+DIS-PHY | KNW-DIA
+## definition
+The calculated difference between measured serum cations and anions.
+## explicit_objective
+Calculate the anion gap and state what a raised gap implies.
+## pitfalls
+Forgetting to calculate it in every metabolic acidosis.
+## concept_type
+definition
+## aliases
+AG
+## status
+active
+## article_ids
+ART-REN-ACID-BASE
+## blueprint_weight
+0.6
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.5
+## exam_weight_by_year
+HU_Y2=0.6 | HU_Y3=0.4
+## atomic_claim_ids
+claim-anion-gap-1
+## support_mode
+direct_statement
+## confidence
+0.9
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## publication_status
+needs_evidence
+## field_notes
+arabicLabel: awaiting reviewed Arabic terminology`
 
 export function ConceptsImportPage() {
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [taxonomy] = useTaxonomyTree()
+  const [mergeMode, setMergeMode] = useState<'create' | 'update'>('update')
 
   /** Resolve taxonomy placement (visible IDs) from subject + free-text titles/ids. */
   function placement(subjectId: string, values: Record<string, string>): Partial<Concept> {
     const sys = taxonomy.find((s) => s.id === subjectId || s.short.toLowerCase() === subjectId.toLowerCase())
-    if (!sys) return { subjectId: subjectId || undefined }
+    if (!sys) return subjectId ? { subjectId } : {}
     const findBy = <T extends { title: string }>(arr: T[], q: string, idKey: (t: T) => string) => {
       if (!q) return undefined
       return arr.find((t) => t.title.toLowerCase() === q.toLowerCase() || idKey(t).toLowerCase() === q.toLowerCase())
@@ -50,50 +78,97 @@ export function ConceptsImportPage() {
     const sub = top && findBy(top.subs, values.subtopic, (s) => s.subId)
     const mic = sub && findBy(sub.micros, values.microtopic, (m) => m.micId)
     const nan = mic && findBy(mic.nanos, values.nanotopic, (n) => n.nanId)
+    // Only state what was actually resolved. An unmatched title must not blank an
+    // existing placement on an update.
     return {
       subjectId: sys.id, systemId: sys.sysId,
-      topicTagId: top?.tpcId, subtopicId: sub?.subId, microtopicId: mic?.micId, nanotopicId: nan?.nanId,
+      ...(top ? { topicTagId: top.tpcId } : {}),
+      ...(sub ? { subtopicId: sub.subId } : {}),
+      ...(mic ? { microtopicId: mic.micId } : {}),
+      ...(nan ? { nanotopicId: nan.nanId } : {}),
     }
+  }
+
+  /**
+   * Keep the article↔concept link reciprocal.
+   *
+   * A concept that names an article must appear in that article's related list,
+   * and the reverse. The old importer forced `articleIds: []`, which broke the
+   * pairing on every row it touched.
+   */
+  function withReciprocalArticles(concept: Concept): Concept {
+    const owned = concept.articleIds ?? []
+    const related = concept.relatedArticleIds ?? []
+    const merged = [...related, ...owned.filter((id) => !related.includes(id))]
+    return merged.length === related.length ? concept : { ...concept, relatedArticleIds: merged }
   }
 
   function commit(rows: Array<Record<string, string>>) {
     const errors: string[] = []
-    const existing = new Set(graph.concepts.map((c) => c.id))
+    const byId = new Map(graph.concepts.map((concept) => [concept.id, concept]))
     const additions: Concept[] = []
-    rows.forEach((v, i) => {
-      const label = v.label?.trim()
-      if (!label) { errors.push(`Row ${i + 2}: missing concept name.`); return }
-      const id = v.id?.trim() || `med.concept.${slug(label)}`
-      if (existing.has(id) || additions.some((a) => a.id === id)) { errors.push(`Row ${i + 2}: duplicate id ${id}.`); return }
-      const status = (['active', 'inactive', 'under review'].includes(v.status?.trim()) ? v.status.trim() : 'active') as Concept['status']
-      additions.push({
-        id, label,
-        aliases: list(v.aliases),
-        definition: v.definition?.trim() ?? '',
-        pitfalls: v.pitfalls?.trim() || undefined,
-        status,
-        articleIds: [],
-        blueprintWeight: num01(v.blueprint_weight),
-        clinicalRelevance: num01(v.clinical_relevance),
-        academicRelevance: num01(v.academic_relevance),
-        examWeightByYear: parseWeights(v.exam_weight_by_year),
-        ...placement(v.subject?.trim() ?? '', v),
-      })
+    const updates = new Map<string, Concept>()
+
+    rows.forEach((values, index) => {
+      const row = index + 2
+      const label = values.label?.trim()
+      if (!label) { errors.push(`Row ${row}: missing concept name.`); return }
+      const incoming = withReciprocalArticles(conceptFromRow(values, placement(values.subject?.trim() ?? '', values)))
+      const existing = byId.get(incoming.id) ?? updates.get(incoming.id)
+
+      if (existing) {
+        if (mergeMode === 'create') { errors.push(`Row ${row}: ${incoming.id} already exists and create-only mode is on.`); return }
+        updates.set(incoming.id, mergeConcept(existing, incoming))
+        return
+      }
+      if (additions.some((concept) => concept.id === incoming.id)) {
+        errors.push(`Row ${row}: duplicate id ${incoming.id} within this file.`)
+        return
+      }
+      additions.push(materialiseNewConcept(incoming))
     })
-    if (additions.length) setGraph((g) => ({ ...g, concepts: [...additions, ...g.concepts] }))
-    return { imported: additions.length, failed: errors.length, errors }
+
+    if (additions.length || updates.size) {
+      setGraph((current) => ({
+        ...current,
+        concepts: [...additions, ...current.concepts.map((concept) => updates.get(concept.id) ?? concept)],
+      }))
+    }
+    const changed = additions.length + updates.size
+    return {
+      imported: changed,
+      failed: errors.length,
+      errors: [...errors, `Created ${additions.length} · updated ${updates.size}`],
+    }
   }
 
   return (
     <ImportWizard
       title="Bulk import concepts"
-      description="Open a spreadsheet, CSV, or Markdown file; map every column, preview each row, then commit. Curriculum placement resolves against Subjects & Topics."
+      description="Open a spreadsheet, CSV, or Markdown file; map every column, preview each row, then commit. An existing canonical ID is updated in place — a blank column leaves that field alone, and [clear] empties it."
       noun="concepts"
-      fields={FIELDS}
+      fields={CONCEPT_IMPORT_FIELDS}
       markdownExample={MD}
-      aliases={{ name: 'label', concept: 'label', system: 'subject', subject_id: 'subject' }}
+      aliases={{ name: 'label', concept: 'label', system: 'subject', subject_id: 'subject', objective: 'explicit_objective', canonical_id: 'id' }}
       previewSecondary={{ header: 'System', get: (v) => v.subject || (subjects.find((s) => s.id === v.subject)?.name ?? '—') }}
-      validateRow={(v) => (v.label?.trim() ? [] : ['Concept name is required'])}
+      validateRow={(v) => {
+        const errors = v.label?.trim() ? [] : ['Concept name is required']
+        const status = v.status?.trim()
+        if (status && !['active', 'inactive', 'under review'].includes(status)) errors.push('Status must be active, inactive, or under review')
+        return errors
+      }}
+      contextControl={
+        <label className="mt-4 block rounded-lg border border-line p-3">
+          <span className="mb-1.5 block text-[12.5px] font-medium text-ink-2">Existing canonical IDs</span>
+          <Select value={mergeMode} onChange={(event) => setMergeMode(event.target.value as 'create' | 'update')}>
+            <option value="update">Update matching concepts in place</option>
+            <option value="create">Create only; reject matches</option>
+          </Select>
+          <span className="mt-1.5 block text-[11px] leading-relaxed text-ink-3">
+            Updating keeps every field this file does not mention. Write <code>[clear]</code> in a cell to empty a list on purpose.
+          </span>
+        </label>
+      }
       commit={commit}
       backTo="/admin/concepts"
       backLabel="Back to concepts"

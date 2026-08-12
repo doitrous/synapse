@@ -58,6 +58,8 @@ const QuestionsSetup = lazyNamed(() => import('@/pages/admin/QuestionsSetup'), '
 const ResourcesSetup = lazyNamed(() => import('@/pages/admin/ResourcesSetup'), 'ResourcesSetup')
 const PracticalSetup = lazyNamed(() => import('@/pages/admin/PracticalSetup'), 'PracticalSetup')
 const ConceptsImportPage = lazyNamed(() => import('@/pages/admin/ConceptsImportPage'), 'ConceptsImportPage')
+const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImportPage'), 'RelationsImportPage')
+const ImageRecommendations = lazyNamed(() => import('@/pages/admin/ImageRecommendations'), 'ImageRecommendations')
 const AcademicImportPage = lazyNamed(() => import('@/pages/admin/AcademicImportPage'), 'AcademicImportPage')
 const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportPage'), 'SubjectsImportPage')
 const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
@@ -127,9 +129,11 @@ export const router = createBrowserRouter([
       { index: true, element: render(ControlDashboard) },
       { path: 'import/:kind', element: render(BulkImportPage) },
       { path: 'concepts/import', element: render(ConceptsImportPage) },
+      { path: 'relationships/import', element: render(RelationsImportPage) },
       { path: 'academic/import', element: render(AcademicImportPage) },
       { path: 'taxonomy/import', element: render(SubjectsImportPage) },
       { path: 'library/coverage', element: render(MedicalCoverageReview) },
+      { path: 'library/images', element: render(ImageRecommendations) },
       ...adminRoutes,
     ],
   },

@@ -147,11 +147,95 @@ Necessity: Valve timing is clearer in motion than in a still figure.
 - Anchoring is for media that *explains that specific phrase*. If it illustrates
   the article generally, leave it article-level.
 
+### Statement annotations — tagging the sentences that carry a concept
+
+This is the importer's form of the editor's *Tag selected statement*. Use it for
+the sentences worth standing out: a definition, a step in a mechanism, a contrast
+students conflate.
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `annotations` | `articleData.annotations` | One `### relation · conceptId` block per annotation. |
+
+```markdown
+## annotations
+### definition_of · med.concept.cardiac-output
+Quote: the volume of blood ejected by one ventricle in one minute
+Block: body
+Id: ann-cvs-co-001
+```
+
+- `Quote:` must appear **verbatim** in the block you name, or the row is
+  rejected. This is checked before anything is written — an annotation that
+  highlights nothing is a silent failure, so it is made loud instead.
+- `Block:` is `summary`, `body` (default), `hold`, or `trap`.
+- The relation is `definition_of` or any concept relation type.
+- `Id:` is optional. Omitted, it is derived from the concept, relation and quote,
+  so re-importing the same file changes nothing.
+- The concept must already exist and must be `published` before its annotation
+  reaches a student. A student sees the concept's **label**, never its ID.
+
+### Image recommendations — admin-only
+
+A recommendation says what visual an article needs and why prose cannot carry it.
+It is an instruction to a person, not content: it never appears in a published
+article, its HTML, its search data, or any student API response. The backlog is
+at **Library Setup → Image recommendations**, filterable by system, article,
+priority and status.
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `image_recommendations` | `articleData.imageRecommendations` | One `### kind · brief` block per visual. |
+
+```markdown
+## image_recommendations
+### anatomy plate · Coronary artery territories mapped to ECG leads
+Purpose: A student cannot hold the lead-to-territory mapping from prose alone.
+Priority: required
+Status: needed
+Section: Blood supply, innervation and lymphatics
+Source direction: openly licensed anatomy atlas
+Rights: must be CC-BY or public domain
+```
+
+- `kind`: `diagram`, `anatomy plate`, `histology`, `flowchart`, `graph`,
+  `comparison table`, `imaging example`, `algorithm`, `clinical photograph`,
+  `other`.
+- `Purpose:` is required. If you cannot say what prose fails to convey, the
+  visual is decorative — leave it out.
+- `Priority:` `required`, `strongly helpful`, `optional`. `required` means the
+  article is not usable without it.
+- `Status:` `needed`, `planned`, `supplied`, `declined`. Add `Media id:` once a
+  real media item fulfils it.
+
+### Callout evidence — what makes a callout publishable
+
+An evidence-gated article publishes a `hold_these` or `lose_the_mark` line only
+when that line carries its own evidence, or the article records a review. Lines
+that pass neither test stay hidden, and the reader shows nothing rather than
+substituting generic advice.
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `callout_evidence` | `articleData.calloutEvidence` | One `### exact callout text` block per line. |
+
+```markdown
+## callout_evidence
+### Ordering D-dimer when CTPA is already indicated.
+Claims: claim-pe-1
+Citations: cite-pe-1
+Reviewed by: Dr Omar
+```
+
+The heading must match the callout **exactly**, or the row is rejected — evidence
+attached to a line that does not exist would silently fail to publish it.
+
 ### Links — these make the library navigable
 
 | Field key | Source of truth | Rule |
 |---|---|---|
 | `related_concepts` | `articleData.relatedConceptIds` | Every concept this article discusses. Each must exist and must list this article back. |
+| `related_articles` | `articleData.relatedArticleIds` | Further reading, one per line as `articleId` or `articleId: why they connect`. Only links to a readable article reach a student; dead IDs are dropped. |
 | `question_ids` | `articleData.questionIds` | Questions testing this article. Empty is fine — add a `fieldNotes` reason. |
 | `resource_ids` | `articleData.resourceIds` | Resources that teach it. |
 
@@ -164,12 +248,48 @@ Necessity: Valve timing is clearer in motion than in a still figure.
 | `module` | `articleData.moduleIds` | Module IDs. Leave empty rather than guessing; add a `fieldNotes` reason. |
 | `university_notes` | `articleData.universityNotes` | `OMS: note text`, one per line. For genuine local teaching differences — not a second article. |
 
+### Identity and language
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `id` | `ManagedContentItem.id` | Existing canonical ID to update. Omit to create. In update mode a blank column leaves that field alone; write `[clear]` to empty a list on purpose. |
+| `aliases` | `articleData.aliases` | Alternate names and spelling variants. An alias never creates a second taxonomy node. |
+| `arabic_title` | `articleData.arabicTitle` | Reviewed Arabic title. |
+| `language` | `articleData.language` | Primary language of the prose, e.g. `en`. |
+| `nanotopic` | `articleData.nanotopicId` | Optional overlay, `NAN_*`. |
+
+### Student projection
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `published_summary` | `articleData.publishedSummary` | The student-facing summary when it differs from the admin draft. |
+| `published_sections` | `articleData.publishedSections` | The evidence-gated projection, same `### Heading` format as `sections`. Setting it makes the article evidence-gated. |
+
+### Evidence
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `evidence_basis` | `articleData.evidenceBasis` | How the article is supported, one entry per line. |
+| `article_source_ids` | `articleData.articleLevelSourceIds` | Resources supporting the article as a whole. |
+| `claim_ids` | `articleData.claimIds` | Evidence claims this article rests on. Each must resolve. |
+| `span_ids` | `articleData.spanIds` | Stable evidence spans inside the article. |
+| `conflicts` | `articleData.conflicts` | Where sources disagree. Record the disagreement; never choose silently. |
+| `evidence_gaps` | `articleData.evidenceGaps` | What is still unsupported. Must be present as a list even when empty — use `[clear]`. |
+
 ### Governance
 
 | Field key | Source of truth | Rule |
 |---|---|---|
 | `status` | `ManagedContentItem.status` | `Draft` unless you are the reviewer promoting it. |
 | `owner` | `ManagedContentItem.owner` | Author or team. |
+| `reviewer` | `articleData.reviewer` | Who checked the medical content. |
+| `final_publisher` | `articleData.finalPublisher` | Who released it to students. |
+| `last_reviewed` | `articleData.lastReviewed` | ISO date. Publishes this article's callouts under the callout policy above. |
+| `review_due` | `articleData.reviewDue` | ISO date this must be re-checked by. |
+| `time_sensitive` | `articleData.timeSensitive` | `stable` or `time_sensitive`. Anything that moves with guideline cycles is `time_sensitive` — do not default everything to stable. |
+| `publication_gate` | `articleData.publicationGate` | `publishable`, `needs_evidence`, `faculty_review`, `conflicted`, or `excluded`. |
+| `field_notes` | `articleData.fieldNotes` | Why a field is intentionally empty, one per line as `field: reason`. |
+| `notes` | `articleData.notes` | Internal author notes. Never shown to a student. |
 
 ## Skeleton
 

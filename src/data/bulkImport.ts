@@ -2,8 +2,14 @@ import type {
   ContentKind, ManagedContentItem, QuestionAnswerDraft, AnswerLabel, ArticleArchetype,
   ActorBriefSectionDraft, PracticalMarkSectionDraft, PracticalAnswerDraft,
   ClinicalDecisionDraft, LabQuestionDraft, PracticalAuthoringData, ArticleMediaRecord,
-} from './contentControl'
-import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates'
+  ImageRecommendation, CalloutEvidence, PublicationGate, MediaAttachment,
+} from './contentControl.ts'
+import {
+  IMAGE_RECOMMENDATION_KINDS, IMAGE_RECOMMENDATION_PRIORITIES, IMAGE_RECOMMENDATION_STATUSES,
+} from './contentControl.ts'
+import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
+import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
+import { importList, optionalList } from './importSemantics.ts'
 
 export interface ImportFieldDefinition {
   key: string
@@ -62,6 +68,11 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'resource_ids', label: 'Related resource IDs', help: 'Canonical resource IDs.' },
       { key: 'learning_objective', label: 'Learning objective', help: 'What a correct response demonstrates.' },
       { key: 'source_citation', label: 'Source citation', help: 'Guideline, book, paper, or source URL.' },
+      { key: 'attachments', label: 'Attachments', help: 'One "### image|audio|video · URL" block per item, then "Name:" and optionally "Mime:".' },
+      { key: 'attached_image', label: 'Attached image', help: 'A single image URL shown with the stem.' },
+      { key: 'author_notes', label: 'Author notes', help: 'Internal notes. Never shown to a student.' },
+      { key: 'estimated_seconds', label: 'Estimated seconds', help: 'How long the item should take. Defaults to 90.' },
+      { key: 'randomise_answers', label: 'Randomise answers', help: 'yes or no. Defaults to yes.' },
     ],
     markdownExample: `# Item\n\n## title\nPulmonary embolism: first action\n\n## subject\ncvs\n\n## status\nPublished\n\n## vignette\nA 34-year-old woman is acutely breathless six days after a caesarean section.\n\n## question\nWhat is your first action?\n\n## correct_answer\nA\n\n## answer_a\nGive oxygen and assess immediate threats\n\n## explanation_a\nTreat hypoxia while the diagnosis remains open.\n\n## answer_b\nWait for imaging before treatment\n\n## explanation_b\nThis delays treatment in a high-probability presentation.\n\n## topic\nVenous thromboembolism\n\n## subtopic\nSUB_PE\n\n## difficulty\nModerate\n\n## question_type\nDiagnosis\n\n## main_concept\nmed.concept.acute-coronary-syndrome\n\n## module\nCVS 01\n\n## clinical_relevance\n0.9\n\n## academic_relevance\n0.6\n\n## cognitive_effort_score\n0.7\n\n## cognitive_effort\nHigh\n\n## setting\nClinical\n\n## reasoning_level\n4\n\n## inferred_difficulty\n55\n\n## exam_relevance\n8\n\n## exam_weight_by_year\nHU_Y2=0.7 | HU_Y3=0.5\n\n## question_only_for\nHU_Y3\n\n## concept_ids\nmed.concept.stemi\n\n## contextual_concept_ids\nmed.concept.anion-gap\n\n## years\nYear 3\n\n## universities\nHU | ASU\n\n## library_ids\nhf-mgmt\n\n## resource_ids\nr-ng106\n\n## learning_objective\nRecognise and treat the immediate threat in suspected PE.\n\n## source_citation\nNICE NG158\n\n---\n\n# Item\n...`,
   },
@@ -88,9 +99,33 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'primary_node_id', label: 'Canonical node ID', help: 'Primary placement in the canonical medical taxonomy (e.g. SYS-CVS-T01). Derived from the subject/topic crosswalk when omitted.' },
       { key: 'secondary_node_ids', label: 'Secondary node IDs', help: 'Other valid canonical placements across the four views, separated by |, ; or new lines.' },
       { key: 'media', label: 'Media', help: 'One "### image|video|audio · URL" block per item, then "Caption:", "Alt:", "Rights:", "Necessity:", and optionally "Anchor:" with the exact phrase it explains (plus "Anchor block:" — body, summary, hold, or trap). Incomplete items are held back unless you add "Release without review: yes".' },
+      { key: 'annotations', label: 'Statement annotations', help: 'One "### relation · conceptId" block per annotation, then "Quote:" with the exact words as they appear in the article, "Block:" (summary, body, hold, or trap), and optionally "Id:". The quote must occur verbatim in that block.' },
+      { key: 'image_recommendations', label: 'Image recommendations', help: 'Admin-only. One "### kind · brief" block per visual, then "Purpose:", "Priority:" (required, strongly helpful, optional), "Status:" (needed, planned, supplied, declined), and optionally "Section:", "Block:", "Anchor:", "Source direction:", "Rights:", "Notes:", "Media id:". Never shown to students.' },
+      { key: 'callout_evidence', label: 'Callout evidence', help: 'What makes a "Hold these" or "Where people lose the mark" line publishable. One "### exact callout text" block per line, then "Claims:", "Citations:", "Span:", "Reviewed by:", "Reviewed at:".' },
       { key: 'related_concepts', label: 'Related concepts', help: 'Concept IDs discussed by this article.' },
+      { key: 'related_articles', label: 'Related articles', help: 'Article IDs to offer as further reading, one per line as "articleId" or "articleId: why they connect".' },
       { key: 'question_ids', label: 'Question IDs', help: 'Canonical question IDs that test this article.' },
       { key: 'resource_ids', label: 'Resource IDs', help: 'Canonical resources that teach this article.' },
+      { key: 'nanotopic', label: 'Nanotopic ID', help: 'Nanotopic ID (NAN_*).' },
+      { key: 'arabic_title', label: 'Arabic title', help: 'Reviewed Arabic title. Leave blank only with a field note saying why.' },
+      { key: 'aliases', label: 'Aliases', help: 'Alternate names and spelling variants. Aliases never create a second taxonomy node.' },
+      { key: 'language', label: 'Language', help: 'Primary language of the prose, e.g. en.' },
+      { key: 'time_sensitive', label: 'Time sensitivity', help: 'stable or time_sensitive. Anything that goes stale with guideline cycles is time_sensitive.' },
+      { key: 'publication_gate', label: 'Publication gate', help: 'publishable, needs_evidence, faculty_review, conflicted, or excluded.' },
+      { key: 'evidence_basis', label: 'Evidence basis', help: 'How this article is supported, one entry per line.' },
+      { key: 'article_source_ids', label: 'Article-level source IDs', help: 'Resource IDs that support the article as a whole.' },
+      { key: 'claim_ids', label: 'Claim IDs', help: 'Evidence claim IDs this article rests on.' },
+      { key: 'span_ids', label: 'Span IDs', help: 'Stable evidence span IDs inside this article.' },
+      { key: 'conflicts', label: 'Conflicts', help: 'Where sources disagree, one per line. Record the disagreement rather than choosing silently.' },
+      { key: 'evidence_gaps', label: 'Evidence gaps', help: 'What is still unsupported, one per line. Required as a list even when empty — use [clear].' },
+      { key: 'reviewer', label: 'Reviewer', help: 'Who checked the medical content.' },
+      { key: 'final_publisher', label: 'Publisher', help: 'Who released it to students.' },
+      { key: 'last_reviewed', label: 'Last reviewed', help: 'ISO date of the last review. Publishes the article\'s callouts under the callout policy.' },
+      { key: 'review_due', label: 'Review due', help: 'ISO date this article must be re-checked by.' },
+      { key: 'published_summary', label: 'Published summary', help: 'The student-facing summary, when it differs from the admin draft.' },
+      { key: 'published_sections', label: 'Published sections', help: 'The evidence-gated student projection. Same "### Heading" format as sections.' },
+      { key: 'field_notes', label: 'Field notes', help: 'Why a field is intentionally empty, one per line as "field: reason". Required for any blank the audit checks.' },
+      { key: 'notes', label: 'Author notes', help: 'Internal notes. Never shown to a student.' },
       { key: 'reading_time', label: 'Reading time', help: 'Estimated minutes.' },
     ],
     markdownExample: `# Item\n\n## title\nPulmonary embolism\n\n## subject\ncvs\n\n## topic\nVenous thromboembolism\n\n## summary\nA common, treatable cause of acute breathlessness that must be confirmed and treated in parallel.\n\n## sections\n### Definition\nOcclusion of the pulmonary arterial tree, usually by thrombus embolising from a deep vein.\n### Incidence\nCommon; risk rises with immobility, surgery, malignancy, and pregnancy.\n### Pathophysiology\nMechanical obstruction and vasoactive mediators raise pulmonary vascular resistance and strain the right ventricle.\n### Clinical Picture\nPleuritic chest pain, breathlessness, tachycardia; massive PE causes haemodynamic collapse.\n### Investigation\nWells score guides D-dimer vs CTPA; ECG and ABG are supportive.\n### Treatment\nOxygen for hypoxia, anticoagulation, and thrombolysis for haemodynamic instability.\n\n## hold_these\nOxygen and ABC assessment come first.\nAnticoagulation should not wait in a high-probability patient without contraindications.\n\n## lose_the_mark\nOrdering D-dimer when CTPA is already indicated.\n\n## universities\nHU | ASU\n\n## university_notes\nHU: Kasr Alainy expects the two-level Wells score.\nASU: Ain Shams teaches the three-level Wells score.\n\n## years\nYear 3\n\n## module\nCVS 01\n\n## subtopic\nSUB_HF_MGMT\n\n## microtopic\nMIC_ECG_TERRITORIES\n\n## related_concepts\nmed.concept.heart-failure\n\n## question_ids\nq-hf-1\n\n## resource_ids\nr-ng106\n\n## reading_time\n9\n\n---\n\n# Item\n...`,
@@ -130,6 +165,8 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'included_concepts', label: 'Included concepts', help: 'Concept IDs this resource covers. Each concept is auto-updated to approve this resource. Add precise page/timestamp deep-links in the resource editor.' },
       { key: 'included_articles', label: 'Included library articles', help: 'Library article IDs this resource supports.' },
       { key: 'concept_locations', label: 'Concept deep-links', help: 'Pin concepts to a precise spot, one per line as "conceptId | page|line|slide|timestamp | locator", e.g. med.concept.heart-failure | page | 142.' },
+      { key: 'universities', label: 'University IDs', help: 'Universities this resource belongs to, separated by |, ; or new lines.' },
+      { key: 'years', label: 'Year IDs', help: 'Years this resource is used in, e.g. HU_Y2 | HU_Y3.' },
       { key: 'description', label: 'Description', help: 'What the resource teaches and why it is relevant.' },
     ],
     markdownExample: `# Item\n\n## title\nNICE NG158 · Venous thromboembolic diseases\n\n## subject\ncvs\n\n## type\nGuideline\n\n## source\nNICE\n\n## url\nhttps://www.nice.org.uk/guidance/ng158\n\n## year\n2026\n\n## topics\nTPC_HF\nSUB_HF_MGMT\n\n## chapter\nVenous thromboembolism\nHeart failure\n\n## module_ids\nCVS 01\n\n## included_concepts\nmed.concept.loop-diuretics\nmed.concept.heart-failure\n\n## included_articles\nhf-mgmt\n\n## concept_locations\nmed.concept.heart-failure | page | 142\nmed.concept.loop-diuretics | timestamp | 3:20\n\n## description\nDiagnosis and initial management of suspected pulmonary embolism.`,
@@ -232,6 +269,190 @@ export function parseArticleMedia(value = ''): ArticleMediaRecord[] {
       }
     })
     .filter((item) => item.url)
+}
+
+/** Parse "### type · url" blocks into question attachments. */
+export function parseAttachments(value = ''): MediaAttachment[] {
+  return parseSections(value)
+    .map((section, index) => {
+      const [rawType, ...rest] = section.heading.split(/[|·]/)
+      const type = rawType.trim().toLocaleLowerCase()
+      const url = rest.join('·').trim()
+      const name = labelledValue(section.body, 'Name')
+      const mimeType = labelledValue(section.body, 'Mime')
+      return {
+        id: labelledValue(section.body, 'Id') || `attach-imp-${index}`,
+        type: (MEDIA_TYPES as readonly string[]).includes(type) ? type as MediaAttachment['type'] : 'image',
+        name: name || url.split('/').pop() || `Attachment ${index + 1}`,
+        url,
+        ...(mimeType ? { mimeType } : {}),
+      }
+    })
+    .filter((attachment) => attachment.url)
+}
+
+/** Read a "Label: value" line out of a `### heading` block's body. */
+function labelledValue(body: string, label: string): string {
+  const matcher = new RegExp(`^${label}\\s*:\\s*(.*)$`, 'i')
+  for (const line of importLines(body)) {
+    const match = line.match(matcher)
+    if (match) return match[1].trim()
+  }
+  return ''
+}
+
+/** A stable ID derived from its own content, so re-import is idempotent. */
+function derivedId(prefix: string, ...parts: string[]): string {
+  let hash = 2166136261
+  const seed = parts.join(' ')
+  for (let index = 0; index < seed.length; index++) hash = Math.imul(hash ^ seed.charCodeAt(index), 16777619)
+  return `${prefix}-${(hash >>> 0).toString(36)}`
+}
+
+/**
+ * The exact text of one article block, as an author would quote it.
+ *
+ * Annotation quotes are validated against this, so an author cannot tag a
+ * sentence that is not in the article — which would highlight nothing and read
+ * as a silent failure.
+ */
+export function articleBlockText(values: Record<string, string>, block: ConceptAnnotation['block']): string {
+  if (block === 'summary') return values.summary ?? ''
+  if (block === 'hold') return values.hold_these ?? ''
+  if (block === 'trap') return values.lose_the_mark ?? ''
+  return [values.sections ?? '', values.published_sections ?? '', values.body ?? ''].join('\n')
+}
+
+const ANNOTATION_BLOCKS = ['summary', 'body', 'hold', 'trap'] as const
+
+/**
+ * Parse "### relation · conceptId" blocks into statement annotations.
+ *
+ * The quote is the anchor, exactly as `ArticleMediaAnchor` already does for
+ * media: an offset would break the moment the prose reflowed, but a verbatim
+ * quote either matches or is reported.
+ */
+export function parseAnnotations(value = ''): ConceptAnnotation[] {
+  return parseSections(value)
+    .map((section) => {
+      const [rawRelation, ...rest] = section.heading.split(/[|·]/)
+      const relation = rawRelation.trim() as StatementRelationType
+      const conceptId = rest.join('·').trim()
+      const quote = labelledValue(section.body, 'Quote')
+      const rawBlock = labelledValue(section.body, 'Block').toLocaleLowerCase()
+      const block = (ANNOTATION_BLOCKS as readonly string[]).includes(rawBlock) ? rawBlock as ConceptAnnotation['block'] : 'body'
+      const id = labelledValue(section.body, 'Id') || derivedId('ann', conceptId, relation, quote)
+      return { id, quote, conceptId, relation, block }
+    })
+    .filter((annotation) => annotation.quote && annotation.conceptId)
+}
+
+/** Everything wrong with one annotation, in the author's language. */
+export function annotationErrors(annotations: ConceptAnnotation[], values: Record<string, string>): string[] {
+  const errors: string[] = []
+  const seen = new Set<string>()
+  annotations.forEach((annotation, index) => {
+    const where = `Annotation ${index + 1} (${annotation.conceptId || 'no concept'})`
+    if (!(STATEMENT_RELATIONS as readonly string[]).includes(annotation.relation)) {
+      errors.push(`${where}: "${annotation.relation}" is not a relation type`)
+    }
+    if (!articleBlockText(values, annotation.block).includes(annotation.quote)) {
+      errors.push(`${where}: the quote "${annotation.quote.slice(0, 48)}${annotation.quote.length > 48 ? '…' : ''}" does not appear in the ${annotation.block} block`)
+    }
+    if (seen.has(annotation.id)) errors.push(`${where}: duplicate annotation id ${annotation.id}`)
+    seen.add(annotation.id)
+  })
+  return errors
+}
+
+/** Parse "### kind · brief" blocks into admin-only image recommendations. */
+export function parseImageRecommendations(value = '', articleId = ''): ImageRecommendation[] {
+  return parseSections(value)
+    .map((section, index) => {
+      const [rawKind, ...rest] = section.heading.split(/[|·]/)
+      const kind = rawKind.trim().toLocaleLowerCase()
+      const brief = rest.join('·').trim()
+      const priority = labelledValue(section.body, 'Priority').toLocaleLowerCase()
+      const status = labelledValue(section.body, 'Status').toLocaleLowerCase()
+      const rawBlock = labelledValue(section.body, 'Block').toLocaleLowerCase()
+      const anchorQuote = labelledValue(section.body, 'Anchor')
+      const sectionName = labelledValue(section.body, 'Section')
+      const sourceDirection = labelledValue(section.body, 'Source direction')
+      const rightsNotes = labelledValue(section.body, 'Rights')
+      const notes = labelledValue(section.body, 'Notes')
+      const mediaId = labelledValue(section.body, 'Media id')
+      return {
+        id: labelledValue(section.body, 'Id') || derivedId('img', articleId, brief, String(index)),
+        articleId,
+        kind: (IMAGE_RECOMMENDATION_KINDS as readonly string[]).includes(kind) ? kind as ImageRecommendation['kind'] : 'other',
+        brief,
+        teachingPurpose: labelledValue(section.body, 'Purpose'),
+        priority: (IMAGE_RECOMMENDATION_PRIORITIES as readonly string[]).includes(priority) ? priority as ImageRecommendation['priority'] : 'strongly helpful',
+        status: (IMAGE_RECOMMENDATION_STATUSES as readonly string[]).includes(status) ? status as ImageRecommendation['status'] : 'needed',
+        ...(sectionName ? { section: sectionName } : {}),
+        ...((ANNOTATION_BLOCKS as readonly string[]).includes(rawBlock) ? { block: rawBlock as ImageRecommendation['block'] } : {}),
+        ...(anchorQuote ? { anchorQuote } : {}),
+        ...(sourceDirection ? { sourceDirection } : {}),
+        ...(rightsNotes ? { rightsNotes } : {}),
+        ...(notes ? { notes } : {}),
+        ...(mediaId ? { mediaId } : {}),
+      }
+    })
+    .filter((recommendation) => recommendation.brief)
+}
+
+/** Parse "### exact callout text" blocks into per-callout evidence. */
+export function parseCalloutEvidence(value = ''): Record<string, CalloutEvidence> {
+  const out: Record<string, CalloutEvidence> = {}
+  for (const section of parseSections(value)) {
+    const text = section.heading.trim()
+    if (!text) continue
+    const claimIds = splitImportList(labelledValue(section.body, 'Claims'))
+    const citationIds = splitImportList(labelledValue(section.body, 'Citations'))
+    const spanId = labelledValue(section.body, 'Span')
+    const reviewedBy = labelledValue(section.body, 'Reviewed by')
+    const reviewedAt = labelledValue(section.body, 'Reviewed at')
+    out[text] = {
+      ...(claimIds.length ? { claimIds } : {}),
+      ...(citationIds.length ? { citationIds } : {}),
+      ...(spanId ? { spanId } : {}),
+      ...(reviewedBy ? { reviewedBy } : {}),
+      ...(reviewedAt ? { reviewedAt } : {}),
+    }
+  }
+  return out
+}
+
+/** Parse "field: reason" lines into the intentional-empty notes the audit reads. */
+export function parseFieldNotes(value = ''): Record<string, string> {
+  const out: Record<string, string> = {}
+  for (const line of importLines(value)) {
+    const [field, ...rest] = line.split(':')
+    const reason = rest.join(':').trim()
+    if (field.trim() && reason) out[field.trim()] = reason
+  }
+  return out
+}
+
+/**
+ * Parse "articleId" or "articleId: why they connect" lines.
+ *
+ * The reason belongs to the pair, so it is stored in `fieldNotes` under a key
+ * naming the other article rather than in a parallel array that could drift out
+ * of step with the IDs.
+ */
+export function parseRelatedArticles(value = ''): { ids: string[]; reasons: Record<string, string> } {
+  const ids: string[] = []
+  const reasons: Record<string, string> = {}
+  for (const line of importLines(value)) {
+    const [rawId, ...rest] = line.split(':')
+    const id = rawId.trim()
+    if (!id || ids.includes(id)) continue
+    ids.push(id)
+    const reason = rest.join(':').trim()
+    if (reason) reasons[`relatedArticle:${id}`] = reason
+  }
+  return { ids, reasons }
 }
 
 type BlockField = 'context' | 'question' | 'rationale' | 'explanation' | 'media'
@@ -364,6 +585,42 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
     if (mediaBlocks > parsedMedia) {
       errors.push(`${mediaBlocks - parsedMedia} media block${mediaBlocks - parsedMedia === 1 ? '' : 's'} have no URL after "### type ·" and would be dropped`)
     }
+    // Annotations are validated against the article's own prose, so a quote that
+    // does not exist is an error rather than an annotation that highlights
+    // nothing. The concept ID itself is checked at commit, where the graph is.
+    const annotationBlocks = parseSections(values.annotations).length
+    const annotations = parseAnnotations(values.annotations)
+    if (annotationBlocks > annotations.length) {
+      const dropped = annotationBlocks - annotations.length
+      errors.push(`${dropped} annotation block${dropped === 1 ? '' : 's'} lack a Quote: line or a concept ID after "### relation ·"`)
+    }
+    errors.push(...annotationErrors(annotations, values))
+
+    const recommendationBlocks = parseSections(values.image_recommendations).length
+    const recommendations = parseImageRecommendations(values.image_recommendations)
+    if (recommendationBlocks > recommendations.length) {
+      const dropped = recommendationBlocks - recommendations.length
+      errors.push(`${dropped} image recommendation${dropped === 1 ? '' : 's'} have no brief after "### kind ·"`)
+    }
+    recommendations.forEach((recommendation, index) => {
+      if (!recommendation.teachingPurpose) errors.push(`Image recommendation ${index + 1} has no Purpose: line saying why prose is not enough`)
+    })
+
+    // Callout evidence keys on the exact callout text, so a typo would attach
+    // evidence to a line that does not exist and silently fail to publish it.
+    const calloutTexts = new Set([...splitImportList(values.hold_these), ...splitImportList(values.lose_the_mark)])
+    Object.keys(parseCalloutEvidence(values.callout_evidence)).forEach((text) => {
+      if (!calloutTexts.has(text)) errors.push(`Callout evidence names "${text.slice(0, 48)}${text.length > 48 ? '…' : ''}", which is not one of this article's Hold these or Where people lose the mark lines`)
+    })
+
+    const gate = values.publication_gate?.trim()
+    if (gate && !['publishable', 'needs_evidence', 'faculty_review', 'conflicted', 'excluded'].includes(gate)) {
+      errors.push('Publication gate must be publishable, needs_evidence, faculty_review, conflicted, or excluded')
+    }
+    const timeSensitive = values.time_sensitive?.trim()
+    if (timeSensitive && !['stable', 'time_sensitive'].includes(timeSensitive)) {
+      errors.push('Time sensitivity must be stable or time_sensitive')
+    }
   }
   if (kind === 'practical') {
     const type = values.type?.trim()
@@ -422,7 +679,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const labels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
     const answers: QuestionAnswerDraft[] = labels.map((label) => ({ label, text: values[`answer_${label.toLowerCase()}`]?.trim() ?? '', explanation: values[`explanation_${label.toLowerCase()}`]?.trim() ?? '' }))
     const difficulty = ['Easy', 'Moderate', 'Hard'].includes(values.difficulty) ? values.difficulty as 'Easy' | 'Moderate' | 'Hard' : 'Moderate'
-    return { ...base, title: values.question?.trim() || base.title, fields: { Topic: values.topic ?? '', Difficulty: difficulty, Vignette: values.vignette ?? '', Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '' }, questionData: { attachments: [], correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel, answers, attachedImage: '', libraryIds: splitImportList(values.library_ids), resourceIds: splitImportList(values.resource_ids), tags: { module: values.module || base.subjectId, topic: values.topic || '', subtopic: values.subtopic || '', conceptIds: splitImportList(values.concept_ids), years: splitImportList(values.years), universityIds: splitImportList(values.universities), cognitiveEffort: ['Low', 'Medium', 'High'].includes(values.cognitive_effort) ? values.cognitive_effort as 'Low' | 'Medium' | 'High' : 'Medium', setting: ['Academic', 'Clinical', 'Both'].includes(values.setting) ? values.setting as 'Academic' | 'Clinical' | 'Both' : 'Both', intendedDifficulty: difficulty, clinicalReasoningLevel: numberInRange(values.reasoning_level, 2, 0, 5), inferredDifficulty: numberInRange(values.inferred_difficulty, 50, 0, 100), examRelevance: numberInRange(values.exam_relevance, 5, 0, 10), contextualConceptIds: splitImportList(values.contextual_concept_ids), questionType: values.question_type || undefined, mainConceptIds: splitImportList(values.main_concept), moduleIds: splitImportList(values.module), clinicalRelevance: clamp01(values.clinical_relevance), academicRelevance: clamp01(values.academic_relevance), cognitiveEffortScore: clamp01(values.cognitive_effort_score), examWeightByYear: parseWeightMap(values.exam_weight_by_year), questionOnlyFor: splitImportList(values.question_only_for) }, learningObjective: values.learning_objective || '', authorNotes: '', sourceCitation: values.source_citation || '', estimatedSeconds: 90, randomiseAnswers: true } }
+    return { ...base, title: values.question?.trim() || base.title, fields: { Topic: values.topic ?? '', Difficulty: difficulty, Vignette: values.vignette ?? '', Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '' }, questionData: { attachments: parseAttachments(values.attachments), correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel, answers, attachedImage: values.attached_image?.trim() ?? '', libraryIds: splitImportList(values.library_ids), resourceIds: splitImportList(values.resource_ids), tags: { module: values.module || base.subjectId, topic: values.topic || '', subtopic: values.subtopic || '', conceptIds: splitImportList(values.concept_ids), years: splitImportList(values.years), universityIds: splitImportList(values.universities), cognitiveEffort: ['Low', 'Medium', 'High'].includes(values.cognitive_effort) ? values.cognitive_effort as 'Low' | 'Medium' | 'High' : 'Medium', setting: ['Academic', 'Clinical', 'Both'].includes(values.setting) ? values.setting as 'Academic' | 'Clinical' | 'Both' : 'Both', intendedDifficulty: difficulty, clinicalReasoningLevel: numberInRange(values.reasoning_level, 2, 0, 5), inferredDifficulty: numberInRange(values.inferred_difficulty, 50, 0, 100), examRelevance: numberInRange(values.exam_relevance, 5, 0, 10), contextualConceptIds: splitImportList(values.contextual_concept_ids), questionType: values.question_type || undefined, mainConceptIds: splitImportList(values.main_concept), moduleIds: splitImportList(values.module), clinicalRelevance: clamp01(values.clinical_relevance), academicRelevance: clamp01(values.academic_relevance), cognitiveEffortScore: clamp01(values.cognitive_effort_score), examWeightByYear: parseWeightMap(values.exam_weight_by_year), questionOnlyFor: splitImportList(values.question_only_for) }, learningObjective: values.learning_objective || '', authorNotes: values.author_notes || '', sourceCitation: values.source_citation || '', estimatedSeconds: numberInRange(values.estimated_seconds, 90, 5, 3600), randomiseAnswers: !/^(no|false|0)$/i.test(values.randomise_answers?.trim() ?? '') } }
   }
   if (kind === 'article') {
     const sections = parseSections(values.sections)
@@ -434,7 +691,63 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const templateId = values.template_id?.trim() ? canonicalTemplateId(values.template_id.trim()) : undefined
     const archetype = (values.archetype?.trim() || ARTICLE_TEMPLATES.find((template) => template.id === templateId)?.archetype) as ArticleArchetype | undefined
     const highYield = ['Core', 'High', 'Supplementary'].includes(values.high_yield) ? values.high_yield as 'Core' | 'High' | 'Supplementary' : 'Core'
-    return { ...base, fields: { Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5', 'Key point': splitImportList(values.hold_these)[0] || '', 'Template ID': templateId || '', Archetype: archetype || '' }, articleData: { summary: values.summary || '', body, sections, holdThese: splitImportList(values.hold_these), loseTheMark: splitImportList(values.lose_the_mark), questionIds: splitImportList(values.question_ids), resourceIds: splitImportList(values.resource_ids), annotations: [], universityIds: splitImportList(values.universities), yearIds: splitImportList(values.years), moduleIds: splitImportList(values.module), subtopicId: values.subtopic || undefined, microtopicId: values.microtopic || undefined, relatedConceptIds: splitImportList(values.related_concepts), universityNotes, templateId, archetype, learnerStage: values.learner_stage?.trim() || undefined, highYield, primaryNodeId: values.primary_node_id?.trim() || undefined, secondaryNodeIds: splitImportList(values.secondary_node_ids), media: parseArticleMedia(values.media) } }
+    const related = parseRelatedArticles(values.related_articles)
+    const publishedSections = parseSections(values.published_sections)
+    const calloutEvidence = parseCalloutEvidence(values.callout_evidence)
+    const imageRecommendations = parseImageRecommendations(values.image_recommendations, id)
+    // Per-pair link reasons live alongside the author's own field notes, so a
+    // partial update that touches only one of the two keeps the other.
+    const fieldNotes = { ...parseFieldNotes(values.field_notes), ...related.reasons }
+    const timeSensitive = ['stable', 'time_sensitive'].includes(values.time_sensitive?.trim() ?? '') ? values.time_sensitive.trim() as 'stable' | 'time_sensitive' : undefined
+    const publicationGate = ['publishable', 'needs_evidence', 'faculty_review', 'conflicted', 'excluded'].includes(values.publication_gate?.trim() ?? '') ? values.publication_gate.trim() as PublicationGate : undefined
+    const text = (key: string) => values[key]?.trim() || undefined
+    return {
+      ...base,
+      fields: {
+        Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5',
+        'Key point': importList(values.hold_these)[0] || '', 'Template ID': templateId || '', Archetype: archetype || '',
+        ...(publicationGate ? { 'Publication gate': publicationGate } : {}),
+        ...(text('reviewer') ? { Reviewer: values.reviewer.trim() } : {}),
+        ...(text('final_publisher') ? { Publisher: values.final_publisher.trim() } : {}),
+      },
+      articleData: {
+        summary: values.summary || '', body, sections,
+        ...(publishedSections.length ? { publishedSections } : {}),
+        publishedSummary: text('published_summary'),
+        holdThese: optionalList(values.hold_these) as string[],
+        loseTheMark: optionalList(values.lose_the_mark) as string[],
+        questionIds: optionalList(values.question_ids) as string[],
+        resourceIds: optionalList(values.resource_ids) as string[],
+        annotations: (values.annotations === undefined || !values.annotations.trim() ? undefined : parseAnnotations(values.annotations)) as ConceptAnnotation[],
+        universityIds: optionalList(values.universities),
+        yearIds: optionalList(values.years),
+        moduleIds: optionalList(values.module),
+        subtopicId: text('subtopic'), microtopicId: text('microtopic'), nanotopicId: text('nanotopic'),
+        relatedConceptIds: optionalList(values.related_concepts),
+        relatedArticleIds: related.ids.length ? related.ids : undefined,
+        universityNotes, templateId, archetype,
+        arabicTitle: text('arabic_title'),
+        aliases: optionalList(values.aliases),
+        language: text('language'),
+        learnerStage: text('learner_stage'),
+        highYield, timeSensitive, publicationGate,
+        primaryNodeId: text('primary_node_id'),
+        secondaryNodeIds: optionalList(values.secondary_node_ids),
+        evidenceBasis: optionalList(values.evidence_basis),
+        articleLevelSourceIds: optionalList(values.article_source_ids),
+        claimIds: optionalList(values.claim_ids),
+        spanIds: optionalList(values.span_ids),
+        conflicts: optionalList(values.conflicts),
+        evidenceGaps: optionalList(values.evidence_gaps),
+        reviewer: text('reviewer'), finalPublisher: text('final_publisher'),
+        lastReviewed: text('last_reviewed'), reviewDue: text('review_due'),
+        media: values.media === undefined || !values.media.trim() ? undefined : parseArticleMedia(values.media),
+        ...(imageRecommendations.length ? { imageRecommendations } : {}),
+        ...(Object.keys(calloutEvidence).length ? { calloutEvidence } : {}),
+        ...(Object.keys(fieldNotes).length ? { fieldNotes } : {}),
+        notes: text('notes'),
+      },
+    }
   }
   if (kind === 'practical') {
     return {
@@ -447,6 +760,9 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     ...base,
     fields: { Type: values.type || 'Article', Source: values.source || '', URL: values.url || '', Year: values.year || '', Topics: values.topics || '', Chapter: values.chapter || '', 'Included concepts': values.included_concepts || '', 'Included articles': values.included_articles || '', Description: values.description || '' },
     resourceData: {
+      universityIds: optionalList(values.universities),
+      yearIds: optionalList(values.years),
+      institution: values.source?.trim() || undefined,
       chapters: splitImportList(values.chapter),
       moduleIds: splitImportList(values.module_ids),
       includedConceptIds: splitImportList(values.included_concepts),

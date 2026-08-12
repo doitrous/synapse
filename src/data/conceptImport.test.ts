@@ -1,0 +1,220 @@
+import test from 'node:test'
+import assert from 'node:assert/strict'
+import {
+  CONCEPT_IMPORT_FIELDS, RELATION_IMPORT_FIELDS, conceptFromRow, materialiseNewConcept, mergeConcept,
+  relationFromRow, relationErrors, isDuplicateRelation, relationIdFrom, conceptIdFrom,
+} from './conceptImport.ts'
+import type { ConceptGraph } from './conceptGraph.ts'
+
+const FULL_CONCEPT: Record<string, string> = {
+  label: 'Anion gap',
+  id: 'med.concept.anion-gap',
+  canonical_key: 'anion-gap',
+  aliases: 'AG | Serum anion gap',
+  arabic_label: 'فجوة الأنيونات',
+  arabic_aliases: 'الفجوة الأنيونية',
+  definition: 'The calculated difference between measured serum cations and anions.',
+  explicit_objective: 'Calculate the anion gap and state what a raised gap implies.',
+  pitfalls: 'Forgetting to calculate it in every metabolic acidosis.',
+  concept_type: 'definition',
+  status: 'active',
+  subject: 'renal',
+  topic: 'Acid–base balance',
+  subtopic: 'Metabolic acidosis',
+  microtopic: 'Anion gap',
+  nanotopic: 'Delta ratio',
+  primary_node_id: 'SYS-REN-T02',
+  secondary_node_ids: 'DIS-PHY | KNW-DIA',
+  learner_years: '2 | 3',
+  universities: 'HU | ASU',
+  modules: 'REN 01',
+  article_ids: 'ART-REN-ACID-BASE',
+  related_article_ids: 'ART-REN-TUBULAR',
+  related_concept_ids: 'med.concept.metabolic-acidosis',
+  resource_ids: 'r-deranged',
+  approved_file_resource_ids: 'r-deranged',
+  approved_video_resource_ids: 'r-video-abg',
+  blueprint_weight: '0.6',
+  exam_weight_by_year: 'HU_Y2=0.6 | HU_Y3=0.4',
+  clinical_relevance: '0.7',
+  academic_relevance: '0.8',
+  weight_confidence: '0.5',
+  confidence: '0.9',
+  support_mode: 'direct_statement',
+  atomic_claim_ids: 'claim-ag-1',
+  resource_occurrence_ids: 'occ-ag-1',
+  source_candidate_ids: 'cand-ag-1',
+  original_wording: 'the difference between measured cations and anions',
+  merge_ids: 'merge-ag-1',
+  rejected_merge_candidate_ids: 'cand-ag-9',
+  conflicts: 'Albumin correction taught differently by faculty',
+  uncertainty: 'Whether to correct for albumin routinely',
+  evidence_gaps: 'No Egyptian reference range sourced',
+  owner: 'Dr Omar',
+  reviewer: 'Dr Omar',
+  final_publisher: 'Dr Omar',
+  last_reviewed: '2026-08-11',
+  review_due: '2027-08-11',
+  publication_status: 'needs_evidence',
+  editorial_review_status: 'editorially_reviewed_needs_independent_evidence',
+  exclusion_reason: '',
+  field_notes: 'moduleIds: awaiting a verified live module ID',
+}
+
+test('every concept import field is exercised by the round-trip fixture', () => {
+  const missing = CONCEPT_IMPORT_FIELDS.map((field) => field.key).filter((key) => !(key in FULL_CONCEPT))
+  assert.deepEqual(missing, [], `fixture does not cover: ${missing.join(', ')}`)
+})
+
+test('a fully populated concept row imports with every field present', () => {
+  const concept = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  assert.equal(concept.id, 'med.concept.anion-gap')
+  assert.equal(concept.canonicalKey, 'anion-gap')
+  assert.deepEqual(concept.aliases, ['AG', 'Serum anion gap'])
+  assert.equal(concept.arabicLabel, 'فجوة الأنيونات')
+  assert.deepEqual(concept.arabicAliases, ['الفجوة الأنيونية'])
+  assert.equal(concept.explicitObjective, 'Calculate the anion gap and state what a raised gap implies.')
+  assert.equal(concept.conceptType, 'definition')
+  assert.equal(concept.status, 'active')
+  assert.deepEqual(concept.articleIds, ['ART-REN-ACID-BASE'])
+  assert.deepEqual(concept.secondaryNodeIds, ['DIS-PHY', 'KNW-DIA'])
+  assert.deepEqual(concept.learnerYears, [2, 3])
+  assert.deepEqual(concept.examWeightByYear, { HU_Y2: 0.6, HU_Y3: 0.4 })
+  assert.equal(concept.weightConfidence, 0.5)
+  assert.deepEqual(concept.atomicClaimIds, ['claim-ag-1'])
+  assert.deepEqual(concept.mergeIds, ['merge-ag-1'])
+  assert.deepEqual(concept.rejectedMergeCandidateIds, ['cand-ag-9'])
+  assert.deepEqual(concept.conflicts, ['Albumin correction taught differently by faculty'])
+  assert.deepEqual(concept.uncertainty, ['Whether to correct for albumin routinely'])
+  assert.equal(concept.publicationStatus, 'needs_evidence')
+  assert.equal(concept.fieldNotes?.moduleIds, 'awaiting a verified live module ID')
+})
+
+test('a concept id is derived from its label when omitted', () => {
+  assert.equal(conceptIdFrom('Anion gap'), 'med.concept.anion-gap')
+  assert.equal(conceptFromRow({ label: 'Anion gap' }).id, 'med.concept.anion-gap')
+})
+
+test('an update keeps every field the row did not mention', () => {
+  const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  const patch = conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', definition: 'A revised definition.' })
+  const merged = mergeConcept(existing, patch)
+
+  assert.equal(merged.definition, 'A revised definition.')
+  // The old importer forced these to empty on every row it touched.
+  assert.deepEqual(merged.articleIds, ['ART-REN-ACID-BASE'])
+  assert.deepEqual(merged.aliases, ['AG', 'Serum anion gap'])
+  assert.deepEqual(merged.atomicClaimIds, ['claim-ag-1'])
+  assert.deepEqual(merged.mergeIds, ['merge-ag-1'])
+  assert.equal(merged.reviewer, 'Dr Omar')
+  assert.equal(merged.weightConfidence, 0.5)
+})
+
+test('merge lineage survives an update that does not mention it', () => {
+  const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  const merged = mergeConcept(existing, conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', pitfalls: 'New pitfall.' }))
+  assert.deepEqual(merged.mergeIds, ['merge-ag-1'])
+  assert.deepEqual(merged.rejectedMergeCandidateIds, ['cand-ag-9'])
+  assert.deepEqual(merged.sourceCandidateIds, ['cand-ag-1'])
+  assert.deepEqual(merged.originalWording, ['the difference between measured cations and anions'])
+})
+
+test('field notes accumulate rather than replace', () => {
+  const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  const merged = mergeConcept(existing, conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', field_notes: 'pitfalls: none specific to this concept' }))
+  assert.equal(merged.fieldNotes?.moduleIds, 'awaiting a verified live module ID')
+  assert.equal(merged.fieldNotes?.pitfalls, 'none specific to this concept')
+})
+
+test('[clear] empties a concept list on purpose', () => {
+  const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  const merged = mergeConcept(existing, conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', conflicts: '[clear]' }))
+  assert.deepEqual(merged.conflicts, [])
+  assert.deepEqual(merged.uncertainty, ['Whether to correct for albumin routinely'])
+})
+
+/* ---- relations --------------------------------------------------------- */
+
+const graph = {
+  concepts: [{ id: 'c-a', label: 'A' }, { id: 'c-b', label: 'B' }],
+  relations: [],
+} as unknown as ConceptGraph
+
+const evidence = { claims: [{ id: 'claim-1' }], citations: [{ id: 'cite-1' }] }
+
+const FULL_RELATION: Record<string, string> = {
+  id: '',
+  source: 'c-a',
+  type: 'prerequisite_of',
+  target: 'c-b',
+  evidence_claim_ids: 'claim-1',
+  citation_ids: 'cite-1',
+  confidence: '0.9',
+  verification_status: 'verified',
+  qualifiers: 'why: A must be understood before B',
+  reviewer: 'Dr Omar',
+  reviewed_at: '2026-08-12',
+}
+
+test('every relation import field is exercised by the round-trip fixture', () => {
+  const missing = RELATION_IMPORT_FIELDS.map((field) => field.key).filter((key) => !(key in FULL_RELATION))
+  assert.deepEqual(missing, [], `fixture does not cover: ${missing.join(', ')}`)
+})
+
+test('a fully populated relation row imports with every field present', () => {
+  const relation = relationFromRow(FULL_RELATION)
+  assert.equal(relation.id, relationIdFrom('c-a', 'prerequisite_of', 'c-b'))
+  assert.equal(relation.sourceId, 'c-a')
+  assert.equal(relation.targetId, 'c-b')
+  assert.equal(relation.type, 'prerequisite_of')
+  assert.deepEqual(relation.evidenceClaimIds, ['claim-1'])
+  assert.deepEqual(relation.citationIds, ['cite-1'])
+  assert.equal(relation.confidence, 0.9)
+  assert.equal(relation.verificationStatus, 'verified')
+  assert.deepEqual(relation.qualifiers, { why: 'A must be understood before B' })
+  assert.equal(relation.reviewer, 'Dr Omar')
+  assert.deepEqual(relationErrors(relation, graph, evidence), [])
+})
+
+test('a derived relation id makes re-import idempotent', () => {
+  assert.equal(relationFromRow(FULL_RELATION).id, relationFromRow(FULL_RELATION).id)
+})
+
+test('an unknown endpoint is rejected before the edge reaches the graph', () => {
+  const errors = relationErrors(relationFromRow({ ...FULL_RELATION, target: 'c-missing' }), graph, evidence)
+  assert.ok(errors.some((error) => /Target concept c-missing does not exist/.test(error)), errors.join(' | '))
+})
+
+test('an unknown relation type is rejected', () => {
+  const errors = relationErrors(relationFromRow({ ...FULL_RELATION, type: 'invented' }), graph, evidence)
+  assert.ok(errors.some((error) => /is not a relation type/.test(error)), errors.join(' | '))
+})
+
+test('a self-referential edge is rejected', () => {
+  const errors = relationErrors(relationFromRow({ ...FULL_RELATION, target: 'c-a' }), graph, evidence)
+  assert.ok(errors.some((error) => /point a concept at itself/.test(error)), errors.join(' | '))
+})
+
+test('a verified relation must name both a claim and a citation', () => {
+  const errors = relationErrors(relationFromRow({ ...FULL_RELATION, citation_ids: '' }), graph, evidence)
+  assert.ok(errors.some((error) => /only be verified when it names both/.test(error)), errors.join(' | '))
+})
+
+test('a claim that does not resolve is rejected', () => {
+  const errors = relationErrors(relationFromRow({ ...FULL_RELATION, evidence_claim_ids: 'claim-missing' }), graph, evidence)
+  assert.ok(errors.some((error) => /Claim claim-missing does not exist/.test(error)), errors.join(' | '))
+})
+
+test('a needs_evidence relation with no evidence chain is allowed', () => {
+  const relation = relationFromRow({ source: 'c-a', type: 'often_confused_with', target: 'c-b', verification_status: 'needs_evidence' })
+  assert.deepEqual(relationErrors(relation, graph, evidence), [])
+})
+
+test('the same directed edge under a different id is a duplicate', () => {
+  const first = relationFromRow(FULL_RELATION)
+  const second = relationFromRow({ ...FULL_RELATION, id: 'rel-hand-written' })
+  assert.equal(isDuplicateRelation(second, [first]), true)
+  // The reverse direction is a different edge, not a duplicate.
+  const reversed = relationFromRow({ ...FULL_RELATION, id: 'rel-rev', source: 'c-b', target: 'c-a' })
+  assert.equal(isDuplicateRelation(reversed, [first]), false)
+})
