@@ -24,17 +24,17 @@
   "nodes": 644,
   "byDisposition": {
    "useful rename or split": 6,
-   "already covered under a different Synapse label": 432,
+   "already covered under a different Synapse label": 307,
    "metadata/filter, not a node": 64,
-   "secondary placement or cross-reference": 126,
+   "secondary placement or cross-reference": 251,
    "merge/de-duplication": 5,
    "outside Years 1–4 scope": 2,
    "alias/spelling variant": 9
   },
   "byConfidence": {
    "high": 211,
-   "low": 299,
-   "medium": 134
+   "medium": 342,
+   "low": 91
   }
  },
  "dispositions": [
@@ -105,11 +105,11 @@
    "childGroups": 0,
    "articleCount": 8,
    "synapseAnchor": "DIS-ANA",
-   "synapseNodeId": "DIS-ANA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-ANA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PHY-T05",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PHY-T05 “Gastrointestinal” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "nH07Ih",
@@ -210,11 +210,11 @@
    "childGroups": 3,
    "articleCount": 6,
    "synapseAnchor": "DIS-ANA",
-   "synapseNodeId": "DIS-ANA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-ANA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-HIS",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-HIS “Histology & Cell Biology” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "NH0-qh",
@@ -255,9 +255,9 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "DIS-ANA",
-   "synapseNodeId": "SYS-DER-T04-S02",
+   "synapseNodeId": "DIS-HIS-T02",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-DER-T04-S02 “Connective-tissue manifestations” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-HIS-T02 “Basic tissues” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -420,11 +420,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-PSY",
-   "synapseNodeId": "SYS-PSY",
+   "synapseNodeId": "SYS-PSY-T02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-PSY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-PSY-T02 “Mood and anxiety disorders”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "eG0xyh",
@@ -450,11 +450,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-PSY",
-   "synapseNodeId": "SYS-PSY",
+   "synapseNodeId": "SYS-PSY-T06-S01",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-PSY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-PSY-T06-S01 “Eating and somatic disorders”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "SG0yAh",
@@ -480,11 +480,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "SYS-PSY",
-   "synapseNodeId": "SYS-PSY",
+   "synapseNodeId": "SYS-PSY-T02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-PSY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-PSY-T02 “Mood and anxiety disorders”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "jG0__h",
@@ -570,11 +570,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "SYS-PSY",
-   "synapseNodeId": "SYS-PSY",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-PSY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "KNW-PRS-T01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by KNW-PRS-T01 “Symptoms” in the knowledge view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "UG0bAh",
@@ -615,11 +615,11 @@
    "childGroups": 1,
    "articleCount": 5,
    "synapseAnchor": "DIS-BIO",
-   "synapseNodeId": "DIS-BIO",
+   "synapseNodeId": "DIS-BIO-T07",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-BIO. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-BIO-T07 “Clinical biochemistry”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "8H0OHh",
@@ -690,11 +690,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "DIS-BIO",
-   "synapseNodeId": "DIS-BIO",
+   "synapseNodeId": "DIS-BIO-T03",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-BIO. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-BIO-T03 “Carbohydrate metabolism”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "vH0AHh",
@@ -720,11 +720,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "DIS-BIO",
-   "synapseNodeId": "DIS-BIO",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-BIO. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-FND-T04-S01-M03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-FND-T04-S01-M03 “Metabolism” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "HH0K7h",
@@ -735,11 +735,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "DIS-BIO",
-   "synapseNodeId": "SYS-END-T07-S02",
-   "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-END-T07-S02 “Lipid disorders” in the system view. This branch is a second route to it, not a new node.",
+   "synapseNodeId": "DIS-BIO-T04",
+   "disposition": "already covered under a different Synapse label",
+   "rationale": "Same subject matter as DIS-BIO-T04 “Lipid metabolism”, which carries a broader or narrower label for it.",
    "confidence": "medium",
-   "decidedBy": "rule:token-elsewhere"
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "IH0Y7h",
@@ -765,11 +765,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "DIS-BIO",
-   "synapseNodeId": "DIS-BIO",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-BIO. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-HIS-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-HIS-T02 “Basic tissues” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "oH00rh",
@@ -810,11 +810,11 @@
    "childGroups": 1,
    "articleCount": 6,
    "synapseAnchor": "DIS-BIO",
-   "synapseNodeId": "DIS-BIO",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-BIO. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-MED-T05",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-MED-T05 “Endocrinology” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "FH0gHh",
@@ -990,9 +990,9 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-IMU",
-   "synapseNodeId": "SYS-IMM-T03-S01",
+   "synapseNodeId": "DIS-DRM-T04",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-IMM-T03-S01 “Systemic autoimmune disease” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-DRM-T04 “Autoimmune disease” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -1005,11 +1005,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-IMU",
-   "synapseNodeId": "DIS-IMU",
+   "synapseNodeId": "DIS-IMU-T03",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-IMU. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-IMU-T03 “Hypersensitivity”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "ms0Vvh",
@@ -1035,11 +1035,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "DIS-IMU",
-   "synapseNodeId": "DIS-IMU",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-IMU. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-REN-T07-S01-M03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-REN-T07-S01-M03 “Transplantation” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "ks0mEh",
@@ -1110,11 +1110,11 @@
    "childGroups": 0,
    "articleCount": 20,
    "synapseAnchor": "DIS-MIC",
-   "synapseNodeId": "DIS-MIC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MIC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T03 “Infection” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "os00Dh",
@@ -1140,11 +1140,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "DIS-MIC",
-   "synapseNodeId": "DIS-MIC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MIC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T03 “Infection” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Ks0UDh",
@@ -1170,11 +1170,11 @@
    "childGroups": 0,
    "articleCount": 13,
    "synapseAnchor": "DIS-MIC",
-   "synapseNodeId": "DIS-MIC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MIC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T03 “Infection” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Ls0wvh",
@@ -1200,11 +1200,11 @@
    "childGroups": 0,
    "articleCount": 25,
    "synapseAnchor": "DIS-MIC",
-   "synapseNodeId": "DIS-MIC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MIC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T03 “Infection” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "VH0G6h",
@@ -1335,9 +1335,9 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-PAT",
-   "synapseNodeId": "SYS-END-T01",
+   "synapseNodeId": "DIS-PHY-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-END-T01 “Endocrine principles” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-PHY-T06 “Endocrine and reproductive” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -1352,9 +1352,9 @@
    "synapseAnchor": "DIS-PAT",
    "synapseNodeId": "DIS-PAT",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PAT. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PAT “Pathology”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "ys0dxh",
@@ -1410,11 +1410,11 @@
    "childGroups": 0,
    "articleCount": 23,
    "synapseAnchor": "DIS-PAT",
-   "synapseNodeId": "DIS-PAT",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PAT. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU “Nervous System & Special Senses” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "us0p9h",
@@ -1470,9 +1470,9 @@
    "childGroups": 0,
    "articleCount": 19,
    "synapseAnchor": "DIS-PAT",
-   "synapseNodeId": "SYS-DER",
+   "synapseNodeId": "DIS-HIS-T02",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-DER “Skin & Subcutaneous Tissue” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-HIS-T02 “Basic tissues” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -1575,11 +1575,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-PRE-T01-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-PRE-T01-S01 “Drug” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "cG0ayh",
@@ -1590,11 +1590,11 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PHY-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PHY-T02 “Cardiovascular” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "1G02yh",
@@ -1605,11 +1605,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-HEM-T03-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-HEM-T03-S01 “Bleeding disorders” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "dG0oyh",
@@ -1620,11 +1620,11 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-END-T01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-END-T01 “Endocrine principles” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "WG0Pyh",
@@ -1635,11 +1635,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PHY-T05",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PHY-T05 “Gastrointestinal” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "XG09Bh",
@@ -1650,11 +1650,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-PRE-T01-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-PRE-T01-S01 “Drug” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "VG0Gyh",
@@ -1665,11 +1665,11 @@
    "childGroups": 0,
    "articleCount": 8,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-HIS-T03-S03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-HIS-T03-S03 “Psychiatric” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "zs0rxh",
@@ -1725,11 +1725,11 @@
    "childGroups": 0,
    "articleCount": 1,
    "synapseAnchor": "DIS-PHY",
-   "synapseNodeId": "DIS-PHY",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-DEV-T02-S02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-DEV-T02-S02 “Healthy aging” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "As0Rxh",
@@ -1740,11 +1740,11 @@
    "childGroups": 1,
    "articleCount": 3,
    "synapseAnchor": "DIS-PHY",
-   "synapseNodeId": "DIS-PHY",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-HEM",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-HEM “Blood & Lymphoreticular System” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "_s05xh",
@@ -1800,11 +1800,11 @@
    "childGroups": 1,
    "articleCount": 7,
    "synapseAnchor": "DIS-PHY",
-   "synapseNodeId": "SYS-END-T01",
-   "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-END-T01 “Endocrine principles” in the system view. This branch is a second route to it, not a new node.",
+   "synapseNodeId": "DIS-PHY-T06",
+   "disposition": "already covered under a different Synapse label",
+   "rationale": "Same subject matter as DIS-PHY-T06 “Endocrine and reproductive”, which carries a broader or narrower label for it.",
    "confidence": "medium",
-   "decidedBy": "rule:token-elsewhere"
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "es0xFh",
@@ -1830,11 +1830,11 @@
    "childGroups": 2,
    "articleCount": 0,
    "synapseAnchor": "DIS-PHY",
-   "synapseNodeId": "DIS-PHY",
+   "synapseNodeId": "DIS-PHY-T05",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PHY-T05 “Gastrointestinal”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "as0Qth",
@@ -1995,11 +1995,11 @@
    "childGroups": 1,
    "articleCount": 13,
    "synapseAnchor": "DIS-PHY",
-   "synapseNodeId": "DIS-PHY",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU “Nervous System & Special Senses” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Ts068h",
@@ -2085,11 +2085,11 @@
    "childGroups": 1,
    "articleCount": 9,
    "synapseAnchor": "DIS-PHY",
-   "synapseNodeId": "DIS-PHY",
+   "synapseNodeId": "DIS-PHY-T06",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PHY-T06 “Endocrine and reproductive”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Us0b8h",
@@ -2250,9 +2250,9 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "SYS-HEM",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -2265,11 +2265,11 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "SYS-HEM",
-   "synapseNodeId": "SYS-HEM",
+   "synapseNodeId": "SYS-HEM-T01-S01-M03",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-HEM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-HEM-T01-S01-M03 “Platelets”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "0t0eX3",
@@ -2400,11 +2400,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "SYS-CVS",
-   "synapseNodeId": "SYS-CVS",
+   "synapseNodeId": "SYS-CVS-T01-S02-M02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-CVS. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-CVS-T01-S02-M02 “Hemodynamics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "OF0IR3",
@@ -2415,9 +2415,9 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-CVS",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -2445,11 +2445,11 @@
    "childGroups": 0,
    "articleCount": 1,
    "synapseAnchor": "SYS-CVS",
-   "synapseNodeId": "SYS-CVS",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-CVS. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "jF0_33",
@@ -2490,11 +2490,11 @@
    "childGroups": 0,
    "articleCount": 18,
    "synapseAnchor": "SYS-CVS",
-   "synapseNodeId": "SYS-CVS",
+   "synapseNodeId": "SYS-CVS-T07",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-CVS. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-CVS-T07 “Hypertension and vascular disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Ft0g23",
@@ -2550,11 +2550,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "SYS-END",
-   "synapseNodeId": "SYS-END",
+   "synapseNodeId": "SYS-END-T05",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-END. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-END-T05 “Adrenal disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "280TN3",
@@ -2580,11 +2580,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "SYS-END",
-   "synapseNodeId": "SYS-END",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-END. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-FND-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-FND-T02 “Human genetics” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "e80xl3",
@@ -2610,11 +2610,11 @@
    "childGroups": 0,
    "articleCount": 11,
    "synapseAnchor": "SYS-END",
-   "synapseNodeId": "SYS-END",
+   "synapseNodeId": "SYS-END-T03",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-END. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-END-T03 “Thyroid disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "0F0eg3",
@@ -2700,9 +2700,9 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "SYS-GYN",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -2715,11 +2715,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "SYS-GYN",
-   "synapseNodeId": "SYS-GYN",
+   "synapseNodeId": "SYS-GYN-T02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-GYN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-GYN-T02 “Menstrual and endocrine disorders”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Z80ZO3",
@@ -2730,11 +2730,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "SYS-GYN",
-   "synapseNodeId": "SYS-GYN",
+   "synapseNodeId": "SYS-GYN-T05-S02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-GYN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-GYN-T05-S02 “Ovary and vulva”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "a80QO3",
@@ -2745,11 +2745,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "SYS-GYN",
-   "synapseNodeId": "SYS-GYN",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-GYN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-DEV-T01-S02-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-DEV-T01-S02-M02 “Development” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Y80nO3",
@@ -2775,11 +2775,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "SYS-GYN",
-   "synapseNodeId": "SYS-GYN",
+   "synapseNodeId": "SYS-GYN-T05-S01",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-GYN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-GYN-T05-S01 “Cervix and uterus”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "_t05T3",
@@ -2850,11 +2850,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-GIT",
-   "synapseNodeId": "SYS-GIT",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-GIT. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-EXM-T02-S03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-EXM-T02-S03 “Abdominal” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "uF0pP3",
@@ -2880,11 +2880,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "SYS-GIT",
-   "synapseNodeId": "SYS-GIT",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-GIT. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-REN-T06-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-REN-T06-S01 “Infection” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "vF0AP3",
@@ -2910,11 +2910,11 @@
    "childGroups": 0,
    "articleCount": 24,
    "synapseAnchor": "SYS-GIT",
-   "synapseNodeId": "SYS-GIT",
+   "synapseNodeId": "SYS-GIT-T06",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-GIT. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-GIT-T06 “Liver disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "8F0OP3",
@@ -3075,11 +3075,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-FND",
-   "synapseNodeId": "SYS-FND",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-FND. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-BIO-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-BIO-T03 “Carbohydrate metabolism” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "CG0qY3",
@@ -3150,11 +3150,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "SYS-DEV",
-   "synapseNodeId": "SYS-DEV",
+   "synapseNodeId": "SYS-DEV-T01-S02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-DEV. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-DEV-T01-S02 “School age and adolescence”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "FG0ga3",
@@ -3165,11 +3165,11 @@
    "childGroups": 0,
    "articleCount": 1,
    "synapseAnchor": "SYS-DEV",
-   "synapseNodeId": "SYS-DEV",
+   "synapseNodeId": "SYS-DEV-T02-S01",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-DEV. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-DEV-T02-S01 “Young and middle adulthood”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "GG0B03",
@@ -3180,11 +3180,11 @@
    "childGroups": 0,
    "articleCount": 11,
    "synapseAnchor": "SYS-DEV",
-   "synapseNodeId": "SYS-DEV",
+   "synapseNodeId": "SYS-DEV-T01-S01",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-DEV. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-DEV-T01-S01 “Infancy and early childhood”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "8G0Oa3",
@@ -3270,11 +3270,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "SYS-IMM",
-   "synapseNodeId": "SYS-IMM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-IMM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-HEM-T06-S02-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-HEM-T06-S02-M02 “Reactions” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "_G05b3",
@@ -3300,11 +3300,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "SYS-IMM",
-   "synapseNodeId": "SYS-IMM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-IMM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-REN-T07-S01-M03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-REN-T07-S01-M03 “Transplantation” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "BG0zY3",
@@ -3360,9 +3360,9 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "SYS-AND",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -3375,11 +3375,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "SYS-AND",
-   "synapseNodeId": "SYS-AND",
+   "synapseNodeId": "SYS-AND-T01-S01-M04",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-AND. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-AND-T01-S01-M04 “Penis”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "1802l3",
@@ -3405,11 +3405,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-AND",
-   "synapseNodeId": "SYS-AND",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-AND. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-DEV-T01-S02-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-DEV-T01-S02-M02 “Development” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "c80al3",
@@ -3495,11 +3495,11 @@
    "childGroups": 0,
    "articleCount": 18,
    "synapseAnchor": "SYS-MUL",
-   "synapseNodeId": "SYS-MUL",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MUL. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-FND-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-FND-T02 “Human genetics” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "380Sm3",
@@ -3510,11 +3510,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "SYS-MUL",
-   "synapseNodeId": "SYS-MUL",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MUL. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-CVS-T01-S02-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-CVS-T01-S02-M02 “Hemodynamics” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "k80m53",
@@ -3525,11 +3525,11 @@
    "childGroups": 0,
    "articleCount": 19,
    "synapseAnchor": "SYS-MUL",
-   "synapseNodeId": "SYS-MUL",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MUL. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T02 “Inflammatory disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "i80Jm3",
@@ -3540,9 +3540,9 @@
    "childGroups": 0,
    "articleCount": 21,
    "synapseAnchor": "SYS-MUL",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -3555,11 +3555,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-MUL",
-   "synapseNodeId": "SYS-MUL",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MUL. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-FND-T03-S03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-FND-T03-S03 “Neoplasia” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "xF0E43",
@@ -3570,11 +3570,11 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "SYS-MUL",
-   "synapseNodeId": "SYS-MUL",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MUL. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-GIT-T04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-GIT-T04 “Small-bowel and nutritional disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "qt0Ce3",
@@ -3630,11 +3630,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "SYS-MSK",
-   "synapseNodeId": "SYS-MSK",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MSK. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-FND-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-FND-T02 “Human genetics” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "3F0S33",
@@ -3645,9 +3645,9 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "SYS-MSK",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -3660,11 +3660,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "SYS-MSK",
-   "synapseNodeId": "SYS-MSK",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MSK. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-IMM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-IMM-T03 “Autoimmune disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "gF0Fh3",
@@ -3690,11 +3690,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "SYS-MSK",
-   "synapseNodeId": "SYS-MSK",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MSK. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "TF06h3",
@@ -3705,11 +3705,11 @@
    "childGroups": 0,
    "articleCount": 8,
    "synapseAnchor": "SYS-MSK",
-   "synapseNodeId": "SYS-MSK",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MSK. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-MUL-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-MUL-T03 “Trauma” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "rt0fU3",
@@ -3765,11 +3765,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-MSK",
-   "synapseNodeId": "SYS-MSK",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-MSK. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-ANA-T04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-ANA-T04 “Thorax” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "MG0M-h",
@@ -3797,9 +3797,9 @@
    "synapseAnchor": "SYS-NEU",
    "synapseNodeId": "SYS-NEU",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-NEU. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-NEU “Nervous System & Special Senses”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "ht0cW3",
@@ -3825,11 +3825,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "SYS-NEU",
-   "synapseNodeId": "SYS-NEU",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-NEU. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-CVS-T08",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-CVS-T08 “Congenital and inflammatory disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "kt0md3",
@@ -3855,11 +3855,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "SYS-NEU",
-   "synapseNodeId": "SYS-NEU",
+   "synapseNodeId": "SYS-NEU-T02-S01",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-NEU. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-NEU-T02-S01 “Altered consciousness and cognition”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "4t03d3",
@@ -3885,11 +3885,11 @@
    "childGroups": 0,
    "articleCount": 13,
    "synapseAnchor": "SYS-NEU",
-   "synapseNodeId": "DIS-MED-T07",
-   "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "already covered under a different Synapse label",
+   "rationale": "Same subject matter as SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease”, which carries a broader or narrower label for it.",
    "confidence": "medium",
-   "decidedBy": "rule:token-elsewhere"
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "5t0iV3",
@@ -3900,11 +3900,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-NEU",
-   "synapseNodeId": "SYS-NEU",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-NEU. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "mt0VV3",
@@ -3930,11 +3930,11 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "SYS-NEU",
-   "synapseNodeId": "SYS-NEU",
+   "synapseNodeId": "SYS-NEU-T05-S01",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-NEU. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-NEU-T05-S01 “Movement disorders”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Ot0Id3",
@@ -3945,11 +3945,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "SYS-NEU",
-   "synapseNodeId": "SYS-NEU",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-NEU. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-HIS-T02-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-HIS-T02-S01 “Pain” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Pt0Wd3",
@@ -4005,11 +4005,11 @@
    "childGroups": 0,
    "articleCount": 17,
    "synapseAnchor": "SYS-NEU",
-   "synapseNodeId": "SYS-NEU",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-NEU. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-MUL-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-MUL-T03 “Trauma” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "3t0SW3",
@@ -4187,9 +4187,9 @@
    "synapseAnchor": "SYS-OBS",
    "synapseNodeId": "SYS-OBS",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-OBS. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-OBS “Pregnancy, Childbirth & Puerperium”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Bt0zf3",
@@ -4230,11 +4230,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-PSY",
-   "synapseNodeId": "SYS-PSY",
+   "synapseNodeId": "SYS-PSY-T02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-PSY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-PSY-T02 “Mood and anxiety disorders”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "ct0ac3",
@@ -4260,11 +4260,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-PSY",
-   "synapseNodeId": "SYS-PSY",
+   "synapseNodeId": "SYS-PSY-T06-S01",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-PSY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-PSY-T06-S01 “Eating and somatic disorders”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "ft0k13",
@@ -4290,11 +4290,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "SYS-PSY",
-   "synapseNodeId": "SYS-PSY",
+   "synapseNodeId": "SYS-PSY-T02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-PSY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-PSY-T02 “Mood and anxiety disorders”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Tt0613",
@@ -4350,11 +4350,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "SYS-PSY",
-   "synapseNodeId": "SYS-PSY",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-PSY. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "KNW-PRS-T01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by KNW-PRS-T01 “Symptoms” in the knowledge view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "1t02c3",
@@ -4410,11 +4410,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "SYS-REN",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-REN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-CVS-T08",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-CVS-T08 “Congenital and inflammatory disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "7F04j3",
@@ -4440,11 +4440,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "SYS-REN",
+   "synapseNodeId": "SYS-REN-T04",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-REN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-REN-T04 “Glomerular and vascular disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "tF0XP3",
@@ -4455,9 +4455,9 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -4470,11 +4470,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "SYS-REN",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-REN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "HF0Kj3",
@@ -4500,11 +4500,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "SYS-REN",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-REN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-MUL-T02-S02-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-MUL-T02-S02-M02 “Renal” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "rF0fj3",
@@ -4515,11 +4515,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "SYS-REN",
+   "synapseNodeId": "SYS-REN-T05-S02-M02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-REN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-REN-T05-S02-M02 “Chronic tubulointerstitial disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "FF0gP3",
@@ -4530,11 +4530,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "SYS-REN",
+   "synapseNodeId": "SYS-REN-T06-S03-M02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-REN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-REN-T06-S03-M02 “Incontinence”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "9t0Nf3",
@@ -4620,9 +4620,9 @@
    "childGroups": 0,
    "articleCount": 19,
    "synapseAnchor": "SYS-RES",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -4635,11 +4635,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-RES",
-   "synapseNodeId": "SYS-RES",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-RES. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "MF0Mi3",
@@ -4650,11 +4650,11 @@
    "childGroups": 0,
    "articleCount": 8,
    "synapseAnchor": "SYS-RES",
-   "synapseNodeId": "SYS-RES",
+   "synapseNodeId": "SYS-RES-T01-S01-M02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-RES. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-RES-T01-S01-M02 “Lungs”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "oF00Q3",
@@ -4665,11 +4665,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "SYS-RES",
-   "synapseNodeId": "SYS-RES",
+   "synapseNodeId": "SYS-RES-T06-S02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-RES. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-RES-T06-S02 “Pleural disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "LF0wi3",
@@ -4695,11 +4695,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "SYS-RES",
-   "synapseNodeId": "SYS-RES",
+   "synapseNodeId": "SYS-RES-T01-S01-M02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-RES. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as SYS-RES-T01-S01-M02 “Lungs”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "ut0p23",
@@ -4755,11 +4755,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "SYS-DER",
-   "synapseNodeId": "SYS-DER",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-DER. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-HEM-T06-S02-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-HEM-T06-S02-M02 “Reactions” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "dF0oS3",
@@ -4770,9 +4770,9 @@
    "childGroups": 0,
    "articleCount": 23,
    "synapseAnchor": "SYS-DER",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -4785,11 +4785,11 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "SYS-DER",
-   "synapseNodeId": "SYS-DER",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-DER. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-IMM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-IMM-T03 “Autoimmune disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "1F02S3",
@@ -4800,11 +4800,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "SYS-DER",
-   "synapseNodeId": "SYS-DER",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-DER. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Jt0se3",
@@ -4905,9 +4905,9 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "DIS-ANE",
-   "synapseNodeId": "SKL-PRE-T01-S01",
+   "synapseNodeId": "KNW-DRG-T01",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SKL-PRE-T01-S01 “Drug” in the skills view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by KNW-DRG-T01 “Drug classes” in the knowledge view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -4935,11 +4935,11 @@
    "childGroups": 0,
    "articleCount": 26,
    "synapseAnchor": "DIS-DRM",
-   "synapseNodeId": "DIS-DRM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-DRM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-IMM",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-IMM “Immune System” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "0q0eCS",
@@ -4965,11 +4965,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-DRM",
-   "synapseNodeId": "DIS-DRM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-DRM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-EMB-T04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-EMB-T04 “Congenital anomalies” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "1q02xS",
@@ -5010,11 +5010,11 @@
    "childGroups": 0,
    "articleCount": 19,
    "synapseAnchor": "DIS-DRM",
-   "synapseNodeId": "DIS-DRM",
+   "synapseNodeId": "DIS-DRM-T03",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-DRM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-DRM-T03 “Infection”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Ir0Yih",
@@ -5025,11 +5025,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "DIS-DRM",
-   "synapseNodeId": "DIS-DRM",
+   "synapseNodeId": "DIS-DRM-T03",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-DRM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-DRM-T03 “Infection”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "7r04ih",
@@ -5040,11 +5040,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-DRM",
-   "synapseNodeId": "DIS-DRM",
+   "synapseNodeId": "DIS-DRM-T03",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-DRM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-DRM-T03 “Infection”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Hr0Kih",
@@ -5070,11 +5070,11 @@
    "childGroups": 0,
    "articleCount": 15,
    "synapseAnchor": "DIS-DRM",
-   "synapseNodeId": "DIS-DRM",
+   "synapseNodeId": "DIS-DRM-T03",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-DRM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-DRM-T03 “Infection”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Wq0PxS",
@@ -5115,11 +5115,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "DIS-DRM",
-   "synapseNodeId": "DIS-DRM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-DRM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "dq0oxS",
@@ -5130,11 +5130,11 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-DRM",
-   "synapseNodeId": "DIS-DRM",
+   "synapseNodeId": "DIS-DRM-T01",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-DRM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-DRM-T01 “Dermatologic morphology”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Vq0GxS",
@@ -5175,11 +5175,11 @@
    "childGroups": 0,
    "articleCount": 1,
    "synapseAnchor": "DIS-ENT",
-   "synapseNodeId": "DIS-ENT",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-ENT. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-IMM",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-IMM “Immune System” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "DJ01wS",
@@ -5310,11 +5310,11 @@
    "childGroups": 0,
    "articleCount": 27,
    "synapseAnchor": "DIS-EMC",
-   "synapseNodeId": "DIS-EMC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-EMC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T01 “Dermatologic morphology” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Q70ulh",
@@ -5325,11 +5325,11 @@
    "childGroups": 0,
    "articleCount": 8,
    "synapseAnchor": "DIS-EMC",
-   "synapseNodeId": "DIS-EMC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-EMC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-MIC-T04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-MIC-T04 “Diagnostic microbiology” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "K70U5h",
@@ -5355,11 +5355,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "DIS-EMC",
-   "synapseNodeId": "DIS-EMC",
+   "synapseNodeId": "DIS-EMC-T05",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-EMC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-EMC-T05 “Environmental emergencies”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "570imh",
@@ -5385,11 +5385,11 @@
    "childGroups": 0,
    "articleCount": 34,
    "synapseAnchor": "DIS-EMC",
-   "synapseNodeId": "DIS-EMC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-EMC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-HIS-T03-S02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-HIS-T03-S02 “Obstetric” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "l70vNh",
@@ -5445,11 +5445,11 @@
    "childGroups": 0,
    "articleCount": 38,
    "synapseAnchor": "DIS-EMC",
-   "synapseNodeId": "DIS-EMC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-EMC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-MSK",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-MSK “Musculoskeletal System” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "4703Nh",
@@ -5460,9 +5460,9 @@
    "childGroups": 0,
    "articleCount": 52,
    "synapseAnchor": "DIS-EMC",
-   "synapseNodeId": "SKL-EXM-T02-S04",
+   "synapseNodeId": "SYS-NEU-T02",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SKL-EXM-T02-S04 “Neurologic” in the skills view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T02 “Neurologic presentations” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -5490,9 +5490,9 @@
    "childGroups": 0,
    "articleCount": 22,
    "synapseAnchor": "DIS-EMC",
-   "synapseNodeId": "SKL-HIS-T03-S03",
+   "synapseNodeId": "SYS-PSY-T01",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SKL-HIS-T03-S03 “Psychiatric” in the skills view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-PSY-T01 “Psychiatric assessment” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -5505,11 +5505,11 @@
    "childGroups": 0,
    "articleCount": 26,
    "synapseAnchor": "DIS-EMC",
-   "synapseNodeId": "DIS-EMC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-EMC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PHY-T04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PHY-T04 “Renal” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "N70-Nh",
@@ -5580,11 +5580,11 @@
    "childGroups": 0,
    "articleCount": 33,
    "synapseAnchor": "DIS-EMC",
-   "synapseNodeId": "DIS-EMC",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-EMC. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T06 “Procedures” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "_o05eS",
@@ -5627,9 +5627,9 @@
    "synapseAnchor": "DIS-FCM",
    "synapseNodeId": "DIS-FCM",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-FCM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-FCM “Family & Community Medicine”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Y70n4h",
@@ -5655,11 +5655,11 @@
    "childGroups": 0,
    "articleCount": 65,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "DIS-FCM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-FCM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T01 “Dermatologic morphology” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "W70Pkh",
@@ -5745,11 +5745,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "DIS-FCM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-FCM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-MIC-T04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-MIC-T04 “Diagnostic microbiology” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "870Onh",
@@ -5760,9 +5760,9 @@
    "childGroups": 0,
    "articleCount": 25,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "KNW-SPC-T03-S02",
+   "synapseNodeId": "DIS-EMC",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by KNW-SPC-T03-S02 “Emergency” in the knowledge view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-EMC “Emergency Medicine & Critical Care” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -5790,11 +5790,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "DIS-FCM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-FCM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-RES-T05",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-RES-T05 “Interstitial and occupational lung disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "G70BMh",
@@ -5805,11 +5805,11 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "DIS-FCM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-FCM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PED-T07",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PED-T07 “Preventive pediatrics” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "s70tMh",
@@ -5925,9 +5925,9 @@
    "childGroups": 0,
    "articleCount": 68,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "SKL-EXM-T02-S04",
+   "synapseNodeId": "SYS-NEU-T02",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SKL-EXM-T02-S04 “Neurologic” in the skills view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T02 “Neurologic presentations” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -5940,11 +5940,11 @@
    "childGroups": 0,
    "articleCount": 78,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "DIS-FCM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-FCM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-HIS-T03-S02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-HIS-T03-S02 “Obstetric” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "e70xkh",
@@ -5970,11 +5970,11 @@
    "childGroups": 0,
    "articleCount": 142,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "DIS-FCM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-FCM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PED",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PED “Pediatrics” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "U70bOh",
@@ -5985,11 +5985,11 @@
    "childGroups": 0,
    "articleCount": 32,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "DIS-FCM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-FCM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-PSY-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-PSY-T06 “Other behavioral disorders” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "b70H4h",
@@ -6045,11 +6045,11 @@
    "childGroups": 0,
    "articleCount": 29,
    "synapseAnchor": "DIS-FCM",
-   "synapseNodeId": "DIS-FCM",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-FCM. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-REN-T06-S03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-REN-T06-S03 “Urologic tumors and voiding disorders” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Eq08Zh",
@@ -6090,11 +6090,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "DIS-GEN",
-   "synapseNodeId": "DIS-GEN",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-GEN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PHY-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PHY-T02 “Cardiovascular” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "wq0h0h",
@@ -6120,11 +6120,11 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "DIS-GEN",
-   "synapseNodeId": "DIS-GEN",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-GEN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-IMM",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-IMM “Immune System” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Bq0z0h",
@@ -6180,9 +6180,9 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "DIS-GEN",
-   "synapseNodeId": "SYS-DER",
+   "synapseNodeId": "DIS-HIS-T02",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-DER “Skin & Subcutaneous Tissue” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-HIS-T02 “Basic tissues” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -6225,11 +6225,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PED-T07",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PED-T07 “Preventive pediatrics” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "eI0xbh",
@@ -6240,11 +6240,11 @@
    "childGroups": 14,
    "articleCount": 0,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
+   "synapseNodeId": "DIS-MED-T01",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-MED-T01 “Cardiology”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "gI0FXh",
@@ -6300,11 +6300,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-OBS-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-OBS-T02 “Early-pregnancy problems” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "RI0lch",
@@ -6390,9 +6390,9 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "SYS-CVS-T06-S02",
+   "synapseNodeId": "SYS-CVS-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-CVS-T06-S02 “Pericardial disease” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-CVS-T06 “Valvular and pericardial disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -6420,11 +6420,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "KNW-EMG-T01-S02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by KNW-EMG-T01-S02 “Shock” in the knowledge view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "3I0Sch",
@@ -6450,11 +6450,11 @@
    "childGroups": 0,
    "articleCount": 22,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-SUR-T05",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-SUR-T05 “Vascular surgery” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "AI0R2h",
@@ -6480,11 +6480,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-END-T05",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-END-T05 “Adrenal disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "_I052h",
@@ -6495,11 +6495,11 @@
    "childGroups": 0,
    "articleCount": 12,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
+   "synapseNodeId": "DIS-MED-T05",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-MED-T05 “Endocrinology”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "ar0Qfh",
@@ -6525,11 +6525,11 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-FND-T04-S01-M03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-FND-T04-S01-M03 “Metabolism” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "-I0D2h",
@@ -6570,11 +6570,11 @@
    "childGroups": 0,
    "articleCount": 1,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PAT-T05",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PAT-T05 “Neoplasia” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "br0Hfh",
@@ -6585,11 +6585,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-END-T01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-END-T01 “Endocrine principles” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "cr0aTh",
@@ -6615,11 +6615,11 @@
    "childGroups": 0,
    "articleCount": 15,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-END-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-END-T03 “Thyroid disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "pI0Ldh",
@@ -6660,11 +6660,11 @@
    "childGroups": 0,
    "articleCount": 16,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-OBS-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-OBS-T02 “Early-pregnancy problems” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "II0YVh",
@@ -6690,11 +6690,11 @@
    "childGroups": 0,
    "articleCount": 12,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-GIT-T07-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-GIT-T07-S01 “Biliary disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "7I04Vh",
@@ -6705,11 +6705,11 @@
    "childGroups": 0,
    "articleCount": 55,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-GIT-T01-S01-M04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-GIT-T01-S01-M04 “Intestine” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "HI0KVh",
@@ -6765,9 +6765,9 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "SYS-GIT-T01-S01-M03",
+   "synapseNodeId": "SYS-GIT-T03-S02",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-GIT-T01-S01-M03 “Stomach” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-GIT-T03-S02 “Stomach and duodenum” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -6780,11 +6780,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-AND-T06-S01-M03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-AND-T06-S01-M03 “Hernia exam” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "_r05Ph",
@@ -6810,11 +6810,11 @@
    "childGroups": 6,
    "articleCount": 0,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
+   "synapseNodeId": "DIS-MED-T06",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-MED-T06 “Hematology”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "gr0Fgh",
@@ -6825,11 +6825,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
+   "synapseNodeId": "DIS-MED-T06",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-MED-T06 “Hematology”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Rr0lSh",
@@ -6855,11 +6855,11 @@
    "childGroups": 0,
    "articleCount": 18,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-INT-T02-S05",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-INT-T02-S05 “Coagulation” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Sr0ygh",
@@ -6945,11 +6945,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-HIS-T02-S03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-HIS-T02-S03 “Fever” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "nr073h",
@@ -6960,11 +6960,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T03 “Infection” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "kr0mhh",
@@ -6975,11 +6975,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PHY-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PHY-T02 “Cardiovascular” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "4r03hh",
@@ -6990,9 +6990,9 @@
    "childGroups": 0,
    "articleCount": 12,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "SYS-NEU-T01-S01",
+   "synapseNodeId": "DIS-DRM-T03",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-NEU-T01-S01 “Central nervous system” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-DRM-T03 “Infection” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -7005,11 +7005,11 @@
    "childGroups": 0,
    "articleCount": 17,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PHY-T05",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PHY-T05 “Gastrointestinal” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "lr0vhh",
@@ -7020,11 +7020,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T03 “Infection” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Pr0Whh",
@@ -7035,9 +7035,9 @@
    "childGroups": 0,
    "articleCount": 22,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "SYS-RES-T04",
+   "synapseNodeId": "DIS-PHY-T03",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-RES-T04 “Respiratory infection” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-PHY-T03 “Respiratory” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -7050,11 +7050,11 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T03 “Infection” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "6r0jRh",
@@ -7080,11 +7080,11 @@
    "childGroups": 0,
    "articleCount": 16,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-DRM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-DRM-T03 “Infection” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "or00Rh",
@@ -7140,9 +7140,9 @@
    "childGroups": 0,
    "articleCount": 19,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "SYS-MSK-T03-S02",
+   "synapseNodeId": "DIS-HIS-T02",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-MSK-T03-S02 “Soft-tissue injury” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-HIS-T02 “Basic tissues” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -7215,11 +7215,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-REN-T04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-REN-T04 “Glomerular and vascular disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "CI0qUh",
@@ -7230,11 +7230,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
+   "synapseNodeId": "DIS-MED-T07",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-MED-T07 “Infectious disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "xI0EUh",
@@ -7275,9 +7275,9 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "SYS-REN-T06-S02",
+   "synapseNodeId": "DIS-PHY-T04",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-REN-T06-S02 “Stones and obstruction” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-PHY-T04 “Renal” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -7290,11 +7290,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PHY-T04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PHY-T04 “Renal” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "9I0NUh",
@@ -7320,11 +7320,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-REN-T05-S02-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-REN-T05-S02-M02 “Chronic tubulointerstitial disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "kI0m1h",
@@ -7365,11 +7365,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-OBS-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-OBS-T02 “Early-pregnancy problems” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "oI00dh",
@@ -7380,11 +7380,11 @@
    "childGroups": 0,
    "articleCount": 15,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
+   "synapseNodeId": "DIS-MED-T07",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-MED-T07 “Infectious disease”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "5I0iWh",
@@ -7395,11 +7395,11 @@
    "childGroups": 0,
    "articleCount": 3,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-RES-T01-S01-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-RES-T01-S01-M02 “Lungs” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "NI0-1h",
@@ -7410,11 +7410,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-RES-T01-S01-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-RES-T01-S01-M02 “Lungs” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "KI0Udh",
@@ -7440,9 +7440,9 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "SYS-RES-T06-S02",
+   "synapseNodeId": "SYS-RES-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-RES-T06-S02 “Pleural disease” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-RES-T06 “Pulmonary vascular and pleural disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -7500,11 +7500,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-CVS-T04-S02-M03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-CVS-T04-S02-M03 “Restrictive” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "1r02Th",
@@ -7515,11 +7515,11 @@
    "childGroups": 7,
    "articleCount": 1,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
+   "synapseNodeId": "DIS-MED-T08",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-MED-T08 “Rheumatology”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Wr0PTh",
@@ -7545,9 +7545,9 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "SYS-DER-T04-S02",
+   "synapseNodeId": "DIS-HIS-T02",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-DER-T04-S02 “Connective-tissue manifestations” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-HIS-T02 “Basic tissues” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -7560,11 +7560,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-HEM-T06-S02-M02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-HEM-T06-S02-M02 “Reactions” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Vr0GTh",
@@ -7575,11 +7575,11 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-MSK-T06-S01-M01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-MSK-T06-S01-M01 “Joint examination” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "er0xTh",
@@ -7590,11 +7590,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-HIS-T02-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-HIS-T02-S01 “Pain” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "fr0kgh",
@@ -7695,11 +7695,11 @@
    "childGroups": 0,
    "articleCount": 8,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T02-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T02-S01 “Altered consciousness and cognition” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "WJ0PGS",
@@ -7710,11 +7710,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T04-S02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T04-S02 “Headache disorders” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "eJ0xGS",
@@ -7770,11 +7770,11 @@
    "childGroups": 0,
    "articleCount": 8,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "TJ06tS",
@@ -7905,11 +7905,11 @@
    "childGroups": 0,
    "articleCount": 27,
    "synapseAnchor": "DIS-MED",
-   "synapseNodeId": "DIS-MED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-MED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-SUR-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-SUR-T02 “Trauma” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "UJ0btS",
@@ -7965,9 +7965,9 @@
    "childGroups": 0,
    "articleCount": 18,
    "synapseAnchor": "DIS-OBG",
-   "synapseNodeId": "SYS-GYN-T06",
+   "synapseNodeId": "DIS-SUR-T04",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-GYN-T06 “Breast disease” in the system view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by DIS-SUR-T04 “Breast and endocrine surgery” in the discipline view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -7995,11 +7995,11 @@
    "childGroups": 0,
    "articleCount": 16,
    "synapseAnchor": "DIS-OBG",
-   "synapseNodeId": "DIS-OBG",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-OBG. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-MED-T07",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "8q0OZh",
@@ -8040,11 +8040,11 @@
    "childGroups": 0,
    "articleCount": 11,
    "synapseAnchor": "DIS-OBG",
-   "synapseNodeId": "DIS-OBG",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-OBG. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "tq0XZh",
@@ -8055,11 +8055,11 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-OBG",
-   "synapseNodeId": "DIS-OBG",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-OBG. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-OBS-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-OBS-T03 “Medical disorders in pregnancy” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Fq0gZh",
@@ -8070,11 +8070,11 @@
    "childGroups": 0,
    "articleCount": 17,
    "synapseAnchor": "DIS-OBG",
-   "synapseNodeId": "DIS-OBG",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-OBG. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-OBS-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-OBS-T03 “Medical disorders in pregnancy” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "uq0pZh",
@@ -8085,11 +8085,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-OBG",
-   "synapseNodeId": "DIS-OBG",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-OBG. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-OBS",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-OBS “Pregnancy, Childbirth & Puerperium” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Iq0Y-S",
@@ -8100,11 +8100,11 @@
    "childGroups": 0,
    "articleCount": 10,
    "synapseAnchor": "DIS-OBG",
-   "synapseNodeId": "DIS-OBG",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-OBG. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-EMB-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-EMB-T03 “System development” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Hq0K-S",
@@ -8205,11 +8205,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "DIS-OPH",
-   "synapseNodeId": "DIS-OPH",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-OPH. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "KNW-SPC-T03-S02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by KNW-SPC-T03-S02 “Emergency” in the knowledge view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "fq0kBS",
@@ -8235,11 +8235,11 @@
    "childGroups": 0,
    "articleCount": 12,
    "synapseAnchor": "DIS-OPH",
-   "synapseNodeId": "DIS-OPH",
+   "synapseNodeId": "DIS-OPH-T04",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-OPH. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-OPH-T04 “Retina”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Sq0yBS",
@@ -8295,11 +8295,11 @@
    "childGroups": 0,
    "articleCount": 13,
    "synapseAnchor": "DIS-PED",
-   "synapseNodeId": "DIS-PED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-EMB-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-EMB-T03 “System development” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "lJ0v8S",
@@ -8325,11 +8325,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "DIS-PED",
-   "synapseNodeId": "DIS-PED",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-GEN",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-GEN “Genetics” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "OJ0I8S",
@@ -8372,9 +8372,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "rJ0fvS",
@@ -8387,9 +8387,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "5J0iuS",
@@ -8402,9 +8402,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "nJ07uS",
@@ -8417,9 +8417,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "LJ0wuS",
@@ -8432,9 +8432,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "qJ0CES",
@@ -8447,9 +8447,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "oJ00ES",
@@ -8462,9 +8462,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "sJ0tvS",
@@ -8477,9 +8477,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "pJ0LES",
@@ -8492,9 +8492,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "7J04vS",
@@ -8507,9 +8507,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "KJ0UES",
@@ -8522,9 +8522,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "IJ0YvS",
@@ -8535,11 +8535,11 @@
    "childGroups": 0,
    "articleCount": 40,
    "synapseAnchor": "DIS-PED",
-   "synapseNodeId": "SYS-MSK-T03",
-   "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-MSK-T03 “Trauma and orthopedics” in the system view. This branch is a second route to it, not a new node.",
+   "synapseNodeId": "DIS-PED",
+   "disposition": "already covered under a different Synapse label",
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
    "confidence": "medium",
-   "decidedBy": "rule:token-elsewhere"
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "HJ0KvS",
@@ -8552,9 +8552,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "6J0jES",
@@ -8567,9 +8567,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "JJ0sES",
@@ -8582,9 +8582,9 @@
    "synapseAnchor": "DIS-PED",
    "synapseNodeId": "DIS-PED",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PED. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PED “Pediatrics”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "SL0yCg",
@@ -8655,11 +8655,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-PRE-T01-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-PRE-T01-S01 “Drug” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "AL0RZS",
@@ -8670,11 +8670,11 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-PHY-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-PHY-T02 “Cardiovascular” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Zo0Z0S",
@@ -8685,11 +8685,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-HEM-T03-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-HEM-T03-S01 “Bleeding disorders” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "zL0rZS",
@@ -8745,11 +8745,11 @@
    "childGroups": 0,
    "articleCount": 4,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-PRE-T01-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-PRE-T01-S01 “Drug” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "H70KMh",
@@ -8760,11 +8760,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-PHA",
-   "synapseNodeId": "DIS-PHA",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PHA. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-HIS-T03-S03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-HIS-T03-S03 “Psychiatric” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Rq0lyS",
@@ -8790,11 +8790,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "DIS-PST",
-   "synapseNodeId": "DIS-PST",
+   "synapseNodeId": "DIS-PST-T02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PST. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PST-T02 “Mood and anxiety”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "I70YMh",
@@ -8865,11 +8865,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-PST",
-   "synapseNodeId": "DIS-PST",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PST. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-PSY-T06-S01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-PSY-T06-S01 “Eating and somatic disorders” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "lq0vAS",
@@ -8880,11 +8880,11 @@
    "childGroups": 0,
    "articleCount": 6,
    "synapseAnchor": "DIS-PST",
-   "synapseNodeId": "DIS-PST",
+   "synapseNodeId": "DIS-PST-T02",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PST. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-PST-T02 “Mood and anxiety”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "nq07_S",
@@ -8940,11 +8940,11 @@
    "childGroups": 0,
    "articleCount": 14,
    "synapseAnchor": "DIS-PST",
-   "synapseNodeId": "DIS-PST",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PST. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SKL-COM-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SKL-COM-T03 “Counseling” in the skills view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "kq0mAS",
@@ -8985,11 +8985,11 @@
    "childGroups": 0,
    "articleCount": 5,
    "synapseAnchor": "DIS-PST",
-   "synapseNodeId": "DIS-PST",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PST. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-FOR-T03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-FOR-T03 “Sexual and child abuse” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Oq0IAS",
@@ -9015,11 +9015,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "DIS-PST",
-   "synapseNodeId": "DIS-PST",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PST. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "KNW-PRS-T01",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by KNW-PRS-T01 “Symptoms” in the knowledge view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Lq0w_S",
@@ -9045,11 +9045,11 @@
    "childGroups": 0,
    "articleCount": 2,
    "synapseAnchor": "DIS-PST",
-   "synapseNodeId": "DIS-PST",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-PST. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "DIS-SUR-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by DIS-SUR-T02 “Trauma” in the discipline view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "D701Lh",
@@ -9092,9 +9092,9 @@
    "synapseAnchor": "DIS-SUR",
    "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "vr0AQh",
@@ -9122,9 +9122,9 @@
    "synapseAnchor": "DIS-SUR",
    "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "xr0Ejh",
@@ -9135,11 +9135,11 @@
    "childGroups": 0,
    "articleCount": 7,
    "synapseAnchor": "DIS-SUR",
-   "synapseNodeId": "DIS-SUR",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-AND-T06-S01-M03",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-AND-T06-S01-M03 “Hernia exam” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "9r0Njh",
@@ -9150,11 +9150,11 @@
    "childGroups": 0,
    "articleCount": 25,
    "synapseAnchor": "DIS-SUR",
-   "synapseNodeId": "DIS-SUR",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-GIT-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-GIT-T06 “Liver disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "wr0hjh",
@@ -9165,11 +9165,11 @@
    "childGroups": 0,
    "articleCount": 30,
    "synapseAnchor": "DIS-SUR",
-   "synapseNodeId": "DIS-SUR",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-GIT-T01-S01-M04",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-GIT-T01-S01-M04 “Intestine” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "Cr0qjh",
@@ -9227,9 +9227,9 @@
    "synapseAnchor": "DIS-SUR",
    "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "XI09Yh",
@@ -9240,9 +9240,9 @@
    "childGroups": 0,
    "articleCount": 29,
    "synapseAnchor": "DIS-SUR",
-   "synapseNodeId": "DIS-SUR-T04",
+   "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Same subject matter as DIS-SUR-T04 “Breast and endocrine surgery”, which carries a broader or narrower label for it.",
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
    "confidence": "medium",
    "decidedBy": "rule:token-in-anchor"
   },
@@ -9257,9 +9257,9 @@
    "synapseAnchor": "DIS-SUR",
    "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "bI0HYh",
@@ -9270,11 +9270,11 @@
    "childGroups": 0,
    "articleCount": 34,
    "synapseAnchor": "DIS-SUR",
-   "synapseNodeId": "DIS-ANA-T06",
-   "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-ANA-T06 “Head and neck” in the discipline view. This branch is a second route to it, not a new node.",
+   "synapseNodeId": "DIS-SUR",
+   "disposition": "already covered under a different Synapse label",
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
    "confidence": "medium",
-   "decidedBy": "rule:token-elsewhere"
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "aI0QYh",
@@ -9302,9 +9302,9 @@
    "synapseAnchor": "DIS-SUR",
    "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "VI0Gbh",
@@ -9317,9 +9317,9 @@
    "synapseAnchor": "DIS-SUR",
    "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "WI0Pbh",
@@ -9332,9 +9332,9 @@
    "synapseAnchor": "DIS-SUR",
    "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "_q05ah",
@@ -9362,9 +9362,9 @@
    "synapseAnchor": "DIS-SUR",
    "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "zq0rah",
@@ -9375,11 +9375,11 @@
    "childGroups": 6,
    "articleCount": 3,
    "synapseAnchor": "DIS-SUR",
-   "synapseNodeId": "SYS-MSK-T03",
-   "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by SYS-MSK-T03 “Trauma and orthopedics” in the system view. This branch is a second route to it, not a new node.",
+   "synapseNodeId": "DIS-SUR",
+   "disposition": "already covered under a different Synapse label",
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
    "confidence": "medium",
-   "decidedBy": "rule:token-elsewhere"
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "Gr0Bih",
@@ -9482,9 +9482,9 @@
    "synapseAnchor": "DIS-SUR",
    "synapseNodeId": "DIS-SUR",
    "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the discipline route's topic floor, inside DIS-SUR. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "rationale": "Same subject matter as DIS-SUR “Surgery”, which carries a broader or narrower label for it.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "0I0eYh",
@@ -9525,11 +9525,11 @@
    "childGroups": 0,
    "articleCount": 17,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "SYS-REN",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-REN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-AND-T02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-AND-T02 “Andrology and sexual medicine” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "CJ0qwS",
@@ -9540,11 +9540,11 @@
    "childGroups": 0,
    "articleCount": 15,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "DIS-SUR-T06",
-   "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-SUR-T06 “Urology” in the discipline view. This branch is a second route to it, not a new node.",
+   "synapseNodeId": "SYS-REN-T06",
+   "disposition": "already covered under a different Synapse label",
+   "rationale": "Same subject matter as SYS-REN-T06 “Urinary tract and urology”, which carries a broader or narrower label for it.",
    "confidence": "medium",
-   "decidedBy": "rule:token-elsewhere"
+   "decidedBy": "rule:token-in-anchor"
   },
   {
    "ambossId": "BJ0zwS",
@@ -9570,9 +9570,9 @@
    "childGroups": 0,
    "articleCount": 19,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "DIS-MED-T07",
+   "synapseNodeId": "SYS-NEU-T06",
    "disposition": "secondary placement or cross-reference",
-   "rationale": "Covered by DIS-MED-T07 “Infectious disease” in the discipline view. This branch is a second route to it, not a new node.",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
    "confidence": "medium",
    "decidedBy": "rule:token-elsewhere"
   },
@@ -9585,11 +9585,11 @@
    "childGroups": 0,
    "articleCount": 9,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "SYS-REN",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-REN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "SYS-NEU-T06",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by SYS-NEU-T06 “Inflammatory, infectious and neoplastic disease” in the system view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "-J0D9S",
@@ -9630,11 +9630,11 @@
    "childGroups": 0,
    "articleCount": 8,
    "synapseAnchor": "SYS-REN",
-   "synapseNodeId": "SYS-REN",
-   "disposition": "already covered under a different Synapse label",
-   "rationale": "Finer than the Synapse microtopic floor, inside SYS-REN. Whether it becomes its own article is an LD-04 catalogue decision, not a taxonomy node.",
-   "confidence": "low",
-   "decidedBy": "rule:below-floor"
+   "synapseNodeId": "KNW-SPC-T03-S02",
+   "disposition": "secondary placement or cross-reference",
+   "rationale": "Covered by KNW-SPC-T03-S02 “Emergency” in the knowledge view. This branch is a second route to it, not a new node.",
+   "confidence": "medium",
+   "decidedBy": "rule:token-elsewhere"
   },
   {
    "ambossId": "gj0F-f",

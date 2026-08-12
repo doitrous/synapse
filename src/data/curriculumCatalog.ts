@@ -247,6 +247,369 @@ const SYSTEM_SEEDS: SystemSeed[] = [
       topic('Special populations and personalised therapy', ['Paediatric pharmacology', 'Pregnancy and lactation', 'Older adults and polypharmacy', 'Pharmacogenomics', 'Therapeutic drug monitoring']),
     ],
   },
+  {
+    id: 'fnd', name: 'Foundations', short: 'FND', color: '#6b5b8a',
+    topics: [
+      topic('Cell & molecular biology', [
+        sub('Cell structure and organelles', ['Membranes', 'Cytoskeleton', 'Nucleus', 'Mitochondria']),
+        sub('Cell cycle and signalling', ['Cell cycle', 'Receptors', 'Second messengers', 'Apoptosis']),
+      ]),
+      topic('Human genetics', [
+        sub('Inheritance and variation', ['Mendelian inheritance', 'Chromosomal disorders', 'Mitochondrial inheritance']),
+        sub('Genomic methods and counselling', ['Pedigrees', 'Genetic testing', 'Counselling principles']),
+      ]),
+      topic('General pathology', [
+        sub('Cell injury and adaptation', ['Reversible injury', 'Necrosis', 'Apoptosis', 'Adaptations']),
+        sub('Inflammation and repair', ['Acute inflammation', 'Chronic inflammation', 'Wound healing']),
+        sub('Neoplasia', ['Carcinogenesis', 'Tumour biology', 'Grading and staging']),
+      ]),
+      topic('General pharmacology', [
+        sub('Foundational pharmacokinetics', ['Absorption', 'Distribution', 'Metabolism', 'Excretion']),
+        sub('Foundational pharmacodynamics', ['Receptors', 'Dose-response', 'Therapeutic index']),
+        sub('Safe medicines use', ['Adverse reactions', 'Interactions', 'Special populations']),
+      ]),
+      topic('General microbiology', [
+        sub('Microbial structure and classification', ['Bacteria', 'Viruses', 'Fungi', 'Parasites']),
+        sub('Host-pathogen interaction', ['Virulence', 'Transmission', 'Colonization']),
+        sub('Diagnostics and control', ['Specimen collection', 'Culture', 'Molecular tests', 'Sterilization']),
+      ]),
+      topic('Core mechanisms', [
+        sub('Hemodynamics and thrombosis', ['Oedema', 'Thrombosis', 'Embolism', 'Infarction']),
+        sub('Fluid, electrolyte and acid-base principles', ['Volume', 'Sodium', 'Potassium', 'Acid-base']),
+      ]),
+    ],
+  },
+  {
+    id: 'dev', name: 'Human development', short: 'DEV', color: '#7a6a4f',
+    topics: [
+      topic('Growth and development', [
+        sub('Infancy and early childhood', ['Growth', 'Milestones', 'Nutrition', 'Screening']),
+        sub('School age and adolescence', ['Puberty', 'Development', 'Risk behavior', 'Preventive care']),
+      ]),
+      topic('Adult health', [
+        sub('Young and middle adulthood', ['Lifestyle', 'Screening', 'Occupational health']),
+        sub('Healthy aging', ['Normal aging', 'Frailty', 'Falls', 'Polypharmacy']),
+      ]),
+      topic('Nutrition across the life course', [
+        sub('Macronutrients and micronutrients', ['Requirements', 'Deficiency', 'Excess']),
+        sub('Clinical nutrition', ['Malnutrition', 'Enteral nutrition', 'Parenteral nutrition']),
+      ]),
+      topic('Care of the well patient', [
+        sub('Screening and anticipatory guidance', ['Risk assessment', 'Counselling', 'Vaccination']),
+        sub('Social and developmental context', ['Family', 'School', 'Work', 'Caregiving']),
+        sub('Disability and inclusive care', ['Function and participation', 'Communication and access needs', 'Reasonable adjustments', 'Caregiver and community support']),
+      ]),
+    ],
+  },
+  {
+    id: 'haem', name: 'Blood and lymphoreticular', short: 'HAEM', color: '#8c2f3f',
+    topics: [
+      topic('Haematopoiesis and blood science', [
+        sub('Blood cell development', ['Erythropoiesis', 'Leukopoiesis', 'Platelets']),
+        sub('Laboratory foundations', ['CBC', 'Blood film', 'Bone marrow']),
+      ]),
+      topic('Anaemia and red-cell disorders', [
+        sub('Microcytic anaemia', ['Iron deficiency', 'Thalassemia', 'Chronic disease']),
+        sub('Normocytic and macrocytic anaemia', ['Hemolysis', 'B12 and folate', 'Marrow failure']),
+        sub('Haemoglobin disorders', ['Sickle cell disease', 'Thalassemia']),
+      ]),
+      topic('Haemostasis and thrombosis', [
+        sub('Bleeding disorders', ['Platelet disorders', 'Hemophilia', 'von Willebrand disease']),
+        sub('Thrombotic disorders', ['VTE', 'Thrombophilia', 'DIC']),
+      ]),
+      topic('White-cell disorders', [
+        sub('Benign leukocyte disorders', ['Neutropenia', 'Leukocytosis', 'Reactive changes']),
+        sub('Leukaemia and myeloproliferative disease', ['Acute leukaemia', 'Chronic leukaemia', 'MPN']),
+      ]),
+      topic('Lymphoid and plasma-cell disease', [
+        sub('Lymphoma', ['Hodgkin', 'Non-Hodgkin']),
+        sub('Plasma-cell disorders', ['Multiple myeloma', 'Monoclonal gammopathy']),
+      ]),
+      topic('Transfusion medicine', [
+        sub('Blood components', ['Red cells', 'Platelets', 'Plasma', 'Cryoprecipitate']),
+        sub('Transfusion safety', ['Compatibility', 'Reactions', 'Massive transfusion']),
+      ]),
+    ],
+  },
+  {
+    id: 'imm', name: 'Immune system', short: 'IMM', color: '#3f7a5c',
+    topics: [
+      topic('Normal immune function', [
+        sub('Innate immunity', ['Barriers', 'Complement', 'Phagocytes', 'Inflammation']),
+        sub('Adaptive immunity', ['B cells', 'T cells', 'Antibodies', 'Tolerance']),
+      ]),
+      topic('Hypersensitivity and allergy', [
+        sub('Immediate hypersensitivity', ['Anaphylaxis', 'Atopy', 'Urticaria']),
+        sub('Delayed and immune-complex disease', ['Type II', 'Type III', 'Type IV']),
+      ]),
+      topic('Autoimmune disease', [
+        sub('Systemic autoimmune disease', ['SLE', 'Systemic sclerosis', 'Vasculitis']),
+        sub('Organ-specific autoimmunity', ['Thyroid', 'Neuromuscular', 'Gastrointestinal']),
+      ]),
+      topic('Immunodeficiency', [
+        sub('Primary immunodeficiency', ['Humoral', 'Cellular', 'Combined', 'Phagocyte']),
+        sub('Secondary immunodeficiency', ['HIV', 'Malnutrition', 'Iatrogenic']),
+      ]),
+      topic('Transplantation and immunotherapy', [
+        sub('Transplant immunology', ['Rejection', 'GVHD', 'Immunosuppression']),
+        sub('Biologics and immunomodulation', ['Monoclonal antibodies', 'Cytokine therapy', 'Vaccines']),
+      ]),
+    ],
+  },
+  {
+    id: 'inf', name: 'Infection and tropical medicine', short: 'INF', color: '#5c7a3f',
+    topics: [
+      topic('Bacterial disease', [
+        sub('Gram-positive infection', ['Staphylococci', 'Streptococci', 'Clostridia']),
+        sub('Gram-negative infection', ['Enteric bacteria', 'Neisseria', 'Pseudomonas']),
+        sub('Mycobacterial disease', ['Tuberculosis', 'Leprosy', 'Nontuberculous mycobacteria']),
+      ]),
+      topic('Viral disease', [
+        sub('Respiratory and exanthem viruses', ['Influenza', 'Coronaviruses', 'Measles', 'Mumps', 'Rubella']),
+        sub('Blood-borne and chronic viruses', ['HIV', 'HBV', 'HCV']),
+        sub('Herpes and neurotropic viruses', ['HSV', 'VZV', 'CMV', 'Rabies']),
+      ]),
+      topic('Fungal disease', [
+        sub('Superficial and mucosal mycoses', ['Dermatophytes', 'Candida']),
+        sub('Systemic and opportunistic mycoses', ['Aspergillus', 'Cryptococcus', 'Mucor']),
+      ]),
+      topic('Parasitology', [
+        sub('Protozoal disease', ['Malaria', 'Amoebiasis', 'Giardiasis', 'Toxoplasmosis']),
+        sub('Helminthic disease', ['Schistosomiasis', 'Filaria', 'Cestodes', 'Nematodes']),
+      ]),
+      topic('Syndromic infectious disease', [
+        sub('Fever syndromes', ['Fever of unknown origin', 'Sepsis', 'Febrile traveler']),
+        sub('Organ-based infection', ['Meningitis', 'Endocarditis', 'Pneumonia', 'Gastroenteritis', 'UTI']),
+      ]),
+      topic('Antimicrobials and stewardship', [
+        sub('Antibacterial therapy', ['Drug classes', 'Empiric choice', 'Resistance']),
+        sub('Antiviral, antifungal and antiparasitic therapy', ['Indications', 'Toxicity', 'Interactions']),
+        sub('Stewardship', ['Specimens', 'De-escalation', 'Duration', 'Prophylaxis']),
+      ]),
+      topic('Infection prevention and Egyptian context', [
+        sub('Prevention and control', ['Isolation', 'Vaccination', 'Needlestick injury', 'Outbreaks']),
+        sub('Locally important infections', ['Schistosomiasis', 'Viral hepatitis', 'Tuberculosis', 'Food- and water-borne disease']),
+      ]),
+    ],
+  },
+  {
+    id: 'obs', name: 'Pregnancy and childbirth', short: 'OBS', color: '#a05a7a',
+    topics: [
+      topic('Normal pregnancy', [
+        sub('Antenatal physiology and care', ['Maternal adaptation', 'Dating', 'Screening', 'Nutrition']),
+        sub('Foetal development and surveillance', ['Placenta', 'Growth', 'Foetal monitoring']),
+      ]),
+      topic('Early-pregnancy problems', [
+        sub('Pregnancy loss and ectopic pregnancy', ['Miscarriage', 'Ectopic pregnancy']),
+        sub('Gestational trophoblastic disease', ['Molar pregnancy', 'Choriocarcinoma']),
+      ]),
+      topic('Medical disorders in pregnancy', [
+        sub('Hypertensive disease', ['Gestational hypertension', 'Preeclampsia', 'Eclampsia']),
+        sub('Metabolic and hematologic disease', ['Gestational diabetes', 'Anaemia', 'Thrombosis']),
+      ]),
+      topic('Labour and delivery', [
+        sub('Normal labour', ['Stages', 'Monitoring', 'Analgesia']),
+        sub('Operative delivery', ['Instrumental delivery', 'Cesarean section']),
+      ]),
+      topic('Obstetric emergencies', [
+        sub('Haemorrhage', ['Placental abruption', 'Placenta previa', 'Postpartum haemorrhage']),
+        sub('Maternal and fetal compromise', ['Shoulder dystocia', 'Cord prolapse', 'Uterine rupture', 'Foetal distress']),
+      ]),
+      topic('Postpartum care', [
+        sub('Maternal puerperium', ['Infection', 'Thrombosis', 'Mental health', 'Lactation']),
+        sub('Newborn transition', ['Resuscitation', 'Feeding', 'Screening']),
+      ]),
+    ],
+  },
+  {
+    id: 'gyn', name: 'Female reproductive', short: 'GYN', color: '#8a4a6a',
+    topics: [
+      topic('Structure and reproductive physiology', [
+        sub('Pelvic and breast anatomy', ['Pelvic organs', 'Support', 'Breast']),
+        sub('Reproductive physiology', ['Menstrual cycle', 'Puberty', 'Menopause']),
+      ]),
+      topic('Menstrual and endocrine disorders', [
+        sub('Abnormal bleeding', ['Amenorrhea', 'Heavy menstrual bleeding', 'Dysmenorrhea']),
+        sub('Endocrine gynaecology', ['PCOS', 'Hyperprolactinemia', 'Menopause']),
+      ]),
+      topic('Benign gynaecologic disease', [
+        sub('Uterine and ovarian disease', ['Fibroids', 'Endometriosis', 'Ovarian cysts']),
+        sub('Pelvic-floor disease', ['Prolapse', 'Incontinence', 'Fistula']),
+      ]),
+      topic('Infection, fertility and contraception', [
+        sub('Reproductive infection', ['PID', 'Vaginitis', 'STIs']),
+        sub('Fertility and family planning', ['Infertility', 'Contraception', 'Assisted reproduction']),
+      ]),
+      topic('Gynaecologic oncology', [
+        sub('Cervix and uterus', ['Cervical cancer', 'Endometrial cancer']),
+        sub('Ovary and vulva', ['Ovarian cancer', 'Vulvar cancer']),
+      ]),
+      topic('Breast disease', [
+        sub('Benign breast disease', ['Mastalgia', 'Fibroadenoma', 'Infection']),
+        sub('Breast cancer', ['Screening', 'Diagnosis', 'Staging', 'Treatment']),
+      ]),
+      topic('Gynaecologic skills and procedures', [
+        sub('Assessment', ['Pelvic history', 'Speculum exam', 'Bimanual exam', 'Breast exam']),
+        sub('Procedures', ['Cervical sampling', 'Contraceptive procedures', 'Gynaecologic imaging']),
+      ]),
+    ],
+  },
+  {
+    id: 'androl', name: 'Male reproductive', short: 'AND', color: '#4a6a8a',
+    topics: [
+      topic('Andrological structure and reproductive physiology', [
+        sub('Male genital anatomy', ['Testis', 'Epididymis', 'Prostate', 'Penis']),
+        sub('Andrological reproductive physiology', ['Spermatogenesis', 'Androgens', 'Sexual function']),
+      ]),
+      topic('Andrology and sexual medicine', [
+        sub('Infertility', ['Semen disorders', 'Varicocele', 'Endocrine causes']),
+        sub('Sexual dysfunction', ['Erectile dysfunction', 'Ejaculatory disorders']),
+      ]),
+      topic('Infection and inflammation', [
+        sub('Urethral and testicular infection', ['Urethritis', 'Epididymitis', 'Orchitis']),
+        sub('Prostatic inflammation', ['Acute prostatitis', 'Chronic prostatitis']),
+      ]),
+      topic('Prostate disease', [
+        sub('Benign disease', ['BPH', 'Lower urinary tract symptoms']),
+        sub('Prostate cancer', ['Screening', 'Diagnosis', 'Staging', 'Management']),
+      ]),
+      topic('Testicular and penile disease', [
+        sub('Testicular disorders', ['Torsion', 'Hydrocele', 'Testicular cancer']),
+        sub('Penile disorders', ['Phimosis', 'Peyronie disease', 'Penile cancer']),
+      ]),
+      topic('Male reproductive skills', [
+        sub('Examination', ['Genital exam', 'Prostate exam', 'Hernia exam']),
+        sub('Interpretation and procedures', ['Semen analysis', 'Scrotal ultrasound', 'Catheterization']),
+      ]),
+    ],
+  },
+  {
+    id: 'psy', name: 'Behavioural health', short: 'PSY', color: '#6a5a3f',
+    topics: [
+      topic('Psychiatric assessment', [
+        sub('Mental-state examination', ['Appearance', 'Speech', 'Mood', 'Thought', 'Perception', 'Cognition']),
+        sub('Risk assessment', ['Suicide', 'Violence', 'Safeguarding', 'Capacity']),
+      ]),
+      topic('Mood and anxiety disorders', [
+        sub('Depressive and bipolar disorders', ['Major depression', 'Bipolar disorder', 'Postpartum mood']),
+        sub('Anxiety and trauma disorders', ['GAD', 'Panic', 'OCD', 'PTSD']),
+      ]),
+      topic('Psychotic disorders', [
+        sub('Primary psychosis', ['Schizophrenia', 'Schizoaffective disorder']),
+        sub('Secondary psychosis', ['Substances', 'Medical causes', 'Delirium']),
+      ]),
+      topic('Substance use and addiction', [
+        sub('Alcohol and sedatives', ['Intoxication', 'Withdrawal', 'Treatment']),
+        sub('Opioids and stimulants', ['Intoxication', 'Withdrawal', 'Harm reduction']),
+      ]),
+      topic('Neurodevelopmental and cognitive disorders', [
+        sub('Child and adolescent disorders', ['ADHD', 'Autism', 'Conduct disorders']),
+        sub('Cognitive disorders', ['Delirium', 'Dementia', 'Amnestic syndromes']),
+      ]),
+      topic('Other behavioural disorders', [
+        sub('Eating and somatic disorders', ['Anorexia', 'Bulimia', 'Somatic symptoms']),
+        sub('Personality, sleep and sexual health', ['Personality disorders', 'Insomnia', 'Sexual dysfunction']),
+      ]),
+    ],
+  },
+  {
+    id: 'derm', name: 'Skin', short: 'DERM', color: '#a06a4a',
+    topics: [
+      topic('Dermatologic assessment', [
+        sub('Lesion morphology', ['Primary lesions', 'Secondary changes', 'Distribution']),
+        sub('Common presentations', ['Rash', 'Pruritus', 'Ulcer', 'Pigment change']),
+      ]),
+      topic('Inflammatory skin disease', [
+        sub('Eczematous and papulosquamous disease', ['Atopic dermatitis', 'Contact dermatitis', 'Psoriasis']),
+        sub('Acneiform and follicular disease', ['Acne', 'Rosacea', 'Hidradenitis']),
+      ]),
+      topic('Skin infection and infestation', [
+        sub('Bacterial and viral disease', ['Cellulitis', 'Impetigo', 'Herpes', 'Warts']),
+        sub('Fungal and parasitic disease', ['Dermatophytes', 'Candida', 'Scabies', 'Lice']),
+      ]),
+      topic('Autoimmune and blistering disease', [
+        sub('Blistering disorders', ['Pemphigus', 'Pemphigoid', 'Dermatitis herpetiformis']),
+        sub('Connective-tissue manifestations', ['Lupus', 'Dermatomyositis', 'Scleroderma']),
+      ]),
+      topic('Skin tumours', [
+        sub('Benign and premalignant lesions', ['Nevi', 'Keratoses']),
+        sub('Skin cancer', ['Melanoma', 'Basal cell carcinoma', 'Squamous cell carcinoma']),
+      ]),
+      topic('Wounds, burns, hair and nails', [
+        sub('Wounds and burns', ['Pressure injury', 'Burn assessment', 'Wound healing']),
+        sub('Appendage disorders', ['Alopecia', 'Nail disorders']),
+      ]),
+    ],
+  },
+  {
+    id: 'mul', name: 'Multisystem and emergencies', short: 'MUL', color: '#8a3f3f',
+    topics: [
+      topic('Acute deterioration', [
+        sub('ABCDE assessment', ['Airway', 'Breathing', 'Circulation', 'Disability', 'Exposure']),
+        sub('Shock and resuscitation', ['Hypovolemic', 'Cardiogenic', 'Distributive', 'Obstructive']),
+      ]),
+      topic('Sepsis and organ failure', [
+        sub('Sepsis syndromes', ['Recognition', 'Initial management', 'Source control']),
+        sub('Multiple organ failure', ['Respiratory', 'Renal', 'Cardiovascular', 'Neurologic']),
+      ]),
+      topic('Trauma', [
+        sub('Primary and secondary survey', ['Airway', 'Chest', 'Abdomen', 'Pelvis', 'Neurologic']),
+        sub('Specific trauma', ['Head injury', 'Spinal injury', 'Burns', 'Haemorrhage']),
+      ]),
+      topic('Toxicology and environmental medicine', [
+        sub('Poisoning', ['Paracetamol', 'Organophosphate', 'Opioid', 'Corrosives']),
+        sub('Environmental emergencies', ['Heat illness', 'Drowning', 'Envenomation', 'Electrical injury']),
+      ]),
+      topic('Oncology principles', [
+        sub('Cancer diagnosis and staging', ['Screening', 'Biopsy', 'TNM', 'Performance status']),
+        sub('Cancer treatment and emergencies', ['Chemotherapy', 'Radiotherapy', 'Neutropenic sepsis', 'Cord compression', 'TLS']),
+      ]),
+      topic('Perioperative and critical care', [
+        sub('Perioperative medicine', ['Risk assessment', 'Fluids', 'Analgesia', 'Complications']),
+        sub('Critical-care support', ['Oxygen', 'Ventilation', 'Vasopressors', 'Nutrition']),
+        sub('Anaesthesia', ['Preoperative preparation', 'Airway and ventilation', 'General and regional techniques', 'Monitoring and recovery']),
+      ]),
+      topic('Pain, palliative and end-of-life care', [
+        sub('Pain management', ['Assessment', 'Non-opioids', 'Opioids', 'Neuropathic pain']),
+        sub('Palliative care', ['Symptom control', 'Goals of care', 'End-of-life communication']),
+      ]),
+    ],
+  },
+  {
+    id: 'pop', name: 'Population health', short: 'POP', color: '#3f6a6a',
+    topics: [
+      topic('Epidemiology', [
+        sub('Disease frequency and association', ['Incidence', 'Prevalence', 'Risk', 'Odds']),
+        sub('Study designs', ['Cross-sectional', 'Case-control', 'Cohort', 'Trial']),
+      ]),
+      topic('Biostatistics', [
+        sub('Descriptive statistics', ['Central tendency', 'Variation', 'Distribution']),
+        sub('Inference and interpretation', ['Confidence intervals', 'p values', 'Power', 'Regression']),
+      ]),
+      topic('Evidence-based medicine', [
+        sub('Clinical questions and searching', ['PICO', 'Search strategy', 'Evidence hierarchy']),
+        sub('Critical appraisal', ['Bias', 'Confounding', 'Validity', 'GRADE']),
+      ]),
+      topic('Screening and prevention', [
+        sub('Screening tests', ['Sensitivity', 'Specificity', 'Predictive values', 'ROC']),
+        sub('Prevention programs', ['Vaccination', 'Cancer screening', 'Risk reduction']),
+      ]),
+      topic('Health systems and patient safety', [
+        sub('Quality and safety', ['Human factors', 'Incident reporting', 'Quality improvement methods', 'Infection control']),
+        sub('Health-service delivery', ['Primary care', 'Referral', 'Resource allocation', 'Universal coverage']),
+        sub('Digital health and clinical information', ['Electronic health records', 'Telemedicine and virtual care', 'Clinical decision support and health AI', 'Data privacy and cybersecurity']),
+      ]),
+      topic('Ethics, law and professionalism', [
+        sub('Ethical practice', ['Consent', 'Capacity', 'Confidentiality', 'Shared decisions']),
+        sub('Professional duties', ['Boundaries', 'Duty of candour', 'Documentation', 'Social media']),
+      ]),
+      topic('Community, occupational and environmental health', [
+        sub('Community medicine', ['Social determinants', 'Health promotion', 'Maternal and child health']),
+        sub('Occupational and environmental health', ['Work hazards', 'Air and water', 'Climate', 'Disaster health']),
+        sub('Global health and health equity', ['Health inequity and social determinants', 'Migration and refugee health', 'Global disease threats and One Health', 'Humanitarian health']),
+      ]),
+    ],
+  },
 ]
 
 function buildSystem(seed: SystemSeed): CurriculumSystem {

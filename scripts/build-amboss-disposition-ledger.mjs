@@ -24,8 +24,10 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-import { MEDICAL_TAXONOMY_SEED, MEDICAL_TAXONOMY_INDEX } from '../src/data/medicalLibraryTaxonomy.ts'
-import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
+import {
+  norm, stem, tokens, bestTokenMatch, canonicalByTitle, canonicalByStem, runtimeByTitle, isUnder,
+  MEDICAL_TAXONOMY_SEED, MEDICAL_TAXONOMY_INDEX, CURRICULUM_CATALOG,
+} from './lib/taxonomy-match.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const root = join(here, '..')
@@ -45,130 +47,6 @@ export const DISPOSITIONS = [
   'already covered under a different Synapse label',
   'unresolved; requires qualified curriculum or faculty evidence',
 ]
-
-/* ---- normalisation ------------------------------------------------------ */
-
-/**
- * US → British medical spelling.
- *
- * AMBOSS is written in US English and Synapse in British. Without this every
- * "Hematology" would read as a gap beside "Haematology", which would be 100+
- * false positives in a ledger whose whole job is to be trustworthy.
- */
-const SPELLING = [
-  [/\bhemat/g, 'haemat'], [/\bhemo/g, 'haemo'], [/hemorrhag/g, 'haemorrhag'], [/hemolyt/g, 'haemolyt'],
-  [/anemia/g, 'anaemia'], [/anemic/g, 'anaemic'], [/ischemi/g, 'ischaemi'], [/leukemi/g, 'leukaemi'],
-  [/edema/g, 'oedema'], [/esophag/g, 'oesophag'], [/diarrhea/g, 'diarrhoea'], [/gonorrhea/g, 'gonorrhoea'],
-  [/pediatric/g, 'paediatric'], [/anesthe/g, 'anaesthe'], [/gynecol/g, 'gynaecol'], [/orthoped/g, 'orthopaed'],
-  [/celiac/g, 'coeliac'], [/estrogen/g, 'oestrogen'], [/tumor/g, 'tumour'], [/behavior/g, 'behaviour'],
-  [/\bfeces/g, 'faeces'], [/dyspnea/g, 'dyspnoea'], [/apnea/g, 'apnoea'], [/cyanotic/g, 'cyanotic'],
-  [/orthopnea/g, 'orthopnoea'], [/etiolog/g, 'aetiolog'], [/pediatr/g, 'paediatr'], [/hyperemia/g, 'hyperaemia'],
-]
-
-const norm = (value) => {
-  let out = (value ?? '').toLowerCase().replace(/[‐-―]/g, '-')
-  for (const [from, to] of SPELLING) out = out.replace(from, to)
-  return out.replace(/[^a-z0-9]+/g, ' ').trim()
-}
-
-/** Drop the plural and the leading article, so "Skin tumours" ≈ "Skin tumour". */
-const stem = (value) => norm(value).split(' ').map((word) => word.replace(/ies$/, 'y').replace(/s$/, '')).join(' ')
-
-/**
- * Words that carry no discriminating meaning in a taxonomy label.
- *
- * Without these dropped, "Blood system" and "Nervous system" share a token and
- * every branch looks related to every other. With them dropped, a match means
- * the two labels are actually about the same thing.
- */
-const STOPWORDS = new Set([
-  'and', 'or', 'of', 'the', 'in', 'to', 'a', 'an', 'general', 'other', 'related', 'relevant',
-  'system', 'systems', 'disorder', 'disorders', 'disease', 'diseases', 'medicine', 'clinical',
-  'principle', 'principles', 'option', 'options', 'basic', 'introduction', 'overview',
-])
-
-const tokens = (value) => new Set(stem(value).split(' ').filter((word) => word && !STOPWORDS.has(word)))
-
-/**
- * How much of the shorter label the two share.
- *
- * Containment rather than Jaccard, because a Synapse node legitimately carries a
- * broader label than the comparator's — "Mood and anxiety disorders" covers
- * "Anxiety disorders" completely, and a symmetric score would under-report that.
- */
-function containment(a, b) {
-  if (!a.size || !b.size) return 0
-  let shared = 0
-  for (const token of a) if (b.has(token)) shared += 1
-  return shared / Math.min(a.size, b.size)
-}
-
-const LEVEL_RANK = { System: 0, Discipline: 0, Domain: 0, Topic: 1, Subtopic: 2, Microtopic: 3 }
-
-/**
- * The best canonical node for a title, optionally restricted to one subtree.
- *
- * Two guards keep this from producing confident nonsense. A single shared token
- * is only trusted when it is the *whole* of both labels — otherwise "General
- * histology" matches "Cardiac anatomy and histology", which is not the same
- * subject. And a broad comparator node is never matched to a Synapse leaf: a
- * top-level branch that resolves to a microtopic means the match is incidental,
- * not real. Ties prefer the shallowest node, because a general label belongs to
- * a general node.
- */
-function bestTokenMatch(title, anchorId, ambossDepth, anchorDivision) {
-  const wanted = tokens(title)
-  if (!wanted.size) return null
-  let best = null
-  for (const node of MEDICAL_TAXONOMY_SEED) {
-    if (anchorId && !isUnder(node.id, anchorId)) continue
-    const theirs = tokens(node.title)
-    let shared = 0
-    for (const token of wanted) if (theirs.has(token)) shared += 1
-    if (!shared) continue
-    // One shared token is only decisive when neither label says anything else.
-    if (shared === 1 && (wanted.size > 1 || theirs.size > 1)) continue
-    if (shared === 1 && [...wanted][0].length < 4) continue
-    const score = containment(wanted, theirs)
-    if (score < 0.6) continue
-    // A shallow comparator branch matching a deep Synapse leaf is an accident of
-    // vocabulary, not a real correspondence: "Red blood cell disorders" belongs
-    // beside "Anaemia and red-cell disorders", not inside transfusion medicine.
-    const rank = LEVEL_RANK[node.level] ?? 3
-    if (rank > ambossDepth) continue
-    const sameDivision = Number(node.division === anchorDivision)
-    const candidate = { node, score, rank, sameDivision }
-    const better = !best
-      || candidate.score > best.score
-      || (candidate.score === best.score && candidate.sameDivision > best.sameDivision)
-      || (candidate.score === best.score && candidate.sameDivision === best.sameDivision && candidate.rank < best.rank)
-    if (better) best = candidate
-  }
-  return best
-}
-
-/* ---- Synapse side ------------------------------------------------------- */
-
-const canonicalByTitle = new Map()
-const canonicalByStem = new Map()
-for (const node of MEDICAL_TAXONOMY_SEED) {
-  const entry = { id: node.id, title: node.title, division: node.division, level: node.level, rank: LEVEL_RANK[node.level] ?? 3 }
-  const push = (map, key) => map.set(key, [...(map.get(key) ?? []), entry])
-  push(canonicalByTitle, norm(node.title))
-  push(canonicalByStem, stem(node.title))
-}
-
-const runtimeByTitle = new Map()
-for (const system of CURRICULUM_CATALOG) {
-  runtimeByTitle.set(norm(system.name), { id: system.id, level: 'system' })
-  for (const topic of system.topics) {
-    runtimeByTitle.set(norm(topic.title), { id: topic.id, level: 'topic' })
-    for (const sub of topic.subs) runtimeByTitle.set(norm(sub.title), { id: sub.id, level: 'subtopic' })
-  }
-}
-
-const isUnder = (nodeId, ancestorId) =>
-  MEDICAL_TAXONOMY_INDEX.lineage(nodeId).some((entry) => entry.id === ancestorId)
 
 /* ---- hand-authored root dispositions ------------------------------------ */
 

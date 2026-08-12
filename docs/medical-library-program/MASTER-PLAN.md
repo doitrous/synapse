@@ -19,87 +19,80 @@ starts here and ends here. Nothing below depends on any chat transcript.
 
 | | |
 |---|---|
-| **Overall status** | Phase 0 complete. Phase 1 in progress — the AMBOSS comparison is done and found no node-level gaps |
-| **Active phase** | Phase 1 — validate and refine the structure against AMBOSS |
-| **Active system** | None. Systems start after `GATE-TAX-001` |
-| **Active task ID** | `TAX-GAP-001` (Not started) |
+| **Overall status** | Phases 0 and 1 complete. Phase 2 ready — system-by-system content work |
+| **Active phase** | Phase 2 — article & concept programme, starting at `SYS-FND` |
+| **Active system** | `SYS-FND` Foundations & General Principles (system 1 of 19) |
+| **Active task ID** | `SYS-FND-INVENTORY-001` (Not started) |
 | **Last verified commit** | `781558b` — *Write the medical-library programme plan, and its 19 system plans* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (`TAX-COMPARE-001` complete) |
+| **Last update** | 2026-08-12 (Phase 1 complete — `GATE-TAX-001` passed) |
 
 ### Gate status
 
 | Gate | Status |
 |---|---|
 | `GATE-PLATFORM-001` | **Passed** 2026-08-12 — all eight platform blockers closed, all acceptance commands green (§0D) |
-| `GATE-TAX-001` | Not started — blocks all Phase 2 content authoring |
+| `GATE-TAX-001` | **Passed** 2026-08-12 — two independent comparisons found no gaps; the runtime tree now carries all 19 systems |
 | `GATE-LIBRARY-001` | Not started |
 | `GATE-ASSESS-001` | Not started |
 
 ## 2. Start here next
 
-> **Task `TAX-GAP-001` — Test the "no gaps" finding against the local curriculum.**
+> **Task `SYS-FND-INVENTORY-001` — Classify every `SYS-FND` node and build its disposition ledger.**
 
-**Why this, and why it is not what the plan originally said.** `TAX-COMPARE-001`
-disposed of all 644 in-scope AMBOSS nodes and proposed **zero** gaps: every
-comparator branch already maps to a Synapse node, is a presentation facet, or is
-out of scope. The original `TAX-GAP-001` assumed a gap list to triage. There
-isn't one — so the honest next question is whether the taxonomy is missing
-anything that a *US-oriented comparator would never have shown*. Under `LD-08`
-the university corpus, not AMBOSS, is the authority on local curriculum
-emphasis, and under `LD-14` the processed 27.7% is what we work from.
+Both blocking gates have passed. Phase 2 runs the 19 systems in the locked order
+(`LD-09`), and `SYS-FND` is first because its `prerequisite_of` edges define the
+learning order for the whole library.
 
-**Objective.** Extract the topic vocabulary actually taught in the 765 processed
-corpus files, and test it against the 1,883 canonical nodes. Produce a gap list
-whose evidence is a local curriculum artifact, not a comparator.
+**Objective.** Assign every one of the 74 `SYS-FND` nodes exactly one
+classification — `navigation-only hub`, `overview article`, `atomic article
+home`, `secondary placement only`, or `empty but legitimate planned
+destination` — and record a disposition for the 5 articles and 45 concepts that
+currently touch the system.
 
-**Non-goals.** Do not change the taxonomy — that is `TAX-PATCH-001`. Do not
-author content. Do not treat a corpus record in `semantic_analysis_pending`,
-`explicit_blocker` or `candidate_retracted_do_not_rely` as evidence.
+**Non-goals.** Do not author any article, concept or relation. Do not change the
+taxonomy. Do not publish.
 
 **Files to read first**
 
 ```
-docs/medical-library-program/evidence/amboss-disposition-ledger.md    what the comparison already settled
-docs/medical-library-program/evidence/taxonomy-gap-list.json          the 299 granularity calls
-/Users/doitrous/Downloads/Resources Digestion Current aug 7/_coordination/current-taxonomy-progress.json
-/Users/doitrous/Downloads/Resources Digestion Current aug 7/_blueprint_work/library_analysis.json
-/Users/doitrous/Downloads/Resources Digestion Current aug 7/01-explicitly-taught/**/taxonomy.json
-src/data/medicalLibraryTaxonomy.ts
+docs/medical-library-program/systems/SYS-FND.md                     the system plan
+docs/medical-library-program/evidence/curriculum-gap-list.json      995 below-floor labels; filter to SYS-FND
+src/data/articleTemplates.ts                                        the section contract per archetype
+server/data/medical-library-v1.json                                 the existing records
 ```
 
 **Files to write**
 
 ```
-scripts/build-curriculum-gap-list.mjs                                 the generator
-docs/medical-library-program/evidence/curriculum-gap-list.json        candidates with local evidence
-docs/medical-library-program/evidence/curriculum-gap-list.md          the readable finding
+docs/medical-library-program/evidence/SYS-FND-node-classification.json
+docs/medical-library-program/evidence/SYS-FND-disposition-ledger.json
 ```
 
-**Method.** Walk only `taxonomy.json` artifacts whose file is
-`semantic_processing_complete_review_required`. For each distinct taught topic
-label, find its best canonical match using the same normalisation the AMBOSS
-ledger uses (reuse it — do not write a second matcher). A label with no match is
-a candidate; record its source-relative path, resource ID, exact locator and the
-file's review state alongside it, so the evidence travels with the claim. Assign
-a confidence band. A candidate supported by one unreviewed extraction is `low`
-and stays a candidate.
+**Method.** Walk the 6 topics, 15 subtopics and 53 microtopics. A topic is a hub
+unless an overview genuinely teaches something its children do not (`LD-04`). A
+microtopic is an atomic article home only when it is a distinct, reusable,
+studiable unit. Cross-reference the curriculum gap list for what the corpus
+actually teaches under foundational subjects, so the catalogue reflects local
+emphasis rather than an idealised syllabus.
+
+**Also count** how many of the 62 `subjectId: "medical"` articles and 736 such
+concepts (`BLK-09`) belong to this system, and plan their repair.
 
 **Command**
 
 ```bash
-node --experimental-strip-types scripts/build-curriculum-gap-list.mjs
-npm run medical:validate:taxonomy
+npm run medical:audit
 ```
 
-**Expected output.** Both files exist. Every candidate carries a local source
-locator. The taxonomy validator still passes — this task writes no change.
+**Expected output.** Both files exist; every node has one classification with a
+one-line rationale; every existing record has a disposition with a reason; the
+audit still passes unchanged.
 
-**Stop condition.** Both files exist and §5's Phase 1 row is updated. Then set
-`TAX-GAP-001` to `Done`, record the commit, and set the active task to
-`TAX-PATCH-001` — or, if there are no candidates worth acting on, straight to
-`TAX-RUNTIME-001`, which `LD-13` says is one migration from 8 subjects to 19.
+**Stop condition.** Both files written and §2, §5, §6 of `systems/SYS-FND.md`
+updated with the decided figures. Then set `SYS-FND-INVENTORY-001` to `Done` and
+the active task to `SYS-FND-SOURCE-001`.
 
 ## 3. Locked decisions
 
@@ -169,8 +162,8 @@ Status values: `Not started` · `In progress` · `Blocked` · `Done` · `Superse
 | Phase | Status | Blocker | Next task |
 |---|---|---|---|
 | **Phase 0** — Platform readiness | **Done** 2026-08-12 | — | — |
-| **Phase 1** — Structure validation vs AMBOSS | **In progress** — `TAX-COMPARE-001` done | — | `TAX-GAP-001` |
-| **Phase 2** — Article & concept programme (19 systems) | Blocked | `GATE-TAX-001` | `SYS-FND-ARTICLE-001` |
+| **Phase 1** — Structure validation | **Done** 2026-08-12 | — | — |
+| **Phase 2** — Article & concept programme (19 systems) | **Ready** | — | `SYS-FND-INVENTORY-001` |
 | **Phase 3** — Library Completion Gate | Blocked | all `GATE-SYS-*` | `GATE-LIBRARY-001` |
 | **Phase 4** — Assessment programme | Blocked | `GATE-LIBRARY-001` | `ASSESS-PLAN-001` |
 
@@ -445,6 +438,61 @@ Append-only.
 | 2026-08-12 | Phase 0 implementation | Closed platform blockers `BLK-01`–`BLK-08`. Answered all six open questions as `LD-11`–`LD-16`. **`GATE-PLATFORM-001` passed.** No medical content was authored, imported or published. | uncommitted — the working tree holds the Phase 0 change set | `medical:validate:authoring` pass · `medical:validate:taxonomy` pass · `medical:build` + `medical:audit` pass, `errors: []` · `medical:parity` `gapCount: 0` · `npm test` **102/102** · `tsc -b` clean · `lint` clean · `build` succeeds | See "Phase 0 outputs" below | Commit the change set; run `TAX-COMPARE-001` |
 
 | 2026-08-12 | `TAX-COMPARE-001` | Compared the canonical taxonomy, the runtime tree and the AMBOSS hierarchy. Disposed of all 644 in-scope comparator nodes. **No node-level gap found.** No taxonomy change made. | uncommitted | `medical:validate:taxonomy` pass · `medical:validate:authoring` pass (unchanged — this task writes no taxonomy) | `evidence/amboss-disposition-ledger.{json,md}`, `evidence/taxonomy-gap-list.json`, `scripts/build-amboss-disposition-ledger.mjs` | Run `TAX-GAP-001` against the local corpus, since a US comparator cannot reveal an Egyptian-curriculum gap |
+
+| 2026-08-12 | `TAX-GAP-001` | Asked the same question of the local corpus that AMBOSS could not answer: 262 processed files, 110,850 concept records, 10,743 distinct curriculum labels. **Zero labels need a curriculum decision.** | uncommitted | `medical:validate:taxonomy` pass (unchanged — writes no taxonomy) | `evidence/curriculum-gap-list.{json,md}`, `scripts/build-curriculum-gap-list.mjs`, `scripts/lib/taxonomy-match.mjs` | Runtime expansion |
+| 2026-08-12 | `TAX-RUNTIME-001` | Expanded the runtime student tree from 8 subjects to all 19 canonical systems in one migration (`LD-13`). 630 → 1,398 curriculum nodes; 81 → 154 mapped topics; 0 duplicate labels. **`GATE-TAX-001` passed.** | uncommitted | `medical:validate:authoring` pass · `medical:validate:taxonomy` pass · `medical:build` + `medical:audit` pass · 102/102 tests · typecheck, lint, build clean | `src/data/curriculumCatalog.ts`, `src/data/taxonomyCrosswalk.ts` | Start `SYS-FND-INVENTORY-001` |
+
+### `TAX-GAP-001` finding (2026-08-12)
+
+The AMBOSS comparison could only prove Synapse covers a US comparator. This asked
+the question that matters: does the corpus teach anything the taxonomy lacks?
+
+| | |
+|---|---:|
+| Processed files read | 262 of 3,238 |
+| Concept records | 110,850 |
+| Distinct curriculum labels (source headings dropped) | 10,743 |
+| Covered by a canonical node | 4,918 |
+| Not covered, taught in 2+ sources | 995 |
+| — already inside a canonical root (granularity, not a gap) | 995 |
+| — **needing a curriculum decision** | **0** |
+
+Two independent comparisons — a US comparator and the local corpus — both find
+no missing node. That is the evidence behind `GATE-TAX-001`.
+
+Four labels needed a human decision and are written down so they are not
+re-investigated: *Neuroscience* is the corpus's course name for `SYS-NEU`;
+*Clinical Medicine* maps to `DIS-MED`; *HSV, VZV* is an abbreviation pair covered
+by `SYS-INF-T02`; and *Medical Education* is curriculum administration, not
+medical subject matter, and is deliberately outside the library.
+
+Fixing the matcher mattered more than the filtering. The first run reported
+*Histology* (31 sources) and *Medical Biochemistry* (8) as gaps because a
+single-token guard rejected "Histology" ≈ "Histology & Cell Biology". Removing
+the guard and relying on division and rank preference instead lifted subject-level
+coverage from 51/98 to 84/93 and cut the AMBOSS ledger's low-confidence rows from
+299 to 91.
+
+### `TAX-RUNTIME-001` (2026-08-12)
+
+The runtime tree carried 7 of the 19 canonical systems plus pharmacology, so 12
+systems had no student-facing route at all. All 12 are added in one migration
+(`LD-13`), generated from the canonical taxonomy rather than hand-typed.
+
+| | Before | After |
+|---|---:|---:|
+| Runtime subjects | 8 | 20 (19 systems + pharmacology) |
+| Curriculum nodes | 630 | 1,398 |
+| Distinct labels | 582 | 812 |
+| Mapped topics | 81 | 154 |
+| Duplicate labels | 0 | 0 |
+
+Two things the generation had to get right. Canonical topic titles repeat across
+systems — a dozen roots have a "Structure and function" — so a colliding label is
+prefixed with the system's adjective ("Immunological structure and function"),
+keeping the one-label-one-home rule the validator enforces. And the canonical
+tree carries US spellings from the supplied blueprint, so every generated runtime
+label is converted to British spelling before it reaches a student.
 
 ### `TAX-COMPARE-001` finding (2026-08-12)
 

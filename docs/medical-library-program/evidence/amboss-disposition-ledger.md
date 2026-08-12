@@ -19,8 +19,8 @@ The five out-of-scope roots are not walked at all:
 
 | Disposition | Nodes |
 |---|---:|
-| already covered under a different Synapse label | 432 |
-| secondary placement or cross-reference | 126 |
+| already covered under a different Synapse label | 307 |
+| secondary placement or cross-reference | 251 |
 | metadata/filter, not a node | 64 |
 | alias/spelling variant | 9 |
 | useful rename or split | 6 |
@@ -36,12 +36,12 @@ covers the comparator at undergraduate depth.
 
 | Rule | Nodes | What it means |
 |---|---:|---|
-| `rule:below-floor` | 299 | Inside the right Synapse root, finer than its floor — granularity is an LD-04 call |
-| `rule:token-elsewhere` | 75 | Same subject, covered in another Synapse view |
+| `rule:token-elsewhere` | 200 | Same subject, covered in another Synapse view |
+| `rule:token-in-anchor` | 127 | Same subject under a broader or narrower label, inside the mapped branch |
+| `rule:below-floor` | 91 | Inside the right Synapse root, finer than its floor — granularity is an LD-04 call |
 | `rule:facet` | 63 | A discipline lens AMBOSS repeats under many systems, not subject matter |
 | `hand` | 55 | Decided by hand (every depth-1 branch) |
 | `rule:exact-elsewhere` | 49 | Exact title match, but in another Synapse view |
-| `rule:token-in-anchor` | 44 | Same subject under a broader or narrower label, inside the mapped branch |
 | `rule:exact-in-anchor` | 43 | Exact title match inside the mapped Synapse branch |
 | `rule:spelling` | 9 | US spelling or plural of a Synapse node |
 | `rule:runtime` | 7 | Already declared in the runtime curriculum tree |
@@ -51,15 +51,15 @@ covers the comparator at undergraduate depth.
 | Confidence | Nodes | Meaning |
 |---|---:|---|
 | high | 211 | Decided by hand, by exact match, or as a known facet |
-| medium | 134 | Matched by label overlap; the root is right, the exact node is worth a check |
-| low | 299 | Placed in the right root, but finer than the Synapse floor — the granularity call belongs to LD-04 |
+| medium | 342 | Matched by label overlap; the root is right, the exact node is worth a check |
+| low | 91 | Placed in the right root, but finer than the Synapse floor — the granularity call belongs to LD-04 |
 
-All 299 low-confidence rows are listed in `taxonomy-gap-list.json` for
+All 91 low-confidence rows are listed in `taxonomy-gap-list.json` for
 `TAX-GAP-001`. They are **not** proposed gaps: each already has a Synapse root,
 and what remains is a granularity judgement under LD-04 — whether the subject
 earns its own article, an overview, or nothing beyond its parent.
 
-The 134 medium-confidence rows are decided, but their exact target node is
+The 342 medium-confidence rows are decided, but their exact target node is
 worth a check when the owning system reaches its `INVENTORY-001` task.
 
 ## The 19-vs-19 finding
