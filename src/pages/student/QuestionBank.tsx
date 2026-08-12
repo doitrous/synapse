@@ -20,7 +20,7 @@ import {
   Flag,
   TrendingDown,
 } from 'lucide-react'
-import type { Question } from '@/data/qbank'
+import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
 import { dueReviews, getSubject } from '@/data/student'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -94,7 +94,7 @@ export function QuestionBank() {
   const presetCounts = useMemo(() => ({
     weak: questions.filter((question) => ['renal', 'pharm', 'endo'].includes(question.subjectId)).length,
     emergency: questions.filter((question) => /acute|STEMI|acidosis|hypox/i.test(`${question.topic} ${question.vignette} ${question.stem}`)).length,
-    demanding: questions.filter((question) => question.difficulty === 'Hard' || question.difficulty === 'Moderate').length,
+    demanding: questions.filter((question) => DEMANDING_DIFFICULTIES.includes(question.difficulty)).length,
     everything: questions.length,
   }), [questions])
 
@@ -135,7 +135,7 @@ export function QuestionBank() {
       : kind === 'emergency'
         ? questions.filter((question) => /acute|STEMI|acidosis|hypox/i.test(`${question.topic} ${question.vignette} ${question.stem}`))
         : kind === 'demanding'
-          ? questions.filter((question) => question.difficulty === 'Hard' || question.difficulty === 'Moderate')
+          ? questions.filter((question) => DEMANDING_DIFFICULTIES.includes(question.difficulty))
           : questions
     const picked = shuffle(pool.length ? pool : questions).slice(0, Math.min(count, pool.length || questions.length))
     setSession(picked)

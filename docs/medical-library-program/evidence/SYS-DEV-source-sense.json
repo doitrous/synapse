@@ -1,0 +1,351 @@
+{
+ "system": "SYS-DEV",
+ "nodes": 20,
+ "suspect": 19,
+ "report": [
+  {
+   "nodeId": "SYS-DEV-T01-S01-M01",
+   "title": "Growth",
+   "localRecords": 246,
+   "topPlannedFile": "4. Alexandria Uni Books/Physio practical EGU 2021 - 2022.pdf",
+   "candidatesMentioningLabel": 530,
+   "collectionsSpanned": 10,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "1) Gigantism (Excess GH secretion before adolescence) Cause: It is caused by excess growth hormone secretion before adolescence i.",
+    "2) Acromegaly (Excess GH secretion after adolescence) Cause: It is caused by excess growth hormone secretion after adolescence i.e",
+    "It can cause disproportionate growth of the thickness of the long bones & continue growth of the membranous bones, which have no e",
+    "She asked for medical help. normal age but his growth is proportionate, he asked for a Growth hormone blood level test, blood suga"
+   ],
+   "elsewhere": [
+    "Anatomy SD General Embryology Sameh Doss.pdf — as compared to the slow rate of growth of the embryonic disc",
+    "Anatomy SD General Embryology Sameh Doss.pdf — N.B: during the 2nd week the trophoblast shows a rapid rate of growth",
+    "Anatomy SD General Embryology Sameh Doss.pdf — arrest of the growth of developing organs leading to incomplete formation (hypogeness)",
+    "Anatomy SD General Embryology Sameh Doss.pdf — (I) differential growth in the embryonic disc: the Central (axial)"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S01-M03",
+   "title": "Nutrition",
+   "localRecords": 19,
+   "topPlannedFile": "4. Alexandria Uni Books/GIT system 2021 - 2022.pdf",
+   "candidatesMentioningLabel": 36,
+   "collectionsSpanned": 6,
+   "topFileSpeaksAboutLabel": false,
+   "fromTopFile": [],
+   "elsewhere": [
+    "Anatomy_Basis_Sameh_Doss.pdf — nutrition of the neurones",
+    "Anatomy_Basis_Sameh_Doss.pdf — nutrition",
+    "OPH 331 Book.pdf — aqueous humor in its nutrition and metabolism",
+    "OPH 331 Book.pdf — aqueous humor, which provides nutrition for the posterior"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S01-M04",
+   "title": "Screening",
+   "localRecords": 33,
+   "topPlannedFile": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+   "candidatesMentioningLabel": 80,
+   "collectionsSpanned": 7,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "Evaluate screening tests and programs using source-defined principles",
+    "Periodic health examination combines repeated screening and preventive assessment",
+    "Screening presumptively identifies unrecognized disease or defect using rapid tests",
+    "Screening separates apparently well people by probability; diagnosis establishes disease in individuals"
+   ],
+   "elsewhere": [
+    "FINAL GIT 220 PRACTICAL BOOK 2022.pdf — Serum enzymes  Liver function tests are noninvasive method of screening for the presence of liver d",
+    "Final Theoretical URO Book 2022.pdf — A 25-year-old pregnant woman presents to her obstetrician for routine prenatal screening. History re",
+    "OPH 331 Book.pdf — Hence, screening the corneas with",
+    "OPH 331 Book.pdf — infections, so it is used in screening but not for follow"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S02-M01",
+   "title": "Puberty",
+   "localRecords": 32,
+   "topPlannedFile": "0. General/Anatomy SD General Embryology Sameh Doss.pdf",
+   "candidatesMentioningLabel": 94,
+   "collectionsSpanned": 8,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "of the bestis starting from puberty till od age",
+    "-At puberty, each ovary contains about 40000",
+    "i.e starting from puberty (11-14 years) &ending at menopause",
+    "period which slarts at puberty (11-14 years) & ends at menopause (40-45 years)"
+   ],
+   "elsewhere": [
+    "Anatomy SD General Embryology Sameh Doss.pdf — of the bestis starting from puberty till od age",
+    "Anatomy SD General Embryology Sameh Doss.pdf — -At puberty, each ovary contains about 40000",
+    "Anatomy SD General Embryology Sameh Doss.pdf — i.e starting from puberty (11-14 years) &ending at menopause",
+    "Anatomy SD General Embryology Sameh Doss.pdf — period which slarts at puberty (11-14 years) & ends at menopause (40-45 years)"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S02-M02",
+   "title": "Development",
+   "localRecords": 456,
+   "topPlannedFile": "2. Ain Shams Uni Books/Genital searchable.pdf",
+   "candidatesMentioningLabel": 387,
+   "collectionsSpanned": 10,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "Intercellular bridges coordinate germ-cell development and permit cytoplasmic communication among haploid cells",
+    "Androgens support male sexual-organ development, secondary sexual characteristics, spermatogenesis, protein synthesis, and bone an",
+    "In male development, primary sex cords proliferate into medullary or testis cords",
+    "A dense tunica albuginea separates testis cords from surface epithelium and characterizes testicular development"
+   ],
+   "elsewhere": [
+    "Anatomy SD General Embryology Sameh Doss.pdf — development",
+    "Anatomy SD General Embryology Sameh Doss.pdf — Development",
+    "Practical Anatomy Mohey Hulail.pdf — development",
+    "OPH 331 Book.pdf — development"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S02-M03",
+   "title": "Risk behavior",
+   "localRecords": 1,
+   "topPlannedFile": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+   "candidatesMentioningLabel": 0,
+   "collectionsSpanned": 0,
+   "topFileSpeaksAboutLabel": false,
+   "fromTopFile": [],
+   "elsewhere": []
+  },
+  {
+   "nodeId": "SYS-DEV-T01-S02-M04",
+   "title": "Preventive care",
+   "localRecords": 5,
+   "topPlannedFile": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+   "candidatesMentioningLabel": 2,
+   "collectionsSpanned": 2,
+   "topFileSpeaksAboutLabel": false,
+   "fromTopFile": [],
+   "elsewhere": [
+    "Cvs_part 2.pdf — Primary-care high-risk strategy uses early detection and cardiovascular-risk assessment to target pr",
+    "Orientation book - 2022.pdf — • Obtain a preventive care/personal physician."
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S01-M01",
+   "title": "Lifestyle",
+   "localRecords": 3,
+   "topPlannedFile": "2. Ain Shams Uni Books/Git_part1.pdf",
+   "candidatesMentioningLabel": 19,
+   "collectionsSpanned": 4,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "GERD lifestyle management includes upright posture after meals, head elevation, smaller meals, trigger-food avoidance, and avoidin"
+   ],
+   "elsewhere": [
+    "med-cvs217-p (1).pdf — The patient needs the following lifestyle modifications EXCEPT: a. Weight reduction. b. Diet rich in",
+    "Cvs_part 2.pdf — Smoking cessation, stress reduction, weight reduction, and physical activity are presented as therap",
+    "Cvs_part 2.pdf — Observed CHD increase may reflect better diagnosis, population aging, and survival or a real rise in",
+    "Cvs_part 2.pdf — Lifestyle modification includes smoking cessation, exercise, weight reduction, salt restriction, pot"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T02-S02-M03",
+   "title": "Falls",
+   "localRecords": 5,
+   "topPlannedFile": "6. Fayoum Uni Books/_Neuroscience 2 physiology 2023.pdf",
+   "candidatesMentioningLabel": 103,
+   "collectionsSpanned": 7,
+   "topFileSpeaksAboutLabel": false,
+   "fromTopFile": [],
+   "elsewhere": [
+    "FINAL GIT 220 PRACTICAL BOOK 2022.pdf — In the stomach: a- pH rarely falls below 4.0 b- Pepsinogen is converted to pepsin by HCI c- Ferrous ",
+    "FINAL GIT 220 PRACTICAL BOOK 2022.pdf — In the stomach: a- pH rarely falls below 4.0 b- Pepsinogen is converted to pepsin by HCl c- Ferrous ",
+    "Final Practical URO Book 2022.pdf — The glomerular hydrostatic pressure: a- Increases by afferent arterioles constriction b- Falls along",
+    "OPH 331 Book.pdf — ❖ When light falls on the eye, it causes stimulation of the optic"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S01-M01",
+   "title": "Requirements",
+   "localRecords": 19,
+   "topPlannedFile": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+   "candidatesMentioningLabel": 32,
+   "collectionsSpanned": 8,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "The source gives age- and sex-specific daily iron requirements from 10 to 18 mg/day"
+   ],
+   "elsewhere": [
+    "Anatomy_Basis_Sameh_Doss.pdf — requirements",
+    "BIOCHEMISTRY (CVS) كتاب القسم.pdf — Requirements",
+    "BIOCHEMISTRY (CVS) كتاب القسم.pdf — Requirements",
+    "بايو.pdf — Requirements"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S01-M02",
+   "title": "Deficiency",
+   "localRecords": 177,
+   "topPlannedFile": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+   "candidatesMentioningLabel": 527,
+   "collectionsSpanned": 8,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "Bile salts deficiency (due to obstruction of bile duct)",
+    "Type I: Hyperlipoproteinemias (Familial lipoprotein lipase deficiency)",
+    "Carnitine Palmitoyl transferase I Deficiency",
+    "Pancreatic lipase deficiency (due to atresia or obstruction of pancreatic"
+   ],
+   "elsewhere": [
+    "FINAL GIT 220 PRACTICAL BOOK 2022.pdf — If the ileum of a patient is removed, the following occurs: a- Deficiency of fat content of the stoo",
+    "FINAL GIT 220 THEORITICAL BOOK 2022.pdf — A 7-year-old patient presented with iron deficiency anemia, was suspected to have Trichuris trichiur",
+    "FINAL GIT 220 THEORITICAL BOOK 2022.pdf — In methionine and cysteine (Niacin deficiency) metabolism, its deficiency leads to 4-Homocysteinemia",
+    "Final HIM 110 practical 2022.pdf — All the following conditions are accompanied by excessive bleeding, except: a) Hemophilia b) Thrombo"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S01-M03",
+   "title": "Excess",
+   "localRecords": 10,
+   "topPlannedFile": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+   "candidatesMentioningLabel": 246,
+   "collectionsSpanned": 9,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "excess fructose is lost in urine",
+    "- The excess acetyl CoA is converted to ketone bodies",
+    "mechanism for the elimination of excess cholesterol",
+    "Excess calorie intake: excess calories, either as carbohydrates or fats"
+   ],
+   "elsewhere": [
+    "Anatomy_Basis_Sameh_Doss.pdf — (boyond. excess",
+    "Anatomy_Basis_Sameh_Doss.pdf — above: excess",
+    "Anatomy_Basis_Sameh_Doss.pdf — Absorption of excess interstitial Fluid (lymph) &returning it to the circulation",
+    "Anatomy_Basis_Sameh_Doss.pdf — concerned with the return of lymph (excess interstitial fluid) to the circul"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T03-S02-M01",
+   "title": "Malnutrition",
+   "localRecords": 3,
+   "topPlannedFile": "2. Ain Shams Uni Books/Git_part1.pdf",
+   "candidatesMentioningLabel": 21,
+   "collectionsSpanned": 7,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "Marasmus is the severe wasting, nonedematous extreme of protein-energy malnutrition",
+    "Protein-energy malnutrition is a spectrum of undernutrition with kwashiorkor and marasmus as extreme forms",
+    "Kwashiorkor is the edematous extreme of protein-energy malnutrition with impaired infection resistance",
+    "Chromium deficiency is associated in the source with severe malnutrition, impaired insulin binding, diabetes, and cardiovascular d"
+   ],
+   "elsewhere": [
+    "FINAL GIT 220 PRACTICAL BOOK 2022.pdf — Activity A. Which of the following are cause of hyperproteinemia a. Malnutrition b. Liver disease c.",
+    "Git_part1.pdf — Marasmus is the severe wasting, nonedematous extreme of protein-energy malnutrition",
+    "Git_part1.pdf — Protein-energy malnutrition is a spectrum of undernutrition with kwashiorkor and marasmus as extreme",
+    "Git_part1.pdf — Kwashiorkor is the edematous extreme of protein-energy malnutrition with impaired infection resistan"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T04",
+   "title": "Care of the well patient",
+   "localRecords": 1,
+   "topPlannedFile": "4. Alexandria Uni Books/Orientation book - 2022.pdf",
+   "candidatesMentioningLabel": 0,
+   "collectionsSpanned": 0,
+   "topFileSpeaksAboutLabel": false,
+   "fromTopFile": [],
+   "elsewhere": []
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S01-M03",
+   "title": "Vaccination",
+   "localRecords": 9,
+   "topPlannedFile": "2. Ain Shams Uni Books/Git_part2.pdf",
+   "candidatesMentioningLabel": 63,
+   "collectionsSpanned": 7,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "Anti-HAV IgM diagnoses acute infection, while IgG indicates past infection or vaccination",
+    "HBV vaccination is indicated for blood-exposed personnel, transfusion/hemodialysis recipients, and other high-risk groups",
+    "After percutaneous HBV exposure, prompt HBIG plus vaccine series is described according to vaccination/source status",
+    "Typhoid response includes contact surveillance/carrier search, vaccination, carrier therapy, water chlorination, restaurant sanita"
+   ],
+   "elsewhere": [
+    "FINAL GIT 220 THEORITICAL BOOK 2022.pdf — Active immunization: is a safe and effective mean of preventing HAV infection. Protection from vacci",
+    "Final HIM 110 theoretical 2022.pdf — Personal prophylaxis: Vaccination is under research. TRYPANOSOMES Species pathogenic to man include:",
+    "med-res216-t.pdf — A 7-year-old girl with unknown vaccination history presented to her pediatrician with fever of 38 0C",
+    "CNS searchable.pdf — Rifampin contact prophylaxis and age/vaccination-dependent Hib vaccination are listed for exposed co"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S02-M01",
+   "title": "Family",
+   "localRecords": 1,
+   "topPlannedFile": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+   "candidatesMentioningLabel": 73,
+   "collectionsSpanned": 9,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "Genetic factors: Strong family oncogene (HER2/Neu) is present in some"
+   ],
+   "elsewhere": [
+    "Practical Anatomy Mohey Hulail.pdf — Not genetically similar than any other sibling in the family (can be same or different",
+    "FINAL GIT 220 THEORITICAL BOOK 2022.pdf — done to protect the family members",
+    "Final HIM 110 practical 2022.pdf — Select the drug belonging to anticoagulants of indirect thrombin inhibitor family: a. Aspirin b. Hep",
+    "Final Neuroscience I module theoretical Book 2022.pdf — Tyrosine gives rise to a family of catecholamines that does not include a) Dopamine b) Norepinephrin"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S02-M03",
+   "title": "Work",
+   "localRecords": 63,
+   "topPlannedFile": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+   "candidatesMentioningLabel": 166,
+   "collectionsSpanned": 9,
+   "topFileSpeaksAboutLabel": true,
+   "fromTopFile": [
+    "stiffness and extra work is required to bring in a normal volume of air",
+    "Decrease the work of breathing",
+    "decrease the work of breathing",
+    "To learn the work done during inspiration"
+   ],
+   "elsewhere": [
+    "Anatomy_Basis_Sameh_Doss.pdf — Illowing the Capillary bed to work (Slowin",
+    "Lower Limb.pdf — Both work to evert the foot",
+    "Final HIM 110 practical 2022.pdf — How does serum protein electrophoresis work",
+    "OPH 331 Book.pdf — ❖ Systemic and local work-up to rule out the causes and"
+   ]
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S03-M01",
+   "title": "Function and participation",
+   "localRecords": 98,
+   "topPlannedFile": "6. Fayoum Uni Books/_Neuroscience 2 physiology 2023.pdf",
+   "candidatesMentioningLabel": 0,
+   "collectionsSpanned": 0,
+   "topFileSpeaksAboutLabel": false,
+   "fromTopFile": [],
+   "elsewhere": []
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S03-M02",
+   "title": "Communication and access needs",
+   "localRecords": 17,
+   "topPlannedFile": "4. Alexandria Uni Books/Orientation book - 2022.pdf",
+   "candidatesMentioningLabel": 0,
+   "collectionsSpanned": 0,
+   "topFileSpeaksAboutLabel": false,
+   "fromTopFile": [],
+   "elsewhere": []
+  },
+  {
+   "nodeId": "SYS-DEV-T04-S03-M04",
+   "title": "Caregiver and community support",
+   "localRecords": 344,
+   "topPlannedFile": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+   "candidatesMentioningLabel": 0,
+   "collectionsSpanned": 0,
+   "topFileSpeaksAboutLabel": false,
+   "fromTopFile": [],
+   "elsewhere": []
+  }
+ ]
+}

@@ -1,4 +1,14 @@
-export type Difficulty = 'Easy' | 'Moderate' | 'Hard'
+export type Difficulty = 'Easy' | 'Moderate' | 'Hard' | 'Challenging'
+
+/** The bands in ascending order of demand, for anything that has to rank them. */
+export const DIFFICULTIES: readonly Difficulty[] = ['Easy', 'Moderate', 'Hard', 'Challenging']
+
+/**
+ * `Hard` and `Challenging` both mean "expect most students to miss this". They
+ * are separated because the intent differs: `Hard` is a concept a strong student
+ * gets right, `Challenging` needs several steps held at once.
+ */
+export const DEMANDING_DIFFICULTIES: readonly Difficulty[] = ['Moderate', 'Hard', 'Challenging']
 
 export interface QOption {
   text: string

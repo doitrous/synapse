@@ -1,5 +1,6 @@
 import type { Status } from './admin.ts'
 import type { ConceptAnnotation } from './conceptGraph.ts'
+import type { Difficulty } from './qbank.ts'
 import type { ArticleSection } from './userLibrary.ts'
 
 export type ArticleArchetype = 'condition' | 'presentation' | 'concept' | 'anatomy' | 'drug' | 'skill' | 'investigation' | 'organism' | 'emergency' | 'public-health'
@@ -157,7 +158,7 @@ export interface QuestionTags {
   universityIds: string[]
   cognitiveEffort: 'Low' | 'Medium' | 'High'
   setting: 'Academic' | 'Clinical' | 'Both'
-  intendedDifficulty: 'Easy' | 'Moderate' | 'Hard'
+  intendedDifficulty: 'Easy' | 'Moderate' | 'Hard' | 'Challenging'
   clinicalReasoningLevel: number
   inferredDifficulty: number
   examRelevance: number
@@ -260,8 +261,79 @@ export interface ArticleAuthoringData {
 export interface PracticalAnswerDraft {
   id: string
   text: string
+  /** Why this option is right, or which misconception picks it when it is wrong. */
   explanation: string
   correct: boolean
+}
+
+/**
+ * The same four bands the question bank uses.
+ *
+ * Aliased rather than redeclared: a practical and an MCQ marked `Hard` must mean
+ * the same thing to a student, and two parallel scales would drift.
+ */
+export type PracticalDifficulty = Difficulty
+
+/**
+ * What a practical assesses, using the same distinction `QuestionTags` draws.
+ *
+ * `mainConceptIds` is what the item is *for*; `conceptIds` is what it also
+ * assesses along the way; `contextualConceptIds` is everything the scenario
+ * needs but does not test. Keeping the third bucket separate is what stops a
+ * mentioned concept from collecting mastery evidence it never earned.
+ */
+export interface PracticalConceptTags {
+  mainConceptIds: string[]
+  conceptIds: string[]
+  contextualConceptIds: string[]
+}
+
+export const PRACTICAL_MEDIA_KINDS = ['image', 'audio', 'video'] as const
+export type PracticalMediaKind = (typeof PRACTICAL_MEDIA_KINDS)[number]
+
+/**
+ * An asset a practical needs but does not yet have.
+ *
+ * The same editorial instrument as `ImageRecommendation`, for the practical
+ * surface: an instruction to a human, carrying no URL. It is stored apart from
+ * `LabQuestionDraft.mediaUrl` on purpose — the runner renders any non-empty
+ * `mediaUrl` as an `<img>`, so a placeholder written there would show a student
+ * a broken image. `target` names the `###` block the asset belongs to, or
+ * `station` for an item-level asset.
+ */
+export interface PracticalMediaRequest {
+  id: string
+  kind: PracticalMediaKind
+  /** The `###` heading this belongs to, or `station` for the item as a whole. */
+  target: string
+  /** What to source or draw, in one line. */
+  brief: string
+  /** What a student should be able to do once they can see it. */
+  teachingPurpose: string
+  priority: ImageRecommendationPriority
+  status: ImageRecommendationStatus
+  /** Where a fulfiller should look, e.g. "openly licensed ECG library". */
+  sourceDirection?: string
+  rightsNotes?: string
+  notes?: string
+}
+
+/** What all three practical formats carry, whatever their shape. */
+export interface PracticalCommon {
+  references: string[]
+  conceptTags: PracticalConceptTags
+  mediaRequests: PracticalMediaRequest[]
+  /** What a student who passes this item has demonstrated. */
+  learningObjective?: string
+}
+
+/** The shared blocks of a practical that has not been tagged yet. */
+export function emptyPracticalCommon(): PracticalCommon {
+  return {
+    references: [],
+    conceptTags: { mainConceptIds: [], conceptIds: [], contextualConceptIds: [] },
+    mediaRequests: [],
+  }
 }
 
 export interface ActorBriefSectionDraft {
@@ -278,14 +350,14 @@ export interface PracticalMarkSectionDraft {
   items: Array<{ id: string; text: string }>
 }
 
-export interface OsceAuthoringData {
+export interface OsceAuthoringData extends PracticalCommon {
   format: 'osce'
   candidateInstructions: string
   actorOpening: string
   actorSections: ActorBriefSectionDraft[]
   actorFlags: string[]
   markSections: PracticalMarkSectionDraft[]
-  references: string[]
+  difficulty?: PracticalDifficulty
 }
 
 export interface ClinicalDecisionDraft {
@@ -295,13 +367,17 @@ export interface ClinicalDecisionDraft {
   question: string
   answers: PracticalAnswerDraft[]
   rationale: string
+  /** The single concept this decision teaches. */
+  conceptId?: string
+  /** Concepts it also assesses. */
+  secondaryConceptIds?: string[]
+  difficulty?: PracticalDifficulty
 }
 
-export interface CaseAuthoringData {
+export interface CaseAuthoringData extends PracticalCommon {
   format: 'case'
   decisions: ClinicalDecisionDraft[]
   debrief: string
-  references: string[]
 }
 
 export interface LabQuestionDraft {
@@ -311,13 +387,17 @@ export interface LabQuestionDraft {
   mediaUrl: string
   answers: PracticalAnswerDraft[]
   explanation: string
+  /** The single concept this question teaches. */
+  conceptId?: string
+  /** Concepts it also assesses. */
+  secondaryConceptIds?: string[]
+  difficulty?: PracticalDifficulty
 }
 
-export interface LabAuthoringData {
+export interface LabAuthoringData extends PracticalCommon {
   format: 'lab'
   subtype: 'Lab' | 'Imaging'
   questions: LabQuestionDraft[]
-  references: string[]
 }
 
 export type PracticalAuthoringData = OsceAuthoringData | CaseAuthoringData | LabAuthoringData

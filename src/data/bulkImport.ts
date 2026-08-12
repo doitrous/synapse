@@ -2,11 +2,14 @@ import type {
   ContentKind, ManagedContentItem, QuestionAnswerDraft, AnswerLabel, ArticleArchetype,
   ActorBriefSectionDraft, PracticalMarkSectionDraft, PracticalAnswerDraft,
   ClinicalDecisionDraft, LabQuestionDraft, PracticalAuthoringData, ArticleMediaRecord,
-  ImageRecommendation, CalloutEvidence, PublicationGate, MediaAttachment,
+  ImageRecommendation, CalloutEvidence, PublicationGate, MediaAttachment, QuestionTags,
+  PracticalConceptTags, PracticalDifficulty, PracticalMediaKind, PracticalMediaRequest,
 } from './contentControl.ts'
 import {
   IMAGE_RECOMMENDATION_KINDS, IMAGE_RECOMMENDATION_PRIORITIES, IMAGE_RECOMMENDATION_STATUSES,
+  PRACTICAL_MEDIA_KINDS, emptyPracticalCommon,
 } from './contentControl.ts'
+import { DIFFICULTIES } from './qbank.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
 import { optionalList } from './importSemantics.ts'
@@ -484,9 +487,22 @@ export function parseRelatedArticles(value = ''): { ids: string[]; reasons: Reco
   return { ids, reasons }
 }
 
-type BlockField = 'context' | 'question' | 'rationale' | 'explanation' | 'media'
+type BlockField = 'context' | 'question' | 'rationale' | 'explanation' | 'media' | 'concept' | 'also' | 'difficulty'
 
-const BLOCK_LABELS: Record<string, BlockField> = { q: 'question', rationale: 'rationale', explanation: 'explanation', media: 'media' }
+/** `why` is not a part of the block — it belongs to the option above it. */
+type BlockTarget = BlockField | 'why'
+
+const BLOCK_LABELS: Record<string, BlockTarget> = {
+  q: 'question', rationale: 'rationale', explanation: 'explanation', media: 'media',
+  why: 'why', concept: 'concept', also: 'also', difficulty: 'difficulty',
+}
+
+const BLOCK_LABEL_PATTERN = /^(Q|Rationale|Explanation|Media|Why|Concept|Also|Difficulty)\s*:\s*(.*)$/i
+
+/** Read an authored difficulty, on the same four-band scale the question bank uses. */
+function practicalDifficulty(value: string): PracticalDifficulty | undefined {
+  return DIFFICULTIES.find((tier) => tier.toLowerCase() === value.trim().toLowerCase())
+}
 
 /**
  * Parse one `### heading` block into its labelled parts.
@@ -494,24 +510,38 @@ const BLOCK_LABELS: Record<string, BlockField> = { q: 'question', rationale: 'ra
  * A label's value runs until the next label or option line, so `Rationale:` and
  * `Q:` may wrap across several lines without their continuation falling back
  * into the block's context. Lines before the first label are the context.
+ *
+ * `Why:` is the exception: it belongs to the option immediately above it rather
+ * than to the block, which is how one explanation is written per option. A
+ * `Why:` with no option above it has nothing to attach to and is dropped — the
+ * batch validator reports it as an option missing its explanation.
  */
 function parseLabelledBlock(body = '') {
-  const parts: Record<BlockField, string[]> = { context: [], question: [], rationale: [], explanation: [], media: [] }
+  const parts: Record<BlockField, string[]> = { context: [], question: [], rationale: [], explanation: [], media: [], concept: [], also: [], difficulty: [] }
   const answers: PracticalAnswerDraft[] = []
-  let current: BlockField = 'context'
+  let current: BlockTarget = 'context'
+  const write = (target: BlockTarget, text: string) => {
+    if (target !== 'why') {
+      parts[target].push(text)
+      return
+    }
+    const option = answers[answers.length - 1]
+    if (option) option.explanation = [option.explanation, text].filter(Boolean).join(' ')
+  }
   importLines(body).forEach((line, index) => {
     const option = line.match(/^\*(=)?\s+(.+)$/)
     if (option) {
       answers.push({ id: `pa-imp-${index}`, text: option[2].trim(), explanation: '', correct: Boolean(option[1]) })
+      current = 'context'
       return
     }
-    const label = line.match(/^(Q|Rationale|Explanation|Media)\s*:\s*(.*)$/i)
+    const label = line.match(BLOCK_LABEL_PATTERN)
     if (label) {
       current = BLOCK_LABELS[label[1].toLowerCase()]
-      if (label[2].trim()) parts[current].push(label[2].trim())
+      if (label[2].trim()) write(current, label[2].trim())
       return
     }
-    parts[current].push(line)
+    write(current, line)
   })
   return {
     context: parts.context.join('\n').trim(),
@@ -519,7 +549,19 @@ function parseLabelledBlock(body = '') {
     rationale: parts.rationale.join(' ').trim(),
     explanation: parts.explanation.join(' ').trim(),
     mediaUrl: parts.media.join('').trim(),
+    conceptId: parts.concept.join(' ').trim(),
+    secondaryConceptIds: splitImportList(parts.also.join('\n')),
+    difficulty: practicalDifficulty(parts.difficulty.join(' ')),
     answers,
+  }
+}
+
+/** The concept and difficulty tags a decision or interpretation question carries. */
+function blockTags(block: ReturnType<typeof parseLabelledBlock>) {
+  return {
+    ...(block.conceptId ? { conceptId: block.conceptId } : {}),
+    ...(block.secondaryConceptIds.length ? { secondaryConceptIds: block.secondaryConceptIds } : {}),
+    ...(block.difficulty ? { difficulty: block.difficulty } : {}),
   }
 }
 
@@ -528,7 +570,7 @@ export function parseDecisions(value = ''): ClinicalDecisionDraft[] {
   return parseSections(value)
     .map((section, index) => {
       const block = parseLabelledBlock(section.body)
-      return { id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question, answers: block.answers, rationale: block.rationale }
+      return { id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question, answers: block.answers, rationale: block.rationale, ...blockTags(block) }
     })
     .filter((decision) => decision.question && decision.answers.length)
 }
@@ -540,9 +582,45 @@ export function parseLabQuestions(value = ''): LabQuestionDraft[] {
       const block = parseLabelledBlock(section.body)
       // The heading is the stem; any prose before `Q:` extends it.
       const context = [section.heading, block.context].filter(Boolean).join('\n')
-      return { id: `lab-imp-${index}`, context, question: block.question, mediaUrl: block.mediaUrl, answers: block.answers, explanation: block.explanation }
+      return { id: `lab-imp-${index}`, context, question: block.question, mediaUrl: block.mediaUrl, answers: block.answers, explanation: block.explanation, ...blockTags(block) }
     })
     .filter((question) => question.question && question.answers.length)
+}
+
+/**
+ * Parse "### image|audio|video · target" blocks into unfulfilled media requests.
+ *
+ * Deliberately not written into `LabQuestionDraft.mediaUrl`: the runner renders
+ * any non-empty `mediaUrl` as an image, so a placeholder there would show a
+ * student a broken asset. A request is an instruction to a human and carries no
+ * URL.
+ */
+export function parsePracticalMediaRequests(value = ''): PracticalMediaRequest[] {
+  return parseSections(value)
+    .map((section, index) => {
+      const [rawKind, ...rest] = section.heading.split(/[|·]/)
+      const kind = rawKind.trim().toLocaleLowerCase()
+      const target = rest.join('·').trim() || 'station'
+      const priority = labelledValue(section.body, 'Priority').toLocaleLowerCase()
+      const status = labelledValue(section.body, 'Status').toLocaleLowerCase()
+      const sourceDirection = labelledValue(section.body, 'Source direction')
+      const rightsNotes = labelledValue(section.body, 'Rights')
+      const notes = labelledValue(section.body, 'Notes')
+      const brief = labelledValue(section.body, 'Brief')
+      return {
+        id: labelledValue(section.body, 'Id') || derivedId('pmr', target, brief, String(index)),
+        kind: (PRACTICAL_MEDIA_KINDS as readonly string[]).includes(kind) ? kind as PracticalMediaKind : 'image',
+        target,
+        brief,
+        teachingPurpose: labelledValue(section.body, 'Purpose'),
+        priority: (IMAGE_RECOMMENDATION_PRIORITIES as readonly string[]).includes(priority) ? priority as PracticalMediaRequest['priority'] : 'strongly helpful',
+        status: (IMAGE_RECOMMENDATION_STATUSES as readonly string[]).includes(status) ? status as PracticalMediaRequest['status'] : 'needed',
+        ...(sourceDirection ? { sourceDirection } : {}),
+        ...(rightsNotes ? { rightsNotes } : {}),
+        ...(notes ? { notes } : {}),
+      }
+    })
+    .filter((request) => request.brief)
 }
 
 /**
@@ -707,7 +785,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
   if (kind === 'question') {
     const labels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
     const answers: QuestionAnswerDraft[] = labels.map((label) => ({ label, text: values[`answer_${label.toLowerCase()}`]?.trim() ?? '', explanation: values[`explanation_${label.toLowerCase()}`]?.trim() ?? '' }))
-    const difficulty = ['Easy', 'Moderate', 'Hard'].includes(values.difficulty) ? values.difficulty as 'Easy' | 'Moderate' | 'Hard' : 'Moderate'
+    const difficulty = ['Easy', 'Moderate', 'Hard', 'Challenging'].includes(values.difficulty) ? values.difficulty as QuestionTags['intendedDifficulty'] : 'Moderate'
     return { ...base, title: values.question?.trim() || base.title, fields: { Topic: values.topic ?? '', Difficulty: difficulty, Vignette: values.vignette ?? '', Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '' }, questionData: { attachments: parseAttachments(values.attachments), correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel, answers, attachedImage: values.attached_image?.trim() ?? '', libraryIds: splitImportList(values.library_ids), resourceIds: splitImportList(values.resource_ids), tags: { module: values.module || base.subjectId, topic: values.topic || '', subtopic: values.subtopic || '', conceptIds: splitImportList(values.concept_ids), years: splitImportList(values.years), universityIds: splitImportList(values.universities), cognitiveEffort: ['Low', 'Medium', 'High'].includes(values.cognitive_effort) ? values.cognitive_effort as 'Low' | 'Medium' | 'High' : 'Medium', setting: ['Academic', 'Clinical', 'Both'].includes(values.setting) ? values.setting as 'Academic' | 'Clinical' | 'Both' : 'Both', intendedDifficulty: difficulty, clinicalReasoningLevel: numberInRange(values.reasoning_level, 2, 0, 5), inferredDifficulty: numberInRange(values.inferred_difficulty, 50, 0, 100), examRelevance: numberInRange(values.exam_relevance, 5, 0, 10), contextualConceptIds: splitImportList(values.contextual_concept_ids), questionType: values.question_type || undefined, mainConceptIds: splitImportList(values.main_concept), moduleIds: splitImportList(values.module), clinicalRelevance: clamp01(values.clinical_relevance), academicRelevance: clamp01(values.academic_relevance), cognitiveEffortScore: clamp01(values.cognitive_effort_score), examWeightByYear: parseWeightMap(values.exam_weight_by_year), questionOnlyFor: splitImportList(values.question_only_for) }, learningObjective: values.learning_objective || '', authorNotes: values.author_notes || '', sourceCitation: values.source_citation || '', estimatedSeconds: numberInRange(values.estimated_seconds, 90, 5, 3600), randomiseAnswers: !/^(no|false|0)$/i.test(values.randomise_answers?.trim() ?? '') } }
   }
   if (kind === 'article') {

@@ -4,12 +4,12 @@ import {
   initialManagedContent,
   type ManagedContentItem,
 } from '@/data/contentControl'
-import type { Difficulty, Question } from '@/data/qbank'
+import { DIFFICULTIES, type Difficulty, type Question } from '@/data/qbank'
 import { usePersistentState } from './usePersistentState'
 
 function difficultyFor(item: ManagedContentItem): Difficulty {
   const value = item.questionData?.tags.intendedDifficulty ?? item.fields.Difficulty
-  return value === 'Easy' || value === 'Hard' ? value : 'Moderate'
+  return DIFFICULTIES.includes(value as Difficulty) ? value as Difficulty : 'Moderate'
 }
 
 /** Convert the admin authoring shape into the exact question shape used by students. */

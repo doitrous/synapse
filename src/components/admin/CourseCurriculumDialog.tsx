@@ -79,7 +79,7 @@ export function CourseCurriculumDialog({ course, year, items, value, onClose, on
           <SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search available content…" className="w-64" />
           <Select aria-label="Filter by module" value={subjectId} onChange={(event) => setSubjectId(event.target.value)} className="w-40"><option value="all">All modules</option>{subjects.map((subject) => <option key={subject.id} value={subject.id}>{subject.name}</option>)}</Select>
           <Select aria-label="Filter by topic" value={topic} onChange={(event) => setTopic(event.target.value)} className="w-44"><option value="all">All topics</option>{topics.map((item) => <option key={item}>{item}</option>)}</Select>
-          {tab !== 'article' && <Select aria-label="Filter by difficulty" value={difficulty} onChange={(event) => setDifficulty(event.target.value)} className="w-36"><option value="all">All difficulty</option><option>Easy</option><option>Moderate</option><option>Hard</option></Select>}
+          {tab !== 'article' && <Select aria-label="Filter by difficulty" value={difficulty} onChange={(event) => setDifficulty(event.target.value)} className="w-36"><option value="all">All difficulty</option><option>Easy</option><option>Moderate</option><option>Hard</option><option>Challenging</option></Select>}
           <Button type="button" size="sm" iconLeft={Plus} className="ml-auto" onClick={includeFiltered}>Include filtered ({filtered.length})</Button>
         </div>
 
