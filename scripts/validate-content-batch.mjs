@@ -170,7 +170,7 @@ if (kind !== 'concept') {
   // different stems.
   const dir = dirname(file)
   const siblings = (await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name))
-  const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [] }
+  const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [], relation: [] }
   for (const path of siblings) {
     const parsed = parseMarkdown(await readFile(path, 'utf8'))
     if (parsed.length) everything[detectKind(parsed[0])].push(...parsed)
@@ -242,6 +242,15 @@ if (kind !== 'concept') {
   process.exit()
 }
 
+// `sourceCandidateIds` is the same trap as `src_`, one field over: a `concept_`
+// ID that does not exist would validate cleanly and point at nothing.
+let corpusConcepts = null
+try {
+  corpusConcepts = JSON.parse(await readFile(join(dirname(dirname(file)), 'evidence', 'corpus-concept-index.json'), 'utf8')).candidates
+} catch {
+  // No index available; the check is skipped rather than failing the batch.
+}
+
 const known = new Set(CONCEPT_IMPORT_FIELDS.map((field) => field.key))
 
 rows.forEach((values, index) => {
@@ -253,6 +262,11 @@ rows.forEach((values, index) => {
   const concept = materialiseNewConcept(conceptFromRow(values))
   for (const nodeId of [concept.primaryNodeId, ...(concept.secondaryNodeIds ?? [])].filter(Boolean)) {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)
+  }
+  for (const candidateId of concept.sourceCandidateIds ?? []) {
+    if (corpusConcepts && !corpusConcepts[candidateId]) {
+      errors.push(`${where}: ${candidateId} is not a concept candidate the corpus contains — do not invent a candidate ID`)
+    }
   }
   if (!concept.definition) errors.push(`${where}: no definition`)
   if (!concept.explicitObjective) errors.push(`${where}: no explicit objective — a concept without one cannot be assessed`)
