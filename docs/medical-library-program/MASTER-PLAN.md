@@ -19,14 +19,14 @@ starts here and ends here. Nothing below depends on any chat transcript.
 
 | | |
 |---|---|
-| **Overall status** | Phase 0 complete. Phase 1 ready to start |
+| **Overall status** | Phase 0 complete. Phase 1 in progress — the AMBOSS comparison is done and found no node-level gaps |
 | **Active phase** | Phase 1 — validate and refine the structure against AMBOSS |
 | **Active system** | None. Systems start after `GATE-TAX-001` |
-| **Active task ID** | `TAX-COMPARE-001` (Not started) |
-| **Last verified commit** | `2df5853` — *Select many, publish what is ready, and navigate the concept graph*. **Phase 0 changes are uncommitted in the working tree** (see §9) |
+| **Active task ID** | `TAX-GAP-001` (Not started) |
+| **Last verified commit** | `781558b` — *Write the medical-library programme plan, and its 19 system plans* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
-| **Worktree** | Modified: the Phase 0 implementation. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (Phase 0 implementation session) |
+| **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
+| **Last update** | 2026-08-12 (`TAX-COMPARE-001` complete) |
 
 ### Gate status
 
@@ -39,56 +39,67 @@ starts here and ends here. Nothing below depends on any chat transcript.
 
 ## 2. Start here next
 
-> **Task `TAX-COMPARE-001` — Build the crosswalk and disposition ledger.**
+> **Task `TAX-GAP-001` — Test the "no gaps" finding against the local curriculum.**
 
-**Objective.** Compare the canonical taxonomy (1,883 nodes / 4 views), the
-runtime curriculum tree (630 nodes / 8 subjects) and the AMBOSS hierarchy
-(8,061 nodes / 8 roots / 1,502 unique articles), and give every candidate
-difference exactly one of the eleven dispositions listed in
-[Phase 1](#phase-1--validate-and-refine-the-structure-against-amboss).
+**Why this, and why it is not what the plan originally said.** `TAX-COMPARE-001`
+disposed of all 644 in-scope AMBOSS nodes and proposed **zero** gaps: every
+comparator branch already maps to a Synapse node, is a presentation facet, or is
+out of scope. The original `TAX-GAP-001` assumed a gap list to triage. There
+isn't one — so the honest next question is whether the taxonomy is missing
+anything that a *US-oriented comparator would never have shown*. Under `LD-08`
+the university corpus, not AMBOSS, is the authority on local curriculum
+emphasis, and under `LD-14` the processed 27.7% is what we work from.
 
-**Non-goals.** Do not change any taxonomy node in this task — that is
-`TAX-PATCH-001`. Do not author content.
+**Objective.** Extract the topic vocabulary actually taught in the 765 processed
+corpus files, and test it against the 1,883 canonical nodes. Produce a gap list
+whose evidence is a local curriculum artifact, not a comparator.
+
+**Non-goals.** Do not change the taxonomy — that is `TAX-PATCH-001`. Do not
+author content. Do not treat a corpus record in `semantic_analysis_pending`,
+`explicit_blocker` or `candidate_retracted_do_not_rely` as evidence.
 
 **Files to read first**
 
 ```
-docs/medical-library-program/MASTER-PLAN.md      (this file)
-docs/medical-library-taxonomy-review.md          the structural decisions already taken
-src/data/medicalLibraryTaxonomy.ts               MEDICAL_TAXONOMY_SEED, the 1,883 canonical nodes
-src/data/curriculumCatalog.ts                    the 8-subject runtime tree
-src/data/taxonomyCrosswalk.ts                    how the two are bound today
-/Users/doitrous/Documents/Amboss/hierarchy.json  the comparator
+docs/medical-library-program/evidence/amboss-disposition-ledger.md    what the comparison already settled
+docs/medical-library-program/evidence/taxonomy-gap-list.json          the 299 granularity calls
+/Users/doitrous/Downloads/Resources Digestion Current aug 7/_coordination/current-taxonomy-progress.json
+/Users/doitrous/Downloads/Resources Digestion Current aug 7/_blueprint_work/library_analysis.json
+/Users/doitrous/Downloads/Resources Digestion Current aug 7/01-explicitly-taught/**/taxonomy.json
+src/data/medicalLibraryTaxonomy.ts
 ```
 
 **Files to write**
 
 ```
-docs/medical-library-program/evidence/amboss-disposition-ledger.json
-docs/medical-library-program/evidence/taxonomy-gap-list.json
+scripts/build-curriculum-gap-list.mjs                                 the generator
+docs/medical-library-program/evidence/curriculum-gap-list.json        candidates with local evidence
+docs/medical-library-program/evidence/curriculum-gap-list.md          the readable finding
 ```
 
-**Method.** Walk the AMBOSS `Basic sciences → By system`, `By discipline` and
-`Clinical knowledge` branches only. The other five roots are already rejected —
-see the pre-recorded rejections in Phase 1. For each node, record: the AMBOSS
-title, the matching Synapse node or `none`, the disposition, the rationale, and
-the evidence. A disposition of `genuine undergraduate gap to add` requires
-evidence beyond AMBOSS itself (LD-08).
+**Method.** Walk only `taxonomy.json` artifacts whose file is
+`semantic_processing_complete_review_required`. For each distinct taught topic
+label, find its best canonical match using the same normalisation the AMBOSS
+ledger uses (reuse it — do not write a second matcher). A label with no match is
+a candidate; record its source-relative path, resource ID, exact locator and the
+file's review state alongside it, so the evidence travels with the claim. Assign
+a confidence band. A candidate supported by one unreviewed extraction is `low`
+and stays a candidate.
 
 **Command**
 
 ```bash
+node --experimental-strip-types scripts/build-curriculum-gap-list.mjs
 npm run medical:validate:taxonomy
 ```
 
-**Expected output.** Both evidence files exist. Every AMBOSS node under the three
-in-scope branches has exactly one disposition. The gap list carries a confidence
-band per entry. `medical:validate:taxonomy` still passes unchanged — this task
-writes no taxonomy change.
+**Expected output.** Both files exist. Every candidate carries a local source
+locator. The taxonomy validator still passes — this task writes no change.
 
 **Stop condition.** Both files exist and §5's Phase 1 row is updated. Then set
-`TAX-COMPARE-001` to `Done`, record the commit, and set the active task to
-`TAX-GAP-001`.
+`TAX-GAP-001` to `Done`, record the commit, and set the active task to
+`TAX-PATCH-001` — or, if there are no candidates worth acting on, straight to
+`TAX-RUNTIME-001`, which `LD-13` says is one migration from 8 subjects to 19.
 
 ## 3. Locked decisions
 
@@ -158,7 +169,7 @@ Status values: `Not started` · `In progress` · `Blocked` · `Done` · `Superse
 | Phase | Status | Blocker | Next task |
 |---|---|---|---|
 | **Phase 0** — Platform readiness | **Done** 2026-08-12 | — | — |
-| **Phase 1** — Structure validation vs AMBOSS | **Ready** | — | `TAX-COMPARE-001` |
+| **Phase 1** — Structure validation vs AMBOSS | **In progress** — `TAX-COMPARE-001` done | — | `TAX-GAP-001` |
 | **Phase 2** — Article & concept programme (19 systems) | Blocked | `GATE-TAX-001` | `SYS-FND-ARTICLE-001` |
 | **Phase 3** — Library Completion Gate | Blocked | all `GATE-SYS-*` | `GATE-LIBRARY-001` |
 | **Phase 4** — Assessment programme | Blocked | `GATE-LIBRARY-001` | `ASSESS-PLAN-001` |
@@ -432,6 +443,42 @@ Append-only.
 |---|---|---|---|---|---|---|
 | 2026-08-12 | Planning run | Inspected the implementation, `server/data/medical-library-v1.json`, the AMBOSS archive and the university corpus. Recomputed the full baseline. Wrote this master plan and 19 system plans. **No product code, taxonomy, or content changed.** | none (docs only) | `medical:validate:authoring` pass · `medical:validate:taxonomy` pass · `medical:audit` pass (all read-only) | `docs/medical-library-program/MASTER-PLAN.md`, `docs/medical-library-program/systems/*.md` (19) | Answer `OQ-01`–`OQ-06`; start `PLAT-PARITY-001` |
 | 2026-08-12 | Phase 0 implementation | Closed platform blockers `BLK-01`–`BLK-08`. Answered all six open questions as `LD-11`–`LD-16`. **`GATE-PLATFORM-001` passed.** No medical content was authored, imported or published. | uncommitted — the working tree holds the Phase 0 change set | `medical:validate:authoring` pass · `medical:validate:taxonomy` pass · `medical:build` + `medical:audit` pass, `errors: []` · `medical:parity` `gapCount: 0` · `npm test` **102/102** · `tsc -b` clean · `lint` clean · `build` succeeds | See "Phase 0 outputs" below | Commit the change set; run `TAX-COMPARE-001` |
+
+| 2026-08-12 | `TAX-COMPARE-001` | Compared the canonical taxonomy, the runtime tree and the AMBOSS hierarchy. Disposed of all 644 in-scope comparator nodes. **No node-level gap found.** No taxonomy change made. | uncommitted | `medical:validate:taxonomy` pass · `medical:validate:authoring` pass (unchanged — this task writes no taxonomy) | `evidence/amboss-disposition-ledger.{json,md}`, `evidence/taxonomy-gap-list.json`, `scripts/build-amboss-disposition-ledger.mjs` | Run `TAX-GAP-001` against the local corpus, since a US comparator cannot reveal an Egyptian-curriculum gap |
+
+### `TAX-COMPARE-001` finding (2026-08-12)
+
+644 in-scope nodes across `By system`, `By discipline`, `Clinical knowledge` and
+`Clinical skills`. The five out-of-scope roots were not walked.
+
+| Disposition | Nodes |
+|---|---:|
+| already covered under a different Synapse label | 432 |
+| secondary placement or cross-reference | 126 |
+| metadata/filter, not a node | 64 |
+| alias/spelling variant | 9 |
+| useful rename or split | 6 |
+| merge/de-duplication | 5 |
+| outside Years 1–4 scope | 2 |
+| **genuine undergraduate gap to add** | **0** |
+
+**The canonical taxonomy already covers the comparator at undergraduate depth.**
+299 rows are low confidence — but low confidence here means "inside the right
+Synapse root, finer than its floor", which is an LD-04 granularity call for the
+owning system's `INVENTORY-001`, not a missing node.
+
+Three findings worth carrying forward:
+
+- **AMBOSS's 19 systems are not Synapse's 19.** It splits biostatistics and
+  social sciences into two roots and repeats the first under Clinical knowledge;
+  Synapse merges all three into `SYS-POP`. Aligning the counts would be wrong.
+- **`SYS-INF` has no AMBOSS analogue at all**, and the comparator under-weights
+  schistosomiasis, leishmaniasis and hydatid disease. This is the one branch
+  where following AMBOSS would actively narrow the product for Egyptian students.
+- **64 nodes are a discipline lens, not subject matter** — AMBOSS repeats
+  "Pathology", "Clinical correlations" and "Relevant pharmacology" under most
+  systems. That is the same presentation-facet pattern the taxonomy review
+  already rejected in the supplied blueprint.
 
 ### Phase 0 outputs (2026-08-12)
 
