@@ -34,3 +34,8 @@ server/node_modules
 
 # Personal Claude Code settings (may contain machine-specific permissions)
 .claude/settings.local.json
+
+# The curriculum corpus: 7.4 GB of source PDFs and their extractions.
+# It lives in the project so tooling has a stable path, and must never be
+# committed — it is source material, not source code.
+corpus/

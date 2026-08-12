@@ -25,7 +25,7 @@ import { norm, bestTokenMatch, canonicalByTitle, canonicalByStem, stem, MEDICAL_
 const here = dirname(fileURLToPath(import.meta.url))
 const root = join(here, '..')
 const outDir = join(root, 'docs', 'medical-library-program', 'evidence')
-const CORPUS = process.env.CURRICULUM_CORPUS ?? '/Users/doitrous/Downloads/Resources Digestion Current aug 7'
+const CORPUS = process.env.CURRICULUM_CORPUS ?? join(here, '..', 'corpus')
 
 const systemId = process.argv[2]
 if (!systemId) throw new Error('Usage: build-system-source-plan.mjs <SYS-ID>')

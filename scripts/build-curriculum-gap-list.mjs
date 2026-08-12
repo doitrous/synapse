@@ -24,7 +24,7 @@ import { norm, bestTokenMatch, canonicalByTitle, canonicalByStem, runtimeByTitle
 
 const here = dirname(fileURLToPath(import.meta.url))
 const outDir = join(here, '..', 'docs', 'medical-library-program', 'evidence')
-const CORPUS = process.env.CURRICULUM_CORPUS ?? '/Users/doitrous/Downloads/Resources Digestion Current aug 7'
+const CORPUS = process.env.CURRICULUM_CORPUS ?? join(here, '..', 'corpus')
 
 /**
  * File states whose contents may be read as curriculum signal.

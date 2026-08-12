@@ -16,7 +16,7 @@ import { fileURLToPath } from 'node:url'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const outDir = join(here, '..', 'docs', 'medical-library-program', 'evidence')
-const CORPUS = process.env.CURRICULUM_CORPUS ?? '/Users/doitrous/Downloads/Resources Digestion Current aug 7'
+const CORPUS = process.env.CURRICULUM_CORPUS ?? join(here, '..', 'corpus')
 const rootDir = join(CORPUS, '01-explicitly-taught')
 
 /** Candidate ID → the labels and sources it was extracted from. */
