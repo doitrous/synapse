@@ -511,7 +511,7 @@ med.concept.informal-caregiver
 ## primary_node_id
 SYS-DEV-T04-S03-M04
 ## secondary_node_ids
-DIS-FCM
+DIS-FCM | SYS-DEV-T04-S02-M04
 ## evidence_basis
 Definition from a National Academies volume on NCBI Bookshelf; caregiver stress from MedlinePlus.
 ## article_source_ids
@@ -525,7 +525,7 @@ CLM-DEV-INFORMAL-CAREGIVER-01 | CLM-DEV-CAREGIVER-STRESS-01
 ## evidence_gaps
 Caregiver assessment, respite provision, community support services, and the prevalence of caregiving are all taught here and none are claim-backed. The definition source is from 2010 and written about the United States, so its prevalence figures are deliberately not used.
 ## notes
-The phrase "caregiver burden" is not used. No freely readable authoritative source defining it was found; the cited sources say caregiver stress, and the article follows them.
+The phrase "caregiver burden" is not used. No freely readable authoritative source defining it was found; the cited sources say caregiver stress, and the article follows them. This article also serves SYS-DEV-T04-S02-M04 "Caregiving", which is the same subject placed under social context rather than under support needs.
 ## field_notes
 moduleIds: no verified live module ID for this system yet
 questionIds: assessment authoring is blocked until GATE-LIBRARY-001
@@ -647,7 +647,7 @@ med.concept.occupational-health
 ## primary_node_id
 SYS-DEV-T02-S01-M03
 ## secondary_node_ids
-DIS-PHR
+DIS-PHR | SYS-DEV-T04-S02-M03
 ## evidence_basis
 The ILO's own publication of the Protocol of 2002 definition, and the WHO fact sheet on protecting workers' health.
 ## article_source_ids
@@ -661,7 +661,7 @@ CLM-DEV-OCC-DISEASE-01 | CLM-DEV-OCC-DISEASE-CRITERIA-01 | CLM-DEV-OCC-HEALTH-SE
 ## evidence_gaps
 Named occupational exposures and their diseases, workplace risk assessment, health surveillance, and fitness for work are all taught here and none are claim-backed. The mechanism section's account of why occupational exposure differs is standard teaching stated without a citation.
 ## notes
-The WHO occupational health topic page carries a definition of the field but displays no date, so it is not cited; the field is described from what its services do instead. The WHO workers' health fact sheet has not been revised since 2017. The source plan's top local file for the related "Work" node is a respiratory physiology book matching work of breathing, and is not used.
+The WHO occupational health topic page carries a definition of the field but displays no date, so it is not cited; the field is described from what its services do instead. The WHO workers' health fact sheet has not been revised since 2017. The source plan's top local file for the related "Work" node is a respiratory physiology book matching work of breathing, and is not used. This article also serves SYS-DEV-T04-S02-M03 "Work", which asks the same question from the well-patient side: what work does to health. One article serves both rather than writing a near-duplicate.
 ## field_notes
 moduleIds: no verified live module ID for this system yet
 questionIds: assessment authoring is blocked until GATE-LIBRARY-001
