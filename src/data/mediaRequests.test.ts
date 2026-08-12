@@ -51,15 +51,19 @@ function assertNoLeak(projected: Subtopic, where: string) {
   for (const canary of CANARIES) {
     assert.equal(serialised.includes(canary), false, `${where} leaked "${canary}"`)
   }
-  assert.equal('imageRecommendations' in projected, false, `${where} carries the recommendation field itself`)
+  assert.equal('mediaRequests' in projected, false, `${where} carries the request field itself`)
 }
 
-test('the article carries its recommendations on the admin side', () => {
+test('the article carries its media requests on the admin side', () => {
   // The premise of every assertion below: the data really is there to leak.
   const item = articleWith({})
-  assert.equal(item.articleData?.imageRecommendations?.length, 1)
-  assert.equal(item.articleData?.imageRecommendations?.[0].brief, SECRET_BRIEF)
-  assert.equal(item.articleData?.imageRecommendations?.[0].priority, 'required')
+  assert.equal(item.articleData?.mediaRequests?.length, 1)
+  assert.equal(item.articleData?.mediaRequests?.[0].brief, SECRET_BRIEF)
+  assert.equal(item.articleData?.mediaRequests?.[0].priority, 'required')
+  // A genre-led heading implies an image; the two axes stay separate.
+  assert.equal(item.articleData?.mediaRequests?.[0].medium, 'image')
+  assert.equal(item.articleData?.mediaRequests?.[0].kind, 'anatomy plate')
+  assert.equal(item.articleData?.mediaRequests?.[0].ownerKind, 'article')
 })
 
 test('recommendations never reach the student projection of a new article', () => {

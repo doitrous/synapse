@@ -147,7 +147,7 @@ function disposeArticle(article) {
   const data = article.articleData ?? {}
   const reasons = []
   if (!(data.annotations ?? []).length) reasons.push('no statement annotations')
-  if (!(data.imageRecommendations ?? []).length) reasons.push('no image recommendations')
+  if (!(data.mediaRequests ?? []).length) reasons.push('no media requests')
   if (!(data.calloutEvidence && Object.keys(data.calloutEvidence).length)) reasons.push('callouts carry no per-line evidence')
   if (!VALID_SUBJECT_IDS.has(article.subjectId)) reasons.push(`subjectId "${article.subjectId}" is outside the eight-value contract (BLK-09)`)
   if (article.status === 'Published' && data.publicationGate !== 'publishable') reasons.push(`published while its gate says ${data.publicationGate} (BLK-10)`)

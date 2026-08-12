@@ -185,10 +185,11 @@ priority and status.
 
 | Field key | Source of truth | Rule |
 |---|---|---|
-| `image_recommendations` | `articleData.imageRecommendations` | One `### kind · brief` block per visual. |
+| `media_recommendations` | `articleData.mediaRequests` | One `### medium-or-kind · rest` block per asset. |
+| `image_recommendations` | `articleData.mediaRequests` | The former name for the same field. Still read, so authored batches keep importing; write `media_recommendations` in anything new. |
 
 ```markdown
-## image_recommendations
+## media_recommendations
 ### anatomy plate · Coronary artery territories mapped to ECG leads
 Purpose: A student cannot hold the lead-to-territory mapping from prose alone.
 Priority: required
@@ -198,13 +199,23 @@ Source direction: openly licensed anatomy atlas
 Rights: must be CC-BY or public domain
 ```
 
-- `kind`: `diagram`, `anatomy plate`, `histology`, `flowchart`, `graph`,
+Articles, questions and practicals all record their outstanding assets as a
+`MediaRequest`, and they share one backlog at **Library Setup → Media requests**.
+
+The heading carries two axes, kept apart on purpose:
+
+- **Medium** — `image`, `audio`, `video`. Lead with one of these when the asset
+  is not a picture: `### audio · Station 2`, with the brief on a `Brief:` line.
+- **Kind** — `diagram`, `anatomy plate`, `histology`, `flowchart`, `graph`,
   `comparison table`, `imaging example`, `algorithm`, `clinical photograph`,
-  `other`.
+  `other`. This is the genre of an image and means nothing for audio or video.
+  Lead with a genre and the medium is taken to be `image`, with the rest of the
+  heading read as the brief — which is the form above.
+
 - `Purpose:` is required. If you cannot say what prose fails to convey, the
-  visual is decorative — leave it out.
+  asset is decorative — leave it out.
 - `Priority:` `required`, `strongly helpful`, `optional`. `required` means the
-  article is not usable without it.
+  item is not usable without it and must not publish until it exists.
 - `Status:` `needed`, `planned`, `supplied`, `declined`. Add `Media id:` once a
   real media item fulfils it.
 

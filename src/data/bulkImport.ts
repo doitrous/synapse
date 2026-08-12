@@ -2,12 +2,13 @@ import type {
   ContentKind, ManagedContentItem, QuestionAnswerDraft, AnswerLabel, ArticleArchetype,
   ActorBriefSectionDraft, PracticalMarkSectionDraft, PracticalAnswerDraft,
   ClinicalDecisionDraft, LabQuestionDraft, PracticalAuthoringData, ArticleMediaRecord,
-  ImageRecommendation, CalloutEvidence, PublicationGate, MediaAttachment, QuestionTags,
-  PracticalConceptTags, PracticalDifficulty, PracticalMediaKind, PracticalMediaRequest,
+  MediaRequest, MediaRequestKind, MediaRequestMedium, MediaRequestOwnerKind,
+  MediaRequestPriority, MediaRequestStatus, CalloutEvidence, PublicationGate,
+  MediaAttachment, QuestionTags, PracticalConceptTags, PracticalDifficulty,
 } from './contentControl.ts'
 import {
-  IMAGE_RECOMMENDATION_KINDS, IMAGE_RECOMMENDATION_PRIORITIES, IMAGE_RECOMMENDATION_STATUSES,
-  PRACTICAL_MEDIA_KINDS, emptyPracticalCommon,
+  MEDIA_REQUEST_MEDIA, MEDIA_REQUEST_KINDS, MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES,
+  emptyPracticalCommon,
 } from './contentControl.ts'
 import { DIFFICULTIES } from './qbank.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
@@ -70,6 +71,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'library_ids', label: 'Related library IDs', help: 'Canonical article IDs.' },
       { key: 'resource_ids', label: 'Related resource IDs', help: 'Canonical resource IDs.' },
       { key: 'learning_objective', label: 'Learning objective', help: 'What a correct response demonstrates.' },
+      { key: 'media_recommendations', label: 'Media requests', help: 'Admin-only. Assets this item still needs, one "### medium-or-kind · rest" block per asset, then "Purpose:", "Priority:" (required, strongly helpful, optional) and "Status:" (needed, planned, supplied, declined). Lead with image, audio or video to set the medium, or with a genre such as diagram or histology to imply an image.' },
       { key: 'source_citation', label: 'Source citation', help: 'Guideline, book, paper, or source URL.' },
       { key: 'attachments', label: 'Attachments', help: 'One "### image|audio|video · URL" block per item, then "Name:" and optionally "Mime:".' },
       { key: 'attached_image', label: 'Attached image', help: 'A single image URL shown with the stem.' },
@@ -104,6 +106,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'media', label: 'Media', help: 'One "### image|video|audio · URL" block per item, then "Caption:", "Alt:", "Rights:", "Necessity:", and optionally "Anchor:" with the exact phrase it explains (plus "Anchor block:" — body, summary, hold, or trap). Incomplete items are held back unless you add "Release without review: yes".' },
       { key: 'annotations', label: 'Statement annotations', help: 'One "### relation · conceptId" block per annotation, then "Quote:" with the exact words as they appear in the article, "Block:" (summary, body, hold, or trap), and optionally "Id:". The quote must occur verbatim in that block.' },
       { key: 'image_recommendations', label: 'Image recommendations', help: 'Admin-only. One "### kind · brief" block per visual, then "Purpose:", "Priority:" (required, strongly helpful, optional), "Status:" (needed, planned, supplied, declined), and optionally "Section:", "Block:", "Anchor:", "Source direction:", "Rights:", "Notes:", "Media id:". Never shown to students.' },
+      { key: 'media_recommendations', label: 'Media requests', help: 'Admin-only. Assets this item still needs, one "### medium-or-kind · rest" block per asset, then "Purpose:", "Priority:" (required, strongly helpful, optional) and "Status:" (needed, planned, supplied, declined). Lead with image, audio or video to set the medium, or with a genre such as diagram or histology to imply an image.' },
       { key: 'callout_evidence', label: 'Callout evidence', help: 'What makes a "Hold these" or "Where people lose the mark" line publishable. One "### exact callout text" block per line, then "Claims:", "Citations:", "Span:", "Reviewed by:", "Reviewed at:".' },
       { key: 'related_concepts', label: 'Related concepts', help: 'Concept IDs discussed by this article.' },
       { key: 'related_articles', label: 'Related articles', help: 'Article IDs to offer as further reading, one per line as "articleId" or "articleId: why they connect".' },
@@ -155,6 +158,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'contextual_concept_ids', label: 'Contextual concept IDs', help: 'Concepts the scenario needs but does not assess. These receive no mastery evidence.' },
       { key: 'learning_objective', label: 'Learning objective', help: 'What a student who passes this item has demonstrated.' },
       { key: 'media_needed', label: 'Media needed', help: 'Admin-only. Assets this item still needs. One "### image|audio|video · question heading" block per asset, then "Brief:", "Purpose:", "Priority:" (required, strongly helpful, optional), "Status:" (needed, planned, supplied, declined), and optionally "Source direction:", "Rights:", "Notes:". Never shown to a student and never rendered as media.' },
+      { key: 'media_recommendations', label: 'Media requests', help: 'Admin-only. Assets this item still needs, one "### medium-or-kind · rest" block per asset, then "Purpose:", "Priority:" (required, strongly helpful, optional) and "Status:" (needed, planned, supplied, declined). Lead with image, audio or video to set the medium, or with a genre such as diagram or histology to imply an image.' },
       { key: 'references', label: 'Read around it', help: 'Resource references separated by new lines.' },
     ],
     markdownExample: `# One file can mix every practical type — separate items with ---\n\n# Item\n\n## title\nHistory: chest pain in a 54-year-old\n\n## subject\ncvs\n\n## type\nOSCE station\n\n## duration\n8\n\n## difficulty\nModerate\n\n## candidate_instructions\nTake a focused history and present your differential.\n\n## actor_opening\nIt came on when I was carrying shopping upstairs.\n\n## actor_sections\nWho you are: Daniel Rossi, 54, self-employed builder.\nRadiation: Down my left arm and into my jaw.\n\n## actor_flags\nIf asked about smoking, admit to 20 a day for 30 years.\n\n## mark_scheme\nOpening and structure (15): Introduces self and confirms identity\nPain characterisation (25): Establishes site, onset, character and radiation\n\n## main_concept\nCON-CVS-EXAMPLE\n\n---\n\n# Item\n\n## title\nAcute central chest pain\n\n## subject\ncvs\n\n## type\nClinical case\n\n## decisions\n### Immediate action\nConcept: CON-CVS-EXAMPLE\nDifficulty: Moderate\nQ: What is your first step?\n*= Give aspirin and arrange an ECG\nWhy: Both are time-critical and neither waits on a confirmed diagnosis.\n* Send home with analgesia\nWhy: Chosen by students who treat a normal first troponin as reassurance.\nRationale: Early ECG and aspirin are time-critical in suspected ACS.\n\n## debrief\nThe case rewards early recognition and treatment of immediate threats.\n\n## media_needed\n### image · Immediate action\nBrief: 12-lead ECG showing 2 mm ST elevation in II, III and aVF\nPurpose: The decision cannot be made from the text alone.\nPriority: required\nStatus: needed\n\n---\n\n# Item\n\n## title\nChest X-ray basics\n\n## subject\nresp\n\n## type\nImaging interpretation\n\n## lab_subtype\nImaging\n\n## lab_questions\n### Consolidation vs effusion\nConcept: CON-RES-EXAMPLE\nDifficulty: Easy\nQ: What does the blunted costophrenic angle indicate?\n*= A pleural effusion\nWhy: Fluid tracks up the chest wall and produces a meniscus.\n* Lobar consolidation\nWhy: Picked by students who read any lower-zone opacity as consolidation.\nExplanation: A meniscus and blunted angle indicate fluid, not consolidation.\n\n---\n\n# Item\n\n## title\nCardiovascular examination\n\n## subject\ncvs\n\n## type\nSkills checklist\n\n## duration\n8\n\n## marks\n20`,
@@ -402,32 +406,60 @@ export function annotationErrors(annotations: ConceptAnnotation[], values: Recor
   return errors
 }
 
-/** Parse "### kind · brief" blocks into admin-only image recommendations. */
-export function parseImageRecommendations(value = '', articleId = ''): ImageRecommendation[] {
+/**
+ * Parse "### medium-or-kind · rest" blocks into admin-only media requests.
+ *
+ * One parser for all three surfaces, because the three authoring conventions
+ * that grew up separately are the same block with the first heading token used
+ * differently. Articles lead with a genre — `### histology · A muscular artery`
+ * — and practicals lead with a medium and put the brief on its own line —
+ * `### audio · Station 2` plus `Brief: …`. Both are accepted:
+ *
+ * - a leading `image`, `audio` or `video` sets the medium, and the rest of the
+ *   heading names where in the owner the asset belongs;
+ * - a leading genre sets the kind and implies an image, and the rest of the
+ *   heading is the brief.
+ *
+ * A `Brief:` line always wins over the heading, so a genre-led block can still
+ * name a section.
+ */
+export function parseMediaRequests(
+  value = '',
+  ownerId = '',
+  ownerKind: MediaRequestOwnerKind = 'article',
+): MediaRequest[] {
   return parseSections(value)
     .map((section, index) => {
-      const [rawKind, ...rest] = section.heading.split(/[|·]/)
-      const kind = rawKind.trim().toLocaleLowerCase()
-      const brief = rest.join('·').trim()
+      const [rawLead, ...rest] = section.heading.split(/[|·]/)
+      const lead = rawLead.trim().toLocaleLowerCase()
+      const tail = rest.join('·').trim()
+      const leadIsMedium = (MEDIA_REQUEST_MEDIA as readonly string[]).includes(lead)
+      const labelledBrief = labelledValue(section.body, 'Brief')
+      const brief = labelledBrief || (leadIsMedium ? tail : tail)
       const priority = labelledValue(section.body, 'Priority').toLocaleLowerCase()
       const status = labelledValue(section.body, 'Status').toLocaleLowerCase()
       const rawBlock = labelledValue(section.body, 'Block').toLocaleLowerCase()
+      const rawKind = labelledValue(section.body, 'Kind').toLocaleLowerCase()
       const anchorQuote = labelledValue(section.body, 'Anchor')
-      const sectionName = labelledValue(section.body, 'Section')
+      // A medium-led heading names a location; a genre-led heading names the brief.
+      const sectionName = labelledValue(section.body, 'Section') || (leadIsMedium && labelledBrief ? tail : '')
       const sourceDirection = labelledValue(section.body, 'Source direction')
       const rightsNotes = labelledValue(section.body, 'Rights')
       const notes = labelledValue(section.body, 'Notes')
       const mediaId = labelledValue(section.body, 'Media id')
+      const kind = rawKind || (leadIsMedium ? '' : lead)
       return {
-        id: labelledValue(section.body, 'Id') || derivedId('img', articleId, brief, String(index)),
-        articleId,
-        kind: (IMAGE_RECOMMENDATION_KINDS as readonly string[]).includes(kind) ? kind as ImageRecommendation['kind'] : 'other',
+        id: labelledValue(section.body, 'Id') || derivedId('mrq', ownerId, brief, String(index)),
+        ownerId,
+        ownerKind,
+        medium: (leadIsMedium ? lead : 'image') as MediaRequestMedium,
+        kind: (MEDIA_REQUEST_KINDS as readonly string[]).includes(kind) ? kind as MediaRequestKind : 'other',
         brief,
         teachingPurpose: labelledValue(section.body, 'Purpose'),
-        priority: (IMAGE_RECOMMENDATION_PRIORITIES as readonly string[]).includes(priority) ? priority as ImageRecommendation['priority'] : 'strongly helpful',
-        status: (IMAGE_RECOMMENDATION_STATUSES as readonly string[]).includes(status) ? status as ImageRecommendation['status'] : 'needed',
+        priority: (MEDIA_REQUEST_PRIORITIES as readonly string[]).includes(priority) ? priority as MediaRequestPriority : 'strongly helpful',
+        status: (MEDIA_REQUEST_STATUSES as readonly string[]).includes(status) ? status as MediaRequestStatus : 'needed',
         ...(sectionName ? { section: sectionName } : {}),
-        ...((ANNOTATION_BLOCKS as readonly string[]).includes(rawBlock) ? { block: rawBlock as ImageRecommendation['block'] } : {}),
+        ...((ANNOTATION_BLOCKS as readonly string[]).includes(rawBlock) ? { block: rawBlock as MediaRequest['block'] } : {}),
         ...(anchorQuote ? { anchorQuote } : {}),
         ...(sourceDirection ? { sourceDirection } : {}),
         ...(rightsNotes ? { rightsNotes } : {}),
@@ -435,7 +467,7 @@ export function parseImageRecommendations(value = '', articleId = ''): ImageReco
         ...(mediaId ? { mediaId } : {}),
       }
     })
-    .filter((recommendation) => recommendation.brief)
+    .filter((request) => request.brief)
 }
 
 /** Parse "### exact callout text" blocks into per-callout evidence. */
@@ -608,41 +640,6 @@ export function parseLabQuestions(value = ''): LabQuestionDraft[] {
     .filter((question) => question.question && question.answers.length)
 }
 
-/**
- * Parse "### image|audio|video · target" blocks into unfulfilled media requests.
- *
- * Deliberately not written into `LabQuestionDraft.mediaUrl`: the runner renders
- * any non-empty `mediaUrl` as an image, so a placeholder there would show a
- * student a broken asset. A request is an instruction to a human and carries no
- * URL.
- */
-export function parsePracticalMediaRequests(value = ''): PracticalMediaRequest[] {
-  return parseSections(value)
-    .map((section, index) => {
-      const [rawKind, ...rest] = section.heading.split(/[|·]/)
-      const kind = rawKind.trim().toLocaleLowerCase()
-      const target = rest.join('·').trim() || 'station'
-      const priority = labelledValue(section.body, 'Priority').toLocaleLowerCase()
-      const status = labelledValue(section.body, 'Status').toLocaleLowerCase()
-      const sourceDirection = labelledValue(section.body, 'Source direction')
-      const rightsNotes = labelledValue(section.body, 'Rights')
-      const notes = labelledValue(section.body, 'Notes')
-      const brief = labelledValue(section.body, 'Brief')
-      return {
-        id: labelledValue(section.body, 'Id') || derivedId('pmr', target, brief, String(index)),
-        kind: (PRACTICAL_MEDIA_KINDS as readonly string[]).includes(kind) ? kind as PracticalMediaKind : 'image',
-        target,
-        brief,
-        teachingPurpose: labelledValue(section.body, 'Purpose'),
-        priority: (IMAGE_RECOMMENDATION_PRIORITIES as readonly string[]).includes(priority) ? priority as PracticalMediaRequest['priority'] : 'strongly helpful',
-        status: (IMAGE_RECOMMENDATION_STATUSES as readonly string[]).includes(status) ? status as PracticalMediaRequest['status'] : 'needed',
-        ...(sourceDirection ? { sourceDirection } : {}),
-        ...(rightsNotes ? { rightsNotes } : {}),
-        ...(notes ? { notes } : {}),
-      }
-    })
-    .filter((request) => request.brief)
-}
 
 /**
  * Build the runnable practical record.
@@ -650,14 +647,14 @@ export function parsePracticalMediaRequests(value = ''): PracticalMediaRequest[]
  * `PracticalRunner` reads `practicalData`, not the flat `fields` strings, so an
  * imported practical is only usable once this returns the right shape.
  */
-export function practicalDataFrom(values: Record<string, string>): PracticalAuthoringData {
+export function practicalDataFrom(values: Record<string, string>, ownerId = ''): PracticalAuthoringData {
   const type = values.type?.trim()
   const learningObjective = values.learning_objective?.trim()
   const shared = {
     ...emptyPracticalCommon(),
     references: importLines(values.references),
     conceptTags: practicalConceptTags(values),
-    mediaRequests: parsePracticalMediaRequests(values.media_needed),
+    mediaRequests: parseMediaRequests(values.media_recommendations || values.media_needed, ownerId, 'practical'),
     ...(learningObjective ? { learningObjective } : {}),
   }
   if (type === 'Clinical case') {
@@ -742,8 +739,8 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
     }
     errors.push(...annotationErrors(annotations, values))
 
-    const recommendationBlocks = parseSections(values.image_recommendations).length
-    const recommendations = parseImageRecommendations(values.image_recommendations)
+    const recommendationBlocks = parseSections(values.media_recommendations || values.image_recommendations).length
+    const recommendations = parseMediaRequests(values.media_recommendations || values.image_recommendations)
     if (recommendationBlocks > recommendations.length) {
       const dropped = recommendationBlocks - recommendations.length
       errors.push(`${dropped} image recommendation${dropped === 1 ? '' : 's'} have no brief after "### kind ·"`)
@@ -797,9 +794,9 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
     // fulfilled against a question that does not exist.
     const targets = new Set(parseSections(data.format === 'case' ? values.decisions : values.lab_questions).map((section) => section.heading.trim().toLowerCase()))
     data.mediaRequests.forEach((request) => {
-      const target = request.target.trim().toLowerCase()
+      const target = (request.section || 'station').trim().toLowerCase()
       if (target === 'station' || targets.has(target)) return
-      errors.push(`Media request "${request.brief}" names "${request.target}", which is not a question in this item`)
+      errors.push(`Media request "${request.brief}" names "${request.section}", which is not a question in this item`)
     })
   }
   return errors
@@ -855,7 +852,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const labels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
     const answers: QuestionAnswerDraft[] = labels.map((label) => ({ label, text: values[`answer_${label.toLowerCase()}`]?.trim() ?? '', explanation: values[`explanation_${label.toLowerCase()}`]?.trim() ?? '' }))
     const difficulty = ['Easy', 'Moderate', 'Hard', 'Challenging'].includes(values.difficulty) ? values.difficulty as QuestionTags['intendedDifficulty'] : 'Moderate'
-    return { ...base, title: values.question?.trim() || base.title, fields: { Topic: values.topic ?? '', Difficulty: difficulty, Vignette: values.vignette ?? '', Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '' }, questionData: { attachments: parseAttachments(values.attachments), correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel, answers, attachedImage: values.attached_image?.trim() ?? '', libraryIds: splitImportList(values.library_ids), resourceIds: splitImportList(values.resource_ids), tags: { module: values.module || base.subjectId, topic: values.topic || '', subtopic: values.subtopic || '', conceptIds: splitImportList(values.concept_ids), years: splitImportList(values.years), universityIds: splitImportList(values.universities), cognitiveEffort: ['Low', 'Medium', 'High'].includes(values.cognitive_effort) ? values.cognitive_effort as 'Low' | 'Medium' | 'High' : 'Medium', setting: ['Academic', 'Clinical', 'Both'].includes(values.setting) ? values.setting as 'Academic' | 'Clinical' | 'Both' : 'Both', intendedDifficulty: difficulty, clinicalReasoningLevel: numberInRange(values.reasoning_level, 2, 0, 5), inferredDifficulty: numberInRange(values.inferred_difficulty, 50, 0, 100), examRelevance: numberInRange(values.exam_relevance, 5, 0, 10), contextualConceptIds: splitImportList(values.contextual_concept_ids), questionType: values.question_type || undefined, mainConceptIds: splitImportList(values.main_concept), moduleIds: splitImportList(values.module), clinicalRelevance: clamp01(values.clinical_relevance), academicRelevance: clamp01(values.academic_relevance), cognitiveEffortScore: clamp01(values.cognitive_effort_score), examWeightByYear: parseWeightMap(values.exam_weight_by_year), questionOnlyFor: splitImportList(values.question_only_for) }, learningObjective: values.learning_objective || '', authorNotes: values.author_notes || '', sourceCitation: values.source_citation || '', estimatedSeconds: numberInRange(values.estimated_seconds, 90, 5, 3600), randomiseAnswers: !/^(no|false|0)$/i.test(values.randomise_answers?.trim() ?? '') } }
+    return { ...base, title: values.question?.trim() || base.title, fields: { Topic: values.topic ?? '', Difficulty: difficulty, Vignette: values.vignette ?? '', Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '' }, questionData: { attachments: parseAttachments(values.attachments), correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel, answers, attachedImage: values.attached_image?.trim() ?? '', libraryIds: splitImportList(values.library_ids), resourceIds: splitImportList(values.resource_ids), tags: { module: values.module || base.subjectId, topic: values.topic || '', subtopic: values.subtopic || '', conceptIds: splitImportList(values.concept_ids), years: splitImportList(values.years), universityIds: splitImportList(values.universities), cognitiveEffort: ['Low', 'Medium', 'High'].includes(values.cognitive_effort) ? values.cognitive_effort as 'Low' | 'Medium' | 'High' : 'Medium', setting: ['Academic', 'Clinical', 'Both'].includes(values.setting) ? values.setting as 'Academic' | 'Clinical' | 'Both' : 'Both', intendedDifficulty: difficulty, clinicalReasoningLevel: numberInRange(values.reasoning_level, 2, 0, 5), inferredDifficulty: numberInRange(values.inferred_difficulty, 50, 0, 100), examRelevance: numberInRange(values.exam_relevance, 5, 0, 10), contextualConceptIds: splitImportList(values.contextual_concept_ids), questionType: values.question_type || undefined, mainConceptIds: splitImportList(values.main_concept), moduleIds: splitImportList(values.module), clinicalRelevance: clamp01(values.clinical_relevance), academicRelevance: clamp01(values.academic_relevance), cognitiveEffortScore: clamp01(values.cognitive_effort_score), examWeightByYear: parseWeightMap(values.exam_weight_by_year), questionOnlyFor: splitImportList(values.question_only_for) }, mediaRequests: parseMediaRequests(values.media_recommendations, id, 'question'), learningObjective: values.learning_objective || '', authorNotes: values.author_notes || '', sourceCitation: values.source_citation || '', estimatedSeconds: numberInRange(values.estimated_seconds, 90, 5, 3600), randomiseAnswers: !/^(no|false|0)$/i.test(values.randomise_answers?.trim() ?? '') } }
   }
   if (kind === 'article') {
     // Sections are addressed by evidence spans, so their ids are derived from
@@ -874,7 +871,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const related = parseRelatedArticles(values.related_articles)
     const publishedSections = parseSections(values.published_sections, id.toLowerCase())
     const calloutEvidence = parseCalloutEvidence(values.callout_evidence)
-    const imageRecommendations = parseImageRecommendations(values.image_recommendations, id)
+    const mediaRequests = parseMediaRequests(values.media_recommendations || values.image_recommendations, id, 'article')
     // Per-pair link reasons live alongside the author's own field notes, so a
     // partial update that touches only one of the two keeps the other.
     const fieldNotes = { ...parseFieldNotes(values.field_notes), ...related.reasons }
@@ -925,7 +922,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         reviewer: text('reviewer'), finalPublisher: text('final_publisher'),
         lastReviewed: text('last_reviewed'), reviewDue: text('review_due'),
         media: values.media === undefined || !values.media.trim() ? undefined : parseArticleMedia(values.media),
-        imageRecommendations: imageRecommendations.length ? imageRecommendations : undefined,
+        mediaRequests: mediaRequests.length ? mediaRequests : undefined,
         calloutEvidence: Object.keys(calloutEvidence).length ? calloutEvidence : undefined,
         fieldNotes: Object.keys(fieldNotes).length ? fieldNotes : undefined,
         notes: text('notes'),

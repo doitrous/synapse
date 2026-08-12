@@ -95,7 +95,7 @@ export function materialiseNewItem(item: ManagedContentItem): ManagedContentItem
   // the key would vanish the moment the record was persisted.
   const present = [
     'publishedSections', 'publishedSummary', 'subtopicId', 'microtopicId', 'nanotopicId',
-    'universityNotes', 'imageRecommendations', 'calloutEvidence', 'fieldNotes',
+    'universityNotes', 'mediaRequests', 'calloutEvidence', 'fieldNotes',
     'lastReviewed', 'reviewDue', 'arabicTitle', 'notes',
   ]
   const filled: Dict = { ...data }

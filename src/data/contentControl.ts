@@ -89,49 +89,72 @@ export function isMediaReleased(item: ArticleMediaRecord): boolean {
   return item.releaseWithoutReview === true || mediaReleaseBlockers(item).length === 0
 }
 
-/* ---- Admin-only image recommendations ---------------------------------- */
+/* ---- Admin-only media requests ------------------------------------------ */
 
-export const IMAGE_RECOMMENDATION_PRIORITIES = ['required', 'strongly helpful', 'optional'] as const
-export const IMAGE_RECOMMENDATION_STATUSES = ['needed', 'planned', 'supplied', 'declined'] as const
-export const IMAGE_RECOMMENDATION_KINDS = [
+export const MEDIA_REQUEST_PRIORITIES = ['required', 'strongly helpful', 'optional'] as const
+export const MEDIA_REQUEST_STATUSES = ['needed', 'planned', 'supplied', 'declined'] as const
+export const MEDIA_REQUEST_OWNER_KINDS = ['article', 'question', 'practical'] as const
+
+/**
+ * Two axes, kept separate on purpose.
+ *
+ * `medium` is what to source — an image, a recording, a clip. `kind` is what
+ * genre of image it is, and it only means anything when the medium is an image.
+ * An earlier design folded `audio` and `video` into the genre list, which made
+ * "a histology field" and "a heart-sound recording" look like alternatives on
+ * one axis when they answer different questions.
+ */
+export const MEDIA_REQUEST_MEDIA = ['image', 'audio', 'video'] as const
+export const MEDIA_REQUEST_KINDS = [
   'diagram', 'anatomy plate', 'histology', 'flowchart', 'graph',
   'comparison table', 'imaging example', 'algorithm', 'clinical photograph', 'other',
 ] as const
 
-export type ImageRecommendationPriority = (typeof IMAGE_RECOMMENDATION_PRIORITIES)[number]
-export type ImageRecommendationStatus = (typeof IMAGE_RECOMMENDATION_STATUSES)[number]
-export type ImageRecommendationKind = (typeof IMAGE_RECOMMENDATION_KINDS)[number]
+export type MediaRequestPriority = (typeof MEDIA_REQUEST_PRIORITIES)[number]
+export type MediaRequestStatus = (typeof MEDIA_REQUEST_STATUSES)[number]
+export type MediaRequestMedium = (typeof MEDIA_REQUEST_MEDIA)[number]
+export type MediaRequestKind = (typeof MEDIA_REQUEST_KINDS)[number]
+export type MediaRequestOwnerKind = (typeof MEDIA_REQUEST_OWNER_KINDS)[number]
 
 /**
- * A visual an article needs but does not yet have.
+ * An asset a piece of content needs but does not yet have.
+ *
+ * One type serves articles, questions and practicals. They had three — an
+ * article "image recommendation", a practical "media request" and a proposed
+ * question equivalent — which is three names for one editorial instruction and
+ * three backlogs to work through.
  *
  * This is deliberately NOT an `ArticleMediaRecord`. That type is a student media
  * record whose release is governed by `isMediaReleased`, so an unfulfilled
- * recommendation stored there would sit one `releaseWithoutReview` flag away
- * from a student. A recommendation is an editorial instruction to a human; it
- * carries no URL and never reaches a published projection. `mediaId` links it to
- * the real media once that media exists.
+ * request stored there would sit one `releaseWithoutReview` flag away from a
+ * student. A request is an instruction to a human; it carries no URL and never
+ * reaches a published projection. `mediaId` links it to the real media once that
+ * media exists.
  */
-export interface ImageRecommendation {
+export interface MediaRequest {
   id: string
-  articleId: string
-  kind: ImageRecommendationKind
+  /** The article, question or practical that needs the asset. */
+  ownerId: string
+  ownerKind: MediaRequestOwnerKind
+  medium: MediaRequestMedium
+  /** Genre of image. Carried for every request but only meaningful for images. */
+  kind: MediaRequestKind
   /** What to draw or source, in one line. */
   brief: string
   /** What a student should be able to do after seeing it, and why prose cannot carry it. */
   teachingPurpose: string
-  /** Which section this belongs beside. */
+  /** Where within the owner this belongs — an article section, or a practical's `###` block. */
   section?: string
   block?: 'summary' | 'body' | 'hold' | 'trap'
-  /** Verbatim article text this visual illustrates, when it belongs to one phrase. */
+  /** Verbatim owner text this asset illustrates, when it belongs to one phrase. */
   anchorQuote?: string
-  priority: ImageRecommendationPriority
-  status: ImageRecommendationStatus
+  priority: MediaRequestPriority
+  status: MediaRequestStatus
   notes?: string
   /** Where a fulfiller should look, e.g. "openly licensed anatomy atlas". */
   sourceDirection?: string
   rightsNotes?: string
-  /** Set once an `ArticleMediaRecord` fulfils this recommendation. */
+  /** Set once a real media record fulfils this request. */
   mediaId?: string
 }
 
@@ -187,6 +210,8 @@ export interface QuestionAuthoringData {
   libraryIds: string[]
   resourceIds: string[]
   tags: QuestionTags
+  /** Admin-only. Assets this question needs before it can publish — see `MediaRequest`. */
+  mediaRequests?: MediaRequest[]
   learningObjective: string
   authorNotes: string
   sourceCitation: string
@@ -251,8 +276,8 @@ export interface ArticleAuthoringData {
   evidenceGaps?: string[]
   relatedArticleIds?: string[]
   media?: ArticleMediaRecord[]
-  /** Admin-only. Never projected to a student — see `ImageRecommendation`. */
-  imageRecommendations?: ImageRecommendation[]
+  /** Admin-only. Never projected to a student — see `MediaRequest`. */
+  mediaRequests?: MediaRequest[]
   /** Evidence for individual `holdThese` / `loseTheMark` lines, keyed by exact text. */
   calloutEvidence?: Record<string, CalloutEvidence>
   notes?: string
@@ -288,41 +313,17 @@ export interface PracticalConceptTags {
   contextualConceptIds: string[]
 }
 
-export const PRACTICAL_MEDIA_KINDS = ['image', 'audio', 'video'] as const
-export type PracticalMediaKind = (typeof PRACTICAL_MEDIA_KINDS)[number]
-
-/**
- * An asset a practical needs but does not yet have.
- *
- * The same editorial instrument as `ImageRecommendation`, for the practical
- * surface: an instruction to a human, carrying no URL. It is stored apart from
- * `LabQuestionDraft.mediaUrl` on purpose — the runner renders any non-empty
- * `mediaUrl` as an `<img>`, so a placeholder written there would show a student
- * a broken image. `target` names the `###` block the asset belongs to, or
- * `station` for an item-level asset.
- */
-export interface PracticalMediaRequest {
-  id: string
-  kind: PracticalMediaKind
-  /** The `###` heading this belongs to, or `station` for the item as a whole. */
-  target: string
-  /** What to source or draw, in one line. */
-  brief: string
-  /** What a student should be able to do once they can see it. */
-  teachingPurpose: string
-  priority: ImageRecommendationPriority
-  status: ImageRecommendationStatus
-  /** Where a fulfiller should look, e.g. "openly licensed ECG library". */
-  sourceDirection?: string
-  rightsNotes?: string
-  notes?: string
-}
-
 /** What all three practical formats carry, whatever their shape. */
 export interface PracticalCommon {
   references: string[]
   conceptTags: PracticalConceptTags
-  mediaRequests: PracticalMediaRequest[]
+  /**
+   * Assets the station still needs. Stored apart from `LabQuestionDraft.mediaUrl`
+   * on purpose — the runner renders any non-empty `mediaUrl` as an `<img>`, so a
+   * placeholder written there would show a student a broken image. `section`
+   * names the `###` block the asset belongs to, or `station` for the item.
+   */
+  mediaRequests: MediaRequest[]
   /** What a student who passes this item has demonstrated. */
   learningObjective?: string
 }

@@ -2,8 +2,8 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
   IMPORT_SCHEMAS, importRowToContent, validateImportRow,
-  parseAnnotations, parseImageRecommendations, parseCalloutEvidence, parseRelatedArticles, parseFieldNotes,
-  parseDecisions, parseLabQuestions, parsePracticalMediaRequests,
+  parseAnnotations, parseMediaRequests, parseCalloutEvidence, parseRelatedArticles, parseFieldNotes,
+  parseDecisions, parseLabQuestions,
 } from './bulkImport.ts'
 import { mergeContentItem, materialiseNewItem } from './importMerge.ts'
 import { listDirective, applyListDirective, optionalList } from './importSemantics.ts'
@@ -82,10 +82,10 @@ test('an unknown relation type is a row error', () => {
   assert.ok(errors.some((error) => /is not a relation type/.test(error)), errors.join(' | '))
 })
 
-/* ---- image recommendations --------------------------------------------- */
+/* ---- media requests ----------------------------------------------------- */
 
-test('an image recommendation parses with its priority and status', () => {
-  const [recommendation] = parseImageRecommendations(
+test('a media request parses with its priority and status', () => {
+  const [recommendation] = parseMediaRequests(
     `### anatomy plate · Coronary artery territories mapped to ECG leads
 Purpose: A student cannot hold the lead-to-territory mapping from prose.
 Priority: required
@@ -98,7 +98,9 @@ Rights: must be CC-BY or public domain`,
   assert.equal(recommendation.kind, 'anatomy plate')
   assert.equal(recommendation.priority, 'required')
   assert.equal(recommendation.status, 'needed')
-  assert.equal(recommendation.articleId, 'ART-CVS-CORONARY-CIRCULATION')
+  assert.equal(recommendation.ownerId, 'ART-CVS-CORONARY-CIRCULATION')
+  assert.equal(recommendation.ownerKind, 'article')
+  assert.equal(recommendation.medium, 'image')
   assert.match(recommendation.teachingPurpose, /cannot hold/)
 })
 
@@ -188,7 +190,9 @@ const FULL_ARTICLE: Record<string, string> = {
   last_reviewed: '2026-08-11',
   review_due: '2027-08-11',
   media: '### image · https://example.org/ctpa.png\nCaption: CTPA showing a filling defect\nAlt: Axial CT with a filling defect\nRights: CC-BY\nNecessity: The filling defect is the diagnosis',
-  image_recommendations: '### algorithm · Wells score decision pathway\nPurpose: The branching cannot be read reliably as prose.\nPriority: required\nStatus: needed',
+  media_recommendations: '### algorithm · Wells score decision pathway\nPurpose: The branching cannot be read reliably as prose.\nPriority: required\nStatus: needed',
+  // The legacy key stays accepted so the authored SYS-FND batches keep importing.
+  image_recommendations: '### diagram · Superseded by media_recommendations above\nPurpose: Present only to prove the legacy key is still read.\nPriority: optional\nStatus: needed',
   annotations: '### definition_of · med.concept.pe\nQuote: Occlusion of the pulmonary arterial tree\nBlock: body',
   related_concepts: 'med.concept.pe',
   related_articles: 'ART-A: Explains the mechanism.',
@@ -227,8 +231,8 @@ test('a fully populated article row imports with every field present', () => {
   assert.equal(data.lastReviewed, '2026-08-11')
   assert.equal(data.reviewDue, '2027-08-11')
   assert.equal(data.media?.length, 1)
-  assert.equal(data.imageRecommendations?.length, 1)
-  assert.equal(data.imageRecommendations?.[0].priority, 'required')
+  assert.equal(data.mediaRequests?.length, 1)
+  assert.equal(data.mediaRequests?.[0].priority, 'required')
   assert.equal(data.annotations.length, 1)
   assert.equal(data.annotations[0].conceptId, 'med.concept.pe')
   assert.deepEqual(data.relatedArticleIds, ['ART-A'])
@@ -261,7 +265,7 @@ test('a partial update leaves untouched nested fields alone', () => {
   assert.equal(data.annotations.length, 1)
   assert.deepEqual(data.claimIds, ['claim-1'])
   assert.deepEqual(data.aliases, ['PE', 'Pulmonary thromboembolism'])
-  assert.equal(data.imageRecommendations?.length, 1)
+  assert.equal(data.mediaRequests?.length, 1)
   assert.equal(data.calloutEvidence?.['Ordering D-dimer when CTPA is already indicated.']?.reviewedBy, 'Dr Omar')
   assert.equal(data.reviewer, 'Dr Omar')
   assert.equal(data.media?.length, 1)
@@ -385,9 +389,14 @@ test('a media request parses, and one naming no question is rejected', () => {
     'Priority: required',
     'Status: needed',
   ].join('\n')
-  const [request] = parsePracticalMediaRequests(media)
-  assert.equal(request.kind, 'image')
-  assert.equal(request.target, 'Immediate action')
+  const [request] = parseMediaRequests(media, 'PRA-CVS-1', 'practical')
+  // Medium and genre are separate axes: a medium-led heading names the block the
+  // asset belongs to, and leaves the genre unstated rather than guessing one.
+  assert.equal(request.medium, 'image')
+  assert.equal(request.kind, 'other')
+  assert.equal(request.section, 'Immediate action')
+  assert.equal(request.ownerId, 'PRA-CVS-1')
+  assert.equal(request.ownerKind, 'practical')
   assert.equal(request.priority, 'required')
   assert.equal(request.status, 'needed')
 
@@ -405,14 +414,15 @@ test('a practical carries its concept tags and media requests through the import
     main_concept: 'CON-CVS-AAA',
     contextual_concept_ids: 'CON-CVS-ZZZ',
     learning_objective: 'Act before the diagnosis is confirmed.',
-    media_needed: '### audio · station\nBrief: Heart sounds\nPurpose: Cannot be described in prose.\nPriority: optional\nStatus: needed',
+    media_needed: '### audio · station\nBrief: Heart sounds\nKind: clinical photograph\nPurpose: Cannot be described in prose.\nPriority: optional\nStatus: needed',
   }, 'row-p')
   const data = item.practicalData!
   assert.deepEqual(data.conceptTags.mainConceptIds, ['CON-CVS-AAA'])
   assert.deepEqual(data.conceptTags.contextualConceptIds, ['CON-CVS-ZZZ'])
   assert.equal(data.learningObjective, 'Act before the diagnosis is confirmed.')
-  assert.equal(data.mediaRequests[0].kind, 'audio')
-  assert.equal(data.mediaRequests[0].target, 'station')
+  assert.equal(data.mediaRequests[0].medium, 'audio')
+  assert.equal(data.mediaRequests[0].kind, 'clinical photograph')
+  assert.equal(data.mediaRequests[0].section, 'station')
   // The fourth band must survive; the student list reads this string.
   assert.equal(item.fields.Difficulty, 'Challenging')
 })

@@ -161,7 +161,7 @@ function TaggingPanel({ data, onChange }: { data: PracticalAuthoringData; onChan
     {data.mediaRequests.length > 0 && <EditorShell title="Media still needed" hint="Admin-only. Never shown to a student, and never rendered as media until real media is attached.">
       <ul className="divide-y divide-line">{data.mediaRequests.map((request) => <li key={request.id} className="flex flex-wrap items-start gap-2 py-2.5">
         <Badge tone="outline">{request.kind}</Badge>
-        <div className="min-w-0 flex-1"><p className="text-[13px] font-medium text-ink">{request.brief}</p><p className="mt-0.5 text-[11.5px] text-ink-3">{request.target === 'station' ? 'Whole item' : request.target}{request.teachingPurpose ? ` · ${request.teachingPurpose}` : ''}</p></div>
+        <div className="min-w-0 flex-1"><p className="text-[13px] font-medium text-ink">{request.brief}</p><p className="mt-0.5 text-[11.5px] text-ink-3">{!request.section || request.section === 'station' ? 'Whole item' : request.section}{request.teachingPurpose ? ` · ${request.teachingPurpose}` : ''}</p></div>
         <span className="text-[11px] text-ink-3">{request.priority} · {request.status}</span>
       </li>)}</ul>
     </EditorShell>}

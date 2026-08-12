@@ -113,7 +113,13 @@ about.
 
 | Field key | Source of truth | Rule |
 |---|---|---|
-| `media_needed` | `PracticalCommon.mediaRequests` | Admin-only. Assets this item still needs, one `### kind · target` block each. Never shown to a student. |
+| `media_recommendations` | `PracticalCommon.mediaRequests` | Admin-only. Assets this item still needs, one `### medium · block heading` each. Never shown to a student. |
+| `media_needed` | `PracticalCommon.mediaRequests` | The former name for the same field. Still read, so authored batches keep importing; write `media_recommendations` in anything new. |
+
+Articles, questions and practicals share one `MediaRequest` record and one
+backlog at **Library Setup → Media requests**. Lead the heading with `image`,
+`audio` or `video` and name the `###` block the asset belongs to — or `station`
+for the item as a whole — then put the brief on its own `Brief:` line.
 
 ```
 ### image · Which territory is infarcted

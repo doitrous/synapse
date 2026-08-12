@@ -81,6 +81,36 @@ British spelling. Set status to Draft.
 | `library_ids` | `questionData.libraryIds` | Articles that teach the answer. |
 | `resource_ids` | `questionData.resourceIds` | Resources that teach it. |
 
+Concept IDs are `CON-<SUBJECT>-<HASH>` — for example
+`CON-CVS-7C9D59D257AC65`. Read them from the concept graph; never mint one, and
+never write the `med.concept.<slug>` shape, which is illustrative only.
+
+### Media the question needs but does not have
+
+| Field key | Source of truth | Rule |
+|---|---|---|
+| `media_recommendations` | `questionData.mediaRequests` | Admin-only. One `### medium-or-kind · rest` block per asset. Never shown to a student. |
+
+```markdown
+## media_recommendations
+### audio · Auscultation recording of a mid-systolic murmur
+Purpose: The item asks for the shape of the sound over time. No description reproduces what a crescendo–decrescendo murmur sounds like.
+Priority: required
+Status: needed
+Source direction: openly licensed cardiac auscultation library
+Rights: must be CC-BY or public domain
+```
+
+Articles, questions and practicals share one `MediaRequest` record and one
+backlog at **Library Setup → Media requests**. Lead with `image`, `audio` or
+`video` to set the medium, or with a genre such as `diagram` or `histology` to
+imply an image and read the rest of the heading as the brief.
+
+Flag an asset only where **the visual or the recording is the question**. If the
+item can be answered from the prose alone, the asset is decorative. `Priority:
+required` means the question cannot publish until the asset exists — set it
+honestly, because it gates release.
+
 Getting `main_concept` vs `contextual_concept_ids` wrong is the most damaging
 error in this template: it silently corrupts a student's mastery profile.
 
@@ -88,7 +118,7 @@ error in this template: it silently corrupts a student's mastery profile.
 
 | Field key | Source of truth | Rule |
 |---|---|---|
-| `difficulty` | `tags.intendedDifficulty` | What you *intended*: `Easy`, `Moderate`, `Hard`. |
+| `difficulty` | `tags.intendedDifficulty` | What you *intended*: `Easy`, `Moderate`, `Hard`, `Challenging`. `Hard` is a concept a strong student gets right; `Challenging` needs several steps held at once. Anything else silently imports as `Moderate`. |
 | `inferred_difficulty` | `tags.inferredDifficulty` | Estimated **percent who answer correctly**, 0–100. Higher = easier. |
 | `cognitive_effort` | `tags.cognitiveEffort` | `Low`, `Medium`, `High`. |
 | `cognitive_effort_score` | `tags.cognitiveEffortScore` | Finer 0–1 version of the same. |
@@ -188,13 +218,13 @@ A
 <Why this is wrong, and which specific misconception picks it.>
 
 ## main_concept
-med.concept.<slug>
+CON-<SUBJECT>-<HASH>
 
 ## concept_ids
-med.concept.<slug>
+CON-<SUBJECT>-<HASH>
 
 ## contextual_concept_ids
-med.concept.<slug>
+CON-<SUBJECT>-<HASH>
 
 ## library_ids
 <article id>

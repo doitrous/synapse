@@ -122,11 +122,7 @@ if (kind === 'question') {
   const articles = new Map(ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item]))
   const resources = new Set(ledger.filter((item) => item.kind === 'resource').map((item) => item.id))
 
-  // `media_recommendations` is authored ahead of the importer field that will
-  // carry it. The Markdown parser drops unknown keys in silence, so without this
-  // the blocks would vanish at import with nothing said. Known, not yet wired.
-  const PENDING_FIELDS = new Set(['media_recommendations'])
-  const known = new Set([...IMPORT_SCHEMAS.question.fields.map((field) => field.key), ...PENDING_FIELDS])
+  const known = new Set(IMPORT_SCHEMAS.question.fields.map((field) => field.key))
   const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']
   const built = []
   const difficultyCounts = {}
@@ -206,7 +202,8 @@ if (kind === 'question') {
   const ids = built.map((item) => item.id)
   for (const id of ids) if (ids.filter((other) => other === id).length > 1) errors.push(`duplicate id ${id} within the file`)
   if (mediaFlagged) {
-    notes.push(`${mediaFlagged} question${mediaFlagged === 1 ? '' : 's'} carry media_recommendations, which the importer does not read yet — they will not survive import until the question media field ships`)
+    const required = built.reduce((sum, item) => sum + (item.questionData.mediaRequests ?? []).filter((request) => request.priority === 'required').length, 0)
+    notes.push(`${mediaFlagged} question${mediaFlagged === 1 ? '' : 's'} need media before they can publish, ${required} of them required — see Library Setup → Media requests`)
   }
 
   console.log(JSON.stringify({
@@ -389,7 +386,7 @@ if (kind === 'article') {
     file, kind, items: rows.length,
     fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
     annotations: built.reduce((sum, item) => sum + item.articleData.annotations.length, 0),
-    imageRecommendations: built.reduce((sum, item) => sum + (item.articleData.imageRecommendations?.length ?? 0), 0),
+    mediaRequests: built.reduce((sum, item) => sum + (item.articleData.mediaRequests?.length ?? 0), 0),
     calloutsWithEvidence: built.reduce((sum, item) => sum + Object.keys(item.articleData.calloutEvidence ?? {}).length, 0),
     errors,
   }, null, 1))
