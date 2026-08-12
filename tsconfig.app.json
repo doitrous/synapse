@@ -23,5 +23,8 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  /* Unit tests run on Node (`npm test`), not in the browser bundle, so they are
+     checked there rather than against the app's DOM-only lib. */
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx"]
 }

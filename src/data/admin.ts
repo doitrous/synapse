@@ -112,75 +112,9 @@ export const campaigns = API_MODE ? [] : [
   { id: 'm4', subject: 'Welcome to your Year 3 curriculum', status: 'Draft', recipients: 284, openRate: 0, when: '—' },
 ]
 
-export type AutomationCategory =
-  | 'Onboarding'
-  | 'Study & learning'
-  | 'Collaboration'
-  | 'Billing & subscription'
-  | 'Security & account'
-  | 'Privacy & data'
-  | 'Operations'
+/* Automations moved to ./emailAutomations.ts — they are configuration, not
+ * demo content, so they must be visible in live mode and are persisted there. */
 
-export interface Automation {
-  id: string
-  name: string
-  description: string
-  trigger: string
-  enabled: boolean
-  category: AutomationCategory
-  audience: 'student' | 'admin'
-}
-
-/** The order categories are rendered in. */
-export const automationCategories: AutomationCategory[] = [
-  'Onboarding',
-  'Study & learning',
-  'Collaboration',
-  'Billing & subscription',
-  'Security & account',
-  'Privacy & data',
-  'Operations',
-]
-
-export const automations: Automation[] = API_MODE ? [] : [
-  // Onboarding
-  { id: 'au-welcome', name: 'Welcome to Synapse', description: 'The first email a new student receives after signing up.', trigger: 'On sign-up', enabled: true, category: 'Onboarding', audience: 'student' },
-
-  // Study & learning
-  { id: 'au-assessment', name: 'Your assessment result is ready', description: 'Sent when an assessment has been marked and results are published.', trigger: 'Assessment graded', enabled: true, category: 'Study & learning', audience: 'student' },
-  { id: 'au-review-due', name: 'A Review is Due', description: 'Nudges the student when spaced-repetition reviews come due.', trigger: 'Reviews due', enabled: true, category: 'Study & learning', audience: 'student' },
-  { id: 'au-study-session', name: 'Your Planned Study Session', description: 'Reminder shortly before a planned study block on the calendar.', trigger: '30 min before block', enabled: true, category: 'Study & learning', audience: 'student' },
-  { id: 'au-schedule-changed', name: 'Your Curriculum Schedule Changed', description: 'Notifies students when the curriculum calendar is updated.', trigger: 'Schedule changed', enabled: true, category: 'Study & learning', audience: 'student' },
-
-  // Collaboration
-  { id: 'au-study-invite', name: 'A Synapse Study Invitation', description: 'Invites a student to a shared Study Together session.', trigger: 'Study invite sent', enabled: true, category: 'Collaboration', audience: 'student' },
-
-  // Billing & subscription
-  { id: 'au-sub-cancelled', name: 'Synapse Subscription cancelled', description: 'Confirms a subscription has been cancelled.', trigger: 'Subscription cancelled', enabled: true, category: 'Billing & subscription', audience: 'student' },
-  { id: 'au-dispute', name: 'Payment Dispute Reported', description: 'Notifies of a reported payment dispute or chargeback.', trigger: 'Dispute opened', enabled: true, category: 'Billing & subscription', audience: 'student' },
-  { id: 'au-grace', name: 'Your Synapse Grace Period Started', description: 'A failed payment has entered its grace period before access is limited.', trigger: 'Grace period started', enabled: true, category: 'Billing & subscription', audience: 'student' },
-  { id: 'au-payment-attention', name: 'Synapse Payment Needs Attention', description: 'A payment failed and the student needs to update their method.', trigger: 'Payment failed', enabled: true, category: 'Billing & subscription', audience: 'student' },
-  { id: 'au-receipt', name: 'Synapse Payment Receipt', description: 'Receipt for a successful payment.', trigger: 'Payment succeeded', enabled: true, category: 'Billing & subscription', audience: 'student' },
-  { id: 'au-refund', name: 'Synapse Refund Update', description: 'Status update on a requested refund.', trigger: 'Refund processed', enabled: true, category: 'Billing & subscription', audience: 'student' },
-  { id: 'au-renewal', name: 'Upcoming Synapse Renewal', description: 'Reminder ahead of an automatic renewal.', trigger: '3 days to renewal', enabled: true, category: 'Billing & subscription', audience: 'student' },
-  { id: 'au-trial-ending', name: 'Your Synapse Trial is Ending', description: 'Reminder that a free trial is about to end.', trigger: '2 days to trial end', enabled: true, category: 'Billing & subscription', audience: 'student' },
-
-  // Security & account
-  { id: 'au-security-changed', name: 'Your Synapse Security Changed', description: 'Confirms a change to account security settings.', trigger: 'Security setting changed', enabled: true, category: 'Security & account', audience: 'student' },
-  { id: 'au-2fa-added', name: 'A 2-Factor Authentication was Added to Your Account', description: 'Confirms two-factor authentication was enabled.', trigger: '2FA enabled', enabled: true, category: 'Security & account', audience: 'student' },
-  { id: 'au-2fa-removed', name: 'A 2-Factor Authentication was Removed From Your Account', description: 'Confirms two-factor authentication was disabled.', trigger: '2FA disabled', enabled: true, category: 'Security & account', audience: 'student' },
-  { id: 'au-new-signin', name: 'New Synapse Sign-In from a New Device', description: 'Alerts on a sign-in from an unrecognised device.', trigger: 'New device sign-in', enabled: true, category: 'Security & account', audience: 'student' },
-
-  // Privacy & data
-  { id: 'au-export', name: 'Your Synapse Export is Ready', description: 'A requested data export is ready to download.', trigger: 'Export completed', enabled: true, category: 'Privacy & data', audience: 'student' },
-  { id: 'au-privacy', name: 'Synapse Privacy Request Update', description: 'Update on a privacy or data request (access, deletion).', trigger: 'Privacy request updated', enabled: true, category: 'Privacy & data', audience: 'student' },
-
-  // Operations
-  { id: 'au-incident', name: 'Synapse Operational Incident', description: 'Alerts admins to an operational incident.', trigger: 'Incident opened', enabled: true, category: 'Operations', audience: 'admin' },
-  { id: 'au-provider-outage', name: 'Synapse Provider Outage', description: 'Notifies of a third-party provider outage affecting service.', trigger: 'Provider outage', enabled: true, category: 'Operations', audience: 'admin' },
-  { id: 'au-review-assigned', name: 'A Synapse Review is Assigned', description: 'Assigns a content review task to a reviewer.', trigger: 'Review assigned', enabled: true, category: 'Operations', audience: 'admin' },
-  { id: 'au-support', name: 'Synapse Support Update', description: 'Update on a support ticket.', trigger: 'Support ticket updated', enabled: true, category: 'Operations', audience: 'student' },
-]
 
 /* ---- Payments & finance ------------------------------------------------ */
 

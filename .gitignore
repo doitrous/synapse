@@ -31,3 +31,6 @@ dist-ssr
 # Local demo build
 demo-dist
 server/node_modules
+
+# Personal Claude Code settings (may contain machine-specific permissions)
+.claude/settings.local.json

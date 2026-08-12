@@ -110,18 +110,33 @@ export async function apiUploadMedicalResource(resourceId: string, file: File): 
 }
 
 /** Read a state document by key. Returns null when unset. */
-export async function getState<T>(key: string): Promise<T | null> {
-  try { const r = await apiGet<{ value: T | null }>(`/state/${encodeURIComponent(key)}`); return r.value }
-  catch { return null }
+/**
+ * A stored document plus when the server last changed it. The timestamp is what
+ * lets a client tell whether its own crash-recovery copy is actually newer.
+ * `updatedAt` is null when the key has never been written, or when an older
+ * server has not been redeployed yet.
+ */
+export interface RemoteState<T> {
+  value: T | null
+  updatedAt: string | null
+}
+
+export async function getState<T>(key: string): Promise<RemoteState<T>> {
+  try {
+    const r = await apiGet<{ value: T | null; updatedAt?: string | null }>(`/state/${encodeURIComponent(key)}`)
+    return { value: r.value, updatedAt: r.updatedAt ?? null }
+  } catch { return { value: null, updatedAt: null } }
 }
 /** Write a state document by key. */
 export function putState(key: string, value: unknown): Promise<unknown> {
   return apiPut(`/state/${encodeURIComponent(key)}`, { value })
 }
 
-export async function getUserState<T>(key: string): Promise<T | null> {
-  try { const r = await apiGet<{ value: T | null }>(`/user-state/${encodeURIComponent(key)}`); return r.value }
-  catch { return null }
+export async function getUserState<T>(key: string): Promise<RemoteState<T>> {
+  try {
+    const r = await apiGet<{ value: T | null; updatedAt?: string | null }>(`/user-state/${encodeURIComponent(key)}`)
+    return { value: r.value, updatedAt: r.updatedAt ?? null }
+  } catch { return { value: null, updatedAt: null } }
 }
 
 export function putUserState(key: string, value: unknown, keepalive = false): Promise<unknown> {

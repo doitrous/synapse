@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { API_MODE, getState, getUserState, putState, putUserState, stateOwnerId } from './api'
 import { isUserOwnedState } from './stateOwnership'
+import { recoveryCopyWins } from './statePrecedence'
 
 /**
  * Small persistence boundary. Two modes:
@@ -84,13 +85,23 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
         if (pending) recovered = JSON.parse(pending) as { value: T; savedAt: string }
       } catch { /* ignore malformed recovery data */ }
 
-      if (recovered) {
+      // The recovery copy may only win when it is genuinely newer than the stored
+      // document — see recoveryCopyWins for why, and statePrecedence.test.ts.
+      if (recovered && recoveryCopyWins(recovered.savedAt, remote.updatedAt)) {
         const serialized = JSON.stringify(recovered.value)
         queued.current = { serialized, value: recovered.value }
         setValue(recovered.value)
-      } else if (remote != null) {
-        lastWritten.current = JSON.stringify(remote)
-        setValue(remote)
+      } else {
+        // The server is authoritative: drop the superseded recovery copy so it
+        // cannot be replayed on a later load.
+        if (recovered) {
+          queued.current = null
+          try { if (recoveryKeyRef.current) localStorage.removeItem(recoveryKeyRef.current) } catch { /* ignore */ }
+        }
+        if (remote.value != null) {
+          lastWritten.current = JSON.stringify(remote.value)
+          setValue(remote.value)
+        }
       }
       hydrated.current = true
       void flushRef.current()

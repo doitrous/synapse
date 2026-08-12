@@ -94,9 +94,12 @@ app.get('/api/state/:key', wrap(async (req, res) => {
     if (req.identity?.role !== 'admin') return res.status(403).json({ error: 'admin role required' })
     if (!req.identity.bypass && req.identity.aal !== 'aal2') return res.status(403).json({ error: 'mfa_required' })
   }
-  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [req.params.key])
-  if (!rows.length) return res.json({ value: null })
-  try { res.json({ value: JSON.parse(rows[0].v) }) } catch { res.json({ value: null }) }
+  // `updatedAt` lets the client decide whether its crash-recovery copy is newer
+  // than the stored document. Without it a stale browser silently wins and
+  // re-uploads old data over a newer server-side write.
+  const [rows] = await pool.query('SELECT v, updated_at AS updatedAt FROM app_state WHERE k = ?', [req.params.key])
+  if (!rows.length) return res.json({ value: null, updatedAt: null })
+  try { res.json({ value: JSON.parse(rows[0].v), updatedAt: rows[0].updatedAt }) } catch { res.json({ value: null, updatedAt: rows[0].updatedAt }) }
 }))
 
 app.put('/api/state/:key', requireAdmin, wrap(async (req, res) => {
@@ -133,11 +136,11 @@ app.delete('/api/state/:key', requireAdmin, wrap(async (req, res) => {
 
 app.get('/api/user-state/:key', wrap(async (req, res) => {
   const [rows] = await pool.query(
-    'SELECT v FROM user_state WHERE user_id = ? AND k = ?',
+    'SELECT v, updated_at AS updatedAt FROM user_state WHERE user_id = ? AND k = ?',
     [req.identity.id, req.params.key],
   )
-  if (!rows.length) return res.json({ value: null })
-  try { res.json({ value: JSON.parse(rows[0].v) }) } catch { res.json({ value: null }) }
+  if (!rows.length) return res.json({ value: null, updatedAt: null })
+  try { res.json({ value: JSON.parse(rows[0].v), updatedAt: rows[0].updatedAt }) } catch { res.json({ value: null, updatedAt: rows[0].updatedAt }) }
 }))
 
 app.put('/api/user-state/:key', wrap(async (req, res) => {

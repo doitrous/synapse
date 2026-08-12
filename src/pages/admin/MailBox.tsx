@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { Mail, Inbox, Send, Plus, Paperclip, Download, X, RefreshCw, AtSign, Info, Loader2, ChevronLeft } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Mail, Inbox, Send, Plus, Paperclip, Download, X, RefreshCw, AtSign, Info, Loader2, ChevronLeft, Zap } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -88,8 +89,8 @@ export function MailBox() {
     <PageContainer className="max-w-[92rem]">
       <PageHeader
         title="Mail Box"
-        description="Send and receive email from your Synapse addresses, with attachments."
-        actions={<><Button variant="secondary" size="md" iconLeft={RefreshCw} onClick={() => void load()}>Refresh</Button><Button variant="primary" size="md" iconLeft={Plus} onClick={() => { setComposing(true); setSelected(null) }}>Compose</Button></>}
+        description="Every message sent and received — automations, campaigns and replies — with attachments."
+        actions={<><Link to="/admin/email"><Button variant="secondary" size="md" iconLeft={Zap}>Automations</Button></Link><Button variant="secondary" size="md" iconLeft={RefreshCw} onClick={() => void load()}>Refresh</Button><Button variant="primary" size="md" iconLeft={Plus} onClick={() => { setComposing(true); setSelected(null) }}>Compose</Button></>}
       />
 
       {notice && (
