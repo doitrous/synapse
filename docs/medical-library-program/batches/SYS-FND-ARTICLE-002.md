@@ -493,7 +493,7 @@ med.concept.apoptosis
 ## primary_node_id
 SYS-FND-T01-S02-M04
 ## secondary_node_ids
-DIS-PAT | DIS-HIS
+DIS-PAT | DIS-HIS | SYS-FND-T03-S01-M03
 ## universities
 kau
 ## years
@@ -521,7 +521,7 @@ Dr Omar
 ## review_due
 2029-08-12
 ## notes
-The necrosis comparison is the highest-yield part of this article and the least evidenced. It should be the first target of the next evidence batch.
+The necrosis comparison is the highest-yield part of this article and the least evidenced. It should be the first target of the next evidence batch. The taxonomy carries "Apoptosis" as an atomic article home at two nodes — SYS-FND-T01-S02-M04 under cell biology and SYS-FND-T03-S01-M03 under general pathology. This article serves both and is placed at the second as a secondary node, rather than writing a near-duplicate. The same duplication exists for "Receptors" at SYS-FND-T01-S02-M02 and SYS-FND-T04-S02-M01, where two genuinely different articles were written.
 ## field_notes
 moduleIds: no verified live module ID for the foundation module yet
 questionIds: assessment authoring is blocked until GATE-LIBRARY-001
