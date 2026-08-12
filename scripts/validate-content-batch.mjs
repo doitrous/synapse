@@ -54,6 +54,7 @@ function detectKind(sample) {
   if ('concept_id' in sample && 'display_text' in sample) return 'claim'
   if ('article_id' in sample && 'section_id' in sample) return 'span'
   if ('institution' in sample && 'processing_status' in sample) return 'resource'
+  if ('type' in sample && ('mark_scheme' in sample || 'decisions' in sample || 'lab_questions' in sample || 'candidate_instructions' in sample)) return 'practical'
   // A positive test rather than a fallback. Falling back to 'concept' meant any
   // unrecognised row became one; the simulator, which shared this shape, applied
   // a stray question batch as sixteen concept upserts without reporting anything.
@@ -214,6 +215,120 @@ if (kind === 'question') {
     difficulty: difficultyCounts,
     conceptsTested: [...new Set(built.flatMap((item) => item.questionData.tags.mainConceptIds ?? []))].length,
     mediaFlagged,
+    notes, errors,
+  }, null, 1))
+  if (errors.length) process.exitCode = 1
+  process.exit()
+}
+
+if (kind === 'practical') {
+  // Like a question, a practical references records that already exist — the
+  // concepts it teaches — so the resolution scope is live state rather than the
+  // batch directory.
+  const here = dirname(fileURLToPath(import.meta.url))
+  const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
+  const concepts = new Map((live.states['synapse-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
+
+  const known = new Set(IMPORT_SCHEMAS.practical.fields.map((field) => field.key))
+  const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']
+  // What a bank should look like: mostly middle, a thin tail at each end. A set
+  // that is nearly all Hard filters students rather than teaching them.
+  const TARGET_SHARE = { Easy: 0.25, Moderate: 0.55, Hard: 0.15, Challenging: 0.05 }
+  const built = []
+  const itemDifficulty = {}
+  const questionDifficulty = {}
+  const mediaByKind = {}
+  let questions = 0
+  let markSchemeItems = 0
+
+  rows.forEach((values, index) => {
+    const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
+    for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
+    for (const error of validateImportRow('practical', values)) errors.push(`${where}: ${error}`)
+
+    const item = materialiseNewItem(importRowToContent('practical', values, `row-${index}`))
+    const data = item.practicalData
+    built.push(item)
+
+    if (item.status !== 'Draft') errors.push(`${where}: status is ${item.status} — assessment content lands as Draft`)
+    itemDifficulty[item.fields.Difficulty] = (itemDifficulty[item.fields.Difficulty] ?? 0) + 1
+
+    // Concept tagging. The same rule the question branch enforces, and for the
+    // same reason: a mentioned concept must not collect mastery evidence.
+    const { mainConceptIds: main, conceptIds: also, contextualConceptIds: contextual } = data.conceptTags
+    if (!main.length) errors.push(`${where}: no main_concept — name what this item teaches`)
+    for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
+      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
+    }
+    for (const id of contextual) {
+      if (main.includes(id) || also.includes(id)) {
+        errors.push(`${where}: ${id} is both assessed and contextual — it would take mastery evidence it never earned`)
+      }
+    }
+    if (!data.learningObjective?.trim()) errors.push(`${where}: no learning objective`)
+
+    // Every question names the one concept it teaches, and that concept exists.
+    const blocks = data.format === 'case' ? data.decisions : data.format === 'lab' ? data.questions : []
+    blocks.forEach((block, blockIndex) => {
+      questions += 1
+      const label = `${where} question ${blockIndex + 1}`
+      if (!block.conceptId) errors.push(`${label}: no "Concept:" line — name the one concept it teaches`)
+      else if (!concepts.has(block.conceptId)) errors.push(`${label}: concept ${block.conceptId} is not a concept that exists`)
+      for (const id of block.secondaryConceptIds ?? []) {
+        if (!concepts.has(id)) errors.push(`${label}: also-assessed concept ${id} is not a concept that exists`)
+      }
+      if (!block.difficulty) errors.push(`${label}: no "Difficulty:" line`)
+      else questionDifficulty[block.difficulty] = (questionDifficulty[block.difficulty] ?? 0) + 1
+      if (!(data.format === 'case' ? block.rationale : block.explanation)?.trim()) {
+        errors.push(`${label}: no ${data.format === 'case' ? 'Rationale:' : 'Explanation:'} line`)
+      }
+    })
+
+    if (data.format === 'osce') {
+      markSchemeItems += data.markSections.reduce((sum, section) => sum + section.items.length, 0)
+      for (const section of data.markSections) {
+        for (const mark of section.items) {
+          if (!mark.text.trim()) errors.push(`${where}: an empty mark-scheme item in "${section.title}"`)
+        }
+      }
+      // A station that rewards asking something the patient cannot answer is the
+      // classic broken OSCE. Only encounters have an actor to check against.
+      if (values.type?.trim() === 'OSCE station' && !data.actorSections.length) {
+        errors.push(`${where}: an OSCE station needs an actor brief, or the mark scheme cannot be answered`)
+      }
+    }
+
+    for (const request of data.mediaRequests) {
+      mediaByKind[request.kind] = (mediaByKind[request.kind] ?? 0) + 1
+      if (!request.teachingPurpose.trim()) errors.push(`${where}: media request "${request.brief}" has no Purpose`)
+    }
+  })
+
+  const ids = built.map((item) => item.id)
+  for (const id of ids) if (ids.filter((other) => other === id).length > 1) errors.push(`duplicate id ${id} within the file`)
+
+  // A distribution note, not an error: one file is a slice of the bank, and the
+  // 25/55/15/5 shape is a property of the whole.
+  if (questions) {
+    const drift = DIFFICULTIES
+      .map((tier) => ({ tier, share: (questionDifficulty[tier] ?? 0) / questions, target: TARGET_SHARE[tier] }))
+      .filter((entry) => Math.abs(entry.share - entry.target) > 0.15)
+      .map((entry) => `${entry.tier} ${Math.round(entry.share * 100)}% vs ${Math.round(entry.target * 100)}% target`)
+    if (drift.length) notes.push(`difficulty mix in this file drifts from the bank target: ${drift.join(', ')}`)
+  }
+
+  console.log(JSON.stringify({
+    file, kind, items: rows.length,
+    byType: rows.reduce((out, row) => ({ ...out, [row.type ?? '?']: (out[row.type ?? '?'] ?? 0) + 1 }), {}),
+    questions,
+    markSchemeItems,
+    itemDifficulty,
+    questionDifficulty,
+    conceptsTaught: [...new Set(built.flatMap((item) => [
+      ...item.practicalData.conceptTags.mainConceptIds,
+      ...(item.practicalData.format === 'case' ? item.practicalData.decisions : item.practicalData.format === 'lab' ? item.practicalData.questions : []).map((block) => block.conceptId).filter(Boolean),
+    ]))].length,
+    mediaNeeded: mediaByKind,
     notes, errors,
   }, null, 1))
   if (errors.length) process.exitCode = 1
