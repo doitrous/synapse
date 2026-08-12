@@ -106,6 +106,7 @@ Define afterload and predict which ventricular volume it changes, and distinguis
 ## media_needed
 ### image · What a raised afterload does to the volumes
 Brief: Left ventricular pressure-volume loop showing a control loop and a second loop at raised afterload, with end-systolic volume shifted right
+Kind: graph
 Purpose: The rightward shift of the end-systolic point is the answer, and it is far clearer seen than described.
 Priority: strongly helpful
 Status: needed
@@ -226,12 +227,14 @@ Account for the timing of the normal cardiac cycle and its nodal delay, and expl
 ## media_needed
 ### image · How long a normal cycle lasts
 Brief: Wiggers diagram at 75 beats per minute with the systolic and diastolic intervals marked along the time axis
+Kind: graph
 Purpose: The phases have to be read against a clock for the 0.3 and 0.5 second split to mean anything.
 Priority: strongly helpful
 Status: needed
 Source direction: openly licensed cardiovascular physiology figure
 ### image · The mechanism behind the drug
 Brief: Rhythm strip of a regular narrow-complex tachycardia at about 190 per minute
+Kind: graph
 Purpose: Anchors the case in the trace a student would actually be handed.
 Priority: strongly helpful
 Status: needed
@@ -353,12 +356,14 @@ Explain pericardial pain, its posture dependence and the venous signs of a filli
 ## media_needed
 ### image · The two coats
 Brief: Cross-section of the pericardium labelling fibrous, parietal serous and visceral serous layers with the cavity between
+Kind: anatomy plate
 Purpose: The reflection of one serous layer onto the other is the point, and prose makes it sound like two separate membranes.
 Priority: required
 Status: needed
 Source direction: openly licensed anatomy atlas
 ### video · When the sac fills
 Brief: Bedside clip of a visibly elevated jugular venous pulsation with the double waveform, alongside a carotid pulse for comparison
+Kind: clinical photograph
 Purpose: Telling the venous from the arterial pulsation is a moving-image skill; a still cannot teach it.
 Priority: strongly helpful
 Status: needed
@@ -478,6 +483,7 @@ Describe the levels at which capillary perfusion is controlled, name the vessel 
 ## media_needed
 ### image · The cells wrapped around the capillary
 Brief: Electron or high-power light micrograph of a capillary with a pericyte process within the basement membrane, labelled
+Kind: histology
 Purpose: The pericyte's position inside the basement membrane is a histological relationship that has to be seen.
 Priority: required
 Status: needed

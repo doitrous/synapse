@@ -103,12 +103,14 @@ Read an ECG as a record of electrical activity projected onto lead axes, and rec
 ## media_needed
 ### image · When the P waves are not there
 Brief: Rhythm strip of atrial fibrillation with an irregularly irregular ventricular response, beside a normal sinus strip for comparison
+Kind: graph
 Purpose: Absence of P waves is recognised by comparison; a single strip does not teach it.
 Priority: required
 Status: needed
 Source direction: openly licensed ECG teaching library
 ### image · Which lead sees the most
 Brief: Hexaxial reference diagram showing the six limb-lead axes with a depolarisation vector projected onto each
+Kind: diagram
 Purpose: The projection idea is geometric and needs the axes drawn to be usable.
 Priority: strongly helpful
 Status: needed
@@ -225,18 +227,21 @@ Separate ischaemia from infarction on a trace, and reason from an affected wall 
 ## media_needed
 ### image · Narrowing without occlusion
 Brief: Exercise ECG showing planar ST depression at peak workload with a resting trace for comparison
+Kind: graph
 Purpose: The threshold behaviour of a stenosis is visible only across the two traces.
 Priority: required
 Status: needed
 Source direction: openly licensed ECG teaching library
 ### image · Which wall, which vessel
 Brief: 12-lead ECG with ST elevation in I, aVL, V5 and V6
+Kind: graph
 Purpose: The territory must be read off the leads rather than taken on trust from the stem.
 Priority: required
 Status: needed
 Source direction: openly licensed ECG teaching library
 ### image · The territory the standard leads miss
 Brief: Right-sided ECG showing elevation in V4R alongside the standard inferior leads
+Kind: graph
 Purpose: Students rarely meet a right-sided trace, and cannot recognise one they have never seen.
 Priority: strongly helpful
 Status: needed
@@ -354,6 +359,7 @@ Assess atrioventricular conduction from the relationship between P waves and QRS
 ## media_needed
 ### image · Naming the pattern
 Brief: Rhythm strip of complete atrioventricular block with independent atrial and ventricular rates, and a second strip of first-degree block for comparison
+Kind: graph
 Purpose: Degrees of block are distinguished by comparing traces, not by reading a description of one.
 Priority: required
 Status: needed
@@ -471,18 +477,21 @@ Interpret venous, cuff and ventricular pressure traces from the mechanism genera
 ## media_needed
 ### image · The phase with nothing moving
 Brief: Wiggers diagram with aligned ventricular pressure, aortic pressure, atrial pressure and ventricular volume traces, phases unlabelled for interpretation
+Kind: graph
 Purpose: The item asks the student to read phases off aligned traces, which requires the traces.
 Priority: required
 Status: needed
 Source direction: openly licensed cardiovascular physiology figure
 ### image · Why the neck reports the atrium
 Brief: Jugular venous pressure waveform labelled with a, c and v waves, aligned to a simultaneous ECG
+Kind: graph
 Purpose: The waveform components are identified by their timing against the ECG and cannot be taught without both.
 Priority: strongly helpful
 Status: needed
 Source direction: openly licensed cardiovascular physiology figure
 ### audio · The silence above systolic
 Brief: Recording of Korotkoff sounds through a full cuff deflation, from silence to first sound to disappearance
+Kind: other
 Purpose: The two silences either side of the sounds are an auditory pattern, and hearing the sequence is the lesson.
 Priority: strongly helpful
 Status: needed

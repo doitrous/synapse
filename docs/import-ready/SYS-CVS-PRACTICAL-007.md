@@ -103,12 +103,14 @@ Identify elastic and muscular arteries on a slide from the arrangement of their 
 ## media_needed
 ### image · The vessel nearest the heart
 Brief: Low-power micrograph of an elastic artery with elastic-stained concentric lamellae in the media
+Kind: histology
 Purpose: The whole item is a slide-reading task and cannot be attempted without the slide.
 Priority: required
 Status: needed
 Source direction: openly licensed histology teaching collection
 ### image · The line at the edge of the lumen
 Brief: Medium-power micrograph of a muscular artery with internal and external elastic laminae both visible and unlabelled
+Kind: histology
 Purpose: The student must find and distinguish the two laminae themselves, which requires an unlabelled image.
 Priority: required
 Status: needed
@@ -226,18 +228,21 @@ Match capillary type to organ from the endothelial structure on a micrograph, an
 ## media_needed
 ### image · The default wall
 Brief: Electron micrograph of a continuous capillary in skeletal muscle, unlabelled
+Kind: histology
 Purpose: Continuous and fenestrated endothelium are distinguished at electron-microscope resolution and nowhere else.
 Priority: required
 Status: needed
 Source direction: openly licensed histology teaching collection
 ### image · Where the pores are
 Brief: Electron micrograph of a fenestrated capillary from intestinal mucosa or an endocrine gland, unlabelled
+Kind: histology
 Purpose: Paired with the continuous image, this is the comparison the item is built on.
 Priority: required
 Status: needed
 Source direction: openly licensed histology teaching collection
 ### image · The cell that adjusts the pipe
 Brief: Electron micrograph of a capillary with a pericyte process enclosed within the basement membrane
+Kind: histology
 Purpose: The pericyte's position relative to the basement membrane is the answer and is only visible at this resolution.
 Priority: required
 Status: needed
@@ -354,12 +359,14 @@ Identify the layers of the heart wall and its pericardial coverings on a section
 ## media_needed
 ### image · The lining of the chamber
 Brief: Micrograph of ventricular wall showing endocardium, myocardium and epicardium in one field, unlabelled
+Kind: histology
 Purpose: The item asks the student to orient a section, which requires the section.
 Priority: required
 Status: needed
 Source direction: openly licensed histology teaching collection
 ### image · What joins one muscle cell to the next
 Brief: High-power micrograph of cardiac muscle with intercalated discs clearly visible
+Kind: histology
 Purpose: The discs are the identifying feature of cardiac muscle and must be seen to be recognised in an examination.
 Priority: required
 Status: needed
@@ -477,6 +484,7 @@ Identify venules, veins and arteriovenous anastomoses on a slide, and distinguis
 ## media_needed
 ### image · The vessel that skips the capillaries
 Brief: Micrograph of digital skin showing an arteriovenous anastomosis connecting an arteriole to a venule
+Kind: histology
 Purpose: The shunt is recognised by its direct connection and thick wall, which has to be seen in situ.
 Priority: strongly helpful
 Status: needed

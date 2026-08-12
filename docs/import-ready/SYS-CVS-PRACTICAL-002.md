@@ -97,6 +97,7 @@ Place ten electrodes accurately and justify the recording from the fact that bod
 ## media_needed
 ### image · station
 Brief: Torso diagram showing the six chest electrode positions with the intercostal spaces and axillary lines labelled
+Kind: diagram
 Purpose: V-lead positions are learnt from the surface landmarks, not from a list.
 Priority: required
 Status: needed
@@ -201,6 +202,7 @@ Measure a jugular venous pressure and justify each discriminating feature that s
 ## media_needed
 ### video · station
 Brief: Side-by-side recording of a jugular venous pulsation and a carotid pulsation in the same patient at 45 degrees
+Kind: clinical photograph
 Purpose: The two-peak, impalpable, position-dependent character of the venous pulsation is only learnable by watching it.
 Priority: required
 Status: needed
@@ -306,6 +308,7 @@ Auscultate the four areas in a defensible order, time an added sound against a c
 ## media_needed
 ### audio · station
 Brief: The four auscultation areas recorded in one normal subject, then the same areas in a subject with an ejection systolic murmur
+Kind: other
 Purpose: Site of maximal intensity is a comparison between sites and cannot be taught from one recording.
 Priority: required
 Status: needed

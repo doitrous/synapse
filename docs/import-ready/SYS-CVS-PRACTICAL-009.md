@@ -104,18 +104,21 @@ Orient standard echocardiographic views by chamber and valve, and explain the cl
 ## media_needed
 ### image · Counting the chambers
 Brief: Apical four-chamber echocardiographic still, unlabelled, with normal chamber proportions
+Kind: imaging example
 Purpose: Orientation is the task being assessed, so the student must be given an unlabelled view to orient.
 Priority: required
 Status: needed
 Source direction: openly licensed echocardiography teaching collection
 ### image · The muscles inside the ventricle
 Brief: Parasternal short-axis echocardiographic still at mid-ventricular level showing both papillary muscles
+Kind: imaging example
 Purpose: Counting and comparing the papillary muscles requires the short-axis image in which they appear.
 Priority: required
 Status: needed
 Source direction: openly licensed echocardiography teaching collection
 ### video · What holds the cusps
 Brief: Parasternal long-axis cine loop showing mitral cusp motion with chordal attachments through a full cardiac cycle
+Kind: imaging example
 Purpose: Chordal restraint is visible only in motion, as the cusps stop at the plane of the ring.
 Priority: strongly helpful
 Status: needed
@@ -233,6 +236,7 @@ Identify the phases of the cardiac cycle on Doppler and volume data, and infer t
 ## media_needed
 ### image · When the atrium contracts
 Brief: Pulsed-wave Doppler trace of mitral inflow showing the two filling peaks, aligned with a simultaneous ECG
+Kind: graph
 Purpose: The peaks are identified by their timing against the ECG, which requires both traces together.
 Priority: required
 Status: needed
@@ -350,12 +354,14 @@ Orient an axial slice of the thorax by mediastinal compartment, and identify the
 ## media_needed
 ### image · The layer around the heart
 Brief: Axial CT slice at the level of the cardiac chambers showing a thin pericardial line with a small amount of fluid, beside a slice with a moderate pericardial effusion
+Kind: imaging example
 Purpose: Normal pericardium and a small effusion are separated by a difference in thickness that must be seen side by side.
 Priority: required
 Status: needed
 Source direction: openly licensed radiology teaching collection
 ### image · The two great vessels
 Brief: Two axial CT slices a short distance apart showing the changing relationship of the pulmonary trunk and ascending aorta
+Kind: imaging example
 Purpose: The point is that the relationship changes between levels, which needs two images to demonstrate.
 Priority: required
 Status: needed
@@ -473,12 +479,14 @@ Identify the great vessels by their branching rather than their position, and re
 ## media_needed
 ### image · Which ventricle feeds which vessel
 Brief: Echocardiographic still of transposition showing the aorta arising from the right ventricle, beside a normal comparison view
+Kind: imaging example
 Purpose: The abnormal connection is recognised only against the normal, which requires both images.
 Priority: required
 Status: needed
 Source direction: openly licensed congenital cardiology teaching collection
 ### audio · Where the sound comes from
 Brief: Recording of an ejection systolic murmur of aortic stenosis, recorded at the aortic area and again over the carotid
+Kind: other
 Purpose: Radiation in the direction of flow is an auditory finding demonstrated by comparing two recording sites.
 Priority: strongly helpful
 Status: needed

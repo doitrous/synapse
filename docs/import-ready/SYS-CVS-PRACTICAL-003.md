@@ -218,12 +218,14 @@ Reason from an ECG territory back to the coronary artery that supplies it, and s
 ## media_needed
 ### image · Which artery the anterior wall depends on
 Brief: 12-lead ECG showing ST elevation in V1 to V4 with reciprocal inferior change
+Kind: graph
 Purpose: The territory has to be read off a real trace, not from a description of it.
 Priority: required
 Status: needed
 Source direction: openly licensed ECG teaching library
 ### image · Reading the lateral leads
 Brief: Diagram of the coronary arteries in situ showing the anterior interventricular groove and the coronary sulcus, with the walls each vessel supplies shaded
+Kind: diagram
 Purpose: The groove-to-territory mapping is spatial and does not survive being written out as a list.
 Priority: strongly helpful
 Status: needed
@@ -345,12 +347,14 @@ Recognise atrioventricular block by reading the atrial and ventricular rates sep
 ## media_needed
 ### image · What has gone wrong
 Brief: Rhythm strip showing complete atrioventricular block, with P waves marching through independent of the QRS complexes
+Kind: graph
 Purpose: Atrioventricular dissociation is recognised by marching out the P waves on the trace, which cannot be practised on prose.
 Priority: required
 Status: needed
 Source direction: openly licensed ECG teaching library
 ### image · Where the only bridge runs
 Brief: Diagram of the fibrous skeleton viewed from above with the valve rings, showing the atrioventricular bundle penetrating it
+Kind: diagram
 Purpose: The insulating plate and its single perforation are the whole point, and only a picture shows both at once.
 Priority: required
 Status: needed
@@ -470,6 +474,7 @@ Explain the trip-gap-thump of a premature beat from triggered activity, the comp
 ## media_needed
 ### image · Naming the sensation
 Brief: Rhythm strip showing a ventricular premature beat with the compensatory pause and the following sinus beat
+Kind: graph
 Purpose: The pause and the beat that follows it must be seen in sequence for the patient's description to map onto the trace.
 Priority: required
 Status: needed

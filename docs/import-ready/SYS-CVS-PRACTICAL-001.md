@@ -60,6 +60,7 @@ Measure an arterial pressure by auscultation with the technique that makes the n
 ## media_needed
 ### audio · station
 Brief: Korotkoff sounds recorded through a stethoscope during a full cuff deflation, with the first and last sounds clearly audible
+Kind: other
 Purpose: A candidate practising alone cannot rehearse identifying the first and fifth sounds without hearing them.
 Priority: strongly helpful
 Status: needed
@@ -206,6 +207,7 @@ Measure a jugular venous pressure correctly, and justify every step of the techn
 ## media_needed
 ### video · station
 Brief: Close-up of a visibly raised jugular venous pulsation in a patient reclined at 45 degrees, with the carotid pulsation visible for comparison
+Kind: clinical photograph
 Purpose: The double waveform and its lack of palpability cannot be learnt from a written description.
 Priority: required
 Status: needed
@@ -345,6 +347,7 @@ Examine the praecordium in a defensible order, and justify the four auscultation
 ## media_needed
 ### audio · station
 Brief: Normal first and second heart sounds, then a systolic murmur, recorded at the apex and at the aortic area
+Kind: other
 Purpose: A candidate cannot practise timing a murmur against the pulse without a sound to time.
 Priority: required
 Status: needed

@@ -107,12 +107,14 @@ Explain QRS width from the route an impulse takes through the ventricle, and det
 ## media_needed
 ### image · Reading the axis
 Brief: 12-lead ECG in sinus rhythm with equal positive QRS deflections in leads I and II
+Kind: graph
 Purpose: Axis is judged by comparing deflection sizes on a real trace; a described trace removes the task.
 Priority: required
 Status: needed
 Source direction: openly licensed ECG teaching library
 ### image · The other way to start a beat early
 Brief: Rhythm strip showing a long QT interval with a premature beat arising on the T wave
+Kind: graph
 Purpose: The timing of the ectopic relative to repolarisation is the entire diagnostic point.
 Priority: required
 Status: needed
@@ -232,6 +234,7 @@ Define coronary dominance, and locate the cardiac arteries and their accompanyin
 ## media_needed
 ### image · Where the venous blood collects
 Brief: Posterior and diaphragmatic view of the heart showing the coronary sinus in the posterior coronary sulcus with the circumflex and posterior interventricular arteries
+Kind: anatomy plate
 Purpose: The posterior surface is the view students see least and are examined on most; the groove relationships cannot be held from prose.
 Priority: required
 Status: needed
@@ -349,12 +352,14 @@ Trace the ventricular wall to valve cusp anatomy of the atrioventricular valves,
 ## media_needed
 ### image · Which cusps a single muscle serves
 Brief: Opened left ventricle showing both papillary muscles with chordae fanning to the adjacent halves of two mitral cusps
+Kind: anatomy plate
 Purpose: The two-cusps-per-muscle arrangement is the whole explanation and is only visible in a dissected specimen.
 Priority: required
 Status: needed
 Source direction: openly licensed anatomy atlas or prosection photograph
 ### audio · Naming the sound
 Brief: Recording of a loud pansystolic murmur at the apex, paired with a soft murmur in a patient with severe regurgitation and low output
+Kind: other
 Purpose: The point that loudness does not track severity lands only when two recordings are compared.
 Priority: strongly helpful
 Status: needed
@@ -474,6 +479,7 @@ Describe the normal ventriculo-arterial connections, orifices and aortic sinuses
 ## media_needed
 ### image · Putting the connections together
 Brief: Paired diagram of normal spiralling great arteries and the parallel arrangement in transposition, with the ventricle of origin labelled in each
+Kind: diagram
 Purpose: The lesion is a spatial relationship, and the comparison only works when both arrangements are seen side by side.
 Priority: required
 Status: needed

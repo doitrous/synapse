@@ -104,18 +104,21 @@ Attribute each border of the cardiac silhouette to the chamber that forms it, an
 ## media_needed
 ### image · Which chamber makes which border
 Brief: Normal posteroanterior chest radiograph with the cardiac borders unlabelled, and a companion copy with each border attributed to its chamber
+Kind: imaging example
 Purpose: The borders must be traced on a real film; a labelled diagram alone does not transfer to a radiograph.
 Priority: required
 Status: needed
 Source direction: openly licensed radiology teaching collection
 ### image · The chamber against the sternum
 Brief: Normal lateral chest radiograph showing the retrosternal space and the anterior cardiac margin
+Kind: imaging example
 Purpose: Students see lateral films rarely and cannot orient one they have never examined.
 Priority: required
 Status: needed
 Source direction: openly licensed radiology teaching collection
 ### image · Where the sac sits
 Brief: Chest radiograph showing a globular cardiac silhouette with clear lung fields, beside a film of cardiac failure with pulmonary congestion
+Kind: imaging example
 Purpose: The discrimination is entirely visual and depends on comparing the lung fields between two large hearts.
 Priority: required
 Status: needed
@@ -233,12 +236,14 @@ State where each cardiac valve projects onto the chest wall, and explain why the
 ## media_needed
 ### image · The valve behind the left sternal edge
 Brief: Anterior chest wall diagram with the four valve projections marked and the four auscultation areas marked in a contrasting colour
+Kind: anatomy plate
 Purpose: The distinction between projection and auscultation area is the point of the set, and only a single image showing both makes it obvious.
 Priority: required
 Status: needed
 Source direction: openly licensed anatomy atlas
 ### image · Reading the aortic root
 Brief: Short-axis cross-sectional image at the level of the aortic root showing all four valves in one plane
+Kind: imaging example
 Purpose: The central, wedged position of the aortic root is a spatial relationship best shown in the plane that contains all four valves.
 Priority: required
 Status: needed
@@ -356,18 +361,21 @@ Name the coronary arteries on an angiogram from the groove or border each occupi
 ## media_needed
 ### image · The vessel in the anterior groove
 Brief: Left coronary angiogram in a standard projection showing the anterior interventricular and circumflex arteries, unlabelled
+Kind: imaging example
 Purpose: Vessel identification is the task; a labelled image would answer the question for the student.
 Priority: required
 Status: needed
 Source direction: openly licensed cardiac imaging teaching collection
 ### image · Who supplies the back
 Brief: Right coronary angiogram showing the posterior interventricular artery arising from the right coronary artery
+Kind: imaging example
 Purpose: Dominance is read off the injection, and the finding has to be seen to be established.
 Priority: required
 Status: needed
 Source direction: openly licensed cardiac imaging teaching collection
 ### video · The vessel that turns the corner
 Brief: Short angiographic cine loop of a left coronary injection following contrast around the coronary sulcus
+Kind: imaging example
 Purpose: The course of a vessel around the border is followed over time; a still frame loses the path.
 Priority: strongly helpful
 Status: needed
@@ -484,12 +492,14 @@ Map the cardiac veins by the artery and groove each accompanies, name the except
 ## media_needed
 ### image · Putting the venous map together
 Brief: Posterior and anterior views of the heart with the great, middle and small cardiac veins and the coronary sinus labelled alongside their accompanying arteries
+Kind: anatomy plate
 Purpose: The continuity of the great cardiac vein into the coronary sinus is only apparent when both surfaces are seen together.
 Priority: required
 Status: needed
 Source direction: openly licensed anatomy atlas
 ### image · The exception
 Brief: Anterior view of the heart showing the anterior cardiac veins crossing the right ventricular surface to the right atrium
+Kind: anatomy plate
 Purpose: The exception is defined by a course that has to be traced on the anterior surface.
 Priority: strongly helpful
 Status: needed
