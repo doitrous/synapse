@@ -32,7 +32,7 @@ DIS-HIS | DIS-PHY
 ## universities
 kau
 ## article_ids
-[clear]
+ART-FND-PLASMA-MEMBRANE
 ## blueprint_weight
 0.8
 ## clinical_relevance
@@ -46,12 +46,26 @@ kau
 ## support_mode
 direct_statement
 ## source_candidate_ids
-src_6b5723c9bc02068ded20 | src_8c8b6c422d69be23772f | src_a165a98952ffefcc0ebc
+concept_134ab7e9558ba4c435063ad2 | concept_4a0322567338dc6e58545386 | concept_3a9cfdc6427a27039a7f05b0
 ## original_wording
 Cell membrane structure and the fluid mosaic model
+## related_article_ids
+ART-FND-CYTOSKELETON | ART-FND-MITOCHONDRION
+## resource_ids
+src_6b5723c9bc02068ded20 | src_8c8b6c422d69be23772f | RES-WEB-OPENSTAX-A2E-3-1 | RES-WEB-NCBI-MBOC4-LIPID-BILAYER
+## atomic_claim_ids
+CLM-FND-PLASMA-MEMBRANE-01 | CLM-FND-PLASMA-MEMBRANE-02
+## exam_weight_by_year
+kau_y1=0.8
+## last_reviewed
+2026-08-12
+## review_due
+2029-08-12
 ## owner
 Dr Omar
 ## reviewer
+Dr Omar
+## final_publisher
 Dr Omar
 ## publication_status
 needs_evidence
@@ -60,13 +74,12 @@ authored_needs_independent_evidence
 ## uncertainty
 Local sources teach the fluid mosaic model at varying depth; the level expected in a first-year Egyptian examination is not yet established from the processed corpus.
 ## evidence_gaps
-No atomic claim record links this concept to a page-level citation yet. Claims are minted in SYS-FND-CONCEPT-002.
+The definition and objective are backed by claims with independent citations. The wider material in the linked article — membrane fluidity and drug transport — is not yet claim-backed.
 ## field_notes
 moduleIds: no verified live module ID for the foundation module yet
+resourceOccurrenceIds: the corpus records these concepts without occurrence identifiers, so there is nothing to cite at that granularity
 approvedFileResourceIds: source PDFs are pending upload to authenticated storage
 approvedVideoResourceIds: no video resource cleared for this concept
-lastReviewed: not yet reviewed against an independent source
-reviewDue: set when the first review completes
 microtopicId: canonical placement is more precise than the curriculum overlay
 nanotopicId: canonical placement is more precise than the curriculum overlay
 
@@ -106,7 +119,7 @@ DIS-PHY
 ## universities
 kau
 ## article_ids
-[clear]
+ART-FND-PLASMA-MEMBRANE
 ## blueprint_weight
 0.7
 ## clinical_relevance
@@ -120,14 +133,28 @@ kau
 ## support_mode
 direct_statement
 ## source_candidate_ids
-src_6b5723c9bc02068ded20 | src_8c8b6c422d69be23772f
+concept_134ab7e9558ba4c435063ad2 | concept_4a0322567338dc6e58545386
 ## original_wording
 Membrane permeability and transport across the cell membrane
 ## related_concept_ids
 med.concept.plasma-membrane
+## related_article_ids
+ART-FND-MITOCHONDRION
+## resource_ids
+src_8c8b6c422d69be23772f | RES-WEB-OPENSTAX-A2E-3-1
+## atomic_claim_ids
+CLM-FND-SELECTIVE-PERMEABILITY-01
+## exam_weight_by_year
+kau_y1=0.8
+## last_reviewed
+2026-08-12
+## review_due
+2029-08-12
 ## owner
 Dr Omar
 ## reviewer
+Dr Omar
+## final_publisher
 Dr Omar
 ## publication_status
 needs_evidence
@@ -136,13 +163,12 @@ authored_needs_independent_evidence
 ## uncertainty
 [clear]
 ## evidence_gaps
-No atomic claim record links this concept to a page-level citation yet.
+The core statement is claim-backed; the applied material in the linked article is not yet.
 ## field_notes
 moduleIds: no verified live module ID for the foundation module yet
+resourceOccurrenceIds: the corpus records these concepts without occurrence identifiers, so there is nothing to cite at that granularity
 approvedFileResourceIds: source PDFs are pending upload to authenticated storage
 approvedVideoResourceIds: no video resource cleared for this concept
-lastReviewed: not yet reviewed against an independent source
-reviewDue: set when the first review completes
 microtopicId: canonical placement is more precise than the curriculum overlay
 nanotopicId: canonical placement is more precise than the curriculum overlay
 
@@ -182,7 +208,7 @@ DIS-HIS
 ## universities
 kau
 ## article_ids
-[clear]
+ART-FND-CYTOSKELETON
 ## blueprint_weight
 0.6
 ## clinical_relevance
@@ -196,12 +222,26 @@ kau
 ## support_mode
 direct_statement
 ## source_candidate_ids
-src_6b5723c9bc02068ded20 | src_ed90145ab9a95dac05d6 | src_57dbd368d453ab5368e4
+concept_9eb90ac536c7e4cbb75882a2 | concept_209ee02b330b4f0f0e5c5bf6 | concept_8e0be261f9b366c049730dad
 ## original_wording
 Cytoskeleton: microfilaments, intermediate filaments and microtubules
+## related_article_ids
+ART-FND-PLASMA-MEMBRANE | ART-FND-CELL-NUCLEUS
+## resource_ids
+src_6b5723c9bc02068ded20 | src_ed90145ab9a95dac05d6 | RES-WEB-OPENSTAX-A2E-3-2
+## atomic_claim_ids
+CLM-FND-CYTOSKELETON-01
+## exam_weight_by_year
+kau_y1=0.8
+## last_reviewed
+2026-08-12
+## review_due
+2029-08-12
 ## owner
 Dr Omar
 ## reviewer
+Dr Omar
+## final_publisher
 Dr Omar
 ## publication_status
 needs_evidence
@@ -210,13 +250,12 @@ authored_needs_independent_evidence
 ## uncertainty
 Only three processed sources teach this node, all from one university. Local emphasis elsewhere is unverified.
 ## evidence_gaps
-No atomic claim record links this concept to a page-level citation yet.
+The core statement is claim-backed; the applied material in the linked article is not yet.
 ## field_notes
 moduleIds: no verified live module ID for the foundation module yet
+resourceOccurrenceIds: the corpus records these concepts without occurrence identifiers, so there is nothing to cite at that granularity
 approvedFileResourceIds: source PDFs are pending upload to authenticated storage
 approvedVideoResourceIds: no video resource cleared for this concept
-lastReviewed: not yet reviewed against an independent source
-reviewDue: set when the first review completes
 microtopicId: canonical placement is more precise than the curriculum overlay
 nanotopicId: canonical placement is more precise than the curriculum overlay
 
@@ -256,7 +295,7 @@ DIS-HIS | DIS-BIO
 ## universities
 kau
 ## article_ids
-[clear]
+ART-FND-CELL-NUCLEUS
 ## blueprint_weight
 0.8
 ## clinical_relevance
@@ -270,14 +309,28 @@ kau
 ## support_mode
 direct_statement
 ## source_candidate_ids
-src_c541c2e5d199dfafe2a3 | src_6b5723c9bc02068ded20 | src_31a0f1c5d3f190bbb092
+concept_08ecc90d804b792ed5f71113 | concept_0ccb18d4e8abc092c2c55b48 | concept_058a405c1f7ba5ed93c7d234
 ## original_wording
 Nucleus: nuclear envelope, chromatin and nucleolus
 ## related_concept_ids
 med.concept.plasma-membrane
+## related_article_ids
+ART-FND-CYTOSKELETON | ART-FND-MITOCHONDRION
+## resource_ids
+src_c541c2e5d199dfafe2a3 | src_6b5723c9bc02068ded20 | RES-WEB-OPENSTAX-A2E-3-2
+## atomic_claim_ids
+CLM-FND-NUCLEUS-01
+## exam_weight_by_year
+kau_y1=0.8
+## last_reviewed
+2026-08-12
+## review_due
+2029-08-12
 ## owner
 Dr Omar
 ## reviewer
+Dr Omar
+## final_publisher
 Dr Omar
 ## publication_status
 needs_evidence
@@ -286,13 +339,12 @@ authored_needs_independent_evidence
 ## uncertainty
 One of the three supporting sources is in a review-required state and cannot be relied on as evidence.
 ## evidence_gaps
-No atomic claim record links this concept to a page-level citation yet.
+The core statement is claim-backed; the applied material in the linked article is not yet.
 ## field_notes
 moduleIds: no verified live module ID for the foundation module yet
+resourceOccurrenceIds: the corpus records these concepts without occurrence identifiers, so there is nothing to cite at that granularity
 approvedFileResourceIds: source PDFs are pending upload to authenticated storage
 approvedVideoResourceIds: no video resource cleared for this concept
-lastReviewed: not yet reviewed against an independent source
-reviewDue: set when the first review completes
 microtopicId: canonical placement is more precise than the curriculum overlay
 nanotopicId: canonical placement is more precise than the curriculum overlay
 
@@ -332,7 +384,7 @@ DIS-HIS | DIS-BIO
 ## universities
 kau
 ## article_ids
-[clear]
+ART-FND-MITOCHONDRION
 ## blueprint_weight
 0.8
 ## clinical_relevance
@@ -346,14 +398,28 @@ kau
 ## support_mode
 direct_statement
 ## source_candidate_ids
-src_6b5723c9bc02068ded20 | src_ed90145ab9a95dac05d6 | src_380dbc64a0d99dde6672
+concept_c960a1def47403ec9f9cf11a | concept_7d3b6adaabf42aa2a3fd9575 | concept_a77e57a6cfee1aa39724a676
 ## original_wording
 Mitochondria: structure, cristae and the site of ATP production
 ## related_concept_ids
 med.concept.plasma-membrane
+## related_article_ids
+ART-FND-PLASMA-MEMBRANE | ART-FND-CELL-NUCLEUS
+## resource_ids
+src_6b5723c9bc02068ded20 | src_ed90145ab9a95dac05d6 | RES-WEB-OPENSTAX-A2E-3-2
+## atomic_claim_ids
+CLM-FND-MITOCHONDRION-01
+## exam_weight_by_year
+kau_y1=0.8
+## last_reviewed
+2026-08-12
+## review_due
+2029-08-12
 ## owner
 Dr Omar
 ## reviewer
+Dr Omar
+## final_publisher
 Dr Omar
 ## publication_status
 needs_evidence
@@ -362,12 +428,11 @@ authored_needs_independent_evidence
 ## uncertainty
 Maternal inheritance of the mitochondrial genome is taught in some local sources and not others; whether it belongs to this concept or to a genetics concept is unresolved.
 ## evidence_gaps
-No atomic claim record links this concept to a page-level citation yet.
+The core statement is claim-backed; the applied material in the linked article is not yet.
 ## field_notes
 moduleIds: no verified live module ID for the foundation module yet
+resourceOccurrenceIds: the corpus records these concepts without occurrence identifiers, so there is nothing to cite at that granularity
 approvedFileResourceIds: source PDFs are pending upload to authenticated storage
 approvedVideoResourceIds: no video resource cleared for this concept
-lastReviewed: not yet reviewed against an independent source
-reviewDue: set when the first review completes
 microtopicId: canonical placement is more precise than the curriculum overlay
 nanotopicId: canonical placement is more precise than the curriculum overlay

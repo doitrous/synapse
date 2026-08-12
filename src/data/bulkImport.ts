@@ -706,13 +706,14 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       fields: {
         Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5',
         'Key point': importList(values.hold_these)[0] || '', 'Template ID': templateId || '', Archetype: archetype || '',
+        'Content owner': values.owner?.trim() || 'Import queue',
         ...(publicationGate ? { 'Publication gate': publicationGate } : {}),
         ...(text('reviewer') ? { Reviewer: values.reviewer.trim() } : {}),
         ...(text('final_publisher') ? { Publisher: values.final_publisher.trim() } : {}),
       },
       articleData: {
         summary: values.summary || '', body, sections,
-        ...(publishedSections.length ? { publishedSections } : {}),
+        publishedSections: publishedSections.length ? publishedSections : undefined,
         publishedSummary: text('published_summary'),
         holdThese: optionalList(values.hold_these) as string[],
         loseTheMark: optionalList(values.lose_the_mark) as string[],
@@ -742,9 +743,9 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         reviewer: text('reviewer'), finalPublisher: text('final_publisher'),
         lastReviewed: text('last_reviewed'), reviewDue: text('review_due'),
         media: values.media === undefined || !values.media.trim() ? undefined : parseArticleMedia(values.media),
-        ...(imageRecommendations.length ? { imageRecommendations } : {}),
-        ...(Object.keys(calloutEvidence).length ? { calloutEvidence } : {}),
-        ...(Object.keys(fieldNotes).length ? { fieldNotes } : {}),
+        imageRecommendations: imageRecommendations.length ? imageRecommendations : undefined,
+        calloutEvidence: Object.keys(calloutEvidence).length ? calloutEvidence : undefined,
+        fieldNotes: Object.keys(fieldNotes).length ? fieldNotes : undefined,
         notes: text('notes'),
       },
     }

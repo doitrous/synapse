@@ -3,7 +3,7 @@ import { ImportWizard } from '@/components/admin/ImportWizard'
 import { Select } from '@/components/ui/Field'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
-import { CONCEPT_IMPORT_FIELDS, conceptFromRow, materialiseNewConcept, mergeConcept } from '@/data/conceptImport'
+import { CONCEPT_IMPORT_FIELDS, conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement } from '@/data/conceptImport'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
 import { subjects } from '@/data/student'
 
@@ -66,29 +66,6 @@ export function ConceptsImportPage() {
   const [taxonomy] = useTaxonomyTree()
   const [mergeMode, setMergeMode] = useState<'create' | 'update'>('update')
 
-  /** Resolve taxonomy placement (visible IDs) from subject + free-text titles/ids. */
-  function placement(subjectId: string, values: Record<string, string>): Partial<Concept> {
-    const sys = taxonomy.find((s) => s.id === subjectId || s.short.toLowerCase() === subjectId.toLowerCase())
-    if (!sys) return subjectId ? { subjectId } : {}
-    const findBy = <T extends { title: string }>(arr: T[], q: string, idKey: (t: T) => string) => {
-      if (!q) return undefined
-      return arr.find((t) => t.title.toLowerCase() === q.toLowerCase() || idKey(t).toLowerCase() === q.toLowerCase())
-    }
-    const top = findBy(sys.topics, values.topic, (t) => t.tpcId)
-    const sub = top && findBy(top.subs, values.subtopic, (s) => s.subId)
-    const mic = sub && findBy(sub.micros, values.microtopic, (m) => m.micId)
-    const nan = mic && findBy(mic.nanos, values.nanotopic, (n) => n.nanId)
-    // Only state what was actually resolved. An unmatched title must not blank an
-    // existing placement on an update.
-    return {
-      subjectId: sys.id, systemId: sys.sysId,
-      ...(top ? { topicTagId: top.tpcId } : {}),
-      ...(sub ? { subtopicId: sub.subId } : {}),
-      ...(mic ? { microtopicId: mic.micId } : {}),
-      ...(nan ? { nanotopicId: nan.nanId } : {}),
-    }
-  }
-
   /**
    * Keep the article↔concept link reciprocal.
    *
@@ -113,7 +90,7 @@ export function ConceptsImportPage() {
       const row = index + 2
       const label = values.label?.trim()
       if (!label) { errors.push(`Row ${row}: missing concept name.`); return }
-      const incoming = withReciprocalArticles(conceptFromRow(values, placement(values.subject?.trim() ?? '', values)))
+      const incoming = withReciprocalArticles(conceptFromRow(values, resolvePlacement(values.subject?.trim() ?? '', values, taxonomy)))
       const existing = byId.get(incoming.id) ?? updates.get(incoming.id)
 
       if (existing) {

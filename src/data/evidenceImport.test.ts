@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  EVIDENCE_IMPORT_FIELDS, evidenceErrors, linkCitationsToClaims,
+  EVIDENCE_IMPORT_FIELDS, evidenceErrors, reconcileClaimEvidence,
   resourceFromRow, claimFromRow, citationFromRow, spanFromRow, hashText,
   type EvidenceContext,
 } from './evidenceImport.ts'
@@ -85,31 +85,9 @@ test('a claim on a concept that does not exist is rejected', () => {
   assert.ok(errors.some((error) => /does not exist/.test(error)), errors.join(' | '))
 })
 
-test('a claim cannot be verified without a citation', () => {
-  const errors = evidenceErrors('claim', { ...CLAIM, verification_status: 'verified' }, context)
-  assert.ok(errors.some((error) => /citation that counts as evidence/.test(error)), errors.join(' | '))
-})
-
-test('a citation arriving in the same batch supports its claim', () => {
-  // The claim row does not repeat its citation IDs — the citation names its
-  // claim, and the reverse is filled in at commit. Without this the validator
-  // would reject every verified claim in a well-formed batch.
-  const together = { ...context, incoming: { claimsWithEvidence: new Set(['CLM-1']) } }
-  assert.deepEqual(evidenceErrors('claim', { ...CLAIM, verification_status: 'verified' }, together), [])
-})
-
-test('a treatment claim needs two supports even when they arrive together', () => {
-  const one = { ...context, incoming: { claimsWithEvidence: new Set(['CLM-1']), evidenceCountByClaim: new Map([['CLM-1', 1]]) } }
-  const errors = evidenceErrors('claim', { ...CLAIM, risk_class: 'treatment_or_action', verification_status: 'verified' }, one)
-  assert.ok(errors.some((error) => /two independent citations/.test(error)), errors.join(' | '))
-
-  const two = { ...context, incoming: { claimsWithEvidence: new Set(['CLM-1']), evidenceCountByClaim: new Map([['CLM-1', 2]]) } }
-  assert.deepEqual(evidenceErrors('claim', { ...CLAIM, risk_class: 'treatment_or_action', verification_status: 'verified' }, two), [])
-})
-
-test('a treatment claim needs two independent citations to be verified', () => {
-  const errors = evidenceErrors('claim', { ...CLAIM, risk_class: 'treatment_or_action', verification_status: 'verified', citation_ids: 'CIT-EXISTING' }, context)
-  assert.ok(errors.some((error) => /two independent citations/.test(error)), errors.join(' | '))
+test('a claim asserting verification is accepted — the status is derived, not checked', () => {
+  // An author states an intention; the store decides whether evidence earns it.
+  assert.deepEqual(evidenceErrors('claim', { ...CLAIM, verification_status: 'verified' }, context), [])
 })
 
 test('a time-sensitive claim needs a review-due date', () => {
@@ -178,8 +156,41 @@ test('a span on an article that does not exist is rejected', () => {
 test('a claim picks up the citations that name it', () => {
   const claims = [claimFromRow(CLAIM)]
   const citations = [citationFromRow({ ...CITATION, id: 'CIT-A', claim_id: 'CLM-1' }), citationFromRow({ ...CITATION, id: 'CIT-B', claim_id: 'CLM-1' })]
-  const linked = linkCitationsToClaims(claims, citations)
+  const linked = reconcileClaimEvidence(claims, citations)
   assert.deepEqual(linked[0].citationIds, ['CIT-A', 'CIT-B'])
-  // Idempotent: re-linking the same pair changes nothing.
-  assert.deepEqual(linkCitationsToClaims(linked, citations)[0].citationIds, ['CIT-A', 'CIT-B'])
+  assert.deepEqual(reconcileClaimEvidence(linked, citations)[0].citationIds, ['CIT-A', 'CIT-B'])
+})
+
+test('a claim asserting verification lands at needs_evidence until a citation counts', () => {
+  const claims = [claimFromRow({ ...CLAIM, verification_status: 'verified' })]
+  // This is the ordering trap the simulation found: claims import before their
+  // citations exist. They must land, not be rejected.
+  assert.equal(reconcileClaimEvidence(claims, [])[0].verificationStatus, 'needs_evidence')
+  const counting = [citationFromRow({ ...CITATION, id: 'CIT-A', claim_id: 'CLM-1' })]
+  assert.equal(reconcileClaimEvidence(claims, counting)[0].verificationStatus, 'verified')
+})
+
+test('a citation that does not count cannot verify a claim', () => {
+  const claims = [claimFromRow({ ...CLAIM, verification_status: 'verified' })]
+  const local = [citationFromRow({ ...CITATION, id: 'CIT-LOCAL', claim_id: 'CLM-1', counts_as_claim_evidence: 'no' })]
+  const [reconciled] = reconcileClaimEvidence(claims, local)
+  assert.equal(reconciled.verificationStatus, 'needs_evidence')
+  // It is still linked — the record of where it is taught survives.
+  assert.deepEqual(reconciled.citationIds, ['CIT-LOCAL'])
+})
+
+test('a treatment claim needs two counting citations to derive verified', () => {
+  const claims = [claimFromRow({ ...CLAIM, risk_class: 'treatment_or_action', verification_status: 'verified' })]
+  const one = [citationFromRow({ ...CITATION, id: 'CIT-A', claim_id: 'CLM-1' })]
+  assert.equal(reconcileClaimEvidence(claims, one)[0].verificationStatus, 'needs_evidence')
+  const two = [...one, citationFromRow({ ...CITATION, id: 'CIT-B', claim_id: 'CLM-1' })]
+  assert.equal(reconcileClaimEvidence(claims, two)[0].verificationStatus, 'verified')
+})
+
+test('an editorial conflicted or excluded status is never overwritten', () => {
+  for (const status of ['conflicted', 'excluded']) {
+    const claims = [claimFromRow({ ...CLAIM, verification_status: status })]
+    const counting = [citationFromRow({ ...CITATION, id: 'CIT-A', claim_id: 'CLM-1' })]
+    assert.equal(reconcileClaimEvidence(claims, counting)[0].verificationStatus, status)
+  }
 })

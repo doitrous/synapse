@@ -10,6 +10,7 @@
 import type { Concept, ConceptGraph, ConceptRelation, ConceptRelationType, ConceptStatus } from './conceptGraph.ts'
 import { CONCEPT_RELATIONS } from './conceptGraph.ts'
 import { optionalList, importList } from './importSemantics.ts'
+import type { CurriculumSystem } from './curriculumCatalog.ts'
 import { mergeAuthoringData } from './importMerge.ts'
 
 export interface ConceptImportField {
@@ -99,6 +100,37 @@ function noteMap(value?: string): Record<string, string> | undefined {
   return Object.keys(out).length ? out : undefined
 }
 
+/**
+ * Resolve curriculum placement from a subject plus free-text titles or IDs.
+ *
+ * This lives here rather than in the import page so a script can produce exactly
+ * what the admin wizard produces. It used to live only in the page, which meant
+ * a simulated import silently dropped `subjectId` and every placement field —
+ * the kind of divergence a dry run exists to catch.
+ *
+ * Only what actually resolved is returned. An unmatched title must never blank
+ * a placement that already exists on an update.
+ */
+export function resolvePlacement(subjectId: string, values: Record<string, string>, tree: CurriculumSystem[]): Partial<Concept> {
+  const system = tree.find((entry) => entry.id === subjectId || entry.short.toLowerCase() === subjectId.toLowerCase())
+  if (!system) return subjectId ? { subjectId } : {}
+  const findBy = <T extends { title: string }>(items: T[], query: string, idOf: (item: T) => string) =>
+    query ? items.find((item) => item.title.toLowerCase() === query.toLowerCase() || idOf(item).toLowerCase() === query.toLowerCase()) : undefined
+
+  const topic = findBy(system.topics, values.topic ?? '', (item) => item.tpcId)
+  const subtopic = topic && findBy(topic.subs, values.subtopic ?? '', (item) => item.subId)
+  const microtopic = subtopic && findBy(subtopic.micros, values.microtopic ?? '', (item) => item.micId)
+  const nanotopic = microtopic && findBy(microtopic.nanos, values.nanotopic ?? '', (item) => item.nanId)
+  return {
+    subjectId: system.id,
+    systemId: system.sysId,
+    ...(topic ? { topicTagId: topic.tpcId } : {}),
+    ...(subtopic ? { subtopicId: subtopic.subId } : {}),
+    ...(microtopic ? { microtopicId: microtopic.micId } : {}),
+    ...(nanotopic ? { nanotopicId: nanotopic.nanId } : {}),
+  }
+}
+
 export const conceptIdFrom = (label: string) =>
   `med.concept.${label.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'concept'}`
 
@@ -163,11 +195,27 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
   }
 }
 
-/** Fill the lists a brand-new concept must carry for the field audit. */
+/**
+ * Fill what a brand-new concept must carry for the field audit.
+ *
+ * The audit separates "this field is missing" from "this field is empty on
+ * purpose", and reads the second off the key being present. A key set to
+ * `undefined` does not survive `JSON.stringify`, so an optional field is written
+ * as `null` — otherwise it vanishes the moment the record is persisted and the
+ * audit reports it absent.
+ */
 export function materialiseNewConcept(concept: Concept): Concept {
   const filled = { ...concept } as Record<string, unknown>
   for (const key of ['aliases', 'articleIds']) if (filled[key] === undefined) filled[key] = []
   if (filled.status === undefined) filled.status = 'under review'
+  const present = [
+    'systemId', 'topicTagId', 'subtopicId', 'microtopicId', 'nanotopicId', 'secondaryNodeIds',
+    'relatedConceptIds', 'moduleIds', 'arabicLabel', 'arabicAliases', 'pitfalls',
+    'approvedFileResourceIds', 'approvedVideoResourceIds', 'conflicts', 'uncertainty',
+    'evidenceGaps', 'mergeIds', 'rejectedMergeCandidateIds', 'lastReviewed', 'reviewDue',
+    'exclusionReason', 'resourceOccurrenceIds',
+  ]
+  for (const key of present) if (filled[key] === undefined) filled[key] = null
   return filled as unknown as Concept
 }
 

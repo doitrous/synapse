@@ -251,16 +251,13 @@ export function evidenceErrors(kind: EvidenceRecordKind, values: Record<string, 
       errors.push('Risk class must be foundational_stable, clinical_non_treatment, or treatment_or_action')
     }
     if (claim.timeSensitive && !claim.reviewDue) errors.push('A time-sensitive claim needs a review-due date')
-    const supported = claim.citationIds.length > 0 || Boolean(context.incoming?.claimsWithEvidence?.has(claim.id))
-    if (claim.verificationStatus === 'verified' && !supported) {
-      errors.push('A claim may only be verified when a citation that counts as evidence supports it')
-    }
+    // Verification status is not checked here, because it is not the author's to
+    // assert — `reconcileClaimEvidence` computes it from the citations that
+    // actually resolve. An author writing `verified` is stating an intention,
+    // and the store decides whether the evidence earns it.
     // Treatment content is labelled, not blocked (LD-12), but it may not claim
     // verification off a single source.
-    const supportCount = Math.max(claim.citationIds.length, context.incoming?.claimsWithEvidence?.has(claim.id) ? (context.incoming.evidenceCountByClaim?.get(claim.id) ?? 1) : 0)
-    if (claim.riskClass === 'treatment_or_action' && claim.verificationStatus === 'verified' && supportCount < 2) {
-      errors.push('Treatment or action claims need two independent citations before they can be verified (LD-08)')
-    }
+
   }
 
   if (kind === 'citation') {
@@ -285,16 +282,38 @@ export function evidenceErrors(kind: EvidenceRecordKind, values: Record<string, 
 }
 
 /**
- * Re-derive `citationIds` on claims from the citations that point at them.
+ * Link claims to their citations, and derive each claim's verification status.
  *
- * A claim and its citations arrive in the same file, and asking an author to
- * keep both directions in step by hand is asking for a mismatch. The citation
- * names its claim; this fills in the reverse.
+ * Two things a claim must never do: repeat its citation IDs by hand, and assert
+ * its own verification. The citation names its claim, so the reverse link is
+ * computed; and a claim is `verified` exactly when the evidence chain earns it,
+ * so the status is computed too.
+ *
+ * Deriving the status is what removes the ordering trap. An author can import
+ * claims before their citations exist: the claims simply land at
+ * `needs_evidence` and are promoted when the citations arrive. Asserting the
+ * status instead meant claims were rejected for lacking citations, and then the
+ * citations were rejected because their claims had never landed.
+ *
+ * `conflicted` and `excluded` are editorial judgements about the source
+ * material, not statements about coverage, so they are left alone.
  */
-export function linkCitationsToClaims(claims: EvidenceClaim[], citations: CitationLink[]): EvidenceClaim[] {
+export function reconcileClaimEvidence(claims: EvidenceClaim[], citations: CitationLink[]): EvidenceClaim[] {
   return claims.map((claim) => {
-    const found = citations.filter((citation) => citation.claimId === claim.id).map((citation) => citation.id)
-    const merged = [...new Set([...claim.citationIds, ...found])]
-    return merged.length === claim.citationIds.length ? claim : { ...claim, citationIds: merged }
+    const mine = citations.filter((citation) => citation.claimId === claim.id)
+    const citationIds = [...new Set([...claim.citationIds, ...mine.map((citation) => citation.id)])]
+    const counting = mine.filter((citation) => citation.countsAsClaimEvidence).length
+    // Treatment and action content needs two independent sources before it can
+    // be called verified, however confident the extraction was (LD-08).
+    const needed = claim.riskClass === 'treatment_or_action' ? 2 : 1
+    const derived: VerificationState =
+      claim.verificationStatus === 'conflicted' || claim.verificationStatus === 'excluded'
+        ? claim.verificationStatus
+        : counting >= needed ? 'verified' : 'needs_evidence'
+    if (derived === claim.verificationStatus && citationIds.length === claim.citationIds.length) return claim
+    return { ...claim, citationIds, verificationStatus: derived }
   })
 }
+
+/** @deprecated Use `reconcileClaimEvidence`, which also derives the status. */
+export const linkCitationsToClaims = reconcileClaimEvidence

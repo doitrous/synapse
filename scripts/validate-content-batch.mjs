@@ -8,9 +8,13 @@
  * admin UI too — better to find out from a command than from a half-applied
  * import.
  */
-import { readFile } from 'node:fs/promises'
+import { readFile, readdir } from 'node:fs/promises'
+import { dirname, join } from 'node:path'
 import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
-import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, claimFromRow, citationFromRow } from '../src/data/evidenceImport.ts'
+import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
+import { IMPORT_SCHEMAS, importRowToContent, validateImportRow } from '../src/data/bulkImport.ts'
+import { materialiseNewItem } from '../src/data/importMerge.ts'
+import { missingRequiredSections } from '../src/data/articleTemplates.ts'
 import { MEDICAL_TAXONOMY_INDEX } from '../src/data/medicalLibraryTaxonomy.ts'
 
 const file = process.argv[2]
@@ -38,6 +42,7 @@ const rows = parseMarkdown(await readFile(file, 'utf8'))
  * validated against the wrong contract by being misnamed.
  */
 function detectKind(sample) {
+  if ('summary' in sample && 'sections' in sample) return 'article'
   if ('claim_id' in sample && 'resource_id' in sample) return 'citation'
   if ('concept_id' in sample && 'display_text' in sample) return 'claim'
   if ('article_id' in sample && 'section_id' in sample) return 'span'
@@ -47,31 +52,84 @@ function detectKind(sample) {
 
 const kind = detectKind(rows[0] ?? {})
 const errors = []
+const notes = []
 const records = []
 
-if (kind !== 'concept') {
-  // Evidence batches are checked against whatever the file itself declares,
-  // plus the batch directory's other files, since claims and their citations are
-  // authored together and neither exists in the store yet.
-  const sibling = async (name) => {
-    try { return parseMarkdown(await readFile(new URL(name, `file://${process.cwd()}/`), 'utf8')) } catch { return [] }
-  }
-  const base = file.replace(/-(sources|claims|citations|spans)\.md$/, '')
-  const claims = base === file ? [] : await sibling(`${base}-claims.md`)
-  const resources = base === file ? [] : await sibling(`${base}-sources.md`)
-  const citations = base === file ? [] : await sibling(`${base}-citations.md`)
-  const conceptRows = base === file ? [] : await sibling(`${base.replace(/-002$/, '-001')}.md`)
+if (kind === 'article') {
+  const known = new Set(IMPORT_SCHEMAS.article.fields.map((field) => field.key))
+  const built = []
+  rows.forEach((values, index) => {
+    const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
+    for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
+    for (const error of validateImportRow('article', values)) errors.push(`${where}: ${error}`)
 
-  const countingCitations = citations.map(citationFromRow).filter((citation) => citation.countsAsClaimEvidence)
+    const item = materialiseNewItem(importRowToContent('article', values, `row-${index}`))
+    const data = item.articleData
+    built.push(item)
+
+    // The archetype's section contract is the point of having archetypes.
+    const headings = data.sections.map((section) => section.heading)
+    const missing = missingRequiredSections(data.templateId ?? '', headings)
+    if (missing.length) errors.push(`${where}: missing required sections for ${data.templateId}: ${missing.join(', ')}`)
+
+    for (const nodeId of [data.primaryNodeId, ...(data.secondaryNodeIds ?? [])].filter(Boolean)) {
+      if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)
+    }
+    if (!data.arabicTitle && !data.fieldNotes?.arabicTitle) errors.push(`${where}: no Arabic title and no field note saying why (LD-15)`)
+    // A callout that publishes must be one the article actually carries.
+    for (const text of Object.keys(data.calloutEvidence ?? {})) {
+      if (![...(data.holdThese ?? []), ...(data.loseTheMark ?? [])].includes(text)) {
+        errors.push(`${where}: callout evidence names a line this article does not have`)
+      }
+    }
+  })
+
+  const ids = built.map((item) => item.id)
+  for (const id of ids) if (ids.filter((other) => other === id).length > 1) errors.push(`duplicate id ${id} within the file`)
+  // Related reading must resolve, at least within the batch.
+  for (const item of built) {
+    for (const related of item.articleData.relatedArticleIds ?? []) {
+      if (!ids.includes(related)) errors.push(`${item.id}: related article ${related} is not in this batch — confirm it exists before import`)
+    }
+  }
+
+  console.log(JSON.stringify({
+    file, kind, items: rows.length,
+    fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    annotations: built.reduce((sum, item) => sum + item.articleData.annotations.length, 0),
+    imageRecommendations: built.reduce((sum, item) => sum + (item.articleData.imageRecommendations?.length ?? 0), 0),
+    calloutsWithEvidence: built.reduce((sum, item) => sum + Object.keys(item.articleData.calloutEvidence ?? {}).length, 0),
+    errors,
+  }, null, 1))
+  if (errors.length) process.exitCode = 1
+  process.exit()
+}
+
+if (kind !== 'concept') {
+  // Evidence batches reference each other — a citation names a claim, a span
+  // names an article — and those records are authored across sibling files that
+  // have not been imported yet. Rather than guess filenames from this one, read
+  // every batch in the directory and validate against the set. Guessing was
+  // tried and broke the moment a span batch and its claims lived in files with
+  // different stems.
+  const dir = dirname(file)
+  const siblings = (await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name))
+  const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [] }
+  for (const path of siblings) {
+    const parsed = parseMarkdown(await readFile(path, 'utf8'))
+    if (parsed.length) everything[detectKind(parsed[0])].push(...parsed)
+  }
+
+  const countingCitations = everything.citation.map(citationFromRow).filter((citation) => citation.countsAsClaimEvidence)
 
   const context = {
     store: { claims: [], citations: [], resources: [], articleSpans: [] },
-    conceptIds: new Set(conceptRows.map((row) => row.id?.trim()).filter(Boolean)),
-    articleIds: new Set(),
+    conceptIds: new Set(everything.concept.map((row) => row.id?.trim()).filter(Boolean)),
+    articleIds: new Set(everything.article.map((row) => row.id?.trim()).filter(Boolean)),
     incoming: {
-      claims: new Set(claims.map((row) => row.id?.trim()).filter(Boolean)),
-      resources: new Set(resources.map((row) => row.id?.trim()).filter(Boolean)),
-      citations: new Set(citations.map((row) => row.id?.trim()).filter(Boolean)),
+      claims: new Set(everything.claim.map((row) => row.id?.trim()).filter(Boolean)),
+      resources: new Set(everything.resource.map((row) => row.id?.trim()).filter(Boolean)),
+      citations: new Set(everything.citation.map((row) => row.id?.trim()).filter(Boolean)),
       claimsWithEvidence: new Set(countingCitations.map((citation) => citation.claimId)),
       evidenceCountByClaim: countingCitations.reduce((map, citation) => map.set(citation.claimId, (map.get(citation.claimId) ?? 0) + 1), new Map()),
     },
@@ -84,14 +142,14 @@ if (kind !== 'concept') {
     for (const error of evidenceErrors(kind, values, context)) errors.push(`${where}: ${error}`)
   })
 
-  // A verified claim must actually be supported by a citation that counts.
+  // A claim asserting verification will be demoted at import unless a counting
+  // citation exists. That is not an error, but it is worth saying out loud.
   if (kind === 'claim') {
-    const counting = citations.map(citationFromRow).filter((citation) => citation.countsAsClaimEvidence)
     for (const values of rows) {
       const claim = claimFromRow(values)
       if (claim.verificationStatus !== 'verified') continue
-      if (!counting.some((citation) => citation.claimId === claim.id)) {
-        errors.push(`${claim.id}: marked verified but no citation in this batch counts as evidence for it`)
+      if (!context.incoming.claimsWithEvidence.has(claim.id)) {
+        notes.push(`${claim.id} asks to be verified, but no counting citation supports it yet — it will land as needs_evidence`)
       }
     }
   }
@@ -99,7 +157,7 @@ if (kind !== 'concept') {
   const ids = rows.map((row) => row.id?.trim())
   for (const id of ids) if (id && ids.filter((other) => other === id).length > 1) errors.push(`duplicate id ${id} within the file`)
 
-  console.log(JSON.stringify({ file, kind, items: rows.length, fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length, errors }, null, 1))
+  console.log(JSON.stringify({ file, kind, items: rows.length, fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length, notes, errors }, null, 1))
   if (errors.length) process.exitCode = 1
   process.exit()
 }

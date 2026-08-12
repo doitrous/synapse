@@ -6,7 +6,7 @@ import {
   MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore,
 } from '@/data/medicalEvidence'
 import {
-  EVIDENCE_IMPORT_FIELDS, EVIDENCE_RECORD_LABEL, evidenceErrors, linkCitationsToClaims,
+  EVIDENCE_IMPORT_FIELDS, EVIDENCE_RECORD_LABEL, evidenceErrors, reconcileClaimEvidence,
   resourceFromRow, claimFromRow, citationFromRow, spanFromRow,
   type EvidenceContext, type EvidenceRecordKind,
 } from '@/data/evidenceImport'
@@ -152,11 +152,11 @@ export function EvidenceImportPage() {
       if (kind === 'resource') return { ...current, resources: upsert(current.resources, accepted.map(resourceFromRow)) }
       if (kind === 'citation') {
         const citations = upsert(current.citations, accepted.map(citationFromRow))
-        return { ...current, citations, claims: linkCitationsToClaims(current.claims, citations) }
+        return { ...current, citations, claims: reconcileClaimEvidence(current.claims, citations) }
       }
       if (kind === 'span') return { ...current, articleSpans: upsert(current.articleSpans, accepted.map(spanFromRow)) }
       const claims = upsert(current.claims, accepted.map(claimFromRow))
-      return { ...current, claims: linkCitationsToClaims(claims, current.citations) }
+      return { ...current, claims: reconcileClaimEvidence(claims, current.citations) }
     })
 
     return {

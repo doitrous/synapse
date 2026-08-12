@@ -89,7 +89,17 @@ export function materialiseNewItem(item: ManagedContentItem): ManagedContentItem
     'yearIds', 'moduleIds', 'relatedConceptIds', 'relatedArticleIds', 'secondaryNodeIds',
     'evidenceBasis', 'articleLevelSourceIds', 'claimIds', 'spanIds', 'conflicts', 'evidenceGaps', 'media', 'aliases',
   ]
+  // The audit distinguishes a field that is absent from one that is empty on
+  // purpose, so every optional key is written even when it has no value —
+  // as `null`, not `undefined`, because `JSON.stringify` drops the latter and
+  // the key would vanish the moment the record was persisted.
+  const present = [
+    'publishedSections', 'publishedSummary', 'subtopicId', 'microtopicId', 'nanotopicId',
+    'universityNotes', 'imageRecommendations', 'calloutEvidence', 'fieldNotes',
+    'lastReviewed', 'reviewDue', 'arabicTitle', 'notes',
+  ]
   const filled: Dict = { ...data }
   for (const key of required) if (filled[key] === undefined) filled[key] = []
+  for (const key of present) if (filled[key] === undefined) filled[key] = null
   return { ...item, articleData: filled as unknown as ManagedContentItem['articleData'] }
 }

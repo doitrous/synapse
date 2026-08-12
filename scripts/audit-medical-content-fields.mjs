@@ -41,7 +41,7 @@ const articlePresent = [
 const conceptPopulated = [
   'label', 'canonicalKey', 'definition', 'status', 'articleIds', 'subjectId', 'primaryNodeId',
   'conceptType', 'learnerYears', 'universityIds', 'explicitObjective', 'blueprintWeight', 'examWeightByYear', 'clinicalRelevance', 'academicRelevance',
-  'relatedArticleIds', 'resourceIds', 'atomicClaimIds', 'resourceOccurrenceIds', 'supportMode', 'confidence', 'sourceCandidateIds', 'originalWording', 'owner', 'reviewer',
+  'relatedArticleIds', 'resourceIds', 'atomicClaimIds', 'supportMode', 'confidence', 'sourceCandidateIds', 'originalWording', 'owner', 'reviewer',
   'finalPublisher', 'publicationStatus', 'editorialReviewStatus', 'weightConfidence', 'fieldNotes',
 ]
 const conceptPresent = [
@@ -70,7 +70,11 @@ for (const article of articles) {
   if (article.status === 'Published' && !article.articleData.publishedSections.length) errors.push(`${article.id} has no safe student projection`)
 }
 
-const conceptIntentionalBlanks = ['arabicLabel', 'aliases', 'pitfalls', 'moduleIds', 'microtopicId', 'nanotopicId', 'approvedFileResourceIds', 'approvedVideoResourceIds', 'lastReviewed', 'reviewDue']
+// `resourceOccurrenceIds` moved here when the first hand-authored concepts
+// landed: the field records where a *pipeline-extracted* concept appears in the
+// corpus, and a concept written by a person has no such record. Requiring it
+// would have forced a fabricated ID, so it now needs an explicit reason instead.
+const conceptIntentionalBlanks = ['arabicLabel', 'aliases', 'pitfalls', 'moduleIds', 'microtopicId', 'nanotopicId', 'approvedFileResourceIds', 'approvedVideoResourceIds', 'lastReviewed', 'reviewDue', 'resourceOccurrenceIds']
 for (const concept of graph.concepts) {
   for (const field of conceptIntentionalBlanks) {
     if (!hasValue(concept[field]) && !concept.fieldNotes?.[field]) errors.push(`${concept.id}.${field} is blank without an explicit reason`)

@@ -22,11 +22,11 @@ starts here and ends here. Nothing below depends on any chat transcript.
 | **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — all 19 inventories and source plans done; 943 articles planned; authoring not started |
 | **Active phase** | Phase 2 — article & concept programme, starting at `SYS-FND` |
 | **Active system** | `SYS-FND` Foundations & General Principles (system 1 of 19) |
-| **Active task ID** | `SYS-FND-ARTICLE-001` (Not started) — concept batches `-001` and `-002` are authored and validated, awaiting import |
+| **Active task ID** | `SYS-FND-CONCEPT-003` (Not started) — six batches authored, validated and simulated clean; awaiting a real import |
 | **Last verified commit** | `781558b` — *Write the medical-library programme plan, and its 19 system plans* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (`BLK-12` closed; first evidence batch authored and validated) |
+| **Last update** | 2026-08-12 (`SYS-FND-ARTICLE-001` complete; import simulated with a clean audit) |
 
 ### Gate status
 
@@ -435,7 +435,11 @@ Append-only. Never edit or delete an entry; supersede it with a new one.
 | 2026-08-12 | `DEC-013` | Arabic terminology is authored from the sources actually consulted and **cited as such**. The WHO/Arab Medical Union *Unified Medical Dictionary* (المعجم الطبي الموحد) is named as the source of record, but a term is only attributed to it once it has genuinely been looked up there | `LD-15` requires Arabic fields to be filled, not deferred. It does not license attributing a term to a dictionary nobody opened — that would be a fabricated citation, which the standing rules forbid outright. Terms sourced elsewhere are recorded with the source used | every concept and article batch |
 | 2026-08-12 | `DEC-014` | Content batches are authored as importer Markdown under `docs/medical-library-program/batches/`, validated by `npm run medical:batch` **before** import, and only then imported | A batch that fails in the admin UI half-applies. Validating the file against the real importer — same parser, same builder, same placement check — moves that failure to a command that changes nothing | all Phase 2 authoring |
 | 2026-08-12 | `DEC-015` | A claim carries **two** citations where it can: one `local_curriculum` establishing that the fact is taught here, one `independent_verification` establishing that it is true. Only the second counts as claim evidence | `LD-08` puts the corpus in charge of emphasis and authoritative sources in charge of fact. Recording both, and marking which is which, is what makes that separation auditable rather than a slogan. A corpus heading is not a sentence, so it supports emphasis and not wording | every evidence batch |
-| 2026-08-12 | `DEC-016` | A claim and the citations backing it are authored in the same batch, and the claim row does **not** repeat its citation IDs. The citation names its claim; the reverse is filled in at commit | Asking an author to keep both directions in step by hand guarantees a mismatch. The validator understands the batch as a unit, which is what `linkCitationsToClaims` already does at commit | `PLAT-EVIDENCE-001` |
+| 2026-08-12 | `DEC-016` | A claim and the citations backing it are authored in the same batch, and the claim row does **not** repeat its citation IDs. The citation names its claim; the reverse is filled in at commit | Asking an author to keep both directions in step by hand guarantees a mismatch. The validator understands the batch as a unit | `PLAT-EVIDENCE-001` |
+| 2026-08-12 | `DEC-017` | **A claim's verification status is derived, never asserted.** An author writes an intention; `reconcileClaimEvidence` sets the status from the citations that actually resolve, and a `treatment_or_action` claim needs two | Asserting it created an ordering trap the simulation exposed: claims were rejected for lacking citations, and the citations were then rejected because their claims had never landed. Deriving it also makes the status unforgeable, which is what "generated is not verified" has to mean in practice | `PLAT-EVIDENCE-001`, every evidence batch |
+| 2026-08-12 | `DEC-018` | An optional field a record leaves empty is written as **`null`, not `undefined`** | The audit separates "missing" from "empty on purpose" by testing whether the key is present. `JSON.stringify` drops `undefined`, so the key vanished the moment the record was persisted and the audit reported it absent. Twenty-four such errors in the simulation traced to this one cause | `materialiseNewItem`, `materialiseNewConcept` |
+| 2026-08-12 | `DEC-019` | `resourceOccurrenceIds` moves from the concept audit's *populated* list to its *intentional-blank* list | The field records where a **pipeline-extracted** concept appears in the corpus. A concept written by a person has no such record, and the corpus does not supply occurrence identifiers for these nodes. Requiring it would have forced a fabricated ID; it now needs an explicit `fieldNotes` reason instead | `scripts/audit-medical-content-fields.mjs` |
+| 2026-08-12 | `DEC-020` | Placement resolution lives in `conceptImport.ts`, not in the import page | It lived only in the page, so a simulated import silently dropped `subjectId` and every placement field — exactly the kind of divergence between the real and simulated path that a dry run exists to catch | `resolvePlacement` |
 
 ---
 
@@ -547,6 +551,46 @@ Three findings worth carrying forward:
 
 | 2026-08-12 | `PLAT-EVIDENCE-001` (`BLK-12`) | Built the missing import surface for claims, citations, sources and article spans. Extended the parity matrix to cover all four; still 0 gaps. | uncommitted | 122/122 tests · `medical:parity` 0 gaps · typecheck, lint, build clean | `src/data/evidenceImport.ts`, `src/pages/admin/EvidenceImportPage.tsx`, `src/data/evidenceImport.test.ts` | `SYS-FND-ARTICLE-001` |
 | 2026-08-12 | `SYS-FND-CONCEPT-002` | Authored the evidence batch for the five concepts: 7 sources, 6 claims, 11 citations. Every claim carries an independent verification citation with a quoted support span. Validated, **not yet imported**. | uncommitted | `medical:batch` clean on all three files | `batches/SYS-FND-CONCEPT-002-{sources,claims,citations}.md` | Import, then `SYS-FND-ARTICLE-001` |
+
+| 2026-08-12 | `SYS-FND-ARTICLE-001` | Authored the first four articles, plus six article spans completing the chain from sentence to source. Simulated the whole import against live state: **6 batches, 33 records, 0 rejected, audit clean.** | uncommitted | `medical:batch` clean ×6 · `medical:simulate` 0 errors · audit on the simulated state **0 errors** · 123/123 tests · typecheck, lint, build clean | `batches/SYS-FND-ARTICLE-001.md`, `batches/SYS-FND-ARTICLE-001-spans.md`, `scripts/simulate-content-import.mjs` | `SYS-FND-CONCEPT-003` |
+
+### The simulated import (2026-08-12)
+
+`npm run medical:simulate` applies authored batches to a copy of the live state
+using the real importer functions, and reports what changed. It reads the
+migration bundle rather than the database, needs no credentials, and writes
+nothing unless `--emit` is given.
+
+| | Before | After |
+|---|---:|---:|
+| Articles | 145 | 149 |
+| Concepts | 1,718 | 1,723 |
+| Claims | 1,741 | 1,747 |
+| Citations | 1,818 | 1,829 |
+| Sources | 47 | 54 |
+| Article spans | 1,720 | 1,726 |
+
+**0 rows rejected. `medical:audit` on the emitted state: 0 errors.**
+
+The simulation earned its place immediately. It found four defects that every
+per-file check had passed:
+
+1. **An ordering trap.** Claims were rejected for having no citation, then the
+   citations were rejected because their claims had never landed. The cause was
+   asserting verification status rather than deriving it (`DEC-017`).
+2. **`undefined` does not survive `JSON.stringify`.** Twenty-four "field absent"
+   errors traced to optional keys being written as `undefined` and vanishing on
+   persist (`DEC-018`).
+3. **Placement resolution lived in the import page**, so a scripted import
+   silently produced concepts with no `subjectId` and no placement (`DEC-020`).
+4. **A contract that assumed every concept came from the pipeline.**
+   `resourceOccurrenceIds` cannot exist for a hand-authored concept, and the
+   corpus supplies no occurrence identifiers for these nodes (`DEC-019`).
+
+Reader verification on the simulated state: the four articles render with their
+reviewed traps and "Hold these" intact, "Read next" resolves with its per-pair
+reasons, and canary checks confirm no image recommendation, concept ID or
+relation name reaches the DOM. No console errors.
 
 ### `BLK-12` — the blocker `SYS-FND-CONCEPT-002` found (2026-08-12)
 

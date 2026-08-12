@@ -7,8 +7,8 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 |---|---|
 | **Status** | Not started |
 | **Blocked by** | `GATE-TAX-001`. `GATE-PLATFORM-001` **passed** 2026-08-12 |
-| **Active task** | `SYS-FND-ARTICLE-001` (Not started) |
-| **Done** | `INVENTORY-001` · `SOURCE-001` · `CONCEPT-001` · `CONCEPT-002` (authored, validated, not imported) |
+| **Active task** | `SYS-FND-CONCEPT-003` (Not started) |
+| **Done** | `INVENTORY-001` · `SOURCE-001` · `CONCEPT-001` · `CONCEPT-002` · `ARTICLE-001` — six batches authored, validated and simulated clean; 4 of 56 planned articles |
 | **Baseline date** | 2026-08-12 at commit `2df5853` |
 
 ---
