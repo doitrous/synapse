@@ -850,14 +850,24 @@ Cancer is a disease in which some of the body's cells grow uncontrollably and sp
 No single change is sufficient. A cell must escape the controls on its division, evade the death it should undergo, sustain its own blood supply, and acquire the ability to invade and travel — and each of those is a separate genetic change.
 
 Two classes of gene dominate. Oncogenes drive division when activated, and a change in one copy is enough. Tumour suppressor genes restrain division, and both copies must be lost before the restraint is gone.
+
+Oncogenes are abnormally expressed or mutated forms of the corresponding proto-oncogenes. Proto-oncogenes are the normal-cell genes from which the retroviral oncogenes originated — that is, the oncogene is a normal gene gone wrong rather than a foreign one acquired.
+
+TP53 is the tumour suppressor to know. The TP53 protein acts as a tumour suppressor, which means that it regulates cell division by keeping cells from growing and dividing too fast or in an uncontrolled way. Somatic mutations in the TP53 gene are the most common genetic changes found in human cancer, occurring in about half of all cancers.
 ### Key determinants
 Because several independent changes are needed, time matters more than exposure intensity for most cancers. That is the main reason incidence rises so steeply with age.
 
 Carcinogens act by increasing the mutation rate rather than by causing cancer directly — chemical, physical, and viral agents all converge on the same mechanism, and none of them produces a tumour on its own.
+
+Each class has a worked example. Chemical: exposure to benzene increases the risk of developing leukaemia and other blood disorders. Physical: radiation of certain wavelengths, called ionising radiation, has enough energy to damage DNA and cause cancer. Viral: almost all cases of cervical cancer are caused by infection with oncogenic types of human papillomavirus, and hepatitis B can cause a chronic infection and puts people at high risk of death from cirrhosis and liver cancer.
 ### Clinical significance
 The multi-step model explains why screening works at all. A precursor lesion has acquired some changes but not all, and removing it interrupts the sequence before it completes.
 
 It also explains inherited cancer syndromes. A person born with one tumour suppressor copy already lost needs fewer subsequent changes, so cancer appears earlier and often in more than one site.
+
+Two of these agents matter particularly here. In urogenital schistosomiasis, long-standing inflammation may lead to fibrosis, obstructive uropathy, and an increased risk of bladder cancer. And aflatoxin B1 is associated with increased risk for hepatocellular carcinoma in patients with chronic hepatitis B virus — note the conditioning, which the source states and which matters: the risk is described in people who already carry chronic hepatitis B, not in isolation.
+
+Both are avoidable exposures rather than inherited risks, which places them in public health as much as in pathology.
 ### Common misconceptions
 Cancer is not a single mutation. It is a multi-step accumulation, which is why it takes decades and why it becomes far more common with age.
 ## hold_these
@@ -865,6 +875,11 @@ Cancer is a disease in which some of the body's cells grow uncontrollably and sp
 Several independent genetic changes are needed, not one.
 An oncogene needs one copy altered; a tumour suppressor needs both lost.
 Carcinogens raise the mutation rate rather than causing cancer directly.
+Oncogenes are abnormally expressed or mutated forms of the corresponding proto-oncogenes.
+Somatic mutations in the TP53 gene are the most common genetic changes found in human cancer, occurring in about half of all cancers.
+Exposure to benzene increases the risk of developing leukaemia and other blood disorders.
+Almost all cases of cervical cancer are caused by infection with oncogenic types of human papillomavirus.
+In urogenital schistosomiasis, long-standing inflammation may lead to fibrosis, obstructive uropathy, and an increased risk of bladder cancer.
 ## lose_the_mark
 Treating cancer as a single mutation. It is a multi-step accumulation.
 Applying the one-copy rule to tumour suppressors. Both copies must be lost.
@@ -872,6 +887,31 @@ Applying the one-copy rule to tumour suppressors. Both copies must be lost.
 ### Cancer is a disease in which some of the body's cells grow uncontrollably and spread to other parts of the body.
 Claims: CLM-FND-CANCER-01
 Citations: CIT-FND-CANCER-01-VERIFY
+Reviewed by: Dr Omar
+Reviewed at: 2026-08-12
+### Oncogenes are abnormally expressed or mutated forms of the corresponding proto-oncogenes.
+Claims: CLM-FND-ONCOGENE-01
+Citations: CIT-FND-ONCOGENE-01-VERIFY
+Reviewed by: Dr Omar
+Reviewed at: 2026-08-12
+### Somatic mutations in the TP53 gene are the most common genetic changes found in human cancer, occurring in about half of all cancers.
+Claims: CLM-FND-TP53-CANCER-01
+Citations: CIT-FND-TP53-CANCER-01-VERIFY
+Reviewed by: Dr Omar
+Reviewed at: 2026-08-12
+### Exposure to benzene increases the risk of developing leukaemia and other blood disorders.
+Claims: CLM-FND-BENZENE-01
+Citations: CIT-FND-BENZENE-01-VERIFY
+Reviewed by: Dr Omar
+Reviewed at: 2026-08-12
+### Almost all cases of cervical cancer are caused by infection with oncogenic types of human papillomavirus.
+Claims: CLM-FND-HPV-CERVICAL-01
+Citations: CIT-FND-HPV-CERVICAL-01-VERIFY
+Reviewed by: Dr Omar
+Reviewed at: 2026-08-12
+### In urogenital schistosomiasis, long-standing inflammation may lead to fibrosis, obstructive uropathy, and an increased risk of bladder cancer.
+Claims: CLM-FND-SCHISTOSOMIASIS-BLADDER-01
+Citations: CIT-FND-SCHISTOSOMIASIS-BLADDER-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
@@ -905,17 +945,17 @@ DIS-PAT | SYS-MUL
 ## evidence_basis
 Independent verification from the US National Cancer Institute, with local curriculum emphasis from the Alexandria pathology book.
 ## article_source_ids
-RES-WEB-NCI-WHAT-IS-CANCER | src_25b20814c2356badddf5
+RES-WEB-NCI-WHAT-IS-CANCER | src_25b20814c2356badddf5 | RES-WEB-COOPER-ONCOGENES | RES-WEB-MEDLINEPLUS-TP53 | RES-WEB-NCI-BENZENE | RES-WEB-NCI-RADIATION | RES-WEB-WHO-CERVICAL-CANCER | RES-WEB-WHO-HEPATITIS-B | RES-WEB-STATPEARLS-HCC | RES-WEB-STATPEARLS-SCHISTOSOMIASIS
 ## resource_ids
-RES-WEB-NCI-WHAT-IS-CANCER | src_25b20814c2356badddf5
+RES-WEB-NCI-WHAT-IS-CANCER | src_25b20814c2356badddf5 | RES-WEB-COOPER-ONCOGENES | RES-WEB-MEDLINEPLUS-TP53 | RES-WEB-NCI-BENZENE | RES-WEB-NCI-RADIATION | RES-WEB-WHO-CERVICAL-CANCER | RES-WEB-WHO-HEPATITIS-B | RES-WEB-STATPEARLS-HCC | RES-WEB-STATPEARLS-SCHISTOSOMIASIS
 ## span_ids
-SPN-FND-CARCINOGENESIS-01
+SPN-FND-CARCINOGENESIS-01 | SPN-FND-ONCOGENE-01 | SPN-FND-PROTO-ONCOGENE-01 | SPN-FND-TP53-FUNCTION-01 | SPN-FND-TP53-CANCER-01 | SPN-FND-BENZENE-01 | SPN-FND-RADIATION-01 | SPN-FND-HPV-CERVICAL-01 | SPN-FND-HBV-LIVER-01 | SPN-FND-SCHISTOSOMIASIS-BLADDER-01 | SPN-FND-AFLATOXIN-01
 ## claim_ids
-CLM-FND-CANCER-01
+CLM-FND-CANCER-01 | CLM-FND-ONCOGENE-01 | CLM-FND-PROTO-ONCOGENE-01 | CLM-FND-TP53-FUNCTION-01 | CLM-FND-TP53-CANCER-01 | CLM-FND-BENZENE-01 | CLM-FND-RADIATION-01 | CLM-FND-HPV-CERVICAL-01 | CLM-FND-HBV-LIVER-01 | CLM-FND-AFLATOXIN-01 | CLM-FND-SCHISTOSOMIASIS-BLADDER-01
 ## evidence_gaps
-Oncogenes, tumour suppressors, the multi-hit model and the classes of carcinogen are all taught here; only the definition of cancer is claim-backed. Carcinogen exposures relevant to Egypt are entirely unaddressed and need local epidemiological sourcing.
+Oncogenes, tumour suppressors, the multi-hit model and the classes of carcinogen are all taught here; only the definition of cancer is claim-backed. Carcinogen exposures relevant to Egypt are entirely unaddressed and need local epidemiological sourcing. Named examples are now claim-backed, but the mechanism by which each carcinogen damages DNA, the two-hit hypothesis for tumour suppressors, and the hallmarks framework are still taught here without citations.
 ## notes
-Names no specific oncogene, tumour suppressor or carcinogen. Each needs its own claim, and naming them unsupported would assert clinical detail on no evidence.
+Named oncogenes, tumour suppressors and carcinogens are now included, each with its own claim and citation from an independent public source. The aflatoxin claim keeps its source's conditioning on chronic hepatitis B: no freely readable authoritative page was found asserting the association independent of hepatitis B status, and stating it unconditionally would be a stronger claim than the evidence supports.
 ## field_notes
 moduleIds: no verified live module ID for the foundation module yet
 questionIds: assessment authoring is blocked until GATE-LIBRARY-001
