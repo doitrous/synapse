@@ -1,6 +1,8 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { relatedArticleLinks, readerAnnotations, relatedReasonKey } from './articleProjection.ts'
+import { relatedArticleLinks, readerAnnotations, relatedReasonKey, sectionSpans } from './articleProjection.ts'
+import { parseSections } from './bulkImport.ts'
+import type { MedicalEvidenceStore } from './medicalEvidence.ts'
 import type { ManagedContentItem } from './contentControl.ts'
 import type { ConceptGraph } from './conceptGraph.ts'
 
@@ -97,4 +99,35 @@ test('duplicate quotes collapse so one phrase is not marked twice', () => {
     { id: 'a2', quote: 'same words', conceptId: 'med.concept.cardiac-output', relation: 'is_a', block: 'body' },
   ]), graph)
   assert.equal(out.length, 1)
+})
+
+test('a section keeps its id when an earlier section is inserted', () => {
+  const before = parseSections('### Definition\nA.\n### Mechanism\nB.', 'art-x')
+  const after = parseSections('### Overview\nNew.\n### Definition\nA.\n### Mechanism\nB.', 'art-x')
+  // Positional ids would renumber here, and every span pointing at the old
+  // `sec-1` would silently start describing different prose.
+  assert.equal(before[1].id, 'art-x-mechanism')
+  assert.equal(after[2].id, 'art-x-mechanism')
+  assert.equal(after[0].id, 'art-x-overview')
+})
+
+test('two sections sharing a heading still get distinct ids', () => {
+  const sections = parseSections('### Notes\nA.\n### Notes\nB.', 'art-x')
+  assert.deepEqual(sections.map((s) => s.id), ['art-x-notes', 'art-x-notes-2'])
+})
+
+test('a span reaches its section without the article naming it back', () => {
+  // Spans are imported after the article that contains them, so an article row
+  // cannot name span ids that do not exist yet. Membership therefore has to be
+  // derived from the span, or every imported article reads as unsourced draft.
+  const evidence = {
+    claims: [], citations: [], resources: [], merges: [], coverage: [],
+    articleSpans: [
+      { id: 'SPN-1', articleId: 'ART-X', sectionId: 'art-x-definition', textHash: '', text: 'A sourced sentence.', claimIds: ['CLM-1'], citationIds: ['CIT-1'] },
+      { id: 'SPN-2', articleId: 'ART-Y', sectionId: 'art-y-definition', textHash: '', text: 'Another article.', claimIds: [], citationIds: [] },
+    ],
+  } as unknown as MedicalEvidenceStore
+  const spans = sectionSpans('ART-X', { id: 'art-x-definition' }, evidence)
+  assert.deepEqual(spans.map((s) => s.id), ['SPN-1'])
+  assert.deepEqual(sectionSpans('ART-X', { id: 'art-x-other' }, evidence), [])
 })

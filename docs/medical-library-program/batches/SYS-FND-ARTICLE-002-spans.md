@@ -4,7 +4,7 @@ SPN-FND-CELL-CYCLE-01
 ## article_id
 ART-FND-CELL-CYCLE
 ## section_id
-definition
+art-fnd-cell-cycle-definition
 ## text
 The cell cycle is the sequence of events in the life of the cell from the moment it is created until it divides itself.
 ## claim_ids
@@ -20,7 +20,7 @@ SPN-FND-RECEPTOR-01
 ## article_id
 ART-FND-CELL-SURFACE-RECEPTOR
 ## section_id
-definition
+art-fnd-cell-surface-receptor-definition
 ## text
 When it binds a ligand it becomes activated and generates a cascade of intracellular signals that alter the behaviour of the cell.
 ## claim_ids
@@ -36,7 +36,7 @@ SPN-FND-SECOND-MESSENGER-01
 ## article_id
 ART-FND-SECOND-MESSENGER
 ## section_id
-definition
+art-fnd-second-messenger-definition
 ## text
 Small intracellular signalling molecules are called second messengers, the first messengers being the extracellular signals.
 ## claim_ids
@@ -52,7 +52,7 @@ SPN-FND-APOPTOSIS-01
 ## article_id
 ART-FND-APOPTOSIS
 ## section_id
-definition
+art-fnd-apoptosis-definition
 ## text
 Programmed cell death is more commonly called apoptosis.
 ## claim_ids
@@ -68,7 +68,7 @@ SPN-FND-APOPTOSIS-02
 ## article_id
 ART-FND-APOPTOSIS
 ## section_id
-mechanism
+art-fnd-apoptosis-mechanism
 ## text
 The executioners are the caspases: proteases that have a cysteine at their active site and cleave their target proteins at specific aspartic acids.
 ## claim_ids

@@ -12,6 +12,7 @@ import { readFile, readdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
 import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
+import { RELATION_IMPORT_FIELDS, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { IMPORT_SCHEMAS, importRowToContent, validateImportRow } from '../src/data/bulkImport.ts'
 import { materialiseNewItem } from '../src/data/importMerge.ts'
 import { missingRequiredSections } from '../src/data/articleTemplates.ts'
@@ -42,6 +43,7 @@ const rows = parseMarkdown(await readFile(file, 'utf8'))
  * validated against the wrong contract by being misnamed.
  */
 function detectKind(sample) {
+  if ('source' in sample && 'type' in sample && 'target' in sample) return 'relation'
   if ('summary' in sample && 'sections' in sample) return 'article'
   if ('claim_id' in sample && 'resource_id' in sample) return 'citation'
   if ('concept_id' in sample && 'display_text' in sample) return 'claim'
@@ -54,6 +56,48 @@ const kind = detectKind(rows[0] ?? {})
 const errors = []
 const notes = []
 const records = []
+
+if (kind === 'relation') {
+  const dir = dirname(file)
+  const concepts = []
+  const claims = []
+  const citations = []
+  for (const name of await readdir(dir)) {
+    if (!name.endsWith('.md')) continue
+    for (const row of parseMarkdown(await readFile(join(dir, name), 'utf8'))) {
+      const k = detectKind(row)
+      if (k === 'concept') concepts.push({ id: row.id?.trim() })
+      if (k === 'claim') claims.push({ id: row.id?.trim() })
+      if (k === 'citation') citations.push({ id: row.id?.trim() })
+    }
+  }
+  const graph = { concepts, relations: [] }
+  const evidence = { claims, citations }
+  const known = new Set(RELATION_IMPORT_FIELDS.map((field) => field.key))
+  const built = []
+  rows.forEach((values, index) => {
+    const where = `Item ${index + 1} (${values.source ?? '?'} -${values.type ?? '?'}-> ${values.target ?? '?'})`
+    for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
+    const relation = relationFromRow(values)
+    for (const error of relationErrors(relation, graph, evidence)) errors.push(`${where}: ${error}`)
+    if (isDuplicateRelation(relation, built)) errors.push(`${where}: duplicate of an edge already in this batch`)
+    // The field audit rejects any relation without an evidence chain at rest.
+    if (!(relation.evidenceClaimIds ?? []).length || !(relation.citationIds ?? []).length) {
+      errors.push(`${where}: no evidence chain — the audit rejects this at rest`)
+    }
+    built.push(relation)
+  })
+  const byType = {}
+  for (const r of built) byType[r.type] = (byType[r.type] ?? 0) + 1
+  console.log(JSON.stringify({
+    file, kind, items: rows.length,
+    verified: built.filter((r) => r.verificationStatus === 'verified').length,
+    needsEvidence: built.filter((r) => r.verificationStatus === 'needs_evidence').length,
+    byType, errors,
+  }, null, 1))
+  if (errors.length) process.exitCode = 1
+  process.exit()
+}
 
 if (kind === 'article') {
   // Related reading legitimately points at an article authored in a different

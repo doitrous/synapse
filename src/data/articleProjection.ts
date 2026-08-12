@@ -9,7 +9,7 @@
 import { isMediaReleased, type ManagedContentItem, type ArticleMediaRecord } from './contentControl.ts'
 import type { ConceptGraph } from './conceptGraph.ts'
 import type { RelatedArticleLink, ReaderAnnotation, Subtopic, LibBlock } from './library.ts'
-import type { MedicalEvidenceStore } from './medicalEvidence.ts'
+import type { ArticleSpan, MedicalEvidenceStore } from './medicalEvidence.ts'
 import { publishableCallouts } from './calloutPolicy.ts'
 import { universities } from './universities.ts'
 
@@ -143,6 +143,31 @@ export function overlaySubtopic(
   }
 }
 
+/**
+ * The evidence spans that belong to one section.
+ *
+ * A span already records the article and section it sits in, so the reciprocal
+ * `section.spanIds` is a second copy of the same fact — and copies drift. It
+ * also cannot be written honestly at authoring time: spans are imported after
+ * the article that contains them, so the article row would have to name ids
+ * that do not exist yet. The link is therefore derived from the spans, and
+ * `spanIds` is kept only as an explicit ordering hint for sections that use it.
+ */
+export function sectionSpans(
+  articleId: string,
+  section: { id?: string; spanIds?: string[] },
+  evidence: MedicalEvidenceStore,
+): ArticleSpan[] {
+  const named = (section.spanIds ?? [])
+    .map((id) => evidence.articleSpans.find((span) => span.id === id))
+    .filter((span): span is ArticleSpan => Boolean(span))
+  const seen = new Set(named.map((span) => span.id))
+  const derived = section.id
+    ? evidence.articleSpans.filter((span) => span.articleId === articleId && span.sectionId === section.id && !seen.has(span.id))
+    : []
+  return [...named, ...derived]
+}
+
 /** Build a fresh subtopic from an admin-created article that has no seed. */
 export function articleToSubtopic(
   item: ManagedContentItem,
@@ -164,7 +189,7 @@ export function articleToSubtopic(
   const sourceBlocks: LibBlock[] = []
   sections.forEach((s) => {
     if (s.heading?.trim()) blocks.push({ type: 'h', text: s.heading.trim() })
-    const spans = (s.spanIds ?? []).map((id) => evidence.articleSpans.find((span) => span.id === id)).filter(Boolean)
+    const spans = sectionSpans(item.id, s, evidence)
     const facts: LibBlock[] = spans.map((span) => ({ type: 'fact', text: span!.text, spanId: span!.id, claimIds: span!.claimIds, citationIds: span!.citationIds }))
     if (s.narrative?.trim()) {
       // Reviewed narrative prose: read the article, then check its sources.

@@ -4,7 +4,7 @@ SPN-FND-MEMBRANE-01
 ## article_id
 ART-FND-PLASMA-MEMBRANE
 ## section_id
-definition
+art-fnd-plasma-membrane-definition
 ## text
 The plasma membrane separates the inner contents of a cell from its exterior environment.
 ## claim_ids
@@ -20,7 +20,7 @@ SPN-FND-MEMBRANE-02
 ## article_id
 ART-FND-PLASMA-MEMBRANE
 ## section_id
-definition
+art-fnd-plasma-membrane-definition
 ## text
 It is built from a lipid bilayer, which is the universal basis of cell-membrane structure.
 ## claim_ids
@@ -36,7 +36,7 @@ SPN-FND-PERMEABILITY-01
 ## article_id
 ART-FND-PLASMA-MEMBRANE
 ## section_id
-mechanism
+art-fnd-plasma-membrane-mechanism
 ## text
 A substance that dissolves in lipid passes through it; a substance that does not, cannot — however small it is.
 ## claim_ids
@@ -52,7 +52,7 @@ SPN-FND-CYTOSKELETON-01
 ## article_id
 ART-FND-CYTOSKELETON
 ## section_id
-definition
+art-fnd-cytoskeleton-definition
 ## text
 The cytoskeleton is a group of fibrous proteins that provide structural support for cells.
 ## claim_ids
@@ -68,7 +68,7 @@ SPN-FND-NUCLEUS-01
 ## article_id
 ART-FND-CELL-NUCLEUS
 ## section_id
-definition
+art-fnd-cell-nucleus-definition
 ## text
 The nucleus is a cell's central organelle, which contains the cell's DNA.
 ## claim_ids
@@ -84,7 +84,7 @@ SPN-FND-MITOCHONDRION-01
 ## article_id
 ART-FND-MITOCHONDRION
 ## section_id
-definition
+art-fnd-mitochondrion-definition
 ## text
 A mitochondrion is a membranous, bean-shaped organelle that is the energy transformer of the cell.
 ## claim_ids

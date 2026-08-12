@@ -17,7 +17,7 @@
  */
 import { readFile, writeFile } from 'node:fs/promises'
 
-import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement } from '../src/data/conceptImport.ts'
+import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
 import { importRowToContent, validateImportRow } from '../src/data/bulkImport.ts'
 import { materialiseNewItem, mergeContentItem } from '../src/data/importMerge.ts'
@@ -54,6 +54,7 @@ function parseMarkdown(text) {
 }
 
 function detectKind(sample) {
+  if ('source' in sample && 'type' in sample && 'target' in sample) return 'relation'
   if ('summary' in sample && 'sections' in sample) return 'article'
   if ('claim_id' in sample && 'resource_id' in sample) return 'citation'
   if ('concept_id' in sample && 'display_text' in sample) return 'claim'
@@ -82,7 +83,7 @@ const before = {
 
 /* ---- apply, in dependency order ------------------------------------------ */
 
-const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5 }
+const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5, relation: 6 }
 const batches = []
 for (const file of files) {
   const rows = parseMarkdown(await readFile(file, 'utf8'))
@@ -132,6 +133,20 @@ for (const batch of batches) {
     const result = upsert(graph.concepts, incoming.map(materialiseNewConcept), (current, next) => mergeConcept(current, next))
     graph.concepts = result.records
     report.push({ file: batch.file, kind: batch.kind, ...result, records: undefined, created: result.created, updated: result.updated })
+    continue
+  }
+
+  if (batch.kind === 'relation') {
+    let created = 0
+    batch.rows.forEach((row, index) => {
+      const relation = relationFromRow(row)
+      const rowErrors = relationErrors(relation, graph, evidence)
+      if (isDuplicateRelation(relation, graph.relations)) rowErrors.push('duplicate of an edge already in the graph')
+      if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
+      graph.relations.push(relation)
+      created += 1
+    })
+    report.push({ file: batch.file, kind: batch.kind, created, updated: 0, rejected: batch.rows.length - created })
     continue
   }
 

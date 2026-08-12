@@ -4,7 +4,7 @@ SPN-FND-AD-01
 ## article_id
 ART-FND-MENDELIAN-INHERITANCE
 ## section_id
-definition
+art-fnd-mendelian-inheritance-definition
 ## text
 One altered copy of the gene in each cell is sufficient for a person to be affected by an autosomal dominant disorder.
 ## claim_ids
@@ -20,7 +20,7 @@ SPN-FND-AR-01
 ## article_id
 ART-FND-MENDELIAN-INHERITANCE
 ## section_id
-definition
+art-fnd-mendelian-inheritance-definition
 ## text
 In autosomal recessive inheritance, variants occur in both copies of the gene in each cell.
 ## claim_ids
@@ -36,7 +36,7 @@ SPN-FND-ANEUPLOIDY-01
 ## article_id
 ART-FND-CHROMOSOMAL-DISORDER
 ## section_id
-definition
+art-fnd-chromosomal-disorder-definition
 ## text
 A gain or loss in the number of chromosomes from the normal 46 is called aneuploidy.
 ## claim_ids
@@ -52,7 +52,7 @@ SPN-FND-MITO-INHERIT-01
 ## article_id
 ART-FND-MITOCHONDRIAL-INHERITANCE
 ## section_id
-definition
+art-fnd-mitochondrial-inheritance-definition
 ## text
 Because only egg cells contribute mitochondria to the developing embryo, only females can pass on mitochondrial variants to their children.
 ## claim_ids
@@ -68,7 +68,7 @@ SPN-FND-PEDIGREE-01
 ## article_id
 ART-FND-PEDIGREE
 ## section_id
-definition
+art-fnd-pedigree-definition
 ## text
 A pedigree, as related to genetics, is a chart that diagrams the inheritance of a trait or health condition through generations of a family.
 ## claim_ids
@@ -84,7 +84,7 @@ SPN-FND-GENETIC-TESTING-01
 ## article_id
 ART-FND-GENETIC-TESTING
 ## section_id
-definition
+art-fnd-genetic-testing-definition
 ## text
 Genetic testing is a type of medical test that identifies changes in genes, chromosomes, or proteins.
 ## claim_ids
@@ -100,7 +100,7 @@ SPN-FND-GENETIC-COUNSELLING-01
 ## article_id
 ART-FND-GENETIC-COUNSELLING
 ## section_id
-definition
+art-fnd-genetic-counselling-definition
 ## text
 A genetic consultation is a health service that provides information and support to people who have, or may be at risk for, genetic conditions.
 ## claim_ids

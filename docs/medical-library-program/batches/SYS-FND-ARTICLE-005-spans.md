@@ -4,7 +4,7 @@ SPN-FND-PK-01
 ## article_id
 ART-FND-PHARMACOKINETICS
 ## section_id
-definition
+art-fnd-pharmacokinetics-definition
 ## text
 Pharmacokinetics is the study of how the body interacts with administered substances for the entire duration of exposure.
 ## claim_ids
@@ -20,7 +20,7 @@ SPN-FND-ADME-01
 ## article_id
 ART-FND-PHARMACOKINETICS
 ## section_id
-definition
+art-fnd-pharmacokinetics-definition
 ## text
 It generally examines four main parameters: absorption, distribution, metabolism, and excretion.
 ## claim_ids
@@ -36,7 +36,7 @@ SPN-FND-PD-01
 ## article_id
 ART-FND-PHARMACODYNAMICS
 ## section_id
-definition
+art-fnd-pharmacodynamics-definition
 ## text
 Pharmacodynamics studies a drug's molecular, biochemical, and physiologic effects or actions.
 ## claim_ids
@@ -52,7 +52,7 @@ SPN-FND-PD-VS-PK-01
 ## article_id
 ART-FND-PHARMACODYNAMICS
 ## section_id
-definition
+art-fnd-pharmacodynamics-definition
 ## text
 Pharmacodynamics studies the action of the drug on the organism, and pharmacokinetics studies the effect the organism has on processing the drug.
 ## claim_ids
@@ -68,7 +68,7 @@ SPN-FND-DOSE-RESPONSE-01
 ## article_id
 ART-FND-DOSE-RESPONSE
 ## section_id
-definition
+art-fnd-dose-response-definition
 ## text
 Between the minimally effective dose and the toxic dose lies the therapeutic window, where the safest and most effective treatment will occur.
 ## claim_ids
@@ -84,7 +84,7 @@ SPN-FND-TI-01
 ## article_id
 ART-FND-THERAPEUTIC-INDEX
 ## section_id
-definition
+art-fnd-therapeutic-index-definition
 ## text
 The therapeutic index is a quantitative measurement of the relative safety of a drug, comparing the amount that produces a therapeutic effect with the amount that produces a toxic effect.
 ## claim_ids
@@ -100,7 +100,7 @@ SPN-FND-ADR-01
 ## article_id
 ART-FND-ADVERSE-DRUG-REACTION
 ## section_id
-definition
+art-fnd-adverse-drug-reaction-definition
 ## text
 An adverse drug reaction is a response to a drug which is noxious and unintended, and which occurs at doses normally used for prophylaxis, diagnosis, or therapy of disease or the modification of physiologic function.
 ## claim_ids
@@ -116,7 +116,7 @@ SPN-FND-INTERACTION-01
 ## article_id
 ART-FND-DRUG-INTERACTION
 ## section_id
-definition
+art-fnd-drug-interaction-definition
 ## text
 Drug interactions are reactions between a drug and other drugs, foods, beverages, supplements, or diseases.
 ## claim_ids

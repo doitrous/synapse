@@ -4,7 +4,7 @@ SPN-FND-REVERSIBLE-INJURY-01
 ## article_id
 ART-FND-REVERSIBLE-CELL-INJURY
 ## section_id
-definition
+art-fnd-reversible-cell-injury-definition
 ## text
 Adaptation successfully maintains homeostasis by reversible responses that can alter cell function and structure.
 ## claim_ids
@@ -20,7 +20,7 @@ SPN-FND-NECROSIS-01
 ## article_id
 ART-FND-NECROSIS
 ## section_id
-definition
+art-fnd-necrosis-definition
 ## text
 Necrosis is often coined as accidental death, as it is generally seen as not controlled by the cell.
 ## claim_ids
@@ -36,7 +36,7 @@ SPN-FND-ADAPTATION-01
 ## article_id
 ART-FND-CELLULAR-ADAPTATION
 ## section_id
-definition
+art-fnd-cellular-adaptation-definition
 ## text
 Adaptation successfully maintains homeostasis by reversible responses that can alter cell function and structure.
 ## claim_ids
@@ -52,7 +52,7 @@ SPN-FND-ACUTE-INFLAM-01
 ## article_id
 ART-FND-ACUTE-INFLAMMATION
 ## section_id
-definition
+art-fnd-acute-inflammation-definition
 ## text
 Acute inflammation initiates following a specific injury, triggering the release of soluble mediators such as cytokines, acute phase proteins, and chemokines.
 ## claim_ids
@@ -68,7 +68,7 @@ SPN-FND-ACUTE-INFLAM-02
 ## article_id
 ART-FND-ACUTE-INFLAMMATION
 ## section_id
-definition
+art-fnd-acute-inflammation-definition
 ## text
 The 5 fundamental signs of inflammation include heat, redness, swelling, pain, and loss of function.
 ## claim_ids
@@ -84,7 +84,7 @@ SPN-FND-CHRONIC-INFLAM-01
 ## article_id
 ART-FND-CHRONIC-INFLAMMATION
 ## section_id
-definition
+art-fnd-chronic-inflammation-definition
 ## text
 Chronic inflammation is also referred to as slow, long-term inflammation lasting for prolonged periods of several months to years.
 ## claim_ids
@@ -100,7 +100,7 @@ SPN-FND-WOUND-HEALING-01
 ## article_id
 ART-FND-WOUND-HEALING
 ## section_id
-definition
+art-fnd-wound-healing-definition
 ## text
 The proliferative phase is characterized by the formation of granulation tissue, reepithelialization, and neovascularization.
 ## claim_ids
@@ -116,7 +116,7 @@ SPN-FND-CARCINOGENESIS-01
 ## article_id
 ART-FND-CARCINOGENESIS
 ## section_id
-definition
+art-fnd-carcinogenesis-definition
 ## text
 Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body.
 ## claim_ids
@@ -132,7 +132,7 @@ SPN-FND-METASTASIS-01
 ## article_id
 ART-FND-TUMOUR-BIOLOGY
 ## section_id
-definition
+art-fnd-tumour-biology-definition
 ## text
 The process by which cancer cells spread to other parts of the body is called metastasis.
 ## claim_ids
@@ -148,7 +148,7 @@ SPN-FND-GRADE-01
 ## article_id
 ART-FND-GRADING-AND-STAGING
 ## section_id
-definition
+art-fnd-grading-and-staging-definition
 ## text
 Tumour grade describes how normal or abnormal cancer cells look under a microscope.
 ## claim_ids
@@ -164,7 +164,7 @@ SPN-FND-STAGE-01
 ## article_id
 ART-FND-GRADING-AND-STAGING
 ## section_id
-definition
+art-fnd-grading-and-staging-definition
 ## text
 Stage refers to the extent of the cancer, such as how large the tumour is and if it has spread.
 ## claim_ids

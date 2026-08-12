@@ -26,7 +26,15 @@ export interface ArticleSection {
    * records can be recognised and filtered out.
    */
   kind?: 'content' | 'components'
-  /** Stable evidence spans inside this section. */
+  /**
+   * Explicit ordering hint for the evidence spans inside this section.
+   *
+   * Membership is *not* read from here: a span records its own `articleId` and
+   * `sectionId`, and `sectionSpans` derives the section's spans from those. This
+   * list only pins the order of the spans it names, which matters because spans
+   * are imported after the article and so could not name each other at
+   * authoring time anyway.
+   */
   spanIds?: string[]
 }
 

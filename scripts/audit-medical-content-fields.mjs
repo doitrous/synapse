@@ -3,7 +3,11 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const here = dirname(fileURLToPath(import.meta.url))
-const launch = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
+// `--source` lets the audit run against a simulated state as well as the
+// shipped bundle, so a batch can be checked before anything is imported.
+const sourceFlag = process.argv.indexOf('--source')
+const sourceFile = sourceFlag === -1 ? join(here, '..', 'server', 'data', 'medical-library-v1.json') : process.argv[sourceFlag + 1]
+const launch = JSON.parse(await readFile(sourceFile, 'utf8'))
 const ledger = launch.states['synapse-admin-content-ledger-v4'] || []
 const articles = ledger.filter((item) => item.kind === 'article')
 const graph = launch.states['synapse-concept-graph-v2'] || { concepts: [], relations: [] }
@@ -114,7 +118,10 @@ const report = {
   articles: articles.length,
   articleFieldsChecked: articlePopulated.length + articlePresent.length + articleIntentionalBlanks.length,
   articleSections: articles.reduce((sum, article) => sum + article.articleData.sections.length, 0),
-  evidenceLinkedSections: articles.reduce((sum, article) => sum + article.articleData.sections.filter((section) => section.spanIds?.length).length, 0),
+  // A section is evidence-linked when a span points at it. `spanIds` is only an
+  // ordering hint, so counting it alone under-reports every imported article.
+  evidenceLinkedSections: articles.reduce((sum, article) => sum + article.articleData.sections.filter((section) =>
+    section.spanIds?.length || evidence.articleSpans.some((span) => span.articleId === article.id && span.sectionId === section.id)).length, 0),
   concepts: graph.concepts.length,
   conceptFieldsChecked: conceptPopulated.length + conceptPresent.length + conceptIntentionalBlanks.length,
   conceptsWithTypedRelationships: graph.concepts.filter((concept) => graph.relations.some((relation) => relation.sourceId === concept.id || relation.targetId === concept.id)).length,
