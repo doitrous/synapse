@@ -19,10 +19,10 @@ starts here and ends here. Nothing below depends on any chat transcript.
 
 | | |
 |---|---|
-| **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — `SYS-FND` **complete** (56/56 article homes), `SYS-DEV` **10/33**. 66 articles, 75 concepts, 101 relations, 141 claims, 191 citations authored and committed. Every batch validates, simulates against a copy of live state, and audits clean. Nothing imported yet |
+| **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — `SYS-FND` and `SYS-DEV` both **complete** (56/56 and 33/33 article homes). 87 articles, 98 concepts, 137 relations, 184 claims, 234 citations authored and committed. Every batch validates, simulates against a copy of live state, and audits clean. Nothing imported yet |
 | **Active phase** | Phase 2 — article & concept programme |
-| **Active system** | `SYS-DEV` Human Development & Life Stages (system 2 of 19) |
-| **Active task ID** | `SYS-DEV-CONCEPT-002` (Not started) — the 23 remaining `SYS-DEV` homes: child and adolescent health (T01, 8), the adult half of T02 (3), and care of the well patient (T04, 12) |
+| **Active system** | `SYS-CVS` Cardiovascular System (system 3 of 19) |
+| **Active task ID** | `SYS-CVS-CONCEPT-001` (Not started). A practical bank and two question banks already exist for `SYS-CVS-T01`, authored separately; the article programme for the system has not begun |
 | **Last verified commit** | `cf20f9d` — 133/133 tests, lint clean, simulation 0 errors, audit 0 errors |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
@@ -163,7 +163,7 @@ Status values: `Not started` · `In progress` · `Blocked` · `Done` · `Superse
 |---|---|---|---|
 | **Phase 0** — Platform readiness | **Done** 2026-08-12 | — | — |
 | **Phase 1** — Structure validation | **Done** 2026-08-12 | — | — |
-| **Phase 2** — Article & concept programme (19 systems) | **In progress** — 1 of 19 systems complete | — | `SYS-DEV-CONCEPT-001` |
+| **Phase 2** — Article & concept programme (19 systems) | **In progress** — 2 of 19 systems complete | — | `SYS-CVS-CONCEPT-001` |
 | **Phase 3** — Library Completion Gate | Blocked | all `GATE-SYS-*` | `GATE-LIBRARY-001` |
 | **Phase 4** — Assessment programme | Blocked | `GATE-LIBRARY-001` | `ASSESS-PLAN-001` |
 
@@ -178,7 +178,7 @@ systems while its canonical home is a discipline root.
 | # | System | Plan | Status | Nodes | Hubs | Planned articles | With local source | Existing articles / concepts | Next task |
 |---:|---|---|---|---:|---:|---:|---:|---|---|
 | 1 | `SYS-FND` Foundations & General Principles | [plan](systems/SYS-FND.md) | **Authored — 56/56 homes** | 74 | 18 | 56 | 50 | 5 / 45 | `GATE-SYS-FND` |
-| 2 | `SYS-DEV` Human Development & Life Stages | [plan](systems/SYS-DEV.md) | **Authoring — 10/33 homes** | 45 | 12 | 33 | 20 | 9 / 111 | `SYS-DEV-CONCEPT-001` |
+| 2 | `SYS-DEV` Human Development & Life Stages | [plan](systems/SYS-DEV.md) | **Authored — 33/33 homes** | 45 | 12 | 33 | 20 | 9 / 111 | `SYS-DEV-CONCEPT-001` |
 | 3 | `SYS-CVS` Cardiovascular System | [plan](systems/SYS-CVS.md) | Inventory + source plan done · **practical bank authored for T01** | 93 | 27 | 66 | 39 | 10 / 98 | `SYS-CVS-CONCEPT-001` |
 | 4 | `SYS-RES` Respiratory System | [plan](systems/SYS-RES.md) | Inventory + source plan done | 82 | 24 | 58 | 44 | 9 / 112 | `SYS-RES-CONCEPT-001` |
 | 5 | `SYS-REN` Renal & Urinary System | [plan](systems/SYS-REN.md) | Inventory + source plan done | 81 | 21 | 60 | 38 | 10 / 119 | `SYS-REN-CONCEPT-001` |
@@ -562,6 +562,8 @@ Three findings worth carrying forward:
 | 2026-08-12 | `SYS-CVS-PRACTICAL-001..009` | **First practical bank in the programme.** 46 items — 10 OSCE stations, 8 skills checklists, 12 clinical cases, 16 interpretation sets — carrying 140 questions and 214 mark-scheme items, covering all 98 concepts of the cardiovascular pilot (`SYS-CVS-T01`). Extended the practical contract first: per-option `Why:`, per-question `Concept:` and `Difficulty:`, item-level concept tagging, and `media_needed` so an unfulfilled asset is flagged without writing a URL the runner would try to load. 58 media requests raised, none embedded. `T02`–`T09` deliberately untouched — no articles or concepts exist to test. | uncommitted | 9 batches validate clean · `medical:simulate` applies 46 of 46, 0 rejected · difficulty exactly 25/55/15/5 · 133/133 tests · parity 0 gaps · audit 0 errors · typecheck, lint, build clean · imported and run in the app: per-option explanations and difficulty badges render, media-flagged items show no broken image | `batches/SYS-CVS-PRACTICAL-00{1..9}.md`, `src/data/contentControl.ts`, `src/data/bulkImport.ts`, `src/lib/useLivePracticals.ts`, `src/components/practical/PracticalRunner.tsx`, `src/components/admin/PracticalEditorDialog.tsx`, `scripts/validate-content-batch.mjs`, `docs/authoring/practical.md` | `SYS-FND-CONCEPT-007` (T05 general microbiology) |
 
 | 2026-08-12 | `SYS-DEV-CONCEPT-001` + `ARTICLE-001` | Nutrition and the older-adult half of adult health: 11 articles, 11 concepts, 23 claims, 23 citations. Malnutrition in the full WHO sense (deficiency, excess and imbalance), undernutrition, micronutrient deficiency, nutrient excess, requirements, enteral and parenteral feeding, normal ageing, frailty, falls, polypharmacy. **10 of SYS-DEV's 33 article homes.** | committed | 66 batches validate clean · `medical:simulate` 0 errors · audit on the simulated state **0 errors** · 133/133 tests · lint clean | `batches/SYS-DEV-*`, `scripts/check-node-source-sense.mjs`, `scripts/build-corpus-concept-index.mjs` | `SYS-DEV-CONCEPT-002` (child and adolescent health) |
+
+| 2026-08-12 | `SYS-DEV-CONCEPT-002..004` + `ARTICLE-002..005` | Child and adolescent health, the function and participation cluster, the well-patient topic, and the last four nodes — lifestyle, risk assessment, family history and school health. **`SYS-DEV` is complete: 33 of 33 article homes, 23 articles, 34 concepts, 36 relations.** | committed | all batches validate clean · `medical:simulate` 0 errors · audit on the simulated state **0 errors** · 151/151 tests · lint clean | `batches/SYS-DEV-*` | `SYS-CVS-CONCEPT-001` |
 
 ### SYS-FND progress (2026-08-12)
 
