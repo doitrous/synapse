@@ -6,55 +6,9 @@ it through **Admin → Bulk import** on the site. Nothing here has been imported
 Each file is already in the importer's markdown format: open the relevant Bulk
 import page, choose the file, review the preview, and commit.
 
-Two banks are waiting: the **question bank** (10 files) and the **practical
-bank** (14 files). They are independent — import either first.
-
----
-
-## Cardiovascular question bank — 219 questions
-
-| | |
-|---|---|
-| Import at | **Admin → Questions Setup → Bulk import** |
-| Files | `SYS-CVS-QUESTION-001.md` … `SYS-CVS-QUESTION-010.md` |
-| Order | Any. The files are independent of one another. |
-| Lands as | `Draft`, subject `cvs`. Nothing reaches a student until you publish it. |
-
-| Batch | Article it tests | Questions | Media flagged |
-|---|---|---:|---:|
-| 001 | `ART-CVS-HEART-ORIENTATION` | 16 | 5 |
-| 002 | `ART-CVS-CHAMBERS-VALVES` | 24 | 7 |
-| 003 | `ART-CVS-CORONARY-CIRCULATION` | 27 | 8 |
-| 004 | `ART-CVS-CONDUCTION` | 23 | 7 |
-| 005 | `ART-CVS-CARDIAC-HISTOLOGY` | 26 | 8 |
-| 006 | `ART-CVS-CARDIAC-CYCLE` | 20 | 6 |
-| 007 | `ART-CVS-CARDIAC-OUTPUT` | 20 | 5 |
-| 008 | `ART-CVS-CARDIAC-ELECTRICAL` | 24 | 8 |
-| 009 | `ART-CVS-BLOOD-PRESSURE` | 21 | 3 |
-| 010 | `ART-CVS-VASCULAR-FLOW` | 18 | 4 |
-| | **Total** | **219** | **61** |
-
-**Difficulty across the bank.** Easy 55 (25%) · Moderate 119 (54%) · Hard 34
-(16%) · Challenging 11 (5%).
-
-**Coverage.** All 98 cardiovascular concepts are the main concept of at least one
-question. This is Topic 1 — structure and function — because it is the only
-cardiovascular topic with articles; T02–T09 have none, and a question may not
-test a concept no article covers.
-
-### Two things to expect after importing
-
-**39 questions cannot publish until you supply media.** They carry a
-`media_recommendations` block with `Priority: required`, meaning the image or
-recording *is* the question — a histology field to identify, an ECG to read, a
-murmur to hear. They appear in the backlog at **Library Setup → Media requests**,
-filterable by system, content type, medium, priority and status. The other 22
-flags are `strongly helpful` and do not gate release.
-
-**171 questions target concepts that have not passed the evidence gate.** 21 of
-the 98 concepts are `published`; the rest are `needs_evidence`. Every affected
-question says so in `author_notes`, so the concept's evidence chain and the
-question can be promoted together rather than the question quietly outrunning it.
+This folder holds the **practical bank**. The question bank moved to
+[`docs/questions-import-ready/`](../questions-import-ready/INDEX.md) so two
+agents stop writing into one folder.
 
 ---
 
@@ -116,8 +70,8 @@ stations. They have no separate student route of their own.
 ## Re-checking a file before you import
 
 ```bash
-node --experimental-strip-types scripts/validate-content-batch.mjs docs/import-ready/SYS-CVS-QUESTION-001.md
+node --experimental-strip-types scripts/validate-content-batch.mjs docs/import-ready/SYS-CVS-PRACTICAL-001.md
 ```
 
 It reports item count, the difficulty split, concepts tested, media flagged, and
-any errors. All 24 content files currently exit 0.
+any errors. All 14 practical files currently exit 0.
