@@ -9,7 +9,7 @@ import {
 } from './contentControl.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
-import { importList, optionalList } from './importSemantics.ts'
+import { optionalList } from './importSemantics.ts'
 
 export interface ImportFieldDefinition {
   key: string
@@ -193,9 +193,12 @@ export function parseSections(value = ''): Array<{ id: string; heading: string; 
 /**
  * Split on new lines only.
  *
- * The structured practical blocks below carry prose that legitimately contains
- * "|" and ";", so they cannot use `splitImportList`, which treats both as list
- * separators.
+ * Prose lists cannot use `splitImportList`, which treats "|" and ";" as
+ * separators. The structured practical blocks carry sentences containing both;
+ * so do `hold_these` and `lose_the_mark`, where a semicolon inside a teaching
+ * point was silently cutting it into two half-sentences — and, because callout
+ * evidence keys on the exact text, quietly detaching that line from its
+ * evidence.
  */
 const importLines = (value = '') => value.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)
 
@@ -608,7 +611,7 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
 
     // Callout evidence keys on the exact callout text, so a typo would attach
     // evidence to a line that does not exist and silently fail to publish it.
-    const calloutTexts = new Set([...splitImportList(values.hold_these), ...splitImportList(values.lose_the_mark)])
+    const calloutTexts = new Set([...importLines(values.hold_these), ...importLines(values.lose_the_mark)])
     Object.keys(parseCalloutEvidence(values.callout_evidence)).forEach((text) => {
       if (!calloutTexts.has(text)) errors.push(`Callout evidence names "${text.slice(0, 48)}${text.length > 48 ? '…' : ''}", which is not one of this article's Hold these or Where people lose the mark lines`)
     })
@@ -705,7 +708,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       ...base,
       fields: {
         Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5',
-        'Key point': importList(values.hold_these)[0] || '', 'Template ID': templateId || '', Archetype: archetype || '',
+        'Key point': importLines(values.hold_these)[0] || '', 'Template ID': templateId || '', Archetype: archetype || '',
         'Content owner': values.owner?.trim() || 'Import queue',
         ...(publicationGate ? { 'Publication gate': publicationGate } : {}),
         ...(text('reviewer') ? { Reviewer: values.reviewer.trim() } : {}),
@@ -715,8 +718,10 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         summary: values.summary || '', body, sections,
         publishedSections: publishedSections.length ? publishedSections : undefined,
         publishedSummary: text('published_summary'),
-        holdThese: optionalList(values.hold_these) as string[],
-        loseTheMark: optionalList(values.lose_the_mark) as string[],
+        // Prose: split on new lines only, so a semicolon inside a teaching point
+        // does not cut it in half.
+        holdThese: (values.hold_these === undefined || !values.hold_these.trim() ? undefined : importLines(values.hold_these)) as string[],
+        loseTheMark: (values.lose_the_mark === undefined || !values.lose_the_mark.trim() ? undefined : importLines(values.lose_the_mark)) as string[],
         questionIds: optionalList(values.question_ids) as string[],
         resourceIds: optionalList(values.resource_ids) as string[],
         annotations: (values.annotations === undefined || !values.annotations.trim() ? undefined : parseAnnotations(values.annotations)) as ConceptAnnotation[],

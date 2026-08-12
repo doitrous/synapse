@@ -56,6 +56,18 @@ const notes = []
 const records = []
 
 if (kind === 'article') {
+  // Related reading legitimately points at an article authored in a different
+  // batch file, so the whole directory is the resolution scope — the same reason
+  // the evidence batches read their siblings.
+  const dir = dirname(file)
+  const siblingArticleIds = new Set()
+  for (const name of await readdir(dir)) {
+    if (!name.endsWith('.md')) continue
+    for (const row of parseMarkdown(await readFile(join(dir, name), 'utf8'))) {
+      if ('summary' in row && 'sections' in row && row.id?.trim()) siblingArticleIds.add(row.id.trim())
+    }
+  }
+
   const known = new Set(IMPORT_SCHEMAS.article.fields.map((field) => field.key))
   const built = []
   rows.forEach((values, index) => {
@@ -89,7 +101,7 @@ if (kind === 'article') {
   // Related reading must resolve, at least within the batch.
   for (const item of built) {
     for (const related of item.articleData.relatedArticleIds ?? []) {
-      if (!ids.includes(related)) errors.push(`${item.id}: related article ${related} is not in this batch — confirm it exists before import`)
+      if (!siblingArticleIds.has(related)) errors.push(`${item.id}: related article ${related} is authored nowhere in the batch directory`)
     }
   }
 
@@ -135,11 +147,35 @@ if (kind !== 'concept') {
     },
   }
 
+  // A local source ID must exist in the corpus. Three invented ones passed every
+  // other check once; this is why they cannot again.
+  let corpusSources = null
+  try {
+    corpusSources = JSON.parse(await readFile(join(dirname(dirname(file)), 'evidence', 'corpus-source-index.json'), 'utf8')).sources
+  } catch {
+    // No index available; the check is skipped rather than failing the batch.
+  }
+
   const known = new Set(EVIDENCE_IMPORT_FIELDS[kind].map((field) => field.key))
   rows.forEach((values, index) => {
     const where = `Item ${index + 1} (${values.id ?? 'no id'})`
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of evidenceErrors(kind, values, context)) errors.push(`${where}: ${error}`)
+
+    const id = values.id?.trim() ?? ''
+    if (corpusSources && id.startsWith('src_')) {
+      const record = corpusSources[id]
+      if (!record) errors.push(`${where}: ${id} is not a source the corpus contains — do not invent a source ID`)
+      else if (values.source_relative_path?.trim() && values.source_relative_path.trim() !== record.sourceRelativePath) {
+        errors.push(`${where}: ${id} is "${record.sourceRelativePath}" in the corpus, not "${values.source_relative_path.trim()}"`)
+      }
+    }
+    if (corpusSources && kind === 'citation') {
+      const resourceId = values.resource_id?.trim() ?? ''
+      if (resourceId.startsWith('src_') && !corpusSources[resourceId]) {
+        errors.push(`${where}: cites ${resourceId}, which is not a source the corpus contains`)
+      }
+    }
   })
 
   // A claim asserting verification will be demoted at import unless a counting

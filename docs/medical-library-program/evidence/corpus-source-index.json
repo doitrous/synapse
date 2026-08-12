@@ -1,0 +1,2600 @@
+{
+ "note": "Every source ID the corpus actually contains. A batch naming a src_ ID absent from here is naming a source that does not exist.",
+ "count": 267,
+ "sources": {
+  "src_5675971710f6116d8df1": {
+   "sourceRelativePath": "0. General/.DS_Store",
+   "sha256": "402768064a59c8465718aa37b528e9199283312a8c51f08ff8f494664037c729",
+   "processingStatus": "blocked",
+   "pageCount": 0,
+   "languages": [
+    "und"
+   ]
+  },
+  "src_5cf4edf9dd9ce6ee1b04": {
+   "sourceRelativePath": "0. General/ANATOMA lower LAST 2.pdf",
+   "sha256": "4ae6bbd1fbdc84b522c1374999ed570bd57464a0befe7c3e27c24310152bcfda",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 24,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_5392d945ded425d18196": {
+   "sourceRelativePath": "0. General/Anatomy Gray 2nd Edition_Lower limb.pdf",
+   "sha256": "7075da95abda1bcec2734b09d05b1a64d37997a9d52aec0e743777e9ae632b55",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 91,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_4f9d6aeba0a295648d63": {
+   "sourceRelativePath": "0. General/Anatomy SD General Embryology Sameh Doss.pdf",
+   "sha256": "edcbb60e14eff797b3a53cb42586a01f3d063844c6ca74c5436f1087a3a1dd54",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 62,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_6e70bbff9296838b22d7": {
+   "sourceRelativePath": "0. General/Anatomy_Basis_Sameh_Doss.pdf",
+   "sha256": "cc9013c14a2fd06589b161286d41387fa6ec240a7748ed2c062301c75d65f88f",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 61,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_380dbc64a0d99dde6672": {
+   "sourceRelativePath": "0. General/Biochemistry - Made After Dr. Wala'a..pdf",
+   "sha256": "12e9aac7044216661cd60506193a2c4c0dd100ec47d2cc596fffc9b430fc1d00",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 22,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_b219d2e6f0b05ddc7571": {
+   "sourceRelativePath": "0. General/Introduction to Anatomy Khaled Milad.pdf",
+   "sha256": "e7fc4e66c98ee648ea04e10cf4e879cc48f30f97f1a9a0aa815be67c81038dce",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 41,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_eb021e3162a3a30101a9": {
+   "sourceRelativePath": "0. General/Lower Limb.pdf",
+   "sha256": "33047bd6f00fa1ed72f03e1238893b77a0645847327211629ea85e4c371f02c0",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 17,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_7bf413896ce181e91869": {
+   "sourceRelativePath": "0. General/Practical Anatomy Mohey Hulail.pdf",
+   "sha256": "8fd1fae6b37291ef18e46b70c0d916e8b29487c88dbbead41b76c71a6352fc15",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 89,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_76cd505c58a12c7c69da": {
+   "sourceRelativePath": "1. Kasr Alainy Books/.DS_Store",
+   "sha256": "26f62e4e2b31f60b06b754b1cfac11e93d2c95b2f231a528b4cd7a0aa17904ff",
+   "processingStatus": "blocked",
+   "pageCount": 0,
+   "languages": [
+    "und"
+   ]
+  },
+  "src_eccfb5b037b6d1a5ef8c": {
+   "sourceRelativePath": "1. Kasr Alainy Books/Kasr alainy anatomy questions.pdf",
+   "sha256": "38d555d9a886b98d51f8d7215c16e26f96431de5b37b9295eeec67f5ae56c7d8",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 41,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_3feaf5eb4b1f6d0da08f": {
+   "sourceRelativePath": "10. MTI Uni Books/ENT 332 Atlas.pdf",
+   "sha256": "c465b42a82362c4e5b48f8ec9d7a9c5e700289a6e14067ac9c5658b56b85b991",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 74,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_7fb318593dd3d9933cf9": {
+   "sourceRelativePath": "10. MTI Uni Books/ENT 332 Book-1.pdf",
+   "sha256": "8d30ea67504444534d4295c4e9a92957e38d8b773e00d3a12b6c343f6ead2022",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 251,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_e80651ac2a82fd657d46": {
+   "sourceRelativePath": "10. MTI Uni Books/FINAL GIT 220 PRACTICAL BOOK 2022.pdf",
+   "sha256": "a8fac95743390acbb1ad98d6b536fdd169d9213642f8d575705179599deb730c",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 196,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_70b1238ae306f6c44434": {
+   "sourceRelativePath": "10. MTI Uni Books/FINAL GIT 220 THEORITICAL BOOK 2022.pdf",
+   "sha256": "fbdc10d59fd588982c6f1123c5867d8515ecd3863c69fe74733df8412b35a3e8",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 511,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_0be26fd6e96f62f37bba": {
+   "sourceRelativePath": "10. MTI Uni Books/Final HIM 110 practical 2022.pdf",
+   "sha256": "52c6c58ad88c79b4f92ed601a487a4f8f14aaa26acaea8ad43da87c15a97a67a",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 199,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_82f776d8eed5667059f7": {
+   "sourceRelativePath": "10. MTI Uni Books/Final HIM 110 theoretical 2022.pdf",
+   "sha256": "1d572da90603c5b2c5dd3556a2a3b9fcf270bb4e2ede82dc4041abdaad72c01f",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 387,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_b6f40361ed7f38f7bb3d": {
+   "sourceRelativePath": "10. MTI Uni Books/Final Neuroscience I module theoretical Book 2022.pdf",
+   "sha256": "cc84350d0ede0962fef0ae0680a86ccee2c05d5a7881b5584cb5d49f01c21cf8",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 151,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_3dbdc160592273237c48": {
+   "sourceRelativePath": "10. MTI Uni Books/Final Practical REP Book - 2022.pdf",
+   "sha256": "c23d2fecd8ea5f606b242f99590889240fb4ded87568114ca7f087692c9cd463",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 102,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_0016e485f38841afe7bf": {
+   "sourceRelativePath": "10. MTI Uni Books/Final Practical URO Book 2022.pdf",
+   "sha256": "c0574f9e0f80dceb7e685bf3b9fd053bd1deba70b14cfb5bc8f9448848108dd9",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 162,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_628cfd0a4c1b7cf6a7b7": {
+   "sourceRelativePath": "10. MTI Uni Books/Final Theoretical REP Book - 2022.pdf",
+   "sha256": "3d8f141479c0ad8f82cba8aab7de42b0e26986ef2eb2cce5ea8b8825d959efea",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 219,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_9537fe3796bdbec981fc": {
+   "sourceRelativePath": "10. MTI Uni Books/Final Theoretical URO Book 2022.pdf",
+   "sha256": "a819c51f1cdf82724f761944ad781084f7a6bf06bbec33e6092824be1a84a6ed",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 280,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_eedbee231bac87efdbc5": {
+   "sourceRelativePath": "10. MTI Uni Books/Final musculoskeletal I theoretical book 2022.pdf",
+   "sha256": "5fb9eacb91c9b3bff4e7ff08e7304593a980d82bfbf197fa9514d8136200d727",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 336,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_6e43bd4ea3b5c90fd67a": {
+   "sourceRelativePath": "10. MTI Uni Books/OPH 331 Book.pdf",
+   "sha256": "99cbb4bc1e8be26c0902daf5f90861dd7578d304b6d00b30eb63185a9ed0eb1f",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 217,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_7e9c785eecaa77ff26aa": {
+   "sourceRelativePath": "10. MTI Uni Books/OPH 331 Clinical Book.pdf",
+   "sha256": "33ede63640917bdae9144f8400ae852ff55a40510fa58495bba03c5ce3090d5b",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 280,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_18f91caf6a8e4a695944": {
+   "sourceRelativePath": "10. MTI Uni Books/PAT 108 I.pdf",
+   "sha256": "7f03015eaf758a4b704f09f4e9d28b9981d016712f871a332372c6a413f61337",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 127,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_adcb8495bf5b8f7a7303": {
+   "sourceRelativePath": "10. MTI Uni Books/PAT 108 II.pdf",
+   "sha256": "d716e49c4406ffd79c731510ee3c4ce17afd9d9d27a9b93c3de52c127f225207",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 51,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_1d8f772cadde41108fec": {
+   "sourceRelativePath": "10. MTI Uni Books/PAT 108 III.pdf",
+   "sha256": "77816b0d82ffd75d6600d508cdd649a08fa2c87c9ad61ad3eebcd5f411ddf3ed",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 35,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_bcb1634dbfe10808b5c3": {
+   "sourceRelativePath": "10. MTI Uni Books/PHA 109 I.pdf",
+   "sha256": "ad50ba216f5deb527107cd507d1f55abeb07160b110c41609d060f5fca21eab5",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 93,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_5307637133f5d4ec0d22": {
+   "sourceRelativePath": "10. MTI Uni Books/PHA 109 II.pdf",
+   "sha256": "b14ca55e654dc6bdf4ecb323fcccb375181f37cccb0f8eb73280bab4362cbefb",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 61,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_358ec7a9923525754062": {
+   "sourceRelativePath": "10. MTI Uni Books/med-cvs217-p (1).pdf",
+   "sha256": "d7ec8557476d7aa1c3110a4c5173df2ab9a5f1cf36818f90e43bdd91ea2787da",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 207,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_7fb882664bb78c626a84": {
+   "sourceRelativePath": "10. MTI Uni Books/med-cvs217-t.pdf",
+   "sha256": "0773b9939f1127db27873d0d2f66d615a4f6d4a6b27d7fdf1813925e26381a1d",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 438,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_3e3bfa28cce8bc7f51cd": {
+   "sourceRelativePath": "10. MTI Uni Books/med-musii215-p.pdf",
+   "sha256": "e732008070a5b79a9ca85f92df44aed30d62c15897d0f4579327d234e759430a",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 138,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_2610b7c9cbd92e89a513": {
+   "sourceRelativePath": "10. MTI Uni Books/med-musii215-t.pdf",
+   "sha256": "fd4b8d72830c689833e4dc2944a55899a57ee31c94c24c206ce998a9fdcea6af",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 272,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_7c7ad72e1cc0d89a3359": {
+   "sourceRelativePath": "10. MTI Uni Books/med-musiii325-practical.pdf",
+   "sha256": "3139e742a3e8ea08a131e58add09eba7aabbc22ec7c5a11a9c985c71b24584d6",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 145,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_21f1b07a441941435a9f": {
+   "sourceRelativePath": "10. MTI Uni Books/med-musiii325-theoretical.pdf",
+   "sha256": "d3652f42726a1bbcafc9c920753856b3345045741b6ce7ecae88b90d9595c450",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 305,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_821eb1fe596588fca8dd": {
+   "sourceRelativePath": "10. MTI Uni Books/med-neuii326-p.pdf",
+   "sha256": "d32dcac2a58f526800c134a0ec778a57774346380c8479b99dcb92b61f367b3c",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 229,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_62c623b8561352d2b845": {
+   "sourceRelativePath": "10. MTI Uni Books/med-neuii326-t (1).pdf",
+   "sha256": "a4c83351a091eaa6f5733bcd62d1acae0c292a5d9a8dc277486df92cab46543d",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 423,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_2c2bc311f32080b6ff30": {
+   "sourceRelativePath": "10. MTI Uni Books/med-res216-p.pdf",
+   "sha256": "7cb825781fb50f82495761b71ecc711df7b4fd796f0d0bceb929dbc2388a8099",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 173,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_36f11b1cd87a7c99ee75": {
+   "sourceRelativePath": "10. MTI Uni Books/med-res216-t.pdf",
+   "sha256": "cf9d03d02ef6f1c61f670e62c4266c76ed40465f3b4e02f0b73097a32803b192",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 306,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_3138332adf62095dde0d": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/.DS_Store",
+   "sha256": "83570b8ef0034fbd4cfa64f1f248ef0dd47c931f9ad5629e9507f718e89f5ea6",
+   "processingStatus": "blocked",
+   "pageCount": 0,
+   "languages": [
+    "und"
+   ]
+  },
+  "src_2ccb76359b37e4eb949c": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/Blood pdf .pdf",
+   "sha256": "f3abc157b106b1c65e8db6843619c4aa916c462bae7668cec6d8fde31cf07019",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 81,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_e39eba39327a2e96d185": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/CNS searchable.pdf",
+   "sha256": "19296c4bf859df2cc8d56f03ff898e690359036eaf821600c87139f62e006618",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 595,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_99d6986f57e3e3c8e44f": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 1.pdf",
+   "sha256": "1607cbb975648fb114b3b8f6f3d19cf9e702c1168b14628999eeff9faa0c0d44",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 181,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_58458a9e861096466774": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/Cvs_part 2.pdf",
+   "sha256": "2db2135702916647dcb2b46f42a9090939e7e1231e3b2d341e4026dc05e9d09d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 265,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_1aa62233fb17a44c123d": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/Genital searchable.pdf",
+   "sha256": "129dc831c7f3e73292e89e1ecb67da7f2d9d9098b6c0048adab2669846465d05",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 237,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_042ca4d81b1c29fe2f86": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/Git_part1.pdf",
+   "sha256": "290204c9db1d5eadf69ee6957d1d30098545cfa9edca7410b222ed4628ea3b72",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 221,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9a709c6c8649783749fe": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/Git_part2.pdf",
+   "sha256": "5b50da326a6f1fd8c65464ea515d208929b75fca397323ae1af67282bf65a38c",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 355,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9fcedc12be691a455a31": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/Locomotor System Pt 2.pdf",
+   "sha256": "c162735755e9cecac0045530b19f5e9d0a15b6891b3ad6be6314bf4f89bd1a8b",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 222,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_b7e75ef057d1c36a463d": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/Regional Anatomy Ainshams.pdf",
+   "sha256": "ece56817b0e5bd08d904d0672b6b2d841063f2e47fd31dbec729d4d3193096d5",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 124,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_37d3e4715bb86cca6932": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/Urinary system searchable_compressed.pdf",
+   "sha256": "0ff47543a0c37f6ef890327e0475668bea99ba3749ad336ebad349db4e03a8b3",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 285,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9a046bd2ae8727ae3d6f": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/endocrine - searchable.pdf",
+   "sha256": "7b600d69b2f534f0a1b9f12a098e5969d1647b5ccde8b77eea5e4ab4de61fa6c",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 242,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9a68413d2b875b3cb4ca": {
+   "sourceRelativePath": "2. Ain Shams Uni Books/respiratory searchable.pdf",
+   "sha256": "1c6dd835ead325bb47dbd2c6a7beea7d193bc5db0ed3bb84a7ed48e9002f70d5",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 377,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_0641c0e8e37a0c5f7c14": {
+   "sourceRelativePath": "3. Helwan Uni/.DS_Store",
+   "sha256": "8e7315eea4de1352885dc24c67834819edef6d90850eb82e9ad4c06ae47d674c",
+   "processingStatus": "blocked",
+   "pageCount": 0,
+   "languages": [
+    "und"
+   ]
+  },
+  "src_410ad21e1175cc81451f": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Atlas of GROSS PATHOLOGY.pdf",
+   "sha256": "77795fffde5a6e03c89f2afb7e706402263b1705ca0c568d210eae109b57f5c7",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 152,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_538a7745c950e57b53d9": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Basic HISTOPATHOLOGY.pdf",
+   "sha256": "bdfe046401b928cf726061be479f1037ee793ee8c7f3372ae9d641311d08535a",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 128,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_8921a37f2df407a0948c": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Bio practical Blood 2021 - 2022.pdf",
+   "sha256": "aa7e85c648c0c6bec914e92c23e74b94d101475af50e29b05954a8ba3c4f629f",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 33,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9d63d472b745614683b3": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Bio practical Cardio 2021 - 2022.pdf",
+   "sha256": "c3fcb550506f02abe808f56510411cd508341f6d1d379008ff14cfc56cd4550f",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 14,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_ce9b41e2db5a7d4d26cf": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Bio practical EGU 2021 - 2022.pdf",
+   "sha256": "213f0b4f813e387ca17b93f76c4e0e6f394494d237215e9331e39a2a193000b4",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 49,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_8fb160b59e2db7375358": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Bio practical GIT 2021 - 2022.pdf",
+   "sha256": "f934c13c15d30da3a625c05c10d3956484c035bb56b8be9a3b19832f2dc46cbf",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 25,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_57dbd368d453ab5368e4": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Blood 2021 - 2022.pdf",
+   "sha256": "c38be099e05a984f56a47d91000e04b867133f564121dc66df261895de703a82",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 132,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_33db19276e2bf2d0c9d4": {
+   "sourceRelativePath": "4. Alexandria Uni Books/CNS 2022.pdf",
+   "sha256": "70667940e27e58a5ca479c1440704f219414fd4a3c6ceba401267e364b8158bd",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 230,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_4fcde2b57a0e19aeed02": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Cardiopulmonary system 2021 - 2022.pdf",
+   "sha256": "a293ff7d4d4919c554a38d5d4c2650ef2cd243949d2d0d12daa7dc9535af4229",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 238,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_b87d5a13859712bb20e6": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Community ID2 - 2022.pdf",
+   "sha256": "d38135a48512ee9f64ddd47041c3fd205631e7594686ed45fa4ac9797b33f1bc",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 188,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_d92a1333f12f2bbefc08": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Endocrine 2021 - 2022.pdf",
+   "sha256": "08b585c2bd43a25bad56e0644b4137f831901d0bf3ba8aadf70285dea9f3af86",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 120,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_6b5723c9bc02068ded20": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 1) 2021 - 2022.pdf",
+   "sha256": "363da3bb14aed1328dcb6aa3ffaa8397508a82046d5fb0313adf5c9878449463",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 159,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_a165a98952ffefcc0ebc": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Foundation (part 2) 2021 - 2022.pdf",
+   "sha256": "739e1ffc8983cc883da7e814a26aeb3b8372c2276ab7b32cef5f9c4c05356db7",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 145,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_b53daf0114f285089f1a": {
+   "sourceRelativePath": "4. Alexandria Uni Books/GIT system 2021 - 2022.pdf",
+   "sha256": "8ff888164297ff783343ff062b652c8b783b9a3047ab79742373016d0584876f",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 282,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_347bf0c779fd036cd133": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Genetics (concepts of health & disease) 2021 - 2022.pdf",
+   "sha256": "90ae3ee2ed8fcea5e50a47050c055d887eefd7051da89f56ab72fc0ed493aa22",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 71,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_1de03c91d02ea8fdf973": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Genital system 2021 - 2022.pdf",
+   "sha256": "248953523af1652cf2d03caba976d04501b7a89af0dcd184f07d3de712f5bc2c",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 125,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_db0f80b5eedc1a994902": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Histo practical Blood 2021 - 2022.pdf",
+   "sha256": "5bf75e615b58ee742afd0be56e6f998bbd91bd2fc58e63adfab5fc6e8b3e0e35",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 31,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_890a0079eb448cdb8aa9": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Histo practical CNS 2021 - 2022.pdf",
+   "sha256": "b2e2e657aea64d5e924a0dfcc08f30e088868dcfb62f60a6ac1984a469faf5cd",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 39,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_1c904832197c6096afab": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Histo practical Cardio 2021 - 2022.pdf",
+   "sha256": "31b5f2740483583a90d262fcdac619ee1d2d009cf4a1e1050b97c60eee403b76",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 30,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_128351b6f4859642c162": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Histo practical EGU 2021 - 2022.pdf",
+   "sha256": "ac7f4e6b0ce5af918538988c51336ceaef1dcdfedd76fc3c5120a6813cd8eb0d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 73,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_ed90145ab9a95dac05d6": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Histo practical Foundation 2021 - 2022.pdf",
+   "sha256": "4463fbb9d9f62aba5e1fef80cf7ef7f175e81227b2462cc6aeee641f6b2e3cfd",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 76,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_a93aed3c2553231a1a21": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Histo practical GIT 2021 - 2022.pdf",
+   "sha256": "7970dafb47f3608b634f3a65a0f9da6af80da26e54b28d7effd7b367072b988f",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 58,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_b8bf29eda2d326ac2c10": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Histo practical Musculoskeletal 2021 - 2022.pdf",
+   "sha256": "41e8a9f74d816acc5b01fae63f86a08b6351e82d93fd9c3de35d51a9fa4537c2",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 46,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_03e1739b27816f53b1df": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf",
+   "sha256": "8099090535e70f62f6d2d0f3f116282ae622f6d59bd2c1abc7eba794b4f99788",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 207,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_0fa7fc721daaaaba9b83": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 1) - 2022.pdf",
+   "sha256": "4e3fc080525c7c1f65b32ba177f5c8bab14cd5a8dfe3d87ac45c48f9a8801476",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 290,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_59c224c6343d1e51e931": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Infectious diseases 2 (part 2) - 2022.pdf",
+   "sha256": "5e265ecc4930b6a32fe6f39cf8238889ac91ffe1ce01850526eff515b3fb06b2",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 178,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_0f9ac0f57d6feef6f0f5": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Micro practical ID1 2022.pdf",
+   "sha256": "f476170707cc40b9db47ff4cf70d105c4a410fc1bcafb393e88c10d3706cbb43",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 45,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_0481e9249a22ef312ed3": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Musculoskeletal 2021 - 2022.pdf",
+   "sha256": "786657dced0e070e75a17e2f9c935458c825e471779ac9ab871166a0475aba8d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 204,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_365f180b6e211ecfef11": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Orientation book - 2022.pdf",
+   "sha256": "4a50dd0a4fdceb3797cd41c7caa51e5fe5dd22a006ee65d8fe9da0b6c6f4a272",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 104,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_eb2c897d91079312eee5": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Para practical ID1 2022.pdf",
+   "sha256": "fdcb623706eff73e2efe33709d45f17f9519f3d5daca00c2d4787f73ec7b0754",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 28,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_25b20814c2356badddf5": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Pathology (concepts of health & disease) 2022.pdf",
+   "sha256": "671a497fe6a48fdd4f0188fbdbfaf157bfffc2f73429aebae797b2ec13073649",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 139,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_02a7a2555cd987fd92ab": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Pharma practical ID1 2022.pdf",
+   "sha256": "576862ebc340880e6418f6f2a4cbd7548ceb96667033ba3a0a536ec75764ba3f",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 29,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_64ac35c148f824c08f48": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology (concepts of health & disease) 2022.pdf",
+   "sha256": "249c6b21c62ebae4013540ff413aa09eb783adb9560c311eb3946c2bf441c63b",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 84,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_4865e798657dae9ae555": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Pharmacology Practical.pdf_20200402185629.pdf",
+   "sha256": "7ccc70186c677e5a3224c6368995b8adf8133ecda0903d84b2de5bc288c8f256",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 72,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_63c89598431216afd910": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Blood 2021 - 2022.pdf",
+   "sha256": "409b268a20ab7fd069260345a84eba27a7000a975d18f0259c20148d56aff375",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 15,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_735e899515323dc5e944": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Physio practical CNS 2021 - 2022.pdf",
+   "sha256": "5d76b0c5b4da30a7120e6f15bf69ed9bbf5bd7ff5b2ae03d84c734809da24ba7",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 36,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_a643292c103e128628c2": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Cardiopulmonary 2021 - 2022.pdf",
+   "sha256": "9a5db3d3f6cae4736a5993f5f81552822e88bf77d90238fb8e79ffec2b00e1a5",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 52,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_89c32fe6e3e377f4804a": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Physio practical EGU 2021 - 2022.pdf",
+   "sha256": "b36954f9e057b4c8c8a60b5792fdf63a5000e59b24fde361dde58e12652887f2",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 48,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_21d61dd123d8d99b6fdd": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Physio practical GIT 2021 - 2022.pdf",
+   "sha256": "d40e1c8ecea308e3070c78991f64cad478ae745b8aa25b1c4fe627babbd5168e",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 23,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9d0a2341d73ae6ff0330": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Physio practical Musculoskeletal 2021 - 2022.pdf",
+   "sha256": "fe7e6a7c1bfe5ac4d87e9774c2367f5cb9ba81ca129c7446cbc8f1600d567c3d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 13,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_eb7d7f2182d005d864fa": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Practical Genetics.pdf",
+   "sha256": "0493031dfd37857cff12598d414ea930de90859b3a426f2f4c10b9bddb20b5ce",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 8,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_91e182a69ecb1b026e54": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Blood Histology 2021-2022.pdf",
+   "sha256": "fe67f20e2a7aa5825200d8b0bd61a44dc288343f24ebbed79a4b41b9cea31019",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 29,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_faff0099eb36bfb00297": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Cardiopulmonary Histology 2021-2022.pdf",
+   "sha256": "9d75a67ec2462eb6cdbb9eb5e0527483165f51cbb5a0ef026abd115b0c844692",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 27,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_7ce0efcd6dd7a554ac3b": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Foundation Histology 2021-2022.pdf",
+   "sha256": "668f930a52f99b744d0a2fc2aa54beec79853291e38b52fe4f1727e2f74ee52e",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 56,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_baa86647105c5abdc773": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Q&A of Musculoskeletal Histology 2021-2022.pdf",
+   "sha256": "2f62b0d70c7c5c169a0740f415ddaf52a40f78a235a30d80de4c0434bc798490",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 35,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_5787ebb65b677c6f85af": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Research step 3 - 2022.pdf",
+   "sha256": "06af1e3298b24ed1d5a0170e9dcfb6259b378e44b3641b62f608d86fab286946",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 88,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_5686f79a1ae67a1b1d6d": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Tropical book 2021.pdf",
+   "sha256": "372d032793d963d02f26ab716704d51f8d37147e6d8d4c3363cddc0eea2e0d11",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 103,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_7d44e8434facd463e279": {
+   "sourceRelativePath": "4. Alexandria Uni Books/Urinary system 2021 - 2022.pdf",
+   "sha256": "b49ac559b32b1fa380adf4aaf75237673e9ce0954a46fbc08ac648c35b29acc3",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 98,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_949f30a54a0f687384c1": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/ANATOMY  ENDOCRINE  al files.pdf",
+   "sha256": "129e0accbf23459d377f3bbe7f30f554a64baf8a2f6ac99bacb9df629a6f8980",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 16,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_49c78c9bacd6060a27d8": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Bio MSK (شرح)_230805_211920.pdf",
+   "sha256": "d48dddff871bca21bf80fcfd14d4afeb08f2ee9603c9fdd07b80b6dd0fa54671",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 63,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_c6eba5b000ed483b25e5": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Bio-cardio-book.pdf",
+   "sha256": "6b71199ed8fb4c6140a0ff4831bb51ab0b3f38d3e8fce79dc62f770ddcf4c941",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 46,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_2789d9f775cb9e0951b1": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Bio. Endocrine.pdf",
+   "sha256": "e4d2d8d98aabca42fead74fd6e89115edbf9cb0029a1aea63a975525c887955d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 14,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_455a492b63cc8ab4da2a": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Biochemistry_Heme.pdf",
+   "sha256": "75953d09333b2a879fa57ae04b5addb221bcf1dd988ae25dd6c2fbd02a62ffc5",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 57,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_f31c39c2a11cd918e879": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner 12-29-2022 19.42.pdf",
+   "sha256": "04744c1ddd3697a5f1a42c7823d2e6d1733ee15a6da2ffb8e159760c744d02a5",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 33,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_ff8aa084811ad812c70a": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٢-١٢-٢٠٢٢ ١٨١٦_230805_212113.pdf",
+   "sha256": "acc4b03c54a826c12f3fd59a62b79643f250ffe71af5e7b39675b2272157645f",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 35,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_f9632e8643fb6e8bbc85": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٢-١٧-٢٠٢٢ ١١٥٨_230805_212145.pdf",
+   "sha256": "9b638ca01dc2fc72e03d86991a61dc24121b594eb5935eba9c952059b9c38ee6",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 20,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9fdc407e9dbaaa5190e8": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ٠٣-٠١-٢٠٢٣ ١٨.١٧.pdf",
+   "sha256": "198b96461cfe7f6052d70375ccfecf8238b41a24129ac207b999c389fe9c53ee",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 27,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_2eea679773736fe01753": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/CamScanner ١٠-٢٧-٢٠٢٢ ١٣.١٥.pdf",
+   "sha256": "25a6bc51bab3d505570e5007d36c3ddf1f3790bfb1bf3ff96207c4d4273e3775",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 59,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_7ad628d58765d906a534": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/GIT HISTOLOGY.pdf",
+   "sha256": "94ab371b499f58d82cb65abd9cb6e4921be1548ec1375c98333eeff8c6019b79",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 5,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_62e6f894547b747cc45c": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Histo GIT.pdf",
+   "sha256": "13b57a75d02c6c7365fe29028258347bcf0d7e05288f08623862ca0d687b0a2a",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 8,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_af97f6fc67d736e97f64": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Histo MSK (شرح )_230805_212014.pdf",
+   "sha256": "7865339772585870958002b2c285af7189a0a419974b34163cc645592c39069c",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 54,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_0b015323154ac8af481e": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Histo Urogenital Module 2023 (نظرى).pdf",
+   "sha256": "4ab209bca9f0da9910d550a45762c06d275b17578f92dac46f2f0eb0c70dec48",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 29,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_1c2a23e5231f33d8e53a": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Micro (MSK)_230805_211827.pdf",
+   "sha256": "243dbc684e33c7318f7f113ce4801cf01d7928249f696dbc2dc713fd12144728",
+   "processingStatus": "completed_with_explicit_blockers_review_required",
+   "pageCount": 60,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_1188da2889a27a243f32": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Micro Urogenital 2022.pdf",
+   "sha256": "498d913bf0267f0d99adac4f06dfc339311b8354302561ebd02cdf07ae54e48a",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 68,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_543a4cf673b4e8017858": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Micro hematopoietic.pdf",
+   "sha256": "11f0a2bd61ad1f41036f0c1ae066a822f678436f783b6110cbd640fe96620b7a",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 141,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_ed3dbeeac9112065f36d": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/New Bio GIT.pdf",
+   "sha256": "6065009993e37c0326030ee758ff79934b6aedb6d257ee3a4e5345fd5ca76975",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 30,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_346eb5565d7cfb85254f": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/New histo GIT.pdf",
+   "sha256": "adfbe28c1b3b3ea587544c281c6ff852ef509b9514206d0e50647fb87bff9c82",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 46,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9bd66b9ed82032793f44": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Patho Respiratory module.pdf",
+   "sha256": "60073f55d4ba832c0efd53033dfafaa10b0baac12c2e043afff289a5ea4d470d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 92,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_fdee4f0d8e2083283530": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Pharma git.pdf",
+   "sha256": "7f15ce1e3c41f2380dac975b9643e5afd7c47957f3d79f9804637ca06e0094f2",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 13,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_db878e9254e3bc62e0b7": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/Physio MSK (شرح)_230805_212040.pdf",
+   "sha256": "9a8f1224f1f91d7bffb8b79e9b7d6485a435a5d1a07be2152f40081e6c34de84",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 69,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_35b4811ecfef37fdee17": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/anatomy repro.pdf",
+   "sha256": "8f34f3c6dcebae3504e3c6b3398d938ff6766b5924a5030bfb287369bf05c496",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 107,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_a7204784b99378d6e9da": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/cardio-anatomy-book.pdf",
+   "sha256": "e4a72dd8939cc1f7544f0a4f0cc90ddef4d4750429d3c973575675d7c6ee4cd6",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 140,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_f7d34fd6de6d716551fd": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/endo-patho-book.pdf",
+   "sha256": "77028c797a93dc602d92bb222f4632235d1ba43b8bd87594585d0a9020ae5d4d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 24,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_a438d15ad3d4595d7169": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/endo_physio_book.pdf",
+   "sha256": "256b1fb5d27fa9d48066e54c34d89b8f72f888072df3f087a1a9a2d58a75b8d7",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 172,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_e8e03b7f50328322e76b": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/histo repro.pdf",
+   "sha256": "4046e9cd1a2f86f29d465828d99f03dd9796d1bec9ddb62f8a74b0efcb01d434",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 31,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_d7e6ce9ce75a240e07b3": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/micro heme dr Kareem .pdf",
+   "sha256": "ed4d6228e8c693c9204da0ca486bf8aa0fcaac45e708ab51d37b182a2bc7ae56",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 104,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_6658fe937e28d6994f59": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/micro resp (نظرى )2023.pdf",
+   "sha256": "497ced692630cb7a74dd16d6ffefe1e53233de8108f9ab9f188b69d25c3785bc",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 64,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_e6b96209d05b9a61260a": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/micro.pdf",
+   "sha256": "3c0078b59699b46e02f09b236a91b7a8dbf6d9f8692c1f5bc93a704309ea58ec",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 146,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_65669c0c689c63fa1142": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/para&MCQ_heme_2023.pdf",
+   "sha256": "61c7aec52fc92c9d4f17dc10e1c969a741673d741057a44a61cd6a02b449054d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 57,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_4b0eb8dad1f1d4486ae8": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/patho book.pdf",
+   "sha256": "71ef5f810a808709f76bae30ee796ae25ab3908c194dab46321306caf725f247",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 82,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_1bddee7b866fc1411162": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/patho repro.pdf",
+   "sha256": "cbb2c00a753639a1c442175ee13c6301c283c8b7c80ec9a2498e1ace831f9613",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 19,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_06e3c908e9827611a925": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/patho_heme_2023.pdf",
+   "sha256": "aa5b78244991d184b2acfb08861c0c76b4e5b0197cd54f817c94707b1e9be06b",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 22,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9d85d3cc05071c446cb3": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/pharmPractical_heme_2023.pdf",
+   "sha256": "28870d740c5e7df036679c0303dc249a663b3358fe415370962503d54e78bc14",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 20,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_6b6a0bf275ce9c751163": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/pharma endocrine.pdf",
+   "sha256": "fd464658a287d9cf35d162797956aa2e0db0acb00ab213a9d4873a4894fd3b28",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 37,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_085677bd4ca64cccf378": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/pharmaMCQ_heme_2023.pdf",
+   "sha256": "9d5703a2854deaf830510d9ccdc22fbec46f0a4c4c811e00f1770287e85a490d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 15,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_90d61885d211f235136d": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/pharma_heme_2023.pdf",
+   "sha256": "91370946d8260d151f3935768241df8c9e2de190aeb5e3e1c1e4bda9b4532685",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 47,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_59b694385cf8d1bbe7ed": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/physio endocrine (نظرى )2023.pdf",
+   "sha256": "5c6a1380daa433bc261f824199c2b5ce208f22d3f22e2588a57da44787389121",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 134,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_130a0c32d282c8380f1f": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/اسئله فارما الايندو (القسم).pdf",
+   "sha256": "c6cea76d85e1568c7113348610e58feb3b0157776ca4e7fb3e163d93e215007b",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 11,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_1ce75cc0b0920c99f5d5": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/اناتومي الريبرو ( عملي + mcq ).pdf",
+   "sha256": "d733125ace3c04ca69cfac593dffd1e28bdfc095c48f1db4654c0e45860cfcf6",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 56,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_33f3bba572c536675aa7": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/باثو الريسب.pdf",
+   "sha256": "70c644ce4febbe2b737c6ccb10aa5500462f1f65f830760c3aba3ca066488106",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 50,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_f6b7f1d5343f3cdd7802": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/باثو الكارديو.pdf",
+   "sha256": "09e0fee14f1fa8742dbd0fb151abf86eb669d37996ce1fd5e9c374c3d0eeb2fe",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 41,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_d33ff177d7f007f4fc72": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/باثولوجي urogenital.pdf",
+   "sha256": "a1f3170eb49f5e4e5ae26ab3debe031bcf7bb85955522dfcaedda7d57251a878",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 41,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_38232e973c9c45f6dacc": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/بارا urogenital.pdf",
+   "sha256": "bd5e97ba832b12eb798dfa51dc7b4bfd53bb3a31b47d68d36ee3b8e61477f7d8",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 12,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_b8a68e8d4a5401b7dc6c": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/عملي الفارما GIT.pdf",
+   "sha256": "3036d2cc5a0310a1e8dad9d12c60a18b4aba2f6efb9edcfa7f4876d5ddcd8c6a",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 8,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_db01cd3c84232b926002": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/كتاب القسم نظري اناتومي الريسب.pdf",
+   "sha256": "5dee0706bbc675a028a8c21b45a14f627559bb1e91ff8eca97de9b96988a0eab",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 124,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_bc792c441adbb63a0f60": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/كتاب فسيو الريبرو (نظري + Mcq+ عملي ).pdf",
+   "sha256": "7bd3908180c1546ac83ffac2115766e85486dd3331eca55c9aa6d6b20a73f584",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 77,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_aae1edfe64873641d32b": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/كتاب نظري فسيو الكارديو.pdf",
+   "sha256": "5f7302148513357ee6b468c7dfab37bf5f448acdbc1c256ab910e8e8d1f07922",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 192,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_7b6d4d7196f92a52cb16": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/نظرى فسيو الريسب.pdf",
+   "sha256": "2a639f74d57140f5ff4cae13c00cf4fc4ad50f8cd69becdca7e73bf2231395ab",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 131,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_7c2fcd4885e62546a922": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/نظرى ميكرو الكارديو.pdf",
+   "sha256": "c7d95d569d5c5bfb0f08bfcc399df941382f75fc50e112f49f4ca9c878700a6e",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 50,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_ed083ed39fefc3a804a6": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/نظرى هستو الريسب.pdf",
+   "sha256": "87637fbb135ef4f8d70924deb803bcb58431f04aaa61a5f5259c59416c1b02d0",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 17,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_7a61da0e6aac8881c636": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/نظري الاناتومي GIT.pdf",
+   "sha256": "4f6b737b0039b5652aa1e3c1272ab154486b419d7d7dfcaf6f1b51dc7c107983",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 179,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_59d7251356a7e1b17994": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/نظري الفارما GIT.pdf",
+   "sha256": "7ff54a7ea0110ad1ea01ec2481e4b86d91355009e775a99d777c608b216a92fa",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 25,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_3a85381193653300586a": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/نظري فارما الايندو (القسم).pdf",
+   "sha256": "6bb508021c6cb9994a6eb286aaef986569aefd9d22e27e31162e1da167d2196f",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 52,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_f1684c0668afa70efe21": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/هستو الكارديو شرح.pdf",
+   "sha256": "4caf88e753377ad87acdf0bd0f0e10215a5e345b52848358e7eb02e4f7b1a3fb",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 14,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_9c5990b4b729d6a41c46": {
+   "sourceRelativePath": "5. Beni Suef Uni Books/هستو يورو 2023.pdf",
+   "sha256": "1fad3304500aa1bb1db490e4386c72965f56f0a8f29df4779e2dac88eccd5f8d",
+   "processingStatus": "taxonomy_complete",
+   "pageCount": 33,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_327390af4aedf9defe58": {
+   "sourceRelativePath": "5.1 Ain Shams Books Drive/.DS_Store",
+   "sha256": "a6fe75077c908ff7d1995156ffed12b693dbfcc62ad29c4f9527dadb147efe10",
+   "processingStatus": "blocked",
+   "pageCount": 0,
+   "languages": []
+  },
+  "src_2f47106dea9a12f989b9": {
+   "sourceRelativePath": "6. Fayoum Uni Books/Book.docx.pdf",
+   "sha256": "4c3a6b2c92bf66ddee5c279f35e3f3cf67480ee59813b0ec2e341041e4bae57d",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 59,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_72f9476b91e96e4cbd99": {
+   "sourceRelativePath": "6. Fayoum Uni Books/CNS LECTURE NOTES.pdf",
+   "sha256": "dd85fe4c9c29811379b25b6beb40b498f8eec69efa5800068d44149e8fd8d1dc",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 22,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_8b07c8701c654e8487ea": {
+   "sourceRelativePath": "6. Fayoum Uni Books/Collection - Micro of Urogenital.pdf",
+   "sha256": "2761d9fcdee95abb401cba56d6f4e938e85cec9daf311c346da6f34e000042e4",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 16,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_91a92977626e4008db12": {
+   "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - GIT Physiology.pdf",
+   "sha256": "127821290aaac4463d96d6c7f8d0cbdf78848da4e408ccf9a3d01f37887e6430",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 43,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_56eb013c175fea3c42a4": {
+   "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Pathology of GIT final.pdf",
+   "sha256": "aa47fff65da2dffce87cb5703499cb92214592007e81f453b9b1c7bc6d6cd386",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 65,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_769c490217241bd0ca85": {
+   "sourceRelativePath": "6. Fayoum Uni Books/Fayoum - Physio of Resp..pdf",
+   "sha256": "c0672d1c7d18d8a7ccead27c3c5e975f29dcb378e01477a2e1f05cecfc9592b9",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 68,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_2382406f071b3aab6d42": {
+   "sourceRelativePath": "6. Fayoum Uni Books/Fayoum collection - Micro of Resp..pdf",
+   "sha256": "d34708277f7a5d4c0e71b50680738c49772ae777c9e048e944815b6f1cc5ebc2",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 12,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_789e395c0d3c47f88302": {
+   "sourceRelativePath": "6. Fayoum Uni Books/Practical Neuroscience 2 physiology 2023.pdf",
+   "sha256": "54c3b2ae68e78cd804c46966ac8662c98b2471ff46eed30652846d2e2a3457a0",
+   "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+   "pageCount": 53,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_027c21a2fde7573b1cfc": {
+   "sourceRelativePath": "6. Fayoum Uni Books/Sensory_nervous_system_كتاب_القسم_فسيولوجي.pdf",
+   "sha256": "8c06a0a9978663c539998ad847b8b1af4a5138abf8b2b630888b4cc3e21b8661",
+   "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+   "pageCount": 26,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_121fc7e66378adf48d74": {
+   "sourceRelativePath": "6. Fayoum Uni Books/Synaptic_transmission_كتاب_القسم_فسيولوجي.pdf",
+   "sha256": "f900e7d8d48d5148bf59583facafdfad392a1aad17e7d15d19b6adfd4ff9d9d4",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 20,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_a49393e12294e35c1563": {
+   "sourceRelativePath": "6. Fayoum Uni Books/_Neuroscience 2 physiology 2023.pdf",
+   "sha256": "a57f56a42cefe06e35ec8fb6533fbdebc6e4df961ca0c9225850d872fe22f134",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 122,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_5543d9ea39fa2c86a207": {
+   "sourceRelativePath": "6. Fayoum Uni Books/lymph node diseases.pdf",
+   "sha256": "a2aea0689e06f16c053549ef688ac05896d4f8ff67f041d81dccfd947323c7ab",
+   "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+   "pageCount": 25,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_063ab13067c43658a438": {
+   "sourceRelativePath": "6. Fayoum Uni Books/micro git القسم.pdf",
+   "sha256": "2243ec6443994c6adc0bfedd11fd78bd70b6e7f439c43b516429e67aa98d2fa8",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 43,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_04262f8c5e6b26ed931b": {
+   "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم .pdf",
+   "sha256": "7e7c9d88de4b86e37537a8c02d088fdf353378bd39ecee5b73214ac243b67388",
+   "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+   "pageCount": 24,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_b3ac0010a74f397c2eeb": {
+   "sourceRelativePath": "6. Fayoum Uni Books/باثو القسم.PDF",
+   "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 29,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_bc82197e9431fa6c93bc": {
+   "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي القسم  د-محمد المهدي.pdf",
+   "sha256": "9bf7d30670b378ee59a0bb95be6abc4c956abd3c8a8ad80231b0fdefeef45cd1",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 54,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_b1a99fb4f92445424ff2": {
+   "sourceRelativePath": "6. Fayoum Uni Books/باثولوجي قسم.PDF",
+   "sha256": "48514e608d60991f5870e9b440a978a3bc3e1a05c95c946ac45d910e98ea62a4",
+   "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+   "pageCount": 35,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_aef7b9a181ae846ad642": {
+   "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم اولي.PDF",
+   "sha256": "0ead4d5906cfd710f5df58a02bf2e80fe9ca079bdf070e04272bdb55cb27999e",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 145,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_17dc995d80885c286802": {
+   "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم-1_Split_pdf_1667593905725.pdf",
+   "sha256": "b58eeb88cc592f6113ca4e580dc78eec8b7631460e446d70e36b77afdf0043dc",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 38,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_8c8b6c422d69be23772f": {
+   "sourceRelativePath": "6. Fayoum Uni Books/فسيو القسم.pdf",
+   "sha256": "ae8f88660fcf6d2da3f3b923655a477fcae4c86a9342a838a91f150772108cb4",
+   "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+   "pageCount": 162,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_63b1c487c9042661a28f": {
+   "sourceRelativePath": "6. Fayoum Uni Books/كتاب_القسم_فسيولوجي_ANS.pdf",
+   "sha256": "f6ad6e86e4e3e8cd80b370b7415f1a6db6fde6f45462c1313f0e2faddba7d882",
+   "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+   "pageCount": 24,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_f372f89a417bbcee9bdc": {
+   "sourceRelativePath": "6. Fayoum Uni Books/ميكرو القسم.pdf",
+   "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+   "processingStatus": "taxonomy_complete_review_required",
+   "pageCount": 20,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_c541c2e5d199dfafe2a3": {
+   "sourceRelativePath": "6. Fayoum Uni Books/هستو القسم.PDF",
+   "sha256": "04ef2831fdbc6365cd66870ca5dc64af29692b12b0e817ce3b3c1bd98ba240c6",
+   "processingStatus": "taxonomy_complete_with_explicit_page_blockers",
+   "pageCount": 47,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_a21160347e621c471c24": {
+   "sourceRelativePath": "6. Fayoum Uni Books/هستو.pdf",
+   "sha256": "2f07650d8dad127a38c8f0e2d9c588d0c942ceaa41932029611bd00f7d77cb9f",
+   "processingStatus": "taxonomy_complete_with_explicit_media_dependencies",
+   "pageCount": 40,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_eae08c8e97b2175e51e1": {
+   "sourceRelativePath": "7. Menoufia Uni Books/Anatomy endocrine.pdf",
+   "sha256": "4f0aa8351af5de173cabc7d874b9655e5e1d175d9db8f03112ba098db5de03b8",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 23,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_d172a06788fd6b78ae39": {
+   "sourceRelativePath": "7. Menoufia Uni Books/BIOCHEMISTRY (CVS) كتاب القسم.pdf",
+   "sha256": "7303bdd66061b5c10f455d03ea96bf65b97bccd55f423b65e989279ffef6665e",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 128,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_d5e0140affa0df959511": {
+   "sourceRelativePath": "7. Menoufia Uni Books/Cardiovascular pathology.pdf",
+   "sha256": "e5f698ab13f3bdc9ed320b974c29d55cf1d31279c49dec322a0ef7c061dabdc7",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 35,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_1aaa49c5e8764d757050": {
+   "sourceRelativePath": "7. Menoufia Uni Books/Endocrine physiology.pdf",
+   "sha256": "cf982385d7beacb8236549f53ddede37942ff02c7065216e2bcf9a9f706993c3",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 106,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_a211db0f14e0d53a8cff": {
+   "sourceRelativePath": "7. Menoufia Uni Books/Micro CVS Q&A.pdf",
+   "sha256": "00083d89abbd0c5b4b4db87eb9e0404bb8f624ef62645085d6f12448334d3a79",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 4,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_99f3fabd8db78204412d": {
+   "sourceRelativePath": "7. Menoufia Uni Books/Micro MSK Class38 Students.pdf",
+   "sha256": "a58506b8736d7ae2524490d88841f32d053f7adff72e05da3ce9f49c6ee136a3",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 13,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_9cdbddc08621d1242165": {
+   "sourceRelativePath": "7. Menoufia Uni Books/Pharma MSK Class38 Students.pdf",
+   "sha256": "e6eddbae04db11e8756df673d15cdf38a315431c15c2a3e35a18bd9a82cd445d",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 29,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_8c592e760329230ce118": {
+   "sourceRelativePath": "7. Menoufia Uni Books/Physio Blood Class38 Students.pdf",
+   "sha256": "384b7b53de01b92cfaf54c2c8796ca009872ddf5023d2a90eebda38739ed0bad",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 105,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_6afb9813720efb3300ff": {
+   "sourceRelativePath": "7. Menoufia Uni Books/Skin.pdf",
+   "sha256": "fd6a17c0e589cbfa4aaac02616db5ec096d46767d7a96cd8ca4255f4694d1a4e",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 37,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_7697de59513ed0564d89": {
+   "sourceRelativePath": "7. Menoufia Uni Books/anatomy cvs_20191026195400.pdf",
+   "sha256": "8abd56ed4dc0f3fd4c195b1fe495ae6eff3d5146d60f7414bda43e8c0c9ad4c3",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 99,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_5619f92ad5c450eaf072": {
+   "sourceRelativePath": "7. Menoufia Uni Books/endocrine patho.pdf",
+   "sha256": "1fa8aeec5a4f2a077be4a58c8b52b3ed256f714f44ca8930099d24f95577ba51",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 7,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_4dbf77e842882f152efc": {
+   "sourceRelativePath": "7. Menoufia Uni Books/histo renal_20200317024155.pdf",
+   "sha256": "628d783f3737d3d6af616265e8ba275e09c69e3230763f4f6ea19de13f9b19e5",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 13,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_07ed08ed4c0661f2bfd6": {
+   "sourceRelativePath": "7. Menoufia Uni Books/micro cvs_20191112155224.pdf",
+   "sha256": "d1ec5f2ba5574b4853934ba305888ea6b20a54ab8ad93dcc0b14fb69aff1e1c9",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 12,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_a9b2d1b395d3ec713665": {
+   "sourceRelativePath": "7. Menoufia Uni Books/micro renal_20200317024657.pdf",
+   "sha256": "1e801c93004a7739c3f6309a36c0cd7aee0faa9f6f6221b6aa42463763f9495b",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 22,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_23cd3cd63a00b6568410": {
+   "sourceRelativePath": "7. Menoufia Uni Books/micro reproduction_20200223191520.pdf",
+   "sha256": "9382bdbd908b0beae44c19f1c15752495afff2be5122abbd9eb45bd556bd4f50",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 16,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_134d05dafff3b3b26bbd": {
+   "sourceRelativePath": "7. Menoufia Uni Books/para reproduction_20200223200705.pdf",
+   "sha256": "7a55aaff39d5ddb30152ce3dc3200d2773e5a9bc3add282086990ec4438022d7",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 11,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_cf2a12cc2afaad70152f": {
+   "sourceRelativePath": "7. Menoufia Uni Books/patho_respiratory.pdf",
+   "sha256": "a1f01db812a2e37215aad1240bdc8907d26a7a502b1fcf5beb04ffe6c2fb6448",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 53,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_ead2441864a806d9a934": {
+   "sourceRelativePath": "7. Menoufia Uni Books/pathology CVS كتاب القسم .pdf",
+   "sha256": "d6c6d3d2d0e542a783bfbdffdd469e7d74740efa9f3aea8a1fc494bc99b89950",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 38,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_ee8dba90a0a6f4e0fdde": {
+   "sourceRelativePath": "7. Menoufia Uni Books/pharmacology Lectures note.pdf",
+   "sha256": "4dfb4e98cfc93fb0d750bd0631e10c9dbd155b71f0891bde7ef020233bc68cc4",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 43,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_a83ff53b70833dd85932": {
+   "sourceRelativePath": "7. Menoufia Uni Books/physio cardio_20191120230121.pdf",
+   "sha256": "a87085ed6e7c404b508c0a8e18a498da5f711f2982805d8a4eda3e1f16aaa12d",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 99,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_c061670ab319cf23e5ab": {
+   "sourceRelativePath": "7. Menoufia Uni Books/physio vascular_20191118195728.pdf",
+   "sha256": "0d992b5286291e63d5ba1eda5d1768d4b6442a40eb277743afb640ec03f399d8",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 62,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_167b4afb7ce843338d76": {
+   "sourceRelativePath": "7. Menoufia Uni Books/practical pharmacology.pdf",
+   "sha256": "85bb68897467691521d25c3d6994a025a337a28fb3cd7316157519f411cb706d",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 23,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_f8d9ce390234a0b2042e": {
+   "sourceRelativePath": "7. Menoufia Uni Books/كتاب الاناتومى.pptx",
+   "sha256": "97c94d2865abeabf1227c13c4eb41ac5c8c7d433a830d1385073fbfb3942e0b5",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 32,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_a412b42b76f15be61536": {
+   "sourceRelativePath": "7. Menoufia Uni Books/كتاب الأناتومي عملي renal.pdf",
+   "sha256": "0b00fa0305a40ec2bd54c0c63a1c8a8779c0c7bb797bff1edcbcb6fc92eb09a9",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 24,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_d50ba2f3208d0af32738": {
+   "sourceRelativePath": "7. Menoufia Uni Books/كتاب الأناتومي نظري renal.pdf",
+   "sha256": "81ca3ed228bdbf410851bccbb890c0038c320b99711dcaaf4bfdc7b828ac1c20",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 42,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_5de034d66196edf415df": {
+   "sourceRelativePath": "7. Menoufia Uni Books/كتاب البارا Resp.pdf",
+   "sha256": "40c64e9ba7820c70c3bf64fb0d1e6fe8b05b45c9df8986258c6f561dfa5488cb",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 19,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_f67ccae24cc13f21a015": {
+   "sourceRelativePath": "7. Menoufia Uni Books/كتاب الفسيولوجي نظري renal.pdf",
+   "sha256": "44479fa99763b3b488cf5f70872afa934795f489b5ea704d1e11b174d52949fc",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 51,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_4ed9bc5e3d4dde5baf51": {
+   "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم physio.Respiratory.pdf",
+   "sha256": "8dc12cff9fd65e317593d0c32eb963ba3ec59e8a9efca41724486a91bd04d004",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 65,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_c2f00939ec0a817aa2f3": {
+   "sourceRelativePath": "7. Menoufia Uni Books/كتاب القسم بايو نظري Renal..pdf",
+   "sha256": "e04e65e9fee0acdb07efa92664ddc19aa686e033b26c2a6ef66c43112423fbe6",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 49,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_de74abd02c1cf7a08eeb": {
+   "sourceRelativePath": "7. Menoufia Uni Books/كتاب هستو cvs.pdf",
+   "sha256": "d252198ecd0cada25ffb3338926ec6a6ed50f8718f068d6ed07a693baf7ecd17",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 11,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_215c1184c14bc22467dd": {
+   "sourceRelativePath": "7. Menoufia Uni Books/نظرى bio_20191002184045.pdf",
+   "sha256": "47473dfb77305c19d94b7441a7661b948085f61a414163874e0b5b37d58db65c",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 24,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_9b10127ab60cdaf1724d": {
+   "sourceRelativePath": "7. Menoufia Uni Books/نظرى pharma_20191003230159.pdf",
+   "sha256": "4ae38a483cd7cb4602a4c5a59b9f849c614fd5f19a2eb067ba093f6367e50c4e",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 48,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_ec6b20fed61883c857c7": {
+   "sourceRelativePath": "7. Menoufia Uni Books/هستو Resp.pdf",
+   "sha256": "ac54762fa8209b02d4ef55bfd91dae7434c30904daba50322d640a4b913f0c25",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 14,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_8ebcb5f6ee01503617e4": {
+   "sourceRelativePath": "8. Tanta Uni Books/General Pathology 2018-2019.pdf",
+   "sha256": "0ec7ced73dd02cf8a8ace0a1edc4a5e54fe584e0f8a76d33f7061a312091465a",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 177,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_75e8e2ffe7d4ed995342": {
+   "sourceRelativePath": "8. Tanta Uni Books/Parasitology tanta.pdf",
+   "sha256": "7168cc1345ba33a9ae5b8f80657605239aefba5dde34f8d870ac48817e055e59",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 189,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_80789da965192fb095dc": {
+   "sourceRelativePath": "8. Tanta Uni Books/Systemic Pathology 2018-2019.pdf",
+   "sha256": "29e63e47170c7ed27b90e70a940d2af75f5a158fdfabdf0d26b12b563422d4f6",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 313,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_fc5013f67be93bc1d686": {
+   "sourceRelativePath": "8. Tanta Uni Books/Tanta histology.pdf",
+   "sha256": "efb877c6e01ffb8229f9c1ab8440d9dbdb2f8b333f122288d991a5f01efc4d4a",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 137,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_ce7eefa2bb550ddf439b": {
+   "sourceRelativePath": "8. Tanta Uni Books/Tanta pharmacology book.pdf",
+   "sha256": "e8e6d3b3093fe3f0d5899643438cf1a4404b7e666c42899e1b4f814c2ccb2b86",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 168,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_08460f67cb0b5a6e6b27": {
+   "sourceRelativePath": "8. Tanta Uni Books/a14786de-78b8-42e5-a3e3-26b231151b4e.pdf",
+   "sha256": "6af81385c15d412e8096a16d7c4c9afe04b1980e44d53a080679e32ddbd37ae5",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 168,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_37d24b228fc59045e261": {
+   "sourceRelativePath": "8. Tanta Uni Books/dc02c444-2bf5-4d3b-86e7-a08e734ee777.pdf",
+   "sha256": "797e2960f152b2af158be07f2e3e5c11351eea0553fdda7beb470b813f35cbba",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 215,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_f07a65d20e07ef2ad3de": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Anatomy Mcqs.pdf",
+   "sha256": "c874c7e156733a6f49f363a9ee8d584e553b736ea005dce4e4b831b5932fdd71",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 110,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_79095e97d79e834e8982": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Anatomy questions(GIT) .pdf",
+   "sha256": "155a5163c66a9238c78ca02aca1b711a599b6bca39954b37c64ad6b9522682a0",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 92,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_1028df0326123f12fcc0": {
+   "sourceRelativePath": "9. Zagazig Uni Books/CNS FINAL EDITION.pdf",
+   "sha256": "06400068e012ceffc1a31fd814de1db2bfb52733ee93621e845b462d0b4f8cad",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 404,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_26946fbba92c005dad1a": {
+   "sourceRelativePath": "9. Zagazig Uni Books/CNS book.pdf",
+   "sha256": "9456ee00018918275254c17d45c57d6004a777d1b7599d64319d78b93692e086",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 400,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_0db967c49be93f1a8fae": {
+   "sourceRelativePath": "9. Zagazig Uni Books/CVS Handout (1).pdf",
+   "sha256": "7fbe309957609a24bb52c7fd5ad0f7ea3217bf05849adce3175179eec1c05b26",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 234,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_df293b7e6a8cae53e4cb": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Cute GIT.pdf",
+   "sha256": "2080d627ac53b798da8e7cfaeea5cdbb1dcfb4daee66f44cde41bba29235d3c4",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 319,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_78b0227a89a9f97f1220": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Endocrine  System Handout.pdf",
+   "sha256": "72e87aa652d6b7ec8a1aae3e5f8f93b5677b19d889bc0c5a463326b38a106bac",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 153,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_7cfa583e01ca91215a40": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Endocrine  System Practical.pdf",
+   "sha256": "2fd2c70558fd724eb636460ecab884e9686a00b6aca3ac428f39b0e90e541d44",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 58,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_f819e114d3a0eae6d371": {
+   "sourceRelativePath": "9. Zagazig Uni Books/GIT MCQ Dr. Hanaa Mousa.pdf",
+   "sha256": "0ed5d08d6015aa092e111c2f3d5597d34b30b607873d3729a3318d7a41617496",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 16,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_23f7a44308bb8153e824": {
+   "sourceRelativePath": "9. Zagazig Uni Books/GIT Practical arranged.pdf",
+   "sha256": "dac73a3219c5ed868718bd3a9a40857360831507c49b01111bac998a762bae12",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 160,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_2de5cc9470be82729f82": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Git Rearranged Zag Final.pdf",
+   "sha256": "6b72ab1b491d2a45c22ca6c51f12bb79ea5a7376b6e9eb5c0caf8f0086199912",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 319,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_f1b4dce95756c20d6766": {
+   "sourceRelativePath": "9. Zagazig Uni Books/H..pdf",
+   "sha256": "a59a76314fd2e1a276d73ff81057a2ffea8dc0b1bdb33c7eff8fbe24665c2eb3",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 191,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_27ba6c8abaa764288cb8": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Histo mcq.pdf",
+   "sha256": "f869b2f7904413af22fc6f0f4ad6de374e8df725996254b9ef38a59063525d11",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 9,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_828edfebb8d166fa9e90": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Micro GIT.pdf",
+   "sha256": "4cd737422f0de91ebd39560fd8de4575439ee9b878026b7e4d5c40959618e20f",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 28,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_8e97bd0886fc6fe127bd": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Pharma Mcq.pdf",
+   "sha256": "0b0b07af9f1d04ff645049b11f8999aa291691c685e03f3d2c6c4f443e08d841",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 5,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_fb30bef9471ae91bac12": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Physio Mcq_221228_162350.pdf",
+   "sha256": "619bd733968a0df049046850dc172f5c11655695f3223ba25b6fbdc186b9e794",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 16,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_31a0f1c5d3f190bbb092": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Practical CNS (1).pdf",
+   "sha256": "72aa0dcd85f835fd388df54e741fdd707f28bcf9a4da4cc2721f57c9cee579e2",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 147,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_befa0991254f3749a0ee": {
+   "sourceRelativePath": "9. Zagazig Uni Books/REPRODUCTIVE HAND OUT_compressed.pdf",
+   "sha256": "718af80ac6e4ca42e0a3f57988fed8bcb809b53fc56d631a685becb022619093",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 456,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_7d505a85dccf43116061": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Renal Handout.pdf",
+   "sha256": "4028e6da730045cbde6593cd393a090138b3d3d1ae2416217417759b213ffad8",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 198,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_9723e7eea15ca076987e": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Renal Practical.pdf",
+   "sha256": "f3468c1aef5a913b08e6a871a4a263ec5dcf96cc68deb3ae6e9b245ea075ff59",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 113,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_2734be2dd88c5c7371bf": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Renal hand out (2).pdf",
+   "sha256": "6ebc8522bb6c5441466be553e02a357c4c1987e21430d601ae32dcd367f4cfc9",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 198,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_d4390ed9f9000e8d3f9b": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Reproductive System Handout.pdf",
+   "sha256": "37f5081b72d120112f06d648e3a0ca8d80f31a29ec4e5c2d63570fc4d01d0302",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 433,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_2effb33c8ad4e36a76f9": {
+   "sourceRelativePath": "9. Zagazig Uni Books/Respiratory practical 2021-2022 2.pdf",
+   "sha256": "3df413e0d2006b374c5d7ef09c8f33c1aff51a7ed097f205a4e6d137d493dc9a",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 13,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_c42d3541f4d60caa4521": {
+   "sourceRelativePath": "9. Zagazig Uni Books/_h..pdf",
+   "sha256": "457d9a5714fde5539557c0e9113899c8512d5ef363a8f1f39bd6061bdea685f3",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 234,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_497785a97d77065d2dce": {
+   "sourceRelativePath": "9. Zagazig Uni Books/arranged practical Handout repro_compressed.pdf",
+   "sha256": "da2fb65aa8a3cfdfc0bfb4db396a6ae239721e4aba0ae6ba6d682eaa358dc410",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 152,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_54a2ab37fb4cb11a99ab": {
+   "sourceRelativePath": "9. Zagazig Uni Books/cns practical.pdf",
+   "sha256": "b6798882cfb9e87ef76ff4d3cc397d7db77ee90576f7551ce75ec85ef1d745fc",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 7,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_0704d44d8ce98bb6563c": {
+   "sourceRelativePath": "9. Zagazig Uni Books/mcq القسم.pdf",
+   "sha256": "6e532eed2178dd51208e42080c108ad320c939572dddaca9c5b35f0647068ed6",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 119,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_c2be2c2e057390d22560": {
+   "sourceRelativePath": "9. Zagazig Uni Books/merged (8).pdf",
+   "sha256": "9c422426163457c1319c6c3c3ed8e36534145c8a5913ec37bcc80f89f9940873",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 234,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_630c6e091e9fa40cf545": {
+   "sourceRelativePath": "9. Zagazig Uni Books/para theoo.pdf",
+   "sha256": "103fbded638d514d4876bf8df926e786d63dee118fbd4976f0d5338064ab183b",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 6,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_dc10b4b435f0a5346265": {
+   "sourceRelativePath": "9. Zagazig Uni Books/اناتومي الريبرو.pdf (1).pdf",
+   "sha256": "1b6fbb503257168b145c97ebd156dafcae13c9d83f755da7a1d8a506f5ba3a5f",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 141,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_8957440d29146e4856ce": {
+   "sourceRelativePath": "9. Zagazig Uni Books/باثو الريبرو.pdf",
+   "sha256": "3ab364d13697b104fe4791488428fa1abebd554551fceda58d2055ebc865977d",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 66,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_d29389d5b0d7664fe7cf": {
+   "sourceRelativePath": "9. Zagazig Uni Books/باثو القسم.PDF",
+   "sha256": "3c9dc60c4f857b6fde45a5fccef1fe3c2460a9e077ce363b740e68d27294e9f3",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 29,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_ad341b305f38ba5f2d22": {
+   "sourceRelativePath": "9. Zagazig Uni Books/بارا الريبرو.pdf",
+   "sha256": "a42415e886b5cf889d4ed3b6b6abd9713238c5b050042a335aa2c6776a367afb",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 15,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_e78b60c4052bc4b7e3fd": {
+   "sourceRelativePath": "9. Zagazig Uni Books/بايو الريبرو.pdf",
+   "sha256": "8b4aae2bddd208961692a85b63922980dc85283b4e5505303864bf63d253ad47",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 41,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_a3ddeae7545a5d68e104": {
+   "sourceRelativePath": "9. Zagazig Uni Books/بايو.pdf",
+   "sha256": "6f47af175c1f686493e72a5d8402bf0c710291ebc6beb8be2b838e47ada8d9dd",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 25,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_67723187343412daba11": {
+   "sourceRelativePath": "9. Zagazig Uni Books/سيكو القسم.pdf",
+   "sha256": "9a11bb4e5ce85d26e6f74776d86819396d50a5fc3c1d500813c7e257cc5c2809",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 118,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_18e63345a66c9a76a312": {
+   "sourceRelativePath": "9. Zagazig Uni Books/فارما البري.PDF",
+   "sha256": "591b8501345c9345446a3fbda371e77a418e15209f9e526559ca055066237aac",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 64,
+   "languages": [
+    "ar",
+    "en",
+    "und"
+   ]
+  },
+  "src_38bcd035cad8797f9c72": {
+   "sourceRelativePath": "9. Zagazig Uni Books/فسيو الريبرو.pdf",
+   "sha256": "f72b165dd6d460bb86323dafef38499156af5ce68fdf437fe9d96d78f1158cdf",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 47,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_1f63afb851b98ba7200c": {
+   "sourceRelativePath": "9. Zagazig Uni Books/كتاب القسم 2019.pdf",
+   "sha256": "697c22d42d37f06d5d27566f2ebe0c92e2f6e7787c72b3a66852fd5a9d4e2f93",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 142,
+   "languages": [
+    "en",
+    "und"
+   ]
+  },
+  "src_332628cc60066dda3bd1": {
+   "sourceRelativePath": "9. Zagazig Uni Books/ميكرو الريبرو.pdf",
+   "sha256": "76da799c87b7d9fd37d575924f46cf850fb38f38359147895183759e209891e1",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 35,
+   "languages": [
+    "ar",
+    "en"
+   ]
+  },
+  "src_608b1827d067f9fdcabc": {
+   "sourceRelativePath": "9. Zagazig Uni Books/ميكرو القسم.pdf",
+   "sha256": "00208960c4762a1e45fed8a64ced273d21886b0afd895d20d8e2edafce95abed",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 20,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_000e45a7403fd6fda726": {
+   "sourceRelativePath": "9. Zagazig Uni Books/ميكرو القصر.pdf",
+   "sha256": "24cde2dab4c4d22b1e4be5491725c34087995375c8dbc1a82d3555b85648ff10",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 30,
+   "languages": [
+    "en"
+   ]
+  },
+  "src_d67c19db97a3b2312f44": {
+   "sourceRelativePath": "9. Zagazig Uni Books/هستو الريبرو الصح.pdf.pdf",
+   "sha256": "29a205e70660a502a8ed45054f62cf987e9133e733f28eebbe11adccb0eb7493",
+   "processingStatus": "machine_complete_review_required",
+   "pageCount": 55,
+   "languages": [
+    "en",
+    "und"
+   ]
+  }
+ }
+}

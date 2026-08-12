@@ -22,11 +22,11 @@ starts here and ends here. Nothing below depends on any chat transcript.
 | **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — all 19 inventories and source plans done; 943 articles planned; authoring not started |
 | **Active phase** | Phase 2 — article & concept programme, starting at `SYS-FND` |
 | **Active system** | `SYS-FND` Foundations & General Principles (system 1 of 19) |
-| **Active task ID** | `SYS-FND-CONCEPT-003` (Not started) — six batches authored, validated and simulated clean; awaiting a real import |
+| **Active task ID** | `SYS-FND-CONCEPT-004` (Not started) — twelve batches authored, validated and simulated clean; awaiting a real import |
 | **Last verified commit** | `781558b` — *Write the medical-library programme plan, and its 19 system plans* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (`SYS-FND-ARTICLE-001` complete; import simulated with a clean audit) |
+| **Last update** | 2026-08-12 (`SYS-FND-CONCEPT-003` and `ARTICLE-002` complete; 8 of 56 SYS-FND articles authored) |
 
 ### Gate status
 
@@ -440,6 +440,8 @@ Append-only. Never edit or delete an entry; supersede it with a new one.
 | 2026-08-12 | `DEC-018` | An optional field a record leaves empty is written as **`null`, not `undefined`** | The audit separates "missing" from "empty on purpose" by testing whether the key is present. `JSON.stringify` drops `undefined`, so the key vanished the moment the record was persisted and the audit reported it absent. Twenty-four such errors in the simulation traced to this one cause | `materialiseNewItem`, `materialiseNewConcept` |
 | 2026-08-12 | `DEC-019` | `resourceOccurrenceIds` moves from the concept audit's *populated* list to its *intentional-blank* list | The field records where a **pipeline-extracted** concept appears in the corpus. A concept written by a person has no such record, and the corpus does not supply occurrence identifiers for these nodes. Requiring it would have forced a fabricated ID; it now needs an explicit `fieldNotes` reason instead | `scripts/audit-medical-content-fields.mjs` |
 | 2026-08-12 | `DEC-020` | Placement resolution lives in `conceptImport.ts`, not in the import page | It lived only in the page, so a simulated import silently dropped `subjectId` and every placement field — exactly the kind of divergence between the real and simulated path that a dry run exists to catch | `resolvePlacement` |
+| 2026-08-12 | `DEC-021` | `hold_these` and `lose_the_mark` split on **new lines only**, not on `;` or `\|` | They are prose. A semicolon inside a teaching point was cutting it into two half-sentences — and because callout evidence keys on the exact text, that quietly detached the line from its evidence. The practical blocks already split this way for the same reason | `importLines` |
+| 2026-08-12 | `DEC-022` | A batch naming a `src_` source ID is checked against a generated index of every ID the corpus actually contains | Written after a batch was authored with three invented `src_` IDs. They passed every check, and would have become citations pointing at sources that never existed. "Never invent an ID" is now mechanical rather than a matter of remembering | `scripts/build-corpus-source-index.mjs` |
 
 ---
 
@@ -553,6 +555,28 @@ Three findings worth carrying forward:
 | 2026-08-12 | `SYS-FND-CONCEPT-002` | Authored the evidence batch for the five concepts: 7 sources, 6 claims, 11 citations. Every claim carries an independent verification citation with a quoted support span. Validated, **not yet imported**. | uncommitted | `medical:batch` clean on all three files | `batches/SYS-FND-CONCEPT-002-{sources,claims,citations}.md` | Import, then `SYS-FND-ARTICLE-001` |
 
 | 2026-08-12 | `SYS-FND-ARTICLE-001` | Authored the first four articles, plus six article spans completing the chain from sentence to source. Simulated the whole import against live state: **6 batches, 33 records, 0 rejected, audit clean.** | uncommitted | `medical:batch` clean ×6 · `medical:simulate` 0 errors · audit on the simulated state **0 errors** · 123/123 tests · typecheck, lint, build clean | `batches/SYS-FND-ARTICLE-001.md`, `batches/SYS-FND-ARTICLE-001-spans.md`, `scripts/simulate-content-import.mjs` | `SYS-FND-CONCEPT-003` |
+
+| 2026-08-12 | `SYS-FND-CONCEPT-003` + `ARTICLE-002` | Cell cycle, receptors, second messengers and apoptosis: 4 concepts, 4 articles, 5 claims, 9 citations, 5 spans, 6 sources. **8 of 56 SYS-FND articles now authored.** | uncommitted | 12 batches validate clean · `medical:simulate` 0 rejected · audit on the simulated state **0 errors** · 123/123 tests · typecheck, lint, build clean | `batches/SYS-FND-CONCEPT-003*.md`, `batches/SYS-FND-ARTICLE-002*.md`, `scripts/build-corpus-source-index.mjs` | `SYS-FND-CONCEPT-004` |
+
+### Batch 003 and article 002 (2026-08-12)
+
+Cumulative simulated state: 145 → 153 articles, 1,718 → 1,727 concepts,
+1,741 → 1,752 claims, 1,818 → 1,838 citations, 47 → 60 sources,
+1,720 → 1,731 spans. Twelve batches, 0 rejected, audit clean.
+
+Two defects surfaced while authoring, both now fixed and guarded:
+
+- **Three invented `src_` source IDs.** They passed every check, because nothing
+  compared them with the corpus. They would have become citations pointing at
+  sources that do not exist — precisely what "never invent an ID" forbids.
+  `scripts/build-corpus-source-index.mjs` now indexes all 267 real source IDs and
+  the batch validator rejects any other (`DEC-022`). The guard was tested by
+  feeding it a fabricated ID.
+- **A semicolon inside a teaching point split it in two.** `hold_these` used the
+  general list splitter, which treats `;` as a separator. Because callout
+  evidence keys on the exact text, the split quietly detached that line from its
+  evidence and it would have failed to publish for no visible reason
+  (`DEC-021`).
 
 ### The simulated import (2026-08-12)
 
