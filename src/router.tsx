@@ -54,12 +54,13 @@ const ConceptsSetup = lazyNamed(() => import('@/pages/admin/ConceptsSetup'), 'Co
 const RelationshipsSetup = lazyNamed(() => import('@/pages/admin/RelationshipsSetup'), 'RelationshipsSetup')
 const TaxonomySetup = lazyNamed(() => import('@/pages/admin/TaxonomySetup'), 'TaxonomySetup')
 const StudentsManagement = lazyNamed(() => import('@/pages/admin/StudentsManagement'), 'StudentsManagement')
+const UsersManagement = lazyNamed(() => import('@/pages/admin/UsersManagement'), 'UsersManagement')
 const QuestionsSetup = lazyNamed(() => import('@/pages/admin/QuestionsSetup'), 'QuestionsSetup')
 const ResourcesSetup = lazyNamed(() => import('@/pages/admin/ResourcesSetup'), 'ResourcesSetup')
 const PracticalSetup = lazyNamed(() => import('@/pages/admin/PracticalSetup'), 'PracticalSetup')
 const ConceptsImportPage = lazyNamed(() => import('@/pages/admin/ConceptsImportPage'), 'ConceptsImportPage')
 const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImportPage'), 'RelationsImportPage')
-const ImageRecommendations = lazyNamed(() => import('@/pages/admin/ImageRecommendations'), 'ImageRecommendations')
+const MediaRequests = lazyNamed(() => import('@/pages/admin/MediaRequests'), 'MediaRequests')
 const EvidenceImportPage = lazyNamed(() => import('@/pages/admin/EvidenceImportPage'), 'EvidenceImportPage')
 const AcademicImportPage = lazyNamed(() => import('@/pages/admin/AcademicImportPage'), 'AcademicImportPage')
 const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportPage'), 'SubjectsImportPage')
@@ -91,6 +92,7 @@ const adminBuilt: Record<string, ReactElement> = {
   resources: render(ResourcesSetup),
   reports: render(ReportsReview),
   students: render(StudentsManagement),
+  users: render(UsersManagement),
   notifications: render(NotificationCampaigns),
   vouchers: render(VoucherManagement),
   payments: render(PaymentsFinance),
@@ -102,7 +104,7 @@ const adminBuilt: Record<string, ReactElement> = {
 }
 
 const studentPaths = ['library', 'qbank', 'practical', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'concepts', 'relationships', 'taxonomy', 'practical', 'resources', 'reports', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit']
+const adminPaths = ['academic', 'library', 'questions', 'concepts', 'relationships', 'taxonomy', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit']
 
 const studentRoutes = studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) }))
 const adminRoutes = adminPaths.map((path) => ({ path, element: adminBuilt[path] ?? render(Placeholder) }))
@@ -134,7 +136,7 @@ export const router = createBrowserRouter([
       { path: 'academic/import', element: render(AcademicImportPage) },
       { path: 'taxonomy/import', element: render(SubjectsImportPage) },
       { path: 'library/coverage', element: render(MedicalCoverageReview) },
-      { path: 'library/images', element: render(ImageRecommendations) },
+      { path: 'library/media', element: render(MediaRequests) },
       { path: 'library/evidence/import', element: render(EvidenceImportPage) },
       ...adminRoutes,
     ],

@@ -180,3 +180,59 @@ CREATE TABLE IF NOT EXISTS medical_library_source_availability (
   INDEX idx_medical_source_collection (collection_id),
   INDEX idx_medical_source_status (availability_status)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* ── Account administration ──────────────────────────────────────────────
+   Three things were missing before an admin could actually manage a user.
+
+   The identity (`user_access`) and the profile (`students`) were joinable only
+   by email, which is not a key: an address can change, and two records can
+   disagree. `students.user_id` makes the link explicit and nullable, because a
+   roster row may legitimately exist before that person has ever signed in.
+
+   Entitlement had nowhere to live at all. `students.plan` names a tier but says
+   nothing about when it started or when it ends, so "extend a subscription" had
+   no field to extend. `subscriptions` holds one row per granted period; the
+   current entitlement is the latest row that has not expired or been cancelled.
+
+   And every action here is consequential — suspending an account, ending a
+   subscription, sending a password reset. `account_action_audit` records who
+   did what to whom and why, in the same shape as `role_promotion_audit`, so a
+   change can always be traced back to a person and a reason. */
+
+ALTER TABLE students ADD COLUMN IF NOT EXISTS user_id VARCHAR(64) NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS notes TEXT NULL;
+ALTER TABLE students ADD INDEX IF NOT EXISTS idx_students_user (user_id);
+
+CREATE TABLE IF NOT EXISTS subscriptions (
+  id           VARCHAR(64) PRIMARY KEY,
+  student_id   VARCHAR(64) NOT NULL,
+  plan         VARCHAR(64) NOT NULL,
+  -- `trialing` and `active` both grant access; `expired` and `cancelled` do not.
+  -- Expiry is derived from `expires_at` at read time rather than written by a
+  -- job, so a lapsed subscription cannot linger as `active` because nothing ran.
+  status       ENUM('trialing','active','cancelled') NOT NULL DEFAULT 'active',
+  started_at   DATETIME NOT NULL,
+  -- NULL means open-ended: a comped or lifetime grant that never lapses.
+  expires_at   DATETIME NULL,
+  source       ENUM('manual','voucher','payment','trial') NOT NULL DEFAULT 'manual',
+  granted_by   VARCHAR(64) NOT NULL,
+  note         VARCHAR(500),
+  cancelled_at DATETIME NULL,
+  cancelled_by VARCHAR(64) NULL,
+  created_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_subscriptions_student (student_id, started_at),
+  INDEX idx_subscriptions_expiry (expires_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS account_action_audit (
+  id          BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  student_id  VARCHAR(64) NULL,
+  user_id     VARCHAR(64) NULL,
+  action      VARCHAR(64) NOT NULL,
+  detail      VARCHAR(500),
+  reason      VARCHAR(500) NOT NULL,
+  actor_id    VARCHAR(64) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_account_audit_student (student_id, created_at),
+  INDEX idx_account_audit_user (user_id, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

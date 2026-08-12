@@ -56,12 +56,30 @@ export function Tr({
   children,
   hover = false,
   className,
+  onClick,
 }: {
   children: ReactNode
   hover?: boolean
   className?: string
+  /**
+   * Makes the whole row a control. A row that responds to a click has to be
+   * reachable and operable without a mouse, so it takes focus and answers Enter
+   * and Space the way a button does — otherwise the only way to open a record
+   * would be to point at it.
+   */
+  onClick?: () => void
 }) {
   return (
-    <tr className={cn(hover && 'transition-colors hover:bg-inset/70', className)}>{children}</tr>
+    <tr
+      className={cn(hover && 'transition-colors hover:bg-inset/70', onClick && 'cursor-pointer', className)}
+      onClick={onClick}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      onKeyDown={onClick ? (event) => {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onClick() }
+      } : undefined}
+    >
+      {children}
+    </tr>
   )
 }
