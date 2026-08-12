@@ -5,10 +5,40 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 
 | | |
 |---|---|
-| **Status** | Not started |
+| **Status** | Practicals authored for `SYS-CVS-T01`. Articles and concepts not started |
 | **Blocked by** | `GATE-TAX-001`. `GATE-PLATFORM-001` **passed** 2026-08-12 |
 | **Active task** | `SYS-CVS-INVENTORY-001` (Not started) |
 | **Baseline date** | 2026-08-12 at commit `2df5853` |
+
+## Practical question bank — `SYS-CVS-PRACTICAL-001` … `-009`
+
+The practical bank for `SYS-CVS-T01 Structure and function` is authored against
+the **cardiovascular pilot** already in live state: 10 articles and 98 concepts,
+all under T01. It does **not** touch `T02`–`T09`, which have no articles or
+concepts yet; nothing here tests a concept no article covers.
+
+| | |
+|---|---|
+| **Items** | 46 — 10 OSCE stations, 8 skills checklists, 12 clinical cases, 8 lab interpretation sets, 8 imaging interpretation sets |
+| **Questions** | 140, each teaching one named concept |
+| **Mark-scheme items** | 214 across the 18 mark-scheme items |
+| **Concept coverage** | 98 of 98 T01 concepts |
+| **Intended difficulty** | Easy 35 (25%) · Moderate 77 (55%) · Hard 21 (15%) · Challenging 7 (5%) |
+| **Media requested** | 58 unfulfilled — 47 image, 6 audio, 5 video. None embedded; each is an editorial instruction to a human |
+| **Status** | All `Draft`. Nothing reaches a student until it is promoted |
+| **Verification** | `medical:batch` clean on all nine files; `medical:simulate` applies 46 of 46 with 0 rejected |
+
+The bank required four extensions to the practical contract, all documented in
+[`docs/authoring/practical.md`](../../authoring/practical.md): per-option `Why:`
+explanations, per-question `Concept:` and `Difficulty:`, item-level concept
+tagging, and a `media_needed` block that flags an asset without writing a URL a
+student's browser would try to load.
+
+**Not covered.** `T02`–`T09` — ischaemic heart disease, heart failure, rhythm
+disorders, valvular and pericardial disease, hypertension, congenital disease and
+cardiovascular investigations — have no practical items, because they have no
+authored articles or concepts to test. They become available once
+`SYS-CVS-CONCEPT-001` and the article tasks are done.
 
 ---
 

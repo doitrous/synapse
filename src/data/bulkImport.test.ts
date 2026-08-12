@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import {
   IMPORT_SCHEMAS, importRowToContent, validateImportRow,
   parseAnnotations, parseImageRecommendations, parseCalloutEvidence, parseRelatedArticles, parseFieldNotes,
+  parseDecisions, parseLabQuestions, parsePracticalMediaRequests,
 } from './bulkImport.ts'
 import { mergeContentItem, materialiseNewItem } from './importMerge.ts'
 import { listDirective, applyListDirective, optionalList } from './importSemantics.ts'
@@ -310,4 +311,115 @@ test('question attachments and authoring fields round-trip', () => {
   assert.equal(data.authorNotes, 'Checked against NG185.')
   assert.equal(data.estimatedSeconds, 120)
   assert.equal(data.randomiseAnswers, false)
+})
+
+/* ---- practicals -------------------------------------------------------- */
+
+const DECISION = [
+  '### Immediate action',
+  'A 54-year-old man has 20 minutes of central chest pain.',
+  'Concept: CON-CVS-AAA',
+  'Also: CON-CVS-BBB | CON-CVS-CCC',
+  'Difficulty: Challenging',
+  'Q: What is your first step?',
+  '*= Give aspirin and arrange an immediate ECG',
+  'Why: Both are time-critical, and neither waits',
+  'on a confirmed diagnosis.',
+  '* Wait for troponin',
+  'Why: The misconception that a diagnosis must be confirmed first.',
+  'Rationale: An ECG within 10 minutes is time-critical.',
+].join('\n')
+
+test('a decision block carries its concept, difficulty and a reason per option', () => {
+  const [decision] = parseDecisions(DECISION)
+  assert.equal(decision.conceptId, 'CON-CVS-AAA')
+  assert.deepEqual(decision.secondaryConceptIds, ['CON-CVS-BBB', 'CON-CVS-CCC'])
+  assert.equal(decision.difficulty, 'Challenging')
+  assert.equal(decision.context, 'A 54-year-old man has 20 minutes of central chest pain.')
+  assert.equal(decision.answers[0].explanation, 'Both are time-critical, and neither waits on a confirmed diagnosis.')
+  assert.equal(decision.answers[1].explanation, 'The misconception that a diagnosis must be confirmed first.')
+  assert.equal(decision.rationale, 'An ECG within 10 minutes is time-critical.')
+})
+
+test('a Why: binds to the option above it, not to the block', () => {
+  const [question] = parseLabQuestions([
+    '### Reading the trace',
+    'Q: Which territory?',
+    '*= Inferior',
+    'Why: II, III and aVF face the inferior surface.',
+    '* Anterior',
+    'Why: The student who maps every ST elevation to the LAD.',
+    'Explanation: Territory follows the leads that face the surface.',
+  ].join('\n'))
+  assert.deepEqual(question.answers.map((answer) => answer.explanation), [
+    'II, III and aVF face the inferior surface.',
+    'The student who maps every ST elevation to the LAD.',
+  ])
+  // The block-level explanation must not have swallowed either of them.
+  assert.equal(question.explanation, 'Territory follows the leads that face the surface.')
+})
+
+test('an unexplained option is a row error rather than a silently worse question', () => {
+  const errors = validateImportRow('practical', {
+    title: 'Case', subject: 'cvs', type: 'Clinical case',
+    decisions: '### Step\nQ: What next?\n*= Do the right thing\nWhy: Because.\n* Do the wrong thing\nRationale: Because.',
+  })
+  assert.deepEqual(errors.filter((error) => error.includes('Why:')), [
+    'Decision 1 (Step) has 1 option(s) with no "Why:" line explaining the choice',
+  ])
+})
+
+test('two correct options are rejected, not silently resolved to the first', () => {
+  const errors = validateImportRow('practical', {
+    title: 'Set', subject: 'cvs', type: 'Lab interpretation',
+    lab_questions: '### Stem\nQ: Which?\n*= One\nWhy: a\n*= Two\nWhy: b\nExplanation: c',
+  })
+  assert.ok(errors.some((error) => error.includes('marks 2 options with "*="')))
+})
+
+test('a media request parses, and one naming no question is rejected', () => {
+  const media = [
+    '### image · Immediate action',
+    'Brief: 12-lead ECG showing inferior ST elevation',
+    'Purpose: The territory cannot be read from text.',
+    'Priority: required',
+    'Status: needed',
+  ].join('\n')
+  const [request] = parsePracticalMediaRequests(media)
+  assert.equal(request.kind, 'image')
+  assert.equal(request.target, 'Immediate action')
+  assert.equal(request.priority, 'required')
+  assert.equal(request.status, 'needed')
+
+  const values = { title: 'Case', subject: 'cvs', type: 'Clinical case', decisions: DECISION, media_needed: media }
+  assert.deepEqual(validateImportRow('practical', values), [])
+  const orphaned = { ...values, media_needed: media.replace('· Immediate action', '· A step nobody wrote') }
+  assert.ok(validateImportRow('practical', orphaned).some((error) => error.includes('is not a question in this item')))
+})
+
+test('a practical carries its concept tags and media requests through the importer', () => {
+  const item = importRowToContent('practical', {
+    title: 'Acute central chest pain', subject: 'cvs', type: 'Clinical case',
+    difficulty: 'Challenging',
+    decisions: DECISION,
+    main_concept: 'CON-CVS-AAA',
+    contextual_concept_ids: 'CON-CVS-ZZZ',
+    learning_objective: 'Act before the diagnosis is confirmed.',
+    media_needed: '### audio · station\nBrief: Heart sounds\nPurpose: Cannot be described in prose.\nPriority: optional\nStatus: needed',
+  }, 'row-p')
+  const data = item.practicalData!
+  assert.deepEqual(data.conceptTags.mainConceptIds, ['CON-CVS-AAA'])
+  assert.deepEqual(data.conceptTags.contextualConceptIds, ['CON-CVS-ZZZ'])
+  assert.equal(data.learningObjective, 'Act before the diagnosis is confirmed.')
+  assert.equal(data.mediaRequests[0].kind, 'audio')
+  assert.equal(data.mediaRequests[0].target, 'station')
+  // The fourth band must survive; the student list reads this string.
+  assert.equal(item.fields.Difficulty, 'Challenging')
+})
+
+test('an unknown difficulty band is rejected rather than quietly becoming Moderate', () => {
+  const errors = validateImportRow('practical', {
+    title: 'Station', subject: 'cvs', type: 'Skills checklist', difficulty: 'Fiendish',
+  })
+  assert.ok(errors.some((error) => error.includes('Difficulty must be one of')))
 })

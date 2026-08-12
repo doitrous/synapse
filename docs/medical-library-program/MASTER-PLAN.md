@@ -26,7 +26,7 @@ starts here and ends here. Nothing below depends on any chat transcript.
 | **Last verified commit** | `d17a480` — *Add the three topic overviews, and stop counting an article twice* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (SYS-FND topics T01–T04 complete; 29 of 56 SYS-FND articles authored) |
+| **Last update** | 2026-08-12 (SYS-FND topics T01–T04 complete, 29 of 56 articles authored; SYS-CVS practical bank authored — 46 items, 140 questions, all 98 T01 concepts) |
 
 ### Gate status
 
@@ -179,7 +179,7 @@ systems while its canonical home is a discipline root.
 |---:|---|---|---|---:|---:|---:|---:|---|---|
 | 1 | `SYS-FND` Foundations & General Principles | [plan](systems/SYS-FND.md) | **Authored — 56/56 homes** | 74 | 18 | 56 | 50 | 5 / 45 | `GATE-SYS-FND` |
 | 2 | `SYS-DEV` Human Development & Life Stages | [plan](systems/SYS-DEV.md) | **Next** — inventory + source plan done | 45 | 12 | 33 | 20 | 9 / 111 | `SYS-DEV-CONCEPT-001` |
-| 3 | `SYS-CVS` Cardiovascular System | [plan](systems/SYS-CVS.md) | Inventory + source plan done | 93 | 27 | 66 | 39 | 10 / 98 | `SYS-CVS-CONCEPT-001` |
+| 3 | `SYS-CVS` Cardiovascular System | [plan](systems/SYS-CVS.md) | Inventory + source plan done · **practical bank authored for T01** | 93 | 27 | 66 | 39 | 10 / 98 | `SYS-CVS-CONCEPT-001` |
 | 4 | `SYS-RES` Respiratory System | [plan](systems/SYS-RES.md) | Inventory + source plan done | 82 | 24 | 58 | 44 | 9 / 112 | `SYS-RES-CONCEPT-001` |
 | 5 | `SYS-REN` Renal & Urinary System | [plan](systems/SYS-REN.md) | Inventory + source plan done | 81 | 21 | 60 | 38 | 10 / 119 | `SYS-REN-CONCEPT-001` |
 | 6 | `SYS-GIT` Gastrointestinal, Hepatobiliary & Pancreatic | [plan](systems/SYS-GIT.md) | Inventory + source plan done | 108 | 27 | 81 | 61 | 10 / 126 | `SYS-GIT-CONCEPT-001` |
@@ -559,6 +559,7 @@ Three findings worth carrying forward:
 | 2026-08-12 | `SYS-FND-CONCEPT-003` + `ARTICLE-002` | Cell cycle, receptors, second messengers and apoptosis: 4 concepts, 4 articles, 5 claims, 9 citations, 5 spans, 6 sources. **8 of 56 SYS-FND articles now authored.** | uncommitted | 12 batches validate clean · `medical:simulate` 0 rejected · audit on the simulated state **0 errors** · 123/123 tests · typecheck, lint, build clean | `batches/SYS-FND-CONCEPT-003*.md`, `batches/SYS-FND-ARTICLE-002*.md`, `scripts/build-corpus-source-index.mjs` | `SYS-FND-CONCEPT-004` |
 
 | 2026-08-12 | `SYS-FND-CONCEPT-004..006` + `ARTICLE-003..005` | Human genetics, general pathology and general pharmacology. **Topics T01–T04 of SYS-FND are complete: 29 articles, 30 concepts, 36 claims, 64 citations, 42 sources, 37 spans.** | uncommitted | 24 batches validate clean · `medical:simulate` 0 rejected · audit on the simulated state **0 errors** · 123/123 tests · parity 0 gaps · typecheck, lint, build clean | `batches/SYS-FND-*` | `SYS-FND-CONCEPT-007` (T05 general microbiology) |
+| 2026-08-12 | `SYS-CVS-PRACTICAL-001..009` | **First practical bank in the programme.** 46 items — 10 OSCE stations, 8 skills checklists, 12 clinical cases, 16 interpretation sets — carrying 140 questions and 214 mark-scheme items, covering all 98 concepts of the cardiovascular pilot (`SYS-CVS-T01`). Extended the practical contract first: per-option `Why:`, per-question `Concept:` and `Difficulty:`, item-level concept tagging, and `media_needed` so an unfulfilled asset is flagged without writing a URL the runner would try to load. 58 media requests raised, none embedded. `T02`–`T09` deliberately untouched — no articles or concepts exist to test. | uncommitted | 9 batches validate clean · `medical:simulate` applies 46 of 46, 0 rejected · difficulty exactly 25/55/15/5 · 133/133 tests · parity 0 gaps · audit 0 errors · typecheck, lint, build clean · imported and run in the app: per-option explanations and difficulty badges render, media-flagged items show no broken image | `batches/SYS-CVS-PRACTICAL-00{1..9}.md`, `src/data/contentControl.ts`, `src/data/bulkImport.ts`, `src/lib/useLivePracticals.ts`, `src/components/practical/PracticalRunner.tsx`, `src/components/admin/PracticalEditorDialog.tsx`, `scripts/validate-content-batch.mjs`, `docs/authoring/practical.md` | `SYS-FND-CONCEPT-007` (T05 general microbiology) |
 
 ### SYS-FND progress (2026-08-12)
 

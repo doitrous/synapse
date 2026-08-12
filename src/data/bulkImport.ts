@@ -504,6 +504,17 @@ const BLOCK_LABELS: Record<string, BlockTarget> = {
 
 const BLOCK_LABEL_PATTERN = /^(Q|Rationale|Explanation|Media|Why|Concept|Also|Difficulty)\s*:\s*(.*)$/i
 
+/**
+ * Labels whose value is a single line: an ID, a band, a URL.
+ *
+ * Prose labels wrap, so they keep absorbing lines until the next label. These do
+ * not, and must not: an author who writes `Difficulty: Moderate` and then a line
+ * of case narrative means the narrative to be narrative. Letting a scalar label
+ * swallow it produced a difficulty of "Moderate He tells you he is thirsty",
+ * which matched no band and silently went untagged.
+ */
+const SCALAR_BLOCK_LABELS = new Set<BlockTarget>(['concept', 'also', 'difficulty', 'media'])
+
 /** Read an authored difficulty, on the same four-band scale the question bank uses. */
 function practicalDifficulty(value: string): PracticalDifficulty | undefined {
   return DIFFICULTIES.find((tier) => tier.toLowerCase() === value.trim().toLowerCase())
@@ -512,9 +523,11 @@ function practicalDifficulty(value: string): PracticalDifficulty | undefined {
 /**
  * Parse one `### heading` block into its labelled parts.
  *
- * A label's value runs until the next label or option line, so `Rationale:` and
- * `Q:` may wrap across several lines without their continuation falling back
- * into the block's context. Lines before the first label are the context.
+ * A prose label's value runs until the next label or option line, so
+ * `Rationale:` and `Q:` may wrap across several lines without their
+ * continuation falling back into the block's context. A scalar label
+ * (`SCALAR_BLOCK_LABELS`) takes only its own line. Anything before the first
+ * label, or after a scalar one, is the block's context.
  *
  * `Why:` is the exception: it belongs to the option immediately above it rather
  * than to the block, which is how one explanation is written per option. A
@@ -542,8 +555,11 @@ function parseLabelledBlock(body = '') {
     }
     const label = line.match(BLOCK_LABEL_PATTERN)
     if (label) {
-      current = BLOCK_LABELS[label[1].toLowerCase()]
-      if (label[2].trim()) write(current, label[2].trim())
+      const target = BLOCK_LABELS[label[1].toLowerCase()]
+      if (label[2].trim()) write(target, label[2].trim())
+      // A scalar label takes its own line and nothing more, so the prose after
+      // it goes back to being context rather than being absorbed.
+      current = SCALAR_BLOCK_LABELS.has(target) ? 'context' : target
       return
     }
     write(current, line)

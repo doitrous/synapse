@@ -19,7 +19,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 
 import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
-import { importRowToContent, validateImportRow } from '../src/data/bulkImport.ts'
+import { importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
 import { materialiseNewItem, mergeContentItem } from '../src/data/importMerge.ts'
 import {
   evidenceErrors, reconcileClaimEvidence,
@@ -60,6 +60,7 @@ function detectKind(sample) {
   if ('concept_id' in sample && 'display_text' in sample) return 'claim'
   if ('article_id' in sample && 'section_id' in sample) return 'span'
   if ('institution' in sample && 'processing_status' in sample) return 'resource'
+  if ('type' in sample && ('mark_scheme' in sample || 'decisions' in sample || 'lab_questions' in sample || 'candidate_instructions' in sample)) return 'practical'
   // Questions are not part of this programme yet, but a batch for one can sit in
   // the directory. It needs a positive test so it is refused rather than absorbed.
   if ('vignette' in sample || 'correct_answer' in sample || 'answer_a' in sample) return 'question'
@@ -92,9 +93,11 @@ const before = {
 
 /* ---- apply, in dependency order ------------------------------------------ */
 
-const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5, relation: 6 }
+// Practicals go last: they reference concepts, so anything that creates a
+// concept must have been applied before one is checked against the graph.
+const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5, relation: 6, practical: 7 }
 const batches = []
-/** Files this run will not apply, reported alongside the row errors below. */
+/** Files this run will not apply, reported under `skipped` rather than `errors`. */
 const refused = []
 for (const file of files) {
   const rows = parseMarkdown(await readFile(file, 'utf8'))
@@ -124,7 +127,12 @@ const upsert = (existing, incoming, merge) => {
 }
 
 const report = []
-const errors = [...refused]
+// Refusals are deliberately *not* errors. A batch this run cannot apply is a
+// batch of a kind nobody has taught it yet — a question bank, say — and that is
+// a fact about the simulator, not a defect in the file. Counting it as an error
+// would fail a run whose data is fine, and `errors.length` is the signal every
+// caller uses to decide whether a batch is safe to import.
+const errors = []
 
 for (const batch of batches) {
   const context = {
@@ -140,6 +148,32 @@ for (const batch of batches) {
       const rowErrors = validateImportRow('article', row)
       if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
       const incoming = importRowToContent('article', row, `row-${index}`)
+      const position = ledger.findIndex((item) => item.id === incoming.id)
+      if (position >= 0) { ledger[position] = mergeContentItem(ledger[position], incoming, false); updated += 1 }
+      else { ledger.unshift(materialiseNewItem(incoming)); created += 1 }
+    })
+    report.push({ file: batch.file, kind: batch.kind, created, updated, rejected: batch.rows.length - created - updated })
+    continue
+  }
+
+  if (batch.kind === 'practical') {
+    let created = 0
+    let updated = 0
+    batch.rows.forEach((row, index) => {
+      const rowErrors = validateImportRow('practical', row)
+      // A practical teaches concepts, and one pointing at a concept nobody
+      // authored would import cleanly and teach nothing.
+      const data = practicalDataFrom(row)
+      const tagged = [
+        ...data.conceptTags.mainConceptIds,
+        ...data.conceptTags.conceptIds,
+        ...data.conceptTags.contextualConceptIds,
+        ...(data.format === 'case' ? data.decisions : data.format === 'lab' ? data.questions : [])
+          .flatMap((block) => [block.conceptId, ...(block.secondaryConceptIds ?? [])]),
+      ].filter(Boolean)
+      for (const id of tagged) if (!context.conceptIds.has(id)) rowErrors.push(`concept ${id} does not exist`)
+      if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
+      const incoming = importRowToContent('practical', row, `row-${index}`)
       const position = ledger.findIndex((item) => item.id === incoming.id)
       if (position >= 0) { ledger[position] = mergeContentItem(ledger[position], incoming, false); updated += 1 }
       else { ledger.unshift(materialiseNewItem(incoming)); created += 1 }
@@ -248,6 +282,9 @@ console.log(JSON.stringify({
   after,
   delta: Object.fromEntries(Object.keys(before).map((key) => [key, after[key] - before[key]])),
   conceptsNowCarryingVerifiedClaims: nowSupported,
+  // Named separately so a caller can see what went unapplied without treating it
+  // as a failure. Silence was the original bug; a false alarm is the other one.
+  skipped: refused,
   errors,
 }, null, 1))
 if (errors.length) process.exitCode = 1
