@@ -1,0 +1,1352 @@
+{
+  "generatedAt": null,
+  "summary": [
+    {
+      "contentType": "Library article",
+      "model": "ArticleAuthoringData",
+      "modelFields": 45,
+      "importFields": 52,
+      "ok": 45,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Library article · statement annotation",
+      "model": "ConceptAnnotation",
+      "modelFields": 5,
+      "importFields": 52,
+      "ok": 5,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Library article · image recommendation",
+      "model": "ImageRecommendation",
+      "modelFields": 14,
+      "importFields": 52,
+      "ok": 14,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Concept",
+      "model": "Concept",
+      "modelFields": 54,
+      "importFields": 52,
+      "ok": 54,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Concept relation",
+      "model": "ConceptRelation",
+      "modelFields": 11,
+      "importFields": 11,
+      "ok": 11,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Question",
+      "model": "QuestionAuthoringData",
+      "modelFields": 12,
+      "importFields": 49,
+      "ok": 12,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Question · tags",
+      "model": "QuestionTags",
+      "modelFields": 21,
+      "importFields": 49,
+      "ok": 21,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Resource",
+      "model": "ResourceAuthoringData",
+      "modelFields": 15,
+      "importFields": 18,
+      "ok": 8,
+      "missing": 0,
+      "notApplicable": 7
+    },
+    {
+      "contentType": "Subjects & Topics",
+      "model": "CurriculumSystem tree",
+      "modelFields": 23,
+      "importFields": 14,
+      "ok": 23,
+      "missing": 0,
+      "notApplicable": 0
+    }
+  ],
+  "gaps": [],
+  "groups": [
+    {
+      "contentType": "Library article",
+      "model": "ArticleAuthoringData",
+      "importFields": 52,
+      "fields": [
+        {
+          "field": "arabicTitle",
+          "column": "arabic_title",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "aliases",
+          "column": "aliases",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "templateId",
+          "column": "template_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "archetype",
+          "column": "archetype",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "language",
+          "column": "language",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "learnerStage",
+          "column": "learner_stage",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "summary",
+          "column": "summary",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "body",
+          "column": "body",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sections",
+          "column": "sections",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "publishedSections",
+          "column": "published_sections",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "publishedSummary",
+          "column": "published_summary",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "holdThese",
+          "column": "hold_these",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "loseTheMark",
+          "column": "lose_the_mark",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "questionIds",
+          "column": "question_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "resourceIds",
+          "column": "resource_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "annotations",
+          "column": "annotations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "universityIds",
+          "column": "universities",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "yearIds",
+          "column": "years",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleIds",
+          "column": "module",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "primaryNodeId",
+          "column": "primary_node_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "secondaryNodeIds",
+          "column": "secondary_node_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "subtopicId",
+          "column": "subtopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "microtopicId",
+          "column": "microtopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "nanotopicId",
+          "column": "nanotopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "relatedConceptIds",
+          "column": "related_concepts",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "universityNotes",
+          "column": "university_notes",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "fieldNotes",
+          "column": "field_notes",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewer",
+          "column": "reviewer",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "finalPublisher",
+          "column": "final_publisher",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewDue",
+          "column": "review_due",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "lastReviewed",
+          "column": "last_reviewed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "highYield",
+          "column": "high_yield",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "timeSensitive",
+          "column": "time_sensitive",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "publicationGate",
+          "column": "publication_gate",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "evidenceBasis",
+          "column": "evidence_basis",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "articleLevelSourceIds",
+          "column": "article_source_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "claimIds",
+          "column": "claim_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "spanIds",
+          "column": "span_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conflicts",
+          "column": "conflicts",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "evidenceGaps",
+          "column": "evidence_gaps",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "relatedArticleIds",
+          "column": "related_articles",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "media",
+          "column": "media",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "imageRecommendations",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "calloutEvidence",
+          "column": "callout_evidence",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "notes",
+          "column": "notes",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Library article · statement annotation",
+      "model": "ConceptAnnotation",
+      "importFields": 52,
+      "fields": [
+        {
+          "field": "id",
+          "column": "annotations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "quote",
+          "column": "annotations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptId",
+          "column": "annotations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "relation",
+          "column": "annotations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "block",
+          "column": "annotations",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Library article · image recommendation",
+      "model": "ImageRecommendation",
+      "importFields": 52,
+      "fields": [
+        {
+          "field": "id",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "articleId",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "kind",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "brief",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "teachingPurpose",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "section",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "block",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "anchorQuote",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "priority",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "status",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "notes",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sourceDirection",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rightsNotes",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaId",
+          "column": "image_recommendations",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Concept",
+      "model": "Concept",
+      "importFields": 52,
+      "fields": [
+        {
+          "field": "id",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "label",
+          "column": "label",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "aliases",
+          "column": "aliases",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "canonicalKey",
+          "column": "canonical_key",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "arabicLabel",
+          "column": "arabic_label",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "arabicAliases",
+          "column": "arabic_aliases",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "definition",
+          "column": "definition",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "pitfalls",
+          "column": "pitfalls",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "status",
+          "column": "status",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "articleIds",
+          "column": "article_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "subjectId",
+          "column": "subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "topicId",
+          "column": "topic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "systemId",
+          "column": "subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "topicTagId",
+          "column": "topic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "subtopicId",
+          "column": "subtopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "microtopicId",
+          "column": "microtopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "nanotopicId",
+          "column": "nanotopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "primaryNodeId",
+          "column": "primary_node_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "secondaryNodeIds",
+          "column": "secondary_node_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptType",
+          "column": "concept_type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "learnerYears",
+          "column": "learner_years",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "universityIds",
+          "column": "universities",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleIds",
+          "column": "modules",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "explicitObjective",
+          "column": "explicit_objective",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "blueprintWeight",
+          "column": "blueprint_weight",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "examWeightByYear",
+          "column": "exam_weight_by_year",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "clinicalRelevance",
+          "column": "clinical_relevance",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "academicRelevance",
+          "column": "academic_relevance",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "relatedConceptIds",
+          "column": "related_concept_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "relatedArticleIds",
+          "column": "related_article_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "resourceIds",
+          "column": "resource_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "approvedFileResourceIds",
+          "column": "approved_file_resource_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "approvedVideoResourceIds",
+          "column": "approved_video_resource_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "atomicClaimIds",
+          "column": "atomic_claim_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "resourceOccurrenceIds",
+          "column": "resource_occurrence_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "supportMode",
+          "column": "support_mode",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "confidence",
+          "column": "confidence",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conflicts",
+          "column": "conflicts",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "uncertainty",
+          "column": "uncertainty",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "evidenceGaps",
+          "column": "evidence_gaps",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sourceCandidateIds",
+          "column": "source_candidate_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mergeIds",
+          "column": "merge_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rejectedMergeCandidateIds",
+          "column": "rejected_merge_candidate_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "originalWording",
+          "column": "original_wording",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "owner",
+          "column": "owner",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewer",
+          "column": "reviewer",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "finalPublisher",
+          "column": "final_publisher",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "lastReviewed",
+          "column": "last_reviewed",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewDue",
+          "column": "review_due",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "publicationStatus",
+          "column": "publication_status",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "editorialReviewStatus",
+          "column": "editorial_review_status",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "exclusionReason",
+          "column": "exclusion_reason",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "weightConfidence",
+          "column": "weight_confidence",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "fieldNotes",
+          "column": "field_notes",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Concept relation",
+      "model": "ConceptRelation",
+      "importFields": 11,
+      "fields": [
+        {
+          "field": "id",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sourceId",
+          "column": "source",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "type",
+          "column": "type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "targetId",
+          "column": "target",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "evidenceClaimIds",
+          "column": "evidence_claim_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "citationIds",
+          "column": "citation_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "confidence",
+          "column": "confidence",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "verificationStatus",
+          "column": "verification_status",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "qualifiers",
+          "column": "qualifiers",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewer",
+          "column": "reviewer",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewedAt",
+          "column": "reviewed_at",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Question",
+      "model": "QuestionAuthoringData",
+      "importFields": 49,
+      "fields": [
+        {
+          "field": "attachments",
+          "column": "attachments",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "correctAnswer",
+          "column": "correct_answer",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "answers",
+          "column": "answer_a",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "attachedImage",
+          "column": "attached_image",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "libraryIds",
+          "column": "library_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "resourceIds",
+          "column": "resource_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "tags",
+          "column": "topic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "learningObjective",
+          "column": "learning_objective",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "authorNotes",
+          "column": "author_notes",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sourceCitation",
+          "column": "source_citation",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "estimatedSeconds",
+          "column": "estimated_seconds",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "randomiseAnswers",
+          "column": "randomise_answers",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Question · tags",
+      "model": "QuestionTags",
+      "importFields": 49,
+      "fields": [
+        {
+          "field": "module",
+          "column": "module",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "topic",
+          "column": "topic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "subtopic",
+          "column": "subtopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptIds",
+          "column": "concept_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "years",
+          "column": "years",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "universityIds",
+          "column": "universities",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "cognitiveEffort",
+          "column": "cognitive_effort",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "setting",
+          "column": "setting",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "intendedDifficulty",
+          "column": "difficulty",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "clinicalReasoningLevel",
+          "column": "reasoning_level",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "inferredDifficulty",
+          "column": "inferred_difficulty",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "examRelevance",
+          "column": "exam_relevance",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "contextualConceptIds",
+          "column": "contextual_concept_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "questionType",
+          "column": "question_type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mainConceptIds",
+          "column": "main_concept",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleIds",
+          "column": "module",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "clinicalRelevance",
+          "column": "clinical_relevance",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "academicRelevance",
+          "column": "academic_relevance",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "cognitiveEffortScore",
+          "column": "cognitive_effort_score",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "examWeightByYear",
+          "column": "exam_weight_by_year",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "questionOnlyFor",
+          "column": "question_only_for",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Resource",
+      "model": "ResourceAuthoringData",
+      "importFields": 18,
+      "fields": [
+        {
+          "field": "universityIds",
+          "column": "universities",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "yearIds",
+          "column": "years",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "institution",
+          "column": "source",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "collectionId",
+          "column": null,
+          "state": "n/a",
+          "reason": "Set by the ingest pipeline from the source collection."
+        },
+        {
+          "field": "storageKey",
+          "column": null,
+          "state": "n/a",
+          "reason": "Set on upload to authenticated storage; an author cannot choose it."
+        },
+        {
+          "field": "sha256",
+          "column": null,
+          "state": "n/a",
+          "reason": "Computed from the uploaded binary. Typing it would forge provenance."
+        },
+        {
+          "field": "rights",
+          "column": null,
+          "state": "n/a",
+          "reason": "Recorded by the rights review, not by the importer."
+        },
+        {
+          "field": "processingStatus",
+          "column": null,
+          "state": "n/a",
+          "reason": "Owned by the ingest pipeline state machine."
+        },
+        {
+          "field": "reviewer",
+          "column": null,
+          "state": "n/a",
+          "reason": "Set by the review workflow."
+        },
+        {
+          "field": "finalPublisher",
+          "column": null,
+          "state": "n/a",
+          "reason": "Set by the publish workflow."
+        },
+        {
+          "field": "chapters",
+          "column": "chapter",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleIds",
+          "column": "module_ids",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "includedConceptIds",
+          "column": "included_concepts",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "includedArticleIds",
+          "column": "included_articles",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "conceptLocations",
+          "column": "concept_locations",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Subjects & Topics",
+      "model": "CurriculumSystem tree",
+      "importFields": 14,
+      "fields": [
+        {
+          "field": "CurriculumSystem.id",
+          "column": "system_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSystem.name",
+          "column": "system",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSystem.short",
+          "column": "system_short",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSystem.color",
+          "column": "system_color",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSystem.sysId",
+          "column": "system_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSystem.topics",
+          "column": "topic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSystem.crossRefs",
+          "column": "system_cross_refs",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumTopic.id",
+          "column": "topic_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumTopic.title",
+          "column": "topic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumTopic.tpcId",
+          "column": "topic_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumTopic.subs",
+          "column": "subtopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumTopic.crossRefs",
+          "column": "topic_cross_refs",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSubtopic.id",
+          "column": "subtopic_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSubtopic.title",
+          "column": "subtopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSubtopic.subId",
+          "column": "subtopic_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumSubtopic.micros",
+          "column": "microtopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumMicro.id",
+          "column": "microtopic_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumMicro.title",
+          "column": "microtopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumMicro.micId",
+          "column": "microtopic_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumMicro.nanos",
+          "column": "nanotopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumNano.id",
+          "column": "nanotopic_id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumNano.title",
+          "column": "nanotopic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "CurriculumNano.nanId",
+          "column": "nanotopic_id",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    }
+  ]
+}
