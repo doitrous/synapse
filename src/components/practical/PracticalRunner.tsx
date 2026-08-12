@@ -25,6 +25,7 @@ import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
 import { cn } from '@/lib/cn'
 import { CONTENT_LEDGER_STORAGE_KEY, type ManagedContentItem, type PracticalAuthoringData } from '@/data/contentControl'
+import { DIFFICULTIES } from '@/data/qbank'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { ExaminerWarning } from '@/components/practical/ExaminerWarning'
@@ -49,6 +50,21 @@ const KIND_LABEL: Record<RunnerKind, string> = {
   osce: 'OSCE station',
   case: 'Clinical case',
   lab: 'Interpretation',
+}
+
+/**
+ * The intended difficulty of the question on screen.
+ *
+ * Shown per question rather than per item because a case runs from an easy
+ * opening decision to a challenging one, and a student who misses the last step
+ * should be able to see that it was the hard one.
+ */
+function DifficultyMark({ value }: { value?: unknown }) {
+  // Seeded practicals predate per-question difficulty and carry none, so an
+  // unrecognised value shows nothing rather than a wrong band.
+  const tier = DIFFICULTIES.find((candidate) => candidate === value)
+  if (!tier) return null
+  return <Badge tone={tier === 'Easy' ? 'success' : tier === 'Moderate' ? 'warning' : 'danger'}>{tier}</Badge>
 }
 
 function authoredPractical(id: string): PracticalAuthoringData | undefined {
@@ -283,7 +299,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
   const authored = useMemo(() => authoredPractical(target.id), [target.id])
   const staticDetail = getCaseDetail(target.id)
   const detail = authored?.format === 'case' ? {
-    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: Math.max(0, decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct)), answer: decision.rationale })),
+    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: Math.max(0, decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct)), answer: decision.rationale, difficulty: decision.difficulty })),
     debrief: authored.debrief,
     references: authored.references,
   } : staticDetail
@@ -332,7 +348,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
       </div>
 
       <Panel className="p-5 sm:p-6">
-        <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent">{stage.title}</p>
+        <div className="flex items-center gap-2"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent">{stage.title}</p><DifficultyMark value={'difficulty' in stage ? stage.difficulty : undefined} /></div>
         {stage.context && <p className="mt-3 max-w-3xl text-[15px] leading-[1.7] text-ink-2">{stage.context}</p>}
         <h2 className="mt-4 font-sans text-[18px] font-semibold tracking-[-0.01em] text-ink">{stage.question ?? stage.prompt}</h2>
 
@@ -373,7 +389,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
   const authored = useMemo(() => authoredPractical(target.id), [target.id])
   const staticDetail = getLabDetail(target.id)
   const detail = authored?.format === 'lab' ? {
-    questions: authored.questions.map((question) => ({ stem: question.question, context: question.context, question: question.question, mediaUrl: question.mediaUrl, options: question.answers.filter((answer) => answer.text.trim()).map((answer) => ({ text: answer.text, correct: answer.correct, explanation: answer.explanation })), explanation: question.explanation })),
+    questions: authored.questions.map((question) => ({ stem: question.question, context: question.context, question: question.question, mediaUrl: question.mediaUrl, options: question.answers.filter((answer) => answer.text.trim()).map((answer) => ({ text: answer.text, correct: answer.correct, explanation: answer.explanation })), explanation: question.explanation, difficulty: question.difficulty })),
   } : staticDetail
   const qs = detail.questions
   const [idx, setIdx] = useState(0)
@@ -443,7 +459,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
 
       <Panel className="p-5 sm:p-6">
         {q.context && <p className="mb-3 text-[14.5px] leading-relaxed text-ink-2">{q.context}</p>}
-        <p className="text-[16px] font-semibold leading-snug text-ink">{q.question ?? q.stem}</p>
+        <div className="flex items-start gap-2"><p className="flex-1 text-[16px] font-semibold leading-snug text-ink">{q.question ?? q.stem}</p><DifficultyMark value={'difficulty' in q ? q.difficulty : undefined} /></div>
         {mediaUrl && <div className="mt-4 overflow-hidden rounded-lg border border-line bg-inset p-2"><ZoomableImage src={mediaUrl} alt="Investigation" className="max-h-96 w-full object-contain" /><div className="flex justify-end border-t border-line px-1 pt-2"><Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'image', id: `${target.id}-${idx}`, title: `${target.title} · image ${idx + 1}` })}>Report image</Button></div></div>}
         <div className="mt-4 space-y-2.5">
           {q.options.map((opt, i) => (

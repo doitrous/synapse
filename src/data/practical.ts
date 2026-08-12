@@ -1,12 +1,21 @@
+import type { Difficulty } from './qbank.ts'
+
 export interface OsceStation {
   id: string
   title: string
   subjectId: string
   minutes: number
-  difficulty: 'Easy' | 'Moderate' | 'Hard'
+  difficulty: Difficulty
   marks: number
   attempts: number
   bestScore?: number
+  /**
+   * A skills checklist is a station with no simulated patient. It runs through
+   * the same timer and mark scheme, so it lives in the same list rather than a
+   * parallel one — but it is labelled, because what a student prepares for the
+   * two is different.
+   */
+  kind?: 'station' | 'checklist'
 }
 
 export interface ClinicalCase {

@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { DIFFICULTIES, type Difficulty } from '@/data/qbank'
 import {
   osceStations as SEED_OSCE,
   clinicalCases as SEED_CASES,
@@ -10,7 +11,15 @@ import {
   type LabImagingSet,
 } from '@/data/practical'
 
-const asDifficulty = (v?: string): OsceStation['difficulty'] => (v === 'Easy' || v === 'Hard' ? v : 'Moderate')
+const asDifficulty = (v?: string): Difficulty => (DIFFICULTIES.includes(v as Difficulty) ? v as Difficulty : 'Moderate')
+
+/** How many steps an authored item actually has, rather than a placeholder zero. */
+const stepCount = (item: ManagedContentItem): number => {
+  const data = item.practicalData
+  if (data?.format === 'case') return data.decisions.length
+  if (data?.format === 'lab') return data.questions.length
+  return 0
+}
 
 /**
  * Practical content as students should see it: seeded stations/cases/lab sets
@@ -52,9 +61,11 @@ export function useLivePracticals() {
       .filter((i) => !seededIds.has(i.id) && i.status === 'Published')
       .forEach((i) => {
         const type = i.fields.Type
-        if (type === 'OSCE station') osceStations.push({ id: i.id, title: i.title, subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 8, difficulty: asDifficulty(i.fields.Difficulty), marks: Number(i.fields.Marks) || 20, attempts: 0 })
-        else if (type === 'Clinical case') clinicalCases.push({ id: i.id, title: i.title, presentation: i.fields.Vignette || '', subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 12, steps: 0, status: 'not-started' })
-        else if (type === 'Lab interpretation' || type === 'Imaging interpretation') labImaging.push({ id: i.id, title: i.title, type: type === 'Imaging interpretation' ? 'Imaging' : 'Lab', subjectId: i.subjectId, items: 0, done: 0 })
+        // A checklist runs through the station runner with no actor, so it joins
+        // the same list rather than having nowhere to appear.
+        if (type === 'OSCE station' || type === 'Skills checklist') osceStations.push({ id: i.id, title: i.title, subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 8, difficulty: asDifficulty(i.fields.Difficulty), marks: Number(i.fields.Marks) || 20, attempts: 0, kind: type === 'Skills checklist' ? 'checklist' : 'station' })
+        else if (type === 'Clinical case') clinicalCases.push({ id: i.id, title: i.title, presentation: i.fields.Vignette || '', subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 12, steps: stepCount(i), status: 'not-started' })
+        else if (type === 'Lab interpretation' || type === 'Imaging interpretation') labImaging.push({ id: i.id, title: i.title, type: type === 'Imaging interpretation' ? 'Imaging' : 'Lab', subjectId: i.subjectId, items: stepCount(i), done: 0 })
       })
 
     return { osceStations, clinicalCases, labImaging }

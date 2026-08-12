@@ -10,10 +10,11 @@
  */
 import { readFile, readdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
 import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
 import { RELATION_IMPORT_FIELDS, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
-import { IMPORT_SCHEMAS, importRowToContent, validateImportRow } from '../src/data/bulkImport.ts'
+import { IMPORT_SCHEMAS, importRowToContent, validateImportRow, parseSections } from '../src/data/bulkImport.ts'
 import { materialiseNewItem } from '../src/data/importMerge.ts'
 import { missingRequiredSections } from '../src/data/articleTemplates.ts'
 import { MEDICAL_TAXONOMY_INDEX } from '../src/data/medicalLibraryTaxonomy.ts'
@@ -22,6 +23,9 @@ const file = process.argv[2]
 if (!file) throw new Error('Usage: validate-content-batch.mjs <batch.md>')
 
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
+
+/** Read a `Label: value` line out of a block body, as the importer's parser does. */
+const labelled = (body, label) => body.match(new RegExp(`^${label}\\s*:\\s*(.+)$`, 'im'))?.[1].trim() ?? ''
 
 /** The import wizard's Markdown parser, kept identical on purpose. */
 function parseMarkdown(text) {
@@ -44,12 +48,17 @@ const rows = parseMarkdown(await readFile(file, 'utf8'))
  */
 function detectKind(sample) {
   if ('source' in sample && 'type' in sample && 'target' in sample) return 'relation'
+  if ('correct_answer' in sample && 'answer_a' in sample) return 'question'
   if ('summary' in sample && 'sections' in sample) return 'article'
   if ('claim_id' in sample && 'resource_id' in sample) return 'citation'
   if ('concept_id' in sample && 'display_text' in sample) return 'claim'
   if ('article_id' in sample && 'section_id' in sample) return 'span'
   if ('institution' in sample && 'processing_status' in sample) return 'resource'
-  return 'concept'
+  // A positive test rather than a fallback. Falling back to 'concept' meant any
+  // unrecognised row became one; the simulator, which shared this shape, applied
+  // a stray question batch as sixteen concept upserts without reporting anything.
+  if ('label' in sample || 'canonical_key' in sample) return 'concept'
+  return 'unknown'
 }
 
 const kind = detectKind(rows[0] ?? {})
@@ -94,6 +103,118 @@ if (kind === 'relation') {
     verified: built.filter((r) => r.verificationStatus === 'verified').length,
     needsEvidence: built.filter((r) => r.verificationStatus === 'needs_evidence').length,
     byType, errors,
+  }, null, 1))
+  if (errors.length) process.exitCode = 1
+  process.exit()
+}
+
+if (kind === 'question') {
+  // Unlike every other batch kind, a question references records that already
+  // exist rather than siblings in the same directory: the concept it tests and
+  // the article that teaches it. So the resolution scope is live state, not the
+  // batch directory. A question pointing at a concept nobody authored is the
+  // failure this whole branch exists to catch.
+  const here = dirname(fileURLToPath(import.meta.url))
+  const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
+  const concepts = new Map((live.states['synapse-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
+  const ledger = live.states['synapse-admin-content-ledger-v4'] ?? []
+  const articles = new Map(ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item]))
+  const resources = new Set(ledger.filter((item) => item.kind === 'resource').map((item) => item.id))
+
+  // `media_recommendations` is authored ahead of the importer field that will
+  // carry it. The Markdown parser drops unknown keys in silence, so without this
+  // the blocks would vanish at import with nothing said. Known, not yet wired.
+  const PENDING_FIELDS = new Set(['media_recommendations'])
+  const known = new Set([...IMPORT_SCHEMAS.question.fields.map((field) => field.key), ...PENDING_FIELDS])
+  const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']
+  const built = []
+  const difficultyCounts = {}
+  let mediaFlagged = 0
+
+  rows.forEach((values, index) => {
+    const where = `Item ${index + 1} (${values.title ?? values.question ?? 'untitled'})`
+    for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
+    for (const error of validateImportRow('question', values)) errors.push(`${where}: ${error}`)
+
+    const item = materialiseNewItem(importRowToContent('question', values, `row-${index}`))
+    const data = item.questionData
+    built.push(item)
+
+    // Options and their explanations. An option without an explanation teaches
+    // nothing, which is the one thing this content type exists to do.
+    const answered = data.answers.filter((answer) => answer.text.trim())
+    if (answered.length < 4 || answered.length > 5) {
+      errors.push(`${where}: ${answered.length} option${answered.length === 1 ? '' : 's'} — the contract is 4 to 5`)
+    }
+    for (const answer of answered) {
+      if (!answer.explanation.trim()) errors.push(`${where}: option ${answer.label} has no explanation`)
+    }
+    if (!answered.some((answer) => answer.label === data.correctAnswer)) {
+      errors.push(`${where}: correct answer ${data.correctAnswer} is not one of the filled options`)
+    }
+
+    // The difficulty the author wrote, not the one the importer settled for.
+    const authored = values.difficulty?.trim()
+    if (authored && !DIFFICULTIES.includes(authored)) {
+      errors.push(`${where}: difficulty "${authored}" is not one of ${DIFFICULTIES.join(', ')} — it would import as Moderate`)
+    }
+    difficultyCounts[data.tags.intendedDifficulty] = (difficultyCounts[data.tags.intendedDifficulty] ?? 0) + 1
+
+    // Concept tagging. Getting main vs contextual wrong corrupts a student's
+    // mastery profile in silence, so it is an error and not a note.
+    const main = data.tags.mainConceptIds ?? []
+    const also = data.tags.conceptIds ?? []
+    const contextual = data.tags.contextualConceptIds ?? []
+    if (main.length !== 1) errors.push(`${where}: ${main.length} main concepts — a question tests exactly one`)
+    for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
+      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
+    }
+    for (const id of contextual) {
+      if (main.includes(id) || also.includes(id)) {
+        errors.push(`${where}: ${id} is both assessed and contextual — it would take mastery evidence it never earned`)
+      }
+    }
+
+    // A question may only test a concept some article covers.
+    if (!data.libraryIds.length) errors.push(`${where}: no library_ids — nothing teaches this question's answer`)
+    for (const id of data.libraryIds) if (!articles.has(id)) errors.push(`${where}: library_ids ${id} is not an article that exists`)
+    for (const id of data.resourceIds) if (!resources.has(id)) errors.push(`${where}: resource_ids ${id} is not a resource that exists`)
+    for (const id of main) {
+      const concept = concepts.get(id)
+      if (!concept) continue
+      const covered = (concept.articleIds ?? []).some((articleId) => data.libraryIds.includes(articleId))
+      if (!covered) errors.push(`${where}: main concept ${id} is not covered by any article in library_ids`)
+      if (concept.publicationStatus !== 'published') {
+        notes.push(`${item.id}: main concept ${id} has not passed the evidence gate (${concept.publicationStatus}) — promote the concept and the question together`)
+      }
+    }
+
+    if (item.status !== 'Draft') errors.push(`${where}: status is ${item.status} — assessment content lands as Draft`)
+    if (!data.learningObjective.trim()) errors.push(`${where}: no learning objective`)
+    if (!data.sourceCitation.trim()) errors.push(`${where}: no source citation`)
+
+    if (values.media_recommendations?.trim()) {
+      mediaFlagged += 1
+      // Same shape the article field uses, so it transfers when A2 lands.
+      for (const block of parseSections(values.media_recommendations)) {
+        if (!labelled(block.body, 'Purpose')) errors.push(`${where}: media recommendation "${block.heading}" has no Purpose`)
+      }
+    }
+  })
+
+  const ids = built.map((item) => item.id)
+  for (const id of ids) if (ids.filter((other) => other === id).length > 1) errors.push(`duplicate id ${id} within the file`)
+  if (mediaFlagged) {
+    notes.push(`${mediaFlagged} question${mediaFlagged === 1 ? '' : 's'} carry media_recommendations, which the importer does not read yet — they will not survive import until the question media field ships`)
+  }
+
+  console.log(JSON.stringify({
+    file, kind, items: rows.length,
+    fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    difficulty: difficultyCounts,
+    conceptsTested: [...new Set(built.flatMap((item) => item.questionData.tags.mainConceptIds ?? []))].length,
+    mediaFlagged,
+    notes, errors,
   }, null, 1))
   if (errors.length) process.exitCode = 1
   process.exit()
@@ -173,7 +294,9 @@ if (kind !== 'concept') {
   const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [], relation: [] }
   for (const path of siblings) {
     const parsed = parseMarkdown(await readFile(path, 'utf8'))
-    if (parsed.length) everything[detectKind(parsed[0])].push(...parsed)
+    // `??=` rather than a fixed set of buckets: a new record kind should make
+    // the validator report something useful, not throw while collecting context.
+    if (parsed.length) (everything[detectKind(parsed[0])] ??= []).push(...parsed)
   }
 
   const countingCitations = everything.citation.map(citationFromRow).filter((citation) => citation.countsAsClaimEvidence)

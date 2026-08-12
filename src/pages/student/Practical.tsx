@@ -16,6 +16,7 @@ import {
 } from 'lucide-react'
 import type { Skill } from '@/data/practical'
 import { skills, skillsTotals, oralQuestions } from '@/data/practical'
+import type { Difficulty } from '@/data/qbank'
 import { useLivePracticals } from '@/lib/useLivePracticals'
 import { subjects } from '@/data/student'
 import { getSubject } from '@/data/student'
@@ -35,7 +36,7 @@ import { useT } from '@/lib/i18n'
 
 type Open = (target: RunnerTarget) => void
 
-function diffTone(d: 'Easy' | 'Moderate' | 'Hard'): 'success' | 'warning' | 'danger' {
+function diffTone(d: Difficulty): 'success' | 'warning' | 'danger' {
   return d === 'Easy' ? 'success' : d === 'Moderate' ? 'warning' : 'danger'
 }
 
@@ -83,6 +84,7 @@ function OsceTab({ onOpen }: { onOpen: Open }) {
                     <span>{s.marks} marks</span>
                   </p>
                 </div>
+                {s.kind === 'checklist' && <Badge tone="outline">Checklist</Badge>}
                 <Badge tone={diffTone(s.difficulty)}>{s.difficulty}</Badge>
                 <div className="w-24 text-right">
                   {s.attempts > 0 ? (

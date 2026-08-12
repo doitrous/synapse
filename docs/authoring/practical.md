@@ -37,12 +37,15 @@ The micro-syntax is parsed literally. Get it exactly right:
 - Mark scheme lines:  `Section title (marks): the observable behaviour`
 - Actor brief lines:  `Label: content`
 - Decisions and interpretation questions use `### heading`, then `Q: question`,
-  then options as `* option` with the correct one as `*= option`, then
-  `Rationale:` (cases) or `Explanation:` (interpretation).
+  then options as `* option` with the correct one as `*= option`, each followed
+  by `Why:`, then `Rationale:` (cases) or `Explanation:` (interpretation).
 - EVERY decision and EVERY interpretation question needs exactly one `*=` line.
   The importer rejects the record otherwise.
+- EVERY option needs a `Why:` line, including the correct one.
 
 Content rules:
+- Name the ONE concept each question teaches, in its `Concept:` line. If you
+  cannot name it, or no article covers it, do not write the question.
 - Mark-scheme items must describe an OBSERVABLE behaviour an examiner can tick,
   not an internal state. "Asks about radiation of the pain", not "Understands
   the pain".
@@ -51,7 +54,10 @@ Content rules:
   radiates.
 - Case decisions must have consequences that follow from the choice. A decision
   where every option leads to the same place is not a decision.
+- Distractors must catch a specific, nameable misconception, and that option's
+  `Why:` must say which one.
 - Never write a treatment, dose, or emergency action you cannot cite.
+- Flag media you need in `media_needed`. Never invent a URL.
 
 British spelling. Set status to Draft.
 ```

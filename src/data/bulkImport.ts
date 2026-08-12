@@ -140,19 +140,24 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'type', label: 'Practical type', required: true, help: 'OSCE station, Clinical case, Skills checklist, Lab interpretation, or Imaging interpretation.' },
       { key: 'duration', label: 'Duration', help: 'Expected minutes.' },
       { key: 'marks', label: 'Marks / decisions', help: 'Total marks or number of decisions.' },
-      { key: 'difficulty', label: 'Difficulty', help: 'Easy, Moderate, or Hard.' },
+      { key: 'difficulty', label: 'Difficulty', help: 'Easy, Moderate, Hard, or Challenging. Whole-item difficulty; a case or interpretation set may also set "Difficulty:" per question.' },
       { key: 'candidate_instructions', label: 'Candidate instructions', help: 'Student-facing station brief.' },
       { key: 'actor_opening', label: 'Actor opening', help: 'Opening statement for the actor.' },
       { key: 'actor_sections', label: 'Actor brief sections', help: 'One “Section: content” entry per line.' },
       { key: 'actor_flags', label: 'Actor flags', help: 'Behavioural flags separated by new lines. (OSCE station)' },
       { key: 'mark_scheme', label: 'Mark scheme', help: 'One “Section (marks): item” entry per line. (OSCE station)' },
-      { key: 'decisions', label: 'Case decisions', help: 'Clinical-case decision points. Start each with "### Decision title", then "Q: question", options as "* option" (mark the right one "*= option"), and "Rationale: …". (Clinical case)' },
+      { key: 'decisions', label: 'Case decisions', help: 'Clinical-case decision points. Start each with "### Decision title", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" (mark the right one "*= option") each followed by "Why: …", and "Rationale: …". (Clinical case)' },
       { key: 'debrief', label: 'Case debrief', help: 'Summary shown after a clinical case. (Clinical case)' },
       { key: 'lab_subtype', label: 'Lab / Imaging', help: 'Lab or Imaging — for interpretation sets.' },
-      { key: 'lab_questions', label: 'Interpretation questions', help: 'Start each with "### Stem", then "Q: question", options as "* option" ("*= option" is correct), and "Explanation: …". (Lab/Imaging interpretation)' },
+      { key: 'lab_questions', label: 'Interpretation questions', help: 'Start each with "### Stem", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" ("*= option" is correct) each followed by "Why: …", and "Explanation: …". (Lab/Imaging interpretation)' },
+      { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this item primarily teaches.' },
+      { key: 'concept_ids', label: 'Concept IDs', help: 'Concepts the item also assesses, separated by |, ; or new lines.' },
+      { key: 'contextual_concept_ids', label: 'Contextual concept IDs', help: 'Concepts the scenario needs but does not assess. These receive no mastery evidence.' },
+      { key: 'learning_objective', label: 'Learning objective', help: 'What a student who passes this item has demonstrated.' },
+      { key: 'media_needed', label: 'Media needed', help: 'Admin-only. Assets this item still needs. One "### image|audio|video · question heading" block per asset, then "Brief:", "Purpose:", "Priority:" (required, strongly helpful, optional), "Status:" (needed, planned, supplied, declined), and optionally "Source direction:", "Rights:", "Notes:". Never shown to a student and never rendered as media.' },
       { key: 'references', label: 'Read around it', help: 'Resource references separated by new lines.' },
     ],
-    markdownExample: `# One file can mix every practical type — separate items with ---\n\n# Item\n\n## title\nHistory: chest pain in a 54-year-old\n\n## subject\ncvs\n\n## type\nOSCE station\n\n## duration\n8\n\n## candidate_instructions\nTake a focused history and present your differential.\n\n## actor_opening\nIt came on when I was carrying shopping upstairs.\n\n## actor_sections\nWho you are: Daniel Rossi, 54, self-employed builder.\nRadiation: Down my left arm and into my jaw.\n\n## mark_scheme\nOpening and structure (15): Introduces self and confirms identity\nPain characterisation (25): Establishes site, onset, character and radiation\n\n---\n\n# Item\n\n## title\nAcute central chest pain\n\n## subject\ncvs\n\n## type\nClinical case\n\n## decisions\n### Immediate action\nQ: What is your first step?\n*= Give aspirin and arrange an ECG\n* Send home with analgesia\nRationale: Early ECG and aspirin are time-critical in suspected ACS.\n\n## debrief\nThe case rewards early recognition and treatment of immediate threats.\n\n---\n\n# Item\n\n## title\nChest X-ray basics\n\n## subject\nresp\n\n## type\nImaging interpretation\n\n## lab_subtype\nImaging\n\n## lab_questions\n### Consolidation vs effusion\nQ: What does the blunted costophrenic angle indicate?\n*= A pleural effusion\n* Lobar consolidation\nExplanation: A meniscus and blunted angle indicate fluid, not consolidation.\n\n---\n\n# Item\n\n## title\nCardiovascular examination\n\n## subject\ncvs\n\n## type\nSkills checklist\n\n## duration\n8\n\n## marks\n20`,
+    markdownExample: `# One file can mix every practical type — separate items with ---\n\n# Item\n\n## title\nHistory: chest pain in a 54-year-old\n\n## subject\ncvs\n\n## type\nOSCE station\n\n## duration\n8\n\n## difficulty\nModerate\n\n## candidate_instructions\nTake a focused history and present your differential.\n\n## actor_opening\nIt came on when I was carrying shopping upstairs.\n\n## actor_sections\nWho you are: Daniel Rossi, 54, self-employed builder.\nRadiation: Down my left arm and into my jaw.\n\n## actor_flags\nIf asked about smoking, admit to 20 a day for 30 years.\n\n## mark_scheme\nOpening and structure (15): Introduces self and confirms identity\nPain characterisation (25): Establishes site, onset, character and radiation\n\n## main_concept\nCON-CVS-EXAMPLE\n\n---\n\n# Item\n\n## title\nAcute central chest pain\n\n## subject\ncvs\n\n## type\nClinical case\n\n## decisions\n### Immediate action\nConcept: CON-CVS-EXAMPLE\nDifficulty: Moderate\nQ: What is your first step?\n*= Give aspirin and arrange an ECG\nWhy: Both are time-critical and neither waits on a confirmed diagnosis.\n* Send home with analgesia\nWhy: Chosen by students who treat a normal first troponin as reassurance.\nRationale: Early ECG and aspirin are time-critical in suspected ACS.\n\n## debrief\nThe case rewards early recognition and treatment of immediate threats.\n\n## media_needed\n### image · Immediate action\nBrief: 12-lead ECG showing 2 mm ST elevation in II, III and aVF\nPurpose: The decision cannot be made from the text alone.\nPriority: required\nStatus: needed\n\n---\n\n# Item\n\n## title\nChest X-ray basics\n\n## subject\nresp\n\n## type\nImaging interpretation\n\n## lab_subtype\nImaging\n\n## lab_questions\n### Consolidation vs effusion\nConcept: CON-RES-EXAMPLE\nDifficulty: Easy\nQ: What does the blunted costophrenic angle indicate?\n*= A pleural effusion\nWhy: Fluid tracks up the chest wall and produces a meniscus.\n* Lobar consolidation\nWhy: Picked by students who read any lower-zone opacity as consolidation.\nExplanation: A meniscus and blunted angle indicate fluid, not consolidation.\n\n---\n\n# Item\n\n## title\nCardiovascular examination\n\n## subject\ncvs\n\n## type\nSkills checklist\n\n## duration\n8\n\n## marks\n20`,
   },
   resource: {
     noun: 'resources',
@@ -631,24 +636,42 @@ export function parsePracticalMediaRequests(value = ''): PracticalMediaRequest[]
  */
 export function practicalDataFrom(values: Record<string, string>): PracticalAuthoringData {
   const type = values.type?.trim()
-  const references = importLines(values.references)
+  const learningObjective = values.learning_objective?.trim()
+  const shared = {
+    ...emptyPracticalCommon(),
+    references: importLines(values.references),
+    conceptTags: practicalConceptTags(values),
+    mediaRequests: parsePracticalMediaRequests(values.media_needed),
+    ...(learningObjective ? { learningObjective } : {}),
+  }
   if (type === 'Clinical case') {
-    return { format: 'case', decisions: parseDecisions(values.decisions), debrief: values.debrief?.trim() ?? '', references }
+    return { ...shared, format: 'case', decisions: parseDecisions(values.decisions), debrief: values.debrief?.trim() ?? '' }
   }
   if (type === 'Lab interpretation' || type === 'Imaging interpretation') {
     const subtype = values.lab_subtype?.trim() === 'Imaging' || type === 'Imaging interpretation' ? 'Imaging' : 'Lab'
-    return { format: 'lab', subtype, questions: parseLabQuestions(values.lab_questions), references }
+    return { ...shared, format: 'lab', subtype, questions: parseLabQuestions(values.lab_questions) }
   }
   // OSCE station and Skills checklist share the mark-scheme shape; a checklist
   // simply has no actor brief.
+  const difficulty = practicalDifficulty(values.difficulty ?? '')
   return {
+    ...shared,
     format: 'osce',
     candidateInstructions: values.candidate_instructions?.trim() ?? '',
     actorOpening: values.actor_opening?.trim() ?? '',
     actorSections: parseActorSections(values.actor_sections),
     actorFlags: importLines(values.actor_flags),
     markSections: parseMarkSections(values.mark_scheme),
-    references,
+    ...(difficulty ? { difficulty } : {}),
+  }
+}
+
+/** What a practical assesses, kept apart from what it merely mentions. */
+function practicalConceptTags(values: Record<string, string>): PracticalConceptTags {
+  return {
+    mainConceptIds: splitImportList(values.main_concept),
+    conceptIds: splitImportList(values.concept_ids),
+    contextualConceptIds: splitImportList(values.contextual_concept_ids),
   }
 }
 
@@ -734,23 +757,53 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
     if (type && !PRACTICAL_TYPES.includes(type as PracticalType)) {
       errors.push(`Practical type must be one of ${PRACTICAL_TYPES.join(', ')}`)
     }
+    const difficulty = values.difficulty?.trim()
+    if (difficulty && !practicalDifficulty(difficulty)) {
+      errors.push(`Difficulty must be one of ${DIFFICULTIES.join(', ')}`)
+    }
     const data = practicalDataFrom(values)
     if (data.format === 'case') {
       if (!data.decisions.length) errors.push('Clinical case needs at least one decision with a "Q:" line and "*" options')
       data.decisions.forEach((decision, index) => {
-        if (!decision.answers.some((answer) => answer.correct)) errors.push(`Decision ${index + 1} (${decision.title || 'untitled'}) has no correct option marked with "*="`)
+        errors.push(...answerErrors(decision.answers, `Decision ${index + 1} (${decision.title || 'untitled'})`))
       })
     }
     if (data.format === 'lab') {
       if (!data.questions.length) errors.push('Interpretation set needs at least one question with a "Q:" line and "*" options')
       data.questions.forEach((question, index) => {
-        if (!question.answers.some((answer) => answer.correct)) errors.push(`Interpretation question ${index + 1} has no correct option marked with "*="`)
+        errors.push(...answerErrors(question.answers, `Interpretation question ${index + 1}`))
       })
     }
     if (data.format === 'osce' && type === 'OSCE station' && !data.markSections.length) {
       errors.push('OSCE station needs a mark scheme as "Section (marks): item" lines')
     }
+    // A request that names a block nobody wrote points at nothing, and would be
+    // fulfilled against a question that does not exist.
+    const targets = new Set(parseSections(data.format === 'case' ? values.decisions : values.lab_questions).map((section) => section.heading.trim().toLowerCase()))
+    data.mediaRequests.forEach((request) => {
+      const target = request.target.trim().toLowerCase()
+      if (target === 'station' || targets.has(target)) return
+      errors.push(`Media request "${request.brief}" names "${request.target}", which is not a question in this item`)
+    })
   }
+  return errors
+}
+
+/**
+ * Everything wrong with one question's options.
+ *
+ * An option with no `Why:` is the failure this is really for: it imports and
+ * runs, and the student who picks it is told nothing. The runner shows an
+ * explanation per option, so a blank one is a silently worse question rather
+ * than a broken one.
+ */
+function answerErrors(answers: PracticalAnswerDraft[], where: string): string[] {
+  const errors: string[] = []
+  const correct = answers.filter((answer) => answer.correct).length
+  if (correct === 0) errors.push(`${where} has no correct option marked with "*="`)
+  if (correct > 1) errors.push(`${where} marks ${correct} options with "*=" — exactly one must be correct`)
+  const unexplained = answers.filter((answer) => answer.text.trim() && !answer.explanation.trim()).length
+  if (unexplained) errors.push(`${where} has ${unexplained} option(s) with no "Why:" line explaining the choice`)
   return errors
 }
 
@@ -866,7 +919,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
   if (kind === 'practical') {
     return {
       ...base,
-      fields: { Type: values.type || 'OSCE station', Duration: values.duration || '8', Marks: values.marks || '20', Difficulty: values.difficulty || 'Moderate', 'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', References: values.references || '' },
+      fields: { Type: values.type || 'OSCE station', Duration: values.duration || '8', Marks: values.marks || '20', Difficulty: values.difficulty || 'Moderate', 'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '' },
       practicalData: practicalDataFrom(values),
     }
   }

@@ -60,7 +60,16 @@ function detectKind(sample) {
   if ('concept_id' in sample && 'display_text' in sample) return 'claim'
   if ('article_id' in sample && 'section_id' in sample) return 'span'
   if ('institution' in sample && 'processing_status' in sample) return 'resource'
-  return 'concept'
+  // Questions are not part of this programme yet, but a batch for one can sit in
+  // the directory. It needs a positive test so it is refused rather than absorbed.
+  if ('vignette' in sample || 'correct_answer' in sample || 'answer_a' in sample) return 'question'
+  // Concepts get a positive test too. This used to be the fallback, which meant
+  // *any* unrecognised row became a concept: a stray question batch was applied
+  // as sixteen concept upserts, creating one empty concept and writing over
+  // fields on fifteen real ones. Nothing reported it, because guessing the wrong
+  // kind is not a row error. An unrecognised shape is now unknown, and refused.
+  if ('label' in sample || 'canonical_key' in sample) return 'concept'
+  return 'unknown'
 }
 
 /* ---- load ---------------------------------------------------------------- */
@@ -85,9 +94,20 @@ const before = {
 
 const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5, relation: 6 }
 const batches = []
+/** Files this run will not apply, reported alongside the row errors below. */
+const refused = []
 for (const file of files) {
   const rows = parseMarkdown(await readFile(file, 'utf8'))
-  batches.push({ file, kind: detectKind(rows[0] ?? {}), rows })
+  const kind = detectKind(rows[0] ?? {})
+  // A batch whose kind is not in ORDER has no place in this run. Sorting it by
+  // `undefined` used to leave it wherever it landed and then apply it as
+  // whatever the fallback guessed, which is how a question batch became sixteen
+  // concept upserts. Refuse it, name it, and carry on with the rest.
+  if (!(kind in ORDER)) {
+    refused.push(`${file}: detected as "${kind}", which this simulation does not apply. Move it out of the batch directory or add support for it.`)
+    continue
+  }
+  batches.push({ file, kind, rows })
 }
 batches.sort((a, b) => ORDER[a.kind] - ORDER[b.kind])
 
@@ -104,7 +124,7 @@ const upsert = (existing, incoming, merge) => {
 }
 
 const report = []
-const errors = []
+const errors = [...refused]
 
 for (const batch of batches) {
   const context = {

@@ -45,7 +45,7 @@ const articlePresent = [
 const conceptPopulated = [
   'label', 'canonicalKey', 'definition', 'status', 'articleIds', 'subjectId', 'primaryNodeId',
   'conceptType', 'learnerYears', 'universityIds', 'explicitObjective', 'blueprintWeight', 'examWeightByYear', 'clinicalRelevance', 'academicRelevance',
-  'relatedArticleIds', 'resourceIds', 'atomicClaimIds', 'supportMode', 'confidence', 'sourceCandidateIds', 'originalWording', 'owner', 'reviewer',
+  'relatedArticleIds', 'resourceIds', 'atomicClaimIds', 'supportMode', 'confidence', 'originalWording', 'owner', 'reviewer',
   'finalPublisher', 'publicationStatus', 'editorialReviewStatus', 'weightConfidence', 'fieldNotes',
 ]
 const conceptPresent = [
@@ -78,7 +78,15 @@ for (const article of articles) {
 // landed: the field records where a *pipeline-extracted* concept appears in the
 // corpus, and a concept written by a person has no such record. Requiring it
 // would have forced a fabricated ID, so it now needs an explicit reason instead.
-const conceptIntentionalBlanks = ['arabicLabel', 'aliases', 'pitfalls', 'moduleIds', 'microtopicId', 'nanotopicId', 'approvedFileResourceIds', 'approvedVideoResourceIds', 'lastReviewed', 'reviewDue', 'resourceOccurrenceIds']
+//
+// `sourceCandidateIds` joined it one system later, for the same reason. Some
+// concepts have no corpus candidate because the local curriculum does not teach
+// them at all — the corpus holds nothing for frailty, sarcopenia or stunting.
+// That absence is a finding worth recording, and requiring the field made the
+// nearest wrong ID tempting: searching the corpus for "falls" returns
+// "Fallopian". Blank is now allowed, but only with a stated reason, so "the
+// corpus has none" stays distinguishable from "the author did not look".
+const conceptIntentionalBlanks = ['arabicLabel', 'aliases', 'pitfalls', 'moduleIds', 'microtopicId', 'nanotopicId', 'approvedFileResourceIds', 'approvedVideoResourceIds', 'lastReviewed', 'reviewDue', 'resourceOccurrenceIds', 'sourceCandidateIds']
 for (const concept of graph.concepts) {
   for (const field of conceptIntentionalBlanks) {
     if (!hasValue(concept[field]) && !concept.fieldNotes?.[field]) errors.push(`${concept.id}.${field} is blank without an explicit reason`)
