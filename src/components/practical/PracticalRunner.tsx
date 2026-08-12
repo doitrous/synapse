@@ -24,6 +24,7 @@ import { Meter } from '@/components/ui/Meter'
 import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
 import { cn } from '@/lib/cn'
+import { useMastery } from '@/lib/useMastery'
 import { CONTENT_LEDGER_STORAGE_KEY, type ManagedContentItem, type PracticalAuthoringData } from '@/data/contentControl'
 import { DIFFICULTIES } from '@/data/qbank'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
@@ -65,6 +66,30 @@ function DifficultyMark({ value }: { value?: unknown }) {
   const tier = DIFFICULTIES.find((candidate) => candidate === value)
   if (!tier) return null
   return <Badge tone={tier === 'Easy' ? 'success' : tier === 'Moderate' ? 'warning' : 'danger'}>{tier}</Badge>
+}
+
+/**
+ * The concepts one decision or interpretation question actually assesses.
+ *
+ * The item's own concept and anything it also assesses, and nothing else. An
+ * item's `contextualConceptIds` are deliberately absent: the scenario mentions
+ * them, no answer measures them, and recording them would send a student to
+ * revise something this item never tested.
+ */
+function assessedConcepts(item: { conceptId?: string; secondaryConceptIds?: string[] }): string[] {
+  return [item.conceptId ?? '', ...(item.secondaryConceptIds ?? [])].filter(Boolean)
+}
+
+/**
+ * The concept tags on a stage or question, if it has any.
+ *
+ * The seeded demo details carry no tags at all, so a runner sees a union of a
+ * tagged and an untagged shape. Reading defensively keeps an untagged item
+ * silently contributing nothing rather than throwing.
+ */
+function taggedConcepts(item: object): string[] {
+  const value = (item as { conceptIds?: unknown }).conceptIds
+  return Array.isArray(value) ? value.filter((id): id is string => typeof id === 'string' && Boolean(id)) : []
 }
 
 function authoredPractical(id: string): PracticalAuthoringData | undefined {
@@ -133,6 +158,21 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
   const [checked, setChecked] = useState<Set<string>>(new Set())
   const [seconds, setSeconds] = useState((target.minutes ?? 8) * 60)
   const [finished, setFinished] = useState(false)
+  const { record } = useMastery()
+
+  /**
+   * Bank the station as an encounter with the concepts it rehearses.
+   *
+   * Deliberately not an accuracy claim: the student ticked their own mark
+   * scheme, so the score is self-assessment. `recordEvidence` keeps this apart
+   * from marked answers for exactly that reason.
+   */
+  function finishStation() {
+    setFinished(true)
+    const tags = authored?.format === 'osce' ? authored.conceptTags : undefined
+    const conceptIds = [...(tags?.mainConceptIds ?? []), ...(tags?.conceptIds ?? [])]
+    if (!finished && conceptIds.length) record({ conceptIds, source: 'station' })
+  }
   const [running, setRunning] = useState(false)
   const [tab, setTab] = useState<'candidate' | 'examiner'>('candidate')
 
@@ -283,7 +323,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
         </div>
         <div className="flex items-center justify-between gap-3 border-t border-line px-4 py-3">
           <Meter value={pct} tone="accent" className="flex-1" />
-          <Button variant="primary" size="sm" iconRight={Trophy} onClick={() => setFinished(true)}>
+          <Button variant="primary" size="sm" iconRight={Trophy} onClick={finishStation}>
             Finish station
           </Button>
         </div>
@@ -299,11 +339,12 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
   const authored = useMemo(() => authoredPractical(target.id), [target.id])
   const staticDetail = getCaseDetail(target.id)
   const detail = authored?.format === 'case' ? {
-    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: Math.max(0, decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct)), answer: decision.rationale, difficulty: decision.difficulty })),
+    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: Math.max(0, decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct)), answer: decision.rationale, difficulty: decision.difficulty, conceptIds: assessedConcepts(decision) })),
     debrief: authored.debrief,
     references: authored.references,
   } : staticDetail
   const stages = detail.stages
+  const { record } = useMastery()
   const [idx, setIdx] = useState(0)
   const [choices, setChoices] = useState<Record<number, number>>({})
   const [debrief, setDebrief] = useState(false)
@@ -317,6 +358,19 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
   const correctIndex = stage.correctIndex ?? 0
   const selected = choices[idx]
   const revealed = selected != null
+
+  /**
+   * Record what this decision demonstrated, once, at the moment it is answered.
+   *
+   * Guarded on the decision not already having been answered, so returning to a
+   * decision with Previous cannot bank a second attempt for the same work.
+   */
+  function recordDecision(optionIndex: number) {
+    if (choices[idx] != null) return
+    const conceptIds = taggedConcepts(stage)
+    if (!conceptIds.length) return
+    record({ conceptIds, source: 'case', correct: optionIndex === correctIndex })
+  }
 
   if (debrief) {
     return (
@@ -354,7 +408,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 
         <div className="mt-5 space-y-2">{options.map((option, optionIndex) => {
           const correct = optionIndex === correctIndex
-          return <div key={option} className={cn('overflow-hidden rounded-lg border transition-colors', !revealed && 'border-line bg-surface hover:border-accent-line', revealed && correct && 'border-success bg-success-tint', revealed && selected === optionIndex && !correct && 'border-danger bg-danger-tint', revealed && !correct && selected !== optionIndex && 'border-line opacity-65')}><button disabled={revealed} onClick={() => setChoices((current) => ({ ...current, [idx]: optionIndex }))} className="flex w-full items-start gap-3 p-3 text-left text-[13.5px]"><span className="grid size-6 shrink-0 place-items-center rounded-full border border-line-2 font-mono text-[11px]">{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>{revealed && stage.optionExplanations?.[optionIndex] && <p className="border-t border-current/10 px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{stage.optionExplanations[optionIndex]}</p>}</div>
+          return <div key={option} className={cn('overflow-hidden rounded-lg border transition-colors', !revealed && 'border-line bg-surface hover:border-accent-line', revealed && correct && 'border-success bg-success-tint', revealed && selected === optionIndex && !correct && 'border-danger bg-danger-tint', revealed && !correct && selected !== optionIndex && 'border-line opacity-65')}><button disabled={revealed} onClick={() => { setChoices((current) => ({ ...current, [idx]: optionIndex })); recordDecision(optionIndex) }} className="flex w-full items-start gap-3 p-3 text-left text-[13.5px]"><span className="grid size-6 shrink-0 place-items-center rounded-full border border-line-2 font-mono text-[11px]">{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>{revealed && stage.optionExplanations?.[optionIndex] && <p className="border-t border-current/10 px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{stage.optionExplanations[optionIndex]}</p>}</div>
         })}</div>
         {revealed && <div className="mt-4 rounded-lg border border-accent-line bg-accent-tint/50 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent-strong">Decision rationale</p><p className="mt-1.5 text-[14px] leading-relaxed text-ink">{stage.answer}</p></div>}
 
@@ -389,9 +443,10 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
   const authored = useMemo(() => authoredPractical(target.id), [target.id])
   const staticDetail = getLabDetail(target.id)
   const detail = authored?.format === 'lab' ? {
-    questions: authored.questions.map((question) => ({ stem: question.question, context: question.context, question: question.question, mediaUrl: question.mediaUrl, options: question.answers.filter((answer) => answer.text.trim()).map((answer) => ({ text: answer.text, correct: answer.correct, explanation: answer.explanation })), explanation: question.explanation, difficulty: question.difficulty })),
+    questions: authored.questions.map((question) => ({ stem: question.question, context: question.context, question: question.question, mediaUrl: question.mediaUrl, options: question.answers.filter((answer) => answer.text.trim()).map((answer) => ({ text: answer.text, correct: answer.correct, explanation: answer.explanation })), explanation: question.explanation, difficulty: question.difficulty, conceptIds: assessedConcepts(question) })),
   } : staticDetail
   const qs = detail.questions
+  const { record } = useMastery()
   const [idx, setIdx] = useState(0)
   const [answers, setAnswers] = useState<Record<number, number>>({})
   const [checked, setChecked] = useState<Set<number>>(new Set())
@@ -403,6 +458,15 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
   const revealed = checked.has(idx)
   const chosen = answers[idx]
   const last = idx === qs.length - 1
+
+  /** Record what this question demonstrated, once, when its answer is checked. */
+  function checkAnswer() {
+    setChecked((prev) => new Set(prev).add(idx))
+    if (revealed || chosen == null) return
+    const conceptIds = taggedConcepts(q)
+    if (!conceptIds.length) return
+    record({ conceptIds, source: 'interpretation', correct: Boolean(q.options[chosen]?.correct) })
+  }
 
   if (finished) {
     const correct = qs.filter((qq, i) => qq.options[answers[i]]?.correct).length
@@ -521,7 +585,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
               variant="primary"
               size="md"
               disabled={chosen == null}
-              onClick={() => setChecked((prev) => new Set(prev).add(idx))}
+              onClick={checkAnswer}
             >
               Check answer
             </Button>

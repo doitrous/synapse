@@ -3,6 +3,7 @@ import { BarChart3, Brain, Clock3, GaugeCircle, Layers, ListChecks, Table2, Time
 import { bySubject, byType, cohortSize, firstAttempt, leaderboard, studyAllocation, studyByHour, timeManagement, yourPercentile } from '@/data/performance'
 import { getSubject, progress } from '@/data/student'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
+import { ConceptMasteryPanel } from '@/components/performance/ConceptMastery'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { BarList } from '@/components/charts/BarList'
@@ -76,6 +77,8 @@ export function Performance() {
           <KpiTile icon={Trophy} value={`Top ${100 - yourPercentile}%`} label="Cohort rank" sub={`of ${cohortSize} students`} />
           <KpiTile icon={Timer} value={`${timeManagement.avgSeconds}s`} label="Avg / question" sub={`median ${timeManagement.yearMedianSeconds}s`} />
         </div>
+
+        <ConceptMasteryPanel />
 
         <Panel>
           <PanelHeader title="First-attempt accuracy" icon={Table2} hint="With your last five-session trend, vs your Year 3 median" />

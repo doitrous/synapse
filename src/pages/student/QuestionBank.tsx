@@ -22,6 +22,7 @@ import {
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
 import { dueReviews, getSubject } from '@/data/student'
+import { useMastery } from '@/lib/useMastery'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -84,6 +85,7 @@ export function QuestionBank() {
   const [answers, setAnswers] = useState<Record<string, number>>({})
   const [checked, setChecked] = useState<Record<string, boolean>>({})
   const [reviewing, setReviewing] = useState(false)
+  const { record } = useMastery()
   const [elapsed, setElapsed] = useState(0)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
   /** Indexes the student has actually landed on — what separates "omitted" from "unseen". */
@@ -454,6 +456,20 @@ export function QuestionBank() {
   // under the right answer. Only show it when it genuinely says something else.
   const hasSeparateExplanation = Boolean(q.explanation.trim()) && q.explanation.trim() !== correctRationale
 
+  /**
+   * Record what this question demonstrated, once, when its answer is checked.
+   *
+   * `q.conceptIds` is already main-then-related with contextual concepts left
+   * out, so what reaches the ledger is only what the question assessed.
+   */
+  function checkAnswer() {
+    setChecked((c) => ({ ...c, [q.id]: true }))
+    if (checked[q.id] || chosen == null) return
+    const conceptIds = q.conceptIds ?? []
+    if (!conceptIds.length) return
+    record({ conceptIds, source: 'question', correct: Boolean(q.options[chosen]?.correct) })
+  }
+
   function stateFor(i: number): QuestionState {
     const item = session[i]
     const picked = answers[item.id]
@@ -655,7 +671,7 @@ export function QuestionBank() {
               variant="primary"
               size="md"
               disabled={chosen == null}
-              onClick={() => setChecked((c) => ({ ...c, [q.id]: true }))}
+              onClick={checkAnswer}
             >
               Check answer
             </Button>
