@@ -40,6 +40,8 @@ import { SearchInput, Select } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Icon } from '@/components/ui/Icon'
+import { Checkbox } from '@/components/ui/Checkbox'
+import { partitionByReadiness, publishReadiness } from '@/data/publishReadiness'
 import { ContentEditorDialog, ConfirmDeleteDialog } from '@/components/admin/ContentEditorDialog'
 import { QuestionEditorDialog } from '@/components/admin/QuestionEditorDialog'
 import { LibraryArticleEditorDialog } from '@/components/admin/LibraryArticleEditorDialog'
@@ -185,6 +187,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   const [editing, setEditing] = useState<ManagedContentItem | null>(null)
   const [deleting, setDeleting] = useState<ManagedContentItem | null>(null)
   const [notice, setNotice] = useState<string | null>(null)
+  const [selected, setSelected] = useState<Set<string>>(() => new Set())
+  const [forcePublish, setForcePublish] = useState(false)
   const [reports] = usePersistentState<ContentReport[]>(REPORT_STORAGE_KEY, initialContentReports)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
   // Locked catalogue routes must be driven by the route prop, not by the
@@ -316,6 +320,37 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     setNotice(`“${item.title}” sent for review.`)
   }
 
+  /* ---- Bulk selection ---------------------------------------------------- */
+
+  const selectedItems = useMemo(() => rows.filter((item) => selected.has(item.id)), [rows, selected])
+  const readiness = useMemo(() => partitionByReadiness(selectedItems), [selectedItems])
+  const someShownSelected = selectedItems.length > 0
+  const allShownSelected = rows.length > 0 && selectedItems.length === rows.length
+
+  /** Selection only ever refers to rows the current filters actually show. */
+  const setSelection = (ids: string[], on: boolean) =>
+    setSelected((current) => {
+      const next = new Set(current)
+      ids.forEach((id) => (on ? next.add(id) : next.delete(id)))
+      return next
+    })
+
+  /** Apply a status to every selected item in one write. */
+  function applyStatus(targets: ManagedContentItem[], status: Status, verb: string) {
+    if (!targets.length) return
+    const ids = new Set(targets.map((item) => item.id))
+    const at = new Date().toISOString()
+    setItems((current) => current.map((item) => (ids.has(item.id) ? { ...item, status, updatedAt: at } : item)))
+    setSelected(new Set())
+    setNotice(`${targets.length} ${targets.length === 1 ? 'item' : 'items'} ${verb}.`)
+  }
+
+  function publishSelected(includeBlocked: boolean) {
+    const targets = includeBlocked ? selectedItems.filter((item) => item.status !== 'Published') : readiness.ready
+    applyStatus(targets, 'Published', 'published')
+    setForcePublish(false)
+  }
+
   function deleteItem() {
     if (!deleting) return
     const deleted = deleting
@@ -397,10 +432,46 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
             <span className="ml-auto tnum font-mono text-[11.5px] text-ink-3">{rows.length} shown</span>
           </div>
 
+          {/* Bulk actions. Sticky so the selection stays actionable while scrolling
+              a long review queue, which is the case this exists for. */}
+          {someShownSelected && (
+            <div className="sticky top-0 z-20 flex flex-wrap items-center gap-2 border-b border-accent-line bg-accent-tint/70 px-4 py-2.5 backdrop-blur">
+              <span className="text-[12.5px] font-semibold text-accent-strong">
+                {selectedItems.length} selected
+              </span>
+              <span className="text-[12px] text-ink-2">
+                {readiness.ready.length} of {selectedItems.length} can publish
+                {readiness.blocked.length > 0 && ` · ${readiness.blocked.length} blocked`}
+              </span>
+              <div className="ms-auto flex flex-wrap items-center gap-2">
+                <Button
+                  variant="primary"
+                  size="sm"
+                  iconLeft={CircleCheck}
+                  disabled={readiness.ready.length === 0 && readiness.blocked.length === 0}
+                  onClick={() => (readiness.ready.length > 0 ? publishSelected(false) : setForcePublish(true))}
+                >
+                  {readiness.ready.length > 0 ? `Publish ${readiness.ready.length}` : 'Publish…'}
+                </Button>
+                <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'In review'), 'In review', 'sent for review')}>Send for review</Button>
+                <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'Archived'), 'Archived', 'archived')}>Archive</Button>
+                <Button variant="ghost" size="sm" onClick={() => setSelected(new Set())}>Clear</Button>
+              </div>
+            </div>
+          )}
+
           <Table>
             <thead>
               <tr>
-                <Th className="pl-4">Content</Th>
+                <Th className="w-10 pl-4">
+                  <Checkbox
+                    label={allShownSelected ? 'Clear selection' : `Select all ${rows.length} shown`}
+                    checked={allShownSelected}
+                    indeterminate={someShownSelected && !allShownSelected}
+                    onChange={(on) => setSelection(rows.map((item) => item.id), on)}
+                  />
+                </Th>
+                <Th>Content</Th>
                 <Th>Subject</Th>
                 <Th>Owner & updated</Th>
                 <Th>Status</Th>
@@ -413,7 +484,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 return (
                   <Fragment key={group.key}>
                     <tr className="border-t border-line bg-surface-2/70">
-                      <td colSpan={5} className="px-2 py-0">
+                      <td colSpan={6} className="px-2 py-0">
                         <button
                           type="button"
                           onClick={() => toggleGroup(group.key)}
@@ -432,7 +503,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                       </td>
                     </tr>
                     {isTaxonomyKind && addingTopicFor === group.key && (
-                      <tr><td colSpan={5} className="px-4 py-2 ps-10">
+                      <tr><td colSpan={6} className="px-4 py-2 ps-10">
                         <form className="flex items-center gap-2" onSubmit={(e) => { e.preventDefault(); addTopic(group.key) }}>
                           <SearchInput value={newTopicName} onChange={(e) => setNewTopicName(e.target.value)} placeholder="New topic name…" className="w-64" />
                           <Button type="submit" variant="primary" size="sm">Add</Button>
@@ -443,7 +514,15 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                     {!groupCollapsed && group.subs.map((sub) => (
                       <Fragment key={sub.key}>
                         <tr className="bg-surface-2/25">
-                          <td colSpan={5} className="px-4 py-1.5 ps-10 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+                          <td className="py-1.5 pl-4">
+                            <Checkbox
+                              label={`Select all in ${sub.label}`}
+                              checked={sub.items.every((item) => selected.has(item.id))}
+                              indeterminate={sub.items.some((item) => selected.has(item.id)) && !sub.items.every((item) => selected.has(item.id))}
+                              onChange={(on) => setSelection(sub.items.map((item) => item.id), on)}
+                            />
+                          </td>
+                          <td colSpan={5} className="px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                             {isTaxonomyKind
                               ? <EditableLabel value={sub.label} onSave={(v) => renameTopic(group.key, sub.label, v)} className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3" />
                               : sub.label}
@@ -452,11 +531,27 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                         </tr>
                         {sub.items.map((item) => {
                           const subject = getSubject(item.subjectId)
+                          const verdict = publishReadiness(item)
                           return (
-                            <Tr key={item.id} hover>
-                              <Td className="max-w-md pl-4">
+                            <Tr key={item.id} hover className={selected.has(item.id) ? 'bg-accent-tint/25' : undefined}>
+                              <Td className="pl-4">
+                                <Checkbox
+                                  label={`Select “${item.title}”`}
+                                  checked={selected.has(item.id)}
+                                  onChange={(on) => setSelection([item.id], on)}
+                                />
+                              </Td>
+                              <Td className="max-w-md">
                                 <p className="line-clamp-2 font-medium leading-snug text-ink">{item.title}</p>
-                                <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{itemSummary(item)}</p>
+                                <p className="mt-0.5 flex items-center gap-1.5 truncate text-[11.5px] text-ink-3">
+                                  {itemSummary(item)}
+                                  {/* Why this one cannot go live, shown where the decision is made. */}
+                                  {item.status !== 'Published' && !verdict.ready && (
+                                    <span className="inline-flex shrink-0 items-center rounded border border-warning/30 bg-warning-tint/60 px-1.5 py-px text-[10.5px] font-medium text-warning">
+                                      {verdict.reason}
+                                    </span>
+                                  )}
+                                </p>
                               </Td>
                               <Td>
                                 <span className="inline-flex items-center gap-1.5 whitespace-nowrap text-[12.5px] text-ink-2"><SubjectDot id={subject.id} />{subject.short}</span>
@@ -484,7 +579,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
               })}
               {rows.length === 0 && (
                 <tr>
-                  <td colSpan={5} className="px-4 py-14 text-center">
+                  <td colSpan={6} className="px-4 py-14 text-center">
                     <Icon icon={Search} size={20} className="mx-auto text-ink-3" />
                     <p className="mt-2 text-[13px] font-medium text-ink">No matching content</p>
                     <p className="mt-1 text-[12px] text-ink-3">Change the search or status filter, or add a new item.</p>
@@ -545,6 +640,40 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       ) : (
         <ContentEditorDialog open={editorOpen} kind={activeKind} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       )}
+      {/* Publishing past the gate is allowed, but not quietly: the dialog names
+          the count and says what a student will actually see. */}
+      {forcePublish && (
+        <div className="fixed inset-0 z-50 grid place-items-center p-4" role="dialog" aria-modal="true" aria-labelledby="force-publish-title">
+          <button type="button" className="absolute inset-0 bg-ink/30" aria-label="Cancel" onClick={() => setForcePublish(false)} />
+          <Panel className="animate-pop relative w-full max-w-lg p-5 shadow-pop">
+            <div className="flex items-start gap-3">
+              <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-warning-tint text-warning"><Icon icon={Flag} size={17} /></span>
+              <div className="min-w-0">
+                <h2 id="force-publish-title" className="font-serif text-[18px] font-semibold text-ink">Publish without student-visible content?</h2>
+                <p className="mt-2 text-[13px] leading-relaxed text-ink-2">
+                  {readiness.blocked.length} of the {selectedItems.length} selected {selectedItems.length === 1 ? 'item has' : 'items have'} no
+                  verified content to show. Published now, {readiness.blocked.length === 1 ? 'it' : 'they'} will appear in the student library as a
+                  title and summary with an empty body.
+                </p>
+                <ul className="mt-3 max-h-40 space-y-1 overflow-y-auto rounded-lg border border-line bg-surface-2/50 p-2.5">
+                  {readiness.blocked.slice(0, 8).map(({ item, reason }) => (
+                    <li key={item.id} className="flex items-center gap-2 text-[12px] text-ink-2">
+                      <span className="min-w-0 flex-1 truncate">{item.title}</span>
+                      <span className="shrink-0 font-medium text-warning">{reason}</span>
+                    </li>
+                  ))}
+                  {readiness.blocked.length > 8 && <li className="text-[11.5px] text-ink-3">…and {readiness.blocked.length - 8} more</li>}
+                </ul>
+              </div>
+            </div>
+            <div className="mt-5 flex justify-end gap-2">
+              <Button variant="secondary" size="md" onClick={() => setForcePublish(false)}>Cancel</Button>
+              <Button variant="primary" size="md" onClick={() => publishSelected(true)}>Publish anyway</Button>
+            </div>
+          </Panel>
+        </div>
+      )}
+
       <ConfirmDeleteDialog item={deleting} onClose={() => setDeleting(null)} onConfirm={deleteItem} />
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} reporterRole="Admin" onClose={() => setReportTarget(null)} onSubmitted={() => setNotice('Question reported for editorial review.')} />
     </PageContainer>

@@ -2,6 +2,7 @@ import { Fragment, useMemo, useState } from 'react'
 import { Plus, Trash2, ArrowRight, Upload, Search, CircleCheck, TriangleAlert, Tag, Pencil, Check, X, ChevronDown, ChevronRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
+import { ConceptNavigator } from '@/components/admin/ConceptNavigator'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
@@ -12,6 +13,7 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import { subjects, getSubject } from '@/data/student'
 import { libraryTopics } from '@/data/library'
 import { useTaxonomyTree, renameTaxonomyNode } from '@/data/taxonomyStore'
+import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { cn } from '@/lib/cn'
 import { MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 
@@ -44,6 +46,7 @@ export function RelationshipsSetup() {
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
+  const [medicalTaxonomy] = useMedicalTaxonomy()
   const [customTypes, setCustomTypes] = usePersistentState<string[]>(RELATION_TYPES_KEY, [])
   const allTypes = [...RELATION_TYPES, ...customTypes.filter((t) => !RELATION_TYPES.includes(t as ConceptRelationType))]
   const [query, setQuery] = useState('')
@@ -62,6 +65,8 @@ export function RelationshipsSetup() {
   const [editingId, setEditingId] = useState<string | null>(null)
   const [editDraft, setEditDraft] = useState<{ sourceId: string; type: string; targetId: string }>({ sourceId: '', type: '', targetId: '' })
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
+  /** Concept selected in the navigator; narrows the table and seeds the form. */
+  const [focusId, setFocusId] = useState<string | null>(null)
   const [sourcePickerOpen, setSourcePickerOpen] = useState(false)
   const [pickerQuery, setPickerQuery] = useState('')
   const [targetPickerOpen, setTargetPickerOpen] = useState(false)
@@ -106,6 +111,10 @@ export function RelationshipsSetup() {
     const q = query.trim().toLowerCase()
     return graph.relations
       .filter((rel) => {
+        // A concept picked in the navigator narrows the table to its own
+        // relations, in either direction — that is what makes a graph this size
+        // workable rather than one long list.
+        if (focusId && rel.sourceId !== focusId && rel.targetId !== focusId) return false
         if (filterType !== 'all' && rel.type !== filterType) return false
         if (!q) return true
         return `${conceptLabel(rel.sourceId)} ${rel.type} ${conceptLabel(rel.targetId)} ${rel.sourceId} ${rel.targetId}`.toLowerCase().includes(q)
@@ -119,7 +128,7 @@ export function RelationshipsSetup() {
         return la !== 0 ? la : conceptLabel(a.targetId).localeCompare(conceptLabel(b.targetId))
       })
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [graph.relations, query, filterType, graph.concepts])
+  }, [graph.relations, query, filterType, graph.concepts, focusId])
 
   // Group the filtered rows into System → Topic for the collapsible list.
   const grouped = useMemo(() => {
@@ -257,6 +266,30 @@ export function RelationshipsSetup() {
         </div>
       )}
 
+      <div className="grid items-start gap-4 lg:grid-cols-[minmax(18rem,21rem)_minmax(0,1fr)]">
+        {/* Navigator: pick a concept to work on its relations only. */}
+        <ConceptNavigator
+          title="Browse concepts"
+          graph={graph}
+          taxonomy={taxonomy}
+          medicalTaxonomy={medicalTaxonomy}
+          selectedId={focusId}
+          onSelect={(concept) => {
+            setFocusId(concept ? concept.id : null)
+            // Working on a concept almost always means adding a relation from it.
+            if (concept) setSource(concept.id)
+          }}
+          badgeFor={(concept) => {
+            const count = graph.relations.filter((rel) => rel.sourceId === concept.id || rel.targetId === concept.id).length
+            return <span className="tnum shrink-0 font-mono text-[10px] text-ink-3">{count}</span>
+          }}
+          footer={focusId
+            ? <button type="button" onClick={() => setFocusId(null)} className="font-medium text-accent-strong hover:underline">Showing {conceptLabel(focusId)} · show all</button>
+            : <><span className="tnum font-mono font-medium text-ink-2">{graph.relations.length}</span> relationships across <span className="tnum font-mono font-medium text-ink-2">{graph.concepts.length}</span> concepts</>}
+          className="lg:sticky lg:top-[4.5rem] lg:max-h-[calc(100dvh-6rem)]"
+        />
+
+        <div className="min-w-0">
       {/* Add relationship */}
       <Panel className="mb-4">
         <PanelHeader title="Add a relationship" icon={Plus} hint="One source → one or more targets; optionally both directions" />
@@ -451,6 +484,8 @@ export function RelationshipsSetup() {
           </tbody>
         </Table>
       </Panel>
+        </div>
+      </div>
 
       {/* Bulk import dialog */}
       {importing && (

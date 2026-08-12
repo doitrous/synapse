@@ -1,8 +1,11 @@
-import { useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FolderOpen, ChevronRight, Network, GraduationCap } from 'lucide-react'
 import { ControlDashboard, type ContentScope } from './ControlDashboard'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { scopeUniversities, scopeYear } from '@/data/universities'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 
@@ -18,9 +21,28 @@ export function ResourcesSetup() {
   const [universities] = useUniversityCatalogue()
   const [selection, setSelection] = useState<Selection>({})
   const [openUni, setOpenUni] = useState<string | null>(null)
+  const [items] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
 
   const scope: ContentScope = { universityId: selection.universityId, year: selection.year }
   const isMaster = !selection.universityId && !selection.year
+
+  const resources = useMemo(() => items.filter((item) => item.kind === 'resource'), [items])
+
+  /**
+   * Counts per branch, using the same scope test the catalogue applies — so a
+   * number in the rail always matches what opening it shows. `review` is the
+   * number that matters day to day: it says where the work is.
+   */
+  const countsFor = useCallback((universityId?: string, year?: string) => {
+    const inScope = resources.filter((item) => {
+      if (universityId && !scopeUniversities(item.id).includes(universityId)) return false
+      if (year && scopeYear(item.subjectId) !== year) return false
+      return true
+    })
+    return { total: inScope.length, review: inScope.filter((item) => item.status === 'In review').length }
+  }, [resources])
+
+  const master = countsFor()
 
   return (
     <div className="flex min-h-[calc(100dvh-4rem)] flex-col lg:flex-row">
@@ -35,8 +57,14 @@ export function ResourcesSetup() {
           )}
         >
           <Icon icon={FolderOpen} size={16} />
-          Master Resources & Media
+          <span className="flex-1">Master Resources & Media</span>
+          <span className="tnum font-mono text-[11px] text-ink-3">{master.total}</span>
         </button>
+        {master.review > 0 && (
+          <p className="mt-1.5 px-3 text-[11.5px] text-warning">
+            <span className="tnum font-mono font-semibold">{master.review}</span> awaiting review
+          </p>
+        )}
 
         <p className="mt-4 mb-1.5 px-3 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">By university & year</p>
         <ul className="space-y-0.5">
@@ -64,7 +92,9 @@ export function ResourcesSetup() {
                   >
                     <Icon icon={GraduationCap} size={14} />
                     <span className="font-medium">{u.short}</span>
-                    <span className="truncate text-[11.5px] text-ink-3">{u.name}</span>
+                    <span className="min-w-0 flex-1 truncate text-[11.5px] text-ink-3">{u.name}</span>
+                    {countsFor(u.id).review > 0 && <span className="tnum shrink-0 rounded-full bg-warning-tint px-1.5 font-mono text-[10px] font-semibold text-warning">{countsFor(u.id).review}</span>}
+                    <span className="tnum shrink-0 font-mono text-[10.5px] text-ink-3">{countsFor(u.id).total}</span>
                   </button>
                 </div>
                 {uniOpen && (

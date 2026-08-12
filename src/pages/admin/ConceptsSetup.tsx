@@ -1,12 +1,13 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Braces, BookOpenText, Plus, Save, Trash2, ChevronRight, Check, Upload, TriangleAlert, Pencil, ExternalLink, FileText, Database } from 'lucide-react'
+import { Braces, BookOpenText, Plus, Save, Trash2, Check, Upload, TriangleAlert, ExternalLink, FileText, Database } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
+import { ConceptNavigator } from '@/components/admin/ConceptNavigator'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
-import { Field, SearchInput, Select, TextInput, Textarea } from '@/components/ui/Field'
+import { Field, Select, TextInput, Textarea } from '@/components/ui/Field'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import {
@@ -15,26 +16,14 @@ import {
   type Concept,
   type ConceptGraph,
 } from '@/data/conceptGraph'
-import { allSubtopics, libraryTopics } from '@/data/library'
-import { subjects } from '@/data/student'
+import { libraryTopics } from '@/data/library'
 import { useTaxonomyTree, type TaxSysNode } from '@/data/taxonomyStore'
 import { TaxonomyPlacementPicker, type TaxonomyPlacement } from '@/components/admin/TaxonomyPlacementPicker'
 import { MedicalTaxonomyPlacementPicker } from '@/components/admin/MedicalTaxonomyPlacementPicker'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
-import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { universities } from '@/data/universities'
 import { MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore, type ResourceRecord } from '@/data/medicalEvidence'
 import { apiOpenFile } from '@/lib/api'
-
-/** Resolve a concept's subject + topic — explicit fields first, else via articleIds. */
-function scopeOf(concept: Concept): { subjectId: string; topicId: string } {
-  if (concept.subjectId && concept.topicId) return { subjectId: concept.subjectId, topicId: concept.topicId }
-  for (const articleId of concept.articleIds) {
-    const sub = allSubtopics.find((s) => s.id === articleId)
-    if (sub) return { subjectId: sub.subjectId, topicId: sub.topicId }
-  }
-  return { subjectId: concept.subjectId ?? 'unassigned', topicId: concept.topicId ?? 'unassigned' }
-}
 
 const slug = (value: string) =>
   value.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'concept'
@@ -178,74 +167,6 @@ function ConceptSources({ concept, evidence }: { concept: Concept; evidence: Med
   )
 }
 
-/** A node in the concept placement tree. */
-interface TreeNode { key: string; label: string; level: string; nodeId: string; children: Map<string, TreeNode>; concepts: Concept[] }
-
-function countIn(node: TreeNode): number {
-  return node.concepts.length + [...node.children.values()].reduce((n, c) => n + countIn(c), 0)
-}
-
-/** Recursive collapsible branch with an editable label (topic/subtopic/…). */
-function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId, onSelect, onRename }: {
-  node: TreeNode
-  depth: number
-  expanded: Record<string, boolean>
-  onToggle: (key: string) => void
-  selectedId: string | null
-  onSelect: (c: Concept) => void
-  onRename: (level: string, nodeId: string, title: string) => void
-}) {
-  const [editing, setEditing] = useState(false)
-  const [value, setValue] = useState(node.label)
-  const open = expanded[node.key] ?? true
-  const total = countIn(node)
-  const canRename = node.level !== 'system' && node.level !== 'canonical' && node.nodeId !== 'unassigned'
-  return (
-    <div style={{ paddingInlineStart: depth === 0 ? 0 : 10 }} className={depth === 0 ? '' : 'border-s border-line-2'}>
-      <div className="group/branch flex items-center gap-1.5 rounded-md px-2 py-1.5 hover:bg-inset/50">
-        <button onClick={() => onToggle(node.key)} className="grid size-5 place-items-center text-ink-3 hover:text-ink" aria-expanded={open}>
-          <Icon icon={ChevronRight} size={14} className={cn('transition-transform', open && 'rotate-90')} />
-        </button>
-        {editing ? (
-          <input
-            autoFocus value={value} onChange={(e) => setValue(e.target.value)}
-            onBlur={() => { setEditing(false); if (value.trim() && value !== node.label) onRename(node.level, node.nodeId, value.trim()) }}
-            onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); if (e.key === 'Escape') { setValue(node.label); setEditing(false) } }}
-            className="flex-1 rounded border border-accent bg-surface px-1.5 py-0.5 text-[13px] font-semibold text-ink outline-none"
-          />
-        ) : (
-          <span className={cn('flex-1 truncate font-semibold text-ink', depth === 0 ? 'text-[13px]' : 'text-[12.5px]')}>{node.label}</span>
-        )}
-        {canRename && !editing && (
-          <button onClick={() => { setValue(node.label); setEditing(true) }} title="Rename" className="grid size-6 place-items-center rounded text-ink-3 opacity-0 hover:bg-inset hover:text-ink group-hover/branch:opacity-100"><Icon icon={Pencil} size={12} /></button>
-        )}
-        <span className="tnum font-mono text-[10.5px] text-ink-3">{total}</span>
-      </div>
-      {open && (
-        <div className="ms-2.5">
-          {[...node.children.values()].map((child) => (
-            <ConceptTreeBranch key={child.key} node={child} depth={depth + 1} expanded={expanded} onToggle={onToggle} selectedId={selectedId} onSelect={onSelect} onRename={onRename} />
-          ))}
-          {node.concepts.length > 0 && (
-            <ul className="ms-2 space-y-0.5 border-s border-line-2 ps-2">
-              {node.concepts.map((concept) => (
-                <li key={concept.id}>
-                  <button
-                    onClick={() => onSelect(concept)}
-                    className={cn('flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left transition-colors', selectedId === concept.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
-                  >
-                    <span className="truncate text-[12.5px] font-medium">{concept.label}</span>
-                    {!concept.definition && <Badge tone="warning">No definition</Badge>}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      )}
-    </div>
-  )
-}
 
 function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; onPatch: (next: Partial<Concept>) => void }) {
   const list = (text: string) => text.split(/[\n,]/).map((item) => item.trim()).filter(Boolean)
@@ -311,9 +232,6 @@ export function ConceptsSetup() {
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [medicalTaxonomy] = useMedicalTaxonomy()
-  const medicalIndex = useMemo(() => indexMedicalTaxonomy(medicalTaxonomy), [medicalTaxonomy])
-  const [query, setQuery] = useState('')
-  const [expanded, setExpanded] = useState<Record<string, boolean>>({})
   const [selectedId, setSelectedId] = useState<string | null>(graph.concepts[0]?.id ?? null)
   const [creating, setCreating] = useState(false)
   const [importing, setImporting] = useState(false)
@@ -364,63 +282,6 @@ export function ConceptsSetup() {
     return []
   }
 
-  const q = query.trim().toLowerCase()
-
-  /** Resolve a concept's placement path (system → … → deepest) from the taxonomy. */
-  const pathOf = (concept: Concept): TreeNode[] => {
-    if (concept.primaryNodeId && medicalIndex.byId.has(concept.primaryNodeId)) {
-      return medicalIndex.lineage(concept.primaryNodeId).map((node) => ({ key: `canonical:${node.id}`, label: node.title, level: 'canonical', nodeId: node.id, children: new Map(), concepts: [] }))
-    }
-    const legacy = scopeOf(concept)
-    const sys = taxonomy.find((s) => s.id === concept.subjectId || s.sysId === concept.systemId) || taxonomy.find((s) => s.id === legacy.subjectId)
-    if (!sys) return [{ key: 'sys:unassigned', label: 'Unassigned', level: 'system', nodeId: 'unassigned', children: new Map(), concepts: [] }]
-    const path: TreeNode[] = [{ key: `sys:${sys.id}`, label: sys.name, level: 'system', nodeId: sys.id, children: new Map(), concepts: [] }]
-    const top = sys.topics.find((t) => t.tpcId === concept.topicTagId) || sys.topics.find((t) => t.id === legacy.topicId)
-    if (top) {
-      path.push({ key: `tpc:${top.id}`, label: top.title, level: 'topic', nodeId: top.id, children: new Map(), concepts: [] })
-      const sub = top.subs.find((s) => s.subId === concept.subtopicId)
-      if (sub) {
-        path.push({ key: `sub:${sub.id}`, label: sub.title, level: 'subtopic', nodeId: sub.id, children: new Map(), concepts: [] })
-        const mic = sub.micros.find((m) => m.micId === concept.microtopicId)
-        if (mic) {
-          path.push({ key: `mic:${mic.id}`, label: mic.title, level: 'microtopic', nodeId: mic.id, children: new Map(), concepts: [] })
-          const nan = mic.nanos.find((n) => n.nanId === concept.nanotopicId)
-          if (nan) path.push({ key: `nan:${nan.id}`, label: nan.title, level: 'nanotopic', nodeId: nan.id, children: new Map(), concepts: [] })
-        }
-      }
-    }
-    return path
-  }
-
-  const tree = useMemo(() => {
-    const filtered = graph.concepts.filter(
-      (c) => !q || c.label.toLowerCase().includes(q) || c.aliases.some((a) => a.toLowerCase().includes(q)) || c.definition.toLowerCase().includes(q),
-    )
-    const roots = new Map<string, TreeNode>()
-    filtered.forEach((concept) => {
-      const path = pathOf(concept)
-      let level = roots
-      let node: TreeNode | undefined
-      path.forEach((step) => {
-        if (!level.has(step.key)) level.set(step.key, { ...step, children: new Map(), concepts: [] })
-        node = level.get(step.key)!
-        level = node.children
-      })
-      node?.concepts.push(concept)
-    })
-    // Order roots by subjects order, unassigned last.
-    const order = [...medicalIndex.roots('system'), ...medicalIndex.roots('discipline'), ...medicalIndex.roots('skills'), ...medicalIndex.roots('knowledge')].map((node) => `canonical:${node.id}`)
-    order.push(...subjects.map((s) => `sys:${s.id}`), 'sys:unassigned')
-    return [...roots.values()].sort((a, b) => {
-      const ai = order.indexOf(a.key); const bi = order.indexOf(b.key)
-      if (ai === -1 && bi === -1) return a.label.localeCompare(b.label)
-      if (ai === -1) return 1
-      if (bi === -1) return -1
-      return ai - bi
-    })
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [graph.concepts, medicalIndex, q, taxonomy])
-
   /** Rename a taxonomy branch (topic/subtopic/microtopic/nanotopic) live. */
   function renameBranch(level: string, nodeId: string, title: string) {
     const t = title.trim()
@@ -449,7 +310,6 @@ export function ConceptsSetup() {
     }))
   }
 
-  const withQuestions = () => graph.concepts.length
   const conceptLabel = (id: string) => graph.concepts.find((c) => c.id === id)?.label ?? id
 
   function selectConcept(concept: Concept) {
@@ -593,39 +453,25 @@ export function ConceptsSetup() {
         actions={<Link to="/admin/concepts/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link>}
       />
 
-      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)]">
-        {/* ---- Concept tree by subject → topic ---- */}
-        <Panel className="flex min-h-[24rem] flex-col">
-          <div className="flex flex-wrap items-center gap-2 border-b border-line p-3">
-            <SearchInput value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search concepts…" className="min-w-0 flex-1" />
-            <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)}>New concept</Button>
-          </div>
-          <div className="flex-1 overflow-y-auto p-2">
-            {tree.length === 0 ? (
-              <p className="px-2 py-10 text-center text-[13px] text-ink-3">No concepts match “{query}”.</p>
-            ) : (
-              tree.map((node) => (
-                <ConceptTreeBranch
-                  key={node.key}
-                  node={node}
-                  depth={0}
-                  expanded={expanded}
-                  onToggle={(key) => setExpanded((p) => ({ ...p, [key]: !(p[key] ?? true) }))}
-                  selectedId={selectedId}
-                  onSelect={selectConcept}
-                  onRename={renameBranch}
-                />
-              ))
-            )}
-          </div>
-          <div className="border-t border-line px-4 py-2.5 text-[12px] text-ink-3">
-            <span className="tnum font-mono font-medium text-ink-2">{withQuestions()}</span> concepts ·{' '}
+      <div className="grid items-start gap-4 lg:grid-cols-[minmax(19rem,22rem)_minmax(0,1fr)]">
+        {/* ---- Navigator: stays put while the editor scrolls ---- */}
+        <ConceptNavigator
+          graph={graph}
+          taxonomy={taxonomy}
+          medicalTaxonomy={medicalTaxonomy}
+          selectedId={selectedId}
+          onSelect={(concept) => concept && selectConcept(concept)}
+          onRename={renameBranch}
+          action={<Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="w-full">New concept</Button>}
+          footer={<>
+            <span className="tnum font-mono font-medium text-ink-2">{graph.concepts.length}</span> concepts ·{' '}
             <span className="tnum font-mono font-medium text-ink-2">{graph.concepts.filter((c) => !c.definition).length}</span> without a definition
-          </div>
-        </Panel>
+          </>}
+          className="lg:sticky lg:top-[4.5rem] lg:max-h-[calc(100dvh-6rem)]"
+        />
 
         {/* ---- Editor ---- */}
-        <div className="space-y-4 lg:sticky lg:top-[4.5rem]">
+        <div className="space-y-4">
           {selected ? (
             <Panel>
               <PanelHeader
