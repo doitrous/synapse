@@ -7,8 +7,8 @@ Parent plan: [MASTER-PLAN.md](../MASTER-PLAN.md).
 |---|---|
 | **Status** | Not started |
 | **Blocked by** | `GATE-TAX-001`. `GATE-PLATFORM-001` **passed** 2026-08-12 |
-| **Active task** | `SYS-FND-CONCEPT-004` (Not started) |
-| **Done** | `INVENTORY-001` · `SOURCE-001` · `CONCEPT-001` · `CONCEPT-002` · `ARTICLE-001` · `CONCEPT-003` · `ARTICLE-002` — twelve batches, simulated clean; **8 of 56 planned articles** |
+| **Active task** | `SYS-FND-CONCEPT-007` (Not started) — T05 general microbiology |
+| **Done** | `INVENTORY-001` · `SOURCE-001` · `CONCEPT-001..006` · `ARTICLE-001..005` — 24 batches, simulated clean; **29 of 56 planned articles**; topics T01–T04 complete |
 | **Baseline date** | 2026-08-12 at commit `2df5853` |
 
 ---

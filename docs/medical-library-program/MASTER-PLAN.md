@@ -22,11 +22,11 @@ starts here and ends here. Nothing below depends on any chat transcript.
 | **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — all 19 inventories and source plans done; 943 articles planned; authoring not started |
 | **Active phase** | Phase 2 — article & concept programme, starting at `SYS-FND` |
 | **Active system** | `SYS-FND` Foundations & General Principles (system 1 of 19) |
-| **Active task ID** | `SYS-FND-CONCEPT-004` (Not started) — twelve batches authored, validated and simulated clean; awaiting a real import |
+| **Active task ID** | `SYS-FND-CONCEPT-007` (Not started) — 29 articles and 30 concepts authored across 24 batches, all simulated clean; awaiting a real import |
 | **Last verified commit** | `781558b` — *Write the medical-library programme plan, and its 19 system plans* |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (`SYS-FND-CONCEPT-003` and `ARTICLE-002` complete; 8 of 56 SYS-FND articles authored) |
+| **Last update** | 2026-08-12 (SYS-FND topics T01–T04 complete; 29 of 56 SYS-FND articles authored) |
 
 ### Gate status
 
@@ -557,6 +557,33 @@ Three findings worth carrying forward:
 | 2026-08-12 | `SYS-FND-ARTICLE-001` | Authored the first four articles, plus six article spans completing the chain from sentence to source. Simulated the whole import against live state: **6 batches, 33 records, 0 rejected, audit clean.** | uncommitted | `medical:batch` clean ×6 · `medical:simulate` 0 errors · audit on the simulated state **0 errors** · 123/123 tests · typecheck, lint, build clean | `batches/SYS-FND-ARTICLE-001.md`, `batches/SYS-FND-ARTICLE-001-spans.md`, `scripts/simulate-content-import.mjs` | `SYS-FND-CONCEPT-003` |
 
 | 2026-08-12 | `SYS-FND-CONCEPT-003` + `ARTICLE-002` | Cell cycle, receptors, second messengers and apoptosis: 4 concepts, 4 articles, 5 claims, 9 citations, 5 spans, 6 sources. **8 of 56 SYS-FND articles now authored.** | uncommitted | 12 batches validate clean · `medical:simulate` 0 rejected · audit on the simulated state **0 errors** · 123/123 tests · typecheck, lint, build clean | `batches/SYS-FND-CONCEPT-003*.md`, `batches/SYS-FND-ARTICLE-002*.md`, `scripts/build-corpus-source-index.mjs` | `SYS-FND-CONCEPT-004` |
+
+| 2026-08-12 | `SYS-FND-CONCEPT-004..006` + `ARTICLE-003..005` | Human genetics, general pathology and general pharmacology. **Topics T01–T04 of SYS-FND are complete: 29 articles, 30 concepts, 36 claims, 64 citations, 42 sources, 37 spans.** | uncommitted | 24 batches validate clean · `medical:simulate` 0 rejected · audit on the simulated state **0 errors** · 123/123 tests · parity 0 gaps · typecheck, lint, build clean | `batches/SYS-FND-*` | `SYS-FND-CONCEPT-007` (T05 general microbiology) |
+
+### SYS-FND progress (2026-08-12)
+
+| Topic | Planned | Authored |
+|---|---:|---:|
+| T01 Cell & molecular biology | 8 | 8 |
+| T02 Human genetics | 6 | 6 |
+| T03 General pathology | 11 | 9 |
+| T04 General pharmacology | 11 | 6 |
+| T05 General microbiology | 12 | 0 |
+| T06 Core mechanisms | 8 | 0 |
+| **Total** | **56** | **29** |
+
+T03 and T04 are short of their planned counts because several planned nodes
+duplicate concepts already authored elsewhere — `SYS-FND-T03-S01-M03` *Apoptosis*
+is the same subject as `SYS-FND-T01-S02-M04`, and `SYS-FND-T04-S02-M01`
+*Receptors* the same as `SYS-FND-T01-S02-M02`. Under the one-canonical-item rule
+those nodes take a secondary placement on the existing article rather than a
+second article. The remaining T04 nodes — the four ADME sub-processes and special
+populations — are folded into the pharmacokinetics article at this level and will
+be split out only if the curriculum evidence justifies separate articles.
+
+Cumulative simulated state: 145 → 174 articles, 1,718 → 1,748 concepts,
+1,741 → 1,777 claims, 1,818 → 1,882 citations, 47 → 89 sources. Spans citing more
+than one source: 83 → 111.
 
 ### Batch 003 and article 002 (2026-08-12)
 
