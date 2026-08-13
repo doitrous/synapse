@@ -14,6 +14,7 @@ import { apiAuthGate, bypassEnabled, requireAdmin, requireAuthenticated } from '
 import {
   listUsers, getUser, grantSubscription, cancelSubscription, setAccessStatus,
   requestPasswordReset, recordAction, readReason, passwordResetConfigured,
+  getUserActivity, setRole,
 } from './accounts.js'
 import { toMariaDbDate } from './datetime.js'
 
@@ -292,6 +293,35 @@ app.post('/api/admin/users/:id/password-reset', requireAdmin, wrap(async (req, r
   if (result.error === 'no_email') return res.status(409).json({ error: 'this account has no email address to send a reset to' })
   if (result.error === 'supabase_rejected') return res.status(502).json({ error: `Supabase refused the request (${result.status})` })
   if (result.error) return res.status(404).json({ error: result.error })
+  res.json(result)
+}))
+
+app.get('/api/admin/users/:id/activity', requireAdmin, wrap(async (req, res) => {
+  // Keyed on the Supabase user id, because `user_state` is written by the app
+  // under the signed-in identity. A roster row that has never signed in owns no
+  // state, and reports none rather than erroring.
+  const user = await getUser(req.params.id)
+  if (!user) return res.status(404).json({ error: 'user not found' })
+  res.json(await getUserActivity(user.identity?.userId ?? null))
+}))
+
+app.post('/api/admin/users/:id/role', requireAdmin, wrap(async (req, res) => {
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  if (req.params.id === req.identity.id) return res.status(409).json({ error: 'you cannot change your own role' })
+  const result = await setRole(req.params.id, { role: req.body?.role, reason, actorId: req.identity.id })
+  const REFUSALS = {
+    invalid_role: [400, 'role must be student or admin'],
+    no_identity: [409, 'this person has never signed in, so there is no role to change'],
+    suspended: [409, 'reactivate this account before changing its role'],
+    unchanged: [409, 'that is already their role'],
+    last_admin: [409, 'this is the last active admin — promote someone else first'],
+    not_found: [404, 'user not found'],
+  }
+  if (result.error) {
+    const [status, message] = REFUSALS[result.error] ?? [400, result.error]
+    return res.status(status).json({ error: message })
+  }
   res.json(result)
 }))
 

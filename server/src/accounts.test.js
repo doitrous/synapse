@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { entitlementOf, extensionBase, addDays, readReason } from './accounts.js'
+import { entitlementOf, extensionBase, addDays, readReason, stateFamily } from './accounts.js'
 
 const NOW = new Date('2026-08-13T12:00:00Z')
 
@@ -52,4 +52,21 @@ test('a reason must be written, not just present', () => {
   assert.equal(readReason({ reason: 'typo' }), null)
   assert.equal(readReason({}), null)
   assert.equal(readReason({ reason: 'refund for the March outage' }), 'refund for the March outage')
+})
+
+
+test('per-user state keys fold into families a person would recognise', () => {
+  // An admin asks "has this student written anything", not "what is in
+  // synapse.notebook.a3f". The grouping is what makes the answer readable.
+  assert.equal(stateFamily('synapse.qbank.attempts'), 'Question bank')
+  assert.equal(stateFamily('synapse.notebook.a3f9'), 'Notebook')
+  assert.equal(stateFamily('synapse.library.read'), 'Library')
+  assert.equal(stateFamily('synapse-notification-read-v1-42'), 'Notifications')
+})
+
+test('an unrecognised state key is reported, not dropped', () => {
+  // A key nobody has classified yet is still evidence that somebody used the
+  // product. Silently discarding it would understate their activity.
+  assert.equal(stateFamily('synapse.something-new.v1'), 'Other')
+  assert.equal(stateFamily(''), 'Other')
 })

@@ -2,6 +2,13 @@ import { useCallback, useEffect, useState } from 'react'
 import { API_MODE, apiGet, apiPost, apiSend } from '@/lib/api'
 import type { AdminUser, AdminUserDetail } from '@/data/adminUsers'
 
+export interface UserActivity {
+  families: Array<{ family: string; documents: number; bytes: number; lastUpdated: string | null }>
+  totalDocuments: number
+  totalBytes: number
+  lastActivity: string | null
+}
+
 /**
  * The users list and the actions on one user.
  *
@@ -95,4 +102,19 @@ export async function sendPasswordReset(id: string, body: { reason: string }) {
 
 export async function updateProfile(id: string, body: Record<string, unknown>) {
   return apiSend(`/admin/users/${encodeURIComponent(id)}`, 'PATCH', body)
+}
+
+export async function setUserRole(id: string, body: { role: 'student' | 'admin'; reason: string }) {
+  return apiPost(`/admin/users/${encodeURIComponent(id)}/role`, body)
+}
+
+/**
+ * What this person has actually stored, by area.
+ *
+ * Separate from `fetchUser` and loaded on demand: it reads every `user_state`
+ * row for the account, which is the one query here whose cost grows with how
+ * much somebody has used the product. The detail panel opens without it.
+ */
+export async function fetchUserActivity(id: string): Promise<UserActivity> {
+  return apiGet<UserActivity>(`/admin/users/${encodeURIComponent(id)}/activity`)
 }

@@ -411,3 +411,122 @@ export async function requestPasswordReset(studentId, { reason, actorId }) {
 }
 
 export const passwordResetConfigured = Boolean(SUPABASE_URL && SERVICE_ROLE_KEY)
+
+/**
+ * Which family a per-user state key belongs to.
+ *
+ * `user_state` is a key-value store whose keys encode what they are —
+ * `synapse.qbank.attempts`, `synapse.notebook.<id>`. An admin looking at one
+ * person wants "how much have they written, answered, saved", not a list of
+ * ninety opaque keys, so the keys are folded into the families a person would
+ * recognise. Anything unrecognised is reported as `other` rather than dropped,
+ * because a key nobody has classified yet is still evidence of activity.
+ */
+export function stateFamily(key) {
+  if (/^synapse\.qbank\./.test(key)) return 'Question bank'
+  if (/^synapse\.practical\./.test(key)) return 'Practicals'
+  if (/^synapse\.progress\./.test(key)) return 'Progress'
+  if (/^synapse\.notebook\./.test(key)) return 'Notebook'
+  if (/^synapse\.whiteboard\./.test(key)) return 'Whiteboards'
+  if (/^synapse\.highlights\./.test(key)) return 'Highlights'
+  if (/^synapse\.bookmarks\./.test(key)) return 'Bookmarks'
+  if (/^synapse\.library\./.test(key)) return 'Library'
+  if (/^synapse\.calendar\./.test(key)) return 'Calendar'
+  if (/^synapse\.account\./.test(key)) return 'Account settings'
+  if (/^synapse-notification-read/.test(key)) return 'Notifications'
+  if (/^synapse-applied-voucher/.test(key)) return 'Vouchers'
+  return 'Other'
+}
+
+/**
+ * Everything this person has actually done, gathered from their own state.
+ *
+ * The `students` row carries three summary numbers that something else has to
+ * compute. This reads what the product itself stored: how many documents they
+ * own in each area, how large they are, and when each was last touched. It is
+ * the difference between "accuracy 62%" and knowing whether anyone has opened
+ * the app since March.
+ *
+ * Values are deliberately not returned. An admin needs to know that a student
+ * has 41 notebook entries and when they last wrote one; reading the notes
+ * themselves is a different question with a different justification.
+ */
+export async function getUserActivity(userId) {
+  if (!userId) return { families: [], totalDocuments: 0, lastActivity: null }
+  const [rows] = await pool.query(
+    `SELECT k, OCTET_LENGTH(v) AS bytes, updated_at AS updatedAt
+       FROM user_state WHERE user_id = ? ORDER BY updated_at DESC`,
+    [userId],
+  )
+  const byFamily = new Map()
+  for (const row of rows) {
+    const family = stateFamily(row.k)
+    const entry = byFamily.get(family) ?? { family, documents: 0, bytes: 0, lastUpdated: null }
+    entry.documents += 1
+    entry.bytes += Number(row.bytes ?? 0)
+    if (!entry.lastUpdated || new Date(row.updatedAt) > new Date(entry.lastUpdated)) entry.lastUpdated = row.updatedAt
+    byFamily.set(family, entry)
+  }
+  const families = [...byFamily.values()].sort((a, b) => b.documents - a.documents)
+  return {
+    families,
+    totalDocuments: rows.length,
+    totalBytes: families.reduce((sum, f) => sum + f.bytes, 0),
+    lastActivity: rows.length ? rows[0].updatedAt : null,
+  }
+}
+
+/**
+ * Change someone's role.
+ *
+ * This already existed on the access panel, keyed by Supabase user id. It is
+ * repeated here keyed by the users-list id because an admin managing a person
+ * should not have to find them again on a second screen to change one field.
+ * Both write `role_promotion_audit`, so the two paths share one history.
+ *
+ * Demoting the last admin is refused. There is no way back from an estate with
+ * no administrator that does not involve editing the database by hand.
+ */
+export async function setRole(studentId, { role, reason, actorId }) {
+  if (!['student', 'admin'].includes(role)) return { error: 'invalid_role' }
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, studentId)
+    if (!student) { await conn.rollback(); return { error: 'not_found' } }
+    const userId = student.user_id
+    if (!userId) { await conn.rollback(); return { error: 'no_identity' } }
+
+    const [access] = await conn.query('SELECT role, status FROM user_access WHERE user_id = ? FOR UPDATE', [userId])
+    if (!access.length) { await conn.rollback(); return { error: 'no_identity' } }
+    if (access[0].status !== 'active') { await conn.rollback(); return { error: 'suspended' } }
+    if (access[0].role === role) { await conn.rollback(); return { error: 'unchanged' } }
+
+    if (access[0].role === 'admin' && role === 'student') {
+      const [[{ admins }]] = await conn.query(
+        "SELECT COUNT(*) AS admins FROM user_access WHERE role = 'admin' AND status = 'active'",
+      )
+      if (admins <= 1) { await conn.rollback(); return { error: 'last_admin' } }
+    }
+
+    await conn.query(
+      'UPDATE user_access SET role = ?, promoted_by = ?, promoted_at = NOW() WHERE user_id = ?',
+      [role, actorId, userId],
+    )
+    await conn.query(
+      'INSERT INTO role_promotion_audit (user_id, previous_role, next_role, promoted_by, reason) VALUES (?, ?, ?, ?, ?)',
+      [userId, access[0].role, role, actorId, reason],
+    )
+    await recordAction(conn, {
+      studentId, userId, action: 'access.role',
+      detail: `${access[0].role} → ${role}`, reason, actorId,
+    })
+    await conn.commit()
+    return { ok: true, role }
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}

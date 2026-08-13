@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import {
   Users, Search, ShieldOff, ShieldCheck, KeyRound, CalendarPlus, Ban,
-  RefreshCw, Copy, History, UserCog, AlertTriangle,
+  RefreshCw, Copy, History, UserCog, AlertTriangle, Activity, Download, ShieldPlus,
 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
@@ -16,7 +16,8 @@ import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import {
   useAdminUsers, fetchUser, grantSubscription, cancelSubscription,
-  setAccess, sendPasswordReset, updateProfile, type UserFilters,
+  setAccess, sendPasswordReset, updateProfile, setUserRole, fetchUserActivity,
+  type UserFilters, type UserActivity,
 } from '@/lib/useAdminUsers'
 import {
   EXTENSION_PRESETS, entitlementLabel, entitlementTone, shortDate,
@@ -35,8 +36,40 @@ type PendingAction =
   | { kind: 'access'; status: 'active' | 'suspended' }
   | { kind: 'password' }
   | { kind: 'profile'; name: string; email: string; year: string; universityId: string; notes: string }
+  | { kind: 'role'; role: 'student' | 'admin' }
 
 const PLAN_OPTIONS = ['Free', 'QBank', 'Adaptive', 'Adaptive add-on', 'Exam Sprint']
+
+/**
+ * The visible roster as a spreadsheet.
+ *
+ * Exports exactly what is on screen, filters included, because an export that
+ * quietly returns everything is the kind of thing that gets pasted into a report
+ * and believed. Every field is quoted and internal quotes are doubled, so a name
+ * containing a comma cannot shift the remaining columns.
+ */
+function toCsv(rows: AdminUser[]): string {
+  const header = ['Name', 'Email', 'University', 'Year', 'Plan', 'Entitlement', 'Expires', 'Role', 'Access', 'Answered', 'Accuracy', 'Readiness', 'Joined', 'Last active']
+  const cell = (value: unknown) => `"${String(value ?? '').replace(/"/g, '""')}"`
+  const lines = rows.map((u) => [
+    u.name, u.email, u.universityId, u.year,
+    u.entitlement.plan, u.entitlement.state, u.entitlement.expiresAt ?? '',
+    u.identity?.role ?? 'never signed in', u.identity?.accessStatus ?? '',
+    u.performance.questionsAnswered, Math.round(u.performance.accuracy), Math.round(u.performance.readiness),
+    u.joined, u.lastActive,
+  ].map(cell).join(','))
+  return [header.map(cell).join(','), ...lines].join('\n')
+}
+
+function downloadCsv(rows: AdminUser[]): void {
+  const blob = new Blob([toCsv(rows)], { type: 'text/csv;charset=utf-8' })
+  const url = URL.createObjectURL(blob)
+  const link = document.createElement('a')
+  link.href = url
+  link.download = `synapse-users-${new Date().toISOString().slice(0, 10)}.csv`
+  link.click()
+  URL.revokeObjectURL(url)
+}
 
 export function UsersManagement() {
   const [universities] = useUniversityCatalogue()
@@ -51,6 +84,8 @@ export function UsersManagement() {
   const [busy, setBusy] = useState(false)
   const [notice, setNotice] = useState('')
   const [resetLink, setResetLink] = useState<string | null>(null)
+  const [activity, setActivity] = useState<UserActivity | null>(null)
+  const [activityBusy, setActivityBusy] = useState(false)
 
   // Search is debounced into the server query rather than filtering in the
   // browser, because the list is capped server-side and a local filter would
@@ -68,6 +103,7 @@ export function UsersManagement() {
     setReason('')
     setResetLink(null)
     setNotice('')
+    setActivity(null)
     setDetailLoading(true)
     try { setDetail(await fetchUser(id)) }
     catch { setDetail(null); setError('Could not load that user.') }
@@ -99,6 +135,9 @@ export function UsersManagement() {
         const result = await sendPasswordReset(selectedId, { reason })
         setResetLink(result.actionLink)
         setNotice(result.actionLink ? 'Recovery link generated. It is shown once — copy it now.' : 'Supabase issued the recovery email.')
+      } else if (pending.kind === 'role') {
+        await setUserRole(selectedId, { role: pending.role, reason })
+        setNotice(pending.role === 'admin' ? 'Promoted to admin.' : 'Demoted to student.')
       } else if (pending.kind === 'profile') {
         await updateProfile(selectedId, {
           name: pending.name, email: pending.email, year: pending.year,
@@ -171,6 +210,7 @@ export function UsersManagement() {
               {universities.map((u) => <option key={u.id} value={u.id}>{u.short}</option>)}
             </Select>
             <Button size="sm" variant="ghost" iconLeft={RefreshCw} onClick={() => void refresh()}>Refresh</Button>
+            <Button size="sm" variant="ghost" iconLeft={Download} disabled={!users.length} onClick={() => downloadCsv(users)}>Export</Button>
             <span className="ms-auto tnum font-mono text-[11.5px] text-ink-3">{users.length} shown</span>
           </div>
 
@@ -287,6 +327,10 @@ export function UsersManagement() {
                       kind: 'profile', name: detail.name ?? '', email: detail.email ?? '',
                       year: detail.year ?? '', universityId: detail.universityId ?? '', notes: detail.notes ?? '',
                     })}>Edit profile</Button>
+                  <Button size="sm" variant="ghost" iconLeft={ShieldPlus} disabled={!detail.identity}
+                    onClick={() => setPending({ kind: 'role', role: detail.identity?.role === 'admin' ? 'student' : 'admin' })}>
+                    {detail.identity?.role === 'admin' ? 'Demote to student' : 'Make admin'}
+                  </Button>
                 </div>
 
                 {!detail.identity && (
@@ -343,6 +387,14 @@ export function UsersManagement() {
                     <p className="mb-2 text-[12.5px] text-ink">Supabase will generate a recovery link for {detail.email}. No password is read or set here.</p>
                   )}
 
+                  {pending.kind === 'role' && (
+                    <p className="mb-2 text-[12.5px] text-ink">
+                      {pending.role === 'admin'
+                        ? 'An admin can see and change every account, including this one. Grant it only to someone who should have that.'
+                        : 'They lose admin access immediately. The last remaining admin cannot be demoted.'}
+                    </p>
+                  )}
+
                   {pending.kind === 'profile' && (
                     <div className="grid gap-2">
                       <Field label="Name"><TextInput value={pending.name} onChange={(e) => setPending({ ...pending, name: e.target.value })} /></Field>
@@ -378,6 +430,45 @@ export function UsersManagement() {
                   </div>
                 </div>
               )}
+
+              {/* ---- What they have actually stored ---- */}
+              <div className="px-4 py-3">
+                <p className="mb-2 flex items-center gap-1.5 text-[11.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">
+                  <Icon icon={Activity} size={13} />Activity &amp; data
+                </p>
+                {!detail.identity && (
+                  <p className="text-[12px] text-ink-3">This person has never signed in, so the product has stored nothing for them.</p>
+                )}
+                {detail.identity && !activity && (
+                  <Button size="sm" variant="secondary" loading={activityBusy} onClick={async () => {
+                    setActivityBusy(true)
+                    try { setActivity(await fetchUserActivity(detail.id)) }
+                    catch { setNotice('Could not read this account\u2019s stored data.') }
+                    finally { setActivityBusy(false) }
+                  }}>Load stored data</Button>
+                )}
+                {activity && (
+                  <>
+                    <p className="mb-1.5 text-[12px] text-ink-2">
+                      <span className="tnum font-mono text-ink">{activity.totalDocuments}</span> saved {activity.totalDocuments === 1 ? 'document' : 'documents'}
+                      {activity.lastActivity && <> · last touched {shortDate(activity.lastActivity)}</>}
+                    </p>
+                    {activity.families.length === 0 && <p className="text-[12px] text-ink-3">Nothing saved yet.</p>}
+                    <ul className="space-y-1">
+                      {activity.families.map((f) => (
+                        <li key={f.family} className="flex items-baseline gap-2 text-[12px]">
+                          <span className="min-w-0 flex-1 truncate text-ink">{f.family}</span>
+                          <span className="tnum font-mono text-ink-2">{f.documents}</span>
+                          <span className="tnum w-24 text-end font-mono text-[11px] text-ink-3">{shortDate(f.lastUpdated)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="mt-1.5 text-[11.5px] text-ink-3">
+                      Counts and dates only. What they wrote is not read here.
+                    </p>
+                  </>
+                )}
+              </div>
 
               {/* ---- History ---- */}
               <div className="px-4 py-3">
