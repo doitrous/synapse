@@ -28,30 +28,6 @@ export interface OsceDetail {
   references?: string[]
 }
 
-const GENERIC_OSCE: OsceDetail = {
-  scenario:
-    'Please perform the examination as instructed, talking the examiner through your findings. You have the time shown on the timer.',
-  markScheme: [
-    { id: 'm1', text: 'Introduces self, confirms patient identity, and gains consent' },
-    { id: 'm2', text: 'Positions and exposes the patient appropriately' },
-    { id: 'm3', text: 'Performs a general inspection from the end of the bed' },
-    { id: 'm4', text: 'Examines the peripheries systematically' },
-    { id: 'm5', text: 'Carries out the focused examination of the relevant system' },
-    { id: 'm6', text: 'Completes relevant additional manoeuvres' },
-    { id: 'm7', text: 'Thanks the patient and summarises the findings' },
-    { id: 'm8', text: 'Suggests appropriate further investigations' },
-  ],
-  actorBrief: {
-    opening: 'Wait for the candidate to introduce themselves and explain the station.',
-    identity: 'Respond naturally and volunteer only the information the candidate asks for.',
-    prompts: [
-      { label: 'If asked about pain', response: 'Describe the symptom in your own words without using clinical terminology.' },
-      { label: 'If asked about concerns', response: 'Say that you are worried the problem may be serious.' },
-    ],
-  },
-  references: ['Geeky Medics · Examination sequence', 'Oxford Handbook · Clinical examination'],
-}
-
 const OSCE: Record<string, OsceDetail> = {
   'os-cvs': {
     scenario:
@@ -142,8 +118,16 @@ const OSCE: Record<string, OsceDetail> = {
   },
 }
 
-export function getOsceDetail(id: string): OsceDetail {
-  return OSCE[id] ?? GENERIC_OSCE
+/**
+ * The demo station's content, or null when there is none.
+ *
+ * It used to fall back to `GENERIC_OSCE`: a generic eight-point mark scheme and
+ * an invented actor brief, returned for every station an admin authored. A
+ * student running a real station was marked against a checklist nobody wrote
+ * for it. An item with no content now says so.
+ */
+export function getOsceDetail(id: string): OsceDetail | null {
+  return OSCE[id] ?? null
 }
 
 /* ---- Clinical case stages --------------------------------------------- */
@@ -162,16 +146,6 @@ export interface CaseDetail {
   stages: CaseStage[]
   debrief?: string
   references?: string[]
-}
-
-const GENERIC_CASE: CaseDetail = {
-  stages: [
-    { title: 'Presentation', prompt: 'How would you approach this presentation?', answer: 'Assess the patient with an ABCDE approach, establish stability, then take a focused history and examination guided by the presenting complaint.' },
-    { title: 'History', prompt: 'What key features would you ask about?', answer: 'Characterise the presenting complaint, associated red-flag symptoms, relevant risk factors, and the past medical, drug, and social history.' },
-    { title: 'Examination', prompt: 'What would you look for on examination?', answer: 'A focused examination of the relevant system, looking for signs that discriminate between the leading differentials.' },
-    { title: 'Investigations', prompt: 'Which investigations would you request?', answer: 'Bedside, bloods, and imaging targeted to your differential — least invasive and most discriminating first.' },
-    { title: 'Management', prompt: 'Outline your initial management.', answer: 'Treat according to the working diagnosis, address the underlying cause, and safety-net with clear follow-up.' },
-  ],
 }
 
 const CASES: Record<string, CaseDetail> = {
@@ -219,8 +193,9 @@ const CASES: Record<string, CaseDetail> = {
   },
 }
 
-export function getCaseDetail(id: string): CaseDetail {
-  return CASES[id] ?? GENERIC_CASE
+/** The demo case's stages, or null when there are none. See `getOsceDetail`. */
+export function getCaseDetail(id: string): CaseDetail | null {
+  return CASES[id] ?? null
 }
 
 /* ---- Lab & imaging interpretation ------------------------------------- */
@@ -234,20 +209,6 @@ export interface LabQ {
 }
 export interface LabDetail {
   questions: LabQ[]
-}
-
-const GENERIC_LAB: LabDetail = {
-  questions: [
-    {
-      stem: 'Which principle should guide your interpretation of any investigation?',
-      options: [
-        { text: 'Interpret the result in the clinical context', correct: true },
-        { text: 'Treat the number in isolation', correct: false },
-        { text: 'Always repeat before acting', correct: false },
-      ],
-      explanation: 'Every result is interpreted against the clinical picture — the same value can be normal or dangerous depending on the patient.',
-    },
-  ],
 }
 
 const LAB: Record<string, LabDetail> = {
@@ -308,6 +269,7 @@ const LAB: Record<string, LabDetail> = {
   },
 }
 
-export function getLabDetail(id: string): LabDetail {
-  return LAB[id] ?? GENERIC_LAB
+/** The demo set's questions, or null when there are none. See `getOsceDetail`. */
+export function getLabDetail(id: string): LabDetail | null {
+  return LAB[id] ?? null
 }

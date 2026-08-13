@@ -93,6 +93,7 @@ export const adminNav: NavGroup[] = [
     label: 'Content',
     items: [
       { label: 'Subjects & Topics', to: '/admin/taxonomy', icon: Network },
+      { label: 'Glossary', to: '/admin/glossary', icon: Languages },
       { label: 'Academic Setup', to: '/admin/academic', icon: GraduationCap },
       { label: 'Library Setup', to: '/admin/library', icon: Library },
       { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },

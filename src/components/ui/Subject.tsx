@@ -1,4 +1,4 @@
-import { getSubject } from '@/data/student'
+import { getSubject } from '@/data/subjects'
 import { SystemBadge } from '@/components/ui/SystemBadge'
 import { useSystemColor } from '@/data/systemColors'
 import { cn } from '@/lib/cn'

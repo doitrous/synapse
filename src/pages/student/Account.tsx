@@ -1,92 +1,210 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Download, KeyRound, LogOut, Save, ShieldCheck, UserRound } from 'lucide-react'
+import { Download, KeyRound, LifeBuoy, LogOut, ShieldCheck, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
-import { Field, Select, TextInput } from '@/components/ui/Field'
+import { Field, Select } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { formatDateTime } from '@/lib/format'
+import { useIdentity } from '@/lib/useIdentity'
+import { API_MODE, apiGet } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 
-interface AccountSettings {
-  name: string
-  email: string
-  university: string
-  year: string
+/**
+ * Preferences the student owns.
+ *
+ * Name, email, university and year are not here any more. They are recorded by
+ * the university, they gate entitlement and content scope, and the old form let
+ * a student type over them into a JSON blob that nothing read — the account
+ * email stayed unchanged in Supabase, and voucher eligibility went on using a
+ * hardcoded profile regardless.
+ */
+interface AccountPrefs {
   timezone: string
   reviewReminders: boolean
   calendarReminders: boolean
-  productUpdates: boolean
-  weeklyDigest: boolean
 }
 
-const DEFAULTS: AccountSettings = {
-  name: 'Maya Adeyemi',
-  email: 'maya.adeyemi@example.edu',
-  university: 'University of Manchester',
-  year: 'Year 3',
-  timezone: 'Africa/Cairo',
+const DEFAULTS: AccountPrefs = {
+  timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || 'Africa/Cairo',
   reviewReminders: true,
   calendarReminders: true,
-  productUpdates: false,
-  weeklyDigest: true,
+}
+
+const ACCOUNT_PREFS_STORAGE_KEY = 'synapse.account.prefs.v1'
+
+const SUPPORT_ADDRESS = 'synapse@mail.doitrous.com'
+
+function ReadOnlyField({ label, value, hint }: { label: string; value: string | null; hint?: string }) {
+  return (
+    <Field label={label} hint={hint}>
+      <p className="flex min-h-11 items-center rounded-lg border border-line bg-surface-2/60 px-3 text-[13.5px] text-ink">
+        {value || <span className="text-ink-3">Not recorded</span>}
+      </p>
+    </Field>
+  )
 }
 
 export function Account() {
   const t = useT()
-  const [settings, setSettings] = usePersistentState<AccountSettings>('synapse.account.settings', DEFAULTS)
-  const [savedAt, setSavedAt] = useState<Date | null>(null)
+  const { email, displayName, profile, profileMissing, bypass } = useIdentity()
+  const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
+  const [exporting, setExporting] = useState(false)
+  const [exportError, setExportError] = useState('')
 
-  const patch = (next: Partial<AccountSettings>) => setSettings((current) => ({ ...current, ...next }))
+  const patch = (next: Partial<AccountPrefs>) => setPrefs((current) => ({ ...current, ...next }))
+  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Synapse profile change request')}`
+
+  /**
+   * Everything this account has stored, not just what this page happens to hold.
+   *
+   * The old export wrote out the settings object while the copy beside it
+   * promised "notes, highlights, plans, and progress" — none of which were in
+   * it. This asks the server for every document the account owns.
+   */
+  async function exportData() {
+    setExportError('')
+    if (!API_MODE) {
+      download('synapse-account-preferences.json', { preferences: prefs })
+      return
+    }
+    setExporting(true)
+    try {
+      download('synapse-account-data.json', await apiGet<unknown>('/me/export'))
+    } catch {
+      setExportError(t('Your data could not be exported right now. Try again in a moment.'))
+    } finally {
+      setExporting(false)
+    }
+  }
+
+  function download(filename: string, payload: unknown) {
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const anchor = document.createElement('a')
+    anchor.href = url
+    anchor.download = filename
+    anchor.click()
+    URL.revokeObjectURL(url)
+  }
 
   return (
     <PageContainer>
-      <PageHeader title={t('Manage your account')} description={t('Profile, study preferences, security, notifications, privacy, and active sessions.')} />
+      <PageHeader title={t('Manage your account')} description={t('Your profile, study preferences, security, and data.')} />
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.65fr)]">
         <div className="space-y-4">
           <Panel>
-            <PanelHeader title="Profile and study context" icon={UserRound} action={savedAt ? <Badge tone="success">Saved {formatDateTime(savedAt)}</Badge> : undefined} />
-            <form className="grid gap-4 p-5 sm:grid-cols-2" onSubmit={(event) => { event.preventDefault(); setSavedAt(new Date()) }}>
-              <Field label="Full name"><TextInput value={settings.name} onChange={(event) => patch({ name: event.target.value })} /></Field>
-              <Field label="Email address"><TextInput type="email" value={settings.email} onChange={(event) => patch({ email: event.target.value })} /></Field>
-              <Field label="University"><TextInput value={settings.university} onChange={(event) => patch({ university: event.target.value })} /></Field>
-              <Field label="Year of study"><Select value={settings.year} onChange={(event) => patch({ year: event.target.value })}>{['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'].map((year) => <option key={year}>{year}</option>)}</Select></Field>
-              <Field label="Timezone" hint="Used for calendar blocks and reminders"><Select value={settings.timezone} onChange={(event) => patch({ timezone: event.target.value })}><option value="Africa/Cairo">Cairo (GMT+3)</option><option value="Europe/London">London</option><option value="Asia/Dubai">Dubai</option><option value="America/New_York">New York</option></Select></Field>
-              <div className="flex items-end"><Button type="submit" variant="primary" iconLeft={Save}>Save changes</Button></div>
-            </form>
+            <PanelHeader title={t('Profile and study context')} icon={UserRound} />
+            <div className="grid gap-4 p-5 sm:grid-cols-2">
+              <ReadOnlyField label={t('Full name')} value={profile.name ?? displayName} />
+              <ReadOnlyField label={t('Email address')} value={profile.email ?? email} />
+              <ReadOnlyField label={t('University')} value={profile.universityId} />
+              <ReadOnlyField label={t('Year of study')} value={profile.year} />
+              <ReadOnlyField label={t('Group')} value={profile.group} hint={t('Used for targeted vouchers and notices')} />
+              <Field label={t('Timezone')} hint={t('Used for calendar blocks and reminders')}>
+                <Select value={prefs.timezone} onChange={(event) => patch({ timezone: event.target.value })}>
+                  {[prefs.timezone, 'Africa/Cairo', 'Europe/London', 'Asia/Dubai', 'America/New_York']
+                    .filter((zone, index, all) => all.indexOf(zone) === index)
+                    .map((zone) => <option key={zone} value={zone}>{zone}</option>)}
+                </Select>
+              </Field>
+              <div className="sm:col-span-2">
+                <p className="rounded-lg border border-line bg-surface-2/50 px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
+                  {profileMissing
+                    ? t("Your university hasn't set up your student profile yet. Until it does, your timetable and any content scoped to your year won't appear.")
+                    : t('Your name, university, year and group are recorded by your university. They decide which content and offers apply to you, so they are changed by the Synapse team rather than here.')}
+                  {' '}
+                  <a href={supportLink} className="font-semibold text-accent-strong hover:text-accent">{t('Request a change')}</a>
+                </p>
+              </div>
+            </div>
           </Panel>
 
           <Panel>
-            <PanelHeader title="Notifications" />
+            <PanelHeader title={t('Notifications')} hint={t('In-app only')} />
             <div className="divide-y divide-line px-5">
-              {[
-                ['Review reminders', 'When an article or question set deserves attention.', 'reviewReminders'],
-                ['Calendar reminders', 'Before personal blocks and curriculum sessions.', 'calendarReminders'],
-                ['Weekly study digest', 'A concise summary of accuracy and time used.', 'weeklyDigest'],
-                ['Product updates', 'Changes to Synapse and new study tools.', 'productUpdates'],
-              ].map(([title, description, key]) => <label key={key} className="flex cursor-pointer items-center justify-between gap-4 py-3.5"><span><span className="block text-[13.5px] font-medium text-ink">{title}</span><span className="mt-0.5 block text-[12px] text-ink-3">{description}</span></span><Toggle checked={settings[key as keyof AccountSettings] as boolean} onChange={(value) => patch({ [key]: value })} label={title} /></label>)}
+              {([
+                ['Review reminders', 'Show notices when concepts are due for review.', 'reviewReminders'],
+                ['Calendar reminders', 'Show notices before your blocks and sessions.', 'calendarReminders'],
+              ] as const).map(([title, description, key]) => (
+                <label key={key} className="flex cursor-pointer items-center justify-between gap-4 py-3.5">
+                  <span>
+                    <span className="block text-[13.5px] font-medium text-ink">{t(title)}</span>
+                    <span className="mt-0.5 block text-[12px] text-ink-3">{t(description)}</span>
+                  </span>
+                  <Toggle checked={prefs[key]} onChange={(value) => patch({ [key]: value })} label={t(title)} />
+                </label>
+              ))}
             </div>
+            {/* The two email toggles that used to sit here — weekly digest and
+                product updates — were read by nothing at all. They return when
+                email delivery actually consults a preference. */}
+            <p className="border-t border-line px-5 py-3 text-[11.5px] leading-relaxed text-ink-3">
+              {t('Email preferences are not configurable yet. Synapse only emails you about your account.')}
+            </p>
           </Panel>
         </div>
 
         <div className="space-y-4">
           <Panel>
-            <PanelHeader title="Security" icon={ShieldCheck} />
+            <PanelHeader title={t('Security')} icon={ShieldCheck} />
             <div className="space-y-3 p-4">
-              <div className="rounded-lg border border-line bg-surface-2 p-3"><p className="text-[13px] font-medium text-ink">Password</p><p className="mt-0.5 text-[11.5px] text-ink-3">Reset through a time-limited email link.</p><Link to="/auth/forgot-password" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset"><KeyRound size={15} />Change password</Link></div>
-              <div className="rounded-lg border border-line p-3"><div className="flex items-center justify-between gap-3"><div><p className="text-[13px] font-medium text-ink">Two-factor authentication</p><p className="mt-0.5 text-[11.5px] text-ink-3">Free authenticator app · mandatory for admins</p></div><Badge tone="accent">TOTP</Badge></div><Link to="/auth/mfa" className="mt-3 inline-flex min-h-9 items-center rounded-lg px-3 text-[12.5px] font-semibold text-accent-strong hover:bg-accent-tint">Set up or verify MFA</Link></div>
+              <div className="rounded-lg border border-line bg-surface-2 p-3">
+                <p className="text-[13px] font-medium text-ink">{t('Password')}</p>
+                <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Reset through a time-limited email link.')}</p>
+                <Link to="/auth/forgot-password" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset"><KeyRound size={15} />{t('Change password')}</Link>
+              </div>
+              <div className="rounded-lg border border-line p-3">
+                <p className="text-[13px] font-medium text-ink">{t('Two-factor authentication')}</p>
+                <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Free authenticator app · mandatory for admins')}</p>
+                <Link to="/auth/mfa" className="mt-3 inline-flex min-h-9 items-center rounded-lg px-3 text-[12.5px] font-semibold text-accent-strong hover:bg-accent-tint">{t('Set up or verify MFA')}</Link>
+              </div>
             </div>
           </Panel>
+
           <Panel>
-            <PanelHeader title="Privacy and data" />
-            <div className="space-y-2 p-4"><Button className="w-full justify-start" variant="secondary" iconLeft={Download} onClick={() => { const blob = new Blob([JSON.stringify(settings, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const anchor = document.createElement('a'); anchor.href = url; anchor.download = 'synapse-account-data.json'; anchor.click(); URL.revokeObjectURL(url) }}>Download profile settings</Button><p className="text-[11.5px] leading-relaxed text-ink-3">Live notes, highlights, plans, and progress are stored in user-owned MariaDB records and included in database recovery snapshots.</p></div>
+            <PanelHeader title={t('Privacy and data')} />
+            <div className="space-y-2 p-4">
+              <Button className="w-full justify-start" variant="secondary" iconLeft={Download} loading={exporting} onClick={() => void exportData()}>
+                {t('Download my data')}
+              </Button>
+              {exportError && <p role="alert" className="text-[11.5px] text-danger">{exportError}</p>}
+              <p className="text-[11.5px] leading-relaxed text-ink-3">
+                {API_MODE
+                  ? t('Includes every document your account owns — notes, whiteboards, bookmarks, calendar blocks and progress.')
+                  : t('Without a backend connected this exports your preferences only; the rest of your work is in this browser.')}
+              </p>
+            </div>
           </Panel>
+
           <Panel>
-            <PanelHeader title="Active sessions" />
-            <div className="p-4"><div className="flex items-start justify-between gap-3"><div><p className="text-[13px] font-medium text-ink">This browser</p><p className="mt-0.5 text-[11.5px] text-ink-3">Authenticated session or temporary owner preview</p></div><Badge tone="success">Open</Badge></div><Link to="/logout" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg px-3 text-[12.5px] font-semibold text-ink-2 hover:bg-inset hover:text-ink"><LogOut size={15} />Open sign-out screen</Link></div>
+            <PanelHeader title={t('This session')} />
+            <div className="p-4">
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <p className="text-[13px] font-medium text-ink">{t('This browser')}</p>
+                  <p className="mt-0.5 text-[11.5px] text-ink-3">
+                    {bypass ? t('Temporary owner preview') : email ?? t('Signed in')}
+                  </p>
+                </div>
+                <Badge tone="success">{t('Open')}</Badge>
+              </div>
+              {/* Only this session is described. Enumerating and revoking other
+                  sessions needs a server-side session list that does not exist. */}
+              <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">
+                {t('Other devices are not listed. Signing out here clears this browser only.')}
+              </p>
+              <Link to="/logout" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg px-3 text-[12.5px] font-semibold text-ink-2 hover:bg-inset hover:text-ink"><LogOut size={15} />{t('Sign out')}</Link>
+            </div>
+          </Panel>
+
+          <Panel>
+            <PanelHeader title={t('Support')} icon={LifeBuoy} />
+            <div className="p-4">
+              <a href={supportLink}><Button className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Synapse team')}</Button></a>
+            </div>
           </Panel>
         </div>
       </div>

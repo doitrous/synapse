@@ -1,236 +1,446 @@
-import { useState } from 'react'
-import { Users, Hash, Copy, Check, Play, Plus, RotateCcw, LogIn } from 'lucide-react'
+import { useMemo, useState } from 'react'
+import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
-import { Icon } from '@/components/ui/Icon'
 import { Avatar } from '@/components/ui/Avatar'
+import { Meter } from '@/components/ui/Meter'
+import { EmptyState } from '@/components/ui/EmptyState'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { questionsInScope, type Scope } from '@/data/qbankScope'
+import { useMastery } from '@/lib/useMastery'
+import { useRecordAttempt } from '@/lib/useAttemptLog'
+import { ROOM_REFUSALS, useMyRooms, useRoom, useStudyRoomActions } from '@/lib/useStudyRooms'
+import { API_MODE } from '@/lib/api'
+import { formatRelativeTime } from '@/lib/format'
+import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 const MAX_QUESTIONS = 40
+const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 
-interface Created {
-  name: string
-  code: string
+function shuffle<T>(items: T[]): T[] {
+  const copy = [...items]
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[copy[i], copy[j]] = [copy[j], copy[i]]
+  }
+  return copy
 }
 
-const PAST = [
-  { id: 't1', name: 'Cardiology crunch', joined: 4, when: '3 days ago', avg: 76 },
-  { id: 't2', name: 'Pharmacology rapid-fire', joined: 6, when: '1 week ago', avg: 68 },
-  { id: 't3', name: 'Neuro localisation', joined: 3, when: '2 weeks ago', avg: 71 },
-]
+/**
+ * Sit a shared test, one question at a time.
+ *
+ * The answer is sent to the server, which marks it against the published
+ * question and returns the verdict. Nothing about the score is decided here —
+ * other people see it, so self-reporting is not an option.
+ */
+function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) {
+  const t = useT()
+  const questions = usePublishedQuestions()
+  const { room, reload } = useRoom(roomId)
+  const { start, answer, finish } = useStudyRoomActions()
+  const { record } = useMastery()
+  const logAttempt = useRecordAttempt()
+  const [idx, setIdx] = useState(0)
+  const [chosen, setChosen] = useState<number | null>(null)
+  const [verdict, setVerdict] = useState<{ correct: boolean; correctIndex: number } | null>(null)
+  const [busy, setBusy] = useState(false)
+  const [copied, setCopied] = useState(false)
 
-const LOBBY = ['Maya Adeyemi', 'Sam Okoro', 'Priya Nair']
-const OPEN_NOW = [
-  { id: 'o1', name: 'Acute care sprint', code: 'ACUTE7', joined: 3, questions: 10 },
-  { id: 'o2', name: 'Renal rapid-fire', code: 'RENAL4', joined: 2, questions: 20 },
-]
+  const byId = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions])
+  const answeredIds = useMemo(() => new Set(room?.myAnswers.map((entry) => entry.questionId) ?? []), [room])
 
+  if (!room) {
+    return <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the shared test…')}</Panel>
+  }
+
+  const roster = (
+    <Panel className="h-fit">
+      <PanelHeader title={t('Who is in')} icon={Users} hint={`${room.members.length} ${room.members.length === 1 ? t('person') : t('people')}`} />
+      <ul className="divide-y divide-line">
+        {room.members.map((member) => (
+          <li key={member.userId} className="flex items-center gap-3 px-4 py-2.5">
+            <Avatar name={member.displayName ?? 'Student'} size="sm" />
+            <span className="min-w-0 flex-1 truncate text-[13px] text-ink">{member.displayName ?? t('Student')}</span>
+            {member.finished
+              ? <Badge tone="success">{member.correct !== null ? `${member.correct} / ${room.questionCount}` : t('Finished')}</Badge>
+              : <span className="tnum font-mono text-[11.5px] text-ink-3">{member.answered} / {room.questionCount}</span>}
+          </li>
+        ))}
+      </ul>
+    </Panel>
+  )
+
+  /* ---- Lobby --------------------------------------------------------- */
+  if (room.status === 'lobby') {
+    return (
+      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
+        <Panel>
+          <PanelHeader title={room.name} icon={Hash} action={<Badge tone="accent">{t('Waiting to start')}</Badge>} />
+          <div className="p-5">
+            <p className="text-[12.5px] text-ink-3">{t('Share this code so others can join')}</p>
+            <div className="mt-2 flex flex-wrap items-center gap-3">
+              <span className="tnum rounded-lg border border-line bg-surface-2 px-4 py-2 font-mono text-[24px] font-semibold tracking-[0.2em] text-ink">{room.code}</span>
+              <Button
+                variant="secondary"
+                iconLeft={copied ? Check : Copy}
+                onClick={() => { void navigator.clipboard?.writeText(room.code); setCopied(true); window.setTimeout(() => setCopied(false), 1600) }}
+              >
+                {copied ? t('Copied') : t('Copy code')}
+              </Button>
+            </div>
+            <p className="mt-4 text-[13px] leading-relaxed text-ink-2">
+              {room.questionCount} {t('questions')} · {room.timed ? t('timed') : t('untimed')}. {t('Everyone answers the same set at their own pace, and results open once you finish.')}
+            </p>
+            <div className="mt-5 flex gap-2">
+              {room.isHost ? (
+                <Button variant="primary" iconLeft={Play} loading={busy} onClick={async () => { setBusy(true); await start(room.id); await reload(); setBusy(false) }}>
+                  {t('Start the test')}
+                </Button>
+              ) : (
+                <p className="text-[13px] text-ink-3">{t('Waiting for the host to start.')}</p>
+              )}
+              <Button variant="ghost" onClick={onExit}>{t('Leave')}</Button>
+            </div>
+          </div>
+        </Panel>
+        {roster}
+      </div>
+    )
+  }
+
+  /* ---- Results ------------------------------------------------------- */
+  if (room.myFinished) {
+    const myCorrect = room.myAnswers.filter((entry) => entry.correct).length
+    const pct = room.questionCount ? Math.round((myCorrect / room.questionCount) * 100) : 0
+    const stillWorking = room.members.filter((member) => !member.finished).length
+    return (
+      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
+        <Panel>
+          <PanelHeader title={t('Your result')} icon={Trophy} hint={room.name} />
+          <div className="p-6 text-center">
+            <p className="tnum font-mono text-[40px] font-semibold leading-none text-ink">{pct}%</p>
+            <p className="mt-2 text-[14px] text-ink-2">{myCorrect} {t('of')} {room.questionCount} {t('correct')}</p>
+            <Meter value={pct} tone={pct >= 70 ? 'success' : pct >= 50 ? 'accent' : 'warning'} className="mx-auto mt-4 max-w-sm" />
+            <p className="mt-5 text-[12.5px] text-ink-3">
+              {stillWorking > 0
+                ? `${stillWorking} ${stillWorking === 1 ? t('person is') : t('people are')} ${t('still working. Their scores appear as they finish.')}`
+                : t('Everyone has finished.')}
+            </p>
+            <Button className="mt-5" variant="secondary" onClick={onExit}>{t('Back to shared tests')}</Button>
+          </div>
+        </Panel>
+        {roster}
+      </div>
+    )
+  }
+
+  /* ---- Running ------------------------------------------------------- */
+  const remaining = room.questionIds.filter((id) => !answeredIds.has(id))
+  const currentId = remaining[Math.min(idx, Math.max(0, remaining.length - 1))]
+  const question = currentId ? byId.get(currentId) : undefined
+
+  if (!remaining.length) {
+    return (
+      <Panel className="p-8 text-center">
+        <p className="text-[14px] font-medium text-ink">{t('You have answered every question.')}</p>
+        <Button className="mt-4" variant="primary" loading={busy} onClick={async () => { setBusy(true); await finish(room.id); await reload(); setBusy(false) }}>
+          {t('Finish and see results')}
+        </Button>
+      </Panel>
+    )
+  }
+
+  if (!question) {
+    // The question was archived after the room was created; skipping it is
+    // better than blocking the whole test on content that no longer exists.
+    return (
+      <Panel className="p-8 text-center">
+        <p className="text-[13.5px] text-ink-2">{t('This question is no longer available.')}</p>
+        <Button className="mt-4" variant="secondary" onClick={() => setIdx((current) => current + 1)}>{t('Skip it')}</Button>
+      </Panel>
+    )
+  }
+
+  async function commit() {
+    if (chosen === null || !question) return
+    setBusy(true)
+    const result = await answer(room!.id, { questionId: question.id, chosenIndex: chosen, seconds: null })
+    setBusy(false)
+    if (!result.ok) return
+    setVerdict({ correct: Boolean(result.correct), correctIndex: result.correctIndex ?? -1 })
+    // Shared work counts toward the same record as solo work.
+    const conceptIds = question.conceptIds ?? []
+    if (conceptIds.length) record({ conceptIds, source: 'question', correct: Boolean(result.correct) })
+    logAttempt({
+      surface: 'room',
+      itemId: question.id,
+      subjectId: question.subjectId,
+      topic: question.topic,
+      difficulty: question.difficulty,
+      conceptIds,
+      correct: Boolean(result.correct),
+      seconds: null,
+      sessionId: `room-${room!.id}`,
+    })
+  }
+
+  const answeredCount = answeredIds.size
+
+  return (
+    <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
+      <Panel>
+        <PanelHeader title={room.name} icon={Hash} hint={`${answeredCount + 1} / ${room.questionCount}`} />
+        <div className="p-5">
+          {question.vignette && <p className="mb-3 text-[13.5px] leading-relaxed text-ink-2">{question.vignette}</p>}
+          <p className="text-[15px] font-medium leading-relaxed text-ink">{question.stem}</p>
+          <ul className="mt-4 space-y-2">
+            {question.options.map((option, index) => (
+              <li key={index}>
+                <button
+                  type="button"
+                  disabled={Boolean(verdict)}
+                  onClick={() => setChosen(index)}
+                  className={cn(
+                    'flex w-full items-start gap-3 rounded-lg border p-3 text-left transition-colors',
+                    verdict
+                      ? index === verdict.correctIndex ? 'border-success bg-success-tint'
+                        : index === chosen ? 'border-danger bg-danger-tint' : 'border-line bg-surface opacity-70'
+                      : chosen === index ? 'border-accent bg-accent-tint/50' : 'border-line bg-surface hover:border-line-2',
+                  )}
+                >
+                  <span className="grid size-6 shrink-0 place-items-center rounded-md border border-line-2 font-mono text-[12px] text-ink-2">{LETTERS[index]}</span>
+                  <span className="text-[13.5px] leading-snug text-ink">{option.text}</span>
+                </button>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-5 flex flex-wrap gap-2">
+            {verdict ? (
+              <Button
+                variant="primary"
+                onClick={async () => { setVerdict(null); setChosen(null); setIdx(0); await reload() }}
+              >
+                {remaining.length <= 1 ? t('See results') : t('Next question')}
+              </Button>
+            ) : (
+              <Button variant="primary" disabled={chosen === null || busy} loading={busy} onClick={() => void commit()}>{t('Submit answer')}</Button>
+            )}
+            <Button variant="ghost" onClick={onExit}>{t('Leave')}</Button>
+          </div>
+          {verdict && (
+            <p className={cn('mt-3 text-[13px] font-medium', verdict.correct ? 'text-success' : 'text-danger')}>
+              {verdict.correct ? t('Correct.') : t('Not this time.')}
+            </p>
+          )}
+        </div>
+      </Panel>
+      {roster}
+    </div>
+  )
+}
+
+/**
+ * Shared tests: create one, join one by code, or open one you are already in.
+ *
+ * Everything on this page used to be a prop. The lobby listed three named
+ * classmates who did not exist, "Open now" listed two rooms with invented
+ * codes, the finished list showed three tests with invented averages, and
+ * "Start test" flipped a boolean. There is a backend behind all of it now.
+ */
 export function StudyTogether() {
   const t = useT()
   const questions = usePublishedQuestions()
+  const { rooms, reload: reloadRooms } = useMyRooms()
+  const { create, join } = useStudyRoomActions()
   const [name, setName] = useState('')
   const [scope, setScope] = useState<Scope>(() => new Set())
   const [lenChoice, setLenChoice] = useState<'5' | '10' | '20' | '40' | 'custom'>('10')
   const [customLen, setCustomLen] = useState(15)
   const count = lenChoice === 'custom' ? Math.min(MAX_QUESTIONS, Math.max(1, customLen || 1)) : Number(lenChoice)
   const [timed, setTimed] = useState(true)
-  const [created, setCreated] = useState<Created | null>(null)
-  const [copied, setCopied] = useState(false)
   const [joinCode, setJoinCode] = useState('')
-  const [joined, setJoined] = useState<string | null>(null)
-  const [started, setStarted] = useState(false)
+  const [openRoomId, setOpenRoomId] = useState<string | null>(null)
+  const [message, setMessage] = useState('')
+  const [busy, setBusy] = useState(false)
 
-  const available = questionsInScope(questions, scope)
+  const { topics: libraryTopics } = useLiveLibrary()
+  const available = questionsInScope(questions, scope, libraryTopics)
 
-  function create() {
-    const code = Math.random().toString(36).slice(2, 8).toUpperCase()
-    setCreated({ name: name.trim() || t('Untitled test'), code })
+  if (!API_MODE) {
+    return (
+      <PageContainer>
+        <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates.')} />
+        <Panel className="p-10">
+          <EmptyState
+            icon={Users}
+            title={t('Shared tests need the backend')}
+            description={t('A shared test lives on the server so other people can join it by code. Connect the backend to create one.')}
+          />
+        </Panel>
+      </PageContainer>
+    )
   }
-  function copy() {
-    if (!created) return
-    navigator.clipboard?.writeText(created.code)
-    setCopied(true)
-    setTimeout(() => setCopied(false), 1500)
+
+  if (openRoomId) {
+    return (
+      <PageContainer>
+        <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates.')} />
+        <RoomRunner roomId={openRoomId} onExit={() => { setOpenRoomId(null); void reloadRooms() }} />
+      </PageContainer>
+    )
   }
+
+  async function createRoom() {
+    setBusy(true)
+    setMessage('')
+    const picked = shuffle(available).slice(0, Math.min(count, available.length)).map((question) => question.id)
+    const result = await create({ name: name.trim() || t('Shared test'), questionIds: picked, timed, secondsPerQuestion: null })
+    setBusy(false)
+    if (!result.ok) { setMessage(ROOM_REFUSALS[result.reason ?? ''] ?? t('That test could not be created.')); return }
+    setName('')
+    await reloadRooms()
+    setOpenRoomId(result.room!.id)
+  }
+
+  async function joinRoom() {
+    setBusy(true)
+    setMessage('')
+    const result = await join(joinCode.trim())
+    setBusy(false)
+    if (!result.ok) { setMessage(ROOM_REFUSALS[result.reason ?? ''] ?? t('That code could not be used.')); return }
+    setJoinCode('')
+    await reloadRooms()
+    setOpenRoomId(result.room!.id)
+  }
+
+  const open = rooms.filter((room) => room.status !== 'closed')
+  const past = rooms.filter((room) => room.status === 'closed')
 
   return (
     <PageContainer>
-      <PageHeader
-        title={t('Study Together')}
-        description={t('Create or join a shared test with a short code, then work through it live with classmates.')}
-      />
+      <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates, then compare results.')} />
 
-      <div className="grid gap-4 lg:grid-cols-[1.5fr_1fr]">
-        {created ? (
-          <Panel>
-            <PanelHeader title={t('Test ready to share')} icon={Hash} action={started ? <Badge tone="success">{t('Open now')}</Badge> : undefined} />
-            <div className="space-y-5 p-5">
-              <div>
-                <p className="font-serif text-[20px] font-semibold text-ink">{created.name}</p>
-                <p className="mt-1 text-[13px] text-ink-3">
-                  {count} {t('questions')} · {timed ? t('Timed') : t('Untimed')} · {scope.size === 0 ? t('whole bank') : `${scope.size} ${t('selected')}`}
-                </p>
-              </div>
+      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.3fr)_minmax(18rem,0.7fr)]">
+        <Panel>
+          <PanelHeader title={t('Create a shared test')} icon={Plus} />
+          <div className="space-y-5 p-5">
+            <Field label={t('Name it')}><TextInput value={name} onChange={(event) => setName(event.target.value)} placeholder={t('e.g. Cardiology crunch')} /></Field>
 
-              <div className="flex items-center gap-2 rounded-lg border border-line bg-surface-2 p-2 pl-3">
-                <Icon icon={Hash} size={16} className="text-ink-3" />
-                <span className="tnum flex-1 truncate font-mono text-[18px] font-semibold tracking-[0.16em] text-ink">
-                  {created.code}
-                </span>
-                <Button
-                  variant={copied ? 'secondary' : 'primary'}
-                  size="sm"
-                  iconLeft={copied ? Check : Copy}
-                  onClick={copy}
-                >
-                  {copied ? t('Copied') : t('Copy code')}
-                </Button>
-              </div>
-
-              <div className="rounded-lg border border-line p-4">
-                <p className="mb-3 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-                  {t('Lobby')}
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="flex -space-x-2">
-                    {LOBBY.map((p) => (
-                      <Avatar key={p} name={p} size="sm" className="ring-2 ring-surface" />
-                    ))}
-                  </div>
-                  <span className="text-[13px] text-ink-2">
-                    {t('You and 2 others joined · waiting for more…')}
-                  </span>
-                </div>
-              </div>
-
-              <div className="flex gap-2">
-                <Button variant="primary" size="md" iconLeft={Play} onClick={() => setStarted((value) => !value)}>
-                  {started ? t('Finish test') : t('Start test')}
-                </Button>
-                <Button variant="ghost" size="md" onClick={() => setCreated(null)}>
-                  {t('Edit test')}
-                </Button>
-              </div>
+            <div>
+              <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Which topics?')}</p>
+              <TopicChooser value={scope} onChange={setScope} pool={questions} />
+              <p className="mt-2 text-[12px] text-ink-3">
+                {available.length} {t('questions available')}{scope.size === 0 ? ` · ${t('all topics')}` : ''}
+              </p>
             </div>
-          </Panel>
-        ) : (
-          <Panel>
-            <PanelHeader title={t('Create a shared test')} icon={Plus} />
-            <div className="space-y-5 p-5">
-              <Field label={t('Test name')}>
-                <TextInput
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  placeholder={t('e.g. Cardiology crunch')}
+
+            <div>
+              <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Number of questions')}</p>
+              <div className="flex flex-wrap items-center gap-2">
+                <Segmented
+                  value={lenChoice}
+                  onChange={(value) => setLenChoice(value as typeof lenChoice)}
+                  items={[{ value: '5', label: '5' }, { value: '10', label: '10' }, { value: '20', label: '20' }, { value: '40', label: '40' }, { value: 'custom', label: t('Custom') }]}
                 />
-              </Field>
-
-              <div>
-                <div className="mb-2 flex items-center justify-between">
-                  <p className="text-[12.5px] font-medium text-ink-2">{t('Choose a topic or subtopic')}</p>
-                  {scope.size > 0 && (
-                    <button onClick={() => setScope(new Set())} className="text-[12px] font-medium text-accent hover:text-accent-strong">
-                      {t('Clear')}
-                    </button>
-                  )}
-                </div>
-                <TopicChooser value={scope} onChange={setScope} pool={questions} />
-                <p className="mt-2 text-[11.5px] text-ink-3">
-                  {scope.size === 0
-                    ? t('Nothing selected — questions are drawn from the whole bank.')
-                    : `${Math.min(count, available.length)} ${t('of')} ${available.length} ${t('available questions')}`}
-                </p>
-              </div>
-
-              <div className="flex flex-wrap items-end gap-x-10 gap-y-4">
-                <div>
-                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Number of questions')}</p>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <Segmented
-                      value={lenChoice}
-                      onChange={(v) => setLenChoice(v as typeof lenChoice)}
-                      items={[
-                        { value: '5', label: '5' },
-                        { value: '10', label: '10' },
-                        { value: '20', label: '20' },
-                        { value: '40', label: '40' },
-                        { value: 'custom', label: t('Custom') },
-                      ]}
-                    />
-                    {lenChoice === 'custom' && (
-                      <input
-                        type="number"
-                        min={1}
-                        max={MAX_QUESTIONS}
-                        value={customLen}
-                        onChange={(e) => setCustomLen(Math.min(MAX_QUESTIONS, Math.max(1, Number(e.target.value) || 1)))}
-                        className="h-9 w-20 rounded-md border border-line bg-surface px-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
-                        aria-label={t('Number of questions')}
-                      />
-                    )}
-                  </div>
-                  <p className="mt-2 text-[12px] text-ink-3">{t('Up to 40 questions per block.')}</p>
-                </div>
-                <label className="flex cursor-pointer items-center gap-2.5 pb-1 text-[13px] text-ink-2">
-                  {t('Timed')}
-                  <Toggle checked={timed} onChange={setTimed} label={t('Timed')} />
-                </label>
-              </div>
-
-              <div className="border-t border-line pt-4">
-                <Button
-                  variant="primary"
-                  size="md"
-                  iconLeft={Hash}
-                  onClick={create}
-                >
-                  {t('Create test code')}
-                </Button>
+                {lenChoice === 'custom' && (
+                  <TextInput type="number" min={1} max={MAX_QUESTIONS} value={customLen} onChange={(event) => setCustomLen(Number(event.target.value))} className="w-24" />
+                )}
               </div>
             </div>
-          </Panel>
-        )}
 
-        <div className="space-y-4">
-        <Panel className="h-fit">
-          <PanelHeader title={t('Join with a code')} icon={LogIn} />
-          <div className="p-4">
-            <Field label={t('Test code')} hint={joined ? `${t('Joined')} ${joined}` : t('Codes contain six letters or numbers.')}>
-              <div className="flex gap-2"><TextInput value={joinCode} onChange={(event) => setJoinCode(event.target.value.toUpperCase().slice(0, 6))} placeholder="e.g. ACUTE7" className="font-mono uppercase tracking-[0.12em]" /><Button variant="primary" onClick={() => joinCode.length >= 4 && setJoined(joinCode)} disabled={joinCode.length < 4}>{t('Join')}</Button></div>
-            </Field>
+            <label className="flex items-center justify-between gap-4">
+              <span>
+                <span className="block text-[13px] font-medium text-ink">{t('Timed')}</span>
+                <span className="mt-0.5 block text-[12px] text-ink-3">{t('Recorded on each answer, for comparing pace afterwards.')}</span>
+              </span>
+              <Toggle checked={timed} onChange={setTimed} label={t('Timed')} />
+            </label>
+
+            {message && <p role="status" className="text-[12.5px] text-danger">{message}</p>}
+
+            <Button
+              variant="primary"
+              iconLeft={Plus}
+              loading={busy}
+              disabled={available.length === 0}
+              onClick={() => void createRoom()}
+            >
+              {available.length === 0 ? t('No questions published yet') : t('Create and get a code')}
+            </Button>
           </div>
         </Panel>
-        <Panel className="h-fit">
-          <PanelHeader title={t('Open now')} icon={Users} hint={`${OPEN_NOW.length} ${t('tests')}`} />
-          <ul className="divide-y divide-line">
-            {OPEN_NOW.map((test) => <li key={test.id} className="flex items-center gap-3 px-4 py-3"><div className="min-w-0 flex-1"><p className="truncate text-[13.5px] font-medium text-ink">{test.name}</p><p className="mt-0.5 text-[12px] text-ink-3">{test.joined} {t('joined')} · {test.questions} {t('questions')} · {t('code')} <span className="font-mono">{test.code}</span></p></div><Button size="sm" variant="secondary" onClick={() => { setJoinCode(test.code); setJoined(test.code) }}>{t('Join')}</Button></li>)}
-          </ul>
-        </Panel>
-        <Panel className="h-fit">
-          <PanelHeader title={t('Finished')} icon={Check} />
-          <ul className="divide-y divide-line">
-            {PAST.map((past) => (
-              <li key={past.id} className="flex flex-wrap items-center gap-3 px-4 py-3 sm:flex-nowrap">
-                <div className="min-w-0 flex-1">
-                  <p className="truncate text-[13.5px] font-medium text-ink">{past.name}</p>
-                  <p className="mt-0.5 text-[12px] text-ink-3">
-                    {past.joined} {t('joined')} · {past.when}
-                  </p>
-                </div>
-                <Badge tone="neutral">{t('avg')} {past.avg}%</Badge>
-                <Button size="sm" variant="ghost" iconLeft={RotateCcw} onClick={() => { setName(past.name); setCreated(null) }}>{t('Sit it again')}</Button>
-              </li>
-            ))}
-          </ul>
-        </Panel>
+
+        <div className="space-y-4">
+          <Panel>
+            <PanelHeader title={t('Join with a code')} icon={LogIn} />
+            <div className="space-y-3 p-5">
+              <TextInput
+                value={joinCode}
+                onChange={(event) => setJoinCode(event.target.value.toUpperCase())}
+                onKeyDown={(event) => { if (event.key === 'Enter') void joinRoom() }}
+                placeholder={t('e.g. K7PQR2')}
+                className="font-mono tracking-[0.2em]"
+                aria-label={t('Shared test code')}
+              />
+              <Button className="w-full" variant="secondary" iconLeft={LogIn} loading={busy} disabled={joinCode.trim().length < 4} onClick={() => void joinRoom()}>
+                {t('Join')}
+              </Button>
+            </div>
+          </Panel>
+
+          <Panel>
+            <PanelHeader title={t('Your shared tests')} icon={Users} hint={open.length ? `${open.length} ${t('open')}` : undefined} />
+            {open.length === 0 ? (
+              <p className="px-5 py-6 text-center text-[12.5px] leading-relaxed text-ink-3">{t('No shared test open. Create one, or join with a code.')}</p>
+            ) : (
+              <ul className="divide-y divide-line">
+                {open.map((room) => (
+                  <li key={room.id}>
+                    <button type="button" onClick={() => setOpenRoomId(room.id)} className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-inset">
+                      <span className="min-w-0 flex-1">
+                        <span className="block truncate text-[13.5px] font-medium text-ink">{room.name}</span>
+                        <span className="mt-0.5 block text-[12px] text-ink-3">
+                          <span className="font-mono">{room.code}</span> · {room.members} {room.members === 1 ? t('person') : t('people')} · {room.questionCount} {t('questions')}
+                        </span>
+                      </span>
+                      <Badge tone={room.status === 'lobby' ? 'neutral' : 'accent'}>{room.status === 'lobby' ? t('Waiting') : t('Running')}</Badge>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </Panel>
+
+          <Panel>
+            <PanelHeader title={t('Finished')} icon={Trophy} />
+            {past.length === 0 ? (
+              <p className="px-5 py-6 text-center text-[12.5px] text-ink-3">{t('Nothing finished yet.')}</p>
+            ) : (
+              <ul className="divide-y divide-line">
+                {past.map((room) => (
+                  <li key={room.id} className="flex items-center gap-3 px-4 py-3">
+                    <span className="min-w-0 flex-1">
+                      <span className="block truncate text-[13.5px] font-medium text-ink">{room.name}</span>
+                      <span className="mt-0.5 block text-[12px] text-ink-3">
+                        {room.members} {room.members === 1 ? t('person') : t('people')} · {formatRelativeTime(room.createdAt)}
+                      </span>
+                    </span>
+                    <span className="tnum shrink-0 font-mono text-[13px] font-medium text-ink">
+                      {room.questionCount ? `${Math.round((room.correct / room.questionCount) * 100)}%` : '—'}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </Panel>
         </div>
       </div>
     </PageContainer>

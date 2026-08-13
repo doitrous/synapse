@@ -1,37 +1,46 @@
-import { useState } from 'react'
-import { BarChart3, Brain, Clock3, GaugeCircle, Layers, ListChecks, Table2, Timer, TrendingUp, Trophy } from 'lucide-react'
-import { bySubject, byType, cohortSize, firstAttempt, leaderboard, studyAllocation, studyByHour, timeManagement, yourPercentile } from '@/data/performance'
-import { getSubject, progress } from '@/data/student'
+import { useMemo, useState } from 'react'
+import { BarChart3, Brain, Clock3, Layers, ListChecks, Table2, Timer, TrendingUp } from 'lucide-react'
+import { getSubject } from '@/data/subjects'
+import {
+  accuracyOf, byDifficulty, bySubject, bySurface, currentStreak, distinctItems,
+  firstAttemptSplit, hourHistogram, marked, medianSeconds, weakest,
+} from '@/data/attemptStats'
+import type { AttemptRecord } from '@/data/attempts'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { ConceptMasteryPanel } from '@/components/performance/ConceptMastery'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Badge } from '@/components/ui/Badge'
 import { BarList } from '@/components/charts/BarList'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Icon } from '@/components/ui/Icon'
+import { EmptyState } from '@/components/ui/EmptyState'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { useT } from '@/lib/i18n'
 import { Segmented } from '@/components/ui/Tabs'
-import { formatMinutes, formatTimeString } from '@/lib/format'
+import { useAttemptHistory } from '@/lib/useAttemptLog'
+import { formatTimeString } from '@/lib/format'
 import { cn } from '@/lib/cn'
 
-const PACE_COLOR: Record<string, string> = { success: 'var(--color-success)', warning: 'var(--color-warning)', neutral: 'var(--color-ink-3)' }
+/**
+ * Marked answers needed before this page reports anything.
+ *
+ * Below this, every panel is a percentage computed from a handful of items and
+ * will swing wildly on one wrong answer. Saying "not yet" is more useful than
+ * a chart that means nothing.
+ */
+const MIN_MARKED = 20
 
-/** A compact 5-session accuracy trend line. */
-function Sparkline({ values }: { values: number[] }) {
-  const min = Math.min(...values)
-  const max = Math.max(...values)
-  const range = max - min || 1
-  const points = values.map((v, i) => `${(i / (values.length - 1)) * 100},${26 - ((v - min) / range) * 22}`).join(' ')
-  const rising = values[values.length - 1] >= values[0]
-  return (
-    <svg viewBox="0 0 100 28" preserveAspectRatio="none" className="h-6 w-20" aria-hidden>
-      <polyline points={points} fill="none" stroke={rising ? 'var(--color-success)' : 'var(--color-danger)'} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
-    </svg>
-  )
+/** Marked answers a subject needs before its own row is worth showing. */
+const MIN_PER_SUBJECT = 3
+
+const SURFACE_LABEL: Record<string, string> = {
+  qbank: 'Question bank',
+  room: 'Shared tests',
+  case: 'Clinical cases',
+  lab: 'Lab & imaging',
+  station: 'OSCE stations',
 }
 
-function KpiTile({ icon, value, label, sub, tone }: { icon: typeof Trophy; value: string; label: string; sub?: string; tone?: string }) {
+function KpiTile({ icon, value, label, sub, tone }: { icon: typeof Timer; value: string; label: string; sub?: string; tone?: string }) {
   return (
     <Panel className="p-4">
       <div className="flex items-center gap-2 text-ink-3"><Icon icon={icon} size={15} /><p className="text-[12px] font-medium text-ink-2">{label}</p></div>
@@ -41,84 +50,244 @@ function KpiTile({ icon, value, label, sub, tone }: { icon: typeof Trophy; value
   )
 }
 
-function WhenYouStudy() {
-  const [range, setRange] = useState<'day' | 'week' | 'month'>('week')
-  const values = studyByHour[range]
+/**
+ * When answers actually get committed, by hour.
+ *
+ * Counts answers, not minutes. Nothing in this app measures reading time, and
+ * the previous version's three 24-element "minutes recorded" arrays were
+ * literals — there was no recording behind them.
+ */
+function WhenYouStudy({ records }: { records: AttemptRecord[] }) {
+  const t = useT()
+  const [range, setRange] = useState<'week' | 'month' | 'all'>('week')
+
+  const windowed = useMemo(() => {
+    if (range === 'all') return records
+    const days = range === 'week' ? 7 : 30
+    const cutoff = Date.now() - days * 86_400_000
+    return records.filter((record) => new Date(record.at).getTime() >= cutoff)
+  }, [range, records])
+
+  const hours = useMemo(() => hourHistogram(windowed), [windowed])
+  const peak = Math.max(1, ...hours)
+
   return (
     <Panel>
-      <PanelHeader title="When you actually study" icon={Clock3} hint="Minutes recorded by hour of day" action={<Segmented value={range} onChange={(value) => setRange(value as typeof range)} items={[{ value: 'day', label: 'Day' }, { value: 'week', label: 'Week' }, { value: 'month', label: 'Month' }]} />} />
+      <PanelHeader
+        title={t('When you actually study')}
+        icon={Clock3}
+        hint={t('Answers committed, by hour of day')}
+        action={<Segmented value={range} onChange={(value) => setRange(value as typeof range)} items={[{ value: 'week', label: t('Week') }, { value: 'month', label: t('Month') }, { value: 'all', label: t('All') }]} />}
+      />
       <div className="p-5">
-        <div className="flex h-44 items-end gap-1 border-b border-line-2">
-          {values.map((value, hour) => <div key={hour} className="group relative flex h-full flex-1 items-end focus-visible:outline-none" tabIndex={0} role="img" aria-label={`${value} minutes at ${formatTimeString(`${String(hour).padStart(2, '0')}:00`)}`}><div className="w-full rounded-t-[3px] bg-accent/75 transition-colors group-hover:bg-accent group-focus:bg-accent" style={{ height: `${value}%` }} /><span className="pointer-events-none absolute bottom-[calc(100%+0.35rem)] left-1/2 z-10 hidden -translate-x-1/2 whitespace-nowrap rounded border border-line bg-surface px-2 py-1 font-mono text-[10px] text-ink shadow-raised group-hover:block group-focus:block">{value} min · {formatTimeString(`${String(hour).padStart(2, '0')}:00`)}</span></div>)}
-        </div>
-        <div className="mt-2 flex justify-between font-mono text-[10px] text-ink-3"><span>12:00 AM</span><span>6:00 AM</span><span>12:00 PM</span><span>6:00 PM</span><span>11:00 PM</span></div>
+        {windowed.length === 0 ? (
+          <p className="py-10 text-center text-[13px] text-ink-3">{t('Nothing answered in this window.')}</p>
+        ) : (
+          <>
+            <div className="flex h-44 items-end gap-1 border-b border-line-2">
+              {hours.map((value, hour) => (
+                <div key={hour} className="group relative flex h-full flex-1 items-end focus-visible:outline-none" tabIndex={0} role="img" aria-label={`${value} ${t('answers')} · ${formatTimeString(`${String(hour).padStart(2, '0')}:00`)}`}>
+                  <div className="w-full rounded-t-[3px] bg-accent/75 transition-colors group-hover:bg-accent group-focus:bg-accent" style={{ height: `${(value / peak) * 100}%` }} />
+                  <span className="pointer-events-none absolute bottom-[calc(100%+0.35rem)] left-1/2 z-10 hidden -translate-x-1/2 whitespace-nowrap rounded border border-line bg-surface px-2 py-1 font-mono text-[10px] text-ink shadow-raised group-hover:block group-focus:block">{value} · {formatTimeString(`${String(hour).padStart(2, '0')}:00`)}</span>
+                </div>
+              ))}
+            </div>
+            <div className="mt-2 flex justify-between font-mono text-[10px] text-ink-3"><span>12:00 AM</span><span>6:00 AM</span><span>12:00 PM</span><span>6:00 PM</span><span>11:00 PM</span></div>
+          </>
+        )}
       </div>
     </Panel>
   )
 }
 
+/**
+ * The student's own record, and only their own record.
+ *
+ * Cohort comparison is gone from this page: the year median, the percentile,
+ * the anonymous leaderboard and the "13 seconds slower than the median" line
+ * were all literals in a source file, and no cohort aggregate exists anywhere
+ * in this product to replace them with. Everything left is derived from the
+ * attempt log and the concept mastery ledger.
+ */
 export function Performance() {
   const t = useT()
-  const totalStudy = studyAllocation.reduce((sum, item) => sum + item.minutes, 0)
-  const totalAnswered = bySubject.reduce((sum, row) => sum + row.answered, 0)
-  const overallAccuracy = Math.round(bySubject.reduce((sum, row) => sum + row.accuracy * row.answered, 0) / totalAnswered)
-  const cohortAccuracy = Math.round(firstAttempt.reduce((sum, row) => sum + row.yearMedian * row.answered, 0) / totalAnswered)
-  const accuracyDelta = overallAccuracy - cohortAccuracy
+  const { records, loading } = useAttemptHistory()
+
+  const scored = useMemo(() => marked(records), [records])
+  const subjects = useMemo(
+    () => bySubject(records).filter((row) => row.marked >= MIN_PER_SUBJECT),
+    [records],
+  )
+  const split = useMemo(() => firstAttemptSplit(records), [records])
+  const difficulties = useMemo(() => byDifficulty(records), [records])
+  const surfaces = useMemo(() => bySurface(records), [records])
+  const overall = accuracyOf(records)
+  const median = medianSeconds(records)
+
+  if (loading) {
+    return (
+      <PageContainer>
+        <PageHeader title={t('Performance')} description={t('Your accuracy, weak areas, and the shape of your study time.')} />
+        <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading your record…')}</Panel>
+      </PageContainer>
+    )
+  }
+
+  if (scored.length < MIN_MARKED) {
+    return (
+      <PageContainer>
+        <PageHeader title={t('Performance')} description={t('Your accuracy, weak areas, and the shape of your study time.')} />
+        <div className="space-y-4">
+          <Panel className="p-10">
+            <EmptyState
+              icon={TrendingUp}
+              title={t('Not enough answers yet')}
+              description={`${t('This page reports on your own marked answers. It needs at least')} ${MIN_MARKED} ${t('before any figure here would mean anything — you have')} ${scored.length}.`}
+            />
+          </Panel>
+          <ConceptMasteryPanel />
+        </div>
+      </PageContainer>
+    )
+  }
+
   return (
     <PageContainer>
-      <PageHeader title={t('Performance')} description={t('First-attempt accuracy, cohort context, weak areas, and the shape of your study time.')} />
+      <PageHeader title={t('Performance')} description={t('Your accuracy, weak areas, and the shape of your study time.')} />
 
       <div className="space-y-4">
-        {/* At-a-glance KPI row — the numbers a student wants first */}
-        <div className="grid grid-cols-2 gap-3 lg:grid-cols-5">
-          <KpiTile icon={GaugeCircle} value={`${progress.examReadiness}%`} label="Exam readiness" sub={`${progress.daysToExam} days to ${progress.examLabel.split(' ')[0]} exam`} tone="text-accent-strong" />
-          <KpiTile icon={TrendingUp} value={`${overallAccuracy}%`} label="Overall accuracy" sub={`${accuracyDelta >= 0 ? '+' : ''}${accuracyDelta} pp vs cohort`} tone={accuracyDelta >= 0 ? 'text-success' : 'text-danger'} />
-          <KpiTile icon={ListChecks} value={totalAnswered.toLocaleString()} label="Questions answered" sub="First attempts logged" />
-          <KpiTile icon={Trophy} value={`Top ${100 - yourPercentile}%`} label="Cohort rank" sub={`of ${cohortSize} students`} />
-          <KpiTile icon={Timer} value={`${timeManagement.avgSeconds}s`} label="Avg / question" sub={`median ${timeManagement.yearMedianSeconds}s`} />
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+          <KpiTile
+            icon={TrendingUp}
+            value={overall === null ? '—' : `${Math.round(overall * 100)}%`}
+            label={t('Overall accuracy')}
+            sub={`${scored.length} ${t('marked answers')}`}
+            tone="text-accent-strong"
+          />
+          <KpiTile
+            icon={ListChecks}
+            value={split.first.accuracy === null ? '—' : `${Math.round(split.first.accuracy * 100)}%`}
+            label={t('First attempt')}
+            sub={split.repeat.accuracy === null
+              ? t('No repeats yet')
+              : `${Math.round(split.repeat.accuracy * 100)}% ${t('on repeats')}`}
+          />
+          <KpiTile
+            icon={Layers}
+            value={distinctItems(records).toLocaleString()}
+            label={t('Items covered')}
+            sub={`${records.length.toLocaleString()} ${t('attempts in total')}`}
+          />
+          <KpiTile
+            icon={Timer}
+            value={median === null ? '—' : `${median}s`}
+            label={t('Median per question')}
+            sub={median === null ? t('No timed sessions yet') : `${currentStreak(records)} ${t('day streak')}`}
+          />
         </div>
 
         <ConceptMasteryPanel />
 
         <Panel>
-          <PanelHeader title="First-attempt accuracy" icon={Table2} hint="With your last five-session trend, vs your Year 3 median" />
-          <Table>
-            <thead><Tr><Th>Subject</Th><Th align="right">Attempts</Th><Th align="right">You</Th><Th align="right">Year median</Th><Th align="right">Difference</Th><Th align="right" className="pr-4">Trend</Th></Tr></thead>
-            <tbody>{firstAttempt.map((row) => { const subject = getSubject(row.subjectId); const difference = row.accuracy - row.yearMedian; return <Tr key={row.subjectId} hover><Td><span className="inline-flex items-center gap-2"><SubjectDot id={row.subjectId} />{subject.name}</span></Td><Td align="right" className="font-mono text-ink-2">{row.answered}</Td><Td align="right" className="font-mono font-semibold">{row.accuracy}%</Td><Td align="right" className="font-mono text-ink-2">{row.yearMedian}%</Td><Td align="right"><span className={cn('font-mono text-[12px] font-semibold', difference >= 0 ? 'text-success' : 'text-danger')}>{difference >= 0 ? '+' : ''}{difference} pp</span></Td><Td align="right" className="pr-4"><span className="inline-flex justify-end"><Sparkline values={row.lastFive} /></span></Td></Tr>})}</tbody>
-          </Table>
+          <PanelHeader title={t('Accuracy by subject')} icon={Table2} hint={`${t('Subjects with at least')} ${MIN_PER_SUBJECT} ${t('marked answers')}`} />
+          {subjects.length === 0 ? (
+            <p className="p-8 text-center text-[13px] text-ink-3">{t('No subject has enough marked answers to report on yet.')}</p>
+          ) : (
+            <Table>
+              <thead><Tr><Th>{t('Subject')}</Th><Th align="right">{t('Attempts')}</Th><Th align="right">{t('Marked')}</Th><Th align="right">{t('Correct')}</Th><Th align="right" className="pr-4">{t('Accuracy')}</Th></Tr></thead>
+              <tbody>
+                {[...subjects].sort((a, b) => (b.accuracy ?? 0) - (a.accuracy ?? 0)).map((row) => {
+                  const subject = getSubject(row.key)
+                  const pct = row.accuracy === null ? null : Math.round(row.accuracy * 100)
+                  return (
+                    <Tr key={row.key} hover>
+                      <Td><span className="inline-flex items-center gap-2"><SubjectDot id={row.key} />{subject.name}</span></Td>
+                      <Td align="right" className="font-mono text-ink-2">{row.attempts}</Td>
+                      <Td align="right" className="font-mono text-ink-2">{row.marked}</Td>
+                      <Td align="right" className="font-mono text-ink-2">{row.correct}</Td>
+                      <Td align="right" className="pr-4"><span className={cn('font-mono font-semibold', pct !== null && pct < 60 ? 'text-danger' : pct !== null && pct < 80 ? 'text-warning' : 'text-success')}>{pct === null ? '—' : `${pct}%`}</span></Td>
+                    </Tr>
+                  )
+                })}
+              </tbody>
+            </Table>
+          )}
         </Panel>
 
         <div className="grid gap-4 lg:grid-cols-2">
-          <Panel><PanelHeader title="Where are you weak?" icon={Brain} hint="Lowest first-attempt accuracy" /><div className="p-5"><BarList data={[...bySubject].sort((a, b) => a.accuracy - b.accuracy).slice(0, 6).map((row) => ({ key: row.subjectId, value: row.accuracy, valueLabel: `${row.accuracy}%`, color: row.accuracy < 62 ? 'var(--color-danger)' : 'var(--color-warning)', label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.subjectId} />{getSubject(row.subjectId).name}</span> }))} /></div></Panel>
-          <Panel><PanelHeader title="Accuracy by question type" icon={ListChecks} hint="This block" /><div className="p-5"><BarList data={byType.map((row) => ({ key: row.type, value: row.accuracy, valueLabel: `${row.accuracy}%`, label: <span className="truncate">{row.type}</span> }))} /></div></Panel>
-        </div>
+          <Panel>
+            <PanelHeader title={t('Where are you weak?')} icon={Brain} hint={t('Lowest accuracy first')} />
+            <div className="p-5">
+              {weakest(subjects, MIN_PER_SUBJECT, 6).length === 0 ? (
+                <p className="py-8 text-center text-[13px] text-ink-3">{t('Nothing stands out as a weakness yet.')}</p>
+              ) : (
+                <BarList data={weakest(subjects, MIN_PER_SUBJECT, 6).map((row) => {
+                  const pct = Math.round((row.accuracy ?? 0) * 100)
+                  return {
+                    key: row.key,
+                    value: pct,
+                    valueLabel: `${pct}%`,
+                    color: pct < 62 ? 'var(--color-danger)' : 'var(--color-warning)',
+                    label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.key} />{getSubject(row.key).name}</span>,
+                  }
+                })} />
+              )}
+            </div>
+          </Panel>
 
-        <div className="grid gap-4 lg:grid-cols-2">
-          <Panel><PanelHeader title="Coverage by subject" icon={Layers} hint="Questions answered — where your practice is concentrated" /><div className="p-5"><BarList data={[...bySubject].sort((a, b) => b.answered - a.answered).map((row) => ({ key: row.subjectId, value: row.answered, valueLabel: String(row.answered), color: 'var(--color-accent)', label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.subjectId} />{getSubject(row.subjectId).name}</span> }))} /></div></Panel>
-          <WhenYouStudy />
+          <Panel>
+            <PanelHeader title={t('Accuracy by difficulty')} icon={ListChecks} hint={t('As the author graded each item')} />
+            <div className="p-5">
+              {difficulties.filter((row) => row.marked > 0).length === 0 ? (
+                <p className="py-8 text-center text-[13px] text-ink-3">{t('No marked answers yet.')}</p>
+              ) : (
+                <BarList data={difficulties.filter((row) => row.marked > 0).map((row) => {
+                  const pct = Math.round((row.accuracy ?? 0) * 100)
+                  return { key: row.key, value: pct, valueLabel: `${pct}%`, label: <span className="truncate">{t(row.key)}</span> }
+                })} />
+              )}
+            </div>
+          </Panel>
         </div>
 
         <div className="grid gap-4 lg:grid-cols-2">
           <Panel>
-            <PanelHeader title="Year leaderboard" icon={Trophy} hint="Anonymous" action={<Badge tone="accent">Top {100 - yourPercentile}%</Badge>} />
-            <div className="p-2"><ul>{leaderboard.map((row) => <li key={row.rank}><div className={cn('flex items-center gap-3 rounded-md px-3 py-2', row.isYou && 'bg-accent-tint')}><span className={cn('tnum w-6 text-center font-mono text-[13px] font-medium', row.rank <= 3 ? 'text-accent' : 'text-ink-3')}>{row.rank}</span><span className={cn('flex-1 text-[13.5px]', row.isYou ? 'font-semibold text-accent-strong' : 'text-ink')}>{row.isYou ? 'You' : `Student ${row.code}`}</span><div className="hidden h-1.5 w-24 overflow-hidden rounded-full bg-inset sm:block"><div className="h-full rounded-full bg-accent" style={{ width: `${row.score}%` }} /></div><span className="tnum w-10 text-right font-mono text-[12.5px] text-ink-2">{row.score}%</span></div></li>)}</ul><p className="mx-2 mt-2 border-t border-line px-1 py-3 text-[11.5px] leading-relaxed text-ink-3">Names are never shown to anyone. Ranks are recalculated nightly, and only students who meet the minimum attempt count appear. Your position is among {cohortSize} students.</p></div>
+            <PanelHeader title={t('Coverage by subject')} icon={Layers} hint={t('Attempts — where your practice is concentrated')} />
+            <div className="p-5">
+              <BarList data={bySubject(records).map((row) => ({
+                key: row.key,
+                value: row.attempts,
+                valueLabel: String(row.attempts),
+                color: 'var(--color-accent)',
+                label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.key} />{getSubject(row.key).name}</span>,
+              }))} />
+            </div>
           </Panel>
-
-          <Panel>
-            <PanelHeader title="Time management" icon={Timer} />
-            <div className="space-y-5 p-5"><div className="grid grid-cols-3 gap-4"><div><p className="tnum font-mono text-[24px] font-semibold text-ink">{timeManagement.avgSeconds}s</p><p className="text-[12px] text-ink-3">Your average</p></div><div><p className="tnum font-mono text-[24px] font-semibold text-ink">{timeManagement.yearMedianSeconds}s</p><p className="text-[12px] text-ink-3">Year median</p></div><div><p className="tnum font-mono text-[24px] font-semibold text-ink">{timeManagement.flaggedPct}%</p><p className="text-[12px] text-ink-3">Flagged</p></div></div><div><div className="mb-2 flex items-baseline justify-between"><span className="text-[12.5px] font-medium text-ink-2">Pacing</span><span className="text-[12px] text-warning">{timeManagement.avgSeconds - timeManagement.yearMedianSeconds}s slower than median</span></div><div className="flex h-2.5 gap-0.5 overflow-hidden rounded-full">{timeManagement.pacing.map((pace) => <div key={pace.label} style={{ width: `${pace.pct}%`, backgroundColor: PACE_COLOR[pace.tone] }} />)}</div><div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5">{timeManagement.pacing.map((pace) => <span key={pace.label} className="inline-flex items-center gap-1.5 text-[12px] text-ink-2"><span className="size-2 rounded-full" style={{ backgroundColor: PACE_COLOR[pace.tone] }} />{pace.label}<span className="font-mono text-ink-3">{pace.pct}%</span></span>)}</div></div></div>
-          </Panel>
+          <WhenYouStudy records={records} />
         </div>
-
-        <Panel><PanelHeader title="Where does the time go?" icon={BarChart3} hint="This week" /><div className="p-5"><p className="font-mono text-[26px] font-semibold text-ink">{formatMinutes(totalStudy)}</p><p className="text-[12px] text-ink-3">Recorded study time</p><div className="mt-4 flex h-3 overflow-hidden rounded-full">{studyAllocation.map((item, index) => <span key={item.label} style={{ width: `${(item.minutes / totalStudy) * 100}%`, backgroundColor: `color-mix(in srgb, var(--color-accent) ${100 - index * 11}%, var(--color-inset))` }} />)}</div><div className="mt-4 grid gap-x-6 gap-y-2 sm:grid-cols-2">{studyAllocation.map((item) => <div key={item.label} className="flex items-center justify-between text-[12.5px]"><span className="text-ink-2">{item.label}</span><span className="font-mono text-ink">{formatMinutes(item.minutes)}</span></div>)}</div></div></Panel>
 
         <Panel>
-          <PanelHeader title="What that adds up to" />
-          <ol className="divide-y divide-line px-5">{[
-            'Your strongest accuracy is between 7:00 PM and 9:00 PM, and that is also when you study most. That is unusual and worth protecting.',
-            'You spend 13 seconds longer per question than the year median. On a 120-question paper that is 26 minutes you do not have.',
-            'Three of your last four sessions ended within two minutes of a calendar event starting. Short sessions are fine; interrupted ones score worse.',
-          ].map((insight, index) => <li key={insight} className="grid gap-3 py-4 sm:grid-cols-[2.5rem_1fr]"><span className="font-serif text-[21px] text-accent">{String(index + 1).padStart(2, '0')}</span><p className="max-w-4xl text-[14px] leading-relaxed text-ink-2">{insight}</p></li>)}</ol>
+          <PanelHeader title={t('Where does the work go?')} icon={BarChart3} hint={t('Attempts by surface')} />
+          <div className="p-5">
+            <p className="font-mono text-[26px] font-semibold text-ink">{records.length.toLocaleString()}</p>
+            <p className="text-[12px] text-ink-3">{t('Attempts recorded')}</p>
+            <div className="mt-4 flex h-3 overflow-hidden rounded-full">
+              {surfaces.map((row, index) => (
+                <span key={row.key} style={{ width: `${(row.attempts / records.length) * 100}%`, backgroundColor: `color-mix(in srgb, var(--color-accent) ${100 - index * 14}%, var(--color-inset))` }} />
+              ))}
+            </div>
+            <div className="mt-4 grid gap-x-6 gap-y-2 sm:grid-cols-2">
+              {surfaces.map((row) => (
+                <div key={row.key} className="flex items-center justify-between text-[12.5px]">
+                  <span className="text-ink-2">{t(SURFACE_LABEL[row.key] ?? row.key)}</span>
+                  <span className="font-mono text-ink">{row.attempts}</span>
+                </div>
+              ))}
+            </div>
+            <p className="mt-5 border-t border-line pt-4 text-[11.5px] leading-relaxed text-ink-3">
+              {t('Stations and checklists are self-scored, so they count as attempts but never toward an accuracy. Cohort comparison is not available: nothing in Synapse aggregates other students yet.')}
+            </p>
+          </div>
         </Panel>
       </div>
     </PageContainer>

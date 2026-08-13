@@ -1,13 +1,30 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { API_MODE, getState, getUserState, putState, putUserState, stateOwnerId } from './api'
+import { API_MODE, errorKind, getState, getUserState, isRetryable, putState, putUserState, stateOwnerId, type StateErrorKind } from './api'
 import { isUserOwnedState } from './stateOwnership'
 import { recoveryCopyWins } from './statePrecedence'
 
+/** How a surface's stored document is currently doing. */
+export interface PersistentStateStatus {
+  /** True once the stored document has been read (or in demo mode, always). */
+  hydrated: boolean
+  /** Set when a read or write failed in a way that will not fix itself. */
+  error: StateErrorKind | null
+  /** True while a change is still on its way to the server. */
+  pending: boolean
+}
+
+const RETRY_MS = 2_000
+
 /**
  * Small persistence boundary. Two modes:
- *  - Demo (no VITE_API_BASE): backed by localStorage, seeded from demo data.
+ *  - Demo (no VITE_API_BASE): backed by localStorage.
  *  - Live (VITE_API_BASE set): hydrated from and persisted to the backend
- *    (MariaDB) via /api/state/:key; localStorage is not used.
+ *    (MariaDB) via /api/state/:key or /api/user-state/:key.
+ *
+ * A refusal (401/403/413) is terminal: it is a decision about this document,
+ * so repeating the request only reproduces it. Only a network or 5xx failure
+ * is retried. The third element of the return value reports which happened, so
+ * a surface can say "this could not be saved" instead of quietly losing work.
  */
 export function usePersistentState<T>(key: string, initial: T | (() => T)) {
   const userOwned = isUserOwnedState(key)
@@ -24,6 +41,7 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
     }
     return typeof initial === 'function' ? (initial as () => T)() : initial
   })
+  const [status, setStatus] = useState<PersistentStateStatus>(() => ({ hydrated: !API_MODE, error: null, pending: false }))
 
   const lastWritten = useRef<string | null>(null)
   const hydrated = useRef(!API_MODE) // in demo mode we are "hydrated" immediately
@@ -36,6 +54,11 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
     ? putUserState(key, next, keepalive)
     : putState(key, next), [key, userOwned])
 
+  /** Stop keeping a copy that can never be delivered, so it is not replayed. */
+  const dropRecoveryCopy = useCallback(() => {
+    try { if (recoveryKeyRef.current) localStorage.removeItem(recoveryKeyRef.current) } catch { /* ignore */ }
+  }, [])
+
   flushRef.current = async () => {
     if (!API_MODE || writing.current || !hydrated.current) return
     writing.current = true
@@ -44,19 +67,30 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
         const pending = queued.current
         try {
           await writeRemote(pending.value)
-        } catch {
+        } catch (error) {
+          const kind = errorKind(error)
+          if (!isRetryable(kind)) {
+            // The server has decided about this document. Retrying would ask
+            // the same question every two seconds and get the same answer, so
+            // the change is abandoned and the surface is told why.
+            queued.current = null
+            dropRecoveryCopy()
+            setStatus((s) => ({ ...s, error: kind, pending: false }))
+            break
+          }
           if (retryTimer.current == null) {
             retryTimer.current = window.setTimeout(() => {
               retryTimer.current = null
               void flushRef.current()
-            }, 2_000)
+            }, RETRY_MS)
           }
           break
         }
         lastWritten.current = pending.serialized
         if (queued.current?.serialized === pending.serialized) {
           queued.current = null
-          try { if (recoveryKeyRef.current) localStorage.removeItem(recoveryKeyRef.current) } catch { /* ignore */ }
+          dropRecoveryCopy()
+          setStatus((s) => (s.error || s.pending ? { ...s, error: null, pending: false } : s))
         }
       }
     } finally {
@@ -68,9 +102,18 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
   useEffect(() => {
     if (!API_MODE) return
     let cancelled = false
-    const readRemote = userOwned ? getUserState<T>(key) : getState<T>(key)
-    readRemote.then(async (remote) => {
+    let hydrateTimer: number | null = null
+
+    const attempt = async () => {
+      const remote = await (userOwned ? getUserState<T>(key) : getState<T>(key))
       if (cancelled) return
+      if (remote.error) {
+        // Never mark this hydrated: writing now would push the local seed over
+        // a stored document we were simply unable to read.
+        setStatus((s) => ({ ...s, error: remote.error }))
+        if (isRetryable(remote.error)) hydrateTimer = window.setTimeout(() => { hydrateTimer = null; void attempt() }, RETRY_MS)
+        return
+      }
       if (userOwned) {
         const ownerId = await stateOwnerId()
         if (cancelled) return
@@ -96,7 +139,7 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
         // cannot be replayed on a later load.
         if (recovered) {
           queued.current = null
-          try { if (recoveryKeyRef.current) localStorage.removeItem(recoveryKeyRef.current) } catch { /* ignore */ }
+          dropRecoveryCopy()
         }
         if (remote.value != null) {
           lastWritten.current = JSON.stringify(remote.value)
@@ -104,10 +147,16 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
         }
       }
       hydrated.current = true
+      setStatus((s) => ({ ...s, hydrated: true, error: null }))
       void flushRef.current()
-    })
-    return () => { cancelled = true }
-  }, [key, sharedRecoveryKey, userOwned, writeRemote])
+    }
+
+    void attempt()
+    return () => {
+      cancelled = true
+      if (hydrateTimer != null) window.clearTimeout(hydrateTimer)
+    }
+  }, [key, sharedRecoveryKey, userOwned, writeRemote, dropRecoveryCopy])
 
   // Persist changes.
   useEffect(() => {
@@ -115,8 +164,9 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
     try { serialized = JSON.stringify(value) } catch { return }
     if (serialized === lastWritten.current) return
     if (API_MODE) {
-      if (!hydrated.current) return // don't overwrite the server with the pre-hydration empty value
+      if (!hydrated.current) return // don't overwrite the server with the pre-hydration value
       queued.current = { serialized, value }
+      setStatus((s) => (s.pending ? s : { ...s, pending: true }))
       try {
         if (recoveryKeyRef.current) localStorage.setItem(recoveryKeyRef.current, JSON.stringify({ value, savedAt: new Date().toISOString() }))
       } catch { /* the remote queue still continues */ }
@@ -134,7 +184,7 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
     const online = () => void flushRef.current()
     const pagehide = () => {
       const pending = queued.current
-      if (pending) void writeRemote(pending.value, true)
+      if (pending) void writeRemote(pending.value, true).catch(() => undefined)
     }
     window.addEventListener('online', online)
     window.addEventListener('pagehide', pagehide)
@@ -157,5 +207,21 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
     return () => window.removeEventListener('storage', onStorage)
   }, [key])
 
-  return [value, setValue] as const
+  return [value, setValue, status] as const
+}
+
+/**
+ * Carry a demo-mode document over to a renamed key, once.
+ *
+ * Only localStorage needs this: the keys being renamed were unreachable in live
+ * mode, so no student ever had one stored on the server.
+ */
+export function migrateLegacyLocalKey(oldKey: string, newKey: string): void {
+  if (API_MODE || typeof window === 'undefined') return
+  try {
+    const legacy = localStorage.getItem(oldKey)
+    if (legacy == null) return
+    if (localStorage.getItem(newKey) == null) localStorage.setItem(newKey, legacy)
+    localStorage.removeItem(oldKey)
+  } catch { /* private browsing — the student simply starts fresh */ }
 }

@@ -1,4 +1,4 @@
-import { currentStudentAudience } from './vouchers'
+import type { AudienceProfile } from './vouchers'
 
 export type NotificationDelivery = 'Immediate' | 'Scheduled' | 'Automated'
 export type NotificationAutomation = 'None' | 'Before calendar event' | 'Review becomes due' | 'New content published' | 'Weekly progress summary'
@@ -57,12 +57,35 @@ export const initialNotificationCampaigns: NotificationCampaign[] = [
   },
 ]
 
-export function notificationMatchesStudent(notification: NotificationCampaign) {
-  const profile = currentStudentAudience()
+/**
+ * Whether this campaign was addressed to this student.
+ *
+ * An empty list means "everyone", so an untargeted campaign reaches a student
+ * whose profile is still incomplete. A campaign that does name universities,
+ * years or groups reaches nobody we cannot place — which is the right way round
+ * for a message written for one cohort.
+ */
+export function notificationMatchesStudent(notification: NotificationCampaign, profile: AudienceProfile) {
   return notification.active
     && (notification.universityIds.length === 0 || notification.universityIds.includes(profile.universityId))
     && (notification.years.length === 0 || notification.years.includes(profile.year))
     && (notification.groups.length === 0 || notification.groups.includes(profile.group))
+}
+
+/**
+ * Whether the student has asked to see this kind of notice.
+ *
+ * The Account page has always offered these two toggles and nothing has ever
+ * read them. A preference that changes nothing is worse than no preference, so
+ * the bell now honours them.
+ */
+export function notificationAllowedByPrefs(
+  notification: NotificationCampaign,
+  prefs: { reviewReminders: boolean; calendarReminders: boolean },
+): boolean {
+  if (notification.automation === 'Review becomes due') return prefs.reviewReminders
+  if (notification.automation === 'Before calendar event') return prefs.calendarReminders
+  return true
 }
 
 export function notificationIsDue(notification: NotificationCampaign) {

@@ -8,7 +8,7 @@ import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { IconButton } from '@/components/ui/IconButton'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { seedOr } from '@/lib/api'
+import { API_MODE } from '@/lib/api'
 import { formatDateTime } from '@/lib/format'
 import { YEARS } from '@/data/universities'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
@@ -36,7 +36,7 @@ function localDateTime(value: string) {
 
 export function NotificationCampaigns() {
   const [universityCatalogue] = useUniversityCatalogue()
-  const [campaigns, setCampaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, seedOr(initialNotificationCampaigns, []))
+  const [campaigns, setCampaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
   const [editing, setEditing] = useState<NotificationCampaign | null>(null)
   const [notice, setNotice] = useState('')
   const active = useMemo(() => campaigns.filter((campaign) => campaign.active).length, [campaigns])

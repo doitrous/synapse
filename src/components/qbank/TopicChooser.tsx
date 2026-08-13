@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import { ChevronRight, Check } from 'lucide-react'
-import { libraryTopics } from '@/data/library'
-import { subjects } from '@/data/student'
+import { subjects } from '@/data/subjects'
 import type { Question } from '@/data/qbank'
 import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import { scopeCounts, topicKey, subtopicKey, type Scope } from '@/data/qbankScope'
+import { useLiveLibrary } from '@/lib/useLiveLibrary'
 
 function Box({ checked, partial }: { checked: boolean; partial?: boolean }) {
   return (
@@ -38,7 +38,9 @@ export function TopicChooser({
   pool: Question[]
 }) {
   const t = useT()
-  const counts = scopeCounts(pool)
+  // The same chapter tree the Library shows — not the demo seed.
+  const { topics: libraryTopics } = useLiveLibrary()
+  const counts = scopeCounts(pool, libraryTopics)
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
 
   const groups = subjects

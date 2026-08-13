@@ -1,4 +1,4 @@
-import { libraryTopics } from '@/data/library'
+import type { LibTopic } from '@/data/library'
 import type { Question } from '@/data/qbank'
 
 /**
@@ -11,8 +11,17 @@ export type Scope = Set<string>
 export const topicKey = (topicId: string) => `t:${topicId}`
 export const subtopicKey = (subtopicId: string) => `s:${subtopicId}`
 
+/**
+ * The chapter tree is passed in, never imported.
+ *
+ * These functions used to read `libraryTopics` — the demo seed — directly, so
+ * with a backend configured the chooser offered demo chapters and matched live
+ * questions against demo chapter titles. The caller now supplies the tree from
+ * `useLiveLibrary`, which is the same source the Library renders.
+ */
+
 /** The subtopic ids implied by a scope (expanding any whole-topic selections). */
-export function scopeSubtopicIds(scope: Scope): Set<string> {
+export function scopeSubtopicIds(scope: Scope, libraryTopics: LibTopic[]): Set<string> {
   const ids = new Set<string>()
   const topicIds = new Set<string>()
   scope.forEach((key) => {
@@ -26,9 +35,9 @@ export function scopeSubtopicIds(scope: Scope): Set<string> {
 }
 
 /** Filter a pool of questions to those covered by the scope. Empty scope = all. */
-export function questionsInScope(pool: Question[], scope: Scope): Question[] {
+export function questionsInScope(pool: Question[], scope: Scope, libraryTopics: LibTopic[] = []): Question[] {
   if (scope.size === 0) return pool
-  const subtopicIds = scopeSubtopicIds(scope)
+  const subtopicIds = scopeSubtopicIds(scope, libraryTopics)
   // Also match on topic title for whole-topic selections, so questions whose
   // library reference id differs but whose topic matches are still included.
   const topicTitles = new Set<string>()
@@ -45,7 +54,7 @@ export function questionsInScope(pool: Question[], scope: Scope): Question[] {
 }
 
 /** Count questions available per topic / subtopic within a pool, for badges. */
-export function scopeCounts(pool: Question[]): { topics: Record<string, number>; subtopics: Record<string, number> } {
+export function scopeCounts(pool: Question[], libraryTopics: LibTopic[]): { topics: Record<string, number>; subtopics: Record<string, number> } {
   const subtopics: Record<string, number> = {}
   const topics: Record<string, number> = {}
   libraryTopics.forEach((topic) => {

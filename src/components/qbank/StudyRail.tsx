@@ -5,10 +5,18 @@ import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import type { Question } from '@/data/qbank'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { migrateLegacyLocalKey, usePersistentState } from '@/lib/usePersistentState'
 import { useT } from '@/lib/i18n'
 
-export const QBANK_NOTES_STORAGE_KEY = 'synapse-qbank-question-notes-v1'
+/**
+ * Dotted so `isUserOwnedState` matches `synapse.qbank.*` and these notes land in
+ * the student's own record. The hyphenated key it replaces matched no pattern,
+ * so every student's private notes were routed to one shared admin document.
+ */
+export const QBANK_NOTES_STORAGE_KEY = 'synapse.qbank.questionNotes.v1'
+const LEGACY_QBANK_NOTES_STORAGE_KEY = 'synapse-qbank-question-notes-v1'
+
+migrateLegacyLocalKey(LEGACY_QBANK_NOTES_STORAGE_KEY, QBANK_NOTES_STORAGE_KEY)
 
 function Section({
   title,
@@ -90,7 +98,7 @@ export function StudyRail({
             className="min-h-[7rem] text-[13px]"
             aria-label={t('Notes for this question')}
           />
-          <p className="mt-1.5 text-[11px] text-ink-3">{t('Saved on this device, and kept when you review.')}</p>
+          <p className="mt-1.5 text-[11px] text-ink-3">{t('Saved to your account, and kept when you review.')}</p>
         </Section>
 
         {!revealed && <Held />}

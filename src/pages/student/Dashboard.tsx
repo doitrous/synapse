@@ -9,9 +9,10 @@ import { TodaysSchedule, TodaysPlanList } from '@/components/dashboard/TodaysPla
 import { StudyHeatmap } from '@/components/dashboard/StudyHeatmap'
 import { LastUsedResources } from '@/components/dashboard/LastUsedResources'
 import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
-import { progress } from '@/data/student'
 import { formatLongDate } from '@/lib/format'
 import { useT } from '@/lib/i18n'
+import { useIdentity } from '@/lib/useIdentity'
+import { nextExam, useStudentSchedule } from '@/lib/useStudentSchedule'
 
 function greetingKey(): string {
   const h = new Date().getHours()
@@ -22,20 +23,41 @@ function greetingKey(): string {
 
 export function Dashboard() {
   const t = useT()
+  const { displayName, profileMissing } = useIdentity()
+  const { sessions } = useStudentSchedule()
+  // Only claimed when an exam is actually on the published timetable. The line
+  // used to read "38 days to your Cardiovascular exam — you're on track" from a
+  // literal, for every student, on every day of the year.
+  const exam = nextExam(sessions)
+
   return (
     <PageContainer>
       <div className="mb-6 flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
         <div>
           <h1 className="font-serif text-[28px] font-semibold tracking-[-0.02em] text-ink sm:text-[32px]">
-            {t(greetingKey())}، Maya
+            {t(greetingKey())}، {displayName}
           </h1>
           <p className="mt-1.5 text-[14px] text-ink-2">
-            {formatLongDate(new Date())} ·{' '}
-            <span className="font-medium text-ink">{progress.daysToExam} {t('days')}</span> {t('to your Cardiovascular exam — you\'re on track.')}
+            {formatLongDate(new Date())}
+            {exam && (
+              <>
+                {' · '}
+                <span className="font-medium text-ink">
+                  {exam.daysAway === 0 ? t('today') : `${exam.daysAway} ${exam.daysAway === 1 ? t('day') : t('days')}`}
+                </span>{' '}
+                {t('to')} {exam.session.title || exam.session.label}
+              </>
+            )}
           </p>
         </div>
         <Link to="/app/calendar"><Button variant="primary" size="md" iconLeft={Play}>{t("Continue today's plan")}</Button></Link>
       </div>
+
+      {profileMissing && (
+        <div className="mb-4 rounded-lg border border-warning/30 bg-warning-tint px-4 py-3 text-[13px] leading-relaxed text-ink-2">
+          {t("Your university hasn't set up your student profile yet, so your timetable and any content scoped to your year won't appear. Everything else works as normal.")}
+        </div>
+      )}
 
       <div className="space-y-4">
         {/* What's next + what's slipping */}

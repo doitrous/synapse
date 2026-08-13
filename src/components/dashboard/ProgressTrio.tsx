@@ -1,11 +1,20 @@
-import type { CSSProperties, ReactNode } from 'react'
+import { useMemo, type CSSProperties, type ReactNode } from 'react'
 import { TrendingUp } from 'lucide-react'
-import { progress } from '@/data/student'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
+import { masteryBand } from '@/data/mastery'
+import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { summariseSkills } from '@/data/practicalProgress'
+import { dailyCounts, distinctItems, firstAttemptSplit } from '@/data/attemptStats'
+import { useMastery } from '@/lib/useMastery'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { useAttemptHistory, useAttemptTotals } from '@/lib/useAttemptLog'
+import { usePracticalProgress } from '@/lib/usePracticalProgress'
+import { useLivePracticals } from '@/lib/useLivePracticals'
+import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 
 type Tone = 'danger' | 'accent' | 'success'
 
@@ -153,58 +162,143 @@ function StatBox({
   )
 }
 
+/**
+ * How much of the curriculum the student has actually demonstrated.
+ *
+ * This replaced an "exam readiness" percentage that was a literal 68. A single
+ * readiness figure needs an exam blueprint to weight topics and a cohort to
+ * calibrate against, and this product has neither — so it is not recomputed,
+ * it is dropped. Coverage is a claim the ledger can support: of the concepts
+ * the curriculum defines, how many has this student been measured on, and how
+ * did those go.
+ */
 export function ExamReadinessCard({ compact = false }: { compact?: boolean }) {
   const t = useT()
-  const zone = zoneOf(progress.examReadiness)
+  const { ledger } = useMastery()
+  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
 
+  const totalConcepts = graph.concepts.length
+  const bands = useMemo(() => {
+    const counts = { secure: 0, developing: 0, shaky: 0, practised: 0 }
+    for (const concept of graph.concepts) {
+      const band = masteryBand(ledger[concept.id])
+      if (band !== 'unseen') counts[band] += 1
+    }
+    return counts
+  }, [graph.concepts, ledger])
+
+  const met = bands.secure + bands.developing + bands.shaky + bands.practised
+  const coverage = totalConcepts ? Math.round((met / totalConcepts) * 100) : 0
+
+  if (!totalConcepts) {
+    return (
+      <StatBox
+        label={t('Curriculum coverage')}
+        value=""
+        sub={t('Coverage appears once your curriculum concepts are published.')}
+        compact={compact}
+      />
+    )
+  }
+
+  const zone = zoneOf(coverage)
   return (
     <StatBox
-      label={t('Exam readiness')}
-      value={String(progress.examReadiness)}
+      label={t('Curriculum coverage')}
+      value={String(coverage)}
       unit="%"
-      sub={`${progress.examLabel} · ${progress.daysToExam} ${t('days')}`}
-      footer={<Badge tone={zone.tone}>{t(zone.name)}</Badge>}
+      sub={met
+        ? `${bands.secure} ${t('secure')} · ${bands.developing} ${t('developing')} · ${bands.shaky} ${t('shaky')}`
+        : t('Answer some questions to start building this.')}
+      footer={met ? <Badge tone={zone.tone}>{t(zone.name)}</Badge> : undefined}
       compact={compact}
     >
-      <ReadinessScale value={progress.examReadiness} />
+      <ReadinessScale value={coverage} />
     </StatBox>
   )
 }
 
 export function QuestionBankCard({ compact = false }: { compact?: boolean }) {
   const t = useT()
-  const qbankPct = Math.round((progress.qbankAnswered / progress.qbankTotal) * 100)
+  const questions = usePublishedQuestions()
+  const { totals } = useAttemptTotals()
+  const history = useAttemptHistory()
+
+  const qbankRecords = history.records.filter((record) => record.surface === 'qbank' || record.surface === 'room')
+  const seen = distinctItems(qbankRecords)
+  const bankTotal = questions.length
+  const used = bankTotal ? Math.round((Math.min(seen, bankTotal) / bankTotal) * 100) : 0
+  // First-attempt accuracy, because repeat accuracy mostly measures recall of
+  // the answer rather than what the student knows.
+  const firstAccuracy = firstAttemptSplit(qbankRecords).first.accuracy
+  const thisWeek = dailyCounts(qbankRecords, 7).reduce((sum, day) => sum + day.attempts, 0)
+
+  if (!bankTotal) {
+    return <StatBox label={t('Question bank')} value="" sub={t('No questions have been published yet.')} compact={compact} />
+  }
 
   return (
     <StatBox
       label={t('Question bank')}
       value=""
       sub={t('First attempt · whole bank')}
-      footer={
+      footer={thisWeek > 0 ? (
         <span className="inline-flex items-center gap-1 text-[11.5px] font-medium text-success">
           <Icon icon={TrendingUp} size={13} />
-          128 {t('this week')}
+          {thisWeek} {t('this week')}
         </span>
-      }
+      ) : undefined}
       compact={compact}
     >
-      <DualReading accuracy={72} used={qbankPct} detail={`${progress.qbankAnswered.toLocaleString()} / ${progress.qbankTotal.toLocaleString()} ${t('questions')}`} compact={compact} />
+      <DualReading
+        accuracy={firstAccuracy === null ? 0 : Math.round(firstAccuracy * 100)}
+        used={used}
+        detail={totals.attempts
+          ? `${seen.toLocaleString()} / ${bankTotal.toLocaleString()} ${t('questions')}`
+          : t('Not answered yet')}
+        compact={compact}
+      />
     </StatBox>
   )
 }
 
 export function PracticalSkillsCard({ compact = false }: { compact?: boolean }) {
   const t = useT()
-  const practicalPct = Math.round((progress.practicalSigned / progress.practicalTotal) * 100)
+  const { progress } = usePracticalProgress()
+  const { osceStations, clinicalCases, labImaging } = useLivePracticals()
+
+  const total = osceStations.length + clinicalCases.length + labImaging.length
+  const attempted = Object.keys(progress.stations).length
+    + Object.values(progress.cases).filter((entry) => entry.status !== 'not-started').length
+    + Object.values(progress.labs).filter((entry) => entry.done > 0).length
+  const skills = summariseSkills(progress, 0)
+
+  if (!total) {
+    return <StatBox label={t('Practical')} value="" sub={t('No practical items have been published yet.')} compact={compact} />
+  }
+
+  const stationRuns = Object.values(progress.stations)
+  // The mean of each station's best share of its own marks. Self-scored, so it
+  // is labelled "best score" rather than accuracy.
+  const bestShare = stationRuns.length
+    ? Math.round((stationRuns.reduce((sum, run) => sum + (run.outOf ? run.bestMarks / run.outOf : 0), 0) / stationRuns.length) * 100)
+    : 0
 
   return (
     <StatBox
-      label={t('Practical skills')}
+      label={t('Practical')}
       value=""
-      sub={t('First attempt · assigned stations')}
+      sub={skills.ready ? `${skills.ready} ${t('skills marked ready')}` : t('Self-scored · your own mark scheme')}
       compact={compact}
     >
-      <DualReading accuracy={78} used={practicalPct} detail={`${progress.practicalSigned} / ${progress.practicalTotal} ${t('skills signed off')}`} compact={compact} />
+      <DualReading
+        accuracy={bestShare}
+        used={Math.round((attempted / total) * 100)}
+        detail={attempted
+          ? `${attempted} / ${total} ${t('items attempted')}`
+          : t('Not started yet')}
+        compact={compact}
+      />
     </StatBox>
   )
 }

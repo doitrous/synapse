@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { ChevronRight, Pencil, Network, X, Search } from 'lucide-react'
 import type { Concept, ConceptGraph } from '@/data/conceptGraph'
-import { subjects } from '@/data/student'
+import { subjects } from '@/data/subjects'
 import { indexMedicalTaxonomy, MEDICAL_TAXONOMY_DIVISIONS, type MedicalTaxonomyNode } from '@/data/medicalLibraryTaxonomy'
 import type { TaxSysNode } from '@/data/taxonomyStore'
 import { Icon } from '@/components/ui/Icon'

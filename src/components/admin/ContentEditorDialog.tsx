@@ -7,7 +7,7 @@ import {
   type ContentKind,
   type ManagedContentItem,
 } from '@/data/contentControl'
-import { subjects } from '@/data/student'
+import { subjects } from '@/data/subjects'
 import { Button } from '@/components/ui/Button'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'

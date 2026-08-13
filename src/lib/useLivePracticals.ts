@@ -1,15 +1,28 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
+import { API_MODE } from './api'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
 import { DIFFICULTIES, type Difficulty } from '@/data/qbank'
 import {
-  osceStations as SEED_OSCE,
-  clinicalCases as SEED_CASES,
-  labImaging as SEED_LAB,
+  osceStations as DEMO_OSCE,
+  clinicalCases as DEMO_CASES,
+  labImaging as DEMO_LAB,
   type OsceStation,
   type ClinicalCase,
   type LabImagingSet,
 } from '@/data/practical'
+
+/**
+ * The demo practicals, suppressed the moment a backend is configured.
+ *
+ * This guard was missing while `useLiveLibrary` and `useLiveResources` both had
+ * it, so five demo stations, five demo cases and five demo lab sets reached
+ * real students — carrying invented attempt counts, invented best scores, and
+ * sign-offs attributed to named clinicians the student had never met.
+ */
+const SEED_OSCE = API_MODE ? [] : DEMO_OSCE
+const SEED_CASES = API_MODE ? [] : DEMO_CASES
+const SEED_LAB = API_MODE ? [] : DEMO_LAB
 
 const asDifficulty = (v?: string): Difficulty => (DIFFICULTIES.includes(v as Difficulty) ? v as Difficulty : 'Moderate')
 
@@ -22,11 +35,13 @@ const stepCount = (item: ManagedContentItem): number => {
 }
 
 /**
- * Practical content as students should see it: seeded stations/cases/lab sets
- * with admin edits from the content ledger overlaid, plus any items created in
- * Practical Setup. Per-student progress (attempts, scores, done) is preserved;
- * archived items are hidden. Skills sign-off and oral questions are personal and
- * stay as-is.
+ * Practical content as students should see it: the catalogue only.
+ *
+ * These records describe the items — title, subject, duration, marks. What a
+ * student has done with them lives in `usePracticalProgress`, keyed by the same
+ * ids. The two used to be one shape, which is how a seeded literal came to
+ * assert that everyone had attempted the cardiovascular station twice and
+ * scored 78%.
  */
 export function useLivePracticals() {
   const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
@@ -63,9 +78,9 @@ export function useLivePracticals() {
         const type = i.fields.Type
         // A checklist runs through the station runner with no actor, so it joins
         // the same list rather than having nowhere to appear.
-        if (type === 'OSCE station' || type === 'Skills checklist') osceStations.push({ id: i.id, title: i.title, subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 8, difficulty: asDifficulty(i.fields.Difficulty), marks: Number(i.fields.Marks) || 20, attempts: 0, kind: type === 'Skills checklist' ? 'checklist' : 'station' })
-        else if (type === 'Clinical case') clinicalCases.push({ id: i.id, title: i.title, presentation: i.fields.Vignette || '', subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 12, steps: stepCount(i), status: 'not-started' })
-        else if (type === 'Lab interpretation' || type === 'Imaging interpretation') labImaging.push({ id: i.id, title: i.title, type: type === 'Imaging interpretation' ? 'Imaging' : 'Lab', subjectId: i.subjectId, items: stepCount(i), done: 0 })
+        if (type === 'OSCE station' || type === 'Skills checklist') osceStations.push({ id: i.id, title: i.title, subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 8, difficulty: asDifficulty(i.fields.Difficulty), marks: Number(i.fields.Marks) || 20, kind: type === 'Skills checklist' ? 'checklist' : 'station' })
+        else if (type === 'Clinical case') clinicalCases.push({ id: i.id, title: i.title, presentation: i.fields.Vignette || '', subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 12, steps: stepCount(i) })
+        else if (type === 'Lab interpretation' || type === 'Imaging interpretation') labImaging.push({ id: i.id, title: i.title, type: type === 'Imaging interpretation' ? 'Imaging' : 'Lab', subjectId: i.subjectId, items: stepCount(i) })
       })
 
     return { osceStations, clinicalCases, labImaging }

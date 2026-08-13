@@ -1,9 +1,13 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { CalendarDays, ChevronLeft, ChevronRight, Clock, Plus, X, MapPin, Layers, ArrowRight } from 'lucide-react'
+import { CalendarDays, Check, ChevronLeft, ChevronRight, Clock, Pencil, Plus, Trash2, X, MapPin, Layers, ArrowRight } from 'lucide-react'
 import type { CalEvent } from '@/data/calendar'
-import { monthEvents } from '@/data/calendar'
-import { getSubject, subjects } from '@/data/student'
+import { getSubject, subjects } from '@/data/subjects'
+import {
+  durationMinutes, isoDay, STUDY_BLOCKS_STORAGE_KEY, type StudyBlock,
+} from '@/data/studyBlocks'
+import { useStudentSchedule, type ScheduledSession } from '@/lib/useStudentSchedule'
+import { EmptyState } from '@/components/ui/EmptyState'
 import { PageContainer } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -20,19 +24,6 @@ import { useT } from '@/lib/i18n'
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 const WEEKDAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 
-interface StoredBlock {
-  id: string
-  title: string
-  date: string
-  start: string
-  end: string
-  subjectId: string
-  kind: string
-}
-
-function isoDay(date: Date) {
-  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
-}
 function dayKey(date: Date) {
   return isoDay(date)
 }
@@ -54,16 +45,38 @@ function addDays(date: Date, amount: number) {
 function sameDay(a: Date, b: Date) {
   return dayKey(a) === dayKey(b)
 }
-function durationMinutes(start: string, end: string) {
-  const [sh, sm] = start.split(':').map(Number)
-  const [eh, em] = end.split(':').map(Number)
-  return Math.max(0, eh * 60 + em - sh * 60 - sm)
+function timeOf(date: Date) {
+  return `${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`
 }
 
-function generatedEvents(days: Date[]) {
-  const months = new Map<string, [number, number]>()
-  days.forEach((date) => months.set(`${date.getFullYear()}-${date.getMonth()}`, [date.getFullYear(), date.getMonth()]))
-  return [...months.values()].flatMap(([year, month]) => monthEvents(year, month))
+/** A published timetable block, as a calendar event. */
+function sessionEvent(session: ScheduledSession): CalEvent {
+  return {
+    id: session.id,
+    title: session.title || session.label,
+    date: session.start,
+    time: timeOf(session.start),
+    endTime: session.end ? timeOf(session.end) : undefined,
+    layer: 'curriculum',
+    subjectId: session.topicIds[0] ?? '',
+    kind: session.label,
+    location: session.location,
+    isExam: session.isExam,
+  }
+}
+
+/** A block the student planned, as a calendar event. */
+function blockEvent(block: StudyBlock): CalEvent {
+  return {
+    id: block.id,
+    title: block.title,
+    date: fromIsoDay(block.date),
+    time: block.start,
+    endTime: block.end,
+    layer: 'personal',
+    subjectId: block.subjectId,
+    kind: block.kind,
+  }
 }
 
 function Chip({ event }: { event: CalEvent }) {
@@ -81,23 +94,37 @@ function Chip({ event }: { event: CalEvent }) {
   )
 }
 
-function BlockDialog({ date, onClose, onSave }: { date: Date; onClose: () => void; onSave: (block: Omit<StoredBlock, 'id'>) => void }) {
+/**
+ * Create or change one of the student's own blocks.
+ *
+ * `existing` is what makes this an editor rather than only a creator: a block
+ * could previously be added and then never touched again — no edit, no delete,
+ * no way to correct a typo or move a session that shifted.
+ */
+function BlockDialog({ date, existing, onClose, onSave, onDelete }: {
+  date: Date
+  existing?: StudyBlock
+  onClose: () => void
+  onSave: (block: Omit<StudyBlock, 'id'>) => void
+  onDelete?: () => void
+}) {
   const t = useT()
-  const [title, setTitle] = useState('')
-  const [start, setStart] = useState('17:00')
-  const [end, setEnd] = useState('18:00')
-  const [subjectId, setSubjectId] = useState('cvs')
-  const [kind, setKind] = useState('Study block')
+  const [title, setTitle] = useState(existing?.title ?? '')
+  const [start, setStart] = useState(existing?.start ?? '17:00')
+  const [end, setEnd] = useState(existing?.end ?? '18:00')
+  const [subjectId, setSubjectId] = useState(existing?.subjectId ?? subjects[0]?.id ?? '')
+  const [kind, setKind] = useState(existing?.kind ?? 'Study block')
   const valid = title.trim() && durationMinutes(start, end) > 0
+  const heading = existing ? t('Edit study block') : t('Add a study block')
 
   return (
-    <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label={t('Add a study block')} onMouseDown={onClose}>
+    <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label={heading} onMouseDown={onClose}>
       <Panel className="animate-pop max-h-[calc(100dvh-env(safe-area-inset-top))] w-full overflow-y-auto overscroll-contain rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-lg sm:rounded-xl" onMouseDown={(event) => event.stopPropagation()}>
-        <PanelHeader title={t('Add a study block')} icon={CalendarDays} action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />} />
+        <PanelHeader title={heading} icon={CalendarDays} action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />} />
         <form className="space-y-4 p-5" onSubmit={(event) => {
           event.preventDefault()
           if (!valid) return
-          onSave({ title: title.trim(), date: isoDay(date), start, end, subjectId, kind })
+          onSave({ title: title.trim(), date: existing?.date ?? isoDay(date), start, end, subjectId, kind, done: existing?.done, sourceSessionId: existing?.sourceSessionId })
         }}>
           <p className="text-[13px] text-ink-2">{formatLongDate(date)}</p>
           <Field label={t('What are you working on?')} htmlFor="block-title">
@@ -111,9 +138,10 @@ function BlockDialog({ date, onClose, onSave }: { date: Date; onClose: () => voi
             <Field label={t('Subject')}><Select value={subjectId} onChange={(event) => setSubjectId(event.target.value)}>{subjects.map((subject) => <option key={subject.id} value={subject.id}>{subject.name}</option>)}</Select></Field>
             <Field label={t('Type')}><Select value={kind} onChange={(event) => setKind(event.target.value)}><option value="Study block">{t('Study block')}</option><option value="Question bank">{t('Question bank')}</option><option value="Library reading">{t('Library reading')}</option><option value="Practical">{t('Practical')}</option><option value="Test">{t('Test')}</option></Select></Field>
           </div>
-          <div className="flex justify-end gap-2 border-t border-line pt-4">
+          <div className="flex items-center justify-end gap-2 border-t border-line pt-4">
+            {onDelete && <Button type="button" variant="ghost" className="me-auto text-danger hover:bg-danger-tint" iconLeft={Trash2} onClick={onDelete}>{t('Delete')}</Button>}
             <Button type="button" variant="ghost" onClick={onClose}>{t('Cancel')}</Button>
-            <Button type="submit" variant="primary" iconLeft={Plus} disabled={!valid}>{t('Add block')}</Button>
+            <Button type="submit" variant="primary" iconLeft={existing ? Check : Plus} disabled={!valid}>{existing ? t('Save changes') : t('Add block')}</Button>
           </div>
         </form>
       </Panel>
@@ -125,19 +153,19 @@ function BlockDialog({ date, onClose, onSave }: { date: Date; onClose: () => voi
 function actionFor(event: CalEvent): { to: string; label: string } | null {
   const k = event.kind.toLowerCase()
   if (k.includes('qbank') || k.includes('question')) return { to: '/app/qbank', label: 'Open Question Bank' }
-  if (k.includes('review')) return { to: '/app/performance', label: 'Open review' }
-  if (k.includes('read') || k.includes('library')) return { to: '/app/library', label: 'Open Library' }
+  if (k.includes('review')) return { to: '/app/qbank', label: 'Start a review' }
+  if (k.includes('read') || k.includes('library') || k.includes('lecture')) return { to: '/app/library', label: 'Open Library' }
   if (k.includes('lab') || k.includes('practical') || k.includes('osce')) return { to: '/app/practical', label: 'Open Practical' }
   if (event.layer === 'curriculum') return { to: '/app/library', label: 'Open prep materials' }
   return null
 }
 
-function EventDetailDialog({ event, endTime, onClose }: { event: CalEvent; endTime?: string; onClose: () => void }) {
+function EventDetailDialog({ event, onClose, onEdit }: { event: CalEvent; onClose: () => void; onEdit?: () => void }) {
   const t = useT()
   const subject = getSubject(event.subjectId)
   const curriculum = event.layer === 'curriculum'
   const action = actionFor(event)
-  const timeLabel = endTime ? `${formatTimeString(event.time)} – ${formatTimeString(endTime)}` : formatTimeString(event.time)
+  const timeLabel = event.endTime ? `${formatTimeString(event.time)} – ${formatTimeString(event.endTime)}` : formatTimeString(event.time)
   return (
     <div
       className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4"
@@ -178,21 +206,26 @@ function EventDetailDialog({ event, endTime, onClose }: { event: CalEvent; endTi
             <Icon icon={Layers} size={16} className="text-ink-3" />
             <span>{event.kind}</span>
           </div>
-          <div className="flex items-center gap-2.5">
-            <Icon icon={MapPin} size={16} className="text-ink-3" />
-            <span>{subject.name}</span>
-          </div>
+          {(event.location || event.subjectId) && (
+            <div className="flex items-center gap-2.5">
+              <Icon icon={MapPin} size={16} className="text-ink-3" />
+              <span>{event.location || subject.name}</span>
+            </div>
+          )}
         </div>
-        {action && (
+        {(action || onEdit) && (
           <div className="flex justify-end gap-2 border-t border-line bg-surface-2/40 px-5 py-3">
+            {onEdit && <Button variant="secondary" iconLeft={Pencil} onClick={onEdit}>{t('Edit')}</Button>}
             <Button variant="ghost" onClick={onClose}>
               {t('Close')}
             </Button>
-            <Link to={action.to}>
-              <Button variant="primary" iconRight={ArrowRight}>
-                {t(action.label)}
-              </Button>
-            </Link>
+            {action && (
+              <Link to={action.to}>
+                <Button variant="primary" iconRight={ArrowRight}>
+                  {t(action.label)}
+                </Button>
+              </Link>
+            )}
           </div>
         )}
       </Panel>
@@ -243,9 +276,11 @@ export function CalendarPage() {
   const [showCurriculum, setShowCurriculum] = useState(true)
   const [showPersonal, setShowPersonal] = useState(true)
   const [dialogDate, setDialogDate] = useState<Date | null>(null)
+  const [editingBlockId, setEditingBlockId] = useState<string | null>(null)
   const [detailEvent, setDetailEvent] = useState<CalEvent | null>(null)
   const [daySheet, setDaySheet] = useState<Date | null>(null)
-  const [blocks, setBlocks] = usePersistentState<StoredBlock[]>('synapse.calendar.blocks', [])
+  const [blocks, setBlocks] = usePersistentState<StudyBlock[]>(STUDY_BLOCKS_STORAGE_KEY, [])
+  const { sessions, hasYear } = useStudentSchedule()
   const today = new Date()
 
   const days = useMemo(() => {
@@ -261,28 +296,50 @@ export function CalendarPage() {
   const eventMap = useMemo(() => {
     const map = new Map<string, CalEvent[]>()
     const add = (event: CalEvent) => map.set(dayKey(event.date), [...(map.get(dayKey(event.date)) ?? []), event])
-    generatedEvents(days).forEach(add)
-    blocks.forEach((block) => add({ id: block.id, title: block.title, date: fromIsoDay(block.date), time: block.start, layer: 'personal', subjectId: block.subjectId, kind: block.kind }))
+    sessions.map(sessionEvent).forEach(add)
+    blocks.map(blockEvent).forEach(add)
     map.forEach((events) => events.sort((a, b) => a.time.localeCompare(b.time)))
     return map
-  }, [blocks, days])
+  }, [blocks, sessions])
 
   const visible = (events: CalEvent[] = []) => events.filter((event) => event.layer === 'curriculum' ? showCurriculum : showPersonal)
   const todayEvents = visible(eventMap.get(dayKey(today)))
   const weekStart = startOfWeek(anchor)
   const weekDays = Array.from({ length: 7 }, (_, index) => addDays(weekStart, index))
   const weekEvents = weekDays.flatMap((day) => visible(eventMap.get(dayKey(day))))
-  const taughtMinutes = weekEvents.filter((event) => event.layer === 'curriculum').length * 60
+  const taughtSessions = weekEvents.filter((event) => event.layer === 'curriculum')
+  // Each session's own start and end. Assuming every taught block was exactly
+  // sixty minutes was the last invented number left on this page.
+  const taughtMinutes = taughtSessions.reduce((total, event) => total + (event.endTime ? durationMinutes(event.time, event.endTime) : 0), 0)
   const plannedBlocks = blocks.filter((block) => weekDays.some((day) => block.date === isoDay(day)))
   const plannedMinutes = plannedBlocks.reduce((total, block) => total + durationMinutes(block.start, block.end), 0)
+  const editingBlock = blocks.find((block) => block.id === editingBlockId)
 
   function shift(direction: number) {
     if (view === 'week') setAnchor((date) => addDays(date, direction * 7))
     else setAnchor((date) => new Date(date.getFullYear(), date.getMonth() + direction, 1))
   }
-  function saveBlock(block: Omit<StoredBlock, 'id'>) {
-    setBlocks((current) => [...current, { ...block, id: `block-${Date.now()}` }])
+  function saveBlock(block: Omit<StudyBlock, 'id'>) {
+    if (editingBlockId) {
+      setBlocks((current) => current.map((item) => item.id === editingBlockId ? { ...block, id: editingBlockId } : item))
+    } else {
+      setBlocks((current) => [...current, { ...block, id: `block-${Date.now()}-${Math.random().toString(36).slice(2, 6)}` }])
+    }
     setDialogDate(null)
+    setEditingBlockId(null)
+  }
+  function deleteBlock() {
+    if (!editingBlockId) return
+    setBlocks((current) => current.filter((item) => item.id !== editingBlockId))
+    setDialogDate(null)
+    setEditingBlockId(null)
+  }
+  /** Open the editor on one of the student's own blocks. */
+  function editEvent(event: CalEvent) {
+    if (event.layer !== 'personal') return
+    setDetailEvent(null)
+    setEditingBlockId(event.id)
+    setDialogDate(event.date)
   }
 
   const label = view === 'week'
@@ -357,6 +414,20 @@ export function CalendarPage() {
         </aside>
       </div>
 
+      {!hasYear && (
+        <Panel className="mt-3 p-4">
+          <EmptyState
+            icon={CalendarDays}
+            title={t('No university timetable yet')}
+            description={t("Your university hasn't published a schedule for your year, so only the blocks you plan yourself appear here.")}
+          />
+        </Panel>
+      )}
+      {hasYear && sessions.length === 0 && (
+        <p className="mt-3 rounded-lg border border-dashed border-line bg-surface-2/40 px-4 py-3 text-[12.5px] text-ink-3">
+          {t('Your year has no published sessions yet. Blocks you plan yourself still appear on this calendar.')}
+        </p>
+      )}
       <p className="mt-3 flex items-center gap-1.5 text-[12px] text-ink-3"><CalendarDays size={13} />{t('Select any day to add a personal block. Curriculum sessions are filled; your plan is outlined.')}</p>
       {daySheet && (
         <DaySheet
@@ -367,12 +438,21 @@ export function CalendarPage() {
           onAdd={() => { const d = daySheet; setDaySheet(null); setDialogDate(d) }}
         />
       )}
-      {dialogDate && <BlockDialog date={dialogDate} onClose={() => setDialogDate(null)} onSave={saveBlock} />}
+      {dialogDate && (
+        <BlockDialog
+          key={editingBlockId ?? 'new'}
+          date={dialogDate}
+          existing={editingBlock}
+          onClose={() => { setDialogDate(null); setEditingBlockId(null) }}
+          onSave={saveBlock}
+          onDelete={editingBlock ? deleteBlock : undefined}
+        />
+      )}
       {detailEvent && (
         <EventDetailDialog
           event={detailEvent}
-          endTime={blocks.find((b) => b.id === detailEvent.id)?.end}
           onClose={() => setDetailEvent(null)}
+          onEdit={detailEvent.layer === 'personal' ? () => editEvent(detailEvent) : undefined}
         />
       )}
     </PageContainer>

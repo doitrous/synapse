@@ -15,11 +15,14 @@ import {
   EyeOff,
 } from 'lucide-react'
 import type { Skill } from '@/data/practical'
-import { skills, skillsTotals, oralQuestions } from '@/data/practical'
+import { skills, oralQuestions } from '@/data/practical'
+import { summariseSkills, type SkillStatus } from '@/data/practicalProgress'
 import type { Difficulty } from '@/data/qbank'
 import { useLivePracticals } from '@/lib/useLivePracticals'
-import { subjects } from '@/data/student'
-import { getSubject } from '@/data/student'
+import { usePracticalProgress } from '@/lib/usePracticalProgress'
+import { EmptyState } from '@/components/ui/EmptyState'
+import { subjects } from '@/data/subjects'
+import { getSubject } from '@/data/subjects'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -61,11 +64,20 @@ function clickable(onOpen: () => void) {
 
 function OsceTab({ onOpen }: { onOpen: Open }) {
   const { osceStations } = useLivePracticals()
+  const { progress } = usePracticalProgress()
+
+  if (!osceStations.length) {
+    return <Panel className="p-8"><EmptyState icon={Stethoscope} title="No stations published yet" description="OSCE stations and skills checklists appear here once they are published in Practical Setup." /></Panel>
+  }
+
   return (
     <Panel>
       <ul className="divide-y divide-line">
         {osceStations.map((s, index) => {
           const subj = getSubject(s.subjectId)
+          // The student's own record, not a property of the station.
+          const run = progress.stations[s.id]
+          const bestPct = run && run.outOf ? Math.round((run.bestMarks / run.outOf) * 100) : null
           const open = () =>
             onOpen({ kind: 'osce', id: s.id, title: s.title, subjectId: s.subjectId, minutes: s.minutes })
           return (
@@ -87,11 +99,11 @@ function OsceTab({ onOpen }: { onOpen: Open }) {
                 {s.kind === 'checklist' && <Badge tone="outline">Checklist</Badge>}
                 <Badge tone={diffTone(s.difficulty)}>{s.difficulty}</Badge>
                 <div className="w-24 text-right">
-                  {s.attempts > 0 ? (
+                  {run ? (
                     <>
-                      <p className="tnum font-mono text-[13px] font-medium text-ink">{s.bestScore}%</p>
+                      <p className="tnum font-mono text-[13px] font-medium text-ink">{bestPct}%</p>
                       <p className="text-[11px] text-ink-3">
-                        best · {s.attempts} {s.attempts === 1 ? 'try' : 'tries'}
+                        best · {run.attempts} {run.attempts === 1 ? 'try' : 'tries'}
                       </p>
                     </>
                   ) : (
@@ -99,14 +111,14 @@ function OsceTab({ onOpen }: { onOpen: Open }) {
                   )}
                 </div>
                 <Button
-                  variant={s.attempts > 0 ? 'secondary' : 'primary'}
+                  variant={run ? 'secondary' : 'primary'}
                   size="sm"
                   onClick={(e) => {
                     e.stopPropagation()
                     open()
                   }}
                 >
-                  {s.attempts > 0 ? 'Retry' : 'Start'}
+                  {run ? 'Retry' : 'Start'}
                 </Button>
               </div>
             </li>
@@ -127,12 +139,19 @@ function caseStatus(status: string) {
 
 function CasesTab({ onOpen }: { onOpen: Open }) {
   const { clinicalCases } = useLivePracticals()
+  const { progress } = usePracticalProgress()
+
+  if (!clinicalCases.length) {
+    return <Panel className="p-8"><EmptyState icon={ArrowRight} title="No cases published yet" description="Clinical cases appear here once they are published in Practical Setup." /></Panel>
+  }
+
   return (
     <Panel>
       <ul className="divide-y divide-line">
         {clinicalCases.map((c, index) => {
           const subj = getSubject(c.subjectId)
-          const st = caseStatus(c.status)
+          const record = progress.cases[c.id]
+          const st = caseStatus(record?.status ?? 'not-started')
           const open = () => onOpen({ kind: 'case', id: c.id, title: c.title, subjectId: c.subjectId })
           return (
             <li key={c.id}>
@@ -155,7 +174,7 @@ function CasesTab({ onOpen }: { onOpen: Open }) {
                   </p>
                 </div>
                 <Button
-                  variant={c.status === 'in-progress' ? 'primary' : 'secondary'}
+                  variant={record?.status === 'in-progress' ? 'primary' : 'secondary'}
                   size="sm"
                   iconRight={ArrowRight}
                   onClick={(e) => {
@@ -176,48 +195,84 @@ function CasesTab({ onOpen }: { onOpen: Open }) {
 
 /* ---- Skills ------------------------------------------------------------ */
 
-const STATUS_ICON = {
-  signed: { icon: CircleCheck, cls: 'text-success' },
-  pending: { icon: Circle, cls: 'text-warning' },
+const STATUS_ICON: Record<SkillStatus, { icon: typeof CircleCheck; cls: string }> = {
+  ready: { icon: CircleCheck, cls: 'text-success' },
+  practised: { icon: Circle, cls: 'text-warning' },
   'not-started': { icon: CircleDashed, cls: 'text-ink-3' },
-} as const
+}
 
-function SkillRow({ s }: { s: Skill }) {
-  const meta = STATUS_ICON[s.status]
+/** The next state each tap moves a skill to, cycling through the three. */
+const NEXT_STATUS: Record<SkillStatus, SkillStatus> = {
+  'not-started': 'practised',
+  practised: 'ready',
+  ready: 'not-started',
+}
+
+const STATUS_LABEL: Record<SkillStatus, string> = {
+  'not-started': 'Not started',
+  practised: 'Practised',
+  ready: 'Ready to be assessed',
+}
+
+function SkillRow({ skill, status, onCycle }: { skill: Skill; status: SkillStatus; onCycle: () => void }) {
+  const meta = STATUS_ICON[status]
   return (
-    <li className="flex items-center gap-3 py-2.5">
-      <Icon icon={meta.icon} size={18} className={meta.cls} />
-      <span className="flex-1 text-[13.5px] text-ink">{s.name}</span>
-      {s.status === 'signed' ? (
-        <span className="text-[12px] text-ink-3">
-          {s.signedBy} · {s.date}
-        </span>
-      ) : (
-        <Badge tone={s.status === 'pending' ? 'warning' : 'neutral'}>
-          {s.status === 'pending' ? 'Awaiting sign-off' : 'Not started'}
+    <li>
+      <button
+        type="button"
+        onClick={onCycle}
+        className="flex w-full items-center gap-3 rounded-md py-2.5 text-left transition-colors hover:bg-inset"
+        aria-label={`${skill.name} — ${STATUS_LABEL[status]}. Change`}
+      >
+        <Icon icon={meta.icon} size={18} className={meta.cls} />
+        <span className="flex-1 text-[13.5px] text-ink">{skill.name}</span>
+        <Badge tone={status === 'ready' ? 'success' : status === 'practised' ? 'warning' : 'neutral'}>
+          {STATUS_LABEL[status]}
         </Badge>
-      )}
+      </button>
     </li>
   )
 }
 
+/**
+ * The year's skills checklist, marked by the student.
+ *
+ * This tab previously had no interactive element at all: it rendered twelve
+ * skills with six sign-offs attributed to named clinicians and dates, under a
+ * headline claiming "14 / 22 signed off". A student can now record what they
+ * have practised and what they are ready to be assessed on — and the copy is
+ * explicit that this is their own record, not a sign-off, because no assessor
+ * identity exists in Synapse to give one.
+ */
 function SkillsTab() {
   const categories = ['Examination', 'Procedures', 'Communication'] as const
-  const pct = Math.round((skillsTotals.signed / skillsTotals.total) * 100)
+  const { progress, markSkill } = usePracticalProgress()
+  const summary = summariseSkills(progress, skills.length)
+  const pct = summary.total ? Math.round((summary.ready / summary.total) * 100) : 0
+
+  if (!skills.length) {
+    return <Panel className="p-8"><EmptyState icon={CircleCheck} title="No skills checklist yet" description="The year's skills checklist appears here once it has been set up." /></Panel>
+  }
+
   return (
     <div className="space-y-4">
       <Panel className="flex flex-wrap items-center gap-4 p-4">
         <div className="flex-1">
-          <p className="text-[13px] font-medium text-ink">Skills signed off this year</p>
+          <p className="text-[13px] font-medium text-ink">Skills you have marked ready</p>
           <p className="mt-0.5 text-[12px] text-ink-3">
-            {skillsTotals.total - skillsTotals.signed} remaining before the end of the block
+            {summary.total - summary.ready} still to go · {summary.practised} practised so far
           </p>
         </div>
         <span className="tnum font-mono text-[20px] font-semibold text-ink">
-          {skillsTotals.signed} / {skillsTotals.total}
+          {summary.ready} / {summary.total}
         </span>
         <Meter value={pct} tone="accent" className="w-full sm:w-56" />
       </Panel>
+
+      <p className="flex items-start gap-2 rounded-lg border border-line bg-surface-2/40 px-3.5 py-2.5 text-[12px] leading-relaxed text-ink-2">
+        <Icon icon={CircleCheck} size={14} className="mt-0.5 shrink-0 text-ink-3" />
+        This is your own record of what you have practised. A formal sign-off is given by an assessor and is not recorded in Synapse.
+      </p>
 
       {categories.map((cat) => {
         const items = skills.filter((s) => s.category === cat)
@@ -226,9 +281,17 @@ function SkillsTab() {
           <Panel key={cat} className="px-4 py-3">
             <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{cat}</p>
             <ul className="divide-y divide-line">
-              {items.map((s) => (
-                <SkillRow key={s.id} s={s} />
-              ))}
+              {items.map((skill) => {
+                const status = progress.skills[skill.id]?.status ?? 'not-started'
+                return (
+                  <SkillRow
+                    key={skill.id}
+                    skill={skill}
+                    status={status}
+                    onCycle={() => markSkill(skill.id, NEXT_STATUS[status])}
+                  />
+                )
+              })}
             </ul>
           </Panel>
         )
@@ -241,12 +304,19 @@ function SkillsTab() {
 
 function LabTab({ onOpen }: { onOpen: Open }) {
   const { labImaging } = useLivePracticals()
+  const { progress } = usePracticalProgress()
+
+  if (!labImaging.length) {
+    return <Panel className="p-8"><EmptyState icon={FlaskConical} title="No lab or imaging sets yet" description="Interpretation sets appear here once they are published in Practical Setup." /></Panel>
+  }
+
   return (
     <Panel>
       <ul className="divide-y divide-line">
         {labImaging.map((l, index) => {
           const subj = getSubject(l.subjectId)
-          const pct = Math.round((l.done / l.items) * 100)
+          const done = progress.labs[l.id]?.done ?? 0
+          const pct = l.items ? Math.round((done / l.items) * 100) : 0
           const open = () => onOpen({ kind: 'lab', id: l.id, title: l.title, subjectId: l.subjectId })
           return (
             <li key={l.id}>
@@ -263,7 +333,7 @@ function LabTab({ onOpen }: { onOpen: Open }) {
                     <span className="font-medium text-ink-2">{subj.name}</span>
                     <span>·</span>
                     <span className="tnum">
-                      {l.done}/{l.items} done
+                      {done}/{l.items} done
                     </span>
                   </p>
                 </div>
@@ -277,7 +347,7 @@ function LabTab({ onOpen }: { onOpen: Open }) {
                     open()
                   }}
                 >
-                  {l.done === 0 ? 'Start' : 'Continue'}
+                  {done === 0 ? 'Start' : 'Continue'}
                 </Button>
               </div>
             </li>

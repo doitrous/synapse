@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import {
   BookMarked,
@@ -17,9 +17,12 @@ import {
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import type { ResourceType } from '@/data/types'
-import { useLiveResources } from '@/lib/useLiveResources'
-import { subjects, getSubject } from '@/data/student'
-import { YEARS, scopeUniversities, scopeYear } from '@/data/universities'
+import { useLiveResources, type LiveResource } from '@/lib/useLiveResources'
+import { subjects, getSubject } from '@/data/subjects'
+import { YEARS } from '@/data/universities'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { useRecentResources } from '@/lib/useRecentResources'
+import { apiOpenFile } from '@/lib/api'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -31,7 +34,6 @@ import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SubjectDot } from '@/components/ui/Subject'
-import type { Resource } from '@/data/resources'
 import { Button } from '@/components/ui/Button'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
@@ -49,6 +51,21 @@ const TYPE_ICON: Record<ResourceType, LucideIcon> = {
 /** Document (PDF) types — everything that isn't a video. */
 const PDF_TYPES: ResourceType[] = ['Book', 'Guideline', 'Deck', 'Article']
 
+/** Dotted, so `isUserOwnedState` routes bookmarks to the student's own record. */
+const SAVED_RESOURCES_STORAGE_KEY = 'synapse.bookmarks.resources.v1'
+
+/**
+ * Turn a recorded location into a PDF viewer fragment.
+ *
+ * `meta` is free text an author typed — "Ch. 23 · Cardiology", "p. 412",
+ * "12:30". Only a page number can be handed to a PDF viewer; anything else
+ * opens the file at the start, which is still the right file.
+ */
+function fragmentFor(meta: string): string {
+  const page = meta.match(/(?:p\.?|page)\s*(\d+)/i)?.[1]
+  return page ? `#page=${page}` : ''
+}
+
 export function Resources() {
   const t = useT()
   const resources = useLiveResources()
@@ -63,19 +80,28 @@ export function Resources() {
   const [uni, setUni] = useState('all')
   const [year, setYear] = useState('all')
   const [savedOnly, setSavedOnly] = useState(false)
-  const [opened, setOpened] = useState<Resource | null>(null)
+  const [opened, setOpened] = useState<LiveResource | null>(null)
   const toggleFolder = (key: string) => setCollapsed((prev) => { const next = new Set(prev); if (next.has(key)) next.delete(key); else next.add(key); return next })
   const [lastOpenedId, setLastOpenedId] = useState<string | null>(null)
-  const [saved, setSaved] = useState<Set<string>>(
-    () => new Set(resources.filter((r) => r.saved).map((r) => r.id)),
-  )
+  const [openError, setOpenError] = useState<string | null>(null)
+  const { noteOpened } = useRecentResources()
+  /**
+   * Bookmarks, in the student's own record.
+   *
+   * These were a `useState` seeded from `saved: true` flags in the demo
+   * catalogue, so a student arrived with three bookmarks they had not made and
+   * lost every one they did make on the next reload.
+   */
+  const [savedIds, setSavedIds] = usePersistentState<string[]>(SAVED_RESOURCES_STORAGE_KEY, [])
+  const saved = useMemo(() => new Set(savedIds), [savedIds])
 
   const base = resources.filter((r) => {
     const normalizedQuery = query.split(' — ')[0].trim().toLowerCase()
     if (normalizedQuery && !`${r.title} ${r.source} ${r.chapter ?? ''}`.toLowerCase().includes(normalizedQuery)) return false
     if (subject !== 'all' && r.subjectId !== subject) return false
-    if (uni !== 'all' && !scopeUniversities(r.id).includes(uni)) return false
-    if (year !== 'all' && scopeYear(r.subjectId) !== year) return false
+    // Authored scope, with an empty list meaning "applies to everyone".
+    if (uni !== 'all' && r.universityIds.length > 0 && !r.universityIds.includes(uni)) return false
+    if (year !== 'all' && r.yearIds.length > 0 && !r.yearIds.includes(year)) return false
     if (savedOnly && !saved.has(r.id)) return false
     return true
   })
@@ -106,12 +132,27 @@ export function Resources() {
   })()
 
   function toggleSaved(id: string) {
-    setSaved((prev) => {
-      const next = new Set(prev)
-      if (next.has(id)) next.delete(id)
-      else next.add(id)
-      return next
-    })
+    setSavedIds((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id])
+  }
+
+  /**
+   * Open a resource's source file at the place it records.
+   *
+   * The button used to close the dialog and set a local "Opened" flag, and the
+   * dialog said so in copy shown to students. Where an admin has uploaded the
+   * file, this now opens it — at the page or timestamp recorded on the item.
+   */
+  async function openResource(resource: LiveResource) {
+    noteOpened({ id: resource.id, title: resource.title, type: resource.type, subjectId: resource.subjectId, meta: resource.meta })
+    setLastOpenedId(resource.id)
+    if (!resource.hasFile) return
+    setOpenError(null)
+    try {
+      await apiOpenFile(`/medical-resources/${encodeURIComponent(resource.id)}`, fragmentFor(resource.meta))
+      setOpened(null)
+    } catch {
+      setOpenError(t('That file could not be opened. It may still be uploading.'))
+    }
   }
 
   const count = section === 'pdf' ? pdfItems.length : videoItems.length
@@ -277,10 +318,15 @@ export function Resources() {
                                         <span className="hidden sm:inline">·</span><span className="tnum hidden sm:inline">{r.year}</span>
                                       </div>
                                     </div>
+                                    {/* Only the scope an author recorded. An
+                                        unrestricted resource shows no chips
+                                        rather than invented ones. */}
                                     <div className="hidden shrink-0 items-center gap-1 lg:flex">
-                                      <span className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-3">{scopeYear(r.subjectId).replace('Year ', 'Y')}</span>
-                                      {scopeUniversities(r.id).map((id) => (
-                                        <span key={id} className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-3">{universityFrom(universityCatalogue, id)?.short}</span>
+                                      {r.yearIds.map((id) => (
+                                        <span key={id} className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-3">{id}</span>
+                                      ))}
+                                      {r.universityIds.map((id) => (
+                                        <span key={id} className="rounded bg-inset px-1.5 py-0.5 text-[10px] font-medium text-ink-3">{universityFrom(universityCatalogue, id)?.short ?? id}</span>
                                       ))}
                                     </div>
                                     <span className="hidden shrink-0 rounded bg-inset px-1.5 py-0.5 text-[10.5px] font-medium text-ink-2 md:inline">{t(r.type)}</span>
@@ -306,7 +352,29 @@ export function Resources() {
         <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label={`${t('Open resource')}: ${opened.title}`} onMouseDown={() => setOpened(null)}>
           <Panel className="max-h-[calc(100dvh-env(safe-area-inset-top))] w-full max-w-lg overflow-y-auto overscroll-contain rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:rounded-xl sm:pb-0" onMouseDown={(event) => event.stopPropagation()}>
             <div className="flex items-start gap-3 border-b border-line p-4"><span className="grid size-10 shrink-0 place-items-center rounded-md bg-surface-2 text-ink-2"><Icon icon={TYPE_ICON[opened.type]} size={18} /></span><div className="min-w-0 flex-1"><h2 className="font-serif text-[18px] font-semibold text-ink">{opened.title}</h2><p className="mt-0.5 text-[12px] text-ink-3">{opened.source} · {opened.year}</p></div><IconButton icon={X} label={t('Close')} size="sm" onClick={() => setOpened(null)} /></div>
-            <div className="p-5"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{opened.type === 'Video' ? t('Plays at') : t('Opens at')}</p><p className="mt-2 text-[15px] font-medium text-ink">{opened.meta}</p><p className="mt-2 text-[13px] leading-relaxed text-ink-2">{t('This prototype records the exact chapter, page, slide, or timestamp. Connect the publisher or university media URL here when the content service is available.')}</p><div className="mt-5 flex flex-wrap gap-2"><Button variant="primary" iconLeft={opened.type === 'Video' ? PlayCircle : ExternalLink} onClick={() => { setLastOpenedId(opened.id); setOpened(null) }}>{opened.type === 'Video' ? t('Play video') : t('Open exact location')}</Button><Button variant="secondary" iconLeft={saved.has(opened.id) ? BookmarkCheck : Bookmark} onClick={() => toggleSaved(opened.id)}>{saved.has(opened.id) ? t('Saved') : t('Save resource')}</Button></div></div>
+            <div className="p-5">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{opened.type === 'Video' ? t('Plays at') : t('Opens at')}</p>
+              <p className="mt-2 text-[15px] font-medium text-ink">{opened.meta || t('Not recorded')}</p>
+              {!opened.hasFile && (
+                <p className="mt-2 text-[13px] leading-relaxed text-ink-2">
+                  {t('No source file has been uploaded for this resource yet, so it cannot be opened here. The reference above is where to find it.')}
+                </p>
+              )}
+              {openError && <p role="alert" className="mt-2 text-[13px] text-danger">{openError}</p>}
+              <div className="mt-5 flex flex-wrap gap-2">
+                <Button
+                  variant="primary"
+                  iconLeft={opened.type === 'Video' ? PlayCircle : ExternalLink}
+                  disabled={!opened.hasFile}
+                  onClick={() => void openResource(opened)}
+                >
+                  {opened.hasFile
+                    ? (opened.type === 'Video' ? t('Play video') : t('Open exact location'))
+                    : t('Source file not uploaded yet')}
+                </Button>
+                <Button variant="secondary" iconLeft={saved.has(opened.id) ? BookmarkCheck : Bookmark} onClick={() => toggleSaved(opened.id)}>{saved.has(opened.id) ? t('Saved') : t('Save resource')}</Button>
+              </div>
+            </div>
           </Panel>
         </div>
       )}

@@ -4,7 +4,7 @@
  * universities/years get readable IDs too (e.g. OMS_Y2). These IDs are what
  * concepts, questions, articles, and resources tag themselves with.
  */
-import { subjects, getSubject } from './student'
+import { subjects, getSubject } from './subjects'
 import { getUniversity } from './universities'
 import {
   CURRICULUM_CATALOG,

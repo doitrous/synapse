@@ -462,6 +462,30 @@ export function initialManagedContent(): ManagedContentItem[] {
   return []
 }
 
+/**
+ * The university and year scope an author recorded on an item.
+ *
+ * Each kind keeps it in its own authoring block, so this is the one place that
+ * knows where to look. An item with nothing recorded applies to everyone — the
+ * same "empty means unrestricted" rule vouchers and campaigns use.
+ */
+export function itemScope(item: ManagedContentItem): { universityIds: string[]; yearIds: string[] } {
+  const questionTags = item.questionData?.tags
+  const scope = item.articleData ?? item.resourceData
+  return {
+    universityIds: questionTags?.universityIds ?? scope?.universityIds ?? [],
+    yearIds: questionTags?.years ?? scope?.yearIds ?? [],
+  }
+}
+
+/** True when an item is in scope for the given university and/or year. */
+export function itemInScope(item: ManagedContentItem, universityId?: string, yearId?: string): boolean {
+  const scope = itemScope(item)
+  if (universityId && scope.universityIds.length > 0 && !scope.universityIds.includes(universityId)) return false
+  if (yearId && scope.yearIds.length > 0 && !scope.yearIds.includes(yearId)) return false
+  return true
+}
+
 export const CONTENT_KIND_LABEL: Record<ContentKind, { singular: string; plural: string }> = {
   question: { singular: 'question', plural: 'Questions' },
   article: { singular: 'article', plural: 'Library articles' },

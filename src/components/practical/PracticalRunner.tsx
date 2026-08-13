@@ -16,7 +16,7 @@ import {
   ExternalLink,
 } from 'lucide-react'
 import { getOsceDetail, getCaseDetail, getLabDetail } from '@/data/practicalContent'
-import { getSubject } from '@/data/student'
+import { getSubject } from '@/data/subjects'
 import { Panel } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
@@ -25,7 +25,10 @@ import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
 import { cn } from '@/lib/cn'
 import { useMastery } from '@/lib/useMastery'
-import { CONTENT_LEDGER_STORAGE_KEY, type ManagedContentItem, type PracticalAuthoringData } from '@/data/contentControl'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem, type PracticalAuthoringData } from '@/data/contentControl'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { usePracticalProgress } from '@/lib/usePracticalProgress'
+import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { DIFFICULTIES } from '@/data/qbank'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
@@ -92,13 +95,32 @@ function taggedConcepts(item: object): string[] {
   return Array.isArray(value) ? value.filter((id): id is string => typeof id === 'string' && Boolean(id)) : []
 }
 
-function authoredPractical(id: string): PracticalAuthoringData | undefined {
-  try {
-    const items = JSON.parse(localStorage.getItem(CONTENT_LEDGER_STORAGE_KEY) ?? '[]') as ManagedContentItem[]
-    return items.find((item) => item.id === id)?.practicalData
-  } catch {
-    return undefined
-  }
+/**
+ * The authored content for a practical item.
+ *
+ * Reads through `usePersistentState`, not `localStorage` directly. The direct
+ * read worked only in demo mode: with a backend configured the ledger lives in
+ * MariaDB and localStorage is never written, so every authored station, case
+ * and lab set was invisible to this runner and silently fell through to the
+ * generic filler that has now been removed.
+ */
+function useAuthoredPractical(id: string): PracticalAuthoringData | undefined {
+  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  return useMemo(() => ledger.find((item) => item.id === id)?.practicalData, [id, ledger])
+}
+
+/** What a runner shows when an item exists but has no content authored yet. */
+function NothingAuthored({ target, onExit, note }: { target: RunnerTarget; onExit: () => void; note: string }) {
+  return (
+    <div className="mx-auto max-w-[560px]">
+      <Header target={target} onExit={onExit} />
+      <Panel className="p-8 text-center">
+        <h2 className="font-serif text-[19px] font-semibold text-ink">Nothing to run yet</h2>
+        <p className="mx-auto mt-2 max-w-sm text-[13.5px] leading-relaxed text-ink-2">{note}</p>
+        <Button className="mt-5" variant="secondary" onClick={onExit}>Back to practical</Button>
+      </Panel>
+    </div>
+  )
 }
 
 function Header({
@@ -142,7 +164,7 @@ function Header({
 
 function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
   const location = useLocation()
-  const authored = useMemo(() => authoredPractical(target.id), [target.id])
+  const authored = useAuthoredPractical(target.id)
   const staticDetail = getOsceDetail(target.id)
   const detail = authored?.format === 'osce' ? {
     scenario: authored.candidateInstructions,
@@ -151,11 +173,15 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
     actorBrief: { opening: authored.actorOpening, identity: '', prompts: [], sections: authored.actorSections, flags: authored.actorFlags },
     references: authored.references,
   } : staticDetail
-  const sections = detail.markSections ?? [{ id: 'core', title: 'Core station skills', marks: 100, items: detail.markScheme }]
+  const sections = detail?.markSections ?? (detail ? [{ id: 'core', title: 'Core station skills', marks: 100, items: detail.markScheme }] : [])
   const allItems = sections.flatMap((section) => section.items)
   const total = allItems.length
   const totalMarks = sections.reduce((sum, section) => sum + section.marks, 0)
-  const [checked, setChecked] = useState<Set<string>>(new Set())
+  const { progress, finishStation: recordStation } = usePracticalProgress()
+  const logAttempt = useRecordAttempt()
+  // Resume the ticks from the last run, so leaving a station mid-way and
+  // coming back does not start the mark scheme from blank.
+  const [checked, setChecked] = useState<Set<string>>(() => new Set(progress.stations[target.id]?.checkedItems ?? []))
   const [seconds, setSeconds] = useState((target.minutes ?? 8) * 60)
   const [finished, setFinished] = useState(false)
   const { record } = useMastery()
@@ -165,13 +191,27 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
    *
    * Deliberately not an accuracy claim: the student ticked their own mark
    * scheme, so the score is self-assessment. `recordEvidence` keeps this apart
-   * from marked answers for exactly that reason.
+   * from marked answers for exactly that reason, and the attempt log stores
+   * `correct: null` for the same reason.
    */
   function finishStation() {
+    if (finished) return
     setFinished(true)
     const tags = authored?.format === 'osce' ? authored.conceptTags : undefined
     const conceptIds = [...(tags?.mainConceptIds ?? []), ...(tags?.conceptIds ?? [])]
-    if (!finished && conceptIds.length) record({ conceptIds, source: 'station' })
+    if (conceptIds.length) record({ conceptIds, source: 'station' })
+    recordStation(target.id, { marks: Math.round(earnedMarks), outOf: totalMarks, checkedItems: [...checked] })
+    logAttempt({
+      surface: 'station',
+      itemId: target.id,
+      subjectId: target.subjectId,
+      topic: target.title,
+      difficulty: 'Moderate',
+      conceptIds,
+      correct: null,
+      seconds: (target.minutes ?? 8) * 60 - seconds,
+      sessionId: `station-${target.id}-${Date.now().toString(36)}`,
+    })
   }
   const [running, setRunning] = useState(false)
   const [tab, setTab] = useState<'candidate' | 'examiner'>('candidate')
@@ -182,8 +222,12 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
     return () => clearInterval(t)
   }, [finished, running, seconds])
 
-  const earnedMarks = sections.reduce((sum, section) => sum + section.marks * (section.items.filter((item) => checked.has(item.id)).length / section.items.length), 0)
-  const pct = Math.round((earnedMarks / totalMarks) * 100)
+  const earnedMarks = sections.reduce((sum, section) => sum + (section.items.length ? section.marks * (section.items.filter((item) => checked.has(item.id)).length / section.items.length) : 0), 0)
+  const pct = totalMarks ? Math.round((earnedMarks / totalMarks) * 100) : 0
+
+  if (!detail || !total) {
+    return <NothingAuthored target={target} onExit={onExit} note="This station has no mark scheme authored yet. Once one is published in Practical Setup, you can run it here." />
+  }
 
   if (finished) {
     return (
@@ -336,26 +380,28 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 
 function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
   const location = useLocation()
-  const authored = useMemo(() => authoredPractical(target.id), [target.id])
+  const authored = useAuthoredPractical(target.id)
   const staticDetail = getCaseDetail(target.id)
   const detail = authored?.format === 'case' ? {
-    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: Math.max(0, decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct)), answer: decision.rationale, difficulty: decision.difficulty, conceptIds: assessedConcepts(decision) })),
+    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct), answer: decision.rationale, difficulty: decision.difficulty, conceptIds: assessedConcepts(decision) })),
     debrief: authored.debrief,
     references: authored.references,
   } : staticDetail
-  const stages = detail.stages
-  const { record } = useMastery()
+  // A stage with no options is not a question. The runner used to invent three
+  // — "Take a structured <title> approach now" and two obviously wrong ones —
+  // and mark the invented first option correct.
+  const stages = (detail?.stages ?? []).filter((item) => (item.options?.length ?? 0) > 0)
+  const { record, } = useMastery()
+  const { advanceCase } = usePracticalProgress()
+  const logAttempt = useRecordAttempt()
+  const [sessionId] = useState(() => `case-${target.id}-${Date.now().toString(36)}`)
   const [idx, setIdx] = useState(0)
   const [choices, setChoices] = useState<Record<number, number>>({})
   const [debrief, setDebrief] = useState(false)
   const stage = stages[idx]
   const last = idx === stages.length - 1
-  const options = stage.options ?? [
-    `Take a structured ${stage.title.toLowerCase()} approach now`,
-    'Delay action until every investigation is available',
-    'Reassure and discharge without safety-netting',
-  ]
-  const correctIndex = stage.correctIndex ?? 0
+  const options = stage?.options ?? []
+  const correctIndex = stage?.correctIndex ?? -1
   const selected = choices[idx]
   const revealed = selected != null
 
@@ -363,13 +409,31 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
    * Record what this decision demonstrated, once, at the moment it is answered.
    *
    * Guarded on the decision not already having been answered, so returning to a
-   * decision with Previous cannot bank a second attempt for the same work.
+   * decision with Previous cannot bank a second attempt for the same work. A
+   * stage whose author marked no option correct records the encounter without
+   * claiming an accuracy, rather than treating the first option as right.
    */
   function recordDecision(optionIndex: number) {
-    if (choices[idx] != null) return
+    if (choices[idx] != null || !stage) return
     const conceptIds = taggedConcepts(stage)
-    if (!conceptIds.length) return
-    record({ conceptIds, source: 'case', correct: optionIndex === correctIndex })
+    const correct = correctIndex >= 0 ? optionIndex === correctIndex : null
+    if (conceptIds.length && correct !== null) record({ conceptIds, source: 'case', correct })
+    logAttempt({
+      surface: 'case',
+      itemId: `${target.id}:${idx}`,
+      subjectId: target.subjectId,
+      topic: target.title,
+      difficulty: 'Moderate',
+      conceptIds,
+      correct,
+      seconds: null,
+      sessionId,
+    })
+    advanceCase(target.id, { lastStep: idx + 1, steps: stages.length, completed: idx + 1 >= stages.length })
+  }
+
+  if (!stages.length) {
+    return <NothingAuthored target={target} onExit={onExit} note="This case has no decision points authored yet. Once they are published in Practical Setup, you can work through it here." />
   }
 
   if (debrief) {
@@ -377,10 +441,13 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
       <div>
         <Header target={target} onExit={onExit} />
         <Panel className="overflow-hidden">
-          <div className="border-b border-line px-5 py-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent">Case debrief</p><h2 className="mt-1 font-serif text-[22px] font-semibold text-ink">See the debrief</h2><p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink-2">{detail.debrief ?? 'The case rewards a structured approach, early treatment of immediate threats, and decisions that remain coherent as new information arrives.'}</p></div>
+          <div className="border-b border-line px-5 py-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent">Case debrief</p><h2 className="mt-1 font-serif text-[22px] font-semibold text-ink">See the debrief</h2>{detail?.debrief && <p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink-2">{detail.debrief}</p>}</div>
           <div className="divide-y divide-line px-5">{stages.map((decision, decisionIndex) => <div key={decision.title} className="grid gap-2 py-4 sm:grid-cols-[9rem_1fr]"><p className="font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Decision {decisionIndex + 1}</p><div><p className="text-[13px] font-medium text-ink">{decision.prompt}</p><p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">{decision.answer}</p></div></div>)}</div>
         </Panel>
-        <Panel className="mt-4 p-4"><h3 className="text-[13px] font-semibold text-ink">Read around it</h3><ul className="mt-2 divide-y divide-line">{(detail.references ?? ['Relevant clinical guideline']).map((reference) => <li key={reference}><Link to={`/app/resources?q=${encodeURIComponent(reference)}`} state={backState(location, 'Back to case')} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{reference}<span className="mt-0.5 block text-[10.5px] text-ink-3">Open at the relevant page</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>)}</ul><Button className="mt-4" variant="primary" onClick={onExit}>Finish case</Button></Panel>
+        {/* Only real, authored references. A placeholder "Relevant clinical
+            guideline" rendered as a link to a search for that phrase. */}
+        {(detail?.references?.length ?? 0) > 0 && <Panel className="mt-4 p-4"><h3 className="text-[13px] font-semibold text-ink">Read around it</h3><ul className="mt-2 divide-y divide-line">{(detail!.references ?? []).map((reference) => <li key={reference}><Link to={`/app/resources?q=${encodeURIComponent(reference)}`} state={backState(location, 'Back to case')} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{reference}<span className="mt-0.5 block text-[10.5px] text-ink-3">Open at the relevant page</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>)}</ul></Panel>}
+        <Button className="mt-4" variant="primary" onClick={onExit}>Finish case</Button>
       </div>
     )
   }
@@ -440,13 +507,17 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 /* ---- Lab runner -------------------------------------------------------- */
 
 function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
-  const authored = useMemo(() => authoredPractical(target.id), [target.id])
+  const authored = useAuthoredPractical(target.id)
   const staticDetail = getLabDetail(target.id)
   const detail = authored?.format === 'lab' ? {
     questions: authored.questions.map((question) => ({ stem: question.question, context: question.context, question: question.question, mediaUrl: question.mediaUrl, options: question.answers.filter((answer) => answer.text.trim()).map((answer) => ({ text: answer.text, correct: answer.correct, explanation: answer.explanation })), explanation: question.explanation, difficulty: question.difficulty, conceptIds: assessedConcepts(question) })),
   } : staticDetail
-  const qs = detail.questions
+  // A question with no options cannot be answered; showing it would be a dead end.
+  const qs = (detail?.questions ?? []).filter((question) => question.options.length > 0)
   const { record } = useMastery()
+  const { advanceLab } = usePracticalProgress()
+  const logAttempt = useRecordAttempt()
+  const [sessionId] = useState(() => `lab-${target.id}-${Date.now().toString(36)}`)
   const [idx, setIdx] = useState(0)
   const [answers, setAnswers] = useState<Record<number, number>>({})
   const [checked, setChecked] = useState<Set<number>>(new Set())
@@ -454,7 +525,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
 
   const q = qs[idx]
-  const mediaUrl = 'mediaUrl' in q && typeof q.mediaUrl === 'string' ? q.mediaUrl : ''
+  const mediaUrl = q && 'mediaUrl' in q && typeof q.mediaUrl === 'string' ? q.mediaUrl : ''
   const revealed = checked.has(idx)
   const chosen = answers[idx]
   const last = idx === qs.length - 1
@@ -462,10 +533,26 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
   /** Record what this question demonstrated, once, when its answer is checked. */
   function checkAnswer() {
     setChecked((prev) => new Set(prev).add(idx))
-    if (revealed || chosen == null) return
+    if (revealed || chosen == null || !q) return
     const conceptIds = taggedConcepts(q)
-    if (!conceptIds.length) return
-    record({ conceptIds, source: 'interpretation', correct: Boolean(q.options[chosen]?.correct) })
+    const correct = Boolean(q.options[chosen]?.correct)
+    if (conceptIds.length) record({ conceptIds, source: 'interpretation', correct })
+    logAttempt({
+      surface: 'lab',
+      itemId: `${target.id}:${idx}`,
+      subjectId: target.subjectId,
+      topic: target.title,
+      difficulty: 'Moderate',
+      conceptIds,
+      correct,
+      seconds: null,
+      sessionId,
+    })
+    advanceLab(target.id, { done: checked.size + 1, items: qs.length })
+  }
+
+  if (!qs.length) {
+    return <NothingAuthored target={target} onExit={onExit} note="This set has no questions authored yet. Once they are published in Practical Setup, you can work through it here." />
   }
 
   if (finished) {

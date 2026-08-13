@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams, useLocation } from 'react-router-dom'
 import {
   ListChecks,
@@ -21,8 +21,11 @@ import {
   TrendingDown,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
-import { dueReviews, getSubject } from '@/data/student'
+import { getSubject } from '@/data/subjects'
+import { accuracyOf, bySubject as accuracyBySubject, currentStreak, dailyCounts, distinctItems, weakest } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
+import { useAttemptHistory, useRecordAttempt, type AttemptHistory } from '@/lib/useAttemptLog'
+import { usePersistentState } from '@/lib/usePersistentState'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -35,6 +38,7 @@ import { ConceptText } from '@/components/concepts/ConceptText'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { cn } from '@/lib/cn'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
@@ -67,6 +71,128 @@ function diffTone(d: Question['difficulty']): 'success' | 'warning' | 'danger' {
 
 const MAX_QUESTIONS = 40
 
+type PresetKind = 'weak' | 'emergency' | 'demanding' | 'everything'
+
+/** How many marked answers a subject needs before it can be called a weakness. */
+const WEAKNESS_EVIDENCE = 3
+
+/** A review opened from a link is a short set, not a full sitting. */
+const REVIEW_SESSION_SIZE = 5
+
+/** Dotted, so `isUserOwnedState` routes these marks to the student's own record. */
+const QBANK_MARKED_STORAGE_KEY = 'synapse.qbank.marked.v1'
+
+function newSessionId(): string {
+  return `qb-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
+}
+
+const WEEKDAY_INITIALS = ['S', 'M', 'T', 'W', 'T', 'F', 'S']
+
+/**
+ * The student's own standing in the bank.
+ *
+ * Every figure here was a literal: a 58% ring, "1,842 / 3,200", 72% accuracy, a
+ * nine-day streak, a seven-bar chart of `[12, 20, 8, 24, 18, 30, 16]`, and five
+ * per-subject accuracies — all shown identically to a student who had answered
+ * nothing. They now come from the attempt log and the published bank, and the
+ * panel says so plainly when there is nothing to report.
+ */
+function YourQbank({ questions, history }: { questions: Question[]; history: AttemptHistory }) {
+  const t = useT()
+  const qbankRecords = useMemo(
+    () => history.records.filter((record) => record.surface === 'qbank' || record.surface === 'room'),
+    [history.records],
+  )
+  const seen = distinctItems(qbankRecords)
+  const total = questions.length
+  const completedPct = total ? Math.round((Math.min(seen, total) / total) * 100) : 0
+  const accuracy = accuracyOf(qbankRecords)
+  const week = dailyCounts(qbankRecords, 7)
+  const weekTotal = week.reduce((sum, day) => sum + day.attempts, 0)
+  const peak = Math.max(1, ...week.map((day) => day.attempts))
+  const streak = currentStreak(qbankRecords)
+  const subjectRows = useMemo(
+    () => accuracyBySubject(qbankRecords).filter((row) => row.marked >= WEAKNESS_EVIDENCE).slice(0, 6),
+    [qbankRecords],
+  )
+
+  return (
+    <Panel className="h-fit">
+      <PanelHeader title={t('Your Qbank')} icon={ListChecks} />
+      <div className="space-y-5 p-5">
+        {/* Completion ring + headline */}
+        <div className="flex items-center gap-4">
+          <div className="relative grid size-[76px] shrink-0 place-items-center">
+            <svg viewBox="0 0 36 36" className="size-full -rotate-90">
+              <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-inset)" strokeWidth="3.2" />
+              <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-accent)" strokeWidth="3.2" strokeLinecap="round" strokeDasharray={`${completedPct * 0.9739} 100`} pathLength={100} />
+            </svg>
+            <span className="absolute tnum font-mono text-[16px] font-semibold text-ink">{completedPct}%</span>
+          </div>
+          <div className="min-w-0">
+            <p className="text-[12px] text-ink-3">{t('Bank completed')}</p>
+            <p className="tnum font-mono text-[17px] font-semibold text-ink">{seen.toLocaleString()} / {total.toLocaleString()}</p>
+            <p className="mt-0.5 text-[11.5px] text-ink-3">{Math.max(0, total - seen).toLocaleString()} {t('remaining')}</p>
+          </div>
+        </div>
+
+        {/* Stat trio */}
+        <div className="grid grid-cols-3 gap-2 border-t border-line pt-4">
+          {[
+            { value: accuracy === null ? '—' : `${Math.round(accuracy * 100)}%`, label: t('Accuracy'), tone: 'text-success' },
+            { value: String(weekTotal), label: t('This week'), tone: 'text-ink' },
+            { value: String(streak), label: t('Day streak'), tone: 'text-accent' },
+          ].map((s) => (
+            <div key={s.label} className="rounded-lg border border-line bg-surface-2/40 p-2.5 text-center">
+              <p className={cn('tnum font-mono text-[19px] font-semibold', s.tone)}>{s.value}</p>
+              <p className="mt-0.5 text-[10.5px] leading-tight text-ink-3">{s.label}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Weekly activity */}
+        <div className="border-t border-line pt-4">
+          <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Last 7 days')}</p>
+          <div className="flex items-end justify-between gap-1.5" aria-hidden>
+            {week.map((day) => (
+              <div key={day.date} className="flex flex-1 flex-col items-center gap-1" title={`${day.attempts} · ${day.date}`}>
+                <div className="flex h-16 w-full items-end rounded-sm bg-inset/60">
+                  <div className="w-full rounded-sm bg-accent-soft" style={{ height: `${(day.attempts / peak) * 100}%` }} />
+                </div>
+                <span className="text-[9px] text-ink-3">{WEEKDAY_INITIALS[new Date(`${day.date}T00:00:00`).getDay()]}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Accuracy by subject */}
+        <div className="border-t border-line pt-4">
+          <p className="mb-2.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Accuracy by subject')}</p>
+          {subjectRows.length === 0 ? (
+            <p className="text-[12px] leading-relaxed text-ink-3">
+              {t('Answer a few questions in a subject and its accuracy appears here.')}
+            </p>
+          ) : (
+            <div className="space-y-2.5">
+              {subjectRows.map((row) => {
+                const subject = getSubject(row.key)
+                const acc = Math.round((row.accuracy ?? 0) * 100)
+                return (
+                  <div key={row.key} className="flex items-center gap-2.5">
+                    <span className="inline-flex w-24 shrink-0 items-center gap-1.5 truncate text-[11.5px] text-ink-2"><SubjectDot id={row.key} />{subject.short}</span>
+                    <Meter value={acc} tone={acc >= 75 ? 'success' : acc >= 60 ? 'accent' : 'warning'} className="flex-1" />
+                    <span className="tnum w-9 text-end font-mono text-[11px] text-ink-2">{acc}%</span>
+                  </div>
+                )
+              })}
+            </div>
+          )}
+        </div>
+      </div>
+    </Panel>
+  )
+}
+
 export function QuestionBank() {
   const t = useT()
   const location = useLocation()
@@ -86,42 +212,102 @@ export function QuestionBank() {
   const [checked, setChecked] = useState<Record<string, boolean>>({})
   const [reviewing, setReviewing] = useState(false)
   const { record } = useMastery()
+  const logAttempt = useRecordAttempt()
+  const history = useAttemptHistory()
+  /** Groups this sitting's records, so a later attempt at the same item is distinct. */
+  const [sessionId, setSessionId] = useState(() => newSessionId())
   const [elapsed, setElapsed] = useState(0)
+  /** Elapsed seconds when the current question was first shown. */
+  const questionStartedAt = useRef(0)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
   /** Indexes the student has actually landed on — what separates "omitted" from "unseen". */
   const [visited, setVisited] = useState<Set<number>>(() => new Set([0]))
-  const [marked, setMarked] = useState<Set<string>>(() => new Set())
+  /**
+   * Questions flagged for another look.
+   *
+   * Persisted per student rather than held in component state: a mark whose
+   * whole purpose is "come back to this" was previously discarded the moment
+   * the session ended.
+   */
+  const [markedIds, setMarkedIds] = usePersistentState<string[]>(QBANK_MARKED_STORAGE_KEY, [])
+  const marked = useMemo(() => new Set(markedIds), [markedIds])
+  const setMarked = useCallback((update: (current: Set<string>) => Set<string>) => {
+    setMarkedIds((current) => [...update(new Set(current))])
+  }, [setMarkedIds])
   const [showAllRationales, setShowAllRationales] = useState(false)
 
   const articleQuestions = useMemo(
     () => (articleFilter ? questions.filter((question) => question.libraryRefs.some((ref) => ref.id === articleFilter)) : questions),
     [articleFilter, questions],
   )
-  const available = useMemo(() => questionsInScope(articleQuestions, scope), [articleQuestions, scope])
+  // The live chapter tree, so a whole-chapter selection matches real content.
+  const { topics: libraryTopics } = useLiveLibrary()
+  const available = useMemo(() => questionsInScope(articleQuestions, scope, libraryTopics), [articleQuestions, libraryTopics, scope])
+
+  /**
+   * The subjects this student is actually weakest in.
+   *
+   * Was the literal `['renal', 'pharm', 'endo']` — the same three subjects for
+   * everyone, including a student who had never answered a question. Empty
+   * until there is enough marked work to name one.
+   */
+  const weakestSubjects = useMemo(
+    () => weakest(accuracyBySubject(history.records), WEAKNESS_EVIDENCE, 3).map((entry) => entry.key),
+    [history.records],
+  )
+
+  /**
+   * The four quick-start pools, defined once.
+   *
+   * The counts on the buttons and the questions a button actually opens have to
+   * come from the same expression, or a button can advertise a number and then
+   * serve a different set — which is what happened when an empty pool silently
+   * fell back to the whole bank.
+   */
+  const presetPool = useCallback((kind: PresetKind): Question[] => {
+    if (kind === 'weak') {
+      const weakSubjects = new Set(weakestSubjects)
+      return questions.filter((question) => weakSubjects.has(question.subjectId))
+    }
+    if (kind === 'emergency') return questions.filter((question) => /acute|STEMI|acidosis|hypox/i.test(`${question.topic} ${question.vignette} ${question.stem}`))
+    if (kind === 'demanding') return questions.filter((question) => DEMANDING_DIFFICULTIES.includes(question.difficulty))
+    return questions
+  }, [questions, weakestSubjects])
 
   const presetCounts = useMemo(() => ({
-    weak: questions.filter((question) => ['renal', 'pharm', 'endo'].includes(question.subjectId)).length,
-    emergency: questions.filter((question) => /acute|STEMI|acidosis|hypox/i.test(`${question.topic} ${question.vignette} ${question.stem}`)).length,
-    demanding: questions.filter((question) => DEMANDING_DIFFICULTIES.includes(question.difficulty)).length,
+    weak: presetPool('weak').length,
+    emergency: presetPool('emergency').length,
+    demanding: presetPool('demanding').length,
     everything: questions.length,
-  }), [questions])
+  }), [presetPool, questions])
 
-  const requestedReview = params.get('review') ?? params.get('session')
+  /**
+   * A review session opened from elsewhere in the app.
+   *
+   * `?concepts=` is what the dashboard's due-review list sends: the concepts the
+   * mastery ledger says are shaky. `?subject=` is the broader entry point used
+   * by notifications. Neither can open an empty session — `beginSession`
+   * refuses one, so a stale link lands on the setup screen instead of a crash.
+   */
+  const reviewConcepts = params.get('concepts')
+  const reviewSubject = params.get('subject')
+  const openedReview = useRef(false)
   useEffect(() => {
-    if (!requestedReview) return
-    const review = dueReviews.find((item) => item.id === requestedReview)
-    const pool = review ? questions.filter((question) => question.subjectId === review.subjectId) : questions
-    setSession(shuffle(pool).slice(0, Math.min(5, pool.length)))
-    setIdx(0)
-    setAnswers({})
-    setChecked({})
-    setReviewing(false)
-    setElapsed(0)
-    setVisited(new Set([0]))
-    setMarked(new Set())
-    setShowAllRationales(false)
-    setPhase('running')
-  }, [questions, requestedReview])
+    if (openedReview.current || (!reviewConcepts && !reviewSubject)) return
+    if (!questions.length) return
+    const wanted = new Set((reviewConcepts ?? '').split(',').map((id) => id.trim()).filter(Boolean))
+    const pool = questions.filter((question) => {
+      if (reviewSubject && question.subjectId !== reviewSubject) return false
+      if (!wanted.size) return true
+      return (question.conceptIds ?? []).some((id) => wanted.has(id))
+    })
+    if (!pool.length) return
+    openedReview.current = true
+    beginSession(shuffle(pool).slice(0, Math.min(REVIEW_SESSION_SIZE, pool.length)))
+    // beginSession is redefined every render; the ref above is what makes this
+    // run once, so re-running on its identity would defeat the guard.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [questions, reviewConcepts, reviewSubject])
 
   useEffect(() => {
     if (phase !== 'running' || mode !== 'timed' || reviewing) return
@@ -136,39 +322,35 @@ export function QuestionBank() {
     setShowAllRationales(false)
   }, [idx])
 
-  function start() {
-    const picked = shuffle(available).slice(0, Math.min(count, available.length))
+  /**
+   * Open a session on a chosen set of questions.
+   *
+   * An empty set is refused rather than entered. The runner indexes straight
+   * into `session[idx]`, so starting with nothing to ask crashed the page —
+   * which is what every quick-start button did on a bank with no published
+   * questions in it.
+   */
+  function beginSession(picked: Question[]) {
+    if (!picked.length) return
     setSession(picked)
+    setSessionId(newSessionId())
     setIdx(0)
     setAnswers({})
     setChecked({})
     setReviewing(false)
     setElapsed(0)
+    questionStartedAt.current = 0
     setVisited(new Set([0]))
-    setMarked(new Set())
     setShowAllRationales(false)
     setPhase('running')
   }
 
+  function start() {
+    beginSession(shuffle(available).slice(0, Math.min(count, available.length)))
+  }
+
   function startPreset(kind: 'weak' | 'emergency' | 'demanding' | 'everything') {
-    const pool = kind === 'weak'
-      ? questions.filter((question) => ['renal', 'pharm', 'endo'].includes(question.subjectId))
-      : kind === 'emergency'
-        ? questions.filter((question) => /acute|STEMI|acidosis|hypox/i.test(`${question.topic} ${question.vignette} ${question.stem}`))
-        : kind === 'demanding'
-          ? questions.filter((question) => DEMANDING_DIFFICULTIES.includes(question.difficulty))
-          : questions
-    const picked = shuffle(pool.length ? pool : questions).slice(0, Math.min(count, pool.length || questions.length))
-    setSession(picked)
-    setIdx(0)
-    setAnswers({})
-    setChecked({})
-    setReviewing(false)
-    setElapsed(0)
-    setVisited(new Set([0]))
-    setMarked(new Set())
-    setShowAllRationales(false)
-    setPhase('running')
+    beginSession(shuffle(presetPool(kind)).slice(0, count))
   }
 
   const stats = useMemo(() => {
@@ -197,19 +379,25 @@ export function QuestionBank() {
           <h2 id="quick-start-title" className="mb-2.5 text-[11px] font-bold uppercase tracking-[0.09em] text-ink-3">{t('Quick start')}</h2>
           <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
             {[
-              { id: 'weak' as const, title: t('Your weakest topics'), text: t('Targets the subjects you score lowest in.'), icon: TrendingDown, count: presetCounts.weak || questions.length },
-              { id: 'emergency' as const, title: t('Emergencies only'), text: t('Time-critical questions across all systems.'), icon: Siren, count: presetCounts.emergency || questions.length },
-              { id: 'demanding' as const, title: t('Demanding questions'), text: t('Cohort accuracy below 50%.'), icon: Flame, count: presetCounts.demanding || questions.length },
+              // Each card shows the size of the set it will actually open. The
+              // old `|| questions.length` fallback made an empty preset display
+              // the whole bank's count and then serve the whole bank.
+              { id: 'weak' as const, title: t('Your weakest topics'), text: weakestSubjects.length ? t('Targets the subjects you score lowest in.') : t('Answer a few more questions and this will target your weakest subjects.'), icon: TrendingDown, count: presetCounts.weak },
+              { id: 'emergency' as const, title: t('Emergencies only'), text: t('Time-critical questions across all systems.'), icon: Siren, count: presetCounts.emergency },
+              // Named for what it filters on. It reads difficulty, and no
+              // cohort accuracy exists to compare anyone against.
+              { id: 'demanding' as const, title: t('Demanding questions'), text: t('The hardest questions in the bank.'), icon: Flame, count: presetCounts.demanding },
               { id: 'everything' as const, title: t('Everything, shuffled'), text: t('The full bank in random order.'), icon: Shuffle, count: presetCounts.everything },
             ].map((preset) => (
               <button
                 key={preset.id}
                 type="button"
                 onClick={() => startPreset(preset.id)}
-                className="group min-h-40 rounded-xl border border-line bg-surface p-4 text-left shadow-panel transition-[border-color,background-color,box-shadow,transform] duration-150 ease-[var(--ease-out-quint)] hover:-translate-y-0.5 hover:border-accent-line hover:bg-accent-tint/15 hover:shadow-float active:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] sm:min-h-44"
+                disabled={preset.count === 0}
+                className="group min-h-40 rounded-xl border border-line bg-surface p-4 text-left shadow-panel transition-[border-color,background-color,box-shadow,transform] duration-150 ease-[var(--ease-out-quint)] hover:-translate-y-0.5 hover:border-accent-line hover:bg-accent-tint/15 hover:shadow-float active:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] disabled:cursor-not-allowed disabled:opacity-55 disabled:hover:translate-y-0 disabled:hover:border-line disabled:hover:bg-surface disabled:hover:shadow-panel sm:min-h-44"
               >
                 <span className="flex items-start justify-between gap-3">
-                  <span className="grid size-10 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent transition-colors group-hover:bg-accent group-hover:text-on-accent">
+                  <span className="grid size-10 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent transition-colors group-hover:bg-accent group-hover:text-on-accent group-disabled:bg-inset group-disabled:text-ink-3">
                     <Icon icon={preset.icon} size={19} strokeWidth={2.15} />
                   </span>
                   <span className="tnum pt-1 font-mono text-[11.5px] text-ink-3">{preset.count} {preset.count === 1 ? t('Q') : t('Qs')}</span>
@@ -303,78 +491,7 @@ export function QuestionBank() {
             </div>
           </Panel>
 
-          <Panel className="h-fit">
-            <PanelHeader title={t('Your Qbank')} icon={ListChecks} />
-            <div className="space-y-5 p-5">
-              {/* Completion ring + headline */}
-              <div className="flex items-center gap-4">
-                <div className="relative grid size-[76px] shrink-0 place-items-center">
-                  <svg viewBox="0 0 36 36" className="size-full -rotate-90">
-                    <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-inset)" strokeWidth="3.2" />
-                    <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-accent)" strokeWidth="3.2" strokeLinecap="round" strokeDasharray={`${58 * 0.9739} 100`} pathLength={100} />
-                  </svg>
-                  <span className="absolute tnum font-mono text-[16px] font-semibold text-ink">58%</span>
-                </div>
-                <div className="min-w-0">
-                  <p className="text-[12px] text-ink-3">{t('Bank completed')}</p>
-                  <p className="tnum font-mono text-[17px] font-semibold text-ink">1,842 / 3,200</p>
-                  <p className="mt-0.5 text-[11.5px] text-ink-3">1,358 {t('remaining')}</p>
-                </div>
-              </div>
-
-              {/* Stat trio */}
-              <div className="grid grid-cols-3 gap-2 border-t border-line pt-4">
-                {[
-                  { value: '72%', label: t('Accuracy'), tone: 'text-success' },
-                  { value: '128', label: t('This week'), tone: 'text-ink' },
-                  { value: '9', label: t('Day streak'), tone: 'text-accent' },
-                ].map((s) => (
-                  <div key={s.label} className="rounded-lg border border-line bg-surface-2/40 p-2.5 text-center">
-                    <p className={cn('tnum font-mono text-[19px] font-semibold', s.tone)}>{s.value}</p>
-                    <p className="mt-0.5 text-[10.5px] leading-tight text-ink-3">{s.label}</p>
-                  </div>
-                ))}
-              </div>
-
-              {/* Weekly activity */}
-              <div className="border-t border-line pt-4">
-                <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Last 7 days')}</p>
-                <div className="flex items-end justify-between gap-1.5" aria-hidden>
-                  {[12, 20, 8, 24, 18, 30, 16].map((v, i) => (
-                    <div key={i} className="flex flex-1 flex-col items-center gap-1">
-                      <div className="flex h-16 w-full items-end rounded-sm bg-inset/60">
-                        <div className="w-full rounded-sm bg-accent-soft" style={{ height: `${(v / 30) * 100}%` }} />
-                      </div>
-                      <span className="text-[9px] text-ink-3">{t(['M', 'T', 'W', 'T', 'F', 'S', 'S'][i])}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Accuracy by subject */}
-              <div className="border-t border-line pt-4">
-                <p className="mb-2.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Accuracy by subject')}</p>
-                <div className="space-y-2.5">
-                  {[
-                    { id: 'cvs', acc: 81 },
-                    { id: 'resp', acc: 74 },
-                    { id: 'renal', acc: 63 },
-                    { id: 'pharm', acc: 58 },
-                    { id: 'neuro', acc: 69 },
-                  ].map(({ id, acc }) => {
-                    const subject = getSubject(id)
-                    return (
-                      <div key={id} className="flex items-center gap-2.5">
-                        <span className="inline-flex w-24 shrink-0 items-center gap-1.5 truncate text-[11.5px] text-ink-2"><SubjectDot id={id} />{subject.short}</span>
-                        <Meter value={acc} tone={acc >= 75 ? 'success' : acc >= 60 ? 'accent' : 'warning'} className="flex-1" />
-                        <span className="tnum w-9 text-end font-mono text-[11px] text-ink-2">{acc}%</span>
-                      </div>
-                    )
-                  })}
-                </div>
-              </div>
-            </div>
-          </Panel>
+          <YourQbank questions={questions} history={history} />
         </div>
       </PageContainer>
     )
@@ -382,6 +499,9 @@ export function QuestionBank() {
 
   /* ---- Results ------------------------------------------------------- */
   if (phase === 'results') {
+    // `beginSession` refuses an empty set, so this can only be reached by a
+    // stale state. Dividing by zero would print "NaN%" as a score.
+    if (!session.length) { setPhase('setup'); return null }
     const pct = Math.round((stats.correct / session.length) * 100)
     return (
       <PageContainer className="max-w-[760px]">
@@ -447,6 +567,10 @@ export function QuestionBank() {
 
   /* ---- Running ------------------------------------------------------- */
   const q = session[idx]
+  // The runner indexes straight into the session, so a missing question is a
+  // crash rather than a blank screen. Falling back to setup is the only safe
+  // reading of "running with nothing to ask".
+  if (!q) { setPhase('setup'); return null }
   const revealed = reviewing || Boolean(checked[q.id])
   const chosen = answers[q.id]
   const last = idx === session.length - 1
@@ -465,9 +589,24 @@ export function QuestionBank() {
   function checkAnswer() {
     setChecked((c) => ({ ...c, [q.id]: true }))
     if (checked[q.id] || chosen == null) return
+    const correct = Boolean(q.options[chosen]?.correct)
     const conceptIds = q.conceptIds ?? []
-    if (!conceptIds.length) return
-    record({ conceptIds, source: 'question', correct: Boolean(q.options[chosen]?.correct) })
+    // The mastery ledger only takes concept-tagged evidence, but the attempt
+    // log takes every answer: an untagged question still happened, and the
+    // student's totals, streak and accuracy have to include it.
+    if (conceptIds.length) record({ conceptIds, source: 'question', correct })
+    logAttempt({
+      surface: 'qbank',
+      itemId: q.id,
+      subjectId: q.subjectId,
+      topic: q.topic,
+      difficulty: q.difficulty,
+      conceptIds,
+      correct,
+      seconds: mode === 'timed' ? Math.max(0, elapsed - questionStartedAt.current) : null,
+      sessionId,
+    })
+    questionStartedAt.current = elapsed
   }
 
   function stateFor(i: number): QuestionState {

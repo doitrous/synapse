@@ -29,8 +29,7 @@ import {
 import type { LibBlock } from '@/data/library'
 import type { ArticleMediaRecord } from '@/data/contentControl'
 import { useLiveLibrary, type LiveSubtopic } from '@/lib/useLiveLibrary'
-import { subjects, getSubject } from '@/data/student'
-import { scopeUniversities } from '@/data/universities'
+import { getSubject } from '@/data/subjects'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { ChapterMark } from '@/components/ui/ChapterMark'
@@ -57,182 +56,6 @@ function Highlight({ text, query }: { text: string; query: string }) {
 }
 
 /* ---- Navigator --------------------------------------------------------- */
-
-export function LegacyLibraryTree({
-  selectedId,
-  onSelect,
-  query,
-  activeTag,
-  userArticles,
-  personalTags,
-  expanded,
-  onToggleTopic,
-}: {
-  selectedId: string
-  onSelect: (id: string) => void
-  query: string
-  activeTag: string | null
-  userArticles: UserArticle[]
-  personalTags: Record<string, string[]>
-  expanded: Record<string, boolean>
-  onToggleTopic: (topicId: string) => void
-}) {
-  const t = useT()
-  const { topics: libraryTopics, subtopics: allSubtopics } = useLiveLibrary()
-  const q = query.trim().toLowerCase()
-
-  const tagsOf = (id: string) => personalTags[id] ?? []
-  const matchesTag = (id: string) => !activeTag || tagsOf(id).some((x) => x.toLowerCase() === activeTag.toLowerCase())
-
-  // Search / tag-filter mode → a flat result list across built-in + your articles.
-  if (q || activeTag) {
-    type Row = { id: string; title: string; sub: string; subjectId: string; mine: boolean }
-    const builtin: Row[] = allSubtopics
-      .filter((s) => matchesTag(s.id))
-      .filter(
-        (s) =>
-          !q ||
-          s.title.toLowerCase().includes(q) ||
-          s.summary.toLowerCase().includes(q) ||
-          s.topicTitle.toLowerCase().includes(q) ||
-          tagsOf(s.id).some((x) => x.toLowerCase().includes(q)),
-      )
-      .map((s) => ({ id: s.id, title: s.title, sub: s.topicTitle, subjectId: s.subjectId, mine: false }))
-    const mine: Row[] = userArticles
-      .filter((a) => matchesTag(a.id))
-      .filter(
-        (a) =>
-          !q ||
-          a.title.toLowerCase().includes(q) ||
-          a.summary.toLowerCase().includes(q) ||
-          a.sections.some((sec) => sec.heading.toLowerCase().includes(q) || sec.body.toLowerCase().includes(q)) ||
-          tagsOf(a.id).some((x) => x.toLowerCase().includes(q)),
-      )
-      .map((a) => ({ id: a.id, title: a.title, sub: getSubject(a.subjectId).name, subjectId: a.subjectId, mine: true }))
-    const matches = [...mine, ...builtin]
-    if (matches.length === 0)
-      return <p className="px-2 py-8 text-center text-[13px] text-ink-3">{t('No topics match your filters.')}</p>
-    return (
-      <ul className="space-y-0.5">
-        {matches.map((s) => (
-          <li key={s.id}>
-            <button
-              onClick={() => onSelect(s.id)}
-              className={cn(
-                'flex w-full flex-col gap-0.5 rounded-md px-2 py-1.5 text-start transition-colors',
-                selectedId === s.id ? 'bg-accent-tint' : 'hover:bg-inset',
-              )}
-            >
-              <span className="flex items-center gap-2 text-[13px] font-medium text-ink">
-                <ChapterMark subjectId={s.subjectId} index={1} compact />
-                <Highlight text={s.title} query={query} />
-                {s.mine && <Icon icon={PenLine} size={12} className="text-accent" />}
-              </span>
-              <span className="ps-12 text-[11.5px] text-ink-3"><Highlight text={s.sub} query={query} /></span>
-            </button>
-          </li>
-        ))}
-      </ul>
-    )
-  }
-
-  const groups = subjects
-    .map((subj) => ({
-      subj,
-      topics: libraryTopics.filter((tp) => tp.subjectId === subj.id),
-      mine: userArticles.filter((a) => a.subjectId === subj.id),
-    }))
-    .filter((g) => g.topics.length > 0 || g.mine.length > 0)
-
-  return (
-    <div className="space-y-5">
-      {groups.map(({ subj, topics, mine }) => (
-        <div key={subj.id}>
-          <div className="mb-1.5 flex items-center gap-2 px-2">
-            <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{subj.name}</span>
-          </div>
-          {topics.map((topic, topicIndex) => {
-            const isOpen = expanded[topic.id] ?? false
-            return (
-              <div key={topic.id} className="mb-1">
-                <button
-                  onClick={() => onToggleTopic(topic.id)}
-                  aria-expanded={isOpen}
-                  className="flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13.5px] font-bold text-ink transition-colors hover:bg-inset"
-                >
-                  <Icon
-                    icon={ChevronRight}
-                    size={15}
-                    className={cn('shrink-0 text-ink-3 transition-transform', isOpen && 'rotate-90 rtl:-rotate-90')}
-                  />
-                  <ChapterMark subjectId={subj.id} index={topicIndex + 1} compact />
-                  <span className="flex-1 leading-snug">{topic.title}</span>
-                  <span className="tnum font-mono text-[10.5px] text-ink-3">{topic.subtopics.length}</span>
-                </button>
-                {isOpen && (
-                  <ul className="ms-[1.15rem] space-y-0.5 border-s border-line-2 ps-[1.8rem]">
-                    {topic.subtopics.map((st) => (
-                      <li key={st.id}>
-                        <button
-                          onClick={() => onSelect(st.id)}
-                          className={cn(
-                            'flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13px] transition-colors',
-                            selectedId === st.id
-                              ? 'bg-accent-tint font-medium text-accent-strong'
-                              : 'text-ink-2 hover:bg-inset hover:text-ink',
-                          )}
-                        >
-                          <span className="truncate">{st.title}</span>
-                        </button>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            )
-          })}
-          {mine.length > 0 && (
-            <div className="mb-1">
-              <button
-                onClick={() => onToggleTopic(`mine-${subj.id}`)}
-                aria-expanded={expanded[`mine-${subj.id}`] ?? false}
-                className="flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13.5px] font-bold text-accent-strong transition-colors hover:bg-inset"
-              >
-                <Icon
-                  icon={ChevronRight}
-                  size={15}
-                  className={cn('shrink-0 text-accent/70 transition-transform', (expanded[`mine-${subj.id}`] ?? false) && 'rotate-90 rtl:-rotate-90')}
-                />
-                <Icon icon={PenLine} size={13} className="text-accent" />
-                <span className="flex-1 leading-snug">{t('My articles')}</span>
-                <span className="tnum font-mono text-[10.5px] text-accent/70">{mine.length}</span>
-              </button>
-              {(expanded[`mine-${subj.id}`] ?? false) && (
-                <ul className="ms-[1.15rem] space-y-0.5 border-s border-accent-line ps-[1.8rem]">
-                  {mine.map((a) => (
-                    <li key={a.id}>
-                      <button
-                        onClick={() => onSelect(a.id)}
-                        className={cn(
-                          'flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13px] transition-colors',
-                          selectedId === a.id
-                            ? 'bg-accent-tint font-medium text-accent-strong'
-                            : 'text-ink-2 hover:bg-inset hover:text-ink',
-                        )}
-                      >
-                        <span className="truncate">{a.title}</span>
-                      </button>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
-          )}
-        </div>
-      ))}
-    </div>
-  )
-}
 
 /* ---- Article media ----------------------------------------------------- */
 
@@ -717,7 +540,9 @@ function Reader({
   const st = article
   const id = article.id
   const subject = getSubject(st.subjectId)
-  const appliesTo = st.universityIds?.length ? st.universityIds : scopeUniversities(id)
+  // Only the universities an author recorded. The old fallback hashed the
+  // article id to invent a set, so every article claimed a scope it never had.
+  const appliesTo: string[] = st.universityIds ?? []
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [selectedSpanId, setSelectedSpanId] = useState<string | null>(null)
   const selectedSpan = evidence.articleSpans.find((span) => span.id === selectedSpanId)
@@ -755,7 +580,11 @@ function Reader({
           <Icon icon={Clock} size={14} />
           {st.readingMin} {t('min read')}
         </span>
-        <span className="text-[12.5px] text-ink-3">{t('Updated')} {formatLongDate(updatedAtFor(st.id))}</span>
+        {(() => {
+          // Nothing at all rather than a date no revision produced.
+          const updatedAt = updatedAtFor(st.id)
+          return updatedAt ? <span className="text-[12.5px] text-ink-3">{t('Updated')} {formatLongDate(updatedAt)}</span> : null
+        })()}
         <div className="flex gap-2">
           <Link to={`/app/notebook?article=${st.id}&new=1`}><Button variant="secondary" size="sm" iconLeft={NotebookPen}>{t('Take a note')}</Button></Link>
           <Link to={`/app/qbank?article=${st.id}`}>
