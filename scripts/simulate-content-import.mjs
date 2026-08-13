@@ -61,8 +61,6 @@ function detectKind(sample) {
   if ('article_id' in sample && 'section_id' in sample) return 'span'
   if ('institution' in sample && 'processing_status' in sample) return 'resource'
   if ('type' in sample && ('mark_scheme' in sample || 'decisions' in sample || 'lab_questions' in sample || 'candidate_instructions' in sample)) return 'practical'
-  // Questions are not part of this programme yet, but a batch for one can sit in
-  // the directory. It needs a positive test so it is refused rather than absorbed.
   if ('vignette' in sample || 'correct_answer' in sample || 'answer_a' in sample) return 'question'
   // Concepts get a positive test too. This used to be the fallback, which meant
   // *any* unrecognised row became a concept: a stray question batch was applied
@@ -95,7 +93,9 @@ const before = {
 
 // Practicals go last: they reference concepts, so anything that creates a
 // concept must have been applied before one is checked against the graph.
-const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5, relation: 6, practical: 7 }
+// Questions run last: each one resolves against both the concept graph and the
+// article ledger, so it has to see every concept and article this run creates.
+const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5, relation: 6, practical: 7, question: 8 }
 const batches = []
 /** Files this run will not apply, reported under `skipped` rather than `errors`. */
 const refused = []
@@ -174,6 +174,34 @@ for (const batch of batches) {
       for (const id of tagged) if (!context.conceptIds.has(id)) rowErrors.push(`concept ${id} does not exist`)
       if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
       const incoming = importRowToContent('practical', row, `row-${index}`)
+      const position = ledger.findIndex((item) => item.id === incoming.id)
+      if (position >= 0) { ledger[position] = mergeContentItem(ledger[position], incoming, false); updated += 1 }
+      else { ledger.unshift(materialiseNewItem(incoming)); created += 1 }
+    })
+    report.push({ file: batch.file, kind: batch.kind, created, updated, rejected: batch.rows.length - created - updated })
+    continue
+  }
+
+  if (batch.kind === 'question') {
+    let created = 0
+    let updated = 0
+    batch.rows.forEach((row, index) => {
+      const rowErrors = validateImportRow('question', row)
+      // A question carries the same two referential risks a practical does, and
+      // they fail the same silent way: a tag pointing at a concept nobody
+      // authored imports cleanly and tracks mastery against nothing, and a
+      // `library_ids` entry naming no article leaves the student with no way
+      // back to where the answer is taught.
+      const incoming = importRowToContent('question', row, `row-${index}`)
+      const data = materialiseNewItem(incoming).questionData
+      const tagged = [
+        ...(data.tags.mainConceptIds ?? []),
+        ...(data.tags.conceptIds ?? []),
+        ...(data.tags.contextualConceptIds ?? []),
+      ].filter(Boolean)
+      for (const id of tagged) if (!context.conceptIds.has(id)) rowErrors.push(`concept ${id} does not exist`)
+      for (const id of data.libraryIds ?? []) if (!context.articleIds.has(id)) rowErrors.push(`article ${id} does not exist`)
+      if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
       const position = ledger.findIndex((item) => item.id === incoming.id)
       if (position >= 0) { ledger[position] = mergeContentItem(ledger[position], incoming, false); updated += 1 }
       else { ledger.unshift(materialiseNewItem(incoming)); created += 1 }
