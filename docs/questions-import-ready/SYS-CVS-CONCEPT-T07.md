@@ -1,0 +1,1156 @@
+# Item
+## label
+Hypertension is defined by the risk it carries, not by a natural threshold
+## id
+med.concept.hypertension-defined-by-risk
+## canonical_key
+hypertension-defined-by-risk
+## aliases
+Definition of hypertension | Blood pressure thresholds
+## arabic_label
+ارتفاع الضغط يُعرّف بالخطر الذي يحمله لا بعتبة طبيعية
+## arabic_aliases
+عتبة تعريف ارتفاع الضغط
+## definition
+Cardiovascular risk rises continuously with blood pressure, with no point at which it steps up. The diagnostic threshold is therefore a convention chosen where treatment does more good than harm, which is why it differs between guidelines and moves over time.
+## explicit_objective
+Explain the diagnostic threshold as a treatment convention drawn across a continuous risk relationship.
+## pitfalls
+Treating the threshold as a biological boundary. A patient just below it is not safe, and risk is assessed from the whole cardiovascular profile rather than from the pressure alone.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## learner_years
+2 | 3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y2=0.8 | kau_y3=0.95 | kau_y4=0.9
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M01
+## secondary_node_ids
+DIS-MED
+## article_ids
+ART-CVS-PRIMARY-HYPERTENSION
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. No numerical threshold is stated; thresholds are guideline-dependent.
+
+---
+
+# Item
+## label
+Primary hypertension has no single cause and is diagnosed by exclusion
+## id
+med.concept.primary-hypertension-multifactorial
+## canonical_key
+primary-hypertension-multifactorial
+## aliases
+Essential hypertension | Primary hypertension
+## arabic_label
+ارتفاع الضغط الأولي بلا سبب واحد ويُشخّص بالاستبعاد
+## arabic_aliases
+ارتفاع الضغط الأساسي
+## definition
+Primary hypertension results from the interaction of genetic susceptibility with sodium intake, obesity, alcohol, inactivity and stress, acting through renal sodium handling, sympathetic activity, the renin–angiotensin system and vascular stiffness. No single lesion accounts for it.
+## explicit_objective
+Describe primary hypertension as multifactorial and state that its diagnosis requires exclusion of secondary causes where indicated.
+## pitfalls
+Assuming primary hypertension in everyone because it is the commonest form. Certain presentations demand a search for a secondary cause, and missing one denies a curable diagnosis.
+## concept_type
+pathophysiological_mechanism
+## status
+under review
+## subject
+cvs
+## learner_years
+2 | 3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y2=0.8 | kau_y3=0.9 | kau_y4=0.9
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M01
+## secondary_node_ids
+SYS-REN
+## article_ids
+ART-CVS-PRIMARY-HYPERTENSION
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. Builds on med.concept.AEBDDFAB03B5DF-equivalent physiology already held by CON-CVS-AEBDDFAB03B5DF, which supplies the determinants of mean arterial pressure.
+
+---
+
+# Item
+## label
+Hypertension is silent, so it is diagnosed by measurement rather than by symptoms
+## id
+med.concept.hypertension-is-silent
+## canonical_key
+hypertension-is-silent
+## aliases
+Asymptomatic hypertension | The silent killer
+## arabic_label
+ارتفاع الضغط صامت فيُشخّص بالقياس لا بالأعراض
+## arabic_aliases
+القاتل الصامت
+## definition
+Uncomplicated hypertension produces no symptoms at any severity. Headache, epistaxis and dizziness are not reliable features, and their absence carries no reassurance. Detection therefore depends entirely on measuring the pressure in people who feel well.
+## explicit_objective
+State that hypertension is asymptomatic and derive from that the need for systematic measurement.
+## pitfalls
+Attributing headache to a raised reading, or excluding hypertension because the patient feels well. Both errors follow from expecting a symptom the disease does not produce.
+## concept_type
+clinical_principle
+## status
+under review
+## subject
+cvs
+## learner_years
+2 | 3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y2=0.85 | kau_y3=0.9 | kau_y4=0.85
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M01
+## secondary_node_ids
+SYS-POP
+## article_ids
+ART-CVS-PRIMARY-HYPERTENSION
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass.
+
+---
+
+# Item
+## label
+A single clinic reading is not a diagnosis
+## id
+med.concept.out-of-office-measurement
+## canonical_key
+out-of-office-measurement
+## aliases
+White coat hypertension | Masked hypertension | Ambulatory monitoring
+## arabic_label
+قراءة عيادية واحدة ليست تشخيصًا
+## arabic_aliases
+ارتفاع ضغط المعطف الأبيض
+## definition
+Clinic measurement misclassifies in both directions. White coat hypertension is a raised clinic pressure with normal readings elsewhere; masked hypertension is the reverse, and carries the risk of untreated disease. Out-of-office measurement — ambulatory or home — is therefore part of making the diagnosis rather than an optional extra.
+## explicit_objective
+Explain both directions of clinic misclassification and justify out-of-office confirmation.
+## pitfalls
+Starting lifelong treatment on clinic readings alone, and — the more dangerous error — accepting a normal clinic reading in a high-risk patient without considering masked hypertension.
+## concept_type
+clinical_principle
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.9
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M01
+## secondary_node_ids
+SKL-EXM
+## article_ids
+ART-CVS-PRIMARY-HYPERTENSION
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. Complements CON-CVS-85F9DE6C65F2F7 and CON-CVS-BE94FBA0B205EF, which cover measurement technique.
+
+---
+
+# Item
+## label
+Target organ damage is the record of how long the pressure has been raised
+## id
+med.concept.target-organ-damage
+## canonical_key
+target-organ-damage
+## aliases
+Hypertensive target organ damage | End-organ damage
+## arabic_label
+تلف الأعضاء المستهدفة سجل لمدة ارتفاع الضغط
+## arabic_aliases
+تلف الأعضاء المستهدفة
+## definition
+Sustained pressure damages the heart, brain, kidneys, retina and large arteries. Left ventricular hypertrophy, albuminuria, retinopathy and arterial stiffening are markers of cumulative exposure, so their presence raises risk independently and changes the urgency of treatment.
+## explicit_objective
+Name the target organs and explain why evidence of damage alters management independently of the current reading.
+## pitfalls
+Assessing risk from the pressure alone. Two patients with identical readings and different degrees of organ damage are not at the same risk and are not treated identically.
+## concept_type
+clinical_consequence
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.9
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M01
+## secondary_node_ids
+SYS-REN
+## article_ids
+ART-CVS-PRIMARY-HYPERTENSION | ART-CVS-HYPERTENSIVE-EMERGENCY
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass.
+
+---
+
+# Item
+## label
+Certain features should prompt a search for a secondary cause
+## id
+med.concept.when-to-suspect-secondary-hypertension
+## canonical_key
+when-to-suspect-secondary-hypertension
+## aliases
+Secondary hypertension red flags | Screening for secondary hypertension
+## arabic_label
+ملامح معينة توجب البحث عن سبب ثانوي
+## arabic_aliases
+مؤشرات ارتفاع الضغط الثانوي
+## definition
+Secondary causes account for a minority of hypertension, but they are concentrated in recognisable groups: young age at onset, severe or resistant hypertension, abrupt onset or deterioration in a previously controlled patient, hypokalaemia, and clinical clues pointing to a specific endocrine or renal cause.
+## explicit_objective
+List the features that justify investigation for a secondary cause and explain why indiscriminate screening is not the alternative.
+## pitfalls
+Screening everyone, or screening no one. The yield is low in unselected patients and high in those with these features, so the decision to investigate is itself the clinical skill.
+## concept_type
+clinical_principle
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.95
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M02
+## secondary_node_ids
+SYS-END
+## article_ids
+ART-CVS-SECONDARY-HYPERTENSION
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass.
+
+---
+
+# Item
+## label
+Renal artery stenosis raises pressure by activating the renin–angiotensin system
+## id
+med.concept.renovascular-hypertension
+## canonical_key
+renovascular-hypertension
+## aliases
+Renovascular hypertension | Renal artery stenosis
+## arabic_label
+تضيق الشريان الكلوي يرفع الضغط بتفعيل جملة الرينين أنجيوتنسين
+## arabic_aliases
+ارتفاع الضغط الوعائي الكلوي
+## definition
+A stenosis reduces perfusion pressure at the affected kidney, which senses hypovolaemia and releases renin. The resulting angiotensin II raises systemic pressure by vasoconstriction and by sodium retention, at the cost of hypertension everywhere else in the body.
+## explicit_objective
+Trace the mechanism from reduced renal perfusion to systemic hypertension.
+## pitfalls
+Overlooking the consequence for treatment: in bilateral disease or a single functioning kidney, blocking the renin–angiotensin system removes the efferent arteriolar tone maintaining filtration, and renal function can fall sharply.
+## concept_type
+pathophysiological_mechanism
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.9
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M02
+## secondary_node_ids
+SYS-REN
+## article_ids
+ART-CVS-SECONDARY-HYPERTENSION
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. Builds on CON-CVS-A3B1CCD1E56CE7 and CON-CVS-2886EDD0864ABC, which supply the actions of angiotensin II. No drug is named.
+
+---
+
+# Item
+## label
+Primary aldosteronism is commoner than its classical description suggests
+## id
+med.concept.primary-aldosteronism-underdiagnosed
+## canonical_key
+primary-aldosteronism-underdiagnosed
+## aliases
+Conn syndrome | Primary hyperaldosteronism
+## arabic_label
+فرط الألدوستيرون الأولي أشيع مما توحي به الصورة التقليدية
+## arabic_aliases
+متلازمة كون
+## definition
+Autonomous aldosterone secretion causes sodium retention and potassium loss. The classical presentation with hypokalaemia is the minority: most patients have normal potassium, so relying on hypokalaemia as the trigger for testing misses the majority of cases.
+## explicit_objective
+State that normokalaemia is usual and explain why hypokalaemia is an insensitive screening trigger.
+## pitfalls
+Waiting for a low potassium before testing. This is the reason the condition is under-diagnosed, and it matters because a treatable and sometimes curable cause is being missed.
+## concept_type
+clinical_principle
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.85 | kau_y4=0.9
+## weight_confidence
+0.4
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M02
+## secondary_node_ids
+SYS-END
+## article_ids
+ART-CVS-SECONDARY-HYPERTENSION
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. No prevalence figure or testing threshold is stated.
+
+---
+
+# Item
+## label
+A hypertensive emergency is defined by organ damage, not by the reading
+## id
+med.concept.emergency-defined-by-organ-damage
+## canonical_key
+emergency-defined-by-organ-damage
+## aliases
+Hypertensive emergency | Hypertensive urgency
+## arabic_label
+الطارئ الارتفاعي يُعرّف بتلف الأعضاء لا بالقراءة
+## arabic_aliases
+الطوارئ الارتفاعية
+## definition
+A hypertensive emergency is severe hypertension with acute, ongoing target organ damage — encephalopathy, acute heart failure, dissection, acute kidney injury, retinal haemorrhage or eclampsia. Severe hypertension without such damage is not an emergency, however alarming the number.
+## explicit_objective
+Distinguish emergency from severe asymptomatic hypertension by the presence of acute organ damage.
+## pitfalls
+Treating the number. A patient with a very high reading and no acute organ damage does not need rapid reduction, and giving it can cause the harm the treatment was meant to prevent.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.95
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M03
+## secondary_node_ids
+KNW-EMG
+## article_ids
+ART-CVS-HYPERTENSIVE-EMERGENCY
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass.
+
+---
+
+# Item
+## label
+Autoregulation resets in chronic hypertension, so pressure must be lowered gradually
+## id
+med.concept.autoregulation-shift-gradual-reduction
+## canonical_key
+autoregulation-shift-gradual-reduction
+## aliases
+Cerebral autoregulation curve shift | Controlled blood pressure reduction
+## arabic_label
+التنظيم الذاتي يُعاد ضبطه في ارتفاع الضغط المزمن فيجب خفضه تدريجيًا
+## arabic_aliases
+انزياح منحنى التنظيم الذاتي
+## definition
+Cerebral and renal autoregulation maintain constant flow across a range of pressures, and that range shifts upwards in chronic hypertension. A pressure that is normal for the population may therefore lie below the lower limit of autoregulation for that patient, causing ischaemia when it is reached abruptly.
+## explicit_objective
+Explain why rapid normalisation of pressure in a chronically hypertensive patient can cause cerebral, renal or myocardial ischaemia.
+## pitfalls
+Aiming for a normal pressure in a hypertensive emergency. Controlled partial reduction over hours is the principle, and the exceptions where faster reduction is required are specific and defined.
+## concept_type
+pathophysiological_mechanism
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.95
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S01-M03
+## secondary_node_ids
+SYS-NEU
+## article_ids
+ART-CVS-HYPERTENSIVE-EMERGENCY
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. No target, percentage reduction or time window is stated; all are guideline-dependent.
+
+---
+
+# Item
+## label
+Wall stress rises with radius, so an aneurysm enlarges itself
+## id
+med.concept.laplace-aneurysm-expansion
+## canonical_key
+laplace-aneurysm-expansion
+## aliases
+Law of Laplace | Aneurysm expansion
+## arabic_label
+إجهاد الجدار يزداد مع نصف القطر فيوسّع التمدد نفسه
+## arabic_aliases
+قانون لابلاس في التمدد
+## definition
+Tension in a vessel wall is proportional to the pressure within it and to its radius. As an aneurysm dilates, wall stress rises, which promotes further dilatation. Expansion therefore accelerates, and rupture risk rises steeply rather than linearly with diameter.
+## explicit_objective
+Apply the law of Laplace to explain accelerating aneurysm expansion and non-linear rupture risk.
+## pitfalls
+Treating growth as steady. Surveillance intervals shorten as diameter increases precisely because the process is self-accelerating.
+## concept_type
+pathophysiological_mechanism
+## status
+under review
+## subject
+cvs
+## learner_years
+2 | 3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y2=0.75 | kau_y3=0.9 | kau_y4=0.9
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S02-M01
+## secondary_node_ids
+DIS-PHY
+## article_ids
+ART-CVS-AORTIC-ANEURYSM
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. No diameter threshold is stated.
+
+---
+
+# Item
+## label
+An aortic aneurysm is silent until it leaks
+## id
+med.concept.aneurysm-silent-until-rupture
+## canonical_key
+aneurysm-silent-until-rupture
+## aliases
+Ruptured abdominal aortic aneurysm | Asymptomatic aneurysm
+## arabic_label
+أم الدم الأبهرية صامتة حتى تتسرّب
+## arabic_aliases
+تمزق أم الدم الأبهرية
+## definition
+Most aortic aneurysms cause no symptoms and are found incidentally or by screening. The first clinical event is frequently rupture, which presents with pain, hypotension and a pulsatile mass and carries very high mortality — much of it before the patient reaches an operating theatre.
+## explicit_objective
+State the asymptomatic natural history and justify screening and surveillance rather than symptom-based detection.
+## pitfalls
+Excluding a ruptured aneurysm because the abdomen is not obviously pulsatile or the patient is not yet shocked. The triad is often incomplete, and the diagnosis must be considered in any older patient with abdominal or back pain and hypotension.
+## concept_type
+clinical_consequence
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.95
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S02-M01
+## secondary_node_ids
+KNW-EMG
+## article_ids
+ART-CVS-AORTIC-ANEURYSM
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. No mortality figure or screening protocol is asserted.
+
+---
+
+# Item
+## label
+Dissection is a tear in the intima, not a weakness of the whole wall
+## id
+med.concept.dissection-intimal-tear
+## canonical_key
+dissection-intimal-tear
+## aliases
+Aortic dissection | False lumen
+## arabic_label
+التسلخ تمزق في البطانة لا ضعف في كامل الجدار
+## arabic_aliases
+اللمعة الكاذبة
+## definition
+In aortic dissection blood enters the media through an intimal tear and splits the wall along its length, creating a false lumen. This is a different process from aneurysmal dilatation, and the two require different thinking even though both involve a diseased aorta.
+## explicit_objective
+Distinguish dissection from aneurysm by mechanism and explain how the false lumen produces the clinical features.
+## pitfalls
+Treating dissection as a variety of aneurysm. The false lumen can occlude branch vessels anywhere along the aorta, which is why the presentation ranges from stroke to limb ischaemia to abdominal pain.
+## concept_type
+pathophysiological_mechanism
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.95 | kau_y4=0.95
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S02-M02
+## secondary_node_ids
+KNW-EMG
+## article_ids
+ART-CVS-AORTIC-DISSECTION
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass.
+
+---
+
+# Item
+## label
+Whether the ascending aorta is involved decides the treatment
+## id
+med.concept.dissection-classification-decides-treatment
+## canonical_key
+dissection-classification-decides-treatment
+## aliases
+Stanford type A and type B | Dissection classification
+## arabic_label
+إصابة الأبهر الصاعد من عدمها تحدد العلاج
+## arabic_aliases
+تصنيف ستانفورد
+## definition
+Dissection involving the ascending aorta threatens the aortic valve, the coronary ostia and the pericardium, and is a surgical emergency. Dissection confined to the descending aorta is managed medically unless complications develop. One anatomical question therefore determines the entire pathway.
+## explicit_objective
+Explain why involvement of the ascending aorta changes management, from the structures it puts at risk.
+## pitfalls
+Classifying by where the pain is rather than by imaging. The site of pain does not reliably indicate the extent of the dissection, and the classification requires the scan.
+## concept_type
+classification
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.95 | kau_y4=0.95
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S02-M02
+## secondary_node_ids
+KNW-EMG
+## article_ids
+ART-CVS-AORTIC-DISSECTION
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. No drug, target or surgical threshold is stated.
+
+---
+
+# Item
+## label
+Claudication is exertional muscle ischaemia, the leg equivalent of angina
+## id
+med.concept.claudication-is-exertional-ischaemia
+## canonical_key
+claudication-is-exertional-ischaemia
+## aliases
+Intermittent claudication | Peripheral arterial disease
+## arabic_label
+العرج ألم إقفاري عضلي جهدي، نظير الذبحة في الساق
+## arabic_aliases
+العرج المتقطع
+## definition
+A fixed arterial stenosis supplies enough blood at rest and not enough during walking, so cramping muscle pain appears at a reproducible distance and resolves within minutes of stopping. The mechanism is identical to stable angina, in a different bed.
+## explicit_objective
+Define claudication by its reproducibility and rapid relief, and relate it to the same supply–demand mismatch as angina.
+## pitfalls
+Confusing it with spinal claudication, where pain is relieved by flexing the spine rather than by stopping, and takes longer to settle.
+## concept_type
+pathophysiological_mechanism
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.9
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S02-M03
+## secondary_node_ids
+SYS-MSK
+## article_ids
+ART-CVS-PERIPHERAL-ARTERIAL-DISEASE
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. Parallels med.concept.fixed-stenosis-demand-ischaemia, authored for T03.
+
+---
+
+# Item
+## label
+Calcified vessels give a falsely high ankle–brachial index
+## id
+med.concept.abpi-falsely-high-in-calcification
+## canonical_key
+abpi-falsely-high-in-calcification
+## aliases
+Ankle–brachial pressure index | Incompressible vessels
+## arabic_label
+الأوعية المتكلسة تعطي مشعر كاحل عضدي مرتفعًا كذبًا
+## arabic_aliases
+المشعر الكاحلي العضدي
+## definition
+The ankle–brachial index compares ankle and brachial systolic pressures and falls with arterial disease. Where the vessel wall is calcified and incompressible — characteristically in diabetes and chronic kidney disease — the cuff cannot occlude the artery, so the measured pressure is spuriously high and may mask severe disease.
+## explicit_objective
+Interpret a normal or high ankle–brachial index in a patient with diabetes as potentially unreliable, and name the alternative assessments.
+## pitfalls
+Excluding peripheral arterial disease on a normal index in a diabetic patient with symptoms or an ulcer. That is precisely the population in which the test fails.
+## concept_type
+clinical_principle
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.95
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S02-M03
+## secondary_node_ids
+SYS-END
+## article_ids
+ART-CVS-PERIPHERAL-ARTERIAL-DISEASE
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. No index cut-off value is stated.
+
+---
+
+# Item
+## label
+Venous thrombosis follows Virchow triad
+## id
+med.concept.virchow-triad
+## canonical_key
+virchow-triad
+## aliases
+Virchow triad | Deep vein thrombosis pathogenesis
+## arabic_label
+الخثار الوريدي يتبع ثالوث فيرشو
+## arabic_aliases
+ثالوث فيرشو
+## definition
+Thrombosis requires some combination of stasis, endothelial injury and hypercoagulability. Every risk factor for deep vein thrombosis — immobility, surgery, malignancy, pregnancy, oestrogen, inherited thrombophilia — acts through one or more of these three.
+## explicit_objective
+Assign any risk factor for venous thrombosis to one or more elements of the triad.
+## pitfalls
+Memorising risk factor lists instead of the mechanism. The triad generates the list and, more usefully, explains why prophylaxis targets stasis and coagulability.
+## concept_type
+pathophysiological_mechanism
+## status
+under review
+## subject
+cvs
+## learner_years
+2 | 3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y2=0.8 | kau_y3=0.95 | kau_y4=0.9
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S02-M04
+## secondary_node_ids
+SYS-HEM
+## article_ids
+ART-CVS-DVT
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. Thrombosis as a haematological topic is owned by SYS-HEM; this node covers the venous vascular presentation.
+
+---
+
+# Item
+## label
+A D-dimer is useful for excluding thrombosis, not for confirming it
+## id
+med.concept.d-dimer-rules-out
+## canonical_key
+d-dimer-rules-out
+## aliases
+D-dimer | Pre-test probability
+## arabic_label
+الدايمر-د مفيد لنفي الخثار لا لتأكيده
+## arabic_aliases
+اختبار الدايمر-د
+## definition
+D-dimer is sensitive and non-specific. A negative result in a patient assessed as low probability makes venous thrombosis very unlikely and safely ends the pathway; a positive result occurs in infection, malignancy, pregnancy, trauma and the postoperative state, and requires imaging rather than treatment.
+## explicit_objective
+Use D-dimer only after formal pre-test probability assessment, and state why a positive result is uninformative alone.
+## pitfalls
+Sending a D-dimer before assessing probability. In a high-probability patient a negative result does not exclude thrombosis, and imaging is required regardless — so the test has been wasted.
+## concept_type
+clinical_principle
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.95 | kau_y4=0.95
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S02-M04
+## secondary_node_ids
+SYS-HEM
+## article_ids
+ART-CVS-DVT
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. No score, threshold or assay cut-off is stated.
+
+---
+
+# Item
+## label
+Chronic venous insufficiency is ambulatory venous hypertension from failed valves
+## id
+med.concept.ambulatory-venous-hypertension
+## canonical_key
+ambulatory-venous-hypertension
+## aliases
+Chronic venous insufficiency | Venous hypertension
+## arabic_label
+القصور الوريدي المزمن هو ارتفاع ضغط وريدي أثناء الحركة بسبب فشل الصمامات
+## arabic_aliases
+ارتفاع الضغط الوريدي الحركي
+## definition
+The calf muscle pump normally lowers venous pressure during walking, provided the valves direct flow upwards. When valves fail — after thrombosis or through primary incompetence — pressure remains high during ambulation, and that sustained pressure produces the oedema, pigmentation, lipodermatosclerosis and ulceration of chronic venous disease.
+## explicit_objective
+Explain the skin changes and ulceration of venous disease from persistently raised venous pressure during walking.
+## pitfalls
+Treating a venous ulcer with compression without first assessing the arterial supply. Compression applied to a limb with arterial disease can cause necrosis.
+## concept_type
+pathophysiological_mechanism
+## status
+under review
+## subject
+cvs
+## learner_years
+3 | 4
+## universities
+kau
+## exam_weight_by_year
+kau_y3=0.9 | kau_y4=0.9
+## weight_confidence
+0.5
+## support_mode
+direct_statement
+## last_reviewed
+2026-08-13
+## review_due
+2029-08-13
+## owner
+Dr Omar
+## reviewer
+Dr Omar
+## final_publisher
+Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## primary_node_id
+SYS-CVS-T07-S02-M05
+## secondary_node_ids
+SYS-DER
+## article_ids
+ART-CVS-VENOUS-INSUFFICIENCY
+## field_notes
+resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
+atomicClaimIds: Deferred to the evidence pass. Builds on CON-CVS-6430B0D729893E and CON-CVS-37F13C09832A27, which supply venous pressure and compliance.
