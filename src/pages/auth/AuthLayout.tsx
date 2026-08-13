@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowLeftRight, Check, LockKeyhole } from 'lucide-react'
+import { Check, LockKeyhole } from 'lucide-react'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
@@ -39,14 +39,6 @@ export function AuthLayout({
       <header className="border-b border-line bg-surface/70">
         <div className="mx-auto flex min-h-16 max-w-7xl items-center gap-3 px-4 sm:px-6 lg:px-8">
           <Link to="/" aria-label="Synapse home"><Wordmark /></Link>
-          <nav className="ms-auto flex items-center gap-1.5" aria-label="Temporary preview access">
-            <Link className="inline-flex min-h-11 items-center gap-2 rounded-lg px-2.5 text-[12px] font-semibold text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:px-3 sm:text-[13px]" to="/app">
-              <Icon icon={ArrowLeftRight} size={15} /> Student<span className="hidden sm:inline"> preview</span>
-            </Link>
-            <Link className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-accent-line bg-accent-tint px-2.5 text-[12px] font-semibold text-accent-strong transition-colors hover:border-accent hover:bg-accent-tint/70 sm:px-3 sm:text-[13px]" to="/admin">
-              Admin<span className="hidden sm:inline"> preview</span>
-            </Link>
-          </nav>
         </div>
       </header>
 
@@ -66,7 +58,7 @@ export function AuthLayout({
                   {index > 0 && <span className={cn('absolute end-1/2 top-4 h-px w-full', index <= activeIndex ? 'bg-accent' : 'bg-line-2')} aria-hidden />}
                   <span className={cn(
                     'relative z-10 grid size-8 place-items-center rounded-full border bg-paper font-mono text-[12px] font-semibold',
-                    complete && 'border-success bg-success text-white',
+                    complete && 'border-success bg-success text-on-success',
                     active && 'border-accent bg-accent text-on-accent',
                     !complete && !active && 'border-line-2 text-ink-2',
                   )}>

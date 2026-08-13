@@ -285,7 +285,7 @@ export function Resources() {
                                   <div key={r.id} className="group flex flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel transition-colors hover:border-accent-line">
                                     <button type="button" onClick={() => setOpened(r)} className="relative flex aspect-video items-center justify-center bg-surface-2 text-ink-3 transition-colors group-hover:bg-accent-tint/30" aria-label={`${t('Open resource')}: ${r.title}`}>
                                       <Icon icon={PlayCircle} size={34} className="text-accent/80 transition-transform group-hover:scale-110" />
-                                      <span className="tnum absolute bottom-1.5 end-1.5 rounded bg-ink/75 px-1.5 py-0.5 font-mono text-[10px] font-medium text-white">{r.meta}</span>
+                                      <span className="tnum absolute bottom-1.5 end-1.5 rounded bg-ink/75 px-1.5 py-0.5 font-mono text-[10px] font-medium text-paper">{r.meta}</span>
                                     </button>
                                     <div className="flex flex-1 items-start gap-2 p-3">
                                       <div className="min-w-0 flex-1">

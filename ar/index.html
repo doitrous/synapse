@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#B0512B" />
+    <meta name="theme-color" content="#f6f1e9" />
+    <!-- Theme before first paint. Without this the page paints in the default
+         palette and then corrects itself, which reads as a flash on every load.
+         Kept in sync with THEME_STORAGE_KEY / THEME_COLOR in src/lib/useTheme.tsx. -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('synapse-theme');
+          if (t !== 'light' && t !== 'warm' && t !== 'dark') t = 'warm';
+          document.documentElement.dataset.theme = t;
+          var m = document.querySelector('meta[name="theme-color"]');
+          if (m) m.setAttribute('content', { light: '#f2f4f6', warm: '#f6f1e9', dark: '#17140f' }[t]);
+        } catch (e) {
+          document.documentElement.dataset.theme = 'warm';
+        }
+      })();
+    </script>
     <meta
       name="description"
       content="مذاكرة مفصلة عليك. منصة دراسة سريرية هادئة لطلاب الطب — المكتبة وبنك الأسئلة والتدريب العملي وجدول يريك ما يستحق انتباهك اليوم."

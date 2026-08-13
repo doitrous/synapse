@@ -40,24 +40,24 @@ Point it at this repo, branch `main`, and set:
 | `DATABASE_URL` | the internal URL from Step 1 | no |
 | `RESEND_API_KEY` | copy the **sending** key from `.env.local` | no |
 | `MAIL_FROM` | `synapse@mail.doitrous.com` | no |
-| `API_BEARER` | a long random string (`openssl rand -hex 32`) | no |
-| `AUTH_BYPASS_ENABLED` | `true` until preview access is explicitly removed | no |
 | `SUPABASE_URL` | your Supabase project URL | no |
 | `VITE_SUPABASE_URL` | the same Supabase project URL | **yes** |
 | `VITE_SUPABASE_PUBLISHABLE_KEY` | Supabase publishable key (never service-role) | **yes** |
 
-> Never create `VITE_API_TOKEN`: every `VITE_` value is public in the browser
-> bundle. `API_BEARER` stays server-only. Open `/login`, enter it under
-> **Temporary owner access**, and it will live only in that browser tab.
-> `VITE_API_BASE` is already hardcoded to `/api` in the Dockerfile.
+> **`API_BEARER` and `AUTH_BYPASS_ENABLED` are gone.** They granted an admin
+> identity to anyone holding a shared secret, and the fallback that applied when
+> Supabase was unconfigured made *every* request an admin. Delete both variables
+> from the application if they are still set; nothing reads them.
+>
+> Never create `VITE_API_TOKEN` either: every `VITE_` value is public in the
+> browser bundle. `VITE_API_BASE` is already hardcoded to `/api` in the Dockerfile.
 
-The preview credential is not the final student authentication system. Once
-Supabase is connected and tested, disable it only by explicit owner instruction:
-set `AUTH_BYPASS_ENABLED=false`, remove `API_BEARER`, rebuild,
-and confirm both student and admin role checks before declaring the bypass closed.
+`SUPABASE_URL` is now required. Without it the server can verify no tokens and
+every `/api/*` request is refused — which is the intended failure, not an outage
+to work around with a bypass.
 
 **Deploy.** Then:
-- `https://<your-domain>/api/health` → `{"ok":true,"authBypass":true}` (DB tables auto-create on first boot).
+- `https://<your-domain>/api/health` → `{"ok":true}` (DB tables auto-create on first boot).
 - `https://<your-domain>/` → the app loads **empty** (no demo data), reads/writes MariaDB.
   Add a system in Subjects & Topics, reload → it persists. Open **Mail Box** → compose works.
 

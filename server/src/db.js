@@ -32,6 +32,20 @@ export async function migrate() {
   try {
     for (const statement of statements) await conn.query(statement)
 
+    // schema.sql only creates tables that do not exist yet, so a column added
+    // to an existing table needs its own statement. Guarded by a lookup rather
+    // than a migration marker: the check is exact, and a database restored from
+    // a dump that already has the column must not fail to boot.
+    const [mfaColumn] = await conn.query(
+      `SELECT 1 FROM information_schema.columns
+        WHERE table_schema = DATABASE() AND table_name = 'user_access' AND column_name = 'mfa_required'`,
+    )
+    if (!mfaColumn.length) {
+      await conn.query(
+        'ALTER TABLE user_access ADD COLUMN mfa_required BOOLEAN NOT NULL DEFAULT 0 AFTER status',
+      )
+    }
+
     // The owner authorised a clean academic slate before any real university
     // data exists. Archive and clear these documents exactly once; the marker
     // prevents later restarts from touching real records added afterward.
@@ -65,8 +79,8 @@ export async function migrate() {
 
     // Two student documents were stored under hyphenated keys that matched no
     // user-owned pattern, so they were routed to this shared admin store and
-    // refused for every student. Nothing here is anyone's record — only what a
-    // preview-owner session happened to write — and the keys are now dotted.
+    // refused for every student. Nothing here is anyone's record — only what an
+    // administrator's session happened to write — and the keys are now dotted.
     const orphanId = '2026-08-13-drop-misrouted-student-keys'
     const [orphanApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [orphanId])
     if (!orphanApplied.length) {

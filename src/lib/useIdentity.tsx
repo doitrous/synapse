@@ -63,8 +63,6 @@ export interface Identity {
   email: string | null
   role: 'student' | 'admin' | null
   aal: 'aal1' | 'aal2' | null
-  /** True when this session is the temporary owner preview, not a real account. */
-  bypass: boolean
   /** Never a fabricated person: the real name, else the email, else "Student". */
   displayName: string
   /** True when nobody has created a roster row for this account yet. */
@@ -85,13 +83,13 @@ const EMPTY_AUDIENCE: StudentAudience = { universityId: '', year: '', yearId: ''
 const NO_ENTITLEMENT: Entitlement = { state: 'none', plan: 'Free', expiresAt: null, daysLeft: null }
 
 const ANONYMOUS: Identity = {
-  status: 'loading', userId: null, email: null, role: null, aal: null, bypass: false,
+  status: 'loading', userId: null, email: null, role: null, aal: null,
   displayName: 'Student', profileMissing: true, profile: EMPTY_PROFILE, audience: EMPTY_AUDIENCE,
   entitlement: NO_ENTITLEMENT, subscription: null, reload: () => undefined,
 }
 
 interface MeResponse {
-  user: { id: string; email: string | null; role: string | null; aal: string | null; bypass: boolean } | null
+  user: { id: string; email: string | null; role: string | null; aal: string | null } | null
   profile: IdentityProfile | null
   subscription: Subscription | null
   entitlement: Entitlement
@@ -115,7 +113,6 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     metadataName: string | null
     role: 'student' | 'admin' | null
     aal: 'aal1' | 'aal2' | null
-    bypass: boolean
     profile: IdentityProfile | null
     subscription: Subscription | null
     entitlement: Entitlement
@@ -123,7 +120,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     // Without a backend there is no account system to consult, so the app is
     // usable immediately and simply knows nothing about who is using it.
     status: API_MODE ? 'loading' : 'demo',
-    userId: null, email: null, metadataName: null, role: null, aal: null, bypass: false,
+    userId: null, email: null, metadataName: null, role: null, aal: null,
     profile: null, subscription: null, entitlement: NO_ENTITLEMENT,
   }))
   const [nonce, setNonce] = useState(0)
@@ -149,7 +146,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       if (cancelled) return
 
       if (!me?.user) {
-        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, metadataName: null, role: null, aal: null, bypass: false, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
+        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, metadataName: null, role: null, aal: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
         return
       }
       setState({
@@ -159,7 +156,6 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
         metadataName,
         role: me.user.role === 'admin' ? 'admin' : 'student',
         aal: me.user.aal === 'aal2' ? 'aal2' : 'aal1',
-        bypass: Boolean(me.user.bypass),
         profile: me.profile,
         subscription: me.subscription,
         entitlement: me.entitlement ?? NO_ENTITLEMENT,
@@ -185,7 +181,6 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       email: state.email,
       role: state.role,
       aal: state.aal,
-      bypass: state.bypass,
       displayName: nameFor(state.profile, state.metadataName, state.email),
       profileMissing: state.status === 'authenticated' && !state.profile,
       profile,

@@ -51,6 +51,9 @@ CREATE TABLE IF NOT EXISTS user_access (
   email         VARCHAR(255),
   role          ENUM('student','admin') NOT NULL DEFAULT 'student',
   status        ENUM('active','suspended') NOT NULL DEFAULT 'active',
+  -- A second factor is offered to everyone and forced on nobody. This records
+  -- that an account asked to be held to aal2; see mfaSatisfied in auth.js.
+  mfa_required  BOOLEAN NOT NULL DEFAULT 0,
   promoted_by   VARCHAR(64),
   promoted_at   DATETIME,
   created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

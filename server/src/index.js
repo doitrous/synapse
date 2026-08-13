@@ -10,7 +10,7 @@ import express from 'express'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
-import { apiAuthGate, bypassEnabled, requireAdmin, requireAuthenticated } from './auth.js'
+import { apiAuthGate, mfaSatisfied, requireAdmin, requireAuthenticated } from './auth.js'
 import {
   listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
   setAccessStatus, requestPasswordReset, recordAction, readReason,
@@ -67,7 +67,7 @@ const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((e) => {
   console.error(e); res.status(500).json({ error: e.message || 'server error' })
 })
 
-app.get('/api/health', (_req, res) => res.json({ ok: true, authBypass: bypassEnabled }))
+app.get('/api/health', (_req, res) => res.json({ ok: true }))
 
 app.get('/api/session', (req, res) => res.json({
   user: req.identity ? {
@@ -75,7 +75,7 @@ app.get('/api/session', (req, res) => res.json({
     email: req.identity.email,
     role: req.identity.role,
     aal: req.identity.aal,
-    bypass: req.identity.bypass,
+    mfaRequired: Boolean(req.identity.mfaRequired),
   } : null,
 }))
 
@@ -89,9 +89,9 @@ app.get('/api/session', (req, res) => res.json({
  * app should render, not an error it should treat as a broken request.
  */
 app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
-  const user = req.identity.bypass ? null : await getUserByIdentity(req.identity.id)
+  const user = await getUserByIdentity(req.identity.id)
   res.json({
-    user: { id: req.identity.id, email: req.identity.email, role: req.identity.role, aal: req.identity.aal, bypass: req.identity.bypass },
+    user: { id: req.identity.id, email: req.identity.email, role: req.identity.role, aal: req.identity.aal, mfaRequired: Boolean(req.identity.mfaRequired) },
     profile: user
       ? { studentId: user.id, name: user.name, email: user.email, universityId: user.universityId, year: user.year, group: user.group, status: user.status }
       : null,
@@ -118,7 +118,7 @@ app.get('/api/me/export', requireAuthenticated, wrap(async (req, res) => {
     try { documents[row.k] = { value: JSON.parse(row.v), updatedAt: row.updatedAt } }
     catch { documents[row.k] = { value: null, updatedAt: row.updatedAt } }
   }
-  const profile = req.identity.bypass ? null : await getUserByIdentity(req.identity.id)
+  const profile = await getUserByIdentity(req.identity.id)
   res.json({
     exportedAt: new Date().toISOString(),
     account: { id: req.identity.id, email: req.identity.email },
@@ -213,7 +213,7 @@ app.get('/api/state', requireAdmin, wrap(async (_req, res) => {
 app.get('/api/state/:key', wrap(async (req, res) => {
   if (!STUDENT_READABLE_STATE.has(req.params.key)) {
     if (req.identity?.role !== 'admin') return res.status(403).json({ error: 'admin role required' })
-    if (!req.identity.bypass && req.identity.aal !== 'aal2') return res.status(403).json({ error: 'mfa_required' })
+    if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
   }
   // `updatedAt` lets the client decide whether its crash-recovery copy is newer
   // than the stored document. Without it a stale browser silently wins and

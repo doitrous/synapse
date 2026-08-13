@@ -38,7 +38,7 @@ export function Checkbox({
       }}
       className={cn(
         'grid size-[1.15rem] shrink-0 place-items-center rounded-[5px] border transition-[background-color,border-color] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent',
-        on ? 'border-accent-strong bg-accent text-white' : 'border-line-2 bg-surface hover:border-ink-3',
+        on ? 'border-accent-strong bg-accent text-on-accent' : 'border-line-2 bg-surface hover:border-ink-3',
         disabled && 'cursor-not-allowed opacity-40',
         className,
       )}

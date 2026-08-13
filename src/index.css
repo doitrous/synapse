@@ -45,6 +45,12 @@
   --color-danger: #b23a3a;
   --color-danger-tint: #f6e5df;
 
+  /* Text that sits on a filled signal. Named rather than hardcoded white,
+     because dark lightens the fills and white on light sage is unreadable. */
+  --color-on-success: #f7faf2;
+  --color-on-warning: #fdf8ee;
+  --color-on-danger: #fdf4f2;
+
   /* Heatmap ramp (porcelain → clay) */
   --color-scale-0: #ece4d5;
   --color-scale-1: #edccb2;
@@ -74,9 +80,114 @@
   --spacing-sidebar-collapsed: 4.25rem;
 }
 
+/* Not a @theme entry: this is a background-image, not a scale value, and it
+   would generate a meaningless `bg-paper-grain` utility if it were. */
+:root {
+  --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  /* How far an authored system colour is pulled toward the ink. See SystemBadge. */
+  --system-ink-mix: 18%;
+}
+
+/* =========================================================================
+   THEMES · Warm (default) · Light · Dark
+   The @theme block above is the Warm palette, so an app that never sets
+   data-theme looks exactly as it always has. Light and Dark re-declare the
+   same token names; because Tailwind v4 emits them as real custom properties,
+   every bg-surface / text-ink-2 / border-line in the product follows along
+   without a single utility being rewritten.
+   ========================================================================= */
+
+/* Light — the same instrument on cool paper rather than warm porcelain. */
+:root[data-theme='light'] {
+  --color-paper: #f2f4f6;
+  --color-surface: #ffffff;
+  --color-surface-2: #eceff3;
+  --color-inset: #e3e8ed;
+
+  --color-ink: #14181d;
+  --color-ink-2: #59626d;
+  --color-ink-3: #8a939e;
+
+  --color-line: #e2e7ec;
+  --color-line-2: #cdd5dd;
+  --color-grid: #e7ebf0;
+  --color-grid-major: #dbe1e8;
+
+  --color-accent-tint: #f6e7de;
+  --color-accent-line: #e9cdb9;
+  --color-on-accent: #fffaf6;
+
+  --color-success-tint: #e6efe0;
+  --color-warning-tint: #f7eeda;
+  --color-danger-tint: #f8e6e2;
+
+  --color-scale-0: #e6ebf0;
+
+  --shadow-panel: 0 1px 2px rgba(16, 22, 30, 0.05), 0 1px 1px rgba(16, 22, 30, 0.03);
+  --shadow-raised: 0 4px 16px -6px rgba(16, 22, 30, 0.12), 0 1px 2px rgba(16, 22, 30, 0.05);
+  --shadow-pop: 0 14px 34px -12px rgba(16, 22, 30, 0.22), 0 3px 8px rgba(16, 22, 30, 0.08);
+}
+
+/* Dark — a warm charcoal ground. The ink ramp inverts, and the accent is
+   lifted and desaturated: #b0512b on a dark field reads as mud, not clay. */
+:root[data-theme='dark'] {
+  --color-paper: #17140f;
+  --color-surface: #201c16;
+  --color-surface-2: #282219;
+  --color-inset: #322a20;
+
+  --color-ink: #f2ece2;
+  --color-ink-2: #b6ab9a;      /* ≥4.5:1 on --color-surface */
+  --color-ink-3: #8b8172;      /* large/decorative only */
+
+  --color-line: #322b21;
+  --color-line-2: #443b2e;
+  --color-grid: #2a241b;
+  --color-grid-major: #352d22;
+
+  --color-accent: #d9825a;
+  --color-accent-strong: #eda07c;  /* "strong" means more prominent, so lighter here */
+  --color-accent-soft: #a85f3d;
+  --color-accent-tint: #3b2418;
+  --color-accent-line: #55341f;
+  --color-on-accent: #1b120c;
+
+  --color-success: #8fae79;
+  --color-success-tint: #26301e;
+  --color-warning: #d3a25c;
+  --color-warning-tint: #352914;
+  --color-danger: #e07b74;
+  --color-danger-tint: #3a201d;
+
+  /* The fills are light here, so what sits on them must be dark. */
+  --color-on-success: #17200f;
+  --color-on-warning: #241a09;
+  --color-on-danger: #2b100e;
+
+  --color-scale-0: #2a2318;
+  --color-scale-1: #4a2f1f;
+  --color-scale-2: #7a4327;
+  --color-scale-3: #a3572f;
+  --color-scale-4: #d9825a;
+  --color-scale-5: #eda07c;
+
+  /* On a dark ground a shadow cannot be seen; separation comes from the
+     surface being lighter than the paper, so elevation only needs depth. */
+  --shadow-panel: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-raised: 0 4px 16px -6px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-pop: 0 14px 34px -12px rgba(0, 0, 0, 0.75), 0 3px 8px rgba(0, 0, 0, 0.5);
+
+  --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.018'/%3E%3C/svg%3E");
+  --system-ink-mix: 45%;
+}
+
 @layer base {
   :root {
     color-scheme: light;
+  }
+
+  :root[data-theme='dark'] {
+    color-scheme: dark;
   }
 
   *,
@@ -95,8 +206,10 @@
     margin: 0;
     min-height: 100dvh;
     background-color: var(--color-paper);
-    /* Faint paper grain for a premium, tactile ground */
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+    /* Faint paper grain for a premium, tactile ground. Its strength is baked
+       into the SVG, so the whole image is the token: dark swaps in a fainter
+       one, because 0.05 black noise over charcoal reads as sensor grain. */
+    background-image: var(--paper-grain);
     background-attachment: fixed;
     color: var(--color-ink);
     font-family: var(--font-sans);
@@ -149,7 +262,11 @@
     border: 3px solid var(--color-paper);
     border-radius: 999px;
   }
-  ::-webkit-scrollbar-thumb:hover { background: #b9c1bb; }
+  /* Mixing toward the ink lifts the thumb in light themes and in dark alike,
+     where a fixed pale grey would have disappeared into the track. */
+  ::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in oklab, var(--color-line-2) 70%, var(--color-ink));
+  }
 }
 
 /* Faint graph-paper grid — a specific clinical material, used sparingly */

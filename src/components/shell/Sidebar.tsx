@@ -26,7 +26,7 @@ export function Sidebar({
   // university are shown once an admin has recorded them; until then the line
   // reads "Medicine" rather than inventing a cohort this person may not be in.
   const detail = portal === 'admin'
-    ? (identity.bypass ? t('Owner preview') : t('Curriculum admin'))
+    ? t('Curriculum admin')
     : [identity.profile.year, t('Medicine')].filter(Boolean).join(' · ')
   const profile = { name: identity.displayName, detail }
 

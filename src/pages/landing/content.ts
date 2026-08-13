@@ -75,7 +75,7 @@ export const AR_CONTENT: LandingContent = {
     h1: 'اعرف بالضبط ما تذاكره تاليًا',
     sub: 'يجمع Synapse مكتبتك وبنك الأسئلة والتدريب العملي وجدولك في مساحة سريرية واحدة هادئة — ثم يخبرك بما يستحق انتباهك اليوم. بالعربية أولًا، وبالإنجليزية كاملة.',
     primary: 'ابدأ المذاكرة',
-    secondary: 'لوحة الإدارة',
+    secondary: 'تسجيل الدخول',
     trust: 'مبني على التكرار المتباعد ومنهج أجهزة الجسم.',
   },
   stats: [
@@ -127,7 +127,7 @@ export const AR_CONTENT: LandingContent = {
     title: 'ابدأ رحلتك مع Synapse اليوم',
     sub: 'مساحة واحدة هادئة لكل مذاكرتك السريرية — من أول محاضرة إلى ليلة الامتحان.',
     button: 'ادخل كطالب',
-    secondary: 'دخول الإدارة',
+    secondary: 'تسجيل الدخول',
   },
   specimen: {
     title: 'اليوم · تركيزك',
@@ -156,7 +156,7 @@ export const EN_CONTENT: LandingContent = {
     h1: 'See exactly what to study next',
     sub: 'Synapse brings your library, question bank, practicals, and schedule into one calm clinical workspace — then tells you what deserves attention today. Arabic-first, fully English.',
     primary: 'Start studying',
-    secondary: 'Admin console',
+    secondary: 'Sign in',
     trust: 'Built around spaced repetition and the organ-system curriculum.',
   },
   stats: [
@@ -208,7 +208,7 @@ export const EN_CONTENT: LandingContent = {
     title: 'Start your journey with Synapse today',
     sub: 'One calm workspace for all your clinical study — from the first lecture to exam night.',
     button: 'Enter as a student',
-    secondary: 'Admin console',
+    secondary: 'Sign in',
   },
   specimen: {
     title: 'Today · your focus',

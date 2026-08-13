@@ -50,7 +50,7 @@ export function AccountAccessPanel() {
       setMessage(`${selected.email || selected.userId} is now ${role}. The change was written to the promotion audit.`)
       setSelected(null)
       await load()
-    } catch { setMessage('Role change failed. Confirm that this session is an MFA-verified administrator.') }
+    } catch { setMessage('Role change failed. Confirm that this session is signed in as an administrator.') }
     finally { setSaving(false) }
   }
 

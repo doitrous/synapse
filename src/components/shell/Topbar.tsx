@@ -5,6 +5,7 @@ import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
+import { ThemeSwitch } from './ThemeSwitch'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
@@ -42,7 +43,7 @@ export function Topbar({
 }) {
   const { pathname } = useLocation()
   const { t, lang, toggle } = useI18n()
-  const { audience } = useIdentity()
+  const { audience, role } = useIdentity()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
   const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
   const [readIds, setReadIds] = usePersistentState<string[]>(`${NOTIFICATION_READ_STORAGE_KEY}-${portal}`, [])
@@ -59,6 +60,11 @@ export function Topbar({
   const title = currentTitle(portal, pathname)
   const other = portal === 'admin' ? '/app' : '/admin'
   const otherLabel = portal === 'admin' ? t('Student app') : t('Admin console')
+  // Only an admin has somewhere to switch to. Showing a student a route that
+  // exists solely to bounce them off its guard advertises a door with no key.
+  // The demo has no backend and therefore no roles, so nothing is being
+  // concealed there — both portals are simply open.
+  const canSwitchPortal = role === 'admin' || !API_MODE
   const unreadCount = notifications.filter((notification) => !readIds.includes(notification.id)).length
   const popupNotification = notifications.find((notification) => notification.id === popupId)
 
@@ -117,6 +123,8 @@ export function Topbar({
           <Icon icon={Search} size={18} />
         </button>
 
+        <ThemeSwitch className="hidden sm:inline-flex" />
+
         <button
           onClick={toggle}
           className="hidden h-9 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] font-medium text-ink-2 transition-colors hover:border-line-2 hover:text-ink sm:inline-flex"
@@ -126,13 +134,15 @@ export function Topbar({
           <span lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? 'EN' : 'العربية'}</span>
         </button>
 
-        <Link
-          to={other}
-          className="hidden h-9 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] font-medium text-ink-2 transition-colors hover:border-line-2 hover:text-ink md:inline-flex"
-        >
-          <Icon icon={ArrowLeftRight} size={15} />
-          {otherLabel}
-        </Link>
+        {canSwitchPortal && (
+          <Link
+            to={other}
+            className="hidden h-9 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] font-medium text-ink-2 transition-colors hover:border-line-2 hover:text-ink md:inline-flex"
+          >
+            <Icon icon={ArrowLeftRight} size={15} />
+            {otherLabel}
+          </Link>
+        )}
 
         <Link to="/logout" className={iconBtn} aria-label={t('Sign out')} title={t('Sign out')}>
           <Icon icon={LogOut} size={17} />

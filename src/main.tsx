@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router'
 import { I18nProvider } from './lib/i18n'
+import { ThemeProvider } from './lib/useTheme'
 import { IdentityProvider } from './lib/useIdentity'
 import { ErrorBoundary } from './components/shell/ErrorBoundary'
 
@@ -15,11 +16,13 @@ import './index.css'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ErrorBoundary>
-      <I18nProvider>
-        <IdentityProvider>
-          <RouterProvider router={router} />
-        </IdentityProvider>
-      </I18nProvider>
+      <ThemeProvider>
+        <I18nProvider>
+          <IdentityProvider>
+            <RouterProvider router={router} />
+          </IdentityProvider>
+        </I18nProvider>
+      </ThemeProvider>
     </ErrorBoundary>
   </StrictMode>,
 )

@@ -741,11 +741,11 @@ export function QuestionBank() {
                   className={cn(
                     'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
                     revealed && opt.correct
-                      ? 'border-success bg-success text-white'
+                      ? 'border-success bg-success text-on-success'
                       : revealed && chosen === i
-                        ? 'border-danger bg-danger text-white'
+                        ? 'border-danger bg-danger text-on-danger'
                         : chosen === i
-                          ? 'border-accent bg-accent text-white'
+                          ? 'border-accent bg-accent text-on-accent'
                           : 'border-line-2 text-ink-2',
                   )}
                 >

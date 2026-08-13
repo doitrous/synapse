@@ -182,7 +182,7 @@ and **create new `name@mail.doitrous.com` addresses**. In demo mode it shows a
 - Some setup-page navigators (`QuestionsSetup/ResourcesSetup/PracticalSetup`) are near-
   identical; they read universities from `useUniversityCatalogue` and cap to 45vh on mobile.
 - `.env*` is gitignored (`.env.example` kept). Never `VITE_`-prefix a real secret — Vite
-  bundles those into public JS. Server secrets: `RESEND_API_KEY`, `DATABASE_URL`, `API_BEARER`.
+  bundles those into public JS. Server secrets: `RESEND_API_KEY`, `DATABASE_URL`.
   The owner enters `API_BEARER` at runtime on `/login`; it stays in session storage
   for that tab and is cleared at logout.
 - Commit style: end messages with `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`.

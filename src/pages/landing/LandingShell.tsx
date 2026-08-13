@@ -5,7 +5,7 @@ import type { CSSProperties } from 'react'
 import type { LucideIcon } from 'lucide-react'
 import {
   GraduationCap,
-  ShieldCheck,
+  LogIn,
   ArrowRight,
   Globe,
   BookOpen,
@@ -157,10 +157,10 @@ export function LandingShell({ content }: { content: LandingContent }) {
                 <Icon icon={ArrowRight} size={17} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100 rtl:group-hover:-translate-x-0.5" />
               </Link>
               <Link
-                to="/admin"
+                to="/login"
                 className="inline-flex items-center gap-2 rounded-xl border border-line-2 bg-surface px-5 py-3 text-[15px] font-semibold text-ink shadow-panel transition-colors hover:border-ink-3/45 hover:bg-surface-2"
               >
-                <Icon icon={ShieldCheck} size={18} className="text-ink-2" />
+                <Icon icon={LogIn} size={18} className="text-ink-2" />
                 {c.hero.secondary}
               </Link>
             </div>
@@ -303,7 +303,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
               {c.cta.button}
               <Icon icon={ArrowRight} size={17} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100 rtl:group-hover:-translate-x-0.5" />
             </Link>
-            <Link to="/admin" className="inline-flex items-center gap-2 rounded-xl border border-on-accent/30 px-5 py-3 text-[15px] font-semibold text-on-accent transition-colors hover:bg-white/10">
+            <Link to="/login" className="inline-flex items-center gap-2 rounded-xl border border-on-accent/30 px-5 py-3 text-[15px] font-semibold text-on-accent transition-colors hover:bg-on-accent/10">
               {c.cta.secondary}
             </Link>
           </div>

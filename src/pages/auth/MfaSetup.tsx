@@ -85,10 +85,10 @@ export function MfaSetup() {
   }
 
   return (
-    <AuthLayout step="protect" completedSteps={emailVerified ? ['account', 'verify'] : []} title="Protect your account" description="Use a free authenticator app as the second factor. Administrators are blocked at the API until their session reaches MFA assurance level 2." compact>
+    <AuthLayout step="protect" completedSteps={emailVerified ? ['account', 'verify'] : []} title="Add a second factor" description="An authenticator app is an optional extra lock on your account. You can turn it on now, later from your account page, or not at all." compact>
       <div className="grid gap-6 lg:grid-cols-[11rem_minmax(0,1fr)]">
         <div className="space-y-3 border-b border-line pb-5 lg:border-b-0 lg:border-e lg:pb-0 lg:pe-5">
-          {[['Sign in', emailVerified], ['Email verified', emailVerified], ['Protect account', false]].map(([label, complete]) => <div key={String(label)} className="flex items-center gap-2.5"><span className={complete ? 'grid size-7 place-items-center rounded-full bg-success-tint text-success' : 'grid size-7 place-items-center rounded-full bg-accent-tint text-accent-strong'}><Icon icon={complete ? CheckCircle2 : ShieldCheck} size={14} /></span><span className="text-[12.5px] font-semibold text-ink">{String(label)}{!complete && label !== 'Protect account' ? ' required' : ''}</span></div>)}
+          {([['Sign in', emailVerified, true], ['Email verified', emailVerified, true], ['Second factor', false, false]] as const).map(([label, complete, required]) => <div key={label} className="flex items-center gap-2.5"><span className={complete ? 'grid size-7 place-items-center rounded-full bg-success-tint text-success' : 'grid size-7 place-items-center rounded-full bg-inset text-ink-2'}><Icon icon={complete ? CheckCircle2 : ShieldCheck} size={14} /></span><span className="text-[12.5px] font-semibold text-ink">{label}{!complete && required ? ' required' : ''}{!required ? ' · optional' : ''}</span></div>)}
         </div>
         <form className="min-w-0" onSubmit={verify}>
           <div className="flex flex-wrap items-start gap-3">
@@ -103,7 +103,12 @@ export function MfaSetup() {
               <div className="space-y-4">
                 {enrollment.secret && <div><p className="text-[12px] font-semibold text-ink">Cannot scan?</p><p className="mt-1 break-all rounded-md border border-line bg-inset px-2.5 py-2 font-mono text-[11px] text-ink-2">{enrollment.secret}</p></div>}
                 <Field label="Six-digit verification code" htmlFor="mfa-code"><TextInput id="mfa-code" inputMode="numeric" autoComplete="one-time-code" pattern="[0-9]{6}" maxLength={6} value={code} onChange={(event) => setCode(event.target.value.replace(/\D/g, '').slice(0, 6))} placeholder="000000" className="font-mono tracking-[0.25em]" /></Field>
-                <Button type="submit" variant="primary" iconLeft={ShieldCheck} loading={verifying} disabled={code.length !== 6}>Verify authenticator</Button>
+                <div className="flex flex-wrap items-center gap-3">
+                  <Button type="submit" variant="primary" iconLeft={ShieldCheck} loading={verifying} disabled={code.length !== 6}>Verify authenticator</Button>
+                  <button type="button" onClick={() => navigate(next)} className="inline-flex min-h-11 items-center rounded-lg px-3 text-[13px] font-semibold text-ink-2 transition-colors hover:bg-inset hover:text-ink">
+                    Not now
+                  </button>
+                </div>
               </div>
             </div>
           )}

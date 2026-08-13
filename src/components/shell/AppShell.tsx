@@ -43,7 +43,7 @@ export function AppShell({ portal }: { portal: Portal }) {
     <div className="min-h-dvh min-w-0">
       <a
         href="#main-content"
-        className="fixed start-3 top-3 z-[70] -translate-y-20 rounded-lg bg-ink px-3 py-2 text-sm font-semibold text-white transition-transform focus:translate-y-0"
+        className="fixed start-3 top-3 z-[70] -translate-y-20 rounded-lg bg-ink px-3 py-2 text-sm font-semibold text-paper transition-transform focus:translate-y-0"
       >
         {t('Skip to content')}
       </a>
