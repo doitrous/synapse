@@ -150,7 +150,11 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
     aliases: optionalList(values.aliases) as string[],
     arabicLabel: text(values.arabic_label),
     arabicAliases: optionalList(values.arabic_aliases),
-    definition: values.definition?.trim() ?? '',
+    // `undefined`, not `''`, when the row is silent — otherwise an update that
+    // only meant to change a status would blank the definition it never
+    // mentioned. `materialiseNewConcept` supplies the empty string a genuinely
+    // new record needs, exactly as it does for `aliases` and `articleIds`.
+    definition: text(values.definition) as string,
     explicitObjective: text(values.explicit_objective),
     pitfalls: text(values.pitfalls),
     conceptType: text(values.concept_type),
@@ -207,6 +211,7 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
 export function materialiseNewConcept(concept: Concept): Concept {
   const filled = { ...concept } as Record<string, unknown>
   for (const key of ['aliases', 'articleIds']) if (filled[key] === undefined) filled[key] = []
+  if (filled.definition === undefined) filled.definition = ''
   if (filled.status === undefined) filled.status = 'under review'
   const present = [
     'systemId', 'topicTagId', 'subtopicId', 'microtopicId', 'nanotopicId', 'secondaryNodeIds',

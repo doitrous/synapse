@@ -110,6 +110,19 @@ test('an update keeps every field the row did not mention', () => {
   assert.equal(merged.weightConfidence, 0.5)
 })
 
+test('a definition survives an update that does not mention it', () => {
+  const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  // A status-only patch is the real case: folding a duplicate, or moving a
+  // concept between subjects, touches governance and nothing a student reads.
+  const merged = mergeConcept(existing, conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', status: 'inactive' }))
+  assert.equal(merged.status, 'inactive')
+  assert.equal(merged.definition, FULL_CONCEPT.definition)
+})
+
+test('a new concept without a definition still carries the empty string', () => {
+  assert.equal(materialiseNewConcept(conceptFromRow({ label: 'Anion gap' })).definition, '')
+})
+
 test('merge lineage survives an update that does not mention it', () => {
   const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
   const merged = mergeConcept(existing, conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', pitfalls: 'New pitfall.' }))
