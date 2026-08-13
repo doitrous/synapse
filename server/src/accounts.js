@@ -78,7 +78,7 @@ export function addDays(from, days) {
 const USER_COLUMNS = `
   COALESCE(s.id, a.user_id) AS id,
   s.name, COALESCE(s.email, a.email) AS email,
-  s.university_id AS universityId, s.year, s.plan, s.status,
+  s.university_id AS universityId, s.year, s.study_group AS studyGroup, s.plan, s.status,
   s.joined, s.last_active AS lastActive, s.questions_answered AS questionsAnswered,
   s.accuracy, s.readiness, COALESCE(s.user_id, a.user_id) AS userId, s.notes,
   a.role, a.status AS accessStatus, a.created_at AS identityCreatedAt,
@@ -129,6 +129,7 @@ function shape(row) {
     email: row.email,
     universityId: row.universityId,
     year: row.year,
+    group: row.studyGroup,
     status: row.status,
     joined: row.joined,
     lastActive: row.lastActive,
@@ -170,6 +171,22 @@ export async function listUsers({ query, status, plan, universityId, accessStatu
                ORDER BY COALESCE(u.name, u.email) LIMIT ?`
   const [rows] = await pool.query(sql, [...params, Number(limit)])
   return rows.map(shape)
+}
+
+/**
+ * The caller's own record, for the caller.
+ *
+ * Deliberately built from the same union and the same `shape()` as the admin
+ * view, so a student's screen and an admin's screen can never disagree about
+ * their plan or their year. Returns null when nobody has created a roster row
+ * yet — which is the normal state of a freshly registered account, not a fault.
+ */
+export async function getUserByIdentity(userId) {
+  const [rows] = await pool.query(
+    `SELECT * FROM (${SELECT_USERS}) u WHERE u.userId = ? LIMIT 1`,
+    [userId],
+  )
+  return rows.length ? shape(rows[0]) : null
 }
 
 export async function getUser(id) {

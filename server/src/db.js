@@ -62,6 +62,27 @@ export async function migrate() {
         throw error
       }
     }
+
+    // Two student documents were stored under hyphenated keys that matched no
+    // user-owned pattern, so they were routed to this shared admin store and
+    // refused for every student. Nothing here is anyone's record — only what a
+    // preview-owner session happened to write — and the keys are now dotted.
+    const orphanId = '2026-08-13-drop-misrouted-student-keys'
+    const [orphanApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [orphanId])
+    if (!orphanApplied.length) {
+      await conn.beginTransaction()
+      try {
+        await conn.query(
+          'DELETE FROM app_state WHERE k IN (?, ?)',
+          ['synapse-concept-mastery-v1', 'synapse-qbank-question-notes-v1'],
+        )
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [orphanId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
   } finally {
     conn.release()
   }

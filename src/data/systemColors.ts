@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from 'react'
-import { getSubject } from '@/data/student'
+import { getSubject } from '@/data/subjects'
 
 /**
  * A single, editable source of System colours. Common chapters keep their common

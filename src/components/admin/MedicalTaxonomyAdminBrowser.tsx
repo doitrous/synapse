@@ -1,5 +1,8 @@
 import { useDeferredValue, useMemo, useState } from 'react'
-import { CheckCircle2, ChevronRight, CircleDot, Copy, Search, ShieldCheck } from 'lucide-react'
+import { Check, CheckCircle2, ChevronRight, CircleDot, Copy, Pencil, Search, ShieldCheck, X } from 'lucide-react'
+import { Button } from '@/components/ui/Button'
+import { Field, Select, TextInput, Textarea } from '@/components/ui/Field'
+import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Panel } from '@/components/ui/Panel'
@@ -67,6 +70,17 @@ function DefinitionList({ rows }: { rows: Array<[string, string | undefined]> })
 }
 
 export function MedicalTaxonomyAdminBrowser({ taxonomy }: { taxonomy: MedicalTaxonomyNode[] }) {
+  /**
+   * The same live store the students read.
+   *
+   * The browser was read-only, so a mistyped node title could only be fixed by
+   * editing the generated source file and redeploying. Titles, priority and the
+   * review note are editable here; the structure itself — which nodes exist and
+   * where they sit — still comes from the reviewed import, because reparenting
+   * a node silently moves every article, question and concept placed under it.
+   */
+  const [, setTaxonomy] = useMedicalTaxonomy()
+  const [editing, setEditing] = useState(false)
   const [division, setDivision] = useState<MedicalTaxonomyDivision>('system')
   const [selectedId, setSelectedId] = useState<string>()
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
@@ -83,6 +97,11 @@ export function MedicalTaxonomyAdminBrowser({ taxonomy }: { taxonomy: MedicalTax
   const levels = useMemo(() => taxonomy.reduce<Record<string, number>>((map, node) => ({ ...map, [node.level]: (map[node.level] ?? 0) + 1 }), {}), [taxonomy])
   const lineage = selected ? index.lineage(selected.id) : []
   const selectedChildren = selected ? index.children(selected.id) : []
+
+  /** Edit one node in place, leaving the structure untouched. */
+  function patchNode(id: string, patch: Partial<MedicalTaxonomyNode>) {
+    setTaxonomy((current) => current.map((node) => node.id === id ? { ...node, ...patch } : node))
+  }
 
   const choose = (node: MedicalTaxonomyNode) => {
     setDivision(node.division)
@@ -154,7 +173,24 @@ export function MedicalTaxonomyAdminBrowser({ taxonomy }: { taxonomy: MedicalTax
                   <Badge tone={selected.priority === 'Core' ? 'success' : 'neutral'}>{selected.priority}</Badge>
                   <span className="text-[10.5px] text-ink-3">{selected.divisionLabel === 'By System' ? 'Systems & General' : selected.divisionLabel}</span>
                 </div>
-                <h2 className="mt-3 font-serif text-[27px] font-semibold leading-tight text-ink">{selected.title}</h2>
+                <div className="mt-3 flex items-start justify-between gap-3">
+                  <h2 className="font-serif text-[27px] font-semibold leading-tight text-ink">{selected.title}</h2>
+                  <Button variant="secondary" size="sm" iconLeft={editing ? X : Pencil} onClick={() => setEditing((open) => !open)}>{editing ? 'Close' : 'Edit'}</Button>
+                </div>
+                {editing && (
+                  <div className="mt-4 space-y-3 rounded-lg border border-accent-line bg-accent-tint/20 p-4">
+                    <Field label="Title"><TextInput value={selected.title} onChange={(event) => patchNode(selected.id, { title: event.target.value })} /></Field>
+                    <Field label="Priority">
+                      <Select value={selected.priority} onChange={(event) => patchNode(selected.id, { priority: event.target.value as MedicalTaxonomyNode['priority'] })}>
+                        {['Core', 'Extended'].map((value) => <option key={value} value={value}>{value}</option>)}
+                      </Select>
+                    </Field>
+                    <Field label="Review note" hint="Editorial guidance for whoever authors under this node">
+                      <Textarea value={selected.note ?? ''} onChange={(event) => patchNode(selected.id, { note: event.target.value })} className="min-h-20" />
+                    </Field>
+                    <p className="flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={Check} size={13} />Changes save as you type and are live for students immediately.</p>
+                  </div>
+                )}
                 <div className="mt-2 flex flex-wrap items-center gap-1.5 text-[11px] text-ink-3">
                   {lineage.map((node, indexValue) => <span key={node.id} className="contents"><span>{node.title}</span>{indexValue < lineage.length - 1 && <ChevronRight size={11} />}</span>)}
                 </div>

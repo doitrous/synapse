@@ -7,16 +7,20 @@ import {
   ScrollText,
   Layers,
   Newspaper,
+  FolderOpen,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
-import type { ResourceType } from '@/data/types'
-import { getSubject, lastUsedResources } from '@/data/student'
+import { getSubject } from '@/data/subjects'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
+import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
+import { EmptyState } from '@/components/ui/EmptyState'
 import { SubjectDot } from '@/components/ui/Subject'
+import { useRecentResources } from '@/lib/useRecentResources'
+import { formatRelativeTime } from '@/lib/format'
 import { useT } from '@/lib/i18n'
 
-const TYPE_ICON: Record<ResourceType, LucideIcon> = {
+const TYPE_ICON: Record<string, LucideIcon> = {
   Book: BookMarked,
   Video: PlayCircle,
   Guideline: ScrollText,
@@ -26,6 +30,8 @@ const TYPE_ICON: Record<ResourceType, LucideIcon> = {
 
 export function LastUsedResources() {
   const t = useT()
+  const { recent } = useRecentResources()
+
   return (
     <Panel className="flex h-full flex-col">
       <PanelHeader
@@ -41,32 +47,41 @@ export function LastUsedResources() {
           </Link>
         }
       />
-      <div className="flex-1 p-2">
-        <ul>
-          {/* Capped so this half matches the heatmap's height and sits cleanly. */}
-          {lastUsedResources.slice(0, 4).map((r) => (
-            <li key={r.id}>
-              <Link to={`/app/resources?resource=${r.id}`} className="group flex w-full items-center gap-3 rounded-md px-2 py-2 text-left transition-colors hover:bg-inset">
-                <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2 transition-colors group-hover:text-ink">
-                  <Icon icon={TYPE_ICON[r.type]} size={17} />
-                </span>
-                <span className="min-w-0 flex-1">
-                  <span className="block truncate text-[13.5px] font-medium text-ink">
-                    {r.title}
+      {recent.length === 0 ? (
+        <div className="flex flex-1 items-center justify-center p-4">
+          <EmptyState
+            icon={FolderOpen}
+            title={t('Nothing opened yet')}
+            description={t('Resources you open appear here, so you can pick up where you left off.')}
+            action={<Link to="/app/resources"><Button variant="secondary" size="sm">{t('Browse resources')}</Button></Link>}
+          />
+        </div>
+      ) : (
+        <div className="flex-1 p-2">
+          <ul>
+            {/* Capped so this half matches the heatmap's height and sits cleanly. */}
+            {recent.slice(0, 4).map((r) => (
+              <li key={r.id}>
+                <Link to={`/app/resources?resource=${r.id}`} className="group flex w-full items-center gap-3 rounded-md px-2 py-2 text-left transition-colors hover:bg-inset">
+                  <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2 transition-colors group-hover:text-ink">
+                    <Icon icon={TYPE_ICON[r.type] ?? Newspaper} size={17} />
                   </span>
-                  <span className="mt-0.5 flex items-center gap-1.5 text-[12px] text-ink-3">
-                    <SubjectDot id={r.subjectId} />
-                    <span className="truncate">
-                      {getSubject(r.subjectId).name} · {r.meta}
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate text-[13.5px] font-medium text-ink">{r.title}</span>
+                    <span className="mt-0.5 flex items-center gap-1.5 text-[12px] text-ink-3">
+                      <SubjectDot id={r.subjectId} />
+                      <span className="truncate">
+                        {getSubject(r.subjectId).name}{r.meta ? ` · ${r.meta}` : ''}
+                      </span>
                     </span>
                   </span>
-                </span>
-                <span className="tnum shrink-0 text-[11.5px] text-ink-3">{r.openedLabel}</span>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+                  <span className="tnum shrink-0 text-[11.5px] text-ink-3">{formatRelativeTime(r.openedAt)}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </Panel>
   )
 }

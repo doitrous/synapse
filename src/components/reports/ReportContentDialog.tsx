@@ -10,6 +10,7 @@ import {
   type ReporterRole,
 } from '@/data/contentReports'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useIdentity } from '@/lib/useIdentity'
 import { Button } from '@/components/ui/Button'
 import { Field, Select, Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -33,6 +34,7 @@ export function ReportContentDialog({
   onClose: () => void
   onSubmitted?: (report: ContentReport) => void
 }) {
+  const identity = useIdentity()
   const [, setReports] = usePersistentState<ContentReport[]>(REPORT_STORAGE_KEY, initialContentReports)
   const [category, setCategory] = useState('')
   const [note, setNote] = useState('')
@@ -64,7 +66,10 @@ export function ReportContentDialog({
       contentId: target.id,
       contentTitle: target.title,
       reporterRole,
-      reporterName: reporterRole === 'Admin' ? 'Curriculum admin' : 'Maya Chen',
+      // Whoever is signed in — a report filed under an invented name is one an
+      // admin can neither verify nor answer.
+      reporterName: reporterRole === 'Admin' ? 'Curriculum admin' : identity.displayName,
+      reporterUserId: identity.userId,
       category,
       note: note.trim(),
       status: 'Open',

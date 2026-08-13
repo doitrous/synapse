@@ -13,7 +13,7 @@ import { isMediaReleased, mediaReleaseBlockers, type ArticleAuthoringData, type 
 import { cn } from '@/lib/cn'
 import { emptySections, newId, type ArticleSection } from '@/data/userLibrary'
 import { libraryTopics } from '@/data/library'
-import { subjects, getSubject } from '@/data/student'
+import { subjects, getSubject } from '@/data/subjects'
 import { universities } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'

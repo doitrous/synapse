@@ -1,4 +1,8 @@
 import { authAccessToken, authUserId } from './supabase'
+import { ApiError, errorKind, type StateErrorKind } from './apiErrors'
+
+export { ApiError, errorKind, isRetryable } from './apiErrors'
+export type { StateErrorKind } from './apiErrors'
 
 /**
  * Thin API client. When VITE_API_BASE is set the app runs in "live" mode: state
@@ -45,13 +49,13 @@ async function headers(json = false): Promise<HeadersInit> {
 
 export async function apiGet<T>(path: string): Promise<T> {
   const res = await fetch(`${BASE}${path}`, { headers: await headers() })
-  if (!res.ok) throw new Error(`GET ${path} → ${res.status}`)
+  if (!res.ok) throw new ApiError(res.status, `GET ${path}`)
   return res.json() as Promise<T>
 }
 
 export async function apiSend<T>(path: string, method: string, body?: unknown, keepalive = false): Promise<T> {
   const res = await fetch(`${BASE}${path}`, { method, headers: await headers(true), body: body == null ? undefined : JSON.stringify(body), keepalive })
-  if (!res.ok) throw new Error(`${method} ${path} → ${res.status}`)
+  if (!res.ok) throw new ApiError(res.status, `${method} ${path}`)
   return res.json() as Promise<T>
 }
 
@@ -119,13 +123,20 @@ export async function apiUploadMedicalResource(resourceId: string, file: File): 
 export interface RemoteState<T> {
   value: T | null
   updatedAt: string | null
+  /**
+   * Why the read failed, or null when it succeeded. A missing key is a success
+   * with a null value; this field means the document could not be read at all.
+   * Without it a 403 is indistinguishable from "nothing stored yet", and the
+   * surface silently renders its seed as though it were the student's data.
+   */
+  error: StateErrorKind | null
 }
 
 export async function getState<T>(key: string): Promise<RemoteState<T>> {
   try {
     const r = await apiGet<{ value: T | null; updatedAt?: string | null }>(`/state/${encodeURIComponent(key)}`)
-    return { value: r.value, updatedAt: r.updatedAt ?? null }
-  } catch { return { value: null, updatedAt: null } }
+    return { value: r.value, updatedAt: r.updatedAt ?? null, error: null }
+  } catch (error) { return { value: null, updatedAt: null, error: errorKind(error) } }
 }
 /** Write a state document by key. */
 export function putState(key: string, value: unknown): Promise<unknown> {
@@ -135,19 +146,18 @@ export function putState(key: string, value: unknown): Promise<unknown> {
 export async function getUserState<T>(key: string): Promise<RemoteState<T>> {
   try {
     const r = await apiGet<{ value: T | null; updatedAt?: string | null }>(`/user-state/${encodeURIComponent(key)}`)
-    return { value: r.value, updatedAt: r.updatedAt ?? null }
-  } catch { return { value: null, updatedAt: null } }
+    return { value: r.value, updatedAt: r.updatedAt ?? null, error: null }
+  } catch (error) { return { value: null, updatedAt: null, error: errorKind(error) } }
 }
 
 export function putUserState(key: string, value: unknown, keepalive = false): Promise<unknown> {
   return apiSend(`/user-state/${encodeURIComponent(key)}`, 'PUT', { value }, keepalive)
 }
 
-/**
- * Pick the live (empty) seed vs the demo seed. In live mode surfaces start empty
- * so no demo data appears; in demo mode they keep the rich sample content.
+/*
+ * `seedOr` used to live here. It was the intended switch between the demo seed
+ * and an empty production surface, but it only ever had three call sites while
+ * the rest of the app wrote `API_MODE ? [] : SEED` inline. Two idioms for one
+ * decision is how the next seed leaks back into production, so the inline form
+ * — the one already used everywhere that matters — is now the only one.
  */
-export function seedOr<T>(demo: T | (() => T), empty: T | (() => T)): T {
-  const pick = API_MODE ? empty : demo
-  return typeof pick === 'function' ? (pick as () => T)() : pick
-}

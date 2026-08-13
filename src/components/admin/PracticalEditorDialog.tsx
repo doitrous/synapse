@@ -18,7 +18,7 @@ import {
 } from '@/data/contentControl'
 import { DIFFICULTIES } from '@/data/qbank'
 import { getCaseDetail, getLabDetail, getOsceDetail } from '@/data/practicalContent'
-import { subjects } from '@/data/student'
+import { subjects } from '@/data/subjects'
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
@@ -59,7 +59,11 @@ function seedData(item: ManagedContentItem | null): PracticalAuthoringData {
   if (item?.practicalData) return structuredClone(item.practicalData)
   const format = formatFromType(item?.fields.Type)
   if (format === 'osce') {
+    // Null for anything but the two demo stations that still carry content.
+    // An author starting from nothing gets an empty station rather than a
+    // generic mark scheme they might mistake for one written for this case.
     const detail = getOsceDetail(item?.id ?? '')
+    if (!detail) return newOsce()
     const actorSections: ActorBriefSectionDraft[] = detail.actorBrief?.sections?.map((section) => ({ ...section })) ?? [
       { id: 'identity', label: 'Who you are', content: detail.actorBrief?.identity ?? '' },
       ...(detail.actorBrief?.prompts ?? []).map((prompt, index) => ({ id: `prompt-${index}`, label: prompt.label, content: prompt.response, group: 'Only if asked' })),
@@ -69,9 +73,11 @@ function seedData(item: ManagedContentItem | null): PracticalAuthoringData {
   }
   if (format === 'case') {
     const detail = getCaseDetail(item?.id ?? '')
+    if (!detail) return newCase()
     return { ...emptyPracticalCommon(), format: 'case', decisions: detail.stages.map((stage, stageIndex) => ({ id: `decision-${stageIndex}`, title: stage.title, context: stage.context ?? '', question: stage.question ?? stage.prompt, answers: ensureAnswers((stage.options ?? []).map((text, index) => ({ id: `answer-${stageIndex}-${index}`, text, explanation: stage.optionExplanations?.[index] ?? (index === (stage.correctIndex ?? 0) ? stage.answer : ''), correct: index === (stage.correctIndex ?? 0) }))), rationale: stage.answer })), debrief: detail.debrief ?? '', references: detail.references ?? [] }
   }
   const detail = getLabDetail(item?.id ?? '')
+  if (!detail) return newLab(item?.fields.Type?.includes('Imaging') ? 'Imaging' : 'Lab')
   return { ...emptyPracticalCommon(), format: 'lab', subtype: item?.fields.Type?.includes('Imaging') ? 'Imaging' : 'Lab', questions: detail.questions.map((question, questionIndex) => ({ id: `lab-${questionIndex}`, context: question.context ?? '', question: question.question ?? question.stem, mediaUrl: '', answers: ensureAnswers(question.options.map((option, index) => ({ id: `lab-answer-${questionIndex}-${index}`, text: option.text, explanation: option.explanation ?? (option.correct ? question.explanation : ''), correct: option.correct }))), explanation: question.explanation })) }
 }
 

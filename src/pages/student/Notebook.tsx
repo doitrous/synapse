@@ -9,10 +9,12 @@ import { Icon } from '@/components/ui/Icon'
 import { SearchInput } from '@/components/ui/Field'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { cn } from '@/lib/cn'
-import { allSubtopics } from '@/data/library'
-import { subjects } from '@/data/student'
+import { subjects } from '@/data/subjects'
 import { Select } from '@/components/ui/Field'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useLiveLibrary } from '@/lib/useLiveLibrary'
+import { formatRelativeTime } from '@/lib/format'
+import { imageFileToBoundedDataUrl } from '@/lib/mediaStorage'
 import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { useT } from '@/lib/i18n'
 
@@ -21,18 +23,27 @@ export function Notebook() {
   const [params] = useSearchParams()
   const linkedArticle = params.get('article')
   const createFromArticle = params.get('new') === '1'
+  const { subtopics: allSubtopics } = useLiveLibrary()
   const [notes, setNotes] = usePersistentState<Note[]>('synapse.notebook.notes', initialNotes)
-  const [selectedId, setSelectedId] = useState<string | null>(initialNotes[0]?.id ?? null)
+  // Was hardcoded to the demo note id `nb1`, so a student whose notes did not
+  // include it opened on "No note selected" even with notes in the list.
+  const [selectedId, setSelectedId] = useState<string | null>(null)
   const [query, setQuery] = useState('')
   const [listOpen, setListOpen] = useState(false)
   const [tagOpen, setTagOpen] = useState(false)
   const [newTag, setNewTag] = useState('')
+  const [imageError, setImageError] = useState<string | null>(null)
   const handledArticle = useRef<string | null>(null)
 
+  const needle = query.trim().toLowerCase()
   const filtered = notes.filter(
     (n) =>
-      n.title.toLowerCase().includes(query.toLowerCase()) ||
-      n.body.toLowerCase().includes(query.toLowerCase()),
+      !needle
+      || n.title.toLowerCase().includes(needle)
+      || n.body.toLowerCase().includes(needle)
+      // Tags are the page's most prominent affordance; not searching them was
+      // the one place the search box quietly did less than it looked like.
+      || n.tags.some((tag) => tag.toLowerCase().includes(needle)),
   )
   const note = notes.find((n) => n.id === selectedId) ?? null
 
@@ -44,21 +55,21 @@ export function Notebook() {
       handledArticle.current = linkedArticle
       const id = `nb${Date.now()}`
       const suggested = `What I need to remember\n• ${article.keyPoints[0] ?? ''}\n\nWhere I could lose the mark\n• Add the trap that would cost you a mark\n\nOne question to test myself\n• What finding changes the next step?`
-      setNotes((current) => [{ id, title: `${article.title} notes`, body: suggested, tags: [article.topicTitle], subjectId: article.subjectId, subtopicId: article.id, subtopicTitle: `${article.topicTitle} · ${article.title}`, updated: 'just now' }, ...current])
+      setNotes((current) => [{ id, title: `${article.title} notes`, body: suggested, tags: [article.topicTitle], subjectId: article.subjectId, subtopicId: article.id, subtopicTitle: `${article.topicTitle} · ${article.title}`, updatedAt: new Date().toISOString() }, ...current])
       setSelectedId(id)
       return
     }
     const existing = notes.find((item) => item.subtopicId === linkedArticle)
     if (existing) setSelectedId(existing.id)
-  }, [createFromArticle, linkedArticle, notes, setNotes])
+  }, [allSubtopics, createFromArticle, linkedArticle, notes, setNotes])
 
   function update(id: string, patch: Partial<Note>) {
-    setNotes((ns) => ns.map((n) => (n.id === id ? { ...n, ...patch, updated: 'just now' } : n)))
+    setNotes((ns) => ns.map((n) => (n.id === id ? { ...n, ...patch, updatedAt: new Date().toISOString() } : n)))
   }
   function newNote() {
     const id = `nb${Date.now()}`
     const article = allSubtopics.find((item) => item.id === linkedArticle)
-    setNotes((ns) => [{ id, title: article ? `${article.title} notes` : 'Untitled note', body: '', tags: article ? [article.topicTitle] : [], subjectId: article?.subjectId, subtopicId: article?.id, subtopicTitle: article ? `${article.topicTitle} · ${article.title}` : undefined, updated: 'just now' }, ...ns])
+    setNotes((ns) => [{ id, title: article ? `${article.title} notes` : 'Untitled note', body: '', tags: article ? [article.topicTitle] : [], subjectId: article?.subjectId, subtopicId: article?.id, subtopicTitle: article ? `${article.topicTitle} · ${article.title}` : undefined, updatedAt: new Date().toISOString() }, ...ns])
     setSelectedId(id)
     setListOpen(false)
   }
@@ -86,9 +97,11 @@ export function Notebook() {
     const file = item?.getAsFile()
     if (!file || !note) return
     event.preventDefault()
-    const reader = new FileReader()
-    reader.onload = () => update(note.id, { imageData: String(reader.result) })
-    reader.readAsDataURL(file)
+    const noteId = note.id
+    setImageError(null)
+    imageFileToBoundedDataUrl(file)
+      .then((imageData) => update(noteId, { imageData }))
+      .catch((error: unknown) => setImageError(error instanceof Error ? error.message : t('That image could not be attached.')))
   }
 
   const listPane = (
@@ -102,6 +115,13 @@ export function Notebook() {
         <IconButton icon={Plus} label={t('New note')} variant="surface" onClick={newNote} />
       </div>
       <ul className="flex-1 overflow-y-auto px-2 pb-3">
+        {filtered.length === 0 && (
+          // An empty <ul> rendered as a blank column with no explanation once a
+          // student deleted their last note.
+          <li className="px-2.5 py-6 text-center text-[12.5px] leading-relaxed text-ink-3">
+            {notes.length === 0 ? t('No notes yet. Start one with the + button.') : t('No note matches that search.')}
+          </li>
+        )}
         {filtered.map((n) => (
           <li key={n.id}>
             <button
@@ -125,7 +145,7 @@ export function Notebook() {
               <p className="mt-0.5 truncate text-[12px] text-ink-3">
                 {n.body.split('\n')[0] || 'No content yet'}
               </p>
-              <p className="mt-1 text-[11px] text-ink-3">{n.updated}</p>
+              <p className="mt-1 text-[11px] text-ink-3">{formatRelativeTime(n.updatedAt)}</p>
             </button>
           </li>
         ))}
@@ -169,7 +189,7 @@ export function Notebook() {
                 <span className="text-[12px] text-ink-3">Not linked to the library</span>
               )}
               <div className="flex items-center gap-2">
-                <span className="text-[12px] text-ink-3">Edited {note.updated}</span>
+                <span className="text-[12px] text-ink-3">Edited {formatRelativeTime(note.updatedAt)}</span>
                 <IconButton icon={Trash2} label="Delete note" size="sm" onClick={() => remove(note.id)} />
               </div>
             </div>
@@ -202,7 +222,8 @@ export function Notebook() {
               placeholder={t('Start writing, or paste a copied image…')}
               className="mt-5 min-h-[60vh] w-full resize-none bg-transparent text-[15px] leading-[1.7] text-ink/90 outline-none placeholder:text-ink-3"
             />
-            <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />Paste an image from your clipboard directly into this note.</p>
+            <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />{t('Paste an image from your clipboard directly into this note.')}</p>
+            {imageError && <p role="status" className="mt-1.5 text-[11.5px] text-danger">{imageError}</p>}
           </div>
         ) : (
           <EmptyState

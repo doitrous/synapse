@@ -9,7 +9,7 @@ import {
   type ResourceConceptLocation,
 } from '@/data/contentControl'
 import { resources } from '@/data/resources'
-import { subjects } from '@/data/student'
+import { subjects } from '@/data/subjects'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { newId } from '@/data/userLibrary'
 import { Button } from '@/components/ui/Button'

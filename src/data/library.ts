@@ -474,19 +474,12 @@ export const allSubtopics = libraryTopics.flatMap((t) =>
   t.subtopics.map((s) => ({ ...s, topicId: t.id, topicTitle: t.title, subjectId: t.subjectId })),
 )
 
-const UPDATED: Record<string, string> = {
-  'hf-patho': '2026-11-06T16:20:00',
-  'hf-class': '2026-11-04T11:10:00',
-  'hf-mgmt': '2026-11-06T09:45:00',
-  'acs-dx': '2026-11-05T14:30:00',
-  'acs-mgmt': '2026-11-03T17:00:00',
-  'asthma-patho': '2026-10-28T12:15:00',
-  'asthma-mgmt': '2026-11-02T10:05:00',
-  'ab-approach': '2026-11-06T13:40:00',
-  'diur-sites': '2026-11-01T15:25:00',
-  'cn-overview': '2026-10-30T08:50:00',
-}
-
-export function updatedAtFor(id: string): Date {
-  return new Date(UPDATED[id] ?? '2026-11-06T12:00:00')
-}
+/**
+ * There is deliberately no seeded "last updated" date any more.
+ *
+ * A ten-entry map assigned each demo article a plausible November timestamp,
+ * and anything not in it got a fixed default — so every article in the library
+ * displayed a revision date that no revision had produced. A real date comes
+ * from the ledger item's `updatedAt`; where there is none, the byline says
+ * nothing rather than inventing one.
+ */

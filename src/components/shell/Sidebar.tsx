@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom'
-import { useEffect, useState } from 'react'
 import { ChevronsUpDown } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
@@ -8,8 +7,7 @@ import { Avatar } from '@/components/ui/Avatar'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
-import { API_MODE } from '@/lib/api'
-import { supabase } from '@/lib/supabase'
+import { useIdentity } from '@/lib/useIdentity'
 
 export function Sidebar({
   portal,
@@ -22,18 +20,15 @@ export function Sidebar({
 }) {
   const groups = navFor(portal)
   const t = useT()
-  const [profile, setProfile] = useState(() => API_MODE
-    ? { name: portal === 'admin' ? 'Admin team' : 'Student', detail: portal === 'admin' ? 'Curriculum admin' : 'Medicine' }
-    : { name: 'Maya Adeyemi', detail: portal === 'admin' ? 'Curriculum admin' : 'Year 3 · Medicine' })
+  const identity = useIdentity()
 
-  useEffect(() => {
-    if (!API_MODE || !supabase) return
-    void supabase.auth.getUser().then(({ data }) => {
-      const email = data.user?.email
-      const metadataName = data.user?.user_metadata?.full_name || data.user?.user_metadata?.name
-      if (email || metadataName) setProfile({ name: metadataName || email || 'Synapse user', detail: portal === 'admin' ? 'Curriculum admin' : 'Medicine' })
-    })
-  }, [portal])
+  // Whatever the account actually says, and nothing more. A year and a
+  // university are shown once an admin has recorded them; until then the line
+  // reads "Medicine" rather than inventing a cohort this person may not be in.
+  const detail = portal === 'admin'
+    ? (identity.bypass ? t('Owner preview') : t('Curriculum admin'))
+    : [identity.profile.year, t('Medicine')].filter(Boolean).join(' · ')
+  const profile = { name: identity.displayName, detail }
 
   return (
     <div className="flex h-full flex-col bg-surface">
@@ -111,7 +106,7 @@ export function Sidebar({
               <span className="min-w-0 flex-1">
                 <span className="block truncate text-[13px] font-medium text-ink">{profile.name}</span>
                 <span className="block truncate text-[11.5px] text-ink-3">
-                  {t(profile.detail)}
+                  {profile.detail}
                 </span>
               </span>
               <Icon icon={ChevronsUpDown} size={15} className="text-ink-3" />

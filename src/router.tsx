@@ -2,6 +2,7 @@ import { lazy, Suspense, type ComponentType, type ReactElement } from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
+import { RequireAuth } from '@/components/auth/RequireAuth'
 
 function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: string) {
   return lazy(async () => ({ default: (await loader())[exportName] as ComponentType<Record<string, unknown>> }))
@@ -65,6 +66,7 @@ const EvidenceImportPage = lazyNamed(() => import('@/pages/admin/EvidenceImportP
 const AcademicImportPage = lazyNamed(() => import('@/pages/admin/AcademicImportPage'), 'AcademicImportPage')
 const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportPage'), 'SubjectsImportPage')
 const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
+const GlossarySetup = lazyNamed(() => import('@/pages/admin/GlossarySetup'), 'GlossarySetup')
 
 const studentBuilt: Record<string, ReactElement> = {
   library: render(Library),
@@ -88,6 +90,7 @@ const adminBuilt: Record<string, ReactElement> = {
   concepts: render(ConceptsSetup),
   relationships: render(RelationshipsSetup),
   taxonomy: render(TaxonomySetup),
+  glossary: render(GlossarySetup),
   practical: render(PracticalSetup),
   resources: render(ResourcesSetup),
   reports: render(ReportsReview),
@@ -104,7 +107,7 @@ const adminBuilt: Record<string, ReactElement> = {
 }
 
 const studentPaths = ['library', 'qbank', 'practical', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'concepts', 'relationships', 'taxonomy', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit']
+const adminPaths = ['academic', 'library', 'questions', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit']
 
 const studentRoutes = studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) }))
 const adminRoutes = adminPaths.map((path) => ({ path, element: adminBuilt[path] ?? render(Placeholder) }))
@@ -122,12 +125,12 @@ export const router = createBrowserRouter([
   { path: '/auth/reset-password', element: render(ResetPassword) },
   {
     path: '/app',
-    element: <AppShell portal="student" />,
+    element: <RequireAuth><AppShell portal="student" /></RequireAuth>,
     children: [{ index: true, element: render(Dashboard) }, ...studentRoutes],
   },
   {
     path: '/admin',
-    element: <AppShell portal="admin" />,
+    element: <RequireAuth role="admin"><AppShell portal="admin" /></RequireAuth>,
     children: [
       { index: true, element: render(ControlDashboard) },
       { path: 'import/:kind', element: render(BulkImportPage) },

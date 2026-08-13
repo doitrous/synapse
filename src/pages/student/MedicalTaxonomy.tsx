@@ -5,11 +5,17 @@ import { Panel } from '@/components/ui/Panel'
 import { SearchInput } from '@/components/ui/Field'
 import { FilterChip } from '@/components/ui/FilterChip'
 import { Icon } from '@/components/ui/Icon'
-import { medicalTerms, MED_CATEGORIES, type MedTermCategory } from '@/data/medicalTaxonomy'
+import type { MedTermCategory } from '@/data/glossary'
+import { useMedicalGlossary } from '@/data/glossaryStore'
 import { useT } from '@/lib/i18n'
 
 export function MedicalTaxonomy() {
   const t = useT()
+  // Live, and editable in Glossary Setup — no longer a source literal that
+  // needed a redeploy to correct a translation.
+  const [glossary] = useMedicalGlossary()
+  const medicalTerms = glossary.terms
+  const MED_CATEGORIES = glossary.categories
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState<MedTermCategory | 'all'>('all')
 
@@ -21,12 +27,13 @@ export function MedicalTaxonomy() {
         if (!q) return true
         return `${term.term} ${term.ar} ${term.def} ${term.defAr}`.toLowerCase().includes(q)
       }),
-    [q, category],
+    [q, category, medicalTerms],
   )
 
   const groups = MED_CATEGORIES.map((c) => ({ ...c, terms: filtered.filter((term) => term.category === c.key) })).filter(
     (g) => g.terms.length > 0,
   )
+  const isEmpty = medicalTerms.length === 0
 
   return (
     <PageContainer>
@@ -56,7 +63,10 @@ export function MedicalTaxonomy() {
       {groups.length === 0 ? (
         <Panel className="p-10 text-center">
           <Icon icon={BookA} size={22} className="mx-auto text-ink-3" />
-          <p className="mt-2 text-[13px] font-medium text-ink">{t('No terms match your search.')}</p>
+          <p className="mt-2 text-[13px] font-medium text-ink">
+            {isEmpty ? t('The glossary has not been published yet.') : t('No terms match your search.')}
+          </p>
+          {isEmpty && <p className="mx-auto mt-1.5 max-w-sm text-[12.5px] leading-relaxed text-ink-3">{t('Terms appear here once they are published in the admin console.')}</p>}
         </Panel>
       ) : (
         <div className="space-y-6">

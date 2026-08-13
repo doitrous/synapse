@@ -1,12 +1,15 @@
+import { useMemo } from 'react'
 import { Activity } from 'lucide-react'
-import type { HeatCell } from '@/data/types'
-import { studyHeatmap } from '@/data/student'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
-import { formatDayLabel, formatMinutes } from '@/lib/format'
+import { currentStreak, dailyCounts, longestStreak, type DayCount } from '@/data/attemptStats'
+import { useAttemptHistory } from '@/lib/useAttemptLog'
+import { formatDayLabel } from '@/lib/format'
 import { useT } from '@/lib/i18n'
 
 const DAY_MS = 86_400_000
+const WEEKS = 17
+const DAYS = WEEKS * 7
 const SCALE = [
   'var(--color-scale-0)',
   'var(--color-scale-1)',
@@ -20,12 +23,19 @@ function mondayIndex(d: Date): number {
   return (d.getDay() + 6) % 7 // Mon = 0 … Sun = 6
 }
 
-function level(minutes: number): number {
-  if (minutes <= 0) return 0
-  if (minutes < 45) return 1
-  if (minutes < 90) return 2
-  if (minutes < 150) return 3
-  if (minutes < 210) return 4
+/**
+ * How dark a day is, by questions answered.
+ *
+ * This used to be minutes of study, which nothing ever measured — the series
+ * was generated from a seeded random number generator. Answers are what the
+ * app actually records, so that is what the squares mean now.
+ */
+function level(answered: number): number {
+  if (answered <= 0) return 0
+  if (answered < 5) return 1
+  if (answered < 10) return 2
+  if (answered < 20) return 3
+  if (answered < 35) return 4
   return 5
 }
 
@@ -33,60 +43,57 @@ function startOfDay(d: Date): number {
   return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime()
 }
 
+interface Cell extends DayCount {
+  day: Date
+}
+
 /** Bucket the flat series into weekday-aligned week columns. */
-function buildColumns(cells: HeatCell[]): (HeatCell | null)[][] {
-  const first = cells[0].date
+function buildColumns(cells: Cell[]): (Cell | null)[][] {
+  if (!cells.length) return []
+  const first = cells[0].day
   const weekStart0 = new Date(first)
   weekStart0.setDate(first.getDate() - mondayIndex(first))
   const base = startOfDay(weekStart0)
 
-  const cols: (HeatCell | null)[][] = []
+  const cols: (Cell | null)[][] = []
   for (const c of cells) {
-    const days = Math.round((startOfDay(c.date) - base) / DAY_MS)
+    const days = Math.round((startOfDay(c.day) - base) / DAY_MS)
     const col = Math.floor(days / 7)
     const row = days % 7
-    if (!cols[col]) cols[col] = Array<HeatCell | null>(7).fill(null)
+    if (!cols[col]) cols[col] = Array<Cell | null>(7).fill(null)
     cols[col][row] = c
   }
   return cols
-}
-
-const columns = buildColumns(studyHeatmap)
-const totalMinutes = studyHeatmap.reduce((s, c) => s + c.minutes, 0)
-
-function currentStreak(): number {
-  let n = 0
-  for (let i = studyHeatmap.length - 1; i >= 0; i--) {
-    if (studyHeatmap[i].minutes > 0) n++
-    else break
-  }
-  return n
 }
 
 const DAY_LABELS = ['Mon', '', 'Wed', '', 'Fri', '', '']
 
 export function StudyHeatmap() {
   const t = useT()
-  const streak = currentStreak()
-  const activeDays = studyHeatmap.filter((cell) => cell.minutes > 0).length
-  const dailyAverage = Math.round(totalMinutes / Math.max(1, activeDays))
-  let longest = 0
-  let run = 0
-  studyHeatmap.forEach((cell) => {
-    run = cell.minutes > 0 ? run + 1 : 0
-    longest = Math.max(longest, run)
-  })
+  const { records } = useAttemptHistory()
+
+  const cells = useMemo<Cell[]>(
+    () => dailyCounts(records, DAYS).map((day) => ({ ...day, day: new Date(`${day.date}T00:00:00`) })),
+    [records],
+  )
+  const columns = useMemo(() => buildColumns(cells), [cells])
+
+  const totalAnswered = cells.reduce((sum, cell) => sum + cell.attempts, 0)
+  const activeDays = cells.filter((cell) => cell.attempts > 0).length
+  const dailyAverage = activeDays ? Math.round(totalAnswered / activeDays) : 0
+  const streak = currentStreak(records)
+  const longest = longestStreak(records)
 
   return (
     <Panel className="h-full min-w-0">
       <PanelHeader
         title={t('Study heatmap')}
         icon={Activity}
-        hint={t('Minutes per day · last 17 weeks')}
+        hint={t('Questions answered per day · last 17 weeks')}
         action={
           <div className="flex items-center gap-1.5">
-            <Badge tone="accent">{Math.round(totalMinutes / 60)}{t('h total')}</Badge>
-            <Badge tone="success">{streak}{t('-day streak')}</Badge>
+            <Badge tone="accent">{totalAnswered} {t('answered')}</Badge>
+            {streak > 0 && <Badge tone="success">{streak}{t('-day streak')}</Badge>}
           </div>
         }
       />
@@ -96,11 +103,7 @@ export function StudyHeatmap() {
             {/* weekday rail */}
             <div className="flex shrink-0 flex-col gap-[3px] pt-[1px]">
               {DAY_LABELS.map((d, i) => (
-                <span
-                  key={i}
-                  className="h-[13px] text-[9px] leading-[13px] text-ink-3"
-                  style={{ width: 22 }}
-                >
+                <span key={i} className="h-[13px] text-[9px] leading-[13px] text-ink-3" style={{ width: 22 }}>
                   {d}
                 </span>
               ))}
@@ -116,11 +119,11 @@ export function StudyHeatmap() {
                       <span
                         key={ri}
                         className="size-[13px] rounded-[3px] ring-1 ring-inset ring-black/[0.04] transition-transform duration-100 hover:scale-[1.35]"
-                        style={{ backgroundColor: SCALE[level(cell.minutes)] }}
+                        style={{ backgroundColor: SCALE[level(cell.attempts)] }}
                         title={
-                          cell.minutes > 0
-                            ? `${formatMinutes(cell.minutes)} · ${formatDayLabel(cell.date)}`
-                            : `No study · ${formatDayLabel(cell.date)}`
+                          cell.attempts > 0
+                            ? `${cell.attempts} ${cell.attempts === 1 ? t('answer') : t('answers')} · ${formatDayLabel(cell.day)}`
+                            : `${t('Nothing answered')} · ${formatDayLabel(cell.day)}`
                         }
                       />
                     )
@@ -133,28 +136,28 @@ export function StudyHeatmap() {
 
         <div className="mt-4 flex items-center justify-between">
           <p className="text-[12px] text-ink-3">
-            {t("You've studied")}{' '}
-            <span className="tnum font-mono font-medium text-ink-2">
-              {Math.round(totalMinutes / 60)} {t('hours')}
-            </span>{' '}
-            {t('over this block.')}
+            {totalAnswered > 0 ? (
+              <>
+                {t("You've answered")}{' '}
+                <span className="tnum font-mono font-medium text-ink-2">{totalAnswered} {t('questions')}</span>{' '}
+                {t('over this block.')}
+              </>
+            ) : (
+              t('Nothing answered yet — every question you work through fills a square.')
+            )}
           </p>
           <div className="flex items-center gap-1.5 text-[11px] text-ink-3">
             <span>{t('Less')}</span>
             {SCALE.map((c) => (
-              <span
-                key={c}
-                className="size-[11px] rounded-[3px] ring-1 ring-inset ring-black/[0.04]"
-                style={{ backgroundColor: c }}
-              />
+              <span key={c} className="size-[11px] rounded-[3px] ring-1 ring-inset ring-black/[0.04]" style={{ backgroundColor: c }} />
             ))}
             <span>{t('More')}</span>
           </div>
         </div>
         <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-4">
           {[
-            [t('Daily average'), `${dailyAverage} ${t('min')}`],
-            [t('Days learned'), `${Math.round((activeDays / studyHeatmap.length) * 100)}%`],
+            [t('Daily average'), activeDays ? `${dailyAverage} ${t('a day')}` : '—'],
+            [t('Days learned'), cells.length ? `${Math.round((activeDays / cells.length) * 100)}%` : '—'],
             [t('Longest streak'), `${longest} ${t('days')}`],
             [t('Current streak'), `${streak} ${t('days')}`],
           ].map(([label, value]) => (

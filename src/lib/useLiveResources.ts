@@ -5,10 +5,22 @@ import { resources as SEED_RESOURCES, type Resource } from '@/data/resources'
 import type { ResourceType } from '@/data/types'
 import { API_MODE } from './api'
 
-/** A live resource carries the full chapters/modules lists for folder grouping. */
+/**
+ * A live resource carries the full chapters/modules lists for folder grouping,
+ * plus the scope its author actually recorded.
+ *
+ * `universityIds` and `yearIds` are authored on the item. They replace a string
+ * hash over the resource id that invented which universities each resource
+ * "applies to" — a real-looking chip that meant nothing. Empty means it applies
+ * to everyone, which is how an unrestricted resource should read.
+ */
 export interface LiveResource extends Resource {
   chapters: string[]
   modules: string[]
+  universityIds: string[]
+  yearIds: string[]
+  /** True when a source file has been uploaded and can be opened. */
+  hasFile: boolean
 }
 
 const RESOURCE_TYPES: ResourceType[] = ['Book', 'Video', 'Guideline', 'Deck', 'Article']
@@ -16,7 +28,7 @@ const asType = (value?: string): ResourceType => (RESOURCE_TYPES.includes(value 
 
 /** Apply an admin ledger resource item's edits on top of a seeded resource. */
 function overlayResource(res: Resource, item: ManagedContentItem | undefined): LiveResource {
-  if (!item) return { ...res, chapters: res.chapter ? [res.chapter] : [], modules: [] }
+  if (!item) return { ...res, chapters: res.chapter ? [res.chapter] : [], modules: [], universityIds: [], yearIds: [], hasFile: false }
   const chapters = item.resourceData?.chapters?.length ? item.resourceData.chapters : (item.fields.Chapter ? [item.fields.Chapter] : res.chapter ? [res.chapter] : [])
   return {
     ...res,
@@ -29,6 +41,9 @@ function overlayResource(res: Resource, item: ManagedContentItem | undefined): L
     chapter: chapters[0] ?? res.chapter,
     chapters,
     modules: item.resourceData?.moduleIds ?? [],
+    universityIds: item.resourceData?.universityIds ?? [],
+    yearIds: item.resourceData?.yearIds ?? [],
+    hasFile: Boolean(item.resourceData?.storageKey),
   }
 }
 
@@ -46,6 +61,9 @@ function itemToResource(item: ManagedContentItem): LiveResource {
     chapter: chapters[0],
     chapters,
     modules: item.resourceData?.moduleIds ?? [],
+    universityIds: item.resourceData?.universityIds ?? [],
+    yearIds: item.resourceData?.yearIds ?? [],
+    hasFile: Boolean(item.resourceData?.storageKey),
   }
 }
 

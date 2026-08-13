@@ -7,6 +7,7 @@ import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { isSupabaseConfigured, supabase } from '@/lib/supabase'
 import { authErrorMessage } from './authMessages'
+import { rememberPendingEmail } from './pendingEmail'
 
 const ownership = [
   { icon: BookOpenText, title: 'Notes and highlights', detail: 'Annotations, personal articles, tags, and reading state.' },
@@ -49,6 +50,10 @@ export function Signup() {
     })
     setLoading(false)
     if (signUpError) return setError(authErrorMessage(signUpError, 'Account creation could not be completed. Review the form and try again.'))
+    // The confirmation link opens a fresh page with no `?email=` on it, so the
+    // address is stored as well as passed — otherwise resending is impossible
+    // from the one page that needs to offer it.
+    rememberPendingEmail(cleanEmail)
     navigate(`/auth/verify-email?email=${encodeURIComponent(cleanEmail)}`)
   }
 

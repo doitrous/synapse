@@ -1,8 +1,11 @@
 /**
- * Medical Taxonomy — a bilingual (English ⇄ Arabic) dictionary of the basic
- * medical terms and word-parts new students meet first. Each entry carries the
- * English term, its Arabic translation, and a short plain explanation in both
- * languages so a first-year student can build vocabulary quickly.
+ * The bilingual medical glossary — English ⇄ Arabic.
+ *
+ * Real reference content, not demo data: these are the terms and word-parts a
+ * first-year student meets first. What changed is that it is no longer a source
+ * literal only a redeploy could correct. The list below is a *starter set* an
+ * admin loads once; after that the glossary lives in a shared document that
+ * Glossary Setup edits and every student reads.
  */
 
 export interface MedicalTerm {
@@ -38,7 +41,7 @@ export const MED_CATEGORIES: { key: MedTermCategory; ar: string }[] = [
   { key: 'Pharmacology', ar: 'علم الأدوية' },
 ]
 
-export const medicalTerms: MedicalTerm[] = [
+export const GLOSSARY_SEED: MedicalTerm[] = [
   // ---- Directional & anatomy ----
   { id: 'anterior', term: 'Anterior', ar: 'أمامي', category: 'Directional & anatomy', def: 'Toward the front of the body.', defAr: 'باتجاه مقدمة الجسم.', example: 'The sternum is anterior to the heart.' },
   { id: 'posterior', term: 'Posterior', ar: 'خلفي', category: 'Directional & anatomy', def: 'Toward the back of the body.', defAr: 'باتجاه مؤخرة الجسم.' },
@@ -107,3 +110,19 @@ export const medicalTerms: MedicalTerm[] = [
   { id: 'contraindication', term: 'Contraindication', ar: 'مضاد استطباب (مانع)', category: 'Pharmacology', def: 'A reason a treatment should not be used.', defAr: 'سبب يمنع استخدام علاج معيّن.' },
   { id: 'indication', term: 'Indication', ar: 'استطباب (دواعي الاستعمال)', category: 'Pharmacology', def: 'A valid reason to use a treatment.', defAr: 'سبب مناسب لاستخدام علاج معيّن.' },
 ]
+
+/** The whole glossary as one stored document. */
+export interface GlossaryDoc {
+  version: 1
+  categories: { key: MedTermCategory; ar: string }[]
+  terms: MedicalTerm[]
+}
+
+export const GLOSSARY_STORAGE_KEY = 'synapse-medical-glossary-v1'
+
+export const EMPTY_GLOSSARY: GlossaryDoc = { version: 1, categories: [], terms: [] }
+
+/** The starter document an admin can load, once, from Glossary Setup. */
+export function starterGlossary(): GlossaryDoc {
+  return { version: 1, categories: MED_CATEGORIES.map((category) => ({ ...category })), terms: GLOSSARY_SEED.map((term) => ({ ...term })) }
+}

@@ -5,7 +5,7 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
 import { CONCEPT_IMPORT_FIELDS, conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement } from '@/data/conceptImport'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
-import { subjects } from '@/data/student'
+import { subjects } from '@/data/subjects'
 
 const MD = `# Item
 ## label

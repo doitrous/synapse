@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { AlertCircle, ArrowRight, Eye, EyeOff, KeyRound, LogIn } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
@@ -7,10 +7,24 @@ import { Icon } from '@/components/ui/Icon'
 import { AuthLayout } from './AuthLayout'
 import { isSupabaseConfigured, supabase } from '@/lib/supabase'
 import { apiGet, clearOwnerAccessToken, setOwnerAccessToken } from '@/lib/api'
+import { useIdentity } from '@/lib/useIdentity'
 import { authErrorMessage } from './authMessages'
+
+/**
+ * Only a path inside this app is an acceptable place to land after sign-in.
+ * An absolute or protocol-relative `next` would let a link turn our own login
+ * form into a redirector to somebody else's site.
+ */
+function safeNext(value: string | null): string {
+  if (!value || !value.startsWith('/') || value.startsWith('//')) return '/app'
+  return value
+}
 
 export function Login() {
   const navigate = useNavigate()
+  const [params] = useSearchParams()
+  const next = safeNext(params.get('next'))
+  const { reload } = useIdentity()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
@@ -35,7 +49,10 @@ export function Login() {
       return
     }
     const { data: assurance } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel()
-    navigate(assurance?.nextLevel === 'aal2' && assurance.currentLevel !== 'aal2' ? '/auth/mfa' : '/app')
+    const mfaPending = assurance?.nextLevel === 'aal2' && assurance.currentLevel !== 'aal2'
+    // Carry the original destination through the second factor, so being asked
+    // for a code does not quietly drop the page the student was heading to.
+    navigate(mfaPending ? `/auth/mfa?next=${encodeURIComponent(next)}` : next)
   }
 
   async function openOwnerPreview(event: React.FormEvent) {
@@ -48,6 +65,9 @@ export function Login() {
     try {
       const session = await apiGet<{ user: { role: string; bypass: boolean } | null }>('/session')
       if (!session.user?.bypass || session.user.role !== 'admin') throw new Error('not owner')
+      // The identity provider sits above the router, so navigating alone would
+      // not make it notice the key that was just accepted.
+      reload()
       navigate('/admin')
     } catch {
       clearOwnerAccessToken()

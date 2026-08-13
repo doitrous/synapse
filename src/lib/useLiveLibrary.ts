@@ -1,8 +1,8 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
-import { libraryTopics as SEED_TOPICS, updatedAtFor as seedUpdatedAtFor, type LibTopic, type Subtopic } from '@/data/library'
-import { subjects } from '@/data/student'
+import { libraryTopics as SEED_TOPICS, type LibTopic, type LinkedQuestion, type Subtopic } from '@/data/library'
+import { subjects } from '@/data/subjects'
 import { API_MODE } from './api'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 import { overlaySubtopic, articleToSubtopic } from '@/data/articleProjection'
@@ -54,14 +54,38 @@ export function useLiveLibrary() {
         topic.subtopics.push(articleToSubtopic(item, evidence, graph, readable))
       })
 
+    /**
+     * The published questions that name each article, keyed by article id.
+     *
+     * The link already exists in one direction — a question records which
+     * library articles it tests — but nothing read it backwards, so
+     * `articleToSubtopic` set `questions: []` and every authored article
+     * advertised "Test yourself · 0 questions" no matter how many pointed at it.
+     */
+    const questionsByArticle = new Map<string, LinkedQuestion[]>()
+    for (const item of ledger) {
+      if (item.kind !== 'question' || item.status !== 'Published') continue
+      const stem = item.title
+      for (const articleId of item.questionData?.libraryIds ?? []) {
+        questionsByArticle.set(articleId, [...(questionsByArticle.get(articleId) ?? []), { id: item.id, stem }])
+      }
+    }
+    for (const topic of topics) {
+      for (const subtopic of topic.subtopics) {
+        const linked = questionsByArticle.get(subtopic.id)
+        if (linked) subtopic.questions = linked
+      }
+    }
+
     const orderedTopics = topics.filter((t) => t.subtopics.length > 0)
     const subtopics: LiveSubtopic[] = orderedTopics.flatMap((t) =>
       t.subtopics.map((s) => ({ ...s, topicId: t.id, topicTitle: t.title, subjectId: t.subjectId })),
     )
 
-    const updatedAtFor = (id: string): Date => {
+    /** The article's real revision time, or null when it has never been recorded. */
+    const updatedAtFor = (id: string): Date | null => {
       const s = subtopics.find((x) => x.id === id)
-      return s?.updatedAt ? new Date(s.updatedAt) : seedUpdatedAtFor(id)
+      return s?.updatedAt ? new Date(s.updatedAt) : null
     }
 
     return { topics: orderedTopics, subtopics, updatedAtFor, subjects }

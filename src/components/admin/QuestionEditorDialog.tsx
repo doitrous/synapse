@@ -8,7 +8,7 @@ import {
   type MediaAttachment,
   type QuestionAuthoringData,
 } from '@/data/contentControl'
-import { subjects } from '@/data/student'
+import { subjects } from '@/data/subjects'
 import { YEARS } from '@/data/universities'
 import { yearId } from '@/data/taxonomy'
 import { Button } from '@/components/ui/Button'

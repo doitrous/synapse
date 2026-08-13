@@ -11,6 +11,11 @@ export interface ContentReport {
   contentTitle: string
   reporterRole: ReporterRole
   reporterName: string
+  /**
+   * The account that filed it. An admin acting on a report often needs to reply
+   * to the person, and a display name alone cannot be looked up.
+   */
+  reporterUserId?: string | null
   category: string
   note: string
   status: ReportStatus

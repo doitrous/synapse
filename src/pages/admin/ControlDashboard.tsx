@@ -26,9 +26,9 @@ import {
   initialManagedContent,
   type ContentKind,
   type ManagedContentItem,
+  itemInScope,
 } from '@/data/contentControl'
-import { getSubject, subjects } from '@/data/student'
-import { scopeUniversities, scopeYear } from '@/data/universities'
+import { getSubject, subjects } from '@/data/subjects'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -223,9 +223,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       // Navigator scope (Master → university → year) for question & resource catalogues.
       .filter((item) => {
         if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical')) return true
-        if (activeScope.universityId && !scopeUniversities(item.id).includes(activeScope.universityId)) return false
-        if (activeScope.year && scopeYear(item.subjectId) !== activeScope.year) return false
-        return true
+        // Authored scope, not a hash of the item's id.
+        return itemInScope(item, activeScope.universityId, activeScope.year)
       })
       .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')}`.toLowerCase().includes(normalized))
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())

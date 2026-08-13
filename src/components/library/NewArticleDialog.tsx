@@ -3,7 +3,7 @@ import { X, Plus, GripVertical, Tag as TagIcon, Trash2 } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { Field, TextInput, Textarea, Select } from '@/components/ui/Field'
-import { subjects } from '@/data/student'
+import { subjects } from '@/data/subjects'
 import { emptySections, newId, type ArticleSection, type UserArticle } from '@/data/userLibrary'
 import { useT } from '@/lib/i18n'
 

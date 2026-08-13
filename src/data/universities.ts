@@ -102,35 +102,25 @@ export function getUniversity(id: string): University | undefined {
 
 export const YEARS = ['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5', 'Internship Year 1', 'Internship Year 2']
 
-/* ---- Deterministic content scoping ------------------------------------- */
+/* ---- Content scoping ---------------------------------------------------- */
 
-function hash(s: string): number {
-  let h = 0
-  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0
-  return h
+/**
+ * Which universities and years a piece of content applies to.
+ *
+ * Read from what the author recorded on the item, with an empty list meaning
+ * "everyone". This replaced two functions that invented the answer:
+ * `scopeUniversities` hashed the item's id and used `h % 2` and `h % 3` to
+ * decide which universities it belonged to, and `scopeYear` mapped a subject to
+ * a year from an eight-entry table. Both produced confident, real-looking chips
+ * on the student's screen that described nothing.
+ */
+export interface AuthoredScope {
+  universityIds?: string[]
+  yearIds?: string[]
 }
 
-/** Legacy deterministic scope helper. New live content must use explicit scope. */
-export function scopeUniversities(key: string): string[] {
-  const h = hash(key)
-  const ids = ['kau']
-  if (h % 2 === 0) ids.push('asu')
-  if (h % 3 === 0) ids.push('au')
-  return ids
-}
-
-const SUBJECT_YEAR: Record<string, string> = {
-  msk: 'Year 1',
-  cvs: 'Year 2',
-  resp: 'Year 2',
-  renal: 'Year 2',
-  gi: 'Year 2',
-  pharm: 'Year 3',
-  neuro: 'Year 3',
-  endo: 'Year 3',
-}
-
-/** The curriculum year a subject typically sits in. */
-export function scopeYear(subjectId: string): string {
-  return SUBJECT_YEAR[subjectId] ?? 'Year 2'
+export function scopeMatches(scope: AuthoredScope | undefined, universityId?: string, yearId?: string): boolean {
+  if (universityId && (scope?.universityIds?.length ?? 0) > 0 && !scope!.universityIds!.includes(universityId)) return false
+  if (yearId && (scope?.yearIds?.length ?? 0) > 0 && !scope!.yearIds!.includes(yearId)) return false
+  return true
 }

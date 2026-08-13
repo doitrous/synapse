@@ -9,7 +9,16 @@
  * authoring contract names.
  */
 
-export const MASTERY_STORAGE_KEY = 'synapse-concept-mastery-v1'
+/**
+ * Dotted, and deliberately so: `isUserOwnedState` matches `synapse.progress.*`,
+ * which is what routes this ledger to the student's own record rather than the
+ * shared catalogue store. The former hyphenated key matched nothing, so in live
+ * mode it was read and written as an admin document and 403'd both ways.
+ */
+export const MASTERY_STORAGE_KEY = 'synapse.progress.mastery.v1'
+
+/** The pre-rename key, kept only to carry demo-mode ledgers across. */
+export const LEGACY_MASTERY_STORAGE_KEY = 'synapse-concept-mastery-v1'
 
 /** Which surface produced a piece of evidence. */
 export type MasterySource = 'question' | 'case' | 'interpretation' | 'station'

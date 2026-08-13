@@ -1,8 +1,11 @@
 import { useCallback } from 'react'
-import { usePersistentState } from './usePersistentState'
+import { migrateLegacyLocalKey, usePersistentState } from './usePersistentState'
 import {
-  MASTERY_STORAGE_KEY, recordEvidence, type EvidenceInput, type MasteryLedger,
+  LEGACY_MASTERY_STORAGE_KEY, MASTERY_STORAGE_KEY, recordEvidence,
+  type EvidenceInput, type MasteryLedger,
 } from '@/data/mastery'
+
+migrateLegacyLocalKey(LEGACY_MASTERY_STORAGE_KEY, MASTERY_STORAGE_KEY)
 
 /**
  * Read and add to the concept mastery ledger.

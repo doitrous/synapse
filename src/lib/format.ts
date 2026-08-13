@@ -73,6 +73,23 @@ export function relativeDay(target: Date, from: Date = new Date()): string {
   return `${Math.abs(d)} days ago`
 }
 
+/**
+ * "just now", "2h ago", "Yesterday", "3 days ago" — for a real timestamp.
+ *
+ * Distinct from `relativeDay`, which rounds to whole days: something opened
+ * ninety minutes ago should not read as "Today" when the point is recency.
+ */
+export function formatRelativeTime(iso: string, from: Date = new Date()): string {
+  const at = new Date(iso)
+  if (Number.isNaN(at.getTime())) return ''
+  const minutes = Math.round((from.getTime() - at.getTime()) / 60_000)
+  if (minutes < 1) return 'just now'
+  if (minutes < 60) return `${minutes}m ago`
+  const hours = Math.round(minutes / 60)
+  if (hours < 24 && at.getDate() === from.getDate()) return `${hours}h ago`
+  return relativeDay(at, from)
+}
+
 /** Clamp a number into [min, max]. */
 export function clamp(n: number, min: number, max: number): number {
   return Math.min(max, Math.max(min, n))

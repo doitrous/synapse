@@ -12,10 +12,15 @@ import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
 import { apiAuthGate, bypassEnabled, requireAdmin, requireAuthenticated } from './auth.js'
 import {
-  listUsers, getUser, grantSubscription, cancelSubscription, setAccessStatus,
-  requestPasswordReset, recordAction, readReason, passwordResetConfigured,
-  getUserActivity, setRole,
+  listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
+  setAccessStatus, requestPasswordReset, recordAction, readReason,
+  passwordResetConfigured, getUserActivity, setRole,
 } from './accounts.js'
+import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
+import {
+  createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
+  invalidateStudyRoomSnapshot,
+} from './studyRooms.js'
 import { toMariaDbDate } from './datetime.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -28,10 +33,19 @@ const MEDICAL_EVIDENCE_STATE_KEY = 'synapse-medical-evidence-v1'
 let medicalResourceSnapshot = null
 let medicalResourceLoad = null
 
-function invalidateMedicalResourceSnapshot(key) {
-  if (key !== MEDICAL_EVIDENCE_STATE_KEY) return
-  medicalResourceSnapshot = null
-  medicalResourceLoad = null
+/**
+ * Drop any server-side cache a state write has just made stale.
+ *
+ * Two caches now read from `app_state` — the medical-resource snapshot and the
+ * published-question set behind study rooms — so invalidation is one call
+ * rather than a growing list at every write site.
+ */
+function invalidateSnapshots(key) {
+  if (key === MEDICAL_EVIDENCE_STATE_KEY) {
+    medicalResourceSnapshot = null
+    medicalResourceLoad = null
+  }
+  invalidateStudyRoomSnapshot(key)
 }
 const app = express()
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
@@ -65,6 +79,106 @@ app.get('/api/session', (req, res) => res.json({
   } : null,
 }))
 
+/**
+ * The caller's own profile and entitlement.
+ *
+ * A student surface needs to know who it is showing and what they have paid
+ * for. Both answers already exist for admins; this exposes exactly the caller's
+ * own row and nothing else. A missing roster row is a 200 with nulls rather
+ * than a 404: "your university has not set up your profile yet" is a state the
+ * app should render, not an error it should treat as a broken request.
+ */
+app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
+  const user = req.identity.bypass ? null : await getUserByIdentity(req.identity.id)
+  res.json({
+    user: { id: req.identity.id, email: req.identity.email, role: req.identity.role, aal: req.identity.aal, bypass: req.identity.bypass },
+    profile: user
+      ? { studentId: user.id, name: user.name, email: user.email, universityId: user.universityId, year: user.year, group: user.group, status: user.status }
+      : null,
+    subscription: user?.subscription ?? null,
+    entitlement: user?.entitlement ?? { state: 'none', plan: 'Free', expiresAt: null, daysLeft: null },
+  })
+}))
+
+/**
+ * Everything this account has stored, as the account's own data.
+ *
+ * The Account page has always offered a download. It exported the settings blob
+ * the page happened to hold, while promising notes, highlights and progress —
+ * this returns what the promise says: every `user_state` document owned by the
+ * caller.
+ */
+app.get('/api/me/export', requireAuthenticated, wrap(async (req, res) => {
+  const [rows] = await pool.query(
+    'SELECT k, v, updated_at AS updatedAt FROM user_state WHERE user_id = ? ORDER BY k',
+    [req.identity.id],
+  )
+  const documents = {}
+  for (const row of rows) {
+    try { documents[row.k] = { value: JSON.parse(row.v), updatedAt: row.updatedAt } }
+    catch { documents[row.k] = { value: null, updatedAt: row.updatedAt } }
+  }
+  const profile = req.identity.bypass ? null : await getUserByIdentity(req.identity.id)
+  res.json({
+    exportedAt: new Date().toISOString(),
+    account: { id: req.identity.id, email: req.identity.email },
+    profile,
+    documents,
+  })
+}))
+
+/* ── Vouchers ────────────────────────────────────────────────────────────── */
+
+app.post('/api/vouchers/redeem', requireAuthenticated, wrap(async (req, res) => {
+  const result = await redeemVoucher(req.identity.id, req.body?.code)
+  // A refused voucher is a 200 with a typed reason, not an error status: the
+  // client has to render the reason, and a 4xx would put the persistence layer
+  // into its terminal-error path for something that is a normal answer.
+  res.json(result)
+}))
+
+app.delete('/api/vouchers/redemption', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await releaseVoucher(req.identity.id))
+}))
+
+app.get('/api/vouchers/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ redemption: await myVoucher(req.identity.id) })
+}))
+
+/* ── Study Together ──────────────────────────────────────────────────────── */
+
+app.post('/api/study-rooms', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createRoom(req.identity.id, req.body ?? {}))
+}))
+
+app.post('/api/study-rooms/join', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await joinRoom(req.identity.id, req.body?.code))
+}))
+
+app.get('/api/study-rooms/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ rooms: await myRooms(req.identity.id) })
+}))
+
+app.get('/api/study-rooms/:id', requireAuthenticated, wrap(async (req, res) => {
+  const room = await roomFor(req.identity.id, req.params.id)
+  // A non-member gets the same answer as a non-existent room: whether a room
+  // exists is not something a stranger should be able to probe.
+  if (!room) return res.status(404).json({ error: 'room not found' })
+  res.json({ room })
+}))
+
+app.post('/api/study-rooms/:id/start', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await startRoom(req.identity.id, req.params.id))
+}))
+
+app.post('/api/study-rooms/:id/answers', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await submitAnswer(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.post('/api/study-rooms/:id/finish', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await finishRoom(req.identity.id, req.params.id))
+}))
+
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */
 
 // Shared catalogue documents that students need in order to use the learning
@@ -79,6 +193,8 @@ const STUDENT_READABLE_STATE = new Set([
   'synapse-relation-types-v1',
   'synapse-taxonomy-tree-v4',
   'synapse-medical-library-taxonomy-v1',
+  // The bilingual glossary behind /app/taxonomy. Admin-written, student-read.
+  'synapse-medical-glossary-v1',
   'synapse-medical-evidence-published-v1',
   'synapse-plans-v1',
   'synapse-notification-campaigns-v1',
@@ -121,7 +237,7 @@ app.put('/api/state/:key', requireAdmin, wrap(async (req, res) => {
       )
     }
     await conn.commit()
-    invalidateMedicalResourceSnapshot(req.params.key)
+    invalidateSnapshots(req.params.key)
   } catch (error) {
     await conn.rollback()
     throw error
@@ -133,7 +249,7 @@ app.put('/api/state/:key', requireAdmin, wrap(async (req, res) => {
 
 app.delete('/api/state/:key', requireAdmin, wrap(async (req, res) => {
   await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
-  invalidateMedicalResourceSnapshot(req.params.key)
+  invalidateSnapshots(req.params.key)
   res.json({ ok: true })
 }))
 
@@ -221,10 +337,10 @@ app.get('/api/admin/users/:id', requireAdmin, wrap(async (req, res) => {
 app.patch('/api/admin/users/:id', requireAdmin, wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
-  const fields = ['name', 'email', 'university_id', 'year', 'notes']
+  const fields = ['name', 'email', 'university_id', 'year', 'study_group', 'notes']
   const updates = []
   const params = []
-  for (const [key, column] of [['name', 'name'], ['email', 'email'], ['universityId', 'university_id'], ['year', 'year'], ['notes', 'notes']]) {
+  for (const [key, column] of [['name', 'name'], ['email', 'email'], ['universityId', 'university_id'], ['year', 'year'], ['group', 'study_group'], ['notes', 'notes']]) {
     if (req.body?.[key] !== undefined && fields.includes(column)) { updates.push(`${column} = ?`); params.push(req.body[key] || null) }
   }
   if (!updates.length) return res.status(400).json({ error: 'nothing to update' })

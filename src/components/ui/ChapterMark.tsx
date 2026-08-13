@@ -1,4 +1,4 @@
-import { getSubject } from '@/data/student'
+import { getSubject } from '@/data/subjects'
 import { cn } from '@/lib/cn'
 
 /** A meaningful article identifier: subject abbreviation + chapter sequence. */

@@ -16,23 +16,14 @@ const TONES = { paper: 'bg-surface border-line', teal: 'bg-accent-tint border-ac
 const TONE_CYCLE = ['paper', 'teal', 'amber', 'rose'] as const
 const NOTE_W = 176
 const NOTE_H = 74
-const INITIAL_BOARD: BoardState = {
-  notes: [
-    { id: 'n1', x: 360, y: 210, text: 'Heart failure', tone: 'teal' },
-    { id: 'n2', x: 120, y: 90, text: '↓ Cardiac output', tone: 'paper' },
-    { id: 'n3', x: 120, y: 330, text: 'Congestion → oedema & breathlessness', tone: 'paper' },
-    { id: 'n4', x: 640, y: 90, text: 'RAAS activation', tone: 'amber' },
-    { id: 'n5', x: 640, y: 220, text: 'Sympathetic drive', tone: 'amber' },
-    { id: 'n6', x: 640, y: 350, text: 'Ventricular remodelling', tone: 'amber' },
-    { id: 'n7', x: 900, y: 220, text: 'Four pillars block these pathways', tone: 'teal' },
-  ],
-  links: [
-    { id: 'l1', from: 'n2', to: 'n1' }, { id: 'l2', from: 'n1', to: 'n3' }, { id: 'l3', from: 'n1', to: 'n4' },
-    { id: 'l4', from: 'n1', to: 'n5' }, { id: 'l5', from: 'n1', to: 'n6' }, { id: 'l6', from: 'n4', to: 'n7' },
-    { id: 'l7', from: 'n5', to: 'n7' }, { id: 'l8', from: 'n6', to: 'n7' },
-  ],
-  frames: [{ id: 'f1', x: 80, y: 48, width: 1080, height: 430, title: 'Heart failure · mechanism to treatment' }],
-}
+/**
+ * A new whiteboard is empty.
+ *
+ * It used to be seeded with seven sticky notes, eight connectors and a frame
+ * titled "Heart failure · mechanism to treatment" — someone else's diagram,
+ * written into a real student's account the first time they dragged anything.
+ */
+const INITIAL_BOARD: BoardState = { notes: [], links: [], frames: [] }
 
 type NoteOffset = { id: string; ox: number; oy: number }
 type Drag =
@@ -49,6 +40,13 @@ export function Whiteboard() {
   const [board, setBoard] = usePersistentState<BoardState>('synapse.whiteboard.board', INITIAL_BOARD)
   const [selected, setSelected] = useState<string | null>(null)
   const [selectedFrame, setSelectedFrame] = useState<string | null>(null)
+  /**
+   * A connector can be selected and deleted.
+   *
+   * Previously a link could only be created; the sole way to remove a
+   * mis-drawn arrow was to delete one of the notes it joined.
+   */
+  const [selectedLink, setSelectedLink] = useState<string | null>(null)
   const [editing, setEditing] = useState<string | null>(null)
   const [editingFrame, setEditingFrame] = useState<string | null>(null)
   const [connectMode, setConnectMode] = useState(false)
@@ -204,6 +202,13 @@ export function Whiteboard() {
     setEditingFrame(id)
   }
 
+  function removeSelectedLink() {
+    if (!selectedLink) return
+    remember()
+    setBoard((current) => ({ ...current, links: current.links.filter((line) => line.id !== selectedLink) }))
+    setSelectedLink(null)
+  }
+
   function removeSelected() {
     if (!selected) return
     remember()
@@ -229,24 +234,35 @@ export function Whiteboard() {
     setView({ x: (rect.width - width * scale) / 2 - bounds.minX * scale, y: (rect.height - height * scale) / 2 - bounds.minY * scale, scale })
   }
 
-  useEffect(() => {
-    function onKey(event: KeyboardEvent) {
-      if (editing || editingFrame) return
-      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'z') {
-        event.preventDefault()
-        if (event.shiftKey) redo()
-        else undo()
-        return
-      }
-      if (event.key === 'Delete' || event.key === 'Backspace') {
-        if (selected) { event.preventDefault(); removeSelected() }
-        else if (selectedFrame) { event.preventDefault(); removeFrame() }
-      }
-      if (event.key === 'Escape') { setConnectFrom(null); setSelected(null); setSelectedFrame(null) }
+  /**
+   * The current key handler, held in a ref.
+   *
+   * The listener itself is registered once. Previously the effect had no
+   * dependency array at all, so every render — including every frame of a
+   * drag — removed and re-added a window listener.
+   */
+  const onKeyRef = useRef<(event: KeyboardEvent) => void>(() => undefined)
+  onKeyRef.current = (event: KeyboardEvent) => {
+    if (editing || editingFrame) return
+    if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'z') {
+      event.preventDefault()
+      if (event.shiftKey) redo()
+      else undo()
+      return
     }
+    if (event.key === 'Delete' || event.key === 'Backspace') {
+      if (selected) { event.preventDefault(); removeSelected() }
+      else if (selectedFrame) { event.preventDefault(); removeFrame() }
+      else if (selectedLink) { event.preventDefault(); removeSelectedLink() }
+    }
+    if (event.key === 'Escape') { setConnectFrom(null); setSelected(null); setSelectedFrame(null); setSelectedLink(null) }
+  }
+
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => onKeyRef.current(event)
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  })
+  }, [])
 
   const byId = (id: string) => board.notes.find((note) => note.id === id)
   const miniWidth = 190; const miniHeight = 112; const worldWidth = bounds.maxX - bounds.minX; const worldHeight = bounds.maxY - bounds.minY
@@ -303,7 +319,12 @@ export function Whiteboard() {
           />
         </div>
       ))}
-      <svg className="absolute overflow-visible" width={1} height={1}>{board.links.map((line) => { const a = byId(line.from); const b = byId(line.to); if (!a || !b) return null; const x1 = a.x + NOTE_W / 2; const y1 = a.y + 27; const x2 = b.x + NOTE_W / 2; const y2 = b.y + 27; const mx = (x1 + x2) / 2; return <path key={line.id} d={`M ${x1} ${y1} C ${mx} ${y1}, ${mx} ${y2}, ${x2} ${y2}`} fill="none" stroke="var(--color-line-2)" strokeWidth={1.5} /> })}</svg>
+      <svg className="absolute overflow-visible" width={1} height={1}>{board.links.map((line) => { const a = byId(line.from); const b = byId(line.to); if (!a || !b) return null; const x1 = a.x + NOTE_W / 2; const y1 = a.y + 27; const x2 = b.x + NOTE_W / 2; const y2 = b.y + 27; const mx = (x1 + x2) / 2; const d = `M ${x1} ${y1} C ${mx} ${y1}, ${mx} ${y2}, ${x2} ${y2}`; const isSelected = selectedLink === line.id; return <g key={line.id}>
+        <path d={d} fill="none" stroke={isSelected ? 'var(--color-accent)' : 'var(--color-line-2)'} strokeWidth={isSelected ? 2.5 : 1.5} />
+        {/* A 1.5px curve is far too thin to click; this invisible stroke is
+            what a pointer actually has to hit. */}
+        <path d={d} fill="none" stroke="transparent" strokeWidth={14} className="pointer-events-auto cursor-pointer" onPointerDown={(event) => { event.stopPropagation(); setSelectedLink(line.id); setSelected(null); setSelectedFrame(null) }} />
+      </g> })}</svg>
       {board.notes.map((note) => <div key={note.id} onPointerDown={(event) => noteDown(event, note.id)} onDoubleClick={(event) => { event.stopPropagation(); setEditing(note.id) }} className={cn('absolute cursor-grab select-none rounded-lg border p-3 shadow-panel active:cursor-grabbing', TONES[note.tone], selected === note.id && 'ring-2 ring-accent ring-offset-1 ring-offset-paper', connectFrom === note.id && 'ring-2 ring-accent')} style={{ left: note.x, top: note.y, width: NOTE_W }}>
         {editing === note.id ? <textarea autoFocus defaultValue={note.text} onBlur={(event) => { remember(); setBoard((current) => ({ ...current, notes: current.notes.map((item) => item.id === note.id ? { ...item, text: event.target.value } : item) })); setEditing(null) }} onPointerDown={(event) => event.stopPropagation()} className="h-16 w-full resize-none bg-transparent text-[13px] leading-snug text-ink outline-none" /> : <p className="min-h-[1.5rem] whitespace-pre-wrap break-words text-[13px] leading-snug text-ink">{note.text || <span className="text-ink-3">{t('Double-click to edit…')}</span>}</p>}
         {selected === note.id && !connectMode && <button onPointerDown={(event) => { event.stopPropagation(); cycleTone(note.id) }} className="absolute -right-2 -top-2 size-5 rounded-full border border-line bg-surface shadow-panel" title={t('Change colour')}><span className={cn('m-auto block size-2.5 rounded-full', TONES[note.tone].split(' ')[0])} /></button>}

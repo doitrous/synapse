@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { AlertCircle, CheckCircle2, KeyRound, MessageSquareText, ShieldCheck } from 'lucide-react'
 import { AuthLayout } from './AuthLayout'
 import { Button } from '@/components/ui/Button'
@@ -13,8 +13,11 @@ type Enrollment = { factorId: string; qrCode: string; secret: string }
 
 export function MfaSetup() {
   const navigate = useNavigate()
+  const [params] = useSearchParams()
+  // Only an in-app path, for the same reason as on the sign-in form.
+  const nextParam = params.get('next')
+  const next = nextParam && nextParam.startsWith('/') && !nextParam.startsWith('//') ? nextParam : '/app'
   const [enrollment, setEnrollment] = useState<Enrollment | null>(null)
-  const [challengeId, setChallengeId] = useState('')
   const [code, setCode] = useState('')
   const [loading, setLoading] = useState(true)
   const [verifying, setVerifying] = useState(false)
@@ -39,15 +42,15 @@ export function MfaSetup() {
       }
       if (active) setEmailVerified(true)
       const { data: assurance } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel()
-      if (assurance?.currentLevel === 'aal2') { navigate('/app', { replace: true }); return }
+      if (assurance?.currentLevel === 'aal2') { navigate(next, { replace: true }); return }
       const { data: factors, error: factorsError } = await supabase.auth.mfa.listFactors()
       if (factorsError) { if (active) { setError(authErrorMessage(factorsError, 'Authenticator setup could not be opened. Sign in again and retry.')); setLoading(false) }; return }
       const existing = factors.totp.find((factor) => factor.status === 'verified')
       if (existing) {
-        const { data: challenge, error: challengeError } = await supabase.auth.mfa.challenge({ factorId: existing.id })
+        // No challenge is raised here. It is raised when the code is submitted,
+        // because one issued now would have expired by then.
         if (active) {
-          if (challengeError) setError(authErrorMessage(challengeError, 'A fresh authenticator challenge could not be created. Try again.'))
-          else { setEnrollment({ factorId: existing.id, qrCode: '', secret: '' }); setChallengeId(challenge.id) }
+          setEnrollment({ factorId: existing.id, qrCode: '', secret: '' })
           setLoading(false)
         }
         return
@@ -61,24 +64,24 @@ export function MfaSetup() {
     }
     void begin()
     return () => { active = false }
-  }, [navigate])
+  }, [navigate, next])
 
   async function verify(event: React.FormEvent) {
     event.preventDefault()
     if (!supabase || !enrollment) return
     setError('')
     setVerifying(true)
-    let currentChallenge = challengeId
-    if (!currentChallenge) {
-      const { data, error: challengeError } = await supabase.auth.mfa.challenge({ factorId: enrollment.factorId })
-      if (challengeError) { setError(authErrorMessage(challengeError, 'A fresh authenticator challenge could not be created. Try again.')); setVerifying(false); return }
-      currentChallenge = data.id
-      setChallengeId(data.id)
-    }
-    const { error: verifyError } = await supabase.auth.mfa.verify({ factorId: enrollment.factorId, challengeId: currentChallenge, code })
+    // A challenge is always created here, never reused from mount. Supabase
+    // expires a challenge a few minutes after it is issued, so the one made when
+    // the page loaded is usually dead by the time anyone has opened their
+    // authenticator and typed six digits. Reusing it failed every attempt with
+    // an error that blamed the code, so retyping the code could never help.
+    const { data, error: challengeError } = await supabase.auth.mfa.challenge({ factorId: enrollment.factorId })
+    if (challengeError) { setError(authErrorMessage(challengeError, 'A fresh authenticator challenge could not be created. Try again.')); setVerifying(false); return }
+    const { error: verifyError } = await supabase.auth.mfa.verify({ factorId: enrollment.factorId, challengeId: data.id, code })
     setVerifying(false)
     if (verifyError) return setError(authErrorMessage(verifyError, 'That code was not accepted. Wait for a fresh six-digit code and try again.'))
-    navigate('/app')
+    navigate(next)
   }
 
   return (

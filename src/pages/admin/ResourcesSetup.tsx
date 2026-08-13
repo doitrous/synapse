@@ -4,8 +4,7 @@ import { FolderOpen, ChevronRight, Network, GraduationCap } from 'lucide-react'
 import { ControlDashboard, type ContentScope } from './ControlDashboard'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
-import { scopeUniversities, scopeYear } from '@/data/universities'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, itemInScope, type ManagedContentItem } from '@/data/contentControl'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 
@@ -35,9 +34,7 @@ export function ResourcesSetup() {
    */
   const countsFor = useCallback((universityId?: string, year?: string) => {
     const inScope = resources.filter((item) => {
-      if (universityId && !scopeUniversities(item.id).includes(universityId)) return false
-      if (year && scopeYear(item.subjectId) !== year) return false
-      return true
+      return itemInScope(item, universityId, year)
     })
     return { total: inScope.length, review: inScope.filter((item) => item.status === 'In review').length }
   }, [resources])

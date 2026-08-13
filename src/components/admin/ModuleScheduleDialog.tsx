@@ -26,7 +26,7 @@ import {
   type ModuleScheduleBlock,
   type ModuleScheduleBlockType,
 } from '@/data/moduleSchedule'
-import { getSubject } from '@/data/student'
+import { getSubject } from '@/data/subjects'
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
 import { Field, SearchInput, Select, Textarea, TextInput } from '@/components/ui/Field'

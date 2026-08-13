@@ -203,6 +203,12 @@ ALTER TABLE students ADD COLUMN IF NOT EXISTS user_id VARCHAR(64) NULL;
 ALTER TABLE students ADD COLUMN IF NOT EXISTS notes TEXT NULL;
 ALTER TABLE students ADD INDEX IF NOT EXISTS idx_students_user (user_id);
 
+/* The cohort a student belongs to inside their year — "Cardiovascular block",
+   "Group B". Vouchers and notification campaigns have always offered group
+   targeting, but nothing stored a group, so every group-restricted rule failed
+   closed for everyone. This is where an admin now records it. */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS study_group VARCHAR(120) NULL;
+
 CREATE TABLE IF NOT EXISTS subscriptions (
   id           VARCHAR(64) PRIMARY KEY,
   student_id   VARCHAR(64) NOT NULL,
@@ -235,4 +241,71 @@ CREATE TABLE IF NOT EXISTS account_action_audit (
   created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   INDEX idx_account_audit_student (student_id, created_at),
   INDEX idx_account_audit_user (user_id, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Voucher redemptions.
+
+   The redemption count used to be a field inside the shared vouchers document,
+   incremented by a read-modify-write from the student's browser — a contended
+   counter edited by every client, and one the API refused to let a student
+   write at all. The primary key here is what actually makes "one redemption
+   per student" true rather than hoped-for. */
+CREATE TABLE IF NOT EXISTS voucher_redemptions (
+  voucher_id  VARCHAR(64) NOT NULL,
+  user_id     VARCHAR(64) NOT NULL,
+  code        VARCHAR(64) NOT NULL,
+  redeemed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  -- Set when a student removes the voucher, so the seat returns to the pool
+  -- without losing the record that it was once taken.
+  released_at DATETIME NULL,
+  PRIMARY KEY (voucher_id, user_id),
+  INDEX idx_voucher_redemptions_user (user_id, redeemed_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* ── Study Together ──────────────────────────────────────────────────────
+   A shared test: one student picks a set of published questions, others join
+   by code, everyone answers the same set at their own pace, and results open
+   once they have finished.
+
+   The question set is frozen into `question_ids` at creation. If it were
+   resolved live, an admin publishing or archiving a question mid-session would
+   change what people were answering — and the results would compare scores
+   over different papers. */
+CREATE TABLE IF NOT EXISTS study_rooms (
+  id                   VARCHAR(64) PRIMARY KEY,
+  code                 VARCHAR(12) NOT NULL UNIQUE,
+  name                 VARCHAR(255) NOT NULL,
+  host_user_id         VARCHAR(64) NOT NULL,
+  question_ids         LONGTEXT NOT NULL,
+  timed                TINYINT(1) NOT NULL DEFAULT 1,
+  seconds_per_question INT NULL,
+  status               ENUM('lobby','running','closed') NOT NULL DEFAULT 'lobby',
+  started_at           DATETIME NULL,
+  closed_at            DATETIME NULL,
+  created_at           TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_study_rooms_host (host_user_id, created_at),
+  INDEX idx_study_rooms_open (status, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_room_members (
+  room_id      VARCHAR(64) NOT NULL,
+  user_id      VARCHAR(64) NOT NULL,
+  display_name VARCHAR(255),
+  joined_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  finished_at  DATETIME NULL,
+  PRIMARY KEY (room_id, user_id),
+  INDEX idx_study_room_members_user (user_id, joined_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Correctness is decided by the server against the published question, never
+   taken from the client — a score other people see must not be self-reported. */
+CREATE TABLE IF NOT EXISTS study_room_answers (
+  room_id      VARCHAR(64) NOT NULL,
+  user_id      VARCHAR(64) NOT NULL,
+  question_id  VARCHAR(96) NOT NULL,
+  chosen_index INT NOT NULL,
+  correct      TINYINT(1) NOT NULL,
+  seconds      INT NULL,
+  answered_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (room_id, user_id, question_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
