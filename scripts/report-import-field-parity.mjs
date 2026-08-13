@@ -67,7 +67,7 @@ const ARTICLE_MAP = {
   highYield: 'high_yield', timeSensitive: 'time_sensitive', publicationGate: 'publication_gate',
   evidenceBasis: 'evidence_basis', articleLevelSourceIds: 'article_source_ids', claimIds: 'claim_ids',
   spanIds: 'span_ids', conflicts: 'conflicts', evidenceGaps: 'evidence_gaps',
-  relatedArticleIds: 'related_articles', media: 'media', imageRecommendations: 'image_recommendations',
+  relatedArticleIds: 'related_articles', media: 'media', mediaRequests: 'media_recommendations',
   calloutEvidence: 'callout_evidence', notes: 'notes',
 }
 
@@ -75,7 +75,7 @@ const QUESTION_MAP = {
   attachments: 'attachments', correctAnswer: 'correct_answer', answers: 'answer_a', attachedImage: 'attached_image',
   libraryIds: 'library_ids', resourceIds: 'resource_ids', tags: 'topic', learningObjective: 'learning_objective',
   authorNotes: 'author_notes', sourceCitation: 'source_citation', estimatedSeconds: 'estimated_seconds',
-  randomiseAnswers: 'randomise_answers',
+  randomiseAnswers: 'randomise_answers', mediaRequests: 'media_recommendations',
 }
 
 const QUESTION_TAGS_MAP = {
@@ -150,18 +150,25 @@ const LAB_QUESTION_MAP = {
   secondaryConceptIds: 'lab_questions', difficulty: 'lab_questions',
 }
 
-const PRACTICAL_MEDIA_MAP = {
-  id: 'media_needed', kind: 'media_needed', target: 'media_needed', brief: 'media_needed',
-  teachingPurpose: 'media_needed', priority: 'media_needed', status: 'media_needed',
-  sourceDirection: 'media_needed', rightsNotes: 'media_needed', notes: 'media_needed',
-}
-
-const IMAGE_MAP = {
-  id: 'image_recommendations', articleId: 'image_recommendations', kind: 'image_recommendations',
-  brief: 'image_recommendations', teachingPurpose: 'image_recommendations', section: 'image_recommendations',
-  block: 'image_recommendations', anchorQuote: 'image_recommendations', priority: 'image_recommendations',
-  status: 'image_recommendations', notes: 'image_recommendations', sourceDirection: 'image_recommendations',
-  rightsNotes: 'image_recommendations', mediaId: 'image_recommendations',
+/**
+ * `MediaRequest` is one interface reached from three content types, so it is
+ * asserted once per owner against that owner's key set. Every schema carries
+ * `media_recommendations`; the article `image_recommendations` and practical
+ * `media_needed` columns are legacy aliases still read by the parser, and are
+ * not asserted separately because they populate the same fields.
+ *
+ * `ownerId` and `ownerKind` are set from the record the block appears under, not
+ * from a column of their own — an author writing a request inside an article has
+ * already said which article it belongs to.
+ */
+const MEDIA_REQUEST_MAP = {
+  id: 'media_recommendations', ownerId: null, ownerKind: null,
+  medium: 'media_recommendations', kind: 'media_recommendations', brief: 'media_recommendations',
+  teachingPurpose: 'media_recommendations', section: 'media_recommendations',
+  block: 'media_recommendations', anchorQuote: 'media_recommendations',
+  priority: 'media_recommendations', status: 'media_recommendations',
+  notes: 'media_recommendations', sourceDirection: 'media_recommendations',
+  rightsNotes: 'media_recommendations', mediaId: 'media_recommendations',
 }
 
 const RESOURCE_MAP = {
@@ -218,6 +225,9 @@ function assess(modelName, modelFields, map, importKeys, prefix = modelName) {
   })
 }
 
+/** Read once, asserted three times — see `MEDIA_REQUEST_MAP`. */
+const mediaRequestFields = await interfaceFields('src/data/contentControl.ts', 'MediaRequest')
+
 const articleKeys = keysOf(IMPORT_SCHEMAS.article.fields)
 const questionKeys = keysOf(IMPORT_SCHEMAS.question.fields)
 const practicalKeys = keysOf(IMPORT_SCHEMAS.practical.fields)
@@ -265,10 +275,10 @@ groups.push({
   fields: assess('ConceptAnnotation', await interfaceFields('src/data/conceptGraph.ts', 'ConceptAnnotation'), ANNOTATION_MAP, articleKeys),
 })
 groups.push({
-  contentType: 'Library article · image recommendation',
-  model: 'ImageRecommendation',
+  contentType: 'Library article · media request',
+  model: 'MediaRequest',
   importFields: articleKeys.size,
-  fields: assess('ImageRecommendation', await interfaceFields('src/data/contentControl.ts', 'ImageRecommendation'), IMAGE_MAP, articleKeys),
+  fields: assess('MediaRequest', mediaRequestFields, MEDIA_REQUEST_MAP, articleKeys),
 })
 groups.push({
   contentType: 'Concept',
@@ -293,6 +303,12 @@ groups.push({
   model: 'QuestionTags',
   importFields: questionKeys.size,
   fields: assess('QuestionTags', await interfaceFields('src/data/contentControl.ts', 'QuestionTags'), QUESTION_TAGS_MAP, questionKeys),
+})
+groups.push({
+  contentType: 'Question · media request',
+  model: 'MediaRequest',
+  importFields: questionKeys.size,
+  fields: assess('MediaRequest', mediaRequestFields, MEDIA_REQUEST_MAP, questionKeys),
 })
 groups.push({
   contentType: 'Practical · OSCE and checklist',
@@ -326,9 +342,9 @@ groups.push({
 })
 groups.push({
   contentType: 'Practical · media request',
-  model: 'PracticalMediaRequest',
+  model: 'MediaRequest',
   importFields: practicalKeys.size,
-  fields: assess('PracticalMediaRequest', await interfaceFields('src/data/contentControl.ts', 'PracticalMediaRequest'), PRACTICAL_MEDIA_MAP, practicalKeys),
+  fields: assess('MediaRequest', mediaRequestFields, MEDIA_REQUEST_MAP, practicalKeys),
 })
 groups.push({
   contentType: 'Resource',

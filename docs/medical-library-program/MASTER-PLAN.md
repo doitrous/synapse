@@ -22,11 +22,11 @@ starts here and ends here. Nothing below depends on any chat transcript.
 | **Overall status** | Phases 0 and 1 complete. Phase 2 in progress — `SYS-FND` and `SYS-DEV` both **complete** (56/56 and 33/33 article homes). 87 articles, 98 concepts, 137 relations, 184 claims, 234 citations authored and committed. Every batch validates, simulates against a copy of live state, and audits clean. Nothing imported yet |
 | **Active phase** | Phase 2 — article & concept programme |
 | **Active system** | `SYS-CVS` Cardiovascular System (system 3 of 19) |
-| **Active task ID** | `SYS-CVS-CONCEPT-001` (Not started). A practical bank and two question banks already exist for `SYS-CVS-T01`, authored separately; the article programme for the system has not begun |
+| **Active task ID** | `SYS-CVS-CONCEPT-001` — **the CVS library is complete.** T01 was already authored; T02–T09 were authored 2026-08-13 (128 concepts, 58 articles), so all nine topics now have articles. A practical bank and a T01 question bank also exist, authored separately |
 | **Last verified commit** | `cf20f9d` — 133/133 tests, lint clean, simulation 0 errors, audit 0 errors |
 | **Branch** | `authoring-contract-and-taxonomy-dedup` |
 | **Worktree** | `TAX-COMPARE-001` outputs, uncommitted. No unrelated user change was touched |
-| **Last update** | 2026-08-12 (SYS-FND topics T01–T04 complete, 29 of 56 articles authored; SYS-CVS practical bank authored — 46 items, 140 questions, all 98 T01 concepts) |
+| **Last update** | 2026-08-13 (SYS-CVS library complete — T02–T09 authored, 128 concepts and 58 articles; import field parity restored to 0 gaps after the `MediaRequest` rename) |
 
 ### Gate status
 
@@ -179,7 +179,7 @@ systems while its canonical home is a discipline root.
 |---:|---|---|---|---:|---:|---:|---:|---|---|
 | 1 | `SYS-FND` Foundations & General Principles | [plan](systems/SYS-FND.md) | **Authored — 56/56 homes** | 74 | 18 | 56 | 50 | 5 / 45 | `GATE-SYS-FND` |
 | 2 | `SYS-DEV` Human Development & Life Stages | [plan](systems/SYS-DEV.md) | **Authored — 33/33 homes** | 45 | 12 | 33 | 20 | 9 / 111 | `SYS-DEV-CONCEPT-001` |
-| 3 | `SYS-CVS` Cardiovascular System | [plan](systems/SYS-CVS.md) | Inventory + source plan done · **practical bank authored for T01** | 93 | 27 | 66 | 39 | 10 / 98 | `SYS-CVS-CONCEPT-001` |
+| 3 | `SYS-CVS` Cardiovascular System | [plan](systems/SYS-CVS.md) | **Library authored, all 9 topics** — T01 pilot + T02–T09 (2026-08-13) · practical bank + T01 question bank authored · none imported | 93 | 27 | 66 | 39 | 10 / 98 | `SYS-CVS-CONCEPT-001` |
 | 4 | `SYS-RES` Respiratory System | [plan](systems/SYS-RES.md) | Inventory + source plan done | 82 | 24 | 58 | 44 | 9 / 112 | `SYS-RES-CONCEPT-001` |
 | 5 | `SYS-REN` Renal & Urinary System | [plan](systems/SYS-REN.md) | Inventory + source plan done | 81 | 21 | 60 | 38 | 10 / 119 | `SYS-REN-CONCEPT-001` |
 | 6 | `SYS-GIT` Gastrointestinal, Hepatobiliary & Pancreatic | [plan](systems/SYS-GIT.md) | Inventory + source plan done | 108 | 27 | 81 | 61 | 10 / 126 | `SYS-GIT-CONCEPT-001` |
@@ -283,15 +283,31 @@ Measured 2026-08-12, after Phase 0.
 
 | Content type | Model | Model fields | Import columns | Importable | Gaps | Not applicable |
 |---|---|---:|---:|---:|---:|---:|
-| Library article | `ArticleAuthoringData` | 45 | 52 | 45 | 0 | 0 |
-| — statement annotation | `ConceptAnnotation` | 5 | 52 | 5 | 0 | 0 |
-| — image recommendation | `ImageRecommendation` | 14 | 52 | 14 | 0 | 0 |
+| Library article | `ArticleAuthoringData` | 45 | 53 | 45 | 0 | 0 |
+| — statement annotation | `ConceptAnnotation` | 5 | 53 | 5 | 0 | 0 |
+| — media request | `MediaRequest` | 16 | 53 | 14 | 0 | 2 |
 | Concept | `Concept` | 54 | 52 | 54 | 0 | 0 |
 | Concept relation | `ConceptRelation` | 11 | 11 | 11 | 0 | 0 |
-| Question | `QuestionAuthoringData` | 12 | 49 | 12 | 0 | 0 |
-| — tags | `QuestionTags` | 21 | 49 | 21 | 0 | 0 |
+| Question | `QuestionAuthoringData` | 13 | 50 | 13 | 0 | 0 |
+| — tags | `QuestionTags` | 21 | 50 | 21 | 0 | 0 |
+| — media request | `MediaRequest` | 16 | 50 | 14 | 0 | 2 |
+| Practical · OSCE and checklist | `OsceAuthoringData` | 11 | 25 | 11 | 0 | 0 |
+| Practical · clinical case | `CaseAuthoringData` | 7 | 25 | 7 | 0 | 0 |
+| Practical · case decision | `ClinicalDecisionDraft` | 9 | 25 | 9 | 0 | 0 |
+| Practical · interpretation set | `LabAuthoringData` | 7 | 25 | 7 | 0 | 0 |
+| Practical · interpretation question | `LabQuestionDraft` | 9 | 25 | 9 | 0 | 0 |
+| — media request | `MediaRequest` | 16 | 25 | 14 | 0 | 2 |
 | Resource | `ResourceAuthoringData` | 15 | 18 | 8 | 0 | 7 |
+| Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
+| Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |
+| Evidence · citation | `CitationLink` | 9 | 12 | 9 | 0 | 0 |
+| Evidence · article span | `ArticleSpan` | 8 | 7 | 7 | 0 | 1 |
 | Subjects & Topics | `CurriculumSystem` tree | 23 | 14 | 23 | 0 | 0 |
+
+`MediaRequest` is one interface reached from three content types, so it is
+asserted once per owner. Its two `n/a` fields are `ownerId` and `ownerKind`,
+which come from the record the block is written under rather than from a column
+of their own.
 
 The seven `n/a` resource fields are set by the ingest, rights, review and publish
 pipelines. An import column for `sha256` or `storageKey` would be a way to forge
@@ -447,6 +463,9 @@ Append-only. Never edit or delete an entry; supersede it with a new one.
 | 2026-08-13 | `DEC-025` | One `MediaRequest` type replaces `ImageRecommendation` (articles) and `PracticalMediaRequest` (practicals), and serves questions too. It carries two separate axes — `medium` (`image`/`audio`/`video`) and `kind` (the genre of an image) — plus `ownerId` and `ownerKind` | Three names for one editorial instruction, and three backlogs to work through, for a job that is identical whichever surface is waiting. An earlier design folded audio and video into the genre list, which made "a histology field" and "a heart-sound recording" look like alternatives on one axis | `src/data/contentControl.ts`, `src/data/bulkImport.ts`, `src/pages/admin/MediaRequests.tsx`, all three authoring templates |
 | 2026-08-13 | `DEC-026` | Import key canonicalised to `media_recommendations` on all three content types. `image_recommendations` (articles) and `media_needed` (practicals) stay readable | Sixteen authored batch files use the old keys; breaking them to tidy a name would be the more expensive mistake | `src/data/bulkImport.ts`, `docs/authoring/*.md` |
 | 2026-08-13 | `DEC-027` | Validated, ready-to-import batches live in `docs/import-ready/` with an `INDEX.md`, and are moved there out of `docs/medical-library-program/batches/` rather than copied | The user applies imports by hand through the site. One known folder, and one home per file — a batch duplicated in two places is a batch that will be imported twice or edited in the wrong copy | `docs/import-ready/`, reporting convention |
+| 2026-08-13 | `DEC-028` | `DEC-027` is **narrowed to two folders, split by content type**: `docs/import-ready/` holds practicals, `docs/questions-import-ready/` holds questions and library articles. Each keeps its own `INDEX.md` and each links to the other | Two agents authoring into one folder were overwriting one another's `INDEX.md`. The hazard `DEC-027` guards against is the *same file* living in two places, and that still holds — no file appears in both folders. Splitting by content type also matches the import screens, which are already separate | `docs/import-ready/INDEX.md`, `docs/questions-import-ready/INDEX.md` |
+| 2026-08-13 | `DEC-029` | An article template's required sections are satisfied by **rewriting content to fit the contract**, never by renaming headings to match it | `TPL-INVESTIGATION` requires a `Normal findings` section that condition-shaped drafting does not produce. A heading remap made the validator pass while leaving clinical-use prose under a "Normal findings" label — a green check on content that had become actively misleading. The validator proves headings exist; only the author can prove they describe what follows | `articleTemplates.ts` consumers, all future `TPL-INVESTIGATION` authoring |
+| 2026-08-13 | `DEC-030` | The batch validator's silence about an **absent optional field** is not evidence the field was considered. Cross-record field-presence comparison within a file is part of finishing a batch | One T03 concept was authored without `publication_status`. The importer maps it to `undefined` rather than to a default, so the concept would have imported with no evidence gate at all, and nothing in the validator, the audit or the simulation would have said so. It was found by counting which fields the other 13 records in the same file carried | `scripts/validate-content-batch.mjs`, authoring checklists |
 
 ---
 
@@ -567,6 +586,8 @@ Three findings worth carrying forward:
 | 2026-08-12 | `SYS-CVS-PRACTICAL-001..009` | **First practical bank in the programme.** 46 items — 10 OSCE stations, 8 skills checklists, 12 clinical cases, 16 interpretation sets — carrying 140 questions and 214 mark-scheme items, covering all 98 concepts of the cardiovascular pilot (`SYS-CVS-T01`). Extended the practical contract first: per-option `Why:`, per-question `Concept:` and `Difficulty:`, item-level concept tagging, and `media_needed` so an unfulfilled asset is flagged without writing a URL the runner would try to load. 58 media requests raised, none embedded. `T02`–`T09` deliberately untouched — no articles or concepts exist to test. | uncommitted | 9 batches validate clean · `medical:simulate` applies 46 of 46, 0 rejected · difficulty exactly 25/55/15/5 · 133/133 tests · parity 0 gaps · audit 0 errors · typecheck, lint, build clean · imported and run in the app: per-option explanations and difficulty badges render, media-flagged items show no broken image | `docs/import-ready/SYS-CVS-PRACTICAL-00{1..9}.md`, `src/data/contentControl.ts`, `src/data/bulkImport.ts`, `src/lib/useLivePracticals.ts`, `src/components/practical/PracticalRunner.tsx`, `src/components/admin/PracticalEditorDialog.tsx`, `scripts/validate-content-batch.mjs`, `docs/authoring/practical.md` | `SYS-FND-CONCEPT-007` (T05 general microbiology) |
 | 2026-08-13 | `SYS-CVS-PRACTICAL-010..014` | **Depth pass on the practical bank.** Counting the `Concept:` line on every question showed 5 concepts no question actually taught and 54 resting on a single one. 19 items and 85 questions close that: every one of the 98 `SYS-CVS-T01` concepts is now taught by at least two questions (73 by two, 22 by three, 3 by four or five). Media requests across all 14 files reclassified onto the new medium-and-kind axes, so 85 pending assets arrive by genre rather than as "other". All practical and question files consolidated into `docs/import-ready/`. | uncommitted | 14 batches validate clean · `medical:simulate` applies 19 of 19, 0 rejected · difficulty 25/55/15/5 across all 225 questions · 151/151 tests · typecheck clean | `docs/import-ready/SYS-CVS-PRACTICAL-0{01..14}.md`, `docs/import-ready/INDEX.md` | `SYS-FND-CONCEPT-007` (T05 general microbiology) |
 
+| 2026-08-13 | `SYS-CVS-CONCEPT-T02..T09` + `ARTICLE-T02..T09` | **The cardiovascular library is complete.** 128 concepts and 58 articles across the eight clinical topics — presentations, ischaemic heart disease, heart failure and cardiomyopathy, rhythm and conduction, valvular and pericardial disease, hypertension and vascular disease, congenital and inflammatory disease, and investigations and procedures. Three templates in one system: `TPL-PRESENTATION` for T02, `TPL-INVESTIGATION` for T09, `TPL-CONDITION` for the rest. No dose, rate, energy or drug schedule appears anywhere in the 58 articles; each names the decision and defers the number to the guideline in force. Egyptian context is written only where it changes the answer — rheumatic heart disease in T08 is the case that carries the system. 70 media requests raised, none embedded. Two process findings recorded as `DEC-029` and `DEC-030`: a heading remap that satisfied `TPL-INVESTIGATION` while leaving content under labels that no longer described it, and a concept that imported without `publication_status` because the validator does not check for absent optional fields. | committed `f1da686` | 16 batches validate clean, 0 errors · 151/151 tests · typecheck clean · parity 0 gaps · every article satisfies the required sections for **its own** template | `docs/questions-import-ready/SYS-CVS-{CONCEPT,ARTICLE}-T0{2..9}.md`, `docs/questions-import-ready/INDEX.md`, `systems/SYS-CVS.md` §13 | Extend the question bank into T02–T09 |
+| 2026-08-13 | `PLAT-PARITY-FIX` | Restored `medical:parity`, which had been **failing to run at all** since the `MediaRequest` rename: it read `ImageRecommendation` and `PracticalMediaRequest` out of `contentControl.ts` by name and threw when neither existed. Both groups collapse into one `MediaRequest` asserted once per owner, and the question owner gains the parity group it never had. Two real gaps surfaced once the script ran again — `ArticleAuthoringData.mediaRequests` and `QuestionAuthoringData.mediaRequests` were both unmapped, so the report would have called them missing. | uncommitted | `medical:parity` exits 0 with **gapCount 0** across 20 groups · 151/151 tests · typecheck clean | `scripts/report-import-field-parity.mjs` | — |
 | 2026-08-12 | `SYS-DEV-CONCEPT-001` + `ARTICLE-001` | Nutrition and the older-adult half of adult health: 11 articles, 11 concepts, 23 claims, 23 citations. Malnutrition in the full WHO sense (deficiency, excess and imbalance), undernutrition, micronutrient deficiency, nutrient excess, requirements, enteral and parenteral feeding, normal ageing, frailty, falls, polypharmacy. **10 of SYS-DEV's 33 article homes.** | committed | 66 batches validate clean · `medical:simulate` 0 errors · audit on the simulated state **0 errors** · 133/133 tests · lint clean | `batches/SYS-DEV-*`, `scripts/check-node-source-sense.mjs`, `scripts/build-corpus-concept-index.mjs` | `SYS-DEV-CONCEPT-002` (child and adolescent health) |
 
 | 2026-08-12 | `SYS-DEV-CONCEPT-002..004` + `ARTICLE-002..005` | Child and adolescent health, the function and participation cluster, the well-patient topic, and the last four nodes — lifestyle, risk assessment, family history and school health. **`SYS-DEV` is complete: 33 of 33 article homes, 23 articles, 34 concepts, 36 relations.** | committed | all batches validate clean · `medical:simulate` 0 errors · audit on the simulated state **0 errors** · 151/151 tests · lint clean | `batches/SYS-DEV-*` | `SYS-CVS-CONCEPT-001` |

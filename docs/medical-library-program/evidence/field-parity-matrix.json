@@ -5,7 +5,7 @@
       "contentType": "Library article",
       "model": "ArticleAuthoringData",
       "modelFields": 45,
-      "importFields": 52,
+      "importFields": 53,
       "ok": 45,
       "missing": 0,
       "notApplicable": 0
@@ -14,19 +14,19 @@
       "contentType": "Library article · statement annotation",
       "model": "ConceptAnnotation",
       "modelFields": 5,
-      "importFields": 52,
+      "importFields": 53,
       "ok": 5,
       "missing": 0,
       "notApplicable": 0
     },
     {
-      "contentType": "Library article · image recommendation",
-      "model": "ImageRecommendation",
-      "modelFields": 14,
-      "importFields": 52,
+      "contentType": "Library article · media request",
+      "model": "MediaRequest",
+      "modelFields": 16,
+      "importFields": 53,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 0
+      "notApplicable": 2
     },
     {
       "contentType": "Concept",
@@ -49,9 +49,9 @@
     {
       "contentType": "Question",
       "model": "QuestionAuthoringData",
-      "modelFields": 12,
-      "importFields": 49,
-      "ok": 12,
+      "modelFields": 13,
+      "importFields": 50,
+      "ok": 13,
       "missing": 0,
       "notApplicable": 0
     },
@@ -59,16 +59,25 @@
       "contentType": "Question · tags",
       "model": "QuestionTags",
       "modelFields": 21,
-      "importFields": 49,
+      "importFields": 50,
       "ok": 21,
       "missing": 0,
       "notApplicable": 0
     },
     {
+      "contentType": "Question · media request",
+      "model": "MediaRequest",
+      "modelFields": 16,
+      "importFields": 50,
+      "ok": 14,
+      "missing": 0,
+      "notApplicable": 2
+    },
+    {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
       "modelFields": 11,
-      "importFields": 24,
+      "importFields": 25,
       "ok": 11,
       "missing": 0,
       "notApplicable": 0
@@ -77,7 +86,7 @@
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
       "modelFields": 7,
-      "importFields": 24,
+      "importFields": 25,
       "ok": 7,
       "missing": 0,
       "notApplicable": 0
@@ -86,7 +95,7 @@
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
       "modelFields": 9,
-      "importFields": 24,
+      "importFields": 25,
       "ok": 9,
       "missing": 0,
       "notApplicable": 0
@@ -95,7 +104,7 @@
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
       "modelFields": 7,
-      "importFields": 24,
+      "importFields": 25,
       "ok": 7,
       "missing": 0,
       "notApplicable": 0
@@ -104,19 +113,19 @@
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
       "modelFields": 9,
-      "importFields": 24,
+      "importFields": 25,
       "ok": 9,
       "missing": 0,
       "notApplicable": 0
     },
     {
       "contentType": "Practical · media request",
-      "model": "PracticalMediaRequest",
-      "modelFields": 10,
-      "importFields": 24,
-      "ok": 10,
+      "model": "MediaRequest",
+      "modelFields": 16,
+      "importFields": 25,
+      "ok": 14,
       "missing": 0,
-      "notApplicable": 0
+      "notApplicable": 2
     },
     {
       "contentType": "Resource",
@@ -178,7 +187,7 @@
     {
       "contentType": "Library article",
       "model": "ArticleAuthoringData",
-      "importFields": 52,
+      "importFields": 53,
       "fields": [
         {
           "field": "arabicTitle",
@@ -433,8 +442,8 @@
           "reason": ""
         },
         {
-          "field": "imageRecommendations",
-          "column": "image_recommendations",
+          "field": "mediaRequests",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
@@ -455,7 +464,7 @@
     {
       "contentType": "Library article · statement annotation",
       "model": "ConceptAnnotation",
-      "importFields": 52,
+      "importFields": 53,
       "fields": [
         {
           "field": "id",
@@ -490,91 +499,103 @@
       ]
     },
     {
-      "contentType": "Library article · image recommendation",
-      "model": "ImageRecommendation",
-      "importFields": 52,
+      "contentType": "Library article · media request",
+      "model": "MediaRequest",
+      "importFields": 53,
       "fields": [
         {
           "field": "id",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
-          "field": "articleId",
-          "column": "image_recommendations",
+          "field": "ownerId",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "ownerKind",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "medium",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "kind",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "brief",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "teachingPurpose",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "section",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "block",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "anchorQuote",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "priority",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "status",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "notes",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "sourceDirection",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "rightsNotes",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "mediaId",
-          "column": "image_recommendations",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         }
@@ -987,7 +1008,7 @@
     {
       "contentType": "Question",
       "model": "QuestionAuthoringData",
-      "importFields": 49,
+      "importFields": 50,
       "fields": [
         {
           "field": "attachments",
@@ -1032,6 +1053,12 @@
           "reason": ""
         },
         {
+          "field": "mediaRequests",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "learningObjective",
           "column": "learning_objective",
           "state": "ok",
@@ -1066,7 +1093,7 @@
     {
       "contentType": "Question · tags",
       "model": "QuestionTags",
-      "importFields": 49,
+      "importFields": 50,
       "fields": [
         {
           "field": "module",
@@ -1197,9 +1224,112 @@
       ]
     },
     {
+      "contentType": "Question · media request",
+      "model": "MediaRequest",
+      "importFields": 50,
+      "fields": [
+        {
+          "field": "id",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "ownerId",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "ownerKind",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "medium",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "kind",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "brief",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "teachingPurpose",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "section",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "block",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "anchorQuote",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "priority",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "status",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "notes",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sourceDirection",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rightsNotes",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaId",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
-      "importFields": 24,
+      "importFields": 25,
       "fields": [
         {
           "field": "format",
@@ -1272,7 +1402,7 @@
     {
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
-      "importFields": 24,
+      "importFields": 25,
       "fields": [
         {
           "field": "format",
@@ -1321,7 +1451,7 @@
     {
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
-      "importFields": 24,
+      "importFields": 25,
       "fields": [
         {
           "field": "id",
@@ -1382,7 +1512,7 @@
     {
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
-      "importFields": 24,
+      "importFields": 25,
       "fields": [
         {
           "field": "format",
@@ -1431,7 +1561,7 @@
     {
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
-      "importFields": 24,
+      "importFields": 25,
       "fields": [
         {
           "field": "id",
@@ -1491,66 +1621,102 @@
     },
     {
       "contentType": "Practical · media request",
-      "model": "PracticalMediaRequest",
-      "importFields": 24,
+      "model": "MediaRequest",
+      "importFields": 25,
       "fields": [
         {
           "field": "id",
-          "column": "media_needed",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "ownerId",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "ownerKind",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "medium",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "kind",
-          "column": "media_needed",
-          "state": "ok",
-          "reason": ""
-        },
-        {
-          "field": "target",
-          "column": "media_needed",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "brief",
-          "column": "media_needed",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "teachingPurpose",
-          "column": "media_needed",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "section",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "block",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "anchorQuote",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "priority",
-          "column": "media_needed",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "status",
-          "column": "media_needed",
-          "state": "ok",
-          "reason": ""
-        },
-        {
-          "field": "sourceDirection",
-          "column": "media_needed",
-          "state": "ok",
-          "reason": ""
-        },
-        {
-          "field": "rightsNotes",
-          "column": "media_needed",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         },
         {
           "field": "notes",
-          "column": "media_needed",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "sourceDirection",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rightsNotes",
+          "column": "media_recommendations",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaId",
+          "column": "media_recommendations",
           "state": "ok",
           "reason": ""
         }

@@ -6,19 +6,20 @@ drift when a field is added.
 
 | Content type | Model | Model fields | Import columns | Importable | Gaps | Not applicable |
 |---|---|---:|---:|---:|---:|---:|
-| Library article | `ArticleAuthoringData` | 45 | 52 | 45 | 0 | 0 |
-| Library article · statement annotation | `ConceptAnnotation` | 5 | 52 | 5 | 0 | 0 |
-| Library article · image recommendation | `ImageRecommendation` | 14 | 52 | 14 | 0 | 0 |
+| Library article | `ArticleAuthoringData` | 45 | 53 | 45 | 0 | 0 |
+| Library article · statement annotation | `ConceptAnnotation` | 5 | 53 | 5 | 0 | 0 |
+| Library article · media request | `MediaRequest` | 16 | 53 | 14 | 0 | 2 |
 | Concept | `Concept` | 54 | 52 | 54 | 0 | 0 |
 | Concept relation | `ConceptRelation` | 11 | 11 | 11 | 0 | 0 |
-| Question | `QuestionAuthoringData` | 12 | 49 | 12 | 0 | 0 |
-| Question · tags | `QuestionTags` | 21 | 49 | 21 | 0 | 0 |
-| Practical · OSCE and checklist | `OsceAuthoringData` | 11 | 24 | 11 | 0 | 0 |
-| Practical · clinical case | `CaseAuthoringData` | 7 | 24 | 7 | 0 | 0 |
-| Practical · case decision | `ClinicalDecisionDraft` | 9 | 24 | 9 | 0 | 0 |
-| Practical · interpretation set | `LabAuthoringData` | 7 | 24 | 7 | 0 | 0 |
-| Practical · interpretation question | `LabQuestionDraft` | 9 | 24 | 9 | 0 | 0 |
-| Practical · media request | `PracticalMediaRequest` | 10 | 24 | 10 | 0 | 0 |
+| Question | `QuestionAuthoringData` | 13 | 50 | 13 | 0 | 0 |
+| Question · tags | `QuestionTags` | 21 | 50 | 21 | 0 | 0 |
+| Question · media request | `MediaRequest` | 16 | 50 | 14 | 0 | 2 |
+| Practical · OSCE and checklist | `OsceAuthoringData` | 11 | 25 | 11 | 0 | 0 |
+| Practical · clinical case | `CaseAuthoringData` | 7 | 25 | 7 | 0 | 0 |
+| Practical · case decision | `ClinicalDecisionDraft` | 9 | 25 | 9 | 0 | 0 |
+| Practical · interpretation set | `LabAuthoringData` | 7 | 25 | 7 | 0 | 0 |
+| Practical · interpretation question | `LabQuestionDraft` | 9 | 25 | 9 | 0 | 0 |
+| Practical · media request | `MediaRequest` | 16 | 25 | 14 | 0 | 2 |
 | Resource | `ResourceAuthoringData` | 15 | 18 | 8 | 0 | 7 |
 | Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
 | Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |

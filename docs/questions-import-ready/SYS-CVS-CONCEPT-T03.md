@@ -592,6 +592,10 @@ Dr Omar
 Dr Omar
 ## final_publisher
 Dr Omar
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
 ## primary_node_id
 SYS-CVS-T03-S02-M03
 ## secondary_node_ids

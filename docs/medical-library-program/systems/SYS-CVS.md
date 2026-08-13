@@ -469,18 +469,52 @@ waiting to be applied by hand through **Admin → Questions Setup → Bulk impor
 Difficulty: Easy 55 (25%) · Moderate 119 (54%) · Hard 34 (16%) · Challenging 11
 (5%). All 98 concepts of the pilot are the main concept of at least one question.
 
-**Coverage stops at T01 because the library does.** `SYS-CVS-T02`–`T09` have no
-articles and no concepts, so no question may test them. Ischaemic heart disease,
-heart failure, arrhythmia, valve disease, hypertension, congenital disease and
-the investigation topics are all unwritten. Authoring their articles is the
-prerequisite for extending the bank, and it is the largest remaining piece of
-cardiovascular work.
+**Coverage stopped at T01 because the library did.** That is no longer the
+constraint: `SYS-CVS-T02`–`T09` were authored on 2026-08-13 and are described
+below. Extending the question bank into the clinical topics is now unblocked, and
+is the largest remaining piece of cardiovascular work.
 
 **Two open dependencies.** 39 questions carry a `required` media request and
 cannot publish until the asset exists — they are in the backlog at Library Setup
 → Media requests. 171 target concepts that have not passed the evidence gate;
 each says so in `author_notes` so the concept and the question can be promoted
 together.
+
+### Library articles, T02–T09 — 128 concepts, 58 articles
+
+Authored 2026-08-13, completing the cardiovascular library. Files are in
+[`docs/questions-import-ready/`](../../questions-import-ready/INDEX.md) as
+`SYS-CVS-CONCEPT-T02..T09` and `SYS-CVS-ARTICLE-T02..T09`, validated and waiting
+to be applied by hand.
+
+| Topic | | Concepts | Articles | Template |
+|---|---|---:|---:|---|
+| T02 | Cardiovascular presentations | 11 | 5 | `TPL-PRESENTATION` |
+| T03 | Ischaemic heart disease | 14 | 6 | `TPL-CONDITION` |
+| T04 | Heart failure and cardiomyopathy | 18 | 8 | `TPL-CONDITION` |
+| T05 | Rhythm and conduction | 16 | 7 | `TPL-CONDITION` |
+| T06 | Valvular and pericardial disease | 18 | 8 | `TPL-CONDITION` |
+| T07 | Hypertension and vascular disease | 19 | 8 | `TPL-CONDITION` |
+| T08 | Congenital and inflammatory disease | 16 | 8 | `TPL-CONDITION` |
+| T09 | Investigations and procedures | 16 | 8 | `TPL-INVESTIGATION` |
+| | **Total** | **128** | **58** | |
+
+Concepts land `needs_evidence` / `under review`; articles land `faculty_review`
+(54) or `needs_evidence` (4). 70 media requests accompany them.
+
+**No dose, rate, energy or drug schedule appears in any of these articles**, per
+LD-08 and `DEC-024`. Each names the decision and the reason for it and defers the
+number to the guideline in force.
+
+Two things this authoring run established that are worth carrying to other
+systems. First, `TPL-INVESTIGATION` requires a **Normal findings** section that
+condition-shaped drafting does not produce, and the validator is what caught it —
+renaming headings to satisfy the check would have left content under labels that
+did not describe it, so T09's sections were rewritten instead. Second, one T03
+concept imported without `publication_status`, which the importer leaves
+`undefined` rather than defaulting: the batch validator does not check for
+silently-absent optional fields, so nothing flagged it. It was found by comparing
+field presence across records in the same file and fixed.
 
 ### Practicals — 46 items
 
