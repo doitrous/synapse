@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useEffect, useMemo, useState } from 'react'
+import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useLocalChoice } from '@/lib/useLocalPreference'
 import {
   BookMarked,
   PlayCircle,
@@ -11,6 +12,7 @@ import {
   ExternalLink,
   FileText,
   Clapperboard,
+  FolderTree,
   ChevronRight,
   Folder,
   X,
@@ -61,18 +63,21 @@ const SAVED_RESOURCES_STORAGE_KEY = 'synapse.bookmarks.resources.v1'
  * "12:30". Only a page number can be handed to a PDF viewer; anything else
  * opens the file at the start, which is still the right file.
  */
-function fragmentFor(meta: string): string {
+function pageParamFor(meta: string): string {
   const page = meta.match(/(?:p\.?|page)\s*(\d+)/i)?.[1]
-  return page ? `#page=${page}` : ''
+  return page ? `?page=${page}` : ''
 }
 
 export function Resources() {
   const t = useT()
   const resources = useLiveResources()
   const [universityCatalogue] = useUniversityCatalogue()
+  const navigate = useNavigate()
   const [params] = useSearchParams()
   const [section, setSection] = useState<'pdf' | 'video'>('pdf')
-  const [groupBy, setGroupBy] = useState<'system' | 'module'>('system')
+  // Kept per device: how someone wants their resources laid out is not a
+  // per-visit decision, and this reset to System on every mount.
+  const [groupBy, setGroupBy] = useLocalChoice('synapse.resources.groupBy', 'system', ['system', 'module'] as const)
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const [query, setQuery] = useState(params.get('q') ?? '')
   const [type, setType] = useState<ResourceType | 'all'>('all')
@@ -94,6 +99,51 @@ export function Resources() {
    */
   const [savedIds, setSavedIds] = usePersistentState<string[]>(SAVED_RESOURCES_STORAGE_KEY, [])
   const saved = useMemo(() => new Set(savedIds), [savedIds])
+
+  /**
+   * Filter options, derived from the resources actually loaded.
+   *
+   * All four lists used to come from static imports — every subject in the app,
+   * the whole university catalogue, a fixed YEARS constant, a hardcoded type
+   * list — so a student could filter by a subject with nothing in it, or see a
+   * "Deck" chip when no deck existed. Counts come from the current section, so
+   * switching between Files and Videos re-counts rather than going stale.
+   *
+   * The scope rule is preserved: an empty universityIds/yearIds means the
+   * resource applies to everyone, so those must not narrow the option list.
+   */
+  const pool = useMemo(
+    () => resources.filter((r) => (section === 'video' ? r.type === 'Video' : r.type !== 'Video')),
+    [resources, section],
+  )
+  const available = useMemo(() => {
+    const subjectCounts = new Map<string, number>()
+    const typeCounts = new Map<string, number>()
+    const universityIds = new Set<string>()
+    const yearIds = new Set<string>()
+    for (const resource of pool) {
+      subjectCounts.set(resource.subjectId, (subjectCounts.get(resource.subjectId) ?? 0) + 1)
+      typeCounts.set(resource.type, (typeCounts.get(resource.type) ?? 0) + 1)
+      resource.universityIds.forEach((id) => universityIds.add(id))
+      resource.yearIds.forEach((id) => yearIds.add(id))
+    }
+    return { subjectCounts, typeCounts, universityIds, yearIds }
+  }, [pool])
+
+  // A filter that no longer has anything behind it would otherwise hide
+  // everything with no way back except knowing to reset it.
+  useEffect(() => {
+    if (type !== 'all' && !available.typeCounts.has(type)) setType('all')
+    if (subject !== 'all' && !available.subjectCounts.has(subject)) setSubject('all')
+  }, [available, subject, type])
+
+  // An article links a source by id. Land on the source itself rather than on a
+  // catalogue filtered down to one row that still has to be clicked.
+  const directId = params.get('id')
+  useEffect(() => {
+    if (!directId) return
+    navigate(`/app/resources/${encodeURIComponent(directId)}`, { replace: true })
+  }, [directId, navigate])
 
   const base = resources.filter((r) => {
     const normalizedQuery = query.split(' — ')[0].trim().toLowerCase()
@@ -142,17 +192,26 @@ export function Resources() {
    * dialog said so in copy shown to students. Where an admin has uploaded the
    * file, this now opens it — at the page or timestamp recorded on the item.
    */
-  async function openResource(resource: LiveResource) {
-    noteOpened({ id: resource.id, title: resource.title, type: resource.type, subjectId: resource.subjectId, meta: resource.meta })
+  /**
+   * Open a source in the app's own reader.
+   *
+   * A video still leaves for its host, since there is nothing to render here.
+   * Everything else goes to /app/resources/:id, which keeps the student inside
+   * the app and can be linked at an exact page.
+   */
+  function openResource(resource: LiveResource) {
     setLastOpenedId(resource.id)
-    if (!resource.hasFile) return
     setOpenError(null)
-    try {
-      await apiOpenFile(`/medical-resources/${encodeURIComponent(resource.id)}`, fragmentFor(resource.meta))
-      setOpened(null)
-    } catch {
-      setOpenError(t('That file could not be opened. It may still be uploading.'))
+    if (resource.type === 'Video') {
+      noteOpened({ id: resource.id, title: resource.title, type: resource.type, subjectId: resource.subjectId, meta: resource.meta })
+      void apiOpenFile(`/medical-resources/${encodeURIComponent(resource.id)}`).catch(() => {
+        setOpenError(t('That file could not be opened. It may still be uploading.'))
+      })
+      return
     }
+    // The reader records the open itself, once the document is actually up.
+    setOpened(null)
+    navigate(`/app/resources/${encodeURIComponent(resource.id)}${pageParamFor(resource.meta)}`)
   }
 
   const count = section === 'pdf' ? pdfItems.length : videoItems.length
@@ -183,10 +242,13 @@ export function Resources() {
             </button>
           ))}
         </div>
-        <label className="inline-flex items-center gap-2 text-[12.5px] text-ink-2">
-          {t('Organize by')}
+        {/* Promoted out of a small inline label: this decides the shape of the
+            whole page, and it used to reset to System on every visit. */}
+        <div className="inline-flex items-center gap-2.5 rounded-xl border border-line bg-surface px-3 py-2 shadow-panel">
+          <Icon icon={FolderTree} size={15} className="text-ink-3" />
+          <span className="text-[12.5px] font-medium text-ink-2">{t('Organise by')}</span>
           <Segmented value={groupBy} onChange={(v) => setGroupBy(v as 'system' | 'module')} items={[{ value: 'system', label: t('System') }, { value: 'module', label: t('Module') }]} />
-        </label>
+        </div>
       </div>
 
       {/* Filter bar */}
@@ -200,28 +262,32 @@ export function Resources() {
           />
           <Select value={subject} onChange={(e) => setSubject(e.target.value)} className="min-w-0 flex-1 sm:w-44 sm:flex-none">
             <option value="all">{t('All subjects')}</option>
-            {subjects.map((s) => (
+            {subjects.filter((s) => available.subjectCounts.has(s.id)).map((s) => (
               <option key={s.id} value={s.id}>
-                {s.name}
+                {s.name} ({available.subjectCounts.get(s.id)})
               </option>
             ))}
           </Select>
-          <Select value={uni} onChange={(e) => setUni(e.target.value)} className="min-w-0 flex-1 sm:w-48 sm:flex-none">
-            <option value="all">{t('All universities')}</option>
-            {universityCatalogue.map((u) => (
-              <option key={u.id} value={u.id}>
-                {u.short} — {u.name}
-              </option>
-            ))}
-          </Select>
-          <Select value={year} onChange={(e) => setYear(e.target.value)} className="w-32">
-            <option value="all">{t('All years')}</option>
-            {YEARS.map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </Select>
+          {available.universityIds.size > 0 && (
+            <Select value={uni} onChange={(e) => setUni(e.target.value)} className="min-w-0 flex-1 sm:w-48 sm:flex-none">
+              <option value="all">{t('All universities')}</option>
+              {universityCatalogue.filter((u) => available.universityIds.has(u.id)).map((u) => (
+                <option key={u.id} value={u.id}>
+                  {u.short} — {u.name}
+                </option>
+              ))}
+            </Select>
+          )}
+          {available.yearIds.size > 0 && (
+            <Select value={year} onChange={(e) => setYear(e.target.value)} className="w-32">
+              <option value="all">{t('All years')}</option>
+              {YEARS.filter((y) => available.yearIds.has(y)).map((y) => (
+                <option key={y} value={y}>
+                  {y}
+                </option>
+              ))}
+            </Select>
+          )}
           <label className="ms-auto flex cursor-pointer items-center gap-2.5 text-[13px] text-ink-2">
             {t('Saved only')}
             <Toggle checked={savedOnly} onChange={setSavedOnly} label={t('Saved only')} />
@@ -232,9 +298,9 @@ export function Resources() {
             <FilterChip active={type === 'all'} onClick={() => setType('all')}>
               {t('All types')}
             </FilterChip>
-            {PDF_TYPES.map((ty) => (
+            {PDF_TYPES.filter((ty) => available.typeCounts.has(ty)).map((ty) => (
               <FilterChip key={ty} active={type === ty} onClick={() => setType(ty)}>
-                {t(ty)}
+                {t(ty)} ({available.typeCounts.get(ty)})
               </FilterChip>
             ))}
           </div>
@@ -313,8 +379,11 @@ export function Resources() {
                                         {lastOpenedId === r.id && <Badge tone="success">{t('Opened')} · {r.meta}</Badge>}
                                       </div>
                                       <div className="mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11.5px] text-ink-3">
-                                        <span className="inline-flex items-center gap-1.5"><SubjectDot id={subj.id} />{subj.name}</span>
-                                        <span>·</span><span>{r.source}</span><span>·</span><span>{r.meta}</span>
+                                        {/* Under System grouping the folder header
+                                            already names the subject, so repeating
+                                            it on every row inside it says nothing. */}
+                                        {groupBy === 'module' && <><span className="inline-flex items-center gap-1.5"><SubjectDot id={subj.id} />{subj.name}</span><span>·</span></>}
+                                        <span>{r.source}</span><span>·</span><span>{r.meta}</span>
                                         <span className="hidden sm:inline">·</span><span className="tnum hidden sm:inline">{r.year}</span>
                                       </div>
                                     </div>

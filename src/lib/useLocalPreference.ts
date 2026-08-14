@@ -26,3 +26,25 @@ export function useLocalPreference(key: string, fallback: boolean) {
   const toggle = useCallback(() => setValue((current) => !current), [])
   return [value, setValue, toggle] as const
 }
+
+/**
+ * The string counterpart, for a preference with a small set of valid answers.
+ *
+ * `allowed` is checked on read so a stored value from an older build — or a
+ * hand-edited one — cannot put a surface into a state it has no branch for.
+ */
+export function useLocalChoice<T extends string>(key: string, fallback: T, allowed: readonly T[]) {
+  const [value, setValue] = useState<T>(() => {
+    try {
+      const raw = localStorage.getItem(key)
+      if (raw && (allowed as readonly string[]).includes(raw)) return raw as T
+    } catch { /* private browsing — the default stands */ }
+    return fallback
+  })
+
+  useEffect(() => {
+    try { localStorage.setItem(key, value) } catch { /* nothing to remember with */ }
+  }, [key, value])
+
+  return [value, setValue] as const
+}

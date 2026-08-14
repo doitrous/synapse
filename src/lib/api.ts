@@ -58,6 +58,18 @@ export async function apiDownload(path: string, filename: string): Promise<void>
   URL.revokeObjectURL(url)
 }
 
+/**
+ * Fetch an authenticated file as bytes.
+ *
+ * The in-app reader needs the data, not a tab: it hands the buffer to pdf.js.
+ * Factored out of apiOpenFile so both paths authenticate identically.
+ */
+export async function apiFetchFile(path: string): Promise<ArrayBuffer> {
+  const res = await fetch(`${BASE}${path}`, { headers: await headers() })
+  if (!res.ok) throw new ApiError(res.status, `GET ${path}`)
+  return res.arrayBuffer()
+}
+
 /** Open an authenticated file in a new tab, optionally at an exact PDF page. */
 export async function apiOpenFile(path: string, fragment = ''): Promise<void> {
   // Open synchronously so browsers treat this as the user's click, then sever

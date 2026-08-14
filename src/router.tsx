@@ -39,6 +39,7 @@ const Dashboard = lazyNamed(() => import('@/pages/student/Dashboard'), 'Dashboar
 const Library = lazyNamed(() => import('@/pages/student/Library'), 'Library')
 const QuestionBank = lazyNamed(() => import('@/pages/student/QuestionBank'), 'QuestionBank')
 const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resources')
+const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
 const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'), 'MedicalTaxonomy')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
 const CalendarPage = lazyNamed(() => import('@/pages/student/Calendar'), 'CalendarPage')
@@ -132,7 +133,12 @@ const adminBuilt: Record<string, ReactElement> = {
 const studentPaths = ['library', 'qbank', 'practical', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
 const adminPaths = ['academic', 'library', 'questions', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit']
 
-const studentRoutes = studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) }))
+const studentRoutes = [
+  ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
+  // Reading a source is its own screen, not a modal over the catalogue: it owns
+  // the viewport, and it has to be linkable at a page.
+  { path: 'resources/:id', element: render(ResourceReader) },
+]
 const adminRoutes = adminPaths.map((path) => ({ path, element: adminBuilt[path] ?? render(Placeholder) }))
 
 export const router = createBrowserRouter([
