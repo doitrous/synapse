@@ -39,7 +39,17 @@ async function supabaseIdentity(token) {
 
 export async function apiAuthGate(req, res, next) {
   if (!req.path.startsWith('/api')) return next()
-  if (req.path === '/api/health' || req.path === '/api/webhooks/resend/inbound') return next()
+  // Public by design, and each for the same reason: the caller cannot possibly
+  // hold a session. A health probe has no user, Resend's webhook is a server,
+  // and whoever follows an unsubscribe link is signed out in their inbox — or is
+  // Gmail itself, POSTing one-click on their behalf. Guarding unsubscribe would
+  // mean List-Unsubscribe advertising a control that answers 401, which costs
+  // more in sender reputation than having no unsubscribe at all.
+  //
+  // It is safe to leave open: it accepts nothing but a 48-character opaque
+  // token, returns 404 for anything it does not recognise, reads nothing back to
+  // the caller, and can only ever add a suppression.
+  if (req.path === '/api/health' || req.path === '/api/webhooks/resend/inbound' || req.path === '/api/unsubscribe') return next()
 
   const auth = req.header('authorization') || ''
   const token = auth.startsWith('Bearer ') ? auth.slice(7) : ''
