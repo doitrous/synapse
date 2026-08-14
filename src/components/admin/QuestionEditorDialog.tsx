@@ -19,6 +19,10 @@ import { Toggle } from '@/components/ui/Toggle'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { removeStoredMedia, storeMediaFile } from '@/lib/mediaStorage'
+import { EntityPicker } from '@/components/admin/EntityPicker'
+import { conceptOptions, contentOptions } from '@/components/admin/pickerOptions'
+import { useTaxonomyTree } from '@/data/taxonomyStore'
+import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 
 const ANSWERS: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
@@ -145,6 +149,8 @@ function Section({ title, hint, icon, children }: { title: string; hint?: string
 
 export function QuestionEditorDialog({ open, item, concepts, contentItems, onClose, onSave }: { open: boolean; item: ManagedContentItem | null; concepts: ConceptGraph; contentItems: ManagedContentItem[]; onClose: () => void; onSave: (item: ManagedContentItem) => void }) {
   const [universityCatalogue] = useUniversityCatalogue()
+  const [taxonomy] = useTaxonomyTree()
+  const [medicalTaxonomy] = useMedicalTaxonomy()
   const [draft, setDraft] = useState<ManagedContentItem>(() => blankQuestion())
   const [mediaUrl, setMediaUrl] = useState('')
   const [mediaType, setMediaType] = useState<MediaAttachment['type']>('image')
@@ -171,9 +177,9 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
   const valid = draft.title.trim() && nonEmptyAnswers.length >= 2 && correctIsFilled
   const inferredLabel = data.tags.inferredDifficulty >= 70 ? 'Easy' : data.tags.inferredDifficulty < 45 ? 'Hard' : 'Moderate'
 
-  const conceptOptions = useMemo(() => concepts.concepts.map((concept) => ({ id: concept.id, label: `${concept.label} · ${concept.id}` })), [concepts])
-  const articleOptions = useMemo(() => contentItems.filter((content) => content.kind === 'article').map((content) => ({ id: content.id, label: `${content.fields.Topic} · ${content.title}` })), [contentItems])
-  const resourceOptions = useMemo(() => contentItems.filter((content) => content.kind === 'resource').map((content) => ({ id: content.id, label: content.title })), [contentItems])
+  const conceptPicks = useMemo(() => conceptOptions({ graph: concepts, taxonomy, medicalTaxonomy }), [concepts, taxonomy, medicalTaxonomy])
+  const articlePicks = useMemo(() => contentOptions(contentItems, 'article'), [contentItems])
+  const resourcePicks = useMemo(() => contentOptions(contentItems, 'resource'), [contentItems])
 
   if (!open) return null
 
@@ -262,8 +268,8 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
               </Section>
 
               <Section title="Related evidence" hint="Where students can read around the answer." icon={Link2}>
-                <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Related library articles</p><CheckList options={articleOptions} selected={data.libraryIds} onChange={(libraryIds) => updateData((current) => ({ ...current, libraryIds }))} />
-                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Related resources</p><CheckList options={resourceOptions} selected={data.resourceIds} onChange={(resourceIds) => updateData((current) => ({ ...current, resourceIds }))} />
+                <EntityPicker label="Related library articles" noun="articles" options={articlePicks} selected={data.libraryIds} onChange={(libraryIds) => updateData((current) => ({ ...current, libraryIds }))} />
+                <EntityPicker className="mt-4" label="Related resources" noun="resources" options={resourcePicks} selected={data.resourceIds} onChange={(resourceIds) => updateData((current) => ({ ...current, resourceIds }))} />
               </Section>
 
               <Section title="Question tags and blueprint" hint="Mastery evidence is awarded only to explicitly linked concepts." icon={Tags}>
@@ -282,9 +288,9 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
                   <Field label="Academic relevance (0–1)" htmlFor="tag-acad"><TextInput id="tag-acad" type="number" min={0} max={1} step={0.05} value={data.tags.academicRelevance ?? 0.5} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, academicRelevance: clamp01(event.target.value) } }))} /></Field>
                   <Field label="Cognitive effort (0–1)" htmlFor="tag-cog"><TextInput id="tag-cog" type="number" min={0} max={1} step={0.05} value={data.tags.cognitiveEffortScore ?? 0.5} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, cognitiveEffortScore: clamp01(event.target.value) } }))} /></Field>
                 </div>
-                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Main concept(s) · what this question primarily tests</p><CheckList options={conceptOptions} selected={data.tags.mainConceptIds ?? []} onChange={(mainConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, mainConceptIds } }))} />
-                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Related concepts · mastery evidence</p><CheckList options={conceptOptions} selected={data.tags.conceptIds} onChange={(conceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, conceptIds } }))} />
-                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Contextual concepts · no mastery evidence</p><CheckList options={conceptOptions} selected={data.tags.contextualConceptIds} onChange={(contextualConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, contextualConceptIds } }))} />
+                <EntityPicker className="mt-4" label="Main concept(s) · what this question primarily tests" noun="concepts" options={conceptPicks} selected={data.tags.mainConceptIds ?? []} onChange={(mainConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, mainConceptIds } }))} />
+                <EntityPicker className="mt-4" label="Related concepts · mastery evidence" noun="concepts" options={conceptPicks} selected={data.tags.conceptIds} onChange={(conceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, conceptIds } }))} />
+                <EntityPicker className="mt-4" label="Contextual concepts · no mastery evidence" noun="concepts" options={conceptPicks} selected={data.tags.contextualConceptIds} onChange={(contextualConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, contextualConceptIds } }))} />
                 <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant years</p><CheckList columns={3} options={YEARS.map((year) => ({ id: year, label: year }))} selected={data.tags.years} onChange={(years) => updateData((current) => ({ ...current, tags: { ...current.tags, years } }))} />
                 <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant universities</p><CheckList options={universityCatalogue.map((university) => ({ id: university.id, label: `${university.short} · ${university.name}` }))} selected={data.tags.universityIds} onChange={(universityIds) => updateData((current) => ({ ...current, tags: { ...current.tags, universityIds } }))} />
 

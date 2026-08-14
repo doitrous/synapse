@@ -553,7 +553,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                 </p>
                               </Td>
                               <Td>
-                                <span className="inline-flex items-center gap-1.5 whitespace-nowrap text-[12.5px] text-ink-2"><SubjectDot id={subject.id} />{subject.short}</span>
+                                <span className="inline-flex items-center gap-1.5 whitespace-nowrap text-[12.5px] text-ink-2" title={subject.name}><SubjectDot id={subject.id} /></span>
                               </Td>
                               <Td className="whitespace-nowrap">
                                 <p className="text-[12px] text-ink-2">{item.owner}</p>
@@ -633,7 +633,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       ) : activeKind === 'article' ? (
         <LibraryArticleEditorDialog open={editorOpen} item={editing} contentItems={items} graph={conceptGraph} onGraphChange={setConceptGraph} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'practical' && editing?.fields.Type !== 'Skills checklist' ? (
-        <PracticalEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+        <PracticalEditorDialog open={editorOpen} item={editing} concepts={conceptGraph} contentItems={items} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'resource' ? (
         <ResourceEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : (

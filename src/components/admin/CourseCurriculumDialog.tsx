@@ -9,6 +9,9 @@ import { SearchInput, Select } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { Tabs } from '@/components/ui/Tabs'
 
+/** Where a module's chosen content lives, keyed `${universityId}:${year}:${courseId}`. */
+export const COURSE_CURRICULA_STORAGE_KEY = 'synapse-course-curricula-v1'
+
 export interface CourseCurriculumSelection {
   articleIds: string[]
   questionIds: string[]

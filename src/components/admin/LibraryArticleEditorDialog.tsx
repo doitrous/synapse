@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { BookOpen, CircleAlert, Flag, GitFork, Lightbulb, Link2, ListChecks, Plus, Trash2, X } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import {
@@ -18,11 +18,17 @@ import { universities } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
+import { DateField } from '@/components/ui/DateTimeField'
 import { Icon } from '@/components/ui/Icon'
-import { ChapterMark } from '@/components/ui/ChapterMark'
+import { SystemMark } from '@/components/ui/SystemMark'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { MedicalTaxonomyPlacementPicker } from '@/components/admin/MedicalTaxonomyPlacementPicker'
+import { EntityPicker } from '@/components/admin/EntityPicker'
+import { conceptOptions, contentOptions, moduleOptions } from '@/components/admin/pickerOptions'
+import { COURSE_CURRICULA_STORAGE_KEY, type CourseCurriculumSelection } from '@/components/admin/CourseCurriculumDialog'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+import { usePersistentState } from '@/lib/usePersistentState'
 import { canonicalPlacementFor } from '@/data/taxonomyCrosswalk'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
@@ -172,6 +178,8 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
   graphRef.current = graph
   const [taxonomy] = useTaxonomyTree()
   const [medicalTaxonomy] = useMedicalTaxonomy()
+  const [catalogue] = useUniversityCatalogue()
+  const [curricula] = usePersistentState<Record<string, CourseCurriculumSelection>>(COURSE_CURRICULA_STORAGE_KEY, {})
 
   useEffect(() => {
     if (!open) return
@@ -190,6 +198,28 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
     return () => window.removeEventListener('keydown', handler)
   }, [onClose, open])
 
+  const conceptPicks = useMemo(() => conceptOptions({ graph, taxonomy, medicalTaxonomy }), [graph, taxonomy, medicalTaxonomy])
+  const questionPicks = useMemo(() => contentOptions(contentItems, 'question'), [contentItems])
+  const resourcePicks = useMemo(() => contentOptions(contentItems, 'resource'), [contentItems])
+  const articlePicks = useMemo(() => contentOptions(contentItems, 'article', { exclude: draft.id }), [contentItems, draft.id])
+  const modulePicks = useMemo(() => moduleOptions(catalogue), [catalogue])
+
+  // A concept that names this article is related to it whether or not the article
+  // says so, but that is the concept's claim, not an edit made here — so it is
+  // shown apart from the stored list rather than folded into it.
+  const backlinkedConceptIds = useMemo(
+    () => graph.concepts.filter((concept) => draft.id && (concept.relatedArticleIds ?? concept.articleIds).includes(draft.id)).map((concept) => concept.id),
+    [graph.concepts, draft.id],
+  )
+
+  /** Modules whose curriculum already includes this article. */
+  const connectedModules = useMemo(() => {
+    if (!draft.id) return [] as string[]
+    return catalogue.flatMap((university) => university.years.flatMap((year) => year.courses
+      .filter((course) => curricula[`${university.id}:${year.year}:${course.id}`]?.articleIds.includes(draft.id))
+      .map((course) => `${university.short} · ${year.year} · ${course.name}`)))
+  }, [catalogue, curricula, draft.id])
+
   if (!open) return null
 
   const data = draft.articleData ?? blankArticleData()
@@ -200,9 +230,6 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
   const subNode = topicNode?.subs.find((su) => su.subId === data.subtopicId)
   const microNode = subNode?.micros.find((mi) => mi.micId === data.microtopicId)
   const yearOptions = universities.flatMap((university) => university.years.map((year) => ({ id: year.id, title: `${university.short} · ${year.year}` })))
-  const questionItems = contentItems.filter((content) => content.kind === 'question')
-  const resourceItems = contentItems.filter((content) => content.kind === 'resource')
-  const articleItems = contentItems.filter((content) => content.kind === 'article' && content.id !== draft.id)
   const hasBody = (data.sections ?? []).some((s) => s.heading.trim() || s.body.trim()) || data.body.trim()
   const valid = draft.title.trim() && (data.primaryNodeId || draft.fields.Topic?.trim()) && data.summary.trim() && hasBody
   const chapterIndex = Math.max(0, libraryTopics.filter((topic) => topic.subjectId === draft.subjectId).findIndex((topic) => topic.title === draft.fields.Topic))
@@ -281,6 +308,13 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
           <aside className="order-2 border-b border-line bg-surface p-4 lg:order-none lg:overflow-y-auto lg:border-b-0 lg:border-r">
             <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Article settings</p>
             <div className="space-y-4">
+              {/* Named, because the canonical tree has its own Topic/Subtopic/Microtopic
+                  levels and the university overlay below has fields by the same names.
+                  They are different taxonomies; only the heading says which is which. */}
+              <div>
+                <p className="text-[12px] font-semibold text-ink">Canonical library placement</p>
+                <p className="mb-2 mt-0.5 text-[10.5px] leading-relaxed text-ink-3">Where this article lives in the medical library students browse.</p>
+              </div>
               <MedicalTaxonomyPlacementPicker nodes={medicalTaxonomy} primaryNodeId={data.primaryNodeId} secondaryNodeIds={data.secondaryNodeIds} onPrimaryChange={(primaryNodeId) => updateData((current) => ({ ...current, primaryNodeId }))} onSecondaryChange={(secondaryNodeIds) => updateData((current) => ({ ...current, secondaryNodeIds }))} compact />
               <Field label="Reading time" htmlFor="article-reading"><TextInput id="article-reading" type="number" min={1} value={draft.fields['Reading time'] ?? '8'} onChange={(event) => setDraft((current) => ({ ...current, fields: { ...current.fields, 'Reading time': event.target.value } }))} /></Field>
               <Field label="Content owner" htmlFor="article-owner"><TextInput id="article-owner" value={draft.owner} onChange={(event) => setDraft((current) => ({ ...current, owner: event.target.value }))} /></Field>
@@ -294,6 +328,34 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               <div className="space-y-3">
                 <Field label="Subject" htmlFor="article-subject"><Select id="article-subject" value={draft.subjectId} onChange={(event) => setDraft((current) => ({ ...current, subjectId: event.target.value, fields: { ...current.fields, Topic: '' } }))}>{subjects.map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</Select></Field>
                 <Field label="Chapter (Topic)" htmlFor="article-topic"><Select id="article-topic" value={draft.fields.Topic ?? ''} onChange={(event) => { const topicTitle = event.target.value; const topicNode = sysNode?.topics.find((tp) => tp.title === topicTitle); const derived = topicNode ? canonicalPlacementFor(topicNode.id) : undefined; setDraft((current) => ({ ...current, fields: { ...current.fields, Topic: topicTitle } })); updateData((current) => ({ ...current, subtopicId: undefined, microtopicId: undefined, nanotopicId: undefined, ...(derived && !current.primaryNodeId ? { primaryNodeId: derived.primaryNodeId, secondaryNodeIds: [...new Set([...(current.secondaryNodeIds ?? []), ...derived.secondaryNodeIds])] } : {}) })) }}><option value="">— None —</option>{sysNode?.topics.map((tp) => <option key={tp.id} value={tp.title}>{tp.title}</option>)}{draft.fields.Topic && !sysNode?.topics.some((tp) => tp.title === draft.fields.Topic) && <option value={draft.fields.Topic}>{draft.fields.Topic} (legacy)</option>}</Select></Field>
+                {/* The rest of the same chain. These used to sit further down under
+                    "Applies to", where they read as a second, mysterious Subtopic and
+                    Microtopic — and were disabled until Subject and Chapter, which are
+                    right here, had been filled in below them. */}
+                <div className="grid grid-cols-2 gap-2">
+                  <Field label="Subtopic" htmlFor="article-sub"><Select id="article-sub" value={data.subtopicId ?? ''} disabled={!topicNode} onChange={(event) => updateData((current) => ({ ...current, subtopicId: event.target.value || undefined, microtopicId: undefined, nanotopicId: undefined }))}><option value="">— None —</option>{topicNode?.subs.map((su) => <option key={su.id} value={su.subId}>{su.title}</option>)}{data.subtopicId && !topicNode?.subs.some((su) => su.subId === data.subtopicId) && <option value={data.subtopicId}>{data.subtopicId} (legacy)</option>}</Select></Field>
+                  <Field label="Microtopic" htmlFor="article-mic"><Select id="article-mic" value={data.microtopicId ?? ''} disabled={!subNode} onChange={(event) => updateData((current) => ({ ...current, microtopicId: event.target.value || undefined, nanotopicId: undefined }))}><option value="">— None —</option>{subNode?.micros.map((mi) => <option key={mi.id} value={mi.micId}>{mi.title}</option>)}{data.microtopicId && !subNode?.micros.some((mi) => mi.micId === data.microtopicId) && <option value={data.microtopicId}>{data.microtopicId} (legacy)</option>}</Select></Field>
+                </div>
+                <Field label="Nanotopic" htmlFor="article-nan"><Select id="article-nan" value={data.nanotopicId ?? ''} disabled={!microNode} onChange={(event) => updateData((current) => ({ ...current, nanotopicId: event.target.value || undefined }))}><option value="">— None —</option>{microNode?.nanos.map((nano) => <option key={nano.id} value={nano.nanId}>{nano.title}</option>)}</Select></Field>
+
+                <EntityPicker
+                  label="Modules"
+                  hint="University modules this article belongs to."
+                  noun="modules"
+                  options={modulePicks}
+                  selected={data.moduleIds ?? []}
+                  onChange={(moduleIds) => updateData((current) => ({ ...current, moduleIds }))}
+                  emptyText="No modules in the catalogue yet — add them in Academic Setup."
+                />
+
+                {connectedModules.length > 0 && (
+                  <div className="rounded-lg border border-line bg-surface-2/50 px-3 py-2">
+                    <p className="text-[11px] font-semibold text-ink-2">Also in these modules' curriculum</p>
+                    <ul className="mt-1 space-y-0.5">
+                      {connectedModules.map((entry) => <li key={entry} className="text-[11px] leading-relaxed text-ink-3">{entry}</li>)}
+                    </ul>
+                  </div>
+                )}
               </div>
             </div>
 
@@ -304,24 +366,20 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               <LinkCheckList items={universities.map((u) => ({ id: u.id, title: `${u.short} · ${u.name}` }))} selected={data.universityIds ?? []} onChange={(universityIds) => updateData((current) => ({ ...current, universityIds }))} />
               <p className="mb-1 mt-3 text-[11px] font-medium text-ink-2">Years</p>
               <LinkCheckList items={yearOptions} selected={data.yearIds ?? []} onChange={(yearIds) => updateData((current) => ({ ...current, yearIds }))} />
-              <div className="mt-3 space-y-2.5">
-                <Field label="Module ID(s)" htmlFor="article-modules" hint="Comma-separated."><TextInput id="article-modules" value={(data.moduleIds ?? []).join(', ')} onChange={(event) => updateData((current) => ({ ...current, moduleIds: event.target.value.split(',').map((s) => s.trim()).filter(Boolean) }))} placeholder="cvs, MOD_CVS" /></Field>
-                <div className="grid grid-cols-2 gap-2">
-                  <Field label="Subtopic" htmlFor="article-sub" hint="From Subjects & Topics"><Select id="article-sub" value={data.subtopicId ?? ''} disabled={!topicNode} onChange={(event) => updateData((current) => ({ ...current, subtopicId: event.target.value || undefined, microtopicId: undefined, nanotopicId: undefined }))}><option value="">— None —</option>{topicNode?.subs.map((su) => <option key={su.id} value={su.subId}>{su.title}</option>)}{data.subtopicId && !topicNode?.subs.some((su) => su.subId === data.subtopicId) && <option value={data.subtopicId}>{data.subtopicId} (legacy)</option>}</Select></Field>
-                  <Field label="Microtopic" htmlFor="article-mic" hint="From Subjects & Topics"><Select id="article-mic" value={data.microtopicId ?? ''} disabled={!subNode} onChange={(event) => updateData((current) => ({ ...current, microtopicId: event.target.value || undefined, nanotopicId: undefined }))}><option value="">— None —</option>{subNode?.micros.map((mi) => <option key={mi.id} value={mi.micId}>{mi.title}</option>)}{data.microtopicId && !subNode?.micros.some((mi) => mi.micId === data.microtopicId) && <option value={data.microtopicId}>{data.microtopicId} (legacy)</option>}</Select></Field>
-                </div>
-                <Field label="Nanotopic" htmlFor="article-nan" hint="From Subjects & Topics"><Select id="article-nan" value={data.nanotopicId ?? ''} disabled={!microNode} onChange={(event) => updateData((current) => ({ ...current, nanotopicId: event.target.value || undefined }))}><option value="">— None —</option>{microNode?.nanos.map((nano) => <option key={nano.id} value={nano.nanId}>{nano.title}</option>)}</Select></Field>
-              </div>
             </div>
 
             {/* Related concepts — accepts direct selection here, or concepts that link back */}
             <div className="mt-6 border-t border-line pt-5">
               <div className="flex items-center gap-2"><Icon icon={GitFork} size={15} className="text-accent" /><p className="text-[12.5px] font-bold text-ink">Related concepts</p></div>
-              <p className="mb-2 mt-1 text-[11px] leading-snug text-ink-3">Concepts this article discusses. A concept that lists this article also appears here automatically.</p>
-              <LinkCheckList
-                items={graph.concepts.map((c) => ({ id: c.id, title: c.label }))}
-                selected={[...new Set([...(data.relatedConceptIds ?? []), ...graph.concepts.filter((c) => (c.relatedArticleIds ?? c.articleIds).includes(draft.id)).map((c) => c.id)])]}
+              <p className="mb-2 mt-1 text-[11px] leading-snug text-ink-3">Concepts this article discusses.</p>
+              <EntityPicker
+                label="Related concepts"
+                noun="concepts"
+                options={conceptPicks}
+                selected={data.relatedConceptIds ?? []}
                 onChange={(relatedConceptIds) => updateData((current) => ({ ...current, relatedConceptIds }))}
+                derived={backlinkedConceptIds}
+                derivedNote="Dashed concepts name this article from their own record. Edit them there."
               />
             </div>
 
@@ -352,7 +410,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
 
           <main className="order-1 border-b border-line lg:order-none lg:overflow-y-auto lg:border-b-0">
             <article className="mx-auto max-w-[50rem] px-4 py-7 sm:px-6 sm:py-10 lg:px-10">
-              <nav className="flex items-center gap-2 text-[12.5px] text-ink-3"><span className="inline-flex items-center gap-1.5 font-medium text-ink-2"><ChapterMark subjectId={subject.id} index={chapterIndex + 1} compact />{subject.name}</span><span>›</span><span>{draft.fields.Topic || 'Chapter'}</span><Badge tone="warning">Editing</Badge></nav>
+              <nav className="flex items-center gap-2 text-[12.5px] text-ink-3"><span className="inline-flex items-center gap-1.5 font-medium text-ink-2"><SystemMark subjectId={subject.id} index={chapterIndex + 1} />{subject.name}</span><span>›</span><span>{draft.fields.Topic || 'Chapter'}</span><Badge tone="warning">Editing</Badge></nav>
               <TextInput aria-label="Article title" className="mt-4 h-auto border-transparent bg-transparent px-0 font-serif text-[30px] font-semibold leading-tight tracking-[-0.02em] shadow-none focus:border-line" value={draft.title} onChange={(event) => setDraft((current) => ({ ...current, title: event.target.value }))} placeholder="Article title" />
               <div className="mt-3 flex items-center gap-3 text-[12px] text-ink-3"><span>{draft.fields['Reading time'] || '8'} min read</span><span>·</span><span>{draft.status}</span></div>
 
@@ -391,17 +449,17 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
           <aside className="order-3 bg-paper p-4 lg:order-none lg:overflow-y-auto lg:border-l lg:border-line">
             <section className="rounded-xl border border-line bg-surface p-4 shadow-panel"><div className="flex items-center gap-2"><Icon icon={Lightbulb} size={15} className="text-accent" /><h3 className="text-[13px] font-bold text-ink">Hold these</h3></div><div className="mt-3"><StringListEditor values={data.holdThese} onChange={(holdThese) => updateData((current) => ({ ...current, holdThese }))} addLabel="Add key point" placeholder="What must the student retain?" /></div></section>
             <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><div className="flex items-center gap-2"><Icon icon={CircleAlert} size={15} className="text-danger" /><h3 className="text-[13px] font-bold text-ink">Where people lose the mark</h3></div><div className="mt-3"><StringListEditor values={data.loseTheMark} onChange={(loseTheMark) => updateData((current) => ({ ...current, loseTheMark }))} addLabel="Add trap" placeholder="Common error or misconception" /></div></section>
-            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><div className="flex items-center gap-2"><Icon icon={ListChecks} size={15} className="text-accent" /><h3 className="text-[13px] font-bold text-ink">Questions that test this</h3></div><div className="mt-2"><LinkCheckList items={questionItems.map((content) => ({ id: content.id, title: content.title }))} selected={data.questionIds} onChange={(questionIds) => updateData((current) => ({ ...current, questionIds }))} /></div></section>
-            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><h3 className="text-[13px] font-bold text-ink">Resources that teach it</h3><div className="mt-2"><LinkCheckList items={resourceItems.map((content) => ({ id: content.id, title: content.title }))} selected={data.resourceIds} onChange={(resourceIds) => updateData((current) => ({ ...current, resourceIds }))} /></div></section>
-            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><h3 className="text-[13px] font-bold text-ink">Related articles</h3><p className="mt-1 text-[11px] text-ink-3">Student-facing reading connections.</p><div className="mt-2"><LinkCheckList items={articleItems.map((content) => ({ id: content.id, title: content.title }))} selected={data.relatedArticleIds ?? []} onChange={(relatedArticleIds) => updateData((current) => ({ ...current, relatedArticleIds }))} /></div></section>
+            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><div className="mb-2 flex items-center gap-2"><Icon icon={ListChecks} size={15} className="text-accent" /><h3 className="text-[13px] font-bold text-ink">Questions that test this</h3></div><EntityPicker label="Questions" noun="questions" options={questionPicks} selected={data.questionIds} onChange={(questionIds) => updateData((current) => ({ ...current, questionIds }))} /></section>
+            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><h3 className="mb-2 text-[13px] font-bold text-ink">Resources that teach it</h3><EntityPicker label="Resources" noun="resources" options={resourcePicks} selected={data.resourceIds} onChange={(resourceIds) => updateData((current) => ({ ...current, resourceIds }))} /></section>
+            <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel"><h3 className="text-[13px] font-bold text-ink">Related articles</h3><p className="mb-2 mt-1 text-[11px] text-ink-3">Student-facing reading connections.</p><EntityPicker label="Articles" noun="articles" options={articlePicks} selected={data.relatedArticleIds ?? []} onChange={(relatedArticleIds) => updateData((current) => ({ ...current, relatedArticleIds }))} /></section>
 
             <section className="mt-3 rounded-xl border border-line bg-surface p-4 shadow-panel">
               <h3 className="text-[13px] font-bold text-ink">Evidence & publication</h3>
               <div className="mt-3 space-y-3">
                 <Field label="Publication gate"><Select value={data.publicationGate ?? 'needs_evidence'} onChange={(event) => updateData((current) => ({ ...current, publicationGate: event.target.value as NonNullable<ArticleAuthoringData['publicationGate']> }))}><option value="publishable">Publishable</option><option value="needs_evidence">Needs evidence</option><option value="faculty_review">Faculty review</option><option value="conflicted">Conflicted</option><option value="excluded">Excluded</option></Select></Field>
                 <Field label="Time sensitivity"><Select value={data.timeSensitive ?? 'stable'} onChange={(event) => updateData((current) => ({ ...current, timeSensitive: event.target.value as NonNullable<ArticleAuthoringData['timeSensitive']> }))}><option value="stable">Stable</option><option value="time_sensitive">Time-sensitive</option></Select></Field>
-                <Field label="Last reviewed"><TextInput type="date" value={data.lastReviewed ?? ''} onChange={(event) => updateData((current) => ({ ...current, lastReviewed: event.target.value }))} /></Field>
-                <Field label="Review due"><TextInput type="date" value={data.reviewDue ?? ''} onChange={(event) => updateData((current) => ({ ...current, reviewDue: event.target.value }))} /></Field>
+                <Field label="Last reviewed"><DateField value={data.lastReviewed ?? ''} onChange={(next) => updateData((current) => ({ ...current, lastReviewed: next }))} /></Field>
+                <Field label="Review due"><DateField value={data.reviewDue ?? ''} onChange={(next) => updateData((current) => ({ ...current, reviewDue: next }))} /></Field>
                 <Field label="Evidence basis" hint="One source rule or note per line"><Textarea className="min-h-24" value={(data.evidenceBasis ?? []).join('\n')} onChange={(event) => updateData((current) => ({ ...current, evidenceBasis: event.target.value.split('\n').map((value) => value.trim()).filter(Boolean) }))} /></Field>
                 <Field label="Article-level source IDs" hint="One per line"><Textarea className="min-h-20 font-mono text-[10.5px]" value={(data.articleLevelSourceIds ?? []).join('\n')} onChange={(event) => updateData((current) => ({ ...current, articleLevelSourceIds: listFromText(event.target.value) }))} /></Field>
                 <Field label="Evidence claim IDs" hint="One per line"><Textarea className="min-h-20 font-mono text-[10.5px]" value={(data.claimIds ?? []).join('\n')} onChange={(event) => updateData((current) => ({ ...current, claimIds: listFromText(event.target.value) }))} /></Field>

@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Check, Plus, X } from 'lucide-react'
-import { Field, Select, TextInput } from '@/components/ui/Field'
+import { Check } from 'lucide-react'
+import { Field, Select } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { EntityPicker } from '@/components/admin/EntityPicker'
+import { taxonomyNodeOptions } from '@/components/admin/pickerOptions'
 import {
   MEDICAL_TAXONOMY_DIVISIONS,
   indexMedicalTaxonomy,
-  searchMedicalTaxonomy,
   type MedicalTaxonomyDivision,
   type MedicalTaxonomyNode,
 } from '@/data/medicalLibraryTaxonomy'
@@ -32,7 +33,6 @@ export function MedicalTaxonomyPlacementPicker({
   const index = useMemo(() => indexMedicalTaxonomy(nodes), [nodes])
   const lineage = useMemo(() => primaryNodeId ? index.lineage(primaryNodeId) : [], [index, primaryNodeId])
   const [division, setDivision] = useState<MedicalTaxonomyDivision>(lineage[0]?.division ?? 'system')
-  const [secondaryQuery, setSecondaryQuery] = useState('')
 
   useEffect(() => {
     if (lineage[0]?.division) setDivision(lineage[0].division)
@@ -52,9 +52,11 @@ export function MedicalTaxonomyPlacementPicker({
     return result
   }, [division, index, lineage])
 
-  const secondaryResults = useMemo(() => secondaryQuery.trim().length < 2
-    ? []
-    : searchMedicalTaxonomy(nodes, secondaryQuery).filter((node) => node.id !== primaryNodeId && !secondaryNodeIds.includes(node.id)).slice(0, 10), [nodes, primaryNodeId, secondaryNodeIds, secondaryQuery])
+  // The primary home is not a secondary placement, so it never offers itself.
+  const secondaryOptions = useMemo(
+    () => taxonomyNodeOptions(nodes).filter((option) => option.id !== primaryNodeId),
+    [nodes, primaryNodeId],
+  )
 
   function selectAtDepth(depth: number, nodeId: string) {
     if (nodeId) onPrimaryChange(nodeId)
@@ -88,29 +90,15 @@ export function MedicalTaxonomyPlacementPicker({
       )}
 
       {onSecondaryChange && (
-        <div>
-          <Field label="Also appears in" hint="Search for additional valid placements across any library view.">
-            <TextInput value={secondaryQuery} onChange={(event) => setSecondaryQuery(event.target.value)} placeholder="Search systems, disciplines, skills, or knowledge…" />
-          </Field>
-          {secondaryResults.length > 0 && (
-            <div className="mt-1 max-h-44 overflow-y-auto rounded-lg border border-line bg-surface p-1 shadow-panel">
-              {secondaryResults.map((node) => (
-                <button key={node.id} type="button" className="flex w-full items-start gap-2 rounded-md px-2 py-2 text-start hover:bg-inset" onClick={() => { onSecondaryChange([...secondaryNodeIds, node.id]); setSecondaryQuery('') }}>
-                  <Icon icon={Plus} size={13} className="mt-0.5 shrink-0 text-accent" />
-                  <span className="min-w-0"><span className="block text-[12px] text-ink">{node.title}</span><span className="block truncate font-mono text-[9.5px] text-ink-3">{node.divisionLabel} · {node.id}</span></span>
-                </button>
-              ))}
-            </div>
-          )}
-          {secondaryNodeIds.length > 0 && (
-            <div className="mt-2 flex flex-wrap gap-1.5">
-              {secondaryNodeIds.map((id) => {
-                const node = index.byId.get(id)
-                return <span key={id} className="inline-flex max-w-full items-center gap-1 rounded-full border border-line bg-surface-2 px-2 py-1 text-[10.5px] text-ink-2"><span className="truncate">{node?.title ?? id}</span><button type="button" className="text-ink-3 hover:text-danger" aria-label={`Remove ${node?.title ?? id}`} onClick={() => onSecondaryChange(secondaryNodeIds.filter((item) => item !== id))}><Icon icon={X} size={11} /></button></span>
-              })}
-            </div>
-          )}
-        </div>
+        <EntityPicker
+          label="Also appears in"
+          hint="Additional valid placements, across any library view."
+          noun="placements"
+          options={secondaryOptions}
+          selected={secondaryNodeIds}
+          onChange={onSecondaryChange}
+          placeholder="Search systems, disciplines, skills, or knowledge…"
+        />
       )}
     </div>
   )

@@ -4,11 +4,18 @@ import type { Status } from '@/data/admin'
 import type { ResourceType } from '@/data/types'
 import {
   CONTENT_FIELDS,
+  CONTENT_LEDGER_STORAGE_KEY,
+  initialManagedContent,
   type ManagedContentItem,
   type ResourceAuthoringData,
   type ResourceConceptLocation,
 } from '@/data/contentControl'
-import { resources } from '@/data/resources'
+import { EntityPicker } from '@/components/admin/EntityPicker'
+import { chapterOptions, conceptOptions, contentOptions, moduleOptions } from '@/components/admin/pickerOptions'
+import { useTaxonomyTree } from '@/data/taxonomyStore'
+import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+import { RESOURCE_ICON_CHOICES, resourceIcon } from '@/data/resourceIcons'
 import { subjects } from '@/data/subjects'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { newId } from '@/data/userLibrary'
@@ -18,10 +25,15 @@ import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { apiUploadMedicalResource } from '@/lib/api'
-import { universities } from '@/data/universities'
+import { universities, YEARS } from '@/data/universities'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 const RESOURCE_TYPES: ResourceType[] = ['Book', 'Video', 'Guideline', 'Deck', 'Article']
+
+/** The type as chosen so far, falling back while nothing has been picked. */
+function asResourceType(value: string | undefined): ResourceType {
+  return RESOURCE_TYPES.includes(value as ResourceType) ? (value as ResourceType) : 'Article'
+}
 const LOCATION_KINDS: Array<{ value: ResourceConceptLocation['kind']; label: string; hint: string }> = [
   { value: 'page', label: 'Page', hint: 'e.g. 142 or 142–148' },
   { value: 'line', label: 'Line', hint: 'e.g. L. 12' },
@@ -47,52 +59,6 @@ function emptyResource(): ManagedContentItem {
   }
 }
 
-/** Chip list with add-by-Enter and free text; used for chapters, modules, IDs. */
-function ChipEditor({ label, hint, values, suggestions = [], placeholder, onChange }: {
-  label: string
-  hint?: string
-  values: string[]
-  suggestions?: string[]
-  placeholder?: string
-  onChange: (next: string[]) => void
-}) {
-  const [text, setText] = useState('')
-  const add = (raw: string) => {
-    const v = raw.trim()
-    if (!v || values.includes(v)) { setText(''); return }
-    onChange([...values, v]); setText('')
-  }
-  const remaining = suggestions.filter((s) => !values.includes(s))
-  return (
-    <Field label={label} hint={hint}>
-      {values.length > 0 && (
-        <div className="mb-1.5 flex flex-wrap gap-1.5">
-          {values.map((v) => (
-            <span key={v} className="inline-flex items-center gap-1 rounded-full border border-accent-line bg-accent-tint px-2.5 py-0.5 text-[12px] font-medium text-accent-strong">
-              {v}
-              <button type="button" onClick={() => onChange(values.filter((x) => x !== v))} className="text-accent-strong/70 hover:text-accent-strong" aria-label={`Remove ${v}`}><Icon icon={X} size={12} /></button>
-            </span>
-          ))}
-        </div>
-      )}
-      <TextInput
-        value={text}
-        placeholder={placeholder}
-        onChange={(e) => setText(e.target.value)}
-        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ',') { e.preventDefault(); add(text) } }}
-        onBlur={() => add(text)}
-      />
-      {remaining.length > 0 && (
-        <div className="mt-1.5 flex flex-wrap gap-1">
-          {remaining.slice(0, 12).map((s) => (
-            <button key={s} type="button" onClick={() => add(s)} className="rounded-full border border-line bg-surface px-2 py-0.5 text-[11.5px] text-ink-3 hover:border-accent-line hover:text-accent-strong">+ {s}</button>
-          ))}
-        </div>
-      )}
-    </Field>
-  )
-}
-
 export function ResourceEditorDialog({ open, item, onClose, onSave }: {
   open: boolean
   item: ManagedContentItem | null
@@ -101,7 +67,14 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
 }) {
   const [draft, setDraft] = useState<ManagedContentItem>(() => item ?? emptyResource())
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
-  const concepts = useMemo(() => graph.concepts.map((concept) => ({ id: concept.id, label: concept.label })), [graph.concepts])
+  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [taxonomy] = useTaxonomyTree()
+  const [medicalTaxonomy] = useMedicalTaxonomy()
+  const [catalogue] = useUniversityCatalogue()
+  const conceptPicks = useMemo(() => conceptOptions({ graph, taxonomy, medicalTaxonomy }), [graph, taxonomy, medicalTaxonomy])
+  const articlePicks = useMemo(() => contentOptions(ledger, 'article'), [ledger])
+  const modulePicks = useMemo(() => moduleOptions(catalogue), [catalogue])
+  const chapterPicks = useMemo(() => chapterOptions(ledger), [ledger])
   const [uploadState, setUploadState] = useState<'idle' | 'uploading' | 'done' | 'error'>('idle')
   const [uploadMessage, setUploadMessage] = useState('')
 
@@ -124,18 +97,13 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
   const patchData = (patch: Partial<ResourceAuthoringData>) => setDraft((c) => ({ ...c, resourceData: { ...emptyResourceData(), ...c.resourceData, ...patch } }))
   const setField = (key: string, value: string) => setDraft((c) => ({ ...c, fields: { ...c.fields, [key]: value } }))
 
-  // Chapters seen elsewhere in the catalogue for this subject → offered as quick chips.
-  const chapterSuggestions = useMemo(
-    () => [...new Set(resources.filter((r) => r.subjectId === draft.subjectId && r.chapter).map((r) => r.chapter!))],
-    [draft.subjectId],
-  )
 
   if (!open) return null
 
   const isVideo = draft.fields.Type === 'Video'
   const valid = draft.title.trim() && draft.subjectId && draft.fields.Type
 
-  const addLocation = () => patchData({ conceptLocations: [...data.conceptLocations, { id: newId('loc'), conceptId: concepts[0]?.id ?? '', kind: isVideo ? 'timestamp' : 'page', locator: '' }] })
+  const addLocation = () => patchData({ conceptLocations: [...data.conceptLocations, { id: newId('loc'), conceptId: '', kind: isVideo ? 'timestamp' : 'page', locator: '' }] })
   const setLocation = (id: string, patch: Partial<ResourceConceptLocation>) => patchData({ conceptLocations: data.conceptLocations.map((l) => l.id === id ? { ...l, ...patch } : l) })
   const uploadQualifiedFile = async (file: File | undefined) => {
     if (!file || !draft.id) return
@@ -197,6 +165,42 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
                 </Select>
               </Field>
               <Field label="Content owner" className="sm:col-span-2"><TextInput value={draft.owner} onChange={(e) => setDraft((c) => ({ ...c, owner: e.target.value }))} /></Field>
+              {/* Every resource of a type used to carry the same glyph, so a
+                  shelf of forty books was forty identical icons. */}
+              <div className="sm:col-span-2">
+                <p className="mb-1.5 text-[12.5px] font-medium text-ink-2">Icon</p>
+                <div className="flex flex-wrap gap-1.5">
+                  <button
+                    type="button"
+                    onClick={() => patchData({ icon: undefined })}
+                    aria-pressed={!data.icon}
+                    title="Use the glyph for this resource type"
+                    className={cn(
+                      'inline-flex h-9 items-center gap-1.5 rounded-lg border px-2.5 text-[11.5px] font-medium transition-colors',
+                      !data.icon ? 'border-accent bg-accent-tint text-accent-strong' : 'border-line text-ink-2 hover:bg-inset',
+                    )}
+                  >
+                    <Icon icon={resourceIcon(undefined, asResourceType(draft.fields.Type))} size={15} />
+                    By type
+                  </button>
+                  {RESOURCE_ICON_CHOICES.map((choice) => (
+                    <button
+                      key={choice.name}
+                      type="button"
+                      onClick={() => patchData({ icon: choice.name })}
+                      aria-pressed={data.icon === choice.name}
+                      aria-label={choice.label}
+                      title={choice.label}
+                      className={cn(
+                        'grid size-9 place-items-center rounded-lg border transition-colors',
+                        data.icon === choice.name ? 'border-accent bg-accent-tint text-accent-strong' : 'border-line text-ink-2 hover:bg-inset',
+                      )}
+                    >
+                      <Icon icon={resourceIcon(choice.name, 'Article')} size={16} />
+                    </button>
+                  ))}
+                </div>
+              </div>
             </div>
 
             <div className="rounded-lg border border-line bg-surface-2/40 p-4">
@@ -217,6 +221,15 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
                   {universities.map((university) => <label key={university.id} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-accent)]" checked={(data.universityIds ?? []).includes(university.id)} onChange={() => patchData({ universityIds: (data.universityIds ?? []).includes(university.id) ? (data.universityIds ?? []).filter((id) => id !== university.id) : [...(data.universityIds ?? []), university.id] })} />{university.short}</label>)}
                 </div>
               </div>
+              {/* The student catalogue filters on years, but this dialog never
+                  offered a way to set one, so that filter could only ever match
+                  resources scoped by an import. */}
+              <div className="mt-3">
+                <p className="mb-1.5 text-[11.5px] font-medium text-ink-2">Years <span className="font-normal text-ink-3">— leave empty for every year</span></p>
+                <div className="grid grid-cols-2 gap-1 sm:grid-cols-4">
+                  {YEARS.map((year) => <label key={year} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-accent)]" checked={(data.yearIds ?? []).includes(year)} onChange={() => patchData({ yearIds: (data.yearIds ?? []).includes(year) ? (data.yearIds ?? []).filter((id) => id !== year) : [...(data.yearIds ?? []), year] })} />{year.replace('Year ', 'Y')}</label>)}
+                </div>
+              </div>
               {data.storageKey && draft.id && (
                 <div className="mt-4 rounded-lg border border-accent-line bg-accent-tint/30 p-3">
                   <div className="flex flex-wrap items-center gap-3">
@@ -233,14 +246,14 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
 
             {/* Placement: chapters + modules (multi-select) */}
             <div className="grid gap-4 rounded-lg border border-line bg-surface-2/40 p-4 sm:grid-cols-2">
-              <ChipEditor label="Chapters" hint="Select one or more — type and press Enter to add." values={data.chapters} suggestions={chapterSuggestions} placeholder="Add a chapter…" onChange={(chapters) => patchData({ chapters })} />
-              <ChipEditor label="Module IDs" hint="One resource can serve several modules." values={data.moduleIds} placeholder="e.g. CVS 01" onChange={(moduleIds) => patchData({ moduleIds })} />
+              <EntityPicker label="Chapters" hint="Chapters already used elsewhere in the catalogue." noun="chapters" options={chapterPicks} selected={data.chapters} onChange={(chapters) => patchData({ chapters })} emptyText="No chapters recorded yet." />
+              <EntityPicker label="Modules" hint="One resource can serve several modules." noun="modules" options={modulePicks} selected={data.moduleIds} onChange={(moduleIds) => patchData({ moduleIds })} emptyText="No modules in the catalogue yet — add them in Academic Setup." />
             </div>
 
             {/* Links */}
             <div className="grid gap-4 sm:grid-cols-2">
-              <ChipEditor label="Included concept IDs" hint="Auto-links to each concept's approved media." values={data.includedConceptIds} suggestions={concepts.map((c) => c.id)} placeholder="med.concept.…" onChange={(includedConceptIds) => patchData({ includedConceptIds })} />
-              <ChipEditor label="Included article IDs" values={data.includedArticleIds} placeholder="hf-patho…" onChange={(includedArticleIds) => patchData({ includedArticleIds })} />
+              <EntityPicker label="Included concepts" hint="Auto-links to each concept's approved media." noun="concepts" options={conceptPicks} selected={data.includedConceptIds} onChange={(includedConceptIds) => patchData({ includedConceptIds })} />
+              <EntityPicker label="Included articles" noun="articles" options={articlePicks} selected={data.includedArticleIds} onChange={(includedArticleIds) => patchData({ includedArticleIds })} />
             </div>
 
             {/* Concept → page/line/timestamp map */}
@@ -258,11 +271,9 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
                   const kindHint = LOCATION_KINDS.find((k) => k.value === loc.kind)?.hint
                   return (
                     <div key={loc.id} className="flex flex-wrap items-end gap-2 rounded-md border border-line bg-surface-2/40 p-2">
-                      <div className="min-w-[10rem] flex-1">
-                        <label className="mb-1 block text-[10.5px] font-medium uppercase tracking-wide text-ink-3">Concept</label>
-                        <Select value={loc.conceptId} onChange={(e) => setLocation(loc.id, { conceptId: e.target.value })} className="h-9">
-                          {concepts.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}
-                        </Select>
+                      <div className="min-w-[12rem] flex-1">
+                        {/* One concept per row: picking another replaces it. */}
+                        <EntityPicker label="Concept" noun="concepts" options={conceptPicks} selected={loc.conceptId ? [loc.conceptId] : []} onChange={(ids) => setLocation(loc.id, { conceptId: ids[ids.length - 1] ?? '' })} />
                       </div>
                       <div className="w-28">
                         <label className="mb-1 block text-[10.5px] font-medium uppercase tracking-wide text-ink-3">Locate by</label>
