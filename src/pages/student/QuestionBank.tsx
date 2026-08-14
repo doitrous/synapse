@@ -17,7 +17,9 @@ import {
   Flame,
   Shuffle,
   Flag,
-  Bookmark,
+  MessageSquareWarning,
+  XCircle,
+  LogOut,
   TrendingDown,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
@@ -193,6 +195,25 @@ function YourQbank({ questions, history }: { questions: Question[]; history: Att
   )
 }
 
+/** Everything needed to put a half-finished sitting back on screen. */
+interface LiveSession {
+  questionIds: string[]
+  idx: number
+  answers: Record<string, number>
+  checked: Record<string, boolean>
+  mode: Mode
+  sessionId: string
+  elapsed: number
+  visited: number[]
+  reviewing: boolean
+  name: string
+  phase: Exclude<Phase, 'setup'>
+  startedAt: string
+}
+
+/** Dotted, so `isUserOwnedState` routes it to the student's own record. */
+const ACTIVE_SESSION_STORAGE_KEY = 'synapse.qbank.activeSession.v1'
+
 export function QuestionBank() {
   const t = useT()
   const location = useLocation()
@@ -235,6 +256,71 @@ export function QuestionBank() {
     setMarkedIds((current) => [...update(new Set(current))])
   }, [setMarkedIds])
   const [showAllRationales, setShowAllRationales] = useState(false)
+  /** What the student called this sitting, if anything. */
+  const [sessionName, setSessionName] = useState('')
+
+  /**
+   * The sitting in progress, kept where a route change cannot take it.
+   *
+   * All of the above is component state, and this page is a route element — so
+   * following a link to the library or a resource unmounted it and threw the
+   * session away. Coming back landed on an empty setup form with no way to
+   * reach the questions again. Only ids are stored; the questions themselves
+   * are rebuilt from the published bank, which is already cached.
+   */
+  const [saved, setSaved, savedStatus] = usePersistentState<LiveSession | null>(ACTIVE_SESSION_STORAGE_KEY, null)
+  const restored = useRef(false)
+  // Held in a ref, not read back from `saved`: the mirror effect below writes
+  // `saved`, so depending on it there would make the write retrigger the effect
+  // that performed it — which is exactly the render loop this avoids.
+  const startedAt = useRef<string | null>(null)
+
+  useEffect(() => {
+    if (restored.current || !savedStatus.hydrated || !saved || !questions.length) return
+    const rebuilt = saved.questionIds
+      .map((id) => questions.find((question) => question.id === id))
+      .filter((question): question is Question => Boolean(question))
+    // A session whose questions have since been unpublished cannot be resumed
+    // honestly, so it is dropped rather than silently shortened.
+    if (rebuilt.length !== saved.questionIds.length) { setSaved(null); restored.current = true; return }
+    restored.current = true
+    startedAt.current = saved.startedAt
+    setSession(rebuilt)
+    setIdx(Math.min(saved.idx, rebuilt.length - 1))
+    setAnswers(saved.answers)
+    setChecked(saved.checked)
+    setMode(saved.mode)
+    setSessionId(saved.sessionId)
+    setElapsed(saved.elapsed)
+    setVisited(new Set(saved.visited))
+    setReviewing(saved.reviewing)
+    setSessionName(saved.name)
+    setPhase(saved.phase)
+  }, [questions, saved, savedStatus.hydrated, setSaved])
+
+  // Mirror the sitting outward. Debounced by the state store, so this is one
+  // write per pause rather than one per answer.
+  useEffect(() => {
+    if (!savedStatus.hydrated) return
+    // Back at the hub means the sitting is over. Clearing only after a restore
+    // has had its chance keeps the first render from wiping a stored session.
+    if (phase === 'setup') {
+      if (restored.current) { startedAt.current = null; setSaved(null) }
+      return
+    }
+    if (!startedAt.current) startedAt.current = new Date().toISOString()
+    setSaved({
+      questionIds: session.map((question) => question.id),
+      idx, answers, checked, mode, sessionId, elapsed,
+      visited: [...visited],
+      reviewing,
+      name: sessionName,
+      phase,
+      startedAt: startedAt.current,
+    })
+    // `saved` is deliberately not a dependency — see startedAt above.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, session, idx, answers, checked, mode, sessionId, elapsed, visited, reviewing, sessionName, savedStatus.hydrated, setSaved])
 
   const articleQuestions = useMemo(
     () => (articleFilter ? questions.filter((question) => question.libraryRefs.some((ref) => ref.id === articleFilter)) : questions),
@@ -370,10 +456,7 @@ export function QuestionBank() {
   if (phase === 'setup') {
     return (
       <PageContainer>
-        <PageHeader
-          title={t('Question Bank')}
-          description={t('Build a session, then work through exam-style questions with worked explanations linked back to the library.')}
-        />
+        <PageHeader title={t('Question Bank')} />
 
         <section className="mb-4 sm:mb-5" aria-labelledby="quick-start-title">
           <h2 id="quick-start-title" className="mb-2.5 text-[11px] font-bold uppercase tracking-[0.09em] text-ink-3">{t('Quick start')}</h2>
@@ -579,6 +662,11 @@ export function QuestionBank() {
   // an imported question the panel below would repeat the rationale already sitting
   // under the right answer. Only show it when it genuinely says something else.
   const hasSeparateExplanation = Boolean(q.explanation.trim()) && q.explanation.trim() !== correctRationale
+  // Every option that is neither correct nor the one chosen, and that actually
+  // has something to say. The index is kept so each keeps its own letter.
+  const wrongOptions = q.options
+    .map((option, index) => ({ option, index }))
+    .filter(({ option, index }) => !option.correct && index !== chosen && option.rationale.trim())
 
   /**
    * Record what this question demonstrated, once, when its answer is checked.
@@ -631,13 +719,11 @@ export function QuestionBank() {
     <div className="mx-auto max-w-[1100px] px-4 py-6 sm:px-6">
       {/* Runner header */}
       <div className="mb-4">
-        {/* Four controls will not sit on one 375px line, so the count takes its own. */}
+        {/* The position is stated once, by the navigator below. This line used
+            to repeat it as "Question 1 of 5" directly above "QUESTIONS 1/5". */}
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-          <span className="w-full text-[13px] font-medium text-ink-2 sm:w-auto">
-            Question <span className="tnum font-mono text-ink">{idx + 1}</span> of {session.length}
-            {reviewing && <span className="ml-2 text-accent">· review</span>}
-          </span>
-          <div className="flex items-center gap-3 sm:ms-auto">
+          {reviewing && <span className="text-[13px] font-medium text-accent">{t('Reviewing')}</span>}
+          <div className="flex items-center gap-2 sm:ms-auto">
             {mode === 'timed' && !reviewing && (
               <span className="tnum inline-flex items-center gap-1.5 font-mono text-[13px] text-ink-2">
                 <Icon icon={Clock} size={14} />
@@ -659,22 +745,23 @@ export function QuestionBank() {
                 marked.has(q.id) ? 'text-accent-strong' : 'text-ink-3 hover:text-ink',
               )}
             >
-              <Icon icon={Bookmark} size={13} className={cn(marked.has(q.id) && 'fill-current')} />
-              {marked.has(q.id) ? t('Marked') : t('Mark')}
+              <Icon icon={Flag} size={13} className={cn(marked.has(q.id) && 'fill-current')} />
+              {marked.has(q.id) ? t('Flagged') : t('Flag')}
             </button>
             <button
               type="button"
               onClick={() => setReportTarget({ kind: 'question', id: q.id, title: q.stem })}
               className="inline-flex min-h-10 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium text-ink-3 transition-colors hover:bg-danger-tint hover:text-danger sm:min-h-0"
             >
-              <Icon icon={Flag} size={13} />
-              Report
+              <Icon icon={MessageSquareWarning} size={13} />
+              {t('Report')}
             </button>
             <button
               onClick={() => setPhase(reviewing ? 'results' : 'setup')}
-              className="text-[12.5px] font-medium text-ink-3 hover:text-ink"
+              className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3 text-[12.5px] font-semibold text-ink shadow-panel transition-colors hover:bg-inset sm:min-h-9"
             >
-              {reviewing ? 'Back to results' : 'End session'}
+              <Icon icon={reviewing ? ArrowLeft : LogOut} size={14} />
+              {reviewing ? t('Back to results') : t('End session')}
             </button>
           </div>
         </div>
@@ -700,7 +787,7 @@ export function QuestionBank() {
 
       <Panel className="p-5 sm:p-6">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="inline-flex items-center gap-1.5 text-[12.5px] font-medium text-ink-2">
+          <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
             <SubjectDot id={q.subjectId} />
             {getSubject(q.subjectId).name}
           </span>
@@ -759,37 +846,64 @@ export function QuestionBank() {
                 </span>
                 <span className="flex-1 pt-0.5 text-[14px] text-ink"><ConceptText text={opt.text} enabled={revealed} /></span>
               </button>
-              {revealed && (showAllRationales || chosen === i || opt.correct) && opt.rationale.trim() && (
-                <p className="mt-1 ps-9 pe-1 text-[12.5px] leading-snug text-ink-2"><ConceptText text={opt.rationale} enabled={revealed} /></p>
-              )}
             </div>
           ))}
         </div>
 
-        {/* The two that matter come first; the rest are one click away. */}
-        {revealed && q.options.some((option, i) => !option.correct && chosen !== i && option.rationale.trim()) && (
-          <button
-            type="button"
-            onClick={() => setShowAllRationales((value) => !value)}
-            aria-expanded={showAllRationales}
-            className="mt-3 inline-flex min-h-10 items-center gap-1.5 text-[12.5px] font-medium text-accent-strong transition-colors hover:text-accent sm:min-h-0"
-          >
-            <Icon
-              icon={ChevronDown}
-              size={14}
-              className={cn('transition-transform duration-200', !showAllRationales && '-rotate-90 rtl:rotate-90')}
-            />
-            {showAllRationales ? t('Hide the other options') : t('Why the other options fail')}
-          </button>
-        )}
+        {/* Everything explanatory reads at the end of the page, in order: why
+            the right answer is right, then why each wrong one is wrong. It used
+            to be scattered under whichever options happened to be revealed. */}
+        {revealed && (
+          <div className="mt-6 space-y-3">
+            {correctRationale && (
+              <div className="rounded-xl border border-success/30 bg-success-tint/40 p-4">
+                <p className="mb-1.5 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-success">
+                  <Icon icon={Check} size={13} strokeWidth={2.6} />
+                  {t('Why the right answer is right')}
+                </p>
+                <p className="text-[14px] leading-relaxed text-ink"><ConceptText text={correctRationale} enabled /></p>
+              </div>
+            )}
 
-        {/* Only when it adds something the option rationales did not already say. */}
-        {revealed && hasSeparateExplanation && (
-          <div className="mt-5 rounded-xl border border-line bg-surface-2 p-4">
-            <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-              {t('Explanation')}
-            </p>
-            <p className="text-[14px] leading-relaxed text-ink"><ConceptText text={q.explanation} enabled={revealed} /></p>
+            {hasSeparateExplanation && (
+              <div className="rounded-xl border border-line bg-surface-2 p-4">
+                <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
+                <p className="text-[14px] leading-relaxed text-ink"><ConceptText text={q.explanation} enabled /></p>
+              </div>
+            )}
+
+            {wrongOptions.length > 0 && (
+              <div className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
+                <button
+                  type="button"
+                  onClick={() => setShowAllRationales((value) => !value)}
+                  aria-expanded={showAllRationales}
+                  className="flex w-full items-center gap-2 px-4 py-3.5 text-start transition-colors hover:bg-inset"
+                >
+                  <Icon icon={XCircle} size={16} className="shrink-0 text-danger" />
+                  <span className="flex-1 text-[13.5px] font-semibold text-ink">{t('Why the wrong answers are wrong')}</span>
+                  <span className="tnum rounded-full bg-inset px-2 py-0.5 font-mono text-[11px] text-ink-2">{wrongOptions.length}</span>
+                  <Icon
+                    icon={ChevronDown}
+                    size={16}
+                    className={cn('shrink-0 text-ink-3 transition-transform duration-200', !showAllRationales && '-rotate-90 rtl:rotate-90')}
+                  />
+                </button>
+                {showAllRationales && (
+                  <ul className="divide-y divide-line border-t border-line">
+                    {wrongOptions.map(({ option, index }) => (
+                      <li key={index} className="flex gap-3 px-4 py-3">
+                        <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border border-line-2 bg-surface-2 font-mono text-[11px] font-bold text-ink-2">{LETTERS[index]}</span>
+                        <span className="min-w-0 flex-1">
+                          <span className="block text-[13px] font-medium text-ink">{option.text}</span>
+                          <span className="mt-1 block text-[12.5px] leading-relaxed text-ink-2"><ConceptText text={option.rationale} enabled /></span>
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            )}
           </div>
         )}
 

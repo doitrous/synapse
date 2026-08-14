@@ -49,6 +49,14 @@ interface Entry {
   userOwned: boolean
   value: unknown
   status: PersistentStateStatus
+  /**
+   * The setter handed to callers, created once per key.
+   *
+   * This must be referentially stable: a fresh closure on every notification
+   * makes any effect that lists the setter in its dependencies re-run on every
+   * store change, and if that effect also writes, it never stops.
+   */
+  setter: (next: Updater<unknown>) => void
   /** The tuple handed to useSyncExternalStore; replaced only when something changed. */
   snapshot: readonly [unknown, (next: Updater<unknown>) => void, PersistentStateStatus]
   subscribers: Set<() => void>
@@ -93,6 +101,7 @@ export function ensureEntry<T>(key: string, initial: T | (() => T)): Entry {
     userOwned: isUserOwnedState(key),
     value: local.found ? local.value : seed(),
     status: { hydrated: !API_MODE, error: null, pending: false },
+    setter: (next) => setEntryValue(key, next),
     snapshot: [undefined, () => undefined, { hydrated: false, error: null, pending: false }],
     subscribers: new Set(),
     hydrated: !API_MODE,
@@ -115,7 +124,7 @@ export function ensureEntry<T>(key: string, initial: T | (() => T)): Entry {
 }
 
 function refreshSnapshot(entry: Entry): void {
-  entry.snapshot = [entry.value, (next) => setEntryValue(entry.key, next), entry.status]
+  entry.snapshot = [entry.value, entry.setter, entry.status]
 }
 
 function notify(entry: Entry): void {
