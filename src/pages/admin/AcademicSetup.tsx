@@ -9,11 +9,12 @@ import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
-import { ModuleIdChip } from '@/components/ui/ModuleIdChip'
+import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
-import { CourseCurriculumDialog, type CourseCurriculumSelection } from '@/components/admin/CourseCurriculumDialog'
+import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { CourseCurriculumDialog, COURSE_CURRICULA_STORAGE_KEY, type CourseCurriculumSelection } from '@/components/admin/CourseCurriculumDialog'
 import { ModuleScheduleDialog } from '@/components/admin/ModuleScheduleDialog'
 import { AcademicImportDialog } from '@/components/admin/AcademicImportDialog'
 import type { ModuleScheduleStore } from '@/data/moduleSchedule'
@@ -39,7 +40,8 @@ function uniqueModuleId(base: string, taken: Set<string>): string {
 export function AcademicSetup() {
   const [unis, setUnis] = useUniversityCatalogue()
   const [contentItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
-  const [curricula, setCurricula] = usePersistentState<Record<string, CourseCurriculumSelection>>('synapse-course-curricula-v1', {})
+  const [conceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [curricula, setCurricula] = usePersistentState<Record<string, CourseCurriculumSelection>>(COURSE_CURRICULA_STORAGE_KEY, {})
   const [schedules, setSchedules] = usePersistentState<ModuleScheduleStore>('synapse-module-schedules-v1', {})
   const [selectedId, setSelectedId] = useState(unis[0]?.id ?? '')
   const [addingUni, setAddingUni] = useState(false)
@@ -56,6 +58,9 @@ export function AcademicSetup() {
   const [yearLabel, setYearLabel] = useState('')
   const [editingModuleId, setEditingModuleId] = useState<string | null>(null)
   const [moduleIdDraft, setModuleIdDraft] = useState('')
+  const [editingModule, setEditingModule] = useState<string | null>(null)
+  const [moduleNameDraft, setModuleNameDraft] = useState('')
+  const [moduleBlockDraft, setModuleBlockDraft] = useState('')
   const [importOpen, setImportOpen] = useState(false)
   const [curriculumEditor, setCurriculumEditor] = useState<{ course: CurriculumCourse; year: string; key: string } | null>(null)
   const [scheduleEditor, setScheduleEditor] = useState<{ course: CurriculumCourse; year: string; key: string } | null>(null)
@@ -113,6 +118,21 @@ export function AcademicSetup() {
     const taken = usedModuleIds(uni.years, courseId)
     const unique = uniqueModuleId(draft, taken)
     patchSelected((u) => ({ ...u, years: u.years.map((y) => ({ ...y, courses: y.courses.map((c) => (c.id === courseId ? { ...c, moduleId: unique } : c)) })) }))
+  }
+
+  /**
+   * Rename a module, or move it to another block.
+   *
+   * Both were fixed at creation and unreachable afterwards, so a typo in a module
+   * name outlived the module. The name is what every other screen shows, so an empty
+   * one is refused rather than saved.
+   */
+  function saveModuleDetails(courseId: string) {
+    const name = moduleNameDraft.trim()
+    const block = moduleBlockDraft.trim()
+    setEditingModule(null)
+    if (!name) return
+    patchSelected((u) => ({ ...u, years: u.years.map((y) => ({ ...y, courses: y.courses.map((c) => (c.id === courseId ? { ...c, name, block: block || c.block } : c)) })) }))
   }
 
   const uni = unis.find((u) => u.id === selectedId) ?? unis[0]
@@ -344,7 +364,7 @@ export function AcademicSetup() {
                       {termCourses.map((c) => {
                         const key = `${uni.id}:${y.year}:${c.id}`
                         const curriculum = curricula[key]
-                        const curriculumCount = (curriculum?.articleIds.length ?? 0) + (curriculum?.questionIds.length ?? 0) + (curriculum?.practicalIds.length ?? 0)
+                        const curriculumCount = (curriculum?.topicNodeIds?.length ?? 0) + (curriculum?.articleIds.length ?? 0) + (curriculum?.questionIds.length ?? 0) + (curriculum?.practicalIds.length ?? 0) + (curriculum?.conceptIds?.length ?? 0) + (curriculum?.resourceIds?.length ?? 0)
                         const scheduleCount = schedules[key]?.length ?? 0
                         const fallbackModuleId = c.moduleId ?? defaultModuleId(c.name, y.courses.indexOf(c) + 1)
                         return (
@@ -356,10 +376,22 @@ export function AcademicSetup() {
                               </form>
                             ) : (
                               <button onClick={() => { setEditingModuleId(c.id); setModuleIdDraft(fallbackModuleId) }} title="Edit module ID" className="shrink-0">
-                                <ModuleIdChip moduleId={fallbackModuleId} />
+                                <SystemMark moduleId={fallbackModuleId} title="Edit module ID" />
                               </button>
                             )}
-                            <span className="min-w-0 basis-full sm:flex-1"><span className="block truncate text-[13.5px] font-medium text-ink">{c.name}</span><span className="mt-0.5 block text-[11px] text-ink-3">{c.block}</span></span>
+                            {editingModule === c.id ? (
+                              <form className="flex min-w-0 basis-full items-center gap-1.5 sm:flex-1" onSubmit={(e) => { e.preventDefault(); saveModuleDetails(c.id) }}>
+                                <TextInput value={moduleNameDraft} onChange={(e) => setModuleNameDraft(e.target.value)} className="h-8 min-w-0 flex-1" autoFocus aria-label="Module name" placeholder="Module name" />
+                                <TextInput value={moduleBlockDraft} onChange={(e) => setModuleBlockDraft(e.target.value)} className="h-8 w-28" aria-label="Block" placeholder="Block" />
+                                <Button type="submit" variant="primary" size="sm"><Icon icon={Check} size={14} /></Button>
+                                <Button type="button" variant="ghost" size="sm" onClick={() => setEditingModule(null)}><Icon icon={X} size={14} /></Button>
+                              </form>
+                            ) : (
+                              <button type="button" onClick={() => { setEditingModule(c.id); setModuleNameDraft(c.name); setModuleBlockDraft(c.block) }} title="Rename module or change its block" className="min-w-0 basis-full rounded px-1 text-start hover:bg-inset sm:flex-1">
+                                <span className="block truncate text-[13.5px] font-medium text-ink">{c.name}</span>
+                                <span className="mt-0.5 block text-[11px] text-ink-3">{c.block}</span>
+                              </button>
+                            )}
                             <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={SlidersHorizontal} onClick={() => setCurriculumEditor({ course: c, year: y.year, key })}>Curriculum{curriculumCount > 0 ? ` · ${curriculumCount}` : ''}</Button>
                             <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={CalendarDays} onClick={() => setScheduleEditor({ course: c, year: y.year, key })}>Schedule{scheduleCount > 0 ? ` · ${scheduleCount}` : ''}</Button>
                             <button onClick={() => removeCourse(i, c.id)} className="grid size-11 place-items-center rounded-lg text-ink-3 transition-opacity hover:bg-danger-tint hover:text-danger sm:size-10 sm:opacity-0 sm:focus:opacity-100 sm:group-hover:opacity-100" aria-label="Remove module"><Icon icon={Trash2} size={15} /></button>
@@ -383,6 +415,7 @@ export function AcademicSetup() {
           course={curriculumEditor.course}
           year={curriculumEditor.year}
           items={contentItems}
+          graph={conceptGraph}
           value={curricula[curriculumEditor.key]}
           onClose={() => setCurriculumEditor(null)}
           onSave={(value) => { setCurricula((current) => ({ ...current, [curriculumEditor.key]: value })); setCurriculumEditor(null) }}
