@@ -6,6 +6,7 @@ import { Sidebar } from './Sidebar'
 import { Topbar } from './Topbar'
 import { CommandSearch } from './CommandSearch'
 import { StudyContextMenu } from './StudyContextMenu'
+import { StudentOnboarding } from '@/components/onboarding/StudentOnboarding'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
 import { cn } from '@/lib/cn'
@@ -129,6 +130,7 @@ export function AppShell({ portal }: { portal: Portal }) {
 
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
       <StudyContextMenu />
+      {portal === 'student' && <StudentOnboarding />}
     </div>
   )
 }

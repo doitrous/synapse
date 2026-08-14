@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
+import { QuestionView } from '@/components/qbank/QuestionView'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Avatar } from '@/components/ui/Avatar'
@@ -23,7 +24,6 @@ import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 const MAX_QUESTIONS = 40
-const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items]
@@ -199,29 +199,13 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
       <Panel>
         <PanelHeader title={room.name} icon={Hash} hint={`${answeredCount + 1} / ${room.questionCount}`} />
         <div className="p-5">
-          {question.vignette && <p className="mb-3 text-[13.5px] leading-relaxed text-ink-2">{question.vignette}</p>}
-          <p className="text-[15px] font-medium leading-relaxed text-ink">{question.stem}</p>
-          <ul className="mt-4 space-y-2">
-            {question.options.map((option, index) => (
-              <li key={index}>
-                <button
-                  type="button"
-                  disabled={Boolean(verdict)}
-                  onClick={() => setChosen(index)}
-                  className={cn(
-                    'flex w-full items-start gap-3 rounded-lg border p-3 text-left transition-colors',
-                    verdict
-                      ? index === verdict.correctIndex ? 'border-success bg-success-tint'
-                        : index === chosen ? 'border-danger bg-danger-tint' : 'border-line bg-surface opacity-70'
-                      : chosen === index ? 'border-accent bg-accent-tint/50' : 'border-line bg-surface hover:border-line-2',
-                  )}
-                >
-                  <span className="grid size-6 shrink-0 place-items-center rounded-md border border-line-2 font-mono text-[12px] text-ink-2">{LETTERS[index]}</span>
-                  <span className="text-[13.5px] leading-snug text-ink">{option.text}</span>
-                </button>
-              </li>
-            ))}
-          </ul>
+          <QuestionView
+            question={question}
+            chosen={chosen}
+            revealed={Boolean(verdict)}
+            correctIndex={verdict?.correctIndex}
+            onChoose={setChosen}
+          />
           <div className="mt-5 flex flex-wrap gap-2">
             {verdict ? (
               <Button

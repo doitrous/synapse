@@ -23,7 +23,7 @@ function greetingKey(): string {
 
 export function Dashboard() {
   const t = useT()
-  const { displayName, profileMissing } = useIdentity()
+  const { displayName, audienceUnknown } = useIdentity()
   const { sessions } = useStudentSchedule()
   // Only claimed when an exam is actually on the published timetable. The line
   // used to read "38 days to your Cardiovascular exam — you're on track" from a
@@ -53,9 +53,10 @@ export function Dashboard() {
         <Link to="/app/calendar"><Button variant="primary" size="md" iconLeft={Play}>{t("Continue today's plan")}</Button></Link>
       </div>
 
-      {profileMissing && (
+      {audienceUnknown && (
         <div className="mb-4 rounded-lg border border-warning/30 bg-warning-tint px-4 py-3 text-[13px] leading-relaxed text-ink-2">
-          {t("Your university hasn't set up your student profile yet, so your timetable and any content scoped to your year won't appear. Everything else works as normal.")}
+          {t('Nobody has recorded where you study, so your timetable and anything scoped to your year stay empty. Everything else works as normal.')}{' '}
+          <Link to="/app/account" className="font-semibold text-accent-strong hover:text-accent">{t('Add it in your account')}</Link>
         </div>
       )}
 
