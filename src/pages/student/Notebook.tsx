@@ -34,6 +34,7 @@ export function Notebook() {
   const [newTag, setNewTag] = useState('')
   const [imageError, setImageError] = useState<string | null>(null)
   const handledArticle = useRef<string | null>(null)
+  const handledCapture = useRef(false)
 
   const needle = query.trim().toLowerCase()
   const filtered = notes.filter(
@@ -46,6 +47,30 @@ export function Notebook() {
       || n.tags.some((tag) => tag.toLowerCase().includes(needle)),
   )
   const note = notes.find((n) => n.id === selectedId) ?? null
+
+  // A phrase sent here from the right-click menu. It travels in sessionStorage
+  // rather than the URL so a long quote does not end up in browser history, and
+  // it is consumed on arrival so a later visit does not re-create the note.
+  useEffect(() => {
+    if (params.get('capture') !== '1' || handledCapture.current) return
+    handledCapture.current = true
+    let captured: string | null = null
+    try {
+      captured = sessionStorage.getItem('synapse.notebook.capture')
+      sessionStorage.removeItem('synapse.notebook.capture')
+    } catch { /* ignore */ }
+    if (!captured) return
+    const id = `nb${Date.now()}`
+    const firstLine = captured.split('\n')[0].trim()
+    setNotes((current) => [{
+      id,
+      title: firstLine.length > 48 ? `${firstLine.slice(0, 48)}…` : firstLine || 'Captured note',
+      body: `> ${captured.replace(/\n/g, '\n> ')}\n\n`,
+      tags: [],
+      updatedAt: new Date().toISOString(),
+    }, ...current])
+    setSelectedId(id)
+  }, [params, setNotes])
 
   useEffect(() => {
     if (!linkedArticle) return

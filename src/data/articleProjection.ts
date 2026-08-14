@@ -6,6 +6,7 @@
  * per surface.
  */
 
+import { normalizeProse } from '../lib/prose.ts'
 import { isMediaReleased, type ManagedContentItem, type ArticleMediaRecord } from './contentControl.ts'
 import type { ConceptGraph } from './conceptGraph.ts'
 import type { RelatedArticleLink, ReaderAnnotation, Subtopic, LibBlock } from './library.ts'
@@ -82,9 +83,17 @@ function publishableMedia(media?: ArticleMediaRecord[]): ArticleMediaRecord[] {
   return (media ?? []).filter(isMediaReleased)
 }
 
-/** Split a section body into paragraph blocks. */
+/**
+ * Split a section body into paragraph blocks.
+ *
+ * Typography is settled here rather than at render time so that every surface
+ * that reads a projected article — reader, search, notebook templates, the
+ * question bank's linked excerpts — shows the same text. Authored content uses
+ * straight quotes while the app's own copy uses typographic ones, which is what
+ * made quoted phrases look unstyled.
+ */
 function bodyToBlocks(body: string): LibBlock[] {
-  return body
+  return normalizeProse(body)
     .split(/\n{2,}/)
     .map((p) => p.trim())
     .filter(Boolean)

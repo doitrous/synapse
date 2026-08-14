@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, PanelLeft, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, Languages, LogOut } from 'lucide-react'
+import { Menu, Maximize2, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, Languages, LogOut } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Icon } from '@/components/ui/Icon'
@@ -31,13 +31,17 @@ const iconBtn =
 export function Topbar({
   portal,
   collapsed,
+  focusMode,
   onToggleCollapse,
+  onToggleFocusMode,
   onOpenMobile,
   onOpenSearch,
 }: {
   portal: Portal
   collapsed: boolean
+  focusMode: boolean
   onToggleCollapse: () => void
+  onToggleFocusMode: () => void
   onOpenMobile: () => void
   onOpenSearch: () => void
 }) {
@@ -89,17 +93,23 @@ export function Topbar({
     }
   }, [])
 
+  // Focus mode removes the whole bar, so nothing below needs to be rendered.
+  if (focusMode) return null
+
   return (
     <header className="sticky top-0 z-30 flex h-[calc(3.5rem+env(safe-area-inset-top))] min-w-0 items-center gap-1.5 border-b border-line bg-paper px-2.5 pt-[env(safe-area-inset-top)] sm:gap-2 sm:px-4">
       <button className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
         <Icon icon={Menu} size={18} />
       </button>
+      {/* The same three lines as the mobile control: one affordance for
+          "show or hide the menu", rather than two glyphs for one idea. */}
       <button
         className={cn(iconBtn, 'hidden lg:inline-flex')}
         onClick={onToggleCollapse}
         aria-label={collapsed ? t('Expand sidebar') : t('Collapse sidebar')}
+        title={collapsed ? t('Expand sidebar') : t('Collapse sidebar')}
       >
-        <Icon icon={PanelLeft} size={18} />
+        <Icon icon={Menu} size={18} />
       </button>
 
       <nav className="flex min-w-0 flex-1 items-center gap-2" aria-label="Breadcrumb">
@@ -121,6 +131,15 @@ export function Topbar({
         </button>
         <button onClick={onOpenSearch} className={cn(iconBtn, 'sm:hidden')} aria-label={t('Search')}>
           <Icon icon={Search} size={18} />
+        </button>
+
+        <button
+          onClick={onToggleFocusMode}
+          className={cn(iconBtn, 'hidden lg:inline-flex')}
+          aria-label={t('Hide menus')}
+          title={t('Hide menus')}
+        >
+          <Icon icon={Maximize2} size={17} />
         </button>
 
         <ThemeSwitch className="hidden sm:inline-flex" />

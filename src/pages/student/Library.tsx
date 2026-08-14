@@ -43,14 +43,24 @@ import { useT } from '@/lib/i18n'
 import { NewArticleDialog } from '@/components/library/NewArticleDialog'
 import { PERSONAL_TAGS_KEY, USER_ARTICLES_KEY, type UserArticle } from '@/data/userLibrary'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type ArticleSpan, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore } from '@/data/medicalEvidence'
+import { RichText } from '@/components/ui/RichText'
 import { apiOpenFile } from '@/lib/api'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { AtlasNavigation, LibraryLanding, LibraryViewTabs, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
 
+/**
+ * Article prose, with the search term marked where there is one.
+ *
+ * With no active search the text goes through RichText, so the inline markup
+ * authors write is rendered rather than shown as literal asterisks and
+ * backticks. While searching, the plain string is used instead: splitting on
+ * the query and re-tokenising each fragment would break markers across the
+ * split, and seeing what matched matters more than seeing it in bold.
+ */
 function Highlight({ text, query }: { text: string; query: string }) {
   const q = query.trim()
-  if (!q) return text
+  if (!q) return <RichText text={text} />
   const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   return <>{text.split(new RegExp(`(${escaped})`, 'ig')).map((part, index) => part.toLowerCase() === q.toLowerCase() ? <mark key={index} className="rounded-sm bg-warning-tint px-0.5 text-ink">{part}</mark> : part)}</>
 }
