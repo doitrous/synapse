@@ -1,8 +1,9 @@
-import { lazy, Suspense, type ComponentType, type ReactElement } from 'react'
-import { createBrowserRouter } from 'react-router-dom'
+import { lazy, Suspense, useEffect, type ComponentType, type ReactElement } from 'react'
+import { createBrowserRouter, Navigate } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { RequireAuth } from '@/components/auth/RequireAuth'
+import { ADMIN_ORIGIN, STUDENT_ORIGIN, isAdminHost, isStudentHost, samePathOn } from '@/lib/portalHost'
 
 /**
  * A route component that can also be fetched before it is rendered, so the
@@ -20,6 +21,17 @@ function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: s
 
 function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}): ReactElement {
   return <Suspense fallback={<RouteLoading />}><Page {...props} /></Suspense>
+}
+
+/**
+ * Hand this path to the other portal's origin.
+ *
+ * `replace` rather than `assign` so the back button returns to wherever the
+ * student came from, not to a page that will only bounce them again.
+ */
+function HandOver({ origin }: { origin: string }): ReactElement {
+  useEffect(() => { window.location.replace(samePathOn(origin)) }, [origin])
+  return <RouteLoading />
 }
 
 const Landing = lazyNamed(() => import('@/pages/Landing'), 'Landing')
@@ -141,37 +153,53 @@ const studentRoutes = [
 ]
 const adminRoutes = adminPaths.map((path) => ({ path, element: adminBuilt[path] ?? render(Placeholder) }))
 
+// Which portal this origin serves. Everywhere else — localhost, previews — both
+// halves stay mounted, so development is unaffected by the production split.
+const adminHost = isAdminHost()
+const studentHost = isStudentHost()
+
+const toStudentSite = <HandOver origin={STUDENT_ORIGIN} />
+
+const studentApp = {
+  path: '/app',
+  element: <RequireAuth><AppShell portal="student" /></RequireAuth>,
+  children: [{ index: true, element: render(Dashboard) }, ...studentRoutes],
+}
+
+const adminApp = {
+  path: '/admin',
+  element: <RequireAuth role="admin"><AppShell portal="admin" /></RequireAuth>,
+  children: [
+    { index: true, element: render(ControlDashboard) },
+    { path: 'import/:kind', element: render(BulkImportPage) },
+    { path: 'concepts/import', element: render(ConceptsImportPage) },
+    { path: 'relationships/import', element: render(RelationsImportPage) },
+    { path: 'academic/import', element: render(AcademicImportPage) },
+    { path: 'taxonomy/import', element: render(SubjectsImportPage) },
+    { path: 'library/coverage', element: render(MedicalCoverageReview) },
+    { path: 'library/media', element: render(MediaRequests) },
+    { path: 'library/evidence/import', element: render(EvidenceImportPage) },
+    ...adminRoutes,
+  ],
+}
+
 export const router = createBrowserRouter([
-  { path: '/', element: render(LandingAr) },
-  { path: '/en', element: render(Landing) },
-  { path: '/ar', element: render(LandingAr) },
+  // On the admin domain the root is the dashboard. The public site and the student
+  // app belong to the other origin, so they are handed over rather than rendered —
+  // the admin build is the same bundle, but this domain only ever shows one half.
+  { path: '/', element: adminHost ? <Navigate to="/admin" replace /> : render(LandingAr) },
+  { path: '/en', element: adminHost ? toStudentSite : render(Landing) },
+  { path: '/ar', element: adminHost ? toStudentSite : render(LandingAr) },
+  // Auth stays on both origins: RequireAuth sends a signed-out admin to /login, and
+  // a session lives per-origin, so the admin domain needs its own way in.
   { path: '/login', element: render(Login) },
-  { path: '/signup', element: render(Signup) },
+  { path: '/signup', element: adminHost ? toStudentSite : render(Signup) },
   { path: '/logout', element: render(Logout) },
   { path: '/auth/verify-email', element: render(VerifyEmail) },
   { path: '/auth/mfa', element: render(MfaSetup) },
   { path: '/auth/forgot-password', element: render(ForgotPassword) },
   { path: '/auth/reset-password', element: render(ResetPassword) },
-  {
-    path: '/app',
-    element: <RequireAuth><AppShell portal="student" /></RequireAuth>,
-    children: [{ index: true, element: render(Dashboard) }, ...studentRoutes],
-  },
-  {
-    path: '/admin',
-    element: <RequireAuth role="admin"><AppShell portal="admin" /></RequireAuth>,
-    children: [
-      { index: true, element: render(ControlDashboard) },
-      { path: 'import/:kind', element: render(BulkImportPage) },
-      { path: 'concepts/import', element: render(ConceptsImportPage) },
-      { path: 'relationships/import', element: render(RelationsImportPage) },
-      { path: 'academic/import', element: render(AcademicImportPage) },
-      { path: 'taxonomy/import', element: render(SubjectsImportPage) },
-      { path: 'library/coverage', element: render(MedicalCoverageReview) },
-      { path: 'library/media', element: render(MediaRequests) },
-      { path: 'library/evidence/import', element: render(EvidenceImportPage) },
-      ...adminRoutes,
-    ],
-  },
+  adminHost ? { path: '/app/*', element: toStudentSite } : studentApp,
+  studentHost ? { path: '/admin/*', element: <HandOver origin={ADMIN_ORIGIN} /> } : adminApp,
   { path: '*', element: render(NotFound) },
 ])
