@@ -121,7 +121,8 @@ export function overlaySubtopic(
       if (s.heading?.trim()) blocks.push({ type: 'h', text: s.heading.trim() })
       if (s.body?.trim()) blocks.push(...bodyToBlocks(s.body))
     })
-    traps.forEach((text) => blocks.push({ type: 'callout', tone: 'warning', text }))
+    // Traps are returned separately, for the reader's own panel. Appending them
+    // here as well is what made them appear twice — see articleToSubtopic.
   }
 
   // University-only notes render as a distinct accent callout wherever the article appears.
@@ -217,8 +218,12 @@ export function articleToSubtopic(
   // Reviewed traps survive the evidence gate. `publishableCallouts` decides each
   // line on its own evidence, so gating an article no longer discards teaching a
   // human already checked.
+  //
+  // They are returned on `traps` for the reader's "Where people lose the mark"
+  // panel and deliberately NOT pushed into `blocks`: doing both printed every
+  // trap twice, once as a warning callout tacked onto the end of the article and
+  // again in the panel meant to hold them.
   const traps = publishableCallouts('trap', d, evidence)
-  traps.forEach((text) => blocks.push({ type: 'callout', tone: 'warning', text }))
   ;(isEvidenceGated ? [] : d?.universityNotes ?? []).filter((n) => n.text?.trim()).forEach((n) => {
     const short = universities.find((u) => u.id === n.universityId)?.short ?? n.universityId
     blocks.push({ type: 'callout', tone: 'accent', title: `${short} only`, text: n.text!.trim() })

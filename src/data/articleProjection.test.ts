@@ -1,8 +1,8 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { relatedArticleLinks, readerAnnotations, relatedReasonKey, sectionSpans } from './articleProjection.ts'
+import { articleToSubtopic, overlaySubtopic, relatedArticleLinks, readerAnnotations, relatedReasonKey, sectionSpans } from './articleProjection.ts'
 import { parseSections } from './bulkImport.ts'
-import type { MedicalEvidenceStore } from './medicalEvidence.ts'
+import { emptyMedicalEvidenceStore, type MedicalEvidenceStore } from './medicalEvidence.ts'
 import type { ManagedContentItem } from './contentControl.ts'
 import type { ConceptGraph } from './conceptGraph.ts'
 
@@ -130,4 +130,42 @@ test('a span reaches its section without the article naming it back', () => {
   const spans = sectionSpans('ART-X', { id: 'art-x-definition' }, evidence)
   assert.deepEqual(spans.map((s) => s.id), ['SPN-1'])
   assert.deepEqual(sectionSpans('ART-X', { id: 'art-x-other' }, evidence), [])
+})
+
+test('a trap is offered once, for the reader panel, and not also appended to the body', () => {
+  // Regression: traps were pushed into `blocks` as warning callouts *and*
+  // returned on `traps`, so every "Where people lose the mark" line printed
+  // twice — once tacked onto the end of the article, once in its own panel.
+  const article = item('ART-TRAP', 'Coronary sinus', {
+    sections: [{ heading: 'Anatomy', body: 'The coronary sinus is the main cardiac vein.' }],
+    loseTheMark: ['Do not confuse the sinus with the sulcus.'],
+  })
+  const projected = articleToSubtopic(article, emptyMedicalEvidenceStore(), { concepts: [], relations: [] } as ConceptGraph, readable)
+
+  assert.deepEqual(projected.traps, ['Do not confuse the sinus with the sulcus.'])
+  const warnings = projected.blocks.filter((block) => block.type === 'callout' && block.tone === 'warning')
+  assert.deepEqual(warnings, [], 'traps must not also be emitted as body callouts')
+})
+
+test('an overlaid article with an edited body does not repeat its traps either', () => {
+  const seeded = {
+    id: 'sub-1', title: 'Seeded', readingMin: 5, summary: '', blocks: [], keyPoints: [], questions: [], media: [],
+  } as unknown as Parameters<typeof overlaySubtopic>[0]
+  const overlay = item('ART-OVER', 'Overlaid', {
+    sections: [{ heading: 'Anatomy', body: 'Edited body text.' }],
+    loseTheMark: ['The sulcus is the groove, not the vein.'],
+  })
+  const projected = overlaySubtopic(seeded, overlay, emptyMedicalEvidenceStore(), { concepts: [], relations: [] } as ConceptGraph, readable)
+
+  assert.deepEqual(projected.traps, ['The sulcus is the groove, not the vein.'])
+  assert.deepEqual(projected.blocks.filter((block) => block.type === 'callout' && block.tone === 'warning'), [])
+})
+
+test('prose reaching the reader has the typography the rest of the page uses', () => {
+  const article = item('ART-QUOTE', 'Palpitations', {
+    sections: [{ heading: 'History', body: 'She says her heart keeps "jumping".' }],
+  })
+  const projected = articleToSubtopic(article, emptyMedicalEvidenceStore(), { concepts: [], relations: [] } as ConceptGraph, readable)
+  const paragraph = projected.blocks.find((block) => block.type === 'p')
+  assert.equal(paragraph?.text, 'She says her heart keeps “jumping”.')
 })

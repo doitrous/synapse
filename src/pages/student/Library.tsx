@@ -774,7 +774,6 @@ export function Library() {
   const { subtopics: allSubtopics } = useLiveLibrary()
   const [taxonomy] = useMedicalTaxonomy()
   const taxonomyIndex = useMemo(() => indexMedicalTaxonomy(taxonomy), [taxonomy])
-  const [universityCatalogue] = useUniversityCatalogue()
   const [params, setParams] = useSearchParams()
   const paramId = params.get('s')
   const paramView = params.get('view')
@@ -865,7 +864,9 @@ export function Library() {
     setParams(next)
   }
 
-  const yearCount = universityCatalogue.reduce((sum, university) => sum + university.years.length, 0)
+  // "On a route" means a view has been chosen or an article opened — the two
+  // states in which the tab strip is a navigation aid rather than a duplicate.
+  const onRoute = view !== 'home' || Boolean(selectedId)
   const selectedNode = selectedNodeId ? taxonomyIndex.byId.get(selectedNodeId) : undefined
   const selectedPublishedArticle = allSubtopics.find((article) => article.id === selectedId)
 
@@ -873,18 +874,23 @@ export function Library() {
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
         <button type="button" className="inline-flex shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
-        <span className="hidden h-5 w-px shrink-0 bg-line sm:block" />
+        {/* The home state offers these same five routes as cards in the page.
+            Showing them as tabs at the same time was two menus for one choice,
+            so the strip appears only once a route has been picked. */}
+        {onRoute && <span className="hidden h-5 w-px shrink-0 bg-line sm:block" />}
         {/* Too narrow for six tabs on a phone — the Browse topics drawer carries them there. */}
-        <LibraryViewTabs view={view} onViewChange={changeView} className="max-sm:hidden" />
+        {onRoute
+          ? <LibraryViewTabs view={view} onViewChange={changeView} className="max-sm:hidden" />
+          : <span className="flex-1" />}
         <span className="flex-1 sm:hidden" />
         {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
         <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="shrink-0">{t('New article')}</Button>
       </header>
 
       <div className="min-h-0 flex-1">
-        {view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} universityCount={universityCatalogue.length} yearCount={yearCount} onOpenView={openView} onOpenArticle={openArticle} /> : (
+        {view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} onOpenView={openView} onOpenArticle={openArticle} /> : (
           <div className="grid h-full min-h-0 grid-cols-[18rem_minmax(0,1fr)] max-lg:grid-cols-1">
-            <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>
+            <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>
             <main className="min-w-0 overflow-y-auto">
               {selectedUserArticle ? (
           <UserReader
@@ -909,7 +915,7 @@ export function Library() {
             onOpenArticle={openArticle}
           />
         ) : (
-          <TaxonomyNodeOverview node={selectedNode} taxonomy={taxonomy} articles={atlasArticles} onOpenArticle={openArticle} />
+          <TaxonomyNodeOverview node={selectedNode} taxonomy={taxonomy} articles={atlasArticles} onOpenArticle={openArticle} onSelectNode={selectNode} />
         )}
             </main>
           </div>
@@ -928,7 +934,7 @@ export function Library() {
               </button>
             </div>
             <div className="border-b border-line px-2 py-2"><LibraryViewTabs view={view} onViewChange={(next) => { changeView(next); if (next === 'home') setTreeOpen(false) }} /></div>
-            <div className="grid min-h-0 flex-1 grid-cols-1"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onNodeSelect={(nodeId) => { selectNode(nodeId); setTreeOpen(false) }} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} /></div>
+            <div className="grid min-h-0 flex-1 grid-cols-1"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={(nodeId) => { selectNode(nodeId); setTreeOpen(false) }} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} /></div>
           </div>
         </div>
       )}
