@@ -70,6 +70,53 @@ export function StudyContextMenu() {
     return () => document.removeEventListener('contextmenu', onContextMenu)
   }, [])
 
+  /**
+   * Long press, for touch.
+   *
+   * A phone has no right-click. iOS fires `contextmenu` on long press but
+   * Android generally does not, and neither does so while a selection is being
+   * dragged — which is exactly when these actions are wanted. Holding still for
+   * half a second opens the same menu; moving more than a few pixels is a scroll
+   * or a selection drag, and cancels.
+   */
+  useEffect(() => {
+    let timer: number | null = null
+    let origin: { x: number; y: number } | null = null
+
+    const cancel = () => {
+      if (timer != null) window.clearTimeout(timer)
+      timer = null
+      origin = null
+    }
+
+    function onPointerDown(event: PointerEvent) {
+      if (event.pointerType !== 'touch') return
+      origin = { x: event.clientX, y: event.clientY }
+      timer = window.setTimeout(() => {
+        timer = null
+        const next = readTarget(event as unknown as MouseEvent)
+        if (next) setTarget(next)
+      }, 500)
+    }
+
+    function onPointerMove(event: PointerEvent) {
+      if (!origin) return
+      if (Math.hypot(event.clientX - origin.x, event.clientY - origin.y) > 10) cancel()
+    }
+
+    document.addEventListener('pointerdown', onPointerDown)
+    document.addEventListener('pointermove', onPointerMove)
+    document.addEventListener('pointerup', cancel)
+    document.addEventListener('pointercancel', cancel)
+    return () => {
+      cancel()
+      document.removeEventListener('pointerdown', onPointerDown)
+      document.removeEventListener('pointermove', onPointerMove)
+      document.removeEventListener('pointerup', cancel)
+      document.removeEventListener('pointercancel', cancel)
+    }
+  }, [])
+
   const close = useCallback(() => setTarget(null), [])
 
   if (!target) return null

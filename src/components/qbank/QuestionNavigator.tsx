@@ -54,7 +54,10 @@ export function QuestionNavigator({
   className?: string
 }) {
   const t = useT()
-  const [open, setOpen] = useState(true)
+  // Open on a large screen, closed on a phone. The grid of numbers is a
+  // convenience beside the question on a desktop; above it on a 375px screen it
+  // is a screenful of chrome before the thing being read.
+  const [open, setOpen] = useState(() => typeof window === 'undefined' || window.innerWidth >= 640)
   const indexes = Array.from({ length: count }, (_, i) => i)
   const answered = indexes.filter((i) => stateFor(i) !== 'unseen' && stateFor(i) !== 'omitted').length
   const flagged = indexes.filter(isFlagged).length
@@ -98,7 +101,8 @@ export function QuestionNavigator({
                     aria-current={here ? 'true' : undefined}
                     aria-label={`${t('Question')} ${i + 1}, ${t(state)}${isFlagged(i) ? `, ${t('marked for review')}` : ''}`}
                     className={cn(
-                      'tnum grid size-9 place-items-center rounded-md border font-mono text-[12.5px] transition-colors',
+                      // 44px on touch, tighter once there is a pointer.
+                      'tnum grid size-11 place-items-center rounded-md border font-mono text-[12.5px] transition-colors sm:size-9',
                       SWATCH[state],
                       here
                         ? 'border-accent font-semibold text-accent-strong ring-2 ring-accent/30'

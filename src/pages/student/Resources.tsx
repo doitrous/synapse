@@ -338,7 +338,7 @@ export function Resources() {
                       const subCollapsed = collapsed.has(subKey)
                       return (
                         <div key={subKey}>
-                          <button type="button" onClick={() => toggleFolder(subKey)} aria-expanded={!subCollapsed} className="flex w-full items-center gap-2 px-4 py-2 text-start ps-8 hover:bg-inset/50">
+                          <button type="button" onClick={() => toggleFolder(subKey)} aria-expanded={!subCollapsed} className="flex min-h-11 w-full items-center gap-2 px-4 py-2 text-start ps-8 hover:bg-inset/50 sm:min-h-0">
                             <Icon icon={Folder} size={13} className="text-ink-3" />
                             <span className="text-[11.5px] font-semibold uppercase tracking-[0.06em] text-ink-2">{subLabel}</span>
                             <span className="tnum ms-1 font-mono text-[10.5px] text-ink-3">{list.length}</span>

@@ -104,7 +104,7 @@ export function Topbar({
       {/* The same three lines as the mobile control: one affordance for
           "show or hide the menu", rather than two glyphs for one idea. */}
       <button
-        className={cn(iconBtn, 'hidden lg:inline-flex')}
+        className={cn(iconBtn, 'max-lg:hidden')}
         onClick={onToggleCollapse}
         aria-label={collapsed ? t('Expand sidebar') : t('Collapse sidebar')}
         title={collapsed ? t('Expand sidebar') : t('Collapse sidebar')}
@@ -135,14 +135,14 @@ export function Topbar({
 
         <button
           onClick={onToggleFocusMode}
-          className={cn(iconBtn, 'hidden lg:inline-flex')}
+          className={cn(iconBtn, 'max-lg:hidden')}
           aria-label={t('Hide menus')}
           title={t('Hide menus')}
         >
           <Icon icon={Maximize2} size={17} />
         </button>
 
-        <ThemeSwitch className="hidden sm:inline-flex" />
+        <ThemeSwitch className="max-sm:hidden" />
 
         <button
           onClick={toggle}
