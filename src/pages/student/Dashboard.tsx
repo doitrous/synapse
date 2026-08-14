@@ -10,7 +10,7 @@ import { StudyHeatmap } from '@/components/dashboard/StudyHeatmap'
 import { LastUsedResources } from '@/components/dashboard/LastUsedResources'
 import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
 import { formatLongDate } from '@/lib/format'
-import { useT } from '@/lib/i18n'
+import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 import { nextExam, useStudentSchedule } from '@/lib/useStudentSchedule'
 
@@ -22,7 +22,7 @@ function greetingKey(): string {
 }
 
 export function Dashboard() {
-  const t = useT()
+  const { t, lang } = useI18n()
   const { displayName, audienceUnknown } = useIdentity()
   const { sessions } = useStudentSchedule()
   // Only claimed when an exam is actually on the published timetable. The line
@@ -35,7 +35,9 @@ export function Dashboard() {
       <div className="mb-6 flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
         <div>
           <h1 className="font-serif text-[28px] font-semibold tracking-[-0.02em] text-ink sm:text-[32px]">
-            {t(greetingKey())}، {displayName}
+            {/* The Arabic comma was hardcoded, so the English greeting read
+                "Good afternoon، Student". Punctuation follows the language. */}
+            {t(greetingKey())}{lang === 'ar' ? '، ' : ', '}{displayName}
           </h1>
           <p className="mt-1.5 text-[14px] text-ink-2">
             {formatLongDate(new Date())}

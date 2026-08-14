@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useMemo, useState, type ReactNode } from 'react'
 import {
   Stethoscope,
   ClipboardList,
@@ -13,6 +13,7 @@ import {
   MessagesSquare,
   Eye,
   EyeOff,
+  ChevronRight,
 } from 'lucide-react'
 import type { Skill } from '@/data/practical'
 import { skills, oralQuestions } from '@/data/practical'
@@ -22,6 +23,7 @@ import { useLivePracticals } from '@/lib/useLivePracticals'
 import { usePracticalProgress } from '@/lib/usePracticalProgress'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { subjects } from '@/data/subjects'
+import { cn } from '@/lib/cn'
 import { getSubject } from '@/data/subjects'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
@@ -30,7 +32,7 @@ import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { Meter } from '@/components/ui/Meter'
 import { Tabs } from '@/components/ui/Tabs'
-import { ChapterMark } from '@/components/ui/ChapterMark'
+import { SystemMark } from '@/components/ui/SystemMark'
 import { PracticalRunner } from '@/components/practical/PracticalRunner'
 import type { RunnerTarget } from '@/components/practical/PracticalRunner'
 import { ConceptText } from '@/components/concepts/ConceptText'
@@ -59,6 +61,68 @@ function clickable(onOpen: () => void) {
   }
 }
 
+/**
+ * Any practical list, divided by system.
+ *
+ * Oral questions were grouped by subject and the other four tabs were flat, so
+ * the same catalogue was organised one way on one tab and not at all on the
+ * next. Catalogue order first, then any system the catalogue does not list —
+ * nothing is dropped for being unrecognised.
+ */
+function SystemSections<T extends { id: string; subjectId: string }>({
+  items,
+  children,
+}: {
+  items: T[]
+  children: (item: T, indexInSystem: number) => ReactNode
+}) {
+  const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
+  const groups = useMemo(() => {
+    const buckets = new Map<string, T[]>()
+    for (const item of items) {
+      const key = item.subjectId || 'unfiled'
+      const bucket = buckets.get(key)
+      if (bucket) bucket.push(item)
+      else buckets.set(key, [item])
+    }
+    const known = subjects.map((subject) => subject.id).filter((id) => buckets.has(id))
+    const rest = [...buckets.keys()].filter((key) => !known.includes(key)).sort()
+    return [...known, ...rest].map((key) => ({ key, items: buckets.get(key)! }))
+  }, [items])
+
+  return (
+    <div className="space-y-3">
+      {groups.map((group) => {
+        const isCollapsed = collapsed.has(group.key)
+        return (
+          <Panel key={group.key} className="overflow-hidden">
+            <button
+              type="button"
+              aria-expanded={!isCollapsed}
+              onClick={() => setCollapsed((current) => {
+                const next = new Set(current)
+                if (!next.delete(group.key)) next.add(group.key)
+                return next
+              })}
+              className="flex w-full items-center gap-2.5 border-b border-line bg-surface-2/50 px-4 py-2.5 text-start transition-colors hover:bg-inset/60"
+            >
+              <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !isCollapsed && 'rotate-90')} />
+              <SystemMark subjectId={group.key} />
+              <h2 className="font-serif text-[15.5px] font-semibold text-ink">{getSubject(group.key).name}</h2>
+              <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{group.items.length}</span>
+            </button>
+            {!isCollapsed && (
+              <ul className="divide-y divide-line">
+                {group.items.map((item, index) => <li key={item.id}>{children(item, index)}</li>)}
+              </ul>
+            )}
+          </Panel>
+        )
+      })}
+    </div>
+  )
+}
+
 /* ---- OSCE -------------------------------------------------------------- */
 
 function OsceTab({ onOpen }: { onOpen: Open }) {
@@ -70,61 +134,56 @@ function OsceTab({ onOpen }: { onOpen: Open }) {
   }
 
   return (
-    <Panel>
-      <ul className="divide-y divide-line">
-        {osceStations.map((s, index) => {
-          const subj = getSubject(s.subjectId)
-          // The student's own record, not a property of the station.
-          const run = progress.stations[s.id]
-          const bestPct = run && run.outOf ? Math.round((run.bestMarks / run.outOf) * 100) : null
-          const open = () =>
-            onOpen({ kind: 'osce', id: s.id, title: s.title, subjectId: s.subjectId, minutes: s.minutes })
-          return (
-            <li key={s.id}>
-              <div {...clickable(open)}>
-                <span className="grid size-10 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2">
-                  <Icon icon={Stethoscope} size={18} />
-                </span>
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-2"><ChapterMark subjectId={s.subjectId} index={index + 1} compact /><p className="text-[14px] font-medium text-ink">{s.title}</p></div>
-                  <p className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[12px] text-ink-3">
-                    <span className="font-medium text-ink-2">{subj.name}</span>
-                    <span>·</span>
-                    <span>{s.minutes} min</span>
-                    <span>·</span>
-                    <span>{s.marks} marks</span>
+    <SystemSections items={osceStations}>
+      {(s) => {
+        // The student's own record, not a property of the station.
+        const run = progress.stations[s.id]
+        const bestPct = run && run.outOf ? Math.round((run.bestMarks / run.outOf) * 100) : null
+        const open = () =>
+          onOpen({ kind: 'osce', id: s.id, title: s.title, subjectId: s.subjectId, minutes: s.minutes })
+        return (
+          <div {...clickable(open)}>
+            <span className="grid size-10 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2">
+              <Icon icon={Stethoscope} size={18} />
+            </span>
+            <div className="min-w-0 flex-1">
+              {/* The system header already names the system, and the number
+                  beside it was only the row's position in a flat list. */}
+              <p className="text-[14px] font-medium text-ink">{s.title}</p>
+              <p className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[12px] text-ink-3">
+                <span>{s.minutes} min</span>
+                <span>·</span>
+                <span>{s.marks} marks</span>
+              </p>
+            </div>
+            {s.kind === 'checklist' && <Badge tone="outline">Checklist</Badge>}
+            <Badge tone={diffTone(s.difficulty)}>{s.difficulty}</Badge>
+            <div className="w-24 text-right">
+              {run ? (
+                <>
+                  <p className="tnum font-mono text-[13px] font-medium text-ink">{bestPct}%</p>
+                  <p className="text-[11px] text-ink-3">
+                    best · {run.attempts} {run.attempts === 1 ? 'try' : 'tries'}
                   </p>
-                </div>
-                {s.kind === 'checklist' && <Badge tone="outline">Checklist</Badge>}
-                <Badge tone={diffTone(s.difficulty)}>{s.difficulty}</Badge>
-                <div className="w-24 text-right">
-                  {run ? (
-                    <>
-                      <p className="tnum font-mono text-[13px] font-medium text-ink">{bestPct}%</p>
-                      <p className="text-[11px] text-ink-3">
-                        best · {run.attempts} {run.attempts === 1 ? 'try' : 'tries'}
-                      </p>
-                    </>
-                  ) : (
-                    <p className="text-[11.5px] text-ink-3">Not attempted</p>
-                  )}
-                </div>
-                <Button
-                  variant={run ? 'secondary' : 'primary'}
-                  size="sm"
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    open()
-                  }}
-                >
-                  {run ? 'Retry' : 'Start'}
-                </Button>
-              </div>
-            </li>
-          )
-        })}
-      </ul>
-    </Panel>
+                </>
+              ) : (
+                <p className="text-[11.5px] text-ink-3">Not attempted</p>
+              )}
+            </div>
+            <Button
+              variant={run ? 'secondary' : 'primary'}
+              size="sm"
+              onClick={(e) => {
+                e.stopPropagation()
+                open()
+              }}
+            >
+              {run ? 'Retry' : 'Start'}
+            </Button>
+          </div>
+        )
+      }}
+    </SystemSections>
   )
 }
 
@@ -145,50 +204,43 @@ function CasesTab({ onOpen }: { onOpen: Open }) {
   }
 
   return (
-    <Panel>
-      <ul className="divide-y divide-line">
-        {clinicalCases.map((c, index) => {
-          const subj = getSubject(c.subjectId)
-          const record = progress.cases[c.id]
-          const st = caseStatus(record?.status ?? 'not-started')
-          const open = () => onOpen({ kind: 'case', id: c.id, title: c.title, subjectId: c.subjectId })
-          return (
-            <li key={c.id}>
-              <div {...clickable(open)}>
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-2">
-                    <ChapterMark subjectId={c.subjectId} index={index + 1} compact /><p className="text-[14px] font-medium text-ink">{c.title}</p>
-                    <Badge tone={st.tone}>{st.label}</Badge>
-                  </div>
-                  <p className="mt-0.5 text-[13px] text-ink-2">{c.presentation}</p>
-                  <p className="mt-1 flex items-center gap-x-2 text-[12px] text-ink-3">
-                    <span className="font-medium text-ink-2">{subj.name}</span>
-                    <span>·</span>
-                    <span className="inline-flex items-center gap-1">
-                      <Icon icon={Clock} size={12} />
-                      {c.minutes} min
-                    </span>
-                    <span>·</span>
-                    <span>{c.steps} steps</span>
-                  </p>
-                </div>
-                <Button
-                  variant={record?.status === 'in-progress' ? 'primary' : 'secondary'}
-                  size="sm"
-                  iconRight={ArrowRight}
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    open()
-                  }}
-                >
-                  {st.cta}
-                </Button>
+    <SystemSections items={clinicalCases}>
+      {(c) => {
+        const record = progress.cases[c.id]
+        const st = caseStatus(record?.status ?? 'not-started')
+        const open = () => onOpen({ kind: 'case', id: c.id, title: c.title, subjectId: c.subjectId })
+        return (
+          <div {...clickable(open)}>
+            <div className="min-w-0 flex-1">
+              <div className="flex items-center gap-2">
+                <p className="text-[14px] font-medium text-ink">{c.title}</p>
+                <Badge tone={st.tone}>{st.label}</Badge>
               </div>
-            </li>
-          )
-        })}
-      </ul>
-    </Panel>
+              <p className="mt-0.5 text-[13px] text-ink-2">{c.presentation}</p>
+              <p className="mt-1 flex items-center gap-x-2 text-[12px] text-ink-3">
+                <span className="inline-flex items-center gap-1">
+                  <Icon icon={Clock} size={12} />
+                  {c.minutes} min
+                </span>
+                <span>·</span>
+                <span>{c.steps} steps</span>
+              </p>
+            </div>
+            <Button
+              variant={record?.status === 'in-progress' ? 'primary' : 'secondary'}
+              size="sm"
+              iconRight={ArrowRight}
+              onClick={(e) => {
+                e.stopPropagation()
+                open()
+              }}
+            >
+              {st.cta}
+            </Button>
+          </div>
+        )
+      }}
+    </SystemSections>
   )
 }
 
@@ -310,50 +362,43 @@ function LabTab({ onOpen }: { onOpen: Open }) {
   }
 
   return (
-    <Panel>
-      <ul className="divide-y divide-line">
-        {labImaging.map((l, index) => {
-          const subj = getSubject(l.subjectId)
-          const done = progress.labs[l.id]?.done ?? 0
-          const pct = l.items ? Math.round((done / l.items) * 100) : 0
-          const open = () => onOpen({ kind: 'lab', id: l.id, title: l.title, subjectId: l.subjectId })
-          return (
-            <li key={l.id}>
-              <div {...clickable(open)}>
-                <span className="grid size-10 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2">
-                  <Icon icon={l.type === 'Lab' ? FlaskConical : ScanLine} size={18} />
-                </span>
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-2">
-                    <ChapterMark subjectId={l.subjectId} index={index + 1} compact /><p className="text-[14px] font-medium text-ink">{l.title}</p>
-                    <Badge tone="neutral">{l.type}</Badge>
-                  </div>
-                  <p className="mt-0.5 flex items-center gap-x-2 text-[12px] text-ink-3">
-                    <span className="font-medium text-ink-2">{subj.name}</span>
-                    <span>·</span>
-                    <span className="tnum">
-                      {done}/{l.items} done
-                    </span>
-                  </p>
-                </div>
-                <Meter value={pct} tone="accent" className="w-28" />
-                <Button
-                  variant="secondary"
-                  size="sm"
-                  iconRight={ArrowRight}
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    open()
-                  }}
-                >
-                  {done === 0 ? 'Start' : 'Continue'}
-                </Button>
+    <SystemSections items={labImaging}>
+      {(l) => {
+        const done = progress.labs[l.id]?.done ?? 0
+        const pct = l.items ? Math.round((done / l.items) * 100) : 0
+        const open = () => onOpen({ kind: 'lab', id: l.id, title: l.title, subjectId: l.subjectId })
+        return (
+          <div {...clickable(open)}>
+            <span className="grid size-10 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2">
+              <Icon icon={l.type === 'Lab' ? FlaskConical : ScanLine} size={18} />
+            </span>
+            <div className="min-w-0 flex-1">
+              <div className="flex items-center gap-2">
+                <p className="text-[14px] font-medium text-ink">{l.title}</p>
+                <Badge tone="neutral">{l.type}</Badge>
               </div>
-            </li>
-          )
-        })}
-      </ul>
-    </Panel>
+              <p className="mt-0.5 flex items-center gap-x-2 text-[12px] text-ink-3">
+                <span className="tnum">
+                  {done}/{l.items} done
+                </span>
+              </p>
+            </div>
+            <Meter value={pct} tone="accent" className="w-28" />
+            <Button
+              variant="secondary"
+              size="sm"
+              iconRight={ArrowRight}
+              onClick={(e) => {
+                e.stopPropagation()
+                open()
+              }}
+            >
+              {done === 0 ? 'Start' : 'Continue'}
+            </Button>
+          </div>
+        )
+      }}
+    </SystemSections>
   )
 }
 
@@ -363,6 +408,7 @@ function LabTab({ onOpen }: { onOpen: Open }) {
 
 function OralTab() {
   const [revealed, setRevealed] = useState<Set<string>>(new Set())
+  const [collapsedSystems, setCollapsedSystems] = useState<Set<string>>(new Set())
   const toggle = (id: string) =>
     setRevealed((prev) => {
       const next = new Set(prev)
@@ -381,13 +427,28 @@ function OralTab() {
         <MessagesSquare size={14} />
         The most common viva questions by module. Attempt each one aloud, then reveal the model answer to mark yourself.
       </p>
-      {groups.map(({ subj, questions }, gi) => (
+      {groups.map(({ subj, questions }) => {
+        const isCollapsed = collapsedSystems.has(subj.id)
+        return (
         <section key={subj.id}>
-          <div className="mb-2 flex items-center gap-2">
-            <ChapterMark subjectId={subj.id} index={gi + 1} compact />
+          {/* This tab was already divided by system; what it lacked was the
+              chevron every other tab now has. */}
+          <button
+            type="button"
+            aria-expanded={!isCollapsed}
+            onClick={() => setCollapsedSystems((current) => {
+              const next = new Set(current)
+              if (!next.delete(subj.id)) next.add(subj.id)
+              return next
+            })}
+            className="mb-2 flex w-full items-center gap-2 rounded-md px-1 py-1 text-start transition-colors hover:bg-inset/60"
+          >
+            <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !isCollapsed && 'rotate-90')} />
+            <SystemMark subjectId={subj.id} />
             <h2 className="font-serif text-[16px] font-semibold text-ink">{subj.name}</h2>
-            <span className="tnum font-mono text-[11px] text-ink-3">{questions.length}</span>
-          </div>
+            <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{questions.length}</span>
+          </button>
+          {!isCollapsed && (
           <div className="space-y-2.5">
             {questions.map((q) => {
               const isOpen = revealed.has(q.id)
@@ -414,8 +475,10 @@ function OralTab() {
               )
             })}
           </div>
+          )}
         </section>
-      ))}
+        )
+      })}
     </div>
   )
 }

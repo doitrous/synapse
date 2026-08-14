@@ -11,6 +11,7 @@ import { MfaControl } from '@/components/auth/MfaControl'
 import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
+import { useUniversityName } from '@/lib/useUniversityCatalogue'
 import { API_MODE, apiGet } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 
@@ -52,6 +53,7 @@ function ReadOnlyField({ label, value, hint }: { label: string; value: string | 
 export function Account() {
   const t = useT()
   const { email, displayName, profile, profileMissing } = useIdentity()
+  const universityName = useUniversityName(profile.universityId)
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
@@ -102,7 +104,8 @@ export function Account() {
             <div className="grid gap-4 p-5 sm:grid-cols-2">
               <ReadOnlyField label={t('Full name')} value={profile.name ?? displayName} />
               <ReadOnlyField label={t('Email address')} value={profile.email ?? email} />
-              <ReadOnlyField label={t('University')} value={profile.universityId} />
+              {/* The catalogue name, not the `kau`-style key this is stored under. */}
+              <ReadOnlyField label={t('University')} value={universityName || profile.universityId} />
               <ReadOnlyField label={t('Year of study')} value={profile.year} />
               <ReadOnlyField label={t('Group')} value={profile.group} hint={t('Used for targeted vouchers and notices')} />
               <Field label={t('Timezone')} hint={t('Used for calendar blocks and reminders')}>

@@ -5,6 +5,7 @@ import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
+import { DateField, TimeField } from '@/components/ui/DateTimeField'
 import { IconButton } from '@/components/ui/IconButton'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { usePersistentState } from '@/lib/usePersistentState'
@@ -32,6 +33,15 @@ function localDateTime(value: string) {
   const date = new Date(value)
   const offset = date.getTimezoneOffset() * 60_000
   return new Date(date.getTime() - offset).toISOString().slice(0, 16)
+}
+
+/** `YYYY-MM-DD` and `HH:MM` in the admin's own timezone, back to an instant. */
+function scheduledParts(value: string) {
+  const local = localDateTime(value)
+  return { day: local.slice(0, 10), time: local.slice(11, 16) }
+}
+function scheduledFrom(day: string, time: string) {
+  return new Date(`${day}T${time}:00`).toISOString()
 }
 
 export function NotificationCampaigns() {
@@ -75,7 +85,7 @@ export function NotificationCampaigns() {
             <Field label="Title" htmlFor="notification-title"><TextInput id="notification-title" value={editing.title} onChange={(event) => setEditing({ ...editing, title: event.target.value })} placeholder="Review window opens today" /></Field>
             <Field label="Message" htmlFor="notification-message" hint="Keep the main instruction visible without opening another page."><Textarea id="notification-message" value={editing.message} onChange={(event) => setEditing({ ...editing, message: event.target.value })} className="min-h-24" /></Field>
             <Field label="Destination" htmlFor="notification-link"><TextInput id="notification-link" value={editing.to} onChange={(event) => setEditing({ ...editing, to: event.target.value })} placeholder="/app/qbank?topics=cvs" /></Field>
-            <div className="grid grid-cols-2 gap-3"><Field label="Delivery"><Select value={editing.delivery} onChange={(event) => setEditing({ ...editing, delivery: event.target.value as NotificationDelivery, automation: event.target.value === 'Automated' ? 'Before calendar event' : 'None' })}><option>Immediate</option><option>Scheduled</option><option>Automated</option></Select></Field>{editing.delivery === 'Scheduled' ? <Field label="Send at"><TextInput type="datetime-local" value={localDateTime(editing.scheduledAt)} onChange={(event) => setEditing({ ...editing, scheduledAt: new Date(event.target.value).toISOString() })} /></Field> : editing.delivery === 'Automated' ? <Field label="Trigger"><Select value={editing.automation} onChange={(event) => setEditing({ ...editing, automation: event.target.value as NotificationAutomation })}>{automations.filter((option) => option !== 'None').map((option) => <option key={option}>{option}</option>)}</Select></Field> : <div className="rounded-lg border border-line bg-surface-2 p-3 text-[12px] leading-relaxed text-ink-2">Available as a popup as soon as you save.</div>}</div>
+            <div className="grid grid-cols-2 gap-3"><Field label="Delivery"><Select value={editing.delivery} onChange={(event) => setEditing({ ...editing, delivery: event.target.value as NotificationDelivery, automation: event.target.value === 'Automated' ? 'Before calendar event' : 'None' })}><option>Immediate</option><option>Scheduled</option><option>Automated</option></Select></Field>{editing.delivery === 'Scheduled' ? <Field label="Send at"><div className="grid grid-cols-2 gap-2"><DateField value={scheduledParts(editing.scheduledAt).day} onChange={(day) => setEditing({ ...editing, scheduledAt: scheduledFrom(day, scheduledParts(editing.scheduledAt).time) })} /><TimeField value={scheduledParts(editing.scheduledAt).time} onChange={(time) => setEditing({ ...editing, scheduledAt: scheduledFrom(scheduledParts(editing.scheduledAt).day, time) })} /></div></Field> : editing.delivery === 'Automated' ? <Field label="Trigger"><Select value={editing.automation} onChange={(event) => setEditing({ ...editing, automation: event.target.value as NotificationAutomation })}>{automations.filter((option) => option !== 'None').map((option) => <option key={option}>{option}</option>)}</Select></Field> : <div className="rounded-lg border border-line bg-surface-2 p-3 text-[12px] leading-relaxed text-ink-2">Available as a popup as soon as you save.</div>}</div>
             {editing.delivery === 'Automated' && editing.automation === 'Before calendar event' && <Field label="Minutes before event"><TextInput type="number" min="0" value={editing.leadMinutes} onChange={(event) => setEditing({ ...editing, leadMinutes: Number(event.target.value) })} /></Field>}
             <fieldset><legend className="text-[12.5px] font-medium text-ink-2">Universities</legend><div className="mt-2 grid gap-2">{universityCatalogue.map((university) => <label key={university.id} className="flex min-h-11 cursor-pointer items-center gap-2.5 rounded-md border border-line px-3 text-[12px] transition-colors hover:bg-inset"><input type="checkbox" checked={editing.universityIds.includes(university.id)} onChange={() => toggleList('universityIds', university.id)} /><strong className="shrink-0 font-mono text-[11px] text-accent-strong">{university.short}</strong><span className="min-w-0 truncate text-ink-2">{university.name}</span></label>)}</div></fieldset>
             <fieldset><legend className="text-[12.5px] font-medium text-ink-2">Years</legend><div className="mt-2 flex flex-wrap gap-2">{YEARS.map((year) => <label key={year} className="inline-flex min-h-10 cursor-pointer items-center gap-2 rounded-md border border-line px-2.5 text-[12px]"><input type="checkbox" checked={editing.years.includes(year)} onChange={() => toggleList('years', year)} />{year.replace('Year ', 'Y')}</label>)}</div></fieldset>

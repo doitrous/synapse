@@ -1,7 +1,7 @@
-import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react'
-import { createPortal } from 'react-dom'
+import { useEffect, useState, type ReactNode } from 'react'
 import type { LucideIcon } from 'lucide-react'
 import { Icon } from './Icon'
+import { Popover } from './Popover'
 import { cn } from '@/lib/cn'
 
 export interface ContextMenuItem {
@@ -12,17 +12,15 @@ export interface ContextMenuItem {
   /** Draws a rule above this item, grouping what follows. */
   separated?: boolean
   disabled?: boolean
+  /** For a destructive action, so it does not read like the rest of the list. */
+  tone?: 'default' | 'danger'
 }
-
-const MARGIN = 8
 
 /**
  * A menu positioned at the pointer.
  *
- * Rendered in a portal so it is never clipped by a panel's overflow, and
- * measured after mount so it can flip rather than run off the viewport — a menu
- * opened near the bottom-right of the window is the normal case, not the edge
- * case. Escape, scroll, resize and any outside press close it.
+ * Placement and dismissal come from `Popover`; what is left here is the part
+ * that is actually a menu — roving arrow-key focus and the item rows.
  */
 export function ContextMenu({
   x,
@@ -37,34 +35,11 @@ export function ContextMenu({
   onClose: () => void
   header?: ReactNode
 }) {
-  const ref = useRef<HTMLDivElement>(null)
-  const [position, setPosition] = useState({ left: x, top: y, ready: false })
   const [activeIndex, setActiveIndex] = useState(-1)
-
   const enabled = items.filter((item) => !item.disabled)
 
-  useLayoutEffect(() => {
-    const element = ref.current
-    if (!element) return
-    const { width, height } = element.getBoundingClientRect()
-    // Flip toward the pointer rather than merely clamping: a menu pinned to the
-    // edge covers what was right-clicked, which is the thing being acted on.
-    const left = x + width + MARGIN > window.innerWidth ? Math.max(MARGIN, x - width) : x
-    const top = y + height + MARGIN > window.innerHeight ? Math.max(MARGIN, y - height) : y
-    setPosition({ left, top, ready: true })
-  }, [x, y, items.length])
-
   useEffect(() => {
-    const close = () => onClose()
-    // Capture-phase, so a press anywhere closes this before it does anything
-    // else — but a press *inside* the menu has to be allowed to become a click,
-    // and stopPropagation on the menu cannot help during capture.
-    const closeIfOutside = (event: Event) => {
-      if (ref.current?.contains(event.target as Node)) return
-      onClose()
-    }
     const onKey = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') { event.preventDefault(); onClose(); return }
       if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
         event.preventDefault()
         setActiveIndex((current) => {
@@ -82,36 +57,18 @@ export function ContextMenu({
         if (item) { onClose(); item.onSelect() }
       }
     }
-    // `scroll` in the capture phase so scrolling inside a panel counts too.
-    document.addEventListener('pointerdown', closeIfOutside, true)
     document.addEventListener('keydown', onKey)
-    window.addEventListener('scroll', close, true)
-    window.addEventListener('resize', close)
-    window.addEventListener('blur', close)
-    return () => {
-      document.removeEventListener('pointerdown', closeIfOutside, true)
-      document.removeEventListener('keydown', onKey)
-      window.removeEventListener('scroll', close, true)
-      window.removeEventListener('resize', close)
-      window.removeEventListener('blur', close)
-    }
+    return () => document.removeEventListener('keydown', onKey)
   }, [onClose, enabled, activeIndex])
 
   if (!items.length) return null
 
-  return createPortal(
-    <div
-      ref={ref}
+  return (
+    <Popover
+      point={{ x, y }}
+      onClose={onClose}
       role="menu"
-      aria-orientation="vertical"
-      // Stop the browser's own menu from opening on top of this one.
-      onContextMenu={(event) => event.preventDefault()}
-      onPointerDown={(event) => event.stopPropagation()}
-      style={{ left: position.left, top: position.top }}
-      className={cn(
-        'fixed z-[80] min-w-[13rem] max-w-[min(20rem,calc(100vw-1rem))] overflow-hidden rounded-xl border border-line bg-surface py-1 shadow-pop',
-        position.ready ? 'animate-pop' : 'invisible',
-      )}
+      className="min-w-[13rem] max-w-[min(20rem,calc(100vw-1rem))] py-1"
     >
       {header && (
         <div className="truncate border-b border-line px-3 pb-1.5 pt-1 text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-3">
@@ -130,17 +87,26 @@ export function ContextMenu({
               onClick={() => { onClose(); item.onSelect() }}
               className={cn(
                 'flex w-full items-center gap-2.5 px-3 py-2 text-start text-[13px] transition-colors',
-                item.disabled ? 'cursor-not-allowed text-ink-3 opacity-60' : 'text-ink-2 hover:bg-inset hover:text-ink',
-                !item.disabled && index === activeIndex && 'bg-inset text-ink',
+                item.disabled
+                  ? 'cursor-not-allowed text-ink-3 opacity-60'
+                  : item.tone === 'danger'
+                    ? 'text-danger hover:bg-danger-tint'
+                    : 'text-ink-2 hover:bg-inset hover:text-ink',
+                !item.disabled && index === activeIndex && (item.tone === 'danger' ? 'bg-danger-tint' : 'bg-inset text-ink'),
               )}
             >
-              {item.icon && <Icon icon={item.icon} size={15} className="shrink-0 text-ink-3" />}
+              {item.icon && (
+                <Icon
+                  icon={item.icon}
+                  size={15}
+                  className={cn('shrink-0', item.tone === 'danger' ? 'text-danger' : 'text-ink-3')}
+                />
+              )}
               <span className="truncate">{item.label}</span>
             </button>
           </div>
         )
       })}
-    </div>,
-    document.body,
+    </Popover>
   )
 }

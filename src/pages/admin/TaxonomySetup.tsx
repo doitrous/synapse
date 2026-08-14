@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Field, TextInput, Textarea } from '@/components/ui/Field'
-import { SystemBadge } from '@/components/ui/SystemBadge'
+import { SystemMark } from '@/components/ui/SystemMark'
 import { useSystemColor, setSystemColor, SYSTEM_COLOR_PALETTE } from '@/data/systemColors'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
@@ -119,7 +119,7 @@ function SystemColorControl({ systemId, short }: { systemId: string; short: stri
   return (
     <div className="relative">
       <button type="button" onClick={() => setOpen((o) => !o)} title="Change colour" className="rounded-[7px] outline-offset-2 hover:outline hover:outline-1 hover:outline-line-2">
-        <SystemBadge short={short} color={color} />
+        <SystemMark short={short} color={color} title="Change colour" />
       </button>
       {open && (
         <>

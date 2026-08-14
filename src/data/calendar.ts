@@ -21,6 +21,8 @@ export interface CalEvent {
   endTime?: string
   layer: Layer
   subjectId: string
+  /** The module this belongs to, e.g. `"CVS 01"`, when one is recorded. */
+  moduleId?: string
   kind: string
   location?: string
   /** True for an exam block, which is worth marking differently. */

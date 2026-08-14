@@ -105,6 +105,21 @@ export async function apiUploadMedicalResource(resourceId: string, file: File): 
   return res.json()
 }
 
+/**
+ * Send one bounded slice of a larger upload.
+ *
+ * The body is raw bytes rather than a form: nothing about a chunk needs a
+ * field name, and a multipart wrapper would only add a copy of it in memory.
+ */
+export async function apiUploadChunk(path: string, body: Blob): Promise<void> {
+  const res = await fetch(`${BASE}${path}`, {
+    method: 'PUT',
+    headers: { ...(await headers()), 'Content-Type': 'application/octet-stream' },
+    body,
+  })
+  if (!res.ok) throw new Error((await res.json().catch(() => null))?.error ?? `PUT ${path} → ${res.status}`)
+}
+
 /** Read a state document by key. Returns null when unset. */
 /**
  * A stored document plus when the server last changed it. The timestamp is what

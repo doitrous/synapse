@@ -53,6 +53,48 @@ export function questionsInScope(pool: Question[], scope: Scope, libraryTopics: 
   )
 }
 
+/** The prefix that marks a topic the questions named rather than the library. */
+const QUESTION_TOPIC_PREFIX = 'qt:'
+
+export function isQuestionTopic(topicId: string): boolean {
+  return topicId.startsWith(QUESTION_TOPIC_PREFIX)
+}
+
+/**
+ * The chapters a student can actually choose from.
+ *
+ * The chooser was built from the library alone, so a bank with questions but no
+ * published articles offered an empty box — which is exactly what a university
+ * looks like before its library is written, and what the shipped demo looks
+ * like today: twenty published questions, no published articles, and nothing to
+ * pick. Any topic a question names that the library does not cover is added
+ * here as a topic in its own right, so the tree describes the bank rather than
+ * only the part of it the library happens to document.
+ *
+ * A synthetic topic has no subtopics — there is nothing finer to offer — and
+ * `questionsInScope` already resolves a whole-topic selection by title, so it
+ * needs no special case there.
+ */
+export function chooserTopics(pool: Question[], libraryTopics: LibTopic[]): LibTopic[] {
+  const covered = new Set(libraryTopics.map((topic) => topic.title.trim().toLowerCase()))
+  const extra = new Map<string, LibTopic>()
+
+  for (const question of pool) {
+    const title = question.topic?.trim()
+    if (!title) continue
+    const key = `${question.subjectId}::${title.toLowerCase()}`
+    if (covered.has(title.toLowerCase()) || extra.has(key)) continue
+    extra.set(key, {
+      id: `${QUESTION_TOPIC_PREFIX}${key}`,
+      title,
+      subjectId: question.subjectId,
+      subtopics: [],
+    })
+  }
+
+  return [...libraryTopics, ...extra.values()]
+}
+
 /** Count questions available per topic / subtopic within a pool, for badges. */
 export function scopeCounts(pool: Question[], libraryTopics: LibTopic[]): { topics: Record<string, number>; subtopics: Record<string, number> } {
   const subtopics: Record<string, number> = {}

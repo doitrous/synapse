@@ -303,10 +303,6 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
             </div>
             </div>
             </Panel>
-            <div className="overflow-hidden rounded-lg border border-line bg-surface text-left">
-              <p className="px-3 pt-2.5 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Read around it</p>
-              <ul className="mt-1.5 divide-y divide-line px-3 pb-1">{(detail.references ?? ['Clinical examination guide', 'Relevant system guideline']).map((reference) => <li key={reference}><Link to={`/app/resources?q=${encodeURIComponent(reference)}`} state={backState(location, 'Back to case')} className="group flex items-center gap-2 py-2 text-[11.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-6 place-items-center rounded-md bg-inset"><Icon icon={BookOpen} size={13} /></span><span className="min-w-0 flex-1">{reference}</span><Icon icon={ExternalLink} size={12} className="text-ink-3" /></Link></li>)}</ul>
-            </div>
           </div>
         }
       />
@@ -379,6 +375,32 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
           </Button>
         </div>
       </Panel>}
+
+      {/* Moved out of the header's right column, where it stood a stacked list
+          tall enough to push the timer into a corner of its own and swallow the
+          space the station itself needed. Below the tabs it is what it is: what
+          to read afterwards. The two placeholder links that used to appear when
+          a station had no references are gone — they led nowhere. */}
+      {(detail.references?.length ?? 0) > 0 && (
+        <Panel className="mt-4 p-4">
+          <h3 className="text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Read around it</h3>
+          <ul className="mt-2 flex flex-wrap gap-2">
+            {detail.references!.map((reference) => (
+              <li key={reference}>
+                <Link
+                  to={`/app/resources?q=${encodeURIComponent(reference)}`}
+                  state={backState(location, 'Back to station')}
+                  className="group inline-flex max-w-full items-center gap-2 rounded-lg border border-line bg-surface px-2.5 py-1.5 text-[12px] text-ink-2 transition-colors hover:border-accent-line hover:bg-accent-tint/30 hover:text-ink"
+                >
+                  <Icon icon={BookOpen} size={13} className="shrink-0 text-ink-3" />
+                  <span className="truncate">{reference}</span>
+                  <Icon icon={ExternalLink} size={12} className="shrink-0 text-ink-3" />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Panel>
+      )}
     </div>
   )
 }

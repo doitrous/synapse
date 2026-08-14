@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, useLocation, useSearchParams } from 'react-router-dom'
 import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Eye, PenLine } from 'lucide-react'
 import { initialNotes } from '@/data/notebook'
 import type { Note } from '@/data/notebook'
@@ -13,6 +13,7 @@ import { subjects } from '@/data/subjects'
 import { Select } from '@/components/ui/Field'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { NoteEditor } from '@/components/notebook/NoteEditor'
+import { DocumentRefs } from '@/components/notebook/DocumentRefs'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { formatRelativeTime } from '@/lib/format'
@@ -23,6 +24,7 @@ import { useT } from '@/lib/i18n'
 export function Notebook() {
   const t = useT()
   const [params] = useSearchParams()
+  const location = useLocation()
   const linkedArticle = params.get('article')
   const createFromArticle = params.get('new') === '1'
   const { subtopics: allSubtopics } = useLiveLibrary()
@@ -253,6 +255,16 @@ export function Notebook() {
                 <div className="mt-3 flex gap-1.5"><input value={newTag} onChange={(event) => setNewTag(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter') addTag(newTag) }} placeholder="New tag…" className="h-11 min-w-0 flex-1 rounded-lg border border-line-2 bg-surface px-2.5 text-[12px] text-ink outline-none focus:border-accent sm:h-8" /><Button size="sm" variant="primary" onClick={() => addTag(newTag)} disabled={!newTag.trim()}>Add</Button></div>
               </div>}
               <label className="ml-auto flex min-w-56 items-center gap-2 text-[11.5px] text-ink-3"><span className="shrink-0">Related article</span><Select className="h-11 sm:h-8" value={note.subtopicId ?? ''} onChange={(event) => { const article = allSubtopics.find((item) => item.id === event.target.value); update(note.id, { subtopicId: article?.id, subtopicTitle: article ? `${article.topicTitle} · ${article.title}` : undefined, subjectId: article?.subjectId ?? note.subjectId }) }}><option value="">None</option>{allSubtopics.map((article) => <option key={article.id} value={article.id}>{article.title}</option>)}</Select></label>
+            </div>
+
+            {/* The documents this note is about — the library's and the
+                student's own alike. See `DocumentRefs`. */}
+            <div className="mt-3">
+              <DocumentRefs
+                refs={note.resourceRefs ?? []}
+                onChange={(next) => update(note.id, { resourceRefs: next })}
+                location={location}
+              />
             </div>
 
             {note.imageData && <div className="relative mt-4 overflow-hidden rounded-lg border border-line bg-surface"><ZoomableImage src={note.imageData} alt="Pasted into this note" className="max-h-96 w-full object-contain" /><IconButton icon={X} label="Remove image" size="sm" className="absolute right-2 top-2 bg-surface shadow-panel" onClick={() => update(note.id, { imageData: undefined })} /></div>}

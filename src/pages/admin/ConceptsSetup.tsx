@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Field, Select, TextInput, Textarea } from '@/components/ui/Field'
+import { DateField } from '@/components/ui/DateTimeField'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import {
@@ -202,8 +203,8 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
           <Field label="Owner"><TextInput value={value.owner ?? ''} onChange={(event) => onPatch({ owner: event.target.value })} /></Field>
           <Field label="Reviewer"><TextInput value={value.reviewer ?? ''} onChange={(event) => onPatch({ reviewer: event.target.value })} /></Field>
           <Field label="Final publisher"><TextInput value={value.finalPublisher ?? ''} onChange={(event) => onPatch({ finalPublisher: event.target.value })} /></Field>
-          <Field label="Last reviewed"><TextInput type="date" value={value.lastReviewed ?? ''} onChange={(event) => onPatch({ lastReviewed: event.target.value })} /></Field>
-          <Field label="Review due"><TextInput type="date" value={value.reviewDue ?? ''} onChange={(event) => onPatch({ reviewDue: event.target.value })} /></Field>
+          <Field label="Last reviewed"><DateField value={value.lastReviewed ?? ''} onChange={(next) => onPatch({ lastReviewed: next })} /></Field>
+          <Field label="Review due"><DateField value={value.reviewDue ?? ''} onChange={(next) => onPatch({ reviewDue: next })} /></Field>
         </div>
         <Field label="Atomic claim IDs" hint="One per line"><Textarea value={(value.atomicClaimIds ?? []).join('\n')} onChange={(event) => onPatch({ atomicClaimIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>
         <Field label="Related article IDs" hint="One per line"><Textarea value={(value.relatedArticleIds ?? value.articleIds ?? []).join('\n')} onChange={(event) => onPatch({ relatedArticleIds: list(event.target.value), articleIds: list(event.target.value) })} className="min-h-16 font-mono text-[11px]" /></Field>

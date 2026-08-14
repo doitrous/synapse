@@ -76,7 +76,7 @@ export function AppShell({ portal }: { portal: Portal }) {
           collapsed ? 'w-(--spacing-sidebar-collapsed)' : 'w-(--spacing-sidebar)',
         )}
       >
-        <Sidebar portal={portal} collapsed={collapsed} />
+        <Sidebar portal={portal} collapsed={collapsed} onToggleCollapse={toggleCollapsed} />
       </aside>
 
       {/* Mobile drawer */}
@@ -103,9 +103,7 @@ export function AppShell({ portal }: { portal: Portal }) {
       >
         <Topbar
           portal={portal}
-          collapsed={collapsed}
           focusMode={focusMode}
-          onToggleCollapse={toggleCollapsed}
           onToggleFocusMode={toggleFocusMode}
           onOpenMobile={() => setMobileOpen(true)}
           onOpenSearch={() => setSearchOpen(true)}

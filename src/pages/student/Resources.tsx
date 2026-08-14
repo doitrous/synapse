@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { useLocalChoice } from '@/lib/useLocalPreference'
+import { useLocalChoice, useLocalPreference } from '@/lib/useLocalPreference'
+import { clickableRow, stopRowClick } from '@/lib/clickableRow'
+import { NO_CHAPTER, UNGROUPED, groupResources } from '@/data/resourceGrouping'
+import { resourceIcon } from '@/data/resourceIcons'
+import { MenuToggle } from '@/components/shell/MenuToggle'
 import {
-  BookMarked,
   PlayCircle,
-  ScrollText,
-  Layers,
-  Newspaper,
   Bookmark,
   BookmarkCheck,
   ExternalLink,
@@ -15,15 +15,19 @@ import {
   FolderTree,
   ChevronRight,
   Folder,
+  Upload,
+  Trash2,
+  Pencil,
   X,
 } from 'lucide-react'
-import type { LucideIcon } from 'lucide-react'
 import type { ResourceType } from '@/data/types'
 import { useLiveResources, type LiveResource } from '@/lib/useLiveResources'
 import { subjects, getSubject } from '@/data/subjects'
 import { YEARS } from '@/data/universities'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useRecentResources } from '@/lib/useRecentResources'
+import { useMyDocuments } from '@/lib/useMyDocuments'
+import { uploadRouteId } from '@/lib/useReaderSource'
 import { apiOpenFile } from '@/lib/api'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
@@ -41,14 +45,6 @@ import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatal
 import { cn } from '@/lib/cn'
 import { BackBar } from '@/components/ui/BackBar'
 import { useT } from '@/lib/i18n'
-
-const TYPE_ICON: Record<ResourceType, LucideIcon> = {
-  Book: BookMarked,
-  Video: PlayCircle,
-  Guideline: ScrollText,
-  Deck: Layers,
-  Article: Newspaper,
-}
 
 /** Document (PDF) types — everything that isn't a video. */
 const PDF_TYPES: ResourceType[] = ['Book', 'Guideline', 'Deck', 'Article']
@@ -74,7 +70,7 @@ export function Resources() {
   const [universityCatalogue] = useUniversityCatalogue()
   const navigate = useNavigate()
   const [params] = useSearchParams()
-  const [section, setSection] = useState<'pdf' | 'video'>('pdf')
+  const [section, setSection] = useState<'pdf' | 'video' | 'mine'>('pdf')
   // Kept per device: how someone wants their resources laid out is not a
   // per-visit decision, and this reset to System on every mount.
   const [groupBy, setGroupBy] = useLocalChoice('synapse.resources.groupBy', 'system', ['system', 'module'] as const)
@@ -85,7 +81,18 @@ export function Resources() {
   const [uni, setUni] = useState('all')
   const [year, setYear] = useState('all')
   const [savedOnly, setSavedOnly] = useState(false)
+  const [filtersOpen, setFiltersOpen] = useLocalPreference('synapse.resources.filters', true)
   const [opened, setOpened] = useState<LiveResource | null>(null)
+  const activeFilters = [query.trim() !== '', type !== 'all', subject !== 'all', uni !== 'all', year !== 'all', savedOnly]
+    .filter(Boolean).length
+  const clearFilters = () => {
+    setQuery('')
+    setType('all')
+    setSubject('all')
+    setUni('all')
+    setYear('all')
+    setSavedOnly(false)
+  }
   const toggleFolder = (key: string) => setCollapsed((prev) => { const next = new Set(prev); if (next.has(key)) next.delete(key); else next.add(key); return next })
   const [lastOpenedId, setLastOpenedId] = useState<string | null>(null)
   const [openError, setOpenError] = useState<string | null>(null)
@@ -118,24 +125,21 @@ export function Resources() {
   )
   const available = useMemo(() => {
     const subjectCounts = new Map<string, number>()
-    const typeCounts = new Map<string, number>()
     const universityIds = new Set<string>()
     const yearIds = new Set<string>()
     for (const resource of pool) {
       subjectCounts.set(resource.subjectId, (subjectCounts.get(resource.subjectId) ?? 0) + 1)
-      typeCounts.set(resource.type, (typeCounts.get(resource.type) ?? 0) + 1)
       resource.universityIds.forEach((id) => universityIds.add(id))
       resource.yearIds.forEach((id) => yearIds.add(id))
     }
-    return { subjectCounts, typeCounts, universityIds, yearIds }
+    return { subjectCounts, universityIds, yearIds }
   }, [pool])
 
   // A filter that no longer has anything behind it would otherwise hide
   // everything with no way back except knowing to reset it.
   useEffect(() => {
-    if (type !== 'all' && !available.typeCounts.has(type)) setType('all')
     if (subject !== 'all' && !available.subjectCounts.has(subject)) setSubject('all')
-  }, [available, subject, type])
+  }, [available, subject])
 
   // An article links a source by id. Land on the source itself rather than on a
   // catalogue filtered down to one row that still has to be clicked.
@@ -156,30 +160,41 @@ export function Resources() {
     return true
   })
 
+  /**
+   * How many rows each type chip would actually show.
+   *
+   * Counted from `base` — everything the other filters allow — rather than from
+   * the whole section, so "Article (7)" cannot promise seven while a subject
+   * filter is holding six of them back.
+   */
+  const typeCounts = new Map<string, number>()
+  for (const resource of base) {
+    if (resource.type === 'Video') continue
+    typeCounts.set(resource.type, (typeCounts.get(resource.type) ?? 0) + 1)
+  }
+
   const pdfItems = base.filter((r) => r.type !== 'Video' && (type === 'all' || r.type === type))
   const videoItems = base.filter((r) => r.type === 'Video')
   const sectionItems = section === 'video' ? videoItems : pdfItems
 
   // Folder tree: primary (System or Module) → subfolder (chapter) → items.
-  const tree = (() => {
-    const primaryOrder = groupBy === 'system' ? subjects.map((s) => s.id) : []
-    const primaries = new Map<string, typeof sectionItems>()
-    sectionItems.forEach((r) => {
-      const key = groupBy === 'system' ? r.subjectId : (r.modules[0] ?? '__none__')
-      primaries.set(key, [...(primaries.get(key) ?? []), r])
-    })
-    const keys = groupBy === 'system'
-      ? primaryOrder.filter((k) => primaries.has(k))
-      : [...primaries.keys()].sort((a, b) => (a === '__none__' ? 1 : b === '__none__' ? -1 : a.localeCompare(b)))
-    return keys.map((pkey) => {
-      const items = primaries.get(pkey)!
-      const label = groupBy === 'system' ? getSubject(pkey).name : (pkey === '__none__' ? t('No module') : pkey)
-      const subjectId = groupBy === 'system' ? pkey : items[0]?.subjectId
-      const subs = new Map<string, typeof sectionItems>()
-      items.forEach((r) => { const sk = r.chapter ?? t('General'); subs.set(sk, [...(subs.get(sk) ?? []), r]) })
-      return { pkey, label, subjectId, count: items.length, subfolders: [...subs.entries()] }
-    })
-  })()
+  // The arrangement itself lives in `@/data/resourceGrouping`, where the rule
+  // that nothing is dropped for having an unrecognised subject is under test.
+  const tree = useMemo(() => {
+    const subjectOrder = subjects.map((s) => s.id)
+    return groupResources(sectionItems, groupBy, subjectOrder).map((folder) => ({
+      pkey: folder.key,
+      label: folder.key === UNGROUPED
+        ? (groupBy === 'system' ? t('Unfiled') : t('No module'))
+        : groupBy === 'system' ? getSubject(folder.key).name : folder.key,
+      subjectId: folder.subjectId,
+      count: folder.count,
+      subfolders: folder.subfolders.map((sub) => [
+        sub.key === NO_CHAPTER ? t('General') : sub.key,
+        sub.items,
+      ] as const),
+    }))
+  }, [groupBy, sectionItems, t])
 
   function toggleSaved(id: string) {
     setSavedIds((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id])
@@ -227,7 +242,7 @@ export function Resources() {
       {/* Prominent Files / Videos switch + organize-by control */}
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <div className="inline-flex rounded-xl border border-line bg-surface-2/60 p-1 shadow-panel">
-          {([['pdf', t('Files'), FileText], ['video', t('Videos'), Clapperboard]] as const).map(([val, label, icon]) => (
+          {([['pdf', t('Files'), FileText], ['video', t('Videos'), Clapperboard], ['mine', t('My uploads'), Upload]] as const).map(([val, label, icon]) => (
             <button
               key={val}
               type="button"
@@ -242,17 +257,37 @@ export function Resources() {
             </button>
           ))}
         </div>
+        <div className={cn('flex items-center gap-2', section === 'mine' && 'hidden')}>
+          {/* Filters take a row and a half and are usually already right. The
+              count stays visible while they are folded away, so a narrowed list
+              is never mistaken for an empty catalogue. */}
+          {activeFilters > 0 && !filtersOpen && (
+            <button
+              type="button"
+              onClick={clearFilters}
+              className="inline-flex items-center gap-1.5 rounded-lg border border-accent-line bg-accent-tint px-2.5 py-1.5 text-[12px] font-medium text-accent-strong transition-colors hover:bg-accent-tint/70"
+            >
+              {activeFilters} {activeFilters === 1 ? t('filter') : t('filters')}
+              <Icon icon={X} size={13} />
+            </button>
+          )}
+          <MenuToggle open={filtersOpen} onToggle={() => setFiltersOpen((current) => !current)} label="filters" />
+        </div>
+      </div>
+
+      {section === 'mine' && <MyUploads />}
+
+      {/* Filter bar */}
+      {section !== 'mine' && filtersOpen && (
+      <div className="mb-4 space-y-3">
         {/* Promoted out of a small inline label: this decides the shape of the
-            whole page, and it used to reset to System on every visit. */}
+            whole page, and it used to reset to System on every visit. It sits
+            with the filters because grouping and filtering are one decision. */}
         <div className="inline-flex items-center gap-2.5 rounded-xl border border-line bg-surface px-3 py-2 shadow-panel">
           <Icon icon={FolderTree} size={15} className="text-ink-3" />
           <span className="text-[12.5px] font-medium text-ink-2">{t('Organise by')}</span>
           <Segmented value={groupBy} onChange={(v) => setGroupBy(v as 'system' | 'module')} items={[{ value: 'system', label: t('System') }, { value: 'module', label: t('Module') }]} />
         </div>
-      </div>
-
-      {/* Filter bar */}
-      <div className="mb-4 space-y-3">
         <div className="flex flex-wrap items-center gap-3">
           <SearchInput
             value={query}
@@ -298,23 +333,26 @@ export function Resources() {
             <FilterChip active={type === 'all'} onClick={() => setType('all')}>
               {t('All types')}
             </FilterChip>
-            {PDF_TYPES.filter((ty) => available.typeCounts.has(ty)).map((ty) => (
+            {PDF_TYPES.filter((ty) => typeCounts.has(ty) || type === ty).map((ty) => (
               <FilterChip key={ty} active={type === ty} onClick={() => setType(ty)}>
-                {t(ty)} ({available.typeCounts.get(ty)})
+                {t(ty)} ({typeCounts.get(ty) ?? 0})
               </FilterChip>
             ))}
           </div>
         )}
       </div>
+      )}
 
-      <p className="mb-2 text-[12.5px] text-ink-3">
-        <span className="tnum font-mono font-medium text-ink-2">{count}</span>{' '}
-        {section === 'video'
-          ? count === 1 ? t('video') : t('videos')
-          : count === 1 ? t('resource') : t('resources')}
-      </p>
+      {section !== 'mine' && (
+        <p className="mb-2 text-[12.5px] text-ink-3">
+          <span className="tnum font-mono font-medium text-ink-2">{count}</span>{' '}
+          {section === 'video'
+            ? count === 1 ? t('video') : t('videos')
+            : count === 1 ? t('resource') : t('resources')}
+        </p>
+      )}
 
-      {tree.length === 0 ? (
+      {section === 'mine' ? null : tree.length === 0 ? (
         <Panel>
           <EmptyState icon={section === 'video' ? Clapperboard : FileText} title={section === 'video' ? t('No videos match') : t('No resources match')} description={t('Try clearing a filter or searching for something else.')} />
         </Panel>
@@ -348,17 +386,25 @@ export function Resources() {
                               {list.map((r) => {
                                 const isSaved = saved.has(r.id)
                                 return (
-                                  <div key={r.id} className="group flex flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel transition-colors hover:border-accent-line">
-                                    <button type="button" onClick={() => setOpened(r)} className="relative flex aspect-video items-center justify-center bg-surface-2 text-ink-3 transition-colors group-hover:bg-accent-tint/30" aria-label={`${t('Open resource')}: ${r.title}`}>
+                                  <div
+                                    key={r.id}
+                                    aria-label={`${t('Open resource')}: ${r.title}`}
+                                    {...clickableRow(() => setOpened(r), 'group flex flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel hover:border-accent-line')}
+                                  >
+                                    {/* The thumbnail was the only part that opened
+                                        anything; the title beside it was inert. */}
+                                    <div className="relative flex aspect-video items-center justify-center bg-surface-2 text-ink-3 transition-colors group-hover:bg-accent-tint/30">
                                       <Icon icon={PlayCircle} size={34} className="text-accent/80 transition-transform group-hover:scale-110" />
                                       <span className="tnum absolute bottom-1.5 end-1.5 rounded bg-ink/75 px-1.5 py-0.5 font-mono text-[10px] font-medium text-paper">{r.meta}</span>
-                                    </button>
+                                    </div>
                                     <div className="flex flex-1 items-start gap-2 p-3">
                                       <div className="min-w-0 flex-1">
                                         <p className="line-clamp-2 text-[13px] font-medium leading-snug text-ink">{r.title}</p>
                                         <p className="mt-1 flex items-center gap-1.5 text-[11.5px] text-ink-3">{r.source} · {r.year}{r.recommended && <Badge tone="accent">{t('Recommended')}</Badge>}</p>
                                       </div>
-                                      <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
+                                      <span {...stopRowClick} className="contents">
+                                        <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
+                                      </span>
                                     </div>
                                   </div>
                                 )
@@ -370,8 +416,12 @@ export function Resources() {
                                 const subj = getSubject(r.subjectId)
                                 const isSaved = saved.has(r.id)
                                 return (
-                                  <li key={r.id} className="group flex items-center gap-3 px-4 py-2.5 ps-8 transition-colors hover:bg-inset/60">
-                                    <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={TYPE_ICON[r.type]} size={16} /></span>
+                                  <li
+                                    key={r.id}
+                                    aria-label={`${t('Open resource')}: ${r.title}`}
+                                    {...clickableRow(() => setOpened(r), 'group flex items-center gap-3 px-4 py-2.5 ps-8 hover:bg-inset/60')}
+                                  >
+                                    <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={resourceIcon(r.icon, r.type)} size={16} /></span>
                                     <div className="min-w-0 flex-1">
                                       <div className="flex flex-wrap items-center gap-2">
                                         <span className="truncate text-[13.5px] font-medium text-ink">{r.title}</span>
@@ -399,8 +449,11 @@ export function Resources() {
                                       ))}
                                     </div>
                                     <span className="hidden shrink-0 rounded bg-inset px-1.5 py-0.5 text-[10.5px] font-medium text-ink-2 md:inline">{t(r.type)}</span>
-                                    <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
-                                    <IconButton icon={ExternalLink} label={t('Open resource')} size="sm" variant="surface" onClick={() => setOpened(r)} />
+                                    {/* The row opens the resource; this must not. */}
+                                    <span {...stopRowClick} className="contents">
+                                      <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
+                                    </span>
+                                    <Icon icon={ChevronRight} size={16} className="shrink-0 text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
                                   </li>
                                 )
                               })}
@@ -420,7 +473,7 @@ export function Resources() {
       {opened && (
         <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label={`${t('Open resource')}: ${opened.title}`} onMouseDown={() => setOpened(null)}>
           <Panel className="max-h-[calc(100dvh-env(safe-area-inset-top))] w-full max-w-lg overflow-y-auto overscroll-contain rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:rounded-xl sm:pb-0" onMouseDown={(event) => event.stopPropagation()}>
-            <div className="flex items-start gap-3 border-b border-line p-4"><span className="grid size-10 shrink-0 place-items-center rounded-md bg-surface-2 text-ink-2"><Icon icon={TYPE_ICON[opened.type]} size={18} /></span><div className="min-w-0 flex-1"><h2 className="font-serif text-[18px] font-semibold text-ink">{opened.title}</h2><p className="mt-0.5 text-[12px] text-ink-3">{opened.source} · {opened.year}</p></div><IconButton icon={X} label={t('Close')} size="sm" onClick={() => setOpened(null)} /></div>
+            <div className="flex items-start gap-3 border-b border-line p-4"><span className="grid size-10 shrink-0 place-items-center rounded-md bg-surface-2 text-ink-2"><Icon icon={resourceIcon(opened.icon, opened.type)} size={18} /></span><div className="min-w-0 flex-1"><h2 className="font-serif text-[18px] font-semibold text-ink">{opened.title}</h2><p className="mt-0.5 text-[12px] text-ink-3">{opened.source} · {opened.year}</p></div><IconButton icon={X} label={t('Close')} size="sm" onClick={() => setOpened(null)} /></div>
             <div className="p-5">
               <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{opened.type === 'Video' ? t('Plays at') : t('Opens at')}</p>
               <p className="mt-2 text-[15px] font-medium text-ink">{opened.meta || t('Not recorded')}</p>
@@ -449,4 +502,129 @@ export function Resources() {
       )}
     </PageContainer>
   )
+}
+
+/**
+ * A student's own documents, beside the library's.
+ *
+ * They open in the same reader with the same tools and the same annotation
+ * store, so there is nothing to learn twice — see `useReaderSource` for why
+ * that costs no branching. The only thing said differently is where the file
+ * lives: in demo mode it never leaves the browser, and pretending otherwise
+ * would be a promise the deployment cannot keep.
+ */
+function MyUploads() {
+  const t = useT()
+  const navigate = useNavigate()
+  const documents = useMyDocuments()
+  const [busy, setBusy] = useState<number | null>(null)
+  const [failure, setFailure] = useState<string | null>(null)
+
+  const accept = async (files: FileList | null) => {
+    const file = files?.[0]
+    if (!file) return
+    if (!/\.pdf$/i.test(file.name)) {
+      setFailure(t('Only PDF files can be added for now.'))
+      return
+    }
+    setFailure(null)
+    setBusy(0)
+    try {
+      await documents.upload(file, setBusy)
+    } catch (cause) {
+      setFailure(cause instanceof Error ? cause.message : t('That file could not be added.'))
+    } finally {
+      setBusy(null)
+    }
+  }
+
+  return (
+    <div className="space-y-3">
+      <Panel className="p-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="min-w-0">
+            <h2 className="font-serif text-[15.5px] font-semibold text-ink">{t('Self-uploaded documents')}</h2>
+            <p className="mt-0.5 text-[12.5px] text-ink-3">
+              {documents.synced
+                ? t('Your own PDFs, kept on your account and open on any device you sign in on.')
+                : t('Your own PDFs. This preview keeps them in this browser only.')}
+            </p>
+          </div>
+          <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-accent-line bg-accent-tint px-3 py-2 text-[13px] font-semibold text-accent-strong hover:bg-accent-tint/70">
+            <Icon icon={Upload} size={15} />
+            {busy === null ? t('Add a PDF') : `${Math.round(busy * 100)}%`}
+            <input
+              type="file"
+              accept="application/pdf,.pdf"
+              className="sr-only"
+              disabled={busy !== null}
+              onChange={(event) => { void accept(event.target.files); event.target.value = '' }}
+            />
+          </label>
+        </div>
+        {documents.quotaBytes > 0 && (
+          <p className="tnum mt-3 font-mono text-[11px] text-ink-3">
+            {megabytes(documents.usedBytes)} / {megabytes(documents.quotaBytes)} MB
+          </p>
+        )}
+        {(failure || documents.error) && (
+          <p role="alert" className="mt-2 text-[12.5px] text-danger">{failure ?? documents.error}</p>
+        )}
+      </Panel>
+
+      {documents.loading ? (
+        <Panel><p className="p-6 text-center text-[13px] text-ink-3">{t('Opening…')}</p></Panel>
+      ) : documents.items.length === 0 ? (
+        <Panel>
+          <EmptyState
+            icon={Upload}
+            title={t('Nothing uploaded yet')}
+            description={t('Add a lecture handout or a scanned chapter, and annotate it exactly like anything else here.')}
+          />
+        </Panel>
+      ) : (
+        <Panel className="overflow-hidden">
+          <ul className="divide-y divide-line">
+            {documents.items.map((item) => (
+              <li
+                key={item.id}
+                aria-label={`${t('Open resource')}: ${item.title}`}
+                {...clickableRow(() => navigate(`/app/resources/${uploadRouteId(item.id)}`), 'group flex items-center gap-3 px-4 py-2.5 hover:bg-inset/60')}
+              >
+                <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={FileText} size={16} /></span>
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-[13.5px] font-medium text-ink">{item.title}</p>
+                  <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(item.sizeBytes)} MB</p>
+                </div>
+                <span {...stopRowClick} className="contents">
+                  <IconButton
+                    icon={Pencil}
+                    label={t('Rename')}
+                    size="sm"
+                    onClick={() => {
+                      const title = window.prompt(t('Rename'), item.title)
+                      if (title?.trim()) void documents.rename(item.id, title.trim())
+                    }}
+                  />
+                  <IconButton
+                    icon={Trash2}
+                    label={t('Delete')}
+                    size="sm"
+                    onClick={() => {
+                      if (window.confirm(t('Delete this document? Your marks on it are deleted with it.'))) void documents.remove(item.id)
+                    }}
+                  />
+                </span>
+                <Icon icon={ChevronRight} size={16} className="shrink-0 text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
+              </li>
+            ))}
+          </ul>
+        </Panel>
+      )}
+    </div>
+  )
+}
+
+function megabytes(bytes: number): string {
+  return (bytes / (1024 * 1024)).toFixed(bytes < 10 * 1024 * 1024 ? 1 : 0)
 }

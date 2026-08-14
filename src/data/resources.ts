@@ -19,6 +19,8 @@ export interface Resource {
   recommended?: boolean
   /** Chapter/topic a video belongs to — used to group the Videos section. */
   chapter?: string
+  /** An admin's chosen glyph name; absent means the glyph for the type. */
+  icon?: string
 }
 
 export const resources: Resource[] = [

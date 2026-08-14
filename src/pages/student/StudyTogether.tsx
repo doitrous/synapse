@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy } from 'lucide-react'
+import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { QuestionView } from '@/components/qbank/QuestionView'
@@ -12,9 +12,10 @@ import { Field, TextInput } from '@/components/ui/Field'
 import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import type { Question } from '@/data/qbank'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { TopicChooser } from '@/components/qbank/TopicChooser'
-import { questionsInScope, type Scope } from '@/data/qbankScope'
+import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useMastery } from '@/lib/useMastery'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { ROOM_REFUSALS, useMyRooms, useRoom, useStudyRoomActions } from '@/lib/useStudyRooms'
@@ -53,6 +54,8 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
   const [verdict, setVerdict] = useState<{ correct: boolean; correctIndex: number } | null>(null)
   const [busy, setBusy] = useState(false)
   const [copied, setCopied] = useState(false)
+  const [reviewing, setReviewing] = useState(false)
+  const [reviewIdx, setReviewIdx] = useState(0)
 
   const byId = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions])
   const answeredIds = useMemo(() => new Set(room?.myAnswers.map((entry) => entry.questionId) ?? []), [room])
@@ -116,11 +119,68 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
     )
   }
 
+  /* ---- Review -------------------------------------------------------- */
+  /**
+   * The paper, afterwards.
+   *
+   * Finishing used to end at a percentage: the questions just sat were
+   * unreachable, so the one moment a student is most ready to learn from them
+   * had nothing to look at. The verdict still comes from the server record —
+   * only which option to mark as right is read from the published question,
+   * exactly as the Question Bank's own review does.
+   */
+  if (room.myFinished && reviewing) {
+    const answered = room.questionIds
+      .map((id) => ({ question: byId.get(id), entry: room.myAnswers.find((item) => item.questionId === id) }))
+      .filter((row): row is { question: Question; entry: NonNullable<typeof row.entry> } => Boolean(row.question && row.entry))
+    const current = answered[Math.min(reviewIdx, answered.length - 1)]
+    return (
+      <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
+        <Panel>
+          <PanelHeader
+            title={t('Review answers')}
+            icon={Eye}
+            hint={answered.length ? `${Math.min(reviewIdx + 1, answered.length)} / ${answered.length}` : undefined}
+            action={<Button variant="ghost" size="sm" iconLeft={ArrowLeft} onClick={() => setReviewing(false)}>{t('Back to your result')}</Button>}
+          />
+          {current ? (
+            <div className="p-5">
+              <QuestionView
+                question={current.question}
+                chosen={current.entry.chosenIndex}
+                correctIndex={current.question.options.findIndex((option: Question['options'][number]) => option.correct)}
+                revealed
+                onChoose={() => undefined}
+              />
+              <div className="mt-6 flex items-center justify-between border-t border-line pt-4">
+                <Button variant="ghost" iconLeft={ArrowLeft} disabled={reviewIdx === 0} onClick={() => setReviewIdx((index) => Math.max(0, index - 1))}>
+                  {t('Previous')}
+                </Button>
+                <Button
+                  variant="secondary"
+                  iconRight={ArrowRight}
+                  disabled={reviewIdx >= answered.length - 1}
+                  onClick={() => setReviewIdx((index) => Math.min(answered.length - 1, index + 1))}
+                >
+                  {t('Next')}
+                </Button>
+              </div>
+            </div>
+          ) : (
+            <p className="px-5 py-10 text-center text-[13px] text-ink-3">{t('These questions are no longer published, so they cannot be reopened.')}</p>
+          )}
+        </Panel>
+        {roster}
+      </div>
+    )
+  }
+
   /* ---- Results ------------------------------------------------------- */
   if (room.myFinished) {
     const myCorrect = room.myAnswers.filter((entry) => entry.correct).length
     const pct = room.questionCount ? Math.round((myCorrect / room.questionCount) * 100) : 0
     const stillWorking = room.members.filter((member) => !member.finished).length
+    const reviewable = room.questionIds.some((id) => byId.has(id))
     return (
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
         <Panel>
@@ -134,7 +194,14 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
                 ? `${stillWorking} ${stillWorking === 1 ? t('person is') : t('people are')} ${t('still working. Their scores appear as they finish.')}`
                 : t('Everyone has finished.')}
             </p>
-            <Button className="mt-5" variant="secondary" onClick={onExit}>{t('Back to shared tests')}</Button>
+            <div className="mt-5 flex flex-wrap justify-center gap-2">
+              {reviewable && (
+                <Button variant="primary" iconLeft={Eye} onClick={() => { setReviewIdx(0); setReviewing(true) }}>
+                  {t('Review answers')}
+                </Button>
+              )}
+              <Button variant="secondary" onClick={onExit}>{t('Back to shared tests')}</Button>
+            </div>
           </div>
         </Panel>
         {roster}
@@ -255,7 +322,9 @@ export function StudyTogether() {
   const [message, setMessage] = useState('')
   const [busy, setBusy] = useState(false)
 
-  const { topics: libraryTopics } = useLiveLibrary()
+  const { topics: publishedTopics } = useLiveLibrary()
+  // The same merged tree the chooser offers — see `chooserTopics`.
+  const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = questionsInScope(questions, scope, libraryTopics)
 
   if (!API_MODE) {

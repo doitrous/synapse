@@ -10,11 +10,17 @@ import { useStudentSchedule, type ScheduledSession } from '@/lib/useStudentSched
 import { EmptyState } from '@/components/ui/EmptyState'
 import { PageContainer } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
+import { Dialog } from '@/components/ui/Dialog'
 import { Button } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
 import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { Field, Select, TextInput } from '@/components/ui/Field'
+import { DateField, TimeField } from '@/components/ui/DateTimeField'
+import { SystemMark } from '@/components/ui/SystemMark'
+import { DEFAULT_WEEK_START, addDays, monthGrid, sameDay, weekDays, weekdayLabels } from '@/lib/calendarGrid'
+import { useIdentity } from '@/lib/useIdentity'
+import { useStudentModules } from '@/lib/useUniversityCatalogue'
 import { Icon } from '@/components/ui/Icon'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { formatLongDate, formatTimeString } from '@/lib/format'
@@ -22,7 +28,16 @@ import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-const WEEKDAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+
+/**
+ * The academic week these students keep runs Saturday to Friday.
+ *
+ * The grid arithmetic lives in `@/lib/calendarGrid` so the month header, the
+ * week view and every date picker read the same answer — three local copies of
+ * "which day starts a week" is how a date lands in two different columns.
+ */
+const WEEK_START = DEFAULT_WEEK_START
+const WEEKDAYS = weekdayLabels(WEEK_START)
 
 function dayKey(date: Date) {
   return isoDay(date)
@@ -30,20 +45,6 @@ function dayKey(date: Date) {
 function fromIsoDay(value: string) {
   const [year, month, day] = value.split('-').map(Number)
   return new Date(year, month - 1, day)
-}
-function startOfWeek(date: Date) {
-  const copy = new Date(date)
-  copy.setHours(0, 0, 0, 0)
-  copy.setDate(copy.getDate() - ((copy.getDay() + 6) % 7))
-  return copy
-}
-function addDays(date: Date, amount: number) {
-  const copy = new Date(date)
-  copy.setDate(copy.getDate() + amount)
-  return copy
-}
-function sameDay(a: Date, b: Date) {
-  return dayKey(a) === dayKey(b)
 }
 function timeOf(date: Date) {
   return `${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`
@@ -75,6 +76,7 @@ function blockEvent(block: StudyBlock): CalEvent {
     endTime: block.end,
     layer: 'personal',
     subjectId: block.subjectId,
+    moduleId: block.moduleId,
     kind: block.kind,
   }
 }
@@ -109,43 +111,58 @@ function BlockDialog({ date, existing, onClose, onSave, onDelete }: {
   onDelete?: () => void
 }) {
   const t = useT()
+  const { audience } = useIdentity()
+  const modules = useStudentModules(audience.universityId, audience.yearId)
   const [title, setTitle] = useState(existing?.title ?? '')
+  // The date was fixed by whichever cell was clicked, so a block planned on the
+  // wrong day had to be deleted and made again.
+  const [day, setDay] = useState(existing?.date ?? isoDay(date))
   const [start, setStart] = useState(existing?.start ?? '17:00')
   const [end, setEnd] = useState(existing?.end ?? '18:00')
   const [subjectId, setSubjectId] = useState(existing?.subjectId ?? subjects[0]?.id ?? '')
+  const [moduleId, setModuleId] = useState(existing?.moduleId ?? '')
   const [kind, setKind] = useState(existing?.kind ?? 'Study block')
-  const valid = title.trim() && durationMinutes(start, end) > 0
+  const valid = title.trim() && day && durationMinutes(start, end) > 0
   const heading = existing ? t('Edit study block') : t('Add a study block')
 
   return (
-    <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label={heading} onMouseDown={onClose}>
-      <Panel className="animate-pop max-h-[calc(100dvh-env(safe-area-inset-top))] w-full overflow-y-auto overscroll-contain rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-lg sm:rounded-xl" onMouseDown={(event) => event.stopPropagation()}>
+    <Dialog onClose={onClose} label={heading} size="md">
         <PanelHeader title={heading} icon={CalendarDays} action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />} />
         <form className="space-y-4 p-5" onSubmit={(event) => {
           event.preventDefault()
           if (!valid) return
-          onSave({ title: title.trim(), date: existing?.date ?? isoDay(date), start, end, subjectId, kind, done: existing?.done, sourceSessionId: existing?.sourceSessionId })
+          onSave({ title: title.trim(), date: day, start, end, subjectId, moduleId: moduleId || undefined, kind, done: existing?.done, sourceSessionId: existing?.sourceSessionId })
         }}>
-          <p className="text-[13px] text-ink-2">{formatLongDate(date)}</p>
           <Field label={t('What are you working on?')} htmlFor="block-title">
             <TextInput id="block-title" value={title} onChange={(event) => setTitle(event.target.value)} placeholder={t('e.g. Heart failure question set')} />
           </Field>
+          <Field label={t('Date')}><DateField value={day} onChange={setDay} /></Field>
           <div className="grid grid-cols-2 gap-3">
-            <Field label={t('Starts')}><TextInput type="time" value={start} onChange={(event) => setStart(event.target.value)} /></Field>
-            <Field label={t('Ends')} hint={durationMinutes(start, end) <= 0 ? t('End time must be later.') : undefined}><TextInput type="time" value={end} onChange={(event) => setEnd(event.target.value)} /></Field>
+            <Field label={t('Starts')}><TimeField value={start} onChange={setStart} /></Field>
+            <Field label={t('Ends')} hint={durationMinutes(start, end) <= 0 ? t('End time must be later.') : undefined}><TimeField value={end} onChange={setEnd} after={start} /></Field>
           </div>
           <div className="grid grid-cols-2 gap-3">
             <Field label={t('Subject')}><Select value={subjectId} onChange={(event) => setSubjectId(event.target.value)}>{subjects.map((subject) => <option key={subject.id} value={subject.id}>{subject.name}</option>)}</Select></Field>
             <Field label={t('Type')}><Select value={kind} onChange={(event) => setKind(event.target.value)}><option value="Study block">{t('Study block')}</option><option value="Question bank">{t('Question bank')}</option><option value="Library reading">{t('Library reading')}</option><option value="Practical">{t('Practical')}</option><option value="Test">{t('Test')}</option></Select></Field>
           </div>
+          {/* Modules come from the student's own year. Nothing to choose from
+              means no university or year is on the account yet, so the field is
+              absent rather than an empty control that looks broken. */}
+          {modules.length > 0 && (
+            <Field label={t('Module')} hint={t('Optional — ties this block to a module on your timetable.')}>
+              <Select value={moduleId} onChange={(event) => setModuleId(event.target.value)}>
+                <option value="">{t('No module')}</option>
+                {modules.map((module) => <option key={module.id} value={module.id}>{module.id} — {module.name}</option>)}
+              </Select>
+            </Field>
+          )}
           <div className="flex items-center justify-end gap-2 border-t border-line pt-4">
             {onDelete && <Button type="button" variant="ghost" className="me-auto text-danger hover:bg-danger-tint" iconLeft={Trash2} onClick={onDelete}>{t('Delete')}</Button>}
             <Button type="button" variant="ghost" onClick={onClose}>{t('Cancel')}</Button>
             <Button type="submit" variant="primary" iconLeft={existing ? Check : Plus} disabled={!valid}>{existing ? t('Save changes') : t('Add block')}</Button>
           </div>
         </form>
-      </Panel>
-    </div>
+    </Dialog>
   )
 }
 
@@ -167,17 +184,7 @@ function EventDetailDialog({ event, onClose, onEdit }: { event: CalEvent; onClos
   const action = actionFor(event)
   const timeLabel = event.endTime ? `${formatTimeString(event.time)} – ${formatTimeString(event.endTime)}` : formatTimeString(event.time)
   return (
-    <div
-      className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4"
-      role="dialog"
-      aria-modal="true"
-      aria-label={t('Event details')}
-      onMouseDown={onClose}
-    >
-      <Panel
-        className="animate-pop w-full overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-md sm:rounded-xl"
-        onMouseDown={(e) => e.stopPropagation()}
-      >
+    <Dialog onClose={onClose} label={t('Event details')} size="sm">
         <div className="flex items-start gap-3 border-b border-line px-5 py-3.5">
           <span className="mt-1 h-8 w-1 shrink-0 rounded-full" style={{ backgroundColor: subject.color }} />
           <div className="min-w-0 flex-1">
@@ -206,6 +213,12 @@ function EventDetailDialog({ event, onClose, onEdit }: { event: CalEvent; onClos
             <Icon icon={Layers} size={16} className="text-ink-3" />
             <span>{event.kind}</span>
           </div>
+          {event.moduleId && (
+            <div className="flex items-center gap-2.5">
+              <SystemMark moduleId={event.moduleId} size="sm" />
+              <span>{event.moduleId}</span>
+            </div>
+          )}
           {(event.location || event.subjectId) && (
             <div className="flex items-center gap-2.5">
               <Icon icon={MapPin} size={16} className="text-ink-3" />
@@ -228,8 +241,7 @@ function EventDetailDialog({ event, onClose, onEdit }: { event: CalEvent; onClos
             )}
           </div>
         )}
-      </Panel>
-    </div>
+    </Dialog>
   )
 }
 
@@ -237,8 +249,7 @@ function EventDetailDialog({ event, onClose, onEdit }: { event: CalEvent; onClos
 function DaySheet({ date, events, onClose, onEvent, onAdd }: { date: Date; events: CalEvent[]; onClose: () => void; onEvent: (e: CalEvent) => void; onAdd: () => void }) {
   const t = useT()
   return (
-    <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label={formatLongDate(date)} onMouseDown={onClose}>
-      <Panel className="animate-pop max-h-[80dvh] w-full overflow-y-auto overscroll-contain rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-md sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
+    <Dialog onClose={onClose} label={formatLongDate(date)} size="sm" className="max-h-[80dvh]">
         <PanelHeader title={formatLongDate(date)} icon={CalendarDays} hint={`${events.length} ${events.length === 1 ? t('event') : t('events')}`} action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />} />
         <div className="p-3">
           {events.length ? (
@@ -264,8 +275,7 @@ function DaySheet({ date, events, onClose, onEvent, onAdd }: { date: Date; event
           )}
           <Button className="mt-3 w-full" variant="primary" size="sm" iconLeft={Plus} onClick={onAdd}>{t('Add a block')}</Button>
         </div>
-      </Panel>
-    </div>
+    </Dialog>
   )
 }
 
@@ -283,15 +293,10 @@ export function CalendarPage() {
   const { sessions, hasYear } = useStudentSchedule()
   const today = new Date()
 
-  const days = useMemo(() => {
-    if (view === 'week') {
-      const start = startOfWeek(anchor)
-      return Array.from({ length: 7 }, (_, index) => addDays(start, index))
-    }
-    const first = new Date(anchor.getFullYear(), anchor.getMonth(), 1)
-    const gridStart = startOfWeek(first)
-    return Array.from({ length: 42 }, (_, index) => addDays(gridStart, index))
-  }, [anchor, view])
+  const days = useMemo(
+    () => (view === 'week' ? weekDays(anchor, WEEK_START) : monthGrid(anchor, WEEK_START)),
+    [anchor, view],
+  )
 
   const eventMap = useMemo(() => {
     const map = new Map<string, CalEvent[]>()
@@ -304,20 +309,31 @@ export function CalendarPage() {
 
   const visible = (events: CalEvent[] = []) => events.filter((event) => event.layer === 'curriculum' ? showCurriculum : showPersonal)
   const todayEvents = visible(eventMap.get(dayKey(today)))
-  const weekStart = startOfWeek(anchor)
-  const weekDays = Array.from({ length: 7 }, (_, index) => addDays(weekStart, index))
-  const weekEvents = weekDays.flatMap((day) => visible(eventMap.get(dayKey(day))))
+  const thisWeek = weekDays(anchor, WEEK_START)
+  const weekEvents = thisWeek.flatMap((day) => visible(eventMap.get(dayKey(day))))
   const taughtSessions = weekEvents.filter((event) => event.layer === 'curriculum')
   // Each session's own start and end. Assuming every taught block was exactly
   // sixty minutes was the last invented number left on this page.
   const taughtMinutes = taughtSessions.reduce((total, event) => total + (event.endTime ? durationMinutes(event.time, event.endTime) : 0), 0)
-  const plannedBlocks = blocks.filter((block) => weekDays.some((day) => block.date === isoDay(day)))
+  const plannedBlocks = blocks.filter((block) => thisWeek.some((day) => block.date === isoDay(day)))
   const plannedMinutes = plannedBlocks.reduce((total, block) => total + durationMinutes(block.start, block.end), 0)
   const editingBlock = blocks.find((block) => block.id === editingBlockId)
 
   function shift(direction: number) {
     if (view === 'week') setAnchor((date) => addDays(date, direction * 7))
     else setAnchor((date) => new Date(date.getFullYear(), date.getMonth() + direction, 1))
+  }
+  /**
+   * One answer to "what does clicking a day do", for both views.
+   *
+   * Month opened a day sheet and week opened the editor, so the same intent had
+   * two outcomes depending on which tab you were on. And on an empty day the
+   * sheet only ever said "Nothing scheduled" above the button you were going to
+   * press anyway — a screen to dismiss between the click and the thing it meant.
+   */
+  function openDay(date: Date) {
+    if (visible(eventMap.get(dayKey(date))).length === 0) setDialogDate(date)
+    else setDaySheet(date)
   }
   function saveBlock(block: Omit<StudyBlock, 'id'>) {
     if (editingBlockId) {
@@ -343,7 +359,7 @@ export function CalendarPage() {
   }
 
   const label = view === 'week'
-    ? `${formatLongDate(startOfWeek(anchor))} – ${formatLongDate(addDays(startOfWeek(anchor), 6))}`
+    ? `${formatLongDate(thisWeek[0])} – ${formatLongDate(thisWeek[6])}`
     : `${t(MONTHS[anchor.getMonth()])} ${anchor.getFullYear()}`
 
   return (
@@ -375,7 +391,7 @@ export function CalendarPage() {
                 const inMonth = date.getMonth() === anchor.getMonth()
                 const isToday = sameDay(date, today)
                 return (
-                  <button key={dayKey(date)} onClick={() => setDaySheet(date)} className={cn('group min-h-[64px] border-b border-r border-line p-1 text-left transition-colors hover:bg-accent-tint/25 focus-visible:z-10 focus-visible:outline-2 focus-visible:outline-accent sm:min-h-[112px] sm:p-1.5', index % 7 === 6 && 'border-r-0', !inMonth && 'bg-surface-2/40')} aria-label={`${formatLongDate(date)} — ${events.length} events`}>
+                  <button key={dayKey(date)} onClick={() => openDay(date)} className={cn('group min-h-[64px] border-b border-r border-line p-1 text-left transition-colors hover:bg-accent-tint/25 focus-visible:z-10 focus-visible:outline-2 focus-visible:outline-accent sm:min-h-[112px] sm:p-1.5', index % 7 === 6 && 'border-r-0', !inMonth && 'bg-surface-2/40')} aria-label={`${formatLongDate(date)} — ${events.length} events`}>
                     <div className="mb-1 flex items-center justify-between">
                       <Icon icon={Plus} size={12} className="text-ink-3 opacity-0 transition-opacity group-hover:opacity-100" />
                       <span className={cn('tnum grid size-6 place-items-center rounded-full text-[12px] font-medium', isToday ? 'bg-accent text-on-accent' : inMonth ? 'text-ink-2' : 'text-ink-3')}>{date.getDate()}</span>
@@ -391,7 +407,7 @@ export function CalendarPage() {
           <div className="space-y-2">
             {days.map((date, index) => {
               const events = visible(eventMap.get(dayKey(date)))
-              return <Panel key={dayKey(date)} className="flex flex-col gap-2 p-3 sm:flex-row sm:gap-3"><button onClick={() => setDialogDate(date)} className="flex w-full shrink-0 items-center gap-2 rounded-md text-start hover:bg-inset sm:w-28"><span className="text-[12px] font-medium uppercase tracking-wide text-ink-3">{t(WEEKDAYS[index])}</span><span className={cn('tnum grid size-8 place-items-center rounded-full font-serif text-[16px] font-semibold', sameDay(date, today) ? 'bg-accent text-on-accent' : 'text-ink')}>{date.getDate()}</span></button><div className="grid min-w-0 flex-1 gap-1.5 sm:grid-cols-2">{events.length ? events.map((event) => <button key={event.id} type="button" onClick={() => setDetailEvent(event)} className="min-w-0 text-start"><Chip event={event} /></button>) : <button onClick={() => setDialogDate(date)} className="rounded-md border border-dashed border-line px-3 py-2 text-start text-[12.5px] text-ink-3 hover:border-line-2">+ {t('Add a block')}</button>}</div></Panel>
+              return <Panel key={dayKey(date)} className="flex flex-col gap-2 p-3 sm:flex-row sm:gap-3"><button onClick={() => openDay(date)} className="flex w-full shrink-0 items-center gap-2 rounded-md text-start hover:bg-inset sm:w-28"><span className="text-[12px] font-medium uppercase tracking-wide text-ink-3">{t(WEEKDAYS[index])}</span><span className={cn('tnum grid size-8 place-items-center rounded-full font-serif text-[16px] font-semibold', sameDay(date, today) ? 'bg-accent text-on-accent' : 'text-ink')}>{date.getDate()}</span></button><div className="grid min-w-0 flex-1 gap-1.5 sm:grid-cols-2">{events.length ? events.map((event) => <button key={event.id} type="button" onClick={() => setDetailEvent(event)} className="min-w-0 text-start"><Chip event={event} /></button>) : <button onClick={() => setDialogDate(date)} className="rounded-md border border-dashed border-line px-3 py-2 text-start text-[12.5px] text-ink-3 hover:border-line-2">+ {t('Add a block')}</button>}</div></Panel>
             })}
           </div>
         )}

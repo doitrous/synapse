@@ -15,7 +15,6 @@ import { Toggle } from '@/components/ui/Toggle'
 import { TextInput } from '@/components/ui/Field'
 import { BarList } from '@/components/charts/BarList'
 import { Meter } from '@/components/ui/Meter'
-import { SubjectDot } from '@/components/ui/Subject'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
@@ -73,7 +72,7 @@ export function PaymentsFinance() {
       <div className="mb-4 grid gap-4 lg:grid-cols-2">
         <Panel>
           <PanelHeader title="Revenue by university" icon={GraduationCap} hint={`Monthly · ${egp(totalRevenue)} total`} />
-          <div className="p-5"><BarList data={byUniversity.map((u) => ({ key: u.id, value: u.revenue, valueLabel: egp(u.revenue), label: <span className="inline-flex items-center gap-1.5"><SubjectDot id="cvs" />{u.short}</span> }))} /></div>
+          <div className="p-5"><BarList data={byUniversity.map((u) => ({ key: u.id, value: u.revenue, valueLabel: egp(u.revenue), label: <span className="inline-flex items-center gap-1.5">{u.short}</span> }))} /></div>
         </Panel>
         <Panel>
           <PanelHeader title="Revenue by year" icon={CalendarRange} hint="Monthly, across all universities" />

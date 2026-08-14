@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/Button'
 import { Meter } from '@/components/ui/Meter'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { ChapterMark } from '@/components/ui/ChapterMark'
+import { SystemMark } from '@/components/ui/SystemMark'
 import { formatLongDate, formatMinutes, formatTimeString } from '@/lib/format'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useStudentSchedule, sameDay, type ScheduledSession } from '@/lib/useStudentSchedule'
@@ -58,7 +58,7 @@ function PlanRow({ block, index, onToggle }: { block: StudyBlock; index: number;
       </span>
       <span className="tnum font-mono text-[12px] text-ink-2">{formatTimeString(block.start)}</span>
       <span className={cn('min-w-0 truncate text-[13.5px]', block.done ? 'text-ink-3 line-through decoration-line-2' : 'font-medium text-ink')}>{block.title}</span>
-      <ChapterMark subjectId={block.subjectId} index={index + 1} compact className="hidden sm:inline-flex" />
+      <SystemMark subjectId={block.subjectId} index={index + 1} className="hidden sm:inline-flex" />
       <span className="tnum hidden w-10 text-right font-mono text-[11.5px] text-ink-3 sm:block">{minutes}m</span>
     </button>
   )

@@ -15,6 +15,8 @@ const USER_OWNED_PATTERNS = [
   /^synapse\.qbank\./,
   /^synapse\.practical\./,
   /^synapse\.highlights\./,
+  /^synapse\.annotations\./,
+  /^synapse\.reader\./,
   /^synapse\.bookmarks\./,
   /^synapse\.progress\./,
 ]

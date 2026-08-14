@@ -50,13 +50,13 @@ export function Select({
 }: SelectHTMLAttributes<HTMLSelectElement>) {
   return (
     <div className="relative">
-      <select className={cn(base, 'h-11 appearance-none pl-3 pr-9 sm:h-9', className)} {...props}>
+      <select className={cn(base, 'h-11 appearance-none ps-3 pe-9 sm:h-9', className)} {...props}>
         {children}
       </select>
       <Icon
         icon={ChevronDown}
         size={16}
-        className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-ink-3"
+        className="pointer-events-none absolute end-3 top-1/2 -translate-y-1/2 text-ink-3"
       />
     </div>
   )
@@ -68,9 +68,9 @@ export function SearchInput({ className, ...props }: InputHTMLAttributes<HTMLInp
       <Icon
         icon={Search}
         size={16}
-        className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-ink-3"
+        className="pointer-events-none absolute start-3 top-1/2 -translate-y-1/2 text-ink-3"
       />
-      <input type="search" className={cn(base, 'h-11 pl-9 pr-3 sm:h-9', className)} {...props} />
+      <input type="search" className={cn(base, 'h-11 ps-9 pe-3 sm:h-9', className)} {...props} />
     </div>
   )
 }

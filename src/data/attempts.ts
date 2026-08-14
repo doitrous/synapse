@@ -124,6 +124,39 @@ export function indexAttempt(index: AttemptIndex, record: AttemptRecord): Attemp
   }
 }
 
+/**
+ * Drop every record from one sitting.
+ *
+ * A student could rename a previous test but never remove one, so a session
+ * started by accident sat in their history and in their accuracy for good.
+ * Returns the month unchanged when it holds nothing from that sitting, so a
+ * delete writes only the shards it actually touches.
+ */
+export function removeSession(month: AttemptMonth, sessionId: string): AttemptMonth {
+  const records = month.records.filter((record) => record.sessionId !== sessionId)
+  return records.length === month.records.length ? month : { ...month, records }
+}
+
+/**
+ * Take removed records back out of the headline totals.
+ *
+ * `lastAt` is deliberately left alone: it exists to refuse a duplicate write at
+ * the same instant, and a value pointing at a deleted record can only ever fail
+ * to match a fresh timestamp. Recomputing it would mean reading every shard.
+ */
+export function unindexAttempts(index: AttemptIndex, removed: AttemptRecord[]): AttemptIndex {
+  if (!removed.length) return index
+  return {
+    ...index,
+    totals: {
+      ...index.totals,
+      attempts: Math.max(0, index.totals.attempts - removed.length),
+      marked: Math.max(0, index.totals.marked - removed.filter((record) => record.correct !== null).length),
+      correct: Math.max(0, index.totals.correct - removed.filter((record) => record.correct === true).length),
+    },
+  }
+}
+
 /** The last `count` months ending at `from`, newest last. */
 export function recentMonths(count: number, from = new Date()): string[] {
   const months: string[] = []

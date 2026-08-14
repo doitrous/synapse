@@ -70,8 +70,12 @@ export function LibraryLanding({
       <div className="mx-auto max-w-[76rem]">
         <div className="max-w-[46rem]">
           <div className="inline-flex items-center gap-2 rounded-full border border-accent-line bg-accent-tint/45 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.07em] text-accent-strong"><Icon icon={BookOpen} size={13} />Medical library</div>
-          <h1 className="mt-5 font-serif text-[34px] font-semibold leading-[1.08] tracking-[-0.025em] text-ink sm:text-[42px]">Choose how you want to enter medicine.</h1>
-          <p className="mt-4 max-w-[42rem] text-[15px] leading-relaxed text-ink-2">Every route reaches the same connected, reviewed articles and concepts. Start with an organ system, a university discipline, a clinical task, or your curriculum.</p>
+          {/* This asked a question — "Choose how you want to enter medicine." —
+              of someone who had come to read. A landing page should say what
+              the library is and what it is good for; the five cards below are
+              already the choice. */}
+          <h1 className="mt-5 font-serif text-[34px] font-semibold leading-[1.08] tracking-[-0.025em] text-ink sm:text-[42px]">{t('Every system, every source, one library.')}</h1>
+          <p className="mt-4 max-w-[42rem] text-[15px] leading-relaxed text-ink-2">{t('Reviewed articles across the whole curriculum, each one carrying the concepts it teaches, the questions that test it, and the exact page of the source it came from. Find it by organ system, by discipline, by clinical skill, by condition, or straight from your own timetable.')}</p>
         </div>
 
         {/* SearchInput draws its own magnifier. A second one was added here and
@@ -228,6 +232,19 @@ export function AtlasNavigation({
       return changed ? next : current
     })
   }, [index, selectedNodeId])
+
+  /**
+   * An article ends the browsing, so the tree narrows to the branch it sits in.
+   *
+   * Every other path only ever *added* to the open set, so by the third article
+   * the rail was a wall of every branch visited on the way. Choosing a topic
+   * still expands without closing anything — that is a step in browsing, not
+   * the end of it.
+   */
+  useEffect(() => {
+    if (!selectedArticleId || !selectedNodeId) return
+    setOpen(new Set(index.lineage(selectedNodeId).map((node) => node.id)))
+  }, [index, selectedArticleId, selectedNodeId])
   const articleCounts = useMemo(() => {
     const counts = new Map<string, number>()
     for (const article of articles) {

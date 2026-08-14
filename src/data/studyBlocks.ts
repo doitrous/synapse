@@ -19,6 +19,12 @@ export interface StudyBlock {
   start: string
   end: string
   subjectId: string
+  /**
+   * The module this block belongs to, e.g. `"CVS 01"` — optional, because a
+   * student can plan against a subject without naming a module, and every
+   * block written before this field existed has none.
+   */
+  moduleId?: string
   kind: string
   /** Set when the student ticks it off. */
   done?: boolean

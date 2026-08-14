@@ -1,0 +1,63 @@
+/*
+ * The pdf.js text layer, transcribed rather than imported.
+ *
+ * `pdfjs-dist/web/pdf_viewer.css` is ~163 KB and carries the whole of that
+ * viewer's chrome, including `color-scheme: only light` and its own highlight
+ * palette — all of which would fight this app's three themes. These are the
+ * rules the text layer actually needs, taken from the `.textLayer` block of
+ * `pdf_viewer.css` (pdfjs-dist 6.2.x).
+ *
+ * This is a copied private contract: `pdfjs-dist` is pinned to an exact version
+ * in package.json, and this file is re-checked on any upgrade.
+ */
+
+.pdf-text-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 1;
+  line-height: 1;
+  text-align: initial;
+  text-size-adjust: none;
+  forced-color-adjust: none;
+  transform-origin: 0 0;
+  caret-color: var(--color-ink);
+  /* Off by default so a pen stroke is never a text selection. The reader turns
+     it on for the text tool and for a search highlight. */
+  pointer-events: none;
+  user-select: none;
+}
+
+.pdf-text-layer[data-selectable='true'] {
+  pointer-events: auto;
+  user-select: text;
+}
+
+.pdf-text-layer :is(span, br) {
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  margin: 0;
+  transform-origin: 0 0;
+  color: transparent;
+}
+
+/* pdf.js writes these two on each span as it lays the page out. */
+.pdf-text-layer span[role='img'] {
+  user-select: none;
+}
+
+.pdf-text-layer ::selection {
+  background: color-mix(in srgb, var(--color-accent) 32%, transparent);
+}
+
+/* A search hit, drawn behind the (transparent) glyphs it covers. */
+.pdf-text-layer .pdf-hit {
+  background: color-mix(in srgb, var(--color-warning) 45%, transparent);
+  border-radius: 2px;
+}
+
+.pdf-text-layer .pdf-hit-current {
+  background: color-mix(in srgb, var(--color-accent) 45%, transparent);
+  box-shadow: 0 0 0 1px var(--color-accent);
+}

@@ -4,7 +4,7 @@ import { getSubject } from '@/data/subjects'
 /**
  * A single, editable source of System colours. Common chapters keep their common
  * colours (seeded from the subject palette); admins can override any system's
- * colour in Subjects & Topics, and every SystemBadge across the app reflects it.
+ * colour in Subjects & Topics, and every SystemMark across the app reflects it.
  */
 export const SYSTEM_COLORS_KEY = 'synapse-system-colors-v1'
 const CHANGE_EVENT = 'synapse-system-colors-change'

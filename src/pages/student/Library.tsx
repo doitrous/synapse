@@ -5,6 +5,7 @@ import {
   NotebookPen,
   ListChecks,
   ArrowRight,
+  ArrowLeft,
   Check,
   TriangleAlert,
   BookOpen,
@@ -32,7 +33,7 @@ import { useLiveLibrary, type LiveSubtopic } from '@/lib/useLiveLibrary'
 import { getSubject } from '@/data/subjects'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
-import { ChapterMark } from '@/components/ui/ChapterMark'
+import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
 import { formatLongDate } from '@/lib/format'
 import { usePersistentState } from '@/lib/usePersistentState'
@@ -40,6 +41,9 @@ import { ReportContentDialog, type ReportTarget } from '@/components/reports/Rep
 import { BackBar, backState } from '@/components/ui/BackBar'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
 import { useT } from '@/lib/i18n'
+import { useIdentity } from '@/lib/useIdentity'
+import { useLocalPreference } from '@/lib/useLocalPreference'
+import { MenuToggle } from '@/components/shell/MenuToggle'
 import { NewArticleDialog } from '@/components/library/NewArticleDialog'
 import { PERSONAL_TAGS_KEY, USER_ARTICLES_KEY, type UserArticle } from '@/data/userLibrary'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type ArticleSpan, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore } from '@/data/medicalEvidence'
@@ -48,7 +52,7 @@ import { ConceptChip } from '@/components/concepts/ConceptChip'
 import { apiOpenFile } from '@/lib/api'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
-import { AtlasNavigation, LibraryLanding, LibraryViewTabs, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
+import { AtlasNavigation, LibraryLanding, LibraryViewTabs, MEDICAL_LIBRARY_VIEWS, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
 
 /**
  * Article prose, with the search term marked where there is one.
@@ -59,12 +63,12 @@ import { AtlasNavigation, LibraryLanding, LibraryViewTabs, TaxonomyNodeOverview,
  * splitting on the query and re-tokenising each fragment would break markers
  * across the split, and seeing what matched matters more than seeing it styled.
  */
-function Highlight({ text, query }: { text: string; query: string }) {
+function Highlight({ text, query, concepts = true }: { text: string; query: string; concepts?: boolean }) {
   const q = query.trim()
   // No active search: render the author's inline markup, then let ConceptText
   // find the named concepts inside it. This is the one student surface actually
   // about reading concepts, and it was the only one not highlighting them.
-  if (!q) return <ConceptText text={text} />
+  if (!q) return <ConceptText text={text} enabled={concepts} />
   const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   return <>{text.split(new RegExp(`(${escaped})`, 'ig')).map((part, index) => part.toLowerCase() === q.toLowerCase() ? <mark key={index} className="rounded-sm bg-warning-tint px-0.5 text-ink">{part}</mark> : part)}</>
 }
@@ -357,7 +361,11 @@ function Blocks({
               className="group mt-3 flex w-full items-start gap-3 rounded-lg border border-accent-line/70 bg-accent-tint/25 px-4 py-3 text-start transition-colors hover:border-accent hover:bg-accent-tint/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35"
             >
               <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
-              <span className="min-w-0 flex-1 text-[15px] leading-[1.65] text-ink/90"><Highlight text={b.text ?? ''} query={query} /></span>
+              {/* Concepts off here on purpose. A verified fact is itself a
+                  button that opens its sources, so a concept inside it was a
+                  button inside a button — invalid, and clicking one fired both.
+                  One fact, one target. Concepts stay live everywhere else. */}
+              <span className="min-w-0 flex-1 text-[15px] leading-[1.65] text-ink/90"><Highlight text={b.text ?? ''} query={query} concepts={false} /></span>
               <span className="inline-flex shrink-0 items-center gap-1 rounded-full border border-accent-line bg-surface px-2 py-0.5 font-mono text-[10px] font-semibold text-accent-strong">
                 <Icon icon={Database} size={11} />{b.citationIds?.length ?? 0}
               </span>
@@ -541,6 +549,7 @@ function Reader({
   onOpenArticle,
   onBrowseSubject,
   onBrowseTopic,
+  cameFrom,
 }: {
   article: LiveSubtopic
   tags: string[]
@@ -550,6 +559,8 @@ function Reader({
   onOpenArticle: (articleId: string) => void
   onBrowseSubject?: () => void
   onBrowseTopic?: () => void
+  /** The article this one was reached from, when it was reached from one. */
+  cameFrom?: { title: string; onBack: () => void }
 }) {
   const t = useT()
   const location = useLocation()
@@ -577,31 +588,60 @@ function Reader({
 
   return (
     <div className="mx-auto max-w-[78rem] px-5 py-8 sm:px-8 lg:py-10">
+    {/* Two different returns, and both can apply: `cameFrom` is a jump made
+        inside the library ("Read next"), `BackBar` is an arrival from another
+        surface. Naming the article makes the difference obvious. */}
+    {cameFrom && (
+      <div className="mb-3">
+        <button
+          type="button"
+          onClick={cameFrom.onBack}
+          className="inline-flex max-w-full items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 shadow-panel transition-colors hover:border-accent-line hover:text-accent-strong"
+        >
+          <Icon icon={ArrowLeft} size={15} className="shrink-0 rtl:-scale-x-100" />
+          <span className="truncate">{t('Back to')} {cameFrom.title}</span>
+        </button>
+      </div>
+    )}
     <BackBar />
     <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,46rem)_20rem]">
     <article>
       {/* The same trail as a taxonomy node page, and navigable for the same
           reason: reading an article is the most common place to want the rest
           of its branch. */}
-      <nav aria-label={t('Breadcrumb')} className="flex flex-wrap items-center gap-2 text-[12.5px] text-ink-3">
-        <button
-          type="button"
-          onClick={() => onBrowseSubject?.()}
-          disabled={!onBrowseSubject}
-          className="inline-flex items-center gap-1.5 rounded font-medium text-ink-2 transition-colors hover:text-accent-strong disabled:hover:text-ink-2"
-        >
-          <ChapterMark subjectId={subject.id} index={chapterIndex + 1} compact />
-          {subject.name}
-        </button>
+      {/* These are real navigation, but they only changed colour on hover, so
+          they read as a label. Given the house interactive treatment — hairline
+          border, surface, hover fill, focus ring — the trail looks like the way
+          back out that it is. A crumb with nowhere to go stays plain text. */}
+      <nav aria-label={t('Breadcrumb')} className="flex flex-wrap items-center gap-1.5 text-[12.5px] text-ink-3">
+        {onBrowseSubject ? (
+          <button
+            type="button"
+            onClick={onBrowseSubject}
+            className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface py-1 pe-2.5 ps-1 font-medium text-ink-2 shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/40 hover:text-accent-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          >
+            <SystemMark subjectId={subject.id} index={chapterIndex + 1} />
+            {subject.name}
+          </button>
+        ) : (
+          <span className="inline-flex items-center gap-1.5 py-1 pe-2.5 ps-1 font-medium text-ink-2">
+            <SystemMark subjectId={subject.id} index={chapterIndex + 1} />
+            {subject.name}
+          </span>
+        )}
         <Icon icon={ArrowRight} size={12} className="rtl:-scale-x-100" />
-        <button
-          type="button"
-          onClick={() => onBrowseTopic?.()}
-          disabled={!onBrowseTopic}
-          className="rounded transition-colors hover:text-accent-strong disabled:hover:text-ink-3"
-        >
-          {st.topicTitle}
-        </button>
+        {onBrowseTopic ? (
+          <button
+            type="button"
+            onClick={onBrowseTopic}
+            className="inline-flex items-center gap-1 rounded-lg border border-line bg-surface px-2.5 py-1.5 transition-colors hover:border-accent-line hover:bg-accent-tint/40 hover:text-accent-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          >
+            {st.topicTitle}
+            <Icon icon={ChevronRight} size={12} className="opacity-60 rtl:-scale-x-100" />
+          </button>
+        ) : (
+          <span className="px-2.5 py-1.5">{st.topicTitle}</span>
+        )}
       </nav>
 
       <h1 className="mt-3 font-serif text-[30px] font-semibold leading-tight tracking-[-0.02em] text-ink">
@@ -712,7 +752,9 @@ function Reader({
         ))}</ul>
       </section>
       )}
-      <Link to={`/app/qbank?article=${st.id}`} className="group flex items-center gap-3 rounded-xl border border-line bg-surface p-4 shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/20">
+      {/* Leaving the library for a filtered session had no way back: the student
+          landed in the question bank with the article they were reading gone. */}
+      <Link to={`/app/qbank?article=${st.id}`} state={backState(location, t('Back to article'))} className="group flex items-center gap-3 rounded-xl border border-line bg-surface p-4 shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/20">
         <span className="tnum grid size-10 shrink-0 place-items-center rounded-lg bg-accent-tint font-mono text-[15px] font-bold text-accent-strong">{st.questions.length}</span><span className="min-w-0 flex-1"><span className="block text-[13px] font-bold text-ink">{t('Questions that test this')}</span><span className="mt-0.5 block text-[11.5px] text-ink-3">{t('Start a filtered session')}</span></span><Icon icon={ChevronRight} size={17} className="text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
       </Link>
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
@@ -722,7 +764,7 @@ function Reader({
           // a resource is renamed, and finds the wrong thing when two share a name.
           const resourceId = st.resourceIds?.[index]
           const to = resourceId ? `/app/resources?id=${encodeURIComponent(resourceId)}` : `/app/resources?q=${encodeURIComponent(resource)}`
-          return <li key={resource}><Link to={to} state={backState(location, t('Back to reading'))} data-context-href={to} data-context-label={resource} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={FileText} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{resource}<span className="mt-0.5 block text-[10.5px] text-ink-3">{t('Open at the relevant page')}</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>
+          return <li key={resource}><Link to={to} state={backState(location, t('Back to article'))} data-context-href={to} data-context-label={resource} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={FileText} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{resource}<span className="mt-0.5 block text-[10.5px] text-ink-3">{t('Open at the relevant page')}</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>
         })}</ul>
       </section>
     </aside>
@@ -758,7 +800,7 @@ function UserReader({
       <article>
         <nav className="flex items-center gap-2 text-[12.5px] text-ink-3">
           <span className="inline-flex items-center gap-1.5 font-medium text-ink-2">
-            <ChapterMark subjectId={subject.id} index={1} compact />
+            <SystemMark subjectId={subject.id} index={1} />
             {subject.name}
           </span>
           <Icon icon={ArrowRight} size={12} className="rtl:-scale-x-100" />
@@ -823,6 +865,14 @@ export function Library() {
   const [view, setView] = useState<MedicalLibraryView>(initialView)
   const [treeOpen, setTreeOpen] = useState(false)
   const [creating, setCreating] = useState(false)
+  // Which desktop menus are showing. The rail is a device preference — a wide
+  // monitor and a laptop want different answers — while the route strip resets
+  // each visit, because it is redundant the moment a route has been chosen.
+  const [railOpen, setRailOpen] = useLocalPreference('synapse.library.rail', true)
+  const [viewTabsOpen, setViewTabsOpen] = useState(false)
+  /** Articles jumped from, most recent last — the way back out of "Read next". */
+  const [trail, setTrail] = useState<string[]>([])
+  const { role } = useIdentity()
   const atlasArticles = useMemo<AtlasArticle[]>(() => allSubtopics.map((article) => ({ id: article.id, title: article.title, summary: article.summary, subjectId: article.subjectId, topicTitle: article.topicTitle, primaryNodeId: article.primaryNodeId, secondaryNodeIds: article.secondaryNodeIds })), [allSubtopics])
 
   // Follow ?s= when arriving from a question's reference link.
@@ -864,18 +914,48 @@ export function Library() {
     setParams(next)
   }
 
-  const openArticle = (articleId: string) => {
+  /** Navigate to an article. Says nothing about how the student got there. */
+  const showArticle = (articleId: string) => {
     const article = allSubtopics.find((item) => item.id === articleId)
     const node = article?.primaryNodeId ? taxonomyIndex.byId.get(article.primaryNodeId) : undefined
     const nextView: MedicalLibraryView = node?.division ?? (view === 'home' || view === 'curriculum' ? 'system' : view)
     setView(nextView)
     setSelectedNodeId(node?.id)
     setSelectedId(articleId)
+    // Choosing an article ends the browsing. The tree has done its job, and the
+    // reading column should have the width — reopen it from the three lines.
+    setRailOpen(false)
     const next = new URLSearchParams()
     next.set('view', nextView)
     next.set('s', articleId)
     if (node) next.set('node', node.id)
     setParams(next)
+  }
+
+  /** Arriving fresh — from the tree, from search, from a link in. */
+  const openArticle = (articleId: string) => {
+    setTrail([])
+    showArticle(articleId)
+  }
+
+  /**
+   * Following "Read next" out of the article being read.
+   *
+   * Both paths used to replace the search params outright, so three articles
+   * deep there was no way back except the browser button — and no way to tell
+   * which of the three it would land on. The trail records where each jump
+   * started so the reader can offer the way back by name.
+   */
+  const openRelatedArticle = (articleId: string) => {
+    if (selectedId && selectedId !== articleId) setTrail((current) => [...current, selectedId])
+    showArticle(articleId)
+  }
+
+  const goBackInTrail = () => {
+    const previous = trail[trail.length - 1]
+    if (!previous) return
+    setTrail((current) => current.slice(0, -1))
+    showArticle(previous)
   }
 
   const changeView = (nextView: MedicalLibraryView) => {
@@ -892,6 +972,9 @@ export function Library() {
   const selectNode = (nodeId: string) => {
     const node = taxonomyIndex.byId.get(nodeId)
     if (!node) return
+    // A topic is a step in browsing, not the end of it: the tree stays.
+    setRailOpen(true)
+    setTrail([])
     setSelectedNodeId(nodeId)
     setSelectedId('')
     setView(node.division)
@@ -904,6 +987,10 @@ export function Library() {
   // "On a route" means a view has been chosen or an article opened — the two
   // states in which the tab strip is a navigation aid rather than a duplicate.
   const onRoute = view !== 'home' || Boolean(selectedId)
+  const currentViewLabel = view === 'home'
+    ? 'Home'
+    : MEDICAL_LIBRARY_VIEWS.find((item) => item.id === view)?.label ?? 'Home'
+  const cameFromArticle = allSubtopics.find((item) => item.id === trail[trail.length - 1])
   const selectedNode = selectedNodeId ? taxonomyIndex.byId.get(selectedNodeId) : undefined
   const selectedPublishedArticle = allSubtopics.find((article) => article.id === selectedId)
   // The top of the open article's branch — where "Cardiovascular System" in its
@@ -919,21 +1006,38 @@ export function Library() {
         <button type="button" className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
         {/* The home state offers these same five routes as cards in the page.
             Showing them as tabs at the same time was two menus for one choice,
-            so the strip appears only once a route has been picked. */}
+            so the strip appears only once a route has been picked — and then
+            folded away, because the route was just chosen on the page behind it.
+            It reopens from the same three lines the rest of the app uses. */}
         {onRoute && <span className="hidden h-5 w-px shrink-0 bg-line sm:block" />}
         {/* Too narrow for six tabs on a phone — the Browse topics drawer carries them there. */}
-        {onRoute
-          ? <LibraryViewTabs view={view} onViewChange={changeView} className="max-sm:hidden" />
-          : <span className="flex-1" />}
+        {onRoute ? (
+          <div className="flex min-w-0 flex-1 items-center gap-1.5 max-sm:hidden">
+            <MenuToggle open={viewTabsOpen} onToggle={() => setViewTabsOpen((current) => !current)} label="views" />
+            {viewTabsOpen
+              ? <LibraryViewTabs view={view} onViewChange={changeView} />
+              : <span className="truncate text-[12.5px] font-medium text-ink-2">{t(currentViewLabel)}</span>}
+          </div>
+        ) : <span className="flex-1" />}
         <span className="flex-1 sm:hidden" />
+        {onRoute && (
+          <MenuToggle
+            open={railOpen}
+            onToggle={() => setRailOpen((current) => !current)}
+            label="topics"
+            className="shrink-0 max-lg:hidden"
+          />
+        )}
         {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
-        <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="shrink-0">{t('New article')}</Button>
+        {/* Authoring is an admin act. A student's own notes belong in the
+            notebook, which is where they already are. */}
+        {role === 'admin' && <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="shrink-0">{t('New article')}</Button>}
       </header>
 
       <div className="min-h-0 flex-1">
         {view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} onOpenView={openView} onOpenArticle={openArticle} /> : (
-          <div className="grid h-full min-h-0 grid-cols-[18rem_minmax(0,1fr)] max-lg:grid-cols-1">
-            <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>
+          <div className={cn('grid h-full min-h-0 max-lg:grid-cols-1', railOpen ? 'grid-cols-[18rem_minmax(0,1fr)]' : 'grid-cols-1')}>
+            {railOpen && <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>}
             <main className="min-w-0 overflow-y-auto">
               {selectedUserArticle ? (
           <UserReader
@@ -955,9 +1059,10 @@ export function Library() {
             reusable={reusableTags}
             onTagsChange={(next) => setTagsFor(selectedId, next)}
             query=""
-            onOpenArticle={openArticle}
+            onOpenArticle={openRelatedArticle}
             onBrowseSubject={placementRoot ? () => selectNode(placementRoot) : undefined}
             onBrowseTopic={selectedPublishedArticle.primaryNodeId ? () => selectNode(selectedPublishedArticle.primaryNodeId!) : undefined}
+            cameFrom={cameFromArticle ? { title: cameFromArticle.title, onBack: goBackInTrail } : undefined}
           />
         ) : (
           <TaxonomyNodeOverview node={selectedNode} taxonomy={taxonomy} articles={atlasArticles} onOpenArticle={openArticle} onSelectNode={selectNode} />

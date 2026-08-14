@@ -15,7 +15,7 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { ChapterMark } from '@/components/ui/ChapterMark'
+import { SystemMark } from '@/components/ui/SystemMark'
 import { formatClock, formatLongDate, formatMinutes } from '@/lib/format'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useStudentSchedule, sessionMinutes, type ScheduledSession } from '@/lib/useStudentSchedule'
@@ -142,7 +142,7 @@ export function NextOnSchedule() {
               {next.location}
             </span>
           )}
-          {next.topicIds.length > 0 && <ChapterMark subjectId={subject.id} index={Math.max(1, sameDayIndex)} compact />}
+          {next.topicIds.length > 0 && <SystemMark subjectId={subject.id} index={Math.max(1, sameDayIndex)} />}
           <Badge tone={next.isExam ? 'danger' : 'accent'} className="text-[11.5px]">{t(next.label)}</Badge>
         </div>
 

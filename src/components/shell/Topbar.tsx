@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, Maximize2, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, Languages, LogOut } from 'lucide-react'
+import { Menu, Maximize2, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, LogOut } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
-import { ThemeSwitch } from './ThemeSwitch'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
@@ -30,23 +29,19 @@ const iconBtn =
 
 export function Topbar({
   portal,
-  collapsed,
   focusMode,
-  onToggleCollapse,
   onToggleFocusMode,
   onOpenMobile,
   onOpenSearch,
 }: {
   portal: Portal
-  collapsed: boolean
   focusMode: boolean
-  onToggleCollapse: () => void
   onToggleFocusMode: () => void
   onOpenMobile: () => void
   onOpenSearch: () => void
 }) {
   const { pathname } = useLocation()
-  const { t, lang, toggle } = useI18n()
+  const { t } = useI18n()
   const { audience, role } = useIdentity()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
   const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
@@ -98,17 +93,9 @@ export function Topbar({
 
   return (
     <header className="sticky top-0 z-30 flex h-[calc(3.5rem+env(safe-area-inset-top))] min-w-0 items-center gap-1.5 border-b border-line bg-paper px-2.5 pt-[env(safe-area-inset-top)] sm:gap-2 sm:px-4">
+      {/* The desktop collapse control now lives in the sidebar, with the menu it
+          opens. This one stays: on a phone there is no sidebar to put it in. */}
       <button className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
-        <Icon icon={Menu} size={18} />
-      </button>
-      {/* The same three lines as the mobile control: one affordance for
-          "show or hide the menu", rather than two glyphs for one idea. */}
-      <button
-        className={cn(iconBtn, 'max-lg:hidden')}
-        onClick={onToggleCollapse}
-        aria-label={collapsed ? t('Expand sidebar') : t('Collapse sidebar')}
-        title={collapsed ? t('Expand sidebar') : t('Collapse sidebar')}
-      >
         <Icon icon={Menu} size={18} />
       </button>
 
@@ -142,16 +129,8 @@ export function Topbar({
           <Icon icon={Maximize2} size={17} />
         </button>
 
-        <ThemeSwitch className="max-sm:hidden" />
-
-        <button
-          onClick={toggle}
-          className="hidden h-9 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] font-medium text-ink-2 transition-colors hover:border-line-2 hover:text-ink sm:inline-flex"
-          aria-label={lang === 'ar' ? 'Switch to English' : 'التبديل إلى العربية'}
-        >
-          <Icon icon={Languages} size={15} />
-          <span lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? 'EN' : 'العربية'}</span>
-        </button>
+        {/* Appearance and language live in the sidebar footer, above the
+            student's own name — one home each, reachable at every width. */}
 
         {canSwitchPortal && (
           <Link

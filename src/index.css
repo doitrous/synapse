@@ -84,8 +84,6 @@
    would generate a meaningless `bg-paper-grain` utility if it were. */
 :root {
   --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
-  /* How far an authored system colour is pulled toward the ink. See SystemBadge. */
-  --system-ink-mix: 18%;
 }
 
 /* =========================================================================
@@ -178,7 +176,6 @@
   --shadow-pop: 0 14px 34px -12px rgba(0, 0, 0, 0.75), 0 3px 8px rgba(0, 0, 0, 0.5);
 
   --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.018'/%3E%3C/svg%3E");
-  --system-ink-mix: 45%;
 }
 
 @layer base {

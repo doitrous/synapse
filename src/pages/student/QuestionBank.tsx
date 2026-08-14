@@ -22,6 +22,10 @@ import {
   LogOut,
   History,
   TrendingDown,
+  MoreHorizontal,
+  Square,
+  Eye,
+  Trash2,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
 import { bySession, type SessionSummary } from '@/data/attemptStats'
@@ -29,7 +33,7 @@ import { formatLongDate } from '@/lib/format'
 import { getSubject } from '@/data/subjects'
 import { accuracyOf, bySubject as accuracyBySubject, currentStreak, dailyCounts, distinctItems, weakest } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
-import { useAttemptHistory, useRecordAttempt, type AttemptHistory } from '@/lib/useAttemptLog'
+import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, type AttemptHistory } from '@/lib/useAttemptLog'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -39,6 +43,9 @@ import { Icon } from '@/components/ui/Icon'
 import { Meter } from '@/components/ui/Meter'
 import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { TextInput } from '@/components/ui/Field'
+import { IconButton } from '@/components/ui/IconButton'
+import { ContextMenu } from '@/components/ui/ContextMenu'
+import { Dialog } from '@/components/ui/Dialog'
 import { SubjectDot } from '@/components/ui/Subject'
 import { ConceptText } from '@/components/concepts/ConceptText'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
@@ -49,7 +56,7 @@ import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachm
 import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
 import { StudyRail } from '@/components/qbank/StudyRail'
-import { questionsInScope, type Scope } from '@/data/qbankScope'
+import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
@@ -185,7 +192,9 @@ function YourQbank({ questions, history }: { questions: Question[]; history: Att
                 const acc = Math.round((row.accuracy ?? 0) * 100)
                 return (
                   <div key={row.key} className="flex items-center gap-2.5">
-                    <span className="inline-flex w-24 shrink-0 items-center gap-1.5 truncate text-[11.5px] text-ink-2"><SubjectDot id={row.key} />{subject.short}</span>
+                    {/* The marker carries the code, so repeating it as text
+                        beside itself was saying the same word twice. */}
+                    <span className="inline-flex w-24 shrink-0 items-center gap-1.5 truncate text-[11.5px] text-ink-2" title={subject.name}><SubjectDot id={row.key} /></span>
                     <Meter value={acc} tone={acc >= 75 ? 'success' : acc >= 60 ? 'accent' : 'warning'} className="flex-1" />
                     <span className="tnum w-9 text-end font-mono text-[11px] text-ink-2">{acc}%</span>
                   </div>
@@ -229,16 +238,31 @@ const SESSION_NAMES_STORAGE_KEY = 'synapse.qbank.sessionNames.v1'
 function PreviousTests({
   sessions,
   names,
+  liveSessionId,
   onRename,
+  onResume,
+  onTerminate,
+  onReview,
+  onDelete,
+  canReview,
   t,
 }: {
   sessions: SessionSummary[]
   names: Record<string, string>
+  /** The sitting still in progress, if there is one. */
+  liveSessionId: string | null
   onRename: (sessionId: string, name: string) => void
+  onResume: () => void
+  onTerminate: () => void
+  onReview: (sessionId: string) => void
+  onDelete: (sessionId: string) => void
+  canReview: (sessionId: string) => boolean
   t: (key: string) => string
 }) {
   const [editing, setEditing] = useState<string | null>(null)
   const [draft, setDraft] = useState('')
+  const [menu, setMenu] = useState<{ sessionId: string; x: number; y: number } | null>(null)
+  const [confirmDelete, setConfirmDelete] = useState<string | null>(null)
 
   if (!sessions.length) {
     return (
@@ -294,14 +318,80 @@ function PreviousTests({
                   ))}
                 </p>
               </div>
+              {entry.sessionId === liveSessionId && (
+                <Badge tone="warning">{t('In progress')}</Badge>
+              )}
               {/* An unmarked sitting shows a dash, not a nought: nobody scored it. */}
               <span className="tnum shrink-0 font-mono text-[15px] font-semibold text-ink">
                 {entry.accuracy == null ? '—' : `${Math.round(entry.accuracy * 100)}%`}
               </span>
+              {/* A sitting could be renamed and nothing else — not resumed, not
+                  reopened, not removed. */}
+              <IconButton
+                icon={MoreHorizontal}
+                label={`${t('Actions for')} ${name}`}
+                size="sm"
+                onClick={(event) => {
+                  const rect = (event.currentTarget as HTMLElement).getBoundingClientRect()
+                  setMenu({ sessionId: entry.sessionId, x: rect.left, y: rect.bottom + 4 })
+                }}
+              />
             </li>
           )
         })}
       </ul>
+
+      {menu && (
+        <ContextMenu
+          x={menu.x}
+          y={menu.y}
+          onClose={() => setMenu(null)}
+          items={[
+            ...(menu.sessionId === liveSessionId ? [
+              { id: 'resume', label: t('Resume this test'), icon: Play, onSelect: onResume },
+              { id: 'terminate', label: t('End this test'), icon: Square, onSelect: onTerminate },
+            ] : []),
+            {
+              id: 'review',
+              label: t('Review answers'),
+              icon: Eye,
+              disabled: !canReview(menu.sessionId),
+              onSelect: () => onReview(menu.sessionId),
+            },
+            {
+              id: 'delete',
+              label: t('Delete this test'),
+              icon: Trash2,
+              tone: 'danger' as const,
+              separated: true,
+              onSelect: () => setConfirmDelete(menu.sessionId),
+            },
+          ]}
+        />
+      )}
+
+      {confirmDelete && (
+        <Dialog onClose={() => setConfirmDelete(null)} label={t('Delete this test')} size="sm">
+          <PanelHeader title={t('Delete this test')} icon={Trash2} />
+          <div className="space-y-4 p-5">
+            {/* Said plainly, because it is not only a row disappearing: these
+                answers are part of the accuracy every other screen reports. */}
+            <p className="text-[13.5px] leading-relaxed text-ink-2">
+              {t('This removes every answer from that sitting. Your overall accuracy and progress will be recalculated without them, and it cannot be undone.')}
+            </p>
+            <div className="flex justify-end gap-2 border-t border-line pt-4">
+              <Button variant="ghost" onClick={() => setConfirmDelete(null)}>{t('Cancel')}</Button>
+              <Button
+                variant="danger"
+                iconLeft={Trash2}
+                onClick={() => { onDelete(confirmDelete); setConfirmDelete(null) }}
+              >
+                {t('Delete')}
+              </Button>
+            </div>
+          </div>
+        </Dialog>
+      )}
     </Panel>
   )
 }
@@ -404,12 +494,13 @@ export function QuestionBank() {
   // write per pause rather than one per answer.
   useEffect(() => {
     if (!savedStatus.hydrated) return
-    // Back at the hub means the sitting is over. Clearing only after a restore
-    // has had its chance keeps the first render from wiping a stored session.
-    if (phase === 'setup') {
-      if (restored.current) { startedAt.current = null; setSaved(null) }
-      return
-    }
+    // Being at the hub no longer means the sitting is over. Leaving a session
+    // used to discard it outright, so "End session" was the only way out of a
+    // test and it destroyed the test — there was nothing left to resume. The
+    // stored sitting is now cleared only where it is genuinely finished with:
+    // `discardSession`, called from Terminate, from "Start another", and from
+    // the guards that find themselves with no questions.
+    if (phase === 'setup') return
     if (!startedAt.current) startedAt.current = new Date().toISOString()
     setSaved({
       questionIds: session.map((question) => question.id),
@@ -429,7 +520,10 @@ export function QuestionBank() {
     [articleFilter, questions],
   )
   // The live chapter tree, so a whole-chapter selection matches real content.
-  const { topics: libraryTopics } = useLiveLibrary()
+  const { topics: publishedTopics } = useLiveLibrary()
+  // The same merged tree the chooser offers, or a chapter picked there — one
+  // the library has no article for — would resolve to no questions at all.
+  const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = useMemo(() => questionsInScope(articleQuestions, scope, libraryTopics), [articleQuestions, libraryTopics, scope])
 
   /**
@@ -540,6 +634,75 @@ export function QuestionBank() {
    * not renumber the rest, and a session spanning subjects is simply "Mixed".
    */
   const sessionSummaries = useMemo(() => bySession(history.records), [history.records])
+
+  /**
+   * The questions a finished sitting can be reopened with.
+   *
+   * Rebuilt from the attempt log, which has always recorded which item each
+   * answer belonged to. A question since unpublished simply is not in the list,
+   * and a sitting with none left cannot be reviewed — said by disabling the
+   * action rather than by opening an empty runner.
+   */
+  const reviewableQuestions = useCallback((sessionId: string) => {
+    const itemIds = history.records
+      .filter((record) => record.sessionId === sessionId && record.surface === 'qbank')
+      .map((record) => record.itemId)
+    return itemIds
+      .map((itemId) => questions.find((question) => question.id === itemId))
+      .filter((question): question is Question => Boolean(question))
+  }, [history.records, questions])
+
+  /** Put a finished sitting back on screen, read-only, with its answers. */
+  function reviewSession(sessionId: string) {
+    const rebuilt = reviewableQuestions(sessionId)
+    if (!rebuilt.length) return
+    const answered: Record<string, number> = {}
+    const marked: Record<string, boolean> = {}
+    for (const record of history.records) {
+      if (record.sessionId !== sessionId || record.surface !== 'qbank') continue
+      marked[record.itemId] = true
+      const question = rebuilt.find((item) => item.id === record.itemId)
+      if (!question) continue
+      // The log records whether the answer was right, not which option was
+      // chosen, so a wrong answer is shown as wrong without inventing which.
+      const correctIndex = question.options.findIndex((option) => option.correct)
+      if (record.correct === true && correctIndex >= 0) answered[record.itemId] = correctIndex
+    }
+    setSession(rebuilt)
+    setAnswers(answered)
+    setChecked(marked)
+    setVisited(new Set(rebuilt.map((_, index) => index)))
+    setSessionId(sessionId)
+    setSessionName(savedNames[sessionId] ?? t('Untitled test'))
+    setIdx(0)
+    setReviewing(true)
+    setPhase('running')
+  }
+
+  /** Pick a paused sitting back up exactly where it was left. */
+  function resumeSaved() {
+    if (!saved) return
+    setPhase(saved.phase)
+  }
+
+  /** The sitting is finished with — stop offering to resume it. */
+  function discardSession() {
+    startedAt.current = null
+    setSaved(null)
+    setPhase('setup')
+  }
+
+  const removeAttemptSession = useDeleteAttemptSession()
+  function deleteSession(sessionId: string) {
+    removeAttemptSession(sessionId)
+    setSavedNames((current) => {
+      const next = { ...current }
+      delete next[sessionId]
+      return next
+    })
+    if (saved?.sessionId === sessionId) setSaved(null)
+  }
+
   const scopeSubjectName = useMemo(() => {
     const subjectIds = new Set(available.map((question) => question.subjectId))
     return subjectIds.size === 1 ? getSubject([...subjectIds][0]).name : t('Mixed')
@@ -621,7 +784,13 @@ export function QuestionBank() {
           <PreviousTests
             sessions={sessionSummaries}
             names={savedNames}
+            liveSessionId={saved?.sessionId ?? null}
             onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
+            onResume={resumeSaved}
+            onTerminate={discardSession}
+            onReview={reviewSession}
+            onDelete={deleteSession}
+            canReview={(sessionId) => reviewableQuestions(sessionId).length > 0}
             t={t}
           />
         ) : (
@@ -730,7 +899,7 @@ export function QuestionBank() {
   if (phase === 'results') {
     // `beginSession` refuses an empty set, so this can only be reached by a
     // stale state. Dividing by zero would print "NaN%" as a score.
-    if (!session.length) { setPhase('setup'); return null }
+    if (!session.length) { discardSession(); return null }
     const pct = Math.round((stats.correct / session.length) * 100)
     return (
       <PageContainer className="max-w-[760px]">
@@ -786,7 +955,7 @@ export function QuestionBank() {
           >
             Review answers
           </Button>
-          <Button variant="primary" size="md" iconLeft={RotateCcw} onClick={() => setPhase('setup')}>
+          <Button variant="primary" size="md" iconLeft={RotateCcw} onClick={discardSession}>
             New session
           </Button>
         </div>
@@ -799,7 +968,7 @@ export function QuestionBank() {
   // The runner indexes straight into the session, so a missing question is a
   // crash rather than a blank screen. Falling back to setup is the only safe
   // reading of "running with nothing to ask".
-  if (!q) { setPhase('setup'); return null }
+  if (!q) { discardSession(); return null }
   const revealed = reviewing || Boolean(checked[q.id])
   const chosen = answers[q.id]
   const last = idx === session.length - 1
@@ -958,18 +1127,15 @@ export function QuestionBank() {
           </div>
         )}
 
+        {/* Once the answer is revealed an option stops being a control and
+            becomes prose. It used to stay a `<button disabled>`, which swallows
+            pointer events for everything inside it — so the concept links in
+            the answers went live and dead at the same instant, and the one
+            place they matter most was the one place they never worked. */}
         <div className="mt-5 space-y-2.5">
-          {q.options.map((opt, i) => (
-            <div key={i}>
-              <button
-                disabled={revealed}
-                onClick={() => setAnswers((a) => ({ ...a, [q.id]: i }))}
-                className={cn(
-                  'flex w-full items-start gap-3 rounded-lg border p-3 text-left transition-colors',
-                  optionClasses(i),
-                  !revealed && 'cursor-pointer',
-                )}
-              >
+          {q.options.map((opt, i) => {
+            const body = (
+              <>
                 <span
                   className={cn(
                     'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
@@ -991,9 +1157,21 @@ export function QuestionBank() {
                   )}
                 </span>
                 <span className="flex-1 pt-0.5 text-[14px] text-ink"><ConceptText text={opt.text} enabled={revealed} /></span>
-              </button>
-            </div>
-          ))}
+              </>
+            )
+            const shape = cn('flex w-full items-start gap-3 rounded-lg border p-3 text-start transition-colors', optionClasses(i))
+            return (
+              <div key={i}>
+                {revealed ? (
+                  <div className={shape}>{body}</div>
+                ) : (
+                  <button onClick={() => setAnswers((a) => ({ ...a, [q.id]: i }))} className={cn(shape, 'cursor-pointer')}>
+                    {body}
+                  </button>
+                )}
+              </div>
+            )
+          })}
         </div>
 
         {/* Everything explanatory reads at the end of the page, in order: why

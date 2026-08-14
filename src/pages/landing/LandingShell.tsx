@@ -1,7 +1,5 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { cn } from '@/lib/cn'
-import type { CSSProperties } from 'react'
 import type { LucideIcon } from 'lucide-react'
 import {
   GraduationCap,
@@ -16,12 +14,19 @@ import {
   FolderOpen,
   PenTool,
   Users,
+  Notebook,
+  Network,
+  FileText,
+  Quote,
   Check,
+  X,
 } from 'lucide-react'
 import { Wordmark } from '@/components/brand/Wordmark'
-import { Panel } from '@/components/ui/Panel'
-import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
+import { useLocalPreference } from '@/lib/useLocalPreference'
+import { ReferenceBar, TodaySpecimen } from './specimens'
+import { Walkthrough } from './Walkthrough'
+import { Pricing } from './Pricing'
 import type { Feature, LandingContent } from './content'
 
 const FEATURE_ICON: Record<Feature['icon'], LucideIcon> = {
@@ -33,63 +38,41 @@ const FEATURE_ICON: Record<Feature['icon'], LucideIcon> = {
   resources: FolderOpen,
   whiteboard: PenTool,
   together: Users,
+  notebook: Notebook,
+  taxonomy: Network,
+  reader: FileText,
+  sources: Quote,
 }
 
-/* A calibrated reference bar — the product's own instrument, mirrored for RTL. */
-function ReferenceBar({ value }: { value: number }) {
-  const at = { '--v': `${value}%` } as CSSProperties
-  return (
-    <div className="relative pt-2.5">
-      <div className="absolute top-0 z-10 -translate-x-1/2 ltr:left-[var(--v)] rtl:right-[var(--v)] rtl:translate-x-1/2" style={at} aria-hidden>
-        <svg width="9" height="6" viewBox="0 0 9 6" className="fill-ink"><path d="M4.5 6 0 0h9z" /></svg>
-      </div>
-      <div className="relative flex h-2.5 overflow-hidden rounded-full">
-        <div className="bg-danger/20" style={{ width: '40%' }} />
-        <div className="bg-warning/25" style={{ width: '30%' }} />
-        <div className="bg-success/25" style={{ width: '30%' }} />
-        <span className="absolute inset-y-0 w-0.5 -translate-x-1/2 rounded-full bg-ink ltr:left-[var(--v)] rtl:right-[var(--v)] rtl:translate-x-1/2" style={at} aria-hidden />
-      </div>
-    </div>
-  )
-}
+/**
+ * The other language, offered rather than forced.
+ *
+ * `/` serves English and `/ar` serves Arabic, both explicitly. Redirecting on
+ * `navigator.language` would break a shared link — the person who sent it and
+ * the person who opened it would see different pages — and split what search
+ * engines index. So this is a strip, dismissible, remembered per device.
+ */
+function OtherLanguageOffer({ c }: { c: LandingContent }) {
+  const [dismissed, setDismissed] = useLocalPreference('synapse.landing.langOffer.dismissed', false)
+  const [prefersOther, setPrefersOther] = useState(false)
 
-function Specimen({ c }: { c: LandingContent['specimen'] }) {
+  useEffect(() => {
+    const wanted = c.lang === 'en' ? 'ar' : 'en'
+    setPrefersOther(navigator.languages?.some((tag) => tag.toLowerCase().startsWith(wanted)) ?? false)
+  }, [c.lang])
+
+  if (dismissed || !prefersOther) return null
+
   return (
-    <div className="grid-chart-major rounded-2xl border border-line bg-surface-2/60 p-5 shadow-panel sm:p-8">
-      <Panel className="mx-auto max-w-sm shadow-raised">
-        <div className="flex items-center justify-between border-b border-line px-4 py-3">
-          <h3 className="font-sans text-[13px] font-semibold text-ink">{c.title}</h3>
-          <span className="tnum font-mono text-[12px] text-ink-3">{c.date}</span>
-        </div>
-        <div className="space-y-4 p-4">
-          <div className="flex items-center gap-3">
-            <span className="tnum font-mono text-[15px] font-medium text-ink">09:00</span>
-            <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: '#a8462f' }} />
-            <span className="flex-1 truncate text-[13.5px] text-ink">{c.session}</span>
-            <Badge tone="accent">{c.lecture}</Badge>
-          </div>
-          <div className="border-t border-line pt-3">
-            <div className="flex items-baseline justify-between">
-              <span className="text-[12.5px] font-medium text-ink-2">{c.readiness}</span>
-              <span className="tnum font-mono text-[15px] font-semibold text-ink">68%</span>
-            </div>
-            <ReferenceBar value={68} />
-          </div>
-          <div className="space-y-2 border-t border-line pt-3">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{c.attention}</p>
-            <div className="flex items-center gap-2.5">
-              <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: '#a8462f' }} />
-              <span className="flex-1 truncate text-[13px] text-ink">{c.acs}</span>
-              <Badge tone="danger">{c.overdue}</Badge>
-            </div>
-            <div className="flex items-center gap-2.5">
-              <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: '#c06a3f' }} />
-              <span className="flex-1 truncate text-[13px] text-ink">{c.diuretics}</span>
-              <Badge tone="warning">{c.dueToday}</Badge>
-            </div>
-          </div>
-        </div>
-      </Panel>
+    <div dir={c.lang === 'en' ? 'rtl' : 'ltr'} lang={c.lang === 'en' ? 'ar' : 'en'} className="border-b border-line bg-surface-2/70">
+      <div className="mx-auto flex max-w-[1160px] flex-wrap items-center gap-3 px-5 py-2 text-[13px] sm:px-8">
+        <Icon icon={Globe} size={14} className="shrink-0 text-ink-3" />
+        <p className="min-w-0 flex-1 text-ink-2">{c.otherOffer.line}</p>
+        <Link to={c.otherHref} className="font-semibold text-accent-strong hover:underline">{c.otherOffer.accept}</Link>
+        <button type="button" onClick={() => setDismissed(true)} className="grid size-6 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label={c.otherOffer.dismiss}>
+          <Icon icon={X} size={13} />
+        </button>
+      </div>
     </div>
   )
 }
@@ -111,6 +94,8 @@ export function LandingShell({ content }: { content: LandingContent }) {
 
   return (
     <div className="min-h-dvh overflow-x-clip" dir={c.dir} lang={c.lang}>
+      <OtherLanguageOffer c={c} />
+
       {/* ---- Nav (solid ground, hairline rule — no glass) ---- */}
       <header className="sticky top-0 z-30 border-b border-line bg-paper">
         <div className="mx-auto flex max-w-[1160px] items-center justify-between px-5 py-3.5 sm:px-8">
@@ -168,7 +153,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
           </div>
 
           <div className="lg:ps-4">
-            <Specimen c={c.specimen} />
+            <TodaySpecimen c={c.specimen} lang={c.lang} />
           </div>
         </section>
 
@@ -200,6 +185,9 @@ export function LandingShell({ content }: { content: LandingContent }) {
             ))}
           </dl>
         </section>
+
+        {/* ---- What it actually looks like: the product's own surfaces ---- */}
+        <Walkthrough c={c} />
 
         {/* ---- How Synapse decides: a numbered clinical protocol (sequence carries meaning) ---- */}
         <section className="mt-24 overflow-hidden rounded-2xl border border-line">
@@ -254,45 +242,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
           </div>
         </section>
 
-        {/* ---- Plans & pricing ---- */}
-        <section className="mt-24">
-          <div className="flex items-end justify-between gap-4 border-b-2 border-ink/85 pb-3">
-            <h2 className="font-serif text-[27px] font-semibold tracking-[-0.015em] text-ink sm:text-[32px]">{c.plans.title}</h2>
-            <p className="hidden max-w-sm text-[13.5px] leading-snug text-ink-3 sm:block">{c.plans.sub}</p>
-          </div>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {c.plans.items.map((plan) => (
-              <div
-                key={plan.name}
-                className={cn(
-                  'relative flex flex-col rounded-2xl border bg-surface p-5 shadow-panel',
-                  plan.featured ? 'border-accent shadow-raised ring-1 ring-accent/25' : 'border-line',
-                )}
-              >
-                {plan.badge && (
-                  <span className="absolute -top-2.5 start-5 rounded-full bg-accent px-2.5 py-0.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-on-accent">{plan.badge}</span>
-                )}
-                <p className="text-[15px] font-semibold text-ink">{plan.name}</p>
-                <div className="mt-2 flex items-baseline gap-1.5">
-                  <span className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink">{plan.price}</span>
-                  {plan.period && <span className="text-[13px] text-ink-3">{plan.period}</span>}
-                </div>
-                {plan.alt && <p className="mt-1 text-[12px] text-ink-3">{plan.alt}</p>}
-                <p className="mt-3 flex-1 border-t border-line pt-3 text-[13px] leading-relaxed text-ink-2">{plan.entitlement}</p>
-                <Link
-                  to="/signup"
-                  className={cn(
-                    'mt-4 inline-flex h-10 items-center justify-center rounded-lg text-[13.5px] font-semibold transition-colors',
-                    plan.featured ? 'bg-accent text-on-accent hover:bg-accent-strong' : 'border border-line-2 bg-surface text-ink hover:bg-surface-2',
-                  )}
-                >
-                  {plan.cta}
-                </Link>
-              </div>
-            ))}
-          </div>
-          <p className="mt-4 text-[12px] text-ink-3">{c.plans.refund}</p>
-        </section>
+        <Pricing c={c} />
 
         {/* ---- Close ---- */}
         <section className="mt-24 overflow-hidden rounded-2xl border border-accent-strong/25 bg-accent px-6 py-14 text-center text-on-accent sm:px-10 sm:py-20">

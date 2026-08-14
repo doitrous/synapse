@@ -1,14 +1,19 @@
-import type { HTMLAttributes, ReactNode } from 'react'
+import type { ComponentPropsWithRef, ReactNode } from 'react'
 import type { LucideIcon } from 'lucide-react'
 import { cn } from '@/lib/cn'
 import { Icon } from './Icon'
 
-/** A clinical-chart surface: white field, hairline rule, quiet elevation. */
+/**
+ * A clinical-chart surface: white field, hairline rule, quiet elevation.
+ *
+ * Takes a `ref` so a surface that has to be measured or focused — a dialog
+ * managing its own focus trap — does not need a wrapper element to hold on to.
+ */
 export function Panel({
   className,
   children,
   ...rest
-}: HTMLAttributes<HTMLDivElement>) {
+}: ComponentPropsWithRef<'div'>) {
   return (
     <div
       className={cn(

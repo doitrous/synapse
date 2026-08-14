@@ -1,19 +1,28 @@
-import { useCallback, useRef } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Bold, Code, Heading1, Heading2, Italic, Info, List, ListOrdered, Quote } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { RichText } from '@/components/ui/RichText'
 import { continueList, parseNoteBlocks, toggleLinePrefix, toggleWrap, type NoteBlock } from '@/lib/markdownBlocks'
+import { appendBlock, replaceSegment, splitNote, type NoteSegment } from '@/lib/noteSegments'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 /**
- * Writing and reading a note.
+ * Writing and reading a note, in the same place.
  *
  * The body stays a plain string — the same field it has always been, so nothing
- * needs migrating and an old note opens as exactly what it was. Formatting is
- * markdown over the top: the toolbar and shortcuts insert the markers, and the
- * preview renders them.
+ * needs migrating and an old note opens as exactly what it was. What changed is
+ * that formatting is no longer something you only see afterwards: every block
+ * renders as it will read, and the one block the caret is in shows its markdown
+ * so the markers are there exactly when there is a reason to touch them.
+ *
+ * That is deliberately not a `contentEditable` surface. Editing one block's
+ * substring in a real `<textarea>` keeps the caret, IME, undo, spellcheck,
+ * selection and right-to-left layout native — all the things a rich-text
+ * surface has to reimplement and usually gets subtly wrong. The string stays
+ * the truth; see `noteSegments` for the offset arithmetic that splices an edit
+ * back, and its tiling test for why the splice cannot lose text.
  */
 
 interface Action {
@@ -64,22 +73,54 @@ export function NoteEditor({
 }) {
   const t = useT()
   const ref = useRef<HTMLTextAreaElement>(null)
+  const segments = splitNote(value)
+  /** The block being written, by index into `segments`. */
+  const [active, setActive] = useState<number>(() => Math.max(0, segments.length - 1))
+  /** Where to put the caret once the open block's textarea exists. */
+  const pendingCaret = useRef<{ start: number; end: number } | null>(null)
 
-  const run = useCallback((action: Action) => {
+  const segment: NoteSegment | undefined = segments[active]
+
+  const openBlock = useCallback((index: number, caret?: { start: number; end: number }) => {
+    setActive(index)
+    pendingCaret.current = caret ?? null
+  }, [])
+
+  // Sizing and caret placement both have to happen before the browser paints,
+  // or the block visibly jumps as it opens.
+  useLayoutEffect(() => {
     const textarea = ref.current
     if (!textarea) return
-    const { selectionStart, selectionEnd } = textarea
-    const next = action.apply(value, selectionStart, selectionEnd)
-    onChange(next.value)
-    // Restore the selection after React has written the new value, so the
-    // caret stays where the writer expects rather than jumping to the end.
-    requestAnimationFrame(() => {
+    textarea.style.height = 'auto'
+    textarea.style.height = `${textarea.scrollHeight}px`
+    const caret = pendingCaret.current
+    if (caret) {
+      pendingCaret.current = null
       textarea.focus()
-      textarea.setSelectionRange(next.start, next.end)
-    })
-  }, [onChange, value])
+      textarea.setSelectionRange(caret.start, caret.end)
+    }
+  }, [active, value])
+
+  // A note swapped underneath the editor starts at its end, not wherever the
+  // previous note's caret happened to be.
+  useEffect(() => {
+    setActive(Math.max(0, splitNote(value).length - 1))
+    // Only when the editor is handed a different note.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [preview])
+
+  /** Run a formatting action against the open block's own text. */
+  const run = useCallback((action: Action) => {
+    const textarea = ref.current
+    if (!textarea || !segment) return
+    const { selectionStart, selectionEnd } = textarea
+    const next = action.apply(segment.text, selectionStart, selectionEnd)
+    onChange(replaceSegment(value, segment, next.value))
+    pendingCaret.current = { start: next.start, end: next.end }
+  }, [onChange, segment, value])
 
   function onKeyDown(event: React.KeyboardEvent<HTMLTextAreaElement>) {
+    if (!segment) return
     if (event.metaKey || event.ctrlKey) {
       const id = SHORTCUTS[event.key.toLowerCase()]
       if (id) {
@@ -89,16 +130,51 @@ export function NoteEditor({
       }
       return
     }
-    if (event.key === 'Enter') {
-      const textarea = event.currentTarget
-      const next = continueList(value, textarea.selectionStart)
-      if (!next) return
+
+    const textarea = event.currentTarget
+
+    if (event.key === 'Enter' && !event.shiftKey) {
+      const next = continueList(segment.text, textarea.selectionStart)
+      if (next) {
+        event.preventDefault()
+        onChange(replaceSegment(value, segment, next.value))
+        pendingCaret.current = { start: next.caret, end: next.caret }
+        return
+      }
+      // Enter at the end of a block that is not a list closes it and opens the
+      // next one — the reason blocks exist rather than one long field.
+      if (textarea.selectionStart === segment.text.length && segment.text.trim()) {
+        event.preventDefault()
+        const spliced = replaceSegment(value, segment, `${segment.text}\n\n`)
+        onChange(spliced)
+        const after = splitNote(spliced)
+        openBlock(Math.min(after.length - 1, active + 2), { start: 0, end: 0 })
+      }
+      return
+    }
+
+    // Backspace at the very start joins this block back onto the one above,
+    // which is what deleting a block boundary has to mean.
+    if (event.key === 'Backspace' && textarea.selectionStart === 0 && textarea.selectionEnd === 0 && active > 0) {
       event.preventDefault()
-      onChange(next.value)
-      requestAnimationFrame(() => {
-        textarea.focus()
-        textarea.setSelectionRange(next.caret, next.caret)
-      })
+      const previous = segments[active - 1]
+      const joined = value.slice(0, previous.start) + segment.text + value.slice(segment.end)
+      onChange(joined)
+      openBlock(active - 1, { start: 0, end: 0 })
+      return
+    }
+
+    // Arrow keys step between blocks at their edges, so the note reads as one
+    // document rather than a stack of separate fields.
+    if (event.key === 'ArrowUp' && textarea.selectionStart === 0 && active > 0) {
+      event.preventDefault()
+      const target = previousWritable(segments, active)
+      if (target !== null) openBlock(target, { start: segments[target].text.length, end: segments[target].text.length })
+    }
+    if (event.key === 'ArrowDown' && textarea.selectionEnd === segment.text.length && active < segments.length - 1) {
+      event.preventDefault()
+      const target = nextWritable(segments, active)
+      if (target !== null) openBlock(target, { start: 0, end: 0 })
     }
   }
 
@@ -123,17 +199,86 @@ export function NoteEditor({
           </button>
         ))}
       </div>
-      <textarea
-        ref={ref}
-        value={value}
-        onChange={(event) => onChange(event.target.value)}
-        onKeyDown={onKeyDown}
-        onPaste={onPaste}
-        placeholder={placeholder}
-        className="min-h-[55vh] w-full resize-none bg-transparent font-sans text-[15px] leading-[1.7] text-ink/90 outline-none placeholder:text-ink-3"
-      />
+
+      <div className="min-h-[55vh] space-y-1 text-[15px] leading-[1.7] text-ink/90">
+        {segments.map((entry, index) => {
+          if (index === active) {
+            return (
+              <textarea
+                key={`edit-${index}`}
+                ref={ref}
+                value={entry.text}
+                onChange={(event) => onChange(replaceSegment(value, entry, event.target.value))}
+                onKeyDown={onKeyDown}
+                onPaste={onPaste}
+                placeholder={index === 0 && segments.length === 1 ? placeholder : undefined}
+                rows={1}
+                dir="auto"
+                className="block w-full resize-none overflow-hidden rounded-md bg-inset/40 px-2 py-1 font-sans text-[15px] leading-[1.7] text-ink/90 outline-none placeholder:text-ink-3"
+              />
+            )
+          }
+          if (entry.blank) {
+            // A blank run is a real part of the note and has to be clickable, or
+            // there is no way to put the caret between two blocks.
+            return (
+              <div
+                key={`gap-${index}`}
+                role="presentation"
+                onClick={() => openBlock(index, { start: entry.text.length, end: entry.text.length })}
+                className="h-3 cursor-text"
+              />
+            )
+          }
+          return (
+            <div
+              key={`read-${index}`}
+              role="button"
+              tabIndex={0}
+              onClick={() => openBlock(index, caretFromClick(entry))}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault()
+                  openBlock(index, { start: entry.text.length, end: entry.text.length })
+                }
+              }}
+              aria-label={t('Edit this block')}
+              className="cursor-text rounded-md px-2 py-1 transition-colors hover:bg-inset/40"
+            >
+              <NotePreview source={entry.text} />
+            </div>
+          )
+        })}
+
+        {/* Somewhere to click when the note ends in a rendered block. */}
+        <div
+          role="presentation"
+          onClick={() => {
+            const next = appendBlock(value, '')
+            onChange(next.value)
+            const after = splitNote(next.value)
+            openBlock(after.length - 1, { start: 0, end: 0 })
+          }}
+          className="h-24 cursor-text"
+        />
+      </div>
     </div>
   )
+}
+
+/** Open a block with the caret at its end — where a click most often means. */
+function caretFromClick(segment: NoteSegment): { start: number; end: number } {
+  return { start: segment.text.length, end: segment.text.length }
+}
+
+function previousWritable(segments: readonly NoteSegment[], from: number): number | null {
+  for (let index = from - 1; index >= 0; index--) if (!segments[index].blank) return index
+  return null
+}
+
+function nextWritable(segments: readonly NoteSegment[], from: number): number | null {
+  for (let index = from + 1; index < segments.length; index++) if (!segments[index].blank) return index
+  return null
 }
 
 const CALLOUT_STYLE = {

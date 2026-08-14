@@ -10,7 +10,7 @@ import { Meter } from '@/components/ui/Meter'
 import { Icon } from '@/components/ui/Icon'
 import { IconButton } from '@/components/ui/IconButton'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { ChapterMark } from '@/components/ui/ChapterMark'
+import { SystemMark } from '@/components/ui/SystemMark'
 import { useMastery } from '@/lib/useMastery'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useT } from '@/lib/i18n'
@@ -47,7 +47,7 @@ function ReviewRow({ item, index, onNavigate }: { item: DisplayItem; index: numb
         onClick={onNavigate}
         className="group flex w-full items-start gap-3 rounded-md px-2 py-2.5 text-left transition-colors hover:bg-inset"
       >
-        <ChapterMark subjectId={item.subjectId} index={index + 1} compact className="mt-0.5" />
+        <SystemMark subjectId={item.subjectId} index={index + 1} className="mt-0.5" />
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
             <span className="min-w-0 flex-1 truncate text-[13.5px] font-medium text-ink">{item.title}</span>

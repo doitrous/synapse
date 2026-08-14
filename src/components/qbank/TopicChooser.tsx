@@ -6,7 +6,7 @@ import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
-import { scopeCounts, topicKey, subtopicKey, type Scope } from '@/data/qbankScope'
+import { chooserTopics, scopeCounts, topicKey, subtopicKey, type Scope } from '@/data/qbankScope'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 
 function Box({ checked, partial }: { checked: boolean; partial?: boolean }) {
@@ -38,12 +38,16 @@ export function TopicChooser({
   pool: Question[]
 }) {
   const t = useT()
-  // The same chapter tree the Library shows — not the demo seed.
-  const { topics: libraryTopics } = useLiveLibrary()
+  // The same chapter tree the Library shows — not the demo seed — plus any
+  // topic the questions name that the library has no article for yet.
+  const { topics: publishedTopics } = useLiveLibrary()
+  const libraryTopics = useMemo(() => chooserTopics(pool, publishedTopics), [pool, publishedTopics])
   // scopeCounts walks every topic × subtopic × question. Unmemoised it ran on
   // every render — so on every keystroke and every checkbox in this tree.
   const counts = useMemo(() => scopeCounts(pool, libraryTopics), [pool, libraryTopics])
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
+  /** Systems start closed: the list is a menu of twenty, not a wall of chapters. */
+  const [openSubjects, setOpenSubjects] = useState<Record<string, boolean>>({})
 
   const groups = useMemo(() => subjects
     .map((subj) => ({ subj, topics: libraryTopics.filter((tp) => tp.subjectId === subj.id && counts.topics[tp.id] > 0) }))
@@ -101,10 +105,26 @@ export function TopicChooser({
     onChange(next)
   }
 
+  // An empty box is not an answer. It happens when the bank has no questions in
+  // scope at all, and it should say so rather than look broken.
+  if (!groups.length) {
+    return (
+      <div className="rounded-xl border border-dashed border-line bg-surface-2/40 px-4 py-6 text-center">
+        <p className="text-[12.5px] text-ink-3">
+          {pool.length
+            ? t('These questions are not filed under a chapter yet. Start a session and the whole bank is used.')
+            : t('No questions have been published yet.')}
+        </p>
+      </div>
+    )
+  }
+
   return (
     <div className="overflow-hidden rounded-xl border border-line">
       <div className="max-h-[22rem] divide-y divide-line overflow-y-auto">
-        {groups.map(({ subj, topics }) => (
+        {groups.map(({ subj, topics }) => {
+          const isOpen = openSubjects[subj.id] ?? false
+          return (
           <div key={subj.id}>
             {(() => {
               const selectedTopics = topics.filter((topic) => value.has(topicKey(topic.id)))
@@ -113,20 +133,35 @@ export function TopicChooser({
               const someSelected = selectedTopics.length > 0 || anyGranular
               const questionCount = topics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
               return (
-                <button
-                  type="button"
-                  onClick={() => toggleSubject(subj.id)}
-                  aria-pressed={allSelected}
-                  className="flex w-full items-center gap-2.5 bg-surface-2/60 px-3 py-2 text-start transition-colors hover:bg-surface-2"
-                >
-                  <Box checked={allSelected} partial={!allSelected && someSelected} />
-                  <SubjectDot id={subj.id} />
-                  <span className="min-w-0 flex-1 truncate text-[11.5px] font-semibold uppercase tracking-[0.07em] text-ink-2">{subj.name}</span>
-                  <span className="tnum shrink-0 font-mono text-[10.5px] text-ink-3">{questionCount}</span>
-                </button>
+                // Two targets in one row: the checkbox half takes the whole
+                // system, the chevron opens it. Every system used to dump all
+                // its chapters inline, so twenty systems was one long scroll
+                // with no way to put any of it away.
+                <div className="flex w-full items-center gap-1 bg-surface-2/60 pe-2 transition-colors hover:bg-surface-2">
+                  <button
+                    type="button"
+                    onClick={() => toggleSubject(subj.id)}
+                    aria-pressed={allSelected}
+                    className="flex min-w-0 flex-1 items-center gap-2.5 px-3 py-2 text-start"
+                  >
+                    <Box checked={allSelected} partial={!allSelected && someSelected} />
+                    <SubjectDot id={subj.id} />
+                    <span className="min-w-0 flex-1 truncate text-[11.5px] font-semibold uppercase tracking-[0.07em] text-ink-2">{subj.name}</span>
+                    <span className="tnum shrink-0 font-mono text-[10.5px] text-ink-3">{questionCount}</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setOpenSubjects((current) => ({ ...current, [subj.id]: !isOpen }))}
+                    aria-expanded={isOpen}
+                    aria-label={`${isOpen ? t('Hide') : t('Show')} ${subj.name}`}
+                    className="grid size-7 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink"
+                  >
+                    <Icon icon={ChevronRight} size={15} className={cn('transition-transform', isOpen && 'rotate-90 rtl:-rotate-90')} />
+                  </button>
+                </div>
               )
             })()}
-            {topics.map((topic) => {
+            {isOpen && topics.map((topic) => {
               const topicSelected = value.has(topicKey(topic.id))
               const selectedSubs = topic.subtopics.filter((s) => value.has(subtopicKey(s.id)))
               const partial = !topicSelected && selectedSubs.length > 0
@@ -172,7 +207,8 @@ export function TopicChooser({
               )
             })}
           </div>
-        ))}
+          )
+        })}
       </div>
     </div>
   )

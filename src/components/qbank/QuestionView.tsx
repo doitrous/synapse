@@ -91,34 +91,36 @@ export function QuestionView({
         </div>
       )}
 
+      {/* A revealed option is prose, not a control: a `<button disabled>` blocks
+          pointer events for its whole subtree, so the concept links inside the
+          answers could never be pressed at the one moment they are enabled. */}
       <div className="mt-5 space-y-2.5">
-        {question.options.map((option, index) => (
-          <button
-            key={index}
-            type="button"
-            disabled={revealed}
-            onClick={() => onChoose(index)}
-            className={cn(
-              'flex w-full items-start gap-3 rounded-xl border p-3.5 text-start transition-colors',
-              optionClasses(index),
-            )}
-          >
-            <span
-              className={cn(
-                'grid size-7 shrink-0 place-items-center rounded-full border font-mono text-[12.5px] font-bold',
-                revealed && index === answer ? 'border-success bg-success text-on-success'
-                  : revealed && chosen === index ? 'border-danger bg-danger text-on-danger'
-                    : chosen === index ? 'border-accent bg-accent text-on-accent'
-                      : 'border-line-2 bg-surface text-ink-2',
-              )}
-            >
-              {revealed && index === answer ? <Icon icon={Check} size={14} strokeWidth={2.6} />
-                : revealed && chosen === index ? <Icon icon={X} size={14} strokeWidth={2.6} />
-                  : LETTERS[index]}
-            </span>
-            <span className="flex-1 pt-0.5 text-[14px] text-ink"><ConceptText text={option.text} enabled={revealed} /></span>
-          </button>
-        ))}
+        {question.options.map((option, index) => {
+          const body = (
+            <>
+              <span
+                className={cn(
+                  'grid size-7 shrink-0 place-items-center rounded-full border font-mono text-[12.5px] font-bold',
+                  revealed && index === answer ? 'border-success bg-success text-on-success'
+                    : revealed && chosen === index ? 'border-danger bg-danger text-on-danger'
+                      : chosen === index ? 'border-accent bg-accent text-on-accent'
+                        : 'border-line-2 bg-surface text-ink-2',
+                )}
+              >
+                {revealed && index === answer ? <Icon icon={Check} size={14} strokeWidth={2.6} />
+                  : revealed && chosen === index ? <Icon icon={X} size={14} strokeWidth={2.6} />
+                    : LETTERS[index]}
+              </span>
+              <span className="flex-1 pt-0.5 text-[14px] text-ink"><ConceptText text={option.text} enabled={revealed} /></span>
+            </>
+          )
+          const shape = cn('flex w-full items-start gap-3 rounded-xl border p-3.5 text-start transition-colors', optionClasses(index))
+          return revealed ? (
+            <div key={index} className={shape}>{body}</div>
+          ) : (
+            <button key={index} type="button" onClick={() => onChoose(index)} className={shape}>{body}</button>
+          )
+        })}
       </div>
     </>
   )

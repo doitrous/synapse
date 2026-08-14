@@ -2,7 +2,7 @@ import { useCallback, useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
 import {
   addAttempt, attemptId, attemptMonth, attemptMonthKey, ATTEMPT_INDEX_KEY, emptyMonth,
-  EMPTY_INDEX, indexAttempt, recentMonths,
+  EMPTY_INDEX, indexAttempt, recentMonths, removeSession, unindexAttempts,
   type AttemptIndex, type AttemptMonth, type AttemptRecord,
 } from '@/data/attempts'
 
@@ -88,5 +88,35 @@ export function useAttemptHistory(): AttemptHistory {
   )
 
   return { records, totals: index.totals, loading: !hydrated }
+}
+
+/**
+ * Remove one sitting from the log.
+ *
+ * Opens the same fixed set of month shards as the reader, for the same reason:
+ * a hook count that changes between renders is not allowed. A shard holding
+ * nothing from that sitting is returned unchanged and so is never written.
+ */
+export function useDeleteAttemptSession() {
+  const months = useMemo(() => recentMonths(HISTORY_MONTHS), [])
+  const shards: AttemptMonth[] = []
+  const writers: Array<(update: (current: AttemptMonth) => AttemptMonth) => void> = []
+  for (const month of months) {
+    const [value, setValue] = usePersistentState<AttemptMonth>(attemptMonthKey(month), () => emptyMonth(month))
+    shards.push(value)
+    writers.push(setValue)
+  }
+  const [, setIndex] = usePersistentState<AttemptIndex>(ATTEMPT_INDEX_KEY, EMPTY_INDEX)
+
+  const signature = shards.map((shard) => `${shard.month}:${shard.records.length}`).join('|')
+  const flat = shards.flatMap((shard) => shard.records)
+
+  return useCallback((sessionId: string) => {
+    const removed = flat.filter((record) => record.sessionId === sessionId)
+    if (!removed.length) return
+    writers.forEach((write) => write((current) => removeSession(current, sessionId)))
+    setIndex((current) => unindexAttempts(current, removed))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [signature, setIndex])
 }
 /* eslint-enable react-hooks/rules-of-hooks */
