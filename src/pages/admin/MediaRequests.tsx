@@ -43,6 +43,19 @@ const OWNER_LABEL: Record<MediaRequest['ownerKind'], string> = {
   practical: 'Practical',
 }
 
+/**
+ * The catalogue an owner actually lives in.
+ *
+ * Every request used to link to Library Setup regardless of what was waiting, so a
+ * question's missing diagram sent you to the article catalogue, which does not
+ * contain it.
+ */
+const OWNER_CATALOGUE: Record<MediaRequest['ownerKind'], string> = {
+  article: '/admin/library',
+  question: '/admin/questions',
+  practical: '/admin/practical',
+}
+
 /** The canonical root a request's owner sits under, for grouping. */
 function rootOf(nodeId: string | undefined): { id: string; title: string } {
   if (!nodeId) return { id: '—', title: 'No canonical placement' }
@@ -232,7 +245,7 @@ export function MediaRequests() {
                         <Badge tone="outline">{OWNER_LABEL[row.ownerKind]}</Badge>
                         {/* Straight to the item that is waiting, so sourcing an
                             asset does not begin with hunting for its article. */}
-                        <Link to={`/admin/library?item=${encodeURIComponent(row.ownerId)}`} className="truncate text-[12.5px] text-ink-2 underline decoration-line-2 underline-offset-2 hover:text-ink">
+                        <Link to={`${OWNER_CATALOGUE[row.ownerKind]}?item=${encodeURIComponent(row.ownerId)}`} className="truncate text-[12.5px] text-ink-2 underline decoration-line-2 underline-offset-2 hover:text-ink">
                           {row.ownerTitle}
                         </Link>
                       </span>

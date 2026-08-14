@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Image, Link2, Paperclip, Plus, Tags, X } from 'lucide-react'
+import { GraduationCap, Image, Link2, Paperclip, Plus, Tags, X } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import type { ConceptGraph } from '@/data/conceptGraph'
 import {
@@ -20,6 +20,7 @@ import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachm
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { removeStoredMedia, storeMediaFile } from '@/lib/mediaStorage'
 import { EntityPicker } from '@/components/admin/EntityPicker'
+import { ContentSourceFields } from '@/components/admin/ContentSourceFields'
 import { conceptOptions, contentOptions } from '@/components/admin/pickerOptions'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
@@ -265,6 +266,10 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
                 <div className="flex flex-wrap gap-2"><Select value={mediaType} onChange={(event) => setMediaType(event.target.value as MediaAttachment['type'])} className="w-28"><option>image</option><option>audio</option><option>video</option></Select><TextInput aria-label="Attachment URL" className="min-w-0 flex-1" value={mediaUrl} onChange={(event) => setMediaUrl(event.target.value)} placeholder="Media URL" /><Button type="button" size="sm" iconLeft={Plus} onClick={addMedia}>Attach</Button></div>
                 {mediaError && <p role="alert" className="mt-2 text-[11.5px] text-danger">{mediaError}</p>}
                 <div className="mt-3 space-y-2">{(data.attachments ?? []).map((attachment) => <MediaAttachmentView key={attachment.id} attachment={attachment} onRemove={() => removeAttachment(attachment)} />)}</div>
+              </Section>
+
+              <Section title="Source" hint="Admin-only. Students are never shown where a question came from." icon={GraduationCap}>
+                <ContentSourceFields source={draft.source} onChange={(source) => setDraft((current) => ({ ...current, source }))} />
               </Section>
 
               <Section title="Related evidence" hint="Where students can read around the answer." icon={Link2}>

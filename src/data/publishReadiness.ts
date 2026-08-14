@@ -15,6 +15,15 @@ export interface PublishReadiness {
   ready: boolean
   /** Why not, in the admin's language. Empty when ready. */
   reason: string
+  /**
+   * Already live, so there is nothing to publish.
+   *
+   * Kept apart from `blocked`: blocked means something is wrong and could be
+   * fixed, while this means the job is done. Folding the two together is what
+   * made re-publishing a selection of live items look like a failure and then
+   * do nothing at all.
+   */
+  alreadyPublished?: boolean
 }
 
 const GATE_REASON: Record<string, string> = {
@@ -25,7 +34,7 @@ const GATE_REASON: Record<string, string> = {
 }
 
 export function publishReadiness(item: ManagedContentItem): PublishReadiness {
-  if (item.status === 'Published') return { ready: false, reason: 'Already published' }
+  if (item.status === 'Published') return { ready: false, reason: 'Already published', alreadyPublished: true }
   if (item.kind !== 'article') return { ready: true, reason: '' }
 
   const data = item.articleData
@@ -42,17 +51,23 @@ export function publishReadiness(item: ManagedContentItem): PublishReadiness {
   return { ready: false, reason: GATE_REASON[data.publicationGate ?? ''] ?? 'Not ready' }
 }
 
-/** Split a selection into what can publish now and what cannot. */
+/**
+ * Split a selection three ways: what can publish now, what is already live, and
+ * what is held back for a reason worth showing.
+ */
 export function partitionByReadiness(items: ManagedContentItem[]): {
   ready: ManagedContentItem[]
+  live: ManagedContentItem[]
   blocked: Array<{ item: ManagedContentItem; reason: string }>
 } {
   const ready: ManagedContentItem[] = []
+  const live: ManagedContentItem[] = []
   const blocked: Array<{ item: ManagedContentItem; reason: string }> = []
   for (const item of items) {
     const verdict = publishReadiness(item)
     if (verdict.ready) ready.push(item)
+    else if (verdict.alreadyPublished) live.push(item)
     else blocked.push({ item, reason: verdict.reason })
   }
-  return { ready, blocked }
+  return { ready, live, blocked }
 }

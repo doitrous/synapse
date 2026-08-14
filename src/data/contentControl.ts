@@ -422,6 +422,8 @@ export interface ResourceConceptLocation {
 export interface ResourceAuthoringData {
   universityIds?: string[]
   yearIds?: string[]
+  /** A name from `RESOURCE_ICONS`; absent means the glyph for the type. */
+  icon?: string
   institution?: string
   collectionId?: string
   storageKey?: string
@@ -442,6 +444,24 @@ export interface ResourceAuthoringData {
   conceptLocations: ResourceConceptLocation[]
 }
 
+/**
+ * Where an item came from.
+ *
+ * Purely an admin record. A student is never told whether a question was written
+ * here or lifted from a faculty paper, and nothing student-facing reads this — it
+ * exists so a batch taken from one college can be found, reviewed, and acted on as
+ * the batch it is, rather than dissolving into the catalogue on import.
+ */
+export interface ContentSource {
+  origin: 'internal' | 'university'
+  /** A university in the catalogue, when the source is one of them. */
+  universityId?: string
+  /** Free text for a college or faculty that is not in the catalogue. */
+  institution?: string
+  /** Which paper, exam, or year this came out of. */
+  reference?: string
+}
+
 export interface ManagedContentItem {
   id: string
   kind: ContentKind
@@ -451,10 +471,24 @@ export interface ManagedContentItem {
   owner: string
   updatedAt: string
   fields: Record<string, string>
+  /** Admin-only provenance. Absent means internally authored. */
+  source?: ContentSource
   questionData?: QuestionAuthoringData
   articleData?: ArticleAuthoringData
   practicalData?: PracticalAuthoringData
   resourceData?: ResourceAuthoringData
+}
+
+/** True when an item was taken from a university or college rather than authored here. */
+export function isUniversitySourced(item: ManagedContentItem): boolean {
+  return item.source?.origin === 'university'
+}
+
+/** How the source reads in one line, for a chip or a group heading. */
+export function sourceLabel(source: ContentSource | undefined, universityName?: string): string {
+  if (source?.origin !== 'university') return 'Written here'
+  const where = universityName ?? source.institution ?? 'University source'
+  return source.reference ? `${where} · ${source.reference}` : where
 }
 
 /** Production content is hydrated from the backend; never seed demo records. */

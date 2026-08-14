@@ -27,6 +27,7 @@ import { Panel } from '@/components/ui/Panel'
 import { cn } from '@/lib/cn'
 import type { ConceptGraph } from '@/data/conceptGraph'
 import { EntityPicker, type PickerOption } from '@/components/admin/EntityPicker'
+import { ContentSourceFields } from '@/components/admin/ContentSourceFields'
 import { conceptOptions, contentOptions } from '@/components/admin/pickerOptions'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
@@ -170,7 +171,7 @@ export function PracticalEditorDialog({ open, item, concepts, contentItems, onCl
         audiences — but sitting outside the tab switch it rendered under Candidate
         and again under Examiner, reading as a duplicate. It stays with the
         candidate material, which is where the item is actually authored. */}
-    <div className="min-h-0 flex-1 overflow-y-auto"><div className="mx-auto max-w-[1180px] space-y-4 p-3 sm:p-5">{data.format === 'osce' ? <OsceEditor data={data} tab={osceTab} onTab={setOsceTab} onChange={updateData} resourcePicks={resourcePicks} /> : data.format === 'case' ? <CaseEditor data={data} index={activeIndex} onIndex={setActiveIndex} onChange={updateData} conceptPicks={conceptPicks} resourcePicks={resourcePicks} /> : <LabEditor data={data} index={activeIndex} onIndex={setActiveIndex} onChange={updateData} conceptPicks={conceptPicks} resourcePicks={resourcePicks} />}{(data.format !== 'osce' || osceTab === 'candidate') && <TaggingPanel data={data} onChange={updateData} conceptPicks={conceptPicks} />}</div></div>
+    <div className="min-h-0 flex-1 overflow-y-auto"><div className="mx-auto max-w-[1180px] space-y-4 p-3 sm:p-5">{data.format === 'osce' ? <OsceEditor data={data} tab={osceTab} onTab={setOsceTab} onChange={updateData} resourcePicks={resourcePicks} /> : data.format === 'case' ? <CaseEditor data={data} index={activeIndex} onIndex={setActiveIndex} onChange={updateData} conceptPicks={conceptPicks} resourcePicks={resourcePicks} /> : <LabEditor data={data} index={activeIndex} onIndex={setActiveIndex} onChange={updateData} conceptPicks={conceptPicks} resourcePicks={resourcePicks} />}{(data.format !== 'osce' || osceTab === 'candidate') && <><TaggingPanel data={data} onChange={updateData} conceptPicks={conceptPicks} /><EditorShell title="Source" hint="Admin-only. Students are never shown where a practical item came from."><ContentSourceFields source={draft.source} onChange={(source) => setDraft((current) => ({ ...current, source }))} /></EditorShell></>}</div></div>
   </form></div>
 }
 

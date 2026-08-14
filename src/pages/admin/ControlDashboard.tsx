@@ -1,5 +1,5 @@
-import { Fragment, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import { ImagePlus,
   BookOpenText,
   CircleCheck,
@@ -15,9 +15,12 @@ import { ImagePlus,
   Upload,
   Flag,
   ChevronRight,
+  ChevronLeft,
   PlayCircle,
   FileText,
   Database,
+  GraduationCap,
+  TriangleAlert,
 } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import {
@@ -27,6 +30,8 @@ import {
   type ContentKind,
   type ManagedContentItem,
   itemInScope,
+  isUniversitySourced,
+  sourceLabel,
 } from '@/data/contentControl'
 import { getSubject, subjects } from '@/data/subjects'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -51,6 +56,7 @@ import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { removeStoredMedia } from '@/lib/mediaStorage'
@@ -68,6 +74,9 @@ const KIND_ICON = {
 const STATUSES: Array<Status | 'All'> = ['All', 'Draft', 'In review', 'Published', 'Archived']
 
 const PRACTICAL_TYPE_ORDER = ['OSCE station', 'Clinical case', 'Skills checklist', 'Lab interpretation', 'Imaging interpretation']
+
+/** Rows per page. Enough to work through in one pass, few enough to render fast. */
+const PAGE_SIZE = 50
 
 interface Subgroup { key: string; label: string; items: ManagedContentItem[] }
 interface Group { key: string; label: string; color?: string; icon?: 'video' | 'file'; count: number; subs: Subgroup[] }
@@ -178,6 +187,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
+  const [catalogue] = useUniversityCatalogue()
   const [addingTopicFor, setAddingTopicFor] = useState<string | null>(null)
   const [newTopicName, setNewTopicName] = useState('')
   const [kind, setKind] = useState<ContentKind>(initialKind)
@@ -186,7 +196,11 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   const [editorOpen, setEditorOpen] = useState(false)
   const [editing, setEditing] = useState<ManagedContentItem | null>(null)
   const [deleting, setDeleting] = useState<ManagedContentItem | null>(null)
-  const [notice, setNotice] = useState<string | null>(null)
+  const [notice, setNotice] = useState<{ text: string; tone: 'success' | 'warning' } | null>(null)
+  /** A thing that happened. */
+  const say = (text: string) => setNotice({ text, tone: 'success' })
+  /** A thing that did not happen, and why. */
+  const warn = (text: string) => setNotice({ text, tone: 'warning' })
   const [selected, setSelected] = useState<Set<string>>(() => new Set())
   const [forcePublish, setForcePublish] = useState(false)
   const [reports] = usePersistentState<ContentReport[]>(REPORT_STORAGE_KEY, initialContentReports)
@@ -215,7 +229,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     resource: items.filter((item) => item.kind === 'resource').length,
   }), [items])
 
-  const rows = useMemo(() => {
+  const matching = useMemo(() => {
     const normalized = query.trim().toLowerCase()
     return items
       .filter((item) => item.kind === activeKind)
@@ -230,12 +244,76 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
   }, [activeKind, items, query, status, activeScope])
 
+  /**
+   * Questions and practicals taken from a faculty's own papers are reviewed,
+   * retired, and re-licensed as the batch they arrived in, so the catalogue can be
+   * held to one origin at a time. Admin-only: no student view reads this.
+   */
+  const [sourceTab, setSourceTab] = useState<'all' | 'university' | 'internal'>('all')
+  const universityName = (id?: string) => catalogue.find((university) => university.id === id)?.short ?? id ?? 'University'
+  const showsSourceTabs = activeKind === 'question' || activeKind === 'practical'
+  const sourceCounts = useMemo(() => ({
+    all: matching.length,
+    university: matching.filter(isUniversitySourced).length,
+    internal: matching.filter((item) => !isUniversitySourced(item)).length,
+  }), [matching])
+
+  const rows = useMemo(() => {
+    if (!showsSourceTabs || sourceTab === 'all') return matching
+    return matching.filter((item) => (sourceTab === 'university' ? isUniversitySourced(item) : !isUniversitySourced(item)))
+  }, [matching, showsSourceTabs, sourceTab])
+
+  /**
+   * One page of rows.
+   *
+   * The catalogue used to render every match — 219 questions is 219 rows and every
+   * editor button on all of them. Grouping happens after the slice, so a group shows
+   * what this page holds rather than reaching across pages.
+   */
+  const pageCount = Math.max(1, Math.ceil(rows.length / PAGE_SIZE))
+  const [page, setPage] = useState(1)
+  const currentPage = Math.min(page, pageCount)
+  const pageRows = useMemo(() => rows.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE), [rows, currentPage])
+  useEffect(() => { setPage(1) }, [activeKind, status, query, sourceTab, activeScope])
+
+  /**
+   * Open the item a link asked for.
+   *
+   * Media Requests has always linked here with `?item=<id>`, and this page has
+   * always ignored it — so "go to the item" landed on the unfiltered catalogue and
+   * left you to find it. The id is consumed once and cleared, so a refresh or a
+   * back-navigation does not reopen the editor.
+   */
+  const [searchParams, setSearchParams] = useSearchParams()
+  const handledItemParam = useRef<string | null>(null)
+  useEffect(() => {
+    const wanted = searchParams.get('item')
+    if (!wanted || handledItemParam.current === wanted) return
+    const target = items.find((item) => item.id === wanted)
+    if (!target) {
+      // Items load asynchronously; only give up once there is a catalogue to miss in.
+      if (!items.length) return
+      handledItemParam.current = wanted
+      warn('That item is no longer in this catalogue.')
+    } else {
+      handledItemParam.current = wanted
+      setQuery(target.title)
+      setEditing(target)
+      setEditorOpen(true)
+    }
+    setSearchParams((current) => {
+      const next = new URLSearchParams(current)
+      next.delete('item')
+      return next
+    }, { replace: true })
+  }, [items, searchParams, setSearchParams])
+
   const [resourceTab, setResourceTab] = useState<ResourceTab>('Files')
   const resourceCounts = useMemo(() => ({
     Files: rows.filter((r) => r.fields.Type !== 'Video').length,
     Videos: rows.filter((r) => r.fields.Type === 'Video').length,
   }), [rows])
-  const groups = useMemo(() => buildGroups(activeKind, rows, resourceTab), [activeKind, rows, resourceTab])
+  const groups = useMemo(() => buildGroups(activeKind, pageRows, resourceTab), [activeKind, pageRows, resourceTab])
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const toggleGroup = (key: string) =>
     setCollapsed((prev) => {
@@ -278,7 +356,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     }
     setEditorOpen(false)
     setEditing(null)
-    setNotice(exists ? `${CONTENT_KIND_LABEL[next.kind].singular} updated.` : `${CONTENT_KIND_LABEL[next.kind].singular} added as ${next.status.toLowerCase()}.`)
+    say(exists ? `${CONTENT_KIND_LABEL[next.kind].singular} updated.` : `${CONTENT_KIND_LABEL[next.kind].singular} added as ${next.status.toLowerCase()}.`)
   }
 
   const isTaxonomyKind = activeKind === 'question' || activeKind === 'article' || activeKind === 'resource'
@@ -301,7 +379,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     }))
     const topic = taxonomy.find((s) => s.id === subjectId)?.topics.find((t) => t.title === oldLabel)
     if (topic) setTaxonomy((tree) => renameTaxonomyNode(tree, 'topic', topic.id, newLabel))
-    setNotice(`${activeKind === 'resource' ? 'Chapter' : 'Topic'} renamed to “${newLabel}”.`)
+    say(`${activeKind === 'resource' ? 'Chapter' : 'Topic'} renamed to “${newLabel}”.`)
   }
 
   /** Add a topic to a subject in the single-source taxonomy. */
@@ -310,21 +388,25 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     if (!name) return
     setTaxonomy((tree) => addTaxTopic(tree, subjectId, name))
     setAddingTopicFor(null); setNewTopicName('')
-    setNotice(`Topic “${name}” added to Subjects & Topics.`)
+    say(`Topic “${name}” added to Subjects & Topics.`)
   }
 
   function sendForReview(item: ManagedContentItem) {
     if (item.status === 'In review') return
     setItems((current) => current.map((candidate) => candidate.id === item.id ? { ...candidate, status: 'In review', updatedAt: new Date().toISOString() } : candidate))
-    setNotice(`“${item.title}” sent for review.`)
+    say(`“${item.title}” sent for review.`)
   }
 
   /* ---- Bulk selection ---------------------------------------------------- */
 
+  // Selection spans the whole filtered set, so working through page by page and
+  // publishing once at the end does what it looks like it does. Select-all only
+  // ever claims the page in front of you.
   const selectedItems = useMemo(() => rows.filter((item) => selected.has(item.id)), [rows, selected])
   const readiness = useMemo(() => partitionByReadiness(selectedItems), [selectedItems])
   const someShownSelected = selectedItems.length > 0
-  const allShownSelected = rows.length > 0 && selectedItems.length === rows.length
+  const allPageSelected = pageRows.length > 0 && pageRows.every((item) => selected.has(item.id))
+  const somePageSelected = pageRows.some((item) => selected.has(item.id))
 
   /** Selection only ever refers to rows the current filters actually show. */
   const setSelection = (ids: string[], on: boolean) =>
@@ -334,20 +416,38 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       return next
     })
 
-  /** Apply a status to every selected item in one write. */
-  function applyStatus(targets: ManagedContentItem[], status: Status, verb: string) {
-    if (!targets.length) return
+  /**
+   * Apply a status to every selected item in one write.
+   *
+   * An empty target list used to return in silence, leaving the selection sitting
+   * there and the admin with no idea whether anything had happened. It now says so.
+   */
+  function applyStatus(targets: ManagedContentItem[], status: Status, verb: string, nothingToDo: string) {
+    if (!targets.length) { warn(nothingToDo); return }
     const ids = new Set(targets.map((item) => item.id))
     const at = new Date().toISOString()
     setItems((current) => current.map((item) => (ids.has(item.id) ? { ...item, status, updatedAt: at } : item)))
     setSelected(new Set())
-    setNotice(`${targets.length} ${targets.length === 1 ? 'item' : 'items'} ${verb}.`)
+    say(`${targets.length} ${targets.length === 1 ? 'item' : 'items'} ${verb}.`)
   }
 
   function publishSelected(includeBlocked: boolean) {
-    const targets = includeBlocked ? selectedItems.filter((item) => item.status !== 'Published') : readiness.ready
-    applyStatus(targets, 'Published', 'published')
+    const targets = includeBlocked ? [...readiness.ready, ...readiness.blocked.map((entry) => entry.item)] : readiness.ready
+    applyStatus(targets, 'Published', 'published', 'Nothing to publish in this selection.')
     setForcePublish(false)
+  }
+
+  /**
+   * Publishing what is already published is not an error and not a no-op to be
+   * swallowed — it is a selection that has nothing left to do, and saying that is
+   * the whole job. A mixed selection still publishes the rest.
+   */
+  function onPublishPressed() {
+    if (readiness.ready.length > 0) { publishSelected(false); return }
+    if (readiness.blocked.length > 0) { setForcePublish(true); return }
+    warn(readiness.live.length === 1
+      ? 'Nothing to publish — that item is already published. Nothing was changed.'
+      : `Nothing to publish — all ${readiness.live.length} selected items are already published. Nothing was changed.`)
   }
 
   function deleteItem() {
@@ -358,7 +458,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     }
     setItems((current) => current.filter((item) => item.id !== deleted.id))
     setDeleting(null)
-    setNotice(`${CONTENT_KIND_LABEL[deleted.kind].singular} deleted.`)
+    say(`${CONTENT_KIND_LABEL[deleted.kind].singular} deleted.`)
   }
 
   return (
@@ -370,9 +470,9 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       />
 
       {notice && (
-        <div role="status" className="mb-4 flex items-center gap-2 rounded-lg border border-success/25 bg-success-tint/70 px-4 py-2.5 text-[13px] text-ink">
-          <Icon icon={CircleCheck} size={16} className="text-success" />
-          <span className="flex-1">{notice}</span>
+        <div role="status" className={cn('mb-4 flex items-center gap-2 rounded-lg border px-4 py-2.5 text-[13px] text-ink', notice.tone === 'warning' ? 'border-warning/30 bg-warning-tint/70' : 'border-success/25 bg-success-tint/70')}>
+          <Icon icon={notice.tone === 'warning' ? TriangleAlert : CircleCheck} size={16} className={notice.tone === 'warning' ? 'text-warning' : 'text-success'} />
+          <span className="flex-1">{notice.text}</span>
           <button type="button" onClick={() => setNotice(null)} className="text-[12px] font-medium text-ink-3 hover:text-ink">Dismiss</button>
         </div>
       )}
@@ -423,12 +523,36 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
             </div>
           )}
 
+          {/* Where the item came from. Its own division, so a faculty's papers can be
+              worked as one batch instead of being hunted for across the catalogue. */}
+          {showsSourceTabs && (
+            <div className="border-b border-line px-4 pt-3">
+              <Segmented
+                value={sourceTab}
+                onChange={(next) => { setSourceTab(next as typeof sourceTab); setSelected(new Set()) }}
+                items={[
+                  { value: 'all', label: `All (${sourceCounts.all})` },
+                  { value: 'university', label: `University & college sources (${sourceCounts.university})` },
+                  { value: 'internal', label: `Written here (${sourceCounts.internal})` },
+                ]}
+              />
+              {sourceTab === 'university' && (
+                <p className="mb-3 mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3">
+                  <Icon icon={GraduationCap} size={13} className="text-accent" />
+                  Every {CONTENT_KIND_LABEL[activeKind].singular} here came from a university or college paper. Select all to act on the batch.
+                </p>
+              )}
+            </div>
+          )}
+
           <div className="flex flex-wrap items-center gap-2 border-b border-line bg-surface-2/45 px-4 py-3">
             <SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder={`Search ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}…`} className="w-72" />
             <Select value={status} onChange={(event) => setStatus(event.target.value as Status | 'All')} className="w-40">
               {STATUSES.map((option) => <option key={option}>{option}</option>)}
             </Select>
-            <span className="ml-auto tnum font-mono text-[11.5px] text-ink-3">{rows.length} shown</span>
+            <span className="ml-auto tnum font-mono text-[11.5px] text-ink-3">
+              {rows.length === 0 ? '0 shown' : `${(currentPage - 1) * PAGE_SIZE + 1}–${Math.min(currentPage * PAGE_SIZE, rows.length)} of ${rows.length}`}
+            </span>
           </div>
 
           {/* Bulk actions. Sticky so the selection stays actionable while scrolling
@@ -440,41 +564,50 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
               </span>
               <span className="text-[12px] text-ink-2">
                 {readiness.ready.length} of {selectedItems.length} can publish
+                {readiness.live.length > 0 && ` · ${readiness.live.length} already published`}
                 {readiness.blocked.length > 0 && ` · ${readiness.blocked.length} blocked`}
               </span>
               <div className="ms-auto flex flex-wrap items-center gap-2">
+                {/* The label says what pressing it will do. It used to read "Publish…"
+                    for both "some are held back" and "these are all already live". */}
                 <Button
                   variant="primary"
                   size="sm"
                   iconLeft={CircleCheck}
-                  disabled={readiness.ready.length === 0 && readiness.blocked.length === 0}
-                  onClick={() => (readiness.ready.length > 0 ? publishSelected(false) : setForcePublish(true))}
+                  onClick={onPublishPressed}
                 >
-                  {readiness.ready.length > 0 ? `Publish ${readiness.ready.length}` : 'Publish…'}
+                  {readiness.ready.length > 0
+                    ? `Publish ${readiness.ready.length}`
+                    : readiness.blocked.length > 0
+                      ? `Review ${readiness.blocked.length} blocked`
+                      : 'Already published'}
                 </Button>
-                <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'In review'), 'In review', 'sent for review')}>Send for review</Button>
-                <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'Archived'), 'Archived', 'archived')}>Archive</Button>
+                <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'In review'), 'In review', 'sent for review', 'Every selected item is already in review.')}>Send for review</Button>
+                <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'Archived'), 'Archived', 'archived', 'Every selected item is already archived.')}>Archive</Button>
                 <Button variant="ghost" size="sm" onClick={() => setSelected(new Set())}>Clear</Button>
               </div>
             </div>
           )}
 
-          <Table>
+          {/* A minimum width so the columns keep their shape, and an Actions column
+              pinned to the right edge — it used to be pushed past the panel's clip by
+              the 19rem rail, reachable only by scrolling sideways inside the table. */}
+          <Table className="min-w-[52rem]">
             <thead>
               <tr>
                 <Th className="w-10 pl-4">
                   <Checkbox
-                    label={allShownSelected ? 'Clear selection' : `Select all ${rows.length} shown`}
-                    checked={allShownSelected}
-                    indeterminate={someShownSelected && !allShownSelected}
-                    onChange={(on) => setSelection(rows.map((item) => item.id), on)}
+                    label={allPageSelected ? 'Clear selection on this page' : `Select all ${pageRows.length} on this page`}
+                    checked={allPageSelected}
+                    indeterminate={somePageSelected && !allPageSelected}
+                    onChange={(on) => setSelection(pageRows.map((item) => item.id), on)}
                   />
                 </Th>
                 <Th>Content</Th>
                 <Th>Subject</Th>
                 <Th>Owner & updated</Th>
                 <Th>Status</Th>
-                <Th align="right" className="pr-4">Actions</Th>
+                <Th align="right" className="sticky right-0 bg-surface pr-4">Actions</Th>
               </tr>
             </thead>
             <tbody>
@@ -532,7 +665,10 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                           const subject = getSubject(item.subjectId)
                           const verdict = publishReadiness(item)
                           return (
-                            <Tr key={item.id} hover className={selected.has(item.id) ? 'bg-accent-tint/25' : undefined}>
+                            // One concrete background per state, never two competing
+                            // ones — the pinned Actions cell inherits it, so the row
+                            // reads as one row across the seam.
+                            <Tr key={item.id} hover className={selected.has(item.id) ? 'bg-accent-tint/25' : 'bg-surface'}>
                               <Td className="pl-4">
                                 <Checkbox
                                   label={`Select “${item.title}”`}
@@ -544,6 +680,13 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                 <p className="line-clamp-2 font-medium leading-snug text-ink">{item.title}</p>
                                 <p className="mt-0.5 flex items-center gap-1.5 truncate text-[11.5px] text-ink-3">
                                   {itemSummary(item)}
+                                  {/* Admin-only. Students are never told where an item came from. */}
+                                  {isUniversitySourced(item) && (
+                                    <span className="inline-flex shrink-0 items-center gap-1 rounded border border-accent-line bg-accent-tint/60 px-1.5 py-px text-[10.5px] font-medium text-accent-strong" title={sourceLabel(item.source, universityName(item.source?.universityId))}>
+                                      <Icon icon={GraduationCap} size={10} />
+                                      {item.source?.universityId ? universityName(item.source.universityId) : item.source?.institution || 'University source'}
+                                    </span>
+                                  )}
                                   {/* Why this one cannot go live, shown where the decision is made. */}
                                   {item.status !== 'Published' && !verdict.ready && (
                                     <span className="inline-flex shrink-0 items-center rounded border border-warning/30 bg-warning-tint/60 px-1.5 py-px text-[10.5px] font-medium text-warning">
@@ -560,7 +703,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                 <p className="text-[10.5px] text-ink-3" title={formatDateTime(new Date(item.updatedAt))}>{relativeUpdated(item.updatedAt)}</p>
                               </Td>
                               <Td><StatusBadge status={item.status} /></Td>
-                              <Td align="right" className="pr-4">
+                              <Td align="right" className="sticky right-0 bg-inherit pr-4">
                                 <div className="inline-flex items-center justify-end gap-1">
                                   <IconButton icon={Pencil} label={`Edit ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10" onClick={() => { setEditing(item); setEditorOpen(true) }} />
                                   {item.kind === 'question' && <IconButton icon={Flag} label={`Report “${item.title}” for editorial review`} size="sm" className="size-10" onClick={() => setReportTarget({ kind: 'question', id: item.id, title: item.title })} />}
@@ -587,6 +730,21 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
               )}
             </tbody>
           </Table>
+
+          {pageCount > 1 && (
+            <div className="flex flex-wrap items-center gap-3 border-t border-line bg-surface-2/45 px-4 py-2.5">
+              <span className="tnum font-mono text-[11.5px] text-ink-3">
+                Page {currentPage} of {pageCount}
+              </span>
+              {someShownSelected && (
+                <span className="text-[11.5px] text-accent-strong">{selectedItems.length} selected across all pages</span>
+              )}
+              <div className="ms-auto flex items-center gap-1.5">
+                <Button variant="secondary" size="sm" iconLeft={ChevronLeft} disabled={currentPage <= 1} onClick={() => setPage(currentPage - 1)}>Previous</Button>
+                <Button variant="secondary" size="sm" iconRight={ChevronRight} disabled={currentPage >= pageCount} onClick={() => setPage(currentPage + 1)}>Next</Button>
+              </div>
+            </div>
+          )}
         </Panel>
 
         <div className="space-y-4 xl:sticky xl:top-20">
@@ -623,7 +781,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
           {!API_MODE && <Panel className="p-4">
             <div className="flex items-center gap-2"><Icon icon={RotateCcw} size={15} className="text-ink-3" /><p className="text-[12.5px] font-medium text-ink">Prototype data</p></div>
             <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">Content changes persist in this browser. Reset only when you want to restore the original student catalogue.</p>
-            <Button variant="secondary" size="sm" className="mt-3 w-full" onClick={() => { setItems(initialManagedContent()); setNotice('Original content catalogue restored.') }}>Restore original catalogue</Button>
+            <Button variant="secondary" size="sm" className="mt-3 w-full" onClick={() => { setItems(initialManagedContent()); say('Original content catalogue restored.') }}>Restore original catalogue</Button>
           </Panel>}
         </div>
       </div>
@@ -674,7 +832,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       )}
 
       <ConfirmDeleteDialog item={deleting} onClose={() => setDeleting(null)} onConfirm={deleteItem} />
-      <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} reporterRole="Admin" onClose={() => setReportTarget(null)} onSubmitted={() => setNotice('Question reported for editorial review.')} />
+      <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} reporterRole="Admin" onClose={() => setReportTarget(null)} onSubmitted={() => say('Question reported for editorial review.')} />
     </PageContainer>
   )
 }
