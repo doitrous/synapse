@@ -59,6 +59,32 @@ the browser. See `server/send-email.example.ts` and `.env.example`:
   build env. Until set, the app runs in demo mode (messages are logged, not sent) —
   the Email & Automations page shows which mode is active.
 
+### The database schema applies itself
+
+`migrate()` in `server/src/db.js` reads `server/schema.sql` and runs every
+statement at boot, and every table is `CREATE TABLE IF NOT EXISTS`. A schema
+change therefore ships with the deploy — there is no separate migration step and
+nothing to run by hand. Adding a **column** to a table that already exists is the
+exception: `IF NOT EXISTS` will not touch it, so it needs its own guarded
+`ALTER TABLE` in `migrate()` (see the `mfa_required` example there).
+
+### Unsubscribe and suppression
+
+`email_suppressions` and `email_unsubscribe_tokens` back the unsubscribe flow and
+are created by the same boot migration.
+
+`PUBLIC_ORIGIN` is where unsubscribe links point. It **defaults to
+`https://synapse.doitrous.com`**, which is correct for this deployment, so it
+does not need setting here — set it only if the student app ever moves to another
+domain, and set it to the *student* origin, never the admin one: the person
+following the link is a student, signed out, reading their inbox.
+
+What still needs doing by hand, because no template or deploy can do it:
+
+- **SPF, DKIM and DMARC** for the sending domain, via Resend's domain
+  verification. Without them, mail lands in spam no matter how it is built.
+- `RESEND_API_KEY` on the server, if it is not already set.
+
 ## 4. What persists where
 
 All admin edits and student state live in the browser's `localStorage` (keys
