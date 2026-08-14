@@ -1,4 +1,4 @@
-import { useDeferredValue, useMemo, useState } from 'react'
+import { useDeferredValue, useEffect, useMemo, useState } from 'react'
 import { BookOpen, ChevronRight, Database, GraduationCap, Home, Layers3, Microscope, Network, Stethoscope } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { SearchInput } from '@/components/ui/Field'
@@ -212,6 +212,22 @@ export function AtlasNavigation({
   const deferredQuery = useDeferredValue(query)
   const [open, setOpen] = useState<Set<string>>(() => new Set())
   const index = useMemo(() => indexMedicalTaxonomy(taxonomy), [taxonomy])
+
+  // Arriving at a node — from a search result, a breadcrumb, or a link out of an
+  // article — should reveal where it sits. Without this the tree stays collapsed
+  // and the selected branch is somewhere inside a closed root, which is most of
+  // why this navigation felt like a wall of names.
+  useEffect(() => {
+    if (!selectedNodeId) return
+    setOpen((current) => {
+      const next = new Set(current)
+      let changed = false
+      for (const node of index.lineage(selectedNodeId)) {
+        if (!next.has(node.id)) { next.add(node.id); changed = true }
+      }
+      return changed ? next : current
+    })
+  }, [index, selectedNodeId])
   const articleCounts = useMemo(() => {
     const counts = new Map<string, number>()
     for (const article of articles) {
