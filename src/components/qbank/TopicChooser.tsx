@@ -63,6 +63,27 @@ export function TopicChooser({
     onChange(next)
   }
 
+  /**
+   * Select or clear a whole system.
+   *
+   * The subject row was a header with no behaviour, so picking "everything
+   * cardiovascular" meant ticking each chapter under it in turn. Selecting adds
+   * every topic in the group and clears any granular subtopic picks beneath
+   * them, which is what whole-topic selection already does one level down.
+   */
+  const toggleSubject = (subjectId: string) => {
+    const group = groups.find((entry) => entry.subj.id === subjectId)
+    if (!group) return
+    const next = new Set(value)
+    const allSelected = group.topics.every((topic) => next.has(topicKey(topic.id)))
+    for (const topic of group.topics) {
+      topic.subtopics.forEach((sub) => next.delete(subtopicKey(sub.id)))
+      if (allSelected) next.delete(topicKey(topic.id))
+      else next.add(topicKey(topic.id))
+    }
+    onChange(next)
+  }
+
   const toggleSub = (topicId: string, subId: string) => {
     const next = new Set(value)
     const tk = topicKey(topicId)
@@ -85,10 +106,26 @@ export function TopicChooser({
       <div className="max-h-[22rem] divide-y divide-line overflow-y-auto">
         {groups.map(({ subj, topics }) => (
           <div key={subj.id}>
-            <div className="flex items-center gap-2 bg-surface-2/60 px-3 py-1.5">
-              <SubjectDot id={subj.id} />
-              <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{subj.name}</span>
-            </div>
+            {(() => {
+              const selectedTopics = topics.filter((topic) => value.has(topicKey(topic.id)))
+              const anyGranular = topics.some((topic) => topic.subtopics.some((sub) => value.has(subtopicKey(sub.id))))
+              const allSelected = selectedTopics.length === topics.length
+              const someSelected = selectedTopics.length > 0 || anyGranular
+              const questionCount = topics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
+              return (
+                <button
+                  type="button"
+                  onClick={() => toggleSubject(subj.id)}
+                  aria-pressed={allSelected}
+                  className="flex w-full items-center gap-2.5 bg-surface-2/60 px-3 py-2 text-start transition-colors hover:bg-surface-2"
+                >
+                  <Box checked={allSelected} partial={!allSelected && someSelected} />
+                  <SubjectDot id={subj.id} />
+                  <span className="min-w-0 flex-1 truncate text-[11.5px] font-semibold uppercase tracking-[0.07em] text-ink-2">{subj.name}</span>
+                  <span className="tnum shrink-0 font-mono text-[10.5px] text-ink-3">{questionCount}</span>
+                </button>
+              )
+            })()}
             {topics.map((topic) => {
               const topicSelected = value.has(topicKey(topic.id))
               const selectedSubs = topic.subtopics.filter((s) => value.has(subtopicKey(s.id)))

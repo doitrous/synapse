@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  accuracyOf, bySubject, byDifficulty, currentStreak, dailyCounts, distinctItems,
+  accuracyOf, bySession, bySubject, byDifficulty, currentStreak, dailyCounts, distinctItems,
   firstAttemptSplit, hourHistogram, localDay, longestStreak, marked, medianSeconds, weakest,
 } from './attemptStats.ts'
 import type { AttemptRecord } from './attempts.ts'
@@ -186,4 +186,43 @@ test('coverage counts items, not answers', () => {
   ]
   assert.equal(records.length, 3)
   assert.equal(distinctItems(records), 2)
+})
+
+test('records group into the sittings that produced them, newest first', () => {
+  const sessions = bySession([
+    attempt({ id: '1', sessionId: 's1', at: '2026-08-01T10:00:00.000Z' }),
+    attempt({ id: '2', sessionId: 's1', at: '2026-08-01T10:05:00.000Z', correct: false }),
+    attempt({ id: '3', sessionId: 's2', at: '2026-08-02T09:00:00.000Z' }),
+  ])
+  assert.deepEqual(sessions.map((s) => s.sessionId), ['s2', 's1'])
+  const [, first] = sessions
+  assert.equal(first.answered, 2)
+  assert.equal(first.correct, 1)
+  assert.equal(first.accuracy, 0.5)
+  assert.equal(first.startedAt, '2026-08-01T10:00:00.000Z')
+  assert.equal(first.endedAt, '2026-08-01T10:05:00.000Z')
+})
+
+test('an unmarked sitting reports no accuracy rather than zero', () => {
+  // A practical station is ticked against a checklist; it is practice, not a score.
+  const [session] = bySession([
+    attempt({ id: '1', surface: 'practical', correct: null }),
+    attempt({ id: '2', surface: 'practical', correct: null }),
+  ])
+  assert.equal(session.answered, 2)
+  assert.equal(session.marked, 0)
+  assert.equal(session.accuracy, null)
+})
+
+test('subjects are listed most-answered first', () => {
+  const [session] = bySession([
+    attempt({ id: '1', subjectId: 'resp' }),
+    attempt({ id: '2', subjectId: 'cvs' }),
+    attempt({ id: '3', subjectId: 'cvs' }),
+  ])
+  assert.deepEqual(session.subjectIds, ['cvs', 'resp'])
+})
+
+test('a record with no sessionId is not a sitting', () => {
+  assert.deepEqual(bySession([attempt({ sessionId: '' })]), [])
 })

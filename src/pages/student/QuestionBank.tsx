@@ -20,9 +20,12 @@ import {
   MessageSquareWarning,
   XCircle,
   LogOut,
+  History,
   TrendingDown,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
+import { bySession, type SessionSummary } from '@/data/attemptStats'
+import { formatLongDate } from '@/lib/format'
 import { getSubject } from '@/data/subjects'
 import { accuracyOf, bySubject as accuracyBySubject, currentStreak, dailyCounts, distinctItems, weakest } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
@@ -34,7 +37,8 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Meter } from '@/components/ui/Meter'
-import { Segmented } from '@/components/ui/Tabs'
+import { Segmented, Tabs } from '@/components/ui/Tabs'
+import { TextInput } from '@/components/ui/Field'
 import { SubjectDot } from '@/components/ui/Subject'
 import { ConceptText } from '@/components/concepts/ConceptText'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
@@ -213,6 +217,94 @@ interface LiveSession {
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
 const ACTIVE_SESSION_STORAGE_KEY = 'synapse.qbank.activeSession.v1'
+const SESSION_NAMES_STORAGE_KEY = 'synapse.qbank.sessionNames.v1'
+
+/**
+ * Tests already taken.
+ *
+ * Reconstructed from the attempt log rather than stored twice: every record has
+ * always carried the sessionId of the sitting that produced it, and nothing ever
+ * read it back, so a student had no way to see what they had done.
+ */
+function PreviousTests({
+  sessions,
+  names,
+  onRename,
+  t,
+}: {
+  sessions: SessionSummary[]
+  names: Record<string, string>
+  onRename: (sessionId: string, name: string) => void
+  t: (key: string) => string
+}) {
+  const [editing, setEditing] = useState<string | null>(null)
+  const [draft, setDraft] = useState('')
+
+  if (!sessions.length) {
+    return (
+      <Panel>
+        <div className="px-5 py-12 text-center">
+          <span className="mx-auto grid size-11 place-items-center rounded-xl bg-inset text-ink-3"><Icon icon={History} size={20} /></span>
+          <p className="mt-3 text-[14px] font-semibold text-ink">{t('No tests yet')}</p>
+          <p className="mx-auto mt-1 max-w-sm text-[12.5px] leading-relaxed text-ink-3">{t('Start a session and it will be kept here, with what you scored.')}</p>
+        </div>
+      </Panel>
+    )
+  }
+
+  return (
+    <Panel>
+      <ul className="divide-y divide-line">
+        {sessions.map((entry) => {
+          const name = names[entry.sessionId]?.trim() || t('Untitled test')
+          const isEditing = editing === entry.sessionId
+          return (
+            <li key={entry.sessionId} className="flex flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3.5">
+              <div className="min-w-0 flex-1">
+                {isEditing ? (
+                  <form
+                    onSubmit={(event) => { event.preventDefault(); onRename(entry.sessionId, draft.trim()); setEditing(null) }}
+                    className="flex items-center gap-2"
+                  >
+                    <TextInput
+                      value={draft}
+                      autoFocus
+                      maxLength={60}
+                      onChange={(event) => setDraft(event.target.value)}
+                      onBlur={() => { onRename(entry.sessionId, draft.trim()); setEditing(null) }}
+                      aria-label={t('Test name')}
+                    />
+                  </form>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => { setDraft(names[entry.sessionId] ?? ''); setEditing(entry.sessionId) }}
+                    className="block max-w-full truncate text-start text-[13.5px] font-semibold text-ink hover:text-accent-strong"
+                    title={t('Rename')}
+                  >
+                    {name}
+                  </button>
+                )}
+                <p className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[11.5px] text-ink-3">
+                  <span>{formatLongDate(new Date(entry.startedAt))}</span>
+                  <span aria-hidden>·</span>
+                  <span>{entry.answered} {entry.answered === 1 ? t('question') : t('questions')}</span>
+                  {entry.subjectIds.slice(0, 2).map((subjectId) => (
+                    <span key={subjectId} className="inline-flex items-center gap-1"><SubjectDot id={subjectId} />{getSubject(subjectId).name}</span>
+                  ))}
+                </p>
+              </div>
+              {/* An unmarked sitting shows a dash, not a nought: nobody scored it. */}
+              <span className="tnum shrink-0 font-mono text-[15px] font-semibold text-ink">
+                {entry.accuracy == null ? '—' : `${Math.round(entry.accuracy * 100)}%`}
+              </span>
+            </li>
+          )
+        })}
+      </ul>
+    </Panel>
+  )
+}
 
 export function QuestionBank() {
   const t = useT()
@@ -258,6 +350,16 @@ export function QuestionBank() {
   const [showAllRationales, setShowAllRationales] = useState(false)
   /** What the student called this sitting, if anything. */
   const [sessionName, setSessionName] = useState('')
+  const [hubTab, setHubTab] = useState<'new' | 'previous'>('new')
+  /**
+   * What each finished sitting is called.
+   *
+   * The records themselves carry no name — only a sessionId — so the names live
+   * beside them, keyed by that id. A sitting with no entry falls back to what it
+   * covered, so nothing is ever nameless.
+   */
+  const [savedNames, setSavedNames] = usePersistentState<Record<string, string>>(SESSION_NAMES_STORAGE_KEY, {})
+
 
   /**
    * The sitting in progress, kept where a route change cannot take it.
@@ -431,7 +533,26 @@ export function QuestionBank() {
     setPhase('running')
   }
 
+  /**
+   * Names the student's own tests per subject: "Cardiovascular · Test 3".
+   *
+   * Counting only sittings whose name shares the stem means renaming one does
+   * not renumber the rest, and a session spanning subjects is simply "Mixed".
+   */
+  const sessionSummaries = useMemo(() => bySession(history.records), [history.records])
+  const scopeSubjectName = useMemo(() => {
+    const subjectIds = new Set(available.map((question) => question.subjectId))
+    return subjectIds.size === 1 ? getSubject([...subjectIds][0]).name : t('Mixed')
+  }, [available, t])
+  const autoSessionName = useMemo(() => {
+    const used = sessionSummaries.filter((summary: SessionSummary) => (savedNames[summary.sessionId] ?? '').startsWith(scopeSubjectName)).length
+    return `${scopeSubjectName} · ${t('Test')} ${used + 1}`
+  }, [scopeSubjectName, sessionSummaries, savedNames, t])
+
   function start() {
+    // Named now rather than when it ends: a sitting abandoned halfway still
+    // produced records, and those should not appear as an unnamed row.
+    setSavedNames((current) => ({ ...current, [sessionId]: sessionName.trim() || autoSessionName }))
     beginSession(shuffle(available).slice(0, Math.min(count, available.length)))
   }
 
@@ -459,39 +580,51 @@ export function QuestionBank() {
         <PageHeader title={t('Question Bank')} />
 
         <section className="mb-4 sm:mb-5" aria-labelledby="quick-start-title">
-          <h2 id="quick-start-title" className="mb-2.5 text-[11px] font-bold uppercase tracking-[0.09em] text-ink-3">{t('Quick start')}</h2>
-          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          <h2 id="quick-start-title" className="mb-2 text-[11px] font-bold uppercase tracking-[0.09em] text-ink-3">{t('Quick start')}</h2>
+          {/* One compact row. These were four tall cards carrying a sentence of
+              explanation each, which took the whole first screen to say what a
+              label and a count already say. */}
+          <div className="flex flex-wrap gap-2">
             {[
-              // Each card shows the size of the set it will actually open. The
-              // old `|| questions.length` fallback made an empty preset display
-              // the whole bank's count and then serve the whole bank.
-              { id: 'weak' as const, title: t('Your weakest topics'), text: weakestSubjects.length ? t('Targets the subjects you score lowest in.') : t('Answer a few more questions and this will target your weakest subjects.'), icon: TrendingDown, count: presetCounts.weak },
-              { id: 'emergency' as const, title: t('Emergencies only'), text: t('Time-critical questions across all systems.'), icon: Siren, count: presetCounts.emergency },
-              // Named for what it filters on. It reads difficulty, and no
-              // cohort accuracy exists to compare anyone against.
-              { id: 'demanding' as const, title: t('Demanding questions'), text: t('The hardest questions in the bank.'), icon: Flame, count: presetCounts.demanding },
-              { id: 'everything' as const, title: t('Everything, shuffled'), text: t('The full bank in random order.'), icon: Shuffle, count: presetCounts.everything },
+              { id: 'weak' as const, title: t('Your weakest topics'), icon: TrendingDown, count: presetCounts.weak },
+              { id: 'emergency' as const, title: t('Emergencies only'), icon: Siren, count: presetCounts.emergency },
+              { id: 'demanding' as const, title: t('Demanding questions'), icon: Flame, count: presetCounts.demanding },
+              { id: 'everything' as const, title: t('Everything, shuffled'), icon: Shuffle, count: presetCounts.everything },
             ].map((preset) => (
               <button
                 key={preset.id}
                 type="button"
                 onClick={() => startPreset(preset.id)}
                 disabled={preset.count === 0}
-                className="group min-h-40 rounded-xl border border-line bg-surface p-4 text-left shadow-panel transition-[border-color,background-color,box-shadow,transform] duration-150 ease-[var(--ease-out-quint)] hover:-translate-y-0.5 hover:border-accent-line hover:bg-accent-tint/15 hover:shadow-float active:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] disabled:cursor-not-allowed disabled:opacity-55 disabled:hover:translate-y-0 disabled:hover:border-line disabled:hover:bg-surface disabled:hover:shadow-panel sm:min-h-44"
+                title={preset.count === 0 ? t('No questions match this yet') : undefined}
+                className="group inline-flex min-h-11 items-center gap-2 rounded-lg border border-line bg-surface px-3 text-[13px] font-medium text-ink shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/20 disabled:cursor-not-allowed disabled:opacity-55 disabled:hover:border-line disabled:hover:bg-surface sm:min-h-9"
               >
-                <span className="flex items-start justify-between gap-3">
-                  <span className="grid size-10 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent transition-colors group-hover:bg-accent group-hover:text-on-accent group-disabled:bg-inset group-disabled:text-ink-3">
-                    <Icon icon={preset.icon} size={19} strokeWidth={2.15} />
-                  </span>
-                  <span className="tnum pt-1 font-mono text-[11.5px] text-ink-3">{preset.count} {preset.count === 1 ? t('Q') : t('Qs')}</span>
-                </span>
-                <strong className="mt-5 block text-[14px] font-semibold tracking-[-0.01em] text-ink">{preset.title}</strong>
-                <span className="mt-1 block text-[12.5px] leading-relaxed text-ink-2">{preset.text}</span>
+                <Icon icon={preset.icon} size={15} className="text-accent group-disabled:text-ink-3" />
+                {preset.title}
+                <span className="tnum rounded-full bg-inset px-1.5 font-mono text-[11px] text-ink-2">{preset.count}</span>
               </button>
             ))}
           </div>
         </section>
 
+        <Tabs
+          className="mb-4"
+          value={hubTab}
+          onChange={(next) => setHubTab(next as 'new' | 'previous')}
+          items={[
+            { value: 'new', label: t('New session'), icon: GraduationCap },
+            { value: 'previous', label: t('Previous tests'), icon: History, count: sessionSummaries.length },
+          ]}
+        />
+
+        {hubTab === 'previous' ? (
+          <PreviousTests
+            sessions={sessionSummaries}
+            names={savedNames}
+            onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
+            t={t}
+          />
+        ) : (
         <div className="grid items-start gap-4 lg:grid-cols-[1.4fr_1fr]">
           <Panel>
             <PanelHeader title={t('New session')} icon={GraduationCap} />
@@ -511,6 +644,18 @@ export function QuestionBank() {
                     ? t('Nothing selected — questions are drawn from the whole bank.')
                     : t('Pick a whole chapter, or expand it to choose individual subtopics.')}
                 </p>
+              </div>
+
+              <div>
+                <label htmlFor="session-name" className="mb-2 block text-[12.5px] font-medium text-ink-2">{t('Name this test')}</label>
+                <TextInput
+                  id="session-name"
+                  value={sessionName}
+                  onChange={(event) => setSessionName(event.target.value)}
+                  placeholder={autoSessionName}
+                  maxLength={60}
+                />
+                <p className="mt-1.5 text-[11.5px] text-ink-3">{t('Optional. Left blank, it is named for what it covers.')}</p>
               </div>
 
               <div className="flex flex-wrap gap-x-10 gap-y-5">
@@ -576,6 +721,7 @@ export function QuestionBank() {
 
           <YourQbank questions={questions} history={history} />
         </div>
+        )}
       </PageContainer>
     )
   }

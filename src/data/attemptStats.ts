@@ -1,4 +1,4 @@
-import type { AttemptRecord } from './attempts'
+import type { AttemptRecord, AttemptSurface } from './attempts'
 import type { Difficulty } from './qbank'
 
 /**
@@ -221,4 +221,61 @@ export function firstAttemptSplit(records: AttemptRecord[]): FirstAttemptSplit {
 /** Distinct items attempted, which is coverage rather than volume. */
 export function distinctItems(records: AttemptRecord[]): number {
   return new Set(records.map((record) => `${record.surface}:${record.itemId}`)).size
+}
+
+/** One sitting, reconstructed from the records it produced. */
+export interface SessionSummary {
+  sessionId: string
+  /** When the first answer in the sitting was committed. */
+  startedAt: string
+  /** When the last one was. */
+  endedAt: string
+  surface: AttemptSurface
+  answered: number
+  /** Answers that were actually marked — a station is practice, not a score. */
+  marked: number
+  correct: number
+  accuracy: number | null
+  /** Distinct subjects covered, most-answered first. */
+  subjectIds: string[]
+  seconds: number
+}
+
+/**
+ * Group the attempt log into sittings.
+ *
+ * Every record already carries the `sessionId` of the sitting that produced it,
+ * and nothing ever read it back — so a student could not see the tests they had
+ * taken. Newest first, because that is the one anyone wants.
+ */
+export function bySession(records: AttemptRecord[]): SessionSummary[] {
+  const groups = new Map<string, AttemptRecord[]>()
+  for (const record of records) {
+    if (!record.sessionId) continue
+    const existing = groups.get(record.sessionId)
+    if (existing) existing.push(record)
+    else groups.set(record.sessionId, [record])
+  }
+
+  const summaries: SessionSummary[] = []
+  for (const [sessionId, group] of groups) {
+    const times = group.map((record) => record.at).sort()
+    const scored = group.filter((record) => record.correct != null)
+    const correct = scored.filter((record) => record.correct).length
+    const bySubject = new Map<string, number>()
+    for (const record of group) bySubject.set(record.subjectId, (bySubject.get(record.subjectId) ?? 0) + 1)
+    summaries.push({
+      sessionId,
+      startedAt: times[0],
+      endedAt: times[times.length - 1],
+      surface: group[0].surface,
+      answered: group.length,
+      marked: scored.length,
+      correct,
+      accuracy: scored.length ? correct / scored.length : null,
+      subjectIds: [...bySubject.entries()].sort((a, b) => b[1] - a[1]).map(([id]) => id),
+      seconds: group.reduce((sum, record) => sum + (record.seconds ?? 0), 0),
+    })
+  }
+  return summaries.sort((a, b) => b.startedAt.localeCompare(a.startedAt))
 }
