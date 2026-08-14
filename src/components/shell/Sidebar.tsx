@@ -5,6 +5,7 @@ import { navFor } from './nav'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Avatar } from '@/components/ui/Avatar'
 import { Icon } from '@/components/ui/Icon'
+import { preloadStudentRoute } from '@/router'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
@@ -61,6 +62,9 @@ export function Sidebar({
                     to={item.to}
                     end={item.end}
                     onClick={onNavigate}
+                    onMouseEnter={() => preloadStudentRoute(item.to)}
+                    onFocus={() => preloadStudentRoute(item.to)}
+                    onTouchStart={() => preloadStudentRoute(item.to)}
                     title={collapsed ? t(item.label) : undefined}
                     className={({ isActive }) =>
                       cn(

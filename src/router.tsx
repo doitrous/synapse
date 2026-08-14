@@ -4,8 +4,18 @@ import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { RequireAuth } from '@/components/auth/RequireAuth'
 
-function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: string) {
-  return lazy(async () => ({ default: (await loader())[exportName] as ComponentType<Record<string, unknown>> }))
+/**
+ * A route component that can also be fetched before it is rendered, so the
+ * chunk is already in memory by the time a click lands on the link.
+ */
+type Preloadable = ComponentType<Record<string, unknown>> & { preload: () => void }
+
+function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: string): Preloadable {
+  const component = lazy(async () => ({ default: (await loader())[exportName] as ComponentType<Record<string, unknown>> })) as unknown as Preloadable
+  // The browser caches the module, so repeated calls cost one request at most
+  // and a failure here is silent: it only means the click pays for it instead.
+  component.preload = () => { void loader().catch(() => undefined) }
+  return component
 }
 
 function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}): ReactElement {
@@ -68,19 +78,32 @@ const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportP
 const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
 const GlossarySetup = lazyNamed(() => import('@/pages/admin/GlossarySetup'), 'GlossarySetup')
 
-const studentBuilt: Record<string, ReactElement> = {
-  library: render(Library),
-  qbank: render(QuestionBank),
-  resources: render(Resources),
-  taxonomy: render(MedicalTaxonomy),
-  practical: render(Practical),
-  calendar: render(CalendarPage),
-  performance: render(Performance),
-  whiteboard: render(Whiteboard),
-  notebook: render(Notebook),
-  'study-together': render(StudyTogether),
-  billing: render(Billing),
-  account: render(Account),
+const studentPages: Record<string, Preloadable> = {
+  library: Library,
+  qbank: QuestionBank,
+  resources: Resources,
+  taxonomy: MedicalTaxonomy,
+  practical: Practical,
+  calendar: CalendarPage,
+  performance: Performance,
+  whiteboard: Whiteboard,
+  notebook: Notebook,
+  'study-together': StudyTogether,
+  billing: Billing,
+  account: Account,
+}
+
+const studentBuilt: Record<string, ReactElement> = Object.fromEntries(
+  Object.entries(studentPages).map(([path, Page]) => [path, render(Page)]),
+)
+
+/**
+ * Fetch a student route's chunk ahead of the click. Called on hover and focus
+ * of a nav link: by the time the pointer travels the last few pixels, or the
+ * keyboard user presses Enter, the code has usually already arrived.
+ */
+export function preloadStudentRoute(to: string): void {
+  studentPages[to.replace(/^\/app\/?/, '')]?.preload()
 }
 
 const adminBuilt: Record<string, ReactElement> = {

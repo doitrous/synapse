@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { ChevronRight, Check } from 'lucide-react'
 import { subjects } from '@/data/subjects'
 import type { Question } from '@/data/qbank'
@@ -40,12 +40,14 @@ export function TopicChooser({
   const t = useT()
   // The same chapter tree the Library shows — not the demo seed.
   const { topics: libraryTopics } = useLiveLibrary()
-  const counts = scopeCounts(pool, libraryTopics)
+  // scopeCounts walks every topic × subtopic × question. Unmemoised it ran on
+  // every render — so on every keystroke and every checkbox in this tree.
+  const counts = useMemo(() => scopeCounts(pool, libraryTopics), [pool, libraryTopics])
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
 
-  const groups = subjects
+  const groups = useMemo(() => subjects
     .map((subj) => ({ subj, topics: libraryTopics.filter((tp) => tp.subjectId === subj.id && counts.topics[tp.id] > 0) }))
-    .filter((g) => g.topics.length > 0)
+    .filter((g) => g.topics.length > 0), [libraryTopics, counts])
 
   const toggleTopic = (topicId: string) => {
     const next = new Set(value)
