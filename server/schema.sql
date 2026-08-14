@@ -312,3 +312,51 @@ CREATE TABLE IF NOT EXISTS study_room_answers (
   answered_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (room_id, user_id, question_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* A student's own documents — a lecture handout, a scanned notebook.
+   Ownership is a column and every query filters on it; the client never
+   supplies a storage path, so a crafted one cannot escape the store. Rows are
+   soft-deleted so a delete that races an in-flight read cannot 404 a reader
+   mid-page; the bytes go immediately. */
+CREATE TABLE IF NOT EXISTS user_documents (
+  id           VARCHAR(64) PRIMARY KEY,
+  user_id      VARCHAR(64) NOT NULL,
+  title        VARCHAR(255) NOT NULL,
+  storage_key  VARCHAR(255) NOT NULL,
+  media_type   VARCHAR(32) NOT NULL DEFAULT 'pdf',
+  size_bytes   BIGINT UNSIGNED NOT NULL DEFAULT 0,
+  sha256       CHAR(64) NULL,
+  page_count   INT NULL,
+  created_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  deleted_at   DATETIME NULL,
+  INDEX idx_user_documents_owner (user_id, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Who has asked not to receive which category of email.
+--
+-- One row per address per category, written when someone unsubscribes and read
+-- before every send. Transactional mail — verification, receipts, password
+-- resets, privacy requests — is never suppressed: it is sent because something
+-- happened to that account, and withholding it would harm the reader.
+--
+-- `token` is what the one-click link carries, so an address is never exposed in
+-- a URL and a leaked link cannot be used to enumerate subscribers.
+CREATE TABLE IF NOT EXISTS email_suppressions (
+  id         VARCHAR(64) PRIMARY KEY,
+  address    VARCHAR(255) NOT NULL,
+  -- NULL means every non-transactional category.
+  category   VARCHAR(64) NULL,
+  reason     VARCHAR(32) NOT NULL DEFAULT 'unsubscribed',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uniq_suppression (address, category),
+  INDEX idx_suppression_address (address)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- The opaque token behind an unsubscribe link, minted per recipient.
+CREATE TABLE IF NOT EXISTS email_unsubscribe_tokens (
+  token      CHAR(48) PRIMARY KEY,
+  address    VARCHAR(255) NOT NULL,
+  category   VARCHAR(64) NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_unsub_address (address)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

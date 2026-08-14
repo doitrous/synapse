@@ -22,6 +22,17 @@ export interface SendEmailInput {
   subject: string
   html: string
   from?: string
+  /**
+   * Plain-text alternative. Sending HTML alone is one of the cheapest ways to look
+   * like bulk mail, so every caller that has a body should send one.
+   */
+  text?: string
+  /**
+   * Extra RFC headers — in practice List-Unsubscribe and List-Unsubscribe-Post,
+   * which is what makes Gmail and Outlook show their own unsubscribe control
+   * instead of offering the reader the "report spam" button.
+   */
+  headers?: Record<string, string>
 }
 
 export interface SendEmailResult {
@@ -55,6 +66,8 @@ export async function sendEmail(input: SendEmailInput): Promise<SendEmailResult>
         to: input.to,
         subject: input.subject,
         html: input.html,
+        text: input.text,
+        headers: input.headers,
       })
       // The server reports Queued when no Resend key is configured on its side.
       const queued = data.status === 'Queued'

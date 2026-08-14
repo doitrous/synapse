@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
-import { BookA, Check, Plus, Trash2, X } from 'lucide-react'
+import { BookA, Check, Plus, Trash2, Upload, X } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -9,7 +10,7 @@ import { EmptyState } from '@/components/ui/EmptyState'
 import { Field, SearchInput, Select, TextInput, Textarea } from '@/components/ui/Field'
 import { FilterChip } from '@/components/ui/FilterChip'
 import { useMedicalGlossary } from '@/data/glossaryStore'
-import { starterGlossary, type MedTermCategory, type MedicalTerm } from '@/data/glossary'
+import { MED_CATEGORIES, starterGlossary, type MedTermCategory, type MedicalTerm } from '@/data/glossary'
 
 function blankTerm(category: MedTermCategory): MedicalTerm {
   return { id: `term-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`, term: '', ar: '', category, def: '', defAr: '', example: '' }
@@ -50,11 +51,21 @@ export function GlossarySetup() {
     setGlossary((current) => ({ ...current, terms: current.terms.map((term) => term.id === id ? { ...term, ...patch } : term) }))
   }
 
+  /**
+   * Add one term.
+   *
+   * This did nothing in production. A live glossary starts as EMPTY_GLOSSARY, so
+   * `categories` was `[]`, the button was disabled, and the only thing that ever
+   * populated categories was "Load starter glossary" — which is offered only while
+   * there are no terms. A glossary with terms but no categories was stuck for good.
+   *
+   * The categories are a fixed set, not user-authored, so a missing one is simply a
+   * document that has not met them yet. They are filled in on demand.
+   */
   function addTerm() {
-    const first = categories[0]?.key
-    if (!first) return
-    const term = blankTerm(first)
-    setGlossary((current) => ({ ...current, terms: [term, ...current.terms] }))
+    const known = categories.length ? categories : MED_CATEGORIES.map((entry) => ({ ...entry }))
+    const term = blankTerm(known[0].key)
+    setGlossary((current) => ({ ...current, categories: current.categories.length ? current.categories : known, terms: [term, ...current.terms] }))
     setEditingId(term.id)
   }
 
@@ -78,7 +89,8 @@ export function GlossarySetup() {
             {glossary.terms.length === 0 && (
               <Button variant="secondary" size="md" onClick={() => setConfirmLoad(true)}>Load starter glossary</Button>
             )}
-            <Button variant="primary" size="md" iconLeft={Plus} onClick={addTerm} disabled={!categories.length}>Add term</Button>
+            <Link to="/admin/glossary/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link>
+            <Button variant="primary" size="md" iconLeft={Plus} onClick={addTerm}>Add term</Button>
           </>
         }
       />
@@ -101,7 +113,8 @@ export function GlossarySetup() {
           <EmptyState
             icon={BookA}
             title="The glossary is empty"
-            description="Students see an empty Medical Taxonomy page until terms are published here. Load the starter set to begin, or add terms one at a time."
+            description="Students see an empty Medical Taxonomy page until terms are published here. Load the starter set to begin, import a batch, or add terms one at a time."
+            action={<Button variant="primary" size="sm" iconLeft={Plus} onClick={addTerm}>Add the first term</Button>}
           />
         </Panel>
       ) : (

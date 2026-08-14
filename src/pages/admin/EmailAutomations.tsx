@@ -21,6 +21,7 @@ import { Field, TextInput, Textarea } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { emailConfigured, emailTransport, sendEmail } from '@/lib/email'
+import { isTransactional, renderEmail, styleBodyHtml } from '@/data/emailTemplate'
 import { cn } from '@/lib/cn'
 
 /** Editing panel for one automation's subject and body. */
@@ -43,10 +44,19 @@ function TemplateEditor({
     if (!testTo.trim()) return
     setSending(true)
     setResult(null)
+    // Sent through the same wrapper production mail uses, so a test proves the
+    // real thing rather than a bare fragment that only exists in this box.
+    const rendered = renderEmail({
+      subject: fillTemplate(automation.subject),
+      bodyHtml: styleBodyHtml(fillTemplate(automation.body)),
+      category: automation.category,
+      unsubscribeUrl: isTransactional(automation.category) ? undefined : 'https://synapse.doitrous.com/unsubscribe?token=preview',
+    })
     const outcome = await sendEmail({
       to: testTo.trim(),
       subject: `[Test] ${fillTemplate(automation.subject)}`,
-      html: fillTemplate(automation.body),
+      html: rendered.html,
+      text: rendered.text,
     })
     setSending(false)
     setResult(outcome.ok ? `${outcome.status} to ${testTo.trim()}` : `Failed — ${outcome.error ?? 'unknown error'}`)
@@ -54,7 +64,7 @@ function TemplateEditor({
 
   return (
     <div className="border-t border-line bg-surface-2/40 px-4 py-4">
-      <div className="grid gap-3 lg:grid-cols-[minmax(0,1fr)_18rem]">
+      <div className="grid gap-3 lg:grid-cols-[minmax(0,1fr)_21rem]">
         <div className="space-y-3">
           <Field label="Subject">
             <TextInput value={automation.subject} onChange={(event) => onPatch({ subject: event.target.value })} />
@@ -66,13 +76,27 @@ function TemplateEditor({
         <div className="space-y-3">
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Preview</p>
-            <div className="mt-2 rounded-lg border border-line bg-surface p-3">
-              <p className="text-[12.5px] font-semibold text-ink">{fillTemplate(automation.subject)}</p>
-              <div
-                className="prose-email mt-2 text-[12px] leading-relaxed text-ink-2 [&_a]:text-accent-strong [&_a]:underline [&_p]:mt-1.5"
-                // Preview only — this is the admin's own template, rendered for them.
-                dangerouslySetInnerHTML={{ __html: fillTemplate(automation.body) }}
+            <div className="mt-2 overflow-hidden rounded-lg border border-line bg-surface">
+              <p className="border-b border-line px-3 py-2 text-[12.5px] font-semibold text-ink">{fillTemplate(automation.subject)}</p>
+              {/* The real wrapper, in an iframe — the email carries its own document
+                  and palette, and letting that loose in the page would inherit the
+                  admin's theme and show something the recipient will never see. */}
+              {/* Rendered at its true 600px and scaled down, rather than squeezed
+                  into the column — a preview of a narrower email would be a
+                  preview of an email nobody is going to receive. */}
+              <div className="h-[360px] overflow-hidden bg-white">
+              <iframe
+                title="Email preview"
+                sandbox=""
+                style={{ width: 600, height: 655, transform: 'scale(0.55)', transformOrigin: 'top left', border: 0 }}
+                srcDoc={renderEmail({
+                  subject: fillTemplate(automation.subject),
+                  bodyHtml: styleBodyHtml(fillTemplate(automation.body)),
+                  category: automation.category,
+                  unsubscribeUrl: isTransactional(automation.category) ? undefined : 'https://synapse.doitrous.com/unsubscribe?token=preview',
+                }).html}
               />
+              </div>
             </div>
           </div>
           <div>

@@ -46,6 +46,7 @@ const MfaSetup = lazyNamed(() => import('@/pages/auth/MfaSetup'), 'MfaSetup')
 const ForgotPassword = lazyNamed(() => import('@/pages/auth/ForgotPassword'), 'ForgotPassword')
 const ResetPassword = lazyNamed(() => import('@/pages/auth/ResetPassword'), 'ResetPassword')
 const Logout = lazyNamed(() => import('@/pages/auth/Logout'), 'Logout')
+const Unsubscribe = lazyNamed(() => import('@/pages/Unsubscribe'), 'Unsubscribe')
 
 const Dashboard = lazyNamed(() => import('@/pages/student/Dashboard'), 'Dashboard')
 const Library = lazyNamed(() => import('@/pages/student/Library'), 'Library')
@@ -90,6 +91,7 @@ const AcademicImportPage = lazyNamed(() => import('@/pages/admin/AcademicImportP
 const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportPage'), 'SubjectsImportPage')
 const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
 const GlossarySetup = lazyNamed(() => import('@/pages/admin/GlossarySetup'), 'GlossarySetup')
+const GlossaryImportPage = lazyNamed(() => import('@/pages/admin/GlossaryImportPage'), 'GlossaryImportPage')
 
 const studentPages: Record<string, Preloadable> = {
   library: Library,
@@ -176,6 +178,7 @@ const adminApp = {
     { path: 'relationships/import', element: render(RelationsImportPage) },
     { path: 'academic/import', element: render(AcademicImportPage) },
     { path: 'taxonomy/import', element: render(SubjectsImportPage) },
+    { path: 'glossary/import', element: render(GlossaryImportPage) },
     { path: 'library/coverage', element: render(MedicalCoverageReview) },
     { path: 'library/media', element: render(MediaRequests) },
     { path: 'library/evidence/import', element: render(EvidenceImportPage) },
@@ -187,7 +190,11 @@ export const router = createBrowserRouter([
   // On the admin domain the root is the dashboard. The public site and the student
   // app belong to the other origin, so they are handed over rather than rendered —
   // the admin build is the same bundle, but this domain only ever shows one half.
-  { path: '/', element: adminHost ? <Navigate to="/admin" replace /> : render(LandingAr) },
+  // English at the root. `/ar` and `/en` stay explicit, and the Arabic page is
+  // offered by a dismissible strip rather than an automatic redirect — a
+  // redirect on `navigator.language` means a shared link shows the sender and
+  // the receiver different pages, and splits what crawlers index.
+  { path: '/', element: adminHost ? <Navigate to="/admin" replace /> : render(Landing) },
   { path: '/en', element: adminHost ? toStudentSite : render(Landing) },
   { path: '/ar', element: adminHost ? toStudentSite : render(LandingAr) },
   // Auth stays on both origins: RequireAuth sends a signed-out admin to /login, and
@@ -195,6 +202,8 @@ export const router = createBrowserRouter([
   { path: '/login', element: render(Login) },
   { path: '/signup', element: adminHost ? toStudentSite : render(Signup) },
   { path: '/logout', element: render(Logout) },
+  // Followed from an inbox, signed out, on either host — never behind auth.
+  { path: '/unsubscribe', element: render(Unsubscribe) },
   { path: '/auth/verify-email', element: render(VerifyEmail) },
   { path: '/auth/mfa', element: render(MfaSetup) },
   { path: '/auth/forgot-password', element: render(ForgotPassword) },

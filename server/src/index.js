@@ -1,11 +1,8 @@
-import { createHash, randomUUID } from 'node:crypto'
+import { randomUUID } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { basename, dirname, join, resolve, sep } from 'node:path'
-import { createReadStream, createWriteStream, existsSync } from 'node:fs'
-import { mkdir, readFile, rename, rm, stat, unlink } from 'node:fs/promises'
-import { once } from 'node:events'
-import { Transform } from 'node:stream'
-import { pipeline } from 'node:stream/promises'
+import { existsSync } from 'node:fs'
+import { readFile, rm, unlink } from 'node:fs/promises'
 import express from 'express'
 import cors from 'cors'
 import { Resend } from 'resend'
@@ -22,6 +19,7 @@ import {
   invalidateStudyRoomSnapshot,
 } from './studyRooms.js'
 import { toMariaDbDate } from './datetime.js'
+import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const LAUNCH_DATA_PATH = join(__dirname, '..', 'data', 'medical-library-v1.json')
@@ -60,6 +58,39 @@ const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KE
 const resendReceivingKey = process.env.RESEND_ADMIN_API_KEY || process.env.RESEND_API_KEY
 const resendReceiving = resendReceivingKey ? new Resend(resendReceivingKey) : null
 const MAIL_FROM = process.env.MAIL_FROM || 'synapse@mail.doitrous.com'
+// Where unsubscribe links point. The student origin, not the admin one — the
+// reader of a campaign is a student, and the link has to work signed out.
+const PUBLIC_ORIGIN = (process.env.PUBLIC_ORIGIN || 'https://synapse.doitrous.com').replace(/\/$/, '')
+
+/**
+ * Mail nobody asked to stop receiving.
+ *
+ * Transactional categories are never suppressed — a password reset is sent
+ * because something happened to that account, and withholding it would harm the
+ * reader rather than respect them. Everything else is checked against the
+ * suppression list before it is sent, and a suppressed address is reported as
+ * suppressed rather than quietly dropped.
+ */
+const TRANSACTIONAL_CATEGORIES = new Set(['Onboarding', 'Billing & subscription', 'Security & account', 'Privacy & data'])
+
+async function isSuppressed(address, category) {
+  if (!address || !category || TRANSACTIONAL_CATEGORIES.has(category)) return false
+  const [rows] = await pool.query(
+    'SELECT 1 FROM email_suppressions WHERE address = ? AND (category IS NULL OR category = ?) LIMIT 1',
+    [String(address).toLowerCase(), category],
+  )
+  return rows.length > 0
+}
+
+/** Mint the opaque token an unsubscribe link carries, so no address rides in a URL. */
+async function unsubscribeTokenFor(address, category) {
+  const token = randomUUID().replace(/-/g, '') + randomUUID().replace(/-/g, '').slice(0, 16)
+  await pool.query(
+    'INSERT INTO email_unsubscribe_tokens (token, address, category) VALUES (?,?,?)',
+    [token, String(address).toLowerCase(), category || null],
+  )
+  return token
+}
 
 app.use(apiAuthGate)
 
@@ -119,12 +150,168 @@ app.get('/api/me/export', requireAuthenticated, wrap(async (req, res) => {
     catch { documents[row.k] = { value: null, updatedAt: row.updatedAt } }
   }
   const profile = await getUserByIdentity(req.identity.id)
+  // The uploads themselves are too large to inline, but an export that lists
+  // annotations for a document it never mentions is not the whole record.
+  const [uploads] = await pool.query(
+    `SELECT id, title, media_type AS mediaType, size_bytes AS sizeBytes, sha256, created_at AS createdAt
+     FROM user_documents WHERE user_id = ? AND deleted_at IS NULL ORDER BY created_at`,
+    [req.identity.id],
+  )
   res.json({
     exportedAt: new Date().toISOString(),
     account: { id: req.identity.id, email: req.identity.email },
     profile,
     documents,
+    uploads: uploads.map((row) => ({ ...row, downloadPath: `/api/my-documents/${row.id}/file` })),
   })
+}))
+
+/* ── A student's own documents ───────────────────────────────────────────── */
+
+/**
+ * Uploads that belong to one account.
+ *
+ * Every query filters on `user_id = req.identity.id`: ownership is a `WHERE`
+ * clause, never a claim the client makes. The storage key is generated here for
+ * the same reason — the client says what the file is called, not where it goes.
+ *
+ * The bytes live on the server rather than in the browser because the notes
+ * about them already do. Annotations are `user_state` and therefore sync; a
+ * document that lived only in IndexedDB would leave the same reader empty on a
+ * phone with the student's own marks stranded behind it.
+ */
+const MY_DOCUMENT_MAX_BYTES = Number(process.env.MY_DOCUMENT_MAX_BYTES) || 100 * 1024 * 1024
+const MY_DOCUMENT_QUOTA_BYTES = Number(process.env.MY_DOCUMENT_QUOTA_BYTES) || 1024 * 1024 * 1024
+const MY_DOCUMENT_ROOT = resolve(RESOURCE_STORAGE_DIR, 'my-documents')
+
+function documentTitle(raw) {
+  const title = String(raw ?? '').trim().replace(/[\r\n\t]/g, ' ').slice(0, 200)
+  return title || 'Untitled document'
+}
+
+async function myDocument(userId, id) {
+  const [rows] = await pool.query(
+    `SELECT id, title, storage_key AS storageKey, media_type AS mediaType, size_bytes AS sizeBytes,
+       sha256, page_count AS pageCount, created_at AS createdAt
+     FROM user_documents WHERE id = ? AND user_id = ? AND deleted_at IS NULL`,
+    [id, userId],
+  )
+  return rows[0] || null
+}
+
+app.get('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
+  const [rows] = await pool.query(
+    `SELECT id, title, media_type AS mediaType, size_bytes AS sizeBytes, page_count AS pageCount,
+       created_at AS createdAt
+     FROM user_documents WHERE user_id = ? AND deleted_at IS NULL ORDER BY created_at DESC`,
+    [req.identity.id],
+  )
+  const [[usage]] = await pool.query(
+    'SELECT COALESCE(SUM(size_bytes), 0) AS usedBytes FROM user_documents WHERE user_id = ? AND deleted_at IS NULL',
+    [req.identity.id],
+  )
+  res.json({ items: rows, usedBytes: Number(usage.usedBytes), quotaBytes: MY_DOCUMENT_QUOTA_BYTES })
+}))
+
+app.post('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
+  const id = randomUUID()
+  // Generated here, never accepted: a path is not something a client gets to say.
+  const storageKey = join('my-documents', req.identity.id.replace(/[^a-zA-Z0-9_-]/g, '_'), `${id}.pdf`)
+  await pool.query(
+    'INSERT INTO user_documents (id, user_id, title, storage_key, media_type) VALUES (?, ?, ?, ?, ?)',
+    [id, req.identity.id, documentTitle(req.body?.title), storageKey, 'pdf'],
+  )
+  res.json({ id, uploadId: randomUUID().replace(/-/g, ''), chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES })
+}))
+
+app.put('/api/my-documents/:id/chunks/:uploadId/:index', requireAuthenticated, wrap(async (req, res) => {
+  const document = await myDocument(req.identity.id, req.params.id)
+  if (!document) return res.status(404).json({ error: 'document not found' })
+  const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
+  if (!fullPath) return res.status(400).json({ error: 'document has no valid storage key' })
+  if (existsSync(fullPath)) return res.status(409).json({ error: 'document is already uploaded' })
+  const workspace = resolveUploadWorkspace(RESOURCE_STORAGE_DIR, `u-${req.identity.id}-${document.id}`, req.params.uploadId)
+  const index = Number(req.params.index)
+  if (!workspace || !Number.isInteger(index) || index < 0 || index > 1023) return res.status(400).json({ error: 'invalid chunk upload path' })
+  const declaredLength = Number(req.header('content-length'))
+  if (Number.isFinite(declaredLength) && declaredLength > RESOURCE_CHUNK_MAX_BYTES) return res.status(413).json({ error: 'chunk exceeds configured limit' })
+  const { sizeBytes } = await receiveChunk(req, workspace, index, RESOURCE_CHUNK_MAX_BYTES)
+  res.json({ ok: true, index, sizeBytes })
+}))
+
+app.post('/api/my-documents/:id/chunks/:uploadId/complete', requireAuthenticated, wrap(async (req, res) => {
+  const document = await myDocument(req.identity.id, req.params.id)
+  if (!document) return res.status(404).json({ error: 'document not found' })
+  const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
+  if (!fullPath || !fullPath.startsWith(`${MY_DOCUMENT_ROOT}${sep}`)) return res.status(400).json({ error: 'document has no valid storage key' })
+  if (existsSync(fullPath)) return res.status(409).json({ error: 'document is already uploaded' })
+  const workspace = resolveUploadWorkspace(RESOURCE_STORAGE_DIR, `u-${req.identity.id}-${document.id}`, req.params.uploadId)
+  const totalChunks = Number(req.body?.totalChunks)
+  const declaredSize = Number(req.body?.sizeBytes)
+  if (!workspace || !Number.isInteger(totalChunks) || totalChunks < 1 || totalChunks > 1024) return res.status(400).json({ error: 'invalid chunk count' })
+  if (!Number.isFinite(declaredSize) || declaredSize < 1 || declaredSize > MY_DOCUMENT_MAX_BYTES) {
+    return res.status(413).json({ error: `a document may be up to ${Math.round(MY_DOCUMENT_MAX_BYTES / (1024 * 1024))} MB` })
+  }
+
+  // Checked here rather than at the start: only now is the real size known,
+  // and a quota that is enforced against a declaration is not enforced.
+  const [[usage]] = await pool.query(
+    'SELECT COALESCE(SUM(size_bytes), 0) AS usedBytes FROM user_documents WHERE user_id = ? AND deleted_at IS NULL',
+    [req.identity.id],
+  )
+  if (Number(usage.usedBytes) + declaredSize > MY_DOCUMENT_QUOTA_BYTES) {
+    return res.status(409).json({ error: 'that would go past the space on your account' })
+  }
+
+  try {
+    const result = await assembleChunks(workspace, fullPath, {
+      totalChunks,
+      declaredSize,
+      maxBytes: MY_DOCUMENT_MAX_BYTES,
+      chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES,
+      requirePdf: true,
+    })
+    await pool.query(
+      'UPDATE user_documents SET size_bytes = ?, sha256 = ?, page_count = ? WHERE id = ? AND user_id = ?',
+      [result.sizeBytes, result.sha256, Number(req.body?.pageCount) || null, document.id, req.identity.id],
+    )
+    res.json({ ok: true, id: document.id, ...result })
+  } catch (error) {
+    if (error.status) return res.status(error.status).json({ error: error.message })
+    throw error
+  }
+}))
+
+app.patch('/api/my-documents/:id', requireAuthenticated, wrap(async (req, res) => {
+  const [result] = await pool.query(
+    'UPDATE user_documents SET title = ? WHERE id = ? AND user_id = ? AND deleted_at IS NULL',
+    [documentTitle(req.body?.title), req.params.id, req.identity.id],
+  )
+  if (!result.affectedRows) return res.status(404).json({ error: 'document not found' })
+  res.json({ ok: true })
+}))
+
+app.get('/api/my-documents/:id/file', requireAuthenticated, wrap(async (req, res) => {
+  const document = await myDocument(req.identity.id, req.params.id)
+  if (!document) return res.status(404).json({ error: 'document not found' })
+  const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
+  if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'document file is still uploading' })
+  res.setHeader('Content-Type', 'application/pdf')
+  res.setHeader('Content-Disposition', `inline; filename="${basename(document.title).replace(/["\r\n]/g, '')}.pdf"`)
+  res.setHeader('X-Content-Type-Options', 'nosniff')
+  res.sendFile(fullPath)
+}))
+
+app.delete('/api/my-documents/:id', requireAuthenticated, wrap(async (req, res) => {
+  const document = await myDocument(req.identity.id, req.params.id)
+  if (!document) return res.status(404).json({ error: 'document not found' })
+  await pool.query(
+    'UPDATE user_documents SET deleted_at = CURRENT_TIMESTAMP WHERE id = ? AND user_id = ?',
+    [document.id, req.identity.id],
+  )
+  const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
+  if (fullPath) await unlink(fullPath).catch(() => {})
+  res.json({ ok: true })
 }))
 
 /* ── Vouchers ────────────────────────────────────────────────────────────── */
@@ -301,6 +488,46 @@ app.delete('/api/user-state/:key', wrap(async (req, res) => {
 
 // Student accounts can read shared catalogue state, but operational records and
 // mailbox contents remain admin-only even if a route is guessed manually.
+/**
+ * Unsubscribe.
+ *
+ * Deliberately public and deliberately before the admin guard: the reader is a
+ * signed-out student clicking a link in their inbox, or Gmail's own one-click
+ * control POSTing on their behalf. Requiring a session here would mean the
+ * unsubscribe silently failed, which is exactly what "report spam" is for.
+ *
+ * The token is opaque and single-purpose, so no address travels in a URL and a
+ * leaked link reveals nothing about who else is subscribed.
+ */
+async function applyUnsubscribe(token) {
+  const [rows] = await pool.query('SELECT address, category FROM email_unsubscribe_tokens WHERE token = ? LIMIT 1', [token])
+  if (!rows.length) return null
+  const { address, category } = rows[0]
+  await pool.query(
+    'INSERT INTO email_suppressions (id, address, category, reason) VALUES (?,?,?,?) ON DUPLICATE KEY UPDATE created_at = created_at',
+    [`sup-${randomUUID().slice(0, 12)}`, address, category, 'unsubscribed'],
+  )
+  return { address, category }
+}
+
+// RFC 8058 one-click: the mail client POSTs this itself, with no human present.
+app.post('/api/unsubscribe', wrap(async (req, res) => {
+  const token = req.query.token || (req.body && req.body.token)
+  if (!token) return res.status(400).json({ error: 'token required' })
+  const result = await applyUnsubscribe(String(token))
+  if (!result) return res.status(404).json({ error: 'unknown token' })
+  res.json({ ok: true, category: result.category })
+}))
+
+// The link a person clicks. The SPA renders the confirmation at /unsubscribe.
+app.get('/api/unsubscribe', wrap(async (req, res) => {
+  const token = req.query.token
+  if (!token) return res.status(400).json({ error: 'token required' })
+  const result = await applyUnsubscribe(String(token))
+  if (!result) return res.status(404).json({ error: 'unknown token' })
+  res.json({ ok: true, category: result.category })
+}))
+
 app.use(['/api/students', '/api/mailboxes', '/api/mail'], requireAdmin)
 
 /* ── Roles and recoverable snapshots ───────────────────────────────────── */
@@ -628,16 +855,11 @@ async function resourceRecord(resourceId) {
 }
 
 function resolvedResourcePath(storageKey) {
-  if (!storageKey || typeof storageKey !== 'string' || storageKey.includes('\0')) return null
-  const fullPath = resolve(RESOURCE_STORAGE_DIR, storageKey)
-  return fullPath.startsWith(`${RESOURCE_STORAGE_DIR}${sep}`) ? fullPath : null
+  return resolveWithin(RESOURCE_STORAGE_DIR, storageKey)
 }
 
 function resolvedChunkUploadPath(resourceId, uploadId) {
-  if (!/^[a-zA-Z0-9_-]{8,80}$/.test(uploadId)) return null
-  const safeResourceId = String(resourceId).replace(/[^a-zA-Z0-9_-]/g, '_')
-  const uploadPath = resolve(RESOURCE_STORAGE_DIR, '.__uploads', safeResourceId, uploadId)
-  return uploadPath.startsWith(`${RESOURCE_STORAGE_DIR}${sep}`) ? uploadPath : null
+  return resolveUploadWorkspace(RESOURCE_STORAGE_DIR, resourceId, uploadId)
 }
 
 /** Remove interrupted upload work only after every stored resource is live. */
@@ -685,28 +907,11 @@ app.put('/api/medical-resources/:resourceId/file', requireAdmin, wrap(async (req
   const fullPath = resolvedResourcePath(resource.storageKey)
   if (!fullPath) return res.status(400).json({ error: 'resource has no valid authenticated storage key' })
   if (existsSync(fullPath)) return res.status(409).json({ error: 'resource is already uploaded; replacement requires a separate reviewed operation' })
-  await mkdir(dirname(fullPath), { recursive: true })
-  const temporaryPath = `${fullPath}.upload-${randomUUID()}`
-  const hash = createHash('sha256')
-  let sizeBytes = 0
-  const meter = new Transform({
-    transform(chunk, _encoding, callback) {
-      sizeBytes += chunk.length
-      if (sizeBytes > RESOURCE_MAX_BYTES) return callback(new Error(`resource exceeds ${RESOURCE_MAX_BYTES} byte limit`))
-      hash.update(chunk)
-      callback(null, chunk)
-    },
+  const result = await receiveStream(req, fullPath, {
+    maxBytes: RESOURCE_MAX_BYTES,
+    expectedSha256: resource.sha256 || null,
   })
-  try {
-    await pipeline(req, meter, createWriteStream(temporaryPath, { flags: 'wx' }))
-    const sha256 = hash.digest('hex')
-    if (resource.sha256 && resource.sha256 !== sha256) throw new Error('uploaded file hash does not match the qualified source')
-    await rename(temporaryPath, fullPath)
-    res.json({ ok: true, id: resource.id, sizeBytes, sha256 })
-  } catch (error) {
-    await unlink(temporaryPath).catch(() => {})
-    throw error
-  }
+  res.json({ ok: true, id: resource.id, ...result })
 }))
 
 /**
@@ -725,26 +930,8 @@ app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireAdm
   if (!uploadPath || !Number.isInteger(index) || index < 0 || index > 1023) return res.status(400).json({ error: 'invalid chunk upload path' })
   const declaredLength = Number(req.header('content-length'))
   if (Number.isFinite(declaredLength) && declaredLength > RESOURCE_CHUNK_MAX_BYTES) return res.status(413).json({ error: 'chunk exceeds configured limit' })
-
-  await mkdir(uploadPath, { recursive: true })
-  const chunkPath = join(uploadPath, `${String(index).padStart(4, '0')}.part`)
-  const temporaryPath = `${chunkPath}.upload-${randomUUID()}`
-  let sizeBytes = 0
-  const meter = new Transform({
-    transform(chunk, _encoding, callback) {
-      sizeBytes += chunk.length
-      if (sizeBytes > RESOURCE_CHUNK_MAX_BYTES) return callback(new Error('chunk exceeds configured limit'))
-      callback(null, chunk)
-    },
-  })
-  try {
-    await pipeline(req, meter, createWriteStream(temporaryPath, { flags: 'wx' }))
-    await rename(temporaryPath, chunkPath)
-    res.json({ ok: true, index, sizeBytes })
-  } catch (error) {
-    await unlink(temporaryPath).catch(() => {})
-    throw error
-  }
+  const { sizeBytes } = await receiveChunk(req, uploadPath, index, RESOURCE_CHUNK_MAX_BYTES)
+  res.json({ ok: true, index, sizeBytes })
 }))
 
 app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', requireAdmin, wrap(async (req, res) => {
@@ -759,41 +946,21 @@ app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', require
   if (!uploadPath || !Number.isInteger(totalChunks) || totalChunks < 1 || totalChunks > 1024) return res.status(400).json({ error: 'invalid chunk count' })
   if (!Number.isFinite(declaredSize) || declaredSize < 1 || declaredSize > RESOURCE_CHUNKED_MAX_BYTES) return res.status(413).json({ error: 'resource exceeds configured chunked-upload limit' })
 
-  const chunkPaths = Array.from({ length: totalChunks }, (_, index) => join(uploadPath, `${String(index).padStart(4, '0')}.part`))
-  for (const chunkPath of chunkPaths) if (!existsSync(chunkPath)) return res.status(409).json({ error: `chunk ${basename(chunkPath, '.part')} is missing` })
-  const measuredChunks = await Promise.all(chunkPaths.map((chunkPath) => stat(chunkPath)))
-  if (measuredChunks.some((chunk) => chunk.size > RESOURCE_CHUNK_MAX_BYTES)) return res.status(413).json({ error: 'stored chunk exceeds configured limit' })
-  if (measuredChunks.reduce((sum, chunk) => sum + chunk.size, 0) !== declaredSize) return res.status(409).json({ error: 'chunk sizes do not match the declared resource size' })
-
-  await mkdir(dirname(fullPath), { recursive: true })
-  const temporaryPath = `${fullPath}.assemble-${randomUUID()}`
-  const hash = createHash('sha256')
-  let sizeBytes = 0
-  const output = createWriteStream(temporaryPath, { flags: 'wx' })
   try {
-    for (const chunkPath of chunkPaths) {
-      for await (const chunk of createReadStream(chunkPath)) {
-        sizeBytes += chunk.length
-        if (sizeBytes > RESOURCE_CHUNKED_MAX_BYTES) throw new Error('resource exceeds configured chunked-upload limit')
-        hash.update(chunk)
-        if (!output.write(chunk)) await once(output, 'drain')
-      }
-    }
-    const closed = once(output, 'close')
-    output.end()
-    await closed
-    const sha256 = hash.digest('hex')
-    if (sizeBytes !== declaredSize) throw new Error('assembled resource size does not match the declaration')
-    if (resource.sha256 && resource.sha256 !== sha256) throw new Error('assembled file hash does not match the qualified source')
-    await rename(temporaryPath, fullPath)
+    const result = await assembleChunks(uploadPath, fullPath, {
+      totalChunks,
+      declaredSize,
+      maxBytes: RESOURCE_CHUNKED_MAX_BYTES,
+      chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES,
+      expectedSha256: resource.sha256 || null,
+    })
     // A successful, hash-verified assembly makes every partial attempt for
     // this resource obsolete. Remove the resource's entire upload workspace
     // so interrupted retry profiles do not consume persistent-volume space.
     await rm(dirname(uploadPath), { recursive: true, force: true })
-    res.json({ ok: true, id: resource.id, sizeBytes, sha256, chunks: totalChunks })
+    res.json({ ok: true, id: resource.id, ...result })
   } catch (error) {
-    output.destroy()
-    await unlink(temporaryPath).catch(() => {})
+    if (error.status) return res.status(error.status).json({ error: error.message })
     throw error
   }
 }))
@@ -893,14 +1060,39 @@ app.get('/api/mail/attachment/:id', wrap(async (req, res) => {
 
 // Send + record. attachments: [{ filename, contentType, content_b64 }]
 app.post('/api/mail/send', wrap(async (req, res) => {
-  const { from, to, cc, bcc, subject, html, text, attachments = [] } = req.body || {}
+  const { from, to, cc, bcc, subject, html, text, category, headers = {}, attachments = [] } = req.body || {}
   if (!to || !subject) return res.status(400).json({ error: 'to and subject required' })
   const fromAddr = from || MAIL_FROM
   const id = `mail-${randomUUID().slice(0, 12)}`
+  const recipients = Array.isArray(to) ? to : [to]
+
+  // Asked not to receive this? Then it is not sent, and the caller is told so
+  // rather than being handed a success it can misread as delivery.
+  const allowed = []
+  for (const address of recipients) {
+    if (await isSuppressed(address, category)) continue
+    allowed.push(address)
+  }
+  if (recipients.length && !allowed.length) {
+    return res.json({ id, status: 'Suppressed', resendId: null, suppressed: recipients.length })
+  }
+
+  // One-click unsubscribe. Gmail and Outlook surface their own control when these
+  // headers are present, which is a far better outcome than the reader reaching
+  // for "report spam" — the single strongest negative signal there is.
+  const outHeaders = { ...headers }
+  if (category && !TRANSACTIONAL_CATEGORIES.has(category) && allowed.length === 1) {
+    const token = await unsubscribeTokenFor(allowed[0], category)
+    const url = `${PUBLIC_ORIGIN}/unsubscribe?token=${token}`
+    outHeaders['List-Unsubscribe'] = `<${url}>, <mailto:${MAIL_FROM}?subject=unsubscribe>`
+    outHeaders['List-Unsubscribe-Post'] = 'List-Unsubscribe=One-Click'
+  }
+
   let status = 'Queued', resendId = null
   if (resend) {
     const { data, error } = await resend.emails.send({
-      from: fromAddr, to: Array.isArray(to) ? to : [to], cc, bcc, subject, html: html || undefined, text: text || undefined,
+      from: fromAddr, to: allowed, cc, bcc, subject, html: html || undefined, text: text || undefined,
+      headers: Object.keys(outHeaders).length ? outHeaders : undefined,
       attachments: attachments.map((a) => ({ filename: a.filename, content: a.content_b64 })),
     })
     if (error) return res.status(502).json({ error: error.message })
@@ -908,7 +1100,7 @@ app.post('/api/mail/send', wrap(async (req, res) => {
   }
   await pool.query(
     'INSERT INTO emails (id, direction, mailbox, from_addr, to_addr, cc, bcc, subject, html, text, status, resend_id, at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,NOW())',
-    [id, 'outbound', fromAddr, fromAddr, Array.isArray(to) ? to.join(', ') : to, cc || null, bcc || null, subject, html || null, text || null, status, resendId],
+    [id, 'outbound', fromAddr, fromAddr, allowed.join(', '), cc || null, bcc || null, subject, html || null, text || null, status, resendId],
   )
   for (const a of attachments) {
     await pool.query('INSERT INTO attachments (id, email_id, filename, content_type, size_bytes, content_b64) VALUES (?,?,?,?,?,?)',
