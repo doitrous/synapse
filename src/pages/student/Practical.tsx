@@ -33,7 +33,6 @@ import { Tabs } from '@/components/ui/Tabs'
 import { ChapterMark } from '@/components/ui/ChapterMark'
 import { PracticalRunner } from '@/components/practical/PracticalRunner'
 import type { RunnerTarget } from '@/components/practical/PracticalRunner'
-import { ExaminerWarning } from '@/components/practical/ExaminerWarning'
 import { ConceptText } from '@/components/concepts/ConceptText'
 import { useT } from '@/lib/i18n'
 
@@ -437,8 +436,6 @@ export function Practical() {
         title={t('Practical')}
         description={t('Rehearse OSCE stations, work through clinical cases, track skills sign-off, and practise lab and imaging interpretation.')}
       />
-
-      <ExaminerWarning className="mb-4" />
 
       <Tabs
         value={tab}

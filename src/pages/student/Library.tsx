@@ -43,14 +43,28 @@ import { useT } from '@/lib/i18n'
 import { NewArticleDialog } from '@/components/library/NewArticleDialog'
 import { PERSONAL_TAGS_KEY, USER_ARTICLES_KEY, type UserArticle } from '@/data/userLibrary'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type ArticleSpan, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore } from '@/data/medicalEvidence'
+import { ConceptText } from '@/components/concepts/ConceptText'
+import { ConceptChip } from '@/components/concepts/ConceptChip'
 import { apiOpenFile } from '@/lib/api'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { AtlasNavigation, LibraryLanding, LibraryViewTabs, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
 
+/**
+ * Article prose, with the search term marked where there is one.
+ *
+ * With no active search the text goes through ConceptText, which makes each
+ * named concept pressable and renders everything between them through the
+ * inline markup renderer. While searching, the plain string is used instead:
+ * splitting on the query and re-tokenising each fragment would break markers
+ * across the split, and seeing what matched matters more than seeing it styled.
+ */
 function Highlight({ text, query }: { text: string; query: string }) {
   const q = query.trim()
-  if (!q) return text
+  // No active search: render the author's inline markup, then let ConceptText
+  // find the named concepts inside it. This is the one student surface actually
+  // about reading concepts, and it was the only one not highlighting them.
+  if (!q) return <ConceptText text={text} />
   const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   return <>{text.split(new RegExp(`(${escaped})`, 'ig')).map((part, index) => part.toLowerCase() === q.toLowerCase() ? <mark key={index} className="rounded-sm bg-warning-tint px-0.5 text-ink">{part}</mark> : part)}</>
 }
@@ -525,6 +539,8 @@ function Reader({
   onTagsChange,
   query,
   onOpenArticle,
+  onBrowseSubject,
+  onBrowseTopic,
 }: {
   article: LiveSubtopic
   tags: string[]
@@ -532,6 +548,8 @@ function Reader({
   onTagsChange: (next: string[]) => void
   query: string
   onOpenArticle: (articleId: string) => void
+  onBrowseSubject?: () => void
+  onBrowseTopic?: () => void
 }) {
   const t = useT()
   const location = useLocation()
@@ -562,13 +580,28 @@ function Reader({
     <BackBar />
     <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,46rem)_20rem]">
     <article>
-      <nav className="flex items-center gap-2 text-[12.5px] text-ink-3">
-        <span className="inline-flex items-center gap-1.5 font-medium text-ink-2">
+      {/* The same trail as a taxonomy node page, and navigable for the same
+          reason: reading an article is the most common place to want the rest
+          of its branch. */}
+      <nav aria-label={t('Breadcrumb')} className="flex flex-wrap items-center gap-2 text-[12.5px] text-ink-3">
+        <button
+          type="button"
+          onClick={() => onBrowseSubject?.()}
+          disabled={!onBrowseSubject}
+          className="inline-flex items-center gap-1.5 rounded font-medium text-ink-2 transition-colors hover:text-accent-strong disabled:hover:text-ink-2"
+        >
           <ChapterMark subjectId={subject.id} index={chapterIndex + 1} compact />
           {subject.name}
-        </span>
+        </button>
         <Icon icon={ArrowRight} size={12} className="rtl:-scale-x-100" />
-        <span>{st.topicTitle}</span>
+        <button
+          type="button"
+          onClick={() => onBrowseTopic?.()}
+          disabled={!onBrowseTopic}
+          className="rounded transition-colors hover:text-accent-strong disabled:hover:text-ink-3"
+        >
+          {st.topicTitle}
+        </button>
       </nav>
 
       <h1 className="mt-3 font-serif text-[30px] font-semibold leading-tight tracking-[-0.02em] text-ink">
@@ -654,7 +687,15 @@ function Reader({
       {traps.length > 0 && (
       <section className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
         <div className="border-b border-line px-4 py-3"><div className="flex items-center gap-2"><Icon icon={CircleAlert} size={16} className="text-danger" /><h2 className="text-[13px] font-bold text-ink">{t('Where people lose the mark')}</h2></div><p className="mt-0.5 font-mono text-[10.5px] text-ink-3">{traps.length} {t('traps')}</p></div>
-        <ul className="divide-y divide-line px-4 py-1">{traps.map((trap) => <li key={trap} className="flex gap-2.5 py-3 text-[12.5px] leading-relaxed text-ink-2"><Icon icon={TriangleAlert} size={16} className="mt-0.5 text-danger" /><span>{trap}</span></li>)}</ul>
+        <ul className="divide-y divide-line px-4 py-1">{traps.map((trap) => <li key={trap} className="flex gap-2.5 py-3 text-[12.5px] leading-relaxed text-ink-2"><Icon icon={TriangleAlert} size={16} className="mt-0.5 shrink-0 text-danger" /><span><ConceptText text={trap} /></span></li>)}</ul>
+      </section>
+      )}
+      {(st.relatedConceptIds?.length ?? 0) > 0 && (
+      <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
+        <h2 className="text-[13px] font-semibold text-ink">{t('Concepts in this article')}</h2>
+        <ul className="mt-2.5 flex flex-wrap gap-1.5">
+          {st.relatedConceptIds!.map((conceptId) => <li key={conceptId}><ConceptChip conceptId={conceptId} /></li>)}
+        </ul>
       </section>
       )}
       {relatedArticles.length > 0 && (
@@ -676,7 +717,13 @@ function Reader({
       </Link>
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
         <h2 className="text-[13px] font-semibold text-ink">{t('Resources that teach it')}</h2>
-        <ul className="mt-2 divide-y divide-line">{st.resources.map((resource) => <li key={resource}><Link to={`/app/resources?q=${encodeURIComponent(resource)}`} state={backState(location, t('Back to reading'))} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={FileText} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{resource}<span className="mt-0.5 block text-[10.5px] text-ink-3">{t('Open at the relevant page')}</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>)}</ul>
+        <ul className="mt-2 divide-y divide-line">{st.resources.map((resource, index) => {
+          // Prefer the recorded id: searching by title finds nothing the moment
+          // a resource is renamed, and finds the wrong thing when two share a name.
+          const resourceId = st.resourceIds?.[index]
+          const to = resourceId ? `/app/resources?id=${encodeURIComponent(resourceId)}` : `/app/resources?q=${encodeURIComponent(resource)}`
+          return <li key={resource}><Link to={to} state={backState(location, t('Back to reading'))} data-context-href={to} data-context-label={resource} className="group flex items-start gap-2.5 py-2.5 text-[12.5px] leading-snug text-ink-2 hover:text-ink"><span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset"><Icon icon={FileText} size={14} className="text-ink-3" /></span><span className="min-w-0 flex-1">{resource}<span className="mt-0.5 block text-[10.5px] text-ink-3">{t('Open at the relevant page')}</span></span><Icon icon={ExternalLink} size={14} className="mt-1 text-ink-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" /></Link></li>
+        })}</ul>
       </section>
     </aside>
     </div>
@@ -764,7 +811,6 @@ export function Library() {
   const { subtopics: allSubtopics } = useLiveLibrary()
   const [taxonomy] = useMedicalTaxonomy()
   const taxonomyIndex = useMemo(() => indexMedicalTaxonomy(taxonomy), [taxonomy])
-  const [universityCatalogue] = useUniversityCatalogue()
   const [params, setParams] = useSearchParams()
   const paramId = params.get('s')
   const paramView = params.get('view')
@@ -855,26 +901,39 @@ export function Library() {
     setParams(next)
   }
 
-  const yearCount = universityCatalogue.reduce((sum, university) => sum + university.years.length, 0)
+  // "On a route" means a view has been chosen or an article opened — the two
+  // states in which the tab strip is a navigation aid rather than a duplicate.
+  const onRoute = view !== 'home' || Boolean(selectedId)
   const selectedNode = selectedNodeId ? taxonomyIndex.byId.get(selectedNodeId) : undefined
   const selectedPublishedArticle = allSubtopics.find((article) => article.id === selectedId)
+  // The top of the open article's branch — where "Cardiovascular System" in its
+  // breadcrumb should lead. Undefined for an article with no placement, in which
+  // case that crumb stays plain text rather than pretending to be a link.
+  const placementRoot = selectedPublishedArticle?.primaryNodeId
+    ? taxonomyIndex.lineage(selectedPublishedArticle.primaryNodeId)[0]?.id
+    : undefined
 
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
-        <button type="button" className="inline-flex shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
-        <span className="hidden h-5 w-px shrink-0 bg-line sm:block" />
+        <button type="button" className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
+        {/* The home state offers these same five routes as cards in the page.
+            Showing them as tabs at the same time was two menus for one choice,
+            so the strip appears only once a route has been picked. */}
+        {onRoute && <span className="hidden h-5 w-px shrink-0 bg-line sm:block" />}
         {/* Too narrow for six tabs on a phone — the Browse topics drawer carries them there. */}
-        <LibraryViewTabs view={view} onViewChange={changeView} className="max-sm:hidden" />
+        {onRoute
+          ? <LibraryViewTabs view={view} onViewChange={changeView} className="max-sm:hidden" />
+          : <span className="flex-1" />}
         <span className="flex-1 sm:hidden" />
         {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
         <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="shrink-0">{t('New article')}</Button>
       </header>
 
       <div className="min-h-0 flex-1">
-        {view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} universityCount={universityCatalogue.length} yearCount={yearCount} onOpenView={openView} onOpenArticle={openArticle} /> : (
+        {view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} onOpenView={openView} onOpenArticle={openArticle} /> : (
           <div className="grid h-full min-h-0 grid-cols-[18rem_minmax(0,1fr)] max-lg:grid-cols-1">
-            <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>
+            <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>
             <main className="min-w-0 overflow-y-auto">
               {selectedUserArticle ? (
           <UserReader
@@ -897,9 +956,11 @@ export function Library() {
             onTagsChange={(next) => setTagsFor(selectedId, next)}
             query=""
             onOpenArticle={openArticle}
+            onBrowseSubject={placementRoot ? () => selectNode(placementRoot) : undefined}
+            onBrowseTopic={selectedPublishedArticle.primaryNodeId ? () => selectNode(selectedPublishedArticle.primaryNodeId!) : undefined}
           />
         ) : (
-          <TaxonomyNodeOverview node={selectedNode} taxonomy={taxonomy} articles={atlasArticles} onOpenArticle={openArticle} />
+          <TaxonomyNodeOverview node={selectedNode} taxonomy={taxonomy} articles={atlasArticles} onOpenArticle={openArticle} onSelectNode={selectNode} />
         )}
             </main>
           </div>
@@ -918,7 +979,7 @@ export function Library() {
               </button>
             </div>
             <div className="border-b border-line px-2 py-2"><LibraryViewTabs view={view} onViewChange={(next) => { changeView(next); if (next === 'home') setTreeOpen(false) }} /></div>
-            <div className="grid min-h-0 flex-1 grid-cols-1"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} universityCount={universityCatalogue.length} yearCount={yearCount} onNodeSelect={(nodeId) => { selectNode(nodeId); setTreeOpen(false) }} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} /></div>
+            <div className="grid min-h-0 flex-1 grid-cols-1"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={(nodeId) => { selectNode(nodeId); setTreeOpen(false) }} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} /></div>
           </div>
         </div>
       )}

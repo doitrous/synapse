@@ -143,7 +143,7 @@ now — but it stays local until the DB is live. Say the word and I'll add it.
 
 - Deploy the API as a Node service; set (server env, never `VITE_`):
   `DATABASE_URL`, `RESEND_API_KEY`, `RESEND_ADMIN_API_KEY`, `MAIL_FROM`,
-  `RESEND_DOMAIN`, `API_BEARER` (shared auth token). Values are in `.env.local`.
+  `RESEND_DOMAIN`, `SUPABASE_URL`. Values are in `.env.local`.
 - Set the SPA build env: `VITE_API_BASE=https://<api-host>/api`. The temporary
   owner key is typed at runtime on `/login`; it is never compiled into the SPA.
 - MariaDB: restrict `8823` to the API's private network.

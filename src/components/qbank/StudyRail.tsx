@@ -1,8 +1,11 @@
+import { useState } from 'react'
 import { Link, type Location } from 'react-router-dom'
-import { BookOpen, FileText, GitFork, Lock, NotebookPen, Target } from 'lucide-react'
+import { BookOpen, CheckCircle2, FileText, GitFork, Loader, Lock, NotebookPen, Target } from 'lucide-react'
 import { backState } from '@/components/ui/BackBar'
 import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { ConceptChip } from '@/components/concepts/ConceptChip'
+import { cn } from '@/lib/cn'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import type { Question } from '@/data/qbank'
 import { migrateLegacyLocalKey, usePersistentState } from '@/lib/usePersistentState'
@@ -22,19 +25,45 @@ function Section({
   title,
   icon,
   children,
+  action,
 }: {
   title: string
   icon: typeof Target
   children: React.ReactNode
+  /** Sits opposite the title — used for the notes "Saved" cue. */
+  action?: React.ReactNode
 }) {
   return (
     <section className="border-t border-line px-4 py-3.5 first:border-t-0">
-      <h3 className="mb-2 inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-        <Icon icon={icon} size={13} />
-        {title}
-      </h3>
+      <div className="mb-2 flex items-center gap-2">
+        <h3 className="inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+          <Icon icon={icon} size={13} />
+          {title}
+        </h3>
+        {action && <span className="ms-auto">{action}</span>}
+      </div>
       {children}
     </section>
+  )
+}
+
+/**
+ * Quiet reassurance that a note is not going to be lost.
+ *
+ * Writes are debounced now, so there is a real moment between typing and the
+ * change being stored. Saying so beats leaving someone to wonder — and the cue
+ * reports the actual state rather than being decorative.
+ */
+function SavedCue({ pending }: { pending: boolean }) {
+  const t = useT()
+  return (
+    <span className={cn(
+      'inline-flex items-center gap-1 text-[11px] font-medium transition-colors',
+      pending ? 'text-ink-3' : 'text-ink-2',
+    )}>
+      <Icon icon={pending ? Loader : CheckCircle2} size={12} />
+      {pending ? t('Saving…') : t('Saved')}
+    </span>
   )
 }
 
@@ -79,7 +108,10 @@ export function StudyRail({
 }) {
   const t = useT()
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
-  const [notes, setNotes] = usePersistentState<Record<string, string>>(QBANK_NOTES_STORAGE_KEY, {})
+  const [notes, setNotes, notesStatus] = usePersistentState<Record<string, string>>(QBANK_NOTES_STORAGE_KEY, {})
+  // The cue appears once this student has actually typed something. Showing
+  // "Saved" against a note nobody has written is noise, not reassurance.
+  const [touched, setTouched] = useState(false)
 
   const labelled = (question.conceptIds ?? [])
     .map((id) => graph.concepts.find((concept) => concept.id === id))
@@ -90,15 +122,18 @@ export function StudyRail({
   return (
     <aside className={className} aria-label={t('Study tools')}>
       <div className="rounded-xl border border-line bg-surface shadow-panel">
-        <Section title={t('Your notes')} icon={NotebookPen}>
+        <Section title={t('Your notes')} icon={NotebookPen} action={touched ? <SavedCue pending={notesStatus.pending} /> : null}>
           <Textarea
             value={note}
-            onChange={(event) => setNotes((current) => ({ ...current, [question.id]: event.target.value }))}
-            placeholder={t('Jot what you reasoned, or what tripped you up.')}
-            className="min-h-[7rem] text-[13px]"
+            onChange={(event) => {
+              setTouched(true)
+              setNotes((current) => ({ ...current, [question.id]: event.target.value }))
+            }}
+            placeholder={t('What did you think, and what caught you out?')}
+            className="min-h-[13rem] text-[13px]"
             aria-label={t('Notes for this question')}
           />
-          <p className="mt-1.5 text-[11px] text-ink-3">{t('Saved to your account, and kept when you review.')}</p>
+          <p className="mt-1.5 text-[11px] text-ink-3">{t('Only you can see this.')}</p>
         </Section>
 
         {!revealed && <Held />}
@@ -109,12 +144,8 @@ export function StudyRail({
           {labelled.length ? (
             <ul className="flex flex-wrap gap-1.5">
               {labelled.map((concept) => (
-                <li
-                  key={concept.id}
-                  title={concept.definition}
-                  className="rounded-md border border-line bg-surface-2 px-2 py-1 text-[12px] text-ink-2"
-                >
-                  {concept.label}
+                <li key={concept.id}>
+                  <ConceptChip conceptId={concept.id} />
                 </li>
               ))}
             </ul>

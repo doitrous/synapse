@@ -3,6 +3,7 @@ import { BookOpenText, ExternalLink, FileText, GitFork, TriangleAlert, X } from 
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type EvidenceLocator, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 import { Icon } from '@/components/ui/Icon'
+import { RichText } from '@/components/ui/RichText'
 import { apiOpenFile } from '@/lib/api'
 import { usePersistentState } from '@/lib/usePersistentState'
 
@@ -81,7 +82,12 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
         >
           {part.text}
         </button>
-      ) : <span key={`${part.text}-${index}`}>{part.text}</span>)}
+      ) : (
+        // Everything that is not a concept still goes through the inline
+        // renderer, so an author's emphasis survives being split around a
+        // concept name rather than being shown as raw asterisks.
+        <RichText key={`${part.text}-${index}`} text={part.text} />
+      ))}
 
       {active && (
         <span role="dialog" aria-label={`${active.label} concept details`} className="absolute left-0 top-full z-40 mt-2 block max-h-[70vh] w-[min(25rem,calc(100vw-3rem))] overflow-y-auto rounded-xl border border-line bg-surface p-4 text-left font-sans font-normal leading-normal text-ink shadow-float">

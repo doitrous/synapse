@@ -84,17 +84,31 @@ export const universitiesById: Record<string, University> = Object.fromEntries(
   universities.map((u) => [u.id, u]),
 )
 
+/**
+ * The last catalogue string seen, and what it parsed to.
+ *
+ * This is a plain function called from render paths — every SubjectDot, every
+ * row — and it used to JSON.parse the entire catalogue on every call. Reading
+ * the string stays (getItem is cheap, and it is what makes a write in this tab
+ * or any other visible immediately); only the parse is skipped when the stored
+ * text has not changed.
+ */
+let parsedFrom: string | null = null
+let parsedCatalogue: University[] = []
+
 export function getUniversity(id: string): University | undefined {
   if (typeof window !== 'undefined') {
     try {
       const saved = window.localStorage.getItem(UNIVERSITY_CATALOGUE_STORAGE_KEY)
-      if (saved) {
-        const configured = JSON.parse(saved) as University[]
-        const match = configured.find((university) => university.id === id)
-        if (match) return match
+      if (saved !== parsedFrom) {
+        parsedFrom = saved
+        parsedCatalogue = saved ? (JSON.parse(saved) as University[]) : []
       }
+      const match = parsedCatalogue.find((university) => university.id === id)
+      if (match) return match
     } catch {
       // Fall back to the seeded catalogue if saved data is unavailable or malformed.
+      parsedCatalogue = []
     }
   }
   return universitiesById[id]

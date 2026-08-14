@@ -12,8 +12,32 @@ interface LinkLine { id: string; from: string; to: string }
 interface Frame { id: string; x: number; y: number; width: number; height: number; title: string }
 interface BoardState { notes: Note[]; links: LinkLine[]; frames: Frame[] }
 
-const TONES = { paper: 'bg-surface border-line', teal: 'bg-accent-tint border-accent-line', amber: 'bg-warning-tint border-warning/30', rose: 'bg-danger-tint border-danger/25' } as const
-const TONE_CYCLE = ['paper', 'teal', 'amber', 'rose'] as const
+/**
+ * Eight light note colours.
+ *
+ * Tints rather than fills, so a note reads as paper with a wash over it and the
+ * ink on top stays legible — including in the dark theme, where each of these
+ * tokens is redefined. The original four keys are kept exactly as they were, so
+ * notes already on a board keep the colour they were given.
+ */
+const TONES = {
+  paper: 'bg-surface border-line',
+  teal: 'bg-accent-tint border-accent-line',
+  amber: 'bg-warning-tint border-warning/30',
+  rose: 'bg-danger-tint border-danger/25',
+  sage: 'bg-success-tint border-success/30',
+  slate: 'bg-surface-2 border-line-2',
+  sand: 'bg-inset border-line-2',
+  clay: 'bg-accent-tint/55 border-accent-line/70',
+} as const
+
+const TONE_ORDER = ['paper', 'teal', 'amber', 'rose', 'sage', 'sand', 'slate', 'clay'] as const
+
+/** What each colour is called, for the picker's labels. */
+const TONE_LABEL: Record<keyof typeof TONES, string> = {
+  paper: 'Paper', teal: 'Teal', amber: 'Amber', rose: 'Rose',
+  sage: 'Sage', slate: 'Slate', sand: 'Sand', clay: 'Clay',
+}
 const NOTE_W = 176
 const NOTE_H = 74
 /**
@@ -39,6 +63,8 @@ export function Whiteboard() {
   const [view, setView] = useState({ x: 40, y: 40, scale: 1 })
   const [board, setBoard] = usePersistentState<BoardState>('synapse.whiteboard.board', INITIAL_BOARD)
   const [selected, setSelected] = useState<string | null>(null)
+  /** Which note has its colour picker open, if any. */
+  const [palette, setPalette] = useState<string | null>(null)
   const [selectedFrame, setSelectedFrame] = useState<string | null>(null)
   /**
    * A connector can be selected and deleted.
@@ -216,9 +242,9 @@ export function Whiteboard() {
     setSelected(null)
   }
 
-  function cycleTone(id: string) {
+  function setTone(id: string, tone: keyof typeof TONES) {
     remember()
-    setBoard((current) => ({ ...current, notes: current.notes.map((note) => note.id === id ? { ...note, tone: TONE_CYCLE[(TONE_CYCLE.indexOf(note.tone) + 1) % TONE_CYCLE.length] } : note) }))
+    setBoard((current) => ({ ...current, notes: current.notes.map((note) => note.id === id ? { ...note, tone } : note) }))
   }
 
   const bounds = useMemo(() => {
@@ -327,7 +353,34 @@ export function Whiteboard() {
       </g> })}</svg>
       {board.notes.map((note) => <div key={note.id} onPointerDown={(event) => noteDown(event, note.id)} onDoubleClick={(event) => { event.stopPropagation(); setEditing(note.id) }} className={cn('absolute cursor-grab select-none rounded-lg border p-3 shadow-panel active:cursor-grabbing', TONES[note.tone], selected === note.id && 'ring-2 ring-accent ring-offset-1 ring-offset-paper', connectFrom === note.id && 'ring-2 ring-accent')} style={{ left: note.x, top: note.y, width: NOTE_W }}>
         {editing === note.id ? <textarea autoFocus defaultValue={note.text} onBlur={(event) => { remember(); setBoard((current) => ({ ...current, notes: current.notes.map((item) => item.id === note.id ? { ...item, text: event.target.value } : item) })); setEditing(null) }} onPointerDown={(event) => event.stopPropagation()} className="h-16 w-full resize-none bg-transparent text-[13px] leading-snug text-ink outline-none" /> : <p className="min-h-[1.5rem] whitespace-pre-wrap break-words text-[13px] leading-snug text-ink">{note.text || <span className="text-ink-3">{t('Double-click to edit…')}</span>}</p>}
-        {selected === note.id && !connectMode && <button onPointerDown={(event) => { event.stopPropagation(); cycleTone(note.id) }} className="absolute -right-2 -top-2 size-5 rounded-full border border-line bg-surface shadow-panel" title={t('Change colour')}><span className={cn('m-auto block size-2.5 rounded-full', TONES[note.tone].split(' ')[0])} /></button>}
+        {selected === note.id && !connectMode && (
+          <div className="absolute -right-2 -top-2" onPointerDown={(event) => event.stopPropagation()}>
+            <button
+              onPointerDown={(event) => { event.stopPropagation(); setPalette((open) => (open === note.id ? null : note.id)) }}
+              className="grid size-5 place-items-center rounded-full border border-line bg-surface shadow-panel"
+              title={t('Change colour')}
+              aria-haspopup="true"
+              aria-expanded={palette === note.id}
+            >
+              <span className={cn('block size-2.5 rounded-full border', TONES[note.tone])} />
+            </button>
+            {palette === note.id && (
+              <div role="menu" aria-label={t('Note colour')} className="absolute end-0 top-6 z-10 grid w-max grid-cols-4 gap-1 rounded-lg border border-line bg-surface p-1.5 shadow-pop">
+                {TONE_ORDER.map((tone) => (
+                  <button
+                    key={tone}
+                    role="menuitemradio"
+                    aria-checked={note.tone === tone}
+                    title={t(TONE_LABEL[tone])}
+                    aria-label={t(TONE_LABEL[tone])}
+                    onPointerDown={(event) => { event.stopPropagation(); setTone(note.id, tone); setPalette(null) }}
+                    className={cn('size-6 rounded-md border transition-transform hover:scale-110', TONES[tone], note.tone === tone && 'ring-2 ring-accent ring-offset-1 ring-offset-surface')}
+                  />
+                ))}
+              </div>
+            )}
+          </div>
+        )}
       </div>)}
     </div>
 

@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, PanelLeft, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, Languages, LogOut } from 'lucide-react'
+import { Menu, Maximize2, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, Languages, LogOut } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
+import { ThemeSwitch } from './ThemeSwitch'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
@@ -30,19 +31,23 @@ const iconBtn =
 export function Topbar({
   portal,
   collapsed,
+  focusMode,
   onToggleCollapse,
+  onToggleFocusMode,
   onOpenMobile,
   onOpenSearch,
 }: {
   portal: Portal
   collapsed: boolean
+  focusMode: boolean
   onToggleCollapse: () => void
+  onToggleFocusMode: () => void
   onOpenMobile: () => void
   onOpenSearch: () => void
 }) {
   const { pathname } = useLocation()
   const { t, lang, toggle } = useI18n()
-  const { audience } = useIdentity()
+  const { audience, role } = useIdentity()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
   const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
   const [readIds, setReadIds] = usePersistentState<string[]>(`${NOTIFICATION_READ_STORAGE_KEY}-${portal}`, [])
@@ -59,6 +64,11 @@ export function Topbar({
   const title = currentTitle(portal, pathname)
   const other = portal === 'admin' ? '/app' : '/admin'
   const otherLabel = portal === 'admin' ? t('Student app') : t('Admin console')
+  // Only an admin has somewhere to switch to. Showing a student a route that
+  // exists solely to bounce them off its guard advertises a door with no key.
+  // The demo has no backend and therefore no roles, so nothing is being
+  // concealed there — both portals are simply open.
+  const canSwitchPortal = role === 'admin' || !API_MODE
   const unreadCount = notifications.filter((notification) => !readIds.includes(notification.id)).length
   const popupNotification = notifications.find((notification) => notification.id === popupId)
 
@@ -83,17 +93,23 @@ export function Topbar({
     }
   }, [])
 
+  // Focus mode removes the whole bar, so nothing below needs to be rendered.
+  if (focusMode) return null
+
   return (
     <header className="sticky top-0 z-30 flex h-[calc(3.5rem+env(safe-area-inset-top))] min-w-0 items-center gap-1.5 border-b border-line bg-paper px-2.5 pt-[env(safe-area-inset-top)] sm:gap-2 sm:px-4">
       <button className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
         <Icon icon={Menu} size={18} />
       </button>
+      {/* The same three lines as the mobile control: one affordance for
+          "show or hide the menu", rather than two glyphs for one idea. */}
       <button
-        className={cn(iconBtn, 'hidden lg:inline-flex')}
+        className={cn(iconBtn, 'max-lg:hidden')}
         onClick={onToggleCollapse}
         aria-label={collapsed ? t('Expand sidebar') : t('Collapse sidebar')}
+        title={collapsed ? t('Expand sidebar') : t('Collapse sidebar')}
       >
-        <Icon icon={PanelLeft} size={18} />
+        <Icon icon={Menu} size={18} />
       </button>
 
       <nav className="flex min-w-0 flex-1 items-center gap-2" aria-label="Breadcrumb">
@@ -118,6 +134,17 @@ export function Topbar({
         </button>
 
         <button
+          onClick={onToggleFocusMode}
+          className={cn(iconBtn, 'max-lg:hidden')}
+          aria-label={t('Hide menus')}
+          title={t('Hide menus')}
+        >
+          <Icon icon={Maximize2} size={17} />
+        </button>
+
+        <ThemeSwitch className="max-sm:hidden" />
+
+        <button
           onClick={toggle}
           className="hidden h-9 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] font-medium text-ink-2 transition-colors hover:border-line-2 hover:text-ink sm:inline-flex"
           aria-label={lang === 'ar' ? 'Switch to English' : 'التبديل إلى العربية'}
@@ -126,13 +153,15 @@ export function Topbar({
           <span lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? 'EN' : 'العربية'}</span>
         </button>
 
-        <Link
-          to={other}
-          className="hidden h-9 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] font-medium text-ink-2 transition-colors hover:border-line-2 hover:text-ink md:inline-flex"
-        >
-          <Icon icon={ArrowLeftRight} size={15} />
-          {otherLabel}
-        </Link>
+        {canSwitchPortal && (
+          <Link
+            to={other}
+            className="hidden h-9 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] font-medium text-ink-2 transition-colors hover:border-line-2 hover:text-ink md:inline-flex"
+          >
+            <Icon icon={ArrowLeftRight} size={15} />
+            {otherLabel}
+          </Link>
+        )}
 
         <Link to="/logout" className={iconBtn} aria-label={t('Sign out')} title={t('Sign out')}>
           <Icon icon={LogOut} size={17} />

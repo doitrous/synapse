@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { useT } from '@/lib/i18n'
 import { backState } from '@/components/ui/BackBar'
 import {
   ArrowLeft,
@@ -163,6 +164,7 @@ function Header({
 /* ---- OSCE runner ------------------------------------------------------- */
 
 function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
+  const t = useT()
   const location = useLocation()
   const authored = useAuthoredPractical(target.id)
   const staticDetail = getOsceDetail(target.id)
@@ -218,8 +220,8 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 
   useEffect(() => {
     if (!running || finished || seconds <= 0) return
-    const t = setInterval(() => setSeconds((s) => s - 1), 1000)
-    return () => clearInterval(t)
+    const tick = setInterval(() => setSeconds((s) => s - 1), 1000)
+    return () => clearInterval(tick)
   }, [finished, running, seconds])
 
   const earnedMarks = sections.reduce((sum, section) => sum + (section.items.length ? section.marks * (section.items.filter((item) => checked.has(item.id)).length / section.items.length) : 0), 0)
@@ -278,17 +280,22 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
           <div className="w-full space-y-2 sm:w-64">
             <Panel className="p-3">
             <div className="text-right">
-            <div
-              className={cn(
-                'tnum font-mono text-[22px] font-semibold',
-                seconds <= 30 ? 'text-danger' : 'text-ink',
-              )}
-            >
-              {clock(seconds)}
+            {/* The card was digits floating against empty space. Naming the
+                thing balances it and says what the number is. */}
+            <div className="flex items-baseline justify-between gap-3">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Timer')}</span>
+              <span
+                className={cn(
+                  'tnum font-mono text-[22px] font-semibold',
+                  seconds <= 30 ? 'text-danger' : 'text-ink',
+                )}
+              >
+                {clock(seconds)}
+              </span>
             </div>
             <div className="flex items-center justify-end gap-1 text-[11px] text-ink-3">
               <Icon icon={Clock} size={11} />
-              remaining
+              {t('remaining')}
             </div>
             <div className="mt-2 flex justify-end gap-1.5">
               <Button variant={running ? 'secondary' : 'primary'} size="sm" iconLeft={running ? Pause : Play} onClick={() => setRunning((value) => !value)}>{running ? 'Stop' : 'Start'}</Button>
@@ -627,11 +634,11 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
                   className={cn(
                     'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
                     revealed && opt.correct
-                      ? 'border-success bg-success text-white'
+                      ? 'border-success bg-success text-on-success'
                       : revealed && chosen === i
-                        ? 'border-danger bg-danger text-white'
+                        ? 'border-danger bg-danger text-on-danger'
                         : chosen === i
-                          ? 'border-accent bg-accent text-white'
+                          ? 'border-accent bg-accent text-on-accent'
                           : 'border-line-2 text-ink-2',
                   )}
                 >

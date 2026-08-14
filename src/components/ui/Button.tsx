@@ -12,7 +12,7 @@ const VARIANT: Record<Variant, string> = {
   secondary:
     'border border-line-2 bg-surface text-ink shadow-[0_1px_1px_rgba(36,29,22,0.04)] hover:border-ink-3/45 hover:bg-surface-2',
   ghost: 'border border-transparent text-ink-2 hover:border-line hover:bg-inset hover:text-ink',
-  danger: 'border border-danger bg-danger text-white shadow-[0_1px_2px_rgba(159,54,46,0.18)] hover:brightness-[0.94]',
+  danger: 'border border-danger bg-danger text-on-danger shadow-[0_1px_2px_rgba(159,54,46,0.18)] hover:brightness-[0.94]',
 }
 
 const SIZE: Record<Size, string> = {

@@ -16,15 +16,23 @@ import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 const DAY_START = 6
-const DAY_END = 24
-const HOURS = [6, 9, 12, 15, 18, 21, 24]
+const DAY_END = 23
+const HOURS = [6, 9, 12, 15, 18, 21, 23]
 
 function hourValue(date: Date) {
   return date.getHours() + date.getMinutes() / 60
 }
 
+/**
+ * An hour as a percentage across the day shown.
+ *
+ * Clamped, because the rails are percentage-positioned bars: anything outside
+ * the window was placed off-scale, so a 05:30 start drew left of the track and
+ * a late block ran past its end.
+ */
 function position(hour: number) {
-  return ((hour - DAY_START) / (DAY_END - DAY_START)) * 100
+  const clamped = Math.min(DAY_END, Math.max(DAY_START, hour))
+  return ((clamped - DAY_START) / (DAY_END - DAY_START)) * 100
 }
 
 /**

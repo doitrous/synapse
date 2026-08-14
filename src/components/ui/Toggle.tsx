@@ -20,7 +20,12 @@ export function Toggle({
       aria-label={label}
       onClick={() => onChange(!checked)}
       className={cn(
-        'relative h-6 w-11 shrink-0 overflow-hidden rounded-full border transition-[background-color,border-color,box-shadow] duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent',
+        // The control stays 24px tall, which is what it should look like. The
+        // pseudo-element gives it a 44px tap target on touch without moving
+        // anything around it. `overflow-hidden` would clip that, so the knob
+        // is kept in bounds by its own positioning instead.
+        'relative h-6 w-11 shrink-0 rounded-full border transition-[background-color,border-color,box-shadow] duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent',
+        "after:absolute after:-inset-y-2.5 after:inset-x-0 after:content-[''] sm:after:hidden",
         !checked && 'border-line-2 bg-surface-2',
         checked && !tint && 'border-accent-strong bg-accent shadow-[inset_0_0_0_1px_rgba(255,255,255,0.08)]',
       )}

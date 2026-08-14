@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Download, KeyRound, LifeBuoy, LogOut, ShieldCheck, UserRound } from 'lucide-react'
+import { Download, KeyRound, LifeBuoy, LogOut, Palette, ShieldCheck, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Field, Select } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
+import { MfaControl } from '@/components/auth/MfaControl'
+import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
 import { API_MODE, apiGet } from '@/lib/api'
@@ -49,7 +51,7 @@ function ReadOnlyField({ label, value, hint }: { label: string; value: string | 
 
 export function Account() {
   const t = useT()
-  const { email, displayName, profile, profileMissing, bypass } = useIdentity()
+  const { email, displayName, profile, profileMissing } = useIdentity()
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
@@ -149,6 +151,17 @@ export function Account() {
 
         <div className="space-y-4">
           <Panel>
+            <PanelHeader title={t('Appearance')} icon={Palette} />
+            <div className="flex flex-wrap items-center justify-between gap-3 p-4">
+              <div className="min-w-0">
+                <p className="text-[13px] font-medium text-ink">{t('Theme')}</p>
+                <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Light, warm, or dark. Kept on this device.')}</p>
+              </div>
+              <ThemeSwitch />
+            </div>
+          </Panel>
+
+          <Panel>
             <PanelHeader title={t('Security')} icon={ShieldCheck} />
             <div className="space-y-3 p-4">
               <div className="rounded-lg border border-line bg-surface-2 p-3">
@@ -156,11 +169,7 @@ export function Account() {
                 <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Reset through a time-limited email link.')}</p>
                 <Link to="/auth/forgot-password" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset"><KeyRound size={15} />{t('Change password')}</Link>
               </div>
-              <div className="rounded-lg border border-line p-3">
-                <p className="text-[13px] font-medium text-ink">{t('Two-factor authentication')}</p>
-                <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Free authenticator app · mandatory for admins')}</p>
-                <Link to="/auth/mfa" className="mt-3 inline-flex min-h-9 items-center rounded-lg px-3 text-[12.5px] font-semibold text-accent-strong hover:bg-accent-tint">{t('Set up or verify MFA')}</Link>
-              </div>
+              <MfaControl />
             </div>
           </Panel>
 
@@ -186,7 +195,7 @@ export function Account() {
                 <div>
                   <p className="text-[13px] font-medium text-ink">{t('This browser')}</p>
                   <p className="mt-0.5 text-[11.5px] text-ink-3">
-                    {bypass ? t('Temporary owner preview') : email ?? t('Signed in')}
+                    {email ?? t('Signed in')}
                   </p>
                 </div>
                 <Badge tone="success">{t('Open')}</Badge>

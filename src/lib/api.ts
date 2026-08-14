@@ -10,27 +10,9 @@ export type { StateErrorKind } from './apiErrors'
  * suppressed. When it is unset the app is the self-contained demo (localStorage).
  */
 const BASE = import.meta.env.VITE_API_BASE as string | undefined
-const OWNER_ACCESS_KEY = 'synapse-owner-access'
-
-function ownerAccessToken(): string | null {
-  if (typeof window === 'undefined') return null
-  return window.sessionStorage.getItem(OWNER_ACCESS_KEY)
-}
-
-export function setOwnerAccessToken(token: string): void {
-  if (typeof window === 'undefined') return
-  const clean = token.trim()
-  if (clean) window.sessionStorage.setItem(OWNER_ACCESS_KEY, clean)
-  else window.sessionStorage.removeItem(OWNER_ACCESS_KEY)
-}
-
-export function clearOwnerAccessToken(): void {
-  if (typeof window !== 'undefined') window.sessionStorage.removeItem(OWNER_ACCESS_KEY)
-}
 
 /** Scope browser crash-recovery data to the same verified owner as MariaDB. */
 export async function stateOwnerId(): Promise<string | null> {
-  if (ownerAccessToken()) return 'preview-owner'
   return authUserId()
 }
 
@@ -40,9 +22,7 @@ export const API_MODE = Boolean(BASE)
 async function headers(json = false): Promise<HeadersInit> {
   const h: Record<string, string> = {}
   if (json) h['Content-Type'] = 'application/json'
-  // The temporary owner key is typed at runtime and lives only in this tab. It
-  // is never a Vite build variable, so production JavaScript cannot disclose it.
-  const token = ownerAccessToken() || await authAccessToken()
+  const token = await authAccessToken()
   if (token) h['Authorization'] = `Bearer ${token}`
   return h
 }
@@ -76,6 +56,18 @@ export async function apiDownload(path: string, filename: string): Promise<void>
   a.click()
   a.remove()
   URL.revokeObjectURL(url)
+}
+
+/**
+ * Fetch an authenticated file as bytes.
+ *
+ * The in-app reader needs the data, not a tab: it hands the buffer to pdf.js.
+ * Factored out of apiOpenFile so both paths authenticate identically.
+ */
+export async function apiFetchFile(path: string): Promise<ArrayBuffer> {
+  const res = await fetch(`${BASE}${path}`, { headers: await headers() })
+  if (!res.ok) throw new ApiError(res.status, `GET ${path}`)
+  return res.arrayBuffer()
 }
 
 /** Open an authenticated file in a new tab, optionally at an exact PDF page. */

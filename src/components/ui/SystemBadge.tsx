@@ -13,10 +13,14 @@ export function SystemBadge({ short, color, size = 'md', className }: {
 }) {
   const code = short.replace(/[^A-Za-z0-9]/g, '').slice(0, 3).toUpperCase() || '—'
   const dims = size === 'lg' ? 'size-8 text-[11px]' : size === 'sm' ? 'size-5 text-[8.5px]' : 'size-6 text-[9.5px]'
+  // System colours are authored against a light ground. `--system-ink-mix` is how
+  // far to pull one toward the current ink so the code stays legible: a little in
+  // the light themes, considerably more on charcoal, where the raw hue is too
+  // dark against its own tinted chip to read at this size.
   const tint = color
     ? {
         backgroundColor: `color-mix(in srgb, ${color} 15%, var(--color-surface))`,
-        color: `color-mix(in srgb, ${color} 82%, var(--color-ink))`,
+        color: `color-mix(in srgb, ${color} calc(100% - var(--system-ink-mix)), var(--color-ink))`,
         borderColor: `color-mix(in srgb, ${color} 34%, var(--color-line))`,
       }
     : undefined

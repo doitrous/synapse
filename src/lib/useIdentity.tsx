@@ -1,5 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { API_MODE, apiGet } from './api'
+import { usePersistentState } from './usePersistentState'
 import { supabase } from './supabase'
 import { yearId as deriveYearId } from '@/data/taxonomy'
 
@@ -63,12 +64,12 @@ export interface Identity {
   email: string | null
   role: 'student' | 'admin' | null
   aal: 'aal1' | 'aal2' | null
-  /** True when this session is the temporary owner preview, not a real account. */
-  bypass: boolean
   /** Never a fabricated person: the real name, else the email, else "Student". */
   displayName: string
   /** True when nobody has created a roster row for this account yet. */
   profileMissing: boolean
+  /** True when neither the roster nor the student has said where they study. */
+  audienceUnknown: boolean
   profile: IdentityProfile
   audience: StudentAudience
   entitlement: Entitlement
@@ -85,13 +86,13 @@ const EMPTY_AUDIENCE: StudentAudience = { universityId: '', year: '', yearId: ''
 const NO_ENTITLEMENT: Entitlement = { state: 'none', plan: 'Free', expiresAt: null, daysLeft: null }
 
 const ANONYMOUS: Identity = {
-  status: 'loading', userId: null, email: null, role: null, aal: null, bypass: false,
-  displayName: 'Student', profileMissing: true, profile: EMPTY_PROFILE, audience: EMPTY_AUDIENCE,
+  status: 'loading', userId: null, email: null, role: null, aal: null,
+  displayName: 'Student', profileMissing: true, audienceUnknown: true, profile: EMPTY_PROFILE, audience: EMPTY_AUDIENCE,
   entitlement: NO_ENTITLEMENT, subscription: null, reload: () => undefined,
 }
 
 interface MeResponse {
-  user: { id: string; email: string | null; role: string | null; aal: string | null; bypass: boolean } | null
+  user: { id: string; email: string | null; role: string | null; aal: string | null } | null
   profile: IdentityProfile | null
   subscription: Subscription | null
   entitlement: Entitlement
@@ -107,6 +108,23 @@ function nameFor(profile: IdentityProfile | null, metadataName: string | null, e
   return local || 'Student'
 }
 
+/**
+ * What a student told us about themselves, when nobody else has.
+ *
+ * The roster is authoritative and stays so: a university that has recorded a
+ * profile always wins. But an account with no roster row had no university and
+ * no year at all, so curriculum scoping matched nothing and the app could only
+ * apologise. This fills that gap from the student's own answer, and is
+ * user-owned state (`synapse.account.*`), so it follows them between devices.
+ */
+export const SELF_AUDIENCE_STORAGE_KEY = 'synapse.account.audience.v1'
+
+export interface SelfDeclaredAudience {
+  universityId: string
+  year: string
+  group: string
+}
+
 export function IdentityProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<{
     status: IdentityStatus
@@ -115,7 +133,6 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     metadataName: string | null
     role: 'student' | 'admin' | null
     aal: 'aal1' | 'aal2' | null
-    bypass: boolean
     profile: IdentityProfile | null
     subscription: Subscription | null
     entitlement: Entitlement
@@ -123,9 +140,10 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     // Without a backend there is no account system to consult, so the app is
     // usable immediately and simply knows nothing about who is using it.
     status: API_MODE ? 'loading' : 'demo',
-    userId: null, email: null, metadataName: null, role: null, aal: null, bypass: false,
+    userId: null, email: null, metadataName: null, role: null, aal: null,
     profile: null, subscription: null, entitlement: NO_ENTITLEMENT,
   }))
+  const [selfAudience] = usePersistentState<SelfDeclaredAudience | null>(SELF_AUDIENCE_STORAGE_KEY, null)
   const [nonce, setNonce] = useState(0)
   const reload = useCallback(() => setNonce((n) => n + 1), [])
 
@@ -149,7 +167,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       if (cancelled) return
 
       if (!me?.user) {
-        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, metadataName: null, role: null, aal: null, bypass: false, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
+        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, metadataName: null, role: null, aal: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
         return
       }
       setState({
@@ -159,7 +177,6 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
         metadataName,
         role: me.user.role === 'admin' ? 'admin' : 'student',
         aal: me.user.aal === 'aal2' ? 'aal2' : 'aal1',
-        bypass: Boolean(me.user.bypass),
         profile: me.profile,
         subscription: me.subscription,
         entitlement: me.entitlement ?? NO_ENTITLEMENT,
@@ -177,17 +194,19 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<Identity>(() => {
     const profile = state.profile ?? EMPTY_PROFILE
-    const universityId = profile.universityId ?? ''
-    const year = profile.year ?? ''
+    // Roster first, then what the student said. Never the other way round.
+    const universityId = profile.universityId || selfAudience?.universityId || ''
+    const year = profile.year || selfAudience?.year || ''
     return {
       status: state.status,
       userId: state.userId,
       email: state.email,
       role: state.role,
       aal: state.aal,
-      bypass: state.bypass,
       displayName: nameFor(state.profile, state.metadataName, state.email),
       profileMissing: state.status === 'authenticated' && !state.profile,
+      /** True when neither the roster nor the student has said where they study. */
+      audienceUnknown: !universityId || !year,
       profile,
       audience: {
         universityId,
@@ -195,13 +214,13 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
         // An empty university or year must not produce a plausible-looking id;
         // a filter comparing against "_Y3" would match the wrong content.
         yearId: universityId && year ? deriveYearId(universityId, year) : '',
-        group: profile.group ?? '',
+        group: profile.group || selfAudience?.group || '',
       },
       entitlement: state.entitlement,
       subscription: state.subscription,
       reload,
     }
-  }, [state, reload])
+  }, [state, selfAudience, reload])
 
   return <IdentityContext.Provider value={value}>{children}</IdentityContext.Provider>
 }

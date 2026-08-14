@@ -1,18 +1,39 @@
 import { useEffect, useState } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
+import { Minimize2 } from 'lucide-react'
 import type { Portal } from './nav'
 import { Sidebar } from './Sidebar'
 import { Topbar } from './Topbar'
 import { CommandSearch } from './CommandSearch'
+import { StudyContextMenu } from './StudyContextMenu'
+import { StudentOnboarding } from '@/components/onboarding/StudentOnboarding'
+import { Icon } from '@/components/ui/Icon'
+import { Kbd } from '@/components/ui/Kbd'
 import { cn } from '@/lib/cn'
+import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
 
 export function AppShell({ portal }: { portal: Portal }) {
   const t = useT()
-  const [collapsed, setCollapsed] = useState(false)
+  // Both survive navigation and reload: collapsing the chrome to read is a
+  // decision about this screen, and having to make it again on every page is
+  // what stopped it being useful.
+  const [collapsed, , toggleCollapsed] = useLocalPreference('synapse.shell.sidebarCollapsed', false)
+  const [focusMode, , toggleFocusMode] = useLocalPreference('synapse.shell.focusMode', false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const { pathname } = useLocation()
+
+  // Focus mode hides the chrome, which would also hide the only way back out.
+  // Escape is that way out, and it is the key people already try.
+  useEffect(() => {
+    if (!focusMode) return
+    function onKey(event: KeyboardEvent) {
+      if (event.key === 'Escape') toggleFocusMode()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [focusMode, toggleFocusMode])
 
   // Global ⌘K / Ctrl-K to toggle search.
   useEffect(() => {
@@ -43,15 +64,16 @@ export function AppShell({ portal }: { portal: Portal }) {
     <div className="min-h-dvh min-w-0">
       <a
         href="#main-content"
-        className="fixed start-3 top-3 z-[70] -translate-y-20 rounded-lg bg-ink px-3 py-2 text-sm font-semibold text-white transition-transform focus:translate-y-0"
+        className="fixed start-3 top-3 z-[70] -translate-y-20 rounded-lg bg-ink px-3 py-2 text-sm font-semibold text-paper transition-transform focus:translate-y-0"
       >
         {t('Skip to content')}
       </a>
       {/* Desktop sidebar */}
       <aside
         className={cn(
-          'fixed inset-y-0 start-0 z-30 hidden border-e border-line transition-[width] duration-200 ease-[var(--ease-out-quint)] lg:block',
-          collapsed ? 'w-[4.25rem]' : 'w-[15rem]',
+          'fixed inset-y-0 start-0 z-30 hidden border-e border-line transition-[width] duration-200 ease-[var(--ease-out-quint)]',
+          focusMode ? 'lg:hidden' : 'lg:block',
+          collapsed ? 'w-(--spacing-sidebar-collapsed)' : 'w-(--spacing-sidebar)',
         )}
       >
         <Sidebar portal={portal} collapsed={collapsed} />
@@ -76,13 +98,15 @@ export function AppShell({ portal }: { portal: Portal }) {
       <div
         className={cn(
           'flex min-h-dvh min-w-0 flex-col transition-[padding] duration-200 ease-[var(--ease-out-quint)]',
-          collapsed ? 'lg:ps-[4.25rem]' : 'lg:ps-[15rem]',
+          focusMode ? '' : collapsed ? 'lg:ps-(--spacing-sidebar-collapsed)' : 'lg:ps-(--spacing-sidebar)',
         )}
       >
         <Topbar
           portal={portal}
           collapsed={collapsed}
-          onToggleCollapse={() => setCollapsed((v) => !v)}
+          focusMode={focusMode}
+          onToggleCollapse={toggleCollapsed}
+          onToggleFocusMode={toggleFocusMode}
           onOpenMobile={() => setMobileOpen(true)}
           onOpenSearch={() => setSearchOpen(true)}
         />
@@ -91,7 +115,22 @@ export function AppShell({ portal }: { portal: Portal }) {
         </main>
       </div>
 
+      {/* The way back out of focus mode, for anyone who does not reach for Escape. */}
+      {focusMode && (
+        <button
+          type="button"
+          onClick={toggleFocusMode}
+          className="fixed end-3 top-3 z-50 inline-flex min-h-11 items-center gap-2 rounded-lg border border-line bg-surface/90 px-3 text-[12.5px] font-semibold text-ink-2 shadow-pop backdrop-blur-sm transition-colors hover:text-ink lg:min-h-9"
+        >
+          <Icon icon={Minimize2} size={15} />
+          {t('Show menus')}
+          <Kbd>Esc</Kbd>
+        </button>
+      )}
+
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
+      <StudyContextMenu />
+      {portal === 'student' && <StudentOnboarding />}
     </div>
   )
 }

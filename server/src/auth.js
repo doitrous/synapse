@@ -5,8 +5,6 @@ const supabaseUrl = process.env.SUPABASE_URL?.replace(/\/$/, '')
 const issuer = supabaseUrl ? `${supabaseUrl}/auth/v1` : null
 const jwks = issuer ? createRemoteJWKSet(new URL(`${issuer}/.well-known/jwks.json`)) : null
 
-export const bypassEnabled = process.env.AUTH_BYPASS_ENABLED !== 'false'
-
 async function supabaseIdentity(token) {
   if (!jwks || !issuer) return null
   const { payload } = await jwtVerify(token, jwks, {
@@ -23,7 +21,7 @@ async function supabaseIdentity(token) {
     [userId, email],
   )
   const [rows] = await pool.query(
-    'SELECT role, status FROM user_access WHERE user_id = ?',
+    'SELECT role, status, mfa_required FROM user_access WHERE user_id = ?',
     [userId],
   )
   const access = rows[0]
@@ -33,7 +31,9 @@ async function supabaseIdentity(token) {
     email,
     role: access.role,
     aal: payload.aal === 'aal2' ? 'aal2' : 'aal1',
-    bypass: false,
+    // Opt-in second factor. Nobody is locked out for not having enrolled;
+    // an account that has asked to be held to aal2 is.
+    mfaRequired: Boolean(access.mfa_required),
   }
 }
 
@@ -43,29 +43,12 @@ export async function apiAuthGate(req, res, next) {
 
   const auth = req.header('authorization') || ''
   const token = auth.startsWith('Bearer ') ? auth.slice(7) : ''
-  const previewToken = process.env.API_BEARER
 
-  // Temporary owner preview. It deliberately remains available until the user
-  // explicitly disables AUTH_BYPASS_ENABLED. The server still requires the
-  // private preview token; the portal switch itself is not an authorization
-  // claim.
-  if (bypassEnabled && previewToken && token === previewToken) {
-    req.identity = {
-      id: 'preview-owner',
-      email: 'preview@synapse.local',
-      role: 'admin',
-      aal: 'aal2',
-      bypass: true,
-    }
-    return next()
-  }
-
-  // Local development stays usable when neither auth system is configured.
-  if (bypassEnabled && !previewToken && !supabaseUrl) {
-    req.identity = { id: 'preview-owner', email: null, role: 'admin', aal: 'aal2', bypass: true }
-    return next()
-  }
-
+  // There is deliberately no bypass here. A shared secret that mints an admin
+  // identity is indistinguishable from a stolen one, and the "no Supabase
+  // configured" escape hatch that used to sit below turned every unauthenticated
+  // request into an admin. Local development runs the front end in demo mode
+  // (no VITE_API_BASE) or against a real Supabase project.
   if (token && supabaseUrl) {
     try {
       const identity = await supabaseIdentity(token)
@@ -83,10 +66,19 @@ export async function apiAuthGate(req, res, next) {
 
 export function requireAdmin(req, res, next) {
   if (req.identity?.role !== 'admin') return res.status(403).json({ error: 'admin role required' })
-  if (!req.identity.bypass && req.identity.aal !== 'aal2') {
-    return res.status(403).json({ error: 'mfa_required' })
-  }
+  if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
   return next()
+}
+
+/**
+ * Whether this identity has cleared its own second-factor requirement.
+ *
+ * MFA is opt-in: an account that has not asked for it is not held to aal2.
+ * Exported because `GET /api/state/:key` repeats the admin check inline and the
+ * two must never disagree about what counts as sufficient.
+ */
+export function mfaSatisfied(identity) {
+  return !identity?.mfaRequired || identity.aal === 'aal2'
 }
 
 /** Explicit route-level guard for student/staff-only files. */

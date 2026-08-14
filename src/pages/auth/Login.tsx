@@ -1,13 +1,11 @@
 import { useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
-import { AlertCircle, ArrowRight, Eye, EyeOff, KeyRound, LogIn } from 'lucide-react'
+import { AlertCircle, ArrowRight, Eye, EyeOff, LogIn } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { AuthLayout } from './AuthLayout'
 import { isSupabaseConfigured, supabase } from '@/lib/supabase'
-import { apiGet, clearOwnerAccessToken, setOwnerAccessToken } from '@/lib/api'
-import { useIdentity } from '@/lib/useIdentity'
 import { authErrorMessage } from './authMessages'
 
 /**
@@ -24,21 +22,17 @@ export function Login() {
   const navigate = useNavigate()
   const [params] = useSearchParams()
   const next = safeNext(params.get('next'))
-  const { reload } = useIdentity()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
-  const [ownerKey, setOwnerKey] = useState('')
-  const [ownerLoading, setOwnerLoading] = useState(false)
-  const [ownerError, setOwnerError] = useState('')
 
   async function submit(event: React.FormEvent) {
     event.preventDefault()
     setError('')
     if (!supabase) {
-      setError('Account sign-in is prepared but Supabase is not connected yet. Use Preview dashboards for temporary access.')
+      setError('Account sign-in is not available yet: this deployment is not connected to its account service.')
       return
     }
     setLoading(true)
@@ -53,28 +47,6 @@ export function Login() {
     // Carry the original destination through the second factor, so being asked
     // for a code does not quietly drop the page the student was heading to.
     navigate(mfaPending ? `/auth/mfa?next=${encodeURIComponent(next)}` : next)
-  }
-
-  async function openOwnerPreview(event: React.FormEvent) {
-    event.preventDefault()
-    const clean = ownerKey.trim()
-    if (!clean) return setOwnerError('Enter the temporary owner access key from the server environment.')
-    setOwnerLoading(true)
-    setOwnerError('')
-    setOwnerAccessToken(clean)
-    try {
-      const session = await apiGet<{ user: { role: string; bypass: boolean } | null }>('/session')
-      if (!session.user?.bypass || session.user.role !== 'admin') throw new Error('not owner')
-      // The identity provider sits above the router, so navigating alone would
-      // not make it notice the key that was just accepted.
-      reload()
-      navigate('/admin')
-    } catch {
-      clearOwnerAccessToken()
-      setOwnerError('That owner access key was not accepted. Check API_BEARER in Coolify and try again.')
-    } finally {
-      setOwnerLoading(false)
-    }
   }
 
   return (
@@ -92,7 +64,7 @@ export function Login() {
         </div>
         {!isSupabaseConfigured && (
           <div className="rounded-lg border border-warning/30 bg-warning-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
-            Account service awaiting Supabase project keys. Temporary dashboard preview remains available above.
+            Sign-in is unavailable: this deployment is not connected to its account service yet.
           </div>
         )}
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
@@ -112,15 +84,6 @@ export function Login() {
         </div>
         <Button className="w-full" type="submit" variant="primary" size="lg" iconLeft={LogIn} loading={loading}>Sign in</Button>
         <p className="text-center text-[13px] text-ink-2">New to Synapse? <Link className="inline-flex items-center gap-1 font-semibold text-accent-strong hover:text-accent" to="/signup">Create an account <Icon icon={ArrowRight} size={13} /></Link></p>
-      </form>
-      <div className="mx-auto my-7 flex max-w-md items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-2" aria-hidden><span className="h-px flex-1 bg-line" />Temporary owner access<span className="h-px flex-1 bg-line" /></div>
-      <form className="mx-auto max-w-md space-y-3" onSubmit={openOwnerPreview}>
-        <p className="text-[12.5px] leading-relaxed text-ink-2">The Student/Admin preview links remain open. To change live data, enter the server-only owner key; it stays only in this browser tab and is never built into the site.</p>
-        {ownerError && <p role="alert" className="rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger">{ownerError}</p>}
-        <Field label="Owner access key" htmlFor="owner-key">
-          <TextInput id="owner-key" type="password" autoComplete="off" required value={ownerKey} onChange={(event) => setOwnerKey(event.target.value)} />
-        </Field>
-        <Button className="w-full" type="submit" variant="secondary" size="lg" iconLeft={KeyRound} loading={ownerLoading}>Open editable admin preview</Button>
       </form>
     </AuthLayout>
   )

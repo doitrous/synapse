@@ -20,6 +20,17 @@ export default defineConfig({
         en: path.resolve(import.meta.dirname, 'en/index.html'),
         ar: path.resolve(import.meta.dirname, 'ar/index.html'),
       },
+      output: {
+        // Dependencies change far less often than the product does. Splitting
+        // them out means a deploy that touches only our code leaves these
+        // cached, instead of re-downloading React and the icon set every time.
+        manualChunks: (id: string) => {
+          if (!id.includes('node_modules')) return undefined
+          if (/node_modules\/(react|react-dom|react-router|react-router-dom|scheduler)\//.test(id)) return 'react'
+          if (id.includes('node_modules/lucide-react/')) return 'icons'
+          return undefined
+        },
+      },
     },
   },
   // Honor the port assigned by the harness (PORT env) so autoPort works;

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus } from 'lucide-react'
+import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Eye, PenLine } from 'lucide-react'
 import { initialNotes } from '@/data/notebook'
 import type { Note } from '@/data/notebook'
 import { Button } from '@/components/ui/Button'
@@ -12,6 +12,8 @@ import { cn } from '@/lib/cn'
 import { subjects } from '@/data/subjects'
 import { Select } from '@/components/ui/Field'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { NoteEditor } from '@/components/notebook/NoteEditor'
+import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { formatRelativeTime } from '@/lib/format'
 import { imageFileToBoundedDataUrl } from '@/lib/mediaStorage'
@@ -34,6 +36,10 @@ export function Notebook() {
   const [newTag, setNewTag] = useState('')
   const [imageError, setImageError] = useState<string | null>(null)
   const handledArticle = useRef<string | null>(null)
+  const handledCapture = useRef(false)
+  // Write or read. Kept per device rather than per note: it is a preference
+  // about how someone works, not a property of any one note.
+  const [reading, , toggleReading] = useLocalPreference('synapse.notebook.reading', false)
 
   const needle = query.trim().toLowerCase()
   const filtered = notes.filter(
@@ -46,6 +52,30 @@ export function Notebook() {
       || n.tags.some((tag) => tag.toLowerCase().includes(needle)),
   )
   const note = notes.find((n) => n.id === selectedId) ?? null
+
+  // A phrase sent here from the right-click menu. It travels in sessionStorage
+  // rather than the URL so a long quote does not end up in browser history, and
+  // it is consumed on arrival so a later visit does not re-create the note.
+  useEffect(() => {
+    if (params.get('capture') !== '1' || handledCapture.current) return
+    handledCapture.current = true
+    let captured: string | null = null
+    try {
+      captured = sessionStorage.getItem('synapse.notebook.capture')
+      sessionStorage.removeItem('synapse.notebook.capture')
+    } catch { /* ignore */ }
+    if (!captured) return
+    const id = `nb${Date.now()}`
+    const firstLine = captured.split('\n')[0].trim()
+    setNotes((current) => [{
+      id,
+      title: firstLine.length > 48 ? `${firstLine.slice(0, 48)}…` : firstLine || 'Captured note',
+      body: `> ${captured.replace(/\n/g, '\n> ')}\n\n`,
+      tags: [],
+      updatedAt: new Date().toISOString(),
+    }, ...current])
+    setSelectedId(id)
+  }, [params, setNotes])
 
   useEffect(() => {
     if (!linkedArticle) return
@@ -189,8 +219,20 @@ export function Notebook() {
                 <span className="text-[12px] text-ink-3">Not linked to the library</span>
               )}
               <div className="flex items-center gap-2">
-                <span className="text-[12px] text-ink-3">Edited {formatRelativeTime(note.updatedAt)}</span>
-                <IconButton icon={Trash2} label="Delete note" size="sm" onClick={() => remove(note.id)} />
+                <span className="text-[12px] text-ink-3">{t('Edited')} {formatRelativeTime(note.updatedAt)}</span>
+                <button
+                  type="button"
+                  onClick={toggleReading}
+                  aria-pressed={reading}
+                  className={cn(
+                    'inline-flex min-h-9 items-center gap-1.5 rounded-lg border px-2.5 text-[12px] font-medium transition-colors sm:min-h-8',
+                    reading ? 'border-accent-line bg-accent-tint text-accent-strong' : 'border-line-2 bg-surface text-ink-2 hover:bg-inset',
+                  )}
+                >
+                  <Icon icon={reading ? PenLine : Eye} size={14} />
+                  {reading ? t('Edit') : t('Read')}
+                </button>
+                <IconButton icon={Trash2} label={t('Delete note')} size="sm" onClick={() => remove(note.id)} />
               </div>
             </div>
 
@@ -215,13 +257,15 @@ export function Notebook() {
 
             {note.imageData && <div className="relative mt-4 overflow-hidden rounded-lg border border-line bg-surface"><ZoomableImage src={note.imageData} alt="Pasted into this note" className="max-h-96 w-full object-contain" /><IconButton icon={X} label="Remove image" size="sm" className="absolute right-2 top-2 bg-surface shadow-panel" onClick={() => update(note.id, { imageData: undefined })} /></div>}
 
-            <textarea
-              value={note.body}
-              onChange={(e) => update(note.id, { body: e.target.value })}
-              onPaste={pasteImage}
-              placeholder={t('Start writing, or paste a copied image…')}
-              className="mt-5 min-h-[60vh] w-full resize-none bg-transparent text-[15px] leading-[1.7] text-ink/90 outline-none placeholder:text-ink-3"
-            />
+            <div className="mt-5">
+              <NoteEditor
+                value={note.body}
+                onChange={(next) => update(note.id, { body: next })}
+                onPaste={pasteImage}
+                preview={reading}
+                placeholder={t('Start writing, or paste a copied image…')}
+              />
+            </div>
             <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />{t('Paste an image from your clipboard directly into this note.')}</p>
             {imageError && <p role="status" className="mt-1.5 text-[11.5px] text-danger">{imageError}</p>}
           </div>

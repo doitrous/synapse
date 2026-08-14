@@ -1,12 +1,14 @@
 import { NavLink } from 'react-router-dom'
-import { ChevronsUpDown } from 'lucide-react'
+import { ChevronsUpDown, Languages } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Avatar } from '@/components/ui/Avatar'
 import { Icon } from '@/components/ui/Icon'
+import { ThemeSwitch } from './ThemeSwitch'
+import { preloadStudentRoute } from '@/router'
 import { cn } from '@/lib/cn'
-import { useT } from '@/lib/i18n'
+import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 
 export function Sidebar({
@@ -19,14 +21,14 @@ export function Sidebar({
   onNavigate?: () => void
 }) {
   const groups = navFor(portal)
-  const t = useT()
+  const { t, lang, toggle: toggleLanguage } = useI18n()
   const identity = useIdentity()
 
   // Whatever the account actually says, and nothing more. A year and a
   // university are shown once an admin has recorded them; until then the line
   // reads "Medicine" rather than inventing a cohort this person may not be in.
   const detail = portal === 'admin'
-    ? (identity.bypass ? t('Owner preview') : t('Curriculum admin'))
+    ? t('Curriculum admin')
     : [identity.profile.year, t('Medicine')].filter(Boolean).join(' · ')
   const profile = { name: identity.displayName, detail }
 
@@ -61,6 +63,9 @@ export function Sidebar({
                     to={item.to}
                     end={item.end}
                     onClick={onNavigate}
+                    onMouseEnter={() => preloadStudentRoute(item.to)}
+                    onFocus={() => preloadStudentRoute(item.to)}
+                    onTouchStart={() => preloadStudentRoute(item.to)}
                     title={collapsed ? t(item.label) : undefined}
                     className={({ isActive }) =>
                       cn(
@@ -89,6 +94,27 @@ export function Sidebar({
           </div>
         ))}
       </nav>
+
+      {/* Appearance and language, for the phone.
+          The top bar has no room for either below `sm`, and hiding the theme
+          switch there left it reachable only from the account page — so it
+          lives here too, where the drawer already has the width. */}
+      {!collapsed && (
+        <div className="shrink-0 border-t border-line px-2 py-2 lg:hidden">
+          <div className="flex items-center gap-2">
+            <ThemeSwitch className="flex-1 justify-around" />
+            <button
+              type="button"
+              onClick={toggleLanguage}
+              className="inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-line bg-surface px-2.5 text-[12px] font-medium text-ink-2"
+              aria-label={lang === 'ar' ? 'Switch to English' : 'التبديل إلى العربية'}
+            >
+              <Icon icon={Languages} size={14} />
+              <span lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? 'EN' : 'العربية'}</span>
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* User */}
       <div className="shrink-0 border-t border-line p-2">
