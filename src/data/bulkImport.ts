@@ -151,7 +151,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'decisions', label: 'Case decisions', help: 'Clinical-case decision points. Start each with "### Decision title", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" (mark the right one "*= option") each followed by "Why: …", and "Rationale: …". (Clinical case)' },
       { key: 'debrief', label: 'Case debrief', help: 'Summary shown after a clinical case. (Clinical case)' },
       { key: 'lab_subtype', label: 'Lab / Imaging', help: 'Lab or Imaging — for interpretation sets.' },
-      { key: 'lab_questions', label: 'Interpretation questions', help: 'Start each with "### Stem", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" ("*= option" is correct) each followed by "Why: …", and "Explanation: …". (Lab/Imaging interpretation)' },
+      { key: 'lab_questions', label: 'Interpretation questions', help: 'Start each with "### Stem", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" ("*= option" is correct) each followed by "Why: …", and "Explanation: …". "Media:" takes an image URL only — the runner renders it as an image, so audio and video show a broken image. (Lab/Imaging interpretation)' },
       { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this item primarily teaches.' },
       { key: 'concept_ids', label: 'Concept IDs', help: 'Concepts the item also assesses, separated by |, ; or new lines.' },
       { key: 'contextual_concept_ids', label: 'Contextual concept IDs', help: 'Concepts the scenario needs but does not assess. These receive no mastery evidence.' },
@@ -344,7 +344,7 @@ function labelledValue(body: string, label: string): string {
 /** A stable ID derived from its own content, so re-import is idempotent. */
 function derivedId(prefix: string, ...parts: string[]): string {
   let hash = 2166136261
-  const seed = parts.join(' ')
+  const seed = parts.join('\u0000')
   for (let index = 0; index < seed.length; index++) hash = Math.imul(hash ^ seed.charCodeAt(index), 16777619)
   return `${prefix}-${(hash >>> 0).toString(36)}`
 }

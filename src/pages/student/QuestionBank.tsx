@@ -50,6 +50,8 @@ import { SubjectDot } from '@/components/ui/Subject'
 import { ConceptText } from '@/components/concepts/ConceptText'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { cn } from '@/lib/cn'
+import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
@@ -400,6 +402,7 @@ export function QuestionBank() {
   const t = useT()
   const location = useLocation()
   const questions = usePublishedQuestions()
+  const availability = useCatalogueAvailability(questions.length)
   const [params] = useSearchParams()
   const articleFilter = params.get('article')
   const [phase, setPhase] = useState<Phase>('setup')
@@ -737,6 +740,21 @@ export function QuestionBank() {
   }, [session, answers])
 
   /* ---- Setup --------------------------------------------------------- */
+  if (phase === 'setup' && availability.kind !== 'ready') {
+    return (
+      <PageContainer>
+        <PageHeader title={t('Question Bank')} />
+        <CatalogueUnavailable
+          availability={availability}
+          empty={{
+            title: t('No questions have been published yet'),
+            description: t('Questions appear here once they are published. Nothing is lost — your progress and saved sessions are kept.'),
+          }}
+        />
+      </PageContainer>
+    )
+  }
+
   if (phase === 'setup') {
     return (
       <PageContainer>

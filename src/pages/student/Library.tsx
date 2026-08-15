@@ -32,6 +32,7 @@ import type { ArticleMediaRecord } from '@/data/contentControl'
 import { useLiveLibrary, type LiveSubtopic } from '@/lib/useLiveLibrary'
 import { getSubject } from '@/data/subjects'
 import { Button } from '@/components/ui/Button'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { Icon } from '@/components/ui/Icon'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
@@ -850,7 +851,7 @@ function UserReader({
 
 export function Library() {
   const t = useT()
-  const { subtopics: allSubtopics } = useLiveLibrary()
+  const { subtopics: allSubtopics, availability } = useLiveLibrary()
   const [taxonomy] = useMedicalTaxonomy()
   const taxonomyIndex = useMemo(() => indexMedicalTaxonomy(taxonomy), [taxonomy])
   const [params, setParams] = useSearchParams()
@@ -1035,7 +1036,17 @@ export function Library() {
       </header>
 
       <div className="min-h-0 flex-1">
-        {view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} onOpenView={openView} onOpenArticle={openArticle} /> : (
+        {availability.kind !== 'ready' && !userArticles.length ? (
+          <CatalogueUnavailable
+            availability={availability}
+            empty={{
+              title: t('No articles have been published yet'),
+              description: role === 'admin'
+                ? t('Articles appear here once their status is Published. Drafts and items in review stay in Library Setup.')
+                : t('Your library is being written. Reviewed articles will appear here as they are published.'),
+            }}
+          />
+        ) : view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} onOpenView={openView} onOpenArticle={openArticle} /> : (
           <div className={cn('grid h-full min-h-0 max-lg:grid-cols-1', railOpen ? 'grid-cols-[18rem_minmax(0,1fr)]' : 'grid-cols-1')}>
             {railOpen && <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>}
             <main className="min-w-0 overflow-y-auto">

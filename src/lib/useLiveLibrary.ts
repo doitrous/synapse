@@ -7,6 +7,7 @@ import { API_MODE } from './api'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 import { overlaySubtopic, articleToSubtopic } from '@/data/articleProjection'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { catalogueAvailability } from './catalogueAvailability'
 
 export type LiveSubtopic = Subtopic & { topicId: string; topicTitle: string; subjectId: string }
 
@@ -17,9 +18,9 @@ export type LiveSubtopic = Subtopic & { topicId: string; topicTitle: string; sub
  * hidden. This is the single source the student Library reads.
  */
 export function useLiveLibrary() {
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
-  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [ledger, , ledgerStatus] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [evidence, , evidenceStatus] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+  const [graph, , graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
 
   return useMemo(() => {
     const articleItems = ledger.filter((i) => i.kind === 'article' && i.status !== 'Archived' && (!API_MODE || i.status === 'Published'))
@@ -88,6 +89,17 @@ export function useLiveLibrary() {
       return s?.updatedAt ? new Date(s.updatedAt) : null
     }
 
-    return { topics: orderedTopics, subtopics, updatedAtFor, subjects }
-  }, [evidence, graph, ledger])
+    /**
+     * Whether this is a library with nothing in it, one that has not arrived
+     * yet, or one that failed to load. In live mode all three look identical
+     * from `subtopics` alone — an empty array — so the caller cannot tell them
+     * apart without this.
+     */
+    const availability = catalogueAvailability({
+      statuses: [ledgerStatus, evidenceStatus, graphStatus],
+      itemCount: subtopics.length,
+    })
+
+    return { topics: orderedTopics, subtopics, updatedAtFor, subjects, availability }
+  }, [evidence, evidenceStatus, graph, graphStatus, ledger, ledgerStatus])
 }

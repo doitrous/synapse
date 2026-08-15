@@ -17,6 +17,8 @@ import {
 } from 'lucide-react'
 import type { Skill } from '@/data/practical'
 import { skills, oralQuestions } from '@/data/practical'
+import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { summariseSkills, type SkillStatus } from '@/data/practicalProgress'
 import type { Difficulty } from '@/data/qbank'
 import { useLivePracticals } from '@/lib/useLivePracticals'
@@ -127,10 +129,18 @@ function SystemSections<T extends { id: string; subjectId: string }>({
 
 function OsceTab({ onOpen }: { onOpen: Open }) {
   const { osceStations } = useLivePracticals()
+  const availability = useCatalogueAvailability(osceStations.length)
   const { progress } = usePracticalProgress()
 
-  if (!osceStations.length) {
-    return <Panel className="p-8"><EmptyState icon={Stethoscope} title="No stations published yet" description="OSCE stations and skills checklists appear here once they are published in Practical Setup." /></Panel>
+  if (availability.kind !== 'ready') {
+    return (
+      <Panel className="p-8">
+        <CatalogueUnavailable
+          availability={availability}
+          empty={{ title: 'No stations published yet', description: 'OSCE stations and skills checklists appear here once they are published in Practical Setup.' }}
+        />
+      </Panel>
+    )
   }
 
   return (
@@ -197,10 +207,18 @@ function caseStatus(status: string) {
 
 function CasesTab({ onOpen }: { onOpen: Open }) {
   const { clinicalCases } = useLivePracticals()
+  const availability = useCatalogueAvailability(clinicalCases.length)
   const { progress } = usePracticalProgress()
 
-  if (!clinicalCases.length) {
-    return <Panel className="p-8"><EmptyState icon={ArrowRight} title="No cases published yet" description="Clinical cases appear here once they are published in Practical Setup." /></Panel>
+  if (availability.kind !== 'ready') {
+    return (
+      <Panel className="p-8">
+        <CatalogueUnavailable
+          availability={availability}
+          empty={{ title: 'No cases published yet', description: 'Clinical cases appear here once they are published in Practical Setup.' }}
+        />
+      </Panel>
+    )
   }
 
   return (
@@ -355,10 +373,18 @@ function SkillsTab() {
 
 function LabTab({ onOpen }: { onOpen: Open }) {
   const { labImaging } = useLivePracticals()
+  const availability = useCatalogueAvailability(labImaging.length)
   const { progress } = usePracticalProgress()
 
-  if (!labImaging.length) {
-    return <Panel className="p-8"><EmptyState icon={FlaskConical} title="No lab or imaging sets yet" description="Interpretation sets appear here once they are published in Practical Setup." /></Panel>
+  if (availability.kind !== 'ready') {
+    return (
+      <Panel className="p-8">
+        <CatalogueUnavailable
+          availability={availability}
+          empty={{ title: 'No lab or imaging sets yet', description: 'Interpretation sets appear here once they are published in Practical Setup.' }}
+        />
+      </Panel>
+    )
   }
 
   return (

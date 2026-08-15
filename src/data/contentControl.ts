@@ -385,6 +385,14 @@ export interface LabQuestionDraft {
   id: string
   context: string
   question: string
+  /**
+   * An image for this question. **Images only** — the runner renders any
+   * non-empty value as an `<img>`, so an audio or video URL shows a student a
+   * broken image. The admin field once invited "or audio URL", which is the
+   * mistake this comment exists to stop being repeated: there is nowhere in any
+   * practical format to attach a recording, and a heart sound belongs on an MCQ,
+   * whose `attachments` accept `audio` and `video`.
+   */
   mediaUrl: string
   answers: PracticalAnswerDraft[]
   explanation: string
