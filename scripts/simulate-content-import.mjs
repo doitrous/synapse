@@ -114,14 +114,20 @@ for (const file of files) {
 }
 batches.sort((a, b) => ORDER[a.kind] - ORDER[b.kind])
 
-const upsert = (existing, incoming, merge) => {
+// `materialise` runs only on records that turn out to be new, exactly as the
+// admin wizard does it. Running it over every incoming row instead would fill
+// each unmentioned field with `null`, and `null` is not the `undefined` the
+// merge skips — so a partial update would arrive here having already overwritten
+// everything the author did not re-type, and the dry run would report data loss
+// the real import does not cause.
+const upsert = (existing, incoming, merge, materialise) => {
   const byId = new Map(existing.map((record) => [record.id, record]))
   let created = 0
   let updated = 0
   for (const record of incoming) {
     const current = byId.get(record.id)
     if (current) { byId.set(record.id, merge ? merge(current, record) : { ...current, ...record }); updated += 1 }
-    else { byId.set(record.id, record); created += 1 }
+    else { byId.set(record.id, materialise ? materialise(record) : record); created += 1 }
   }
   return { records: [...byId.values()], created, updated }
 }
@@ -212,7 +218,7 @@ for (const batch of batches) {
 
   if (batch.kind === 'concept') {
     const incoming = batch.rows.map((row) => conceptFromRow(row, resolvePlacement(row.subject?.trim() ?? '', row, CURRICULUM_CATALOG)))
-    const result = upsert(graph.concepts, incoming.map(materialiseNewConcept), (current, next) => mergeConcept(current, next))
+    const result = upsert(graph.concepts, incoming, (current, next) => mergeConcept(current, next), materialiseNewConcept)
     graph.concepts = result.records
     report.push({ file: batch.file, kind: batch.kind, ...result, records: undefined, created: result.created, updated: result.updated })
     continue
