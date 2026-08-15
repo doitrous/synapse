@@ -13,6 +13,7 @@
  */
 
 import type { ManagedContentItem } from './contentControl.ts'
+import { applyListDirective, isAppend } from './importSemantics.ts'
 
 type Dict = Record<string, unknown>
 
@@ -24,8 +25,13 @@ const isPlainObject = (value: unknown): value is Dict =>
  *
  * Nested plain objects merge key-by-key, so `fieldNotes` and `calloutEvidence`
  * accumulate rather than being replaced by whatever subset this row carried.
- * Arrays do not merge element-wise: the importer already resolved append versus
- * replace before this point, so an array that arrives here is final.
+ *
+ * Arrays are final by the time they arrive — with one exception. A `+` cell
+ * means "add to whatever is already there", which no row parser can resolve,
+ * because resolving it needs the record being updated and this is the first
+ * place that record is in hand. So an array still carrying its append intent is
+ * resolved here, against the existing value, by the same `applyListDirective`
+ * that defines what append means everywhere else.
  */
 export function mergeAuthoringData<T extends Dict | undefined>(existing: T, incoming: T): T {
   if (!incoming) return existing
@@ -34,6 +40,13 @@ export function mergeAuthoringData<T extends Dict | undefined>(existing: T, inco
   for (const [key, value] of Object.entries(incoming)) {
     if (value === undefined) continue
     const current = out[key]
+    if (isAppend(value)) {
+      // Anything other than a list to append onto — a null, a field that used to
+      // hold something else — starts from empty rather than throwing away the row.
+      const base = Array.isArray(current) ? current as unknown[] : []
+      out[key] = applyListDirective({ mode: 'append', items: value as unknown[] }, base)
+      continue
+    }
     out[key] = isPlainObject(value) && isPlainObject(current) ? { ...current, ...value } : value
   }
   return out as T

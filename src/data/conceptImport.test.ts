@@ -139,6 +139,33 @@ test('field notes accumulate rather than replace', () => {
   assert.equal(merged.fieldNotes?.pitfalls, 'none specific to this concept')
 })
 
+test('a leading + adds to a concept list rather than replacing it', () => {
+  const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  // The whole point of `+`: add one alias without having to re-type the two
+  // that are already there. Replacing them is silent data loss.
+  const merged = mergeConcept(existing, conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', aliases: '+Delta gap' }))
+  assert.deepEqual(merged.aliases, ['AG', 'Serum anion gap', 'Delta gap'])
+  // A list the row did not mention is still untouched.
+  assert.deepEqual(merged.articleIds, ['ART-REN-ACID-BASE'])
+})
+
+test('re-importing the same + row does not duplicate the entry', () => {
+  const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  const row = { label: 'Anion gap', id: 'med.concept.anion-gap', article_ids: '+ART-REN-DELTA' }
+  const once = mergeConcept(existing, conceptFromRow(row))
+  const twice = mergeConcept(once, conceptFromRow(row))
+  assert.deepEqual(once.articleIds, ['ART-REN-ACID-BASE', 'ART-REN-DELTA'])
+  assert.deepEqual(twice.articleIds, ['ART-REN-ACID-BASE', 'ART-REN-DELTA'])
+})
+
+test('a leading + appends to a numeric list too', () => {
+  const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  // `learnerYears` is parsed through a number conversion on the way out of the
+  // row, which is exactly the kind of step that used to drop the append intent.
+  const merged = mergeConcept(existing, conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', learner_years: '+4' }))
+  assert.deepEqual(merged.learnerYears, [2, 3, 4])
+})
+
 test('[clear] empties a concept list on purpose', () => {
   const existing = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
   const merged = mergeConcept(existing, conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', conflicts: '[clear]' }))

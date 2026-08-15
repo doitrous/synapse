@@ -9,7 +9,7 @@
 
 import type { Concept, ConceptGraph, ConceptRelation, ConceptRelationType, ConceptStatus } from './conceptGraph.ts'
 import { CONCEPT_RELATIONS } from './conceptGraph.ts'
-import { optionalList, importList } from './importSemantics.ts'
+import { optionalList, importList, mapList } from './importSemantics.ts'
 import type { CurriculumSystem } from './curriculumCatalog.ts'
 import { mergeAuthoringData } from './importMerge.ts'
 
@@ -167,7 +167,7 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
     approvedVideoResourceIds: optionalList(values.approved_video_resource_ids),
     primaryNodeId: text(values.primary_node_id),
     secondaryNodeIds: optionalList(values.secondary_node_ids),
-    learnerYears: optionalList(values.learner_years)?.map(Number).filter(Number.isFinite),
+    learnerYears: mapList(optionalList(values.learner_years), (years) => years.map(Number).filter(Number.isFinite)),
     universityIds: optionalList(values.universities),
     moduleIds: optionalList(values.modules),
     blueprintWeight: number01(values.blueprint_weight),

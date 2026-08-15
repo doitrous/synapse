@@ -6,7 +6,7 @@ import {
   parseDecisions, parseLabQuestions,
 } from './bulkImport.ts'
 import { mergeContentItem, materialiseNewItem } from './importMerge.ts'
-import { listDirective, applyListDirective, optionalList } from './importSemantics.ts'
+import { listDirective, applyListDirective, optionalList, isAppend } from './importSemantics.ts'
 import type { ManagedContentItem } from './contentControl.ts'
 
 /* ---- list semantics ---------------------------------------------------- */
@@ -30,6 +30,18 @@ test('a leading + appends and does not duplicate on re-import', () => {
 test('[clear] empties the list explicitly', () => {
   assert.deepEqual(applyListDirective(listDirective('[clear]'), ['a']), [])
   assert.deepEqual(optionalList('[clear]'), [])
+})
+
+test('a parsed list carries its append intent forward to the merge', () => {
+  // `optionalList` cannot resolve `+` on its own — it never sees the record
+  // being updated. It has to hand the intent on, or the merge replaces instead.
+  assert.equal(isAppend(optionalList('+c')), true)
+  assert.equal(isAppend(optionalList('c')), false)
+  assert.equal(isAppend(optionalList('[clear]')), false)
+  assert.equal(isAppend(optionalList('')), false)
+  // It is still an ordinary list to everything else, including persistence.
+  assert.deepEqual(optionalList('+c'), ['c'])
+  assert.equal(JSON.stringify({ list: optionalList('+c') }), '{"list":["c"]}')
 })
 
 /* ---- annotations ------------------------------------------------------- */
@@ -278,6 +290,24 @@ test('an explicit [clear] does empty a list on update', () => {
   assert.deepEqual(merged.articleData!.conflicts, [])
   // and nothing else moved
   assert.deepEqual(merged.articleData!.claimIds, ['claim-1'])
+})
+
+test('a leading + adds to a list an article already has', () => {
+  const existing = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  const patch = importRowToContent('article', { id: 'ART-TEST-FULL', title: 'T', subject: 'cvs', topic: 'C', summary: 'S', aliases: '+Venous thromboembolism' }, 'row-2')
+  const merged = mergeContentItem(existing, patch, false)
+  assert.deepEqual(merged.articleData!.aliases, ['PE', 'Pulmonary thromboembolism', 'Venous thromboembolism'])
+  // and nothing else moved
+  assert.deepEqual(merged.articleData!.claimIds, ['claim-1'])
+})
+
+test('re-importing the same + article row does not duplicate the entry', () => {
+  const existing = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  const row = { id: 'ART-TEST-FULL', title: 'T', subject: 'cvs', topic: 'C', summary: 'S', resource_ids: '+r-bts' }
+  const once = mergeContentItem(existing, importRowToContent('article', row, 'row-2'), false)
+  const twice = mergeContentItem(once, importRowToContent('article', row, 'row-3'), false)
+  assert.deepEqual(once.articleData!.resourceIds, ['r-ng158', 'r-bts'])
+  assert.deepEqual(twice.articleData!.resourceIds, ['r-ng158', 'r-bts'])
 })
 
 test('nested objects accumulate rather than replace on update', () => {
