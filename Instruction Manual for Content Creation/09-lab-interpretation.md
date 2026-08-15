@@ -89,8 +89,8 @@ Produce ONLY practical records with type "Lab interpretation" and lab_subtype "L
 the importer markdown format defined in that manual, with no commentary before or after.
 
 Non-negotiable:
-- The micro-syntax is parsed literally. Each question starts "### Stem", then optionally
-  "Concept:", "Also:", "Difficulty:", "Media:", then the values as prose, then
+- The micro-syntax is parsed literally. Each question starts "### Stem", then "Concept:" and
+  "Difficulty:" (both REQUIRED by the validator), optionally "Also:" and "Media:", then the values as prose, then
   "Q: question", options as "* option" with the correct one as "*= option", each followed
   by "Why: …", then "Explanation: …".
 - EVERY question needs exactly one "*=" line.
@@ -188,6 +188,34 @@ went silently untagged.
   act on it.
 
 ---
+
+---
+
+## What `medical:batch` enforces
+
+The importer is permissive; the batch validator is not. Every practical format must
+satisfy these, and two of them are stricter than the importer's own help text:
+
+| Rule | Error you get |
+|---|---|
+| `status` is `Draft` | `status is Published — assessment content lands as Draft` |
+| `main_concept` names at least one concept | `no main_concept — name what this item teaches` |
+| every concept ID exists in live state | `X is not a concept that exists` |
+| no concept is both assessed and contextual | `X is both assessed and contextual` |
+| `learning_objective` is non-empty | `no learning objective` |
+| every media request carries `Purpose:` | `media request "…" has no Purpose` |
+
+**Per block, and this is the part the importer does not require but the validator
+does:** every `###` block needs its own `Concept:` line and its own `Difficulty:`
+line. The importer treats both as optional — the validator does not.
+
+| Rule | Error you get |
+|---|---|
+| each block has `Concept:` | `no "Concept:" line — name the one concept it teaches` |
+| that concept exists | `concept X is not a concept that exists` |
+| each `Also:` concept exists | `also-assessed concept X is not a concept that exists` |
+| each block has `Difficulty:` | `no "Difficulty:" line` |
+| each block has its closing line | `no `Explanation:` line` |
 
 ## Media
 

@@ -151,6 +151,26 @@ the procedure, then completion.
 
 ---
 
+---
+
+## What `medical:batch` enforces
+
+The importer is permissive; the batch validator is not. Every practical format must
+satisfy these, and two of them are stricter than the importer's own help text:
+
+| Rule | Error you get |
+|---|---|
+| `status` is `Draft` | `status is Published — assessment content lands as Draft` |
+| `main_concept` names at least one concept | `no main_concept — name what this item teaches` |
+| every concept ID exists in live state | `X is not a concept that exists` |
+| no concept is both assessed and contextual | `X is both assessed and contextual` |
+| `learning_objective` is non-empty | `no learning objective` |
+| every media request carries `Purpose:` | `media request "…" has no Purpose` |
+
+**Mark scheme:** an item that parses to an empty scoring point is an error —
+`an empty mark-scheme item in "Section title"`. A line with a section and marks but
+no behaviour after the colon produces one.
+
 ## Media
 
 > **This format has no field for real media.** `OsceAuthoringData` — which backs both OSCE

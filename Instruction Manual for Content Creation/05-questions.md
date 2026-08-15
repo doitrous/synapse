@@ -95,8 +95,8 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 | `question` | Question | **yes** | The main question, kept separate from its context. |
 | `vignette` | Question context / vignette | no | Clinical or academic context shown **before** the question. Keep the scenario here and the actual ask in `question`. |
 | `correct_answer` | Correct answer | **yes** | A single letter, `A`–`F`. |
-| `answer_a` … `answer_f` | Answer A–F | ≥2 | Option text. A–B are required slots; C–F optional. Blank ones are omitted. |
-| `explanation_a` … `explanation_f` | Explanation A–F | **write all of them** | Why that option is correct or incorrect. |
+| `answer_a` … `answer_f` | Answer A–F | **4 or 5** | Option text. The importer accepts 2; `medical:batch` rejects anything outside **4–5**, so write 4 or 5. |
+| `explanation_a` … `explanation_f` | Explanation A–F | **yes, every filled option** | Why that option is correct or incorrect. A filled option with no explanation is an error. |
 | `attached_image` | Attached image | no | A single image URL shown with the stem. **Only a real URL.** If you need one, file a media request. |
 | `attachments` | Attachments | no | `### image\|audio\|video · URL` blocks, then `Name:` and optionally `Mime:`. Real assets only. |
 | `id` | Canonical ID | no | Supply to update an existing question. |
@@ -122,7 +122,7 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 
 | Key | Label | Values | Default |
 |---|---|---|---|
-| `main_concept` | Main concept(s) | Concept IDs. **At least one is expected.** | — |
+| `main_concept` | Main concept(s) | **Exactly one concept ID.** Zero or two is an error — *"a question tests exactly one"*. | — |
 | `concept_ids` | Concept IDs | Also-assessed concepts | `[]` |
 | `contextual_concept_ids` | Contextual concept IDs | Needed by the scenario, never assessed | `[]` |
 | `topic` | Topic | Canonical topic or blueprint heading | `''` |
@@ -152,16 +152,42 @@ student gets right, `Challenging` needs several steps held at once.
 
 | Key | Rule |
 |---|---|
-| `library_ids` | Related article IDs. **The article that teaches the tested concept belongs here.** |
+| `library_ids` | **Required.** The article teaching the tested concept. Empty is an error — *"nothing teaches this question's answer"* — and the `main_concept` must be listed in one of these articles' `related_concepts`. |
 | `resource_ids` | Canonical resource IDs. |
-| `learning_objective` | What a correct response demonstrates. Held back from the student until the answer is revealed. |
-| `source_citation` | Guideline, book, paper, or source URL. |
+| `learning_objective` | **Required.** What a correct response demonstrates. Held back until the answer is revealed. |
+| `source_citation` | **Required.** Guideline, book, paper, or source URL. This is where a textbook or past paper is named. |
 | `author_notes` | Internal. Never shown to a student. |
 | `estimated_seconds` | How long it should take. Defaults 90, clamped 5–3600. |
 | `randomise_answers` | `yes` / `no`. Defaults `yes`. |
 | `media_recommendations` | Assets this question still needs. See below. |
 
 ---
+
+---
+
+## What `medical:batch` enforces
+
+The importer is permissive; the batch validator is not. These are hard errors, and
+several are stricter than the field table's own defaults suggest:
+
+| Rule | Error you get |
+|---|---|
+| 4 or 5 filled options | `N options — the contract is 4 to 5` |
+| every filled option has an explanation | `option X has no explanation` |
+| the correct letter is one of the filled options | `correct answer X is not one of the filled options` |
+| **exactly one** `main_concept` | `N main concepts — a question tests exactly one` |
+| every concept ID exists in live state | `main_concept X is not a concept that exists` |
+| no concept is both assessed and contextual | `X is both assessed and contextual` |
+| `library_ids` is non-empty | `no library_ids — nothing teaches this question's answer` |
+| the main concept is covered by one of those articles | `main concept X is not covered by any article in library_ids` |
+| `status` is `Draft` | `status is Published — assessment content lands as Draft` |
+| `learning_objective` is non-empty | `no learning objective` |
+| `source_citation` is non-empty | `no source citation` |
+| `difficulty` is one of the four bands | `difficulty "Medium" is not one of Easy, Moderate, Hard, Challenging` |
+
+There is also a note, not an error, when the concept you are testing has not passed
+the evidence gate: *"main concept X has not passed the evidence gate — promote the
+concept and the question together"*. That is a sequencing reminder, not a defect.
 
 ## Media
 
