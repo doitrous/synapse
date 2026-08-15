@@ -74,6 +74,17 @@ src/
   pages/                 Landing, student/Dashboard, Placeholder, NotFound
 ```
 
+## Authoring content
+
+Subjects, concepts, relationships, articles, questions, practicals and glossary terms are
+written as importer-format batches and applied by hand through the admin import pages. The
+rules for every content type live in
+**[Instruction Manual for Content Creation/](Instruction%20Manual%20for%20Content%20Creation/00-START-HERE.md)**
+— start with `00-START-HERE.md`, then read the one manual for what you are writing.
+
+Finished batches wait in [`docs/import-ready/`](docs/import-ready/INDEX.md), one folder per
+import page. Nothing there has been imported.
+
 ## Design
 
 See **[DESIGN.md](DESIGN.md)** for the visual system and **[PRODUCT.md](PRODUCT.md)**

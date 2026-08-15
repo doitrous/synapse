@@ -50,7 +50,7 @@ SYS-CVS-T07-S01-M01
 ## secondary_node_ids
 SYS-POP
 ## related_concepts
-med.concept.hypertension-defined-by-risk | med.concept.primary-hypertension-multifactorial | med.concept.hypertension-is-silent | med.concept.out-of-office-measurement | med.concept.target-organ-damage
+CON-CVS-7A36E91351075C | CON-CVS-CEBA1FECCF5429 | CON-CVS-0FAC19768C558B | CON-CVS-3B0DED3DFCD507 | CON-CVS-7E84CDBE098639
 ## summary
 A disease with no symptoms, no single cause and no natural threshold — diagnosed by measuring people who feel well, and treated because of what it does over decades rather than how it feels today.
 ## sections
@@ -114,6 +114,8 @@ Out-of-office measurement is part of making the diagnosis, because clinic readin
 Committing a patient to lifelong treatment on clinic readings alone.
 Accepting a normal clinic reading in a high-risk patient without considering masked hypertension.
 Treating the number and ignoring lipids, glycaemia and smoking, which carry much of the same risk.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -187,7 +189,7 @@ SYS-CVS-T07-S01-M02
 ## secondary_node_ids
 SYS-END
 ## related_concepts
-med.concept.when-to-suspect-secondary-hypertension | med.concept.renovascular-hypertension | med.concept.primary-aldosteronism-underdiagnosed
+CON-CVS-1190F4A5A06877 | CON-CVS-455CBC7E16DC27 | CON-CVS-753EA8558A21C8
 ## summary
 A minority of hypertension has a findable cause, and some of those causes are curable. The skill is knowing which patients to investigate — screening everyone wastes resources, screening no one misses the operable ones.
 ### Definition
@@ -258,6 +260,8 @@ Confirm adherence and measurement accuracy before calling hypertension resistant
 Waiting for hypokalaemia before testing for primary aldosteronism.
 Screening every hypertensive patient for secondary causes, or screening none.
 Operating on a phaeochromocytoma without the preparation sequence specified in the current guideline.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -331,7 +335,7 @@ SYS-CVS-T07-S01-M03
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.emergency-defined-by-organ-damage | med.concept.autoregulation-shift-gradual-reduction
+CON-CVS-D839EC01D179EC | CON-CVS-1F0F01DEE7A38E
 ## summary
 Defined by the organ damage, not by the number — and the commonest error is treating the number. Lowering pressure too fast in a chronically hypertensive patient causes the ischaemia it was meant to prevent.
 ## sections
@@ -392,6 +396,8 @@ Aortic dissection is the exception requiring rapid reduction, and the target age
 Giving rapid intravenous reduction to a patient with a very high reading and no acute organ damage.
 Aiming for a normal blood pressure in a hypertensive emergency.
 Omitting fundoscopy, which is a direct view of the microvasculature.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -472,7 +478,7 @@ SYS-CVS-T07-S02-M01
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.laplace-aneurysm-expansion | med.concept.aneurysm-silent-until-rupture
+CON-CVS-ACD611E9A47BE5 | CON-CVS-BFCBEA1E881740
 ## summary
 A dilatation that widens itself, silently, until it leaks. The physics is the whole disease: wall stress rises with radius, so the bigger it gets the faster it grows.
 ## sections
@@ -538,6 +544,8 @@ The triad of pain, hypotension and pulsatile mass is often incomplete; consider 
 Misdiagnosing rupture as renal colic or musculoskeletal back pain.
 Delaying theatre for imaging in an unstable patient with a known aneurysm.
 Managing an aneurysm without addressing smoking, which is the strongest modifiable factor for both formation and expansion.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -611,7 +619,7 @@ SYS-CVS-T07-S02-M02
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.dissection-intimal-tear | med.concept.dissection-classification-decides-treatment
+CON-CVS-139A58506B8D41 | CON-CVS-1307261022DB81
 ## summary
 The great imitator of the chest. It can present as stroke, infarction, limb ischaemia or abdominal pain — and one anatomical question, whether the ascending aorta is involved, decides everything that happens next.
 ## sections
@@ -683,6 +691,8 @@ Type A dissection is a surgical emergency; type B is managed medically unless co
 Giving thrombolysis or antiplatelet therapy for an apparent infarct or stroke that is actually a dissection.
 Excluding dissection on a normal chest radiograph or an absent pulse deficit.
 Treating chest pain with a neurological deficit as two separate problems.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -756,7 +766,7 @@ SYS-CVS-T07-S02-M03
 ## secondary_node_ids
 SYS-END
 ## related_concepts
-med.concept.claudication-is-exertional-ischaemia | med.concept.abpi-falsely-high-in-calcification
+CON-CVS-1C4FEC6C43C975 | CON-CVS-A2F98097AF8EA7
 ## summary
 Angina of the leg, and a marker that the same disease is in the coronary and cerebral arteries. Most patients with claudication die of a heart attack, not of the leg — which is what makes it a systemic diagnosis.
 ## sections
@@ -828,6 +838,8 @@ Most patients with peripheral arterial disease die of coronary or cerebrovascula
 Excluding peripheral arterial disease on a normal ankle–brachial index in a diabetic patient with symptoms or an ulcer.
 Treating the leg and neglecting the cardiovascular risk that will actually kill the patient.
 Overlooking supervised exercise therapy because walking appears to be what causes the pain.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -908,7 +920,7 @@ SYS-CVS-T07-S02-M04
 ## secondary_node_ids
 SYS-HEM
 ## related_concepts
-med.concept.virchow-triad | med.concept.d-dimer-rules-out
+CON-CVS-1DBCD5D81337B5 | CON-CVS-7B633BCF024C73
 ## summary
 Three mechanisms generate every risk factor, and one test is only useful when you have already decided how likely the diagnosis is. Getting the order right is most of the skill.
 ## sections
@@ -980,6 +992,8 @@ Most hospital-acquired venous thromboembolism is preventable by systematic risk 
 Sending a D-dimer as a screening test before assessing probability.
 Excluding thrombosis on a negative D-dimer in a high-probability patient.
 Treating unilateral leg swelling as cellulitis without considering thrombosis.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -1053,7 +1067,7 @@ SYS-CVS-T07-S02-M05
 ## secondary_node_ids
 SYS-DER
 ## related_concepts
-med.concept.ambulatory-venous-hypertension
+CON-CVS-C0C6010B529BF8
 ## summary
 Valves that no longer point the flow upwards, so walking stops lowering venous pressure. Everything visible on the leg follows from that one sustained pressure — and compression is the treatment, unless the arteries cannot take it.
 ## sections
@@ -1119,6 +1133,8 @@ Assess the arterial supply before applying compression.
 Applying compression to a limb with unrecognised arterial disease.
 Stopping compression once an ulcer has healed, when recurrence is largely preventable by continuing it.
 Attributing a leg ulcer to venous disease without considering diabetes, vasculitis or malignancy where healing fails.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.

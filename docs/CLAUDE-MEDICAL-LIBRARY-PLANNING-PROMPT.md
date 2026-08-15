@@ -102,13 +102,14 @@ one.
 
 At minimum read and reconcile:
 
-- `docs/authoring/README.md`
-- `docs/authoring/subjects-and-topics.md`
-- `docs/authoring/library-article.md`
-- `docs/authoring/library-article-archetypes.md`
-- `docs/authoring/concept.md`
-- `docs/authoring/question.md`
-- `docs/authoring/practical.md`
+- `Instruction Manual for Content Creation/00-START-HERE.md`
+- `Instruction Manual for Content Creation/01-subjects-and-topics.md`
+- `Instruction Manual for Content Creation/02-concepts.md`
+- `Instruction Manual for Content Creation/03-relationships.md`
+- `Instruction Manual for Content Creation/04-library-articles.md`
+- `Instruction Manual for Content Creation/05-questions.md`
+- `Instruction Manual for Content Creation/06-osce-stations.md` … `10-imaging-interpretation.md`
+- `Instruction Manual for Content Creation/11-glossary-terms.md`
 - `docs/medical-library-taxonomy-review.md`
 - `docs/cardiovascular-pilot-field-audit.md`
 - `src/data/contentControl.ts`

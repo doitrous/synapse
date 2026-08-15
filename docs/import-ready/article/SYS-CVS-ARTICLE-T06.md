@@ -50,7 +50,7 @@ SYS-CVS-T06-S01-M01
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.stenosis-pressure-regurgitation-volume | med.concept.aortic-stenosis-symptom-threshold | med.concept.fixed-obstruction-exertional-failure | med.concept.acute-versus-chronic-regurgitation | med.concept.aortic-regurgitation-wide-pulse-pressure
+CON-CVS-05207022423B56 | CON-CVS-C143FB905EFB4C | CON-CVS-0E7757A0BE93A4 | CON-CVS-0B38FB058B8A4D | CON-CVS-F5D5599EDFC9BC
 ## summary
 Two lesions of one valve that load the ventricle in opposite ways. In stenosis the moment symptoms appear is the moment the prognosis changes — which makes the history more important than the gradient.
 ## sections
@@ -114,6 +114,8 @@ Angina occurs in aortic stenosis with normal coronary arteries.
 Managing symptomatic severe aortic stenosis medically instead of referring for intervention.
 Expecting the chronic signs in acute regurgitation, and being reassured by an unimpressive murmur.
 Giving a vasodilator freely in severe aortic stenosis, where output cannot rise to compensate.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -194,7 +196,7 @@ SYS-CVS-T06-S01-M02
 ## secondary_node_ids
 SYS-INF
 ## related_concepts
-med.concept.rheumatic-mitral-stenosis | med.concept.mitral-stenosis-atrial-consequences | med.concept.primary-versus-secondary-mitral-regurgitation | med.concept.regurgitation-flatters-ejection-fraction
+CON-CVS-75BE1A604789F8 | CON-CVS-402CAE35A0B61D | CON-CVS-12EC0D049FEF8F | CON-CVS-2D0ED2220BECB4
 ## summary
 The valve where local epidemiology matters most. Almost all mitral stenosis is rheumatic, it presents decades after a childhood sore throat, and every complication follows from one raised chamber pressure.
 ## sections
@@ -262,6 +264,8 @@ A normal-looking ejection fraction in significant mitral regurgitation is flatte
 Omitting mitral stenosis from the differential in a young adult with breathlessness or atrial fibrillation.
 Treating the tachycardia of mitral stenosis as incidental — shortened diastole is what precipitates the decompensation.
 Neglecting secondary prophylaxis against recurrent rheumatic fever.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -342,7 +346,7 @@ SYS-CVS-T06-S01-M03
 ## secondary_node_ids
 SYS-CVS-T04-S01-M04
 ## related_concepts
-med.concept.functional-tricuspid-regurgitation | med.concept.right-sided-murmurs-inspiration
+CON-CVS-89D2E3C2454268 | CON-CVS-C3C0B5FCDEC9F1
 ## summary
 Usually not a valve problem at all. The leaflets are normal and the annulus they hang from has been stretched by a right ventricle in trouble — so the question is what put it there.
 ## sections
@@ -400,6 +404,8 @@ A pulsatile liver and a large systolic venous wave follow from the absence of va
 Investigating the tricuspid valve without asking what dilated the right ventricle.
 Missing right-sided endocarditis in a patient with intravenous drug use or an indwelling device.
 Over-diuresing a preload-dependent right ventricle.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -473,7 +479,7 @@ SYS-CVS-T06-S01-M04
 ## secondary_node_ids
 SYS-CVS-T08-S01-M04
 ## related_concepts
-med.concept.pulmonary-valve-disease-congenital
+CON-CVS-B0648189463ED3
 ## summary
 The valve that breaks the pattern. Rheumatic and degenerative disease largely spare it, so a murmur here asks a different question — what happened in childhood.
 ## sections
@@ -529,6 +535,8 @@ Right-sided murmurs increase on inspiration.
 Searching for a rheumatic or degenerative cause of a pulmonary murmur in an adult.
 Waiting for symptoms before considering pulmonary valve replacement after congenital repair.
 Attempting balloon valvuloplasty without establishing the level of obstruction.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -594,7 +602,7 @@ SYS-CVS-T06-S02-M01
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.pericarditis-widespread-ecg
+CON-CVS-F1188F77F384FF
 ## summary
 Chest pain with ST elevation that belongs to no coronary territory. The pericardium surrounds everything, so its inflammation shows up everywhere — which is exactly how it is told apart from an infarct.
 ## sections
@@ -660,6 +668,8 @@ Tuberculosis is a major cause where it is endemic, and it carries a much higher 
 Reading any ST elevation as infarction without examining its distribution.
 Excluding pericarditis because no rub was heard; the rub is evanescent.
 Following a Western aetiological differential in a patient with a subacute course and a large effusion.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -740,7 +750,7 @@ SYS-CVS-T06-S02-M02
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.effusion-rate-over-volume
+CON-CVS-11B274665378CB
 ## summary
 How fast it arrived matters more than how much there is. A litre over months may be silent; two hundred millilitres in an hour can kill.
 ## sections
@@ -806,6 +816,8 @@ Tamponade is a physiological state assessed clinically, not a size on a report.
 Judging danger from the reported size of the effusion.
 Omitting hypothyroidism from the differential of a large silent effusion.
 Delaying drainage in a compromised patient in order to complete investigation.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -879,7 +891,7 @@ SYS-CVS-T06-S02-M03
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.tamponade-is-clinical | med.concept.pulsus-paradoxus
+CON-CVS-ABE9CE4B64FEF8 | CON-CVS-30018CA741B7DA
 ## summary
 The heart cannot fill because the sac around it is full. It is diagnosed at the bedside and treated by removing the fluid — and the echocardiogram is confirmation, not permission.
 ## sections
@@ -939,6 +951,8 @@ Filling depends on venous pressure exceeding pericardial pressure, so anything r
 Giving a diuretic or vasodilator to a hypotensive patient with tamponade.
 Waiting for an echocardiogram before acting in a patient who is collapsing.
 Excluding tamponade because the heart is not enlarged on the chest radiograph.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -1012,7 +1026,7 @@ SYS-CVS-T06-S02-M04
 ## secondary_node_ids
 SYS-INF
 ## related_concepts
-med.concept.ventricular-interdependence-constriction | med.concept.tuberculous-pericarditis
+CON-CVS-268E5C530580B6 | CON-CVS-E1FE73100F1688
 ## summary
 Right heart failure in a patient whose heart muscle is fine. It is missed for years, mistaken for liver disease — and unlike almost everything else in this chapter, an operation can cure it.
 ## sections
@@ -1080,6 +1094,8 @@ Ascites out of proportion to oedema, with hepatomegaly and abnormal liver tests,
 Missing the diagnosis in a patient being worked up for liver disease.
 Excluding constriction because the pericardium is not thickened on CT.
 Referring late, when cachexia and hepatic dysfunction have already worsened the surgical outcome.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.

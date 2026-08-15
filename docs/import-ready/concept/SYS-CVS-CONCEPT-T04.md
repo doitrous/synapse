@@ -2,7 +2,7 @@
 ## label
 Heart failure is a clinical syndrome, not a diagnosis in itself
 ## id
-med.concept.heart-failure-is-a-syndrome
+CON-CVS-F128F608F5BA68
 ## canonical_key
 heart-failure-is-a-syndrome
 ## aliases
@@ -53,17 +53,32 @@ SYS-CVS-T04-S01-M01
 DIS-MED
 ## article_ids
 ART-CVS-HFREF
+## blueprint_weight
+0.88
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Ejection fraction classifies heart failure; it does not define it
 ## id
-med.concept.ejection-fraction-classifies-not-defines
+CON-CVS-60414C8D9FDCFD
 ## canonical_key
 ejection-fraction-classifies-not-defines
 ## aliases
@@ -114,17 +129,32 @@ SYS-CVS-T04-S01-M01
 SYS-CVS-T04-S01-M02
 ## article_ids
 ART-CVS-HFREF | ART-CVS-HFPEF
+## blueprint_weight
+0.93
+## clinical_relevance
+0.75
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A ventricle that cannot contract dilates; one that cannot relax thickens
 ## id
-med.concept.eccentric-versus-concentric-remodelling
+CON-CVS-C432B742ED1DAE
 ## canonical_key
 eccentric-versus-concentric-remodelling
 ## aliases
@@ -175,17 +205,32 @@ SYS-CVS-T04-S01-M01
 DIS-PAT
 ## article_ids
 ART-CVS-HFREF | ART-CVS-HFPEF
+## blueprint_weight
+0.85
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Neurohormonal activation rescues output in the short term and destroys the heart in the long term
 ## id
-med.concept.neurohormonal-activation-in-heart-failure
+CON-CVS-A08556F9435CB4
 ## canonical_key
 neurohormonal-activation-in-heart-failure
 ## aliases
@@ -236,17 +281,32 @@ SYS-CVS-T04-S01-M01
 DIS-PHA
 ## article_ids
 ART-CVS-HFREF
+## blueprint_weight
+0.95
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. Drug classes are named as classes only; agents and doses belong to DIS-PHA.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Natriuretic peptides rise with wall stress and are most useful for ruling heart failure out
 ## id
-med.concept.natriuretic-peptides-rule-out
+CON-CVS-158CE5FC3C00D1
 ## canonical_key
 natriuretic-peptides-rule-out
 ## aliases
@@ -297,17 +357,32 @@ SYS-CVS-T04-S01-M01
 SYS-CVS-T09-S01-M03
 ## article_ids
 ART-CVS-HFREF | ART-CVS-HFPEF
+## blueprint_weight
+0.9
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No cut-off value is stated; thresholds are assay- and guideline-specific.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 In heart failure with preserved ejection fraction the problem is filling, not emptying
 ## id
-med.concept.hfpef-is-a-filling-problem
+CON-CVS-B4176527CD22F2
 ## canonical_key
 hfpef-is-a-filling-problem
 ## aliases
@@ -358,17 +433,32 @@ SYS-CVS-T04-S01-M02
 DIS-MED
 ## article_ids
 ART-CVS-HFPEF
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A stiff ventricle depends on atrial contraction and on time to fill
 ## id
-med.concept.stiff-ventricle-depends-on-atrial-kick-and-diastolic-time
+CON-CVS-5D3DD9D51A4664
 ## canonical_key
 stiff-ventricle-depends-on-atrial-kick-and-diastolic-time
 ## aliases
@@ -419,17 +509,32 @@ SYS-CVS-T04-S01-M02
 SYS-CVS-T05-S02-M01
 ## article_ids
 ART-CVS-HFPEF
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Acute heart failure is classified by congestion and perfusion, not by ejection fraction
 ## id
-med.concept.wet-dry-warm-cold
+CON-CVS-36C0FD0F3D948D
 ## canonical_key
 wet-dry-warm-cold
 ## aliases
@@ -480,17 +585,32 @@ SYS-CVS-T04-S01-M03
 KNW-EMG
 ## article_ids
 ART-CVS-ACUTE-HEART-FAILURE
+## blueprint_weight
+0.93
+## clinical_relevance
+0.75
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Acute pulmonary oedema is often redistribution rather than accumulation of fluid
 ## id
-med.concept.redistribution-pulmonary-oedema
+CON-CVS-BB3B2F423519C6
 ## canonical_key
 redistribution-pulmonary-oedema
 ## aliases
@@ -541,17 +661,32 @@ SYS-CVS-T04-S01-M03
 KNW-EMG
 ## article_ids
 ART-CVS-ACUTE-HEART-FAILURE
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No drug, dose or ventilation setting is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 The commonest cause of right heart failure is left heart failure
 ## id
-med.concept.left-failure-causes-right-failure
+CON-CVS-BD1C5CAA5FCE5E
 ## canonical_key
 left-failure-causes-right-failure
 ## aliases
@@ -602,17 +737,32 @@ SYS-CVS-T04-S01-M04
 DIS-MED
 ## article_ids
 ART-CVS-RIGHT-HEART-FAILURE
+## blueprint_weight
+0.87
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Cor pulmonale is right heart failure caused by disease of the lungs or pulmonary vessels
 ## id
-med.concept.cor-pulmonale
+CON-CVS-02C7499DE32A4F
 ## canonical_key
 cor-pulmonale
 ## aliases
@@ -663,17 +813,32 @@ SYS-CVS-T04-S01-M04
 SYS-RES
 ## article_ids
 ART-CVS-RIGHT-HEART-FAILURE
+## blueprint_weight
+0.85
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Dilated cardiomyopathy is dilatation with systolic impairment unexplained by loading or coronary disease
 ## id
-med.concept.dilated-cardiomyopathy-definition
+CON-CVS-C531A645354244
 ## canonical_key
 dilated-cardiomyopathy-definition
 ## aliases
@@ -724,17 +889,32 @@ SYS-CVS-T04-S02-M01
 DIS-MED
 ## article_ids
 ART-CVS-DILATED-CARDIOMYOPATHY
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+ART-CVS-HFREF | ART-CVS-MYOCARDITIS | ART-CVS-MITRAL-VALVE-DISEASE
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Hypertrophic cardiomyopathy is a sarcomere disease with asymmetric hypertrophy
 ## id
-med.concept.hypertrophic-cardiomyopathy-definition
+CON-CVS-D65416DBAEAA0E
 ## canonical_key
 hypertrophic-cardiomyopathy-definition
 ## aliases
@@ -785,17 +965,32 @@ SYS-CVS-T04-S02-M02
 DIS-PAT
 ## article_ids
 ART-CVS-HYPERTROPHIC-CARDIOMYOPATHY
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+ART-CVS-PALPITATIONS | ART-CVS-SYNCOPE | ART-CVS-STABLE-ANGINA | ART-CVS-HFPEF | ART-CVS-VENTRICULAR-FIBRILLATION | ART-CVS-INFECTIVE-ENDOCARDITIS
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 The murmur of dynamic outflow obstruction behaves opposite to that of aortic stenosis
 ## id
-med.concept.dynamic-obstruction-manoeuvres
+CON-CVS-3E5ED855F22FC8
 ## canonical_key
 dynamic-obstruction-manoeuvres
 ## aliases
@@ -846,17 +1041,32 @@ SYS-CVS-T04-S02-M02
 SKL-EXM
 ## article_ids
 ART-CVS-HYPERTROPHIC-CARDIOMYOPATHY
+## blueprint_weight
+0.9
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Hypertrophic cardiomyopathy is a leading cause of sudden cardiac death in the young
 ## id
-med.concept.hcm-sudden-death
+CON-CVS-9953F14A7D2BC8
 ## canonical_key
 hcm-sudden-death
 ## aliases
@@ -907,17 +1117,32 @@ SYS-CVS-T04-S02-M02
 SYS-CVS-T05-S02-M04
 ## article_ids
 ART-CVS-HYPERTROPHIC-CARDIOMYOPATHY
+## blueprint_weight
+0.93
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No risk score or device threshold is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Restrictive cardiomyopathy impairs filling without dilating the ventricle
 ## id
-med.concept.restrictive-cardiomyopathy-definition
+CON-CVS-4A41D59159ED61
 ## canonical_key
 restrictive-cardiomyopathy-definition
 ## aliases
@@ -968,17 +1193,32 @@ SYS-CVS-T04-S02-M03
 DIS-MED
 ## article_ids
 ART-CVS-RESTRICTIVE-CARDIOMYOPATHY
+## blueprint_weight
+0.85
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+ART-CVS-CONSTRICTIVE-PERICARDITIS
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Restriction is a muscle problem and constriction is a sac problem
 ## id
-med.concept.restriction-versus-constriction
+CON-CVS-AF4489EBD5E71C
 ## canonical_key
 restriction-versus-constriction
 ## aliases
@@ -1029,17 +1269,32 @@ SYS-CVS-T04-S02-M03
 SYS-CVS-T06-S02-M04
 ## article_ids
 ART-CVS-RESTRICTIVE-CARDIOMYOPATHY
+## blueprint_weight
+0.88
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Myocarditis can mimic an acute coronary syndrome
 ## id
-med.concept.myocarditis-mimics-acs
+CON-CVS-0E33A402615A08
 ## canonical_key
 myocarditis-mimics-acs
 ## aliases
@@ -1090,6 +1345,22 @@ SYS-CVS-T04-S02-M04
 SYS-INF
 ## article_ids
 ART-CVS-MYOCARDITIS
+## blueprint_weight
+0.88
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.

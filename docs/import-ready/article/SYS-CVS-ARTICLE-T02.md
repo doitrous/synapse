@@ -50,7 +50,7 @@ SYS-CVS-T02-S01-M01
 ## secondary_node_ids
 DIS-MED | KNW-EMG
 ## related_concepts
-med.concept.cardiac-chest-pain-origin | med.concept.referred-cardiac-pain | med.concept.chest-pain-triage-priority
+CON-CVS-96833CEE2EBBF2 | CON-CVS-06EC3418535C8F | CON-CVS-EA365E43773219
 ## summary
 Most chest pain is not dangerous. The work is not deciding what it probably is — it is deciding, quickly, whether it is one of the handful of things that kills within hours.
 ## sections
@@ -108,6 +108,8 @@ The chest pain differential is ordered by lethality, not by prevalence.
 Excluding a cardiac cause because the chest wall is tender. Tenderness makes it less likely and does not rule it out.
 Accepting a single early troponin as a negative result. The serial change is the test.
 Forgetting that epigastric pain can be a myocardial infarction, which is why it is so often first treated as indigestion.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media has been sourced; the visuals this article needs are recorded as media requests rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows; the reciprocal link is written then rather than guessed now.
@@ -185,7 +187,7 @@ SYS-CVS-T02-S01-M02
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.palpitation-definition | med.concept.palpitation-symptom-rhythm-correlation
+CON-CVS-97FE48E2D8B55E | CON-CVS-A79213496B4D05
 ## summary
 The symptom says the patient can feel their heart. It does not say the rhythm is abnormal, and the whole difficulty is that the evidence disappears before anyone can record it.
 ## sections
@@ -240,6 +242,8 @@ Palpitations with syncope, or on exertion, or with a family history of sudden de
 ## lose_the_mark
 Reassuring a patient because the resting ECG between episodes was normal. It is uninformative, not negative.
 Forgetting to ask about family history of sudden death, which is the question that changes the workup most.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -311,7 +315,7 @@ SYS-CVS-T02-S02-M01
 ## secondary_node_ids
 DIS-MED | KNW-EMG
 ## related_concepts
-med.concept.syncope-definition | med.concept.cardiac-versus-reflex-syncope
+CON-CVS-D3ED0A0E795D72 | CON-CVS-6B41EC053C0DC0
 ## summary
 Almost everyone who faints is well. The task is to find the few whose faint was the first sign of something that can kill them, and the history does most of that work.
 ## sections
@@ -365,6 +369,8 @@ A 12-lead ECG is taken in every patient with syncope; brain imaging and EEG are 
 Calling a faint with brief myoclonic jerks a seizure. Short jerks are common in syncope of any cause.
 Ordering a CT head for a typical vasovagal faint.
 Omitting the family history of sudden death, which is the single question most likely to change management.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -443,7 +449,7 @@ SYS-CVS-T02-S02-M02
 ## secondary_node_ids
 DIS-PHY | SKL-EXM
 ## related_concepts
-med.concept.oedema-starling-mechanism | med.concept.oedema-distribution
+CON-CVS-0CBD226F515D23 | CON-CVS-A0176AF74ADE58
 ## summary
 Swelling is one sign with four mechanisms behind it. Where it is, and what it does when you press it, narrows the cause faster than any blood test.
 ## sections
@@ -497,6 +503,8 @@ Urinalysis for protein is the highest-yield early test, because it separates the
 Attributing all bilateral ankle oedema to the heart without checking the drug list or the albumin.
 Missing sacral oedema in a bed-bound patient by looking only at the ankles.
 Treating unilateral leg swelling as postural.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -575,7 +583,7 @@ SYS-CVS-T02-S02-M03
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.intermittent-claudication | med.concept.critical-limb-ischaemia-threshold
+CON-CVS-C35C864EA79CCB | CON-CVS-75FDE074D4B12E
 ## summary
 Angina of the leg. The pain is the least of it — the artery that hurts when walking is a marker for the arteries supplying the heart and brain.
 ## sections
@@ -631,6 +639,8 @@ Peripheral arterial disease is a marker of coronary and cerebrovascular disease;
 Missing spinal stenosis, which is relieved by sitting or bending forwards rather than by stopping.
 Trusting a normal ankle–brachial index in diabetes or chronic kidney disease, where incompressible arteries falsely raise it.
 Treating the leg and neglecting the smoking, lipids and glucose that will determine the outcome.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.

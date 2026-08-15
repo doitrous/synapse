@@ -165,6 +165,40 @@ student gets right, `Challenging` needs several steps held at once.
 
 ## Media
 
+A question is the **only** student-facing item that can carry all three media types
+directly — image, audio and video. Take advantage of that: this is where a heart sound, a
+murmur, a breath sound or a short clinical clip belongs, because no practical format can
+hold one.
+
+### Real media you have — `## attachments`
+
+One `### medium · URL` block per asset, then `Name:` and optionally `Mime:`.
+
+```markdown
+## attachments
+### audio · https://example.org/audio/mid-systolic-murmur.mp3
+Name: Mid-systolic ejection murmur at the aortic area
+Mime: audio/mpeg
+
+### video · https://example.org/video/jvp-waveform.mp4
+Name: Elevated JVP with a prominent v wave
+Mime: video/mp4
+```
+
+- The heading medium must be exactly `image`, `audio` or `video`. A block with **no URL is
+  dropped**.
+- `Mime:` is optional but worth writing — uploaded files play more reliably when the type
+  is declared.
+- `## attached_image` is a separate, single-image shortcut shown with the stem. Use
+  `attachments` for anything that is not one plain image.
+- Uploaded files are stored outside the question record, so audio and video are not
+  truncated. A URL you paste is used as-is.
+
+**Only ever a real, working URL.** If you do not have the asset, leave `attachments` empty
+and file a request instead.
+
+### Media you need — `## media_recommendations`
+
 A question commonly needs an image it does not have — an ECG, a radiograph, a histology
 field. **Never invent a URL and never write "see the ECG below" when there is no ECG.**
 
@@ -393,6 +427,11 @@ is also the overall worked explanation and there is no separate column for one. 
 distractor names the specific student it catches, and distractor A is lifted directly from
 the `pitfalls` field of the concept being tested — which is where good distractors come
 from.
+
+`attachments` and `attached_image` are present but empty because no rights-cleared asset
+exists for this question yet — the two things it needs are requested instead. Had this been
+an auscultation question, the recording would have gone in `attachments` as an `audio`
+block, and no request would have been needed.
 
 ---
 

@@ -1,248 +1,194 @@
 # Ready to import
 
-Everything in this folder has been validated and is waiting for a human to apply
-it through **Admin → Bulk import** on the site. Nothing here has been imported.
+Everything here has been validated and is waiting for a human to apply it through the admin
+import pages. **Nothing here has been imported.**
 
-Each file is already in the importer's markdown format: open the relevant Bulk
-import page, choose the file, review the preview, and commit.
+Each file is already in its importer's format. Open the page named in the table below,
+choose the file, review the preview, and commit.
 
-This folder holds the **practical bank**. The question bank moved to
-[`docs/questions-import-ready/`](../questions-import-ready/INDEX.md) so two
-agents stop writing into one folder.
+Authoring rules live in
+[`Instruction Manual for Content Creation/`](../../Instruction%20Manual%20for%20Content%20Creation/00-START-HERE.md).
 
 ---
 
-## Cardiovascular practical bank — 65 items, 225 questions
+## One folder per import page
 
-| | |
-|---|---|
-| Import at | **Admin → Practical Setup → Bulk import** |
-| Files | `SYS-CVS-PRACTICAL-001.md` … `SYS-CVS-PRACTICAL-014.md` |
-| Order | Any. The files are independent of one another. |
-| Lands as | `Draft`, subject `cvs`. Nothing reaches a student until you publish it. |
+The folder tells you which admin page to open. That is the whole point of the split — a
+filename alone never did.
 
-| Type | Items | Questions | Mark-scheme items |
-|---|---:|---:|---:|
-| OSCE station | 12 | — | 132 |
-| Skills checklist | 8 | — | 104 |
-| Clinical case | 21 | 105 | — |
-| Lab interpretation | 12 | 60 | — |
-| Imaging interpretation | 12 | 60 | — |
-| **Total** | **65** | **225** | **236** |
-
-| Batch | Type | Items | Questions |
+| Folder | Admin page | Files | Records |
 |---|---|---:|---:|
-| 001 | OSCE stations, with actor briefs | 10 | — |
-| 002 | Skills checklists | 8 | — |
-| 003–005 | Clinical cases | 12 | 60 |
-| 006–007 | Lab interpretation | 8 | 40 |
-| 008–009 | Imaging interpretation | 8 | 40 |
-| 010–011 | Clinical cases | 9 | 45 |
-| 012 | Lab interpretation | 4 | 20 |
-| 013 | Imaging interpretation | 4 | 20 |
-| 014 | OSCE stations | 2 | — |
+| [`concept/`](concept/) | Concepts › Import | 13 | 208 |
+| [`article/`](article/) | Bulk import → **article** | 8 | 58 |
+| [`question/`](question/) | Bulk import → **question** | 10 | 219 |
+| [`practical/`](practical/) | Bulk import → **practical** | 34 | 152 |
+| [`relations/`](relations/) | Relationships › Import | — | — |
+| [`evidence/`](evidence/) | Evidence › Import | — | — |
+| [`subjects/`](subjects/) | Taxonomy › Import | — | — |
+| [`glossary/`](glossary/) | Glossary › Import | — | — |
+| [`resource/`](resource/) | Bulk import → **resource** | — | — |
 
-**Difficulty across the bank.** Easy 56 (25%) · Moderate 124 (55%) · Hard 34
-(15%) · Challenging 11 (5%). Every question carries its own intended band, and
-every option — right and wrong — carries an explanation naming the misconception
-that picks it.
-
-**Coverage.** All 98 cardiovascular concepts are taught by at least **two**
-questions: 73 by two, 22 by three, 3 by four or five. Batches 001–009 covered
-every concept once; 010–014 exist to remove the concepts that were resting on a
-single question, and the five that no question actually taught. Topic 1 only,
-for the same reason as the question bank — T02–T09 have no articles.
-
-### What to expect after importing
-
-**85 media requests arrive with it**, 57 `required` and 28 `strongly helpful`.
-They appear at **Library Setup → Media requests**, classified by medium and
-genre: 19 graphs (ECGs, pressure traces), 19 imaging examples (radiographs, echo,
-angiograms), 14 histology fields, 10 anatomy plates, 9 diagrams, 5 clinical
-photographs, and 9 audio recordings. No placeholder URL is ever written, so a
-flagged item still runs cleanly with nothing broken on screen.
-
-**Skills checklists appear in the OSCE tab**, badged to distinguish them from
-stations. They have no separate student route of their own.
+The empty folders are not oversights — they are the shape of the work that has not been
+done yet. The relationship graph in particular holds 1,718 concepts and only 47 edges.
 
 ---
 
-## Respiratory practical bank — in progress
+## Import order
 
-| | |
-|---|---|
-| Import at | **Admin → Practical Setup → Bulk import** |
-| Files | `SYS-RES-PRACTICAL-001.md` … `SYS-RES-PRACTICAL-013.md` |
-| Contents | 59 items · 226 questions · 157 mark-scheme items |
-| Lands as | `Draft`. 53 items subject `resp`; 6 land in `pharm` — see the move batch below. |
+Apply the folders in this order. Later kinds reference earlier ones, and importing out of
+order leaves records pointing at things that do not exist yet.
+
+```
+resource → article → concept → evidence (claims, then citations, then spans)
+        → relations → practical → question
+```
+
+Within a folder, file order does not matter.
+
+---
+
+## What is here now
+
+### Cardiovascular practical bank — `practical/`, 34 files
 
 | Type | Items |
 |---|---:|
-| Clinical case | 20 |
-| Lab interpretation | 19 |
-| Imaging interpretation | 6 |
-| OSCE station | 6 |
+| OSCE station, with actor briefs | 12 |
 | Skills checklist | 8 |
+| Clinical case | 21 |
+| Lab interpretation | 12 |
+| Imaging interpretation | 12 |
 
-All thirteen files validate clean. Difficulty across the 226 questions: Easy 57
-(25.2%), Moderate 124 (54.9%), Hard 34 (15.0%), Challenging 11 (4.9%).
+Lands as `Draft`. Nothing reaches a student until you publish it. Renal and respiratory
+banks are in the same folder, prefixed `SYS-REN-` and `SYS-RES-`.
 
-The six OSCE stations carry full actor briefs written as answers to what a
-candidate actually asks — *"When asked about wheeze, say yes, there is a
-whistling sound, mostly when you breathe out, and it is worse in the mornings"* —
-with behavioural flags telling the actor what to volunteer, what to withhold
-until asked, and which jargon to challenge.
+**Around 85 media requests arrive with these**, and they appear at
+**Library Setup → Media requests** classified by medium and genre. Roughly two-thirds are
+`required`, meaning the item cannot publish until the asset exists.
 
-**Coverage and depth are both complete.** All 112 concepts the bank was written
-against are taught by **at least two** questions — the 99 that remain `resp` (97
-by two, 2 by three) and the 13 that moved to `pharm` (two each). Every option
-carries an explanation naming the misconception that picks it, and every question
-carries its own intended difficulty.
+### Cardiovascular concepts — `concept/`, 13 files
 
-Six items are drug material rather than respiratory and are tagged `pharm`: the
-persistent-cough and cough-clinic cases, acetylcysteine's two uses, one molecule
-with three properties, and the two preparation-comparison sets. The inhaler OSCE
-station and the inhaler and nebuliser checklists stay `resp` — each mentions one
-drug concept in passing, and what they assess is technique.
+Topics 2–9, plus renal and respiratory dedup, move and repair batches.
 
-**33 media requests** accompany the bank: 11 graphs (spirometry traces,
-pressure-volume curves, dissociation curves), 11 histology fields, 4 anatomy
-plates, 4 clinical photographs and 3 diagrams.
+> **IDs rewritten to `CON-` on 2026-08-15.** These records previously carried
+> `med.concept.*` IDs, which matched nothing in live state and would have opened a second ID
+> namespace inside one graph. All 226 pending concept IDs — 128 here plus 98 in
+> `docs/medical-library-program/batches/` — were rewritten to
+> `CON-<SYSTEM>-<14 hex>`, derived deterministically from each record's `canonical_key`, with
+> every reference in every article, question, practical, relation and claim batch updated to
+> match. 1,076 occurrences across 62 files. Verified: 0 collisions against live state, 0
+> broken references, every batch validates clean, and `medical:simulate` applies all of them
+> with 0 errors and 0 rejected.
 
-### A note on the pathology concepts
+**`field_notes` completed on 2026-08-15.** Every one of the 128 new cardiovascular concepts
+now carries a stated reason for each field it leaves blank — `moduleIds`, `microtopicId`,
+`nanotopicId`, `approvedFileResourceIds`, `approvedVideoResourceIds` and
+`sourceCandidateIds`, **768 entries** added across the eight `SYS-CVS-CONCEPT-T0*.md` files.
+Auditing the simulated set fell from **942 errors to 174**, and
+**zero blank-without-reason errors remain on any new record.**
 
-Nine concepts under `Respiratory Pathology` reached the graph as damaged
-extractions — truncated mid-sentence (*"…human papilloma virus (HPV 6 &"*), or
-carrying a figure caption in place of a statement (*"Acute inflammatory cells &
-RBC Filling alveolar spaces"*). They are covered, but each question is written
-from the verified underlying fact — laryngeal papillomatosis is caused by HPV
-types 6 and 11; the alveolar filling described is the red hepatisation of acute
-bacterial pneumonia — rather than from the damaged text. **The concept records
-themselves still need repair at source**; only the questions tagged to them are
-sound.
+### What is still outstanding, and why
 
-The 13 `Respiratory Pharmacology` concepts have moved to `pharm` —
-`SYS-RES-CONCEPT-MOVE-001.md`, below.
+| Count | What | Owner |
+|---:|---|---|
+| 188 | Fields on the **REN/RES update records** reported blank or emptied | a code bug, not authoring |
+| 1,314 | Fields on **new** records that need a real value, not a note | authoring |
+| **0** | broken references | — |
 
----
+**The 188 are not an authoring gap and were deliberately left alone.** The five
+`SYS-REN-*` / `SYS-RES-*` concept files are *updates* to concepts that are already live, and
+those live records **do** carry the values the audit reports as missing. They are being
+destroyed on import by `materialiseNewConcept`, which runs over update rows and nulls
+whatever the row does not restate:
 
-## Renal practical bank — 21 items, 105 questions
-
-| | |
-|---|---|
-| Import at | **Admin → Practical Setup → Bulk import** |
-| Files | `SYS-REN-PRACTICAL-001.md` … `SYS-REN-PRACTICAL-007.md` |
-| Lands as | `Draft`. Mostly subject `renal`; seven items land in `endo` or `pharm` — see the move batch below. |
-
-All 75 renal concepts are covered. Depth is partial: 50 rest on a single
-question, 24 have two, 1 has three. Every file validates at Easy 5 · Moderate 11
-· Hard 3 · Challenging 1 per batch of 20.
-
-Seven of the 28 authored items are not renal at all and are tagged accordingly —
-2 `endo` (adrenal histology, the two glands sharing a capsule) and 5 `pharm`
-(adrenaline in anaphylaxis, adrenaline and the circulation, local and metabolic
-adrenaline, gout, the purine pathway). They give those two subjects their first
-practical content.
-
-Two mixed items deliberately stay `renal`: the phaeochromocytoma case, whose
-three middle questions are creatinine clearance, and the advanced-CKD case, whose
-last two are drug questions. A question may test a concept from another subject;
-only the item's home changes.
-
----
-
-## Concept repairs and moves — import these first
-
-Five batches that fix the concept graph itself. They apply through
-**Admin → Concepts → Bulk import**, and every row targets an existing concept by
-ID: simulation reports **0 created**, so nothing is duplicated.
-
-| File | What it does |
-|---|---|
-| `SYS-REN-CONCEPT-DEDUP-001.md` | Folds 5 duplicate pairs in `Renal Clearance`. Survivors keep the loser's wording as an alias and record `merge_ids`; the retired records go `inactive` with an `exclusion_reason` rather than being deleted, so existing references still resolve. Renal drops from 119 to 114 live concepts. |
-| `SYS-REN-CONCEPT-MOVE-001.md` | Moves 39 concepts out of `renal`, where they never belonged: 12 to `endo`, 27 to `pharm`. Renal drops from 114 to 75. |
-| `SYS-RES-CONCEPT-MOVE-001.md` | Moves the 13 `Respiratory Pharmacology` concepts to `pharm`. Respiratory drops from 112 to 99. |
-| `SYS-REN-CONCEPT-REPAIR-001.md` | Repairs the 9 damaged `Renal and Urinary-Tract Pathology` concepts. |
-| `SYS-RES-CONCEPT-REPAIR-001.md` | Repairs the 9 damaged `Respiratory Pathology` concepts. |
-
-### What the move batch does, and what it leaves for you
-
-| Article | Concepts | To | Topic | Why |
-|---|---:|---|---|---|
-| `Adrenal Gland` | 12 | `endo` | Adrenal physiology and disease | An endocrine organ, filed under `renal` only because the source chapter grouped it with the retroperitoneal structures. Its canonical node was always `DIS-HIS-T03`. |
-| `Adrenaline` | 14 | `pharm` | Autonomic pharmacology | A drug monograph — routes, adverse effects, contraindications, alpha blockade, indications in arrest and anaphylaxis. Canonical node `DIS-PHA-T03`, and its topic field already read "Autonomic pharmacology". |
-| `Purine and Pyrimidine Metabolism` | 13 | `pharm` | Inflammation, immunity and cancer pharmacology | Carried for allopurinol, colchicine and 5-fluorouracil. Canonical node `DIS-BIO-T06` is biochemistry, for which there is no curriculum subject. |
-| `Respiratory Pharmacology` | 13 | `pharm` | Respiratory and allergy pharmacology | Antitussives, expectorants, mucolytics and demulcents. Canonical node `DIS-PHA-T04`, and the article's topic field already read "System pharmacology". |
-
-Every row keeps its existing label, definition, explicit objective and article
-link verbatim; only `subject` and `topic` change, and a `field_notes` line records
-why. **No ID is re-minted**, so every question and practical already tagged to
-these concepts still resolves.
-
-**The four articles still need moving — an attempt on 13 Aug 2026 did not
-persist.** Every `PUT /api/state/…` came back **403**, because that route is
-guarded by `requireAdmin` (admin role *and* `aal2`) while the browser session was
-only at `aal1`. The reads succeeded and the UI showed the change, because both
-state keys are in `STUDENT_READABLE_STATE` so `GET` skips the guard, and the
-client re-displays its own unsaved recovery copy after a reload. Verify a write
-landed by watching for `PUT … 200`, not by re-reading the screen.
-
-What needs to happen, one at a time in the article editor:
-
-| Article | Was | Now |
-|---|---|---|
-| Adrenal Gland | REN · Organ histology (legacy) | **END** · Adrenal physiology and disease |
-| Adrenaline | REN · Autonomic pharmacology (legacy) | **PHA** · Autonomic pharmacology |
-| Purine and Pyrimidine Metabolism | REN · Molecular biology (legacy) | **PHA** · Inflammation, immunity and cancer pharmacology |
-| Respiratory Pharmacology | RES · System pharmacology (legacy) | **PHA** · Respiratory and allergy pharmacology |
-
-Change only the "University curriculum overlay" subject and chapter. The
-canonical medical placement — `DIS-HIS-T03`, `DIS-PHA-T03`, `DIS-BIO-T06`,
-`DIS-PHA-T04` — is already correct and must be left alone, as must every
-article's status, summary, sections, key points and traps.
-
-Use the editor rather than bulk import on purpose: an article import row rebuilds
-`sections`, `body` and `summary` from the file, so a partial row would blank the
-content it did not re-state.
-
-**The concept batches above have not been imported either** — the same 403.
-Note that the concept wizard printed "39 imported · 0 failed" while issuing no
-write at all, so its success banner reports the in-memory merge, not the save.
-
-### What `endo` and `pharm` now have
-
-Neither subject had any practical content. The retagged items give them a start:
-**2 `endo`** items (10 questions) and **11 `pharm`** items (56 questions), each
-covering its concepts once. They are not banks yet — no OSCE station, no
-checklist, and no second question on any concept — but they are authored,
-validated content sitting in the right subject rather than the wrong one.
-
-**Import these before the practical banks** if you want the concept labels a
-student sees to match the questions tagged to them.
-
-### How the repairs are recorded
-
-Every repaired concept keeps its damaged text verbatim in `original_wording`, and
-a `field_notes` entry states exactly what was changed and why. Where a fact had
-to be inferred rather than merely re-typed — a truncation completed, a disease
-named where the original gave none — the note says so explicitly.
-
-**One repair carries a flag you should resolve.**
-`CON-REN-8A11F1D9204098` read *"About 80% of patients are between the ages of 50
-and 80 years"* and named no disease anywhere in the record. It has been repaired
-as bladder carcinoma, because the concept sits among the bladder-carcinoma
-concepts of the same article and the age range matches that tumour — but that is
-an inference about **which disease was meant**, not about wording. It is recorded
-in the concept's `uncertainty` field and should be checked against the source
-document before that concept is published.
-
----
-
-## Re-checking a file before you import
-
-```bash
-node --experimental-strip-types scripts/validate-content-batch.mjs docs/import-ready/SYS-CVS-PRACTICAL-001.md
+```
+CON-REN-29ED086AF129A6
+  lastReviewed           live "2026-08-11"              -> null
+  resourceOccurrenceIds  live ["OCC-387066FDBD7410"]    -> null
 ```
 
-It reports item count, the difficulty split, concepts tested, media flagged, and
-any errors. All 14 practical files currently exit 0.
+Writing a `field_notes` entry saying "no review date exists" would be false, and would hide
+real data loss behind a green audit. The fix belongs in the importer.
+
+**Values filled on 2026-08-15 — 621 of the 1,314.** Everything derivable without inventing
+data now carries a value:
+
+| Filled | Field | How it was derived |
+|---:|---|---|
+| 128 | `blueprintWeight` | mean of that record's own hand-authored `exam_weight_by_year` (0.75–0.95) |
+| 128 | `clinicalRelevance` | rubric by `concept_type` — see below |
+| 128 | `academicRelevance` | rubric by `concept_type` |
+| 128 | `confidence` | `0.7` — authored from authoritative texts, not independently verified |
+| 43 | `concept.relatedArticleIds` | articles whose prose actually contains the concept's label or an alias |
+| 8 | `article.relatedArticles` | articles sharing at least one concept |
+| 58 | `article.notes` | internal note recording the deferred evidence pass |
+
+The relevance rubric, which is an editorial default and easy to override:
+
+| `concept_type` | clinical | academic |
+|---|---:|---:|
+| `clinical_principle`, `clinical_consequence` | 0.90 | 0.85 |
+| `classification` | 0.75 | 0.95 |
+| `definition` | 0.70 | 0.95 |
+| `pathophysiological_mechanism` | 0.70 | 0.90 |
+
+`blueprintWeight` deliberately uses the per-year weights already authored on each record
+rather than a fresh judgement, so it reflects the original author's intent. Note the result
+(0.75–0.95) sits above every live concept (0.58–0.76), because live values are uniform
+pipeline defaults on T01 anatomy while these are hand-weighted clinical topics.
+
+### The remaining 693 cannot be filled from anything in this repo
+
+| Count | Field | Why not |
+|---:|---|---|
+| 128 | `concept.resourceIds` | no source in the evidence store teaches these nodes |
+| 128 | `concept.atomicClaimIds` | the claims do not exist — deferred evidence pass |
+| 128 | `concept.originalWording` | "the source's own words", and there is no source to quote |
+| 58 | `article.resourceIds` · `claimIds` · `spanIds` (×3) | same evidence chain |
+| 85 | `concept.relatedArticleIds` | no article mentions the concept |
+| 50 | `article.relatedArticles` | shares no concept with any other article |
+
+**The corpus was checked and does not cover this material.** All 44,454 extracted statements
+across the 20 cardiovascular corpus sources were compared against the 128 concepts: **zero
+strong matches, four moderate.** The concepts' own `field_notes` were right — *"No processed
+corpus source teaches this node; authored from authoritative texts under LD-14."*
+
+Filling those fields therefore needs one of:
+
+1. **New sources** ingested as resources, then a real claim/citation/span pass against them.
+2. **A contract change** — `resourceIds`, `atomicClaimIds`, `originalWording` and
+   `relatedArticleIds` sit in the audit's *must carry a value* list (`conceptPopulated` in
+   `scripts/audit-medical-content-fields.mjs`). For content authored before its evidence pass,
+   three of those four cannot exist by definition. Moving them to *must be present, may be
+   blank with a reason* would let an honest pre-evidence concept pass.
+
+Guessing them would be fabricated provenance, which is the one failure the manuals exist to
+prevent. Nothing here blocks import: all batches validate clean and `medical:simulate`
+applies the whole set — 128 concepts, 58 articles — with 0 errors and 0 rejected.
+
+### Cardiovascular articles — `article/`, 8 files
+### Cardiovascular questions — `question/`, 10 files
+
+Topics 2–9. Questions reference the concepts in `concept/`, so that folder goes first.
+
+---
+
+## Before applying anything
+
+```bash
+npm run medical:simulate -- "docs/import-ready/"*/*.md --emit /tmp/synapse-sim.json
+npm run medical:audit -- --source /tmp/synapse-sim.json
+```
+
+The first applies every pending batch to a copy of live state and reports the delta. The
+second audits the state that would result. Neither touches the real data.
+
+Per file:
+
+```bash
+npm run medical:batch -- "docs/import-ready/<folder>/<file>.md"
+```
+
+`medical:batch` is directory-scoped — it resolves IDs against sibling files, not live state.
+A relation or citation pointing at something already live will report "does not exist" there
+and simulate clean. Trust the simulator.

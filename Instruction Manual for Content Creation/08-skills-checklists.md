@@ -153,6 +153,17 @@ the procedure, then completion.
 
 ## Media
 
+> **This format has no field for real media.** `OsceAuthoringData` — which backs both OSCE
+> stations and skills checklists — carries no media URL of any kind, and neither does a
+> clinical case decision. The only media a practical can hold is a **request**, which is an
+> instruction to a human and never renders to a student.
+>
+> So you cannot attach an ECG, a photograph, a heart sound or a clip here at all. Your
+> options are: request it and let a human place it once real media exists, or, if the item
+> genuinely turns on the asset, write it as an MCQ instead — a question's `## attachments`
+> takes `image`, `audio` and `video`, and is the only student-facing item that does. See
+> [05-questions.md](05-questions.md) §Media.
+
 Checklists often want a photograph of correct hand position, a diagram of landmarks, or a
 recording of a sound the student must recognise.
 

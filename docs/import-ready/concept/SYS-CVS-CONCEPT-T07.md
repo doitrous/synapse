@@ -2,7 +2,7 @@
 ## label
 Hypertension is defined by the risk it carries, not by a natural threshold
 ## id
-med.concept.hypertension-defined-by-risk
+CON-CVS-7A36E91351075C
 ## canonical_key
 hypertension-defined-by-risk
 ## aliases
@@ -53,17 +53,32 @@ SYS-CVS-T07-S01-M01
 DIS-MED
 ## article_ids
 ART-CVS-PRIMARY-HYPERTENSION
+## blueprint_weight
+0.88
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No numerical threshold is stated; thresholds are guideline-dependent.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Primary hypertension has no single cause and is diagnosed by exclusion
 ## id
-med.concept.primary-hypertension-multifactorial
+CON-CVS-CEBA1FECCF5429
 ## canonical_key
 primary-hypertension-multifactorial
 ## aliases
@@ -114,17 +129,32 @@ SYS-CVS-T07-S01-M01
 SYS-REN
 ## article_ids
 ART-CVS-PRIMARY-HYPERTENSION
+## blueprint_weight
+0.87
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-SECONDARY-HYPERTENSION | ART-CVS-HYPERTENSIVE-EMERGENCY | ART-CVS-COARCTATION
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
-atomicClaimIds: Deferred to the evidence pass. Builds on med.concept.AEBDDFAB03B5DF-equivalent physiology already held by CON-CVS-AEBDDFAB03B5DF, which supplies the determinants of mean arterial pressure.
-
+atomicClaimIds: Deferred to the evidence pass. Builds on the physiology already held by CON-CVS-AEBDDFAB03B5DF, which supplies the determinants of mean arterial pressure.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Hypertension is silent, so it is diagnosed by measurement rather than by symptoms
 ## id
-med.concept.hypertension-is-silent
+CON-CVS-0FAC19768C558B
 ## canonical_key
 hypertension-is-silent
 ## aliases
@@ -175,17 +205,32 @@ SYS-CVS-T07-S01-M01
 SYS-POP
 ## article_ids
 ART-CVS-PRIMARY-HYPERTENSION
+## blueprint_weight
+0.87
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-HYPERTENSIVE-EMERGENCY
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A single clinic reading is not a diagnosis
 ## id
-med.concept.out-of-office-measurement
+CON-CVS-3B0DED3DFCD507
 ## canonical_key
 out-of-office-measurement
 ## aliases
@@ -236,17 +281,32 @@ SYS-CVS-T07-S01-M01
 SKL-EXM
 ## article_ids
 ART-CVS-PRIMARY-HYPERTENSION
+## blueprint_weight
+0.9
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-PALPITATIONS | ART-CVS-SYNCOPE | ART-CVS-SILENT-ISCHAEMIA | ART-CVS-HYPERTROPHIC-CARDIOMYOPATHY | ART-CVS-SINUS-NODE-DISEASE | ART-CVS-ATRIAL-FIBRILLATION | ART-CVS-LONG-QT
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. Complements CON-CVS-85F9DE6C65F2F7 and CON-CVS-BE94FBA0B205EF, which cover measurement technique.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Target organ damage is the record of how long the pressure has been raised
 ## id
-med.concept.target-organ-damage
+CON-CVS-7E84CDBE098639
 ## canonical_key
 target-organ-damage
 ## aliases
@@ -297,17 +357,32 @@ SYS-CVS-T07-S01-M01
 SYS-REN
 ## article_ids
 ART-CVS-PRIMARY-HYPERTENSION | ART-CVS-HYPERTENSIVE-EMERGENCY
+## blueprint_weight
+0.9
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Certain features should prompt a search for a secondary cause
 ## id
-med.concept.when-to-suspect-secondary-hypertension
+CON-CVS-1190F4A5A06877
 ## canonical_key
 when-to-suspect-secondary-hypertension
 ## aliases
@@ -358,17 +433,32 @@ SYS-CVS-T07-S01-M02
 SYS-END
 ## article_ids
 ART-CVS-SECONDARY-HYPERTENSION
+## blueprint_weight
+0.93
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Renal artery stenosis raises pressure by activating the renin–angiotensin system
 ## id
-med.concept.renovascular-hypertension
+CON-CVS-455CBC7E16DC27
 ## canonical_key
 renovascular-hypertension
 ## aliases
@@ -419,17 +509,32 @@ SYS-CVS-T07-S01-M02
 SYS-REN
 ## article_ids
 ART-CVS-SECONDARY-HYPERTENSION
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. Builds on CON-CVS-A3B1CCD1E56CE7 and CON-CVS-2886EDD0864ABC, which supply the actions of angiotensin II. No drug is named.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Primary aldosteronism is commoner than its classical description suggests
 ## id
-med.concept.primary-aldosteronism-underdiagnosed
+CON-CVS-753EA8558A21C8
 ## canonical_key
 primary-aldosteronism-underdiagnosed
 ## aliases
@@ -480,17 +585,32 @@ SYS-CVS-T07-S01-M02
 SYS-END
 ## article_ids
 ART-CVS-SECONDARY-HYPERTENSION
+## blueprint_weight
+0.88
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No prevalence figure or testing threshold is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A hypertensive emergency is defined by organ damage, not by the reading
 ## id
-med.concept.emergency-defined-by-organ-damage
+CON-CVS-D839EC01D179EC
 ## canonical_key
 emergency-defined-by-organ-damage
 ## aliases
@@ -541,17 +661,32 @@ SYS-CVS-T07-S01-M03
 KNW-EMG
 ## article_ids
 ART-CVS-HYPERTENSIVE-EMERGENCY
+## blueprint_weight
+0.93
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Autoregulation resets in chronic hypertension, so pressure must be lowered gradually
 ## id
-med.concept.autoregulation-shift-gradual-reduction
+CON-CVS-1F0F01DEE7A38E
 ## canonical_key
 autoregulation-shift-gradual-reduction
 ## aliases
@@ -602,17 +737,32 @@ SYS-CVS-T07-S01-M03
 SYS-NEU
 ## article_ids
 ART-CVS-HYPERTENSIVE-EMERGENCY
+## blueprint_weight
+0.93
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No target, percentage reduction or time window is stated; all are guideline-dependent.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Wall stress rises with radius, so an aneurysm enlarges itself
 ## id
-med.concept.laplace-aneurysm-expansion
+CON-CVS-ACD611E9A47BE5
 ## canonical_key
 laplace-aneurysm-expansion
 ## aliases
@@ -663,17 +813,32 @@ SYS-CVS-T07-S02-M01
 DIS-PHY
 ## article_ids
 ART-CVS-AORTIC-ANEURYSM
+## blueprint_weight
+0.85
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No diameter threshold is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 An aortic aneurysm is silent until it leaks
 ## id
-med.concept.aneurysm-silent-until-rupture
+CON-CVS-BFCBEA1E881740
 ## canonical_key
 aneurysm-silent-until-rupture
 ## aliases
@@ -724,17 +889,32 @@ SYS-CVS-T07-S02-M01
 KNW-EMG
 ## article_ids
 ART-CVS-AORTIC-ANEURYSM
+## blueprint_weight
+0.93
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No mortality figure or screening protocol is asserted.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Dissection is a tear in the intima, not a weakness of the whole wall
 ## id
-med.concept.dissection-intimal-tear
+CON-CVS-139A58506B8D41
 ## canonical_key
 dissection-intimal-tear
 ## aliases
@@ -785,17 +965,32 @@ SYS-CVS-T07-S02-M02
 KNW-EMG
 ## article_ids
 ART-CVS-AORTIC-DISSECTION
+## blueprint_weight
+0.95
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-CHEST-PAIN | ART-CVS-AORTIC-VALVE-DISEASE | ART-CVS-PERICARDIAL-EFFUSION | ART-CVS-CARDIAC-TAMPONADE | ART-CVS-HYPERTENSIVE-EMERGENCY | ART-CVS-COARCTATION | ART-CVS-STRESS-TESTING
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Whether the ascending aorta is involved decides the treatment
 ## id
-med.concept.dissection-classification-decides-treatment
+CON-CVS-1307261022DB81
 ## canonical_key
 dissection-classification-decides-treatment
 ## aliases
@@ -846,17 +1041,32 @@ SYS-CVS-T07-S02-M02
 KNW-EMG
 ## article_ids
 ART-CVS-AORTIC-DISSECTION
+## blueprint_weight
+0.95
+## clinical_relevance
+0.75
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No drug, target or surgical threshold is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Claudication is exertional muscle ischaemia, the leg equivalent of angina
 ## id
-med.concept.claudication-is-exertional-ischaemia
+CON-CVS-1C4FEC6C43C975
 ## canonical_key
 claudication-is-exertional-ischaemia
 ## aliases
@@ -907,17 +1117,32 @@ SYS-CVS-T07-S02-M03
 SYS-MSK
 ## article_ids
 ART-CVS-PERIPHERAL-ARTERIAL-DISEASE
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-CLAUDICATION | ART-CVS-PRIMARY-HYPERTENSION
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
-atomicClaimIds: Deferred to the evidence pass. Parallels med.concept.fixed-stenosis-demand-ischaemia, authored for T03.
-
+atomicClaimIds: Deferred to the evidence pass. Parallels CON-CVS-F77D6322B0BCF6, authored for T03.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Calcified vessels give a falsely high ankle–brachial index
 ## id
-med.concept.abpi-falsely-high-in-calcification
+CON-CVS-A2F98097AF8EA7
 ## canonical_key
 abpi-falsely-high-in-calcification
 ## aliases
@@ -968,17 +1193,32 @@ SYS-CVS-T07-S02-M03
 SYS-END
 ## article_ids
 ART-CVS-PERIPHERAL-ARTERIAL-DISEASE
+## blueprint_weight
+0.93
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-CLAUDICATION | ART-CVS-VENOUS-INSUFFICIENCY
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No index cut-off value is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Venous thrombosis follows Virchow triad
 ## id
-med.concept.virchow-triad
+CON-CVS-1DBCD5D81337B5
 ## canonical_key
 virchow-triad
 ## aliases
@@ -1029,17 +1269,32 @@ SYS-CVS-T07-S02-M04
 SYS-HEM
 ## article_ids
 ART-CVS-DVT
+## blueprint_weight
+0.88
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. Thrombosis as a haematological topic is owned by SYS-HEM; this node covers the venous vascular presentation.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A D-dimer is useful for excluding thrombosis, not for confirming it
 ## id
-med.concept.d-dimer-rules-out
+CON-CVS-7B633BCF024C73
 ## canonical_key
 d-dimer-rules-out
 ## aliases
@@ -1090,17 +1345,32 @@ SYS-CVS-T07-S02-M04
 SYS-HEM
 ## article_ids
 ART-CVS-DVT
+## blueprint_weight
+0.95
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-STABLE-ANGINA | ART-CVS-STRESS-TESTING
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No score, threshold or assay cut-off is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Chronic venous insufficiency is ambulatory venous hypertension from failed valves
 ## id
-med.concept.ambulatory-venous-hypertension
+CON-CVS-C0C6010B529BF8
 ## canonical_key
 ambulatory-venous-hypertension
 ## aliases
@@ -1151,6 +1421,22 @@ SYS-CVS-T07-S02-M05
 SYS-DER
 ## article_ids
 ART-CVS-VENOUS-INSUFFICIENCY
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-OEDEMA | ART-CVS-MITRAL-VALVE-DISEASE
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. Builds on CON-CVS-6430B0D729893E and CON-CVS-37F13C09832A27, which supply venous pressure and compliance.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.

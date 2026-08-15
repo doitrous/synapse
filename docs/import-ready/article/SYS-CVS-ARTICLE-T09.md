@@ -50,7 +50,7 @@ SYS-CVS-T09-S01-M01
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.ecg-is-a-snapshot | med.concept.comparison-with-previous-ecg
+CON-CVS-A7008784E3B0E0 | CON-CVS-9AE6959A08D82B
 ## summary
 Cheap, immediate and available everywhere — and it records only a few seconds. Most ECG errors are errors about time: reading one trace as though it described a whole illness.
 ## sections
@@ -101,6 +101,8 @@ The trace reports depolarisation only, and cannot confirm that the heart is prod
 Excluding an acute coronary syndrome or an arrhythmia on a single normal trace.
 Acting on an abnormality without asking whether it is new.
 Accepting the machine's interpretation, particularly of rhythm, without reading the trace.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -174,7 +176,7 @@ SYS-CVS-T09-S01-M02
 ## secondary_node_ids
 DIS-RAD
 ## related_concepts
-med.concept.echo-window-dependent | med.concept.doppler-velocity-to-gradient | med.concept.transoesophageal-posterior-structures
+CON-CVS-B0902BABC49C92 | CON-CVS-61A1CF3A18F173 | CON-CVS-F75B2BB3741E56
 ## summary
 The structural test for almost every cardiac question — and one whose numbers are calculated rather than measured. Knowing which figures are derived is what stops a report being over-read.
 ## sections
@@ -219,6 +221,8 @@ The transoesophageal probe is used for posterior structures because the oesophag
 Treating a reported gradient as a direct measurement.
 Excluding endocarditis or a posterior structural abnormality on a transthoracic study alone.
 Ignoring the image quality statement in the report.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -292,7 +296,7 @@ SYS-CVS-T09-S01-M03
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.sensitivity-specificity-tradeoff-troponin | med.concept.biomarkers-report-injury-not-cause
+CON-CVS-8B1E0014E27298 | CON-CVS-12C4BD273890DE
 ## summary
 Cardiac-specific does not mean coronary-specific. Troponin tells you a myocyte was injured; every clinically useful thing after that comes from the pattern over time and the context.
 ## sections
@@ -343,6 +347,8 @@ Natriuretic peptides are most useful for ruling heart failure out.
 Diagnosing infarction from one raised troponin without evidence of ischaemia.
 Waiting for troponin before reperfusing an ST-elevation infarct.
 Comparing values from different assays as though they were equivalent.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -416,7 +422,7 @@ SYS-CVS-T09-S01-M04
 ## secondary_node_ids
 SYS-POP
 ## related_concepts
-med.concept.tests-change-probability | med.concept.anatomical-versus-functional-testing | med.concept.stress-testing-provokes-mismatch | med.concept.exercise-capacity-is-prognostic
+CON-CVS-B52EEBB628B374 | CON-CVS-95BB587187A5EA | CON-CVS-21732137EABE8C | CON-CVS-9751EFEBFE8ABA
 ## summary
 A test that only means something once you have decided how likely the diagnosis was. Order it in the wrong patient and a positive result is more likely to be false than true.
 ## sections
@@ -475,6 +481,10 @@ A negative test excludes flow-limiting disease under the conditions achieved, no
 Ordering the test in a very low- or very high-probability patient and treating the result as decisive.
 Reading only the ST segments and discarding the capacity and haemodynamic data.
 Performing an exercise ECG where the resting trace makes ST analysis uninterpretable.
+## related_articles
+ART-CVS-CARDIAC-CATHETERISATION: shares a concept with this article
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -548,7 +558,7 @@ SYS-CVS-T09-S02-M01
 ## secondary_node_ids
 SYS-MUL
 ## related_concepts
-med.concept.compressions-versus-defibrillation
+CON-CVS-6268E5888A90A6
 ## summary
 Two interventions doing two different jobs. Compressions keep the myocardium alive and responsive; the shock restores the rhythm — and every pause in compressions makes the shock less likely to work.
 ## sections
@@ -599,6 +609,8 @@ Agonal gasping is not breathing and does not exclude cardiac arrest.
 Delaying recognition because the patient appears to be making respiratory effort.
 Interrupting compressions for procedures that could wait.
 Reciting a remembered sequence or energy level instead of the current guideline.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -672,7 +684,7 @@ SYS-CVS-T09-S02-M02
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.synchronised-versus-unsynchronised-shock
+CON-CVS-E183E5E1F6AD12
 ## summary
 The same machine doing two different things. Whether the shock is timed to the QRS depends on whether there is a QRS to time it to — and getting that wrong can create the rhythm you were trying to treat.
 ## sections
@@ -723,6 +735,8 @@ Restoring sinus rhythm does not remove the need for anticoagulation.
 Attempting synchronised cardioversion in ventricular fibrillation.
 Cardioverting atrial fibrillation of uncertain duration without addressing the embolic risk.
 Treating the arrhythmia and leaving the precipitant uncorrected.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -796,7 +810,7 @@ SYS-CVS-T09-S02-M03
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.pacing-capture-and-sensing
+CON-CVS-EE68014279BC8B
 ## summary
 A device with two jobs — deliver a stimulus that works, and stay out of the way when the heart manages on its own. Nearly every malfunction is a failure of one or the other.
 ## sections
@@ -849,6 +863,8 @@ Pacing for sinus node disease relieves symptoms; it has not been shown to prolon
 Describing every pacing abnormality as "pacemaker failure" rather than identifying capture or sensing failure.
 Pacing a patient whose bradycardia is drug-induced without first stopping the drug.
 Overlooking device infection as the explanation for an unwell patient with an implanted system.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -922,7 +938,7 @@ SYS-CVS-T09-S02-M04
 ## secondary_node_ids
 DIS-RAD
 ## related_concepts
-med.concept.angiography-shows-lumen-only | med.concept.catheter-procedure-costs | med.concept.anatomical-versus-functional-testing
+CON-CVS-455F307C3089F8 | CON-CVS-F4F8387A96A01F | CON-CVS-95BB587187A5EA
 ## summary
 A silhouette of the lumen, not a picture of the artery. Plaque that grew outwards is invisible on it — which is why "normal coronary arteries" and "no coronary disease" are not the same statement.
 ## sections
@@ -973,6 +989,10 @@ Unobstructed coronary arteries with chest pain and a raised troponin require an 
 Telling a patient with a normal angiogram that they have no coronary disease.
 Treating an intermediate stenosis because it looks tight, without physiological assessment.
 Requesting the procedure where the result would not change management, and accepting its contrast and radiation cost for nothing.
+## related_articles
+ART-CVS-STRESS-TESTING: shares a concept with this article
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.

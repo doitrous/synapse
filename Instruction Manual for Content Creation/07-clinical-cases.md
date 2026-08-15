@@ -166,6 +166,21 @@ careless; they were applying a rule they had learned without its timing caveat.
 
 ## Media
 
+> **This format has no field for real media.** `ClinicalDecisionDraft` carries no media URL
+> — and neither does `OsceAuthoringData`, behind stations and checklists. The only media any
+> practical can hold is a **request**, which is an instruction to a human and never renders
+> to a student.
+>
+> So you cannot attach an ECG, a photograph, a heart sound or a clip here at all. Your
+> options are: request it and let a human place it once real media exists, or, if the item
+> genuinely turns on the asset, write it as an MCQ instead — a question's `## attachments`
+> takes `image`, `audio` and `video`, and is the only student-facing item that does. See
+> [05-questions.md](05-questions.md) §Media.
+> A `Media:` line inside a `### decision` block is **silently discarded**. The parser
+> recognises the label — it does not even fall through into the decision's context — but
+> `ClinicalDecisionDraft` has no media field to put it in, so it vanishes without an error.
+> Only lab and imaging questions have a `Media:` that goes anywhere.
+
 A case commonly needs an ECG, a radiograph or a photograph at one particular decision.
 
 **`Section:` must name a decision's `###` heading exactly**, or the literal `station`.

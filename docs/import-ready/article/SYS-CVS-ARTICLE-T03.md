@@ -50,7 +50,7 @@ SYS-CVS-T03-S01-M01
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.fixed-stenosis-demand-ischaemia | med.concept.angina-stability-criterion
+CON-CVS-F77D6322B0BCF6 | CON-CVS-75ACD62292F389
 ## summary
 A narrowing that is invisible at rest and limiting on the stairs. What makes it stable is that the threshold does not move — and what makes it dangerous is the day it does.
 ## sections
@@ -108,6 +108,8 @@ Revascularisation in stable disease treats symptoms and defined high-risk anatom
 Excluding coronary disease because the resting ECG and the examination were normal.
 Assuming the tightest stenosis is the one that will cause the next infarct.
 Treating the symptom and neglecting the prognosis — the antianginal helps the patient feel better and the risk-factor work keeps them alive.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -181,7 +183,7 @@ SYS-CVS-T03-S01-M02
 ## secondary_node_ids
 SYS-END
 ## related_concepts
-med.concept.silent-ischaemia | med.concept.diabetic-autonomic-neuropathy-silent-ischaemia
+CON-CVS-4A4EAE32C2A3F8 | CON-CVS-14B0C5FA3D00FD
 ## summary
 The same disease with the alarm disconnected. Everything that makes angina dangerous is present; only the warning is missing.
 ## sections
@@ -224,6 +226,8 @@ Silent ischaemia carries at least the same prognostic weight as symptomatic isch
 ## lose_the_mark
 Using absence of chest pain to exclude coronary disease, particularly in a patient with long-standing diabetes.
 Assuming that detecting silent ischaemia by screening must improve outcome. That is contested and follows local guidance.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -297,7 +301,7 @@ SYS-CVS-T03-S02-M01
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.plaque-disruption-thrombosis | med.concept.troponin-separates-ua-from-mi
+CON-CVS-03CFAE6A58D964 | CON-CVS-A99EFE8C4351C9
 ## summary
 The plaque has ruptured and the thrombus has not finished the job. Same mechanism as an infarct, stopped just short of it — which is why it is an emergency and not a worse kind of angina.
 ## sections
@@ -347,6 +351,10 @@ The risk of progression to infarction is concentrated in the first hours to days
 Sending a patient home because a single early troponin was normal.
 Treating unstable angina as a milder outpatient problem because no infarct has occurred. The mechanism is an active thrombus.
 Assuming the culprit plaque is the tightest stenosis on the angiogram.
+## related_articles
+ART-CVS-NSTEMI: shares a concept with this article
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -418,7 +426,7 @@ SYS-CVS-T03-S02-M02
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.troponin-separates-ua-from-mi | med.concept.definition-of-myocardial-infarction | med.concept.type-1-versus-type-2-infarction
+CON-CVS-A99EFE8C4351C9 | CON-CVS-D28E18DD959A0F | CON-CVS-D7397BCE4C0BEA
 ## summary
 Myocardium has died, and the ECG does not say so. The diagnosis rests on a changing troponin read alongside the clinical picture — and on remembering that troponin reports injury, not its cause.
 ## sections
@@ -472,6 +480,10 @@ Short-term mortality in NSTEMI is lower than in STEMI, but longer-term mortality
 Diagnosing infarction from one raised troponin without an ischaemic context.
 Ruling out NSTEMI on a normal first ECG and a normal first troponin.
 Anticoagulating and catheterising a septic or severely anaemic patient whose troponin rose for that reason.
+## related_articles
+ART-CVS-UNSTABLE-ANGINA: shares a concept with this article
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -552,7 +564,7 @@ SYS-CVS-T03-S02-M03
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.st-elevation-occlusion | med.concept.ecg-territory-localisation | med.concept.time-dependent-myocardial-salvage
+CON-CVS-E098BA1F8E472C | CON-CVS-7D1C84E60DA84D | CON-CVS-4F4134BADDE6A1
 ## summary
 An artery is shut and muscle is dying from the inside outwards. Everything about the management follows from one fact: the amount saved depends on how fast flow is restored.
 ## sections
@@ -615,6 +627,8 @@ Waiting for a troponin result before activating reperfusion in a patient with ST
 Missing right ventricular involvement in inferior infarction by not recording right-sided leads.
 Missing posterior infarction, which may show only reciprocal anterior changes.
 Reciting a remembered time target instead of the one in the guideline currently in force.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -695,7 +709,7 @@ SYS-CVS-T03-S02-M04
 ## secondary_node_ids
 DIS-PAT
 ## related_concepts
-med.concept.early-post-infarction-arrhythmia | med.concept.mechanical-complications-timing | med.concept.post-infarction-remodelling
+CON-CVS-50689264617D53 | CON-CVS-47C35793220C42 | CON-CVS-622D9ADBF1CB2D
 ## summary
 The infarct is an event; its complications are a timetable. What can go wrong on day one is not what goes wrong on day five, and knowing the order is what makes the deterioration interpretable.
 ## sections
@@ -755,6 +769,8 @@ Right ventricular infarction is preload-dependent, so treatments that reduce pre
 Expecting rupture at the time of the infarct rather than during the days when necrotic tissue is being cleared.
 Missing right ventricular infarction in an inferior event, and treating the hypotension in a way that worsens it.
 Treating a post-infarction deterioration without an echocardiogram.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.

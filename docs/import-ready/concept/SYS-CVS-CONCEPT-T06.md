@@ -2,7 +2,7 @@
 ## label
 Stenosis loads a chamber with pressure; regurgitation loads it with volume
 ## id
-med.concept.stenosis-pressure-regurgitation-volume
+CON-CVS-05207022423B56
 ## canonical_key
 stenosis-pressure-regurgitation-volume
 ## aliases
@@ -53,17 +53,32 @@ SYS-CVS-T06-S01-M01
 DIS-PHY
 ## article_ids
 ART-CVS-AORTIC-VALVE-DISEASE | ART-CVS-MITRAL-VALVE-DISEASE
+## blueprint_weight
+0.88
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
-atomicClaimIds: Deferred to the evidence pass. Builds on med.concept.eccentric-versus-concentric-remodelling, authored for T04, which supplies the remodelling response itself.
-
+atomicClaimIds: Deferred to the evidence pass. Builds on CON-CVS-C432B742ED1DAE, authored for T04, which supplies the remodelling response itself.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Symptom onset in aortic stenosis marks a change in prognosis, not just in comfort
 ## id
-med.concept.aortic-stenosis-symptom-threshold
+CON-CVS-C143FB905EFB4C
 ## canonical_key
 aortic-stenosis-symptom-threshold
 ## aliases
@@ -114,17 +129,32 @@ SYS-CVS-T06-S01-M01
 DIS-MED
 ## article_ids
 ART-CVS-AORTIC-VALVE-DISEASE
+## blueprint_weight
+0.95
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-STRESS-TESTING
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No survival figure or gradient threshold is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A fixed obstruction cannot increase output, so the ventricle fails on exertion
 ## id
-med.concept.fixed-obstruction-exertional-failure
+CON-CVS-0E7757A0BE93A4
 ## canonical_key
 fixed-obstruction-exertional-failure
 ## aliases
@@ -175,17 +205,32 @@ SYS-CVS-T06-S01-M01
 SYS-CVS-T02-S02-M01
 ## article_ids
 ART-CVS-AORTIC-VALVE-DISEASE
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Chronic regurgitation is tolerated because the chamber has time to dilate; acute regurgitation is not
 ## id
-med.concept.acute-versus-chronic-regurgitation
+CON-CVS-0B38FB058B8A4D
 ## canonical_key
 acute-versus-chronic-regurgitation
 ## aliases
@@ -236,17 +281,32 @@ SYS-CVS-T06-S01-M01
 KNW-EMG
 ## article_ids
 ART-CVS-AORTIC-VALVE-DISEASE | ART-CVS-MITRAL-VALVE-DISEASE
+## blueprint_weight
+0.93
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Aortic regurgitation widens the pulse pressure
 ## id
-med.concept.aortic-regurgitation-wide-pulse-pressure
+CON-CVS-F5D5599EDFC9BC
 ## canonical_key
 aortic-regurgitation-wide-pulse-pressure
 ## aliases
@@ -297,17 +357,32 @@ SYS-CVS-T06-S01-M01
 SKL-EXM
 ## article_ids
 ART-CVS-AORTIC-VALVE-DISEASE
+## blueprint_weight
+0.9
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-PDA
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Rheumatic fever is the dominant cause of mitral stenosis
 ## id
-med.concept.rheumatic-mitral-stenosis
+CON-CVS-75BE1A604789F8
 ## canonical_key
 rheumatic-mitral-stenosis
 ## aliases
@@ -358,17 +433,32 @@ SYS-CVS-T06-S01-M02
 SYS-INF
 ## article_ids
 ART-CVS-MITRAL-VALVE-DISEASE
+## blueprint_weight
+0.92
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-ATRIAL-FIBRILLATION | ART-CVS-INFECTIVE-ENDOCARDITIS | ART-CVS-RHEUMATIC-HEART-DISEASE
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. Local prominence is stated qualitatively; a verified Egyptian prevalence figure is an evidence gap.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Mitral stenosis loads the left atrium, and everything downstream follows from that
 ## id
-med.concept.mitral-stenosis-atrial-consequences
+CON-CVS-402CAE35A0B61D
 ## canonical_key
 mitral-stenosis-atrial-consequences
 ## aliases
@@ -419,17 +509,32 @@ SYS-CVS-T06-S01-M02
 SYS-CVS-T05-S02-M01
 ## article_ids
 ART-CVS-MITRAL-VALVE-DISEASE
+## blueprint_weight
+0.93
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Mitral regurgitation may be a disease of the leaflets or of the ventricle that holds them
 ## id
-med.concept.primary-versus-secondary-mitral-regurgitation
+CON-CVS-12EC0D049FEF8F
 ## canonical_key
 primary-versus-secondary-mitral-regurgitation
 ## aliases
@@ -480,17 +585,32 @@ SYS-CVS-T06-S01-M02
 SYS-CVS-T04-S01-M01
 ## article_ids
 ART-CVS-MITRAL-VALVE-DISEASE
+## blueprint_weight
+0.9
+## clinical_relevance
+0.75
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+ART-CVS-DILATED-CARDIOMYOPATHY
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A regurgitant valve flatters the ejection fraction
 ## id
-med.concept.regurgitation-flatters-ejection-fraction
+CON-CVS-2D0ED2220BECB4
 ## canonical_key
 regurgitation-flatters-ejection-fraction
 ## aliases
@@ -541,17 +661,32 @@ SYS-CVS-T06-S01-M02
 SYS-CVS-T04-S01-M01
 ## article_ids
 ART-CVS-MITRAL-VALVE-DISEASE
+## blueprint_weight
+0.88
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No ejection fraction threshold is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Tricuspid regurgitation is usually the consequence of a dilated right ventricle
 ## id
-med.concept.functional-tricuspid-regurgitation
+CON-CVS-89D2E3C2454268
 ## canonical_key
 functional-tricuspid-regurgitation
 ## aliases
@@ -602,17 +737,32 @@ SYS-CVS-T06-S01-M03
 SYS-CVS-T04-S01-M04
 ## article_ids
 ART-CVS-TRICUSPID-VALVE-DISEASE
+## blueprint_weight
+0.85
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-RIGHT-HEART-FAILURE
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Right-sided murmurs increase on inspiration
 ## id
-med.concept.right-sided-murmurs-inspiration
+CON-CVS-C3C0B5FCDEC9F1
 ## canonical_key
 right-sided-murmurs-inspiration
 ## aliases
@@ -663,17 +813,32 @@ SYS-CVS-T06-S01-M03
 SKL-EXM
 ## article_ids
 ART-CVS-TRICUSPID-VALVE-DISEASE
+## blueprint_weight
+0.88
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-PULMONARY-VALVE-DISEASE
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Pulmonary valve disease is predominantly congenital
 ## id
-med.concept.pulmonary-valve-disease-congenital
+CON-CVS-B0648189463ED3
 ## canonical_key
 pulmonary-valve-disease-congenital
 ## aliases
@@ -724,17 +889,32 @@ SYS-CVS-T06-S01-M04
 SYS-CVS-T08-S01-M04
 ## article_ids
 ART-CVS-PULMONARY-VALVE-DISEASE
+## blueprint_weight
+0.8
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Pericarditis produces widespread ECG change, not territorial change
 ## id
-med.concept.pericarditis-widespread-ecg
+CON-CVS-F1188F77F384FF
 ## canonical_key
 pericarditis-widespread-ecg
 ## aliases
@@ -785,17 +965,32 @@ SYS-CVS-T06-S02-M01
 SYS-CVS-T09-S01-M01
 ## article_ids
 ART-CVS-PERICARDITIS
+## blueprint_weight
+0.93
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
-atomicClaimIds: Deferred to the evidence pass. Builds on med.concept.ecg-territory-localisation, authored for T03, which establishes territorial mapping.
-
+atomicClaimIds: Deferred to the evidence pass. Builds on CON-CVS-7D1C84E60DA84D, authored for T03, which establishes territorial mapping.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 In pericardial effusion the rate of accumulation matters more than the volume
 ## id
-med.concept.effusion-rate-over-volume
+CON-CVS-11B274665378CB
 ## canonical_key
 effusion-rate-over-volume
 ## aliases
@@ -846,17 +1041,32 @@ SYS-CVS-T06-S02-M02
 KNW-EMG
 ## article_ids
 ART-CVS-PERICARDIAL-EFFUSION
+## blueprint_weight
+0.93
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Tamponade is a diagnosis of impaired filling, made clinically
 ## id
-med.concept.tamponade-is-clinical
+CON-CVS-ABE9CE4B64FEF8
 ## canonical_key
 tamponade-is-clinical
 ## aliases
@@ -907,17 +1117,32 @@ SYS-CVS-T06-S02-M03
 KNW-EMG
 ## article_ids
 ART-CVS-CARDIAC-TAMPONADE
+## blueprint_weight
+0.95
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+ART-CVS-CHEST-PAIN | ART-CVS-PERICARDIAL-EFFUSION | ART-CVS-AORTIC-DISSECTION
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No drainage indication or technique is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Pulsus paradoxus is an exaggeration of a normal phenomenon
 ## id
-med.concept.pulsus-paradoxus
+CON-CVS-30018CA741B7DA
 ## canonical_key
 pulsus-paradoxus
 ## aliases
@@ -968,17 +1193,32 @@ SYS-CVS-T06-S02-M03
 SKL-EXM
 ## article_ids
 ART-CVS-CARDIAC-TAMPONADE
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-PERICARDIAL-EFFUSION | ART-CVS-CONSTRICTIVE-PERICARDITIS
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A rigid pericardium makes the ventricles compete for a fixed volume
 ## id
-med.concept.ventricular-interdependence-constriction
+CON-CVS-268E5C530580B6
 ## canonical_key
 ventricular-interdependence-constriction
 ## aliases
@@ -1029,17 +1269,32 @@ SYS-CVS-T06-S02-M04
 SYS-CVS-T04-S02-M03
 ## article_ids
 ART-CVS-CONSTRICTIVE-PERICARDITIS
+## blueprint_weight
+0.88
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-RESTRICTIVE-CARDIOMYOPATHY
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
-atomicClaimIds: Deferred to the evidence pass. Complements med.concept.restriction-versus-constriction, authored for T04, which states why the distinction matters.
-
+atomicClaimIds: Deferred to the evidence pass. Complements CON-CVS-AF4489EBD5E71C, authored for T04, which states why the distinction matters.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Tuberculosis is a leading cause of constrictive pericarditis where it is endemic
 ## id
-med.concept.tuberculous-pericarditis
+CON-CVS-E1FE73100F1688
 ## canonical_key
 tuberculous-pericarditis
 ## aliases
@@ -1090,6 +1345,22 @@ SYS-CVS-T06-S02-M04
 SYS-INF
 ## article_ids
 ART-CVS-CONSTRICTIVE-PERICARDITIS
+## blueprint_weight
+0.88
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-PERICARDITIS
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. Regional prominence stated qualitatively; a verified Egyptian figure is an evidence gap.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.

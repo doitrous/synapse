@@ -155,7 +155,17 @@ raised gap points to ketoacidosis.
 | `Concept:` | The ONE concept this question teaches. |
 | `Also:` | Concepts it also assesses, `\|`-separated. |
 | `Difficulty:` | This question's intended difficulty. |
-| `Media:` | A **real** media URL for this question. Leave it out unless you have one. |
+| `Media:` | A **real image** URL for this question. Leave it out unless you have one. See the warning below — it is not a general media field. |
+
+> **`Media:` is image-only, whatever the admin form says.** The student runner renders it
+> through `ZoomableImage` — an `<img>` — so an audio or video URL produces a broken image,
+> silently. The admin field's own placeholder invites "ECG, X-ray, CT, waveform, **or audio
+> URL**", and the last of those does not work.
+>
+> **There is nowhere in a practical to attach a heart sound, a murmur or a breath sound.**
+> If you need one, write it as an MCQ instead — a question's `## attachments` takes `audio`
+> and `video` blocks, and is the only student-facing item that does. See
+> [05-questions.md](05-questions.md) §Media.
 
 `Concept:`, `Also:`, `Difficulty:` and `Media:` are **scalar labels** — each takes its own
 line, then the parser reverts to context. Putting a value on the same line as

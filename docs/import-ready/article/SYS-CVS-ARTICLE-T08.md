@@ -50,7 +50,7 @@ SYS-CVS-T08-S01-M01
 ## secondary_node_ids
 SYS-DEV
 ## related_concepts
-med.concept.left-to-right-shunt-physiology | med.concept.fixed-splitting-asd | med.concept.paradoxical-embolism
+CON-CVS-B1A2897491952B | CON-CVS-7300317974119B | CON-CVS-B5692258332FC3
 ## summary
 A defect that makes no murmur of its own and often presents in adulthood. What gives it away is a second heart sound that stops responding to breathing.
 ## sections
@@ -106,6 +106,10 @@ Closure is contraindicated once irreversible pulmonary vascular disease is estab
 Listening for a murmur from the defect itself.
 Excluding a defect on a normal transthoracic study when a sinus venosus defect is suspected.
 Closing a defect in a patient who has developed Eisenmenger physiology.
+## related_articles
+ART-CVS-PDA: shares a concept with this article
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -179,7 +183,7 @@ SYS-CVS-T08-S01-M02
 ## secondary_node_ids
 SYS-DEV
 ## related_concepts
-med.concept.vsd-murmur-inverse-to-size | med.concept.eisenmenger-physiology
+CON-CVS-B04B41D8FDD7E6 | CON-CVS-4F97E55A041408
 ## summary
 The loudest murmur in the chest often means the smallest problem. Grading this lesion by how it sounds gets it exactly backwards.
 ## sections
@@ -239,6 +243,8 @@ Closure must precede the development of irreversible pulmonary vascular disease.
 Grading severity by how loud the murmur is.
 Closing a defect once the shunt has reversed.
 Applying endocarditis prophylaxis universally rather than to the groups the current guideline defines.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -312,7 +318,7 @@ SYS-CVS-T08-S01-M03
 ## secondary_node_ids
 SYS-DEV
 ## related_concepts
-med.concept.ductal-closure-physiology | med.concept.left-to-right-shunt-physiology
+CON-CVS-6E63E04841FC34 | CON-CVS-B1A2897491952B
 ## summary
 A fetal shortcut that should have shut. The same physiology that closes it is used deliberately to keep it open in other lesions — which is why it is worth understanding rather than memorising.
 ## sections
@@ -364,6 +370,10 @@ In duct-dependent lesions the ductus is kept open deliberately — the opposite 
 Closing a duct in a patient whose circulation depends on it.
 Closing a duct after the shunt has reversed.
 Treating every preterm duct as requiring closure, when the evidence and current guidance are genuinely contested.
+## related_articles
+ART-CVS-ASD: shares a concept with this article
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -437,7 +447,7 @@ SYS-CVS-T08-S01-M04
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.tetralogy-single-malformation | med.concept.tet-spell-resistance-balance
+CON-CVS-AF9212C18AAF03 | CON-CVS-CD7C6176420AD1
 ## summary
 Four features from one misplaced septum, and a child who squats because it works. The cyanosis is not fixed — it depends on a balance between two resistances, and that is why the physiology is treatable at the bedside.
 ## sections
@@ -501,6 +511,8 @@ Squatting and knee-to-chest positioning work by raising systemic vascular resist
 Giving an agent that lowers systemic vascular resistance during a spell.
 Attributing the murmur to the septal defect rather than to the outflow obstruction.
 Treating repaired tetralogy as cured and discharging the patient from follow-up.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -574,7 +586,7 @@ SYS-CVS-T08-S01-M05
 ## secondary_node_ids
 SYS-CVS-T07-S01-M02
 ## related_concepts
-med.concept.coarctation-differential-perfusion
+CON-CVS-16DABC14A1836E
 ## summary
 A curable cause of hypertension found by an examination step that takes five seconds — and missed for decades when nobody feels the femoral pulse.
 ## sections
@@ -636,6 +648,8 @@ Severe neonatal coarctation is duct-dependent, and closure of the duct precipita
 Diagnosing primary hypertension in a young patient without feeling the femoral pulses.
 Measuring blood pressure in one arm only, when the left subclavian may arise distal to the narrowing.
 Discharging a repaired patient from follow-up.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -709,7 +723,7 @@ SYS-CVS-T08-S02-M01
 ## secondary_node_ids
 SYS-INF
 ## related_concepts
-med.concept.endocarditis-two-requirements | med.concept.cultures-before-antibiotics
+CON-CVS-45B20CE90AF6EE | CON-CVS-E32EB4A194172E
 ## summary
 Fever and a murmur, and the diagnosis stands or falls on blood cultures taken before the first dose of antibiotic. One well-meant early dose can obscure it for the whole admission.
 ## sections
@@ -777,6 +791,8 @@ A new conduction abnormality suggests aortic root abscess.
 Giving antibiotics before cultures in a stable patient with fever and a murmur.
 Excluding endocarditis on a negative transthoracic echocardiogram.
 Applying historical universal prophylaxis rather than the narrower current indications.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -857,7 +873,7 @@ SYS-CVS-T08-S02-M02
 ## secondary_node_ids
 SYS-IMM
 ## related_concepts
-med.concept.rheumatic-fever-immune-mechanism | med.concept.secondary-prophylaxis-prevents-valve-damage
+CON-CVS-869AC2D954CA74 | CON-CVS-ACA109BFD54CDE
 ## summary
 A sore throat that damages a heart valve years later, entirely preventably. This is the most locally consequential article in the cardiovascular system, and the intervention that matters most costs almost nothing.
 ## sections
@@ -933,6 +949,8 @@ Echocardiography detects subclinical carditis that auscultation misses, and that
 Stopping secondary prophylaxis once the acute illness settles or the patient feels well.
 Relying on auscultation alone to exclude carditis.
 Treating the established valve lesion as the priority while neglecting prophylaxis against the next attack.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -1006,7 +1024,7 @@ SYS-CVS-T08-S02-M03
 ## secondary_node_ids
 SYS-IMM
 ## related_concepts
-med.concept.vasculitis-classified-by-vessel-size | med.concept.gca-treat-before-confirming | med.concept.takayasu-pulseless-disease
+CON-CVS-A68AA3AE782AD6 | CON-CVS-36601970D9FB42 | CON-CVS-93E29B279C9ADF
 ## summary
 Vessel size predicts the syndrome, so the classification does the diagnostic work. And in one of these conditions you treat first and confirm afterwards, because the complication cannot be undone.
 ## sections
@@ -1076,6 +1094,8 @@ Measure blood pressure in both arms in a young patient with claudication or asym
 Waiting for a temporal artery biopsy result before starting treatment.
 Excluding giant cell arteritis on a negative biopsy, when skip lesions are common.
 Attempting revascularisation in Takayasu arteritis during active inflammation.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.

@@ -2,7 +2,7 @@
 ## label
 A left-to-right shunt overloads the pulmonary circulation without causing cyanosis
 ## id
-med.concept.left-to-right-shunt-physiology
+CON-CVS-B1A2897491952B
 ## canonical_key
 left-to-right-shunt-physiology
 ## aliases
@@ -53,17 +53,32 @@ SYS-CVS-T08-S01-M01
 SYS-DEV
 ## article_ids
 ART-CVS-ASD | ART-CVS-VSD | ART-CVS-PDA
+## blueprint_weight
+0.85
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-POST-MI-COMPLICATIONS | ART-CVS-RIGHT-HEART-FAILURE
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Sustained pulmonary overcirculation can reverse a shunt permanently
 ## id
-med.concept.eisenmenger-physiology
+CON-CVS-4F97E55A041408
 ## canonical_key
 eisenmenger-physiology
 ## aliases
@@ -114,17 +129,32 @@ SYS-CVS-T08-S01-M02
 SYS-RES
 ## article_ids
 ART-CVS-VSD | ART-CVS-ASD | ART-CVS-PDA
+## blueprint_weight
+0.9
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Fixed splitting of the second heart sound is the signature of an atrial septal defect
 ## id
-med.concept.fixed-splitting-asd
+CON-CVS-7300317974119B
 ## canonical_key
 fixed-splitting-asd
 ## aliases
@@ -175,17 +205,32 @@ SYS-CVS-T08-S01-M01
 SKL-EXM
 ## article_ids
 ART-CVS-ASD
+## blueprint_weight
+0.88
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 An atrial septal defect allows a venous clot to reach the systemic circulation
 ## id
-med.concept.paradoxical-embolism
+CON-CVS-B5692258332FC3
 ## canonical_key
 paradoxical-embolism
 ## aliases
@@ -236,17 +281,32 @@ SYS-CVS-T08-S01-M01
 SYS-NEU
 ## article_ids
 ART-CVS-ASD
+## blueprint_weight
+0.88
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-TETRALOGY-OF-FALLOT
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A small ventricular septal defect is loud; a large one is quiet
 ## id
-med.concept.vsd-murmur-inverse-to-size
+CON-CVS-B04B41D8FDD7E6
 ## canonical_key
 vsd-murmur-inverse-to-size
 ## aliases
@@ -297,17 +357,32 @@ SYS-CVS-T08-S01-M02
 SKL-EXM
 ## article_ids
 ART-CVS-VSD
+## blueprint_weight
+0.9
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 The ductus arteriosus normally closes when oxygen rises and prostaglandin falls
 ## id
-med.concept.ductal-closure-physiology
+CON-CVS-6E63E04841FC34
 ## canonical_key
 ductal-closure-physiology
 ## aliases
@@ -358,17 +433,32 @@ SYS-CVS-T08-S01-M03
 SYS-DEV
 ## article_ids
 ART-CVS-PDA
+## blueprint_weight
+0.85
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No drug or dose is named; agents belong to DIS-PHA.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Tetralogy of Fallot is four features arising from one malformation
 ## id
-med.concept.tetralogy-single-malformation
+CON-CVS-AF9212C18AAF03
 ## canonical_key
 tetralogy-single-malformation
 ## aliases
@@ -419,17 +509,32 @@ SYS-CVS-T08-S01-M04
 SYS-DEV
 ## article_ids
 ART-CVS-TETRALOGY-OF-FALLOT
+## blueprint_weight
+0.88
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-PULMONARY-VALVE-DISEASE
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Cyanosis in tetralogy depends on the balance between two resistances
 ## id
-med.concept.tet-spell-resistance-balance
+CON-CVS-CD7C6176420AD1
 ## canonical_key
 tet-spell-resistance-balance
 ## aliases
@@ -480,17 +585,32 @@ SYS-CVS-T08-S01-M04
 KNW-EMG
 ## article_ids
 ART-CVS-TETRALOGY-OF-FALLOT
+## blueprint_weight
+0.93
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-HYPERTROPHIC-CARDIOMYOPATHY
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No drug, dose or spell protocol is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Coarctation produces hypertension above the narrowing and hypoperfusion below it
 ## id
-med.concept.coarctation-differential-perfusion
+CON-CVS-16DABC14A1836E
 ## canonical_key
 coarctation-differential-perfusion
 ## aliases
@@ -541,17 +661,32 @@ SYS-CVS-T08-S01-M05
 SYS-CVS-T07-S01-M02
 ## article_ids
 ART-CVS-COARCTATION
+## blueprint_weight
+0.88
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+ART-CVS-SECONDARY-HYPERTENSION
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Infective endocarditis requires a surface to settle on and organisms to settle there
 ## id
-med.concept.endocarditis-two-requirements
+CON-CVS-45B20CE90AF6EE
 ## canonical_key
 endocarditis-two-requirements
 ## aliases
@@ -602,17 +737,32 @@ SYS-CVS-T08-S02-M01
 SYS-INF
 ## article_ids
 ART-CVS-INFECTIVE-ENDOCARDITIS
+## blueprint_weight
+0.95
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No antimicrobial, dose or duration is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Blood cultures must be taken before antibiotics in suspected endocarditis
 ## id
-med.concept.cultures-before-antibiotics
+CON-CVS-E32EB4A194172E
 ## canonical_key
 cultures-before-antibiotics
 ## aliases
@@ -663,17 +813,32 @@ SYS-CVS-T08-S02-M01
 SYS-INF
 ## article_ids
 ART-CVS-INFECTIVE-ENDOCARDITIS
+## blueprint_weight
+0.95
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. Number and timing of culture sets follow the guideline in force.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Rheumatic fever is an immune response to streptococcal infection, not an infection of the heart
 ## id
-med.concept.rheumatic-fever-immune-mechanism
+CON-CVS-869AC2D954CA74
 ## canonical_key
 rheumatic-fever-immune-mechanism
 ## aliases
@@ -724,17 +889,32 @@ SYS-CVS-T08-S02-M02
 SYS-IMM
 ## article_ids
 ART-CVS-RHEUMATIC-HEART-DISEASE
+## blueprint_weight
+0.92
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Secondary prophylaxis prevents recurrence, and recurrence is what destroys the valve
 ## id
-med.concept.secondary-prophylaxis-prevents-valve-damage
+CON-CVS-ACA109BFD54CDE
 ## canonical_key
 secondary-prophylaxis-prevents-valve-damage
 ## aliases
@@ -785,17 +965,32 @@ SYS-CVS-T08-S02-M02
 SYS-POP
 ## article_ids
 ART-CVS-RHEUMATIC-HEART-DISEASE
+## blueprint_weight
+0.92
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-MITRAL-VALVE-DISEASE
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No agent, dose or duration is stated; all follow the guideline in force.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Vasculitis is classified by the size of the vessel it affects
 ## id
-med.concept.vasculitis-classified-by-vessel-size
+CON-CVS-A68AA3AE782AD6
 ## canonical_key
 vasculitis-classified-by-vessel-size
 ## aliases
@@ -846,17 +1041,32 @@ SYS-CVS-T08-S02-M03
 SYS-IMM
 ## article_ids
 ART-CVS-VASCULITIS
+## blueprint_weight
+0.88
+## clinical_relevance
+0.75
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Suspected giant cell arteritis is treated before it is confirmed
 ## id
-med.concept.gca-treat-before-confirming
+CON-CVS-36601970D9FB42
 ## canonical_key
 gca-treat-before-confirming
 ## aliases
@@ -907,17 +1117,32 @@ SYS-CVS-T08-S02-M03
 KNW-EMG
 ## article_ids
 ART-CVS-VASCULITIS
+## blueprint_weight
+0.93
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass. No agent, dose or biopsy timing is stated.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Takayasu arteritis causes absent pulses and blood pressure asymmetry in young patients
 ## id
-med.concept.takayasu-pulseless-disease
+CON-CVS-93E29B279C9ADF
 ## canonical_key
 takayasu-pulseless-disease
 ## aliases
@@ -968,6 +1193,22 @@ SYS-CVS-T08-S02-M03
 SYS-IMM
 ## article_ids
 ART-CVS-VASCULITIS
+## blueprint_weight
+0.85
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.

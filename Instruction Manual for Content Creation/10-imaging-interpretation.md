@@ -133,6 +133,16 @@ Identical to lab interpretation.
 | `Difficulty:` | This question's intended difficulty. |
 | `Media:` | A **real** image URL. Omit unless you have one. |
 
+> **`Media:` is image-only, whatever the admin form says.** The student runner renders it
+> through `ZoomableImage` — an `<img>` — so an audio or video URL produces a broken image,
+> silently. The admin field's own placeholder invites "ECG, X-ray, CT, waveform, **or audio
+> URL**", and the last of those does not work.
+>
+> **There is nowhere in a practical to attach a heart sound, a murmur or a breath sound.**
+> If you need one, write it as an MCQ instead — a question's `## attachments` takes `audio`
+> and `video` blocks, and is the only student-facing item that does. See
+> [05-questions.md](05-questions.md) §Media.
+
 `Concept:`, `Also:`, `Difficulty:` and `Media:` are **scalar labels** — each on its own
 line, then the parser reverts to context.
 

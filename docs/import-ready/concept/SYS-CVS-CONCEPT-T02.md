@@ -2,7 +2,7 @@
 ## label
 Cardiac chest pain arises from myocardial ischaemia, not from the chest wall
 ## id
-med.concept.cardiac-chest-pain-origin
+CON-CVS-96833CEE2EBBF2
 ## canonical_key
 cardiac-chest-pain-origin
 ## aliases
@@ -53,17 +53,32 @@ SYS-CVS-T02-S01-M01
 DIS-MED
 ## article_ids
 ART-CVS-CHEST-PAIN
+## blueprint_weight
+0.85
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; the concept is authored from authoritative texts under LD-14 and carries no local occurrence.
 atomicClaimIds: Claims and citations are authored in the evidence pass that follows this batch; the concept is deliberately left at needs_evidence rather than asserting a chain that does not exist.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Referred cardiac pain follows the T1–T4 sympathetic afferents
 ## id
-med.concept.referred-cardiac-pain
+CON-CVS-06EC3418535C8F
 ## canonical_key
 referred-cardiac-pain
 ## aliases
@@ -114,17 +129,32 @@ SYS-CVS-T02-S01-M01
 DIS-ANA
 ## article_ids
 ART-CVS-CHEST-PAIN
+## blueprint_weight
+0.8
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Chest pain is triaged by the conditions that kill, not by the ones that are common
 ## id
-med.concept.chest-pain-triage-priority
+CON-CVS-EA365E43773219
 ## canonical_key
 chest-pain-triage-priority
 ## aliases
@@ -175,17 +205,32 @@ SYS-CVS-T02-S01-M01
 KNW-EMG
 ## article_ids
 ART-CVS-CHEST-PAIN
+## blueprint_weight
+0.83
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Palpitation is an awareness of the heartbeat, not a diagnosis
 ## id
-med.concept.palpitation-definition
+CON-CVS-97FE48E2D8B55E
 ## canonical_key
 palpitation-definition
 ## aliases
@@ -236,17 +281,32 @@ SYS-CVS-T02-S01-M02
 DIS-MED
 ## article_ids
 ART-CVS-PALPITATIONS
+## blueprint_weight
+0.75
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 A palpitation is diagnosed by capturing the rhythm while the symptom is happening
 ## id
-med.concept.palpitation-symptom-rhythm-correlation
+CON-CVS-A79213496B4D05
 ## canonical_key
 palpitation-symptom-rhythm-correlation
 ## aliases
@@ -297,17 +357,32 @@ SYS-CVS-T02-S01-M02
 SKL-EXM
 ## article_ids
 ART-CVS-PALPITATIONS
+## blueprint_weight
+0.78
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Syncope is transient global cerebral hypoperfusion with spontaneous full recovery
 ## id
-med.concept.syncope-definition
+CON-CVS-D3ED0A0E795D72
 ## canonical_key
 syncope-definition
 ## aliases
@@ -358,17 +433,32 @@ SYS-CVS-T02-S02-M01
 DIS-MED
 ## article_ids
 ART-CVS-SYNCOPE
+## blueprint_weight
+0.83
+## clinical_relevance
+0.7
+## academic_relevance
+0.95
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Cardiac syncope is distinguished from reflex syncope by its lack of warning and its posture independence
 ## id
-med.concept.cardiac-versus-reflex-syncope
+CON-CVS-6B41EC053C0DC0
 ## canonical_key
 cardiac-versus-reflex-syncope
 ## aliases
@@ -419,17 +509,32 @@ SYS-CVS-T02-S02-M01
 KNW-EMG
 ## article_ids
 ART-CVS-SYNCOPE
+## blueprint_weight
+0.83
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Oedema forms when the Starling forces favour filtration or when lymphatic drainage fails
 ## id
-med.concept.oedema-starling-mechanism
+CON-CVS-0CBD226F515D23
 ## canonical_key
 oedema-starling-mechanism
 ## aliases
@@ -480,17 +585,32 @@ SYS-CVS-T02-S02-M02
 DIS-PHY
 ## article_ids
 ART-CVS-OEDEMA
+## blueprint_weight
+0.83
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: Five processed corpus sources touch this node, but no per-occurrence extraction has been run for SYS-CVS; the occurrence IDs are deferred to the evidence pass rather than guessed.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 The distribution of oedema locates its cause
 ## id
-med.concept.oedema-distribution
+CON-CVS-A0176AF74ADE58
 ## canonical_key
 oedema-distribution
 ## aliases
@@ -541,17 +661,32 @@ SYS-CVS-T02-S02-M02
 SKL-EXM
 ## article_ids
 ART-CVS-OEDEMA
+## blueprint_weight
+0.83
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: Deferred to the evidence pass; no per-occurrence extraction has been run for SYS-CVS.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Intermittent claudication is exertional muscle ischaemia relieved by rest
 ## id
-med.concept.intermittent-claudication
+CON-CVS-C35C864EA79CCB
 ## canonical_key
 intermittent-claudication
 ## aliases
@@ -602,17 +737,32 @@ SYS-CVS-T02-S02-M03
 DIS-MED
 ## article_ids
 ART-CVS-CLAUDICATION
+## blueprint_weight
+0.8
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## confidence
+0.7
+## related_article_ids
+[clear]
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
-
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.
 ---
 
 # Item
 ## label
 Critical limb ischaemia is distinguished from claudication by pain at rest
 ## id
-med.concept.critical-limb-ischaemia-threshold
+CON-CVS-75FDE074D4B12E
 ## canonical_key
 critical-limb-ischaemia-threshold
 ## aliases
@@ -663,6 +813,22 @@ SYS-CVS-T02-S02-M03
 KNW-EMG
 ## article_ids
 ART-CVS-CLAUDICATION
+## blueprint_weight
+0.88
+## clinical_relevance
+0.9
+## academic_relevance
+0.85
+## confidence
+0.7
+## related_article_ids
+ART-CVS-PERIPHERAL-ARTERIAL-DISEASE
 ## field_notes
 resourceOccurrenceIds: No processed corpus source teaches this node; authored from authoritative texts under LD-14.
 atomicClaimIds: Deferred to the evidence pass.
+moduleIds: No module catalogue is populated for this curriculum — no live concept carries a module ID. Left explicit and unguessed rather than inventing a mapping.
+microtopicId: The canonical placement is already at microtopic depth (SYS-CVS-…-M..); the university overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes, so there is nothing to point at.
+approvedFileResourceIds: No file resource has completed rights clearance for this concept; no live concept carries one yet.
+approvedVideoResourceIds: No video resource has completed rights clearance for this concept; no live concept carries one yet.
+sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no candidate record exists for a T02–T09 concept. Authored from authoritative texts under LD-14.

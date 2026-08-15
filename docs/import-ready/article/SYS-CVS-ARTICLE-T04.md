@@ -50,7 +50,7 @@ SYS-CVS-T04-S01-M01
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.heart-failure-is-a-syndrome | med.concept.ejection-fraction-classifies-not-defines | med.concept.eccentric-versus-concentric-remodelling | med.concept.neurohormonal-activation-in-heart-failure | med.concept.natriuretic-peptides-rule-out
+CON-CVS-F128F608F5BA68 | CON-CVS-60414C8D9FDCFD | CON-CVS-C432B742ED1DAE | CON-CVS-A08556F9435CB4 | CON-CVS-158CE5FC3C00D1
 ## summary
 A pump that cannot empty, and a body that responds by making the job harder. The treatment that prolongs life blocks the compensation rather than stimulating the heart — which is the single most counter-intuitive fact in cardiology.
 ## sections
@@ -110,6 +110,8 @@ A completely normal ECG makes heart failure with reduced ejection fraction unlik
 Treating congestion and stopping there. Diuretics make the patient feel better and do not change prognosis.
 Reaching for an inotrope because the pump is weak; that improves haemodynamics and worsens survival.
 Recording "heart failure" as the diagnosis without pursuing ischaemia, valve disease or arrhythmia.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -183,7 +185,7 @@ SYS-CVS-T04-S01-M02
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.hfpef-is-a-filling-problem | med.concept.stiff-ventricle-depends-on-atrial-kick-and-diastolic-time
+CON-CVS-B4176527CD22F2 | CON-CVS-5D3DD9D51A4664
 ## summary
 The ejection fraction is normal and the patient is drowning. Half of all heart failure looks like this, and the number that reassures you is the one measuring the wrong thing.
 ## sections
@@ -239,6 +241,8 @@ Mortality approaches that of heart failure with a reduced ejection fraction.
 Excluding heart failure because the ejection fraction is normal.
 Reading a non-displaced apex as evidence against heart failure; the cavity is not dilated in this phenotype.
 Diuresing aggressively. These patients tolerate under-filling as badly as over-filling.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -312,7 +316,7 @@ SYS-CVS-T04-S01-M03
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.wet-dry-warm-cold | med.concept.redistribution-pulmonary-oedema
+CON-CVS-36C0FD0F3D948D | CON-CVS-BB3B2F423519C6
 ## summary
 Two questions answered at the bedside — is the patient congested, and are they perfused — sort acute heart failure into four situations that need different things. The ejection fraction can wait.
 ## sections
@@ -368,6 +372,8 @@ Always look for the precipitant — finding it is part of the treatment.
 Giving a large diuretic dose to every breathless patient, including the hypertensive redistribution presentation who is not overloaded, and the cold underfilled patient in whom it is harmful.
 Giving oxygen to a patient who is not hypoxic.
 Treating the episode without identifying and correcting what precipitated it.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -441,7 +447,7 @@ SYS-CVS-T04-S01-M04
 ## secondary_node_ids
 SYS-RES
 ## related_concepts
-med.concept.left-failure-causes-right-failure | med.concept.cor-pulmonale
+CON-CVS-BD1C5CAA5FCE5E | CON-CVS-02C7499DE32A4F
 ## summary
 The chamber built for a low-pressure circuit, asked to work against a high-pressure one. Where the congestion appears tells you which side failed; what raised the load tells you why.
 ## sections
@@ -501,6 +507,8 @@ The right ventricle is preload-dependent, so over-diuresis and any treatment red
 Investigating a primary pulmonary cause before excluding left heart disease.
 Giving pulmonary vasodilator therapy for pulmonary hypertension that is secondary to left heart disease.
 Omitting schistosomiasis from the differential in a patient with relevant exposure.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -574,7 +582,7 @@ SYS-CVS-T04-S02-M01
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.dilated-cardiomyopathy-definition
+CON-CVS-C531A645354244
 ## summary
 A big, weak ventricle with no loading condition and no coronary disease to blame. The definition is an exclusion, which means the work is in what you rule out.
 ## sections
@@ -634,6 +642,8 @@ Functional mitral regurgitation from annular stretch worsens the volume load and
 Diagnosing dilated cardiomyopathy without assessing the coronary arteries.
 Missing tachycardia-induced cardiomyopathy and treating only the heart failure, when controlling the rhythm may restore function.
 Omitting family screening where an inherited cause is likely.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -707,7 +717,7 @@ SYS-CVS-T04-S02-M02
 ## secondary_node_ids
 DIS-PAT
 ## related_concepts
-med.concept.hypertrophic-cardiomyopathy-definition | med.concept.dynamic-obstruction-manoeuvres | med.concept.hcm-sudden-death
+CON-CVS-D65416DBAEAA0E | CON-CVS-3E5ED855F22FC8 | CON-CVS-9953F14A7D2BC8
 ## summary
 A thick ventricle in a young person with nothing to explain it. The obstruction is dynamic, which is why the murmur behaves backwards — and why the first presentation can be a death on a football pitch.
 ## sections
@@ -769,6 +779,8 @@ Family screening is part of management, because relatives may be affected and as
 Treating the outflow gradient with a vasodilator or a diuretic; reducing preload or afterload worsens dynamic obstruction.
 Excluding the diagnosis because there is no gradient at rest, without provocation testing.
 Assessing sudden death risk once and never revisiting it.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -842,7 +854,7 @@ SYS-CVS-T04-S02-M03
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.restrictive-cardiomyopathy-definition | med.concept.restriction-versus-constriction
+CON-CVS-4A41D59159ED61 | CON-CVS-AF4489EBD5E71C
 ## summary
 Small stiff ventricles and enormous atria. It looks exactly like constrictive pericarditis — and telling them apart decides whether an operation can help.
 ## sections
@@ -904,6 +916,8 @@ These patients depend on a high filling pressure; over-diuresis drops output sha
 Accepting the phenotype without pursuing the cause, when several causes now have specific effective therapy.
 Missing constrictive pericarditis and denying a patient an operation that could transform their condition.
 Applying standard heart failure rate-slowing therapy without considering that output here may depend on rate.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -977,7 +991,7 @@ SYS-CVS-T04-S02-M04
 ## secondary_node_ids
 SYS-INF
 ## related_concepts
-med.concept.myocarditis-mimics-acs
+CON-CVS-0E33A402615A08
 ## summary
 Chest pain, a raised troponin and an abnormal ECG in a young patient — with normal coronary arteries. The commonest mistake is calling that reassuring.
 ## sections
@@ -1041,6 +1055,8 @@ Fulminant myocarditis has high acute mortality and good recovery in survivors, s
 Discharging a young patient with a raised troponin and normal coronary arteries as having had nothing wrong.
 Assuming all myocarditis is viral and self-limiting, and missing giant cell myocarditis or sarcoidosis where immunosuppression changes the outcome.
 Failing to follow up ventricular function, when a proportion progresses to dilated cardiomyopathy.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.

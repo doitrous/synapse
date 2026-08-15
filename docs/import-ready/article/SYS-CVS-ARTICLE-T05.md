@@ -50,7 +50,7 @@ SYS-CVS-T05-S01-M01
 ## secondary_node_ids
 DIS-MED
 ## related_concepts
-med.concept.sinus-node-dysfunction | med.concept.bradycardia-treated-for-symptoms-and-level
+CON-CVS-82AC5CA95A19F5 | CON-CVS-03795B7D34EA9A
 ## summary
 The pacemaker fails and the same diseased atrium starts firing fast. Treating either half makes the other worse, which is why this syndrome needs both problems held in view at once.
 ## sections
@@ -106,6 +106,10 @@ Pacing relieves symptoms in this condition; it has not been shown to prolong lif
 Pacing a number rather than a symptom. Asymptomatic bradycardia in a fit person is usually normal.
 Treating the tachycardic phase without recognising that the same drug will worsen the bradycardic phase.
 Diagnosing sinus node disease in a trained athlete with a low resting rate and no symptoms.
+## related_articles
+ART-CVS-AV-BLOCK: shares a concept with this article
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -179,7 +183,7 @@ SYS-CVS-T05-S01-M02
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.block-level-determines-escape-reliability | med.concept.bradycardia-treated-for-symptoms-and-level
+CON-CVS-F7D1EC90766644 | CON-CVS-03795B7D34EA9A
 ## summary
 Not how much of the conduction is failing, but where. A narrow escape at fifty and a broad escape at thirty are both called complete block, and only one of them is safe.
 ## sections
@@ -245,6 +249,10 @@ Block after inferior infarction is often transient; block after anterior infarct
 Grading block by degree alone and treating all complete block as equivalent.
 Pacing before reviewing the drug chart and the potassium.
 Reassuring a patient with asymptomatic infranodal block, where pacing may be indicated on prognostic grounds.
+## related_articles
+ART-CVS-SINUS-NODE-DISEASE: shares a concept with this article
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -318,7 +326,7 @@ SYS-CVS-T05-S02-M01
 ## secondary_node_ids
 SYS-NEU
 ## related_concepts
-med.concept.af-stasis-and-embolism | med.concept.rate-versus-rhythm-control
+CON-CVS-FB6288CD05630E | CON-CVS-40BDEB7B4BC58D
 ## summary
 The commonest sustained arrhythmia, and the one where the symptom and the danger are unrelated. Whether the patient feels it has almost nothing to do with whether it will cause a stroke.
 ## sections
@@ -386,6 +394,8 @@ A pulse deficit occurs because weak beats after short filling intervals produce 
 Withholding anticoagulation because the patient feels well or because sinus rhythm has been restored.
 Treating a first episode without looking for the precipitant — sepsis, thyrotoxicosis, alcohol, pulmonary embolism.
 Cardioverting without addressing the embolic risk of doing so.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -466,7 +476,7 @@ SYS-CVS-T05-S02-M02
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.re-entry-circuit-requirements | med.concept.avnrt-versus-avrt | med.concept.pre-excitation-delta-wave | med.concept.pre-excited-af-danger | med.concept.nodal-block-is-diagnostic
+CON-CVS-8AE821231859B8 | CON-CVS-09065927D795BB | CON-CVS-0DCE5A186966FB | CON-CVS-64511BC86377AB | CON-CVS-3CC8D219891A88
 ## summary
 A circuit, not a fast pacemaker. It starts and stops in a single beat because a circle either exists or it does not — and blocking the node either breaks it or reveals what it was hiding.
 ## sections
@@ -528,6 +538,8 @@ In pre-excited atrial fibrillation, blocking the node removes the filter that is
 Blocking the atrioventricular node in an irregular broad-complex tachycardia.
 Terminating the episode without first recording a 12-lead ECG during it.
 Assuming a normal resting ECG excludes an accessory pathway — a concealed pathway conducts only retrogradely.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -608,7 +620,7 @@ SYS-CVS-T05-S02-M03
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.broad-complex-is-vt-until-proven-otherwise | med.concept.av-dissociation-indicates-ventricular-origin
+CON-CVS-AEC4F470747102 | CON-CVS-5590534FE77E14
 ## summary
 A regular broad-complex tachycardia is ventricular tachycardia until proven otherwise — and a patient who looks well is not evidence against it.
 ## sections
@@ -670,6 +682,8 @@ Atrioventricular dissociation, capture beats and fusion beats establish a ventri
 Treating a broad-complex tachycardia as supraventricular because the patient looks well.
 Terminating the rhythm without a 12-lead ECG when the patient's condition allowed one.
 Treating the episode without correcting potassium, magnesium and ischaemia.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -743,7 +757,7 @@ SYS-CVS-T05-S02-M04
 ## secondary_node_ids
 KNW-EMG
 ## related_concepts
-med.concept.vf-produces-no-output
+CON-CVS-4B1E9C05DA52C1
 ## summary
 Not a fast rhythm. No rhythm and no output — a cardiac arrest that happens to have electrical activity on the monitor.
 ## sections
@@ -803,6 +817,8 @@ Agonal gasping is common and is not breathing; it does not exclude cardiac arres
 Treating it as a fast rhythm requiring rate control.
 Delaying defibrillation to obtain a 12-lead ECG or intravenous access.
 Mistaking agonal breathing for effective respiration and delaying recognition.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
@@ -876,7 +892,7 @@ SYS-CVS-T05-S02-M05
 ## secondary_node_ids
 DIS-PHA
 ## related_concepts
-med.concept.qt-prolongation-substrate | med.concept.torsades-pause-dependence | med.concept.acquired-qt-prolongation-commoner
+CON-CVS-FA465B905A5C5B | CON-CVS-ADB1946F14D245 | CON-CVS-7B6CFF794FC76C
 ## summary
 An interval on the ECG that measures how long the heart stays vulnerable. Most cases are drugs and electrolytes rather than genetics — and the arrhythmia it causes gets worse if you slow the heart.
 ## sections
@@ -948,6 +964,8 @@ A family history of sudden death, drowning or infant death is significant and mu
 Stopping the offending drug and not correcting potassium and magnesium.
 Managing torsades with the reflexes that apply to monomorphic ventricular tachycardia; the pause dependence inverts them.
 Dismissing exertional or startle-induced syncope in a young person without measuring the QT interval.
+## notes
+Authored in the cardiovascular T02–T09 batch. Evidence chain (claims, citations, spans) is deferred to the evidence pass; the article is deliberately held at needs_evidence until then.
 ## field_notes
 media: No media sourced; needs are recorded as media requests.
 questionIds: Authored in the question pass that follows.
