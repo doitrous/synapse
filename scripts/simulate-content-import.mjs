@@ -20,7 +20,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
 import { importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
-import { materialiseNewItem, mergeContentItem } from '../src/data/importMerge.ts'
+import { materialiseNewItem, mergeContentItem, upsertRecords } from '../src/data/importMerge.ts'
 import {
   evidenceErrors, reconcileClaimEvidence,
   resourceFromRow, claimFromRow, citationFromRow, spanFromRow,
@@ -114,17 +114,12 @@ for (const file of files) {
 }
 batches.sort((a, b) => ORDER[a.kind] - ORDER[b.kind])
 
-const upsert = (existing, incoming, merge) => {
-  const byId = new Map(existing.map((record) => [record.id, record]))
-  let created = 0
-  let updated = 0
-  for (const record of incoming) {
-    const current = byId.get(record.id)
-    if (current) { byId.set(record.id, merge ? merge(current, record) : { ...current, ...record }); updated += 1 }
-    else { byId.set(record.id, record); created += 1 }
-  }
-  return { records: [...byId.values()], created, updated }
-}
+// The upsert itself lives with the merge rules it has to stay consistent with,
+// and is covered by their tests. It used to be re-implemented here, which is how
+// this script came to materialise every incoming row before deciding whether the
+// row was a create or an update.
+const upsert = (existing, incoming, merge, materialise) =>
+  upsertRecords(existing, incoming, { merge, materialise })
 
 const report = []
 // Refusals are deliberately *not* errors. A batch this run cannot apply is a
@@ -163,12 +158,15 @@ for (const batch of batches) {
       const rowErrors = validateImportRow('practical', row)
       // A practical teaches concepts, and one pointing at a concept nobody
       // authored would import cleanly and teach nothing.
+      // A column the row omitted now reads as `undefined` rather than an empty
+      // list, so that an update keeps what the practical already had. Only the
+      // concepts this row actually names can be checked here.
       const data = practicalDataFrom(row)
       const tagged = [
-        ...data.conceptTags.mainConceptIds,
-        ...data.conceptTags.conceptIds,
-        ...data.conceptTags.contextualConceptIds,
-        ...(data.format === 'case' ? data.decisions : data.format === 'lab' ? data.questions : [])
+        ...(data.conceptTags?.mainConceptIds ?? []),
+        ...(data.conceptTags?.conceptIds ?? []),
+        ...(data.conceptTags?.contextualConceptIds ?? []),
+        ...((data.format === 'case' ? data.decisions : data.format === 'lab' ? data.questions : []) ?? [])
           .flatMap((block) => [block.conceptId, ...(block.secondaryConceptIds ?? [])]),
       ].filter(Boolean)
       for (const id of tagged) if (!context.conceptIds.has(id)) rowErrors.push(`concept ${id} does not exist`)
@@ -212,7 +210,11 @@ for (const batch of batches) {
 
   if (batch.kind === 'concept') {
     const incoming = batch.rows.map((row) => conceptFromRow(row, resolvePlacement(row.subject?.trim() ?? '', row, CURRICULUM_CATALOG)))
-    const result = upsert(graph.concepts, incoming.map(materialiseNewConcept), (current, next) => mergeConcept(current, next))
+    // `materialiseNewConcept` is passed in rather than mapped over `incoming`: it
+    // must touch creates only. Mapped, it filled every unmentioned field with
+    // `null` first, and the merge — which skips `undefined`, not `null` — then
+    // wrote all of them over the live record.
+    const result = upsert(graph.concepts, incoming, mergeConcept, materialiseNewConcept)
     graph.concepts = result.records
     report.push({ file: batch.file, kind: batch.kind, ...result, records: undefined, created: result.created, updated: result.updated })
     continue

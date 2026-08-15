@@ -4,11 +4,10 @@ import type {
   ClinicalDecisionDraft, LabQuestionDraft, PracticalAuthoringData, ArticleMediaRecord,
   MediaRequest, MediaRequestKind, MediaRequestMedium, MediaRequestOwnerKind,
   MediaRequestPriority, MediaRequestStatus, CalloutEvidence, PublicationGate,
-  MediaAttachment, QuestionTags, PracticalConceptTags, PracticalDifficulty,
+  MediaAttachment, QuestionTags, PracticalConceptTags, PracticalDifficulty, PracticalCommon,
 } from './contentControl.ts'
 import {
   MEDIA_REQUEST_MEDIA, MEDIA_REQUEST_KINDS, MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES,
-  emptyPracticalCommon,
 } from './contentControl.ts'
 import { DIFFICULTIES } from './qbank.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
@@ -650,19 +649,33 @@ export function parseLabQuestions(value = ''): LabQuestionDraft[] {
 export function practicalDataFrom(values: Record<string, string>, ownerId = ''): PracticalAuthoringData {
   const type = values.type?.trim()
   const learningObjective = values.learning_objective?.trim()
+  // Each of these is `undefined` when its column is absent, so an update keeps
+  // what the practical already had. `materialiseNewItem` lays down the empty
+  // shape a new practical needs. The `emptyPracticalCommon()` spread used to do
+  // that here, on updates too, which wiped a station's references and its whole
+  // concept tagging whenever an author corrected one line of it.
+  const media = values.media_recommendations || values.media_needed
   const shared = {
-    ...emptyPracticalCommon(),
-    references: importLines(values.references),
+    references: values.references?.trim() ? importLines(values.references) : undefined,
     conceptTags: practicalConceptTags(values),
-    mediaRequests: parseMediaRequests(values.media_recommendations || values.media_needed, ownerId, 'practical'),
+    mediaRequests: media?.trim() ? parseMediaRequests(media, ownerId, 'practical') : undefined,
     ...(learningObjective ? { learningObjective } : {}),
-  }
+  } as unknown as PracticalCommon
+  // The format-carrying fields follow the same rule. `format` and `subtype` stay
+  // eager because they are derived from `type`, which is a required column and
+  // so is always restated; the content they carry is not.
+  const only = <T>(key: string, parse: (value: string) => T) => values[key]?.trim() ? parse(values[key]) : undefined
   if (type === 'Clinical case') {
-    return { ...shared, format: 'case', decisions: parseDecisions(values.decisions), debrief: values.debrief?.trim() ?? '' }
+    return {
+      ...shared,
+      format: 'case',
+      decisions: only('decisions', parseDecisions) as ClinicalDecisionDraft[],
+      debrief: trimmed(values.debrief) as string,
+    }
   }
   if (type === 'Lab interpretation' || type === 'Imaging interpretation') {
     const subtype = values.lab_subtype?.trim() === 'Imaging' || type === 'Imaging interpretation' ? 'Imaging' : 'Lab'
-    return { ...shared, format: 'lab', subtype, questions: parseLabQuestions(values.lab_questions) }
+    return { ...shared, format: 'lab', subtype, questions: only('lab_questions', parseLabQuestions) as LabQuestionDraft[] }
   }
   // OSCE station and Skills checklist share the mark-scheme shape; a checklist
   // simply has no actor brief.
@@ -670,21 +683,24 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
   return {
     ...shared,
     format: 'osce',
-    candidateInstructions: values.candidate_instructions?.trim() ?? '',
-    actorOpening: values.actor_opening?.trim() ?? '',
-    actorSections: parseActorSections(values.actor_sections),
-    actorFlags: importLines(values.actor_flags),
-    markSections: parseMarkSections(values.mark_scheme),
+    candidateInstructions: trimmed(values.candidate_instructions) as string,
+    actorOpening: trimmed(values.actor_opening) as string,
+    actorSections: only('actor_sections', parseActorSections) as ActorBriefSectionDraft[],
+    actorFlags: only('actor_flags', importLines) as string[],
+    markSections: only('mark_scheme', parseMarkSections) as PracticalMarkSectionDraft[],
     ...(difficulty ? { difficulty } : {}),
   }
 }
 
+/** A trimmed value, or `undefined` when the cell was absent or blank. */
+const trimmed = (value: string | undefined) => value?.trim() || undefined
+
 /** What a practical assesses, kept apart from what it merely mentions. */
 function practicalConceptTags(values: Record<string, string>): PracticalConceptTags {
   return {
-    mainConceptIds: splitImportList(values.main_concept),
-    conceptIds: splitImportList(values.concept_ids),
-    contextualConceptIds: splitImportList(values.contextual_concept_ids),
+    mainConceptIds: optionalList(values.main_concept) as string[],
+    conceptIds: optionalList(values.concept_ids) as string[],
+    contextualConceptIds: optionalList(values.contextual_concept_ids) as string[],
   }
 }
 
@@ -774,26 +790,30 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
     if (difficulty && !practicalDifficulty(difficulty)) {
       errors.push(`Difficulty must be one of ${DIFFICULTIES.join(', ')}`)
     }
+    // An omitted column now reads as `undefined` rather than an empty list, so
+    // these are optional-chained. The row is rejected either way — a practical
+    // that names no decisions is as incomplete as one that names an empty set —
+    // so which rows fail is unchanged.
     const data = practicalDataFrom(values)
     if (data.format === 'case') {
-      if (!data.decisions.length) errors.push('Clinical case needs at least one decision with a "Q:" line and "*" options')
-      data.decisions.forEach((decision, index) => {
+      if (!data.decisions?.length) errors.push('Clinical case needs at least one decision with a "Q:" line and "*" options')
+      data.decisions?.forEach((decision, index) => {
         errors.push(...answerErrors(decision.answers, `Decision ${index + 1} (${decision.title || 'untitled'})`))
       })
     }
     if (data.format === 'lab') {
-      if (!data.questions.length) errors.push('Interpretation set needs at least one question with a "Q:" line and "*" options')
-      data.questions.forEach((question, index) => {
+      if (!data.questions?.length) errors.push('Interpretation set needs at least one question with a "Q:" line and "*" options')
+      data.questions?.forEach((question, index) => {
         errors.push(...answerErrors(question.answers, `Interpretation question ${index + 1}`))
       })
     }
-    if (data.format === 'osce' && type === 'OSCE station' && !data.markSections.length) {
+    if (data.format === 'osce' && type === 'OSCE station' && !data.markSections?.length) {
       errors.push('OSCE station needs a mark scheme as "Section (marks): item" lines')
     }
     // A request that names a block nobody wrote points at nothing, and would be
     // fulfilled against a question that does not exist.
     const targets = new Set(parseSections(data.format === 'case' ? values.decisions : values.lab_questions).map((section) => section.heading.trim().toLowerCase()))
-    data.mediaRequests.forEach((request) => {
+    data.mediaRequests?.forEach((request) => {
       const target = (request.section || 'station').trim().toLowerCase()
       if (target === 'station' || targets.has(target)) return
       errors.push(`Media request "${request.brief}" names "${request.section}", which is not a question in this item`)
@@ -820,13 +840,36 @@ function answerErrors(answers: PracticalAnswerDraft[], where: string): string[] 
   return errors
 }
 
-function normalizeStatus(value: string): ManagedContentItem['status'] {
-  return ['Draft', 'In review', 'Published', 'Archived'].includes(value) ? value as ManagedContentItem['status'] : 'Draft'
+/**
+ * Read a status column, distinguishing "not mentioned" from a real value.
+ *
+ * `undefined` when the column is absent or blank, so an update leaves the live
+ * status alone; `materialiseNewItem` supplies `'Draft'` for a new record. This
+ * used to default eagerly, which meant a partial update — a fixed summary, say —
+ * silently un-published the article it touched.
+ *
+ * An unrecognised value is still `'Draft'`. That is a typo, not a silence.
+ */
+function normalizeStatus(value: string | undefined): ManagedContentItem['status'] | undefined {
+  const status = trimmed(value)
+  if (!status) return undefined
+  return ['Draft', 'In review', 'Published', 'Archived'].includes(status) ? status as ManagedContentItem['status'] : 'Draft'
 }
 
 function numberInRange(value: string, fallback: number, min: number, max: number) {
   const parsed = Number(value)
   return Number.isFinite(parsed) ? Math.min(max, Math.max(min, parsed)) : fallback
+}
+
+/**
+ * The same clamp, but silent when the column is absent.
+ *
+ * A blank cell returns `undefined` so an update keeps the live number;
+ * `materialiseNewItem` applies `fallback` to a new record. An unparseable value
+ * still clamps to `fallback` — that is a typo, not a silence.
+ */
+function optionalNumberInRange(value: string | undefined, fallback: number, min: number, max: number) {
+  return value?.trim() ? numberInRange(value.trim(), fallback, min, max) : undefined
 }
 
 function stableHash(value: string) {
@@ -837,13 +880,20 @@ function stableHash(value: string) {
 
 export function importRowToContent(kind: ContentKind, values: Record<string, string>, rowKey: string): ManagedContentItem {
   const id = values.id?.trim() || `import-${kind}-${stableHash(`${values.title}-${rowKey}`)}`
+  /** A column's value, or `undefined` when the row did not carry one. */
+  const text = (key: string) => values[key]?.trim() || undefined
   const base: ManagedContentItem = {
     id,
     kind,
     title: values.title.trim(),
     subjectId: values.subject.trim().toLowerCase(),
-    status: normalizeStatus(values.status),
-    owner: values.owner?.trim() || 'Import queue',
+    // `undefined`, not a default, when the row is silent — the same contract the
+    // list columns keep through `optionalList`. `materialiseNewItem` fills these
+    // in for a create; on an update they must survive untouched. Typed as the
+    // concrete field because only a materialised record is ever stored, exactly
+    // as `conceptFromRow` types its own optional `definition`.
+    status: normalizeStatus(values.status) as ManagedContentItem['status'],
+    owner: (values.owner?.trim() || undefined) as string,
     updatedAt: new Date().toISOString(),
     fields: {},
   }
@@ -851,8 +901,64 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
   if (kind === 'question') {
     const labels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
     const answers: QuestionAnswerDraft[] = labels.map((label) => ({ label, text: values[`answer_${label.toLowerCase()}`]?.trim() ?? '', explanation: values[`explanation_${label.toLowerCase()}`]?.trim() ?? '' }))
-    const difficulty = ['Easy', 'Moderate', 'Hard', 'Challenging'].includes(values.difficulty) ? values.difficulty as QuestionTags['intendedDifficulty'] : 'Moderate'
-    return { ...base, title: values.question?.trim() || base.title, fields: { Topic: values.topic ?? '', Difficulty: difficulty, Vignette: values.vignette ?? '', Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '' }, questionData: { attachments: parseAttachments(values.attachments), correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel, answers, attachedImage: values.attached_image?.trim() ?? '', libraryIds: splitImportList(values.library_ids), resourceIds: splitImportList(values.resource_ids), tags: { module: values.module || base.subjectId, topic: values.topic || '', subtopic: values.subtopic || '', conceptIds: splitImportList(values.concept_ids), years: splitImportList(values.years), universityIds: splitImportList(values.universities), cognitiveEffort: ['Low', 'Medium', 'High'].includes(values.cognitive_effort) ? values.cognitive_effort as 'Low' | 'Medium' | 'High' : 'Medium', setting: ['Academic', 'Clinical', 'Both'].includes(values.setting) ? values.setting as 'Academic' | 'Clinical' | 'Both' : 'Both', intendedDifficulty: difficulty, clinicalReasoningLevel: numberInRange(values.reasoning_level, 2, 0, 5), inferredDifficulty: numberInRange(values.inferred_difficulty, 50, 0, 100), examRelevance: numberInRange(values.exam_relevance, 5, 0, 10), contextualConceptIds: splitImportList(values.contextual_concept_ids), questionType: values.question_type || undefined, mainConceptIds: splitImportList(values.main_concept), moduleIds: splitImportList(values.module), clinicalRelevance: clamp01(values.clinical_relevance), academicRelevance: clamp01(values.academic_relevance), cognitiveEffortScore: clamp01(values.cognitive_effort_score), examWeightByYear: parseWeightMap(values.exam_weight_by_year), questionOnlyFor: splitImportList(values.question_only_for) }, mediaRequests: parseMediaRequests(values.media_recommendations, id, 'question'), learningObjective: values.learning_objective || '', authorNotes: values.author_notes || '', sourceCitation: values.source_citation || '', estimatedSeconds: numberInRange(values.estimated_seconds, 90, 5, 3600), randomiseAnswers: !/^(no|false|0)$/i.test(values.randomise_answers?.trim() ?? '') } }
+    // `undefined` when the column is absent, so an update leaves the live value
+    // alone; `materialiseNewItem` supplies the default a new question needs.
+    // Every one of these used to be written on every row, so a partial update —
+    // one that only revised a vignette — silently reset the whole blueprint
+    // tagging: difficulty, effort, setting, reasoning level, exam relevance, and
+    // every concept, year and university the question was scoped to.
+    const enumValue = <T extends string>(value: string | undefined, allowed: readonly string[], fallback: T) =>
+      value?.trim() ? (allowed.includes(value.trim()) ? value.trim() as T : fallback) : undefined
+    const difficulty = enumValue<QuestionTags['intendedDifficulty']>(values.difficulty, ['Easy', 'Moderate', 'Hard', 'Challenging'], 'Moderate')
+    // `answers` and `correctAnswer` stay eager: `question` and `correct_answer`
+    // are required columns and the validator rejects a correct answer with no
+    // text, so a row that reaches here has always restated them.
+    return {
+      ...base,
+      title: values.question?.trim() || base.title,
+      fields: {
+        Topic: values.topic ?? '', Vignette: values.vignette ?? '',
+        Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '',
+        ...(difficulty ? { Difficulty: difficulty } : {}),
+      },
+      questionData: {
+        attachments: (values.attachments?.trim() ? parseAttachments(values.attachments) : undefined) as MediaAttachment[],
+        correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel,
+        answers,
+        attachedImage: text('attached_image') as string,
+        libraryIds: optionalList(values.library_ids) as string[],
+        resourceIds: optionalList(values.resource_ids) as string[],
+        tags: {
+          module: text('module') as string,
+          topic: text('topic') as string,
+          subtopic: text('subtopic') as string,
+          conceptIds: optionalList(values.concept_ids) as string[],
+          years: optionalList(values.years) as string[],
+          universityIds: optionalList(values.universities) as string[],
+          cognitiveEffort: enumValue<'Low' | 'Medium' | 'High'>(values.cognitive_effort, ['Low', 'Medium', 'High'], 'Medium') as 'Low' | 'Medium' | 'High',
+          setting: enumValue<'Academic' | 'Clinical' | 'Both'>(values.setting, ['Academic', 'Clinical', 'Both'], 'Both') as 'Academic' | 'Clinical' | 'Both',
+          intendedDifficulty: difficulty as QuestionTags['intendedDifficulty'],
+          clinicalReasoningLevel: optionalNumberInRange(values.reasoning_level, 2, 0, 5) as number,
+          inferredDifficulty: optionalNumberInRange(values.inferred_difficulty, 50, 0, 100) as number,
+          examRelevance: optionalNumberInRange(values.exam_relevance, 5, 0, 10) as number,
+          contextualConceptIds: optionalList(values.contextual_concept_ids) as string[],
+          questionType: text('question_type'),
+          mainConceptIds: optionalList(values.main_concept),
+          moduleIds: optionalList(values.module),
+          clinicalRelevance: clamp01(values.clinical_relevance),
+          academicRelevance: clamp01(values.academic_relevance),
+          cognitiveEffortScore: clamp01(values.cognitive_effort_score),
+          examWeightByYear: values.exam_weight_by_year?.trim() ? parseWeightMap(values.exam_weight_by_year) : undefined,
+          questionOnlyFor: optionalList(values.question_only_for),
+        },
+        mediaRequests: values.media_recommendations?.trim() ? parseMediaRequests(values.media_recommendations, id, 'question') : undefined,
+        learningObjective: text('learning_objective') as string,
+        authorNotes: text('author_notes') as string,
+        sourceCitation: text('source_citation') as string,
+        estimatedSeconds: optionalNumberInRange(values.estimated_seconds, 90, 5, 3600) as number,
+        randomiseAnswers: (values.randomise_answers?.trim() ? !/^(no|false|0)$/i.test(values.randomise_answers.trim()) : undefined) as boolean,
+      },
+    }
   }
   if (kind === 'article') {
     // Sections are addressed by evidence spans, so their ids are derived from
@@ -861,13 +967,21 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     // draft or the evidence-gated projection.
     const sections = parseSections(values.sections, id.toLowerCase())
     const body = values.body || sections.map((s) => `${s.heading}\n${s.body}`).join('\n\n')
-    const universityNotes = splitImportList(values.university_notes).map((line, i) => {
-      const [uni, ...rest] = line.split(':')
-      return { id: `unote-import-${i}`, universityId: uni.trim(), text: rest.join(':').trim() }
-    }).filter((n) => n.universityId && n.text)
+    // Absent column means "leave the live notes alone", so this stays
+    // `undefined` rather than becoming the empty list it used to.
+    const universityNotes = values.university_notes?.trim()
+      ? splitImportList(values.university_notes).map((line, i) => {
+        const [uni, ...rest] = line.split(':')
+        return { id: `unote-import-${i}`, universityId: uni.trim(), text: rest.join(':').trim() }
+      }).filter((n) => n.universityId && n.text)
+      : undefined
     const templateId = values.template_id?.trim() ? canonicalTemplateId(values.template_id.trim()) : undefined
     const archetype = (values.archetype?.trim() || ARTICLE_TEMPLATES.find((template) => template.id === templateId)?.archetype) as ArticleArchetype | undefined
-    const highYield = ['Core', 'High', 'Supplementary'].includes(values.high_yield) ? values.high_yield as 'Core' | 'High' | 'Supplementary' : 'Core'
+    // Undefined when unmentioned: defaulting to Core demoted every article a
+    // partial update touched. `materialiseNewItem` applies Core to new records.
+    const highYield = values.high_yield?.trim()
+      ? (['Core', 'High', 'Supplementary'].includes(values.high_yield.trim()) ? values.high_yield.trim() as 'Core' | 'High' | 'Supplementary' : 'Core')
+      : undefined
     const related = parseRelatedArticles(values.related_articles)
     const publishedSections = parseSections(values.published_sections, id.toLowerCase())
     const calloutEvidence = parseCalloutEvidence(values.callout_evidence)
@@ -877,13 +991,16 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     const fieldNotes = { ...parseFieldNotes(values.field_notes), ...related.reasons }
     const timeSensitive = ['stable', 'time_sensitive'].includes(values.time_sensitive?.trim() ?? '') ? values.time_sensitive.trim() as 'stable' | 'time_sensitive' : undefined
     const publicationGate = ['publishable', 'needs_evidence', 'faculty_review', 'conflicted', 'excluded'].includes(values.publication_gate?.trim() ?? '') ? values.publication_gate.trim() as PublicationGate : undefined
-    const text = (key: string) => values[key]?.trim() || undefined
     return {
       ...base,
       fields: {
-        Topic: values.topic || '', Summary: values.summary || '', 'Reading time': values.reading_time || '5',
+        Topic: values.topic || '', Summary: values.summary || '',
         'Key point': importLines(values.hold_these)[0] || '', 'Template ID': templateId || '', Archetype: archetype || '',
-        'Content owner': values.owner?.trim() || 'Import queue',
+        // Omitted rather than defaulted when the row is silent. The merge keeps
+        // a field the incoming row left blank, but '5' and 'Import queue' are
+        // not blank — they overwrote the real reading time and owner.
+        ...(values.reading_time?.trim() ? { 'Reading time': values.reading_time.trim() } : {}),
+        ...(text('owner') ? { 'Content owner': values.owner.trim() } : {}),
         ...(publicationGate ? { 'Publication gate': publicationGate } : {}),
         ...(text('reviewer') ? { Reviewer: values.reviewer.trim() } : {}),
         ...(text('final_publisher') ? { Publisher: values.final_publisher.trim() } : {}),
@@ -932,7 +1049,18 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
   if (kind === 'practical') {
     return {
       ...base,
-      fields: { Type: values.type || 'OSCE station', Duration: values.duration || '8', Marks: values.marks || '20', Difficulty: values.difficulty || 'Moderate', 'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '' },
+      // `type` is a required column, so it is always restated. The other three
+      // are not, and defaulting them reset a 15-minute, 30-mark, Hard station to
+      // an 8-minute, 20-mark, Moderate one on any partial update. The `|| ''`
+      // entries are safe: the merge already keeps a field an incoming row left
+      // blank, so only a non-blank default could overwrite.
+      fields: {
+        Type: values.type || 'OSCE station',
+        ...(text('duration') ? { Duration: values.duration.trim() } : {}),
+        ...(text('marks') ? { Marks: values.marks.trim() } : {}),
+        ...(text('difficulty') ? { Difficulty: values.difficulty.trim() } : {}),
+        'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '',
+      },
       practicalData: practicalDataFrom(values),
     }
   }

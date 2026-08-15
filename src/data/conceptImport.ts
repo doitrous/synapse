@@ -207,6 +207,11 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
  * `undefined` does not survive `JSON.stringify`, so an optional field is written
  * as `null` — otherwise it vanishes the moment the record is persisted and the
  * audit reports it absent.
+ *
+ * Create-time only, and the distinction is load-bearing. Every blank this writes
+ * is a concrete value, while `mergeConcept` skips only `undefined`, so running it
+ * over an update replaces each field the row did not mention. Pass it to
+ * `upsertRecords` as `materialise`; never map it over rows that may be updates.
  */
 export function materialiseNewConcept(concept: Concept): Concept {
   const filled = { ...concept } as Record<string, unknown>

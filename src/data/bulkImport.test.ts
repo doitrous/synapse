@@ -295,6 +295,285 @@ test('override-with-blanks is still available and does replace wholesale', () =>
   assert.deepEqual(merged.articleData!.claimIds, [])
 })
 
+/* ---- create-time defaults must not reach an update --------------------- */
+
+/**
+ * The six fields below were written by `importRowToContent` on every row it
+ * read, updates included. Unlike the list columns — which come back `undefined`
+ * through `optionalList` and are therefore skipped by the merge — a default is a
+ * concrete value, so each one landed on the live record. The worst of them,
+ * `status`, silently un-published an article on any partial update.
+ *
+ * They live in `materialiseNewItem` now, which only ever sees a create.
+ */
+const ARTICLE_UPDATE = {
+  id: 'ART-TEST-FULL', title: 'Pulmonary embolism', subject: 'cvs',
+  topic: 'Venous thromboembolism', summary: 'A revised summary.',
+}
+
+test('a partial update keeps the status, owner and banding it never mentioned', () => {
+  const existing = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  const merged = mergeContentItem(existing, importRowToContent('article', ARTICLE_UPDATE, 'row-2'), false)
+
+  assert.equal(merged.articleData!.summary, 'A revised summary.')
+  // A routine summary fix must not un-publish the article or reassign it.
+  assert.equal(merged.status, 'In review')
+  assert.equal(merged.owner, 'Dr Omar')
+  assert.equal(merged.fields['Reading time'], '9')
+  assert.equal(merged.fields['Content owner'], 'Dr Omar')
+  assert.equal(merged.articleData!.highYield, 'High')
+  assert.equal(merged.articleData!.universityNotes?.length, 1)
+  assert.equal(merged.articleData!.universityNotes?.[0].text, 'Kasr Alainy expects the two-level Wells score.')
+})
+
+test('a published article survives a partial update', () => {
+  // Stated on its own because it is the one that reaches students: an author
+  // fixing a typo must not pull the article out of the library.
+  const existing = materialiseNewItem(importRowToContent('article', { ...FULL_ARTICLE, status: 'Published' }, 'row-1'))
+  assert.equal(existing.status, 'Published')
+  assert.equal(mergeContentItem(existing, importRowToContent('article', ARTICLE_UPDATE, 'row-2'), false).status, 'Published')
+})
+
+test('an update that does mention them still sets them', () => {
+  // Preserving what a row omits must not cost the author the ability to change
+  // what they do write.
+  const existing = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  const merged = mergeContentItem(existing, importRowToContent('article', {
+    ...ARTICLE_UPDATE, status: 'Archived', owner: 'Dr Sara', reading_time: '20',
+    high_yield: 'Supplementary', university_notes: 'ASU: Ain Shams teaches the three-level score.',
+  }, 'row-2'), false)
+
+  assert.equal(merged.status, 'Archived')
+  assert.equal(merged.owner, 'Dr Sara')
+  assert.equal(merged.fields['Reading time'], '20')
+  assert.equal(merged.fields['Content owner'], 'Dr Sara')
+  assert.equal(merged.articleData!.highYield, 'Supplementary')
+  assert.deepEqual(merged.articleData!.universityNotes?.map((note) => note.universityId), ['ASU'])
+})
+
+test('a created article still opens with the defaults it always had', () => {
+  const item = materialiseNewItem(importRowToContent('article', {
+    id: 'ART-NEW', title: 'T', subject: 'cvs', topic: 'Topic', summary: 'S', sections: '### A\nbody',
+  }, 'row-1'))
+
+  // Moving these out of the row reader must not change what a create produces.
+  assert.equal(item.status, 'Draft')
+  assert.equal(item.owner, 'Import queue')
+  assert.equal(item.fields['Reading time'], '5')
+  assert.equal(item.fields['Content owner'], 'Import queue')
+  assert.equal(item.articleData!.highYield, 'Core')
+  assert.deepEqual(item.articleData!.universityNotes, [])
+})
+
+test('a created article keeps what its row did supply', () => {
+  const item = materialiseNewItem(importRowToContent('article', FULL_ARTICLE, 'row-1'))
+  assert.equal(item.status, 'In review')
+  assert.equal(item.owner, 'Dr Omar')
+  assert.equal(item.fields['Reading time'], '9')
+  assert.equal(item.articleData!.highYield, 'High')
+})
+
+test('an unreadable status is a typo, not a silence', () => {
+  // A blank column means "leave it alone"; a value nobody recognises means the
+  // author meant something and got it wrong, so it must not be read as silence.
+  const existing = materialiseNewItem(importRowToContent('article', { ...FULL_ARTICLE, status: 'Published' }, 'row-1'))
+  const merged = mergeContentItem(existing, importRowToContent('article', { ...ARTICLE_UPDATE, status: 'Publishd' }, 'row-2'), false)
+  assert.equal(merged.status, 'Draft')
+})
+
+/* ---- question and practical updates keep what they omit ---------------- */
+
+/**
+ * The question importer wrote a value for every column on every row, so a
+ * partial update reset twenty-nine fields: the whole blueprint tagging, and
+ * every concept, year, university and article the question was scoped to.
+ *
+ * `question`, `correct_answer` and the correct option's text are required, so a
+ * row that reaches the merge has always restated the stem and its answers. The
+ * rest is what this covers.
+ */
+const FULL_QUESTION: Record<string, string> = {
+  id: 'Q-FULL', title: 'T', subject: 'cvs', status: 'Published', owner: 'Dr Omar',
+  question: 'Which vessel supplies the SA node?', vignette: 'A 60-year-old man...',
+  difficulty: 'Hard', correct_answer: 'C',
+  answer_a: 'Aorta', answer_b: 'LAD', answer_c: 'RCA', answer_d: 'Circumflex',
+  explanation_c: 'The RCA supplies the SA node in most people.',
+  library_ids: 'ART-1', resource_ids: 'r-1', concept_ids: 'med.concept.rca',
+  main_concept: 'med.concept.rca', contextual_concept_ids: 'med.concept.sa-node',
+  years: 'HU_Y3', universities: 'HU', module: 'CVS 01',
+  topic: 'Coronary anatomy', subtopic: 'Arterial supply',
+  cognitive_effort: 'High', setting: 'Clinical', reasoning_level: '4',
+  inferred_difficulty: '80', exam_relevance: '9', estimated_seconds: '150',
+  randomise_answers: 'no', learning_objective: 'Identify the SA nodal artery.',
+  author_notes: 'Checked.', source_citation: 'Gray 42nd ed.', attached_image: 'img.png',
+  question_type: 'single_best', question_only_for: 'HU',
+  clinical_relevance: '0.9', academic_relevance: '0.7', cognitive_effort_score: '0.8',
+  exam_weight_by_year: 'HU_Y3=0.8',
+}
+
+/** The smallest question update that passes `validateImportRow`. */
+const QUESTION_UPDATE: Record<string, string> = {
+  id: 'Q-FULL', title: 'T', subject: 'cvs', question: 'Which vessel supplies the SA node?',
+  correct_answer: 'C', answer_a: 'Aorta', answer_b: 'LAD', answer_c: 'RCA', answer_d: 'Circumflex',
+  explanation_c: 'The RCA supplies the SA node in most people.',
+  vignette: 'A revised vignette.',
+}
+
+test('a partial question update keeps every tag it does not mention', () => {
+  assert.deepEqual(validateImportRow('question', QUESTION_UPDATE), [])
+  const existing = materialiseNewItem(importRowToContent('question', FULL_QUESTION, 'row-1'))
+  const merged = mergeContentItem(existing, importRowToContent('question', QUESTION_UPDATE, 'row-2'), false)
+  const tags = merged.questionData!.tags
+
+  assert.equal(merged.questionData!.answers.find((answer) => answer.label === 'C')?.text, 'RCA')
+  // Blueprint tagging: what a question is worth and how hard it is.
+  assert.equal(merged.fields.Difficulty, 'Hard')
+  assert.equal(tags.intendedDifficulty, 'Hard')
+  assert.equal(tags.cognitiveEffort, 'High')
+  assert.equal(tags.setting, 'Clinical')
+  assert.equal(tags.clinicalReasoningLevel, 4)
+  assert.equal(tags.inferredDifficulty, 80)
+  assert.equal(tags.examRelevance, 9)
+  assert.equal(tags.clinicalRelevance, 0.9)
+  assert.equal(tags.academicRelevance, 0.7)
+  assert.equal(tags.cognitiveEffortScore, 0.8)
+  assert.deepEqual(tags.examWeightByYear, { HU_Y3: 0.8 })
+  assert.equal(tags.questionType, 'single_best')
+  // Scope: who the question is for and what it assesses.
+  assert.equal(tags.module, 'CVS 01')
+  assert.equal(tags.topic, 'Coronary anatomy')
+  assert.equal(tags.subtopic, 'Arterial supply')
+  assert.deepEqual(tags.conceptIds, ['med.concept.rca'])
+  assert.deepEqual(tags.mainConceptIds, ['med.concept.rca'])
+  assert.deepEqual(tags.contextualConceptIds, ['med.concept.sa-node'])
+  assert.deepEqual(tags.years, ['HU_Y3'])
+  assert.deepEqual(tags.universityIds, ['HU'])
+  assert.deepEqual(tags.moduleIds, ['CVS 01'])
+  assert.deepEqual(tags.questionOnlyFor, ['HU'])
+  // Everything else on the question.
+  assert.deepEqual(merged.questionData!.libraryIds, ['ART-1'])
+  assert.deepEqual(merged.questionData!.resourceIds, ['r-1'])
+  assert.equal(merged.questionData!.attachedImage, 'img.png')
+  assert.equal(merged.questionData!.authorNotes, 'Checked.')
+  assert.equal(merged.questionData!.sourceCitation, 'Gray 42nd ed.')
+  assert.equal(merged.questionData!.estimatedSeconds, 150)
+  assert.equal(merged.questionData!.randomiseAnswers, false)
+  assert.equal(merged.status, 'Published')
+})
+
+test('a question update that does mention a tag still changes it', () => {
+  const existing = materialiseNewItem(importRowToContent('question', FULL_QUESTION, 'row-1'))
+  const merged = mergeContentItem(existing, importRowToContent('question', {
+    ...QUESTION_UPDATE, difficulty: 'Easy', setting: 'Academic', exam_relevance: '2',
+    concept_ids: 'med.concept.lad', estimated_seconds: '45', randomise_answers: 'yes',
+  }, 'row-2'), false)
+
+  assert.equal(merged.fields.Difficulty, 'Easy')
+  assert.equal(merged.questionData!.tags.intendedDifficulty, 'Easy')
+  assert.equal(merged.questionData!.tags.setting, 'Academic')
+  assert.equal(merged.questionData!.tags.examRelevance, 2)
+  assert.deepEqual(merged.questionData!.tags.conceptIds, ['med.concept.lad'])
+  assert.equal(merged.questionData!.estimatedSeconds, 45)
+  assert.equal(merged.questionData!.randomiseAnswers, true)
+  // and the untouched ones still stand
+  assert.equal(merged.questionData!.tags.cognitiveEffort, 'High')
+})
+
+test('a created question still opens with the defaults it always had', () => {
+  const item = materialiseNewItem(importRowToContent('question', {
+    id: 'Q-NEW', title: 'T', subject: 'cvs', question: 'Q?', correct_answer: 'A', answer_a: 'x',
+  }, 'row-1'))
+  const tags = item.questionData!.tags
+
+  assert.equal(item.fields.Difficulty, 'Moderate')
+  assert.equal(tags.module, 'cvs')
+  assert.equal(tags.cognitiveEffort, 'Medium')
+  assert.equal(tags.setting, 'Both')
+  assert.equal(tags.intendedDifficulty, 'Moderate')
+  assert.equal(tags.clinicalReasoningLevel, 2)
+  assert.equal(tags.inferredDifficulty, 50)
+  assert.equal(tags.examRelevance, 5)
+  assert.deepEqual(tags.conceptIds, [])
+  assert.deepEqual(tags.examWeightByYear, {})
+  assert.equal(item.questionData!.estimatedSeconds, 90)
+  assert.equal(item.questionData!.randomiseAnswers, true)
+  assert.equal(item.questionData!.authorNotes, '')
+  assert.deepEqual(item.questionData!.libraryIds, [])
+})
+
+const LAB_QUESTIONS = '### Rate\nQ: What is the rate?\n*= 75\nWhy: Count the R-R interval.\n- 60\nWhy: Too slow.\nMarks: 2\nConcept: med.concept.rate'
+
+const FULL_PRACTICAL: Record<string, string> = {
+  id: 'P-FULL', title: 'T', subject: 'cvs', status: 'Published', owner: 'Dr Omar',
+  type: 'Lab interpretation', duration: '15', marks: '30', difficulty: 'Hard',
+  lab_subtype: 'ECG', lab_questions: LAB_QUESTIONS,
+  main_concept: 'med.concept.ecg', concept_ids: 'med.concept.rate',
+  contextual_concept_ids: 'med.concept.axis',
+  learning_objective: 'Read an ECG systematically.', references: 'Gray 42nd ed.',
+}
+
+test('a partial practical update keeps its timing, marks and concept tagging', () => {
+  const existing = materialiseNewItem(importRowToContent('practical', FULL_PRACTICAL, 'row-1'))
+  const merged = mergeContentItem(existing, importRowToContent('practical', {
+    id: 'P-FULL', title: 'T', subject: 'cvs', type: 'Lab interpretation',
+    lab_questions: LAB_QUESTIONS, learning_objective: 'A revised objective.',
+  }, 'row-2'), false)
+
+  assert.equal(merged.practicalData!.learningObjective, 'A revised objective.')
+  assert.equal(merged.fields.Duration, '15')
+  assert.equal(merged.fields.Marks, '30')
+  assert.equal(merged.fields.Difficulty, 'Hard')
+  assert.deepEqual(merged.practicalData!.references, ['Gray 42nd ed.'])
+  assert.deepEqual(merged.practicalData!.conceptTags.mainConceptIds, ['med.concept.ecg'])
+  assert.deepEqual(merged.practicalData!.conceptTags.conceptIds, ['med.concept.rate'])
+  assert.deepEqual(merged.practicalData!.conceptTags.contextualConceptIds, ['med.concept.axis'])
+  assert.equal(merged.status, 'Published')
+})
+
+test("an OSCE station's mark scheme survives an update that does not restate it", () => {
+  const existing = materialiseNewItem(importRowToContent('practical', {
+    id: 'P-OSCE', title: 'T', subject: 'cvs', type: 'Skills checklist', duration: '10',
+    mark_scheme: 'Preparation (2): Washes hands', candidate_instructions: 'Examine this patient.',
+    actor_flags: 'Becomes breathless on exertion',
+  }, 'row-1'))
+  assert.equal(existing.practicalData!.markSections.length, 1)
+
+  const merged = mergeContentItem(existing, importRowToContent('practical', {
+    id: 'P-OSCE', title: 'T', subject: 'cvs', type: 'Skills checklist',
+    learning_objective: 'A revised objective.',
+  }, 'row-2'), false)
+
+  assert.equal(merged.practicalData!.markSections.length, 1)
+  assert.equal(merged.practicalData!.candidateInstructions, 'Examine this patient.')
+  assert.deepEqual(merged.practicalData!.actorFlags, ['Becomes breathless on exertion'])
+})
+
+test('a created practical still opens with the defaults it always had', () => {
+  const item = materialiseNewItem(importRowToContent('practical', {
+    id: 'P-NEW', title: 'T', subject: 'cvs', type: 'OSCE station',
+  }, 'row-1'))
+
+  assert.equal(item.fields.Type, 'OSCE station')
+  assert.equal(item.fields.Duration, '8')
+  assert.equal(item.fields.Marks, '20')
+  assert.equal(item.fields.Difficulty, 'Moderate')
+  assert.deepEqual(item.practicalData!.references, [])
+  assert.deepEqual(item.practicalData!.conceptTags, { mainConceptIds: [], conceptIds: [], contextualConceptIds: [] })
+  assert.deepEqual(item.practicalData!.mediaRequests, [])
+  assert.equal(item.practicalData!.format, 'osce')
+  assert.deepEqual(item.practicalData!.markSections, [])
+  assert.equal(item.practicalData!.candidateInstructions, '')
+})
+
+test('a nested tag the row leaves out is not blanked one level down', () => {
+  // `mergeAuthoringData` recurses instead of spreading. A spread does not skip
+  // `undefined`, so nested keys were wiped even though the top level was safe.
+  const existing = materialiseNewItem(importRowToContent('question', FULL_QUESTION, 'row-1'))
+  const merged = mergeContentItem(existing, importRowToContent('question', QUESTION_UPDATE, 'row-2'), false)
+  assert.equal(merged.questionData!.tags.questionType, 'single_best')
+  assert.deepEqual(merged.questionData!.tags.examWeightByYear, { HU_Y3: 0.8 })
+})
+
 /* ---- questions --------------------------------------------------------- */
 
 test('question attachments and authoring fields round-trip', () => {

@@ -4,6 +4,7 @@ import {
   CONCEPT_IMPORT_FIELDS, RELATION_IMPORT_FIELDS, conceptFromRow, materialiseNewConcept, mergeConcept,
   relationFromRow, relationErrors, isDuplicateRelation, relationIdFrom, conceptIdFrom,
 } from './conceptImport.ts'
+import { upsertRecords } from './importMerge.ts'
 import type { ConceptGraph } from './conceptGraph.ts'
 
 const FULL_CONCEPT: Record<string, string> = {
@@ -144,6 +145,122 @@ test('[clear] empties a concept list on purpose', () => {
   const merged = mergeConcept(existing, conceptFromRow({ label: 'Anion gap', id: 'med.concept.anion-gap', conflicts: '[clear]' }))
   assert.deepEqual(merged.conflicts, [])
   assert.deepEqual(merged.uncertainty, ['Whether to correct for albumin routinely'])
+})
+
+/* ---- upsert: create versus update --------------------------------------- */
+
+/**
+ * These exercise the upsert rather than `mergeConcept` alone, because that is
+ * where the damage happened. The merge rules were always right; the importer
+ * materialised every incoming row *before* asking whether the row was a create
+ * or an update, so a three-field update arrived carrying a full set of `null`s
+ * and overwrote twenty fields on the live concept. Five of them — `systemId`,
+ * `topicTagId`, `secondaryNodeIds`, `evidenceGaps`, `resourceOccurrenceIds` —
+ * disappeared with no audit diagnostic, because a `null` still satisfies a
+ * "field is present" check.
+ */
+const PARTIAL_UPDATE: Record<string, string> = {
+  id: 'med.concept.anion-gap',
+  label: 'Anion gap',
+  definition: 'Probe definition change.',
+}
+
+/** The live concept as the graph holds it: created once, fully materialised. */
+const liveConcept = () => materialiseNewConcept(conceptFromRow(FULL_CONCEPT, {
+  subjectId: 'renal', systemId: 'SYS_RENAL', topicTagId: 'TPC_RENAL_ACID_BASE',
+}))
+
+test('a partial concept update changes only the fields it mentions', () => {
+  const before = liveConcept()
+  const { records, created, updated } = upsertRecords([before], [conceptFromRow(PARTIAL_UPDATE)], {
+    merge: mergeConcept,
+    materialise: materialiseNewConcept,
+  })
+
+  assert.equal(created, 0)
+  assert.equal(updated, 1)
+  assert.equal(records.length, 1)
+
+  // Exhaustive on purpose. Listing the fields by hand is how twenty silent
+  // losses hid behind a test that checked six of them.
+  const after = records[0] as unknown as Record<string, unknown>
+  const original = before as unknown as Record<string, unknown>
+  const changed = [...new Set([...Object.keys(original), ...Object.keys(after)])]
+    .filter((key) => JSON.stringify(original[key]) !== JSON.stringify(after[key]))
+  assert.deepEqual(changed, ['definition'])
+  assert.equal(after.definition, 'Probe definition change.')
+})
+
+test('an update never materialises the blanks a new record needs', () => {
+  const [updated] = upsertRecords([liveConcept()], [conceptFromRow(PARTIAL_UPDATE)], {
+    merge: mergeConcept,
+    materialise: materialiseNewConcept,
+  }).records
+
+  // The exact fields the live medical library lost, named so a regression here
+  // reads as the bug it is rather than as one line of a deep-equal diff.
+  assert.deepEqual(updated.articleIds, ['ART-REN-ACID-BASE'])
+  assert.deepEqual(updated.secondaryNodeIds, ['DIS-PHY', 'KNW-DIA'])
+  assert.equal(updated.systemId, 'SYS_RENAL')
+  assert.equal(updated.topicTagId, 'TPC_RENAL_ACID_BASE')
+  assert.deepEqual(updated.resourceOccurrenceIds, ['occ-ag-1'])
+  assert.deepEqual(updated.evidenceGaps, ['No Egyptian reference range sourced'])
+  assert.equal(updated.lastReviewed, '2026-08-11')
+  assert.equal(updated.arabicLabel, 'فجوة الأنيونات')
+  assert.equal(updated.pitfalls, FULL_CONCEPT.pitfalls)
+})
+
+test('[clear] still empties a field through the upsert', () => {
+  const [updated] = upsertRecords([liveConcept()], [conceptFromRow({
+    ...PARTIAL_UPDATE, conflicts: '[clear]', secondary_node_ids: '[clear]', evidence_gaps: '[clear]',
+  })], { merge: mergeConcept, materialise: materialiseNewConcept }).records
+
+  // Preserving unmentioned fields must not cost the author the ability to empty
+  // one on purpose. `[clear]` is the only way to say it, so it has to survive.
+  assert.deepEqual(updated.conflicts, [])
+  assert.deepEqual(updated.secondaryNodeIds, [])
+  assert.deepEqual(updated.evidenceGaps, [])
+  // Everything adjacent is still untouched.
+  assert.deepEqual(updated.uncertainty, ['Whether to correct for albumin routinely'])
+  assert.deepEqual(updated.articleIds, ['ART-REN-ACID-BASE'])
+})
+
+test('a new concept is still materialised with the blanks the audit reads', () => {
+  const { records, created, updated } = upsertRecords([], [conceptFromRow(PARTIAL_UPDATE)], {
+    merge: mergeConcept,
+    materialise: materialiseNewConcept,
+  })
+
+  assert.equal(created, 1)
+  assert.equal(updated, 0)
+  const concept = records[0] as unknown as Record<string, unknown>
+  // Present-and-null, not absent: the audit reads the key being there as
+  // "empty on purpose", and `JSON.stringify` drops `undefined`.
+  for (const key of ['systemId', 'secondaryNodeIds', 'evidenceGaps', 'resourceOccurrenceIds', 'lastReviewed']) {
+    assert.ok(key in concept, `${key} should be present on a created concept`)
+    assert.equal(concept[key], null)
+  }
+  assert.deepEqual(concept.articleIds, [])
+  assert.equal(concept.status, 'under review')
+})
+
+test('a batch that creates a concept then updates it keeps the created values', () => {
+  // One file may carry both. The second row must find the record the first row
+  // created and merge into it, not re-materialise it.
+  const { records, created, updated } = upsertRecords(
+    [],
+    [
+      conceptFromRow({ ...FULL_CONCEPT, id: 'med.concept.anion-gap' }),
+      conceptFromRow(PARTIAL_UPDATE),
+    ],
+    { merge: mergeConcept, materialise: materialiseNewConcept },
+  )
+
+  assert.equal(created, 1)
+  assert.equal(updated, 1)
+  assert.equal(records[0].definition, 'Probe definition change.')
+  assert.deepEqual(records[0].articleIds, ['ART-REN-ACID-BASE'])
+  assert.deepEqual(records[0].evidenceGaps, ['No Egyptian reference range sourced'])
 })
 
 /* ---- relations --------------------------------------------------------- */
