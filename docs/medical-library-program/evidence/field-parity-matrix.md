@@ -20,7 +20,7 @@ drift when a field is added.
 | Practical · interpretation set | `LabAuthoringData` | 7 | 25 | 7 | 0 | 0 |
 | Practical · interpretation question | `LabQuestionDraft` | 9 | 25 | 9 | 0 | 0 |
 | Practical · media request | `MediaRequest` | 16 | 25 | 14 | 0 | 2 |
-| Resource | `ResourceAuthoringData` | 15 | 18 | 8 | 0 | 7 |
+| Resource | `ResourceAuthoringData` | 16 | 18 | 8 | 1 | 7 |
 | Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
 | Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |
 | Evidence · citation | `CitationLink` | 9 | 12 | 9 | 0 | 0 |
@@ -29,7 +29,9 @@ drift when a field is added.
 
 ## Gaps
 
-None. Every model field is reachable by bulk import, or is recorded as not author-supplied.
+| Content type | Field | Why |
+|---|---|---|
+| Resource | `icon` | No import column maps to this field. |
 
 ## Fields deliberately outside the import contract
 

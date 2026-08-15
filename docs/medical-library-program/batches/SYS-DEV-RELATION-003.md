@@ -1,10 +1,10 @@
 # Item
 ## source
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## type
 prerequisite_of
 ## target
-med.concept.risk-assessment
+CON-DEV-B29E19D5DBC63B
 ## evidence_claim_ids
 CLM-DEV-BEHAVIOURAL-RISK-01 | CLM-DEV-TOTAL-RISK-01
 ## citation_ids
@@ -24,11 +24,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.risk-assessment
+CON-DEV-B29E19D5DBC63B
 ## type
 prerequisite_of
 ## target
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## evidence_claim_ids
 CLM-DEV-TOTAL-RISK-01 | CLM-DEV-PRIMARY-PREVENTION-01
 ## citation_ids
@@ -48,11 +48,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## type
 causes
 ## target
-med.concept.normal-ageing
+CON-DEV-B8D95325846B96
 ## evidence_claim_ids
 CLM-DEV-NCD-01 | CLM-DEV-BIOLOGICAL-AGEING-01
 ## citation_ids
@@ -72,11 +72,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.family-history
+CON-DEV-5CBAEE1155DE51
 ## type
 part_of
 ## target
-med.concept.risk-assessment
+CON-DEV-B29E19D5DBC63B
 ## evidence_claim_ids
 CLM-DEV-FAMILY-HISTORY-01 | CLM-DEV-TOTAL-RISK-01
 ## citation_ids
@@ -96,11 +96,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.family-history
+CON-DEV-5CBAEE1155DE51
 ## type
 accompanies
 ## target
-med.concept.informal-caregiver
+CON-DEV-C80F81B74454DF
 ## evidence_claim_ids
 CLM-DEV-FAMILY-HISTORY-01 | CLM-DEV-INFORMAL-CAREGIVER-01
 ## citation_ids
@@ -120,11 +120,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.school-health
+CON-DEV-B507A6FF21A788
 ## type
 part_of
 ## target
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## evidence_claim_ids
 CLM-DEV-SCHOOLS-VITAL-01 | CLM-DEV-PRIMARY-PREVENTION-01
 ## citation_ids
@@ -144,11 +144,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.school-health
+CON-DEV-B507A6FF21A788
 ## type
 accompanies
 ## target
-med.concept.adolescent-development
+CON-DEV-4D107C637DAB3B
 ## evidence_claim_ids
 CLM-DEV-SCHOOLS-VITAL-01 | CLM-DEV-ADOLESCENT-01
 ## citation_ids
@@ -168,11 +168,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## type
 often_confused_with
 ## target
-med.concept.risk-assessment
+CON-DEV-B29E19D5DBC63B
 ## evidence_claim_ids
 CLM-DEV-BEHAVIOURAL-RISK-01 | CLM-DEV-TOTAL-RISK-01
 ## citation_ids

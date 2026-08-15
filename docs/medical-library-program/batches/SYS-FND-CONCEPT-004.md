@@ -2,7 +2,7 @@
 ## label
 Mendelian inheritance
 ## id
-med.concept.mendelian-inheritance
+CON-FND-F00DE62A603EE3
 ## canonical_key
 mendelian-inheritance
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Chromosomal disorder
 ## id
-med.concept.chromosomal-disorder
+CON-FND-E5BD39DE4875E5
 ## canonical_key
 chromosomal-disorder
 ## aliases
@@ -176,7 +176,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Mitochondrial inheritance
 ## id
-med.concept.mitochondrial-inheritance
+CON-FND-08ACAADD9FEAD0
 ## canonical_key
 mitochondrial-inheritance
 ## aliases
@@ -263,7 +263,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Pedigree
 ## id
-med.concept.pedigree
+CON-FND-1847074D1C25EA
 ## canonical_key
 pedigree
 ## aliases
@@ -350,7 +350,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Genetic testing
 ## id
-med.concept.genetic-testing
+CON-FND-DFD749AE66EEE8
 ## canonical_key
 genetic-testing
 ## aliases
@@ -437,7 +437,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Genetic counselling
 ## id
-med.concept.genetic-counselling
+CON-FND-200A969C404E42
 ## canonical_key
 genetic-counselling
 ## aliases

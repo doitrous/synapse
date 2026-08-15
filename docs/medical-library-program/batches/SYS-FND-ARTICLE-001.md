@@ -72,13 +72,13 @@ Citations: CIT-FND-PLASMA-MEMBRANE-02-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.plasma-membrane
+### definition_of · CON-FND-18BD7F4C617A2E
 Quote: The plasma membrane separates the inner contents of a cell from its exterior environment.
 Block: body
-### definition_of · med.concept.selective-permeability
+### definition_of · CON-FND-20345F08F7D569
 Quote: A substance that dissolves in lipid passes through it; a substance that does not, cannot — however small it is.
 Block: body
-### often_confused_with · med.concept.selective-permeability
+### often_confused_with · CON-FND-20345F08F7D569
 Quote: Being small is not enough to cross a membrane, and being large is not disqualifying.
 Block: body
 ## image_recommendations
@@ -98,7 +98,7 @@ Section: Mechanism
 ART-FND-CYTOSKELETON: The cytoskeleton anchors membrane proteins and holds the cell's shape against the membrane.
 ART-FND-MITOCHONDRION: The mitochondrion's inner membrane is where a bilayer is used to hold a gradient rather than just to separate compartments.
 ## related_concepts
-med.concept.plasma-membrane | med.concept.selective-permeability
+CON-FND-18BD7F4C617A2E | CON-FND-20345F08F7D569
 ## primary_node_id
 SYS-FND-T01-S01-M01
 ## secondary_node_ids
@@ -206,7 +206,7 @@ Citations: CIT-FND-CYTOSKELETON-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.cytoskeleton
+### definition_of · CON-FND-8D1988EFFC9F6D
 Quote: The cytoskeleton is a group of fibrous proteins that provide structural support for cells.
 Block: body
 ## image_recommendations
@@ -225,7 +225,7 @@ Section: Mechanism
 ART-FND-PLASMA-MEMBRANE: Actin filaments anchor to the membrane and set the cell's shape against it.
 ART-FND-CELL-NUCLEUS: The spindle that separates chromosomes is built from the same microtubules described here.
 ## related_concepts
-med.concept.cytoskeleton
+CON-FND-8D1988EFFC9F6D
 ## primary_node_id
 SYS-FND-T01-S01-M02
 ## secondary_node_ids
@@ -334,10 +334,10 @@ Citations: CIT-FND-NUCLEUS-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.cell-nucleus
+### definition_of · CON-FND-23AD69E4A9820F
 Quote: The nucleus is a cell's central organelle, which contains the cell's DNA.
 Block: body
-### often_confused_with · med.concept.cell-nucleus
+### often_confused_with · CON-FND-23AD69E4A9820F
 Quote: Transcription happens there; translation happens on ribosomes in the cytoplasm, and the envelope is exactly what keeps the two apart.
 Block: body
 ## image_recommendations
@@ -357,7 +357,7 @@ Rights: clinical images need explicit teaching permission
 ART-FND-CYTOSKELETON: The spindle that separates the chromosomes held here is built from microtubules.
 ART-FND-MITOCHONDRION: The mitochondrion carries its own genome, separate from the DNA held in the nucleus.
 ## related_concepts
-med.concept.cell-nucleus
+CON-FND-23AD69E4A9820F
 ## primary_node_id
 SYS-FND-T01-S01-M03
 ## secondary_node_ids
@@ -467,10 +467,10 @@ Citations: CIT-FND-MITOCHONDRION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.mitochondrion
+### definition_of · CON-FND-95788787E5E20F
 Quote: A mitochondrion is a membranous, bean-shaped organelle that is the energy transformer of the cell.
 Block: body
-### mechanism_step_before · med.concept.mitochondrion
+### mechanism_step_before · CON-FND-95788787E5E20F
 Quote: ATP synthase lets protons flow back down that gradient and uses the flow to make ATP.
 Block: body
 ## image_recommendations
@@ -489,7 +489,7 @@ Section: Clinical significance
 ART-FND-PLASMA-MEMBRANE: The inner membrane is a bilayer used to hold a gradient, not only to separate compartments.
 ART-FND-CELL-NUCLEUS: The mitochondrial genome sits outside the nucleus, which is why its inheritance pattern differs.
 ## related_concepts
-med.concept.mitochondrion
+CON-FND-95788787E5E20F
 ## primary_node_id
 SYS-FND-T01-S01-M04
 ## secondary_node_ids

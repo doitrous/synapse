@@ -88,10 +88,10 @@ Citations: CIT-FND-AUTOSOMAL-RECESSIVE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.mendelian-inheritance
+### definition_of · CON-FND-F00DE62A603EE3
 Quote: One altered copy of the gene in each cell is sufficient for a person to be affected by an autosomal dominant disorder.
 Block: body
-### contrasts_with · med.concept.mendelian-inheritance
+### contrasts_with · CON-FND-F00DE62A603EE3
 Quote: In autosomal recessive inheritance, variants occur in both copies of the gene in each cell.
 Block: body
 ## image_recommendations
@@ -110,7 +110,7 @@ Section: Key determinants
 ART-FND-PEDIGREE: The chart on which these patterns are read.
 ART-FND-CHROMOSOMAL-DISORDER: Conditions that follow no Mendelian pattern because the fault is in chromosome number, not a single gene.
 ## related_concepts
-med.concept.mendelian-inheritance | med.concept.pedigree
+CON-FND-F00DE62A603EE3 | CON-FND-1847074D1C25EA
 ## primary_node_id
 SYS-FND-T02-S01-M01
 ## secondary_node_ids
@@ -219,10 +219,10 @@ Citations: CIT-FND-ANEUPLOIDY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.chromosomal-disorder
+### definition_of · CON-FND-E5BD39DE4875E5
 Quote: A gain or loss in the number of chromosomes from the normal 46 is called aneuploidy.
 Block: body
-### often_confused_with · med.concept.mendelian-inheritance
+### often_confused_with · CON-FND-F00DE62A603EE3
 Quote: so "chromosomal" says nothing about heritability on its own
 Block: body
 ## image_recommendations
@@ -242,7 +242,7 @@ Rights: needs an openly licensed or permissioned karyotype image
 ART-FND-MENDELIAN-INHERITANCE: The single-gene patterns these conditions do not follow.
 ART-FND-GENETIC-TESTING: The karyotype and the tests that distinguish a new event from a familial translocation.
 ## related_concepts
-med.concept.chromosomal-disorder
+CON-FND-E5BD39DE4875E5
 ## primary_node_id
 SYS-FND-T02-S01-M02
 ## secondary_node_ids
@@ -351,7 +351,7 @@ Citations: CIT-FND-MITOCHONDRIAL-INHERITANCE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.mitochondrial-inheritance
+### definition_of · CON-FND-08ACAADD9FEAD0
 Quote: Because only egg cells contribute mitochondria to the developing embryo, only females can pass on mitochondrial variants to their children.
 Block: body
 ## image_recommendations
@@ -365,7 +365,7 @@ Source direction: openly licensed genetics diagram
 ART-FND-MITOCHONDRION: The organelle and the separate genome this pattern follows from.
 ART-FND-PEDIGREE: Where the pattern is read.
 ## related_concepts
-med.concept.mitochondrial-inheritance
+CON-FND-08ACAADD9FEAD0
 ## primary_node_id
 SYS-FND-T02-S01-M03
 ## secondary_node_ids
@@ -474,7 +474,7 @@ Citations: CIT-FND-PEDIGREE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.pedigree
+### definition_of · CON-FND-1847074D1C25EA
 Quote: A pedigree, as related to genetics, is a chart that diagrams the inheritance of a trait or health condition through generations of a family.
 Block: body
 ## image_recommendations
@@ -493,7 +493,7 @@ Section: Key determinants
 ART-FND-MENDELIAN-INHERITANCE: The patterns a pedigree is drawn in order to reveal.
 ART-FND-MITOCHONDRIAL-INHERITANCE: The pattern most reliably identified from a pedigree alone.
 ## related_concepts
-med.concept.pedigree | med.concept.mendelian-inheritance
+CON-FND-1847074D1C25EA | CON-FND-F00DE62A603EE3
 ## primary_node_id
 SYS-FND-T02-S02-M01
 ## secondary_node_ids
@@ -602,10 +602,10 @@ Citations: CIT-FND-GENETIC-TESTING-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.genetic-testing
+### definition_of · CON-FND-DFD749AE66EEE8
 Quote: Genetic testing is a type of medical test that identifies changes in genes, chromosomes, or proteins.
 Block: body
-### prerequisite_of · med.concept.genetic-counselling
+### prerequisite_of · CON-FND-200A969C404E42
 Quote: Consent has to cover that before the test, not after.
 Block: body
 ## image_recommendations
@@ -623,7 +623,7 @@ Section: Key determinants
 ART-FND-CHROMOSOMAL-DISORDER: The conditions a karyotype is ordered to find.
 ART-FND-GENETIC-COUNSELLING: Where the consent and the interpretation of a result belong.
 ## related_concepts
-med.concept.genetic-testing
+CON-FND-DFD749AE66EEE8
 ## primary_node_id
 SYS-FND-T02-S02-M02
 ## secondary_node_ids
@@ -732,7 +732,7 @@ Citations: CIT-FND-GENETIC-CONSULTATION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.genetic-counselling
+### definition_of · CON-FND-200A969C404E42
 Quote: A genetic consultation is a health service that provides information and support to people who have, or may be at risk for, genetic conditions.
 Block: body
 ## image_recommendations
@@ -745,7 +745,7 @@ Section: Mechanism
 ART-FND-GENETIC-TESTING: The tests a consultation explains, consents and interprets.
 ART-FND-PEDIGREE: Drawn during the consultation and the basis of the risk given.
 ## related_concepts
-med.concept.genetic-counselling | med.concept.genetic-testing
+CON-FND-200A969C404E42 | CON-FND-DFD749AE66EEE8
 ## primary_node_id
 SYS-FND-T02-S02-M03
 ## secondary_node_ids

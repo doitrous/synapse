@@ -2,7 +2,7 @@
 ## label
 Cell cycle
 ## id
-med.concept.cell-cycle
+CON-FND-8F3A602C5B4B08
 ## canonical_key
 cell-cycle
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Cell-surface receptor
 ## id
-med.concept.cell-surface-receptor
+CON-FND-34734B5FAA7789
 ## canonical_key
 cell-surface-receptor
 ## aliases
@@ -176,7 +176,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Second messenger
 ## id
-med.concept.second-messenger
+CON-FND-CA179E56EF8D49
 ## canonical_key
 second-messenger
 ## aliases
@@ -263,7 +263,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Apoptosis
 ## id
-med.concept.apoptosis
+CON-FND-A8D34D42AEFF60
 ## canonical_key
 apoptosis
 ## aliases

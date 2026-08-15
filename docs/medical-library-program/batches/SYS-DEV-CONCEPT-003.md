@@ -2,7 +2,7 @@
 ## label
 Disability
 ## id
-med.concept.disability
+CON-DEV-D296ADD506BBA3
 ## canonical_key
 disability
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Functioning
 ## id
-med.concept.functioning
+CON-DEV-ADBEE1FB7F1352
 ## canonical_key
 functioning
 ## aliases
@@ -177,7 +177,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Activities of daily living
 ## id
-med.concept.activities-of-daily-living
+CON-DEV-951C03D8E080DB
 ## canonical_key
 activities-of-daily-living
 ## aliases
@@ -265,7 +265,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Health literacy
 ## id
-med.concept.health-literacy
+CON-DEV-E9AF65B56120DC
 ## canonical_key
 health-literacy
 ## aliases
@@ -353,7 +353,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Reasonable adjustments
 ## id
-med.concept.reasonable-adjustments
+CON-DEV-9C535BD9582A7D
 ## canonical_key
 reasonable-adjustments
 ## aliases
@@ -441,7 +441,7 @@ sourceCandidateIds: the corpus's only matches for "accommodation" are ocular acc
 ## label
 Informal caregiver
 ## id
-med.concept.informal-caregiver
+CON-DEV-C80F81B74454DF
 ## canonical_key
 informal-caregiver
 ## aliases
@@ -529,7 +529,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Occupational health
 ## id
-med.concept.occupational-health
+CON-DEV-7AAB3C458468F3
 ## canonical_key
 occupational-health
 ## aliases

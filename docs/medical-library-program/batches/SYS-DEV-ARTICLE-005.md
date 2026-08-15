@@ -104,7 +104,7 @@ Citations: CIT-DEV-SECOND-HAND-SMOKE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.lifestyle-risk-factors
+### definition_of · CON-DEV-E2C16AFA0F6774
 Quote: The most important behavioural risk factors of heart disease and stroke are unhealthy diet, physical inactivity, tobacco use and harmful use of alcohol.
 Block: body
 ## image_recommendations
@@ -117,7 +117,7 @@ Section: Mechanism
 ART-DEV-COUNSELLING: How these are addressed in a consultation.
 ART-DEV-RISK-ASSESSMENT: How they are combined into a decision.
 ## related_concepts
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## primary_node_id
 SYS-DEV-T02-S01-M01
 ## secondary_node_ids
@@ -240,7 +240,7 @@ Citations: CIT-DEV-EARLY-DETECTION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.risk-assessment
+### definition_of · CON-DEV-B29E19D5DBC63B
 Quote: Decisions about whether to initiate specific preventive action, and with what degree of intensity, should be guided by estimation of the risk of any such vascular event.
 Block: body
 ## image_recommendations
@@ -253,7 +253,7 @@ Section: Mechanism
 ART-DEV-LIFESTYLE: The factors being combined.
 ART-DEV-PREVENTIVE-CARE: What the estimate is used to decide.
 ## related_concepts
-med.concept.risk-assessment
+CON-DEV-B29E19D5DBC63B
 ## primary_node_id
 SYS-DEV-T04-S01-M01
 ## secondary_node_ids
@@ -365,7 +365,7 @@ Citations: CIT-DEV-FAMILY-HISTORY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.family-history
+### definition_of · CON-DEV-5CBAEE1155DE51
 Quote: A family history consists of the collection of information about the patient and other family members devoted to an understanding of heritable illness, current family health status, psychosocial disorders, and interactional and relationship data.
 Block: body
 ## image_recommendations
@@ -378,7 +378,7 @@ Section: Mechanism
 ART-DEV-RISK-ASSESSMENT: Where the genetic part feeds in.
 ART-DEV-CAREGIVING: Who the rest of it describes.
 ## related_concepts
-med.concept.family-history
+CON-DEV-5CBAEE1155DE51
 ## primary_node_id
 SYS-DEV-T04-S02-M01
 ## secondary_node_ids
@@ -495,7 +495,7 @@ Citations: CIT-DEV-SCHOOL-EDUCATION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.school-health
+### definition_of · CON-DEV-B507A6FF21A788
 Quote: Schools play a vital role in the well-being of students, families and their communities, and the link between education and health has never been more evident.
 Block: body
 ## image_recommendations
@@ -508,7 +508,7 @@ Section: Key determinants
 ART-DEV-PREVENTIVE-CARE: The levels of prevention this serves.
 ART-DEV-ADOLESCENT-DEVELOPMENT: Who is being reached.
 ## related_concepts
-med.concept.school-health
+CON-DEV-B507A6FF21A788
 ## primary_node_id
 SYS-DEV-T04-S02-M02
 ## secondary_node_ids

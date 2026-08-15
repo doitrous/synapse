@@ -93,10 +93,10 @@ Citations: CIT-DEV-GROWTH-CHART-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.growth
+### definition_of · CON-DEV-19C64195EB8F22
 Quote: In the context of childhood development, growth is defined as an irreversible constant increase in size, and development is defined as growth in psychomotor capacity.
 Block: body
-### definition_of · med.concept.growth-monitoring
+### definition_of · CON-DEV-7E674647FC2C99
 Quote: The WHO 2006 child growth standards describe normal child growth from birth to 5 years of age under optimal environmental conditions including WHO recommendations for breastfeeding.
 Block: body
 ## image_recommendations
@@ -109,7 +109,7 @@ Section: Key determinants
 ART-DEV-MILESTONES: The development half of the pair.
 ART-DEV-INFANT-FEEDING: The commonest reason a curve falters.
 ## related_concepts
-med.concept.growth | med.concept.growth-monitoring
+CON-DEV-19C64195EB8F22 | CON-DEV-7E674647FC2C99
 ## primary_node_id
 SYS-DEV-T01-S01-M01
 ## secondary_node_ids
@@ -231,10 +231,10 @@ Citations: CIT-DEV-DEV-DELAY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.developmental-milestones
+### definition_of · CON-DEV-1A4EABE36D6602
 Quote: Developmental milestones are markers of a child's development from infancy into childhood.
 Block: body
-### definition_of · med.concept.developmental-delay
+### definition_of · CON-DEV-3F463E02A2D88E
 Quote: Delay in development occurs when the child fails to attain developmental milestones as compared to peers from the same population.
 Block: body
 ## image_recommendations
@@ -247,7 +247,7 @@ Section: Mechanism
 ART-DEV-GROWTH: The size half of the pair.
 ART-DEV-CHILD-SCREENING: How delay is actually found.
 ## related_concepts
-med.concept.developmental-milestones | med.concept.developmental-delay
+CON-DEV-1A4EABE36D6602 | CON-DEV-3F463E02A2D88E
 ## primary_node_id
 SYS-DEV-T01-S01-M02
 ## secondary_node_ids
@@ -364,7 +364,7 @@ Citations: CIT-DEV-COMPLEMENTARY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.infant-feeding
+### definition_of · CON-DEV-FF6AA98B745EE7
 Quote: WHO and UNICEF recommend all infants initiate breastfeeding within 1 hour of birth, breastfeed exclusively for the first 6 months of life and then continue breastfeeding up to 2 years of age or beyond while nutritionally adequate, safe complementary foods are introduced from six months.
 Block: body
 ## image_recommendations
@@ -377,7 +377,7 @@ Section: Mechanism
 ART-DEV-GROWTH: What feeding shows up in.
 ART-DEV-UNDERNUTRITION: What inadequate feeding produces.
 ## related_concepts
-med.concept.infant-feeding
+CON-DEV-FF6AA98B745EE7
 ## primary_node_id
 SYS-DEV-T01-S01-M03
 ## secondary_node_ids
@@ -505,10 +505,10 @@ Citations: CIT-DEV-NEWBORN-SCREENING-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.screening
+### definition_of · CON-DEV-5215377CF13595
 Quote: A health screening test is a medical test or procedure performed on members of an asymptomatic population or population subgroup to assess their likelihood of having a particular disease.
 Block: body
-### definition_of · med.concept.newborn-screening
+### definition_of · CON-DEV-97F23F9EF23A2A
 Quote: Newborn screening is a state-run healthcare initiative that encompasses the process of parental education, infant screening, appropriate follow-up, diagnostic testing, disease management, and continued evaluation.
 Block: body
 ## image_recommendations
@@ -521,7 +521,7 @@ Section: Mechanism
 ART-DEV-PREVENTIVE-CARE: Where screening sits among the levels of prevention.
 ART-DEV-MILESTONES: What developmental screening looks for.
 ## related_concepts
-med.concept.screening | med.concept.newborn-screening
+CON-DEV-5215377CF13595 | CON-DEV-97F23F9EF23A2A
 ## primary_node_id
 SYS-DEV-T01-S01-M04
 ## secondary_node_ids
@@ -638,10 +638,10 @@ Citations: CIT-DEV-TANNER-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.puberty
+### definition_of · CON-DEV-D03DD6F73A309D
 Quote: Puberty is the process of physical maturation where an adolescent reaches sexual maturity and becomes capable of reproduction.
 Block: body
-### definition_of · med.concept.tanner-staging
+### definition_of · CON-DEV-6D2C6A66CC8924
 Quote: Tanner Staging, also known as Sexual Maturity Rating, is an objective classification system that providers use to document and track the development and sequence of secondary sex characteristics of children during puberty.
 Block: body
 ## image_recommendations
@@ -654,7 +654,7 @@ Section: Key determinants
 ART-DEV-ADOLESCENT-DEVELOPMENT: The psychosocial half.
 ART-DEV-GROWTH: The growth spurt this drives.
 ## related_concepts
-med.concept.puberty | med.concept.tanner-staging
+CON-DEV-D03DD6F73A309D | CON-DEV-6D2C6A66CC8924
 ## primary_node_id
 SYS-DEV-T01-S02-M01
 ## secondary_node_ids
@@ -766,7 +766,7 @@ Citations: CIT-DEV-ADOLESCENT-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.adolescent-development
+### definition_of · CON-DEV-4D107C637DAB3B
 Quote: During adolescence, it is normal for young people to begin to separate from their parents and make their own identity.
 Block: body
 ## image_recommendations
@@ -779,7 +779,7 @@ Section: Mechanism
 ART-DEV-PUBERTY: The physical half.
 ART-DEV-RISK-BEHAVIOUR: What this makes more likely.
 ## related_concepts
-med.concept.adolescent-development
+CON-DEV-4D107C637DAB3B
 ## primary_node_id
 SYS-DEV-T01-S02-M02
 ## secondary_node_ids
@@ -891,7 +891,7 @@ Citations: CIT-DEV-FIVE-AS-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.risk-behaviour
+### definition_of · CON-DEV-2FEB4FEFCF19F5
 Quote: The five major steps of the intervention are as follows: Ask, Advise, Assess, Assist, and Arrange.
 Block: body
 ## image_recommendations
@@ -904,7 +904,7 @@ Section: Mechanism
 ART-DEV-ADOLESCENT-DEVELOPMENT: Why risk-taking rises here.
 ART-DEV-PREVENTIVE-CARE: Where this sits among prevention.
 ## related_concepts
-med.concept.risk-behaviour
+CON-DEV-2FEB4FEFCF19F5
 ## primary_node_id
 SYS-DEV-T01-S02-M03
 ## secondary_node_ids
@@ -1032,7 +1032,7 @@ Citations: CIT-DEV-HERD-IMMUNITY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.preventive-care
+### definition_of · CON-DEV-C668126BD3C4C9
 Quote: Immunization is the process of becoming protected against a disease.
 Block: body
 ## image_recommendations
@@ -1045,7 +1045,7 @@ Section: Mechanism
 ART-DEV-CHILD-SCREENING: The secondary level in practice.
 ART-DEV-RISK-BEHAVIOUR: Primary prevention in the consultation.
 ## related_concepts
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## primary_node_id
 SYS-DEV-T01-S02-M04
 ## secondary_node_ids

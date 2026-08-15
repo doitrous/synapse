@@ -2,7 +2,7 @@
 ## label
 Edema
 ## id
-med.concept.edema
+CON-FND-D37E7FFF4D0061
 ## canonical_key
 edema
 ## aliases
@@ -91,7 +91,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Thrombosis
 ## id
-med.concept.thrombosis
+CON-FND-1B3C89A212DD27
 ## canonical_key
 thrombosis
 ## aliases
@@ -180,7 +180,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Embolism
 ## id
-med.concept.embolism
+CON-FND-B5E4F3F73B582D
 ## canonical_key
 embolism
 ## aliases
@@ -269,7 +269,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Infarction
 ## id
-med.concept.infarction
+CON-FND-0BA658B26E1758
 ## canonical_key
 infarction
 ## aliases
@@ -358,7 +358,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Ischaemia
 ## id
-med.concept.ischaemia
+CON-FND-7152725CE80103
 ## canonical_key
 ischaemia
 ## aliases
@@ -447,7 +447,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Body fluid compartments
 ## id
-med.concept.body-fluid-compartments
+CON-FND-3F12B01B85CD01
 ## canonical_key
 body-fluid-compartments
 ## aliases
@@ -536,7 +536,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Hypovolaemia
 ## id
-med.concept.hypovolaemia
+CON-FND-0170B29549E2B5
 ## canonical_key
 hypovolaemia
 ## aliases
@@ -625,7 +625,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Hyponatraemia
 ## id
-med.concept.hyponatraemia
+CON-FND-954F14AFED916F
 ## canonical_key
 hyponatraemia
 ## aliases
@@ -714,7 +714,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Hypernatraemia
 ## id
-med.concept.hypernatraemia
+CON-FND-6EF07B812F4A6F
 ## canonical_key
 hypernatraemia
 ## aliases
@@ -803,7 +803,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Hypokalaemia
 ## id
-med.concept.hypokalaemia
+CON-FND-1524432F43EE53
 ## canonical_key
 hypokalaemia
 ## aliases
@@ -892,7 +892,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Hyperkalaemia
 ## id
-med.concept.hyperkalaemia
+CON-FND-5FE9BF580346B0
 ## canonical_key
 hyperkalaemia
 ## aliases
@@ -981,7 +981,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Metabolic acidosis
 ## id
-med.concept.metabolic-acidosis
+CON-FND-208A99B69697A4
 ## canonical_key
 metabolic-acidosis
 ## aliases
@@ -1070,7 +1070,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Respiratory acidosis
 ## id
-med.concept.respiratory-acidosis
+CON-FND-71B98BD717A65E
 ## canonical_key
 respiratory-acidosis
 ## aliases
@@ -1159,7 +1159,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Anion gap
 ## id
-med.concept.anion-gap
+CON-FND-65A0B833E3FEE3
 ## canonical_key
 anion-gap
 ## aliases

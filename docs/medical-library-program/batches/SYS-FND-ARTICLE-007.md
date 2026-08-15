@@ -87,7 +87,7 @@ Citations: CIT-FND-EDEMA-MECH-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.edema
+### definition_of · CON-FND-D37E7FFF4D0061
 Quote: Edema is a swelling due to the expansion of interstitial fluid volume in tissues or an organ.
 Block: body
 ## image_recommendations
@@ -100,7 +100,7 @@ Section: Mechanism
 ART-FND-BODY-FLUID-VOLUME: Where the fluid came from.
 ART-FND-THROMBOSIS: One cause of raised hydrostatic pressure.
 ## related_concepts
-med.concept.edema
+CON-FND-D37E7FFF4D0061
 ## primary_node_id
 SYS-FND-T06-S01-M01
 ## secondary_node_ids
@@ -215,7 +215,7 @@ Citations: CIT-FND-VIRCHOW-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.thrombosis
+### definition_of · CON-FND-1B3C89A212DD27
 Quote: Thrombosis is the formation of a blood clot within arterial or venous blood vessels, limiting the natural flow of blood.
 Block: body
 ## image_recommendations
@@ -228,7 +228,7 @@ Section: Mechanism
 ART-FND-EMBOLISM: What happens when it breaks loose.
 ART-FND-INFARCTION: What happens to the tissue beyond it.
 ## related_concepts
-med.concept.thrombosis
+CON-FND-1B3C89A212DD27
 ## primary_node_id
 SYS-FND-T06-S01-M02
 ## secondary_node_ids
@@ -338,7 +338,7 @@ Citations: CIT-FND-EMBOLISM-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.embolism
+### definition_of · CON-FND-B5E4F3F73B582D
 Quote: Embolism is the blocking of a blood vessel by an embolus, which can be a blood clot or other undissolved material in the blood stream.
 Block: body
 ## image_recommendations
@@ -351,7 +351,7 @@ Section: Key determinants
 ART-FND-THROMBOSIS: Where most emboli come from.
 ART-FND-INFARCTION: What the blockage does to the tissue beyond.
 ## related_concepts
-med.concept.embolism
+CON-FND-B5E4F3F73B582D
 ## primary_node_id
 SYS-FND-T06-S01-M03
 ## secondary_node_ids
@@ -468,10 +468,10 @@ Citations: CIT-FND-ISCHEMIA-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.infarction
+### definition_of · CON-FND-0BA658B26E1758
 Quote: Infarction is the formation of an infarct, which is necrosis in tissue due to local ischemia resulting from obstruction of blood circulation, most commonly by a thrombus or embolus.
 Block: body
-### definition_of · med.concept.ischaemia
+### definition_of · CON-FND-7152725CE80103
 Quote: Ischaemia is a hypoperfusion of the blood through an organ or tissue caused by a pathological constriction or obstruction of its blood vessels, or an absence of blood circulation.
 Block: body
 ## image_recommendations
@@ -484,7 +484,7 @@ Section: Key determinants
 ART-FND-THROMBOSIS: One cause of the obstruction.
 ART-FND-EMBOLISM: The other common cause.
 ## related_concepts
-med.concept.infarction | med.concept.ischaemia
+CON-FND-0BA658B26E1758 | CON-FND-7152725CE80103
 ## primary_node_id
 SYS-FND-T06-S01-M04
 ## secondary_node_ids
@@ -616,10 +616,10 @@ Citations: CIT-FND-HYPOVOLEMIA-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.body-fluid-compartments
+### definition_of · CON-FND-3F12B01B85CD01
 Quote: For the average 70 kg man, 60% of total body weight is water, amounting to 42 L, separated into intracellular and extracellular fluid volume.
 Block: body
-### definition_of · med.concept.hypovolaemia
+### definition_of · CON-FND-0170B29549E2B5
 Quote: Hypovolaemia is a state of low extracellular fluid volume, generally secondary to combined sodium and water loss.
 Block: body
 ## image_recommendations
@@ -632,7 +632,7 @@ Section: Key determinants
 ART-FND-SODIUM-DISORDERS: The solute that holds water outside cells.
 ART-FND-EDEMA: When the interstitial compartment overfills.
 ## related_concepts
-med.concept.body-fluid-compartments | med.concept.hypovolaemia
+CON-FND-3F12B01B85CD01 | CON-FND-0170B29549E2B5
 ## primary_node_id
 SYS-FND-T06-S02-M01
 ## secondary_node_ids
@@ -757,10 +757,10 @@ Citations: CIT-FND-HYPERNATREMIA-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.hyponatraemia
+### definition_of · CON-FND-954F14AFED916F
 Quote: Hyponatraemia is usually defined as a serum sodium concentration less than 135 mEq/L, although the threshold may vary slightly with the laboratory reference range.
 Block: body
-### definition_of · med.concept.hypernatraemia
+### definition_of · CON-FND-6EF07B812F4A6F
 Quote: Hypernatraemia is defined as a serum sodium concentration greater than 145 mEq/L.
 Block: body
 ## image_recommendations
@@ -773,7 +773,7 @@ Section: Key determinants
 ART-FND-BODY-FLUID-VOLUME: Where the water sits.
 ART-FND-POTASSIUM-DISORDERS: The other electrolyte read at the same time.
 ## related_concepts
-med.concept.hyponatraemia | med.concept.hypernatraemia
+CON-FND-954F14AFED916F | CON-FND-6EF07B812F4A6F
 ## primary_node_id
 SYS-FND-T06-S02-M02
 ## secondary_node_ids
@@ -907,10 +907,10 @@ Citations: CIT-FND-HYPERKALEMIA-CARDIAC-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.hypokalaemia
+### definition_of · CON-FND-1524432F43EE53
 Quote: An acceptable lower limit for normal serum potassium is 3.5 mmol/L, although variation exists.
 Block: body
-### definition_of · med.concept.hyperkalaemia
+### definition_of · CON-FND-5FE9BF580346B0
 Quote: Hyperkalaemia is a serum or plasma potassium concentration exceeding the upper limit of normal, typically greater than 5.0 to 5.5 mEq/L.
 Block: body
 ## image_recommendations
@@ -923,7 +923,7 @@ Section: Normal values
 ART-FND-SODIUM-DISORDERS: The other electrolyte read at the same time.
 ART-FND-ACID-BASE: What shifts potassium across the membrane.
 ## related_concepts
-med.concept.hypokalaemia | med.concept.hyperkalaemia
+CON-FND-1524432F43EE53 | CON-FND-5FE9BF580346B0
 ## primary_node_id
 SYS-FND-T06-S02-M03
 ## secondary_node_ids
@@ -1064,13 +1064,13 @@ Citations: CIT-FND-ANION-GAP-NORMAL-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.metabolic-acidosis
+### definition_of · CON-FND-208A99B69697A4
 Quote: Metabolic acidosis is characterised by a reduction in serum bicarbonate with a compensatory decrease in arterial pCO2.
 Block: body
-### definition_of · med.concept.respiratory-acidosis
+### definition_of · CON-FND-71B98BD717A65E
 Quote: Respiratory acidosis is a state in which there is usually a failure of ventilation and an accumulation of carbon dioxide.
 Block: body
-### definition_of · med.concept.anion-gap
+### definition_of · CON-FND-65A0B833E3FEE3
 Quote: The anion gap is the difference between measured cations, such as sodium and potassium, and measured anions, such as chloride and bicarbonate.
 Block: body
 ## image_recommendations
@@ -1088,7 +1088,7 @@ Section: Key determinants
 ART-FND-POTASSIUM-DISORDERS: What acid-base state shifts across the membrane.
 ART-FND-BODY-FLUID-VOLUME: The compartments the ions sit in.
 ## related_concepts
-med.concept.metabolic-acidosis | med.concept.respiratory-acidosis | med.concept.anion-gap
+CON-FND-208A99B69697A4 | CON-FND-71B98BD717A65E | CON-FND-65A0B833E3FEE3
 ## primary_node_id
 SYS-FND-T06-S02-M04
 ## secondary_node_ids

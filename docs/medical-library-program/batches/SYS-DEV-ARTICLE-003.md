@@ -108,13 +108,13 @@ Citations: CIT-DEV-IADL-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.disability
+### definition_of · CON-DEV-D296ADD506BBA3
 Quote: In ICF, the term functioning refers to all body functions, activities and participation, while disability is similarly an umbrella term for impairments, activity limitations and participation restrictions.
 Block: body
-### definition_of · med.concept.functioning
+### definition_of · CON-DEV-ADBEE1FB7F1352
 Quote: Activity is the execution of a task or action by an individual. Participation is involvement in a life situation.
 Block: body
-### definition_of · med.concept.activities-of-daily-living
+### definition_of · CON-DEV-951C03D8E080DB
 Quote: Activities of daily living refer to the basic skills necessary for individuals to independently care for themselves, such as eating, bathing, and mobility.
 Block: body
 ## image_recommendations
@@ -127,7 +127,7 @@ Section: Key determinants
 ART-DEV-REASONABLE-ADJUSTMENTS: What changes the environment half.
 ART-DEV-CAREGIVING: Who fills the gap.
 ## related_concepts
-med.concept.disability | med.concept.functioning | med.concept.activities-of-daily-living
+CON-DEV-D296ADD506BBA3 | CON-DEV-ADBEE1FB7F1352 | CON-DEV-951C03D8E080DB
 ## primary_node_id
 SYS-DEV-T04-S03-M01
 ## secondary_node_ids
@@ -239,7 +239,7 @@ Citations: CIT-DEV-HEALTH-LITERACY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.health-literacy
+### definition_of · CON-DEV-E9AF65B56120DC
 Quote: Health literacy represents the personal knowledge and competencies that accumulate through daily activities, social interactions and across generations.
 Block: body
 ## image_recommendations
@@ -252,7 +252,7 @@ Section: Key determinants
 ART-DEV-FUNCTION-PARTICIPATION: Communication as a participation issue.
 ART-DEV-REASONABLE-ADJUSTMENTS: When access needs an adjustment.
 ## related_concepts
-med.concept.health-literacy
+CON-DEV-E9AF65B56120DC
 ## primary_node_id
 SYS-DEV-T04-S03-M02
 ## secondary_node_ids
@@ -364,7 +364,7 @@ Citations: CIT-DEV-REASONABLE-ACCOMMODATION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.reasonable-adjustments
+### definition_of · CON-DEV-9C535BD9582A7D
 Quote: Reasonable accommodation means necessary and appropriate modification and adjustments not imposing a disproportionate or undue burden, where needed in a particular case, to ensure to persons with disabilities the enjoyment or exercise on an equal basis with others of all human rights and fundamental freedoms.
 Block: body
 ## image_recommendations
@@ -377,7 +377,7 @@ Section: Clinical significance
 ART-DEV-FUNCTION-PARTICIPATION: The restriction being removed.
 ART-DEV-COMMUNICATION-ACCESS: The commonest kind of adjustment.
 ## related_concepts
-med.concept.reasonable-adjustments
+CON-DEV-9C535BD9582A7D
 ## primary_node_id
 SYS-DEV-T04-S03-M03
 ## secondary_node_ids
@@ -494,7 +494,7 @@ Citations: CIT-DEV-CAREGIVER-STRESS-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.informal-caregiver
+### definition_of · CON-DEV-C80F81B74454DF
 Quote: An informal caregiver, often a family member, provides care, typically unpaid, to someone with whom they have a personal relationship.
 Block: body
 ## image_recommendations
@@ -507,7 +507,7 @@ Section: Key determinants
 ART-DEV-FUNCTION-PARTICIPATION: What creates the need.
 ART-DEV-FRAILTY: Who most often needs it.
 ## related_concepts
-med.concept.informal-caregiver
+CON-DEV-C80F81B74454DF
 ## primary_node_id
 SYS-DEV-T04-S03-M04
 ## secondary_node_ids
@@ -630,7 +630,7 @@ Citations: CIT-DEV-OCC-HEALTH-SERVICES-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.occupational-health
+### definition_of · CON-DEV-7AAB3C458468F3
 Quote: The term occupational disease covers any disease contracted as a result of an exposure to risk factors arising from work activity.
 Block: body
 ## image_recommendations
@@ -643,7 +643,7 @@ Section: Key determinants
 ART-DEV-PREVENTIVE-CARE: Where prevention of this sits.
 ART-DEV-FUNCTION-PARTICIPATION: Work as participation.
 ## related_concepts
-med.concept.occupational-health
+CON-DEV-7AAB3C458468F3
 ## primary_node_id
 SYS-DEV-T02-S01-M03
 ## secondary_node_ids

@@ -2,7 +2,7 @@
 ## id
 CLM-FND-EDEMA-01
 ## concept_id
-med.concept.edema
+CON-FND-D37E7FFF4D0061
 ## subject
 Edema
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-FND-EDEMA-MECH-01
 ## concept_id
-med.concept.edema
+CON-FND-D37E7FFF4D0061
 ## subject
 Edema
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-FND-THROMBOSIS-01
 ## concept_id
-med.concept.thrombosis
+CON-FND-1B3C89A212DD27
 ## subject
 Thrombosis
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-FND-VIRCHOW-01
 ## concept_id
-med.concept.thrombosis
+CON-FND-1B3C89A212DD27
 ## subject
 Virchow's triad
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-FND-EMBOLISM-01
 ## concept_id
-med.concept.embolism
+CON-FND-B5E4F3F73B582D
 ## subject
 Embolism
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-FND-INFARCTION-01
 ## concept_id
-med.concept.infarction
+CON-FND-0BA658B26E1758
 ## subject
 Infarction
 ## predicate
@@ -182,7 +182,7 @@ polarity: affirmative
 ## id
 CLM-FND-ISCHEMIA-01
 ## concept_id
-med.concept.ischaemia
+CON-FND-7152725CE80103
 ## subject
 Ischaemia
 ## predicate
@@ -212,7 +212,7 @@ polarity: affirmative
 ## id
 CLM-FND-TBW-01
 ## concept_id
-med.concept.body-fluid-compartments
+CON-FND-3F12B01B85CD01
 ## subject
 Total body water
 ## predicate
@@ -242,7 +242,7 @@ polarity: affirmative
 ## id
 CLM-FND-ICF-01
 ## concept_id
-med.concept.body-fluid-compartments
+CON-FND-3F12B01B85CD01
 ## subject
 Intracellular fluid
 ## predicate
@@ -272,7 +272,7 @@ polarity: affirmative
 ## id
 CLM-FND-ECF-01
 ## concept_id
-med.concept.body-fluid-compartments
+CON-FND-3F12B01B85CD01
 ## subject
 Extracellular fluid
 ## predicate
@@ -302,7 +302,7 @@ polarity: affirmative
 ## id
 CLM-FND-HYPOVOLEMIA-01
 ## concept_id
-med.concept.hypovolaemia
+CON-FND-0170B29549E2B5
 ## subject
 Hypovolaemia
 ## predicate
@@ -332,7 +332,7 @@ polarity: affirmative
 ## id
 CLM-FND-HYPONATREMIA-01
 ## concept_id
-med.concept.hyponatraemia
+CON-FND-954F14AFED916F
 ## subject
 Hyponatraemia
 ## predicate
@@ -362,7 +362,7 @@ polarity: affirmative
 ## id
 CLM-FND-HYPONATREMIA-MECH-01
 ## concept_id
-med.concept.hyponatraemia
+CON-FND-954F14AFED916F
 ## subject
 Hyponatraemia
 ## predicate
@@ -392,7 +392,7 @@ polarity: affirmative
 ## id
 CLM-FND-HYPERNATREMIA-01
 ## concept_id
-med.concept.hypernatraemia
+CON-FND-6EF07B812F4A6F
 ## subject
 Hypernatraemia
 ## predicate
@@ -422,7 +422,7 @@ polarity: affirmative
 ## id
 CLM-FND-HYPOKALEMIA-01
 ## concept_id
-med.concept.hypokalaemia
+CON-FND-1524432F43EE53
 ## subject
 The lower limit of normal serum potassium
 ## predicate
@@ -452,7 +452,7 @@ polarity: affirmative
 ## id
 CLM-FND-HYPOKALEMIA-SEVERITY-01
 ## concept_id
-med.concept.hypokalaemia
+CON-FND-1524432F43EE53
 ## subject
 Hypokalaemia
 ## predicate
@@ -482,7 +482,7 @@ polarity: affirmative
 ## id
 CLM-FND-HYPERKALEMIA-01
 ## concept_id
-med.concept.hyperkalaemia
+CON-FND-5FE9BF580346B0
 ## subject
 Hyperkalaemia
 ## predicate
@@ -512,7 +512,7 @@ polarity: affirmative
 ## id
 CLM-FND-HYPERKALEMIA-CARDIAC-01
 ## concept_id
-med.concept.hyperkalaemia
+CON-FND-5FE9BF580346B0
 ## subject
 Severe hyperkalaemia
 ## predicate
@@ -542,7 +542,7 @@ polarity: affirmative
 ## id
 CLM-FND-METABOLIC-ACIDOSIS-01
 ## concept_id
-med.concept.metabolic-acidosis
+CON-FND-208A99B69697A4
 ## subject
 Metabolic acidosis
 ## predicate
@@ -572,7 +572,7 @@ polarity: affirmative
 ## id
 CLM-FND-ACIDEMIA-01
 ## concept_id
-med.concept.metabolic-acidosis
+CON-FND-208A99B69697A4
 ## subject
 Acidaemia
 ## predicate
@@ -602,7 +602,7 @@ polarity: affirmative
 ## id
 CLM-FND-RESP-ACIDOSIS-01
 ## concept_id
-med.concept.respiratory-acidosis
+CON-FND-71B98BD717A65E
 ## subject
 Respiratory acidosis
 ## predicate
@@ -632,7 +632,7 @@ polarity: affirmative
 ## id
 CLM-FND-ANION-GAP-01
 ## concept_id
-med.concept.anion-gap
+CON-FND-65A0B833E3FEE3
 ## subject
 The anion gap
 ## predicate
@@ -662,7 +662,7 @@ polarity: affirmative
 ## id
 CLM-FND-ANION-GAP-NORMAL-01
 ## concept_id
-med.concept.anion-gap
+CON-FND-65A0B833E3FEE3
 ## subject
 A normal anion gap
 ## predicate

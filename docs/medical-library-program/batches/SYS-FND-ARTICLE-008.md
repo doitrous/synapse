@@ -119,7 +119,7 @@ Section: Mechanism
 ART-FND-REVERSIBLE-CELL-INJURY: Where the sequence starts.
 ART-FND-CARCINOGENESIS: Where it ends.
 ## related_concepts
-med.concept.cellular-adaptation | med.concept.necrosis
+CON-FND-6BE5FBFCBC50A2 | CON-FND-9EF4E7D5214712
 ## primary_node_id
 SYS-FND-T03
 ## secondary_node_ids
@@ -260,7 +260,7 @@ Section: Mechanism
 ART-FND-PHARMACOKINETICS: What the body does to the drug.
 ART-FND-PHARMACODYNAMICS: What the drug does to the body.
 ## related_concepts
-med.concept.pharmacokinetics | med.concept.pharmacodynamics
+CON-FND-B7F42715799160 | CON-FND-9223E594E1A685
 ## primary_node_id
 SYS-FND-T04
 ## secondary_node_ids
@@ -405,7 +405,7 @@ Section: Key determinants
 ART-FND-BACTERIA: The first of the four groups.
 ART-FND-TRANSMISSION: How an organism arrives.
 ## related_concepts
-med.concept.bacteria | med.concept.transmission
+CON-FND-2CA82203124AAA | CON-FND-1D2CAFDB2FBAA2
 ## primary_node_id
 SYS-FND-T05
 ## secondary_node_ids

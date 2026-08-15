@@ -2,7 +2,7 @@
 ## label
 Pharmacokinetics
 ## id
-med.concept.pharmacokinetics
+CON-FND-B7F42715799160
 ## canonical_key
 pharmacokinetics
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Pharmacodynamics
 ## id
-med.concept.pharmacodynamics
+CON-FND-9223E594E1A685
 ## canonical_key
 pharmacodynamics
 ## aliases
@@ -176,7 +176,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Dose–response relationship
 ## id
-med.concept.dose-response
+CON-FND-F9FBDBEFC21AFE
 ## canonical_key
 dose-response
 ## aliases
@@ -263,7 +263,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Therapeutic index
 ## id
-med.concept.therapeutic-index
+CON-FND-5778E98DF935B6
 ## canonical_key
 therapeutic-index
 ## aliases
@@ -350,7 +350,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Adverse drug reaction
 ## id
-med.concept.adverse-drug-reaction
+CON-FND-3A7003C40A8653
 ## canonical_key
 adverse-drug-reaction
 ## aliases
@@ -437,7 +437,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Drug interaction
 ## id
-med.concept.drug-interaction
+CON-FND-A393D68726FD84
 ## canonical_key
 drug-interaction
 ## aliases

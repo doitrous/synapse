@@ -86,10 +86,10 @@ Citations: CIT-FND-ADME-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.pharmacokinetics
+### definition_of · CON-FND-B7F42715799160
 Quote: Pharmacokinetics is the study of how the body interacts with administered substances for the entire duration of exposure.
 Block: body
-### contrasts_with · med.concept.pharmacodynamics
+### contrasts_with · CON-FND-9223E594E1A685
 Quote: The four are usually abbreviated ADME, and the order of the letters describes emphasis rather than sequence.
 Block: body
 ## image_recommendations
@@ -108,7 +108,7 @@ Section: Key determinants
 ART-FND-PHARMACODYNAMICS: The opposite direction — what the drug does to the body.
 ART-FND-DOSE-RESPONSE: Where concentration becomes effect.
 ## related_concepts
-med.concept.pharmacokinetics
+CON-FND-B7F42715799160
 ## primary_node_id
 SYS-FND-T04-S01-M01
 ## secondary_node_ids
@@ -224,10 +224,10 @@ Citations: CIT-FND-PD-VS-PK-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.pharmacodynamics
+### definition_of · CON-FND-9223E594E1A685
 Quote: Pharmacodynamics studies a drug's molecular, biochemical, and physiologic effects or actions.
 Block: body
-### contrasts_with · med.concept.pharmacokinetics
+### contrasts_with · CON-FND-B7F42715799160
 Quote: Pharmacodynamics studies the action of the drug on the organism, and pharmacokinetics studies the effect the organism has on processing the drug.
 Block: body
 ## image_recommendations
@@ -241,7 +241,7 @@ Source direction: openly licensed pharmacology diagram
 ART-FND-PHARMACOKINETICS: The opposite direction, and the other half of the question.
 ART-FND-CELL-SURFACE-RECEPTOR: The receptor these drugs act at.
 ## related_concepts
-med.concept.pharmacodynamics | med.concept.cell-surface-receptor
+CON-FND-9223E594E1A685 | CON-FND-34734B5FAA7789
 ## primary_node_id
 SYS-FND-T04-S02-M01
 ## secondary_node_ids
@@ -350,10 +350,10 @@ Citations: CIT-FND-TW-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.dose-response
+### definition_of · CON-FND-F9FBDBEFC21AFE
 Quote: Between the minimally effective dose and the toxic dose lies the therapeutic window, where the safest and most effective treatment will occur.
 Block: body
-### often_confused_with · med.concept.dose-response
+### often_confused_with · CON-FND-F9FBDBEFC21AFE
 Quote: Potency is its position on the dose axis — how much drug is needed. Efficacy is the height of the plateau — how much effect is achievable at all.
 Block: body
 ## image_recommendations
@@ -371,7 +371,7 @@ Section: Key determinants
 ART-FND-THERAPEUTIC-INDEX: The safety measure derived from the two ends of this window.
 ART-FND-PHARMACODYNAMICS: The receptor behaviour that produces these curve shapes.
 ## related_concepts
-med.concept.dose-response | med.concept.therapeutic-index
+CON-FND-F9FBDBEFC21AFE | CON-FND-5778E98DF935B6
 ## primary_node_id
 SYS-FND-T04-S02-M02
 ## secondary_node_ids
@@ -480,7 +480,7 @@ Citations: CIT-FND-TI-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.therapeutic-index
+### definition_of · CON-FND-5778E98DF935B6
 Quote: The therapeutic index is a quantitative measurement of the relative safety of a drug, comparing the amount that produces a therapeutic effect with the amount that produces a toxic effect.
 Block: body
 ## image_recommendations
@@ -493,7 +493,7 @@ Section: Mechanism
 ART-FND-DOSE-RESPONSE: The two curves this index is derived from.
 ART-FND-ADVERSE-DRUG-REACTION: What happens when the toxic dose is reached.
 ## related_concepts
-med.concept.therapeutic-index | med.concept.dose-response
+CON-FND-5778E98DF935B6 | CON-FND-F9FBDBEFC21AFE
 ## primary_node_id
 SYS-FND-T04-S02-M03
 ## secondary_node_ids
@@ -604,10 +604,10 @@ Citations: CIT-FND-ADR-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.adverse-drug-reaction
+### definition_of · CON-FND-3A7003C40A8653
 Quote: An adverse drug reaction is a response to a drug which is noxious and unintended, and which occurs at doses normally used for prophylaxis, diagnosis, or therapy of disease or the modification of physiologic function.
 Block: body
-### contrasts_with · med.concept.adverse-drug-reaction
+### contrasts_with · CON-FND-3A7003C40A8653
 Quote: a reaction at a normal dose is adverse, whereas harm at an excessive dose is toxicity or overdose
 Block: body
 ## image_recommendations
@@ -625,7 +625,7 @@ Section: Key determinants
 ART-FND-DRUG-INTERACTION: The other route by which a normal dose produces an abnormal effect.
 ART-FND-THERAPEUTIC-INDEX: Why the same reaction is more dangerous for some drugs than others.
 ## related_concepts
-med.concept.adverse-drug-reaction
+CON-FND-3A7003C40A8653
 ## primary_node_id
 SYS-FND-T04-S03-M01
 ## secondary_node_ids
@@ -734,10 +734,10 @@ Citations: CIT-FND-INTERACTION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.drug-interaction
+### definition_of · CON-FND-A393D68726FD84
 Quote: Drug interactions are reactions between a drug and other drugs, foods, beverages, supplements, or diseases.
 Block: body
-### contrasts_with · med.concept.pharmacokinetics
+### contrasts_with · CON-FND-B7F42715799160
 Quote: A pharmacokinetic interaction changes how much drug reaches the target.
 Block: body
 ## image_recommendations
@@ -755,7 +755,7 @@ Section: Key determinants
 ART-FND-ADVERSE-DRUG-REACTION: What an interaction produces when it goes wrong.
 ART-FND-PHARMACOKINETICS: The processes a pharmacokinetic interaction alters.
 ## related_concepts
-med.concept.drug-interaction | med.concept.adverse-drug-reaction
+CON-FND-A393D68726FD84 | CON-FND-3A7003C40A8653
 ## primary_node_id
 SYS-FND-T04-S03-M02
 ## secondary_node_ids

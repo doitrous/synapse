@@ -2,7 +2,7 @@
 ## id
 CLM-FND-ONCOGENE-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Oncogenes
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-FND-PROTO-ONCOGENE-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Proto-oncogenes
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-FND-TP53-FUNCTION-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 The TP53 protein
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-FND-TP53-CANCER-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Somatic mutations in TP53
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-FND-BENZENE-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Exposure to benzene
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-FND-RADIATION-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Ionising radiation
 ## predicate
@@ -182,7 +182,7 @@ polarity: affirmative
 ## id
 CLM-FND-HPV-CERVICAL-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Almost all cases of cervical cancer
 ## predicate
@@ -212,7 +212,7 @@ polarity: affirmative
 ## id
 CLM-FND-HBV-LIVER-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Chronic hepatitis B infection
 ## predicate
@@ -242,7 +242,7 @@ polarity: affirmative
 ## id
 CLM-FND-AFLATOXIN-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Aflatoxin B1
 ## predicate
@@ -272,7 +272,7 @@ polarity: affirmative
 ## id
 CLM-FND-SCHISTOSOMIASIS-BLADDER-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Urogenital schistosomiasis
 ## predicate

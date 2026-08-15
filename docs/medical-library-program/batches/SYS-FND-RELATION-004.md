@@ -1,10 +1,10 @@
 # Item
 ## source
-med.concept.drug-distribution
+CON-FND-863C95CB583B82
 ## type
 mechanism_step_before
 ## target
-med.concept.drug-metabolism
+CON-FND-FE75489195378C
 ## evidence_claim_ids
 CLM-FND-DRUG-DISTRIBUTION-01 | CLM-FND-DRUG-METABOLISM-01
 ## citation_ids
@@ -24,11 +24,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.drug-metabolism
+CON-FND-FE75489195378C
 ## type
 mechanism_step_before
 ## target
-med.concept.drug-excretion
+CON-FND-0B77B5B8B45578
 ## evidence_claim_ids
 CLM-FND-DRUG-METABOLISM-01 | CLM-FND-ELIMINATION-ROUTES-01
 ## citation_ids
@@ -48,11 +48,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.volume-of-distribution
+CON-FND-63AB77D08CEA93
 ## type
 part_of
 ## target
-med.concept.drug-distribution
+CON-FND-863C95CB583B82
 ## evidence_claim_ids
 CLM-FND-VOLUME-DISTRIBUTION-01 | CLM-FND-DRUG-DISTRIBUTION-01
 ## citation_ids
@@ -72,11 +72,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cytochrome-p450
+CON-FND-C89BD22BC20E25
 ## type
 part_of
 ## target
-med.concept.drug-metabolism
+CON-FND-FE75489195378C
 ## evidence_claim_ids
 CLM-FND-CYP450-01 | CLM-FND-PHASE-I-II-01
 ## citation_ids
@@ -96,11 +96,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.first-pass-effect
+CON-FND-AE16E8E450D8A1
 ## type
 part_of
 ## target
-med.concept.drug-metabolism
+CON-FND-FE75489195378C
 ## evidence_claim_ids
 CLM-FND-FIRST-PASS-01 | CLM-FND-DRUG-METABOLISM-01
 ## citation_ids
@@ -120,11 +120,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.clearance
+CON-FND-213F6776858526
 ## type
 part_of
 ## target
-med.concept.drug-excretion
+CON-FND-0B77B5B8B45578
 ## evidence_claim_ids
 CLM-FND-CLEARANCE-01 | CLM-FND-DRUG-ELIMINATION-01
 ## citation_ids
@@ -144,11 +144,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.half-life
+CON-FND-02C545DB43902B
 ## type
 part_of
 ## target
-med.concept.drug-excretion
+CON-FND-0B77B5B8B45578
 ## evidence_claim_ids
 CLM-FND-HALF-LIFE-01 | CLM-FND-DRUG-ELIMINATION-01
 ## citation_ids
@@ -168,11 +168,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.clearance
+CON-FND-213F6776858526
 ## type
 often_confused_with
 ## target
-med.concept.half-life
+CON-FND-02C545DB43902B
 ## evidence_claim_ids
 CLM-FND-CLEARANCE-01 | CLM-FND-HALF-LIFE-01
 ## citation_ids
@@ -192,11 +192,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.drug-excretion
+CON-FND-0B77B5B8B45578
 ## type
 prerequisite_of
 ## target
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## evidence_claim_ids
 CLM-FND-RENAL-EXCRETION-01 | CLM-FND-AGEING-RENAL-01
 ## citation_ids
@@ -216,11 +216,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## type
 decreases
 ## target
-med.concept.clearance
+CON-FND-213F6776858526
 ## evidence_claim_ids
 CLM-FND-AGEING-RENAL-01 | CLM-FND-CLEARANCE-01
 ## citation_ids
@@ -240,11 +240,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.drug-distribution
+CON-FND-863C95CB583B82
 ## type
 prerequisite_of
 ## target
-med.concept.volume-of-distribution
+CON-FND-63AB77D08CEA93
 ## evidence_claim_ids
 CLM-FND-DRUG-DISTRIBUTION-01 | CLM-FND-VOLUME-DISTRIBUTION-01
 ## citation_ids
@@ -264,11 +264,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cytochrome-p450
+CON-FND-C89BD22BC20E25
 ## type
 causes
 ## target
-med.concept.drug-interaction
+CON-FND-A393D68726FD84
 ## evidence_claim_ids
 CLM-FND-CYP450-01 | CLM-FND-DRUG-INTERACTION-01
 ## citation_ids
@@ -288,11 +288,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.first-pass-effect
+CON-FND-AE16E8E450D8A1
 ## type
 decreases
 ## target
-med.concept.drug-distribution
+CON-FND-863C95CB583B82
 ## evidence_claim_ids
 CLM-FND-FIRST-PASS-EFFECT-01 | CLM-FND-DRUG-DISTRIBUTION-01
 ## citation_ids
@@ -312,11 +312,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.drug-metabolism
+CON-FND-FE75489195378C
 ## type
 prerequisite_of
 ## target
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## evidence_claim_ids
 CLM-FND-DRUG-METABOLISM-01 | CLM-FND-AGEING-PK-01
 ## citation_ids
@@ -336,11 +336,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.half-life
+CON-FND-02C545DB43902B
 ## type
 prerequisite_of
 ## target
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## evidence_claim_ids
 CLM-FND-HALF-LIFE-01 | CLM-FND-RENAL-IMPAIRMENT-PK-01
 ## citation_ids

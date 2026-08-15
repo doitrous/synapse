@@ -2,7 +2,7 @@
 ## label
 Growth
 ## id
-med.concept.growth
+CON-DEV-19C64195EB8F22
 ## canonical_key
 growth
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Growth monitoring
 ## id
-med.concept.growth-monitoring
+CON-DEV-7E674647FC2C99
 ## canonical_key
 growth-monitoring
 ## aliases
@@ -177,7 +177,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Developmental milestones
 ## id
-med.concept.developmental-milestones
+CON-DEV-1A4EABE36D6602
 ## canonical_key
 developmental-milestones
 ## aliases
@@ -265,7 +265,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Developmental delay
 ## id
-med.concept.developmental-delay
+CON-DEV-3F463E02A2D88E
 ## canonical_key
 developmental-delay
 ## aliases
@@ -353,7 +353,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Infant and young child feeding
 ## id
-med.concept.infant-feeding
+CON-DEV-FF6AA98B745EE7
 ## canonical_key
 infant-feeding
 ## aliases
@@ -441,7 +441,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Screening
 ## id
-med.concept.screening
+CON-DEV-5215377CF13595
 ## canonical_key
 screening
 ## aliases
@@ -528,7 +528,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Newborn screening
 ## id
-med.concept.newborn-screening
+CON-DEV-97F23F9EF23A2A
 ## canonical_key
 newborn-screening
 ## aliases
@@ -615,7 +615,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Puberty
 ## id
-med.concept.puberty
+CON-DEV-D03DD6F73A309D
 ## canonical_key
 puberty
 ## aliases
@@ -702,7 +702,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Tanner staging
 ## id
-med.concept.tanner-staging
+CON-DEV-6D2C6A66CC8924
 ## canonical_key
 tanner-staging
 ## aliases
@@ -790,7 +790,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Adolescent development
 ## id
-med.concept.adolescent-development
+CON-DEV-4D107C637DAB3B
 ## canonical_key
 adolescent-development
 ## aliases
@@ -877,7 +877,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Risk behaviour
 ## id
-med.concept.risk-behaviour
+CON-DEV-2FEB4FEFCF19F5
 ## canonical_key
 risk-behaviour
 ## aliases
@@ -965,7 +965,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Preventive care
 ## id
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## canonical_key
 preventive-care
 ## aliases

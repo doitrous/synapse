@@ -130,10 +130,10 @@
     {
       "contentType": "Resource",
       "model": "ResourceAuthoringData",
-      "modelFields": 15,
+      "modelFields": 16,
       "importFields": 18,
       "ok": 8,
-      "missing": 0,
+      "missing": 1,
       "notApplicable": 7
     },
     {
@@ -182,7 +182,15 @@
       "notApplicable": 0
     }
   ],
-  "gaps": [],
+  "gaps": [
+    {
+      "contentType": "Resource",
+      "field": "icon",
+      "column": null,
+      "state": "missing",
+      "reason": "No import column maps to this field."
+    }
+  ],
   "groups": [
     {
       "contentType": "Library article",
@@ -1738,6 +1746,12 @@
           "column": "years",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "icon",
+          "column": null,
+          "state": "missing",
+          "reason": "No import column maps to this field."
         },
         {
           "field": "institution",

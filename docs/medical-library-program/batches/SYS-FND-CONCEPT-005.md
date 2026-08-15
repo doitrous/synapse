@@ -2,7 +2,7 @@
 ## label
 Reversible cell injury
 ## id
-med.concept.reversible-cell-injury
+CON-FND-78412A79BE20AA
 ## canonical_key
 reversible-cell-injury
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Necrosis
 ## id
-med.concept.necrosis
+CON-FND-9EF4E7D5214712
 ## canonical_key
 necrosis
 ## aliases
@@ -176,7 +176,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Cellular adaptation
 ## id
-med.concept.cellular-adaptation
+CON-FND-6BE5FBFCBC50A2
 ## canonical_key
 cellular-adaptation
 ## aliases
@@ -263,7 +263,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Acute inflammation
 ## id
-med.concept.acute-inflammation
+CON-FND-F958798DE30178
 ## canonical_key
 acute-inflammation
 ## aliases
@@ -350,7 +350,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Chronic inflammation
 ## id
-med.concept.chronic-inflammation
+CON-FND-6D07DC8FDFEAD0
 ## canonical_key
 chronic-inflammation
 ## aliases
@@ -437,7 +437,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Wound healing
 ## id
-med.concept.wound-healing
+CON-FND-C7D0B8EE337FBD
 ## canonical_key
 wound-healing
 ## aliases
@@ -524,7 +524,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Carcinogenesis
 ## id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## canonical_key
 carcinogenesis
 ## aliases
@@ -611,7 +611,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Tumour biology
 ## id
-med.concept.tumour-biology
+CON-FND-F7186C518F1BDB
 ## canonical_key
 tumour-biology
 ## aliases
@@ -698,7 +698,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Grading and staging
 ## id
-med.concept.grading-and-staging
+CON-FND-D0425AF825C03F
 ## canonical_key
 grading-and-staging
 ## aliases

@@ -29,7 +29,7 @@ concepts yet; nothing here tests a concept no article covers.
 | **Verification** | `medical:batch` clean on all nine files; `medical:simulate` applies 46 of 46 with 0 rejected |
 
 The bank required four extensions to the practical contract, all documented in
-[`docs/authoring/practical.md`](../../authoring/practical.md): per-option `Why:`
+[`Instruction Manual for Content Creation/`](../../../Instruction%20Manual%20for%20Content%20Creation/06-osce-stations.md): per-option `Why:`
 explanations, per-question `Concept:` and `Difficulty:`, item-level concept
 tagging, and a `media_needed` block that flags an asset without writing a URL a
 student's browser would try to load.
@@ -587,7 +587,7 @@ linked in the master plan.** `GATE-PLATFORM-001` passed on 2026-08-12.
 - **Files to read.** This plan · [MASTER-PLAN.md](../MASTER-PLAN.md) ·
   `src/data/medicalLibraryTaxonomy.ts` · `src/data/articleTemplates.ts` ·
   `server/data/medical-library-v1.json` ·
-  `docs/authoring/library-article-archetypes.md`
+  `Instruction Manual for Content Creation/04-library-articles.md`
 - **Files to write.**
   `docs/medical-library-program/evidence/SYS-CVS-node-classification.json` and
   `docs/medical-library-program/evidence/SYS-CVS-disposition-ledger.json`

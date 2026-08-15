@@ -1,10 +1,10 @@
 # Item
 ## source
-med.concept.growth
+CON-DEV-19C64195EB8F22
 ## type
 contrasts_with
 ## target
-med.concept.developmental-milestones
+CON-DEV-1A4EABE36D6602
 ## evidence_claim_ids
 CLM-DEV-GROWTH-01 | CLM-DEV-MILESTONES-01
 ## citation_ids
@@ -24,11 +24,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.growth-monitoring
+CON-DEV-7E674647FC2C99
 ## type
 part_of
 ## target
-med.concept.growth
+CON-DEV-19C64195EB8F22
 ## evidence_claim_ids
 CLM-DEV-GROWTH-CHART-01 | CLM-DEV-GROWTH-01
 ## citation_ids
@@ -48,11 +48,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.infant-feeding
+CON-DEV-FF6AA98B745EE7
 ## type
 prerequisite_of
 ## target
-med.concept.growth
+CON-DEV-19C64195EB8F22
 ## evidence_claim_ids
 CLM-DEV-COMPLEMENTARY-01 | CLM-DEV-GROWTH-01
 ## citation_ids
@@ -72,11 +72,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.developmental-milestones
+CON-DEV-1A4EABE36D6602
 ## type
 prerequisite_of
 ## target
-med.concept.developmental-delay
+CON-DEV-3F463E02A2D88E
 ## evidence_claim_ids
 CLM-DEV-MILESTONES-01 | CLM-DEV-DEV-DELAY-01
 ## citation_ids
@@ -96,11 +96,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.developmental-delay
+CON-DEV-3F463E02A2D88E
 ## type
 diagnosed_by
 ## target
-med.concept.screening
+CON-DEV-5215377CF13595
 ## evidence_claim_ids
 CLM-DEV-DEV-DELAY-01 | CLM-DEV-SCREENING-01
 ## citation_ids
@@ -120,11 +120,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.screening
+CON-DEV-5215377CF13595
 ## type
 contrasts_with
 ## target
-med.concept.newborn-screening
+CON-DEV-97F23F9EF23A2A
 ## evidence_claim_ids
 CLM-DEV-SCREENING-01 | CLM-DEV-NEWBORN-SCREENING-01
 ## citation_ids
@@ -144,11 +144,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.screening
+CON-DEV-5215377CF13595
 ## type
 part_of
 ## target
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## evidence_claim_ids
 CLM-DEV-SCREENING-01 | CLM-DEV-PRIMARY-PREVENTION-01
 ## citation_ids
@@ -168,11 +168,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.puberty
+CON-DEV-D03DD6F73A309D
 ## type
 mechanism_step_before
 ## target
-med.concept.adolescent-development
+CON-DEV-4D107C637DAB3B
 ## evidence_claim_ids
 CLM-DEV-PUBERTY-01 | CLM-DEV-ADOLESCENT-01
 ## citation_ids
@@ -192,11 +192,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.tanner-staging
+CON-DEV-6D2C6A66CC8924
 ## type
 part_of
 ## target
-med.concept.puberty
+CON-DEV-D03DD6F73A309D
 ## evidence_claim_ids
 CLM-DEV-TANNER-01 | CLM-DEV-PUBERTY-01
 ## citation_ids
@@ -216,11 +216,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.adolescent-development
+CON-DEV-4D107C637DAB3B
 ## type
 causes
 ## target
-med.concept.risk-behaviour
+CON-DEV-2FEB4FEFCF19F5
 ## evidence_claim_ids
 CLM-DEV-ADOLESCENT-01 | CLM-DEV-FIVE-AS-01
 ## citation_ids
@@ -240,11 +240,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.risk-behaviour
+CON-DEV-2FEB4FEFCF19F5
 ## type
 part_of
 ## target
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## evidence_claim_ids
 CLM-DEV-FIVE-AS-01 | CLM-DEV-PRIMARY-PREVENTION-01
 ## citation_ids
@@ -264,11 +264,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## type
 decreases
 ## target
-med.concept.developmental-delay
+CON-DEV-3F463E02A2D88E
 ## evidence_claim_ids
 CLM-DEV-IMMUNIZATION-01 | CLM-DEV-DEV-DELAY-01
 ## citation_ids
@@ -288,11 +288,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.growth-monitoring
+CON-DEV-7E674647FC2C99
 ## type
 investigated_by
 ## target
-med.concept.screening
+CON-DEV-5215377CF13595
 ## evidence_claim_ids
 CLM-DEV-GROWTH-CHART-01 | CLM-DEV-SCREENING-01
 ## citation_ids
@@ -312,11 +312,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.newborn-screening
+CON-DEV-97F23F9EF23A2A
 ## type
 part_of
 ## target
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## evidence_claim_ids
 CLM-DEV-NEWBORN-SCREENING-01 | CLM-DEV-PRIMARY-PREVENTION-01
 ## citation_ids
@@ -336,11 +336,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.infant-feeding
+CON-DEV-FF6AA98B745EE7
 ## type
 prerequisite_of
 ## target
-med.concept.undernutrition
+CON-DEV-3C1D77BFE88EB2
 ## evidence_claim_ids
 CLM-DEV-BREASTFEEDING-01 | CLM-DEV-STUNTING-01
 ## citation_ids

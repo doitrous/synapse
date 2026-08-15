@@ -82,9 +82,10 @@ Automated validation currently passes with no duplicate IDs, missing parents, cr
 ## Authoring contract
 
 The rules above are now written down as templates authors and agents work from,
-in [`docs/authoring/`](authoring/README.md): the shared contract, plus one
-template each for Subjects & Topics, library articles, article archetypes,
-concepts, questions, and practicals. Each opens with a copy-paste prompt.
+in [`Instruction Manual for Content Creation/`](../Instruction%20Manual%20for%20Content%20Creation/00-START-HERE.md):
+the shared law, plus one manual each for Subjects & Topics, concepts, relationships,
+library articles, questions, the five practical formats, and glossary terms. Each opens
+with a copy-paste prompt.
 
 Two pieces of code make those templates enforceable rather than advisory:
 

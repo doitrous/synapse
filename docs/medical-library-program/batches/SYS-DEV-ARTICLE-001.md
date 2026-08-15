@@ -87,7 +87,7 @@ Citations: CIT-DEV-UNDERNUTRITION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.malnutrition
+### definition_of · CON-DEV-D76BE24205BAFA
 Quote: Malnutrition refers to deficiencies, excesses, or imbalances in a person's intake of energy and/or nutrients.
 Block: body
 ## image_recommendations
@@ -100,7 +100,7 @@ Section: Mechanism
 ART-DEV-UNDERNUTRITION: The deficiency side, measured.
 ART-DEV-NUTRIENT-EXCESS: The excess side.
 ## related_concepts
-med.concept.malnutrition
+CON-DEV-D76BE24205BAFA
 ## primary_node_id
 SYS-DEV-T03-S02-M01
 ## secondary_node_ids
@@ -208,7 +208,7 @@ Reading undernutrition as a food-supply problem alone. Infection, maternal healt
 ## callout_evidence
 
 ## annotations
-### definition_of · med.concept.undernutrition
+### definition_of · CON-DEV-3C1D77BFE88EB2
 Quote: Low height-for-age is known as stunting.
 Block: body
 ## image_recommendations
@@ -221,7 +221,7 @@ Section: Mechanism
 ART-DEV-MALNUTRITION: The term these sit inside.
 ART-DEV-MICRONUTRIENT-DEFICIENCY: What weight does not show.
 ## related_concepts
-med.concept.undernutrition
+CON-DEV-3C1D77BFE88EB2
 ## primary_node_id
 SYS-DEV-T03-S01-M02
 ## secondary_node_ids
@@ -343,7 +343,7 @@ Citations: CIT-DEV-ANAEMIA-RISK-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.micronutrient-deficiency
+### definition_of · CON-DEV-721336F6F91D87
 Quote: Anaemia is a condition in which the number of red blood cells or the haemoglobin concentration within them is lower than normal.
 Block: body
 ## image_recommendations
@@ -356,7 +356,7 @@ Section: Key determinants
 ART-DEV-UNDERNUTRITION: The deficits weight does show.
 ART-DEV-NUTRIENT-REQUIREMENTS: Why requirement is not one number.
 ## related_concepts
-med.concept.micronutrient-deficiency
+CON-DEV-721336F6F91D87
 ## primary_node_id
 SYS-DEV-T03-S01-M02
 ## secondary_node_ids
@@ -473,7 +473,7 @@ Citations: CIT-DEV-OBESITY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.nutrient-excess
+### definition_of · CON-DEV-05938FCA83A350
 Quote: For adults, obesity is a BMI greater than or equal to 30.
 Block: body
 ## image_recommendations
@@ -486,7 +486,7 @@ Section: Mechanism
 ART-DEV-MALNUTRITION: The definition this belongs to.
 ART-DEV-NUTRIENT-REQUIREMENTS: The other side of the balance.
 ## related_concepts
-med.concept.nutrient-excess
+CON-DEV-05938FCA83A350
 ## primary_node_id
 SYS-DEV-T03-S01-M03
 ## secondary_node_ids
@@ -598,7 +598,7 @@ Citations: CIT-DEV-MALNUTRITION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.nutrient-requirements
+### definition_of · CON-DEV-DDFE7C82A96D2E
 Quote: A nutritional requirement is the amount of energy and of each nutrient a person needs to maintain health.
 Block: body
 ## image_recommendations
@@ -611,7 +611,7 @@ Section: Mechanism
 ART-DEV-MICRONUTRIENT-DEFICIENCY: What happens when one term is unmet.
 ART-DEV-NUTRIENT-EXCESS: What happens when intake exceeds it.
 ## related_concepts
-med.concept.nutrient-requirements
+CON-DEV-DDFE7C82A96D2E
 ## primary_node_id
 SYS-DEV-T03-S01-M01
 ## secondary_node_ids
@@ -728,7 +728,7 @@ Citations: CIT-DEV-ENTERAL-GUT-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.enteral-nutrition
+### definition_of · CON-DEV-2CF8ACA513CAC2
 Quote: Enteral nutrition uses the gastrointestinal tract to supply nutrients.
 Block: body
 ## image_recommendations
@@ -741,7 +741,7 @@ Section: Key determinants
 ART-DEV-PARENTERAL-NUTRITION: When the gut cannot be used.
 ART-DEV-MALNUTRITION: What this is treating.
 ## related_concepts
-med.concept.enteral-nutrition
+CON-DEV-2CF8ACA513CAC2
 ## primary_node_id
 SYS-DEV-T03-S02-M02
 ## secondary_node_ids
@@ -863,7 +863,7 @@ Citations: CIT-DEV-ENTERAL-PREFERRED-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.parenteral-nutrition
+### definition_of · CON-DEV-F0B086D27E9E29
 Quote: Total parenteral nutrition is when IV-administered nutrition is the only source of nutrition the patient is receiving.
 Block: body
 ## image_recommendations
@@ -876,7 +876,7 @@ Section: Key determinants
 ART-DEV-ENTERAL-NUTRITION: The preferred route.
 ART-DEV-MALNUTRITION: What both are treating.
 ## related_concepts
-med.concept.parenteral-nutrition
+CON-DEV-F0B086D27E9E29
 ## primary_node_id
 SYS-DEV-T03-S02-M03
 ## secondary_node_ids
@@ -993,7 +993,7 @@ Citations: CIT-DEV-AGEING-VARIABLE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.normal-ageing
+### definition_of · CON-DEV-B8D95325846B96
 Quote: At the biological level, ageing results from the impact of the accumulation of a wide variety of molecular and cellular damage over time.
 Block: body
 ## image_recommendations
@@ -1006,7 +1006,7 @@ Section: Key determinants
 ART-DEV-FRAILTY: What happens when reserve runs low.
 ART-DEV-POLYPHARMACY: What accumulates alongside.
 ## related_concepts
-med.concept.normal-ageing
+CON-DEV-B8D95325846B96
 ## primary_node_id
 SYS-DEV-T02-S02-M01
 ## secondary_node_ids
@@ -1128,7 +1128,7 @@ Citations: CIT-DEV-SARCOPENIA-DX-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.frailty
+### definition_of · CON-DEV-1E31D99AE14888
 Quote: Frailty is a multidimensional geriatric syndrome characterized by an increased vulnerability to various stressors.
 Block: body
 ## image_recommendations
@@ -1141,7 +1141,7 @@ Section: Mechanism
 ART-DEV-NORMAL-AGEING: The process this sits within.
 ART-DEV-FALLS: Where it usually becomes visible.
 ## related_concepts
-med.concept.frailty
+CON-DEV-1E31D99AE14888
 ## primary_node_id
 SYS-DEV-T02-S02-M02
 ## secondary_node_ids
@@ -1258,7 +1258,7 @@ Citations: CIT-DEV-FALL-RISK-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.falls
+### definition_of · CON-DEV-C1B7CF7C9CDF6F
 Quote: A fall is defined as an event which results in a person coming to rest inadvertently on the ground or floor or other lower level.
 Block: body
 ## image_recommendations
@@ -1271,7 +1271,7 @@ Section: Key determinants
 ART-DEV-FRAILTY: The reduced reserve behind it.
 ART-DEV-POLYPHARMACY: The most modifiable contributor.
 ## related_concepts
-med.concept.falls
+CON-DEV-C1B7CF7C9CDF6F
 ## primary_node_id
 SYS-DEV-T02-S02-M03
 ## secondary_node_ids
@@ -1388,7 +1388,7 @@ Citations: CIT-DEV-POLYPHARMACY-RISK-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.polypharmacy
+### definition_of · CON-DEV-3605EEE42DEBDC
 Quote: The use of 5 or more medications is an acceptable definition of polypharmacy.
 Block: body
 ## image_recommendations
@@ -1401,7 +1401,7 @@ Section: Mechanism
 ART-DEV-FALLS: One of the named outcomes.
 ART-DEV-FRAILTY: Another of them.
 ## related_concepts
-med.concept.polypharmacy
+CON-DEV-3605EEE42DEBDC
 ## primary_node_id
 SYS-DEV-T02-S02-M04
 ## secondary_node_ids

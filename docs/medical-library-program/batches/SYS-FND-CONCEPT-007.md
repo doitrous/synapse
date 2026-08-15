@@ -2,7 +2,7 @@
 ## label
 Bacteria
 ## id
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## canonical_key
 bacteria
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Viruses
 ## id
-med.concept.viruses
+CON-FND-612DE8D9628BDE
 ## canonical_key
 viruses
 ## aliases
@@ -176,7 +176,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Fungi
 ## id
-med.concept.fungi
+CON-FND-54F59770FE61B9
 ## canonical_key
 fungi
 ## aliases
@@ -263,7 +263,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Parasites
 ## id
-med.concept.parasites
+CON-FND-70D866E3838CB1
 ## canonical_key
 parasites
 ## aliases
@@ -350,7 +350,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Virulence
 ## id
-med.concept.virulence
+CON-FND-2796205693B70C
 ## canonical_key
 virulence
 ## aliases
@@ -437,7 +437,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Transmission
 ## id
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## canonical_key
 transmission
 ## aliases
@@ -524,7 +524,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Colonization
 ## id
-med.concept.colonization
+CON-FND-DE33F586650750
 ## canonical_key
 colonization
 ## aliases
@@ -611,7 +611,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Specimen collection
 ## id
-med.concept.specimen-collection
+CON-FND-899834FF5D9778
 ## canonical_key
 specimen-collection
 ## aliases
@@ -698,7 +698,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Culture
 ## id
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## canonical_key
 culture
 ## aliases
@@ -785,7 +785,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Molecular tests
 ## id
-med.concept.molecular-tests
+CON-FND-3C0F78E6729CC5
 ## canonical_key
 molecular-tests
 ## aliases
@@ -872,7 +872,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Sterilization
 ## id
-med.concept.sterilization
+CON-FND-B3BE66B9AD76B1
 ## canonical_key
 sterilization
 ## aliases

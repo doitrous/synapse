@@ -2,7 +2,7 @@
 ## id
 CLM-DEV-GROWTH-01
 ## concept_id
-med.concept.growth
+CON-DEV-19C64195EB8F22
 ## subject
 Growth
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-DEV-GROWTH-CHART-01
 ## concept_id
-med.concept.growth-monitoring
+CON-DEV-7E674647FC2C99
 ## subject
 Growth charts and developmental screening
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-DEV-WHO-GROWTH-STD-01
 ## concept_id
-med.concept.growth-monitoring
+CON-DEV-7E674647FC2C99
 ## subject
 The WHO 2006 child growth standards
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-DEV-MILESTONES-01
 ## concept_id
-med.concept.developmental-milestones
+CON-DEV-1A4EABE36D6602
 ## subject
 Developmental milestones
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-DEV-MILESTONE-DOMAINS-01
 ## concept_id
-med.concept.developmental-milestones
+CON-DEV-1A4EABE36D6602
 ## subject
 Milestones
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-DEV-DEV-DELAY-01
 ## concept_id
-med.concept.developmental-delay
+CON-DEV-3F463E02A2D88E
 ## subject
 Developmental delay
 ## predicate
@@ -182,7 +182,7 @@ polarity: affirmative
 ## id
 CLM-DEV-BREASTFEEDING-01
 ## concept_id
-med.concept.infant-feeding
+CON-DEV-FF6AA98B745EE7
 ## subject
 WHO and UNICEF
 ## predicate
@@ -212,7 +212,7 @@ polarity: affirmative
 ## id
 CLM-DEV-COMPLEMENTARY-01
 ## concept_id
-med.concept.infant-feeding
+CON-DEV-FF6AA98B745EE7
 ## subject
 An infant's need for energy and nutrients
 ## predicate
@@ -242,7 +242,7 @@ polarity: affirmative
 ## id
 CLM-DEV-PUBERTY-01
 ## concept_id
-med.concept.puberty
+CON-DEV-D03DD6F73A309D
 ## subject
 Puberty
 ## predicate
@@ -272,7 +272,7 @@ polarity: affirmative
 ## id
 CLM-DEV-TANNER-01
 ## concept_id
-med.concept.tanner-staging
+CON-DEV-6D2C6A66CC8924
 ## subject
 Tanner staging
 ## predicate
@@ -302,7 +302,7 @@ polarity: affirmative
 ## id
 CLM-DEV-ADOLESCENT-01
 ## concept_id
-med.concept.adolescent-development
+CON-DEV-4D107C637DAB3B
 ## subject
 During adolescence
 ## predicate
@@ -332,7 +332,7 @@ polarity: affirmative
 ## id
 CLM-DEV-SCREENING-01
 ## concept_id
-med.concept.screening
+CON-DEV-5215377CF13595
 ## subject
 A health screening test
 ## predicate
@@ -362,7 +362,7 @@ polarity: affirmative
 ## id
 CLM-DEV-SCREENING-CRITERIA-01
 ## concept_id
-med.concept.screening
+CON-DEV-5215377CF13595
 ## subject
 A disease worth screening for
 ## predicate
@@ -392,7 +392,7 @@ polarity: affirmative
 ## id
 CLM-DEV-SCREEN-VS-DX-01
 ## concept_id
-med.concept.screening
+CON-DEV-5215377CF13595
 ## subject
 A screen
 ## predicate
@@ -422,7 +422,7 @@ polarity: affirmative
 ## id
 CLM-DEV-NEWBORN-SCREENING-01
 ## concept_id
-med.concept.newborn-screening
+CON-DEV-97F23F9EF23A2A
 ## subject
 Newborn screening
 ## predicate
@@ -452,7 +452,7 @@ polarity: affirmative
 ## id
 CLM-DEV-PRIMARY-PREVENTION-01
 ## concept_id
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## subject
 Primary prevention
 ## predicate
@@ -482,7 +482,7 @@ polarity: affirmative
 ## id
 CLM-DEV-TERTIARY-PREVENTION-01
 ## concept_id
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## subject
 Tertiary prevention
 ## predicate
@@ -512,7 +512,7 @@ polarity: affirmative
 ## id
 CLM-DEV-IMMUNIZATION-01
 ## concept_id
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## subject
 Immunisation
 ## predicate
@@ -542,7 +542,7 @@ polarity: affirmative
 ## id
 CLM-DEV-HERD-IMMUNITY-01
 ## concept_id
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## subject
 Herd immunity
 ## predicate
@@ -572,7 +572,7 @@ polarity: affirmative
 ## id
 CLM-DEV-FIVE-AS-01
 ## concept_id
-med.concept.risk-behaviour
+CON-DEV-2FEB4FEFCF19F5
 ## subject
 The five steps of the brief intervention
 ## predicate

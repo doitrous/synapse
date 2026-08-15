@@ -93,7 +93,7 @@ Citations: CIT-FND-GRAM-NEGATIVE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.bacteria
+### definition_of · CON-FND-2CA82203124AAA
 Quote: Bacteria are organisms that have only one cell.
 Block: body
 ## image_recommendations
@@ -112,7 +112,7 @@ Section: Mechanism
 ART-FND-VIRUSES: Why antibacterial drugs do nothing here.
 ART-FND-CULTURE: Where the stain result becomes an identification.
 ## related_concepts
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## primary_node_id
 SYS-FND-T05-S01-M01
 ## secondary_node_ids
@@ -229,10 +229,10 @@ Citations: CIT-FND-VIRUS-HOST-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.viruses
+### definition_of · CON-FND-612DE8D9628BDE
 Quote: Viruses are obligate intracellular parasites containing either an RNA or a DNA genome surrounded by a protein coat.
 Block: body
-### contrasts_with · med.concept.bacteria
+### contrasts_with · CON-FND-2CA82203124AAA
 Quote: A virus is not a very small bacterium.
 Block: body
 ## image_recommendations
@@ -246,7 +246,7 @@ Source direction: openly licensed virology diagram
 ART-FND-BACTERIA: The organism antibacterial drugs are built for.
 ART-FND-MOLECULAR-TESTS: How viruses are detected when they cannot be cultured.
 ## related_concepts
-med.concept.viruses
+CON-FND-612DE8D9628BDE
 ## primary_node_id
 SYS-FND-T05-S01-M02
 ## secondary_node_ids
@@ -363,7 +363,7 @@ Citations: CIT-FND-YEAST-MOULD-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.fungi
+### definition_of · CON-FND-54F59770FE61B9
 Quote: Fungi are eukaryotic microorganisms, some of which cause superficial, cutaneous, subcutaneous or systemic disease.
 Block: body
 ## image_recommendations
@@ -377,7 +377,7 @@ Source direction: openly licensed mycology micrograph
 ART-FND-BACTERIA: The prokaryote comparison that explains the drug-target problem.
 ART-FND-CULTURE: How growth form is actually observed.
 ## related_concepts
-med.concept.fungi
+CON-FND-54F59770FE61B9
 ## primary_node_id
 SYS-FND-T05-S01-M03
 ## secondary_node_ids
@@ -494,10 +494,10 @@ Citations: CIT-FND-PARASITE-GROUPS-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.parasites
+### definition_of · CON-FND-70D866E3838CB1
 Quote: A parasite is a pathogen that simultaneously injures and derives sustenance from its host.
 Block: body
-### contrasts_with · med.concept.colonization
+### contrasts_with · CON-FND-DE33F586650750
 Quote: an organism that lives on the host without injuring it is a coloniser, not a parasite
 Block: body
 ## image_recommendations
@@ -511,7 +511,7 @@ Source direction: openly licensed parasitology diagram
 ART-FND-TRANSMISSION: Where the vector role belongs in the chain of infection.
 ART-FND-SPECIMEN-COLLECTION: How parasitic infection is actually looked for.
 ## related_concepts
-med.concept.parasites
+CON-FND-70D866E3838CB1
 ## primary_node_id
 SYS-FND-T05-S01-M04
 ## secondary_node_ids
@@ -628,7 +628,7 @@ Citations: CIT-FND-VIRULENCE-FACTOR-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.virulence
+### definition_of · CON-FND-2796205693B70C
 Quote: Virulence is the measure of the pathogenicity of an organism.
 Block: body
 ## image_recommendations
@@ -642,7 +642,7 @@ Source direction: openly licensed microbiology diagram
 ART-FND-COLONIZATION: The step before virulence factors matter.
 ART-FND-BACTERIA: Where most of the studied factors sit.
 ## related_concepts
-med.concept.virulence
+CON-FND-2796205693B70C
 ## primary_node_id
 SYS-FND-T05-S02-M01
 ## secondary_node_ids
@@ -787,7 +787,7 @@ Citations: CIT-FND-TRANSMISSION-VECTOR-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.transmission
+### definition_of · CON-FND-1D2CAFDB2FBAA2
 Quote: Transmission is how a pathogen reaches a new host.
 Block: body
 ## image_recommendations
@@ -806,7 +806,7 @@ Section: Key determinants
 ART-FND-STERILIZATION: How the vehicle route is closed.
 ART-FND-COLONIZATION: What happens after the organism arrives.
 ## related_concepts
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## primary_node_id
 SYS-FND-T05-S02-M02
 ## secondary_node_ids
@@ -923,7 +923,7 @@ Citations: CIT-FND-INFECTION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.colonization
+### definition_of · CON-FND-DE33F586650750
 Quote: Colonization is the presence of an organism on a non-sterile body surface, such as skin or mucosa, in the absence of disease.
 Block: body
 ## image_recommendations
@@ -937,7 +937,7 @@ Source direction: openly licensed clinical microbiology diagram
 ART-FND-CULTURE: Where the positive result comes from.
 ART-FND-VIRULENCE: What decides whether presence becomes disease.
 ## related_concepts
-med.concept.colonization
+CON-FND-DE33F586650750
 ## primary_node_id
 SYS-FND-T05-S02-M03
 ## secondary_node_ids
@@ -1054,7 +1054,7 @@ Citations: CIT-FND-SPECIMEN-REPRESENTATIVE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.specimen-collection
+### definition_of · CON-FND-899834FF5D9778
 Quote: Specimens should be representative of the disease process and collected in sufficient quantity to allow complete microbiologic examination.
 Block: body
 ## image_recommendations
@@ -1068,7 +1068,7 @@ Source direction: openly licensed clinical procedure diagram
 ART-FND-CULTURE: What the laboratory does with what arrives.
 ART-FND-COLONIZATION: Why a surface result misleads.
 ## related_concepts
-med.concept.specimen-collection
+CON-FND-899834FF5D9778
 ## primary_node_id
 SYS-FND-T05-S03-M01
 ## secondary_node_ids
@@ -1196,10 +1196,10 @@ Citations: CIT-FND-AST-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.culture
+### definition_of · CON-FND-F1947F79FDFB80
 Quote: The cause of an infection is often confirmed by isolating and culturing the microorganism, either in artificial media or in a living host.
 Block: body
-### contrasts_with · med.concept.molecular-tests
+### contrasts_with · CON-FND-3C0F78E6729CC5
 Quote: a molecular test may identify an organism in hours, but the susceptibility result that decides the prescription usually still comes from the grown isolate
 Block: body
 ## image_recommendations
@@ -1218,7 +1218,7 @@ Section: Clinical significance
 ART-FND-SPECIMEN-COLLECTION: What has to go right before culture can work.
 ART-FND-MOLECULAR-TESTS: What culture cannot do.
 ## related_concepts
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## primary_node_id
 SYS-FND-T05-S03-M02
 ## secondary_node_ids
@@ -1335,7 +1335,7 @@ Citations: CIT-FND-PCR-SENSITIVITY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.molecular-tests
+### definition_of · CON-FND-3C0F78E6729CC5
 Quote: The polymerase chain reaction is a laboratory nucleic acid amplification technique that synthesises DNA following thermal denaturation and primer annealing.
 Block: body
 ## image_recommendations
@@ -1349,7 +1349,7 @@ Source direction: openly licensed molecular biology diagram
 ART-FND-CULTURE: What still requires a grown organism.
 ART-FND-VIRUSES: Where culture most often fails.
 ## related_concepts
-med.concept.molecular-tests
+CON-FND-3C0F78E6729CC5
 ## primary_node_id
 SYS-FND-T05-S03-M03
 ## secondary_node_ids
@@ -1472,7 +1472,7 @@ Citations: CIT-FND-HIGH-LEVEL-DISINFECTANT-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.sterilization
+### definition_of · CON-FND-B3BE66B9AD76B1
 Quote: Sterilization is the chemical or physical destruction or removal of all pathogenic microorganisms and their spores from a surface.
 Block: body
 ## image_recommendations
@@ -1486,7 +1486,7 @@ Source direction: openly licensed infection-control diagram
 ART-FND-TRANSMISSION: The route this closes.
 ART-FND-SPECIMEN-COLLECTION: Where surface disinfection changes the result.
 ## related_concepts
-med.concept.sterilization
+CON-FND-B3BE66B9AD76B1
 ## primary_node_id
 SYS-FND-T05-S03-M04
 ## secondary_node_ids

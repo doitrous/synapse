@@ -2,7 +2,7 @@
 ## id
 CLM-DEV-DISABILITY-ICF-01
 ## concept_id
-med.concept.disability
+CON-DEV-D296ADD506BBA3
 ## subject
 Disability
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-DEV-DISABILITY-INTERACTION-01
 ## concept_id
-med.concept.disability
+CON-DEV-D296ADD506BBA3
 ## subject
 Disability
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-DEV-ACTIVITY-01
 ## concept_id
-med.concept.functioning
+CON-DEV-ADBEE1FB7F1352
 ## subject
 Activity
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-DEV-PARTICIPATION-RESTRICTION-01
 ## concept_id
-med.concept.functioning
+CON-DEV-ADBEE1FB7F1352
 ## subject
 Activity limitations
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-DEV-ADL-01
 ## concept_id
-med.concept.activities-of-daily-living
+CON-DEV-951C03D8E080DB
 ## subject
 Activities of daily living
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-DEV-IADL-01
 ## concept_id
-med.concept.activities-of-daily-living
+CON-DEV-951C03D8E080DB
 ## subject
 Instrumental activities of daily living
 ## predicate
@@ -182,7 +182,7 @@ polarity: affirmative
 ## id
 CLM-DEV-REASONABLE-ACCOMMODATION-01
 ## concept_id
-med.concept.reasonable-adjustments
+CON-DEV-9C535BD9582A7D
 ## subject
 Reasonable accommodation
 ## predicate
@@ -212,7 +212,7 @@ polarity: affirmative
 ## id
 CLM-DEV-HEALTH-LITERACY-01
 ## concept_id
-med.concept.health-literacy
+CON-DEV-E9AF65B56120DC
 ## subject
 Health literacy
 ## predicate
@@ -242,7 +242,7 @@ polarity: affirmative
 ## id
 CLM-DEV-INFORMAL-CAREGIVER-01
 ## concept_id
-med.concept.informal-caregiver
+CON-DEV-C80F81B74454DF
 ## subject
 An informal caregiver
 ## predicate
@@ -272,7 +272,7 @@ polarity: affirmative
 ## id
 CLM-DEV-CAREGIVER-STRESS-01
 ## concept_id
-med.concept.informal-caregiver
+CON-DEV-C80F81B74454DF
 ## subject
 Caregiver stress
 ## predicate
@@ -302,7 +302,7 @@ polarity: affirmative
 ## id
 CLM-DEV-OCC-HEALTH-SERVICES-01
 ## concept_id
-med.concept.occupational-health
+CON-DEV-7AAB3C458468F3
 ## subject
 Specialised occupational health services
 ## predicate
@@ -332,7 +332,7 @@ polarity: affirmative
 ## id
 CLM-DEV-OCC-DISEASE-01
 ## concept_id
-med.concept.occupational-health
+CON-DEV-7AAB3C458468F3
 ## subject
 An occupational disease
 ## predicate
@@ -362,7 +362,7 @@ polarity: affirmative
 ## id
 CLM-DEV-OCC-DISEASE-CRITERIA-01
 ## concept_id
-med.concept.occupational-health
+CON-DEV-7AAB3C458468F3
 ## subject
 An occupational disease
 ## predicate

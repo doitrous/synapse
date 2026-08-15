@@ -79,10 +79,10 @@ Citations: CIT-FND-ADAPTATION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.reversible-cell-injury
+### definition_of · CON-FND-78412A79BE20AA
 Quote: Reversible cell injury is damage that stops short of the point of no return.
 Block: body
-### contrasts_with · med.concept.necrosis
+### contrasts_with · CON-FND-9EF4E7D5214712
 Quote: The same hypoxia that is fully recoverable at ten minutes is lethal at sixty.
 Block: body
 ## image_recommendations
@@ -102,7 +102,7 @@ Rights: histology images need explicit teaching permission
 ART-FND-NECROSIS: What happens once the point of no return is passed.
 ART-FND-CELLULAR-ADAPTATION: The successful response that precedes injury.
 ## related_concepts
-med.concept.reversible-cell-injury | med.concept.cellular-adaptation
+CON-FND-78412A79BE20AA | CON-FND-6BE5FBFCBC50A2
 ## primary_node_id
 SYS-FND-T03-S01-M01
 ## secondary_node_ids
@@ -211,10 +211,10 @@ Citations: CIT-FND-NECROSIS-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.necrosis
+### definition_of · CON-FND-9EF4E7D5214712
 Quote: Necrosis is often coined as accidental death, as it is generally seen as not controlled by the cell.
 Block: body
-### often_confused_with · med.concept.apoptosis
+### often_confused_with · CON-FND-A8D34D42AEFF60
 Quote: Apoptosis is controlled, energy-requiring and silent; necrosis is uncontrolled, follows energy failure and inflames.
 Block: body
 ## image_recommendations
@@ -233,7 +233,7 @@ Rights: histology images need explicit teaching permission
 ART-FND-APOPTOSIS: The controlled death this is contrasted with.
 ART-FND-REVERSIBLE-CELL-INJURY: The window that closes when necrosis begins.
 ## related_concepts
-med.concept.necrosis | med.concept.apoptosis
+CON-FND-9EF4E7D5214712 | CON-FND-A8D34D42AEFF60
 ## primary_node_id
 SYS-FND-T03-S01-M02
 ## secondary_node_ids
@@ -342,10 +342,10 @@ Citations: CIT-FND-ADAPTATION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.cellular-adaptation
+### definition_of · CON-FND-6BE5FBFCBC50A2
 Quote: Adaptation successfully maintains homeostasis by reversible responses that can alter cell function and structure.
 Block: body
-### mechanism_step_before · med.concept.carcinogenesis
+### mechanism_step_before · CON-FND-A1E1923160F65D
 Quote: persistent stimulus in metaplastic tissue is a recognised route toward dysplasia and malignancy
 Block: body
 ## image_recommendations
@@ -364,7 +364,7 @@ Rights: histology images need explicit teaching permission
 ART-FND-REVERSIBLE-CELL-INJURY: What follows when the stimulus exceeds what adaptation can accommodate.
 ART-FND-CARCINOGENESIS: Where persistent metaplasia can lead.
 ## related_concepts
-med.concept.cellular-adaptation
+CON-FND-6BE5FBFCBC50A2
 ## primary_node_id
 SYS-FND-T03-S01-M04
 ## secondary_node_ids
@@ -480,10 +480,10 @@ Citations: CIT-FND-ACUTE-INFLAMMATION-02-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.acute-inflammation
+### definition_of · CON-FND-F958798DE30178
 Quote: Acute inflammation initiates following a specific injury, triggering the release of soluble mediators such as cytokines, acute phase proteins, and chemokines.
 Block: body
-### presents_as · med.concept.acute-inflammation
+### presents_as · CON-FND-F958798DE30178
 Quote: The 5 fundamental signs of inflammation include heat, redness, swelling, pain, and loss of function.
 Block: body
 ## image_recommendations
@@ -502,7 +502,7 @@ Section: Key determinants
 ART-FND-CHRONIC-INFLAMMATION: What follows when the cause is not removed.
 ART-FND-WOUND-HEALING: The repair that begins while inflammation is still running.
 ## related_concepts
-med.concept.acute-inflammation
+CON-FND-F958798DE30178
 ## primary_node_id
 SYS-FND-T03-S02-M01
 ## secondary_node_ids
@@ -611,10 +611,10 @@ Citations: CIT-FND-CHRONIC-INFLAMMATION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.chronic-inflammation
+### definition_of · CON-FND-6D07DC8FDFEAD0
 Quote: Chronic inflammation is also referred to as slow, long-term inflammation lasting for prolonged periods of several months to years.
 Block: body
-### contrasts_with · med.concept.acute-inflammation
+### contrasts_with · CON-FND-F958798DE30178
 Quote: It can begin as chronic, and its cell population and its consequences are different.
 Block: body
 ## image_recommendations
@@ -633,7 +633,7 @@ Rights: histology images need explicit teaching permission
 ART-FND-ACUTE-INFLAMMATION: The response this is contrasted with, and one route into it.
 ART-FND-WOUND-HEALING: The repair arm that runs alongside the destruction.
 ## related_concepts
-med.concept.chronic-inflammation | med.concept.acute-inflammation
+CON-FND-6D07DC8FDFEAD0 | CON-FND-F958798DE30178
 ## primary_node_id
 SYS-FND-T03-S02-M02
 ## secondary_node_ids
@@ -744,10 +744,10 @@ Citations: CIT-FND-WOUND-HEALING-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.wound-healing
+### definition_of · CON-FND-C7D0B8EE337FBD
 Quote: The proliferative phase is characterized by the formation of granulation tissue, reepithelialization, and neovascularization.
 Block: body
-### mechanism_step_before · med.concept.acute-inflammation
+### mechanism_step_before · CON-FND-F958798DE30178
 Quote: Haemostasis stops the bleeding and lays down a fibrin scaffold.
 Block: body
 ## image_recommendations
@@ -766,7 +766,7 @@ Source direction: openly licensed pathology diagram
 ART-FND-ACUTE-INFLAMMATION: The phase that clears the wound before repair can proceed.
 ART-FND-CHRONIC-INFLAMMATION: What a wound that cannot clear its cause becomes.
 ## related_concepts
-med.concept.wound-healing
+CON-FND-C7D0B8EE337FBD
 ## primary_node_id
 SYS-FND-T03-S02-M03
 ## secondary_node_ids
@@ -915,10 +915,10 @@ Citations: CIT-FND-SCHISTOSOMIASIS-BLADDER-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.carcinogenesis
+### definition_of · CON-FND-A1E1923160F65D
 Quote: Cancer is a disease in which some of the body's cells grow uncontrollably and spread to other parts of the body.
 Block: body
-### contrasts_with · med.concept.carcinogenesis
+### contrasts_with · CON-FND-A1E1923160F65D
 Quote: An oncogene needs one copy altered; a tumour suppressor needs both lost.
 Block: hold
 ## image_recommendations
@@ -937,7 +937,7 @@ Section: Mechanism
 ART-FND-TUMOUR-BIOLOGY: What the resulting tumour is like, and how benign and malignant differ.
 ART-FND-CELL-CYCLE: The controls a cancer cell escapes.
 ## related_concepts
-med.concept.carcinogenesis | med.concept.cell-cycle
+CON-FND-A1E1923160F65D | CON-FND-8F3A602C5B4B08
 ## primary_node_id
 SYS-FND-T03-S03-M01
 ## secondary_node_ids
@@ -1046,10 +1046,10 @@ Citations: CIT-FND-METASTASIS-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.tumour-biology
+### definition_of · CON-FND-F7186C518F1BDB
 Quote: the process by which cancer cells spread to other parts of the body is called metastasis
 Block: body
-### often_confused_with · med.concept.tumour-biology
+### often_confused_with · CON-FND-F7186C518F1BDB
 Quote: A slow-growing tumour that invades and metastasises is malignant; a fast-growing one that does neither is not.
 Block: body
 ## image_recommendations
@@ -1068,7 +1068,7 @@ Source direction: openly licensed oncology or anatomy diagram
 ART-FND-CARCINOGENESIS: How a cell acquires these properties in the first place.
 ART-FND-GRADING-AND-STAGING: How the resulting tumour is described.
 ## related_concepts
-med.concept.tumour-biology
+CON-FND-F7186C518F1BDB
 ## primary_node_id
 SYS-FND-T03-S03-M02
 ## secondary_node_ids
@@ -1184,10 +1184,10 @@ Citations: CIT-FND-CANCER-STAGE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.grading-and-staging
+### definition_of · CON-FND-D0425AF825C03F
 Quote: Tumour grade describes how normal or abnormal cancer cells look under a microscope.
 Block: body
-### often_confused_with · med.concept.grading-and-staging
+### often_confused_with · CON-FND-D0425AF825C03F
 Quote: Grade is a microscopic judgement, stage an anatomical one, and a tumour can be high-grade and early-stage or the reverse.
 Block: body
 ## image_recommendations
@@ -1205,7 +1205,7 @@ Section: Mechanism
 ART-FND-TUMOUR-BIOLOGY: The properties being graded and staged.
 ART-FND-CARCINOGENESIS: How the tumour came to exist.
 ## related_concepts
-med.concept.grading-and-staging | med.concept.tumour-biology
+CON-FND-D0425AF825C03F | CON-FND-F7186C518F1BDB
 ## primary_node_id
 SYS-FND-T03-S03-M03
 ## secondary_node_ids

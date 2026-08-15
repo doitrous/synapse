@@ -2,7 +2,7 @@
 ## label
 Lifestyle risk factors
 ## id
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## canonical_key
 lifestyle-risk-factors
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Risk assessment
 ## id
-med.concept.risk-assessment
+CON-DEV-B29E19D5DBC63B
 ## canonical_key
 risk-assessment
 ## aliases
@@ -176,7 +176,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Family history
 ## id
-med.concept.family-history
+CON-DEV-5CBAEE1155DE51
 ## canonical_key
 family-history
 ## aliases
@@ -263,7 +263,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 School health
 ## id
-med.concept.school-health
+CON-DEV-B507A6FF21A788
 ## canonical_key
 school-health
 ## aliases

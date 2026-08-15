@@ -2,7 +2,7 @@
 ## id
 CLM-FND-PLASMA-MEMBRANE-01
 ## concept_id
-med.concept.plasma-membrane
+CON-FND-18BD7F4C617A2E
 ## subject
 The plasma membrane
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-FND-PLASMA-MEMBRANE-02
 ## concept_id
-med.concept.plasma-membrane
+CON-FND-18BD7F4C617A2E
 ## subject
 The cell membrane
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-FND-SELECTIVE-PERMEABILITY-01
 ## concept_id
-med.concept.selective-permeability
+CON-FND-20345F08F7D569
 ## subject
 A membrane with selective permeability
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-FND-CYTOSKELETON-01
 ## concept_id
-med.concept.cytoskeleton
+CON-FND-8D1988EFFC9F6D
 ## subject
 The cytoskeleton
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-FND-NUCLEUS-01
 ## concept_id
-med.concept.cell-nucleus
+CON-FND-23AD69E4A9820F
 ## subject
 The nucleus
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-FND-MITOCHONDRION-01
 ## concept_id
-med.concept.mitochondrion
+CON-FND-95788787E5E20F
 ## subject
 A mitochondrion
 ## predicate

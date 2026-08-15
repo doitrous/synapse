@@ -2,7 +2,7 @@
 ## id
 CLM-FND-DRUG-DISTRIBUTION-01
 ## concept_id
-med.concept.drug-distribution
+CON-FND-863C95CB583B82
 ## subject
 Drug distribution
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-FND-DISTRIBUTION-UNEVEN-01
 ## concept_id
-med.concept.drug-distribution
+CON-FND-863C95CB583B82
 ## subject
 Distribution
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-FND-PROTEIN-BINDING-01
 ## concept_id
-med.concept.drug-distribution
+CON-FND-863C95CB583B82
 ## subject
 The extent of drug distribution into tissues
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-FND-VOLUME-DISTRIBUTION-01
 ## concept_id
-med.concept.volume-of-distribution
+CON-FND-63AB77D08CEA93
 ## subject
 The volume of distribution
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-FND-DRUG-METABOLISM-01
 ## concept_id
-med.concept.drug-metabolism
+CON-FND-FE75489195378C
 ## subject
 Drug metabolism
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-FND-PHASE-I-II-01
 ## concept_id
-med.concept.drug-metabolism
+CON-FND-FE75489195378C
 ## subject
 Phase I metabolism
 ## predicate
@@ -182,7 +182,7 @@ polarity: affirmative
 ## id
 CLM-FND-CYP450-01
 ## concept_id
-med.concept.cytochrome-p450
+CON-FND-C89BD22BC20E25
 ## subject
 The cytochrome P450 system
 ## predicate
@@ -212,7 +212,7 @@ polarity: affirmative
 ## id
 CLM-FND-FIRST-PASS-01
 ## concept_id
-med.concept.first-pass-effect
+CON-FND-AE16E8E450D8A1
 ## subject
 The first-pass effect
 ## predicate
@@ -242,7 +242,7 @@ polarity: affirmative
 ## id
 CLM-FND-FIRST-PASS-EFFECT-01
 ## concept_id
-med.concept.first-pass-effect
+CON-FND-AE16E8E450D8A1
 ## subject
 The first-pass effect
 ## predicate
@@ -272,7 +272,7 @@ polarity: affirmative
 ## id
 CLM-FND-DRUG-ELIMINATION-01
 ## concept_id
-med.concept.drug-excretion
+CON-FND-0B77B5B8B45578
 ## subject
 Drug elimination
 ## predicate
@@ -302,7 +302,7 @@ polarity: affirmative
 ## id
 CLM-FND-ELIMINATION-ROUTES-01
 ## concept_id
-med.concept.drug-excretion
+CON-FND-0B77B5B8B45578
 ## subject
 Elimination
 ## predicate
@@ -332,7 +332,7 @@ polarity: affirmative
 ## id
 CLM-FND-RENAL-EXCRETION-01
 ## concept_id
-med.concept.drug-excretion
+CON-FND-0B77B5B8B45578
 ## subject
 Renal filtration
 ## predicate
@@ -362,7 +362,7 @@ polarity: affirmative
 ## id
 CLM-FND-CLEARANCE-01
 ## concept_id
-med.concept.clearance
+CON-FND-213F6776858526
 ## subject
 Clearance
 ## predicate
@@ -392,7 +392,7 @@ polarity: affirmative
 ## id
 CLM-FND-HALF-LIFE-01
 ## concept_id
-med.concept.half-life
+CON-FND-02C545DB43902B
 ## subject
 The half-life
 ## predicate
@@ -422,7 +422,7 @@ polarity: affirmative
 ## id
 CLM-FND-AGEING-PK-01
 ## concept_id
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## subject
 Metabolism and excretion of many medications
 ## predicate
@@ -452,7 +452,7 @@ polarity: affirmative
 ## id
 CLM-FND-AGEING-RENAL-01
 ## concept_id
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## subject
 Decreased renal elimination of medications
 ## predicate
@@ -482,7 +482,7 @@ polarity: affirmative
 ## id
 CLM-FND-RENAL-IMPAIRMENT-PK-01
 ## concept_id
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## subject
 Renal disorders such as chronic kidney disease
 ## predicate
@@ -512,7 +512,7 @@ polarity: affirmative
 ## id
 CLM-FND-PAEDIATRIC-PK-01
 ## concept_id
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## subject
 The volume of distribution of drugs
 ## predicate
@@ -542,7 +542,7 @@ polarity: affirmative
 ## id
 CLM-FND-PREGNANCY-PK-01
 ## concept_id
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## subject
 Plasma volume
 ## predicate

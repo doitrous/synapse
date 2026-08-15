@@ -2,7 +2,7 @@
 ## label
 Drug distribution
 ## id
-med.concept.drug-distribution
+CON-FND-863C95CB583B82
 ## canonical_key
 drug-distribution
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Volume of distribution
 ## id
-med.concept.volume-of-distribution
+CON-FND-63AB77D08CEA93
 ## canonical_key
 volume-of-distribution
 ## aliases
@@ -176,7 +176,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Drug metabolism
 ## id
-med.concept.drug-metabolism
+CON-FND-FE75489195378C
 ## canonical_key
 drug-metabolism
 ## aliases
@@ -263,7 +263,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Cytochrome P450
 ## id
-med.concept.cytochrome-p450
+CON-FND-C89BD22BC20E25
 ## canonical_key
 cytochrome-p450
 ## aliases
@@ -350,7 +350,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 First-pass effect
 ## id
-med.concept.first-pass-effect
+CON-FND-AE16E8E450D8A1
 ## canonical_key
 first-pass-effect
 ## aliases
@@ -437,7 +437,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Drug excretion
 ## id
-med.concept.drug-excretion
+CON-FND-0B77B5B8B45578
 ## canonical_key
 drug-excretion
 ## aliases
@@ -524,7 +524,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Clearance
 ## id
-med.concept.clearance
+CON-FND-213F6776858526
 ## canonical_key
 clearance
 ## aliases
@@ -611,7 +611,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Half-life
 ## id
-med.concept.half-life
+CON-FND-02C545DB43902B
 ## canonical_key
 half-life
 ## aliases
@@ -698,7 +698,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Pharmacokinetics in special populations
 ## id
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## canonical_key
 pk-special-populations
 ## aliases

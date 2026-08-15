@@ -1,10 +1,10 @@
 # Item
 ## source
-med.concept.plasma-membrane
+CON-FND-18BD7F4C617A2E
 ## type
 prerequisite_of
 ## target
-med.concept.selective-permeability
+CON-FND-20345F08F7D569
 ## evidence_claim_ids
 CLM-FND-PLASMA-MEMBRANE-02
 ## citation_ids
@@ -24,11 +24,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.selective-permeability
+CON-FND-20345F08F7D569
 ## type
 part_of
 ## target
-med.concept.plasma-membrane
+CON-FND-18BD7F4C617A2E
 ## evidence_claim_ids
 CLM-FND-SELECTIVE-PERMEABILITY-01
 ## citation_ids
@@ -48,11 +48,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.plasma-membrane
+CON-FND-18BD7F4C617A2E
 ## type
 prerequisite_of
 ## target
-med.concept.cell-surface-receptor
+CON-FND-34734B5FAA7789
 ## evidence_claim_ids
 CLM-FND-RECEPTOR-01
 ## citation_ids
@@ -72,11 +72,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cell-nucleus
+CON-FND-23AD69E4A9820F
 ## type
 contains
 ## target
-med.concept.chromosomal-disorder
+CON-FND-E5BD39DE4875E5
 ## evidence_claim_ids
 CLM-FND-NUCLEUS-01
 ## citation_ids
@@ -96,11 +96,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.mitochondrion
+CON-FND-95788787E5E20F
 ## type
 prerequisite_of
 ## target
-med.concept.mitochondrial-inheritance
+CON-FND-08ACAADD9FEAD0
 ## evidence_claim_ids
 CLM-FND-MITOCHONDRIAL-INHERITANCE-01
 ## citation_ids
@@ -120,11 +120,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cytoskeleton
+CON-FND-8D1988EFFC9F6D
 ## type
 part_of
 ## target
-med.concept.cell-cycle
+CON-FND-8F3A602C5B4B08
 ## evidence_claim_ids
 CLM-FND-CELL-CYCLE-01
 ## citation_ids
@@ -144,11 +144,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cell-surface-receptor
+CON-FND-34734B5FAA7789
 ## type
 mechanism_step_before
 ## target
-med.concept.second-messenger
+CON-FND-CA179E56EF8D49
 ## evidence_claim_ids
 CLM-FND-SECOND-MESSENGER-01
 ## citation_ids
@@ -168,11 +168,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.second-messenger
+CON-FND-CA179E56EF8D49
 ## type
 part_of
 ## target
-med.concept.cell-surface-receptor
+CON-FND-34734B5FAA7789
 ## evidence_claim_ids
 CLM-FND-SECOND-MESSENGER-01
 ## citation_ids
@@ -192,11 +192,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cell-surface-receptor
+CON-FND-34734B5FAA7789
 ## type
 prerequisite_of
 ## target
-med.concept.pharmacodynamics
+CON-FND-9223E594E1A685
 ## evidence_claim_ids
 CLM-FND-PHARMACODYNAMICS-01
 ## citation_ids
@@ -216,11 +216,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.apoptosis
+CON-FND-A8D34D42AEFF60
 ## type
 contrasts_with
 ## target
-med.concept.necrosis
+CON-FND-9EF4E7D5214712
 ## evidence_claim_ids
 CLM-FND-APOPTOSIS-01 | CLM-FND-NECROSIS-01
 ## citation_ids
@@ -240,11 +240,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.necrosis
+CON-FND-9EF4E7D5214712
 ## type
 often_confused_with
 ## target
-med.concept.apoptosis
+CON-FND-A8D34D42AEFF60
 ## evidence_claim_ids
 CLM-FND-NECROSIS-01 | CLM-FND-APOPTOSIS-01
 ## citation_ids
@@ -264,11 +264,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.mitochondrion
+CON-FND-95788787E5E20F
 ## type
 mechanism_step_before
 ## target
-med.concept.apoptosis
+CON-FND-A8D34D42AEFF60
 ## evidence_claim_ids
 CLM-FND-APOPTOSIS-02
 ## citation_ids
@@ -288,11 +288,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cell-cycle
+CON-FND-8F3A602C5B4B08
 ## type
 mechanism_step_before
 ## target
-med.concept.apoptosis
+CON-FND-A8D34D42AEFF60
 ## evidence_claim_ids
 CLM-FND-CELL-CYCLE-01
 ## citation_ids
@@ -312,11 +312,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.reversible-cell-injury
+CON-FND-78412A79BE20AA
 ## type
 mechanism_step_before
 ## target
-med.concept.necrosis
+CON-FND-9EF4E7D5214712
 ## evidence_claim_ids
 CLM-FND-NECROSIS-01
 ## citation_ids
@@ -336,11 +336,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cellular-adaptation
+CON-FND-6BE5FBFCBC50A2
 ## type
 contrasts_with
 ## target
-med.concept.reversible-cell-injury
+CON-FND-78412A79BE20AA
 ## evidence_claim_ids
 CLM-FND-ADAPTATION-01
 ## citation_ids
@@ -360,11 +360,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.acute-inflammation
+CON-FND-F958798DE30178
 ## type
 contrasts_with
 ## target
-med.concept.chronic-inflammation
+CON-FND-6D07DC8FDFEAD0
 ## evidence_claim_ids
 CLM-FND-ACUTE-INFLAMMATION-01 | CLM-FND-CHRONIC-INFLAMMATION-01
 ## citation_ids
@@ -384,11 +384,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.acute-inflammation
+CON-FND-F958798DE30178
 ## type
 mechanism_step_before
 ## target
-med.concept.wound-healing
+CON-FND-C7D0B8EE337FBD
 ## evidence_claim_ids
 CLM-FND-WOUND-HEALING-01
 ## citation_ids
@@ -408,11 +408,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.acute-inflammation
+CON-FND-F958798DE30178
 ## type
 mechanism_step_before
 ## target
-med.concept.chronic-inflammation
+CON-FND-6D07DC8FDFEAD0
 ## evidence_claim_ids
 CLM-FND-CHRONIC-INFLAMMATION-01
 ## citation_ids
@@ -432,11 +432,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.necrosis
+CON-FND-9EF4E7D5214712
 ## type
 causes
 ## target
-med.concept.acute-inflammation
+CON-FND-F958798DE30178
 ## evidence_claim_ids
 CLM-FND-NECROSIS-01 | CLM-FND-ACUTE-INFLAMMATION-01
 ## citation_ids
@@ -456,11 +456,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## type
 mechanism_step_before
 ## target
-med.concept.tumour-biology
+CON-FND-F7186C518F1BDB
 ## evidence_claim_ids
 CLM-FND-CANCER-01 | CLM-FND-METASTASIS-01
 ## citation_ids
@@ -480,11 +480,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.tumour-biology
+CON-FND-F7186C518F1BDB
 ## type
 prerequisite_of
 ## target
-med.concept.grading-and-staging
+CON-FND-D0425AF825C03F
 ## evidence_claim_ids
 CLM-FND-TUMOUR-GRADE-01 | CLM-FND-CANCER-STAGE-01
 ## citation_ids
@@ -504,11 +504,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cell-cycle
+CON-FND-8F3A602C5B4B08
 ## type
 prerequisite_of
 ## target
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## evidence_claim_ids
 CLM-FND-CANCER-01
 ## citation_ids
@@ -528,11 +528,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cellular-adaptation
+CON-FND-6BE5FBFCBC50A2
 ## type
 mechanism_step_before
 ## target
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## evidence_claim_ids
 CLM-FND-ADAPTATION-01
 ## citation_ids
@@ -552,11 +552,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.apoptosis
+CON-FND-A8D34D42AEFF60
 ## type
 prerequisite_of
 ## target
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## evidence_claim_ids
 CLM-FND-APOPTOSIS-01
 ## citation_ids
@@ -576,11 +576,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.grading-and-staging
+CON-FND-D0425AF825C03F
 ## type
 often_confused_with
 ## target
-med.concept.tumour-biology
+CON-FND-F7186C518F1BDB
 ## evidence_claim_ids
 CLM-FND-TUMOUR-GRADE-01
 ## citation_ids
@@ -600,11 +600,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.pedigree
+CON-FND-1847074D1C25EA
 ## type
 investigated_by
 ## target
-med.concept.mendelian-inheritance
+CON-FND-F00DE62A603EE3
 ## evidence_claim_ids
 CLM-FND-AUTOSOMAL-DOMINANT-01 | CLM-FND-AUTOSOMAL-RECESSIVE-01
 ## citation_ids
@@ -624,11 +624,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.pedigree
+CON-FND-1847074D1C25EA
 ## type
 investigated_by
 ## target
-med.concept.mitochondrial-inheritance
+CON-FND-08ACAADD9FEAD0
 ## evidence_claim_ids
 CLM-FND-MITOCHONDRIAL-INHERITANCE-01
 ## citation_ids
@@ -648,11 +648,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.mendelian-inheritance
+CON-FND-F00DE62A603EE3
 ## type
 contrasts_with
 ## target
-med.concept.mitochondrial-inheritance
+CON-FND-08ACAADD9FEAD0
 ## evidence_claim_ids
 CLM-FND-AUTOSOMAL-DOMINANT-01 | CLM-FND-MITOCHONDRIAL-INHERITANCE-01
 ## citation_ids
@@ -672,11 +672,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.mendelian-inheritance
+CON-FND-F00DE62A603EE3
 ## type
 contrasts_with
 ## target
-med.concept.chromosomal-disorder
+CON-FND-E5BD39DE4875E5
 ## evidence_claim_ids
 CLM-FND-AUTOSOMAL-DOMINANT-01 | CLM-FND-ANEUPLOIDY-01
 ## citation_ids
@@ -696,11 +696,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.chromosomal-disorder
+CON-FND-E5BD39DE4875E5
 ## type
 diagnosed_by
 ## target
-med.concept.genetic-testing
+CON-FND-DFD749AE66EEE8
 ## evidence_claim_ids
 CLM-FND-GENETIC-TESTING-01 | CLM-FND-ANEUPLOIDY-01
 ## citation_ids
@@ -720,11 +720,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.genetic-testing
+CON-FND-DFD749AE66EEE8
 ## type
 prerequisite_of
 ## target
-med.concept.genetic-counselling
+CON-FND-200A969C404E42
 ## evidence_claim_ids
 CLM-FND-GENETIC-CONSULTATION-01 | CLM-FND-GENETIC-TESTING-01
 ## citation_ids
@@ -744,11 +744,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.genetic-counselling
+CON-FND-200A969C404E42
 ## type
 accompanies
 ## target
-med.concept.pedigree
+CON-FND-1847074D1C25EA
 ## evidence_claim_ids
 CLM-FND-GENETIC-CONSULTATION-01 | CLM-FND-PEDIGREE-01
 ## citation_ids
@@ -768,11 +768,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.pharmacokinetics
+CON-FND-B7F42715799160
 ## type
 contrasts_with
 ## target
-med.concept.pharmacodynamics
+CON-FND-9223E594E1A685
 ## evidence_claim_ids
 CLM-FND-PD-VS-PK-01
 ## citation_ids
@@ -792,11 +792,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.pharmacodynamics
+CON-FND-9223E594E1A685
 ## type
 prerequisite_of
 ## target
-med.concept.dose-response
+CON-FND-F9FBDBEFC21AFE
 ## evidence_claim_ids
 CLM-FND-PHARMACODYNAMICS-01 | CLM-FND-THERAPEUTIC-WINDOW-01
 ## citation_ids
@@ -816,11 +816,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.dose-response
+CON-FND-F9FBDBEFC21AFE
 ## type
 prerequisite_of
 ## target
-med.concept.therapeutic-index
+CON-FND-5778E98DF935B6
 ## evidence_claim_ids
 CLM-FND-THERAPEUTIC-INDEX-01 | CLM-FND-THERAPEUTIC-WINDOW-01
 ## citation_ids
@@ -840,11 +840,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.therapeutic-index
+CON-FND-5778E98DF935B6
 ## type
 decreases
 ## target
-med.concept.adverse-drug-reaction
+CON-FND-3A7003C40A8653
 ## evidence_claim_ids
 CLM-FND-THERAPEUTIC-INDEX-01 | CLM-FND-ADR-01
 ## citation_ids
@@ -864,11 +864,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.drug-interaction
+CON-FND-A393D68726FD84
 ## type
 causes
 ## target
-med.concept.adverse-drug-reaction
+CON-FND-3A7003C40A8653
 ## evidence_claim_ids
 CLM-FND-DRUG-INTERACTION-01 | CLM-FND-ADR-01
 ## citation_ids
@@ -888,11 +888,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.pharmacokinetics
+CON-FND-B7F42715799160
 ## type
 prerequisite_of
 ## target
-med.concept.drug-interaction
+CON-FND-A393D68726FD84
 ## evidence_claim_ids
 CLM-FND-DRUG-INTERACTION-01 | CLM-FND-PHARMACOKINETICS-01
 ## citation_ids
@@ -912,11 +912,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.adverse-drug-reaction
+CON-FND-3A7003C40A8653
 ## type
 often_confused_with
 ## target
-med.concept.drug-interaction
+CON-FND-A393D68726FD84
 ## evidence_claim_ids
 CLM-FND-ADR-01 | CLM-FND-DRUG-INTERACTION-01
 ## citation_ids
@@ -936,11 +936,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.mitochondrion
+CON-FND-95788787E5E20F
 ## type
 part_of
 ## target
-med.concept.cellular-adaptation
+CON-FND-6BE5FBFCBC50A2
 ## evidence_claim_ids
 CLM-FND-ADAPTATION-01
 ## citation_ids
@@ -960,11 +960,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.selective-permeability
+CON-FND-20345F08F7D569
 ## type
 prerequisite_of
 ## target
-med.concept.pharmacokinetics
+CON-FND-B7F42715799160
 ## evidence_claim_ids
 CLM-FND-SELECTIVE-PERMEABILITY-01 | CLM-FND-ADME-01
 ## citation_ids
@@ -984,11 +984,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.cell-nucleus
+CON-FND-23AD69E4A9820F
 ## type
 prerequisite_of
 ## target
-med.concept.mendelian-inheritance
+CON-FND-F00DE62A603EE3
 ## evidence_claim_ids
 CLM-FND-NUCLEUS-01 | CLM-FND-AUTOSOMAL-DOMINANT-01
 ## citation_ids

@@ -2,7 +2,7 @@
 ## label
 Plasma membrane
 ## id
-med.concept.plasma-membrane
+CON-FND-18BD7F4C617A2E
 ## canonical_key
 plasma-membrane
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Selective permeability
 ## id
-med.concept.selective-permeability
+CON-FND-20345F08F7D569
 ## canonical_key
 selective-permeability
 ## aliases
@@ -137,7 +137,7 @@ concept_134ab7e9558ba4c435063ad2 | concept_4a0322567338dc6e58545386
 ## original_wording
 Membrane permeability and transport across the cell membrane
 ## related_concept_ids
-med.concept.plasma-membrane
+CON-FND-18BD7F4C617A2E
 ## related_article_ids
 ART-FND-MITOCHONDRION
 ## resource_ids
@@ -178,7 +178,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Cytoskeleton
 ## id
-med.concept.cytoskeleton
+CON-FND-8D1988EFFC9F6D
 ## canonical_key
 cytoskeleton
 ## aliases
@@ -265,7 +265,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Cell nucleus
 ## id
-med.concept.cell-nucleus
+CON-FND-23AD69E4A9820F
 ## canonical_key
 cell-nucleus
 ## aliases
@@ -313,7 +313,7 @@ concept_08ecc90d804b792ed5f71113 | concept_0ccb18d4e8abc092c2c55b48 | concept_05
 ## original_wording
 Nucleus: nuclear envelope, chromatin and nucleolus
 ## related_concept_ids
-med.concept.plasma-membrane
+CON-FND-18BD7F4C617A2E
 ## related_article_ids
 ART-FND-CYTOSKELETON | ART-FND-MITOCHONDRION
 ## resource_ids
@@ -354,7 +354,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Mitochondrion
 ## id
-med.concept.mitochondrion
+CON-FND-95788787E5E20F
 ## canonical_key
 mitochondrion
 ## aliases
@@ -402,7 +402,7 @@ concept_c960a1def47403ec9f9cf11a | concept_7d3b6adaabf42aa2a3fd9575 | concept_a7
 ## original_wording
 Mitochondria: structure, cristae and the site of ATP production
 ## related_concept_ids
-med.concept.plasma-membrane
+CON-FND-18BD7F4C617A2E
 ## related_article_ids
 ART-FND-PLASMA-MEMBRANE | ART-FND-CELL-NUCLEUS
 ## resource_ids

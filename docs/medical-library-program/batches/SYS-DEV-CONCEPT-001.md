@@ -2,7 +2,7 @@
 ## label
 Malnutrition
 ## id
-med.concept.malnutrition
+CON-DEV-D76BE24205BAFA
 ## canonical_key
 malnutrition
 ## aliases
@@ -89,7 +89,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Undernutrition
 ## id
-med.concept.undernutrition
+CON-DEV-3C1D77BFE88EB2
 ## canonical_key
 undernutrition
 ## aliases
@@ -177,7 +177,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Micronutrient deficiency
 ## id
-med.concept.micronutrient-deficiency
+CON-DEV-721336F6F91D87
 ## canonical_key
 micronutrient-deficiency
 ## aliases
@@ -264,7 +264,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Nutrient excess
 ## id
-med.concept.nutrient-excess
+CON-DEV-05938FCA83A350
 ## canonical_key
 nutrient-excess
 ## aliases
@@ -351,7 +351,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Nutritional requirements
 ## id
-med.concept.nutrient-requirements
+CON-DEV-DDFE7C82A96D2E
 ## canonical_key
 nutrient-requirements
 ## aliases
@@ -438,7 +438,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Enteral nutrition
 ## id
-med.concept.enteral-nutrition
+CON-DEV-2CF8ACA513CAC2
 ## canonical_key
 enteral-nutrition
 ## aliases
@@ -526,7 +526,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Parenteral nutrition
 ## id
-med.concept.parenteral-nutrition
+CON-DEV-F0B086D27E9E29
 ## canonical_key
 parenteral-nutrition
 ## aliases
@@ -613,7 +613,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Normal ageing
 ## id
-med.concept.normal-ageing
+CON-DEV-B8D95325846B96
 ## canonical_key
 normal-ageing
 ## aliases
@@ -700,7 +700,7 @@ nanotopicId: canonical placement is more precise than the curriculum overlay
 ## label
 Frailty
 ## id
-med.concept.frailty
+CON-DEV-1E31D99AE14888
 ## canonical_key
 frailty
 ## aliases
@@ -788,7 +788,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Falls
 ## id
-med.concept.falls
+CON-DEV-C1B7CF7C9CDF6F
 ## canonical_key
 falls
 ## aliases
@@ -876,7 +876,7 @@ sourceCandidateIds: the corpus holds no candidate for this concept — the local
 ## label
 Polypharmacy
 ## id
-med.concept.polypharmacy
+CON-DEV-3605EEE42DEBDC
 ## canonical_key
 polypharmacy
 ## aliases

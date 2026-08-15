@@ -2,7 +2,7 @@
 ## id
 CLM-FND-CELL-CYCLE-01
 ## concept_id
-med.concept.cell-cycle
+CON-FND-8F3A602C5B4B08
 ## subject
 The cell cycle
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-FND-RECEPTOR-01
 ## concept_id
-med.concept.cell-surface-receptor
+CON-FND-34734B5FAA7789
 ## subject
 A cell-surface receptor
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-FND-SECOND-MESSENGER-01
 ## concept_id
-med.concept.second-messenger
+CON-FND-CA179E56EF8D49
 ## subject
 Small intracellular signalling molecules
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-FND-APOPTOSIS-01
 ## concept_id
-med.concept.apoptosis
+CON-FND-A8D34D42AEFF60
 ## subject
 Programmed cell death
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-FND-APOPTOSIS-02
 ## concept_id
-med.concept.apoptosis
+CON-FND-A8D34D42AEFF60
 ## subject
 Caspases
 ## predicate

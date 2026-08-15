@@ -2,7 +2,7 @@
 ## id
 CLM-DEV-NCD-01
 ## concept_id
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## subject
 Noncommunicable diseases
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-DEV-NCD-DEATHS-01
 ## concept_id
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## subject
 Noncommunicable diseases
 ## predicate
@@ -64,7 +64,7 @@ polarity: affirmative
 ## id
 CLM-DEV-BEHAVIOURAL-RISK-01
 ## concept_id
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## subject
 The most important behavioural risk factors of heart disease and stroke
 ## predicate
@@ -94,7 +94,7 @@ polarity: affirmative
 ## id
 CLM-DEV-INACTIVITY-01
 ## concept_id
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## subject
 People who are insufficiently active
 ## predicate
@@ -124,7 +124,7 @@ polarity: affirmative
 ## id
 CLM-DEV-SECOND-HAND-SMOKE-01
 ## concept_id
-med.concept.lifestyle-risk-factors
+CON-DEV-E2C16AFA0F6774
 ## subject
 Second-hand smoke
 ## predicate
@@ -154,7 +154,7 @@ polarity: affirmative
 ## id
 CLM-DEV-TOTAL-RISK-01
 ## concept_id
-med.concept.risk-assessment
+CON-DEV-B29E19D5DBC63B
 ## subject
 Decisions about preventive action and its intensity
 ## predicate
@@ -184,7 +184,7 @@ polarity: affirmative
 ## id
 CLM-DEV-EARLY-DETECTION-01
 ## concept_id
-med.concept.risk-assessment
+CON-DEV-B29E19D5DBC63B
 ## subject
 Cardiovascular disease
 ## predicate
@@ -214,7 +214,7 @@ polarity: affirmative
 ## id
 CLM-DEV-FAMILY-HISTORY-01
 ## concept_id
-med.concept.family-history
+CON-DEV-5CBAEE1155DE51
 ## subject
 A family history
 ## predicate
@@ -244,7 +244,7 @@ polarity: affirmative
 ## id
 CLM-DEV-SCHOOLS-VITAL-01
 ## concept_id
-med.concept.school-health
+CON-DEV-B507A6FF21A788
 ## subject
 Schools
 ## predicate
@@ -274,7 +274,7 @@ polarity: affirmative
 ## id
 CLM-DEV-SCHOOL-EDUCATION-01
 ## concept_id
-med.concept.school-health
+CON-DEV-B507A6FF21A788
 ## subject
 No education system
 ## predicate

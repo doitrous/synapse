@@ -2,7 +2,7 @@
 ## id
 CLM-DEV-MALNUTRITION-01
 ## concept_id
-med.concept.malnutrition
+CON-DEV-D76BE24205BAFA
 ## subject
 Malnutrition
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-DEV-UNDERNUTRITION-01
 ## concept_id
-med.concept.malnutrition
+CON-DEV-D76BE24205BAFA
 ## subject
 Undernutrition
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-DEV-STUNTING-01
 ## concept_id
-med.concept.undernutrition
+CON-DEV-3C1D77BFE88EB2
 ## subject
 Stunting
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-DEV-WASTING-01
 ## concept_id
-med.concept.undernutrition
+CON-DEV-3C1D77BFE88EB2
 ## subject
 Wasting
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-DEV-OVERWEIGHT-01
 ## concept_id
-med.concept.nutrient-excess
+CON-DEV-05938FCA83A350
 ## subject
 Overweight in adults
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-DEV-OBESITY-01
 ## concept_id
-med.concept.nutrient-excess
+CON-DEV-05938FCA83A350
 ## subject
 Obesity in adults
 ## predicate
@@ -182,7 +182,7 @@ polarity: affirmative
 ## id
 CLM-DEV-ANAEMIA-01
 ## concept_id
-med.concept.micronutrient-deficiency
+CON-DEV-721336F6F91D87
 ## subject
 Anaemia
 ## predicate
@@ -212,7 +212,7 @@ polarity: affirmative
 ## id
 CLM-DEV-IRON-DEFICIENCY-01
 ## concept_id
-med.concept.micronutrient-deficiency
+CON-DEV-721336F6F91D87
 ## subject
 Iron deficiency
 ## predicate
@@ -242,7 +242,7 @@ polarity: affirmative
 ## id
 CLM-DEV-ANAEMIA-RISK-01
 ## concept_id
-med.concept.micronutrient-deficiency
+CON-DEV-721336F6F91D87
 ## subject
 The groups most vulnerable to anaemia
 ## predicate
@@ -272,7 +272,7 @@ polarity: affirmative
 ## id
 CLM-DEV-ENTERAL-01
 ## concept_id
-med.concept.enteral-nutrition
+CON-DEV-2CF8ACA513CAC2
 ## subject
 Enteral nutrition
 ## predicate
@@ -302,7 +302,7 @@ polarity: affirmative
 ## id
 CLM-DEV-ENTERAL-GUT-01
 ## concept_id
-med.concept.enteral-nutrition
+CON-DEV-2CF8ACA513CAC2
 ## subject
 Using the gut to provide nutrients
 ## predicate
@@ -332,7 +332,7 @@ polarity: affirmative
 ## id
 CLM-DEV-TPN-01
 ## concept_id
-med.concept.parenteral-nutrition
+CON-DEV-F0B086D27E9E29
 ## subject
 Total parenteral nutrition
 ## predicate
@@ -362,7 +362,7 @@ polarity: affirmative
 ## id
 CLM-DEV-TPN-INDICATION-01
 ## concept_id
-med.concept.parenteral-nutrition
+CON-DEV-F0B086D27E9E29
 ## subject
 Total parenteral nutrition
 ## predicate
@@ -392,7 +392,7 @@ polarity: affirmative
 ## id
 CLM-DEV-ENTERAL-PREFERRED-01
 ## concept_id
-med.concept.parenteral-nutrition
+CON-DEV-F0B086D27E9E29
 ## subject
 Enteral intake
 ## predicate
@@ -422,7 +422,7 @@ polarity: affirmative
 ## id
 CLM-DEV-BIOLOGICAL-AGEING-01
 ## concept_id
-med.concept.normal-ageing
+CON-DEV-B8D95325846B96
 ## subject
 Ageing
 ## predicate
@@ -452,7 +452,7 @@ polarity: affirmative
 ## id
 CLM-DEV-AGEING-VARIABLE-01
 ## concept_id
-med.concept.normal-ageing
+CON-DEV-B8D95325846B96
 ## subject
 Age-related biological changes
 ## predicate
@@ -482,7 +482,7 @@ polarity: affirmative
 ## id
 CLM-DEV-FRAILTY-01
 ## concept_id
-med.concept.frailty
+CON-DEV-1E31D99AE14888
 ## subject
 Frailty
 ## predicate
@@ -512,7 +512,7 @@ polarity: affirmative
 ## id
 CLM-DEV-SARCOPENIA-01
 ## concept_id
-med.concept.frailty
+CON-DEV-1E31D99AE14888
 ## subject
 Sarcopenia
 ## predicate
@@ -542,7 +542,7 @@ polarity: affirmative
 ## id
 CLM-DEV-SARCOPENIA-DX-01
 ## concept_id
-med.concept.frailty
+CON-DEV-1E31D99AE14888
 ## subject
 The diagnosis of sarcopenia
 ## predicate
@@ -572,7 +572,7 @@ polarity: affirmative
 ## id
 CLM-DEV-FALL-01
 ## concept_id
-med.concept.falls
+CON-DEV-C1B7CF7C9CDF6F
 ## subject
 A fall
 ## predicate
@@ -602,7 +602,7 @@ polarity: affirmative
 ## id
 CLM-DEV-FALL-RISK-01
 ## concept_id
-med.concept.falls
+CON-DEV-C1B7CF7C9CDF6F
 ## subject
 Older people
 ## predicate
@@ -632,7 +632,7 @@ polarity: affirmative
 ## id
 CLM-DEV-POLYPHARMACY-01
 ## concept_id
-med.concept.polypharmacy
+CON-DEV-3605EEE42DEBDC
 ## subject
 Polypharmacy
 ## predicate
@@ -662,7 +662,7 @@ polarity: affirmative
 ## id
 CLM-DEV-POLYPHARMACY-RISK-01
 ## concept_id
-med.concept.polypharmacy
+CON-DEV-3605EEE42DEBDC
 ## subject
 The cut-off of five drugs
 ## predicate

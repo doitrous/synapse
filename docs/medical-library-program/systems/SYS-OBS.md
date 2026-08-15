@@ -466,7 +466,7 @@ linked in the master plan.** `GATE-PLATFORM-001` passed on 2026-08-12.
 - **Files to read.** This plan · [MASTER-PLAN.md](../MASTER-PLAN.md) ·
   `src/data/medicalLibraryTaxonomy.ts` · `src/data/articleTemplates.ts` ·
   `server/data/medical-library-v1.json` ·
-  `docs/authoring/library-article-archetypes.md`
+  `Instruction Manual for Content Creation/04-library-articles.md`
 - **Files to write.**
   `docs/medical-library-program/evidence/SYS-OBS-node-classification.json` and
   `docs/medical-library-program/evidence/SYS-OBS-disposition-ledger.json`

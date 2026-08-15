@@ -65,10 +65,10 @@ Citations: CIT-FND-CELL-CYCLE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.cell-cycle
+### definition_of · CON-FND-8F3A602C5B4B08
 Quote: The cell cycle is the sequence of events in the life of the cell from the moment it is created until it divides itself.
 Block: body
-### mechanism_step_before · med.concept.apoptosis
+### mechanism_step_before · CON-FND-A8D34D42AEFF60
 Quote: If the damage cannot be repaired it is directed to apoptosis rather than allowed to divide.
 Block: body
 ## image_recommendations
@@ -87,7 +87,7 @@ Section: Key determinants
 ART-FND-APOPTOSIS: A cell that fails a checkpoint and cannot repair the fault is directed here.
 ART-FND-CELL-NUCLEUS: The chromosomes separated during mitosis are the DNA held in the nucleus.
 ## related_concepts
-med.concept.cell-cycle
+CON-FND-8F3A602C5B4B08
 ## primary_node_id
 SYS-FND-T01-S02-M01
 ## secondary_node_ids
@@ -198,10 +198,10 @@ Citations: CIT-FND-RECEPTOR-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.cell-surface-receptor
+### definition_of · CON-FND-34734B5FAA7789
 Quote: When it binds a ligand it becomes activated and generates a cascade of intracellular signals that alter the behaviour of the cell.
 Block: body
-### mechanism_step_before · med.concept.second-messenger
+### mechanism_step_before · CON-FND-CA179E56EF8D49
 Quote: a G-protein-coupled receptor activates an associated G protein, which in turn activates an enzyme that makes a second messenger
 Block: body
 ## image_recommendations
@@ -220,7 +220,7 @@ Section: Clinical significance
 ART-FND-SECOND-MESSENGER: What a receptor generates on the inner face, and how the signal is amplified.
 ART-FND-PLASMA-MEMBRANE: The membrane the receptor spans, and why the ligand cannot simply cross it.
 ## related_concepts
-med.concept.cell-surface-receptor | med.concept.second-messenger
+CON-FND-34734B5FAA7789 | CON-FND-CA179E56EF8D49
 ## primary_node_id
 SYS-FND-T01-S02-M02
 ## secondary_node_ids
@@ -329,7 +329,7 @@ Citations: CIT-FND-SECOND-MESSENGER-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.second-messenger
+### definition_of · CON-FND-CA179E56EF8D49
 Quote: Small intracellular signalling molecules are called second messengers, the first messengers being the extracellular signals.
 Block: body
 ## image_recommendations
@@ -347,7 +347,7 @@ Section: Mechanism
 ## related_articles
 ART-FND-CELL-SURFACE-RECEPTOR: The receptor whose activation generates these messengers.
 ## related_concepts
-med.concept.second-messenger | med.concept.cell-surface-receptor
+CON-FND-CA179E56EF8D49 | CON-FND-34734B5FAA7789
 ## primary_node_id
 SYS-FND-T01-S02-M03
 ## secondary_node_ids
@@ -461,10 +461,10 @@ Citations: CIT-FND-APOPTOSIS-02-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.apoptosis
+### definition_of · CON-FND-A8D34D42AEFF60
 Quote: Programmed cell death is more commonly called apoptosis.
 Block: body
-### often_confused_with · med.concept.apoptosis
+### often_confused_with · CON-FND-A8D34D42AEFF60
 Quote: Apoptosis is regulated, energy-dependent, affects single cells and provokes no inflammation.
 Block: body
 ## image_recommendations
@@ -489,7 +489,7 @@ Rights: clinical and histology images need explicit teaching permission
 ART-FND-CELL-CYCLE: A cell that fails a checkpoint and cannot repair the damage is directed here.
 ART-FND-MITOCHONDRION: The intrinsic pathway begins with cytochrome c released from the mitochondrion.
 ## related_concepts
-med.concept.apoptosis
+CON-FND-A8D34D42AEFF60
 ## primary_node_id
 SYS-FND-T01-S02-M04
 ## secondary_node_ids

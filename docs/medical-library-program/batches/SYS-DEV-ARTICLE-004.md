@@ -92,7 +92,7 @@ Citations: CIT-DEV-SCREENING-CRITERIA-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.screening
+### definition_of · CON-DEV-5215377CF13595
 Quote: A health screening test is a medical test or procedure performed on members of an asymptomatic population or population subgroup to assess their likelihood of having a particular disease.
 Block: body
 ## image_recommendations
@@ -105,7 +105,7 @@ Section: Mechanism
 ART-DEV-CHILD-SCREENING: The same logic in childhood.
 ART-DEV-PREVENTIVE-CARE: Where screening sits among the levels.
 ## related_concepts
-med.concept.screening
+CON-DEV-5215377CF13595
 ## primary_node_id
 SYS-DEV-T02-S01-M02
 ## secondary_node_ids
@@ -227,7 +227,7 @@ Citations: CIT-DEV-HERD-IMMUNITY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.preventive-care
+### definition_of · CON-DEV-C668126BD3C4C9
 Quote: Immunization is the process of becoming protected against a disease.
 Block: body
 ## image_recommendations
@@ -240,7 +240,7 @@ Section: Mechanism
 ART-DEV-PREVENTIVE-CARE: The levels this belongs to.
 ART-DEV-CHILD-SCREENING: The other routine well-child intervention.
 ## related_concepts
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## primary_node_id
 SYS-DEV-T04-S01-M03
 ## secondary_node_ids
@@ -357,7 +357,7 @@ Citations: CIT-DEV-PRIMARY-PREVENTION-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.risk-behaviour
+### definition_of · CON-DEV-2FEB4FEFCF19F5
 Quote: The five major steps of the intervention are as follows: Ask, Advise, Assess, Assist, and Arrange.
 Block: body
 ## image_recommendations
@@ -370,7 +370,7 @@ Section: Mechanism
 ART-DEV-RISK-BEHAVIOUR: The same intervention in adolescence.
 ART-DEV-PREVENTIVE-CARE: Where counselling sits among the levels.
 ## related_concepts
-med.concept.risk-behaviour
+CON-DEV-2FEB4FEFCF19F5
 ## primary_node_id
 SYS-DEV-T04-S01-M02
 ## secondary_node_ids
@@ -504,7 +504,7 @@ Citations: CIT-DEV-HEALTH-LITERACY-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.preventive-care
+### definition_of · CON-DEV-C668126BD3C4C9
 Quote: Primary prevention aims to reduce the risk of disease before it begins by targeting modifiable risk factors in individuals who are still healthy.
 Block: body
 ## image_recommendations
@@ -517,7 +517,7 @@ Section: Definition
 ART-DEV-ADULT-SCREENING: Finding silent disease.
 ART-DEV-VACCINATION: Acting before disease.
 ## related_concepts
-med.concept.preventive-care | med.concept.screening
+CON-DEV-C668126BD3C4C9 | CON-DEV-5215377CF13595
 ## primary_node_id
 SYS-DEV-T04
 ## secondary_node_ids

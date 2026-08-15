@@ -2,7 +2,7 @@
 ## id
 CLM-FND-PHARMACOKINETICS-01
 ## concept_id
-med.concept.pharmacokinetics
+CON-FND-B7F42715799160
 ## subject
 Pharmacokinetics
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-FND-ADME-01
 ## concept_id
-med.concept.pharmacokinetics
+CON-FND-B7F42715799160
 ## subject
 Pharmacokinetics
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-FND-PHARMACODYNAMICS-01
 ## concept_id
-med.concept.pharmacodynamics
+CON-FND-9223E594E1A685
 ## subject
 Pharmacodynamics
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-FND-PD-VS-PK-01
 ## concept_id
-med.concept.pharmacodynamics
+CON-FND-9223E594E1A685
 ## subject
 Pharmacodynamics and pharmacokinetics
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-FND-THERAPEUTIC-INDEX-01
 ## concept_id
-med.concept.therapeutic-index
+CON-FND-5778E98DF935B6
 ## subject
 The therapeutic index
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-FND-THERAPEUTIC-WINDOW-01
 ## concept_id
-med.concept.dose-response
+CON-FND-F9FBDBEFC21AFE
 ## subject
 The therapeutic window
 ## predicate
@@ -182,7 +182,7 @@ polarity: affirmative
 ## id
 CLM-FND-ADR-01
 ## concept_id
-med.concept.adverse-drug-reaction
+CON-FND-3A7003C40A8653
 ## subject
 An adverse drug reaction
 ## predicate
@@ -212,7 +212,7 @@ polarity: affirmative
 ## id
 CLM-FND-DRUG-INTERACTION-01
 ## concept_id
-med.concept.drug-interaction
+CON-FND-A393D68726FD84
 ## subject
 Drug interactions
 ## predicate

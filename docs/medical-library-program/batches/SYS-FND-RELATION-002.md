@@ -1,10 +1,10 @@
 # Item
 ## source
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## type
 contrasts_with
 ## target
-med.concept.viruses
+CON-FND-612DE8D9628BDE
 ## evidence_claim_ids
 CLM-FND-VIRUS-HOST-01
 ## citation_ids
@@ -24,11 +24,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## type
 contrasts_with
 ## target
-med.concept.fungi
+CON-FND-54F59770FE61B9
 ## evidence_claim_ids
 CLM-FND-FUNGI-01
 ## citation_ids
@@ -48,11 +48,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.viruses
+CON-FND-612DE8D9628BDE
 ## type
 often_confused_with
 ## target
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## evidence_claim_ids
 CLM-FND-VIRUSES-01 | CLM-FND-BACTERIA-01
 ## citation_ids
@@ -72,11 +72,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.virulence
+CON-FND-2796205693B70C
 ## type
 prerequisite_of
 ## target
-med.concept.colonization
+CON-FND-DE33F586650750
 ## evidence_claim_ids
 CLM-FND-VIRULENCE-01
 ## citation_ids
@@ -96,11 +96,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.colonization
+CON-FND-DE33F586650750
 ## type
 contrasts_with
 ## target
-med.concept.virulence
+CON-FND-2796205693B70C
 ## evidence_claim_ids
 CLM-FND-COLONIZATION-01
 ## citation_ids
@@ -120,11 +120,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## type
 mechanism_step_before
 ## target
-med.concept.colonization
+CON-FND-DE33F586650750
 ## evidence_claim_ids
 CLM-FND-TRANSMISSION-DIRECT-01
 ## citation_ids
@@ -144,11 +144,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.sterilization
+CON-FND-B3BE66B9AD76B1
 ## type
 decreases
 ## target
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## evidence_claim_ids
 CLM-FND-STERILIZATION-01 | CLM-FND-TRANSMISSION-VEHICLE-01
 ## citation_ids
@@ -168,11 +168,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.specimen-collection
+CON-FND-899834FF5D9778
 ## type
 prerequisite_of
 ## target
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## evidence_claim_ids
 CLM-FND-SPECIMEN-REPRESENTATIVE-01 | CLM-FND-CULTURE-01
 ## citation_ids
@@ -192,11 +192,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## type
 investigated_by
 ## target
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## evidence_claim_ids
 CLM-FND-CULTURE-01
 ## citation_ids
@@ -216,11 +216,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## type
 prerequisite_of
 ## target
-med.concept.molecular-tests
+CON-FND-3C0F78E6729CC5
 ## evidence_claim_ids
 CLM-FND-PCR-SENSITIVITY-01
 ## citation_ids
@@ -240,11 +240,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.molecular-tests
+CON-FND-3C0F78E6729CC5
 ## type
 contrasts_with
 ## target
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## evidence_claim_ids
 CLM-FND-PCR-01 | CLM-FND-CULTURE-01
 ## citation_ids
@@ -264,11 +264,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.molecular-tests
+CON-FND-3C0F78E6729CC5
 ## type
 diagnosed_by
 ## target
-med.concept.viruses
+CON-FND-612DE8D9628BDE
 ## evidence_claim_ids
 CLM-FND-PCR-SENSITIVITY-01
 ## citation_ids
@@ -288,11 +288,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## type
 prerequisite_of
 ## target
-med.concept.virulence
+CON-FND-2796205693B70C
 ## evidence_claim_ids
 CLM-FND-VIRULENCE-FACTOR-01
 ## citation_ids
@@ -312,11 +312,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.parasites
+CON-FND-70D866E3838CB1
 ## type
 contrasts_with
 ## target
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## evidence_claim_ids
 CLM-FND-PARASITES-01 | CLM-FND-BACTERIA-01
 ## citation_ids
@@ -336,11 +336,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.parasites
+CON-FND-70D866E3838CB1
 ## type
 often_confused_with
 ## target
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## evidence_claim_ids
 CLM-FND-PARASITE-GROUPS-01 | CLM-FND-TRANSMISSION-VECTOR-01
 ## citation_ids
@@ -360,11 +360,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.specimen-collection
+CON-FND-899834FF5D9778
 ## type
 prerequisite_of
 ## target
-med.concept.molecular-tests
+CON-FND-3C0F78E6729CC5
 ## evidence_claim_ids
 CLM-FND-SPECIMEN-REPRESENTATIVE-01
 ## citation_ids
@@ -384,11 +384,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.fungi
+CON-FND-54F59770FE61B9
 ## type
 contrasts_with
 ## target
-med.concept.parasites
+CON-FND-70D866E3838CB1
 ## evidence_claim_ids
 CLM-FND-FUNGI-01 | CLM-FND-PARASITES-01
 ## citation_ids
@@ -408,11 +408,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.sterilization
+CON-FND-B3BE66B9AD76B1
 ## type
 contrasts_with
 ## target
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## evidence_claim_ids
 CLM-FND-STERILIZATION-01 | CLM-FND-MEDIA-SELECTIVE-01
 ## citation_ids
@@ -432,11 +432,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## type
 prerequisite_of
 ## target
-med.concept.sterilization
+CON-FND-B3BE66B9AD76B1
 ## evidence_claim_ids
 CLM-FND-TRANSMISSION-VEHICLE-01
 ## citation_ids
@@ -456,11 +456,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.colonization
+CON-FND-DE33F586650750
 ## type
 prerequisite_of
 ## target
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## evidence_claim_ids
 CLM-FND-COLONIZATION-01
 ## citation_ids
@@ -480,11 +480,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.virulence
+CON-FND-2796205693B70C
 ## type
 part_of
 ## target
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## evidence_claim_ids
 CLM-FND-VIRULENCE-FACTOR-01
 ## citation_ids
@@ -504,11 +504,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.fungi
+CON-FND-54F59770FE61B9
 ## type
 investigated_by
 ## target
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## evidence_claim_ids
 CLM-FND-YEAST-MOULD-01 | CLM-FND-CULTURE-01
 ## citation_ids

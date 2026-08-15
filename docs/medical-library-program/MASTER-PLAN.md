@@ -9,7 +9,7 @@ starts here and ends here. Nothing below depends on any chat transcript.
 - System plans: [`systems/`](systems/) — one file per canonical system root,
   linked from the [programme progress table](#5-programme-progress-table).
 - Related standing documents (not superseded by this plan):
-  [`docs/authoring/README.md`](../authoring/README.md),
+  [`Instruction Manual for Content Creation/`](../../Instruction%20Manual%20for%20Content%20Creation/00-START-HERE.md),
   [`docs/medical-library-taxonomy-review.md`](../medical-library-taxonomy-review.md),
   [`docs/cardiovascular-pilot-field-audit.md`](../cardiovascular-pilot-field-audit.md).
 
@@ -436,7 +436,7 @@ Append-only. Never edit or delete an entry; supersede it with a new one.
 
 | Date | ID | Decision | Rationale | Affects |
 |---|---|---|---|---|
-| 2026-08-12 | `DEC-001` | This master plan supersedes ad-hoc programme planning. `docs/medical-library-taxonomy-review.md` remains authoritative for **taxonomy structure decisions**; `docs/authoring/` remains authoritative for **authoring contracts**. This plan does not restate or fork them | Three documents each doing one job beats one document doing all three badly | all |
+| 2026-08-12 | `DEC-001` | This master plan supersedes ad-hoc programme planning. `docs/medical-library-taxonomy-review.md` remains authoritative for **taxonomy structure decisions**; `Instruction Manual for Content Creation/` remains authoritative for **authoring contracts**. This plan does not restate or fork them | Three documents each doing one job beats one document doing all three badly | all |
 | 2026-08-12 | `DEC-002` | `docs/cardiovascular-pilot-field-audit.md` is recorded as **stale, retained for history**. It states 10 articles / 140 concepts / 16 relations and that "every article ends with a dedicated Components and relations section" — a section type that is now forbidden by `FORBIDDEN_SECTIONS` and rejected by the field audit | Preserve history (LD-06) while preventing anyone from planning against superseded numbers | Phase 0 documentation task |
 | 2026-08-12 | `DEC-003` | Phase 0 is treated as a **hard blocker**, not a parallel track. No content batch may run "while platform work continues" | Six of the eleven blockers would silently corrupt or discard authored work if content were produced first | all |
 | 2026-08-12 | `DEC-004` | The programme measures article coverage against **canonical node classification**, not against a node-to-article ratio | LD-04. A hub with no article is a valid, complete outcome; counting it as a gap would generate thousands of useless stub articles | Phase 2, `GATE-LIBRARY-001` |
@@ -461,7 +461,7 @@ Append-only. Never edit or delete an entry; supersede it with a new one.
 | 2026-08-12 | `DEC-023` | **LD-10 is waived.** Assessment content may be authored against any concept that already has an article, without waiting for `GATE-LIBRARY-001` | The gate was written to stop a Qbank being built on a library that might still move under it. That risk is real for unwritten systems and absent for a topic whose articles and concepts are already authored and stable. Holding 219 finished cardiovascular questions behind eighteen unwritten systems bought nothing | `LD-10`, `systems/SYS-CVS.md` §13, all future assessment authoring |
 | 2026-08-12 | `DEC-024` | Assessment authoring inherits three constraints the waiver does **not** relax: a question may only test a concept an article covers; every record lands as `Draft`; and treatment, dose, procedure and emergency content still needs a citable source and faculty review | The gate was doing several jobs at once. Removing the timing constraint should not quietly remove the safety ones | all assessment authoring |
 | 2026-08-13 | `DEC-025` | One `MediaRequest` type replaces `ImageRecommendation` (articles) and `PracticalMediaRequest` (practicals), and serves questions too. It carries two separate axes — `medium` (`image`/`audio`/`video`) and `kind` (the genre of an image) — plus `ownerId` and `ownerKind` | Three names for one editorial instruction, and three backlogs to work through, for a job that is identical whichever surface is waiting. An earlier design folded audio and video into the genre list, which made "a histology field" and "a heart-sound recording" look like alternatives on one axis | `src/data/contentControl.ts`, `src/data/bulkImport.ts`, `src/pages/admin/MediaRequests.tsx`, all three authoring templates |
-| 2026-08-13 | `DEC-026` | Import key canonicalised to `media_recommendations` on all three content types. `image_recommendations` (articles) and `media_needed` (practicals) stay readable | Sixteen authored batch files use the old keys; breaking them to tidy a name would be the more expensive mistake | `src/data/bulkImport.ts`, `docs/authoring/*.md` |
+| 2026-08-13 | `DEC-026` | Import key canonicalised to `media_recommendations` on all three content types. `image_recommendations` (articles) and `media_needed` (practicals) stay readable | Sixteen authored batch files use the old keys; breaking them to tidy a name would be the more expensive mistake | `src/data/bulkImport.ts`, `Instruction Manual for Content Creation/*.md` |
 | 2026-08-13 | `DEC-027` | Validated, ready-to-import batches live in `docs/import-ready/` with an `INDEX.md`, and are moved there out of `docs/medical-library-program/batches/` rather than copied | The user applies imports by hand through the site. One known folder, and one home per file — a batch duplicated in two places is a batch that will be imported twice or edited in the wrong copy | `docs/import-ready/`, reporting convention |
 | 2026-08-13 | `DEC-028` | `DEC-027` is **narrowed to two folders, split by content type**: `docs/import-ready/` holds practicals, `docs/questions-import-ready/` holds questions and library articles. Each keeps its own `INDEX.md` and each links to the other | Two agents authoring into one folder were overwriting one another's `INDEX.md`. The hazard `DEC-027` guards against is the *same file* living in two places, and that still holds — no file appears in both folders. Splitting by content type also matches the import screens, which are already separate | `docs/import-ready/INDEX.md`, `docs/questions-import-ready/INDEX.md` |
 | 2026-08-13 | `DEC-029` | An article template's required sections are satisfied by **rewriting content to fit the contract**, never by renaming headings to match it | `TPL-INVESTIGATION` requires a `Normal findings` section that condition-shaped drafting does not produce. A heading remap made the validator pass while leaving clinical-use prose under a "Normal findings" label — a green check on content that had become actively misleading. The validator proves headings exist; only the author can prove they describe what follows | `articleTemplates.ts` consumers, all future `TPL-INVESTIGATION` authoring |
@@ -793,12 +793,12 @@ which Phase 0 made possible and none of which exists yet.
 | `src/data/conceptImport.test.ts` | Full-field concept and relation round trips; merge lineage survives; duplicate-edge refusal |
 | `src/data/subjectsImport.test.ts` | Rename moves rather than duplicates; cross-system move; one-label-one-home; impact report |
 | `src/data/imageRecommendations.test.ts` | Canary strings absent from every student projection path |
-| `src/data/authoringDocs.test.ts` | Fails when the importer and `docs/authoring/` drift apart |
+| `src/data/authoringDocs.test.ts` | Fails when the importer and `Instruction Manual for Content Creation/` drift apart |
 
 **Evidence**
 
 - `docs/medical-library-program/evidence/field-parity-matrix.json` / `.md` — 0 gaps
-- `docs/authoring/*.md` updated for every new field; the drift test enforces it
+- `Instruction Manual for Content Creation/*.md` updated for every new field; the drift test enforces it
 
 **Behaviour a student will notice**
 

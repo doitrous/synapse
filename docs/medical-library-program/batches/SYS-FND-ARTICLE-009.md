@@ -98,10 +98,10 @@ Citations: CIT-FND-PROTEIN-BINDING-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.drug-distribution
+### definition_of · CON-FND-863C95CB583B82
 Quote: Drug distribution is the disbursement of an unmetabolized drug as it moves through the body’s blood and tissues.
 Block: body
-### definition_of · med.concept.volume-of-distribution
+### definition_of · CON-FND-63AB77D08CEA93
 Quote: The volume of distribution is a pharmacokinetic parameter that describes a drug's tendency to remain in the plasma or distribute into other tissue compartments.
 Block: body
 ## image_recommendations
@@ -114,7 +114,7 @@ Section: Mechanism
 ART-FND-DRUG-METABOLISM: What happens to the drug that reaches the liver.
 ART-FND-DRUG-EXCRETION: How it finally leaves.
 ## related_concepts
-med.concept.drug-distribution | med.concept.volume-of-distribution
+CON-FND-863C95CB583B82 | CON-FND-63AB77D08CEA93
 ## primary_node_id
 SYS-FND-T04-S01-M02
 ## secondary_node_ids
@@ -248,13 +248,13 @@ Citations: CIT-FND-FIRST-PASS-EFFECT-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.drug-metabolism
+### definition_of · CON-FND-FE75489195378C
 Quote: The chemical modification of drugs into their metabolites is known as drug metabolism or metabolic biotransformation.
 Block: body
-### definition_of · med.concept.cytochrome-p450
+### definition_of · CON-FND-C89BD22BC20E25
 Quote: The cytochrome P450 system, also known as microsomal mixed function oxidase, catalyses most phase I reactions.
 Block: body
-### definition_of · med.concept.first-pass-effect
+### definition_of · CON-FND-AE16E8E450D8A1
 Quote: The first-pass effect is a pharmacological phenomenon in which a medication undergoes metabolism at a specific location in the body.
 Block: body
 ## image_recommendations
@@ -267,7 +267,7 @@ Section: Key determinants
 ART-FND-DRUG-DISTRIBUTION: How the drug reached the liver.
 ART-FND-DRUG-EXCRETION: What happens to the metabolites.
 ## related_concepts
-med.concept.drug-metabolism | med.concept.cytochrome-p450 | med.concept.first-pass-effect
+CON-FND-FE75489195378C | CON-FND-C89BD22BC20E25 | CON-FND-AE16E8E450D8A1
 ## primary_node_id
 SYS-FND-T04-S01-M03
 ## secondary_node_ids
@@ -401,13 +401,13 @@ Citations: CIT-FND-HALF-LIFE-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.drug-excretion
+### definition_of · CON-FND-0B77B5B8B45578
 Quote: Drug elimination is the sum of the processes of removing an administered drug from the body.
 Block: body
-### definition_of · med.concept.clearance
+### definition_of · CON-FND-213F6776858526
 Quote: Clearance is defined as the ratio of a drug's elimination rate to the plasma drug concentration.
 Block: body
-### definition_of · med.concept.half-life
+### definition_of · CON-FND-02C545DB43902B
 Quote: The half-life is the amount of time for serum drug concentrations to decrease by 50%.
 Block: body
 ## image_recommendations
@@ -420,7 +420,7 @@ Section: Key determinants
 ART-FND-DRUG-METABOLISM: What has to happen first for a lipid-soluble drug.
 ART-FND-PK-SPECIAL-POPULATIONS: Where these numbers change.
 ## related_concepts
-med.concept.drug-excretion | med.concept.clearance | med.concept.half-life
+CON-FND-0B77B5B8B45578 | CON-FND-213F6776858526 | CON-FND-02C545DB43902B
 ## primary_node_id
 SYS-FND-T04-S01-M04
 ## secondary_node_ids
@@ -558,7 +558,7 @@ Citations: CIT-FND-PREGNANCY-PK-01-VERIFY
 Reviewed by: Dr Omar
 Reviewed at: 2026-08-12
 ## annotations
-### definition_of · med.concept.pk-special-populations
+### definition_of · CON-FND-95DE7C48E637EB
 Quote: The metabolism and excretion of many medications decrease with aging, requiring that the doses of some medications be decreased.
 Block: body
 ## image_recommendations
@@ -571,7 +571,7 @@ Section: Key determinants
 ART-FND-DRUG-EXCRETION: The step that changes most often.
 ART-FND-PHARMACOKINETICS: The four steps in full.
 ## related_concepts
-med.concept.pk-special-populations
+CON-FND-95DE7C48E637EB
 ## primary_node_id
 SYS-FND-T04-S03-M03
 ## secondary_node_ids

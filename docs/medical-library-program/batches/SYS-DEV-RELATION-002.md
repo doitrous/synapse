@@ -1,10 +1,10 @@
 # Item
 ## source
-med.concept.functioning
+CON-DEV-ADBEE1FB7F1352
 ## type
 part_of
 ## target
-med.concept.disability
+CON-DEV-D296ADD506BBA3
 ## evidence_claim_ids
 CLM-DEV-ACTIVITY-01 | CLM-DEV-DISABILITY-ICF-01
 ## citation_ids
@@ -24,11 +24,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.activities-of-daily-living
+CON-DEV-951C03D8E080DB
 ## type
 part_of
 ## target
-med.concept.functioning
+CON-DEV-ADBEE1FB7F1352
 ## evidence_claim_ids
 CLM-DEV-ADL-01 | CLM-DEV-ACTIVITY-01
 ## citation_ids
@@ -48,11 +48,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.disability
+CON-DEV-D296ADD506BBA3
 ## type
 often_confused_with
 ## target
-med.concept.functioning
+CON-DEV-ADBEE1FB7F1352
 ## evidence_claim_ids
 CLM-DEV-DISABILITY-ICF-01 | CLM-DEV-ACTIVITY-01
 ## citation_ids
@@ -72,11 +72,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.reasonable-adjustments
+CON-DEV-9C535BD9582A7D
 ## type
 decreases
 ## target
-med.concept.disability
+CON-DEV-D296ADD506BBA3
 ## evidence_claim_ids
 CLM-DEV-REASONABLE-ACCOMMODATION-01 | CLM-DEV-DISABILITY-INTERACTION-01
 ## citation_ids
@@ -96,11 +96,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.health-literacy
+CON-DEV-E9AF65B56120DC
 ## type
 prerequisite_of
 ## target
-med.concept.reasonable-adjustments
+CON-DEV-9C535BD9582A7D
 ## evidence_claim_ids
 CLM-DEV-HEALTH-LITERACY-01 | CLM-DEV-REASONABLE-ACCOMMODATION-01
 ## citation_ids
@@ -120,11 +120,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.disability
+CON-DEV-D296ADD506BBA3
 ## type
 prerequisite_of
 ## target
-med.concept.reasonable-adjustments
+CON-DEV-9C535BD9582A7D
 ## evidence_claim_ids
 CLM-DEV-DISABILITY-ICF-01 | CLM-DEV-REASONABLE-ACCOMMODATION-01
 ## citation_ids
@@ -144,11 +144,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.informal-caregiver
+CON-DEV-C80F81B74454DF
 ## type
 accompanies
 ## target
-med.concept.activities-of-daily-living
+CON-DEV-951C03D8E080DB
 ## evidence_claim_ids
 CLM-DEV-INFORMAL-CAREGIVER-01 | CLM-DEV-IADL-01
 ## citation_ids
@@ -168,11 +168,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.informal-caregiver
+CON-DEV-C80F81B74454DF
 ## type
 part_of
 ## target
-med.concept.disability
+CON-DEV-D296ADD506BBA3
 ## evidence_claim_ids
 CLM-DEV-INFORMAL-CAREGIVER-01 | CLM-DEV-DISABILITY-INTERACTION-01
 ## citation_ids
@@ -192,11 +192,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.occupational-health
+CON-DEV-7AAB3C458468F3
 ## type
 decreases
 ## target
-med.concept.disability
+CON-DEV-D296ADD506BBA3
 ## evidence_claim_ids
 CLM-DEV-OCC-HEALTH-SERVICES-01 | CLM-DEV-DISABILITY-INTERACTION-01
 ## citation_ids
@@ -216,11 +216,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.occupational-health
+CON-DEV-7AAB3C458468F3
 ## type
 part_of
 ## target
-med.concept.preventive-care
+CON-DEV-C668126BD3C4C9
 ## evidence_claim_ids
 CLM-DEV-OCC-HEALTH-SERVICES-01 | CLM-DEV-PRIMARY-PREVENTION-01
 ## citation_ids
@@ -240,11 +240,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.functioning
+CON-DEV-ADBEE1FB7F1352
 ## type
 contrasts_with
 ## target
-med.concept.frailty
+CON-DEV-1E31D99AE14888
 ## evidence_claim_ids
 CLM-DEV-ACTIVITY-01 | CLM-DEV-FRAILTY-01
 ## citation_ids
@@ -264,11 +264,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.activities-of-daily-living
+CON-DEV-951C03D8E080DB
 ## type
 investigated_by
 ## target
-med.concept.frailty
+CON-DEV-1E31D99AE14888
 ## evidence_claim_ids
 CLM-DEV-IADL-01 | CLM-DEV-SARCOPENIA-DX-01
 ## citation_ids
@@ -288,11 +288,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.health-literacy
+CON-DEV-E9AF65B56120DC
 ## type
 part_of
 ## target
-med.concept.functioning
+CON-DEV-ADBEE1FB7F1352
 ## evidence_claim_ids
 CLM-DEV-HEALTH-LITERACY-01 | CLM-DEV-PARTICIPATION-RESTRICTION-01
 ## citation_ids

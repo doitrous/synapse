@@ -2,7 +2,7 @@
 ## id
 CLM-FND-BACTERIA-01
 ## concept_id
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## subject
 Bacteria
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-FND-GRAM-POSITIVE-01
 ## concept_id
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## subject
 Gram-positive organisms
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-FND-GRAM-NEGATIVE-01
 ## concept_id
-med.concept.bacteria
+CON-FND-2CA82203124AAA
 ## subject
 Gram-negative organisms
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-FND-VIRUSES-01
 ## concept_id
-med.concept.viruses
+CON-FND-612DE8D9628BDE
 ## subject
 Viruses
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-FND-VIRUS-HOST-01
 ## concept_id
-med.concept.viruses
+CON-FND-612DE8D9628BDE
 ## subject
 Viruses
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-FND-FUNGI-01
 ## concept_id
-med.concept.fungi
+CON-FND-54F59770FE61B9
 ## subject
 Fungi
 ## predicate
@@ -182,7 +182,7 @@ polarity: affirmative
 ## id
 CLM-FND-YEAST-MOULD-01
 ## concept_id
-med.concept.fungi
+CON-FND-54F59770FE61B9
 ## subject
 Yeasts
 ## predicate
@@ -212,7 +212,7 @@ polarity: affirmative
 ## id
 CLM-FND-PARASITES-01
 ## concept_id
-med.concept.parasites
+CON-FND-70D866E3838CB1
 ## subject
 A parasite
 ## predicate
@@ -242,7 +242,7 @@ polarity: affirmative
 ## id
 CLM-FND-PARASITE-GROUPS-01
 ## concept_id
-med.concept.parasites
+CON-FND-70D866E3838CB1
 ## subject
 Medical parasitology
 ## predicate
@@ -272,7 +272,7 @@ polarity: affirmative
 ## id
 CLM-FND-VIRULENCE-01
 ## concept_id
-med.concept.virulence
+CON-FND-2796205693B70C
 ## subject
 Virulence
 ## predicate
@@ -302,7 +302,7 @@ polarity: affirmative
 ## id
 CLM-FND-VIRULENCE-FACTOR-01
 ## concept_id
-med.concept.virulence
+CON-FND-2796205693B70C
 ## subject
 Virulence factors
 ## predicate
@@ -332,7 +332,7 @@ polarity: affirmative
 ## id
 CLM-FND-TRANSMISSION-DIRECT-01
 ## concept_id
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## subject
 Direct contact transmission
 ## predicate
@@ -362,7 +362,7 @@ polarity: affirmative
 ## id
 CLM-FND-TRANSMISSION-INDIRECT-01
 ## concept_id
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## subject
 Indirect transmission
 ## predicate
@@ -392,7 +392,7 @@ polarity: affirmative
 ## id
 CLM-FND-TRANSMISSION-DROPLET-01
 ## concept_id
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## subject
 Droplet transmission
 ## predicate
@@ -422,7 +422,7 @@ polarity: affirmative
 ## id
 CLM-FND-TRANSMISSION-AIRBORNE-01
 ## concept_id
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## subject
 Airborne transmission
 ## predicate
@@ -452,7 +452,7 @@ polarity: affirmative
 ## id
 CLM-FND-TRANSMISSION-VEHICLE-01
 ## concept_id
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## subject
 Vehicles
 ## predicate
@@ -482,7 +482,7 @@ polarity: affirmative
 ## id
 CLM-FND-TRANSMISSION-VECTOR-01
 ## concept_id
-med.concept.transmission
+CON-FND-1D2CAFDB2FBAA2
 ## subject
 Vectors
 ## predicate
@@ -512,7 +512,7 @@ polarity: affirmative
 ## id
 CLM-FND-COLONIZATION-01
 ## concept_id
-med.concept.colonization
+CON-FND-DE33F586650750
 ## subject
 Colonization
 ## predicate
@@ -542,7 +542,7 @@ polarity: affirmative
 ## id
 CLM-FND-INFECTION-01
 ## concept_id
-med.concept.colonization
+CON-FND-DE33F586650750
 ## subject
 Infection
 ## predicate
@@ -572,7 +572,7 @@ polarity: affirmative
 ## id
 CLM-FND-SPECIMEN-TIMING-01
 ## concept_id
-med.concept.specimen-collection
+CON-FND-899834FF5D9778
 ## subject
 Specimens
 ## predicate
@@ -602,7 +602,7 @@ polarity: affirmative
 ## id
 CLM-FND-SPECIMEN-REPRESENTATIVE-01
 ## concept_id
-med.concept.specimen-collection
+CON-FND-899834FF5D9778
 ## subject
 Specimens
 ## predicate
@@ -632,7 +632,7 @@ polarity: affirmative
 ## id
 CLM-FND-CULTURE-01
 ## concept_id
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## subject
 The cause of an infection
 ## predicate
@@ -662,7 +662,7 @@ polarity: affirmative
 ## id
 CLM-FND-MEDIA-NONSELECTIVE-01
 ## concept_id
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## subject
 Non-selective media
 ## predicate
@@ -692,7 +692,7 @@ polarity: affirmative
 ## id
 CLM-FND-MEDIA-SELECTIVE-01
 ## concept_id
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## subject
 Selective media
 ## predicate
@@ -722,7 +722,7 @@ polarity: affirmative
 ## id
 CLM-FND-AST-01
 ## concept_id
-med.concept.culture
+CON-FND-F1947F79FDFB80
 ## subject
 Antimicrobial susceptibility testing
 ## predicate
@@ -752,7 +752,7 @@ polarity: affirmative
 ## id
 CLM-FND-PCR-01
 ## concept_id
-med.concept.molecular-tests
+CON-FND-3C0F78E6729CC5
 ## subject
 The polymerase chain reaction
 ## predicate
@@ -782,7 +782,7 @@ polarity: affirmative
 ## id
 CLM-FND-PCR-SENSITIVITY-01
 ## concept_id
-med.concept.molecular-tests
+CON-FND-3C0F78E6729CC5
 ## subject
 PCR
 ## predicate
@@ -812,7 +812,7 @@ polarity: affirmative
 ## id
 CLM-FND-STERILIZATION-01
 ## concept_id
-med.concept.sterilization
+CON-FND-B3BE66B9AD76B1
 ## subject
 Sterilization
 ## predicate
@@ -842,7 +842,7 @@ polarity: affirmative
 ## id
 CLM-FND-DISINFECTION-01
 ## concept_id
-med.concept.sterilization
+CON-FND-B3BE66B9AD76B1
 ## subject
 Disinfection
 ## predicate
@@ -872,7 +872,7 @@ polarity: affirmative
 ## id
 CLM-FND-HIGH-LEVEL-DISINFECTANT-01
 ## concept_id
-med.concept.sterilization
+CON-FND-B3BE66B9AD76B1
 ## subject
 High-level disinfectants
 ## predicate

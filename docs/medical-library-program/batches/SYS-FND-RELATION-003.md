@@ -1,10 +1,10 @@
 # Item
 ## source
-med.concept.thrombosis
+CON-FND-1B3C89A212DD27
 ## type
 mechanism_step_before
 ## target
-med.concept.embolism
+CON-FND-B5E4F3F73B582D
 ## evidence_claim_ids
 CLM-FND-THROMBOSIS-01 | CLM-FND-EMBOLISM-01
 ## citation_ids
@@ -24,11 +24,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.embolism
+CON-FND-B5E4F3F73B582D
 ## type
 causes
 ## target
-med.concept.infarction
+CON-FND-0BA658B26E1758
 ## evidence_claim_ids
 CLM-FND-EMBOLISM-01 | CLM-FND-INFARCTION-01
 ## citation_ids
@@ -48,11 +48,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.thrombosis
+CON-FND-1B3C89A212DD27
 ## type
 causes
 ## target
-med.concept.infarction
+CON-FND-0BA658B26E1758
 ## evidence_claim_ids
 CLM-FND-THROMBOSIS-01 | CLM-FND-INFARCTION-01
 ## citation_ids
@@ -72,11 +72,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.ischaemia
+CON-FND-7152725CE80103
 ## type
 mechanism_step_before
 ## target
-med.concept.infarction
+CON-FND-0BA658B26E1758
 ## evidence_claim_ids
 CLM-FND-ISCHEMIA-01 | CLM-FND-INFARCTION-01
 ## citation_ids
@@ -96,11 +96,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.infarction
+CON-FND-0BA658B26E1758
 ## type
 often_confused_with
 ## target
-med.concept.ischaemia
+CON-FND-7152725CE80103
 ## evidence_claim_ids
 CLM-FND-INFARCTION-01 | CLM-FND-ISCHEMIA-01
 ## citation_ids
@@ -120,11 +120,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.thrombosis
+CON-FND-1B3C89A212DD27
 ## type
 prerequisite_of
 ## target
-med.concept.embolism
+CON-FND-B5E4F3F73B582D
 ## evidence_claim_ids
 CLM-FND-THROMBOSIS-01
 ## citation_ids
@@ -144,11 +144,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.edema
+CON-FND-D37E7FFF4D0061
 ## type
 contrasts_with
 ## target
-med.concept.body-fluid-compartments
+CON-FND-3F12B01B85CD01
 ## evidence_claim_ids
 CLM-FND-EDEMA-01 | CLM-FND-ECF-01
 ## citation_ids
@@ -168,11 +168,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.body-fluid-compartments
+CON-FND-3F12B01B85CD01
 ## type
 prerequisite_of
 ## target
-med.concept.edema
+CON-FND-D37E7FFF4D0061
 ## evidence_claim_ids
 CLM-FND-ECF-01 | CLM-FND-EDEMA-01
 ## citation_ids
@@ -192,11 +192,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.body-fluid-compartments
+CON-FND-3F12B01B85CD01
 ## type
 prerequisite_of
 ## target
-med.concept.hypovolaemia
+CON-FND-0170B29549E2B5
 ## evidence_claim_ids
 CLM-FND-ECF-01 | CLM-FND-HYPOVOLEMIA-01
 ## citation_ids
@@ -216,11 +216,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.body-fluid-compartments
+CON-FND-3F12B01B85CD01
 ## type
 prerequisite_of
 ## target
-med.concept.hyponatraemia
+CON-FND-954F14AFED916F
 ## evidence_claim_ids
 CLM-FND-TBW-01 | CLM-FND-HYPONATREMIA-MECH-01
 ## citation_ids
@@ -240,11 +240,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.hyponatraemia
+CON-FND-954F14AFED916F
 ## type
 contrasts_with
 ## target
-med.concept.hypernatraemia
+CON-FND-6EF07B812F4A6F
 ## evidence_claim_ids
 CLM-FND-HYPONATREMIA-01 | CLM-FND-HYPERNATREMIA-01
 ## citation_ids
@@ -264,11 +264,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.hypokalaemia
+CON-FND-1524432F43EE53
 ## type
 contrasts_with
 ## target
-med.concept.hyperkalaemia
+CON-FND-5FE9BF580346B0
 ## evidence_claim_ids
 CLM-FND-HYPOKALEMIA-01 | CLM-FND-HYPERKALEMIA-01
 ## citation_ids
@@ -288,11 +288,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.hyperkalaemia
+CON-FND-5FE9BF580346B0
 ## type
 causes
 ## target
-med.concept.metabolic-acidosis
+CON-FND-208A99B69697A4
 ## evidence_claim_ids
 CLM-FND-HYPERKALEMIA-01 | CLM-FND-METABOLIC-ACIDOSIS-01
 ## citation_ids
@@ -312,11 +312,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.metabolic-acidosis
+CON-FND-208A99B69697A4
 ## type
 contrasts_with
 ## target
-med.concept.respiratory-acidosis
+CON-FND-71B98BD717A65E
 ## evidence_claim_ids
 CLM-FND-METABOLIC-ACIDOSIS-01 | CLM-FND-RESP-ACIDOSIS-01
 ## citation_ids
@@ -336,11 +336,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.metabolic-acidosis
+CON-FND-208A99B69697A4
 ## type
 often_confused_with
 ## target
-med.concept.respiratory-acidosis
+CON-FND-71B98BD717A65E
 ## evidence_claim_ids
 CLM-FND-METABOLIC-ACIDOSIS-01 | CLM-FND-RESP-ACIDOSIS-01
 ## citation_ids
@@ -360,11 +360,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.anion-gap
+CON-FND-65A0B833E3FEE3
 ## type
 investigated_by
 ## target
-med.concept.metabolic-acidosis
+CON-FND-208A99B69697A4
 ## evidence_claim_ids
 CLM-FND-ANION-GAP-01 | CLM-FND-METABOLIC-ACIDOSIS-01
 ## citation_ids
@@ -384,11 +384,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.metabolic-acidosis
+CON-FND-208A99B69697A4
 ## type
 prerequisite_of
 ## target
-med.concept.anion-gap
+CON-FND-65A0B833E3FEE3
 ## evidence_claim_ids
 CLM-FND-METABOLIC-ACIDOSIS-01 | CLM-FND-ANION-GAP-NORMAL-01
 ## citation_ids
@@ -408,11 +408,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.hypovolaemia
+CON-FND-0170B29549E2B5
 ## type
 contrasts_with
 ## target
-med.concept.edema
+CON-FND-D37E7FFF4D0061
 ## evidence_claim_ids
 CLM-FND-HYPOVOLEMIA-01 | CLM-FND-EDEMA-01
 ## citation_ids
@@ -432,11 +432,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.thrombosis
+CON-FND-1B3C89A212DD27
 ## type
 accompanies
 ## target
-med.concept.edema
+CON-FND-D37E7FFF4D0061
 ## evidence_claim_ids
 CLM-FND-THROMBOSIS-01 | CLM-FND-EDEMA-MECH-01
 ## citation_ids
@@ -456,11 +456,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.hyponatraemia
+CON-FND-954F14AFED916F
 ## type
 part_of
 ## target
-med.concept.body-fluid-compartments
+CON-FND-3F12B01B85CD01
 ## evidence_claim_ids
 CLM-FND-HYPONATREMIA-MECH-01 | CLM-FND-TBW-01
 ## citation_ids
@@ -480,11 +480,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.respiratory-acidosis
+CON-FND-71B98BD717A65E
 ## type
 prerequisite_of
 ## target
-med.concept.anion-gap
+CON-FND-65A0B833E3FEE3
 ## evidence_claim_ids
 CLM-FND-RESP-ACIDOSIS-01 | CLM-FND-ANION-GAP-01
 ## citation_ids
@@ -504,11 +504,11 @@ Dr Omar
 
 # Item
 ## source
-med.concept.hyperkalaemia
+CON-FND-5FE9BF580346B0
 ## type
 causes
 ## target
-med.concept.infarction
+CON-FND-0BA658B26E1758
 ## evidence_claim_ids
 CLM-FND-HYPERKALEMIA-CARDIAC-01
 ## citation_ids

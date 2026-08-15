@@ -2,7 +2,7 @@
 ## id
 CLM-FND-AUTOSOMAL-DOMINANT-01
 ## concept_id
-med.concept.mendelian-inheritance
+CON-FND-F00DE62A603EE3
 ## subject
 An autosomal dominant disorder
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-FND-AUTOSOMAL-RECESSIVE-01
 ## concept_id
-med.concept.mendelian-inheritance
+CON-FND-F00DE62A603EE3
 ## subject
 Autosomal recessive inheritance
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-FND-ANEUPLOIDY-01
 ## concept_id
-med.concept.chromosomal-disorder
+CON-FND-E5BD39DE4875E5
 ## subject
 A gain or loss in the number of chromosomes from the normal 46
 ## predicate
@@ -93,7 +93,7 @@ numbers_and_units: 46 chromosomes
 ## id
 CLM-FND-MITOCHONDRIAL-INHERITANCE-01
 ## concept_id
-med.concept.mitochondrial-inheritance
+CON-FND-08ACAADD9FEAD0
 ## subject
 Mitochondrial variants
 ## predicate
@@ -123,7 +123,7 @@ polarity: affirmative
 ## id
 CLM-FND-PEDIGREE-01
 ## concept_id
-med.concept.pedigree
+CON-FND-1847074D1C25EA
 ## subject
 A pedigree
 ## predicate
@@ -153,7 +153,7 @@ polarity: affirmative
 ## id
 CLM-FND-GENETIC-TESTING-01
 ## concept_id
-med.concept.genetic-testing
+CON-FND-DFD749AE66EEE8
 ## subject
 Genetic testing
 ## predicate
@@ -183,7 +183,7 @@ polarity: affirmative
 ## id
 CLM-FND-GENETIC-CONSULTATION-01
 ## concept_id
-med.concept.genetic-counselling
+CON-FND-200A969C404E42
 ## subject
 A genetic consultation
 ## predicate

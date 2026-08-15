@@ -2,7 +2,7 @@
 ## id
 CLM-FND-NECROSIS-01
 ## concept_id
-med.concept.necrosis
+CON-FND-9EF4E7D5214712
 ## subject
 Necrosis
 ## predicate
@@ -32,7 +32,7 @@ polarity: affirmative
 ## id
 CLM-FND-ADAPTATION-01
 ## concept_id
-med.concept.cellular-adaptation
+CON-FND-6BE5FBFCBC50A2
 ## subject
 Cellular adaptation
 ## predicate
@@ -62,7 +62,7 @@ polarity: affirmative
 ## id
 CLM-FND-ACUTE-INFLAMMATION-01
 ## concept_id
-med.concept.acute-inflammation
+CON-FND-F958798DE30178
 ## subject
 Acute inflammation
 ## predicate
@@ -92,7 +92,7 @@ polarity: affirmative
 ## id
 CLM-FND-ACUTE-INFLAMMATION-02
 ## concept_id
-med.concept.acute-inflammation
+CON-FND-F958798DE30178
 ## subject
 The five fundamental signs of inflammation
 ## predicate
@@ -122,7 +122,7 @@ polarity: affirmative
 ## id
 CLM-FND-CHRONIC-INFLAMMATION-01
 ## concept_id
-med.concept.chronic-inflammation
+CON-FND-6D07DC8FDFEAD0
 ## subject
 Chronic inflammation
 ## predicate
@@ -152,7 +152,7 @@ polarity: affirmative
 ## id
 CLM-FND-WOUND-HEALING-01
 ## concept_id
-med.concept.wound-healing
+CON-FND-C7D0B8EE337FBD
 ## subject
 The proliferative phase of wound healing
 ## predicate
@@ -182,7 +182,7 @@ polarity: affirmative
 ## id
 CLM-FND-CANCER-01
 ## concept_id
-med.concept.carcinogenesis
+CON-FND-A1E1923160F65D
 ## subject
 Cancer
 ## predicate
@@ -212,7 +212,7 @@ polarity: affirmative
 ## id
 CLM-FND-METASTASIS-01
 ## concept_id
-med.concept.tumour-biology
+CON-FND-F7186C518F1BDB
 ## subject
 The process by which cancer cells spread to other parts of the body
 ## predicate
@@ -242,7 +242,7 @@ polarity: affirmative
 ## id
 CLM-FND-TUMOUR-GRADE-01
 ## concept_id
-med.concept.grading-and-staging
+CON-FND-D0425AF825C03F
 ## subject
 Tumour grade
 ## predicate
@@ -272,7 +272,7 @@ polarity: affirmative
 ## id
 CLM-FND-CANCER-STAGE-01
 ## concept_id
-med.concept.grading-and-staging
+CON-FND-D0425AF825C03F
 ## subject
 Stage
 ## predicate
