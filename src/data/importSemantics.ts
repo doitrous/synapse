@@ -17,9 +17,9 @@
 
 export type ListMode = 'replace' | 'append' | 'clear' | 'untouched'
 
-export interface ListDirective {
+export interface ListDirective<T = string> {
   mode: ListMode
-  items: string[]
+  items: T[]
 }
 
 const CLEAR = /^\[clear\]$/i
@@ -45,7 +45,7 @@ export function listDirective(value: string | undefined): ListDirective {
  * Append de-duplicates, so re-importing the same file twice is idempotent rather
  * than doubling every list.
  */
-export function applyListDirective(directive: ListDirective, existing: string[] | undefined): string[] | undefined {
+export function applyListDirective<T>(directive: ListDirective<T>, existing: T[] | undefined): T[] | undefined {
   const current = existing ?? []
   switch (directive.mode) {
     case 'untouched': return existing
@@ -53,6 +53,49 @@ export function applyListDirective(directive: ListDirective, existing: string[] 
     case 'replace': return directive.items
     case 'append': return [...current, ...directive.items.filter((item) => !current.includes(item))]
   }
+}
+
+/**
+ * Append is the one directive whose result depends on the record being updated.
+ *
+ * The other three are constants: "untouched" is `undefined`, "clear" is `[]`,
+ * "replace" is the items themselves. A row parser can produce all three without
+ * ever seeing the existing record — and it never does see one. Append cannot be
+ * resolved that way, so the parser carries the *intent* forward and the merge,
+ * which does hold the existing record, finishes the job with `applyListDirective`.
+ *
+ * The intent rides along as a non-enumerable symbol on the array itself, so the
+ * list stays an ordinary array to every reader that does not care: `.length`,
+ * `.map`, spread and `JSON.stringify` all behave exactly as before, and because
+ * `JSON.stringify` ignores symbol keys the marker can never reach stored data.
+ *
+ * `Symbol.for` rather than a module-local symbol: if this module is ever loaded
+ * twice under different specifiers, a local symbol would silently stop matching
+ * and append would quietly go back to replacing — the very bug this fixes.
+ */
+const APPEND = Symbol.for('synapse.import.appendList')
+
+/** Tag a parsed list as "add these", for the merge to resolve later. */
+export function markAppend<T>(items: T[]): T[] {
+  return Object.defineProperty(items, APPEND, { value: true, enumerable: false })
+}
+
+/** Was this list parsed from a `+` cell? */
+export function isAppend(value: unknown): boolean {
+  return Array.isArray(value) && (value as unknown as Record<symbol, unknown>)[APPEND] === true
+}
+
+/**
+ * Re-read a parsed list as another element type, keeping its append intent.
+ *
+ * `learnerYears` converts to numbers on the way out of the row. A bare `.map()`
+ * returns a new, unmarked array, which would silently downgrade `+4` to a
+ * replace — so any transform of a parsed list has to go through here.
+ */
+export function mapList<T>(list: string[] | undefined, transform: (items: string[]) => T[]): T[] | undefined {
+  if (list === undefined) return undefined
+  const mapped = transform(list)
+  return isAppend(list) ? markAppend(mapped) : mapped
 }
 
 /** Read one cell as a list, ignoring what exists. Use for create-time defaults. */
@@ -73,6 +116,7 @@ export function optionalList(value: string | undefined): string[] | undefined {
   const directive = listDirective(value)
   if (directive.mode === 'untouched') return undefined
   if (directive.mode === 'clear') return []
+  if (directive.mode === 'append') return markAppend(directive.items)
   return directive.items
 }
 

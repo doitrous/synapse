@@ -263,7 +263,7 @@ attached to a line that does not exist would silently fail to publish it.
 
 | Field key | Source of truth | Rule |
 |---|---|---|
-| `id` | `ManagedContentItem.id` | Existing canonical ID to update. Omit to create. In update mode a blank column leaves that field alone; write `[clear]` to empty a list on purpose. |
+| `id` | `ManagedContentItem.id` | Existing canonical ID to update. Omit to create. In update mode a blank column leaves that field alone; a leading `+` adds to a list instead of replacing it; write `[clear]` to empty a list on purpose. |
 | `aliases` | `articleData.aliases` | Alternate names and spelling variants. An alias never creates a second taxonomy node. |
 | `arabic_title` | `articleData.arabicTitle` | Reviewed Arabic title. |
 | `language` | `articleData.language` | Primary language of the prose, e.g. `en`. |

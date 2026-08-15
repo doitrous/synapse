@@ -125,8 +125,10 @@ honest weight beats a confident guess.
 
 The tables above name the model fields. These are the column keys the bulk
 importer reads, at **Concepts → Bulk import**. Give an existing `id` to update a
-concept in place: a blank column leaves that field alone, and `[clear]` empties a
-list on purpose.
+concept in place: a blank column leaves that field alone, a leading `+` adds to a
+list instead of replacing it, and `[clear]` empties a list on purpose. So
+`+Delta gap` in `aliases` keeps the aliases already recorded and adds one more,
+and re-importing the same row does not duplicate it.
 
 | Column | Sets | Column | Sets |
 |---|---|---|---|

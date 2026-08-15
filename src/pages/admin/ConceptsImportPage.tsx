@@ -4,6 +4,7 @@ import { Select } from '@/components/ui/Field'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
 import { CONCEPT_IMPORT_FIELDS, conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement } from '@/data/conceptImport'
+import { mapList } from '@/data/importSemantics'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
 import { subjects } from '@/data/subjects'
 
@@ -76,7 +77,10 @@ export function ConceptsImportPage() {
   function withReciprocalArticles(concept: Concept): Concept {
     const owned = concept.articleIds ?? []
     const related = concept.relatedArticleIds ?? []
-    const merged = [...related, ...owned.filter((id) => !related.includes(id))]
+    // Through `mapList`, so a `+` on related_article_ids keeps its append intent
+    // across the union — a bare array literal here would quietly downgrade it to
+    // a replace and wipe the neighbours the row never mentioned.
+    const merged = mapList(related, (ids) => [...ids, ...owned.filter((id) => !ids.includes(id))]) ?? related
     return merged.length === related.length ? concept : { ...concept, relatedArticleIds: merged }
   }
 
@@ -122,7 +126,7 @@ export function ConceptsImportPage() {
   return (
     <ImportWizard
       title="Bulk import concepts"
-      description="Open a spreadsheet, CSV, or Markdown file; map every column, preview each row, then commit. An existing canonical ID is updated in place — a blank column leaves that field alone, and [clear] empties it."
+      description="Open a spreadsheet, CSV, or Markdown file; map every column, preview each row, then commit. An existing canonical ID is updated in place — a blank column leaves that field alone, a leading + adds to a list, and [clear] empties it."
       noun="concepts"
       fields={CONCEPT_IMPORT_FIELDS}
       markdownExample={MD}
@@ -142,7 +146,7 @@ export function ConceptsImportPage() {
             <option value="create">Create only; reject matches</option>
           </Select>
           <span className="mt-1.5 block text-[11px] leading-relaxed text-ink-3">
-            Updating keeps every field this file does not mention. Write <code>[clear]</code> in a cell to empty a list on purpose.
+            Updating keeps every field this file does not mention. Start a cell with <code>+</code> to add to a list without re-typing it, or write <code>[clear]</code> to empty one on purpose.
           </span>
         </label>
       }

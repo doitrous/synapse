@@ -117,7 +117,8 @@ batches.sort((a, b) => ORDER[a.kind] - ORDER[b.kind])
 // The upsert itself lives with the merge rules it has to stay consistent with,
 // and is covered by their tests. It used to be re-implemented here, which is how
 // this script came to materialise every incoming row before deciding whether the
-// row was a create or an update.
+// row was a create or an update — so the dry run reported data loss the real
+// import does not cause, and hid the loss it does.
 const upsert = (existing, incoming, merge, materialise) =>
   upsertRecords(existing, incoming, { merge, materialise })
 
