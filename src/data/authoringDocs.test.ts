@@ -76,6 +76,16 @@ test('every evidence import field is documented in the relationships manual', ()
   check(['03-relationships.md'], keys)
 })
 
+test('every catalogue-resource import field is documented in the resource manual', () => {
+  check(['12-resources.md'], IMPORT_SCHEMAS.resource.fields.map((field) => field.key))
+})
+
+test('every evidence-source import field is documented in the resource manual', () => {
+  // Sources are the one evidence kind an author mints, so they live in 12 rather
+  // than alongside claims and citations in 03.
+  check(['12-resources.md'], EVIDENCE_IMPORT_FIELDS.resource.map((field) => field.key))
+})
+
 test('every Subjects & Topics import field is documented in its manual', () => {
   check(['01-subjects-and-topics.md'], SUBJECTS_IMPORT_FIELDS.map((field) => field.key))
 })

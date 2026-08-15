@@ -23,6 +23,7 @@ them, commit them, or push them. A human applies them by hand.
 | [09-lab-interpretation.md](09-lab-interpretation.md) | a lab interpretation set |
 | [10-imaging-interpretation.md](10-imaging-interpretation.md) | an imaging interpretation set |
 | [11-glossary-terms.md](11-glossary-terms.md) | a glossary term |
+| [12-resources.md](12-resources.md) | a source: a PDF, textbook, guideline or video |
 
 Read this file, then **one** manual — the one for what you were asked to produce. Each
 manual is complete for its own type; do not skim the others for background.
@@ -43,7 +44,7 @@ docs/import-ready/
   subjects/     → Admin › Taxonomy › Import
   concept/      → Admin › Concepts › Import
   relations/    → Admin › Relationships › Import
-  evidence/     → Admin › Evidence › Import
+  evidence/     → Admin › Evidence › Import          (12-resources.md)
   article/      → Admin › Bulk import (article)
   question/     → Admin › Bulk import (question)
   practical/    → Admin › Bulk import (practical)

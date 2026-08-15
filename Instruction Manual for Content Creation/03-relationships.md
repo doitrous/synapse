@@ -299,6 +299,10 @@ A claim is one atomic assertion, in subject–predicate–object form.
 | `review_due` | no | ISO date. **Required when time-sensitive.** |
 | `qualifiers` | no | One `key: value` per line — polarity, laterality, population, state, numbers and units. |
 
+> Authoring a **new** source — getting a PDF into the evidence store so a citation can name
+> it — is [12-resources.md](12-resources.md). A `src_…` ID must already exist in the corpus;
+> you cannot invent one.
+
 ### Citation fields · all 12
 
 A citation ties a claim to an exact place in a source.
