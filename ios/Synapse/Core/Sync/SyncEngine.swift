@@ -36,6 +36,14 @@ final class SyncEngine {
 
     /// The ledger: the one document every study surface is built from.
     static let ledgerKey = "synapse-admin-content-ledger-v4"
+    /// The published evidence store. What resolves here is what a gated article
+    /// may show — see `ArticleProjection`.
+    static let evidenceKey = "synapse-medical-evidence-published-v1"
+    /// Published concepts, for the annotations a reader may reveal.
+    static let conceptGraphKey = "synapse-concept-graph-v2"
+    /// Per-system colours, admin-editable. Fetched rather than hardcoded, so a
+    /// new system in the admin console does not need an app release.
+    static let systemColorsKey = "synapse-system-colors-v1"
 
     enum Status: Equatable {
         case idle
