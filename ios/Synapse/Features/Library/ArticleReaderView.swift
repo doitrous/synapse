@@ -51,7 +51,7 @@ struct ArticleReaderView: View {
 
             if !article.summary.isEmpty {
                 Text(article.summary)
-                    .font(.system(size: 17))
+                    .font(Theme.ui(17))
                     .foregroundStyle(Theme.ink2)
                     .padding(.top, 4)
             }
@@ -69,7 +69,7 @@ struct ArticleReaderView: View {
 
         case .paragraph(let text):
             Text(text)
-                .font(.system(size: 17, design: .serif))
+                .font(Theme.serifBody(17))
                 .foregroundStyle(Theme.ink)
                 .lineSpacing(6)
                 .textSelection(.enabled)
@@ -80,7 +80,7 @@ struct ArticleReaderView: View {
                     .font(Theme.panelTitle(12))
                     .foregroundStyle(Theme.accentStrong)
                 Text(text)
-                    .font(.system(size: 15))
+                    .font(Theme.ui(15))
                     .foregroundStyle(Theme.ink)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -99,7 +99,7 @@ struct ArticleReaderView: View {
                     .fill(Theme.accentLine)
                     .frame(width: 2)
                 Text(text)
-                    .font(.system(size: 16, design: .serif))
+                    .font(Theme.serifBody(16))
                     .foregroundStyle(Theme.ink)
                     .lineSpacing(5)
                     .textSelection(.enabled)
@@ -132,7 +132,7 @@ struct ArticleReaderView: View {
                 HStack(alignment: .top, spacing: 8) {
                     Text("·").foregroundStyle(Theme.ink3)
                     Text(item)
-                        .font(.system(size: 15))
+                        .font(Theme.ui(15))
                         .foregroundStyle(Theme.ink)
                 }
             }
@@ -155,11 +155,11 @@ struct ArticleReaderView: View {
             ForEach(article.relatedArticles) { related in
                 VStack(alignment: .leading, spacing: 2) {
                     Text(related.title)
-                        .font(.system(size: 15, weight: .medium))
+                        .font(Theme.ui(15, weight: 500))
                         .foregroundStyle(Theme.accent)
                     if let reason = related.reason {
                         Text(reason)
-                            .font(.system(size: 13))
+                            .font(Theme.ui(13))
                             .foregroundStyle(Theme.ink3)
                     }
                 }

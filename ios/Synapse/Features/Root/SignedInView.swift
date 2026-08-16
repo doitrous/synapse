@@ -142,7 +142,7 @@ struct AccountView: View {
                 .foregroundStyle(Theme.ink2)
             Spacer()
             Text(value)
-                .font(.system(size: 14))
+                .font(Theme.ui(14))
                 .foregroundStyle(Theme.ink)
         }
     }

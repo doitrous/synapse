@@ -82,7 +82,7 @@ struct SignInView: View {
                 .font(Theme.display(32))
                 .foregroundStyle(Theme.ink)
             Text("Your library, question bank, and schedule in one place.")
-                .font(.system(size: 15))
+                .font(Theme.ui(15))
                 .foregroundStyle(Theme.ink2)
         }
         .padding(.bottom, 8)
@@ -127,7 +127,7 @@ struct SignInView: View {
             HStack(spacing: 8) {
                 if auth.isWorking { ProgressView().tint(Theme.onAccent) }
                 Text(mode.title)
-                    .font(.system(size: 16, weight: .semibold))
+                    .font(Theme.ui(16, weight: 600))
             }
             .frame(maxWidth: .infinity)
             // 44pt is the smallest target that is comfortably tappable; the
@@ -142,7 +142,7 @@ struct SignInView: View {
 
     private func notice(_ text: String) -> some View {
         Text(text)
-            .font(.system(size: 14))
+            .font(Theme.ui(14))
             .foregroundStyle(Theme.ink)
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(12)
@@ -191,7 +191,7 @@ struct SignInView: View {
 private struct FieldChrome: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .font(.system(size: 16))
+            .font(Theme.ui(16))
             .foregroundStyle(Theme.ink)
             .padding(.horizontal, 14)
             .frame(height: 48)

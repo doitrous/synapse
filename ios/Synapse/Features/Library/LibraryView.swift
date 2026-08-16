@@ -1,15 +1,22 @@
 import SwiftUI
 
-/// Browse the library: chapters, then articles, then the reader.
+/// The library.
 ///
-/// A phone gets a list and a push rather than the web app's three columns —
-/// a taxonomy rail beside an article list beside a reader has nowhere to go at
-/// this width, and stacking them would make every one of them cramped.
+/// It opens by asking how the student wants to come at it, as the website does,
+/// because "the library" is not one shelf: the same article sits under an organ
+/// system, a discipline, a clinical skill and a curriculum module, and which of
+/// those a student wants depends entirely on what they sat down to do.
 struct LibraryView: View {
     @State private var model: LibraryModel
     let sync: SyncEngine
 
+    @State private var view: LibraryView.Mode = .home
     @State private var query = ""
+
+    enum Mode: Equatable {
+        case home
+        case browsing(LibraryViewKind)
+    }
 
     init(store: LocalStore, sync: SyncEngine, universityId: String?, yearId: String?) {
         _model = State(wrappedValue: LibraryModel(store: store, universityId: universityId, yearId: yearId))
@@ -23,9 +30,16 @@ struct LibraryView: View {
                     ProgressView().tint(Theme.accent)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if let reason = model.emptyReason {
-                    EmptyLibraryView(reason: reason)
+                    EmptyStateView(symbol: "books.vertical", title: "Nothing to read yet", detail: reason)
                 } else {
-                    chapterList
+                    // Pinned with safeAreaInset rather than stacked above the
+                    // content: a plain VStack row above a List ends up
+                    // competing with the navigation bar's own layout, and the
+                    // row silently loses.
+                    content
+                        .safeAreaInset(edge: .top, spacing: 0) {
+                            ViewTabs(selection: $view)
+                        }
                 }
             }
             .background(Theme.paper)
@@ -36,8 +50,7 @@ struct LibraryView: View {
         .task { await model.load() }
         // The first sync usually finishes after this screen has already loaded
         // an empty cache. Without this the student is told there is nothing to
-        // read while the content sits downloaded behind it, until they happen
-        // to switch tabs.
+        // read while the content sits downloaded behind it.
         .onChange(of: sync.status) { _, status in
             if case .done = status { Task { await model.load() } }
         }
@@ -47,9 +60,252 @@ struct LibraryView: View {
         }
     }
 
-    private var chapterList: some View {
+    @ViewBuilder
+    private var content: some View {
+        if !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            // A search cuts across every view — a student who knows the word
+            // does not want to pick a shelf first.
+            SearchResults(model: model, query: query)
+        } else {
+            switch view {
+            case .home:
+                StudyChooser(model: model) { kind in view = .browsing(kind) }
+            case .browsing(let kind):
+                if kind == .curriculum {
+                    ChapterList(chapters: model.chapters)
+                } else if let division = kind.division {
+                    DivisionBrowser(model: model, division: division, title: kind.label)
+                }
+            }
+        }
+    }
+}
+
+/// The five ways in, plus the way back to the chooser.
+private struct ViewTabs: View {
+    @Binding var selection: LibraryView.Mode
+
+    /// Laid out directly rather than in a horizontal ScrollView.
+    ///
+    /// A `ScrollView(.horizontal)` here drew its background and border but
+    /// never its row, stacked or pinned. Six chips fit the narrowest supported
+    /// width without scrolling, so the scroll view was buying nothing and
+    /// costing the whole control.
+    var body: some View {
+        HStack(spacing: 4) {
+            chip(label: nil, symbol: "square.grid.2x2", isSelected: selection == .home) {
+                selection = .home
+            }
+            ForEach(LibraryViewKind.allCases) { kind in
+                chip(label: kind.shortLabel, symbol: nil, isSelected: selection == .browsing(kind)) {
+                    selection = .browsing(kind)
+                }
+            }
+        }
+        .padding(.horizontal, 12)
+        .padding(.vertical, 8)
+        .frame(maxWidth: .infinity)
+        .background(Theme.paper)
+        .overlay(alignment: .bottom) { Rectangle().fill(Theme.line).frame(height: 1) }
+    }
+
+    private func chip(label: String?, symbol: String?, isSelected: Bool, tap: @escaping () -> Void) -> some View {
+        Button(action: tap) {
+            Group {
+                if let symbol {
+                    Image(systemName: symbol).font(.system(size: 12))
+                } else if let label {
+                    Text(label)
+                        .font(Theme.ui(12, weight: isSelected ? 600 : 500))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.85)
+                }
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 7)
+            .background(isSelected ? Theme.accentTint : Color.clear)
+            .foregroundStyle(isSelected ? Theme.accentStrong : Theme.ink2)
+            .clipShape(Capsule())
+        }
+        .buttonStyle(.plain)
+    }
+}
+
+/// "How do you want to study?" — the landing.
+private struct StudyChooser: View {
+    let model: LibraryModel
+    let choose: (LibraryViewKind) -> Void
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 16) {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("How do you want to study?")
+                        .font(Theme.display(24))
+                        .foregroundStyle(Theme.ink)
+                    Text("Reviewed articles across the whole curriculum, each carrying the concepts it teaches and the questions that test it. Find it by organ system, by discipline, by clinical skill, by condition, or straight from your own timetable.")
+                        .font(Theme.ui(14))
+                        .foregroundStyle(Theme.ink2)
+                        .lineSpacing(3)
+                }
+                .padding(.top, 8)
+
+                ForEach(LibraryViewKind.allCases) { kind in
+                    Button { choose(kind) } label: {
+                        HStack(alignment: .top, spacing: 14) {
+                            Image(systemName: kind.symbol)
+                                .font(.system(size: 18))
+                                .foregroundStyle(Theme.accent)
+                                .frame(width: 26)
+
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(kind.label)
+                                    .font(Theme.display(18))
+                                    .foregroundStyle(Theme.ink)
+                                Text(kind.detail)
+                                    .font(Theme.ui(12.5))
+                                    .foregroundStyle(Theme.ink3)
+                                    .lineSpacing(2)
+                                    .fixedSize(horizontal: false, vertical: true)
+                                Text(count(kind))
+                                    .font(Theme.numeric(11))
+                                    .foregroundStyle(Theme.ink3)
+                                    .padding(.top, 2)
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        }
+                        .padding(16)
+                        .background(Theme.surface)
+                        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+                        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .padding(16)
+        }
+        .background(Theme.paper)
+    }
+
+    /// What is actually behind each door. A card promising a shelf that turns
+    /// out to be empty is worse than one that says so first.
+    private func count(_ kind: LibraryViewKind) -> String {
+        if kind == .curriculum {
+            let total = model.chapters.reduce(0) { $0 + $1.articles.count }
+            return "\(total) article\(total == 1 ? "" : "s")"
+        }
+        guard let division = kind.division else { return "" }
+        let ids = model.atlas.roots(in: division).flatMap { model.atlas.articleIds(under: $0.id) }
+        let unique = Set(ids).count
+        return unique == 0 ? "Nothing placed here yet" : "\(unique) article\(unique == 1 ? "" : "s")"
+    }
+}
+
+/// Browsing one division of the taxonomy, a level at a time.
+private struct DivisionBrowser: View {
+    let model: LibraryModel
+    let division: String
+    let title: String
+
+    var body: some View {
+        let roots = model.atlas.roots(in: division).filter { model.atlas.hasArticles(under: $0.id) }
+
+        if roots.isEmpty {
+            EmptyStateView(
+                symbol: "tray",
+                title: "Nothing here yet",
+                detail: "No reviewed articles have been placed under \(title) yet."
+            )
+        } else {
+            List(roots) { node in
+                NavigationLink {
+                    BranchView(model: model, node: node)
+                } label: {
+                    BranchRow(model: model, node: node)
+                }
+                .listRowBackground(Theme.surface)
+            }
+            .listStyle(.insetGrouped)
+            .scrollContentBackground(.hidden)
+            .background(Theme.paper)
+        }
+    }
+}
+
+/// One branch: its sub-branches, then the articles sitting on it.
+private struct BranchView: View {
+    let model: LibraryModel
+    let node: TaxonomyNode
+
+    var body: some View {
+        let children = model.atlas.children(of: node.id).filter { model.atlas.hasArticles(under: $0.id) }
+        let direct = (model.atlas.articlesOn[node.id] ?? []).compactMap { model.articlesById[$0] }
+            .sorted { $0.title.localizedCaseInsensitiveCompare($1.title) == .orderedAscending }
+
         List {
-            ForEach(filteredChapters) { chapter in
+            if !children.isEmpty {
+                Section {
+                    ForEach(children) { child in
+                        NavigationLink {
+                            BranchView(model: model, node: child)
+                        } label: {
+                            BranchRow(model: model, node: child)
+                        }
+                        .listRowBackground(Theme.surface)
+                    }
+                }
+            }
+            if !direct.isEmpty {
+                Section {
+                    ForEach(direct) { article in
+                        NavigationLink {
+                            ArticleReaderView(article: article)
+                        } label: {
+                            ArticleRow(article: article)
+                        }
+                        .listRowBackground(Theme.surface)
+                    }
+                } header: {
+                    Text("Articles")
+                        .font(Theme.panelTitle())
+                        .foregroundStyle(Theme.ink2)
+                        .textCase(nil)
+                }
+            }
+        }
+        .listStyle(.insetGrouped)
+        .scrollContentBackground(.hidden)
+        .background(Theme.paper)
+        .navigationTitle(node.title)
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct BranchRow: View {
+    let model: LibraryModel
+    let node: TaxonomyNode
+
+    var body: some View {
+        let count = model.atlas.articleIds(under: node.id).count
+        return VStack(alignment: .leading, spacing: 3) {
+            Text(node.title)
+                .font(Theme.ui(16, weight: 500))
+                .foregroundStyle(Theme.ink)
+            Text("\(count) article\(count == 1 ? "" : "s")")
+                .font(Theme.numeric(11))
+                .foregroundStyle(Theme.ink3)
+        }
+        .padding(.vertical, 2)
+    }
+}
+
+/// The flat chapter list, used by My Curriculum.
+private struct ChapterList: View {
+    let chapters: [LibraryChapter]
+
+    var body: some View {
+        List {
+            ForEach(chapters) { chapter in
                 Section {
                     ForEach(chapter.articles) { article in
                         NavigationLink {
@@ -70,45 +326,52 @@ struct LibraryView: View {
         .listStyle(.insetGrouped)
         .scrollContentBackground(.hidden)
         .background(Theme.paper)
-        .overlay {
-            if filteredChapters.isEmpty, !query.isEmpty {
-                ContentUnavailableView.search(text: query)
-            }
-        }
     }
+}
 
-    /// Filtering here rather than in SQLite: the catalogue is already in memory
-    /// and this keeps the search instant as the student types. Full-text search
-    /// across the whole corpus is the Question Bank's job.
-    private var filteredChapters: [LibraryChapter] {
+private struct SearchResults: View {
+    let model: LibraryModel
+    let query: String
+
+    var body: some View {
         let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
-        guard !trimmed.isEmpty else { return model.chapters }
-
-        return model.chapters.compactMap { chapter in
-            let matches = chapter.articles.filter {
+        let matches = model.articlesById.values
+            .filter {
                 $0.title.localizedCaseInsensitiveContains(trimmed)
                     || $0.summary.localizedCaseInsensitiveContains(trimmed)
             }
-            guard !matches.isEmpty else { return nil }
-            var filtered = chapter
-            filtered.articles = matches
-            return filtered
+            .sorted { $0.title.localizedCaseInsensitiveCompare($1.title) == .orderedAscending }
+
+        if matches.isEmpty {
+            ContentUnavailableView.search(text: query)
+        } else {
+            List(matches) { article in
+                NavigationLink {
+                    ArticleReaderView(article: article)
+                } label: {
+                    ArticleRow(article: article)
+                }
+                .listRowBackground(Theme.surface)
+            }
+            .listStyle(.insetGrouped)
+            .scrollContentBackground(.hidden)
+            .background(Theme.paper)
         }
     }
 }
 
-private struct ArticleRow: View {
+struct ArticleRow: View {
     let article: Article
 
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(article.title)
-                .font(.system(size: 16, weight: .medium))
+                .font(Theme.ui(16, weight: 500))
                 .foregroundStyle(Theme.ink)
 
             if !article.summary.isEmpty {
                 Text(article.summary)
-                    .font(.system(size: 14))
+                    .font(Theme.ui(14))
                     .foregroundStyle(Theme.ink2)
                     .lineLimit(2)
             }
@@ -124,31 +387,5 @@ private struct ArticleRow: View {
             .labelStyle(.titleAndIcon)
         }
         .padding(.vertical, 4)
-    }
-}
-
-/// Says which kind of empty this is.
-///
-/// The web app learned this the hard way: a student looking at a blank
-/// catalogue cannot tell "nothing synced" from "nothing published for my year",
-/// and those need different things done about them.
-private struct EmptyLibraryView: View {
-    let reason: String
-
-    var body: some View {
-        VStack(spacing: 10) {
-            Image(systemName: "books.vertical")
-                .font(.system(size: 32))
-                .foregroundStyle(Theme.ink3)
-            Text("Nothing to read yet")
-                .font(Theme.display(20))
-                .foregroundStyle(Theme.ink)
-            Text(reason)
-                .font(.system(size: 14))
-                .foregroundStyle(Theme.ink2)
-                .multilineTextAlignment(.center)
-        }
-        .padding(32)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }

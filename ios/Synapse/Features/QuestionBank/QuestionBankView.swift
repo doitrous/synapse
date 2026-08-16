@@ -67,7 +67,7 @@ private struct SessionBuilder: View {
                     model.start()
                 } label: {
                     Text("Start")
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(Theme.ui(16, weight: 600))
                         .frame(maxWidth: .infinity)
                         .frame(height: 44)
                 }
@@ -75,7 +75,7 @@ private struct SessionBuilder: View {
                 .foregroundStyle(Theme.onAccent)
             } footer: {
                 Text("\(matching) question\(matching == 1 ? "" : "s") available.")
-                    .font(.system(size: 13))
+                    .font(Theme.ui(13))
                     .foregroundStyle(Theme.ink3)
             }
         }
@@ -103,13 +103,13 @@ private struct Runner: View {
 
                     if !question.vignette.isEmpty {
                         Text(question.vignette)
-                            .font(.system(size: 16, design: .serif))
+                            .font(Theme.serifBody(16))
                             .foregroundStyle(Theme.ink)
                             .lineSpacing(5)
                     }
 
                     Text(question.stem)
-                        .font(.system(size: 18, weight: .semibold))
+                        .font(Theme.ui(18, weight: 600))
                         .foregroundStyle(Theme.ink)
 
                     ForEach(question.options) { option in
@@ -137,7 +137,7 @@ private struct Runner: View {
                         Task { await model.next() }
                     } label: {
                         Text(model.index + 1 < model.session.count ? "Next question" : "Finish")
-                            .font(.system(size: 16, weight: .semibold))
+                            .font(Theme.ui(16, weight: 600))
                             .frame(maxWidth: .infinity)
                             .frame(height: 48)
                             .background(Theme.accent)
@@ -179,7 +179,7 @@ private struct Runner: View {
                         .font(Theme.panelTitle())
                         .foregroundStyle(Theme.ink2)
                     Text(question.explanation)
-                        .font(.system(size: 15, design: .serif))
+                        .font(Theme.serifBody(15))
                         .foregroundStyle(Theme.ink)
                         .lineSpacing(4)
                 }
@@ -193,7 +193,7 @@ private struct Runner: View {
                         .font(Theme.panelTitle())
                         .foregroundStyle(Theme.accentStrong)
                     Text(objective)
-                        .font(.system(size: 14))
+                        .font(Theme.ui(14))
                         .foregroundStyle(Theme.ink)
                 }
             }
@@ -223,7 +223,7 @@ private struct OptionRow: View {
                         .foregroundStyle(labelColor)
                         .frame(width: 20, alignment: .leading)
                     Text(option.text)
-                        .font(.system(size: 15))
+                        .font(Theme.ui(15))
                         .foregroundStyle(Theme.ink)
                         .frame(maxWidth: .infinity, alignment: .leading)
                     if let symbol {
@@ -236,7 +236,7 @@ private struct OptionRow: View {
                 // need explained.
                 if isAnswered, !option.explanation.isEmpty {
                     Text(option.explanation)
-                        .font(.system(size: 13))
+                        .font(Theme.ui(13))
                         .foregroundStyle(Theme.ink2)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 30)
@@ -296,7 +296,7 @@ private struct Results: View {
                         .font(Theme.numeric(34))
                         .foregroundStyle(Theme.ink)
                     Text("correct")
-                        .font(.system(size: 15))
+                        .font(Theme.ui(15))
                         .foregroundStyle(Theme.ink2)
                 }
                 .padding(.top, 24)
@@ -310,7 +310,7 @@ private struct Results: View {
                                 .foregroundStyle(answer.isCorrect ? Theme.success : Theme.danger)
                                 .frame(width: 16)
                             Text(answer.question.stem)
-                                .font(.system(size: 14))
+                                .font(Theme.ui(14))
                                 .foregroundStyle(Theme.ink)
                                 .frame(maxWidth: .infinity, alignment: .leading)
                         }
@@ -322,7 +322,7 @@ private struct Results: View {
                 .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
 
                 Button("Another sitting") { model.restart() }
-                    .font(.system(size: 16, weight: .semibold))
+                    .font(Theme.ui(16, weight: 600))
                     .foregroundStyle(Theme.accent)
             }
             .padding(20)

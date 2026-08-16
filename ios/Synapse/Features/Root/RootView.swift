@@ -45,10 +45,10 @@ private struct UnconfiguredView: View {
                 .font(Theme.display(24))
                 .foregroundStyle(Theme.ink)
             Text(problem.message)
-                .font(.system(size: 15))
+                .font(Theme.ui(15))
                 .foregroundStyle(Theme.ink)
             Text(problem.fix)
-                .font(.system(size: 14, design: .monospaced))
+                .font(Theme.numeric(14))
                 .foregroundStyle(Theme.ink2)
         }
         .frame(maxWidth: .infinity, alignment: .leading)

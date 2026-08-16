@@ -19,6 +19,19 @@
 	<key>SupabaseAnonKey</key>
 	<string>$(SUPABASE_ANON_KEY)</string>
 
+	<!--
+	  The site's own typefaces, converted from the woff2 files it self-hosts
+	  rather than downloaded, so the app and the website are the same faces.
+	  All four are variable; see Theme.variable() for setting an exact weight.
+	-->
+	<key>UIAppFonts</key>
+	<array>
+		<string>SourceSerif4Variable.ttf</string>
+		<string>SourceSerif4Variable-Italic.ttf</string>
+		<string>GeistVariable.ttf</string>
+		<string>GeistMonoVariable.ttf</string>
+	</array>
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<!--

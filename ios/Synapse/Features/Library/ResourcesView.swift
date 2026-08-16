@@ -128,7 +128,7 @@ private struct ResourceRow: View {
 
             VStack(alignment: .leading, spacing: 3) {
                 Text(resource.title)
-                    .font(.system(size: 16, weight: .medium))
+                    .font(Theme.ui(16, weight: 500))
                     .foregroundStyle(Theme.ink)
 
                 HStack(spacing: 6) {
@@ -138,7 +138,7 @@ private struct ResourceRow: View {
                         Text(String(year)).font(Theme.numeric(12))
                     }
                 }
-                .font(.system(size: 13))
+                .font(Theme.ui(13))
                 .foregroundStyle(Theme.ink2)
                 .lineLimit(1)
 
@@ -146,7 +146,7 @@ private struct ResourceRow: View {
                 // Saying so is better than a tap that opens nothing.
                 if !resource.hasFile {
                     Text("File not uploaded yet")
-                        .font(.system(size: 11))
+                        .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
                 }
             }
@@ -180,7 +180,7 @@ struct EmptyStateView: View {
                 .font(Theme.display(20))
                 .foregroundStyle(Theme.ink)
             Text(detail)
-                .font(.system(size: 14))
+                .font(Theme.ui(14))
                 .foregroundStyle(Theme.ink2)
                 .multilineTextAlignment(.center)
         }

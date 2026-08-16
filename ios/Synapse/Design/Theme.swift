@@ -73,22 +73,54 @@ enum Theme {
 
     // MARK: - Type
 
-    /// Page titles and headings. The web app sets Source Serif 4 at weight 560;
-    /// until the variable font is bundled, the system serif at semibold is the
-    /// closest match that ships for free and supports Arabic.
+    /// The families bundled with the app, matching the site.
+    enum Family {
+        static let serif = "Source Serif 4"
+        static let sans = "Geist"
+        static let mono = "Geist Mono"
+    }
+
+    /// A bundled variable font at an exact weight.
+    ///
+    /// `Font.custom(...).weight(...)` can only ask for one of the nine named
+    /// weights, and the site's headings are set at 560 — between semibold and
+    /// medium, and not expressible that way. Setting the `wght` axis directly
+    /// gives the same face the website renders rather than the nearest one.
+    static func variable(_ family: String, size: CGFloat, weight: CGFloat) -> Font {
+        // 'wght' as a four-character code.
+        let axis = 0x77676874
+        let descriptor = UIFontDescriptor(fontAttributes: [
+            .family: family,
+            kCTFontVariationAttribute as UIFontDescriptor.AttributeName: [axis: weight],
+        ])
+        return Font(UIFont(descriptor: descriptor, size: size))
+    }
+
+    /// Page titles and headings: Source Serif 4 at 560, as the site sets it.
     static func display(_ size: CGFloat) -> Font {
-        .system(size: size, weight: .semibold, design: .serif)
+        variable(Family.serif, size: size, weight: 560)
+    }
+
+    /// Long-form reading. The article body is the reason the serif is bundled.
+    static func serifBody(_ size: CGFloat, weight: CGFloat = 400) -> Font {
+        variable(Family.serif, size: size, weight: weight)
+    }
+
+    /// Interface text.
+    static func ui(_ size: CGFloat, weight: CGFloat = 400) -> Font {
+        variable(Family.sans, size: size, weight: weight)
     }
 
     /// Panel titles — sans, small, semibold. The counterpart to `display`, and
-    /// the pairing that gives Synapse its hierarchy.
+    /// the pairing that gives Synapse its hierarchy: *panel titles are sans,
+    /// page titles are serif*.
     static func panelTitle(_ size: CGFloat = 13) -> Font {
-        .system(size: size, weight: .semibold)
+        variable(Family.sans, size: size, weight: 600)
     }
 
     /// Figures in tables and meters, where digits must line up between rows.
-    static func numeric(_ size: CGFloat) -> Font {
-        .system(size: size, design: .monospaced).monospacedDigit()
+    static func numeric(_ size: CGFloat, weight: CGFloat = 400) -> Font {
+        variable(Family.mono, size: size, weight: weight)
     }
 
     // MARK: - Building blocks
@@ -97,16 +129,5 @@ enum Theme {
         Color(UIColor { traits in
             UIColor(rgb: traits.userInterfaceStyle == .dark ? dark : light)
         })
-    }
-}
-
-private extension UIColor {
-    convenience init(rgb: UInt32) {
-        self.init(
-            red: CGFloat((rgb >> 16) & 0xFF) / 255,
-            green: CGFloat((rgb >> 8) & 0xFF) / 255,
-            blue: CGFloat(rgb & 0xFF) / 255,
-            alpha: 1
-        )
     }
 }

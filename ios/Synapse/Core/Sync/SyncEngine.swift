@@ -41,6 +41,9 @@ final class SyncEngine {
     static let evidenceKey = "synapse-medical-evidence-published-v1"
     /// Published concepts, for the annotations a reader may reveal.
     static let conceptGraphKey = "synapse-concept-graph-v2"
+    /// The medical library taxonomy — the systems, disciplines, skills and
+    /// knowledge branches a student browses by.
+    static let medicalTaxonomyKey = "synapse-medical-library-taxonomy-v1"
     /// Per-system colours, admin-editable. Fetched rather than hardcoded, so a
     /// new system in the admin console does not need an app release.
     static let systemColorsKey = "synapse-system-colors-v1"

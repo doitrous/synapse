@@ -24,6 +24,11 @@ final class LibraryModel {
     /// reasons applies — a blank screen tells a student nothing.
     private(set) var emptyReason: String?
 
+    /// Every readable article, by ID, for the taxonomy views.
+    private(set) var articlesById: [String: Article] = [:]
+    /// The medical taxonomy, indexed for browsing.
+    private(set) var atlas = LibraryAtlas.empty
+
     private let store: LocalStore
     /// The student's cohort, which decides what is in scope. Nil until the
     /// audience is known, which means "show everything unrestricted".
@@ -63,6 +68,30 @@ final class LibraryModel {
             }
 
             chapters = group(articles)
+            articlesById = Dictionary(articles.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
+
+            // Where each article sits in the medical taxonomy. Primary and
+            // secondary placements both count: an article on the cardiovascular
+            // system may also belong under pharmacology, and a student browsing
+            // by discipline should find it there.
+            var placements: [String: [String]] = [:]
+            for item in items {
+                guard
+                    let record = try? JSONSerialization.jsonObject(with: item.raw) as? [String: Any],
+                    let data = record["articleData"] as? [String: Any]
+                else { continue }
+                let primary = (data["primaryNodeId"] as? String).map { [$0] } ?? []
+                let secondary = data["secondaryNodeIds"] as? [String] ?? []
+                let all = primary + secondary
+                if !all.isEmpty { placements[item.id] = all }
+            }
+
+            atlas = LibraryAtlas.build(
+                taxonomy: try await decodedCatalogue(SyncEngine.medicalTaxonomyKey),
+                articles: articles,
+                placements: placements
+            )
+
             emptyReason = chapters.isEmpty ? await describeEmptiness(articleCount: items.count) : nil
         } catch {
             chapters = []
