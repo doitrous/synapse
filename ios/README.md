@@ -28,6 +28,13 @@ Then open `ios/Synapse.xcodeproj` and run, or from the command line:
 xcodebuild build -project ios/Synapse.xcodeproj -scheme Synapse -destination 'platform=iOS Simulator,name=iPhone 17'
 ```
 
+**Do not pass `CODE_SIGNING_ALLOWED=NO`, even for the simulator.** An unsigned
+app carries no entitlements, and without them Keychain access fails — which is
+where `supabase-swift` keeps the session. The visible symptom is not an error
+about the Keychain: sign-in appears to succeed, the token then reads back as
+`nil`, the request goes out with no `Authorization` header, and the API answers
+401. It looks exactly like a rejected password.
+
 ## How it fits the existing stack
 
 The app is a client of the same Express API in `server/`. It adds no

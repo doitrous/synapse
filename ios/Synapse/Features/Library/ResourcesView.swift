@@ -43,6 +43,11 @@ struct ResourcesView: View {
         }
         .searchable(text: $query, prompt: "Search resources")
         .task { await model.load() }
+        // See the note in LibraryView: the first sync lands after this screen
+        // has already read an empty cache.
+        .onChange(of: sync.status) { _, status in
+            if case .done = status { Task { await model.load() } }
+        }
         .refreshable {
             await sync.refresh()
             await model.load()

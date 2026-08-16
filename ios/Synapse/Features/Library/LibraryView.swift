@@ -34,6 +34,13 @@ struct LibraryView: View {
         }
         .searchable(text: $query, prompt: "Search the library")
         .task { await model.load() }
+        // The first sync usually finishes after this screen has already loaded
+        // an empty cache. Without this the student is told there is nothing to
+        // read while the content sits downloaded behind it, until they happen
+        // to switch tabs.
+        .onChange(of: sync.status) { _, status in
+            if case .done = status { Task { await model.load() } }
+        }
         .refreshable {
             await sync.refresh()
             await model.load()

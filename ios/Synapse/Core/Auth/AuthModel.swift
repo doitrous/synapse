@@ -38,7 +38,18 @@ final class AuthModel {
             self.api = SynapseAPI { [weak client] in
                 // A token is only useful if it is current, and the SDK refreshes
                 // on read — so read it per request rather than caching one here.
-                try? await client?.auth.session.accessToken
+                do {
+                    return try await client?.auth.session.accessToken
+                } catch {
+                    // Swallowing this silently once cost hours: the request went
+                    // out with no Authorization header, the API answered 401,
+                    // and the app reported a rejected session without ever
+                    // saying it had failed to read one.
+                    #if DEBUG
+                    SynapseAPI.lastTokenError = String(describing: error)
+                    #endif
+                    return nil
+                }
             }
         } else {
             self.client = nil
@@ -128,6 +139,10 @@ final class AuthModel {
                 // naming one would send the reader after the wrong thing.
                 message = "Your password was accepted, but Synapse rejected the session. "
                     + "Please try again, or contact support if it keeps happening."
+                #if DEBUG
+                if let detail = SynapseAPI.lastDiagnostic { message! += "\n\n[\(detail)]" }
+                if let tokenError = SynapseAPI.lastTokenError { message! += "\n[token error: \(tokenError.prefix(180))]" }
+                #endif
             }
         } catch {
             // The token may well be fine and the network not. Don't discard a

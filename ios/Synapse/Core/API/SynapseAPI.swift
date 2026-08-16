@@ -1,4 +1,5 @@
 import Foundation
+import os
 
 /// A failure that came back from the Synapse API.
 ///
@@ -72,6 +73,15 @@ struct SynapseAPI {
     /// Supplies a fresh access token, refreshing it if needed. Injected rather
     /// than reached for, so this type can be tested without an auth stack.
     typealias TokenProvider = @Sendable () async throws -> String?
+
+    static let log = Logger(subsystem: "com.synapse.app", category: "api")
+
+    #if DEBUG
+    /// What the last request did, for a debug build to show on screen.
+    nonisolated(unsafe) static var lastDiagnostic: String?
+    /// Why reading the access token failed, if it did.
+    nonisolated(unsafe) static var lastTokenError: String?
+    #endif
 
     private let baseURL: URL
     /// Named `urlSession` so it cannot be confused with `session()`, which asks
@@ -186,6 +196,16 @@ struct SynapseAPI {
         guard let http = response as? HTTPURLResponse else {
             throw APIError.malformed("\(path): response was not HTTP")
         }
+
+        #if DEBUG
+        // Recorded rather than logged. Neither `print` nor `Logger` reached the
+        // console for an app launched from the home screen in this simulator,
+        // so the one diagnostic that mattered was invisible exactly when it was
+        // needed. A value the UI can show always arrives.
+        let token = request.value(forHTTPHeaderField: "Authorization")
+        Self.lastDiagnostic = "\(method) \(path) → \(http.statusCode), token "
+            + (token.map { "\($0.count - 7)ch" } ?? "MISSING")
+        #endif
 
         switch http.statusCode {
         case 200...299:
