@@ -91,31 +91,31 @@ struct SynapseAPI {
 
     func session() async throws -> SessionUser? {
         struct Envelope: Decodable { let user: SessionUser? }
-        return try await get(Envelope.self, path: "session").user
+        return try await get(Envelope.self, ["session"]).user
     }
 
     func me() async throws -> SessionUser {
-        try await get(SessionUser.self, path: "me")
+        try await get(SessionUser.self, ["me"])
     }
 
     /// When each student-readable catalogue document last changed.
     func stateManifest() async throws -> [String: Date?] {
-        try await get(StateManifest.self, path: "state/manifest").keys
+        try await get(StateManifest.self, ["state", "manifest"]).keys
     }
 
     /// A shared catalogue document — content authored in the admin console.
     func state<Value: Decodable>(_ type: Value.Type, key: String) async throws -> RemoteState<Value> {
-        try await get(RemoteState<Value>.self, path: "state/\(escaped(key))")
+        try await get(RemoteState<Value>.self, ["state", key])
     }
 
     /// A private document belonging to the signed-in student.
     func userState<Value: Decodable>(_ type: Value.Type, key: String) async throws -> RemoteState<Value> {
-        try await get(RemoteState<Value>.self, path: "user-state/\(escaped(key))")
+        try await get(RemoteState<Value>.self, ["user-state", key])
     }
 
     /// Replace a private document. Last write wins, as on the web.
     func putUserState<Value: Encodable>(key: String, value: Value) async throws {
-        _ = try await send(path: "user-state/\(escaped(key))", method: "PUT", body: ValueBody(value: value))
+        _ = try await send(["user-state", key], method: "PUT", body: ValueBody(value: value))
     }
 
     /// Register this device for push notifications.
@@ -127,30 +127,43 @@ struct SynapseAPI {
             let appVersion: String?
         }
         _ = try await send(
-            path: "devices",
+            ["devices"],
             method: "POST",
             body: Body(token: deviceToken, environment: environment, locale: locale, appVersion: appVersion)
         )
     }
 
     func unregisterDevice(token deviceToken: String) async throws {
-        _ = try await send(path: "devices/\(escaped(deviceToken))", method: "DELETE", body: Optional<Int>.none)
+        _ = try await send(["devices", deviceToken], method: "DELETE", body: Optional<Int>.none)
     }
 
     // MARK: - Transport
 
-    private func get<T: Decodable>(_ type: T.Type, path: String) async throws -> T {
-        let data = try await send(path: path, method: "GET", body: Optional<Int>.none)
+    private func get<T: Decodable>(_ type: T.Type, _ components: [String]) async throws -> T {
+        let data = try await send(components, method: "GET", body: Optional<Int>.none)
         do {
             return try Self.decoder.decode(T.self, from: data)
         } catch {
-            throw APIError.malformed("\(path): \(error)")
+            throw APIError.malformed("\(components.joined(separator: "/")): \(error)")
         }
     }
 
+    /// Build the URL one path component at a time.
+    ///
+    /// Percent-encoding is left to `appendingPathComponent`, which does it once
+    /// and correctly. Encoding a key here first — as this did, with
+    /// `.alphanumerics`, which escapes `-` and `.` — meant the `%` was escaped
+    /// again on the way in, and a key like `synapse-admin-content-ledger-v4`
+    /// arrived as `synapse%252Dadmin…`. The server then failed to match it
+    /// against the readable set and refused it, so every catalogue 403'd.
+    private func url(_ components: [String]) -> URL {
+        components.reduce(baseURL) { $0.appendingPathComponent($1) }
+    }
+
     @discardableResult
-    private func send<Body: Encodable>(path: String, method: String, body: Body?) async throws -> Data {
-        var request = URLRequest(url: baseURL.appendingPathComponent(path))
+    private func send<Body: Encodable>(_ components: [String], method: String, body: Body?) async throws -> Data {
+        let path = components.joined(separator: "/")
+        var request = URLRequest(url: url(components))
         request.httpMethod = method
 
         if let accessToken = try await token() {
@@ -186,10 +199,6 @@ struct SynapseAPI {
         default:
             throw APIError.transient(status: http.statusCode)
         }
-    }
-
-    private func escaped(_ key: String) -> String {
-        key.addingPercentEncoding(withAllowedCharacters: .alphanumerics) ?? key
     }
 
     /// MariaDB timestamps arrive as ISO 8601, sometimes with fractional seconds

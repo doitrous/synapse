@@ -53,14 +53,16 @@ final class AuthModel {
             return
         }
         state = .restoring
-        await confirmWithServer(onFailure: .signedOut)
+        // Launch, with nobody signed in, is the ordinary case — there is
+        // nothing to explain, so say nothing.
+        await confirmWithServer(explainFailure: false)
     }
 
     func signIn(email: String, password: String) async {
         guard let client else { return }
         await perform {
             try await client.auth.signIn(email: Self.tidy(email), password: password)
-            await self.confirmWithServer(onFailure: .signedOut)
+            await self.confirmWithServer(explainFailure: true)
         }
     }
 
@@ -100,21 +102,38 @@ final class AuthModel {
     /// Ask the Synapse API who it thinks we are. This is the step that proves
     /// the whole chain — Supabase token → JWKS verification → `user_access`
     /// row → role — actually works.
-    private func confirmWithServer(onFailure fallback: State) async {
+    ///
+    /// Two services have to agree here, and when they disagree the failure is
+    /// invisible from the outside: Supabase accepts the password, the API
+    /// refuses the token it issued, and the app returns to a sign-in screen
+    /// that looks like it did nothing. So when the caller has just tried to
+    /// sign in, every branch below says something.
+    private func confirmWithServer(explainFailure: Bool) async {
         do {
             if let user = try await api.session() {
                 state = .signedIn(user)
                 message = nil
             } else {
-                state = fallback
+                state = .signedOut
+                if explainFailure {
+                    message = "Signed in, but Synapse has no account for this address yet."
+                }
             }
         } catch APIError.unauthorized {
-            state = fallback
+            state = .signedOut
+            if explainFailure {
+                // Deliberately not guessing at a cause. Two services have to
+                // agree, and from here the difference between an unconfigured
+                // server, a suspended account and a clock skew is invisible —
+                // naming one would send the reader after the wrong thing.
+                message = "Your password was accepted, but Synapse rejected the session. "
+                    + "Please try again, or contact support if it keeps happening."
+            }
         } catch {
             // The token may well be fine and the network not. Don't discard a
             // good session over a dropped connection.
-            state = fallback
-            message = Self.describe(error)
+            state = .signedOut
+            if explainFailure { message = Self.describe(error) }
         }
     }
 

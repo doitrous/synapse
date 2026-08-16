@@ -218,8 +218,13 @@ struct SyncEngineTests {
     /// The app may reach TestFlight before the API is redeployed. Refusing to
     /// sync at all in that window would look like a broken app rather than a
     /// missing endpoint.
-    @Test("an API without the manifest endpoint still syncs")
-    func fallsBackWithoutManifest() async throws {
+    ///
+    /// Both statuses are covered because the one that actually happens is 403,
+    /// not 404: without the route, `/api/state/:key` matches the path with
+    /// `key = "manifest"`, which no student may read. Handling only 404 left
+    /// the app unable to sync anything at all against the live server.
+    @Test("an API without the manifest endpoint still syncs", arguments: [404, 403])
+    func fallsBackWithoutManifest(status: Int) async throws {
         StubProtocol.reset()
         defer { StubProtocol.reset() }
 
@@ -227,7 +232,7 @@ struct SyncEngineTests {
         StubProtocol.handler = { request in
             let path = request.url?.path ?? ""
             if path.hasSuffix("/state/manifest") {
-                return .init(status: 404, body: Data("{\"error\":\"not found\"}".utf8))
+                return .init(status: status, body: Data("{\"error\":\"refused\"}".utf8))
             }
             return .init(body: body)
         }
@@ -240,6 +245,37 @@ struct SyncEngineTests {
         if case .failed(let message) = engine.status {
             Issue.record("a missing manifest endpoint must not fail the sync: \(message)")
         }
+    }
+
+    /// A catalogue key contains hyphens and dots. Percent-encoding it before
+    /// handing it to `appendingPathComponent` escaped the `%` a second time, so
+    /// `synapse-admin-content-ledger-v4` reached the server as
+    /// `synapse%252Dadmin…`, missed the readable set, and was refused. Every
+    /// catalogue 403'd, and the app synced nothing.
+    @Test("a catalogue key reaches the server unmangled")
+    func keysAreNotDoubleEncoded() async throws {
+        StubProtocol.reset()
+        defer { StubProtocol.reset() }
+
+        let body = ledgerBody
+        StubProtocol.handler = { request in
+            let path = request.url?.path ?? ""
+            if path.hasSuffix("/state/manifest") {
+                return .init(status: 403, body: Data("{}".utf8))
+            }
+            return .init(body: body)
+        }
+
+        let store = try LocalStore(path: nil)
+        let engine = SyncEngine(api: makeAPI(), store: store)
+        await engine.refresh()
+
+        let requested = StubProtocol.requestedPaths()
+        #expect(
+            requested.contains { $0.hasSuffix("/state/synapse-admin-content-ledger-v4") },
+            "the ledger key must arrive literally; got \(requested.filter { $0.contains("ledger") })"
+        )
+        #expect(!requested.contains { $0.contains("%") }, "no path component should be percent-escaped")
     }
 
     @Test("a network failure keeps the cache readable and reports itself")

@@ -95,11 +95,21 @@ final class SyncEngine {
         let serverVersions: [String: Date?]
         do {
             serverVersions = try await api.stateManifest()
-        } catch APIError.notFound {
+        } catch APIError.notFound, APIError.forbidden {
             // An API deployed before the manifest endpoint. Fall back to the
             // only behaviour available to it — fetch every catalogue — rather
             // than refusing to sync at all. Every key then reads as "not
             // mentioned" below, which is exactly that fallback.
+            //
+            // Both statuses mean the same thing here, and 403 is the one that
+            // actually happens: without the route, `/api/state/:key` matches
+            // the path with `key = "manifest"`, which is not in the readable
+            // set, so a student is refused rather than 404'd. Treating only
+            // 404 as "old server" left the app unable to sync at all against a
+            // server that had simply not been redeployed.
+            //
+            // Safe to treat as absent: a student is never entitled to read a
+            // document called `manifest`, so this cannot mask a real refusal.
             serverVersions = [:]
         }
 
