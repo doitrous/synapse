@@ -40,6 +40,7 @@ enum Theme {
 
     static let accent = adaptive(light: 0xB0512B, dark: 0xD9825A)
     static let accentStrong = adaptive(light: 0x8C3D1D, dark: 0xEDA07C)
+    static let accentSoft = adaptive(light: 0xCD7D55, dark: 0xA85F3D)
     static let accentTint = adaptive(light: 0xF4E5D9, dark: 0x3B2418)
     static let accentLine = adaptive(light: 0xE6C6B1, dark: 0x55341F)
     /// Text and icons drawn *on* an accent fill.

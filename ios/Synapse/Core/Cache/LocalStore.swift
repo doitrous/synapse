@@ -158,6 +158,13 @@ actor LocalStore {
         }
     }
 
+    /// Every month with recorded attempts, oldest first.
+    func allAttemptMonths() throws -> [String] {
+        try dbQueue.read { db in
+            try String.fetchAll(db, sql: "SELECT DISTINCT month FROM attempt ORDER BY month")
+        }
+    }
+
     /// Months that have attempts not yet written up.
     func monthsWithPendingAttempts() throws -> [String] {
         try dbQueue.read { db in

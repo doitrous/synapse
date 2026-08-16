@@ -31,8 +31,17 @@ struct SignedInView: View {
         .task { await start() }
     }
 
+    /// Five tabs, deliberately.
+    ///
+    /// A sixth makes iOS fold one away into "More", and the one it folds is the
+    /// last — so a study surface would disappear behind a menu. Account is
+    /// reached from the Today screen instead: it is opened once a term, not
+    /// once a session.
     private func tabs(_ container: Container) -> some View {
         TabView {
+            Tab("Today", systemImage: "sun.max") {
+                DashboardView(store: container.store, sync: container.sync, user: user, auth: auth)
+            }
             Tab("Library", systemImage: "books.vertical") {
                 LibraryView(
                     store: container.store, sync: container.sync,
@@ -51,8 +60,8 @@ struct SignedInView: View {
                     universityId: nil, yearId: nil
                 )
             }
-            Tab("Account", systemImage: "person") {
-                AccountView(user: user, auth: auth, sync: container.sync)
+            Tab("Progress", systemImage: "chart.bar") {
+                PerformanceView(store: container.store, sync: container.sync)
             }
         }
         .tint(Theme.accent)
