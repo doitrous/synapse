@@ -4,6 +4,7 @@ import { basename, dirname, join, resolve, sep } from 'node:path'
 import { existsSync } from 'node:fs'
 import { readFile, rm, unlink } from 'node:fs/promises'
 import express from 'express'
+import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
@@ -46,6 +47,20 @@ function invalidateSnapshots(key) {
   invalidateStudyRoomSnapshot(key)
 }
 const app = express()
+/**
+ * Compress responses.
+ *
+ * The catalogue documents are the reason this is here. `app_state` holds whole
+ * JSON trees — the content ledger, a taxonomy of some 1,800 nodes, a concept
+ * graph of similar size — and every read returns one entire document, because
+ * there is no per-item route to ask for less. Uncompressed that is megabytes
+ * over a phone connection for a student opening the library on a ward.
+ *
+ * JSON of this shape compresses by roughly an order of magnitude, so this is
+ * the cheapest bandwidth win available and it costs the API almost nothing.
+ * Placed before every route so it covers the SPA assets too.
+ */
+app.use(compression())
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
 app.use(express.json({
   limit: '25mb',
@@ -368,6 +383,61 @@ app.post('/api/study-rooms/:id/finish', requireAuthenticated, wrap(async (req, r
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */
 
+/* ── Push notification devices ───────────────────────────────────────────── */
+
+/**
+ * A device token is opaque to us, so the only thing worth checking is that it
+ * looks like one rather than like a mistake. APNs issues hex, but pinning the
+ * exact length would mean a future token format silently failing to register,
+ * which is a hard problem to notice — nobody reports the notification they
+ * never received.
+ */
+function normaliseDeviceToken(value) {
+  const token = typeof value === 'string' ? value.trim() : ''
+  if (token.length < 32 || token.length > 255) return null
+  return /^[A-Za-z0-9]+$/.test(token) ? token : null
+}
+
+/**
+ * Register this device for push, or move it to the current user.
+ *
+ * Upserting on the token is deliberate: see the note on `device_tokens` in
+ * schema.sql. Whoever signed in most recently on a device is who that device
+ * belongs to, so a shared or resold phone stops receiving the previous
+ * student's reminders.
+ */
+app.post('/api/devices', requireAuthenticated, wrap(async (req, res) => {
+  const token = normaliseDeviceToken(req.body?.token)
+  if (!token) return res.status(400).json({ error: 'invalid device token' })
+  const environment = req.body?.environment === 'sandbox' ? 'sandbox' : 'production'
+  const locale = typeof req.body?.locale === 'string' ? req.body.locale.slice(0, 16) : null
+  const appVersion = typeof req.body?.appVersion === 'string' ? req.body.appVersion.slice(0, 32) : null
+  await pool.query(
+    `INSERT INTO device_tokens (token, user_id, platform, environment, locale, app_version)
+     VALUES (?, ?, 'ios', ?, ?, ?)
+     ON DUPLICATE KEY UPDATE
+       user_id = VALUES(user_id), environment = VALUES(environment),
+       locale = VALUES(locale), app_version = VALUES(app_version),
+       last_seen_at = CURRENT_TIMESTAMP`,
+    [token, req.identity.id, environment, locale, appVersion],
+  )
+  res.json({ ok: true })
+}))
+
+/**
+ * Stop sending to this device — sign-out, or the student turning reminders off.
+ *
+ * Scoped to the caller's own rows. Tokens are not secret (the device hands
+ * ours to us and Apple's to everyone), so without the `user_id` filter anyone
+ * holding a token could silence someone else's notifications.
+ */
+app.delete('/api/devices/:token', requireAuthenticated, wrap(async (req, res) => {
+  const token = normaliseDeviceToken(req.params.token)
+  if (!token) return res.status(400).json({ error: 'invalid device token' })
+  await pool.query('DELETE FROM device_tokens WHERE token = ? AND user_id = ?', [token, req.identity.id])
+  res.json({ ok: true })
+}))
+
 // Shared catalogue documents that students need in order to use the learning
 // product. All other shared documents (reports, imports, email logs, settings)
 // remain admin-only even when a key is guessed.
@@ -388,6 +458,37 @@ const STUDENT_READABLE_STATE = new Set([
   'synapse-vouchers-v1',
   'synapse-system-colors-v1',
 ])
+
+/**
+ * When each catalogue document last changed.
+ *
+ * A phone cannot ask whether a document is stale without downloading all of it:
+ * reads return the whole value, and there is no `HEAD` and no `If-None-Match`.
+ * So an offline-first client had the choice of refetching every catalogue on
+ * every launch or showing content it could not prove was current. This answers
+ * the question directly — timestamps only, a few hundred bytes — and the client
+ * fetches just the documents whose timestamp moved.
+ *
+ * A key that has never been written is reported as `null` rather than omitted,
+ * so a client can tell "nothing stored yet" from "key not in the contract" and
+ * stop asking for it.
+ *
+ * Registered before `/api/state/:key`, which would otherwise match this path
+ * with `key = 'manifest'`. If that ordering is ever broken the request fails
+ * closed — `manifest` is not in the readable set, so it would 403 rather than
+ * disclose anything.
+ */
+app.get('/api/state/manifest', requireAuthenticated, wrap(async (_req, res) => {
+  const keys = [...STUDENT_READABLE_STATE]
+  const [rows] = await pool.query(
+    `SELECT k, updated_at AS updatedAt FROM app_state WHERE k IN (${keys.map(() => '?').join(',')})`,
+    keys,
+  )
+  const stored = new Map(rows.map((row) => [row.k, row.updatedAt]))
+  const out = {}
+  for (const key of keys) out[key] = stored.get(key) ?? null
+  res.json({ keys: out })
+}))
 
 // Bulk hydrate on app boot.
 app.get('/api/state', requireAdmin, wrap(async (_req, res) => {
