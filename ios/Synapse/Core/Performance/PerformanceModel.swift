@@ -60,9 +60,12 @@ final class PerformanceModel {
 
     /// Below this, an accuracy figure is noise dressed as a measurement.
     /// The web app holds the same floor.
-    static let minimumMarked = 20
+    ///
+    /// `nonisolated` because `summarise` is pure and runs off the main actor;
+    /// a main-actor constant would drag the arithmetic back onto it.
+    nonisolated static let minimumMarked = 20
     /// Per topic, the same idea at a smaller scale.
-    static let minimumPerTopic = 3
+    nonisolated static let minimumPerTopic = 3
 
     private(set) var summary = PerformanceSummary()
     private(set) var isLoading = true

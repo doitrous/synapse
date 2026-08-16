@@ -126,7 +126,7 @@ struct SyncEngineTests {
         await engine.refresh()
 
         #expect(try await store.itemCount() == 1)
-        let items = try await store.items(kind: .article, universityId: nil, yearId: nil)
+        let items = try await store.items(kind: .article, audience: .unknown)
         #expect(items.first?.title == "Aortic stenosis")
 
         // Only the one catalogue that has anything in it should have been

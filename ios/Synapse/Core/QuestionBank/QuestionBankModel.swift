@@ -44,14 +44,12 @@ final class QuestionBankModel {
     private let sync: SyncEngine
     private var questionStartedAt = Date()
     private let sessionId = UUID().uuidString
-    var universityId: String?
-    var yearId: String?
+    var audience: StudentAudience
 
-    init(store: LocalStore, sync: SyncEngine, universityId: String? = nil, yearId: String? = nil) {
+    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience = .unknown) {
         self.store = store
         self.sync = sync
-        self.universityId = universityId
-        self.yearId = yearId
+        self.audience = audience
     }
 
     var current: Question? { session.indices.contains(index) ? session[index] : nil }
@@ -63,7 +61,7 @@ final class QuestionBankModel {
         defer { isLoading = false }
 
         do {
-            let items = try await store.items(kind: .question, universityId: universityId, yearId: yearId)
+            let items = try await store.items(kind: .question, audience: audience)
             available = items.compactMap(QuestionProjection.project)
             emptyReason = available.isEmpty ? await describeEmptiness(published: items.count) : nil
         } catch {

@@ -5,9 +5,9 @@ struct QuestionBankView: View {
     @State private var model: QuestionBankModel
     let sync: SyncEngine
 
-    init(store: LocalStore, sync: SyncEngine, universityId: String?, yearId: String?) {
+    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience) {
         _model = State(wrappedValue: QuestionBankModel(
-            store: store, sync: sync, universityId: universityId, yearId: yearId
+            store: store, sync: sync, audience: audience
         ))
         self.sync = sync
     }

@@ -47,6 +47,10 @@ struct Article: Equatable, Identifiable, Sendable {
     /// "Where people lose the mark".
     let traps: [String]
     let relatedArticles: [RelatedArticle]
+    /// Where this sits in the medical taxonomy — its primary placement first,
+    /// then any secondary ones. Carried on the article so the atlas can be
+    /// built without parsing every record a second time.
+    let taxonomyNodeIds: [String]
     /// Published questions that name this article.
     var linkedQuestionIds: [String]
 }

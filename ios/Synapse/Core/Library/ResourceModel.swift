@@ -66,14 +66,12 @@ final class ResourceModel {
 
     private let store: LocalStore
     private let sync: SyncEngine
-    var universityId: String?
-    var yearId: String?
+    var audience: StudentAudience
 
-    init(store: LocalStore, sync: SyncEngine, universityId: String? = nil, yearId: String? = nil) {
+    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience = .unknown) {
         self.store = store
         self.sync = sync
-        self.universityId = universityId
-        self.yearId = yearId
+        self.audience = audience
     }
 
     func load() async {
@@ -81,7 +79,7 @@ final class ResourceModel {
         defer { isLoading = false }
 
         do {
-            let items = try await store.items(kind: .resource, universityId: universityId, yearId: yearId)
+            let items = try await store.items(kind: .resource, audience: audience)
             let resources = items.compactMap(Self.project)
             folders = Self.group(resources)
             emptyReason = folders.isEmpty ? await describeEmptiness() : nil

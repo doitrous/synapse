@@ -12,18 +12,22 @@ struct DashboardView: View {
     let library: LocalStore
     let user: SessionUser
     let auth: AuthModel
+    let audienceStore: AudienceStore
 
     @State private var articleCount = 0
     @State private var questionCount = 0
     @State private var showingAccount = false
 
-    init(store: LocalStore, sync: SyncEngine, user: SessionUser, auth: AuthModel) {
+    init(store: LocalStore, sync: SyncEngine, user: SessionUser, auth: AuthModel, audienceStore: AudienceStore) {
         _model = State(wrappedValue: PerformanceModel(store: store))
         self.sync = sync
         self.library = store
         self.user = user
         self.auth = auth
+        self.audienceStore = audienceStore
     }
+
+    private var audience: StudentAudience { audienceStore.audience }
 
     var body: some View {
         NavigationStack {
@@ -54,7 +58,7 @@ struct DashboardView: View {
                 }
             }
             .sheet(isPresented: $showingAccount) {
-                AccountView(user: user, auth: auth, sync: sync)
+                AccountView(user: user, auth: auth, sync: sync, audienceStore: audienceStore)
             }
         }
         .task { await refresh() }
@@ -74,8 +78,8 @@ struct DashboardView: View {
     /// they cannot reach is worse than telling them nothing.
     private func refresh() async {
         await model.load()
-        articleCount = (try? await library.items(kind: .article, universityId: nil, yearId: nil).count) ?? 0
-        questionCount = (try? await library.items(kind: .question, universityId: nil, yearId: nil).count) ?? 0
+        articleCount = (try? await library.items(kind: .article, audience: audience).count) ?? 0
+        questionCount = (try? await library.items(kind: .question, audience: audience).count) ?? 0
     }
 
     /// Nothing answered yet. Say what to do, not how well it went.

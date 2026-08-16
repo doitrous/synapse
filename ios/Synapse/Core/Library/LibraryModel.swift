@@ -32,13 +32,11 @@ final class LibraryModel {
     private let store: LocalStore
     /// The student's cohort, which decides what is in scope. Nil until the
     /// audience is known, which means "show everything unrestricted".
-    var universityId: String?
-    var yearId: String?
+    var audience: StudentAudience
 
-    init(store: LocalStore, universityId: String? = nil, yearId: String? = nil) {
+    init(store: LocalStore, audience: StudentAudience = .unknown) {
         self.store = store
-        self.universityId = universityId
-        self.yearId = yearId
+        self.audience = audience
     }
 
     func load() async {
@@ -46,7 +44,7 @@ final class LibraryModel {
         defer { isLoading = false }
 
         do {
-            let items = try await store.items(kind: .article, universityId: universityId, yearId: yearId)
+            let items = try await store.items(kind: .article, audience: audience)
             let evidence = EvidenceStore.decode(try await decodedCatalogue(SyncEngine.evidenceKey))
             let concepts = ConceptIndex.decode(try await decodedCatalogue(SyncEngine.conceptGraphKey))
 
@@ -74,16 +72,14 @@ final class LibraryModel {
             // secondary placements both count: an article on the cardiovascular
             // system may also belong under pharmacology, and a student browsing
             // by discipline should find it there.
+            //
+            // Read from the placements the projection already parsed, rather
+            // than deserialising all 162 records a second time. Parsing a 5 MB
+            // catalogue twice per load is the kind of cost that only shows up
+            // on an old phone, which is most of them.
             var placements: [String: [String]] = [:]
-            for item in items {
-                guard
-                    let record = try? JSONSerialization.jsonObject(with: item.raw) as? [String: Any],
-                    let data = record["articleData"] as? [String: Any]
-                else { continue }
-                let primary = (data["primaryNodeId"] as? String).map { [$0] } ?? []
-                let secondary = data["secondaryNodeIds"] as? [String] ?? []
-                let all = primary + secondary
-                if !all.isEmpty { placements[item.id] = all }
+            for article in articles where !article.taxonomyNodeIds.isEmpty {
+                placements[article.id] = article.taxonomyNodeIds
             }
 
             atlas = LibraryAtlas.build(
@@ -125,7 +121,7 @@ final class LibraryModel {
 
     /// Which published questions name each article.
     private func questionsByArticle() async throws -> [String: [String]] {
-        let questions = try await store.items(kind: .question, universityId: universityId, yearId: yearId)
+        let questions = try await store.items(kind: .question, audience: audience)
         var byArticle: [String: [String]] = [:]
 
         for question in questions {

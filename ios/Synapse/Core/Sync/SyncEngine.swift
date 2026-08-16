@@ -44,6 +44,12 @@ final class SyncEngine {
     /// The medical library taxonomy — the systems, disciplines, skills and
     /// knowledge branches a student browses by.
     static let medicalTaxonomyKey = "synapse-medical-library-taxonomy-v1"
+    /// Universities and their years, for resolving a student's cohort.
+    static let universitiesKey = "synapse-academic-universities-v1"
+    /// The published timetable, per university/year/course.
+    static let moduleSchedulesKey = "synapse-module-schedules-v1"
+    /// The bilingual AR⇄EN glossary behind the taxonomy surface.
+    static let glossaryKey = "synapse-medical-glossary-v1"
     /// Per-system colours, admin-editable. Fetched rather than hardcoded, so a
     /// new system in the admin console does not need an app release.
     static let systemColorsKey = "synapse-system-colors-v1"

@@ -255,7 +255,7 @@ actor LocalStore {
     }
 
     /// Items of a kind that this student may actually see.
-    func items(kind: ContentKind, universityId: String?, yearId: String?) throws -> [LedgerItem] {
+    func items(kind: ContentKind, audience: StudentAudience) throws -> [LedgerItem] {
         try dbQueue.read { db in
             let rows = try Row.fetchAll(
                 db,
@@ -263,12 +263,12 @@ actor LocalStore {
                 arguments: [kind.rawValue, ContentStatus.published.rawValue]
             )
             return rows.compactMap(Self.item(from:))
-                .filter { $0.inScope(universityId: universityId, yearId: yearId) }
+                .filter { $0.inScope(audience) }
         }
     }
 
     /// Full-text search, restricted to what this student may see.
-    func search(_ query: String, kind: ContentKind?, universityId: String?, yearId: String?, limit: Int = 50) throws -> [LedgerItem] {
+    func search(_ query: String, kind: ContentKind?, audience: StudentAudience, limit: Int = 50) throws -> [LedgerItem] {
         let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return [] }
 
@@ -296,7 +296,7 @@ actor LocalStore {
 
             let rows = try Row.fetchAll(db, sql: sql, arguments: StatementArguments(arguments))
             return rows.compactMap(Self.item(from:))
-                .filter { $0.inScope(universityId: universityId, yearId: yearId) }
+                .filter { $0.inScope(audience) }
         }
     }
 

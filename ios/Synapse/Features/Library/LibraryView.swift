@@ -18,8 +18,8 @@ struct LibraryView: View {
         case browsing(LibraryViewKind)
     }
 
-    init(store: LocalStore, sync: SyncEngine, universityId: String?, yearId: String?) {
-        _model = State(wrappedValue: LibraryModel(store: store, universityId: universityId, yearId: yearId))
+    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience) {
+        _model = State(wrappedValue: LibraryModel(store: store, audience: audience))
         self.sync = sync
     }
 
@@ -195,8 +195,7 @@ private struct StudyChooser: View {
             return "\(total) article\(total == 1 ? "" : "s")"
         }
         guard let division = kind.division else { return "" }
-        let ids = model.atlas.roots(in: division).flatMap { model.atlas.articleIds(under: $0.id) }
-        let unique = Set(ids).count
+        let unique = model.atlas.divisionCount(division)
         return unique == 0 ? "Nothing placed here yet" : "\(unique) article\(unique == 1 ? "" : "s")"
     }
 }
@@ -286,7 +285,7 @@ private struct BranchRow: View {
     let node: TaxonomyNode
 
     var body: some View {
-        let count = model.atlas.articleIds(under: node.id).count
+        let count = model.atlas.articleCount(under: node.id)
         return VStack(alignment: .leading, spacing: 3) {
             Text(node.title)
                 .font(Theme.ui(16, weight: 500))

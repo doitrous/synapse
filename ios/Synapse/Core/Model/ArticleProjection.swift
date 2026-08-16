@@ -106,6 +106,8 @@ enum ArticleProjection {
                 selfId: item.id,
                 reasons: data?["fieldNotes"] as? [String: String]
             ),
+            taxonomyNodeIds: ((data?["primaryNodeId"] as? String).map { [$0] } ?? [])
+                + (data?["secondaryNodeIds"] as? [String] ?? []),
             linkedQuestionIds: []
         )
     }

@@ -59,20 +59,15 @@ extension LedgerItem {
     /// study material.
     var isStudentVisible: Bool { status == .published }
 
-    /// Whether this item applies to a given university and year.
+    /// Whether this item is meant for a given cohort.
     ///
-    /// Ported from `itemInScope` in `src/data/contentControl.ts`. The rule that
-    /// matters is "empty means unrestricted": an item with no universities
-    /// listed applies to everyone, rather than to nobody. Inverting that would
-    /// silently empty the library for every student.
-    func inScope(universityId: String?, yearId: String?) -> Bool {
-        if let universityId, !universityIds.isEmpty, !universityIds.contains(universityId) {
-            return false
-        }
-        if let yearId, !yearIds.isEmpty, !yearIds.contains(yearId) {
-            return false
-        }
-        return true
+    /// Delegates to `ScopeMatch`, which compares what the tags *mean* rather
+    /// than how they are spelled — the authored data uses `kau_y3`, `KAU_Y3`
+    /// and `Year 3` for the same cohort, and a literal comparison would hide
+    /// most of the catalogue. "Empty means unrestricted" still holds: an item
+    /// with no universities listed applies to everyone rather than to nobody.
+    func inScope(_ audience: StudentAudience) -> Bool {
+        ScopeMatch.matches(universityIds: universityIds, yearIds: yearIds, audience: audience)
     }
 }
 

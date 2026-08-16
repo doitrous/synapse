@@ -53,6 +53,41 @@ private struct ValueBody<Value: Encodable>: Encodable {
     let value: Value
 }
 
+/// The caller's own profile and entitlement, from `/api/me`.
+///
+/// A missing roster row is a 200 with nulls rather than a 404 — "your
+/// university has not set up your profile yet" is a state to render, not a
+/// failed request — so every field here is optional on purpose.
+struct MeResponse: Decodable, Equatable {
+    let user: SessionUser
+    let profile: Profile?
+    let entitlement: Entitlement?
+
+    struct Profile: Decodable, Equatable {
+        let name: String?
+        let universityId: String?
+        let year: String?
+        let group: String?
+        let status: String?
+    }
+
+    struct Entitlement: Decodable, Equatable {
+        let state: String
+        let plan: String?
+        let expiresAt: String?
+        let daysLeft: Int?
+    }
+
+    /// The cohort this account belongs to, as far as the roster knows.
+    var audience: StudentAudience {
+        StudentAudience(
+            universityId: profile?.universityId ?? "",
+            year: profile?.year ?? "",
+            group: profile?.group ?? ""
+        )
+    }
+}
+
 /// The signed-in student, as the server sees them.
 struct SessionUser: Decodable, Equatable {
     let id: String
@@ -104,8 +139,8 @@ struct SynapseAPI {
         return try await get(Envelope.self, ["session"]).user
     }
 
-    func me() async throws -> SessionUser {
-        try await get(SessionUser.self, ["me"])
+    func me() async throws -> MeResponse {
+        try await get(MeResponse.self, ["me"])
     }
 
     /// When each student-readable catalogue document last changed.

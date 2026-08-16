@@ -81,10 +81,10 @@ struct LocalStoreTests {
         let sample = sampleItems()
         try await store.replaceItems(sample.items, searchTexts: sample.searchTexts)
 
-        let forOms = try await store.items(kind: .article, universityId: "OMS", yearId: "OMS_Y3")
+        let forOms = try await store.items(kind: .article, audience: StudentAudience(universityId: "OMS", year: "Year 3"))
         #expect(forOms.map(\.id).sorted() == ["A1", "A2"], "the draft must not appear")
 
-        let forOther = try await store.items(kind: .article, universityId: "ASU", yearId: "ASU_Y3")
+        let forOther = try await store.items(kind: .article, audience: StudentAudience(universityId: "ASU", year: "Year 3"))
         #expect(forOther.map(\.id) == ["A1"], "a cohort-scoped article must not leak to another cohort")
     }
 
@@ -97,7 +97,7 @@ struct LocalStoreTests {
             let sample = LocalStoreTests().sampleItems()
             try await store.replaceItems(sample.items, searchTexts: sample.searchTexts)
 
-            let hits = try await store.search("stenosis", kind: nil, universityId: nil, yearId: nil)
+            let hits = try await store.search("stenosis", kind: nil, audience: .unknown)
             #expect(hits.map(\.id) == ["A1"])
         }
 
@@ -108,7 +108,7 @@ struct LocalStoreTests {
             let sample = LocalStoreTests().sampleItems()
             try await store.replaceItems(sample.items, searchTexts: sample.searchTexts)
 
-            let hits = try await store.search("myocard", kind: nil, universityId: nil, yearId: nil)
+            let hits = try await store.search("myocard", kind: nil, audience: .unknown)
             #expect(hits.map(\.id) == ["A2"])
         }
 
@@ -118,7 +118,7 @@ struct LocalStoreTests {
             let sample = LocalStoreTests().sampleItems()
             try await store.replaceItems(sample.items, searchTexts: sample.searchTexts)
 
-            let hits = try await store.search("crushing", kind: nil, universityId: nil, yearId: nil)
+            let hits = try await store.search("crushing", kind: nil, audience: .unknown)
             #expect(hits.map(\.id) == ["Q1"])
         }
 
@@ -128,7 +128,7 @@ struct LocalStoreTests {
             let sample = LocalStoreTests().sampleItems()
             try await store.replaceItems(sample.items, searchTexts: sample.searchTexts)
 
-            let hits = try await store.search("Unpublished", kind: nil, universityId: nil, yearId: nil)
+            let hits = try await store.search("Unpublished", kind: nil, audience: .unknown)
             #expect(hits.isEmpty)
         }
 
@@ -140,9 +140,9 @@ struct LocalStoreTests {
             let sample = LocalStoreTests().sampleItems()
             try await store.replaceItems(sample.items, searchTexts: sample.searchTexts)
 
-            #expect(try await store.search("\"quoted\"", kind: nil, universityId: nil, yearId: nil).isEmpty)
-            #expect(try await store.search("   ", kind: nil, universityId: nil, yearId: nil).isEmpty)
-            let hits = try await store.search("aortic stenosis", kind: nil, universityId: nil, yearId: nil)
+            #expect(try await store.search("\"quoted\"", kind: nil, audience: .unknown).isEmpty)
+            #expect(try await store.search("   ", kind: nil, audience: .unknown).isEmpty)
+            let hits = try await store.search("aortic stenosis", kind: nil, audience: .unknown)
             #expect(hits.map(\.id) == ["A1"])
         }
     }

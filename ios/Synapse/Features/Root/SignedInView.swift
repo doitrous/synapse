@@ -38,33 +38,36 @@ struct SignedInView: View {
     /// reached from the Today screen instead: it is opened once a term, not
     /// once a session.
     private func tabs(_ container: Container) -> some View {
-        TabView {
+        let audience = container.audienceStore.audience
+
+        return TabView {
             Tab("Today", systemImage: "sun.max") {
-                DashboardView(store: container.store, sync: container.sync, user: user, auth: auth)
+                DashboardView(
+                    store: container.store, sync: container.sync,
+                    user: user, auth: auth, audienceStore: container.audienceStore
+                )
             }
             Tab("Library", systemImage: "books.vertical") {
-                LibraryView(
-                    store: container.store, sync: container.sync,
-                    universityId: nil, yearId: nil
-                )
+                LibraryView(store: container.store, sync: container.sync, audience: audience)
             }
             Tab("Questions", systemImage: "questionmark.circle") {
-                QuestionBankView(
-                    store: container.store, sync: container.sync,
-                    universityId: nil, yearId: nil
-                )
+                QuestionBankView(store: container.store, sync: container.sync, audience: audience)
             }
             Tab("Resources", systemImage: "folder") {
-                ResourcesView(
-                    store: container.store, sync: container.sync,
-                    universityId: nil, yearId: nil
-                )
+                ResourcesView(store: container.store, sync: container.sync, audience: audience)
             }
-            Tab("Progress", systemImage: "chart.bar") {
-                PerformanceView(store: container.store, sync: container.sync)
+            Tab("More", systemImage: "square.grid.2x2") {
+                MoreView(
+                    store: container.store, sync: container.sync,
+                    audience: audience, audienceStore: container.audienceStore,
+                    api: auth.api
+                )
             }
         }
         .tint(Theme.accent)
+        // Rebuild the surfaces when the cohort resolves, so a student who set
+        // their year a moment ago is not still looking at everyone's content.
+        .id(audience)
     }
 
     private func start() async {
@@ -72,8 +75,13 @@ struct SignedInView: View {
         do {
             let store = try LocalStore(path: LocalStore.defaultURL().path)
             let sync = SyncEngine(api: auth.api, store: store)
-            container = Container(store: store, sync: sync)
+            let audienceStore = AudienceStore(api: auth.api, store: store, sync: sync)
+            container = Container(store: store, sync: sync, audienceStore: audienceStore)
+
             await sync.refresh()
+            // After the sync: resolving the cohort needs the universities
+            // catalogue, which the sync is what fetches.
+            await audienceStore.load()
         } catch {
             // The cache could not be opened — a full disk, or a file the app
             // cannot write. Say so rather than showing an empty library, which
@@ -85,6 +93,7 @@ struct SignedInView: View {
     private struct Container {
         let store: LocalStore
         let sync: SyncEngine
+        let audienceStore: AudienceStore
     }
 }
 
@@ -93,6 +102,10 @@ struct AccountView: View {
     let user: SessionUser
     let auth: AuthModel
     let sync: SyncEngine
+    let audienceStore: AudienceStore
+
+    @State private var university = ""
+    @State private var year = ""
 
     var body: some View {
         NavigationStack {
@@ -102,6 +115,8 @@ struct AccountView: View {
                     row("Role", user.role)
                 }
                 .listRowBackground(Theme.surface)
+
+                cohort
 
                 Section("Sync") {
                     row("Status", statusText)
@@ -133,6 +148,72 @@ struct AccountView: View {
             .background(Theme.paper)
             .navigationTitle("Account")
         }
+    }
+
+    /// Where a student says which cohort they are in.
+    ///
+    /// The roster wins when it has a row, and then this is read-only — a
+    /// student overriding their own university would quietly change what they
+    /// are shown and what their results are compared against. When the roster
+    /// has nothing, saying so themselves is the only way the year-scoped
+    /// content can reach them at all.
+    @ViewBuilder
+    private var cohort: some View {
+        Section {
+            if audienceStore.fromRoster {
+                row("University", universityName)
+                row("Year", audienceStore.audience.year)
+            } else if audienceStore.universities.isEmpty {
+                Text("The university list has not downloaded yet.")
+                    .font(Theme.ui(13))
+                    .foregroundStyle(Theme.ink3)
+            } else {
+                Picker("University", selection: $university) {
+                    Text("Not set").tag("")
+                    ForEach(audienceStore.universities) { Text($0.name).tag($0.id) }
+                }
+                Picker("Year", selection: $year) {
+                    Text("Not set").tag("")
+                    ForEach(years, id: \.self) { Text($0).tag($0) }
+                }
+                Button("Save") {
+                    Task {
+                        await audienceStore.declare(
+                            StudentAudience(universityId: university, year: year)
+                        )
+                    }
+                }
+                .tint(Theme.accent)
+                .disabled(university.isEmpty || year.isEmpty)
+            }
+        } header: {
+            Text("Your cohort")
+        } footer: {
+            Text(audienceStore.fromRoster
+                 ? "Set by your university."
+                 : "Your university has not set up your profile, so you can say which year you are in. It decides which content is meant for you.")
+                .font(Theme.ui(12))
+                .foregroundStyle(Theme.ink3)
+        }
+        .listRowBackground(Theme.surface)
+        .onAppear {
+            university = audienceStore.audience.universityId
+            year = audienceStore.audience.year
+        }
+    }
+
+    private var universityName: String {
+        audienceStore.universities.first { $0.id == audienceStore.audience.universityId }?.name
+            ?? audienceStore.audience.universityId
+    }
+
+    /// The years the chosen university actually runs, falling back to a sane
+    /// list when the catalogue does not name them.
+    private var years: [String] {
+        let listed = audienceStore.universities.first { $0.id == university }?.years ?? []
+        return listed.isEmpty
+            ? ["Year 1", "Year 2", "Year 3", "Year 4", "Year 5", "Internship 1"]
+            : listed
     }
 
     private var statusText: String {

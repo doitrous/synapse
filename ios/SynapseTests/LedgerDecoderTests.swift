@@ -99,34 +99,21 @@ struct LedgerDecoderTests {
             #expect(!item(status: "Archived").isStudentVisible)
         }
 
-        /// The rule that decides whether the library has anything in it at all.
+        /// Scope itself is covered in AudienceTests, against the formats the
+        /// live catalogue actually uses. This only checks the decoder hands the
+        /// tags through.
+        @Test("scope tags survive decoding")
+        func scopeDecoded() {
+            let scoped = item(status: "Published", universities: ["OMS"], years: ["OMS_Y2"])
+            #expect(scoped.universityIds == ["OMS"])
+            #expect(scoped.yearIds == ["OMS_Y2"])
+        }
+
         @Test("an item with no scope recorded applies to everyone")
         func emptyScopeIsUnrestricted() {
             let unrestricted = item(status: "Published")
-            #expect(unrestricted.inScope(universityId: "OMS", yearId: "OMS_Y2"))
-            #expect(unrestricted.inScope(universityId: "ASU", yearId: "ASU_Y5"))
-        }
-
-        @Test("a scoped item is hidden from other cohorts")
-        func scopedItem() {
-            let scoped = item(status: "Published", universities: ["OMS"], years: ["OMS_Y2"])
-            #expect(scoped.inScope(universityId: "OMS", yearId: "OMS_Y2"))
-            #expect(!scoped.inScope(universityId: "ASU", yearId: "ASU_Y2"))
-            #expect(!scoped.inScope(universityId: "OMS", yearId: "OMS_Y4"))
-        }
-
-        @Test("a restriction on one axis does not imply one on the other")
-        func partialScope() {
-            let universityOnly = item(status: "Published", universities: ["OMS"])
-            #expect(universityOnly.inScope(universityId: "OMS", yearId: "OMS_Y1"))
-            #expect(universityOnly.inScope(universityId: "OMS", yearId: "OMS_Y5"))
-            #expect(!universityOnly.inScope(universityId: "ASU", yearId: "ASU_Y1"))
-        }
-
-        @Test("an unknown audience sees unrestricted content")
-        func unknownAudience() {
-            #expect(item(status: "Published").inScope(universityId: nil, yearId: nil))
-            #expect(!item(status: "Published", universities: ["OMS"]).inScope(universityId: "ASU", yearId: nil))
+            #expect(unrestricted.inScope(StudentAudience(universityId: "oms", year: "Year 2")))
+            #expect(unrestricted.inScope(.unknown))
         }
     }
 }

@@ -8,9 +8,9 @@ struct ResourcesView: View {
     @State private var query = ""
     @State private var savedOnly = false
 
-    init(store: LocalStore, sync: SyncEngine, universityId: String?, yearId: String?) {
+    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience) {
         _model = State(wrappedValue: ResourceModel(
-            store: store, sync: sync, universityId: universityId, yearId: yearId
+            store: store, sync: sync, audience: audience
         ))
         self.sync = sync
     }
