@@ -26,6 +26,28 @@ struct SignInView: View {
     @State private var password = ""
     @FocusState private var focus: Field?
 
+    /// Credentials passed in at launch, for driving the app in a simulator.
+    ///
+    /// Debug builds only, and read-only: it prefills the form, it does not sign
+    /// anyone in. Synthetic keystrokes into a simulator drop characters often
+    /// enough that typing a password by hand is not a reliable way to reach the
+    /// screens behind this one.
+    ///
+    ///     xcrun simctl launch <udid> com.synapse.app \
+    ///         -SynapseTestEmail you@example.com -SynapseTestPassword secret
+    private static var launchCredentials: (email: String, password: String)? {
+        #if DEBUG
+        let defaults = UserDefaults.standard
+        guard
+            let email = defaults.string(forKey: "SynapseTestEmail"),
+            let password = defaults.string(forKey: "SynapseTestPassword")
+        else { return nil }
+        return (email, password)
+        #else
+        return nil
+        #endif
+    }
+
     private enum Field { case email, password }
 
     var body: some View {
@@ -46,6 +68,12 @@ struct SignInView: View {
         }
         .background(Theme.paper)
         .scrollDismissesKeyboard(.interactively)
+        .onAppear {
+            if let credentials = Self.launchCredentials, email.isEmpty {
+                email = credentials.email
+                password = credentials.password
+            }
+        }
     }
 
     private var header: some View {
