@@ -114,7 +114,65 @@ actor LocalStore {
             }
         }
 
+        migrator.registerMigration("v2-attempts") { db in
+            // The student's own answers, kept locally first.
+            //
+            // The server holds these as one document per month, so recording an
+            // answer means read-modify-write of a shared document — which can
+            // fail, and must never be the only copy. Written here on answering
+            // and pushed afterwards, so a session survives being offline, the
+            // app being killed, and a failed upload.
+            try db.create(table: "attempt") { t in
+                t.primaryKey("id", .text)
+                t.column("month", .text).notNull().indexed()
+                t.column("record", .blob).notNull()
+                // Cleared once the month's document has been written up.
+                t.column("pending", .boolean).notNull().defaults(to: true)
+            }
+        }
+
         return migrator
+    }
+
+    // MARK: - Attempts
+
+    func saveAttempt(id: String, month: String, record: Data) throws {
+        try dbQueue.write { db in
+            try db.execute(
+                sql: """
+                    INSERT INTO attempt (id, month, record, pending) VALUES (?, ?, ?, 1)
+                    ON CONFLICT(id) DO UPDATE SET record = excluded.record, pending = 1
+                    """,
+                arguments: [id, month, record]
+            )
+        }
+    }
+
+    /// Every attempt recorded in a month, whether or not it has been pushed.
+    ///
+    /// The whole month is returned because the server document is replaced
+    /// wholesale — writing only the unpushed ones would drop the rest.
+    func attempts(month: String) throws -> [Data] {
+        try dbQueue.read { db in
+            try Data.fetchAll(db, sql: "SELECT record FROM attempt WHERE month = ? ORDER BY id", arguments: [month])
+        }
+    }
+
+    /// Months that have attempts not yet written up.
+    func monthsWithPendingAttempts() throws -> [String] {
+        try dbQueue.read { db in
+            try String.fetchAll(db, sql: "SELECT DISTINCT month FROM attempt WHERE pending = 1 ORDER BY month")
+        }
+    }
+
+    func markAttemptsPushed(month: String) throws {
+        try dbQueue.write { db in
+            try db.execute(sql: "UPDATE attempt SET pending = 0 WHERE month = ?", arguments: [month])
+        }
+    }
+
+    func attemptCount() throws -> Int {
+        try dbQueue.read { db in try Int.fetchOne(db, sql: "SELECT COUNT(*) FROM attempt") ?? 0 }
     }
 
     // MARK: - Catalogue documents
@@ -318,10 +376,11 @@ actor LocalStore {
     }
 
     /// Forget everything. Used on sign-out — the next student on this device
-    /// must not inherit the previous one's cache.
+    /// must not inherit the previous one's cache, and least of all their
+    /// answers.
     func clearAll() throws {
         try dbQueue.write { db in
-            for table in ["catalogue", "item", "outboxEntry"] {
+            for table in ["catalogue", "item", "outboxEntry", "attempt"] {
                 try db.execute(sql: "DELETE FROM \(table)")
             }
         }

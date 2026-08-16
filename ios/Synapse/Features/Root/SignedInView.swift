@@ -39,6 +39,12 @@ struct SignedInView: View {
                     universityId: nil, yearId: nil
                 )
             }
+            Tab("Questions", systemImage: "questionmark.circle") {
+                QuestionBankView(
+                    store: container.store, sync: container.sync,
+                    universityId: nil, yearId: nil
+                )
+            }
             Tab("Resources", systemImage: "folder") {
                 ResourcesView(
                     store: container.store, sync: container.sync,
