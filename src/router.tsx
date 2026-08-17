@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, type ComponentType, type ReactElement } from
 import { createBrowserRouter, Navigate } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
+import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RequireAuth } from '@/components/auth/RequireAuth'
 import { ADMIN_ORIGIN, STUDENT_ORIGIN, isAdminHost, isStudentHost, samePathOn } from '@/lib/portalHost'
 
@@ -19,8 +20,22 @@ function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: s
   return component
 }
 
+/**
+ * One screen, with both of the things a lazily-loaded screen needs.
+ *
+ * The boundary is outside the `Suspense`, because the thing it exists to catch
+ * is the import itself rejecting — which is what a tab left open across a
+ * deployment does the moment it opens a new screen. Inside, `Suspense` would
+ * never see the rejection and the route would render blank. `/login` had a
+ * message for this only because the router supplies one at the top level;
+ * everything under `/app` and `/admin` showed an empty page instead.
+ */
 function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}): ReactElement {
-  return <Suspense fallback={<RouteLoading />}><Page {...props} /></Suspense>
+  return (
+    <RouteBoundary>
+      <Suspense fallback={<RouteLoading />}><Page {...props} /></Suspense>
+    </RouteBoundary>
+  )
 }
 
 /**
