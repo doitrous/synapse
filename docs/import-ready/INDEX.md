@@ -64,7 +64,8 @@ module.
 Module names are the faculty's own labels — `104 CPS`, `PEDS` — not expansions of them.
 Guessing at what the letters stand for would put a title on a student's screen that nobody
 at the school wrote, and Academic Setup can rename any of them once the full titles are to
-hand. `314` and `319` arrived without a subject code at all and are recorded as they came.
+hand. `314` and `319` arrived without a subject code; their titles — Community Medicine and
+Forensic Medicine — were supplied by the faculty and are recorded under those codes.
 
 Module IDs in years 4 and 5 carry a year suffix (`SURG 4`, `SURG 5`) because those years
 repeat SURG, IM and FM between them and a module ID is unique across the whole university.

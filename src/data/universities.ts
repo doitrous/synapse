@@ -97,8 +97,8 @@ const KAU_MODULES: Record<string, [name: string, moduleId: string][]> = {
   'Year 3': [
     ['309 INF', '309 INF'],
     ['310 PAT', '310 PAT'],
-    ['314', '314'],
-    ['319', '319'],
+    ['Community Medicine', '314'],
+    ['Forensic Medicine', '319'],
     ['327 MPE', '327 MPE'],
     ['Clinical', 'CLIN 3'],
     ['Community Issues', 'COMM 3'],

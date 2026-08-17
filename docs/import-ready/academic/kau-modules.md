@@ -160,7 +160,7 @@ Year 3
 ## term
 Term 1
 ## module
-314
+Community Medicine
 ## module_id
 314
 
@@ -172,7 +172,7 @@ Year 3
 ## term
 Term 1
 ## module
-319
+Forensic Medicine
 ## module_id
 319
 
