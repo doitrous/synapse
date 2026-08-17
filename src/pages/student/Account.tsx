@@ -1,28 +1,28 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Download, KeyRound, LifeBuoy, LogOut, Palette, ShieldCheck, UserRound } from 'lucide-react'
+import { Check, Download, KeyRound, LifeBuoy, LogOut, Palette, ShieldCheck, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
-import { Field, Select } from '@/components/ui/Field'
+import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
 import { MfaControl } from '@/components/auth/MfaControl'
 import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { useIdentity } from '@/lib/useIdentity'
-import { useUniversityName } from '@/lib/useUniversityCatalogue'
+import { SELF_AUDIENCE_STORAGE_KEY, useIdentity, type SelfDeclaredAudience } from '@/lib/useIdentity'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+import { universities as seededUniversities, YEARS } from '@/data/universities'
 import { API_MODE, apiGet } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 
 /**
  * Preferences the student owns.
  *
- * Name, email, university and year are not here any more. They are recorded by
- * the university, they gate entitlement and content scope, and the old form let
- * a student type over them into a JSON blob that nothing read — the account
- * email stayed unchanged in Supabase, and voucher eligibility went on using a
- * hardcoded profile regardless.
+ * Name and email are not here: they are the sign-in identity, and a form that
+ * appeared to change them would change nothing in Supabase. University, year
+ * and group are here, and they are real — they write to the same user-owned
+ * document onboarding writes, which every scoping surface reads.
  */
 interface AccountPrefs {
   timezone: string
@@ -41,19 +41,138 @@ const ACCOUNT_PREFS_STORAGE_KEY = 'synapse.account.prefs.v1'
 const SUPPORT_ADDRESS = 'synapse@mail.doitrous.com'
 
 function ReadOnlyField({ label, value, hint }: { label: string; value: string | null; hint?: string }) {
+  const t = useT()
   return (
     <Field label={label} hint={hint}>
       <p className="flex min-h-11 items-center rounded-lg border border-line bg-surface-2/60 px-3 text-[13.5px] text-ink">
-        {value || <span className="text-ink-3">Not recorded</span>}
+        {value || <span className="text-ink-3">{t('Not recorded')}</span>}
       </p>
     </Field>
   )
 }
 
+/**
+ * What the university has on record, when it disagrees with the student.
+ *
+ * Shown rather than enforced. The student's own answer is what the app uses —
+ * see `useIdentity` — and saying so beside the field is the difference between
+ * an override and a value that silently went missing.
+ */
+function RosterNote({ recorded }: { recorded: string }) {
+  const t = useT()
+  return (
+    <p className="mt-1.5 text-[11.5px] leading-relaxed text-ink-3">
+      {t('Your university has you recorded as')} <span className="font-medium text-ink-2">{recorded}</span>.
+    </p>
+  )
+}
+
+/**
+ * Where the student studies, and editable by them.
+ *
+ * These three fields decide which timetable, which curriculum mapping and which
+ * scoped content applies, and this page previously showed all three as
+ * uneditable text — usually reading "Not recorded", because it read the roster
+ * row that most accounts do not have, while the sidebar two inches away read
+ * the merged value and said "KAU · Year 1". One source now, the one the rest of
+ * the app reads.
+ */
+function StudyContext() {
+  const t = useT()
+  const { audience, profile, displayName, email } = useIdentity()
+  const [configured] = useUniversityCatalogue()
+  const [, setSaved] = usePersistentState<SelfDeclaredAudience | null>(SELF_AUDIENCE_STORAGE_KEY, null)
+
+  const [universityId, setUniversityId] = useState(audience.universityId)
+  const [year, setYear] = useState(audience.year)
+  const [group, setGroup] = useState(audience.group)
+  const [justSaved, setJustSaved] = useState(false)
+
+  // The admin-configured catalogue is the real list; the seeded schools stand
+  // in when none has been set up yet, so this is never an empty dropdown.
+  const universities = configured.length ? configured : seededUniversities
+  const rosterUniversity = universities.find((item) => item.id === profile.universityId)
+
+  // A year an admin typed that is not in the standard list still has to be
+  // choosable, or saving would quietly move the student to a different one.
+  const years = [...new Set([...YEARS, audience.year, profile.year].filter((value): value is string => Boolean(value)))]
+
+  const dirty = universityId !== audience.universityId || year !== audience.year || group !== audience.group
+
+  function save(event: React.FormEvent) {
+    event.preventDefault()
+    setSaved({ universityId, year, group: group.trim() })
+    setJustSaved(true)
+  }
+
+  return (
+    <form className="grid gap-4 p-5 sm:grid-cols-2" onSubmit={save}>
+      <ReadOnlyField label={t('Full name')} value={profile.name ?? displayName} />
+      <ReadOnlyField label={t('Email address')} value={profile.email ?? email} />
+
+      <div>
+        <Field label={t('University')} htmlFor="account-university">
+          <Select
+            id="account-university"
+            value={universityId}
+            onChange={(event) => { setUniversityId(event.target.value); setJustSaved(false) }}
+          >
+            <option value="">{t('Choose your university')}</option>
+            {universities.map((university) => (
+              <option key={university.id} value={university.id}>{university.short} — {university.name}</option>
+            ))}
+          </Select>
+        </Field>
+        {rosterUniversity && rosterUniversity.id !== universityId && <RosterNote recorded={rosterUniversity.name} />}
+      </div>
+
+      <div>
+        <Field label={t('Year of study')} htmlFor="account-year">
+          <Select
+            id="account-year"
+            value={year}
+            onChange={(event) => { setYear(event.target.value); setJustSaved(false) }}
+          >
+            <option value="">{t('Choose your year')}</option>
+            {years.map((option) => <option key={option} value={option}>{t(option)}</option>)}
+          </Select>
+        </Field>
+        {profile.year && profile.year !== year && <RosterNote recorded={profile.year} />}
+      </div>
+
+      <div>
+        <Field label={t('Group')} htmlFor="account-group" hint={t('Used for targeted vouchers and notices')}>
+          <TextInput
+            id="account-group"
+            value={group}
+            maxLength={40}
+            placeholder={t('e.g. Group 4')}
+            onChange={(event) => { setGroup(event.target.value); setJustSaved(false) }}
+          />
+        </Field>
+        {profile.group && profile.group !== group && <RosterNote recorded={profile.group} />}
+      </div>
+
+      <div className="flex items-end gap-3">
+        <Button type="submit" variant="primary" disabled={!dirty} iconLeft={justSaved && !dirty ? Check : undefined}>
+          {justSaved && !dirty ? t('Saved') : t('Save study context')}
+        </Button>
+      </div>
+
+      <div className="sm:col-span-2">
+        <p className="rounded-lg border border-line bg-surface-2/50 px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
+          {t('Your university and year decide which timetable you see and which content is scoped to you. Change them here whenever they are wrong or out of date — your answer is the one the app uses.')}
+          {' '}
+          {t('Your name and email come from your sign-in and are changed with your account.')}
+        </p>
+      </div>
+    </form>
+  )
+}
+
 export function Account() {
   const t = useT()
-  const { email, displayName, profile, profileMissing } = useIdentity()
-  const universityName = useUniversityName(profile.universityId)
+  const { email } = useIdentity()
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
@@ -101,29 +220,19 @@ export function Account() {
         <div className="space-y-4">
           <Panel>
             <PanelHeader title={t('Profile and study context')} icon={UserRound} />
-            <div className="grid gap-4 p-5 sm:grid-cols-2">
-              <ReadOnlyField label={t('Full name')} value={profile.name ?? displayName} />
-              <ReadOnlyField label={t('Email address')} value={profile.email ?? email} />
-              {/* The catalogue name, not the `kau`-style key this is stored under. */}
-              <ReadOnlyField label={t('University')} value={universityName || profile.universityId} />
-              <ReadOnlyField label={t('Year of study')} value={profile.year} />
-              <ReadOnlyField label={t('Group')} value={profile.group} hint={t('Used for targeted vouchers and notices')} />
-              <Field label={t('Timezone')} hint={t('Used for calendar blocks and reminders')}>
+            {/* Editable, and reading the same merged value the sidebar reads.
+                This panel used to read the roster row alone, so it said "Not
+                recorded" four times over to a student whose sidebar was showing
+                "KAU · Year 1" two inches away. */}
+            <StudyContext />
+            <div className="border-t border-line p-5">
+              <Field label={t('Timezone')} hint={t('Used for calendar blocks and reminders')} className="max-w-sm">
                 <Select value={prefs.timezone} onChange={(event) => patch({ timezone: event.target.value })}>
                   {[prefs.timezone, 'Africa/Cairo', 'Europe/London', 'Asia/Dubai', 'America/New_York']
                     .filter((zone, index, all) => all.indexOf(zone) === index)
                     .map((zone) => <option key={zone} value={zone}>{zone}</option>)}
                 </Select>
               </Field>
-              <div className="sm:col-span-2">
-                <p className="rounded-lg border border-line bg-surface-2/50 px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
-                  {profileMissing
-                    ? t("Your university hasn't set up your student profile yet. Until it does, your timetable and any content scoped to your year won't appear.")
-                    : t('Your name, university, year and group are recorded by your university. They decide which content and offers apply to you, so they are changed by the Synapse team rather than here.')}
-                  {' '}
-                  <a href={supportLink} className="font-semibold text-accent-strong hover:text-accent">{t('Request a change')}</a>
-                </p>
-              </div>
             </div>
           </Panel>
 
