@@ -621,7 +621,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                           type="button"
                           onClick={() => toggleGroup(group.key)}
                           aria-expanded={!groupCollapsed}
-                          className="flex w-full items-center gap-2 px-2 py-2 text-left"
+                          className="flex w-full items-center gap-2 px-2 py-2 text-start"
                         >
                           <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !groupCollapsed && 'rotate-90')} />
                           {group.color && <SubjectDot id={group.key} />}

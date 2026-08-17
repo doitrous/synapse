@@ -28,7 +28,7 @@ export function PracticalSetup() {
           type="button"
           onClick={() => { setSelection({}); setOpenUni(null) }}
           className={cn(
-            'flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-left text-[13.5px] font-semibold',
+            'flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-start text-[13.5px] font-semibold',
             isMaster ? 'bg-accent-tint text-accent-strong' : 'text-ink hover:bg-inset',
           )}
         >
@@ -56,7 +56,7 @@ export function PracticalSetup() {
                     type="button"
                     onClick={() => { setSelection({ universityId: u.id }); setOpenUni(u.id) }}
                     className={cn(
-                      'flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-left text-[13px]',
+                      'flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13px]',
                       uniActive ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset',
                     )}
                   >
@@ -75,7 +75,7 @@ export function PracticalSetup() {
                             type="button"
                             onClick={() => setSelection({ universityId: u.id, year: y })}
                             className={cn(
-                              'block w-full rounded px-2.5 py-1.5 text-left text-[12.5px]',
+                              'block w-full rounded px-2.5 py-1.5 text-start text-[12.5px]',
                               yearActive ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-3 hover:bg-inset hover:text-ink-2',
                             )}
                           >

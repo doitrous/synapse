@@ -290,7 +290,7 @@ function SkillRow({ skill, status, onCycle }: { skill: Skill; status: SkillStatu
       <button
         type="button"
         onClick={onCycle}
-        className="flex w-full items-center gap-3 rounded-md py-2.5 text-left transition-colors hover:bg-inset"
+        className="flex w-full items-center gap-3 rounded-md py-2.5 text-start transition-colors hover:bg-inset"
         aria-label={`${skill.name} — ${STATUS_LABEL[status]}. Change`}
       >
         <Icon icon={meta.icon} size={18} className={meta.cls} />

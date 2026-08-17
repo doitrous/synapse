@@ -350,7 +350,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
                       return next
                     })
                   }
-                  className="group flex w-full items-start gap-3 rounded-md px-2 py-2.5 text-left transition-colors hover:bg-inset"
+                  className="group flex w-full items-start gap-3 rounded-md px-2 py-2.5 text-start transition-colors hover:bg-inset"
                 >
                   <span
                     className={cn(
@@ -504,7 +504,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 
         <div className="mt-5 space-y-2">{options.map((option, optionIndex) => {
           const correct = optionIndex === correctIndex
-          return <div key={option} className={cn('overflow-hidden rounded-lg border transition-colors', !revealed && 'border-line bg-surface hover:border-accent-line', revealed && correct && 'border-success bg-success-tint', revealed && selected === optionIndex && !correct && 'border-danger bg-danger-tint', revealed && !correct && selected !== optionIndex && 'border-line opacity-65')}><button disabled={revealed} onClick={() => { setChoices((current) => ({ ...current, [idx]: optionIndex })); recordDecision(optionIndex) }} className="flex w-full items-start gap-3 p-3 text-left text-[13.5px]"><span className="grid size-6 shrink-0 place-items-center rounded-full border border-line-2 font-mono text-[11px]">{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>{revealed && stage.optionExplanations?.[optionIndex] && <p className="border-t border-current/10 px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{stage.optionExplanations[optionIndex]}</p>}</div>
+          return <div key={option} className={cn('overflow-hidden rounded-lg border transition-colors', !revealed && 'border-line bg-surface hover:border-accent-line', revealed && correct && 'border-success bg-success-tint', revealed && selected === optionIndex && !correct && 'border-danger bg-danger-tint', revealed && !correct && selected !== optionIndex && 'border-line opacity-65')}><button disabled={revealed} onClick={() => { setChoices((current) => ({ ...current, [idx]: optionIndex })); recordDecision(optionIndex) }} className="flex w-full items-start gap-3 p-3 text-start text-[13.5px]"><span className="grid size-6 shrink-0 place-items-center rounded-full border border-line-2 font-mono text-[11px]">{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>{revealed && stage.optionExplanations?.[optionIndex] && <p className="border-t border-current/10 px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{stage.optionExplanations[optionIndex]}</p>}</div>
         })}</div>
         {revealed && <div className="mt-4 rounded-lg border border-accent-line bg-accent-tint/50 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent-strong">Decision rationale</p><p className="mt-1.5 text-[14px] leading-relaxed text-ink">{stage.answer}</p></div>}
 
@@ -648,7 +648,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
                 disabled={revealed}
                 onClick={() => setAnswers((a) => ({ ...a, [idx]: i }))}
                 className={cn(
-                  'flex w-full items-center gap-3 rounded-lg border p-3 text-left transition-colors',
+                  'flex w-full items-center gap-3 rounded-lg border p-3 text-start transition-colors',
                   optionClasses(i),
                 )}
               >

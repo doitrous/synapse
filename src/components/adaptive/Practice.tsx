@@ -148,7 +148,7 @@ function WhyThis({ reason, expanded, onToggle }: { reason: string; expanded: boo
       <button
         type="button"
         onClick={onToggle}
-        className="flex w-full items-center gap-2 text-left text-[12.5px] font-medium text-ink-2 hover:text-ink"
+        className="flex w-full items-center gap-2 text-start text-[12.5px] font-medium text-ink-2 hover:text-ink"
       >
         <Icon icon={Sparkles} size={14} className="shrink-0 text-accent" />
         <span className="min-w-0 flex-1 truncate">{expanded ? 'Why this question' : reason}</span>
