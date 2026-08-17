@@ -33,6 +33,12 @@ struct MoreView: View {
                     link("Notebook", "note.text") {
                         NotebookView(store: store, sync: sync, api: api)
                     }
+                    link("Whiteboard", "scribble.variable") {
+                        WhiteboardView(api: api, sync: sync)
+                    }
+                    link("Study together", "person.2") {
+                        StudyTogetherView(api: api, store: store, audience: audience)
+                    }
                 }
                 .listRowBackground(Theme.surface)
 

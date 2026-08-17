@@ -69,6 +69,8 @@ final class SyncEngine {
     private let api: SynapseAPI
     private let store: LocalStore
     private var inFlight = false
+    private var isDraining = false
+    private var drainAgain = false
 
     init(api: SynapseAPI, store: LocalStore) {
         self.api = api
@@ -211,7 +213,36 @@ final class SyncEngine {
     }
 
     /// Send everything waiting.
+    ///
+    /// Never runs twice at once. Each drain reads a snapshot of the queue and
+    /// uploads what it read, so two overlapping drains send two versions of the
+    /// same document with no ordering between them, and the older one can land
+    /// second.
+    ///
+    /// The queue's `queuedAt` guard means the newer edit is not deleted, so it
+    /// goes up again on the next drain and the two eventually agree. What is
+    /// lost is the interval: observed live, the server held an empty note for
+    /// twenty minutes after the student had typed into it, and a laptop opened
+    /// in that window would have shown the empty one. Uploads are serialised so
+    /// the last edit is simply the last thing sent.
+    ///
+    /// A write arriving mid-drain sets `drainAgain` rather than starting a
+    /// second pass, so it is still sent, just after this one finishes.
     func drainOutbox() async {
+        if isDraining {
+            drainAgain = true
+            return
+        }
+        isDraining = true
+        defer { isDraining = false }
+
+        repeat {
+            drainAgain = false
+            await drainOnce()
+        } while drainAgain
+    }
+
+    private func drainOnce() async {
         let pending: [(key: String, payload: Data, queuedAt: Date, attempts: Int)]
         do {
             pending = try await store.pendingWrites()

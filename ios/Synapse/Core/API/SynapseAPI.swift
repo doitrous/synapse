@@ -163,6 +163,67 @@ struct SynapseAPI {
         _ = try await send(["user-state", key], method: "PUT", body: ValueBody(value: value))
     }
 
+    // MARK: - Study Together
+
+    func createRoom(name: String, questionIds: [String], timed: Bool, secondsPerQuestion: Int?) async throws -> RoomMutation {
+        struct Body: Encodable {
+            let name: String
+            let questionIds: [String]
+            let timed: Bool
+            let secondsPerQuestion: Int?
+        }
+        let data = try await send(
+            ["study-rooms"], method: "POST",
+            body: Body(name: name, questionIds: questionIds, timed: timed, secondsPerQuestion: secondsPerQuestion)
+        )
+        return try Self.decoder.decode(RoomMutation.self, from: data)
+    }
+
+    func joinRoom(code: String) async throws -> RoomMutation {
+        struct Body: Encodable { let code: String }
+        let data = try await send(["study-rooms", "join"], method: "POST", body: Body(code: code))
+        return try Self.decoder.decode(RoomMutation.self, from: data)
+    }
+
+    func myRooms() async throws -> [RoomSummary] {
+        struct Envelope: Decodable { let rooms: [RoomSummary] }
+        return try await get(Envelope.self, ["study-rooms", "mine"]).rooms
+    }
+
+    func room(id: String) async throws -> StudyRoom {
+        struct Envelope: Decodable { let room: StudyRoom }
+        return try await get(Envelope.self, ["study-rooms", id]).room
+    }
+
+    func startRoom(id: String) async throws -> RoomMutation {
+        let data = try await send(["study-rooms", id, "start"], method: "POST", body: Optional<Int>.none)
+        return try Self.decoder.decode(RoomMutation.self, from: data)
+    }
+
+    /// Submit one answer.
+    ///
+    /// `chosenIndex` is a position in the question's option list, not a label.
+    /// The server marks it against the same published projection the app reads,
+    /// which drops blank options in the same order — so the indexes line up.
+    /// Sending a label here would mark every answer against the wrong option.
+    func submitAnswer(roomId: String, questionId: String, chosenIndex: Int, seconds: Int) async throws -> RoomMutation {
+        struct Body: Encodable {
+            let questionId: String
+            let chosenIndex: Int
+            let seconds: Int
+        }
+        let data = try await send(
+            ["study-rooms", roomId, "answers"], method: "POST",
+            body: Body(questionId: questionId, chosenIndex: chosenIndex, seconds: seconds)
+        )
+        return try Self.decoder.decode(RoomMutation.self, from: data)
+    }
+
+    func finishRoom(id: String) async throws -> RoomMutation {
+        let data = try await send(["study-rooms", id, "finish"], method: "POST", body: Optional<Int>.none)
+        return try Self.decoder.decode(RoomMutation.self, from: data)
+    }
+
     /// Register this device for push notifications.
     func registerDevice(token deviceToken: String, environment: String, locale: String?, appVersion: String?) async throws {
         struct Body: Encodable {

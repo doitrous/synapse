@@ -52,6 +52,13 @@ enum Theme {
     static let warning = adaptive(light: 0xA5732A, dark: 0xD3A25C)
     static let danger = adaptive(light: 0xB23A3A, dark: 0xE07B74)
 
+    // Washes, taken from the site's own tokens. Used behind text, so they are
+    // tints rather than fills — the ink on top has to stay legible in both
+    // themes, which is why the dark values are not simply darker.
+    static let successTint = adaptive(light: 0xEAEFDF, dark: 0x26301E)
+    static let warningTint = adaptive(light: 0xF6ECD6, dark: 0x352914)
+    static let dangerTint = adaptive(light: 0xF6E5DF, dark: 0x3A201D)
+
     /// Text drawn on a signal fill.
     ///
     /// Note these invert: in dark mode the fills *lighten*, so their

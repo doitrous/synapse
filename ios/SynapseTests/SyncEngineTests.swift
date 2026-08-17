@@ -354,6 +354,51 @@ struct SyncEngineTests {
             #expect(try await store.pendingCount() == 0)
         }
 
+        /// The bug this guards: two overlapping drains each upload the snapshot
+        /// they read, with no ordering between them, so an older payload can
+        /// land second and the server keeps it. A note the student watched
+        /// themselves type then comes back empty on their laptop.
+        @Test("an edit made during a slow upload is what the server ends up with")
+        func lastWriteWins() async throws {
+            StubProtocol.reset()
+            defer { StubProtocol.reset() }
+
+            let uploaded = Box<[String]>([])
+            StubProtocol.handler = { request in
+                if request.url?.path.contains("user-state") == true {
+                    let body = request.httpBody
+                        ?? request.httpBodyStream.map { stream -> Data in
+                            stream.open(); defer { stream.close() }
+                            var data = Data()
+                            let buffer = UnsafeMutablePointer<UInt8>.allocate(capacity: 4096)
+                            defer { buffer.deallocate() }
+                            while stream.hasBytesAvailable {
+                                let read = stream.read(buffer, maxLength: 4096)
+                                if read <= 0 { break }
+                                data.append(buffer, count: read)
+                            }
+                            return data
+                        } ?? Data()
+                    uploaded.value.append(String(decoding: body, as: UTF8.self))
+                }
+                return .init(body: Data("{\"ok\":true}".utf8))
+            }
+
+            let store = try LocalStore(path: nil)
+            let engine = await SyncEngineTests().makeEngine(store: store)
+            let key = "synapse.whiteboard.board"
+
+            // Two writes in flight together, as an editor sheet saving over a
+            // just-created empty note does.
+            async let first: Void = engine.write(key: key, value: ["text": ""])
+            async let second: Void = engine.write(key: key, value: ["text": "typed"])
+            _ = await (first, second)
+
+            #expect(try await store.pendingCount() == 0, "everything queued must be sent")
+            let last = try #require(uploaded.value.last)
+            #expect(last.contains("typed"), "the newest edit must be what the server keeps; got \(last)")
+        }
+
         /// A write the server will never accept must not block everything
         /// queued behind it.
         @Test("a permanently refused write is abandoned")
