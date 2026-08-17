@@ -1004,6 +1004,19 @@ export function Library() {
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
+        {/* The topic tree's toggle, directly above the tree it opens. It used to
+            sit at the far right of this header — the full width of the page away
+            from the panel it controls, on the opposite side from where that
+            panel appears. */}
+        {onRoute && (
+          <MenuToggle
+            open={railOpen}
+            onToggle={() => setRailOpen((current) => !current)}
+            label="topics"
+            direction="vertical"
+            className="shrink-0 max-lg:hidden"
+          />
+        )}
         <button type="button" className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
         {/* The home state offers these same five routes as cards in the page.
             Showing them as tabs at the same time was two menus for one choice,
@@ -1014,21 +1027,18 @@ export function Library() {
         {/* Too narrow for six tabs on a phone — the Browse topics drawer carries them there. */}
         {onRoute ? (
           <div className="flex min-w-0 flex-1 items-center gap-1.5 max-sm:hidden">
-            <MenuToggle open={viewTabsOpen} onToggle={() => setViewTabsOpen((current) => !current)} label="views" />
+            <MenuToggle
+              open={viewTabsOpen}
+              onToggle={() => setViewTabsOpen((current) => !current)}
+              label="views"
+              direction="horizontal"
+            />
             {viewTabsOpen
               ? <LibraryViewTabs view={view} onViewChange={changeView} />
               : <span className="truncate text-[12.5px] font-medium text-ink-2">{t(currentViewLabel)}</span>}
           </div>
         ) : <span className="flex-1" />}
         <span className="flex-1 sm:hidden" />
-        {onRoute && (
-          <MenuToggle
-            open={railOpen}
-            onToggle={() => setRailOpen((current) => !current)}
-            label="topics"
-            className="shrink-0 max-lg:hidden"
-          />
-        )}
         {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
         {/* Authoring is an admin act. A student's own notes belong in the
             notebook, which is where they already are. */}
@@ -1047,9 +1057,23 @@ export function Library() {
             }}
           />
         ) : view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} onOpenView={openView} onOpenArticle={openArticle} /> : (
-          <div className={cn('grid h-full min-h-0 max-lg:grid-cols-1', railOpen ? 'grid-cols-[18rem_minmax(0,1fr)]' : 'grid-cols-1')}>
-            {railOpen && <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>}
-            <main className="min-w-0 overflow-y-auto">
+          <div className="flex h-full min-h-0">
+            {/* Width rather than presence, so opening and closing the tree is a
+                movement instead of a jump. The inner column keeps its own width
+                while the outer one animates, or the tree would reflow itself
+                narrower on every frame of its own collapse. */}
+            <div
+              inert={!railOpen}
+              className={cn(
+                'min-h-0 shrink-0 overflow-hidden transition-[width,opacity] duration-200 ease-out motion-reduce:transition-none max-lg:hidden',
+                railOpen ? 'w-72 opacity-100' : 'w-0 opacity-0',
+              )}
+            >
+              <div className="grid h-full min-h-0 w-72 grid-cols-1">
+                <AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} />
+              </div>
+            </div>
+            <main className="min-w-0 flex-1 overflow-y-auto">
               {selectedUserArticle ? (
           <UserReader
             article={selectedUserArticle}
