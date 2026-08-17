@@ -7,11 +7,13 @@ struct ResourcesView: View {
 
     @State private var query = ""
     @State private var savedOnly = false
+    @State private var files: ResourceFileStore
 
-    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience) {
+    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience, api: SynapseAPI) {
         _model = State(wrappedValue: ResourceModel(
             store: store, sync: sync, audience: audience
         ))
+        _files = State(wrappedValue: ResourceFileStore(api: api))
         self.sync = sync
     }
 
@@ -59,12 +61,30 @@ struct ResourcesView: View {
             ForEach(visibleFolders) { folder in
                 Section {
                     ForEach(folder.resources) { resource in
-                        ResourceRow(
-                            resource: resource,
-                            isSaved: model.bookmarks.contains(resource.id),
-                            toggle: { Task { await model.toggleBookmark(resource.id) } }
-                        )
-                        .listRowBackground(Theme.surface)
+                        // Only an openable resource is a link. A row that
+                        // pushes to "nothing here" teaches a student not to
+                        // trust the rest of them.
+                        if resource.isOpenable {
+                            NavigationLink {
+                                ResourceReaderView(resource: resource, files: files)
+                            } label: {
+                                ResourceRow(
+                                    resource: resource,
+                                    isSaved: model.bookmarks.contains(resource.id),
+                                    isDownloaded: files.state(for: resource.id) == .ready(ResourceFileStore.fileURL(resource.id) ?? URL(fileURLWithPath: "/")),
+                                    toggle: { Task { await model.toggleBookmark(resource.id) } }
+                                )
+                            }
+                            .listRowBackground(Theme.surface)
+                        } else {
+                            ResourceRow(
+                                resource: resource,
+                                isSaved: model.bookmarks.contains(resource.id),
+                                isDownloaded: false,
+                                toggle: { Task { await model.toggleBookmark(resource.id) } }
+                            )
+                            .listRowBackground(Theme.surface)
+                        }
                     }
                 } header: {
                     Text(folder.title)
@@ -117,6 +137,7 @@ struct ResourcesView: View {
 private struct ResourceRow: View {
     let resource: LibraryResource
     let isSaved: Bool
+    let isDownloaded: Bool
     let toggle: () -> Void
 
     var body: some View {
@@ -144,9 +165,17 @@ private struct ResourceRow: View {
 
                 // A resource can be catalogued before its file is uploaded.
                 // Saying so is better than a tap that opens nothing.
-                if !resource.hasFile {
+                if !resource.isOpenable {
                     Text("File not uploaded yet")
                         .font(Theme.ui(11))
+                        .foregroundStyle(Theme.ink3)
+                } else if isDownloaded {
+                    Label("On this phone", systemImage: "checkmark.circle")
+                        .font(Theme.ui(11))
+                        .foregroundStyle(Theme.success)
+                } else if let pages = resource.file?.pageCount {
+                    Text("\(pages) pages")
+                        .font(Theme.numeric(11))
                         .foregroundStyle(Theme.ink3)
                 }
             }

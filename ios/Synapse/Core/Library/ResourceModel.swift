@@ -15,10 +15,14 @@ struct LibraryResource: Identifiable, Equatable, Sendable {
     let meta: String
     let year: Int?
     let chapters: [String]
-    /// True when a file has been uploaded and this can actually be opened.
+    /// What the ledger claims. The authoritative answer is `file`.
     let hasFile: Bool
+    /// The source document behind this, when one exists.
+    var file: EvidenceStore.ResourceFile?
 
     var chapter: String? { chapters.first }
+    /// Whether tapping this leads anywhere.
+    var isOpenable: Bool { file != nil }
 }
 
 enum ResourceType: String, CaseIterable, Sendable {
@@ -80,7 +84,16 @@ final class ResourceModel {
 
         do {
             let items = try await store.items(kind: .resource, audience: audience)
-            let resources = items.compactMap(Self.project)
+
+            // Which resources actually have a file is recorded in the evidence
+            // store, not on the ledger item: the ledger's `storageKey` is the
+            // admin's intent, and only 15 of the 47 have bytes behind them.
+            let evidence = await evidenceStore()
+            let resources = items.compactMap(Self.project).map { resource in
+                var updated = resource
+                updated.file = evidence.resourceFiles[resource.id]
+                return updated
+            }
             folders = Self.group(resources)
             emptyReason = folders.isEmpty ? await describeEmptiness() : nil
         } catch {
@@ -155,6 +168,14 @@ final class ResourceModel {
             sorted.resources.sort { $0.title.localizedCaseInsensitiveCompare($1.title) == .orderedAscending }
             return sorted
         }
+    }
+
+    private func evidenceStore() async -> EvidenceStore {
+        guard
+            let document = try? await store.catalogue(key: SyncEngine.evidenceKey),
+            let json = try? JSONSerialization.jsonObject(with: document)
+        else { return .empty }
+        return EvidenceStore.decode(json)
     }
 
     private func describeEmptiness() async -> String {

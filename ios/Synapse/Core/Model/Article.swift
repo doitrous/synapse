@@ -66,6 +66,23 @@ struct EvidenceStore: Sendable {
     /// Spans grouped by `articleId|sectionId`, for the derived lookup.
     var spansBySection: [String: [ArticleSpan]] = [:]
     var resourceTitles: [String: String] = [:]
+    /// Resources that have a file behind them, by ID.
+    ///
+    /// The evidence store is the register of source documents, so it — not the
+    /// ledger's resource items — is what knows whether a PDF exists. Of 47
+    /// catalogued resources only 15 carry one.
+    var resourceFiles: [String: ResourceFile] = [:]
+
+    struct ResourceFile: Equatable, Sendable {
+        let id: String
+        let title: String
+        let mediaType: String
+        let pageCount: Int?
+        /// An external link instead of a stored file, when the source is hosted
+        /// elsewhere. The server redirects to it.
+        let sourceUri: String?
+        var isPDF: Bool { mediaType.lowercased() == "pdf" }
+    }
 
     struct ArticleSpan: Equatable, Sendable {
         let id: String
@@ -89,9 +106,23 @@ struct EvidenceStore: Sendable {
             if let id = citation["id"] as? String { store.citationIds.insert(id) }
         }
         for resource in root["resources"] as? [[String: Any]] ?? [] {
-            if let id = resource["id"] as? String {
-                store.resourceTitles[id] = resource["title"] as? String ?? id
-            }
+            guard let id = resource["id"] as? String else { continue }
+            let title = resource["title"] as? String ?? id
+            store.resourceTitles[id] = title
+
+            // A resource is openable if it has bytes stored or a source to
+            // redirect to. Everything else is catalogued but not yet uploaded.
+            let storageKey = (resource["storageKey"] as? String)?.nilIfEmpty
+            let sourceUri = (resource["sourceUri"] as? String)?.nilIfEmpty
+            guard storageKey != nil || sourceUri != nil else { continue }
+
+            store.resourceFiles[id] = ResourceFile(
+                id: id,
+                title: title,
+                mediaType: resource["mediaType"] as? String ?? "pdf",
+                pageCount: resource["pageCount"] as? Int,
+                sourceUri: sourceUri
+            )
         }
         for raw in root["articleSpans"] as? [[String: Any]] ?? [] {
             guard

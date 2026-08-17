@@ -54,7 +54,7 @@ struct SignedInView: View {
                 QuestionBankView(store: container.store, sync: container.sync, audience: audience)
             }
             Tab("Resources", systemImage: "folder") {
-                ResourcesView(store: container.store, sync: container.sync, audience: audience)
+                ResourcesView(store: container.store, sync: container.sync, audience: audience, api: auth.api)
             }
             Tab("More", systemImage: "square.grid.2x2") {
                 MoreView(

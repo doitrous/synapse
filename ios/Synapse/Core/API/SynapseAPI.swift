@@ -53,6 +53,13 @@ private struct ValueBody<Value: Encodable>: Encodable {
     let value: Value
 }
 
+/// Whether a source document can be opened.
+struct ResourceStatus: Decodable, Equatable, Sendable {
+    let id: String
+    let available: Bool
+    let externalUrl: String?
+}
+
 /// The caller's own profile and entitlement, from `/api/me`.
 ///
 /// A missing roster row is a 200 with nulls rather than a 404 — "your
@@ -161,6 +168,68 @@ struct SynapseAPI {
     /// Replace a private document. Last write wins, as on the web.
     func putUserState<Value: Encodable>(key: String, value: Value) async throws {
         _ = try await send(["user-state", key], method: "PUT", body: ValueBody(value: value))
+    }
+
+    // MARK: - Source documents
+
+    /// Whether a resource has a file behind it right now.
+    func resourceStatus(id: String) async throws -> ResourceStatus {
+        try await get(ResourceStatus.self, ["medical-resources", id, "status"])
+    }
+
+    /// Stream a resource to a temporary file.
+    ///
+    /// A download rather than a `data` call: these are textbooks, and holding
+    /// one in memory to write it out again is how a phone with other apps open
+    /// gets the app killed mid-download.
+    ///
+    /// The URL cannot simply be handed to PDFKit because the endpoint needs the
+    /// bearer token, and a viewer given a bare URL sends no Authorization
+    /// header — it would render a 401 body as a broken document.
+    func downloadResource(id: String, onProgress: @escaping @Sendable (Double) -> Void) async throws -> URL {
+        var request = URLRequest(url: url(["medical-resources", id]))
+        request.httpMethod = "GET"
+        if let accessToken = try await token() {
+            request.setValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
+        }
+
+        let (temporary, response) = try await urlSession.download(
+            for: request, delegate: ProgressDelegate(onProgress)
+        )
+
+        guard let http = response as? HTTPURLResponse else {
+            throw APIError.malformed("no response downloading \(id)")
+        }
+        switch http.statusCode {
+        case 200...299: return temporary
+        case 401: throw APIError.unauthorized
+        case 403: throw APIError.forbidden
+        case 404: throw APIError.notFound
+        default: throw APIError.transient(status: http.statusCode)
+        }
+    }
+
+    /// Reports byte-by-byte progress on a download.
+    private final class ProgressDelegate: NSObject, URLSessionTaskDelegate, URLSessionDownloadDelegate, Sendable {
+        private let onProgress: @Sendable (Double) -> Void
+
+        init(_ onProgress: @escaping @Sendable (Double) -> Void) {
+            self.onProgress = onProgress
+        }
+
+        func urlSession(
+            _ session: URLSession, downloadTask: URLSessionDownloadTask,
+            didWriteData bytesWritten: Int64, totalBytesWritten: Int64, totalBytesExpectedToWrite: Int64
+        ) {
+            // A server that does not send a length reports -1; showing a bar
+            // that never moves is worse than showing none.
+            guard totalBytesExpectedToWrite > 0 else { return }
+            onProgress(Double(totalBytesWritten) / Double(totalBytesExpectedToWrite))
+        }
+
+        func urlSession(
+            _ session: URLSession, downloadTask: URLSessionDownloadTask, didFinishDownloadingTo location: URL
+        ) {}
     }
 
     // MARK: - Study Together
