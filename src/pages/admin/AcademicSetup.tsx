@@ -110,6 +110,26 @@ export function AcademicSetup() {
       }),
     }))
   }
+  /**
+   * Drop an empty term.
+   *
+   * "Add term" was a one-way door: a term added by a mis-click stayed on the
+   * year for good, showing "No modules in this term yet" to whoever looked at
+   * it next. Only an empty one can go — `termsOf` derives terms from the modules
+   * that name them as well as from the explicit list, so removing a term that
+   * still has modules would not remove it at all, it would just make it
+   * un-deletable in a more confusing way.
+   */
+  function removeTerm(yearIdx: number, term: string) {
+    patchSelected((u) => ({
+      ...u,
+      years: u.years.map((y, i) => {
+        if (i !== yearIdx) return y
+        if (y.courses.some((c) => (c.term || DEFAULT_TERM) === term)) return y
+        return { ...y, terms: termsOf(y).filter((existing) => existing !== term) }
+      }),
+    }))
+  }
   function saveModuleId(courseId: string) {
     if (!uni) return
     const draft = moduleIdDraft.trim()
@@ -352,6 +372,18 @@ export function AcademicSetup() {
                       <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-2">{term}</span>
                       <span className="tnum font-mono text-[10.5px] text-ink-3">{termCourses.length}</span>
                       <Button className="ms-auto" variant="ghost" size="sm" iconLeft={Plus} onClick={() => { setAddModuleTerm(adding ? null : { yearIdx: i, term }); setCourseName('') }}>Add module</Button>
+                      {/* Only an empty term, and only when it is not the last
+                          one: a year with no terms at all has nothing to hang a
+                          module on. */}
+                      {termCourses.length === 0 && termsOf(y).length > 1 && (
+                        <button
+                          onClick={() => removeTerm(i, term)}
+                          className="grid size-8 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger"
+                          aria-label={`Remove ${term}`}
+                        >
+                          <Icon icon={Trash2} size={13} />
+                        </button>
+                      )}
                     </div>
                     {adding && (
                       <div className="flex items-center gap-2 border-b border-line p-2.5">
