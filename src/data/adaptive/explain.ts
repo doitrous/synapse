@@ -109,12 +109,22 @@ export function blockSummary(block: AdaptiveBlock): string {
  * than concluding the app is repeating itself at random.
  */
 export function shortageNotice(block: AdaptiveBlock): string | null {
-  if (!block.shortages.length) return null
-  const shortfall = block.size < block.targets.weakness + block.targets.coverage + block.targets.review + block.targets.uncertainty
   const relaxed = block.relaxed.length
-  return shortfall
-    ? `The question bank could not fill this block completely. ${relaxed} selection rule${relaxed === 1 ? ' was' : 's were'} relaxed and the shortage has been reported.`
-    : `The question bank was tight here, so ${relaxed} selection rule${relaxed === 1 ? '' : 's'} had to be relaxed. The shortage has been reported.`
+  const requested = block.targets.weakness + block.targets.coverage + block.targets.review + block.targets.uncertainty
+  const short = block.size < requested
+
+  // A need nothing could serve is reported by the redistribution notice, not
+  // here. Treating the two the same produced the nonsense line "0 selection
+  // rules had to be relaxed" on a block that was assembled perfectly well.
+  if (!relaxed && !short) return null
+
+  if (!relaxed) {
+    return 'The question bank could not fill this block completely. The shortage has been reported.'
+  }
+  const rules = `${relaxed} selection rule${relaxed === 1 ? '' : 's'}`
+  return short
+    ? `The question bank could not fill this block completely. ${rules} had to be relaxed, and the shortage has been reported.`
+    : `The question bank was tight here, so ${rules} had to be relaxed. The shortage has been reported.`
 }
 
 /**
