@@ -152,14 +152,7 @@ function BlockDialog({ date, existing, onClose, onSave, onDelete }: {
             <Field label={t('Module')} hint={t('Optional — ties this block to a module on your timetable.')}>
               <Select value={moduleId} onChange={(event) => setModuleId(event.target.value)}>
                 <option value="">{t('No module')}</option>
-                {/* A module whose name is its code — "205 NEU", as several
-                    faculties list them — would otherwise read "205 NEU — 205
-                    NEU". Say it once. */}
-                {modules.map((module) => (
-                  <option key={module.id} value={module.id}>
-                    {module.name.trim() === module.id.trim() ? module.id : `${module.id} — ${module.name}`}
-                  </option>
-                ))}
+                {modules.map((module) => <option key={module.id} value={module.id}>{module.id} — {module.name}</option>)}
               </Select>
             </Field>
           )}
