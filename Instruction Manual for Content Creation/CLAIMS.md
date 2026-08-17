@@ -29,7 +29,9 @@ scope. Whoever owns it picks it up from here.
 
 | Wanted by | What is needed | Why you cannot write it | Blocking |
 |---|---|---|---|
-| — | — | — | — |
+| kau-y1 | The five Kasr Alainy Year 1 courses (101 ISK, 102 INT, 103 BMS, 104 CPS, 108 INT) in Admin › Academic Setup, under `KAU_Y1` | Courses live in the university catalogue, not in any import batch — there is no importer for them. `KAU_Y1.courses` is `[]`, so no live module ID exists to reference. | Module tags on the 26 delivered questions resolve to nothing; **and any Year 1 timetable at all**, since `synapse-module-schedules-v1` is keyed `kau:Year 1:<courseId>` |
+| kau-y1 | Concepts and articles for general histology, general biochemistry and cytogenetics | The eight valid subject IDs (`cvs`, `resp`, `renal`, `gi`, `neuro`, `endo`, `msk`, `pharm`) have no home for them, and `subjectId: "medical"` is legacy and not usable | Questions for modules **101 ISK, 102 INT and 103 BMS** — their past papers are written short-answer on exactly this content |
+| kau-y1 | Concepts and articles for general pathology (cell injury, inflammation, neoplasia) | Same — no pathology subject exists among the eight; the live pathology-flavoured concepts sit under `pharm` and cover chemotherapy, not general pathology | The pathology half of **108 INT**; only the pharmacology half could be written |
 
 ---
 
@@ -37,7 +39,17 @@ scope. Whoever owns it picks it up from here.
 
 | Finished | Agent | Scope | Output file | Result |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| 2026-08-17 | kau-y1 | SYS-CVS · questions (KAU Y1 · 104 CPS — cardiac cycle) | docs/import-ready/question/SYS-CVS-QUESTION-011.md | 6 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-CVS · questions (KAU Y1 · 104 CPS — output, ABP, venous) | docs/import-ready/question/SYS-CVS-QUESTION-012.md | 5 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-RES · questions (KAU Y1 · 104 CPS — ventilation, compliance) | docs/import-ready/question/SYS-RES-QUESTION-001.md | 5 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-RES · questions (KAU Y1 · 104 CPS — lung volumes, hypoxia) | docs/import-ready/question/SYS-RES-QUESTION-002.md | 5 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-PHA · questions (KAU Y1 · 108 INT — pharmacokinetics) | docs/import-ready/question/SYS-PHA-QUESTION-001.md | 5 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-CVS · questions (KAU Y1 · 104 CPS — conduction, ECG) | docs/import-ready/question/SYS-CVS-QUESTION-013.md | 7 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-CVS · questions (KAU Y1 · 104 CPS — valve/coronary anatomy, histology) | docs/import-ready/question/SYS-CVS-QUESTION-014.md | 6 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-RES · questions (KAU Y1 · 104 CPS — airway anatomy, histology) | docs/import-ready/question/SYS-RES-QUESTION-003.md | 6 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-PHA · questions (KAU Y1 · 108 INT — membrane transport) | docs/import-ready/question/SYS-PHA-QUESTION-002.md | 5 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-PHA · questions (KAU Y1 · 108 INT — acids, bases, pH) | docs/import-ready/question/SYS-PHA-QUESTION-003.md | 6 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-PHA · questions (KAU Y1 · 108 INT — clearance, active transport) | docs/import-ready/question/SYS-PHA-QUESTION-004.md | 6 questions, fieldsUsed 48, 0 errors |
 
 ---
 

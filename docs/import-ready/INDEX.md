@@ -20,7 +20,7 @@ filename alone never did.
 |---|---|---:|---:|
 | [`concept/`](concept/) | Concepts › Import | 13 | 208 |
 | [`article/`](article/) | Bulk import → **article** | 8 | 58 |
-| [`question/`](question/) | Bulk import → **question** | 10 | 219 |
+| [`question/`](question/) | Bulk import → **question** | 21 | 281 |
 | [`practical/`](practical/) | Bulk import → **practical** | 34 | 152 |
 | [`relations/`](relations/) | Relationships › Import | — | — |
 | [`evidence/`](evidence/) | Evidence › Import | — | — |
@@ -170,6 +170,56 @@ applies the whole set — 128 concepts, 58 articles — with 0 errors and 0 reje
 ### Cardiovascular questions — `question/`, 10 files
 
 Topics 2–9. Questions reference the concepts in `concept/`, so that folder goes first.
+
+### Kasr Alainy Year 1 questions — `question/`, 11 files, 62 records
+
+Re-expressed from Kasr Alainy past papers and doctor question banks for two Year 1 modules.
+Every record tests a concept that is **already live**, so these eleven files depend on nothing
+else in `docs/import-ready/` and may be applied on their own, in any order.
+
+| File | Module | Records | Topic area |
+|---|---|---:|---|
+| `SYS-CVS-QUESTION-011.md` | 104 CPS | 6 | Cardiac cycle, valve phases, filling, JVP |
+| `SYS-CVS-QUESTION-012.md` | 104 CPS | 5 | Cardiac output, afterload, baroreceptors, venous reservoir |
+| `SYS-CVS-QUESTION-013.md` | 104 CPS | 7 | Conduction system, ECG vectors, afterdepolarisations |
+| `SYS-CVS-QUESTION-014.md` | 104 CPS | 6 | Valve anatomy, coronary sinus, vessel and capillary histology |
+| `SYS-RES-QUESTION-001.md` | 104 CPS | 5 | Alveolar pressure, airway resistance, surfactant, compliance |
+| `SYS-RES-QUESTION-002.md` | 104 CPS | 5 | Lung volumes, spirometry limits, CO poisoning, anaemic hypoxia |
+| `SYS-RES-QUESTION-003.md` | 104 CPS | 6 | Pneumocytes, airway transitions, bronchial circulation |
+| `SYS-PHA-QUESTION-001.md` | 108 INT | 5 | Volume of distribution, loading and maintenance dose |
+| `SYS-PHA-QUESTION-002.md` | 108 INT | 5 | Membrane transport, carrier saturation, channels |
+| `SYS-PHA-QUESTION-003.md` | 108 INT | 6 | pKa, ionisation ratio, pH and pOH |
+| `SYS-PHA-QUESTION-004.md` | 108 INT | 6 | Clearance, tubular secretion, active transport |
+
+**Module coverage.** `104 CPS` is complete at **40 questions**. `108 INT` holds **22**, against a
+ceiling of about 30 — see below.
+
+All 62 land as `Draft` with `fieldsUsed` 48, and every one carries at least one media request:
+**62 requests, 34 of them `Priority: required`**. Those 34 cannot publish until the asset exists,
+so expect them in **Library Setup → Media requests** after importing.
+
+**Two limits worth knowing before asking for more.**
+
+`108 INT` is capped by live concepts, not by sources. Year 1's module examines general
+pharmacology (8 sections, intro through posology) and general pathology (cell injury, necrosis,
+apoptosis). The library has **no article for general pathology, drug metabolism, absorption or
+pharmacodynamics**, so only pharmacokinetics, membrane transport and acid–base chemistry are
+writable — about 30 concepts. Eight remain unused: `CON-FND-7A13EADDDC6F2B`,
+`CON-FND-0E928D053BCD48`, `CON-FND-A8A72BC2005748`, `CON-FND-ADD586E767E034`,
+`CON-FND-48E1C0E33B1DD3`, `CON-FND-FBAA90D61BE8AB`, `CON-FND-2EDA697071E588`,
+`CON-FND-DF7D6BE0B98F86`.
+
+`101 ISK`, `102 INT` and `103 BMS` have **no questions at all**, and cannot until the taxonomy
+changes. Their content is general histology, biochemistry, embryology and haematology; the live
+articles covering it (Erythrocytes, Hematopoiesis, Gene Expression, Embryology — 62 articles)
+all sit under `subjectId: "medical"`, which 00-START-HERE §3 forbids in a `subject` field, and
+none of the eight valid subjects has a home for them.
+
+`module` carries the university's own module code (`104 CPS`, `108 INT`) as a plain tag. No
+module record exists in Academic Setup for Kasr Alainy Year 1 — `KAU_Y1.courses` is empty — so
+nothing resolves these strings yet. Creating the five Year 1 courses would let them link up,
+and is also the prerequisite for any Year 1 timetable, since module schedules are keyed
+`kau:Year 1:<courseId>`.
 
 ---
 
