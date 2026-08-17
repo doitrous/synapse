@@ -153,18 +153,18 @@ function StudyContext() {
         {profile.group && profile.group !== group && <RosterNote recorded={profile.group} />}
       </div>
 
-      <div className="flex items-end gap-3">
-        <Button type="submit" variant="primary" disabled={!dirty} iconLeft={justSaved && !dirty ? Check : undefined}>
-          {justSaved && !dirty ? t('Saved') : t('Save study context')}
-        </Button>
-      </div>
-
       <div className="sm:col-span-2">
         <p className="rounded-lg border border-line bg-surface-2/50 px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
           {t('Your university and year decide which timetable you see and which content is scoped to you. Change them here whenever they are wrong or out of date — your answer is the one the app uses.')}
           {' '}
           {t('Your name and email come from your sign-in and are changed with your account.')}
         </p>
+      </div>
+
+      <div className="flex justify-end sm:col-span-2">
+        <Button type="submit" variant="primary" disabled={!dirty} iconLeft={justSaved && !dirty ? Check : undefined}>
+          {justSaved && !dirty ? t('Saved') : t('Save study context')}
+        </Button>
       </div>
     </form>
   )
