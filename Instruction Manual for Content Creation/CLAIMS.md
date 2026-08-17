@@ -50,6 +50,7 @@ scope. Whoever owns it picks it up from here.
 | 2026-08-17 | kau-y1 | SYS-PHA · questions (KAU Y1 · 108 INT — membrane transport) | docs/import-ready/question/SYS-PHA-QUESTION-002.md | 5 questions, fieldsUsed 48, 0 errors |
 | 2026-08-17 | kau-y1 | SYS-PHA · questions (KAU Y1 · 108 INT — acids, bases, pH) | docs/import-ready/question/SYS-PHA-QUESTION-003.md | 6 questions, fieldsUsed 48, 0 errors |
 | 2026-08-17 | kau-y1 | SYS-PHA · questions (KAU Y1 · 108 INT — clearance, active transport) | docs/import-ready/question/SYS-PHA-QUESTION-004.md | 6 questions, fieldsUsed 48, 0 errors |
+| 2026-08-17 | kau-y1 | SYS-PHA · questions (KAU Y1 · 108 INT — ionisation, leak channels, specificity) | docs/import-ready/question/SYS-PHA-QUESTION-005.md | 8 questions, fieldsUsed 48, 0 errors |
 
 ---
 

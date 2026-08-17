@@ -20,7 +20,7 @@ filename alone never did.
 |---|---|---:|---:|
 | [`concept/`](concept/) | Concepts › Import | 13 | 208 |
 | [`article/`](article/) | Bulk import → **article** | 8 | 58 |
-| [`question/`](question/) | Bulk import → **question** | 21 | 281 |
+| [`question/`](question/) | Bulk import → **question** | 22 | 289 |
 | [`practical/`](practical/) | Bulk import → **practical** | 34 | 152 |
 | [`relations/`](relations/) | Relationships › Import | — | — |
 | [`evidence/`](evidence/) | Evidence › Import | — | — |
@@ -171,7 +171,7 @@ applies the whole set — 128 concepts, 58 articles — with 0 errors and 0 reje
 
 Topics 2–9. Questions reference the concepts in `concept/`, so that folder goes first.
 
-### Kasr Alainy Year 1 questions — `question/`, 11 files, 62 records
+### Kasr Alainy Year 1 questions — `question/`, 12 files, 70 records
 
 Re-expressed from Kasr Alainy past papers and doctor question banks for two Year 1 modules.
 Every record tests a concept that is **already live**, so these eleven files depend on nothing
@@ -190,24 +190,24 @@ else in `docs/import-ready/` and may be applied on their own, in any order.
 | `SYS-PHA-QUESTION-002.md` | 108 INT | 5 | Membrane transport, carrier saturation, channels |
 | `SYS-PHA-QUESTION-003.md` | 108 INT | 6 | pKa, ionisation ratio, pH and pOH |
 | `SYS-PHA-QUESTION-004.md` | 108 INT | 6 | Clearance, tubular secretion, active transport |
+| `SYS-PHA-QUESTION-005.md` | 108 INT | 8 | Weak base absorption, ion trapping, leak channels, carrier specificity |
 
-**Module coverage.** `104 CPS` is complete at **40 questions**. `108 INT` holds **22**, against a
-ceiling of about 30 — see below.
+**Module coverage.** `104 CPS` is complete at **40 questions**. `108 INT` is complete at **30**,
+which is its ceiling — see below.
 
-All 62 land as `Draft` with `fieldsUsed` 48, and every one carries at least one media request:
-**62 requests, 34 of them `Priority: required`**. Those 34 cannot publish until the asset exists,
+All 70 land as `Draft` with `fieldsUsed` 48, and every one carries at least one media request:
+**70 requests, 35 of them `Priority: required`**. Those 35 cannot publish until the asset exists,
 so expect them in **Library Setup → Media requests** after importing.
 
 **Two limits worth knowing before asking for more.**
 
-`108 INT` is capped by live concepts, not by sources. Year 1's module examines general
-pharmacology (8 sections, intro through posology) and general pathology (cell injury, necrosis,
-apoptosis). The library has **no article for general pathology, drug metabolism, absorption or
-pharmacodynamics**, so only pharmacokinetics, membrane transport and acid–base chemistry are
-writable — about 30 concepts. Eight remain unused: `CON-FND-7A13EADDDC6F2B`,
-`CON-FND-0E928D053BCD48`, `CON-FND-A8A72BC2005748`, `CON-FND-ADD586E767E034`,
-`CON-FND-48E1C0E33B1DD3`, `CON-FND-FBAA90D61BE8AB`, `CON-FND-2EDA697071E588`,
-`CON-FND-DF7D6BE0B98F86`.
+`108 INT` stops at 30 because that is every live concept in its scope, not because the sources ran
+out. Year 1's module examines general pharmacology (8 sections, intro through posology) and general
+pathology (cell injury, necrosis, apoptosis). The library has **no article for general pathology,
+drug metabolism, absorption or pharmacodynamics**, so only **Pharmacokinetics** (9 concepts),
+**Membrane Transport** (9) and **Acids, Bases and pH** (12) are writable. All 30 are now used, one
+question each. Raising this module further needs new articles first — general pathology and
+pharmacodynamics would each unlock roughly a dozen questions.
 
 `101 ISK`, `102 INT` and `103 BMS` have **no questions at all**, and cannot until the taxonomy
 changes. Their content is general histology, biochemistry, embryology and haematology; the live
