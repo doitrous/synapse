@@ -432,12 +432,19 @@ function PreviousTests({
                       {name}
                     </button>
                   )}
-                  <p className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[11.5px] text-ink-3">
+                  {/* `min-w-0` and a truncating subject: wrapping alone cannot
+                      save a line whose single longest item is wider than a
+                      phone, and "Cardiovascular" beside a date and a count is
+                      exactly that. */}
+                  <p className="mt-0.5 flex min-w-0 flex-wrap items-center gap-x-2 text-[11.5px] text-ink-3">
                     <span>{formatLongDate(new Date(entry.startedAt))}</span>
                     <span aria-hidden>·</span>
                     <span>{entry.answered} {entry.answered === 1 ? t('question') : t('questions')}</span>
                     {entry.subjectIds.slice(0, 2).map((subjectId) => (
-                      <span key={subjectId} className="inline-flex items-center gap-1"><SubjectDot id={subjectId} />{getSubject(subjectId).name}</span>
+                      <span key={subjectId} className="inline-flex min-w-0 max-w-full items-center gap-1">
+                        <SubjectDot id={subjectId} />
+                        <span className="truncate">{getSubject(subjectId).name}</span>
+                      </span>
                     ))}
                   </p>
                 </div>
