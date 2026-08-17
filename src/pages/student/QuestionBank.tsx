@@ -25,10 +25,12 @@ import {
   MoreHorizontal,
   Square,
   Eye,
+  PenLine,
   Trash2,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
-import { bySession, type SessionSummary } from '@/data/attemptStats'
+import type { AttemptRecord } from '@/data/attempts'
+import { bySession, sessionDetail, type SessionDetail, type SessionSummary } from '@/data/attemptStats'
 import { formatLongDate } from '@/lib/format'
 import { getSubject } from '@/data/subjects'
 import { accuracyOf, bySubject as accuracyBySubject, currentStreak, dailyCounts, distinctItems, weakest } from '@/data/attemptStats'
@@ -230,39 +232,146 @@ interface LiveSession {
 const ACTIVE_SESSION_STORAGE_KEY = 'synapse.qbank.activeSession.v1'
 const SESSION_NAMES_STORAGE_KEY = 'synapse.qbank.sessionNames.v1'
 
+/** One number with its name under it, for the row of figures on a sitting. */
+function DetailStat({ label, value, tone }: { label: string; value: string; tone?: 'good' | 'bad' }) {
+  return (
+    <div>
+      <p className={cn(
+        'tnum font-mono text-[17px] font-semibold leading-none',
+        tone === 'good' ? 'text-success' : tone === 'bad' ? 'text-danger' : 'text-ink',
+      )}>{value}</p>
+      <p className="mt-1 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{label}</p>
+    </div>
+  )
+}
+
 /**
- * Tests already taken.
+ * Everything one sitting can say about itself.
+ *
+ * All of it derived from the records that sitting produced — see
+ * `sessionDetail`. Nothing here is stored a second time, so deleting a test
+ * changes these figures the same way it changes every other number in the app.
+ */
+function SessionDetailPanel({
+  detail,
+  seconds,
+  t,
+}: {
+  detail: SessionDetail
+  seconds: number
+  t: (key: string) => string
+}) {
+  const minutes = Math.round(seconds / 60)
+  return (
+    <div className="border-t border-line bg-surface-2/40 px-4 py-4 sm:px-5">
+      <div className="flex flex-wrap gap-x-8 gap-y-4">
+        <DetailStat label={t('Right')} value={String(detail.correct)} tone={detail.correct > 0 ? 'good' : undefined} />
+        <DetailStat label={t('Wrong')} value={String(detail.wrong)} tone={detail.wrong > 0 ? 'bad' : undefined} />
+        {/* Only shown when there is one. A nought here would invite the student
+            to wonder what they had failed to have marked. */}
+        {detail.unmarked > 0 && <DetailStat label={t('Unmarked')} value={String(detail.unmarked)} />}
+        <DetailStat label={t('Accuracy')} value={detail.accuracy == null ? '—' : `${Math.round(detail.accuracy * 100)}%`} />
+        {seconds > 0 && <DetailStat label={t('Time')} value={minutes >= 1 ? `${minutes}m` : `${seconds}s`} />}
+        {detail.medianSeconds != null && <DetailStat label={t('Median / question')} value={`${detail.medianSeconds}s`} />}
+      </div>
+
+      {detail.subjects.length > 1 && (
+        <div className="mt-4">
+          <p className="mb-2 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('By subject')}</p>
+          <ul className="space-y-1.5">
+            {detail.subjects.map((subject) => (
+              <li key={subject.key} className="flex items-center gap-2.5 text-[12px]">
+                <span className="inline-flex min-w-0 flex-1 items-center gap-1.5 text-ink-2">
+                  <SubjectDot id={subject.key} />
+                  <span className="truncate">{getSubject(subject.key).name}</span>
+                </span>
+                <Meter value={subject.accuracy == null ? 0 : Math.round(subject.accuracy * 100)} className="w-24 shrink-0" />
+                <span className="tnum w-16 shrink-0 text-end font-mono text-ink-3">
+                  {subject.accuracy == null ? '—' : `${subject.correct}/${subject.marked}`}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {detail.missed.length > 0 && (
+        <div className="mt-4">
+          <p className="mb-2 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Where you lost marks')}</p>
+          <ul className="flex flex-wrap gap-1.5">
+            {detail.missed.map((topic) => (
+              <li
+                key={topic.key}
+                className="inline-flex items-center gap-1.5 rounded-full border border-danger/25 bg-danger-tint/60 px-2.5 py-0.5 text-[11.5px] text-ink-2"
+              >
+                {topic.key}
+                <span className="tnum font-mono text-[10.5px] text-danger">{topic.marked - topic.correct}</span>
+              </li>
+            ))}
+          </ul>
+          {/* Named separately from the list above, because "you got one wrong"
+              and "you do not know this" are different claims. */}
+          {detail.weakestTopic && (
+            <p className="mt-2 text-[11.5px] text-ink-3">
+              {t('Weakest here')}: <span className="font-medium text-ink-2">{detail.weakestTopic.key}</span>
+              {' '}({detail.weakestTopic.correct}/{detail.weakestTopic.marked})
+            </p>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
+
+/**
+ * Tests already taken, and what to do about them.
  *
  * Reconstructed from the attempt log rather than stored twice: every record has
  * always carried the sessionId of the sitting that produced it, and nothing ever
  * read it back, so a student had no way to see what they had done.
+ *
+ * A row used to carry a name, a date, a count and one accuracy figure, with
+ * every action buried behind a "…" menu — so the most useful thing a finished
+ * test can offer, which is sitting it again, was three interactions deep and
+ * did not exist. It opens onto its own numbers, and the two ways of taking it
+ * again are one press each.
  */
 function PreviousTests({
   sessions,
   names,
   liveSessionId,
+  records,
   onRename,
   onResume,
   onTerminate,
   onReview,
+  onRetakeSame,
+  onRetakeScope,
   onDelete,
   canReview,
+  canRetakeSame,
   t,
 }: {
   sessions: SessionSummary[]
   names: Record<string, string>
   /** The sitting still in progress, if there is one. */
   liveSessionId: string | null
+  /** The whole log; each row reads only its own sitting out of it. */
+  records: AttemptRecord[]
   onRename: (sessionId: string, name: string) => void
   onResume: () => void
   onTerminate: () => void
   onReview: (sessionId: string) => void
+  onRetakeSame: (sessionId: string) => void
+  onRetakeScope: (entry: SessionSummary) => void
   onDelete: (sessionId: string) => void
   canReview: (sessionId: string) => boolean
+  canRetakeSame: (sessionId: string) => boolean
   t: (key: string) => string
 }) {
   const [editing, setEditing] = useState<string | null>(null)
   const [draft, setDraft] = useState('')
+  const [expanded, setExpanded] = useState<string | null>(null)
   const [menu, setMenu] = useState<{ sessionId: string; x: number; y: number } | null>(null)
   const [confirmDelete, setConfirmDelete] = useState<string | null>(null)
 
@@ -284,60 +393,105 @@ function PreviousTests({
         {sessions.map((entry) => {
           const name = names[entry.sessionId]?.trim() || t('Untitled test')
           const isEditing = editing === entry.sessionId
+          const isOpen = expanded === entry.sessionId
+          const live = entry.sessionId === liveSessionId
           return (
-            <li key={entry.sessionId} className="flex flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3.5">
-              <div className="min-w-0 flex-1">
-                {isEditing ? (
-                  <form
-                    onSubmit={(event) => { event.preventDefault(); onRename(entry.sessionId, draft.trim()); setEditing(null) }}
-                    className="flex items-center gap-2"
-                  >
-                    <TextInput
-                      value={draft}
-                      autoFocus
-                      maxLength={60}
-                      onChange={(event) => setDraft(event.target.value)}
-                      onBlur={() => { onRename(entry.sessionId, draft.trim()); setEditing(null) }}
-                      aria-label={t('Test name')}
-                    />
-                  </form>
-                ) : (
-                  <button
-                    type="button"
-                    onClick={() => { setDraft(names[entry.sessionId] ?? ''); setEditing(entry.sessionId) }}
-                    className="block max-w-full truncate text-start text-[13.5px] font-semibold text-ink hover:text-accent-strong"
-                    title={t('Rename')}
-                  >
-                    {name}
-                  </button>
-                )}
-                <p className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[11.5px] text-ink-3">
-                  <span>{formatLongDate(new Date(entry.startedAt))}</span>
-                  <span aria-hidden>·</span>
-                  <span>{entry.answered} {entry.answered === 1 ? t('question') : t('questions')}</span>
-                  {entry.subjectIds.slice(0, 2).map((subjectId) => (
-                    <span key={subjectId} className="inline-flex items-center gap-1"><SubjectDot id={subjectId} />{getSubject(subjectId).name}</span>
-                  ))}
-                </p>
+            <li key={entry.sessionId}>
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3.5">
+                <button
+                  type="button"
+                  onClick={() => setExpanded(isOpen ? null : entry.sessionId)}
+                  aria-expanded={isOpen}
+                  aria-label={`${isOpen ? t('Hide') : t('Show')} ${name}`}
+                  className="grid size-7 shrink-0 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink"
+                >
+                  <Icon icon={ChevronDown} size={15} className={cn('transition-transform duration-150', !isOpen && '-rotate-90 rtl:rotate-90')} />
+                </button>
+                <div className="min-w-0 flex-1">
+                  {isEditing ? (
+                    <form
+                      onSubmit={(event) => { event.preventDefault(); onRename(entry.sessionId, draft.trim()); setEditing(null) }}
+                      className="flex items-center gap-2"
+                    >
+                      <TextInput
+                        value={draft}
+                        autoFocus
+                        maxLength={60}
+                        onChange={(event) => setDraft(event.target.value)}
+                        onBlur={() => { onRename(entry.sessionId, draft.trim()); setEditing(null) }}
+                        aria-label={t('Test name')}
+                      />
+                    </form>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => { setDraft(names[entry.sessionId] ?? ''); setEditing(entry.sessionId) }}
+                      className="block max-w-full truncate text-start text-[13.5px] font-semibold text-ink hover:text-accent-strong"
+                      title={t('Rename')}
+                    >
+                      {name}
+                    </button>
+                  )}
+                  <p className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[11.5px] text-ink-3">
+                    <span>{formatLongDate(new Date(entry.startedAt))}</span>
+                    <span aria-hidden>·</span>
+                    <span>{entry.answered} {entry.answered === 1 ? t('question') : t('questions')}</span>
+                    {entry.subjectIds.slice(0, 2).map((subjectId) => (
+                      <span key={subjectId} className="inline-flex items-center gap-1"><SubjectDot id={subjectId} />{getSubject(subjectId).name}</span>
+                    ))}
+                  </p>
+                </div>
+                {live && <Badge tone="warning">{t('In progress')}</Badge>}
+                {/* An unmarked sitting shows a dash, not a nought: nobody scored it. */}
+                <span className="tnum shrink-0 font-mono text-[15px] font-semibold text-ink">
+                  {entry.accuracy == null ? '—' : `${Math.round(entry.accuracy * 100)}%`}
+                </span>
+                <IconButton
+                  icon={MoreHorizontal}
+                  label={`${t('Actions for')} ${name}`}
+                  size="sm"
+                  onClick={(event) => {
+                    const rect = (event.currentTarget as HTMLElement).getBoundingClientRect()
+                    setMenu({ sessionId: entry.sessionId, x: rect.left, y: rect.bottom + 4 })
+                  }}
+                />
               </div>
-              {entry.sessionId === liveSessionId && (
-                <Badge tone="warning">{t('In progress')}</Badge>
+
+              {isOpen && (
+                <>
+                  <SessionDetailPanel detail={sessionDetail(records, entry.sessionId)} seconds={entry.seconds} t={t} />
+                  {/* Out of the menu and onto the surface. Sitting a test again
+                      is the most useful thing a finished test offers, and it
+                      was not offered at all. */}
+                  <div className="flex flex-wrap gap-2 border-t border-line bg-surface-2/40 px-4 pb-4 sm:px-5">
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      iconLeft={RotateCcw}
+                      disabled={!canRetakeSame(entry.sessionId)}
+                      title={canRetakeSame(entry.sessionId) ? undefined : t('None of these questions are published any more')}
+                      onClick={() => onRetakeSame(entry.sessionId)}
+                    >
+                      {t('Retake these questions')}
+                    </Button>
+                    <Button size="sm" variant="secondary" iconLeft={Shuffle} onClick={() => onRetakeScope(entry)}>
+                      {t('New test, same scope')}
+                    </Button>
+                    <Button
+                      size="sm"
+                      variant="ghost"
+                      iconLeft={Eye}
+                      disabled={!canReview(entry.sessionId)}
+                      onClick={() => onReview(entry.sessionId)}
+                    >
+                      {t('Review answers')}
+                    </Button>
+                    {live && (
+                      <Button size="sm" variant="ghost" iconLeft={Play} onClick={onResume}>{t('Resume this test')}</Button>
+                    )}
+                  </div>
+                </>
               )}
-              {/* An unmarked sitting shows a dash, not a nought: nobody scored it. */}
-              <span className="tnum shrink-0 font-mono text-[15px] font-semibold text-ink">
-                {entry.accuracy == null ? '—' : `${Math.round(entry.accuracy * 100)}%`}
-              </span>
-              {/* A sitting could be renamed and nothing else — not resumed, not
-                  reopened, not removed. */}
-              <IconButton
-                icon={MoreHorizontal}
-                label={`${t('Actions for')} ${name}`}
-                size="sm"
-                onClick={(event) => {
-                  const rect = (event.currentTarget as HTMLElement).getBoundingClientRect()
-                  setMenu({ sessionId: entry.sessionId, x: rect.left, y: rect.bottom + 4 })
-                }}
-              />
             </li>
           )
         })}
@@ -354,11 +508,24 @@ function PreviousTests({
               { id: 'terminate', label: t('End this test'), icon: Square, onSelect: onTerminate },
             ] : []),
             {
+              id: 'retake',
+              label: t('Retake these questions'),
+              icon: RotateCcw,
+              disabled: !canRetakeSame(menu.sessionId),
+              onSelect: () => onRetakeSame(menu.sessionId),
+            },
+            {
               id: 'review',
               label: t('Review answers'),
               icon: Eye,
               disabled: !canReview(menu.sessionId),
               onSelect: () => onReview(menu.sessionId),
+            },
+            {
+              id: 'rename',
+              label: t('Rename'),
+              icon: PenLine,
+              onSelect: () => { setDraft(names[menu.sessionId] ?? ''); setEditing(menu.sessionId) },
             },
             {
               id: 'delete',
@@ -615,10 +782,16 @@ export function QuestionBank() {
    * which is what every quick-start button did on a bank with no published
    * questions in it.
    */
-  function beginSession(picked: Question[]) {
+  function beginSession(picked: Question[], name?: string) {
     if (!picked.length) return
+    // The id is minted here and named here, in one place. Callers used to write
+    // the name against whatever `sessionId` happened to hold, and then this
+    // replaced it — so every test a student named was filed under the previous
+    // id and appeared in their history as "Untitled test".
+    const id = newSessionId()
+    if (name?.trim()) setSavedNames((current) => ({ ...current, [id]: name.trim() }))
     setSession(picked)
-    setSessionId(newSessionId())
+    setSessionId(id)
     setIdx(0)
     setAnswers({})
     setChecked({})
@@ -654,6 +827,39 @@ export function QuestionBank() {
       .map((itemId) => questions.find((question) => question.id === itemId))
       .filter((question): question is Question => Boolean(question))
   }, [history.records, questions])
+
+  /**
+   * Sit the same questions again, as a new test.
+   *
+   * A new session id, so this is a second sitting rather than an edit of the
+   * first: both stay in the history and the comparison between them is the
+   * whole point. Reshuffled, because remembering that the answer to number four
+   * was B is not the same as knowing it.
+   */
+  function retakeSameQuestions(previousId: string) {
+    const rebuilt = reviewableQuestions(previousId)
+    if (!rebuilt.length) return
+    beginSession(shuffle(rebuilt), `${savedNames[previousId]?.trim() || t('Untitled test')} · ${t('retake')}`)
+  }
+
+  /**
+   * A fresh test over the same ground.
+   *
+   * The subjects that sitting covered, drawn from everything published in them
+   * — including the questions it asked, since a bank rarely holds enough to
+   * exclude them and silently returning four questions for a twenty-question
+   * retake would be worse than repeating some.
+   */
+  function retakeSameScope(entry: SessionSummary) {
+    const wanted = new Set(entry.subjectIds)
+    const pool = questions.filter((question) => wanted.has(question.subjectId))
+    if (!pool.length) return
+    const scopeName = entry.subjectIds.length === 1 ? getSubject(entry.subjectIds[0]).name : t('Mixed')
+    beginSession(
+      shuffle(pool).slice(0, Math.min(Math.max(entry.answered, 1), pool.length)),
+      `${scopeName} · ${t('Test')} ${sessionSummaries.length + 1}`,
+    )
+  }
 
   /** Put a finished sitting back on screen, read-only, with its answers. */
   function reviewSession(sessionId: string) {
@@ -718,12 +924,19 @@ export function QuestionBank() {
   function start() {
     // Named now rather than when it ends: a sitting abandoned halfway still
     // produced records, and those should not appear as an unnamed row.
-    setSavedNames((current) => ({ ...current, [sessionId]: sessionName.trim() || autoSessionName }))
-    beginSession(shuffle(available).slice(0, Math.min(count, available.length)))
+    beginSession(shuffle(available).slice(0, Math.min(count, available.length)), sessionName.trim() || autoSessionName)
   }
 
   function startPreset(kind: 'weak' | 'emergency' | 'demanding' | 'everything') {
-    beginSession(shuffle(presetPool(kind)).slice(0, count))
+    const labels = {
+      weak: t('Your weakest topics'),
+      emergency: t('Emergencies only'),
+      demanding: t('Demanding questions'),
+      everything: t('Everything, shuffled'),
+    }
+    // A quick start produced records under a name nobody had written, so every
+    // one of them arrived in the history as "Untitled test".
+    beginSession(shuffle(presetPool(kind)).slice(0, count), labels[kind])
   }
 
   const stats = useMemo(() => {
@@ -803,12 +1016,16 @@ export function QuestionBank() {
             sessions={sessionSummaries}
             names={savedNames}
             liveSessionId={saved?.sessionId ?? null}
+            records={history.records}
             onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
             onResume={resumeSaved}
             onTerminate={discardSession}
             onReview={reviewSession}
+            onRetakeSame={retakeSameQuestions}
+            onRetakeScope={retakeSameScope}
             onDelete={deleteSession}
             canReview={(sessionId) => reviewableQuestions(sessionId).length > 0}
+            canRetakeSame={(sessionId) => reviewableQuestions(sessionId).length > 0}
             t={t}
           />
         ) : (
