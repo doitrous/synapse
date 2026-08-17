@@ -125,10 +125,10 @@ export function Concepts({ study }: { study: AdaptiveStudy }) {
                 <Th>Concept</Th>
                 <Th>Status</Th>
                 <Th>Mastery</Th>
-                <Th align="right">Items</Th>
-                <Th align="right">Wrong</Th>
-                <Th align="right">Next review</Th>
-                <Th align="right">Scope</Th>
+                <Th align="end">Items</Th>
+                <Th align="end">Wrong</Th>
+                <Th align="end">Next review</Th>
+                <Th align="end">Scope</Th>
               </tr>
             </thead>
             <tbody>
@@ -159,10 +159,10 @@ export function Concepts({ study }: { study: AdaptiveStudy }) {
                       <span className="text-[12px] text-ink-3">Not enough evidence</span>
                     )}
                   </Td>
-                  <Td align="right" className="tnum font-mono text-[12.5px]">{row.state?.distinctItems ?? 0}</Td>
-                  <Td align="right" className="tnum font-mono text-[12.5px]">{row.state?.rawWrong ?? 0}</Td>
-                  <Td align="right" className="tnum font-mono text-[12.5px] text-ink-2">{formatDate(row.state?.nextReviewAt ?? null)}</Td>
-                  <Td align="right">
+                  <Td align="end" className="tnum font-mono text-[12.5px]">{row.state?.distinctItems ?? 0}</Td>
+                  <Td align="end" className="tnum font-mono text-[12.5px]">{row.state?.rawWrong ?? 0}</Td>
+                  <Td align="end" className="tnum font-mono text-[12.5px] text-ink-2">{formatDate(row.state?.nextReviewAt ?? null)}</Td>
+                  <Td align="end">
                     <Select
                       value={row.override?.mode ?? 'normal'}
                       onChange={(event) => setOverride(row.conceptId, event.target.value as ConceptOverride['mode'])}

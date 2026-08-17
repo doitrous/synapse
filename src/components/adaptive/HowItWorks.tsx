@@ -130,13 +130,13 @@ export function HowItWorks({ study }: { study: AdaptiveStudy }) {
           </p>
           <Table>
             <thead>
-              <tr><Th>{t('Need')}</Th><Th align="right">{t('Share of your next block')}</Th></tr>
+              <tr><Th>{t('Need')}</Th><Th align="end">{t('Share of your next block')}</Th></tr>
             </thead>
             <tbody>
               {ALLOCATION_NEEDS.map((need) => (
                 <Tr key={need}>
                   <Td>{t(NEED_LABEL[need])}</Td>
-                  <Td align="right" className="tnum font-mono text-[12.5px]">{percent(study.shares[need])}</Td>
+                  <Td align="end" className="tnum font-mono text-[12.5px]">{percent(study.shares[need])}</Td>
                 </Tr>
               ))}
             </tbody>
@@ -194,12 +194,12 @@ export function HowItWorks({ study }: { study: AdaptiveStudy }) {
         <PanelHeader title={t('Provenance')} icon={ScrollText} />
         <Table>
           <thead>
-            <tr><Th>{t('Field')}</Th><Th align="right">{t('Value')}</Th></tr>
+            <tr><Th>{t('Field')}</Th><Th align="end">{t('Value')}</Th></tr>
           </thead>
           <tbody>
             <Tr>
               <Td>{t('Most recent evidence')}</Td>
-              <Td align="right" className="tnum font-mono text-[12.5px]">
+              <Td align="end" className="tnum font-mono text-[12.5px]">
                 {/* Formatted in the reading language, not the browser's. A page
                     otherwise entirely in Arabic should not date itself in English. */}
                 {lastEvidence ? new Date(lastEvidence).toLocaleDateString(lang === 'ar' ? 'ar-EG' : undefined) : t('None yet')}
@@ -207,21 +207,21 @@ export function HowItWorks({ study }: { study: AdaptiveStudy }) {
             </Tr>
             <Tr>
               <Td>{t('Answers recorded')}</Td>
-              <Td align="right" className="tnum font-mono text-[12.5px]">{rawWrong + correctAnswers}</Td>
+              <Td align="end" className="tnum font-mono text-[12.5px]">{rawWrong + correctAnswers}</Td>
             </Tr>
             <Tr>
               <Td>{t('Algorithm version')}</Td>
-              <Td align="right" className="tnum font-mono text-[12.5px]">v{study.config.version}</Td>
+              <Td align="end" className="tnum font-mono text-[12.5px]">v{study.config.version}</Td>
             </Tr>
             <Tr>
               <Td>{t('Blueprint')}</Td>
-              <Td align="right" className="tnum font-mono text-[12.5px]">
+              <Td align="end" className="tnum font-mono text-[12.5px]">
                 {study.blueprint.stored ? `v${study.blueprint.stored.version}` : t('Derived from concept weights')}
               </Td>
             </Tr>
             <Tr>
               <Td>{t('Concepts in scope')}</Td>
-              <Td align="right" className="tnum font-mono text-[12.5px]">{study.blueprint.nodes.length}</Td>
+              <Td align="end" className="tnum font-mono text-[12.5px]">{study.blueprint.nodes.length}</Td>
             </Tr>
           </tbody>
         </Table>

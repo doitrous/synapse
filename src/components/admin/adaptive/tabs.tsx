@@ -594,21 +594,21 @@ export function PlanningTab({ draft, setDraft }: { draft: Draft; setDraft: SetDr
         <Table>
           <thead>
             <tr>
-              <Th align="right">Days</Th>
+              <Th align="end">Days</Th>
               <Th>Emphasis</Th>
               <Th>Assessment cadence</Th>
               <Th>Recovery policy</Th>
-              <Th align="right">Coverage share</Th>
+              <Th align="end">Coverage share</Th>
             </tr>
           </thead>
           <tbody>
             {[...draft.crashHorizons].sort((a, b) => a.days - b.days).map((band) => (
               <Tr key={band.days}>
-                <Td align="right" className="tnum font-mono text-[12.5px]">{band.days}</Td>
+                <Td align="end" className="tnum font-mono text-[12.5px]">{band.days}</Td>
                 <Td className="text-[12.5px]">{band.emphasis}</Td>
                 <Td className="text-[12.5px] text-ink-2">{band.assessmentCadence}</Td>
                 <Td className="text-[12.5px] text-ink-2">{band.recoveryPolicy}</Td>
-                <Td align="right" className="tnum font-mono text-[12.5px]">{Math.round(band.shares.coverage * 100)}%</Td>
+                <Td align="end" className="tnum font-mono text-[12.5px]">{Math.round(band.shares.coverage * 100)}%</Td>
               </Tr>
             ))}
           </tbody>

@@ -9,19 +9,50 @@ export function Table({ children, className }: { children: ReactNode; className?
   )
 }
 
+/**
+ * Where a cell's content sits, in reading order rather than on the screen.
+ *
+ * `end` is the trailing edge: physically right in English, physically left in
+ * Arabic. The prop was once `left`/`right`, which meant every numeric column in
+ * the app stayed pinned to the physical right in Arabic — jammed against the
+ * label column instead of hanging off the outer edge, so a table of figures
+ * read as though the columns had been shuffled.
+ *
+ * `center` has no direction and is spelled the same either way.
+ */
+export type CellAlign = 'start' | 'end' | 'center'
+
+const ALIGN: Record<CellAlign, string> = {
+  start: 'text-start',
+  end: 'text-end',
+  center: 'text-center',
+}
+
+/**
+ * `align` is ours, not the HTML attribute.
+ *
+ * `ThHTMLAttributes` still carries the deprecated presentational `align`, typed
+ * `left | center | right | justify | char`. Intersecting rather than omitting it
+ * silently narrows this prop to their overlap — which is how the physical names
+ * ended up here in the first place: `left`/`right` were the only values the
+ * intersection permitted, so the component's API was being dictated by an
+ * attribute from HTML 4 that it never renders.
+ */
+type CellProps<T> = Omit<T, 'align'> & { align?: CellAlign }
+
 export function Th({
   children,
   className,
-  align = 'left',
+  align = 'start',
   ...props
-}: ThHTMLAttributes<HTMLTableCellElement> & { align?: 'left' | 'right' | 'center' }) {
+}: CellProps<ThHTMLAttributes<HTMLTableCellElement>>) {
   return (
     <th
       className={cn(
         'border-b border-line px-3 py-2.5 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3',
-        align === 'right' && 'text-right',
-        align === 'center' && 'text-center',
-        align === 'left' && 'text-left',
+        // Always emitted: a `th` defaults to centred, so start alignment has to
+        // be stated rather than left to the browser the way a `td` can be.
+        ALIGN[align],
         className,
       )}
       {...props}
@@ -34,15 +65,14 @@ export function Th({
 export function Td({
   children,
   className,
-  align = 'left',
+  align = 'start',
   ...props
-}: TdHTMLAttributes<HTMLTableCellElement> & { align?: 'left' | 'right' | 'center' }) {
+}: CellProps<TdHTMLAttributes<HTMLTableCellElement>>) {
   return (
     <td
       className={cn(
         'border-b border-line px-3 py-3 text-ink',
-        align === 'right' && 'text-right',
-        align === 'center' && 'text-center',
+        ALIGN[align],
         className,
       )}
       {...props}

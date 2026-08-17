@@ -1175,7 +1175,7 @@ export function QuestionBank() {
                     tone="accent"
                     className="w-28"
                   />
-                  <span className="tnum w-12 text-right font-mono text-[12.5px] text-ink-2">
+                  <span className="tnum w-12 text-end font-mono text-[12.5px] text-ink-2">
                     {rec.correct}/{rec.total}
                   </span>
                 </div>

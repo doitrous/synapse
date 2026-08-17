@@ -194,7 +194,7 @@ export function Performance() {
             <p className="p-8 text-center text-[13px] text-ink-3">{t('No subject has enough marked answers to report on yet.')}</p>
           ) : (
             <Table>
-              <thead><Tr><Th>{t('Subject')}</Th><Th align="right">{t('Attempts')}</Th><Th align="right">{t('Marked')}</Th><Th align="right">{t('Correct')}</Th><Th align="right" className="pr-4">{t('Accuracy')}</Th></Tr></thead>
+              <thead><Tr><Th>{t('Subject')}</Th><Th align="end">{t('Attempts')}</Th><Th align="end">{t('Marked')}</Th><Th align="end">{t('Correct')}</Th><Th align="end" className="pr-4">{t('Accuracy')}</Th></Tr></thead>
               <tbody>
                 {[...subjects].sort((a, b) => (b.accuracy ?? 0) - (a.accuracy ?? 0)).map((row) => {
                   const subject = getSubject(row.key)
@@ -202,10 +202,10 @@ export function Performance() {
                   return (
                     <Tr key={row.key} hover>
                       <Td><span className="inline-flex items-center gap-2"><SubjectDot id={row.key} />{subject.name}</span></Td>
-                      <Td align="right" className="font-mono text-ink-2">{row.attempts}</Td>
-                      <Td align="right" className="font-mono text-ink-2">{row.marked}</Td>
-                      <Td align="right" className="font-mono text-ink-2">{row.correct}</Td>
-                      <Td align="right" className="pr-4"><span className={cn('font-mono font-semibold', pct !== null && pct < 60 ? 'text-danger' : pct !== null && pct < 80 ? 'text-warning' : 'text-success')}>{pct === null ? '—' : `${pct}%`}</span></Td>
+                      <Td align="end" className="font-mono text-ink-2">{row.attempts}</Td>
+                      <Td align="end" className="font-mono text-ink-2">{row.marked}</Td>
+                      <Td align="end" className="font-mono text-ink-2">{row.correct}</Td>
+                      <Td align="end" className="pr-4"><span className={cn('font-mono font-semibold', pct !== null && pct < 60 ? 'text-danger' : pct !== null && pct < 80 ? 'text-warning' : 'text-success')}>{pct === null ? '—' : `${pct}%`}</span></Td>
                     </Tr>
                   )
                 })}

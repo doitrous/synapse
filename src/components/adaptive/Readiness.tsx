@@ -196,8 +196,8 @@ export function Readiness({ study }: { study: AdaptiveStudy }) {
             <thead>
               <tr>
                 <Th>Area</Th>
-                <Th align="right">Answered</Th>
-                <Th align="right">Correct</Th>
+                <Th align="end">Answered</Th>
+                <Th align="end">Correct</Th>
                 <Th>Range</Th>
               </tr>
             </thead>
@@ -205,8 +205,8 @@ export function Readiness({ study }: { study: AdaptiveStudy }) {
               {latest.groups.map((group) => (
                 <Tr key={group.groupId}>
                   <Td>{group.groupLabel}</Td>
-                  <Td align="right" className="tnum font-mono text-[12.5px]">{group.answered}</Td>
-                  <Td align="right" className="tnum font-mono text-[12.5px]">{group.correct}</Td>
+                  <Td align="end" className="tnum font-mono text-[12.5px]">{group.answered}</Td>
+                  <Td align="end" className="tnum font-mono text-[12.5px]">{group.correct}</Td>
                   <Td>
                     {group.insufficient ? (
                       <span className="text-[12px] text-ink-3">Too few questions to report</span>
@@ -248,20 +248,20 @@ export function Readiness({ study }: { study: AdaptiveStudy }) {
             <thead>
               <tr>
                 <Th>Date</Th>
-                <Th align="right">Answered</Th>
-                <Th align="right">Omitted</Th>
+                <Th align="end">Answered</Th>
+                <Th align="end">Omitted</Th>
                 <Th>Range</Th>
-                <Th align="right">Model</Th>
+                <Th align="end">Model</Th>
               </tr>
             </thead>
             <tbody>
               {history.map((result) => (
                 <Tr key={result.id}>
                   <Td>{formatDate(result.at)}</Td>
-                  <Td align="right" className="tnum font-mono text-[12.5px]">{result.answered}</Td>
-                  <Td align="right" className="tnum font-mono text-[12.5px]">{result.omitted}</Td>
+                  <Td align="end" className="tnum font-mono text-[12.5px]">{result.answered}</Td>
+                  <Td align="end" className="tnum font-mono text-[12.5px]">{result.omitted}</Td>
                   <Td className="tnum font-mono text-[12.5px]">{rangeText(result.lower, result.upper)}</Td>
-                  <Td align="right"><Badge tone="outline">v{result.configVersion}</Badge></Td>
+                  <Td align="end"><Badge tone="outline">v{result.configVersion}</Badge></Td>
                 </Tr>
               ))}
             </tbody>

@@ -607,7 +607,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 <Th>Subject</Th>
                 <Th>Owner & updated</Th>
                 <Th>Status</Th>
-                <Th align="right" className="sticky right-0 bg-surface pr-4">Actions</Th>
+                <Th align="end" className="sticky right-0 bg-surface pr-4">Actions</Th>
               </tr>
             </thead>
             <tbody>
@@ -703,7 +703,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                 <p className="text-[10.5px] text-ink-3" title={formatDateTime(new Date(item.updatedAt))}>{relativeUpdated(item.updatedAt)}</p>
                               </Td>
                               <Td><StatusBadge status={item.status} /></Td>
-                              <Td align="right" className="sticky right-0 bg-inherit pr-4">
+                              <Td align="end" className="sticky right-0 bg-inherit pr-4">
                                 <div className="inline-flex items-center justify-end gap-1">
                                   <IconButton icon={Pencil} label={`Edit ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10" onClick={() => { setEditing(item); setEditorOpen(true) }} />
                                   {item.kind === 'question' && <IconButton icon={Flag} label={`Report “${item.title}” for editorial review`} size="sm" className="size-10" onClick={() => setReportTarget({ kind: 'question', id: item.id, title: item.title })} />}

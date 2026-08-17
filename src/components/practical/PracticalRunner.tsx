@@ -279,7 +279,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
         right={
           <div className="w-full space-y-2 sm:w-64">
             <Panel className="p-3">
-            <div className="text-right">
+            <div className="text-end">
             {/* The card was digits floating against empty space. Naming the
                 thing balances it and says what the number is. */}
             <div className="flex items-baseline justify-between gap-3">

@@ -211,9 +211,9 @@ export function AdaptiveSetup() {
                   <tr>
                     <Th>Concept</Th>
                     <Th>Group</Th>
-                    <Th align="right">Blueprint weight</Th>
-                    <Th align="right">Items</Th>
-                    <Th align="right">Practice items</Th>
+                    <Th align="end">Blueprint weight</Th>
+                    <Th align="end">Items</Th>
+                    <Th align="end">Practice items</Th>
                   </tr>
                 </thead>
                 <tbody>
@@ -221,9 +221,9 @@ export function AdaptiveSetup() {
                     <Tr key={entry.node.conceptId}>
                       <Td>{labels.get(entry.node.conceptId) ?? entry.node.label}</Td>
                       <Td className="text-ink-2">{entry.node.groupLabel}</Td>
-                      <Td align="right" className="tnum font-mono text-[12.5px]">{percent(entry.node.weight)}</Td>
-                      <Td align="right" className="tnum font-mono text-[12.5px]">{entry.total}</Td>
-                      <Td align="right" className="tnum font-mono text-[12.5px] text-danger">{entry.practice}</Td>
+                      <Td align="end" className="tnum font-mono text-[12.5px]">{percent(entry.node.weight)}</Td>
+                      <Td align="end" className="tnum font-mono text-[12.5px]">{entry.total}</Td>
+                      <Td align="end" className="tnum font-mono text-[12.5px] text-danger">{entry.practice}</Td>
                     </Tr>
                   ))}
                 </tbody>
@@ -297,10 +297,10 @@ export function AdaptiveSetup() {
                   <tr>
                     <Th>Name</Th>
                     <Th>Scope</Th>
-                    <Th align="right">Concepts</Th>
-                    <Th align="right">Version</Th>
-                    <Th align="right">Status</Th>
-                    <Th align="right" />
+                    <Th align="end">Concepts</Th>
+                    <Th align="end">Version</Th>
+                    <Th align="end">Status</Th>
+                    <Th align="end" />
                   </tr>
                 </thead>
                 <tbody>
@@ -308,14 +308,14 @@ export function AdaptiveSetup() {
                     <Tr key={entry.id}>
                       <Td>{entry.name}</Td>
                       <Td className="text-ink-2">{entry.universityId || 'Any'} · {entry.yearId || 'Any year'}</Td>
-                      <Td align="right" className="tnum font-mono text-[12.5px]">{entry.nodes.length}</Td>
-                      <Td align="right" className="tnum font-mono text-[12.5px]">v{entry.version}</Td>
-                      <Td align="right">
+                      <Td align="end" className="tnum font-mono text-[12.5px]">{entry.nodes.length}</Td>
+                      <Td align="end" className="tnum font-mono text-[12.5px]">v{entry.version}</Td>
+                      <Td align="end">
                         <Badge tone={entry.publishedAt ? 'success' : 'warning'} dot>
                           {entry.publishedAt ? 'Published' : 'Draft'}
                         </Badge>
                       </Td>
-                      <Td align="right">
+                      <Td align="end">
                         <Button
                           size="sm"
                           onClick={() => setBlueprints((current) => current.map((stored) =>
@@ -392,7 +392,7 @@ export function AdaptiveSetup() {
             </Caveat>
             <Table>
               <thead>
-                <tr><Th>Measure</Th><Th align="right">Status</Th></tr>
+                <tr><Th>Measure</Th><Th align="end">Status</Th></tr>
               </thead>
               <tbody>
                 {[
@@ -408,7 +408,7 @@ export function AdaptiveSetup() {
                 ].map((measure) => (
                   <Tr key={measure}>
                     <Td className="text-[13px]">{measure}</Td>
-                    <Td align="right">
+                    <Td align="end">
                       {/* Honest by construction: nothing here reports a number
                           until the data exists to compute it. */}
                       <Badge tone="outline">Not measurable yet</Badge>

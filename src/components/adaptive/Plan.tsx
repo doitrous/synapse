@@ -284,15 +284,15 @@ export function Plan({ study }: { study: AdaptiveStudy }) {
           <thead>
             <tr>
               <Th>Reading</Th>
-              <Th align="right">Minutes</Th>
+              <Th align="end">Minutes</Th>
             </tr>
           </thead>
           <tbody>
-            <Tr><Td>You said you have</Td><Td align="right" className="tnum font-mono">{plan.statedMinutes}</Td></Tr>
-            <Tr><Td>Planned</Td><Td align="right" className="tnum font-mono">{plan.plannedMinutes}</Td></Tr>
+            <Tr><Td>You said you have</Td><Td align="end" className="tnum font-mono">{plan.statedMinutes}</Td></Tr>
+            <Tr><Td>Planned</Td><Td align="end" className="tnum font-mono">{plan.plannedMinutes}</Td></Tr>
             <Tr>
               <Td>Deliberately left free</Td>
-              <Td align="right" className="tnum font-mono text-accent-strong">{plan.bufferMinutes}</Td>
+              <Td align="end" className="tnum font-mono text-accent-strong">{plan.bufferMinutes}</Td>
             </Tr>
           </tbody>
         </Table>

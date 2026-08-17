@@ -85,13 +85,13 @@ export function PaymentsFinance() {
         <Panel className="overflow-hidden">
           <PanelHeader title="Universities head-to-head" hint="Revenue · students · ARPU" />
           <Table>
-            <thead><tr><Th className="pl-4">University</Th><Th align="right">Students</Th><Th align="right">Revenue</Th><Th align="right">ARPU</Th><Th className="pr-4">Share</Th></tr></thead>
+            <thead><tr><Th className="pl-4">University</Th><Th align="end">Students</Th><Th align="end">Revenue</Th><Th align="end">ARPU</Th><Th className="pr-4">Share</Th></tr></thead>
             <tbody>{byUniversity.map((u) => (
               <Tr key={u.id} hover>
                 <Td className="pl-4 font-medium">{u.short}</Td>
-                <Td align="right" className="tnum font-mono text-ink-2">{u.students}</Td>
-                <Td align="right" className="tnum font-mono">{egp(u.revenue)}</Td>
-                <Td align="right" className="tnum font-mono text-ink-2">{egp(u.arpu)}</Td>
+                <Td align="end" className="tnum font-mono text-ink-2">{u.students}</Td>
+                <Td align="end" className="tnum font-mono">{egp(u.revenue)}</Td>
+                <Td align="end" className="tnum font-mono text-ink-2">{egp(u.arpu)}</Td>
                 <Td className="pr-4"><Meter value={(u.revenue / maxUni) * 100} tone="accent" className="w-24" /></Td>
               </Tr>
             ))}</tbody>
@@ -100,13 +100,13 @@ export function PaymentsFinance() {
         <Panel className="overflow-hidden">
           <PanelHeader title="Years head-to-head" hint="Revenue · students · ARPU" />
           <Table>
-            <thead><tr><Th className="pl-4">Year</Th><Th align="right">Students</Th><Th align="right">Revenue</Th><Th align="right">ARPU</Th><Th className="pr-4">Share</Th></tr></thead>
+            <thead><tr><Th className="pl-4">Year</Th><Th align="end">Students</Th><Th align="end">Revenue</Th><Th align="end">ARPU</Th><Th className="pr-4">Share</Th></tr></thead>
             <tbody>{byYear.map((y) => (
               <Tr key={y.year} hover>
                 <Td className="pl-4 font-medium">{y.year}</Td>
-                <Td align="right" className="tnum font-mono text-ink-2">{y.students}</Td>
-                <Td align="right" className="tnum font-mono">{egp(y.revenue)}</Td>
-                <Td align="right" className="tnum font-mono text-ink-2">{egp(y.arpu)}</Td>
+                <Td align="end" className="tnum font-mono text-ink-2">{y.students}</Td>
+                <Td align="end" className="tnum font-mono">{egp(y.revenue)}</Td>
+                <Td align="end" className="tnum font-mono text-ink-2">{egp(y.arpu)}</Td>
                 <Td className="pr-4"><Meter value={(y.revenue / maxYear) * 100} tone="success" className="w-24" /></Td>
               </Tr>
             ))}</tbody>
@@ -146,15 +146,15 @@ export function PaymentsFinance() {
       <Panel>
         <PanelHeader title="Recent transactions" />
         <Table>
-          <thead><tr><Th className="pl-4">Invoice</Th><Th>Student</Th><Th>Plan</Th><Th align="right">Amount</Th><Th>Status</Th><Th align="right" className="pr-4">Date</Th></tr></thead>
+          <thead><tr><Th className="pl-4">Invoice</Th><Th>Student</Th><Th>Plan</Th><Th align="end">Amount</Th><Th>Status</Th><Th align="end" className="pr-4">Date</Th></tr></thead>
           <tbody>{transactions.map((t) => (
             <Tr key={t.id} hover>
               <Td className="pl-4"><span className="tnum font-mono text-[12.5px] text-ink-2">{t.id}</span></Td>
               <Td><span className="tnum font-mono text-[12.5px] text-ink">{t.code}</span></Td>
               <Td className="text-ink-2">{t.plan}</Td>
-              <Td align="right" className="tnum font-mono">{t.amount}</Td>
+              <Td align="end" className="tnum font-mono">{t.amount}</Td>
               <Td><StatusBadge status={t.status} /></Td>
-              <Td align="right" className="whitespace-nowrap pr-4 text-[12.5px] text-ink-2">{t.date}</Td>
+              <Td align="end" className="whitespace-nowrap pr-4 text-[12.5px] text-ink-2">{t.date}</Td>
             </Tr>
           ))}</tbody>
         </Table>

@@ -69,7 +69,7 @@ export function Settings() {
             <thead>
               <tr>
                 <Th className="pl-4">Role</Th>
-                <Th align="right">Members</Th>
+                <Th align="end">Members</Th>
                 <Th className="pr-4">Access</Th>
               </tr>
             </thead>
@@ -77,7 +77,7 @@ export function Settings() {
               {roles.map((r) => (
                 <Tr key={r.name} hover>
                   <Td className="pl-4 font-medium">{r.name}</Td>
-                  <Td align="right" className="tnum font-mono text-ink-2">
+                  <Td align="end" className="tnum font-mono text-ink-2">
                     {r.members}
                   </Td>
                   <Td className="pr-4 text-[12.5px] text-ink-2">{r.description}</Td>

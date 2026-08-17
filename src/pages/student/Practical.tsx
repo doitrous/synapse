@@ -168,7 +168,7 @@ function OsceTab({ onOpen }: { onOpen: Open }) {
             </div>
             {s.kind === 'checklist' && <Badge tone="outline">Checklist</Badge>}
             <Badge tone={diffTone(s.difficulty)}>{s.difficulty}</Badge>
-            <div className="w-24 text-right">
+            <div className="w-24 text-end">
               {run ? (
                 <>
                   <p className="tnum font-mono text-[13px] font-medium text-ink">{bestPct}%</p>
