@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  This file is MERGED into the Info.plist Xcode generates, rather than
+	  replacing it (GENERATE_INFOPLIST_FILE is YES). So the standard keys —
+	  CFBundleIdentifier, CFBundleExecutable, versions, orientations — come from
+	  build settings and are deliberately absent here. Only what Xcode cannot
+	  derive belongs in this file.
+
+	  Build settings below are substituted at build time. The hosts carry no
+	  scheme because xcconfig treats `//` as a comment. See Config/Base.xcconfig.
+	-->
+	<key>SynapseAPIHost</key>
+	<string>$(API_HOST)</string>
+	<key>SupabaseHost</key>
+	<string>$(SUPABASE_HOST)</string>
+	<key>SupabaseAnonKey</key>
+	<string>$(SUPABASE_ANON_KEY)</string>
+
+	<!--
+	  The site's own typefaces, converted from the woff2 files it self-hosts
+	  rather than downloaded, so the app and the website are the same faces.
+	  All four are variable; see Theme.variable() for setting an exact weight.
+	-->
+	<key>UIAppFonts</key>
+	<array>
+		<string>SourceSerif4Variable.ttf</string>
+		<string>SourceSerif4Variable-Italic.ttf</string>
+		<string>GeistVariable.ttf</string>
+		<string>GeistMonoVariable.ttf</string>
+	</array>
+
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<!--
+	  Declaring both languages here is what makes iOS offer Arabic in the
+	  system language picker and mirror the interface for it.
+	-->
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>ar</string>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>

@@ -3,6 +3,10 @@ server/node_modules
 dist
 server/public
 .git
+# The iOS app is built by Xcode, not by this image. Stage 1 does `COPY . .`,
+# so without this its sources and bundled fonts ride along into every web
+# build for nothing.
+ios
 .env
 .env.*
 *.log

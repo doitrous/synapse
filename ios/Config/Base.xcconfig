@@ -1,0 +1,35 @@
+// Settings shared by every configuration.
+//
+// A note before editing: in an xcconfig, `//` starts a comment *anywhere on the
+// line*, so a value like `https://example.com` silently truncates to `https:`.
+// That is why the settings below hold bare hosts and the scheme is added in
+// Swift (see AppConfig). Keep it that way — a truncated URL fails at runtime
+// with a confusing error rather than at build time with a clear one.
+
+PRODUCT_BUNDLE_IDENTIFIER = com.synapse.app
+PRODUCT_NAME = Synapse
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 1
+
+IPHONEOS_DEPLOYMENT_TARGET = 18.0
+SWIFT_VERSION = 5.0
+TARGETED_DEVICE_FAMILY = 1,2
+
+INFOPLIST_FILE = Config/Info.plist
+ENABLE_USER_SCRIPT_SANDBOXING = YES
+SWIFT_EMIT_LOC_STRINGS = YES
+
+// Arabic is a first-class language, not a translation bolted on, so the app is
+// built to mirror from the start rather than being audited for it later.
+INFOPLIST_KEY_CFBundleDisplayName = Synapse
+INFOPLIST_KEY_UILaunchScreen_Generation = YES
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+
+// Where the app talks to. Hosts only — no scheme, see the note above.
+API_HOST = synapse.doitrous.com
+
+// Real values live in Secrets.xcconfig, which is gitignored. The optional
+// include means a fresh clone still builds; the app then shows a clear
+// "not configured" screen instead of failing to compile.
+#include? "Secrets.xcconfig"

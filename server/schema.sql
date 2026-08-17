@@ -332,6 +332,32 @@ CREATE TABLE IF NOT EXISTS user_documents (
   INDEX idx_user_documents_owner (user_id, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+/* Where to send a push notification.
+
+   The token is the primary key, not the user, because it identifies a device
+   and a device is what Apple delivers to. One person legitimately has several
+   (phone, iPad); the same phone can also be handed to someone else, or a second
+   student can sign in on it. Keying on the token means the later registration
+   simply moves that device to the new owner, so a notification meant for one
+   student cannot keep arriving on a device now signed in as another.
+
+   `environment` is recorded because a sandbox token is invalid against the
+   production APNs host and vice versa — sending to the wrong one fails for
+   every build that was not the one that registered.
+
+   Rows are deleted on sign-out and whenever Apple reports a token as gone. */
+CREATE TABLE IF NOT EXISTS device_tokens (
+  token        VARCHAR(255) PRIMARY KEY,
+  user_id      VARCHAR(64) NOT NULL,
+  platform     ENUM('ios') NOT NULL DEFAULT 'ios',
+  environment  ENUM('sandbox','production') NOT NULL DEFAULT 'production',
+  locale       VARCHAR(16) NULL,
+  app_version  VARCHAR(32) NULL,
+  created_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  last_seen_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_device_tokens_user (user_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 -- Who has asked not to receive which category of email.
 --
 -- One row per address per category, written when someone unsubscribes and read

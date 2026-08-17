@@ -35,6 +35,18 @@ server/node_modules
 # Personal Claude Code settings (may contain machine-specific permissions)
 .claude/settings.local.json
 
+# iOS
+# Per-machine Supabase configuration. `Secrets.example.xcconfig` is the
+# committed template; the real file is optional-included by Base.xcconfig, so a
+# fresh clone still builds and simply reports that it is not configured.
+ios/Config/Secrets.xcconfig
+ios/build/
+ios/DerivedData/
+ios/Synapse.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Synapse.xcodeproj/xcuserdata/
+# Resolved package versions live in the workspace; keep the pin, drop the noise.
+!ios/Synapse.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
 # The curriculum corpus: 7.4 GB of source PDFs and their extractions.
 # It lives in the project so tooling has a stable path, and must never be
 # committed — it is source material, not source code.
