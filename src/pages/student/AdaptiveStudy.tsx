@@ -30,7 +30,9 @@ import { Plan } from '@/components/adaptive/Plan'
 import { HowItWorks } from '@/components/adaptive/HowItWorks'
 import { useAdaptiveStudy } from '@/lib/adaptive/useAdaptiveStudy'
 import { useLatestReadiness } from '@/lib/adaptive/useReadiness'
+import { useT } from '@/lib/i18n'
 
+/** Labels are translated at render, so the English string stays the key. */
 const TABS = [
   { value: 'today', label: 'Today', icon: Compass },
   { value: 'practice', label: 'Practice', icon: PlayCircle },
@@ -44,25 +46,28 @@ export function AdaptiveStudy() {
   const [tab, setTab] = useState('today')
   const study = useAdaptiveStudy()
   const readiness = useLatestReadiness()
+  const t = useT()
+
+  const tabs = TABS.map((entry) => ({ ...entry, label: t(entry.label) }))
 
   return (
     <PageContainer>
       <PageHeader
-        title="Adaptive Study"
-        description="Synapse keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint."
+        title={t('Adaptive Study')}
+        description={t('Synapse keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.')}
         actions={
           <div className="flex flex-wrap items-center gap-2">
-            <Badge tone="outline">Algorithm v{study.config.version}</Badge>
+            <Badge tone="outline">{t('Algorithm')} v{study.config.version}</Badge>
             {study.daysToExam !== null && (
               <Badge tone="accent" dot>
-                <span className="tnum font-mono">{study.daysToExam}</span> days to exam
+                <span className="tnum font-mono">{study.daysToExam}</span> {t('days to exam')}
               </Badge>
             )}
           </div>
         }
       />
 
-      <Tabs items={TABS} value={tab} onChange={setTab} className="mb-5" />
+      <Tabs items={tabs} value={tab} onChange={setTab} className="mb-5" />
 
       {study.scopeUnknown ? (
         // Every figure on this page is scoped to a university and year. Rendering
@@ -70,8 +75,8 @@ export function AdaptiveStudy() {
         <Panel>
           <EmptyState
             icon={Compass}
-            title="Your university and year are not set"
-            description="Adaptive Study works against your own exam blueprint, so it needs to know which programme you are on. Set it in your account and this page will fill in."
+            title={t('Your university and year are not set')}
+            description={t('Adaptive Study works against your own exam blueprint, so it needs to know which programme you are on. Set it in your account and this page will fill in.')}
           />
         </Panel>
       ) : (
