@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { API_MODE, apiGet } from './api'
 import { usePersistentState } from './usePersistentState'
+import { retryAfterSignIn } from './stateStore'
 import { supabase } from './supabase'
 import { yearId as deriveYearId } from '@/data/taxonomy'
 
@@ -170,6 +171,11 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
         setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, metadataName: null, role: null, aal: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
         return
       }
+      // Documents read before the session was restored were refused with a 401
+      // and are sitting unread; a signed-in identity is what makes them
+      // readable. Without this the app boots empty and stays that way until the
+      // student reloads the page themselves.
+      retryAfterSignIn()
       setState({
         status: 'authenticated',
         userId: me.user.id,

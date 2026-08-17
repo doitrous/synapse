@@ -1,6 +1,7 @@
 import { API_MODE, errorKind, getState, getUserState, isRetryable, putState, putUserState, stateOwnerId, type StateErrorKind } from './api'
 import { isUserOwnedState } from './stateOwnership'
 import { recoveryCopyWins } from './statePrecedence'
+import { awaitsSession, hydrationRetryDelay, RETRY_MS } from './stateRetry'
 
 /**
  * One document per key, shared by every component that asks for it.
@@ -31,8 +32,6 @@ export interface PersistentStateStatus {
   /** True while a change is still on its way to the server. */
   pending: boolean
 }
-
-const RETRY_MS = 2_000
 
 /**
  * Long enough that typing a sentence is one request, short enough that a pause
@@ -68,6 +67,15 @@ interface Entry {
   retryTimer: number | null
   debounceTimer: number | null
   recoveryKey: string | null
+  /** Consecutive 401s on this document, which decide when to stop asking. */
+  unauthorizedAttempts: number
+  /**
+   * True when a 401 has run out of retries.
+   *
+   * The document is not abandoned — it is waiting for the one event that could
+   * change the answer. `retryAfterSignIn` clears this.
+   */
+  awaitingSession: boolean
 }
 
 const entries = new Map<string, Entry>()
@@ -117,6 +125,8 @@ export function ensureEntry<T>(key: string, initial: T | (() => T)): Entry {
     // has to wait for the account id, so that one account's unsent work can
     // never be adopted by the next account to sign in on this browser.
     recoveryKey: isUserOwnedState(key) ? null : `synapse.pending.v1:shared:${key}`,
+    unauthorizedAttempts: 0,
+    awaitingSession: false,
   }
   refreshSnapshot(entry)
   entries.set(key, entry)
@@ -185,6 +195,16 @@ async function flush(entry: Entry): Promise<void> {
       } catch (error) {
         const kind = errorKind(error)
         if (!isRetryable(kind)) {
+          if (awaitsSession(kind)) {
+            // Not a decision about this document — a request that went out
+            // without a usable token. Abandoning the write here would throw
+            // away work the student has already done, so the queued value and
+            // its crash-recovery copy are both kept and `retryAfterSignIn`
+            // sends them the moment a session arrives.
+            entry.awaitingSession = true
+            setStatus(entry, { error: kind, pending: true })
+            break
+          }
           // The server has decided about this document. Retrying would ask the
           // same question every two seconds and get the same answer, so the
           // change is abandoned and the surface is told why.
@@ -202,6 +222,8 @@ async function flush(entry: Entry): Promise<void> {
         break
       }
       entry.lastWritten = pending.serialized
+      entry.unauthorizedAttempts = 0
+      entry.awaitingSession = false
       if (entry.queued?.serialized === pending.serialized) {
         entry.queued = null
         dropRecoveryCopy(entry)
@@ -279,10 +301,16 @@ export function hydrate(key: string): void {
       // Never mark this hydrated: writing now would push the local seed over a
       // stored document we were simply unable to read.
       setStatus(entry, { error: remote.error })
-      if (isRetryable(remote.error)) {
-        window.setTimeout(() => { void attempt() }, RETRY_MS)
+      if (remote.error === 'unauthorized') entry.unauthorizedAttempts += 1
+      const delay = hydrationRetryDelay(remote.error, entry.unauthorizedAttempts)
+      if (delay != null) {
+        window.setTimeout(() => { void attempt() }, delay)
       } else {
+        // Out of tries. A 401 waits for a session rather than being written off:
+        // this document is read once per boot, and giving up on it silently is
+        // what left the library empty until the student reloaded by hand.
         entry.hydrating = false
+        entry.awaitingSession = awaitsSession(remote.error)
       }
       return
     }
@@ -319,12 +347,38 @@ export function hydrate(key: string): void {
 
     entry.hydrated = true
     entry.hydrating = false
+    entry.unauthorizedAttempts = 0
+    entry.awaitingSession = false
     setStatus(entry, { hydrated: true, error: null })
     notify(entry)
     void flush(entry)
   }
 
   void attempt()
+}
+
+/**
+ * Try again everything a missing session stopped.
+ *
+ * Called when identity resolves to authenticated — the arrival of a session is
+ * the only event that can turn a 401 into an answer. Documents that were never
+ * read are read now, and writes that were held rather than abandoned are sent.
+ *
+ * Documents refused for any other reason are left alone: a student who is not
+ * an admin will be refused an admin-only document just as firmly after signing
+ * in as before, and retrying it on every auth change is a request that can only
+ * ever fail.
+ */
+export function retryAfterSignIn(): void {
+  if (!API_MODE) return
+  for (const entry of entries.values()) {
+    if (!entry.awaitingSession) continue
+    entry.awaitingSession = false
+    entry.unauthorizedAttempts = 0
+    setStatus(entry, { error: null })
+    if (!entry.hydrated) hydrate(entry.key)
+    else if (entry.queued) void flush(entry)
+  }
 }
 
 /**
