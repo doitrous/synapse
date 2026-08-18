@@ -2,10 +2,9 @@ import Foundation
 
 /// What the pointer does right now.
 ///
-/// Mirrors `Tool` in `src/components/reader/InkSurface.tsx`. The shape, ruler
-/// and laser tools follow.
+/// Mirrors `Tool` in `src/components/reader/InkSurface.tsx`.
 enum ReaderTool: String, CaseIterable, Identifiable, Sendable {
-    case pan, pen, highlighter, eraser, lasso, note, textbox, tape
+    case pan, pen, highlighter, eraser, lasso, shape, note, textbox, tape, laser
 
     var id: String { rawValue }
 
@@ -19,6 +18,8 @@ enum ReaderTool: String, CaseIterable, Identifiable, Sendable {
         case .note: "Sticky note"
         case .textbox: "Text"
         case .tape: "Tape"
+        case .shape: "Shapes"
+        case .laser: "Pointer"
         }
     }
 
@@ -32,6 +33,8 @@ enum ReaderTool: String, CaseIterable, Identifiable, Sendable {
         case .note: "note.text"
         case .textbox: "textformat"
         case .tape: "rectangle.fill"
+        case .shape: "square.on.circle"
+        case .laser: "dot.radiowaves.left.and.right"
         }
     }
 
@@ -104,6 +107,14 @@ struct ToolSettings: Equatable, Sendable {
     /// highlighting without losing the notes written over it.
     var eraserHighlighterOnly: Bool = false
     var lasso: LassoMode = .free
+    /// Straighten a drawn shape into the primitive it resembles.
+    ///
+    /// Off for the pen by default: a diagram, a scrawled arrow or a
+    /// deliberately rough circle round a word should stay as it was drawn.
+    var snapShapes: Bool = false
+    /// Where the straight edge is being held, if it is out at all. Never
+    /// stored — it is a thing you put on the book, not a mark you made.
+    var ruler: RulerLine?
     /// Which kinds the lasso will pick up. All of them, until a student says
     /// otherwise — the commonest use is "everything I just drew here".
     var lassoKinds: Set<ObjectKind> = [.ink, .highlighter, .note, .textbox, .tape]
@@ -115,6 +126,13 @@ struct ToolSettings: Equatable, Sendable {
     /// stored object records that rather than the pen's own width.
     var strokeWidth: Double { tool == .highlighter ? width * 4 : width }
     var strokeAlpha: Double? { tool == .highlighter ? 0.35 : nil }
+
+    /// The pointer is always the web's red, whatever colour the pen is set to —
+    /// it is for showing someone something, not for marking the page.
+    var strokeColor: String { tool == .laser ? "#e5484d" : color }
+
+    /// Whether this gesture should be straightened when it is let go.
+    var straightens: Bool { tool == .shape || (tool == .pen && snapShapes) }
 
     /// The web's default type size for a new textbox, in page-space units — so
     /// it stays the same size relative to the page's own text at any zoom.

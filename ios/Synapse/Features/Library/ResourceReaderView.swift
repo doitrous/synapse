@@ -132,7 +132,8 @@ struct ResourceReaderView: View {
                 Task { await move(dx: dx, dy: dy) }
             },
             onMoveEnd: { gesture += 1 },
-            onTapAway: { selection = [] }
+            onTapAway: { selection = [] },
+            onRuler: { settings.ruler = $0 }
         ) { label, number in
             pageLabel = label
             page = number
@@ -395,6 +396,7 @@ struct PDFReader: UIViewRepresentable {
     var onMove: ((_ dx: Double, _ dy: Double) -> Void)?
     var onMoveEnd: (() -> Void)?
     var onTapAway: (() -> Void)?
+    var onRuler: ((RulerLine) -> Void)?
     let onPageChange: (String, Int) -> Void
 
     func makeUIView(context: Context) -> PDFView {
@@ -446,6 +448,7 @@ struct PDFReader: UIViewRepresentable {
         capture.onMove = onMove
         capture.onMoveEnd = onMoveEnd
         capture.onTapAway = onTapAway
+        capture.onRuler = onRuler
         view.addSubview(capture)
         context.coordinator.capture = capture
 
@@ -465,6 +468,7 @@ struct PDFReader: UIViewRepresentable {
         context.coordinator.capture?.onMove = onMove
         context.coordinator.capture?.onMoveEnd = onMoveEnd
         context.coordinator.capture?.onTapAway = onTapAway
+        context.coordinator.capture?.onRuler = onRuler
         // Scrolling and drawing are the same gesture, so only one of them can
         // have it: the page scrolls under `pan` and nothing else.
         view.enclosedScrollView?.isScrollEnabled = !settings.tool.drawsOnPage

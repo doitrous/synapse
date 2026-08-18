@@ -101,6 +101,11 @@ struct ReaderToolbar: View {
 
                 Divider().frame(width: 22).overlay(Theme.line)
 
+                Button(action: toggleRuler) {
+                    icon("ruler", active: settings.ruler != nil)
+                }
+                .accessibilityLabel(settings.ruler == nil ? "Put the ruler out" : "Put the ruler away")
+
                 Button { showingSettings = true } label: {
                     icon("slider.horizontal.3", active: false)
                 }
@@ -117,6 +122,16 @@ struct ReaderToolbar: View {
                     .accessibilityLabel("Redo")
             }
         }
+    }
+
+    /// Lay the straight edge across the page, or take it off again.
+    ///
+    /// It arrives lying flat across the middle, which is where a ruler put down
+    /// on a book ends up — and is a short drag from anywhere else.
+    private func toggleRuler() {
+        settings.ruler = settings.ruler == nil
+            ? RulerLine(a: InkPoint(x: 0.15, y: 0.5), b: InkPoint(x: 0.85, y: 0.5))
+            : nil
     }
 
     /// Drag here to move it; tap to fold it away.
@@ -224,6 +239,33 @@ private struct ToolSettingsSheet: View {
                     } footer: {
                         Text("Eases each stroke toward where your hand was, so a shaky line comes out smooth.")
                             .font(Theme.ui(12))
+                    }
+
+                    Section {
+                        Toggle("Straighten shapes", isOn: $settings.snapShapes)
+                    } footer: {
+                        Text("Turns a drawn line, box, circle or arrow into a tidy one — but only when it plainly was one, so a rough ring round a word stays rough.")
+                            .font(Theme.ui(12))
+                    }
+                }
+
+                if settings.tool == .shape {
+                    Section {
+                        Text("Draw a line, a box, a circle or an arrow and it is tidied up. Anything else is left exactly as you drew it.")
+                            .font(Theme.ui(13))
+                            .foregroundStyle(Theme.ink2)
+                    } header: {
+                        Text("Shapes")
+                    }
+                }
+
+                if settings.tool == .laser {
+                    Section {
+                        Text("For pointing at something while you talk. Nothing is kept.")
+                            .font(Theme.ui(13))
+                            .foregroundStyle(Theme.ink2)
+                    } header: {
+                        Text("Pointer")
                     }
                 }
 

@@ -28,6 +28,8 @@ final class InkCaptureView: UIView {
     var onMoveEnd: (() -> Void)?
     /// Called when a tap lands on nothing, to dismiss a selection.
     var onTapAway: (() -> Void)?
+    /// Called as the straight edge is moved or turned.
+    var onRuler: ((RulerLine) -> Void)?
 
     var settings = ToolSettings() {
         didSet { refreshInteraction() }
@@ -50,7 +52,12 @@ final class InkCaptureView: UIView {
         case lassoing
         case sizing(ObjectKind)
         case moving(from: CGPoint, total: CGPoint)
+        /// Sliding the whole straight edge, or turning it by one end.
+        case ruling(RulerGrip, from: InkPoint)
     }
+
+    /// Which part of the ruler a drag took hold of.
+    enum RulerGrip { case body, endA, endB }
 
     private var gesture: Gesture?
     /// The stroke in progress, in page space.
@@ -107,7 +114,7 @@ final class InkCaptureView: UIView {
     required init?(coder: NSCoder) { fatalError("not used") }
 
     private func refreshInteraction() {
-        claw.isEnabled = settings.tool.drawsOnPage || selection != nil
+        claw.isEnabled = settings.tool.drawsOnPage || selection != nil || settings.ruler != nil
         setNeedsDisplay()
     }
 
@@ -120,8 +127,36 @@ final class InkCaptureView: UIView {
     override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
         guard isUserInteractionEnabled, !isHidden, alpha > 0.01 else { return nil }
         if settings.tool.drawsOnPage { return bounds.contains(point) ? self : nil }
+        if grip(at: point) != nil { return self }
         if let box = selectionOnScreen(), box.insetBy(dx: -22, dy: -22).contains(point) { return self }
         return nil
+    }
+
+    /// Which part of the ruler, if any, is under a point on screen.
+    ///
+    /// The ends win over the body: they are the smaller targets, and grabbing
+    /// the body when you meant to turn it is the more annoying mistake.
+    ///
+    /// The body's band has to stay **inside** the snap radius, and that is not
+    /// a detail. A ruler exists to be drawn along, so strokes start near it by
+    /// definition; if grabbing reached as far as snapping does, every such
+    /// stroke would slide the ruler instead of marking the page and the tool
+    /// could not do the one thing it is for. So the band is the drawn line's
+    /// own thickness and no more — on the far side of it a stroke snaps.
+    private func grip(at point: CGPoint) -> RulerGrip? {
+        guard let ruler = settings.ruler, let ends = rulerOnScreen(ruler) else { return nil }
+        if hypot(point.x - ends.a.x, point.y - ends.a.y) <= 22 { return .endA }
+        if hypot(point.x - ends.b.x, point.y - ends.b.y) <= 22 { return .endB }
+
+        let onLine = StrokeCodec.pointToSegment(
+            InkPoint(x: Double(point.x), y: Double(point.y)),
+            InkPoint(x: Double(ends.a.x), y: Double(ends.a.y)),
+            InkPoint(x: Double(ends.b.x), y: Double(ends.b.y))
+        )
+        // Half the snap radius, so there is always a band either side where a
+        // stroke is drawn against the edge rather than moving it.
+        let band = min(6, CGFloat(RulerLine.capture) * unitOnScreen() * 0.5)
+        return onLine <= Double(band) ? .body : nil
     }
 
     // MARK: - Touches
@@ -139,9 +174,25 @@ final class InkCaptureView: UIView {
         lastRaw = nil
         anchor = nil
 
+        // The ruler is grabbable whatever the tool: it is a thing lying on the
+        // page, and having to put a pen down to move it would be absurd.
+        if let held = grip(at: location), let point = pageSpace(location) {
+            gesture = .ruling(held, from: point)
+            return
+        }
+
+        // A selection is a layer above the tools, as the web's selection
+        // overlay is above its ink surface. Without this, dragging the box
+        // while the lasso is still in hand starts a *new* lasso over the marks
+        // you had just chosen — and loses them.
+        if let box = selectionOnScreen(), box.insetBy(dx: -22, dy: -22).contains(location) {
+            gesture = .moving(from: location, total: .zero)
+            return
+        }
+
         if !settings.tool.drawsOnPage {
-            // Only reachable through `hitTest`, so this is a drag on the
-            // selection itself.
+            // Only reachable through `hitTest`, so there is nothing else this
+            // touch could have been for.
             gesture = .moving(from: location, total: .zero)
             return
         }
@@ -163,6 +214,25 @@ final class InkCaptureView: UIView {
 
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
+
+        if case .ruling(let held, let from) = gesture {
+            guard let now = pageSpace(touch.preciseLocation(in: self)), var ruler = settings.ruler
+            else { return }
+            switch held {
+            case .endA: ruler.a = now
+            case .endB: ruler.b = now
+            case .body:
+                let dx = now.x - from.x
+                let dy = now.y - from.y
+                ruler.a = InkPoint(x: ruler.a.x + dx, y: ruler.a.y + dy)
+                ruler.b = InkPoint(x: ruler.b.x + dx, y: ruler.b.y + dy)
+            }
+            settings.ruler = ruler
+            onRuler?(ruler)
+            gesture = .ruling(held, from: now)
+            setNeedsDisplay()
+            return
+        }
 
         if case .moving(let from, let total) = gesture {
             let now = touch.preciseLocation(in: self)
@@ -200,7 +270,8 @@ final class InkCaptureView: UIView {
                 eraserTrail.append(location)
                 wet.append(point)
             case .drawing:
-                let raw = InkPoint(x: point.x, y: point.y, pressure: pressure(of: sample))
+                let ruled = settings.ruler?.project(point) ?? point
+                let raw = InkPoint(x: ruled.x, y: ruled.y, pressure: pressure(of: sample))
                 lastRaw = raw
                 wet.append(stabilizer.push(raw))
             default:
@@ -242,9 +313,14 @@ final class InkCaptureView: UIView {
     private func finish(tapped: Bool) {
         defer { clear() }
 
-        if case .moving = gesture {
+        switch gesture {
+        case .moving:
             onMoveEnd?()
             return
+        case .ruling:
+            return
+        default:
+            break
         }
 
         guard
@@ -269,10 +345,15 @@ final class InkCaptureView: UIView {
 
         case .sizing(let kind):
             guard let anchor, let last = wet.last else { return }
-            let rect = rectangle(from: anchor, to: last, kind: kind)
+            let rect = rectangle(from: anchor, to: last)
             onRect?(kind, rect, number)
 
         case .drawing:
+            // The pointer is for showing someone something. It is never stored,
+            // as on the web — it has already done its whole job by the time the
+            // finger lifts.
+            guard settings.tool != .laser else { return }
+
             // Close the gap the smoothing left behind, or every stroke stops
             // short of where the finger lifted and a deliberate tick is
             // clipped off.
@@ -280,7 +361,17 @@ final class InkCaptureView: UIView {
                 wet.append(contentsOf: stabilizer.finish(lastRaw))
             }
             guard wet.count > 1 else { return }
-            onStroke?(wet, number)
+
+            // Straightened into the primitive it resembles, when it clearly is
+            // one. Below the confidence bar it stays exactly as it was drawn —
+            // a rough circle round a word is usually meant to be rough.
+            if settings.straightens,
+               let shape = ShapeRecognition.recognise(wet),
+               shape.confidence >= ShapeRecognition.snapConfidence {
+                onStroke?(ShapeRecognition.path(shape), number)
+            } else {
+                onStroke?(wet, number)
+            }
 
         default:
             break
@@ -290,17 +381,12 @@ final class InkCaptureView: UIView {
     /// The rectangle a widget occupies, given the two corners dragged out.
     ///
     /// A tap is a legitimate way to place one — nobody wants to size a sticky
-    /// note before they can write on it — so anything smaller than a sensible
-    /// minimum is grown to it rather than refused.
-    private func rectangle(from a: InkPoint, to b: InkPoint, kind: ObjectKind) -> [Double] {
-        let minimum: Double = kind == .tape ? 0.06 : 0.18
-        let height: Double = kind == .tape ? 0.02 : 0.1
-
-        let x0 = min(a.x, b.x)
-        let y0 = min(a.y, b.y)
-        let x1 = max(max(a.x, b.x), x0 + minimum)
-        let y1 = max(max(a.y, b.y), y0 + height)
-        return [x0, y0, x1, y1]
+    /// note before they can write on it — so anything too small to have been
+    /// meant as a drag becomes the web's default 0.28 × 0.16 instead.
+    private func rectangle(from a: InkPoint, to b: InkPoint) -> [Double] {
+        let rect = [min(a.x, b.x), min(a.y, b.y), max(a.x, b.x), max(a.y, b.y)]
+        let dragged = rect[2] - rect[0] > 0.02 && rect[3] - rect[1] > 0.01
+        return dragged ? rect : [rect[0], rect[1], rect[0] + 0.28, rect[1] + 0.16]
     }
 
     // MARK: - What is being drawn right now
@@ -309,11 +395,12 @@ final class InkCaptureView: UIView {
         guard let context = UIGraphicsGetCurrentContext() else { return }
 
         if let box = selectionOnScreen() { drawSelection(box, in: context) }
+        if let ruler = settings.ruler { drawRuler(ruler, in: context) }
 
         switch gesture {
         case .erasing: drawEraser(in: context)
         case .lassoing: drawLasso(in: context)
-        case .sizing(let kind): drawWidgetOutline(kind, in: context)
+        case .sizing: drawWidgetOutline(in: context)
         case .drawing: drawWet(in: context)
         default: break
         }
@@ -325,7 +412,7 @@ final class InkCaptureView: UIView {
         let highlighter = settings.tool == .highlighter
         context.setBlendMode(highlighter ? .multiply : .normal)
         context.setAlpha(highlighter ? 0.35 : 1)
-        context.setStrokeColor(UIColor(hex: settings.color).cgColor)
+        context.setStrokeColor(UIColor(hex: settings.strokeColor).cgColor)
         context.setLineWidth(CGFloat(settings.strokeWidth) * unitOnScreen())
         context.setLineCap(highlighter ? .butt : .round)
         context.setLineJoin(.round)
@@ -348,9 +435,9 @@ final class InkCaptureView: UIView {
         context.setLineDash(phase: 0, lengths: [])
     }
 
-    private func drawWidgetOutline(_ kind: ObjectKind, in context: CGContext) {
+    private func drawWidgetOutline(in context: CGContext) {
         guard let anchor, let last = wet.last else { return }
-        let rect = rectangle(from: anchor, to: last, kind: kind)
+        let rect = rectangle(from: anchor, to: last)
         guard let box = onScreen(rect) else { return }
 
         context.setFillColor(UIColor.tintColor.withAlphaComponent(0.12).cgColor)
@@ -368,6 +455,36 @@ final class InkCaptureView: UIView {
         context.setLineDash(phase: 0, lengths: [5, 3])
         context.stroke(box.insetBy(dx: -6, dy: -6))
         context.setLineDash(phase: 0, lengths: [])
+    }
+
+    /// The straight edge, with a grip at each end.
+    private func drawRuler(_ ruler: RulerLine, in context: CGContext) {
+        guard let ends = rulerOnScreen(ruler) else { return }
+
+        context.setStrokeColor(UIColor.tintColor.withAlphaComponent(0.9).cgColor)
+        context.setLineWidth(3)
+        context.setLineCap(.round)
+        context.move(to: ends.a)
+        context.addLine(to: ends.b)
+        context.strokePath()
+
+        for end in [ends.a, ends.b] {
+            context.setFillColor(UIColor.systemBackground.cgColor)
+            context.fillEllipse(in: CGRect(x: end.x - 9, y: end.y - 9, width: 18, height: 18))
+            context.setStrokeColor(UIColor.tintColor.cgColor)
+            context.setLineWidth(2)
+            context.strokeEllipse(in: CGRect(x: end.x - 9, y: end.y - 9, width: 18, height: 18))
+        }
+    }
+
+    private func rulerOnScreen(_ ruler: RulerLine) -> (a: CGPoint, b: CGPoint)? {
+        guard let pdfView, let page = wetPage ?? pdfView.currentPage else { return nil }
+        let metrics = wetMetrics.width > 0 ? wetMetrics : PageMetrics(displayedBy: page, in: pdfView)
+        guard
+            let a = place(ruler.a, on: page, metrics: metrics),
+            let b = place(ruler.b, on: page, metrics: metrics)
+        else { return nil }
+        return (a, b)
     }
 
     private func drawEraser(in context: CGContext) {

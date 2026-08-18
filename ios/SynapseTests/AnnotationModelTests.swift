@@ -604,3 +604,149 @@ struct LassoTests {
         #expect(moved.t == 99)
     }
 }
+
+// MARK: - Shapes and the ruler
+
+/// Pinned to the output of the real `src/lib/reader/shapeRecognition.ts` run
+/// under Node. The rule that matters most is the one about *not* firing:
+/// straightening someone's handwriting is worse than recognising nothing.
+struct ShapeRecognitionTests {
+
+    private var wobblyLine: [InkPoint] {
+        (0..<20).map { InkPoint(x: 0.1 + Double($0) * 0.03, y: 0.4 + ($0 % 2 == 1 ? 0.0008 : -0.0008)) }
+    }
+
+    private var circle: [InkPoint] {
+        (0..<40).map {
+            let t = Double($0) / 39 * .pi * 2
+            return InkPoint(x: 0.5 + cos(t) * 0.2, y: 0.5 + sin(t) * 0.2)
+        }
+    }
+
+    private var square: [InkPoint] {
+        let corners = [(0.2, 0.2), (0.6, 0.2), (0.6, 0.6), (0.2, 0.6), (0.2, 0.2)]
+        var out: [InkPoint] = []
+        for c in 0..<4 {
+            for s in 0..<10 {
+                let t = Double(s) / 10
+                out.append(InkPoint(
+                    x: corners[c].0 + (corners[c + 1].0 - corners[c].0) * t,
+                    y: corners[c].1 + (corners[c + 1].1 - corners[c].1) * t
+                ))
+            }
+        }
+        out.append(InkPoint(x: 0.2, y: 0.2))
+        return out
+    }
+
+    @Test func aWobblyLineBecomesALine() {
+        let shape = ShapeRecognition.recognise(wobblyLine)
+        #expect(shape?.kind == .line)
+        #expect(abs((shape?.confidence ?? 0) - 0.969925) < 1e-5)
+        #expect(abs((shape?.a.x ?? 0) - 0.1) < 1e-6)
+        #expect(abs((shape?.b.x ?? 0) - 0.67) < 1e-6)
+    }
+
+    @Test func aRoughRingBecomesAnEllipse() {
+        let shape = ShapeRecognition.recognise(circle)
+        #expect(shape?.kind == .ellipse)
+        #expect(abs((shape?.confidence ?? 0) - 0.99228) < 1e-5)
+        #expect(abs((shape?.a.x ?? 0) - 0.300649) < 1e-5)
+        #expect(abs((shape?.b.y ?? 0) - 0.699714) < 1e-5)
+    }
+
+    @Test func aBoxBecomesARectangle() {
+        let shape = ShapeRecognition.recognise(square)
+        #expect(shape?.kind == .rect)
+        #expect(abs((shape?.confidence ?? 0) - 1) < 1e-9)
+    }
+
+    /// The important one. A scrawl is a wobble along a line too, and a reader
+    /// who finds their handwriting silently straightened has lost something
+    /// they cannot get back.
+    @Test func handwritingIsLeftAlone() {
+        let scrawl = (0..<30).map {
+            InkPoint(x: 0.1 + Double($0) * 0.02, y: 0.4 + sin(Double($0) * 1.7) * 0.05)
+        }
+        #expect(ShapeRecognition.recognise(scrawl) == nil)
+    }
+
+    @Test func tooFewPointsIsNotAShape() {
+        #expect(ShapeRecognition.recognise([InkPoint(x: 0, y: 0), InkPoint(x: 1, y: 1)]) == nil)
+    }
+
+    @Test func geometryMatchesTheWeb() {
+        #expect(ShapeRecognition.pathLength([
+            InkPoint(x: 0, y: 0), InkPoint(x: 3, y: 4), InkPoint(x: 3, y: 8),
+        ]) == 9)
+
+        let even = ShapeRecognition.resample([InkPoint(x: 0, y: 0), InkPoint(x: 1, y: 0)], count: 3)
+        #expect(even.map(\.x) == [0, 0.5, 1])
+    }
+
+    /// A straightened shape is stored as ordinary ink, so it erases, moves,
+    /// selects and renders through the same code as everything else.
+    @Test func shapesBecomeOrdinaryPaths() {
+        let line = ShapeRecognition.path(
+            RecognisedShape(kind: .line, a: InkPoint(x: 0, y: 0), b: InkPoint(x: 1, y: 1), confidence: 1)
+        )
+        #expect(line.map(\.x) == [0, 1])
+
+        let rect = ShapeRecognition.path(
+            RecognisedShape(kind: .rect, a: InkPoint(x: 0, y: 0), b: InkPoint(x: 1, y: 2), confidence: 1)
+        )
+        #expect(rect.map(\.x) == [0, 1, 1, 0, 0])
+        #expect(rect.map(\.y) == [0, 0, 2, 2, 0])
+
+        // Tail, tip, wing, back to the tip, other wing — one continuous stroke,
+        // because that is all an arrow can be when it is stored as ink.
+        let arrow = ShapeRecognition.path(
+            RecognisedShape(kind: .arrow, a: InkPoint(x: 0, y: 0), b: InkPoint(x: 1, y: 0), confidence: 1)
+        )
+        #expect(arrow.count == 5)
+        #expect(abs(arrow[2].x - 0.83792) < 1e-5)
+        #expect(abs(arrow[2].y - -0.078294) < 1e-5)
+        #expect(arrow[3] == arrow[1])
+
+        let ellipse = ShapeRecognition.path(
+            RecognisedShape(kind: .ellipse, a: InkPoint(x: 0, y: 0), b: InkPoint(x: 2, y: 1), confidence: 1)
+        )
+        #expect(ellipse.count == 49)
+        #expect(abs(ellipse[0].x - 2) < 1e-9 && abs(ellipse[0].y - 0.5) < 1e-9)
+        #expect(abs(ellipse[12].x - 1) < 1e-6 && abs(ellipse[12].y - 1) < 1e-6)
+    }
+}
+
+struct RulerTests {
+
+    private let ruler = RulerLine(a: InkPoint(x: 0.2, y: 0.5), b: InkPoint(x: 0.8, y: 0.5))
+
+    /// A stroke that starts near the edge is drawn against it.
+    @Test func nearbyPointsSnapToTheEdge() {
+        let snapped = ruler.project(InkPoint(x: 0.5, y: 0.52))
+        #expect(snapped.x == 0.5)
+        #expect(snapped.y == 0.5)
+    }
+
+    /// One that does not is left where it was — otherwise a ruler left lying on
+    /// the page would drag every mark on it onto one line.
+    @Test func distantPointsAreLeftAlone() {
+        let free = ruler.project(InkPoint(x: 0.5, y: 0.9))
+        #expect(free.y == 0.9)
+    }
+
+    /// Beyond the ends it clamps rather than extending: a ruler is as long as
+    /// it is.
+    @Test func theEdgeDoesNotRunOnForever() {
+        let past = ruler.project(InkPoint(x: 0.95, y: 0.5))
+        #expect(past.x == 0.95)
+
+        let justPast = ruler.project(InkPoint(x: 0.81, y: 0.5))
+        #expect(abs(justPast.x - 0.8) < 1e-9)
+    }
+
+    @Test func pressureSurvivesTheProjection() {
+        let snapped = ruler.project(InkPoint(x: 0.5, y: 0.51, pressure: 0.8))
+        #expect(snapped.pressure == 0.8)
+    }
+}
