@@ -91,6 +91,7 @@ final class SyncEngine {
 
         do {
             let changed = try await pullCatalogues()
+            await pullAttempts()
             await drainOutbox()
             status = .done(changed: changed, at: Date())
         } catch {
@@ -98,6 +99,44 @@ final class SyncEngine {
             // cache, and try again next time.
             status = .failed(Self.describe(error))
             await drainOutbox()
+        }
+    }
+
+    /// Bring the student's own answer history down.
+    ///
+    /// Without this a student with months of work on the website opens the app
+    /// to an empty Dashboard and a Progress screen that says they have never
+    /// answered anything — the app was only ever pushing attempts up.
+    ///
+    /// The index names which months exist, so a year of study costs one small
+    /// request plus one per month that is actually missing locally. Records are
+    /// merged by `id`, never replaced wholesale: a sitting finished on the
+    /// phone and not yet uploaded must survive meeting the server's copy.
+    private func pullAttempts() async {
+        guard let index = try? await api.userState(AttemptIndex.self, key: AttemptStore.indexKey),
+              let months = index.value?.months, !months.isEmpty
+        else { return }
+
+        let known = Set((try? await store.allAttemptMonths()) ?? [])
+        let pending = Set((try? await store.monthsWithPendingAttempts()) ?? [])
+
+        for month in months {
+            // A month held locally is skipped unless it still has unsent work,
+            // in which case merging the server's copy is what stops the two
+            // halves of a split record from overwriting each other.
+            if known.contains(month), !pending.contains(month) { continue }
+
+            guard
+                let remote = try? await api.userState(AttemptMonth.self, key: AttemptStore.monthKey(month)),
+                let shard = remote.value
+            else { continue }
+
+            for record in shard.records {
+                guard let encoded = try? JSONEncoder().encode(record) else { continue }
+                // Already-uploaded, so not pending: re-marking these would make
+                // the next drain rewrite months that never changed.
+                try? await store.saveAttempt(id: record.id, month: month, record: encoded, pending: false)
+            }
         }
     }
 

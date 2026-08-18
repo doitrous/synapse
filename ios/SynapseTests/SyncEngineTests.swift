@@ -3,6 +3,13 @@ import Testing
 @testable import Synapse
 
 /// Intercepts requests so the engine can be driven against a scripted server.
+///
+/// Scripts are registered **per host**, not globally. `URLProtocol` subclasses
+/// are installed on a session rather than an instance, so a single shared
+/// handler makes every test that uses one collide with every other: one test's
+/// teardown clears another's script mid-request, and the second silently gets a
+/// default 200 — which reads as a successful upload rather than a broken test.
+/// Giving each test its own host lets them run in parallel and tells them apart.
 final class StubProtocol: URLProtocol {
 
     struct Response {
@@ -10,32 +17,47 @@ final class StubProtocol: URLProtocol {
         var body: Data = Data("{}".utf8)
     }
 
-    nonisolated(unsafe) static var handler: (@Sendable (URLRequest) -> Response)?
-    nonisolated(unsafe) private(set) static var requests: [URLRequest] = []
+    typealias Handler = @Sendable (URLRequest) -> Response
+
+    nonisolated(unsafe) private static var handlers: [String: Handler] = [:]
+    nonisolated(unsafe) private static var requests: [String: [URLRequest]] = [:]
     private static let lock = NSLock()
 
-    static func reset() {
+    /// A fresh host nobody else is using.
+    static func newHost() -> String { "stub-\(UUID().uuidString.prefix(8).lowercased()).test" }
+
+    static func install(host: String, handler: @escaping Handler) {
         lock.lock(); defer { lock.unlock() }
-        requests = []
-        handler = nil
+        handlers[host] = handler
+        requests[host] = []
     }
 
-    static func record(_ request: URLRequest) {
+    static func remove(host: String) {
         lock.lock(); defer { lock.unlock() }
-        requests.append(request)
+        handlers[host] = nil
+        requests[host] = nil
     }
 
-    static func requestedPaths() -> [String] {
+    static func requestedPaths(host: String) -> [String] {
         lock.lock(); defer { lock.unlock() }
-        return requests.compactMap { $0.url?.path }
+        return (requests[host] ?? []).compactMap { $0.url?.path }
     }
 
-    override class func canInit(with request: URLRequest) -> Bool { true }
+    private static func script(for request: URLRequest) -> Handler? {
+        lock.lock(); defer { lock.unlock() }
+        guard let host = request.url?.host else { return nil }
+        requests[host, default: []].append(request)
+        return handlers[host]
+    }
+
+    override class func canInit(with request: URLRequest) -> Bool {
+        request.url?.host?.hasPrefix("stub-") == true
+    }
+
     override class func canonicalRequest(for request: URLRequest) -> URLRequest { request }
 
     override func startLoading() {
-        Self.record(request)
-        let response = Self.handler?(request) ?? Response()
+        let response = Self.script(for: request)?(request) ?? Response()
         let http = HTTPURLResponse(
             url: request.url!, statusCode: response.status,
             httpVersion: "HTTP/1.1", headerFields: ["Content-Type": "application/json"]
@@ -46,6 +68,72 @@ final class StubProtocol: URLProtocol {
     }
 
     override func stopLoading() {}
+}
+
+/// One scripted server, scoped to a test.
+@MainActor
+struct StubServer {
+    let host: String
+    let api: SynapseAPI
+
+    init(_ handler: @escaping StubProtocol.Handler) {
+        host = StubProtocol.newHost()
+        StubProtocol.install(host: host, handler: handler)
+
+        let configuration = URLSessionConfiguration.ephemeral
+        configuration.protocolClasses = [StubProtocol.self]
+        api = SynapseAPI(
+            baseURL: URL(string: "https://\(host)/api")!,
+            urlSession: URLSession(configuration: configuration),
+            token: { "stub-token" }
+        )
+    }
+
+    /// Paths this server was asked for. `/api/state/…` only — `user-state` is
+    /// the student's own record and is counted separately, because the two
+    /// differ by one hyphen and a `contains("state")` filter silently conflates
+    /// them.
+    func cataloguePaths() -> [String] {
+        StubProtocol.requestedPaths(host: host).filter { $0.contains("/state/") }
+    }
+
+    func catalogueFetches() -> Int {
+        cataloguePaths().filter { !$0.hasSuffix("/manifest") }.count
+    }
+
+    func userStatePaths() -> [String] {
+        StubProtocol.requestedPaths(host: host).filter { $0.contains("/user-state/") }
+    }
+
+    func finish() { StubProtocol.remove(host: host) }
+}
+
+extension URLRequest {
+    /// The body, however URLSession chose to carry it.
+    ///
+    /// `httpBody` is usually nil by the time a `URLProtocol` sees the request —
+    /// URLSession moves it to `httpBodyStream`. A test that reads only
+    /// `httpBody` therefore asserts against an empty string and passes for the
+    /// wrong reason, or fails for one.
+    var stubBody: Data {
+        if let body = httpBody { return body }
+        guard let stream = httpBodyStream else { return Data() }
+
+        stream.open()
+        defer { stream.close() }
+
+        var data = Data()
+        let buffer = UnsafeMutablePointer<UInt8>.allocate(capacity: 4096)
+        defer { buffer.deallocate() }
+        while stream.hasBytesAvailable {
+            let read = stream.read(buffer, maxLength: 4096)
+            if read <= 0 { break }
+            data.append(buffer, count: read)
+        }
+        return data
+    }
+
+    var stubBodyText: String { String(decoding: stubBody, as: UTF8.self) }
 }
 
 /// A value a scripted stub can change between requests.
@@ -64,24 +152,8 @@ final class Box<Value>: @unchecked Sendable {
     }
 }
 
-/// Serialized because `StubProtocol.handler` is process-global: `URLProtocol`
-/// subclasses are registered on a session, not on an instance, so there is
-/// nowhere per-test to hang the script. Run in parallel, one test's teardown
-/// clears another's stub mid-request and the second silently gets a default
-/// 200 — which looks like a successful upload rather than a broken test.
-@Suite(.serialized)
 @MainActor
 struct SyncEngineTests {
-
-    private func makeAPI() -> SynapseAPI {
-        let configuration = URLSessionConfiguration.ephemeral
-        configuration.protocolClasses = [StubProtocol.self]
-        return SynapseAPI(
-            baseURL: URL(string: "https://example.test/api")!,
-            urlSession: URLSession(configuration: configuration),
-            token: { "stub-token" }
-        )
-    }
 
     /// A manifest shaped like the real endpoint's: every student-readable key
     /// present, with `null` for the ones never written.
@@ -108,20 +180,19 @@ struct SyncEngineTests {
 
     @Test("a first sync downloads the catalogue and fills the cache")
     func firstSync() async throws {
-        StubProtocol.reset()
-        defer { StubProtocol.reset() }
-
         let manifestBody = manifest(ledgerStamp: "2026-08-16T00:00:00.000Z")
         let body = ledgerBody
-        StubProtocol.handler = { request in
+        let server = StubServer { request in
             let path = request.url?.path ?? ""
             if path.hasSuffix("/state/manifest") { return .init(body: manifestBody) }
             if path.contains("/state/") { return .init(body: body) }
             return .init(body: Data("{}".utf8))
         }
+        defer { server.finish() }
+
 
         let store = try LocalStore(path: nil)
-        let engine = SyncEngine(api: makeAPI(), store: store)
+        let engine = SyncEngine(api: server.api, store: store)
 
         await engine.refresh()
 
@@ -131,7 +202,7 @@ struct SyncEngineTests {
 
         // Only the one catalogue that has anything in it should have been
         // fetched; the other thirteen are reported empty by the manifest.
-        let fetches = StubProtocol.requestedPaths().filter { $0.contains("state") && !$0.hasSuffix("manifest") }.count
+        let fetches = server.catalogueFetches()
         #expect(fetches == 1, "a catalogue the server has never written must not be requested")
     }
 
@@ -139,26 +210,25 @@ struct SyncEngineTests {
     /// again. Without this the app refetches megabytes on every launch.
     @Test("an unchanged document is not downloaded again")
     func skipsUnchanged() async throws {
-        StubProtocol.reset()
-        defer { StubProtocol.reset() }
-
         let manifestBody = manifest(ledgerStamp: "2026-08-16T00:00:00.000Z")
         let body = ledgerBody
-        StubProtocol.handler = { request in
+        let server = StubServer { request in
             let path = request.url?.path ?? ""
             if path.hasSuffix("/state/manifest") { return .init(body: manifestBody) }
             return .init(body: body)
         }
+        defer { server.finish() }
+
 
         let store = try LocalStore(path: nil)
-        let engine = SyncEngine(api: makeAPI(), store: store)
+        let engine = SyncEngine(api: server.api, store: store)
 
         await engine.refresh()
-        let afterFirst = StubProtocol.requestedPaths().filter { $0.contains("state") && !$0.hasSuffix("manifest") }.count
+        let afterFirst = server.catalogueFetches()
         #expect(afterFirst == 1)
 
         await engine.refresh()
-        let afterSecond = StubProtocol.requestedPaths().filter { $0.contains("state") && !$0.hasSuffix("manifest") }.count
+        let afterSecond = server.catalogueFetches()
         #expect(afterSecond == 1, "the second refresh must fetch nothing but the manifest")
 
         if case .done(let changed, _) = engine.status {
@@ -170,25 +240,24 @@ struct SyncEngineTests {
 
     @Test("a changed timestamp causes a re-download")
     func refetchesWhenChanged() async throws {
-        StubProtocol.reset()
-        defer { StubProtocol.reset() }
-
         let body = ledgerBody
         let manifestBody = Box(manifest(ledgerStamp: "2026-08-16T00:00:00.000Z"))
-        StubProtocol.handler = { request in
+        let server = StubServer { request in
             let path = request.url?.path ?? ""
             if path.hasSuffix("/state/manifest") { return .init(body: manifestBody.value) }
             return .init(body: body)
         }
+        defer { server.finish() }
+
 
         let store = try LocalStore(path: nil)
-        let engine = SyncEngine(api: makeAPI(), store: store)
+        let engine = SyncEngine(api: server.api, store: store)
         await engine.refresh()
 
         manifestBody.value = manifest(ledgerStamp: "2026-08-17T12:00:00.000Z")
         await engine.refresh()
 
-        let fetches = StubProtocol.requestedPaths().filter { $0.contains("state") && !$0.hasSuffix("manifest") }.count
+        let fetches = server.catalogueFetches()
         #expect(fetches == 2, "new content on the server must reach the phone")
     }
 
@@ -196,18 +265,17 @@ struct SyncEngineTests {
     /// is a permanent answer, so it must not stall or repeat.
     @Test("a refused document does not fail the whole sync")
     func forbiddenIsSkipped() async throws {
-        StubProtocol.reset()
-        defer { StubProtocol.reset() }
-
         let manifestBody = manifest(ledgerStamp: "2026-08-16T00:00:00.000Z")
-        StubProtocol.handler = { request in
+        let server = StubServer { request in
             let path = request.url?.path ?? ""
             if path.hasSuffix("/state/manifest") { return .init(body: manifestBody) }
             return .init(status: 403, body: Data("{\"error\":\"admin role required\"}".utf8))
         }
+        defer { server.finish() }
+
 
         let store = try LocalStore(path: nil)
-        let engine = SyncEngine(api: makeAPI(), store: store)
+        let engine = SyncEngine(api: server.api, store: store)
         await engine.refresh()
 
         if case .failed(let message) = engine.status {
@@ -225,20 +293,19 @@ struct SyncEngineTests {
     /// the app unable to sync anything at all against the live server.
     @Test("an API without the manifest endpoint still syncs", arguments: [404, 403])
     func fallsBackWithoutManifest(status: Int) async throws {
-        StubProtocol.reset()
-        defer { StubProtocol.reset() }
-
         let body = ledgerBody
-        StubProtocol.handler = { request in
+        let server = StubServer { request in
             let path = request.url?.path ?? ""
             if path.hasSuffix("/state/manifest") {
                 return .init(status: status, body: Data("{\"error\":\"refused\"}".utf8))
             }
             return .init(body: body)
         }
+        defer { server.finish() }
+
 
         let store = try LocalStore(path: nil)
-        let engine = SyncEngine(api: makeAPI(), store: store)
+        let engine = SyncEngine(api: server.api, store: store)
         await engine.refresh()
 
         #expect(try await store.itemCount() == 1, "content must still reach the phone")
@@ -254,23 +321,22 @@ struct SyncEngineTests {
     /// catalogue 403'd, and the app synced nothing.
     @Test("a catalogue key reaches the server unmangled")
     func keysAreNotDoubleEncoded() async throws {
-        StubProtocol.reset()
-        defer { StubProtocol.reset() }
-
         let body = ledgerBody
-        StubProtocol.handler = { request in
+        let server = StubServer { request in
             let path = request.url?.path ?? ""
             if path.hasSuffix("/state/manifest") {
                 return .init(status: 403, body: Data("{}".utf8))
             }
             return .init(body: body)
         }
+        defer { server.finish() }
+
 
         let store = try LocalStore(path: nil)
-        let engine = SyncEngine(api: makeAPI(), store: store)
+        let engine = SyncEngine(api: server.api, store: store)
         await engine.refresh()
 
-        let requested = StubProtocol.requestedPaths()
+        let requested = server.cataloguePaths()
         #expect(
             requested.contains { $0.hasSuffix("/state/synapse-admin-content-ledger-v4") },
             "the ledger key must arrive literally; got \(requested.filter { $0.contains("ledger") })"
@@ -280,13 +346,10 @@ struct SyncEngineTests {
 
     @Test("a network failure keeps the cache readable and reports itself")
     func networkFailure() async throws {
-        StubProtocol.reset()
-        defer { StubProtocol.reset() }
-
-        StubProtocol.handler = { _ in .init(status: 500, body: Data("{}".utf8)) }
+        let server = StubServer { _ in .init(status: 500, body: Data("{}".utf8)) }
 
         let store = try LocalStore(path: nil)
-        let engine = SyncEngine(api: makeAPI(), store: store)
+        let engine = SyncEngine(api: server.api, store: store)
         await engine.refresh()
 
         guard case .failed = engine.status else {
@@ -298,32 +361,31 @@ struct SyncEngineTests {
         #expect(try await store.itemCount() == 0)
     }
 
+    /// Nested types do not inherit the enclosing suite's actor isolation, and
+    /// `StubServer` is main-actor bound.
     @Suite("Writing a student's own work")
+    @MainActor
     struct Writing {
 
         @Test("a write reaches the server and leaves the queue empty")
         func uploads() async throws {
-            StubProtocol.reset()
-            defer { StubProtocol.reset() }
-            StubProtocol.handler = { _ in .init(body: Data("{\"ok\":true}".utf8)) }
+            let server = StubServer { _ in .init(body: Data("{\"ok\":true}".utf8)) }
 
             let store = try LocalStore(path: nil)
-            let engine = await SyncEngineTests().makeEngine(store: store)
+            let engine = SyncEngine(api: server.api, store: store)
 
             await engine.write(key: "synapse.notebook.notes", value: ["a": "note"])
 
             #expect(try await store.pendingCount() == 0)
-            #expect(StubProtocol.requestedPaths().contains { $0.contains("user-state") })
+            #expect(!server.userStatePaths().isEmpty)
         }
 
         @Test("a write made offline is kept for later")
         func keepsWorkWhenOffline() async throws {
-            StubProtocol.reset()
-            defer { StubProtocol.reset() }
-            StubProtocol.handler = { _ in .init(status: 503, body: Data("{}".utf8)) }
+            let server = StubServer { _ in .init(status: 503, body: Data("{}".utf8)) }
 
             let store = try LocalStore(path: nil)
-            let engine = await SyncEngineTests().makeEngine(store: store)
+            let engine = SyncEngine(api: server.api, store: store)
 
             await engine.write(key: "synapse.notebook.notes", value: ["a": "note"])
 
@@ -334,16 +396,16 @@ struct SyncEngineTests {
 
         @Test("work queued offline is sent once the network returns")
         func drainsOnReconnect() async throws {
-            StubProtocol.reset()
-            defer { StubProtocol.reset() }
 
             let online = Box(false)
-            StubProtocol.handler = { _ in
+            let server = StubServer { _ in
                 online.value ? .init(body: Data("{\"ok\":true}".utf8)) : .init(status: 503, body: Data("{}".utf8))
             }
+            defer { server.finish() }
+
 
             let store = try LocalStore(path: nil)
-            let engine = await SyncEngineTests().makeEngine(store: store)
+            let engine = SyncEngine(api: server.api, store: store)
 
             await engine.write(key: "synapse.notebook.notes", value: ["a": "note"])
             #expect(try await store.pendingCount() == 1)
@@ -358,41 +420,46 @@ struct SyncEngineTests {
         /// they read, with no ordering between them, so an older payload can
         /// land second and the server keeps it. A note the student watched
         /// themselves type then comes back empty on their laptop.
+        ///
+        /// The order is forced rather than raced. Two concurrent `write` calls
+        /// have no defined enqueue order, so asserting that a particular one
+        /// wins would be asserting luck — and would pass or fail for reasons
+        /// unrelated to the bug. Here the empty edit is queued first, its upload
+        /// is held open, and the typed edit arrives while it is still in flight:
+        /// exactly the sequence an editor sheet produces when it saves over a
+        /// note that was created a moment earlier.
         @Test("an edit made during a slow upload is what the server ends up with")
         func lastWriteWins() async throws {
-            StubProtocol.reset()
-            defer { StubProtocol.reset() }
-
             let uploaded = Box<[String]>([])
-            StubProtocol.handler = { request in
-                if request.url?.path.contains("user-state") == true {
-                    let body = request.httpBody
-                        ?? request.httpBodyStream.map { stream -> Data in
-                            stream.open(); defer { stream.close() }
-                            var data = Data()
-                            let buffer = UnsafeMutablePointer<UInt8>.allocate(capacity: 4096)
-                            defer { buffer.deallocate() }
-                            while stream.hasBytesAvailable {
-                                let read = stream.read(buffer, maxLength: 4096)
-                                if read <= 0 { break }
-                                data.append(buffer, count: read)
-                            }
-                            return data
-                        } ?? Data()
-                    uploaded.value.append(String(decoding: body, as: UTF8.self))
+            let holdFirst = Box(true)
+
+            let server = StubServer { request in
+                guard request.url?.path.contains("user-state") == true else {
+                    return .init(body: Data("{\"ok\":true}".utf8))
                 }
+                let body = request.stubBodyText
+                // Hold the first upload open so the second edit lands while it
+                // is still going.
+                if body.contains("\"\"") {
+                    while holdFirst.value { Thread.sleep(forTimeInterval: 0.005) }
+                }
+                uploaded.value.append(body)
                 return .init(body: Data("{\"ok\":true}".utf8))
             }
+            defer { server.finish() }
 
             let store = try LocalStore(path: nil)
-            let engine = await SyncEngineTests().makeEngine(store: store)
+            let engine = SyncEngine(api: server.api, store: store)
             let key = "synapse.whiteboard.board"
 
-            // Two writes in flight together, as an editor sheet saving over a
-            // just-created empty note does.
-            async let first: Void = engine.write(key: key, value: ["text": ""])
-            async let second: Void = engine.write(key: key, value: ["text": "typed"])
-            _ = await (first, second)
+            let first = Task { await engine.write(key: key, value: ["text": ""]) }
+            // Queued behind it, with a later `queuedAt`.
+            try await Task.sleep(for: .milliseconds(50))
+            let second = Task { await engine.write(key: key, value: ["text": "typed"]) }
+
+            try await Task.sleep(for: .milliseconds(50))
+            holdFirst.value = false
+            _ = await (first.value, second.value)
 
             #expect(try await store.pendingCount() == 0, "everything queued must be sent")
             let last = try #require(uploaded.value.last)
@@ -403,12 +470,10 @@ struct SyncEngineTests {
         /// queued behind it.
         @Test("a permanently refused write is abandoned")
         func abandonsRefused() async throws {
-            StubProtocol.reset()
-            defer { StubProtocol.reset() }
-            StubProtocol.handler = { _ in .init(status: 403, body: Data("{}".utf8)) }
+            let server = StubServer { _ in .init(status: 403, body: Data("{}".utf8)) }
 
             let store = try LocalStore(path: nil)
-            let engine = await SyncEngineTests().makeEngine(store: store)
+            let engine = SyncEngine(api: server.api, store: store)
 
             await engine.write(key: "synapse.notebook.notes", value: ["a": "note"])
 
@@ -416,7 +481,4 @@ struct SyncEngineTests {
         }
     }
 
-    fileprivate func makeEngine(store: LocalStore) -> SyncEngine {
-        SyncEngine(api: makeAPI(), store: store)
-    }
 }

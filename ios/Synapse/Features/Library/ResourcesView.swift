@@ -11,7 +11,7 @@ struct ResourcesView: View {
 
     init(store: LocalStore, sync: SyncEngine, audience: StudentAudience, api: SynapseAPI) {
         _model = State(wrappedValue: ResourceModel(
-            store: store, sync: sync, audience: audience
+            store: store, sync: sync, api: api, audience: audience
         ))
         _files = State(wrappedValue: ResourceFileStore(api: api))
         self.sync = sync

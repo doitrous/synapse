@@ -169,11 +169,17 @@ final class QuestionBankModel {
             try? await store.markAttemptsPushed(month: month)
         }
 
-        await pushIndex(months: months)
+        await pushIndex()
     }
 
     /// The headline totals, so a summary can be read without loading a shard.
-    private func pushIndex(months: [String]) async {
+    ///
+    /// Built from every month on the device, not just the ones that happened to
+    /// be pending. Summing only the months in this push wrote a global index
+    /// that silently dropped every earlier month a student had already synced —
+    /// their totals shrank as they studied.
+    private func pushIndex() async {
+        let months = (try? await store.allAttemptMonths()) ?? []
         var totals = AttemptTotals()
         var seen: Set<String> = []
 

@@ -210,7 +210,7 @@ struct AccountView: View {
     /// The years the chosen university actually runs, falling back to a sane
     /// list when the catalogue does not name them.
     private var years: [String] {
-        let listed = audienceStore.universities.first { $0.id == university }?.years ?? []
+        let listed = audienceStore.universities.first { $0.id == university }?.yearLabels ?? []
         return listed.isEmpty
             ? ["Year 1", "Year 2", "Year 3", "Year 4", "Year 5", "Internship 1"]
             : listed
