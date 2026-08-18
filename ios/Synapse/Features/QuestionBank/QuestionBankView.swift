@@ -63,7 +63,53 @@ private struct SessionBuilder: View {
     @Bindable var model: QuestionBankModel
     var store: QBankStore
 
+    @State private var choosing = false
+    @State private var tab = Tab.new
+
+    private enum Tab: String, CaseIterable, Identifiable {
+        case new, previous
+        var id: String { rawValue }
+        var label: String {
+            switch self {
+            case .new: "New sitting"
+            case .previous: "Previous"
+            }
+        }
+    }
+
     var body: some View {
+        VStack(spacing: 0) {
+            Picker("", selection: $tab) {
+                ForEach(Tab.allCases) { Text($0.label).tag($0) }
+            }
+            .pickerStyle(.segmented)
+            .padding(.horizontal, 20)
+            .padding(.bottom, 6)
+
+            switch tab {
+            case .new: setup
+            case .previous:
+                PreviousTests(sessions: model.previousSittings, store: store) { summary in
+                    Task {
+                        let questions = await model.questions(inSitting: summary.sessionId)
+                        guard !questions.isEmpty else { return }
+                        model.start(questions: questions, named: store.name(of: summary.sessionId) ?? "Review")
+                    }
+                }
+            }
+        }
+        .background(Theme.paper)
+        .sheet(isPresented: $choosing) {
+            TopicChooser(
+                topics: model.chooserTopics,
+                counts: model.scopeCounts,
+                scope: $model.scope,
+                subjectName: { $0.uppercased() }
+            )
+        }
+    }
+
+    private var setup: some View {
         List {
             // Offered before anything else: a student who left a sitting
             // half-done came back for it, not to start another.
@@ -88,6 +134,30 @@ private struct SessionBuilder: View {
                 }
                 .listRowBackground(Theme.surface)
             }
+
+            Section("Quick start") {
+                ForEach(QBankPreset.allCases) { preset in
+                    let pool = model.preset(preset)
+                    Button {
+                        model.start(questions: pool.shuffled(), named: preset.title)
+                    } label: {
+                        HStack(spacing: 10) {
+                            Image(systemName: preset.symbol)
+                                .foregroundStyle(pool.isEmpty ? Theme.ink3 : Theme.accent)
+                                .frame(width: 22)
+                            Text(preset.title)
+                                .font(Theme.ui(15))
+                                .foregroundStyle(Theme.ink)
+                            Spacer()
+                            Text("\(pool.count)")
+                                .font(Theme.numeric(12))
+                                .foregroundStyle(Theme.ink2)
+                        }
+                    }
+                    .disabled(pool.isEmpty)
+                }
+            }
+            .listRowBackground(Theme.surface)
 
             Section("How") {
                 Picker("Mode", selection: $model.mode) {
@@ -119,9 +189,18 @@ private struct SessionBuilder: View {
             }
 
             Section("Scope") {
-                Picker("Topic", selection: $model.selectedTopic) {
-                    Text("Everything").tag(String?.none)
-                    ForEach(model.topics, id: \.self) { Text($0).tag(String?.some($0)) }
+                Button { choosing = true } label: {
+                    HStack {
+                        Text("What to study")
+                            .foregroundStyle(Theme.ink)
+                        Spacer()
+                        Text(scopeSummary)
+                            .foregroundStyle(Theme.accent)
+                        Image(systemName: "chevron.right")
+                            .font(.system(size: 12, weight: .semibold))
+                            .foregroundStyle(Theme.ink3)
+                    }
+                    .font(Theme.ui(15))
                 }
             }
             .listRowBackground(Theme.surface)
@@ -131,13 +210,21 @@ private struct SessionBuilder: View {
                     ForEach([5, 10, 20, 40], id: \.self) { Text("\($0)").tag($0) }
                 }
                 .pickerStyle(.segmented)
+
+                // The web allows any length up to forty; the four buttons are
+                // the common ones, not the only ones.
+                Stepper(
+                    "^[\(model.length) question](inflect: true)",
+                    value: $model.length, in: 1...40
+                )
+                .font(Theme.ui(14))
             }
             .listRowBackground(Theme.surface)
 
             Section {
                 Button {
                     model.start(named: SessionNaming.automatic(
-                        subject: model.selectedTopic ?? "",
+                        subject: scopeSummary == "Everything" ? "" : scopeSummary,
                         existing: Array(store.names.values)
                     ))
                 } label: {
@@ -159,9 +246,20 @@ private struct SessionBuilder: View {
         .background(Theme.paper)
     }
 
-    private var matching: Int {
-        model.selectedTopic.map { topic in model.available.filter { $0.topic == topic }.count }
-            ?? model.available.count
+    private var matching: Int { model.inScope.count }
+
+    /// What the scope amounts to, said in a few words.
+    ///
+    /// The plural is spelt out rather than left to `^[…](inflect:)`: that markup
+    /// is only read when it reaches `Text` as a literal, and a computed string
+    /// arrives as itself — which puts the markup on screen.
+    private var scopeSummary: String {
+        guard !model.scope.isEmpty else { return "Everything" }
+        let chapters = model.scope.filter { $0.hasPrefix("t:") }.count
+        let parts = model.scope.filter { $0.hasPrefix("s:") }.count
+        if chapters > 0, parts == 0 { return "\(chapters) chapter\(chapters == 1 ? "" : "s")" }
+        if parts > 0, chapters == 0 { return "\(parts) part\(parts == 1 ? "" : "s")" }
+        return "\(chapters + parts) chosen"
     }
 }
 

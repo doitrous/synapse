@@ -55,8 +55,33 @@ final class QuestionBankModel {
         Array(Set(available.map(\.topic).filter { !$0.isEmpty })).sorted()
     }
 
-    var selectedTopic: String?
+    /// What the sitting is drawn from. Empty means the whole bank.
+    var scope: Set<String> = []
     var length = 10
+
+    /// The chapters a student can choose from, built from the bank itself.
+    var chooserTopics: [ChooserTopic] { QBankScope.chooserTopics(available) }
+    var scopeCounts: (topics: [String: Int], subtopics: [String: Int]) {
+        QBankScope.counts(available, topics: chooserTopics)
+    }
+
+    /// The questions the current scope covers.
+    var inScope: [Question] {
+        QBankScope.questions(available, inScope: scope, topics: chooserTopics)
+    }
+
+    /// The subjects a student is weakest at, for the quick-start preset.
+    ///
+    /// Left to the caller to supply: it comes from the attempt history, which
+    /// this model does not hold.
+    var weakestSubjects: Set<String> = []
+
+    func preset(_ preset: QBankPreset) -> [Question] {
+        preset.pool(available, weakestSubjects: weakestSubjects)
+    }
+
+    /// Sittings already taken, newest first.
+    private(set) var previousSittings: [SessionSummary] = []
 
     private let store: LocalStore
     private let sync: SyncEngine
@@ -122,6 +147,8 @@ final class QuestionBankModel {
         isLoading = true
         defer { isLoading = false }
 
+        await loadHistory()
+
         do {
             let items = try await store.items(kind: .question, audience: audience)
             available = items.compactMap(QuestionProjection.project)
@@ -132,12 +159,51 @@ final class QuestionBankModel {
         }
     }
 
+    /// Every attempt this student has recorded, across every month held.
+    private func allRecords() async -> [AttemptRecord] {
+        guard let months = try? await store.allAttemptMonths() else { return [] }
+        var records: [AttemptRecord] = []
+        for month in months {
+            guard let rows = try? await store.attempts(month: month) else { continue }
+            records.append(contentsOf: rows.compactMap {
+                try? JSONDecoder().decode(AttemptRecord.self, from: $0)
+            })
+        }
+        return records
+    }
+
+    /// Read the attempt log, for previous sittings and the weakest subjects.
+    private func loadHistory() async {
+        let records = await allRecords()
+        previousSittings = SessionSummary.from(records)
+
+        // Weakest by accuracy, and only where there is enough marked work to
+        // mean anything — three answers is not evidence of a weakness.
+        var marked: [String: (correct: Int, total: Int)] = [:]
+        for record in records {
+            guard let correct = record.correct else { continue }
+            marked[record.subjectId, default: (0, 0)].total += 1
+            if correct { marked[record.subjectId, default: (0, 0)].correct += 1 }
+        }
+        weakestSubjects = Set(
+            marked.filter { $0.value.total >= 3 }
+                .sorted { Double($0.value.correct) / Double($0.value.total) < Double($1.value.correct) / Double($1.value.total) }
+                .prefix(3)
+                .map(\.key)
+        )
+    }
+
+    /// The questions in a sitting already taken, for reading back.
+    func questions(inSitting sessionID: String) async -> [Question] {
+        let wanted = await allRecords().filter { $0.sessionId == sessionID }.map(\.itemId)
+        let byID = Dictionary(uniqueKeysWithValues: available.map { ($0.id, $0) })
+        return wanted.compactMap { byID[$0] }
+    }
+
     // MARK: - Running a sitting
 
     func start(questions: [Question]? = nil, named name: String = "") {
-        let pool = questions
-            ?? selectedTopic.map { topic in available.filter { $0.topic == topic } }
-            ?? available
+        let pool = questions ?? inScope
         session = questions ?? Array(pool.shuffled().prefix(length))
         sessionId = QBankStore.newSessionID()
         sessionName = name
