@@ -499,3 +499,108 @@ struct HitTestTests {
         #expect(HitTest.insideRect(InkPoint(x: 0.69, y: 0.11), [0.7, 0.1, 0.9, 0.2], slop: 0.02))
     }
 }
+
+// MARK: - Lasso and moving
+
+/// Pinned to the output of the real `src/lib/reader/lasso.ts` and
+/// `translateObject`, run under Node against the same objects.
+struct LassoTests {
+
+    private func ink(_ id: String, _ points: [InkPoint], width: Double = 0.003) -> AnnotationObject {
+        AnnotationObject(
+            id: id, kind: .ink, page: 1, z: 1,
+            bbox: StrokeCodec.bounds(points, padding: width / 2), t: 1,
+            tool: "ball", color: "#000", w: width, p: StrokeCodec.encode(points)
+        )
+    }
+
+    /// Seven of its ten points fall inside the box below.
+    private var mostlyInside: AnnotationObject {
+        ink("in", (0..<10).map { InkPoint(x: 0.1 + Double($0) * 0.05, y: 0.5) })
+    }
+
+    /// Only three of ten.
+    private var barelyInside: AnnotationObject {
+        ink("out", (0..<10).map { InkPoint(x: 0.3 + Double($0) * 0.05, y: 0.7) })
+    }
+
+    private var note: AnnotationObject {
+        AnnotationObject(
+            id: "note", kind: .note, page: 1, z: 2, bbox: [0.8, 0.8, 0.9, 0.9], t: 1,
+            r: [0.8, 0.8, 0.9, 0.9], tone: .amber, text: "x"
+        )
+    }
+
+    private var page: [AnnotationObject] { [mostlyInside, barelyInside, note] }
+    private let everything: Set<ObjectKind> = [.ink, .highlighter, .note, .textbox, .tape]
+
+    private var box: [InkPoint] {
+        Lasso.rectanglePolygon(InkPoint(x: 0.05, y: 0.45), InkPoint(x: 0.45, y: 0.75))
+    }
+
+    /// The rule that makes the tool usable: "any point inside" would make a
+    /// long stroke impossible to avoid selecting, "every point" impossible to
+    /// select at all. Sixty per cent is the line that behaves — so the stroke
+    /// with seven points in is caught and the one with three is not.
+    @Test func inkNeedsMostOfItselfInside() {
+        #expect(Lasso.select(page, polygon: box, kinds: everything) == ["in"])
+    }
+
+    @Test func aWidgetGoesByItsCentre() {
+        let all = Lasso.rectanglePolygon(InkPoint(x: 0, y: 0), InkPoint(x: 1, y: 1))
+        #expect(Lasso.select(page, polygon: all, kinds: everything) == ["in", "out", "note"])
+    }
+
+    /// Turning a kind off is just leaving it out of the set.
+    @Test func kindsThatAreOffAreNotPickedUp() {
+        let all = Lasso.rectanglePolygon(InkPoint(x: 0, y: 0), InkPoint(x: 1, y: 1))
+        #expect(Lasso.select(page, polygon: all, kinds: [.ink]) == ["in", "out"])
+    }
+
+    @Test func pointsInsideAndOutsideAPolygon() {
+        #expect(Lasso.pointInPolygon(InkPoint(x: 0.2, y: 0.5), box))
+        #expect(!Lasso.pointInPolygon(InkPoint(x: 0.9, y: 0.5), box))
+        // Fewer than three corners is not a shape, so it encloses nothing.
+        #expect(!Lasso.pointInPolygon(InkPoint(x: 0.2, y: 0.5), Array(box.prefix(2))))
+    }
+
+    @Test func boundsMatchTheWeb() {
+        #expect(Lasso.bounds(of: box) == [0.05, 0.45, 0.45, 0.75])
+
+        let selection = Lasso.selectionBounds([mostlyInside, note])!
+        #expect(abs(selection[0] - 0.0985) < 1e-9)
+        #expect(abs(selection[1] - 0.4985) < 1e-9)
+        #expect(selection[2] == 0.9 && selection[3] == 0.9)
+        #expect(Lasso.selectionBounds([]) == nil)
+    }
+
+    /// Moving ink adjusts only the first encoded pair, which is what makes
+    /// dragging a selection of two hundred strokes cost nothing.
+    @Test func movingInkMatchesTheWeb() {
+        let moved = mostlyInside.translated(dx: 0.1, dy: -0.05, stamp: 99)
+
+        #expect(Array(moved.p!.prefix(4)) == [820, 1843, 204, 0])
+        #expect(abs(moved.bbox[0] - 0.1985) < 1e-9)
+        #expect(abs(moved.bbox[3] - 0.4515) < 1e-9)
+        #expect(moved.t == 99)
+
+        let points = StrokeCodec.decode(moved.p!)
+        #expect(abs(points[0].x - 0.200195313) < 1e-9)
+        #expect(abs(points[0].y - 0.449951172) < 1e-9)
+    }
+
+    @Test func movingAWidgetShiftsItsRectangle() {
+        let moved = note.translated(dx: 0.1, dy: -0.05, stamp: 99)
+        #expect(moved.r == [0.9, 0.75, 1.0, 0.85])
+        #expect(moved.bbox == [0.9, 0.75, 1.0, 0.85])
+    }
+
+    /// A marker has no geometry to shift, and must survive being asked anyway.
+    @Test func movingAMarkerChangesNothingButItsStamp() {
+        let marker = AnnotationObject.marker(title: "Aorta", page: 3, z: 0, stamp: 1)
+        let moved = marker.translated(dx: 0.1, dy: 0.1, stamp: 99)
+        #expect(moved.title == "Aorta")
+        #expect(moved.p == nil && moved.r == nil)
+        #expect(moved.t == 99)
+    }
+}

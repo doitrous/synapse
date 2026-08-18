@@ -37,8 +37,8 @@ final class AnnotationStore {
 
     /// In memory only, as on the web: undo is for the session you are in, not
     /// a history of the document.
-    var undoStack: [Change] = []
-    var redoStack: [Change] = []
+    var undoStack: [Op] = []
+    var redoStack: [Op] = []
 
     init(api: SynapseAPI, sync: SyncEngine, kind: AnnotationKey.Kind, documentID: String) {
         self.api = api
@@ -132,7 +132,7 @@ extension AnnotationStore {
     /// scrolled on, and writing it to the wrong shard loses it.
     func add(_ object: AnnotationObject) async {
         apply(on: object.page) { $0.append(object) }
-        record(.added(object))
+        record(Op(added: [object]))
         await save(shardFor: object.page)
         await saveManifestIfNeeded(touching: object)
     }
@@ -145,7 +145,7 @@ extension AnnotationStore {
         for page in Set(objects.map(\.page)) {
             apply(on: page) { objects in objects.removeAll { ids.contains($0.id) } }
         }
-        record(.removed(objects))
+        record(Op(removed: objects))
 
         for page in Set(objects.map(\.page)) { await save(shardFor: page) }
         if objects.contains(where: \.entersManifest) { await saveManifest() }
@@ -197,16 +197,69 @@ extension AnnotationStore {
         await sync.write(key: AnnotationKey.manifestKey(scope: scope), value: manifest)
     }
 
-    // MARK: - Undo
+    // MARK: - Changing marks in place
 
-    /// One reversible change.
-    enum Change {
-        case added(AnnotationObject)
-        case removed([AnnotationObject])
+    /// Move, retype or recolour marks that already exist.
+    ///
+    /// `coalesce` folds the change into the previous undo step, so a drag of
+    /// forty touch moves is one Undo rather than forty. Without it, putting a
+    /// note back where it was would mean holding Undo down.
+    func update(
+        ids: [String], coalesce: String? = nil,
+        _ patch: (AnnotationObject) -> AnnotationObject
+    ) async {
+        guard !ids.isEmpty else { return }
+        let wanted = Set(ids)
+        let before = objectsByPage.values.flatMap { $0 }.filter { wanted.contains($0.id) }
+        guard !before.isEmpty else { return }
+
+        // Stamped here rather than in each caller: `t` is what tells the
+        // renderer a mark changed, and a recolour that forgot to touch it would
+        // not repaint. Forced to advance, because a drag emits several changes
+        // inside one millisecond and two equal stamps would look like no change.
+        let stamp = AnnotationObject.nextStamp(after: lastStamp)
+        let after = before.map { object -> AnnotationObject in
+            var patched = patch(object)
+            patched.t = stamp
+            return patched
+        }
+
+        let ids = Set(before.map(\.id))
+        for page in Set(before.map(\.page)) {
+            apply(on: page) { objects in objects.removeAll { ids.contains($0.id) } }
+        }
+        for object in after { apply(on: object.page) { $0.append(object) } }
+
+        record(Op(added: after, removed: before, tag: coalesce))
+
+        for page in Set(before.map(\.page) + after.map(\.page)) { await save(shardFor: page) }
+        if (before + after).contains(where: \.entersManifest) { await saveManifest() }
     }
 
-    private func record(_ change: Change) {
-        undoStack.append(change)
+    // MARK: - Undo
+
+    /// One reversible change: what appeared, and what went away.
+    ///
+    /// A pair rather than an enum, because an edit is both at once — the old
+    /// note is removed and the new one added — and `tag` marks a run of them
+    /// that undo together.
+    struct Op {
+        var added: [AnnotationObject] = []
+        var removed: [AnnotationObject] = []
+        /// Set for changes that fold into the one before, like a drag.
+        var tag: String?
+    }
+
+    private func record(_ op: Op) {
+        // A drag emits one of these per touch move. Folding them into the step
+        // that started the drag is what makes Undo mean "put it back where it
+        // was" rather than "move it two pixels".
+        if let tag = op.tag, let last = undoStack.last, last.tag == tag {
+            undoStack[undoStack.count - 1].added = op.added
+            redoStack.removeAll()
+            return
+        }
+        undoStack.append(op)
         // A hundred steps, as the web keeps. Past that the memory is worth more
         // than the regret.
         if undoStack.count > 100 { undoStack.removeFirst() }
@@ -217,44 +270,28 @@ extension AnnotationStore {
     var canRedo: Bool { !redoStack.isEmpty }
 
     func undo() async {
-        guard let change = undoStack.popLast() else { return }
-        await reverse(change)
-        redoStack.append(change)
+        guard let op = undoStack.popLast() else { return }
+        // The inverse: whatever was added is removed, whatever was removed
+        // comes back.
+        await put(back: op.removed, takingAway: op.added)
+        redoStack.append(op)
     }
 
     func redo() async {
-        guard let change = redoStack.popLast() else { return }
-        await reapply(change)
-        undoStack.append(change)
+        guard let op = redoStack.popLast() else { return }
+        await put(back: op.added, takingAway: op.removed)
+        undoStack.append(op)
     }
 
-    private func reverse(_ change: Change) async {
-        switch change {
-        case .added(let object):
-            apply(on: object.page) { objects in objects.removeAll { $0.id == object.id } }
-            await save(shardFor: object.page)
-            await saveManifestIfNeeded(touching: object)
-        case .removed(let objects):
-            for object in objects { apply(on: object.page) { $0.append(object) } }
-            for page in Set(objects.map(\.page)) { await save(shardFor: page) }
-            if objects.contains(where: \.entersManifest) { await saveManifest() }
+    private func put(back: [AnnotationObject], takingAway: [AnnotationObject]) async {
+        let ids = Set(takingAway.map(\.id))
+        for page in Set(takingAway.map(\.page)) {
+            apply(on: page) { objects in objects.removeAll { ids.contains($0.id) } }
         }
-    }
+        for object in back { apply(on: object.page) { $0.append(object) } }
 
-    private func reapply(_ change: Change) async {
-        switch change {
-        case .added(let object):
-            apply(on: object.page) { $0.append(object) }
-            await save(shardFor: object.page)
-            await saveManifestIfNeeded(touching: object)
-        case .removed(let objects):
-            let ids = Set(objects.map(\.id))
-            for page in Set(objects.map(\.page)) {
-                apply(on: page) { objects in objects.removeAll { ids.contains($0.id) } }
-            }
-            for page in Set(objects.map(\.page)) { await save(shardFor: page) }
-            if objects.contains(where: \.entersManifest) { await saveManifest() }
-        }
+        for page in Set(back.map(\.page) + takingAway.map(\.page)) { await save(shardFor: page) }
+        if (back + takingAway).contains(where: \.entersManifest) { await saveManifest() }
     }
 }
 

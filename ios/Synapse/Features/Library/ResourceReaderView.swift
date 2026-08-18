@@ -27,6 +27,23 @@ struct ResourceReaderView: View {
     /// silently stop working.
     @State private var marks: [Int: [AnnotationObject]] = [:]
     @State private var settings = ToolSettings()
+    /// What the lasso picked up, by id.
+    @State private var selection: Set<String> = []
+    /// Which drag is in progress.
+    ///
+    /// The undo stack folds changes sharing a tag, so a drag of forty touch
+    /// moves is one step. Bumping this on release is what stops the *next* drag
+    /// folding into the same one.
+    @State private var gesture = 0
+    /// The note or textbox being written in.
+    @State private var editing: AnnotationObject?
+    /// Whether there is anything to undo or redo.
+    ///
+    /// Copied out of the store for the same reason `marks` is: these are read
+    /// while building a `UIViewRepresentable`'s surroundings, and relying on
+    /// observation to carry them left the buttons showing the state from two
+    /// changes ago. Refreshed wherever the marks are.
+    @State private var history: (undo: Bool, redo: Bool) = (false, false)
 
     var body: some View {
         Group {
@@ -68,26 +85,68 @@ struct ResourceReaderView: View {
     }
 
     private func reader(_ url: URL) -> some View {
+        // Reserved space rather than an overlay. PDFKit is a UIKit view, and a
+        // UIKit view wins hit-testing against SwiftUI content drawn above it —
+        // so a floating bar over the page looked right and swallowed every tap,
+        // which is a far worse failure than losing a few points of page.
+        page(url)
+            .safeAreaInset(edge: .bottom, spacing: 0) {
+                VStack(spacing: 8) {
+                    if !pageLabel.isEmpty, !searching {
+                        Text(pageLabel)
+                            .font(Theme.numeric(11))
+                            .foregroundStyle(Theme.ink2)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 5)
+                            .background(.ultraThinMaterial, in: Capsule())
+                    }
+                    if !selection.isEmpty { selectionBar }
+                }
+                .padding(.bottom, 6)
+            }
+    }
+
+    private func page(_ url: URL) -> some View {
         PDFReader(
             url: url,
             query: searching ? query : "",
             marks: marks,
             settings: settings,
+            selection: selectionBox,
             onStroke: { points, onPage in
                 Task { await commit(points, page: onPage) }
             },
             onErase: { path, onPage, radius in
                 Task { await erase(along: path, page: onPage, radius: radius) }
-            }
+            },
+            onLasso: { polygon, onPage in
+                selection = Set(Lasso.select(
+                    annotations?.objects(onPage: onPage) ?? [],
+                    polygon: polygon, kinds: settings.lassoKinds
+                ))
+            },
+            onRect: { kind, rect, onPage in
+                Task { await place(kind, rect: rect, page: onPage) }
+            },
+            onMove: { dx, dy in
+                Task { await move(dx: dx, dy: dy) }
+            },
+            onMoveEnd: { gesture += 1 },
+            onTapAway: { selection = [] }
         ) { label, number in
             pageLabel = label
             page = number
         }
+        .sheet(item: $editing) { object in
+            WidgetTextSheet(object: object) { text in
+                Task { await retype(object, text: text) }
+            }
+        }
         .overlay {
             ReaderToolbar(
                 settings: $settings,
-                canUndo: annotations?.canUndo ?? false,
-                canRedo: annotations?.canRedo ?? false,
+                canUndo: history.undo,
+                canRedo: history.redo,
                 undo: { Task { await annotations?.undo(); refreshMarks() } },
                 redo: { Task { await annotations?.redo(); refreshMarks() } }
             )
@@ -99,33 +158,21 @@ struct ResourceReaderView: View {
             annotations = store
             await store.loadManifest()
             await store.load(around: page)
-            marks = store.objectsByPage
+            refreshMarks()
         }
         // Following the reader rather than loading everything: a 300-page book
         // is twenty shards, and nineteen of them are nowhere near the screen.
         .onChange(of: page) { _, current in
             Task {
                 await annotations?.load(around: current)
-                if let loaded = annotations?.objectsByPage { marks = loaded }
+                refreshMarks()
             }
         }
-        .ignoresSafeArea(edges: .bottom)
         .searchable(
             text: $query, isPresented: $searching,
             placement: .navigationBarDrawer(displayMode: .always),
             prompt: "Search this document"
         )
-        .overlay(alignment: .bottom) {
-            if !pageLabel.isEmpty, !searching {
-                Text(pageLabel)
-                    .font(Theme.numeric(11))
-                    .foregroundStyle(Theme.ink2)
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 5)
-                    .background(.ultraThinMaterial, in: Capsule())
-                    .padding(.bottom, 10)
-            }
-        }
     }
 
     /// Turn a finished stroke into a stored mark.
@@ -171,7 +218,113 @@ struct ResourceReaderView: View {
     }
 
     private func refreshMarks() {
-        if let loaded = annotations?.objectsByPage { marks = loaded }
+        guard let store = annotations else { return }
+        marks = store.objectsByPage
+        history = (store.canUndo, store.canRedo)
+    }
+
+    /// Place a sticky note, a text box or a strip of tape.
+    ///
+    /// Placing one is a single act rather than a mode to stay in, so the tool
+    /// goes back to pan afterwards — the web does the same. A note and a
+    /// textbox open for writing straight away, because an empty one is not
+    /// what anybody wanted.
+    private func place(_ kind: ObjectKind, rect: [Double], page onPage: Int) async {
+        guard let store = annotations else { return }
+
+        let object = AnnotationObject.widget(
+            kind: kind, rect: rect,
+            tone: kind == .textbox ? nil : settings.tone,
+            text: kind == .tape ? nil : "",
+            color: kind == .textbox ? settings.color : nil,
+            size: kind == .textbox ? ToolSettings.textboxSize : nil,
+            page: onPage, z: store.nextZ(onPage: onPage),
+            stamp: AnnotationObject.nextStamp(after: store.lastStamp)
+        )
+        await store.add(object)
+        refreshMarks()
+
+        settings.tool = .pan
+        if kind != .tape { editing = object }
+    }
+
+    /// Shift whatever is selected.
+    ///
+    /// Tagged with the gesture number so a drag folds into one undo step: the
+    /// alternative is a student holding Undo down to put a note back.
+    private func move(dx: Double, dy: Double) async {
+        guard let store = annotations, !selection.isEmpty else { return }
+        let stamp = AnnotationObject.nextStamp(after: store.lastStamp)
+        await store.update(ids: Array(selection), coalesce: "move-\(gesture)") {
+            $0.translated(dx: dx, dy: dy, stamp: stamp)
+        }
+        refreshMarks()
+    }
+
+    private func retype(_ object: AnnotationObject, text: String) async {
+        guard let store = annotations else { return }
+        await store.update(ids: [object.id]) { current in
+            var edited = current
+            edited.text = text
+            return edited
+        }
+        refreshMarks()
+    }
+
+    private func removeSelection() async {
+        guard let store = annotations else { return }
+        let ids = selection
+        let objects = store.objectsByPage.values.flatMap { $0 }.filter { ids.contains($0.id) }
+        selection = []
+        await store.remove(objects)
+        refreshMarks()
+    }
+
+    /// What can be done to a selection, once there is one.
+    private var selectionBar: some View {
+        HStack(spacing: 14) {
+            Text("^[\(selection.count) mark](inflect: true) selected")
+                .font(Theme.ui(13))
+                .foregroundStyle(Theme.ink2)
+
+            if let only = soleWordedObject {
+                Button {
+                    editing = only
+                } label: {
+                    Label("Edit", systemImage: "character.cursor.ibeam")
+                }
+            }
+
+            Button(role: .destructive) {
+                Task { await removeSelection() }
+            } label: {
+                Label("Delete", systemImage: "trash")
+            }
+
+            Button("Done") { selection = [] }
+        }
+        .font(Theme.ui(13, weight: 600))
+        .labelStyle(.titleOnly)
+        .tint(Theme.accent)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 10)
+        .background(.regularMaterial, in: Capsule())
+        .padding(.bottom, 16)
+    }
+
+    /// The one selected mark that holds words, if that is what is selected.
+    private var soleWordedObject: AnnotationObject? {
+        guard selection.count == 1, let id = selection.first else { return nil }
+        let object = annotations?.objectsByPage.values.flatMap { $0 }.first { $0.id == id }
+        return (object?.kind == .note || object?.kind == .textbox) ? object : nil
+    }
+
+    /// The selection's box and the page it is on, for the capture layer.
+    private var selectionBox: (page: Int, rect: [Double])? {
+        let objects = (annotations?.objectsByPage.values.flatMap { $0 } ?? [])
+            .filter { selection.contains($0.id) }
+        guard let page = objects.first?.page, let rect = Lasso.selectionBounds(objects) else { return nil }
+        return (page, rect)
     }
 
     private func downloading(_ fraction: Double) -> some View {
@@ -232,8 +385,16 @@ struct PDFReader: UIViewRepresentable {
     /// simpler than making the coordinator main-actor bound to read a model.
     var marks: [Int: [AnnotationObject]] = [:]
     var settings = ToolSettings()
+    /// The selection's box, so a drag that starts on it is claimed before
+    /// PDFKit scrolls the page instead.
+    var selection: (page: Int, rect: [Double])?
     var onStroke: ((_ points: [InkPoint], _ page: Int) -> Void)?
     var onErase: ((_ path: [InkPoint], _ page: Int, _ radius: Double) -> Void)?
+    var onLasso: ((_ polygon: [InkPoint], _ page: Int) -> Void)?
+    var onRect: ((_ kind: ObjectKind, _ rect: [Double], _ page: Int) -> Void)?
+    var onMove: ((_ dx: Double, _ dy: Double) -> Void)?
+    var onMoveEnd: (() -> Void)?
+    var onTapAway: (() -> Void)?
     let onPageChange: (String, Int) -> Void
 
     func makeUIView(context: Context) -> PDFView {
@@ -277,8 +438,14 @@ struct PDFReader: UIViewRepresentable {
         capture.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         capture.pdfView = view
         capture.settings = settings
+        capture.selection = selection
         capture.onStroke = onStroke
         capture.onErase = onErase
+        capture.onLasso = onLasso
+        capture.onRect = onRect
+        capture.onMove = onMove
+        capture.onMoveEnd = onMoveEnd
+        capture.onTapAway = onTapAway
         view.addSubview(capture)
         context.coordinator.capture = capture
 
@@ -290,8 +457,14 @@ struct PDFReader: UIViewRepresentable {
         context.coordinator.onPageChange = onPageChange
         context.coordinator.overlay?.marks = marks
         context.coordinator.capture?.settings = settings
+        context.coordinator.capture?.selection = selection
         context.coordinator.capture?.onStroke = onStroke
         context.coordinator.capture?.onErase = onErase
+        context.coordinator.capture?.onLasso = onLasso
+        context.coordinator.capture?.onRect = onRect
+        context.coordinator.capture?.onMove = onMove
+        context.coordinator.capture?.onMoveEnd = onMoveEnd
+        context.coordinator.capture?.onTapAway = onTapAway
         // Scrolling and drawing are the same gesture, so only one of them can
         // have it: the page scrolls under `pan` and nothing else.
         view.enclosedScrollView?.isScrollEnabled = !settings.tool.drawsOnPage

@@ -21,13 +21,18 @@ struct ReaderToolbar: View {
     @State private var collapsed = ReaderPreferences.toolbarCollapsed
     @State private var dragging: CGSize = .zero
     @State private var showingSettings = false
+    /// Measured, so the palette can be kept wholly on screen. A stored offset
+    /// that was fine for four tools parks eight of them under the tab bar.
+    @State private var height: CGFloat = 0
 
     var body: some View {
         GeometryReader { geometry in
             palette
+                .frame(maxHeight: geometry.size.height - 16)
+                .onGeometryChange(for: CGFloat.self) { $0.size.height } action: { height = $0 }
                 .position(
                     x: restingX(in: geometry.size) + dragging.width,
-                    y: geometry.size.height * offset + dragging.height
+                    y: restingY(in: geometry.size) + dragging.height
                 )
                 .gesture(drag(in: geometry.size))
         }
@@ -37,6 +42,14 @@ struct ReaderToolbar: View {
     private func restingX(in size: CGSize) -> CGFloat {
         let inset: CGFloat = 34
         return edge == .leading ? inset : size.width - inset
+    }
+
+    /// Where its centre sits, kept far enough from either end that the whole
+    /// palette stays on screen however tall it has grown.
+    private func restingY(in size: CGSize) -> CGFloat {
+        let half = height / 2 + 8
+        guard size.height > height + 16 else { return size.height / 2 }
+        return min(max(size.height * offset, half), size.height - half)
     }
 
     private func drag(in size: CGSize) -> some Gesture {
@@ -49,8 +62,8 @@ struct ReaderToolbar: View {
                 let x = restingX(in: size) + value.translation.width
                 edge = x < size.width / 2 ? .leading : .trailing
 
-                let y = size.height * offset + value.translation.height
-                offset = min(max(y / max(size.height, 1), 0.02), 0.75)
+                let y = restingY(in: size) + value.translation.height
+                offset = min(max(y / max(size.height, 1), 0.02), 0.98)
 
                 ReaderPreferences.toolbarEdge = edge
                 ReaderPreferences.toolbarOffset = offset
@@ -59,7 +72,25 @@ struct ReaderToolbar: View {
     }
 
     private var palette: some View {
-        VStack(spacing: 6) {
+        ViewThatFits(in: .vertical) {
+            column
+            ScrollView(.vertical, showsIndicators: false) { column }
+        }
+        .padding(.vertical, 8)
+        .padding(.horizontal, 5)
+        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: Theme.Radius.xxl))
+        .overlay(
+            RoundedRectangle(cornerRadius: Theme.Radius.xxl).stroke(Theme.line, lineWidth: 1)
+        )
+        .shadow(color: .black.opacity(0.12), radius: 10, y: 3)
+        .sheet(isPresented: $showingSettings) {
+            ToolSettingsSheet(settings: $settings)
+                .presentationDetents([.medium, .large])
+        }
+    }
+
+    private var column: some View {
+        VStack(spacing: 4) {
             grip
 
             if collapsed {
@@ -85,17 +116,6 @@ struct ReaderToolbar: View {
                     .opacity(canRedo ? 1 : 0.35)
                     .accessibilityLabel("Redo")
             }
-        }
-        .padding(.vertical, 8)
-        .padding(.horizontal, 5)
-        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: Theme.Radius.xxl))
-        .overlay(
-            RoundedRectangle(cornerRadius: Theme.Radius.xxl).stroke(Theme.line, lineWidth: 1)
-        )
-        .shadow(color: .black.opacity(0.12), radius: 10, y: 3)
-        .sheet(isPresented: $showingSettings) {
-            ToolSettingsSheet(settings: $settings)
-                .presentationDetents([.medium, .large])
         }
     }
 
@@ -134,7 +154,7 @@ struct ReaderToolbar: View {
         Image(systemName: symbol)
             .font(.system(size: 15))
             .foregroundStyle(active ? Theme.onAccent : Theme.ink2)
-            .frame(width: 34, height: 34)
+            .frame(width: 34, height: 31)
             .background(active ? Theme.accent : Color.clear, in: RoundedRectangle(cornerRadius: Theme.Radius.md))
             .contentShape(Rectangle())
     }
@@ -148,7 +168,7 @@ private struct ToolSettingsSheet: View {
     var body: some View {
         NavigationStack {
             Form {
-                if settings.tool == .pen || settings.tool == .highlighter {
+                if settings.tool == .pen || settings.tool == .highlighter || settings.tool == .textbox {
                     Section("Colour") {
                         LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 6), spacing: 10) {
                             ForEach(ReaderPalette.ink, id: \.self) { hex in
@@ -174,6 +194,9 @@ private struct ToolSettingsSheet: View {
                         ))
                     }
 
+                }
+
+                if settings.tool == .pen || settings.tool == .highlighter {
                     Section("Width") {
                         // Page-space units, so the slider means the same thing
                         // on every document and at every zoom.
@@ -204,6 +227,61 @@ private struct ToolSettingsSheet: View {
                     }
                 }
 
+                if settings.tool == .note || settings.tool == .tape {
+                    Section {
+                        LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 4), spacing: 10) {
+                            ForEach(NoteTone.allCases, id: \.self) { tone in
+                                Button { settings.tone = tone } label: {
+                                    RoundedRectangle(cornerRadius: Theme.Radius.sm)
+                                        .fill(Color(UIColor(tone: tone, opaque: true)))
+                                        .frame(height: 34)
+                                        .overlay(
+                                            RoundedRectangle(cornerRadius: Theme.Radius.sm).stroke(
+                                                settings.tone == tone ? Theme.ink : Theme.line,
+                                                lineWidth: settings.tone == tone ? 2 : 1
+                                            )
+                                        )
+                                }
+                                .buttonStyle(.plain)
+                            }
+                        }
+                        .padding(.vertical, 4)
+                    } header: {
+                        Text("Colour")
+                    } footer: {
+                        Text("These follow the page's theme rather than being fixed ink, so a note stays readable in the dark.")
+                            .font(Theme.ui(12))
+                    }
+                }
+
+                if settings.tool == .lasso {
+                    Section("Select by") {
+                        Picker("Shape", selection: $settings.lasso) {
+                            ForEach(LassoMode.allCases, id: \.self) { mode in
+                                Text(mode.label).tag(mode)
+                            }
+                        }
+                        .pickerStyle(.segmented)
+                    }
+
+                    Section {
+                        ForEach(Self.selectable, id: \.0) { kind, label in
+                            Toggle(label, isOn: Binding(
+                                get: { settings.lassoKinds.contains(kind) },
+                                set: { on in
+                                    if on { settings.lassoKinds.insert(kind) }
+                                    else { settings.lassoKinds.remove(kind) }
+                                }
+                            ))
+                        }
+                    } header: {
+                        Text("Pick up")
+                    } footer: {
+                        Text("Handwriting is caught when most of a stroke falls inside; a note or a strip of tape when its middle does.")
+                            .font(Theme.ui(12))
+                    }
+                }
+
                 if settings.tool == .eraser {
                     Section("Eraser") {
                         Picker("Mode", selection: $settings.eraserMode) {
@@ -230,6 +308,15 @@ private struct ToolSettingsSheet: View {
             }
         }
     }
+}
+
+private extension ToolSettingsSheet {
+    /// The kinds a lasso can be told to ignore. Markers are left out: they have
+    /// no place on the page to enclose.
+    static let selectable: [(ObjectKind, String)] = [
+        (.ink, "Handwriting"), (.highlighter, "Highlighting"),
+        (.note, "Notes"), (.textbox, "Text"), (.tape, "Tape"),
+    ]
 }
 
 extension PenTool: CaseIterable {

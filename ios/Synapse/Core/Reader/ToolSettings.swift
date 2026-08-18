@@ -2,11 +2,10 @@ import Foundation
 
 /// What the pointer does right now.
 ///
-/// Mirrors `Tool` in `src/components/reader/InkSurface.tsx`. The web has ten;
-/// this phase covers the four a student needs to mark up a page — the widget
-/// and selection tools follow.
+/// Mirrors `Tool` in `src/components/reader/InkSurface.tsx`. The shape, ruler
+/// and laser tools follow.
 enum ReaderTool: String, CaseIterable, Identifiable, Sendable {
-    case pan, pen, highlighter, eraser
+    case pan, pen, highlighter, eraser, lasso, note, textbox, tape
 
     var id: String { rawValue }
 
@@ -16,6 +15,10 @@ enum ReaderTool: String, CaseIterable, Identifiable, Sendable {
         case .pen: "Pen"
         case .highlighter: "Highlighter"
         case .eraser: "Eraser"
+        case .lasso: "Select"
+        case .note: "Sticky note"
+        case .textbox: "Text"
+        case .tape: "Tape"
         }
     }
 
@@ -25,6 +28,10 @@ enum ReaderTool: String, CaseIterable, Identifiable, Sendable {
         case .pen: "pencil.tip"
         case .highlighter: "highlighter"
         case .eraser: "eraser"
+        case .lasso: "lasso"
+        case .note: "note.text"
+        case .textbox: "textformat"
+        case .tape: "rectangle.fill"
         }
     }
 
@@ -33,6 +40,35 @@ enum ReaderTool: String, CaseIterable, Identifiable, Sendable {
     /// Only `pan` leaves scrolling alone; every other tool has to own the
     /// gesture, or a stroke would scroll the document instead of drawing.
     var drawsOnPage: Bool { self != .pan }
+
+    /// Whether this tool is placed by dragging out a rectangle.
+    ///
+    /// Placing one is a single act rather than a mode to stay in, so the tool
+    /// returns to `pan` afterwards — the web does the same, and for the same
+    /// reason: nobody wants a second sticky note from the next tap.
+    var placesAWidget: Bool { self == .note || self == .textbox || self == .tape }
+
+    /// The kind a widget tool creates.
+    var widgetKind: ObjectKind? {
+        switch self {
+        case .note: .note
+        case .textbox: .textbox
+        case .tape: .tape
+        default: nil
+        }
+    }
+}
+
+/// How the lasso encloses: a drawn loop, or a dragged rectangle.
+enum LassoMode: String, CaseIterable, Sendable {
+    case free, rect
+
+    var label: String {
+        switch self {
+        case .free: "Draw round"
+        case .rect: "Drag a box"
+        }
+    }
 }
 
 /// Erase whole marks, or only where the eraser passes.
@@ -67,11 +103,22 @@ struct ToolSettings: Equatable, Sendable {
     /// When true the eraser leaves handwriting alone — for clearing a page of
     /// highlighting without losing the notes written over it.
     var eraserHighlighterOnly: Bool = false
+    var lasso: LassoMode = .free
+    /// Which kinds the lasso will pick up. All of them, until a student says
+    /// otherwise — the commonest use is "everything I just drew here".
+    var lassoKinds: Set<ObjectKind> = [.ink, .highlighter, .note, .textbox, .tape]
+    /// Widget colours are theme tokens, not literal ink; `amber` is the web's
+    /// default sticky note.
+    var tone: NoteTone = .amber
 
     /// The highlighter is drawn four times as wide and translucent, and the
     /// stored object records that rather than the pen's own width.
     var strokeWidth: Double { tool == .highlighter ? width * 4 : width }
     var strokeAlpha: Double? { tool == .highlighter ? 0.35 : nil }
+
+    /// The web's default type size for a new textbox, in page-space units — so
+    /// it stays the same size relative to the page's own text at any zoom.
+    static let textboxSize = 0.022
 }
 
 /// The twelve ink colours the web offers, plus whatever a student picks.
