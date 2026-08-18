@@ -8,12 +8,14 @@ struct ResourcesView: View {
     @State private var query = ""
     @State private var savedOnly = false
     @State private var files: ResourceFileStore
+    let api: SynapseAPI
 
     init(store: LocalStore, sync: SyncEngine, audience: StudentAudience, api: SynapseAPI) {
         _model = State(wrappedValue: ResourceModel(
             store: store, sync: sync, api: api, audience: audience
         ))
         _files = State(wrappedValue: ResourceFileStore(api: api))
+        self.api = api
         self.sync = sync
     }
 
@@ -66,7 +68,7 @@ struct ResourcesView: View {
                         // trust the rest of them.
                         if resource.isOpenable {
                             NavigationLink {
-                                ResourceReaderView(resource: resource, files: files)
+                                ResourceReaderView(resource: resource, files: files, api: api)
                             } label: {
                                 ResourceRow(
                                     resource: resource,

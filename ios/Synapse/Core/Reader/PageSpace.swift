@@ -1,5 +1,6 @@
 import CoreGraphics
 import Foundation
+import PDFKit
 
 /// How a page's own size relates to the stored coordinates.
 ///
@@ -21,6 +22,52 @@ struct PageMetrics: Equatable, Sendable {
 
     init(bounds: CGRect) {
         self.init(width: Double(bounds.width), height: Double(bounds.height))
+    }
+
+    /// The page as the reader actually shows it.
+    ///
+    /// `bounds(for:)` reports the box **before** the page's own `/Rotate` is
+    /// applied, so a page stored turned comes back 842×595 while it displays
+    /// 595×842. The stored coordinates are normalised against the width a
+    /// reader sees — which is what pdf.js reports on the web — so the displayed
+    /// size is the one that matters here.
+    init(displayedBy page: PDFPage, in view: PDFView) {
+        let box = page.bounds(for: view.displayBox)
+        let quarterTurned = abs(page.rotation) % 180 != 0
+        self.init(
+            width: Double(quarterTurned ? box.height : box.width),
+            height: Double(quarterTurned ? box.width : box.height)
+        )
+    }
+
+    /// A stored point → PDFKit's unrotated user space for this page.
+    ///
+    /// Two changes of basis at once, and both are easy to get silently wrong:
+    /// the stored form is top-left with y down and normalised by the *displayed*
+    /// width, while PDFKit's page space is bottom-left with y up and always
+    /// unrotated. Skipping the rotation puts a horizontal highlighter down the
+    /// page vertically; skipping the flip puts it near the right place, upside
+    /// down.
+    func userSpacePoint(_ point: InkPoint, rotation: Int) -> CGPoint {
+        // Where the mark sits on the page as it is shown, in points.
+        let dx = point.x * width
+        let dy = point.y * width
+
+        // The unrotated box, which is what user space is measured in.
+        let quarterTurned = abs(rotation) % 180 != 0
+        let boxWidth = quarterTurned ? height : width
+        let boxHeight = quarterTurned ? width : height
+
+        switch ((rotation % 360) + 360) % 360 {
+        case 90:
+            return CGPoint(x: dy, y: dx)
+        case 180:
+            return CGPoint(x: boxWidth - dx, y: dy)
+        case 270:
+            return CGPoint(x: boxHeight - dy, y: boxWidth - dx)
+        default:
+            return CGPoint(x: dx, y: boxHeight - dy)
+        }
     }
 
     /// `height / width` — how tall the page is in page-space units. About

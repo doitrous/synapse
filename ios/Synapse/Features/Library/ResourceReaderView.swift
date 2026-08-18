@@ -9,10 +9,22 @@ import SwiftUI
 struct ResourceReaderView: View {
     let resource: LibraryResource
     let files: ResourceFileStore
+    let api: SynapseAPI
 
     @State private var pageLabel = ""
     @State private var searching = false
     @State private var query = ""
+    @State private var annotations: AnnotationStore?
+    /// The page the reader is on, which decides which shards are worth having.
+    @State private var page = 1
+    /// The marks handed to the PDF view.
+    ///
+    /// Held here rather than read straight off the store: the store's changes
+    /// have to cross into a `UIViewRepresentable`, and relying on observation
+    /// to carry them meant the overlay was built once with nothing and never
+    /// asked again. Copying explicitly after each load is one line and cannot
+    /// silently stop working.
+    @State private var marks: [Int: [AnnotationObject]] = [:]
 
     var body: some View {
         Group {
@@ -54,8 +66,30 @@ struct ResourceReaderView: View {
     }
 
     private func reader(_ url: URL) -> some View {
-        PDFReader(url: url, query: searching ? query : "") { label in
+        PDFReader(
+            url: url,
+            query: searching ? query : "",
+            marks: marks
+        ) { label, number in
             pageLabel = label
+            page = number
+        }
+        .task {
+            // The scope is the resource's id, so marks made on the website
+            // land under exactly the same key.
+            let store = AnnotationStore(api: api, kind: .resource, documentID: resource.id)
+            annotations = store
+            await store.loadManifest()
+            await store.load(around: page)
+            marks = store.objectsByPage
+        }
+        // Following the reader rather than loading everything: a 300-page book
+        // is twenty shards, and nineteen of them are nowhere near the screen.
+        .onChange(of: page) { _, current in
+            Task {
+                await annotations?.load(around: current)
+                if let loaded = annotations?.objectsByPage { marks = loaded }
+            }
         }
         .ignoresSafeArea(edges: .bottom)
         .searchable(
@@ -124,10 +158,16 @@ struct ResourceReaderView: View {
 }
 
 /// PDFKit, wrapped.
-private struct PDFReader: UIViewRepresentable {
+struct PDFReader: UIViewRepresentable {
     let url: URL
     let query: String
-    let onPageChange: (String) -> Void
+    /// The student's marks, by 1-based page.
+    ///
+    /// A snapshot rather than the store itself: PDFKit asks for overlays from
+    /// UIKit callbacks, and passing immutable values across that boundary is
+    /// simpler than making the coordinator main-actor bound to read a model.
+    var marks: [Int: [AnnotationObject]] = [:]
+    let onPageChange: (String, Int) -> Void
 
     func makeUIView(context: Context) -> PDFView {
         let view = PDFView()
@@ -138,6 +178,8 @@ private struct PDFReader: UIViewRepresentable {
         view.displayDirection = .vertical
         view.usePageViewController(false)
         view.backgroundColor = UIColor(Theme.paper)
+
+
         view.document = PDFDocument(url: url)
 
         // Restore where this document was last left open.
@@ -153,12 +195,23 @@ private struct PDFReader: UIViewRepresentable {
         context.coordinator.view = view
         context.coordinator.url = url
         context.coordinator.onPageChange = onPageChange
+
+        // One overlay across the reader, added after the document so it sits
+        // above the pages.
+        let overlay = AnnotationOverlay(frame: view.bounds)
+        overlay.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        overlay.pdfView = view
+        overlay.marks = marks
+        view.addSubview(overlay)
+        context.coordinator.overlay = overlay
+
         context.coordinator.report()
         return view
     }
 
     func updateUIView(_ view: PDFView, context: Context) {
         context.coordinator.onPageChange = onPageChange
+        context.coordinator.overlay?.marks = marks
         context.coordinator.search(query)
     }
 
@@ -167,8 +220,11 @@ private struct PDFReader: UIViewRepresentable {
     final class Coordinator: NSObject {
         weak var view: PDFView?
         var url: URL?
-        var onPageChange: ((String) -> Void)?
+        var onPageChange: ((String, Int) -> Void)?
+        /// The single overlay the marks are painted into.
+        weak var overlay: AnnotationOverlay?
         private var lastQuery = ""
+
 
         /// Where the student was last reading, per document.
         private static let key = "SynapseResourcePage"
@@ -197,7 +253,7 @@ private struct PDFReader: UIViewRepresentable {
             // document does not hold, which would print as a nonsense number.
             let index = document.index(for: page)
             guard index != NSNotFound else { return }
-            onPageChange?("\(index + 1) of \(document.pageCount)")
+            onPageChange?("\(index + 1) of \(document.pageCount)", index + 1)
         }
 
         /// Jump to the first match, and only when the term actually changes —
