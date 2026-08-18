@@ -13,8 +13,6 @@ struct ResourceReaderView: View {
     let sync: SyncEngine
 
     @State private var pageLabel = ""
-    @State private var searching = false
-    @State private var query = ""
     @State private var annotations: AnnotationStore?
     /// The page the reader is on, which decides which shards are worth having.
     @State private var page = 1
@@ -37,6 +35,13 @@ struct ResourceReaderView: View {
     @State private var gesture = 0
     /// The note or textbox being written in.
     @State private var editing: AnnotationObject?
+    /// The contents/search panel, when it is up.
+    @State private var panel: ReaderPanel.Tab?
+    @State private var outline: [OutlineEntry] = []
+    @State private var timer = StudyTimer()
+    @State private var showingTimer = false
+    /// Where the reader should jump to, set when a panel entry is tapped.
+    @State private var jumpTo: Int?
     /// Whether there is anything to undo or redo.
     ///
     /// Copied out of the store for the same reason `marks` is: these are read
@@ -64,11 +69,28 @@ struct ResourceReaderView: View {
         .toolbar {
             if case .ready = files.state(for: resource.id) {
                 ToolbarItem(placement: .topBarTrailing) {
+                    Button { panel = .contents } label: {
+                        Image(systemName: "list.bullet.indent")
+                    }
+                    .tint(Theme.accent)
+                    .accessibilityLabel("Contents")
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button { panel = .search } label: {
+                        Image(systemName: "magnifyingglass")
+                    }
+                    .tint(Theme.accent)
+                    .accessibilityLabel("Search this document")
+                }
+                ToolbarItem(placement: .topBarTrailing) {
                     Menu {
                         Button {
-                            searching.toggle()
+                            showingTimer.toggle()
                         } label: {
-                            Label("Search inside", systemImage: "magnifyingglass")
+                            Label(
+                                showingTimer ? "Hide the timer" : "Study timer",
+                                systemImage: "timer"
+                            )
                         }
                         Button(role: .destructive) {
                             files.delete(resource.id)
@@ -92,7 +114,7 @@ struct ResourceReaderView: View {
         page(url)
             .safeAreaInset(edge: .bottom, spacing: 0) {
                 VStack(spacing: 8) {
-                    if !pageLabel.isEmpty, !searching {
+                    if !pageLabel.isEmpty, selection.isEmpty, !showingTimer {
                         Text(pageLabel)
                             .font(Theme.numeric(11))
                             .foregroundStyle(Theme.ink2)
@@ -101,6 +123,9 @@ struct ResourceReaderView: View {
                             .background(.ultraThinMaterial, in: Capsule())
                     }
                     if !selection.isEmpty { selectionBar }
+                    // Reserved space too, and for the same reason: its buttons
+                    // are useless if PDFKit takes their taps.
+                    if showingTimer { timerChip }
                 }
                 .padding(.bottom, 6)
             }
@@ -109,10 +134,10 @@ struct ResourceReaderView: View {
     private func page(_ url: URL) -> some View {
         PDFReader(
             url: url,
-            query: searching ? query : "",
             marks: marks,
             settings: settings,
             selection: selectionBox,
+            jumpTo: jumpTo,
             onStroke: { points, onPage in
                 Task { await commit(points, page: onPage) }
             },
@@ -138,6 +163,27 @@ struct ResourceReaderView: View {
             pageLabel = label
             page = number
         }
+        .sheet(item: $panel) { which in
+            ReaderPanel(
+                tab: Binding(get: { which }, set: { panel = $0 }),
+                outline: outline,
+                markers: annotations?.manifest.markers ?? [],
+                noteIndex: annotations?.manifest.notes ?? [],
+                currentPage: page,
+                findInDocument: findInDocument,
+                goTo: { target in
+                    jumpTo = target
+                    panel = nil
+                },
+                addSection: { title in
+                    Task { await annotations?.addMarker(title, page: page) }
+                },
+                removeSection: { id in
+                    Task { await annotations?.removeMarker(id) }
+                },
+                close: { panel = nil }
+            )
+        }
         .sheet(item: $editing) { object in
             WidgetTextSheet(object: object) { text in
                 Task { await retype(object, text: text) }
@@ -152,7 +198,18 @@ struct ResourceReaderView: View {
                 redo: { Task { await annotations?.redo(); refreshMarks() } }
             )
         }
+        .onChange(of: jumpTo) { _, target in
+            // Cleared once the reader has taken it, so tapping the same entry
+            // twice jumps twice rather than doing nothing the second time.
+            if target != nil { DispatchQueue.main.async { jumpTo = nil } }
+        }
         .task {
+            noteOpened()
+            // Read off the main thread: a large book's outline is a tree of
+            // several thousand nodes, and building it on the way in would show
+            // the student a frozen page.
+            let source = url
+            outline = await Task.detached { PDFDocument(url: source)?.contents() ?? [] }.value
             // The scope is the resource's id, so marks made on the website
             // land under exactly the same key.
             let store = AnnotationStore(api: api, sync: sync, kind: .resource, documentID: resource.id)
@@ -169,11 +226,6 @@ struct ResourceReaderView: View {
                 refreshMarks()
             }
         }
-        .searchable(
-            text: $query, isPresented: $searching,
-            placement: .navigationBarDrawer(displayMode: .always),
-            prompt: "Search this document"
-        )
     }
 
     /// Turn a finished stroke into a stored mark.
@@ -216,6 +268,78 @@ struct ResourceReaderView: View {
 
         await store.remove(candidates.filter { ids.contains($0.id) })
         refreshMarks()
+    }
+
+    /// Read the document's text, page by page.
+    ///
+    /// PDFKit's own `findString` returns selections but no surrounding text, and
+    /// a list of hits a student cannot recognise is not worth showing — so the
+    /// page string is matched here, through the same code that searches notes.
+    ///
+    /// `hasText` is not a detail. Much of this library is photocopied and
+    /// scanned: 186 page images and no fonts, so there is nothing to search and
+    /// never will be. Reporting that as "nothing found" would tell a student
+    /// their search is broken, and they would stop using it. Reporting it as
+    /// what it is lets them know to look with their eyes.
+    private func findInDocument(_ query: String) -> (matches: [SearchIndex.Match], hasText: Bool) {
+        guard case .ready(let url) = files.state(for: resource.id),
+              let document = PDFDocument(url: url)
+        else { return ([], true) }
+
+        var found: [SearchIndex.Match] = []
+        var sawText = false
+        for index in 0..<document.pageCount {
+            guard let text = document.page(at: index)?.string,
+                  !text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+            else { continue }
+            sawText = true
+            found.append(contentsOf: SearchIndex.matches(in: text, page: index + 1, of: query))
+            // A word appearing on every page of a textbook is not a useful
+            // list, and building it costs a student their battery.
+            if found.count >= 200 { break }
+        }
+        return (found, sawText)
+    }
+
+    /// Note that this document was opened, for the dashboard's "last used".
+    private func noteOpened() {
+        let defaults = UserDefaults.standard
+        let current = (defaults.data(forKey: RecentResource.key))
+            .flatMap { try? JSONDecoder().decode([RecentResource].self, from: $0) } ?? []
+
+        let opened = RecentResource(
+            id: resource.id, title: resource.title, type: resource.type.rawValue,
+            subjectId: resource.subjectId, meta: resource.meta,
+            openedAt: ISO8601DateFormatter().string(from: Date())
+        )
+        guard let data = try? JSONEncoder().encode(RecentResource.noting(opened, in: current)) else { return }
+        defaults.set(data, forKey: RecentResource.key)
+    }
+
+    /// How long this sitting has been.
+    private var timerChip: some View {
+        HStack(spacing: 12) {
+            Text(StudyTimer.clock(timer.elapsed))
+                .font(Theme.numeric(15))
+                .foregroundStyle(Theme.ink)
+                .monospacedDigit()
+
+            Button { timer.toggle() } label: {
+                Image(systemName: timer.isRunning ? "pause.fill" : "play.fill")
+            }
+            Button { timer.reset() } label: {
+                Image(systemName: "arrow.counterclockwise")
+            }
+            Button { showingTimer = false } label: {
+                Image(systemName: "xmark")
+            }
+        }
+        .font(Theme.ui(13, weight: 600))
+        .tint(Theme.accent)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 10)
+        .background(.regularMaterial, in: Capsule())
+        .padding(.bottom, 16)
     }
 
     private func refreshMarks() {
@@ -378,7 +502,6 @@ struct ResourceReaderView: View {
 /// PDFKit, wrapped.
 struct PDFReader: UIViewRepresentable {
     let url: URL
-    let query: String
     /// The student's marks, by 1-based page.
     ///
     /// A snapshot rather than the store itself: PDFKit asks for overlays from
@@ -389,6 +512,9 @@ struct PDFReader: UIViewRepresentable {
     /// The selection's box, so a drag that starts on it is claimed before
     /// PDFKit scrolls the page instead.
     var selection: (page: Int, rect: [Double])?
+    /// A page the reader has been asked to go to, from the contents or a
+    /// search hit.
+    var jumpTo: Int?
     var onStroke: ((_ points: [InkPoint], _ page: Int) -> Void)?
     var onErase: ((_ path: [InkPoint], _ page: Int, _ radius: Double) -> Void)?
     var onLasso: ((_ polygon: [InkPoint], _ page: Int) -> Void)?
@@ -472,7 +598,7 @@ struct PDFReader: UIViewRepresentable {
         // Scrolling and drawing are the same gesture, so only one of them can
         // have it: the page scrolls under `pan` and nothing else.
         view.enclosedScrollView?.isScrollEnabled = !settings.tool.drawsOnPage
-        context.coordinator.search(query)
+        context.coordinator.jump(to: jumpTo)
     }
 
     func makeCoordinator() -> Coordinator { Coordinator() }
@@ -484,7 +610,6 @@ struct PDFReader: UIViewRepresentable {
         /// The single overlay the marks are painted into.
         weak var overlay: AnnotationOverlay?
         weak var capture: InkCaptureView?
-        private var lastQuery = ""
 
 
         /// Where the student was last reading, per document.
@@ -517,24 +642,15 @@ struct PDFReader: UIViewRepresentable {
             onPageChange?("\(index + 1) of \(document.pageCount)", index + 1)
         }
 
-        /// Jump to the first match, and only when the term actually changes —
-        /// re-running the search on every redraw would fight the reader as they
-        /// scroll.
-        func search(_ query: String) {
-            guard query != lastQuery else { return }
-            lastQuery = query
-
-            guard let view, let document = view.document else { return }
-            view.highlightedSelections = nil
-
-            let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
-            guard trimmed.count >= 2 else { return }
-
-            let matches = document.findString(trimmed, withOptions: [.caseInsensitive])
-            guard !matches.isEmpty else { return }
-            for match in matches { match.color = UIColor(Theme.accent).withAlphaComponent(0.35) }
-            view.highlightedSelections = matches
-            view.go(to: matches[0])
+        /// Go to a page the panel asked for.
+        func jump(to page: Int?) {
+            guard
+                let page, let view, let document = view.document,
+                page >= 1, page <= document.pageCount,
+                let destination = document.page(at: page - 1)
+            else { return }
+            view.go(to: PDFDestination(page: destination, at: CGPoint(x: 0, y: destination.bounds(for: view.displayBox).height)))
         }
+
     }
 }

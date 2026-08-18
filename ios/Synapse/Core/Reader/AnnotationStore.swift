@@ -197,6 +197,31 @@ extension AnnotationStore {
         await sync.write(key: AnnotationKey.manifestKey(scope: scope), value: manifest)
     }
 
+    // MARK: - Sections
+
+    /// Name the page you are on, so you can get back to it.
+    ///
+    /// A marker lives only in the manifest, never in a shard. It has to be
+    /// listable from page 1 while pointing at page 300, and only three shards
+    /// are ever open — so it is kept where the whole document can see it.
+    func addMarker(_ title: String, page: Int) async {
+        let trimmed = title.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return }
+
+        let marker = AnnotationObject.marker(
+            title: trimmed, page: page, z: 0,
+            stamp: AnnotationObject.nextStamp(after: lastStamp)
+        )
+        manifest.markers = (manifest.markers + [marker]).sorted { $0.page < $1.page }
+        await sync.write(key: AnnotationKey.manifestKey(scope: scope), value: manifest)
+    }
+
+    func removeMarker(_ id: String) async {
+        guard manifest.markers.contains(where: { $0.id == id }) else { return }
+        manifest.markers.removeAll { $0.id == id }
+        await sync.write(key: AnnotationKey.manifestKey(scope: scope), value: manifest)
+    }
+
     // MARK: - Changing marks in place
 
     /// Move, retype or recolour marks that already exist.

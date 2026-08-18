@@ -750,3 +750,96 @@ struct RulerTests {
         #expect(snapped.pressure == 0.8)
     }
 }
+
+// MARK: - Searching a document
+
+/// Pinned to `src/lib/reader/searchIndex.ts` run under Node. The web's earlier
+/// search kept only the first hit on each page, so a word appearing four times
+/// was reported once — these tests exist to keep that from coming back.
+struct SearchIndexTests {
+
+    private let text = "The heart lies in the middle mediastinum. The heart is a pump, and the heart never rests."
+
+    @Test func everyOccurrenceIsFound() {
+        let hits = SearchIndex.matches(in: text, page: 7, of: "heart")
+        #expect(hits.count == 3)
+        #expect(hits.map(\.start) == [4, 46, 71])
+        #expect(hits.allSatisfy { $0.page == 7 })
+    }
+
+    /// A hit a student cannot recognise is not worth listing, so each carries
+    /// enough of its surroundings to place it — with an ellipsis only on the
+    /// side that was actually cut.
+    @Test func snippetsMatchTheWebExactly() {
+        let hits = SearchIndex.matches(in: text, page: 7, of: "heart")
+        #expect(hits[0].snippet == "The heart lies in the middle mediastinum. The heart is a pump, and th…")
+        #expect(hits[2].snippet == "…diastinum. The heart is a pump, and the heart never rests.")
+    }
+
+    /// Overlaps are not counted twice: "aa" occurs twice in "aaaa", not three
+    /// times.
+    @Test func overlappingHitsAreNotDoubleCounted() {
+        #expect(SearchIndex.matches(in: "aaaa", page: 1, of: "aa").map(\.start) == [0, 2])
+    }
+
+    @Test func caseAndBlankQueriesBehave() {
+        #expect(SearchIndex.matches(in: text, page: 1, of: "HEART").count == 3)
+        #expect(SearchIndex.matches(in: text, page: 1, of: "   ").isEmpty)
+        #expect(SearchIndex.matches(in: "", page: 1, of: "heart").isEmpty)
+    }
+
+    /// The student's own writing, found from any page — the note index is
+    /// mirrored outside the shards precisely so this works on page 3 for a note
+    /// on page 240.
+    @Test func notesAreSearchedAlongsideTheDocument() {
+        let index = [
+            AnnotationManifest.NoteEntry(id: "a", page: 3, text: "remember the heart sounds", kind: "note"),
+            AnnotationManifest.NoteEntry(id: "b", page: 9, text: "nothing here", kind: "textbox"),
+        ]
+        let hits = SearchIndex.notes(index, of: "heart")
+        #expect(hits.count == 1)
+        #expect(hits[0].page == 3)
+        #expect(hits[0].start == 13)
+        #expect(hits[0].label == "Sticky note")
+        #expect(hits[0].isOwnWriting)
+        #expect(hits[0].snippet == "remember the heart sounds")
+    }
+}
+
+struct RecentResourceTests {
+
+    private func opened(_ id: String) -> RecentResource {
+        RecentResource(id: id, title: id, type: "Book", subjectId: "s", meta: "", openedAt: "2026-08-19")
+    }
+
+    /// Re-opening moves a document to the front rather than listing it twice.
+    @Test func reopeningMovesItToTheFront() {
+        let list = RecentResource.noting(opened("a"), in: [opened("b"), opened("a"), opened("c")])
+        #expect(list.map(\.id) == ["a", "b", "c"])
+    }
+
+    @Test func theListDoesNotGrowForever() {
+        var list: [RecentResource] = []
+        for index in 0..<20 { list = RecentResource.noting(opened("r\(index)"), in: list) }
+        #expect(list.count == RecentResource.limit)
+        #expect(list.first?.id == "r19")
+    }
+}
+
+struct StudyTimerTests {
+
+    /// An hour of leading zeros tells a student nothing, so the hour only
+    /// appears once there is one.
+    @Test func theClockReadsAsAClock() {
+        #expect(StudyTimer.clock(0) == "00:00")
+        #expect(StudyTimer.clock(9) == "00:09")
+        #expect(StudyTimer.clock(90) == "01:30")
+        #expect(StudyTimer.clock(3599) == "59:59")
+        #expect(StudyTimer.clock(3600) == "1:00:00")
+        #expect(StudyTimer.clock(3661) == "1:01:01")
+    }
+
+    @Test func aNegativeElapsedNeverShows() {
+        #expect(StudyTimer.clock(-5) == "00:00")
+    }
+}
