@@ -352,3 +352,150 @@ struct AnnotationModelTests {
         }
     }
 }
+
+// MARK: - Stabilisation
+
+/// Pinned to the output of the real `src/lib/reader/stabilize.ts` run under
+/// Node, for the same 12-point zigzag. A stroke smoothed differently on the two
+/// platforms is not an error anywhere — it is just a line that looks wrong when
+/// the student opens the same page in a browser.
+struct StabilizerTests {
+
+    private var zigzag: [InkPoint] {
+        (0..<12).map { InkPoint(x: Double($0) / 100, y: $0 % 2 == 0 ? 0.2 : 0.24, pressure: 0.5) }
+    }
+
+    @Test func matchesTheWebPointForPoint() {
+        let out = Stabilizer.path(zigzag, strength: 0.35)
+
+        // 12 samples plus the four catch-up steps.
+        #expect(out.count == 16)
+        #expect(abs(out[1].x - 0.00685) < 1e-9)
+        #expect(abs(out[1].y - 0.2274) < 1e-9)
+
+        let tail = out.suffix(3)
+        #expect(abs(tail[tail.startIndex].x - 0.107700737) < 1e-9)
+        #expect(abs(tail[tail.startIndex + 1].y - 0.237604555) < 1e-9)
+    }
+
+    /// The point of the catch-up: the stroke must end exactly where the finger
+    /// lifted, not where the filter had got to.
+    @Test func endsWhereTheFingerLifted() {
+        let out = Stabilizer.path(zigzag, strength: 0.35)
+        #expect(abs(out[out.count - 1].x - 0.11) < 1e-12)
+        #expect(abs(out[out.count - 1].y - 0.24) < 1e-12)
+    }
+
+    @Test func smoothingOnlyEverRemovesWobble() {
+        #expect(abs(Stabilizer.totalCurvature(zigzag) - 26.516353273) < 1e-8)
+        #expect(abs(Stabilizer.totalCurvature(Stabilizer.path(zigzag, strength: 0.35)) - 22.722380098) < 1e-8)
+        #expect(abs(Stabilizer.totalCurvature(Stabilizer.path(zigzag, strength: 0.9)) - 11.300231991) < 1e-8)
+    }
+
+    @Test func zeroStrengthIsTheRawInput() {
+        let out = Stabilizer.path(zigzag, strength: 0)
+        #expect(out.count == zigzag.count)
+        #expect(zip(out, zigzag).allSatisfy { $0.x == $1.x && $0.y == $1.y })
+    }
+
+    /// A two-point drag has no tremor in it, so it is passed through rather
+    /// than lengthened by four catch-up samples that say nothing.
+    @Test func aStraightDragIsLeftAlone() {
+        #expect(Stabilizer.path(Array(zigzag.prefix(2)), strength: 0.9).count == 2)
+    }
+}
+
+// MARK: - Hit testing
+
+/// Pinned to the output of the real `src/lib/reader/hitTest.ts` run under Node,
+/// for the same three objects. The eraser is the one tool that destroys work, so
+/// "erased something the web would have kept" and "kept something the web would
+/// have erased" both have to be impossible.
+struct HitTestTests {
+
+    private func ink(_ id: String, _ points: [InkPoint], width: Double = 0.003) -> AnnotationObject {
+        AnnotationObject(
+            id: id, kind: .ink, page: 1, z: 1,
+            bbox: StrokeCodec.bounds(points, padding: width / 2), t: 1,
+            tool: "ball", color: "#000", w: width, p: StrokeCodec.encode(points)
+        )
+    }
+
+    private var horizontal: AnnotationObject {
+        ink("aaa", [InkPoint(x: 0.1, y: 0.5), InkPoint(x: 0.4, y: 0.5)])
+    }
+
+    private var vertical: AnnotationObject {
+        ink("bbb", [InkPoint(x: 0.6, y: 0.2), InkPoint(x: 0.6, y: 0.8)])
+    }
+
+    private var note: AnnotationObject {
+        AnnotationObject(
+            id: "ccc", kind: .note, page: 1, z: 2,
+            bbox: [0.7, 0.1, 0.9, 0.2], t: 1,
+            r: [0.7, 0.1, 0.9, 0.2], tone: .amber, text: "hi"
+        )
+    }
+
+    private var page: [AnnotationObject] { [horizontal, vertical, note] }
+
+    @Test func erasesWhatTheSweepCrosses() {
+        let hit = HitTest.strokesAlongPath(
+            page, path: [InkPoint(x: 0.2, y: 0.4), InkPoint(x: 0.2, y: 0.6)], radius: 0.012
+        )
+        #expect(hit == ["aaa"])
+    }
+
+    /// The reason the sweep is treated as a path rather than as its samples:
+    /// here no reported point is anywhere near the stroke, but the line between
+    /// two of them goes straight through it. A fast scrub reports points this
+    /// far apart, and testing only them would rub out almost nothing.
+    @Test func erasesWhatFellBetweenTwoSamples() {
+        let hit = HitTest.strokesAlongPath(
+            page, path: [InkPoint(x: 0.5, y: 0.5), InkPoint(x: 0.7, y: 0.5)], radius: 0.001
+        )
+        #expect(hit == ["bbb"])
+    }
+
+    /// A widget has no path to trace, so it goes when the sweep touches its box.
+    @Test func erasesAWidgetByTouchingIt() {
+        let hit = HitTest.strokesAlongPath(
+            page, path: [InkPoint(x: 0.75, y: 0.15), InkPoint(x: 0.8, y: 0.15)], radius: 0.001
+        )
+        #expect(hit == ["ccc"])
+    }
+
+    @Test func leavesEverythingElseAlone() {
+        let hit = HitTest.strokesAlongPath(
+            page, path: [InkPoint(x: 0.05, y: 0.05), InkPoint(x: 0.06, y: 0.06)], radius: 0.001
+        )
+        #expect(hit.isEmpty)
+    }
+
+    /// The stroke's own width counts toward the reach, so ink is grabbable where
+    /// it looks grabbable rather than only along its centre line.
+    @Test func aStrokeIsAsWideAsItLooks() {
+        #expect(HitTest.strokeHitsPoint(horizontal, InkPoint(x: 0.25, y: 0.5015), tolerance: 0.001))
+        #expect(!HitTest.strokeHitsPoint(horizontal, InkPoint(x: 0.25, y: 0.6), tolerance: 0.001))
+    }
+
+    @Test func crossingSegmentsAreZeroApart() {
+        #expect(HitTest.segmentDistance(
+            InkPoint(x: 0, y: 0), InkPoint(x: 1, y: 1), InkPoint(x: 0, y: 1), InkPoint(x: 1, y: 0)
+        ) == 0)
+        #expect(abs(HitTest.segmentDistance(
+            InkPoint(x: 0, y: 0), InkPoint(x: 1, y: 0), InkPoint(x: 0, y: 0.5), InkPoint(x: 1, y: 0.5)
+        ) - 0.5) < 1e-12)
+    }
+
+    @Test func picksTheTopmostMarkUnderAPoint() {
+        #expect(HitTest.topmost(page, at: InkPoint(x: 0.25, y: 0.5), tolerance: 0.005)?.id == "aaa")
+        #expect(HitTest.topmost(page, at: InkPoint(x: 0.02, y: 0.02), tolerance: 0.005) == nil)
+    }
+
+    @Test func slopWidensAWidgetsBox() {
+        #expect(HitTest.insideRect(InkPoint(x: 0.71, y: 0.11), [0.7, 0.1, 0.9, 0.2]))
+        #expect(!HitTest.insideRect(InkPoint(x: 0.69, y: 0.11), [0.7, 0.1, 0.9, 0.2]))
+        #expect(HitTest.insideRect(InkPoint(x: 0.69, y: 0.11), [0.7, 0.1, 0.9, 0.2], slop: 0.02))
+    }
+}

@@ -10,6 +10,7 @@ struct ResourceReaderView: View {
     let resource: LibraryResource
     let files: ResourceFileStore
     let api: SynapseAPI
+    let sync: SyncEngine
 
     @State private var pageLabel = ""
     @State private var searching = false
@@ -25,6 +26,7 @@ struct ResourceReaderView: View {
     /// asked again. Copying explicitly after each load is one line and cannot
     /// silently stop working.
     @State private var marks: [Int: [AnnotationObject]] = [:]
+    @State private var settings = ToolSettings()
 
     var body: some View {
         Group {
@@ -69,15 +71,31 @@ struct ResourceReaderView: View {
         PDFReader(
             url: url,
             query: searching ? query : "",
-            marks: marks
+            marks: marks,
+            settings: settings,
+            onStroke: { points, onPage in
+                Task { await commit(points, page: onPage) }
+            },
+            onErase: { path, onPage, radius in
+                Task { await erase(along: path, page: onPage, radius: radius) }
+            }
         ) { label, number in
             pageLabel = label
             page = number
         }
+        .overlay {
+            ReaderToolbar(
+                settings: $settings,
+                canUndo: annotations?.canUndo ?? false,
+                canRedo: annotations?.canRedo ?? false,
+                undo: { Task { await annotations?.undo(); refreshMarks() } },
+                redo: { Task { await annotations?.redo(); refreshMarks() } }
+            )
+        }
         .task {
             // The scope is the resource's id, so marks made on the website
             // land under exactly the same key.
-            let store = AnnotationStore(api: api, kind: .resource, documentID: resource.id)
+            let store = AnnotationStore(api: api, sync: sync, kind: .resource, documentID: resource.id)
             annotations = store
             await store.loadManifest()
             await store.load(around: page)
@@ -108,6 +126,52 @@ struct ResourceReaderView: View {
                     .padding(.bottom, 10)
             }
         }
+    }
+
+    /// Turn a finished stroke into a stored mark.
+    ///
+    /// The width and alpha come from the tool rather than the object, because
+    /// the highlighter is stored four times as wide and translucent — the same
+    /// numbers the web writes, so a mark made here reads correctly there.
+    private func commit(_ points: [InkPoint], page onPage: Int) async {
+        guard let store = annotations, points.count > 1 else { return }
+
+        let object = AnnotationObject.ink(
+            kind: settings.tool == .highlighter ? .highlighter : .ink,
+            tool: settings.tool == .highlighter ? "highlighter" : settings.pen.rawValue,
+            color: settings.color,
+            width: settings.strokeWidth,
+            alpha: settings.strokeAlpha,
+            points: points,
+            page: onPage,
+            z: store.nextZ(onPage: onPage),
+            stamp: AnnotationObject.nextStamp(after: store.lastStamp)
+        )
+        await store.add(object)
+        refreshMarks()
+    }
+
+    /// Rub out whatever the eraser swept across.
+    ///
+    /// The whole sweep at once, against the same geometry the web uses: testing
+    /// only the sampled points would miss anything that fell between two of
+    /// them, and a fast scrub reports points far apart.
+    private func erase(along path: [InkPoint], page onPage: Int, radius: Double) async {
+        guard let store = annotations, !path.isEmpty else { return }
+
+        let candidates = settings.eraserHighlighterOnly
+            ? store.objects(onPage: onPage).filter { $0.kind == .highlighter }
+            : store.objects(onPage: onPage)
+
+        let ids = Set(HitTest.strokesAlongPath(candidates, path: path, radius: radius))
+        guard !ids.isEmpty else { return }
+
+        await store.remove(candidates.filter { ids.contains($0.id) })
+        refreshMarks()
+    }
+
+    private func refreshMarks() {
+        if let loaded = annotations?.objectsByPage { marks = loaded }
     }
 
     private func downloading(_ fraction: Double) -> some View {
@@ -167,6 +231,9 @@ struct PDFReader: UIViewRepresentable {
     /// UIKit callbacks, and passing immutable values across that boundary is
     /// simpler than making the coordinator main-actor bound to read a model.
     var marks: [Int: [AnnotationObject]] = [:]
+    var settings = ToolSettings()
+    var onStroke: ((_ points: [InkPoint], _ page: Int) -> Void)?
+    var onErase: ((_ path: [InkPoint], _ page: Int, _ radius: Double) -> Void)?
     let onPageChange: (String, Int) -> Void
 
     func makeUIView(context: Context) -> PDFView {
@@ -205,6 +272,16 @@ struct PDFReader: UIViewRepresentable {
         view.addSubview(overlay)
         context.coordinator.overlay = overlay
 
+        // Above the marks, so a stroke is drawn over what is already there.
+        let capture = InkCaptureView(frame: view.bounds)
+        capture.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        capture.pdfView = view
+        capture.settings = settings
+        capture.onStroke = onStroke
+        capture.onErase = onErase
+        view.addSubview(capture)
+        context.coordinator.capture = capture
+
         context.coordinator.report()
         return view
     }
@@ -212,6 +289,12 @@ struct PDFReader: UIViewRepresentable {
     func updateUIView(_ view: PDFView, context: Context) {
         context.coordinator.onPageChange = onPageChange
         context.coordinator.overlay?.marks = marks
+        context.coordinator.capture?.settings = settings
+        context.coordinator.capture?.onStroke = onStroke
+        context.coordinator.capture?.onErase = onErase
+        // Scrolling and drawing are the same gesture, so only one of them can
+        // have it: the page scrolls under `pan` and nothing else.
+        view.enclosedScrollView?.isScrollEnabled = !settings.tool.drawsOnPage
         context.coordinator.search(query)
     }
 
@@ -223,6 +306,7 @@ struct PDFReader: UIViewRepresentable {
         var onPageChange: ((String, Int) -> Void)?
         /// The single overlay the marks are painted into.
         weak var overlay: AnnotationOverlay?
+        weak var capture: InkCaptureView?
         private var lastQuery = ""
 
 

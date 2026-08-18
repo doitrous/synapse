@@ -68,7 +68,7 @@ struct ResourcesView: View {
                         // trust the rest of them.
                         if resource.isOpenable {
                             NavigationLink {
-                                ResourceReaderView(resource: resource, files: files, api: api)
+                                ResourceReaderView(resource: resource, files: files, api: api, sync: sync)
                             } label: {
                                 ResourceRow(
                                     resource: resource,

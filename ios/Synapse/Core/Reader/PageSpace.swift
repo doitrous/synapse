@@ -70,6 +70,37 @@ struct PageMetrics: Equatable, Sendable {
         }
     }
 
+    /// PDFKit's unrotated user space → a stored point.
+    ///
+    /// The exact inverse of `userSpacePoint`. Kept beside it so the two cannot
+    /// drift: a capture path that disagrees with the render path by one axis
+    /// draws a stroke that lands somewhere else the moment it is reloaded.
+    func storedPoint(fromUserSpace point: CGPoint, rotation: Int) -> InkPoint {
+        let quarterTurned = abs(rotation) % 180 != 0
+        let boxWidth = quarterTurned ? height : width
+        let boxHeight = quarterTurned ? width : height
+
+        let dx: Double
+        let dy: Double
+        switch ((rotation % 360) + 360) % 360 {
+        case 90:
+            dx = Double(point.y)
+            dy = Double(point.x)
+        case 180:
+            dx = boxWidth - Double(point.x)
+            dy = Double(point.y)
+        case 270:
+            dx = boxWidth - Double(point.y)
+            dy = boxHeight - Double(point.x)
+        default:
+            dx = Double(point.x)
+            dy = boxHeight - Double(point.y)
+        }
+
+        guard width > 0 else { return InkPoint(x: 0, y: 0) }
+        return InkPoint(x: dx / width, y: dy / width)
+    }
+
     /// `height / width` — how tall the page is in page-space units. About
     /// 1.414 on A4.
     var pageSpaceHeight: Double { width > 0 ? height / width : 0 }
@@ -135,6 +166,7 @@ enum PageSpace {
             y: (metrics.height - Double(point.y)) / metrics.width
         )
     }
+
 
     /// Keep a point on the page.
     ///
