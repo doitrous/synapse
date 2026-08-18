@@ -3,12 +3,14 @@ import SwiftUI
 /// Drill the question bank: build a sitting, answer, read why.
 struct QuestionBankView: View {
     @State private var model: QuestionBankModel
+    @State private var qbank: QBankStore
     let sync: SyncEngine
 
-    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience) {
+    init(store: LocalStore, sync: SyncEngine, api: SynapseAPI, audience: StudentAudience) {
         _model = State(wrappedValue: QuestionBankModel(
             store: store, sync: sync, audience: audience
         ))
+        _qbank = State(wrappedValue: QBankStore(api: api, sync: sync))
         self.sync = sync
     }
 
@@ -22,8 +24,8 @@ struct QuestionBankView: View {
                     EmptyStateView(symbol: "questionmark.circle", title: "No questions yet", detail: reason)
                 } else {
                     switch model.phase {
-                    case .building: SessionBuilder(model: model)
-                    case .running: Runner(model: model)
+                    case .building: SessionBuilder(model: model, store: qbank)
+                    case .running: Runner(model: model, store: qbank)
                     case .finished: Results(model: model)
                     }
                 }
@@ -32,10 +34,26 @@ struct QuestionBankView: View {
             .navigationTitle("Question bank")
             .navigationBarTitleDisplayMode(model.phase == .building ? .large : .inline)
         }
-        .task { await model.load() }
+        .task {
+            await model.load()
+            await qbank.load()
+        }
+        // Kept as the student moves *and* as they answer. Saving only on the
+        // move would bring a resumed sitting back with the last answer missing,
+        // which reads as work that was thrown away.
+        .onChange(of: model.index) { _, _ in keep() }
+        .onChange(of: model.answeredCount) { _, _ in keep() }
+        .onChange(of: model.phase) { _, phase in
+            if phase == .running { keep() } else { Task { await qbank.clearLive() } }
+        }
         .onChange(of: sync.status) { _, status in
             if case .done = status, model.phase == .building { Task { await model.load() } }
         }
+    }
+
+    private func keep() {
+        guard model.phase == .running else { return }
+        Task { await qbank.keep(model.snapshot()) }
     }
 }
 
@@ -43,9 +61,63 @@ struct QuestionBankView: View {
 
 private struct SessionBuilder: View {
     @Bindable var model: QuestionBankModel
+    var store: QBankStore
 
     var body: some View {
         List {
+            // Offered before anything else: a student who left a sitting
+            // half-done came back for it, not to start another.
+            if let saved = store.live, saved.phase == "running" {
+                Section {
+                    Button {
+                        _ = model.resume(saved, from: model.available)
+                    } label: {
+                        VStack(alignment: .leading, spacing: 3) {
+                            Text(saved.name.isEmpty ? "Carry on" : "Carry on: \(saved.name)")
+                                .font(Theme.ui(15, weight: 600))
+                                .foregroundStyle(Theme.ink)
+                            Text("^[\(saved.questionIds.count) question](inflect: true), you were on \(saved.idx + 1).")
+                                .font(Theme.ui(13))
+                                .foregroundStyle(Theme.ink2)
+                        }
+                    }
+                    Button("Start again instead", role: .destructive) {
+                        Task { await store.clearLive() }
+                    }
+                    .font(Theme.ui(14))
+                }
+                .listRowBackground(Theme.surface)
+            }
+
+            Section("How") {
+                Picker("Mode", selection: $model.mode) {
+                    ForEach(SittingMode.allCases, id: \.self) { Text($0.label).tag($0) }
+                }
+                .pickerStyle(.segmented)
+
+                Text(model.mode.detail)
+                    .font(Theme.ui(13))
+                    .foregroundStyle(Theme.ink2)
+            }
+            .listRowBackground(Theme.surface)
+
+            if store.markedCount > 0 {
+                Section {
+                    Button {
+                        let flagged = model.available.filter { store.isMarked($0.id) }
+                        model.start(questions: flagged.shuffled(), named: "Flagged")
+                    } label: {
+                        Label("^[\(store.markedCount) flagged question](inflect: true)", systemImage: "flag.fill")
+                            .font(Theme.ui(15, weight: 600))
+                            .foregroundStyle(Theme.accent)
+                    }
+                } footer: {
+                    Text("The ones you marked to come back to.")
+                        .font(Theme.ui(13))
+                }
+                .listRowBackground(Theme.surface)
+            }
+
             Section("Scope") {
                 Picker("Topic", selection: $model.selectedTopic) {
                     Text("Everything").tag(String?.none)
@@ -64,7 +136,10 @@ private struct SessionBuilder: View {
 
             Section {
                 Button {
-                    model.start()
+                    model.start(named: SessionNaming.automatic(
+                        subject: model.selectedTopic ?? "",
+                        existing: Array(store.names.values)
+                    ))
                 } label: {
                     Text("Start")
                         .font(Theme.ui(16, weight: 600))
@@ -94,6 +169,12 @@ private struct SessionBuilder: View {
 
 private struct Runner: View {
     let model: QuestionBankModel
+    var store: QBankStore?
+
+    @State private var showingNavigator = false
+    @State private var showingNote = false
+    @State private var showingWrongAnswers = false
+    @State private var noteText = ""
 
     var body: some View {
         if let question = model.current {
@@ -116,13 +197,13 @@ private struct Runner: View {
                         OptionRow(
                             option: option,
                             state: state(for: option, in: question),
-                            isAnswered: model.isAnswered
+                            isAnswered: model.isRevealed
                         ) {
                             model.choose(option.label)
                         }
                     }
 
-                    if model.isAnswered {
+                    if model.isRevealed {
                         revealed(question)
                     }
                 }
@@ -131,32 +212,121 @@ private struct Runner: View {
                 .frame(maxWidth: .infinity)
             }
             .background(Theme.paper)
-            .safeAreaInset(edge: .bottom) {
-                if model.isAnswered {
-                    Button {
-                        Task { await model.next() }
-                    } label: {
-                        Text(model.index + 1 < model.session.count ? "Next question" : "Finish")
-                            .font(Theme.ui(16, weight: 600))
-                            .frame(maxWidth: .infinity)
-                            .frame(height: 48)
-                            .background(Theme.accent)
-                            .foregroundStyle(Theme.onAccent)
-                            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
-                    }
-                    .padding(.horizontal, 20)
-                    .padding(.bottom, 8)
-                    .background(.ultraThinMaterial)
+            .safeAreaInset(edge: .bottom) { footer }
+            .toolbar { questionActions }
+            .sheet(isPresented: $showingNavigator) {
+                QuestionNavigator(model: model, store: store) { position in
+                    model.go(to: position)
+                    showingNavigator = false
                 }
             }
+            .sheet(isPresented: $showingNote) {
+                QuestionNoteSheet(text: $noteText, store: store) {
+                    guard let id = model.current?.id else { return }
+                    Task { await store?.saveNote(noteText, for: id) }
+                }
+            }
+            .onChange(of: model.index) { _, _ in showingWrongAnswers = false }
         }
+    }
+
+    /// Going backwards, and the one thing to do next.
+    ///
+    /// The per-question actions — flag, note, the jump grid — live in the
+    /// navigation bar instead. They belong to the question rather than to the
+    /// sitting's flow, and a row of small targets stacked directly above a
+    /// full-width button is a mis-tap waiting to happen on a phone.
+    private var footer: some View {
+        HStack(spacing: 12) {
+            Button { model.previous() } label: {
+                Image(systemName: "chevron.left")
+                    .font(Theme.ui(16, weight: 600))
+                    .frame(width: 48, height: 48)
+                    .background(Theme.surface)
+                    .foregroundStyle(Theme.accent)
+                    .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+            }
+            .disabled(model.index == 0)
+            .opacity(model.index == 0 ? 0.4 : 1)
+
+            primaryAction
+        }
+        .padding(.horizontal, 20)
+        .padding(.bottom, 8)
+        .background(.ultraThinMaterial)
+    }
+
+    /// Flag, note and the jump grid, for the question on screen.
+    @ToolbarContentBuilder var questionActions: some ToolbarContent {
+        ToolbarItem(placement: .topBarTrailing) {
+            Button { showingNavigator = true } label: {
+                Label("\(model.index + 1) / \(model.session.count)", systemImage: "square.grid.3x3")
+                    .font(Theme.numeric(13))
+            }
+            .tint(Theme.accent)
+        }
+        if let question = model.current, let store {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    Task { await store.toggleMark(question.id) }
+                } label: {
+                    Image(systemName: store.isMarked(question.id) ? "flag.fill" : "flag")
+                }
+                .tint(Theme.accent)
+                .accessibilityLabel(store.isMarked(question.id) ? "Unflag" : "Flag for later")
+            }
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    noteText = store.note(question.id)
+                    showingNote = true
+                } label: {
+                    Image(systemName: store.note(question.id).isEmpty ? "note.text" : "note.text.badge.plus")
+                }
+                .tint(Theme.accent)
+                .accessibilityLabel("Your note")
+            }
+        }
+    }
+
+    /// One button, whose job depends on where the student is.
+    ///
+    /// In tutor mode checking reveals the answer, so it takes two presses to
+    /// move on; in timed mode there is nothing to reveal, so choosing and
+    /// moving on are the same act.
+    @ViewBuilder private var primaryAction: some View {
+        let canCheck = model.chosen != nil && !model.isChecked && model.mode.explainsAsYouGo
+
+        Button {
+            if canCheck {
+                model.check()
+            } else {
+                Task { await model.next() }
+            }
+        } label: {
+            Text(canCheck ? "Check" : model.isLastQuestion ? "Finish" : "Next question")
+                .font(Theme.ui(16, weight: 600))
+                .frame(maxWidth: .infinity)
+                .frame(height: 48)
+                .background(Theme.accent)
+                .foregroundStyle(Theme.onAccent)
+                .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+        }
+        .padding(.horizontal, 20)
     }
 
     private var progress: some View {
         HStack {
             Text("\(model.index + 1) of \(model.session.count)")
             Spacer()
-            Text("\(model.correctCount) correct")
+            // A timed sitting shows the clock rather than a score: the score is
+            // not knowable yet, and pretending otherwise would give away which
+            // answers were right.
+            if model.mode == .timed {
+                Label(StudyTimer.clock(Double(model.elapsed)), systemImage: "timer")
+                    .monospacedDigit()
+            } else {
+                Text("\(model.correctCount) correct")
+            }
         }
         .font(Theme.numeric(12))
         .foregroundStyle(Theme.ink3)
@@ -164,50 +334,116 @@ private struct Runner: View {
 
     private func state(for option: AnswerOption, in question: Question) -> OptionRow.State {
         guard let chosen = model.chosen else { return .unanswered }
+        // Before the answer is out, a choice is only a choice — marking it
+        // right or wrong here is exactly what a timed sitting must not do.
+        guard model.isRevealed else { return option.label == chosen ? .chosen : .unanswered }
         if option.label == question.correctLabel { return .correct }
         if option.label == chosen { return .chosenWrong }
         return .otherWrong
     }
 
-    /// Everything held back until the student has committed.
+    /// Everything explanatory, in one place and in one order.
+    ///
+    /// Why the right answer is right, then the explanation if it says something
+    /// different, then — folded away — why each wrong answer is wrong. The web
+    /// gathered these deliberately: they used to be scattered under whichever
+    /// options happened to be revealed, which meant reading the page in the
+    /// order the options happened to fall.
     @ViewBuilder
     private func revealed(_ question: Question) -> some View {
-        VStack(alignment: .leading, spacing: 14) {
-            if !question.explanation.isEmpty {
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("Explanation")
-                        .font(Theme.panelTitle())
-                        .foregroundStyle(Theme.ink2)
-                    Text(question.explanation)
-                        .font(Theme.serifBody(15))
-                        .foregroundStyle(Theme.ink)
-                        .lineSpacing(4)
+        let correct = question.correctOption
+        let wrong = question.options.filter { $0.label != question.correctLabel && !$0.explanation.isEmpty }
+        // Only worth its own block when it says something the rationale did not.
+        let separateExplanation = !question.explanation.isEmpty
+            && question.explanation != (correct?.explanation ?? "")
+
+        VStack(alignment: .leading, spacing: 12) {
+            if let correct, !correct.explanation.isEmpty {
+                block(
+                    "Why the right answer is right", symbol: "checkmark",
+                    tint: Theme.success, text: correct.explanation
+                )
+            }
+
+            if separateExplanation {
+                block("Explanation", symbol: nil, tint: Theme.ink2, text: question.explanation)
+            }
+
+            if !wrong.isEmpty {
+                DisclosureGroup(isExpanded: $showingWrongAnswers) {
+                    VStack(alignment: .leading, spacing: 12) {
+                        ForEach(wrong) { option in
+                            HStack(alignment: .top, spacing: 10) {
+                                Text(option.label)
+                                    .font(Theme.numeric(12))
+                                    .foregroundStyle(Theme.ink3)
+                                    .frame(width: 18, alignment: .leading)
+                                VStack(alignment: .leading, spacing: 3) {
+                                    Text(option.text)
+                                        .font(Theme.ui(13, weight: 600))
+                                        .foregroundStyle(Theme.ink)
+                                    Text(option.explanation)
+                                        .font(Theme.ui(13))
+                                        .foregroundStyle(Theme.ink2)
+                                }
+                            }
+                        }
+                    }
+                    .padding(.top, 10)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                } label: {
+                    HStack(spacing: 8) {
+                        Text("Why the wrong answers are wrong")
+                            .font(Theme.ui(14, weight: 600))
+                            .foregroundStyle(Theme.ink)
+                        Text("\(wrong.count)")
+                            .font(Theme.numeric(11))
+                            .foregroundStyle(Theme.ink2)
+                            .padding(.horizontal, 7)
+                            .padding(.vertical, 2)
+                            .background(Theme.inset, in: Capsule())
+                    }
                 }
+                .tint(Theme.accent)
+                .padding(14)
+                .background(Theme.surface)
+                .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
+                .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
             }
 
             // Named last because it states what the question was testing —
             // shown earlier it would give the answer away.
-            if let objective = question.learningObjective {
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("What this tests")
-                        .font(Theme.panelTitle())
-                        .foregroundStyle(Theme.accentStrong)
-                    Text(objective)
-                        .font(Theme.ui(14))
-                        .foregroundStyle(Theme.ink)
-                }
+            if let objective = question.learningObjective, !objective.isEmpty {
+                block("What this tests", symbol: nil, tint: Theme.accentStrong, text: objective)
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(16)
+    }
+
+    private func block(_ title: String, symbol: String?, tint: Color, text: String) -> some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack(spacing: 5) {
+                if let symbol { Image(systemName: symbol).font(.system(size: 11, weight: .bold)) }
+                Text(title).font(Theme.panelTitle())
+            }
+            .foregroundStyle(tint)
+
+            Text(text)
+                .font(Theme.serifBody(15))
+                .foregroundStyle(Theme.ink)
+                .lineSpacing(4)
+                .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .padding(14)
+        .frame(maxWidth: .infinity, alignment: .leading)
         .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
     }
 }
 
 private struct OptionRow: View {
-    enum State { case unanswered, correct, chosenWrong, otherWrong }
+    enum State { case unanswered, chosen, correct, chosenWrong, otherWrong }
 
     let option: AnswerOption
     let state: State
@@ -231,16 +467,6 @@ private struct OptionRow: View {
                     }
                 }
 
-                // The reason this option is right or wrong. Shown for every
-                // option, because the one a student picked is the one they
-                // need explained.
-                if isAnswered, !option.explanation.isEmpty {
-                    Text(option.explanation)
-                        .font(Theme.ui(13))
-                        .foregroundStyle(Theme.ink2)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 30)
-                }
             }
             .padding(14)
             .background(background)
@@ -263,6 +489,7 @@ private struct OptionRow: View {
         switch state {
         case .correct: Theme.success
         case .chosenWrong: Theme.danger
+        case .chosen: Theme.accentStrong
         default: Theme.ink3
         }
     }
@@ -270,6 +497,7 @@ private struct OptionRow: View {
     private var background: Color {
         switch state {
         case .unanswered, .otherWrong: Theme.surface
+        case .chosen: Theme.accentTint
         case .correct, .chosenWrong: Theme.surface2
         }
     }
@@ -278,6 +506,7 @@ private struct OptionRow: View {
         switch state {
         case .correct: Theme.success
         case .chosenWrong: Theme.danger
+        case .chosen: Theme.accent
         default: Theme.line
         }
     }

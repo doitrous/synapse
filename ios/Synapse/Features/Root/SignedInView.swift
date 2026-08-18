@@ -51,7 +51,7 @@ struct SignedInView: View {
                 LibraryView(store: container.store, sync: container.sync, audience: audience)
             }
             Tab("Questions", systemImage: "questionmark.circle") {
-                QuestionBankView(store: container.store, sync: container.sync, audience: audience)
+                QuestionBankView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
             Tab("Resources", systemImage: "folder") {
                 ResourcesView(store: container.store, sync: container.sync, audience: audience, api: auth.api)
