@@ -28,6 +28,8 @@ export interface ChallengeSummary {
   myFinished: boolean
   opponentFinished: boolean
   createdAt: string
+  /** Set only once both sides have finished — the list view's own copy of the `Challenge.result` rule. */
+  result: ChallengeHeadToHead | null
 }
 
 export interface ChallengeHeadToHead {
@@ -54,6 +56,7 @@ interface RawChallengeSummary {
   myFinished: boolean
   opponentFinished: boolean
   createdAt: string
+  result: ChallengeHeadToHead | null
 }
 
 interface RawChallenge {
@@ -86,6 +89,7 @@ function toSummary(raw: RawChallengeSummary): ChallengeSummary {
     myFinished: raw.myFinished,
     opponentFinished: raw.opponentFinished,
     createdAt: raw.createdAt,
+    result: raw.result,
   }
 }
 

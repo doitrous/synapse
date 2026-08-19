@@ -171,8 +171,9 @@ export function ChallengePanel({
                     <Badge tone="neutral">{t('Declined')}</Badge>
                   </div>
                 ) : (
-                  // Scores live only in the full challenge record, read once this
-                  // is opened — the summary this list works from never carries them.
+                  // The summary now carries `result` once both sides have finished
+                  // (still null otherwise, same withholding rule as the full record),
+                  // so the scores can show here without a second fetch per row.
                   <button
                     type="button"
                     onClick={() => onOpen(challenge.id)}
@@ -183,7 +184,15 @@ export function ChallengePanel({
                       <span className="block truncate text-[13.5px] font-medium text-ink">{opponentName(challenge, friends, t)}</span>
                       <span className="mt-0.5 block text-[12px] text-ink-3">{challenge.scopeLabel} · {formatRelativeTime(challenge.createdAt)}</span>
                     </span>
-                    <Badge tone="primary">{t('View result')}</Badge>
+                    {challenge.result ? (
+                      <span className="shrink-0 text-[13px] font-medium text-ink tabular-nums">
+                        {challenge.iAmChallenger ? challenge.result.challenger.correct : challenge.result.opponent.correct}
+                        <span className="text-ink-3"> – </span>
+                        {challenge.iAmChallenger ? challenge.result.opponent.correct : challenge.result.challenger.correct}
+                      </span>
+                    ) : (
+                      <Badge tone="primary">{t('View result')}</Badge>
+                    )}
                   </button>
                 )}
               </li>

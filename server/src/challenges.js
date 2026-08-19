@@ -203,7 +203,14 @@ export async function challengeFor(userId, id) {
   }
 }
 
-/** Challenges this student sent or received, most recent first. */
+/**
+ * Challenges this student sent or received, most recent first.
+ *
+ * `result` is included only for a challenge both sides have finished — the
+ * same `bothFinished` gate `challengeFor` uses — so a client showing this
+ * list can render both scores inline instead of needing a second fetch per
+ * row just to learn whether the comparison is open yet.
+ */
 export async function myChallenges(userId) {
   const [rows] = await pool.query(
     `SELECT id, challenger_id AS challengerId, opponent_id AS opponentId, scope_label AS scopeLabel,
@@ -215,9 +222,33 @@ export async function myChallenges(userId) {
       LIMIT 30`,
     [userId, userId],
   )
+
+  const finishedIds = rows.filter((row) => bothFinished(row)).map((row) => row.id)
+  const answersByChallenge = new Map()
+  if (finishedIds.length) {
+    const [answerRows] = await pool.query(
+      `SELECT challenge_id AS challengeId, user_id AS userId, question_id AS questionId,
+              chosen_index AS chosenIndex, correct, seconds
+         FROM challenge_answers WHERE challenge_id IN (?)`,
+      [finishedIds],
+    )
+    for (const answer of answerRows) {
+      const list = answersByChallenge.get(answer.challengeId) ?? []
+      list.push({
+        userId: answer.userId,
+        questionId: answer.questionId,
+        chosenIndex: answer.chosenIndex,
+        correct: Boolean(answer.correct),
+        seconds: answer.seconds,
+      })
+      answersByChallenge.set(answer.challengeId, list)
+    }
+  }
+
   return rows.map((row) => {
     const side = sideOf(row, userId)
     const questionIds = parseQuestionIds(row.questionIds)
+    const finished = bothFinished(row)
     return {
       id: row.id,
       opponentId: side === 'challenger' ? row.opponentId : row.challengerId,
@@ -228,6 +259,9 @@ export async function myChallenges(userId) {
       myFinished: Boolean(side === 'challenger' ? row.challengerFinishedAt : row.opponentFinishedAt),
       opponentFinished: Boolean(side === 'challenger' ? row.opponentFinishedAt : row.challengerFinishedAt),
       createdAt: row.createdAt,
+      result: finished
+        ? headToHead({ ...row, questionIds }, answersByChallenge.get(row.id) ?? [])
+        : null,
     }
   })
 }
