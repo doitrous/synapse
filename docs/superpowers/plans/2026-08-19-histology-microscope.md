@@ -509,6 +509,12 @@ When `kind === 'histology'`, the editor gains:
 
 Show the objective being pinned, and which structures already have a pin there — an author needs to see what is done and what is not.
 
+Also **warn when a slide has no 4× view**. Import accepts a slide with only a
+40× image, and such a slide opens at 40× — which is exactly the field with no
+landmarks this design set out to avoid. It is a warning rather than a refusal
+because a 40×-only slide is still worth publishing if that is the only image
+there is; the author just needs to know what the student will meet.
+
 - [ ] **Step 2: Verify and commit**
 
 Run: `npx tsc -b` — clean. `npm test` — unchanged.
