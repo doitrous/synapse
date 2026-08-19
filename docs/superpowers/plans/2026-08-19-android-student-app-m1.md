@@ -1535,9 +1535,23 @@ git commit -m "Read the ledger the way the pipeline actually writes it"
 - Consumes: nothing.
 - Produces: `enum class SittingMode(val wire: String) { TUTOR("tutor"), TIMED("timed") }` with `explainsAsYouGo: Boolean`; `@Serializable data class LiveSession(questionIds, idx, answers: Map<String,Int>, checked: Map<String,Boolean>, mode, sessionId, elapsed, visited: List<Int>, reviewing, name, phase, startedAt)` with `LiveSession.KEY = "synapse.qbank.activeSession.v1"`; `enum class QuestionState { ANSWERED, CORRECT, WRONG, OMITTED, UNSEEN }`.
 
-- [ ] **Step 1: Capture a real sample from the web app**
+- [ ] **Step 1: Build the fixture from the web's writer**
 
-Start a sitting in the web app, answer two questions, skip one, then read `synapse.qbank.activeSession.v1` out of the browser's storage and save it verbatim as the fixture. A hand-written fixture proves only that the code agrees with itself.
+A capture from a live browser session is the ideal fixture, but it needs a running
+app, a signed-in student and published content, so this task derives one instead —
+from the code that does the writing, never from the Kotlin under test. A fixture
+written to match the Kotlin proves only that the code agrees with itself.
+
+Read the `LiveSession` interface at `src/pages/student/QuestionBank.tsx:216-229` and
+the `setSaved({ ... })` call at `src/pages/student/QuestionBank.tsx:682-690` — that
+object literal is the exact shape stored under `synapse.qbank.activeSession.v1`.
+Reproduce it as `live-session-from-web.json`: every field the writer emits, spelled
+as the writer spells it, with values from a plausible half-finished sitting — four
+questions, two answered, one visited-then-left, `"phase": "running"`.
+
+What this proves: the Kotlin reads what the web writes. What it does not prove: that
+the web writes nothing else. `Json { ignoreUnknownKeys = true }` covers the second
+case at runtime; a later capture from a real browser session would close it properly.
 
 - [ ] **Step 2: Write the failing test**
 
