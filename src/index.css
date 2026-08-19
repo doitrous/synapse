@@ -437,38 +437,21 @@
   animation: cortex-slide-x 0.24s var(--ease-out-quint) backwards;
 }
 
-/* The push into the eyepiece, played as stepped stills rather than a video.
-   Forty frames on one strip: one request, exact control of where it stops, and
-   it lands on the white field the slide appears in. `forwards` holds that last
-   frame — without it the strip would snap back to the instrument the moment the
-   animation ended. The global reduced-motion guard collapses the duration, so a
-   student who asked for less motion arrives at the same field without the
-   journey.
+/* The frame only becomes a circle once the lens fills it — the last quarter of
+   the push-in. Rounding it from the start would put a porthole around the whole
+   instrument, which is not what you are looking through yet.
 
-   The shorthand, not `background-position-x`: the longhand does not animate
-   reliably when no shorthand has been set, and it silently does nothing rather
-   than failing loudly. */
-@keyframes cortex-microscope-focus {
-  from { background-position: 0 0; }
-  to { background-position: -11200px 0; }
-}
-
-/* The frame only becomes a circle once the lens fills it — around frame 28 of
-   40. Rounding it from the start would put a porthole around the whole
-   instrument, which is not what you are looking through yet. */
+   The frames themselves are stepped from JavaScript rather than by `steps()`:
+   a hundred and twenty of them live on a grid, and a CSS step function can walk
+   a single row but not two axes. Driving them by hand also means the sequence
+   is timed against a real clock, so it plays at the same speed on a slow
+   machine instead of stretching. */
 @keyframes cortex-microscope-iris {
-  0%, 66% { border-radius: 0.75rem; }
+  0%, 74% { border-radius: 0.75rem; }
   100% { border-radius: 50%; }
 }
-
-/* The instrument travels from wherever it is sitting to the middle of the
-   screen. It is a transform rather than a change of position so the browser can
-   move it on the compositor, and so it never jumps: the element is laid out at
-   its destination and starts life transformed back onto its origin. */
-@utility animate-microscope-focus {
-  animation:
-    cortex-microscope-focus 1.6s steps(40) forwards,
-    cortex-microscope-iris 1.6s linear forwards;
+@utility animate-microscope-iris {
+  animation: cortex-microscope-iris var(--microscope-focus-ms, 2000ms) linear forwards;
 }
 /* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */
 [dir="rtl"] .animate-slide-x {

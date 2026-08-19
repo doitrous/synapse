@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Microscope as MicroscopeIcon } from 'lucide-react'
-import type { HistologySlide } from '@/data/histology'
+import { spriteCell, type HistologySlide } from '@/data/histology'
 import { useLiveHistology } from '@/lib/useLiveHistology'
 import { subjects, getSubject } from '@/data/subjects'
 import { Panel } from '@/components/ui/Panel'
@@ -9,14 +9,22 @@ import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
-const INSTRUMENT = '/microscope/microscope.png'
-const STRIP = '/microscope/focus-strip.jpg'
+const INSTRUMENT = '/microscope/microscope.jpg'
+const GRID = '/microscope/focus-grid.jpg'
 
-/** Frames on the strip and the width of one. The CSS `steps()` must agree. */
-const FRAMES = 40
-const FRAME_PX = 280
-/** Must match `animate-microscope-focus` in index.css. */
-const FOCUS_MS = 1600
+/**
+ * A hundred and twenty frames on a twelve-by-ten grid.
+ *
+ * A grid rather than a strip because a strip of this many frames would be
+ * nearly thirty thousand pixels wide — past what a GPU will hold as one
+ * texture. Two axes is also why the frames are stepped from here instead of by
+ * CSS `steps()`, which walks one.
+ */
+const COLUMNS = 12
+const ROWS = 10
+const FRAMES = COLUMNS * ROWS
+/** Two seconds at sixty frames a second — the point of having this many. */
+const FOCUS_MS = 2000
 
 /** Where the instrument was sitting when the slide was chosen. */
 interface Origin { x: number; y: number; scale: number }
@@ -51,15 +59,46 @@ export function Microscope({ onOpen }: { onOpen: (slide: HistologySlide) => void
   /** False for one frame, so the element paints *at* the instrument before it moves. */
   const [travelling, setTravelling] = useState(false)
   const instrumentRef = useRef<HTMLImageElement>(null)
+  const fieldRef = useRef<HTMLDivElement>(null)
   const groups = useMemo(() => groupBySubject(slides), [slides])
 
   // Fetched when there is something to look at, not on mount. A student who
-  // never opens histology should not pay for the strip.
+  // never opens histology should not pay for the grid.
   useEffect(() => {
     if (!slides.length) return
     const image = new Image()
-    image.src = STRIP
+    image.src = GRID
   }, [slides.length])
+
+  /**
+   * Walk the frames against the clock.
+   *
+   * Timed rather than counted, so the push-in takes two seconds on a slow
+   * machine as well as a fast one — a loop that advanced one frame per paint
+   * would simply run long wherever it dropped frames. Reduced motion goes
+   * straight to the last frame: the destination without the journey.
+   */
+  useEffect(() => {
+    const field = fieldRef.current
+    if (!chosen || !field) return
+    const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false
+    const show = (index: number) => {
+      const clamped = index
+      const cell = spriteCell(clamped, COLUMNS, ROWS)
+      field.style.backgroundPosition = `${cell.x}% ${cell.y}%`
+    }
+    if (reduced) { show(FRAMES - 1); return }
+    let raf = 0
+    const started = performance.now()
+    const tick = (now: number) => {
+      const progress = Math.min(1, (now - started) / FOCUS_MS)
+      show(Math.round(progress * (FRAMES - 1)))
+      if (progress < 1) raf = requestAnimationFrame(tick)
+    }
+    show(0)
+    raf = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(raf)
+  }, [chosen])
 
   /**
    * Open the slide even if the animation never says it finished.
@@ -105,23 +144,27 @@ export function Microscope({ onOpen }: { onOpen: (slide: HistologySlide) => void
 
   if (chosen) {
     return (
-      <div className="fixed inset-0 z-40 grid place-items-center bg-paper/85 backdrop-blur-sm">
+      <div className="fixed inset-0 z-40 grid place-items-center bg-white">
         <div
+          ref={fieldRef}
           role="img"
           aria-label={t('Focusing on the slide')}
-          className="animate-microscope-focus"
+          className="animate-microscope-iris"
           style={{
-            width: 'min(78vw, 62vh, 26rem)',
-            height: 'min(78vw, 62vh, 26rem)',
-            backgroundImage: `url(${STRIP})`,
-            backgroundSize: `${FRAMES * FRAME_PX}px ${FRAME_PX}px`,
+            width: 'min(80vw, 66vh, 28rem)',
+            height: 'min(80vw, 66vh, 28rem)',
+            backgroundImage: `url(${GRID})`,
+            // The whole grid, scaled so one cell fills the element. Cell size is
+            // a fraction of the element rather than pixels, so the frames stay
+            // registered whatever size the field is drawn at.
+            backgroundSize: `${COLUMNS * 100}% ${ROWS * 100}%`,
             backgroundRepeat: 'no-repeat',
+            ['--microscope-focus-ms' as string]: `${FOCUS_MS}ms`,
             transform: origin && !travelling
               ? `translate(${origin.x}px, ${origin.y}px) scale(${origin.scale})`
               : undefined,
-            transition: `transform ${FOCUS_MS}ms cubic-bezier(0.45, 0, 0.2, 1)`,
+            transition: `transform ${FOCUS_MS}ms cubic-bezier(0.4, 0, 0.2, 1)`,
           }}
-          onAnimationEnd={() => onOpen(chosen)}
         />
       </div>
     )

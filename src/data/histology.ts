@@ -104,3 +104,28 @@ export function managedSlideToStudentSlide(item: ManagedContentItem): HistologyS
     description: item.fields.Description?.trim() || undefined,
   }
 }
+
+/**
+ * Where one cell of a sprite grid sits, as a background-position.
+ *
+ * Percentages rather than pixels because the grid is sized as a multiple of the
+ * element it fills, so the frames stay registered whatever size that element is
+ * drawn at. With a grid `columns` wide, cell `c` sits `c / (columns - 1)` of the
+ * way across — the ratio alignment CSS uses for percentage positions, not a
+ * plain offset, which is the thing that catches people out here.
+ *
+ * The index is clamped rather than wrapped: a clock that overruns by a frame
+ * should hold on the last one, and holding is what the end of this animation is
+ * supposed to do.
+ */
+export function spriteCell(
+  index: number,
+  columns: number,
+  rows: number,
+): { x: number; y: number } {
+  const clamped = Math.min(columns * rows - 1, Math.max(0, Math.round(index)))
+  return {
+    x: (clamped % columns) / (columns - 1) * 100,
+    y: Math.floor(clamped / columns) / (rows - 1) * 100,
+  }
+}

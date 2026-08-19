@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  clampPin, objectivesOf, openingObjective, structuresAt, managedSlideToStudentSlide,
+  clampPin, objectivesOf, openingObjective, structuresAt, managedSlideToStudentSlide, spriteCell,
 } from './histology.ts'
 import type { ManagedContentItem } from './contentControl.ts'
 
@@ -85,4 +85,22 @@ test('a view whose image never arrived is dropped, not left as an empty field', 
   } as unknown as ManagedContentItem
   const projected = managedSlideToStudentSlide(item)
   assert.deepEqual(projected?.views.map((view) => view.objective), [4])
+})
+
+test('the first cell of a sprite grid sits at the origin', () => {
+  assert.deepEqual(spriteCell(0, 12, 10), { x: 0, y: 0 })
+})
+
+test('the last cell sits at the far corner', () => {
+  assert.deepEqual(spriteCell(119, 12, 10), { x: 100, y: 100 })
+})
+
+test('a cell steps across before it steps down', () => {
+  assert.deepEqual(spriteCell(1, 12, 10), { x: 100 / 11, y: 0 })
+  assert.deepEqual(spriteCell(12, 12, 10), { x: 0, y: 100 / 9 })
+})
+
+test('an index past the end holds on the last frame rather than wrapping', () => {
+  assert.deepEqual(spriteCell(999, 12, 10), { x: 100, y: 100 })
+  assert.deepEqual(spriteCell(-5, 12, 10), { x: 0, y: 0 })
 })
