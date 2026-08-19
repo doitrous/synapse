@@ -569,7 +569,7 @@ git commit -m "Give a running test the width, and give the menu back afterwards"
 - Consumes: `pruneManifests` and the `SessionManifests` type from Task 1. Not `MAX_STORED_SITTINGS` — it is the default parameter of `pruneManifests`, and importing it unused would fail `noUnusedLocals`.
 - Produces:
   - `useRecordAttempts(): (inputs: Array<Omit<AttemptRecord, 'id' | 'at'>>) => void` from `@/lib/useAttemptLog`
-  - Inside `QuestionBank`: `SESSION_QUESTIONS_STORAGE_KEY = 'synapse.qbank.sessionQuestions.v1'`, the `sessionQuestions` state pair, `beginSession(picked: Question[], id: string)`, and `commitAnswers(): void`. Tasks 5, 8 and 9 all call these.
+  - Inside `QuestionBank`: `SESSION_QUESTIONS_STORAGE_KEY = 'synapse.qbank.sessionQuestions.v1'`, `setSessionQuestions` (the setter alone — see Step 2), `beginSession(picked: Question[], id: string)`, `attemptFor(...)`, and `commitAnswers(): void`. Tasks 5, 8 and 9 all call these.
 
 **Two defects are fixed here**, both because this task's feature cannot work around them:
 
@@ -640,7 +640,11 @@ const SESSION_QUESTIONS_STORAGE_KEY = 'synapse.qbank.sessionQuestions.v1'
 Inside the component, beside `savedNames`:
 
 ```tsx
-  const [sessionQuestions, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
+  // Only the setter is bound. Nothing in this task reads the map back, and
+  // `noUnusedLocals` rejects a binding nobody uses — the same reason
+  // `useAttemptLog` writes `const [, setMonth] = …`. Task 8 restores the value
+  // binding when the collections start reading it.
+  const [, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
 ```
 
 - [ ] **Step 3: Give `beginSession` the id, and file the manifest under it**
@@ -1400,7 +1404,13 @@ import {
 import { COLLECTION_ICONS, QuestionCollections, type Collection } from '@/components/qbank/QuestionCollections'
 ```
 
-Add after the `libraryTopics` memo:
+Task 4 bound only the setter on the manifest store, because nothing read it back then. Restore the value binding now — widen the line it added, and delete the comment above it explaining why only the setter was bound, since that is no longer true:
+
+```tsx
+  const [sessionQuestions, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
+```
+
+Then add after the `libraryTopics` memo:
 
 ```tsx
   const flaggedQuestions = useMemo(() => questionsById(questions, marked), [questions, marked])
