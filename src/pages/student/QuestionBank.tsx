@@ -988,7 +988,7 @@ export function QuestionBank() {
 
         {saved && !saved.submitted && saved.questionIds.length > 0 && (
           <ContinueCard
-            name={savedNames[saved.sessionId] ?? t('Untitled test')}
+            name={savedNames[saved.sessionId]?.trim() || t('Untitled test')}
             answered={Object.keys(saved.answers).length}
             total={saved.questionIds.length}
             onContinue={resumeSaved}
@@ -1556,7 +1556,7 @@ export function QuestionBank() {
                         })
                       }}
                       aria-label={`${t('Choose answer')} ${LETTERS[i]}`}
-                      className="cursor-pointer rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)]"
+                      className="-m-2 cursor-pointer rounded-full p-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] sm:m-0 sm:p-0"
                     >
                       {badge}
                     </button>
