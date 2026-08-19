@@ -37,7 +37,10 @@ import {
 import { invalidatePublishedQuestions } from './publishedQuestions.js'
 import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests, directorySearch } from './friends.js'
 import { mintInvite, redeemInvite } from './friendInvites.js'
-import { linkAccount as linkFacebookAccount, unlinkAccount as unlinkFacebookAccount, deletionCallback as facebookDeletionCallback } from './facebook.js'
+import {
+  linkAccount as linkFacebookAccount, unlinkAccount as unlinkFacebookAccount,
+  deletionCallback as facebookDeletionCallback, parseSignedRequest as parseFacebookSignedRequest,
+} from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
 
@@ -547,22 +550,31 @@ app.post('/api/friends/facebook/unlink', requireAuthenticated, wrap(async (req, 
 /**
  * Meta's data-deletion callback, required for App Review.
  *
- * Deliberately public, on the same reasoning as `/api/unsubscribe` below:
- * the caller is Meta's own servers, not a signed-in student, so requiring a
- * session here would mean the deletion request silently failed. Meta signs
- * these requests with the app secret so only Meta can trigger one — but we
- * do not hold an app secret (no approved app id yet), so that signature is
- * NOT verified here. Nothing currently stops another caller from invoking
- * this route; it only ever deletes the one row named by the fb user id it
- * is given, which bounds the damage to "delete a link that already opted
- * in via `fb_user_id`" rather than anything broader. Signature verification
- * must be added before this app id goes into App Review.
+ * Public because Meta's own servers call it — there is no student session to
+ * require, and requiring one meant this route answered 401 to every deletion
+ * request, so the requirement it exists for did not work at all. What
+ * authenticates it instead is the `signed_request` Meta signs with the app
+ * secret: no secret configured, or a signature that does not verify, and the
+ * request is refused rather than processed. It is listed in `apiAuthGate`'s
+ * allowlist for that reason and no other.
+ *
+ * Left ungated by `FEATURE_FACEBOOK_FRIENDS` deliberately: anybody who ever
+ * linked an account must be able to have it deleted, including after linking
+ * is switched back off.
+ *
+ * Meta posts this form-encoded, so the parser is attached here rather than
+ * globally — no other route takes a form body.
  */
-app.post('/api/facebook/deletion-callback', wrap(async (req, res) => {
-  const fbUserId = req.body?.user_id || req.query?.user_id
-  if (!fbUserId) return res.status(400).json({ error: 'user_id required' })
-  await facebookDeletionCallback(String(fbUserId))
-  res.json({ url: `${PUBLIC_ORIGIN}/privacy`, confirmation_code: String(fbUserId) })
+app.post('/api/facebook/deletion-callback', express.urlencoded({ extended: false }), wrap(async (req, res) => {
+  const appSecret = process.env.FACEBOOK_APP_SECRET
+  if (!appSecret) return res.status(503).json({ error: 'facebook_not_configured' })
+
+  const payload = parseFacebookSignedRequest(req.body?.signed_request ?? req.query?.signed_request, appSecret)
+  if (!payload?.user_id) return res.status(401).json({ error: 'invalid_signed_request' })
+
+  const fbUserId = String(payload.user_id)
+  await facebookDeletionCallback(fbUserId)
+  res.json({ url: `${PUBLIC_ORIGIN}/privacy`, confirmation_code: fbUserId })
 }))
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */

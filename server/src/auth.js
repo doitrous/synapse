@@ -49,7 +49,19 @@ export async function apiAuthGate(req, res, next) {
   // It is safe to leave open: it accepts nothing but a 48-character opaque
   // token, returns 404 for anything it does not recognise, reads nothing back to
   // the caller, and can only ever add a suppression.
-  if (req.path === '/api/health' || req.path === '/api/webhooks/resend/inbound' || req.path === '/api/unsubscribe') return next()
+  //
+  // Meta's deletion callback is here for the same reason and is authenticated
+  // its own way: Meta signs each call with the app secret, and the route
+  // refuses anything whose `signed_request` does not verify — including every
+  // call at all when no secret is configured. It sat behind this gate once and
+  // therefore answered 401 to every deletion request Meta ever sent, which is
+  // the failure this list exists to prevent.
+  if (
+    req.path === '/api/health'
+    || req.path === '/api/webhooks/resend/inbound'
+    || req.path === '/api/unsubscribe'
+    || req.path === '/api/facebook/deletion-callback'
+  ) return next()
 
   const auth = req.header('authorization') || ''
   const token = auth.startsWith('Bearer ') ? auth.slice(7) : ''
