@@ -625,10 +625,16 @@ export function QuestionBank() {
     () => questionsById(questions, incorrectIds(history.records)),
     [questions, history.records],
   )
-  const omittedQuestions = useMemo(
-    () => questionsById(questions, omittedIds(sessionQuestions, history.records)),
-    [questions, sessionQuestions, history.records],
-  )
+  const omittedQuestions = useMemo(() => {
+    // A sitting files its manifest the moment it starts, so an open one would
+    // have every question it has not reached yet counted as omitted — offered
+    // back on the same screen as the card offering to continue it. Omitted
+    // means left unanswered in a sitting that is over.
+    const finished = saved && !saved.submitted
+      ? Object.fromEntries(Object.entries(sessionQuestions).filter(([id]) => id !== saved.sessionId))
+      : sessionQuestions
+    return questionsById(questions, omittedIds(finished, history.records))
+  }, [questions, sessionQuestions, history.records, saved])
 
   const sourcePool = useMemo(() => {
     if (source === 'flagged') return flaggedQuestions
