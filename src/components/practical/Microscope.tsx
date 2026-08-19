@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Microscope as MicroscopeIcon } from 'lucide-react'
 import type { HistologySlide } from '@/data/histology'
 import { useLiveHistology } from '@/lib/useLiveHistology'
@@ -9,16 +9,17 @@ import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
-const POSTER = '/microscope/focus-poster.jpg'
+const INSTRUMENT = '/microscope/microscope.png'
 const STRIP = '/microscope/focus-strip.jpg'
 
-/** Frames on the strip, and the width of one. The CSS steps() must agree. */
-const FRAMES = 18
-const FRAME_PX = 320
+/** Frames on the strip and the width of one. The CSS `steps()` must agree. */
+const FRAMES = 40
+const FRAME_PX = 280
 /** Must match `animate-microscope-focus` in index.css. */
-const FOCUS_MS = 1250
+const FOCUS_MS = 1600
 
-type Stage = 'choosing' | 'focusing'
+/** Where the instrument was sitting when the slide was chosen. */
+interface Origin { x: number; y: number; scale: number }
 
 /** Slides grouped by subject, catalogue order first, then anything unrecognised. */
 function groupBySubject(slides: HistologySlide[]) {
@@ -35,88 +36,110 @@ function groupBySubject(slides: HistologySlide[]) {
 }
 
 /**
- * The instrument, and what is on the bench beside it.
+ * The instrument, and the slides on the bench beside it.
  *
- * The microscope sits at the start of the row and the slides sit next to it,
- * the way they do on a real bench — you pick one up and put it under the
- * lens. Choosing a slide runs the push-in, which is played as stepped stills
- * from one strip rather than a video: it stops exactly on the white field, and
- * that field is where the slide then appears.
+ * Choosing a slide does not cut to a viewer. The microscope travels from
+ * wherever it is sitting to the middle of the screen while the push-in plays,
+ * so what a student sees is continuous — the same object the whole way, rather
+ * than one thing swapped for another.
  */
 export function Microscope({ onOpen }: { onOpen: (slide: HistologySlide) => void }) {
   const t = useT()
   const { slides } = useLiveHistology()
-  const [stage, setStage] = useState<Stage>('choosing')
   const [chosen, setChosen] = useState<HistologySlide | null>(null)
+  const [origin, setOrigin] = useState<Origin | null>(null)
+  /** False for one frame, so the element paints *at* the instrument before it moves. */
+  const [travelling, setTravelling] = useState(false)
+  const instrumentRef = useRef<HTMLImageElement>(null)
   const groups = useMemo(() => groupBySubject(slides), [slides])
 
   // Fetched when there is something to look at, not on mount. A student who
-  // never opens histology should not pay for a hundred kilobytes of instrument.
+  // never opens histology should not pay for the strip.
   useEffect(() => {
     if (!slides.length) return
     const image = new Image()
     image.src = STRIP
   }, [slides.length])
 
-  function choose(slide: HistologySlide) {
-    setChosen(slide)
-    setStage('focusing')
-  }
-
   /**
    * Open the slide even if the animation never says it finished.
    *
    * A CSS animation only fires `animationend` while the page is being painted.
-   * A tab in the background — or a browser throttling it — leaves the clock at
-   * zero, and with the transition as the only way through, the student would
-   * sit on a still frame forever. The animation stays the nice path; this is
-   * the one that guarantees they arrive.
+   * A backgrounded or throttled tab leaves the clock at zero, and with the
+   * transition as the only way through, the student would sit on a still frame
+   * for good. The animation stays the nice path; this guarantees they arrive.
    */
   useEffect(() => {
-    if (stage !== 'focusing' || !chosen) return
+    if (!chosen) return
     const timer = window.setTimeout(() => onOpen(chosen), FOCUS_MS + 250)
     return () => window.clearTimeout(timer)
-  }, [stage, chosen, onOpen])
+  }, [chosen, onOpen])
 
-  if (stage === 'focusing' && chosen) {
+  // Laid out at the destination and transformed back onto the instrument, then
+  // released on the next frame so the browser has something to animate from.
+  // Two frames deep: one to paint the start, one to change it.
+  useEffect(() => {
+    if (!origin) return
+    let inner = 0
+    const outer = requestAnimationFrame(() => {
+      inner = requestAnimationFrame(() => setTravelling(true))
+    })
+    return () => { cancelAnimationFrame(outer); cancelAnimationFrame(inner) }
+  }, [origin])
+
+  function choose(slide: HistologySlide) {
+    const rect = instrumentRef.current?.getBoundingClientRect()
+    if (rect) {
+      // The overlay is laid out centred at the target size; this is the
+      // transform that puts it back over the instrument, so the travel starts
+      // exactly where the student is already looking.
+      const target = Math.min(window.innerWidth * 0.78, window.innerHeight * 0.62, 416)
+      setOrigin({
+        x: rect.left + rect.width / 2 - window.innerWidth / 2,
+        y: rect.top + rect.height / 2 - window.innerHeight / 2,
+        scale: rect.width / target,
+      })
+    }
+    setChosen(slide)
+  }
+
+  if (chosen) {
     return (
-      <div className="grid min-h-[26rem] place-items-center py-10">
+      <div className="fixed inset-0 z-40 grid place-items-center bg-paper/85 backdrop-blur-sm">
         <div
           role="img"
           aria-label={t('Focusing on the slide')}
-          className="animate-microscope-focus size-[min(20rem,72vw)] rounded-full bg-cover shadow-pop"
+          className="animate-microscope-focus"
           style={{
+            width: 'min(78vw, 62vh, 26rem)',
+            height: 'min(78vw, 62vh, 26rem)',
             backgroundImage: `url(${STRIP})`,
             backgroundSize: `${FRAMES * FRAME_PX}px ${FRAME_PX}px`,
             backgroundRepeat: 'no-repeat',
+            transform: origin && !travelling
+              ? `translate(${origin.x}px, ${origin.y}px) scale(${origin.scale})`
+              : undefined,
+            transition: `transform ${FOCUS_MS}ms cubic-bezier(0.45, 0, 0.2, 1)`,
           }}
           onAnimationEnd={() => onOpen(chosen)}
         />
-        <p className="mt-5 text-[12.5px] text-ink-3">{chosen.title}</p>
       </div>
     )
   }
 
   return (
-    <div className="grid items-start gap-4 sm:grid-cols-[minmax(9rem,13rem)_minmax(0,1fr)]">
-      {/* The instrument. It stays put; the slides come to it. */}
-      <Panel className="p-4 text-center sm:sticky sm:top-6">
-        <img
-          src={POSTER}
-          alt=""
-          width={320}
-          height={320}
-          className="mx-auto w-full max-w-[10rem] rounded-lg"
-        />
-        <p className="mt-3 text-[13px] font-semibold text-ink">{t('The microscope')}</p>
-        <p className="mt-1 text-[12px] leading-relaxed text-ink-3">
-          {slides.length
-            ? t('Choose a slide and it goes under the lens.')
-            : t('Nothing to put under it yet.')}
-        </p>
-      </Panel>
+    <div className="grid items-start gap-4 sm:grid-cols-[minmax(8rem,11rem)_minmax(0,1fr)]">
+      {/* The instrument itself — no card, no caption. It is a picture of a
+          microscope; captioning it "the microscope" tells nobody anything. */}
+      <img
+        ref={instrumentRef}
+        src={INSTRUMENT}
+        alt=""
+        width={360}
+        height={360}
+        className="mx-auto w-full max-w-[9rem] sm:sticky sm:top-6"
+      />
 
-      {/* The bench. */}
       {slides.length === 0 ? (
         <Panel className="p-10">
           <EmptyState
