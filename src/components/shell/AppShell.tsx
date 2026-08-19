@@ -4,6 +4,7 @@ import { Minimize2 } from 'lucide-react'
 import type { Portal } from './nav'
 import { Sidebar } from './Sidebar'
 import { Topbar } from './Topbar'
+import { StudyAssistant } from '@/components/assistant/StudyAssistant'
 import { CommandSearch } from './CommandSearch'
 import { StudyContextMenu } from './StudyContextMenu'
 import { StudentOnboarding } from '@/components/onboarding/StudentOnboarding'
@@ -129,6 +130,10 @@ export function AppShell({ portal }: { portal: Portal }) {
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
       <StudyContextMenu />
       {portal === 'student' && <StudentOnboarding />}
+      {/* Docked, not a page: the question is nearly always about what is
+          already on screen. Renders nothing unless the assistant is on and
+          included on this student's plan. */}
+      {portal === 'student' && !focusMode && <StudyAssistant />}
     </div>
   )
 }

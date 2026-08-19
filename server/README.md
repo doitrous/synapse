@@ -33,6 +33,28 @@ Health check: `GET /api/health` → `{ ok: true }`.
 - Mail: `GET /api/mail`, `GET /api/mail/:id`, `GET /api/mail/attachment/:id`,
   `POST /api/mail/send`, `GET/POST /api/mailboxes`,
   `POST /api/webhooks/resend/inbound`.
+- Study assistant: `GET /api/assistant/status`, `POST /api/assistant/chat` (student);
+  `GET/PUT /api/admin/assistant`, `PUT/DELETE /api/admin/assistant/tiers/:plan`,
+  `GET /api/admin/assistant/usage` (admin).
+
+## Study assistant
+
+Off until an admin turns it on at **Admin → AI Assistant**. Two env vars:
+
+| Var | Required | What it does |
+|---|---|---|
+| `ANTHROPIC_API_KEY` | No | Fallback key, used when no key has been saved from the admin screen |
+| `ASSISTANT_KEY_SECRET` | To store a key | 16+ characters. Wraps the API key at rest (AES-256-GCM). Without it, the admin screen refuses to save a key rather than writing one in plaintext |
+
+The key is never returned to any client — the admin screen sees its last four
+characters and where it came from. Rotating `ASSISTANT_KEY_SECRET` makes a
+stored key unreadable; the screen says so and asks for it again, and the
+environment key keeps working meanwhile.
+
+Daily message limits are per plan and enforced before the model is called, so a
+client cannot spend anything by ignoring its own count. A plan with no limit row
+falls back to `free`. Design and test scenarios: `docs/assistant-design.md`,
+`docs/assistant-testing.md`.
 
 ## Auth
 

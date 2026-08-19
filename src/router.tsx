@@ -75,6 +75,7 @@ const AuditSecurity = lazyNamed(() => import('@/pages/admin/AuditSecurity'), 'Au
 const MedicalCoverageReview = lazyNamed(() => import('@/pages/admin/MedicalCoverageReview'), 'MedicalCoverageReview')
 const ReportsReview = lazyNamed(() => import('@/pages/admin/ReportsReview'), 'ReportsReview')
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
+const AssistantSetup = lazyNamed(() => import('@/pages/admin/AssistantSetup'), 'AssistantSetup')
 const NotificationCampaigns = lazyNamed(() => import('@/pages/admin/NotificationCampaigns'), 'NotificationCampaigns')
 const BulkImportPage = lazyNamed(() => import('@/pages/admin/BulkImportPage'), 'BulkImportPage')
 const ConceptsSetup = lazyNamed(() => import('@/pages/admin/ConceptsSetup'), 'ConceptsSetup')
@@ -144,10 +145,11 @@ const adminBuilt: Record<string, ReactElement> = {
   privacy: render(PrivacySupport),
   settings: render(AdminSettings),
   audit: render(AuditSecurity),
+  assistant: render(AssistantSetup),
 }
 
 const studentPaths = ['library', 'qbank', 'practical', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit']
+const adminPaths = ['academic', 'library', 'questions', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
