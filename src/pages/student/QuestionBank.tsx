@@ -1190,11 +1190,13 @@ export function QuestionBank() {
   // an imported question the panel below would repeat the rationale already sitting
   // under the right answer. Only show it when it genuinely says something else.
   const hasSeparateExplanation = Boolean(q.explanation.trim()) && q.explanation.trim() !== correctRationale
-  // Every option that is neither correct nor the one chosen, and that actually
-  // has something to say. The index is kept so each keeps its own letter.
+  // Every wrong option that has something to say — including the one the student
+  // picked. It used to exclude their own choice, so choosing an answer was the
+  // one way to never be told why it was wrong, and nothing else on the page
+  // carried that rationale. The index is kept so each keeps its own letter.
   const wrongOptions = q.options
     .map((option, index) => ({ option, index }))
-    .filter(({ option, index }) => !option.correct && index !== chosen && option.rationale.trim())
+    .filter(({ option }) => !option.correct && option.rationale.trim())
 
   /**
    * The record one answer produces, and the mastery evidence that goes with it.
