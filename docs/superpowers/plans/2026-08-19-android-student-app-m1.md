@@ -227,7 +227,7 @@ class AppConfigTest {
 
     @Test
     fun `reports every missing field by name`() {
-        val config = AppConfig(supabaseHost = "", supabaseAnonKey = "", apiBaseUrl = "")
+        val config = AppConfig("", "", "")
         assertFalse(config.isConfigured)
         assertEquals(
             listOf("SUPABASE_HOST", "SUPABASE_ANON_KEY", "API_BASE_URL"),
@@ -280,14 +280,11 @@ import com.synapse.android.BuildConfig
  * `secrets.properties`, and an app that refused to launch there would be
  * reported as broken rather than as unconfigured.
  */
-data class AppConfig(
-    private val supabaseHost: String,
+class AppConfig(
+    private val rawSupabaseHost: String,
     val supabaseAnonKey: String,
-    private val rawApiBaseUrl: String,
+    rawApiBaseUrl: String,
 ) {
-    constructor(supabaseHost: String, supabaseAnonKey: String, apiBaseUrl: String, unused: Unit = Unit) :
-        this(supabaseHost, supabaseAnonKey, rawApiBaseUrl = apiBaseUrl)
-
     /** The API base with any trailing slash removed, so path joins never double up. */
     val apiBaseUrl: String = rawApiBaseUrl.trim().trimEnd('/')
 
@@ -301,13 +298,13 @@ data class AppConfig(
      */
     val supabaseUrl: String
         get() {
-            val host = supabaseHost.trim().trimEnd('/')
+            val host = rawSupabaseHost.trim().trimEnd('/')
             return if (host.startsWith("http://") || host.startsWith("https://")) host else "https://$host"
         }
 
     val missing: List<String>
         get() = buildList {
-            if (supabaseHost.isBlank()) add("SUPABASE_HOST")
+            if (rawSupabaseHost.isBlank()) add("SUPABASE_HOST")
             if (supabaseAnonKey.isBlank()) add("SUPABASE_ANON_KEY")
             if (apiBaseUrl.isBlank()) add("API_BASE_URL")
         }
@@ -316,15 +313,13 @@ data class AppConfig(
 
     companion object {
         fun fromBuild(): AppConfig = AppConfig(
-            supabaseHost = BuildConfig.SUPABASE_HOST,
+            rawSupabaseHost = BuildConfig.SUPABASE_HOST,
             supabaseAnonKey = BuildConfig.SUPABASE_ANON_KEY,
             rawApiBaseUrl = BuildConfig.API_BASE_URL,
         )
     }
 }
 ```
-
-Delete the secondary constructor if the primary already reads clearly with named arguments — the tests use named and positional forms that the primary satisfies.
 
 - [ ] **Step 9: Add a placeholder `MainActivity` so the app assembles**
 
