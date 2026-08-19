@@ -24,6 +24,7 @@ export const FRIEND_REFUSALS: Record<string, string> = {
   used: 'That invite link has already been used.',
   self: 'That is your own invite link.',
   facebook_disabled: 'Finding friends through Facebook is not switched on yet.',
+  already_linked: 'That Facebook account is already connected to another student here.',
 }
 
 export function useFriends() {

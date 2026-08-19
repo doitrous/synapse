@@ -13,13 +13,48 @@ export function matchFriends(fbFriendIds, linkedRows) {
   return (linkedRows ?? []).filter((row) => wanted.has(row.fbUserId)).map((row) => row.userId)
 }
 
+/**
+ * Point this student's account at a Facebook id.
+ *
+ * `fb_user_id` is UNIQUE, so the single upsert this used to be collided on
+ * *that* index when a second student claimed an id somebody had already
+ * linked — and `ON DUPLICATE KEY UPDATE` then rewrote the **first** student's
+ * row while reporting `{ ok: true }` to the second, who was not linked at all.
+ * The read below gives that case a reason; the write is split so the UNIQUE
+ * index still throws if somebody claims the id in between, which is the only
+ * guard that cannot be raced.
+ */
 export async function linkAccount(userId, fbUserId) {
   if (!fbUserId) return { ok: false, reason: 'invalid_target' }
-  await pool.query(
-    `INSERT INTO facebook_links (user_id, fb_user_id) VALUES (?, ?)
-     ON DUPLICATE KEY UPDATE fb_user_id = VALUES(fb_user_id), unlinked_at = NULL`,
-    [userId, String(fbUserId)],
+  const id = String(fbUserId)
+
+  const [owners] = await pool.query(
+    'SELECT user_id AS userId FROM facebook_links WHERE fb_user_id = ?',
+    [id],
   )
+  if (owners.length) {
+    if (owners[0].userId !== userId) return { ok: false, reason: 'already_linked' }
+    // Same student, same id: re-linking after a deletion request only has to
+    // lift the mark that recorded it.
+    await pool.query('UPDATE facebook_links SET unlinked_at = NULL WHERE user_id = ?', [userId])
+    return { ok: true }
+  }
+
+  try {
+    const [moved] = await pool.query(
+      'UPDATE facebook_links SET fb_user_id = ?, unlinked_at = NULL WHERE user_id = ?',
+      [id, userId],
+    )
+    if (!moved.affectedRows) {
+      await pool.query('INSERT INTO facebook_links (user_id, fb_user_id) VALUES (?, ?)', [userId, id])
+    }
+  } catch (error) {
+    // Somebody claimed the id between the read above and this write. Plain
+    // INSERT/UPDATE rather than an upsert precisely so the UNIQUE index says so
+    // instead of quietly moving the other student's link.
+    if (error?.code === 'ER_DUP_ENTRY') return { ok: false, reason: 'already_linked' }
+    throw error
+  }
   return { ok: true }
 }
 
