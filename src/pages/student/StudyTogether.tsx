@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -9,7 +10,7 @@ import { Avatar } from '@/components/ui/Avatar'
 import { Meter } from '@/components/ui/Meter'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Field, TextInput } from '@/components/ui/Field'
-import { Segmented } from '@/components/ui/Tabs'
+import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import type { Question } from '@/data/qbank'
@@ -19,6 +20,11 @@ import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useMastery } from '@/lib/useMastery'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { ROOM_REFUSALS, useMyRooms, useRoom, useStudyRoomActions } from '@/lib/useStudyRooms'
+import { FRIEND_REFUSALS, useFriends, type FriendProfile } from '@/lib/useFriends'
+import { useMyChallenges, useChallengeActions } from '@/lib/useChallenges'
+import { FriendsPanel } from '@/components/social/FriendsPanel'
+import { ChallengePanel, ChallengeDialog } from '@/components/social/ChallengePanel'
+import { ChallengeRunner } from '@/components/social/ChallengeRunner'
 import { API_MODE } from '@/lib/api'
 import { formatRelativeTime } from '@/lib/format'
 import { cn } from '@/lib/cn'
@@ -308,6 +314,7 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
  */
 export function StudyTogether() {
   const t = useT()
+  const [tab, setTab] = useState<'tests' | 'friends'>('tests')
   const questions = usePublishedQuestions()
   const { rooms, reload: reloadRooms } = useMyRooms()
   const { create, join } = useStudyRoomActions()
@@ -327,26 +334,87 @@ export function StudyTogether() {
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = questionsInScope(questions, scope, libraryTopics)
 
-  if (!API_MODE) {
-    return (
-      <PageContainer>
-        <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates.')} />
-        <Panel className="p-10">
-          <EmptyState
-            icon={Users}
-            title={t('Shared tests need the backend')}
-            description={t('A shared test lives on the server so other people can join it by code. Connect the backend to create one.')}
-          />
-        </Panel>
-      </PageContainer>
-    )
-  }
+  const { friends, incoming, outgoing, respond, remove, request, searchDirectory, mintInvite, redeemInvite } = useFriends()
+  const [inviteNotice, setInviteNotice] = useState<{ tone: 'success' | 'danger'; text: string } | null>(null)
+
+  const { challenges, reload: reloadChallenges } = useMyChallenges()
+  const { create: createChallenge, respond: respondChallenge } = useChallengeActions()
+  const [challengeTarget, setChallengeTarget] = useState<FriendProfile | null>(null)
+  const [openChallengeId, setOpenChallengeId] = useState<string | null>(null)
+
+  /**
+   * Start a shared test with this friend already seated in it.
+   *
+   * Uses whatever topics/length/timing are set on the "Create a shared test"
+   * panel, same as a code-based room — the only difference is the friend
+   * lands in it without ever seeing a code. `FriendsPanel` owns the loading
+   * state and any refusal message; this just does the work and reports back.
+   */
+  const handleStudyTogether = useCallback(
+    async (friend: FriendProfile) => {
+      const picked = shuffle(available).slice(0, Math.min(count, available.length)).map((question) => question.id)
+      const result = await create({
+        name: `${t('Study session with')} ${friend.displayName}`,
+        questionIds: picked,
+        timed,
+        secondsPerQuestion: null,
+        inviteUserIds: [friend.userId],
+      })
+      if (!result.ok) return { ok: false as const, reason: result.reason }
+      await reloadRooms()
+      setOpenRoomId(result.room!.id)
+      return { ok: true as const }
+    },
+    [available, count, timed, create, reloadRooms, t],
+  )
+  const handleChallenge = useCallback((friend: FriendProfile) => setChallengeTarget(friend), [])
+
+  /**
+   * Redeem `?invite=` once on arrival.
+   *
+   * The link's whole point is to work with no other setup, so it has to be
+   * caught here rather than requiring the student to find the Friends tab
+   * themselves. Guarded by a ref rather than just checking the param, because
+   * clearing the param itself triggers a re-render this effect would otherwise
+   * see before the URL update has landed.
+   */
+  const [searchParams, setSearchParams] = useSearchParams()
+  const redeemedToken = useRef<string | null>(null)
+  useEffect(() => {
+    if (!API_MODE) return
+    const token = searchParams.get('invite')
+    if (!token || redeemedToken.current === token) return
+    redeemedToken.current = token
+    void (async () => {
+      const result = await redeemInvite(token)
+      setInviteNotice(
+        result.ok
+          ? { tone: 'success', text: t('Friend request sent.') }
+          : { tone: 'danger', text: FRIEND_REFUSALS[result.reason ?? ''] ?? t('That invite link could not be used.') },
+      )
+      setTab('friends')
+      setSearchParams((current) => {
+        const next = new URLSearchParams(current)
+        next.delete('invite')
+        return next
+      }, { replace: true })
+    })()
+  }, [searchParams, setSearchParams, redeemInvite, t])
 
   if (openRoomId) {
     return (
       <PageContainer>
         <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates.')} />
         <RoomRunner roomId={openRoomId} onExit={() => { setOpenRoomId(null); void reloadRooms() }} />
+      </PageContainer>
+    )
+  }
+
+  if (openChallengeId) {
+    return (
+      <PageContainer>
+        <PageHeader title={t('Study Together')} description={t('The same paper, sat separately. The comparison opens once you have both finished.')} />
+        <ChallengeRunner challengeId={openChallengeId} onExit={() => { setOpenChallengeId(null); void reloadChallenges() }} />
       </PageContainer>
     )
   }
@@ -377,10 +445,15 @@ export function StudyTogether() {
   const open = rooms.filter((room) => room.status !== 'closed')
   const past = rooms.filter((room) => room.status === 'closed')
 
-  return (
-    <PageContainer>
-      <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates, then compare results.')} />
-
+  const testsContent = !API_MODE ? (
+    <Panel className="p-10">
+      <EmptyState
+        icon={Users}
+        title={t('Shared tests need the backend')}
+        description={t('A shared test lives on the server so other people can join it by code. Connect the backend to create one.')}
+      />
+    </Panel>
+  ) : (
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.3fr)_minmax(18rem,0.7fr)]">
         <Panel>
           <PanelHeader title={t('Create a shared test')} icon={Plus} />
@@ -496,6 +569,76 @@ export function StudyTogether() {
           </Panel>
         </div>
       </div>
+  )
+
+  const friendsContent = !API_MODE ? (
+    <Panel className="p-10">
+      <EmptyState
+        icon={Users}
+        title={t('Friends need the backend')}
+        description={t('Friend requests live on the server so both people can see them. Connect the backend to add friends.')}
+      />
+    </Panel>
+  ) : (
+    <div className="space-y-4">
+      {inviteNotice && (
+        <p role="status" className={cn('text-[12.5px]', inviteNotice.tone === 'success' ? 'text-success' : 'text-danger')}>
+          {inviteNotice.text}
+        </p>
+      )}
+      <ChallengePanel
+        challenges={challenges}
+        friends={friends}
+        onRespond={respondChallenge}
+        onOpen={setOpenChallengeId}
+      />
+      <FriendsPanel
+        friends={friends}
+        incoming={incoming}
+        outgoing={outgoing}
+        onRespond={respond}
+        onRemove={remove}
+        onStudyTogether={handleStudyTogether}
+        onChallenge={handleChallenge}
+        onCreateInvite={mintInvite}
+        onRequest={request}
+        onSearchDirectory={searchDirectory}
+      />
+    </div>
+  )
+
+  return (
+    <PageContainer>
+      <PageHeader
+        title={t('Study Together')}
+        description={API_MODE ? t('Sit the same set of questions as your classmates, then compare results.') : t('Sit the same set of questions as your classmates.')}
+      />
+
+      <Tabs
+        className="mb-4"
+        value={tab}
+        onChange={(value) => setTab(value as 'tests' | 'friends')}
+        items={[
+          { value: 'tests', label: t('Shared tests') },
+          { value: 'friends', label: t('Friends') },
+        ]}
+      />
+
+      {tab === 'tests' ? testsContent : friendsContent}
+
+      {challengeTarget && (
+        <ChallengeDialog
+          friend={challengeTarget}
+          pool={questions}
+          onClose={() => setChallengeTarget(null)}
+          onCreate={createChallenge}
+          onCreated={(challengeId) => {
+            setChallengeTarget(null)
+            void reloadChallenges()
+            setOpenChallengeId(challengeId)
+          }}
+        />
+      )}
     </PageContainer>
   )
 }
