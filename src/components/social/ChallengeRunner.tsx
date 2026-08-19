@@ -29,10 +29,16 @@ export function ChallengeRunner({ challengeId, onExit }: { challengeId: string; 
   const { answer, finish } = useChallengeActions()
   const { record } = useMastery()
   const logAttempt = useRecordAttempt()
-  const [idx, setIdx] = useState(0)
   const [chosen, setChosen] = useState<number | null>(null)
   const [verdict, setVerdict] = useState<{ correct: boolean; correctIndex: number } | null>(null)
   const [busy, setBusy] = useState(false)
+  // Questions this sitting has given up on. A question that was archived after
+  // the challenge was frozen can never be answered — the server refuses it with
+  // `question_gone` — so nothing would ever remove it from `remaining`, the
+  // Finish panel would never appear, and the head-to-head would stay closed for
+  // the *opponent* too, since it needs both sides finished. Skipping has to take
+  // the question out of the paper, not just step past it.
+  const [skippedIds, setSkippedIds] = useState<ReadonlySet<string>>(() => new Set())
 
   const byId = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions])
   const answeredIds = useMemo(() => new Set(challenge?.myAnswers.map((entry) => entry.questionId) ?? []), [challenge])
@@ -128,8 +134,8 @@ export function ChallengeRunner({ challengeId, onExit }: { challengeId: string; 
   }
 
   /* ---- Running ------------------------------------------------------- */
-  const remaining = challenge.questionIds.filter((id) => !answeredIds.has(id))
-  const currentId = remaining[Math.min(idx, Math.max(0, remaining.length - 1))]
+  const remaining = challenge.questionIds.filter((id) => !answeredIds.has(id) && !skippedIds.has(id))
+  const currentId = remaining[0]
   const question = currentId ? byId.get(currentId) : undefined
 
   if (!remaining.length) {
@@ -154,7 +160,13 @@ export function ChallengeRunner({ challengeId, onExit }: { challengeId: string; 
     return (
       <Panel className="p-8 text-center">
         <p className="text-[13.5px] text-ink-2">{t('This question is no longer available.')}</p>
-        <Button className="mt-4" variant="secondary" onClick={() => setIdx((current) => current + 1)}>{t('Skip it')}</Button>
+        <Button
+          className="mt-4"
+          variant="secondary"
+          onClick={() => setSkippedIds((current) => new Set(current).add(currentId))}
+        >
+          {t('Skip it')}
+        </Button>
       </Panel>
     )
   }
@@ -199,7 +211,7 @@ export function ChallengeRunner({ challengeId, onExit }: { challengeId: string; 
           {verdict ? (
             <Button
               variant="primary"
-              onClick={async () => { setVerdict(null); setChosen(null); setIdx(0); await reload() }}
+              onClick={async () => { setVerdict(null); setChosen(null); await reload() }}
             >
               {remaining.length <= 1 ? t('See results') : t('Next question')}
             </Button>
