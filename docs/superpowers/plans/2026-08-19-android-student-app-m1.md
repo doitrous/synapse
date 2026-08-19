@@ -1572,16 +1572,29 @@ class LiveSessionTest {
             .bufferedReader().readText()
 
     @Test
-    fun `a sitting started on the web is readable on the phone`() {
+    fun `every field the web wrote arrives intact`() {
+        // Assert all twelve, not a sample. A renamed field throws, but a field
+        // this class simply does not declare is dropped in silence by
+        // `ignoreUnknownKeys` — and that is the one that loses the student's
+        // place when they go back to a laptop. Only an assertion per field
+        // catches it.
         val session = json.decodeFromString<LiveSession>(fixture())
-        assertTrue(session.questionIds.isNotEmpty())
+        assertEquals(listOf("q-101", "q-102", "q-103", "q-104"), session.questionIds)
+        assertEquals(2, session.idx)
+        assertEquals(mapOf("q-101" to 2, "q-102" to 0), session.answers)
+        assertEquals(mapOf("q-101" to true, "q-102" to true), session.checked)
+        assertEquals(SittingMode.TUTOR, session.mode)
+        assertEquals("sess-8f3c2b1a", session.sessionId)
+        assertEquals(187, session.elapsed)
+        assertEquals(listOf(0, 1, 2), session.visited)
+        assertEquals(false, session.reviewing)
+        assertEquals("Cardiology Review", session.name)
         assertEquals("running", session.phase)
+        assertEquals("2026-08-19T14:32:07.123Z", session.startedAt)
     }
 
     @Test
-    fun `re-encoding keeps every field the web wrote`() {
-        // A renamed or dropped field does not throw. It silently loses the
-        // student's place when they go back to a laptop.
+    fun `a sitting survives the trip back out to the web`() {
         val session = json.decodeFromString<LiveSession>(fixture())
         val round = json.decodeFromString<LiveSession>(json.encodeToString(session))
         assertEquals(session, round)
