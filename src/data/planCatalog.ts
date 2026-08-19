@@ -177,6 +177,20 @@ export function isPurchasable(plan: CatalogPlan, period: BillingPeriodDef): bool
   return plan.prices[period.id] !== undefined
 }
 
+/**
+ * Whether a plan can be bought while the page is showing this period.
+ *
+ * `isPurchasable` asks about one exact period; this asks the question the page
+ * actually has, which is about the period the *price* resolved to. A plan sold
+ * only by the month is still on sale while the page shows the term — its price
+ * falls back, and so must its button. Asking the raw selected period instead
+ * put "Coming soon" under the Free plan for anyone looking at term pricing.
+ */
+export function purchasableAt(plan: CatalogPlan, periodId: string, periods: readonly BillingPeriodDef[]): boolean {
+  const resolved = priceAt(plan, periodId, periods)
+  return resolved ? isPurchasable(plan, resolved.period) : false
+}
+
 /** What a plan is worth a month, for revenue reporting. */
 export function monthlyEquivalent(plan: CatalogPlan, periods: readonly BillingPeriodDef[]): number {
   const sorted = byLength(periods)

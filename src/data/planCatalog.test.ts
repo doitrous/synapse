@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  compareGroups, compareRows, findPlan, isPurchasable, monthlyEquivalent, monthlyPriceFor, perMonth, periodById, plansFor, priceAt,
+  compareGroups, compareRows, findPlan, isPurchasable, monthlyEquivalent, monthlyPriceFor, perMonth, periodById, plansFor, priceAt, purchasableAt,
   savingPercent, say, type BillingPeriodDef, type CatalogPlan, type PlanCatalog,
 } from './planCatalog.ts'
 
@@ -240,4 +240,22 @@ test('an unknown plan is worth nothing a month, rather than throwing', () => {
   const list = catalog([plan({ id: 'qbank', prices: { month: 99 } })])
   assert.equal(monthlyPriceFor(list, 'qbank'), 99)
   assert.equal(monthlyPriceFor(list, 'nothing'), 0)
+})
+
+test('a plan sold only by the month is still on sale while the page shows the term', () => {
+  const free = plan({ prices: { month: 0 } })
+  // The exact period says no — it is not sold that way — but the price falls
+  // back to the month, and the button must follow the price.
+  assert.equal(isPurchasable(free, PERIODS[1]), false)
+  assert.equal(purchasableAt(free, 'term', PERIODS), true)
+  assert.equal(purchasableAt(free, 'year', PERIODS), true)
+})
+
+test('a plan priced at a coming-soon period is refused while that period is showing', () => {
+  assert.equal(purchasableAt(plan(), 'year', PERIODS), false)
+  assert.equal(purchasableAt(plan(), 'term', PERIODS), true)
+})
+
+test('a plan with no price at all cannot be bought at any period', () => {
+  assert.equal(purchasableAt(plan({ prices: {} }), 'month', PERIODS), false)
 })

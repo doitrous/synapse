@@ -6,7 +6,7 @@ import { cn } from '@/lib/cn'
 import { formatNumber, formatPercent } from '@/lib/pricing'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
 import {
-  compareGroups, isPurchasable, perMonth, plansFor, priceAt, savingPercent, say,
+  compareGroups, perMonth, plansFor, priceAt, purchasableAt, savingPercent, say,
   type BillingPeriodDef, type CatalogPlan, type Lang, type PlanCatalog,
 } from '@/data/planCatalog'
 import type { LandingContent } from './content'
@@ -101,7 +101,7 @@ export function Pricing({ c }: { c: LandingContent }) {
                   <PlanPrice plan={plan} period={period} catalog={catalog} c={c} compact />
                 </p>
                 <p className="mt-2.5 flex-1 text-[12.5px] leading-relaxed text-ink-2">{say(plan.entitlement, lang)}</p>
-                <PlanCta plan={plan} period={period} lang={lang} comingSoon={plans.comingSoon} />
+                <PlanCta plan={plan} period={period} periods={periods} lang={lang} comingSoon={plans.comingSoon} />
               </div>
             ))}
           </div>
@@ -128,9 +128,10 @@ function ComingSoon({ label }: { label: string }) {
  * somebody to sign up for a plan that is not on sale is the sort of thing a
  * "coming soon" flag exists to prevent.
  */
-function PlanCta({ plan, period, lang, comingSoon, featured }: {
+function PlanCta({ plan, period, periods, lang, comingSoon, featured }: {
   plan: CatalogPlan
   period: BillingPeriodDef
+  periods: BillingPeriodDef[]
   lang: Lang
   comingSoon: string
   featured?: boolean
@@ -139,7 +140,7 @@ function PlanCta({ plan, period, lang, comingSoon, featured }: {
     ? 'mt-4 inline-flex h-10 items-center justify-center rounded-lg text-[13.5px] font-semibold transition-colors'
     : 'mt-3 inline-flex h-9 items-center justify-center rounded-lg border border-line-2 bg-surface text-[13px] font-semibold text-ink transition-colors'
 
-  if (!isPurchasable(plan, period)) {
+  if (!purchasableAt(plan, period.id, periods)) {
     return (
       <span className={cn(base, 'cursor-default border border-line bg-inset text-ink-3')} aria-disabled="true">
         {comingSoon}
@@ -198,7 +199,7 @@ function TierCard({ plan, period, catalog, c }: {
       )}
 
       <p className="mt-3 flex-1 border-t border-line pt-3 text-[13px] leading-relaxed text-ink-2">{say(plan.entitlement, lang)}</p>
-      <PlanCta plan={plan} period={period} lang={lang} comingSoon={plans.comingSoon} featured />
+      <PlanCta plan={plan} period={period} periods={catalog.periods} lang={lang} comingSoon={plans.comingSoon} featured />
     </div>
   )
 }
