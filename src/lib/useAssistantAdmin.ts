@@ -28,8 +28,28 @@ export interface AssistantPlanInUse {
   configured: boolean
 }
 
+/** A provider the assistant can be pointed at, and whether it is ready. */
+export interface AssistantProvider {
+  id: string
+  label: string
+  kind: 'openai' | 'anthropic' | 'gemini'
+  defaultBaseUrl: string | null
+  consoleUrl: string | null
+  suggested: string[]
+  /** True for a custom endpoint, which has no default URL to fall back on. */
+  requiresBaseUrl: boolean
+  keyHint: string | null
+  hasStoredKey: boolean
+  hasEnvKey: boolean
+}
+
 export interface AssistantSettings {
   enabled: boolean
+  provider: string
+  providers: AssistantProvider[]
+  baseUrl: string
+  /** What the server will actually call, once the default is applied. */
+  resolvedBaseUrl: string | null
   model: string
   maxTokens: number
   temperature: number
@@ -51,14 +71,25 @@ export interface AssistantUsage {
   heaviest: { userId: string; email: string | null; messages: number }[]
 }
 
+export interface AssistantModelList {
+  provider: string
+  models: string[]
+  suggested: string[]
+  warning?: string
+}
+
 export interface AssistantSettingsPatch {
   enabled?: boolean
+  provider?: string
+  baseUrl?: string
   model?: string
   maxTokens?: number
   temperature?: number
   extraPrompt?: string
   /** Empty string clears the stored key and falls back to the environment. */
   apiKey?: string
+  /** Which provider the key belongs to. Defaults to the one being saved. */
+  keyProvider?: string
 }
 
 /** The server's error code, turned into a sentence an admin can act on. */
@@ -66,6 +97,10 @@ const MESSAGES: Record<string, string> = {
   key_storage_unavailable:
     'ASSISTANT_KEY_SECRET is not set on the server, so a key cannot be stored. Set it and restart, or supply ANTHROPIC_API_KEY in the environment instead.',
   invalid_api_key: 'That does not look like an API key.',
+  invalid_provider: 'Unknown provider.',
+  invalid_base_url: 'Enter a full http(s) URL, or leave it empty to use the provider default.',
+  no_base_url: 'This provider needs a base URL before it can be reached.',
+  unconfigured: 'No API key is set for that provider yet.',
   invalid_model: 'Enter a model id.',
   invalid_max_tokens: 'Answer length must be between 100 and 4000 tokens.',
   invalid_temperature: 'Temperature must be between 0 and 1.',
@@ -88,6 +123,8 @@ export function useAssistantAdmin() {
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState('')
   const [notice, setNotice] = useState('')
+  const [models, setModels] = useState<AssistantModelList | null>(null)
+  const [modelsLoading, setModelsLoading] = useState(false)
 
   const load = useCallback(async () => {
     if (!API_MODE) { setLoading(false); return }
@@ -141,11 +178,38 @@ export function useAssistantAdmin() {
     [mutate],
   )
 
+  /**
+   * Ask a provider what it will accept today.
+   *
+   * Kept out of `mutate` because it changes nothing and must not report
+   * "Saved." — and because it is the one call here that can fail for a reason
+   * that is not the admin's fault, so it reports its own trouble.
+   */
+  const loadModels = useCallback(async (provider: string) => {
+    setModelsLoading(true)
+    setModels(null)
+    try {
+      const list = await apiGet<AssistantModelList>(`/admin/assistant/models?provider=${encodeURIComponent(provider)}`)
+      setModels(list)
+      if (list.warning) setError(`Could not list models: ${list.warning}`)
+      return list
+    } catch (cause) {
+      setError(await readError(cause))
+      return null
+    } finally {
+      setModelsLoading(false)
+    }
+  }, [])
+
   const removeTier = useCallback(
     (plan: string) =>
       mutate(() => apiDelete<AssistantSettings>(`/admin/assistant/tiers/${encodeURIComponent(plan)}`), 'Tier removed.'),
     [mutate],
   )
 
-  return { settings, usage, loading, saving, error, notice, setNotice, save, saveTier, removeTier, reload: load, live: API_MODE }
+  return {
+    settings, usage, loading, saving, error, notice, setNotice,
+    save, saveTier, removeTier, reload: load, live: API_MODE,
+    models, modelsLoading, loadModels,
+  }
 }

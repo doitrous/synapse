@@ -1,6 +1,11 @@
 import { createCipheriv, createDecipheriv, randomBytes, scryptSync } from 'node:crypto'
 import { pool } from './db.js'
 import { entitlementOf } from './accounts.js'
+import {
+  PROVIDER_IDS, providerDef, resolveBaseUrl, envKeyFor,
+  buildChatRequest, parseChatResponse, buildModelsRequest, parseModelsResponse,
+  publicProviders,
+} from './assistantProviders.js'
 
 /**
  * The student-facing study assistant.
@@ -22,9 +27,6 @@ import { entitlementOf } from './accounts.js'
  * See `docs/assistant-design.md` for the intent contract this implements and
  * `docs/assistant-testing.md` for the scenarios it must pass.
  */
-
-const ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages'
-const ANTHROPIC_VERSION = '2023-06-01'
 
 /** Conversation turns kept in context. Beyond this the oldest are dropped. */
 const MAX_TURNS = 12
@@ -115,6 +117,20 @@ export function decryptKey(stored) {
 
 async function ensureRows(conn = pool) {
   await conn.query('INSERT IGNORE INTO assistant_settings (id) VALUES (1)')
+  // The single key predates per-provider keys. Move it across once, under the
+  // provider that was selected when it was saved, so an existing install keeps
+  // working across the upgrade without an admin re-entering anything.
+  const [legacy] = await conn.query(
+    'SELECT provider, api_key_enc, key_hint FROM assistant_settings WHERE id = 1 AND api_key_enc IS NOT NULL',
+  )
+  if (legacy.length) {
+    await conn.query(
+      `INSERT IGNORE INTO assistant_provider_keys (provider, api_key_enc, key_hint)
+       VALUES (?, ?, ?)`,
+      [legacy[0].provider || 'anthropic', legacy[0].api_key_enc, legacy[0].key_hint],
+    )
+    await conn.query('UPDATE assistant_settings SET api_key_enc = NULL, key_hint = NULL WHERE id = 1')
+  }
   for (const tier of DEFAULT_TIER_LIMITS) {
     await conn.query(
       'INSERT IGNORE INTO assistant_tier_limits (plan, label, daily_messages, enabled) VALUES (?, ?, ?, ?)',
@@ -128,19 +144,30 @@ async function readSettings() {
   await ensureRows()
   const [rows] = await pool.query('SELECT * FROM assistant_settings WHERE id = 1')
   const row = rows[0] ?? {}
-  const stored = row.api_key_enc ? decryptKey(row.api_key_enc) : null
+  const provider = PROVIDER_IDS.includes(row.provider) ? row.provider : 'anthropic'
+
+  const [keys] = await pool.query(
+    'SELECT api_key_enc, key_hint FROM assistant_provider_keys WHERE provider = ?',
+    [provider],
+  )
+  const stored = keys[0]?.api_key_enc ? decryptKey(keys[0].api_key_enc) : null
+  const fromEnv = envKeyFor(provider)
+
   return {
     enabled: Boolean(row.enabled),
-    model: row.model || 'claude-sonnet-5',
+    provider,
+    model: row.model || (providerDef(provider).suggested[0] ?? ''),
+    baseUrl: row.base_url || '',
+    resolvedBaseUrl: resolveBaseUrl(provider, row.base_url),
     maxTokens: Number(row.max_tokens) || 700,
     temperature: Number(row.temperature ?? 0.3),
     extraPrompt: row.extra_prompt || '',
-    keyHint: row.key_hint || null,
-    keySource: stored ? 'stored' : (process.env.ANTHROPIC_API_KEY ? 'environment' : 'none'),
+    keyHint: keys[0]?.key_hint || null,
+    keySource: stored ? 'stored' : (fromEnv ? 'environment' : 'none'),
     // A stored key that will not decrypt must not silently fall through to the
     // environment without the admin being told, so this is reported separately.
-    keyUnreadable: Boolean(row.api_key_enc) && !stored,
-    apiKey: stored || process.env.ANTHROPIC_API_KEY || null,
+    keyUnreadable: Boolean(keys[0]?.api_key_enc) && !stored,
+    apiKey: stored || fromEnv || null,
   }
 }
 
@@ -154,8 +181,22 @@ export async function adminSettings() {
       WHERE s.status <> 'cancelled' AND (s.expires_at IS NULL OR s.expires_at > NOW())
       GROUP BY s.plan`,
   )
+  // Which providers already hold a key, so the screen can show at a glance
+  // what is set up and what switching to it would still need.
+  const [configured] = await pool.query('SELECT provider, key_hint FROM assistant_provider_keys')
+  const providers = publicProviders().map((entry) => {
+    const stored = configured.find((row) => row.provider === entry.id)
+    return {
+      ...entry,
+      keyHint: stored?.key_hint ?? null,
+      hasStoredKey: Boolean(stored),
+      hasEnvKey: Boolean(envKeyFor(entry.id)),
+    }
+  })
+
   return {
     ...safe,
+    providers,
     keyStorageAvailable: keyStorageAvailable(),
     tiers: tiers.map((t) => ({
       plan: t.plan, label: t.label, dailyMessages: t.daily_messages, enabled: Boolean(t.enabled),
@@ -176,6 +217,19 @@ export async function saveSettings(patch, actorId) {
   const values = []
 
   if (patch.enabled !== undefined) { fields.push('enabled = ?'); values.push(patch.enabled ? 1 : 0) }
+  if (patch.provider !== undefined) {
+    if (!PROVIDER_IDS.includes(patch.provider)) return { error: 'invalid_provider' }
+    fields.push('provider = ?'); values.push(patch.provider)
+  }
+  if (patch.baseUrl !== undefined) {
+    const url = String(patch.baseUrl).trim().replace(/\/+$/, '')
+    // Only http(s), and only an absolute URL: this string becomes the host the
+    // server sends an API key to, so a typo that resolves somewhere unexpected
+    // is a leaked key rather than a broken page.
+    if (url && !/^https?:\/\/[^\s]+$/i.test(url)) return { error: 'invalid_base_url' }
+    if (url.length > 300) return { error: 'invalid_base_url' }
+    fields.push('base_url = ?'); values.push(url || null)
+  }
   if (patch.model !== undefined) {
     const model = String(patch.model).trim()
     if (!model || model.length > 120) return { error: 'invalid_model' }
@@ -196,22 +250,37 @@ export async function saveSettings(patch, actorId) {
     if (text.length > 4000) return { error: 'prompt_too_long' }
     fields.push('extra_prompt = ?'); values.push(text || null)
   }
+  if (fields.length) {
+    fields.push('updated_by = ?'); values.push(actorId ?? null)
+    await pool.query(`UPDATE assistant_settings SET ${fields.join(', ')} WHERE id = 1`, values)
+  }
+
+  // The key is written against a provider, not against the settings row — and
+  // against the provider this patch selects, so setting provider and key in one
+  // save stores the key where it will actually be read from.
   if (patch.apiKey !== undefined) {
+    const [current] = await pool.query('SELECT provider FROM assistant_settings WHERE id = 1')
+    const target = PROVIDER_IDS.includes(patch.keyProvider)
+      ? patch.keyProvider
+      : (current[0]?.provider || 'anthropic')
     const raw = String(patch.apiKey).trim()
+
     if (raw === '') {
       // Clearing falls back to the environment key rather than disabling —
       // the two are different intentions and only one of them is destructive.
-      fields.push('api_key_enc = ?', 'key_hint = ?'); values.push(null, null)
+      await pool.query('DELETE FROM assistant_provider_keys WHERE provider = ?', [target])
     } else {
       if (!keyStorageAvailable()) return { error: 'key_storage_unavailable' }
       if (raw.length < 20) return { error: 'invalid_api_key' }
-      fields.push('api_key_enc = ?', 'key_hint = ?'); values.push(encryptKey(raw), raw.slice(-4))
+      await pool.query(
+        `INSERT INTO assistant_provider_keys (provider, api_key_enc, key_hint, updated_by)
+         VALUES (?, ?, ?, ?)
+         ON DUPLICATE KEY UPDATE api_key_enc = VALUES(api_key_enc), key_hint = VALUES(key_hint), updated_by = VALUES(updated_by)`,
+        [target, encryptKey(raw), raw.slice(-4), actorId ?? null],
+      )
     }
   }
 
-  if (!fields.length) return adminSettings()
-  fields.push('updated_by = ?'); values.push(actorId ?? null)
-  await pool.query(`UPDATE assistant_settings SET ${fields.join(', ')} WHERE id = 1`, values)
   return adminSettings()
 }
 
@@ -379,35 +448,48 @@ async function refundMessage(userId) {
   )
 }
 
+/**
+ * Token counts, in the one shape this table stores.
+ *
+ * Each provider names these differently — `input_tokens`, `prompt_tokens`,
+ * `promptTokenCount` — so they are normalised by the provider adapter before
+ * they reach here, and this only ever sees `inputTokens` / `outputTokens`.
+ */
 async function recordTokens(userId, usage) {
   if (!usage) return
   await pool.query(
     `UPDATE assistant_usage SET input_tokens = input_tokens + ?, output_tokens = output_tokens + ?
       WHERE user_id = ? AND day = CURDATE()`,
-    [Number(usage.input_tokens) || 0, Number(usage.output_tokens) || 0, userId],
+    [Number(usage.inputTokens) || 0, Number(usage.outputTokens) || 0, userId],
   )
 }
 
 async function callModel({ settings, system, messages }) {
-  const body = {
-    model: settings.model,
-    max_tokens: settings.maxTokens,
-    temperature: settings.temperature,
-    system,
-    messages,
+  let request
+  try {
+    request = buildChatRequest({
+      provider: settings.provider,
+      model: settings.model,
+      system,
+      messages,
+      maxTokens: settings.maxTokens,
+      temperature: settings.temperature,
+      apiKey: settings.apiKey,
+      baseUrl: settings.baseUrl,
+    })
+  } catch (cause) {
+    // A custom provider with no base URL is a configuration fault, and saying
+    // so beats letting `fetch` fail on the string "undefined/chat/completions".
+    return { ok: false, status: 503, detail: String(cause?.message ?? cause) }
   }
 
   // One retry, and only for the failures a retry can fix. A 400 is a bad
   // request and will be bad again; a 401 is a wrong key and will be wrong again.
   for (let attempt = 0; attempt < 2; attempt += 1) {
-    const response = await fetch(ANTHROPIC_URL, {
+    const response = await fetch(request.url, {
       method: 'POST',
-      headers: {
-        'content-type': 'application/json',
-        'x-api-key': settings.apiKey,
-        'anthropic-version': ANTHROPIC_VERSION,
-      },
-      body: JSON.stringify(body),
+      headers: request.headers,
+      body: JSON.stringify(request.body),
       signal: AbortSignal.timeout(60_000),
     })
 
@@ -421,6 +503,50 @@ async function callModel({ settings, system, messages }) {
     await new Promise((resolve) => setTimeout(resolve, 700))
   }
   return { ok: false, status: 500, detail: 'unreachable' }
+}
+
+/**
+ * The models this provider will currently accept.
+ *
+ * Asked of the provider rather than kept in a list here, because model ids are
+ * renamed and retired faster than any hardcoded list survives, and an admin
+ * choosing from a stale list picks a model that 404s at the first question.
+ */
+export async function listModels(providerOverride) {
+  const settings = await readSettings()
+  const provider = PROVIDER_IDS.includes(providerOverride) ? providerOverride : settings.provider
+
+  // Listing a provider that is not the active one still needs that provider's
+  // own key, not the active one's.
+  let apiKey = settings.apiKey
+  if (provider !== settings.provider) {
+    const [rows] = await pool.query(
+      'SELECT api_key_enc FROM assistant_provider_keys WHERE provider = ?',
+      [provider],
+    )
+    apiKey = (rows[0]?.api_key_enc ? decryptKey(rows[0].api_key_enc) : null) || envKeyFor(provider)
+  }
+  if (!apiKey) return { error: 'unconfigured', status: 503, provider }
+
+  let request
+  try {
+    request = buildModelsRequest({ provider, apiKey, baseUrl: provider === settings.provider ? settings.baseUrl : '' })
+  } catch (cause) {
+    return { error: 'no_base_url', status: 400, detail: String(cause?.message ?? cause) }
+  }
+
+  try {
+    const response = await fetch(request.url, { headers: request.headers, signal: AbortSignal.timeout(20_000) })
+    if (!response.ok) {
+      return { error: 'upstream_error', status: response.status === 401 ? 503 : 502, detail: (await response.text().catch(() => '')).slice(0, 300) }
+    }
+    const models = parseModelsResponse(provider, await response.json())
+    return { provider, models, suggested: providerDef(provider).suggested }
+  } catch (cause) {
+    // Not every OpenAI-compatible server implements /models. Falling back to the
+    // suggestions keeps the screen usable instead of dead-ending.
+    return { provider, models: [], suggested: providerDef(provider).suggested, warning: String(cause?.message ?? cause).slice(0, 200) }
+  }
 }
 
 /**
@@ -487,12 +613,8 @@ export async function chat(identity, { messages, lang, context }) {
     }
   }
 
-  await recordTokens(identity.id, result.data.usage)
-  const text = (result.data.content ?? [])
-    .filter((block) => block.type === 'text')
-    .map((block) => block.text)
-    .join('\n')
-    .trim()
+  const { text, usage } = parseChatResponse(settings.provider, result.data)
+  await recordTokens(identity.id, usage)
 
   return {
     reply: text || null,

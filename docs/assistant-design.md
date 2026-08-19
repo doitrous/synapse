@@ -137,7 +137,8 @@ on, which is the defect the validator's `[FALLBACK]` node check exists to catch.
 | No invented prices or policy | Pricing and refund questions are answered from the pricing page's own FAQ, passed in as grounding |
 | No curriculum claim | It never asserts a specific university's syllabus |
 | Quota | Enforced server-side before the model is called, never in the client |
-| Key safety | The API key never reaches the browser; the chat route runs on the server |
+| Key safety | API keys never reach the browser; the chat route runs on the server. One key per provider, each encrypted at rest |
+| Provider independence | Three wire adapters (OpenAI-compatible, Anthropic, Gemini) in `server/src/assistantProviders.js`. Adding a provider is a registry entry, not a new code path |
 
 ---
 
@@ -173,6 +174,9 @@ assistant as an Adaptive-only feature.
 - **No conversation history in the database.** Turns live in the session only.
   Storing student questions about their own weak points creates a sensitive
   record with no product use yet; aggregate usage is stored instead.
+- **No streaming across providers.** Each of the three formats streams
+  differently; the non-streaming path is one adapter per format and is what the
+  quota model assumes. Streaming is additive when it is wanted.
 - **No retrieval over the whole library yet.** The assistant is grounded on a
   compact context (the student's schedule, their weak subjects, the pricing FAQ,
   the platform how-tos). Full retrieval over `medical-library-v1.json` is the

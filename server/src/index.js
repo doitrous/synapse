@@ -25,6 +25,7 @@ import {
   saveTierLimit as assistantSaveTierLimit,
   deleteTierLimit as assistantDeleteTierLimit,
   usageSummary as assistantUsage,
+  listModels as assistantModels,
 } from './assistant.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
@@ -1382,6 +1383,14 @@ app.delete('/api/admin/assistant/tiers/:plan', requireAdmin, wrap(async (req, re
 
 app.get('/api/admin/assistant/usage', requireAdmin, wrap(async (req, res) => {
   res.json(await assistantUsage({ days: req.query.days }))
+}))
+
+// Asked of the provider, so the model list is what it will actually accept
+// today rather than what was true when this was written.
+app.get('/api/admin/assistant/models', requireAdmin, wrap(async (req, res) => {
+  const result = await assistantModels(req.query.provider)
+  if (result.error) return res.status(result.status ?? 502).json(result)
+  return res.json(result)
 }))
 
 const PUBLIC_DIR = process.env.PUBLIC_DIR || join(__dirname, '..', 'public')

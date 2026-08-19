@@ -35,16 +35,49 @@ Health check: `GET /api/health` → `{ ok: true }`.
   `POST /api/webhooks/resend/inbound`.
 - Study assistant: `GET /api/assistant/status`, `POST /api/assistant/chat` (student);
   `GET/PUT /api/admin/assistant`, `PUT/DELETE /api/admin/assistant/tiers/:plan`,
-  `GET /api/admin/assistant/usage` (admin).
+  `GET /api/admin/assistant/usage`, `GET /api/admin/assistant/models` (admin).
 
 ## Study assistant
 
-Off until an admin turns it on at **Admin → AI Assistant**. Two env vars:
+Off until an admin turns it on at **Admin → AI Assistant**, where the provider,
+the model, the key and the per-plan limits are all set.
+
+### Providers
+
+| Provider | Wire format | Base URL |
+|---|---|---|
+| Groq | OpenAI-compatible | `https://api.groq.com/openai/v1` |
+| OpenAI | OpenAI | `https://api.openai.com/v1` |
+| Anthropic (Claude) | Anthropic | `https://api.anthropic.com/v1` |
+| Google (Gemini) | Gemini | `https://generativelanguage.googleapis.com/v1beta` |
+| xAI (Grok) | OpenAI-compatible | `https://api.x.ai/v1` |
+| OpenRouter | OpenAI-compatible | `https://openrouter.ai/api/v1` |
+| Custom | OpenAI-compatible | whatever you give it |
+
+A key is stored **per provider**, so switching between them to compare does not
+mean pasting keys back in. The base URL can be overridden on any provider to
+route through a proxy, and is required for `custom`.
+
+The model is a free-text field with a **Load models** button that asks the
+provider what it currently accepts — model ids churn faster than any hardcoded
+list, and a stale list means picking a model that 404s at the first question.
+
+### Environment
 
 | Var | Required | What it does |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | No | Fallback key, used when no key has been saved from the admin screen |
-| `ASSISTANT_KEY_SECRET` | To store a key | 16+ characters. Wraps the API key at rest (AES-256-GCM). Without it, the admin screen refuses to save a key rather than writing one in plaintext |
+| `ASSISTANT_KEY_SECRET` | To store a key | 16+ characters. Wraps API keys at rest (AES-256-GCM). Without it, the admin screen refuses to save a key rather than writing one in plaintext |
+| `GROQ_API_KEY` | No | Fallback key for Groq |
+| `OPENAI_API_KEY` | No | Fallback key for OpenAI |
+| `ANTHROPIC_API_KEY` | No | Fallback key for Anthropic |
+| `GEMINI_API_KEY` / `GOOGLE_API_KEY` | No | Fallback key for Gemini |
+| `XAI_API_KEY` / `GROK_API_KEY` | No | Fallback key for Grok |
+| `OPENROUTER_API_KEY` | No | Fallback key for OpenRouter |
+| `ASSISTANT_API_KEY` | No | Fallback key for a custom endpoint |
+
+A per-provider environment key is used only when no key has been saved for that
+provider from the admin screen. A key for one provider is never offered to
+another.
 
 The key is never returned to any client — the admin screen sees its last four
 characters and where it came from. Rotating `ASSISTANT_KEY_SECRET` makes a
