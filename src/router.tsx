@@ -51,6 +51,8 @@ function HandOver({ origin }: { origin: string }): ReactElement {
 
 const Landing = lazyNamed(() => import('@/pages/Landing'), 'Landing')
 const LandingAr = lazyNamed(() => import('@/pages/LandingAr'), 'LandingAr')
+const PricingEn = lazyNamed(() => import('@/pages/PricingEn'), 'PricingEn')
+const PricingAr = lazyNamed(() => import('@/pages/PricingAr'), 'PricingAr')
 const NotFound = lazyNamed(() => import('@/pages/NotFound'), 'NotFound')
 const Placeholder = lazyNamed(() => import('@/pages/Placeholder'), 'Placeholder')
 
@@ -89,6 +91,7 @@ const AuditSecurity = lazyNamed(() => import('@/pages/admin/AuditSecurity'), 'Au
 const MedicalCoverageReview = lazyNamed(() => import('@/pages/admin/MedicalCoverageReview'), 'MedicalCoverageReview')
 const ReportsReview = lazyNamed(() => import('@/pages/admin/ReportsReview'), 'ReportsReview')
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
+const AssistantSetup = lazyNamed(() => import('@/pages/admin/AssistantSetup'), 'AssistantSetup')
 const NotificationCampaigns = lazyNamed(() => import('@/pages/admin/NotificationCampaigns'), 'NotificationCampaigns')
 const BulkImportPage = lazyNamed(() => import('@/pages/admin/BulkImportPage'), 'BulkImportPage')
 const ConceptsSetup = lazyNamed(() => import('@/pages/admin/ConceptsSetup'), 'ConceptsSetup')
@@ -162,10 +165,11 @@ const adminBuilt: Record<string, ReactElement> = {
   privacy: render(PrivacySupport),
   settings: render(AdminSettings),
   audit: render(AuditSecurity),
+  assistant: render(AssistantSetup),
 }
 
 const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
@@ -218,6 +222,12 @@ export const router = createBrowserRouter([
   { path: '/', element: adminHost ? <Navigate to="/admin" replace /> : render(Landing) },
   { path: '/en', element: adminHost ? toStudentSite : render(Landing) },
   { path: '/ar', element: adminHost ? toStudentSite : render(LandingAr) },
+  // Pricing is its own page rather than an anchor on the landing page: it is
+  // what people search for by name, and a section cannot carry a title, a
+  // description, or the answered objections that close the decision.
+  { path: '/pricing', element: adminHost ? toStudentSite : render(PricingEn) },
+  { path: '/en/pricing', element: adminHost ? toStudentSite : <Navigate to="/pricing" replace /> },
+  { path: '/ar/pricing', element: adminHost ? toStudentSite : render(PricingAr) },
   // Auth stays on both origins: RequireAuth sends a signed-out admin to /login, and
   // a session lives per-origin, so the admin domain needs its own way in.
   { path: '/login', element: render(Login) },
