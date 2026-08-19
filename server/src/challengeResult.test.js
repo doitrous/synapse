@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { bothFinished, headToHead } from './challengeResult.js'
+import { bothFinished, headToHead, sideOf } from './challengeResult.js'
 
 test('a challenge is only finished when both sides are', () => {
   assert.equal(bothFinished({ challengerFinishedAt: null, opponentFinishedAt: null }), false)
@@ -52,4 +52,15 @@ test('an untimed answer counts as no time rather than breaking the total', () =>
   const result = headToHead(challenge, answers)
   assert.equal(result.challenger.seconds, 12)
   assert.equal(result.challenger.answered, 2)
+})
+
+test('each participant is told which side they are on', () => {
+  const row = { challengerId: 'a', opponentId: 'b' }
+  assert.equal(sideOf(row, 'a'), 'challenger')
+  assert.equal(sideOf(row, 'b'), 'opponent')
+})
+
+test('a stranger cannot tell a challenge apart from one that does not exist', () => {
+  assert.equal(sideOf({ challengerId: 'a', opponentId: 'b' }, 'c'), null)
+  assert.equal(sideOf(null, 'c'), null)
 })

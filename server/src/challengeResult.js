@@ -40,3 +40,17 @@ export function headToHead(challenge, answers) {
     })),
   }
 }
+
+/**
+ * Which side of a challenge this student is on, or null if neither.
+ *
+ * Null is what a non-participant gets, and it is deliberately the same answer a
+ * challenge that does not exist gets: whether one exists is not something a
+ * stranger should be able to probe by trying ids.
+ */
+export function sideOf(row, userId) {
+  if (!row) return null
+  if (row.challengerId === userId) return 'challenger'
+  if (row.opponentId === userId) return 'opponent'
+  return null
+}

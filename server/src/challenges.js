@@ -10,7 +10,7 @@
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { orderedPair } from './friendship.js'
-import { bothFinished, headToHead } from './challengeResult.js'
+import { bothFinished, headToHead, sideOf } from './challengeResult.js'
 
 const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
 
@@ -74,13 +74,6 @@ async function areFriends(a, b) {
  * challenge gets exactly what they'd get for an id that doesn't exist —
  * whether a challenge exists between two other people is not theirs to probe.
  */
-function sideOf(row, userId) {
-  if (!row) return null
-  if (row.challengerId === userId) return 'challenger'
-  if (row.opponentId === userId) return 'opponent'
-  return null
-}
-
 function parseQuestionIds(raw) {
   try {
     const parsed = JSON.parse(raw)
