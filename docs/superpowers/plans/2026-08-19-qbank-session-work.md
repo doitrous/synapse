@@ -1518,8 +1518,15 @@ In the runner header, the reviewing branch now honours where the view came from:
 And in the footer, the "Finish review" button:
 
 ```tsx
-              onClick={() => { if (!reviewing) commitAnswers(); setPhase(reviewing ? reviewReturn : 'results') }}
+              onClick={() => {
+                if (!reviewing) { commitAnswers(); setSubmitted(true) }
+                setPhase(reviewing ? reviewReturn : 'results')
+              }}
 ```
+
+Keep the `setSubmitted(true)` that Task 5 Step 4b added — only the `setPhase`
+argument changes here. Dropping it would let a finished sitting go on offering
+itself to resume, which is the bug Step 4b exists to prevent.
 
 - [ ] **Step 5: Add the tab**
 
