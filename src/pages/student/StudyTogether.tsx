@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -9,7 +9,7 @@ import { Avatar } from '@/components/ui/Avatar'
 import { Meter } from '@/components/ui/Meter'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Field, TextInput } from '@/components/ui/Field'
-import { Segmented } from '@/components/ui/Tabs'
+import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import type { Question } from '@/data/qbank'
@@ -19,6 +19,8 @@ import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useMastery } from '@/lib/useMastery'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { ROOM_REFUSALS, useMyRooms, useRoom, useStudyRoomActions } from '@/lib/useStudyRooms'
+import { useFriends, type FriendProfile } from '@/lib/useFriends'
+import { FriendsPanel } from '@/components/social/FriendsPanel'
 import { API_MODE } from '@/lib/api'
 import { formatRelativeTime } from '@/lib/format'
 import { cn } from '@/lib/cn'
@@ -308,6 +310,7 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
  */
 export function StudyTogether() {
   const t = useT()
+  const [tab, setTab] = useState<'tests' | 'friends'>('tests')
   const questions = usePublishedQuestions()
   const { rooms, reload: reloadRooms } = useMyRooms()
   const { create, join } = useStudyRoomActions()
@@ -327,20 +330,12 @@ export function StudyTogether() {
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = questionsInScope(questions, scope, libraryTopics)
 
-  if (!API_MODE) {
-    return (
-      <PageContainer>
-        <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates.')} />
-        <Panel className="p-10">
-          <EmptyState
-            icon={Users}
-            title={t('Shared tests need the backend')}
-            description={t('A shared test lives on the server so other people can join it by code. Connect the backend to create one.')}
-          />
-        </Panel>
-      </PageContainer>
-    )
-  }
+  const { friends, incoming, outgoing, respond, remove } = useFriends()
+
+  // Tasks 6 and 9 land the real behaviour here — a shared test invite and a
+  // challenge dialog. For now these just give the panel somewhere to call.
+  const handleStudyTogether = useCallback((_friend: FriendProfile) => {}, [])
+  const handleChallenge = useCallback((_friend: FriendProfile) => {}, [])
 
   if (openRoomId) {
     return (
@@ -377,10 +372,15 @@ export function StudyTogether() {
   const open = rooms.filter((room) => room.status !== 'closed')
   const past = rooms.filter((room) => room.status === 'closed')
 
-  return (
-    <PageContainer>
-      <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates, then compare results.')} />
-
+  const testsContent = !API_MODE ? (
+    <Panel className="p-10">
+      <EmptyState
+        icon={Users}
+        title={t('Shared tests need the backend')}
+        description={t('A shared test lives on the server so other people can join it by code. Connect the backend to create one.')}
+      />
+    </Panel>
+  ) : (
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.3fr)_minmax(18rem,0.7fr)]">
         <Panel>
           <PanelHeader title={t('Create a shared test')} icon={Plus} />
@@ -496,6 +496,46 @@ export function StudyTogether() {
           </Panel>
         </div>
       </div>
+  )
+
+  const friendsContent = !API_MODE ? (
+    <Panel className="p-10">
+      <EmptyState
+        icon={Users}
+        title={t('Friends need the backend')}
+        description={t('Friend requests live on the server so both people can see them. Connect the backend to add friends.')}
+      />
+    </Panel>
+  ) : (
+    <FriendsPanel
+      friends={friends}
+      incoming={incoming}
+      outgoing={outgoing}
+      onRespond={respond}
+      onRemove={remove}
+      onStudyTogether={handleStudyTogether}
+      onChallenge={handleChallenge}
+    />
+  )
+
+  return (
+    <PageContainer>
+      <PageHeader
+        title={t('Study Together')}
+        description={API_MODE ? t('Sit the same set of questions as your classmates, then compare results.') : t('Sit the same set of questions as your classmates.')}
+      />
+
+      <Tabs
+        className="mb-4"
+        value={tab}
+        onChange={(value) => setTab(value as 'tests' | 'friends')}
+        items={[
+          { value: 'tests', label: t('Shared tests') },
+          { value: 'friends', label: t('Friends') },
+        ]}
+      />
+
+      {tab === 'tests' ? testsContent : friendsContent}
     </PageContainer>
   )
 }
