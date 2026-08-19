@@ -436,6 +436,24 @@
 @utility animate-slide-x {
   animation: cortex-slide-x 0.24s var(--ease-out-quint) backwards;
 }
+
+/* The push into the eyepiece, played as stepped stills rather than a video.
+   Eighteen frames on one strip: one request, exact control of where it stops,
+   and it lands on the white field the slide then appears in. `forwards` holds
+   that last frame — without it the strip would snap back to the instrument the
+   moment the animation ended. The global reduced-motion guard collapses the
+   duration, so a student who asked for less motion arrives at the same white
+   field without the journey. */
+@keyframes cortex-microscope-focus {
+  /* The shorthand, not `background-position-x`: the longhand does not animate
+     reliably when no shorthand has been set on the element, and it silently
+     does nothing rather than failing loudly. */
+  from { background-position: 0 0; }
+  to { background-position: -5760px 0; }
+}
+@utility animate-microscope-focus {
+  animation: cortex-microscope-focus 1.25s steps(18) forwards;
+}
 /* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */
 [dir="rtl"] .animate-slide-x {
   animation-name: cortex-slide-x-rtl;

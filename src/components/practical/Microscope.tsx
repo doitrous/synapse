@@ -1,18 +1,24 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Search } from 'lucide-react'
+import { Microscope as MicroscopeIcon } from 'lucide-react'
 import type { HistologySlide } from '@/data/histology'
 import { useLiveHistology } from '@/lib/useLiveHistology'
 import { subjects, getSubject } from '@/data/subjects'
-import { Dialog } from '@/components/ui/Dialog'
-import { PanelHeader } from '@/components/ui/Panel'
+import { Panel } from '@/components/ui/Panel'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SystemMark } from '@/components/ui/SystemMark'
+import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 const POSTER = '/microscope/focus-poster.jpg'
-const VIDEO = '/microscope/focus.mp4'
+const STRIP = '/microscope/focus-strip.jpg'
 
-type Stage = 'idle' | 'picking' | 'focusing'
+/** Frames on the strip, and the width of one. The CSS steps() must agree. */
+const FRAMES = 18
+const FRAME_PX = 320
+/** Must match `animate-microscope-focus` in index.css. */
+const FOCUS_MS = 1250
+
+type Stage = 'choosing' | 'focusing'
 
 /** Slides grouped by subject, catalogue order first, then anything unrecognised. */
 function groupBySubject(slides: HistologySlide[]) {
@@ -29,120 +35,136 @@ function groupBySubject(slides: HistologySlide[]) {
 }
 
 /**
- * The instrument that opens the histology viewer.
+ * The instrument, and what is on the bench beside it.
  *
- * Three stages, not a boolean: idle (a button showing the resting microscope),
- * picking (which slide), and focusing (the push-in that lands on it). The
- * order is deliberate — the student commits to a slide *before* the camera
- * moves, because the video is the transition into the eyepiece, not a loading
- * screen in front of one.
+ * The microscope sits at the start of the row and the slides sit next to it,
+ * the way they do on a real bench — you pick one up and put it under the
+ * lens. Choosing a slide runs the push-in, which is played as stepped stills
+ * from one strip rather than a video: it stops exactly on the white field, and
+ * that field is where the slide then appears.
  */
 export function Microscope({ onOpen }: { onOpen: (slide: HistologySlide) => void }) {
   const t = useT()
   const { slides } = useLiveHistology()
-  const [stage, setStage] = useState<Stage>('idle')
+  const [stage, setStage] = useState<Stage>('choosing')
   const [chosen, setChosen] = useState<HistologySlide | null>(null)
   const groups = useMemo(() => groupBySubject(slides), [slides])
 
-  // Paid for only once a student actually opens the picker — never on mount,
-  // where most students who never touch histology would carry the cost for
-  // nothing.
+  // Fetched when there is something to look at, not on mount. A student who
+  // never opens histology should not pay for a hundred kilobytes of instrument.
   useEffect(() => {
-    if (stage !== 'picking') return
-    const preload = document.createElement('video')
-    preload.preload = 'auto'
-    preload.src = VIDEO
-    preload.load()
-  }, [stage])
+    if (!slides.length) return
+    const image = new Image()
+    image.src = STRIP
+  }, [slides.length])
 
-  const choose = (slide: HistologySlide) => {
-    const reducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false
-    // Reduced motion means no journey, not no destination — the slide still
-    // opens, just without the camera push-in.
-    if (reducedMotion) {
-      setStage('idle')
-      onOpen(slide)
-      return
-    }
-    setStage('focusing')
+  function choose(slide: HistologySlide) {
     setChosen(slide)
+    setStage('focusing')
   }
 
-  const land = () => {
-    if (!chosen) return
-    setStage('idle')
-    setChosen(null)
-    onOpen(chosen)
+  /**
+   * Open the slide even if the animation never says it finished.
+   *
+   * A CSS animation only fires `animationend` while the page is being painted.
+   * A tab in the background — or a browser throttling it — leaves the clock at
+   * zero, and with the transition as the only way through, the student would
+   * sit on a still frame forever. The animation stays the nice path; this is
+   * the one that guarantees they arrive.
+   */
+  useEffect(() => {
+    if (stage !== 'focusing' || !chosen) return
+    const timer = window.setTimeout(() => onOpen(chosen), FOCUS_MS + 250)
+    return () => window.clearTimeout(timer)
+  }, [stage, chosen, onOpen])
+
+  if (stage === 'focusing' && chosen) {
+    return (
+      <div className="grid min-h-[26rem] place-items-center py-10">
+        <div
+          role="img"
+          aria-label={t('Focusing on the slide')}
+          className="animate-microscope-focus size-[min(20rem,72vw)] rounded-full bg-cover shadow-pop"
+          style={{
+            backgroundImage: `url(${STRIP})`,
+            backgroundSize: `${FRAMES * FRAME_PX}px ${FRAME_PX}px`,
+            backgroundRepeat: 'no-repeat',
+          }}
+          onAnimationEnd={() => onOpen(chosen)}
+        />
+        <p className="mt-5 text-[12.5px] text-ink-3">{chosen.title}</p>
+      </div>
+    )
   }
 
   return (
-    <>
-      <button
-        type="button"
-        onClick={() => setStage('picking')}
-        aria-label={t('Choose a slide to look at')}
-        className="group relative block aspect-square w-full max-w-xs overflow-hidden rounded-xl border border-line bg-surface shadow-panel transition-shadow hover:shadow-pop focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
-      >
-        <img src={POSTER} alt="" className="size-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" />
-      </button>
+    <div className="grid items-start gap-4 sm:grid-cols-[minmax(9rem,13rem)_minmax(0,1fr)]">
+      {/* The instrument. It stays put; the slides come to it. */}
+      <Panel className="p-4 text-center sm:sticky sm:top-6">
+        <img
+          src={POSTER}
+          alt=""
+          width={320}
+          height={320}
+          className="mx-auto w-full max-w-[10rem] rounded-lg"
+        />
+        <p className="mt-3 text-[13px] font-semibold text-ink">{t('The microscope')}</p>
+        <p className="mt-1 text-[12px] leading-relaxed text-ink-3">
+          {slides.length
+            ? t('Choose a slide and it goes under the lens.')
+            : t('Nothing to put under it yet.')}
+        </p>
+      </Panel>
 
-      {stage === 'picking' && (
-        <Dialog onClose={() => setStage('idle')} label={t('Choose a slide to look at')} size="lg">
-          <PanelHeader title={t('Choose a slide to look at')} />
-          <div className="max-h-[70vh] overflow-y-auto p-4">
-            {groups.length === 0 ? (
-              <EmptyState
-                icon={Search}
-                title={t('No slides have been published yet.')}
-                description={t('Slides appear here once they are published in the admin console.')}
-              />
-            ) : (
-              <div className="space-y-6">
-                {groups.map((group) => (
-                  <section key={group.key}>
-                    <div className="mb-2.5 flex items-center gap-2 border-b border-line pb-1.5">
-                      <SystemMark subjectId={group.key} size="sm" />
-                      <h2 className="font-serif text-[15px] font-semibold text-ink">{getSubject(group.key).name}</h2>
-                    </div>
-                    <ul className="divide-y divide-line">
-                      {group.slides.map((slide) => (
-                        <li key={slide.id}>
-                          <button
-                            type="button"
-                            onClick={() => choose(slide)}
-                            className="flex w-full flex-wrap items-center gap-x-4 gap-y-1 px-2 py-3 text-start transition-colors hover:bg-inset/60 focus-visible:bg-inset focus-visible:outline-none"
-                          >
-                            <span className="min-w-0 flex-1 text-[14px] font-medium text-ink">{slide.title}</span>
-                            <span className="text-[12.5px] text-ink-3">{slide.tissue}</span>
-                            <span className="text-[12.5px] text-ink-3">·</span>
-                            <span className="text-[12.5px] text-ink-3">{slide.stain}</span>
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
-                  </section>
-                ))}
-              </div>
-            )}
-          </div>
-        </Dialog>
-      )}
-
-      {stage === 'focusing' && (
-        <div className="fixed inset-0 z-50 grid place-items-center bg-ink">
-          <video
-            src={VIDEO}
-            autoPlay
-            muted
-            playsInline
-            onEnded={land}
-            // A codec or network failure must still land the student on the
-            // slide rather than stranding them on a frozen frame.
-            onError={land}
-            className="size-full object-cover"
+      {/* The bench. */}
+      {slides.length === 0 ? (
+        <Panel className="p-10">
+          <EmptyState
+            icon={MicroscopeIcon}
+            title={t('No slides have been published yet.')}
+            description={t('Slides appear here once they are published in the admin console.')}
           />
+        </Panel>
+      ) : (
+        <div className="space-y-4">
+          {groups.map((group) => (
+            <Panel key={group.key} className="overflow-hidden">
+              <div className="flex items-center gap-2 border-b border-line px-4 py-2.5">
+                <SystemMark subjectId={group.key} />
+                <span className="text-[12.5px] font-semibold text-ink">
+                  {group.key === 'unfiled' ? t('Unfiled') : getSubject(group.key).name}
+                </span>
+                <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{group.slides.length}</span>
+              </div>
+              <ul className="divide-y divide-line">
+                {group.slides.map((slide) => (
+                  <li key={slide.id}>
+                    <button
+                      type="button"
+                      onClick={() => choose(slide)}
+                      className={cn(
+                        'flex w-full items-center gap-3 px-4 py-3 text-start transition-colors',
+                        'hover:bg-inset focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-[var(--color-accent)]',
+                      )}
+                    >
+                      <span className="min-w-0 flex-1">
+                        <span className="block truncate text-[13.5px] font-medium text-ink">{slide.title}</span>
+                        <span className="mt-0.5 block truncate text-[12px] text-ink-3">
+                          {slide.tissue}
+                          {slide.stain ? ` · ${slide.stain}` : ''}
+                        </span>
+                      </span>
+                      <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">
+                        {slide.views.map((view) => `${view.objective}×`).join(' · ')}
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </Panel>
+          ))}
         </div>
       )}
-    </>
+    </div>
   )
 }

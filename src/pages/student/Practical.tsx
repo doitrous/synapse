@@ -34,6 +34,11 @@ import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { Meter } from '@/components/ui/Meter'
 import { Tabs } from '@/components/ui/Tabs'
+import { Microscope as MicroscopeIcon } from 'lucide-react'
+import { Microscope } from '@/components/practical/Microscope'
+import { SlideViewer } from '@/components/practical/SlideViewer'
+import { useLiveHistology } from '@/lib/useLiveHistology'
+import type { HistologySlide } from '@/data/histology'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { PracticalRunner } from '@/components/practical/PracticalRunner'
 import type { RunnerTarget } from '@/components/practical/PracticalRunner'
@@ -509,9 +514,21 @@ function OralTab() {
   )
 }
 
+/**
+ * The bench: the instrument, the slides beside it, and what you see once one is
+ * under the lens. Kept apart from the tab so the viewer can take the whole
+ * width without the chooser above it.
+ */
+function HistologyTab() {
+  const [open, setOpen] = useState<HistologySlide | null>(null)
+  if (open) return <SlideViewer slide={open} onClose={() => setOpen(null)} />
+  return <Microscope onOpen={setOpen} />
+}
+
 export function Practical() {
   const t = useT()
   const { osceStations, clinicalCases, labImaging } = useLivePracticals()
+  const { slides } = useLiveHistology()
   const [tab, setTab] = useState('osce')
   const [active, setActive] = useState<RunnerTarget | null>(null)
 
@@ -536,6 +553,7 @@ export function Practical() {
           { value: 'oral', label: 'Oral questions', icon: MessagesSquare, count: oralQuestions.length },
           { value: 'skills', label: 'Skills', icon: ListChecks, count: skills.length },
           { value: 'lab', label: 'Lab & imaging', icon: ScanLine, count: labImaging.length },
+          { value: 'histology', label: 'Histology', icon: MicroscopeIcon, count: slides.length },
         ]}
       />
 
@@ -544,6 +562,7 @@ export function Practical() {
       {tab === 'oral' && <OralTab />}
       {tab === 'skills' && <SkillsTab />}
       {tab === 'lab' && <LabTab onOpen={setActive} />}
+      {tab === 'histology' && <HistologyTab />}
     </PageContainer>
   )
 }
