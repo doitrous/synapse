@@ -34,7 +34,6 @@ export function Signup() {
   async function submit(event: React.FormEvent) {
     event.preventDefault()
     setError('')
-    if (!supabase) return setError('Account creation is prepared but Supabase is not connected yet. Temporary dashboard preview remains available.')
     const cleanName = name.trim()
     const cleanEmail = email.trim().toLowerCase()
     if (cleanName.length < 2) return setError('Enter your full name before continuing.')
@@ -60,6 +59,13 @@ export function Signup() {
     if (conflict) {
       setLoading(false)
       return navigate(signInPathFor(conflict), { state: { notice: CONFLICT_MESSAGE[conflict.field] } })
+    }
+
+    // Checked after the duplicate, not before it: telling somebody they already
+    // have an account is worth doing whether or not sign-up itself is wired up.
+    if (!supabase) {
+      setLoading(false)
+      return setError('Account creation is prepared but Supabase is not connected yet. Temporary dashboard preview remains available.')
     }
 
     const { error: signUpError } = await supabase.auth.signUp({
