@@ -31,3 +31,25 @@ test('a question neither answered is reported as missed by both', () => {
   const result = headToHead(challenge, [])
   assert.deepEqual(result.questions, [{ questionId: 'q1', challengerCorrect: false, opponentCorrect: false }])
 })
+
+test('each side is timed separately', () => {
+  const challenge = { challengerId: 'a', opponentId: 'b', questionIds: ['q1'] }
+  const answers = [
+    { userId: 'a', questionId: 'q1', correct: true, seconds: 10 },
+    { userId: 'b', questionId: 'q1', correct: true, seconds: 45 },
+  ]
+  const result = headToHead(challenge, answers)
+  assert.equal(result.challenger.seconds, 10)
+  assert.equal(result.opponent.seconds, 45)
+})
+
+test('an untimed answer counts as no time rather than breaking the total', () => {
+  const challenge = { challengerId: 'a', opponentId: 'b', questionIds: ['q1', 'q2'] }
+  const answers = [
+    { userId: 'a', questionId: 'q1', correct: true, seconds: null },
+    { userId: 'a', questionId: 'q2', correct: true, seconds: 12 },
+  ]
+  const result = headToHead(challenge, answers)
+  assert.equal(result.challenger.seconds, 12)
+  assert.equal(result.challenger.answered, 2)
+})

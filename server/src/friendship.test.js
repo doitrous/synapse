@@ -39,3 +39,8 @@ test('a request that is not pending cannot be answered', () => {
   const row = { userA: 'a', userB: 'b', requestedBy: 'a', status: 'accepted' }
   assert.equal(resolveResponse(row, 'b', true), null)
 })
+
+test('someone outside the pair cannot answer the request', () => {
+  const row = { userA: 'a', userB: 'b', requestedBy: 'a', status: 'pending' }
+  assert.equal(resolveResponse(row, 'c', true), null)
+})
