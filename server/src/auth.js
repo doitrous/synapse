@@ -55,11 +55,19 @@ export async function apiAuthGate(req, res, next) {
   // the gate and answered 401 to every caller, which the sign-up form swallowed
   // — so the duplicate check it exists to perform never once ran. It answers
   // taken or not taken, nothing else, and carries its own rate limit.
+  //
+  // Meta's deletion callback is here for the same reason and is authenticated
+  // its own way: Meta signs each call with the app secret, and the route
+  // refuses anything whose `signed_request` does not verify — including every
+  // call at all when no secret is configured. It sat behind this gate once and
+  // therefore answered 401 to every deletion request Meta ever sent, which is
+  // the failure this list exists to prevent.
   if (
     req.path === '/api/health'
     || req.path === '/api/webhooks/resend/inbound'
     || req.path === '/api/unsubscribe'
     || req.path === '/api/accounts/exists'
+    || req.path === '/api/facebook/deletion-callback'
   ) return next()
 
   const auth = req.header('authorization') || ''

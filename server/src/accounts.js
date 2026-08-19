@@ -218,7 +218,7 @@ export async function getUser(id) {
  * created from the identity rather than refusing the action. It carries the
  * Supabase user id as its own id, which keeps the two permanently aligned.
  */
-async function ensureStudentRow(conn, id) {
+export async function ensureStudentRow(conn, id) {
   const [existing] = await conn.query('SELECT id, user_id FROM students WHERE id = ? FOR UPDATE', [id])
   if (existing.length) return existing[0]
 
@@ -231,6 +231,46 @@ async function ensureStudentRow(conn, id) {
     [id, identity[0].email ?? null, identity[0].email ?? null, id],
   )
   return { id, user_id: id }
+}
+
+/**
+ * Whether classmates can find this student in the directory, as the student's
+ * own session sees it.
+ *
+ * Read directly by `user_id` rather than through `ensureStudentRow`, so
+ * checking the setting is never what creates the roster row — a student who
+ * has changed nothing still gets an honest answer. An absent row and a row
+ * nobody has touched mean the same thing here, because the column's own
+ * default is `1`: both read as discoverable.
+ */
+export async function getDiscoverable(userId) {
+  const [rows] = await pool.query('SELECT discoverable FROM students WHERE user_id = ? LIMIT 1', [userId])
+  return rows.length ? Boolean(rows[0].discoverable) : true
+}
+
+/**
+ * Write the choice for the caller's own row.
+ *
+ * Writing is where the row has to exist, so this is the one place that calls
+ * `ensureStudentRow` on behalf of a student rather than an admin — with the
+ * caller's own verified id, which is exactly how that helper is keyed
+ * everywhere else it is used.
+ */
+export async function setDiscoverable(userId, value) {
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, userId)
+    if (!student) { await conn.rollback(); return { error: 'not_found' } }
+    await conn.query('UPDATE students SET discoverable = ? WHERE user_id = ?', [value ? 1 : 0, userId])
+    await conn.commit()
+    return { ok: true, discoverable: Boolean(value) }
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
 }
 
 export async function recordAction(conn, { studentId, userId, action, detail, reason, actorId }) {
