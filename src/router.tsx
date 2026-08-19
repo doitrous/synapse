@@ -105,6 +105,7 @@ const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImpor
 const MediaRequests = lazyNamed(() => import('@/pages/admin/MediaRequests'), 'MediaRequests')
 const EvidenceImportPage = lazyNamed(() => import('@/pages/admin/EvidenceImportPage'), 'EvidenceImportPage')
 const AcademicImportPage = lazyNamed(() => import('@/pages/admin/AcademicImportPage'), 'AcademicImportPage')
+const MarksWeights = lazyNamed(() => import('@/pages/admin/MarksWeights'), 'MarksWeights')
 const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportPage'), 'SubjectsImportPage')
 const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
 const GlossarySetup = lazyNamed(() => import('@/pages/admin/GlossarySetup'), 'GlossarySetup')
@@ -196,6 +197,7 @@ const adminApp = {
     { path: 'concepts/import', element: render(ConceptsImportPage) },
     { path: 'relationships/import', element: render(RelationsImportPage) },
     { path: 'academic/import', element: render(AcademicImportPage) },
+    { path: 'academic/marks', element: render(MarksWeights) },
     { path: 'taxonomy/import', element: render(SubjectsImportPage) },
     { path: 'glossary/import', element: render(GlossaryImportPage) },
     { path: 'library/coverage', element: render(MedicalCoverageReview) },

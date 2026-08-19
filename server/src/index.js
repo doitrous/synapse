@@ -12,8 +12,10 @@ import { apiAuthGate, mfaSatisfied, requireAdmin, requireAuthenticated } from '.
 import {
   listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
   setAccessStatus, requestPasswordReset, recordAction, readReason,
-  passwordResetConfigured, getUserActivity, setRole,
+  passwordResetConfigured, getUserActivity, setRole, identifierTaken, entitlementOf,
 } from './accounts.js'
+import { withinRateLimit } from './identity.js'
+import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
@@ -115,6 +117,22 @@ const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((e) => {
 
 app.get('/api/health', (_req, res) => res.json({ ok: true }))
 
+/**
+ * Whether an email or a phone is already registered.
+ *
+ * Sign-up asks before creating anything, so a person who already has an account
+ * is sent to sign in rather than being handed an error after Supabase has made
+ * an auth user with no roster row behind it. It answers only taken or not, and
+ * it is rate limited because it is the one route here that has to work before
+ * anybody is authenticated.
+ */
+app.post('/api/accounts/exists', wrap(async (req, res) => {
+  const caller = req.ip || req.socket?.remoteAddress || 'unknown'
+  if (!withinRateLimit(caller)) return res.status(429).json({ error: 'too many requests' })
+  const { email, phone } = req.body ?? {}
+  res.json(await identifierTaken({ email, phone }))
+}))
+
 app.get('/api/session', (req, res) => res.json({
   user: req.identity ? {
     id: req.identity.id,
@@ -196,7 +214,47 @@ app.get('/api/me/export', requireAuthenticated, wrap(async (req, res) => {
  * phone with the student's own marks stranded behind it.
  */
 const MY_DOCUMENT_MAX_BYTES = Number(process.env.MY_DOCUMENT_MAX_BYTES) || 100 * 1024 * 1024
+/**
+ * The fallback ceiling, used until an administrator sets one.
+ *
+ * The quota used to be this number and nothing else — the same for everybody,
+ * changeable only by redeploying. It is now the default a stored settings
+ * document starts from, and each plan may name its own.
+ */
 const MY_DOCUMENT_QUOTA_BYTES = Number(process.env.MY_DOCUMENT_QUOTA_BYTES) || 1024 * 1024 * 1024
+const STORAGE_LIMITS_KEY = 'synapse-storage-limits-v1'
+
+/**
+ * How much room this caller has, and how much of it is gone.
+ *
+ * Resolved per request from the plan they are on rather than written onto their
+ * record, so an upgrade takes effect at once and a lapse does too. A settings
+ * document that is missing or malformed falls back to the default: a broken
+ * one must not stop students uploading, and must certainly not hand them
+ * unlimited room.
+ */
+async function documentAllowance(userId) {
+  const [[settings]] = await pool.query('SELECT v FROM app_state WHERE k = ?', [STORAGE_LIMITS_KEY])
+  let stored = null
+  try { stored = settings?.v ? JSON.parse(settings.v) : null } catch { stored = null }
+  const limits = readStorageLimits(stored ?? { defaultBytes: MY_DOCUMENT_QUOTA_BYTES })
+
+  const [[subscription]] = await pool.query(
+    `SELECT s.plan, s.status, s.expires_at
+       FROM subscriptions s
+       JOIN students st ON st.id = s.student_id
+      WHERE st.user_id = ?
+      ORDER BY s.started_at DESC LIMIT 1`,
+    [userId],
+  )
+  const plan = effectivePlan(entitlementOf(subscription))
+
+  const [[usage]] = await pool.query(
+    'SELECT COALESCE(SUM(size_bytes), 0) AS usedBytes FROM user_documents WHERE user_id = ? AND deleted_at IS NULL',
+    [userId],
+  )
+  return { plan, usedBytes: Number(usage.usedBytes), quotaBytes: limitFor(limits, plan) }
+}
 const MY_DOCUMENT_ROOT = resolve(RESOURCE_STORAGE_DIR, 'my-documents')
 
 function documentTitle(raw) {
@@ -221,11 +279,8 @@ app.get('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
      FROM user_documents WHERE user_id = ? AND deleted_at IS NULL ORDER BY created_at DESC`,
     [req.identity.id],
   )
-  const [[usage]] = await pool.query(
-    'SELECT COALESCE(SUM(size_bytes), 0) AS usedBytes FROM user_documents WHERE user_id = ? AND deleted_at IS NULL',
-    [req.identity.id],
-  )
-  res.json({ items: rows, usedBytes: Number(usage.usedBytes), quotaBytes: MY_DOCUMENT_QUOTA_BYTES })
+  const allowance = await documentAllowance(req.identity.id)
+  res.json({ items: rows, usedBytes: allowance.usedBytes, quotaBytes: allowance.quotaBytes, plan: allowance.plan })
 }))
 
 app.post('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
@@ -270,11 +325,11 @@ app.post('/api/my-documents/:id/chunks/:uploadId/complete', requireAuthenticated
 
   // Checked here rather than at the start: only now is the real size known,
   // and a quota that is enforced against a declaration is not enforced.
-  const [[usage]] = await pool.query(
-    'SELECT COALESCE(SUM(size_bytes), 0) AS usedBytes FROM user_documents WHERE user_id = ? AND deleted_at IS NULL',
-    [req.identity.id],
-  )
-  if (Number(usage.usedBytes) + declaredSize > MY_DOCUMENT_QUOTA_BYTES) {
+  const allowance = await documentAllowance(req.identity.id)
+  if (allowance.quotaBytes <= 0) {
+    return res.status(409).json({ error: 'your plan does not include space for your own documents' })
+  }
+  if (allowance.usedBytes + declaredSize > allowance.quotaBytes) {
     return res.status(409).json({ error: 'that would go past the space on your account' })
   }
 

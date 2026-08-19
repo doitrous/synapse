@@ -21,7 +21,21 @@ final class AudienceStore {
         let id: String
         let name: String
         let short: String
-        let years: [String]
+        let years: [Year]
+
+        /// A year as the academic catalogue records it: an ID and the label a
+        /// student recognises.
+        ///
+        /// The two must not be confused. `StudentAudience.year` holds the
+        /// **label** — the web derives the ID from it — so storing `KAU_Y1`
+        /// there would show a student "KAU_Y1" where their browser says
+        /// "Year 1".
+        struct Year: Identifiable, Equatable, Sendable {
+            let id: String
+            let label: String
+        }
+
+        var yearLabels: [String] { years.map(\.label) }
     }
 
     private let api: SynapseAPI
@@ -57,8 +71,28 @@ final class AudienceStore {
         fromRoster = false
         if let remote = try? await api.userState(StudentAudience.self, key: StudentAudience.storageKey),
            let value = remote.value, value.isKnown {
-            audience = value
+            audience = migrated(value)
         }
+    }
+
+    /// Repair a year recorded as an ID.
+    ///
+    /// An earlier build read the catalogue's `id` where it meant its `year`, so
+    /// some accounts hold `KAU_Y1` where the contract says `Year 1`. Scoping
+    /// survives it — the matcher compares year *numbers* — but the website
+    /// would show a student "KAU_Y1" as their year, so it is corrected in place
+    /// the next time the app resolves them.
+    private func migrated(_ value: StudentAudience) -> StudentAudience {
+        guard
+            let university = universities.first(where: { $0.id == value.universityId }),
+            let match = university.years.first(where: { $0.id == value.year }),
+            match.label != value.year
+        else { return value }
+
+        var repaired = value
+        repaired.year = match.label
+        Task { await sync.write(key: StudentAudience.storageKey, value: repaired) }
+        return repaired
     }
 
     /// Record a self-declared cohort. Written through the sync engine so it
@@ -77,14 +111,18 @@ final class AudienceStore {
 
         return raw.compactMap { entry in
             guard let id = entry["id"] as? String else { return nil }
-            // Years may be strings or objects depending on how the catalogue
-            // was authored; take whichever names a year.
-            let years: [String] = (entry["years"] as? [Any] ?? []).compactMap { year in
-                if let text = year as? String { return text }
-                if let object = year as? [String: Any] {
-                    return object["label"] as? String ?? object["name"] as? String ?? object["id"] as? String
-                }
-                return nil
+            // The catalogue writes `{ id: "KAU_Y1", year: "Year 1", … }`. The
+            // label key is `year`; reading `id` instead is how a student ended
+            // up recorded as being in year "KAU_Y1".
+            let years: [University.Year] = (entry["years"] as? [Any] ?? []).compactMap { entry in
+                if let text = entry as? String { return .init(id: text, label: text) }
+                guard let object = entry as? [String: Any] else { return nil }
+                let label = object["year"] as? String
+                    ?? object["label"] as? String
+                    ?? object["name"] as? String
+                    ?? object["id"] as? String
+                guard let label else { return nil }
+                return .init(id: object["id"] as? String ?? label, label: label)
             }
             return University(
                 id: id,

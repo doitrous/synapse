@@ -6,6 +6,7 @@ import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, itemInScope, type ManagedContentItem } from '@/data/contentControl'
 import { Icon } from '@/components/ui/Icon'
+import { StorageLimitsPanel } from '@/components/admin/StorageLimitsPanel'
 import { cn } from '@/lib/cn'
 
 type Selection = { universityId?: string; year?: string }
@@ -133,6 +134,9 @@ export function ResourcesSetup() {
           {isMaster
             ? 'Master Resources & Media — every resource'
             : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
+        </div>
+        <div className="px-5 pt-3">
+          <StorageLimitsPanel />
         </div>
         <ControlDashboard key={`${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="resource" lockedKind scope={scope} />
       </div>

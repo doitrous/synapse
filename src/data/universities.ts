@@ -22,6 +22,11 @@ export interface UniYear {
   courses: CurriculumCourse[]
   /** Explicit term names for this year (a year has one or more terms). */
   terms?: string[]
+  /**
+   * Offered to students. Absent means true, so every record that predates the
+   * flag stays live rather than being switched off by its addition.
+   */
+  active?: boolean
 }
 
 export interface University {
@@ -30,6 +35,27 @@ export interface University {
   short: string
   region: string
   years: UniYear[]
+  /**
+   * Offered to students. Absent means true. Switched off, none of its years is
+   * available whatever their own flag says — read both through `isYearLive`.
+   */
+  active?: boolean
+}
+
+/**
+ * Whether students may be offered this year.
+ *
+ * Both facts are read through one predicate so that no caller can check the
+ * year and forget the university it belongs to. Absent means live, so nothing
+ * that predates the flag is switched off by its arrival.
+ */
+export function isYearLive(university: Pick<University, 'active'>, year: Pick<UniYear, 'active'>): boolean {
+  return university.active !== false && year.active !== false
+}
+
+/** The student's year in a university, by the label their profile carries. */
+export function findYearByLabel(university: University, label: string): UniYear | undefined {
+  return university.years.find((year) => year.year === label)
 }
 
 export const UNIVERSITY_CATALOGUE_STORAGE_KEY = 'synapse-academic-universities-v1'

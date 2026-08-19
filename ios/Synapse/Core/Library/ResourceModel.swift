@@ -65,16 +65,28 @@ final class ResourceModel {
     /// Which resources this student has saved. Kept per-student on the server
     /// under the same key the web app uses.
     private(set) var bookmarks: Set<String> = []
+    /// True once the student's saved list has actually been read back.
+    ///
+    /// Until then this set is empty because nothing has been fetched, not
+    /// because nothing is saved — and those two are indistinguishable from the
+    /// inside. Writing in that state replaces a student's whole saved list with
+    /// whatever they just tapped.
+    private(set) var bookmarksLoaded = false
+    /// Set when saving is refused, so the row can say why rather than ignoring
+    /// the tap.
+    private(set) var bookmarkProblem: String?
 
     static let bookmarksKey = "synapse.bookmarks.resources.v1"
 
     private let store: LocalStore
     private let sync: SyncEngine
+    private let api: SynapseAPI
     var audience: StudentAudience
 
-    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience = .unknown) {
+    init(store: LocalStore, sync: SyncEngine, api: SynapseAPI, audience: StudentAudience = .unknown) {
         self.store = store
         self.sync = sync
+        self.api = api
         self.audience = audience
     }
 
@@ -100,9 +112,32 @@ final class ResourceModel {
             folders = []
             emptyReason = "The resource catalogue could not be opened on this device."
         }
+
+        await loadBookmarks()
+    }
+
+    /// Read the saved list back before anything is allowed to write it.
+    ///
+    /// Marked loaded only on success: a failed fetch must leave writing
+    /// disabled, because proceeding would treat "could not read" as "nothing
+    /// saved" and overwrite the student's list on the next tap.
+    func loadBookmarks() async {
+        guard !bookmarksLoaded else { return }
+        do {
+            let remote = try await api.userState([String].self, key: Self.bookmarksKey)
+            bookmarks = Set(remote.value ?? [])
+            bookmarksLoaded = true
+            bookmarkProblem = nil
+        } catch {
+            bookmarkProblem = "Your saved list could not be loaded, so saving is off until it can."
+        }
     }
 
     func toggleBookmark(_ id: String) async {
+        // One retry, in case the first load failed on a dropped connection.
+        if !bookmarksLoaded { await loadBookmarks() }
+        guard bookmarksLoaded else { return }
+
         if bookmarks.contains(id) { bookmarks.remove(id) } else { bookmarks.insert(id) }
         // Written through the sync engine, so it survives being offline and
         // lands under the same key the web app reads.

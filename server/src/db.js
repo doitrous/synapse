@@ -46,6 +46,33 @@ export async function migrate() {
       )
     }
 
+    // Sign-up now asks for a phone number and a nationality, and the number has
+    // to be unique or the same person can register twice under two emails.
+    // Added by lookup rather than a marker, so a database restored from a dump
+    // that already has them still boots.
+    for (const [column, definition] of [
+      ['phone', 'VARCHAR(32) NULL AFTER email'],
+      ['nationality', 'VARCHAR(64) NULL AFTER phone'],
+    ]) {
+      const [found] = await conn.query(
+        `SELECT 1 FROM information_schema.columns
+          WHERE table_schema = DATABASE() AND table_name = 'students' AND column_name = ?`,
+        [column],
+      )
+      if (!found.length) await conn.query(`ALTER TABLE students ADD COLUMN ${column} ${definition}`)
+    }
+
+    // The unique index is separate from the column: adding it can fail on a
+    // database that already holds duplicates, and that has to be a loud failure
+    // an operator resolves rather than a column quietly left unconstrained.
+    const [phoneIndex] = await conn.query(
+      `SELECT 1 FROM information_schema.statistics
+        WHERE table_schema = DATABASE() AND table_name = 'students' AND index_name = 'students_phone_unique'`,
+    )
+    if (!phoneIndex.length) {
+      await conn.query('CREATE UNIQUE INDEX students_phone_unique ON students (phone)')
+    }
+
     // The owner authorised a clean academic slate before any real university
     // data exists. Archive and clear these documents exactly once; the marker
     // prevents later restarts from touching real records added afterward.

@@ -22,14 +22,22 @@ actor LocalStore {
     /// Opens the store. Pass `nil` for an in-memory database (tests).
     init(path: String?) throws {
         var config = Configuration()
-        // Student work is private study data. If the phone is locked and
-        // stolen, the file should not be readable.
         config.prepareDatabase { db in
             try db.execute(sql: "PRAGMA foreign_keys = ON")
         }
 
         if let path {
             dbQueue = try DatabaseQueue(path: path, configuration: config)
+            // Student work is private study data, and this file holds their
+            // answers and notes. `completeUnlessOpen` rather than `complete`:
+            // the app must keep reading its cache while backgrounded — a sync
+            // finishing after the screen locks would otherwise fail — but a
+            // phone that is locked and stolen without the app running gives up
+            // nothing.
+            try? FileManager.default.setAttributes(
+                [.protectionKey: FileProtectionType.completeUnlessOpen],
+                ofItemAtPath: path
+            )
         } else {
             dbQueue = try DatabaseQueue(configuration: config)
         }
@@ -136,14 +144,23 @@ actor LocalStore {
 
     // MARK: - Attempts
 
-    func saveAttempt(id: String, month: String, record: Data) throws {
+    /// Record an attempt.
+    ///
+    /// `pending` is false for records pulled down from the server: they are
+    /// already there, and marking them would make the next drain rewrite whole
+    /// months that never changed.
+    func saveAttempt(id: String, month: String, record: Data, pending: Bool = true) throws {
         try dbQueue.write { db in
             try db.execute(
                 sql: """
-                    INSERT INTO attempt (id, month, record, pending) VALUES (?, ?, ?, 1)
-                    ON CONFLICT(id) DO UPDATE SET record = excluded.record, pending = 1
+                    INSERT INTO attempt (id, month, record, pending) VALUES (?, ?, ?, ?)
+                    ON CONFLICT(id) DO UPDATE SET
+                        record = excluded.record,
+                        -- A local edit outranks an arriving copy: a row already
+                        -- waiting to upload must stay waiting.
+                        pending = MAX(attempt.pending, excluded.pending)
                     """,
-                arguments: [id, month, record]
+                arguments: [id, month, record, pending]
             )
         }
     }
