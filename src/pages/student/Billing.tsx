@@ -12,7 +12,8 @@ import { useIdentity, type Entitlement } from '@/lib/useIdentity'
 import { API_MODE, apiDelete, apiGet, apiPost } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 import { formatLongDate } from '@/lib/format'
-import { initialPlans, PLANS_STORAGE_KEY, type PlanDef } from '@/data/plans'
+import { findPlan, monthlyEquivalent, priceAt, say } from '@/data/planCatalog'
+import { usePlanCatalog } from '@/lib/usePlanCatalog'
 import { voucherDiscount, voucherEligibility, voucherTrialDays, isTrialVoucher, initialVouchers, VOUCHER_STORAGE_KEY, type Voucher } from '@/data/vouchers'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 
@@ -52,7 +53,7 @@ interface Redemption { voucherId: string; code: string; redeemedAt: string }
 export function Billing() {
   const t = useT()
   const { audience, entitlement, subscription, profileMissing } = useIdentity()
-  const [plans] = usePersistentState<PlanDef[]>(PLANS_STORAGE_KEY, initialPlans)
+  const [catalog] = usePlanCatalog()
   const [vouchers] = usePersistentState<Voucher[]>(VOUCHER_STORAGE_KEY, initialVouchers)
   const [catalogue] = useUniversityCatalogue()
   const [redemption, setRedemption] = useState<Redemption | null>(null)
@@ -67,9 +68,9 @@ export function Billing() {
       .catch(() => setRedemption(null))
   }, [])
 
-  const plan = plans.find((item) => item.name === entitlement.plan)
+  const plan = findPlan(catalog, entitlement.plan)
   const appliedVoucher = vouchers.find((item) => item.id === redemption?.voucherId)
-  const price = plan?.priceEGP ?? 0
+  const price = plan ? monthlyEquivalent(plan, catalog.periods) : 0
   const discount = appliedVoucher ? voucherDiscount(appliedVoucher, price) : 0
 
   async function applyVoucher() {
@@ -160,7 +161,13 @@ export function Billing() {
                     </p>
                   </div>
                   {plan && (
-                    <p className="tnum font-mono text-[18px] font-semibold text-ink">{plan.priceLabel}</p>
+                    <p className="tnum font-mono text-[18px] font-semibold text-ink">
+                      {catalog.periods
+                        .map((period) => ({ period, priced: priceAt(plan, period.id, catalog.periods) }))
+                        .filter((entry) => entry.priced?.period.id === entry.period.id)
+                        .map((entry) => `EGP ${entry.priced!.amount} / ${say(entry.period.label, 'en')}`)
+                        .join(' · ') || t('Free')}
+                    </p>
                   )}
                 </div>
 

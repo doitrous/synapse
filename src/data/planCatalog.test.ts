@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  compareGroups, compareRows, isPurchasable, monthlyEquivalent, perMonth, periodById, plansFor, priceAt,
+  compareGroups, compareRows, findPlan, isPurchasable, monthlyEquivalent, monthlyPriceFor, perMonth, periodById, plansFor, priceAt,
   savingPercent, say, type BillingPeriodDef, type CatalogPlan, type PlanCatalog,
 } from './planCatalog.ts'
 
@@ -224,4 +224,20 @@ test('an ungrouped feature is kept, in a section of its own at the end', () => {
 test('the sections read in Arabic too', () => {
   const one = plan({ features: [{ group: { en: 'Tools', ar: 'الأدوات' }, label: bi('Notebook') }] })
   assert.equal(compareGroups(catalog([one]), 'ar')[0].title, 'الأدوات')
+})
+
+test('a plan is found by its id or by either language of its name', () => {
+  const list = catalog([plan({ id: 'qbank', name: { en: 'QBank', ar: 'بنك الأسئلة' } })])
+  assert.equal(findPlan(list, 'qbank')?.id, 'qbank')
+  assert.equal(findPlan(list, 'QBank')?.id, 'qbank')
+  assert.equal(findPlan(list, 'qbank ')?.id, 'qbank')
+  assert.equal(findPlan(list, 'بنك الأسئلة')?.id, 'qbank')
+  assert.equal(findPlan(list, 'Adaptive'), undefined)
+  assert.equal(findPlan(list, ''), undefined)
+})
+
+test('an unknown plan is worth nothing a month, rather than throwing', () => {
+  const list = catalog([plan({ id: 'qbank', prices: { month: 99 } })])
+  assert.equal(monthlyPriceFor(list, 'qbank'), 99)
+  assert.equal(monthlyPriceFor(list, 'nothing'), 0)
 })

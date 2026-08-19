@@ -279,3 +279,24 @@ export function compareGroups(catalog: PlanCatalog, lang: Lang, audience?: PlanA
     .map((title) => ({ title, rows: rows.filter((row) => groupOf.get(row.label) === title) }))
     .filter((group) => group.rows.length > 0)
 }
+
+/**
+ * A plan by the handle another record refers to it with.
+ *
+ * A subscription stores a plan *name*, written when it was taken out, so a plan
+ * since renamed still has to be findable. Id first, then either language's name,
+ * so a student on "بنك الأسئلة" and one on "QBank" resolve to the same plan.
+ */
+export function findPlan(catalog: PlanCatalog, handle: string): CatalogPlan | undefined {
+  const wanted = handle.trim().toLowerCase()
+  if (!wanted) return undefined
+  return catalog.plans.find((plan) => plan.id.toLowerCase() === wanted)
+    ?? catalog.plans.find((plan) => plan.name.en.trim().toLowerCase() === wanted)
+    ?? catalog.plans.find((plan) => plan.name.ar.trim().toLowerCase() === wanted)
+}
+
+/** What a student on this plan is worth a month. Zero when the plan is unknown. */
+export function monthlyPriceFor(catalog: PlanCatalog, handle: string): number {
+  const plan = findPlan(catalog, handle)
+  return plan ? monthlyEquivalent(plan, catalog.periods) : 0
+}
