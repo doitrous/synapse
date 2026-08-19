@@ -70,3 +70,19 @@ test('a published slide projects into the student shape', () => {
   assert.equal(projected?.description, 'Note the villi.')
   assert.deepEqual(projected?.views.map((v) => v.objective), [4, 10])
 })
+
+test('a view whose image never arrived is dropped, not left as an empty field', () => {
+  const item = {
+    id: 's2', kind: 'histology', title: 'Ileum', subjectId: 'gi', status: 'Published',
+    owner: '', updatedAt: '', fields: {},
+    histologyData: {
+      tissue: 'Small bowel', stain: 'H&E', structures: [],
+      views: [
+        { objective: 4 as const, image: 'four.jpg' },
+        { objective: 40 as const, image: '   ' },
+      ],
+    },
+  } as unknown as ManagedContentItem
+  const projected = managedSlideToStudentSlide(item)
+  assert.deepEqual(projected?.views.map((view) => view.objective), [4])
+})

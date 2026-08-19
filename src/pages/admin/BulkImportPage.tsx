@@ -20,9 +20,10 @@ interface MappedRow { index: number; values: Record<string, string>; errors: str
 
 const IGNORE = '__ignore__'
 const steps = ['Choose a file', 'Confirm worksheet', 'Map columns', 'Full preview', 'Skipped rows', 'Import options']
-// Histology has no dedicated locked route yet — its tab lives on the main
-// catalogue dashboard, so "back" goes there rather than to a page that does
-// not exist.
+// Histology points at its own admin page, which does not exist yet. That is
+// deliberate: a link that 404s until the page lands is easier to notice and
+// fix than one pointing at the main dashboard, which would quietly show the
+// wrong catalogue and need remembering later.
 const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources', histology: 'histology' }
 
 function normalize(value: string) {
