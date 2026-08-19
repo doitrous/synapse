@@ -132,9 +132,11 @@ pattern already routes it to the student's own record rather than the shared
 catalogue.
 
 `usePersistentState` rewrites a whole document on every change, so the map is
-**pruned to the most recent 100 sittings** on write. That bound is generous
-against any realistic history and keeps the document small enough to rewrite
-cheaply, which is the same reasoning that shards the attempt log by month.
+**pruned to the most recent 600 sittings** on write. Unlike the attempt log,
+this document is written only when a sitting begins or a test is deleted — never
+per answer — so a larger bound costs little: 600 sittings of forty questions is
+roughly a quarter of a megabyte, rewritten a handful of times a day. The bound
+exists so the document cannot grow without limit, not to keep it small.
 
 ### `src/data/qbankCollections.ts`
 
@@ -328,7 +330,7 @@ becomes true again rather than needing a rewrite.
 - an omitted question answered in a later sitting leaves *omitted*
 - `scopeFromQuestions` emits subtopic keys from library references and topic
   keys for synthetic question-only topics
-- pruning keeps the most recent 100 sittings and drops the oldest
+- pruning keeps the most recent 600 sittings and drops the oldest
 
 **Typecheck** — `npx tsc -b` green. `noUnusedLocals` is on, so unused imports
 fail the build.
