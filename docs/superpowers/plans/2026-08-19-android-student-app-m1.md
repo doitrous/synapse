@@ -1488,7 +1488,28 @@ private fun scopeOf(record: JsonObject): Pair<List<String>, List<String>> {
 
 - [ ] **Step 6: Implement `Question.kt` and `Practical.kt`**
 
-Follow the shapes named in **Interfaces** above and the behaviour pinned by the tests: reject a question with no options, with a `correctAnswer` not among its options, or with a blank stem; default difficulty to `"Moderate"`; default practical type to `"Practical"`; read `candidateInstructions` from `practicalData` first and `fields["Candidate instructions"]` second.
+Follow the shapes named in **Interfaces** above, the behaviour pinned by the tests, and
+`managedQuestionToStudentQuestion` in `src/lib/usePublishedQuestions.ts` — that function is
+the reference implementation for everything a student sees, and the iOS port is stale against
+it. Specifically:
+
+- Drop options whose `text` is blank before anything else. Authored questions carry a fixed
+  A–F block, so the unused labels arrive as entries with empty text.
+- Reject a question with **fewer than two** surviving options, with a `correctAnswer` not
+  among them, or with a blank stem. One option is not a question; the web hides it and
+  Android must too.
+- `topic` = `questionData.tags.topic`, else `fields["Topic"]`, else `"General"` — never an
+  empty string.
+- `difficulty` = `questionData.tags.intendedDifficulty`, else `fields["Difficulty"]`, and only
+  if the result is one of `Easy`, `Moderate`, `Hard`, `Challenging`; otherwise `"Moderate"`.
+- `explanation` = `fields["Explanation"]`, falling back to the **correct option's own
+  explanation** when that field is blank. A question authored with only per-option rationales
+  is normal, and reading only the field renders an empty explanation panel with no error.
+- `conceptIds` = the de-duplicated **union** of `tags.mainConceptIds` and `tags.conceptIds`,
+  in that order — not one falling back to the other. `contextualConceptIds` is deliberately
+  excluded: those are mentioned by the vignette but never assessed.
+- Default practical type to `"Practical"`; read `candidateInstructions` from `practicalData`
+  first and `fields["Candidate instructions"]` second.
 
 - [ ] **Step 7: Run the tests**
 
