@@ -888,6 +888,25 @@ export function QuestionBank() {
     setPhase('setup')
   }
 
+  /**
+   * Throw the stored sitting away, whatever the runner happens to be holding.
+   *
+   * The hub's two controls — Discard on the Continue card, End this test on the
+   * live row of Previous tests — name the *stored* sitting; it is the only thing
+   * either of them is describing. The runner's state slot is not it: viewing a
+   * collection or a past test reassigns `sessionId`, so guarding these with
+   * `clearsStoredSitting` the way the in-runner exits are guarded left them
+   * silently doing nothing after any such detour, with the card still sitting
+   * there. The in-runner exits keep that guard, because there "end this" really
+   * does mean the sitting on screen — which may be a past test's results, and
+   * must not take a separately paused sitting down with it.
+   */
+  function discardSaved() {
+    startedAt.current = null
+    mirroredSittingId.current = null
+    setSaved(null)
+  }
+
   /** Step out, keep the sitting. */
   function leaveSession() {
     setEndOpen(false)
@@ -981,7 +1000,7 @@ export function QuestionBank() {
             answered={Object.keys(saved.answers).length}
             total={saved.questionIds.length}
             onContinue={resumeSaved}
-            onDiscard={discardSession}
+            onDiscard={discardSaved}
           />
         )}
 
@@ -1058,7 +1077,7 @@ export function QuestionBank() {
             liveSessionId={liveSittingId(saved)}
             onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
             onResume={resumeSaved}
-            onTerminate={discardSession}
+            onTerminate={discardSaved}
             onReview={reviewSession}
             onDelete={deleteSession}
             canReview={(sessionId) => reviewableQuestions(sessionId).length > 0}
