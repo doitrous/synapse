@@ -29,12 +29,11 @@ import {
 } from './assistant.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
-  invalidateStudyRoomSnapshot,
 } from './studyRooms.js'
 import {
   createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
-  invalidateChallengeSnapshot,
 } from './challenges.js'
+import { invalidatePublishedQuestions } from './publishedQuestions.js'
 import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests, directorySearch } from './friends.js'
 import { mintInvite, redeemInvite } from './friendInvites.js'
 import { toMariaDbDate } from './datetime.js'
@@ -53,8 +52,8 @@ let medicalResourceLoad = null
 /**
  * Drop any server-side cache a state write has just made stale.
  *
- * Three caches now read from `app_state` — the medical-resource snapshot, and
- * the published-question set behind both study rooms and challenges — so
+ * Two caches now read from `app_state` — the medical-resource snapshot, and
+ * the published-question set shared by study rooms and challenges — so
  * invalidation is one call rather than a growing list at every write site.
  */
 function invalidateSnapshots(key) {
@@ -62,8 +61,7 @@ function invalidateSnapshots(key) {
     medicalResourceSnapshot = null
     medicalResourceLoad = null
   }
-  invalidateStudyRoomSnapshot(key)
-  invalidateChallengeSnapshot(key)
+  invalidatePublishedQuestions(key)
 }
 const app = express()
 /**

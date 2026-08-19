@@ -14,8 +14,7 @@
  */
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
-
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
+import { publishedQuestions } from './publishedQuestions.js'
 
 /** Longest a room may be. Enough for a full paper, short of an endurance test. */
 const MAX_QUESTIONS = 40
@@ -23,40 +22,6 @@ const MAX_QUESTIONS = 40
 /** No 0/O/1/I/L — a code gets read aloud and typed by hand. */
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'
 const CODE_LENGTH = 6
-
-/* The published question set, cached and invalidated on ledger writes — the
-   same shape as the medical-resource snapshot above it in index.js. */
-let questionSnapshot = null
-
-export function invalidateStudyRoomSnapshot(key) {
-  if (key === LEDGER_KEY) questionSnapshot = null
-}
-
-async function publishedQuestions() {
-  if (questionSnapshot) return questionSnapshot
-  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [LEDGER_KEY])
-  const byId = new Map()
-  if (rows.length) {
-    try {
-      const ledger = JSON.parse(rows[0].v)
-      for (const item of Array.isArray(ledger) ? ledger : []) {
-        if (item?.kind !== 'question' || item.status !== 'Published') continue
-        const answers = item.questionData?.answers ?? []
-        byId.set(item.id, {
-          id: item.id,
-          title: item.title,
-          // The index of the correct option, or -1 when the author marked none.
-          correctIndex: answers.findIndex((answer) => answer?.correct),
-          optionCount: answers.length,
-        })
-      }
-    } catch {
-      // A malformed ledger yields an empty set rather than a thrown request.
-    }
-  }
-  questionSnapshot = byId
-  return byId
-}
 
 function newCode() {
   let code = ''

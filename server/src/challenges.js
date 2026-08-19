@@ -11,51 +11,10 @@ import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { orderedPair } from './friendship.js'
 import { bothFinished, canFinish, headToHead, sideOf } from './challengeResult.js'
-
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
+import { publishedQuestions } from './publishedQuestions.js'
 
 /** Longest a challenge may be. Same ceiling as a study room, same reason. */
 const MAX_QUESTIONS = 40
-
-/*
- * The published question set, cached and invalidated on ledger writes.
- *
- * studyRooms.js keeps the same cache over the same key, but doesn't export an
- * accessor for it and this task's brief is to touch only schema.sql,
- * this file, and index.js — so rather than reach into studyRooms.js's private
- * state, this mirrors its shape as a second subscriber to the same signal.
- * `invalidateChallengeSnapshot` is wired in beside `invalidateStudyRoomSnapshot`
- * in index.js's `invalidateSnapshots`, so a single write invalidates both.
- */
-let questionSnapshot = null
-
-export function invalidateChallengeSnapshot(key) {
-  if (key === LEDGER_KEY) questionSnapshot = null
-}
-
-async function publishedQuestions() {
-  if (questionSnapshot) return questionSnapshot
-  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [LEDGER_KEY])
-  const byId = new Map()
-  if (rows.length) {
-    try {
-      const ledger = JSON.parse(rows[0].v)
-      for (const item of Array.isArray(ledger) ? ledger : []) {
-        if (item?.kind !== 'question' || item.status !== 'Published') continue
-        const answers = item.questionData?.answers ?? []
-        byId.set(item.id, {
-          id: item.id,
-          // The index of the correct option, or -1 when the author marked none.
-          correctIndex: answers.findIndex((answer) => answer?.correct),
-        })
-      }
-    } catch {
-      // A malformed ledger yields an empty set rather than a thrown request.
-    }
-  }
-  questionSnapshot = byId
-  return byId
-}
 
 /** Accepted-friends check, via the same sorted pair the friend graph uses. */
 async function areFriends(a, b) {
