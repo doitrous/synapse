@@ -1,7 +1,8 @@
-import { Play } from 'lucide-react'
+import { ChevronRight, Play } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { PageContainer } from '@/components/shell/Page'
 import { Button } from '@/components/ui/Button'
+import { Icon } from '@/components/ui/Icon'
 import { NextOnSchedule } from '@/components/dashboard/NextOnSchedule'
 import { DueReviews } from '@/components/dashboard/DueReviews'
 import { ExamReadinessCard, PracticalSkillsCard, QuestionBankCard } from '@/components/dashboard/ProgressTrio'
@@ -12,6 +13,7 @@ import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
 import { formatLongDate } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
+import { useLocalPreference } from '@/lib/useLocalPreference'
 import { nextExam, useStudentSchedule } from '@/lib/useStudentSchedule'
 
 function greetingKey(): string {
@@ -25,6 +27,9 @@ export function Dashboard() {
   const { t, lang } = useI18n()
   const { displayName, audienceUnknown } = useIdentity()
   const { sessions } = useStudentSchedule()
+  // Closed by default and remembered per device: on the screen someone opens
+  // first thing in the morning, last month's accuracy is not the headline.
+  const [detail, , toggleDetail] = useLocalPreference('synapse.dashboard.detail', false)
   // Only claimed when an exam is actually on the published timetable. The line
   // used to read "38 days to your Cardiovascular exam — you're on track" from a
   // literal, for every student, on every day of the year.
@@ -62,6 +67,13 @@ export function Dashboard() {
         </div>
       )}
 
+      {/* Four blocks, in the order the questions are asked: what now, what is
+          slipping, what today holds, and where I stand. Everything that
+          answered "how have I been doing lately" — the accuracy chart, the
+          activity heatmap, the last things opened — is a review of the past
+          rather than an instruction for the next hour, and sits behind a
+          disclosure instead of taking up two more screenfuls above it. This
+          page previously showed nine panels at once. */}
       <div className="space-y-4">
         {/* What's next + what's slipping */}
         <div className="grid items-stretch gap-4 lg:grid-cols-3">
@@ -78,22 +90,33 @@ export function Dashboard() {
             the same blocks a second time. */}
         <TodaysAgenda />
 
-        <div className="grid items-start gap-4 lg:grid-cols-2">
-          <div className="grid min-w-0 content-start gap-4">
-            <PerformanceOverview compact />
-            <QuestionBankCard compact />
-          </div>
-          <div className="grid min-w-0 content-start gap-4">
-            <ExamReadinessCard compact />
-            <PracticalSkillsCard compact />
-          </div>
+        {/* Where I stand, on one line rather than as four stacked panels. */}
+        <div className="grid min-w-0 gap-4 sm:grid-cols-3">
+          <ExamReadinessCard compact />
+          <QuestionBankCard compact />
+          <PracticalSkillsCard compact />
         </div>
 
-        {/* Heatmap left half, Last used resources right half */}
-        <div className="grid items-stretch gap-4 lg:grid-cols-2">
-          <StudyHeatmap />
-          <LastUsedResources />
-        </div>
+        <section>
+          <button
+            type="button"
+            onClick={toggleDetail}
+            aria-expanded={detail}
+            className="flex min-h-11 w-full items-center gap-2 rounded-xl border border-line bg-surface px-4 text-start text-[13px] font-semibold text-ink-2 transition-colors hover:bg-inset hover:text-ink"
+          >
+            {t('How this month has gone')}
+            <Icon icon={ChevronRight} size={15} className="ms-auto chevron-turn text-ink-3" open={detail} />
+          </button>
+          {detail && (
+            <div className="mt-4 space-y-4">
+              <PerformanceOverview />
+              <div className="grid items-stretch gap-4 lg:grid-cols-2">
+                <StudyHeatmap />
+                <LastUsedResources />
+              </div>
+            </div>
+          )}
+        </section>
       </div>
     </PageContainer>
   )
