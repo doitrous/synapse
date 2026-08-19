@@ -88,6 +88,9 @@ CREATE TABLE IF NOT EXISTS students (
   id                 VARCHAR(64) PRIMARY KEY,
   name               VARCHAR(255),
   email              VARCHAR(255) UNIQUE,
+  -- Stored in E.164 so that 0100…, +20100… and 0020100… cannot register twice.
+  phone              VARCHAR(32) UNIQUE,
+  nationality        VARCHAR(64),
   university_id      VARCHAR(64),
   year               VARCHAR(32),
   plan               VARCHAR(64),

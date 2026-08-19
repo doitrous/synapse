@@ -18,6 +18,7 @@
  */
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
+import { normaliseEmail, normalisePhone } from './identity.js'
 
 const SUPABASE_URL = process.env.SUPABASE_URL?.replace(/\/$/, '')
 const SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
@@ -545,5 +546,30 @@ export async function setRole(studentId, { role, reason, actorId }) {
     throw error
   } finally {
     conn.release()
+  }
+}
+
+/**
+ * Whether an email or a phone already belongs to somebody.
+ *
+ * It answers taken or not taken and nothing else — no name, no id, no hint at
+ * which account. A public endpoint that confirms an address exists is already
+ * the most one should say, and anything past that is an enumeration tool.
+ */
+export async function identifierTaken({ email, phone }) {
+  const cleanEmail = normaliseEmail(email)
+  const cleanPhone = normalisePhone(phone)
+  if (!cleanEmail && !cleanPhone) return { email: false, phone: false }
+
+  const [rows] = await pool.query(
+    `SELECT
+       SUM(LOWER(TRIM(email)) = ?) AS emailTaken,
+       SUM(phone = ?) AS phoneTaken
+     FROM students`,
+    [cleanEmail ?? '\u0000', cleanPhone ?? '\u0000'],
+  )
+  return {
+    email: Boolean(cleanEmail && Number(rows?.[0]?.emailTaken ?? 0) > 0),
+    phone: Boolean(cleanPhone && Number(rows?.[0]?.phoneTaken ?? 0) > 0),
   }
 }

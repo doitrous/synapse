@@ -12,8 +12,9 @@ import { apiAuthGate, mfaSatisfied, requireAdmin, requireAuthenticated } from '.
 import {
   listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
   setAccessStatus, requestPasswordReset, recordAction, readReason,
-  passwordResetConfigured, getUserActivity, setRole,
+  passwordResetConfigured, getUserActivity, setRole, identifierTaken,
 } from './accounts.js'
+import { withinRateLimit } from './identity.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
@@ -114,6 +115,22 @@ const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((e) => {
 })
 
 app.get('/api/health', (_req, res) => res.json({ ok: true }))
+
+/**
+ * Whether an email or a phone is already registered.
+ *
+ * Sign-up asks before creating anything, so a person who already has an account
+ * is sent to sign in rather than being handed an error after Supabase has made
+ * an auth user with no roster row behind it. It answers only taken or not, and
+ * it is rate limited because it is the one route here that has to work before
+ * anybody is authenticated.
+ */
+app.post('/api/accounts/exists', wrap(async (req, res) => {
+  const caller = req.ip || req.socket?.remoteAddress || 'unknown'
+  if (!withinRateLimit(caller)) return res.status(429).json({ error: 'too many requests' })
+  const { email, phone } = req.body ?? {}
+  res.json(await identifierTaken({ email, phone }))
+}))
 
 app.get('/api/session', (req, res) => res.json({
   user: req.identity ? {
