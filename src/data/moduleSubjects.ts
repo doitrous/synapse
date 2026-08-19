@@ -333,3 +333,150 @@ export function subjectPath(subjects: readonly ModuleSubject[], id: string): Mod
 export function curriculumOfTree(subject: ModuleSubject): CourseCurriculumSelection {
   return mergeCurricula([subject])
 }
+
+/* ---- Rearranging the tree ------------------------------------------------ */
+
+/**
+ * Where a subject is being put down.
+ *
+ * `before` and `after` place it among the target's siblings; `inside` makes it
+ * the target's last child, and a null target means the top of the module. The
+ * three together are everything a drag onto a row can mean, so the rail decides
+ * which one the pointer is asking for and every mover below speaks only this.
+ */
+export type SubjectDrop =
+  | { kind: 'inside'; targetId: string | null }
+  | { kind: 'before'; targetId: string }
+  | { kind: 'after'; targetId: string }
+
+/** The subject one level up, or null when this one sits at the top. */
+export function parentOf(subjects: readonly ModuleSubject[], id: string): ModuleSubject | null {
+  const path = subjectPath(subjects, id)
+  return path.length > 1 ? path[path.length - 2] : null
+}
+
+/** The list this subject is ordered within — its parent's children, or the top. */
+export function siblingsOf(subjects: readonly ModuleSubject[], id: string): ModuleSubject[] {
+  const parent = parentOf(subjects, id)
+  return parent ? (parent.children ?? []) : [...subjects]
+}
+
+/** True when `id` sits anywhere beneath `ancestorId`, at any depth. */
+export function isDescendantOf(subjects: readonly ModuleSubject[], ancestorId: string, id: string): boolean {
+  const ancestor = findSubject(subjects, ancestorId)
+  if (!ancestor) return false
+  return walkSubjects(ancestor.children ?? []).some((subject) => subject.id === id)
+}
+
+/**
+ * Whether a move is one the tree can survive.
+ *
+ * The only truly impossible move is a branch into its own descendant, which
+ * would cut that branch off from the module entirely. Refusing it here rather
+ * than at each call site is what lets the rail light up a drop target only when
+ * releasing there would actually work.
+ */
+export function canMoveSubject(subjects: readonly ModuleSubject[], id: string, drop: SubjectDrop): boolean {
+  if (!findSubject(subjects, id)) return false
+  if (drop.targetId === null) return true
+  if (drop.targetId === id) return false
+  if (!findSubject(subjects, drop.targetId)) return false
+  return !isDescendantOf(subjects, id, drop.targetId)
+}
+
+/** Slide a subject in beside the target, wherever in the tree the target sits. */
+function insertBeside(
+  list: readonly ModuleSubject[],
+  targetId: string,
+  node: ModuleSubject,
+  offset: 0 | 1,
+): ModuleSubject[] | null {
+  const index = list.findIndex((subject) => subject.id === targetId)
+  if (index >= 0) {
+    const next = [...list]
+    next.splice(index + offset, 0, node)
+    return next
+  }
+  for (let i = 0; i < list.length; i += 1) {
+    const children = list[i].children
+    if (!children?.length) continue
+    const placed = insertBeside(children, targetId, node, offset)
+    if (!placed) continue
+    const next = [...list]
+    next[i] = { ...list[i], children: placed }
+    return next
+  }
+  return null
+}
+
+/**
+ * Move a subject — with everything beneath it — somewhere else in the tree.
+ *
+ * `addSubject` deliberately never re-parents, because a new branch is always a
+ * new one. Rearranging an existing list is the other job, and the difference
+ * that matters is marks: only a module's direct subjects carry them, so a move
+ * can change what the module is worth. `marksLostByMove` is how a caller finds
+ * that out before asking for it; this function performs what it is told.
+ *
+ * A move that cannot be made leaves the tree exactly as it was.
+ */
+export function moveSubject(subjects: readonly ModuleSubject[], id: string, drop: SubjectDrop): ModuleSubject[] {
+  if (!canMoveSubject(subjects, id, drop)) return [...subjects]
+  const taken = findSubject(subjects, id)!
+  const without = removeSubject(subjects, id)
+  if (drop.kind === 'inside') {
+    if (!drop.targetId) return [...without, taken]
+    return updateSubject(without, drop.targetId, (parent) => ({
+      ...parent,
+      children: [...(parent.children ?? []), taken],
+    }))
+  }
+  return insertBeside(without, drop.targetId, taken, drop.kind === 'before' ? 0 : 1) ?? [...subjects]
+}
+
+/** One step up or down among its own siblings. The ends of a list hold. */
+export function nudgeSubject(subjects: readonly ModuleSubject[], id: string, direction: -1 | 1): ModuleSubject[] {
+  const siblings = siblingsOf(subjects, id)
+  const index = siblings.findIndex((subject) => subject.id === id)
+  const neighbour = index + direction
+  if (index < 0 || neighbour < 0 || neighbour >= siblings.length) return [...subjects]
+  return moveSubject(subjects, id, { kind: direction < 0 ? 'before' : 'after', targetId: siblings[neighbour].id })
+}
+
+/** Tuck a subject under the sibling above it. The first of a list has none. */
+export function indentSubject(subjects: readonly ModuleSubject[], id: string): ModuleSubject[] {
+  const siblings = siblingsOf(subjects, id)
+  const index = siblings.findIndex((subject) => subject.id === id)
+  if (index <= 0) return [...subjects]
+  return moveSubject(subjects, id, { kind: 'inside', targetId: siblings[index - 1].id })
+}
+
+/** Lift a subject out to sit just after its parent. A top subject has nowhere. */
+export function outdentSubject(subjects: readonly ModuleSubject[], id: string): ModuleSubject[] {
+  const parent = parentOf(subjects, id)
+  if (!parent) return [...subjects]
+  return moveSubject(subjects, id, { kind: 'after', targetId: parent.id })
+}
+
+/** Whether the subject would land as a direct subject of the module. */
+function landsAtTop(subjects: readonly ModuleSubject[], drop: SubjectDrop): boolean {
+  if (drop.kind === 'inside') return drop.targetId === null
+  return subjects.some((subject) => subject.id === drop.targetId)
+}
+
+/**
+ * The marks a move would stop counting towards the module.
+ *
+ * Only a module's direct subjects carry marks, so tucking a marked one under
+ * another costs the module exactly that much — silently, because the number
+ * stays written on the subject and simply stops being added up. An
+ * administrator dragging `Anatomy` to tidy a list is not offering to make the
+ * module worth 30 instead of 100, so the rail asks first, and this is the
+ * figure it asks with. Promoting or reordering costs nothing and returns zero.
+ */
+export function marksLostByMove(subjects: readonly ModuleSubject[], id: string, drop: SubjectDrop): number {
+  if (!canMoveSubject(subjects, id, drop)) return 0
+  if (landsAtTop(subjects, drop)) return 0
+  const direct = subjects.find((subject) => subject.id === id)
+  return direct ? subjectTotal(direct) : 0
+}

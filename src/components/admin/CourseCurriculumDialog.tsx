@@ -1,13 +1,14 @@
-import { useMemo, useState } from 'react'
-import { BookOpenText, ChevronRight, Eraser, FileQuestion, Filter, FolderOpen, GitFork, Layers3, Library, Minus, Pencil, Plus, Stethoscope, Trash2, X } from 'lucide-react'
+import { useMemo, useState, type DragEvent } from 'react'
+import { ArrowDown, ArrowUp, ArrowUpDown, BookOpenText, ChevronRight, Eraser, FileQuestion, Filter, FolderOpen, GitFork, GripVertical, Indent, Layers3, Library, Minus, Outdent, Pencil, Plus, Stethoscope, Trash2, TriangleAlert, X, type LucideIcon } from 'lucide-react'
 import type { CurriculumCourse } from '@/data/universities'
 import type { ManagedContentItem } from '@/data/contentControl'
 import type { ConceptGraph } from '@/data/conceptGraph'
 import { buildCurriculumMembership } from '@/data/curriculumMembership'
 import { COURSE_CURRICULA_STORAGE_KEY, EMPTY_CURRICULUM_SELECTION as EMPTY, curriculumCount, type CourseCurriculumSelection } from '@/data/courseCurriculum'
 import {
-  addSubject, curriculumOfTree, findSubject, mergeCurricula, newModuleSubject, removeSubject,
-  subjectPath, updateSubject, walkSubjects, type ModuleSubject,
+  addSubject, canMoveSubject, curriculumOfTree, findSubject, marksLostByMove, mergeCurricula,
+  moveSubject, newModuleSubject, parentOf, removeSubject, siblingsOf, subjectPath, updateSubject,
+  walkSubjects, type ModuleSubject, type SubjectDrop,
 } from '@/data/moduleSubjects'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
@@ -32,6 +33,204 @@ const TAB_FIELD = {
   concept: 'conceptIds',
   resource: 'resourceIds',
 } as const
+
+/** The rail's own id for the whole-module row, which is no subject at all. */
+const WHOLE_MODULE = '\u0000whole-module'
+
+/** Back to the top of the module, where a subject's marks are counted again. */
+const TO_TOP: SubjectDrop = { kind: 'inside', targetId: null }
+
+/** What a drag is currently proposing, so the row under the pointer can show it. */
+interface DropHint { targetId: string; kind: SubjectDrop['kind'] }
+
+/**
+ * Everything a rail row needs from the dialog around it.
+ *
+ * The row used to be declared inside the dialog. That gave React a new
+ * component type on every render, so the whole rail was thrown away and rebuilt
+ * on each keystroke — taking the caret in the name being typed to the end of
+ * the field with it. Handing the row its context instead is what keeps it one
+ * stable component, and the caret where the author put it.
+ */
+interface Rail {
+  subjects: ModuleSubject[]
+  active: string | null
+  collapsed: string[]
+  renaming: string | null
+  nameDraft: string
+  arranging: boolean
+  dragging: string | null
+  hint: DropHint | null
+  select: (id: string | null) => void
+  toggleOpen: (id: string) => void
+  setNameDraft: (value: string) => void
+  startRename: (subject: ModuleSubject) => void
+  cancelRename: () => void
+  saveName: (id: string) => void
+  add: (parentId: string | null) => void
+  remove: (id: string) => void
+  setDragging: (id: string | null) => void
+  setHint: (hint: DropHint | null) => void
+  /** Every rearrangement — dragged or pressed — asks through here. */
+  move: (id: string, drop: SubjectDrop) => void
+}
+
+/**
+ * One subject in the rail, and everything beneath it.
+ *
+ * A row can be dragged anywhere the tree allows: onto the top or bottom edge of
+ * another row to sit beside it, or into its middle to sit under it. The same
+ * four moves are on buttons under `Arrange`, because a curriculum of eighteen
+ * lectures is not a thing anyone should have to drag one at a time, and because
+ * a drag is not a gesture a keyboard has.
+ */
+function RailRow({ subject, depth, rail }: { subject: ModuleSubject; depth: number; rail: Rail }) {
+  const children = subject.children ?? []
+  const isOpen = !rail.collapsed.includes(subject.id)
+  const isActive = rail.active === subject.id
+  const covered = curriculumCount(curriculumOfTree(subject))
+  const name = subject.name || 'subject'
+
+  const siblings = siblingsOf(rail.subjects, subject.id)
+  const index = siblings.findIndex((entry) => entry.id === subject.id)
+  const above = index > 0 ? siblings[index - 1] : null
+  const below = index >= 0 && index < siblings.length - 1 ? siblings[index + 1] : null
+  const parent = parentOf(rail.subjects, subject.id)
+
+  /** The four pressable moves. Each is disabled where it has nowhere to go. */
+  const moves: { icon: LucideIcon; label: string; mirror?: boolean; drop: SubjectDrop | null }[] = [
+    { icon: ArrowUp, label: `Move ${name} up`, drop: above ? { kind: 'before', targetId: above.id } : null },
+    { icon: ArrowDown, label: `Move ${name} down`, drop: below ? { kind: 'after', targetId: below.id } : null },
+    { icon: Outdent, mirror: true, label: `Move ${name} out from under ${parent?.name || 'its parent'}`, drop: parent ? { kind: 'after', targetId: parent.id } : null },
+    { icon: Indent, mirror: true, label: `Move ${name} under ${above?.name || 'the subject above'}`, drop: above ? { kind: 'inside', targetId: above.id } : null },
+  ]
+
+  const hint = rail.hint?.targetId === subject.id ? rail.hint.kind : null
+
+  /**
+   * What releasing here would mean: the top and bottom edges place the dragged
+   * subject beside this one, the middle puts it inside. Null when the tree
+   * would not survive it, which is also how the row knows not to light up.
+   */
+  function proposalAt(event: DragEvent<HTMLElement>): SubjectDrop | null {
+    if (!rail.dragging) return null
+    const box = event.currentTarget.getBoundingClientRect()
+    const ratio = (event.clientY - box.top) / (box.height || 1)
+    const kind = ratio < 0.28 ? 'before' : ratio > 0.72 ? 'after' : 'inside'
+    const drop = { kind, targetId: subject.id } as SubjectDrop
+    return canMoveSubject(rail.subjects, rail.dragging, drop) ? drop : null
+  }
+
+  return (
+    <li>
+      {rail.renaming === subject.id ? (
+        <form
+          className="flex items-center gap-1 py-0.5"
+          style={{ paddingInlineStart: `${depth * 0.85}rem` }}
+          onSubmit={(event) => { event.preventDefault(); rail.saveName(subject.id) }}
+        >
+          <TextInput
+            value={rail.nameDraft}
+            onChange={(event) => rail.setNameDraft(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter') { event.preventDefault(); rail.saveName(subject.id) }
+              if (event.key === 'Escape') { event.preventDefault(); rail.cancelRename() }
+            }}
+            className="h-8 min-w-0 flex-1"
+            autoFocus
+            placeholder="Subject name"
+            aria-label="Subject name"
+          />
+          <Button type="submit" variant="primary" size="sm">OK</Button>
+        </form>
+      ) : (
+        <div
+          draggable
+          onDragStart={(event) => { event.dataTransfer.effectAllowed = 'move'; event.dataTransfer.setData('text/plain', subject.id); rail.setDragging(subject.id) }}
+          onDragEnd={() => { rail.setDragging(null); rail.setHint(null) }}
+          onDragOver={(event) => {
+            const drop = proposalAt(event)
+            if (!drop) return
+            event.preventDefault()
+            event.dataTransfer.dropEffect = 'move'
+            rail.setHint({ targetId: subject.id, kind: drop.kind })
+          }}
+          onDrop={(event) => {
+            const drop = proposalAt(event)
+            const dragged = rail.dragging
+            rail.setHint(null)
+            if (!drop || !dragged) return
+            event.preventDefault()
+            rail.move(dragged, drop)
+          }}
+          className={cn(
+            'group flex items-center gap-0.5 rounded-lg',
+            isActive ? 'bg-primary-tint' : 'hover:bg-inset',
+            rail.dragging === subject.id && 'opacity-40',
+            hint === 'inside' && 'ring-2 ring-primary',
+            hint === 'before' && 'shadow-[inset_0_2px_0_0_var(--color-primary)]',
+            hint === 'after' && 'shadow-[inset_0_-2px_0_0_var(--color-primary)]',
+          )}
+          style={{ paddingInlineStart: `${depth * 0.85}rem` }}
+        >
+          <span className="grid size-4 shrink-0 cursor-grab place-items-center text-ink-3/45 active:cursor-grabbing" title={`Drag to move ${name}`}>
+            <Icon icon={GripVertical} size={12} />
+          </span>
+          <button
+            type="button"
+            onClick={() => rail.toggleOpen(subject.id)}
+            className={cn('grid size-6 shrink-0 place-items-center rounded text-ink-3', children.length === 0 && 'invisible')}
+            aria-label={isOpen ? `Collapse ${name}` : `Expand ${name}`}
+            aria-expanded={isOpen}
+          >
+            <Icon icon={ChevronRight} size={12} className={cn('chevron-turn')} open={isOpen} />
+          </button>
+          <button
+            type="button"
+            onClick={() => rail.select(subject.id)}
+            onDoubleClick={() => rail.startRename(subject)}
+            className={cn('min-w-0 flex-1 truncate py-2 pe-1 text-start text-[12.5px]', isActive ? 'font-medium text-primary-strong' : 'text-ink-2')}
+          >
+            {subject.name || 'Untitled subject'}
+            <span className="tnum ms-1.5 font-mono text-[10.5px] text-ink-3">{covered}</span>
+          </button>
+          {rail.arranging ? (
+            moves.map((move) => (
+              <button
+                key={move.label}
+                type="button"
+                disabled={!move.drop}
+                onClick={() => { if (move.drop) rail.move(subject.id, move.drop) }}
+                className="grid size-6 shrink-0 place-items-center rounded text-ink-3 hover:text-primary-strong disabled:pointer-events-none disabled:opacity-25"
+                aria-label={move.label}
+                title={move.label}
+              >
+                <Icon icon={move.icon} size={12} className={cn(move.mirror && 'rtl:-scale-x-100')} />
+              </button>
+            ))
+          ) : (
+            <>
+              <button type="button" onClick={() => rail.add(subject.id)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:text-primary-strong" aria-label={`Add a subject under ${name}`}>
+                <Icon icon={Plus} size={12} />
+              </button>
+              <button type="button" onClick={() => rail.startRename(subject)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:text-ink" aria-label={`Rename ${name}`}>
+                <Icon icon={Pencil} size={12} />
+              </button>
+              <button type="button" onClick={() => rail.remove(subject.id)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Remove ${name}`}>
+                <Icon icon={Trash2} size={12} />
+              </button>
+            </>
+          )}
+        </div>
+      )}
+      {isOpen && children.length > 0 && (
+        <ul className="space-y-0.5">
+          {children.map((child) => <RailRow key={child.id} subject={child} depth={depth + 1} rail={rail} />)}
+        </ul>
+      )}
+    </li>
+  )
+}
 
 /**
  * What a module covers, chosen one subject at a time — and one branch of a
@@ -65,6 +264,11 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
   const [collapsed, setCollapsed] = useState<string[]>([])
   const [renaming, setRenaming] = useState<string | null>(null)
   const [nameDraft, setNameDraft] = useState('')
+  const [arranging, setArranging] = useState(false)
+  const [dragging, setDragging] = useState<string | null>(null)
+  const [hint, setHint] = useState<DropHint | null>(null)
+  /** A move that would cost the module marks, held until it is confirmed. */
+  const [pending, setPending] = useState<{ id: string; drop: SubjectDrop; marks: number } | null>(null)
   const [tab, setTab] = useState<CurriculumTab>('topics')
   const [query, setQuery] = useState('')
   const [subjectId, setSubjectId] = useState('all')
@@ -171,81 +375,52 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
     setModuleSubjects((currentSubjects) => updateSubject(currentSubjects, id, (subject) => ({ ...subject, name })))
   }
 
+  function applyMove(id: string, drop: SubjectDrop) {
+    setModuleSubjects((currentSubjects) => moveSubject(currentSubjects, id, drop))
+    // A subject dropped into a collapsed parent would otherwise vanish.
+    if (drop.kind === 'inside' && drop.targetId) setCollapsed((current) => current.filter((entry) => entry !== drop.targetId))
+    setPending(null)
+  }
+
+  /**
+   * Every rearrangement, dragged or pressed, comes through here — and every one
+   * that would stop a subject's marks counting towards the module is held for
+   * an answer first rather than quietly changing what the module is worth.
+   */
+  function requestMove(id: string, drop: SubjectDrop) {
+    if (!canMoveSubject(moduleSubjects, id, drop)) return
+    const marks = marksLostByMove(moduleSubjects, id, drop)
+    if (marks > 0) { setPending({ id, drop, marks }); return }
+    applyMove(id, drop)
+  }
+
+  const rail: Rail = {
+    subjects: moduleSubjects,
+    active, collapsed, renaming, nameDraft, arranging, dragging, hint,
+    select: setActive,
+    toggleOpen: (id) => setCollapsed((current) => (current.includes(id) ? current.filter((entry) => entry !== id) : [...current, id])),
+    setNameDraft,
+    startRename: (subject) => { setRenaming(subject.id); setNameDraft(subject.name) },
+    cancelRename: () => setRenaming(null),
+    saveName,
+    add: addBranch,
+    remove: dropBranch,
+    setDragging,
+    setHint,
+    move: requestMove,
+  }
+
+  /** The subject a held move would land beneath, named in the warning. */
+  const pendingParent = pending
+    ? pending.drop.kind === 'inside'
+      ? (pending.drop.targetId ? findSubject(moduleSubjects, pending.drop.targetId) : undefined)
+      : parentOf(moduleSubjects, pending.drop.targetId) ?? undefined
+    : undefined
+
   const tabNoun = tab === 'question' ? 'questions' : tab === 'practical' ? 'practical items' : tab === 'resource' ? 'resources' : tab === 'concept' ? 'concepts' : 'articles'
   const filteredIds = tab === 'concept' ? filteredConcepts.map((concept) => concept.id) : filtered.map((item) => item.id)
   const filteredSelected = filteredIds.filter((id) => selected.includes(id))
   const trail = current ? subjectPath(moduleSubjects, current.id) : []
-
-  function RailRow({ subject, depth }: { subject: ModuleSubject; depth: number }) {
-    const children = subject.children ?? []
-    const isOpen = !collapsed.includes(subject.id)
-    const isActive = active === subject.id
-    const covered = curriculumCount(curriculumOfTree(subject))
-
-    return (
-      <li>
-        {renaming === subject.id ? (
-          <form
-            className="flex items-center gap-1 py-0.5"
-            style={{ paddingInlineStart: `${depth * 0.85}rem` }}
-            onSubmit={(event) => { event.preventDefault(); saveName(subject.id) }}
-          >
-            <TextInput
-              value={nameDraft}
-              onChange={(event) => setNameDraft(event.target.value)}
-              onKeyDown={(event) => {
-                if (event.key === 'Enter') { event.preventDefault(); saveName(subject.id) }
-                if (event.key === 'Escape') { event.preventDefault(); setRenaming(null) }
-              }}
-              className="h-8 min-w-0 flex-1"
-              autoFocus
-              placeholder="Subject name"
-              aria-label="Subject name"
-            />
-            <Button type="submit" variant="primary" size="sm">OK</Button>
-          </form>
-        ) : (
-          <div
-            className={cn('group flex items-center gap-0.5 rounded-lg', isActive ? 'bg-primary-tint' : 'hover:bg-inset')}
-            style={{ paddingInlineStart: `${depth * 0.85}rem` }}
-          >
-            <button
-              type="button"
-              onClick={() => setCollapsed((current) => current.includes(subject.id) ? current.filter((id) => id !== subject.id) : [...current, subject.id])}
-              className={cn('grid size-6 shrink-0 place-items-center rounded text-ink-3', children.length === 0 && 'invisible')}
-              aria-label={isOpen ? `Collapse ${subject.name || 'subject'}` : `Expand ${subject.name || 'subject'}`}
-              aria-expanded={isOpen}
-            >
-              <Icon icon={ChevronRight} size={12} className={cn('chevron-turn')} open={isOpen} />
-            </button>
-            <button
-              type="button"
-              onClick={() => setActive(subject.id)}
-              onDoubleClick={() => { setRenaming(subject.id); setNameDraft(subject.name) }}
-              className={cn('min-w-0 flex-1 truncate py-2 pe-1 text-start text-[12.5px]', isActive ? 'font-medium text-primary-strong' : 'text-ink-2')}
-            >
-              {subject.name || 'Untitled subject'}
-              <span className="tnum ms-1.5 font-mono text-[10.5px] text-ink-3">{covered}</span>
-            </button>
-            <button type="button" onClick={() => addBranch(subject.id)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:text-primary-strong" aria-label={`Add a subject under ${subject.name || 'this subject'}`}>
-              <Icon icon={Plus} size={12} />
-            </button>
-            <button type="button" onClick={() => { setRenaming(subject.id); setNameDraft(subject.name) }} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:text-ink" aria-label={`Rename ${subject.name || 'subject'}`}>
-              <Icon icon={Pencil} size={12} />
-            </button>
-            <button type="button" onClick={() => dropBranch(subject.id)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Remove ${subject.name || 'subject'}`}>
-              <Icon icon={Trash2} size={12} />
-            </button>
-          </div>
-        )}
-        {isOpen && children.length > 0 && (
-          <ul className="space-y-0.5">
-            {children.map((child) => <RailRow key={child.id} subject={child} depth={depth + 1} />)}
-          </ul>
-        )}
-      </li>
-    )
-  }
 
   return (
     <div className="fixed inset-0 z-50 grid place-items-center bg-ink/25 p-0 backdrop-blur-[2px] sm:p-4" role="dialog" aria-modal="true" aria-labelledby="course-curriculum-title">
@@ -266,12 +441,27 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
           {/* Subjects rail — the same list the Marks & Exams dialog edits, and
               whatever each subject has been split into beneath it. */}
           <aside className="max-h-[30vh] shrink-0 overflow-y-auto border-b border-line bg-surface-2/40 p-2 lg:max-h-none lg:w-72 lg:border-b-0 lg:border-e">
+            {/* Also where a subject is dropped to bring it back to the top of
+                the module — the one level at which marks are counted. */}
             <button
               type="button"
               onClick={() => setActive(null)}
+              onDragOver={(event) => {
+                if (!dragging || !canMoveSubject(moduleSubjects, dragging, TO_TOP)) return
+                event.preventDefault()
+                event.dataTransfer.dropEffect = 'move'
+                setHint({ targetId: WHOLE_MODULE, kind: 'inside' })
+              }}
+              onDragLeave={() => setHint((current) => (current?.targetId === WHOLE_MODULE ? null : current))}
+              onDrop={(event) => {
+                event.preventDefault()
+                setHint(null)
+                if (dragging) requestMove(dragging, TO_TOP)
+              }}
               className={cn(
                 'flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-start text-[12.5px] font-semibold',
                 wholeModule ? 'bg-primary-tint text-primary-strong' : 'text-ink hover:bg-inset',
+                hint?.targetId === WHOLE_MODULE && 'ring-2 ring-primary',
               )}
             >
               <Icon icon={Library} size={15} />
@@ -279,13 +469,46 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
               <span className="tnum font-mono text-[11px] text-ink-3">{curriculumCount(merged)}</span>
             </button>
 
-            <p className="mb-1 mt-3 px-2.5 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">Subjects</p>
+            <div className="mb-1 mt-3 flex items-center gap-1 px-2.5">
+              <p className="min-w-0 flex-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">Subjects</p>
+              <button
+                type="button"
+                onClick={() => setArranging((current) => !current)}
+                aria-pressed={arranging}
+                className={cn(
+                  'flex shrink-0 items-center gap-1 rounded-md px-1.5 py-0.5 text-[10.5px] font-semibold',
+                  arranging ? 'bg-primary-tint text-primary-strong' : 'text-ink-3 hover:bg-inset hover:text-ink-2',
+                )}
+              >
+                <Icon icon={ArrowUpDown} size={11} />
+                Arrange
+              </button>
+            </div>
             <ul className="space-y-0.5">
-              {moduleSubjects.map((subject) => <RailRow key={subject.id} subject={subject} depth={0} />)}
+              {moduleSubjects.map((subject) => <RailRow key={subject.id} subject={subject} depth={0} rail={rail} />)}
             </ul>
+
+            {pending && (
+              <div className="sticky bottom-0 z-10 mt-2 rounded-lg border border-warning bg-warning-tint px-3 py-2.5 shadow-pop">
+                <p className="text-[11.5px] leading-relaxed text-ink-2">
+                  <Icon icon={TriangleAlert} size={13} className="me-1 inline align-[-2px] text-warning" />
+                  Putting <strong className="text-ink">{findSubject(moduleSubjects, pending.id)?.name || 'this subject'}</strong>{' '}
+                  under <strong className="text-ink">{pendingParent?.name || 'another subject'}</strong> stops its{' '}
+                  {pending.marks} {pending.marks === 1 ? 'mark' : 'marks'} counting towards the module total. The number
+                  stays on the subject — only a module’s own subjects are added up.
+                </p>
+                <div className="mt-2 flex justify-end gap-1.5">
+                  <Button type="button" size="sm" variant="ghost" onClick={() => setPending(null)}>Leave it</Button>
+                  <Button type="button" size="sm" variant="primary" onClick={() => applyMove(pending.id, pending.drop)}>Move anyway</Button>
+                </div>
+              </div>
+            )}
+
             <Button className="mt-2 w-full" variant="secondary" size="sm" iconLeft={Plus} onClick={() => addBranch(null)}>Add subject</Button>
             <p className="mt-2 px-2.5 text-[11px] leading-relaxed text-ink-3">
-              Marks stay on a module’s own subjects. Splitting one does not change what it is worth.
+              {arranging
+                ? 'Drag a subject onto another’s middle to nest it, or onto an edge to sit beside it. Drop on Whole module to bring it back to the top.'
+                : 'Marks stay on a module’s own subjects. Splitting one does not change what it is worth.'}
             </p>
           </aside>
 
