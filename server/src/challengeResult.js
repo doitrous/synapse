@@ -10,6 +10,22 @@ export function bothFinished(challenge) {
   return Boolean(challenge?.challengerFinishedAt && challenge?.opponentFinishedAt)
 }
 
+/**
+ * Whether this side may declare itself finished.
+ *
+ * `submitChallengeAnswer` already refuses outside `running`; `finishChallenge`
+ * used to have no equivalent gate, so a challenge sitting at `sent` (never
+ * accepted) or `declined` could still be pushed straight to `complete` by two
+ * finish calls, with zero answers recorded. Both halves of the check matter:
+ * the status gate stops that, and the per-side timestamp stops a duplicate
+ * finish call from being read as a second, later signal.
+ */
+export function canFinish(row, side) {
+  if (!row || row.status !== 'running') return false
+  const finishedAt = side === 'challenger' ? row.challengerFinishedAt : row.opponentFinishedAt
+  return !finishedAt
+}
+
 function sideFor(userId, answers) {
   const mine = answers.filter((answer) => answer.userId === userId)
   return {

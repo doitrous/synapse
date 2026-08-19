@@ -10,7 +10,7 @@
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { orderedPair } from './friendship.js'
-import { bothFinished, headToHead, sideOf } from './challengeResult.js'
+import { bothFinished, canFinish, headToHead, sideOf } from './challengeResult.js'
 
 const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
 
@@ -159,6 +159,13 @@ export async function finishChallenge(userId, id) {
   if (!row) return { ok: false, reason: 'not_found' }
   const side = sideOf(row, userId)
   if (!side) return { ok: false, reason: 'not_your_challenge' }
+  // Without this gate, either side could call finish while the challenge sits
+  // at `sent` (never accepted) or `declined`; two such calls would flip status
+  // straight to `complete` with zero answers recorded. Reasons match the
+  // vocabulary `submitChallengeAnswer` already uses for the same two cases.
+  if (!canFinish(row, side)) {
+    return { ok: false, reason: row.status !== 'running' ? 'not_running' : 'already_finished' }
+  }
 
   const column = side === 'challenger' ? 'challenger_finished_at' : 'opponent_finished_at'
   await pool.query(

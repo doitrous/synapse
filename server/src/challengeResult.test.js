@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { bothFinished, headToHead, sideOf } from './challengeResult.js'
+import { bothFinished, canFinish, headToHead, sideOf } from './challengeResult.js'
 
 test('a challenge is only finished when both sides are', () => {
   assert.equal(bothFinished({ challengerFinishedAt: null, opponentFinishedAt: null }), false)
@@ -63,4 +63,30 @@ test('each participant is told which side they are on', () => {
 test('a stranger cannot tell a challenge apart from one that does not exist', () => {
   assert.equal(sideOf({ challengerId: 'a', opponentId: 'b' }, 'c'), null)
   assert.equal(sideOf(null, 'c'), null)
+})
+
+test('a challenge that was never accepted cannot be finished', () => {
+  const sent = { status: 'sent', challengerFinishedAt: null, opponentFinishedAt: null }
+  assert.equal(canFinish(sent, 'challenger'), false)
+})
+
+test('a declined challenge cannot be finished', () => {
+  const declined = { status: 'declined', challengerFinishedAt: null, opponentFinishedAt: null }
+  assert.equal(canFinish(declined, 'opponent'), false)
+})
+
+test('an already-complete challenge cannot be finished again', () => {
+  const complete = { status: 'complete', challengerFinishedAt: 'x', opponentFinishedAt: 'y' }
+  assert.equal(canFinish(complete, 'challenger'), false)
+})
+
+test('a side that has already finished cannot finish twice', () => {
+  const row = { status: 'running', challengerFinishedAt: 'x', opponentFinishedAt: null }
+  assert.equal(canFinish(row, 'challenger'), false)
+})
+
+test('a running challenge can be finished by a side that has not finished yet', () => {
+  const row = { status: 'running', challengerFinishedAt: null, opponentFinishedAt: null }
+  assert.equal(canFinish(row, 'opponent'), true)
+  assert.equal(canFinish(row, 'challenger'), true)
 })
