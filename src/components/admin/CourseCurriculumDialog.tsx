@@ -4,6 +4,7 @@ import type { CurriculumCourse } from '@/data/universities'
 import type { ManagedContentItem } from '@/data/contentControl'
 import type { ConceptGraph } from '@/data/conceptGraph'
 import { buildCurriculumMembership } from '@/data/curriculumMembership'
+import { COURSE_CURRICULA_STORAGE_KEY, EMPTY_CURRICULUM_SELECTION as EMPTY, type CourseCurriculumSelection } from '@/data/courseCurriculum'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { subjects } from '@/data/subjects'
@@ -14,26 +15,11 @@ import { Icon } from '@/components/ui/Icon'
 import { Tabs } from '@/components/ui/Tabs'
 import { LibraryTopicPicker } from '@/components/admin/LibraryTopicPicker'
 
-/** Where a module's chosen content lives, keyed `${universityId}:${year}:${courseId}`. */
-export const COURSE_CURRICULA_STORAGE_KEY = 'synapse-course-curricula-v1'
-
-export interface CourseCurriculumSelection {
-  articleIds: string[]
-  questionIds: string[]
-  practicalIds: string[]
-  /**
-   * Library topics this module covers. Records intent, where the id lists record
-   * outcome — so "everything under Valve disease" survives content being added
-   * later, and the admin can re-run it rather than re-tick it.
-   */
-  topicNodeIds?: string[]
-  conceptIds?: string[]
-  resourceIds?: string[]
-}
+export { COURSE_CURRICULA_STORAGE_KEY }
+export type { CourseCurriculumSelection }
 
 type CurriculumTab = 'topics' | 'question' | 'practical' | 'concept' | 'resource'
 
-const EMPTY: CourseCurriculumSelection = { articleIds: [], questionIds: [], practicalIds: [], topicNodeIds: [], conceptIds: [], resourceIds: [] }
 
 /** Which list on the selection each content tab writes to. */
 const TAB_FIELD = {
