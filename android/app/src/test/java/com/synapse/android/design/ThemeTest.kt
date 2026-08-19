@@ -40,4 +40,38 @@ class ThemeTest {
         assertEquals(LightCortexColors.primary, DarkCortexColors.primary)
         assertNotEquals(LightCortexColors.primaryStrong, DarkCortexColors.primaryStrong)
     }
+
+    @Test
+    fun `light material scheme carries the Cortex tokens, not Material defaults`() {
+        val scheme = LightCortexColors.toMaterialScheme(dark = false)
+        assertEquals(LightCortexColors.primary, scheme.primary)
+        assertEquals(LightCortexColors.onPrimary, scheme.onPrimary)
+        assertEquals(LightCortexColors.paper, scheme.background)
+        assertEquals(LightCortexColors.surface, scheme.surface)
+        assertEquals(LightCortexColors.ink, scheme.onSurface)
+        assertEquals(LightCortexColors.danger, scheme.error)
+    }
+
+    @Test
+    fun `dark material scheme carries the Cortex tokens, not Material defaults`() {
+        val scheme = DarkCortexColors.toMaterialScheme(dark = true)
+        assertEquals(DarkCortexColors.primary, scheme.primary)
+        assertEquals(DarkCortexColors.onPrimary, scheme.onPrimary)
+        assertEquals(DarkCortexColors.paper, scheme.background)
+        assertEquals(DarkCortexColors.surface, scheme.surface)
+        assertEquals(DarkCortexColors.ink, scheme.onSurface)
+        assertEquals(DarkCortexColors.danger, scheme.error)
+    }
+
+    @Test
+    fun `headings resolve to the serif and body copy to the sans, as the web does`() {
+        // src/index.css h1-h5 take --font-serif; body takes --font-sans. Getting
+        // this backwards is silent at compile time, so it is pinned here.
+        assertEquals(CortexSerif, CortexTypography.headlineSmall.fontFamily)
+        assertEquals(CortexSerif, CortexTypography.titleLarge.fontFamily)
+        assertEquals(CortexSerif, CortexTypography.titleMedium.fontFamily)
+        assertEquals(CortexSans, CortexTypography.bodyLarge.fontFamily)
+        assertEquals(CortexSans, CortexTypography.bodyMedium.fontFamily)
+        assertEquals(CortexSans, CortexTypography.labelLarge.fontFamily)
+    }
 }
