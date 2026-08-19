@@ -51,3 +51,11 @@ ios/Synapse.xcodeproj/xcuserdata/
 # It lives in the project so tooling has a stable path, and must never be
 # committed — it is source material, not source code.
 corpus/
+
+# Android
+android/secrets.properties
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
