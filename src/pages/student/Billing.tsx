@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { CreditCard, BadgeCheck, LifeBuoy, TicketPercent, X } from 'lucide-react'
+import { CreditCard, BadgeCheck, IdCard, LifeBuoy, TicketPercent, X } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
+import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
 import { IconButton } from '@/components/ui/IconButton'
 import { TextInput } from '@/components/ui/Field'
@@ -14,6 +15,10 @@ import { useT } from '@/lib/i18n'
 import { formatLongDate } from '@/lib/format'
 import { findPlan, monthlyEquivalent, priceAt, say } from '@/data/planCatalog'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
+import {
+  DEFAULT_STUDENT_ID_DISCOUNT, STUDENT_ID_DISCOUNT_STORAGE_KEY, STUDENT_ID_STATUS_LABEL,
+  STUDENT_ID_SUBMISSION_STORAGE_KEY, type StudentIdDiscount, type StudentIdSubmission,
+} from '@/data/studentDiscount'
 import { voucherDiscount, voucherEligibility, voucherTrialDays, isTrialVoucher, initialVouchers, VOUCHER_STORAGE_KEY, type Voucher } from '@/data/vouchers'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 
@@ -54,6 +59,8 @@ export function Billing() {
   const t = useT()
   const { audience, entitlement, subscription, profileMissing } = useIdentity()
   const [catalog] = usePlanCatalog()
+  const [studentIdOffer] = usePersistentState<StudentIdDiscount>(STUDENT_ID_DISCOUNT_STORAGE_KEY, DEFAULT_STUDENT_ID_DISCOUNT)
+  const [studentIdDoc, setStudentIdDoc] = usePersistentState<StudentIdSubmission | null>(STUDENT_ID_SUBMISSION_STORAGE_KEY, null)
   const [vouchers] = usePersistentState<Voucher[]>(VOUCHER_STORAGE_KEY, initialVouchers)
   const [catalogue] = useUniversityCatalogue()
   const [redemption, setRedemption] = useState<Redemption | null>(null)
@@ -240,6 +247,45 @@ export function Billing() {
           )}
         </div>
       </Panel>
+
+      {/* Offered only where an administrator has switched it on, and never at
+          sign-up. Nothing is discounted until the document has been accepted:
+          showing the saving first would be a number the invoice disagrees with. */}
+      {studentIdOffer.enabled && (
+        <Panel className="mt-4">
+          <PanelHeader title={t('Student ID discount')} icon={IdCard} />
+          <div className="p-5">
+            <p className="text-[12.5px] leading-relaxed text-ink-2">
+              {t('Upload your student ID to claim {percent}% off. It is checked by the Synapse team, and the discount applies from your next invoice once it is accepted.')
+                .replace('{percent}', String(studentIdOffer.percent))}
+            </p>
+            {studentIdDoc ? (
+              <div className="mt-3 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface-2/50 px-3.5 py-3">
+                <span className="min-w-0 flex-1">
+                  <strong className="block truncate text-[13px] text-ink">{studentIdDoc.filename}</strong>
+                  <span className="mt-0.5 block text-[12px] text-ink-2">{t(STUDENT_ID_STATUS_LABEL[studentIdDoc.status])}</span>
+                </span>
+                <Button variant="ghost" size="sm" onClick={() => setStudentIdDoc(null)}>{t('Remove')}</Button>
+              </div>
+            ) : (
+              <label className="mt-3 inline-flex min-h-11 cursor-pointer items-center gap-2 rounded-lg border border-line-2 bg-surface px-3.5 text-[13px] font-semibold text-ink hover:bg-surface-2">
+                <Icon icon={IdCard} size={16} />
+                {t('Choose a file')}
+                <input
+                  type="file"
+                  accept="image/*,application/pdf"
+                  className="sr-only"
+                  onChange={(event) => {
+                    const file = event.target.files?.[0]
+                    if (!file) return
+                    setStudentIdDoc({ filename: file.name, uploadedAt: new Date().toISOString(), status: 'review' })
+                  }}
+                />
+              </label>
+            )}
+          </div>
+        </Panel>
+      )}
     </PageContainer>
   )
 }
