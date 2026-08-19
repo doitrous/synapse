@@ -31,6 +31,10 @@ import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
   invalidateStudyRoomSnapshot,
 } from './studyRooms.js'
+import {
+  createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
+  invalidateChallengeSnapshot,
+} from './challenges.js'
 import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests, directorySearch } from './friends.js'
 import { mintInvite, redeemInvite } from './friendInvites.js'
 import { toMariaDbDate } from './datetime.js'
@@ -49,9 +53,9 @@ let medicalResourceLoad = null
 /**
  * Drop any server-side cache a state write has just made stale.
  *
- * Two caches now read from `app_state` — the medical-resource snapshot and the
- * published-question set behind study rooms — so invalidation is one call
- * rather than a growing list at every write site.
+ * Three caches now read from `app_state` — the medical-resource snapshot, and
+ * the published-question set behind both study rooms and challenges — so
+ * invalidation is one call rather than a growing list at every write site.
  */
 function invalidateSnapshots(key) {
   if (key === MEDICAL_EVIDENCE_STATE_KEY) {
@@ -59,6 +63,7 @@ function invalidateSnapshots(key) {
     medicalResourceLoad = null
   }
   invalidateStudyRoomSnapshot(key)
+  invalidateChallengeSnapshot(key)
 }
 const app = express()
 /**
@@ -446,6 +451,36 @@ app.post('/api/study-rooms/:id/answers', requireAuthenticated, wrap(async (req, 
 
 app.post('/api/study-rooms/:id/finish', requireAuthenticated, wrap(async (req, res) => {
   res.json(await finishRoom(req.identity.id, req.params.id))
+}))
+
+/* ── Challenges ──────────────────────────────────────────────────────────── */
+
+app.post('/api/challenges', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createChallenge(req.identity.id, req.body ?? {}))
+}))
+
+app.get('/api/challenges/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ challenges: await myChallenges(req.identity.id) })
+}))
+
+app.get('/api/challenges/:id', requireAuthenticated, wrap(async (req, res) => {
+  const challenge = await challengeFor(req.identity.id, req.params.id)
+  // A non-participant gets the same answer as a non-existent challenge: whether
+  // a challenge exists between two other people is not theirs to probe.
+  if (!challenge) return res.status(404).json({ error: 'challenge not found' })
+  res.json({ challenge })
+}))
+
+app.post('/api/challenges/:id/respond', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await respondToChallenge(req.identity.id, req.params.id, Boolean(req.body?.accept)))
+}))
+
+app.post('/api/challenges/:id/answers', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await submitChallengeAnswer(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.post('/api/challenges/:id/finish', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await finishChallenge(req.identity.id, req.params.id))
 }))
 
 /* ── Friends ─────────────────────────────────────────────────────────────── */

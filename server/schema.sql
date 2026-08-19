@@ -496,3 +496,35 @@ CREATE TABLE IF NOT EXISTS friend_invites (
   used_by    VARCHAR(64) NULL,
   INDEX idx_friend_invites_user (user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* ── Challenges ──────────────────────────────────────────────────────────
+   A challenge is the same paper, sat apart.
+   `question_ids` is frozen at creation for the same reason a study room's is:
+   a question published or archived mid-challenge would change what is being
+   compared, and the comparison is the whole point. */
+CREATE TABLE IF NOT EXISTS challenges (
+  id                     VARCHAR(64) PRIMARY KEY,
+  challenger_id          VARCHAR(64) NOT NULL,
+  opponent_id            VARCHAR(64) NOT NULL,
+  question_ids           LONGTEXT NOT NULL,
+  scope_label            VARCHAR(255) NOT NULL,
+  status                 ENUM('sent','declined','running','complete') NOT NULL DEFAULT 'sent',
+  challenger_finished_at DATETIME NULL,
+  opponent_finished_at   DATETIME NULL,
+  created_at             TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_challenges_opponent (opponent_id, status),
+  INDEX idx_challenges_challenger (challenger_id, status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Marked by the server against the published question, never by the client —
+   a score the other student sees must not be self-reported. */
+CREATE TABLE IF NOT EXISTS challenge_answers (
+  challenge_id VARCHAR(64) NOT NULL,
+  user_id      VARCHAR(64) NOT NULL,
+  question_id  VARCHAR(96) NOT NULL,
+  chosen_index INT NOT NULL,
+  correct      TINYINT(1) NOT NULL,
+  seconds      INT NULL,
+  answered_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (challenge_id, user_id, question_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
