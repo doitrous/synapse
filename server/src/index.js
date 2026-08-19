@@ -31,6 +31,7 @@ import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
   invalidateStudyRoomSnapshot,
 } from './studyRooms.js'
+import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests } from './friends.js'
 import { toMariaDbDate } from './datetime.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
 
@@ -444,6 +445,24 @@ app.post('/api/study-rooms/:id/answers', requireAuthenticated, wrap(async (req, 
 
 app.post('/api/study-rooms/:id/finish', requireAuthenticated, wrap(async (req, res) => {
   res.json(await finishRoom(req.identity.id, req.params.id))
+}))
+
+/* ── Friends ─────────────────────────────────────────────────────────────── */
+
+app.get('/api/friends', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ friends: await myFriends(req.identity.id), requests: await myRequests(req.identity.id) })
+}))
+
+app.post('/api/friends/request', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await sendRequest(req.identity.id, req.body?.userId))
+}))
+
+app.post('/api/friends/respond', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await respondToRequest(req.identity.id, req.body?.userId, Boolean(req.body?.accept)))
+}))
+
+app.post('/api/friends/remove', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await removeFriend(req.identity.id, req.body?.userId))
 }))
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */

@@ -464,3 +464,23 @@ CREATE TABLE IF NOT EXISTS assistant_provider_keys (
   updated_by  VARCHAR(64) NULL,
   updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* ── Friends ─────────────────────────────────────────────────────────────
+   A friendship is a single row with its pair sorted, so two students pressing
+   Add at the same moment cannot create two rows describing one friendship.
+   `requested_by` is kept because it decides who is allowed to answer. */
+CREATE TABLE IF NOT EXISTS friendships (
+  user_a       VARCHAR(64) NOT NULL,
+  user_b       VARCHAR(64) NOT NULL,
+  requested_by VARCHAR(64) NOT NULL,
+  status       ENUM('pending','accepted','declined') NOT NULL DEFAULT 'pending',
+  created_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  responded_at DATETIME NULL,
+  PRIMARY KEY (user_a, user_b),
+  INDEX idx_friendships_b (user_b, status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Whether this student may be found in their cohort's directory. Default on:
+   being findable by your own classmates is the point of the directory, and the
+   cohort is already closed. The toggle lives in Account. */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS discoverable BOOLEAN NOT NULL DEFAULT 1;
