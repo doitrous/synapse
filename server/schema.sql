@@ -445,3 +445,22 @@ CREATE TABLE IF NOT EXISTS assistant_usage (
   PRIMARY KEY (user_id, day),
   INDEX idx_assistant_usage_day (day)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* The assistant is no longer tied to one vendor. `provider` selects the wire
+   format and the endpoint; `base_url` overrides it for a self-hosted or
+   OpenAI-compatible endpoint that has no entry of its own. */
+ALTER TABLE assistant_settings ADD COLUMN IF NOT EXISTS provider VARCHAR(32) NOT NULL DEFAULT 'anthropic' AFTER enabled;
+ALTER TABLE assistant_settings ADD COLUMN IF NOT EXISTS base_url VARCHAR(300) NULL AFTER model;
+
+/* One key per provider, rather than one key.
+   Switching from Groq to Gemini to compare them should not mean pasting a key
+   back in each time, and a key that has to be re-entered to switch is a key
+   that ends up somewhere more convenient and less safe. Encrypted exactly as
+   the single key was; `key_hint` is the last four characters. */
+CREATE TABLE IF NOT EXISTS assistant_provider_keys (
+  provider    VARCHAR(32) PRIMARY KEY,
+  api_key_enc TEXT NOT NULL,
+  key_hint    VARCHAR(8) NULL,
+  updated_by  VARCHAR(64) NULL,
+  updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

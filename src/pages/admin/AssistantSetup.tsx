@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { Bot, CircleAlert, KeyRound, Plus, RotateCcw, Trash2, TriangleAlert } from 'lucide-react'
+import { useEffect, useMemo, useState } from 'react'
+import { Bot, CircleAlert, KeyRound, Plus, RefreshCw, RotateCcw, Trash2, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -24,29 +24,17 @@ import { useAssistantAdmin, type AssistantTier } from '@/lib/useAssistantAdmin'
  * reading over a shoulder.
  */
 
-/**
- * Models offered by name, with a free-text escape.
- *
- * A fixed list goes stale the week a model ships, and a bare text field makes a
- * typo indistinguishable from a deliberate choice. So: the current family, plus
- * "Custom" for anything newer.
- */
-const MODELS = [
-  { id: 'claude-opus-5', label: 'Opus 5 — most capable' },
-  { id: 'claude-sonnet-5', label: 'Sonnet 5 — balanced (recommended)' },
-  { id: 'claude-fable-5', label: 'Fable 5' },
-  { id: 'claude-haiku-4-5-20251001', label: 'Haiku 4.5 — fastest, cheapest' },
-]
-
 function emptyTier(): AssistantTier {
   return { plan: '', label: '', dailyMessages: 30, enabled: true }
 }
 
 export function AssistantSetup() {
-  const { settings, usage, loading, saving, error, notice, save, saveTier, removeTier, reload, live } = useAssistantAdmin()
+  const { settings, usage, loading, saving, error, notice, save, saveTier, removeTier, reload, live,
+          models, modelsLoading, loadModels } = useAssistantAdmin()
 
+  const [provider, setProvider] = useState('')
+  const [baseUrl, setBaseUrl] = useState('')
   const [model, setModel] = useState('')
-  const [customModel, setCustomModel] = useState('')
   const [maxTokens, setMaxTokens] = useState(700)
   const [temperature, setTemperature] = useState(0.3)
   const [extraPrompt, setExtraPrompt] = useState('')
@@ -57,13 +45,20 @@ export function AssistantSetup() {
   // was rejected leaves the fields showing what is actually stored.
   useEffect(() => {
     if (!settings) return
-    const known = MODELS.some((m) => m.id === settings.model)
-    setModel(known ? settings.model : 'custom')
-    setCustomModel(known ? '' : settings.model)
+    setProvider(settings.provider)
+    setBaseUrl(settings.baseUrl)
+    setModel(settings.model)
     setMaxTokens(settings.maxTokens)
     setTemperature(settings.temperature)
     setExtraPrompt(settings.extraPrompt)
   }, [settings])
+
+  const activeProvider = settings?.providers.find((entry) => entry.id === provider)
+  /** The live list when it is for this provider, else the built-in suggestions. */
+  const modelOptions = useMemo(() => {
+    const live = models && models.provider === provider ? models.models : []
+    return live.length ? live : (activeProvider?.suggested ?? [])
+  }, [models, provider, activeProvider])
 
   if (!live) {
     return (
@@ -132,9 +127,9 @@ export function AssistantSetup() {
           {/* ---- Key ---- */}
           <Panel>
             <PanelHeader
-              title="API key"
+              title={`API key — ${activeProvider?.label ?? 'provider'}`}
               icon={KeyRound}
-              hint="Stored encrypted. Never sent back to this screen."
+              hint="One key per provider, stored encrypted. Never sent back to this screen."
             />
             <div className="grid gap-4 border-t border-line p-4 sm:p-5">
               <div className="flex flex-wrap items-center gap-2.5">
@@ -143,9 +138,19 @@ export function AssistantSetup() {
                   <Badge tone="success" dot>Stored key ····{settings.keyHint}</Badge>
                 )}
                 {settings.keySource === 'environment' && (
-                  <Badge tone="neutral" dot>ANTHROPIC_API_KEY from the environment</Badge>
+                  <Badge tone="neutral" dot>A key from the server environment</Badge>
                 )}
                 {settings.keySource === 'none' && <Badge tone="danger" dot>No key — the assistant cannot answer</Badge>}
+                {activeProvider?.consoleUrl && (
+                  <a
+                    href={activeProvider.consoleUrl}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-[12.5px] font-medium text-accent-strong hover:underline"
+                  >
+                    Get a {activeProvider.label} key
+                  </a>
+                )}
               </div>
 
               {settings.keyUnreadable && (
@@ -163,7 +168,11 @@ export function AssistantSetup() {
               )}
 
               <div className="flex flex-wrap items-end gap-3">
-                <Field label="Replace the key" hint="Paste a new key to overwrite. Leave empty and save to clear it." className="min-w-[260px] flex-1">
+                <Field
+                  label={`Key for ${activeProvider?.label ?? 'this provider'}`}
+                  hint="Paste a key to store it against this provider. Switching provider does not lose the others."
+                  className="min-w-[260px] flex-1"
+                >
                   <TextInput
                     type="password"
                     autoComplete="off"
@@ -177,12 +186,12 @@ export function AssistantSetup() {
                   variant="primary"
                   loading={saving}
                   disabled={!settings.keyStorageAvailable || !apiKey.trim()}
-                  onClick={async () => { if (await save({ apiKey: apiKey.trim() })) setApiKey('') }}
+                  onClick={async () => { if (await save({ apiKey: apiKey.trim(), keyProvider: provider })) setApiKey('') }}
                 >
                   Save key
                 </Button>
                 {settings.keySource === 'stored' && (
-                  <Button variant="secondary" disabled={saving} onClick={() => void save({ apiKey: '' })}>
+                  <Button variant="secondary" disabled={saving} onClick={() => void save({ apiKey: '', keyProvider: provider })}>
                     Clear stored key
                   </Button>
                 )}
@@ -190,22 +199,90 @@ export function AssistantSetup() {
             </div>
           </Panel>
 
-          {/* ---- Model ---- */}
+          {/* ---- Provider and model ---- */}
           <Panel>
-            <PanelHeader title="Model" icon={Bot} hint="Applies to the next message a student sends." />
+            <PanelHeader
+              title="Provider and model"
+              icon={Bot}
+              hint="Applies to the next message a student sends."
+            />
             <div className="grid gap-4 border-t border-line p-4 sm:p-5 lg:grid-cols-2">
-              <Field label="Model" htmlFor="assistant-model">
-                <Select id="assistant-model" value={model} onChange={(event) => setModel(event.target.value)}>
-                  {MODELS.map((option) => <option key={option.id} value={option.id}>{option.label}</option>)}
-                  <option value="custom">Custom…</option>
+              <Field
+                label="Provider"
+                htmlFor="assistant-provider"
+                hint={activeProvider?.requiresBaseUrl
+                  ? 'Any OpenAI-compatible endpoint. Give it a base URL below.'
+                  : activeProvider?.defaultBaseUrl ?? undefined}
+              >
+                <Select
+                  id="assistant-provider"
+                  value={provider}
+                  onChange={(event) => {
+                    const next = event.target.value
+                    setProvider(next)
+                    // The model belongs to the provider: keeping the old id
+                    // would leave a Groq model selected against Gemini.
+                    const def = settings.providers.find((entry) => entry.id === next)
+                    setModel(def?.suggested[0] ?? '')
+                  }}
+                >
+                  {settings.providers.map((entry) => (
+                    <option key={entry.id} value={entry.id}>
+                      {entry.label}
+                      {entry.hasStoredKey || entry.hasEnvKey ? ' — key set' : ' — no key'}
+                    </option>
+                  ))}
                 </Select>
               </Field>
 
-              {model === 'custom' && (
-                <Field label="Model id" hint="Exactly as the provider names it.">
-                  <TextInput value={customModel} onChange={(event) => setCustomModel(event.target.value)} placeholder="claude-…" />
-                </Field>
-              )}
+              <Field
+                label="Base URL"
+                hint={activeProvider?.requiresBaseUrl
+                  ? 'Required for a custom provider.'
+                  : 'Leave empty to use the provider default. Set it to route through a proxy.'}
+              >
+                <TextInput
+                  value={baseUrl}
+                  onChange={(event) => setBaseUrl(event.target.value)}
+                  placeholder={activeProvider?.defaultBaseUrl ?? 'https://…/v1'}
+                />
+              </Field>
+
+              <Field
+                className="lg:col-span-2"
+                label="Model"
+                hint="Type any model id the provider accepts. Load the list to see what it offers today."
+              >
+                <div className="flex flex-wrap items-center gap-2">
+                  <TextInput
+                    className="min-w-[240px] flex-1"
+                    list="assistant-model-options"
+                    value={model}
+                    onChange={(event) => setModel(event.target.value)}
+                    placeholder={activeProvider?.suggested[0] ?? 'model-id'}
+                  />
+                  <Button
+                    variant="secondary"
+                    iconLeft={RefreshCw}
+                    loading={modelsLoading}
+                    onClick={() => void loadModels(provider)}
+                  >
+                    Load models
+                  </Button>
+                </div>
+                {/* A datalist, not a select: the list is a suggestion and the
+                    field must still accept a model released this morning. */}
+                <datalist id="assistant-model-options">
+                  {modelOptions.map((id) => <option key={id} value={id} />)}
+                </datalist>
+                {models && models.provider === provider && (
+                  <p className="mt-1.5 text-[12px] text-ink-3">
+                    {models.models.length > 0
+                      ? `${models.models.length} models offered by ${activeProvider?.label ?? provider}.`
+                      : 'That provider did not return a list. The suggestions above still work.'}
+                  </p>
+                )}
+              </Field>
 
               <Field label="Longest answer" hint="In tokens, 100–4000. Short answers are the house style; 700 is about six sentences.">
                 <TextInput
@@ -236,17 +313,20 @@ export function AssistantSetup() {
                 />
               </Field>
 
-              <div className="lg:col-span-2">
+              <div className="lg:col-span-2 flex flex-wrap items-center gap-3">
                 <Button
                   variant="primary"
                   loading={saving}
-                  onClick={() => void save({
-                    model: model === 'custom' ? customModel.trim() : model,
-                    maxTokens, temperature, extraPrompt,
-                  })}
+                  disabled={!model.trim() || (Boolean(activeProvider?.requiresBaseUrl) && !baseUrl.trim())}
+                  onClick={() => void save({ provider, baseUrl, model: model.trim(), maxTokens, temperature, extraPrompt })}
                 >
-                  Save model settings
+                  Save provider and model
                 </Button>
+                {activeProvider && !activeProvider.hasStoredKey && !activeProvider.hasEnvKey && (
+                  <span className="text-[12.5px] text-warning">
+                    {activeProvider.label} has no key yet — set one above before enabling.
+                  </span>
+                )}
               </div>
             </div>
           </Panel>
