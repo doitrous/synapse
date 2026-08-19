@@ -23,6 +23,7 @@ export const FRIEND_REFUSALS: Record<string, string> = {
   expired: 'That invite link has expired. Ask for a new one.',
   used: 'That invite link has already been used.',
   self: 'That is your own invite link.',
+  facebook_disabled: 'Finding friends through Facebook is not switched on yet.',
 }
 
 export function useFriends() {

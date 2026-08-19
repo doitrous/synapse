@@ -539,11 +539,30 @@ app.post('/api/friends/invite/redeem', requireAuthenticated, wrap(async (req, re
    Dark until Meta approves `user_friends` for this app: nothing here starts
    an OAuth handshake, so these routes exist for the day the flag flips on. */
 
-app.post('/api/friends/facebook/link', requireAuthenticated, wrap(async (req, res) => {
+/**
+ * The same off switch the front end has.
+ *
+ * `VITE_FEATURE_FACEBOOK_FRIENDS` only ever hid the button, so linking still
+ * shipped live as an API — "it ships off" was true of the screen and not of
+ * the server. Off is the default: a flag nobody has set means the feature is
+ * not on, never that the check was forgotten.
+ */
+function facebookFriendsEnabled(_req, res, next) {
+  if (process.env.FEATURE_FACEBOOK_FRIENDS !== 'true') {
+    // A refusal with a reason, not a status code: every other refusal in this
+    // file answers 200 with `{ ok, reason }`, and the client's `apiSend` throws
+    // away the body of anything else — so a 4xx here would reach a student as
+    // "something went wrong" instead of a sentence.
+    return res.json({ ok: false, reason: 'facebook_disabled' })
+  }
+  return next()
+}
+
+app.post('/api/friends/facebook/link', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
   res.json(await linkFacebookAccount(req.identity.id, req.body?.fbUserId))
 }))
 
-app.post('/api/friends/facebook/unlink', requireAuthenticated, wrap(async (req, res) => {
+app.post('/api/friends/facebook/unlink', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
   res.json(await unlinkFacebookAccount(req.identity.id))
 }))
 
