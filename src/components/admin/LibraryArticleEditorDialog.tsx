@@ -30,6 +30,7 @@ import { COURSE_CURRICULA_STORAGE_KEY, type CourseCurriculumSelection } from '@/
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { canonicalPlacementFor } from '@/data/taxonomyCrosswalk'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
@@ -294,7 +295,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
     onGraphChange({ ...graph, relations: [...graph.relations, { id: `relation-${Date.now()}`, sourceId: relationSource, type: relationType, targetId: relationTarget, verificationStatus: 'needs_evidence', evidenceClaimIds: [], citationIds: [], reviewer: 'Medical team, Admin team' }] })
   }
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50 bg-paper" role="dialog" aria-modal="true" aria-labelledby="article-editor-title">
       <form className="flex h-full flex-col pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)]" onSubmit={(event) => { event.preventDefault(); if (!valid) return; const base = draft.articleData ?? blankArticleData(); const sections = (base.sections ?? []).map((s) => ({ ...s, heading: s.heading.trim(), body: s.body.trim() })).filter((s) => s.heading || s.body).sort((a, b) => (a.kind === 'components' ? 1 : 0) - (b.kind === 'components' ? 1 : 0)); const finalData = { ...base, sections, body: base.body || sections.map((s) => `${s.heading}\n${s.body}`).join('\n\n') }; onSave({ ...draft, id: draft.id || `article-${Date.now()}`, title: draft.title.trim(), updatedAt: new Date().toISOString(), fields: { ...draft.fields, Summary: finalData.summary, 'Key point': finalData.holdThese[0] ?? '', 'Content owner': draft.owner, Reviewer: finalData.reviewer ?? '', Publisher: finalData.finalPublisher ?? '', 'Publication gate': finalData.publicationGate ?? '' }, articleData: finalData }) }}>
         <header className="flex shrink-0 flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-2.5 sm:h-16 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-0">

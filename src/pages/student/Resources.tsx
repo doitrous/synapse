@@ -43,6 +43,7 @@ import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatal
 import { cn } from '@/lib/cn'
 import { BackBar } from '@/components/ui/BackBar'
 import { useT } from '@/lib/i18n'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 /** Document (PDF) types — everything that isn't a video. */
 const PDF_TYPES: ResourceType[] = ['Book', 'Guideline', 'Deck', 'Article']
@@ -500,7 +501,7 @@ export function Resources() {
 
       {/* A failed open is the one thing that has to interrupt, because the row
           the student tapped looks unchanged otherwise. */}
-      {openError && (
+      {openError && overlayPortal(
         <p role="alert" className="fixed inset-x-4 bottom-4 z-50 mx-auto max-w-md rounded-lg border border-danger/30 bg-surface px-4 py-3 text-[13px] text-danger shadow-pop">
           {openError}
         </p>

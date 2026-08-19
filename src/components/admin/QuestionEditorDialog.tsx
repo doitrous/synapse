@@ -24,6 +24,7 @@ import { ContentSourceFields } from '@/components/admin/ContentSourceFields'
 import { conceptOptions, contentOptions } from '@/components/admin/pickerOptions'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const ANSWERS: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
@@ -220,7 +221,7 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
     updateData((current) => ({ ...current, attachments: (current.attachments ?? []).filter((item) => item.id !== attachment.id) }))
   }
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50 bg-paper" role="dialog" aria-modal="true" aria-labelledby="question-editor-title">
       <form className="flex h-full flex-col pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)]" onSubmit={(event) => { event.preventDefault(); if (!valid) return; const finalData = draft.questionData ?? blankQuestionData(); onSave({ ...draft, id: draft.id || `question-${Date.now()}`, title: draft.title.trim(), updatedAt: new Date().toISOString(), fields: { Topic: finalData.tags.topic, Difficulty: finalData.tags.intendedDifficulty, Vignette: draft.fields.Vignette ?? '', Explanation: draft.fields.Explanation ?? '' }, questionData: finalData }) }}>
         <header className="flex shrink-0 flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-2.5 sm:h-16 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-0">

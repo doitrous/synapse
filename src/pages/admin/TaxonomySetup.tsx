@@ -29,6 +29,7 @@ import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/d
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { MedicalTaxonomyAdminBrowser } from '@/components/admin/MedicalTaxonomyAdminBrowser'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 /** Every ID currently in the tree, for uniqueness checks. */
 function allIds(tree: Sys[]): Set<string> {
@@ -361,7 +362,7 @@ export function TaxonomySetup() {
       </>}
 
       {/* Bulk import dialog */}
-      {importing && (
+      {importing && overlayPortal(
         <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label="Bulk import taxonomy" onMouseDown={() => setImporting(false)}>
           <Panel className="animate-pop flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-xl sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
             <PanelHeader title="Bulk import taxonomy" icon={Upload} />

@@ -25,6 +25,7 @@ import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { universities } from '@/data/universities'
 import { MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore, type ResourceRecord } from '@/data/medicalEvidence'
 import { apiOpenFile } from '@/lib/api'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const slug = (value: string) =>
   value.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'concept'
@@ -598,7 +599,7 @@ export function ConceptsSetup() {
       </div>
 
       {/* ---- New concept dialog ---- */}
-      {creating && (
+      {creating && overlayPortal(
         <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label="New concept" onMouseDown={() => setCreating(false)}>
           <Panel className="animate-pop flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-lg sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
             <PanelHeader title="New concept" icon={Plus} />
@@ -649,7 +650,7 @@ export function ConceptsSetup() {
       )}
 
       {/* ---- Bulk import dialog ---- */}
-      {importing && (
+      {importing && overlayPortal(
         <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label="Bulk import concepts" onMouseDown={() => setImporting(false)}>
           <Panel className="animate-pop flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-xl sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
             <PanelHeader title="Bulk import concepts" icon={Upload} />
