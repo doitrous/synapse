@@ -22,6 +22,11 @@ export interface UniYear {
   courses: CurriculumCourse[]
   /** Explicit term names for this year (a year has one or more terms). */
   terms?: string[]
+  /**
+   * Offered to students. Absent means true, so every record that predates the
+   * flag stays live rather than being switched off by its addition.
+   */
+  active?: boolean
 }
 
 export interface University {
@@ -30,6 +35,11 @@ export interface University {
   short: string
   region: string
   years: UniYear[]
+  /**
+   * Offered to students. Absent means true. Switched off, none of its years is
+   * available whatever their own flag says — read both through `isYearLive`.
+   */
+  active?: boolean
 }
 
 export const UNIVERSITY_CATALOGUE_STORAGE_KEY = 'synapse-academic-universities-v1'
