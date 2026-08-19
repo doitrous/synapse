@@ -37,6 +37,7 @@ import { pruneManifests, type SessionManifests } from '@/data/qbankCollections'
 import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts, type AttemptHistory } from '@/lib/useAttemptLog'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { EndSessionDialog } from '@/components/qbank/EndSessionDialog'
+import { ContinueCard } from '@/components/qbank/ContinueCard'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -524,7 +525,10 @@ export function QuestionBank() {
     setReviewing(saved.reviewing)
     setSubmitted(saved.submitted ?? false)
     setSessionName(saved.name)
-    setPhase(saved.phase)
+    // Deliberately not `setPhase(saved.phase)`. Everything about the sitting is
+    // back — questions, answers, timer, strikes — but the student lands on the
+    // hub and chooses to go back in, rather than arriving mid-question with no
+    // idea where they are.
   }, [questions, saved, savedStatus.hydrated, setSaved])
 
   // Mirror the sitting outward. Debounced by the state store, so this is one
@@ -537,7 +541,10 @@ export function QuestionBank() {
     // stored sitting is now cleared only where it is genuinely finished with:
     // `discardSession`, called from Terminate, from "Start another", and from
     // the guards that find themselves with no questions.
-    if (phase === 'setup') return
+    // A review is not work in progress. It used to be mirrored like one, so
+    // opening a finished test from Previous tests wrote itself over whatever
+    // sitting the student had paused — and the paused sitting was gone.
+    if (phase === 'setup' || reviewing) return
     if (!startedAt.current) startedAt.current = new Date().toISOString()
     setSaved({
       questionIds: session.map((question) => question.id),
@@ -822,6 +829,16 @@ export function QuestionBank() {
     return (
       <PageContainer>
         <PageHeader title={t('Question Bank')} />
+
+        {saved && !saved.submitted && saved.questionIds.length > 0 && (
+          <ContinueCard
+            name={savedNames[saved.sessionId] ?? t('Untitled test')}
+            answered={Object.keys(saved.answers).length}
+            total={saved.questionIds.length}
+            onContinue={resumeSaved}
+            onDiscard={discardSession}
+          />
+        )}
 
         <section className="mb-4 sm:mb-5" aria-labelledby="quick-start-title">
           <h2 id="quick-start-title" className="mb-2 text-[11px] font-bold uppercase tracking-[0.09em] text-ink-3">{t('Quick start')}</h2>
