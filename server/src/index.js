@@ -13,6 +13,7 @@ import {
   listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
   setAccessStatus, requestPasswordReset, recordAction, readReason,
   passwordResetConfigured, getUserActivity, setRole, identifierTaken, entitlementOf,
+  getDiscoverable, setDiscoverable,
 } from './accounts.js'
 import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
@@ -212,6 +213,25 @@ app.get('/api/me/export', requireAuthenticated, wrap(async (req, res) => {
     documents,
     uploads: uploads.map((row) => ({ ...row, downloadPath: `/api/my-documents/${row.id}/file` })),
   })
+}))
+
+/**
+ * Whether the caller shows up in their own year's directory.
+ *
+ * The column defaults to findable, because the cohort is already closed and
+ * being found by your own classmates is the point of the directory — but
+ * default-on only stays honest if a student can see and change it, which is
+ * what these two routes are for. The actor is always the verified session;
+ * the value being written is the only thing that comes from the body.
+ */
+app.get('/api/account/discoverable', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ discoverable: await getDiscoverable(req.identity.id) })
+}))
+
+app.post('/api/account/discoverable', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setDiscoverable(req.identity.id, Boolean(req.body?.discoverable))
+  if (result.error === 'not_found') return res.status(404).json({ error: 'no account to update' })
+  res.json(result)
 }))
 
 /* ── A student's own documents ───────────────────────────────────────────── */
