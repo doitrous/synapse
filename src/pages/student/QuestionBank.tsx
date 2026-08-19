@@ -60,6 +60,7 @@ import { QuestionNavigator, type QuestionState } from '@/components/qbank/Questi
 import { StudyRail } from '@/components/qbank/StudyRail'
 import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
+import { useImmersion } from '@/components/shell/ImmersionContext'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
@@ -417,6 +418,13 @@ export function QuestionBank() {
   const [answers, setAnswers] = useState<Record<string, number>>({})
   const [checked, setChecked] = useState<Record<string, boolean>>({})
   const [reviewing, setReviewing] = useState(false)
+  // Sitting a test is the one thing here that wants the width, and the one
+  // thing a student should not have to tidy the screen for first.
+  const { setImmersive } = useImmersion()
+  useEffect(() => {
+    setImmersive(phase === 'running')
+    return () => setImmersive(false)
+  }, [phase, setImmersive])
   const { record } = useMastery()
   const logAttempt = useRecordAttempt()
   const history = useAttemptHistory()
