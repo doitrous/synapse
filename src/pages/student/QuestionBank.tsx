@@ -1060,7 +1060,7 @@ export function QuestionBank() {
           <PreviousTests
             sessions={sessionSummaries}
             names={savedNames}
-            liveSessionId={saved?.sessionId ?? null}
+            liveSessionId={saved && !saved.submitted ? saved.sessionId : null}
             onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
             onResume={resumeSaved}
             onTerminate={discardSession}
