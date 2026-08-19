@@ -13,6 +13,7 @@ import { DIFFICULTIES } from './qbank.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
 import { optionalList } from './importSemantics.ts'
+import { OBJECTIVES, type SlideView, type HistologyAuthoringData } from './histology.ts'
 
 export interface ImportFieldDefinition {
   key: string
@@ -181,6 +182,19 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'description', label: 'Description', help: 'What the resource teaches and why it is relevant.' },
     ],
     markdownExample: `# Item\n\n## title\nNICE NG158 · Venous thromboembolic diseases\n\n## subject\ncvs\n\n## type\nGuideline\n\n## source\nNICE\n\n## url\nhttps://www.nice.org.uk/guidance/ng158\n\n## year\n2026\n\n## topics\nTPC_HF\nSUB_HF_MGMT\n\n## chapter\nVenous thromboembolism\nHeart failure\n\n## module_ids\nCVS 01\n\n## included_concepts\nmed.concept.loop-diuretics\nmed.concept.heart-failure\n\n## included_articles\nhf-mgmt\n\n## concept_locations\nmed.concept.heart-failure | page | 142\nmed.concept.loop-diuretics | timestamp | 3:20\n\n## description\nDiagnosis and initial management of suspected pulmonary embolism.`,
+  },
+  histology: {
+    noun: 'histology slides',
+    fields: [
+      ...common,
+      { key: 'tissue', label: 'Tissue', help: 'What the slide is a section of, e.g. "Small bowel".' },
+      { key: 'stain', label: 'Stain', help: 'How the section was stained, e.g. "H&E".' },
+      { key: 'description', label: 'Description', help: 'What to look for on the slide.' },
+      { key: 'image_4x', label: 'Image at 4x', help: 'Low-power field image URL.' },
+      { key: 'image_10x', label: 'Image at 10x', help: 'Mid-power field image URL.' },
+      { key: 'image_40x', label: 'Image at 40x', help: 'High-power field image URL. At least one of the three power images is required.' },
+    ],
+    markdownExample: `# Item\n\n## title\nIleum\n\n## subject\ngi\n\n## tissue\nSmall bowel\n\n## stain\nH&E\n\n## description\nVilli, crypts of Lieberkühn, and Peyer's patches in the submucosa.\n\n## image_4x\nhttps://media.example.edu/histology/ileum-4x.jpg\n\n## image_40x\nhttps://media.example.edu/histology/ileum-40x.jpg\n\n---\n\n# Item\n...`,
   },
 }
 
@@ -819,6 +833,11 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
       errors.push(`Media request "${request.brief}" names "${request.section}", which is not a question in this item`)
     })
   }
+  if (kind === 'histology') {
+    // A slide with no image cannot be looked at — the same rule
+    // `managedSlideToStudentSlide` enforces on the student side.
+    if (!slideViewsFrom(values).length) errors.push('At least one power image (4x, 10x, or 40x) is required')
+  }
   return errors
 }
 
@@ -870,6 +889,13 @@ function numberInRange(value: string, fallback: number, min: number, max: number
  */
 function optionalNumberInRange(value: string | undefined, fallback: number, min: number, max: number) {
   return value?.trim() ? numberInRange(value.trim(), fallback, min, max) : undefined
+}
+
+/** The views a row's `image_4x`/`image_10x`/`image_40x` columns describe, low power first. */
+function slideViewsFrom(values: Record<string, string>): SlideView[] {
+  return OBJECTIVES
+    .map((objective) => ({ objective, image: values[`image_${objective}x`]?.trim() ?? '' }))
+    .filter((view): view is SlideView => Boolean(view.image))
 }
 
 function stableHash(value: string) {
@@ -1062,6 +1088,23 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '',
       },
       practicalData: practicalDataFrom(values),
+    }
+  }
+  if (kind === 'histology') {
+    const histologyData: HistologyAuthoringData = {
+      tissue: values.tissue || '',
+      stain: values.stain || '',
+      views: slideViewsFrom(values),
+      // Pins are deliberately not importable: clicking a point on an image is
+      // not a spreadsheet cell, so an imported slide arrives with its images
+      // and metadata and an empty `structures` array, to be labelled in the
+      // editor.
+      structures: [],
+    }
+    return {
+      ...base,
+      fields: { Tissue: values.tissue || '', Stain: values.stain || '', Description: values.description || '' },
+      histologyData,
     }
   }
   return {

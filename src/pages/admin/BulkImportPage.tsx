@@ -20,7 +20,10 @@ interface MappedRow { index: number; values: Record<string, string>; errors: str
 
 const IGNORE = '__ignore__'
 const steps = ['Choose a file', 'Confirm worksheet', 'Map columns', 'Full preview', 'Skipped rows', 'Import options']
-const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources' }
+// Histology has no dedicated locked route yet — its tab lives on the main
+// catalogue dashboard, so "back" goes there rather than to a page that does
+// not exist.
+const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources', histology: 'histology' }
 
 function normalize(value: string) {
   return value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')

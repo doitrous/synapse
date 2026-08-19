@@ -742,3 +742,27 @@ test('an unknown difficulty band is rejected rather than quietly becoming Modera
   })
   assert.ok(errors.some((error) => error.includes('Difficulty must be one of')))
 })
+
+/* ---- histology ----------------------------------------------------------- */
+
+test('a histology row needs at least one image', () => {
+  const errors = validateImportRow('histology', { title: 'Ileum', subject: 'gi' })
+  assert.ok(errors.some((error) => /image/i.test(error)))
+})
+
+test('a histology row with one image is accepted', () => {
+  const errors = validateImportRow('histology', {
+    title: 'Ileum', subject: 'gi', tissue: 'Small bowel', stain: 'H&E', image_4x: 'four.jpg',
+  })
+  assert.deepEqual(errors, [])
+})
+
+test('an imported slide carries its views and no pins yet', () => {
+  const item = importRowToContent('histology', {
+    title: 'Ileum', subject: 'gi', tissue: 'Small bowel', stain: 'H&E',
+    image_4x: 'four.jpg', image_40x: 'forty.jpg',
+  }, 'row-1')
+  assert.equal(item.kind, 'histology')
+  assert.deepEqual(item.histologyData?.views.map((view) => view.objective), [4, 40])
+  assert.deepEqual(item.histologyData?.structures, [])
+})

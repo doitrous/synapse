@@ -5,6 +5,7 @@ import { ImagePlus,
   CircleCheck,
   FileQuestion,
   FolderOpen,
+  Microscope,
   Pencil,
   Plus,
   RotateCcw,
@@ -70,6 +71,7 @@ const KIND_ICON = {
   article: BookOpenText,
   practical: Stethoscope,
   resource: FolderOpen,
+  histology: Microscope,
 }
 
 const STATUSES: Array<Status | 'All'> = ['All', 'Draft', 'In review', 'Published', 'Archived']
@@ -228,6 +230,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     article: items.filter((item) => item.kind === 'article').length,
     practical: items.filter((item) => item.kind === 'practical').length,
     resource: items.filter((item) => item.kind === 'resource').length,
+    histology: items.filter((item) => item.kind === 'histology').length,
   }), [items])
 
   const matching = useMemo(() => {
@@ -237,7 +240,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       .filter((item) => status === 'All' || item.status === status)
       // Navigator scope (Master → university → year) for question & resource catalogues.
       .filter((item) => {
-        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical')) return true
+        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'histology')) return true
         // Authored scope, not a hash of the item's id.
         return itemInScope(item, activeScope.universityId, activeScope.year)
       })
@@ -507,6 +510,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 ['article', 'Library articles'],
                 ['practical', 'Practical'],
                 ['resource', 'Resources'],
+                ['histology', 'Histology'],
               ] as const).map(([value, label]) => ({ value, label, icon: KIND_ICON[value], count: kindCounts[value] }))}
             />
           </div>}
