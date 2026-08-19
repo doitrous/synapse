@@ -5,14 +5,45 @@ import SwiftUI
 /// Stored under the same key the web app uses, so a note written on the phone
 /// is there in the browser. Written locally first and uploaded after, so a
 /// thought caught on a ward with no signal is not lost.
+///
+/// **Every field the website writes is held here, including the ones this app
+/// does not yet let a student edit.** The notebook is stored as one array and
+/// rewritten whole, and Swift drops keys it does not know — so a struct missing
+/// a field would not merely ignore it, it would erase that field from *every*
+/// note the moment any one of them was touched on the phone. A student would
+/// lose the article a note was about, the image they pasted into it and the
+/// pages they referenced, with nothing to say it had happened.
 struct Note: Codable, Identifiable, Equatable, Sendable {
     var id: String
     var title: String
     var body: String
     var tags: [String]
+    /// The article this note is about, when it was written from one.
+    var subtopicId: String?
+    var subtopicTitle: String?
+    var subjectId: String?
+    /// A pasted image, as a data URL. Held rather than shown for now.
+    var imageData: String?
+    /// Documents this note is about — a Synapse resource, or a PDF the student
+    /// uploaded themselves.
+    var resourceRefs: [NoteResourceRef]?
+    /// ISO timestamp of the last edit.
     var updatedAt: String
 
     static let storageKey = "synapse.notebook.notes"
+}
+
+/// A document a note refers to.
+struct NoteResourceRef: Codable, Identifiable, Equatable, Sendable {
+    /// A reader route id, which means an upload is stored as `my:<id>`. One
+    /// field addresses both kinds because the reader does.
+    var resourceId: String
+    /// The page the student was on, when they were on one.
+    var page: Int?
+    /// Kept alongside the id so a chip still reads if the item is withdrawn.
+    var label: String
+
+    var id: String { "\(resourceId)#\(page ?? 0)" }
 }
 
 @MainActor

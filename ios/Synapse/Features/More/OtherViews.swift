@@ -8,18 +8,42 @@ import SwiftUI
 /// The curriculum layer is empty on this deployment — no schedule has been
 /// published — so the screen leads with what a student can control, and says
 /// plainly that the timetable is missing rather than showing a blank grid.
+/// One planned block of study.
+///
+/// Every field the website writes is held, including the two this app does not
+/// yet offer. The list is stored as one array and rewritten whole, and Swift
+/// drops keys it does not know — so a missing field would be erased from every
+/// block the moment any one of them was ticked off on the phone.
 struct StudyBlock: Codable, Identifiable, Equatable, Sendable {
     var id: String
     var title: String
     /// `YYYY-MM-DD`, as the web app stores it.
     var date: String
+    /// `HH:MM`, local.
     var start: String
     var end: String
     var subjectId: String
+    /// The module this block belongs to, e.g. `"CVS 01"`. Optional, because a
+    /// student can plan against a subject without naming a module.
+    var moduleId: String?
     var kind: String
+    /// Set when the student ticks it off.
     var done: Bool?
+    /// The timetable session this was planned from, when it came from one.
+    var sourceSessionId: String?
 
     static let storageKey = "synapse.calendar.blocks"
+
+    /// Minutes between the two `HH:MM` values, floored at zero.
+    var minutes: Int {
+        func parse(_ value: String) -> Int? {
+            let parts = value.split(separator: ":")
+            guard parts.count == 2, let h = Int(parts[0]), let m = Int(parts[1]) else { return nil }
+            return h * 60 + m
+        }
+        guard let from = parse(start), let to = parse(end) else { return 0 }
+        return max(0, to - from)
+    }
 }
 
 struct CalendarView: View {
