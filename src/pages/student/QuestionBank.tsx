@@ -1542,7 +1542,19 @@ export function QuestionBank() {
                   <div className={shape}>
                     <button
                       type="button"
-                      onClick={() => setAnswers((a) => ({ ...a, [q.id]: i }))}
+                      onClick={() => {
+                        setAnswers((a) => ({ ...a, [q.id]: i }))
+                        // Symmetric with `toggleStrike`, which drops the
+                        // selection when it strikes the selected option. An
+                        // option cannot be both chosen and ruled out — it used
+                        // to render accent-selected and crossed through at once,
+                        // and would be logged as the student's answer.
+                        setStruck((current) => {
+                          const next = new Set(current[q.id] ?? [])
+                          if (!next.delete(i)) return current
+                          return { ...current, [q.id]: [...next] }
+                        })
+                      }}
                       aria-label={`${t('Choose answer')} ${LETTERS[i]}`}
                       className="cursor-pointer rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)]"
                     >
