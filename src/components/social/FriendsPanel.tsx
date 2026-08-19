@@ -1,16 +1,110 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { UserPlus, Users, Check, X, Swords, Play, Link2, Copy } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Avatar } from '@/components/ui/Avatar'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { TextInput } from '@/components/ui/Field'
-import { FRIEND_REFUSALS, type FriendProfile } from '@/lib/useFriends'
+import { TextInput, SearchInput } from '@/components/ui/Field'
+import { FRIEND_REFUSALS, useFriends, type FriendProfile } from '@/lib/useFriends'
+import { useIdentity } from '@/lib/useIdentity'
 import { useT } from '@/lib/i18n'
 
 /** Shown in place of a server reason this map does not know, or a network failure. */
 function fallbackRefusal(t: (s: string) => string): string {
   return t('That did not work. Try again.')
+}
+
+/**
+ * Your own year, searched by name.
+ *
+ * The cohort is decided by the server from the caller's own roster row —
+ * nothing here ever tells it which university or year to search. When that
+ * row has neither set, the search cannot run at all, and says so instead of
+ * silently returning nothing.
+ */
+function DirectorySearch({
+  onSearch,
+  onRequest,
+}: {
+  onSearch: (query: string) => Promise<{ people: FriendProfile[] }>
+  onRequest: (userId: string) => Promise<{ ok: boolean; reason?: string }>
+}) {
+  const t = useT()
+  const { profile } = useIdentity()
+  const hasCohort = Boolean(profile.universityId && profile.year)
+  const [query, setQuery] = useState('')
+  const [results, setResults] = useState<FriendProfile[]>([])
+  const [addingId, setAddingId] = useState<string | null>(null)
+  const [message, setMessage] = useState('')
+
+  useEffect(() => {
+    if (!hasCohort) return
+    let cancelled = false
+    const timer = window.setTimeout(() => {
+      void onSearch(query)
+        .then((data) => { if (!cancelled) setResults(data?.people ?? []) })
+        .catch(() => { if (!cancelled) setResults([]) })
+    }, 300)
+    return () => { cancelled = true; window.clearTimeout(timer) }
+  }, [query, hasCohort, onSearch])
+
+  if (!hasCohort) {
+    return (
+      <p className="text-[12.5px] leading-relaxed text-ink-3">
+        {t('Set your university and year in Account to search for classmates.')}
+      </p>
+    )
+  }
+
+  async function add(userId: string) {
+    setAddingId(userId)
+    setMessage('')
+    try {
+      const result = await onRequest(userId)
+      if (result.ok) {
+        // Sent: the same person can no longer be added twice, so it drops out
+        // of these results exactly as it would from a fresh search.
+        setResults((prev) => prev.filter((person) => person.userId !== userId))
+      } else {
+        setMessage(FRIEND_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t))
+      }
+    } catch {
+      setMessage(fallbackRefusal(t))
+    } finally {
+      setAddingId(null)
+    }
+  }
+
+  return (
+    <div className="space-y-2">
+      <SearchInput
+        value={query}
+        onChange={(event) => setQuery(event.target.value)}
+        placeholder={t('Search your year by name')}
+        aria-label={t('Search your year by name')}
+      />
+      {results.length > 0 && (
+        <ul className="divide-y divide-line rounded-md border border-line">
+          {results.map((person) => (
+            <li key={person.userId} className="flex items-center gap-3 px-3 py-2">
+              <Avatar name={person.displayName} size="sm" />
+              <span className="min-w-0 flex-1 truncate text-[13px] text-ink">{person.displayName}</span>
+              <Button
+                variant="secondary"
+                size="sm"
+                iconLeft={UserPlus}
+                loading={addingId === person.userId}
+                onClick={() => void add(person.userId)}
+              >
+                {t('Add')}
+              </Button>
+            </li>
+          ))}
+        </ul>
+      )}
+      {message && <p role="status" className="text-[12.5px] text-danger">{message}</p>}
+    </div>
+  )
 }
 
 /**
@@ -20,7 +114,15 @@ function fallbackRefusal(t: (s: string) => string): string {
  * become study partners: this works over text, WhatsApp, anything — the link
  * itself carries the invitation.
  */
-function InviteLinkPanel({ onCreateInvite }: { onCreateInvite: () => Promise<{ token: string }> }) {
+function InviteLinkPanel({
+  onCreateInvite,
+  onSearchDirectory,
+  onRequest,
+}: {
+  onCreateInvite: () => Promise<{ token: string }>
+  onSearchDirectory: (query: string) => Promise<{ people: FriendProfile[] }>
+  onRequest: (userId: string) => Promise<{ ok: boolean; reason?: string }>
+}) {
   const t = useT()
   const [link, setLink] = useState<string | null>(null)
   const [minting, setMinting] = useState(false)
@@ -45,29 +147,33 @@ function InviteLinkPanel({ onCreateInvite }: { onCreateInvite: () => Promise<{ t
   return (
     <Panel>
       <PanelHeader title={t('Find friends')} icon={Link2} />
-      <div className="space-y-3 p-5">
-        <p className="text-[12.5px] leading-relaxed text-ink-3">
-          {t('No shared university, no directory, no problem. Send this link on any channel — opening it asks to be your friend.')}
-        </p>
-        {link ? (
-          <div className="flex flex-wrap items-center gap-2">
-            <TextInput readOnly value={link} onFocus={(event) => event.currentTarget.select()} className="min-w-0 flex-1 font-mono text-[12px]" />
-            <Button
-              variant="secondary"
-              iconLeft={copied ? Check : Copy}
-              onClick={() => { void navigator.clipboard?.writeText(link); setCopied(true); window.setTimeout(() => setCopied(false), 1600) }}
-            >
-              {copied ? t('Copied') : t('Copy')}
-            </Button>
-          </div>
-        ) : (
-          <>
-            <Button variant="primary" iconLeft={Link2} loading={minting} onClick={() => void createInvite()}>
-              {t('Create invite link')}
-            </Button>
-            {failed && <p className="text-[12.5px] text-danger">{t('That link could not be created. Try again.')}</p>}
-          </>
-        )}
+      <div className="space-y-4 p-5">
+        <DirectorySearch onSearch={onSearchDirectory} onRequest={onRequest} />
+
+        <div className="space-y-3 border-t border-line pt-4">
+          <p className="text-[12.5px] leading-relaxed text-ink-3">
+            {t('No shared university, no directory, no problem. Send this link on any channel — opening it asks to be your friend.')}
+          </p>
+          {link ? (
+            <div className="flex flex-wrap items-center gap-2">
+              <TextInput readOnly value={link} onFocus={(event) => event.currentTarget.select()} className="min-w-0 flex-1 font-mono text-[12px]" />
+              <Button
+                variant="secondary"
+                iconLeft={copied ? Check : Copy}
+                onClick={() => { void navigator.clipboard?.writeText(link); setCopied(true); window.setTimeout(() => setCopied(false), 1600) }}
+              >
+                {copied ? t('Copied') : t('Copy')}
+              </Button>
+            </div>
+          ) : (
+            <>
+              <Button variant="primary" iconLeft={Link2} loading={minting} onClick={() => void createInvite()}>
+                {t('Create invite link')}
+              </Button>
+              {failed && <p role="status" className="text-[12.5px] text-danger">{t('That link could not be created. Try again.')}</p>}
+            </>
+          )}
+        </div>
       </div>
     </Panel>
   )
@@ -100,6 +206,10 @@ export function FriendsPanel({
   onCreateInvite: () => Promise<{ token: string }>
 }) {
   const t = useT()
+  // A second, independent instance: the directory search and the "Add" button
+  // it offers need `searchDirectory` and `request`, neither of which the rest
+  // of this panel's data (friends/incoming/outgoing) depends on or mutates.
+  const { request, searchDirectory } = useFriends()
 
   // One in-flight row at a time is disabled by its own id, so a double-click
   // cannot start a second mutation (and the reload it triggers) before the
@@ -143,7 +253,7 @@ export function FriendsPanel({
 
   return (
     <div className="space-y-4">
-      <InviteLinkPanel onCreateInvite={onCreateInvite} />
+      <InviteLinkPanel onCreateInvite={onCreateInvite} onSearchDirectory={searchDirectory} onRequest={request} />
 
       {incoming.length > 0 && (
         <Panel>

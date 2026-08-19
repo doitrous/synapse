@@ -111,3 +111,41 @@ export async function myRequests(userId) {
   }
   return { incoming, outgoing }
 }
+
+/**
+ * Students this one is allowed to find.
+ *
+ * Bounded to the caller's own university and year, read from their own row
+ * rather than from anything the client sent — a client that asks for another
+ * cohort is not refused so much as never consulted. Existing friends and
+ * anyone with a request already in flight are left out, because the only
+ * action offered on a result is "add".
+ */
+export async function directorySearch(userId, query) {
+  const [me] = await pool.query('SELECT university_id, year FROM students WHERE user_id = ? LIMIT 1', [userId])
+  const cohort = me[0]
+  if (!cohort?.university_id || !cohort?.year) return []
+  const term = `%${String(query ?? '').trim().slice(0, 60)}%`
+  const [rows] = await pool.query(
+    `SELECT s.user_id, COALESCE(s.name, s.email) AS name, s.university_id, s.year
+       FROM students s
+      WHERE s.university_id = ? AND s.year = ?
+        AND s.discoverable = 1
+        AND s.user_id IS NOT NULL
+        AND s.user_id <> ?
+        AND COALESCE(s.name, s.email) LIKE ?
+        AND NOT EXISTS (
+          SELECT 1 FROM friendships f
+           WHERE (f.user_a = LEAST(s.user_id, ?) AND f.user_b = GREATEST(s.user_id, ?))
+             AND f.status IN ('pending','accepted')
+        )
+      ORDER BY name LIMIT 20`,
+    [cohort.university_id, cohort.year, userId, term, userId, userId],
+  )
+  return rows.map((row) => ({
+    userId: row.user_id,
+    displayName: row.name ? String(row.name).split('@')[0] : 'Student',
+    universityId: row.university_id ?? null,
+    year: row.year ?? null,
+  }))
+}

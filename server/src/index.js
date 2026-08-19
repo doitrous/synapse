@@ -31,7 +31,7 @@ import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
   invalidateStudyRoomSnapshot,
 } from './studyRooms.js'
-import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests } from './friends.js'
+import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests, directorySearch } from './friends.js'
 import { mintInvite, redeemInvite } from './friendInvites.js'
 import { toMariaDbDate } from './datetime.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
@@ -452,6 +452,10 @@ app.post('/api/study-rooms/:id/finish', requireAuthenticated, wrap(async (req, r
 
 app.get('/api/friends', requireAuthenticated, wrap(async (req, res) => {
   res.json({ friends: await myFriends(req.identity.id), requests: await myRequests(req.identity.id) })
+}))
+
+app.get('/api/friends/directory', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ people: await directorySearch(req.identity.id, req.query?.q) })
 }))
 
 app.post('/api/friends/request', requireAuthenticated, wrap(async (req, res) => {

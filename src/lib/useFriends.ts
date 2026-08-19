@@ -79,5 +79,11 @@ export function useFriends() {
     return result
   }, [reload])
 
-  return { friends, incoming, outgoing, loading, reload, request, respond, remove, mintInvite, redeemInvite }
+  // A search, not a mutation: nothing about the viewer's own graph changes
+  // until a request is actually sent, so there is nothing here to reload.
+  const searchDirectory = useCallback(async (query: string) => {
+    return apiGet<{ people: FriendProfile[] }>(`/friends/directory?q=${encodeURIComponent(query)}`)
+  }, [])
+
+  return { friends, incoming, outgoing, loading, reload, request, respond, remove, mintInvite, redeemInvite, searchDirectory }
 }
