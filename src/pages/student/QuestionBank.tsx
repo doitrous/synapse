@@ -1258,6 +1258,13 @@ export function QuestionBank() {
             size="md"
             iconLeft={BookOpen}
             onClick={() => {
+              // Every opener of a review has to state its own exit, because
+              // `reviewReturn` outlives the review that last set it. A collection
+              // viewed earlier in the same mount leaves it at 'setup', and this
+              // button — pressed from the results screen the student is standing
+              // on — then offered "Done" back to the hub instead of "Back to
+              // results". The other two openers already declare it.
+              setReviewReturn('results')
               setReviewing(true)
               setIdx(0)
               setPhase('running')
