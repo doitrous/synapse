@@ -262,7 +262,7 @@ export function Resources() {
               page, so it does not belong folded away inside the filters — a
               student had to open a panel to find out why the page looked as it
               did. Hidden on My uploads, which has no folders to group. */}
-          <div className="hidden items-center gap-2 sm:inline-flex">
+          <div className="inline-flex items-center gap-2">
             <Icon icon={FolderTree} size={15} className="text-ink-3" />
             <span className="text-[12.5px] font-medium text-ink-2">{t('Organise by')}</span>
             <Segmented value={groupBy} onChange={(v) => setGroupBy(v as 'system' | 'module')} items={[{ value: 'system', label: t('System') }, { value: 'module', label: t('Module') }]} />
