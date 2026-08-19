@@ -24,12 +24,24 @@ export interface ExamMarks {
   practicalEndOfYear: number
 }
 
-/** One examined discipline inside a module — Anatomy, Physiology, Pathology. */
+/**
+ * One examined discipline inside a module — Anatomy, Physiology, Pathology —
+ * and, beneath it, however the faculty divides it.
+ *
+ * A subject may hold subjects: `Anatomy` splits into `Basis of Anatomy`, which
+ * may split again, as deep as the curriculum goes. Only a module's *direct*
+ * subjects carry marks; everything deeper exists so that library topics and
+ * questions can be chosen at the level they belong to rather than piled at the
+ * top of a discipline that covers a year.
+ */
 export interface ModuleSubject {
   id: string
   name: string
+  /** Meaningful only on a module's direct subjects. Deeper ones carry none. */
   marks: ExamMarks
   curriculum: CourseCurriculumSelection
+  /** Subjects beneath this one. Absent and empty mean the same thing. */
+  children?: ModuleSubject[]
 }
 
 /** Keyed `${universityId}:${year.id}:${courseId}` — a stable id, never a label. */
@@ -216,10 +228,108 @@ export function termsOf(year: Pick<UniYear, 'terms' | 'courses'>): string[] {
 export function mergeCurricula(subjects: readonly ModuleSubject[]): CourseCurriculumSelection {
   const merged = structuredClone(EMPTY_CURRICULUM_SELECTION)
   const keys = ['articleIds', 'questionIds', 'practicalIds', 'topicNodeIds', 'conceptIds', 'resourceIds'] as const
-  subjects.forEach((subject) => {
+  // The whole tree, not just the list handed in: content chosen three levels
+  // down is still content the module covers, and the schedule asks the module.
+  walkSubjects(subjects).forEach((subject) => {
     keys.forEach((key) => {
       merged[key] = [...new Set([...(merged[key] ?? []), ...(subject.curriculum[key] ?? [])])]
     })
   })
   return merged
+}
+
+/* ---- The subject tree ---------------------------------------------------- */
+
+/**
+ * Every subject in the tree, parents before their children.
+ *
+ * The one traversal. Counting, merging, searching and validating all read it,
+ * so a subject cannot be visible to one of them and invisible to another.
+ */
+export function walkSubjects(subjects: readonly ModuleSubject[]): ModuleSubject[] {
+  const out: ModuleSubject[] = []
+  const visit = (list: readonly ModuleSubject[]) => list.forEach((subject) => {
+    out.push(subject)
+    visit(subject.children ?? [])
+  })
+  visit(subjects)
+  return out
+}
+
+export function findSubject(subjects: readonly ModuleSubject[], id: string): ModuleSubject | undefined {
+  return walkSubjects(subjects).find((subject) => subject.id === id)
+}
+
+/** How many subjects sit beneath this one, at any depth. */
+export function descendantCount(subject: ModuleSubject): number {
+  return walkSubjects(subject.children ?? []).length
+}
+
+/**
+ * Replace one subject wherever it sits, leaving the rest of the tree alone.
+ *
+ * Every edit goes through here, so no caller has to know how deep the subject
+ * it is changing happens to be.
+ */
+export function updateSubject(
+  subjects: readonly ModuleSubject[],
+  id: string,
+  patch: (subject: ModuleSubject) => ModuleSubject,
+): ModuleSubject[] {
+  return subjects.map((subject) => {
+    if (subject.id === id) return patch(subject)
+    if (!subject.children?.length) return subject
+    return { ...subject, children: updateSubject(subject.children, id, patch) }
+  })
+}
+
+/** Remove a subject and everything under it. */
+export function removeSubject(subjects: readonly ModuleSubject[], id: string): ModuleSubject[] {
+  return subjects
+    .filter((subject) => subject.id !== id)
+    .map((subject) => (subject.children?.length ? { ...subject, children: removeSubject(subject.children, id) } : subject))
+}
+
+/**
+ * Add a subject beneath `parentId`, or at the top of the module when null.
+ *
+ * Always a new, empty subject — nothing existing is ever re-parented here.
+ * Marks live only on a module's direct subjects, so moving a marked subject
+ * under another would quietly drop its marks out of every total.
+ */
+export function addSubject(
+  subjects: readonly ModuleSubject[],
+  parentId: string | null,
+  child: ModuleSubject,
+): ModuleSubject[] {
+  if (!parentId) return [...subjects, child]
+  return updateSubject(subjects, parentId, (parent) => ({
+    ...parent,
+    children: [...(parent.children ?? []), child],
+  }))
+}
+
+/** The subjects from the top of the module down to this one, inclusive. */
+export function subjectPath(subjects: readonly ModuleSubject[], id: string): ModuleSubject[] {
+  const search = (list: readonly ModuleSubject[], trail: ModuleSubject[]): ModuleSubject[] | null => {
+    for (const subject of list) {
+      const here = [...trail, subject]
+      if (subject.id === id) return here
+      const deeper = search(subject.children ?? [], here)
+      if (deeper) return deeper
+    }
+    return null
+  }
+  return search(subjects, []) ?? []
+}
+
+/**
+ * Everything a subject covers, including everything beneath it.
+ *
+ * A parent that has been split usually carries nothing of its own, but this is
+ * still the honest answer to "what does Anatomy cover?" — read downwards rather
+ * than asking the author to repeat themselves at the top.
+ */
+export function curriculumOfTree(subject: ModuleSubject): CourseCurriculumSelection {
+  return mergeCurricula([subject])
 }

@@ -5,7 +5,8 @@ import type { CurriculumCourse } from '@/data/universities'
 import { curriculumCount } from '@/data/courseCurriculum'
 import {
   DEFAULT_TERM, EXAM_BUCKETS, EXAM_KINDS, EXAM_SITTINGS, bucketTotals, formatShare, isInternshipYear,
-  moduleKey, moduleTotal, newModuleSubject, normaliseMark, programmeShareOf, share, subjectTotal, termTotal, yearTotal,
+  curriculumOfTree, descendantCount, moduleKey, moduleTotal, newModuleSubject, normaliseMark,
+  programmeShareOf, share, subjectTotal, termTotal, yearTotal,
   type ExamMarks, type ModuleSubject, type ModuleSubjectStore,
 } from '@/data/moduleSubjects'
 import { Dialog } from '@/components/ui/Dialog'
@@ -59,7 +60,10 @@ function SubjectBlock({ subject, index, total, onPatch, onRemove }: {
 }) {
   const [confirming, setConfirming] = useState(false)
   const own = subjectTotal(subject)
-  const attached = curriculumCount(subject.curriculum)
+  // What would be detached counts the whole branch, not just this subject's own
+  // list: removing Anatomy removes Basis of Anatomy with it.
+  const attached = curriculumCount(curriculumOfTree(subject))
+  const branches = descendantCount(subject)
 
   const setMark = (key: keyof ExamMarks, next: number) =>
     onPatch({ ...subject, marks: { ...subject.marks, [key]: next } })
@@ -75,6 +79,11 @@ function SubjectBlock({ subject, index, total, onPatch, onRemove }: {
           aria-label={`Subject ${index + 1} name`}
           className="h-9 min-w-0 flex-1 sm:max-w-xs"
         />
+        {branches > 0 && (
+          <span className="rounded-full border border-line bg-inset px-2 py-0.5 text-[10.5px] font-medium text-ink-3" title="Marks stay on the module's own subjects; the subjects beneath this one organise what it covers">
+            {branches} {branches === 1 ? 'sub-subject' : 'sub-subjects'}
+          </span>
+        )}
         <span className="tnum ms-auto font-mono text-[12.5px] text-ink-2">
           {own} {own === 1 ? 'mark' : 'marks'}
         </span>
