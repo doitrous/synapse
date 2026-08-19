@@ -94,8 +94,8 @@ export function useAssistantAdmin() {
     setLoading(true)
     try {
       const [next, spend] = await Promise.all([
-        apiGet<AssistantSettings>('/api/admin/assistant'),
-        apiGet<AssistantUsage>('/api/admin/assistant/usage?days=30'),
+        apiGet<AssistantSettings>('/admin/assistant'),
+        apiGet<AssistantUsage>('/admin/assistant/usage?days=30'),
       ])
       setSettings(next)
       setUsage(spend)
@@ -128,14 +128,14 @@ export function useAssistantAdmin() {
 
   const save = useCallback(
     (patch: AssistantSettingsPatch) =>
-      mutate(() => apiPut<AssistantSettings>('/api/admin/assistant', patch), 'Saved.'),
+      mutate(() => apiPut<AssistantSettings>('/admin/assistant', patch), 'Saved.'),
     [mutate],
   )
 
   const saveTier = useCallback(
     (tier: { plan: string; label: string; dailyMessages: number; enabled: boolean }) =>
       mutate(
-        () => apiPut<AssistantSettings>(`/api/admin/assistant/tiers/${encodeURIComponent(tier.plan)}`, tier),
+        () => apiPut<AssistantSettings>(`/admin/assistant/tiers/${encodeURIComponent(tier.plan)}`, tier),
         `${tier.label} limit saved.`,
       ),
     [mutate],
@@ -143,7 +143,7 @@ export function useAssistantAdmin() {
 
   const removeTier = useCallback(
     (plan: string) =>
-      mutate(() => apiDelete<AssistantSettings>(`/api/admin/assistant/tiers/${encodeURIComponent(plan)}`), 'Tier removed.'),
+      mutate(() => apiDelete<AssistantSettings>(`/admin/assistant/tiers/${encodeURIComponent(plan)}`), 'Tier removed.'),
     [mutate],
   )
 

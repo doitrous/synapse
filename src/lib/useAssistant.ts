@@ -69,7 +69,7 @@ export function useAssistant({ lang, context }: { lang: Lang; context?: Assistan
   useEffect(() => {
     if (!API_MODE) return
     let cancelled = false
-    apiGet<AssistantStatus>('/api/assistant/status')
+    apiGet<AssistantStatus>('/assistant/status')
       .then((next) => { if (!cancelled) setStatus(next) })
       // A status that will not load is indistinguishable, from the student's
       // side, from an assistant that is switched off. Both mean: no launcher.
@@ -89,7 +89,7 @@ export function useAssistant({ lang, context }: { lang: Lang; context?: Assistan
     setReturned('')
 
     try {
-      const result = await apiPost<ChatResponse>('/api/assistant/chat', {
+      const result = await apiPost<ChatResponse>('/assistant/chat', {
         messages: history.map(({ role, content }) => ({ role, content })),
         lang,
         context,
