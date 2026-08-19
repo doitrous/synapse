@@ -29,7 +29,7 @@ struct StudyTogetherView: View {
         .navigationBarTitleDisplayMode(.inline)
         .task {
             if model == nil {
-                let created = StudyRoomModel(api: api, store: store)
+                let created = StudyRoomModel(api: api, store: store, audience: audience)
                 model = created
                 await created.loadRooms()
             }

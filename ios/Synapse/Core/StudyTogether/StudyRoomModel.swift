@@ -23,12 +23,15 @@ final class StudyRoomModel {
 
     private let api: SynapseAPI
     private let store: LocalStore
+    /// Which cohort's content this student may see.
+    var audience: StudentAudience
     private var pollTask: Task<Void, Never>?
     private var questionStartedAt = Date()
 
-    init(api: SynapseAPI, store: LocalStore) {
+    init(api: SynapseAPI, store: LocalStore, audience: StudentAudience = .unknown) {
         self.api = api
         self.store = store
+        self.audience = audience
     }
 
     /// Polling is stopped by `close()`, which every exit from a room goes
@@ -145,10 +148,15 @@ final class StudyRoomModel {
     /// The server sends only IDs; the text is content the app already has. A
     /// question the server names but this device has not synced is skipped
     /// rather than shown blank.
+    ///
+    /// Scoped to this student's own cohort, not to whoever built the room.
+    /// Content is licensed per university, and a room naming a question from
+    /// another one must not be the way round that — so a question this student
+    /// may not see is skipped exactly like one that has not synced.
     private func loadQuestions(for room: StudyRoom) async {
         guard !room.questionIds.isEmpty else { questions = []; return }
 
-        let items = (try? await store.items(kind: .question, audience: .unknown)) ?? []
+        let items = (try? await store.items(kind: .question, audience: audience)) ?? []
         let byId = Dictionary(
             items.compactMap(QuestionProjection.project).map { ($0.id, $0) },
             uniquingKeysWith: { first, _ in first }
