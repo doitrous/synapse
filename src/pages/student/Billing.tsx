@@ -13,7 +13,8 @@ import { API_MODE, apiDelete, apiGet, apiPost } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 import { formatLongDate } from '@/lib/format'
 import { initialPlans, PLANS_STORAGE_KEY, type PlanDef } from '@/data/plans'
-import { voucherDiscount, voucherEligibility, initialVouchers, VOUCHER_STORAGE_KEY, type Voucher } from '@/data/vouchers'
+import { voucherDiscount, voucherEligibility, voucherTrialDays, isTrialVoucher, initialVouchers, VOUCHER_STORAGE_KEY, type Voucher } from '@/data/vouchers'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 
 /** Who to write to about a plan, since nobody can change one from this screen. */
 const SUPPORT_ADDRESS = 'synapse@mail.doitrous.com'
@@ -53,6 +54,7 @@ export function Billing() {
   const { audience, entitlement, subscription, profileMissing } = useIdentity()
   const [plans] = usePersistentState<PlanDef[]>(PLANS_STORAGE_KEY, initialPlans)
   const [vouchers] = usePersistentState<Voucher[]>(VOUCHER_STORAGE_KEY, initialVouchers)
+  const [catalogue] = useUniversityCatalogue()
   const [redemption, setRedemption] = useState<Redemption | null>(null)
   const [code, setCode] = useState('')
   const [message, setMessage] = useState('')
@@ -77,9 +79,20 @@ export function Billing() {
       // Without a backend there is no redemption ledger to write to, so the
       // client only reports whether the code would be accepted.
       const voucher = vouchers.find((item) => item.code.toLowerCase() === wanted.toLowerCase())
-      setMessage(voucher
-        ? (voucherEligibility(voucher, audience) ?? t('This code is valid. Connect the backend to apply it.'))
-        : t('That voucher code was not found. Check the spelling and try again.'))
+      if (!voucher) {
+        setMessage(t('That voucher code was not found. Check the spelling and try again.'))
+        return
+      }
+      // The catalogue is passed so a code cannot be redeemed into a university
+      // or year that is not live, which the targeting rules alone never checked.
+      const refusal = voucherEligibility(voucher, audience, catalogue.length ? catalogue : undefined)
+      if (refusal) {
+        setMessage(refusal)
+        return
+      }
+      setMessage(isTrialVoucher(voucher)
+        ? t('This code is valid and opens full access for {days} days. Connect the backend to apply it.').replace('{days}', String(voucherTrialDays(voucher)))
+        : t('This code is valid. Connect the backend to apply it.'))
       return
     }
     setBusy(true)

@@ -1,6 +1,9 @@
 import { EMPTY_CURRICULUM_SELECTION, type CourseCurriculumSelection } from './courseCurriculum.ts'
 import { DEFAULT_TERM, moduleKey, newModuleSubject, type ModuleSubject, type ModuleSubjectStore } from './moduleSubjects.ts'
+import { isYearLive } from './universities.ts'
 import type { UniYear, University } from './universities.ts'
+
+export { isYearLive }
 
 /**
  * Where a module's documents live, and how a module moves without losing them.
@@ -168,13 +171,3 @@ export function deleteTerm(university: University, yearId: string, term: string,
   }))
 }
 
-/**
- * Whether students may be offered this year.
- *
- * Both facts are read through one predicate so that no caller can check the
- * year and forget the university it belongs to. Absent means live, so nothing
- * that predates the flag is switched off by its arrival.
- */
-export function isYearLive(university: Pick<University, 'active'>, year: Pick<UniYear, 'active'>): boolean {
-  return university.active !== false && year.active !== false
-}
