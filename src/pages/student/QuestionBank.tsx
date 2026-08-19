@@ -599,6 +599,17 @@ export function QuestionBank() {
   const [elapsed, setElapsed] = useState(0)
   /** Elapsed seconds when the current question was first shown. */
   const questionStartedAt = useRef(0)
+  /**
+   * How long has been spent on each question, and which one the clock is on.
+   *
+   * A timed block only ever knew the total. Per-question time was measured
+   * exclusively inside `checkAnswer`, which Tutor is the only mode that
+   * reaches — so the mode built around a clock recorded no times at all.
+   */
+  const elapsedRef = useRef(0)
+  elapsedRef.current = elapsed
+  const timeSpent = useRef<Record<string, number>>({})
+  const timingId = useRef<string | null>(null)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
   /** Indexes the student has actually landed on — what separates "omitted" from "unseen". */
   const [visited, setVisited] = useState<Set<number>>(() => new Set([0]))
@@ -646,6 +657,14 @@ export function QuestionBank() {
 
   useEffect(() => {
     if (restored.current || !savedStatus.hydrated || !saved || !questions.length) return
+    // A sitting the student has already started in this mount is not something
+    // to overwrite. The stored document arrives asynchronously, and it used to
+    // arrive *after* the student had picked Timed and pressed Start: the old
+    // sitting was then restored straight over the new one, taking its mode, its
+    // answers and — worst of all — its `checked` map with it. That is why a
+    // timed block showed no timer, revealed whether each choice was right, and
+    // carried that marking on to the next question. Whatever is on screen wins.
+    if (session.length || phase !== 'setup') { restored.current = true; return }
     const rebuilt = saved.questionIds
       .map((id) => questions.find((question) => question.id === id))
       .filter((question): question is Question => Boolean(question))
@@ -665,7 +684,11 @@ export function QuestionBank() {
     setReviewing(saved.reviewing)
     setSessionName(saved.name)
     setPhase(saved.phase)
-  }, [questions, saved, savedStatus.hydrated, setSaved])
+    // `session` and `phase` are read above to decide whether restoring is still
+    // the right thing to do, so they belong here: reading a stale pair is what
+    // the guard exists to prevent. `restored.current` is what stops this
+    // repeating once it has run.
+  }, [questions, saved, savedStatus.hydrated, setSaved, session.length, phase])
 
   // Mirror the sitting outward. Debounced by the state store, so this is one
   // write per pause rather than one per answer.
@@ -774,12 +797,25 @@ export function QuestionBank() {
     return () => clearInterval(id)
   }, [phase, mode, reviewing])
 
+  /** Close the clock on whichever question was showing, and open it on this one. */
+  const switchTiming = useCallback((nextId: string | null) => {
+    const previous = timingId.current
+    if (previous && previous !== nextId) {
+      timeSpent.current[previous] = (timeSpent.current[previous] ?? 0) + Math.max(0, elapsedRef.current - questionStartedAt.current)
+    }
+    if (previous !== nextId) {
+      timingId.current = nextId
+      questionStartedAt.current = elapsedRef.current
+    }
+  }, [])
+
   // Landing on a question is what makes it "seen", however the student got here —
   // Next, Previous, or a jump from the navigator.
   useEffect(() => {
     setVisited((current) => (current.has(idx) ? current : new Set(current).add(idx)))
     setShowAllRationales(false)
-  }, [idx])
+    switchTiming(session[idx]?.id ?? null)
+  }, [idx, session, switchTiming])
 
   /**
    * Open a session on a chosen set of questions.
@@ -796,6 +832,12 @@ export function QuestionBank() {
     // replaced it — so every test a student named was filed under the previous
     // id and appeared in their history as "Untitled test".
     const id = newSessionId()
+    // Starting is also a decision about the stored sitting: it is superseded,
+    // so a read still in flight must not be allowed to land on top of this one.
+    restored.current = true
+    startedAt.current = new Date().toISOString()
+    timeSpent.current = {}
+    timingId.current = null
     if (name?.trim()) setSavedNames((current) => ({ ...current, [id]: name.trim() }))
     setSession(picked)
     setSessionId(id)
@@ -1211,7 +1253,12 @@ export function QuestionBank() {
   // crash rather than a blank screen. Falling back to setup is the only safe
   // reading of "running with nothing to ask".
   if (!q) { discardSession(); return null }
-  const revealed = reviewing || Boolean(checked[q.id])
+  // Reviewing always reveals. Otherwise only Tutor does, and only for a
+  // question whose answer the student asked to check. Reading `checked` alone
+  // meant anything that put a value in that map — a restored sitting, the
+  // grading pass at the end of a timed block — turned the marking on underneath
+  // a student who was still working.
+  const revealed = reviewing || (mode === 'tutor' && Boolean(checked[q.id]))
   const chosen = answers[q.id]
   const last = idx === session.length - 1
   const correctRationale = q.options.find((option) => option.correct)?.rationale.trim() ?? ''
@@ -1232,8 +1279,11 @@ export function QuestionBank() {
    * out, so what reaches the ledger is only what the question assessed.
    */
   function checkAnswer() {
-    setChecked((c) => ({ ...c, [q.id]: true }))
+    // Nothing is revealed until there is an answer to reveal. Marking the
+    // question checked first meant pressing Check with no option selected
+    // exposed the right answer and recorded nothing.
     if (checked[q.id] || chosen == null) return
+    setChecked((c) => ({ ...c, [q.id]: true }))
     const correct = Boolean(q.options[chosen]?.correct)
     const conceptIds = q.conceptIds ?? []
     // The mastery ledger only takes concept-tagged evidence, but the attempt
@@ -1252,6 +1302,52 @@ export function QuestionBank() {
       sessionId,
     })
     questionStartedAt.current = elapsed
+  }
+
+  /**
+   * Mark a timed block, once, when the student leaves it.
+   *
+   * Tutor grades a question at the moment its answer is checked. Timed had no
+   * equivalent: `checkAnswer` was reachable only from the Tutor-only "Check
+   * answer" button, so a timed sitting recorded nothing — no attempt log, no
+   * mastery evidence, no accuracy, no streak. The score on the results screen
+   * was computed locally and then thrown away.
+   *
+   * Everything answered is recorded here in one pass, with the time actually
+   * spent on each question. Questions left blank are not logged: an omission is
+   * not a wrong answer, and filing it as one would understate the student.
+   */
+  function gradeTimedBlock() {
+    if (mode !== 'timed' || reviewing) return
+    switchTiming(null)
+    const marks: Record<string, boolean> = {}
+    for (const question of session) {
+      if (checked[question.id]) continue
+      const picked = answers[question.id]
+      if (picked == null) continue
+      marks[question.id] = true
+      const correct = Boolean(question.options[picked]?.correct)
+      const conceptIds = question.conceptIds ?? []
+      if (conceptIds.length) record({ conceptIds, source: 'question', correct })
+      logAttempt({
+        surface: 'qbank',
+        itemId: question.id,
+        subjectId: question.subjectId,
+        topic: question.topic,
+        difficulty: question.difficulty,
+        conceptIds,
+        correct,
+        seconds: timeSpent.current[question.id] ?? null,
+        sessionId,
+      })
+    }
+    if (Object.keys(marks).length) setChecked((current) => ({ ...current, ...marks }))
+  }
+
+  /** Leave the runner for the results screen, marking a timed block on the way. */
+  function showResults() {
+    gradeTimedBlock()
+    setPhase('results')
   }
 
   function stateFor(i: number): QuestionState {
@@ -1281,9 +1377,16 @@ export function QuestionBank() {
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
           {reviewing && <span className="text-[13px] font-medium text-primary">{t('Reviewing')}</span>}
           <div className="flex items-center gap-2 sm:ms-auto">
+            {/* The clock is the whole point of this mode, so it is a fixture
+                rather than a caption: same place, same width, legible across
+                the room. It was previously grey mono text among four other
+                grey controls, which is close to not being there. */}
             {mode === 'timed' && !reviewing && (
-              <span className="tnum inline-flex items-center gap-1.5 font-mono text-[13px] text-ink-2">
-                <Icon icon={Clock} size={14} />
+              <span
+                className="tnum inline-flex items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-2.5 py-1.5 font-mono text-[14px] font-semibold text-ink shadow-panel"
+                aria-label={`${t('Time elapsed')} ${clock(elapsed)}`}
+              >
+                <Icon icon={Clock} size={15} className="text-primary" />
                 {clock(elapsed)}
               </span>
             )}
@@ -1314,7 +1417,7 @@ export function QuestionBank() {
               {t('Report')}
             </button>
             <button
-              onClick={() => setPhase(reviewing ? 'results' : 'setup')}
+              onClick={() => { if (!reviewing) gradeTimedBlock(); setPhase(reviewing ? 'results' : 'setup') }}
               className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3 text-[12.5px] font-semibold text-ink shadow-panel transition-colors hover:bg-inset sm:min-h-9"
             >
               <Icon icon={reviewing ? ArrowLeft : LogOut} size={14} />
@@ -1499,7 +1602,7 @@ export function QuestionBank() {
               variant="primary"
               size="md"
               iconRight={reviewing ? undefined : Trophy}
-              onClick={() => setPhase('results')}
+              onClick={showResults}
             >
               {reviewing ? 'Finish review' : 'See results'}
             </Button>
