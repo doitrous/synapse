@@ -223,6 +223,8 @@ interface LiveSession {
   sessionId: string
   elapsed: number
   visited: number[]
+  /** Options the student has ruled out, per question. Scratch marks, not a record. */
+  struck: Record<string, number[]>
   reviewing: boolean
   name: string
   phase: Exclude<Phase, 'setup'>
@@ -430,6 +432,7 @@ export function QuestionBank() {
   const [session, setSession] = useState<Question[]>([])
   const [idx, setIdx] = useState(0)
   const [answers, setAnswers] = useState<Record<string, number>>({})
+  const [struck, setStruck] = useState<Record<string, number[]>>({})
   const [checked, setChecked] = useState<Record<string, boolean>>({})
   const [reviewing, setReviewing] = useState(false)
   const [submitted, setSubmitted] = useState(false)
@@ -512,6 +515,7 @@ export function QuestionBank() {
     setSession(rebuilt)
     setIdx(Math.min(saved.idx, rebuilt.length - 1))
     setAnswers(saved.answers)
+    setStruck(saved.struck ?? {})
     setChecked(saved.checked)
     setMode(saved.mode)
     setSessionId(saved.sessionId)
@@ -539,6 +543,7 @@ export function QuestionBank() {
       questionIds: session.map((question) => question.id),
       idx, answers, checked, mode, sessionId, elapsed,
       visited: [...visited],
+      struck,
       reviewing,
       submitted,
       name: sessionName,
@@ -547,7 +552,7 @@ export function QuestionBank() {
     })
     // `saved` is deliberately not a dependency — see startedAt above.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, session, idx, answers, checked, mode, sessionId, elapsed, visited, reviewing, submitted, sessionName, savedStatus.hydrated, setSaved])
+  }, [phase, session, idx, answers, checked, mode, sessionId, elapsed, visited, struck, reviewing, submitted, sessionName, savedStatus.hydrated, setSaved])
 
   const articleQuestions = useMemo(
     () => (articleFilter ? questions.filter((question) => question.libraryRefs.some((ref) => ref.id === articleFilter)) : questions),
@@ -655,6 +660,7 @@ export function QuestionBank() {
     setSessionId(id)
     setIdx(0)
     setAnswers({})
+    setStruck({})
     setChecked({})
     setReviewing(false)
     setSubmitted(false)
@@ -1092,6 +1098,29 @@ export function QuestionBank() {
   }
 
   /**
+   * Rule an option in or out.
+   *
+   * Ruling out the option that is currently selected clears the selection:
+   * leaving a pick on something the student has just crossed off would submit
+   * an answer they have visibly stopped believing.
+   */
+  function toggleStrike(index: number) {
+    const ruledOut = !(struck[q.id] ?? []).includes(index)
+    setStruck((current) => {
+      const next = new Set(current[q.id] ?? [])
+      if (!next.delete(index)) next.add(index)
+      return { ...current, [q.id]: [...next] }
+    })
+    if (ruledOut && answers[q.id] === index) {
+      setAnswers((current) => {
+        const next = { ...current }
+        delete next[q.id]
+        return next
+      })
+    }
+  }
+
+  /**
    * Write a record for every answered question that does not have one.
    *
    * `checkAnswer` is the only other writer and its button only exists in tutor
@@ -1238,40 +1267,67 @@ export function QuestionBank() {
             place they matter most was the one place they never worked. */}
         <div className="mt-5 space-y-2.5">
           {q.options.map((opt, i) => {
-            const body = (
-              <>
-                <span
-                  className={cn(
-                    'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
-                    revealed && opt.correct
-                      ? 'border-success bg-success text-on-success'
-                      : revealed && chosen === i
-                        ? 'border-danger bg-danger text-on-danger'
-                        : chosen === i
-                          ? 'border-accent bg-accent text-on-accent'
-                          : 'border-line-2 text-ink-2',
-                  )}
-                >
-                  {revealed && opt.correct ? (
-                    <Icon icon={Check} size={14} strokeWidth={2.6} />
-                  ) : revealed && chosen === i ? (
-                    <Icon icon={X} size={14} strokeWidth={2.6} />
-                  ) : (
-                    LETTERS[i]
-                  )}
-                </span>
-                <span className="flex-1 pt-0.5 text-[14px] text-ink"><ConceptText text={opt.text} enabled={revealed} /></span>
-              </>
+            const ruledOut = (struck[q.id] ?? []).includes(i)
+            const badge = (
+              <span
+                className={cn(
+                  'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
+                  revealed && opt.correct
+                    ? 'border-success bg-success text-on-success'
+                    : revealed && chosen === i
+                      ? 'border-danger bg-danger text-on-danger'
+                      : chosen === i
+                        ? 'border-accent bg-accent text-on-accent'
+                        : 'border-line-2 text-ink-2',
+                )}
+              >
+                {revealed && opt.correct ? (
+                  <Icon icon={Check} size={14} strokeWidth={2.6} />
+                ) : revealed && chosen === i ? (
+                  <Icon icon={X} size={14} strokeWidth={2.6} />
+                ) : (
+                  LETTERS[i]
+                )}
+              </span>
             )
-            const shape = cn('flex w-full items-start gap-3 rounded-lg border p-3 text-start transition-colors', optionClasses(i))
+            const text = (
+              <span className={cn('flex-1 pt-0.5 text-[14px] text-ink', ruledOut && 'line-through decoration-ink-3')}>
+                <ConceptText text={opt.text} enabled={revealed} />
+              </span>
+            )
+            const shape = cn(
+              'flex w-full items-start gap-3 rounded-lg border p-3 text-start transition-colors',
+              optionClasses(i),
+              ruledOut && !revealed && 'opacity-55',
+            )
             return (
               <div key={i}>
                 {revealed ? (
-                  <div className={shape}>{body}</div>
+                  <div className={shape}>{badge}{text}</div>
                 ) : (
-                  <button onClick={() => setAnswers((a) => ({ ...a, [q.id]: i }))} className={cn(shape, 'cursor-pointer')}>
-                    {body}
-                  </button>
+                  /* Two targets, not one. The letter answers; the text rules
+                     out. A student working an option list crosses things off
+                     long before they commit to one, and there was nowhere to
+                     put that thinking. */
+                  <div className={shape}>
+                    <button
+                      type="button"
+                      onClick={() => setAnswers((a) => ({ ...a, [q.id]: i }))}
+                      aria-label={`${t('Choose answer')} ${LETTERS[i]}`}
+                      className="cursor-pointer rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)]"
+                    >
+                      {badge}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => toggleStrike(i)}
+                      aria-pressed={ruledOut}
+                      aria-label={`${ruledOut ? t('Rule back in') : t('Rule out')}: ${opt.text}`}
+                      className="flex flex-1 cursor-pointer text-start focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)]"
+                    >
+                      {text}
+                    </button>
+                  </div>
                 )}
               </div>
             )
