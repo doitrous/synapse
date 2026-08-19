@@ -32,6 +32,7 @@ import {
   invalidateStudyRoomSnapshot,
 } from './studyRooms.js'
 import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests } from './friends.js'
+import { mintInvite, redeemInvite } from './friendInvites.js'
 import { toMariaDbDate } from './datetime.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
 
@@ -463,6 +464,14 @@ app.post('/api/friends/respond', requireAuthenticated, wrap(async (req, res) => 
 
 app.post('/api/friends/remove', requireAuthenticated, wrap(async (req, res) => {
   res.json(await removeFriend(req.identity.id, req.body?.userId))
+}))
+
+app.post('/api/friends/invite', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await mintInvite(req.identity.id))
+}))
+
+app.post('/api/friends/invite/redeem', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await redeemInvite(req.identity.id, req.body?.token))
 }))
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */

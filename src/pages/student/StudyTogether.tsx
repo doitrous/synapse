@@ -1,4 +1,5 @@
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -19,7 +20,7 @@ import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useMastery } from '@/lib/useMastery'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { ROOM_REFUSALS, useMyRooms, useRoom, useStudyRoomActions } from '@/lib/useStudyRooms'
-import { useFriends, type FriendProfile } from '@/lib/useFriends'
+import { FRIEND_REFUSALS, useFriends, type FriendProfile } from '@/lib/useFriends'
 import { FriendsPanel } from '@/components/social/FriendsPanel'
 import { API_MODE } from '@/lib/api'
 import { formatRelativeTime } from '@/lib/format'
@@ -330,12 +331,45 @@ export function StudyTogether() {
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = questionsInScope(questions, scope, libraryTopics)
 
-  const { friends, incoming, outgoing, respond, remove } = useFriends()
+  const { friends, incoming, outgoing, respond, remove, mintInvite, redeemInvite } = useFriends()
+  const [inviteNotice, setInviteNotice] = useState<{ tone: 'success' | 'danger'; text: string } | null>(null)
 
   // Tasks 6 and 9 land the real behaviour here — a shared test invite and a
   // challenge dialog. For now these just give the panel somewhere to call.
   const handleStudyTogether = useCallback((_friend: FriendProfile) => {}, [])
   const handleChallenge = useCallback((_friend: FriendProfile) => {}, [])
+
+  /**
+   * Redeem `?invite=` once on arrival.
+   *
+   * The link's whole point is to work with no other setup, so it has to be
+   * caught here rather than requiring the student to find the Friends tab
+   * themselves. Guarded by a ref rather than just checking the param, because
+   * clearing the param itself triggers a re-render this effect would otherwise
+   * see before the URL update has landed.
+   */
+  const [searchParams, setSearchParams] = useSearchParams()
+  const redeemedToken = useRef<string | null>(null)
+  useEffect(() => {
+    if (!API_MODE) return
+    const token = searchParams.get('invite')
+    if (!token || redeemedToken.current === token) return
+    redeemedToken.current = token
+    void (async () => {
+      const result = await redeemInvite(token)
+      setInviteNotice(
+        result.ok
+          ? { tone: 'success', text: t('Friend request sent.') }
+          : { tone: 'danger', text: FRIEND_REFUSALS[result.reason ?? ''] ?? t('That invite link could not be used.') },
+      )
+      setTab('friends')
+      setSearchParams((current) => {
+        const next = new URLSearchParams(current)
+        next.delete('invite')
+        return next
+      }, { replace: true })
+    })()
+  }, [searchParams, setSearchParams, redeemInvite, t])
 
   if (openRoomId) {
     return (
@@ -507,15 +541,23 @@ export function StudyTogether() {
       />
     </Panel>
   ) : (
-    <FriendsPanel
-      friends={friends}
-      incoming={incoming}
-      outgoing={outgoing}
-      onRespond={respond}
-      onRemove={remove}
-      onStudyTogether={handleStudyTogether}
-      onChallenge={handleChallenge}
-    />
+    <div className="space-y-4">
+      {inviteNotice && (
+        <p role="status" className={cn('text-[12.5px]', inviteNotice.tone === 'success' ? 'text-success' : 'text-danger')}>
+          {inviteNotice.text}
+        </p>
+      )}
+      <FriendsPanel
+        friends={friends}
+        incoming={incoming}
+        outgoing={outgoing}
+        onRespond={respond}
+        onRemove={remove}
+        onStudyTogether={handleStudyTogether}
+        onChallenge={handleChallenge}
+        onCreateInvite={mintInvite}
+      />
+    </div>
   )
 
   return (

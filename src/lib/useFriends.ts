@@ -20,6 +20,9 @@ export const FRIEND_REFUSALS: Record<string, string> = {
   already_pending: 'You have already asked. They have not answered yet.',
   already_friends: 'You are already friends.',
   not_pending: 'That request has already been answered.',
+  expired: 'That invite link has expired. Ask for a new one.',
+  used: 'That invite link has already been used.',
+  self: 'That is your own invite link.',
 }
 
 export function useFriends() {
@@ -64,5 +67,17 @@ export function useFriends() {
     return result
   }, [reload])
 
-  return { friends, incoming, outgoing, loading, reload, request, respond, remove }
+  // Minting needs no reload: nothing about the viewer's own friend graph
+  // changes until someone else redeems the link.
+  const mintInvite = useCallback(async () => {
+    return apiPost<{ token: string }>('/friends/invite')
+  }, [])
+
+  const redeemInvite = useCallback(async (token: string) => {
+    const result = await apiPost<{ ok: boolean; reason?: string; userId?: string }>('/friends/invite/redeem', { token })
+    await reload()
+    return result
+  }, [reload])
+
+  return { friends, incoming, outgoing, loading, reload, request, respond, remove, mintInvite, redeemInvite }
 }

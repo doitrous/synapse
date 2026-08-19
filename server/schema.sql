@@ -484,3 +484,15 @@ CREATE TABLE IF NOT EXISTS friendships (
    being findable by your own classmates is the point of the directory, and the
    cohort is already closed. The toggle lives in Account. */
 ALTER TABLE students ADD COLUMN IF NOT EXISTS discoverable BOOLEAN NOT NULL DEFAULT 1;
+
+/* A link a student can send to anyone, on any channel we do not control.
+   Single use and short-lived: a link that lives forever in a group chat is a
+   standing invitation to an account no one meant to add. */
+CREATE TABLE IF NOT EXISTS friend_invites (
+  token      CHAR(32) PRIMARY KEY,
+  user_id    VARCHAR(64) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  expires_at DATETIME NOT NULL,
+  used_by    VARCHAR(64) NULL,
+  INDEX idx_friend_invites_user (user_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

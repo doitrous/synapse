@@ -1,10 +1,72 @@
-import { UserPlus, Users, Check, X, Swords, Play } from 'lucide-react'
+import { useState } from 'react'
+import { UserPlus, Users, Check, X, Swords, Play, Link2, Copy } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Avatar } from '@/components/ui/Avatar'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { TextInput } from '@/components/ui/Field'
 import type { FriendProfile } from '@/lib/useFriends'
 import { useT } from '@/lib/i18n'
+
+/**
+ * The link a student sends when there is no directory to search.
+ *
+ * A university does not have to share a channel for two of its students to
+ * become study partners: this works over text, WhatsApp, anything — the link
+ * itself carries the invitation.
+ */
+function InviteLinkPanel({ onCreateInvite }: { onCreateInvite: () => Promise<{ token: string }> }) {
+  const t = useT()
+  const [link, setLink] = useState<string | null>(null)
+  const [minting, setMinting] = useState(false)
+  const [copied, setCopied] = useState(false)
+  const [failed, setFailed] = useState(false)
+
+  async function createInvite() {
+    setMinting(true)
+    setFailed(false)
+    try {
+      const result = await onCreateInvite()
+      if (result?.token) setLink(`${window.location.origin}/app/study-together?invite=${result.token}`)
+    } catch {
+      // A dropped request should not leave the button spinning forever —
+      // the student needs to know it is safe to try again.
+      setFailed(true)
+    } finally {
+      setMinting(false)
+    }
+  }
+
+  return (
+    <Panel>
+      <PanelHeader title={t('Find friends')} icon={Link2} />
+      <div className="space-y-3 p-5">
+        <p className="text-[12.5px] leading-relaxed text-ink-3">
+          {t('No shared university, no directory, no problem. Send this link on any channel — opening it asks to be your friend.')}
+        </p>
+        {link ? (
+          <div className="flex flex-wrap items-center gap-2">
+            <TextInput readOnly value={link} onFocus={(event) => event.currentTarget.select()} className="min-w-0 flex-1 font-mono text-[12px]" />
+            <Button
+              variant="secondary"
+              iconLeft={copied ? Check : Copy}
+              onClick={() => { void navigator.clipboard?.writeText(link); setCopied(true); window.setTimeout(() => setCopied(false), 1600) }}
+            >
+              {copied ? t('Copied') : t('Copy')}
+            </Button>
+          </div>
+        ) : (
+          <>
+            <Button variant="primary" iconLeft={Link2} loading={minting} onClick={() => void createInvite()}>
+              {t('Create invite link')}
+            </Button>
+            {failed && <p className="text-[12.5px] text-danger">{t('That link could not be created. Try again.')}</p>}
+          </>
+        )}
+      </div>
+    </Panel>
+  )
+}
 
 /**
  * Who you study with.
@@ -21,6 +83,7 @@ export function FriendsPanel({
   onRemove,
   onStudyTogether,
   onChallenge,
+  onCreateInvite,
 }: {
   friends: FriendProfile[]
   incoming: FriendProfile[]
@@ -29,10 +92,13 @@ export function FriendsPanel({
   onRemove: (userId: string) => void
   onStudyTogether: (friend: FriendProfile) => void
   onChallenge: (friend: FriendProfile) => void
+  onCreateInvite: () => Promise<{ token: string }>
 }) {
   const t = useT()
   return (
     <div className="space-y-4">
+      <InviteLinkPanel onCreateInvite={onCreateInvite} />
+
       {incoming.length > 0 && (
         <Panel>
           <PanelHeader title={t('Asked to be friends')} icon={UserPlus} hint={String(incoming.length)} />
