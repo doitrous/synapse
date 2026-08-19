@@ -84,14 +84,39 @@ struct CalendarView: View {
                         ForEach(grouped, id: \.date) { group in
                             Section {
                                 ForEach(group.blocks) { block in
-                                    VStack(alignment: .leading, spacing: 2) {
-                                        Text(block.title)
-                                            .font(Theme.ui(15, weight: 500))
-                                            .foregroundStyle(Theme.ink)
-                                        Text("\(block.start)–\(block.end)")
-                                            .font(Theme.numeric(11))
-                                            .foregroundStyle(Theme.ink3)
+                                    Button {
+                                        Task { await toggle(block) }
+                                    } label: {
+                                        HStack(spacing: 10) {
+                                            // Ticking one off is the whole
+                                            // point of planning it, and the
+                                            // field was being stored with
+                                            // nothing able to set it.
+                                            Image(systemName: block.done == true
+                                                ? "checkmark.circle.fill" : "circle")
+                                                .foregroundStyle(block.done == true ? Theme.success : Theme.ink3)
+
+                                            VStack(alignment: .leading, spacing: 2) {
+                                                Text(block.title)
+                                                    .font(Theme.ui(15, weight: 500))
+                                                    .foregroundStyle(block.done == true ? Theme.ink2 : Theme.ink)
+                                                    .strikethrough(block.done == true, color: Theme.ink3)
+
+                                                HStack(spacing: 6) {
+                                                    Text("\(block.start)–\(block.end)")
+                                                    if block.minutes > 0 {
+                                                        Text("· \(block.minutes) min")
+                                                    }
+                                                    if let module = block.moduleId, !module.isEmpty {
+                                                        Text("· \(module)")
+                                                    }
+                                                }
+                                                .font(Theme.numeric(11))
+                                                .foregroundStyle(Theme.ink3)
+                                            }
+                                        }
                                     }
+                                    .buttonStyle(.plain)
                                     .listRowBackground(Theme.surface)
                                     .swipeActions {
                                         Button("Delete", role: .destructive) {
@@ -100,10 +125,21 @@ struct CalendarView: View {
                                     }
                                 }
                             } header: {
-                                Text(group.date)
-                                    .font(Theme.panelTitle())
-                                    .foregroundStyle(Theme.ink2)
-                                    .textCase(nil)
+                                HStack {
+                                    Text(dayLabel(group.date))
+                                    Spacer()
+                                    // What the day actually asks of you, which
+                                    // is the number worth seeing before it
+                                    // starts.
+                                    let planned = group.blocks.reduce(0) { $0 + $1.minutes }
+                                    if planned > 0 {
+                                        Text("\(planned) min")
+                                            .font(Theme.numeric(11))
+                                    }
+                                }
+                                .font(Theme.panelTitle())
+                                .foregroundStyle(Theme.ink2)
+                                .textCase(nil)
                             }
                         }
                     }
@@ -126,6 +162,30 @@ struct CalendarView: View {
             StudyBlockEditor { block in Task { await add(block) } }
         }
         .task { await load() }
+    }
+
+    /// Today and tomorrow by name, everything else by date — a student
+    /// scanning the list is looking for "today" first.
+    private func dayLabel(_ iso: String) -> String {
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = .current
+
+        let formatter = DateFormatter()
+        formatter.calendar = calendar
+        formatter.dateFormat = "yyyy-MM-dd"
+        guard let date = formatter.date(from: iso) else { return iso }
+
+        if calendar.isDateInToday(date) { return "Today" }
+        if calendar.isDateInTomorrow(date) { return "Tomorrow" }
+        if calendar.isDateInYesterday(date) { return "Yesterday" }
+        return date.formatted(.dateTime.weekday(.abbreviated).day().month(.abbreviated))
+    }
+
+    /// Tick a block off, or put it back.
+    private func toggle(_ block: StudyBlock) async {
+        guard let index = blocks.firstIndex(where: { $0.id == block.id }) else { return }
+        blocks[index].done = !(blocks[index].done ?? false)
+        await sync.write(key: StudyBlock.storageKey, value: blocks)
     }
 
     private var grouped: [(date: String, blocks: [StudyBlock])] {

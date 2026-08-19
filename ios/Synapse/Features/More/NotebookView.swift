@@ -138,17 +138,7 @@ struct NotebookView: View {
                         Button {
                             editing = note
                         } label: {
-                            VStack(alignment: .leading, spacing: 3) {
-                                Text(note.title.isEmpty ? "Untitled" : note.title)
-                                    .font(Theme.ui(16, weight: 500))
-                                    .foregroundStyle(Theme.ink)
-                                if !note.body.isEmpty {
-                                    Text(note.body)
-                                        .font(Theme.ui(13))
-                                        .foregroundStyle(Theme.ink2)
-                                        .lineLimit(2)
-                                }
-                            }
+                            NoteRow(note: note)
                         }
                         .buttonStyle(.plain)
                         .listRowBackground(Theme.surface)
@@ -182,13 +172,80 @@ struct NotebookView: View {
         }
     }
 
+    /// Searched across what a student would think of as the note: its words,
+    /// its tags, and the article it was written from.
     private func filtered(_ notes: [Note]) -> [Note] {
         let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return notes }
-        return notes.filter {
-            $0.title.localizedCaseInsensitiveContains(trimmed)
-                || $0.body.localizedCaseInsensitiveContains(trimmed)
+        return notes.filter { note in
+            note.title.localizedCaseInsensitiveContains(trimmed)
+                || note.body.localizedCaseInsensitiveContains(trimmed)
+                || note.tags.contains { $0.localizedCaseInsensitiveContains(trimmed) }
+                || (note.subtopicTitle ?? "").localizedCaseInsensitiveContains(trimmed)
         }
+    }
+}
+
+/// One note, as it reads in the list.
+///
+/// The tags, the article it came from and the documents it points at were all
+/// being stored and none of them shown, so a note written on the website
+/// arrived here stripped of everything that gave it its context.
+private struct NoteRow: View {
+    let note: Note
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 5) {
+            Text(note.title.isEmpty ? "Untitled" : note.title)
+                .font(Theme.ui(16, weight: 500))
+                .foregroundStyle(Theme.ink)
+
+            if !note.body.isEmpty {
+                Text(note.body)
+                    .font(Theme.ui(13))
+                    .foregroundStyle(Theme.ink2)
+                    .lineLimit(2)
+            }
+
+            if let article = note.subtopicTitle, !article.isEmpty {
+                Label(article, systemImage: "text.book.closed")
+                    .font(Theme.ui(11))
+                    .foregroundStyle(Theme.accent)
+                    .lineLimit(1)
+            }
+
+            if let refs = note.resourceRefs, !refs.isEmpty {
+                ForEach(refs) { ref in
+                    Label(
+                        ref.page.map { "\(ref.label) · p.\($0)" } ?? ref.label,
+                        systemImage: "doc.text"
+                    )
+                    .font(Theme.ui(11))
+                    .foregroundStyle(Theme.ink3)
+                    .lineLimit(1)
+                }
+            }
+
+            if !note.tags.isEmpty {
+                HStack(spacing: 5) {
+                    ForEach(note.tags.prefix(4), id: \.self) { tag in
+                        Text(tag)
+                            .font(Theme.ui(10))
+                            .foregroundStyle(Theme.ink2)
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(Theme.inset, in: Capsule())
+                    }
+                }
+            }
+
+            if note.imageData != nil {
+                Label("Has an image", systemImage: "photo")
+                    .font(Theme.ui(11))
+                    .foregroundStyle(Theme.ink3)
+            }
+        }
+        .padding(.vertical, 2)
     }
 }
 
@@ -197,32 +254,158 @@ private struct NoteEditor: View {
     let save: (Note) -> Void
     @Environment(\.dismiss) private var dismiss
 
+    /// Reading or writing. Device-scoped, as on the web: whether you are
+    /// reading your notes or editing them is about the moment, not the account.
+    @AppStorage("synapse.notebook.reading") private var reading = false
+    @State private var tagDraft = ""
+
     var body: some View {
         NavigationStack {
-            VStack(alignment: .leading, spacing: 12) {
-                TextField("Title", text: $note.title)
-                    .font(Theme.display(20))
-                    .foregroundStyle(Theme.ink)
-
-                TextEditor(text: $note.body)
-                    .font(Theme.serifBody(16))
-                    .foregroundStyle(Theme.ink)
-                    .scrollContentBackground(.hidden)
-                    .background(Theme.paper)
+            Group {
+                if reading { readingView } else { editingView }
             }
-            .padding(16)
             .background(Theme.paper)
-            .navigationTitle("Note")
+            .navigationTitle(reading ? "Note" : "Editing")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Cancel") { dismiss() }
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        reading.toggle()
+                    } label: {
+                        Image(systemName: reading ? "pencil" : "book")
+                    }
+                    .tint(Theme.accent)
+                    .accessibilityLabel(reading ? "Edit" : "Read")
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Save") { save(note); dismiss() }
                         .disabled(note.title.trimmed.isEmpty && note.body.trimmed.isEmpty)
                 }
             }
+        }
+    }
+
+    private var editingView: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            TextField("Title", text: $note.title)
+                .font(Theme.display(20))
+                .foregroundStyle(Theme.ink)
+
+            TextEditor(text: $note.body)
+                .font(Theme.serifBody(16))
+                .foregroundStyle(Theme.ink)
+                .scrollContentBackground(.hidden)
+                .background(Theme.paper)
+
+            tagEditor
+            context
+        }
+        .padding(16)
+    }
+
+    private var readingView: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 14) {
+                Text(note.title.isEmpty ? "Untitled" : note.title)
+                    .font(Theme.display(24))
+                    .foregroundStyle(Theme.ink)
+
+                Text(note.body)
+                    .font(Theme.serifBody(17))
+                    .foregroundStyle(Theme.ink)
+                    .lineSpacing(5)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .textSelection(.enabled)
+
+                if !note.tags.isEmpty {
+                    HStack(spacing: 6) {
+                        ForEach(note.tags, id: \.self) { tag in
+                            Text(tag)
+                                .font(Theme.ui(11))
+                                .foregroundStyle(Theme.ink2)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 3)
+                                .background(Theme.inset, in: Capsule())
+                        }
+                    }
+                }
+
+                context
+            }
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+    }
+
+    private var tagEditor: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            if !note.tags.isEmpty {
+                HStack(spacing: 6) {
+                    ForEach(note.tags, id: \.self) { tag in
+                        Button {
+                            note.tags.removeAll { $0 == tag }
+                        } label: {
+                            HStack(spacing: 3) {
+                                Text(tag)
+                                Image(systemName: "xmark").font(.system(size: 8))
+                            }
+                            .font(Theme.ui(11))
+                            .foregroundStyle(Theme.ink2)
+                            .padding(.horizontal, 8)
+                            .padding(.vertical, 3)
+                            .background(Theme.inset, in: Capsule())
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+            }
+
+            TextField("Add a tag", text: $tagDraft)
+                .font(Theme.ui(13))
+                .submitLabel(.done)
+                .onSubmit {
+                    let tag = tagDraft.trimmed
+                    if !tag.isEmpty, !note.tags.contains(tag) { note.tags.append(tag) }
+                    tagDraft = ""
+                }
+        }
+    }
+
+    /// What the note is about, where the website recorded it.
+    ///
+    /// Shown rather than editable: these are set when a note is written from an
+    /// article or a document, and the phone has no way to make that link yet.
+    /// Showing them is what stops a note arriving here stripped of its context.
+    @ViewBuilder private var context: some View {
+        let refs = note.resourceRefs ?? []
+        if note.subtopicTitle?.isEmpty == false || !refs.isEmpty {
+            VStack(alignment: .leading, spacing: 6) {
+                Text("About")
+                    .font(Theme.panelTitle())
+                    .foregroundStyle(Theme.ink3)
+
+                if let article = note.subtopicTitle, !article.isEmpty {
+                    Label(article, systemImage: "text.book.closed")
+                        .font(Theme.ui(13))
+                        .foregroundStyle(Theme.accent)
+                }
+
+                ForEach(refs) { ref in
+                    Label(
+                        ref.page.map { "\(ref.label) · page \($0)" } ?? ref.label,
+                        systemImage: "doc.text"
+                    )
+                    .font(Theme.ui(13))
+                    .foregroundStyle(Theme.ink2)
+                }
+            }
+            .padding(12)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Theme.surface)
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
         }
     }
 }

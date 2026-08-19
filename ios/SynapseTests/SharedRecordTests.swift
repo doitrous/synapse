@@ -126,3 +126,32 @@ struct SharedRecordTests {
         ])
     }
 }
+
+/// The small pieces of arithmetic the calendar shows a student.
+struct StudyBlockTests {
+
+    private func block(_ start: String, _ end: String) -> StudyBlock {
+        StudyBlock(
+            id: "b", title: "T", date: "2026-08-19", start: start, end: end,
+            subjectId: "cvs", kind: "revision"
+        )
+    }
+
+    @Test func aBlockKnowsHowLongItIs() {
+        #expect(block("09:00", "10:30").minutes == 90)
+        #expect(block("09:00", "09:00").minutes == 0)
+        #expect(block("00:00", "23:59").minutes == 1439)
+    }
+
+    /// A block that ends before it starts is nonsense, and showing "-90 min"
+    /// is worse than showing nothing.
+    @Test func aBackwardsBlockIsZeroRatherThanNegative() {
+        #expect(block("10:30", "09:00").minutes == 0)
+    }
+
+    @Test func anUnreadableTimeIsZeroRatherThanACrash() {
+        #expect(block("nine", "ten").minutes == 0)
+        #expect(block("", "").minutes == 0)
+        #expect(block("09:00", "9:00:00").minutes == 0)
+    }
+}

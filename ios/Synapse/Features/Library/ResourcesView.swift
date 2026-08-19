@@ -7,6 +7,7 @@ struct ResourcesView: View {
 
     @State private var query = ""
     @State private var savedOnly = false
+    @AppStorage("synapse.resources.openableOnly") private var openableOnly = false
     @State private var files: ResourceFileStore
     let api: SynapseAPI
 
@@ -60,6 +61,11 @@ struct ResourcesView: View {
 
     private var folderList: some View {
         List {
+            Section {
+                filters
+            }
+            .listRowBackground(Theme.surface)
+
             ForEach(visibleFolders) { folder in
                 Section {
                     ForEach(folder.resources) { resource in
@@ -114,6 +120,45 @@ struct ResourcesView: View {
         }
     }
 
+    /// How the shelf is arranged, and what is left out of it.
+    ///
+    /// Both are device preferences, as on the web: how a student likes to
+    /// browse is about the hand holding the phone, not the account.
+    @ViewBuilder private var filters: some View {
+        Picker("Arrange", selection: Binding(
+            get: { model.grouping },
+            set: { model.grouping = $0 }
+        )) {
+            ForEach(ResourceModel.Grouping.allCases, id: \.self) {
+                Text($0.label).tag($0)
+            }
+        }
+        .pickerStyle(.segmented)
+
+        // Tick rows rather than switches. A `Toggle` in this list takes no
+        // taps at all — the picker above it does, so the section is live —
+        // and a control that looks operable and is not is worse than none.
+        tick("Saved only", isOn: savedOnly) { savedOnly.toggle() }
+
+        // Most of this shelf is catalogued but not uploaded, so "what can I
+        // actually open" is the filter a student reaches for first.
+        tick("Only ones I can open", isOn: openableOnly) { openableOnly.toggle() }
+    }
+
+    private func tick(_ title: String, isOn: Bool, toggle: @escaping () -> Void) -> some View {
+        Button(action: toggle) {
+            HStack(spacing: 10) {
+                Image(systemName: isOn ? "checkmark.square.fill" : "square")
+                    .foregroundStyle(isOn ? Theme.accent : Theme.ink3)
+                Text(title)
+                    .font(Theme.ui(14))
+                    .foregroundStyle(Theme.ink)
+                Spacer()
+            }
+        }
+        .buttonStyle(.plain)
+    }
+
     private var visibleFolders: [ResourceModel.Folder] {
         let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
 
@@ -121,6 +166,9 @@ struct ResourcesView: View {
             var matches = folder.resources
             if savedOnly {
                 matches = matches.filter { model.bookmarks.contains($0.id) }
+            }
+            if openableOnly {
+                matches = matches.filter(\.isOpenable)
             }
             if !trimmed.isEmpty {
                 matches = matches.filter {

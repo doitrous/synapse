@@ -60,6 +60,15 @@ final class ResourceModel {
     }
 
     private(set) var folders: [Folder] = []
+    /// How the shelf is arranged, remembered on this device.
+    var grouping: Grouping = Grouping(
+        rawValue: UserDefaults.standard.string(forKey: Grouping.key) ?? ""
+    ) ?? .system {
+        didSet {
+            UserDefaults.standard.set(grouping.rawValue, forKey: Grouping.key)
+            folders = Self.group(folders.flatMap(\.resources), by: grouping)
+        }
+    }
     private(set) var isLoading = true
     private(set) var emptyReason: String?
     /// Which resources this student has saved. Kept per-student on the server
@@ -106,7 +115,7 @@ final class ResourceModel {
                 updated.file = evidence.resourceFiles[resource.id]
                 return updated
             }
-            folders = Self.group(resources)
+            folders = Self.group(resources, by: grouping)
             emptyReason = folders.isEmpty ? await describeEmptiness() : nil
         } catch {
             folders = []
@@ -176,15 +185,36 @@ final class ResourceModel {
         )
     }
 
-    /// Group by chapter, which is how the web app's folder tree reads.
-    /// Resources with no chapter recorded collect at the end rather than
-    /// vanishing.
-    nonisolated static func group(_ resources: [LibraryResource]) -> [Folder] {
+    /// How the shelf is arranged.
+    ///
+    /// The web keeps this choice per device under `synapse.resources.groupBy`:
+    /// it is about how a student likes to browse, not about the student.
+    enum Grouping: String, CaseIterable, Sendable {
+        case system, kind
+
+        var label: String {
+            switch self {
+            case .system: "By chapter"
+            case .kind: "By type"
+            }
+        }
+
+        static let key = "synapse.resources.groupBy"
+    }
+
+    /// Group the shelf. Resources with nothing recorded collect at the end
+    /// rather than vanishing.
+    nonisolated static func group(
+        _ resources: [LibraryResource], by grouping: Grouping = .system
+    ) -> [Folder] {
         var folders: [String: Folder] = [:]
         var order: [String] = []
 
         for resource in resources {
-            let title = resource.chapter ?? "Unfiled"
+            let title = switch grouping {
+            case .system: resource.chapter ?? "Unfiled"
+            case .kind: resource.type.rawValue
+            }
             if folders[title] == nil {
                 folders[title] = Folder(id: title, title: title, resources: [])
                 order.append(title)
