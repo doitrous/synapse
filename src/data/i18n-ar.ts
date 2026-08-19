@@ -18,6 +18,8 @@ export const AR: Record<string, string> = {
   Study: 'الدراسة',
   Library: 'المكتبة',
   'Question Bank': 'بنك الأسئلة',
+  'Adaptive Study': 'الدراسة التكيّفية',
+  'Adaptive Learning': 'التعلّم التكيّفي',
   Practical: 'العملي',
   Resources: 'المصادر',
   Plan: 'التخطيط',
@@ -565,4 +567,173 @@ export const AR: Record<string, string> = {
   'Search documents…': 'ابحث في المستندات…',
   'Nothing left to reference.': 'لا يوجد المزيد لإضافته كمرجع.',
   'Back to notebook': 'العودة إلى دفتر الملاحظات',
+
+  // ---- Adaptive Study -------------------------------------------------------
+  // The tab labels and the load-bearing sentences. The longer explanatory copy
+  // is added as the surface settles: a half-translated paragraph reads worse
+  // than an English one, and the fallback keeps the page working either way.
+  Practice: 'التدريب',
+  Readiness: 'الجاهزية',
+  Concepts: 'المفاهيم',
+  'How this works': 'كيف يعمل هذا',
+  'Recommended next': 'المُقترَح تاليًا',
+  'Build a block': 'ابدأ مجموعة أسئلة',
+  'Build the block': 'أنشئ المجموعة',
+  'Build an adaptive block': 'أنشئ مجموعة تكيّفية',
+  'Submit block': 'سلّم المجموعة',
+  Exam: 'وضع الامتحان',
+  Presentation: 'طريقة العرض',
+  'How sure are you?': 'ما مدى ثقتك؟',
+  Sure: 'واثق',
+  'Not sure': 'غير واثق',
+  'Not yet': 'ليس بعد',
+  'Blueprint covered': 'المغطّى من المخطط',
+  'Weak concepts': 'المفاهيم الضعيفة',
+  'Due for review': 'مستحقّ للمراجعة',
+  'Not enough evidence': 'الأدلة غير كافية',
+  Weak: 'ضعيف',
+  Secure: 'راسخ',
+  Developing: 'قيد التطوّر',
+  Unmeasured: 'غير مُقاس',
+  'Review due': 'مراجعة مستحقة',
+  'Needs a second look': 'يحتاج نظرة ثانية',
+  Normal: 'عادي',
+  Snoozed: 'مؤجَّل',
+  'Out of scope': 'خارج النطاق',
+  'Included because this concept needs reinforcement.': 'أُدرج لأن هذا المفهوم يحتاج تعزيزًا.',
+  'Wrong answers and weak concepts are counted differently':
+    'تُحسب الإجابات الخاطئة والمفاهيم الضعيفة بطريقتين مختلفتين',
+  'Start a readiness assessment': 'ابدأ تقييم الجاهزية',
+  'Adaptive practice chooses what to study': 'التدريب التكيّفي يختار ما تدرسه',
+  'Readiness assessment measures where you stand': 'تقييم الجاهزية يقيس موضعك الحالي',
+
+  // ---- Adaptive Study · How this works --------------------------------------
+  // The page a student reads when they disagree with a status, so it is
+  // translated in full rather than in labels only. Shared constants from
+  // `explain.ts` and `config.ts` are keyed by their English source, so these
+  // entries also cover wherever else those strings appear.
+
+  // Panel titles
+  'Two systems, measured separately': 'نظامان يُقاسان بشكل منفصل',
+  'What Synapse measures': 'ما يقيسه سينابس',
+  'What it does not measure': 'ما لا يقيسه',
+  'How your next block is put together': 'كيف تُبنى مجموعتك التالية',
+  'Rules that are never relaxed': 'قواعد لا يجري التساهل فيها أبدًا',
+  'What each status means': 'ماذا تعني كل حالة',
+  Provenance: 'المصدر',
+  'Change history': 'سجل التغييرات',
+
+  // The two systems
+  'Adaptive blocks deliberately oversample what you are weakest at and what is due for review. Your accuracy inside them is therefore not a fair estimate of your exam performance, and it is not used as one.':
+    'تُكثر المجموعات التكيّفية عمدًا من أسئلة أضعف نقاطك وما هو مستحق للمراجعة. لذلك فإن نسبة إجاباتك الصحيحة داخلها ليست تقديرًا منصفًا لأدائك في الامتحان، ولا تُستخدم على هذا الأساس.',
+  'Readiness assessments are balanced against your exam blueprint, timed, and built from questions held back from ordinary practice. They report a range rather than a single score, because a limited number of questions cannot support more precision than that.':
+    'تقييمات الجاهزية موزونة وفق مخطط امتحانك، ومحددة بوقت، ومبنية من أسئلة محجوزة بعيدًا عن التدريب المعتاد. وهي تعرض نطاقًا لا درجة واحدة، لأن عددًا محدودًا من الأسئلة لا يحتمل دقة أكبر من ذلك.',
+
+  // Wrong attempts versus weak concepts — the rule the product rests on
+  'If you answer three questions incorrectly and all three were mainly testing the same concept, that records three wrong attempts and at most one weak concept. The mistakes are all kept — they make repairing that concept more urgent — but they do not create three separate weaknesses. This is why the number of wrong answers you remember is usually larger than the number of weak concepts shown.':
+    'إذا أجبت عن ثلاثة أسئلة إجابةً خاطئة وكانت جميعها تختبر المفهوم نفسه بشكل أساسي، فيُسجَّل ذلك كثلاث محاولات خاطئة ومفهوم ضعيف واحد على الأكثر. تُحفظ كل الأخطاء — فهي تجعل إصلاح ذلك المفهوم أكثر إلحاحًا — لكنها لا تُنشئ ثلاث نقاط ضعف منفصلة. لهذا يكون عدد الإجابات الخاطئة التي تتذكرها أكبر عادةً من عدد المفاهيم الضعيفة المعروضة.',
+  'Your record:': 'سجلك:',
+  'wrong answers': 'إجابات خاطئة',
+  'weak concepts': 'مفاهيم ضعيفة',
+
+  // What is measured
+  'Concept mastery': 'إتقان المفاهيم',
+  'A decayed estimate per concept, rebuilt from every answer you have given. It carries a range, not a single number, and the range widens as evidence ages.':
+    'تقدير يتناقص مع الوقت لكل مفهوم، يُعاد بناؤه من كل إجابة قدّمتها. يحمل نطاقًا لا رقمًا واحدًا، ويتّسع النطاق كلما تقادمت الأدلة.',
+  'Blueprint coverage': 'تغطية المخطط',
+  'How much of your exam blueprint, by weight, has any evidence behind it. Covered means practised at all — not mastered.':
+    'ما نسبة مخطط امتحانك — بالوزن — التي وراءها أي دليل. التغطية تعني أنك تدربت عليه أصلًا، لا أنك أتقنته.',
+  Retention: 'الاحتفاظ',
+  'Whether a concept survives a gap. A correct answer at least two days after the last one counts differently from four in a row.':
+    'هل يصمد المفهوم بعد فترة انقطاع. إجابة صحيحة بعد يومين على الأقل من سابقتها تُحسب بشكل مختلف عن أربع إجابات متتالية.',
+  Uncertainty: 'عدم اليقين',
+  'How little is known about a concept. This is what funds practice on things you have never been asked about.':
+    'مدى قلّة ما نعرفه عن مفهوم ما. وهذا ما يموّل التدرب على أشياء لم تُسأل عنها قط.',
+  'A separate, blueprint-balanced, timed measurement using questions held back from your practice.':
+    'قياس منفصل، موزون وفق المخطط ومحدد بوقت، يستخدم أسئلة محجوزة بعيدًا عن تدريبك.',
+
+  // What is not measured
+  'Time spent in the app, or how often you open it.': 'الوقت الذي تقضيه في التطبيق، أو عدد مرات فتحك له.',
+  'How many questions you have completed.': 'عدد الأسئلة التي أنهيتها.',
+  'Your accuracy inside adaptive blocks — those deliberately oversample your weak areas, so it reads lower than your real standing.':
+    'نسبة إجاباتك الصحيحة داخل المجموعات التكيّفية — فهي تُكثر عمدًا من نقاط ضعفك، ولذلك تبدو أقل من مستواك الحقيقي.',
+  'Anything about other students. No figure here is a comparison.':
+    'أي شيء عن الطلاب الآخرين. لا يوجد رقم هنا للمقارنة.',
+  'Every estimate here is a range based on the questions you have answered so far, under a model that has not yet been calibrated against results at your university. It describes your current preparation. It is not a prediction of your exam result, and it is not a guarantee.':
+    'كل تقدير هنا هو نطاق مبني على الأسئلة التي أجبت عنها حتى الآن، وفق نموذج لم يُعايَر بعد مقابل النتائج في جامعتك. إنه يصف استعدادك الحالي. وهو ليس تنبؤًا بنتيجة امتحانك، وليس ضمانًا.',
+
+  // How a block is put together
+  'Each block is divided into slots. These are allocation targets, not separate pools — one question often satisfies several needs at once, and always takes exactly one slot.':
+    'تُقسَّم كل مجموعة إلى خانات. وهذه أهداف توزيع لا مخزونات منفصلة — فالسؤال الواحد يلبي غالبًا عدة حاجات في آنٍ واحد، ويشغل دائمًا خانة واحدة فقط.',
+  Need: 'الحاجة',
+  'Share of your next block': 'نصيبها من مجموعتك التالية',
+  'These shares reflect your exam being': 'تعكس هذه النسب أن امتحانك بعد',
+  'days away.': 'يومًا.',
+  'Blueprint coverage rises as an exam approaches, and it is a floor rather than a ceiling — every question you answer counts toward coverage whichever need selected it.':
+    'ترتفع تغطية المخطط كلما اقترب الامتحان، وهي حدٌّ أدنى لا حدٌّ أقصى — فكل سؤال تجيب عنه يُحتسب ضمن التغطية أيًّا كانت الحاجة التي اختارته.',
+
+  // Allocation needs
+  'Confirmed weak concepts': 'المفاهيم الضعيفة المؤكدة',
+  'Exam-blueprint coverage and rolling debt': 'تغطية مخطط الامتحان والدَّين المتراكم',
+  'Spaced review': 'المراجعة المتباعدة',
+  'Unmeasured or uncertain concepts': 'المفاهيم غير المقاسة أو غير المؤكدة',
+
+  // Constraints
+  'When the question bank cannot satisfy every selection rule, the rules below are relaxed in this published order, the relaxation is recorded, and a shortage is reported. Blocks are never quietly filled with whatever topic happens to have the most questions.':
+    'حين يعجز بنك الأسئلة عن تلبية كل قواعد الاختيار، يجري التساهل في القواعد أدناه بهذا الترتيب المعلن، ويُسجَّل التساهل، ويُبلَّغ عن النقص. ولا تُملأ المجموعات أبدًا في صمت بأي موضوع تصادف أن لديه أكبر عدد من الأسئلة.',
+  'Content approval status': 'حالة اعتماد المحتوى',
+  'University, year and module scope': 'نطاق الجامعة والسنة والوحدة',
+  'Language and accessibility requirements': 'متطلبات اللغة وإمكانية الوصول',
+  'Held-out readiness items excluded from practice': 'أسئلة الجاهزية المحجوزة مستبعدة من التدريب',
+  'Novelty preference': 'تفضيل الأسئلة الجديدة',
+  'Difficulty and cognitive-task mix': 'مزيج الصعوبة والمهام الذهنية',
+  'No more than three consecutive items from one topic': 'ما لا يزيد على ثلاثة أسئلة متتالية من موضوع واحد',
+  'Minimum unseen share': 'الحد الأدنى لنسبة الأسئلة الجديدة عليك',
+  'Maximum two items dominated by one concept': 'ما لا يزيد على سؤالين يغلب عليهما مفهوم واحد',
+  'Exposure cap per item': 'حد التكرار لكل سؤال',
+  'Blueprint quota tolerance': 'هامش حصص المخطط',
+
+  // Status meanings
+  Status: 'الحالة',
+  Meaning: 'المعنى',
+  'Not enough distinct questions yet to say anything about this.':
+    'لا توجد أسئلة مختلفة كافية بعد لقول أي شيء عن هذا.',
+  'One recent answer went wrong. Synapse will check this again — this is not a weakness label.':
+    'إجابة حديثة واحدة كانت خاطئة. سيتحقق سينابس من هذا مرة أخرى — وهذا ليس وصفًا بالضعف.',
+  'Repeated evidence across different questions points to a real gap here.':
+    'أدلة متكررة عبر أسئلة مختلفة تشير إلى وجود فجوة حقيقية هنا.',
+  'Measurable, but not yet strong enough to count as secure.':
+    'قابل للقياس، لكنه ليس قويًا بما يكفي بعد ليُعدّ راسخًا.',
+  'Answered correctly across several distinct questions, including one after a gap of at least two days.':
+    'أُجيب عنه إجابة صحيحة في عدة أسئلة مختلفة، منها سؤال بعد فاصل لا يقل عن يومين.',
+  'This was secure, and enough time has passed that it is worth checking again.':
+    'كان هذا راسخًا، وقد مضى وقت كافٍ يستحق معه التحقق منه مجددًا.',
+
+  // Provenance
+  Field: 'الحقل',
+  Value: 'القيمة',
+  Config: 'الإعداد',
+  Blueprint: 'المخطط',
+  'Most recent evidence': 'أحدث دليل',
+  'None yet': 'لا شيء بعد',
+  'Answers recorded': 'الإجابات المسجّلة',
+  'Algorithm version': 'إصدار الخوارزمية',
+  'Derived from concept weights': 'مشتق من أوزان المفاهيم',
+  'Concepts in scope': 'المفاهيم ضمن النطاق',
+  'No changes recorded yet.': 'لم تُسجَّل أي تغييرات بعد.',
+
+  // Page shell — the header and tab strip around the rules surface. Left in
+  // English these framed an Arabic page, which reads worse than either alone.
+  'Synapse keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.':
+    'يواصل سينابس اكتشاف ما يُرجَّح أن تنساه أو تسيء فهمه، ويعيده إليك في الوقت المناسب، ويُبقي تدريبك متوافقًا مع مخطط امتحانك.',
+  Algorithm: 'الخوارزمية',
+  'days to exam': 'يومًا حتى الامتحان',
+  'Your university and year are not set': 'لم تُحدَّد جامعتك وسنتك الدراسية',
+  'Adaptive Study works against your own exam blueprint, so it needs to know which programme you are on. Set it in your account and this page will fill in.':
+    'تعمل الدراسة التكيّفية وفق مخطط امتحانك أنت، لذا تحتاج إلى معرفة البرنامج الذي تدرسه. حدّده في حسابك وستمتلئ هذه الصفحة.',
+
+  // The change note shipped with the default configuration. Notes typed by an
+  // administrator have no entry here and render exactly as written.
+  'Initial published configuration. All weights, thresholds and intervals are launch hypotheses awaiting local held-out calibration.':
+    'الإعداد المنشور الأول. كل الأوزان والعتبات والفواصل الزمنية فرضيات إطلاق تنتظر معايرة محلية على أسئلة محجوزة.',
 }

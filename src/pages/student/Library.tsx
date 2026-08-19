@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams, useLocation } from 'react-router-dom'
 import {
   Clock,
@@ -54,6 +54,12 @@ import { apiOpenFile } from '@/lib/api'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { AtlasNavigation, LibraryLanding, LibraryViewTabs, MEDICAL_LIBRARY_VIEWS, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
+import {
+  MarkNotePopover, MarkSelectionToolbar, MarkedPhrase, YourMarksPanel, useArticleMarks,
+  type ArticleMarks,
+} from '@/components/library/ArticleMarks'
+import { orderedSegments } from '@/lib/library/textAnchor'
+import type { LibraryMark } from '@/data/libraryMarks'
 
 /**
  * Article prose, with the search term marked where there is one.
@@ -118,43 +124,84 @@ function anchorSegments(text: string, media: ArticleMediaRecord[]) {
 }
 
 /**
- * Article prose with search highlighting and, where an anchor matches, a
- * pressable phrase that opens its media.
+ * Article prose, carrying everything pinned to a phrase inside it.
+ *
+ * Two things now claim phrases: media an author anchored, and the student's own
+ * highlights and notes. They go through one ordered, non-overlapping segment
+ * list — see `orderedSegments` — so the two cannot both try to wrap the same
+ * words, and the first by position wins, which is the rule the media matcher
+ * used on its own before this.
+ *
+ * `data-mark-block` and `data-mark-text` are what the selection toolbar reads:
+ * which run of text this is, and what it says in the store. A block without
+ * them is prose the student cannot mark, which is how headings and the sources
+ * list stay out of it.
  */
+type PhraseSegment =
+  | { start: number; end: number; kind: 'media'; item: ArticleMediaRecord }
+  | { start: number; end: number; kind: 'mark'; mark: LibraryMark }
+
 function ReaderText({
   text,
   query,
   media = [],
   onOpenMedia,
+  blockId,
+  marks,
+  onOpenMark,
 }: {
   text: string
   query: string
   media?: ArticleMediaRecord[]
   onOpenMedia?: (item: ArticleMediaRecord) => void
+  /** Omitted for text the student is not offered a way to mark. */
+  blockId?: string
+  marks?: ArticleMarks
+  onOpenMark?: (mark: LibraryMark, anchor: HTMLElement) => void
 }) {
-  const hits = media.length && onOpenMedia ? anchorSegments(text, media) : []
-  if (!hits.length) return <Highlight text={text} query={query} />
+  const mediaHits = media.length && onOpenMedia ? anchorSegments(text, media) : []
+  const markHits = blockId && marks ? marks.placed(blockId, text) : []
 
-  const parts: React.ReactNode[] = []
-  let cursor = 0
-  hits.forEach((hit, index) => {
-    if (hit.start > cursor) parts.push(<Highlight key={`t-${index}`} text={text.slice(cursor, hit.start)} query={query} />)
-    parts.push(
-      <button
-        key={`m-${hit.item.id}`}
-        type="button"
-        onClick={() => onOpenMedia!(hit.item)}
-        title={hit.item.caption || `Open ${MEDIA_LABEL[hit.item.type].toLowerCase()}`}
-        className="mx-px inline items-baseline gap-1 rounded-sm border-b-2 border-dotted border-accent/70 bg-accent-tint/30 px-0.5 text-start font-medium text-ink transition-colors hover:bg-accent-tint hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
-      >
-        <Highlight text={text.slice(hit.start, hit.end)} query={query} />
-        <Icon icon={MEDIA_ICON[hit.item.type]} size={12} className="ms-1 inline align-baseline text-accent-strong" />
-      </button>,
-    )
-    cursor = hit.end
-  })
-  if (cursor < text.length) parts.push(<Highlight key="t-last" text={text.slice(cursor)} query={query} />)
-  return <>{parts}</>
+  const segments: PhraseSegment[] = orderedSegments<PhraseSegment>([
+    ...mediaHits.map((hit) => ({ start: hit.start, end: hit.end, value: { start: hit.start, end: hit.end, kind: 'media' as const, item: hit.item } })),
+    ...markHits.map(({ mark, range }) => ({ start: range.start, end: range.end, value: { start: range.start, end: range.end, kind: 'mark' as const, mark } })),
+  ]).map((segment) => segment.value)
+
+  const body = (() => {
+    if (!segments.length) return <Highlight text={text} query={query} />
+    const parts: React.ReactNode[] = []
+    let cursor = 0
+    segments.forEach((segment, index) => {
+      if (segment.start > cursor) parts.push(<Highlight key={`t-${index}`} text={text.slice(cursor, segment.start)} query={query} />)
+      const inner = <Highlight text={text.slice(segment.start, segment.end)} query={query} />
+      if (segment.kind === 'media') {
+        parts.push(
+          <button
+            key={`m-${segment.item.id}`}
+            type="button"
+            onClick={() => onOpenMedia!(segment.item)}
+            title={segment.item.caption || `Open ${MEDIA_LABEL[segment.item.type].toLowerCase()}`}
+            className="mx-px inline items-baseline gap-1 rounded-sm border-b-2 border-dotted border-accent/70 bg-accent-tint/30 px-0.5 text-start font-medium text-ink transition-colors hover:bg-accent-tint hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+          >
+            {inner}
+            <Icon icon={MEDIA_ICON[segment.item.type]} size={12} className="ms-1 inline align-baseline text-accent-strong" />
+          </button>,
+        )
+      } else {
+        parts.push(
+          <MarkedPhrase key={`k-${segment.mark.id}`} mark={segment.mark} onOpen={onOpenMark ?? (() => undefined)}>
+            {inner}
+          </MarkedPhrase>,
+        )
+      }
+      cursor = segment.end
+    })
+    if (cursor < text.length) parts.push(<Highlight key="t-last" text={text.slice(cursor)} query={query} />)
+    return <>{parts}</>
+  })()
+
+  if (!blockId) return body
+  return <span data-mark-block={blockId} data-mark-text={text}>{body}</span>
 }
 
 /** The media itself, sized to its container. */
@@ -280,7 +327,7 @@ function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[
 
 /* ---- Reading blocks ---------------------------------------------------- */
 
-function Callout({ tone, title, text, query, media, onOpenMedia }: { tone: 'accent' | 'warning'; title: string; text: string; query: string; media?: ArticleMediaRecord[]; onOpenMedia?: (item: ArticleMediaRecord) => void }) {
+function Callout({ tone, title, text, query, media, onOpenMedia, blockId, marks, onOpenMark }: { tone: 'accent' | 'warning'; title: string; text: string; query: string; media?: ArticleMediaRecord[]; onOpenMedia?: (item: ArticleMediaRecord) => void; blockId?: string; marks?: ArticleMarks; onOpenMark?: (mark: LibraryMark, anchor: HTMLElement) => void }) {
   const accent = tone === 'accent'
   return (
     <div
@@ -295,7 +342,7 @@ function Callout({ tone, title, text, query, media, onOpenMedia }: { tone: 'acce
           <Highlight text={title} query={query} />
         </span>
       </div>
-      <p className="mt-1.5 text-[14px] leading-relaxed text-ink"><ReaderText text={text} query={query} media={media} onOpenMedia={onOpenMedia} /></p>
+      <p className="mt-1.5 text-[14px] leading-relaxed text-ink"><ReaderText text={text} query={query} media={media} onOpenMedia={onOpenMedia} blockId={blockId} marks={marks} onOpenMark={onOpenMark} /></p>
     </div>
   )
 }
@@ -307,6 +354,8 @@ function Blocks({
   bodyMedia = [],
   trapMedia = [],
   onOpenMedia,
+  marks,
+  onOpenMark,
 }: {
   blocks: LibBlock[]
   query: string
@@ -314,6 +363,8 @@ function Blocks({
   bodyMedia?: ArticleMediaRecord[]
   trapMedia?: ArticleMediaRecord[]
   onOpenMedia?: (item: ArticleMediaRecord) => void
+  marks?: ArticleMarks
+  onOpenMark?: (mark: LibraryMark, anchor: HTMLElement) => void
 }) {
   return (
     <>
@@ -327,7 +378,7 @@ function Blocks({
         if (b.type === 'p')
           return (
             <p key={i} className="mt-3 text-[15px] leading-[1.7] text-ink/90">
-              <ReaderText text={b.text ?? ''} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} />
+              <ReaderText text={b.text ?? ''} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} blockId={`block:${i}`} marks={marks} onOpenMark={onOpenMark} />
             </p>
           )
         if (b.type === 'list')
@@ -336,7 +387,7 @@ function Blocks({
               {b.items?.map((it, j) => (
                 <li key={j} className="flex gap-2.5 text-[15px] leading-[1.6] text-ink/90">
                   <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent-soft" />
-                  <span><ReaderText text={it} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} /></span>
+                  <span><ReaderText text={it} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} blockId={`block:${i}:item:${j}`} marks={marks} onOpenMark={onOpenMark} /></span>
                 </li>
               ))}
             </ul>
@@ -381,6 +432,9 @@ function Blocks({
             query={query}
             media={b.tone === 'warning' ? trapMedia : bodyMedia}
             onOpenMedia={onOpenMedia}
+            blockId={`block:${i}`}
+            marks={marks}
+            onOpenMark={onOpenMark}
           />
         )
       })}
@@ -587,6 +641,40 @@ function Reader({
   const [openMedia, setOpenMedia] = useState<ArticleMediaRecord | null>(null)
   const media = st.media ?? []
 
+  /**
+   * Every run of text the student can mark, by the id the reader gives it.
+   *
+   * Built here rather than inside the hook because this component is the only
+   * thing that knows how the article is broken up — and orphan detection needs
+   * the whole set, so a sentence moved between paragraphs does not read as a
+   * mark whose words have gone.
+   */
+  const blockTexts = useMemo(() => {
+    const texts: Record<string, string> = { summary: st.summary }
+    st.blocks.forEach((block, index) => {
+      if (block.type === 'p' || block.type === 'callout') texts[`block:${index}`] = block.text ?? ''
+      if (block.type === 'list') block.items?.forEach((item, itemIndex) => { texts[`block:${index}:item:${itemIndex}`] = item })
+    })
+    st.keyPoints.forEach((point, index) => { texts[`hold:${index}`] = point })
+    return texts
+  }, [st.blocks, st.keyPoints, st.summary])
+
+  const marks = useArticleMarks(st.id, blockTexts)
+  const articleRef = useRef<HTMLDivElement>(null)
+  const [openNote, setOpenNote] = useState<{ mark: LibraryMark; anchor: HTMLElement | null } | null>(null)
+
+  /**
+   * Bring a mark into view from the list beside the article.
+   *
+   * The mark is a real button in the prose, so it can simply be found and
+   * focused — no second copy of the text, and no scroll arithmetic.
+   */
+  const revealMark = (mark: LibraryMark) => {
+    const target = articleRef.current?.querySelector<HTMLElement>(`[data-mark-block] button[aria-label$="${CSS.escape(mark.anchor.exact)}"]`)
+    target?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    target?.focus({ preventScroll: true })
+  }
+
   return (
     <div className="mx-auto max-w-[78rem] px-5 py-8 sm:px-8 lg:py-10">
     {/* Two different returns, and both can apply: `cameFrom` is a jump made
@@ -606,7 +694,7 @@ function Reader({
     )}
     <BackBar />
     <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,46rem)_20rem]">
-    <article>
+    <article ref={articleRef}>
       {/* The same trail as a taxonomy node page, and navigable for the same
           reason: reading an article is the most common place to want the rest
           of its branch. */}
@@ -691,7 +779,7 @@ function Reader({
       <PersonalTagStrip articleId={st.id} tags={tags} reusable={reusable} onChange={onTagsChange} />
 
       <p className="mt-6 text-[16.5px] leading-[1.6] text-ink">
-        <ReaderText text={st.summary} query={query} media={anchoredMedia(media, 'summary')} onOpenMedia={setOpenMedia} />
+        <ReaderText text={st.summary} query={query} media={anchoredMedia(media, 'summary')} onOpenMedia={setOpenMedia} blockId="summary" marks={marks} onOpenMark={(mark, anchor) => setOpenNote({ mark, anchor })} />
       </p>
 
       <div className="mt-2">
@@ -702,6 +790,8 @@ function Reader({
           bodyMedia={anchoredMedia(media, 'body')}
           trapMedia={anchoredMedia(media, 'trap')}
           onOpenMedia={setOpenMedia}
+          marks={marks}
+          onOpenMark={(mark, anchor) => setOpenNote({ mark, anchor })}
         />
       </div>
 
@@ -719,9 +809,10 @@ function Reader({
       {st.keyPoints.length > 0 && (
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
         <div className="flex items-center gap-2"><Icon icon={Lightbulb} size={15} className="text-accent" /><h2 className="text-[13px] font-semibold text-ink">{t('Hold these')}</h2></div>
-        <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-accent" /><span><ReaderText text={point} query="" media={anchoredMedia(media, 'hold')} onOpenMedia={setOpenMedia} /></span></li>)}</ul>
+        <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point, index) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-accent" /><span><ReaderText text={point} query="" media={anchoredMedia(media, 'hold')} onOpenMedia={setOpenMedia} blockId={`hold:${index}`} marks={marks} onOpenMark={(mark, anchor) => setOpenNote({ mark, anchor })} /></span></li>)}</ul>
       </section>
       )}
+      <YourMarksPanel marks={marks} onSelect={revealMark} onOpenNote={(mark, anchor) => setOpenNote({ mark, anchor })} />
       <MediaIndexPanel media={media} onOpenMedia={setOpenMedia} t={t} />
       {/* Shown only when this article has reviewed traps. An article with none
           says nothing rather than offering generic advice as its own. */}
@@ -773,6 +864,18 @@ function Reader({
     <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
     {selectedSpan && <EvidenceDrawer span={selectedSpan} evidence={evidence} onClose={() => setSelectedSpanId(null)} />}
     {openMedia && <MediaLightbox item={openMedia} onClose={() => setOpenMedia(null)} />}
+    <MarkSelectionToolbar container={articleRef} marks={marks} onNoteCreated={(mark) => setOpenNote({ mark, anchor: null })} />
+    {openNote && (
+      <MarkNotePopover
+        mark={marks.all.find((item) => item.id === openNote.mark.id) ?? openNote.mark}
+        // A note opened straight from the toolbar has no element to point at
+        // yet — the phrase it belongs to renders on the same tick — so it hangs
+        // off the article until the student closes it.
+        anchor={openNote.anchor ?? articleRef.current}
+        marks={marks}
+        onClose={() => setOpenNote(null)}
+      />
+    )}
     </div>
   )
 }
@@ -1004,6 +1107,19 @@ export function Library() {
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
+        {/* The topic tree's toggle, directly above the tree it opens. It used to
+            sit at the far right of this header — the full width of the page away
+            from the panel it controls, on the opposite side from where that
+            panel appears. */}
+        {onRoute && (
+          <MenuToggle
+            open={railOpen}
+            onToggle={() => setRailOpen((current) => !current)}
+            label="topics"
+            direction="vertical"
+            className="shrink-0 max-lg:hidden"
+          />
+        )}
         <button type="button" className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
         {/* The home state offers these same five routes as cards in the page.
             Showing them as tabs at the same time was two menus for one choice,
@@ -1014,21 +1130,18 @@ export function Library() {
         {/* Too narrow for six tabs on a phone — the Browse topics drawer carries them there. */}
         {onRoute ? (
           <div className="flex min-w-0 flex-1 items-center gap-1.5 max-sm:hidden">
-            <MenuToggle open={viewTabsOpen} onToggle={() => setViewTabsOpen((current) => !current)} label="views" />
+            <MenuToggle
+              open={viewTabsOpen}
+              onToggle={() => setViewTabsOpen((current) => !current)}
+              label="views"
+              direction="horizontal"
+            />
             {viewTabsOpen
               ? <LibraryViewTabs view={view} onViewChange={changeView} />
               : <span className="truncate text-[12.5px] font-medium text-ink-2">{t(currentViewLabel)}</span>}
           </div>
         ) : <span className="flex-1" />}
         <span className="flex-1 sm:hidden" />
-        {onRoute && (
-          <MenuToggle
-            open={railOpen}
-            onToggle={() => setRailOpen((current) => !current)}
-            label="topics"
-            className="shrink-0 max-lg:hidden"
-          />
-        )}
         {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
         {/* Authoring is an admin act. A student's own notes belong in the
             notebook, which is where they already are. */}
@@ -1047,9 +1160,23 @@ export function Library() {
             }}
           />
         ) : view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} onOpenView={openView} onOpenArticle={openArticle} /> : (
-          <div className={cn('grid h-full min-h-0 max-lg:grid-cols-1', railOpen ? 'grid-cols-[18rem_minmax(0,1fr)]' : 'grid-cols-1')}>
-            {railOpen && <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>}
-            <main className="min-w-0 overflow-y-auto">
+          <div className="flex h-full min-h-0">
+            {/* Width rather than presence, so opening and closing the tree is a
+                movement instead of a jump. The inner column keeps its own width
+                while the outer one animates, or the tree would reflow itself
+                narrower on every frame of its own collapse. */}
+            <div
+              inert={!railOpen}
+              className={cn(
+                'min-h-0 shrink-0 overflow-hidden transition-[width,opacity] duration-200 ease-out motion-reduce:transition-none max-lg:hidden',
+                railOpen ? 'w-72 opacity-100' : 'w-0 opacity-0',
+              )}
+            >
+              <div className="grid h-full min-h-0 w-72 grid-cols-1">
+                <AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} />
+              </div>
+            </div>
+            <main className="min-w-0 flex-1 overflow-y-auto">
               {selectedUserArticle ? (
           <UserReader
             article={selectedUserArticle}

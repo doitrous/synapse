@@ -168,7 +168,7 @@ function OsceTab({ onOpen }: { onOpen: Open }) {
             </div>
             {s.kind === 'checklist' && <Badge tone="outline">Checklist</Badge>}
             <Badge tone={diffTone(s.difficulty)}>{s.difficulty}</Badge>
-            <div className="w-24 text-right">
+            <div className="w-24 text-end">
               {run ? (
                 <>
                   <p className="tnum font-mono text-[13px] font-medium text-ink">{bestPct}%</p>
@@ -290,7 +290,7 @@ function SkillRow({ skill, status, onCycle }: { skill: Skill; status: SkillStatu
       <button
         type="button"
         onClick={onCycle}
-        className="flex w-full items-center gap-3 rounded-md py-2.5 text-left transition-colors hover:bg-inset"
+        className="flex w-full items-center gap-3 rounded-md py-2.5 text-start transition-colors hover:bg-inset"
         aria-label={`${skill.name} — ${STATUS_LABEL[status]}. Change`}
       >
         <Icon icon={meta.icon} size={18} className={meta.cls} />

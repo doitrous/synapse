@@ -40,11 +40,16 @@ export function errorKind(error: unknown): StateErrorKind {
 }
 
 /**
- * Whether trying the same request again could plausibly succeed.
+ * Whether trying the same request again could plausibly succeed *on a timer*.
  *
  * A refusal is a decision about this request: the credentials, the permission,
  * or the size will be identical next time, so repeating it produces the same
  * answer every two seconds forever. Only a fault that might pass is retried.
+ *
+ * A 401 is the one refusal with a second life, because it can also mean "the
+ * session had not been restored yet". It stays false here — nothing should
+ * retry it on an endless timer — and `stateRetry` gives it a small bounded
+ * backoff and then waits for a sign-in instead. The two must be read together.
  */
 export function isRetryable(kind: StateErrorKind): boolean {
   return kind === 'network' || kind === 'server'

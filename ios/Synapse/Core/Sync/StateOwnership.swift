@@ -19,7 +19,7 @@ enum StateOwnership {
             "^synapse\\.notebook\\.",
             "^synapse\\.whiteboard\\.",
             "^synapse\\.calendar\\.blocks$",
-            "^synapse\\.library\\.(read|userArticles|personalTags)",
+            "^synapse\\.library\\.(read|userArticles|personalTags|marks)",
             "^synapse\\.account\\.",
             "^synapse-notification-read-v1-",
             "^synapse-applied-voucher-v1$",

@@ -31,6 +31,7 @@ import {
   Braces,
   GitFork,
   Network,
+  Compass,
   Scale,
 } from 'lucide-react'
 
@@ -60,6 +61,7 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Library', to: '/app/library', icon: BookOpen },
       { label: 'Question Bank', to: '/app/qbank', icon: ListChecks },
+      { label: 'Adaptive Study', to: '/app/adaptive', icon: Compass },
       { label: 'Practical', to: '/app/practical', icon: Stethoscope },
       { label: 'Resources', to: '/app/resources', icon: FolderOpen },
       { label: 'Medical Taxonomy', to: '/app/taxonomy', icon: Languages },
@@ -99,6 +101,7 @@ export const adminNav: NavGroup[] = [
       { label: 'Marks & Weights', to: '/admin/academic/marks', icon: Scale },
       { label: 'Library Setup', to: '/admin/library', icon: Library },
       { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },
+      { label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass },
       { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
       { label: 'Concepts', to: '/admin/concepts', icon: Braces },
       { label: 'Relationships', to: '/admin/relationships', icon: GitFork },

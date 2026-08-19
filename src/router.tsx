@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, type ComponentType, type ReactElement } from
 import { createBrowserRouter, Navigate } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
+import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RequireAuth } from '@/components/auth/RequireAuth'
 import { ADMIN_ORIGIN, STUDENT_ORIGIN, isAdminHost, isStudentHost, samePathOn } from '@/lib/portalHost'
 
@@ -19,8 +20,22 @@ function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: s
   return component
 }
 
+/**
+ * One screen, with both of the things a lazily-loaded screen needs.
+ *
+ * The boundary is outside the `Suspense`, because the thing it exists to catch
+ * is the import itself rejecting — which is what a tab left open across a
+ * deployment does the moment it opens a new screen. Inside, `Suspense` would
+ * never see the rejection and the route would render blank. `/login` had a
+ * message for this only because the router supplies one at the top level;
+ * everything under `/app` and `/admin` showed an empty page instead.
+ */
 function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}): ReactElement {
-  return <Suspense fallback={<RouteLoading />}><Page {...props} /></Suspense>
+  return (
+    <RouteBoundary>
+      <Suspense fallback={<RouteLoading />}><Page {...props} /></Suspense>
+    </RouteBoundary>
+  )
 }
 
 /**
@@ -51,6 +66,7 @@ const Unsubscribe = lazyNamed(() => import('@/pages/Unsubscribe'), 'Unsubscribe'
 const Dashboard = lazyNamed(() => import('@/pages/student/Dashboard'), 'Dashboard')
 const Library = lazyNamed(() => import('@/pages/student/Library'), 'Library')
 const QuestionBank = lazyNamed(() => import('@/pages/student/QuestionBank'), 'QuestionBank')
+const AdaptiveStudy = lazyNamed(() => import('@/pages/student/AdaptiveStudy'), 'AdaptiveStudy')
 const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resources')
 const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
 const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'), 'MedicalTaxonomy')
@@ -81,6 +97,7 @@ const TaxonomySetup = lazyNamed(() => import('@/pages/admin/TaxonomySetup'), 'Ta
 const StudentsManagement = lazyNamed(() => import('@/pages/admin/StudentsManagement'), 'StudentsManagement')
 const UsersManagement = lazyNamed(() => import('@/pages/admin/UsersManagement'), 'UsersManagement')
 const QuestionsSetup = lazyNamed(() => import('@/pages/admin/QuestionsSetup'), 'QuestionsSetup')
+const AdaptiveSetup = lazyNamed(() => import('@/pages/admin/AdaptiveSetup'), 'AdaptiveSetup')
 const ResourcesSetup = lazyNamed(() => import('@/pages/admin/ResourcesSetup'), 'ResourcesSetup')
 const PracticalSetup = lazyNamed(() => import('@/pages/admin/PracticalSetup'), 'PracticalSetup')
 const ConceptsImportPage = lazyNamed(() => import('@/pages/admin/ConceptsImportPage'), 'ConceptsImportPage')
@@ -97,6 +114,7 @@ const GlossaryImportPage = lazyNamed(() => import('@/pages/admin/GlossaryImportP
 const studentPages: Record<string, Preloadable> = {
   library: Library,
   qbank: QuestionBank,
+  adaptive: AdaptiveStudy,
   resources: Resources,
   taxonomy: MedicalTaxonomy,
   practical: Practical,
@@ -126,6 +144,7 @@ const adminBuilt: Record<string, ReactElement> = {
   academic: render(AcademicSetup),
   library: render(ControlDashboard, { initialKind: 'article', lockedKind: true }),
   questions: render(QuestionsSetup),
+  adaptive: render(AdaptiveSetup),
   concepts: render(ConceptsSetup),
   relationships: render(RelationshipsSetup),
   taxonomy: render(TaxonomySetup),
@@ -145,8 +164,8 @@ const adminBuilt: Record<string, ReactElement> = {
   audit: render(AuditSecurity),
 }
 
-const studentPaths = ['library', 'qbank', 'practical', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit']
+const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),

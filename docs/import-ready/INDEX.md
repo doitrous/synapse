@@ -18,6 +18,7 @@ filename alone never did.
 
 | Folder | Admin page | Files | Records |
 |---|---|---:|---:|
+| [`academic/`](academic/) | Academic setup › Import | 1 | 31 |
 | [`concept/`](concept/) | Concepts › Import | 13 | 208 |
 | [`article/`](article/) | Bulk import → **article** | 8 | 58 |
 | [`question/`](question/) | Bulk import → **question** | 10 | 219 |
@@ -39,15 +40,43 @@ Apply the folders in this order. Later kinds reference earlier ones, and importi
 order leaves records pointing at things that do not exist yet.
 
 ```
-resource → article → concept → evidence (claims, then citations, then spans)
-        → relations → practical → question
+academic → resource → article → concept → evidence (claims, then citations, then spans)
+                   → relations → practical → question
 ```
+
+`academic` comes first because it creates the modules everything else can be scoped to. It
+is also the only folder here that is not medical content, so it does not go through
+`medical:simulate` — see below.
 
 Within a folder, file order does not matter.
 
 ---
 
 ## What is here now
+
+### Kasr Al Ainy modules — `academic/`, 1 file, 31 modules
+
+Years 1 to 5, as the faculty lists them. Apply at **Academic setup › Import** with **KAU**
+selected as the target university; the importer merges into whatever that university already
+has rather than replacing it, so applying it twice would create a second copy of every
+module.
+
+Module names are the faculty's own labels — `104 CPS`, `PEDS` — not expansions of them.
+Guessing at what the letters stand for would put a title on a student's screen that nobody
+at the school wrote, and Academic Setup can rename any of them once the full titles are to
+hand. `314` and `319` arrived without a subject code; their titles — Community Medicine and
+Forensic Medicine — were supplied by the faculty and are recorded under those codes.
+
+Module IDs in years 4 and 5 carry a year suffix (`SURG 4`, `SURG 5`) because those years
+repeat SURG, IM and FM between them and a module ID is unique across the whole university.
+Without the suffix the importer silently renames the second one to `SURG-2`, which is an ID
+no student would recognise.
+
+Terms are all `Term 1`, which is the importer's default and means "no term was recorded" —
+not a claim that every module runs in the first term.
+
+This folder is **not** covered by `medical:simulate` or `medical:audit`; those read medical
+content batches. Review it in the import wizard's own preview instead.
 
 ### Cardiovascular practical bank — `practical/`, 34 files
 

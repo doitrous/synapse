@@ -150,7 +150,7 @@ export function BulkImport({
                           {mappedFields.map((h) => (
                             <th
                               key={h}
-                              className="whitespace-nowrap border-b border-line bg-surface-2 px-3 py-2 text-left font-semibold text-ink-2"
+                              className="whitespace-nowrap border-b border-line bg-surface-2 px-3 py-2 text-start font-semibold text-ink-2"
                             >
                               {mapping[h]}
                             </th>

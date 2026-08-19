@@ -433,7 +433,7 @@ export function RelationshipsSetup() {
           <span className="ms-auto tnum font-mono text-[11.5px] text-ink-3">{rows.length} of {graph.relations.length}</span>
         </div>
         <Table>
-          <thead><tr><Th className="pl-4">Source</Th><Th>Relation</Th><Th>Target</Th><Th align="right" className="pr-4">Actions</Th></tr></thead>
+          <thead><tr><Th className="pl-4">Source</Th><Th>Relation</Th><Th>Target</Th><Th align="end" className="pr-4">Actions</Th></tr></thead>
           <tbody>
             {grouped.map(({ sys, count, topics }) => {
               const sysKey = `sys-${sys}`
@@ -468,14 +468,14 @@ export function RelationshipsSetup() {
                             <Td className="pl-4"><Select value={editDraft.sourceId} onChange={(e) => setEditDraft((d) => ({ ...d, sourceId: e.target.value }))} className="h-9">{conceptOptions.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
                             <Td><Select value={editDraft.type} onChange={(e) => setEditDraft((d) => ({ ...d, type: e.target.value }))} className="h-9">{allTypes.map((rt) => <option key={rt} value={rt}>{rt}</option>)}</Select></Td>
                             <Td><Select value={editDraft.targetId} onChange={(e) => setEditDraft((d) => ({ ...d, targetId: e.target.value }))} className="h-9">{conceptOptions.filter((c) => c.id !== editDraft.sourceId).map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
-                            <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="primary" size="sm" iconLeft={Check} onClick={saveEdit}>Save</Button><Button variant="ghost" size="sm" iconLeft={X} onClick={() => setEditingId(null)}>Cancel</Button></div></Td>
+                            <Td align="end" className="pr-4"><div className="inline-flex gap-1"><Button variant="primary" size="sm" iconLeft={Check} onClick={saveEdit}>Save</Button><Button variant="ghost" size="sm" iconLeft={X} onClick={() => setEditingId(null)}>Cancel</Button></div></Td>
                           </Tr>
                         ) : (
                           <Tr key={rel.id} hover>
                             <Td className="pl-4 font-medium ps-10">{conceptLabel(rel.sourceId)}</Td>
                             <Td><span className="inline-flex items-center gap-1.5"><Badge tone="accent">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span><span className="mt-1 block"><Badge tone={rel.verificationStatus === 'verified' ? 'success' : 'warning'}>{rel.verificationStatus ?? 'needs evidence'}</Badge></span></Td>
                             <Td className="text-ink-2">{conceptLabel(rel.targetId)}</Td>
-                            <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="ghost" size="sm" iconLeft={Pencil} onClick={() => startEdit(rel)}>Edit</Button><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)}>Remove</Button></div></Td>
+                            <Td align="end" className="pr-4"><div className="inline-flex gap-1"><Button variant="ghost" size="sm" iconLeft={Pencil} onClick={() => startEdit(rel)}>Edit</Button><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)}>Remove</Button></div></Td>
                           </Tr>
                         ))}
                       </Fragment>

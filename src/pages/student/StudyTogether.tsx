@@ -457,7 +457,7 @@ export function StudyTogether() {
               <ul className="divide-y divide-line">
                 {open.map((room) => (
                   <li key={room.id}>
-                    <button type="button" onClick={() => setOpenRoomId(room.id)} className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-inset">
+                    <button type="button" onClick={() => setOpenRoomId(room.id)} className="flex w-full items-center gap-3 px-4 py-3 text-start transition-colors hover:bg-inset">
                       <span className="min-w-0 flex-1">
                         <span className="block truncate text-[13.5px] font-medium text-ink">{room.name}</span>
                         <span className="mt-0.5 block text-[12px] text-ink-3">

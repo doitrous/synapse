@@ -107,7 +107,7 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
                       onClick={() => go(cmd.to)}
                       onMouseMove={() => setActive(i)}
                       className={cn(
-                        'flex w-full items-center gap-2.5 rounded-md px-2 py-2 text-left text-[13.5px] transition-colors',
+                        'flex w-full items-center gap-2.5 rounded-md px-2 py-2 text-start text-[13.5px] transition-colors',
                         i === active ? 'bg-accent-tint text-accent-strong' : 'text-ink hover:bg-inset',
                       )}
                     >

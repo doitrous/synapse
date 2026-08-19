@@ -21,6 +21,7 @@ struct StateOwnershipTests {
         "synapse.library.read",
         "synapse.library.personalTags",
         "synapse.library.userArticles",
+        "synapse.library.marks.v1",
         "synapse.annotations.v1.doc42.s0",
         "synapse.reader.fit",
         "synapse.account.prefs.v1",

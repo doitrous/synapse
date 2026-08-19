@@ -45,7 +45,7 @@ function ReviewRow({ item, index, onNavigate }: { item: DisplayItem; index: numb
       <Link
         to={`/app/qbank?concepts=${encodeURIComponent(item.conceptId)}`}
         onClick={onNavigate}
-        className="group flex w-full items-start gap-3 rounded-md px-2 py-2.5 text-left transition-colors hover:bg-inset"
+        className="group flex w-full items-start gap-3 rounded-md px-2 py-2.5 text-start transition-colors hover:bg-inset"
       >
         <SystemMark subjectId={item.subjectId} index={index + 1} className="mt-0.5" />
         <div className="min-w-0 flex-1">
