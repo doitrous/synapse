@@ -27,12 +27,19 @@ struct PracticalView: View {
                     ForEach(groups, id: \.type) { group in
                         Section {
                             ForEach(group.items) { item in
-                                NavigationLink {
-                                    PracticalDetailView(practical: item, model: model)
-                                } label: {
+                                if isSkill(item), item.markSections.isEmpty {
+                                    // Nothing to open: the rating in the row
+                                    // is the whole of it.
                                     row(item)
+                                        .listRowBackground(Theme.surface)
+                                } else {
+                                    NavigationLink {
+                                        PracticalDetailView(practical: item, model: model)
+                                    } label: {
+                                        row(item)
+                                    }
+                                    .listRowBackground(Theme.surface)
                                 }
-                                .listRowBackground(Theme.surface)
                             }
                         } header: {
                             Text(group.type)
@@ -77,9 +84,63 @@ struct PracticalView: View {
                 }
                 .font(Theme.numeric(11))
                 .foregroundStyle(Theme.ink3)
+
+                // Where they got to, when they have been here before.
+                if let done = standing(item) {
+                    Text(done)
+                        .font(Theme.numeric(11))
+                        .foregroundStyle(Theme.success)
+                }
+            }
+
+            Spacer(minLength: 0)
+
+            // A skill is rated by the student, so it is rated from the list —
+            // there is nothing to open and read.
+            if isSkill(item), let model {
+                Button {
+                    Task { await model.cycle(skill: item.id) }
+                } label: {
+                    let status = model.skill(item.id)
+                    Text(status.label)
+                        .font(Theme.ui(11, weight: 600))
+                        .foregroundStyle(colour(status))
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(colour(status).opacity(0.12), in: Capsule())
+                }
+                .buttonStyle(.plain)
             }
         }
         .padding(.vertical, 2)
+    }
+
+    private func isSkill(_ item: Practical) -> Bool { item.type == "Skills checklist" }
+
+    private func colour(_ status: PracticalProgress.SkillStatus) -> Color {
+        switch status {
+        case .notStarted: Theme.ink3
+        case .practised: Theme.accent
+        case .ready: Theme.success
+        }
+    }
+
+    /// What this student has already done here, said in a few characters.
+    private func standing(_ item: Practical) -> String? {
+        guard let model else { return nil }
+
+        if let station = model.station(item.id), station.outOf > 0 {
+            return "Best \(station.bestMarks)/\(station.outOf)"
+        }
+        if let progress = model.caseProgress(item.id) {
+            return progress.status == .completed
+                ? "Finished"
+                : "Got to \(progress.lastStep) of \(progress.steps)"
+        }
+        if let lab = model.lab(item.id), lab.items > 0 {
+            return "\(lab.done) of \(lab.items) answered"
+        }
+        return nil
     }
 
     private func load() async {
