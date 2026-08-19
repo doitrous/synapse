@@ -17,6 +17,7 @@
 - Comments explain **why**, not what — state the problem the code solves.
 - Commit messages are a plain sentence about what a person can now do. No `feat:`/`fix:`/`chore:` prefixes.
 - **Client** test modules import relatively with an explicit `.ts` extension (`./friends.ts`) — `node --test` cannot resolve the `@/` alias. **Server** modules already use explicit `.js` extensions.
+- **Client API paths omit the `/api` prefix.** `VITE_API_BASE` already ends in `/api`, and an existing test (`src/lib/apiPaths.test.ts`) enforces it — so a client call is `apiGet('/friends')`, never `apiGet('/api/friends')`. Express routes in `server/src/index.js` do keep the full `/api/...` path. Follow `src/lib/useStudyRooms.ts`.
 - Server: every handler is `requireAuthenticated` and derives the actor from `req.identity.id`. **Never** take a user id from the request body — that is the whole security boundary.
 - Server: correctness is decided against the published question, never taken from the client.
 - New tables go in `server/schema.sql`, applied by `npm run migrate` from `server/`. Use `CREATE TABLE IF NOT EXISTS` and `ALTER TABLE … ADD COLUMN IF NOT EXISTS`, matching the file's existing style.
@@ -399,7 +400,7 @@ export function useFriends() {
 
   const reload = useCallback(async () => {
     if (!API_MODE) { setLoading(false); return }
-    const data = await apiGet<{ friends: FriendProfile[]; requests: { incoming: FriendProfile[]; outgoing: FriendProfile[] } }>('/api/friends')
+    const data = await apiGet<{ friends: FriendProfile[]; requests: { incoming: FriendProfile[]; outgoing: FriendProfile[] } }>('/friends')
     setFriends(data?.friends ?? [])
     setIncoming(data?.requests?.incoming ?? [])
     setOutgoing(data?.requests?.outgoing ?? [])
@@ -409,19 +410,19 @@ export function useFriends() {
   useEffect(() => { void reload() }, [reload])
 
   const request = useCallback(async (userId: string) => {
-    const result = await apiPost<{ ok: boolean; reason?: string }>('/api/friends/request', { userId })
+    const result = await apiPost<{ ok: boolean; reason?: string }>('/friends/request', { userId })
     await reload()
     return result
   }, [reload])
 
   const respond = useCallback(async (userId: string, accept: boolean) => {
-    const result = await apiPost<{ ok: boolean; reason?: string }>('/api/friends/respond', { userId, accept })
+    const result = await apiPost<{ ok: boolean; reason?: string }>('/friends/respond', { userId, accept })
     await reload()
     return result
   }, [reload])
 
   const remove = useCallback(async (userId: string) => {
-    const result = await apiPost<{ ok: boolean }>('/api/friends/remove', { userId })
+    const result = await apiPost<{ ok: boolean }>('/friends/remove', { userId })
     await reload()
     return result
   }, [reload])
@@ -705,7 +706,7 @@ app.post('/api/friends/invite/redeem', requireAuthenticated, wrap(async (req, re
 
 - [ ] **Step 7: Add it to the client**
 
-In `useFriends.ts`, add `mintInvite()` and `redeemInvite(token)` calling those two routes, and add to `FRIEND_REFUSALS`:
+In `useFriends.ts`, add `mintInvite()` and `redeemInvite(token)` calling `/friends/invite` and `/friends/invite/redeem`, and add to `FRIEND_REFUSALS`:
 
 ```ts
   expired: 'That invite link has expired. Ask for a new one.',
@@ -789,7 +790,7 @@ app.get('/api/friends/directory', requireAuthenticated, wrap(async (req, res) =>
 
 - [ ] **Step 3: Add the search to the client**
 
-In `useFriends.ts`, add `searchDirectory(query)` calling `/api/friends/directory?q=…`. In the **Find friends** panel, add a `SearchInput` (from `src/components/ui/Field`) that calls it, debounced by ~300ms, listing each result with an **Add** button wired to `request(userId)`. Show a plain line when the caller has no university or year set, since the directory cannot work without one.
+In `useFriends.ts`, add `searchDirectory(query)` calling `/friends/directory?q=…`. In the **Find friends** panel, add a `SearchInput` (from `src/components/ui/Field`) that calls it, debounced by ~300ms, listing each result with an **Add** button wired to `request(userId)`. Show a plain line when the caller has no university or year set, since the directory cannot work without one.
 
 - [ ] **Step 4: Verify and commit**
 
@@ -1024,7 +1025,7 @@ git commit -m "Set a friend the same paper, and mark it honestly"
 - Modify: `src/pages/student/StudyTogether.tsx`
 
 **Interfaces:**
-- Consumes: the `/api/challenges/*` routes from Task 7.
+- Consumes: the challenge routes from Task 7. **Client paths omit the `/api` prefix** — call `/challenges`, `/challenges/mine`, `/challenges/:id`, etc.
 - Produces: `useChallenges()`, `useChallenge(id)`, `useChallengeActions()` — mirroring `useStudyRooms.ts`'s shape exactly. Read that file and follow it.
 
 - [ ] **Step 1: Write `src/lib/useChallenges.ts`**
