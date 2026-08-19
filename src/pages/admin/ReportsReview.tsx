@@ -76,7 +76,7 @@ export function ReportsReview() {
           </div>
           <div className="max-h-[42rem] overflow-y-auto">
             {rows.map((report) => (
-              <button key={report.id} type="button" onClick={() => openReport(report)} className={cn('flex w-full items-start gap-3 border-b border-line px-4 py-3 text-left transition-colors last:border-b-0 hover:bg-inset/60', selected?.id === report.id && 'bg-accent-tint/45')}>
+              <button key={report.id} type="button" onClick={() => openReport(report)} className={cn('flex w-full items-start gap-3 border-b border-line px-4 py-3 text-start transition-colors last:border-b-0 hover:bg-inset/60', selected?.id === report.id && 'bg-primary-tint/45')}>
                 <span className={cn('mt-0.5 grid size-8 shrink-0 place-items-center rounded-md', report.status === 'Open' ? 'bg-danger-tint text-danger' : 'bg-inset text-ink-2')}><Icon icon={report.contentKind === 'image' ? CircleAlert : MessageSquareText} size={15} /></span>
                 <span className="min-w-0 flex-1">
                   <span className="flex flex-wrap items-center gap-2"><strong className="line-clamp-1 text-[13px] text-ink">{report.contentTitle}</strong><Badge tone={statusTone(report.status)}>{report.status}</Badge></span>
@@ -103,7 +103,7 @@ export function ReportsReview() {
                   <div><p className="text-[11px] text-ink-3">Reason</p><p className="mt-0.5 text-[13px] font-semibold text-ink">{selected.category}</p></div>
                   <div><p className="text-[11px] text-ink-3">Reported by</p><p className="mt-0.5 text-[13px] font-semibold text-ink">{selected.reporterName} · {selected.reporterRole}</p></div>
                 </div>
-                <div className="rounded-lg border border-accent-line bg-accent-tint/35 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent-strong">Reporter note</p><p className="mt-2 text-[14px] leading-relaxed text-ink">{selected.note}</p></div>
+                <div className="rounded-lg border border-primary-line bg-primary-tint/35 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary-strong">Reporter note</p><p className="mt-2 text-[14px] leading-relaxed text-ink">{selected.note}</p></div>
                 <Field label="Reviewer note" htmlFor="review-note" hint="Record what was checked or changed. This remains in the review history.">
                   <Textarea id="review-note" value={reviewNote} onChange={(event) => setReviewNote(event.target.value)} className="min-h-28" placeholder="Checked against guidance; answer key updated…" />
                 </Field>

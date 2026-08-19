@@ -68,11 +68,11 @@ const destinationLabel = (value: string) => ({
   merged_after_conservative_queue_review: 'Merged into canonical concept',
 }[value] || value.replaceAll('_', ' '))
 
-const destinationTone = (value: string): 'neutral' | 'accent' | 'success' | 'warning' | 'danger' => {
+const destinationTone = (value: string): 'neutral' | 'primary' | 'success' | 'warning' | 'danger' => {
   if (value.startsWith('merged_')) return 'success'
   if (value === 'faculty_review_required') return 'danger'
   if (value.startsWith('needs_')) return 'warning'
-  if (value.startsWith('curriculum_')) return 'accent'
+  if (value.startsWith('curriculum_')) return 'primary'
   return 'neutral'
 }
 
@@ -209,7 +209,7 @@ export function MedicalCoverageReview() {
                 key={candidate.candidateId}
                 type="button"
                 onClick={() => setSelectedId(candidate.candidateId)}
-                className={`block w-full px-4 py-3 text-left transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-accent ${selectedId === candidate.candidateId ? 'bg-accent-tint/55' : 'hover:bg-inset/50'}`}
+                className={`block w-full px-4 py-3 text-start transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary ${selectedId === candidate.candidateId ? 'bg-primary-tint/55' : 'hover:bg-inset/50'}`}
               >
                 <div className="flex flex-wrap items-start justify-between gap-2">
                   <div className="min-w-0 flex-1">
@@ -253,8 +253,8 @@ export function MedicalCoverageReview() {
                 <dl className="space-y-2 text-[11.5px]">
                   <div><dt className="font-semibold text-ink-3">Source</dt><dd className="mt-0.5 break-words text-ink-2">{selected.resourceRelativePath || selected.sourceId}</dd></div>
                   <div><dt className="font-semibold text-ink-3">Exact locator</dt><dd className="mt-0.5 text-ink-2">{locatorLabel(selected)}</dd></div>
-                  {selected.supportSpan && <div><dt className="font-semibold text-ink-3">Source passage</dt><dd className="mt-1 rounded-md border-s-2 border-accent-line bg-surface-2/50 px-2.5 py-2 text-[11.5px] leading-relaxed text-ink-2">{selected.supportSpan}</dd></div>}
-                  {selected.targetConceptId && <div><dt className="font-semibold text-ink-3">Canonical destination</dt><dd className="mt-0.5 font-mono text-[10.5px] text-accent-strong">{selected.targetConceptId}</dd></div>}
+                  {selected.supportSpan && <div><dt className="font-semibold text-ink-3">Source passage</dt><dd className="mt-1 rounded-md border-s-2 border-primary-line bg-surface-2/50 px-2.5 py-2 text-[11.5px] leading-relaxed text-ink-2">{selected.supportSpan}</dd></div>}
+                  {selected.targetConceptId && <div><dt className="font-semibold text-ink-3">Canonical destination</dt><dd className="mt-0.5 font-mono text-[10.5px] text-primary-strong">{selected.targetConceptId}</dd></div>}
                   <div><dt className="font-semibold text-ink-3">Lineage</dt><dd className="mt-0.5 break-all font-mono text-[10px] text-ink-3">{selected.candidateId} · {selected.sourceId}</dd></div>
                 </dl>
               </div>

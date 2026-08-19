@@ -220,8 +220,8 @@ export function UsersManagement() {
                 <Th className="pl-4">User</Th>
                 <Th>University · Year</Th>
                 <Th>Subscription</Th>
-                <Th align="right">Answered</Th>
-                <Th align="right">Accuracy</Th>
+                <Th align="end">Answered</Th>
+                <Th align="end">Accuracy</Th>
                 <Th>Access</Th>
               </tr>
             </thead>
@@ -229,7 +229,7 @@ export function UsersManagement() {
               {users.map((u: AdminUser) => {
                 const uni = universities.find((x) => x.id === u.universityId)
                 return (
-                  <Tr key={u.id} hover onClick={() => void openUser(u.id)} className={cn('cursor-pointer', selectedId === u.id && 'bg-accent-tint')}>
+                  <Tr key={u.id} hover onClick={() => void openUser(u.id)} className={cn('cursor-pointer', selectedId === u.id && 'bg-primary-tint')}>
                     <Td className="pl-4">
                       <span className="inline-flex items-center gap-2.5">
                         <Avatar name={u.name || u.email || '?'} size="sm" />
@@ -241,14 +241,14 @@ export function UsersManagement() {
                     </Td>
                     <Td className="whitespace-nowrap text-[12.5px] text-ink-2">{uni?.short ?? '—'}{u.year ? ` · ${u.year}` : ''}</Td>
                     <Td><Badge tone={entitlementTone(u.entitlement.state)}>{entitlementLabel(u.entitlement)}</Badge></Td>
-                    <Td align="right" className="tnum font-mono text-ink-2">{u.performance.questionsAnswered.toLocaleString()}</Td>
-                    <Td align="right" className="tnum font-mono text-ink-2">{Math.round(u.performance.accuracy)}%</Td>
+                    <Td align="end" className="tnum font-mono text-ink-2">{u.performance.questionsAnswered.toLocaleString()}</Td>
+                    <Td align="end" className="tnum font-mono text-ink-2">{Math.round(u.performance.accuracy)}%</Td>
                     <Td>
                       {!u.identity
                         ? <Badge tone="neutral">Never signed in</Badge>
                         : u.identity.accessStatus === 'suspended'
                           ? <Badge tone="danger">Suspended</Badge>
-                          : <Badge tone={u.identity.role === 'admin' ? 'accent' : 'success'}>{u.identity.role === 'admin' ? 'Admin' : 'Active'}</Badge>}
+                          : <Badge tone={u.identity.role === 'admin' ? 'primary' : 'success'}>{u.identity.role === 'admin' ? 'Admin' : 'Active'}</Badge>}
                     </Td>
                   </Tr>
                 )
@@ -284,7 +284,7 @@ export function UsersManagement() {
                     {detail.identity
                       ? <Badge tone={detail.identity.accessStatus === 'suspended' ? 'danger' : 'success'}>{detail.identity.accessStatus === 'suspended' ? 'Suspended' : 'Can sign in'}</Badge>
                       : <Badge tone="neutral">Never signed in</Badge>}
-                    {detail.identity?.role === 'admin' && <Badge tone="accent">Admin</Badge>}
+                    {detail.identity?.role === 'admin' && <Badge tone="primary">Admin</Badge>}
                   </div>
                 </div>
               </div>

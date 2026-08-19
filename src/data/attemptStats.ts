@@ -242,6 +242,66 @@ export interface SessionSummary {
 }
 
 /**
+ * One sitting, in the detail the student who sat it wants.
+ *
+ * The list of previous tests showed a name, a date, a count and one accuracy
+ * figure. Everything below was already in the log and simply never read back —
+ * which questions were right, which were wrong, which topics they were in, how
+ * long each took. Derived rather than stored, so a deleted answer changes these
+ * the same way it changes every other figure in the app.
+ */
+export interface SessionDetail {
+  sessionId: string
+  answered: number
+  /** Answers that were marked against a key — the denominator for accuracy. */
+  marked: number
+  correct: number
+  wrong: number
+  /** Marked by nobody: a station ticked by the student is practice, not a score. */
+  unmarked: number
+  accuracy: number | null
+  seconds: number
+  medianSeconds: number | null
+  subjects: Breakdown<string>[]
+  topics: Breakdown<string>[]
+  /** Topics with at least one wrong answer, most wrong first. */
+  missed: Breakdown<string>[]
+  /**
+   * The weakest topic in this sitting, or null when nothing qualifies.
+   *
+   * Two marked attempts, not the three `weakest` asks of a whole history: a
+   * sitting is usually five to twenty questions, and at three nothing would
+   * ever qualify. One wrong answer still is not a weakness — it is a wrong
+   * answer, and it is already listed under `missed`.
+   */
+  weakestTopic: Breakdown<string> | null
+}
+
+export function sessionDetail(records: AttemptRecord[], sessionId: string): SessionDetail {
+  const own = records.filter((record) => record.sessionId === sessionId)
+  const scored = marked(own)
+  const correct = scored.filter((record) => record.correct).length
+  const topics = byTopic(own)
+  return {
+    sessionId,
+    answered: own.length,
+    marked: scored.length,
+    correct,
+    wrong: scored.length - correct,
+    unmarked: own.length - scored.length,
+    accuracy: scored.length ? correct / scored.length : null,
+    seconds: own.reduce((sum, record) => sum + (record.seconds ?? 0), 0),
+    medianSeconds: medianSeconds(own),
+    subjects: bySubject(own),
+    topics,
+    missed: topics
+      .filter((topic) => topic.marked > topic.correct)
+      .sort((a, b) => (b.marked - b.correct) - (a.marked - a.correct)),
+    weakestTopic: weakest(topics, 2, 1)[0] ?? null,
+  }
+}
+
+/**
  * Group the attempt log into sittings.
  *
  * Every record already carries the `sessionId` of the sitting that produced it,

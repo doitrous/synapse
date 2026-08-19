@@ -1,0 +1,45 @@
+import { test } from 'node:test'
+import assert from 'node:assert/strict'
+import { isUserOwnedState } from './stateOwnership.ts'
+
+/**
+ * This decides which endpoint a document is written to, and getting it wrong is
+ * silent in development and fatal in production: a student-owned key that is not
+ * matched here goes to the shared catalogue store, which only an admin may
+ * write, so every save is refused by the server and the work is dropped.
+ */
+
+test('a student\'s own work is routed to their own record', () => {
+  assert.equal(isUserOwnedState('synapse.notebook.a3f9'), true)
+  assert.equal(isUserOwnedState('synapse.whiteboard.b1'), true)
+  assert.equal(isUserOwnedState('synapse.calendar.blocks'), true)
+  assert.equal(isUserOwnedState('synapse.qbank.attempts'), true)
+  assert.equal(isUserOwnedState('synapse.progress.mastery.v1'), true)
+  assert.equal(isUserOwnedState('synapse.annotations.doc-1.shard-0'), true)
+  assert.equal(isUserOwnedState('synapse.bookmarks.resources.v1'), true)
+  assert.equal(isUserOwnedState('synapse.account.audience.v1'), true)
+})
+
+test('every library key a student writes is their own', () => {
+  assert.equal(isUserOwnedState('synapse.library.read'), true)
+  assert.equal(isUserOwnedState('synapse.library.userArticles'), true)
+  assert.equal(isUserOwnedState('synapse.library.personalTags'), true)
+  // Highlights and sticky notes on articles.
+  assert.equal(isUserOwnedState('synapse.library.marks.v1'), true)
+})
+
+test('the shared catalogue is not mistaken for a student\'s own', () => {
+  // These are admin-written and student-read. Routing one to the per-user store
+  // would give every student their own private copy of the whole library.
+  assert.equal(isUserOwnedState('synapse-admin-content-ledger-v4'), false)
+  assert.equal(isUserOwnedState('synapse-academic-universities-v1'), false)
+  assert.equal(isUserOwnedState('synapse-medical-library-taxonomy-v1'), false)
+  assert.equal(isUserOwnedState('synapse-module-schedules-v1'), false)
+  assert.equal(isUserOwnedState('synapse-concept-graph-v2'), false)
+})
+
+test('a library key that is not a student\'s stays shared', () => {
+  // The prefix alone must not be enough, or a future admin-owned library
+  // document would silently become per-student.
+  assert.equal(isUserOwnedState('synapse.library.publishedIndex'), false)
+})

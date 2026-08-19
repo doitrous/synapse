@@ -148,7 +148,7 @@ export function AuditSecurity() {
               <Th>Actor</Th>
               <Th>Action</Th>
               <Th>Target</Th>
-              <Th align="right" className="pr-4">
+              <Th align="end" className="pr-4">
                 IP
               </Th>
             </tr>
@@ -163,7 +163,7 @@ export function AuditSecurity() {
                 <Td className="whitespace-nowrap font-medium">{e.actor}</Td>
                 <Td className="whitespace-nowrap text-ink-2">{e.action}</Td>
                 <Td className="text-ink-2">{e.target}</Td>
-                <Td align="right" className="tnum whitespace-nowrap pr-4 font-mono text-[12px] text-ink-3">
+                <Td align="end" className="tnum whitespace-nowrap pr-4 font-mono text-[12px] text-ink-3">
                   {e.ip}
                 </Td>
               </Tr>

@@ -52,7 +52,7 @@ export function Placeholder() {
             <ul className="mt-4 space-y-3">
               {spec?.plan.map((line) => (
                 <li key={line} className="flex items-start gap-3 text-[14px] leading-snug text-ink">
-                  <span className="mt-px flex size-5 shrink-0 items-center justify-center rounded-full bg-accent-tint text-accent">
+                  <span className="mt-px flex size-5 shrink-0 items-center justify-center rounded-full bg-primary-tint text-primary">
                     <Icon icon={Check} size={13} strokeWidth={2.4} />
                   </span>
                   {line}

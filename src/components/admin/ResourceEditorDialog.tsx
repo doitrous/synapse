@@ -133,7 +133,7 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
           }}
         >
           <div className="flex items-center gap-3 border-b border-line px-5 py-4">
-            <span className="grid size-9 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={isVideo ? Play : FileText} size={17} /></span>
+            <span className="grid size-9 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={isVideo ? Play : FileText} size={17} /></span>
             <div className="min-w-0 flex-1">
               <h2 id="resource-editor-title" className="font-serif text-[18px] font-semibold text-ink">{item ? 'Edit resource' : 'Add resource'}</h2>
               <p className="text-[12px] text-ink-3">{isVideo ? 'Video' : 'File'} · chapters, modules, and concept deep-links.</p>
@@ -177,7 +177,7 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
                     title="Use the glyph for this resource type"
                     className={cn(
                       'inline-flex h-9 items-center gap-1.5 rounded-lg border px-2.5 text-[11.5px] font-medium transition-colors',
-                      !data.icon ? 'border-accent bg-accent-tint text-accent-strong' : 'border-line text-ink-2 hover:bg-inset',
+                      !data.icon ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset',
                     )}
                   >
                     <Icon icon={resourceIcon(undefined, asResourceType(draft.fields.Type))} size={15} />
@@ -193,7 +193,7 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
                       title={choice.label}
                       className={cn(
                         'grid size-9 place-items-center rounded-lg border transition-colors',
-                        data.icon === choice.name ? 'border-accent bg-accent-tint text-accent-strong' : 'border-line text-ink-2 hover:bg-inset',
+                        data.icon === choice.name ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset',
                       )}
                     >
                       <Icon icon={resourceIcon(choice.name, 'Article')} size={16} />
@@ -218,7 +218,7 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
               <div className="mt-3">
                 <p className="mb-1.5 text-[11.5px] font-medium text-ink-2">Universities</p>
                 <div className="grid grid-cols-2 gap-1 sm:grid-cols-4">
-                  {universities.map((university) => <label key={university.id} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-accent)]" checked={(data.universityIds ?? []).includes(university.id)} onChange={() => patchData({ universityIds: (data.universityIds ?? []).includes(university.id) ? (data.universityIds ?? []).filter((id) => id !== university.id) : [...(data.universityIds ?? []), university.id] })} />{university.short}</label>)}
+                  {universities.map((university) => <label key={university.id} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-primary)]" checked={(data.universityIds ?? []).includes(university.id)} onChange={() => patchData({ universityIds: (data.universityIds ?? []).includes(university.id) ? (data.universityIds ?? []).filter((id) => id !== university.id) : [...(data.universityIds ?? []), university.id] })} />{university.short}</label>)}
                 </div>
               </div>
               {/* The student catalogue filters on years, but this dialog never
@@ -227,13 +227,13 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
               <div className="mt-3">
                 <p className="mb-1.5 text-[11.5px] font-medium text-ink-2">Years <span className="font-normal text-ink-3">— leave empty for every year</span></p>
                 <div className="grid grid-cols-2 gap-1 sm:grid-cols-4">
-                  {YEARS.map((year) => <label key={year} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-accent)]" checked={(data.yearIds ?? []).includes(year)} onChange={() => patchData({ yearIds: (data.yearIds ?? []).includes(year) ? (data.yearIds ?? []).filter((id) => id !== year) : [...(data.yearIds ?? []), year] })} />{year.replace('Year ', 'Y')}</label>)}
+                  {YEARS.map((year) => <label key={year} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-primary)]" checked={(data.yearIds ?? []).includes(year)} onChange={() => patchData({ yearIds: (data.yearIds ?? []).includes(year) ? (data.yearIds ?? []).filter((id) => id !== year) : [...(data.yearIds ?? []), year] })} />{year.replace('Year ', 'Y')}</label>)}
                 </div>
               </div>
               {data.storageKey && draft.id && (
-                <div className="mt-4 rounded-lg border border-accent-line bg-accent-tint/30 p-3">
+                <div className="mt-4 rounded-lg border border-primary-line bg-primary-tint/30 p-3">
                   <div className="flex flex-wrap items-center gap-3">
-                    <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-accent-line bg-surface px-3 py-2 text-[12px] font-semibold text-accent-strong hover:bg-accent-tint">
+                    <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-primary-line bg-surface px-3 py-2 text-[12px] font-semibold text-primary-strong hover:bg-primary-tint">
                       <Icon icon={uploadState === 'done' ? Check : Upload} size={14} />
                       {uploadState === 'uploading' ? 'Uploading…' : uploadState === 'done' ? 'Uploaded' : 'Choose exact source file'}
                       <input type="file" accept="application/pdf,.pdf" className="sr-only" disabled={uploadState === 'uploading' || uploadState === 'done'} onChange={(event) => { void uploadQualifiedFile(event.currentTarget.files?.[0]); event.currentTarget.value = '' }} />
@@ -259,7 +259,7 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
             {/* Concept → page/line/timestamp map */}
             <div className="rounded-lg border border-line p-4">
               <div className="mb-2 flex items-center gap-2">
-                <Icon icon={MapPin} size={15} className="text-accent" />
+                <Icon icon={MapPin} size={15} className="text-primary" />
                 <h3 className="text-[13.5px] font-semibold text-ink">Concept deep-links</h3>
                 <span className="text-[11.5px] text-ink-3">Pin a concept to the exact page, line, slide, or timestamp.</span>
               </div>

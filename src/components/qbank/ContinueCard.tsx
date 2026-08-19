@@ -30,10 +30,10 @@ export function ContinueCard({
     <Panel className="mb-4 p-4 sm:p-5">
       <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
         <div className="min-w-0 flex-1">
-          <p className="text-[11px] font-bold uppercase tracking-[0.09em] text-accent">{t('Still open')}</p>
+          <p className="text-[11px] font-bold uppercase tracking-[0.09em] text-primary">{t('Still open')}</p>
           <p className="mt-0.5 truncate text-[15px] font-semibold text-ink">{name}</p>
           <div className="mt-2 flex items-center gap-2.5">
-            <Meter value={total ? (answered / total) * 100 : 0} tone="accent" className="w-32" />
+            <Meter value={total ? (answered / total) * 100 : 0} tone="primary" className="w-32" />
             <span className="tnum font-mono text-[12px] text-ink-2">
               {answered} {t('of')} {total} {t('answered')}
             </span>

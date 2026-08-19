@@ -44,7 +44,7 @@ export function DocumentRefs({
           <Link
             to={`/app/resources/${encodeURIComponent(entry.resourceId)}${entry.page ? `?page=${entry.page}` : ''}`}
             state={backState(location, 'Back to notebook')}
-            className="inline-flex items-center gap-1.5 rounded-full py-1 pe-1 ps-1.5 text-[12px] font-medium text-ink-2 hover:text-accent-strong"
+            className="inline-flex items-center gap-1.5 rounded-full py-1 pe-1 ps-1.5 text-[12px] font-medium text-ink-2 hover:text-primary-strong"
           >
             <Icon icon={entry.resourceId.startsWith('my:') ? Upload : FileText} size={12} className="text-ink-3" />
             <span className="max-w-40 truncate">{entry.label}</span>
@@ -67,7 +67,7 @@ export function DocumentRefs({
         onClick={picker.toggle}
         aria-haspopup="dialog"
         aria-expanded={picker.open}
-        className="inline-flex items-center gap-1 rounded-full border border-dashed border-line-2 px-2 py-1 text-[11.5px] font-medium text-ink-3 hover:border-accent-line hover:text-accent-strong"
+        className="inline-flex items-center gap-1 rounded-full border border-dashed border-line-2 px-2 py-1 text-[11.5px] font-medium text-ink-3 hover:border-primary-line hover:text-primary-strong"
       >
         <Icon icon={Plus} size={12} />{t('Reference a document')}
       </button>

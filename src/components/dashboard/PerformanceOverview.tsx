@@ -152,7 +152,7 @@ export function PerformanceOverview({ compact = false }: { compact?: boolean }) 
                 className="performance-line-fill"
                 points={segment.map((point) => `${point.x},${point.y}`).join(' ')}
                 fill="none"
-                stroke="var(--color-accent)"
+                stroke="var(--color-primary)"
                 strokeWidth="2"
                 strokeLinejoin="round"
                 strokeLinecap="round"
@@ -179,7 +179,7 @@ export function PerformanceOverview({ compact = false }: { compact?: boolean }) 
                   onBlur={() => setHovered(null)}
                 />
                 {point.y !== null && (
-                  <circle cx={point.x} cy={point.y} r={hovered === index ? 1.8 : 1.1} fill="var(--color-surface)" stroke="var(--color-accent)" strokeWidth="1" vectorEffect="non-scaling-stroke" />
+                  <circle cx={point.x} cy={point.y} r={hovered === index ? 1.8 : 1.1} fill="var(--color-surface)" stroke="var(--color-primary)" strokeWidth="1" vectorEffect="non-scaling-stroke" />
                 )}
               </g>
             ))}
@@ -194,7 +194,7 @@ export function PerformanceOverview({ compact = false }: { compact?: boolean }) 
                 <p className="mt-1 text-[11.5px] text-ink-3">{t('Not enough answers to score')}</p>
               ) : (
                 <>
-                  <p className="mt-1 text-[11.5px] text-ink-2">{t('Your accuracy')} <span className="tnum font-mono font-semibold text-accent-strong">{plotted[hovered].value}%</span></p>
+                  <p className="mt-1 text-[11.5px] text-ink-2">{t('Your accuracy')} <span className="tnum font-mono font-semibold text-primary-strong">{plotted[hovered].value}%</span></p>
                   <p className="text-[11.5px] text-ink-3">{plotted[hovered].bucket.marked} {t('marked answers')}</p>
                 </>
               )}

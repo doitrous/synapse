@@ -54,7 +54,7 @@ export function ZoomableImage({ src, alt, className = '' }: { src: string; alt: 
 
   return (
     <>
-      <button type="button" onClick={() => setOpen(true)} className="group relative block w-full overflow-hidden rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)]" aria-label={`Open ${alt} image viewer`}>
+      <button type="button" onClick={() => setOpen(true)} className="group relative block w-full overflow-hidden rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" aria-label={`Open ${alt} image viewer`}>
         <img src={src} alt={alt} className={className} />
         <span className="pointer-events-none absolute bottom-2 right-2 inline-flex items-center gap-1.5 rounded-md border border-white/20 bg-ink/75 px-2 py-1 text-[10.5px] font-semibold text-white opacity-0 shadow-panel backdrop-blur-sm transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100"><Icon icon={ImageIcon} size={12} />Open &amp; zoom</span>
       </button>

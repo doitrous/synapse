@@ -59,7 +59,7 @@ export function Walkthrough({ c }: { c: LandingContent }) {
               // four-screen scroll before the page continues.
               className="border-b border-line py-8 last:border-b-0 lg:min-h-[46vh] lg:border-b-0 lg:py-0 lg:pb-[12vh] lg:pt-[10vh]"
             >
-              <p className="text-[11px] font-bold uppercase tracking-[0.07em] text-accent-strong">{step.eyebrow}</p>
+              <p className="text-[11px] font-bold uppercase tracking-[0.07em] text-primary-strong">{step.eyebrow}</p>
               <h3
                 className={cn(
                   'mt-2 font-serif text-[21px] font-semibold tracking-[-0.015em] sm:text-[25px]',

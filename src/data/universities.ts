@@ -22,6 +22,11 @@ export interface UniYear {
   courses: CurriculumCourse[]
   /** Explicit term names for this year (a year has one or more terms). */
   terms?: string[]
+  /**
+   * Offered to students. Absent means true, so every record that predates the
+   * flag stays live rather than being switched off by its addition.
+   */
+  active?: boolean
 }
 
 export interface University {
@@ -30,6 +35,27 @@ export interface University {
   short: string
   region: string
   years: UniYear[]
+  /**
+   * Offered to students. Absent means true. Switched off, none of its years is
+   * available whatever their own flag says — read both through `isYearLive`.
+   */
+  active?: boolean
+}
+
+/**
+ * Whether students may be offered this year.
+ *
+ * Both facts are read through one predicate so that no caller can check the
+ * year and forget the university it belongs to. Absent means live, so nothing
+ * that predates the flag is switched off by its arrival.
+ */
+export function isYearLive(university: Pick<University, 'active'>, year: Pick<UniYear, 'active'>): boolean {
+  return university.active !== false && year.active !== false
+}
+
+/** The student's year in a university, by the label their profile carries. */
+export function findYearByLabel(university: University, label: string): UniYear | undefined {
+  return university.years.find((year) => year.year === label)
 }
 
 export const UNIVERSITY_CATALOGUE_STORAGE_KEY = 'synapse-academic-universities-v1'
@@ -60,8 +86,94 @@ export function universityYearId(universityShort: string, label: string): string
   return `${code}_${suffix}`
 }
 
+/**
+ * Kasr Al Ainy's modules, as the faculty lists them.
+ *
+ * `[name, moduleId]`, and the name is the label the faculty uses rather than an
+ * expansion of it: "104 CPS" is what a student sees on their own timetable, and
+ * guessing at what the letters stand for would put a title on their screen that
+ * nobody at the school wrote. An admin can rename any of them in Academic Setup
+ * once the full titles are to hand.
+ *
+ * Module IDs carry a year suffix in years 4 and 5 because those years repeat
+ * SURG, IM and FM between them, and a module ID is unique across the whole
+ * university — without the suffix the importer would silently make the second
+ * one "SURG-2", which is an ID no student would recognise.
+ *
+ * This seeds demo mode only. A live deployment reads its catalogue from the
+ * server, so the same list ships as `docs/import-ready/academic/kau-modules.md`
+ * for an admin to apply through Academic Import.
+ */
+const KAU_MODULES: Record<string, [name: string, moduleId: string][]> = {
+  'Year 1': [
+    ['101 ISK', '101 ISK'],
+    ['102 INT', '102 INT'],
+    ['103 BMS', '103 BMS'],
+    ['104 CPS', '104 CPS'],
+    ['108 INT', '108 INT'],
+  ],
+  'Year 2': [
+    ['205 NEU', '205 NEU'],
+    ['206 DIG', '206 DIG'],
+    ['207 END', '207 END'],
+    ['208 INT', '208 INT'],
+    ['210 PAT', '210 PAT'],
+    ['213 PSY', '213 PSY'],
+  ],
+  'Year 3': [
+    ['309 INF', '309 INF'],
+    ['310 PAT', '310 PAT'],
+    ['Community Medicine', '314'],
+    ['Forensic Medicine', '319'],
+    ['327 MPE', '327 MPE'],
+    ['Clinical', 'CLIN 3'],
+    ['Community Issues', 'COMM 3'],
+    ['Electives', 'ELEC 3'],
+  ],
+  'Year 4': [
+    ['PEDS', 'PEDS 4'],
+    ['OBGYN', 'OBGYN 4'],
+    ['SURG', 'SURG 4'],
+    ['IM', 'IM 4'],
+    ['PSY', 'PSY 4'],
+    ['FM', 'FM 4'],
+    ['CM', 'CM 4'],
+    ['Palliative Medicine & Oncology', 'PALL 4'],
+    ['Research', 'RSCH 4'],
+  ],
+  'Year 5': [
+    ['SURG', 'SURG 5'],
+    ['IM', 'IM 5'],
+    ['FM', 'FM 5'],
+  ],
+}
+
+/**
+ * Fill a university's years with a named set of modules.
+ *
+ * Years the set says nothing about are left exactly as they were, empty — an
+ * internship year with no modules recorded is a year with no modules recorded.
+ */
+function withModules(years: UniYear[], modules: Record<string, [string, string][]>): UniYear[] {
+  return years.map((year) => {
+    const list = modules[year.year]
+    if (!list) return year
+    return {
+      ...year,
+      terms: ['Term 1'],
+      courses: list.map(([name, moduleId], index) => ({
+        id: `${year.id.toLowerCase()}-m${index + 1}`,
+        name,
+        block: 'Term 1',
+        moduleId,
+        term: 'Term 1',
+      })),
+    }
+  })
+}
+
 export const universities: University[] = [
-  { id: 'kau', name: 'Kasr Alainy - Cairo University', short: 'KAU', region: 'Cairo', years: buildYears('KAU') },
+  { id: 'kau', name: 'Kasr Alainy - Cairo University', short: 'KAU', region: 'Cairo', years: withModules(buildYears('KAU'), KAU_MODULES) },
   { id: 'asu', name: 'Ain Shams University', short: 'ASU', region: 'Cairo', years: buildYears('ASU') },
   { id: 'au', name: 'Alexandria University', short: 'AU', region: 'Alexandria', years: buildYears('AU') },
   { id: 'hu', name: 'Helwan University', short: 'HU', region: 'Helwan, Cairo', years: buildYears('HU') },

@@ -1,7 +1,7 @@
 /**
  * What a surface looks like while its chunk is still arriving.
  *
- * This used to be the words "Opening Synapse…" centred in an empty page, in
+ * This used to be the words "Opening Connect Cortex…" centred in an empty page, in
  * English regardless of the chosen language. A block of prose announcing a wait
  * makes a fast load feel like a slow one; a shape that matches what is about to
  * appear reads as the page already being there. With route chunks now

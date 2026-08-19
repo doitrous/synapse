@@ -40,17 +40,17 @@ function TopicBranch({ node, index, open, chosen, counts, onToggleOpen, onToggle
   const count = counts(node.id)
   return (
     <li className="[content-visibility:auto]">
-      <div className={cn('group flex min-h-9 items-center gap-1 rounded-md pe-1', isChosen && 'bg-accent-tint/55')}>
+      <div className={cn('group flex min-h-9 items-center gap-1 rounded-md pe-1', isChosen && 'bg-primary-tint/55')}>
         {children.length > 0 ? (
           <button type="button" onClick={() => onToggleOpen(node.id)} className="grid size-8 shrink-0 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink" aria-label={`${expanded ? 'Collapse' : 'Expand'} ${node.title}`} aria-expanded={expanded}>
-            <Icon icon={ChevronRight} size={13} className={cn('transition-transform', expanded && 'rotate-90')} />
+            <Icon icon={ChevronRight} size={13} className={cn('chevron-turn')} open={expanded} />
           </button>
         ) : (
           <span className="ms-3 me-2 size-1.5 shrink-0 rounded-full bg-line-2" />
         )}
         <Checkbox label={`Include ${node.title}`} checked={isChosen} onChange={() => onToggleChosen(node.id)} />
         <button type="button" onClick={() => onToggleChosen(node.id)} className="min-w-0 flex-1 py-2 text-start">
-          <span className={cn('block truncate text-[12px]', isChosen ? 'font-semibold text-accent-strong' : 'text-ink-2 group-hover:text-ink')}>{node.title}</span>
+          <span className={cn('block truncate text-[12px]', isChosen ? 'font-semibold text-primary-strong' : 'text-ink-2 group-hover:text-ink')}>{node.title}</span>
         </button>
         {count > 0 && <span className="tnum rounded-full bg-surface px-1.5 py-0.5 font-mono text-[9px] text-ink-3">{count}</span>}
       </div>
@@ -103,7 +103,7 @@ export function LibraryTopicPicker({ nodes, chosen, onChange, counts }: {
             key={entry.id}
             type="button"
             onClick={() => { setDivision(entry.id); setQuery('') }}
-            className={cn('inline-flex h-8 items-center rounded-lg px-2.5 text-[12px] font-medium transition-colors', division === entry.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
+            className={cn('inline-flex h-8 items-center rounded-lg px-2.5 text-[12px] font-medium transition-colors', division === entry.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
           >
             {entry.shortLabel}
           </button>

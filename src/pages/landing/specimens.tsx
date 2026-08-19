@@ -68,9 +68,9 @@ export function TodaySpecimen({ c, lang }: { c: Specimen; lang: Lang }) {
       <div className="space-y-4 p-4">
         <div className="flex items-center gap-3">
           <span className="tnum font-mono text-[15px] font-medium text-ink">{lang === 'ar' ? '٠٩:٠٠' : '09:00'}</span>
-          <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: '#a8462f' }} />
+          <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: '#b52230' }} />
           <span className="flex-1 truncate text-[13.5px] text-ink">{c.session}</span>
-          <Badge tone="accent">{c.lecture}</Badge>
+          <Badge tone="primary">{c.lecture}</Badge>
         </div>
         <div className="border-t border-line pt-3">
           <div className="flex items-baseline justify-between">
@@ -82,12 +82,12 @@ export function TodaySpecimen({ c, lang }: { c: Specimen; lang: Lang }) {
         <div className="space-y-2 border-t border-line pt-3">
           <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{c.attention}</p>
           <div className="flex items-center gap-2.5">
-            <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: '#a8462f' }} />
+            <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: '#b52230' }} />
             <span className="flex-1 truncate text-[13px] text-ink">{c.acs}</span>
             <Badge tone="danger">{c.overdue}</Badge>
           </div>
           <div className="flex items-center gap-2.5">
-            <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: '#c06a3f' }} />
+            <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: '#c14a2e' }} />
             <span className="flex-1 truncate text-[13px] text-ink">{c.diuretics}</span>
             <Badge tone="warning">{c.dueToday}</Badge>
           </div>
@@ -101,7 +101,7 @@ function LibrarySpecimen({ c }: { c: Specimen; lang: Lang }) {
   return (
     <Mount>
       <div className="flex items-center gap-2 border-b border-line px-4 py-3">
-        <span className="h-4 w-0.5 shrink-0 rounded-full" style={{ backgroundColor: '#a8462f' }} />
+        <span className="h-4 w-0.5 shrink-0 rounded-full" style={{ backgroundColor: '#b52230' }} />
         <span className="font-mono text-[10.5px] font-semibold tracking-[0.06em] text-ink-2">CVS 04</span>
         <h3 className="min-w-0 flex-1 truncate font-serif text-[14px] font-semibold text-ink">{c.libraryTitle}</h3>
       </div>
@@ -110,7 +110,7 @@ function LibrarySpecimen({ c }: { c: Specimen; lang: Lang }) {
         <div className="rounded-lg border border-line bg-inset/60 p-3">
           <p className="mb-2 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{c.librarySources}</p>
           <div className="flex items-start gap-2">
-            <Icon icon={BookOpen} size={13} className="mt-0.5 shrink-0 text-accent" />
+            <Icon icon={BookOpen} size={13} className="mt-0.5 shrink-0 text-primary" />
             <span className="text-[12px] leading-snug text-ink-2">{c.librarySource}</span>
           </div>
         </div>
@@ -151,7 +151,7 @@ function ReaderSpecimen({ c, lang }: { c: Specimen; lang: Lang }) {
           {[PenLine, Highlighter, StickyNote, SquareDashed].map((icon, index) => (
             <span
               key={index}
-              className={cn('grid size-6 place-items-center rounded', index === 0 ? 'bg-accent-tint text-accent-strong' : 'text-ink-3')}
+              className={cn('grid size-6 place-items-center rounded', index === 0 ? 'bg-primary-tint text-primary-strong' : 'text-ink-3')}
             >
               <Icon icon={icon} size={12} />
             </span>
@@ -166,7 +166,7 @@ function ReaderSpecimen({ c, lang }: { c: Specimen; lang: Lang }) {
             </div>
           ))}
           <svg viewBox="0 0 200 24" className="mt-1 h-6 w-full" aria-hidden>
-            <path d="M6 18 C 40 4, 70 22, 104 10 S 168 6, 194 14" fill="none" stroke="#b0512b" strokeWidth="2" strokeLinecap="round" />
+            <path d="M6 18 C 40 4, 70 22, 104 10 S 168 6, 194 14" fill="none" stroke="var(--color-primary)" strokeWidth="2" strokeLinecap="round" />
           </svg>
           <div className="w-40 rounded-lg border border-[color-mix(in_srgb,#c2691c_34%,var(--color-line))] bg-[color-mix(in_srgb,#c2691c_16%,var(--color-surface))] p-2">
             <p className="text-[11px] leading-snug text-ink">{c.readerNote}</p>
@@ -183,7 +183,7 @@ function PracticalSpecimen({ c, lang }: { c: Specimen; lang: Lang }) {
       <Head title={c.practicalTitle} meta={lang === 'ar' ? '٠٦:٠٠' : '06:00'} />
       <div className="p-4">
         <div className="flex gap-1 rounded-lg bg-inset/70 p-1">
-          <span className="flex-1 rounded-md bg-surface px-2 py-1.5 text-center text-[11.5px] font-semibold text-accent-strong shadow-panel">{c.practicalCandidate}</span>
+          <span className="flex-1 rounded-md bg-surface px-2 py-1.5 text-center text-[11.5px] font-semibold text-primary-strong shadow-panel">{c.practicalCandidate}</span>
           <span className="flex-1 px-2 py-1.5 text-center text-[11.5px] font-medium text-ink-3">{c.practicalExaminer}</span>
         </div>
         <div className="mt-3 space-y-2">

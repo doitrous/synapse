@@ -78,7 +78,7 @@ export function ContentEditorDialog({
           }}
         >
           <div className="flex items-center gap-3 border-b border-line px-5 py-4">
-            <span className="grid size-9 place-items-center rounded-lg bg-accent-tint text-accent-strong">
+            <span className="grid size-9 place-items-center rounded-lg bg-primary-tint text-primary-strong">
               <Icon icon={FilePenLine} size={17} />
             </span>
             <div className="min-w-0 flex-1">

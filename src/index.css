@@ -1,11 +1,20 @@
 @import "tailwindcss";
 
 /* =========================================================================
-   SYNAPSE · "The Clinical Chart" design system
+   CONNECT CORTEX · "The Clinical Chart"
    The visual language of medicine's own instruments: ruled vitals charts,
-   graph/ECG paper, formulary tables, fine anatomical line-work. Cool clinical
-   paper, surgical-teal accent, calibrated meters. Light-first, built for long
-   reading. No glass, no gradients-as-decoration, no glow.
+   graph/ECG paper, formulary tables, fine anatomical line-work.
+
+   A restrained two-hue brand taken from the split-hemisphere mark: cortex
+   crimson is the right hemisphere and the working accent (actions, active
+   navigation, links, meters); cortex blue is the left hemisphere and the
+   secondary, structural one (sources, concept chips, categorical marks).
+   The blue lives in the ground, the red in the controls — that division is
+   what keeps a two-hue brand calm. Roughly 70% neutral / 25% crimson /
+   5% blue per screen. Never a red→blue gradient.
+
+   Light-first, built for long reading. No glass, no gradients-as-decoration,
+   no glow.
    ========================================================================= */
 
 @theme {
@@ -13,51 +22,71 @@
   --font-sans: "Geist Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-serif: "Source Serif 4 Variable", Georgia, "Times New Roman", serif;
   --font-mono: "Geist Mono Variable", ui-monospace, "SF Mono", Menlo, monospace;
+  /* The logotype's own geometric sans. Brand lockups only — never UI, never body. */
+  --font-brand: "Jost Variable", "Century Gothic", system-ui, sans-serif;
 
-  /* ---- Ground & ink (warm porcelain) -------------------------------- */
-  --color-paper: #f6f1e9;      /* warm porcelain — premium light ground */
-  --color-surface: #fffdfa;    /* warm white */
-  --color-surface-2: #f1ebe1;
-  --color-inset: #ece4d7;
+  /* ---- Ground & ink -------------------------------------------------- */
+  --color-paper: #f5f7fb;      /* page ground — a very light hint of the brand blue */
+  --color-surface: #ffffff;    /* card / panel field */
+  --color-surface-2: #eef1f7;  /* raised-but-quiet fill */
+  --color-inset: #e4e9f2;      /* recessed track / meter bed */
 
-  --color-ink: #241d16;        /* warm near-black */
-  --color-ink-2: #6b6053;      /* warm taupe, ≥4.5:1 on paper */
-  --color-ink-3: #9c9083;      /* faint — large/decorative only */
+  --color-ink: #161920;        /* near-black, faintly cool */
+  --color-ink-2: #5d636f;      /* body-safe muted, ≥4.5:1 on paper */
+  --color-ink-3: #949aa8;      /* faint — large or decorative only */
 
-  --color-line: #e8dfd1;       /* warm hairline */
-  --color-line-2: #dacfbd;     /* stronger rule */
-  --color-grid: #ede4d6;       /* faint chart grid */
-  --color-grid-major: #e2d8c8; /* graph-paper major line */
+  --color-line: #e3e7ef;       /* hairline */
+  --color-line-2: #ccd3e0;     /* stronger rule / control border */
+  --color-grid: #e8ecf4;       /* faint chart grid */
+  --color-grid-major: #dbe1ec; /* graph-paper major line */
 
-  /* ---- Clay accent (premium terracotta) ----------------------------- */
-  --color-accent: #b0512b;
-  --color-accent-strong: #8c3d1d;
-  --color-accent-soft: #cd7d55;
-  --color-accent-tint: #f4e5d9;
-  --color-accent-line: #e6c6b1;
-  --color-on-accent: #fdf7f2;
+  /* ---- Primary · cortex crimson (the working accent) ------------------
+     #d13a63 is the lightest, pinkest rose that still clears AA with a white
+     label (4.67:1). Anything lighter forces a dark label, and a dark label on
+     a coloured button reads as a warning rather than an action. If a lighter
+     button is ever needed it becomes a *tinted* button, not a lighter fill. */
+  --color-primary: #d13a63;
+  --color-primary-hover: #b62d55;  /* the filled control on hover / press */
+  --color-primary-strong: #a82449; /* label text on a tint, hairlines */
+  --color-primary-soft: #ef8fa3;
+  --color-primary-tint: #fff5f5;   /* pills, chips, selected nav/tabs — never a background */
+  --color-primary-line: #f4c8d6;
+  --color-on-primary: #ffffff;
+
+  /* ---- Accent · cortex blue (secondary, structural) ------------------
+     Quiet emphasis, not action: sources and library links inside dense data,
+     concept chips, answered-state markers, categorical marks. */
+  --color-accent: #1553b3;
+  --color-accent-strong: #0e3f8c;
+  --color-accent-soft: #5a8ee0;
+  --color-accent-tint: #eaf1fd;
+  --color-accent-line: #c4d9f7;
+  --color-on-accent: #f8fbff;
 
   /* ---- Signals ------------------------------------------------------- */
-  --color-success: #5e7a4f;    /* muted sage — functional "good" only */
-  --color-success-tint: #eaefdf;
-  --color-warning: #a5732a;
-  --color-warning-tint: #f6ecd6;
-  --color-danger: #b23a3a;
-  --color-danger-tint: #f6e5df;
+  --color-success: #1a6e56;
+  --color-success-tint: #e3f2ec;
+  --color-warning: #8a5a0a;
+  --color-warning-tint: #fbf0d9;
+  /* Danger sits in the same family as primary, so it is never told apart by
+     hue alone: danger arrives as a tint + dot + word, primary as a filled
+     action. Deeper and less orange than primary so the two read apart. */
+  --color-danger: #a8121e;
+  --color-danger-tint: #fce7e9;
 
   /* Text that sits on a filled signal. Named rather than hardcoded white,
-     because dark lightens the fills and white on light sage is unreadable. */
-  --color-on-success: #f7faf2;
-  --color-on-warning: #fdf8ee;
-  --color-on-danger: #fdf4f2;
+     because dark lightens the fills and white on light fills is unreadable. */
+  --color-on-success: #f4fbf8;
+  --color-on-warning: #fffaf0;
+  --color-on-danger: #fff7f7;
 
-  /* Heatmap ramp (porcelain → clay) */
-  --color-scale-0: #ece4d5;
-  --color-scale-1: #edccb2;
-  --color-scale-2: #dda57c;
-  --color-scale-3: #cb7d4f;
-  --color-scale-4: #b0512b;
-  --color-scale-5: #8c3d1d;
+  /* Heatmap ramp (ground → cortex crimson) */
+  --color-scale-0: #e8ecf4;
+  --color-scale-1: #fbdde3;
+  --color-scale-2: #f5b4c2;
+  --color-scale-3: #e37fa0;
+  --color-scale-4: #d13a63;
+  --color-scale-5: #a82449;
 
   /* ---- Radius -------------------------------------------------------- */
   --radius-sm: 6px;
@@ -67,9 +96,13 @@
   --radius-2xl: 16px;
 
   /* ---- Elevation (offset + soft blur; never a flat halo) ------------- */
-  --shadow-panel: 0 1px 2px rgba(20, 26, 25, 0.05), 0 1px 1px rgba(20, 26, 25, 0.03);
-  --shadow-raised: 0 4px 16px -6px rgba(20, 26, 25, 0.12), 0 1px 2px rgba(20, 26, 25, 0.05);
-  --shadow-pop: 0 14px 34px -12px rgba(20, 26, 25, 0.22), 0 3px 8px rgba(20, 26, 25, 0.08);
+  --shadow-panel: 0 1px 2px rgba(22, 25, 32, 0.05), 0 1px 1px rgba(22, 25, 32, 0.03);
+  --shadow-raised: 0 4px 16px -6px rgba(22, 25, 32, 0.13), 0 1px 2px rgba(22, 25, 32, 0.05);
+  --shadow-pop: 0 14px 34px -12px rgba(22, 25, 32, 0.22), 0 3px 8px rgba(22, 25, 32, 0.08);
+  --shadow-control: 0 1px 1px rgba(22, 25, 32, 0.04);
+  /* On the primary the shadow is tinted with the action colour, not black. */
+  --shadow-action: 0 1px 2px rgba(168, 36, 73, 0.22);
+  --shadow-action-hover: 0 2px 6px rgba(168, 36, 73, 0.24);
 
   /* ---- Motion -------------------------------------------------------- */
   --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
@@ -80,102 +113,152 @@
   --spacing-sidebar-collapsed: 4.25rem;
 }
 
-/* Not a @theme entry: this is a background-image, not a scale value, and it
-   would generate a meaningless `bg-paper-grain` utility if it were. */
+/* Not @theme entries: these are background-images and raw durations, not scale
+   values, and would generate meaningless utilities if they lived above. */
 :root {
-  --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+
+  /* Interface response. One authored moment (calibrate) sits far above it. */
+  --dur-instant: 100ms;
+  --dur-fast: 150ms;
+  --dur-base: 180ms;
+  --dur-slow: 250ms;
+  --dur-screen: 260ms;
+  --dur-collapse: 280ms;
+  --dur-calibrate: 900ms;
+  --stagger-step: 26ms;
+
+  /* A focused field takes a soft crimson ring as well as a crimson border. */
+  --ring-field: 0 0 0 2px color-mix(in srgb, var(--color-primary) 18%, transparent);
+
+  /* The two halves of the mark. Aliases rather than literals, so the logotype
+     follows the theme without the component knowing which theme it is in. */
+  --brand-blue: var(--color-accent);
+  --brand-rose: var(--color-primary);
 }
 
 /* =========================================================================
-   THEMES · Warm (default) · Light · Dark
-   The @theme block above is the Warm palette, so an app that never sets
-   data-theme looks exactly as it always has. Light and Dark re-declare the
-   same token names; because Tailwind v4 emits them as real custom properties,
-   every bg-surface / text-ink-2 / border-line in the product follows along
-   without a single utility being rewritten.
+   THEMES · Light (default) · Warm · Dark
+   The @theme block above is the Light palette, which is the system's
+   reference ground. Warm and Dark re-declare the same token names; because
+   Tailwind v4 emits them as real custom properties, every bg-surface /
+   text-ink-2 / border-line in the product follows along without a single
+   utility being rewritten, and no component ever branches on theme.
    ========================================================================= */
 
-/* Light — the same instrument on cool paper rather than warm porcelain. */
-:root[data-theme='light'] {
-  --color-paper: #f2f4f6;
-  --color-surface: #ffffff;
-  --color-surface-2: #eceff3;
-  --color-inset: #e3e8ed;
+/* Warm — the same instrument on paper-tinted stock rather than cool porcelain.
+   A reading mode: only the neutral ramp warms, and the brand holds its value.
+   Keeping the crimson fixed across all three themes is what makes the button
+   in light, warm and dark read as one brand. */
+:root[data-theme='warm'] {
+  --color-paper: #f7f2ea;
+  --color-surface: #fffdf9;
+  --color-surface-2: #f1ebe1;
+  --color-inset: #e9e1d4;
 
-  --color-ink: #14181d;
-  --color-ink-2: #59626d;
-  --color-ink-3: #8a939e;
+  --color-ink: #1f1b16;
+  --color-ink-2: #675e51;
+  --color-ink-3: #9b9284;
 
-  --color-line: #e2e7ec;
-  --color-line-2: #cdd5dd;
-  --color-grid: #e7ebf0;
-  --color-grid-major: #dbe1e8;
+  --color-line: #e9e0d2;
+  --color-line-2: #d7ccb9;
+  --color-grid: #ece4d6;
+  --color-grid-major: #e2d9c9;
 
-  --color-accent-tint: #f6e7de;
-  --color-accent-line: #e9cdb9;
-  --color-on-accent: #fffaf6;
+  /* The tints carry the ground's warmth so they sit on the paper rather than
+     floating above it; the fills and label colours are untouched. */
+  --color-primary-tint: #fdefef;
+  --color-primary-line: #f0c8d1;
 
-  --color-success-tint: #e6efe0;
-  --color-warning-tint: #f7eeda;
-  --color-danger-tint: #f8e6e2;
+  --color-accent-tint: #eef1f8;
+  --color-accent-line: #cbd8ee;
 
-  --color-scale-0: #e6ebf0;
+  --color-success-tint: #e8efdf;
+  --color-warning-tint: #f7edd7;
+  --color-danger-tint: #f9e6e3;
 
-  --shadow-panel: 0 1px 2px rgba(16, 22, 30, 0.05), 0 1px 1px rgba(16, 22, 30, 0.03);
-  --shadow-raised: 0 4px 16px -6px rgba(16, 22, 30, 0.12), 0 1px 2px rgba(16, 22, 30, 0.05);
-  --shadow-pop: 0 14px 34px -12px rgba(16, 22, 30, 0.22), 0 3px 8px rgba(16, 22, 30, 0.08);
+  --color-scale-0: #ece4d6;
+  --color-scale-1: #f8dcdd;
+
+  --shadow-panel: 0 1px 2px rgba(31, 27, 22, 0.05), 0 1px 1px rgba(31, 27, 22, 0.03);
+  --shadow-raised: 0 4px 16px -6px rgba(31, 27, 22, 0.13), 0 1px 2px rgba(31, 27, 22, 0.05);
+  --shadow-pop: 0 14px 34px -12px rgba(31, 27, 22, 0.22), 0 3px 8px rgba(31, 27, 22, 0.08);
+  --shadow-control: 0 1px 1px rgba(31, 27, 22, 0.04);
 }
 
-/* Dark — a warm charcoal ground. The ink ramp inverts, and the accent is
-   lifted and desaturated: #b0512b on a dark field reads as mud, not clay. */
+/* Dark — four rules keep this from looking like the light theme photographed
+   at night. The ground is not black (#0d1117 carries the same hint of brand
+   blue that #f5f7fb carries in light). Elevation inverts: separation comes
+   from the fill plus a hairline, not a shadow. Saturated brand colour is held
+   as a FILL and lifted as TEXT. And pure white is never used for body text. */
 :root[data-theme='dark'] {
-  --color-paper: #17140f;
-  --color-surface: #201c16;
-  --color-surface-2: #282219;
-  --color-inset: #322a20;
+  --color-paper: #0d1117;
+  --color-surface: #151b24;
+  --color-surface-2: #1d2531;
+  --color-inset: #0a0e14;      /* the inset goes *darker* than the page */
 
-  --color-ink: #f2ece2;
-  --color-ink-2: #b6ab9a;      /* ≥4.5:1 on --color-surface */
-  --color-ink-3: #8b8172;      /* large/decorative only */
+  --color-ink: #e8ecf3;        /* not #ffffff — that is only glare at 2am */
+  --color-ink-2: #a2abbb;      /* 7.4:1 on surface */
+  --color-ink-3: #7d8798;      /* less faint here, so labels stay legible */
 
-  --color-line: #322b21;
-  --color-line-2: #443b2e;
-  --color-grid: #2a241b;
-  --color-grid-major: #352d22;
+  --color-line: #232b37;
+  --color-line-2: #38424f;
+  --color-grid: #1b2330;
+  --color-grid-major: #232c39;
 
-  --color-accent: #d9825a;
-  --color-accent-strong: #eda07c;  /* "strong" means more prominent, so lighter here */
-  --color-accent-soft: #a85f3d;
-  --color-accent-tint: #3b2418;
-  --color-accent-line: #55341f;
-  --color-on-accent: #1b120c;
+  /* The fill holds its light value — white on #d13a63 is 4.67:1 on any
+     ground — while the text step moves UP the ramp instead of down. */
+  --color-primary: #d13a63;
+  --color-primary-hover: #e0537a;  /* dark UIs brighten on hover; darkening would bury the control */
+  --color-primary-strong: #f193ab; /* 8.9:1 on surface */
+  --color-primary-soft: #8c2745;
+  --color-primary-tint: #2a141d;
+  --color-primary-line: #4a2130;
+  --color-on-primary: #ffffff;
 
-  --color-success: #8fae79;
-  --color-success-tint: #26301e;
-  --color-warning: #d3a25c;
-  --color-warning-tint: #352914;
-  --color-danger: #e07b74;
-  --color-danger-tint: #3a201d;
+  --color-accent: #6fa5ff;         /* #1553b3 is unreadable on a dark ground */
+  --color-accent-strong: #a3c5ff;
+  --color-accent-soft: #2c5697;
+  --color-accent-tint: #11203a;
+  --color-accent-line: #24406b;
+  --color-on-accent: #0a1120;      /* dark ink on a light-blue fill */
+
+  --color-success: #4dc79b;
+  --color-success-tint: #0e2b23;
+  --color-warning: #e3a83f;
+  --color-warning-tint: #2e2410;
+  /* Inverted: danger becomes the brighter pure red against primary's rose. */
+  --color-danger: #ff6b6b;
+  --color-danger-tint: #331416;
 
   /* The fills are light here, so what sits on them must be dark. */
-  --color-on-success: #17200f;
-  --color-on-warning: #241a09;
-  --color-on-danger: #2b100e;
+  --color-on-success: #06130f;
+  --color-on-warning: #1a1305;
+  --color-on-danger: #1a0708;
 
-  --color-scale-0: #2a2318;
-  --color-scale-1: #4a2f1f;
-  --color-scale-2: #7a4327;
-  --color-scale-3: #a3572f;
-  --color-scale-4: #d9825a;
-  --color-scale-5: #eda07c;
+  /* Ascends in brightness: on a dark ground "more" has to mean lighter, or a
+     full heatmap reads as an empty one. */
+  --color-scale-0: #1a212b;
+  --color-scale-1: #3b1d29;
+  --color-scale-2: #5f2739;
+  --color-scale-3: #8d3253;
+  --color-scale-4: #bb416b;
+  --color-scale-5: #e8759a;
 
   /* On a dark ground a shadow cannot be seen; separation comes from the
-     surface being lighter than the paper, so elevation only needs depth. */
-  --shadow-panel: 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow-raised: 0 4px 16px -6px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow-pop: 0 14px 34px -12px rgba(0, 0, 0, 0.75), 0 3px 8px rgba(0, 0, 0, 0.5);
+     surface being lighter than the paper, so shadows survive only on
+     genuinely floating things. */
+  --shadow-panel: 0 1px 0 rgba(0, 0, 0, 0.5);
+  --shadow-raised: 0 4px 16px rgba(0, 0, 0, 0.55);
+  --shadow-pop: 0 14px 34px rgba(0, 0, 0, 0.65);
+  --shadow-control: 0 1px 1px rgba(0, 0, 0, 0.45);
+  --shadow-action: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-action-hover: 0 2px 6px rgba(0, 0, 0, 0.55);
 
-  --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.018'/%3E%3C/svg%3E");
+  /* The logotype is TEXT, so the rose half takes the text step rather than the
+     fill: #d13a63 on #151b24 is 3.7:1 and fails. The blue half needs no
+     override — it already points at --color-accent, which lifts above. */
+  --brand-rose: var(--color-primary-strong);
 }
 
 @layer base {
@@ -203,9 +286,10 @@
     margin: 0;
     min-height: 100dvh;
     background-color: var(--color-paper);
-    /* Faint paper grain for a premium, tactile ground. Its strength is baked
-       into the SVG, so the whole image is the token: dark swaps in a fainter
-       one, because 0.05 black noise over charcoal reads as sensor grain. */
+    /* Faint paper grain — what makes the light palette feel premium rather
+       than blank. Its strength is baked into the SVG, so the whole image is
+       the token; dark drops it entirely, because the same texture on a dark
+       ground reads as sensor noise. */
     background-image: var(--paper-grain);
     background-attachment: fixed;
     color: var(--color-ink);
@@ -216,6 +300,10 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     overflow-x: clip;
+  }
+
+  :root[data-theme='dark'] body {
+    background-image: none;
   }
 
   button,
@@ -242,12 +330,12 @@
   p { text-wrap: pretty; }
 
   ::selection {
-    background: var(--color-accent-tint);
-    color: var(--color-accent-strong);
+    background: var(--color-primary-tint);
+    color: var(--color-primary-strong);
   }
 
   :focus-visible {
-    outline: 2px solid var(--color-accent);
+    outline: 2px solid var(--color-primary);
     outline-offset: 2px;
     border-radius: 4px;
   }
@@ -259,14 +347,15 @@
     border: 3px solid var(--color-paper);
     border-radius: 999px;
   }
-  /* Mixing toward the ink lifts the thumb in light themes and in dark alike,
-     where a fixed pale grey would have disappeared into the track. */
+  /* Mixing toward the ink lifts the thumb in the light themes and in dark
+     alike, where a fixed pale grey would have disappeared into the track. */
   ::-webkit-scrollbar-thumb:hover {
     background: color-mix(in oklab, var(--color-line-2) 70%, var(--color-ink));
   }
 }
 
-/* Faint graph-paper grid — a specific clinical material, used sparingly */
+/* Faint graph-paper grid — a specific clinical material, used sparingly.
+   Measurement, specimen and blueprint surfaces only. Never a dashboard. */
 @utility grid-chart {
   background-image:
     linear-gradient(to right, var(--color-grid) 1px, transparent 1px),
@@ -290,83 +379,198 @@
   font-feature-settings: "tnum";
 }
 
-/* Entrances — one authored moment, from an already-visible default */
-@keyframes synapse-fade {
+/* =========================================================================
+   MOTION
+   Interface response is 100–250ms on --ease-out-quint. One authored moment
+   sits above it: meters, rings and readiness markers fill on mount, like
+   instruments calibrating. No bounce, no spring, no parallax, no
+   scroll-driven animation, no looping ambient motion.
+   ========================================================================= */
+
+/* ---- Named entrances ---------------------------------------------------
+   These are the overlay entrances — a dialog, a popover, a drawer. They may
+   use opacity because they are mounted in response to a user action in a
+   live document, and are never the thing that makes page content visible. */
+@keyframes cortex-fade {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-@keyframes synapse-pop {
+@keyframes cortex-pop {
   from { opacity: 0; transform: translateY(6px) scale(0.985); }
   to { opacity: 1; transform: none; }
 }
-@keyframes synapse-rise {
+@keyframes cortex-rise {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: none; }
 }
-@utility animate-fade {
-  animation: synapse-fade 0.15s var(--ease-out-quint) both;
-}
-@utility animate-pop {
-  animation: synapse-pop 0.18s var(--ease-out-quint) both;
-}
-@keyframes synapse-slide-x {
+@keyframes cortex-slide-x {
   from { transform: translateX(-100%); }
   to { transform: none; }
 }
-@keyframes synapse-slide-x-rtl {
+@keyframes cortex-slide-x-rtl {
   from { transform: translateX(100%); }
   to { transform: none; }
 }
+
+@utility animate-fade {
+  animation: cortex-fade var(--dur-fast) var(--ease-out-quint) both;
+}
+@utility animate-pop {
+  animation: cortex-pop var(--dur-base) var(--ease-out-quint) both;
+}
+@utility animate-rise {
+  animation: cortex-rise 0.5s var(--ease-out-quint) both;
+}
+@utility animate-slide-x {
+  animation: cortex-slide-x 0.24s var(--ease-out-quint) both;
+}
 /* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */
 [dir="rtl"] .animate-slide-x {
-  animation-name: synapse-slide-x-rtl;
+  animation-name: cortex-slide-x-rtl;
 }
-@keyframes synapse-ring-fill {
+
+/* ---- Screen and list entrances -----------------------------------------
+   THE HARD RULE: an entrance animates transform only, never opacity. A
+   keyframe that starts at `opacity: 0` with a fill mode leaves the element
+   *permanently invisible* in any document whose timeline never advances — a
+   background tab, an offscreen thumbnail iframe, a print pass, a DOM-capture
+   screenshot. Motion may refine how content arrives; it may never be the
+   thing that makes content visible. */
+@keyframes cortex-screen-in {
+  from { transform: translateY(8px); }
+  to { transform: none; }
+}
+
+/* A screen arriving in the content area after the sidebar destination
+   changes. 8px, not 24px: the shell stays put, only the page beneath it
+   re-settles. Applied to a wrapper keyed on the route, so React remounts it. */
+@utility animate-screen-in {
+  animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) both;
+}
+
+/* A list or grid whose rows settle in sequence. Capped at 8 — past that the
+   last row arrives late enough to feel broken rather than composed. */
+@utility stagger {
+  & > * {
+    animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) both;
+  }
+  & > *:nth-child(1) { animation-delay: 0ms; }
+  & > *:nth-child(2) { animation-delay: calc(var(--stagger-step) * 1); }
+  & > *:nth-child(3) { animation-delay: calc(var(--stagger-step) * 2); }
+  & > *:nth-child(4) { animation-delay: calc(var(--stagger-step) * 3); }
+  & > *:nth-child(5) { animation-delay: calc(var(--stagger-step) * 4); }
+  & > *:nth-child(6) { animation-delay: calc(var(--stagger-step) * 5); }
+  & > *:nth-child(7) { animation-delay: calc(var(--stagger-step) * 6); }
+  & > *:nth-child(n+8) { animation-delay: calc(var(--stagger-step) * 7); }
+}
+
+/* ---- Disclosure --------------------------------------------------------
+   The height is measured and set inline by the Collapse component, because a
+   transition to `auto` does not animate. This owns only the easing and the
+   fade of the content inside. */
+.cortex-collapse {
+  overflow: hidden;
+  transition: height var(--dur-collapse) var(--ease-out-quint);
+}
+.cortex-collapse > * {
+  transition: opacity var(--dur-collapse) var(--ease-out-quint);
+}
+.cortex-collapse[data-open='false'] > * { opacity: 0; }
+.cortex-collapse[data-open='true'] > * { opacity: 1; }
+
+/* A disclosure chevron turns rather than swapping glyph. */
+@utility chevron-turn {
+  transition: transform var(--dur-collapse) var(--ease-out-quint);
+  &[data-open='true'] { transform: rotate(90deg); }
+}
+/* In RTL a closed chevron points the other way, so it turns the other way. */
+[dir="rtl"] .chevron-turn { transform: scaleX(-1); }
+[dir="rtl"] .chevron-turn[data-open='true'] { transform: scaleX(-1) rotate(90deg); }
+
+/* A selected list row — sidebar nav, option row, picker item. The coral tint is
+   near-white against the paper, so selection is never carried by the fill
+   alone: it also takes a hairline and a 2px spine in the working colour.
+   box-shadow has no logical properties, so the spine is mirrored explicitly
+   rather than left pinned to the physical left edge in Arabic. */
+@utility nav-selected {
+  background-color: var(--color-primary-tint);
+  color: var(--color-primary-strong);
+  box-shadow:
+    inset 0 0 0 1px var(--color-primary-line),
+    inset 2px 0 0 0 var(--color-primary);
+}
+[dir="rtl"] .nav-selected {
+  box-shadow:
+    inset 0 0 0 1px var(--color-primary-line),
+    inset -2px 0 0 0 var(--color-primary);
+}
+
+/* ---- Selection ---------------------------------------------------------
+   One rule that *slides* between tabs rather than one rule per tab appearing
+   and disappearing; the movement is what tells you where the selection went.
+   Position is measured from the active button. */
+.cortex-tab-indicator {
+  position: absolute;
+  bottom: -1px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  transition:
+    transform var(--dur-base) var(--ease-out-quint),
+    width var(--dur-base) var(--ease-out-quint);
+}
+
+/* A card that answers the pointer. Pricing tiers only — never a data row. */
+@utility lift {
+  transition:
+    transform var(--dur-base) var(--ease-out-quint),
+    box-shadow var(--dur-base) var(--ease-out-quint);
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-raised);
+  }
+}
+
+/* ---- The authored moment ----------------------------------------------
+   Percentage gauges draw once on page entry, like a calibrated instrument
+   settling on its reading. The final value remains visible after motion. */
+@keyframes cortex-ring-fill {
   from { stroke-dashoffset: var(--ring-circumference); }
   to { stroke-dashoffset: var(--ring-target-offset); }
 }
-@keyframes synapse-readiness-fill {
+@keyframes cortex-readiness-fill {
   from { left: 0%; }
   to { left: var(--readiness-value); }
 }
-@keyframes synapse-performance-line {
+@keyframes cortex-performance-line {
   from { stroke-dashoffset: 1000; }
   to { stroke-dashoffset: 0; }
 }
-@keyframes synapse-performance-area {
+@keyframes cortex-performance-area {
   from { opacity: 0; transform: scaleX(0); }
   to { opacity: 0.55; transform: scaleX(1); }
 }
 
-/* Percentage gauges draw once on page entry, like a calibrated instrument
-   settling on its reading. The final value remains visible after motion. */
 .metric-ring-fill {
   stroke-dashoffset: var(--ring-target-offset);
-  animation: synapse-ring-fill 0.9s var(--ease-out-quint) 0.12s both;
+  animation: cortex-ring-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
 }
 
 .readiness-marker-fill {
   left: var(--readiness-value);
-  animation: synapse-readiness-fill 0.9s var(--ease-out-quint) 0.12s both;
+  animation: cortex-readiness-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
 }
 
 .performance-line-fill {
   stroke-dasharray: 1000;
   stroke-dashoffset: 0;
-  animation: synapse-performance-line 0.9s var(--ease-out-quint) 0.12s both;
+  animation: cortex-performance-line var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
 }
 
 .performance-area-fill {
   transform-box: fill-box;
   transform-origin: left center;
-  animation: synapse-performance-area 0.75s var(--ease-out-quint) 0.18s both;
-}
-
-@utility animate-rise {
-  animation: synapse-rise 0.5s var(--ease-out-quint) both;
-}
-@utility animate-slide-x {
-  animation: synapse-slide-x 0.24s var(--ease-out-quint) both;
+  animation: cortex-performance-area 0.75s var(--ease-out-quint) 0.18s both;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -378,4 +582,13 @@
     transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
   }
+
+  .cortex-collapse,
+  .cortex-collapse > *,
+  .chevron-turn,
+  .cortex-tab-indicator,
+  .lift {
+    transition: none !important;
+  }
+  .lift:hover { transform: none; }
 }

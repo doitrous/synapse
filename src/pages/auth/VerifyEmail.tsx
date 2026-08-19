@@ -65,16 +65,16 @@ export function VerifyEmail() {
   const state = verified ? 'verified' : linkFailure ? 'failed' : 'waiting'
 
   return (
-    <AuthLayout step="verify" title={verified ? 'Email verified' : 'Check your email'} description={verified ? 'Your address is confirmed. Add an authenticator to protect the account before normal access begins.' : 'Open the verification message from Synapse, then return here. The link proves that the address belongs to you.'} compact>
+    <AuthLayout step="verify" title={verified ? 'Email verified' : 'Check your email'} description={verified ? 'Your address is confirmed. Add an authenticator to protect the account before normal access begins.' : 'Open the verification message from Connect Cortex, then return here. The link proves that the address belongs to you.'} compact>
       <div className="mx-auto max-w-lg text-center">
-        <span className={state === 'verified' ? 'mx-auto grid size-14 place-items-center rounded-xl bg-success-tint text-success' : state === 'failed' ? 'mx-auto grid size-14 place-items-center rounded-xl bg-danger-tint text-danger' : 'mx-auto grid size-14 place-items-center rounded-xl bg-accent-tint text-accent-strong'}><Icon icon={state === 'verified' ? CheckCircle2 : state === 'failed' ? MailWarning : MailCheck} size={26} /></span>
+        <span className={state === 'verified' ? 'mx-auto grid size-14 place-items-center rounded-xl bg-success-tint text-success' : state === 'failed' ? 'mx-auto grid size-14 place-items-center rounded-xl bg-danger-tint text-danger' : 'mx-auto grid size-14 place-items-center rounded-xl bg-primary-tint text-primary-strong'}><Icon icon={state === 'verified' ? CheckCircle2 : state === 'failed' ? MailWarning : MailCheck} size={26} /></span>
         <h2 className="mt-5 text-[25px]">{state === 'verified' ? 'Verification complete' : state === 'failed' ? 'Verification did not complete' : `Verification sent${knownEmail ? ` to ${knownEmail}` : ''}`}</h2>
         <p className="mx-auto mt-2 max-w-[52ch] text-[13px] leading-relaxed text-ink-2">{state === 'verified' ? 'Your account is ready. You can add a free authenticator app as an optional second factor now, or later from your account page.' : state === 'failed' ? 'The address is still unconfirmed, and the account cannot be used until it is. Each link works once, and only until it expires.' : 'Delivery uses the configured Supabase email template and Resend SMTP. The link expires and cannot be reused after confirmation.'}</p>
         {linkFailure && <p role="alert" className="mx-auto mt-4 flex max-w-[52ch] gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-start text-[12.5px] leading-relaxed text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{linkFailure}</p>}
         {message && <p role="status" className="mt-4 rounded-lg border border-line bg-surface-2 px-3 py-2.5 text-[12.5px] text-ink-2">{message}</p>}
         {verified ? (
           <div className="mt-6 flex flex-col justify-center gap-2 sm:flex-row">
-            <Link to="/auth/mfa" className="inline-flex min-h-11 items-center justify-center rounded-lg bg-accent px-5 text-[13.5px] font-semibold text-on-accent hover:bg-accent-strong">Protect account</Link>
+            <Link to="/auth/mfa" className="inline-flex min-h-11 items-center justify-center rounded-lg bg-primary px-5 text-[13.5px] font-semibold text-on-primary hover:bg-primary-hover">Protect account</Link>
             <Link to="/login" className="inline-flex min-h-11 items-center justify-center rounded-lg px-4 text-[13px] font-semibold text-ink-2 hover:bg-inset hover:text-ink">Back to sign in</Link>
           </div>
         ) : (

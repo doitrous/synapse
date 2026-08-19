@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams, useLocation } from 'react-router-dom'
 import {
   Clock,
@@ -54,6 +54,12 @@ import { apiOpenFile } from '@/lib/api'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { AtlasNavigation, LibraryLanding, LibraryViewTabs, MEDICAL_LIBRARY_VIEWS, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
+import {
+  MarkNotePopover, MarkSelectionToolbar, MarkedPhrase, YourMarksPanel, useArticleMarks,
+  type ArticleMarks,
+} from '@/components/library/ArticleMarks'
+import { orderedSegments } from '@/lib/library/textAnchor'
+import type { LibraryMark } from '@/data/libraryMarks'
 
 /**
  * Article prose, with the search term marked where there is one.
@@ -118,43 +124,84 @@ function anchorSegments(text: string, media: ArticleMediaRecord[]) {
 }
 
 /**
- * Article prose with search highlighting and, where an anchor matches, a
- * pressable phrase that opens its media.
+ * Article prose, carrying everything pinned to a phrase inside it.
+ *
+ * Two things now claim phrases: media an author anchored, and the student's own
+ * highlights and notes. They go through one ordered, non-overlapping segment
+ * list — see `orderedSegments` — so the two cannot both try to wrap the same
+ * words, and the first by position wins, which is the rule the media matcher
+ * used on its own before this.
+ *
+ * `data-mark-block` and `data-mark-text` are what the selection toolbar reads:
+ * which run of text this is, and what it says in the store. A block without
+ * them is prose the student cannot mark, which is how headings and the sources
+ * list stay out of it.
  */
+type PhraseSegment =
+  | { start: number; end: number; kind: 'media'; item: ArticleMediaRecord }
+  | { start: number; end: number; kind: 'mark'; mark: LibraryMark }
+
 function ReaderText({
   text,
   query,
   media = [],
   onOpenMedia,
+  blockId,
+  marks,
+  onOpenMark,
 }: {
   text: string
   query: string
   media?: ArticleMediaRecord[]
   onOpenMedia?: (item: ArticleMediaRecord) => void
+  /** Omitted for text the student is not offered a way to mark. */
+  blockId?: string
+  marks?: ArticleMarks
+  onOpenMark?: (mark: LibraryMark, anchor: HTMLElement) => void
 }) {
-  const hits = media.length && onOpenMedia ? anchorSegments(text, media) : []
-  if (!hits.length) return <Highlight text={text} query={query} />
+  const mediaHits = media.length && onOpenMedia ? anchorSegments(text, media) : []
+  const markHits = blockId && marks ? marks.placed(blockId, text) : []
 
-  const parts: React.ReactNode[] = []
-  let cursor = 0
-  hits.forEach((hit, index) => {
-    if (hit.start > cursor) parts.push(<Highlight key={`t-${index}`} text={text.slice(cursor, hit.start)} query={query} />)
-    parts.push(
-      <button
-        key={`m-${hit.item.id}`}
-        type="button"
-        onClick={() => onOpenMedia!(hit.item)}
-        title={hit.item.caption || `Open ${MEDIA_LABEL[hit.item.type].toLowerCase()}`}
-        className="mx-px inline items-baseline gap-1 rounded-sm border-b-2 border-dotted border-accent/70 bg-accent-tint/30 px-0.5 text-start font-medium text-ink transition-colors hover:bg-accent-tint hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
-      >
-        <Highlight text={text.slice(hit.start, hit.end)} query={query} />
-        <Icon icon={MEDIA_ICON[hit.item.type]} size={12} className="ms-1 inline align-baseline text-accent-strong" />
-      </button>,
-    )
-    cursor = hit.end
-  })
-  if (cursor < text.length) parts.push(<Highlight key="t-last" text={text.slice(cursor)} query={query} />)
-  return <>{parts}</>
+  const segments: PhraseSegment[] = orderedSegments<PhraseSegment>([
+    ...mediaHits.map((hit) => ({ start: hit.start, end: hit.end, value: { start: hit.start, end: hit.end, kind: 'media' as const, item: hit.item } })),
+    ...markHits.map(({ mark, range }) => ({ start: range.start, end: range.end, value: { start: range.start, end: range.end, kind: 'mark' as const, mark } })),
+  ]).map((segment) => segment.value)
+
+  const body = (() => {
+    if (!segments.length) return <Highlight text={text} query={query} />
+    const parts: React.ReactNode[] = []
+    let cursor = 0
+    segments.forEach((segment, index) => {
+      if (segment.start > cursor) parts.push(<Highlight key={`t-${index}`} text={text.slice(cursor, segment.start)} query={query} />)
+      const inner = <Highlight text={text.slice(segment.start, segment.end)} query={query} />
+      if (segment.kind === 'media') {
+        parts.push(
+          <button
+            key={`m-${segment.item.id}`}
+            type="button"
+            onClick={() => onOpenMedia!(segment.item)}
+            title={segment.item.caption || `Open ${MEDIA_LABEL[segment.item.type].toLowerCase()}`}
+            className="mx-px inline items-baseline gap-1 rounded-sm border-b-2 border-dotted border-primary/70 bg-primary-tint/30 px-0.5 text-start font-medium text-ink transition-colors hover:bg-primary-tint hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+          >
+            {inner}
+            <Icon icon={MEDIA_ICON[segment.item.type]} size={12} className="ms-1 inline align-baseline text-primary-strong" />
+          </button>,
+        )
+      } else {
+        parts.push(
+          <MarkedPhrase key={`k-${segment.mark.id}`} mark={segment.mark} onOpen={onOpenMark ?? (() => undefined)}>
+            {inner}
+          </MarkedPhrase>,
+        )
+      }
+      cursor = segment.end
+    })
+    if (cursor < text.length) parts.push(<Highlight key="t-last" text={text.slice(cursor)} query={query} />)
+    return <>{parts}</>
+  })()
+
+  if (!blockId) return body
+  return <span data-mark-block={blockId} data-mark-text={text}>{body}</span>
 }
 
 /** The media itself, sized to its container. */
@@ -187,7 +234,7 @@ function MediaLightbox({ item, onClose }: { item: ArticleMediaRecord; onClose: (
       <button type="button" className="absolute inset-0 bg-ink/60" onClick={onClose} aria-label="Close media" />
       <figure className="relative flex max-h-full w-full max-w-3xl flex-col overflow-hidden rounded-xl border border-line bg-paper shadow-pop">
         <header className="flex items-start gap-3 border-b border-line bg-surface px-4 py-3">
-          <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={MEDIA_ICON[item.type]} size={16} /></span>
+          <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={MEDIA_ICON[item.type]} size={16} /></span>
           <div className="min-w-0 flex-1">
             <h2 id="media-lightbox-title" className="text-[13.5px] font-semibold leading-snug text-ink">{item.caption || MEDIA_LABEL[item.type]}</h2>
             {item.anchor?.quote && <p className="mt-0.5 truncate text-[11.5px] text-ink-3">Explains “{item.anchor.quote}”</p>}
@@ -212,7 +259,7 @@ function ArticleMediaSection({ media, onOpenMedia, t }: { media: ArticleMediaRec
   return (
     <section className="mt-10 border-t border-line pt-5">
       <div className="flex items-center gap-2">
-        <Icon icon={ImageIcon} size={16} className="text-accent" />
+        <Icon icon={ImageIcon} size={16} className="text-primary" />
         <h2 className="font-serif text-[19px] font-semibold tracking-[-0.01em] text-ink">{t('Media')}</h2>
       </div>
       <p className="mt-1 text-[12px] text-ink-3">{t('Figures and recordings for this article.')}</p>
@@ -222,7 +269,7 @@ function ArticleMediaSection({ media, onOpenMedia, t }: { media: ArticleMediaRec
             <button
               type="button"
               onClick={() => onOpenMedia(item)}
-              className="group relative block w-full bg-inset/40 text-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+              className="group relative block w-full bg-inset/40 text-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
               aria-label={`${t('Open')} ${item.caption || MEDIA_LABEL[item.type]}`}
             >
               <MediaFrame item={item} className="max-h-56" />
@@ -252,7 +299,7 @@ function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[
   return (
     <section className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
       <div className="border-b border-line px-4 py-3">
-        <div className="flex items-center gap-2"><Icon icon={ImageIcon} size={15} className="text-accent" /><h2 className="text-[13px] font-semibold text-ink">{t('Media in this article')}</h2></div>
+        <div className="flex items-center gap-2"><Icon icon={ImageIcon} size={15} className="text-primary" /><h2 className="text-[13px] font-semibold text-ink">{t('Media in this article')}</h2></div>
         <p className="mt-0.5 font-mono text-[10.5px] text-ink-3">{media.length} {media.length === 1 ? t('item') : t('items')}</p>
       </div>
       <ul className="divide-y divide-line">
@@ -261,7 +308,7 @@ function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[
             <button
               type="button"
               onClick={() => onOpenMedia(item)}
-              className="group flex w-full items-start gap-2.5 px-4 py-3 text-start transition-colors hover:bg-accent-tint/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-accent/40"
+              className="group flex w-full items-start gap-2.5 px-4 py-3 text-start transition-colors hover:bg-primary-tint/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary/40"
             >
               <span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset text-ink-3"><Icon icon={MEDIA_ICON[item.type]} size={14} /></span>
               <span className="min-w-0 flex-1">
@@ -280,22 +327,22 @@ function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[
 
 /* ---- Reading blocks ---------------------------------------------------- */
 
-function Callout({ tone, title, text, query, media, onOpenMedia }: { tone: 'accent' | 'warning'; title: string; text: string; query: string; media?: ArticleMediaRecord[]; onOpenMedia?: (item: ArticleMediaRecord) => void }) {
-  const accent = tone === 'accent'
+function Callout({ tone, title, text, query, media, onOpenMedia, blockId, marks, onOpenMark }: { tone: 'primary' | 'warning'; title: string; text: string; query: string; media?: ArticleMediaRecord[]; onOpenMedia?: (item: ArticleMediaRecord) => void; blockId?: string; marks?: ArticleMarks; onOpenMark?: (mark: LibraryMark, anchor: HTMLElement) => void }) {
+  const accent = tone === 'primary'
   return (
     <div
       className={cn(
         'my-5 rounded-xl border p-4',
-        accent ? 'border-accent/45 bg-accent-tint/55' : 'border-warning/35 bg-warning-tint/65',
+        accent ? 'border-primary/45 bg-primary-tint/55' : 'border-warning/35 bg-warning-tint/65',
       )}
     >
       <div className="flex items-center gap-2">
-        <Icon icon={accent ? Flag : TriangleAlert} size={16} className={accent ? 'text-accent' : 'text-warning'} />
-        <span className={cn('text-[12.5px] font-semibold', accent ? 'text-accent-strong' : 'text-warning')}>
+        <Icon icon={accent ? Flag : TriangleAlert} size={16} className={accent ? 'text-primary' : 'text-warning'} />
+        <span className={cn('text-[12.5px] font-semibold', accent ? 'text-primary-strong' : 'text-warning')}>
           <Highlight text={title} query={query} />
         </span>
       </div>
-      <p className="mt-1.5 text-[14px] leading-relaxed text-ink"><ReaderText text={text} query={query} media={media} onOpenMedia={onOpenMedia} /></p>
+      <p className="mt-1.5 text-[14px] leading-relaxed text-ink"><ReaderText text={text} query={query} media={media} onOpenMedia={onOpenMedia} blockId={blockId} marks={marks} onOpenMark={onOpenMark} /></p>
     </div>
   )
 }
@@ -307,6 +354,8 @@ function Blocks({
   bodyMedia = [],
   trapMedia = [],
   onOpenMedia,
+  marks,
+  onOpenMark,
 }: {
   blocks: LibBlock[]
   query: string
@@ -314,6 +363,8 @@ function Blocks({
   bodyMedia?: ArticleMediaRecord[]
   trapMedia?: ArticleMediaRecord[]
   onOpenMedia?: (item: ArticleMediaRecord) => void
+  marks?: ArticleMarks
+  onOpenMark?: (mark: LibraryMark, anchor: HTMLElement) => void
 }) {
   return (
     <>
@@ -327,7 +378,7 @@ function Blocks({
         if (b.type === 'p')
           return (
             <p key={i} className="mt-3 text-[15px] leading-[1.7] text-ink/90">
-              <ReaderText text={b.text ?? ''} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} />
+              <ReaderText text={b.text ?? ''} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} blockId={`block:${i}`} marks={marks} onOpenMark={onOpenMark} />
             </p>
           )
         if (b.type === 'list')
@@ -335,8 +386,8 @@ function Blocks({
             <ul key={i} className="mt-3 space-y-2">
               {b.items?.map((it, j) => (
                 <li key={j} className="flex gap-2.5 text-[15px] leading-[1.6] text-ink/90">
-                  <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent-soft" />
-                  <span><ReaderText text={it} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} /></span>
+                  <span className="mt-2 size-1.5 shrink-0 rounded-full bg-primary-soft" />
+                  <span><ReaderText text={it} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} blockId={`block:${i}:item:${j}`} marks={marks} onOpenMark={onOpenMark} /></span>
                 </li>
               ))}
             </ul>
@@ -345,7 +396,7 @@ function Blocks({
           return (
             <div key={i} className="mt-10 border-t border-line pt-5">
               <div className="flex items-center gap-2">
-                <Icon icon={Database} size={16} className="text-accent" />
+                <Icon icon={Database} size={16} className="text-primary" />
                 <h2 className="font-serif text-[19px] font-semibold tracking-[-0.01em] text-ink">Sources</h2>
               </div>
               <p className="mt-1 text-[12px] text-ink-3">
@@ -359,7 +410,11 @@ function Blocks({
               key={b.spanId ?? i}
               type="button"
               onClick={() => b.spanId && onEvidence?.(b.spanId)}
-              className="group mt-3 flex w-full items-start gap-3 rounded-lg border border-accent-line/70 bg-accent-tint/25 px-4 py-3 text-start transition-colors hover:border-accent hover:bg-accent-tint/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35"
+              // Cortex blue, not crimson: this block's whole meaning is "this
+              // statement is backed by sources — open them", which is exactly
+              // the structural, points-elsewhere role blue carries. Crimson
+              // here competed with the article's actual actions.
+              className="group mt-3 flex w-full items-start gap-3 rounded-lg border border-accent-line/70 bg-accent-tint/40 px-4 py-3 text-start transition-colors hover:border-accent hover:bg-accent-tint focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35"
             >
               <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
               {/* Concepts off here on purpose. A verified fact is itself a
@@ -375,12 +430,15 @@ function Blocks({
         return (
           <Callout
             key={i}
-            tone={b.tone ?? 'accent'}
+            tone={b.tone ?? 'primary'}
             title={b.title ?? ''}
             text={b.text ?? ''}
             query={query}
             media={b.tone === 'warning' ? trapMedia : bodyMedia}
             onOpenMedia={onOpenMedia}
+            blockId={`block:${i}`}
+            marks={marks}
+            onOpenMark={onOpenMark}
           />
         )
       })}
@@ -424,7 +482,7 @@ function EvidenceDrawer({ span, evidence, onClose }: { span: ArticleSpan; eviden
       <button type="button" className="absolute inset-0 bg-ink/25" onClick={onClose} aria-label="Close sources" />
       <aside className="absolute inset-y-0 end-0 flex w-full max-w-lg flex-col border-s border-line bg-paper shadow-pop">
         <header className="flex items-start gap-3 border-b border-line bg-surface px-5 py-4">
-          <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Database} size={17} /></span>
+          <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={Database} size={17} /></span>
           <div className="min-w-0 flex-1">
             <h2 id="evidence-drawer-title" className="font-serif text-[18px] font-semibold text-ink">Sources for this fact</h2>
             <p className="mt-0.5 text-[11.5px] text-ink-3">{citations.length} exact source link{citations.length === 1 ? '' : 's'} · stable fact ID {span.id}</p>
@@ -489,19 +547,19 @@ function PersonalTagStrip({
     <div className="mt-4 border-t border-line pt-4">
       <div className="flex flex-wrap items-center gap-2">
         <span className="inline-flex items-center gap-1.5 text-[12px] font-medium text-ink-3">
-          <Icon icon={TagIcon} size={13} className="text-accent" />
+          <Icon icon={TagIcon} size={13} className="text-primary" />
           {t('Your tags')}
         </span>
         {tags.map((tag) => (
           <span
             key={tag}
-            className="inline-flex items-center gap-1 rounded-full border border-accent-line bg-accent-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-accent-strong"
+            className="inline-flex items-center gap-1 rounded-full border border-primary-line bg-primary-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-primary-strong"
           >
             {tag}
             <button
               onClick={() => onChange(tags.filter((x) => x !== tag))}
               aria-label={`${t('Remove')} ${tag}`}
-              className="text-accent/70 hover:text-accent"
+              className="text-primary/70 hover:text-primary"
             >
               <Icon icon={X} size={12} />
             </button>
@@ -518,7 +576,7 @@ function PersonalTagStrip({
           }}
           placeholder={t('Add a tag…')}
           aria-label={`${t('Add a tag…')} ${articleId}`}
-          className="h-7 min-w-[7rem] rounded-full border border-line bg-surface px-3 text-[12px] text-ink focus:border-accent focus:outline-none"
+          className="h-7 min-w-[7rem] rounded-full border border-line bg-surface px-3 text-[12px] text-ink focus:border-primary focus:outline-none"
         />
       </div>
       {suggestions.length > 0 && (
@@ -528,7 +586,7 @@ function PersonalTagStrip({
             <button
               key={tag}
               onClick={() => add(tag)}
-              className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-accent-line hover:bg-accent-tint/40 hover:text-accent-strong"
+              className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong"
             >
               + {tag}
             </button>
@@ -587,6 +645,40 @@ function Reader({
   const [openMedia, setOpenMedia] = useState<ArticleMediaRecord | null>(null)
   const media = st.media ?? []
 
+  /**
+   * Every run of text the student can mark, by the id the reader gives it.
+   *
+   * Built here rather than inside the hook because this component is the only
+   * thing that knows how the article is broken up — and orphan detection needs
+   * the whole set, so a sentence moved between paragraphs does not read as a
+   * mark whose words have gone.
+   */
+  const blockTexts = useMemo(() => {
+    const texts: Record<string, string> = { summary: st.summary }
+    st.blocks.forEach((block, index) => {
+      if (block.type === 'p' || block.type === 'callout') texts[`block:${index}`] = block.text ?? ''
+      if (block.type === 'list') block.items?.forEach((item, itemIndex) => { texts[`block:${index}:item:${itemIndex}`] = item })
+    })
+    st.keyPoints.forEach((point, index) => { texts[`hold:${index}`] = point })
+    return texts
+  }, [st.blocks, st.keyPoints, st.summary])
+
+  const marks = useArticleMarks(st.id, blockTexts)
+  const articleRef = useRef<HTMLDivElement>(null)
+  const [openNote, setOpenNote] = useState<{ mark: LibraryMark; anchor: HTMLElement | null } | null>(null)
+
+  /**
+   * Bring a mark into view from the list beside the article.
+   *
+   * The mark is a real button in the prose, so it can simply be found and
+   * focused — no second copy of the text, and no scroll arithmetic.
+   */
+  const revealMark = (mark: LibraryMark) => {
+    const target = articleRef.current?.querySelector<HTMLElement>(`[data-mark-block] button[aria-label$="${CSS.escape(mark.anchor.exact)}"]`)
+    target?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    target?.focus({ preventScroll: true })
+  }
+
   return (
     <div className="mx-auto max-w-[78rem] px-5 py-8 sm:px-8 lg:py-10">
     {/* Two different returns, and both can apply: `cameFrom` is a jump made
@@ -597,7 +689,7 @@ function Reader({
         <button
           type="button"
           onClick={cameFrom.onBack}
-          className="inline-flex max-w-full items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 shadow-panel transition-colors hover:border-accent-line hover:text-accent-strong"
+          className="inline-flex max-w-full items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 shadow-panel transition-colors hover:border-primary-line hover:text-primary-strong"
         >
           <Icon icon={ArrowLeft} size={15} className="shrink-0 rtl:-scale-x-100" />
           <span className="truncate">{t('Back to')} {cameFrom.title}</span>
@@ -606,7 +698,7 @@ function Reader({
     )}
     <BackBar />
     <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,46rem)_20rem]">
-    <article>
+    <article ref={articleRef}>
       {/* The same trail as a taxonomy node page, and navigable for the same
           reason: reading an article is the most common place to want the rest
           of its branch. */}
@@ -619,7 +711,7 @@ function Reader({
           <button
             type="button"
             onClick={onBrowseSubject}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface py-1 pe-2.5 ps-1 font-medium text-ink-2 shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/40 hover:text-accent-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface py-1 pe-2.5 ps-1 font-medium text-ink-2 shadow-panel transition-colors hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
           >
             <SystemMark subjectId={subject.id} index={chapterIndex + 1} />
             {subject.name}
@@ -635,7 +727,7 @@ function Reader({
           <button
             type="button"
             onClick={onBrowseTopic}
-            className="inline-flex items-center gap-1 rounded-lg border border-line bg-surface px-2.5 py-1.5 transition-colors hover:border-accent-line hover:bg-accent-tint/40 hover:text-accent-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            className="inline-flex items-center gap-1 rounded-lg border border-line bg-surface px-2.5 py-1.5 transition-colors hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
           >
             {st.topicTitle}
             <Icon icon={ChevronRight} size={12} className="opacity-60 rtl:-scale-x-100" />
@@ -691,7 +783,7 @@ function Reader({
       <PersonalTagStrip articleId={st.id} tags={tags} reusable={reusable} onChange={onTagsChange} />
 
       <p className="mt-6 text-[16.5px] leading-[1.6] text-ink">
-        <ReaderText text={st.summary} query={query} media={anchoredMedia(media, 'summary')} onOpenMedia={setOpenMedia} />
+        <ReaderText text={st.summary} query={query} media={anchoredMedia(media, 'summary')} onOpenMedia={setOpenMedia} blockId="summary" marks={marks} onOpenMark={(mark, anchor) => setOpenNote({ mark, anchor })} />
       </p>
 
       <div className="mt-2">
@@ -702,6 +794,8 @@ function Reader({
           bodyMedia={anchoredMedia(media, 'body')}
           trapMedia={anchoredMedia(media, 'trap')}
           onOpenMedia={setOpenMedia}
+          marks={marks}
+          onOpenMark={(mark, anchor) => setOpenNote({ mark, anchor })}
         />
       </div>
 
@@ -718,10 +812,11 @@ function Reader({
     <aside className="min-w-0 space-y-3 lg:sticky lg:top-[4.75rem]">
       {st.keyPoints.length > 0 && (
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
-        <div className="flex items-center gap-2"><Icon icon={Lightbulb} size={15} className="text-accent" /><h2 className="text-[13px] font-semibold text-ink">{t('Hold these')}</h2></div>
-        <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-accent" /><span><ReaderText text={point} query="" media={anchoredMedia(media, 'hold')} onOpenMedia={setOpenMedia} /></span></li>)}</ul>
+        <div className="flex items-center gap-2"><Icon icon={Lightbulb} size={15} className="text-primary" /><h2 className="text-[13px] font-semibold text-ink">{t('Hold these')}</h2></div>
+        <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point, index) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-primary" /><span><ReaderText text={point} query="" media={anchoredMedia(media, 'hold')} onOpenMedia={setOpenMedia} blockId={`hold:${index}`} marks={marks} onOpenMark={(mark, anchor) => setOpenNote({ mark, anchor })} /></span></li>)}</ul>
       </section>
       )}
+      <YourMarksPanel marks={marks} onSelect={revealMark} onOpenNote={(mark, anchor) => setOpenNote({ mark, anchor })} />
       <MediaIndexPanel media={media} onOpenMedia={setOpenMedia} t={t} />
       {/* Shown only when this article has reviewed traps. An article with none
           says nothing rather than offering generic advice as its own. */}
@@ -755,8 +850,8 @@ function Reader({
       )}
       {/* Leaving the library for a filtered session had no way back: the student
           landed in the question bank with the article they were reading gone. */}
-      <Link to={`/app/qbank?article=${st.id}`} state={backState(location, t('Back to article'))} className="group flex items-center gap-3 rounded-xl border border-line bg-surface p-4 shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/20">
-        <span className="tnum grid size-10 shrink-0 place-items-center rounded-lg bg-accent-tint font-mono text-[15px] font-bold text-accent-strong">{st.questions.length}</span><span className="min-w-0 flex-1"><span className="block text-[13px] font-bold text-ink">{t('Questions that test this')}</span><span className="mt-0.5 block text-[11.5px] text-ink-3">{t('Start a filtered session')}</span></span><Icon icon={ChevronRight} size={17} className="text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
+      <Link to={`/app/qbank?article=${st.id}`} state={backState(location, t('Back to article'))} className="group flex items-center gap-3 rounded-xl border border-line bg-surface p-4 shadow-panel transition-colors hover:border-primary-line hover:bg-primary-tint/20">
+        <span className="tnum grid size-10 shrink-0 place-items-center rounded-lg bg-primary-tint font-mono text-[15px] font-bold text-primary-strong">{st.questions.length}</span><span className="min-w-0 flex-1"><span className="block text-[13px] font-bold text-ink">{t('Questions that test this')}</span><span className="mt-0.5 block text-[11.5px] text-ink-3">{t('Start a filtered session')}</span></span><Icon icon={ChevronRight} size={17} className="text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
       </Link>
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
         <h2 className="text-[13px] font-semibold text-ink">{t('Resources that teach it')}</h2>
@@ -773,6 +868,18 @@ function Reader({
     <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
     {selectedSpan && <EvidenceDrawer span={selectedSpan} evidence={evidence} onClose={() => setSelectedSpanId(null)} />}
     {openMedia && <MediaLightbox item={openMedia} onClose={() => setOpenMedia(null)} />}
+    <MarkSelectionToolbar container={articleRef} marks={marks} onNoteCreated={(mark) => setOpenNote({ mark, anchor: null })} />
+    {openNote && (
+      <MarkNotePopover
+        mark={marks.all.find((item) => item.id === openNote.mark.id) ?? openNote.mark}
+        // A note opened straight from the toolbar has no element to point at
+        // yet — the phrase it belongs to renders on the same tick — so it hangs
+        // off the article until the student closes it.
+        anchor={openNote.anchor ?? articleRef.current}
+        marks={marks}
+        onClose={() => setOpenNote(null)}
+      />
+    )}
     </div>
   )
 }
@@ -805,7 +912,7 @@ function UserReader({
             {subject.name}
           </span>
           <Icon icon={ArrowRight} size={12} className="rtl:-scale-x-100" />
-          <span className="inline-flex items-center gap-1 text-accent-strong"><Icon icon={PenLine} size={12} /> {t('My articles')}</span>
+          <span className="inline-flex items-center gap-1 text-primary-strong"><Icon icon={PenLine} size={12} /> {t('My articles')}</span>
         </nav>
 
         <div className="mt-3 flex items-start justify-between gap-3">
@@ -1004,7 +1111,20 @@ export function Library() {
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
-        <button type="button" className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
+        {/* The topic tree's toggle, directly above the tree it opens. It used to
+            sit at the far right of this header — the full width of the page away
+            from the panel it controls, on the opposite side from where that
+            panel appears. */}
+        {onRoute && (
+          <MenuToggle
+            open={railOpen}
+            onToggle={() => setRailOpen((current) => !current)}
+            label="topics"
+            direction="vertical"
+            className="shrink-0 max-lg:hidden"
+          />
+        )}
+        <button type="button" className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-primary" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
         {/* The home state offers these same five routes as cards in the page.
             Showing them as tabs at the same time was two menus for one choice,
             so the strip appears only once a route has been picked — and then
@@ -1014,21 +1134,18 @@ export function Library() {
         {/* Too narrow for six tabs on a phone — the Browse topics drawer carries them there. */}
         {onRoute ? (
           <div className="flex min-w-0 flex-1 items-center gap-1.5 max-sm:hidden">
-            <MenuToggle open={viewTabsOpen} onToggle={() => setViewTabsOpen((current) => !current)} label="views" />
+            <MenuToggle
+              open={viewTabsOpen}
+              onToggle={() => setViewTabsOpen((current) => !current)}
+              label="views"
+              direction="horizontal"
+            />
             {viewTabsOpen
               ? <LibraryViewTabs view={view} onViewChange={changeView} />
               : <span className="truncate text-[12.5px] font-medium text-ink-2">{t(currentViewLabel)}</span>}
           </div>
         ) : <span className="flex-1" />}
         <span className="flex-1 sm:hidden" />
-        {onRoute && (
-          <MenuToggle
-            open={railOpen}
-            onToggle={() => setRailOpen((current) => !current)}
-            label="topics"
-            className="shrink-0 max-lg:hidden"
-          />
-        )}
         {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
         {/* Authoring is an admin act. A student's own notes belong in the
             notebook, which is where they already are. */}
@@ -1047,9 +1164,23 @@ export function Library() {
             }}
           />
         ) : view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} onOpenView={openView} onOpenArticle={openArticle} /> : (
-          <div className={cn('grid h-full min-h-0 max-lg:grid-cols-1', railOpen ? 'grid-cols-[18rem_minmax(0,1fr)]' : 'grid-cols-1')}>
-            {railOpen && <div className="contents max-lg:hidden"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} /></div>}
-            <main className="min-w-0 overflow-y-auto">
+          <div className="flex h-full min-h-0">
+            {/* Width rather than presence, so opening and closing the tree is a
+                movement instead of a jump. The inner column keeps its own width
+                while the outer one animates, or the tree would reflow itself
+                narrower on every frame of its own collapse. */}
+            <div
+              inert={!railOpen}
+              className={cn(
+                'min-h-0 shrink-0 overflow-hidden transition-[width,opacity] duration-200 ease-out motion-reduce:transition-none max-lg:hidden',
+                railOpen ? 'w-72 opacity-100' : 'w-0 opacity-0',
+              )}
+            >
+              <div className="grid h-full min-h-0 w-72 grid-cols-1">
+                <AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} />
+              </div>
+            </div>
+            <main className="min-w-0 flex-1 overflow-y-auto">
               {selectedUserArticle ? (
           <UserReader
             article={selectedUserArticle}

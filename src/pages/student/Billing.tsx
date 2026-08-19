@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { CreditCard, BadgeCheck, LifeBuoy, TicketPercent, X } from 'lucide-react'
+import { CreditCard, BadgeCheck, IdCard, LifeBuoy, TicketPercent, X } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
+import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
 import { IconButton } from '@/components/ui/IconButton'
 import { TextInput } from '@/components/ui/Field'
@@ -12,15 +13,21 @@ import { useIdentity, type Entitlement } from '@/lib/useIdentity'
 import { API_MODE, apiDelete, apiGet, apiPost } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 import { formatLongDate } from '@/lib/format'
-import { initialPlans, PLANS_STORAGE_KEY, type PlanDef } from '@/data/plans'
-import { voucherDiscount, voucherEligibility, initialVouchers, VOUCHER_STORAGE_KEY, type Voucher } from '@/data/vouchers'
+import { findPlan, monthlyEquivalent, priceAt, say } from '@/data/planCatalog'
+import { usePlanCatalog } from '@/lib/usePlanCatalog'
+import {
+  DEFAULT_STUDENT_ID_DISCOUNT, STUDENT_ID_DISCOUNT_STORAGE_KEY, STUDENT_ID_STATUS_LABEL,
+  STUDENT_ID_SUBMISSION_STORAGE_KEY, type StudentIdDiscount, type StudentIdSubmission,
+} from '@/data/studentDiscount'
+import { voucherDiscount, voucherEligibility, voucherTrialDays, isTrialVoucher, initialVouchers, VOUCHER_STORAGE_KEY, type Voucher } from '@/data/vouchers'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 
 /** Who to write to about a plan, since nobody can change one from this screen. */
 const SUPPORT_ADDRESS = 'synapse@mail.doitrous.com'
 
-const STATE_TONE: Record<Entitlement['state'], 'success' | 'accent' | 'warning' | 'neutral'> = {
+const STATE_TONE: Record<Entitlement['state'], 'success' | 'primary' | 'warning' | 'neutral'> = {
   active: 'success',
-  trialing: 'accent',
+  trialing: 'primary',
   expired: 'warning',
   cancelled: 'warning',
   none: 'neutral',
@@ -39,20 +46,23 @@ interface Redemption { voucherId: string; code: string; redeemedAt: string }
 /**
  * What the student is actually subscribed to.
  *
- * Previously: a hardcoded "Synapse Student" plan at £69 renewing on a fixed
+ * Previously: a hardcoded "Connect Cortex Student" plan at £69 renewing on a fixed
  * date, a VISA •••• 4242 that belonged to nobody, three fabricated paid
  * invoices, and four buttons — Change plan, Cancel subscription, Update payment
  * method, Download receipt — that had no `onClick` at all.
  *
- * There is no payment provider in Synapse. So this shows the real subscription
+ * There is no payment provider in Connect Cortex. So this shows the real subscription
  * an admin granted, priced from the real plan catalogue in EGP, and says
  * plainly who to contact. It does not offer to do things it cannot do.
  */
 export function Billing() {
   const t = useT()
   const { audience, entitlement, subscription, profileMissing } = useIdentity()
-  const [plans] = usePersistentState<PlanDef[]>(PLANS_STORAGE_KEY, initialPlans)
+  const [catalog] = usePlanCatalog()
+  const [studentIdOffer] = usePersistentState<StudentIdDiscount>(STUDENT_ID_DISCOUNT_STORAGE_KEY, DEFAULT_STUDENT_ID_DISCOUNT)
+  const [studentIdDoc, setStudentIdDoc] = usePersistentState<StudentIdSubmission | null>(STUDENT_ID_SUBMISSION_STORAGE_KEY, null)
   const [vouchers] = usePersistentState<Voucher[]>(VOUCHER_STORAGE_KEY, initialVouchers)
+  const [catalogue] = useUniversityCatalogue()
   const [redemption, setRedemption] = useState<Redemption | null>(null)
   const [code, setCode] = useState('')
   const [message, setMessage] = useState('')
@@ -65,9 +75,9 @@ export function Billing() {
       .catch(() => setRedemption(null))
   }, [])
 
-  const plan = plans.find((item) => item.name === entitlement.plan)
+  const plan = findPlan(catalog, entitlement.plan)
   const appliedVoucher = vouchers.find((item) => item.id === redemption?.voucherId)
-  const price = plan?.priceEGP ?? 0
+  const price = plan ? monthlyEquivalent(plan, catalog.periods) : 0
   const discount = appliedVoucher ? voucherDiscount(appliedVoucher, price) : 0
 
   async function applyVoucher() {
@@ -77,9 +87,20 @@ export function Billing() {
       // Without a backend there is no redemption ledger to write to, so the
       // client only reports whether the code would be accepted.
       const voucher = vouchers.find((item) => item.code.toLowerCase() === wanted.toLowerCase())
-      setMessage(voucher
-        ? (voucherEligibility(voucher, audience) ?? t('This code is valid. Connect the backend to apply it.'))
-        : t('That voucher code was not found. Check the spelling and try again.'))
+      if (!voucher) {
+        setMessage(t('That voucher code was not found. Check the spelling and try again.'))
+        return
+      }
+      // The catalogue is passed so a code cannot be redeemed into a university
+      // or year that is not live, which the targeting rules alone never checked.
+      const refusal = voucherEligibility(voucher, audience, catalogue.length ? catalogue : undefined)
+      if (refusal) {
+        setMessage(refusal)
+        return
+      }
+      setMessage(isTrialVoucher(voucher)
+        ? t('This code is valid and opens full access for {days} days. Connect the backend to apply it.').replace('{days}', String(voucherTrialDays(voucher)))
+        : t('This code is valid. Connect the backend to apply it.'))
       return
     }
     setBusy(true)
@@ -116,7 +137,7 @@ export function Billing() {
   }
 
   const renewalPrice = Math.max(0, price - discount)
-  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Synapse plan enquiry')}`
+  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Connect Cortex plan enquiry')}`
 
   return (
     <PageContainer>
@@ -132,7 +153,7 @@ export function Billing() {
                 title={t('No subscription yet')}
                 description={profileMissing
                   ? t("Your university hasn't set up your student profile yet. Once it has, any plan granted to you appears here.")
-                  : t('No plan has been granted to your account yet. Contact the Synapse team to arrange one.')}
+                  : t('No plan has been granted to your account yet. Contact the Connect Cortex team to arrange one.')}
                 action={<a href={supportLink}><Button variant="secondary" size="sm" iconLeft={LifeBuoy}>{t('Contact support')}</Button></a>}
               />
             ) : (
@@ -147,7 +168,13 @@ export function Billing() {
                     </p>
                   </div>
                   {plan && (
-                    <p className="tnum font-mono text-[18px] font-semibold text-ink">{plan.priceLabel}</p>
+                    <p className="tnum font-mono text-[18px] font-semibold text-ink">
+                      {catalog.periods
+                        .map((period) => ({ period, priced: priceAt(plan, period.id, catalog.periods) }))
+                        .filter((entry) => entry.priced?.period.id === entry.period.id)
+                        .map((entry) => `EGP ${entry.priced!.amount} / ${say(entry.period.label, 'en')}`)
+                        .join(' · ') || t('Free')}
+                    </p>
                   )}
                 </div>
 
@@ -162,7 +189,7 @@ export function Billing() {
                 )}
 
                 <p className="mt-5 border-t border-line pt-4 text-[12.5px] leading-relaxed text-ink-3">
-                  {t('Subscriptions are managed by the Synapse team. To change or end your plan, get in touch and someone will action it on your account.')}
+                  {t('Subscriptions are managed by the Connect Cortex team. To change or end your plan, get in touch and someone will action it on your account.')}
                 </p>
                 <a href={supportLink} className="mt-3 inline-block">
                   <Button variant="secondary" size="md" iconLeft={LifeBuoy}>{t('Contact support about your plan')}</Button>
@@ -176,7 +203,7 @@ export function Billing() {
           <PanelHeader title={t('Payments')} icon={CreditCard} />
           <div className="p-5">
             <p className="text-[13px] leading-relaxed text-ink-2">
-              {t('Synapse does not take card payments in the app, and stores no card details. Your plan is arranged with the Synapse team directly.')}
+              {t('Connect Cortex does not take card payments in the app, and stores no card details. Your plan is arranged with the Connect Cortex team directly.')}
             </p>
           </div>
         </Panel>
@@ -220,6 +247,45 @@ export function Billing() {
           )}
         </div>
       </Panel>
+
+      {/* Offered only where an administrator has switched it on, and never at
+          sign-up. Nothing is discounted until the document has been accepted:
+          showing the saving first would be a number the invoice disagrees with. */}
+      {studentIdOffer.enabled && (
+        <Panel className="mt-4">
+          <PanelHeader title={t('Student ID discount')} icon={IdCard} />
+          <div className="p-5">
+            <p className="text-[12.5px] leading-relaxed text-ink-2">
+              {t('Upload your student ID to claim {percent}% off. It is checked by the Connect Cortex team, and the discount applies from your next invoice once it is accepted.')
+                .replace('{percent}', String(studentIdOffer.percent))}
+            </p>
+            {studentIdDoc ? (
+              <div className="mt-3 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface-2/50 px-3.5 py-3">
+                <span className="min-w-0 flex-1">
+                  <strong className="block truncate text-[13px] text-ink">{studentIdDoc.filename}</strong>
+                  <span className="mt-0.5 block text-[12px] text-ink-2">{t(STUDENT_ID_STATUS_LABEL[studentIdDoc.status])}</span>
+                </span>
+                <Button variant="ghost" size="sm" onClick={() => setStudentIdDoc(null)}>{t('Remove')}</Button>
+              </div>
+            ) : (
+              <label className="mt-3 inline-flex min-h-11 cursor-pointer items-center gap-2 rounded-lg border border-line-2 bg-surface px-3.5 text-[13px] font-semibold text-ink hover:bg-surface-2">
+                <Icon icon={IdCard} size={16} />
+                {t('Choose a file')}
+                <input
+                  type="file"
+                  accept="image/*,application/pdf"
+                  className="sr-only"
+                  onChange={(event) => {
+                    const file = event.target.files?.[0]
+                    if (!file) return
+                    setStudentIdDoc({ filename: file.name, uploadedAt: new Date().toISOString(), status: 'review' })
+                  }}
+                />
+              </label>
+            )}
+          </div>
+        </Panel>
+      )}
     </PageContainer>
   )
 }

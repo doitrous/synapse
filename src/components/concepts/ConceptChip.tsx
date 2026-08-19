@@ -20,7 +20,10 @@ export function ConceptChip({ conceptId }: { conceptId: string }) {
   if (!concept) return null
 
   return (
-    <span className="inline-flex max-w-full items-center rounded-full border border-line bg-surface-2 px-2.5 py-1 text-[11.5px] text-ink-2">
+    // A concept chip is structural, so it carries the cortex blue tint rather
+    // than the working crimson — it names something to look up, not something
+    // to do.
+    <span className="inline-flex max-w-full items-center rounded-full border border-primary-line bg-primary-tint px-2.5 py-1 text-[11.5px] text-primary-strong">
       <ConceptText text={concept.label} />
     </span>
   )

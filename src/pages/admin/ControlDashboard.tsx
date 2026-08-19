@@ -171,7 +171,7 @@ function EditableLabel({ value, onSave, className }: { value: string; onSave: (v
         onClick={(e) => e.stopPropagation()}
         onBlur={() => { setEditing(false); if (v.trim() && v !== value) onSave(v.trim()) }}
         onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); if (e.key === 'Escape') { setV(value); setEditing(false) } }}
-        className="rounded border border-accent bg-surface px-1 py-0.5 text-[11px] uppercase text-ink outline-none"
+        className="rounded border border-primary bg-surface px-1 py-0.5 text-[11px] uppercase text-ink outline-none"
       />
     )
   }
@@ -538,7 +538,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
               />
               {sourceTab === 'university' && (
                 <p className="mb-3 mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3">
-                  <Icon icon={GraduationCap} size={13} className="text-accent" />
+                  <Icon icon={GraduationCap} size={13} className="text-primary" />
                   Every {CONTENT_KIND_LABEL[activeKind].singular} here came from a university or college paper. Select all to act on the batch.
                 </p>
               )}
@@ -558,8 +558,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
           {/* Bulk actions. Sticky so the selection stays actionable while scrolling
               a long review queue, which is the case this exists for. */}
           {someShownSelected && (
-            <div className="sticky top-0 z-20 flex flex-wrap items-center gap-2 border-b border-accent-line bg-accent-tint/70 px-4 py-2.5 backdrop-blur">
-              <span className="text-[12.5px] font-semibold text-accent-strong">
+            <div className="sticky top-0 z-20 flex flex-wrap items-center gap-2 border-b border-primary-line bg-primary-tint/70 px-4 py-2.5 backdrop-blur">
+              <span className="text-[12.5px] font-semibold text-primary-strong">
                 {selectedItems.length} selected
               </span>
               <span className="text-[12px] text-ink-2">
@@ -607,7 +607,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 <Th>Subject</Th>
                 <Th>Owner & updated</Th>
                 <Th>Status</Th>
-                <Th align="right" className="sticky right-0 bg-surface pr-4">Actions</Th>
+                <Th align="end" className="sticky right-0 bg-surface pr-4">Actions</Th>
               </tr>
             </thead>
             <tbody>
@@ -621,15 +621,15 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                           type="button"
                           onClick={() => toggleGroup(group.key)}
                           aria-expanded={!groupCollapsed}
-                          className="flex w-full items-center gap-2 px-2 py-2 text-left"
+                          className="flex w-full items-center gap-2 px-2 py-2 text-start"
                         >
-                          <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !groupCollapsed && 'rotate-90')} />
+                          <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 chevron-turn')} open={!groupCollapsed} />
                           {group.color && <SubjectDot id={group.key} />}
-                          {group.icon && <Icon icon={group.icon === 'video' ? PlayCircle : FileText} size={15} className="text-accent" />}
+                          {group.icon && <Icon icon={group.icon === 'video' ? PlayCircle : FileText} size={15} className="text-primary" />}
                           <span className="text-[13px] font-semibold text-ink">{group.label}</span>
                           <span className="tnum font-mono text-[11px] text-ink-3">{group.count}</span>
                           {isTaxonomyKind && group.color && (
-                            <span role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setAddingTopicFor(addingTopicFor === group.key ? null : group.key); setNewTopicName('') }} className="ms-auto inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-[11px] font-medium text-ink-3 hover:bg-inset hover:text-accent-strong"><Icon icon={Plus} size={12} />Add topic</span>
+                            <span role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setAddingTopicFor(addingTopicFor === group.key ? null : group.key); setNewTopicName('') }} className="ms-auto inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-[11px] font-medium text-ink-3 hover:bg-inset hover:text-primary-strong"><Icon icon={Plus} size={12} />Add topic</span>
                           )}
                         </button>
                       </td>
@@ -668,7 +668,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                             // One concrete background per state, never two competing
                             // ones — the pinned Actions cell inherits it, so the row
                             // reads as one row across the seam.
-                            <Tr key={item.id} hover className={selected.has(item.id) ? 'bg-accent-tint/25' : 'bg-surface'}>
+                            <Tr key={item.id} hover className={selected.has(item.id) ? 'bg-primary-tint/25' : 'bg-surface'}>
                               <Td className="pl-4">
                                 <Checkbox
                                   label={`Select “${item.title}”`}
@@ -682,7 +682,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                   {itemSummary(item)}
                                   {/* Admin-only. Students are never told where an item came from. */}
                                   {isUniversitySourced(item) && (
-                                    <span className="inline-flex shrink-0 items-center gap-1 rounded border border-accent-line bg-accent-tint/60 px-1.5 py-px text-[10.5px] font-medium text-accent-strong" title={sourceLabel(item.source, universityName(item.source?.universityId))}>
+                                    <span className="inline-flex shrink-0 items-center gap-1 rounded border border-primary-line bg-primary-tint/60 px-1.5 py-px text-[10.5px] font-medium text-primary-strong" title={sourceLabel(item.source, universityName(item.source?.universityId))}>
                                       <Icon icon={GraduationCap} size={10} />
                                       {item.source?.universityId ? universityName(item.source.universityId) : item.source?.institution || 'University source'}
                                     </span>
@@ -703,7 +703,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                 <p className="text-[10.5px] text-ink-3" title={formatDateTime(new Date(item.updatedAt))}>{relativeUpdated(item.updatedAt)}</p>
                               </Td>
                               <Td><StatusBadge status={item.status} /></Td>
-                              <Td align="right" className="sticky right-0 bg-inherit pr-4">
+                              <Td align="end" className="sticky right-0 bg-inherit pr-4">
                                 <div className="inline-flex items-center justify-end gap-1">
                                   <IconButton icon={Pencil} label={`Edit ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10" onClick={() => { setEditing(item); setEditorOpen(true) }} />
                                   {item.kind === 'question' && <IconButton icon={Flag} label={`Report “${item.title}” for editorial review`} size="sm" className="size-10" onClick={() => setReportTarget({ kind: 'question', id: item.id, title: item.title })} />}
@@ -737,7 +737,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 Page {currentPage} of {pageCount}
               </span>
               {someShownSelected && (
-                <span className="text-[11.5px] text-accent-strong">{selectedItems.length} selected across all pages</span>
+                <span className="text-[11.5px] text-primary-strong">{selectedItems.length} selected across all pages</span>
               )}
               <div className="ms-auto flex items-center gap-1.5">
                 <Button variant="secondary" size="sm" iconLeft={ChevronLeft} disabled={currentPage <= 1} onClick={() => setPage(currentPage - 1)}>Previous</Button>
@@ -760,7 +760,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                         <p className="line-clamp-2 text-[12.5px] font-medium leading-snug text-ink">{item.title}</p>
                         <p className="mt-1 text-[10.5px] text-ink-3">{CONTENT_KIND_LABEL[item.kind].singular} · {relativeUpdated(item.updatedAt)}</p>
                       </div>
-                      <button type="button" className="text-[11.5px] font-semibold text-accent-strong hover:text-accent" onClick={() => { setKind(item.kind); setEditing(item); setEditorOpen(true) }}>Open</button>
+                      <button type="button" className="text-[11.5px] font-semibold text-primary-strong hover:text-primary" onClick={() => { setKind(item.kind); setEditing(item); setEditorOpen(true) }}>Open</button>
                     </div>
                   </li>
                 ))}

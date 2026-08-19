@@ -67,7 +67,7 @@ export function fillTemplate(text: string, values: Record<string, string> = PLAC
   return Object.entries(values).reduce((out, [token, value]) => out.split(token).join(value), text)
 }
 
-const sign = '<p>— The Synapse team</p>'
+const sign = '<p>— The Connect Cortex team</p>'
 
 export const initialAutomations: Automation[] = [
   /* ---- Onboarding ------------------------------------------------------ */
@@ -80,17 +80,17 @@ export const initialAutomations: Automation[] = [
     category: 'Onboarding',
     audience: 'student',
     subject: 'Confirm your email address',
-    body: `<p>Hello ${'{{studentName}}'},</p><p>Confirm your email address to finish setting up your Synapse account.</p><p><a href="${'{{actionUrl}}'}">Confirm my email</a></p><p>If you did not create an account, you can ignore this message.</p>${sign}`,
+    body: `<p>Hello ${'{{studentName}}'},</p><p>Confirm your email address to finish setting up your Connect Cortex account.</p><p><a href="${'{{actionUrl}}'}">Confirm my email</a></p><p>If you did not create an account, you can ignore this message.</p>${sign}`,
   },
   {
     id: 'au-welcome',
-    name: 'Welcome to Synapse',
+    name: 'Welcome to Connect Cortex',
     description: 'The first email a new student receives once their address is confirmed.',
     trigger: 'Email confirmed',
     enabled: true,
     category: 'Onboarding',
     audience: 'student',
-    subject: 'Welcome to Synapse',
+    subject: 'Welcome to Connect Cortex',
     body: `<p>Hello ${'{{studentName}}'},</p><p>Your ${'{{universityName}}'} ${'{{yearName}}'} library is ready. Everything is organised the way you study: by system, by discipline, by clinical skill, or straight from your curriculum.</p><p><a href="${'{{actionUrl}}'}">Open your library</a></p>${sign}`,
   },
 
@@ -143,7 +143,7 @@ export const initialAutomations: Automation[] = [
   /* ---- Collaboration --------------------------------------------------- */
   {
     id: 'au-study-invite',
-    name: 'A Synapse Study Invitation',
+    name: 'A Connect Cortex Study Invitation',
     description: 'Invites a student to a shared Study Together session.',
     trigger: 'Study invite sent',
     enabled: true,
@@ -156,18 +156,18 @@ export const initialAutomations: Automation[] = [
   /* ---- Billing & subscription ------------------------------------------ */
   {
     id: 'au-receipt',
-    name: 'Synapse Payment Receipt',
+    name: 'Connect Cortex Payment Receipt',
     description: 'Receipt for a successful payment.',
     trigger: 'Payment succeeded',
     enabled: true,
     category: 'Billing & subscription',
     audience: 'student',
-    subject: 'Your Synapse receipt',
+    subject: 'Your Connect Cortex receipt',
     body: `<p>Hello ${'{{studentName}}'},</p><p>We received ${'{{amount}}'} for ${'{{planName}}'}. Thank you.</p><p><a href="${'{{actionUrl}}'}">View your billing history</a></p>${sign}`,
   },
   {
     id: 'au-payment-attention',
-    name: 'Synapse Payment Needs Attention',
+    name: 'Connect Cortex Payment Needs Attention',
     description: 'A payment failed and the student needs to update their method.',
     trigger: 'Payment failed',
     enabled: true,
@@ -178,18 +178,18 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-renewal',
-    name: 'Upcoming Synapse Renewal',
+    name: 'Upcoming Connect Cortex Renewal',
     description: 'Reminder ahead of an automatic renewal.',
     trigger: '3 days to renewal',
     enabled: true,
     category: 'Billing & subscription',
     audience: 'student',
-    subject: `Your Synapse plan renews on ${'{{date}}'}`,
+    subject: `Your Connect Cortex plan renews on ${'{{date}}'}`,
     body: `<p>Hello ${'{{studentName}}'},</p><p>${'{{planName}}'} renews on ${'{{date}}'} at ${'{{amount}}'}. No action is needed to continue.</p><p><a href="${'{{actionUrl}}'}">Manage your plan</a></p>${sign}`,
   },
   {
     id: 'au-trial-ending',
-    name: 'Your Synapse Trial is Ending',
+    name: 'Your Connect Cortex Trial is Ending',
     description: 'Reminder that a free trial is about to end.',
     trigger: '2 days to trial end',
     enabled: true,
@@ -200,20 +200,20 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-sub-cancelled',
-    name: 'Synapse Subscription cancelled',
+    name: 'Connect Cortex Subscription cancelled',
     description: 'Confirms a subscription has been cancelled.',
     trigger: 'Subscription cancelled',
     enabled: true,
     category: 'Billing & subscription',
     audience: 'student',
-    subject: 'Your Synapse subscription is cancelled',
+    subject: 'Your Connect Cortex subscription is cancelled',
     body: `<p>Hello ${'{{studentName}}'},</p><p>${'{{planName}}'} is cancelled and will not renew. You keep access until ${'{{date}}'}, and your notes stay saved if you come back.</p>${sign}`,
   },
   // Off until the flows behind them exist — an automation that can never fire
   // should not sit in the list looking active.
   {
     id: 'au-grace',
-    name: 'Your Synapse Grace Period Started',
+    name: 'Your Connect Cortex Grace Period Started',
     description: 'A failed payment has entered its grace period before access is limited.',
     trigger: 'Grace period started',
     enabled: false,
@@ -224,7 +224,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-refund',
-    name: 'Synapse Refund Update',
+    name: 'Connect Cortex Refund Update',
     description: 'Status update on a requested refund.',
     trigger: 'Refund processed',
     enabled: false,
@@ -254,12 +254,12 @@ export const initialAutomations: Automation[] = [
     enabled: true,
     category: 'Security & account',
     audience: 'student',
-    subject: 'Reset your Synapse password',
+    subject: 'Reset your Connect Cortex password',
     body: `<p>Hello ${'{{studentName}}'},</p><p>Use the link below to choose a new password. It expires in one hour.</p><p><a href="${'{{actionUrl}}'}">Reset my password</a></p><p>If you did not ask for this, no change has been made and you can ignore this message.</p>${sign}`,
   },
   {
     id: 'au-new-signin',
-    name: 'New Synapse Sign-In from a New Device',
+    name: 'New Connect Cortex Sign-In from a New Device',
     description: 'Alerts on a sign-in from an unrecognised device.',
     trigger: 'New device sign-in',
     enabled: true,
@@ -292,7 +292,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-security-changed',
-    name: 'Your Synapse Security Changed',
+    name: 'Your Connect Cortex Security Changed',
     description: 'Confirms a change to account security settings.',
     trigger: 'Security setting changed',
     enabled: true,
@@ -305,7 +305,7 @@ export const initialAutomations: Automation[] = [
   /* ---- Privacy & data --------------------------------------------------- */
   {
     id: 'au-export',
-    name: 'Your Synapse Export is Ready',
+    name: 'Your Connect Cortex Export is Ready',
     description: 'A requested data export is ready to download.',
     trigger: 'Export completed',
     enabled: true,
@@ -316,7 +316,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-privacy',
-    name: 'Synapse Privacy Request Update',
+    name: 'Connect Cortex Privacy Request Update',
     description: 'Update on a privacy or data request (access, deletion).',
     trigger: 'Privacy request updated',
     enabled: true,
@@ -329,7 +329,7 @@ export const initialAutomations: Automation[] = [
   /* ---- Operations (admin-facing) ---------------------------------------- */
   {
     id: 'au-support',
-    name: 'Synapse Support Update',
+    name: 'Connect Cortex Support Update',
     description: 'Update on a support ticket the student raised.',
     trigger: 'Support ticket updated',
     // Student-facing, so it belongs with the student's own account mail rather
@@ -342,7 +342,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-review-assigned',
-    name: 'A Synapse Review is Assigned',
+    name: 'A Connect Cortex Review is Assigned',
     description: 'Assigns a content review task to a reviewer.',
     trigger: 'Review assigned',
     enabled: true,
@@ -353,7 +353,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-incident',
-    name: 'Synapse Operational Incident',
+    name: 'Connect Cortex Operational Incident',
     description: 'Alerts admins to an operational incident.',
     trigger: 'Incident opened',
     enabled: true,
@@ -364,13 +364,13 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-provider-outage',
-    name: 'Synapse Provider Outage',
+    name: 'Connect Cortex Provider Outage',
     description: 'Notifies of a third-party provider outage affecting service.',
     trigger: 'Provider outage',
     enabled: true,
     category: 'Operations',
     audience: 'admin',
     subject: 'Third-party provider outage',
-    body: `<p>A provider outage is affecting Synapse.</p><p><a href="${'{{actionUrl}}'}">View status</a></p>`,
+    body: `<p>A provider outage is affecting Connect Cortex.</p><p><a href="${'{{actionUrl}}'}">View status</a></p>`,
   },
 ]

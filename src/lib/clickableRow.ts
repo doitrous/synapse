@@ -21,7 +21,7 @@ export function clickableRow(onOpen: () => void, className: string) {
       event.preventDefault()
       onOpen()
     },
-    className: `cursor-pointer transition-colors focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-[var(--color-accent)] ${className}`,
+    className: `cursor-pointer transition-colors focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-[var(--color-primary)] ${className}`,
   }
 }
 

@@ -37,7 +37,7 @@ export function PrivacySupport() {
         <PanelHeader
           title="Support queue"
           icon={LifeBuoy}
-          action={<Badge tone="accent">{open} open</Badge>}
+          action={<Badge tone="primary">{open} open</Badge>}
         />
         <Table>
           <thead>
@@ -47,7 +47,7 @@ export function PrivacySupport() {
               <Th>Student</Th>
               <Th>Priority</Th>
               <Th>Status</Th>
-              <Th align="right" className="pr-4">
+              <Th align="end" className="pr-4">
                 Age
               </Th>
             </tr>
@@ -68,7 +68,7 @@ export function PrivacySupport() {
                 <Td>
                   <StatusBadge status={t.status} />
                 </Td>
-                <Td align="right" className="tnum pr-4 font-mono text-[12.5px] text-ink-2">
+                <Td align="end" className="tnum pr-4 font-mono text-[12.5px] text-ink-2">
                   {t.age}
                 </Td>
               </Tr>
@@ -86,7 +86,7 @@ export function PrivacySupport() {
                 <Th className="pl-4">Request</Th>
                 <Th>Type</Th>
                 <Th>Student</Th>
-                <Th align="right" className="pr-4">
+                <Th align="end" className="pr-4">
                   Status
                 </Th>
               </tr>
@@ -103,7 +103,7 @@ export function PrivacySupport() {
                   <Td>
                     <span className="tnum font-mono text-[12.5px] text-ink">{d.code}</span>
                   </Td>
-                  <Td align="right" className="pr-4">
+                  <Td align="end" className="pr-4">
                     <StatusBadge status={d.status} />
                   </Td>
                 </Tr>

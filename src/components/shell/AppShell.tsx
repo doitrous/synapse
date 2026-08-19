@@ -4,6 +4,7 @@ import { Minimize2 } from 'lucide-react'
 import type { Portal } from './nav'
 import { Sidebar } from './Sidebar'
 import { Topbar } from './Topbar'
+import { StudyAssistant } from '@/components/assistant/StudyAssistant'
 import { CommandSearch } from './CommandSearch'
 import { StudyContextMenu } from './StudyContextMenu'
 import { StudentOnboarding } from '@/components/onboarding/StudentOnboarding'
@@ -28,6 +29,10 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // The student's own preference is never written by a test — it is only
   // overridden while one is running, and comes straight back afterwards.
   const railed = collapsed || immersive
+
+  // The sidebar destination this URL belongs to: "/app/resources/42" and
+  // "/app/resources" are one destination, "/app/library" is another.
+  const section = pathname.split('/').slice(0, 3).join('/')
 
   // Focus mode hides the chrome, which would also hide the only way back out.
   // Escape is that way out, and it is the key people already try.
@@ -113,7 +118,13 @@ function AppShellInner({ portal }: { portal: Portal }) {
           onOpenMobile={() => setMobileOpen(true)}
           onOpenSearch={() => setSearchOpen(true)}
         />
-        <main id="main-content" className="min-w-0 flex-1" tabIndex={-1}>
+        {/* Keyed on the destination, so the arriving screen re-settles by 8px.
+            Deliberately the *section* rather than the whole pathname: moving
+            between two resources under the same destination is not an arrival,
+            and remounting there would throw away the reader's page and zoom.
+            The class is on <main> itself rather than an inner wrapper, so
+            pages that size themselves against it keep their height contract. */}
+        <main key={section} id="main-content" className="min-w-0 flex-1 animate-screen-in" tabIndex={-1}>
           <Outlet />
         </main>
       </div>
@@ -134,6 +145,10 @@ function AppShellInner({ portal }: { portal: Portal }) {
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
       <StudyContextMenu />
       {portal === 'student' && <StudentOnboarding />}
+      {/* Docked, not a page: the question is nearly always about what is
+          already on screen. Renders nothing unless the assistant is on and
+          included on this student's plan. */}
+      {portal === 'student' && !focusMode && <StudyAssistant />}
     </div>
   )
 }

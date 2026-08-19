@@ -6,13 +6,23 @@ import { cn } from '@/lib/cn'
 type Variant = 'primary' | 'secondary' | 'ghost' | 'danger'
 type Size = 'sm' | 'md' | 'lg'
 
+/**
+ * Hover is a *material* change, not an opacity change. The primary's shadow is
+ * tinted with the action colour rather than black, and deepens one step.
+ *
+ * The primary hovers to `primary-hover`, never to `primary-strong`: "strong" is
+ * the *text* step, and in the dark theme it rises to a pale pink so labels stay
+ * readable on a tint. Using it as a fill would make the button turn pale on
+ * hover in dark. `primary-hover` darkens in light and brightens in dark, which
+ * is what a hover has to do against each ground.
+ */
 const VARIANT: Record<Variant, string> = {
   primary:
-    'border border-accent-strong/25 bg-accent text-on-accent shadow-[0_1px_2px_rgba(45,91,85,0.18)] hover:bg-accent-strong hover:shadow-[0_2px_5px_rgba(45,91,85,0.18)] active:bg-accent-strong',
+    'border border-primary-strong/25 bg-primary text-on-primary shadow-action hover:bg-primary-hover hover:shadow-action-hover active:bg-primary-hover',
   secondary:
-    'border border-line-2 bg-surface text-ink shadow-[0_1px_1px_rgba(36,29,22,0.04)] hover:border-ink-3/45 hover:bg-surface-2',
+    'border border-line-2 bg-surface text-ink shadow-control hover:border-ink-3/45 hover:bg-surface-2',
   ghost: 'border border-transparent text-ink-2 hover:border-line hover:bg-inset hover:text-ink',
-  danger: 'border border-danger bg-danger text-on-danger shadow-[0_1px_2px_rgba(159,54,46,0.18)] hover:brightness-[0.94]',
+  danger: 'border border-danger bg-danger text-on-danger shadow-control hover:brightness-[0.94]',
 }
 
 const SIZE: Record<Size, string> = {
@@ -47,7 +57,7 @@ export function Button({
       className={cn(
         'group inline-flex select-none items-center justify-center rounded-lg font-semibold tracking-[-0.005em]',
         'transition-[background-color,border-color,color,box-shadow,transform] duration-150 ease-[var(--ease-out-quint)]',
-        'active:translate-y-px focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)]',
+        'active:translate-y-px focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
         'disabled:pointer-events-none disabled:opacity-55',
         VARIANT[variant],
         SIZE[size],

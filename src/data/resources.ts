@@ -4,7 +4,7 @@ import type { ResourceType } from './types'
  * The demo resource catalogue.
  *
  * `saved: true` used to appear on three of these, so a student who had never
- * opened Synapse arrived with three bookmarks already made for them. A
+ * opened Connect Cortex arrived with three bookmarks already made for them. A
  * bookmark is the student's, and now lives in their own record.
  */
 

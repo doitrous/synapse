@@ -127,7 +127,7 @@ function CheckList({ options, selected, onChange, columns = 2 }: { options: Arra
         const checked = selected.includes(option.id)
         return (
           <label key={option.id} className="flex min-h-10 cursor-pointer items-center gap-2 rounded-md border border-line bg-surface px-2.5 py-2 text-[12px] text-ink-2 hover:bg-inset">
-            <input type="checkbox" checked={checked} onChange={() => onChange(checked ? selected.filter((id) => id !== option.id) : [...selected, option.id])} className="size-4 accent-[var(--color-accent)]" />
+            <input type="checkbox" checked={checked} onChange={() => onChange(checked ? selected.filter((id) => id !== option.id) : [...selected, option.id])} className="size-4 accent-[var(--color-primary)]" />
             <span className="min-w-0 truncate">{option.label}</span>
           </label>
         )
@@ -224,7 +224,7 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
     <div className="fixed inset-0 z-50 bg-paper" role="dialog" aria-modal="true" aria-labelledby="question-editor-title">
       <form className="flex h-full flex-col pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)]" onSubmit={(event) => { event.preventDefault(); if (!valid) return; const finalData = draft.questionData ?? blankQuestionData(); onSave({ ...draft, id: draft.id || `question-${Date.now()}`, title: draft.title.trim(), updatedAt: new Date().toISOString(), fields: { Topic: finalData.tags.topic, Difficulty: finalData.tags.intendedDifficulty, Vignette: draft.fields.Vignette ?? '', Explanation: draft.fields.Explanation ?? '' }, questionData: finalData }) }}>
         <header className="flex shrink-0 flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-2.5 sm:h-16 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-0">
-          <span className="grid size-9 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Tags} size={17} /></span>
+          <span className="grid size-9 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={Tags} size={17} /></span>
           <div className="min-w-0 flex-1"><h2 id="question-editor-title" className="font-serif text-[18px] font-semibold text-ink">{item ? 'Edit question' : 'Add question'}</h2><p className="truncate text-[11.5px] text-ink-3"><span className="font-mono">{draft.id || 'Question_ID auto-generated on save'}</span> · blueprint tags and psychometric intent</p></div>
           <button type="button" onClick={onClose} className="grid size-10 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close question editor"><Icon icon={X} size={19} /></button>
           <div className="flex basis-full items-center gap-2 sm:contents">
@@ -262,7 +262,7 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
 
             <div className="space-y-4">
               <Section title="Question attachments" hint="Upload media for reliable playback, or use a direct media-file URL. Uploaded files are stored outside the question record so audio and video are not truncated." icon={Paperclip}>
-                <label className="mb-3 flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-lg border border-dashed border-line-2 bg-surface-2 px-3 text-[12.5px] font-semibold text-ink-2 hover:border-accent-line hover:bg-accent-tint/35"><Icon icon={Paperclip} size={15} />Choose image, audio, or video<input type="file" multiple accept="image/*,audio/*,video/*,.mp3,.m4a,.aac,.wav,.mp4,.m4v,.mov,.webm" className="sr-only" onChange={(event) => { void attachFiles(event.currentTarget.files); event.currentTarget.value = '' }} /></label>
+                <label className="mb-3 flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-lg border border-dashed border-line-2 bg-surface-2 px-3 text-[12.5px] font-semibold text-ink-2 hover:border-primary-line hover:bg-primary-tint/35"><Icon icon={Paperclip} size={15} />Choose image, audio, or video<input type="file" multiple accept="image/*,audio/*,video/*,.mp3,.m4a,.aac,.wav,.mp4,.m4v,.mov,.webm" className="sr-only" onChange={(event) => { void attachFiles(event.currentTarget.files); event.currentTarget.value = '' }} /></label>
                 <div className="flex flex-wrap gap-2"><Select value={mediaType} onChange={(event) => setMediaType(event.target.value as MediaAttachment['type'])} className="w-28"><option>image</option><option>audio</option><option>video</option></Select><TextInput aria-label="Attachment URL" className="min-w-0 flex-1" value={mediaUrl} onChange={(event) => setMediaUrl(event.target.value)} placeholder="Media URL" /><Button type="button" size="sm" iconLeft={Plus} onClick={addMedia}>Attach</Button></div>
                 {mediaError && <p role="alert" className="mt-2 text-[11.5px] text-danger">{mediaError}</p>}
                 <div className="mt-3 space-y-2">{(data.attachments ?? []).map((attachment) => <MediaAttachmentView key={attachment.id} attachment={attachment} onRemove={() => removeAttachment(attachment)} />)}</div>
@@ -311,7 +311,7 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
                         return (
                           <div key={key} className="flex items-center gap-2">
                             <span className="tnum w-24 font-mono text-[11px] text-ink-2">{key}</span>
-                            <input type="range" min={0} max={1} step={0.05} value={weight} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, examWeightByYear: { ...(current.tags.examWeightByYear ?? {}), [key]: clamp01(event.target.value) } } }))} className="flex-1 accent-[var(--color-accent)]" />
+                            <input type="range" min={0} max={1} step={0.05} value={weight} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, examWeightByYear: { ...(current.tags.examWeightByYear ?? {}), [key]: clamp01(event.target.value) } } }))} className="flex-1 accent-[var(--color-primary)]" />
                             <span className="tnum w-8 text-end font-mono text-[11px] text-ink">{weight.toFixed(2)}</span>
                           </div>
                         )

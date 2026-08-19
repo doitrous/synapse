@@ -38,7 +38,7 @@ export function AuthLayout({
     <div className="min-h-dvh bg-paper">
       <header className="border-b border-line bg-surface/70">
         <div className="mx-auto flex min-h-16 max-w-7xl items-center gap-3 px-4 sm:px-6 lg:px-8">
-          <Link to="/" aria-label="Synapse home"><Wordmark /></Link>
+          <Link to="/" aria-label="Connect Cortex home"><Wordmark /></Link>
         </div>
       </header>
 
@@ -55,16 +55,16 @@ export function AuthLayout({
               const active = index === activeIndex
               return (
                 <li key={item.id} className="relative flex min-w-0 flex-col items-center text-center">
-                  {index > 0 && <span className={cn('absolute end-1/2 top-4 h-px w-full', index <= activeIndex ? 'bg-accent' : 'bg-line-2')} aria-hidden />}
+                  {index > 0 && <span className={cn('absolute end-1/2 top-4 h-px w-full', index <= activeIndex ? 'bg-primary' : 'bg-line-2')} aria-hidden />}
                   <span className={cn(
                     'relative z-10 grid size-8 place-items-center rounded-full border bg-paper font-mono text-[12px] font-semibold',
                     complete && 'border-success bg-success text-on-success',
-                    active && 'border-accent bg-accent text-on-accent',
+                    active && 'border-primary bg-primary text-on-primary',
                     !complete && !active && 'border-line-2 text-ink-2',
                   )}>
                     {complete ? <Icon icon={Check} size={14} /> : index + 1}
                   </span>
-                  <span className={cn('mt-2 truncate text-[12px] font-semibold sm:text-[13px]', active ? 'text-accent-strong' : complete ? 'text-success' : 'text-ink-2')}>{item.label}</span>
+                  <span className={cn('mt-2 truncate text-[12px] font-semibold sm:text-[13px]', active ? 'text-primary-strong' : complete ? 'text-success' : 'text-ink-2')}>{item.label}</span>
                 </li>
               )
             })}
@@ -79,7 +79,7 @@ export function AuthLayout({
           </section>
 
           <p className="mx-auto mt-6 flex max-w-2xl items-center justify-center gap-2 text-center text-[12px] leading-relaxed text-ink-2">
-            <Icon icon={LockKeyhole} size={14} /> Account identity is verified by Supabase Auth; learning data remains in Synapse MariaDB.
+            <Icon icon={LockKeyhole} size={14} /> Account identity is verified by Supabase Auth; learning data remains in Connect Cortex MariaDB.
           </p>
         </div>
       </main>

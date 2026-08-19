@@ -145,7 +145,7 @@ function Header({
       <div className="flex min-w-0 flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-2">
-            <Badge tone="accent">{KIND_LABEL[target.kind]}</Badge>
+            <Badge tone="primary">{KIND_LABEL[target.kind]}</Badge>
             <span className="inline-flex items-center gap-1.5 text-[12.5px] font-medium text-ink-2">
               <SubjectDot id={target.subjectId} />
               {getSubject(target.subjectId).name}
@@ -236,7 +236,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
       <div className="mx-auto max-w-[560px]">
         <Header target={target} onExit={onExit} />
         <Panel className="p-6 text-center">
-          <div className="mx-auto mb-3 grid size-12 place-items-center rounded-xl bg-accent-tint text-accent">
+          <div className="mx-auto mb-3 grid size-12 place-items-center rounded-xl bg-primary-tint text-primary">
             <Icon icon={Trophy} size={24} />
           </div>
           <h2 className="font-serif text-[22px] font-semibold text-ink">Station complete</h2>
@@ -247,7 +247,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
             </span>{' '}
             mark-scheme steps ({pct}%) in {clock((target.minutes ?? 8) * 60 - seconds)}.
           </p>
-          <Meter value={pct} tone="accent" className="mx-auto mt-4 max-w-xs" />
+          <Meter value={pct} tone="primary" className="mx-auto mt-4 max-w-xs" />
           <div className="mt-6 flex justify-center gap-2">
             <Button
               variant="secondary"
@@ -279,7 +279,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
         right={
           <div className="w-full space-y-2 sm:w-64">
             <Panel className="p-3">
-            <div className="text-right">
+            <div className="text-end">
             {/* The card was digits floating against empty space. Naming the
                 thing balances it and says what the number is. */}
             <div className="flex items-baseline justify-between gap-3">
@@ -308,8 +308,8 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
       />
 
       <div className="mb-4 flex border-b border-line">
-        <button onClick={() => setTab('candidate')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'candidate' ? 'text-ink' : 'text-ink-3')}>Candidate{tab === 'candidate' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-accent" />}</button>
-        <button onClick={() => setTab('examiner')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'examiner' ? 'text-ink' : 'text-ink-3')}>Examiner &amp; Actor{tab === 'examiner' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-accent" />}</button>
+        <button onClick={() => setTab('candidate')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'candidate' ? 'text-ink' : 'text-ink-3')}>Candidate{tab === 'candidate' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
+        <button onClick={() => setTab('examiner')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'examiner' ? 'text-ink' : 'text-ink-3')}>Examiner &amp; Actor{tab === 'examiner' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
       </div>
 
       {tab === 'candidate' ? (
@@ -323,7 +323,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
           <div className="space-y-5 p-4">
             <div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Open with this, then stop</p><p className="mt-1 font-serif text-[17px] text-ink">{detail.actorBrief?.opening ?? 'Wait for the candidate to begin.'}</p></div>
             {detail.actorBrief?.sections ? <div className="divide-y divide-line">{detail.actorBrief.sections.map((section) => <div key={section.id} className="py-2.5"><p className="text-[10px] font-bold uppercase tracking-[0.08em] text-ink-3">{section.label}</p><p className="mt-1 max-w-3xl text-[12.5px] leading-relaxed text-ink-2">{section.content}</p></div>)}</div> : <><div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Who you are</p><p className="mt-1 max-w-3xl text-[13px] leading-relaxed text-ink-2">{detail.actorBrief?.identity ?? 'Answer in role and offer only information that is asked for.'}</p></div><div className="divide-y divide-line">{detail.actorBrief?.prompts.map((prompt) => <div key={prompt.label} className="py-2.5"><p className="text-[10px] font-semibold uppercase tracking-[0.08em] text-ink-3">{prompt.label}</p><p className="mt-1 text-[12.5px] text-ink-2">“{prompt.response}”</p></div>)}</div></>}
-            {(detail.actorBrief?.flags ?? (detail.actorBrief?.examinerNote ? [detail.actorBrief.examinerNote] : [])).map((flag) => <div key={flag} className="flex gap-3 rounded-lg border border-accent/40 bg-accent-tint/50 p-3 text-[12px] leading-relaxed text-ink-2"><Icon icon={Flag} size={15} className="mt-0.5 text-accent" /><span>{flag}</span></div>)}
+            {(detail.actorBrief?.flags ?? (detail.actorBrief?.examinerNote ? [detail.actorBrief.examinerNote] : [])).map((flag) => <div key={flag} className="flex gap-3 rounded-lg border border-primary/40 bg-primary-tint/50 p-3 text-[12px] leading-relaxed text-ink-2"><Icon icon={Flag} size={15} className="mt-0.5 text-primary" /><span>{flag}</span></div>)}
           </div>
         </Panel>
       )}
@@ -334,7 +334,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
           <Button variant="ghost" size="sm" iconLeft={RotateCcw} onClick={() => setChecked(new Set())}>Reset</Button>
         </div>
         <div className="border-b border-line px-4 py-4">
-          <div className="flex items-end gap-4"><span className="tnum font-mono text-[34px] font-semibold leading-none text-danger">{pct}%</span><div className="flex-1"><Meter value={pct} tone="accent" /><p className="mt-1.5 font-mono text-[10.5px] text-ink-3">{checked.size} of {total} scoring points · pass mark 65%</p></div></div>
+          <div className="flex items-end gap-4"><span className="tnum font-mono text-[34px] font-semibold leading-none text-danger">{pct}%</span><div className="flex-1"><Meter value={pct} tone="primary" /><p className="mt-1.5 font-mono text-[10.5px] text-ink-3">{checked.size} of {total} scoring points · pass mark 65%</p></div></div>
         </div>
         <div className="divide-y divide-line px-4">
           {sections.map((section) => <section key={section.id} className="py-4"><div className="mb-1.5 flex items-center justify-between gap-3"><h4 className="text-[13px] font-bold text-ink">{section.title}</h4><span className="font-mono text-[11px] font-semibold text-warning">{section.marks} marks</span></div><ul>{section.items.map((m) => {
@@ -350,15 +350,15 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
                       return next
                     })
                   }
-                  className="group flex w-full items-start gap-3 rounded-md px-2 py-2.5 text-left transition-colors hover:bg-inset"
+                  className="group flex w-full items-start gap-3 rounded-md px-2 py-2.5 text-start transition-colors hover:bg-inset"
                 >
                   <span
                     className={cn(
                       'mt-px grid size-[18px] shrink-0 place-items-center rounded-[5px] border transition-colors',
-                      done ? 'border-accent bg-accent' : 'border-line-2 bg-surface group-hover:border-ink-3',
+                      done ? 'border-primary bg-primary' : 'border-line-2 bg-surface group-hover:border-ink-3',
                     )}
                   >
-                    {done && <Icon icon={Check} size={12} strokeWidth={2.5} className="text-on-accent" />}
+                    {done && <Icon icon={Check} size={12} strokeWidth={2.5} className="text-on-primary" />}
                   </span>
                   <span className={cn('text-[14px] leading-snug', done ? 'text-ink-2' : 'text-ink')}>
                     {m.text}
@@ -369,7 +369,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
           })}</ul></section>)}
         </div>
         <div className="flex items-center justify-between gap-3 border-t border-line px-4 py-3">
-          <Meter value={pct} tone="accent" className="flex-1" />
+          <Meter value={pct} tone="primary" className="flex-1" />
           <Button variant="primary" size="sm" iconRight={Trophy} onClick={finishStation}>
             Finish station
           </Button>
@@ -390,7 +390,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
                 <Link
                   to={`/app/resources?q=${encodeURIComponent(reference)}`}
                   state={backState(location, 'Back to station')}
-                  className="group inline-flex max-w-full items-center gap-2 rounded-lg border border-line bg-surface px-2.5 py-1.5 text-[12px] text-ink-2 transition-colors hover:border-accent-line hover:bg-accent-tint/30 hover:text-ink"
+                  className="group inline-flex max-w-full items-center gap-2 rounded-lg border border-line bg-surface px-2.5 py-1.5 text-[12px] text-ink-2 transition-colors hover:border-primary-line hover:bg-primary-tint/30 hover:text-ink"
                 >
                   <Icon icon={BookOpen} size={13} className="shrink-0 text-ink-3" />
                   <span className="truncate">{reference}</span>
@@ -470,7 +470,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
       <div>
         <Header target={target} onExit={onExit} />
         <Panel className="overflow-hidden">
-          <div className="border-b border-line px-5 py-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent">Case debrief</p><h2 className="mt-1 font-serif text-[22px] font-semibold text-ink">See the debrief</h2>{detail?.debrief && <p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink-2">{detail.debrief}</p>}</div>
+          <div className="border-b border-line px-5 py-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary">Case debrief</p><h2 className="mt-1 font-serif text-[22px] font-semibold text-ink">See the debrief</h2>{detail?.debrief && <p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink-2">{detail.debrief}</p>}</div>
           <div className="divide-y divide-line px-5">{stages.map((decision, decisionIndex) => <div key={decision.title} className="grid gap-2 py-4 sm:grid-cols-[9rem_1fr]"><p className="font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Decision {decisionIndex + 1}</p><div><p className="text-[13px] font-medium text-ink">{decision.prompt}</p><p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">{decision.answer}</p></div></div>)}</div>
         </Panel>
         {/* Only real, authored references. A placeholder "Relevant clinical
@@ -491,22 +491,22 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
         </span>
         <div className="h-1 flex-1 overflow-hidden rounded-full bg-inset">
           <div
-            className="h-full rounded-full bg-accent transition-[width] duration-300"
+            className="h-full rounded-full bg-primary transition-[width] duration-300"
             style={{ width: `${((idx + 1) / stages.length) * 100}%` }}
           />
         </div>
       </div>
 
       <Panel className="p-5 sm:p-6">
-        <div className="flex items-center gap-2"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent">{stage.title}</p><DifficultyMark value={'difficulty' in stage ? stage.difficulty : undefined} /></div>
+        <div className="flex items-center gap-2"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary">{stage.title}</p><DifficultyMark value={'difficulty' in stage ? stage.difficulty : undefined} /></div>
         {stage.context && <p className="mt-3 max-w-3xl text-[15px] leading-[1.7] text-ink-2">{stage.context}</p>}
         <h2 className="mt-4 font-sans text-[18px] font-semibold tracking-[-0.01em] text-ink">{stage.question ?? stage.prompt}</h2>
 
         <div className="mt-5 space-y-2">{options.map((option, optionIndex) => {
           const correct = optionIndex === correctIndex
-          return <div key={option} className={cn('overflow-hidden rounded-lg border transition-colors', !revealed && 'border-line bg-surface hover:border-accent-line', revealed && correct && 'border-success bg-success-tint', revealed && selected === optionIndex && !correct && 'border-danger bg-danger-tint', revealed && !correct && selected !== optionIndex && 'border-line opacity-65')}><button disabled={revealed} onClick={() => { setChoices((current) => ({ ...current, [idx]: optionIndex })); recordDecision(optionIndex) }} className="flex w-full items-start gap-3 p-3 text-left text-[13.5px]"><span className="grid size-6 shrink-0 place-items-center rounded-full border border-line-2 font-mono text-[11px]">{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>{revealed && stage.optionExplanations?.[optionIndex] && <p className="border-t border-current/10 px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{stage.optionExplanations[optionIndex]}</p>}</div>
+          return <div key={option} className={cn('overflow-hidden rounded-lg border transition-colors', !revealed && 'border-line bg-surface hover:border-primary-line', revealed && correct && 'border-success bg-success-tint', revealed && selected === optionIndex && !correct && 'border-danger bg-danger-tint', revealed && !correct && selected !== optionIndex && 'border-line opacity-65')}><button disabled={revealed} onClick={() => { setChoices((current) => ({ ...current, [idx]: optionIndex })); recordDecision(optionIndex) }} className="flex w-full items-start gap-3 p-3 text-start text-[13.5px]"><span className="grid size-6 shrink-0 place-items-center rounded-full border border-line-2 font-mono text-[11px]">{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>{revealed && stage.optionExplanations?.[optionIndex] && <p className="border-t border-current/10 px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{stage.optionExplanations[optionIndex]}</p>}</div>
         })}</div>
-        {revealed && <div className="mt-4 rounded-lg border border-accent-line bg-accent-tint/50 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-accent-strong">Decision rationale</p><p className="mt-1.5 text-[14px] leading-relaxed text-ink">{stage.answer}</p></div>}
+        {revealed && <div className="mt-4 rounded-lg border border-primary-line bg-primary-tint/50 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary-strong">Decision rationale</p><p className="mt-1.5 text-[14px] leading-relaxed text-ink">{stage.answer}</p></div>}
 
         <div className="mt-6 flex items-center justify-between border-t border-line pt-4">
           <Button
@@ -591,7 +591,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
       <div className="mx-auto max-w-[560px]">
         <Header target={target} onExit={onExit} />
         <Panel className="p-6 text-center">
-          <div className="mx-auto mb-3 grid size-12 place-items-center rounded-xl bg-accent-tint text-accent">
+          <div className="mx-auto mb-3 grid size-12 place-items-center rounded-xl bg-primary-tint text-primary">
             <Icon icon={Trophy} size={24} />
           </div>
           <h2 className="font-serif text-[22px] font-semibold text-ink">Set complete</h2>
@@ -602,7 +602,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
             </span>{' '}
             ({pct}%).
           </p>
-          <Meter value={pct} tone="accent" className="mx-auto mt-4 max-w-xs" />
+          <Meter value={pct} tone="primary" className="mx-auto mt-4 max-w-xs" />
           <div className="mt-6 flex justify-center">
             <Button variant="primary" size="md" onClick={onExit}>
               Back to practical
@@ -615,7 +615,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
 
   function optionClasses(i: number) {
     if (!revealed)
-      return chosen === i ? 'border-accent bg-accent-tint/50' : 'border-line bg-surface hover:border-line-2'
+      return chosen === i ? 'border-primary bg-primary-tint/50' : 'border-line bg-surface hover:border-line-2'
     if (q.options[i].correct) return 'border-success bg-success-tint'
     if (chosen === i) return 'border-danger bg-danger-tint'
     return 'border-line bg-surface opacity-70'
@@ -631,7 +631,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
         </span>
         <div className="h-1 flex-1 overflow-hidden rounded-full bg-inset">
           <div
-            className="h-full rounded-full bg-accent transition-[width] duration-300"
+            className="h-full rounded-full bg-primary transition-[width] duration-300"
             style={{ width: `${((idx + 1) / qs.length) * 100}%` }}
           />
         </div>
@@ -648,7 +648,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
                 disabled={revealed}
                 onClick={() => setAnswers((a) => ({ ...a, [idx]: i }))}
                 className={cn(
-                  'flex w-full items-center gap-3 rounded-lg border p-3 text-left transition-colors',
+                  'flex w-full items-center gap-3 rounded-lg border p-3 text-start transition-colors',
                   optionClasses(i),
                 )}
               >
@@ -660,7 +660,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
                       : revealed && chosen === i
                         ? 'border-danger bg-danger text-on-danger'
                         : chosen === i
-                          ? 'border-accent bg-accent text-on-accent'
+                          ? 'border-primary bg-primary text-on-primary'
                           : 'border-line-2 text-ink-2',
                   )}
                 >

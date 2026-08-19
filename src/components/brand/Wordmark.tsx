@@ -1,63 +1,74 @@
 import { cn } from '@/lib/cn'
+import { useTheme } from '@/lib/useTheme'
 
-/** Synapse mark — a simplified synaptic junction (presynaptic bouton with
- *  vesicles, transmitters crossing the cleft, receiving membrane), tilted 45°.
- *  Rendered in the clay accent system: accent chip, on-accent (cream) glyph. */
-export function SynapseMark({ size = 28, className }: { size?: number; className?: string }) {
+/**
+ * The Connect Cortex mark — split hemispheres, blue left / crimson right, a
+ * radial circuit with ring nodes. This is the client-supplied artwork, not a
+ * redrawn or traced approximation.
+ *
+ * The light artwork's deep blue goes muddy on the dark ground, so a variant
+ * with both brand colours lifted is swapped in under the dark theme. Chosen in
+ * JS rather than by toggling two `<img>` elements, so only the mark actually
+ * being shown is ever fetched.
+ */
+export function CortexMark({ size = 28, className }: { size?: number; className?: string }) {
+  const { theme } = useTheme()
+  const src = theme === 'dark' ? '/brand/logo-dark.png' : '/brand/logo.png'
+
   return (
-    <svg
+    <img
+      src={src}
       width={size}
       height={size}
-      viewBox="0 0 64 64"
-      fill="none"
-      className={cn('shrink-0', className)}
+      alt=""
       aria-hidden="true"
-    >
-      <rect x="1" y="1" width="62" height="62" rx="16" className="fill-accent" />
-      <rect
-        x="1.5"
-        y="1.5"
-        width="61"
-        height="61"
-        rx="15.5"
-        fill="none"
-        className="stroke-black/10"
-        strokeWidth="1"
-      />
-      <g transform="rotate(45 32 32)" className="fill-[var(--color-on-accent)]">
-        {/* presynaptic: axon stalk + bouton terminal */}
-        <rect x="28" y="7" width="8" height="15" rx="4" />
-        <circle cx="32" cy="27" r="11.5" />
-        {/* synaptic vesicles (knocked out to the chip) */}
-        <circle cx="27.5" cy="25" r="2.4" className="fill-accent" />
-        <circle cx="35.5" cy="24" r="2" className="fill-accent" />
-        <circle cx="31" cy="31" r="2.7" className="fill-accent" />
-        {/* neurotransmitters crossing the cleft */}
-        <circle cx="30" cy="41.5" r="1.4" />
-        <circle cx="34.5" cy="42" r="1.1" />
-        {/* postsynaptic: receiving membrane + dendrite */}
-        <path d="M18 46 Q32 61 46 46 L41.5 46 Q32 54 22.5 46 Z" />
-        <rect x="29" y="54" width="6" height="6" rx="3" />
-      </g>
-    </svg>
+      decoding="async"
+      className={cn('shrink-0 object-contain', className)}
+      style={{ height: size, width: 'auto' }}
+    />
   )
 }
 
+/**
+ * The lockup. The O in "Connect" *is* the mark, so the wordmark and the symbol
+ * are one thing — never a real letter O, never the halves recoloured or
+ * separated. Letters are set in Jost, the logotype's own geometric sans, at
+ * weight 500 / 0.045em / uppercase, with the mark at 1.06em on the cap line.
+ * `CONNECT` is blue and `CORTEX` crimson; both read brand tokens, which the
+ * dark theme moves up the ramp on their own.
+ */
 export function Wordmark({
   collapsed = false,
+  textSize = 20,
   className,
 }: {
   collapsed?: boolean
+  textSize?: number
   className?: string
 }) {
+  if (collapsed) {
+    return (
+      <span className={cn('inline-flex items-center', className)}>
+        <CortexMark size={28} />
+        <span className="sr-only">Connect Cortex</span>
+      </span>
+    )
+  }
+
   return (
-    <div className={cn('flex items-center gap-2.5', className)}>
-      <SynapseMark size={28} />
-      {!collapsed && (
-        <span className="font-serif text-[20px] font-semibold leading-none tracking-[-0.02em] text-ink">
-          Synapse
-        </span>
-      )}
-    </div>
+    <span className={cn('inline-flex items-center', className)}>
+      {/* One accessible name for the lockup; the pieces below are decorative. */}
+      <span className="sr-only">Connect Cortex</span>
+      <span
+        aria-hidden="true"
+        className="font-brand font-medium leading-none tracking-[0.045em] whitespace-nowrap"
+        style={{ fontSize: textSize }}
+      >
+        <span className="text-[var(--brand-blue)]">C</span>
+        <CortexMark size={textSize * 1.06} className="mx-[0.015em] inline-block align-[-0.25em]" />
+        <span className="text-[var(--brand-blue)]">NNECT</span>
+        <span className="text-[var(--brand-rose)]">CORTEX</span>
+      </span>
+    </span>
   )
 }

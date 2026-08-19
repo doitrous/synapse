@@ -1,11 +1,9 @@
-import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
 import {
   GraduationCap,
   LogIn,
   ArrowRight,
-  Globe,
   BookOpen,
   ListChecks,
   Stethoscope,
@@ -19,14 +17,13 @@ import {
   FileText,
   Quote,
   Check,
-  X,
 } from 'lucide-react'
-import { Wordmark } from '@/components/brand/Wordmark'
 import { Icon } from '@/components/ui/Icon'
-import { useLocalPreference } from '@/lib/useLocalPreference'
 import { ReferenceBar, TodaySpecimen } from './specimens'
 import { Walkthrough } from './Walkthrough'
-import { Pricing } from './Pricing'
+import { usePageMeta } from '@/lib/pageMeta'
+import { MarketingShell } from './MarketingShell'
+import { PricingTeaser } from './PricingTeaser'
 import type { Feature, LandingContent } from './content'
 
 const FEATURE_ICON: Record<Feature['icon'], LucideIcon> = {
@@ -44,86 +41,18 @@ const FEATURE_ICON: Record<Feature['icon'], LucideIcon> = {
   sources: Quote,
 }
 
-/**
- * The other language, offered rather than forced.
- *
- * `/` serves English and `/ar` serves Arabic, both explicitly. Redirecting on
- * `navigator.language` would break a shared link — the person who sent it and
- * the person who opened it would see different pages — and split what search
- * engines index. So this is a strip, dismissible, remembered per device.
- */
-function OtherLanguageOffer({ c }: { c: LandingContent }) {
-  const [dismissed, setDismissed] = useLocalPreference('synapse.landing.langOffer.dismissed', false)
-  const [prefersOther, setPrefersOther] = useState(false)
-
-  useEffect(() => {
-    const wanted = c.lang === 'en' ? 'ar' : 'en'
-    setPrefersOther(navigator.languages?.some((tag) => tag.toLowerCase().startsWith(wanted)) ?? false)
-  }, [c.lang])
-
-  if (dismissed || !prefersOther) return null
-
-  return (
-    <div dir={c.lang === 'en' ? 'rtl' : 'ltr'} lang={c.lang === 'en' ? 'ar' : 'en'} className="border-b border-line bg-surface-2/70">
-      <div className="mx-auto flex max-w-[1160px] flex-wrap items-center gap-3 px-5 py-2 text-[13px] sm:px-8">
-        <Icon icon={Globe} size={14} className="shrink-0 text-ink-3" />
-        <p className="min-w-0 flex-1 text-ink-2">{c.otherOffer.line}</p>
-        <Link to={c.otherHref} className="font-semibold text-accent-strong hover:underline">{c.otherOffer.accept}</Link>
-        <button type="button" onClick={() => setDismissed(true)} className="grid size-6 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label={c.otherOffer.dismiss}>
-          <Icon icon={X} size={13} />
-        </button>
-      </div>
-    </div>
-  )
-}
-
 export function LandingShell({ content }: { content: LandingContent }) {
   const c = content
-  useEffect(() => {
-    const el = document.documentElement
-    el.dir = c.dir
-    el.lang = c.lang
-    const previousTitle = document.title
-    document.title = c.documentTitle
-    return () => {
-      el.dir = 'ltr'
-      el.lang = 'en'
-      document.title = previousTitle
-    }
-  }, [c.dir, c.lang, c.documentTitle])
+
+  usePageMeta({
+    title: c.documentTitle,
+    description: c.hero.sub,
+    canonical: c.lang === 'ar' ? '/ar' : '/',
+    alternates: { en: '/en', ar: '/ar', 'x-default': '/' },
+  })
 
   return (
-    <div className="min-h-dvh overflow-x-clip" dir={c.dir} lang={c.lang}>
-      <OtherLanguageOffer c={c} />
-
-      {/* ---- Nav (solid ground, hairline rule — no glass) ---- */}
-      <header className="sticky top-0 z-30 border-b border-line bg-paper">
-        <div className="mx-auto flex max-w-[1160px] items-center justify-between px-5 py-3.5 sm:px-8">
-          <Wordmark />
-          <div className="flex items-center gap-3 sm:gap-5">
-            <Link
-              to={c.otherHref}
-              lang={c.lang === 'ar' ? 'en' : 'ar'}
-              className="inline-flex items-center gap-1.5 text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink"
-            >
-              <Icon icon={Globe} size={15} />
-              {c.otherLabel}
-            </Link>
-            <Link to="/login" className="hidden text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink sm:inline">
-              {c.signIn}
-            </Link>
-            <Link
-              to="/signup"
-              className="inline-flex items-center gap-1.5 rounded-lg bg-accent px-3.5 py-2 text-[13.5px] font-semibold text-on-accent shadow-panel transition-colors hover:bg-accent-strong"
-            >
-              {c.nav.start}
-              <Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" />
-            </Link>
-          </div>
-        </div>
-      </header>
-
-      <main className="mx-auto max-w-[1160px] px-5 sm:px-8">
+    <MarketingShell c={c}>
         {/* ---- Hero: the heading leads, no kicker ---- */}
         <section className="grid items-center gap-10 pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:pt-24">
           <div>
@@ -135,7 +64,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
                 to="/signup"
-                className="group inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-[15px] font-semibold text-on-accent shadow-raised transition-colors hover:bg-accent-strong"
+                className="group inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-[15px] font-semibold text-on-primary shadow-raised transition-colors hover:bg-primary-strong"
               >
                 <Icon icon={GraduationCap} size={19} />
                 {c.hero.primary}
@@ -178,7 +107,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
           <dl className="grid sm:grid-cols-2 sm:gap-x-12">
             {c.features.map((f) => (
               <div key={f.label} className="group flex items-baseline gap-4 border-b border-line py-4">
-                <Icon icon={FEATURE_ICON[f.icon]} size={17} className="mt-0.5 shrink-0 self-start text-accent" strokeWidth={2} />
+                <Icon icon={FEATURE_ICON[f.icon]} size={17} className="mt-0.5 shrink-0 self-start text-primary" strokeWidth={2} />
                 <dt className="w-32 shrink-0 text-[14.5px] font-semibold text-ink">{f.label}</dt>
                 <dd className="flex-1 text-[13.5px] leading-snug text-ink-2">{f.line}</dd>
               </div>
@@ -189,7 +118,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
         {/* ---- What it actually looks like: the product's own surfaces ---- */}
         <Walkthrough c={c} />
 
-        {/* ---- How Synapse decides: a numbered clinical protocol (sequence carries meaning) ---- */}
+        {/* ---- How Connect Cortex decides: a numbered clinical protocol (sequence carries meaning) ---- */}
         <section className="mt-24 overflow-hidden rounded-2xl border border-line">
           <div className="grid-chart-major border-b border-line bg-surface-2/50 px-6 py-10 sm:px-10 sm:py-12">
             <h2 className="max-w-2xl font-serif text-[27px] font-semibold tracking-[-0.015em] text-ink sm:text-[32px]">{c.how.title}</h2>
@@ -199,7 +128,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
             {c.how.steps.map((step) => (
               <li key={step.k} className="p-6 sm:p-8">
                 <div className="flex items-center gap-3">
-                  <span className="tnum grid size-8 place-items-center rounded-lg border border-accent-line bg-accent-tint font-mono text-[14px] font-semibold text-accent-strong">{step.k}</span>
+                  <span className="tnum grid size-8 place-items-center rounded-lg border border-primary-line bg-primary-tint font-mono text-[14px] font-semibold text-primary-strong">{step.k}</span>
                   <span className="h-px flex-1 bg-line" aria-hidden />
                 </div>
                 <h3 className="mt-4 text-[16px] font-semibold text-ink">{step.title}</h3>
@@ -242,30 +171,22 @@ export function LandingShell({ content }: { content: LandingContent }) {
           </div>
         </section>
 
-        <Pricing c={c} />
+        <PricingTeaser c={c} />
 
         {/* ---- Close ---- */}
-        <section className="mt-24 overflow-hidden rounded-2xl border border-accent-strong/25 bg-accent px-6 py-14 text-center text-on-accent sm:px-10 sm:py-20">
+        <section className="mt-24 overflow-hidden rounded-2xl border border-primary-strong/25 bg-primary px-6 py-14 text-center text-on-primary sm:px-10 sm:py-20">
           <h2 className="mx-auto max-w-2xl text-balance font-serif text-[30px] font-semibold leading-[1.1] tracking-[-0.02em] sm:text-[38px]">{c.cta.title}</h2>
-          <p className="mx-auto mt-4 max-w-xl text-[15.5px] leading-relaxed text-on-accent/85">{c.cta.sub}</p>
+          <p className="mx-auto mt-4 max-w-xl text-[15.5px] leading-relaxed text-on-primary/85">{c.cta.sub}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link to="/signup" className="group inline-flex items-center gap-2 rounded-xl bg-on-accent px-5 py-3 text-[15px] font-semibold text-accent-strong shadow-raised transition-transform hover:-translate-y-0.5">
+            <Link to="/signup" className="group inline-flex items-center gap-2 rounded-xl bg-on-primary px-5 py-3 text-[15px] font-semibold text-primary-strong shadow-raised transition-transform hover:-translate-y-0.5">
               {c.cta.button}
               <Icon icon={ArrowRight} size={17} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100 rtl:group-hover:-translate-x-0.5" />
             </Link>
-            <Link to="/login" className="inline-flex items-center gap-2 rounded-xl border border-on-accent/30 px-5 py-3 text-[15px] font-semibold text-on-accent transition-colors hover:bg-on-accent/10">
+            <Link to="/login" className="inline-flex items-center gap-2 rounded-xl border border-on-primary/30 px-5 py-3 text-[15px] font-semibold text-on-primary transition-colors hover:bg-on-primary/10">
               {c.cta.secondary}
             </Link>
           </div>
         </section>
-      </main>
-
-      <footer className="mt-20 border-t border-line">
-        <div className="mx-auto flex max-w-[1160px] flex-col items-start justify-between gap-3 px-5 py-7 text-[12.5px] text-ink-3 sm:flex-row sm:items-center sm:px-8">
-          <Wordmark />
-          <p className="max-w-md text-start sm:text-end">{c.footer}</p>
-        </div>
-      </footer>
-    </div>
+    </MarketingShell>
   )
 }

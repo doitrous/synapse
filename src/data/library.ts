@@ -6,7 +6,7 @@ export interface LibBlock {
   text?: string
   items?: string[]
   title?: string
-  tone?: 'accent' | 'warning'
+  tone?: 'primary' | 'warning'
   /** Number of verified facts listed under a `sources` divider. */
   count?: number
   /** Stable evidence anchor and all claims/citations supporting this fact. */
@@ -108,7 +108,7 @@ export const libraryTopics: LibTopic[] = [
           },
           {
             type: 'callout',
-            tone: 'accent',
+            tone: 'primary',
             title: 'Why this matters for treatment',
             text: 'Prognostic HFrEF therapy targets exactly these maladaptive pathways: ACE inhibitors/ARBs and ARNIs block RAAS, beta-blockers oppose sympathetic drive, and MRAs block aldosterone. They work by interrupting compensation, not by stimulating the heart.',
           },
@@ -192,7 +192,7 @@ export const libraryTopics: LibTopic[] = [
           },
           {
             type: 'callout',
-            tone: 'accent',
+            tone: 'primary',
             title: 'Sequencing',
             text: 'Modern practice favours starting all four pillars early at low dose and up-titrating, rather than maximising one drug before adding the next.',
           },
@@ -331,7 +331,7 @@ export const libraryTopics: LibTopic[] = [
           },
           {
             type: 'callout',
-            tone: 'accent',
+            tone: 'primary',
             title: 'High-yield',
             text: 'Frequent SABA use without an inhaled corticosteroid is a red flag for poor control and exacerbation risk.',
           },
@@ -373,7 +373,7 @@ export const libraryTopics: LibTopic[] = [
           },
           {
             type: 'callout',
-            tone: 'accent',
+            tone: 'primary',
             title: 'Anion gap',
             text: 'A raised anion gap metabolic acidosis (MUDPILES-type causes) points to added acid; a normal gap points to bicarbonate loss.',
           },

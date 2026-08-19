@@ -17,7 +17,7 @@ export interface Note {
   subjectId?: string
   imageData?: string
   /**
-   * Documents this note is about — a Synapse resource, or a PDF the student
+   * Documents this note is about — a Connect Cortex resource, or a PDF the student
    * uploaded themselves. Optional and additive, so every note written before
    * this existed is still a valid note.
    *

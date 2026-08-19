@@ -25,7 +25,7 @@ export function Avatar({
   return (
     <span
       className={cn(
-        'inline-flex items-center justify-center rounded-full border border-accent-line bg-accent-tint font-medium text-accent-strong',
+        'inline-flex items-center justify-center rounded-full border border-primary-line bg-primary-tint font-medium text-primary-strong',
         SIZE[size],
         className,
       )}

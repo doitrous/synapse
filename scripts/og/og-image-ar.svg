@@ -1,50 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#ede4d6" stroke-width="1"/>
+      <path d="M48 0H0V48" fill="none" stroke="#e8ecf4" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="630" fill="#f6f1e9"/>
+  <!-- page ground (a hint of the brand blue) + faint clinical-chart grid -->
+  <rect width="1200" height="630" fill="#f5f7fb"/>
   <rect width="1200" height="630" fill="url(#grid)"/>
 
-  <!-- faint synapse watermark bleeding off the LEFT edge (RTL balance) -->
-  <g opacity="0.09" transform="translate(185 300) scale(7) translate(-32 -32)" fill="#b0512b">
-    <g transform="rotate(45 32 32)">
-      <rect x="28" y="7" width="8" height="15" rx="4"/>
-      <circle cx="32" cy="27" r="11.5"/>
-      <circle cx="30" cy="41.5" r="1.4"/>
-      <circle cx="34.5" cy="42" r="1.1"/>
-      <path d="M18 46 Q32 61 46 46 L41.5 46 Q32 54 22.5 46 Z"/>
-      <rect x="29" y="54" width="6" height="6" rx="3"/>
-    </g>
+  <!-- the mark, faint, bleeding off the left edge — the card mirrors for RTL.
+       __MARK__ is replaced with a data URI by render.mjs. -->
+  <g opacity="0.06">
+    <image xlink:href="__MARK__" x="-360" y="-40" width="700" height="700"/>
   </g>
 
-  <!-- brand lockup, top-right: mark + wordmark -->
-  <g transform="translate(1002 90) scale(1.6875)">
-    <rect x="1" y="1" width="62" height="62" rx="16" fill="#b0512b"/>
-    <rect x="1.5" y="1.5" width="61" height="61" rx="15.5" fill="none" stroke="#000000" stroke-opacity="0.1"/>
-    <g transform="rotate(45 32 32)" fill="#fdf7f2">
-      <rect x="28" y="7" width="8" height="15" rx="4"/>
-      <circle cx="32" cy="27" r="11.5"/>
-      <circle cx="27.5" cy="25" r="2.4" fill="#b0512b"/>
-      <circle cx="35.5" cy="24" r="2" fill="#b0512b"/>
-      <circle cx="31" cy="31" r="2.7" fill="#b0512b"/>
-      <circle cx="30" cy="41.5" r="1.4"/>
-      <circle cx="34.5" cy="42" r="1.1"/>
-      <path d="M18 46 Q32 61 46 46 L41.5 46 Q32 54 22.5 46 Z"/>
-      <rect x="29" y="54" width="6" height="6" rx="3"/>
-    </g>
-  </g>
-  <text x="978" y="170" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="bold" fill="#241d16" letter-spacing="-1.5">Synapse</text>
+  <!-- brand lockup, right-aligned so the card mirrors. The logotype itself
+       stays LTR: it is a name, not running text, and the Arabic site sets it
+       the same way. The text is anchored to the right margin and the mark sits
+       to its left, clear of where the glyphs begin. -->
+  <image xlink:href="__MARK__" x="472" y="86" width="84" height="84"/>
+  <text x="1110" y="152" text-anchor="end" font-family="'Jost','Century Gothic','Futura','Avenir Next',Helvetica,Arial,sans-serif" font-size="56" font-weight="500" letter-spacing="2.5">
+    <tspan fill="#1553b3">CONNECT</tspan><tspan fill="#d13a63">CORTEX</tspan>
+  </text>
 
   <!-- Arabic headline (personalization motto), right-aligned -->
-  <text x="1110" y="360" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Baghdad','Noto Sans Arabic',Arial,sans-serif" font-size="96" font-weight="bold" fill="#241d16">مذاكرة مفصلة عليك</text>
+  <text x="1110" y="360" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Baghdad','Noto Sans Arabic',Arial,sans-serif" font-size="96" font-weight="bold" fill="#161920">مذاكرة مفصلة عليك</text>
 
   <!-- Arabic subline -->
-  <text x="1110" y="432" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Noto Sans Arabic',Arial,sans-serif" font-size="30" fill="#6b6053">منصة دراسة سريرية لطلاب الطب، تتكيف مع تقدمك.</text>
+  <text x="1110" y="432" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Noto Sans Arabic',Arial,sans-serif" font-size="30" fill="#5d636f">منصة دراسة سريرية لطلاب الطب، تتكيف مع تقدمك.</text>
 
   <!-- footer rule + Arabic surfaces -->
-  <line x1="92" y1="552" x2="1108" y2="552" stroke="#e6c6b1" stroke-width="1.5"/>
-  <text x="1108" y="592" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Noto Sans Arabic',Arial,sans-serif" font-size="26" font-weight="bold" fill="#8c3d1d">المكتبة  ·  بنك الأسئلة  ·  العملي السريري  ·  الجدول</text>
+  <line x1="92" y1="552" x2="1108" y2="552" stroke="#f4c8d6" stroke-width="1.5"/>
+  <text x="1108" y="592" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Noto Sans Arabic',Arial,sans-serif" font-size="26" font-weight="bold" fill="#a82449">المكتبة  ·  بنك الأسئلة  ·  العملي السريري  ·  الجدول</text>
 </svg>

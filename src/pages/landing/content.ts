@@ -1,4 +1,3 @@
-import type { PriceTable } from '@/lib/pricing'
 
 /**
  * Bilingual copy for the marketing landing page.
@@ -17,38 +16,6 @@ export interface Feature {
     | 'whiteboard' | 'together' | 'notebook' | 'taxonomy' | 'reader' | 'sources'
   label: string
   line: string
-}
-
-/** One plan, priced as numbers so the page can compare and convert them. */
-export interface Plan {
-  id: string
-  name: string
-  prices: PriceTable
-  /** Shown instead of a price when the plan is not sold at a list price. */
-  quoted?: string
-  /** A fixed-scope offer whose period is the product, not a billing choice. */
-  fixedPeriod?: string
-  entitlement: string
-  featured?: boolean
-  badge?: string
-  cta: string
-}
-
-/**
- * The comparison table under the tiers.
- *
- * `true` is a tick, `false` a dash, a string is the qualified answer — which is
- * most of them, because "limited" and "full" are the honest difference between
- * these tiers and a tick would flatten it.
- */
-export interface CompareRow {
-  label: string
-  values: (boolean | string)[]
-}
-
-export interface CompareGroup {
-  title: string
-  rows: CompareRow[]
 }
 
 /** A rendered product screen, named so the shell can pick the right one. */
@@ -103,19 +70,14 @@ export interface LandingContent {
     title: string
     sub: string
     refund: string
-    /** Labels for the billing-period control, in period order. */
-    periods: { monthly: string; quarterly: string; yearly: string }
     perMonth: string
-    billedAs: { monthly: string; quarterly: string; yearly: string }
     save: string
     currency: string
     free: string
-    tiers: Plan[]
     moreTitle: string
-    more: Plan[]
     compareTitle: string
-    compareColumns: string[]
-    compare: CompareGroup[]
+    /** Stamped on a plan or a period that is announced but not yet purchasable. */
+    comingSoon: string
   }
   cta: { title: string; sub: string; button: string; secondary: string }
   specimen: {
@@ -154,7 +116,7 @@ export interface LandingContent {
 export const AR_CONTENT: LandingContent = {
   lang: 'ar',
   dir: 'rtl',
-  documentTitle: 'Synapse · مذاكرة الطب، في مكان واحد',
+  documentTitle: 'Connect Cortex · مذاكرة الطب، في مكان واحد',
   otherHref: '/en',
   otherLabel: 'English',
   otherOffer: {
@@ -166,7 +128,7 @@ export const AR_CONTENT: LandingContent = {
   nav: { start: 'ابدأ المذاكرة' },
   hero: {
     h1: 'اعرف بالضبط ما تذاكره تاليًا',
-    sub: 'يجمع Synapse مكتبتك وبنك الأسئلة والتدريب العملي وجدولك في مساحة سريرية واحدة هادئة — ثم يخبرك بما يستحق انتباهك اليوم. بالعربية أولًا، وبالإنجليزية كاملة.',
+    sub: 'يجمع Connect Cortex مكتبتك وبنك الأسئلة والتدريب العملي وجدولك في مساحة سريرية واحدة هادئة — ثم يخبرك بما يستحق انتباهك اليوم. بالعربية أولًا، وبالإنجليزية كاملة.',
     primary: 'ابدأ المذاكرة',
     secondary: 'تسجيل الدخول',
     trust: 'مبني على التكرار المتباعد ومنهج أجهزة الجسم.',
@@ -206,7 +168,7 @@ export const AR_CONTENT: LandingContent = {
     ],
   },
   how: {
-    title: 'كيف يقرّر Synapse ما تذاكره',
+    title: 'كيف يقرّر Connect Cortex ما تذاكره',
     sub: 'ثلاث خطوات تحوّل الكمّ الهائل إلى خطوة واحدة واضحة كل صباح.',
     steps: [
       { k: '١', title: 'ذاكِر وحُلّ', line: 'اقرأ من المكتبة ثم اختبر نفسك بأسئلة مشروحة مرتبطة مباشرة بما قرأته.' },
@@ -221,82 +183,18 @@ export const AR_CONTENT: LandingContent = {
   },
   plans: {
     title: 'خطط وأسعار',
-    sub: 'ثلاث خطط أساسية. يمكن الترقية أو الإلغاء في أي وقت.',
+    sub: 'خطط تناسب طريقة مذاكرتك. يمكن الترقية أو الإلغاء في أي وقت.',
     refund: 'نافذة استرداد ١٤ يومًا، وفق سياسة الاسترداد المنشورة وضوابط الاستخدام.',
-    periods: { monthly: 'شهريًا', quarterly: 'كل ٣ أشهر', yearly: 'سنويًا' },
     perMonth: 'ما يعادل شهريًا',
-    billedAs: { monthly: 'تُحصَّل شهريًا', quarterly: 'تُحصَّل كل ٣ أشهر', yearly: 'تُحصَّل سنويًا' },
     save: 'وفّر',
     currency: 'ج.م',
     free: 'مجانًا',
-    tiers: [
-      {
-        id: 'free',
-        name: 'مجاني',
-        prices: { monthly: 0 },
-        entitlement: 'تشخيص أولي و١٠ أسئلة يوميًا، بعد تجربة Adaptive كاملة ٧ أيام — دون بطاقة.',
-        cta: 'ابدأ مجانًا',
-      },
-      {
-        id: 'qbank',
-        name: 'بنك الأسئلة',
-        prices: { monthly: 99, quarterly: 249, yearly: 799 },
-        entitlement: 'بنك الأسئلة المعتمد كاملًا، كتل مخصّصة، شروح، إشارات وملاحظات، وتقدّم أساسي.',
-        cta: 'اشترك',
-      },
-      {
-        id: 'adaptive',
-        name: 'Adaptive',
-        prices: { monthly: 199, quarterly: 499, yearly: 1499 },
-        entitlement: 'كل ما سبق، مع كتل تكيّفية وخطة دراسة ومراجعة متباعدة وتقييمات جاهزية وتحليلات أغنى.',
-        featured: true,
-        badge: 'الأكثر قيمة',
-        cta: 'اشترك',
-      },
-    ],
     moreTitle: 'وخيارات أخرى',
-    more: [
-      { id: 'addon', name: 'إضافة Adaptive', prices: { monthly: 79, quarterly: 199 }, entitlement: 'أضِف Adaptive إلى اشتراك حالي مؤهّل دون دفع مرتين عن المحتوى المتداخل.', cta: 'أضِف' },
-      { id: 'sprint', name: 'Exam Sprint', prices: { monthly: 249 }, fixedPeriod: '/ ٣٠ يومًا', entitlement: 'نطاق امتحان واحد محدّد: خطة مكثّفة، اختبارات محاكاة، إصلاح تكيّفي، وتحليلات السبرنت.', cta: 'ابدأ سبرنت' },
-      { id: 'campus', name: 'المؤسسات / الدفعات', prices: {}, quoted: 'حسب الطلب', entitlement: 'وصول وتحليلات على مستوى الجامعة أو الدفعة، بتسعير لكل طالب.', cta: 'ابدأ ثم تواصل معنا' },
-    ],
-    compareTitle: 'ما الذي يشمله كل خطة',
-    compareColumns: ['مجاني', 'بنك الأسئلة', 'Adaptive'],
-    compare: [
-      {
-        title: 'المذاكرة',
-        rows: [
-          { label: 'المكتبة والمصادر الموثّقة', values: ['محدود', true, true] },
-          { label: 'أسئلة يوميًا', values: ['١٠', 'بلا حد', 'بلا حد'] },
-          { label: 'شروح لكل خيار', values: [true, true, true] },
-          { label: 'مراجعة بعد التسليم', values: [false, true, true] },
-          { label: 'كتل مخصّصة حسب الجهاز والموضوع', values: [false, true, true] },
-          { label: 'كتل تكيّفية حسب نقاط ضعفك', values: [false, false, true] },
-        ],
-      },
-      {
-        title: 'التخطيط والمراجعة',
-        rows: [
-          { label: 'التقويم وخطتك', values: [true, true, true] },
-          { label: 'مراجعة متباعدة', values: [false, 'أساسية', true] },
-          { label: 'خطة دراسة مولّدة', values: [false, false, true] },
-          { label: 'تقييمات جاهزية للامتحان', values: [false, false, true] },
-        ],
-      },
-      {
-        title: 'الأدوات',
-        rows: [
-          { label: 'قارئ ومحرّر PDF', values: [true, true, true] },
-          { label: 'مستنداتك المرفوعة', values: ['ملف واحد', true, true] },
-          { label: 'دفتر الملاحظات والسبورة', values: [true, true, true] },
-          { label: 'الدراسة الجماعية', values: ['ضيف', true, true] },
-          { label: 'التحليلات', values: ['أساسية', 'أساسية', 'مفصّلة'] },
-        ],
-      },
-    ],
+    compareTitle: 'ما الذي تشمله كل خطة',
+    comingSoon: 'قريبًا',
   },
   cta: {
-    title: 'ابدأ رحلتك مع Synapse اليوم',
+    title: 'ابدأ رحلتك مع Connect Cortex اليوم',
     sub: 'مساحة واحدة هادئة لكل مذاكرتك السريرية — من أول محاضرة إلى ليلة الامتحان.',
     button: 'ادخل كطالب',
     secondary: 'تسجيل الدخول',
@@ -341,7 +239,7 @@ export const AR_CONTENT: LandingContent = {
 export const EN_CONTENT: LandingContent = {
   lang: 'en',
   dir: 'ltr',
-  documentTitle: 'Synapse · Clinical study, in one place',
+  documentTitle: 'Connect Cortex · Clinical study, in one place',
   otherHref: '/ar',
   otherLabel: 'العربية',
   otherOffer: {
@@ -353,7 +251,7 @@ export const EN_CONTENT: LandingContent = {
   nav: { start: 'Start studying' },
   hero: {
     h1: 'See exactly what to study next',
-    sub: 'Synapse brings your library, question bank, practicals, and schedule into one calm clinical workspace — then tells you what deserves attention today. Arabic-first, fully English.',
+    sub: 'Connect Cortex brings your library, question bank, practicals, and schedule into one calm clinical workspace — then tells you what deserves attention today. Arabic-first, fully English.',
     primary: 'Start studying',
     secondary: 'Sign in',
     trust: 'Built around spaced repetition and the organ-system curriculum.',
@@ -393,7 +291,7 @@ export const EN_CONTENT: LandingContent = {
     ],
   },
   how: {
-    title: 'How Synapse decides what you study',
+    title: 'How Connect Cortex decides what you study',
     sub: 'Three steps that turn an overwhelming syllabus into one clear move each morning.',
     steps: [
       { k: '1', title: 'Read and answer', line: 'Read from the library, then test yourself with explained questions tied to exactly what you read.' },
@@ -408,82 +306,18 @@ export const EN_CONTENT: LandingContent = {
   },
   plans: {
     title: 'Plans & pricing',
-    sub: 'Three plans to choose between. Upgrade or cancel any time.',
+    sub: 'Plans that fit how you study. Upgrade or cancel any time.',
     refund: '14-day refund window, subject to the published refund policy and abuse controls.',
-    periods: { monthly: 'Monthly', quarterly: 'Every 3 months', yearly: 'Yearly' },
     perMonth: 'a month, equivalent',
-    billedAs: { monthly: 'billed monthly', quarterly: 'billed every 3 months', yearly: 'billed yearly' },
     save: 'Save',
     currency: 'EGP',
     free: 'Free',
-    tiers: [
-      {
-        id: 'free',
-        name: 'Free',
-        prices: { monthly: 0 },
-        entitlement: 'A diagnostic and 10 questions a day, after a 7-day full Adaptive trial — no card required.',
-        cta: 'Start free',
-      },
-      {
-        id: 'qbank',
-        name: 'QBank',
-        prices: { monthly: 99, quarterly: 249, yearly: 799 },
-        entitlement: 'The full approved question bank, custom blocks, explanations, bookmarks and notes, and basic progress.',
-        cta: 'Subscribe',
-      },
-      {
-        id: 'adaptive',
-        name: 'Adaptive',
-        prices: { monthly: 199, quarterly: 499, yearly: 1499 },
-        entitlement: 'Everything above, plus adaptive blocks, a study plan, spaced review, readiness assessments and richer analytics.',
-        featured: true,
-        badge: 'Best value',
-        cta: 'Subscribe',
-      },
-    ],
     moreTitle: 'And a few other ways in',
-    more: [
-      { id: 'addon', name: 'Adaptive add-on', prices: { monthly: 79, quarterly: 199 }, entitlement: 'Adds Adaptive to an eligible current course without paying twice for overlapping content.', cta: 'Add on' },
-      { id: 'sprint', name: 'Exam Sprint', prices: { monthly: 249 }, fixedPeriod: '/ 30 days', entitlement: 'One defined exam scope: a compressed plan, mocks, adaptive repair and sprint analytics.', cta: 'Start a sprint' },
-      { id: 'campus', name: 'Campus / cohort', prices: {}, quoted: 'Quoted', entitlement: 'Institution-wide access and analytics, priced per student.', cta: 'Start, then talk to us' },
-    ],
     compareTitle: 'What each plan includes',
-    compareColumns: ['Free', 'QBank', 'Adaptive'],
-    compare: [
-      {
-        title: 'Studying',
-        rows: [
-          { label: 'Library and verified sources', values: ['Limited', true, true] },
-          { label: 'Questions a day', values: ['10', 'Unlimited', 'Unlimited'] },
-          { label: 'A rationale for every option', values: [true, true, true] },
-          { label: 'Review after you submit', values: [false, true, true] },
-          { label: 'Custom blocks by system and topic', values: [false, true, true] },
-          { label: 'Adaptive blocks aimed at your weak points', values: [false, false, true] },
-        ],
-      },
-      {
-        title: 'Planning and review',
-        rows: [
-          { label: 'Calendar and your plan', values: [true, true, true] },
-          { label: 'Spaced review', values: [false, 'Basic', true] },
-          { label: 'A generated study plan', values: [false, false, true] },
-          { label: 'Exam readiness assessments', values: [false, false, true] },
-        ],
-      },
-      {
-        title: 'Tools',
-        rows: [
-          { label: 'PDF reader and editor', values: [true, true, true] },
-          { label: 'Your own uploaded documents', values: ['One file', true, true] },
-          { label: 'Notebook and whiteboard', values: [true, true, true] },
-          { label: 'Study Together', values: ['As a guest', true, true] },
-          { label: 'Analytics', values: ['Basic', 'Basic', 'Detailed'] },
-        ],
-      },
-    ],
+    comingSoon: 'Coming soon',
   },
   cta: {
-    title: 'Start your journey with Synapse today',
+    title: 'Start your journey with Connect Cortex today',
     sub: 'One calm workspace for all your clinical study — from the first lecture to exam night.',
     button: 'Enter as a student',
     secondary: 'Sign in',

@@ -168,7 +168,7 @@ export const consentSettings = API_MODE ? [] : [
 /* ---- Settings ---------------------------------------------------------- */
 
 export const institution = API_MODE ? {
-  name: 'Synapse',
+  name: 'Connect Cortex',
   domain: 'synapse.doitrous.com',
   region: 'Egypt',
   contact: '',

@@ -95,7 +95,7 @@ export function Sidebar({
                         'group flex h-11 items-center gap-2.5 rounded-md text-[13.5px] transition-colors duration-100 lg:h-9',
                         collapsed ? 'justify-center px-0' : 'px-2.5',
                         isActive
-                          ? 'bg-accent-tint font-medium text-accent-strong'
+                          ? 'nav-selected font-medium'
                           : 'text-ink-2 hover:bg-inset hover:text-ink',
                       )
                     }
@@ -105,7 +105,7 @@ export function Sidebar({
                         <Icon
                           icon={item.icon}
                           size={17}
-                          className={isActive ? 'text-accent' : 'text-ink-3 group-hover:text-ink-2'}
+                          className={isActive ? 'text-primary' : 'text-ink-3 group-hover:text-ink-2'}
                         />
                         {!collapsed && <span className="truncate">{t(item.label)}</span>}
                       </>

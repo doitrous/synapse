@@ -28,8 +28,8 @@ export function PracticalSetup() {
           type="button"
           onClick={() => { setSelection({}); setOpenUni(null) }}
           className={cn(
-            'flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-left text-[13.5px] font-semibold',
-            isMaster ? 'bg-accent-tint text-accent-strong' : 'text-ink hover:bg-inset',
+            'flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-start text-[13.5px] font-semibold',
+            isMaster ? 'bg-primary-tint text-primary-strong' : 'text-ink hover:bg-inset',
           )}
         >
           <Icon icon={Stethoscope} size={16} />
@@ -50,14 +50,14 @@ export function PracticalSetup() {
                     className="grid size-7 place-items-center rounded text-ink-3 hover:text-ink"
                     aria-label={uniOpen ? `Collapse ${u.short}` : `Expand ${u.short}`}
                   >
-                    <Icon icon={ChevronRight} size={14} className={cn('transition-transform', uniOpen && 'rotate-90')} />
+                    <Icon icon={ChevronRight} size={14} className={cn('chevron-turn')} open={uniOpen} />
                   </button>
                   <button
                     type="button"
                     onClick={() => { setSelection({ universityId: u.id }); setOpenUni(u.id) }}
                     className={cn(
-                      'flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-left text-[13px]',
-                      uniActive ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset',
+                      'flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13px]',
+                      uniActive ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset',
                     )}
                   >
                     <Icon icon={GraduationCap} size={14} />
@@ -75,8 +75,8 @@ export function PracticalSetup() {
                             type="button"
                             onClick={() => setSelection({ universityId: u.id, year: y })}
                             className={cn(
-                              'block w-full rounded px-2.5 py-1.5 text-left text-[12.5px]',
-                              yearActive ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-3 hover:bg-inset hover:text-ink-2',
+                              'block w-full rounded px-2.5 py-1.5 text-start text-[12.5px]',
+                              yearActive ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-3 hover:bg-inset hover:text-ink-2',
                             )}
                           >
                             {y}
@@ -91,7 +91,7 @@ export function PracticalSetup() {
           })}
         </ul>
 
-        <Link to="/admin/taxonomy" className="mt-4 flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-[12px] text-ink-2 hover:border-accent-line hover:text-accent-strong">
+        <Link to="/admin/taxonomy" className="mt-4 flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-[12px] text-ink-2 hover:border-primary-line hover:text-primary-strong">
           <Icon icon={Network} size={14} />
           Edit systems & topics
         </Link>

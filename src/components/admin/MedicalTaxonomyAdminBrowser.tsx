@@ -36,10 +36,10 @@ function NodeRow({
   const isOpen = expanded.has(node.id)
   return (
     <li>
-      <div className={cn('group flex min-h-9 items-center rounded-md pe-2 transition-colors', selectedId === node.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')} style={{ paddingInlineStart: `${6 + node.depth * 14}px` }}>
+      <div className={cn('group flex min-h-9 items-center rounded-md pe-2 transition-colors', selectedId === node.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')} style={{ paddingInlineStart: `${6 + node.depth * 14}px` }}>
         {children.length > 0 ? (
           <button type="button" onClick={() => onToggle(node.id)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:text-ink" aria-label={`${isOpen ? 'Collapse' : 'Expand'} ${node.title}`}>
-            <Icon icon={ChevronRight} size={13} className={cn('transition-transform', isOpen && 'rotate-90')} />
+            <Icon icon={ChevronRight} size={13} className={cn('chevron-turn')} open={isOpen} />
           </button>
         ) : <span className="grid size-7 shrink-0 place-items-center"><span className="size-1 rounded-full bg-line-2" /></span>}
         <button type="button" onClick={() => onSelect(node.id)} className="min-w-0 flex-1 py-1.5 text-start text-[12px] leading-snug">
@@ -137,7 +137,7 @@ export function MedicalTaxonomyAdminBrowser({ taxonomy }: { taxonomy: MedicalTax
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         {counts.map((item) => (
-          <button key={item.id} type="button" onClick={() => { setDivision(item.id); setSelectedId(undefined); setQuery('') }} className={cn('rounded-xl border p-4 text-start transition-colors', division === item.id ? 'border-accent-line bg-accent-tint/60' : 'border-line bg-surface hover:border-line-2 hover:bg-surface-2/40')}>
+          <button key={item.id} type="button" onClick={() => { setDivision(item.id); setSelectedId(undefined); setQuery('') }} className={cn('rounded-xl border p-4 text-start transition-colors', division === item.id ? 'border-primary-line bg-primary-tint/60' : 'border-line bg-surface hover:border-line-2 hover:bg-surface-2/40')}>
             <p className="text-[11.5px] font-semibold text-ink">{item.label}</p>
             <p className="tnum mt-2 font-mono text-[20px] font-semibold text-ink">{item.nodes.toLocaleString()}</p>
             <p className="mt-0.5 text-[10.5px] text-ink-3">{item.roots} {item.rootLabel.toLowerCase()}{item.roots === 1 ? '' : 's'}</p>
@@ -149,7 +149,7 @@ export function MedicalTaxonomyAdminBrowser({ taxonomy }: { taxonomy: MedicalTax
         <div className="grid min-h-[34rem] lg:grid-cols-[21rem_minmax(0,1fr)]">
           <aside className="border-b border-line bg-surface-2/35 lg:border-b-0 lg:border-e">
             <div className="border-b border-line p-3">
-              <label className="flex h-9 items-center gap-2 rounded-lg border border-line bg-surface px-3 focus-within:border-accent-line">
+              <label className="flex h-9 items-center gap-2 rounded-lg border border-line bg-surface px-3 focus-within:border-primary-line">
                 <Icon icon={Search} size={14} className="text-ink-3" />
                 <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={`Search ${MEDICAL_TAXONOMY_DIVISIONS.find((item) => item.id === division)?.shortLabel.toLowerCase()}…`} className="min-w-0 flex-1 bg-transparent text-[12px] text-ink outline-none placeholder:text-ink-3" />
               </label>
@@ -178,7 +178,7 @@ export function MedicalTaxonomyAdminBrowser({ taxonomy }: { taxonomy: MedicalTax
                   <Button variant="secondary" size="sm" iconLeft={editing ? X : Pencil} onClick={() => setEditing((open) => !open)}>{editing ? 'Close' : 'Edit'}</Button>
                 </div>
                 {editing && (
-                  <div className="mt-4 space-y-3 rounded-lg border border-accent-line bg-accent-tint/20 p-4">
+                  <div className="mt-4 space-y-3 rounded-lg border border-primary-line bg-primary-tint/20 p-4">
                     <Field label="Title"><TextInput value={selected.title} onChange={(event) => patchNode(selected.id, { title: event.target.value })} /></Field>
                     <Field label="Priority">
                       <Select value={selected.priority} onChange={(event) => patchNode(selected.id, { priority: event.target.value as MedicalTaxonomyNode['priority'] })}>
@@ -215,7 +215,7 @@ export function MedicalTaxonomyAdminBrowser({ taxonomy }: { taxonomy: MedicalTax
                   <p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Direct children · {selectedChildren.length}</p>
                   {selectedChildren.length ? (
                     <div className="mt-3 grid gap-2 sm:grid-cols-2">
-                      {selectedChildren.map((child) => <button key={child.id} type="button" onClick={() => choose(child)} className="flex items-center gap-2 rounded-lg border border-line px-3 py-2.5 text-start text-[12px] text-ink-2 hover:border-accent-line hover:text-ink"><Icon icon={CircleDot} size={12} className="shrink-0 text-accent" /><span>{child.title}</span></button>)}
+                      {selectedChildren.map((child) => <button key={child.id} type="button" onClick={() => choose(child)} className="flex items-center gap-2 rounded-lg border border-line px-3 py-2.5 text-start text-[12px] text-ink-2 hover:border-primary-line hover:text-ink"><Icon icon={CircleDot} size={12} className="shrink-0 text-primary" /><span>{child.title}</span></button>)}
                     </div>
                   ) : <p className="mt-2 text-[12px] text-ink-3">This is a leaf placement for articles, concepts, questions, and resources.</p>}
                 </div>

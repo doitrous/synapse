@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#f6f1e9" />
+    <meta name="theme-color" content="#f5f7fb" />
     <!-- Theme before first paint. Without this the page paints in the default
          palette and then corrects itself, which reads as a flash on every load.
          Kept in sync with THEME_STORAGE_KEY / THEME_COLOR in src/lib/useTheme.tsx. -->
@@ -12,20 +12,20 @@
       (function () {
         try {
           var t = localStorage.getItem('synapse-theme');
-          if (t !== 'light' && t !== 'warm' && t !== 'dark') t = 'warm';
+          if (t !== 'light' && t !== 'warm' && t !== 'dark') t = 'light';
           document.documentElement.dataset.theme = t;
           var m = document.querySelector('meta[name="theme-color"]');
-          if (m) m.setAttribute('content', { light: '#f2f4f6', warm: '#f6f1e9', dark: '#17140f' }[t]);
+          if (m) m.setAttribute('content', { light: '#f5f7fb', warm: '#f7f2ea', dark: '#0d1117' }[t]);
         } catch (e) {
-          document.documentElement.dataset.theme = 'warm';
+          document.documentElement.dataset.theme = 'light';
         }
       })();
     </script>
     <meta
       name="description"
-      content="Synapse — a single clinical instrument for undergraduate medical study: library, question bank, practical, and a schedule that shows you exactly what to study next."
+      content="Connect Cortex — a single clinical instrument for undergraduate medical study: library, question bank, practical, and a schedule that shows you exactly what to study next."
     />
-    <title>Synapse · Clinical study, in one place</title>
+    <title>Connect Cortex · Clinical study, in one place</title>
 
     <link rel="canonical" href="https://synapse.doitrous.com/" />
     <link rel="alternate" hreflang="en" href="https://synapse.doitrous.com/en" />
@@ -34,10 +34,10 @@
 
     <!-- Open Graph — WhatsApp, iMessage, Facebook, LinkedIn, Slack -->
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Synapse" />
+    <meta property="og:site_name" content="Connect Cortex" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="ar_AR" />
-    <meta property="og:title" content="Synapse · See exactly what to study next" />
+    <meta property="og:title" content="Connect Cortex · See exactly what to study next" />
     <meta
       property="og:description"
       content="A calm clinical workspace for undergraduate medicine — library, question bank, practicals, and a schedule that shows you exactly what to study next."
@@ -47,11 +47,11 @@
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Synapse — see exactly what to study next" />
+    <meta property="og:image:alt" content="Connect Cortex — see exactly what to study next" />
 
     <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Synapse · See exactly what to study next" />
+    <meta name="twitter:title" content="Connect Cortex · See exactly what to study next" />
     <meta
       name="twitter:description"
       content="A calm clinical workspace for undergraduate medicine."
@@ -60,9 +60,9 @@
   </head>
   <body>
     <!--
-      DIRECTION CONTRACT · Synapse · seed:user-pinned/clinical-chart
+      DIRECTION CONTRACT · Connect Cortex · seed:user-pinned/clinical-chart
       THESIS: One calm clinical instrument where a med student reads, drills, practices, and sees what to study next. Refuses the multi-tab SaaS grid of same-size icon cards.
-      OWN-WORLD: Cool clinical-paper ground on a faint ruled vitals-chart grid; surgical-teal accent; Source Serif 4 headings + Geist UI + Geist Mono data; calibrated reference-range meters; hairline rules; no glass, gradients, or glow.
+      OWN-WORLD: A ground carrying a hint of the brand blue on a faint ruled vitals-chart grid; cortex crimson as the working accent and cortex blue as the structural one, taken from the split-hemisphere mark; Source Serif 4 headings + Geist UI + Geist Mono data + Jost for the logotype alone; calibrated reference-range meters; hairline rules; no glass, gradients, or glow.
       STORY: Student lands, sees what is next and what is slipping, and acts in one click into review, qbank, or library.
       FIRST VIEWPORT: Serif greeting and date rail; "Next on your schedule" prominent left, exam-readiness meter right; progress trio beneath; all seated on the chart grid.
       FORM: User-pinned direction (Editorial-Clinical → Clinical Chart). No concept roll.

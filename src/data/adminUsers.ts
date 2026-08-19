@@ -91,9 +91,9 @@ export const EXTENSION_PRESETS = [
   { label: 'Open-ended', days: null },
 ] as const
 
-export function entitlementTone(state: EntitlementState): 'success' | 'accent' | 'warning' | 'danger' | 'neutral' {
+export function entitlementTone(state: EntitlementState): 'success' | 'primary' | 'warning' | 'danger' | 'neutral' {
   if (state === 'active') return 'success'
-  if (state === 'trialing') return 'accent'
+  if (state === 'trialing') return 'primary'
   if (state === 'expired') return 'warning'
   if (state === 'cancelled') return 'danger'
   return 'neutral'

@@ -9,17 +9,21 @@ import { getSubject } from '@/data/subjects'
 export const SYSTEM_COLORS_KEY = 'synapse-system-colors-v1'
 const CHANGE_EVENT = 'synapse-system-colors-change'
 
-/** A curated palette of common chapter colours for the picker. */
+/**
+ * A curated palette of common chapter colours for the picker. Categorical and
+ * medium-chroma: these have to stay distinguishable from one another, and they
+ * only ever appear on a system chip's 3px spine — never as a fill.
+ */
 export const SYSTEM_COLOR_PALETTE = [
-  '#b3452f', // clay red — cardiovascular
-  '#c2691c', // amber — pharmacology
-  '#2f7d6b', // teal — respiratory
-  '#3b6bb0', // blue — renal
-  '#7a4fb0', // violet — neurology
-  '#4f8f3a', // green — gastrointestinal
-  '#b03a76', // magenta — endocrine
-  '#8a6d3b', // bronze — musculoskeletal
-  '#5b6570', // slate — general
+  '#b52230', // red — cardiovascular
+  '#c14a2e', // rust — pharmacology
+  '#9a6a1f', // ochre — gastrointestinal
+  '#1f8a5a', // emerald — immune
+  '#1f6f8b', // teal — respiratory
+  '#2f6bc7', // blue — neurology
+  '#5a5b9a', // periwinkle — renal
+  '#8d4a72', // plum — endocrine
+  '#6d7688', // slate — general
 ]
 
 let cache: Record<string, string> | null = null

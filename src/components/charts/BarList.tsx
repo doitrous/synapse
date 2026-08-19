@@ -42,11 +42,11 @@ export function BarList({
               className="h-full rounded-full transition-[width] duration-700 ease-[var(--ease-out-quint)]"
               style={{
                 width: mounted ? `${(d.value / max) * 100}%` : '0%',
-                backgroundColor: d.color ?? 'var(--color-accent)',
+                backgroundColor: d.color ?? 'var(--color-primary)',
               }}
             />
           </div>
-          <div className="tnum text-right font-mono text-[12.5px] font-medium text-ink">
+          <div className="tnum text-end font-mono text-[12.5px] font-medium text-ink">
             {d.valueLabel ?? d.value}
           </div>
         </div>

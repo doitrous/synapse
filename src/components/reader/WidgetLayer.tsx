@@ -25,7 +25,7 @@ const TONE_CLASS: Record<NoteTone, string> = {
   sage: 'bg-[color-mix(in_srgb,#4f8f3a_15%,var(--color-surface))] border-[color-mix(in_srgb,#4f8f3a_32%,var(--color-line))]',
   slate: 'bg-[color-mix(in_srgb,#5b6570_15%,var(--color-surface))] border-[color-mix(in_srgb,#5b6570_34%,var(--color-line))]',
   sand: 'bg-[color-mix(in_srgb,#8a6d3b_15%,var(--color-surface))] border-[color-mix(in_srgb,#8a6d3b_32%,var(--color-line))]',
-  clay: 'bg-accent-tint border-accent-line',
+  clay: 'bg-primary-tint border-primary-line',
 }
 
 /** Tape is opaque by design: it has to actually hide what is under it. */
@@ -37,7 +37,7 @@ const TAPE_CLASS: Record<NoteTone, string> = {
   sage: 'bg-[#4f8f3a]',
   slate: 'bg-[#5b6570]',
   sand: 'bg-[#8a6d3b]',
-  clay: 'bg-accent',
+  clay: 'bg-primary',
 }
 
 export function WidgetLayer({
@@ -163,7 +163,7 @@ function Widget({
           'absolute rounded-[3px] transition-opacity duration-200 motion-reduce:transition-none',
           TAPE_CLASS[object.tone],
           peeled ? 'opacity-15' : 'opacity-100',
-          selected && 'ring-2 ring-accent ring-offset-1',
+          selected && 'ring-2 ring-primary ring-offset-1',
         )}
         style={style}
       >
@@ -178,7 +178,7 @@ function Widget({
       className={cn(
         'absolute overflow-hidden rounded-lg border text-start shadow-panel',
         isNote ? TONE_CLASS[object.tone] : 'border-transparent bg-transparent shadow-none',
-        selected && 'ring-2 ring-accent',
+        selected && 'ring-2 ring-primary',
         interactive && !editing && 'cursor-move',
       )}
       style={style}

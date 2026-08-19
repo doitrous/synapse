@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button'
 import { NextOnSchedule } from '@/components/dashboard/NextOnSchedule'
 import { DueReviews } from '@/components/dashboard/DueReviews'
 import { ExamReadinessCard, PracticalSkillsCard, QuestionBankCard } from '@/components/dashboard/ProgressTrio'
-import { TodaysSchedule, TodaysPlanList } from '@/components/dashboard/TodaysPlan'
+import { TodaysAgenda } from '@/components/dashboard/TodaysAgenda'
 import { StudyHeatmap } from '@/components/dashboard/StudyHeatmap'
 import { LastUsedResources } from '@/components/dashboard/LastUsedResources'
 import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
@@ -58,7 +58,7 @@ export function Dashboard() {
       {audienceUnknown && (
         <div className="mb-4 rounded-lg border border-warning/30 bg-warning-tint px-4 py-3 text-[13px] leading-relaxed text-ink-2">
           {t('Nobody has recorded where you study, so your timetable and anything scoped to your year stay empty. Everything else works as normal.')}{' '}
-          <Link to="/app/account" className="font-semibold text-accent-strong hover:text-accent">{t('Add it in your account')}</Link>
+          <Link to="/app/account" className="font-semibold text-primary-strong hover:text-primary">{t('Add it in your account')}</Link>
         </div>
       )}
 
@@ -73,19 +73,19 @@ export function Dashboard() {
           </div>
         </div>
 
-        {/* Full-width schedule timeline (top bar of the "L") */}
-        <TodaysSchedule />
+        {/* The day itself: both calendars in one list, ticked off in place. The
+            separate plan checklist that used to sit below it is gone — it drew
+            the same blocks a second time. */}
+        <TodaysAgenda />
 
-        {/* Left leg: today's plan list; right: Performance, Exam readiness, Question bank + Practical */}
         <div className="grid items-start gap-4 lg:grid-cols-2">
-          <div className="h-full min-w-0"><TodaysPlanList /></div>
           <div className="grid min-w-0 content-start gap-4">
             <PerformanceOverview compact />
+            <QuestionBankCard compact />
+          </div>
+          <div className="grid min-w-0 content-start gap-4">
             <ExamReadinessCard compact />
-            <div className="grid gap-4 sm:grid-cols-2">
-              <QuestionBankCard compact />
-              <PracticalSkillsCard compact />
-            </div>
+            <PracticalSkillsCard compact />
           </div>
         </div>
 

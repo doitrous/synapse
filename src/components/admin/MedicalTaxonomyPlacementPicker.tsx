@@ -82,8 +82,8 @@ export function MedicalTaxonomyPlacementPicker({
       </div>
 
       {primaryNodeId && (
-        <div className="rounded-lg border border-accent-line bg-accent-tint/35 px-3 py-2">
-          <p className="flex items-center gap-1.5 text-[11px] font-semibold text-accent-strong"><Icon icon={Check} size={12} />Primary home</p>
+        <div className="rounded-lg border border-primary-line bg-primary-tint/35 px-3 py-2">
+          <p className="flex items-center gap-1.5 text-[11px] font-semibold text-primary-strong"><Icon icon={Check} size={12} />Primary home</p>
           <p className="mt-1 text-[12px] leading-relaxed text-ink-2">{lineage.map((node) => node.title).join(' → ')}</p>
           <p className="mt-1 font-mono text-[10px] text-ink-3">{primaryNodeId}</p>
         </div>
