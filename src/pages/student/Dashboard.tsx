@@ -58,7 +58,7 @@ export function Dashboard() {
       {audienceUnknown && (
         <div className="mb-4 rounded-lg border border-warning/30 bg-warning-tint px-4 py-3 text-[13px] leading-relaxed text-ink-2">
           {t('Nobody has recorded where you study, so your timetable and anything scoped to your year stay empty. Everything else works as normal.')}{' '}
-          <Link to="/app/account" className="font-semibold text-accent-strong hover:text-accent">{t('Add it in your account')}</Link>
+          <Link to="/app/account" className="font-semibold text-primary-strong hover:text-primary">{t('Add it in your account')}</Link>
         </div>
       )}
 

@@ -37,13 +37,13 @@ interface BoardState { notes: Note[]; links: LinkLine[]; frames: Frame[] }
  */
 const TONES = {
   paper: 'bg-surface border-line',
-  teal: 'bg-accent-tint border-accent-line',
+  teal: 'bg-primary-tint border-primary-line',
   amber: 'bg-warning-tint border-warning/30',
   rose: 'bg-danger-tint border-danger/25',
   sage: 'bg-success-tint border-success/30',
   slate: 'bg-surface-2 border-line-2',
   sand: 'bg-inset border-line-2',
-  clay: 'bg-accent-tint/55 border-accent-line/70',
+  clay: 'bg-primary-tint/55 border-primary-line/70',
 } as const
 
 const TONE_ORDER = ['paper', 'teal', 'amber', 'rose', 'sage', 'sand', 'slate', 'clay'] as const
@@ -495,7 +495,7 @@ export function Whiteboard() {
           key={frame.id}
           className={cn(
             'pointer-events-none absolute rounded-xl border border-dashed bg-surface/25',
-            selectedFrame === frame.id ? 'border-accent' : 'border-line-2',
+            selectedFrame === frame.id ? 'border-primary' : 'border-line-2',
           )}
           style={{ left: frame.x, top: frame.y, width: frame.width, height: frame.height }}
         >
@@ -555,7 +555,7 @@ export function Whiteboard() {
           const isSelected = selectedLink === line.id
           return (
             <g key={line.id}>
-              <path d={d} fill="none" stroke={isSelected ? 'var(--color-accent)' : 'var(--color-line-2)'} strokeWidth={isSelected ? 2.5 : 1.5} />
+              <path d={d} fill="none" stroke={isSelected ? 'var(--color-primary)' : 'var(--color-line-2)'} strokeWidth={isSelected ? 2.5 : 1.5} />
               {/* A 1.5px curve is far too thin to click; this invisible stroke is
                   what a pointer actually has to hit. */}
               <path d={d} fill="none" stroke="transparent" strokeWidth={14} className="pointer-events-auto cursor-pointer" onPointerDown={(event) => { event.stopPropagation(); setSelectedLink(line.id); setSelected(null); setSelectedFrame(null) }} />
@@ -566,7 +566,7 @@ export function Whiteboard() {
                     y1={index === 0 ? start.y : end.y}
                     x2={control.x}
                     y2={control.y}
-                    stroke="var(--color-accent)"
+                    stroke="var(--color-primary)"
                     strokeWidth={1}
                     strokeDasharray="3 3"
                     opacity={0.5}
@@ -576,7 +576,7 @@ export function Whiteboard() {
                     cy={control.y}
                     r={6}
                     fill="var(--color-surface)"
-                    stroke="var(--color-accent)"
+                    stroke="var(--color-primary)"
                     strokeWidth={2}
                     className="pointer-events-auto cursor-grab"
                     onPointerDown={(event) => {
@@ -591,7 +591,7 @@ export function Whiteboard() {
           )
         })}
         {/* The connector currently being pulled, following the cursor. */}
-        {pulled && <path d={pulled} fill="none" stroke="var(--color-accent)" strokeWidth={2} strokeDasharray="5 4" />}
+        {pulled && <path d={pulled} fill="none" stroke="var(--color-primary)" strokeWidth={2} strokeDasharray="5 4" />}
       </svg>
 
       {board.notes.map((note) => (
@@ -602,7 +602,7 @@ export function Whiteboard() {
           className={cn(
             'group absolute cursor-grab select-none rounded-lg border p-3 shadow-panel active:cursor-grabbing',
             TONES[note.tone],
-            selected === note.id && 'ring-2 ring-accent ring-offset-1 ring-offset-paper',
+            selected === note.id && 'ring-2 ring-primary ring-offset-1 ring-offset-paper',
             query && hitIds.has(note.id) && selected !== note.id && 'ring-2 ring-warning ring-offset-1 ring-offset-paper',
           )}
           style={{
@@ -641,7 +641,7 @@ export function Whiteboard() {
                     title={t(TONE_LABEL[tone])}
                     aria-label={t(TONE_LABEL[tone])}
                     onPointerDown={(event) => { event.stopPropagation(); setTone(note.id, tone); setPalette(null) }}
-                    className={cn('size-6 rounded-md border transition-transform hover:scale-110', TONES[tone], note.tone === tone && 'ring-2 ring-accent ring-offset-1 ring-offset-surface')}
+                    className={cn('size-6 rounded-md border transition-transform hover:scale-110', TONES[tone], note.tone === tone && 'ring-2 ring-primary ring-offset-1 ring-offset-surface')}
                   />
                 ))}
               </div>
@@ -660,7 +660,7 @@ export function Whiteboard() {
               onPointerDown={(event) => connectorDown(event, note.id, side)}
               onDoubleClick={(event) => event.stopPropagation()}
               className={cn(
-                'absolute top-1/2 size-3.5 -translate-y-1/2 cursor-crosshair rounded-full border-2 border-accent bg-surface opacity-0 transition-opacity group-hover:opacity-100 focus-visible:opacity-100',
+                'absolute top-1/2 size-3.5 -translate-y-1/2 cursor-crosshair rounded-full border-2 border-primary bg-surface opacity-0 transition-opacity group-hover:opacity-100 focus-visible:opacity-100',
                 selected === note.id && 'opacity-100',
                 side === 'start' ? '-start-2' : '-end-2',
               )}
@@ -720,7 +720,7 @@ export function Whiteboard() {
           what makes it a map of somewhere rather than a map of your notes. */}
       <div className="relative overflow-hidden rounded-md bg-inset" style={{ width: BOARD.width * miniScale, height: BOARD.height * miniScale }}>
         {board.frames.map((frame) => <span key={frame.id} className="absolute rounded border border-line-2" style={{ left: frame.x * miniScale, top: frame.y * miniScale, width: frame.width * miniScale, height: frame.height * miniScale }} />)}
-        {board.notes.map((note) => <span key={note.id} className="absolute rounded-sm bg-accent" style={{ left: note.x * miniScale, top: note.y * miniScale, width: Math.max(3, NOTE_W * miniScale), height: Math.max(2, NOTE_H * miniScale) }} />)}
+        {board.notes.map((note) => <span key={note.id} className="absolute rounded-sm bg-primary" style={{ left: note.x * miniScale, top: note.y * miniScale, width: Math.max(3, NOTE_W * miniScale), height: Math.max(2, NOTE_H * miniScale) }} />)}
         <span className="absolute border border-danger bg-danger/5" style={{ left: visible.x, top: visible.y, width: visible.width, height: visible.height }} />
       </div>
     </div>

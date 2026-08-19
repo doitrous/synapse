@@ -87,7 +87,7 @@ function WhenYouStudy({ records }: { records: AttemptRecord[] }) {
             <div className="flex h-44 items-end gap-1 border-b border-line-2">
               {hours.map((value, hour) => (
                 <div key={hour} className="group relative flex h-full flex-1 items-end focus-visible:outline-none" tabIndex={0} role="img" aria-label={`${value} ${t('answers')} · ${formatTimeString(`${String(hour).padStart(2, '0')}:00`)}`}>
-                  <div className="w-full rounded-t-[3px] bg-accent/75 transition-colors group-hover:bg-accent group-focus:bg-accent" style={{ height: `${(value / peak) * 100}%` }} />
+                  <div className="w-full rounded-t-[3px] bg-primary/75 transition-colors group-hover:bg-primary group-focus:bg-primary" style={{ height: `${(value / peak) * 100}%` }} />
                   <span className="pointer-events-none absolute bottom-[calc(100%+0.35rem)] left-1/2 z-10 hidden -translate-x-1/2 whitespace-nowrap rounded border border-line bg-surface px-2 py-1 font-mono text-[10px] text-ink shadow-raised group-hover:block group-focus:block">{value} · {formatTimeString(`${String(hour).padStart(2, '0')}:00`)}</span>
                 </div>
               ))}
@@ -162,7 +162,7 @@ export function Performance() {
             value={overall === null ? '—' : `${Math.round(overall * 100)}%`}
             label={t('Overall accuracy')}
             sub={`${scored.length} ${t('marked answers')}`}
-            tone="text-accent-strong"
+            tone="text-primary-strong"
           />
           <KpiTile
             icon={ListChecks}
@@ -258,7 +258,7 @@ export function Performance() {
                 key: row.key,
                 value: row.attempts,
                 valueLabel: String(row.attempts),
-                color: 'var(--color-accent)',
+                color: 'var(--color-primary)',
                 label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.key} />{getSubject(row.key).name}</span>,
               }))} />
             </div>
@@ -273,7 +273,7 @@ export function Performance() {
             <p className="text-[12px] text-ink-3">{t('Attempts recorded')}</p>
             <div className="mt-4 flex h-3 overflow-hidden rounded-full">
               {surfaces.map((row, index) => (
-                <span key={row.key} style={{ width: `${(row.attempts / records.length) * 100}%`, backgroundColor: `color-mix(in srgb, var(--color-accent) ${100 - index * 14}%, var(--color-inset))` }} />
+                <span key={row.key} style={{ width: `${(row.attempts / records.length) * 100}%`, backgroundColor: `color-mix(in srgb, var(--color-primary) ${100 - index * 14}%, var(--color-inset))` }} />
               ))}
             </div>
             <div className="mt-4 grid gap-x-6 gap-y-2 sm:grid-cols-2">
@@ -285,7 +285,7 @@ export function Performance() {
               ))}
             </div>
             <p className="mt-5 border-t border-line pt-4 text-[11.5px] leading-relaxed text-ink-3">
-              {t('Stations and checklists are self-scored, so they count as attempts but never toward an accuracy. Cohort comparison is not available: nothing in Synapse aggregates other students yet.')}
+              {t('Stations and checklists are self-scored, so they count as attempts but never toward an accuracy. Cohort comparison is not available: nothing in Connect Cortex aggregates other students yet.')}
             </p>
           </div>
         </Panel>

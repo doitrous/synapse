@@ -71,7 +71,7 @@ export function BulkImport({
         <div className="animate-pop overflow-hidden rounded-xl border border-line bg-surface shadow-pop">
           {/* Header */}
           <div className="flex items-center gap-2.5 border-b border-line px-5 py-3.5">
-            <Icon icon={Upload} size={17} className="text-accent" />
+            <Icon icon={Upload} size={17} className="text-primary" />
             <h2 className="flex-1 font-serif text-[17px] font-semibold text-ink">{title}</h2>
             <button onClick={reset} className="text-ink-3 hover:text-ink" aria-label="Close">
               <Icon icon={X} size={18} />
@@ -81,11 +81,11 @@ export function BulkImport({
           {/* Steps indicator */}
           {step !== 'done' && (
             <div className="flex items-center gap-2 border-b border-line px-5 py-2.5 text-[12px]">
-              <span className={cn('font-medium', step === 'paste' ? 'text-accent' : 'text-ink-3')}>
+              <span className={cn('font-medium', step === 'paste' ? 'text-primary' : 'text-ink-3')}>
                 1 · Paste data
               </span>
               <Icon icon={ArrowRight} size={12} className="text-ink-3" />
-              <span className={cn('font-medium', step === 'map' ? 'text-accent' : 'text-ink-3')}>
+              <span className={cn('font-medium', step === 'map' ? 'text-primary' : 'text-ink-3')}>
                 2 · Map & preview
               </span>
             </div>
@@ -101,7 +101,7 @@ export function BulkImport({
                   value={raw}
                   onChange={(e) => setRaw(e.target.value)}
                   spellCheck={false}
-                  className="h-48 w-full resize-none rounded-md border border-line bg-surface-2 p-3 font-mono text-[12.5px] leading-relaxed text-ink outline-none focus:border-accent"
+                  className="h-48 w-full resize-none rounded-md border border-line bg-surface-2 p-3 font-mono text-[12.5px] leading-relaxed text-ink outline-none focus:border-primary"
                 />
                 <p className="mt-2 text-[12px] text-ink-3">
                   {parsed.rows.length} rows · {parsed.headers.length} columns detected

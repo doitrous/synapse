@@ -25,7 +25,7 @@ import { useT } from '@/lib/i18n'
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 const FIELD =
-  'flex h-11 w-full items-center gap-2 rounded-md border border-line bg-surface px-3 text-start text-[13.5px] text-ink transition-colors focus-within:border-accent focus-within:ring-2 focus-within:ring-[color-mix(in_srgb,var(--color-accent)_18%,transparent)] sm:h-9'
+  'flex h-11 w-full items-center gap-2 rounded-md border border-line bg-surface px-3 text-start text-[13.5px] text-ink transition-colors focus-within:border-primary focus-within:ring-2 focus-within:ring-[color-mix(in_srgb,var(--color-primary)_18%,transparent)] sm:h-9'
 
 function fromIsoDay(value: string): Date | null {
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value.trim())
@@ -131,13 +131,13 @@ export function DateField({
                   className={cn(
                     'tnum grid size-9 place-items-center rounded-md font-mono text-[12px] transition-colors',
                     isSelected
-                      ? 'bg-accent font-semibold text-on-accent'
+                      ? 'bg-primary font-semibold text-on-primary'
                       : blocked
                         ? 'cursor-not-allowed text-ink-3/45'
                         : outside
                           ? 'text-ink-3 hover:bg-inset'
                           : 'text-ink-2 hover:bg-inset hover:text-ink',
-                    !isSelected && sameDay(date, today) && 'ring-1 ring-inset ring-accent/45',
+                    !isSelected && sameDay(date, today) && 'ring-1 ring-inset ring-primary/45',
                   )}
                 >
                   {date.getDate()}
@@ -275,7 +275,7 @@ export function TimeField({
                   onClick={() => { onChange(option.value); setDraft(null); close() }}
                   className={cn(
                     'flex w-full items-center justify-between gap-3 px-3 py-1.5 text-start text-[12.5px] transition-colors',
-                    current ? 'bg-accent-tint font-semibold text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
+                    current ? 'bg-primary-tint font-semibold text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
                   )}
                 >
                   <span className="tnum font-mono">{formatTimeLabel(option.value)}</span>

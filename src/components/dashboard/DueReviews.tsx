@@ -133,7 +133,7 @@ export function DueReviews() {
               <button
                 type="button"
                 onClick={() => setShowAll(true)}
-                className="mt-1 flex w-full items-center justify-center gap-1.5 rounded-md px-2 py-2 text-[12.5px] font-medium text-accent transition-colors hover:bg-accent-tint/40 hover:text-accent-strong"
+                className="mt-1 flex w-full items-center justify-center gap-1.5 rounded-md px-2 py-2 text-[12.5px] font-medium text-primary transition-colors hover:bg-primary-tint/40 hover:text-primary-strong"
               >
                 {t('Show all')} · {items.length}
                 <Icon icon={ArrowRight} size={14} className="rtl:-scale-x-100" />

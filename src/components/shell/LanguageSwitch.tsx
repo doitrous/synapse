@@ -35,7 +35,7 @@ export function LanguageSwitch({ className }: { className?: string }) {
             lang={option.lang}
             className={cn(
               'grid h-9 min-w-11 place-items-center rounded-md px-2 text-[12px] font-medium transition-colors sm:h-7',
-              active ? 'bg-surface text-accent-strong shadow-panel' : 'text-ink-3 hover:text-ink',
+              active ? 'bg-surface text-primary-strong shadow-panel' : 'text-ink-3 hover:text-ink',
             )}
           >
             {option.label}

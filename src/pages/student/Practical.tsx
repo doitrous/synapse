@@ -108,7 +108,7 @@ function SystemSections<T extends { id: string; subjectId: string }>({
               })}
               className="flex w-full items-center gap-2.5 border-b border-line bg-surface-2/50 px-4 py-2.5 text-start transition-colors hover:bg-inset/60"
             >
-              <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !isCollapsed && 'rotate-90')} />
+              <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 chevron-turn')} open={!isCollapsed} />
               <SystemMark subjectId={group.key} />
               <h2 className="font-serif text-[15.5px] font-semibold text-ink">{getSubject(group.key).name}</h2>
               <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{group.items.length}</span>
@@ -201,7 +201,7 @@ function OsceTab({ onOpen }: { onOpen: Open }) {
 
 function caseStatus(status: string) {
   if (status === 'completed') return { tone: 'success' as const, label: 'Completed', cta: 'Review' }
-  if (status === 'in-progress') return { tone: 'accent' as const, label: 'In progress', cta: 'Continue' }
+  if (status === 'in-progress') return { tone: 'primary' as const, label: 'In progress', cta: 'Continue' }
   return { tone: 'neutral' as const, label: 'Not started', cta: 'Start' }
 }
 
@@ -311,7 +311,7 @@ function SkillRow({ skill, status, onCycle }: { skill: Skill; status: SkillStatu
  * headline claiming "14 / 22 signed off". A student can now record what they
  * have practised and what they are ready to be assessed on — and the copy is
  * explicit that this is their own record, not a sign-off, because no assessor
- * identity exists in Synapse to give one.
+ * identity exists in Connect Cortex to give one.
  */
 function SkillsTab() {
   const categories = ['Examination', 'Procedures', 'Communication'] as const
@@ -335,12 +335,12 @@ function SkillsTab() {
         <span className="tnum font-mono text-[20px] font-semibold text-ink">
           {summary.ready} / {summary.total}
         </span>
-        <Meter value={pct} tone="accent" className="w-full sm:w-56" />
+        <Meter value={pct} tone="primary" className="w-full sm:w-56" />
       </Panel>
 
       <p className="flex items-start gap-2 rounded-lg border border-line bg-surface-2/40 px-3.5 py-2.5 text-[12px] leading-relaxed text-ink-2">
         <Icon icon={CircleCheck} size={14} className="mt-0.5 shrink-0 text-ink-3" />
-        This is your own record of what you have practised. A formal sign-off is given by an assessor and is not recorded in Synapse.
+        This is your own record of what you have practised. A formal sign-off is given by an assessor and is not recorded in Connect Cortex.
       </p>
 
       {categories.map((cat) => {
@@ -409,7 +409,7 @@ function LabTab({ onOpen }: { onOpen: Open }) {
                 </span>
               </p>
             </div>
-            <Meter value={pct} tone="accent" className="w-28" />
+            <Meter value={pct} tone="primary" className="w-28" />
             <Button
               variant="secondary"
               size="sm"
@@ -469,7 +469,7 @@ function OralTab() {
             })}
             className="mb-2 flex w-full items-center gap-2 rounded-md px-1 py-1 text-start transition-colors hover:bg-inset/60"
           >
-            <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !isCollapsed && 'rotate-90')} />
+            <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 chevron-turn')} open={!isCollapsed} />
             <SystemMark subjectId={subj.id} />
             <h2 className="font-serif text-[16px] font-semibold text-ink">{subj.name}</h2>
             <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{questions.length}</span>
@@ -483,8 +483,8 @@ function OralTab() {
                   <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{q.topic}</p>
                   <p className="mt-1 text-[14.5px] font-medium leading-snug text-ink">{q.question}</p>
                   {isOpen ? (
-                    <div className="mt-3 rounded-lg border border-accent-line bg-accent-tint/30 p-3">
-                      <p className="mb-1 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-accent-strong">
+                    <div className="mt-3 rounded-lg border border-primary-line bg-primary-tint/30 p-3">
+                      <p className="mb-1 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-primary-strong">
                         <CircleCheck size={13} /> Model answer
                       </p>
                       <p className="text-[13.5px] leading-relaxed text-ink"><ConceptText text={q.modelAnswer} /></p>

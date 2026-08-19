@@ -39,11 +39,11 @@ function AfterRevealPreview({ concept }: { concept: Concept }) {
       </p>
       <p className="text-[14px] leading-relaxed text-ink">
         …supports a diagnosis of{' '}
-        <span className="rounded-sm border-b border-dotted border-accent-strong font-semibold text-accent-strong">{concept.label.toLowerCase()}</span>?
+        <span className="rounded-sm border-b border-dotted border-primary-strong font-semibold text-primary-strong">{concept.label.toLowerCase()}</span>?
       </p>
       <div className="mt-3 w-[min(20rem,100%)] rounded-xl border border-line bg-surface p-3.5 shadow-panel">
         <div className="flex items-start gap-2.5">
-          <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={BookOpenText} size={15} /></span>
+          <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={BookOpenText} size={15} /></span>
           <div className="min-w-0 flex-1">
             <p className="text-[13.5px] font-bold text-ink">{concept.label}</p>
             <p className="font-mono text-[10px] text-ink-3">{concept.id}</p>
@@ -108,7 +108,7 @@ function ConceptSources({ concept, evidence }: { concept: Concept; evidence: Med
   return (
     <section className="overflow-hidden rounded-lg border border-line bg-surface" aria-labelledby={`concept-sources-${concept.id}`}>
       <div className="flex items-start gap-2.5 border-b border-line bg-surface-2/50 px-3.5 py-3">
-        <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Database} size={15} /></span>
+        <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={Database} size={15} /></span>
         <div className="min-w-0 flex-1">
           <p id={`concept-sources-${concept.id}`} className="text-[12px] font-bold uppercase tracking-[0.06em] text-ink">Sources that teach this concept</p>
           <p className="mt-0.5 text-[11px] leading-relaxed text-ink-3">Every source is preserved with its supporting passage and exact location when available.</p>
@@ -138,9 +138,9 @@ function ConceptSources({ concept, evidence }: { concept: Concept; evidence: Med
 
                 <div className="mt-2.5 space-y-2">
                   {resourceCitations.length > 0 ? resourceCitations.map((citation) => (
-                    <div key={citation.id} className="rounded-md border-s-2 border-accent-line bg-surface-2/45 px-2.5 py-2">
+                    <div key={citation.id} className="rounded-md border-s-2 border-primary-line bg-surface-2/45 px-2.5 py-2">
                       <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                        <span className="font-mono text-[10px] font-semibold text-accent-strong">{sourceLocatorLabel(citation.locator)}</span>
+                        <span className="font-mono text-[10px] font-semibold text-primary-strong">{sourceLocatorLabel(citation.locator)}</span>
                         <span className={cn('text-[9.5px] font-semibold uppercase tracking-[0.04em]', citation.countsAsClaimEvidence ? 'text-success' : 'text-ink-3')}>
                           {citation.countsAsClaimEvidence ? 'Exact evidence' : 'Context'}
                         </span>
@@ -157,7 +157,7 @@ function ConceptSources({ concept, evidence }: { concept: Concept; evidence: Med
                   <Button size="sm" variant="secondary" iconLeft={ExternalLink} onClick={() => void openResource(resource, resourceCitations)}>Go to source</Button>
                 </div>
                 {openError === resource.id && (
-                  <p role="alert" className="mt-2 rounded-md border border-warning/25 bg-warning-tint px-2.5 py-2 text-[10.5px] leading-relaxed text-warning">The citation is preserved, but this file is still awaiting secure upload to Synapse storage.</p>
+                  <p role="alert" className="mt-2 rounded-md border border-warning/25 bg-warning-tint px-2.5 py-2 text-[10.5px] leading-relaxed text-warning">The citation is preserved, but this file is still awaiting secure upload to Connect Cortex storage.</p>
                 )}
               </article>
             )
@@ -193,7 +193,7 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
         </div>
         <Field label="Universities">
           <div className="grid max-h-44 grid-cols-2 gap-1 overflow-y-auto rounded-lg border border-line bg-surface p-2">
-            {universities.map((university) => <label key={university.id} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-accent)]" checked={(value.universityIds ?? []).includes(university.id)} onChange={() => onPatch({ universityIds: (value.universityIds ?? []).includes(university.id) ? (value.universityIds ?? []).filter((id) => id !== university.id) : [...(value.universityIds ?? []), university.id] })} />{university.short}</label>)}
+            {universities.map((university) => <label key={university.id} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset"><input type="checkbox" className="accent-[var(--color-primary)]" checked={(value.universityIds ?? []).includes(university.id)} onChange={() => onPatch({ universityIds: (value.universityIds ?? []).includes(university.id) ? (value.universityIds ?? []).filter((id) => id !== university.id) : [...(value.universityIds ?? []), university.id] })} />{university.short}</label>)}
           </div>
         </Field>
         <Field label="Explicit learning objective"><Textarea value={value.explicitObjective ?? ''} onChange={(event) => onPatch({ explicitObjective: event.target.value })} className="min-h-16" /></Field>
@@ -541,12 +541,12 @@ export function ConceptsSetup() {
                     {Object.entries(draft.examWeightByYear ?? {}).map(([yearKey, weight]) => (
                       <div key={yearKey} className="flex items-center gap-2">
                         <span className="tnum w-20 font-mono text-[11px] text-ink-2">{yearKey}</span>
-                        <input type="range" min={0} max={1} step={0.05} value={weight} onChange={(e) => patch({ examWeightByYear: { ...(draft.examWeightByYear ?? {}), [yearKey]: num01(e.target.value) } })} className="flex-1 accent-[var(--color-accent)]" />
+                        <input type="range" min={0} max={1} step={0.05} value={weight} onChange={(e) => patch({ examWeightByYear: { ...(draft.examWeightByYear ?? {}), [yearKey]: num01(e.target.value) } })} className="flex-1 accent-[var(--color-primary)]" />
                         <span className="tnum w-8 text-end font-mono text-[11px] text-ink">{Number(weight).toFixed(2)}</span>
                       </div>
                     ))}
                     {Object.keys(draft.examWeightByYear ?? {}).length === 0 && (
-                      <button type="button" onClick={() => patch({ examWeightByYear: { KAU_Y2: 0.5, KAU_Y3: 0.5 } })} className="text-[12px] font-medium text-accent hover:text-accent-strong">+ Add year weights</button>
+                      <button type="button" onClick={() => patch({ examWeightByYear: { KAU_Y2: 0.5, KAU_Y3: 0.5 } })} className="text-[12px] font-medium text-primary hover:text-primary-strong">+ Add year weights</button>
                     )}
                   </div>
                 </div>
@@ -555,11 +555,11 @@ export function ConceptsSetup() {
                 <div className="rounded-lg border border-line bg-surface-2/40 p-3">
                   <div className="mb-1.5 flex items-center justify-between">
                     <p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Relationships</p>
-                    <Link to="/admin/relationships" className="text-[11px] font-medium text-accent hover:text-accent-strong">Manage →</Link>
+                    <Link to="/admin/relationships" className="text-[11px] font-medium text-primary hover:text-primary-strong">Manage →</Link>
                   </div>
                   {graph.relations.filter((rel) => rel.sourceId === selected.id || rel.targetId === selected.id).slice(0, 6).map((rel) => (
                     <p key={rel.id} className="font-mono text-[10.5px] leading-relaxed text-ink-2">
-                      {rel.sourceId === selected.id ? <><span className="text-accent-strong">{rel.type}</span> → {conceptLabel(rel.targetId)}</> : <>{conceptLabel(rel.sourceId)} → <span className="text-accent-strong">{rel.type}</span></>}
+                      {rel.sourceId === selected.id ? <><span className="text-primary-strong">{rel.type}</span> → {conceptLabel(rel.targetId)}</> : <>{conceptLabel(rel.sourceId)} → <span className="text-primary-strong">{rel.type}</span></>}
                     </p>
                   ))}
                   {graph.relations.filter((rel) => rel.sourceId === selected.id || rel.targetId === selected.id).length === 0 && (

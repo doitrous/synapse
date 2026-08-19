@@ -109,7 +109,7 @@ export function NextOnSchedule() {
         icon={CalendarClock}
         hint={next.courseName}
         action={
-          <Link to="/app/calendar" className="inline-flex items-center gap-1 text-[12.5px] font-medium text-accent hover:text-accent-strong">
+          <Link to="/app/calendar" className="inline-flex items-center gap-1 text-[12.5px] font-medium text-primary hover:text-primary-strong">
             {t('Full schedule')}
             <Icon icon={ArrowRight} size={14} className="rtl:-scale-x-100" />
           </Link>
@@ -143,7 +143,7 @@ export function NextOnSchedule() {
             </span>
           )}
           {next.topicIds.length > 0 && <SystemMark subjectId={subject.id} index={Math.max(1, sameDayIndex)} />}
-          <Badge tone={next.isExam ? 'danger' : 'accent'} className="text-[11.5px]">{t(next.label)}</Badge>
+          <Badge tone={next.isExam ? 'danger' : 'primary'} className="text-[11.5px]">{t(next.label)}</Badge>
         </div>
 
         <div className="mt-4 flex flex-wrap justify-center gap-2">

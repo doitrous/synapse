@@ -40,7 +40,7 @@ export function LastUsedResources() {
         action={
           <Link
             to="/app/resources"
-            className="inline-flex items-center gap-1 text-[12.5px] font-medium text-accent hover:text-accent-strong"
+            className="inline-flex items-center gap-1 text-[12.5px] font-medium text-primary hover:text-primary-strong"
           >
             {t('All')}
             <Icon icon={ArrowRight} size={14} className="rtl:-scale-x-100" />

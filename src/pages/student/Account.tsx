@@ -59,7 +59,7 @@ export function Account() {
   const [exportError, setExportError] = useState('')
 
   const patch = (next: Partial<AccountPrefs>) => setPrefs((current) => ({ ...current, ...next }))
-  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Synapse profile change request')}`
+  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Connect Cortex profile change request')}`
 
   /**
    * Everything this account has stored, not just what this page happens to hold.
@@ -119,9 +119,9 @@ export function Account() {
                 <p className="rounded-lg border border-line bg-surface-2/50 px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
                   {profileMissing
                     ? t("Your university hasn't set up your student profile yet. Until it does, your timetable and any content scoped to your year won't appear.")
-                    : t('Your name, university, year and group are recorded by your university. They decide which content and offers apply to you, so they are changed by the Synapse team rather than here.')}
+                    : t('Your name, university, year and group are recorded by your university. They decide which content and offers apply to you, so they are changed by the Connect Cortex team rather than here.')}
                   {' '}
-                  <a href={supportLink} className="font-semibold text-accent-strong hover:text-accent">{t('Request a change')}</a>
+                  <a href={supportLink} className="font-semibold text-primary-strong hover:text-primary">{t('Request a change')}</a>
                 </p>
               </div>
             </div>
@@ -147,7 +147,7 @@ export function Account() {
                 product updates — were read by nothing at all. They return when
                 email delivery actually consults a preference. */}
             <p className="border-t border-line px-5 py-3 text-[11.5px] leading-relaxed text-ink-3">
-              {t('Email preferences are not configurable yet. Synapse only emails you about your account.')}
+              {t('Email preferences are not configurable yet. Connect Cortex only emails you about your account.')}
             </p>
           </Panel>
         </div>
@@ -215,7 +215,7 @@ export function Account() {
           <Panel>
             <PanelHeader title={t('Support')} icon={LifeBuoy} />
             <div className="p-4">
-              <a href={supportLink}><Button className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Synapse team')}</Button></a>
+              <a href={supportLink}><Button className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Connect Cortex team')}</Button></a>
             </div>
           </Panel>
         </div>

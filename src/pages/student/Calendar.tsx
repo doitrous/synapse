@@ -87,7 +87,7 @@ function Chip({ event }: { event: CalEvent }) {
   return (
     <div className={cn(
       'flex min-w-0 items-center gap-1.5 truncate rounded px-1.5 py-1 text-[10.5px]',
-      curriculum ? 'bg-accent-tint font-medium text-accent-strong' : 'border border-dashed border-line-2 bg-surface text-ink-2',
+      curriculum ? 'bg-primary-tint font-medium text-primary-strong' : 'border border-dashed border-line-2 bg-surface text-ink-2',
     )}>
       {!curriculum && <span className="h-3 w-0.5 shrink-0 rounded-full" style={{ backgroundColor: subject.color }} />}
       <span className="tnum shrink-0 font-mono text-[9.5px] opacity-75">{formatTimeString(event.time)}</span>
@@ -191,7 +191,7 @@ function EventDetailDialog({ event, onClose, onEdit }: { event: CalEvent; onClos
             <span
               className={cn(
                 'inline-flex rounded-full px-2 py-0.5 text-[10.5px] font-semibold uppercase tracking-[0.06em]',
-                curriculum ? 'bg-accent-tint text-accent-strong' : 'border border-dashed border-line-2 text-ink-2',
+                curriculum ? 'bg-primary-tint text-primary-strong' : 'border border-dashed border-line-2 text-ink-2',
               )}
             >
               {curriculum ? t('Curriculum') : t('Personal')}
@@ -258,7 +258,7 @@ function DaySheet({ date, events, onClose, onEvent, onAdd }: { date: Date; event
                 const subject = getSubject(event.subjectId)
                 return (
                   <li key={event.id}>
-                    <button type="button" onClick={() => onEvent(event)} className="grid w-full grid-cols-[3.5rem_1fr_auto] items-center gap-2 rounded-lg border border-line bg-surface-2/50 p-2.5 text-start transition-colors hover:border-accent-line hover:bg-accent-tint/25">
+                    <button type="button" onClick={() => onEvent(event)} className="grid w-full grid-cols-[3.5rem_1fr_auto] items-center gap-2 rounded-lg border border-line bg-surface-2/50 p-2.5 text-start transition-colors hover:border-primary-line hover:bg-primary-tint/25">
                       <span className="tnum font-mono text-[11px] text-ink-3">{formatTimeString(event.time)}</span>
                       <span className="min-w-0">
                         <span className="flex items-center gap-1.5"><span className="h-3 w-0.5 shrink-0 rounded-full" style={{ backgroundColor: subject.color }} /><span className="truncate text-[13px] font-medium text-ink">{event.title}</span></span>
@@ -375,7 +375,7 @@ export function CalendarPage() {
         </div>
         {/* Row 2: filters + add */}
         <div className="flex flex-wrap items-center gap-3">
-          <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-2"><span className="size-2.5 rounded-sm bg-accent-tint ring-1 ring-accent-line" />{t('Curriculum')}<Toggle checked={showCurriculum} onChange={setShowCurriculum} label={t('Curriculum')} /></label>
+          <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-2"><span className="size-2.5 rounded-sm bg-primary-tint ring-1 ring-primary-line" />{t('Curriculum')}<Toggle checked={showCurriculum} onChange={setShowCurriculum} label={t('Curriculum')} /></label>
           <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-2"><span className="size-2.5 rounded-sm border border-dashed border-line-2 bg-surface" />{t('Personal')}<Toggle checked={showPersonal} onChange={setShowPersonal} label={t('Personal')} tint="#55605c" /></label>
           <Button className="ms-auto" variant="primary" size="sm" iconLeft={Plus} onClick={() => setDialogDate(new Date())}>{t('Add block')}</Button>
         </div>
@@ -391,13 +391,13 @@ export function CalendarPage() {
                 const inMonth = date.getMonth() === anchor.getMonth()
                 const isToday = sameDay(date, today)
                 return (
-                  <button key={dayKey(date)} onClick={() => openDay(date)} className={cn('group min-h-[64px] border-b border-r border-line p-1 text-left transition-colors hover:bg-accent-tint/25 focus-visible:z-10 focus-visible:outline-2 focus-visible:outline-accent sm:min-h-[112px] sm:p-1.5', index % 7 === 6 && 'border-r-0', !inMonth && 'bg-surface-2/40')} aria-label={`${formatLongDate(date)} — ${events.length} events`}>
+                  <button key={dayKey(date)} onClick={() => openDay(date)} className={cn('group min-h-[64px] border-b border-r border-line p-1 text-left transition-colors hover:bg-primary-tint/25 focus-visible:z-10 focus-visible:outline-2 focus-visible:outline-primary sm:min-h-[112px] sm:p-1.5', index % 7 === 6 && 'border-r-0', !inMonth && 'bg-surface-2/40')} aria-label={`${formatLongDate(date)} — ${events.length} events`}>
                     <div className="mb-1 flex items-center justify-between">
                       <Icon icon={Plus} size={12} className="text-ink-3 opacity-0 transition-opacity group-hover:opacity-100" />
-                      <span className={cn('tnum grid size-6 place-items-center rounded-full text-[12px] font-medium', isToday ? 'bg-accent text-on-accent' : inMonth ? 'text-ink-2' : 'text-ink-3')}>{date.getDate()}</span>
+                      <span className={cn('tnum grid size-6 place-items-center rounded-full text-[12px] font-medium', isToday ? 'bg-primary text-on-primary' : inMonth ? 'text-ink-2' : 'text-ink-3')}>{date.getDate()}</span>
                     </div>
                     <div className="hidden space-y-1 sm:block">{events.slice(0, 3).map((event) => <Chip key={event.id} event={event} />)}{events.length > 3 && <div className="px-1.5 text-[10.5px] font-medium text-ink-3">+{events.length - 3} {t('more')}</div>}</div>
-                    {events.length > 0 && <div className="mt-1 flex flex-wrap justify-end gap-0.5 sm:hidden">{events.slice(0, 3).map((event) => <span key={event.id} className={cn('size-1.5 rounded-full', event.layer === 'curriculum' ? 'bg-accent' : 'border border-line-2 bg-surface')} />)}{events.length > 3 && <span className="font-mono text-[8px] leading-none text-ink-3">+{events.length - 3}</span>}</div>}
+                    {events.length > 0 && <div className="mt-1 flex flex-wrap justify-end gap-0.5 sm:hidden">{events.slice(0, 3).map((event) => <span key={event.id} className={cn('size-1.5 rounded-full', event.layer === 'curriculum' ? 'bg-primary' : 'border border-line-2 bg-surface')} />)}{events.length > 3 && <span className="font-mono text-[8px] leading-none text-ink-3">+{events.length - 3}</span>}</div>}
                   </button>
                 )
               })}
@@ -407,7 +407,7 @@ export function CalendarPage() {
           <div className="space-y-2">
             {days.map((date, index) => {
               const events = visible(eventMap.get(dayKey(date)))
-              return <Panel key={dayKey(date)} className="flex flex-col gap-2 p-3 sm:flex-row sm:gap-3"><button onClick={() => openDay(date)} className="flex w-full shrink-0 items-center gap-2 rounded-md text-start hover:bg-inset sm:w-28"><span className="text-[12px] font-medium uppercase tracking-wide text-ink-3">{t(WEEKDAYS[index])}</span><span className={cn('tnum grid size-8 place-items-center rounded-full font-serif text-[16px] font-semibold', sameDay(date, today) ? 'bg-accent text-on-accent' : 'text-ink')}>{date.getDate()}</span></button><div className="grid min-w-0 flex-1 gap-1.5 sm:grid-cols-2">{events.length ? events.map((event) => <button key={event.id} type="button" onClick={() => setDetailEvent(event)} className="min-w-0 text-start"><Chip event={event} /></button>) : <button onClick={() => setDialogDate(date)} className="rounded-md border border-dashed border-line px-3 py-2 text-start text-[12.5px] text-ink-3 hover:border-line-2">+ {t('Add a block')}</button>}</div></Panel>
+              return <Panel key={dayKey(date)} className="flex flex-col gap-2 p-3 sm:flex-row sm:gap-3"><button onClick={() => openDay(date)} className="flex w-full shrink-0 items-center gap-2 rounded-md text-start hover:bg-inset sm:w-28"><span className="text-[12px] font-medium uppercase tracking-wide text-ink-3">{t(WEEKDAYS[index])}</span><span className={cn('tnum grid size-8 place-items-center rounded-full font-serif text-[16px] font-semibold', sameDay(date, today) ? 'bg-primary text-on-primary' : 'text-ink')}>{date.getDate()}</span></button><div className="grid min-w-0 flex-1 gap-1.5 sm:grid-cols-2">{events.length ? events.map((event) => <button key={event.id} type="button" onClick={() => setDetailEvent(event)} className="min-w-0 text-start"><Chip event={event} /></button>) : <button onClick={() => setDialogDate(date)} className="rounded-md border border-dashed border-line px-3 py-2 text-start text-[12.5px] text-ink-3 hover:border-line-2">+ {t('Add a block')}</button>}</div></Panel>
             })}
           </div>
         )}
@@ -416,7 +416,7 @@ export function CalendarPage() {
           <Panel>
             <PanelHeader title={t("Today's view")} icon={Clock} hint={formatLongDate(today)} />
             <div className="p-3">
-              {todayEvents.length ? <ul className="space-y-2">{todayEvents.map((event) => <li key={event.id}><button type="button" onClick={() => setDetailEvent(event)} className="grid w-full grid-cols-[4.5rem_1fr_auto] items-center gap-2 rounded-lg border border-line bg-surface-2/50 p-2.5 text-start transition-colors hover:border-accent-line hover:bg-accent-tint/25"><span className="tnum font-mono text-[10.5px] text-ink-3">{formatTimeString(event.time)}</span><span><span className="block text-[12.5px] font-medium text-ink">{event.title}</span><span className="mt-0.5 block text-[11px] text-ink-3">{event.kind}</span></span><Icon icon={ChevronRight} size={15} className="text-ink-3 rtl:-scale-x-100" /></button></li>)}</ul> : <div className="rounded-lg border border-line bg-surface-2 p-4"><p className="text-[13px] font-medium text-ink">{t('Nothing scheduled')}</p><p className="mt-2 text-[13px] leading-relaxed text-ink-2">{t('A clear day. If it is deliberate, leave it clear—recovery is part of the plan.')}</p></div>}
+              {todayEvents.length ? <ul className="space-y-2">{todayEvents.map((event) => <li key={event.id}><button type="button" onClick={() => setDetailEvent(event)} className="grid w-full grid-cols-[4.5rem_1fr_auto] items-center gap-2 rounded-lg border border-line bg-surface-2/50 p-2.5 text-start transition-colors hover:border-primary-line hover:bg-primary-tint/25"><span className="tnum font-mono text-[10.5px] text-ink-3">{formatTimeString(event.time)}</span><span><span className="block text-[12.5px] font-medium text-ink">{event.title}</span><span className="mt-0.5 block text-[11px] text-ink-3">{event.kind}</span></span><Icon icon={ChevronRight} size={15} className="text-ink-3 rtl:-scale-x-100" /></button></li>)}</ul> : <div className="rounded-lg border border-line bg-surface-2 p-4"><p className="text-[13px] font-medium text-ink">{t('Nothing scheduled')}</p><p className="mt-2 text-[13px] leading-relaxed text-ink-2">{t('A clear day. If it is deliberate, leave it clear—recovery is part of the plan.')}</p></div>}
               <Button className="mt-3 w-full" variant="secondary" size="sm" iconLeft={Plus} onClick={() => setDialogDate(today)}>{t('Add to today')}</Button>
             </div>
           </Panel>

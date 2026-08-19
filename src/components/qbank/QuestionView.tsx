@@ -53,7 +53,7 @@ export function QuestionView({
   function optionClasses(index: number): string {
     if (!revealed) {
       return chosen === index
-        ? 'border-accent bg-accent-tint/50'
+        ? 'border-primary bg-primary-tint/50'
         : 'border-line bg-surface hover:border-line-2'
     }
     if (index === answer) return 'border-success bg-success-tint'
@@ -103,7 +103,7 @@ export function QuestionView({
                   'grid size-7 shrink-0 place-items-center rounded-full border font-mono text-[12.5px] font-bold',
                   revealed && index === answer ? 'border-success bg-success text-on-success'
                     : revealed && chosen === index ? 'border-danger bg-danger text-on-danger'
-                      : chosen === index ? 'border-accent bg-accent text-on-accent'
+                      : chosen === index ? 'border-primary bg-primary text-on-primary'
                         : 'border-line-2 bg-surface text-ink-2',
                 )}
               >

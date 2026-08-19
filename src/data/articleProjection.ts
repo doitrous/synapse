@@ -132,7 +132,7 @@ export function overlaySubtopic(
       ...blocks,
       ...notes.map((n): LibBlock => {
         const short = universities.find((u) => u.id === n.universityId)?.short ?? n.universityId
-        return { type: 'callout', tone: 'accent', title: `${short} only`, text: n.text.trim() }
+        return { type: 'callout', tone: 'primary', title: `${short} only`, text: n.text.trim() }
       }),
     ]
   }
@@ -226,7 +226,7 @@ export function articleToSubtopic(
   const traps = publishableCallouts('trap', d, evidence)
   ;(isEvidenceGated ? [] : d?.universityNotes ?? []).filter((n) => n.text?.trim()).forEach((n) => {
     const short = universities.find((u) => u.id === n.universityId)?.short ?? n.universityId
-    blocks.push({ type: 'callout', tone: 'accent', title: `${short} only`, text: n.text!.trim() })
+    blocks.push({ type: 'callout', tone: 'primary', title: `${short} only`, text: n.text!.trim() })
   })
   if (sourceBlocks.length) blocks.push({ type: 'sources', count: sourceBlocks.length }, ...sourceBlocks)
   // Authored key points follow the same per-line evidence policy as traps.

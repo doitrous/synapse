@@ -123,7 +123,7 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
     <div className="fixed inset-0 z-50 grid place-items-center bg-ink/25 p-0 backdrop-blur-[2px] sm:p-4" role="dialog" aria-modal="true" aria-labelledby="course-curriculum-title">
       <div className="flex h-full max-h-none w-full max-w-5xl flex-col overflow-hidden border border-line bg-paper pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)] shadow-pop sm:h-[90vh] sm:rounded-2xl sm:pb-0 sm:pt-0">
         <header className="flex flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-3 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-4">
-          <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={BookOpenText} size={17} /></span>
+          <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={BookOpenText} size={17} /></span>
           <div className="min-w-0 flex-1"><h2 id="course-curriculum-title" className="truncate font-serif text-[18px] font-semibold text-ink">{course.name} curriculum</h2><p className="truncate text-[11.5px] text-ink-3">{year} · {course.block} · define the exact module catalogue</p></div>
           <button type="button" onClick={onClose} className="grid size-10 shrink-0 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close curriculum editor"><Icon icon={X} size={18} /></button>
           <div className="flex basis-full justify-end gap-2 sm:contents"><Button type="button" variant="ghost" onClick={onClose}>Cancel</Button><Button type="button" variant="primary" onClick={() => onSave(draft)}>Save curriculum</Button></div>
@@ -145,8 +145,8 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
         {/* One press per chosen topic, on every tab — including this one, where it
             takes the articles that sit under the topic rather than the topic itself. */}
         {chosenTopics.length > 0 && (
-          <div className="flex flex-wrap items-center gap-2 border-b border-line bg-accent-tint/25 px-4 py-2.5">
-            <span className="text-[11.5px] font-semibold text-accent-strong">From your library topics</span>
+          <div className="flex flex-wrap items-center gap-2 border-b border-line bg-primary-tint/25 px-4 py-2.5">
+            <span className="text-[11.5px] font-semibold text-primary-strong">From your library topics</span>
             {chosenTopics.map((nodeId) => {
                   const node = taxonomyIndex.byId.get(nodeId)
                   const title = node?.title ?? nodeId
@@ -218,8 +218,8 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
                   ? filteredConcepts.map((concept) => {
                     const checked = selected.includes(concept.id)
                     return (
-                      <label key={concept.id} className={`flex min-h-[4.5rem] cursor-pointer items-start gap-3 rounded-xl border p-3 transition-colors ${checked ? 'border-accent-line bg-accent-tint/45' : 'border-line bg-surface hover:bg-inset'}`}>
-                        <input type="checkbox" checked={checked} onChange={() => toggle(concept.id)} className="mt-1 size-4 accent-[var(--color-accent)]" />
+                      <label key={concept.id} className={`flex min-h-[4.5rem] cursor-pointer items-start gap-3 rounded-xl border p-3 transition-colors ${checked ? 'border-primary-line bg-primary-tint/45' : 'border-line bg-surface hover:bg-inset'}`}>
+                        <input type="checkbox" checked={checked} onChange={() => toggle(concept.id)} className="mt-1 size-4 accent-[var(--color-primary)]" />
                         <span className="min-w-0 flex-1"><span className="line-clamp-2 block text-[13px] font-semibold leading-snug text-ink">{concept.label}</span><span className="mt-1 block truncate font-mono text-[10px] text-ink-3">{concept.id}</span></span>
                       </label>
                     )
@@ -228,8 +228,8 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
                     const checked = selected.includes(item.id)
                     const subject = subjects.find((candidate) => candidate.id === item.subjectId)
                     return (
-                      <label key={item.id} className={`flex min-h-[4.5rem] cursor-pointer items-start gap-3 rounded-xl border p-3 transition-colors ${checked ? 'border-accent-line bg-accent-tint/45' : 'border-line bg-surface hover:bg-inset'}`}>
-                        <input type="checkbox" checked={checked} onChange={() => toggle(item.id)} className="mt-1 size-4 accent-[var(--color-accent)]" />
+                      <label key={item.id} className={`flex min-h-[4.5rem] cursor-pointer items-start gap-3 rounded-xl border p-3 transition-colors ${checked ? 'border-primary-line bg-primary-tint/45' : 'border-line bg-surface hover:bg-inset'}`}>
+                        <input type="checkbox" checked={checked} onChange={() => toggle(item.id)} className="mt-1 size-4 accent-[var(--color-primary)]" />
                         <span className="min-w-0 flex-1"><span className="line-clamp-2 block text-[13px] font-semibold leading-snug text-ink">{item.title}</span><span className="mt-1 flex flex-wrap gap-1.5"><Badge tone="outline">{subject?.short ?? item.subjectId}</Badge>{item.fields.Topic && <Badge tone="neutral">{item.fields.Topic}</Badge>}{item.fields.Difficulty && <Badge tone="warning">{item.fields.Difficulty}</Badge>}</span></span>
                       </label>
                     )

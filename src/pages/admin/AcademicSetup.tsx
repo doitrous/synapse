@@ -271,13 +271,13 @@ export function AcademicSetup() {
                   onClick={() => { setSelectedId(u.id); setEditingIdentity(false) }}
                   className={cn(
                     'flex w-full items-center gap-3 rounded-md px-2.5 py-2 text-left transition-colors',
-                    selectedId === u.id ? 'bg-accent-tint' : 'hover:bg-inset',
+                    selectedId === u.id ? 'bg-primary-tint' : 'hover:bg-inset',
                   )}
                 >
                   <span
                     className={cn(
                       'grid size-8 shrink-0 place-items-center rounded-md text-[11px] font-semibold',
-                      selectedId === u.id ? 'bg-accent text-on-accent' : 'bg-inset text-ink-2',
+                      selectedId === u.id ? 'bg-primary text-on-primary' : 'bg-inset text-ink-2',
                     )}
                   >
                     {u.short}
@@ -286,7 +286,7 @@ export function AcademicSetup() {
                     <span
                       className={cn(
                         'block truncate text-[13.5px] font-medium',
-                        selectedId === u.id ? 'text-accent-strong' : 'text-ink',
+                        selectedId === u.id ? 'text-primary-strong' : 'text-ink',
                       )}
                     >
                       {u.name}
@@ -312,7 +312,7 @@ export function AcademicSetup() {
             ) : (
               <div className="flex flex-wrap items-center gap-4">
                 <div className="min-w-0 flex-1">
-                  <div className="flex flex-wrap items-center gap-2"><h2 className="font-serif text-[20px] font-semibold text-ink">{uni.name}</h2><span className="rounded-md border border-accent-line bg-accent-tint px-2 py-0.5 font-mono text-[11px] font-bold text-accent-strong">{uni.short}</span></div>
+                  <div className="flex flex-wrap items-center gap-2"><h2 className="font-serif text-[20px] font-semibold text-ink">{uni.name}</h2><span className="rounded-md border border-primary-line bg-primary-tint px-2 py-0.5 font-mono text-[11px] font-bold text-primary-strong">{uni.short}</span></div>
                   <p className="mt-0.5 flex items-center gap-1.5 text-[12.5px] text-ink-3"><Icon icon={MapPin} size={13} />{uni.region} · {uni.years.length} years · {totalStudents.toLocaleString()} students</p>
                 </div>
                 <Button variant="secondary" size="sm" iconLeft={Pencil} onClick={startIdentityEdit}>Edit university details</Button>
@@ -332,7 +332,7 @@ export function AcademicSetup() {
                 ) : (
                   <>
                     <h3 className="font-serif text-[16px] font-semibold text-ink">{y.year}</h3>
-                    <span className="rounded-md border border-accent-line bg-accent-tint px-2 py-0.5 font-mono text-[10.5px] font-bold text-accent-strong" title="Unique year ID">{yearId(uni.id, y.year)}</span>
+                    <span className="rounded-md border border-primary-line bg-primary-tint px-2 py-0.5 font-mono text-[10.5px] font-bold text-primary-strong" title="Unique year ID">{yearId(uni.id, y.year)}</span>
                     <button onClick={() => { setRenamingYear(i); setYearLabel(y.year) }} className="grid size-7 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink" aria-label="Rename year"><Icon icon={Pencil} size={13} /></button>
                     <span className="text-[11.5px] text-ink-3">{y.students} students · {y.courses.length} modules · {termsOf(y).length} terms</span>
                     <div className="ms-auto flex items-center gap-1">

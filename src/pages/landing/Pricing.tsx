@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Check, ChevronDown, Minus } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
+import { Collapse } from '@/components/ui/Collapse'
 import { cn } from '@/lib/cn'
 import {
   BILLING_PERIODS, formatNumber, formatPercent, perMonth, priceFor, savingPercent,
@@ -46,7 +47,7 @@ export function Pricing({ c }: { c: LandingContent }) {
               onClick={() => setPeriod(option)}
               className={cn(
                 'rounded-lg px-3.5 py-2 text-[13px] font-semibold transition-colors sm:px-4',
-                period === option ? 'bg-surface text-accent-strong shadow-panel' : 'text-ink-3 hover:text-ink',
+                period === option ? 'bg-surface text-primary-strong shadow-panel' : 'text-ink-3 hover:text-ink',
               )}
             >
               {plans.periods[option]}
@@ -55,7 +56,9 @@ export function Pricing({ c }: { c: LandingContent }) {
         </div>
       </div>
 
-      <div className="mt-6 grid gap-4 lg:grid-cols-3">
+      {/* The tiers settle in sequence. This is a marketing surface outside the
+          app shell, so there is no screen entrance to compound with. */}
+      <div className="stagger mt-6 grid gap-4 lg:grid-cols-3">
         {plans.tiers.map((plan) => (
           <TierCard key={plan.id} plan={plan} period={period} c={c} />
         ))}
@@ -97,12 +100,15 @@ function TierCard({ plan, period, c }: { plan: Plan; period: BillingPeriod; c: L
   return (
     <div
       className={cn(
-        'relative flex flex-col rounded-2xl border bg-surface p-5 shadow-panel',
-        plan.featured ? 'border-accent shadow-raised ring-1 ring-accent/25' : 'border-line',
+        // `lift` answers the pointer with a 3px rise. Pricing tiers only —
+        // never a data row, where a card that moves under the cursor makes a
+        // list harder to read down.
+        'lift relative flex flex-col rounded-2xl border bg-surface p-5 shadow-panel',
+        plan.featured ? 'border-primary shadow-raised ring-1 ring-primary/25' : 'border-line',
       )}
     >
       {plan.badge && (
-        <span className="absolute -top-2.5 start-5 rounded-full bg-accent px-2.5 py-0.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-on-accent">{plan.badge}</span>
+        <span className="absolute -top-2.5 start-5 rounded-full bg-primary px-2.5 py-0.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-on-primary">{plan.badge}</span>
       )}
       <div className="flex items-center gap-2">
         <p className="text-[15px] font-semibold text-ink">{plan.name}</p>
@@ -127,7 +133,7 @@ function TierCard({ plan, period, c }: { plan: Plan; period: BillingPeriod; c: L
         to="/signup"
         className={cn(
           'mt-4 inline-flex h-10 items-center justify-center rounded-lg text-[13.5px] font-semibold transition-colors',
-          plan.featured ? 'bg-accent text-on-accent hover:bg-accent-strong' : 'border border-line-2 bg-surface text-ink hover:bg-surface-2',
+          plan.featured ? 'bg-primary text-on-primary hover:bg-primary-hover' : 'border border-line-2 bg-surface text-ink hover:bg-surface-2',
         )}
       >
         {plan.cta}
@@ -195,7 +201,7 @@ function CompareTable({ c }: { c: LandingContent }) {
                   key={column}
                   className={cn(
                     'border-b border-line py-3 text-center text-[13.5px] font-semibold text-ink',
-                    index === plans.compareColumns.length - 1 && 'text-accent-strong',
+                    index === plans.compareColumns.length - 1 && 'text-primary-strong',
                   )}
                 >
                   {column}
@@ -235,10 +241,10 @@ function CompareTable({ c }: { c: LandingContent }) {
               aria-expanded={openTier === tier}
               className="flex w-full items-center gap-2 px-4 py-3 text-start"
             >
-              <span className={cn('flex-1 text-[14px] font-semibold', tier === plans.compareColumns.length - 1 ? 'text-accent-strong' : 'text-ink')}>{column}</span>
-              <Icon icon={ChevronDown} size={16} className={cn('text-ink-3 transition-transform', openTier === tier && 'rotate-180')} />
+              <span className={cn('flex-1 text-[14px] font-semibold', tier === plans.compareColumns.length - 1 ? 'text-primary-strong' : 'text-ink')}>{column}</span>
+              <Icon icon={ChevronDown} size={16} className={cn('text-ink-3 transition-transform duration-[280ms] ease-[var(--ease-out-quint)]', openTier === tier && 'rotate-180')} />
             </button>
-            {openTier === tier && (
+            <Collapse open={openTier === tier}>
               <div className="border-t border-line">
                 {plans.compare.map((group) => (
                   <div key={group.title}>
@@ -254,7 +260,7 @@ function CompareTable({ c }: { c: LandingContent }) {
                   </div>
                 ))}
               </div>
-            )}
+            </Collapse>
           </div>
         ))}
       </div>

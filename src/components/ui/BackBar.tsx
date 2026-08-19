@@ -26,7 +26,7 @@ export function BackBar() {
       <button
         type="button"
         onClick={() => navigate(state.from!)}
-        className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 shadow-panel transition-colors hover:border-accent-line hover:text-accent-strong"
+        className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 shadow-panel transition-colors hover:border-primary-line hover:text-primary-strong"
       >
         <Icon icon={ArrowLeft} size={15} className="rtl:-scale-x-100" />
         {state.fromLabel || t('Back')}

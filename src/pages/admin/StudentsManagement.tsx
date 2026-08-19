@@ -12,8 +12,8 @@ import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { adminStudents, type AdminStudent, type StudentStatus } from '@/data/students'
 import { AccountAccessPanel } from '@/components/admin/AccountAccessPanel'
 
-function statusTone(s: StudentStatus): 'success' | 'accent' | 'warning' | 'danger' {
-  return s === 'Active' ? 'success' : s === 'Trial' ? 'accent' : s === 'Lapsed' ? 'warning' : 'danger'
+function statusTone(s: StudentStatus): 'success' | 'primary' | 'warning' | 'danger' {
+  return s === 'Active' ? 'success' : s === 'Trial' ? 'primary' : s === 'Lapsed' ? 'warning' : 'danger'
 }
 
 export function StudentsManagement() {
@@ -51,9 +51,9 @@ export function StudentsManagement() {
       <div className="grid items-start gap-4 lg:grid-cols-[16rem_minmax(0,1fr)]">
         {/* ---- Left menu: Master Students → university → year ---- */}
         <Panel className="overflow-hidden">
-          <button onClick={() => setScope('all')} className={cn('flex w-full items-center gap-2 border-b border-line px-3 py-2.5 text-start', scope === 'all' ? 'bg-accent-tint' : 'hover:bg-inset')}>
-            <Icon icon={Users} size={16} className={scope === 'all' ? 'text-accent' : 'text-ink-3'} />
-            <span className={cn('flex-1 text-[13.5px] font-semibold', scope === 'all' ? 'text-accent-strong' : 'text-ink')}>Master Students</span>
+          <button onClick={() => setScope('all')} className={cn('flex w-full items-center gap-2 border-b border-line px-3 py-2.5 text-start', scope === 'all' ? 'bg-primary-tint' : 'hover:bg-inset')}>
+            <Icon icon={Users} size={16} className={scope === 'all' ? 'text-primary' : 'text-ink-3'} />
+            <span className={cn('flex-1 text-[13.5px] font-semibold', scope === 'all' ? 'text-primary-strong' : 'text-ink')}>Master Students</span>
             <span className="tnum font-mono text-[11px] text-ink-3">{adminStudents.length}</span>
           </button>
           <div className="max-h-[32rem] overflow-y-auto p-1.5">
@@ -63,9 +63,9 @@ export function StudentsManagement() {
                 <div key={uni.id} className="mb-0.5">
                   <div className="flex items-center">
                     <button onClick={() => setExpanded((e) => ({ ...e, [uni.id]: !open }))} className="grid size-7 place-items-center text-ink-3 hover:text-ink" aria-label="Toggle years">
-                      <Icon icon={ChevronRight} size={14} className={cn('transition-transform', open && 'rotate-90')} />
+                      <Icon icon={ChevronRight} size={14} className={cn('chevron-turn')} open={open} />
                     </button>
-                    <button onClick={() => setScope(uni.id)} className={cn('flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start', scope === uni.id ? 'bg-accent-tint text-accent-strong' : 'hover:bg-inset')}>
+                    <button onClick={() => setScope(uni.id)} className={cn('flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start', scope === uni.id ? 'bg-primary-tint text-primary-strong' : 'hover:bg-inset')}>
                       <Icon icon={GraduationCap} size={14} className="text-ink-3" />
                       <span className="flex-1 truncate text-[13px] font-medium">{uni.short}</span>
                       <span className="tnum font-mono text-[10.5px] text-ink-3">{count(uni.id)}</span>
@@ -77,7 +77,7 @@ export function StudentsManagement() {
                         const key = `${uni.id}:${y.year}`
                         return (
                           <li key={key}>
-                            <button onClick={() => setScope(key)} className={cn('flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-start text-[12.5px]', scope === key ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}>
+                            <button onClick={() => setScope(key)} className={cn('flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-start text-[12.5px]', scope === key ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}>
                               <Icon icon={Layers} size={12} className="text-ink-3" />
                               <span className="flex-1 truncate">{y.year}</span>
                               <span className="tnum font-mono text-[10px] text-ink-3">{count(uni.id, y.year)}</span>
@@ -109,7 +109,7 @@ export function StudentsManagement() {
                   <Tr key={s.id} hover>
                     <Td className="pl-4"><span className="inline-flex items-center gap-2.5"><Avatar name={s.name} size="sm" /><span className="min-w-0"><span className="block truncate text-[13px] font-medium text-ink">{s.name}</span><span className="block truncate text-[11px] text-ink-3">{s.email}</span></span></span></Td>
                     <Td className="whitespace-nowrap text-[12.5px] text-ink-2">{uni?.short} · {s.year}</Td>
-                    <Td><Badge tone={s.plan === 'Free' ? 'neutral' : 'accent'}>{s.plan}</Badge></Td>
+                    <Td><Badge tone={s.plan === 'Free' ? 'neutral' : 'primary'}>{s.plan}</Badge></Td>
                     <Td align="right" className="tnum font-mono text-ink-2">{s.questionsAnswered.toLocaleString()}</Td>
                     <Td align="right" className="tnum font-mono text-ink-2">{s.accuracy}%</Td>
                     <Td align="right" className="tnum font-mono text-ink-2">{s.readiness}%</Td>

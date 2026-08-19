@@ -96,7 +96,7 @@ export function GlossarySetup() {
       />
 
       {confirmLoad && (
-        <Panel className="mb-4 border-accent-line p-4">
+        <Panel className="mb-4 border-primary-line p-4">
           <p className="text-[13.5px] font-medium text-ink">Load the starter glossary?</p>
           <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">
             This writes {starterGlossary().terms.length} terms and {starterGlossary().categories.length} categories into the live glossary. It is only offered while the glossary is empty, so nothing you have written can be overwritten.
@@ -137,7 +137,7 @@ export function GlossarySetup() {
                     <button type="button" onClick={() => setEditingId(term.id)} className="min-w-0 flex-1 text-left">
                       <span className="flex items-center gap-2">
                         <span className="truncate text-[13.5px] font-medium text-ink">{term.term || 'Untitled term'}</span>
-                        <span lang="ar" dir="rtl" className="truncate text-[13px] text-accent-strong">{term.ar}</span>
+                        <span lang="ar" dir="rtl" className="truncate text-[13px] text-primary-strong">{term.ar}</span>
                       </span>
                       <span className="mt-0.5 block truncate text-[12px] text-ink-3">{term.category}</span>
                     </button>

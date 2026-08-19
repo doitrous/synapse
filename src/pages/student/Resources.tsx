@@ -249,7 +249,7 @@ export function Resources() {
               onClick={() => setSection(val)}
               className={cn(
                 'inline-flex items-center gap-2 rounded-lg px-4 py-2 text-[13.5px] font-semibold transition-colors',
-                section === val ? 'bg-surface text-accent-strong shadow-panel' : 'text-ink-3 hover:text-ink',
+                section === val ? 'bg-surface text-primary-strong shadow-panel' : 'text-ink-3 hover:text-ink',
               )}
             >
               <Icon icon={icon} size={16} />
@@ -265,7 +265,7 @@ export function Resources() {
             <button
               type="button"
               onClick={clearFilters}
-              className="inline-flex items-center gap-1.5 rounded-lg border border-accent-line bg-accent-tint px-2.5 py-1.5 text-[12px] font-medium text-accent-strong transition-colors hover:bg-accent-tint/70"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-primary-line bg-primary-tint px-2.5 py-1.5 text-[12px] font-medium text-primary-strong transition-colors hover:bg-primary-tint/70"
             >
               {activeFilters} {activeFilters === 1 ? t('filter') : t('filters')}
               <Icon icon={X} size={13} />
@@ -364,7 +364,7 @@ export function Resources() {
             return (
               <Panel key={folderKey} className="overflow-hidden">
                 <button type="button" onClick={() => toggleFolder(folderKey)} aria-expanded={!isCollapsed} className="flex w-full items-center gap-2.5 border-b border-line bg-surface-2/50 px-3 py-2.5 text-start hover:bg-inset/60 sm:px-4">
-                  <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !isCollapsed && 'rotate-90')} />
+                  <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 chevron-turn')} open={!isCollapsed} />
                   {folder.subjectId && <SubjectDot id={folder.subjectId} />}
                   <h2 className="font-serif text-[15.5px] font-semibold text-ink">{folder.label}</h2>
                   <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{folder.count}</span>
@@ -389,21 +389,21 @@ export function Resources() {
                                   <div
                                     key={r.id}
                                     aria-label={`${t('Open resource')}: ${r.title}`}
-                                    {...clickableRow(() => setOpened(r), 'group flex flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel hover:border-accent-line')}
+                                    {...clickableRow(() => setOpened(r), 'group flex flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel hover:border-primary-line')}
                                   >
                                     {/* The thumbnail was the only part that opened
                                         anything; the title beside it was inert. */}
-                                    <div className="relative flex aspect-video items-center justify-center bg-surface-2 text-ink-3 transition-colors group-hover:bg-accent-tint/30">
-                                      <Icon icon={PlayCircle} size={34} className="text-accent/80 transition-transform group-hover:scale-110" />
+                                    <div className="relative flex aspect-video items-center justify-center bg-surface-2 text-ink-3 transition-colors group-hover:bg-primary-tint/30">
+                                      <Icon icon={PlayCircle} size={34} className="text-primary/80 transition-transform group-hover:scale-110" />
                                       <span className="tnum absolute bottom-1.5 end-1.5 rounded bg-ink/75 px-1.5 py-0.5 font-mono text-[10px] font-medium text-paper">{r.meta}</span>
                                     </div>
                                     <div className="flex flex-1 items-start gap-2 p-3">
                                       <div className="min-w-0 flex-1">
                                         <p className="line-clamp-2 text-[13px] font-medium leading-snug text-ink">{r.title}</p>
-                                        <p className="mt-1 flex items-center gap-1.5 text-[11.5px] text-ink-3">{r.source} · {r.year}{r.recommended && <Badge tone="accent">{t('Recommended')}</Badge>}</p>
+                                        <p className="mt-1 flex items-center gap-1.5 text-[11.5px] text-ink-3">{r.source} · {r.year}{r.recommended && <Badge tone="primary">{t('Recommended')}</Badge>}</p>
                                       </div>
                                       <span {...stopRowClick} className="contents">
-                                        <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
+                                        <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-primary' : ''} />
                                       </span>
                                     </div>
                                   </div>
@@ -425,7 +425,7 @@ export function Resources() {
                                     <div className="min-w-0 flex-1">
                                       <div className="flex flex-wrap items-center gap-2">
                                         <span className="truncate text-[13.5px] font-medium text-ink">{r.title}</span>
-                                        {r.recommended && <Badge tone="accent">{t('Recommended')}</Badge>}
+                                        {r.recommended && <Badge tone="primary">{t('Recommended')}</Badge>}
                                         {lastOpenedId === r.id && <Badge tone="success">{t('Opened')} · {r.meta}</Badge>}
                                       </div>
                                       <div className="mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11.5px] text-ink-3">
@@ -451,7 +451,7 @@ export function Resources() {
                                     <span className="hidden shrink-0 rounded bg-inset px-1.5 py-0.5 text-[10.5px] font-medium text-ink-2 md:inline">{t(r.type)}</span>
                                     {/* The row opens the resource; this must not. */}
                                     <span {...stopRowClick} className="contents">
-                                      <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-accent' : ''} />
+                                      <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-primary' : ''} />
                                     </span>
                                     <Icon icon={ChevronRight} size={16} className="shrink-0 text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
                                   </li>
@@ -550,7 +550,7 @@ function MyUploads() {
                 : t('Your own PDFs. This preview keeps them in this browser only.')}
             </p>
           </div>
-          <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-accent-line bg-accent-tint px-3 py-2 text-[13px] font-semibold text-accent-strong hover:bg-accent-tint/70">
+          <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-primary-line bg-primary-tint px-3 py-2 text-[13px] font-semibold text-primary-strong hover:bg-primary-tint/70">
             <Icon icon={Upload} size={15} />
             {busy === null ? t('Add a PDF') : `${Math.round(busy * 100)}%`}
             <input

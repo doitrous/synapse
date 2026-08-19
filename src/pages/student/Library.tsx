@@ -145,10 +145,10 @@ function ReaderText({
         type="button"
         onClick={() => onOpenMedia!(hit.item)}
         title={hit.item.caption || `Open ${MEDIA_LABEL[hit.item.type].toLowerCase()}`}
-        className="mx-px inline items-baseline gap-1 rounded-sm border-b-2 border-dotted border-accent/70 bg-accent-tint/30 px-0.5 text-start font-medium text-ink transition-colors hover:bg-accent-tint hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+        className="mx-px inline items-baseline gap-1 rounded-sm border-b-2 border-dotted border-primary/70 bg-primary-tint/30 px-0.5 text-start font-medium text-ink transition-colors hover:bg-primary-tint hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
       >
         <Highlight text={text.slice(hit.start, hit.end)} query={query} />
-        <Icon icon={MEDIA_ICON[hit.item.type]} size={12} className="ms-1 inline align-baseline text-accent-strong" />
+        <Icon icon={MEDIA_ICON[hit.item.type]} size={12} className="ms-1 inline align-baseline text-primary-strong" />
       </button>,
     )
     cursor = hit.end
@@ -187,7 +187,7 @@ function MediaLightbox({ item, onClose }: { item: ArticleMediaRecord; onClose: (
       <button type="button" className="absolute inset-0 bg-ink/60" onClick={onClose} aria-label="Close media" />
       <figure className="relative flex max-h-full w-full max-w-3xl flex-col overflow-hidden rounded-xl border border-line bg-paper shadow-pop">
         <header className="flex items-start gap-3 border-b border-line bg-surface px-4 py-3">
-          <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={MEDIA_ICON[item.type]} size={16} /></span>
+          <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={MEDIA_ICON[item.type]} size={16} /></span>
           <div className="min-w-0 flex-1">
             <h2 id="media-lightbox-title" className="text-[13.5px] font-semibold leading-snug text-ink">{item.caption || MEDIA_LABEL[item.type]}</h2>
             {item.anchor?.quote && <p className="mt-0.5 truncate text-[11.5px] text-ink-3">Explains “{item.anchor.quote}”</p>}
@@ -212,7 +212,7 @@ function ArticleMediaSection({ media, onOpenMedia, t }: { media: ArticleMediaRec
   return (
     <section className="mt-10 border-t border-line pt-5">
       <div className="flex items-center gap-2">
-        <Icon icon={ImageIcon} size={16} className="text-accent" />
+        <Icon icon={ImageIcon} size={16} className="text-primary" />
         <h2 className="font-serif text-[19px] font-semibold tracking-[-0.01em] text-ink">{t('Media')}</h2>
       </div>
       <p className="mt-1 text-[12px] text-ink-3">{t('Figures and recordings for this article.')}</p>
@@ -222,7 +222,7 @@ function ArticleMediaSection({ media, onOpenMedia, t }: { media: ArticleMediaRec
             <button
               type="button"
               onClick={() => onOpenMedia(item)}
-              className="group relative block w-full bg-inset/40 text-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+              className="group relative block w-full bg-inset/40 text-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
               aria-label={`${t('Open')} ${item.caption || MEDIA_LABEL[item.type]}`}
             >
               <MediaFrame item={item} className="max-h-56" />
@@ -252,7 +252,7 @@ function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[
   return (
     <section className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
       <div className="border-b border-line px-4 py-3">
-        <div className="flex items-center gap-2"><Icon icon={ImageIcon} size={15} className="text-accent" /><h2 className="text-[13px] font-semibold text-ink">{t('Media in this article')}</h2></div>
+        <div className="flex items-center gap-2"><Icon icon={ImageIcon} size={15} className="text-primary" /><h2 className="text-[13px] font-semibold text-ink">{t('Media in this article')}</h2></div>
         <p className="mt-0.5 font-mono text-[10.5px] text-ink-3">{media.length} {media.length === 1 ? t('item') : t('items')}</p>
       </div>
       <ul className="divide-y divide-line">
@@ -261,7 +261,7 @@ function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[
             <button
               type="button"
               onClick={() => onOpenMedia(item)}
-              className="group flex w-full items-start gap-2.5 px-4 py-3 text-start transition-colors hover:bg-accent-tint/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-accent/40"
+              className="group flex w-full items-start gap-2.5 px-4 py-3 text-start transition-colors hover:bg-primary-tint/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary/40"
             >
               <span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset text-ink-3"><Icon icon={MEDIA_ICON[item.type]} size={14} /></span>
               <span className="min-w-0 flex-1">
@@ -280,18 +280,18 @@ function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[
 
 /* ---- Reading blocks ---------------------------------------------------- */
 
-function Callout({ tone, title, text, query, media, onOpenMedia }: { tone: 'accent' | 'warning'; title: string; text: string; query: string; media?: ArticleMediaRecord[]; onOpenMedia?: (item: ArticleMediaRecord) => void }) {
-  const accent = tone === 'accent'
+function Callout({ tone, title, text, query, media, onOpenMedia }: { tone: 'primary' | 'warning'; title: string; text: string; query: string; media?: ArticleMediaRecord[]; onOpenMedia?: (item: ArticleMediaRecord) => void }) {
+  const accent = tone === 'primary'
   return (
     <div
       className={cn(
         'my-5 rounded-xl border p-4',
-        accent ? 'border-accent/45 bg-accent-tint/55' : 'border-warning/35 bg-warning-tint/65',
+        accent ? 'border-primary/45 bg-primary-tint/55' : 'border-warning/35 bg-warning-tint/65',
       )}
     >
       <div className="flex items-center gap-2">
-        <Icon icon={accent ? Flag : TriangleAlert} size={16} className={accent ? 'text-accent' : 'text-warning'} />
-        <span className={cn('text-[12.5px] font-semibold', accent ? 'text-accent-strong' : 'text-warning')}>
+        <Icon icon={accent ? Flag : TriangleAlert} size={16} className={accent ? 'text-primary' : 'text-warning'} />
+        <span className={cn('text-[12.5px] font-semibold', accent ? 'text-primary-strong' : 'text-warning')}>
           <Highlight text={title} query={query} />
         </span>
       </div>
@@ -335,7 +335,7 @@ function Blocks({
             <ul key={i} className="mt-3 space-y-2">
               {b.items?.map((it, j) => (
                 <li key={j} className="flex gap-2.5 text-[15px] leading-[1.6] text-ink/90">
-                  <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent-soft" />
+                  <span className="mt-2 size-1.5 shrink-0 rounded-full bg-primary-soft" />
                   <span><ReaderText text={it} query={query} media={bodyMedia} onOpenMedia={onOpenMedia} /></span>
                 </li>
               ))}
@@ -345,7 +345,7 @@ function Blocks({
           return (
             <div key={i} className="mt-10 border-t border-line pt-5">
               <div className="flex items-center gap-2">
-                <Icon icon={Database} size={16} className="text-accent" />
+                <Icon icon={Database} size={16} className="text-primary" />
                 <h2 className="font-serif text-[19px] font-semibold tracking-[-0.01em] text-ink">Sources</h2>
               </div>
               <p className="mt-1 text-[12px] text-ink-3">
@@ -359,7 +359,11 @@ function Blocks({
               key={b.spanId ?? i}
               type="button"
               onClick={() => b.spanId && onEvidence?.(b.spanId)}
-              className="group mt-3 flex w-full items-start gap-3 rounded-lg border border-accent-line/70 bg-accent-tint/25 px-4 py-3 text-start transition-colors hover:border-accent hover:bg-accent-tint/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35"
+              // Cortex blue, not crimson: this block's whole meaning is "this
+              // statement is backed by sources — open them", which is exactly
+              // the structural, points-elsewhere role blue carries. Crimson
+              // here competed with the article's actual actions.
+              className="group mt-3 flex w-full items-start gap-3 rounded-lg border border-accent-line/70 bg-accent-tint/40 px-4 py-3 text-start transition-colors hover:border-accent hover:bg-accent-tint focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35"
             >
               <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
               {/* Concepts off here on purpose. A verified fact is itself a
@@ -375,7 +379,7 @@ function Blocks({
         return (
           <Callout
             key={i}
-            tone={b.tone ?? 'accent'}
+            tone={b.tone ?? 'primary'}
             title={b.title ?? ''}
             text={b.text ?? ''}
             query={query}
@@ -424,7 +428,7 @@ function EvidenceDrawer({ span, evidence, onClose }: { span: ArticleSpan; eviden
       <button type="button" className="absolute inset-0 bg-ink/25" onClick={onClose} aria-label="Close sources" />
       <aside className="absolute inset-y-0 end-0 flex w-full max-w-lg flex-col border-s border-line bg-paper shadow-pop">
         <header className="flex items-start gap-3 border-b border-line bg-surface px-5 py-4">
-          <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Database} size={17} /></span>
+          <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={Database} size={17} /></span>
           <div className="min-w-0 flex-1">
             <h2 id="evidence-drawer-title" className="font-serif text-[18px] font-semibold text-ink">Sources for this fact</h2>
             <p className="mt-0.5 text-[11.5px] text-ink-3">{citations.length} exact source link{citations.length === 1 ? '' : 's'} · stable fact ID {span.id}</p>
@@ -489,19 +493,19 @@ function PersonalTagStrip({
     <div className="mt-4 border-t border-line pt-4">
       <div className="flex flex-wrap items-center gap-2">
         <span className="inline-flex items-center gap-1.5 text-[12px] font-medium text-ink-3">
-          <Icon icon={TagIcon} size={13} className="text-accent" />
+          <Icon icon={TagIcon} size={13} className="text-primary" />
           {t('Your tags')}
         </span>
         {tags.map((tag) => (
           <span
             key={tag}
-            className="inline-flex items-center gap-1 rounded-full border border-accent-line bg-accent-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-accent-strong"
+            className="inline-flex items-center gap-1 rounded-full border border-primary-line bg-primary-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-primary-strong"
           >
             {tag}
             <button
               onClick={() => onChange(tags.filter((x) => x !== tag))}
               aria-label={`${t('Remove')} ${tag}`}
-              className="text-accent/70 hover:text-accent"
+              className="text-primary/70 hover:text-primary"
             >
               <Icon icon={X} size={12} />
             </button>
@@ -518,7 +522,7 @@ function PersonalTagStrip({
           }}
           placeholder={t('Add a tag…')}
           aria-label={`${t('Add a tag…')} ${articleId}`}
-          className="h-7 min-w-[7rem] rounded-full border border-line bg-surface px-3 text-[12px] text-ink focus:border-accent focus:outline-none"
+          className="h-7 min-w-[7rem] rounded-full border border-line bg-surface px-3 text-[12px] text-ink focus:border-primary focus:outline-none"
         />
       </div>
       {suggestions.length > 0 && (
@@ -528,7 +532,7 @@ function PersonalTagStrip({
             <button
               key={tag}
               onClick={() => add(tag)}
-              className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-accent-line hover:bg-accent-tint/40 hover:text-accent-strong"
+              className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong"
             >
               + {tag}
             </button>
@@ -597,7 +601,7 @@ function Reader({
         <button
           type="button"
           onClick={cameFrom.onBack}
-          className="inline-flex max-w-full items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 shadow-panel transition-colors hover:border-accent-line hover:text-accent-strong"
+          className="inline-flex max-w-full items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 shadow-panel transition-colors hover:border-primary-line hover:text-primary-strong"
         >
           <Icon icon={ArrowLeft} size={15} className="shrink-0 rtl:-scale-x-100" />
           <span className="truncate">{t('Back to')} {cameFrom.title}</span>
@@ -619,7 +623,7 @@ function Reader({
           <button
             type="button"
             onClick={onBrowseSubject}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface py-1 pe-2.5 ps-1 font-medium text-ink-2 shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/40 hover:text-accent-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface py-1 pe-2.5 ps-1 font-medium text-ink-2 shadow-panel transition-colors hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
           >
             <SystemMark subjectId={subject.id} index={chapterIndex + 1} />
             {subject.name}
@@ -635,7 +639,7 @@ function Reader({
           <button
             type="button"
             onClick={onBrowseTopic}
-            className="inline-flex items-center gap-1 rounded-lg border border-line bg-surface px-2.5 py-1.5 transition-colors hover:border-accent-line hover:bg-accent-tint/40 hover:text-accent-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            className="inline-flex items-center gap-1 rounded-lg border border-line bg-surface px-2.5 py-1.5 transition-colors hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
           >
             {st.topicTitle}
             <Icon icon={ChevronRight} size={12} className="opacity-60 rtl:-scale-x-100" />
@@ -718,8 +722,8 @@ function Reader({
     <aside className="min-w-0 space-y-3 lg:sticky lg:top-[4.75rem]">
       {st.keyPoints.length > 0 && (
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
-        <div className="flex items-center gap-2"><Icon icon={Lightbulb} size={15} className="text-accent" /><h2 className="text-[13px] font-semibold text-ink">{t('Hold these')}</h2></div>
-        <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-accent" /><span><ReaderText text={point} query="" media={anchoredMedia(media, 'hold')} onOpenMedia={setOpenMedia} /></span></li>)}</ul>
+        <div className="flex items-center gap-2"><Icon icon={Lightbulb} size={15} className="text-primary" /><h2 className="text-[13px] font-semibold text-ink">{t('Hold these')}</h2></div>
+        <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-primary" /><span><ReaderText text={point} query="" media={anchoredMedia(media, 'hold')} onOpenMedia={setOpenMedia} /></span></li>)}</ul>
       </section>
       )}
       <MediaIndexPanel media={media} onOpenMedia={setOpenMedia} t={t} />
@@ -755,8 +759,8 @@ function Reader({
       )}
       {/* Leaving the library for a filtered session had no way back: the student
           landed in the question bank with the article they were reading gone. */}
-      <Link to={`/app/qbank?article=${st.id}`} state={backState(location, t('Back to article'))} className="group flex items-center gap-3 rounded-xl border border-line bg-surface p-4 shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/20">
-        <span className="tnum grid size-10 shrink-0 place-items-center rounded-lg bg-accent-tint font-mono text-[15px] font-bold text-accent-strong">{st.questions.length}</span><span className="min-w-0 flex-1"><span className="block text-[13px] font-bold text-ink">{t('Questions that test this')}</span><span className="mt-0.5 block text-[11.5px] text-ink-3">{t('Start a filtered session')}</span></span><Icon icon={ChevronRight} size={17} className="text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
+      <Link to={`/app/qbank?article=${st.id}`} state={backState(location, t('Back to article'))} className="group flex items-center gap-3 rounded-xl border border-line bg-surface p-4 shadow-panel transition-colors hover:border-primary-line hover:bg-primary-tint/20">
+        <span className="tnum grid size-10 shrink-0 place-items-center rounded-lg bg-primary-tint font-mono text-[15px] font-bold text-primary-strong">{st.questions.length}</span><span className="min-w-0 flex-1"><span className="block text-[13px] font-bold text-ink">{t('Questions that test this')}</span><span className="mt-0.5 block text-[11.5px] text-ink-3">{t('Start a filtered session')}</span></span><Icon icon={ChevronRight} size={17} className="text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
       </Link>
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
         <h2 className="text-[13px] font-semibold text-ink">{t('Resources that teach it')}</h2>
@@ -805,7 +809,7 @@ function UserReader({
             {subject.name}
           </span>
           <Icon icon={ArrowRight} size={12} className="rtl:-scale-x-100" />
-          <span className="inline-flex items-center gap-1 text-accent-strong"><Icon icon={PenLine} size={12} /> {t('My articles')}</span>
+          <span className="inline-flex items-center gap-1 text-primary-strong"><Icon icon={PenLine} size={12} /> {t('My articles')}</span>
         </nav>
 
         <div className="mt-3 flex items-start justify-between gap-3">
@@ -1004,7 +1008,7 @@ export function Library() {
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
-        <button type="button" className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-accent" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
+        <button type="button" className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-primary" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
         {/* The home state offers these same five routes as cards in the page.
             Showing them as tabs at the same time was two menus for one choice,
             so the strip appears only once a route has been picked — and then

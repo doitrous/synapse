@@ -9,7 +9,7 @@ import { Icon } from './Icon'
 import { cn } from '@/lib/cn'
 
 const base =
-  'w-full rounded-md border border-line bg-surface text-[13.5px] text-ink placeholder:text-ink-3 transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-[color-mix(in_srgb,var(--color-accent)_18%,transparent)]'
+  'w-full rounded-md border border-line bg-surface text-[13.5px] text-ink placeholder:text-ink-3 transition-colors focus:border-primary focus:outline-none focus:ring-2 focus:ring-[color-mix(in_srgb,var(--color-primary)_18%,transparent)]'
 
 export function Field({
   label,

@@ -24,6 +24,10 @@ export function AppShell({ portal }: { portal: Portal }) {
   const [searchOpen, setSearchOpen] = useState(false)
   const { pathname } = useLocation()
 
+  // The sidebar destination this URL belongs to: "/app/resources/42" and
+  // "/app/resources" are one destination, "/app/library" is another.
+  const section = pathname.split('/').slice(0, 3).join('/')
+
   // Focus mode hides the chrome, which would also hide the only way back out.
   // Escape is that way out, and it is the key people already try.
   useEffect(() => {
@@ -108,7 +112,13 @@ export function AppShell({ portal }: { portal: Portal }) {
           onOpenMobile={() => setMobileOpen(true)}
           onOpenSearch={() => setSearchOpen(true)}
         />
-        <main id="main-content" className="min-w-0 flex-1" tabIndex={-1}>
+        {/* Keyed on the destination, so the arriving screen re-settles by 8px.
+            Deliberately the *section* rather than the whole pathname: moving
+            between two resources under the same destination is not an arrival,
+            and remounting there would throw away the reader's page and zoom.
+            The class is on <main> itself rather than an inner wrapper, so
+            pages that size themselves against it keep their height contract. */}
+        <main key={section} id="main-content" className="min-w-0 flex-1 animate-screen-in" tabIndex={-1}>
           <Outlet />
         </main>
       </div>

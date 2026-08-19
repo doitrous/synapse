@@ -47,7 +47,7 @@ export function StudentOnboarding() {
     <div className="fixed inset-0 z-50 grid place-items-center bg-ink/40 p-4" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
       <div className="w-full max-w-md overflow-hidden rounded-2xl border border-line bg-surface shadow-pop">
         <div className="border-b border-line px-6 py-5">
-          <span className="grid size-10 place-items-center rounded-xl bg-accent-tint text-accent-strong"><Icon icon={GraduationCap} size={20} /></span>
+          <span className="grid size-10 place-items-center rounded-xl bg-primary-tint text-primary-strong"><Icon icon={GraduationCap} size={20} /></span>
           <h2 id="onboarding-title" className="mt-3 font-serif text-[20px] font-semibold text-ink">{t('Where do you study?')}</h2>
           <p className="mt-1.5 text-[13px] leading-relaxed text-ink-2">
             {t('This decides which timetable and which year’s content you see. You can change it later in your account.')}

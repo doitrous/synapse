@@ -37,7 +37,7 @@ export function MenuToggle({
       aria-label={text}
       title={text}
       className={cn(
-        'inline-flex items-center gap-2 rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)]',
+        'inline-flex items-center gap-2 rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
         showLabel ? 'h-11 px-2.5 text-[13px] lg:h-9' : 'size-11 justify-center lg:size-9',
         className,
       )}

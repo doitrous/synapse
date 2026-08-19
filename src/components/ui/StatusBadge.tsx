@@ -1,6 +1,6 @@
 import { Badge } from './Badge'
 
-type Tone = 'neutral' | 'accent' | 'success' | 'warning' | 'danger'
+type Tone = 'neutral' | 'primary' | 'success' | 'warning' | 'danger'
 
 const MAP: Record<string, Tone> = {
   // success
@@ -20,7 +20,7 @@ const MAP: Record<string, Tone> = {
   'In progress': 'warning',
   warn: 'warning',
   // accent (needs attention, neutral-positive)
-  Open: 'accent',
+  Open: 'primary',
   // neutral
   Draft: 'neutral',
   Archived: 'neutral',

@@ -92,7 +92,7 @@ export function PaymentsFinance() {
                 <Td align="right" className="tnum font-mono text-ink-2">{u.students}</Td>
                 <Td align="right" className="tnum font-mono">{egp(u.revenue)}</Td>
                 <Td align="right" className="tnum font-mono text-ink-2">{egp(u.arpu)}</Td>
-                <Td className="pr-4"><Meter value={(u.revenue / maxUni) * 100} tone="accent" className="w-24" /></Td>
+                <Td className="pr-4"><Meter value={(u.revenue / maxUni) * 100} tone="primary" className="w-24" /></Td>
               </Tr>
             ))}</tbody>
           </Table>
@@ -130,11 +130,11 @@ export function PaymentsFinance() {
               <div className="mt-2.5 flex flex-wrap items-center gap-x-4 gap-y-2">
                 <span className="text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Universities</span>
                 {universities.map((u) => (
-                  <button key={u.id} onClick={() => toggleScope(p.id, 'universityIds', u.id)} className={cn('rounded-full border px-2.5 py-0.5 text-[11.5px]', (p.universityIds.length === 0 || p.universityIds.includes(u.id)) ? 'border-accent-line bg-accent-tint text-accent-strong' : 'border-line bg-surface text-ink-3')}>{u.short}</button>
+                  <button key={u.id} onClick={() => toggleScope(p.id, 'universityIds', u.id)} className={cn('rounded-full border px-2.5 py-0.5 text-[11.5px]', (p.universityIds.length === 0 || p.universityIds.includes(u.id)) ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line bg-surface text-ink-3')}>{u.short}</button>
                 ))}
                 <span className="ms-2 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Years</span>
                 {YEARS.map((y) => (
-                  <button key={y} onClick={() => toggleScope(p.id, 'years', y)} className={cn('rounded-full border px-2.5 py-0.5 text-[11.5px]', (p.years.length === 0 || p.years.includes(y)) ? 'border-accent-line bg-accent-tint text-accent-strong' : 'border-line bg-surface text-ink-3')}>{y.replace('Year ', 'Y')}</button>
+                  <button key={y} onClick={() => toggleScope(p.id, 'years', y)} className={cn('rounded-full border px-2.5 py-0.5 text-[11.5px]', (p.years.length === 0 || p.years.includes(y)) ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line bg-surface text-ink-3')}>{y.replace('Year ', 'Y')}</button>
                 ))}
                 <span className="text-[11px] text-ink-3">{p.universityIds.length === 0 && p.years.length === 0 ? '(applies to all)' : ''}</span>
               </div>

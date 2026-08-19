@@ -16,11 +16,11 @@ import { usePracticalProgress } from '@/lib/usePracticalProgress'
 import { useLivePracticals } from '@/lib/useLivePracticals'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 
-type Tone = 'danger' | 'accent' | 'success'
+type Tone = 'danger' | 'primary' | 'success'
 
 function zoneOf(v: number): { name: string; tone: Tone } {
   if (v < 40) return { name: 'Building', tone: 'danger' }
-  if (v < 70) return { name: 'On track', tone: 'accent' }
+  if (v < 70) return { name: 'On track', tone: 'primary' }
   return { name: 'Exam-ready', tone: 'success' }
 }
 
@@ -76,11 +76,11 @@ function ReadinessScale({ value }: { value: number }) {
   )
 }
 
-function RingReading({ value, label, tone = 'accent', compact = false }: { value: number; label: string; tone?: 'accent' | 'success'; compact?: boolean }) {
+function RingReading({ value, label, tone = 'primary', compact = false }: { value: number; label: string; tone?: 'primary' | 'success'; compact?: boolean }) {
   const radius = 34
   const circumference = 2 * Math.PI * radius
   const targetOffset = circumference * (1 - value / 100)
-  const color = tone === 'success' ? 'var(--color-success)' : 'var(--color-accent)'
+  const color = tone === 'success' ? 'var(--color-success)' : 'var(--color-primary)'
   const ringStyle = {
     '--ring-circumference': circumference,
     '--ring-target-offset': targetOffset,

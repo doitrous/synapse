@@ -28,22 +28,32 @@
  * a physical sender, and no image-only content.
  */
 
-/** Warm palette, resolved. Kept in step with the `@theme` block in index.css. */
+/**
+ * The light palette, resolved to literals. Kept in step with the `@theme` block
+ * in index.css — mail clients strip custom properties, so these cannot be
+ * tokens, and the only defence against drift is that they are named the same.
+ * A message is always light: there is no theme attribute in an inbox.
+ */
 const COLOR = {
-  paper: '#f6f1e9',
-  surface: '#fffdfa',
-  ink: '#241d16',
-  ink2: '#6b6053',
-  ink3: '#9c9083',
-  line: '#e8dfd1',
-  accent: '#b0512b',
-  accentStrong: '#8c3d1d',
-  accentTint: '#f4e5d9',
-  onAccent: '#fdf7f2',
+  paper: '#f5f7fb',
+  surface: '#ffffff',
+  ink: '#161920',
+  ink2: '#5d636f',
+  ink3: '#949aa8',
+  line: '#e3e7ef',
+  accent: '#d13a63',
+  primaryStrong: '#a82449',
+  primaryTint: '#fff5f5',
+  onAccent: '#ffffff',
+  /* The left hemisphere of the mark, for the logotype's CONNECT half. */
+  brandBlue: '#1553b3',
 }
 
 const SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
 const SERIF = "Georgia, 'Times New Roman', Times, serif"
+/** The logotype is set in Jost. No mail client will fetch a web font, so this
+ *  falls back through the geometric sans-serifs that ship on real machines. */
+const BRAND = "Jost, 'Century Gothic', 'Futura', 'Avenir Next', 'Trebuchet MS', sans-serif"
 
 /** Who is sending, and from where. Required in most jurisdictions, and filters look. */
 export interface EmailSender {
@@ -53,7 +63,7 @@ export interface EmailSender {
 }
 
 export const DEFAULT_SENDER: EmailSender = {
-  name: 'Synapse',
+  name: 'Connect Cortex',
   postalAddress: 'Cairo, Egypt',
 }
 
@@ -129,7 +139,7 @@ export function renderEmail({
   const footerLines = [
     `${escapeHtml(sender.name)} · ${escapeHtml(sender.postalAddress)}`,
     unsubscribeUrl
-      ? `You are receiving this because you have a Synapse account.${category ? ` This is a <strong style="font-weight:600;color:${COLOR.ink2}">${escapeHtml(category)}</strong> message.` : ''}`
+      ? `You are receiving this because you have a Connect Cortex account.${category ? ` This is a <strong style="font-weight:600;color:${COLOR.ink2}">${escapeHtml(category)}</strong> message.` : ''}`
       : 'This is a service message about your account, so it is sent whatever your email preferences.',
   ]
 
@@ -159,7 +169,7 @@ export function renderEmail({
      and a masthead that renders as a grey box is worse than one made of letters. -->
 <tr>
 <td style="padding:0 4px 16px;">
-<span style="font-family:${SERIF};font-size:19px;font-weight:600;letter-spacing:-0.01em;color:${COLOR.accentStrong};">Synapse</span>
+<span style="font-family:${BRAND};font-size:19px;font-weight:500;letter-spacing:0.045em;text-transform:uppercase;"><span style="color:${COLOR.brandBlue};">Connect</span><span style="color:${COLOR.primaryStrong};">Cortex</span></span>
 </td>
 </tr>
 
@@ -205,7 +215,7 @@ ${unsubscribeUrl ? `<p style="margin:10px 0 0;"><a href="${escapeHtml(unsubscrib
 export function styleBodyHtml(bodyHtml: string): string {
   return bodyHtml
     .replace(/<p>/g, `<p style="margin:0 0 14px;font-size:15px;line-height:1.6;color:${COLOR.ink};">`)
-    .replace(/<a /g, `<a style="color:${COLOR.accentStrong};text-decoration:underline;font-weight:500;" `)
+    .replace(/<a /g, `<a style="color:${COLOR.primaryStrong};text-decoration:underline;font-weight:500;" `)
     .replace(/<h2>/g, `<h2 style="margin:0 0 12px;font-family:${SERIF};font-size:21px;font-weight:600;line-height:1.25;color:${COLOR.ink};">`)
     .replace(/<ul>/g, `<ul style="margin:0 0 14px;padding-left:20px;">`)
     .replace(/<li>/g, `<li style="margin:0 0 6px;font-size:15px;line-height:1.6;color:${COLOR.ink};">`)

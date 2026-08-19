@@ -45,14 +45,14 @@ export function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId,
     <div style={{ paddingInlineStart: depth === 0 ? 0 : 10 }} className={depth === 0 ? '' : 'border-s border-line-2'}>
       <div className="group/branch flex items-center gap-1.5 rounded-md px-2 py-1.5 hover:bg-inset/50">
         <button onClick={() => onToggle(node.key)} className="grid size-5 place-items-center text-ink-3 hover:text-ink" aria-expanded={open} aria-label={`${open ? 'Collapse' : 'Expand'} ${node.label}`}>
-          <Icon icon={ChevronRight} size={14} className={cn('transition-transform', open && 'rotate-90')} />
+          <Icon icon={ChevronRight} size={14} className={cn('chevron-turn')} open={open} />
         </button>
         {editing && onRename ? (
           <input
             autoFocus value={value} onChange={(e) => setValue(e.target.value)}
             onBlur={() => { setEditing(false); if (value.trim() && value !== node.label) onRename(node.level, node.nodeId, value.trim()) }}
             onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); if (e.key === 'Escape') { setValue(node.label); setEditing(false) } }}
-            className="flex-1 rounded border border-accent bg-surface px-1.5 py-0.5 text-[13px] font-semibold text-ink outline-none"
+            className="flex-1 rounded border border-primary bg-surface px-1.5 py-0.5 text-[13px] font-semibold text-ink outline-none"
           />
         ) : (
           <span className={cn('flex-1 truncate font-semibold text-ink', depth === 0 ? 'text-[13px]' : 'text-[12.5px]')}>{node.label}</span>
@@ -73,7 +73,7 @@ export function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId,
                 <li key={concept.id}>
                   <button
                     onClick={() => onSelect(concept)}
-                    className={cn('flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left transition-colors', selectedId === concept.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
+                    className={cn('flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left transition-colors', selectedId === concept.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
                   >
                     <span className="truncate text-[12.5px] font-medium">{concept.label}</span>
                     {badgeFor ? badgeFor(concept) : (!concept.definition && <Badge tone="warning">No definition</Badge>)}
@@ -221,7 +221,7 @@ export function ConceptNavigator({
   return (
     <aside className={cn('flex min-h-0 flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel', className)}>
       <div className="flex items-center gap-2 border-b border-line px-3 py-2.5">
-        <Icon icon={Network} size={15} className="text-accent" />
+        <Icon icon={Network} size={15} className="text-primary" />
         <span className="font-serif text-[15px] font-semibold text-ink">{title}</span>
         <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{shown}</span>
       </div>

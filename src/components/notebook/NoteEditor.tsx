@@ -282,7 +282,7 @@ function nextWritable(segments: readonly NoteSegment[], from: number): number | 
 }
 
 const CALLOUT_STYLE = {
-  note: 'border-accent-line bg-accent-tint/35',
+  note: 'border-primary-line bg-primary-tint/35',
   warning: 'border-warning/30 bg-warning-tint/45',
   success: 'border-success/30 bg-success-tint/45',
 } as const

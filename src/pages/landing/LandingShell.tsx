@@ -68,7 +68,7 @@ function OtherLanguageOffer({ c }: { c: LandingContent }) {
       <div className="mx-auto flex max-w-[1160px] flex-wrap items-center gap-3 px-5 py-2 text-[13px] sm:px-8">
         <Icon icon={Globe} size={14} className="shrink-0 text-ink-3" />
         <p className="min-w-0 flex-1 text-ink-2">{c.otherOffer.line}</p>
-        <Link to={c.otherHref} className="font-semibold text-accent-strong hover:underline">{c.otherOffer.accept}</Link>
+        <Link to={c.otherHref} className="font-semibold text-primary-strong hover:underline">{c.otherOffer.accept}</Link>
         <button type="button" onClick={() => setDismissed(true)} className="grid size-6 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label={c.otherOffer.dismiss}>
           <Icon icon={X} size={13} />
         </button>
@@ -114,7 +114,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
             </Link>
             <Link
               to="/signup"
-              className="inline-flex items-center gap-1.5 rounded-lg bg-accent px-3.5 py-2 text-[13.5px] font-semibold text-on-accent shadow-panel transition-colors hover:bg-accent-strong"
+              className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-3.5 py-2 text-[13.5px] font-semibold text-on-primary shadow-panel transition-colors hover:bg-primary-hover"
             >
               {c.nav.start}
               <Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" />
@@ -135,7 +135,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
                 to="/signup"
-                className="group inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-[15px] font-semibold text-on-accent shadow-raised transition-colors hover:bg-accent-strong"
+                className="group inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-[15px] font-semibold text-on-primary shadow-raised transition-colors hover:bg-primary-hover"
               >
                 <Icon icon={GraduationCap} size={19} />
                 {c.hero.primary}
@@ -178,7 +178,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
           <dl className="grid sm:grid-cols-2 sm:gap-x-12">
             {c.features.map((f) => (
               <div key={f.label} className="group flex items-baseline gap-4 border-b border-line py-4">
-                <Icon icon={FEATURE_ICON[f.icon]} size={17} className="mt-0.5 shrink-0 self-start text-accent" strokeWidth={2} />
+                <Icon icon={FEATURE_ICON[f.icon]} size={17} className="mt-0.5 shrink-0 self-start text-primary" strokeWidth={2} />
                 <dt className="w-32 shrink-0 text-[14.5px] font-semibold text-ink">{f.label}</dt>
                 <dd className="flex-1 text-[13.5px] leading-snug text-ink-2">{f.line}</dd>
               </div>
@@ -189,7 +189,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
         {/* ---- What it actually looks like: the product's own surfaces ---- */}
         <Walkthrough c={c} />
 
-        {/* ---- How Synapse decides: a numbered clinical protocol (sequence carries meaning) ---- */}
+        {/* ---- How Connect Cortex decides: a numbered clinical protocol (sequence carries meaning) ---- */}
         <section className="mt-24 overflow-hidden rounded-2xl border border-line">
           <div className="grid-chart-major border-b border-line bg-surface-2/50 px-6 py-10 sm:px-10 sm:py-12">
             <h2 className="max-w-2xl font-serif text-[27px] font-semibold tracking-[-0.015em] text-ink sm:text-[32px]">{c.how.title}</h2>
@@ -199,7 +199,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
             {c.how.steps.map((step) => (
               <li key={step.k} className="p-6 sm:p-8">
                 <div className="flex items-center gap-3">
-                  <span className="tnum grid size-8 place-items-center rounded-lg border border-accent-line bg-accent-tint font-mono text-[14px] font-semibold text-accent-strong">{step.k}</span>
+                  <span className="tnum grid size-8 place-items-center rounded-lg border border-primary-line bg-primary-tint font-mono text-[14px] font-semibold text-primary-strong">{step.k}</span>
                   <span className="h-px flex-1 bg-line" aria-hidden />
                 </div>
                 <h3 className="mt-4 text-[16px] font-semibold text-ink">{step.title}</h3>
@@ -245,15 +245,15 @@ export function LandingShell({ content }: { content: LandingContent }) {
         <Pricing c={c} />
 
         {/* ---- Close ---- */}
-        <section className="mt-24 overflow-hidden rounded-2xl border border-accent-strong/25 bg-accent px-6 py-14 text-center text-on-accent sm:px-10 sm:py-20">
+        <section className="mt-24 overflow-hidden rounded-2xl border border-primary-strong/25 bg-primary px-6 py-14 text-center text-on-primary sm:px-10 sm:py-20">
           <h2 className="mx-auto max-w-2xl text-balance font-serif text-[30px] font-semibold leading-[1.1] tracking-[-0.02em] sm:text-[38px]">{c.cta.title}</h2>
-          <p className="mx-auto mt-4 max-w-xl text-[15.5px] leading-relaxed text-on-accent/85">{c.cta.sub}</p>
+          <p className="mx-auto mt-4 max-w-xl text-[15.5px] leading-relaxed text-on-primary/85">{c.cta.sub}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link to="/signup" className="group inline-flex items-center gap-2 rounded-xl bg-on-accent px-5 py-3 text-[15px] font-semibold text-accent-strong shadow-raised transition-transform hover:-translate-y-0.5">
+            <Link to="/signup" className="group inline-flex items-center gap-2 rounded-xl bg-on-primary px-5 py-3 text-[15px] font-semibold text-primary-strong shadow-raised transition-transform hover:-translate-y-0.5">
               {c.cta.button}
               <Icon icon={ArrowRight} size={17} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100 rtl:group-hover:-translate-x-0.5" />
             </Link>
-            <Link to="/login" className="inline-flex items-center gap-2 rounded-xl border border-on-accent/30 px-5 py-3 text-[15px] font-semibold text-on-accent transition-colors hover:bg-on-accent/10">
+            <Link to="/login" className="inline-flex items-center gap-2 rounded-xl border border-on-primary/30 px-5 py-3 text-[15px] font-semibold text-on-primary transition-colors hover:bg-on-primary/10">
               {c.cta.secondary}
             </Link>
           </div>

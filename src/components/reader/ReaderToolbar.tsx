@@ -25,19 +25,25 @@ import type { EraserMode, LassoMode, Tool, ToolSettings } from './InkSurface'
  * to whichever theme the student is in.
  */
 
+/**
+ * Literal hex rather than tokens: a stroke's colour is written into the saved
+ * annotation, so it has to survive a theme change and mean the same thing on
+ * every device. Only the swatches offered here change with the rebrand —
+ * strokes already on the page keep the colour they were drawn in.
+ */
 export const INK_COLORS = [
-  '#241d16', // the warm near-black this app uses for ink, never pure black
-  '#6b6053',
-  '#b0512b',
-  '#c2691c',
-  '#a5732a',
-  '#4f8f3a',
-  '#2f7d6b',
-  '#3b6bb0',
-  '#7a4fb0',
-  '#b03a76',
-  '#b23a3a',
-  '#5b6570',
+  '#161920', // the near-black this app uses for ink, never pure black
+  '#5d636f',
+  '#d13a63', // cortex crimson
+  '#1553b3', // cortex blue
+  '#c14a2e',
+  '#9a6a1f',
+  '#1f8a5a',
+  '#1f6f8b',
+  '#5145a8',
+  '#8d4a72',
+  '#a8121e',
+  '#6d7688',
 ] as const
 
 const PENS: { id: PenTool; label: string; hint: string }[] = [
@@ -152,7 +158,7 @@ export function ReaderToolbar({
           title={`${t(entry.label)} · ${entry.key}`}
           className={cn(
             'grid size-9 place-items-center rounded-md transition-colors',
-            tool === entry.id ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
+            tool === entry.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
           )}
         >
           <Icon icon={entry.icon} size={17} />
@@ -181,7 +187,7 @@ export function ReaderToolbar({
             aria-pressed={rulerOn}
             aria-label={t('Ruler')}
             title={`${t('Ruler')} · R`}
-            className={cn('grid size-9 place-items-center rounded-md transition-colors', rulerOn ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
+            className={cn('grid size-9 place-items-center rounded-md transition-colors', rulerOn ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
           >
             <Icon icon={Ruler} size={16} />
           </button>
@@ -191,7 +197,7 @@ export function ReaderToolbar({
             aria-pressed={timerOn}
             aria-label={t('Study timer')}
             title={t('Study timer')}
-            className={cn('grid size-9 place-items-center rounded-md transition-colors', timerOn ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
+            className={cn('grid size-9 place-items-center rounded-md transition-colors', timerOn ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
           >
             <Icon icon={Timer} size={16} />
           </button>
@@ -246,7 +252,7 @@ function ToolSettingsPanel({
               aria-pressed={settings.lasso === mode}
               className={cn(
                 'rounded-md border px-2 py-1.5 text-[11.5px] transition-colors',
-                settings.lasso === mode ? 'border-accent bg-accent-tint text-accent-strong' : 'border-line text-ink-2 hover:bg-inset',
+                settings.lasso === mode ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset',
               )}
             >
               {t(mode === 'free' ? 'Drawing a loop' : 'Dragging a box')}
@@ -275,7 +281,7 @@ function ToolSettingsPanel({
                 title={t(pen.hint)}
                 className={cn(
                   'rounded-md border px-2 py-1.5 text-[11.5px] transition-colors',
-                  settings.pen === pen.id ? 'border-accent bg-accent-tint text-accent-strong' : 'border-line text-ink-2 hover:bg-inset',
+                  settings.pen === pen.id ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset',
                 )}
               >
                 {t(pen.label)}
@@ -337,7 +343,7 @@ function ToolSettingsPanel({
                   aria-pressed={settings.eraserMode === mode}
                   className={cn(
                     'rounded-md border px-2 py-1.5 text-[11.5px] transition-colors',
-                    settings.eraserMode === mode ? 'border-accent bg-accent-tint text-accent-strong' : 'border-line text-ink-2 hover:bg-inset',
+                    settings.eraserMode === mode ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset',
                   )}
                 >
                   {t(mode === 'stroke' ? 'Whole stroke' : 'Area')}
@@ -351,7 +357,7 @@ function ToolSettingsPanel({
               type="checkbox"
               checked={settings.eraserHighlighterOnly}
               onChange={(event) => onSettings({ eraserHighlighterOnly: event.target.checked })}
-              className="accent-[var(--color-accent)]"
+              className="accent-[var(--color-primary)]"
             />
             {t('Highlighter only')}
           </label>
@@ -366,7 +372,7 @@ function ToolSettingsPanel({
                 type="checkbox"
                 checked={settings.snapShapes}
                 onChange={(event) => onSettings({ snapShapes: event.target.checked })}
-                className="accent-[var(--color-accent)]"
+                className="accent-[var(--color-primary)]"
               />
               {t('Snap shapes as I draw')}
             </label>
@@ -394,7 +400,7 @@ function Slider({
         max={max}
         value={value}
         onChange={(event) => onChange(Number(event.target.value))}
-        className="h-1 w-full accent-[var(--color-accent)]"
+        className="h-1 w-full accent-[var(--color-primary)]"
       />
     </label>
   )
@@ -408,5 +414,5 @@ export const TONE_SWATCH: Record<NoteTone, string> = {
   sage: 'bg-[#4f8f3a]',
   slate: 'bg-[#5b6570]',
   sand: 'bg-[#8a6d3b]',
-  clay: 'bg-accent',
+  clay: 'bg-primary',
 }

@@ -36,7 +36,7 @@ export function ThemeSwitch({ className }: { className?: string }) {
             onClick={() => setTheme(option)}
             className={cn(
               'grid size-9 place-items-center rounded-md transition-colors sm:size-7',
-              active ? 'bg-surface text-accent-strong shadow-panel' : 'text-ink-3 hover:text-ink',
+              active ? 'bg-surface text-primary-strong shadow-panel' : 'text-ink-3 hover:text-ink',
             )}
           >
             <Icon icon={GLYPH[option]} size={15} />

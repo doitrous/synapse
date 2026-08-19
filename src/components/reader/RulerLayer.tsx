@@ -57,7 +57,7 @@ export function RulerLayer({
       <div
         role="group"
         aria-label={t('Ruler')}
-        className="pointer-events-auto absolute cursor-move rounded-[2px] border border-accent bg-[color-mix(in_srgb,var(--color-accent)_14%,var(--color-surface))]/85"
+        className="pointer-events-auto absolute cursor-move rounded-[2px] border border-primary bg-[color-mix(in_srgb,var(--color-primary)_14%,var(--color-surface))]/85"
         style={{
           left: ax,
           top: ay - 11,
@@ -87,7 +87,7 @@ export function RulerLayer({
         }}
       >
         {/* The drawing edge, marked so it is obvious which side to draw along. */}
-        <span className="absolute inset-x-0 bottom-0 h-px bg-accent" aria-hidden />
+        <span className="absolute inset-x-0 bottom-0 h-px bg-primary" aria-hidden />
       </div>
 
       {(['a', 'b'] as const).map((which) => (
@@ -95,7 +95,7 @@ export function RulerLayer({
           key={which}
           type="button"
           aria-label={which === 'a' ? t('Turn the ruler from this end') : t('Turn the ruler from the other end')}
-          className="pointer-events-auto absolute size-4 -translate-x-1/2 -translate-y-1/2 cursor-grab rounded-full border border-accent bg-surface shadow-panel active:cursor-grabbing"
+          className="pointer-events-auto absolute size-4 -translate-x-1/2 -translate-y-1/2 cursor-grab rounded-full border border-primary bg-surface shadow-panel active:cursor-grabbing"
           style={{ left: which === 'a' ? ax : bx, top: which === 'a' ? ay : by }}
           {...endHandle(which)}
         />

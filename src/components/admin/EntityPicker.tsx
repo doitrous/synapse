@@ -162,7 +162,7 @@ export function EntityPicker({
           onFocus={() => setOpen(true)}
           onClick={() => setOpen(true)}
           onKeyDown={onKeyDown}
-          className="h-11 w-full rounded-md border border-line bg-surface ps-9 pe-3 text-[13.5px] text-ink transition-colors placeholder:text-ink-3 focus:border-accent focus:outline-none focus:ring-2 focus:ring-[color-mix(in_srgb,var(--color-accent)_18%,transparent)] sm:h-9"
+          className="h-11 w-full rounded-md border border-line bg-surface ps-9 pe-3 text-[13.5px] text-ink transition-colors placeholder:text-ink-3 focus:border-primary focus:outline-none focus:ring-2 focus:ring-[color-mix(in_srgb,var(--color-primary)_18%,transparent)] sm:h-9"
         />
       </div>
       {hint && <p className="mt-1 text-[11px] text-ink-3">{hint}</p>}
@@ -190,7 +190,7 @@ export function EntityPicker({
                       onClick={() => add(option.id)}
                       className={cn('flex w-full items-start gap-2 rounded-md px-2 py-2 text-start', index === active ? 'bg-inset' : 'hover:bg-inset')}
                     >
-                      <Icon icon={Plus} size={13} className="mt-0.5 shrink-0 text-accent" />
+                      <Icon icon={Plus} size={13} className="mt-0.5 shrink-0 text-primary" />
                       <span className="min-w-0 flex-1">
                         <span className="block text-[12px] leading-snug text-ink">{option.label}</span>
                         {option.sublabel && <span className="block truncate font-mono text-[9.5px] text-ink-3">{option.sublabel}</span>}

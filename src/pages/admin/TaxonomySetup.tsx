@@ -63,7 +63,7 @@ function Editable({ value, onSave, className }: { value: string; onSave: (v: str
         onChange={(e) => setV(e.target.value)}
         onBlur={() => { setEditing(false); if (v.trim() && v !== value) onSave(v.trim()) }}
         onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); if (e.key === 'Escape') { setV(value); setEditing(false) } }}
-        className={cn('rounded border border-accent bg-surface px-1.5 py-0.5 text-ink outline-none', className)}
+        className={cn('rounded border border-primary bg-surface px-1.5 py-0.5 text-ink outline-none', className)}
       />
     )
   }
@@ -162,7 +162,7 @@ export function TaxonomySetup() {
   const findSub = (d: Sys[], sid: string, tid: string, suid: string) => findTop(d, sid, tid).subs.find((x) => x.id === suid)!
   const findMic = (d: Sys[], sid: string, tid: string, suid: string, mid: string) => findSub(d, sid, tid, suid).micros.find((x) => x.id === mid)!
 
-  const addSystem = (name: string) => update((d) => { const id = uniqueId(slug(name), allIds(d)); return [...d, { id, name, short: name.slice(0, 3).toUpperCase(), color: '#8a938f', sysId: systemId(id), topics: [] }] })
+  const addSystem = (name: string) => update((d) => { const id = uniqueId(slug(name), allIds(d)); return [...d, { id, name, short: name.slice(0, 3).toUpperCase(), color: '#6d7688', sysId: systemId(id), topics: [] }] })
   const addTopic = (sid: string, title: string) => update((d) => { const id = uniqueId(slug(title), allIds(d)); findSys(d, sid).topics.push({ id, title, tpcId: topicIdOf(id), subs: [] }); return d })
   const addSub = (sid: string, tid: string, title: string) => update((d) => { const id = uniqueId(slug(title), allIds(d)); findTop(d, sid, tid).subs.push({ id, title, subId: subtopicIdOf(id), micros: [] }); return d })
   const addMicro = (sid: string, tid: string, suid: string, title: string) => update((d) => { const id = uniqueId(slug(title), allIds(d)); findSub(d, sid, tid, suid).micros.push({ id, title, micId: microtopicIdOf(id), nanos: [] }); return d })
@@ -212,7 +212,7 @@ export function TaxonomySetup() {
           const existing = d.find((x) => x.name.toLowerCase() === name.toLowerCase())
           if (existing) { sys = existing; skipped++; top = null; sub = null; mic = null; return }
           const id = newId(name)
-          const created: Sys = { id, name, short: name.slice(0, 3).toUpperCase(), color: '#8a938f', sysId: systemId(id), topics: [] }
+          const created: Sys = { id, name, short: name.slice(0, 3).toUpperCase(), color: '#6d7688', sysId: systemId(id), topics: [] }
           sys = created; d.push(created); sAdd++; top = null; sub = null; mic = null
         } else if (level === 2) {
           if (!sys) { errors.push(`Line ${i + 1}: topic "${name}" has no parent system.`); return }
@@ -251,8 +251,8 @@ export function TaxonomySetup() {
       />
 
       <div className="mb-4 inline-flex rounded-lg border border-line bg-surface p-1">
-        <button type="button" onClick={() => setView('canonical')} className={cn('rounded-md px-3 py-2 text-[12px] font-semibold transition-colors', view === 'canonical' ? 'bg-accent-tint text-accent-strong shadow-hairline' : 'text-ink-2 hover:text-ink')}>Reviewed medical taxonomy</button>
-        <button type="button" onClick={() => setView('curriculum')} className={cn('rounded-md px-3 py-2 text-[12px] font-semibold transition-colors', view === 'curriculum' ? 'bg-accent-tint text-accent-strong shadow-hairline' : 'text-ink-2 hover:text-ink')}>University curriculum overlays</button>
+        <button type="button" onClick={() => setView('canonical')} className={cn('rounded-md px-3 py-2 text-[12px] font-semibold transition-colors', view === 'canonical' ? 'bg-primary-tint text-primary-strong shadow-hairline' : 'text-ink-2 hover:text-ink')}>Reviewed medical taxonomy</button>
+        <button type="button" onClick={() => setView('curriculum')} className={cn('rounded-md px-3 py-2 text-[12px] font-semibold transition-colors', view === 'curriculum' ? 'bg-primary-tint text-primary-strong shadow-hairline' : 'text-ink-2 hover:text-ink')}>University curriculum overlays</button>
       </div>
 
       {view === 'canonical' ? <MedicalTaxonomyAdminBrowser taxonomy={medicalTaxonomy} /> : <>
@@ -272,7 +272,7 @@ export function TaxonomySetup() {
           return (
             <Panel key={sys.id} className="overflow-hidden">
               <div className="flex items-center gap-2 border-b border-line bg-surface-2/50 px-3 py-2.5">
-                <button onClick={() => toggle(sk)} className="grid size-6 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={15} className={cn('transition-transform', (open[sk] ?? true) && 'rotate-90')} /></button>
+                <button onClick={() => toggle(sk)} className="grid size-6 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={15} className="chevron-turn" open={(open[sk] ?? true)} /></button>
                 <SystemColorControl systemId={sys.id} short={sys.short} />
                 <Editable value={sys.name} onSave={(v) => renameSystem(sys.id, v)} className="text-[14px] font-semibold text-ink" />
                 <Id value={sys.sysId} />
@@ -286,7 +286,7 @@ export function TaxonomySetup() {
                     return (
                       <div key={top.id} className="rounded-lg border border-line">
                         <div className="flex items-center gap-2 px-3 py-2">
-                          <button onClick={() => toggle(tk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={14} className={cn('transition-transform', open[tk] && 'rotate-90')} /></button>
+                          <button onClick={() => toggle(tk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={14} className="chevron-turn" open={open[tk]} /></button>
                           <Editable value={top.title} onSave={(v) => renameTopic(sys.id, top.id, v)} className="text-[13.5px] font-medium text-ink" />
                           <Id value={top.tpcId} />
                           <span className="tnum ms-auto font-mono text-[10.5px] text-ink-3">{top.subs.length}</span>
@@ -299,7 +299,7 @@ export function TaxonomySetup() {
                               return (
                                 <div key={sub.id} className="ms-4">
                                   <div className="flex items-center gap-2 py-1">
-                                    <button onClick={() => toggle(suk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={13} className={cn('transition-transform', open[suk] && 'rotate-90')} /></button>
+                                    <button onClick={() => toggle(suk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={13} className="chevron-turn" open={open[suk]} /></button>
                                     <Editable value={sub.title} onSave={(v) => renameSub(sys.id, top.id, sub.id, v)} className="text-[12.5px] text-ink-2" />
                                     <Id value={sub.subId} />
                                     <button onClick={() => removeSub(sys.id, top.id, sub.id)} className="ms-auto grid size-7 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label="Remove subtopic"><Icon icon={Trash2} size={13} /></button>
@@ -311,7 +311,7 @@ export function TaxonomySetup() {
                                         return (
                                           <div key={mic.id}>
                                             <div className="flex items-center gap-2 py-0.5">
-                                              <button onClick={() => toggle(mk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={12} className={cn('transition-transform', open[mk] && 'rotate-90')} /></button>
+                                              <button onClick={() => toggle(mk)} className="grid size-5 place-items-center text-ink-3 hover:text-ink"><Icon icon={ChevronRight} size={12} className="chevron-turn" open={open[mk]} /></button>
                                               <Editable value={mic.title} onSave={(v) => renameMicro(sys.id, top.id, sub.id, mic.id, v)} className="text-[12px] text-ink-3" />
                                               <Id value={mic.micId} />
                                               {mic.nanos.length > 0 && <span className="tnum font-mono text-[10px] text-ink-3">{mic.nanos.length}</span>}

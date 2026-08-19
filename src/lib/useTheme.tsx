@@ -13,14 +13,21 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState, t
 export const THEMES = ['light', 'warm', 'dark'] as const
 export type Theme = (typeof THEMES)[number]
 
+/**
+ * The storage key still reads `synapse-`: it is the address of a preference
+ * every existing reader already has on disk, not a piece of branding. Renaming
+ * it at the rebrand would silently reset everyone's chosen appearance.
+ */
 export const THEME_STORAGE_KEY = 'synapse-theme'
-const DEFAULT_THEME: Theme = 'warm'
+
+/** Light is the reference ground the Connect Cortex palette is built around. */
+const DEFAULT_THEME: Theme = 'light'
 
 /** The address bar / task switcher colour, so browser chrome matches the page. */
 const THEME_COLOR: Record<Theme, string> = {
-  light: '#f2f4f6',
-  warm: '#f6f1e9',
-  dark: '#17140f',
+  light: '#f5f7fb',
+  warm: '#f7f2ea',
+  dark: '#0d1117',
 }
 
 function isTheme(value: unknown): value is Theme {

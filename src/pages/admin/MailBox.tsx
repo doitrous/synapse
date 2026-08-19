@@ -20,9 +20,9 @@ interface Draft { filename: string; contentType: string; size: number; content_b
 
 const DEFAULT_FROM = 'synapse@mail.doitrous.com'
 
-function statusTone(s: string): 'success' | 'accent' | 'warning' | 'danger' | 'neutral' {
+function statusTone(s: string): 'success' | 'primary' | 'warning' | 'danger' | 'neutral' {
   if (s === 'Delivered' || s === 'Opened') return 'success'
-  if (s === 'Sent' || s === 'Received') return 'accent'
+  if (s === 'Sent' || s === 'Received') return 'primary'
   if (s === 'Queued') return 'neutral'
   if (s === 'Bounced') return 'warning'
   return 'danger'
@@ -72,12 +72,12 @@ export function MailBox() {
   if (!API_MODE) {
     return (
       <PageContainer>
-        <PageHeader title="Mail Box" description="Send and receive email from your Synapse addresses." />
+        <PageHeader title="Mail Box" description="Send and receive email from your Connect Cortex addresses." />
         <Panel className="p-8 text-center">
           <span className="mx-auto grid size-12 place-items-center rounded-xl bg-warning-tint text-warning"><Icon icon={Info} size={22} /></span>
           <h2 className="mt-4 font-serif text-[19px] font-semibold text-ink">The Mail Box needs the backend</h2>
           <p className="mx-auto mt-2 max-w-md text-[13.5px] leading-relaxed text-ink-2">
-            Mail sending, the inbox, and attachments run through the Synapse API (Resend + database). Set <code className="rounded bg-inset px-1 font-mono text-[12px]">VITE_API_BASE</code> and deploy <code className="rounded bg-inset px-1 font-mono text-[12px]">server/</code> — see <b>DEPLOY-STEPS.md</b> — then this page goes live.
+            Mail sending, the inbox, and attachments run through the Connect Cortex API (Resend + database). Set <code className="rounded bg-inset px-1 font-mono text-[12px]">VITE_API_BASE</code> and deploy <code className="rounded bg-inset px-1 font-mono text-[12px]">server/</code> — see <b>DEPLOY-STEPS.md</b> — then this page goes live.
           </p>
           <p className="mt-3 font-mono text-[11px] text-ink-3">RESEND_API_KEY → server · VITE_API_BASE → app</p>
         </Panel>
@@ -105,7 +105,7 @@ export function MailBox() {
         <div className="space-y-4">
           <Panel className="p-2">
             {([['all', 'All mail', Mail], ['inbox', 'Inbox', Inbox], ['outbox', 'Outbox', Send]] as const).map(([val, label, icon]) => (
-              <button key={val} type="button" onClick={() => setFolder(val)} className={cn('flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-left text-[13.5px] font-medium', folder === val ? 'bg-accent-tint text-accent-strong' : 'text-ink-2 hover:bg-inset')}>
+              <button key={val} type="button" onClick={() => setFolder(val)} className={cn('flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-left text-[13.5px] font-medium', folder === val ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset')}>
                 <Icon icon={icon} size={16} />{label}
               </button>
             ))}
@@ -168,10 +168,10 @@ function MailboxPanel({ box, mailboxes, onSelect, onCreated, onError }: { box: s
     <Panel className="overflow-hidden">
       <PanelHeader title="Addresses" icon={AtSign} action={<IconButton icon={Plus} label="New address" size="sm" onClick={() => setAdding((v) => !v)} />} />
       <div className="p-2">
-        <button type="button" onClick={() => onSelect('')} className={cn('flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-left text-[12.5px]', box === '' ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset')}>All addresses</button>
-        <button type="button" onClick={() => onSelect(DEFAULT_FROM)} className={cn('flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-left text-[12.5px]', box === DEFAULT_FROM ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset')}>{DEFAULT_FROM}</button>
+        <button type="button" onClick={() => onSelect('')} className={cn('flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-left text-[12.5px]', box === '' ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>All addresses</button>
+        <button type="button" onClick={() => onSelect(DEFAULT_FROM)} className={cn('flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-left text-[12.5px]', box === DEFAULT_FROM ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>{DEFAULT_FROM}</button>
         {mailboxes.filter((m) => m.address !== DEFAULT_FROM).map((m) => (
-          <button key={m.address} type="button" onClick={() => onSelect(m.address)} className={cn('flex w-full items-center gap-2 truncate rounded-md px-2.5 py-1.5 text-left text-[12.5px]', box === m.address ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset')}>{m.address}</button>
+          <button key={m.address} type="button" onClick={() => onSelect(m.address)} className={cn('flex w-full items-center gap-2 truncate rounded-md px-2.5 py-1.5 text-left text-[12.5px]', box === m.address ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>{m.address}</button>
         ))}
         {adding && (
           <form className="mt-2 flex items-center gap-1.5 border-t border-line pt-2" onSubmit={(e) => { e.preventDefault(); void create() }}>
@@ -205,7 +205,7 @@ function Reader({ mail, onBack }: { mail: MailFull; onBack: () => void }) {
       {mail.attachments.length > 0 && (
         <div className="flex flex-wrap gap-2 border-b border-line bg-surface-2/40 p-4">
           {mail.attachments.map((a) => (
-            <button key={a.id} type="button" onClick={() => void download(a)} className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-3 py-2 text-[12px] text-ink-2 transition-colors hover:border-accent-line hover:text-accent-strong">
+            <button key={a.id} type="button" onClick={() => void download(a)} className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-3 py-2 text-[12px] text-ink-2 transition-colors hover:border-primary-line hover:text-primary-strong">
               <Icon icon={Paperclip} size={13} /><span className="max-w-[12rem] truncate">{a.filename}</span><span className="text-ink-3">{fmtSize(a.sizeBytes)}</span><Icon icon={Download} size={13} />
             </button>
           ))}

@@ -80,10 +80,10 @@ export function Login() {
           </div>
         </Field>
         <div className="flex justify-end text-[12.5px]">
-          <Link to="/auth/forgot-password" className="font-semibold text-accent-strong hover:text-accent">Forgot password?</Link>
+          <Link to="/auth/forgot-password" className="font-semibold text-primary-strong hover:text-primary">Forgot password?</Link>
         </div>
         <Button className="w-full" type="submit" variant="primary" size="lg" iconLeft={LogIn} loading={loading}>Sign in</Button>
-        <p className="text-center text-[13px] text-ink-2">New to Synapse? <Link className="inline-flex items-center gap-1 font-semibold text-accent-strong hover:text-accent" to="/signup">Create an account <Icon icon={ArrowRight} size={13} /></Link></p>
+        <p className="text-center text-[13px] text-ink-2">New to Connect Cortex? <Link className="inline-flex items-center gap-1 font-semibold text-primary-strong hover:text-primary" to="/signup">Create an account <Icon icon={ArrowRight} size={13} /></Link></p>
       </form>
     </AuthLayout>
   )

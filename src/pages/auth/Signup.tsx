@@ -62,13 +62,13 @@ export function Signup() {
       <h2 className="text-[25px] text-ink">What belongs to you</h2>
       <p className="mt-2 text-[13px] leading-relaxed text-ink-2">Your private learning record is stored under your verified account ID—not under an email typed into a form.</p>
       <ul className="mt-6 divide-y divide-line">
-        {ownership.map((item) => <li key={item.title} className="flex gap-3 py-4 first:pt-0"><span className="grid size-9 shrink-0 place-items-center rounded-lg bg-inset text-accent-strong"><Icon icon={item.icon} size={17} /></span><span><span className="block text-[13.5px] font-semibold text-ink">{item.title}</span><span className="mt-0.5 block text-[12px] leading-relaxed text-ink-2">{item.detail}</span><span className="mt-1.5 inline-flex items-center gap-1 text-[11.5px] font-semibold text-success"><Icon icon={Check} size={12} /> Private to your account</span></span></li>)}
+        {ownership.map((item) => <li key={item.title} className="flex gap-3 py-4 first:pt-0"><span className="grid size-9 shrink-0 place-items-center rounded-lg bg-inset text-primary-strong"><Icon icon={item.icon} size={17} /></span><span><span className="block text-[13.5px] font-semibold text-ink">{item.title}</span><span className="mt-0.5 block text-[12px] leading-relaxed text-ink-2">{item.detail}</span><span className="mt-1.5 inline-flex items-center gap-1 text-[11.5px] font-semibold text-success"><Icon icon={Check} size={12} /> Private to your account</span></span></li>)}
       </ul>
     </div>
   )
 
   return (
-    <AuthLayout step="account" title="Create your Synapse account" description="One account for your study record, followed by email verification and authenticator protection." aside={aside}>
+    <AuthLayout step="account" title="Create your Connect Cortex account" description="One account for your study record, followed by email verification and authenticator protection." aside={aside}>
       <form className="space-y-4" onSubmit={submit}>
         {!isSupabaseConfigured && <div className="rounded-lg border border-warning/30 bg-warning-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">Account service awaiting Supabase project keys. The form is ready and dashboard preview stays open.</div>}
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
@@ -81,9 +81,9 @@ export function Signup() {
         <ul className="grid gap-1.5 rounded-lg border border-line bg-surface-2/55 p-3 text-[11.5px] sm:grid-cols-2">
           {['10 or more characters', 'A lower-case letter', 'An upper-case letter', 'A number or symbol'].map((label, index) => <li key={label} aria-label={`${label}: ${checks[index] ? 'met' : 'not yet met'}`} className={checks[index] ? 'flex items-center gap-1.5 text-success' : 'flex items-center gap-1.5 text-ink-2'}><Icon icon={checks[index] ? Check : Circle} size={12} />{label}</li>)}
         </ul>
-        <label className="flex cursor-pointer items-start gap-2.5 text-[12px] leading-relaxed text-ink-2"><input type="checkbox" className="mt-0.5 size-4 shrink-0 accent-accent" checked={accepted} onChange={(event) => setAccepted(event.target.checked)} /> I understand that account identity is managed by Supabase Auth and my learning data is stored under my account ID in Synapse MariaDB.</label>
+        <label className="flex cursor-pointer items-start gap-2.5 text-[12px] leading-relaxed text-ink-2"><input type="checkbox" className="mt-0.5 size-4 shrink-0 accent-primary" checked={accepted} onChange={(event) => setAccepted(event.target.checked)} /> I understand that account identity is managed by Supabase Auth and my learning data is stored under my account ID in Connect Cortex MariaDB.</label>
         <Button className="w-full" type="submit" variant="primary" size="lg" iconLeft={UserPlus} loading={loading}>Create account</Button>
-        <p className="text-center text-[13px] text-ink-2">Already registered? <Link className="font-semibold text-accent-strong hover:text-accent" to="/login">Sign in</Link></p>
+        <p className="text-center text-[13px] text-ink-2">Already registered? <Link className="font-semibold text-primary-strong hover:text-primary" to="/login">Sign in</Link></p>
       </form>
     </AuthLayout>
   )

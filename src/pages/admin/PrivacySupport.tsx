@@ -37,7 +37,7 @@ export function PrivacySupport() {
         <PanelHeader
           title="Support queue"
           icon={LifeBuoy}
-          action={<Badge tone="accent">{open} open</Badge>}
+          action={<Badge tone="primary">{open} open</Badge>}
         />
         <Table>
           <thead>

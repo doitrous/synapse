@@ -25,5 +25,5 @@ export const subjectsById: Record<string, Subject> = Object.fromEntries(
  * in a muted grey is more useful than an empty badge or a thrown error.
  */
 export function getSubject(id: string): Subject {
-  return subjectsById[id] ?? { id, name: id, short: id.toUpperCase(), color: '#8a938f' }
+  return subjectsById[id] ?? { id, name: id, short: id.toUpperCase(), color: '#6d7688' }
 }

@@ -14,11 +14,11 @@ function Box({ checked, partial }: { checked: boolean; partial?: boolean }) {
     <span
       className={cn(
         'grid size-[18px] shrink-0 place-items-center rounded-[5px] border transition-colors',
-        checked ? 'border-accent bg-accent text-on-accent' : partial ? 'border-accent-line bg-accent-tint' : 'border-line-2 bg-surface',
+        checked ? 'border-primary bg-primary text-on-primary' : partial ? 'border-primary-line bg-primary-tint' : 'border-line-2 bg-surface',
       )}
     >
       {checked && <Icon icon={Check} size={13} strokeWidth={2.8} />}
-      {!checked && partial && <span className="size-2 rounded-[2px] bg-accent" />}
+      {!checked && partial && <span className="size-2 rounded-[2px] bg-primary" />}
     </span>
   )
 }
@@ -156,7 +156,7 @@ export function TopicChooser({
                     aria-label={`${isOpen ? t('Hide') : t('Show')} ${subj.name}`}
                     className="grid size-7 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink"
                   >
-                    <Icon icon={ChevronRight} size={15} className={cn('transition-transform', isOpen && 'rotate-90 rtl:-rotate-90')} />
+                    <Icon icon={ChevronRight} size={15} className={cn('chevron-turn')} open={isOpen} />
                   </button>
                 </div>
               )
@@ -181,7 +181,7 @@ export function TopicChooser({
                       aria-label={t('Toggle subtopics')}
                       className="grid size-7 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink"
                     >
-                      <Icon icon={ChevronRight} size={15} className={cn('transition-transform', isOpen && 'rotate-90 rtl:-rotate-90')} />
+                      <Icon icon={ChevronRight} size={15} className={cn('chevron-turn')} open={isOpen} />
                     </button>
                   </div>
                   {isOpen && (

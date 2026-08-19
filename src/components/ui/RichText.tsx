@@ -34,8 +34,8 @@ export function RichText({ text, className }: { text: string; className?: string
         )
       case 'link':
         return token.href.startsWith('/')
-          ? <Link key={key} to={token.href} className="font-medium text-accent-strong underline decoration-accent-line underline-offset-2 hover:text-accent">{token.text}</Link>
-          : <a key={key} href={token.href} target="_blank" rel="noopener noreferrer" className="font-medium text-accent-strong underline decoration-accent-line underline-offset-2 hover:text-accent">{token.text}</a>
+          ? <Link key={key} to={token.href} className="font-medium text-primary-strong underline decoration-primary-line underline-offset-2 hover:text-primary">{token.text}</Link>
+          : <a key={key} href={token.href} target="_blank" rel="noopener noreferrer" className="font-medium text-primary-strong underline decoration-primary-line underline-offset-2 hover:text-primary">{token.text}</a>
       default:
         return <Fragment key={key}>{token.text}</Fragment>
     }

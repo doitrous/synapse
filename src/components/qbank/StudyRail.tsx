@@ -170,7 +170,7 @@ export function StudyRail({
                   key={ref.id}
                   to={`/app/library?s=${ref.id}`}
                   state={backState(location, t('Back to question'))}
-                  className="inline-flex items-start gap-1.5 rounded-md border border-accent-line bg-accent-tint/60 px-2.5 py-2 text-[12.5px] font-medium leading-snug text-accent-strong transition-colors hover:bg-accent-tint"
+                  className="inline-flex items-start gap-1.5 rounded-md border border-primary-line bg-primary-tint/60 px-2.5 py-2 text-[12.5px] font-medium leading-snug text-primary-strong transition-colors hover:bg-primary-tint"
                 >
                   <Icon icon={BookOpen} size={14} className="mt-px shrink-0" />
                   {ref.title}

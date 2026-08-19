@@ -37,7 +37,7 @@ export function SelectionOverlay({
     <div
       role="group"
       aria-label={t('Selected marks')}
-      className="absolute cursor-move rounded-[3px] border-2 border-dashed border-accent bg-accent-tint/20"
+      className="absolute cursor-move rounded-[3px] border-2 border-dashed border-primary bg-primary-tint/20"
       style={{
         left: box[0] * divisor - pad,
         top: box[1] * divisor - pad,

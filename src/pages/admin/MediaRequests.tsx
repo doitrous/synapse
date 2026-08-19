@@ -33,7 +33,7 @@ const PRIORITY_TONE: Record<string, 'danger' | 'warning' | 'neutral'> = {
 /** The colour that lets the backlog be scanned rather than read row by row. */
 const STATUS_DOT: Record<string, string> = {
   needed: 'bg-warning',
-  planned: 'bg-accent',
+  planned: 'bg-primary',
   supplied: 'bg-success',
   declined: 'bg-ink-3',
 }

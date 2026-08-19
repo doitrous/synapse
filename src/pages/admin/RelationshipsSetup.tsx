@@ -26,7 +26,7 @@ function EditableLabel({ value, onSave }: { value: string; onSave: (v: string) =
     <input autoFocus value={v} onChange={(e) => setV(e.target.value)} onClick={(e) => e.stopPropagation()}
       onBlur={() => { setEditing(false); if (v.trim() && v !== value) onSave(v.trim()) }}
       onKeyDown={(e) => { if (e.key === 'Enter') (e.target as HTMLInputElement).blur(); if (e.key === 'Escape') { setV(value); setEditing(false) } }}
-      className="rounded border border-accent bg-surface px-1 py-0.5 text-[11px] uppercase text-ink outline-none" />
+      className="rounded border border-primary bg-surface px-1 py-0.5 text-[11px] uppercase text-ink outline-none" />
   )
   return <button type="button" onClick={(e) => { e.stopPropagation(); setV(value); setEditing(true) }} title="Rename topic" className="rounded px-1 hover:bg-inset">{value}</button>
 }
@@ -290,7 +290,7 @@ export function RelationshipsSetup() {
             return <span className="tnum shrink-0 font-mono text-[10px] text-ink-3">{count}</span>
           }}
           footer={focusId
-            ? <button type="button" onClick={() => setFocusId(null)} className="font-medium text-accent-strong hover:underline">Showing {conceptLabel(focusId)} · show all</button>
+            ? <button type="button" onClick={() => setFocusId(null)} className="font-medium text-primary-strong hover:underline">Showing {conceptLabel(focusId)} · show all</button>
             : <><span className="tnum font-mono font-medium text-ink-2">{graph.relations.length}</span> relationships across <span className="tnum font-mono font-medium text-ink-2">{graph.concepts.length}</span> concepts</>}
           className="lg:sticky lg:top-[4.5rem] lg:max-h-[calc(100dvh-6rem)]"
         />
@@ -321,7 +321,7 @@ export function RelationshipsSetup() {
                             {knownSubjects.has(sys) ? <><SubjectDot id={sys} />{getSubject(sys).name}</> : 'Unassigned'}
                           </div>
                           {list.map((c) => (
-                            <button key={c.id} type="button" onClick={() => { setSource(c.id); setSourcePickerOpen(false) }} className={cn('block w-full truncate rounded-md px-2.5 py-1.5 text-start text-[13px]', source === c.id ? 'bg-accent-tint font-medium text-accent-strong' : 'text-ink-2 hover:bg-inset')}>{c.label}</button>
+                            <button key={c.id} type="button" onClick={() => { setSource(c.id); setSourcePickerOpen(false) }} className={cn('block w-full truncate rounded-md px-2.5 py-1.5 text-start text-[13px]', source === c.id ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>{c.label}</button>
                           ))}
                         </div>
                       )
@@ -342,7 +342,7 @@ export function RelationshipsSetup() {
                 aria-pressed={bidirectional}
                 title={bidirectional ? 'Both directions (↔)' : 'One direction (→)'}
                 className={cn('grid h-9 w-11 shrink-0 place-items-center rounded-lg border text-[13px] font-semibold transition-colors',
-                  bidirectional ? 'border-accent-line bg-accent-tint text-accent-strong' : 'border-line bg-surface text-ink-2 hover:bg-inset')}
+                  bidirectional ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line bg-surface text-ink-2 hover:bg-inset')}
               >
                 {bidirectional ? '↔' : '→'}
               </button>
@@ -381,9 +381,9 @@ export function RelationshipsSetup() {
             {targets.length > 0 && (
               <div className="mt-2 flex flex-wrap gap-1.5">
                 {targets.map((tid) => (
-                  <span key={tid} className="inline-flex items-center gap-1 rounded-full border border-accent-line bg-accent-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-accent-strong">
+                  <span key={tid} className="inline-flex items-center gap-1 rounded-full border border-primary-line bg-primary-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-primary-strong">
                     {conceptLabel(tid)}
-                    <button onClick={() => setTargets((cur) => cur.filter((x) => x !== tid))} aria-label={`Remove ${conceptLabel(tid)}`} className="text-accent/70 hover:text-accent"><Icon icon={Trash2} size={11} /></button>
+                    <button onClick={() => setTargets((cur) => cur.filter((x) => x !== tid))} aria-label={`Remove ${conceptLabel(tid)}`} className="text-primary/70 hover:text-primary"><Icon icon={Trash2} size={11} /></button>
                   </span>
                 ))}
               </div>
@@ -397,7 +397,7 @@ export function RelationshipsSetup() {
           <Field label="Citation ID(s)" hint="Must belong to the selected claims and point to exact source locations.">
             <TextInput value={citationText} onChange={(event) => setCitationText(event.target.value)} placeholder="CIT-…, CIT-…" />
           </Field>
-          <p className="sm:col-span-2 text-[11px] leading-relaxed text-ink-3">Synapse marks the relationship verified only when every supplied claim is verified and at least one matching exact citation is present. Otherwise it remains “needs evidence.”</p>
+          <p className="sm:col-span-2 text-[11px] leading-relaxed text-ink-3">Connect Cortex marks the relationship verified only when every supplied claim is verified and at least one matching exact citation is present. Otherwise it remains “needs evidence.”</p>
         </div>
         <div className="flex items-center justify-between gap-2 px-4 pb-4">
           <p className="text-[11.5px] text-ink-3">{source && targets.length ? `${conceptLabel(source)} ${bidirectional ? '↔' : '→'} ${type} ${bidirectional ? '↔' : '→'} ${targets.length} concept${targets.length === 1 ? '' : 's'}` : 'Pick a source and one or more targets.'}</p>
@@ -412,9 +412,9 @@ export function RelationshipsSetup() {
             <div className="flex w-full flex-wrap items-center gap-1.5 pt-1">
               <span className="text-[11px] text-ink-3">Custom:</span>
               {customTypes.map((ct) => (
-                <span key={ct} className="inline-flex items-center gap-1 rounded-full border border-accent-line bg-accent-tint py-0.5 pe-1.5 ps-2.5 text-[11.5px] font-medium text-accent-strong">
+                <span key={ct} className="inline-flex items-center gap-1 rounded-full border border-primary-line bg-primary-tint py-0.5 pe-1.5 ps-2.5 text-[11.5px] font-medium text-primary-strong">
                   {ct}
-                  <button onClick={() => setCustomTypes((cur) => cur.filter((x) => x !== ct))} aria-label={`Remove ${ct}`} className="text-accent/70 hover:text-accent"><Icon icon={Trash2} size={11} /></button>
+                  <button onClick={() => setCustomTypes((cur) => cur.filter((x) => x !== ct))} aria-label={`Remove ${ct}`} className="text-primary/70 hover:text-primary"><Icon icon={Trash2} size={11} /></button>
                 </span>
               ))}
             </div>
@@ -443,7 +443,7 @@ export function RelationshipsSetup() {
                   <tr className="border-t border-line bg-surface-2/70">
                     <td colSpan={4} className="px-2 py-0">
                       <button type="button" onClick={() => toggleGroup(sysKey)} aria-expanded={!sysCollapsed} className="flex w-full items-center gap-2 px-2 py-2 text-start">
-                        <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 transition-transform', !sysCollapsed && 'rotate-90')} />
+                        <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 chevron-turn')} open={!sysCollapsed} />
                         {knownSubjects.has(sys) ? <><SubjectDot id={sys} /><span className="text-[13px] font-semibold text-ink">{getSubject(sys).name}</span></> : <span className="text-[13px] font-semibold text-ink">Unassigned</span>}
                         <span className="tnum ms-1 font-mono text-[11px] text-ink-3">{count}</span>
                       </button>
@@ -457,7 +457,7 @@ export function RelationshipsSetup() {
                         <tr className="bg-surface-2/25">
                           <td colSpan={4} className="px-4 py-1.5 ps-6">
                             <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-                              <button type="button" onClick={() => toggleGroup(topKey)} aria-expanded={!topCollapsed} className="grid size-4 place-items-center"><Icon icon={ChevronRight} size={12} className={cn('transition-transform', !topCollapsed && 'rotate-90')} /></button>
+                              <button type="button" onClick={() => toggleGroup(topKey)} aria-expanded={!topCollapsed} className="grid size-4 place-items-center"><Icon icon={ChevronRight} size={12} className={cn('chevron-turn')} open={!topCollapsed} /></button>
                               {knownSubjects.has(sys) && topic !== 'General' ? <EditableLabel value={topic} onSave={(v) => renameTopic(sys, topic, v)} /> : topic}
                               <span className="tnum font-mono text-ink-3/70">{list.length}</span>
                             </div>
@@ -473,7 +473,7 @@ export function RelationshipsSetup() {
                         ) : (
                           <Tr key={rel.id} hover>
                             <Td className="pl-4 font-medium ps-10">{conceptLabel(rel.sourceId)}</Td>
-                            <Td><span className="inline-flex items-center gap-1.5"><Badge tone="accent">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span><span className="mt-1 block"><Badge tone={rel.verificationStatus === 'verified' ? 'success' : 'warning'}>{rel.verificationStatus ?? 'needs evidence'}</Badge></span></Td>
+                            <Td><span className="inline-flex items-center gap-1.5"><Badge tone="primary">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span><span className="mt-1 block"><Badge tone={rel.verificationStatus === 'verified' ? 'success' : 'warning'}>{rel.verificationStatus ?? 'needs evidence'}</Badge></span></Td>
                             <Td className="text-ink-2">{conceptLabel(rel.targetId)}</Td>
                             <Td align="right" className="pr-4"><div className="inline-flex gap-1"><Button variant="ghost" size="sm" iconLeft={Pencil} onClick={() => startEdit(rel)}>Edit</Button><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)}>Remove</Button></div></Td>
                           </Tr>

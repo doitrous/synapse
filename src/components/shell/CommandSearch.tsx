@@ -68,7 +68,7 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
   }
 
   return (
-    <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label="Search Synapse">
+    <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label="Search Connect Cortex">
       <button type="button" aria-label="Close search" className="absolute inset-0 size-full cursor-default bg-ink/25 animate-fade" onClick={onClose} />
       <div className="absolute left-1/2 top-[calc(env(safe-area-inset-top)+0.75rem)] w-[min(94vw,560px)] -translate-x-1/2 sm:top-[12vh] sm:w-[min(92vw,560px)]">
         <div
@@ -108,16 +108,16 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
                       onMouseMove={() => setActive(i)}
                       className={cn(
                         'flex w-full items-center gap-2.5 rounded-md px-2 py-2 text-left text-[13.5px] transition-colors',
-                        i === active ? 'bg-accent-tint text-accent-strong' : 'text-ink hover:bg-inset',
+                        i === active ? 'bg-primary-tint text-primary-strong' : 'text-ink hover:bg-inset',
                       )}
                     >
                       <Icon
                         icon={cmd.icon}
                         size={16}
-                        className={i === active ? 'text-accent' : 'text-ink-3'}
+                        className={i === active ? 'text-primary' : 'text-ink-3'}
                       />
                       <span className="flex-1 truncate">{cmd.label}</span>
-                      {i === active && <Icon icon={CornerDownLeft} size={14} className="text-accent" />}
+                      {i === active && <Icon icon={CornerDownLeft} size={14} className="text-primary" />}
                     </button>
                   </div>
                 )

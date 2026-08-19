@@ -229,7 +229,7 @@ export function UsersManagement() {
               {users.map((u: AdminUser) => {
                 const uni = universities.find((x) => x.id === u.universityId)
                 return (
-                  <Tr key={u.id} hover onClick={() => void openUser(u.id)} className={cn('cursor-pointer', selectedId === u.id && 'bg-accent-tint')}>
+                  <Tr key={u.id} hover onClick={() => void openUser(u.id)} className={cn('cursor-pointer', selectedId === u.id && 'bg-primary-tint')}>
                     <Td className="pl-4">
                       <span className="inline-flex items-center gap-2.5">
                         <Avatar name={u.name || u.email || '?'} size="sm" />
@@ -248,7 +248,7 @@ export function UsersManagement() {
                         ? <Badge tone="neutral">Never signed in</Badge>
                         : u.identity.accessStatus === 'suspended'
                           ? <Badge tone="danger">Suspended</Badge>
-                          : <Badge tone={u.identity.role === 'admin' ? 'accent' : 'success'}>{u.identity.role === 'admin' ? 'Admin' : 'Active'}</Badge>}
+                          : <Badge tone={u.identity.role === 'admin' ? 'primary' : 'success'}>{u.identity.role === 'admin' ? 'Admin' : 'Active'}</Badge>}
                     </Td>
                   </Tr>
                 )
@@ -284,7 +284,7 @@ export function UsersManagement() {
                     {detail.identity
                       ? <Badge tone={detail.identity.accessStatus === 'suspended' ? 'danger' : 'success'}>{detail.identity.accessStatus === 'suspended' ? 'Suspended' : 'Can sign in'}</Badge>
                       : <Badge tone="neutral">Never signed in</Badge>}
-                    {detail.identity?.role === 'admin' && <Badge tone="accent">Admin</Badge>}
+                    {detail.identity?.role === 'admin' && <Badge tone="primary">Admin</Badge>}
                   </div>
                 </div>
               </div>

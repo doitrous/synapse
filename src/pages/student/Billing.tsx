@@ -18,9 +18,9 @@ import { voucherDiscount, voucherEligibility, initialVouchers, VOUCHER_STORAGE_K
 /** Who to write to about a plan, since nobody can change one from this screen. */
 const SUPPORT_ADDRESS = 'synapse@mail.doitrous.com'
 
-const STATE_TONE: Record<Entitlement['state'], 'success' | 'accent' | 'warning' | 'neutral'> = {
+const STATE_TONE: Record<Entitlement['state'], 'success' | 'primary' | 'warning' | 'neutral'> = {
   active: 'success',
-  trialing: 'accent',
+  trialing: 'primary',
   expired: 'warning',
   cancelled: 'warning',
   none: 'neutral',
@@ -39,12 +39,12 @@ interface Redemption { voucherId: string; code: string; redeemedAt: string }
 /**
  * What the student is actually subscribed to.
  *
- * Previously: a hardcoded "Synapse Student" plan at £69 renewing on a fixed
+ * Previously: a hardcoded "Connect Cortex Student" plan at £69 renewing on a fixed
  * date, a VISA •••• 4242 that belonged to nobody, three fabricated paid
  * invoices, and four buttons — Change plan, Cancel subscription, Update payment
  * method, Download receipt — that had no `onClick` at all.
  *
- * There is no payment provider in Synapse. So this shows the real subscription
+ * There is no payment provider in Connect Cortex. So this shows the real subscription
  * an admin granted, priced from the real plan catalogue in EGP, and says
  * plainly who to contact. It does not offer to do things it cannot do.
  */
@@ -116,7 +116,7 @@ export function Billing() {
   }
 
   const renewalPrice = Math.max(0, price - discount)
-  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Synapse plan enquiry')}`
+  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Connect Cortex plan enquiry')}`
 
   return (
     <PageContainer>
@@ -132,7 +132,7 @@ export function Billing() {
                 title={t('No subscription yet')}
                 description={profileMissing
                   ? t("Your university hasn't set up your student profile yet. Once it has, any plan granted to you appears here.")
-                  : t('No plan has been granted to your account yet. Contact the Synapse team to arrange one.')}
+                  : t('No plan has been granted to your account yet. Contact the Connect Cortex team to arrange one.')}
                 action={<a href={supportLink}><Button variant="secondary" size="sm" iconLeft={LifeBuoy}>{t('Contact support')}</Button></a>}
               />
             ) : (
@@ -162,7 +162,7 @@ export function Billing() {
                 )}
 
                 <p className="mt-5 border-t border-line pt-4 text-[12.5px] leading-relaxed text-ink-3">
-                  {t('Subscriptions are managed by the Synapse team. To change or end your plan, get in touch and someone will action it on your account.')}
+                  {t('Subscriptions are managed by the Connect Cortex team. To change or end your plan, get in touch and someone will action it on your account.')}
                 </p>
                 <a href={supportLink} className="mt-3 inline-block">
                   <Button variant="secondary" size="md" iconLeft={LifeBuoy}>{t('Contact support about your plan')}</Button>
@@ -176,7 +176,7 @@ export function Billing() {
           <PanelHeader title={t('Payments')} icon={CreditCard} />
           <div className="p-5">
             <p className="text-[13px] leading-relaxed text-ink-2">
-              {t('Synapse does not take card payments in the app, and stores no card details. Your plan is arranged with the Synapse team directly.')}
+              {t('Connect Cortex does not take card payments in the app, and stores no card details. Your plan is arranged with the Connect Cortex team directly.')}
             </p>
           </div>
         </Panel>

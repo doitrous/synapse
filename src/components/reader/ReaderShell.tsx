@@ -426,7 +426,7 @@ export function ReaderShell() {
       <div className="mx-auto max-w-lg px-6 py-16 text-center">
         <p className="text-[15px] font-semibold text-ink">{t('That resource is not here')}</p>
         <p className="mt-1.5 text-[13px] text-ink-3">{t('It may have been removed, or the link may be out of date.')}</p>
-        <Link to="/app/resources" className="mt-5 inline-flex items-center gap-2 text-[13px] font-semibold text-accent-strong">
+        <Link to="/app/resources" className="mt-5 inline-flex items-center gap-2 text-[13px] font-semibold text-primary-strong">
           <Icon icon={ArrowLeft} size={15} />{t('Back to resources')}
         </Link>
       </div>
@@ -480,10 +480,10 @@ export function ReaderShell() {
                 <Icon icon={Maximize} size={15} />
               </button>
             </div>
-            <button type="button" onClick={() => setPanel((p) => (p === 'search' ? 'none' : 'search'))} className={cn('grid size-9 place-items-center rounded-md hover:bg-inset sm:size-8', panel === 'search' ? 'bg-accent-tint text-accent-strong' : 'text-ink-2')} aria-label={t('Search this document')}>
+            <button type="button" onClick={() => setPanel((p) => (p === 'search' ? 'none' : 'search'))} className={cn('grid size-9 place-items-center rounded-md hover:bg-inset sm:size-8', panel === 'search' ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')} aria-label={t('Search this document')}>
               <Icon icon={Search} size={16} />
             </button>
-            <button type="button" onClick={() => setPanel((p) => (p === 'outline' ? 'none' : 'outline'))} className={cn('grid size-9 place-items-center rounded-md hover:bg-inset sm:size-8', panel === 'outline' ? 'bg-accent-tint text-accent-strong' : 'text-ink-2')} aria-label={t('Contents')}>
+            <button type="button" onClick={() => setPanel((p) => (p === 'outline' ? 'none' : 'outline'))} className={cn('grid size-9 place-items-center rounded-md hover:bg-inset sm:size-8', panel === 'outline' ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')} aria-label={t('Contents')}>
               <Icon icon={List} size={16} />
             </button>
           </>
@@ -660,7 +660,7 @@ export function ReaderShell() {
                     const title = window.prompt(t('Name this section'), `${t('Page')} ${current}`)
                     if (title?.trim()) annotations.addMarker(title.trim(), current)
                   }}
-                  className="inline-flex items-center gap-1 rounded-md px-1.5 py-1 text-[11.5px] font-medium text-accent-strong hover:bg-inset"
+                  className="inline-flex items-center gap-1 rounded-md px-1.5 py-1 text-[11.5px] font-medium text-primary-strong hover:bg-inset"
                 >
                   <Icon icon={Plus} size={13} />{t('Section here')}
                 </button>
@@ -683,7 +683,7 @@ export function ReaderShell() {
                           onClick={() => void goToPage(marker.page)}
                           className="flex w-full items-center gap-2 rounded-md px-2 py-2 text-start text-[12.5px] text-ink-2 hover:bg-inset hover:text-ink"
                         >
-                          <span className="h-3.5 w-0.5 shrink-0 rounded-full bg-accent" aria-hidden />
+                          <span className="h-3.5 w-0.5 shrink-0 rounded-full bg-primary" aria-hidden />
                           <span className="min-w-0 flex-1 truncate">{marker.title}</span>
                           <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">{marker.page}</span>
                         </button>
@@ -723,7 +723,7 @@ export function ReaderShell() {
                       {noteHits.map((hit) => (
                         <li key={hit.id}>
                           <button type="button" onClick={() => void goToPage(hit.page)} className="w-full py-2.5 text-start hover:bg-inset">
-                            <span className="tnum font-mono text-[11px] text-accent-strong">{t('Page')} {hit.page}</span>
+                            <span className="tnum font-mono text-[11px] text-primary-strong">{t('Page')} {hit.page}</span>
                             <span className="mt-0.5 block px-2 text-[12px] leading-relaxed text-ink-2">{hit.text}</span>
                           </button>
                         </li>
@@ -767,9 +767,9 @@ export function ReaderShell() {
                       <button
                         type="button"
                         onClick={() => search.goTo(index)}
-                        className={cn('w-full py-2.5 text-start', index === search.currentIndex ? 'bg-accent-tint/40' : 'hover:bg-inset')}
+                        className={cn('w-full py-2.5 text-start', index === search.currentIndex ? 'bg-primary-tint/40' : 'hover:bg-inset')}
                       >
-                        <span className="tnum font-mono text-[11px] text-accent-strong">{t('Page')} {match.page}</span>
+                        <span className="tnum font-mono text-[11px] text-primary-strong">{t('Page')} {match.page}</span>
                         <span className="mt-0.5 block px-2 text-[12px] leading-relaxed text-ink-2">{match.snippet}</span>
                       </button>
                     </li>

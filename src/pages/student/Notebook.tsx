@@ -163,13 +163,13 @@ export function Notebook() {
               }}
               className={cn(
                 'mb-0.5 w-full rounded-md px-2.5 py-2 text-left transition-colors',
-                selectedId === n.id ? 'bg-accent-tint' : 'hover:bg-inset',
+                selectedId === n.id ? 'bg-primary-tint' : 'hover:bg-inset',
               )}
             >
               <p
                 className={cn(
                   'truncate text-[13.5px] font-medium',
-                  selectedId === n.id ? 'text-accent-strong' : 'text-ink',
+                  selectedId === n.id ? 'text-primary-strong' : 'text-ink',
                 )}
               >
                 {n.title || 'Untitled note'}
@@ -189,7 +189,7 @@ export function Notebook() {
     <div className="flex h-[calc(100dvh-3.5rem-env(safe-area-inset-top))]">
       <aside className="hidden w-72 shrink-0 flex-col border-r border-line bg-surface lg:flex">
         <div className="flex h-12 items-center gap-2 border-b border-line px-4">
-          <Icon icon={NotebookIcon} size={16} className="text-accent" />
+          <Icon icon={NotebookIcon} size={16} className="text-primary" />
           <span className="font-serif text-[16px] font-semibold text-ink">Notebook</span>
           <span className="tnum ml-auto font-mono text-[12px] text-ink-3">{notes.length}</span>
         </div>
@@ -212,7 +212,7 @@ export function Notebook() {
               {note.subtopicId ? (
                 <Link
                   to={`/app/library?s=${note.subtopicId}`}
-                  className="inline-flex items-center gap-1.5 rounded-md border border-accent-line bg-accent-tint/60 px-2.5 py-1.5 text-[12.5px] font-medium text-accent-strong transition-colors hover:bg-accent-tint"
+                  className="inline-flex items-center gap-1.5 rounded-md border border-primary-line bg-primary-tint/60 px-2.5 py-1.5 text-[12.5px] font-medium text-primary-strong transition-colors hover:bg-primary-tint"
                 >
                   <Icon icon={BookOpen} size={14} />
                   {note.subtopicTitle}
@@ -228,7 +228,7 @@ export function Notebook() {
                   aria-pressed={reading}
                   className={cn(
                     'inline-flex min-h-9 items-center gap-1.5 rounded-lg border px-2.5 text-[12px] font-medium transition-colors sm:min-h-8',
-                    reading ? 'border-accent-line bg-accent-tint text-accent-strong' : 'border-line-2 bg-surface text-ink-2 hover:bg-inset',
+                    reading ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line-2 bg-surface text-ink-2 hover:bg-inset',
                   )}
                 >
                   <Icon icon={reading ? PenLine : Eye} size={14} />
@@ -248,11 +248,11 @@ export function Notebook() {
             <div className="relative mt-4 flex flex-wrap items-center gap-1.5 border-y border-line py-3">
               <span className="mr-1 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Tags</span>
               {note.tags.map((tag) => <span key={tag} className="inline-flex items-center gap-1 rounded-full border border-line-2 bg-surface-2 py-1 pl-2.5 pr-1.5 text-[11.5px] font-medium text-ink-2">{tag}<button type="button" onClick={() => removeTag(tag)} aria-label={`Remove ${tag}`} className="rounded-full p-0.5 text-ink-3 hover:bg-inset hover:text-ink"><Icon icon={X} size={11} /></button></span>)}
-              <button type="button" onClick={() => setTagOpen((open) => !open)} className="grid size-11 place-items-center rounded-full border border-dashed border-line-2 text-ink-3 transition-colors hover:border-accent hover:bg-accent-tint hover:text-accent sm:size-7" aria-label="Add a tag"><Icon icon={Plus} size={14} strokeWidth={2.4} /></button>
+              <button type="button" onClick={() => setTagOpen((open) => !open)} className="grid size-11 place-items-center rounded-full border border-dashed border-line-2 text-ink-3 transition-colors hover:border-primary hover:bg-primary-tint hover:text-primary sm:size-7" aria-label="Add a tag"><Icon icon={Plus} size={14} strokeWidth={2.4} /></button>
               {tagOpen && <div className="absolute left-10 top-[calc(100%+0.4rem)] z-20 w-72 rounded-xl border border-line bg-surface p-3 shadow-pop">
                 <p className="text-[11.5px] font-bold text-ink">Tag a subject or create your own</p>
-                <div className="mt-2 flex flex-wrap gap-1.5">{subjects.filter((subject) => !note.tags.includes(subject.name)).map((subject) => <button type="button" key={subject.id} onClick={() => addTag(subject.name)} className="rounded-full border border-line bg-surface-2 px-2.5 py-1 text-[11px] font-medium text-ink-2 hover:border-accent-line hover:text-ink">{subject.name}</button>)}</div>
-                <div className="mt-3 flex gap-1.5"><input value={newTag} onChange={(event) => setNewTag(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter') addTag(newTag) }} placeholder="New tag…" className="h-11 min-w-0 flex-1 rounded-lg border border-line-2 bg-surface px-2.5 text-[12px] text-ink outline-none focus:border-accent sm:h-8" /><Button size="sm" variant="primary" onClick={() => addTag(newTag)} disabled={!newTag.trim()}>Add</Button></div>
+                <div className="mt-2 flex flex-wrap gap-1.5">{subjects.filter((subject) => !note.tags.includes(subject.name)).map((subject) => <button type="button" key={subject.id} onClick={() => addTag(subject.name)} className="rounded-full border border-line bg-surface-2 px-2.5 py-1 text-[11px] font-medium text-ink-2 hover:border-primary-line hover:text-ink">{subject.name}</button>)}</div>
+                <div className="mt-3 flex gap-1.5"><input value={newTag} onChange={(event) => setNewTag(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter') addTag(newTag) }} placeholder="New tag…" className="h-11 min-w-0 flex-1 rounded-lg border border-line-2 bg-surface px-2.5 text-[12px] text-ink outline-none focus:border-primary sm:h-8" /><Button size="sm" variant="primary" onClick={() => addTag(newTag)} disabled={!newTag.trim()}>Add</Button></div>
               </div>}
               <label className="ml-auto flex min-w-56 items-center gap-2 text-[11.5px] text-ink-3"><span className="shrink-0">Related article</span><Select className="h-11 sm:h-8" value={note.subtopicId ?? ''} onChange={(event) => { const article = allSubtopics.find((item) => item.id === event.target.value); update(note.id, { subtopicId: article?.id, subtopicTitle: article ? `${article.topicTitle} · ${article.title}` : undefined, subjectId: article?.subjectId ?? note.subjectId }) }}><option value="">None</option>{allSubtopics.map((article) => <option key={article.id} value={article.id}>{article.title}</option>)}</Select></label>
             </div>

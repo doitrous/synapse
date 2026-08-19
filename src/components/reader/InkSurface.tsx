@@ -149,7 +149,7 @@ export function InkSurface({
 
     if (activeTool === 'lasso') {
       context.save()
-      context.strokeStyle = 'var(--color-accent)'
+      context.strokeStyle = 'var(--color-primary)'
       context.setLineDash([5, 4])
       context.lineWidth = 1.5
       // Shift turns the free loop into a marquee — the same gesture, straightened.
@@ -172,7 +172,7 @@ export function InkSurface({
       const rect = dragRect()
       if (!rect) return
       context.save()
-      context.strokeStyle = 'var(--color-accent)'
+      context.strokeStyle = 'var(--color-primary)'
       context.setLineDash([4, 3])
       context.lineWidth = 1.5
       context.strokeRect(rect[0] * divisor, rect[1] * divisor, (rect[2] - rect[0]) * divisor, (rect[3] - rect[1]) * divisor)

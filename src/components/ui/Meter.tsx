@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import { cn } from '@/lib/cn'
 import { clamp } from '@/lib/format'
 
-type Tone = 'accent' | 'success' | 'warning' | 'danger' | 'neutral'
+type Tone = 'primary' | 'success' | 'warning' | 'danger' | 'neutral'
 
 const FILL: Record<Tone, string> = {
-  accent: 'bg-accent',
+  primary: 'bg-primary',
   success: 'bg-success',
   warning: 'bg-warning',
   danger: 'bg-danger',
@@ -22,7 +22,7 @@ const H: Record<'sm' | 'md' | 'lg', string> = {
 export function Meter({
   value,
   max = 100,
-  tone = 'accent',
+  tone = 'primary',
   size = 'md',
   ticks = false,
   className,

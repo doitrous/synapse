@@ -154,7 +154,7 @@ export interface LandingContent {
 export const AR_CONTENT: LandingContent = {
   lang: 'ar',
   dir: 'rtl',
-  documentTitle: 'Synapse · مذاكرة الطب، في مكان واحد',
+  documentTitle: 'Connect Cortex · مذاكرة الطب، في مكان واحد',
   otherHref: '/en',
   otherLabel: 'English',
   otherOffer: {
@@ -166,7 +166,7 @@ export const AR_CONTENT: LandingContent = {
   nav: { start: 'ابدأ المذاكرة' },
   hero: {
     h1: 'اعرف بالضبط ما تذاكره تاليًا',
-    sub: 'يجمع Synapse مكتبتك وبنك الأسئلة والتدريب العملي وجدولك في مساحة سريرية واحدة هادئة — ثم يخبرك بما يستحق انتباهك اليوم. بالعربية أولًا، وبالإنجليزية كاملة.',
+    sub: 'يجمع Connect Cortex مكتبتك وبنك الأسئلة والتدريب العملي وجدولك في مساحة سريرية واحدة هادئة — ثم يخبرك بما يستحق انتباهك اليوم. بالعربية أولًا، وبالإنجليزية كاملة.',
     primary: 'ابدأ المذاكرة',
     secondary: 'تسجيل الدخول',
     trust: 'مبني على التكرار المتباعد ومنهج أجهزة الجسم.',
@@ -206,7 +206,7 @@ export const AR_CONTENT: LandingContent = {
     ],
   },
   how: {
-    title: 'كيف يقرّر Synapse ما تذاكره',
+    title: 'كيف يقرّر Connect Cortex ما تذاكره',
     sub: 'ثلاث خطوات تحوّل الكمّ الهائل إلى خطوة واحدة واضحة كل صباح.',
     steps: [
       { k: '١', title: 'ذاكِر وحُلّ', line: 'اقرأ من المكتبة ثم اختبر نفسك بأسئلة مشروحة مرتبطة مباشرة بما قرأته.' },
@@ -296,7 +296,7 @@ export const AR_CONTENT: LandingContent = {
     ],
   },
   cta: {
-    title: 'ابدأ رحلتك مع Synapse اليوم',
+    title: 'ابدأ رحلتك مع Connect Cortex اليوم',
     sub: 'مساحة واحدة هادئة لكل مذاكرتك السريرية — من أول محاضرة إلى ليلة الامتحان.',
     button: 'ادخل كطالب',
     secondary: 'تسجيل الدخول',
@@ -341,7 +341,7 @@ export const AR_CONTENT: LandingContent = {
 export const EN_CONTENT: LandingContent = {
   lang: 'en',
   dir: 'ltr',
-  documentTitle: 'Synapse · Clinical study, in one place',
+  documentTitle: 'Connect Cortex · Clinical study, in one place',
   otherHref: '/ar',
   otherLabel: 'العربية',
   otherOffer: {
@@ -353,7 +353,7 @@ export const EN_CONTENT: LandingContent = {
   nav: { start: 'Start studying' },
   hero: {
     h1: 'See exactly what to study next',
-    sub: 'Synapse brings your library, question bank, practicals, and schedule into one calm clinical workspace — then tells you what deserves attention today. Arabic-first, fully English.',
+    sub: 'Connect Cortex brings your library, question bank, practicals, and schedule into one calm clinical workspace — then tells you what deserves attention today. Arabic-first, fully English.',
     primary: 'Start studying',
     secondary: 'Sign in',
     trust: 'Built around spaced repetition and the organ-system curriculum.',
@@ -393,7 +393,7 @@ export const EN_CONTENT: LandingContent = {
     ],
   },
   how: {
-    title: 'How Synapse decides what you study',
+    title: 'How Connect Cortex decides what you study',
     sub: 'Three steps that turn an overwhelming syllabus into one clear move each morning.',
     steps: [
       { k: '1', title: 'Read and answer', line: 'Read from the library, then test yourself with explained questions tied to exactly what you read.' },
@@ -483,7 +483,7 @@ export const EN_CONTENT: LandingContent = {
     ],
   },
   cta: {
-    title: 'Start your journey with Synapse today',
+    title: 'Start your journey with Connect Cortex today',
     sub: 'One calm workspace for all your clinical study — from the first lecture to exam night.',
     button: 'Enter as a student',
     secondary: 'Sign in',

@@ -45,7 +45,7 @@ export function MedicalTaxonomy() {
       <div className="mb-4 space-y-3">
         <div className="flex flex-wrap items-center gap-3">
           <SearchInput value={query} onChange={(e) => setQuery(e.target.value)} placeholder={t('Search a term in Arabic or English…')} className="w-full sm:max-w-sm" />
-          <span className="inline-flex items-center gap-1.5 text-[12.5px] font-medium text-accent-strong"><Icon icon={Languages} size={14} />{t('Arabic ⇄ English')}</span>
+          <span className="inline-flex items-center gap-1.5 text-[12.5px] font-medium text-primary-strong"><Icon icon={Languages} size={14} />{t('Arabic ⇄ English')}</span>
           <span className="ms-auto text-[12.5px] text-ink-3">
             <span className="tnum font-mono font-medium text-ink-2">{filtered.length}</span> {filtered.length === 1 ? t('term') : t('terms')}
           </span>
@@ -82,14 +82,14 @@ export function MedicalTaxonomy() {
                   <Panel key={term.id} className="p-4">
                     <div className="flex items-start justify-between gap-3">
                       <p className="text-[15.5px] font-semibold text-ink">{term.term}</p>
-                      <p lang="ar" dir="rtl" className="text-[16px] font-semibold text-accent-strong">{term.ar}</p>
+                      <p lang="ar" dir="rtl" className="text-[16px] font-semibold text-primary-strong">{term.ar}</p>
                     </div>
                     <div className="mt-2.5 space-y-1.5 border-t border-line pt-2.5">
                       <p className="text-[13px] leading-relaxed text-ink-2">{term.def}</p>
                       <p lang="ar" dir="rtl" className="text-[13px] leading-relaxed text-ink-2">{term.defAr}</p>
                     </div>
                     {term.example && (
-                      <p className="mt-2 rounded-md bg-accent-tint/40 px-2.5 py-1.5 text-[12px] text-accent-strong">
+                      <p className="mt-2 rounded-md bg-primary-tint/40 px-2.5 py-1.5 text-[12px] text-primary-strong">
                         <span className="font-semibold">{t('e.g.')} </span>{term.example}
                       </p>
                     )}

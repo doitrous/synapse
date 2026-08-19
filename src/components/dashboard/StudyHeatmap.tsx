@@ -92,7 +92,7 @@ export function StudyHeatmap() {
         hint={t('Questions answered per day · last 17 weeks')}
         action={
           <div className="flex items-center gap-1.5">
-            <Badge tone="accent">{totalAnswered} {t('answered')}</Badge>
+            <Badge tone="primary">{totalAnswered} {t('answered')}</Badge>
             {streak > 0 && <Badge tone="success">{streak}{t('-day streak')}</Badge>}
           </div>
         }

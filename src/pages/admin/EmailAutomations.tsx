@@ -107,7 +107,7 @@ function TemplateEditor({
                   key={token}
                   type="button"
                   onClick={() => onPatch({ body: `${automation.body}${token}` })}
-                  className="rounded border border-line bg-surface px-1.5 py-0.5 font-mono text-[10px] text-ink-2 hover:border-accent-line hover:text-accent-strong"
+                  className="rounded border border-line bg-surface px-1.5 py-0.5 font-mono text-[10px] text-ink-2 hover:border-primary-line hover:text-primary-strong"
                 >
                   {token}
                 </button>
@@ -166,7 +166,7 @@ export function EmailAutomations() {
         <Icon icon={configured ? KeyRound : Info} size={16} className={configured ? 'text-success' : 'text-warning'} />
         <span className="flex-1 text-ink">
           {transport === 'backend'
-            ? 'Live sending is on. Mail goes through the Synapse backend to Resend, and every message is recorded in Mail Box.'
+            ? 'Live sending is on. Mail goes through the Connect Cortex backend to Resend, and every message is recorded in Mail Box.'
             : transport === 'endpoint'
               ? 'Live sending is on via the configured email function.'
               : 'Demo mode — emails are recorded but not sent. This build has no backend; set RESEND_API_KEY on the server, or VITE_EMAIL_ENDPOINT for a static demo.'}
@@ -204,7 +204,7 @@ export function EmailAutomations() {
                             aria-expanded={open}
                             className="grid size-7 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink"
                           >
-                            <Icon icon={ChevronRight} size={15} className={cn('transition-transform', open && 'rotate-90')} />
+                            <Icon icon={ChevronRight} size={15} className={cn('chevron-turn')} open={open} />
                           </button>
                           <div className="min-w-0 flex-1">
                             <p className="flex flex-wrap items-center gap-2 text-[13.5px] font-medium text-ink">

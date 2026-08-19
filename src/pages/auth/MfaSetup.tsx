@@ -55,7 +55,7 @@ export function MfaSetup() {
         }
         return
       }
-      const { data, error: enrollError } = await supabase.auth.mfa.enroll({ factorType: 'totp', friendlyName: 'Synapse authenticator' })
+      const { data, error: enrollError } = await supabase.auth.mfa.enroll({ factorType: 'totp', friendlyName: 'Connect Cortex authenticator' })
       if (active) {
         if (enrollError) setError(authErrorMessage(enrollError, 'Authenticator enrollment could not be started. Try again.'))
         else setEnrollment({ factorId: data.id, qrCode: data.totp.qr_code, secret: data.totp.secret })
@@ -92,8 +92,8 @@ export function MfaSetup() {
         </div>
         <form className="min-w-0" onSubmit={verify}>
           <div className="flex flex-wrap items-start gap-3">
-            <span className="grid size-10 place-items-center rounded-lg bg-inset text-accent-strong"><Icon icon={KeyRound} size={19} /></span>
-            <div className="min-w-0 flex-1"><div className="flex flex-wrap items-center gap-2"><h2 className="text-[22px]">Authenticator app</h2><Badge tone="accent">Recommended · free</Badge></div><p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">Works offline with 1Password, Google Authenticator, Microsoft Authenticator, Authy, and compatible apps.</p></div>
+            <span className="grid size-10 place-items-center rounded-lg bg-inset text-primary-strong"><Icon icon={KeyRound} size={19} /></span>
+            <div className="min-w-0 flex-1"><div className="flex flex-wrap items-center gap-2"><h2 className="text-[22px]">Authenticator app</h2><Badge tone="primary">Recommended · free</Badge></div><p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">Works offline with 1Password, Google Authenticator, Microsoft Authenticator, Authy, and compatible apps.</p></div>
           </div>
           {error && <div role="alert" className="mt-5 flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
           {loading && <p className="mt-6 text-[13px] text-ink-2">Preparing secure enrollment…</p>}

@@ -134,7 +134,7 @@ export function NewArticleDialog({
                         setSections((prev) => prev.map((s, i) => (i === index ? { ...s, heading: e.target.value } : s)))
                       }
                       placeholder={t('Section heading')}
-                      className="h-9 flex-1 rounded-md border border-line bg-surface px-2.5 text-[13.5px] font-semibold text-ink focus:border-accent focus:outline-none"
+                      className="h-9 flex-1 rounded-md border border-line bg-surface px-2.5 text-[13.5px] font-semibold text-ink focus:border-primary focus:outline-none"
                     />
                     <button
                       onClick={() => setSections((prev) => prev.filter((_, i) => i !== index))}
@@ -169,20 +169,20 @@ export function NewArticleDialog({
           {/* Personal tags */}
           <div>
             <div className="mb-2 flex items-center gap-2">
-              <Icon icon={TagIcon} size={15} className="text-accent" />
+              <Icon icon={TagIcon} size={15} className="text-primary" />
               <span className="text-[12.5px] font-semibold text-ink">{t('Your tags')}</span>
             </div>
             <div className="flex flex-wrap items-center gap-1.5">
               {tags.map((tag) => (
                 <span
                   key={tag}
-                  className="inline-flex items-center gap-1 rounded-full border border-accent-line bg-accent-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-accent-strong"
+                  className="inline-flex items-center gap-1 rounded-full border border-primary-line bg-primary-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-primary-strong"
                 >
                   {tag}
                   <button
                     onClick={() => setTags((prev) => prev.filter((x) => x !== tag))}
                     aria-label={`${t('Remove')} ${tag}`}
-                    className="text-accent/70 hover:text-accent"
+                    className="text-primary/70 hover:text-primary"
                   >
                     <Icon icon={X} size={12} />
                   </button>
@@ -198,7 +198,7 @@ export function NewArticleDialog({
                   }
                 }}
                 placeholder={t('Add a tag…')}
-                className="h-8 min-w-[8rem] flex-1 rounded-md border border-line bg-surface px-2.5 text-[13px] text-ink focus:border-accent focus:outline-none"
+                className="h-8 min-w-[8rem] flex-1 rounded-md border border-line bg-surface px-2.5 text-[13px] text-ink focus:border-primary focus:outline-none"
               />
             </div>
             {suggestions.length > 0 && (
@@ -208,7 +208,7 @@ export function NewArticleDialog({
                   <button
                     key={tag}
                     onClick={() => addTag(tag)}
-                    className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-accent-line hover:bg-accent-tint/40 hover:text-accent-strong"
+                    className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong"
                   >
                     + {tag}
                   </button>

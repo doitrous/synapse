@@ -14,6 +14,12 @@ import { useT } from '@/lib/i18n'
  */
 export type QuestionState = 'unseen' | 'answered' | 'omitted' | 'correct' | 'incorrect'
 
+/**
+ * "Answered" is cortex blue, not crimson. It is a record of what happened, not
+ * something to act on — and crimson already means two other things in this
+ * strip: the question you are on, and the ones you marked for review. Three
+ * meanings in one colour is what made the legend need reading twice.
+ */
 const SWATCH: Record<QuestionState, string> = {
   unseen: 'border-line bg-surface text-ink-3',
   answered: 'border-accent-line bg-accent-tint text-accent-strong',
@@ -76,14 +82,14 @@ export function QuestionNavigator({
         </span>
         {flagged > 0 && (
           <span className="inline-flex items-center gap-1 text-[11.5px] text-ink-3">
-            <span className="size-1.5 rounded-full bg-accent" aria-hidden />
+            <span className="size-1.5 rounded-full bg-primary" aria-hidden />
             <span className="tnum font-mono">{flagged}</span> {t('marked')}
           </span>
         )}
         <Icon
           icon={ChevronDown}
           size={15}
-          className={cn('ms-auto text-ink-3 transition-transform duration-200', !open && '-rotate-90 rtl:rotate-90')}
+          className={cn('ms-auto text-ink-3 transition-transform duration-[280ms] ease-[var(--ease-out-quint)]', !open && '-rotate-90 rtl:rotate-90')}
         />
       </button>
 
@@ -105,7 +111,7 @@ export function QuestionNavigator({
                       'tnum grid size-11 place-items-center rounded-md border font-mono text-[12.5px] transition-colors sm:size-9',
                       SWATCH[state],
                       here
-                        ? 'border-accent font-semibold text-accent-strong ring-2 ring-accent/30'
+                        ? 'border-primary font-semibold text-primary-strong ring-2 ring-primary/30'
                         : 'hover:border-line-2',
                     )}
                   >
@@ -113,7 +119,7 @@ export function QuestionNavigator({
                   </button>
                   {isFlagged(i) && (
                     <span
-                      className="pointer-events-none absolute -end-0.5 -top-0.5 size-2 rounded-full border border-surface bg-accent"
+                      className="pointer-events-none absolute -end-0.5 -top-0.5 size-2 rounded-full border border-surface bg-primary"
                       aria-hidden
                     />
                   )}
@@ -130,7 +136,7 @@ export function QuestionNavigator({
               </li>
             ))}
             <li className="inline-flex items-center gap-1.5 text-[11px] text-ink-2">
-              <span className="size-2 rounded-full bg-accent" aria-hidden />
+              <span className="size-2 rounded-full bg-primary" aria-hidden />
               {t('Marked for review')}
             </li>
           </ul>

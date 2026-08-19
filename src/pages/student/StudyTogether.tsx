@@ -86,7 +86,7 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
     return (
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
         <Panel>
-          <PanelHeader title={room.name} icon={Hash} action={<Badge tone="accent">{t('Waiting to start')}</Badge>} />
+          <PanelHeader title={room.name} icon={Hash} action={<Badge tone="primary">{t('Waiting to start')}</Badge>} />
           <div className="p-5">
             <p className="text-[12.5px] text-ink-3">{t('Share this code so others can join')}</p>
             <div className="mt-2 flex flex-wrap items-center gap-3">
@@ -188,7 +188,7 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
           <div className="p-6 text-center">
             <p className="tnum font-mono text-[40px] font-semibold leading-none text-ink">{pct}%</p>
             <p className="mt-2 text-[14px] text-ink-2">{myCorrect} {t('of')} {room.questionCount} {t('correct')}</p>
-            <Meter value={pct} tone={pct >= 70 ? 'success' : pct >= 50 ? 'accent' : 'warning'} className="mx-auto mt-4 max-w-sm" />
+            <Meter value={pct} tone={pct >= 70 ? 'success' : pct >= 50 ? 'primary' : 'warning'} className="mx-auto mt-4 max-w-sm" />
             <p className="mt-5 text-[12.5px] text-ink-3">
               {stillWorking > 0
                 ? `${stillWorking} ${stillWorking === 1 ? t('person is') : t('people are')} ${t('still working. Their scores appear as they finish.')}`
@@ -464,7 +464,7 @@ export function StudyTogether() {
                           <span className="font-mono">{room.code}</span> · {room.members} {room.members === 1 ? t('person') : t('people')} · {room.questionCount} {t('questions')}
                         </span>
                       </span>
-                      <Badge tone={room.status === 'lobby' ? 'neutral' : 'accent'}>{room.status === 'lobby' ? t('Waiting') : t('Running')}</Badge>
+                      <Badge tone={room.status === 'lobby' ? 'neutral' : 'primary'}>{room.status === 'lobby' ? t('Waiting') : t('Running')}</Badge>
                     </button>
                   </li>
                 ))}

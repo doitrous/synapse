@@ -53,8 +53,8 @@ function PlanRow({ block, index, onToggle }: { block: StudyBlock; index: number;
   const minutes = durationMinutes(block.start, block.end)
   return (
     <button type="button" aria-pressed={Boolean(block.done)} onClick={onToggle} className="group grid w-full grid-cols-[1.75rem_4.75rem_minmax(0,1fr)] items-center gap-2 rounded-lg px-2 py-2.5 text-left transition-colors hover:bg-inset sm:grid-cols-[1.9rem_5.3rem_minmax(0,1fr)_auto_auto] sm:gap-3">
-      <span className={cn('grid size-6 place-items-center rounded-lg border transition-colors', block.done ? 'border-accent bg-accent' : 'border-line-2 bg-surface group-hover:border-ink-3')}>
-        {block.done && <Icon icon={Check} size={14} strokeWidth={2.7} className="text-on-accent" />}
+      <span className={cn('grid size-6 place-items-center rounded-lg border transition-colors', block.done ? 'border-primary bg-primary' : 'border-line-2 bg-surface group-hover:border-ink-3')}>
+        {block.done && <Icon icon={Check} size={14} strokeWidth={2.7} className="text-on-primary" />}
       </span>
       <span className="tnum font-mono text-[12px] text-ink-2">{formatTimeString(block.start)}</span>
       <span className={cn('min-w-0 truncate text-[13.5px]', block.done ? 'text-ink-3 line-through decoration-line-2' : 'font-medium text-ink')}>{block.title}</span>
@@ -99,7 +99,7 @@ export function TodaysSchedule() {
 
   return (
     <Panel className="overflow-hidden">
-      <PanelHeader title={t('Today')} icon={Clock3} hint={formatLongDate(now)} action={<div className="flex items-center gap-4 text-[11.5px] text-ink-2"><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded bg-accent" />{t('Faculty')}</span><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded border border-line-2 bg-[repeating-linear-gradient(45deg,var(--color-line),var(--color-line)_2px,transparent_2px,transparent_4px)]" />{t('Yours')}</span></div>} />
+      <PanelHeader title={t('Today')} icon={Clock3} hint={formatLongDate(now)} action={<div className="flex items-center gap-4 text-[11.5px] text-ink-2"><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded bg-primary" />{t('Faculty')}</span><span className="inline-flex items-center gap-1.5"><span className="size-2.5 rounded border border-line-2 bg-[repeating-linear-gradient(45deg,var(--color-line),var(--color-line)_2px,transparent_2px,transparent_4px)]" />{t('Yours')}</span></div>} />
 
       <div className="px-3 py-4 sm:px-6 sm:py-5">
         <div className="relative ps-14 sm:ps-20">
@@ -109,9 +109,9 @@ export function TodaysSchedule() {
               const start = position(hourValue(session.start))
               const width = position(hourValue(session.end!)) - start
               const label = session.title || session.label
-              return <span key={session.id} title={label} className="group absolute top-1.5 z-0 h-7 rounded-md bg-accent hover:z-30" style={{ left: `${start}%`, width: `${Math.max(width, 4)}%` }}>
-                <span className="flex h-full w-full items-center justify-center overflow-hidden px-0.5 font-mono text-[8.5px] font-bold tracking-[-0.04em] text-on-accent">{timelineCode(label)}</span>
-                <span className="pointer-events-none absolute inset-y-0 left-0 flex min-w-48 items-center rounded-md border border-accent-strong bg-accent px-3 text-[11px] font-semibold text-on-accent opacity-0 shadow-raised transition-opacity group-hover:opacity-100">{label}</span>
+              return <span key={session.id} title={label} className="group absolute top-1.5 z-0 h-7 rounded-md bg-primary hover:z-30" style={{ left: `${start}%`, width: `${Math.max(width, 4)}%` }}>
+                <span className="flex h-full w-full items-center justify-center overflow-hidden px-0.5 font-mono text-[8.5px] font-bold tracking-[-0.04em] text-on-primary">{timelineCode(label)}</span>
+                <span className="pointer-events-none absolute inset-y-0 left-0 flex min-w-48 items-center rounded-md border border-primary-strong bg-primary px-3 text-[11px] font-semibold text-on-primary opacity-0 shadow-raised transition-opacity group-hover:opacity-100">{label}</span>
               </span>
             })}
           </div>

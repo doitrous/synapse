@@ -7,9 +7,9 @@ import { useMastery } from '@/lib/useMastery'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { masteryBand, summarise, weakest, type ConceptMastery as Entry, type MasteryBand } from '@/data/mastery'
 
-const BAND_TONE: Record<MasteryBand, 'neutral' | 'accent' | 'success' | 'warning' | 'danger'> = {
+const BAND_TONE: Record<MasteryBand, 'neutral' | 'primary' | 'success' | 'warning' | 'danger'> = {
   unseen: 'neutral',
-  practised: 'accent',
+  practised: 'primary',
   shaky: 'danger',
   developing: 'warning',
   secure: 'success',

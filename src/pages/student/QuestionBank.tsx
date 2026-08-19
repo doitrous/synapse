@@ -140,7 +140,7 @@ function YourQbank({ questions, history }: { questions: Question[]; history: Att
           <div className="relative grid size-[76px] shrink-0 place-items-center">
             <svg viewBox="0 0 36 36" className="size-full -rotate-90">
               <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-inset)" strokeWidth="3.2" />
-              <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-accent)" strokeWidth="3.2" strokeLinecap="round" strokeDasharray={`${completedPct * 0.9739} 100`} pathLength={100} />
+              <circle cx="18" cy="18" r="15.5" fill="none" stroke="var(--color-primary)" strokeWidth="3.2" strokeLinecap="round" strokeDasharray={`${completedPct * 0.9739} 100`} pathLength={100} />
             </svg>
             <span className="absolute tnum font-mono text-[16px] font-semibold text-ink">{completedPct}%</span>
           </div>
@@ -156,7 +156,7 @@ function YourQbank({ questions, history }: { questions: Question[]; history: Att
           {[
             { value: accuracy === null ? '—' : `${Math.round(accuracy * 100)}%`, label: t('Accuracy'), tone: 'text-success' },
             { value: String(weekTotal), label: t('This week'), tone: 'text-ink' },
-            { value: String(streak), label: t('Day streak'), tone: 'text-accent' },
+            { value: String(streak), label: t('Day streak'), tone: 'text-primary' },
           ].map((s) => (
             <div key={s.label} className="rounded-lg border border-line bg-surface-2/40 p-2.5 text-center">
               <p className={cn('tnum font-mono text-[19px] font-semibold', s.tone)}>{s.value}</p>
@@ -172,7 +172,7 @@ function YourQbank({ questions, history }: { questions: Question[]; history: Att
             {week.map((day) => (
               <div key={day.date} className="flex flex-1 flex-col items-center gap-1" title={`${day.attempts} · ${day.date}`}>
                 <div className="flex h-16 w-full items-end rounded-sm bg-inset/60">
-                  <div className="w-full rounded-sm bg-accent-soft" style={{ height: `${(day.attempts / peak) * 100}%` }} />
+                  <div className="w-full rounded-sm bg-primary-soft" style={{ height: `${(day.attempts / peak) * 100}%` }} />
                 </div>
                 <span className="text-[9px] text-ink-3">{WEEKDAY_INITIALS[new Date(`${day.date}T00:00:00`).getDay()]}</span>
               </div>
@@ -197,7 +197,7 @@ function YourQbank({ questions, history }: { questions: Question[]; history: Att
                     {/* The marker carries the code, so repeating it as text
                         beside itself was saying the same word twice. */}
                     <span className="inline-flex w-24 shrink-0 items-center gap-1.5 truncate text-[11.5px] text-ink-2" title={subject.name}><SubjectDot id={row.key} /></span>
-                    <Meter value={acc} tone={acc >= 75 ? 'success' : acc >= 60 ? 'accent' : 'warning'} className="flex-1" />
+                    <Meter value={acc} tone={acc >= 75 ? 'success' : acc >= 60 ? 'primary' : 'warning'} className="flex-1" />
                     <span className="tnum w-9 text-end font-mono text-[11px] text-ink-2">{acc}%</span>
                   </div>
                 )
@@ -305,7 +305,7 @@ function PreviousTests({
                   <button
                     type="button"
                     onClick={() => { setDraft(names[entry.sessionId] ?? ''); setEditing(entry.sessionId) }}
-                    className="block max-w-full truncate text-start text-[13.5px] font-semibold text-ink hover:text-accent-strong"
+                    className="block max-w-full truncate text-start text-[13.5px] font-semibold text-ink hover:text-primary-strong"
                     title={t('Rename')}
                   >
                     {name}
@@ -778,9 +778,9 @@ export function QuestionBank() {
                 onClick={() => startPreset(preset.id)}
                 disabled={preset.count === 0}
                 title={preset.count === 0 ? t('No questions match this yet') : undefined}
-                className="group inline-flex min-h-11 items-center gap-2 rounded-lg border border-line bg-surface px-3 text-[13px] font-medium text-ink shadow-panel transition-colors hover:border-accent-line hover:bg-accent-tint/20 disabled:cursor-not-allowed disabled:opacity-55 disabled:hover:border-line disabled:hover:bg-surface sm:min-h-9"
+                className="group inline-flex min-h-11 items-center gap-2 rounded-lg border border-line bg-surface px-3 text-[13px] font-medium text-ink shadow-panel transition-colors hover:border-primary-line hover:bg-primary-tint/20 disabled:cursor-not-allowed disabled:opacity-55 disabled:hover:border-line disabled:hover:bg-surface sm:min-h-9"
               >
-                <Icon icon={preset.icon} size={15} className="text-accent group-disabled:text-ink-3" />
+                <Icon icon={preset.icon} size={15} className="text-primary group-disabled:text-ink-3" />
                 {preset.title}
                 <span className="tnum rounded-full bg-inset px-1.5 font-mono text-[11px] text-ink-2">{preset.count}</span>
               </button>
@@ -820,7 +820,7 @@ export function QuestionBank() {
                 <div className="mb-2 flex items-center justify-between">
                   <p className="text-[12.5px] font-medium text-ink-2">{t('Choose a topic or subtopic')}</p>
                   {scope.size > 0 && (
-                    <button onClick={() => setScope(new Set())} className="text-[12px] font-medium text-accent hover:text-accent-strong">
+                    <button onClick={() => setScope(new Set())} className="text-[12px] font-medium text-primary hover:text-primary-strong">
                       {t('Clear')}
                     </button>
                   )}
@@ -883,7 +883,7 @@ export function QuestionBank() {
                         max={MAX_QUESTIONS}
                         value={customLen}
                         onChange={(e) => setCustomLen(Math.min(MAX_QUESTIONS, Math.max(1, Number(e.target.value) || 1)))}
-                        className="h-9 w-20 rounded-md border border-line bg-surface px-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
+                        className="h-9 w-20 rounded-md border border-line bg-surface px-2.5 text-[13.5px] text-ink focus:border-primary focus:outline-none"
                         aria-label={t('Number of questions')}
                       />
                     )}
@@ -922,7 +922,7 @@ export function QuestionBank() {
     return (
       <PageContainer className="max-w-[760px]">
         <div className="mb-6 text-center">
-          <div className="mx-auto mb-3 grid size-12 place-items-center rounded-xl bg-accent-tint text-accent">
+          <div className="mx-auto mb-3 grid size-12 place-items-center rounded-xl bg-primary-tint text-primary">
             <Icon icon={Trophy} size={24} />
           </div>
           <h1 className="font-serif text-[28px] font-semibold tracking-[-0.02em] text-ink">
@@ -948,7 +948,7 @@ export function QuestionBank() {
                   <span className="flex-1 text-[13.5px] text-ink">{subject.name}</span>
                   <Meter
                     value={(rec.correct / rec.total) * 100}
-                    tone="accent"
+                    tone="primary"
                     className="w-28"
                   />
                   <span className="tnum w-12 text-right font-mono text-[12.5px] text-ink-2">
@@ -1041,7 +1041,7 @@ export function QuestionBank() {
   function optionClasses(i: number): string {
     if (!revealed)
       return chosen === i
-        ? 'border-accent bg-accent-tint/50'
+        ? 'border-primary bg-primary-tint/50'
         : 'border-line bg-surface hover:border-line-2'
     if (q.options[i].correct) return 'border-success bg-success-tint'
     if (chosen === i) return 'border-danger bg-danger-tint'
@@ -1055,7 +1055,7 @@ export function QuestionBank() {
         {/* The position is stated once, by the navigator below. This line used
             to repeat it as "Question 1 of 5" directly above "QUESTIONS 1/5". */}
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-          {reviewing && <span className="text-[13px] font-medium text-accent">{t('Reviewing')}</span>}
+          {reviewing && <span className="text-[13px] font-medium text-primary">{t('Reviewing')}</span>}
           <div className="flex items-center gap-2 sm:ms-auto">
             {mode === 'timed' && !reviewing && (
               <span className="tnum inline-flex items-center gap-1.5 font-mono text-[13px] text-ink-2">
@@ -1075,7 +1075,7 @@ export function QuestionBank() {
               }
               className={cn(
                 'inline-flex min-h-10 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium transition-colors sm:min-h-0',
-                marked.has(q.id) ? 'text-accent-strong' : 'text-ink-3 hover:text-ink',
+                marked.has(q.id) ? 'text-primary-strong' : 'text-ink-3 hover:text-ink',
               )}
             >
               <Icon icon={Flag} size={13} className={cn(marked.has(q.id) && 'fill-current')} />
@@ -1100,7 +1100,7 @@ export function QuestionBank() {
         </div>
         <div className="mt-2 h-1 overflow-hidden rounded-full bg-inset">
           <div
-            className="h-full rounded-full bg-accent transition-[width] duration-300"
+            className="h-full rounded-full bg-primary transition-[width] duration-300"
             style={{ width: `${((idx + 1) / session.length) * 100}%` }}
           />
         </div>
@@ -1162,7 +1162,7 @@ export function QuestionBank() {
                       : revealed && chosen === i
                         ? 'border-danger bg-danger text-on-danger'
                         : chosen === i
-                          ? 'border-accent bg-accent text-on-accent'
+                          ? 'border-primary bg-primary text-on-primary'
                           : 'border-line-2 text-ink-2',
                   )}
                 >
@@ -1228,7 +1228,7 @@ export function QuestionBank() {
                   <Icon
                     icon={ChevronDown}
                     size={16}
-                    className={cn('shrink-0 text-ink-3 transition-transform duration-200', !showAllRationales && '-rotate-90 rtl:rotate-90')}
+                    className={cn('shrink-0 text-ink-3 transition-transform duration-[280ms] ease-[var(--ease-out-quint)]', !showAllRationales && '-rotate-90 rtl:rotate-90')}
                   />
                 </button>
                 {showAllRationales && (

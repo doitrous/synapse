@@ -125,7 +125,7 @@ export function AcademicImportDialog({ open, university, onClose, onImport }: {
       <div className="absolute inset-x-0 bottom-0 w-full sm:left-1/2 sm:top-1/2 sm:bottom-auto sm:w-[min(94vw,720px)] sm:-translate-x-1/2 sm:-translate-y-1/2">
         <div className="animate-pop max-h-[calc(100dvh-2rem)] overflow-hidden rounded-t-2xl border border-line bg-surface shadow-pop sm:rounded-xl">
           <div className="flex items-center gap-3 border-b border-line px-5 py-4">
-            <span className="grid size-9 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Upload} size={17} /></span>
+            <span className="grid size-9 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={Upload} size={17} /></span>
             <div className="min-w-0 flex-1">
               <h2 id="academic-import-title" className="font-serif text-[18px] font-semibold text-ink">Bulk import — {university.short} structure</h2>
               <p className="text-[12px] text-ink-3">Years, terms, and modules from a markdown outline.</p>
@@ -141,7 +141,7 @@ export function AcademicImportDialog({ open, university, onClose, onImport }: {
                 <li><code className="rounded bg-inset px-1">## Term name</code> starts a term inside that year.</li>
                 <li><code className="rounded bg-inset px-1">- Module name [MOD 01]</code> adds a module; the <code>[ID]</code> is optional and is made unique.</li>
               </ol>
-              <button type="button" onClick={() => setText(TEMPLATE)} className="mt-2 text-[12px] font-medium text-accent-strong hover:text-accent">Load template ↓</button>
+              <button type="button" onClick={() => setText(TEMPLATE)} className="mt-2 text-[12px] font-medium text-primary-strong hover:text-primary">Load template ↓</button>
             </div>
 
             <Textarea value={text} onChange={(e) => setText(e.target.value)} rows={10} placeholder={TEMPLATE} className="font-mono text-[12.5px]" />
@@ -165,7 +165,7 @@ export function AcademicImportDialog({ open, university, onClose, onImport }: {
             <div className="flex flex-wrap items-center gap-2">
               <span className="text-[12px] font-medium text-ink-3">On import</span>
               {(['append', 'replace'] as const).map((m) => (
-                <button key={m} type="button" onClick={() => setMode(m)} className={`rounded-full border px-3 py-1 text-[12px] ${mode === m ? 'border-accent-line bg-accent-tint text-accent-strong' : 'border-line bg-surface text-ink-2'}`}>
+                <button key={m} type="button" onClick={() => setMode(m)} className={`rounded-full border px-3 py-1 text-[12px] ${mode === m ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line bg-surface text-ink-2'}`}>
                   {m === 'append' ? 'Add to existing years' : 'Replace all years'}
                 </button>
               ))}
