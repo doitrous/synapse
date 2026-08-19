@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button'
 import { Avatar } from '@/components/ui/Avatar'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { TextInput, SearchInput } from '@/components/ui/Field'
-import { FRIEND_REFUSALS, useFriends, type FriendProfile } from '@/lib/useFriends'
+import { FRIEND_REFUSALS, type FriendProfile } from '@/lib/useFriends'
 import { useIdentity } from '@/lib/useIdentity'
 import { useT } from '@/lib/i18n'
 
@@ -195,6 +195,8 @@ export function FriendsPanel({
   onStudyTogether,
   onChallenge,
   onCreateInvite,
+  onRequest,
+  onSearchDirectory,
 }: {
   friends: FriendProfile[]
   incoming: FriendProfile[]
@@ -204,12 +206,14 @@ export function FriendsPanel({
   onStudyTogether: (friend: FriendProfile) => void
   onChallenge: (friend: FriendProfile) => void
   onCreateInvite: () => Promise<{ token: string }>
+  // Threaded down rather than taken from a second `useFriends()` here. Two
+  // instances meant two copies of the same server state, so a request sent
+  // from the search did not appear in "Waiting for an answer" until the
+  // page's own copy happened to reload.
+  onRequest: (userId: string) => Promise<{ ok: boolean; reason?: string }>
+  onSearchDirectory: (query: string) => Promise<{ people: FriendProfile[] }>
 }) {
   const t = useT()
-  // A second, independent instance: the directory search and the "Add" button
-  // it offers need `searchDirectory` and `request`, neither of which the rest
-  // of this panel's data (friends/incoming/outgoing) depends on or mutates.
-  const { request, searchDirectory } = useFriends()
 
   // One in-flight row at a time is disabled by its own id, so a double-click
   // cannot start a second mutation (and the reload it triggers) before the
@@ -253,7 +257,7 @@ export function FriendsPanel({
 
   return (
     <div className="space-y-4">
-      <InviteLinkPanel onCreateInvite={onCreateInvite} onSearchDirectory={searchDirectory} onRequest={request} />
+      <InviteLinkPanel onCreateInvite={onCreateInvite} onSearchDirectory={onSearchDirectory} onRequest={onRequest} />
 
       {incoming.length > 0 && (
         <Panel>

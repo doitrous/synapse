@@ -331,7 +331,7 @@ export function StudyTogether() {
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = questionsInScope(questions, scope, libraryTopics)
 
-  const { friends, incoming, outgoing, respond, remove, mintInvite, redeemInvite } = useFriends()
+  const { friends, incoming, outgoing, respond, remove, request, searchDirectory, mintInvite, redeemInvite } = useFriends()
   const [inviteNotice, setInviteNotice] = useState<{ tone: 'success' | 'danger'; text: string } | null>(null)
 
   // Tasks 6 and 9 land the real behaviour here — a shared test invite and a
@@ -556,6 +556,8 @@ export function StudyTogether() {
         onStudyTogether={handleStudyTogether}
         onChallenge={handleChallenge}
         onCreateInvite={mintInvite}
+        onRequest={request}
+        onSearchDirectory={searchDirectory}
       />
     </div>
   )
