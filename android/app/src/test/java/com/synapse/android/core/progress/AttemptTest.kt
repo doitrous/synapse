@@ -56,6 +56,22 @@ class AttemptTest {
     }
 
     @Test
+    fun `an out-of-order record does not drag lastAt backwards`() {
+        // Shards replay oldest-last; the web and iOS both guard against this.
+        val totals = AttemptTotals(attempts = 1, marked = 1, correct = 1, lastAt = "2026-08-19T10:00:00.000Z")
+        val folded = AttemptStore.fold(totals, record(correct = true).copy(at = "2026-08-01T09:00:00.000Z"))
+        assertEquals("2026-08-19T10:00:00.000Z", folded.lastAt)
+        assertEquals(2, folded.attempts)
+    }
+
+    @Test
+    fun `a newer record moves lastAt forward`() {
+        val totals = AttemptTotals(attempts = 1, marked = 1, correct = 1, lastAt = "2026-08-19T10:00:00.000Z")
+        val folded = AttemptStore.fold(totals, record(correct = true).copy(at = "2026-08-20T08:00:00.000Z"))
+        assertEquals("2026-08-20T08:00:00.000Z", folded.lastAt)
+    }
+
+    @Test
     fun `the record round-trips with the web's field names`() {
         val json = """
             {"id":"a1","at":"2026-08-19T10:00:00.000Z","surface":"qbank","itemId":"q1",
@@ -63,9 +79,19 @@ class AttemptTest {
              "conceptIds":["c1"],"correct":true,"seconds":42,"sessionId":"s1"}
         """.trimIndent()
         val parsed = Json.decodeFromString<AttemptRecord>(json)
+        assertEquals("a1", parsed.id)
+        assertEquals("2026-08-19T10:00:00.000Z", parsed.at)
+        assertEquals("qbank", parsed.surface)
         assertEquals("q1", parsed.itemId)
+        assertEquals("med", parsed.subjectId)
+        assertEquals("Cardiology", parsed.topic)
+        assertEquals("Moderate", parsed.difficulty)
+        // conceptIds has a default, so a renamed field would decode to an empty
+        // list instead of throwing. Assert it, or the rename ships silently.
+        assertEquals(listOf("c1"), parsed.conceptIds)
         assertEquals(42, parsed.seconds)
         assertEquals(true, parsed.correct)
+        assertEquals("s1", parsed.sessionId)
     }
 
     private fun record(correct: Boolean?) = AttemptRecord(

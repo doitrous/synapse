@@ -70,10 +70,19 @@ object AttemptStore {
 
     fun monthKey(month: String) = "synapse.progress.attempts.$month"
 
+    /**
+     * Fold one record into the running totals.
+     *
+     * `lastAt` only ever moves forward. Records do not always arrive in order —
+     * a shard replay or a backfill hands them over oldest-last — and the web
+     * (`indexAttempt` in `src/data/attempts.ts`) and iOS both guard against a
+     * late arrival dragging "last active" backwards. Overwriting here would
+     * make the same ledger read differently on Android.
+     */
     fun fold(totals: AttemptTotals, record: AttemptRecord) = AttemptTotals(
         attempts = totals.attempts + 1,
         marked = totals.marked + if (record.correct != null) 1 else 0,
         correct = totals.correct + if (record.correct == true) 1 else 0,
-        lastAt = record.at,
+        lastAt = if (totals.lastAt == null || record.at > totals.lastAt) record.at else totals.lastAt,
     )
 }
