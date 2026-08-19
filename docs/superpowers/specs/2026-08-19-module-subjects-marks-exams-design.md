@@ -194,17 +194,68 @@ Dialog fields:
   save as `uniqueModuleId` does today. Save is disabled while the ID collides.
 - **Name** — required; save disabled when empty.
 - **Block** — free text, may be empty.
-- **Term** — a `Select` listing the year's terms, plus a final `＋ New term…`
-  option that reveals a name input. Choosing an existing term moves the module
-  into it on save; naming a new one appends it to `year.terms` and moves the
-  module there. A new term name that duplicates an existing one selects the
-  existing term instead of creating a second.
+- **Year** — a `Select` of every year in the university. Changing it moves the
+  module to that year.
+- **Term** — a `Select` listing the terms of the *selected* year, re-populating
+  when the year changes, plus a final `＋ New term…` option that reveals a name
+  input. Choosing an existing term moves the module into it on save; naming a new
+  one appends it to that year's `terms` and moves the module there. A new term
+  name that duplicates an existing one selects the existing term rather than
+  creating a second.
 
 Escape cancels, Enter saves, and nothing is applied until save — so a cancelled
 edit leaves no partial change, which the current tick-only ID form cannot promise.
 
 The `⋯` menu holds Delete, which asks for confirmation naming the module and
 stating what else is removed with it (its subjects, marks, curriculum, schedule).
+
+### 1a. Moving a module, and managing terms
+
+A module's term was fixed at creation and a module could not leave its year at
+all. Both are now editable, and moving must carry everything attached to the
+module with it — its subjects and marks, its curriculum selection, and its
+schedule are all keyed by year.
+
+`moveModule` in `src/data/curriculumKeys.ts` performs the whole move as one
+operation over the catalogue and all three stores:
+
+- remove the course from the source year's `courses`, append it to the target
+  year's;
+- set `course.term` to the target term, creating it on the target year if named;
+- re-key `ModuleSubjectStore`, `curricula`, and `schedules` from
+  `${uni}:${fromYearId}:${courseId}` to `${uni}:${toYearId}:${courseId}`.
+
+Doing this in one function is the point: three separate re-keys invite a move
+that half-lands and leaves a mark scheme orphaned under a year the module no
+longer sits in. Module IDs are unique per university, not per year, so a move
+never introduces a collision.
+
+Terms are managed from the term header in Academic Setup:
+
+- **Rename** — inline, in place. Renaming updates `year.terms` and every
+  `course.term` in that year that matched the old name, in one write, so no
+  module is stranded under a term name that no longer exists.
+- **Delete** — an empty term is removed outright. A term holding modules asks
+  which term to move them to first and performs the move; it is never possible to
+  delete modules by deleting a term.
+
+### 1b. University and year availability
+
+`University` and `UniYear` each gain `active?: boolean`, absent meaning `true` so
+every existing record stays live without migration.
+
+`active` means *available to students*: a university or year that is switched off
+is still fully editable in the admin console but is not offered to students, and —
+the reason it is being added now — a voucher targeted at it will not redeem.
+
+Toggles sit in the university header panel and in each year header, alongside the
+existing controls. Switching off a university implies its years are unavailable
+regardless of their own flag; `isYearLive(university, year)` is the single
+predicate both facts are read through, so no caller can check one and forget the
+other.
+
+Nothing else in this spec reads `active`. Its consumer is the voucher work, which
+is specified separately.
 
 ### 2. Marks & Exams dialog
 
@@ -311,6 +362,16 @@ that convention rather than introducing a component test runner.
   subject with zero marks.
 - That migration is idempotent: a module that already has subjects is not given a
   second `General`.
+- `moveModule` between terms in one year sets `course.term` and leaves every key
+  unchanged.
+- `moveModule` between years moves the course between `courses` arrays and re-keys
+  all three stores together; nothing remains under the old key.
+- `moveModule` into a newly named term appends it to the target year's `terms`.
+- Renaming a term rewrites `year.terms` and every matching `course.term`.
+- Deleting a term with modules reassigns them to the named target; no course is
+  lost.
+- `isYearLive` is false when the university is inactive, when the year is
+  inactive, and true when both are absent (the default) or true.
 
 The three dialogs (Edit module, Marks & Exams, Curriculum) and the overview page
 are verified in the browser against the dev server, including the term move, the
@@ -348,11 +409,11 @@ Modified
 Named here so they are not silently assumed.
 
 - **Any student-facing surface.** No student sees marks or weights from this work.
-- **Renaming or deleting a term.** The Edit module dialog creates terms; it does
-  not manage them. A term added by mistake stays until a follow-up addresses it.
 - **Explicit year or module weight overrides.** Weight is mark share, always.
 - **Marks anywhere but a module subject.** A module has no unattributed marks.
 - **Import or export of mark schemes.** Entry is manual through the dialog.
-- **The other four sub-projects** identified during brainstorming: student
-  onboarding and plans/pricing, coupons, resource storage limits and offline
-  downloads, and an Android app. Each needs its own spec.
+- **The voucher rules themselves** — trial vouchers and eligibility gated on a
+  live university and year. This spec only adds the `active` flag they read.
+- **The other sub-projects** identified during brainstorming: student onboarding
+  and plans/pricing, resource storage limits and offline downloads, and an Android
+  app. Each needs its own spec.
