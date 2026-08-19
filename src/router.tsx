@@ -51,6 +51,8 @@ function HandOver({ origin }: { origin: string }): ReactElement {
 
 const Landing = lazyNamed(() => import('@/pages/Landing'), 'Landing')
 const LandingAr = lazyNamed(() => import('@/pages/LandingAr'), 'LandingAr')
+const PricingEn = lazyNamed(() => import('@/pages/PricingEn'), 'PricingEn')
+const PricingAr = lazyNamed(() => import('@/pages/PricingAr'), 'PricingAr')
 const NotFound = lazyNamed(() => import('@/pages/NotFound'), 'NotFound')
 const Placeholder = lazyNamed(() => import('@/pages/Placeholder'), 'Placeholder')
 
@@ -218,6 +220,12 @@ export const router = createBrowserRouter([
   { path: '/', element: adminHost ? <Navigate to="/admin" replace /> : render(Landing) },
   { path: '/en', element: adminHost ? toStudentSite : render(Landing) },
   { path: '/ar', element: adminHost ? toStudentSite : render(LandingAr) },
+  // Pricing is its own page rather than an anchor on the landing page: it is
+  // what people search for by name, and a section cannot carry a title, a
+  // description, or the answered objections that close the decision.
+  { path: '/pricing', element: adminHost ? toStudentSite : render(PricingEn) },
+  { path: '/en/pricing', element: adminHost ? toStudentSite : <Navigate to="/pricing" replace /> },
+  { path: '/ar/pricing', element: adminHost ? toStudentSite : render(PricingAr) },
   // Auth stays on both origins: RequireAuth sends a signed-out admin to /login, and
   // a session lives per-origin, so the admin domain needs its own way in.
   { path: '/login', element: render(Login) },
