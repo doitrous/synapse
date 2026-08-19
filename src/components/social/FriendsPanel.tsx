@@ -6,6 +6,7 @@ import { Avatar } from '@/components/ui/Avatar'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { TextInput, SearchInput } from '@/components/ui/Field'
 import { FRIEND_REFUSALS, type FriendProfile } from '@/lib/useFriends'
+import { ROOM_REFUSALS } from '@/lib/useStudyRooms'
 import { useIdentity } from '@/lib/useIdentity'
 import { useT } from '@/lib/i18n'
 
@@ -203,7 +204,9 @@ export function FriendsPanel({
   outgoing: FriendProfile[]
   onRespond: (userId: string, accept: boolean) => Promise<{ ok: boolean; reason?: string }>
   onRemove: (userId: string) => Promise<{ ok: boolean; reason?: string }>
-  onStudyTogether: (friend: FriendProfile) => void
+  // Creates the room and opens it; resolves once that is known so this panel
+  // can show its own loading state and, on failure, the reason.
+  onStudyTogether: (friend: FriendProfile) => Promise<{ ok: boolean; reason?: string }>
   onChallenge: (friend: FriendProfile) => void
   onCreateInvite: () => Promise<{ token: string }>
   // Threaded down rather than taken from a second `useFriends()` here. Two
@@ -252,6 +255,20 @@ export function FriendsPanel({
       setFriendsMessage(fallbackRefusal(t))
     } finally {
       markActing(userId, false)
+    }
+  }
+
+  async function handleStudyTogether(friend: FriendProfile) {
+    markActing(friend.userId, true)
+    try {
+      const result = await onStudyTogether(friend)
+      // On success the page navigates straight into the room, so there is
+      // nothing left here to show; only a refusal needs a message.
+      if (!result.ok) setFriendsMessage(ROOM_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t))
+    } catch {
+      setFriendsMessage(fallbackRefusal(t))
+    } finally {
+      markActing(friend.userId, false)
     }
   }
 
@@ -308,7 +325,14 @@ export function FriendsPanel({
               <li key={person.userId} className="flex flex-wrap items-center gap-2 px-4 py-3">
                 <Avatar name={person.displayName} size="sm" />
                 <span className="min-w-0 flex-1 truncate text-[13.5px] text-ink">{person.displayName}</span>
-                <Button variant="secondary" size="sm" iconLeft={Play} onClick={() => onStudyTogether(person)}>
+                <Button
+                  variant="secondary"
+                  size="sm"
+                  iconLeft={Play}
+                  loading={actingIds.has(person.userId)}
+                  disabled={actingIds.has(person.userId)}
+                  onClick={() => void handleStudyTogether(person)}
+                >
                   {t('Study together')}
                 </Button>
                 <Button variant="secondary" size="sm" iconLeft={Swords} onClick={() => onChallenge(person)}>

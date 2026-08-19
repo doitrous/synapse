@@ -342,9 +342,31 @@ export function StudyTogether() {
   const [challengeTarget, setChallengeTarget] = useState<FriendProfile | null>(null)
   const [openChallengeId, setOpenChallengeId] = useState<string | null>(null)
 
-  // Task 6 lands the real behaviour here — a shared test invite. For now this
-  // just gives the panel somewhere to call.
-  const handleStudyTogether = useCallback((_friend: FriendProfile) => {}, [])
+  /**
+   * Start a shared test with this friend already seated in it.
+   *
+   * Uses whatever topics/length/timing are set on the "Create a shared test"
+   * panel, same as a code-based room — the only difference is the friend
+   * lands in it without ever seeing a code. `FriendsPanel` owns the loading
+   * state and any refusal message; this just does the work and reports back.
+   */
+  const handleStudyTogether = useCallback(
+    async (friend: FriendProfile) => {
+      const picked = shuffle(available).slice(0, Math.min(count, available.length)).map((question) => question.id)
+      const result = await create({
+        name: `${t('Study session with')} ${friend.displayName}`,
+        questionIds: picked,
+        timed,
+        secondsPerQuestion: null,
+        inviteUserIds: [friend.userId],
+      })
+      if (!result.ok) return { ok: false as const, reason: result.reason }
+      await reloadRooms()
+      setOpenRoomId(result.room!.id)
+      return { ok: true as const }
+    },
+    [available, count, timed, create, reloadRooms, t],
+  )
   const handleChallenge = useCallback((friend: FriendProfile) => setChallengeTarget(friend), [])
 
   /**
