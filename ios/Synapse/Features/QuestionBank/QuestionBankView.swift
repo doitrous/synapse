@@ -4,6 +4,7 @@ import SwiftUI
 struct QuestionBankView: View {
     @State private var model: QuestionBankModel
     @State private var qbank: QBankStore
+    @State private var mastery: MasteryModel
     let sync: SyncEngine
 
     init(store: LocalStore, sync: SyncEngine, api: SynapseAPI, audience: StudentAudience) {
@@ -11,6 +12,7 @@ struct QuestionBankView: View {
             store: store, sync: sync, audience: audience
         ))
         _qbank = State(wrappedValue: QBankStore(api: api, sync: sync))
+        _mastery = State(wrappedValue: MasteryModel(api: api, sync: sync))
         self.sync = sync
     }
 
@@ -35,8 +37,10 @@ struct QuestionBankView: View {
             .navigationBarTitleDisplayMode(model.phase == .building ? .large : .inline)
         }
         .task {
+            model.mastery = mastery
             await model.load()
             await qbank.load()
+            await mastery.load()
         }
         // Kept as the student moves *and* as they answer. Saving only on the
         // move would bring a resumed sitting back with the last answer missing,

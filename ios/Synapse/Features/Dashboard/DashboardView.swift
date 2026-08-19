@@ -8,6 +8,7 @@ import SwiftUI
 /// and right immediately after a sitting.
 struct DashboardView: View {
     @State private var model: PerformanceModel
+    @State private var mastery: MasteryModel
     let sync: SyncEngine
     let library: LocalStore
     let user: SessionUser
@@ -20,6 +21,7 @@ struct DashboardView: View {
 
     init(store: LocalStore, sync: SyncEngine, user: SessionUser, auth: AuthModel, audienceStore: AudienceStore) {
         _model = State(wrappedValue: PerformanceModel(store: store))
+        _mastery = State(wrappedValue: MasteryModel(api: auth.api, sync: sync))
         self.sync = sync
         self.library = store
         self.user = user
@@ -37,6 +39,7 @@ struct DashboardView: View {
                         firstRun
                     } else {
                         todayLine
+                        dueReviews
                         stats
                         weakest
                     }
@@ -61,12 +64,16 @@ struct DashboardView: View {
                 AccountView(user: user, auth: auth, sync: sync, audienceStore: audienceStore)
             }
         }
-        .task { await refresh() }
+        .task {
+            await mastery.load()
+            await refresh()
+        }
         .onChange(of: sync.status) { _, status in
-            if case .done = status { Task { await refresh() } }
+            if case .done = status { Task { await refresh(); await mastery.load() } }
         }
         .refreshable {
             await sync.refresh()
+            await mastery.load()
             await refresh()
         }
     }
@@ -159,6 +166,107 @@ struct DashboardView: View {
             .background(Theme.surface)
             .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        }
+    }
+
+    /// What the ledger says is worth going back to.
+    ///
+    /// The first principle of the product, and until now absent from this
+    /// platform entirely. Every row here is something the student has actually
+    /// demonstrated and not seen since — nothing is fixed, and nothing appears
+    /// for a concept never met.
+    @ViewBuilder private var dueReviews: some View {
+        if !mastery.due.isEmpty {
+            VStack(alignment: .leading, spacing: 12) {
+                HStack {
+                    Text("Due for review")
+                        .font(Theme.panelTitle())
+                        .foregroundStyle(Theme.ink2)
+                    Spacer()
+                    Text("\(mastery.due.count)")
+                        .font(Theme.numeric(12))
+                        .foregroundStyle(Theme.ink3)
+                }
+
+                ForEach(mastery.due.prefix(5)) { item in
+                    HStack(spacing: 10) {
+                        Circle()
+                            .fill(colour(item.band))
+                            .frame(width: 7, height: 7)
+
+                        Text(item.conceptId)
+                            .font(Theme.ui(14))
+                            .foregroundStyle(Theme.ink)
+                            .lineLimit(1)
+
+                        Spacer(minLength: 8)
+
+                        // Accuracy where there is any. A concept only ever
+                        // practised on a station has none, and inventing one
+                        // would dress a tick as a mark.
+                        if let accuracy = item.accuracyPct {
+                            Text("\(accuracy)%")
+                                .font(Theme.numeric(12))
+                                .foregroundStyle(Theme.ink2)
+                        }
+
+                        Text(overdue(item.dueInDays))
+                            .font(Theme.ui(11))
+                            .foregroundStyle(item.dueInDays < 0 ? Theme.warning : Theme.ink3)
+                    }
+                }
+
+                if mastery.due.count > 5 {
+                    Text("and \(mastery.due.count - 5) more")
+                        .font(Theme.ui(12))
+                        .foregroundStyle(Theme.ink3)
+                }
+            }
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Theme.surface)
+            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        } else if !mastery.upcoming.isEmpty {
+            // Nothing to do is worth saying plainly, with when the next thing
+            // lands — an empty panel reads as something broken.
+            HStack(spacing: 10) {
+                Image(systemName: "checkmark.circle")
+                    .foregroundStyle(Theme.success)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Nothing due today")
+                        .font(Theme.ui(14, weight: 600))
+                        .foregroundStyle(Theme.ink)
+                    if let next = mastery.upcoming.first {
+                        Text(next.dueInDays == 1 ? "Next one tomorrow." : "Next one in \(next.dueInDays) days.")
+                            .font(Theme.ui(13))
+                            .foregroundStyle(Theme.ink2)
+                    }
+                }
+            }
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Theme.surface)
+            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        }
+    }
+
+    private func overdue(_ days: Int) -> String {
+        switch days {
+        case 0: "today"
+        case -1: "1 day over"
+        default: "\(-days) days over"
+        }
+    }
+
+    private func colour(_ band: MasteryBand) -> Color {
+        switch band {
+        case .shaky: Theme.danger
+        case .developing: Theme.warning
+        case .practised: Theme.ink3
+        case .secure: Theme.success
+        case .unseen: Theme.ink3
         }
     }
 

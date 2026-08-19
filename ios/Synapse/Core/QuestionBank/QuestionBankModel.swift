@@ -85,6 +85,9 @@ final class QuestionBankModel {
 
     private let store: LocalStore
     private let sync: SyncEngine
+    /// Where a sitting's evidence goes. Optional so the model can be built and
+    /// tested without one.
+    var mastery: MasteryModel?
     private var questionStartedAt = Date()
     private(set) var sessionId = QBankStore.newSessionID()
     private var clock: Task<Void, Never>?
@@ -363,6 +366,15 @@ final class QuestionBankModel {
         reviewing = true
         phase = .finished
         await recordAttempts()
+
+        // The concept ledger, written once for the whole sitting. It is what
+        // the review queue reads, and until now nothing on this platform wrote
+        // it — so answering on the phone built no evidence at all.
+        await mastery?.record(
+            answers
+                .filter { !$0.question.conceptIds.isEmpty }
+                .map { ($0.question.conceptIds, $0.isCorrect) }
+        )
     }
 
     func restart() {
@@ -491,4 +503,14 @@ extension ISO8601DateFormatter {
         formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
         return formatter
     }()
+
+    /// Read a timestamp in either form.
+    ///
+    /// Records carry both: the web writes fractional seconds, while older rows
+    /// and anything hand-entered do not. A reader that insists on one silently
+    /// drops the other — and a dropped timestamp is not a visible failure, it
+    /// is a concept that quietly never comes up for review again.
+    static func read(_ text: String) -> Date? {
+        synapse.date(from: text) ?? plain.date(from: text)
+    }
 }
