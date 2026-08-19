@@ -21,7 +21,10 @@ import { useMastery } from '@/lib/useMastery'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { ROOM_REFUSALS, useMyRooms, useRoom, useStudyRoomActions } from '@/lib/useStudyRooms'
 import { FRIEND_REFUSALS, useFriends, type FriendProfile } from '@/lib/useFriends'
+import { useMyChallenges, useChallengeActions } from '@/lib/useChallenges'
 import { FriendsPanel } from '@/components/social/FriendsPanel'
+import { ChallengePanel, ChallengeDialog } from '@/components/social/ChallengePanel'
+import { ChallengeRunner } from '@/components/social/ChallengeRunner'
 import { API_MODE } from '@/lib/api'
 import { formatRelativeTime } from '@/lib/format'
 import { cn } from '@/lib/cn'
@@ -334,10 +337,15 @@ export function StudyTogether() {
   const { friends, incoming, outgoing, respond, remove, request, searchDirectory, mintInvite, redeemInvite } = useFriends()
   const [inviteNotice, setInviteNotice] = useState<{ tone: 'success' | 'danger'; text: string } | null>(null)
 
-  // Tasks 6 and 9 land the real behaviour here — a shared test invite and a
-  // challenge dialog. For now these just give the panel somewhere to call.
+  const { challenges, reload: reloadChallenges } = useMyChallenges()
+  const { create: createChallenge, respond: respondChallenge } = useChallengeActions()
+  const [challengeTarget, setChallengeTarget] = useState<FriendProfile | null>(null)
+  const [openChallengeId, setOpenChallengeId] = useState<string | null>(null)
+
+  // Task 6 lands the real behaviour here — a shared test invite. For now this
+  // just gives the panel somewhere to call.
   const handleStudyTogether = useCallback((_friend: FriendProfile) => {}, [])
-  const handleChallenge = useCallback((_friend: FriendProfile) => {}, [])
+  const handleChallenge = useCallback((friend: FriendProfile) => setChallengeTarget(friend), [])
 
   /**
    * Redeem `?invite=` once on arrival.
@@ -376,6 +384,15 @@ export function StudyTogether() {
       <PageContainer>
         <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates.')} />
         <RoomRunner roomId={openRoomId} onExit={() => { setOpenRoomId(null); void reloadRooms() }} />
+      </PageContainer>
+    )
+  }
+
+  if (openChallengeId) {
+    return (
+      <PageContainer>
+        <PageHeader title={t('Study Together')} description={t('The same paper, sat separately. The comparison opens once you have both finished.')} />
+        <ChallengeRunner challengeId={openChallengeId} onExit={() => { setOpenChallengeId(null); void reloadChallenges() }} />
       </PageContainer>
     )
   }
@@ -547,6 +564,12 @@ export function StudyTogether() {
           {inviteNotice.text}
         </p>
       )}
+      <ChallengePanel
+        challenges={challenges}
+        friends={friends}
+        onRespond={respondChallenge}
+        onOpen={setOpenChallengeId}
+      />
       <FriendsPanel
         friends={friends}
         incoming={incoming}
@@ -580,6 +603,20 @@ export function StudyTogether() {
       />
 
       {tab === 'tests' ? testsContent : friendsContent}
+
+      {challengeTarget && (
+        <ChallengeDialog
+          friend={challengeTarget}
+          pool={questions}
+          onClose={() => setChallengeTarget(null)}
+          onCreate={createChallenge}
+          onCreated={(challengeId) => {
+            setChallengeTarget(null)
+            void reloadChallenges()
+            setOpenChallengeId(challengeId)
+          }}
+        />
+      )}
     </PageContainer>
   )
 }
