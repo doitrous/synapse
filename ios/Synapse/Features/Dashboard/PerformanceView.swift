@@ -44,7 +44,10 @@ struct PerformanceView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
                 headline
+                firstVsRepeat
                 heatmap
+                whenYouWork
+                bySurface
                 if !model.summary.byDifficulty.isEmpty { byDifficulty }
                 if !model.summary.bySubject.isEmpty { bySubject }
             }
@@ -91,6 +94,119 @@ struct PerformanceView: View {
     }
 
     /// 17 weeks of answers, one column per week.
+    /// What the first sight of an item said, against every later one.
+    @ViewBuilder private var firstVsRepeat: some View {
+        if let first = model.firstAttempt, first.marked > 0 {
+            VStack(alignment: .leading, spacing: 10) {
+                Text("First time vs. again")
+                    .font(Theme.panelTitle())
+                    .foregroundStyle(Theme.ink2)
+
+                HStack(spacing: 20) {
+                    figure("First sight", first.accuracy, marked: first.marked)
+                    if let again = model.repeated, again.marked > 0 {
+                        figure("Seen before", again.accuracy, marked: again.marked)
+                    }
+                }
+
+                Text("What you got right the first time is what you knew. Answering the same item again mostly measures whether you remember the answer.")
+                    .font(Theme.ui(12))
+                    .foregroundStyle(Theme.ink3)
+            }
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Theme.surface)
+            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        }
+    }
+
+    private func figure(_ title: String, _ accuracy: Double?, marked: Int) -> some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text(title)
+                .font(Theme.ui(12))
+                .foregroundStyle(Theme.ink2)
+            // No marked work means no figure. A dash is honest; 0% is not.
+            Text(accuracy.map { "\(Int(($0 * 100).rounded()))%" } ?? "—")
+                .font(Theme.display(24))
+                .foregroundStyle(Theme.ink)
+            Text("of \(marked)")
+                .font(Theme.ui(11))
+                .foregroundStyle(Theme.ink3)
+        }
+    }
+
+    /// Where the work actually went.
+    @ViewBuilder private var bySurface: some View {
+        if model.surfaces.count > 1 {
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Where the work went")
+                    .font(Theme.panelTitle())
+                    .foregroundStyle(Theme.ink2)
+
+                ForEach(model.surfaces) { surface in
+                    HStack {
+                        Text(surface.key.capitalized)
+                            .font(Theme.ui(14))
+                            .foregroundStyle(Theme.ink)
+                        Spacer()
+                        Text("\(surface.attempts)")
+                            .font(Theme.numeric(13))
+                            .foregroundStyle(Theme.ink2)
+                        // A surface nobody marks — a station is practice, not
+                        // a score — says so rather than showing nought.
+                        Text(surface.accuracy.map { "\(Int(($0 * 100).rounded()))%" } ?? "not marked")
+                            .font(surface.accuracy == nil ? Theme.ui(11) : Theme.numeric(13))
+                            .foregroundStyle(Theme.ink3)
+                            .frame(width: 70, alignment: .trailing)
+                    }
+                }
+            }
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Theme.surface)
+            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        }
+    }
+
+    /// When in the day the work happens.
+    @ViewBuilder private var whenYouWork: some View {
+        if model.hours.contains(where: { $0 > 0 }) {
+            let peak = model.hours.max() ?? 1
+            VStack(alignment: .leading, spacing: 10) {
+                Text("When you work")
+                    .font(Theme.panelTitle())
+                    .foregroundStyle(Theme.ink2)
+
+                HStack(alignment: .bottom, spacing: 2) {
+                    ForEach(0..<24, id: \.self) { hour in
+                        RoundedRectangle(cornerRadius: 1.5)
+                            .fill(model.hours[hour] > 0 ? Theme.accent : Theme.line)
+                            .frame(height: max(3, CGFloat(model.hours[hour]) / CGFloat(peak) * 54))
+                            .frame(maxWidth: .infinity)
+                    }
+                }
+                .frame(height: 54)
+
+                HStack {
+                    Text("00")
+                    Spacer()
+                    Text("12")
+                    Spacer()
+                    Text("23")
+                }
+                .font(Theme.numeric(10))
+                .foregroundStyle(Theme.ink3)
+            }
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Theme.surface)
+            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        }
+    }
+
     private var heatmap: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text("When you study")

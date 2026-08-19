@@ -70,6 +70,14 @@ final class PerformanceModel {
     private(set) var summary = PerformanceSummary()
     private(set) var isLoading = true
 
+    /// The analyses the plain summary does not carry.
+    private(set) var firstAttempt: AttemptStats.Breakdown<String>?
+    private(set) var repeated: AttemptStats.Breakdown<String>?
+    private(set) var surfaces: [AttemptStats.Breakdown<String>] = []
+    private(set) var hours: [Int] = []
+    /// Distinct items met, which is coverage rather than volume.
+    private(set) var covered = 0
+
     private let store: LocalStore
 
     init(store: LocalStore) {
@@ -85,6 +93,13 @@ final class PerformanceModel {
 
         let records = await allRecords()
         summary = Self.summarise(records)
+
+        let split = AttemptStats.firstAttemptSplit(records)
+        firstAttempt = split.first
+        repeated = split.repeated
+        surfaces = AttemptStats.bySurface(records)
+        hours = AttemptStats.hourHistogram(records)
+        covered = AttemptStats.distinctItems(records)
     }
 
     private func allRecords() async -> [AttemptRecord] {
