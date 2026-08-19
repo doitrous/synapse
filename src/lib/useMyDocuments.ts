@@ -2,6 +2,10 @@ import { useCallback, useEffect, useState } from 'react'
 import { API_MODE, apiDelete, apiGet, apiPost, apiSend, apiUploadChunk } from './api'
 import { removeStoredMedia, storeMediaFile } from './mediaStorage'
 import { usePersistentState } from './usePersistentState'
+import { useIdentity } from './useIdentity'
+import {
+  DEFAULT_STORAGE_LIMITS, STORAGE_LIMITS_STORAGE_KEY, limitFor, type StorageLimits,
+} from '@/data/storageLimits'
 
 /**
  * The documents a student brought themselves.
@@ -45,7 +49,6 @@ export interface MyDocumentsState {
 
 /** What a single request carries, well under the server's chunk ceiling. */
 const CHUNK_BYTES = 8 * 1024 * 1024
-const DEMO_QUOTA_BYTES = 512 * 1024 * 1024
 const DEMO_KEY = 'synapse.myDocuments.v1'
 
 const NO_DOCUMENTS: MyDocument[] = []
@@ -54,6 +57,11 @@ export function useMyDocuments(): MyDocumentsState {
   // Both backings are wired up on every render — `API_MODE` is fixed for the
   // life of the build, and branching on it around a hook call would not be.
   const [local, setLocal] = usePersistentState<MyDocument[]>(DEMO_KEY, NO_DOCUMENTS)
+  // Demo mode has no server to resolve a limit, so it reads the same settings
+  // document an administrator edits. Without this the limit they set would
+  // appear to do nothing on the only build they can try it on.
+  const [limits] = usePersistentState<StorageLimits>(STORAGE_LIMITS_STORAGE_KEY, DEFAULT_STORAGE_LIMITS)
+  const { entitlement } = useIdentity()
   const [remote, setRemote] = useState<MyDocument[]>(NO_DOCUMENTS)
   const [usage, setUsage] = useState({ usedBytes: 0, quotaBytes: 0 })
   const [loading, setLoading] = useState(API_MODE)
@@ -124,7 +132,7 @@ export function useMyDocuments(): MyDocumentsState {
   return {
     items,
     usedBytes: API_MODE ? usage.usedBytes : items.reduce((sum, item) => sum + item.sizeBytes, 0),
-    quotaBytes: API_MODE ? usage.quotaBytes : DEMO_QUOTA_BYTES,
+    quotaBytes: API_MODE ? usage.quotaBytes : limitFor(limits, entitlement.plan),
     synced: API_MODE,
     loading,
     error,
