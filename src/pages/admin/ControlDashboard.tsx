@@ -53,6 +53,7 @@ import { QuestionEditorDialog } from '@/components/admin/QuestionEditorDialog'
 import { LibraryArticleEditorDialog } from '@/components/admin/LibraryArticleEditorDialog'
 import { PracticalEditorDialog } from '@/components/admin/PracticalEditorDialog'
 import { ResourceEditorDialog } from '@/components/admin/ResourceEditorDialog'
+import { HistologyEditorDialog } from '@/components/admin/HistologyEditorDialog'
 import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
@@ -799,6 +800,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
         <PracticalEditorDialog open={editorOpen} item={editing} concepts={conceptGraph} contentItems={items} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'resource' ? (
         <ResourceEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+      ) : activeKind === 'histology' ? (
+        <HistologyEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : (
         <ContentEditorDialog open={editorOpen} kind={activeKind} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       )}
