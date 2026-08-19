@@ -89,7 +89,7 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
           // reader is meant to act on, and a page of article prose where every
           // term shouted in the action colour would bury the one control that
           // matters.
-          className="rounded-sm border-b border-dotted border-accent font-semibold text-accent transition-colors hover:bg-accent-tint focus:outline-none focus:ring-2 focus:ring-accent/20"
+          className="rounded-sm border-b border-dotted border-primary font-semibold text-primary transition-colors hover:bg-primary-tint focus:outline-none focus:ring-2 focus:ring-primary/20"
           onClick={(event) => setOpen({ concept: part.concept!, anchor: event.currentTarget })}
           aria-haspopup="dialog"
           aria-expanded={open?.concept.id === part.concept.id}
@@ -115,7 +115,7 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
           className="w-[min(23rem,calc(100vw-2rem))] font-sans font-normal leading-normal text-ink"
         >
           <div className="flex items-start gap-2.5 border-b border-line px-4 py-3">
-            <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={BookOpenText} size={15} /></span>
+            <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={BookOpenText} size={15} /></span>
             <div className="min-w-0 flex-1">
               <h3 className="font-serif text-[16px] font-semibold leading-snug tracking-[-0.01em] text-ink">{open.concept.label}</h3>
               <p className="mt-0.5 truncate font-mono text-[10px] text-ink-3">{open.concept.id}</p>

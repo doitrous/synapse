@@ -8,7 +8,11 @@ const USER_OWNED_PATTERNS = [
   /^synapse\.notebook\./,
   /^synapse\.whiteboard\./,
   /^synapse\.calendar\.blocks$/,
-  /^synapse\.library\.(read|userArticles|personalTags)/,
+  // `marks` is the student's highlights and sticky notes on library articles.
+  // Left out of this list it would be routed to the shared catalogue store,
+  // which only an admin may write — so every save a student made would be
+  // refused by the server and dropped.
+  /^synapse\.library\.(read|userArticles|personalTags|marks)/,
   /^synapse\.account\./,
   /^synapse-notification-read-v1-/,
   /^synapse-applied-voucher-v1$/,

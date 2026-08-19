@@ -237,9 +237,9 @@ export function EmailAutomations() {
               <tr>
                 <Th className="pl-4">Subject</Th>
                 <Th>Status</Th>
-                <Th align="right">Recipients</Th>
-                <Th align="right">Open rate</Th>
-                <Th align="right" className="pr-4">When</Th>
+                <Th align="end">Recipients</Th>
+                <Th align="end">Open rate</Th>
+                <Th align="end" className="pr-4">When</Th>
               </tr>
             </thead>
             <tbody>
@@ -247,9 +247,9 @@ export function EmailAutomations() {
                 <Tr key={c.id} hover>
                   <Td className="pl-4 font-medium">{c.subject}</Td>
                   <Td><StatusBadge status={c.status} /></Td>
-                  <Td align="right" className="tnum font-mono text-ink-2">{c.recipients.toLocaleString()}</Td>
-                  <Td align="right" className="tnum font-mono text-ink-2">{c.openRate > 0 ? `${c.openRate}%` : '—'}</Td>
-                  <Td align="right" className="whitespace-nowrap pr-4 text-[12.5px] text-ink-2">{c.when}</Td>
+                  <Td align="end" className="tnum font-mono text-ink-2">{c.recipients.toLocaleString()}</Td>
+                  <Td align="end" className="tnum font-mono text-ink-2">{c.openRate > 0 ? `${c.openRate}%` : '—'}</Td>
+                  <Td align="end" className="whitespace-nowrap pr-4 text-[12.5px] text-ink-2">{c.when}</Td>
                 </Tr>
               ))}
             </tbody>

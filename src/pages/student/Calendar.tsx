@@ -152,7 +152,14 @@ function BlockDialog({ date, existing, onClose, onSave, onDelete }: {
             <Field label={t('Module')} hint={t('Optional — ties this block to a module on your timetable.')}>
               <Select value={moduleId} onChange={(event) => setModuleId(event.target.value)}>
                 <option value="">{t('No module')}</option>
-                {modules.map((module) => <option key={module.id} value={module.id}>{module.id} — {module.name}</option>)}
+                {/* A module whose name is its code — "205 NEU", as several
+                    faculties list them — would otherwise read "205 NEU — 205
+                    NEU". Say it once. */}
+                {modules.map((module) => (
+                  <option key={module.id} value={module.id}>
+                    {module.name.trim() === module.id.trim() ? module.id : `${module.id} — ${module.name}`}
+                  </option>
+                ))}
               </Select>
             </Field>
           )}
@@ -391,7 +398,7 @@ export function CalendarPage() {
                 const inMonth = date.getMonth() === anchor.getMonth()
                 const isToday = sameDay(date, today)
                 return (
-                  <button key={dayKey(date)} onClick={() => openDay(date)} className={cn('group min-h-[64px] border-b border-r border-line p-1 text-left transition-colors hover:bg-primary-tint/25 focus-visible:z-10 focus-visible:outline-2 focus-visible:outline-primary sm:min-h-[112px] sm:p-1.5', index % 7 === 6 && 'border-r-0', !inMonth && 'bg-surface-2/40')} aria-label={`${formatLongDate(date)} — ${events.length} events`}>
+                  <button key={dayKey(date)} onClick={() => openDay(date)} className={cn('group min-h-[64px] border-b border-r border-line p-1 text-start transition-colors hover:bg-primary-tint/25 focus-visible:z-10 focus-visible:outline-2 focus-visible:outline-primary sm:min-h-[112px] sm:p-1.5', index % 7 === 6 && 'border-r-0', !inMonth && 'bg-surface-2/40')} aria-label={`${formatLongDate(date)} — ${events.length} events`}>
                     <div className="mb-1 flex items-center justify-between">
                       <Icon icon={Plus} size={12} className="text-ink-3 opacity-0 transition-opacity group-hover:opacity-100" />
                       <span className={cn('tnum grid size-6 place-items-center rounded-full text-[12px] font-medium', isToday ? 'bg-primary text-on-primary' : inMonth ? 'text-ink-2' : 'text-ink-3')}>{date.getDate()}</span>

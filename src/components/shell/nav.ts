@@ -31,6 +31,9 @@ import {
   Braces,
   GitFork,
   Network,
+  Compass,
+  Scale,
+  Bot,
 } from 'lucide-react'
 
 export type Portal = 'student' | 'admin'
@@ -59,6 +62,7 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Library', to: '/app/library', icon: BookOpen },
       { label: 'Question Bank', to: '/app/qbank', icon: ListChecks },
+      { label: 'Adaptive Study', to: '/app/adaptive', icon: Compass },
       { label: 'Practical', to: '/app/practical', icon: Stethoscope },
       { label: 'Resources', to: '/app/resources', icon: FolderOpen },
       { label: 'Medical Taxonomy', to: '/app/taxonomy', icon: Languages },
@@ -92,11 +96,13 @@ export const adminNav: NavGroup[] = [
   {
     label: 'Content',
     items: [
-      { label: 'Subjects & Topics', to: '/admin/taxonomy', icon: Network },
+      { label: 'Systems & Topics', to: '/admin/taxonomy', icon: Network },
       { label: 'Glossary', to: '/admin/glossary', icon: Languages },
       { label: 'Academic Setup', to: '/admin/academic', icon: GraduationCap },
+      { label: 'Marks & Weights', to: '/admin/academic/marks', icon: Scale },
       { label: 'Library Setup', to: '/admin/library', icon: Library },
       { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },
+      { label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass },
       { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
       { label: 'Concepts', to: '/admin/concepts', icon: Braces },
       { label: 'Relationships', to: '/admin/relationships', icon: GitFork },
@@ -115,6 +121,7 @@ export const adminNav: NavGroup[] = [
       { label: 'Students', to: '/admin/students', icon: Users },
       { label: 'Payments & Finance', to: '/admin/payments', icon: Banknote },
       { label: 'Vouchers', to: '/admin/vouchers', icon: TicketPercent },
+      { label: 'AI Assistant', to: '/admin/assistant', icon: Bot },
     ],
   },
   {

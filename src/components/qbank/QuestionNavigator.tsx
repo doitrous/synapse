@@ -22,7 +22,7 @@ export type QuestionState = 'unseen' | 'answered' | 'omitted' | 'correct' | 'inc
  */
 const SWATCH: Record<QuestionState, string> = {
   unseen: 'border-line bg-surface text-ink-3',
-  answered: 'border-accent-line bg-accent-tint text-accent-strong',
+  answered: 'border-primary-line bg-primary-tint text-primary-strong',
   omitted: 'border-warning/45 bg-warning-tint text-warning',
   correct: 'border-success/50 bg-success-tint text-success',
   incorrect: 'border-danger/50 bg-danger-tint text-danger',

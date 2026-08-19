@@ -73,7 +73,7 @@ export function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId,
                 <li key={concept.id}>
                   <button
                     onClick={() => onSelect(concept)}
-                    className={cn('flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left transition-colors', selectedId === concept.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
+                    className={cn('flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-start transition-colors', selectedId === concept.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
                   >
                     <span className="truncate text-[12.5px] font-medium">{concept.label}</span>
                     {badgeFor ? badgeFor(concept) : (!concept.definition && <Badge tone="warning">No definition</Badge>)}

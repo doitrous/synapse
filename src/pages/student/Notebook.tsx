@@ -162,7 +162,7 @@ export function Notebook() {
                 setListOpen(false)
               }}
               className={cn(
-                'mb-0.5 w-full rounded-md px-2.5 py-2 text-left transition-colors',
+                'mb-0.5 w-full rounded-md px-2.5 py-2 text-start transition-colors',
                 selectedId === n.id ? 'bg-primary-tint' : 'hover:bg-inset',
               )}
             >

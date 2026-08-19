@@ -134,7 +134,7 @@ export function GlossarySetup() {
               <ul className="divide-y divide-line">
                 {filtered.map((term) => (
                   <li key={term.id} className="flex items-center gap-3 px-4 py-3">
-                    <button type="button" onClick={() => setEditingId(term.id)} className="min-w-0 flex-1 text-left">
+                    <button type="button" onClick={() => setEditingId(term.id)} className="min-w-0 flex-1 text-start">
                       <span className="flex items-center gap-2">
                         <span className="truncate text-[13.5px] font-medium text-ink">{term.term || 'Untitled term'}</span>
                         <span lang="ar" dir="rtl" className="truncate text-[13px] text-primary-strong">{term.ar}</span>

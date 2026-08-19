@@ -1,4 +1,4 @@
--- Synapse database schema (MariaDB / MySQL). Idempotent.
+-- Connect Cortex database schema (MariaDB / MySQL). Idempotent.
 
 CREATE TABLE IF NOT EXISTS schema_migrations (
   id         VARCHAR(160) PRIMARY KEY,
@@ -88,6 +88,9 @@ CREATE TABLE IF NOT EXISTS students (
   id                 VARCHAR(64) PRIMARY KEY,
   name               VARCHAR(255),
   email              VARCHAR(255) UNIQUE,
+  -- Stored in E.164 so that 0100…, +20100… and 0020100… cannot register twice.
+  phone              VARCHAR(32) UNIQUE,
+  nationality        VARCHAR(64),
   university_id      VARCHAR(64),
   year               VARCHAR(32),
   plan               VARCHAR(64),
@@ -385,4 +388,79 @@ CREATE TABLE IF NOT EXISTS email_unsubscribe_tokens (
   category   VARCHAR(64) NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   INDEX idx_unsub_address (address)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* ── Study assistant ────────────────────────────────────────────────────────
+   Three tables, because the assistant has three separable concerns: how it is
+   configured, what each tier is allowed, and what has actually been spent.
+
+   Deliberately absent: a transcript table. Storing what a student asks the
+   assistant would be a record of exactly which topics they are weakest on,
+   attached to their name, with no product that reads it yet. Usage is counted
+   in aggregate instead, which is all the quota and the admin view need. */
+
+-- One row, id = 1. The API key is stored encrypted (AES-256-GCM) under
+-- ASSISTANT_KEY_SECRET and is never returned to any client, admin included —
+-- `key_hint` is the last four characters, which is enough to tell two keys
+-- apart and useless to anyone who reads it.
+CREATE TABLE IF NOT EXISTS assistant_settings (
+  id            TINYINT UNSIGNED PRIMARY KEY DEFAULT 1,
+  enabled       BOOLEAN NOT NULL DEFAULT 0,
+  model         VARCHAR(120) NOT NULL DEFAULT 'claude-sonnet-5',
+  -- NULL means "use ANTHROPIC_API_KEY from the environment", which is the
+  -- safer default and the one a fresh install starts on.
+  api_key_enc   TEXT NULL,
+  key_hint      VARCHAR(8) NULL,
+  max_tokens    SMALLINT UNSIGNED NOT NULL DEFAULT 700,
+  temperature   DECIMAL(3,2) NOT NULL DEFAULT 0.30,
+  -- Appended to the built-in prompt rather than replacing it, so the clinical
+  -- guardrail cannot be edited away from this screen.
+  extra_prompt  TEXT NULL,
+  updated_by    VARCHAR(64) NULL,
+  updated_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- What one tier may spend in a day. Keyed by the normalised plan name, so a
+-- plan an admin invents from the subscription screen can be given a limit here
+-- without a migration. A plan with no row falls back to `free` — fails closed.
+CREATE TABLE IF NOT EXISTS assistant_tier_limits (
+  plan            VARCHAR(64) PRIMARY KEY,
+  label           VARCHAR(120) NOT NULL,
+  daily_messages  SMALLINT UNSIGNED NOT NULL DEFAULT 10,
+  enabled         BOOLEAN NOT NULL DEFAULT 1,
+  updated_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- One row per account per day. Written only after a model call succeeds, so a
+-- failed request never costs a student a message.
+CREATE TABLE IF NOT EXISTS assistant_usage (
+  user_id       VARCHAR(64) NOT NULL,
+  day           DATE NOT NULL,
+  plan          VARCHAR(64) NOT NULL,
+  messages      SMALLINT UNSIGNED NOT NULL DEFAULT 0,
+  input_tokens  INT UNSIGNED NOT NULL DEFAULT 0,
+  output_tokens INT UNSIGNED NOT NULL DEFAULT 0,
+  fallbacks     SMALLINT UNSIGNED NOT NULL DEFAULT 0,
+  updated_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (user_id, day),
+  INDEX idx_assistant_usage_day (day)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* The assistant is no longer tied to one vendor. `provider` selects the wire
+   format and the endpoint; `base_url` overrides it for a self-hosted or
+   OpenAI-compatible endpoint that has no entry of its own. */
+ALTER TABLE assistant_settings ADD COLUMN IF NOT EXISTS provider VARCHAR(32) NOT NULL DEFAULT 'anthropic' AFTER enabled;
+ALTER TABLE assistant_settings ADD COLUMN IF NOT EXISTS base_url VARCHAR(300) NULL AFTER model;
+
+/* One key per provider, rather than one key.
+   Switching from Groq to Gemini to compare them should not mean pasting a key
+   back in each time, and a key that has to be re-entered to switch is a key
+   that ends up somewhere more convenient and less safe. Encrypted exactly as
+   the single key was; `key_hint` is the last four characters. */
+CREATE TABLE IF NOT EXISTS assistant_provider_keys (
+  provider    VARCHAR(32) PRIMARY KEY,
+  api_key_enc TEXT NOT NULL,
+  key_hint    VARCHAR(8) NULL,
+  updated_by  VARCHAR(64) NULL,
+  updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -101,7 +101,7 @@ export function StudentsManagement() {
             <span className="ms-auto tnum font-mono text-[11.5px] text-ink-3">{filtered.length} shown</span>
           </div>
           <Table>
-            <thead><tr><Th className="pl-4">Student</Th><Th>University · Year</Th><Th>Plan</Th><Th align="right">Answered</Th><Th align="right">Accuracy</Th><Th align="right">Readiness</Th><Th>Status</Th><Th align="right" className="pr-4">Last active</Th></tr></thead>
+            <thead><tr><Th className="pl-4">Student</Th><Th>University · Year</Th><Th>Plan</Th><Th align="end">Answered</Th><Th align="end">Accuracy</Th><Th align="end">Readiness</Th><Th>Status</Th><Th align="end" className="pr-4">Last active</Th></tr></thead>
             <tbody>
               {filtered.slice(0, 200).map((s: AdminStudent) => {
                 const uni = universities.find((u) => u.id === s.universityId)
@@ -110,11 +110,11 @@ export function StudentsManagement() {
                     <Td className="pl-4"><span className="inline-flex items-center gap-2.5"><Avatar name={s.name} size="sm" /><span className="min-w-0"><span className="block truncate text-[13px] font-medium text-ink">{s.name}</span><span className="block truncate text-[11px] text-ink-3">{s.email}</span></span></span></Td>
                     <Td className="whitespace-nowrap text-[12.5px] text-ink-2">{uni?.short} · {s.year}</Td>
                     <Td><Badge tone={s.plan === 'Free' ? 'neutral' : 'primary'}>{s.plan}</Badge></Td>
-                    <Td align="right" className="tnum font-mono text-ink-2">{s.questionsAnswered.toLocaleString()}</Td>
-                    <Td align="right" className="tnum font-mono text-ink-2">{s.accuracy}%</Td>
-                    <Td align="right" className="tnum font-mono text-ink-2">{s.readiness}%</Td>
+                    <Td align="end" className="tnum font-mono text-ink-2">{s.questionsAnswered.toLocaleString()}</Td>
+                    <Td align="end" className="tnum font-mono text-ink-2">{s.accuracy}%</Td>
+                    <Td align="end" className="tnum font-mono text-ink-2">{s.readiness}%</Td>
                     <Td><Badge tone={statusTone(s.status)}>{s.status}</Badge></Td>
-                    <Td align="right" className="whitespace-nowrap pr-4 text-[11.5px] text-ink-3">{s.lastActive}</Td>
+                    <Td align="end" className="whitespace-nowrap pr-4 text-[11.5px] text-ink-3">{s.lastActive}</Td>
                   </Tr>
                 )
               })}

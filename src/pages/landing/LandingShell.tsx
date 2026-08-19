@@ -1,11 +1,9 @@
-import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
 import {
   GraduationCap,
   LogIn,
   ArrowRight,
-  Globe,
   BookOpen,
   ListChecks,
   Stethoscope,
@@ -19,14 +17,13 @@ import {
   FileText,
   Quote,
   Check,
-  X,
 } from 'lucide-react'
-import { Wordmark } from '@/components/brand/Wordmark'
 import { Icon } from '@/components/ui/Icon'
-import { useLocalPreference } from '@/lib/useLocalPreference'
 import { ReferenceBar, TodaySpecimen } from './specimens'
 import { Walkthrough } from './Walkthrough'
-import { Pricing } from './Pricing'
+import { usePageMeta } from '@/lib/pageMeta'
+import { MarketingShell } from './MarketingShell'
+import { PricingTeaser } from './PricingTeaser'
 import type { Feature, LandingContent } from './content'
 
 const FEATURE_ICON: Record<Feature['icon'], LucideIcon> = {
@@ -44,86 +41,18 @@ const FEATURE_ICON: Record<Feature['icon'], LucideIcon> = {
   sources: Quote,
 }
 
-/**
- * The other language, offered rather than forced.
- *
- * `/` serves English and `/ar` serves Arabic, both explicitly. Redirecting on
- * `navigator.language` would break a shared link — the person who sent it and
- * the person who opened it would see different pages — and split what search
- * engines index. So this is a strip, dismissible, remembered per device.
- */
-function OtherLanguageOffer({ c }: { c: LandingContent }) {
-  const [dismissed, setDismissed] = useLocalPreference('synapse.landing.langOffer.dismissed', false)
-  const [prefersOther, setPrefersOther] = useState(false)
-
-  useEffect(() => {
-    const wanted = c.lang === 'en' ? 'ar' : 'en'
-    setPrefersOther(navigator.languages?.some((tag) => tag.toLowerCase().startsWith(wanted)) ?? false)
-  }, [c.lang])
-
-  if (dismissed || !prefersOther) return null
-
-  return (
-    <div dir={c.lang === 'en' ? 'rtl' : 'ltr'} lang={c.lang === 'en' ? 'ar' : 'en'} className="border-b border-line bg-surface-2/70">
-      <div className="mx-auto flex max-w-[1160px] flex-wrap items-center gap-3 px-5 py-2 text-[13px] sm:px-8">
-        <Icon icon={Globe} size={14} className="shrink-0 text-ink-3" />
-        <p className="min-w-0 flex-1 text-ink-2">{c.otherOffer.line}</p>
-        <Link to={c.otherHref} className="font-semibold text-primary-strong hover:underline">{c.otherOffer.accept}</Link>
-        <button type="button" onClick={() => setDismissed(true)} className="grid size-6 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label={c.otherOffer.dismiss}>
-          <Icon icon={X} size={13} />
-        </button>
-      </div>
-    </div>
-  )
-}
-
 export function LandingShell({ content }: { content: LandingContent }) {
   const c = content
-  useEffect(() => {
-    const el = document.documentElement
-    el.dir = c.dir
-    el.lang = c.lang
-    const previousTitle = document.title
-    document.title = c.documentTitle
-    return () => {
-      el.dir = 'ltr'
-      el.lang = 'en'
-      document.title = previousTitle
-    }
-  }, [c.dir, c.lang, c.documentTitle])
+
+  usePageMeta({
+    title: c.documentTitle,
+    description: c.hero.sub,
+    canonical: c.lang === 'ar' ? '/ar' : '/',
+    alternates: { en: '/en', ar: '/ar', 'x-default': '/' },
+  })
 
   return (
-    <div className="min-h-dvh overflow-x-clip" dir={c.dir} lang={c.lang}>
-      <OtherLanguageOffer c={c} />
-
-      {/* ---- Nav (solid ground, hairline rule — no glass) ---- */}
-      <header className="sticky top-0 z-30 border-b border-line bg-paper">
-        <div className="mx-auto flex max-w-[1160px] items-center justify-between px-5 py-3.5 sm:px-8">
-          <Wordmark />
-          <div className="flex items-center gap-3 sm:gap-5">
-            <Link
-              to={c.otherHref}
-              lang={c.lang === 'ar' ? 'en' : 'ar'}
-              className="inline-flex items-center gap-1.5 text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink"
-            >
-              <Icon icon={Globe} size={15} />
-              {c.otherLabel}
-            </Link>
-            <Link to="/login" className="hidden text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink sm:inline">
-              {c.signIn}
-            </Link>
-            <Link
-              to="/signup"
-              className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-3.5 py-2 text-[13.5px] font-semibold text-on-primary shadow-panel transition-colors hover:bg-primary-hover"
-            >
-              {c.nav.start}
-              <Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" />
-            </Link>
-          </div>
-        </div>
-      </header>
-
-      <main className="mx-auto max-w-[1160px] px-5 sm:px-8">
+    <MarketingShell c={c}>
         {/* ---- Hero: the heading leads, no kicker ---- */}
         <section className="grid items-center gap-10 pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:pt-24">
           <div>
@@ -135,7 +64,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
                 to="/signup"
-                className="group inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-[15px] font-semibold text-on-primary shadow-raised transition-colors hover:bg-primary-hover"
+                className="group inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-[15px] font-semibold text-on-primary shadow-raised transition-colors hover:bg-primary-strong"
               >
                 <Icon icon={GraduationCap} size={19} />
                 {c.hero.primary}
@@ -242,7 +171,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
           </div>
         </section>
 
-        <Pricing c={c} />
+        <PricingTeaser c={c} />
 
         {/* ---- Close ---- */}
         <section className="mt-24 overflow-hidden rounded-2xl border border-primary-strong/25 bg-primary px-6 py-14 text-center text-on-primary sm:px-10 sm:py-20">
@@ -258,14 +187,6 @@ export function LandingShell({ content }: { content: LandingContent }) {
             </Link>
           </div>
         </section>
-      </main>
-
-      <footer className="mt-20 border-t border-line">
-        <div className="mx-auto flex max-w-[1160px] flex-col items-start justify-between gap-3 px-5 py-7 text-[12.5px] text-ink-3 sm:flex-row sm:items-center sm:px-8">
-          <Wordmark />
-          <p className="max-w-md text-start sm:text-end">{c.footer}</p>
-        </div>
-      </footer>
-    </div>
+    </MarketingShell>
   )
 }

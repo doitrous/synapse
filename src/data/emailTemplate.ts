@@ -41,7 +41,7 @@ const COLOR = {
   ink2: '#5d636f',
   ink3: '#949aa8',
   line: '#e3e7ef',
-  accent: '#d13a63',
+  primary: '#d13a63',
   primaryStrong: '#a82449',
   primaryTint: '#fff5f5',
   onAccent: '#ffffff',
@@ -229,7 +229,7 @@ export function styleBodyHtml(bodyHtml: string): string {
  * collapses to a link.
  */
 export function actionButton(label: string, url: string): string {
-  return `<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 16px;"><tr><td align="center" bgcolor="${COLOR.accent}" style="border-radius:8px;">
+  return `<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 16px;"><tr><td align="center" bgcolor="${COLOR.primary}" style="border-radius:8px;">
 <a href="${escapeHtml(url)}" style="display:inline-block;padding:11px 22px;font-family:${SANS};font-size:14px;font-weight:600;color:${COLOR.onAccent};text-decoration:none;border-radius:8px;">${escapeHtml(label)}</a>
 </td></tr></table>`
 }

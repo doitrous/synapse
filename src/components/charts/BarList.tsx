@@ -46,7 +46,7 @@ export function BarList({
               }}
             />
           </div>
-          <div className="tnum text-right font-mono text-[12.5px] font-medium text-ink">
+          <div className="tnum text-end font-mono text-[12.5px] font-medium text-ink">
             {d.valueLabel ?? d.value}
           </div>
         </div>

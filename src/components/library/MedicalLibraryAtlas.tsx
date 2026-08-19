@@ -271,15 +271,21 @@ export function AtlasNavigation({
     })
   }
 
+  // `min-w-0` below is load-bearing. This is a grid item, and a grid item's
+  // default `min-width: auto` refuses to shrink below its content — so a branch
+  // named "Gastrointestinal, Hepatobiliary & Pancreatic" widened the whole rail
+  // past its track and spilled over the article beside it. The labels inside
+  // were already truncating; they never got the chance, because `white-space:
+  // nowrap` makes their max-content the full string and the rail grew to it.
   return (
-    <aside className="flex min-h-0 flex-col border-e border-line bg-surface">
+    <aside className="flex min-h-0 min-w-0 flex-col border-e border-line bg-surface">
       <div className="border-b border-line p-3"><SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search this view…" /></div>
-      <div className="border-b border-line px-3 py-2.5"><p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{t(MEDICAL_LIBRARY_VIEWS.find((item) => item.id === view)?.label ?? '')}</p></div>
-      <div className="min-h-0 flex-1 overflow-y-auto p-2">
+      <div className="border-b border-line px-3 py-2.5"><p className="truncate text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{t(MEDICAL_LIBRARY_VIEWS.find((item) => item.id === view)?.label ?? '')}</p></div>
+      <div className="min-h-0 min-w-0 flex-1 overflow-y-auto p-2">
           {view === 'curriculum' ? <div className="rounded-lg border border-line bg-surface-2/50 p-3"><p className="text-[12.5px] font-semibold text-ink">Curriculum mapping is ready</p><p className="mt-1.5 text-[11.5px] leading-relaxed text-ink-3">Published articles appear here only after a university, year, and module are explicitly assigned. No placement is guessed.</p></div> : deferredQuery.trim() ? (
             <div className="space-y-3">
-              {articleResults.length > 0 && <div><p className="px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.06em] text-ink-3">Articles</p>{articleResults.map((article) => <button key={article.id} type="button" onClick={() => onArticleSelect(article.id)} className={cn('w-full rounded-md px-2 py-2 text-start text-[12px] hover:bg-inset', selectedArticleId === article.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')}>{article.title}</button>)}</div>}
-              <div><p className="px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Subjects & topics')}</p>{nodeResults.map((node) => <button key={node.id} type="button" onClick={() => selectNode(node.id)} className="w-full rounded-md px-2 py-2 text-start hover:bg-inset"><span className="block text-[12px] text-ink-2">{node.title}</span></button>)}</div>
+              {articleResults.length > 0 && <div><p className="px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.06em] text-ink-3">Articles</p>{articleResults.map((article) => <button key={article.id} type="button" onClick={() => onArticleSelect(article.id)} className={cn('block w-full truncate rounded-md px-2 py-2 text-start text-[12px] hover:bg-inset', selectedArticleId === article.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')}>{article.title}</button>)}</div>}
+              <div><p className="px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Subjects & topics')}</p>{nodeResults.map((node) => <button key={node.id} type="button" onClick={() => selectNode(node.id)} className="block w-full rounded-md px-2 py-2 text-start hover:bg-inset"><span className="block truncate text-[12px] text-ink-2">{node.title}</span></button>)}</div>
               {articleResults.length === 0 && nodeResults.length === 0 && <p className="px-2 py-6 text-center text-[12px] text-ink-3">{t('No result in this view.')}</p>}
             </div>
           ) : <ul>{roots.map((root) => <TaxonomyBranch key={root.id} node={root} index={index} open={open} selectedNodeId={selectedNodeId} articleCounts={articleCounts} onToggle={(nodeId) => setOpen((current) => { const next = new Set(current); if (next.has(nodeId)) next.delete(nodeId); else next.add(nodeId); return next })} onSelect={selectNode} />)}</ul>}

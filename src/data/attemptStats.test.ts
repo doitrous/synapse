@@ -2,7 +2,8 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
   accuracyOf, bySession, bySubject, byDifficulty, currentStreak, dailyCounts, distinctItems,
-  firstAttemptSplit, hourHistogram, localDay, longestStreak, marked, medianSeconds, weakest,
+  firstAttemptSplit, hourHistogram, localDay, longestStreak, marked, medianSeconds,
+  sessionDetail, weakest,
 } from './attemptStats.ts'
 import type { AttemptRecord } from './attempts.ts'
 
@@ -225,4 +226,74 @@ test('subjects are listed most-answered first', () => {
 
 test('a record with no sessionId is not a sitting', () => {
   assert.deepEqual(bySession([attempt({ sessionId: '' })]), [])
+})
+
+test('a sitting reports what was right, what was wrong, and what nobody marked', () => {
+  const detail = sessionDetail([
+    attempt({ sessionId: 's1', itemId: 'q1', correct: true }),
+    attempt({ sessionId: 's1', itemId: 'q2', correct: false }),
+    attempt({ sessionId: 's1', itemId: 'q3', correct: false }),
+    // A station is ticked by the student against a checklist. Counting it as
+    // right would inflate the accuracy; as wrong, deflate it.
+    attempt({ sessionId: 's1', itemId: 'st1', surface: 'station', correct: null }),
+    attempt({ sessionId: 's2', itemId: 'q9', correct: true }),
+  ], 's1')
+
+  assert.equal(detail.answered, 4)
+  assert.equal(detail.marked, 3)
+  assert.equal(detail.correct, 1)
+  assert.equal(detail.wrong, 2)
+  assert.equal(detail.unmarked, 1)
+  assert.equal(detail.accuracy, 1 / 3)
+})
+
+test('a sitting with nothing marked has no accuracy rather than nought', () => {
+  const detail = sessionDetail([
+    attempt({ sessionId: 's1', itemId: 'st1', surface: 'station', correct: null }),
+  ], 's1')
+  assert.equal(detail.accuracy, null)
+  assert.equal(detail.weakestTopic, null)
+})
+
+test('a sitting counts only its own records', () => {
+  const detail = sessionDetail([
+    attempt({ sessionId: 'other', correct: false, seconds: 999 }),
+    attempt({ sessionId: 's1', correct: true, seconds: 30 }),
+  ], 's1')
+  assert.equal(detail.answered, 1)
+  assert.equal(detail.seconds, 30)
+  assert.equal(detail.medianSeconds, 30)
+})
+
+test('topics that lost marks are listed, worst first', () => {
+  const detail = sessionDetail([
+    attempt({ sessionId: 's1', itemId: 'q1', topic: 'Valves', correct: false }),
+    attempt({ sessionId: 's1', itemId: 'q2', topic: 'Conduction', correct: false }),
+    attempt({ sessionId: 's1', itemId: 'q3', topic: 'Conduction', correct: false }),
+    attempt({ sessionId: 's1', itemId: 'q4', topic: 'Cardiac output', correct: true }),
+  ], 's1')
+  assert.deepEqual(detail.missed.map((topic) => topic.key), ['Conduction', 'Valves'])
+  // A topic answered correctly is not a place marks were lost.
+  assert.equal(detail.missed.some((topic) => topic.key === 'Cardiac output'), false)
+})
+
+test('one wrong answer is a wrong answer, not a weak topic', () => {
+  const detail = sessionDetail([
+    attempt({ sessionId: 's1', itemId: 'q1', topic: 'Valves', correct: false }),
+    attempt({ sessionId: 's1', itemId: 'q2', topic: 'Conduction', correct: true }),
+  ], 's1')
+  assert.equal(detail.weakestTopic, null)
+  // It is still reported as a mark lost, which is the honest reading of it.
+  assert.deepEqual(detail.missed.map((topic) => topic.key), ['Valves'])
+})
+
+test('a topic missed twice in one sitting is called weak', () => {
+  const detail = sessionDetail([
+    attempt({ sessionId: 's1', itemId: 'q1', topic: 'Conduction', correct: false }),
+    attempt({ sessionId: 's1', itemId: 'q2', topic: 'Conduction', correct: false }),
+    attempt({ sessionId: 's1', itemId: 'q3', topic: 'Valves', correct: true }),
+    attempt({ sessionId: 's1', itemId: 'q4', topic: 'Valves', correct: true }),
+  ], 's1')
+  assert.equal(detail.weakestTopic?.key, 'Conduction')
+  assert.equal(detail.weakestTopic?.accuracy, 0)
 })

@@ -220,8 +220,8 @@ export function UsersManagement() {
                 <Th className="pl-4">User</Th>
                 <Th>University · Year</Th>
                 <Th>Subscription</Th>
-                <Th align="right">Answered</Th>
-                <Th align="right">Accuracy</Th>
+                <Th align="end">Answered</Th>
+                <Th align="end">Accuracy</Th>
                 <Th>Access</Th>
               </tr>
             </thead>
@@ -241,8 +241,8 @@ export function UsersManagement() {
                     </Td>
                     <Td className="whitespace-nowrap text-[12.5px] text-ink-2">{uni?.short ?? '—'}{u.year ? ` · ${u.year}` : ''}</Td>
                     <Td><Badge tone={entitlementTone(u.entitlement.state)}>{entitlementLabel(u.entitlement)}</Badge></Td>
-                    <Td align="right" className="tnum font-mono text-ink-2">{u.performance.questionsAnswered.toLocaleString()}</Td>
-                    <Td align="right" className="tnum font-mono text-ink-2">{Math.round(u.performance.accuracy)}%</Td>
+                    <Td align="end" className="tnum font-mono text-ink-2">{u.performance.questionsAnswered.toLocaleString()}</Td>
+                    <Td align="end" className="tnum font-mono text-ink-2">{Math.round(u.performance.accuracy)}%</Td>
                     <Td>
                       {!u.identity
                         ? <Badge tone="neutral">Never signed in</Badge>

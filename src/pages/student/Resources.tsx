@@ -9,7 +9,6 @@ import {
   PlayCircle,
   Bookmark,
   BookmarkCheck,
-  ExternalLink,
   FileText,
   Clapperboard,
   FolderTree,
@@ -40,7 +39,6 @@ import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SubjectDot } from '@/components/ui/Subject'
-import { Button } from '@/components/ui/Button'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
 import { BackBar } from '@/components/ui/BackBar'
@@ -82,7 +80,8 @@ export function Resources() {
   const [year, setYear] = useState('all')
   const [savedOnly, setSavedOnly] = useState(false)
   const [filtersOpen, setFiltersOpen] = useLocalPreference('synapse.resources.filters', true)
-  const [opened, setOpened] = useState<LiveResource | null>(null)
+  /** The row whose "no file uploaded" reference is currently expanded. */
+  const [referenceOnlyId, setReferenceOnlyId] = useState<string | null>(null)
   const activeFilters = [query.trim() !== '', type !== 'all', subject !== 'all', uni !== 'all', year !== 'all', savedOnly]
     .filter(Boolean).length
   const clearFilters = () => {
@@ -201,22 +200,28 @@ export function Resources() {
   }
 
   /**
-   * Open a resource's source file at the place it records.
+   * Open a source, from a tap on the row itself.
    *
-   * The button used to close the dialog and set a local "Opened" flag, and the
-   * dialog said so in copy shown to students. Where an admin has uploaded the
-   * file, this now opens it — at the page or timestamp recorded on the item.
-   */
-  /**
-   * Open a source in the app's own reader.
+   * Tapping a resource used to raise a dialog that named the resource again and
+   * offered one button — "Open exact location" — so every open cost two taps
+   * and a modal to say what the row had already said. The row opens the thing.
    *
-   * A video still leaves for its host, since there is nothing to render here.
+   * A video leaves for its host, since there is nothing to render here.
    * Everything else goes to /app/resources/:id, which keeps the student inside
    * the app and can be linked at an exact page.
+   *
+   * A resource whose file has not been uploaded cannot be opened at all. That
+   * is the one case the dialog was carrying that the row was not, so the row
+   * carries it now: the reference is shown in place, where it is useful, rather
+   * than behind a tap that leads to a dead end.
    */
   function openResource(resource: LiveResource) {
-    setLastOpenedId(resource.id)
     setOpenError(null)
+    if (!resource.hasFile) {
+      setReferenceOnlyId((current) => current === resource.id ? null : resource.id)
+      return
+    }
+    setLastOpenedId(resource.id)
     if (resource.type === 'Video') {
       noteOpened({ id: resource.id, title: resource.title, type: resource.type, subjectId: resource.subjectId, meta: resource.meta })
       void apiOpenFile(`/medical-resources/${encodeURIComponent(resource.id)}`).catch(() => {
@@ -225,7 +230,6 @@ export function Resources() {
       return
     }
     // The reader records the open itself, once the document is actually up.
-    setOpened(null)
     navigate(`/app/resources/${encodeURIComponent(resource.id)}${pageParamFor(resource.meta)}`)
   }
 
@@ -388,8 +392,8 @@ export function Resources() {
                                 return (
                                   <div
                                     key={r.id}
-                                    aria-label={`${t('Open resource')}: ${r.title}`}
-                                    {...clickableRow(() => setOpened(r), 'group flex flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel hover:border-primary-line')}
+                                    aria-label={r.hasFile ? `${t('Play video')}: ${r.title}` : `${t('Where to find it')}: ${r.title}`}
+                                    {...clickableRow(() => openResource(r), 'group flex flex-col overflow-hidden rounded-xl border border-line bg-surface shadow-panel hover:border-primary-line')}
                                   >
                                     {/* The thumbnail was the only part that opened
                                         anything; the title beside it was inert. */}
@@ -400,7 +404,16 @@ export function Resources() {
                                     <div className="flex flex-1 items-start gap-2 p-3">
                                       <div className="min-w-0 flex-1">
                                         <p className="line-clamp-2 text-[13px] font-medium leading-snug text-ink">{r.title}</p>
-                                        <p className="mt-1 flex items-center gap-1.5 text-[11.5px] text-ink-3">{r.source} · {r.year}{r.recommended && <Badge tone="primary">{t('Recommended')}</Badge>}</p>
+                                        <p className="mt-1 flex flex-wrap items-center gap-1.5 text-[11.5px] text-ink-3">
+                                          {r.source} · {r.year}
+                                          {r.recommended && <Badge tone="primary">{t('Recommended')}</Badge>}
+                                          {!r.hasFile && <span className="italic">· {t('reference only')}</span>}
+                                        </p>
+                                        {referenceOnlyId === r.id && (
+                                          <p className="mt-1.5 text-[11.5px] leading-relaxed text-ink-2">
+                                            {t('Not uploaded yet.')} <span className="font-medium text-ink">{r.meta || t('Not recorded')}</span>
+                                          </p>
+                                        )}
                                       </div>
                                       <span {...stopRowClick} className="contents">
                                         <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-primary' : ''} />
@@ -418,8 +431,8 @@ export function Resources() {
                                 return (
                                   <li
                                     key={r.id}
-                                    aria-label={`${t('Open resource')}: ${r.title}`}
-                                    {...clickableRow(() => setOpened(r), 'group flex items-center gap-3 px-4 py-2.5 ps-8 hover:bg-inset/60')}
+                                    aria-label={r.hasFile ? `${t('Open resource')}: ${r.title}` : `${t('Where to find it')}: ${r.title}`}
+                                    {...clickableRow(() => openResource(r), 'group flex flex-wrap items-center gap-3 px-4 py-2.5 ps-8 hover:bg-inset/60')}
                                   >
                                     <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={resourceIcon(r.icon, r.type)} size={16} /></span>
                                     <div className="min-w-0 flex-1">
@@ -435,6 +448,12 @@ export function Resources() {
                                         {groupBy === 'module' && <><span className="inline-flex items-center gap-1.5"><SubjectDot id={subj.id} />{subj.name}</span><span>·</span></>}
                                         <span>{r.source}</span><span>·</span><span>{r.meta}</span>
                                         <span className="hidden sm:inline">·</span><span className="tnum hidden sm:inline">{r.year}</span>
+                                        {/* Marked before the tap rather than after
+                                            it, so a row that cannot open does not
+                                            look like one that can — but quietly,
+                                            because on a catalogue still being
+                                            uploaded this is most of them. */}
+                                        {!r.hasFile && <><span aria-hidden>·</span><span className="italic">{t('reference only')}</span></>}
                                       </div>
                                     </div>
                                     {/* Only the scope an author recorded. An
@@ -454,6 +473,15 @@ export function Resources() {
                                       <IconButton icon={isSaved ? BookmarkCheck : Bookmark} label={isSaved ? t('Saved') : t('Save')} size="sm" onClick={() => toggleSaved(r.id)} className={isSaved ? 'text-primary' : ''} />
                                     </span>
                                     <Icon icon={ChevronRight} size={16} className="shrink-0 text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
+                                    {referenceOnlyId === r.id && (
+                                      <p className="basis-full ps-12 text-[12px] leading-relaxed text-ink-2">
+                                        {t('No source file has been uploaded for this one yet, so it cannot be opened here.')}
+                                        {' '}
+                                        <span className="font-medium text-ink">{r.meta || t('Not recorded')}</span>
+                                        {' — '}
+                                        {t('that is where to find it.')}
+                                      </p>
+                                    )}
                                   </li>
                                 )
                               })}
@@ -470,35 +498,12 @@ export function Resources() {
         </div>
       )}
 
-      {opened && (
-        <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label={`${t('Open resource')}: ${opened.title}`} onMouseDown={() => setOpened(null)}>
-          <Panel className="max-h-[calc(100dvh-env(safe-area-inset-top))] w-full max-w-lg overflow-y-auto overscroll-contain rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:rounded-xl sm:pb-0" onMouseDown={(event) => event.stopPropagation()}>
-            <div className="flex items-start gap-3 border-b border-line p-4"><span className="grid size-10 shrink-0 place-items-center rounded-md bg-surface-2 text-ink-2"><Icon icon={resourceIcon(opened.icon, opened.type)} size={18} /></span><div className="min-w-0 flex-1"><h2 className="font-serif text-[18px] font-semibold text-ink">{opened.title}</h2><p className="mt-0.5 text-[12px] text-ink-3">{opened.source} · {opened.year}</p></div><IconButton icon={X} label={t('Close')} size="sm" onClick={() => setOpened(null)} /></div>
-            <div className="p-5">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{opened.type === 'Video' ? t('Plays at') : t('Opens at')}</p>
-              <p className="mt-2 text-[15px] font-medium text-ink">{opened.meta || t('Not recorded')}</p>
-              {!opened.hasFile && (
-                <p className="mt-2 text-[13px] leading-relaxed text-ink-2">
-                  {t('No source file has been uploaded for this resource yet, so it cannot be opened here. The reference above is where to find it.')}
-                </p>
-              )}
-              {openError && <p role="alert" className="mt-2 text-[13px] text-danger">{openError}</p>}
-              <div className="mt-5 flex flex-wrap gap-2">
-                <Button
-                  variant="primary"
-                  iconLeft={opened.type === 'Video' ? PlayCircle : ExternalLink}
-                  disabled={!opened.hasFile}
-                  onClick={() => void openResource(opened)}
-                >
-                  {opened.hasFile
-                    ? (opened.type === 'Video' ? t('Play video') : t('Open exact location'))
-                    : t('Source file not uploaded yet')}
-                </Button>
-                <Button variant="secondary" iconLeft={saved.has(opened.id) ? BookmarkCheck : Bookmark} onClick={() => toggleSaved(opened.id)}>{saved.has(opened.id) ? t('Saved') : t('Save resource')}</Button>
-              </div>
-            </div>
-          </Panel>
-        </div>
+      {/* A failed open is the one thing that has to interrupt, because the row
+          the student tapped looks unchanged otherwise. */}
+      {openError && (
+        <p role="alert" className="fixed inset-x-4 bottom-4 z-50 mx-auto max-w-md rounded-lg border border-danger/30 bg-surface px-4 py-3 text-[13px] text-danger shadow-pop">
+          {openError}
+        </p>
       )}
     </PageContainer>
   )

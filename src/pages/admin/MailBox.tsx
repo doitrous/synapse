@@ -105,7 +105,7 @@ export function MailBox() {
         <div className="space-y-4">
           <Panel className="p-2">
             {([['all', 'All mail', Mail], ['inbox', 'Inbox', Inbox], ['outbox', 'Outbox', Send]] as const).map(([val, label, icon]) => (
-              <button key={val} type="button" onClick={() => setFolder(val)} className={cn('flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-left text-[13.5px] font-medium', folder === val ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset')}>
+              <button key={val} type="button" onClick={() => setFolder(val)} className={cn('flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-start text-[13.5px] font-medium', folder === val ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset')}>
                 <Icon icon={icon} size={16} />{label}
               </button>
             ))}
@@ -130,7 +130,7 @@ export function MailBox() {
                 <ul className="divide-y divide-line">
                   {rows.map((m) => (
                     <li key={m.id}>
-                      <button type="button" onClick={() => void openMessage(m.id)} className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-inset/60">
+                      <button type="button" onClick={() => void openMessage(m.id)} className="flex w-full items-center gap-3 px-4 py-3 text-start transition-colors hover:bg-inset/60">
                         <Icon icon={m.direction === 'inbound' ? Inbox : Send} size={15} className="shrink-0 text-ink-3" />
                         <div className="min-w-0 flex-1">
                           <div className="flex items-center gap-2">
@@ -168,10 +168,10 @@ function MailboxPanel({ box, mailboxes, onSelect, onCreated, onError }: { box: s
     <Panel className="overflow-hidden">
       <PanelHeader title="Addresses" icon={AtSign} action={<IconButton icon={Plus} label="New address" size="sm" onClick={() => setAdding((v) => !v)} />} />
       <div className="p-2">
-        <button type="button" onClick={() => onSelect('')} className={cn('flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-left text-[12.5px]', box === '' ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>All addresses</button>
-        <button type="button" onClick={() => onSelect(DEFAULT_FROM)} className={cn('flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-left text-[12.5px]', box === DEFAULT_FROM ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>{DEFAULT_FROM}</button>
+        <button type="button" onClick={() => onSelect('')} className={cn('flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-start text-[12.5px]', box === '' ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>All addresses</button>
+        <button type="button" onClick={() => onSelect(DEFAULT_FROM)} className={cn('flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-start text-[12.5px]', box === DEFAULT_FROM ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>{DEFAULT_FROM}</button>
         {mailboxes.filter((m) => m.address !== DEFAULT_FROM).map((m) => (
-          <button key={m.address} type="button" onClick={() => onSelect(m.address)} className={cn('flex w-full items-center gap-2 truncate rounded-md px-2.5 py-1.5 text-left text-[12.5px]', box === m.address ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>{m.address}</button>
+          <button key={m.address} type="button" onClick={() => onSelect(m.address)} className={cn('flex w-full items-center gap-2 truncate rounded-md px-2.5 py-1.5 text-start text-[12.5px]', box === m.address ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset')}>{m.address}</button>
         ))}
         {adding && (
           <form className="mt-2 flex items-center gap-1.5 border-t border-line pt-2" onSubmit={(e) => { e.preventDefault(); void create() }}>
