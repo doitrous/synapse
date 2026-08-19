@@ -89,7 +89,11 @@ function fingerprint(file: File, kind: ContentKind) {
 
 export function BulkImportPage() {
   const params = useParams()
-  const kind: ContentKind = ['question', 'article', 'practical', 'resource'].includes(params.kind ?? '') ? params.kind as ContentKind : 'question'
+  // Read from the schema map rather than a list written out here. That list was
+  // missing 'histology', so /admin/import/histology quietly fell back to
+  // questions and would have imported slides as questions — a wrong label was
+  // the least of it. Deriving it means a new kind cannot forget this line.
+  const kind: ContentKind = Object.hasOwn(IMPORT_SCHEMAS, params.kind ?? '') ? params.kind as ContentKind : 'question'
   const schema = IMPORT_SCHEMAS[kind]
   const inputRef = useRef<HTMLInputElement>(null)
   const [step, setStep] = useState(0)
