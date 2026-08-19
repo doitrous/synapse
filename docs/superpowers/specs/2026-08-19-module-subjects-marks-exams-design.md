@@ -412,8 +412,12 @@ Named here so they are not silently assumed.
 - **Explicit year or module weight overrides.** Weight is mark share, always.
 - **Marks anywhere but a module subject.** A module has no unattributed marks.
 - **Import or export of mark schemes.** Entry is manual through the dialog.
-- **The voucher rules themselves** — trial vouchers and eligibility gated on a
-  live university and year. This spec only adds the `active` flag they read.
+- **The voucher rules themselves** were specified as a separate piece and have
+  since been built on top of the `active` flag this spec adds: a voucher can
+  grant a full-access trial (three days by default) instead of a discount, and
+  `voucherEligibility` now takes the catalogue and refuses a code while the
+  student's university or year is switched off. `isYearLive` lives in
+  `src/data/universities.ts`; `src/data/vouchers.test.ts` covers both rules.
 - **The other sub-projects** identified during brainstorming: student onboarding
   and plans/pricing, resource storage limits and offline downloads, and an Android
   app. Each needs its own spec.
