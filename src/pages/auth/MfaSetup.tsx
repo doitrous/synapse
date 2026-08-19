@@ -100,8 +100,11 @@ export function MfaSetup() {
     navigate(next)
   }
 
+  // No progress rail: this is not a step in signing up. Drawing one here was
+  // what made an optional lock look like the last thing standing between a
+  // student and the app.
   return (
-    <AuthLayout step="protect" completedSteps={emailVerified ? ['account', 'verify'] : []} title="Add a second factor" description="An authenticator app is an optional extra lock on your account. You can turn it on now, later from your account page, or not at all." compact>
+    <AuthLayout step="verify" showProgress={false} title="Add a second factor" description="An authenticator app is an optional extra lock on your account. You can turn it on now, later from your account page, or not at all." compact>
       <div className="grid gap-6 lg:grid-cols-[11rem_minmax(0,1fr)]">
         <div className="space-y-3 border-b border-line pb-5 lg:border-b-0 lg:border-e lg:pb-0 lg:pe-5">
           {([['Sign in', emailVerified, true], ['Email verified', emailVerified, true], ['Second factor', false, false]] as const).map(([label, complete, required]) => <div key={label} className="flex items-center gap-2.5"><span className={complete ? 'grid size-7 place-items-center rounded-full bg-success-tint text-success' : 'grid size-7 place-items-center rounded-full bg-inset text-ink-2'}><Icon icon={complete ? CheckCircle2 : ShieldCheck} size={14} /></span><span className="text-[12.5px] font-semibold text-ink">{label}{!complete && required ? ' required' : ''}{!required ? ' · optional' : ''}</span></div>)}

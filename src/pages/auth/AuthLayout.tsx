@@ -5,12 +5,23 @@ import { Wordmark } from '@/components/brand/Wordmark'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 
-export type AuthStep = 'account' | 'verify' | 'protect'
+export type AuthStep = 'account' | 'verify' | 'setup'
 
+/**
+ * The three things a new student actually has to do.
+ *
+ * The last of these used to be "Protect account", which put an optional second
+ * factor on the required path: a student who had just verified their address
+ * was shown a numbered step telling them one more thing stood between them and
+ * the app, and the screen it led to asked for an authenticator. Adding one is
+ * worth offering and is not a step in signing up. What genuinely comes next is
+ * choosing a university, a year and a plan, so that is what the rail says, and
+ * the authenticator screen no longer draws a rail at all.
+ */
 const steps: Array<{ id: AuthStep; label: string }> = [
   { id: 'account', label: 'Account' },
   { id: 'verify', label: 'Verify email' },
-  { id: 'protect', label: 'Protect account' },
+  { id: 'setup', label: 'Set up your studies' },
 ]
 
 export function AuthLayout({
