@@ -158,6 +158,26 @@ export function programmeTotal(university: University, store: ModuleSubjectStore
   return programmeYears(university).reduce((sum, year) => sum + yearTotal(university, year, store), 0)
 }
 
+/**
+ * A module's share of the degree, or null when it has none.
+ *
+ * Internship years sit outside the programme and are excluded from its total,
+ * so a module in one has no share of the degree — not a small one. Both the
+ * Marks & Exams dialog and the Marks & Weights report used to divide by the
+ * programme total themselves, and that duplication is exactly how they came to
+ * disagree: the report excluded an internship module while the dialog told the
+ * reader it was worth 40% of the degree.
+ */
+export function programmeShareOf(
+  university: University,
+  year: Pick<UniYear, 'id'>,
+  marks: number,
+  store: ModuleSubjectStore,
+): number | null {
+  if (isInternshipYear(year)) return null
+  return share(marks, programmeTotal(university, store))
+}
+
 export interface MarkGap { year: UniYear; course: CurriculumCourse }
 
 /**

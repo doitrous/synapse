@@ -4,8 +4,8 @@ import type { UniYear, University } from '@/data/universities'
 import type { CurriculumCourse } from '@/data/universities'
 import { curriculumCount } from '@/data/courseCurriculum'
 import {
-  DEFAULT_TERM, EXAM_BUCKETS, EXAM_KINDS, EXAM_SITTINGS, bucketTotals, formatShare, moduleKey,
-  moduleTotal, newModuleSubject, normaliseMark, programmeTotal, share, subjectTotal, termTotal, yearTotal,
+  DEFAULT_TERM, EXAM_BUCKETS, EXAM_KINDS, EXAM_SITTINGS, bucketTotals, formatShare, isInternshipYear,
+  moduleKey, moduleTotal, newModuleSubject, normaliseMark, programmeShareOf, share, subjectTotal, termTotal, yearTotal,
   type ExamMarks, type ModuleSubject, type ModuleSubjectStore,
 } from '@/data/moduleSubjects'
 import { Dialog } from '@/components/ui/Dialog'
@@ -155,6 +155,7 @@ export function ModuleSubjectsDialog({ university, year, course, store, onClose,
 
   // The rollups read a catalogue in which this module already carries the draft,
   // so the strip below answers "if I save this" rather than "as it was saved".
+  const outsideProgramme = isInternshipYear(year)
   const context = useMemo(() => {
     const projected: ModuleSubjectStore = { ...store, [key]: draft }
     const term = course.term || DEFAULT_TERM
@@ -162,9 +163,9 @@ export function ModuleSubjectsDialog({ university, year, course, store, onClose,
       term,
       termShare: share(total, termTotal(university, year, term, projected)),
       yearShare: share(total, yearTotal(university, year, projected)),
-      programmeShare: share(total, programmeTotal(university, projected)),
+      programmeShare: programmeShareOf(university, year, total, projected),
     }
-  }, [course.term, draft, key, store, total, university, year])
+  }, [course.term, draft, key, outsideProgramme, store, total, university, year])
 
   const patch = (index: number, next: ModuleSubject) =>
     setDraft((current) => current.map((entry, i) => (i === index ? next : entry)))
@@ -249,13 +250,19 @@ export function ModuleSubjectsDialog({ university, year, course, store, onClose,
 
           <dl className="grid gap-2 sm:grid-cols-3">
             {[
-              { label: `of ${context.term}`, value: context.termShare },
-              { label: `of ${year.year}`, value: context.yearShare },
-              { label: 'of the programme', value: context.programmeShare },
+              { label: `of ${context.term}`, value: context.termShare, note: undefined as string | undefined },
+              { label: `of ${year.year}`, value: context.yearShare, note: undefined as string | undefined },
+              {
+                label: 'of the programme',
+                value: context.programmeShare,
+                note: outsideProgramme ? 'Internship sits outside the degree' : undefined,
+              },
             ].map((entry) => (
               <div key={entry.label} className="rounded-lg border border-line bg-surface px-3 py-2">
                 <dt className="text-[11.5px] text-ink-3">This module {entry.label}</dt>
-                <dd className="tnum mt-0.5 font-mono text-[15px] font-semibold text-ink">{formatShare(entry.value)}</dd>
+                <dd className="tnum mt-0.5 font-mono text-[15px] font-semibold text-ink">
+                  {entry.note ? <span className="font-sans text-[12px] font-normal text-ink-3">{entry.note}</span> : formatShare(entry.value)}
+                </dd>
               </div>
             ))}
           </dl>

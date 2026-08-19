@@ -13,7 +13,7 @@ import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { defaultModuleId, type UniYear, type University } from '@/data/universities'
 import {
   EXAM_BUCKETS, MODULE_SUBJECTS_STORAGE_KEY, bucketTotals, formatShare, isInternshipYear,
-  moduleKey, moduleTotal, modulesWithoutMarks, programmeTotal, share, subjectTotal, termCourses, termsOf,
+  moduleKey, moduleTotal, modulesWithoutMarks, programmeShareOf, programmeTotal, share, subjectTotal, termCourses, termsOf,
   yearTotal, type ModuleSubjectStore,
 } from '@/data/moduleSubjects'
 
@@ -92,7 +92,7 @@ function YearSection({ university, year, store, programme }: {
                     <td className="px-3 py-1.5 text-end text-[12px] text-ink-3">—</td>
                     <td className="px-3 py-1.5 text-end text-[12px] text-ink-3">—</td>
                     <Share value={share(termMarks, total)} />
-                    <Share value={internship ? null : share(termMarks, programme)} />
+                    <Share value={programmeShareOf(university, year, termMarks, store)} />
                   </tr>
 
                   {courses.map((course) => {
@@ -124,7 +124,7 @@ function YearSection({ university, year, store, programme }: {
                           <td className="px-3 py-2 text-end text-[12px] text-ink-3">—</td>
                           <Share value={share(marks, termMarks)} />
                           <Share value={share(marks, total)} />
-                          <Share value={internship ? null : share(marks, programme)} />
+                          <Share value={programmeShareOf(university, year, marks, store)} />
                         </tr>
 
                         {open && subjects.map((subject) => {
@@ -136,7 +136,7 @@ function YearSection({ university, year, store, programme }: {
                               <Share value={share(own, marks)} />
                               <Share value={share(own, termMarks)} />
                               <Share value={share(own, total)} />
-                              <Share value={internship ? null : share(own, programme)} />
+                              <Share value={programmeShareOf(university, year, own, store)} />
                             </tr>
                           )
                         })}

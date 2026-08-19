@@ -526,17 +526,20 @@ export function AcademicSetup() {
                         const scheduleCount = schedules[key]?.length ?? 0
                         const fallbackModuleId = c.moduleId ?? defaultModuleId(c.name, y.courses.indexOf(c) + 1)
                         return (
-                          <li key={c.id} className="group flex min-w-0 flex-wrap items-center gap-2.5 px-4 py-3 sm:flex-nowrap">
+                          <li key={c.id} className="group flex min-w-0 flex-wrap items-center gap-x-2.5 gap-y-2 px-4 py-3 2xl:flex-nowrap">
                             <SystemMark moduleId={fallbackModuleId} />
-                            <div className="min-w-0 basis-full sm:flex-1">
+                            {/* The name owns a line of its own until the row is genuinely
+                                wide enough for it and three labelled actions. Sharing one
+                                line earlier is what truncated every module to "Car…". */}
+                            <div className="min-w-0 flex-1 basis-[calc(100%-4rem)] 2xl:basis-auto">
                               <span className="block truncate text-[13.5px] font-medium text-ink">{c.name}</span>
                               <span className="mt-0.5 block truncate text-[11px] text-ink-3">{c.block} · {c.term || DEFAULT_TERM}</span>
                             </div>
                             <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={SlidersHorizontal} onClick={() => setCurriculumEditor(target)}>Curriculum{chosen > 0 ? ` · ${chosen}` : ''}</Button>
                             <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={Scale} onClick={() => setMarksEditor(target)}>Marks &amp; exams{marks > 0 ? ` · ${marks}` : ''}</Button>
                             <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={CalendarDays} onClick={() => setScheduleEditor(target)}>Schedule{scheduleCount > 0 ? ` · ${scheduleCount}` : ''}</Button>
-                            <button onClick={() => setModuleEditor(target)} className="grid size-10 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label={`Edit ${c.name}`}><Icon icon={Pencil} size={15} /></button>
-                            <button onClick={() => removeCourse(i, c.id)} className="grid size-11 place-items-center rounded-lg text-ink-3 transition-opacity hover:bg-danger-tint hover:text-danger sm:size-10 sm:opacity-0 sm:focus:opacity-100 sm:group-hover:opacity-100" aria-label={`Remove ${c.name}`}><Icon icon={Trash2} size={15} /></button>
+                            <button onClick={() => setModuleEditor(target)} className="grid size-10 shrink-0 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label={`Edit ${c.name}`}><Icon icon={Pencil} size={15} /></button>
+                            <button onClick={() => removeCourse(i, c.id)} className="grid size-11 shrink-0 place-items-center rounded-lg text-ink-3 transition-opacity hover:bg-danger-tint hover:text-danger sm:size-10 sm:opacity-0 sm:focus:opacity-100 sm:group-hover:opacity-100" aria-label={`Remove ${c.name}`}><Icon icon={Trash2} size={15} /></button>
                           </li>
                         )
                       })}

@@ -2,7 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
   EXAM_BUCKETS, bucketTotals, emptyExamMarks, isInternshipYear, moduleTotal, modulesWithoutMarks,
-  newModuleSubject, programmeTotal, share, subjectTotal, termTotal, yearTotal,
+  newModuleSubject, programmeShareOf, programmeTotal, share, subjectTotal, termTotal, yearTotal,
   type ModuleSubject, type ModuleSubjectStore,
 } from './moduleSubjects.ts'
 import type { University } from './universities.ts'
@@ -108,4 +108,15 @@ test('a set of subjects splits across the four buckets', () => {
   assert.deepEqual(bucketTotals(store['u:U_Y1:c1']), {
     writtenEndOfModule: 50, writtenEndOfYear: 30, practicalEndOfModule: 15, practicalEndOfYear: 5,
   })
+})
+
+test('a module in an internship year has no share of the degree, rather than a small one', () => {
+  const { uni, store } = fixture()
+  const internship = uni.years[2]
+  assert.equal(programmeShareOf(uni, internship, 40, store), null)
+})
+
+test('a module in a programme year has its share of the degree', () => {
+  const { uni, store } = fixture()
+  assert.equal(programmeShareOf(uni, uni.years[1], 100, store), 40)
 })
