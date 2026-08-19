@@ -33,6 +33,7 @@ import {
   Network,
   Compass,
   Scale,
+  Bot,
 } from 'lucide-react'
 
 export type Portal = 'student' | 'admin'
@@ -120,6 +121,7 @@ export const adminNav: NavGroup[] = [
       { label: 'Students', to: '/admin/students', icon: Users },
       { label: 'Payments & Finance', to: '/admin/payments', icon: Banknote },
       { label: 'Vouchers', to: '/admin/vouchers', icon: TicketPercent },
+      { label: 'AI Assistant', to: '/admin/assistant', icon: Bot },
     ],
   },
   {

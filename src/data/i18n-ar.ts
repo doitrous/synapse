@@ -736,4 +736,21 @@ export const AR: Record<string, string> = {
   // administrator have no entry here and render exactly as written.
   'Initial published configuration. All weights, thresholds and intervals are launch hypotheses awaiting local held-out calibration.':
     'الإعداد المنشور الأول. كل الأوزان والعتبات والفواصل الزمنية فرضيات إطلاق تنتظر معايرة محلية على أسئلة محجوزة.',
+  // ---- Study assistant ------------------------------------------------------
+  'Study assistant': 'مساعد المذاكرة',
+  'Ask a question': 'اسأل سؤالًا',
+  'Send': 'إرسال',
+  'Start over': 'ابدأ من جديد',
+  'Thinking…': 'يفكّر…',
+  'left today': 'متبقٍ اليوم',
+  'No messages left today': 'لا رسائل متبقية اليوم',
+  'Ask about anything you are studying, or about how Synapse works.': 'اسأل عن أي شيء تذاكره، أو عن طريقة عمل Synapse.',
+  'What should I study today?': 'ماذا أذاكر اليوم؟',
+  'Explain preload and afterload': 'اشرح الحمل القبلي والحمل البعدي',
+  'Where is heart failure covered?': 'أين يُغطّى قصور القلب؟',
+  'You have used all your assistant messages for today. They reset at midnight.': 'استهلكت كل رسائل المساعد لليوم. تتجدّد عند منتصف الليل.',
+  'The assistant is not included on your plan.': 'المساعد غير متضمَّن في خطتك.',
+  'The assistant is unavailable right now.': 'المساعد غير متاح في الوقت الحالي.',
+  'That did not go through. Your message is back in the box — try again.': 'لم تمرّ الرسالة. أعدناها إلى الصندوق — حاول مرة أخرى.',
+  'A study tool, not clinical guidance. Never use it for a decision about a patient.': 'أداة مذاكرة، وليست إرشادًا سريريًا. لا تستخدمها أبدًا في قرار يخص مريضًا.',
 }
