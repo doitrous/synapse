@@ -161,14 +161,73 @@ final class StudyRoomModel {
             items.compactMap(QuestionProjection.project).map { ($0.id, $0) },
             uniquingKeysWith: { first, _ in first }
         )
+        let wasOn = current?.id
         questions = room.questionIds.compactMap { byId[$0] }
 
         // Resume where they left off rather than at the top.
         let answered = room.answeredIds
         index = questions.firstIndex { !answered.contains($0.id) } ?? max(0, questions.count - 1)
-        chosenIndex = nil
-        questionStartedAt = Date()
+
+        // Only when the question underneath actually changed.
+        //
+        // This runs on every poll, and clearing the selection unconditionally
+        // made a room impossible to hand in: answer the last question, wait
+        // for one poll, and the choice — along with the button that submits
+        // it — silently disappeared. Resetting the clock each time was the
+        // quieter half of the same bug, recording the poll interval as the
+        // time spent on every question.
+        if current?.id != wasOn {
+            chosenIndex = nil
+            questionStartedAt = Date()
+        }
     }
+
+    // MARK: - The paper, afterwards
+
+    /// One answered question, ready to be read back.
+    struct Reviewed: Identifiable, Sendable {
+        let question: Question
+        let answer: StudyRoom.Answer
+
+        var id: String { question.id }
+        /// Which option was the right one, read from the published question.
+        var correctIndex: Int? {
+            question.options.firstIndex { $0.label == question.correctLabel }
+        }
+
+        /// Whether the student actually chose something.
+        ///
+        /// Handing in leaves anything untouched recorded as not correct, with
+        /// no option behind it. That is a different thing from choosing badly,
+        /// and saying "you got this wrong" about a question nobody answered
+        /// tells a student they made a mistake they did not make.
+        var wasAnswered: Bool { question.options.indices.contains(answer.chosenIndex) }
+    }
+
+    /// The sitting, in the order it was set.
+    ///
+    /// The verdict comes from the server's record of what the student answered.
+    /// Only *which* option is the right one is read from the published question
+    /// — the same split the question bank's own review uses, so a question
+    /// edited since the sitting cannot retrospectively change whether an answer
+    /// was marked right.
+    var reviewed: [Reviewed] {
+        guard let room else { return [] }
+        let byID = Dictionary(questions.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
+        return room.questionIds.compactMap { id in
+            guard let question = byID[id],
+                  let answer = room.myAnswers.first(where: { $0.questionId == id })
+            else { return nil }
+            return Reviewed(question: question, answer: answer)
+        }
+    }
+
+    /// Whether there is anything left to look at.
+    ///
+    /// A question withdrawn since the sitting cannot be reopened, so offering
+    /// the button and then showing an empty screen would be worse than not
+    /// offering it.
+    var canReview: Bool { !reviewed.isEmpty }
 
     // MARK: - Sitting it
 
