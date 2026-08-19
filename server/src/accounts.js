@@ -625,18 +625,32 @@ export async function saveOwnEnrolment(userId, input) {
       if (!held.length) storedPhone = phone
     }
 
+    /**
+     * A roster row created from an identity alone has no name to put in it, so
+     * `ensureStudentRow` fills the column with the email address. That is a
+     * placeholder, not a name — and `COALESCE(name, ?)` treated it as one, so
+     * the real name carried from sign-up was discarded and every student was
+     * greeted by their own email address.
+     *
+     * A stored name that is anything other than the email was put there
+     * deliberately, by an administrator, and is never overwritten from here.
+     */
+    const [[stored]] = await conn.query('SELECT name, email FROM students WHERE id = ?', [student.id])
+    const placeholder = !stored?.name || stored.name === stored.email
+    const finalName = placeholder ? (name ?? stored?.name ?? null) : stored.name
+
     await conn.query(
       `UPDATE students
           SET university_id = ?,
               year = ?,
               study_group = ?,
-              name = COALESCE(name, ?),
+              name = ?,
               nationality = COALESCE(nationality, ?),
               phone = COALESCE(phone, ?),
               status = COALESCE(status, 'Active'),
               joined = COALESCE(joined, CURDATE())
         WHERE id = ?`,
-      [universityId, year, group, name, nationality, storedPhone, student.id],
+      [universityId, year, group, finalName, nationality, storedPhone, student.id],
     )
 
     // The trial is granted once, by the server, so it starts when the account

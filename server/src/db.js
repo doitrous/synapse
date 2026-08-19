@@ -162,6 +162,27 @@ export async function migrate() {
         throw error
       }
     }
+
+    // A roster row created from an identity alone has no name, so it was filled
+    // with the email address. That placeholder then looked like a real name to
+    // everything downstream, and the app greeted people by their own email.
+    //
+    // Clearing it is a repair rather than a loss: with the column empty the app
+    // falls back to the name given at sign-up, which is the real one. A name
+    // that differs from the email was put there deliberately and is untouched.
+    const placeholderNameId = '2026-08-19-clear-placeholder-student-names'
+    const [placeholderApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [placeholderNameId])
+    if (!placeholderApplied.length) {
+      await conn.beginTransaction()
+      try {
+        await conn.query('UPDATE students SET name = NULL WHERE name IS NOT NULL AND name = email')
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [placeholderNameId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
   } finally {
     conn.release()
   }
