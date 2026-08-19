@@ -13,7 +13,7 @@
 
 import { useCallback, useMemo, useState } from 'react'
 import {
-  CheckCircle2, ChevronLeft, ChevronRight, CircleHelp, Flag, PlayCircle, Sparkles, Timer,
+  CheckCircle2, ChevronLeft, ChevronRight, CircleHelp, PlayCircle, Sparkles, Timer,
 } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -23,6 +23,7 @@ import { Segmented } from '@/components/ui/Tabs'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Field, Select } from '@/components/ui/Field'
 import { QuestionView } from '@/components/qbank/QuestionView'
+import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
 import { Caveat, ShareRow, SubHeading, percent } from './parts'
 import { ALLOCATION_NEEDS, NEED_LABEL } from '@/data/adaptive/config'
 import { clampBlockSize, planAllocation } from '@/data/adaptive/allocation'
@@ -333,12 +334,47 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
     )
   }
 
+  /**
+   * Where each question in the block stands.
+   *
+   * The same five states the Question Bank reports, from this session's own
+   * record: `omitted` is a question the student reached and moved past without
+   * answering, which is the one worth naming — it is what somebody scanning for
+   * unfinished work is actually looking for, and it is not the same as one they
+   * have never seen. Right and wrong are only reported once the feedback for
+   * that question is visible, so the strip cannot give away an answer that the
+   * question itself is still withholding.
+   */
+  // Captured, because narrowing from the guards above does not survive into a
+  // function that could in principle be called later.
+  const block = session
+  function stateFor(position: number): QuestionState {
+    const entry = activeItems[position]
+    const state = entry ? block.answers[entry.id] : undefined
+    if (!entry || state?.chosenIndex == null) return position < index ? 'omitted' : 'unseen'
+    if (!feedbackVisible(block, entry.id)) return 'answered'
+    return correctOptionIndex(entry) === state.chosenIndex ? 'correct' : 'incorrect'
+  }
+
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_300px]">
       {/* `min-w-0` on the grid items, not just the grid: a grid child defaults to
           `min-width: auto`, so a truncating label widens the whole column rather
           than ellipsing, and the page scrolls sideways on a phone. */}
       <div className="min-w-0 space-y-4">
+        {/* The same strip the Question Bank uses, in the same place: above the
+            question rather than in the rail beside it. It used to be a bespoke
+            grid that could only say answered or not — no right or wrong after
+            submitting, no omitted, and no legend to read any of it by. */}
+        <QuestionNavigator
+          count={activeItems.length}
+          current={index}
+          stateFor={stateFor}
+          isFlagged={() => false}
+          onJump={goTo}
+          graded={Boolean(session.submittedAt) || session.mode === 'tutor'}
+        />
+
         <Panel>
           <PanelHeader
             title={`Question ${index + 1} of ${activeItems.length}`}
@@ -421,30 +457,6 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
       </div>
 
       <div className="min-w-0 space-y-4">
-        <Panel>
-          <PanelHeader title="Block" icon={Flag} />
-          <div className="grid grid-cols-6 gap-1.5 p-4 sm:grid-cols-8 lg:grid-cols-6">
-            {activeItems.map((entry, position) => {
-              const state = session.answers[entry.id]
-              return (
-                <button
-                  key={entry.id}
-                  type="button"
-                  onClick={() => goTo(position)}
-                  aria-current={position === index}
-                  className={cn(
-                    'tnum grid h-8 place-items-center rounded-md border font-mono text-[12px] transition-colors',
-                    position === index && 'ring-2 ring-primary ring-offset-1 ring-offset-surface',
-                    state ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-3 hover:border-line-2',
-                  )}
-                >
-                  {position + 1}
-                </button>
-              )
-            })}
-          </div>
-        </Panel>
-
         <Panel>
           <PanelHeader title="How this block was built" icon={Sparkles} />
           <div className="p-5">
