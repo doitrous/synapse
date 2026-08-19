@@ -8,11 +8,12 @@ import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
+import { createShare, deleteShare, listShares, readShare, updateShare } from './shares.js'
 import { apiAuthGate, mfaSatisfied, requireAdmin, requireAuthenticated } from './auth.js'
 import {
   listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
   setAccessStatus, requestPasswordReset, recordAction, readReason,
-  passwordResetConfigured, getUserActivity, setRole, identifierTaken, entitlementOf,
+  passwordResetConfigured, getUserActivity, setRole, identifierTaken, entitlementOf, saveOwnEnrolment,
 } from './accounts.js'
 import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
@@ -175,6 +176,21 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
 }))
 
 /**
+ * Where this account studies, set by the student.
+ *
+ * Onboarding writes here, and the account page writes here when a student
+ * corrects their year. It is the only writer of that fact, and `/api/me` is the
+ * only reader — so a second browser cannot hold a different answer. This
+ * replaced a browser-local document that each device kept its own copy of,
+ * which is how one account came to show two different enrolled years.
+ */
+app.put('/api/me/enrolment', requireAuthenticated, wrap(async (req, res) => {
+  const result = await saveOwnEnrolment(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(result.error === 'no_identity' ? 404 : 400).json({ error: result.error })
+  res.json({ ok: true, profile: result.profile })
+}))
+
+/**
  * Everything this account has stored, as the account's own data.
  *
  * The Account page has always offered a download. It exported the settings blob
@@ -272,10 +288,39 @@ function documentTitle(raw) {
   return title || 'Untitled document'
 }
 
+/**
+ * What a student is uploading, decided here rather than taken on trust.
+ *
+ * Only two kinds exist. `pdf` is what the in-app reader can open and is
+ * therefore what the annotation surfaces list. `file` is everything else — a
+ * slide deck, an image, a spreadsheet a student wants pinned to a whiteboard —
+ * and is only ever handed back as a download.
+ *
+ * The extension is derived from the name and reduced to letters and digits: it
+ * decides a path on disk, so it is a value this server computes, never one the
+ * client supplies.
+ */
+const PDF_MIME = 'application/pdf'
+
+function describeUpload(body) {
+  const fileName = String(body?.fileName ?? '').trim().replace(/[\r\n\t/\\]/g, ' ').slice(0, 200)
+  const declaredMime = String(body?.mimeType ?? '').trim().slice(0, 120)
+  const extension = (fileName.match(/\.([A-Za-z0-9]{1,8})$/)?.[1] ?? '').toLowerCase()
+  const isPdf = declaredMime === PDF_MIME || extension === 'pdf' || (!declaredMime && !extension)
+  return {
+    kind: isPdf ? 'pdf' : 'file',
+    extension: isPdf ? 'pdf' : (extension || 'bin'),
+    fileName: fileName || null,
+    // A type the browser will act on is not something to accept from a client.
+    // Anything that is not a PDF is stored and returned as opaque bytes.
+    mimeType: isPdf ? PDF_MIME : 'application/octet-stream',
+  }
+}
+
 async function myDocument(userId, id) {
   const [rows] = await pool.query(
-    `SELECT id, title, storage_key AS storageKey, media_type AS mediaType, size_bytes AS sizeBytes,
-       sha256, page_count AS pageCount, created_at AS createdAt
+    `SELECT id, title, storage_key AS storageKey, media_type AS mediaType, file_name AS fileName,
+       mime_type AS mimeType, size_bytes AS sizeBytes, sha256, page_count AS pageCount, created_at AS createdAt
      FROM user_documents WHERE id = ? AND user_id = ? AND deleted_at IS NULL`,
     [id, userId],
   )
@@ -284,8 +329,8 @@ async function myDocument(userId, id) {
 
 app.get('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
   const [rows] = await pool.query(
-    `SELECT id, title, media_type AS mediaType, size_bytes AS sizeBytes, page_count AS pageCount,
-       created_at AS createdAt
+    `SELECT id, title, media_type AS mediaType, file_name AS fileName, mime_type AS mimeType,
+       size_bytes AS sizeBytes, page_count AS pageCount, created_at AS createdAt
      FROM user_documents WHERE user_id = ? AND deleted_at IS NULL ORDER BY created_at DESC`,
     [req.identity.id],
   )
@@ -295,13 +340,14 @@ app.get('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
 
 app.post('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
   const id = randomUUID()
+  const upload = describeUpload(req.body)
   // Generated here, never accepted: a path is not something a client gets to say.
-  const storageKey = join('my-documents', req.identity.id.replace(/[^a-zA-Z0-9_-]/g, '_'), `${id}.pdf`)
+  const storageKey = join('my-documents', req.identity.id.replace(/[^a-zA-Z0-9_-]/g, '_'), `${id}.${upload.extension}`)
   await pool.query(
-    'INSERT INTO user_documents (id, user_id, title, storage_key, media_type) VALUES (?, ?, ?, ?, ?)',
-    [id, req.identity.id, documentTitle(req.body?.title), storageKey, 'pdf'],
+    'INSERT INTO user_documents (id, user_id, title, storage_key, media_type, file_name, mime_type) VALUES (?, ?, ?, ?, ?, ?, ?)',
+    [id, req.identity.id, documentTitle(req.body?.title), storageKey, upload.kind, upload.fileName, upload.mimeType],
   )
-  res.json({ id, uploadId: randomUUID().replace(/-/g, ''), chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES })
+  res.json({ id, uploadId: randomUUID().replace(/-/g, ''), chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES, mediaType: upload.kind })
 }))
 
 app.put('/api/my-documents/:id/chunks/:uploadId/:index', requireAuthenticated, wrap(async (req, res) => {
@@ -349,7 +395,8 @@ app.post('/api/my-documents/:id/chunks/:uploadId/complete', requireAuthenticated
       declaredSize,
       maxBytes: MY_DOCUMENT_MAX_BYTES,
       chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES,
-      requirePdf: true,
+      // Only a document that claims to be a PDF is held to being one.
+      requirePdf: document.mediaType === 'pdf',
     })
     await pool.query(
       'UPDATE user_documents SET size_bytes = ?, sha256 = ?, page_count = ? WHERE id = ? AND user_id = ?',
@@ -376,8 +423,12 @@ app.get('/api/my-documents/:id/file', requireAuthenticated, wrap(async (req, res
   if (!document) return res.status(404).json({ error: 'document not found' })
   const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
   if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'document file is still uploading' })
-  res.setHeader('Content-Type', 'application/pdf')
-  res.setHeader('Content-Disposition', `inline; filename="${basename(document.title).replace(/["\r\n]/g, '')}.pdf"`)
+  const isPdf = document.mediaType === 'pdf'
+  const name = basename(document.fileName || `${document.title}.${isPdf ? 'pdf' : 'bin'}`).replace(/["\r\n]/g, '')
+  res.setHeader('Content-Type', isPdf ? 'application/pdf' : 'application/octet-stream')
+  // A PDF is opened in the reader. Anything else is handed over as a download
+  // rather than rendered on this origin, whatever it claims to be.
+  res.setHeader('Content-Disposition', `${isPdf ? 'inline' : 'attachment'}; filename="${name}"`)
   res.setHeader('X-Content-Type-Options', 'nosniff')
   res.sendFile(fullPath)
 }))
@@ -391,6 +442,46 @@ app.delete('/api/my-documents/:id', requireAuthenticated, wrap(async (req, res) 
   )
   const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
   if (fullPath) await unlink(fullPath).catch(() => {})
+  res.json({ ok: true })
+}))
+
+/* ── Shared notes and whiteboards ────────────────────────────────────────── */
+
+/**
+ * A note or a board, published behind a link.
+ *
+ * The permission rules are in `shares.js`, deliberately away from the routing,
+ * because they are the only thing between "shared with my study group" and
+ * "on the open web". Read is the one route that answers without a session —
+ * see the note in `apiAuthGate` — and it still refuses a private share to
+ * anybody but its owner.
+ */
+app.post('/api/shares', requireAuthenticated, wrap(async (req, res) => {
+  const result = await createShare(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(400).json({ error: result.error })
+  res.json(result)
+}))
+
+app.get('/api/shares', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ items: await listShares(req.identity.id) })
+}))
+
+app.get('/api/shares/:id', wrap(async (req, res) => {
+  const result = await readShare(req.params.id, req.identity?.id ?? null)
+  if (result.error) return res.status(404).json({ error: result.error })
+  res.json(result.share)
+}))
+
+app.put('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
+  const result = await updateShare(req.params.id, req.identity.id, req.body ?? {})
+  if (result.error === 'not_found') return res.status(404).json({ error: result.error })
+  if (result.error) return res.status(400).json({ error: result.error })
+  res.json(result.share)
+}))
+
+app.delete('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
+  const result = await deleteShare(req.params.id, req.identity.id)
+  if (result.error) return res.status(404).json({ error: result.error })
   res.json({ ok: true })
 }))
 
@@ -522,6 +613,21 @@ const STUDENT_READABLE_STATE = new Set([
   'synapse-notification-campaigns-v1',
   'synapse-vouchers-v1',
   'synapse-system-colors-v1',
+  // The current plan catalogue. Billing and onboarding both price against it,
+  // and without it a student was offered the seeded plans instead of the ones
+  // actually being sold.
+  'synapse-plan-catalog-v1',
+  // The student-ID discount offer, shown on Billing to the students it is for.
+  'synapse-student-id-discount-v1',
+  // The upload allowance, so the demo build can show the limit an admin set.
+  'synapse-storage-limits-v1',
+  // Adaptive Study runs entirely on these three, on the student's own screen.
+  // Admin-written and student-read: a student must not be able to edit the
+  // thresholds they are judged by, but a page that cannot read them silently
+  // falls back to defaults and reports figures nobody configured.
+  'synapse-adaptive-config-v1',
+  'synapse-adaptive-blueprints-v1',
+  'synapse-adaptive-heldout-v1',
 ])
 
 /**

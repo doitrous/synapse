@@ -524,6 +524,11 @@ function MyUploads() {
   const documents = useMyDocuments()
   const [busy, setBusy] = useState<number | null>(null)
   const [failure, setFailure] = useState<string | null>(null)
+  // Only what this screen can actually open. Files pinned to a whiteboard are
+  // on the same account and count against the same quota, but they are not
+  // readable documents and listing them here would offer a reader that is not
+  // coming. They are managed from the board they belong to.
+  const readable = documents.items.filter((item) => item.mediaType === 'pdf')
 
   const accept = async (files: FileList | null) => {
     const file = files?.[0]
@@ -579,7 +584,7 @@ function MyUploads() {
 
       {documents.loading ? (
         <Panel><p className="p-6 text-center text-[13px] text-ink-3">{t('Opening…')}</p></Panel>
-      ) : documents.items.length === 0 ? (
+      ) : readable.length === 0 ? (
         <Panel>
           <EmptyState
             icon={Upload}
@@ -590,7 +595,7 @@ function MyUploads() {
       ) : (
         <Panel className="overflow-hidden">
           <ul className="divide-y divide-line">
-            {documents.items.map((item) => (
+            {readable.map((item) => (
               <li
                 key={item.id}
                 aria-label={`${t('Open resource')}: ${item.title}`}

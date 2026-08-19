@@ -326,7 +326,11 @@ CREATE TABLE IF NOT EXISTS user_documents (
   user_id      VARCHAR(64) NOT NULL,
   title        VARCHAR(255) NOT NULL,
   storage_key  VARCHAR(255) NOT NULL,
+  -- 'pdf' for anything the in-app reader can open, 'file' for everything else.
   media_type   VARCHAR(32) NOT NULL DEFAULT 'pdf',
+  -- What it was called and what it is, so a download arrives named and typed.
+  file_name    VARCHAR(255) NULL,
+  mime_type    VARCHAR(128) NULL,
   size_bytes   BIGINT UNSIGNED NOT NULL DEFAULT 0,
   sha256       CHAR(64) NULL,
   page_count   INT NULL,
@@ -463,4 +467,36 @@ CREATE TABLE IF NOT EXISTS assistant_provider_keys (
   key_hint    VARCHAR(8) NULL,
   updated_by  VARCHAR(64) NULL,
   updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* A note or a whiteboard, published behind a link.
+
+   The share is a copy, not a pointer into `user_state`. That is deliberate:
+   the student's own document keeps working exactly as it did whether or not it
+   has ever been shared, revoking a link cannot damage the original, and a
+   collaborator's edit lands on the shared copy rather than silently rewriting
+   somebody's private notebook. Republishing is an explicit act.
+
+   `access` is the whole permission model, and it is checked on the server.
+     private — only the owner may read it, so a leaked link reveals nothing.
+     view    — anybody holding the link may read it.
+     edit    — anybody holding the link who is signed in may also write to it.
+
+   No semicolons anywhere in this comment: `migrate()` splits the file on them
+   to get its statements, so one here would cut this block in half and leave an
+   unterminated comment for the server to execute at boot.
+
+   The id is a long random token and the only thing a URL carries, so nothing
+   about the owner or the document travels in the address. */
+CREATE TABLE IF NOT EXISTS shared_documents (
+  id          VARCHAR(64) PRIMARY KEY,
+  owner_id    VARCHAR(64) NOT NULL,
+  kind        VARCHAR(16) NOT NULL,
+  title       VARCHAR(255) NOT NULL,
+  access      VARCHAR(16) NOT NULL DEFAULT 'private',
+  payload     MEDIUMTEXT NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  updated_by  VARCHAR(64) NULL,
+  INDEX idx_shared_documents_owner (owner_id, kind, updated_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

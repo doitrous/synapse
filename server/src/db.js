@@ -62,6 +62,21 @@ export async function migrate() {
       if (!found.length) await conn.query(`ALTER TABLE students ADD COLUMN ${column} ${definition}`)
     }
 
+    // A student's own uploads were PDFs only — the storage key ended `.pdf` and
+    // the download was served as one. A whiteboard can now carry any file, so
+    // what it was called and what it is have to be stored rather than assumed.
+    for (const [column, definition] of [
+      ['file_name', 'VARCHAR(255) NULL AFTER media_type'],
+      ['mime_type', 'VARCHAR(128) NULL AFTER file_name'],
+    ]) {
+      const [found] = await conn.query(
+        `SELECT 1 FROM information_schema.columns
+          WHERE table_schema = DATABASE() AND table_name = 'user_documents' AND column_name = ?`,
+        [column],
+      )
+      if (!found.length) await conn.query(`ALTER TABLE user_documents ADD COLUMN ${column} ${definition}`)
+    }
+
     // The unique index is separate from the column: adding it can fail on a
     // database that already holds duplicates, and that has to be a loud failure
     // an operator resolves rather than a column quietly left unconstrained.
@@ -118,6 +133,29 @@ export async function migrate() {
           ['synapse-concept-mastery-v1', 'synapse-qbank-question-notes-v1'],
         )
         await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [orphanId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
+
+    // Onboarding answers and the personal document list were stored under keys
+    // that matched no user-owned pattern, so both were routed to this shared
+    // admin store. Nothing there is any student's record — a student was
+    // refused every read and every write of them — only whatever an
+    // administrator's own session happened to leave behind. Both keys are now
+    // owned per account, and what is here is not worth keeping.
+    const misroutedId = '2026-08-19-drop-misrouted-onboarding-keys'
+    const [misroutedApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [misroutedId])
+    if (!misroutedApplied.length) {
+      await conn.beginTransaction()
+      try {
+        await conn.query(
+          'DELETE FROM app_state WHERE k IN (?, ?)',
+          ['synapse-onboarding-v1', 'synapse.myDocuments.v1'],
+        )
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [misroutedId])
         await conn.commit()
       } catch (error) {
         await conn.rollback()

@@ -43,3 +43,16 @@ test('a library key that is not a student\'s stays shared', () => {
   // document would silently become per-student.
   assert.equal(isUserOwnedState('synapse.library.publishedIndex'), false)
 })
+
+test('a student\'s own uploads and share links are their own record', () => {
+  // Both reached the shared admin store under their old, undotted names, where
+  // a student is refused every read and every write of them.
+  assert.equal(isUserOwnedState('synapse.myDocuments.v1'), true)
+  assert.equal(isUserOwnedState('synapse.account.shares.v1'), true)
+})
+
+test('the retired onboarding key is not quietly matched again', () => {
+  // Whether an account has been enrolled is the server's answer now, read from
+  // `/api/me`. Nothing should route this to either store.
+  assert.equal(isUserOwnedState('synapse-onboarding-v1'), false)
+})

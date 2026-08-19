@@ -51,7 +51,9 @@ export function useReaderSource(routeId: string): ReaderSource {
   return useMemo(() => {
     if (isUploadId(routeId)) {
       const id = routeId.slice(UPLOAD_PREFIX.length)
-      const document = mine.items.find((item) => item.id === id)
+      // A non-PDF upload has no reader. Treating it as missing is honest: the
+      // file exists on the account, but not as something this screen can show.
+      const document = mine.items.find((item) => item.id === id && item.mediaType === 'pdf')
       if (!document) {
         return { ...MISSING, loading: mine.loading }
       }

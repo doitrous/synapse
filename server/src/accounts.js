@@ -573,3 +573,97 @@ export async function identifierTaken({ email, phone }) {
     phone: Boolean(cleanPhone && Number(rows?.[0]?.phoneTaken ?? 0) > 0),
   }
 }
+
+/* ── The student's own enrolment ─────────────────────────────────────────── */
+
+/** Full access for a new account, for this many days, however they arrive. */
+export const TRIAL_DAYS = 3
+
+function trimmed(value, max) {
+  const text = String(value ?? '').trim()
+  return text ? text.slice(0, max) : null
+}
+
+/**
+ * Where this account studies, written where every device can read it.
+ *
+ * This is the single source of truth the app was missing. The answers to
+ * onboarding used to live in a browser document, so two browsers signed into
+ * one account could — and did — disagree about which year the student was in.
+ * A row in `students`, keyed to the Supabase user id, cannot: the server is the
+ * only writer, ownership is a `WHERE user_id = ?`, and `/api/me` reads it back
+ * for everybody.
+ *
+ * The name, phone and nationality collected at sign-up live only in Supabase
+ * user metadata until this runs, which is also why phone uniqueness had nothing
+ * to check against. They are carried here on the first enrolment. A phone that
+ * belongs to somebody else is dropped rather than refused: it is not worth
+ * blocking a student out of their own account over, and the number is not a
+ * credential.
+ */
+export async function saveOwnEnrolment(userId, input) {
+  const universityId = trimmed(input?.universityId, 64)
+  const year = trimmed(input?.year, 32)
+  if (!universityId || !year) return { error: 'university_and_year_required' }
+  const group = trimmed(input?.group, 120)
+  const name = trimmed(input?.name, 255)
+  const nationality = trimmed(input?.nationality, 64)
+  const phone = normalisePhone(input?.phone)
+  const plan = trimmed(input?.plan, 64)
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, userId)
+    if (!student) { await conn.rollback(); return { error: 'no_identity' } }
+
+    // Only if it is free. The UNIQUE index would otherwise abort the whole
+    // transaction and lose the enrolment along with it.
+    let storedPhone = null
+    if (phone) {
+      const [held] = await conn.query('SELECT id FROM students WHERE phone = ? AND id <> ? LIMIT 1', [phone, student.id])
+      if (!held.length) storedPhone = phone
+    }
+
+    await conn.query(
+      `UPDATE students
+          SET university_id = ?,
+              year = ?,
+              study_group = ?,
+              name = COALESCE(name, ?),
+              nationality = COALESCE(nationality, ?),
+              phone = COALESCE(phone, ?),
+              status = COALESCE(status, 'Active'),
+              joined = COALESCE(joined, CURDATE())
+        WHERE id = ?`,
+      [universityId, year, group, name, nationality, storedPhone, student.id],
+    )
+
+    // The trial is granted once, by the server, so it starts when the account
+    // was actually enrolled and expires at the same moment on every device.
+    // An account that already has a subscription — a paid one, or a trial from
+    // a previous sign-in — keeps it.
+    const [current] = await conn.query(
+      `SELECT id FROM subscriptions WHERE student_id = ? AND status <> 'cancelled' LIMIT 1`,
+      [student.id],
+    )
+    if (!current.length) {
+      const now = new Date()
+      await conn.query(
+        `INSERT INTO subscriptions (id, student_id, plan, status, started_at, expires_at, source, granted_by, note)
+         VALUES (?, ?, ?, 'trialing', ?, ?, 'trial', ?, ?)`,
+        [randomUUID(), student.id, plan ?? 'Free', now, addDays(now, TRIAL_DAYS), userId, `${TRIAL_DAYS}-day trial on enrolment`],
+      )
+      if (plan) await conn.query('UPDATE students SET plan = ? WHERE id = ?', [plan, student.id])
+    }
+
+    await conn.commit()
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+
+  return { ok: true, profile: await getUserByIdentity(userId) }
+}
