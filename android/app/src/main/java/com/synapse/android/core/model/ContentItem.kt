@@ -159,6 +159,12 @@ object LedgerDecoder {
     private fun scopeOf(record: JsonObject): Pair<List<String>, List<String>> {
         val questionTags = record["questionData"]?.jsonObjectOrNull()?.get("tags")?.jsonObjectOrNull()
         val block = record["articleData"]?.jsonObjectOrNull() ?: record["resourceData"]?.jsonObjectOrNull()
+        // The `practicalData` fallback below is speculative: `itemScope` in
+        // `src/data/contentControl.ts:514-520` checks only `articleData ??
+        // resourceData`, and `PracticalCommon` carries no scope keys today,
+        // so this branch is currently inert. It is left in place because it
+        // would become correct if practicals ever gain scope — it is not
+        // evidence that practicals are scoped now.
         val source = questionTags ?: block ?: record["practicalData"]?.jsonObjectOrNull()
         val universities = source?.get("universityIds")?.stringList().orEmpty()
         // A question names the year field `years`; an article or resource

@@ -64,6 +64,9 @@ data class Question(
  */
 object QuestionProjection {
 
+    /** Mirrors `DIFFICULTIES` in `src/data/qbank.ts:4`. */
+    private val DIFFICULTIES = setOf("Easy", "Moderate", "Hard", "Challenging")
+
     fun project(item: LedgerItem): Question? {
         if (item.kind != ContentKind.QUESTION) return null
         val record = item.raw.parseObjectOrNull() ?: return null
@@ -74,31 +77,63 @@ object QuestionProjection {
 
         val options = optionsOf(data?.get("answers"))
         val correctLabel = data?.get("correctAnswer")?.stringOrNull()?.trim().orEmpty()
+        val correctOption = options.firstOrNull { it.label == correctLabel }
 
-        // A question whose correct answer is not among its options cannot be
-        // marked, so it is not a question — it is a broken record, and
-        // showing it would mark every attempt wrong.
-        if (options.isEmpty() || options.none { it.label == correctLabel }) return null
+        // usePublishedQuestions.ts:24 — `if (answers.length < 2 || ...)
+        // return null`. A single surviving option is hidden on the web even
+        // when it happens to be the correct one: with nothing to compare it
+        // against, it cannot be sat as a question.
+        if (options.size < 2 || correctOption == null) return null
 
         val stem = item.title.trim()
         if (stem.isEmpty()) return null
 
+        // usePublishedQuestions.ts:34 — `data.tags.topic.trim() ||
+        // item.fields.Topic?.trim() || 'General'`.
+        val topic = tags?.get("topic")?.stringOrNull()?.trim()?.takeIf { it.isNotEmpty() }
+            ?: fields?.get("Topic")?.stringOrNull()?.trim()?.takeIf { it.isNotEmpty() }
+            ?: "General"
+
+        // usePublishedQuestions.ts:10-13 — `data.tags.intendedDifficulty ??
+        // item.fields.Difficulty`, used only when it is one of DIFFICULTIES
+        // (qbank.ts:4); an authoring typo like "hard" must not flow straight
+        // into the scoping filters unvalidated.
+        val rawDifficulty = tags?.get("intendedDifficulty")?.stringOrNull()?.trim()
+            ?: fields?.get("Difficulty")?.stringOrNull()?.trim()
+        val difficulty = rawDifficulty?.takeIf { it in DIFFICULTIES } ?: "Moderate"
+
+        // usePublishedQuestions.ts:41 — `item.fields.Explanation?.trim() ||
+        // correctExplanation`, where correctExplanation (line 27) is the
+        // correct option's own explanation. Per-option rationales are a
+        // normal authoring pattern; reading only the field renders an empty
+        // panel for a question authored that way.
+        val explanation = fields?.get("Explanation")?.stringOrNull()?.trim()?.takeIf { it.isNotEmpty() }
+            ?: correctOption.explanation
+
+        // usePublishedQuestions.ts:50 — the union of mainConceptIds and
+        // conceptIds, main first, de-duplicated. Not an either/or fallback:
+        // an authored-empty mainConceptIds must not hide conceptIds, and a
+        // populated mainConceptIds must not suppress conceptIds either.
+        // contextualConceptIds is deliberately excluded — see the TS comment
+        // at contentControl.ts:47-49: it is everything the scenario merely
+        // touches, not what the item is actually being tested on.
+        val conceptIds = (tags?.get("mainConceptIds")?.stringListOrEmpty().orEmpty() +
+            tags?.get("conceptIds")?.stringListOrEmpty().orEmpty()).distinct()
+
         return Question(
             id = item.id,
             subjectId = item.subjectId,
-            topic = fields?.get("Topic")?.stringOrNull()?.trim().orEmpty(),
-            difficulty = fields?.get("Difficulty")?.stringOrNull()?.trim() ?: "Moderate",
+            topic = topic,
+            difficulty = difficulty,
             vignette = fields?.get("Vignette")?.stringOrNull()?.trim().orEmpty(),
             stem = stem,
             options = options,
             correctLabel = correctLabel,
-            explanation = fields?.get("Explanation")?.stringOrNull()?.trim().orEmpty(),
+            explanation = explanation,
             learningObjective = data?.get("learningObjective")?.stringOrNull()?.trim()?.takeIf { it.isNotEmpty() },
             estimatedSeconds = (data?.get("estimatedSeconds") as? JsonPrimitive)?.content?.toIntOrNull(),
             libraryIds = data?.get("libraryIds")?.stringListOrEmpty() ?: emptyList(),
-            conceptIds = tags?.get("mainConceptIds")?.stringListOrEmpty()
-                ?: tags?.get("conceptIds")?.stringListOrEmpty()
-                ?: emptyList(),
+            conceptIds = conceptIds,
         )
     }
 
