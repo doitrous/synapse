@@ -980,6 +980,22 @@ At the bottom of the runner's returned JSX, beside `<ReportContentDialog …>`:
       )}
 ```
 
+- [ ] **Step 4b: Mark the ordinary finish as submitted too**
+
+`submitSession` is not the only way a sitting ends. Paging to the last question
+and pressing "See results" finishes it just as completely, and that path — added
+in Task 4 — sets `checked` and commits the answers but never sets `submitted`.
+Left alone, Task 7's Continue card would go on offering a finished test forever.
+
+In the runner's footer, extend the handler Task 4 wrote:
+
+```tsx
+              onClick={() => {
+                if (!reviewing) { commitAnswers(); setSubmitted(true) }
+                setPhase('results')
+              }}
+```
+
 - [ ] **Step 5: Typecheck**
 
 ```bash
