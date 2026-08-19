@@ -775,7 +775,7 @@ git commit -m "Route a student's work to the same place the website does"
 - Test: `android/app/src/test/java/com/synapse/android/core/qbank/QBankScopeTest.kt`
 
 **Interfaces:**
-- Consumes: `Question` from Task 6 — for this task, define the minimal shape it needs and let Task 6 supply the real type. To avoid a circular dependency, `QBankScope.questions` takes `(pool: List<Question>, scope: Set<String>, topics: List<ChooserTopic>)` where `Question` is the type created in Task 6; implement Task 6 **before** this task if executing strictly in order, or stub `Question` here as `data class Question(val id: String, val topic: String, val libraryIds: List<String>)` and widen it in Task 6.
+- Consumes: `com.synapse.android.core.model.Question` — **defined in Task 6, so run Task 6 before this one.** The numbering here is thematic, not an execution order; `QBankScope` reads `Question.id`, `Question.topic` and `Question.libraryIds`, and stubbing a narrower local copy would mean deleting it again an hour later.
 - Produces: `data class ChooserTopic(val id: String, val title: String, val subjectId: String, val subtopicIds: List<String>)`; `QBankScope.topicKey(id): String`; `QBankScope.subtopicKey(id): String`; `QBankScope.QUESTION_TOPIC_PREFIX = "qt:"`; `QBankScope.isQuestionTopic(id): Boolean`; `QBankScope.subtopicIds(scope: Set<String>, topics: List<ChooserTopic>): Set<String>`; `QBankScope.questions(pool, scope, topics): List<Question>`.
 
 - [ ] **Step 1: Write the failing test**
