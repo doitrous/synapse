@@ -29,6 +29,7 @@ export interface PricingContent {
   path: string
   otherPath: string
   documentTitle: string
+  /** `{from}` is replaced with the cheapest monthly-equivalent on offer. */
   metaDescription: string
   breadcrumb: string
   /** The header link to this page, shown on every marketing page. */
@@ -56,7 +57,7 @@ export const EN_PRICING: PricingContent = {
   otherPath: '/ar/pricing',
   documentTitle: 'Pricing — Synapse · Plans for undergraduate medical study',
   metaDescription:
-    'One workspace for the library, question bank, practicals and your schedule, priced per student from EGP 99 a month. Start free with a 7-day full trial, no card.',
+    'One workspace for the library, question bank, practicals and your schedule, priced per student from {from} a month. Start free with a 7-day full trial, no card.',
   breadcrumb: 'Home',
   navLabel: 'Pricing',
   teaser: {
@@ -99,7 +100,7 @@ export const EN_PRICING: PricingContent = {
     },
     {
       q: 'How does the yearly price work out against monthly?',
-      a: 'Yearly is billed once for twelve months and works out lower per month than paying monthly — the saving is shown on each plan when you switch the billing control above to Yearly. Every 3 months sits between the two.',
+      a: 'A longer commitment is charged once and works out lower per month. Switch the billing control above and each plan shows its own price for that period and what it saves against paying monthly. A period that is announced but not yet open is marked, and you can still see what it will cost.',
     },
     {
       q: 'Is Synapse aligned with my university\'s curriculum?',
@@ -147,7 +148,7 @@ export const AR_PRICING: PricingContent = {
   otherPath: '/pricing',
   documentTitle: 'الأسعار — Synapse · خطط لدراسة الطب الجامعية',
   metaDescription:
-    'مساحة واحدة للمكتبة وبنك الأسئلة والعملي وجدولك، بسعر لكل طالب يبدأ من ٩٩ ج.م شهريًا. ابدأ مجانًا بتجربة كاملة ٧ أيام، دون بطاقة.',
+    'مساحة واحدة للمكتبة وبنك الأسئلة والعملي وجدولك، بسعر لكل طالب يبدأ من {from} شهريًا. ابدأ مجانًا بتجربة كاملة ٧ أيام، دون بطاقة.',
   breadcrumb: 'الرئيسية',
   navLabel: 'الأسعار',
   teaser: {
@@ -190,7 +191,7 @@ export const AR_PRICING: PricingContent = {
     },
     {
       q: 'كيف يقارن السعر السنوي بالشهري؟',
-      a: 'السنوي يُحصَّل مرة واحدة عن اثني عشر شهرًا، وما يعادله شهريًا أقل من الدفع الشهري — ويظهر مقدار التوفير على كل خطة عند تحويل زر الفوترة أعلاه إلى «سنويًا». وخيار كل ٣ أشهر يقع بين الاثنين.',
+      a: 'الالتزام الأطول يُحصَّل مرة واحدة وما يعادله شهريًا أقل. حوّل زر الفوترة أعلاه لترى سعر كل خطة لتلك المدة ومقدار ما توفّره مقارنة بالدفع الشهري. وأي مدة أُعلنت ولم تُفتح بعد تكون مُعلَّمة، ويظل بإمكانك رؤية تكلفتها.',
     },
     {
       q: 'هل يتوافق Synapse مع منهج جامعتي؟',

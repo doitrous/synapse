@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, ChevronDown, ChevronLeft, Check, Lock, ShieldCheck, Download, Languages, type LucideIcon } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
+import { useMemo } from 'react'
 import { usePageMeta, SITE_ORIGIN } from '@/lib/pageMeta'
+import { formatNumber } from '@/lib/pricing'
+import { usePlanCatalog } from '@/lib/usePlanCatalog'
+import { monthlyEquivalent, plansFor, type Lang } from '@/data/planCatalog'
 import { MarketingShell } from './MarketingShell'
 import { Pricing } from './Pricing'
 import type { LandingContent } from './content'
@@ -32,10 +36,29 @@ export function PricingPage({ content, pricing }: { content: LandingContent; pri
   const c = content
   const p = pricing
   const home = c.lang === 'ar' ? '/ar' : '/'
+  const [catalog] = usePlanCatalog()
+
+  /**
+   * The description carries a price, so it is filled from the catalogue the
+   * admin console edits. Typed into the copy it would be a second number
+   * nothing joined to the one Billing charges, which is the drift the
+   * catalogue exists to end — and a stale price in a search result is the
+   * copy people see before they ever reach the page.
+   */
+  const description = useMemo(() => {
+    const cheapest = plansFor(catalog, 'primary')
+      .filter((plan) => !plan.quoted)
+      .map((plan) => monthlyEquivalent(plan, catalog.periods))
+      .filter((amount) => amount > 0)
+    const from = cheapest.length
+      ? `${c.plans.currency} ${formatNumber(Math.min(...cheapest), c.lang as Lang)}`
+      : c.plans.free
+    return p.metaDescription.replace('{from}', from)
+  }, [catalog, c.plans.currency, c.plans.free, c.lang, p.metaDescription])
 
   usePageMeta({
     title: p.documentTitle,
-    description: p.metaDescription,
+    description,
     canonical: p.path,
     alternates: { en: '/pricing', ar: '/ar/pricing', 'x-default': '/pricing' },
     jsonLd: [

@@ -23,9 +23,11 @@ open.
 
 ## 2. Pricing table spec
 
-Unchanged from what the landing section already carried — the numbers live in
-`src/pages/landing/content.ts` and are the single source for the page, the
-landing teaser, and the saving percentages.
+Every price comes from the plan catalogue the admin console edits
+(`src/data/planCatalog.ts`), which is the single source for this page, the
+landing teaser, onboarding and Billing. Nothing here is typed twice.
+
+The seeded catalogue at the time of writing:
 
 | Plan | Monthly | 3 months | Yearly | CTA |
 |---|---|---|---|---|
@@ -36,8 +38,10 @@ landing teaser, and the saving percentages.
 | Exam Sprint | 249 / 30 days | — | — | Start a sprint |
 | Campus / cohort | Quoted | — | — | Start, then talk to us |
 
-All EGP. Savings are computed by `savingPercent()` from the monthly price, and
-rounded down so the page never claims more than the offer.
+All EGP, and all editable in the console — the table above is the seed, not a
+contract. Savings are computed from the monthly price and rounded down, so the
+page never claims more than the offer. A period or plan marked coming soon is
+shown with its price and refused at the point of choosing.
 
 ## 3. FAQ
 
@@ -53,10 +57,14 @@ search, by an answer engine, and by the browser's own find.
 | Tag | English |
 |---|---|
 | Title | Pricing — Synapse · Plans for undergraduate medical study |
-| Description | One workspace for the library, question bank, practicals and your schedule, priced per student from EGP 99 a month. Start free with a 7-day full trial, no card. |
+| Description | One workspace … priced per student **from {from} a month**. Start free with a 7-day full trial, no card. |
 | Canonical | `https://synapse.doitrous.com/pricing` |
 | hreflang | `en` → /pricing, `ar` → /ar/pricing, `x-default` → /pricing |
 | JSON-LD | `FAQPage` (all 12) + `BreadcrumbList` |
+
+`{from}` is filled at render time from the cheapest monthly-equivalent in the
+catalogue. A price typed into a meta description is a price that goes stale in
+search results, which is the copy people see before they ever reach the page.
 
 Set at runtime by `usePageMeta` (`src/lib/pageMeta.ts`), which reverts every tag
 on unmount so one route's head never leaks onto another's.
