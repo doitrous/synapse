@@ -1748,6 +1748,15 @@ class SynapseApiTest {
         assertTrue(error is ApiError.Malformed)
     }
 
+    @Test fun `the manifest is a state key, not a route of its own`() = runBlocking {
+        // The server registers `/api/state/manifest` before `/api/state/:key`
+        // (server/src/index.js:546). `/api/manifest` is a 404 and would send
+        // sync down its no-manifest fallback path forever.
+        server.enqueue(MockResponse().setBody("""{"keys":{}}"""))
+        api.manifest()
+        assertEquals("/api/state/manifest", server.takeRequest().path)
+    }
+
     @Test fun `the manifest parses timestamps and nulls`() = runBlocking {
         server.enqueue(MockResponse().setBody(
             """{"keys":{"synapse-plans-v1":"2026-08-19T10:00:00.000Z","synapse-vouchers-v1":null}}"""
@@ -1780,6 +1789,22 @@ class SynapseApiTest {
 - [ ] **Step 4: Implement**
 
 `SynapseApi` is deliberately thin: it knows how to attach a token, how to read the two document endpoints, and how to turn a status code into something a caller can act on. It holds no cache and no state — that belongs to the sync engine, which is the only thing that decides when to fetch. Use `Dispatchers.IO` and OkHttp's `enqueue` bridged with `suspendCancellableCoroutine`, or `await()` from a small helper.
+
+The routes, confirmed against `server/src/index.js`:
+
+| Method | Path | Notes |
+| --- | --- | --- |
+| `GET` | `/api/session` | `{"user": {...}}` or `{"user": null}`. Never 401 — an anonymous caller gets a 200 with a null user. |
+| `GET` | `/api/me` | `{"user", "profile", "subscription", "entitlement"}`. `profile` is null when the roster has no row for this account — a state to render, not an error. |
+| `GET` | `/api/state/manifest` | `{"keys": {"<key>": "<iso>" or null}}`. A key never written is reported as `null` rather than omitted, so a client can tell "nothing stored yet" from "not in the contract". Preserve that distinction: the returned map must contain the key with a null value, not drop it. |
+| `GET` | `/api/state/<key>` | Shared catalogue documents. `{"value": ..., "updatedAt": ...}`, both null when absent. |
+| `GET` | `/api/user-state/<key>` | The caller's own documents, same envelope. |
+| `PUT` | `/api/user-state/<key>` | Body `{"value": ...}`. |
+
+`StateOwnership.pathFor` (Task 3) already decides between the two document routes; call it
+rather than re-deriving the rule. `PUT /api/state/<key>` is admin-only (`requireAdmin`) — a
+student write to a catalogue key is a 403 by design, so `writeState` must not special-case
+it away.
 
 - [ ] **Step 5: Run the tests, then commit**
 
