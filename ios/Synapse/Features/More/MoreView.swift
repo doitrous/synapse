@@ -21,7 +21,7 @@ struct MoreView: View {
                         CalendarView(store: store, sync: sync, audienceStore: audienceStore, api: api)
                     }
                     link("Practical", "list.bullet.clipboard") {
-                        PracticalView(store: store, sync: sync, audience: audience)
+                        PracticalView(store: store, sync: sync, audience: audience, api: api)
                     }
                     link("Medical taxonomy", "character.book.closed") {
                         GlossaryView(store: store, sync: sync)

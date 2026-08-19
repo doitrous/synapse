@@ -5,9 +5,11 @@ struct PracticalView: View {
     let store: LocalStore
     let sync: SyncEngine
     let audience: StudentAudience
+    let api: SynapseAPI
 
     @State private var groups: [(type: String, items: [Practical])] = []
     @State private var isLoading = true
+    @State private var model: PracticalModel?
 
     var body: some View {
         Group {
@@ -26,7 +28,7 @@ struct PracticalView: View {
                         Section {
                             ForEach(group.items) { item in
                                 NavigationLink {
-                                    PracticalDetailView(practical: item)
+                                    PracticalDetailView(practical: item, model: model)
                                 } label: {
                                     row(item)
                                 }
@@ -48,7 +50,14 @@ struct PracticalView: View {
         .background(Theme.paper)
         .navigationTitle("Practical")
         .navigationBarTitleDisplayMode(.inline)
-        .task { await load() }
+        .task {
+            if model == nil {
+                let created = PracticalModel(api: api, sync: sync)
+                model = created
+                await created.load()
+            }
+            await load()
+        }
     }
 
     private func row(_ item: Practical) -> some View {
@@ -96,9 +105,13 @@ struct PracticalView: View {
 /// are still working through a station is not a mark scheme, it is the answers.
 struct PracticalDetailView: View {
     let practical: Practical
+    var model: PracticalModel?
 
     @State private var revealed = false
     @State private var ticked: Set<String> = []
+    /// The ticks as they stood when this screen opened, so leaving without
+    /// changing anything does not count as another attempt.
+    @State private var opened: Set<String> = []
 
     var body: some View {
         ScrollView {
@@ -197,6 +210,8 @@ struct PracticalDetailView: View {
         .background(Theme.paper)
         .navigationTitle(practical.title)
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear(perform: resume)
+        .onDisappear(perform: keep)
     }
 
     private var hasHiddenContent: Bool {
@@ -258,9 +273,19 @@ struct PracticalDetailView: View {
                     }
                 }
                 if totalMarkItems > 0 {
-                    Text("\(ticked.count) of \(totalMarkItems) ticked")
-                        .font(Theme.numeric(12))
-                        .foregroundStyle(Theme.ink3)
+                    HStack {
+                        Text("\(ticked.count) of \(totalMarkItems) ticked")
+                            .font(Theme.numeric(12))
+                            .foregroundStyle(Theme.ink3)
+                        Spacer()
+                        // What they managed before, so a second run has
+                        // something to beat.
+                        if let best = model?.station(practical.id), best.outOf > 0 {
+                            Text("Best \(best.bestMarks)/\(best.outOf) · ^[\(best.attempts) go](inflect: true)")
+                                .font(Theme.numeric(12))
+                                .foregroundStyle(Theme.ink2)
+                        }
+                    }
                 }
             }
         }
@@ -268,6 +293,37 @@ struct PracticalDetailView: View {
 
     private var totalMarkItems: Int {
         practical.markSections.reduce(0) { $0 + $1.items.count }
+    }
+
+    /// Pick up where the last run left off.
+    private func resume() {
+        guard let model else { return }
+        ticked = model.resumedTicks(practical.id)
+        opened = ticked
+    }
+
+    /// Keep what this run came to.
+    ///
+    /// On the way out rather than on every tick: the record is one document,
+    /// and a fifty-point mark scheme would otherwise cost fifty writes. A run
+    /// that changed nothing is not a run — reopening a station to read it
+    /// should not count as another attempt at it.
+    private func keep() {
+        guard let model, ticked != opened else { return }
+
+        Task {
+            if totalMarkItems > 0 {
+                await model.record(station: practical, ticked: ticked, outOf: totalMarkItems)
+            } else if !practical.decisions.isEmpty {
+                await model.record(
+                    case: practical,
+                    reachedStep: revealed ? practical.decisions.count : 0,
+                    completed: revealed
+                )
+            } else if !practical.questions.isEmpty {
+                await model.record(lab: practical, answered: revealed ? practical.questions.count : 0)
+            }
+        }
     }
 
     private func section<Content: View>(
