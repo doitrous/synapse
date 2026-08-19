@@ -18,6 +18,15 @@ import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
 import {
+  statusFor as assistantStatus,
+  chat as assistantChat,
+  adminSettings as assistantAdminSettings,
+  saveSettings as assistantSaveSettings,
+  saveTierLimit as assistantSaveTierLimit,
+  deleteTierLimit as assistantDeleteTierLimit,
+  usageSummary as assistantUsage,
+} from './assistant.js'
+import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
   invalidateStudyRoomSnapshot,
 } from './studyRooms.js'
@@ -1329,6 +1338,52 @@ app.post('/api/webhooks/resend/inbound', wrap(async (req, res) => {
  * If a ../public folder exists (the Vite build, copied in by the Dockerfile),
  * serve it and fall back to index.html for client-side routes. When it's absent
  * (API-only deploy), these are no-ops. */
+/* ── Study assistant ──────────────────────────────────────────────────────
+   The student routes are thin: every decision that costs money or grants
+   access is made in `assistant.js`, so there is one place to read to know what
+   a student is allowed to spend. The admin routes never return the API key —
+   only whether one is set and its last four characters. */
+
+app.get('/api/assistant/status', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await assistantStatus(req.identity))
+}))
+
+app.post('/api/assistant/chat', requireAuthenticated, wrap(async (req, res) => {
+  const result = await assistantChat(req.identity, {
+    messages: req.body?.messages,
+    lang: req.body?.lang === 'ar' ? 'ar' : 'en',
+    context: req.body?.context ?? null,
+  })
+  if (result.error) return res.status(result.status ?? 400).json(result)
+  return res.json(result)
+}))
+
+app.get('/api/admin/assistant', requireAdmin, wrap(async (_req, res) => {
+  res.json(await assistantAdminSettings())
+}))
+
+app.put('/api/admin/assistant', requireAdmin, wrap(async (req, res) => {
+  const result = await assistantSaveSettings(req.body ?? {}, req.identity.id)
+  if (result.error) return res.status(400).json(result)
+  return res.json(result)
+}))
+
+app.put('/api/admin/assistant/tiers/:plan', requireAdmin, wrap(async (req, res) => {
+  const result = await assistantSaveTierLimit({ ...req.body, plan: req.params.plan })
+  if (result.error) return res.status(400).json(result)
+  return res.json(result)
+}))
+
+app.delete('/api/admin/assistant/tiers/:plan', requireAdmin, wrap(async (req, res) => {
+  const result = await assistantDeleteTierLimit(req.params.plan)
+  if (result.error) return res.status(400).json(result)
+  return res.json(result)
+}))
+
+app.get('/api/admin/assistant/usage', requireAdmin, wrap(async (req, res) => {
+  res.json(await assistantUsage({ days: req.query.days }))
+}))
+
 const PUBLIC_DIR = process.env.PUBLIC_DIR || join(__dirname, '..', 'public')
 if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
   app.use('/assets', express.static(join(PUBLIC_DIR, 'assets'), { index: false, maxAge: '1y', immutable: true }))
