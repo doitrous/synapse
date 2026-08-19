@@ -692,7 +692,50 @@ In `deleteSession`, after the `setSavedNames` call:
 
 - [ ] **Step 5: Commit every answered question**
 
-Add `const logAttempts = useRecordAttempts()` beside the existing `const logAttempt = useRecordAttempt()`, then add this function beside `checkAnswer`:
+Add `const logAttempts = useRecordAttempts()` beside the existing `const logAttempt = useRecordAttempt()`.
+
+Both writers need the same record built the same way, so extract the builder first. Add it beside `checkAnswer`:
+
+```tsx
+  /**
+   * The record one answer produces, and the mastery evidence that goes with it.
+   *
+   * Shared by the two writers so they cannot drift: one commits a single answer
+   * as it is checked, the other commits a whole sitting at the end, and a
+   * question must not be worth different things depending on which ran.
+   */
+  function attemptFor(question: Question, chosenIndex: number, seconds: number | null) {
+    const correct = Boolean(question.options[chosenIndex]?.correct)
+    const conceptIds = question.conceptIds ?? []
+    // The mastery ledger only takes concept-tagged evidence, but the attempt
+    // log takes every answer: an untagged question still happened.
+    if (conceptIds.length) record({ conceptIds, source: 'question', correct })
+    return {
+      surface: 'qbank' as const,
+      itemId: question.id,
+      subjectId: question.subjectId,
+      topic: question.topic,
+      difficulty: question.difficulty,
+      conceptIds,
+      correct,
+      seconds,
+      sessionId,
+    }
+  }
+```
+
+Rewrite `checkAnswer`'s body to use it, keeping its existing guards and timing exactly as they are:
+
+```tsx
+  function checkAnswer() {
+    setChecked((c) => ({ ...c, [q.id]: true }))
+    if (checked[q.id] || chosen == null) return
+    logAttempt(attemptFor(q, chosen, mode === 'timed' ? Math.max(0, elapsed - questionStartedAt.current) : null))
+    questionStartedAt.current = elapsed
+  }
+```
+
+Then add the bulk writer:
 
 ```tsx
   /**
@@ -703,26 +746,16 @@ Add `const logAttempts = useRecordAttempts()` beside the existing `const logAtte
    * at all: it never appeared in Previous tests, never moved the student's
    * accuracy, and left every question they got wrong invisible to the list
    * that is meant to collect them.
+   *
+   * `seconds` is null here. The per-question timer is only meaningful for an
+   * answer committed as it was given; a sitting submitted at the end cannot say
+   * how long any one question took, and inventing a figure would put a
+   * measurement in the log that nothing measured.
    */
   function commitAnswers() {
     const pending = session.filter((question) => answers[question.id] != null && !checked[question.id])
     if (!pending.length) return
-    logAttempts(pending.map((question) => {
-      const correct = Boolean(question.options[answers[question.id]]?.correct)
-      const conceptIds = question.conceptIds ?? []
-      if (conceptIds.length) record({ conceptIds, source: 'question', correct })
-      return {
-        surface: 'qbank' as const,
-        itemId: question.id,
-        subjectId: question.subjectId,
-        topic: question.topic,
-        difficulty: question.difficulty,
-        conceptIds,
-        correct,
-        seconds: null,
-        sessionId,
-      }
-    }))
+    logAttempts(pending.map((question) => attemptFor(question, answers[question.id], null)))
     setChecked((current) => {
       const next = { ...current }
       for (const question of pending) next[question.id] = true
