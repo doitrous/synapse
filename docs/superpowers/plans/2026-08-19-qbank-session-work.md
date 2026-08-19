@@ -390,14 +390,19 @@ In the same file, inside `<div className={cn('flex items-center gap-2', section 
               page, so it does not belong folded away inside the filters — a
               student had to open a panel to find out why the page looked as it
               did. Hidden on My uploads, which has no folders to group. */}
-          <div className="hidden items-center gap-2 sm:inline-flex">
+          <div className="inline-flex items-center gap-2">
             <Icon icon={FolderTree} size={15} className="text-ink-3" />
             <span className="text-[12.5px] font-medium text-ink-2">{t('Organise by')}</span>
             <Segmented value={groupBy} onChange={(v) => setGroupBy(v as 'system' | 'module')} items={[{ value: 'system', label: t('System') }, { value: 'module', label: t('Module') }]} />
           </div>
 ```
 
-The `hidden sm:inline-flex` keeps a phone's switch row from wrapping into two lines; the control still reaches phone users because the row itself scrolls.
+The control is shown at every width. An earlier draft of this plan hid it below
+`sm` on the reasoning that "the row itself scrolls" — which was wrong twice
+over: the row is `flex-wrap` (`Resources.tsx:243`), not scrollable, and a
+`hidden` element is not rendered at all, so nothing could reveal it. That draft
+removed the only way a phone user had to change grouping. The row wraps onto a
+second line on a narrow screen, which is what `flex-wrap` is already there for.
 
 - [ ] **Step 3: Typecheck**
 
