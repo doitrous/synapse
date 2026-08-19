@@ -31,6 +31,7 @@ import {
   Braces,
   GitFork,
   Network,
+  Scale,
 } from 'lucide-react'
 
 export type Portal = 'student' | 'admin'
@@ -92,9 +93,10 @@ export const adminNav: NavGroup[] = [
   {
     label: 'Content',
     items: [
-      { label: 'Subjects & Topics', to: '/admin/taxonomy', icon: Network },
+      { label: 'Systems & Topics', to: '/admin/taxonomy', icon: Network },
       { label: 'Glossary', to: '/admin/glossary', icon: Languages },
       { label: 'Academic Setup', to: '/admin/academic', icon: GraduationCap },
+      { label: 'Marks & Weights', to: '/admin/academic/marks', icon: Scale },
       { label: 'Library Setup', to: '/admin/library', icon: Library },
       { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },
       { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },

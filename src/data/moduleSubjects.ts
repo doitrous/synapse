@@ -184,3 +184,22 @@ export function termsOf(year: Pick<UniYear, 'terms' | 'courses'>): string[] {
   if (set.size === 0) set.add(DEFAULT_TERM)
   return [...set]
 }
+
+/**
+ * Everything a module covers, gathered from its subjects.
+ *
+ * Content is chosen per subject now, but the schedule still asks "what does
+ * this module cover?" — and so does the read-only whole-module view. Merging on
+ * read keeps one source of truth: no union is stored, so it cannot fall behind
+ * the subjects it came from.
+ */
+export function mergeCurricula(subjects: readonly ModuleSubject[]): CourseCurriculumSelection {
+  const merged = structuredClone(EMPTY_CURRICULUM_SELECTION)
+  const keys = ['articleIds', 'questionIds', 'practicalIds', 'topicNodeIds', 'conceptIds', 'resourceIds'] as const
+  subjects.forEach((subject) => {
+    keys.forEach((key) => {
+      merged[key] = [...new Set([...(merged[key] ?? []), ...(subject.curriculum[key] ?? [])])]
+    })
+  })
+  return merged
+}
