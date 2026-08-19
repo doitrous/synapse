@@ -78,8 +78,12 @@ export function AuthLayout({
             {aside && <aside className="border-t border-line bg-surface-2/45 p-5 sm:p-7 lg:border-s lg:border-t-0 lg:p-9">{aside}</aside>}
           </section>
 
+          {/* What this means for the reader, rather than which products it is
+              built on. Naming the auth provider and the database engine told a
+              student nothing they could act on, and the same sentence used to
+              be a checkbox they had to tick to register. */}
           <p className="mx-auto mt-6 flex max-w-2xl items-center justify-center gap-2 text-center text-[12px] leading-relaxed text-ink-2">
-            <Icon icon={LockKeyhole} size={14} /> Account identity is verified by Supabase Auth; learning data remains in Connect Cortex MariaDB.
+            <Icon icon={LockKeyhole} size={14} /> Your notes, answers and progress are private to your account.
           </p>
         </div>
       </main>
