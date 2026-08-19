@@ -560,9 +560,17 @@ Both are variable TTFs, which `res/font` supports from API 26. Declare them with
 select weight through `FontWeight` on the text styles rather than by adding one `Font` entry per
 weight — a variable font carries the whole weight axis in the single file.
 
-Give `CortexTypography` real values for `bodyLarge`, `bodyMedium`, `titleLarge`, `titleMedium`,
-`labelLarge` and `headlineSmall` at minimum; `bodyLarge` is the reading style and takes the serif,
-everything else takes the sans.
+Assign the two families the way the web assigns them, which is the opposite of the obvious guess:
+
+- **Headings take the serif.** `src/index.css:320-326` sets `h1`–`h5` to `--font-serif` at weight
+  **560**, `line-height: 1.14`, `letter-spacing: -0.011em`.
+- **Body copy takes the sans.** `src/index.css:296-298` sets `body` to `--font-sans` at
+  `0.9375rem` (15sp) with `line-height: 1.55` (≈23sp).
+
+So `headlineSmall`, `titleLarge` and `titleMedium` are serif; `bodyLarge`, `bodyMedium` and
+`labelLarge` are sans. Weight 560 is not one of Material's named constants — write `FontWeight(560)`,
+which a variable font renders exactly. Getting this pair backwards is a divergence nobody reports as
+a bug; it just makes the two clients feel like different products.
 
 - [ ] **Step 4: Run the tests**
 
