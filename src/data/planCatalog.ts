@@ -53,6 +53,8 @@ export interface BillingPeriodDef {
  * a plain tick; one with a value prints the value in the comparison table.
  */
 export interface PlanFeature {
+  /** The section this line belongs to — "Studying", "Tools". Blank groups sit last. */
+  group?: Bilingual
   label: Bilingual
   value?: Bilingual
 }
@@ -239,4 +241,41 @@ export function compareRows(catalog: PlanCatalog, lang: Lang, audience?: PlanAud
     label,
     values: plans.map((plan) => carried.get(label)!.get(plan.id) ?? false),
   }))
+}
+
+export interface CompareGroup {
+  title: string
+  rows: CompareRow[]
+}
+
+/**
+ * The comparison, in the sections the plans put their features in.
+ *
+ * A flat list of every feature across three tiers is fifteen rows with no
+ * shape; the groups are what make it readable, and they come from the plans
+ * rather than from a second hand-written structure beside them. Sections appear
+ * in the order they are first named, and anything ungrouped falls to the end.
+ */
+export function compareGroups(catalog: PlanCatalog, lang: Lang, audience?: PlanAudience): CompareGroup[] {
+  const plans = plansFor(catalog, 'primary', audience)
+  const order: string[] = []
+  const groupOf = new Map<string, string>()
+
+  plans.forEach((plan) => {
+    plan.features.forEach((feature) => {
+      const label = say(feature.label, lang)
+      if (!label || groupOf.has(label)) return
+      const title = say(feature.group, lang)
+      groupOf.set(label, title)
+      if (!order.includes(title)) order.push(title)
+    })
+  })
+
+  const rows = compareRows(catalog, lang, audience)
+  // An untitled section is a real section — it just has no heading — so it is
+  // kept and sorted last rather than dropped along with the features in it.
+  return order
+    .sort((a, b) => (a ? 0 : 1) - (b ? 0 : 1))
+    .map((title) => ({ title, rows: rows.filter((row) => groupOf.get(row.label) === title) }))
+    .filter((group) => group.rows.length > 0)
 }

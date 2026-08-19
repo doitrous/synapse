@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  compareRows, isPurchasable, monthlyEquivalent, perMonth, periodById, plansFor, priceAt,
+  compareGroups, compareRows, isPurchasable, monthlyEquivalent, perMonth, periodById, plansFor, priceAt,
   savingPercent, say, type BillingPeriodDef, type CatalogPlan, type PlanCatalog,
 } from './planCatalog.ts'
 
@@ -190,4 +190,38 @@ test('a coming-soon plan is still offered — it is shown, and refused at the po
   const list = catalog([plan({ id: 'soon', comingSoon: true })])
   assert.deepEqual(plansFor(list, 'primary').map((e) => e.id), ['soon'])
   assert.equal(isPurchasable(list.plans[0], PERIODS[0]), false)
+})
+
+test('the comparison keeps the sections the plans put their features in', () => {
+  const study = { en: 'Studying', ar: 'المذاكرة' }
+  const tools = { en: 'Tools', ar: 'الأدوات' }
+  const free = plan({ id: 'free', features: [
+    { group: study, label: bi('Library'), value: bi('Limited') },
+    { group: tools, label: bi('Notebook') },
+  ] })
+  const paid = plan({ id: 'paid', features: [
+    { group: study, label: bi('Library') },
+    { group: study, label: bi('Adaptive blocks') },
+    { group: tools, label: bi('Notebook') },
+  ] })
+  const groups = compareGroups(catalog([free, paid]), 'en')
+  assert.deepEqual(groups.map((group) => group.title), ['Studying', 'Tools'])
+  assert.deepEqual(groups[0].rows.map((row) => row.label), ['Library', 'Adaptive blocks'])
+  assert.deepEqual(groups[1].rows.map((row) => row.label), ['Notebook'])
+  assert.deepEqual(groups[0].rows[0].values, ['Limited', true])
+})
+
+test('an ungrouped feature is kept, in a section of its own at the end', () => {
+  const one = plan({ features: [
+    { label: bi('Loose') },
+    { group: bi('Studying'), label: bi('Library') },
+  ] })
+  const groups = compareGroups(catalog([one]), 'en')
+  assert.deepEqual(groups.map((group) => group.title), ['Studying', ''])
+  assert.deepEqual(groups[1].rows.map((row) => row.label), ['Loose'])
+})
+
+test('the sections read in Arabic too', () => {
+  const one = plan({ features: [{ group: { en: 'Tools', ar: 'الأدوات' }, label: bi('Notebook') }] })
+  assert.equal(compareGroups(catalog([one]), 'ar')[0].title, 'الأدوات')
 })
