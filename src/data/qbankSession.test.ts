@@ -28,6 +28,14 @@ test('a sitting holding a question that is no longer published is dropped, not s
   assert.equal(restorableQuestions(sitting('s1', ['q1', 'gone']), POOL), null)
 })
 
+test('a sitting that stored no questions is empty, not unrestorable', () => {
+  // The guard answers "can this be sat again", and an empty paper technically
+  // can — so both the mount restore and Continue let it through, and the runner
+  // still needs its own no-questions fallback. Worth pinning: reading `[]` as a
+  // drop would make the two disagree.
+  assert.deepEqual(restorableQuestions(sitting('s1', []), POOL), [])
+})
+
 test('the stored sitting is cleared when it is the one on screen', () => {
   assert.equal(clearsStoredSitting(sitting('s1', ['q1']), 's1'), true)
 })

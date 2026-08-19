@@ -875,6 +875,14 @@ export function QuestionBank() {
    */
   function resumeSaved() {
     if (!saved) return
+    // The same drop the mount effect performs, because that effect runs once and
+    // never again: `usePublishedQuestions` can retire a question long after
+    // `restored` is set, and `restoreFrom` filters tolerantly rather than
+    // refusing. Without this, Continue opened a paper shorter than the one the
+    // student started, still answering to their original answers, and the mirror
+    // then wrote the shortened `questionIds` back over the stored sitting — the
+    // full paper gone with no way back. See `restorableQuestions`.
+    if (!restorableQuestions(saved, questions)) { setSaved(null); setPhase('setup'); return }
     restoreFrom(saved)
     setPhase(saved.phase)
   }

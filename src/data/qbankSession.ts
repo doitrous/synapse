@@ -71,6 +71,14 @@ export function clearsStoredSitting(saved: StoredSitting | null, sessionIdOnScre
  *
  * Narrows `phase` rather than returning a plain boolean, because a stored
  * sitting is never at `setup` and the stored shape says so in its own type.
+ *
+ * The narrowing is only sound on `true`. On `false` TypeScript concludes
+ * `phase` is `'setup'`, which is a lie whenever `reviewing` is true — a review
+ * of a past test sits at `results`. Every caller today returns straight out of
+ * the false branch and so never reads the lie, but an `else` that touched
+ * `phase` there would be wrong with no error to show for it. The signature
+ * stays: `LiveSession.phase` is typed `Exclude<Phase, 'setup'>` off the back of
+ * it.
  */
 export function persistsSitting(phase: Phase, reviewing: boolean): phase is Exclude<Phase, 'setup'> {
   return phase !== 'setup' && !reviewing
