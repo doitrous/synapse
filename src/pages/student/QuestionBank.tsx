@@ -8,6 +8,7 @@ import {
   ArrowRight,
   ArrowLeft,
   Play,
+  AlertTriangle,
   BookOpen,
   ChevronDown,
   RotateCcw,
@@ -503,6 +504,17 @@ export function QuestionBank() {
   // that performed it — which is exactly the render loop this avoids.
   const startedAt = useRef<string | null>(null)
 
+  /**
+   * A start that is waiting on the student's answer about the open sitting.
+   *
+   * Every way of starting a test funnels through `beginSession`, which replaces
+   * the stored sitting outright. Once the hub could show a paused test and a
+   * Start button at the same time, that replacement became silent loss of work
+   * — and for a timed sitting, total loss, since nothing reaches the attempt
+   * log until it is committed at the end.
+   */
+  const [pendingStart, setPendingStart] = useState<{ picked: Question[]; id: string } | null>(null)
+
   useEffect(() => {
     if (restored.current || !savedStatus.hydrated || !saved || !questions.length) return
     const rebuilt = saved.questionIds
@@ -659,7 +671,7 @@ export function QuestionBank() {
     })
     if (!pool.length) return
     openedReview.current = true
-    beginSession(shuffle(pool).slice(0, Math.min(REVIEW_SESSION_SIZE, pool.length)), newSessionId())
+    requestSession(shuffle(pool).slice(0, Math.min(REVIEW_SESSION_SIZE, pool.length)), newSessionId())
     // beginSession is redefined every render; the ref above is what makes this
     // run once, so re-running on its identity would defeat the guard.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -705,6 +717,16 @@ export function QuestionBank() {
     setVisited(new Set([0]))
     setShowAllRationales(false)
     setPhase('running')
+  }
+
+  /** Start a sitting, asking first if it would throw an open one away. */
+  function requestSession(picked: Question[], id: string) {
+    if (!picked.length) return
+    if (saved && !saved.submitted && saved.sessionId !== id && saved.questionIds.length > 0) {
+      setPendingStart({ picked, id })
+      return
+    }
+    beginSession(picked, id)
   }
 
   /**
@@ -757,14 +779,14 @@ export function QuestionBank() {
   }
 
   function testTheseQuestions(items: Question[]) {
-    beginSession(shuffle(items).slice(0, Math.min(count, items.length)), newSessionId())
+    requestSession(shuffle(items).slice(0, Math.min(count, items.length)), newSessionId())
   }
 
   /** Same topics, fresh questions — including ones the student has not seen. */
   function testScopeOf(items: Question[]) {
     const derived = scopeFromQuestions(items, libraryTopics)
     const pool = questionsInScope(questions, derived, libraryTopics)
-    beginSession(shuffle(pool).slice(0, Math.min(count, pool.length)), newSessionId())
+    requestSession(shuffle(pool).slice(0, Math.min(count, pool.length)), newSessionId())
   }
 
   /** Put a finished sitting back on screen, read-only, with its answers. */
@@ -854,11 +876,11 @@ export function QuestionBank() {
     // they were starting showed as untitled ever after.
     const id = newSessionId()
     setSavedNames((current) => ({ ...current, [id]: sessionName.trim() || autoSessionName }))
-    beginSession(shuffle(available).slice(0, Math.min(count, available.length)), id)
+    requestSession(shuffle(available).slice(0, Math.min(count, available.length)), id)
   }
 
   function startPreset(kind: 'weak' | 'emergency' | 'demanding' | 'everything') {
-    beginSession(shuffle(presetPool(kind)).slice(0, count), newSessionId())
+    requestSession(shuffle(presetPool(kind)).slice(0, count), newSessionId())
   }
 
   const stats = useMemo(() => {
@@ -903,6 +925,26 @@ export function QuestionBank() {
             onContinue={resumeSaved}
             onDiscard={discardSession}
           />
+        )}
+
+        {pendingStart && (
+          <Dialog onClose={() => setPendingStart(null)} label={t('Replace the open test?')} size="sm">
+            <PanelHeader title={t('Replace the open test?')} icon={AlertTriangle} />
+            <div className="space-y-4 p-5">
+              <p className="text-[13.5px] leading-relaxed text-ink-2">
+                {t('You have a test still open. Starting a new one replaces it, and anything you have not had marked is lost.')}
+              </p>
+              <div className="flex flex-col gap-2">
+                <Button variant="secondary" size="md" iconLeft={Play} onClick={() => { setPendingStart(null); resumeSaved() }}>
+                  {t('Go back to the open test')}
+                </Button>
+                <Button variant="primary" size="md" onClick={() => { const next = pendingStart; setPendingStart(null); beginSession(next.picked, next.id) }}>
+                  {t('Replace it and start')}
+                </Button>
+                <Button variant="ghost" size="md" onClick={() => setPendingStart(null)}>{t('Cancel')}</Button>
+              </div>
+            </div>
+          </Dialog>
         )}
 
         <section className="mb-4 sm:mb-5" aria-labelledby="quick-start-title">
