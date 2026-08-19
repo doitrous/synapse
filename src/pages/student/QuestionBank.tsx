@@ -33,7 +33,11 @@ import { formatLongDate } from '@/lib/format'
 import { getSubject } from '@/data/subjects'
 import { accuracyOf, bySubject as accuracyBySubject, currentStreak, dailyCounts, distinctItems, weakest } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
-import { pruneManifests, type SessionManifests } from '@/data/qbankCollections'
+import {
+  incorrectIds, omittedIds, pruneManifests, questionsById, scopeFromQuestions,
+  type SessionManifests,
+} from '@/data/qbankCollections'
+import { COLLECTION_ICONS, QuestionCollections, type Collection } from '@/components/qbank/QuestionCollections'
 import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts, type AttemptHistory } from '@/lib/useAttemptLog'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { EndSessionDialog } from '@/components/qbank/EndSessionDialog'
@@ -472,7 +476,7 @@ export function QuestionBank() {
   const [showAllRationales, setShowAllRationales] = useState(false)
   /** What the student called this sitting, if anything. */
   const [sessionName, setSessionName] = useState('')
-  const [hubTab, setHubTab] = useState<'new' | 'previous'>('new')
+  const [hubTab, setHubTab] = useState<'new' | 'collections' | 'previous'>('new')
   /**
    * What each finished sitting is called.
    *
@@ -481,11 +485,7 @@ export function QuestionBank() {
    * covered, so nothing is ever nameless.
    */
   const [savedNames, setSavedNames] = usePersistentState<Record<string, string>>(SESSION_NAMES_STORAGE_KEY, {})
-  // Only the setter is bound. Nothing here reads the map back, and
-  // `noUnusedLocals` rejects a binding nobody uses — the same reason
-  // `useAttemptLog` writes `const [, setMonth] = …`. A later task restores the
-  // value binding when the collections start reading it.
-  const [, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
+  const [sessionQuestions, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
 
   /**
    * The sitting in progress, kept where a route change cannot take it.
@@ -571,6 +571,34 @@ export function QuestionBank() {
   // the library has no article for — would resolve to no questions at all.
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = useMemo(() => questionsInScope(articleQuestions, scope, libraryTopics), [articleQuestions, libraryTopics, scope])
+
+  const flaggedQuestions = useMemo(() => questionsById(questions, marked), [questions, marked])
+  const incorrectQuestions = useMemo(
+    () => questionsById(questions, incorrectIds(history.records)),
+    [questions, history.records],
+  )
+  const omittedQuestions = useMemo(
+    () => questionsById(questions, omittedIds(sessionQuestions, history.records)),
+    [questions, sessionQuestions, history.records],
+  )
+
+  const collections: Collection[] = useMemo(() => [
+    {
+      key: 'flagged', title: t('Flagged'), icon: COLLECTION_ICONS.flagged,
+      empty: t('Flag a question while you are sitting a test and it waits here.'),
+      questions: flaggedQuestions,
+    },
+    {
+      key: 'incorrect', title: t('Got wrong'), icon: COLLECTION_ICONS.incorrect,
+      empty: t('Questions you answered wrongly collect here, and leave once you get them right.'),
+      questions: incorrectQuestions,
+    },
+    {
+      key: 'omitted', title: t('Omitted'), icon: COLLECTION_ICONS.omitted,
+      empty: t('Questions a test served you but you never answered collect here.'),
+      questions: omittedQuestions,
+    },
+  ], [flaggedQuestions, incorrectQuestions, omittedQuestions, t])
 
   /**
    * The subjects this student is actually weakest in.
@@ -670,6 +698,7 @@ export function QuestionBank() {
     setStruck({})
     setChecked({})
     setReviewing(false)
+    setReviewReturn('results')
     setSubmitted(false)
     setElapsed(0)
     questionStartedAt.current = 0
@@ -703,6 +732,41 @@ export function QuestionBank() {
       .filter((question): question is Question => Boolean(question))
   }, [history.records, questions])
 
+  /**
+   * Where a read-only view goes when it is done.
+   *
+   * A past test has results to go back to; a collection does not — it was never
+   * sat as a sitting — so it returns to the hub instead.
+   */
+  const [reviewReturn, setReviewReturn] = useState<'setup' | 'results'>('results')
+
+  /** Read a collection, answers and explanations shown. */
+  function viewCollection(items: Question[]) {
+    if (!items.length) return
+    setSession(items)
+    setSessionId(newSessionId())
+    setAnswers({})
+    setChecked({})
+    setStruck({})
+    setVisited(new Set(items.map((_, index) => index)))
+    setIdx(0)
+    setSubmitted(false)
+    setReviewing(true)
+    setReviewReturn('setup')
+    setPhase('running')
+  }
+
+  function testTheseQuestions(items: Question[]) {
+    beginSession(shuffle(items).slice(0, Math.min(count, items.length)), newSessionId())
+  }
+
+  /** Same topics, fresh questions — including ones the student has not seen. */
+  function testScopeOf(items: Question[]) {
+    const derived = scopeFromQuestions(items, libraryTopics)
+    const pool = questionsInScope(questions, derived, libraryTopics)
+    beginSession(shuffle(pool).slice(0, Math.min(count, pool.length)), newSessionId())
+  }
+
   /** Put a finished sitting back on screen, read-only, with its answers. */
   function reviewSession(sessionId: string) {
     const rebuilt = reviewableQuestions(sessionId)
@@ -727,6 +791,7 @@ export function QuestionBank() {
     setSessionName(savedNames[sessionId] ?? t('Untitled test'))
     setIdx(0)
     setReviewing(true)
+    setReviewReturn('results')
     setPhase('running')
   }
 
@@ -871,14 +936,22 @@ export function QuestionBank() {
         <Tabs
           className="mb-4"
           value={hubTab}
-          onChange={(next) => setHubTab(next as 'new' | 'previous')}
+          onChange={(next) => setHubTab(next as 'new' | 'collections' | 'previous')}
           items={[
             { value: 'new', label: t('New session'), icon: GraduationCap },
+            { value: 'collections', label: t('Flagged & missed'), icon: Flag, count: flaggedQuestions.length + incorrectQuestions.length + omittedQuestions.length },
             { value: 'previous', label: t('Previous tests'), icon: History, count: sessionSummaries.length },
           ]}
         />
 
-        {hubTab === 'previous' ? (
+        {hubTab === 'collections' ? (
+          <QuestionCollections
+            collections={collections}
+            onView={viewCollection}
+            onTestThese={testTheseQuestions}
+            onTestScope={testScopeOf}
+          />
+        ) : hubTab === 'previous' ? (
           <PreviousTests
             sessions={sessionSummaries}
             names={savedNames}
@@ -1222,11 +1295,11 @@ export function QuestionBank() {
               {t('Report')}
             </button>
             <button
-              onClick={() => (reviewing ? setPhase('results') : setEndOpen(true))}
+              onClick={() => (reviewing ? setPhase(reviewReturn) : setEndOpen(true))}
               className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3 text-[12.5px] font-semibold text-ink shadow-panel transition-colors hover:bg-inset sm:min-h-9"
             >
               <Icon icon={reviewing ? ArrowLeft : LogOut} size={14} />
-              {reviewing ? t('Back to results') : t('End')}
+              {reviewing ? (reviewReturn === 'results' ? t('Back to results') : t('Done')) : t('End')}
             </button>
           </div>
         </div>
@@ -1436,7 +1509,7 @@ export function QuestionBank() {
               iconRight={reviewing ? undefined : Trophy}
               onClick={() => {
                 if (!reviewing) { commitAnswers(); setSubmitted(true) }
-                setPhase('results')
+                setPhase(reviewing ? reviewReturn : 'results')
               }}
             >
               {reviewing ? 'Finish review' : 'See results'}
