@@ -11,6 +11,7 @@ struct SignedInView: View {
 
     @State private var container: Container?
     @State private var failure: String?
+    @State private var strings = Localisation()
 
     var body: some View {
         Group {
@@ -28,7 +29,17 @@ struct SignedInView: View {
                     .background(Theme.paper)
             }
         }
-        .task { await start() }
+        // The whole app, in the student's language and reading in its
+        // direction. Applied once at the root: SwiftUI lays out in leading and
+        // trailing rather than left and right, so flipping this flips every
+        // stack, list and navigation bar beneath it at once.
+        .environment(\.strings, strings)
+        .environment(\.layoutDirection, strings.layoutDirection)
+        .environment(\.locale, strings.language.locale)
+        .task {
+            await start()
+            await strings.load()
+        }
     }
 
     /// Five tabs, deliberately.
@@ -41,22 +52,22 @@ struct SignedInView: View {
         let audience = container.audienceStore.audience
 
         return TabView {
-            Tab("Today", systemImage: "sun.max") {
+            Tab(strings("Today"), systemImage: "sun.max") {
                 DashboardView(
                     store: container.store, sync: container.sync,
                     user: user, auth: auth, audienceStore: container.audienceStore
                 )
             }
-            Tab("Library", systemImage: "books.vertical") {
+            Tab(strings("Library"), systemImage: "books.vertical") {
                 LibraryView(store: container.store, sync: container.sync, audience: audience)
             }
-            Tab("Questions", systemImage: "questionmark.circle") {
+            Tab(strings("Questions"), systemImage: "questionmark.circle") {
                 QuestionBankView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
-            Tab("Resources", systemImage: "folder") {
+            Tab(strings("Resources"), systemImage: "folder") {
                 ResourcesView(store: container.store, sync: container.sync, audience: audience, api: auth.api)
             }
-            Tab("More", systemImage: "square.grid.2x2") {
+            Tab(strings("More"), systemImage: "square.grid.2x2") {
                 MoreView(
                     store: container.store, sync: container.sync,
                     audience: audience, audienceStore: container.audienceStore,
@@ -75,6 +86,7 @@ struct SignedInView: View {
         do {
             let store = try LocalStore(path: LocalStore.defaultURL().path)
             let sync = SyncEngine(api: auth.api, store: store)
+            strings = Localisation(api: auth.api, sync: sync)
             let audienceStore = AudienceStore(api: auth.api, store: store, sync: sync)
             container = Container(store: store, sync: sync, audienceStore: audienceStore)
 
@@ -99,6 +111,8 @@ struct SignedInView: View {
 
 /// Account, sync state, and signing out.
 struct AccountView: View {
+    @Environment(\.strings) private var strings
+
     let user: SessionUser
     let auth: AuthModel
     let sync: SyncEngine
@@ -117,6 +131,26 @@ struct AccountView: View {
                 .listRowBackground(Theme.surface)
 
                 cohort
+
+                Section {
+                    // In each language's own name. Someone looking for Arabic
+                    // is looking for "العربية", not for the English word for it.
+                    Picker(strings("Language"), selection: Binding(
+                        get: { strings.language },
+                        set: { chosen in Task { await strings.set(chosen) } }
+                    )) {
+                        ForEach(AppLanguage.allCases, id: \.self) {
+                            Text($0.ownName).tag($0)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                } header: {
+                    Text(strings("Language"))
+                } footer: {
+                    Text(strings("Applies everywhere, and follows you to the website."))
+                        .font(Theme.ui(12))
+                }
+                .listRowBackground(Theme.surface)
 
                 Section("Sync") {
                     row("Status", statusText)
