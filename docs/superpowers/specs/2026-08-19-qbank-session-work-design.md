@@ -35,7 +35,7 @@ These were requested and are deferred to their own specs, in this order:
 |---|---|---|
 | C | Essay questions — student tab, admin Written Setup, bulk import, tips, per-question helpers | — |
 | D | Flashcards — student decks under Notebook, admin Flashcards Setup, Anki-style scheduler, Medical Taxonomy decks | — |
-| E | Microscope / histology slide viewer | — |
+| E | Histology — student tab under practical studying, admin tab for adding slides, animated microscope trigger | — |
 | F | Study parties — mixed content, university/year confinement, open vs private, party link | C |
 | G | Word-tile game, solo and with a friend | F |
 | H | Facebook connect and the Friends tab | F |
@@ -53,6 +53,35 @@ rediscovered:
 - **Anki is AGPL-3.0.** Slice D matches its defaults and behaviour — learning
   steps 1m/10m, graduating interval 1d, easy 4d, starting ease 2.50, 20 new and
   200 reviews per day — without copying its code.
+
+#### Slice E — requirements captured 2026-08-19
+
+Given directly, ahead of that slice's own brainstorm:
+
+- **A Histology tab for students**, under practical studying, and **a Histology
+  tab in the admin console** for adding new slides. Two surfaces, one content
+  kind — the same student/admin pairing every other content kind here already
+  has (Questions Setup, Practical Setup, Glossary Setup).
+- **The microscope trigger is animated from a supplied video:**
+  `~/Downloads/grok-video-bb967f78-1f02-4c6d-8341-ebe3b0b41abe.mp4` — H.264,
+  960×960 square, 10.04s, 241 frames (~24fps), 3.7 MB, with an AAC audio track.
+
+Four things that slice will have to settle about the asset, noted now so they
+are not discovered late:
+
+1. **It lives outside the repo.** It must be copied in (`public/`) and
+   committed, or the build has no asset. It is not currently tracked anywhere.
+2. **3.7 MB is heavy for a UI trigger**, and this app is used on phones over
+   Egyptian mobile data. Expect to trim it to the seconds actually used and
+   re-encode — WebM/VP9 or an AV1 MP4 — rather than ship the source.
+3. **Strip the audio.** A UI animation that plays sound when a student presses
+   a control is a defect, and the AAC track is dead weight besides.
+4. **It must respect `prefers-reduced-motion`**, like every other authored
+   motion in this design system. A still frame is the fallback, so a poster
+   image needs extracting from the same source.
+
+The square aspect suits a microscope rendered as an object on the page, which
+is what "they press on microscope, then choose the slide" implies.
 
 ---
 
