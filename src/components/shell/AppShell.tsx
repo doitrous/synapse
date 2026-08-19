@@ -138,7 +138,7 @@ export function AppShell({ portal }: { portal: Portal }) {
       )}
 
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
-      <StudyContextMenu />
+      <StudyContextMenu onOpenSearch={() => setSearchOpen(true)} />
       {portal === 'student' && <StudentOnboarding />}
       {/* Docked, not a page: the question is nearly always about what is
           already on screen. Renders nothing unless the assistant is on and
