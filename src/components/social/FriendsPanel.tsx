@@ -5,8 +5,13 @@ import { Button } from '@/components/ui/Button'
 import { Avatar } from '@/components/ui/Avatar'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { TextInput } from '@/components/ui/Field'
-import type { FriendProfile } from '@/lib/useFriends'
+import { FRIEND_REFUSALS, type FriendProfile } from '@/lib/useFriends'
 import { useT } from '@/lib/i18n'
+
+/** Shown in place of a server reason this map does not know, or a network failure. */
+function fallbackRefusal(t: (s: string) => string): string {
+  return t('That did not work. Try again.')
+}
 
 /**
  * The link a student sends when there is no directory to search.
@@ -88,13 +93,54 @@ export function FriendsPanel({
   friends: FriendProfile[]
   incoming: FriendProfile[]
   outgoing: FriendProfile[]
-  onRespond: (userId: string, accept: boolean) => void
-  onRemove: (userId: string) => void
+  onRespond: (userId: string, accept: boolean) => Promise<{ ok: boolean; reason?: string }>
+  onRemove: (userId: string) => Promise<{ ok: boolean; reason?: string }>
   onStudyTogether: (friend: FriendProfile) => void
   onChallenge: (friend: FriendProfile) => void
   onCreateInvite: () => Promise<{ token: string }>
 }) {
   const t = useT()
+
+  // One in-flight row at a time is disabled by its own id, so a double-click
+  // cannot start a second mutation (and the reload it triggers) before the
+  // first has resolved.
+  const [actingIds, setActingIds] = useState<Set<string>>(new Set())
+  const [requestsMessage, setRequestsMessage] = useState('')
+  const [friendsMessage, setFriendsMessage] = useState('')
+
+  function markActing(userId: string, acting: boolean) {
+    setActingIds((prev) => {
+      const next = new Set(prev)
+      if (acting) next.add(userId)
+      else next.delete(userId)
+      return next
+    })
+  }
+
+  async function handleRespond(userId: string, accept: boolean) {
+    markActing(userId, true)
+    try {
+      const result = await onRespond(userId, accept)
+      setRequestsMessage(result.ok ? '' : (FRIEND_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t)))
+    } catch {
+      setRequestsMessage(fallbackRefusal(t))
+    } finally {
+      markActing(userId, false)
+    }
+  }
+
+  async function handleRemove(userId: string) {
+    markActing(userId, true)
+    try {
+      const result = await onRemove(userId)
+      setFriendsMessage(result.ok ? '' : (FRIEND_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t)))
+    } catch {
+      setFriendsMessage(fallbackRefusal(t))
+    } finally {
+      markActing(userId, false)
+    }
+  }
+
   return (
     <div className="space-y-4">
       <InviteLinkPanel onCreateInvite={onCreateInvite} />
@@ -107,15 +153,28 @@ export function FriendsPanel({
               <li key={person.userId} className="flex items-center gap-3 px-4 py-3">
                 <Avatar name={person.displayName} size="sm" />
                 <span className="min-w-0 flex-1 truncate text-[13.5px] text-ink">{person.displayName}</span>
-                <Button variant="primary" size="sm" iconLeft={Check} onClick={() => onRespond(person.userId, true)}>
+                <Button
+                  variant="primary"
+                  size="sm"
+                  iconLeft={Check}
+                  disabled={actingIds.has(person.userId)}
+                  onClick={() => void handleRespond(person.userId, true)}
+                >
                   {t('Accept')}
                 </Button>
-                <Button variant="ghost" size="sm" iconLeft={X} onClick={() => onRespond(person.userId, false)}>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  iconLeft={X}
+                  disabled={actingIds.has(person.userId)}
+                  onClick={() => void handleRespond(person.userId, false)}
+                >
                   {t('Decline')}
                 </Button>
               </li>
             ))}
           </ul>
+          {requestsMessage && <p role="status" className="border-t border-line px-4 py-2.5 text-[12.5px] text-danger">{requestsMessage}</p>}
         </Panel>
       )}
 
@@ -141,13 +200,19 @@ export function FriendsPanel({
                 <Button variant="secondary" size="sm" iconLeft={Swords} onClick={() => onChallenge(person)}>
                   {t('Challenge')}
                 </Button>
-                <Button variant="ghost" size="sm" onClick={() => onRemove(person.userId)}>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  disabled={actingIds.has(person.userId)}
+                  onClick={() => void handleRemove(person.userId)}
+                >
                   {t('Remove')}
                 </Button>
               </li>
             ))}
           </ul>
         )}
+        {friendsMessage && <p role="status" className="border-t border-line px-4 py-2.5 text-[12.5px] text-danger">{friendsMessage}</p>}
       </Panel>
 
       {outgoing.length > 0 && (
