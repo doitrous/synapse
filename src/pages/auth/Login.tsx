@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useNavigate, useSearchParams } from 'react-router-dom'
+import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
 import { AlertCircle, ArrowRight, Eye, EyeOff, LogIn } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
@@ -22,7 +22,18 @@ export function Login() {
   const navigate = useNavigate()
   const [params] = useSearchParams()
   const next = safeNext(params.get('next'))
-  const [email, setEmail] = useState('')
+  const location = useLocation()
+  /**
+   * Somebody sent here from sign-up already told us who they are.
+   *
+   * Their email arrives filled in. A phone cannot be signed in with, so it is
+   * shown as a reminder of which account they are looking for rather than
+   * dropped, which would leave them staring at an empty form wondering what
+   * they were told.
+   */
+  const knownPhone = params.get('phone') ?? ''
+  const notice = (location.state as { notice?: string } | null)?.notice ?? ''
+  const [email, setEmail] = useState(() => params.get('email') ?? '')
   const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
   const [loading, setLoading] = useState(false)
@@ -65,6 +76,12 @@ export function Login() {
         {!isSupabaseConfigured && (
           <div className="rounded-lg border border-warning/30 bg-warning-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
             Sign-in is unavailable: this deployment is not connected to its account service yet.
+          </div>
+        )}
+        {notice && (
+          <div className="rounded-lg border border-accent-line bg-accent-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
+            {notice}
+            {knownPhone && <span className="mt-1 block font-mono text-[12px] text-ink-3">{knownPhone}</span>}
           </div>
         )}
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}

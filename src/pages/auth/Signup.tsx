@@ -8,6 +8,8 @@ import { Icon } from '@/components/ui/Icon'
 import { isSupabaseConfigured, supabase } from '@/lib/supabase'
 import { authErrorMessage } from './authMessages'
 import { rememberPendingEmail } from './pendingEmail'
+import { CONFLICT_MESSAGE, normalisePhone, signInPathFor } from '@/data/accountIdentity'
+import { identityConflict } from '@/lib/accountExists'
 
 const ownership = [
   { icon: BookOpenText, title: 'Notes and highlights', detail: 'Annotations, personal articles, tags, and reading state.' },
@@ -19,6 +21,8 @@ export function Signup() {
   const navigate = useNavigate()
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [nationality, setNationality] = useState('')
   const [password, setPassword] = useState('')
   const [confirm, setConfirm] = useState('')
   const [showPassword, setShowPassword] = useState(false)
@@ -35,16 +39,34 @@ export function Signup() {
     const cleanEmail = email.trim().toLowerCase()
     if (cleanName.length < 2) return setError('Enter your full name before continuing.')
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(cleanEmail)) return setError('Enter a complete email address, such as you@university.edu.')
+    const cleanPhone = normalisePhone(phone)
+    if (!cleanPhone) return setError('Enter your phone number, including the country code if you are outside Egypt.')
     if (!checks.every(Boolean)) return setError('Use at least 10 characters with upper-case, lower-case, and a number or symbol.')
     if (password !== confirm) return setError('Passwords do not match. Re-enter the same password in both fields.')
     if (!accepted) return setError('Please acknowledge the privacy and account terms before continuing.')
 
     setLoading(true)
+
+    // Asked before anything is created. A person who already has an account is
+    // sent to sign in with the field they used filled in, rather than being
+    // handed an error after Supabase has made an auth user with no roster row.
+    let conflict = null
+    try {
+      conflict = await identityConflict({ email: cleanEmail, phone: cleanPhone })
+    } catch {
+      // The check is a courtesy; the unique index is the guarantee. A server
+      // that cannot answer must not stop somebody registering.
+    }
+    if (conflict) {
+      setLoading(false)
+      return navigate(signInPathFor(conflict), { state: { notice: CONFLICT_MESSAGE[conflict.field] } })
+    }
+
     const { error: signUpError } = await supabase.auth.signUp({
       email: cleanEmail,
       password,
       options: {
-        data: { full_name: cleanName },
+        data: { full_name: cleanName, phone: cleanPhone, nationality: nationality.trim() },
         emailRedirectTo: `${window.location.origin}/auth/verify-email`,
       },
     })
@@ -74,6 +96,14 @@ export function Signup() {
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
         <Field label="Full name" htmlFor="signup-name"><TextInput id="signup-name" autoComplete="name" required minLength={2} value={name} onChange={(event) => setName(event.target.value)} /></Field>
         <Field label="University email" htmlFor="signup-email"><TextInput id="signup-email" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu" /></Field>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label="Phone number" htmlFor="signup-phone" hint="One account per number">
+            <TextInput id="signup-phone" type="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="0100 123 4567" />
+          </Field>
+          <Field label="Nationality" htmlFor="signup-nationality" hint="Optional">
+            <TextInput id="signup-nationality" autoComplete="country-name" value={nationality} onChange={(event) => setNationality(event.target.value)} placeholder="Egyptian" />
+          </Field>
+        </div>
         <Field label="Password" htmlFor="signup-password">
           <div className="relative"><TextInput id="signup-password" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12" /><button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}><Icon icon={showPassword ? EyeOff : Eye} size={16} /></button></div>
         </Field>
