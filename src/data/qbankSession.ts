@@ -68,8 +68,11 @@ export function clearsStoredSitting(saved: StoredSitting | null, sessionIdOnScre
  * The other half of that rule lives at the call site: `reviewing` has to be
  * cleared when the review is left, or this stays false for the rest of the
  * mount and the sitting stops being stored at all.
+ *
+ * Narrows `phase` rather than returning a plain boolean, because a stored
+ * sitting is never at `setup` and the stored shape says so in its own type.
  */
-export function persistsSitting(phase: Phase, reviewing: boolean): boolean {
+export function persistsSitting(phase: Phase, reviewing: boolean): phase is Exclude<Phase, 'setup'> {
   return phase !== 'setup' && !reviewing
 }
 

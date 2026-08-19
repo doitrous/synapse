@@ -38,6 +38,10 @@ import {
   incorrectIds, omittedIds, pruneManifests, questionsById, scopeFromQuestions,
   type SessionManifests,
 } from '@/data/qbankCollections'
+import {
+  clearsStoredSitting, finishedManifests, liveSittingId, pendingAttempts, persistsSitting,
+  restorableQuestions, selectClearsStrike, type Phase,
+} from '@/data/qbankSession'
 import { COLLECTION_ICONS, QuestionCollections, type Collection } from '@/components/qbank/QuestionCollections'
 import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts, type AttemptHistory } from '@/lib/useAttemptLog'
 import { usePersistentState } from '@/lib/usePersistentState'
@@ -73,7 +77,6 @@ import { useImmersion } from '@/components/shell/ImmersionContext'
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
 type Source = 'all' | 'flagged' | 'incorrect' | 'omitted'
-type Phase = 'setup' | 'running' | 'results'
 
 function shuffle<T>(a: T[]): T[] {
   const b = [...a]
@@ -514,7 +517,7 @@ export function QuestionBank() {
    * test straight over the sitting the student still has paused. Only the
    * sitting that was actually started or resumed here may be mirrored.
    */
-  const liveSittingId = useRef<string | null>(null)
+  const mirroredSittingId = useRef<string | null>(null)
 
   /**
    * A start that is waiting on the student's answer about the open sitting.
@@ -541,7 +544,7 @@ export function QuestionBank() {
       .map((id) => questions.find((question) => question.id === id))
       .filter((question): question is Question => Boolean(question))
     startedAt.current = sitting.startedAt
-    liveSittingId.current = sitting.sessionId
+    mirroredSittingId.current = sitting.sessionId
     setSession(rebuilt)
     setIdx(Math.min(sitting.idx, rebuilt.length - 1))
     setAnswers(sitting.answers)
@@ -562,12 +565,8 @@ export function QuestionBank() {
 
   useEffect(() => {
     if (restored.current || !savedStatus.hydrated || !saved || !questions.length) return
-    const rebuilt = saved.questionIds
-      .map((id) => questions.find((question) => question.id === id))
-      .filter((question): question is Question => Boolean(question))
-    // A session whose questions have since been unpublished cannot be resumed
-    // honestly, so it is dropped rather than silently shortened.
-    if (rebuilt.length !== saved.questionIds.length) { setSaved(null); restored.current = true; return }
+    // Null when a question has since been unpublished — see `restorableQuestions`.
+    if (!restorableQuestions(saved, questions)) { setSaved(null); restored.current = true; return }
     restored.current = true
     restoreFrom(saved)
     // Deliberately not `setPhase(saved.phase)`. Everything about the sitting is
@@ -586,14 +585,12 @@ export function QuestionBank() {
     // stored sitting is now cleared only where it is genuinely finished with:
     // `discardSession`, called from Terminate, from "Start another", and from
     // the guards that find themselves with no questions.
-    // A review is not work in progress. It used to be mirrored like one, so
-    // opening a finished test from Previous tests wrote itself over whatever
-    // sitting the student had paused — and the paused sitting was gone.
-    if (phase === 'setup' || reviewing) return
+    // A review is not work in progress either — see `persistsSitting`.
+    if (!persistsSitting(phase, reviewing)) return
     // And never write a session that is not the live sitting. Leaving a past
     // test clears `reviewing` but stays on that test's results screen, which was
     // enough for the mirror to file it as the open sitting — over the paused one.
-    if (liveSittingId.current !== sessionId) return
+    if (mirroredSittingId.current !== sessionId) return
     if (!startedAt.current) startedAt.current = new Date().toISOString()
     setSaved({
       questionIds: session.map((question) => question.id),
@@ -626,13 +623,8 @@ export function QuestionBank() {
     [questions, history.records],
   )
   const omittedQuestions = useMemo(() => {
-    // A sitting files its manifest the moment it starts, so an open one would
-    // have every question it has not reached yet counted as omitted — offered
-    // back on the same screen as the card offering to continue it. Omitted
-    // means left unanswered in a sitting that is over.
-    const finished = saved && !saved.submitted
-      ? Object.fromEntries(Object.entries(sessionQuestions).filter(([id]) => id !== saved.sessionId))
-      : sessionQuestions
+    // Without the sitting still open — see `finishedManifests`.
+    const finished = finishedManifests(sessionQuestions, saved)
     return questionsById(questions, omittedIds(finished, history.records))
   }, [questions, sessionQuestions, history.records, saved])
 
@@ -757,7 +749,7 @@ export function QuestionBank() {
     // Filed here rather than when the sitting ends: a test abandoned halfway
     // still served its questions, and the ones never reached are still omitted.
     setSessionQuestions((current) => pruneManifests({ ...current, [id]: picked.map((question) => question.id) }))
-    liveSittingId.current = id
+    mirroredSittingId.current = id
     setSession(picked)
     setSessionId(id)
     setIdx(0)
@@ -820,7 +812,7 @@ export function QuestionBank() {
   /** Read a collection, answers and explanations shown. */
   function viewCollection(items: Question[]) {
     if (!items.length) return
-    liveSittingId.current = null
+    mirroredSittingId.current = null
     setSession(items)
     setSessionId(newSessionId())
     setAnswers({})
@@ -861,7 +853,7 @@ export function QuestionBank() {
       const correctIndex = question.options.findIndex((option) => option.correct)
       if (record.correct === true && correctIndex >= 0) answered[record.itemId] = correctIndex
     }
-    liveSittingId.current = null
+    mirroredSittingId.current = null
     setSession(rebuilt)
     setAnswers(answered)
     setChecked(marked)
@@ -890,12 +882,9 @@ export function QuestionBank() {
   /** The sitting is finished with — stop offering to resume it. */
   function discardSession() {
     startedAt.current = null
-    liveSittingId.current = null
-    // Only the sitting actually on screen. This is reached from the results of a
-    // past test too, and it used to throw away whatever sitting the student had
-    // paused — silently, and on a timed one, before a single answer had reached
-    // the attempt log.
-    if (saved?.sessionId === sessionId) setSaved(null)
+    mirroredSittingId.current = null
+    // Only the sitting actually on screen — see `clearsStoredSitting`.
+    if (clearsStoredSitting(saved, sessionId)) setSaved(null)
     setPhase('setup')
   }
 
@@ -926,7 +915,7 @@ export function QuestionBank() {
       delete next[sessionId]
       return next
     })
-    if (saved?.sessionId === sessionId) setSaved(null)
+    if (clearsStoredSitting(saved, sessionId)) setSaved(null)
   }
 
   const scopeSubjectName = useMemo(() => {
@@ -1066,7 +1055,7 @@ export function QuestionBank() {
           <PreviousTests
             sessions={sessionSummaries}
             names={savedNames}
-            liveSessionId={saved && !saved.submitted ? saved.sessionId : null}
+            liveSessionId={liveSittingId(saved)}
             onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
             onResume={resumeSaved}
             onTerminate={discardSession}
@@ -1346,11 +1335,7 @@ export function QuestionBank() {
   /**
    * Write a record for every answered question that does not have one.
    *
-   * `checkAnswer` is the only other writer and its button only exists in tutor
-   * mode, so a timed sitting used to reach its results having recorded nothing
-   * at all: it never appeared in Previous tests, never moved the student's
-   * accuracy, and left every question they got wrong invisible to the list
-   * that is meant to collect them.
+   * What a timed sitting owes the log at the end — see `pendingAttempts`.
    *
    * `seconds` is null here. The per-question timer is only meaningful for an
    * answer committed as it was given; a sitting submitted at the end cannot say
@@ -1358,7 +1343,7 @@ export function QuestionBank() {
    * measurement in the log that nothing measured.
    */
   function commitAnswers() {
-    const pending = session.filter((question) => answers[question.id] != null && !checked[question.id])
+    const pending = pendingAttempts(session, answers, checked)
     if (!pending.length) return
     logAttempts(pending.map((question) => attemptFor(question, answers[question.id], null)))
     setChecked((current) => {
@@ -1545,15 +1530,9 @@ export function QuestionBank() {
                       onClick={() => {
                         setAnswers((a) => ({ ...a, [q.id]: i }))
                         // Symmetric with `toggleStrike`, which drops the
-                        // selection when it strikes the selected option. An
-                        // option cannot be both chosen and ruled out — it used
-                        // to render accent-selected and crossed through at once,
-                        // and would be logged as the student's answer.
-                        setStruck((current) => {
-                          const next = new Set(current[q.id] ?? [])
-                          if (!next.delete(i)) return current
-                          return { ...current, [q.id]: [...next] }
-                        })
+                        // selection when it strikes the selected option — see
+                        // `selectClearsStrike`.
+                        setStruck((current) => selectClearsStrike(current, q.id, i))
                       }}
                       aria-label={`${t('Choose answer')} ${LETTERS[i]}`}
                       className="-m-2 cursor-pointer rounded-full p-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] sm:m-0 sm:p-0"
