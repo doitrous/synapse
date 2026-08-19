@@ -114,8 +114,10 @@ export const CHALLENGE_REFUSALS: Record<string, string> = {
   invalid_opponent: 'Choose a friend to challenge.',
   not_friends: 'You can only challenge a friend.',
   no_questions: 'Pick at least one published question for the challenge.',
+  // One sentence covers both "no such challenge" and "a real one that is not
+  // yours" — the server deliberately answers the same for either, so telling
+  // them apart here would put back the difference it removes.
   not_found: 'That challenge could not be found.',
-  not_your_challenge: 'That is not your challenge.',
   not_pending: 'That challenge has already been answered.',
   not_running: 'That challenge is not running.',
   not_in_challenge: 'That question is not part of this challenge.',

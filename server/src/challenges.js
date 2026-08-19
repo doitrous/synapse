@@ -32,6 +32,9 @@ async function areFriends(a, b) {
  * Every handler below gates on this. A stranger asking about someone else's
  * challenge gets exactly what they'd get for an id that doesn't exist —
  * whether a challenge exists between two other people is not theirs to probe.
+ * That is why the mutations below all answer `not_found` rather than naming
+ * "not yours": a distinct reason for a real challenge you are not part of is
+ * an existence oracle, and the read path never gave one.
  */
 function parseQuestionIds(raw) {
   try {
@@ -78,7 +81,7 @@ export async function createChallenge(userId, { opponentId, questionIds, scopeLa
 export async function respondToChallenge(userId, id, accept) {
   const row = await challengeRow(id)
   if (!row) return { ok: false, reason: 'not_found' }
-  if (sideOf(row, userId) !== 'opponent') return { ok: false, reason: 'not_your_challenge' }
+  if (sideOf(row, userId) !== 'opponent') return { ok: false, reason: 'not_found' }
   if (row.status !== 'sent') return { ok: false, reason: 'not_pending' }
   await pool.query('UPDATE challenges SET status = ? WHERE id = ?', [accept ? 'running' : 'declined', id])
   return { ok: true, challenge: await challengeFor(userId, id) }
@@ -88,7 +91,7 @@ export async function submitChallengeAnswer(userId, id, { questionId, chosenInde
   const row = await challengeRow(id)
   if (!row) return { ok: false, reason: 'not_found' }
   const side = sideOf(row, userId)
-  if (!side) return { ok: false, reason: 'not_your_challenge' }
+  if (!side) return { ok: false, reason: 'not_found' }
   if (row.status !== 'running') return { ok: false, reason: 'not_running' }
 
   const questionIds = parseQuestionIds(row.questionIds)
@@ -117,7 +120,7 @@ export async function finishChallenge(userId, id) {
   const row = await challengeRow(id)
   if (!row) return { ok: false, reason: 'not_found' }
   const side = sideOf(row, userId)
-  if (!side) return { ok: false, reason: 'not_your_challenge' }
+  if (!side) return { ok: false, reason: 'not_found' }
   // Without this gate, either side could call finish while the challenge sits
   // at `sent` (never accepted) or `declined`; two such calls would flip status
   // straight to `complete` with zero answers recorded. Reasons match the
