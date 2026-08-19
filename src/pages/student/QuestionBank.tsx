@@ -72,6 +72,7 @@ import { useImmersion } from '@/components/shell/ImmersionContext'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
+type Source = 'all' | 'flagged' | 'incorrect' | 'omitted'
 type Phase = 'setup' | 'running' | 'results'
 
 function shuffle<T>(a: T[]): T[] {
@@ -431,6 +432,7 @@ export function QuestionBank() {
   const [phase, setPhase] = useState<Phase>('setup')
   const [scope, setScope] = useState<Scope>(() => new Set())
   const [mode, setMode] = useState<Mode>('tutor')
+  const [source, setSource] = useState<Source>('all')
   const [lenChoice, setLenChoice] = useState<'5' | '10' | '20' | '40' | 'custom'>('5')
   const [customLen, setCustomLen] = useState(15)
   const count = lenChoice === 'custom' ? Math.min(MAX_QUESTIONS, Math.max(1, customLen || 1)) : Number(lenChoice)
@@ -582,7 +584,6 @@ export function QuestionBank() {
   // The same merged tree the chooser offers, or a chapter picked there — one
   // the library has no article for — would resolve to no questions at all.
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
-  const available = useMemo(() => questionsInScope(articleQuestions, scope, libraryTopics), [articleQuestions, libraryTopics, scope])
 
   const flaggedQuestions = useMemo(() => questionsById(questions, marked), [questions, marked])
   const incorrectQuestions = useMemo(
@@ -592,6 +593,18 @@ export function QuestionBank() {
   const omittedQuestions = useMemo(
     () => questionsById(questions, omittedIds(sessionQuestions, history.records)),
     [questions, sessionQuestions, history.records],
+  )
+
+  const sourcePool = useMemo(() => {
+    if (source === 'flagged') return flaggedQuestions
+    if (source === 'incorrect') return incorrectQuestions
+    if (source === 'omitted') return omittedQuestions
+    return articleQuestions
+  }, [source, articleQuestions, flaggedQuestions, incorrectQuestions, omittedQuestions])
+
+  const available = useMemo(
+    () => questionsInScope(sourcePool, scope, libraryTopics),
+    [sourcePool, libraryTopics, scope],
   )
 
   const collections: Collection[] = useMemo(() => [
@@ -1011,6 +1024,26 @@ export function QuestionBank() {
           <Panel>
             <PanelHeader title={t('New session')} icon={GraduationCap} />
             <div className="space-y-6 p-5">
+              <div>
+                <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Draw from')}</p>
+                <Segmented
+                  value={source}
+                  onChange={(value) => setSource(value as Source)}
+                  items={[
+                    { value: 'all', label: t('All questions') },
+                    { value: 'flagged', label: t('Flagged') },
+                    { value: 'incorrect', label: t('Got wrong') },
+                    { value: 'omitted', label: t('Omitted') },
+                  ]}
+                />
+                {/* The count below already reads from this pool, so the two
+                    choices are visibly one decision rather than two. */}
+                <p className="mt-2 text-[11.5px] text-ink-3">
+                  {source === 'all'
+                    ? t('Every published question you have access to.')
+                    : t('Narrowed to one of your lists — combine it with a topic below.')}
+                </p>
+              </div>
               <div>
                 <div className="mb-2 flex items-center justify-between">
                   <p className="text-[12.5px] font-medium text-ink-2">{t('Choose a topic or subtopic')}</p>
