@@ -1361,7 +1361,10 @@ export function QuestionBank() {
               variant="primary"
               size="md"
               iconRight={reviewing ? undefined : Trophy}
-              onClick={() => { if (!reviewing) commitAnswers(); setPhase('results') }}
+              onClick={() => {
+                if (!reviewing) { commitAnswers(); setSubmitted(true) }
+                setPhase('results')
+              }}
             >
               {reviewing ? 'Finish review' : 'See results'}
             </Button>
