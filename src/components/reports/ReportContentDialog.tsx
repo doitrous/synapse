@@ -14,6 +14,7 @@ import { useIdentity } from '@/lib/useIdentity'
 import { Button } from '@/components/ui/Button'
 import { Field, Select, Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 export interface ReportTarget {
   kind: ReportContentKind
@@ -80,7 +81,7 @@ export function ReportContentDialog({
     onSubmitted?.(report)
   }
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-[70] grid place-items-center p-3 sm:p-6" role="dialog" aria-modal="true" aria-labelledby="report-content-title">
       <button type="button" aria-label="Close report dialog" className="absolute inset-0 size-full bg-ink/30 animate-fade" onClick={onClose} />
       <div className="animate-pop relative w-full max-w-lg overflow-hidden rounded-xl border border-line bg-surface shadow-pop">

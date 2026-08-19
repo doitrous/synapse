@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/Button'
 import { Select } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const IGNORE = 'Ignore'
 
@@ -64,7 +65,7 @@ export function BulkImport({
 
   const mappedFields = parsed.headers.filter((h) => mapping[h] && mapping[h] !== IGNORE)
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label={title}>
       <div className="absolute inset-0 bg-ink/30 animate-fade" onClick={reset} />
       <div className="absolute left-1/2 top-1/2 w-[min(94vw,700px)] -translate-x-1/2 -translate-y-1/2">

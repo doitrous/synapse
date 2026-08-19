@@ -35,6 +35,7 @@ import { Icon } from '@/components/ui/Icon'
 import { Toggle } from '@/components/ui/Toggle'
 import { cn } from '@/lib/cn'
 import { formatLongDate, formatTimeString } from '@/lib/format'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 const WEEKDAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
@@ -224,7 +225,7 @@ export function ModuleScheduleDialog({
 
   const logbooks = value.filter((block) => block.type === 'logbook')
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50 bg-ink/25 p-0 backdrop-blur-[2px] sm:p-3" role="dialog" aria-modal="true" aria-labelledby="module-schedule-title">
       <div className="mx-auto flex h-full w-full max-w-[1500px] flex-col overflow-hidden border border-line bg-paper pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)] shadow-float sm:rounded-2xl sm:pb-0 sm:pt-0">
         <header className="flex flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-3 sm:gap-3 sm:px-5 sm:py-4">

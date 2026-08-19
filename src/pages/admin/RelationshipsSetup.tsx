@@ -37,6 +37,7 @@ import {
   type ConceptGraph,
   type ConceptRelationType,
 } from '@/data/conceptGraph'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 /** Built-in directed relationship types (source → target). */
 const RELATION_TYPES: readonly ConceptRelationType[] = CONCEPT_RELATIONS
@@ -494,7 +495,7 @@ export function RelationshipsSetup() {
       </div>
 
       {/* Bulk import dialog */}
-      {importing && (
+      {importing && overlayPortal(
         <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label="Bulk import relationships" onMouseDown={() => setImporting(false)}>
           <Panel className="animate-pop flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-xl sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
             <PanelHeader title="Bulk import relationships" icon={Upload} />

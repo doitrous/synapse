@@ -14,6 +14,7 @@ import { SystemMark } from '@/components/ui/SystemMark'
 import { useMastery } from '@/lib/useMastery'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useT } from '@/lib/i18n'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const VISIBLE = 3
 
@@ -151,7 +152,7 @@ export function DueReviews() {
         </>
       )}
 
-      {showAll && (
+      {showAll && overlayPortal(
         <div
           className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4"
           role="dialog"

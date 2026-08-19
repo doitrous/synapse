@@ -58,6 +58,7 @@ import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonom
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
+import { overlayPortal } from '@/lib/overlayPortal'
 import { formatDateTime } from '@/lib/format'
 import { removeStoredMedia } from '@/lib/mediaStorage'
 import { initialContentReports, REPORT_STORAGE_KEY, type ContentReport } from '@/data/contentReports'
@@ -799,7 +800,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       )}
       {/* Publishing past the gate is allowed, but not quietly: the dialog names
           the count and says what a student will actually see. */}
-      {forcePublish && (
+      {forcePublish && overlayPortal(
         <div className="fixed inset-0 z-50 grid place-items-center p-4" role="dialog" aria-modal="true" aria-labelledby="force-publish-title">
           <button type="button" className="absolute inset-0 bg-ink/30" aria-label="Cancel" onClick={() => setForcePublish(false)} />
           <Panel className="animate-pop relative w-full max-w-lg p-5 shadow-pop">

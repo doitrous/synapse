@@ -5,6 +5,7 @@ import { Button } from './Button'
 import { Icon } from './Icon'
 import { IconButton } from './IconButton'
 import { resolveMediaSource } from '@/lib/mediaStorage'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 export interface MediaAsset {
   id: string
@@ -58,7 +59,7 @@ export function ZoomableImage({ src, alt, className = '' }: { src: string; alt: 
         <img src={src} alt={alt} className={className} />
         <span className="pointer-events-none absolute bottom-2 right-2 inline-flex items-center gap-1.5 rounded-md border border-white/20 bg-ink/75 px-2 py-1 text-[10.5px] font-semibold text-white opacity-0 shadow-panel backdrop-blur-sm transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100"><Icon icon={ImageIcon} size={12} />Open &amp; zoom</span>
       </button>
-      {open && (
+      {open && overlayPortal(
         <div className="fixed inset-0 z-[90] flex flex-col bg-ink/90 pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)] backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={`${alt} image viewer`} onMouseDown={close}>
           <div className="flex shrink-0 flex-wrap items-center gap-2 border-b border-white/10 px-3 py-2.5 text-white sm:px-5" onMouseDown={(event) => event.stopPropagation()}>
             <span className="min-w-0 flex-1 truncate text-[13px] font-semibold">{alt}</span>

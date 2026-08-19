@@ -21,6 +21,7 @@ import { imageFileToBoundedDataUrl } from '@/lib/mediaStorage'
 import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { ShareDialog } from '@/components/share/ShareDialog'
 import { useT } from '@/lib/i18n'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 export function Notebook() {
   const t = useT()
@@ -311,7 +312,7 @@ export function Notebook() {
         )}
       </div>
 
-      {listOpen && (
+      {listOpen && overlayPortal(
         <div className="fixed inset-0 z-40 lg:hidden">
           <button type="button" aria-label="Close notes list" className="absolute inset-0 size-full cursor-default bg-ink/30 animate-fade" onClick={() => setListOpen(false)} />
           <div className="animate-slide-x absolute inset-y-0 left-0 flex w-[min(17rem,calc(100vw-3rem))] flex-col bg-surface pb-[env(safe-area-inset-bottom)] shadow-pop">

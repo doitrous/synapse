@@ -390,7 +390,19 @@
 /* ---- Named entrances ---------------------------------------------------
    These are the overlay entrances — a dialog, a popover, a drawer. They may
    use opacity because they are mounted in response to a user action in a
-   live document, and are never the thing that makes page content visible. */
+   live document, and are never the thing that makes page content visible.
+
+   THE SECOND HARD RULE: the fill mode is `backwards`, never `forwards` or
+   `both`. Every entrance here ends at `transform: none`, so holding the last
+   frame buys nothing visually — but a *held* transform is still a transform,
+   and an element with one becomes the containing block for every
+   `position: fixed` descendant under it. With `both`, an entrance that
+   finished half a minute ago silently traps any modal rendered inside it:
+   `inset-0` resolves against that element instead of the viewport, so the
+   overlay inherits its scroll height and offset rather than covering the
+   screen. `backwards` still holds the *first* frame through any
+   animation-delay — all `stagger` needs — and leaves the element with no
+   transform of its own once it has arrived. */
 @keyframes cortex-fade {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -413,16 +425,16 @@
 }
 
 @utility animate-fade {
-  animation: cortex-fade var(--dur-fast) var(--ease-out-quint) both;
+  animation: cortex-fade var(--dur-fast) var(--ease-out-quint) backwards;
 }
 @utility animate-pop {
-  animation: cortex-pop var(--dur-base) var(--ease-out-quint) both;
+  animation: cortex-pop var(--dur-base) var(--ease-out-quint) backwards;
 }
 @utility animate-rise {
-  animation: cortex-rise 0.5s var(--ease-out-quint) both;
+  animation: cortex-rise 0.5s var(--ease-out-quint) backwards;
 }
 @utility animate-slide-x {
-  animation: cortex-slide-x 0.24s var(--ease-out-quint) both;
+  animation: cortex-slide-x 0.24s var(--ease-out-quint) backwards;
 }
 /* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */
 [dir="rtl"] .animate-slide-x {
@@ -445,14 +457,14 @@
    changes. 8px, not 24px: the shell stays put, only the page beneath it
    re-settles. Applied to a wrapper keyed on the route, so React remounts it. */
 @utility animate-screen-in {
-  animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) both;
+  animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
 }
 
 /* A list or grid whose rows settle in sequence. Capped at 8 — past that the
    last row arrives late enough to feel broken rather than composed. */
 @utility stagger {
   & > * {
-    animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) both;
+    animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
   }
   & > *:nth-child(1) { animation-delay: 0ms; }
   & > *:nth-child(2) { animation-delay: calc(var(--stagger-step) * 1); }

@@ -5,6 +5,8 @@ import {
   newModuleSubject, programmeShareOf, programmeTotal, share, subjectTotal, termTotal, yearTotal,
   addSubject, curriculumOfTree, descendantCount, findSubject, mergeCurricula, removeSubject,
   subjectPath, updateSubject, walkSubjects,
+  canMoveSubject, indentSubject, isDescendantOf, marksLostByMove, moveSubject, nudgeSubject,
+  outdentSubject, parentOf, siblingsOf,
   type ModuleSubject, type ModuleSubjectStore,
 } from './moduleSubjects.ts'
 import type { University } from './universities.ts'
@@ -218,4 +220,121 @@ test('splitting a subject leaves its own marks exactly where they were', () => {
   const after = addSubject(tree(), 'physiology', leaf('cell', 'Cell Physiology'))
   assert.equal(moduleTotal(after), before)
   assert.equal(subjectTotal(findSubject(after, 'physiology')!), 30)
+})
+
+/* ---- Rearranging the tree ------------------------------------------------ */
+
+/** `anatomy > (basis > osteo), neuro` beside `physiology`, read as a shape. */
+const shape = (subjects: ModuleSubject[]): string =>
+  subjects.map((entry) => (entry.children?.length ? `${entry.id}(${shape(entry.children)})` : entry.id)).join(',')
+
+test('the tree reads as the shape the moving tests assert against', () => {
+  assert.equal(shape(tree()), 'anatomy(basis(osteo),neuro),physiology')
+})
+
+test('a subject knows its parent and the list it is ordered within', () => {
+  assert.equal(parentOf(tree(), 'osteo')?.id, 'basis')
+  assert.equal(parentOf(tree(), 'anatomy'), null)
+  assert.deepEqual(siblingsOf(tree(), 'basis').map((entry) => entry.id), ['basis', 'neuro'])
+  assert.deepEqual(siblingsOf(tree(), 'physiology').map((entry) => entry.id), ['anatomy', 'physiology'])
+})
+
+test('descent is read downwards only — a parent is not beneath its own child', () => {
+  assert.equal(isDescendantOf(tree(), 'anatomy', 'osteo'), true)
+  assert.equal(isDescendantOf(tree(), 'basis', 'osteo'), true)
+  assert.equal(isDescendantOf(tree(), 'osteo', 'anatomy'), false)
+  assert.equal(isDescendantOf(tree(), 'physiology', 'osteo'), false)
+})
+
+test('a branch cannot be moved into itself or anything beneath it', () => {
+  assert.equal(canMoveSubject(tree(), 'anatomy', { kind: 'inside', targetId: 'anatomy' }), false)
+  assert.equal(canMoveSubject(tree(), 'anatomy', { kind: 'inside', targetId: 'osteo' }), false)
+  assert.equal(canMoveSubject(tree(), 'anatomy', { kind: 'after', targetId: 'neuro' }), false)
+  assert.equal(canMoveSubject(tree(), 'physiology', { kind: 'inside', targetId: 'osteo' }), true)
+  assert.equal(canMoveSubject(tree(), 'nowhere', { kind: 'inside', targetId: null }), false)
+})
+
+test('an impossible move leaves the tree exactly as it was', () => {
+  assert.deepEqual(moveSubject(tree(), 'anatomy', { kind: 'inside', targetId: 'osteo' }), tree())
+  assert.deepEqual(moveSubject(tree(), 'nowhere', { kind: 'inside', targetId: 'anatomy' }), tree())
+})
+
+test('a subject moves under another, carrying everything beneath it', () => {
+  const next = moveSubject(tree(), 'basis', { kind: 'inside', targetId: 'physiology' })
+  assert.equal(shape(next), 'anatomy(neuro),physiology(basis(osteo))')
+  assert.equal(findSubject(next, 'osteo')?.name, 'Osteology')
+})
+
+test('a subject moves before or after another, wherever the target sits', () => {
+  assert.equal(shape(moveSubject(tree(), 'physiology', { kind: 'before', targetId: 'neuro' })), 'anatomy(basis(osteo),physiology,neuro)')
+  assert.equal(shape(moveSubject(tree(), 'physiology', { kind: 'after', targetId: 'basis' })), 'anatomy(basis(osteo),physiology,neuro)')
+  assert.equal(shape(moveSubject(tree(), 'neuro', { kind: 'before', targetId: 'anatomy' })), 'neuro,anatomy(basis(osteo)),physiology')
+})
+
+test('a null target is the top of the module, and the last place in it', () => {
+  assert.equal(shape(moveSubject(tree(), 'osteo', { kind: 'inside', targetId: null })), 'anatomy(basis,neuro),physiology,osteo')
+})
+
+test('a nudge steps one place among its own siblings', () => {
+  assert.equal(shape(nudgeSubject(tree(), 'neuro', -1)), 'anatomy(neuro,basis(osteo)),physiology')
+  assert.equal(shape(nudgeSubject(tree(), 'basis', 1)), 'anatomy(neuro,basis(osteo)),physiology')
+  assert.equal(shape(nudgeSubject(tree(), 'physiology', -1)), 'physiology,anatomy(basis(osteo),neuro)')
+})
+
+test('a nudge at either end of a list holds, and never escapes its parent', () => {
+  assert.deepEqual(nudgeSubject(tree(), 'basis', -1), tree())
+  assert.deepEqual(nudgeSubject(tree(), 'neuro', 1), tree())
+  assert.deepEqual(nudgeSubject(tree(), 'anatomy', -1), tree())
+  assert.deepEqual(nudgeSubject(tree(), 'osteo', 1), tree())
+})
+
+test('indenting tucks a subject under the sibling above it', () => {
+  assert.equal(shape(indentSubject(tree(), 'neuro')), 'anatomy(basis(osteo,neuro)),physiology')
+  assert.equal(shape(indentSubject(tree(), 'physiology')), 'anatomy(basis(osteo),neuro,physiology)')
+})
+
+test('the first subject of a list has nothing above it to indent under', () => {
+  assert.deepEqual(indentSubject(tree(), 'basis'), tree())
+  assert.deepEqual(indentSubject(tree(), 'anatomy'), tree())
+  assert.deepEqual(indentSubject(tree(), 'osteo'), tree())
+})
+
+test('outdenting lifts a subject out to sit just after its parent', () => {
+  assert.equal(shape(outdentSubject(tree(), 'osteo')), 'anatomy(basis,osteo,neuro),physiology')
+  assert.equal(shape(outdentSubject(tree(), 'basis')), 'anatomy(neuro),basis(osteo),physiology')
+})
+
+test('a subject already at the top of the module has nowhere to outdent to', () => {
+  assert.deepEqual(outdentSubject(tree(), 'anatomy'), tree())
+  assert.deepEqual(outdentSubject(tree(), 'physiology'), tree())
+})
+
+test('nesting a marked subject reports the marks it would stop counting', () => {
+  // Physiology carries 30 of the module's 100 and is a direct subject; under
+  // Anatomy it keeps the number and stops contributing it.
+  assert.equal(marksLostByMove(tree(), 'physiology', { kind: 'inside', targetId: 'anatomy' }), 30)
+  assert.equal(marksLostByMove(tree(), 'physiology', { kind: 'after', targetId: 'neuro' }), 30)
+  assert.equal(moduleTotal(moveSubject(tree(), 'physiology', { kind: 'inside', targetId: 'anatomy' })), 70)
+})
+
+test('reordering at the top, or promoting to it, costs the module nothing', () => {
+  assert.equal(marksLostByMove(tree(), 'physiology', { kind: 'before', targetId: 'anatomy' }), 0)
+  assert.equal(marksLostByMove(tree(), 'physiology', { kind: 'inside', targetId: null }), 0)
+  assert.equal(marksLostByMove(tree(), 'basis', { kind: 'inside', targetId: 'physiology' }), 0)
+  assert.equal(marksLostByMove(tree(), 'anatomy', { kind: 'inside', targetId: 'osteo' }), 0)
+  assert.equal(moduleTotal(nudgeSubject(tree(), 'physiology', -1)), 100)
+})
+
+test('promoting a nested subject gives the module its marks to count', () => {
+  const marked = updateSubject(tree(), 'basis', (entry) => ({ ...entry, marks: { ...entry.marks, writtenEndOfModule: 40 } }))
+  assert.equal(moduleTotal(marked), 100)
+  assert.equal(moduleTotal(moveSubject(marked, 'basis', { kind: 'inside', targetId: null })), 140)
+})
+
+test('what a subject covers travels with it', () => {
+  const next = moveSubject(tree(), 'basis', { kind: 'inside', targetId: 'physiology' })
+  assert.deepEqual(curriculumOfTree(findSubject(next, 'physiology')!).topicNodeIds?.slice().sort(), ['SYS-CVS', 'SYS-MSK'])
+  assert.deepEqual(curriculumOfTree(findSubject(next, 'anatomy')!).topicNodeIds?.slice().sort(), ['SYS-NEU'])
+  // Nothing is created or lost by a move: the module covers what it covered.
+  assert.deepEqual(mergeCurricula(next).topicNodeIds?.slice().sort(), mergeCurricula(tree()).topicNodeIds?.slice().sort())
 })

@@ -5,6 +5,7 @@ import { defaultModuleId, universityYearId } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
 import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const TEMPLATE = `# Year 1
 ## Term 1
@@ -119,7 +120,7 @@ export function AcademicImportDialog({ open, university, onClose, onImport }: {
     onImport([...university.years, ...deduped])
   }
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-labelledby="academic-import-title">
       <button type="button" className="absolute inset-0 bg-ink/30 animate-fade" onClick={onClose} aria-label="Close" />
       <div className="absolute inset-x-0 bottom-0 w-full sm:left-1/2 sm:top-1/2 sm:bottom-auto sm:w-[min(94vw,720px)] sm:-translate-x-1/2 sm:-translate-y-1/2">

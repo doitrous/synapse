@@ -58,6 +58,7 @@ import {
   MarkNotePopover, MarkSelectionToolbar, MarkedPhrase, YourMarksPanel, useArticleMarks,
   type ArticleMarks,
 } from '@/components/library/ArticleMarks'
+import { overlayPortal } from '@/lib/overlayPortal'
 import { orderedSegments } from '@/lib/library/textAnchor'
 import type { LibraryMark } from '@/data/libraryMarks'
 
@@ -229,7 +230,7 @@ function MediaLightbox({ item, onClose }: { item: ArticleMediaRecord; onClose: (
     return () => window.removeEventListener('keydown', onKey)
   }, [onClose])
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="media-lightbox-title">
       <button type="button" className="absolute inset-0 bg-ink/60" onClick={onClose} aria-label="Close media" />
       <figure className="relative flex max-h-full w-full max-w-3xl flex-col overflow-hidden rounded-xl border border-line bg-paper shadow-pop">
@@ -477,7 +478,7 @@ function EvidenceDrawer({ span, evidence, onClose }: { span: ArticleSpan; eviden
     await apiOpenFile(`/medical-resources/${encodeURIComponent(resource.id)}`, citationPage(citation.locator))
   }
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-labelledby="evidence-drawer-title">
       <button type="button" className="absolute inset-0 bg-ink/25" onClick={onClose} aria-label="Close sources" />
       <aside className="absolute inset-y-0 end-0 flex w-full max-w-lg flex-col border-s border-line bg-paper shadow-pop">
@@ -1215,7 +1216,7 @@ export function Library() {
       </div>
 
       {/* Mobile navigator */}
-      {treeOpen && (
+      {treeOpen && overlayPortal(
         <div className="fixed inset-0 z-40 lg:hidden">
           <div className="absolute inset-0 bg-ink/30 animate-fade" onClick={() => setTreeOpen(false)} />
           <div className="animate-slide-x absolute inset-y-0 start-0 flex w-[min(22rem,90vw)] flex-col bg-surface shadow-pop">
