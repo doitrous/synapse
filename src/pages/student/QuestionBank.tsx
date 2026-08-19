@@ -1022,15 +1022,15 @@ export function QuestionBank() {
     setPhase('running')
   }
 
-  function testTheseQuestions(items: Question[]) {
-    requestSession(shuffle(items).slice(0, Math.min(count, items.length)))
+  function testTheseQuestions(items: Question[], title: string) {
+    requestSession(shuffle(items).slice(0, Math.min(count, items.length)), title)
   }
 
   /** Same topics, fresh questions — including ones the student has not seen. */
-  function testScopeOf(items: Question[]) {
+  function testScopeOf(items: Question[], title: string) {
     const derived = scopeFromQuestions(items, libraryTopics)
     const pool = questionsInScope(questions, derived, libraryTopics)
-    requestSession(shuffle(pool).slice(0, Math.min(count, pool.length)))
+    requestSession(shuffle(pool).slice(0, Math.min(count, pool.length)), `${title} · ${t('same scope')}`)
   }
 
   /**

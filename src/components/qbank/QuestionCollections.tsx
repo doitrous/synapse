@@ -29,8 +29,11 @@ export function QuestionCollections({
 }: {
   collections: Collection[]
   onView: (questions: Question[]) => void
-  onTestThese: (questions: Question[]) => void
-  onTestScope: (questions: Question[]) => void
+  // The title travels with the questions so the sitting can be named after the
+  // list it came from. Started without one, these landed in the history as
+  // "Untitled test" — the very thing naming a sitting up front exists to stop.
+  onTestThese: (questions: Question[], title: string) => void
+  onTestScope: (questions: Question[], title: string) => void
 }) {
   const t = useT()
   return (
@@ -61,10 +64,10 @@ export function QuestionCollections({
               <Button variant="ghost" size="sm" iconLeft={Eye} disabled={!collection.questions.length} onClick={() => onView(collection.questions)}>
                 {t('View')}
               </Button>
-              <Button variant="secondary" size="sm" iconLeft={Play} disabled={!collection.questions.length} onClick={() => onTestThese(collection.questions)}>
+              <Button variant="secondary" size="sm" iconLeft={Play} disabled={!collection.questions.length} onClick={() => onTestThese(collection.questions, collection.title)}>
                 {t('Test these')}
               </Button>
-              <Button variant="secondary" size="sm" iconLeft={Target} disabled={!collection.questions.length} onClick={() => onTestScope(collection.questions)}>
+              <Button variant="secondary" size="sm" iconLeft={Target} disabled={!collection.questions.length} onClick={() => onTestScope(collection.questions, collection.title)}>
                 {t('Test this scope')}
               </Button>
             </div>
