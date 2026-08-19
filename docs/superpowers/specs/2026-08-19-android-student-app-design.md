@@ -16,6 +16,27 @@ treats thin wrappers of an existing site poorly. The iOS app already proved the
 API contract supports a native offline client — Android is a second client of a
 contract that exists, not a new product.
 
+## Project shape
+
+`android/` beside `ios/`, a single `:app` Gradle module with packages mirroring
+the iOS `Core`/`Features` split — `core/api`, `core/auth`, `core/cache`,
+`core/sync`, `core/model`, `core/qbank`, `core/practical`, `design`, `feature/`.
+Splitting into Gradle modules buys nothing until there are more surfaces and
+costs build complexity now.
+
+- Kotlin, Jetpack Compose with Material 3, Gradle version catalog.
+- `minSdk 26`, `targetSdk 36`. 26 covers the devices students actually carry
+  and clears the API floor every dependency here assumes.
+- **OkHttp + kotlinx-serialization** for the API client. A Retrofit interface
+  layer over an API this small is indirection without a payoff.
+- **supabase-kt** (gotrue) for auth, session persisted in
+  EncryptedSharedPreferences.
+- **Room** for the cache, with an FTS4 index.
+- Navigation via `androidx.navigation-compose`.
+- `Theme` ported from `src/index.css` tokens and `ios/Synapse/Design/Theme.swift`
+  — the same palette and type scale, and the same self-hosted families (Source
+  Serif 4, Geist) the other two clients use.
+
 ## The contracts this app must port exactly
 
 The API is shared with the web app and with iOS. Most of the risk in a second
@@ -90,7 +111,13 @@ reader does not take them for mistakes:
    full download.
 2. Fetch only the catalogues whose stamp moved.
 3. Shred the content ledger into `ledger_items` and rebuild the FTS rows.
-4. Pull the user-owned keys the app needs, applying `localCopyWins`.
+4. Pull the user-owned keys these surfaces read, applying `localCopyWins`:
+   `synapse.qbank.activeSession.v1`, the rest of `synapse.qbank.*` (presets and
+   previous sittings), `synapse.practical.*`, and
+   `synapse.progress.attemptIndex.v1` with the shards for the current and
+   previous month. Older shards are fetched on demand rather than on every
+   sync — a year of study is not something a phone should pull to show a
+   question.
 5. Drain the outbox.
 
 A 404 on the manifest falls back to fetching every catalogue, which is how sync
@@ -112,6 +139,12 @@ screen naming the setup step, so a fresh clone never fails to compile.
 ### Shell
 Bottom navigation: Question Bank, Practical, Account. Small on purpose —
 Library and the rest arrive in later milestones and the nav grows with them.
+
+**Account** is deliberately thin in this milestone: who you are signed in as,
+the sync status (last successful refresh, and how many writes are still waiting
+in the outbox), and sign out. The outbox count is not a debug affordance — it is
+the honest answer to "is my work saved?", and a student on a ward deserves to
+see it.
 
 ### Question Bank
 Topic chooser over `ChooserTopic` (topic with its subtopics), presets, and a
