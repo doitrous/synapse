@@ -36,6 +36,7 @@ import { useMastery } from '@/lib/useMastery'
 import { pruneManifests, type SessionManifests } from '@/data/qbankCollections'
 import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts, type AttemptHistory } from '@/lib/useAttemptLog'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { EndSessionDialog } from '@/components/qbank/EndSessionDialog'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -225,6 +226,8 @@ interface LiveSession {
   reviewing: boolean
   name: string
   phase: Exclude<Phase, 'setup'>
+  /** A submitted sitting is finished with — it is never offered to resume. */
+  submitted: boolean
   startedAt: string
 }
 
@@ -429,6 +432,7 @@ export function QuestionBank() {
   const [answers, setAnswers] = useState<Record<string, number>>({})
   const [checked, setChecked] = useState<Record<string, boolean>>({})
   const [reviewing, setReviewing] = useState(false)
+  const [submitted, setSubmitted] = useState(false)
   // Sitting a test is the one thing here that wants the width, and the one
   // thing a student should not have to tidy the screen for first.
   const { setImmersive } = useImmersion()
@@ -446,6 +450,7 @@ export function QuestionBank() {
   /** Elapsed seconds when the current question was first shown. */
   const questionStartedAt = useRef(0)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
+  const [endOpen, setEndOpen] = useState(false)
   /** Indexes the student has actually landed on — what separates "omitted" from "unseen". */
   const [visited, setVisited] = useState<Set<number>>(() => new Set([0]))
   /**
@@ -513,6 +518,7 @@ export function QuestionBank() {
     setElapsed(saved.elapsed)
     setVisited(new Set(saved.visited))
     setReviewing(saved.reviewing)
+    setSubmitted(saved.submitted ?? false)
     setSessionName(saved.name)
     setPhase(saved.phase)
   }, [questions, saved, savedStatus.hydrated, setSaved])
@@ -534,13 +540,14 @@ export function QuestionBank() {
       idx, answers, checked, mode, sessionId, elapsed,
       visited: [...visited],
       reviewing,
+      submitted,
       name: sessionName,
       phase,
       startedAt: startedAt.current,
     })
     // `saved` is deliberately not a dependency — see startedAt above.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, session, idx, answers, checked, mode, sessionId, elapsed, visited, reviewing, sessionName, savedStatus.hydrated, setSaved])
+  }, [phase, session, idx, answers, checked, mode, sessionId, elapsed, visited, reviewing, submitted, sessionName, savedStatus.hydrated, setSaved])
 
   const articleQuestions = useMemo(
     () => (articleFilter ? questions.filter((question) => question.libraryRefs.some((ref) => ref.id === articleFilter)) : questions),
@@ -650,6 +657,7 @@ export function QuestionBank() {
     setAnswers({})
     setChecked({})
     setReviewing(false)
+    setSubmitted(false)
     setElapsed(0)
     questionStartedAt.current = 0
     setVisited(new Set([0]))
@@ -720,6 +728,20 @@ export function QuestionBank() {
     startedAt.current = null
     setSaved(null)
     setPhase('setup')
+  }
+
+  /** Step out, keep the sitting. */
+  function leaveSession() {
+    setEndOpen(false)
+    setPhase('setup')
+  }
+
+  /** Finish for good: mark what was answered, then show the paper. */
+  function submitSession() {
+    commitAnswers()
+    setSubmitted(true)
+    setEndOpen(false)
+    setPhase('results')
   }
 
   const removeAttemptSession = useDeleteAttemptSession()
@@ -1154,11 +1176,11 @@ export function QuestionBank() {
               {t('Report')}
             </button>
             <button
-              onClick={() => setPhase(reviewing ? 'results' : 'setup')}
+              onClick={() => (reviewing ? setPhase('results') : setEndOpen(true))}
               className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3 text-[12.5px] font-semibold text-ink shadow-panel transition-colors hover:bg-inset sm:min-h-9"
             >
               <Icon icon={reviewing ? ArrowLeft : LogOut} size={14} />
-              {reviewing ? t('Back to results') : t('End session')}
+              {reviewing ? t('Back to results') : t('End')}
             </button>
           </div>
         </div>
@@ -1355,6 +1377,15 @@ export function QuestionBank() {
         <StudyRail question={q} revealed={revealed} location={location} className="lg:sticky lg:top-6" />
       </div>
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
+      {endOpen && (
+        <EndSessionDialog
+          answered={session.filter((question) => answers[question.id] != null).length}
+          total={session.length}
+          onLeave={leaveSession}
+          onSubmit={submitSession}
+          onClose={() => setEndOpen(false)}
+        />
+      )}
     </div>
   )
 }
