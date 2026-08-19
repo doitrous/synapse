@@ -175,6 +175,23 @@ function InviteLinkPanel({
             </>
           )}
         </div>
+
+        <div className="space-y-3 border-t border-line pt-4">
+          {import.meta.env.VITE_FEATURE_FACEBOOK_FRIENDS === 'true' ? (
+            // Wired for the day Meta approves the app, but there is no OAuth call
+            // behind it yet — the handshake needs an approved app id we do not
+            // have, and a button that pretends to work is worse than one that
+            // says so. Disabled rather than hidden, so it is not a surprise
+            // later when the flag is the only thing that changes.
+            <Button variant="secondary" size="md" disabled title={t('Not connected yet')}>
+              {t('Connect Facebook')}
+            </Button>
+          ) : (
+            <p className="text-[12.5px] leading-relaxed text-ink-3">
+              {t('Finding friends through Facebook is waiting on Facebook’s own review. Use your invite link in the meantime.')}
+            </p>
+          )}
+        </div>
       </div>
     </Panel>
   )

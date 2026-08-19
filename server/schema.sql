@@ -528,3 +528,14 @@ CREATE TABLE IF NOT EXISTS challenge_answers (
   answered_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (challenge_id, user_id, question_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Only the app-scoped Facebook id, and only while the student wants the link.
+   Name, photo and email are already on the account; copying Facebook's copies
+   would widen what we hold for nothing. `unlinked_at` records that a deletion
+   request was honoured, which Meta requires us to be able to show. */
+CREATE TABLE IF NOT EXISTS facebook_links (
+  user_id     VARCHAR(64) PRIMARY KEY,
+  fb_user_id  VARCHAR(64) NOT NULL UNIQUE,
+  linked_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  unlinked_at DATETIME NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

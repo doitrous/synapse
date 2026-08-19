@@ -37,6 +37,7 @@ import {
 import { invalidatePublishedQuestions } from './publishedQuestions.js'
 import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests, directorySearch } from './friends.js'
 import { mintInvite, redeemInvite } from './friendInvites.js'
+import { linkAccount as linkFacebookAccount, unlinkAccount as unlinkFacebookAccount, deletionCallback as facebookDeletionCallback } from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
 
@@ -529,6 +530,39 @@ app.post('/api/friends/invite', requireAuthenticated, wrap(async (req, res) => {
 
 app.post('/api/friends/invite/redeem', requireAuthenticated, wrap(async (req, res) => {
   res.json(await redeemInvite(req.identity.id, req.body?.token))
+}))
+
+/* ── Facebook link ────────────────────────────────────────────────────────
+   Dark until Meta approves `user_friends` for this app: nothing here starts
+   an OAuth handshake, so these routes exist for the day the flag flips on. */
+
+app.post('/api/friends/facebook/link', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await linkFacebookAccount(req.identity.id, req.body?.fbUserId))
+}))
+
+app.post('/api/friends/facebook/unlink', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await unlinkFacebookAccount(req.identity.id))
+}))
+
+/**
+ * Meta's data-deletion callback, required for App Review.
+ *
+ * Deliberately public, on the same reasoning as `/api/unsubscribe` below:
+ * the caller is Meta's own servers, not a signed-in student, so requiring a
+ * session here would mean the deletion request silently failed. Meta signs
+ * these requests with the app secret so only Meta can trigger one — but we
+ * do not hold an app secret (no approved app id yet), so that signature is
+ * NOT verified here. Nothing currently stops another caller from invoking
+ * this route; it only ever deletes the one row named by the fb user id it
+ * is given, which bounds the damage to "delete a link that already opted
+ * in via `fb_user_id`" rather than anything broader. Signature verification
+ * must be added before this app id goes into App Review.
+ */
+app.post('/api/facebook/deletion-callback', wrap(async (req, res) => {
+  const fbUserId = req.body?.user_id || req.query?.user_id
+  if (!fbUserId) return res.status(400).json({ error: 'user_id required' })
+  await facebookDeletionCallback(String(fbUserId))
+  res.json({ url: `${PUBLIC_ORIGIN}/privacy`, confirmation_code: String(fbUserId) })
 }))
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */
