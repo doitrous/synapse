@@ -73,6 +73,12 @@ choice: the module's subject list is a single list serving two dialogs. Adding
 topics under, and vice versa. Marks always belong to a subject — a module has no
 unattributed marks.
 
+`CourseCurriculumSelection` and `COURSE_CURRICULA_STORAGE_KEY` are currently
+exported from `CourseCurriculumDialog.tsx`. `moduleSubjects.ts` cannot import from
+a component without inverting the data/component layering the rest of `src/data`
+observes, so both move to `src/data/courseCurriculum.ts` and the dialog re-exports
+them, leaving every existing import site working.
+
 `ExamMarks` is a flat record of four named fields rather than a nested
 written/practical tree. The four buckets are fixed by the faculty scheme and will
 not grow; a flat record keeps every consumer (inputs, totals, the overview's
@@ -306,9 +312,10 @@ that convention rather than introducing a component test runner.
 - That migration is idempotent: a module that already has subjects is not given a
   second `General`.
 
-The four dialogs and the overview page are verified in the browser against the
-dev server, including the term move, the uniqueness message, cancel-leaves-no-change,
-and the live weight strip updating as marks are typed.
+The three dialogs (Edit module, Marks & Exams, Curriculum) and the overview page
+are verified in the browser against the dev server, including the term move, the
+uniqueness message, cancel-leaves-no-change, and the live weight strip updating as
+marks are typed.
 
 ## Files
 
@@ -316,6 +323,8 @@ New
 
 - `src/data/moduleSubjects.ts`
 - `src/data/moduleSubjects.test.ts`
+- `src/data/courseCurriculum.ts` — `CourseCurriculumSelection` and its storage key,
+  moved out of the component layer
 - `src/data/curriculumKeys.ts`
 - `src/data/curriculumKeys.test.ts`
 - `src/components/admin/ModuleEditDialog.tsx`
@@ -328,7 +337,8 @@ Modified
   modes removed, Edit module and Marks & Exams wired up, key migration on mount,
   link to the overview, `saveIdentity` no longer re-mints year IDs.
 - `src/components/admin/CourseCurriculumDialog.tsx` — subject rail, selections
-  read and written per subject.
+  read and written per subject; the selection type and storage key move to
+  `src/data/courseCurriculum.ts` and are re-exported from here.
 - `src/components/admin/ModuleScheduleDialog.tsx` — key change only.
 - `src/router.tsx` — `/admin/academic/marks`.
 - `src/components/shell/nav.ts` — relabel, plus the overview entry.
