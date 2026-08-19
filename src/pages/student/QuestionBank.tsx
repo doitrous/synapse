@@ -505,6 +505,16 @@ export function QuestionBank() {
   // `saved`, so depending on it there would make the write retrigger the effect
   // that performed it — which is exactly the render loop this avoids.
   const startedAt = useRef<string | null>(null)
+  /**
+   * Which sitting the mirror below is allowed to write.
+   *
+   * The runner's state is one slot serving three things: a live sitting, a past
+   * test, and a collection. Leaving a past test lands on its results screen with
+   * `reviewing` already cleared, and the mirror would then write that finished
+   * test straight over the sitting the student still has paused. Only the
+   * sitting that was actually started or resumed here may be mirrored.
+   */
+  const liveSittingId = useRef<string | null>(null)
 
   /**
    * A start that is waiting on the student's answer about the open sitting.
@@ -517,6 +527,39 @@ export function QuestionBank() {
    */
   const [pendingStart, setPendingStart] = useState<{ picked: Question[]; id: string } | null>(null)
 
+  /**
+   * Put a stored sitting back into the runner's state.
+   *
+   * Shared by the restore below and by `resumeSaved`, because restoring once on
+   * mount is not enough: viewing a collection or a past test overwrites the same
+   * state slot the sitting lives in, and nothing put it back. Continue then
+   * dropped the student into whatever they had just looked at, read-only, with
+   * their own paused sitting unreachable until a reload.
+   */
+  const restoreFrom = useCallback((sitting: LiveSession) => {
+    const rebuilt = sitting.questionIds
+      .map((id) => questions.find((question) => question.id === id))
+      .filter((question): question is Question => Boolean(question))
+    startedAt.current = sitting.startedAt
+    liveSittingId.current = sitting.sessionId
+    setSession(rebuilt)
+    setIdx(Math.min(sitting.idx, rebuilt.length - 1))
+    setAnswers(sitting.answers)
+    setStruck(sitting.struck ?? {})
+    setChecked(sitting.checked)
+    setMode(sitting.mode)
+    setSessionId(sitting.sessionId)
+    setElapsed(sitting.elapsed)
+    setVisited(new Set(sitting.visited))
+    // Not `sitting.reviewing`. The mirror below refuses to write while a review
+    // is on screen, so a stored sitting is never a review; reading the field
+    // back was the only way a stale `true` could outlive the review it belonged
+    // to. The field stays on `LiveSession` for documents already persisted.
+    setReviewing(false)
+    setSubmitted(sitting.submitted ?? false)
+    setSessionName(sitting.name)
+  }, [questions])
+
   useEffect(() => {
     if (restored.current || !savedStatus.hydrated || !saved || !questions.length) return
     const rebuilt = saved.questionIds
@@ -526,24 +569,12 @@ export function QuestionBank() {
     // honestly, so it is dropped rather than silently shortened.
     if (rebuilt.length !== saved.questionIds.length) { setSaved(null); restored.current = true; return }
     restored.current = true
-    startedAt.current = saved.startedAt
-    setSession(rebuilt)
-    setIdx(Math.min(saved.idx, rebuilt.length - 1))
-    setAnswers(saved.answers)
-    setStruck(saved.struck ?? {})
-    setChecked(saved.checked)
-    setMode(saved.mode)
-    setSessionId(saved.sessionId)
-    setElapsed(saved.elapsed)
-    setVisited(new Set(saved.visited))
-    setReviewing(saved.reviewing)
-    setSubmitted(saved.submitted ?? false)
-    setSessionName(saved.name)
+    restoreFrom(saved)
     // Deliberately not `setPhase(saved.phase)`. Everything about the sitting is
     // back — questions, answers, timer, strikes — but the student lands on the
     // hub and chooses to go back in, rather than arriving mid-question with no
     // idea where they are.
-  }, [questions, saved, savedStatus.hydrated, setSaved])
+  }, [questions, saved, savedStatus.hydrated, setSaved, restoreFrom])
 
   // Mirror the sitting outward. Debounced by the state store, so this is one
   // write per pause rather than one per answer.
@@ -559,6 +590,10 @@ export function QuestionBank() {
     // opening a finished test from Previous tests wrote itself over whatever
     // sitting the student had paused — and the paused sitting was gone.
     if (phase === 'setup' || reviewing) return
+    // And never write a session that is not the live sitting. Leaving a past
+    // test clears `reviewing` but stays on that test's results screen, which was
+    // enough for the mirror to file it as the open sitting — over the paused one.
+    if (liveSittingId.current !== sessionId) return
     if (!startedAt.current) startedAt.current = new Date().toISOString()
     setSaved({
       questionIds: session.map((question) => question.id),
@@ -716,6 +751,7 @@ export function QuestionBank() {
     // Filed here rather than when the sitting ends: a test abandoned halfway
     // still served its questions, and the ones never reached are still omitted.
     setSessionQuestions((current) => pruneManifests({ ...current, [id]: picked.map((question) => question.id) }))
+    liveSittingId.current = id
     setSession(picked)
     setSessionId(id)
     setIdx(0)
@@ -778,6 +814,7 @@ export function QuestionBank() {
   /** Read a collection, answers and explanations shown. */
   function viewCollection(items: Question[]) {
     if (!items.length) return
+    liveSittingId.current = null
     setSession(items)
     setSessionId(newSessionId())
     setAnswers({})
@@ -818,6 +855,7 @@ export function QuestionBank() {
       const correctIndex = question.options.findIndex((option) => option.correct)
       if (record.correct === true && correctIndex >= 0) answered[record.itemId] = correctIndex
     }
+    liveSittingId.current = null
     setSession(rebuilt)
     setAnswers(answered)
     setChecked(marked)
@@ -830,16 +868,28 @@ export function QuestionBank() {
     setPhase('running')
   }
 
-  /** Pick a paused sitting back up exactly where it was left. */
+  /**
+   * Pick a paused sitting back up exactly where it was left.
+   *
+   * The state it needs is restored here, not assumed: a collection or a past
+   * test viewed since the last restore is sitting in the same slot, and the
+   * stored document is the only durable copy of the real sitting.
+   */
   function resumeSaved() {
     if (!saved) return
+    restoreFrom(saved)
     setPhase(saved.phase)
   }
 
   /** The sitting is finished with — stop offering to resume it. */
   function discardSession() {
     startedAt.current = null
-    setSaved(null)
+    liveSittingId.current = null
+    // Only the sitting actually on screen. This is reached from the results of a
+    // past test too, and it used to throw away whatever sitting the student had
+    // paused — silently, and on a timed one, before a single answer had reached
+    // the attempt log.
+    if (saved?.sessionId === sessionId) setSaved(null)
     setPhase('setup')
   }
 
@@ -1371,8 +1421,15 @@ export function QuestionBank() {
               <Icon icon={MessageSquareWarning} size={13} />
               {t('Report')}
             </button>
+            {/* Leaving a review has to say so. `reviewing` used to stay true for
+                the rest of the mount, which left the runner labelled as a review
+                and stopped the live sitting being mirrored at all. */}
             <button
-              onClick={() => (reviewing ? setPhase(reviewReturn) : setEndOpen(true))}
+              onClick={() => {
+                if (!reviewing) { setEndOpen(true); return }
+                setReviewing(false)
+                setPhase(reviewReturn)
+              }}
               className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3 text-[12.5px] font-semibold text-ink shadow-panel transition-colors hover:bg-inset sm:min-h-9"
             >
               <Icon icon={reviewing ? ArrowLeft : LogOut} size={14} />
@@ -1586,6 +1643,9 @@ export function QuestionBank() {
               iconRight={reviewing ? undefined : Trophy}
               onClick={() => {
                 if (!reviewing) { commitAnswers(); setSubmitted(true) }
+                // The other way out of a review, and the same reason it has to
+                // clear the flag as it goes.
+                else setReviewing(false)
                 setPhase(reviewing ? reviewReturn : 'results')
               }}
             >
