@@ -14,8 +14,16 @@
 
 - `applicationId = "com.synapse.android"`, package root `com.synapse.android`. (iOS uses `com.synapse.app`; the stores are separate namespaces and these must not be shared.)
 - App display name: **Connect Cortex**.
-- `minSdk = 26`, `targetSdk = 36`, `compileSdk = 36` **with `compileSdkMinor = 1`** — the only platform installed is `android-36.1`, and plain `compileSdk = 36` sends Gradle looking for a platform that is not on disk.
-- JDK 21, from Android Studio's bundled JBR. Do not install a second JDK.
+- `minSdk = 26`, `targetSdk = 36`, and the compile SDK in AGP 9's block form:
+  `compileSdk { version = release(36) { minorApiLevel = 1 } }`. The only platform installed is
+  `android-36.1`; asking for a plain `36` sends Gradle looking for a platform that is not on disk.
+- **Toolchain, fixed by the wrapper Studio generated and not to be bumped during this milestone:**
+  AGP 9.2.1, Kotlin 2.2.10, Gradle 9.4.1, Compose BOM 2026.02.01.
+- **AGP 9 applies Kotlin itself.** Do not add `org.jetbrains.kotlin.android` — the generated project
+  applies only `com.android.application` and `org.jetbrains.kotlin.plugin.compose`, and adding the
+  standalone Kotlin plugin on top of AGP 9's built-in Kotlin support fails the build.
+- JDK 21, from Android Studio's bundled JBR (21.0.10). Do not install a second JDK. Java source and
+  target compatibility is **17** — the floor recent AndroidX artifacts are compiled against.
 - **No Compose screen, ViewModel, or repository may call `SynapseApi`.** Only `SyncEngine` does. A screen that fetches is a bug, not a shortcut.
 - Only the Supabase **anon** (publishable) key ever reaches the client. The service role key bypasses every row-level security policy.
 - `android/secrets.properties` is gitignored. `android/secrets.properties.example` is committed. The app must compile and run without the real file, showing a "Not configured" screen that names the missing step.
@@ -40,51 +48,66 @@ There is no Gradle, no `~/.gradle`, and no wrapper jar anywhere on this machine.
 - Consumes: nothing.
 - Produces: a buildable `:app` module. `BuildConfig.SUPABASE_HOST`, `BuildConfig.SUPABASE_ANON_KEY`, `BuildConfig.API_BASE_URL` — all `String`, all possibly empty.
 
-- [ ] **Step 1: Generate a wrapper with Studio (human step)**
+- [x] **Step 1: Generate a wrapper with Studio (human step — already done)**
 
-In Android Studio: **New Project → Empty Activity**, name `bootstrap`, package `com.example.bootstrap`, language Kotlin, Minimum SDK **API 26**, build language **Kotlin DSL**. Save it outside this repo (e.g. `~/AndroidStudioProjects/bootstrap`). Let the Gradle sync finish — this downloads a Gradle distribution into `~/.gradle` and writes a valid wrapper.
+A throwaway project already exists at `~/AndroidStudioProjects/ConnectCortex`, synced. It holds a
+valid wrapper (Gradle 9.4.1, SHA-256 pinned) and a version catalog on AGP 9.2.1 / Kotlin 2.2.10 /
+Compose BOM 2026.02.01.
 
 - [ ] **Step 2: Adopt the wrapper**
 
 ```bash
 cd "/Users/doitrous/Documents/Local/Claude/Connect Cortex"
 mkdir -p android/gradle/wrapper android/app/src/main android/app/src/test
-BOOT=~/AndroidStudioProjects/bootstrap
+BOOT=~/AndroidStudioProjects/ConnectCortex
 cp "$BOOT/gradlew" "$BOOT/gradlew.bat" android/
 cp "$BOOT/gradle/wrapper/gradle-wrapper.jar" "$BOOT/gradle/wrapper/gradle-wrapper.properties" android/gradle/wrapper/
 cp "$BOOT/gradle/libs.versions.toml" android/gradle/
 chmod +x android/gradlew
 ```
 
-Keep the AGP, Kotlin and Compose versions Studio generated — they are known to match the installed SDK. Later steps add libraries to this catalog; they do not change what Studio chose.
+Keep the AGP, Kotlin and Compose versions Studio generated — they are known to match the installed
+SDK. Later steps add libraries to this catalog; they never change what Studio chose.
 
 - [ ] **Step 3: Write the build files**
 
-`android/settings.gradle.kts`:
+`android/settings.gradle.kts` — the generated file, with the project renamed:
 
 ```kotlin
 pluginManagement {
     repositories {
-        google { content { includeGroupByRegex("com\\.android.*"); includeGroupByRegex("androidx.*") } }
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
 }
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
+}
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories { google(); mavenCentral() }
+    repositories {
+        google()
+        mavenCentral()
+    }
 }
 
-rootProject.name = "ConnectCortex"
+rootProject.name = "Connect Cortex"
 include(":app")
 ```
 
-`android/build.gradle.kts`:
+`android/build.gradle.kts` — note there is no standalone Kotlin plugin under AGP 9:
 
 ```kotlin
 plugins {
     alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.compose) apply false
 }
 ```
 
@@ -92,9 +115,10 @@ plugins {
 
 ```properties
 org.gradle.jvmargs=-Xmx3g -Dfile.encoding=UTF-8
-android.useAndroidX=true
 kotlin.code.style=official
 ```
+
+`android.useAndroidX` is not listed: AGP 9 defaults it on and the flag is gone.
 
 - [ ] **Step 4: Write `android/app/build.gradle.kts`**
 
@@ -105,7 +129,7 @@ import java.util.Properties
 
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.compose)
 }
 
 fun readSecret(name: String): String {
@@ -118,8 +142,11 @@ fun readSecret(name: String): String {
 
 android {
     namespace = "com.synapse.android"
-    compileSdk = 36
-    compileSdkMinor = 1
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
 
     defaultConfig {
         applicationId = "com.synapse.android"
@@ -136,10 +163,9 @@ android {
 
     buildFeatures { compose = true; buildConfig = true }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlin { compilerOptions { jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21) } }
     testOptions { unitTests { isIncludeAndroidResources = true } }
 }
 
@@ -156,7 +182,9 @@ dependencies {
 }
 ```
 
-If Studio's generated catalog does not already define these aliases, add them to `android/gradle/libs.versions.toml` using the versions Studio chose for the bootstrap project.
+The adopted catalog already defines every alias above except `androidx.compose.ui.tooling`, which it
+names `androidx-compose-ui-tooling` — check each alias resolves before running, and add any that is
+missing using a version the catalog already carries. Do not introduce a new version number here.
 
 - [ ] **Step 5: Write the manifest and the secrets example**
 
