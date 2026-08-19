@@ -258,6 +258,15 @@ export function Resources() {
           ))}
         </div>
         <div className={cn('flex items-center gap-2', section === 'mine' && 'hidden')}>
+          {/* Back on the row it names. Grouping decides the shape of the whole
+              page, so it does not belong folded away inside the filters — a
+              student had to open a panel to find out why the page looked as it
+              did. Hidden on My uploads, which has no folders to group. */}
+          <div className="hidden items-center gap-2 sm:inline-flex">
+            <Icon icon={FolderTree} size={15} className="text-ink-3" />
+            <span className="text-[12.5px] font-medium text-ink-2">{t('Organise by')}</span>
+            <Segmented value={groupBy} onChange={(v) => setGroupBy(v as 'system' | 'module')} items={[{ value: 'system', label: t('System') }, { value: 'module', label: t('Module') }]} />
+          </div>
           {/* Filters take a row and a half and are usually already right. The
               count stays visible while they are folded away, so a narrowed list
               is never mistaken for an empty catalogue. */}
@@ -280,14 +289,6 @@ export function Resources() {
       {/* Filter bar */}
       {section !== 'mine' && filtersOpen && (
       <div className="mb-4 space-y-3">
-        {/* Promoted out of a small inline label: this decides the shape of the
-            whole page, and it used to reset to System on every visit. It sits
-            with the filters because grouping and filtering are one decision. */}
-        <div className="inline-flex items-center gap-2.5 rounded-xl border border-line bg-surface px-3 py-2 shadow-panel">
-          <Icon icon={FolderTree} size={15} className="text-ink-3" />
-          <span className="text-[12.5px] font-medium text-ink-2">{t('Organise by')}</span>
-          <Segmented value={groupBy} onChange={(v) => setGroupBy(v as 'system' | 'module')} items={[{ value: 'system', label: t('System') }, { value: 'module', label: t('Module') }]} />
-        </div>
         <div className="flex flex-wrap items-center gap-3">
           <SearchInput
             value={query}
