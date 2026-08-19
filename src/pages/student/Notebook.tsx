@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useSearchParams } from 'react-router-dom'
-import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Eye, PenLine } from 'lucide-react'
+import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Eye, PenLine, Link2 } from 'lucide-react'
 import { initialNotes } from '@/data/notebook'
 import type { Note } from '@/data/notebook'
 import { Button } from '@/components/ui/Button'
@@ -19,6 +19,7 @@ import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { formatRelativeTime } from '@/lib/format'
 import { imageFileToBoundedDataUrl } from '@/lib/mediaStorage'
 import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
+import { ShareDialog } from '@/components/share/ShareDialog'
 import { useT } from '@/lib/i18n'
 
 export function Notebook() {
@@ -37,6 +38,7 @@ export function Notebook() {
   const [tagOpen, setTagOpen] = useState(false)
   const [newTag, setNewTag] = useState('')
   const [imageError, setImageError] = useState<string | null>(null)
+  const [sharing, setSharing] = useState(false)
   const handledArticle = useRef<string | null>(null)
   const handledCapture = useRef(false)
   // Write or read. Kept per device rather than per note: it is a preference
@@ -234,6 +236,7 @@ export function Notebook() {
                   <Icon icon={reading ? PenLine : Eye} size={14} />
                   {reading ? t('Edit') : t('Read')}
                 </button>
+                <IconButton icon={Link2} label={t('Share this note')} size="sm" onClick={() => setSharing(true)} />
                 <IconButton icon={Trash2} label={t('Delete note')} size="sm" onClick={() => remove(note.id)} />
               </div>
             </div>
@@ -280,6 +283,19 @@ export function Notebook() {
             </div>
             <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />{t('Paste an image from your clipboard directly into this note.')}</p>
             {imageError && <p role="status" className="mt-1.5 text-[11.5px] text-danger">{imageError}</p>}
+
+            {/* Published as its own copy under its own link — see `ShareDialog`.
+                The payload is read when the dialog publishes, so what goes out
+                is what is on screen at that moment rather than whatever the
+                note held when the button was first drawn. */}
+            <ShareDialog
+              open={sharing}
+              onClose={() => setSharing(false)}
+              handle={`note:${note.id}`}
+              kind="note"
+              title={note.title || t('Untitled note')}
+              payload={() => ({ title: note.title, body: note.body, tags: note.tags })}
+            />
           </div>
         ) : (
           <EmptyState

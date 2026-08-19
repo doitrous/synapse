@@ -64,6 +64,7 @@ const ForgotPassword = lazyNamed(() => import('@/pages/auth/ForgotPassword'), 'F
 const ResetPassword = lazyNamed(() => import('@/pages/auth/ResetPassword'), 'ResetPassword')
 const Logout = lazyNamed(() => import('@/pages/auth/Logout'), 'Logout')
 const Unsubscribe = lazyNamed(() => import('@/pages/Unsubscribe'), 'Unsubscribe')
+const SharedDocument = lazyNamed(() => import('@/pages/SharedDocument'), 'SharedDocument')
 
 const Dashboard = lazyNamed(() => import('@/pages/student/Dashboard'), 'Dashboard')
 const Library = lazyNamed(() => import('@/pages/student/Library'), 'Library')
@@ -235,6 +236,9 @@ export const router = createBrowserRouter([
   { path: '/logout', element: render(Logout) },
   // Followed from an inbox, signed out, on either host — never behind auth.
   { path: '/unsubscribe', element: render(Unsubscribe) },
+  // A note or a board somebody shared. Deliberately outside `/app`: whoever
+  // opens it may have no account, and the server decides what they may do.
+  { path: '/s/:id', element: render(SharedDocument) },
   { path: '/auth/verify-email', element: render(VerifyEmail) },
   { path: '/auth/mfa', element: render(MfaSetup) },
   { path: '/auth/forgot-password', element: render(ForgotPassword) },
