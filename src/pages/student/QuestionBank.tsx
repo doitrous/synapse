@@ -33,7 +33,8 @@ import { formatLongDate } from '@/lib/format'
 import { getSubject } from '@/data/subjects'
 import { accuracyOf, bySubject as accuracyBySubject, currentStreak, dailyCounts, distinctItems, weakest } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
-import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, type AttemptHistory } from '@/lib/useAttemptLog'
+import { pruneManifests, type SessionManifests } from '@/data/qbankCollections'
+import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts, type AttemptHistory } from '@/lib/useAttemptLog'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -232,6 +233,16 @@ const ACTIVE_SESSION_STORAGE_KEY = 'synapse.qbank.activeSession.v1'
 const SESSION_NAMES_STORAGE_KEY = 'synapse.qbank.sessionNames.v1'
 
 /**
+ * Which questions each sitting contained.
+ *
+ * The attempt log only receives a question once its answer is checked, so a
+ * skipped one left no trace anywhere the moment its sitting ended. This is the
+ * other half of the pair: with both, "served but never attempted" is a fact
+ * rather than a guess.
+ */
+const SESSION_QUESTIONS_STORAGE_KEY = 'synapse.qbank.sessionQuestions.v1'
+
+/**
  * Tests already taken.
  *
  * Reconstructed from the attempt log rather than stored twice: every record has
@@ -427,6 +438,7 @@ export function QuestionBank() {
   }, [phase, setImmersive])
   const { record } = useMastery()
   const logAttempt = useRecordAttempt()
+  const logAttempts = useRecordAttempts()
   const history = useAttemptHistory()
   /** Groups this sitting's records, so a later attempt at the same item is distinct. */
   const [sessionId, setSessionId] = useState(() => newSessionId())
@@ -460,6 +472,10 @@ export function QuestionBank() {
    * covered, so nothing is ever nameless.
    */
   const [savedNames, setSavedNames] = usePersistentState<Record<string, string>>(SESSION_NAMES_STORAGE_KEY, {})
+  const [sessionQuestions, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
+  // A later task reads this to tell "answered" apart from "served but skipped"
+  // (the "got wrong" collection's omittedIds lookup). Nothing here reads it yet.
+  void sessionQuestions
 
 
   /**
@@ -596,7 +612,7 @@ export function QuestionBank() {
     })
     if (!pool.length) return
     openedReview.current = true
-    beginSession(shuffle(pool).slice(0, Math.min(REVIEW_SESSION_SIZE, pool.length)))
+    beginSession(shuffle(pool).slice(0, Math.min(REVIEW_SESSION_SIZE, pool.length)), newSessionId())
     // beginSession is redefined every render; the ref above is what makes this
     // run once, so re-running on its identity would defeat the guard.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -623,10 +639,13 @@ export function QuestionBank() {
    * which is what every quick-start button did on a bank with no published
    * questions in it.
    */
-  function beginSession(picked: Question[]) {
+  function beginSession(picked: Question[], id: string) {
     if (!picked.length) return
+    // Filed here rather than when the sitting ends: a test abandoned halfway
+    // still served its questions, and the ones never reached are still omitted.
+    setSessionQuestions((current) => pruneManifests({ ...current, [id]: picked.map((question) => question.id) }))
     setSession(picked)
-    setSessionId(newSessionId())
+    setSessionId(id)
     setIdx(0)
     setAnswers({})
     setChecked({})
@@ -711,6 +730,11 @@ export function QuestionBank() {
       delete next[sessionId]
       return next
     })
+    setSessionQuestions((current) => {
+      const next = { ...current }
+      delete next[sessionId]
+      return next
+    })
     if (saved?.sessionId === sessionId) setSaved(null)
   }
 
@@ -724,14 +748,17 @@ export function QuestionBank() {
   }, [scopeSubjectName, sessionSummaries, savedNames, t])
 
   function start() {
-    // Named now rather than when it ends: a sitting abandoned halfway still
-    // produced records, and those should not appear as an unnamed row.
-    setSavedNames((current) => ({ ...current, [sessionId]: sessionName.trim() || autoSessionName }))
-    beginSession(shuffle(available).slice(0, Math.min(count, available.length)))
+    // The id is made here, not inside `beginSession`. It used to be made there,
+    // after this line had already filed the name — so every name a student
+    // typed was stored against the sitting they had just left, and the sitting
+    // they were starting showed as untitled ever after.
+    const id = newSessionId()
+    setSavedNames((current) => ({ ...current, [id]: sessionName.trim() || autoSessionName }))
+    beginSession(shuffle(available).slice(0, Math.min(count, available.length)), id)
   }
 
   function startPreset(kind: 'weak' | 'emergency' | 'demanding' | 'everything') {
-    beginSession(shuffle(presetPool(kind)).slice(0, count))
+    beginSession(shuffle(presetPool(kind)).slice(0, count), newSessionId())
   }
 
   const stats = useMemo(() => {
@@ -1010,32 +1037,61 @@ export function QuestionBank() {
     .filter(({ option, index }) => !option.correct && index !== chosen && option.rationale.trim())
 
   /**
-   * Record what this question demonstrated, once, when its answer is checked.
+   * The record one answer produces, and the mastery evidence that goes with it.
    *
-   * `q.conceptIds` is already main-then-related with contextual concepts left
-   * out, so what reaches the ledger is only what the question assessed.
+   * Shared by the two writers so they cannot drift: one commits a single answer
+   * as it is checked, the other commits a whole sitting at the end, and a
+   * question must not be worth different things depending on which ran.
    */
+  function attemptFor(question: Question, chosenIndex: number, seconds: number | null) {
+    const correct = Boolean(question.options[chosenIndex]?.correct)
+    const conceptIds = question.conceptIds ?? []
+    // The mastery ledger only takes concept-tagged evidence, but the attempt
+    // log takes every answer: an untagged question still happened.
+    if (conceptIds.length) record({ conceptIds, source: 'question', correct })
+    return {
+      surface: 'qbank' as const,
+      itemId: question.id,
+      subjectId: question.subjectId,
+      topic: question.topic,
+      difficulty: question.difficulty,
+      conceptIds,
+      correct,
+      seconds,
+      sessionId,
+    }
+  }
+
   function checkAnswer() {
     setChecked((c) => ({ ...c, [q.id]: true }))
     if (checked[q.id] || chosen == null) return
-    const correct = Boolean(q.options[chosen]?.correct)
-    const conceptIds = q.conceptIds ?? []
-    // The mastery ledger only takes concept-tagged evidence, but the attempt
-    // log takes every answer: an untagged question still happened, and the
-    // student's totals, streak and accuracy have to include it.
-    if (conceptIds.length) record({ conceptIds, source: 'question', correct })
-    logAttempt({
-      surface: 'qbank',
-      itemId: q.id,
-      subjectId: q.subjectId,
-      topic: q.topic,
-      difficulty: q.difficulty,
-      conceptIds,
-      correct,
-      seconds: mode === 'timed' ? Math.max(0, elapsed - questionStartedAt.current) : null,
-      sessionId,
-    })
+    logAttempt(attemptFor(q, chosen, mode === 'timed' ? Math.max(0, elapsed - questionStartedAt.current) : null))
     questionStartedAt.current = elapsed
+  }
+
+  /**
+   * Write a record for every answered question that does not have one.
+   *
+   * `checkAnswer` is the only other writer and its button only exists in tutor
+   * mode, so a timed sitting used to reach its results having recorded nothing
+   * at all: it never appeared in Previous tests, never moved the student's
+   * accuracy, and left every question they got wrong invisible to the list
+   * that is meant to collect them.
+   *
+   * `seconds` is null here. The per-question timer is only meaningful for an
+   * answer committed as it was given; a sitting submitted at the end cannot say
+   * how long any one question took, and inventing a figure would put a
+   * measurement in the log that nothing measured.
+   */
+  function commitAnswers() {
+    const pending = session.filter((question) => answers[question.id] != null && !checked[question.id])
+    if (!pending.length) return
+    logAttempts(pending.map((question) => attemptFor(question, answers[question.id], null)))
+    setChecked((current) => {
+      const next = { ...current }
+      for (const question of pending) next[question.id] = true
+      return next
+    })
   }
 
   function stateFor(i: number): QuestionState {
@@ -1283,7 +1339,7 @@ export function QuestionBank() {
               variant="primary"
               size="md"
               iconRight={reviewing ? undefined : Trophy}
-              onClick={() => setPhase('results')}
+              onClick={() => { if (!reviewing) commitAnswers(); setPhase('results') }}
             >
               {reviewing ? 'Finish review' : 'See results'}
             </Button>
