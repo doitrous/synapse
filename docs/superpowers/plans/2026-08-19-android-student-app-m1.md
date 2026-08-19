@@ -546,7 +546,23 @@ fun CortexTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable
 
 Write `CortexColors.toMaterialScheme(dark: Boolean)` mapping `primary → primary`, `onPrimary → onPrimary`, `accent → secondary`, `paper → background`, `surface → surface`, `ink → onSurface`, `danger → error`, so Material components that are used unstyled still land inside the palette.
 
-`Type.kt` defines `CortexTypography` with the serif family for reading surfaces and the sans for chrome, matching `--font-serif` / `--font-sans`. Bundle the same Source Serif 4 and Geist variable fonts the web ships, in `app/src/main/res/font/`.
+`Type.kt` defines `CortexTypography` with the serif family for reading surfaces and the sans for
+chrome, matching `--font-serif` / `--font-sans`.
+
+The font binaries are **already on disk** — do not download anything:
+
+- `app/src/main/res/font/geist_variable.ttf` — Geist, the `--font-sans` face
+- `app/src/main/res/font/source_serif_4_variable.ttf` — Source Serif 4, the `--font-serif` face
+- `app/src/main/assets/licenses/` — the OFL licences that must ship with them
+
+Both are variable TTFs, which `res/font` supports from API 26. Declare them with
+`FontFamily(Font(R.font.geist_variable))` and `FontFamily(Font(R.font.source_serif_4_variable))`, and
+select weight through `FontWeight` on the text styles rather than by adding one `Font` entry per
+weight — a variable font carries the whole weight axis in the single file.
+
+Give `CortexTypography` real values for `bodyLarge`, `bodyMedium`, `titleLarge`, `titleMedium`,
+`labelLarge` and `headlineSmall` at minimum; `bodyLarge` is the reading style and takes the serif,
+everything else takes the sans.
 
 - [ ] **Step 4: Run the tests**
 
