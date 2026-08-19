@@ -1,11 +1,14 @@
 import { useMemo, useState } from 'react'
-import { BookOpenText, FileQuestion, Filter, FolderOpen, GitFork, Layers3, Library, Pencil, Plus, Stethoscope, Trash2, X } from 'lucide-react'
+import { BookOpenText, ChevronRight, Eraser, FileQuestion, Filter, FolderOpen, GitFork, Layers3, Library, Minus, Pencil, Plus, Stethoscope, Trash2, X } from 'lucide-react'
 import type { CurriculumCourse } from '@/data/universities'
 import type { ManagedContentItem } from '@/data/contentControl'
 import type { ConceptGraph } from '@/data/conceptGraph'
 import { buildCurriculumMembership } from '@/data/curriculumMembership'
 import { COURSE_CURRICULA_STORAGE_KEY, EMPTY_CURRICULUM_SELECTION as EMPTY, curriculumCount, type CourseCurriculumSelection } from '@/data/courseCurriculum'
-import { mergeCurricula, newModuleSubject, type ModuleSubject } from '@/data/moduleSubjects'
+import {
+  addSubject, curriculumOfTree, findSubject, mergeCurricula, newModuleSubject, removeSubject,
+  subjectPath, updateSubject, walkSubjects, type ModuleSubject,
+} from '@/data/moduleSubjects'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { subjects } from '@/data/subjects'
@@ -30,18 +33,20 @@ const TAB_FIELD = {
   resource: 'resourceIds',
 } as const
 
-/** The rail index that shows the whole module rather than one subject. */
-const WHOLE_MODULE = -1
-
 /**
- * What a module covers, chosen one subject at a time.
+ * What a module covers, chosen one subject at a time — and one branch of a
+ * subject at a time.
  *
- * Content used to be picked for the module as a whole, which left a module's
- * topics, questions and practicals in one undifferentiated pile with no
- * relationship to the disciplines that are actually examined. The rail on the
- * left is the module's subjects — the same list the Marks & Exams dialog edits —
- * so choosing a library topic under `Anatomy` is what ties that topic to the
- * marks Anatomy carries.
+ * Content used to be picked for the module as a whole, which left its topics,
+ * questions and practicals in one undifferentiated pile with no relationship to
+ * the disciplines that are examined. The rail on the left is the module's
+ * subjects, and a subject may be split as far as the curriculum goes: Anatomy
+ * into Basis of Anatomy into Osteology, with library topics chosen at whichever
+ * level they actually belong to.
+ *
+ * Marks stay on a module's direct subjects. Splitting one never moves what it
+ * is worth, which is why nothing here re-parents an existing subject — a new
+ * branch is always a new, empty one.
  */
 export function CourseCurriculumDialog({ course, year, items, graph, value, onClose, onSave }: {
   course: CurriculumCourse | null
@@ -55,7 +60,9 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
   const [moduleSubjects, setModuleSubjects] = useState<ModuleSubject[]>(
     () => (value?.length ? structuredClone(value) : [newModuleSubject('General')]),
   )
-  const [active, setActive] = useState(0)
+  /** The selected subject's id, or null for the whole-module summary. */
+  const [active, setActive] = useState<string | null>(() => (value?.length ? value[0].id : null))
+  const [collapsed, setCollapsed] = useState<string[]>([])
   const [renaming, setRenaming] = useState<string | null>(null)
   const [nameDraft, setNameDraft] = useState('')
   const [tab, setTab] = useState<CurriculumTab>('topics')
@@ -91,17 +98,19 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
 
   if (!course) return null
 
-  const wholeModule = active === WHOLE_MODULE
-  const index = Math.min(Math.max(active, 0), Math.max(moduleSubjects.length - 1, 0))
-  const current = moduleSubjects[index]
+  const current = active ? findSubject(moduleSubjects, active) : undefined
+  const wholeModule = !current
   const draft = current?.curriculum ?? EMPTY
   const merged = mergeCurricula(moduleSubjects)
 
-  /** Every write lands on the selected subject's own selection. */
-  const setDraft = (updater: (selection: CourseCurriculumSelection) => CourseCurriculumSelection) =>
-    setModuleSubjects((currentSubjects) => currentSubjects.map((subject, i) => (
-      i === index ? { ...subject, curriculum: updater(subject.curriculum) } : subject
-    )))
+  /** Every write lands on the selected subject, wherever it sits in the tree. */
+  const setDraft = (updater: (selection: CourseCurriculumSelection) => CourseCurriculumSelection) => {
+    if (!current) return
+    setModuleSubjects((currentSubjects) => updateSubject(currentSubjects, current.id, (subject) => ({
+      ...subject,
+      curriculum: updater(subject.curriculum),
+    })))
+  }
 
   const chosenTopics = draft.topicNodeIds ?? []
   const field = tab === 'topics' ? 'articleIds' : TAB_FIELD[tab]
@@ -116,6 +125,12 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
 
   const add = (key: keyof CourseCurriculumSelection, ids: string[]) =>
     setDraft((selection) => ({ ...selection, [key]: [...new Set([...((selection[key] as string[] | undefined) ?? []), ...ids])] }))
+
+  /** The other half of `add`: take these back out, wherever they came from. */
+  const drop = (key: keyof CourseCurriculumSelection, ids: string[]) => {
+    const gone = new Set(ids)
+    setDraft((selection) => ({ ...selection, [key]: (((selection[key] as string[] | undefined) ?? []).filter((id) => !gone.has(id))) }))
+  }
 
   function toggle(id: string) {
     setDraft((selection) => {
@@ -133,43 +148,127 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
     return membership.articlesUnder(nodeId).map((item) => item.id)
   }
 
-  function addSubject() {
-    setModuleSubjects((currentSubjects) => {
-      setActive(currentSubjects.length)
-      return [...currentSubjects, newModuleSubject('')]
-    })
+  /* ---- The rail ---------------------------------------------------------- */
+
+  function addBranch(parentId: string | null) {
+    const child = newModuleSubject('')
+    setModuleSubjects((currentSubjects) => addSubject(currentSubjects, parentId, child))
+    if (parentId) setCollapsed((current) => current.filter((id) => id !== parentId))
+    setActive(child.id)
+    setRenaming(child.id)
+    setNameDraft('')
   }
 
-  function removeSubject(id: string) {
-    setModuleSubjects((currentSubjects) => currentSubjects.filter((subject) => subject.id !== id))
-    setActive(0)
+  function dropBranch(id: string) {
+    setModuleSubjects((currentSubjects) => removeSubject(currentSubjects, id))
+    if (active === id || subjectPath(moduleSubjects, active ?? '').some((entry) => entry.id === id)) setActive(null)
   }
 
   function saveName(id: string) {
     const name = nameDraft.trim()
     setRenaming(null)
     if (!name) return
-    setModuleSubjects((currentSubjects) => currentSubjects.map((subject) => (subject.id === id ? { ...subject, name } : subject)))
+    setModuleSubjects((currentSubjects) => updateSubject(currentSubjects, id, (subject) => ({ ...subject, name })))
   }
 
   const tabNoun = tab === 'question' ? 'questions' : tab === 'practical' ? 'practical items' : tab === 'resource' ? 'resources' : tab === 'concept' ? 'concepts' : 'articles'
+  const filteredIds = tab === 'concept' ? filteredConcepts.map((concept) => concept.id) : filtered.map((item) => item.id)
+  const filteredSelected = filteredIds.filter((id) => selected.includes(id))
+  const trail = current ? subjectPath(moduleSubjects, current.id) : []
+
+  function RailRow({ subject, depth }: { subject: ModuleSubject; depth: number }) {
+    const children = subject.children ?? []
+    const isOpen = !collapsed.includes(subject.id)
+    const isActive = active === subject.id
+    const covered = curriculumCount(curriculumOfTree(subject))
+
+    return (
+      <li>
+        {renaming === subject.id ? (
+          <form
+            className="flex items-center gap-1 py-0.5"
+            style={{ paddingInlineStart: `${depth * 0.85}rem` }}
+            onSubmit={(event) => { event.preventDefault(); saveName(subject.id) }}
+          >
+            <TextInput
+              value={nameDraft}
+              onChange={(event) => setNameDraft(event.target.value)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter') { event.preventDefault(); saveName(subject.id) }
+                if (event.key === 'Escape') { event.preventDefault(); setRenaming(null) }
+              }}
+              className="h-8 min-w-0 flex-1"
+              autoFocus
+              placeholder="Subject name"
+              aria-label="Subject name"
+            />
+            <Button type="submit" variant="primary" size="sm">OK</Button>
+          </form>
+        ) : (
+          <div
+            className={cn('group flex items-center gap-0.5 rounded-lg', isActive ? 'bg-accent-tint' : 'hover:bg-inset')}
+            style={{ paddingInlineStart: `${depth * 0.85}rem` }}
+          >
+            <button
+              type="button"
+              onClick={() => setCollapsed((current) => current.includes(subject.id) ? current.filter((id) => id !== subject.id) : [...current, subject.id])}
+              className={cn('grid size-6 shrink-0 place-items-center rounded text-ink-3', children.length === 0 && 'invisible')}
+              aria-label={isOpen ? `Collapse ${subject.name || 'subject'}` : `Expand ${subject.name || 'subject'}`}
+              aria-expanded={isOpen}
+            >
+              <Icon icon={ChevronRight} size={12} className={cn('transition-transform', isOpen && 'rotate-90')} />
+            </button>
+            <button
+              type="button"
+              onClick={() => setActive(subject.id)}
+              onDoubleClick={() => { setRenaming(subject.id); setNameDraft(subject.name) }}
+              className={cn('min-w-0 flex-1 truncate py-2 pe-1 text-start text-[12.5px]', isActive ? 'font-medium text-accent-strong' : 'text-ink-2')}
+            >
+              {subject.name || 'Untitled subject'}
+              <span className="tnum ms-1.5 font-mono text-[10.5px] text-ink-3">{covered}</span>
+            </button>
+            <button type="button" onClick={() => addBranch(subject.id)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:text-accent-strong" aria-label={`Add a subject under ${subject.name || 'this subject'}`}>
+              <Icon icon={Plus} size={12} />
+            </button>
+            <button type="button" onClick={() => { setRenaming(subject.id); setNameDraft(subject.name) }} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:text-ink" aria-label={`Rename ${subject.name || 'subject'}`}>
+              <Icon icon={Pencil} size={12} />
+            </button>
+            <button type="button" onClick={() => dropBranch(subject.id)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Remove ${subject.name || 'subject'}`}>
+              <Icon icon={Trash2} size={12} />
+            </button>
+          </div>
+        )}
+        {isOpen && children.length > 0 && (
+          <ul className="space-y-0.5">
+            {children.map((child) => <RailRow key={child.id} subject={child} depth={depth + 1} />)}
+          </ul>
+        )}
+      </li>
+    )
+  }
 
   return (
     <div className="fixed inset-0 z-50 grid place-items-center bg-ink/25 p-0 backdrop-blur-[2px] sm:p-4" role="dialog" aria-modal="true" aria-labelledby="course-curriculum-title">
       <div className="flex h-full max-h-none w-full max-w-6xl flex-col overflow-hidden border border-line bg-paper pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)] shadow-pop sm:h-[90vh] sm:rounded-2xl sm:pb-0 sm:pt-0">
         <header className="flex flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-3 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-4">
           <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={BookOpenText} size={17} /></span>
-          <div className="min-w-0 flex-1"><h2 id="course-curriculum-title" className="truncate font-serif text-[18px] font-semibold text-ink">{course.name} curriculum</h2><p className="truncate text-[11.5px] text-ink-3">{year} · {course.block} · name the subjects, then choose what each one covers</p></div>
+          <div className="min-w-0 flex-1">
+            <h2 id="course-curriculum-title" className="truncate font-serif text-[18px] font-semibold text-ink">{course.name} curriculum</h2>
+            <p className="truncate text-[11.5px] text-ink-3">
+              {trail.length > 0 ? trail.map((entry) => entry.name || 'Untitled').join(' › ') : `${year} · ${course.block} · name the subjects, then choose what each one covers`}
+            </p>
+          </div>
           <button type="button" onClick={onClose} className="grid size-10 shrink-0 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close curriculum editor"><Icon icon={X} size={18} /></button>
-          <div className="flex basis-full justify-end gap-2 sm:contents"><Button type="button" variant="ghost" onClick={onClose}>Cancel</Button><Button type="button" variant="primary" onClick={() => onSave(moduleSubjects.filter((subject) => subject.name.trim() || curriculumCount(subject.curriculum) > 0))}>Save curriculum</Button></div>
+          <div className="flex basis-full justify-end gap-2 sm:contents"><Button type="button" variant="ghost" onClick={onClose}>Cancel</Button><Button type="button" variant="primary" onClick={() => onSave(moduleSubjects.filter((subject) => subject.name.trim() || curriculumCount(curriculumOfTree(subject)) > 0))}>Save curriculum</Button></div>
         </header>
 
         <div className="flex min-h-0 flex-1 flex-col lg:flex-row">
-          {/* Subjects rail — the same list the Marks & Exams dialog edits. */}
-          <aside className="max-h-[30vh] shrink-0 overflow-y-auto border-b border-line bg-surface-2/40 p-2 lg:max-h-none lg:w-60 lg:border-b-0 lg:border-e">
+          {/* Subjects rail — the same list the Marks & Exams dialog edits, and
+              whatever each subject has been split into beneath it. */}
+          <aside className="max-h-[30vh] shrink-0 overflow-y-auto border-b border-line bg-surface-2/40 p-2 lg:max-h-none lg:w-72 lg:border-b-0 lg:border-e">
             <button
               type="button"
-              onClick={() => setActive(WHOLE_MODULE)}
+              onClick={() => setActive(null)}
               className={cn(
                 'flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-start text-[12.5px] font-semibold',
                 wholeModule ? 'bg-accent-tint text-accent-strong' : 'text-ink hover:bg-inset',
@@ -182,51 +281,30 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
 
             <p className="mb-1 mt-3 px-2.5 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">Subjects</p>
             <ul className="space-y-0.5">
-              {moduleSubjects.map((subject, i) => (
-                <li key={subject.id}>
-                  {renaming === subject.id ? (
-                    <form className="flex items-center gap-1" onSubmit={(event) => { event.preventDefault(); saveName(subject.id) }}>
-                      <TextInput value={nameDraft} onChange={(event) => setNameDraft(event.target.value)} className="h-8 min-w-0 flex-1" autoFocus aria-label="Subject name" />
-                      <Button type="submit" variant="primary" size="sm">OK</Button>
-                    </form>
-                  ) : (
-                    <div className={cn('group flex items-center gap-1 rounded-lg', !wholeModule && i === index ? 'bg-accent-tint' : 'hover:bg-inset')}>
-                      <button
-                        type="button"
-                        onClick={() => setActive(i)}
-                        onDoubleClick={() => { setRenaming(subject.id); setNameDraft(subject.name) }}
-                        className={cn('min-w-0 flex-1 truncate px-2.5 py-2 text-start text-[12.5px]', !wholeModule && i === index ? 'font-medium text-accent-strong' : 'text-ink-2')}
-                      >
-                        {subject.name || `Subject ${i + 1}`}
-                        <span className="tnum ms-1.5 font-mono text-[10.5px] text-ink-3">{curriculumCount(subject.curriculum)}</span>
-                      </button>
-                      <button type="button" onClick={() => { setRenaming(subject.id); setNameDraft(subject.name) }} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:text-ink" aria-label={`Rename ${subject.name || 'subject'}`}>
-                        <Icon icon={Pencil} size={12} />
-                      </button>
-                      <button type="button" onClick={() => removeSubject(subject.id)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Remove ${subject.name || 'subject'}`}>
-                        <Icon icon={Trash2} size={12} />
-                      </button>
-                    </div>
-                  )}
-                </li>
-              ))}
+              {moduleSubjects.map((subject) => <RailRow key={subject.id} subject={subject} depth={0} />)}
             </ul>
-            <Button className="mt-2 w-full" variant="secondary" size="sm" iconLeft={Plus} onClick={addSubject}>Add subject</Button>
+            <Button className="mt-2 w-full" variant="secondary" size="sm" iconLeft={Plus} onClick={() => addBranch(null)}>Add subject</Button>
+            <p className="mt-2 px-2.5 text-[11px] leading-relaxed text-ink-3">
+              Marks stay on a module’s own subjects. Splitting one does not change what it is worth.
+            </p>
           </aside>
 
           <div className="flex min-h-0 flex-1 flex-col">
             {wholeModule ? (
               <div className="min-h-0 flex-1 overflow-y-auto p-4">
-                <p className="text-[12.5px] text-ink-2">Everything this module covers, gathered from its subjects. Read-only — choose a subject on the left to change what it takes.</p>
+                <p className="text-[12.5px] text-ink-2">Everything this module covers, gathered from its subjects and everything beneath them. Read-only — choose a subject on the left to change what it takes.</p>
                 <ul className="mt-3 divide-y divide-line rounded-xl border border-line bg-surface">
-                  {moduleSubjects.map((subject, i) => (
-                    <li key={subject.id} className="flex flex-wrap items-center gap-x-4 gap-y-1 px-4 py-3">
-                      <span className="min-w-0 flex-1 truncate text-[13px] font-medium text-ink">{subject.name || `Subject ${i + 1}`}</span>
-                      <span className="text-[11.5px] text-ink-3">
-                        {(subject.curriculum.topicNodeIds ?? []).length} topics · {subject.curriculum.articleIds.length} library · {subject.curriculum.questionIds.length} questions · {subject.curriculum.practicalIds.length} practical · {(subject.curriculum.conceptIds ?? []).length} concepts · {(subject.curriculum.resourceIds ?? []).length} resources
-                      </span>
-                    </li>
-                  ))}
+                  {walkSubjects(moduleSubjects).map((subject) => {
+                    const depth = subjectPath(moduleSubjects, subject.id).length - 1
+                    return (
+                      <li key={subject.id} className="flex flex-wrap items-center gap-x-4 gap-y-1 px-4 py-2.5" style={{ paddingInlineStart: `${1 + depth * 1.1}rem` }}>
+                        <span className="min-w-0 flex-1 truncate text-[13px] font-medium text-ink">{subject.name || 'Untitled subject'}</span>
+                        <span className="text-[11.5px] text-ink-3">
+                          {(subject.curriculum.topicNodeIds ?? []).length} topics · {subject.curriculum.articleIds.length} library · {subject.curriculum.questionIds.length} questions · {subject.curriculum.practicalIds.length} practical · {(subject.curriculum.conceptIds ?? []).length} concepts · {(subject.curriculum.resourceIds ?? []).length} resources
+                        </span>
+                      </li>
+                    )
+                  })}
                   {moduleSubjects.length === 0 && <li className="px-4 py-6 text-center text-[12.5px] text-ink-3">No subjects yet.</li>}
                 </ul>
               </div>
@@ -245,9 +323,10 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
                   ]}
                 />
 
-                {/* One press per chosen topic, on every tab — including this one, where it
-                    takes the articles that sit under the topic rather than the topic itself. */}
-                {chosenTopics.length > 0 && (
+                {/* One press per chosen topic, on every tab — and the same press
+                    in reverse, because a mis-click that adds two hundred items
+                    needs an undo that is not two hundred clicks. */}
+                {chosenTopics.length > 0 && tab !== 'topics' && (
                   <div className="flex flex-wrap items-center gap-2 border-b border-line bg-accent-tint/25 px-4 py-2.5">
                     <span className="text-[11.5px] font-semibold text-accent-strong">From {current?.name || 'this subject'}&rsquo;s library topics</span>
                     {chosenTopics.map((nodeId) => {
@@ -255,26 +334,38 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
                       const title = node?.title ?? nodeId
                       const available = underTopic(nodeId)
                       const fresh = available.filter((id) => !selected.includes(id))
-                      // Three states, and they mean different things: nothing exists there
-                      // yet, everything there is already in, or there is work to do.
+                      const here = available.filter((id) => selected.includes(id))
                       const empty = available.length === 0
                       return (
-                        <Button
-                          key={nodeId}
-                          type="button"
-                          size="sm"
-                          variant="secondary"
-                          iconLeft={empty ? undefined : Plus}
-                          disabled={fresh.length === 0}
-                          onClick={() => add(field, available)}
-                          title={empty ? 'Nothing is tagged to this topic yet.' : fresh.length === 0 ? 'Every one of these is already in this subject.' : undefined}
-                        >
-                          {empty
-                            ? `No ${tabNoun} under ${title} yet`
-                            : fresh.length === 0
-                              ? `All ${tabNoun} under ${title} added`
-                              : `Add all ${tabNoun} under ${title} (${fresh.length})`}
-                        </Button>
+                        <span key={nodeId} className="inline-flex items-center gap-1">
+                          <Button
+                            type="button"
+                            size="sm"
+                            variant="secondary"
+                            iconLeft={empty ? undefined : Plus}
+                            disabled={fresh.length === 0}
+                            onClick={() => add(field, available)}
+                            title={empty ? 'Nothing is tagged to this topic yet.' : fresh.length === 0 ? 'Every one of these is already in this subject.' : undefined}
+                          >
+                            {empty
+                              ? `No ${tabNoun} under ${title} yet`
+                              : fresh.length === 0
+                                ? `All ${tabNoun} under ${title} added`
+                                : `Add all ${tabNoun} under ${title} (${fresh.length})`}
+                          </Button>
+                          {here.length > 0 && (
+                            <Button
+                              type="button"
+                              size="sm"
+                              variant="ghost"
+                              iconLeft={Minus}
+                              onClick={() => drop(field, available)}
+                              title={`Take the ${here.length} ${tabNoun} under ${title} back out`}
+                            >
+                              {here.length}
+                            </Button>
+                          )}
+                        </span>
                       )
                     })}
                   </div>
@@ -282,9 +373,16 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
 
                 {tab === 'topics' ? (
                   <div className="flex min-h-0 flex-1 flex-col px-3 pt-3 sm:px-4">
-                    <p className="mb-2 text-[12px] text-ink-3">
-                      The same tree students browse. Tick the topics <strong className="text-ink-2">{current?.name || 'this subject'}</strong> covers — every tab can then take everything under them in one press.
-                    </p>
+                    <div className="mb-2 flex flex-wrap items-center gap-2">
+                      <p className="min-w-0 flex-1 text-[12px] text-ink-3">
+                        The same tree students browse. Tick the topics <strong className="text-ink-2">{current?.name || 'this subject'}</strong> covers — every tab can then take everything under them in one press.
+                      </p>
+                      {chosenTopics.length > 0 && (
+                        <Button type="button" size="sm" variant="ghost" iconLeft={Eraser} onClick={() => setDraft((selection) => ({ ...selection, topicNodeIds: [] }))}>
+                          Clear {chosenTopics.length} {chosenTopics.length === 1 ? 'topic' : 'topics'}
+                        </Button>
+                      )}
+                    </div>
                     <LibraryTopicPicker
                       nodes={medicalTaxonomy}
                       chosen={chosenTopics}
@@ -304,15 +402,40 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
                           {(tab === 'question' || tab === 'practical') && <Select aria-label="Filter by difficulty" value={difficulty} onChange={(event) => setDifficulty(event.target.value)} className="w-32"><option value="all">All difficulty</option><option>Easy</option><option>Moderate</option><option>Hard</option><option>Challenging</option></Select>}
                         </>
                       )}
-                      <Button
-                        type="button"
-                        size="sm"
-                        iconLeft={Plus}
-                        className="ms-auto"
-                        onClick={() => add(field, tab === 'concept' ? filteredConcepts.map((concept) => concept.id) : filtered.map((item) => item.id))}
-                      >
-                        Include filtered ({tab === 'concept' ? filteredConcepts.length : filtered.length})
-                      </Button>
+                      <div className="ms-auto flex flex-wrap items-center gap-1.5">
+                        <Button
+                          type="button"
+                          size="sm"
+                          iconLeft={Plus}
+                          disabled={filteredIds.length === filteredSelected.length}
+                          onClick={() => add(field, filteredIds)}
+                        >
+                          Include filtered ({filteredIds.length - filteredSelected.length})
+                        </Button>
+                        <Button
+                          type="button"
+                          size="sm"
+                          variant="secondary"
+                          iconLeft={Minus}
+                          disabled={filteredSelected.length === 0}
+                          onClick={() => drop(field, filteredIds)}
+                          title="Take the filtered items back out of this subject"
+                        >
+                          Remove filtered ({filteredSelected.length})
+                        </Button>
+                        {selected.length > 0 && (
+                          <Button
+                            type="button"
+                            size="sm"
+                            variant="ghost"
+                            iconLeft={Eraser}
+                            onClick={() => setDraft((selection) => ({ ...selection, [field]: [] }))}
+                            title={`Take all ${selected.length} ${tabNoun} out of this subject`}
+                          >
+                            Clear all ({selected.length})
+                          </Button>
+                        )}
+                      </div>
                     </div>
 
                     <div className="min-h-0 flex-1 overflow-y-auto p-4">
@@ -338,7 +461,7 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
                             )
                           })}
                       </div>
-                      {(tab === 'concept' ? filteredConcepts.length : filtered.length) === 0 && (
+                      {filteredIds.length === 0 && (
                         <div className="py-16 text-center">
                           <p className="text-[13px] font-medium text-ink">No {tabNoun} match these filters</p>
                           <p className="mt-1 text-[12px] text-ink-3">Change a filter to broaden the curriculum pool.</p>
@@ -354,7 +477,7 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
 
         <footer className="flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-line bg-surface px-4 py-3 text-[11.5px] text-ink-3 sm:px-5 sm:text-[12px]">
           <span>
-            {moduleSubjects.length} {moduleSubjects.length === 1 ? 'subject' : 'subjects'} · {(merged.topicNodeIds ?? []).length} topics · {merged.articleIds.length} library · {merged.questionIds.length} questions · {merged.practicalIds.length} practical · {(merged.conceptIds ?? []).length} concepts · {(merged.resourceIds ?? []).length} resources
+            {walkSubjects(moduleSubjects).length} {walkSubjects(moduleSubjects).length === 1 ? 'subject' : 'subjects'} · {(merged.topicNodeIds ?? []).length} topics · {merged.articleIds.length} library · {merged.questionIds.length} questions · {merged.practicalIds.length} practical · {(merged.conceptIds ?? []).length} concepts · {(merged.resourceIds ?? []).length} resources
           </span>
           <span className="sm:ms-auto">Saved per university, year, and module.</span>
         </footer>

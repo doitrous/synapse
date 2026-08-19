@@ -3,6 +3,8 @@ import assert from 'node:assert/strict'
 import {
   EXAM_BUCKETS, bucketTotals, emptyExamMarks, isInternshipYear, moduleTotal, modulesWithoutMarks,
   newModuleSubject, programmeShareOf, programmeTotal, share, subjectTotal, termTotal, yearTotal,
+  addSubject, curriculumOfTree, descendantCount, findSubject, mergeCurricula, removeSubject,
+  subjectPath, updateSubject, walkSubjects,
   type ModuleSubject, type ModuleSubjectStore,
 } from './moduleSubjects.ts'
 import type { University } from './universities.ts'
@@ -119,4 +121,101 @@ test('a module in an internship year has no share of the degree, rather than a s
 test('a module in a programme year has its share of the degree', () => {
   const { uni, store } = fixture()
   assert.equal(programmeShareOf(uni, uni.years[1], 100, store), 40)
+})
+
+/* ---- The subject tree ---------------------------------------------------- */
+
+const leaf = (id: string, name: string, topics: string[] = []): ModuleSubject => ({
+  ...newModuleSubject(name),
+  id,
+  curriculum: { articleIds: [], questionIds: [], practicalIds: [], topicNodeIds: topics, conceptIds: [], resourceIds: [] },
+})
+
+/** Anatomy → Basis of Anatomy → Osteology, beside an unsplit Physiology. */
+function tree(): ModuleSubject[] {
+  return [
+    {
+      ...subject('Anatomy', 30, 20, 15, 5),
+      id: 'anatomy',
+      children: [
+        { ...leaf('basis', 'Basis of Anatomy', ['SYS-CVS']), children: [leaf('osteo', 'Osteology', ['SYS-MSK'])] },
+        leaf('neuro', 'Neuroanatomy', ['SYS-NEU']),
+      ],
+    },
+    { ...subject('Physiology', 20, 10, 0, 0), id: 'physiology' },
+  ]
+}
+
+test('the whole tree is walked, parents before their children', () => {
+  assert.deepEqual(walkSubjects(tree()).map((entry) => entry.id), ['anatomy', 'basis', 'osteo', 'neuro', 'physiology'])
+})
+
+test('a subject is found however deep it sits', () => {
+  assert.equal(findSubject(tree(), 'osteo')?.name, 'Osteology')
+  assert.equal(findSubject(tree(), 'nowhere'), undefined)
+})
+
+test('a subject knows how many sit beneath it', () => {
+  const anatomy = tree()[0]
+  assert.equal(descendantCount(anatomy), 3)
+  assert.equal(descendantCount(tree()[1]), 0)
+})
+
+test('a subject can be edited at any depth without disturbing the rest', () => {
+  const next = updateSubject(tree(), 'osteo', (entry) => ({ ...entry, name: 'Bones' }))
+  assert.equal(findSubject(next, 'osteo')?.name, 'Bones')
+  assert.equal(findSubject(next, 'basis')?.name, 'Basis of Anatomy')
+  assert.equal(findSubject(next, 'physiology')?.name, 'Physiology')
+})
+
+test('removing a subject takes everything under it', () => {
+  const next = removeSubject(tree(), 'basis')
+  assert.deepEqual(walkSubjects(next).map((entry) => entry.id), ['anatomy', 'neuro', 'physiology'])
+})
+
+test('removing a top subject leaves the others alone', () => {
+  assert.deepEqual(walkSubjects(removeSubject(tree(), 'anatomy')).map((entry) => entry.id), ['physiology'])
+})
+
+test('a subject is added at the top of the module, or under the one named', () => {
+  const atTop = addSubject(tree(), null, leaf('path', 'Pathology'))
+  assert.deepEqual(atTop.map((entry) => entry.id), ['anatomy', 'physiology', 'path'])
+
+  const deeper = addSubject(tree(), 'basis', leaf('joints', 'Arthrology'))
+  assert.deepEqual(findSubject(deeper, 'basis')?.children?.map((entry) => entry.id), ['osteo', 'joints'])
+})
+
+test('the path reads from the top of the module down to the subject', () => {
+  assert.deepEqual(subjectPath(tree(), 'osteo').map((entry) => entry.name), ['Anatomy', 'Basis of Anatomy', 'Osteology'])
+  assert.deepEqual(subjectPath(tree(), 'physiology').map((entry) => entry.name), ['Physiology'])
+  assert.deepEqual(subjectPath(tree(), 'nowhere'), [])
+})
+
+test('what a module covers includes everything chosen at every depth', () => {
+  assert.deepEqual(mergeCurricula(tree()).topicNodeIds?.slice().sort(), ['SYS-CVS', 'SYS-MSK', 'SYS-NEU'])
+})
+
+test('what a subject covers includes everything beneath it, and nothing beside it', () => {
+  const anatomy = tree()[0]
+  assert.deepEqual(curriculumOfTree(anatomy).topicNodeIds?.slice().sort(), ['SYS-CVS', 'SYS-MSK', 'SYS-NEU'])
+  const basis = findSubject(tree(), 'basis')!
+  assert.deepEqual(curriculumOfTree(basis).topicNodeIds?.slice().sort(), ['SYS-CVS', 'SYS-MSK'])
+})
+
+test('only a module’s direct subjects carry marks towards its total', () => {
+  // Anatomy 70 + Physiology 30. The nested subjects carry none and add none,
+  // so splitting a discipline never changes what the module is worth.
+  assert.equal(moduleTotal(tree()), 100)
+  const split = updateSubject(tree(), 'basis', (entry) => ({
+    ...entry,
+    marks: { writtenEndOfModule: 999, writtenEndOfYear: 0, practicalEndOfModule: 0, practicalEndOfYear: 0 },
+  }))
+  assert.equal(moduleTotal(split), 100)
+})
+
+test('splitting a subject leaves its own marks exactly where they were', () => {
+  const before = moduleTotal(tree())
+  const after = addSubject(tree(), 'physiology', leaf('cell', 'Cell Physiology'))
+  assert.equal(moduleTotal(after), before)
+  assert.equal(subjectTotal(findSubject(after, 'physiology')!), 30)
 })
