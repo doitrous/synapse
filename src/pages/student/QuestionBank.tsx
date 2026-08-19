@@ -472,11 +472,11 @@ export function QuestionBank() {
    * covered, so nothing is ever nameless.
    */
   const [savedNames, setSavedNames] = usePersistentState<Record<string, string>>(SESSION_NAMES_STORAGE_KEY, {})
-  const [sessionQuestions, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
-  // A later task reads this to tell "answered" apart from "served but skipped"
-  // (the "got wrong" collection's omittedIds lookup). Nothing here reads it yet.
-  void sessionQuestions
-
+  // Only the setter is bound. Nothing here reads the map back, and
+  // `noUnusedLocals` rejects a binding nobody uses — the same reason
+  // `useAttemptLog` writes `const [, setMonth] = …`. A later task restores the
+  // value binding when the collections start reading it.
+  const [, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
 
   /**
    * The sitting in progress, kept where a route change cannot take it.
