@@ -1820,37 +1820,188 @@ git commit -m "Turn a status code into something the caller can act on"
 **Files:**
 - Create: `android/app/src/main/java/com/synapse/android/core/auth/AuthModel.kt`
 - Create: `android/app/src/main/java/com/synapse/android/core/auth/SessionStore.kt`
+- Modify: `android/gradle/libs.versions.toml`, `android/app/build.gradle.kts`
 - Test: `android/app/src/test/java/com/synapse/android/core/auth/AuthModelTest.kt`
 
 **Interfaces:**
-- Consumes: `AppConfig`, `SynapseApi`.
-- Produces: `interface SessionStore { fun read(): String?; fun write(token: String?) }` with `EncryptedSessionStore(context)` implementing it; `class AuthModel(config, api, supabase, store)` exposing `val state: StateFlow<AuthState>` where `sealed interface AuthState { NotConfigured(missing: List<String>), SignedOut, Working, SignedIn(user: SessionUser), Failed(message: String) }`, and `suspend fun signIn(email, password)`, `signUp(email, password)`, `resetPassword(email)`, `restore()`, `signOut()`, plus `suspend fun accessToken(): String?` for `SynapseApi`'s token provider.
+- Consumes: `AppConfig` (`supabaseUrl`, `supabaseAnonKey`, `problems`), `SynapseApi` (`session(): SessionUser?`, and `ApiError.Unauthorized` / `.Transient`).
+- Produces:
+  - `interface SessionStore { fun read(): String?; fun write(token: String?) }`, with `EncryptedSessionStore(context)` implementing it over `EncryptedSharedPreferences`. The stored string is opaque to the store — it holds a whole serialized session, not a bare access token.
+  - `interface AuthBackend` — the narrow seam `AuthModel` talks to, so the test never needs a real Supabase client:
+    ```kotlin
+    interface AuthBackend {
+        suspend fun signIn(email: String, password: String)
+        suspend fun signUp(email: String, password: String)
+        suspend fun sendPasswordReset(email: String)
+        suspend fun signOut()
+        /** The current access token, read fresh. Null when there is no session. */
+        suspend fun accessToken(): String?
+    }
+    ```
+    `SupabaseAuthBackend(config, store)` is the production implementation.
+  - `class AuthModel(config: AppConfig, api: SynapseApi, backend: AuthBackend)` exposing:
+    ```kotlin
+    val state: StateFlow<AuthState>
+    val isWorking: StateFlow<Boolean>
+    val message: StateFlow<String?>      // shown to the student; null when there is nothing to say
+    suspend fun start()                  // restore a stored session, if there is one worth restoring
+    suspend fun signIn(email: String, password: String)
+    suspend fun signUp(email: String, password: String)
+    suspend fun resetPassword(email: String)
+    suspend fun signOut()
+    suspend fun accessToken(): String?   // the token provider handed to SynapseApi
+    ```
+    ```kotlin
+    sealed interface AuthState {
+        data class NotConfigured(val missing: List<String>) : AuthState
+        data object Restoring : AuthState
+        data object SignedOut : AuthState
+        data class SignedIn(val user: SessionUser) : AuthState
+    }
+    ```
 
-- [ ] **Step 1: Add supabase-kt**
+**Why the state machine has this exact shape.** It is the shape iOS already
+uses (`ios/Synapse/Core/Auth/AuthModel.swift:18-31`), and the two apps have to
+behave the same way for the same account. Three consequences follow, and each
+one is load-bearing:
 
-`implementation(libs.supabase.gotrue)` plus its Ktor engine, and `implementation(libs.androidx.security.crypto)` for `EncryptedSharedPreferences`.
+- There is no `Failed` state. A rejected password leaves the student on
+  `SignedOut` with a `message` — a failure state would be a dead end the
+  sign-in form has to be taught to render its way out of.
+- `isWorking` and `message` are orthogonal to `state`, not variants of it,
+  because a spinner and a notice can both be true of a signed-out screen. This
+  is also the only channel a *successful* `signUp` or `resetPassword` has:
+  neither of them signs anybody in, so without it those two calls succeed
+  silently and the student is left on a form that appears to have done nothing.
+- The app opens in `Restoring`, not `SignedOut`, so a student with a stored
+  session never sees the sign-in form flash past on launch.
 
-- [ ] **Step 2: Write the failing test**
+- [ ] **Step 1: Add the dependencies**
 
-Test `AuthModel` against a fake Supabase client and a fake `SessionStore`, so the auth stack is not needed to test the state machine.
+Add to `android/gradle/libs.versions.toml` — these exact coordinates and
+versions, which were checked against Maven Central and against each other:
 
-```kotlin
-@Test fun `an unconfigured build never reaches the sign-in form`() { /* state is NotConfigured, listing the missing keys */ }
-@Test fun `a successful sign-in is confirmed against the API before we claim to be signed in`() { /* signIn → api.session() called → SignedIn */ }
-@Test fun `a token that does not survive the round-trip signs us back out`() {
-    // The failure this guards is specific and misleading: the session is stored
-    // but reads back as null, the request goes out with no Authorization header,
-    // and the API answers 401. It looks exactly like a rejected password.
-}
-@Test fun `restore with no stored token lands on SignedOut, not on Failed`() { }
-@Test fun `sign out clears the stored token`() { }
+```toml
+[versions]
+supabase = "3.1.4"
+ktor = "3.1.2"
+androidxSecurityCrypto = "1.1.0"
+
+[libraries]
+supabase-auth = { group = "io.github.jan-tennert.supabase", name = "auth-kt", version.ref = "supabase" }
+ktor-client-okhttp = { group = "io.ktor", name = "ktor-client-okhttp", version.ref = "ktor" }
+androidx-security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "androidxSecurityCrypto" }
 ```
 
-Write each of these out in full when implementing the task, following the shapes above.
+then `implementation(libs.supabase.auth)`, `implementation(libs.ktor.client.okhttp)`,
+`implementation(libs.androidx.security.crypto)` in `android/app/build.gradle.kts`.
 
-- [ ] **Step 3: Run, implement, run**
+Three notes, so none of this is re-derived by guesswork:
 
-- [ ] **Step 4: Commit**
+- The artifact is `auth-kt`. It was called `gotrue-kt` in supabase-kt 2.x and
+  renamed in 3.0. Searching for "gotrue" finds the old one.
+- `ktor-client-okhttp:3.1.2` declares OkHttp **4.12.0** — the same version Task
+  8 pinned. Supabase's client and ours therefore share one HTTP stack. Do not
+  substitute the CIO or Android engine; that would add a second one.
+- supabase-kt is built against Kotlin 2.1.20 and we compile with 2.2.10, which
+  is fine in that direction. Do not raise or lower any pinned toolchain
+  version to accommodate a dependency. If something genuinely will not
+  resolve, stop and report it rather than bumping AGP, Kotlin, Gradle or the
+  Compose BOM.
+
+- [ ] **Step 2: One session, in one place, encrypted**
+
+supabase-kt persists its own session to plain `SharedPreferences` by default.
+Left alone, that is a second copy of the student's credentials sitting in
+cleartext beside the encrypted one — and `android:allowBackup="false"` is set
+precisely because this data must not leave the device.
+
+Wire supabase-kt's session persistence to `SessionStore`, so there is exactly
+one place a session is stored and it is the encrypted one. Find the hook in
+the version you resolved and name it in your report; do not disable
+persistence altogether, because auto-refresh depends on it.
+
+- [ ] **Step 3: Write the failing tests**
+
+`AuthModel` is tested against a fake `AuthBackend` and a fake `SessionStore`,
+so no Supabase client and no network are involved.
+
+```kotlin
+@Test fun `an unconfigured build never reaches the sign-in form`() {
+    // state is NotConfigured and lists exactly the missing keys, so the
+    // screen can name them.
+}
+
+@Test fun `a successful sign-in is confirmed against the API before we claim to be signed in`() {
+    // signIn → backend accepts → api.session() is called → only then SignedIn.
+    // Two services have to agree: Supabase issues the token and the Synapse
+    // API verifies it. Reporting success on Supabase's word alone drops the
+    // student into a shell that 401s on its first read.
+}
+
+@Test fun `a token that does not survive the round-trip signs us back out`() {
+    // The failure this guards is specific and misleading: the session is
+    // stored but reads back as null, the request goes out with no
+    // Authorization header, and the API answers 401. It looks exactly like a
+    // rejected password. Assert the state is SignedOut AND that `message` is
+    // non-null — a silent return to the form is the bug.
+}
+
+@Test fun `a Supabase account the API does not know lands on SignedOut with an explanation`() {
+    // api.session() answering 200 with a null user is not an error: it means
+    // Supabase knows this address and Synapse has no account for it. Assert
+    // that it does not throw, that state is SignedOut, and that `message`
+    // says so.
+}
+
+@Test fun `restore with no stored token lands on SignedOut, not on Failed`() {
+    // Launching signed out is the ordinary case. It has nothing to explain,
+    // so assert `message` is null here.
+}
+
+@Test fun `a dropped connection during restore does not discard a stored session`() {
+    // ApiError.Transient is the network's fault, not the token's.
+}
+
+@Test fun `sign out clears the stored token`()
+
+@Test fun `an email is trimmed and lower-cased before it is sent`() {
+    // iOS does this (`AuthModel.swift:165-167`). Without it, " Me@Example.com "
+    // signs in on iPhone and fails on Android for the same student.
+    // Applies to signIn, signUp and resetPassword alike.
+}
+
+@Test fun `signing up says what happens next instead of returning silently`() {
+    // Supabase sends the confirmation mail and the account cannot read
+    // anything until the link is followed. Assert `message` is set and state
+    // is still SignedOut.
+}
+
+@Test fun `a password reset says the same thing whether or not the account exists`() {
+    // Otherwise this screen answers "does this person have an account?" to
+    // anyone who asks. Assert the same message for both.
+}
+
+@Test fun `the token is read fresh on every request rather than cached`() {
+    // Call accessToken() twice against a backend whose token changes between
+    // the two calls, and assert the second call returns the new one. The SDK
+    // refreshes on read; a cached copy goes stale and every request after
+    // that 401s.
+}
+```
+
+Write each of these out in full when implementing the task, following the
+shapes above.
+
+- [ ] **Step 4: Run them, watch them fail, implement, run them again**
+
+`accessToken()` must never swallow a read failure silently. On iOS, doing that
+"cost hours: the request went out with no Authorization header, the API
+answered 401, and the app reported a rejected session without ever saying it
+had failed to read one" (`AuthModel.swift:44-48`). Return null, but record
+what went wrong somewhere a developer will find it.
+
+- [ ] **Step 5: Commit**
 
 ```bash
 git add android
