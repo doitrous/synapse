@@ -13,9 +13,21 @@ import { hasConsoleAccess } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
 import { authoriseChanges, diffDocument, mergeDocument } from './stateMerge.js'
 import {
-  listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
-  setAccessStatus, requestPasswordReset, recordAction, readReason,
-  passwordResetConfigured, getUserActivity, setRole, identifierTaken, entitlementOf,
+  cancelSubscription,
+  entitlementOf,
+  getUser,
+  getUserActivity,
+  getUserByIdentity,
+  grantSubscription,
+  identifierTaken,
+  listUsers,
+  passwordResetConfigured,
+  readReason,
+  recordAction,
+  requestPasswordReset,
+  setAccessStatus,
+  setContentScope,
+  setRole,
 } from './accounts.js'
 import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
@@ -927,13 +939,36 @@ app.post('/api/admin/users/:id/role', requireTab('users'), wrap(async (req, res)
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   if (req.params.id === req.identity.id) return res.status(409).json({ error: 'you cannot change your own role' })
-  const result = await setRole(req.params.id, { role: req.body?.role, reason, actorId: req.identity.id })
+  const result = await setRole(req.params.id, {
+    role: req.body?.role, reason, actorId: req.identity.id, actorRole: req.identity.role,
+  })
   const REFUSALS = {
-    invalid_role: [400, 'role must be student or admin'],
+    invalid_role: [400, 'role must be student, reviewer, admin or editor'],
+    forbidden: [403, 'that change is above your level'],
     no_identity: [409, 'this person has never signed in, so there is no role to change'],
     suspended: [409, 'reactivate this account before changing its role'],
     unchanged: [409, 'that is already their role'],
-    last_admin: [409, 'this is the last active admin — promote someone else first'],
+    last_console: [409, 'this is the last account with console access — promote someone else first'],
+    not_found: [404, 'user not found'],
+  }
+  if (result.error) {
+    const [status, message] = REFUSALS[result.error] ?? [400, result.error]
+    return res.status(status).json({ error: message })
+  }
+  res.json(result)
+}))
+
+app.post('/api/admin/users/:id/scope', requireTab('users'), wrap(async (req, res) => {
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  const result = await setContentScope(req.params.id, {
+    moduleIds: req.body?.moduleIds, yearIds: req.body?.yearIds,
+    reason, actorId: req.identity.id, actorRole: req.identity.role,
+  })
+  const REFUSALS = {
+    forbidden: [403, 'that change is above your level'],
+    not_scoped: [409, 'only a reviewer is assigned modules and years'],
+    no_identity: [409, 'this person has never signed in, so there is nothing to scope'],
     not_found: [404, 'user not found'],
   }
   if (result.error) {
@@ -950,42 +985,10 @@ app.get('/api/access/users', requireTab('users'), wrap(async (_req, res) => {
   res.json(rows)
 }))
 
-app.post('/api/access/users/:userId/promote', requireTab('users'), wrap(async (req, res) => {
-  const role = req.body?.role
-  const reason = String(req.body?.reason || '').trim()
-  if (!['student', 'admin'].includes(role)) return res.status(400).json({ error: 'invalid role' })
-  if (reason.length < 8) return res.status(400).json({ error: 'promotion reason must be explicit' })
-
-  const conn = await pool.getConnection()
-  try {
-    await conn.beginTransaction()
-    const [rows] = await conn.query('SELECT role, status FROM user_access WHERE user_id = ? FOR UPDATE', [req.params.userId])
-    if (!rows.length) {
-      await conn.rollback()
-      return res.status(404).json({ error: 'user not found' })
-    }
-    if (rows[0].status !== 'active') {
-      await conn.rollback()
-      return res.status(409).json({ error: 'suspended account must be reactivated before role changes' })
-    }
-    const previousRole = rows[0].role
-    await conn.query(
-      'UPDATE user_access SET role = ?, promoted_by = ?, promoted_at = NOW() WHERE user_id = ?',
-      [role, req.identity.id, req.params.userId],
-    )
-    await conn.query(
-      'INSERT INTO role_promotion_audit (user_id, previous_role, next_role, promoted_by, reason) VALUES (?, ?, ?, ?, ?)',
-      [req.params.userId, previousRole, role, req.identity.id, reason],
-    )
-    await conn.commit()
-    res.json({ ok: true })
-  } catch (error) {
-    await conn.rollback()
-    throw error
-  } finally {
-    conn.release()
-  }
-}))
+/* `POST /api/access/users/:userId/promote` used to live here. It wrote the same
+   `user_access.role` column as the route above while checking neither the
+   actor's rank nor a self-edit, which under a hierarchy is an escalation route
+   rather than a duplication. One door, one lock: use the role endpoint. */
 
 app.get('/api/backups', requireTab('audit'), wrap(async (_req, res) => {
   const [rows] = await pool.query(
