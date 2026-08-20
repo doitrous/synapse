@@ -2716,6 +2716,7 @@ git commit -m "Explain the wrong answers, not just the right one"
 @Test fun `omitted questions are reported separately, not as wrong`()
 @Test fun `a resumed sitting appears once in previous sittings, not twice`()
 @Test fun `previous sittings read from the attempt shards, not from the live session`()
+@Test fun `an unnamed sitting does not consume a test number`()
 ```
 
 - [ ] **Step 2: Port the read side of the attempt ledger**
@@ -2819,7 +2820,44 @@ A resumed sitting appears **once**. Every record it produced carries the same
 `sessionId` across both of its runs, so grouping on `sessionId` gives this for
 free — which is the reason the tests assert it.
 
-- [ ] **Step 4: Wire the Question Bank into the shell**
+- [ ] **Step 4: Name the sitting when it starts**
+
+Task 13 left `QuestionBankViewModel.build` setting `name = ""` and said in its
+own comment that naming "is the runner's job" — because the auto-name counts
+the student's previous sittings, and until Step 2 of this task nothing in
+Android could read them. That dependency is now satisfied, so the naming lands
+here.
+
+Without it the display half of Step 3 is dead code: every Android sitting would
+fall back to its date forever, and a sitting started on the phone would show up
+on the website as "Untitled test", because the web reads names from the shared
+`synapse.qbank.sessionNames.v1` document and not from `LiveSession.name`.
+
+Port `autoSessionName` and `beginSession`'s naming line
+(`src/pages/student/QuestionBank.tsx:798-799`, `:920-931`):
+
+- **Scope name.** If every question drawn shares one `subjectId`, use that
+  subject's name; otherwise the literal `Mixed`.
+- **Auto name.** `"$scopeName · Test ${used + 1}"`, where `used` counts the
+  sittings from `AttemptStats.bySession(...)` whose **stored** name starts with
+  `scopeName`. Count stored names, not `LiveSession.name` — an unnamed sitting
+  must not consume a number.
+- **Write it at the start, keyed by the id that was just minted**, into
+  `synapse.qbank.sessionNames.v1` through `SyncEngine.write` — a `Map<String,
+  String>` of sessionId to name. Only a non-blank name is written.
+
+Both details are scars, not preferences. The web's comment at `:793-796`
+records that callers used to write the name against whatever `sessionId`
+happened to hold at the time, so every test a student named was filed under the
+*previous* id and appeared in their history as "Untitled test"; mint and name in
+one place. And `:906-907` records why the name is stored at the start rather
+than at the end: a sitting abandoned halfway still produced attempt records, and
+those records must not appear as an unnamed row.
+
+Deleting a sitting deletes its name too (`:912-919`). Android has no delete yet,
+so there is nothing to port — do not add one.
+
+- [ ] **Step 5: Wire the Question Bank into the shell**
 
 Tasks 13 and 14 built the chooser, the builder and the runner without touching
 `RootScreen.kt`, so up to this point every one of those screens has been
@@ -2845,7 +2883,7 @@ Two rules for how that flow is expressed:
 
 Leave the `practical` route as it is; Task 16 owns it.
 
-- [ ] **Step 5: Run and commit**
+- [ ] **Step 6: Run and commit**
 
 ```bash
 git add android
