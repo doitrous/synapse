@@ -1,5 +1,6 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
-import { Grid3x3 } from 'lucide-react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
+import { Grid3x3, Copy, Check } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Field, Select } from '@/components/ui/Field'
@@ -163,8 +164,32 @@ export function TermGridPage() {
   // in demo mode. See `useMedicalGlossary` for why it is not auto-seeded here.
   const [glossary] = useMedicalGlossary()
   const categories = glossary.categories
-  const [chosenCategory, setChosenCategory] = useState('')
+
+  const [searchParams] = useSearchParams()
+  // A link from Medical Taxonomy carries both a category and a seed; a link
+  // from Study Together carries only a seed, since both students land on the
+  // same default category as long as they see the same published glossary
+  // (`categories[0]`). Either way this is read once, on arrival, and decides
+  // the very first puzzle shown — before the student touches the category
+  // select or "New puzzle".
+  const urlCategoryParam = searchParams.get('category')
+  const urlSeedParam = searchParams.get('seed')
+  const validUrlCategory = urlCategoryParam && categories.some((c) => c.key === urlCategoryParam) ? urlCategoryParam : null
+  const urlSeed = urlSeedParam !== null && /^-?\d+$/.test(urlSeedParam) ? Number(urlSeedParam) : null
+
+  const [chosenCategory, setChosenCategory] = useState(() => validUrlCategory ?? '')
   const category = chosenCategory || categories[0]?.key || ''
+
+  // The category the link actually resolved to on the very first render —
+  // captured once so that browsing away to a different category and back
+  // does not re-trigger a stale comparison against a `chosenCategory` that
+  // has since changed.
+  const initialCategory = useRef(category).current
+  // `null` once "New puzzle" has been pressed, exactly like a self-generated
+  // seed is retired by moving the generation counter forward — a shared
+  // puzzle is a starting point, not something "New puzzle" should be unable
+  // to leave.
+  const [pinnedSeed, setPinnedSeed] = useState<number | null>(() => urlSeed)
 
   const terms = useMemo<GridTerm[]>(
     () => glossary.terms.filter((term) => term.category === category).map((term) => ({ term: term.term, clue: term.def })),
@@ -173,11 +198,24 @@ export function TermGridPage() {
 
   const [generations, setGenerations] = usePersistentState<Record<string, number>>('synapse.termgrid.generation.v1', {})
   const generation = generations[category] ?? 0
-  const seed = hashSeed(`${category}:${generation}`)
+  const generatedSeed = hashSeed(`${category}:${generation}`)
+  const seed = pinnedSeed !== null && category === initialCategory ? pinnedSeed : generatedSeed
 
   const newPuzzle = useCallback(() => {
+    setPinnedSeed(null)
     setGenerations((current) => ({ ...current, [category]: (current[category] ?? 0) + 1 }))
   }, [category, setGenerations])
+
+  const [copied, setCopied] = useState(false)
+  // The seed and category are the whole mechanism: opening this exact link
+  // re-runs `buildGrid` over the same terms with the same seed and lands on
+  // the identical grid, with nothing server-side to keep in sync.
+  const shareLink = `${window.location.origin}/app/term-grid?category=${encodeURIComponent(category)}&seed=${seed}`
+  const handleShare = useCallback(() => {
+    void navigator.clipboard?.writeText(shareLink)
+    setCopied(true)
+    window.setTimeout(() => setCopied(false), 1600)
+  }, [shareLink])
 
   return (
     <PageContainer>
@@ -196,14 +234,19 @@ export function TermGridPage() {
         </Panel>
       ) : (
         <>
-          <div className="mb-4 max-w-xs">
-            <Field label={t('Category')} htmlFor="term-grid-category">
-              <Select id="term-grid-category" value={category} onChange={(event) => setChosenCategory(event.target.value)}>
-                {categories.map((c) => (
-                  <option key={c.key} value={c.key}>{t(c.key)}</option>
-                ))}
-              </Select>
-            </Field>
+          <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
+            <div className="max-w-xs flex-1">
+              <Field label={t('Category')} htmlFor="term-grid-category">
+                <Select id="term-grid-category" value={category} onChange={(event) => setChosenCategory(event.target.value)}>
+                  {categories.map((c) => (
+                    <option key={c.key} value={c.key}>{t(c.key)}</option>
+                  ))}
+                </Select>
+              </Field>
+            </div>
+            <Button variant="secondary" iconLeft={copied ? Check : Copy} onClick={handleShare}>
+              {copied ? t('Copied') : t('Share this puzzle')}
+            </Button>
           </div>
 
           <TermGridPlayer key={`${category}:${generation}`} category={category} seed={seed} terms={terms} onReplay={newPuzzle} />

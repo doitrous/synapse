@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
-import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight } from 'lucide-react'
+import { useNavigate, useSearchParams } from 'react-router-dom'
+import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight, Grid3x3 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { QuestionView } from '@/components/qbank/QuestionView'
@@ -315,6 +315,7 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
  */
 export function StudyTogether() {
   const t = useT()
+  const navigate = useNavigate()
   const [tab, setTab] = useState<'tests' | 'friends' | 'parties'>('tests')
   const questions = usePublishedQuestions()
   const { rooms, reload: reloadRooms } = useMyRooms()
@@ -369,6 +370,19 @@ export function StudyTogether() {
     [available, count, timed, create, reloadRooms, t],
   )
   const handleChallenge = useCallback((friend: FriendProfile) => setChallengeTarget(friend), [])
+
+  /**
+   * A fresh seed is the whole invitation: whoever opens this link runs the
+   * same deterministic generator (`buildGrid`) over the same glossary and
+   * lands on the identical grid, with no room and no server round trip to
+   * arrange first. No category travels with it — Term Grid's own default
+   * (the first published category) resolves the same way for both students,
+   * since they read the same glossary.
+   */
+  const handlePlayTermGrid = useCallback(() => {
+    const seed = Math.floor(Math.random() * 0x7fffffff)
+    navigate(`/app/term-grid?seed=${seed}`)
+  }, [navigate])
 
   /**
    * Redeem `?invite=` once on arrival.
@@ -640,16 +654,20 @@ export function StudyTogether() {
         description={API_MODE ? t('Sit the same set of questions as your classmates, then compare results.') : t('Sit the same set of questions as your classmates.')}
       />
 
-      <Tabs
-        className="mb-4"
-        value={tab}
-        onChange={(value) => setTab(value as 'tests' | 'friends' | 'parties')}
-        items={[
-          { value: 'tests', label: t('Shared tests') },
-          { value: 'parties', label: t('Parties') },
-          { value: 'friends', label: t('Friends') },
-        ]}
-      />
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <Tabs
+          value={tab}
+          onChange={(value) => setTab(value as 'tests' | 'friends' | 'parties')}
+          items={[
+            { value: 'tests', label: t('Shared tests') },
+            { value: 'parties', label: t('Parties') },
+            { value: 'friends', label: t('Friends') },
+          ]}
+        />
+        <Button variant="secondary" iconLeft={Grid3x3} onClick={handlePlayTermGrid}>
+          {t('Play a Term Grid with a friend')}
+        </Button>
+      </div>
 
       {tab === 'tests' ? testsContent : tab === 'parties' ? partiesContent : friendsContent}
 
