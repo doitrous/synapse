@@ -32,6 +32,7 @@ enum StateOwnership {
             "^synapse\\.bookmarks\\.",
             "^synapse\\.progress\\.",
             "^synapse\\.myDocuments\\.",
+            "^synapse\\.termgrid\\.",
         ]
         return sources.compactMap { try? NSRegularExpression(pattern: $0) }
     }()
