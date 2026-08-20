@@ -21,6 +21,8 @@ export const AR: Record<string, string> = {
   'Adaptive Study': 'الدراسة التكيّفية',
   'Adaptive Learning': 'التعلّم التكيّفي',
   Practical: 'العملي',
+  Histology: 'الأنسجة',
+  'Essay questions': 'أسئلة المقال',
   Resources: 'المصادر',
   Plan: 'التخطيط',
   Performance: 'الأداء',
@@ -32,6 +34,20 @@ export const AR: Record<string, string> = {
   term: 'مصطلح',
   terms: 'مصطلحات',
   'No terms match your search.': 'لا توجد مصطلحات مطابقة لبحثك.',
+  'The glossary has not been published yet.': 'لم يُنشر القاموس بعد.',
+  'Terms appear here once they are published in the admin console.':
+    'تظهر المصطلحات هنا بمجرد نشرها من لوحة الإدارة.',
+  // The two controls that turn what is on screen into something to practise.
+  // `{count}` and `{min}` are substituted by `.replace()` on the result, so the
+  // Arabic has to carry the same tokens or the number never lands.
+  'Study these as flashcards': 'ذاكر هذه كبطاقات',
+  'Play these as a grid': 'العب هذه كشبكة كلمات',
+  // Phrased as "number of terms: N" rather than "N terms", because the Arabic
+  // counted noun changes form between 3–10 and 11+ and this count runs across
+  // both — no single wording reads correctly for every value.
+  '{count} terms will go into this puzzle': 'عدد المصطلحات في هذا اللغز: {count}',
+  'Term Grid needs at least {min} terms in this category that can interlock into a crossword — this one has too few.':
+    'تحتاج شبكة المصطلحات إلى {min} مصطلحات على الأقل في هذا التصنيف يمكن أن تتشابك في لغز، وهذا التصنيف لا يحتوي على ما يكفي.',
   'e.g.': 'مثال:',
   'Directional & anatomy': 'الاتجاهات والتشريح',
   'Word parts': 'مكوّنات الكلمة',
@@ -43,6 +59,8 @@ export const AR: Record<string, string> = {
   Workspace: 'مساحة العمل',
   Whiteboard: 'السبورة',
   Notebook: 'المفكرة',
+  Flashcards: 'البطاقات التعليمية',
+  'Term Grid': 'شبكة المصطلحات',
   'Study Together': 'الدراسة الجماعية',
   Account: 'الحساب',
   'Manage your account': 'إدارة حسابك',
