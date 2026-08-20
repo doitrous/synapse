@@ -94,6 +94,55 @@ class AttemptTest {
         assertEquals("s1", parsed.sessionId)
     }
 
+    @Test
+    fun `indexing a record lists the month it belongs to`() {
+        val index = AttemptStore.index(AttemptIndex(), record(correct = true), ZoneId.of("UTC"))
+        assertEquals(listOf("2026-08"), index.months)
+        assertEquals(1, index.totals.attempts)
+    }
+
+    @Test
+    fun `a month already listed is not listed twice`() {
+        val once = AttemptStore.index(AttemptIndex(), record(correct = true), ZoneId.of("UTC"))
+        val twice = AttemptStore.index(once, record(correct = true).copy(id = "a2"), ZoneId.of("UTC"))
+        assertEquals(listOf("2026-08"), twice.months)
+        assertEquals(2, twice.totals.attempts)
+    }
+
+    @Test
+    fun `months stay sorted when an older shard arrives late`() {
+        // A backfill hands over 2026-03 after 2026-08 is already there. Every
+        // client reads this list in order.
+        val withAugust = AttemptIndex(months = listOf("2026-08"))
+        val backfilled = AttemptStore.index(
+            withAugust,
+            record(correct = true).copy(id = "old-1", at = "2026-03-15T09:00:00.000Z"),
+            ZoneId.of("UTC"),
+        )
+        assertEquals(listOf("2026-03", "2026-08"), backfilled.months)
+    }
+
+    @Test
+    fun `the same attempt recorded twice is stored once`() {
+        val month = AttemptStore.addAttempt(AttemptMonth(month = "2026-08"), record(correct = true))
+        val again = AttemptStore.addAttempt(month, record(correct = true))
+        assertEquals(1, again.records.size)
+    }
+
+    @Test
+    fun `the same question answered again in a later sitting is a second record`() {
+        val first = record(correct = true)
+        val secondSitting = first.copy(id = AttemptStore.attemptId("s2", first.surface, first.itemId), sessionId = "s2")
+        val month = AttemptStore.addAttempt(AttemptMonth(month = "2026-08"), first)
+        val withSecond = AttemptStore.addAttempt(month, secondSitting)
+        assertEquals(2, withSecond.records.size)
+    }
+
+    @Test
+    fun `attemptId matches the web's spelling`() {
+        assertEquals("s1:qbank:q1", AttemptStore.attemptId("s1", "qbank", "q1"))
+    }
+
     private fun record(correct: Boolean?) = AttemptRecord(
         id = "a1", at = "2026-08-19T10:00:00.000Z", surface = "qbank", itemId = "q1",
         subjectId = "med", topic = "Cardiology", difficulty = "Moderate",
