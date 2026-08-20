@@ -50,7 +50,6 @@ struct DashboardView: View {
                         stats
                         weakest
                     }
-                    Text("DIAG recent=\(recent.count) upcoming=\(upcoming.count)").font(Theme.numeric(12)).foregroundStyle(Theme.primary)
                     lastUsed
                     catalogue
                 }
