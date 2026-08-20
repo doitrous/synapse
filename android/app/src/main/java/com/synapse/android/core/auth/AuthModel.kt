@@ -1,5 +1,6 @@
 package com.synapse.android.core.auth
 
+import com.synapse.android.BuildConfig
 import com.synapse.android.core.api.ApiError
 import com.synapse.android.core.api.SessionUser
 import com.synapse.android.core.api.SynapseApi
@@ -11,6 +12,7 @@ import io.github.jan.supabase.auth.providers.builtin.Email
 import io.github.jan.supabase.auth.user.UserSession
 import io.github.jan.supabase.createSupabaseClient
 import io.ktor.client.engine.okhttp.OkHttp
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -175,8 +177,19 @@ class AuthModel(
                 // unconfigured server, a suspended account and a clock skew
                 // is invisible -- naming one would send the reader after the
                 // wrong thing.
-                _message.value = "Your password was accepted, but Synapse rejected the session. " +
+                var text = "Your password was accepted, but Synapse rejected the session. " +
                     "Please try again, or contact support if it keeps happening."
+                // Mirrors ios/Synapse/Core/Auth/AuthModel.swift:142-144: the
+                // same silent-failure risk exists here, since accessToken()
+                // records a read failure to a debug field instead of
+                // throwing. Debug-only, and never in a release message --
+                // this can carry token material.
+                if (BuildConfig.DEBUG) {
+                    SupabaseAuthBackend.lastTokenError?.let { tokenError ->
+                        text += "\n[token error: ${tokenError.take(180)}]"
+                    }
+                }
+                _message.value = text
             }
         } catch (e: ApiError) {
             // Covers ApiError.Transient among others. The token may well be
@@ -194,6 +207,13 @@ class AuthModel(
         _message.value = null
         try {
             work()
+        } catch (e: CancellationException) {
+            // A cancelled scope is not a failure to explain -- it is
+            // structured concurrency doing its job (the student backgrounded
+            // the app mid-sign-in, or the ViewModel scope holding this call
+            // died). Converting it into a message here would tell the
+            // coroutine machinery the job finished normally when it did not.
+            throw e
         } catch (e: Exception) {
             _message.value = describe(e)
         } finally {
@@ -228,20 +248,40 @@ class SupabaseAuthBackend(
     config: AppConfig,
     store: SessionStore,
     httpClient: OkHttpClient,
+    tokenReader: (() -> String?)? = null,
 ) : AuthBackend {
 
-    private val client = createSupabaseClient(
-        supabaseUrl = config.supabaseUrl,
-        supabaseKey = config.supabaseAnonKey,
-    ) {
-        // Reuse the app's own OkHttpClient rather than letting Ktor spin up
-        // a second HTTP stack -- Task 8 pinned OkHttp 4.12.0 for exactly
-        // this, and ktor-client-okhttp:3.1.2 declares the same version.
-        httpEngine = OkHttp.create { preconfigured = httpClient }
-        install(Auth) {
-            sessionManager = SessionStoreSessionManager(store)
+    // Lazy, not eager: building this calls into supabase-kt's Android
+    // Settings bootstrap (for its default PKCE code-verifier cache), which
+    // needs a running Android process and throws outside one -- in a plain
+    // JVM unit test, in particular. Deferring construction to first use means
+    // a test that supplies [tokenReader] never has to pay for it, since
+    // [readToken] then never touches [client] at all. Production behaviour
+    // is unaffected: nothing calls into this client before the app itself is
+    // running.
+    private val client by lazy {
+        createSupabaseClient(
+            supabaseUrl = config.supabaseUrl,
+            supabaseKey = config.supabaseAnonKey,
+        ) {
+            // Reuse the app's own OkHttpClient rather than letting Ktor spin
+            // up a second HTTP stack -- Task 8 pinned OkHttp 4.12.0 for
+            // exactly this, and ktor-client-okhttp:3.1.2 declares the same
+            // version.
+            httpEngine = OkHttp.create { preconfigured = httpClient }
+            install(Auth) {
+                sessionManager = SessionStoreSessionManager(store)
+            }
         }
     }
+
+    /**
+     * Where the token actually comes from. Overridable in tests: nothing in
+     * [accessToken] needs the Android Keystore or a real Supabase project --
+     * only [EncryptedSessionStore] does -- so [tokenReader] lets a test drive
+     * both a successful read and a throwing one with a plain lambda.
+     */
+    private val readToken: () -> String? = tokenReader ?: { client.auth.currentAccessTokenOrNull() }
 
     override suspend fun signIn(email: String, password: String) {
         client.auth.signInWith(Email) {
@@ -266,7 +306,7 @@ class SupabaseAuthBackend(
     }
 
     override suspend fun accessToken(): String? = try {
-        client.auth.currentAccessTokenOrNull()
+        readToken()
     } catch (e: Exception) {
         // Swallowing this silently once cost the iOS app hours: the request
         // went out with no Authorization header, the API answered 401, and

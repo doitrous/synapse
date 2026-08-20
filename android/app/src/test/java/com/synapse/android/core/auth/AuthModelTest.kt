@@ -2,6 +2,7 @@ package com.synapse.android.core.auth
 
 import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.config.AppConfig
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.runBlocking
 import okhttp3.OkHttpClient
 import okhttp3.mockwebserver.MockResponse
@@ -177,14 +178,32 @@ class AuthModelTest {
         assertEquals("second-token", model.accessToken())
     }
 
+    @Test fun `a cancelled sign-in propagates instead of becoming a message`() = runBlocking {
+        backend.cancelOnSignIn = true
+        val model = model()
+
+        var propagated: CancellationException? = null
+        try {
+            model.signIn("student@example.com", "pw")
+        } catch (e: CancellationException) {
+            propagated = e
+        }
+
+        assertNotNull("CancellationException should have propagated out of signIn", propagated)
+        assertFalse(model.isWorking.value)
+        assertNull(model.message.value)
+    }
+
     private class FakeAuthBackend : AuthBackend {
         var accessTokenValue: String? = null
         var signOutCalled = false
+        var cancelOnSignIn = false
         val signIns = mutableListOf<Pair<String, String>>()
         val signUps = mutableListOf<Pair<String, String>>()
         val resets = mutableListOf<String>()
 
         override suspend fun signIn(email: String, password: String) {
+            if (cancelOnSignIn) throw CancellationException("scope cancelled")
             signIns.add(email to password)
         }
 
