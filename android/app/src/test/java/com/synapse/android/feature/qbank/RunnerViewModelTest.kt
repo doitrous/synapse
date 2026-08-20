@@ -8,6 +8,7 @@ import com.synapse.android.core.cache.CortexDatabase
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.AnswerOption
 import com.synapse.android.core.model.Question
+import com.synapse.android.core.progress.AttemptIndex
 import com.synapse.android.core.progress.AttemptMonth
 import com.synapse.android.core.progress.AttemptStore
 import com.synapse.android.core.qbank.LiveSession
@@ -16,6 +17,7 @@ import com.synapse.android.core.qbank.SittingMode
 import com.synapse.android.core.sync.SyncEngine
 import java.time.Instant
 import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
@@ -33,6 +35,7 @@ import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
+import org.robolectric.shadows.ShadowLog
 
 /**
  * [RunnerViewModel] is exercised against a real (in-memory) [LocalStore] and
@@ -133,6 +136,55 @@ class RunnerViewModelTest {
             entries = store.outbox()
         }
         entries.first { it.key == key }
+    }
+
+    /**
+     * Polls until the index reflects at least [minAttempts] -- not merely
+     * until the document exists. [RunnerViewModel.finish] can write this
+     * document more than once in a row (one attempt per answered question),
+     * so an existence check alone can return after only the first of
+     * several async writes has landed.
+     */
+    private suspend fun awaitIndex(minAttempts: Int = 1): AttemptIndex = withTimeout(5_000) {
+        var index = store.document(AttemptStore.INDEX_KEY)?.json
+            ?.let { json.decodeFromString(AttemptIndex.serializer(), it) }
+        while (index == null || index.totals.attempts < minAttempts) {
+            delay(5)
+            index = store.document(AttemptStore.INDEX_KEY)?.json
+                ?.let { json.decodeFromString(AttemptIndex.serializer(), it) }
+        }
+        index
+    }
+
+    /** Same reasoning as [awaitIndex]: waits for a record count, not mere existence. */
+    private suspend fun awaitMonth(key: String, minRecords: Int): AttemptMonth = withTimeout(5_000) {
+        var month = store.document(key)?.json?.let { json.decodeFromString(AttemptMonth.serializer(), it) }
+        while (month == null || month.records.size < minRecords) {
+            delay(5)
+            month = store.document(key)?.json?.let { json.decodeFromString(AttemptMonth.serializer(), it) }
+        }
+        month
+    }
+
+    /**
+     * A [Ticker] a test drives by hand: [advance] sends one tick and blocks
+     * (a rendezvous channel) until [RunnerViewModel] has actually consumed
+     * it, so a test never races the background loop or waits on a real
+     * clock.
+     */
+    private class ManualTicker : Ticker {
+        private val channel = Channel<Unit>(Channel.RENDEZVOUS)
+
+        override suspend fun await() {
+            channel.receive()
+        }
+
+        suspend fun advance() {
+            channel.send(Unit)
+        }
+
+        /** Never suspends: succeeds only if the loop is waiting right now. */
+        fun tryAdvance(): Boolean = channel.trySend(Unit).isSuccess
     }
 
     @Test
@@ -297,5 +349,143 @@ class RunnerViewModelTest {
         val month = json.decodeFromString(AttemptMonth.serializer(), awaitDocument(monthKeyNow()))
         assertEquals(1, month.records.size)
         assertEquals(true, month.records.single().correct)
+    }
+
+    @Test
+    fun `finishing twice does not double-count the index`() = runBlocking {
+        val questions = listOf(question("q1", correctLabel = "A"), question("q2", correctLabel = "A"))
+        val viewModel = RunnerViewModel(
+            sessionOf(SittingMode.TIMED, questions.map { it.id }),
+            questions,
+            store,
+            sync,
+        )
+
+        viewModel.choose("A")
+        viewModel.commit()
+        viewModel.goTo(1)
+        viewModel.choose("A")
+        viewModel.commit()
+        viewModel.finish()
+
+        val firstIndex = awaitIndex(minAttempts = 2)
+        assertEquals(2, firstIndex.totals.attempts)
+        assertEquals(2, firstIndex.totals.marked)
+        assertEquals(2, firstIndex.totals.correct)
+
+        // The strip still shows "Finish" once the student is back on the
+        // last question -- see QuestionRunnerScreen -- so a second tap must
+        // reach the view model. It must not re-log every answered question.
+        viewModel.finish()
+        delay(50)
+
+        val secondIndex = awaitIndex()
+        assertEquals(firstIndex.totals.attempts, secondIndex.totals.attempts)
+        assertEquals(firstIndex.totals.marked, secondIndex.totals.marked)
+        assertEquals(firstIndex.totals.correct, secondIndex.totals.correct)
+
+        val month = awaitMonth(monthKeyNow(), minRecords = 2)
+        assertEquals(2, month.records.size)
+    }
+
+    @Test
+    fun `double-committing the same answer does not inflate the index`() = runBlocking {
+        val q1 = question("q1", correctLabel = "A")
+        val viewModel = RunnerViewModel(sessionOf(SittingMode.TUTOR, listOf(q1.id)), listOf(q1), store, sync)
+
+        viewModel.choose("A")
+        viewModel.commit()
+        awaitIndex()
+
+        // Re-committing an already-checked question reuses the same
+        // attempt id; AttemptStore.addAttempt refuses it, and the index
+        // must refuse it too.
+        viewModel.commit()
+        delay(50)
+
+        val index = awaitIndex()
+        assertEquals(1, index.totals.attempts)
+        val month = json.decodeFromString(AttemptMonth.serializer(), awaitDocument(monthKeyNow()))
+        assertEquals(1, month.records.size)
+    }
+
+    @Test
+    fun `the clock advances once per tick while running, and stops at finish`() = runBlocking {
+        val q1 = question("q1", correctLabel = "A")
+        val ticker = ManualTicker()
+        val viewModel = RunnerViewModel(
+            sessionOf(SittingMode.TIMED, listOf(q1.id)),
+            listOf(q1),
+            store,
+            sync,
+            ticker,
+        )
+
+        ticker.advance()
+        ticker.advance()
+        ticker.advance()
+
+        withTimeout(5_000) {
+            while (viewModel.session.value.elapsed < 3) delay(5)
+        }
+        assertEquals(3, viewModel.session.value.elapsed)
+
+        viewModel.choose("A")
+        viewModel.commit()
+        viewModel.finish()
+
+        val frozenAt = viewModel.session.value.elapsed
+        // If the ticker loop were still running, it would be waiting to
+        // receive again almost immediately after each tick it consumes, so
+        // one of these would succeed. None should: finish() cancels it.
+        repeat(20) {
+            ticker.tryAdvance()
+            delay(5)
+        }
+        assertEquals(frozenAt, viewModel.session.value.elapsed)
+    }
+
+    @Test
+    fun `a lost timing baseline records unknown seconds, not zero`() = runBlocking {
+        val q1 = question("q1", correctLabel = "A")
+        val q2 = question("q2", correctLabel = "A")
+        // Simulates resuming a force-quit sitting: q1 was already answered
+        // in a prior process, so this fresh view model has no in-memory
+        // "opened at" baseline for it -- only for whatever question idx
+        // points at now.
+        val resumed = sessionOf(SittingMode.TIMED, listOf(q1.id, q2.id), idx = 1, elapsed = 40).copy(
+            answers = mapOf(q1.id to 0, q2.id to 0),
+        )
+        val viewModel = RunnerViewModel(resumed, listOf(q1, q2), store, sync)
+
+        viewModel.finish()
+
+        val month = awaitMonth(monthKeyNow(), minRecords = 2)
+        assertEquals(2, month.records.size)
+        val q1Record = month.records.single { it.itemId == q1.id }
+        val q2Record = month.records.single { it.itemId == q2.id }
+        assertNull("no baseline survives a resume, so seconds must be unknown, not 0", q1Record.seconds)
+        assertEquals(0, q2Record.seconds)
+    }
+
+    @Test
+    fun `an unresolvable question id is logged, not silently ignored`() = runBlocking {
+        ShadowLog.reset()
+        val q1 = question("q1")
+        // "ghost" is in the sitting's question order but was never resolved
+        // into a Question -- QuestionProjection.project returns null for
+        // malformed authoring data, so this can happen for real.
+        val session = sessionOf(SittingMode.TUTOR, listOf("ghost", q1.id))
+        val viewModel = RunnerViewModel(session, listOf(q1), store, sync)
+
+        viewModel.choose("A")
+        viewModel.commit()
+
+        val warnings = ShadowLog.getLogsForTag("RunnerViewModel")
+        assertTrue(
+            "expected a warning naming the unresolved id, got: $warnings",
+            warnings.any { it.msg.contains("ghost") },
+        )
+        assertEquals(emptyMap<String, Int>(), viewModel.session.value.answers)
     }
 }

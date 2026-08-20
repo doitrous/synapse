@@ -1,5 +1,6 @@
 package com.synapse.android.feature.qbank
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
@@ -16,13 +17,32 @@ import com.synapse.android.core.sync.SyncEngine
 import java.time.Instant
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
 import kotlinx.serialization.json.Json
+
+/**
+ * Where [RunnerViewModel] gets its once-a-second signal to advance
+ * [LiveSession.elapsed]. Production uses [RealTicker]; a test injects
+ * something that resolves without an actual wait, so the clock advances
+ * deterministically and no unit test sits through a real second.
+ */
+fun interface Ticker {
+    suspend fun await()
+}
+
+private object RealTicker : Ticker {
+    override suspend fun await() {
+        delay(1_000)
+    }
+}
 
 /**
  * Sits a student through a drawn [LiveSession], one question at a time.
@@ -43,6 +63,7 @@ class RunnerViewModel(
     private val questions: List<Question>,
     private val store: LocalStore,
     private val sync: SyncEngine,
+    private val ticker: Ticker = RealTicker,
 ) : ViewModel() {
 
     private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
@@ -54,7 +75,10 @@ class RunnerViewModel(
      * question was reached -- what [finish] subtracts from the sitting's
      * final `elapsed` to get a timed question's own duration. Not part of
      * [LiveSession] itself: it is scratch bookkeeping for this one running
-     * instance, not a fact that needs to survive a process death.
+     * instance, not a fact that needs to survive a process death. When a
+     * question has no baseline here -- e.g. the app was force-quit and
+     * resumed mid-sitting -- [finish] records `seconds = null` rather than
+     * guessing.
      */
     private val openedAtElapsed: MutableMap<String, Int> = mutableMapOf<String, Int>().apply {
         initialSession.questionIds.getOrNull(initialSession.idx)?.let { put(it, initialSession.elapsed) }
@@ -64,6 +88,29 @@ class RunnerViewModel(
     val session: StateFlow<LiveSession> = _session.asStateFlow()
 
     /**
+     * Advances [LiveSession.elapsed] once a second while the sitting is
+     * running and not under review. Deliberately never persists on its own
+     * -- see [tick] -- so it cannot flood [SyncEngine]'s outbox; whatever it
+     * has advanced to rides along on the next event that already persists
+     * (commit, navigation, finish).
+     */
+    private var tickerJob: Job? = startTicking()
+
+    private fun startTicking(): Job = backgroundScope.launch {
+        while (true) {
+            ticker.await()
+            tick()
+        }
+    }
+
+    private fun tick() {
+        _session.update { current ->
+            if (current.phase != PHASE_RUNNING || current.reviewing) current
+            else current.copy(elapsed = current.elapsed + 1)
+        }
+    }
+
+    /**
      * Records which option the student is looking at right now. Not
      * persisted on its own -- see the class doc -- [commit] is what makes a
      * pick durable.
@@ -71,7 +118,11 @@ class RunnerViewModel(
     fun choose(label: String) {
         val current = _session.value
         val questionId = current.questionIds.getOrNull(current.idx) ?: return
-        val question = questionsById[questionId] ?: return
+        val question = questionsById[questionId]
+        if (question == null) {
+            warnUnresolved(questionId)
+            return
+        }
         val optionIndex = question.options.indexOfFirst { it.label == label }
         if (optionIndex < 0) return
         _session.value = current.copy(answers = current.answers + (questionId to optionIndex))
@@ -90,7 +141,11 @@ class RunnerViewModel(
     fun commit() {
         val current = _session.value
         val questionId = current.questionIds.getOrNull(current.idx) ?: return
-        val question = questionsById[questionId] ?: return
+        val question = questionsById[questionId]
+        if (question == null) {
+            warnUnresolved(questionId)
+            return
+        }
         val chosenIndex = current.answers[questionId] ?: return
         val label = question.options.getOrNull(chosenIndex)?.label ?: return
 
@@ -123,9 +178,16 @@ class RunnerViewModel(
      * finally reports CORRECT/WRONG instead of ANSWERED for it) and, in
      * timed mode, logs the attempt tutor mode already logged back at
      * [commit] -- one record per answered question, per this task's brief.
+     *
+     * Idempotent: a second tap (e.g. the strip still shows "Finish" once
+     * the student is back on the last question) is a no-op, so it can never
+     * re-log every answered question and double the index's totals.
      */
     fun finish() {
         val current = _session.value
+        if (current.phase == PHASE_RESULTS) return
+        tickerJob?.cancel()
+
         val newlyChecked = current.answers.keys.associateWith { true }
         val updated = current.copy(phase = PHASE_RESULTS, reviewing = true, checked = current.checked + newlyChecked)
         persist(updated)
@@ -133,10 +195,17 @@ class RunnerViewModel(
         if (current.mode == SittingMode.TIMED) {
             backgroundScope.launch {
                 for ((questionId, optionIndex) in current.answers) {
-                    val question = questionsById[questionId] ?: continue
+                    val question = questionsById[questionId]
+                    if (question == null) {
+                        warnUnresolved(questionId)
+                        continue
+                    }
                     val label = question.options.getOrNull(optionIndex)?.label ?: continue
-                    val openedAt = openedAtElapsed[questionId] ?: current.elapsed
-                    val seconds = maxOf(0, current.elapsed - openedAt)
+                    // No baseline means the sitting was resumed after this
+                    // question was already answered (a force-quit, say) --
+                    // record that honestly as "unknown", never as 0 seconds.
+                    val openedAt = openedAtElapsed[questionId]
+                    val seconds = openedAt?.let { maxOf(0, current.elapsed - it) }
                     recordAttempt(question, label, seconds, sessionId = current.sessionId)
                 }
             }
@@ -174,6 +243,12 @@ class RunnerViewModel(
      * totals be read without opening every shard. [SyncEngine.write] saves
      * each locally and queues it in one transaction, so an attempt made
      * offline is queued rather than lost.
+     *
+     * [AttemptStore.addAttempt] refuses a record whose id already exists in
+     * the shard by handing back the exact same [AttemptMonth] instance it
+     * was given. That identity is the signal a duplicate call (e.g. [finish]
+     * somehow running twice) must not also fold into [AttemptIndex.totals]
+     * -- so when nothing changed, nothing is written, to either document.
      */
     private suspend fun recordAttempt(question: Question, label: String, seconds: Int?, sessionId: String) {
         val now = Instant.now()
@@ -195,7 +270,9 @@ class RunnerViewModel(
         val monthKey = AttemptStore.monthKey(monthName)
         val month = store.document(monthKey)?.json?.let { json.decodeFromString(AttemptMonth.serializer(), it) }
             ?: AttemptMonth(month = monthName)
-        sync.write(monthKey, json.encodeToString(AttemptMonth.serializer(), AttemptStore.addAttempt(month, record)))
+        val updatedMonth = AttemptStore.addAttempt(month, record)
+        if (updatedMonth === month) return
+        sync.write(monthKey, json.encodeToString(AttemptMonth.serializer(), updatedMonth))
 
         val index = store.document(AttemptStore.INDEX_KEY)?.json
             ?.let { json.decodeFromString(AttemptIndex.serializer(), it) }
@@ -203,14 +280,21 @@ class RunnerViewModel(
         sync.write(AttemptStore.INDEX_KEY, json.encodeToString(AttemptIndex.serializer(), AttemptStore.index(index, record)))
     }
 
+    private fun warnUnresolved(questionId: String) {
+        Log.w(TAG, "No Question resolved for id \"$questionId\" in this sitting; the tap was ignored.")
+    }
+
     override fun onCleared() {
+        tickerJob?.cancel()
         backgroundScope.cancel()
     }
 
     companion object {
+        private const val TAG = "RunnerViewModel"
         private const val SURFACE = "qbank"
 
-        /** `"results"` -- the other clients' spelling; see `LiveSession.phase`. */
+        /** `"running"` / `"results"` -- the other clients' spelling; see `LiveSession.phase`. */
+        private const val PHASE_RUNNING = "running"
         private const val PHASE_RESULTS = "results"
 
         fun factory(session: LiveSession, questions: List<Question>, store: LocalStore, sync: SyncEngine) =
