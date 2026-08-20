@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/Badge'
 import { Avatar } from '@/components/ui/Avatar'
 import { Toggle } from '@/components/ui/Toggle'
 import { PARTY_REFUSALS, useParty, usePartyActions, usePartySessions, type PartySessionSummary } from '@/lib/useParties'
+import { PartySessionRunner } from './PartySessionRunner'
 import { formatDateTime, formatRelativeTime } from '@/lib/format'
 import { useT } from '@/lib/i18n'
 
@@ -13,7 +14,7 @@ function fallbackRefusal(t: (s: string) => string): string {
   return t('That did not work. Try again.')
 }
 
-function SessionRow({ session, t }: { session: PartySessionSummary; t: (s: string) => string }) {
+function SessionRow({ session, t, onOpen }: { session: PartySessionSummary; t: (s: string) => string; onOpen: () => void }) {
   const when =
     session.state === 'scheduled' && session.startsAt
       ? `${t('Opens')} ${formatDateTime(new Date(session.startsAt))}`
@@ -22,14 +23,16 @@ function SessionRow({ session, t }: { session: PartySessionSummary; t: (s: strin
         : null
 
   return (
-    <li className="flex items-center gap-3 px-4 py-3">
-      <span className="min-w-0 flex-1">
-        <span className="block truncate text-[13.5px] font-medium text-ink">{session.name}</span>
-        <span className="mt-0.5 block text-[12px] text-ink-3">
-          {session.itemCount} {t('items')}{when ? ` · ${when}` : ''}
+    <li>
+      <button type="button" onClick={onOpen} className="flex w-full items-center gap-3 px-4 py-3 text-start transition-colors hover:bg-inset">
+        <span className="min-w-0 flex-1">
+          <span className="block truncate text-[13.5px] font-medium text-ink">{session.name}</span>
+          <span className="mt-0.5 block text-[12px] text-ink-3">
+            {session.itemCount} {t('items')}{when ? ` · ${when}` : ''}
+          </span>
         </span>
-      </span>
-      {session.isMine && <Badge tone="outline">{t('Yours')}</Badge>}
+        {session.isMine && <Badge tone="outline">{t('Yours')}</Badge>}
+      </button>
     </li>
   )
 }
@@ -38,17 +41,23 @@ function SessionRow({ session, t }: { session: PartySessionSummary; t: (s: strin
  * One party: its name, its members, its one permanent link, the visibility
  * switch for the host, and its sessions grouped by what state they are in.
  *
- * Sitting a session (`PartySessionRunner`) is a later slice — this page only
- * shows what exists, it does not run anything yet.
+ * Opening a session hands off to `PartySessionRunner`, exactly the way
+ * opening a room hands off to `RoomRunner` in `StudyTogether` — this page
+ * still owns the list, the runner owns the sitting.
  */
 export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => void }) {
   const t = useT()
   const { party, error, reload } = useParty(partyId)
-  const { sessions } = usePartySessions(partyId)
+  const { sessions, reload: reloadSessions } = usePartySessions(partyId)
   const { setVisibility } = usePartyActions()
   const [copied, setCopied] = useState(false)
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
+  const [openSessionId, setOpenSessionId] = useState<string | null>(null)
+
+  if (openSessionId) {
+    return <PartySessionRunner sessionId={openSessionId} onExit={() => { setOpenSessionId(null); void reloadSessions() }} />
+  }
 
   if (error) {
     return (
@@ -136,7 +145,7 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
             <p className="px-5 py-6 text-center text-[12.5px] text-ink-3">{t('Nothing running right now.')}</p>
           ) : (
             <ul className="divide-y divide-line">
-              {running.map((session) => <SessionRow key={session.id} session={session} t={t} />)}
+              {running.map((session) => <SessionRow key={session.id} session={session} t={t} onOpen={() => setOpenSessionId(session.id)} />)}
             </ul>
           )}
         </Panel>
@@ -145,7 +154,7 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
           <Panel>
             <PanelHeader title={t('Scheduled')} icon={Clock} hint={String(scheduled.length)} />
             <ul className="divide-y divide-line">
-              {scheduled.map((session) => <SessionRow key={session.id} session={session} t={t} />)}
+              {scheduled.map((session) => <SessionRow key={session.id} session={session} t={t} onOpen={() => setOpenSessionId(session.id)} />)}
             </ul>
           </Panel>
         )}
@@ -154,7 +163,7 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
           <Panel>
             <PanelHeader title={t('Finished')} icon={Trophy} hint={String(finished.length)} />
             <ul className="divide-y divide-line">
-              {finished.map((session) => <SessionRow key={session.id} session={session} t={t} />)}
+              {finished.map((session) => <SessionRow key={session.id} session={session} t={t} onOpen={() => setOpenSessionId(session.id)} />)}
             </ul>
           </Panel>
         )}
