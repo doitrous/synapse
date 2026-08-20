@@ -1,16 +1,32 @@
 import { useCallback, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Languages, BookA, Grid3x3 } from 'lucide-react'
+import { Languages, BookA, Layers, Grid3x3 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
+import { Button } from '@/components/ui/Button'
 import { SearchInput } from '@/components/ui/Field'
 import { FilterChip } from '@/components/ui/FilterChip'
 import { Icon } from '@/components/ui/Icon'
-import { Button } from '@/components/ui/Button'
 import type { MedTermCategory } from '@/data/glossary'
 import { useMedicalGlossary } from '@/data/glossaryStore'
+import { deckFromTerms } from '@/data/decks'
+import { useDecks } from '@/lib/useDecks'
 import { buildGrid, MIN_TERMS, type GridTerm } from '@/data/crossword'
 import { useT } from '@/lib/i18n'
+
+/**
+ * The name of whatever is currently on screen — the same name `deckFromTerms`
+ * turns into a stable deck id. Built from the category and search query rather
+ * than translated labels, so switching the UI language never changes which
+ * deck a re-run lands on.
+ */
+function currentFilterName(category: MedTermCategory | 'all', query: string): string {
+  const trimmed = query.trim()
+  if (category !== 'all' && trimmed) return `${category} — "${trimmed}"`
+  if (category !== 'all') return category
+  if (trimmed) return `"${trimmed}"`
+  return 'Medical Taxonomy'
+}
 
 /**
  * Only used to answer "can this category build a puzzle at all" and "how many
@@ -25,6 +41,7 @@ const PREVIEW_SEED = 1
 export function MedicalTaxonomy() {
   const t = useT()
   const navigate = useNavigate()
+  const { decks, saveDeck } = useDecks()
   // Live, and editable in Glossary Setup — no longer a source literal that
   // needed a redeploy to correct a translation.
   const [glossary] = useMedicalGlossary()
@@ -48,6 +65,27 @@ export function MedicalTaxonomy() {
     (g) => g.terms.length > 0,
   )
   const isEmpty = medicalTerms.length === 0
+
+  /**
+   * Build a deck from exactly what is on screen right now, and go study it.
+   *
+   * The filter name is the deck's name, and `deckFromTerms` turns that name
+   * into a stable id — so pressing this again on the same filter overwrites
+   * the same deck instead of piling up a duplicate. Any schedule progress on
+   * cards that are still in the deck survives the overwrite.
+   */
+  function studyFilteredAsFlashcards() {
+    const built = deckFromTerms(currentFilterName(category, query), filtered)
+    const existing = decks[built.id]
+    saveDeck({
+      id: built.id,
+      name: built.title,
+      cards: built.cards,
+      schedules: existing?.schedules ?? {},
+      createdAt: existing?.createdAt ?? new Date().toISOString(),
+    })
+    navigate('/app/flashcards')
+  }
 
   // Term Grid only ever plays one category (its own select has no "all"
   // option), so "the terms in the current filter" means the category chip,
@@ -93,13 +131,23 @@ export function MedicalTaxonomy() {
             <span className="tnum font-mono font-medium text-ink-2">{filtered.length}</span> {filtered.length === 1 ? t('term') : t('terms')}
           </span>
         </div>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <FilterChip active={category === 'all'} onClick={() => setCategory('all')}>{t('All')}</FilterChip>
           {MED_CATEGORIES.map((c) => (
             <FilterChip key={c.key} active={category === c.key} onClick={() => setCategory(c.key)}>
               {t(c.key)}
             </FilterChip>
           ))}
+          <Button
+            variant="secondary"
+            size="sm"
+            iconLeft={Layers}
+            className="ms-auto"
+            disabled={filtered.length === 0}
+            onClick={studyFilteredAsFlashcards}
+          >
+            {t('Study these as flashcards')} · <span className="tnum font-mono">{filtered.length}</span>
+          </Button>
         </div>
 
         {category !== 'all' && (

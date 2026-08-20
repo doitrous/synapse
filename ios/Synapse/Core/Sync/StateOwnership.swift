@@ -24,6 +24,7 @@ enum StateOwnership {
             "^synapse-notification-read-v1-",
             "^synapse-applied-voucher-v1$",
             "^synapse\\.qbank\\.",
+            "^synapse\\.flashcards\\.",
             "^synapse\\.practical\\.",
             "^synapse\\.essay\\.",
             "^synapse\\.highlights\\.",

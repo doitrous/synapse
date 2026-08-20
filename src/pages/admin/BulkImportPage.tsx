@@ -20,7 +20,7 @@ interface MappedRow { index: number; values: Record<string, string>; errors: str
 
 const IGNORE = '__ignore__'
 const steps = ['Choose a file', 'Confirm worksheet', 'Map columns', 'Full preview', 'Skipped rows', 'Import options']
-const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources', essay: 'written', histology: 'histology' }
+const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources', deck: 'flashcards', essay: 'written', histology: 'histology' }
 
 function normalize(value: string) {
   return value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')

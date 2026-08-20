@@ -22,6 +22,14 @@ test('a student\'s own work is routed to their own record', () => {
   assert.equal(isUserOwnedState('synapse.termgrid.progress.v1'), true)
 })
 
+test('a student\'s flashcard decks and schedules are their own record', () => {
+  // Same convention as the qbank prefix above: a dotted namespace under
+  // synapse.flashcards. belongs to the student who owns the deck's schedule,
+  // never to the shared catalogue that holds the deck's content.
+  assert.equal(isUserOwnedState('synapse.flashcards.decks.v1'), true)
+  assert.equal(isUserOwnedState('synapse.flashcards.dailyCounts.v1'), true)
+})
+
 test('every library key a student writes is their own', () => {
   assert.equal(isUserOwnedState('synapse.library.read'), true)
   assert.equal(isUserOwnedState('synapse.library.userArticles'), true)
