@@ -326,6 +326,19 @@ export interface PracticalCommon {
   mediaRequests: MediaRequest[]
   /** What a student who passes this item has demonstrated. */
   learningObjective?: string
+  /**
+   * Curriculum placement, matching the blocks articles and resources already
+   * carry. A station used to record its references, its concepts and the assets
+   * it still needed, and nothing at all about where in the curriculum it sits —
+   * so it could not be assigned to a reviewer even in principle.
+   *
+   * Absent until somebody tags it, and that absence is what keeps an untagged
+   * station with the editors rather than handing it to whichever reviewer asked
+   * first. See `itemWritableBy` in server/src/contentScope.js.
+   */
+  universityIds?: string[]
+  yearIds?: string[]
+  moduleIds?: string[]
 }
 
 /** The shared blocks of a practical that has not been tagged yet. */
@@ -513,7 +526,7 @@ export function initialManagedContent(): ManagedContentItem[] {
  */
 export function itemScope(item: ManagedContentItem): { universityIds: string[]; yearIds: string[] } {
   const questionTags = item.questionData?.tags
-  const scope = item.articleData ?? item.resourceData
+  const scope = item.articleData ?? item.practicalData ?? item.resourceData
   return {
     universityIds: questionTags?.universityIds ?? scope?.universityIds ?? [],
     yearIds: questionTags?.years ?? scope?.yearIds ?? [],
