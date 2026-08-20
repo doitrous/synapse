@@ -74,6 +74,8 @@ const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resource
 const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
 const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'), 'MedicalTaxonomy')
 const TermGridPage = lazyNamed(() => import('@/components/termgrid/TermGridPage'), 'TermGridPage')
+const SpotterPage = lazyNamed(() => import('@/components/games/SpotterPage'), 'SpotterPage')
+const TermMatchPage = lazyNamed(() => import('@/components/games/TermMatchPage'), 'TermMatchPage')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
 const Flashcards = lazyNamed(() => import('@/pages/student/Flashcards'), 'Flashcards')
 const EssayQuestions = lazyNamed(() => import('@/pages/student/EssayQuestions'), 'EssayQuestions')
@@ -128,6 +130,8 @@ const studentPages: Record<string, Preloadable> = {
   resources: Resources,
   taxonomy: MedicalTaxonomy,
   'term-grid': TermGridPage,
+  spotter: SpotterPage,
+  'term-match': TermMatchPage,
   practical: Practical,
   flashcards: Flashcards,
   essays: EssayQuestions,
@@ -181,7 +185,7 @@ const adminBuilt: Record<string, ReactElement> = {
   assistant: render(AssistantSetup),
 }
 
-const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'essays', 'resources', 'taxonomy', 'term-grid', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
+const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'essays', 'resources', 'taxonomy', 'term-grid', 'spotter', 'term-match', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
 const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
 
 const studentRoutes = [
