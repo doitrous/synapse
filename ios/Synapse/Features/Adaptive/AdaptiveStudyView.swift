@@ -295,6 +295,95 @@ struct AdaptiveStudyView: View {
     // MARK: - Plan
 
     @ViewBuilder private var plan: some View {
+        let week = model.weeklyPlan()
+
+        panel(strings("This week")) {
+            VStack(alignment: .leading, spacing: 14) {
+                // The one dial. Everything below is arithmetic on this number,
+                // so it sits at the top of what it changes rather than in a
+                // settings screen somewhere else.
+                Stepper(value: $model.minutesPerDay, in: 0...600, step: 15) {
+                    HStack {
+                        Text(strings("Minutes a day"))
+                            .font(Theme.ui(14))
+                            .foregroundStyle(Theme.ink)
+                        Spacer()
+                        Text("\(model.minutesPerDay)")
+                            .font(Theme.numeric(14))
+                            .foregroundStyle(Theme.ink2)
+                    }
+                }
+                .tint(Theme.primary)
+
+                ForEach(orderedDates(week), id: \.self) { date in
+                    let tasks = week.tasks.filter { $0.date == date }
+                    VStack(alignment: .leading, spacing: 6) {
+                        HStack(alignment: .firstTextBaseline) {
+                            Text(dayName(date))
+                                .font(Theme.ui(13).weight(.semibold))
+                                .foregroundStyle(Theme.ink)
+                            Spacer()
+                            Text("\(tasks.reduce(0) { $0 + $1.expectedMinutes })m")
+                                .font(Theme.numeric(12))
+                                .foregroundStyle(Theme.ink3)
+                        }
+                        ForEach(tasks) { taskRow($0) }
+                    }
+                }
+            }
+        }
+
+        panel(strings("Where the week's time goes")) {
+            VStack(alignment: .leading, spacing: 10) {
+                ForEach(AllocationNeed.allCases, id: \.self) { need in
+                    let minutes = week.needMinutes[need] ?? 0
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack {
+                            Text(strings(need.label))
+                                .font(Theme.ui(13))
+                                .foregroundStyle(Theme.ink)
+                            Spacer()
+                            Text("\(minutes)m")
+                                .font(Theme.numeric(12))
+                                .foregroundStyle(Theme.ink2)
+                        }
+                        meter(week.plannedMinutes > 0 ? Double(minutes) / Double(week.plannedMinutes) : 0,
+                              tint: need == .weakness ? Theme.primary : Theme.ink3)
+                    }
+                }
+            }
+        }
+
+        panel(strings("Capacity")) {
+            VStack(alignment: .leading, spacing: 8) {
+                capacityRow(strings("You said you have"), week.statedMinutes, tint: Theme.ink2)
+                capacityRow(strings("Planned"), week.plannedMinutes, tint: Theme.ink2)
+                // Shown, not hidden. A buffer a student cannot see is a buffer
+                // they assume is not there.
+                capacityRow(strings("Deliberately left free"), week.bufferMinutes, tint: Theme.primary)
+            }
+        }
+
+        if !week.unplaced.isEmpty {
+            panel(strings("What would not fit")) {
+                VStack(alignment: .leading, spacing: 8) {
+                    ForEach(Array(week.unplaced.enumerated()), id: \.offset) { _, task in
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(strings(task.title))
+                                .font(Theme.ui(13).weight(.medium))
+                                .foregroundStyle(Theme.ink)
+                            Text(strings(task.reason))
+                                .font(Theme.ui(12))
+                                .foregroundStyle(Theme.ink3)
+                        }
+                    }
+                    Text(strings("Your stated hours cannot hold everything the plan wanted. The shortfall is shown rather than dropped."))
+                        .font(Theme.ui(12))
+                        .foregroundStyle(Theme.ink3)
+                }
+            }
+        }
+
         panel(strings("How this block divides")) {
             VStack(alignment: .leading, spacing: 10) {
                 if let days = model.daysToExam {
@@ -320,6 +409,91 @@ struct AdaptiveStudyView: View {
                 }
             }
         }
+
+        // Inside the plan, not in a settings page nobody opens. That is the
+        // difference between a caveat and a disclaimer.
+        Text(strings(WeeklyPlan.caveat))
+            .font(Theme.ui(12))
+            .foregroundStyle(Theme.ink3)
+            .padding(.horizontal, 4)
+    }
+
+    @ViewBuilder private func taskRow(_ task: PlanTask) -> some View {
+        if task.kind == .rest {
+            VStack(alignment: .leading, spacing: 2) {
+                Text(strings("Rest"))
+                    .font(Theme.ui(12.5).weight(.medium))
+                    .foregroundStyle(Theme.ink3)
+                Text(strings(task.reason))
+                    .font(Theme.ui(11.5))
+                    .foregroundStyle(Theme.ink3)
+            }
+            .padding(10)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .overlay(
+                RoundedRectangle(cornerRadius: Theme.Radius.lg)
+                    .strokeBorder(Theme.line, style: StrokeStyle(lineWidth: 1, dash: [4, 3]))
+            )
+        } else {
+            VStack(alignment: .leading, spacing: 3) {
+                HStack(alignment: .firstTextBaseline, spacing: 8) {
+                    Text(strings(task.title))
+                        .font(Theme.ui(12.5).weight(.medium))
+                        .foregroundStyle(Theme.ink)
+                        .lineLimit(1)
+                    Spacer(minLength: 0)
+                    Text("\(task.expectedMinutes)m")
+                        .font(Theme.numeric(11))
+                        .foregroundStyle(Theme.ink2)
+                    Text(strings(task.tier.label))
+                        .font(Theme.ui(10).weight(.semibold))
+                        .foregroundStyle(task.tier == .minimum ? Theme.primaryStrong : Theme.ink3)
+                        .padding(.horizontal, 6)
+                        .padding(.vertical, 2)
+                        .background(task.tier == .minimum ? Theme.primaryTint : Theme.surface2)
+                        .clipShape(Capsule())
+                }
+                // Every task says why it exists, so a student can disagree
+                // with it rather than only obey or abandon it.
+                Text(strings(task.reason))
+                    .font(Theme.ui(11.5))
+                    .foregroundStyle(Theme.ink3)
+            }
+            .padding(10)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Theme.surface2)
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+        }
+    }
+
+    private func capacityRow(_ label: String, _ minutes: Int, tint: Color) -> some View {
+        HStack {
+            Text(label)
+                .font(Theme.ui(13))
+                .foregroundStyle(Theme.ink)
+            Spacer()
+            Text("\(minutes)m")
+                .font(Theme.numeric(13))
+                .foregroundStyle(tint)
+        }
+    }
+
+    /// The dates that have work, in the order the week runs.
+    ///
+    /// Taken from the task list rather than from the seven days, so a day the
+    /// student marked unavailable simply is not there.
+    private func orderedDates(_ week: WeeklyPlan) -> [String] {
+        var seen: Set<String> = []
+        return week.tasks.map(\.date).filter { seen.insert($0).inserted }
+    }
+
+    private func dayName(_ iso: String) -> String {
+        guard let date = StudySchedule.isoDay.date(from: iso) else { return iso }
+        let formatter = DateFormatter()
+        formatter.locale = strings.language.locale
+        formatter.timeZone = TimeZone(identifier: "UTC")
+        formatter.setLocalizedDateFormatFromTemplate("EEE d MMM")
+        return formatter.string(from: date)
     }
 
     // MARK: - How this works
@@ -375,11 +549,13 @@ struct AdaptiveStudyView: View {
         }
     }
 
-    private func meter(_ fraction: Double) -> some View {
+    /// Crimson is the action colour, so it is spent on the bar a student is
+    /// meant to act on rather than on all four at once.
+    private func meter(_ fraction: Double, tint: Color = Theme.primary) -> some View {
         GeometryReader { geometry in
             ZStack(alignment: .leading) {
                 Capsule().fill(Theme.inset)
-                Capsule().fill(Theme.primary)
+                Capsule().fill(tint)
                     .frame(width: geometry.size.width * min(max(fraction, 0), 1))
             }
         }

@@ -21,6 +21,7 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
     var defaultShares: AllocationShares
     var horizonBands: [HorizonBand]
     var readiness: ReadinessConfig
+    var schedule: ScheduleConfig
 
     /// Admin-authored, so it is read from the shared catalogue rather than the
     /// student's own record — which is why the key is hyphenated.
@@ -94,6 +95,34 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
         /// Below this, a group's own range is not reported — a range from two
         /// answers is a number pretending to be evidence.
         var minItemsPerTopicReport: Int
+        /// Share of each blueprint node's pool held back when no administrator
+        /// has said otherwise. Reserved items are what makes a readiness score
+        /// a measurement rather than a memory test.
+        var autoReserveShare: Double
+        /// Days a practised item is barred from a readiness assessment.
+        var exposureExclusionDays: Int
+        var assessmentSize: Int
+        var secondsPerItem: Double
+    }
+
+    /// The weekly plan's guardrails.
+    ///
+    /// Every number here exists to stop the planner doing the thing planners
+    /// do: filling every free minute, stacking the hardest work together, and
+    /// answering a missed day with a doubled one.
+    struct ScheduleConfig: Codable, Equatable, Sendable {
+        /// Share of stated capacity held back. Never schedule every free minute.
+        var capacityBufferShare: Double
+        var minTaskMinutes: Int
+        var maxTaskMinutes: Int
+        /// How far demanding sessions may outrun light ones on a single day.
+        var maxConsecutiveHighEffort: Int
+        var minimumTierShare: Double
+        var recommendedTierShare: Double
+        /// Days a mock sits before the exam, so a poor result is still repairable.
+        var mockLeadDays: Int
+        /// The share of missed work that carries forward. Never all of it.
+        var catchUpShare: Double
     }
 
     struct Constraints: Codable, Equatable, Sendable {
@@ -181,7 +210,21 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
         ],
         readiness: ReadinessConfig(
             intervalConfidence: 0.9,
-            minItemsPerTopicReport: 3
+            minItemsPerTopicReport: 3,
+            autoReserveShare: 0.15,
+            exposureExclusionDays: 30,
+            assessmentSize: 40,
+            secondsPerItem: 75
+        ),
+        schedule: ScheduleConfig(
+            capacityBufferShare: 0.18,
+            minTaskMinutes: 15,
+            maxTaskMinutes: 60,
+            maxConsecutiveHighEffort: 1,
+            minimumTierShare: 0.5,
+            recommendedTierShare: 0.35,
+            mockLeadDays: 7,
+            catchUpShare: 0.5
         )
     )
 }

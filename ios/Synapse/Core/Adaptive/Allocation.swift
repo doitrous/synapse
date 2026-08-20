@@ -18,6 +18,12 @@ enum AllocationNeed: String, CaseIterable, Codable, Sendable {
     }
 }
 
+/// Stored as a JSON object keyed by need, matching `Record<AllocationNeed, …>`
+/// on the website. Without this a Swift dictionary keyed by the enum encodes as
+/// a flat array, and a plan written on the phone would not read back on a
+/// laptop.
+extension AllocationNeed: CodingKeyRepresentable {}
+
 /// How a block divides, as fractions summing to 1.
 struct AllocationShares: Codable, Equatable, Sendable {
     var weakness: Double
