@@ -2381,32 +2381,121 @@ git commit -m "Report what was skipped as skipped"
 ### Task 16: Practical
 
 **Files:**
+- Create: `android/app/src/main/java/com/synapse/android/core/practical/PracticalProgress.kt`
 - Create: `android/app/src/main/java/com/synapse/android/feature/practical/PracticalListScreen.kt`
 - Create: `android/app/src/main/java/com/synapse/android/feature/practical/PracticalReaderScreen.kt`
 - Create: `android/app/src/main/java/com/synapse/android/feature/practical/PracticalViewModel.kt`
+- Test: `android/app/src/test/java/com/synapse/android/core/practical/PracticalProgressTest.kt`
 - Test: `android/app/src/test/java/com/synapse/android/feature/practical/PracticalViewModelTest.kt`
 
 **Interfaces:**
 - Consumes: `Practical`, `PracticalProjection`, `LocalStore`, `SyncEngine`, `AttemptStore`.
-- Produces: `PracticalViewModel` with `val items: StateFlow<List<Practical>>`, `fun tick(sectionId: String, itemIndex: Int, ticked: Boolean)`, `val ticks: StateFlow<Set<String>>`, `fun finish(practicalId: String)`.
+- Produces, in `core/practical/PracticalProgress.kt` — a port of
+  `src/data/practicalProgress.ts`, function for function:
+  ```kotlin
+  const val PRACTICAL_PROGRESS_KEY = "synapse.practical.progress.v1"
 
-- [ ] **Step 1: Write the failing test**
+  @Serializable data class StationProgress(
+      val attempts: Int, val bestMarks: Int, val outOf: Int,
+      val lastAt: String, val checkedItems: List<String> = emptyList(),
+  )
+  @Serializable data class CaseProgress(val status: String, val lastStep: Int, val steps: Int, val lastAt: String)
+  @Serializable data class LabProgress(val done: Int, val items: Int, val lastAt: String)
+  @Serializable data class SkillProgress(val status: String, val lastAt: String)
+  @Serializable data class PracticalProgress(
+      val version: Int = 1,
+      val stations: Map<String, StationProgress> = emptyMap(),
+      val cases: Map<String, CaseProgress> = emptyMap(),
+      val labs: Map<String, LabProgress> = emptyMap(),
+      val skills: Map<String, SkillProgress> = emptyMap(),
+  )
+
+  fun recordStationRun(progress, stationId: String, marks: Int, outOf: Int, checkedItems: List<String>, at: String): PracticalProgress
+  fun recordCaseStep(progress, caseId: String, lastStep: Int, steps: Int, completed: Boolean, at: String): PracticalProgress
+  fun recordLabAnswered(progress, labId: String, done: Int, items: Int, at: String): PracticalProgress
+  fun setSkillStatus(progress, skillId: String, status: String, at: String): PracticalProgress
+  fun summariseSkills(progress, total: Int): SkillsSummary   // data class SkillsSummary(practised, ready, total)
+  ```
+- Produces: `PracticalViewModel` with `val items: StateFlow<List<Practical>>`, `val progress: StateFlow<PracticalProgress>`, `val ticks: StateFlow<Set<String>>` (the mark-scheme items ticked in the run currently open, seeded from the stored `checkedItems`), `fun tick(itemId: String, ticked: Boolean)`, `fun finishStation(stationId: String, marks: Int, outOf: Int)`.
+
+**The one way this task loses a student's work.** Android writes the *whole*
+`synapse.practical.progress.v1` document, and that document holds four
+sections: `stations`, `cases`, `labs`, `skills`. If the decoder drops a
+section it does not manage, the first write from the phone erases that
+section from the web. Decode and re-encode every section, including any the
+Android screens never touch, and prove it with a test.
+
+**Fold rules, ported exactly.** Each of these is a decision the web already
+made, and each one reads as a bug if reproduced wrongly:
+
+- `recordStationRun` — the best score only moves up, and it carries the mark
+  total it was scored against, so a station later re-authored out of 30 does
+  not make an old 18/20 read as 18/30. A first run is always the best one.
+  The comparison is on the *share* (`marks / outOf`), and it is `>=`, not `>`.
+  `checkedItems` is overwritten by every run regardless of the score — those
+  are the ticks to resume from, not the ticks of the best attempt.
+  A station scored out of 0 scores a share of 0 rather than dividing by zero.
+- `recordCaseStep` — once a case is completed, revisiting it does not demote
+  it to in-progress. `lastStep` never goes backwards; `steps` is always the
+  latest.
+- `recordLabAnswered` — `done` never goes backwards; `items` is always the
+  latest.
+- `setSkillStatus` — a status of `"not-started"` **removes** the entry rather
+  than storing it. Statuses are `"not-started"`, `"practised"`, `"ready"`,
+  and nothing else. A skill is never signed off by anyone: this product has
+  no assessor identity, so no code here may write one.
+- `summariseSkills` — `practised` counts both `practised` and `ready`, and the
+  total is passed in from the live list rather than stored, so a headline can
+  never disagree with the list under it.
+
+**Attempt surfaces.** `AttemptRecord.surface` is one of `"qbank"`, `"case"`,
+`"lab"`, `"station"`, `"room"` (`src/data/attempts.ts:16`). Practical writes
+`"station"`, `"case"` and `"lab"` — matching
+`src/components/practical/PracticalRunner.tsx:207`, `:451` and `:570`. Do not
+invent a `"practical"` surface; nothing on the web would count it.
+
+- [ ] **Step 1: Write the failing tests for the progress document**
+
+```kotlin
+@Test fun `a section this app never touches survives a write`() {
+    // Decode a document holding cases, labs and skills, record a station run,
+    // re-encode, and assert all three are still there with their values. The
+    // failure this guards is silent and total: a student's case and lab
+    // history disappearing from the website the first time they open the
+    // Android app.
+}
+@Test fun `the best score only moves up`()
+@Test fun `a worse run still updates the ticks to resume from`()
+@Test fun `a best score carries the total it was scored against`()
+@Test fun `a station scored out of zero does not divide by zero`()
+@Test fun `a completed case is not demoted by revisiting it`()
+@Test fun `lastStep never goes backwards`()
+@Test fun `a lab's done count never goes backwards`()
+@Test fun `setting a skill back to not-started removes it`()
+@Test fun `practised counts the ready ones too`()
+```
+
+- [ ] **Step 2: Write the failing tests for the screens**
 
 ```kotlin
 @Test fun `all five formats render from one item kind`() {
     // `type` decides what the reader shows; there is no screen per type.
 }
-@Test fun `a tick is stored under a synapse practical key`()
+@Test fun `a tick is stored under the practical progress key`() {
+    // assertEquals("synapse.practical.progress.v1", PRACTICAL_PROGRESS_KEY)
+}
 @Test fun `ticks survive leaving and reopening a station`()
 @Test fun `finishing a self-ticked station writes an attempt with a null mark`() {
-    // Nobody marked it. Null is not the same as wrong.
+    // Nobody marked it. Null is not the same as wrong, and accuracy must not
+    // count it either way.
 }
+@Test fun `a finished station writes an attempt on the station surface`()
 @Test fun `a case's decisions stay hidden until revealed`()
 @Test fun `a lab set's answers stay hidden until revealed`()
 @Test fun `a station with no mark scheme still opens`()
 ```
 
-- [ ] **Step 2: Implement, run, commit**
+- [ ] **Step 3: Implement, run, commit**
 
 ```bash
 git add android
