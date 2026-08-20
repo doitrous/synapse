@@ -25,6 +25,7 @@ import { useMyChallenges, useChallengeActions } from '@/lib/useChallenges'
 import { FriendsPanel } from '@/components/social/FriendsPanel'
 import { ChallengePanel, ChallengeDialog } from '@/components/social/ChallengePanel'
 import { ChallengeRunner } from '@/components/social/ChallengeRunner'
+import { PartiesPanel } from '@/components/social/PartiesPanel'
 import { API_MODE } from '@/lib/api'
 import { formatRelativeTime } from '@/lib/format'
 import { cn } from '@/lib/cn'
@@ -314,7 +315,7 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
  */
 export function StudyTogether() {
   const t = useT()
-  const [tab, setTab] = useState<'tests' | 'friends'>('tests')
+  const [tab, setTab] = useState<'tests' | 'friends' | 'parties'>('tests')
   const questions = usePublishedQuestions()
   const { rooms, reload: reloadRooms } = useMyRooms()
   const { create, join } = useStudyRoomActions()
@@ -571,6 +572,18 @@ export function StudyTogether() {
       </div>
   )
 
+  const partiesContent = !API_MODE ? (
+    <Panel className="p-10">
+      <EmptyState
+        icon={Users}
+        title={t('Study parties need the backend')}
+        description={t('A party lives on the server so the rest of your year can find and join it. Connect the backend to start one.')}
+      />
+    </Panel>
+  ) : (
+    <PartiesPanel />
+  )
+
   const friendsContent = !API_MODE ? (
     <Panel className="p-10">
       <EmptyState
@@ -617,14 +630,15 @@ export function StudyTogether() {
       <Tabs
         className="mb-4"
         value={tab}
-        onChange={(value) => setTab(value as 'tests' | 'friends')}
+        onChange={(value) => setTab(value as 'tests' | 'friends' | 'parties')}
         items={[
           { value: 'tests', label: t('Shared tests') },
+          { value: 'parties', label: t('Parties') },
           { value: 'friends', label: t('Friends') },
         ]}
       />
 
-      {tab === 'tests' ? testsContent : friendsContent}
+      {tab === 'tests' ? testsContent : tab === 'parties' ? partiesContent : friendsContent}
 
       {challengeTarget && (
         <ChallengeDialog
