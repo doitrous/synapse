@@ -74,6 +74,7 @@ const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resource
 const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
 const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'), 'MedicalTaxonomy')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
+const Flashcards = lazyNamed(() => import('@/pages/student/Flashcards'), 'Flashcards')
 const CalendarPage = lazyNamed(() => import('@/pages/student/Calendar'), 'CalendarPage')
 const Performance = lazyNamed(() => import('@/pages/student/Performance'), 'Performance')
 const Whiteboard = lazyNamed(() => import('@/pages/student/Whiteboard'), 'Whiteboard')
@@ -122,6 +123,7 @@ const studentPages: Record<string, Preloadable> = {
   resources: Resources,
   taxonomy: MedicalTaxonomy,
   practical: Practical,
+  flashcards: Flashcards,
   calendar: CalendarPage,
   performance: Performance,
   whiteboard: Whiteboard,
@@ -169,7 +171,7 @@ const adminBuilt: Record<string, ReactElement> = {
   assistant: render(AssistantSetup),
 }
 
-const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
+const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
 const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
 
 const studentRoutes = [

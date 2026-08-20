@@ -34,6 +34,7 @@ import {
   Compass,
   Scale,
   Bot,
+  Layers,
 } from 'lucide-react'
 
 export type Portal = 'student' | 'admin'
@@ -79,6 +80,7 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Whiteboard', to: '/app/whiteboard', icon: PenTool },
       { label: 'Notebook', to: '/app/notebook', icon: Notebook },
+      { label: 'Flashcards', to: '/app/flashcards', icon: Layers },
       { label: 'Study Together', to: '/app/study-together', icon: Users },
     ],
   },
