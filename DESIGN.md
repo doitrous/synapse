@@ -92,6 +92,21 @@ swapped in under the dark theme — the light artwork's deep blue goes muddy on
 `#0d1117`. The logotype itself needs no swap: it reads `--brand-blue` /
 `--brand-rose`, which the dark theme moves up the ramp.
 
+**Outside the app** there is no browser to flow the mark into the text run, so
+three surfaces compose the lockup by hand. They hold the same proportions as
+`Wordmark.tsx` — mark at 1.06em with 0.015em either side, seated 0.25em below
+the baseline, tracking 0.045em — and drift from it is a bug.
+
+- **Link-preview cards** (`scripts/og/`) place each piece at a measured x. SVG
+  has no inline flow and resvg exposes no advance widths, so `render.mjs`
+  measures them instead: appending a `C` to a run grows that run's ink by
+  exactly the run's advance plus one tracking step, because the C's own bearings
+  appear in both measurements and cancel. That keeps the lockup correct even
+  though the face is not Jost — Jost is a webfont and resvg reads only installed
+  ones, so it lands on Futura, the geometric sans Jost is a revival of.
+- **Favicon** is `favicon.png`, the mark on a tinted rounded square. All three
+  entry documents point at it: `index.html`, `en/`, and `ar/`.
+
 ## Radius / Elevation / Motion
 
 - Radius: 6 / 8 / 10 / 12 / 16px — restrained, never pill-rounded cards.

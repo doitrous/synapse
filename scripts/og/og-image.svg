@@ -16,11 +16,11 @@
     <image xlink:href="__MARK__" x="860" y="-40" width="700" height="700"/>
   </g>
 
-  <!-- brand lockup: the mark is the O in CONNECT, so the two are one thing -->
-  <image xlink:href="__MARK__" x="90" y="86" width="84" height="84"/>
-  <text x="196" y="152" font-family="'Jost','Century Gothic','Futura','Avenir Next',Helvetica,Arial,sans-serif" font-size="56" font-weight="500" letter-spacing="2.5">
-    <tspan fill="#1553b3">CONNECT</tspan><tspan fill="#d13a63">CORTEX</tspan>
-  </text>
+  <!-- brand lockup: the mark IS the O in CONNECT, so the wordmark and the
+       symbol are one thing rather than a symbol set beside a word. SVG has no
+       inline flow to drop an image into a text run, so render.mjs composes the
+       three pieces at measured glyph advances and substitutes them here. -->
+  __LOCKUP__
 
   <!-- headline: the product's hero line -->
   <text x="90" y="348" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="bold" fill="#161920" letter-spacing="-2">See exactly what to</text>
