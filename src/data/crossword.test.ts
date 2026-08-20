@@ -129,3 +129,52 @@ test('a square starting both an across and a down word carries one number', () =
     assert.equal(new Set(numbers).size, 1, 'one square, one number')
   }
 })
+
+test('the minimum is a floor on words actually placed, not just words offered', () => {
+  // One seed proves nothing here: it was a rare unlucky shuffle that stranded
+  // words and fell under the floor, so sweep a spread of seeds.
+  for (let seed = 0; seed < 100; seed++) {
+    const grid = buildGrid(terms, seed)
+    assert.ok(grid.words.length >= MIN_TERMS, `seed ${seed} placed only ${grid.words.length}`)
+  }
+})
+
+test('retrying from a derived seed costs no determinism', () => {
+  // Seeds whose first arrangement falls short, so the retry path is the one
+  // being compared — a shared link must still open the same puzzle for both.
+  for (const seed of [129, 743, 784, 967, 999]) {
+    assert.deepEqual(buildGrid(terms, seed), buildGrid(terms, seed))
+  }
+})
+
+test('neighbouring seeds do not collide once retries are in play', () => {
+  // The retry windows of adjacent seeds must not overlap, or two friends with
+  // different links would be handed the same puzzle.
+  const seen = new Set<string>()
+  for (let seed = 0; seed < 40; seed++) seen.add(JSON.stringify(buildGrid(terms, seed).words))
+  assert.ok(seen.size > 35, `only ${seen.size} distinct arrangements across 40 seeds`)
+})
+
+test('terms that can never interlock enough are refused, not made into a stub', () => {
+  // Nine usable terms, so the count gate passes, but they share no letter and
+  // no arrangement can interlock a second one.
+  const isolated: GridTerm[] = ['AAA', 'BBB', 'CCC', 'DDD', 'EEE', 'FFF', 'GGG', 'HHH', 'III']
+    .map((term) => ({ term, clue: `Clue for ${term}` }))
+  const grid = buildGrid(isolated, 6)
+  assert.equal(grid.words.length, 0)
+  assert.equal(grid.width, 0)
+  assert.equal(grid.height, 0)
+  assert.equal(grid.skipped.length, 9)
+})
+
+test('the board stays small enough to solve on a phone', () => {
+  // A guard against sprawl regressing, not a magic number: over seeds 0-1999
+  // this generator's worst board is 18 squares on its longest side and 255
+  // squares in total, so these bounds are the measured worst case with about a
+  // fifth again as headroom. Tripping this means placement started sprawling.
+  for (let seed = 0; seed < 100; seed++) {
+    const grid = buildGrid(terms, seed)
+    assert.ok(grid.width <= 22 && grid.height <= 22, `seed ${seed} built ${grid.width}x${grid.height}`)
+    assert.ok(grid.width * grid.height <= 320, `seed ${seed} covers ${grid.width * grid.height} squares`)
+  }
+})
