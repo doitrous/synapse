@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { blockItem, isPast, itemMinutes, itemsOn, localDateTime, mergeUpcoming, nextUp } from './upcoming.ts'
-import type { ScheduledSession } from './useStudentSchedule.ts'
+import type { ScheduledSession } from './studentSchedule.ts'
 import type { StudyBlock } from '@/data/studyBlocks'
 
 function session(overrides: Partial<ScheduledSession> & { id: string; date: string; startTime: string }): ScheduledSession {
