@@ -8,13 +8,16 @@ import com.synapse.android.core.model.ContentKind
 import com.synapse.android.core.model.Question
 import com.synapse.android.core.model.QuestionProjection
 import com.synapse.android.core.progress.AttemptLedger
+import com.synapse.android.core.progress.AttemptRecord
 import com.synapse.android.core.progress.AttemptStats
+import com.synapse.android.core.progress.DayCount
 import com.synapse.android.core.qbank.ChooserTopic
 import com.synapse.android.core.qbank.LiveSession
 import com.synapse.android.core.qbank.QBankScope
 import com.synapse.android.core.qbank.SittingMode
 import com.synapse.android.core.sync.SyncEngine
 import java.time.Instant
+import java.time.LocalDate
 import java.util.UUID
 import kotlin.random.Random
 import kotlinx.coroutines.CoroutineScope
@@ -28,9 +31,63 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
+
+/** One subject's standing in [QBankStats.bySubject], most-accurate first. */
+data class SubjectAccuracy(val subjectId: String, val marked: Int, val correct: Int)
+
+/**
+ * The student's own standing in the bank -- a port of `YourQbank`
+ * (`src/pages/student/QuestionBank.tsx:119-200`).
+ *
+ * Every figure here is derived from the attempt ledger, scoped to
+ * `surface == "qbank"` -- Android carries no `"room"` surface, so [of] does
+ * not fold one in the way the web's `YourQbank` does.
+ */
+data class QBankStats(
+    val seen: Int,
+    val total: Int,
+    val accuracy: Double?,
+    val weekTotal: Int,
+    val streak: Int,
+    val week: List<DayCount>,
+    val bySubject: List<SubjectAccuracy>,
+) {
+    companion object {
+        private const val SURFACE = "qbank"
+        private const val WEEK_DAYS = 7
+
+        /**
+         * [total] is the size of the projected question pool -- callers own
+         * that read; this function only ever sees the attempt ledger.
+         */
+        fun of(records: List<AttemptRecord>, total: Int, today: LocalDate = LocalDate.now()): QBankStats {
+            val qbankRecords = records.filter { it.surface == SURFACE }
+            val week = AttemptStats.dailyCounts(qbankRecords, WEEK_DAYS, today)
+
+            val bySubject = qbankRecords.groupBy { it.subjectId }
+                .mapNotNull { (subjectId, group) ->
+                    val scored = AttemptStats.marked(group)
+                    if (scored.isEmpty()) return@mapNotNull null
+                    SubjectAccuracy(subjectId, marked = scored.size, correct = scored.count { it.correct == true })
+                }
+                .sortedByDescending { it.correct.toDouble() / it.marked }
+
+            return QBankStats(
+                seen = AttemptStats.distinctItems(qbankRecords),
+                total = total,
+                accuracy = AttemptStats.accuracyOf(qbankRecords),
+                weekTotal = week.sumOf { it.attempts },
+                streak = AttemptStats.currentStreak(qbankRecords, today),
+                week = week,
+                bySubject = bySubject,
+            )
+        }
+    }
+}
 
 /**
  * What a student picks from, and what they have picked so far.
@@ -82,6 +139,23 @@ class QuestionBankViewModel(
     val availableCount: StateFlow<Int> = combine(pool, topics, _scope) { currentPool, currentTopics, currentScope ->
         QBankScope.questions(currentPool, currentScope, currentTopics).size
     }.stateIn(backgroundScope, SharingStarted.Eagerly, 0)
+
+    private val _records = MutableStateFlow<List<AttemptRecord>>(emptyList())
+
+    init {
+        backgroundScope.launch { _records.value = AttemptLedger.records(store) }
+    }
+
+    /**
+     * The statistics panel that sits above the chooser on the web
+     * (`QuestionBank.tsx:119-200`). [pool] already reacts to a sync landing
+     * while this screen is open, so [total][QBankStats.total] does too;
+     * the ledger read is one-shot, like [PreviousSittingsViewModel]'s --
+     * nothing on this screen ever writes an attempt.
+     */
+    val stats: StateFlow<QBankStats> = combine(pool, _records) { currentPool, records ->
+        QBankStats.of(records, currentPool.size)
+    }.stateIn(backgroundScope, SharingStarted.Eagerly, QBankStats.of(emptyList(), 0))
 
     /**
      * Every published question the current pool holds, narrowed to [ids] and

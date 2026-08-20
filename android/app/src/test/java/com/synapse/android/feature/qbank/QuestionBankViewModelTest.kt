@@ -7,6 +7,8 @@ import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.cache.CortexDatabase
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.LedgerDecoder
+import com.synapse.android.core.progress.AttemptRecord
+import com.synapse.android.core.progress.writeAttempt
 import com.synapse.android.core.qbank.QBankScope
 import com.synapse.android.core.qbank.SittingMode
 import com.synapse.android.core.sync.SyncEngine
@@ -228,5 +230,25 @@ class QuestionBankViewModelTest {
 
         assertTrue(first.sessionId.isNotBlank())
         assertNotEquals(first.sessionId, second.sessionId)
+    }
+
+    @Test
+    fun `the stats panel reads the ledger through the store, and total tracks the pool`() = runBlocking {
+        seed(questionJson("q1", "Cardiology"), questionJson("q2", "Renal"))
+        writeAttempt(
+            store,
+            sync,
+            AttemptRecord(
+                id = "a1", at = "2026-08-19T10:00:00.000Z", surface = "qbank", itemId = "q1",
+                subjectId = "med", topic = "Cardiology", difficulty = "Moderate",
+                correct = true, sessionId = "s1",
+            ),
+        )
+        val viewModel = QuestionBankViewModel(store, sync)
+        withTimeout(5_000) { viewModel.availableCount.first { it == 2 } }
+
+        val stats = withTimeout(5_000) { viewModel.stats.first { it.total == 2 && it.seen == 1 } }
+
+        assertEquals(1.0, stats.accuracy!!, 0.0001)
     }
 }
