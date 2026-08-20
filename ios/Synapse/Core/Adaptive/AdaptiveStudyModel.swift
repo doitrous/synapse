@@ -21,9 +21,12 @@ final class AdaptiveStudyModel {
     private(set) var readiness: ReadinessResult?
     private(set) var isLoading = true
 
-    /// Days until the next exam, when the student has a timetable with one.
-    var daysToExam: Int?
-    var examTitle: String?
+    /// Days until the next exam, when the student's year has one published.
+    ///
+    /// Nil is a real answer, and the one that must not be papered over: an
+    /// invented countdown changes how every block on this screen is divided.
+    private(set) var daysToExam: Int?
+    private(set) var examTitle: String?
 
     /// True when the student's university and year are not set.
     ///
@@ -32,12 +35,23 @@ final class AdaptiveStudyModel {
     /// worse than an empty screen.
     var scopeUnknown = false
 
+    /// How many approved questions exist for each concept.
+    ///
+    /// The compressed programme needs this to tell the difference between a
+    /// concept it chose not to schedule and one it *cannot* schedule, and that
+    /// difference is the whole honesty of a crash course.
+    private(set) var poolByConcept: [String: Int] = [:]
+    /// Concept id → the concepts that must come first.
+    private(set) var prerequisites: [String: [String]] = [:]
+
     private let api: SynapseAPI?
     private let sync: SyncEngine?
+    private let store: LocalStore?
 
-    init(api: SynapseAPI? = nil, sync: SyncEngine? = nil) {
+    init(api: SynapseAPI? = nil, sync: SyncEngine? = nil, store: LocalStore? = nil) {
         self.api = api
         self.sync = sync
+        self.store = store
     }
 
     /// How this block would divide, given the exam horizon.
@@ -167,6 +181,28 @@ final class AdaptiveStudyModel {
         ))
     }
 
+    /// The compressed programme, when an exam is close enough to warrant one.
+    ///
+    /// Nil is a real answer: no exam on the timetable, or one far enough away
+    /// that an ordinary week serves the student better than a countdown.
+    func crashProgramme(from today: Date = Date()) -> CrashProgramme? {
+        guard let daysToExam, !blueprint.isEmpty,
+              config.crashHorizon(daysToExam: daysToExam) != nil
+        else { return nil }
+
+        return CrashCourse.build(BuildCrashInput(
+            daysToExam: daysToExam,
+            startDate: StudySchedule.isoDay.string(from: today),
+            nodes: blueprint,
+            coverage: coverage,
+            states: states,
+            poolByConcept: poolByConcept,
+            prerequisites: prerequisites,
+            config: config,
+            generatedAt: ISO8601DateFormatter().string(from: today)
+        ))
+    }
+
     /// A concept's label, from the blueprint rather than the graph — the
     /// blueprint carries it so this reads without the concept graph beside it.
     func label(for conceptId: String) -> String {
@@ -190,6 +226,10 @@ final class AdaptiveStudyModel {
         async let remoteDebt = try? api.userState(CoverageDebt.self, key: CoverageDebt.key)
         async let remoteReadiness = try? api.userState(ReadinessResult.self, key: ReadinessResult.key)
 
+        prerequisites = await loadPrerequisites()
+        poolByConcept = await loadPool(audience: audience)
+        await loadNextExam(audience: audience)
+
         config = (await remoteConfig)?.value ?? .default
         blueprint = (await remoteBlueprint)?.value ?? []
         events = (await remoteEvents)?.value ?? []
@@ -208,6 +248,64 @@ final class AdaptiveStudyModel {
     private func rebuild() {
         states = AdaptiveMastery.rebuildAll(events, config: config)
         coverage = Coverage.state(blueprint, distinctItemsByConcept: distinctItemsByConcept)
+    }
+
+    /// Count the approved questions behind each concept.
+    ///
+    /// Read from the local catalogue rather than asked of a server: this is the
+    /// same pool the question bank draws from, so a programme cannot promise a
+    /// concept the bank could not actually serve.
+    private func loadPool(audience: StudentAudience) async -> [String: Int] {
+        guard let store,
+              let items = try? await store.items(kind: .question, audience: audience)
+        else { return [:] }
+
+        var counts: [String: Int] = [:]
+        for question in items.compactMap(QuestionProjection.project) {
+            // Main concepts only. A question that merely touches a concept is
+            // not a question that can teach it.
+            for conceptId in question.conceptIds { counts[conceptId, default: 0] += 1 }
+        }
+        return counts
+    }
+
+    /// Read the published timetable for the student's year.
+    ///
+    /// Both documents are admin-authored catalogues the app already caches, so
+    /// this costs no network call — and an exam nobody published stays nil
+    /// rather than becoming a guess.
+    private func loadNextExam(audience: StudentAudience) async {
+        guard let store,
+              let universities = try? await store.catalogue(key: SyncEngine.universitiesKey),
+              let schedules = try? await store.catalogue(key: SyncEngine.moduleSchedulesKey)
+        else { return }
+
+        let sessions = StudentSchedule.sessions(
+            universities: try? JSONSerialization.jsonObject(with: universities),
+            schedules: try? JSONSerialization.jsonObject(with: schedules),
+            audience: audience
+        )
+
+        guard let next = StudentSchedule.nextExam(sessions) else { return }
+        daysToExam = next.daysAway
+        examTitle = next.session.title.isEmpty ? next.session.label : next.session.title
+    }
+
+    /// Prerequisite edges, from the shared concept graph.
+    ///
+    /// `source prerequisite_of target` means the source must come first, so it
+    /// is the target that carries the dependency.
+    private func loadPrerequisites() async -> [String: [String]] {
+        guard let api,
+              let graph = try? await api.state(ConceptGraph.self, key: ConceptGraph.key),
+              let relations = graph.value?.relations
+        else { return [:] }
+
+        var edges: [String: [String]] = [:]
+        for relation in relations where relation.type == "prerequisite_of" {
+            edges[relation.targetId, default: []].append(relation.sourceId)
+        }
+        return edges
     }
 
     /// Admin-authored, so hyphenated and read from the shared catalogue.

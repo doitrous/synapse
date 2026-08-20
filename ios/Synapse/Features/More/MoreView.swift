@@ -20,7 +20,7 @@ struct MoreView: View {
             List {
                 Section(strings("Study")) {
                     link("Adaptive Study", "wand.and.stars") {
-                        AdaptiveStudyView(api: api, sync: sync, audience: audience)
+                        AdaptiveStudyView(api: api, sync: sync, store: store, audience: audience)
                     }
                     link("Calendar", "calendar") {
                         CalendarView(store: store, sync: sync, audienceStore: audienceStore, api: api)

@@ -12,8 +12,8 @@ struct AdaptiveStudyView: View {
     @State private var tab = Panel.today
     @Environment(\.strings) private var strings
 
-    init(api: SynapseAPI, sync: SyncEngine, audience: StudentAudience) {
-        _model = State(wrappedValue: AdaptiveStudyModel(api: api, sync: sync))
+    init(api: SynapseAPI, sync: SyncEngine, store: LocalStore, audience: StudentAudience) {
+        _model = State(wrappedValue: AdaptiveStudyModel(api: api, sync: sync, store: store))
         self.audience = audience
     }
 
@@ -410,12 +410,132 @@ struct AdaptiveStudyView: View {
             }
         }
 
+        programmePanel
+
         // Inside the plan, not in a settings page nobody opens. That is the
         // difference between a caveat and a disclaimer.
         Text(strings(WeeklyPlan.caveat))
             .font(Theme.ui(12))
             .foregroundStyle(Theme.ink3)
             .padding(.horizontal, 4)
+    }
+
+    /// The compressed programme, when an exam is close enough to warrant one.
+    @ViewBuilder private var programmePanel: some View {
+        if let programme = model.crashProgramme() {
+            panel(strings("\(programme.band.days)-day programme")) {
+                VStack(alignment: .leading, spacing: 12) {
+                    HStack(alignment: .firstTextBaseline) {
+                        Text(strings(programme.band.emphasis))
+                            .font(Theme.ui(13))
+                            .foregroundStyle(Theme.ink2)
+                        Spacer(minLength: 8)
+                        Text(strings(programme.band.assessmentCadence))
+                            .font(Theme.ui(11).weight(.medium))
+                            .foregroundStyle(Theme.ink3)
+                            .padding(.horizontal, 7)
+                            .padding(.vertical, 3)
+                            .overlay(Capsule().stroke(Theme.line, lineWidth: 1))
+                    }
+
+                    // The claim narrows itself as coverage falls. A fixed
+                    // sentence here is how a student ends up believing they
+                    // have covered a syllabus they have never seen.
+                    Text(strings(programme.claim))
+                        .font(Theme.ui(13.5))
+                        .foregroundStyle(Theme.ink)
+
+                    if !programme.unreachableGroups.isEmpty {
+                        caveat(strings("No approved questions exist for \(percent(programme.unreachableWeight)) of your blueprint by weight: ")
+                               + programme.unreachableGroups.prefix(4).map(\.groupLabel).joined(separator: ", ")
+                               + strings(". These are listed rather than left out silently."))
+                    }
+
+                    if programme.emptyStudyDays > 0 {
+                        // Spelt out rather than left to automatic inflection:
+                        // that markup only resolves inside a `Text` literal,
+                        // and this is a computed string.
+                        let days = programme.emptyStudyDays
+                        caveat(days == 1
+                               ? strings("1 study day has nothing to schedule — the question bank ran out before the programme did.")
+                               : "\(days) " + strings("study days have nothing to schedule — the question bank ran out before the programme did."))
+                    }
+
+                    Text(strings("First two weeks"))
+                        .font(Theme.ui(12).weight(.semibold))
+                        .foregroundStyle(Theme.ink2)
+
+                    VStack(alignment: .leading, spacing: 6) {
+                        ForEach(programme.days.prefix(14)) { day in
+                            programmeDay(day)
+                        }
+                    }
+
+                    caveat(strings(CrashProgramme.caveat))
+                }
+            }
+        } else {
+            panel(strings("Crash programme")) {
+                // Three different reasons produce no programme, and telling a
+                // student the wrong one is worse than telling them nothing: a
+                // missing blueprint is something an administrator can fix, and
+                // "your exam is far away" hides that it needs fixing.
+                Text(strings(noProgrammeReason))
+                    .font(Theme.ui(13))
+                    .foregroundStyle(Theme.ink2)
+            }
+        }
+    }
+
+    private var noProgrammeReason: String {
+        guard let days = model.daysToExam else {
+            return "No exam is published on your timetable, so nothing here is going to invent a countdown."
+        }
+        if model.blueprint.isEmpty {
+            return "Your exam blueprint has not been published for your year yet. A compressed programme is built against that blueprint, and without one there is nothing honest to compress."
+        }
+        if model.config.crashHorizon(daysToExam: days) == nil {
+            return "Your exam is far enough away that an ordinary weekly plan serves you better."
+        }
+        return "There is not enough published content behind your blueprint to build a programme from."
+    }
+
+    private func programmeDay(_ day: CrashDay) -> some View {
+        HStack(alignment: .top, spacing: 8) {
+            Text("\(day.dayNumber)")
+                .font(Theme.numeric(11))
+                .foregroundStyle(Theme.ink3)
+                .frame(width: 20, alignment: .leading)
+
+            Text(strings(day.kind.label))
+                .font(Theme.ui(10).weight(.semibold))
+                .foregroundStyle(day.kind == .mock ? Theme.primaryStrong : Theme.ink3)
+                .padding(.horizontal, 6)
+                .padding(.vertical, 2)
+                .background(day.kind == .mock ? Theme.primaryTint : Color.clear)
+                .overlay(Capsule().stroke(day.kind == .mock ? Color.clear : Theme.line, lineWidth: 1))
+                .clipShape(Capsule())
+
+            Text(day.labels.isEmpty ? strings(day.reason) : day.labels.joined(separator: " · "))
+                .font(Theme.ui(12))
+                .foregroundStyle(Theme.ink2)
+                .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .padding(.vertical, 6)
+        .padding(.horizontal, 10)
+        .background(day.kind == .study ? Theme.surface2 : Color.clear)
+        .overlay(
+            RoundedRectangle(cornerRadius: Theme.Radius.lg)
+                .strokeBorder(Theme.line,
+                              style: StrokeStyle(lineWidth: 1, dash: day.kind == .study ? [] : [4, 3]))
+        )
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+    }
+
+    private func caveat(_ text: String) -> some View {
+        Text(text)
+            .font(Theme.ui(12))
+            .foregroundStyle(Theme.ink3)
     }
 
     @ViewBuilder private func taskRow(_ task: PlanTask) -> some View {
