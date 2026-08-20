@@ -2022,9 +2022,45 @@ git commit -m "Prove the session works before telling anyone they are signed in"
 - Consumes: `LedgerItem`, `AttemptRecord`.
 - Produces: `LocalStore` with `suspend fun putDocument(key, json, serverUpdatedAt)`, `suspend fun document(key): StoredDocument?`, `fun documentFlow(key): Flow<StoredDocument?>`, `suspend fun replaceLedger(items: List<LedgerItem>)`, `fun ledgerItems(kind: ContentKind): Flow<List<LedgerItem>>`, `suspend fun search(query: String, kind: ContentKind?): List<LedgerItem>`, `suspend fun enqueue(key: String, json: String, savedAt: Instant)`, `suspend fun outbox(): List<OutboxEntry>`, `suspend fun clearOutbox(id: Long)`, `fun outboxCount(): Flow<Int>`.
 
-- [ ] **Step 1: Add Room and Robolectric**
+- [ ] **Step 1: Add Room, KSP and Robolectric**
 
-Room needs a `Context`, so these run as JVM unit tests under Robolectric with an in-memory database rather than as instrumented tests — no emulator required, which keeps the suite runnable in one command.
+Room generates code, so this is the task that first needs an annotation
+processor. Add to `android/gradle/libs.versions.toml` — these exact versions,
+checked against Maven Central and against the pinned toolchain:
+
+```toml
+[versions]
+ksp = "2.2.10-2.0.2"
+room = "2.8.4"
+robolectric = "4.16.1"
+
+[libraries]
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
+
+[plugins]
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+```
+
+`room-compiler` goes on the `ksp(...)` configuration, not `implementation`.
+
+**The KSP version is not free to choose.** KSP releases as
+`<kotlin version>-<ksp version>`, and the Kotlin half must match the compiler
+exactly: `2.2.10-2.0.2` is the build for Kotlin 2.2.10. KSP's newer standalone
+`2.3.x` line targets later Kotlin releases and is not a drop-in here. If KSP
+fails to resolve or refuses the compiler version, stop and report it — do not
+move Kotlin off 2.2.10 to satisfy it.
+
+Room needs a `Context`, so these run as JVM unit tests under Robolectric with
+an in-memory database rather than as instrumented tests — no emulator
+required, which keeps the suite runnable in one command. Robolectric needs
+`testOptions { unitTests.isIncludeAndroidResources = true }` in
+`android/app/build.gradle.kts`. If Robolectric 4.16.1 has no image for API 36,
+pin the tests to the highest SDK it does support with a `robolectric.properties`
+file rather than lowering the app's `compileSdk`, and say which one in your
+report.
 
 - [ ] **Step 2: Write the failing test**
 
@@ -2047,7 +2083,27 @@ Write each out in full when implementing.
 
 - [ ] **Step 3: Implement**
 
-Schema: `documents(key PK, json, serverUpdatedAt, savedAt)`, `ledger_items(id PK, kind, subjectId, title, status, updatedAt, raw, universityIds, yearIds)`, `ledger_fts` as an `@Fts4(contentEntity = LedgerItemEntity::class)` over `title` and `searchText`, `outbox(id PK autogenerate, key, json, savedAt, attempts)`.
+Schema: `documents(key PK, json, serverUpdatedAt, savedAt)`,
+`ledger_items(id PK, kind, subjectId, title, searchText, status, updatedAt, raw, universityIds, yearIds)`,
+`ledger_fts` as an `@Fts4(contentEntity = LedgerItemEntity::class)` over
+`title` and `searchText`, `outbox(id PK autogenerate, key, json, savedAt, attempts)`.
+
+`searchText` is a real column on `ledger_items`, not a computed one — an FTS4
+content entity indexes columns the content table actually has. `LedgerItem`
+already carries it (`core/model/ContentItem.kt:79`); it exists for this index
+and is never serialized back to the server.
+
+Timestamps are `java.time.Instant`, as everywhere else in this app. Room needs
+a `@TypeConverter`: store them as epoch milliseconds, one converter class for
+the whole database, so a stamp written by one table reads the same from
+another.
+
+**Do not enable `fallbackToDestructiveMigration`, here or later.** Two of
+these tables are a cache and can be refetched, but `outbox` is not: it holds
+work a student has done and the server has not yet received. Dropping it on a
+schema change loses that work silently, on exactly the devices most likely to
+be carrying a backlog. Set `exportSchema = true` and commit the schema JSON so
+a real migration can be written when the schema next moves.
 
 The cache lives in app-private internal storage. Do not add `allowBackup`; Task 1 already set it false.
 
