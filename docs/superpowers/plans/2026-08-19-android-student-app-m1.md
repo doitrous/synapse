@@ -2858,6 +2858,7 @@ git commit -m "Report what was skipped as skipped"
 
 **Files:**
 - Create: `android/app/src/main/java/com/synapse/android/core/practical/PracticalProgress.kt`
+- Create: `android/app/src/main/java/com/synapse/android/core/practical/PracticalCatalogue.kt`
 - Create: `android/app/src/main/java/com/synapse/android/feature/practical/PracticalListScreen.kt`
 - Create: `android/app/src/main/java/com/synapse/android/feature/practical/PracticalReaderScreen.kt`
 - Create: `android/app/src/main/java/com/synapse/android/feature/practical/PracticalViewModel.kt`
@@ -2970,11 +2971,109 @@ invent a `"practical"` surface; nothing on the web would count it.
 @Test fun `a case's decisions stay hidden until revealed`()
 @Test fun `a lab set's answers stay hidden until revealed`()
 @Test fun `a station with no mark scheme still opens`()
+@Test fun `a published skills checklist lands on the stations tab, not the skills tab`() {
+    // The two are different things wearing the same word. A checklist is an
+    // authored station; the Skills tab is the bundled curriculum list.
+}
+@Test fun `an imaging item and a lab item share the lab tab`()
+@Test fun `an unpublished practical does not appear`()
+@Test fun `the bundled skill ids match the ones the web stores status under`()
+@Test fun `an oral question writes neither progress nor an attempt`()
 ```
 
-- [ ] **Step 3: Implement**
+- [ ] **Step 3: Implement the list**
 
-- [ ] **Step 4: Wire Practical into the shell**
+`PracticalListScreen` is five tabs, each with a count, in this order and with
+this copy verbatim (`src/pages/student/Practical.tsx:530-541`):
+
+| Tab | Label | Content |
+|---|---|---|
+| `osce` | OSCE stations | live |
+| `cases` | Clinical cases | live |
+| `oral` | Oral questions | bundled |
+| `skills` | Skills | bundled |
+| `lab` | Lab & imaging | live |
+
+**The five authored types collapse into three live tabs**, and getting this
+routing wrong strands published content on a tab that never renders it
+(`src/lib/useLivePracticals.ts:74-86`):
+
+- `OSCE station` and `Skills checklist` → the **stations** tab. A checklist is
+  a station run without an actor, so it joins the same list rather than having
+  nowhere to appear; it carries a "Checklist" badge (`Practical.tsx:169`).
+- `Clinical case` → the **cases** tab.
+- `Lab interpretation` and `Imaging interpretation` → the **lab** tab, which
+  distinguishes them by icon only.
+
+Only items with `status == "Published"` appear. The web additionally seeds
+demo stations, cases and lab sets when no backend is configured, and
+suppresses them the moment one is (`useLivePracticals.ts:16-25`). **Android
+has no such mode and must never carry those seeds** — the whole point of that
+guard is that invented attempt counts and invented best scores must not reach
+a real student.
+
+**Two of the five tabs are not published content at all**, and this is the
+distinction most likely to be got wrong here:
+
+- **Skills** is a fixed twelve-item curriculum checklist under three
+  categories — Examination, Procedures, Communication
+  (`src/data/practical.ts:68-81`). It is *not* the authored `Skills checklist`
+  station type, despite the name. Bundle the twelve ids and names in
+  `core/practical/PracticalCatalogue.kt`; the student owns only the status.
+- **Oral questions** is ten viva questions with model answers
+  (`src/data/practical.ts:100-132`), grouped by subject, each revealed on
+  demand. Read-only: nothing here writes progress or an attempt.
+
+Bundle both verbatim from `src/data/practical.ts`, ids included — the ids are
+what `synapse.practical.progress.v1` keys skill status by, so an invented id
+records a student's status where no client will ever read it. **State in the
+report that these two lists are a second copy that will drift when the web's
+changes**, and do not invent a sync mechanism for them in this milestone.
+
+- [ ] **Step 4: Implement the reader**
+
+One `PracticalReaderScreen`; `type` decides what it shows.
+
+**Station** (`PracticalRunner.tsx:166-408`) — two tabs, `Candidate` and
+`Examiner & Actor`. The candidate tab opens with the examiner warning, whose
+copy is in `src/components/practical/ExaminerWarning.tsx` and must be carried
+over, because the mark scheme sitting behind a second tab is the entire reason
+the station teaches anything. Then the candidate instructions. The examiner
+tab holds the actor brief and the tickable mark scheme.
+
+The clock **counts down** from `minutes * 60` (default 8), and the attempt
+records the elapsed time — `minutes * 60 - remaining`, not the reading on the
+clock.
+
+Finishing is guarded by a `finished` flag so it cannot be banked twice, and
+writes `correct = null`. The student ticked their own mark scheme, so the
+score is self-assessment; recording it as correct or wrong would put a mark
+nobody gave into their accuracy. Session id is `station-{itemId}-{base36
+millis}` (`PracticalRunner.tsx:216`).
+
+A station with no mark scheme still opens — it shows the instructions and no
+ticks, rather than an error.
+
+**Case** (`:410-536`) — staged decisions. Each decision's options stay hidden
+until revealed, and the debrief is reachable only once the last one has been.
+A case revealed on sight is a case that taught nothing.
+
+**Lab and imaging** (`:538-722`) — a question list whose answers are hidden
+until revealed, same reasoning.
+
+**Oral** — grouped by subject, collapsible, with "Reveal model answer" per
+question. **Skills** — the three categories, each row cycling
+`not-started -> practised -> ready` on tap, under the headline
+`{ready} / {total}` and this copy verbatim (`Practical.tsx:342`):
+
+> This is your own record of what you have practised. A formal sign-off is
+> given by an assessor and is not recorded in Connect Cortex.
+
+That sentence is load-bearing, not decoration: this product has no assessor
+identity, and a screen that implies otherwise tells a student they are signed
+off for a procedure when nobody has watched them do it.
+
+- [ ] **Step 5: Wire Practical into the shell**
 
 The `practical` route in `RootScreen.kt` is still the stub Task 12 left, so
 without this step everything above is unreachable. Replace it with
@@ -2988,7 +3087,7 @@ This is the last screen in milestone 1: after this step no route in the shell
 is a stub, and every screen the milestone builds is reachable from the nav
 graph.
 
-- [ ] **Step 5: Run and commit**
+- [ ] **Step 6: Run and commit**
 
 ```bash
 git add android
