@@ -27,11 +27,29 @@ concurrency:
 jobs:
   test:
     name: Build and test
-    runs-on: macos-15
+    # Must carry the iOS 26 SDK or newer — see the preflight step for why.
+    runs-on: macos-26
     timeout-minutes: 45
 
     steps:
       - uses: actions/checkout@v4
+
+      # `Design/Glass.swift` calls `glassEffect` and `GlassEffectContainer`
+      # behind `if #available(iOS 26.0, *)`. That gates *runtime*, not
+      # compilation: the symbols still have to exist in the SDK being built
+      # against, so an older Xcode fails with "cannot find 'glassEffect' in
+      # scope" — thousands of lines deep in the build log, saying nothing about
+      # the real cause. Fail here instead, with the reason.
+      - name: Preflight — check the SDK is new enough
+        run: |
+          set -euo pipefail
+          xcodebuild -version
+          sdk=$(xcrun --sdk iphonesimulator --show-sdk-version)
+          echo "iOS simulator SDK: $sdk"
+          if [ "${sdk%%.*}" -lt 26 ]; then
+            echo "::error::This app compiles against iOS 26 APIs, so it needs the iOS 26 SDK or newer. This runner has $sdk. Move the job to a newer macOS runner image."
+            exit 1
+          fi
 
       # Packages are cloned into the workspace rather than the default spot
       # inside DerivedData, which is the only way to give the cache a stable
