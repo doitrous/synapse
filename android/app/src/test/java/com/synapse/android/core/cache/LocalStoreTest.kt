@@ -7,10 +7,16 @@ import com.synapse.android.core.model.ContentKind
 import com.synapse.android.core.model.ContentStatus
 import com.synapse.android.core.model.LedgerItem
 import java.time.Instant
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withTimeout
 import org.junit.After
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -55,6 +61,29 @@ class LocalStoreTest {
         searchText = searchText,
     )
 
+    /**
+     * Subscribes to this flow *before* [write] runs, waits for the initial
+     * value to prove a collector is actually attached, runs [write], then
+     * waits for a value matching [until] to arrive on that same
+     * subscription. Returns everything the one collector saw.
+     *
+     * This is the difference between proving a flow pushes updates to an
+     * active collector and proving a fresh read afterwards would see the
+     * new value — the latter passes even for a non-reactive snapshot.
+     */
+    private suspend fun <T> Flow<T>.collectAfter(write: suspend () -> Unit, until: (T) -> Boolean): List<T> =
+        coroutineScope {
+            val seen = mutableListOf<T>()
+            val job = launch { collect { seen.add(it) } }
+            withTimeout(5_000) { while (seen.isEmpty()) delay(5) }
+
+            write()
+
+            withTimeout(5_000) { while (seen.none(until)) delay(5) }
+            job.cancel()
+            seen
+        }
+
     @Test fun `a document round-trips with its server stamp`() = runBlocking {
         val serverStamp = Instant.parse("2026-03-01T12:00:00Z")
 
@@ -74,11 +103,16 @@ class LocalStoreTest {
             ),
         )
 
-        // The server stops returning q1 on the next sync.
-        store.replaceLedger(listOf(ledgerItem("q2", "Second question", "cough")))
+        val seen = store.ledgerItems(ContentKind.QUESTION).collectAfter(
+            write = {
+                // The server stops returning q1 on the next sync.
+                store.replaceLedger(listOf(ledgerItem("q2", "Second question", "cough")))
+            },
+            until = { it.map { item -> item.id } == listOf("q2") },
+        )
 
-        val remaining = store.ledgerItems(ContentKind.QUESTION).first()
-        assertEquals(listOf("q2"), remaining.map { it.id })
+        assertEquals(listOf("q1", "q2"), seen.first().map { it.id }.sorted())
+        assertEquals(listOf("q2"), seen.last().map { it.id })
     }
 
     @Test fun `search finds a question by a word in its stem`() = runBlocking {
@@ -104,6 +138,43 @@ class LocalStoreTest {
         assertEquals(listOf("a1"), results.map { it.id })
     }
 
+    @Test fun `a query containing a double quote does not crash`() = runBlocking {
+        store.replaceLedger(listOf(ledgerItem("q1", "Asthma", "a patient presents with wheeze")))
+
+        val results = store.search("\"wheeze", null)
+
+        assertEquals(listOf("q1"), results.map { it.id })
+    }
+
+    @Test fun `the words AND, OR and NOT are searched for, not obeyed`() = runBlocking {
+        store.replaceLedger(
+            listOf(
+                ledgerItem("q1", "Combination therapy", "salt and pepper together"),
+                ledgerItem("q2", "Unrelated", "sugar with cinnamon"),
+            ),
+        )
+
+        val results = store.search("AND", null)
+
+        assertEquals(listOf("q1"), results.map { it.id })
+    }
+
+    @Test fun `a partial word finds the whole one`() = runBlocking {
+        store.replaceLedger(listOf(ledgerItem("q1", "Asthma", "presents with sudden wheezing")))
+
+        val results = store.search("wheez", null)
+
+        assertEquals(listOf("q1"), results.map { it.id })
+    }
+
+    @Test fun `a query of only punctuation returns nothing`() = runBlocking {
+        store.replaceLedger(listOf(ledgerItem("q1", "Asthma", "presents with wheeze")))
+
+        val results = store.search("???", null)
+
+        assertTrue(results.isEmpty())
+    }
+
     @Test fun `an outbox entry survives being read`() = runBlocking {
         store.enqueue("synapse-notes-v1", """{"text":"hello"}""", Instant.parse("2026-02-01T00:00:00Z"))
 
@@ -126,11 +197,13 @@ class LocalStoreTest {
     }
 
     @Test fun `outboxCount emits when a write is queued`() = runBlocking {
-        assertEquals(0, store.outboxCount().first())
+        val seen = store.outboxCount().collectAfter(
+            write = { store.enqueue("key-1", "{}", Instant.now()) },
+            until = { it == 1 },
+        )
 
-        store.enqueue("key-1", "{}", Instant.now())
-
-        assertEquals(1, store.outboxCount().first())
+        assertEquals(0, seen.first())
+        assertEquals(1, seen.last())
     }
 
     @Test fun `a write queued while a drain is in flight is not lost`() = runBlocking {

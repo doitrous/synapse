@@ -9,6 +9,7 @@ import com.synapse.android.core.model.ContentKind
 import com.synapse.android.core.model.LedgerItem
 import java.time.Instant
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 
 /** A cached document, as it sits on the device: the bytes, plus both stamps needed to reason about staleness. */
@@ -59,7 +60,8 @@ class LocalStore(private val database: CortexDatabase) {
 
     suspend fun document(key: String): StoredDocument? = documentDao.get(key)?.toDomain()
 
-    fun documentFlow(key: String): Flow<StoredDocument?> = documentDao.flow(key).map { it?.toDomain() }
+    fun documentFlow(key: String): Flow<StoredDocument?> =
+        documentDao.flow(key).map { it?.toDomain() }.distinctUntilChanged()
 
     // -- Ledger ----------------------------------------------------------
 
@@ -78,10 +80,22 @@ class LocalStore(private val database: CortexDatabase) {
     }
 
     fun ledgerItems(kind: ContentKind): Flow<List<LedgerItem>> =
-        ledgerDao.byKind(kind.wire).map { entities -> entities.map { it.toDomain() } }
+        ledgerDao.byKind(kind.wire).map { entities -> entities.map { it.toDomain() } }.distinctUntilChanged()
 
-    suspend fun search(query: String, kind: ContentKind?): List<LedgerItem> =
-        ledgerDao.search(query, kind?.wire).map { it.toDomain() }
+    /**
+     * Free-text search, scoped to [kind] when given.
+     *
+     * [query] is student-typed input, not a trusted FTS4 query string — a
+     * stray `"`, a bare `*`, or a word FTS4 treats as an operator (`AND`,
+     * `OR`, `NOT`, `NEAR`) would otherwise throw `malformed MATCH
+     * expression` or silently change what the search means. [ftsQueryFor]
+     * tokenizes and re-quotes the input so every token is searched for
+     * literally, never interpreted as syntax.
+     */
+    suspend fun search(query: String, kind: ContentKind?): List<LedgerItem> {
+        val ftsQuery = ftsQueryFor(query) ?: return emptyList()
+        return ledgerDao.search(ftsQuery, kind?.wire).map { it.toDomain() }
+    }
 
     // -- Outbox ------------------------------------------------------------
 
@@ -94,7 +108,31 @@ class LocalStore(private val database: CortexDatabase) {
     /** Deletes exactly one queued write. Never a blanket "clear everything read" — see [OutboxDao.deleteById]. */
     suspend fun clearOutbox(id: Long) = outboxDao.deleteById(id)
 
-    fun outboxCount(): Flow<Int> = outboxDao.count()
+    fun outboxCount(): Flow<Int> = outboxDao.count().distinctUntilChanged()
+}
+
+/**
+ * Turns student-typed [query] text into a safe FTS4 `MATCH` expression, or
+ * `null` if nothing searchable survives.
+ *
+ * Splits on every non-alphanumeric character, so punctuation never reaches
+ * SQLite. Each surviving token is wrapped in double quotes — a quoted
+ * single-term phrase is searched for literally in FTS4, which is what
+ * neutralizes reserved words like `AND`/`OR`/`NOT`/`NEAR` and any character
+ * that would otherwise be read as query syntax. A double quote inside a
+ * token is doubled per FTS4's own escaping rule; the alphanumeric split
+ * above means a token can never actually contain one today, but the
+ * escaping stays in place in case that stops being true. The final token
+ * gets a trailing `*` inside its quotes, which FTS4 reads as a prefix
+ * match — a search box is expected to find "wheezing" from "wheez".
+ */
+private fun ftsQueryFor(query: String): String? {
+    val tokens = query.split(Regex("[^\\p{Alnum}]+")).filter { it.isNotEmpty() }
+    if (tokens.isEmpty()) return null
+    return tokens.mapIndexed { index, token ->
+        val escaped = token.replace("\"", "\"\"")
+        if (index == tokens.lastIndex) "\"$escaped*\"" else "\"$escaped\""
+    }.joinToString(" ")
 }
 
 private fun DocumentEntity.toDomain() = StoredDocument(
