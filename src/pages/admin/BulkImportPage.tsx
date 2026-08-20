@@ -85,7 +85,10 @@ function fingerprint(file: File, kind: ContentKind) {
 
 export function BulkImportPage() {
   const params = useParams()
-  const kind: ContentKind = ['question', 'article', 'practical', 'resource', 'deck'].includes(params.kind ?? '') ? params.kind as ContentKind : 'question'
+  // Read from the schema map rather than a list written out here: a hand-kept
+  // list forgets a kind sooner or later, and the failure is silent — the page
+  // falls back to questions and would import the wrong thing entirely.
+  const kind: ContentKind = Object.hasOwn(IMPORT_SCHEMAS, params.kind ?? '') ? params.kind as ContentKind : 'question'
   const schema = IMPORT_SCHEMAS[kind]
   const inputRef = useRef<HTMLInputElement>(null)
   const [step, setStep] = useState(0)
