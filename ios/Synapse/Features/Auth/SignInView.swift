@@ -78,9 +78,9 @@ struct SignInView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("Synapse")
-                .font(Theme.display(32))
-                .foregroundStyle(Theme.ink)
+            // The artwork rather than the name set in a typeface: the O in
+            // "Connect" is the mark, so the two cannot be separated.
+            Wordmark(height: 34)
             Text("Your library, question bank, and schedule in one place.")
                 .font(Theme.ui(15))
                 .foregroundStyle(Theme.ink2)
@@ -125,7 +125,7 @@ struct SignInView: View {
             Task { await submitCurrent() }
         } label: {
             HStack(spacing: 8) {
-                if auth.isWorking { ProgressView().tint(Theme.onAccent) }
+                if auth.isWorking { ProgressView().tint(Theme.onPrimary) }
                 Text(mode.title)
                     .font(Theme.ui(16, weight: 600))
             }
@@ -133,8 +133,8 @@ struct SignInView: View {
             // 44pt is the smallest target that is comfortably tappable; the
             // web app holds the same floor on mobile.
             .frame(height: 48)
-            .background(canSubmit ? Theme.accent : Theme.inset)
-            .foregroundStyle(canSubmit ? Theme.onAccent : Theme.ink3)
+            .background(canSubmit ? Theme.primary : Theme.inset)
+            .foregroundStyle(canSubmit ? Theme.onPrimary : Theme.ink3)
             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
         }
         .disabled(!canSubmit)
@@ -146,10 +146,10 @@ struct SignInView: View {
             .foregroundStyle(Theme.ink)
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(12)
-            .background(Theme.accentTint)
+            .background(Theme.primaryTint)
             .overlay(
                 RoundedRectangle(cornerRadius: Theme.Radius.md)
-                    .stroke(Theme.accentLine, lineWidth: 1)
+                    .stroke(Theme.primaryLine, lineWidth: 1)
             )
             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.md))
     }

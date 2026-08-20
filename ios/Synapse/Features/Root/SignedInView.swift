@@ -11,6 +11,16 @@ struct SignedInView: View {
 
     @State private var container: Container?
     @State private var failure: String?
+    @State private var strings = Localisation()
+    @State private var theme = ThemeStore()
+    /// One assistant for the app: the quota is a single server fact, and a
+    /// conversation should survive moving between surfaces.
+    @State private var assistant = AssistantModel()
+    /// Which tab is showing, so a screen settles on arrival rather than on
+    /// every redraw.
+    @State private var tab = Destination.today
+
+    enum Destination: String, Hashable { case today, library, questions, resources, more }
 
     var body: some View {
         Group {
@@ -19,16 +29,34 @@ struct SignedInView: View {
             } else if let failure {
                 EmptyStateView(
                     symbol: "exclamationmark.triangle",
-                    title: "Synapse could not start",
+                    title: "Connect Cortex could not start",
                     detail: failure
                 )
             } else {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(Theme.paper)
             }
         }
-        .task { await start() }
+        // The whole app, in the student's language and reading in its
+        // direction. Applied once at the root: SwiftUI lays out in leading and
+        // trailing rather than left and right, so flipping this flips every
+        // stack, list and navigation bar beneath it at once.
+        .environment(\.strings, strings)
+        .environment(\.themeStore, theme)
+        .environment(\.assistant, assistant)
+        // The palette is read through static members, so a change repaints by
+        // rebuilding the tree beneath rather than by observation.
+        .id(theme.appearance)
+        .environment(\.layoutDirection, strings.layoutDirection)
+        .environment(\.locale, strings.language.locale)
+        .task {
+            await start()
+            await strings.load()
+            // Asked once, at the root: every entry point checks the answer
+            // before drawing itself.
+            await assistant.loadStatus()
+        }
     }
 
     /// Five tabs, deliberately.
@@ -40,23 +68,23 @@ struct SignedInView: View {
     private func tabs(_ container: Container) -> some View {
         let audience = container.audienceStore.audience
 
-        return TabView {
-            Tab("Today", systemImage: "sun.max") {
+        return TabView(selection: $tab) {
+            Tab(strings("Today"), systemImage: "sun.max", value: Destination.today) {
                 DashboardView(
                     store: container.store, sync: container.sync,
                     user: user, auth: auth, audienceStore: container.audienceStore
                 )
             }
-            Tab("Library", systemImage: "books.vertical") {
-                LibraryView(store: container.store, sync: container.sync, audience: audience)
+            Tab(strings("Library"), systemImage: "books.vertical", value: Destination.library) {
+                LibraryView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
-            Tab("Questions", systemImage: "questionmark.circle") {
+            Tab(strings("Questions"), systemImage: "questionmark.circle", value: Destination.questions) {
                 QuestionBankView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
-            Tab("Resources", systemImage: "folder") {
+            Tab(strings("Resources"), systemImage: "folder", value: Destination.resources) {
                 ResourcesView(store: container.store, sync: container.sync, audience: audience, api: auth.api)
             }
-            Tab("More", systemImage: "square.grid.2x2") {
+            Tab(strings("More"), systemImage: "square.grid.2x2", value: Destination.more) {
                 MoreView(
                     store: container.store, sync: container.sync,
                     audience: audience, audienceStore: container.audienceStore,
@@ -64,7 +92,10 @@ struct SignedInView: View {
                 )
             }
         }
-        .tint(Theme.accent)
+        .tint(Theme.primary)
+        // Eight points on arrival, keyed on the destination: the shell stays
+        // put and only the page beneath it re-settles.
+        .screenIn(tab)
         // Rebuild the surfaces when the cohort resolves, so a student who set
         // their year a moment ago is not still looking at everyone's content.
         .id(audience)
@@ -75,6 +106,8 @@ struct SignedInView: View {
         do {
             let store = try LocalStore(path: LocalStore.defaultURL().path)
             let sync = SyncEngine(api: auth.api, store: store)
+            strings = Localisation(api: auth.api, sync: sync)
+            assistant = AssistantModel(api: auth.api)
             let audienceStore = AudienceStore(api: auth.api, store: store, sync: sync)
             container = Container(store: store, sync: sync, audienceStore: audienceStore)
 
@@ -99,6 +132,9 @@ struct SignedInView: View {
 
 /// Account, sync state, and signing out.
 struct AccountView: View {
+    @Environment(\.strings) private var strings
+    @Environment(\.themeStore) private var theme
+
     let user: SessionUser
     let auth: AuthModel
     let sync: SyncEngine
@@ -118,6 +154,44 @@ struct AccountView: View {
 
                 cohort
 
+                Section {
+                    Picker(strings("Theme"), selection: Binding(
+                        get: { theme.appearance },
+                        set: { theme.use($0) }
+                    )) {
+                        ForEach(AppTheme.allCases, id: \.self) {
+                            Text(strings($0.label)).tag($0)
+                        }
+                    }
+                    .pickerStyle(.menu)
+                } header: {
+                    Text(strings("Appearance"))
+                } footer: {
+                    Text(strings("Warm is the paper-coloured ground. Light and dark are the same tokens on a cooler one."))
+                        .font(Theme.ui(12))
+                }
+                .listRowBackground(Theme.surface)
+
+                Section {
+                    // In each language's own name. Someone looking for Arabic
+                    // is looking for "العربية", not for the English word for it.
+                    Picker(strings("Language"), selection: Binding(
+                        get: { strings.language },
+                        set: { chosen in Task { await strings.set(chosen) } }
+                    )) {
+                        ForEach(AppLanguage.allCases, id: \.self) {
+                            Text($0.ownName).tag($0)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                } header: {
+                    Text(strings("Language"))
+                } footer: {
+                    Text(strings("Applies everywhere, and follows you to the website."))
+                        .font(Theme.ui(12))
+                }
+                .listRowBackground(Theme.surface)
+
                 Section("Sync") {
                     row("Status", statusText)
                     if sync.pendingUploads > 0 {
@@ -129,7 +203,7 @@ struct AccountView: View {
                     Button("Refresh now") {
                         Task { await sync.refresh() }
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                 }
                 .listRowBackground(Theme.surface)
 
@@ -183,7 +257,7 @@ struct AccountView: View {
                         )
                     }
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
                 .disabled(university.isEmpty || year.isEmpty)
             }
         } header: {

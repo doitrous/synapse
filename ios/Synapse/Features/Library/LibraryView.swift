@@ -8,7 +8,24 @@ import SwiftUI
 /// those a student wants depends entirely on what they sat down to do.
 struct LibraryView: View {
     @State private var model: LibraryModel
+    @State private var library: UserLibrary
+    @State private var files: ResourceFileStore
+    /// A source a citation asked to open, and the page it named.
+    @State private var openingSource: SourceRequest?
+
+    /// Where a citation's "open at this page" ends up.
+    private var openSource: (String, Int?) -> Void {
+        { resourceId, page in openingSource = .init(resourceId: resourceId, page: page) }
+    }
     let sync: SyncEngine
+    let api: SynapseAPI
+
+    /// A document a citation pointed at.
+    struct SourceRequest: Identifiable, Equatable {
+        let resourceId: String
+        let page: Int?
+        var id: String { "\(resourceId)#\(page ?? 0)" }
+    }
 
     @State private var view: LibraryView.Mode = .home
     @State private var query = ""
@@ -18,16 +35,19 @@ struct LibraryView: View {
         case browsing(LibraryViewKind)
     }
 
-    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience) {
+    init(store: LocalStore, sync: SyncEngine, api: SynapseAPI, audience: StudentAudience) {
         _model = State(wrappedValue: LibraryModel(store: store, audience: audience))
+        _library = State(wrappedValue: UserLibrary(api: api, sync: sync))
+        _files = State(wrappedValue: ResourceFileStore(api: api))
         self.sync = sync
+        self.api = api
     }
 
     var body: some View {
         NavigationStack {
             Group {
                 if model.isLoading {
-                    ProgressView().tint(Theme.accent)
+                    ProgressView().tint(Theme.primary)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if let reason = model.emptyReason {
                     EmptyStateView(symbol: "books.vertical", title: "Nothing to read yet", detail: reason)
@@ -47,7 +67,28 @@ struct LibraryView: View {
             .navigationBarTitleDisplayMode(.large)
         }
         .searchable(text: $query, prompt: "Search the library")
-        .task { await model.load() }
+        .task {
+            await model.load()
+            await library.load()
+        }
+        // A citation named a document and a page; this is where the student
+        // lands on it.
+        .sheet(item: $openingSource) { request in
+            if let resource = model.resource(request.resourceId) {
+                NavigationStack {
+                    ResourceReaderView(
+                        resource: resource, files: files, api: api, sync: sync,
+                        openAt: request.page
+                    )
+                }
+            } else {
+                EmptyStateView(
+                    symbol: "doc.questionmark",
+                    title: "That source is not here",
+                    detail: "The document this fact cites has not been uploaded to your library yet."
+                )
+            }
+        }
         // The first sync usually finishes after this screen has already loaded
         // an empty cache. Without this the student is told there is nothing to
         // read while the content sits downloaded behind it.
@@ -65,16 +106,16 @@ struct LibraryView: View {
         if !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
             // A search cuts across every view — a student who knows the word
             // does not want to pick a shelf first.
-            SearchResults(model: model, query: query)
+            SearchResults(openSource: openSource, model: model, query: query, library: library)
         } else {
             switch view {
             case .home:
                 StudyChooser(model: model) { kind in view = .browsing(kind) }
             case .browsing(let kind):
                 if kind == .curriculum {
-                    ChapterList(chapters: model.chapters)
+                    ChapterList(openSource: openSource, model: model, library: library, chapters: model.chapters)
                 } else if let division = kind.division {
-                    DivisionBrowser(model: model, division: division, title: kind.label)
+                    DivisionBrowser(openSource: openSource, library: library, model: model, division: division, title: kind.label)
                 }
             }
         }
@@ -123,8 +164,8 @@ private struct ViewTabs: View {
             }
             .frame(maxWidth: .infinity)
             .padding(.vertical, 7)
-            .background(isSelected ? Theme.accentTint : Color.clear)
-            .foregroundStyle(isSelected ? Theme.accentStrong : Theme.ink2)
+            .background(isSelected ? Theme.primaryTint : Color.clear)
+            .foregroundStyle(isSelected ? Theme.primaryStrong : Theme.ink2)
             .clipShape(Capsule())
         }
         .buttonStyle(.plain)
@@ -155,7 +196,7 @@ private struct StudyChooser: View {
                         HStack(alignment: .top, spacing: 14) {
                             Image(systemName: kind.symbol)
                                 .font(.system(size: 18))
-                                .foregroundStyle(Theme.accent)
+                                .foregroundStyle(Theme.primary)
                                 .frame(width: 26)
 
                             VStack(alignment: .leading, spacing: 4) {
@@ -202,6 +243,9 @@ private struct StudyChooser: View {
 
 /// Browsing one division of the taxonomy, a level at a time.
 private struct DivisionBrowser: View {
+    /// Passed down so a citation deep in an article can still open its source.
+    var openSource: ((String, Int?) -> Void)?
+    var library: UserLibrary?
     let model: LibraryModel
     let division: String
     let title: String
@@ -218,7 +262,7 @@ private struct DivisionBrowser: View {
         } else {
             List(roots) { node in
                 NavigationLink {
-                    BranchView(model: model, node: node)
+                    BranchView(openSource: openSource, model: model, library: library, node: node)
                 } label: {
                     BranchRow(model: model, node: node)
                 }
@@ -233,7 +277,10 @@ private struct DivisionBrowser: View {
 
 /// One branch: its sub-branches, then the articles sitting on it.
 private struct BranchView: View {
+    /// Passed down so a citation deep in an article can still open its source.
+    var openSource: ((String, Int?) -> Void)?
     let model: LibraryModel
+    var library: UserLibrary?
     let node: TaxonomyNode
 
     var body: some View {
@@ -246,7 +293,7 @@ private struct BranchView: View {
                 Section {
                     ForEach(children) { child in
                         NavigationLink {
-                            BranchView(model: model, node: child)
+                            BranchView(openSource: openSource, model: model, library: library, node: child)
                         } label: {
                             BranchRow(model: model, node: child)
                         }
@@ -258,9 +305,14 @@ private struct BranchView: View {
                 Section {
                     ForEach(direct) { article in
                         NavigationLink {
-                            ArticleReaderView(article: article)
+                            ArticleReaderView(
+                                article: article, library: library,
+                                lookup: { model.articlesById[$0] },
+                                evidence: model.evidence,
+                                openSource: openSource
+                            )
                         } label: {
-                            ArticleRow(article: article)
+                            ArticleRow(article: article, library: library)
                         }
                         .listRowBackground(Theme.surface)
                     }
@@ -300,6 +352,10 @@ private struct BranchRow: View {
 
 /// The flat chapter list, used by My Curriculum.
 private struct ChapterList: View {
+    /// Passed down so a citation deep in an article can still open its source.
+    var openSource: ((String, Int?) -> Void)?
+    var model: LibraryModel?
+    var library: UserLibrary?
     let chapters: [LibraryChapter]
 
     var body: some View {
@@ -308,9 +364,14 @@ private struct ChapterList: View {
                 Section {
                     ForEach(chapter.articles) { article in
                         NavigationLink {
-                            ArticleReaderView(article: article)
+                            ArticleReaderView(
+                                article: article, library: library,
+                                lookup: { model?.articlesById[$0] },
+                                evidence: model?.evidence ?? .empty,
+                                openSource: openSource
+                            )
                         } label: {
-                            ArticleRow(article: article)
+                            ArticleRow(article: article, library: library)
                         }
                         .listRowBackground(Theme.surface)
                     }
@@ -329,26 +390,39 @@ private struct ChapterList: View {
 }
 
 private struct SearchResults: View {
+    /// Passed down so a citation deep in an article can still open its source.
+    var openSource: ((String, Int?) -> Void)?
     let model: LibraryModel
     let query: String
+    var library: UserLibrary?
+
+    @State private var matches: [Article] = []
 
     var body: some View {
-        let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
-        let matches = model.articlesById.values
-            .filter {
-                $0.title.localizedCaseInsensitiveContains(trimmed)
-                    || $0.summary.localizedCaseInsensitiveContains(trimmed)
+        Group {
+            if matches.isEmpty {
+                ContentUnavailableView.search(text: query)
+            } else {
+                results
             }
-            .sorted { $0.title.localizedCaseInsensitiveCompare($1.title) == .orderedAscending }
+        }
+        // Through the cache's index rather than a scan in memory, so the body
+        // of an article is searched and not only its title.
+        .task(id: query) { matches = await model.search(query) }
+    }
 
-        if matches.isEmpty {
-            ContentUnavailableView.search(text: query)
-        } else {
+    private var results: some View {
+        Group {
             List(matches) { article in
                 NavigationLink {
-                    ArticleReaderView(article: article)
+                    ArticleReaderView(
+                        article: article, library: library,
+                        lookup: { model.articlesById[$0] },
+                        evidence: model.evidence,
+                        openSource: openSource
+                    )
                 } label: {
-                    ArticleRow(article: article)
+                    ArticleRow(article: article, library: library)
                 }
                 .listRowBackground(Theme.surface)
             }
@@ -361,6 +435,7 @@ private struct SearchResults: View {
 
 struct ArticleRow: View {
     let article: Article
+    var library: UserLibrary?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
@@ -379,6 +454,18 @@ struct ArticleRow: View {
                 Label("\(article.readingMinutes) min", systemImage: "clock")
                 if !article.linkedQuestionIds.isEmpty {
                     Label("\(article.linkedQuestionIds.count)", systemImage: "questionmark.circle")
+                }
+                if library?.hasRead(article.id) == true {
+                    Label("Read", systemImage: "checkmark.circle.fill")
+                        .foregroundStyle(Theme.success)
+                }
+                ForEach(library?.tags(on: article.id) ?? [], id: \.self) { tag in
+                    Text(tag)
+                        .font(Theme.ui(10))
+                        .foregroundStyle(Theme.ink2)
+                        .padding(.horizontal, 5)
+                        .padding(.vertical, 1)
+                        .background(Theme.inset, in: Capsule())
                 }
             }
             .font(Theme.numeric(11))

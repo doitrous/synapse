@@ -48,7 +48,7 @@ struct QuestionNavigator: View {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button("Done") { dismiss() }
                         .font(Theme.ui(16, weight: 600))
-                        .tint(Theme.accent)
+                        .tint(Theme.primary)
                 }
             }
         }
@@ -73,7 +73,7 @@ struct QuestionNavigator: View {
                 if flagged {
                     Image(systemName: "flag.fill")
                         .font(.system(size: 8))
-                        .foregroundStyle(Theme.accent)
+                        .foregroundStyle(Theme.primary)
                         .padding(3)
                 }
             }
@@ -115,6 +115,9 @@ struct QuestionNavigator: View {
 
     private func colour(_ state: QuestionState) -> (fill: Color, border: Color, ink: Color) {
         switch state {
+        // Blue, not crimson. Crimson is the action colour and is what a
+        // flag uses, so an answered question drawn in it said the same thing
+        // as one marked for review.
         case .answered: (Theme.accentTint, Theme.accent, Theme.accentStrong)
         case .correct: (Theme.successTint, Theme.success, Theme.success)
         case .wrong: (Theme.dangerTint, Theme.danger, Theme.danger)
@@ -165,7 +168,7 @@ struct QuestionNoteSheet: View {
                         dismiss()
                     }
                     .font(Theme.ui(16, weight: 600))
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                 }
             }
         }

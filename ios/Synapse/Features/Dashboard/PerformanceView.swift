@@ -18,7 +18,7 @@ struct PerformanceView: View {
         NavigationStack {
             Group {
                 if model.isLoading {
-                    ProgressView().tint(Theme.accent)
+                    ProgressView().tint(Theme.primary)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if model.summary.attempts == 0 {
                     EmptyStateView(
@@ -182,7 +182,7 @@ struct PerformanceView: View {
                 HStack(alignment: .bottom, spacing: 2) {
                     ForEach(0..<24, id: \.self) { hour in
                         RoundedRectangle(cornerRadius: 1.5)
-                            .fill(model.hours[hour] > 0 ? Theme.accent : Theme.line)
+                            .fill(model.hours[hour] > 0 ? Theme.primary : Theme.line)
                             .frame(height: max(3, CGFloat(model.hours[hour]) / CGFloat(peak) * 54))
                             .frame(maxWidth: .infinity)
                     }
@@ -241,10 +241,10 @@ struct PerformanceView: View {
         guard count > 0 else { return Theme.inset }
         let ratio = Double(count) / Double(busiest)
         switch ratio {
-        case ..<0.25: return Theme.accentTint
-        case ..<0.5: return Theme.accentLine
-        case ..<0.75: return Theme.accentSoft
-        default: return Theme.accent
+        case ..<0.25: return Theme.primaryTint
+        case ..<0.5: return Theme.primaryLine
+        case ..<0.75: return Theme.primarySoft
+        default: return Theme.primary
         }
     }
 
@@ -314,7 +314,7 @@ private struct Bar: View {
                 ZStack(alignment: .leading) {
                     Capsule().fill(Theme.inset)
                     Capsule()
-                        .fill(accuracy < 0.5 ? Theme.danger : Theme.accent)
+                        .fill(accuracy < 0.5 ? Theme.danger : Theme.primary)
                         .frame(width: max(2, geometry.size.width * accuracy))
                 }
             }

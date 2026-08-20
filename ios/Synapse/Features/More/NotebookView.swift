@@ -108,7 +108,7 @@ struct NotebookView: View {
             if let model {
                 content(model)
             } else {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
@@ -162,7 +162,7 @@ struct NotebookView: View {
                 } label: {
                     Image(systemName: "square.and.pencil")
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
             }
         }
         .sheet(item: $editing) { note in
@@ -210,7 +210,7 @@ private struct NoteRow: View {
             if let article = note.subtopicTitle, !article.isEmpty {
                 Label(article, systemImage: "text.book.closed")
                     .font(Theme.ui(11))
-                    .foregroundStyle(Theme.accent)
+                    .foregroundStyle(Theme.primary)
                     .lineLimit(1)
             }
 
@@ -277,7 +277,7 @@ private struct NoteEditor: View {
                     } label: {
                         Image(systemName: reading ? "pencil" : "book")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .accessibilityLabel(reading ? "Edit" : "Read")
                 }
                 ToolbarItem(placement: .confirmationAction) {
@@ -390,7 +390,7 @@ private struct NoteEditor: View {
                 if let article = note.subtopicTitle, !article.isEmpty {
                     Label(article, systemImage: "text.book.closed")
                         .font(Theme.ui(13))
-                        .foregroundStyle(Theme.accent)
+                        .foregroundStyle(Theme.primary)
                 }
 
                 ForEach(refs) { ref in
