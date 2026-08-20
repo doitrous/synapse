@@ -12,6 +12,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -32,13 +33,16 @@ import com.synapse.android.core.qbank.QBankScope
  * the scope set -- everywhere else in this screen only reads the keyed form.
  */
 @Composable
-fun TopicChooserScreen(viewModel: QuestionBankViewModel, onContinue: () -> Unit) {
+fun TopicChooserScreen(viewModel: QuestionBankViewModel, onContinue: () -> Unit, onPreviousSittings: () -> Unit) {
     val topics by viewModel.topics.collectAsState()
     val scope by viewModel.scope.collectAsState()
     val availableCount by viewModel.availableCount.collectAsState()
 
     Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
-        Text("Choose chapters", style = MaterialTheme.typography.headlineSmall)
+        Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            Text("Choose chapters", style = MaterialTheme.typography.headlineSmall, modifier = Modifier.weight(1f))
+            TextButton(onClick = onPreviousSittings) { Text("Previous sittings") }
+        }
         Text(
             if (scope.isEmpty()) "Every chapter · $availableCount questions" else "$availableCount questions selected",
             style = MaterialTheme.typography.bodyMedium,

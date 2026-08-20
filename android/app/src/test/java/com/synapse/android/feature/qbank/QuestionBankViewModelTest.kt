@@ -3,15 +3,23 @@ package com.synapse.android.feature.qbank
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
+import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.cache.CortexDatabase
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.LedgerDecoder
 import com.synapse.android.core.qbank.QBankScope
 import com.synapse.android.core.qbank.SittingMode
+import com.synapse.android.core.sync.SyncEngine
+import java.util.concurrent.ConcurrentHashMap
 import kotlin.random.Random
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
+import okhttp3.OkHttpClient
+import okhttp3.mockwebserver.Dispatcher
+import okhttp3.mockwebserver.MockResponse
+import okhttp3.mockwebserver.MockWebServer
+import okhttp3.mockwebserver.RecordedRequest
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -22,19 +30,46 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 
+/**
+ * [QuestionBankViewModel] is exercised against a real (in-memory) [LocalStore]
+ * and a real [SyncEngine] backed by [MockWebServer] -- never mocks of either
+ * -- the same discipline [RunnerViewModelTest] uses, needed since Task 15
+ * gave `build` a real [SyncEngine] dependency (the session-naming write).
+ */
 @RunWith(RobolectricTestRunner::class)
 class QuestionBankViewModelTest {
 
+    private lateinit var server: MockWebServer
     private lateinit var database: CortexDatabase
     private lateinit var store: LocalStore
+    private lateinit var api: SynapseApi
+    private lateinit var sync: SyncEngine
+
+    private val overrides = ConcurrentHashMap<String, () -> MockResponse>()
 
     @Before fun setUp() {
+        server = MockWebServer()
+        server.dispatcher = object : Dispatcher() {
+            override fun dispatch(request: RecordedRequest): MockResponse {
+                val key = "${request.method} ${request.path}"
+                return overrides[key]?.invoke() ?: MockResponse().setResponseCode(200).setBody("""{"ok":true}""")
+            }
+        }
+        server.start()
+
         val context = ApplicationProvider.getApplicationContext<Context>()
         database = Room.inMemoryDatabaseBuilder(context, CortexDatabase::class.java).build()
         store = LocalStore(database)
+        api = SynapseApi(
+            baseUrl = server.url("/").toString().trimEnd('/'),
+            client = OkHttpClient(),
+            tokenProvider = { "token" },
+        )
+        sync = SyncEngine(api, store)
     }
 
     @After fun tearDown() {
+        server.shutdown()
         database.close()
     }
 
@@ -78,7 +113,7 @@ class QuestionBankViewModelTest {
             questionJson("q1", "Cardiology", universityIds = listOf("uni-1"), years = listOf("y1")),
             questionJson("q2", "Renal"),
         )
-        val viewModel = QuestionBankViewModel(store)
+        val viewModel = QuestionBankViewModel(store, sync)
 
         val count = withTimeout(5_000) { viewModel.availableCount.first { it > 0 } }
 
@@ -88,7 +123,7 @@ class QuestionBankViewModelTest {
     @Test
     fun `topics are synthesised from the questions when there is no library`() = runBlocking {
         seed(questionJson("q1", "Cardiology"), questionJson("q2", "Renal"))
-        val viewModel = QuestionBankViewModel(store)
+        val viewModel = QuestionBankViewModel(store, sync)
 
         val topics = withTimeout(5_000) { viewModel.topics.first { it.size == 2 } }
 
@@ -104,7 +139,7 @@ class QuestionBankViewModelTest {
             questionJson("q2", "Renal"),
             questionJson("q3", "CARDIOLOGY"),
         )
-        val viewModel = QuestionBankViewModel(store)
+        val viewModel = QuestionBankViewModel(store, sync)
 
         val topics = withTimeout(5_000) { viewModel.topics.first { it.size == 2 } }
 
@@ -114,7 +149,7 @@ class QuestionBankViewModelTest {
     @Test
     fun `selecting a topic selects nothing else`() = runBlocking {
         seed(questionJson("q1", "Cardiology"), questionJson("q2", "Renal"))
-        val viewModel = QuestionBankViewModel(store)
+        val viewModel = QuestionBankViewModel(store, sync)
         val topics = withTimeout(5_000) { viewModel.topics.first { it.size == 2 } }
         val cardiology = topics.first { it.title == "Cardiology" }
 
@@ -128,7 +163,7 @@ class QuestionBankViewModelTest {
     @Test
     fun `the available count follows the scope`() = runBlocking {
         seed(questionJson("q1", "Cardiology"), questionJson("q2", "Cardiology"), questionJson("q3", "Renal"))
-        val viewModel = QuestionBankViewModel(store)
+        val viewModel = QuestionBankViewModel(store, sync)
         val topics = withTimeout(5_000) { viewModel.topics.first { it.size == 2 } }
         withTimeout(5_000) { viewModel.availableCount.first { it == 3 } }
         val cardiology = topics.first { it.title == "Cardiology" }
@@ -143,7 +178,7 @@ class QuestionBankViewModelTest {
     @Test
     fun `an empty scope offers the whole bank`() = runBlocking {
         seed(questionJson("q1", "Cardiology"), questionJson("q2", "Renal"))
-        val viewModel = QuestionBankViewModel(store)
+        val viewModel = QuestionBankViewModel(store, sync)
 
         val count = withTimeout(5_000) { viewModel.availableCount.first { it == 2 } }
 
@@ -157,7 +192,7 @@ class QuestionBankViewModelTest {
         // reproducible, not so it can assert on an order. What has to hold
         // for any seed is the size and the membership.
         seed(questionJson("q1", "Cardiology"), questionJson("q2", "Renal"))
-        val viewModel = QuestionBankViewModel(store, random = Random(42))
+        val viewModel = QuestionBankViewModel(store, sync, random = Random(42))
         withTimeout(5_000) { viewModel.availableCount.first { it == 2 } }
 
         val session = viewModel.build(SittingMode.TUTOR, count = 100)
@@ -169,7 +204,7 @@ class QuestionBankViewModelTest {
     @Test
     fun `a built sitting starts in the running phase with nothing visited`() = runBlocking {
         seed(questionJson("q1", "Cardiology"))
-        val viewModel = QuestionBankViewModel(store)
+        val viewModel = QuestionBankViewModel(store, sync)
         withTimeout(5_000) { viewModel.availableCount.first { it == 1 } }
 
         val session = viewModel.build(SittingMode.TIMED, count = 1)
@@ -185,7 +220,7 @@ class QuestionBankViewModelTest {
     @Test
     fun `the sitting gets a stable id so its attempts can be grouped`() = runBlocking {
         seed(questionJson("q1", "Cardiology"), questionJson("q2", "Renal"))
-        val viewModel = QuestionBankViewModel(store)
+        val viewModel = QuestionBankViewModel(store, sync)
         withTimeout(5_000) { viewModel.availableCount.first { it == 2 } }
 
         val first = viewModel.build(SittingMode.TUTOR, count = 1)

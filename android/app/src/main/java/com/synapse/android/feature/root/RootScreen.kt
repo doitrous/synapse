@@ -13,6 +13,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -24,9 +27,25 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.synapse.android.AppGraph
 import com.synapse.android.core.auth.AuthState
+import com.synapse.android.core.cache.LocalStore
+import com.synapse.android.core.model.ContentKind
+import com.synapse.android.core.model.Question
+import com.synapse.android.core.model.QuestionProjection
+import com.synapse.android.core.qbank.LiveSession
 import com.synapse.android.feature.account.AccountScreen
 import com.synapse.android.feature.account.AccountViewModel
 import com.synapse.android.feature.auth.SignInScreen
+import com.synapse.android.feature.qbank.PreviousSittingsScreen
+import com.synapse.android.feature.qbank.PreviousSittingsViewModel
+import com.synapse.android.feature.qbank.QuestionBankViewModel
+import com.synapse.android.feature.qbank.QuestionRunnerScreen
+import com.synapse.android.feature.qbank.ResultsScreen
+import com.synapse.android.feature.qbank.ResultsViewModel
+import com.synapse.android.feature.qbank.RunnerViewModel
+import com.synapse.android.feature.qbank.SessionBuilderScreen
+import com.synapse.android.feature.qbank.TopicChooserScreen
+import kotlinx.coroutines.flow.first
+import kotlinx.serialization.json.Json
 
 private const val ROUTE_QBANK = "qbank"
 private const val ROUTE_PRACTICAL = "practical"
@@ -147,7 +166,7 @@ private fun SignedInNavHost(graph: AppGraph) {
             startDestination = ROUTE_QBANK,
             modifier = Modifier.padding(padding),
         ) {
-            composable(ROUTE_QBANK) { StubScreen("Question Bank") }
+            composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
             composable(ROUTE_PRACTICAL) { StubScreen("Practical") }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: AccountViewModel = viewModel(
@@ -173,3 +192,112 @@ private fun StubScreen(name: String) {
         Text("$name is coming soon", style = MaterialTheme.typography.bodyLarge)
     }
 }
+
+/**
+ * Where the qbank tab is, right now.
+ *
+ * A plain local step, not a nested `NavHost` -- the whole flow lives inside
+ * one destination on the outer [NavHost] ([RootScreen.ROUTE_QBANK]), so there
+ * is no nested back stack for a finished [Running] step to be left on. That
+ * is what satisfies this task's brief, "finishing a sitting must not leave
+ * the runner on the back stack": there is nothing to pop into, because
+ * switching from [Running] to [Results] never pushed anything.
+ */
+private sealed interface QbankStep {
+    data object Loading : QbankStep
+    data object Chooser : QbankStep
+    data object Builder : QbankStep
+    data class Running(val session: LiveSession, val questions: List<Question>) : QbankStep
+    data class Results(val session: LiveSession, val questions: List<Question>) : QbankStep
+    data object Previous : QbankStep
+}
+
+private val liveSessionJson = Json { ignoreUnknownKeys = true }
+
+/**
+ * `TopicChooserScreen -> SessionBuilderScreen -> QuestionRunnerScreen ->
+ * ResultsScreen`, with `PreviousSittingsScreen` reachable from the chooser.
+ *
+ * On first entering the tab, [LocalStore.document] is checked for a
+ * [LiveSession] still `phase == "running"`; a student who backgrounded the
+ * app mid-sitting is dropped straight back into the runner, never the
+ * chooser -- the session document is shared with the web and iOS clients,
+ * which both resume the same way.
+ */
+@Composable
+private fun QuestionBankRoute(graph: AppGraph) {
+    var step by remember { mutableStateOf<QbankStep>(QbankStep.Loading) }
+
+    LaunchedEffect(Unit) {
+        val stored = graph.store.document(LiveSession.KEY)?.json
+            ?.let { runCatching { liveSessionJson.decodeFromString(LiveSession.serializer(), it) }.getOrNull() }
+        step = if (stored != null && stored.phase == PHASE_RUNNING) {
+            QbankStep.Running(stored, resolveQuestions(graph.store, stored.questionIds))
+        } else {
+            QbankStep.Chooser
+        }
+    }
+
+    when (val current = step) {
+        QbankStep.Loading -> RestoringScreen()
+
+        QbankStep.Chooser -> {
+            val viewModel: QuestionBankViewModel = viewModel(factory = QuestionBankViewModel.factory(graph.store, graph.sync))
+            TopicChooserScreen(
+                viewModel = viewModel,
+                onContinue = { step = QbankStep.Builder },
+                onPreviousSittings = { step = QbankStep.Previous },
+            )
+        }
+
+        QbankStep.Builder -> {
+            val viewModel: QuestionBankViewModel = viewModel(factory = QuestionBankViewModel.factory(graph.store, graph.sync))
+            SessionBuilderScreen(
+                viewModel = viewModel,
+                onBuilt = { session -> step = QbankStep.Running(session, viewModel.questionsFor(session.questionIds)) },
+            )
+        }
+
+        is QbankStep.Running -> {
+            val runnerViewModel: RunnerViewModel = viewModel(
+                key = current.session.sessionId,
+                factory = RunnerViewModel.factory(current.session, current.questions, graph.store, graph.sync),
+            )
+            QuestionRunnerScreen(
+                viewModel = runnerViewModel,
+                questions = current.questions,
+                onFinished = { step = QbankStep.Results(runnerViewModel.session.value, current.questions) },
+            )
+        }
+
+        is QbankStep.Results -> {
+            val resultsViewModel: ResultsViewModel = viewModel(
+                key = current.session.sessionId,
+                factory = ResultsViewModel.factory(current.session, current.questions),
+            )
+            ResultsScreen(viewModel = resultsViewModel, onDone = { step = QbankStep.Chooser })
+        }
+
+        QbankStep.Previous -> {
+            val viewModel: PreviousSittingsViewModel = viewModel(factory = PreviousSittingsViewModel.factory(graph.store))
+            PreviousSittingsScreen(viewModel = viewModel, onBack = { step = QbankStep.Chooser })
+        }
+    }
+}
+
+/**
+ * Projects [ids] into [Question]s the same way [QuestionBankViewModel]'s own
+ * pool does -- every published item, filtered to what a student may see. A
+ * one-shot read: used only to resolve a session already found on disk before
+ * any [QuestionBankViewModel] exists to have loaded its pool yet.
+ */
+private suspend fun resolveQuestions(store: LocalStore, ids: List<String>): List<Question> {
+    val byId = store.ledgerItems(ContentKind.QUESTION).first()
+        .filter { it.isStudentVisible }
+        .mapNotNull(QuestionProjection::project)
+        .associateBy { it.id }
+    return ids.mapNotNull { byId[it] }
+}
+
+/** `"running"` -- the other clients' spelling; see `LiveSession.phase`. */
+private const val PHASE_RUNNING = "running"

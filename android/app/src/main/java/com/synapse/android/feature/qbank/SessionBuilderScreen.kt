@@ -16,12 +16,14 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.synapse.android.core.qbank.LiveSession
 import com.synapse.android.core.qbank.SittingMode
+import kotlinx.coroutines.launch
 
 /** `MAX_QUESTIONS` in `src/pages/student/QuestionBank.tsx` -- the longest sitting a student can build in one go. */
 private const val MAX_QUESTIONS = 40
@@ -40,6 +42,7 @@ fun SessionBuilderScreen(viewModel: QuestionBankViewModel, onBuilt: (LiveSession
     var mode by remember { mutableStateOf(SittingMode.TUTOR) }
     val maxCount = { if (availableCount > 0) minOf(availableCount, MAX_QUESTIONS) else 1 }
     var count by remember(availableCount) { mutableIntStateOf(minOf(10, maxCount())) }
+    val coroutineScope = rememberCoroutineScope()
 
     Column(
         modifier = Modifier.fillMaxWidth().padding(24.dp),
@@ -65,7 +68,7 @@ fun SessionBuilderScreen(viewModel: QuestionBankViewModel, onBuilt: (LiveSession
         )
 
         Button(
-            onClick = { onBuilt(viewModel.build(mode, count)) },
+            onClick = { coroutineScope.launch { onBuilt(viewModel.build(mode, count)) } },
             enabled = availableCount > 0,
             modifier = Modifier.fillMaxWidth(),
         ) {
