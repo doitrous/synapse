@@ -2574,7 +2574,102 @@ git commit -m "Let a student choose the chapter they are sitting"
 @Test fun `finishing moves the phase to results`()
 ```
 
-- [ ] **Step 2: Implement, run, commit**
+- [ ] **Step 2: When an attempt is written, and what it says**
+
+The three clients disagree here, so this is pinned rather than left to the
+reader. Read all of it before writing `commit()` or `finish()`.
+
+**When.** Every answered question produces exactly one attempt record.
+
+- **Tutor mode** writes at commit — the moment the student checks the answer,
+  matching `checkAnswer` in `src/pages/student/QuestionBank.tsx:1234-1254`.
+- **Timed mode** writes at finish, one record per answered question, matching
+  `finish()`/`recordAttempts()` in
+  `ios/Synapse/Core/QuestionBank/QuestionBankModel.swift:355-420`.
+
+The web app writes **nothing** in timed mode: `logAttempt` is called from
+exactly one place, inside `checkAnswer`, and the "Check answer" button is
+rendered only when `mode === 'tutor'`
+(`src/pages/student/QuestionBank.tsx:1488`). That is a bug in the web app, not
+a contract to port — following it would mean a student who sits a timed test on
+their phone has no record that they sat it: no accuracy, no totals, and nothing
+in previous sittings, which Task 15 reads from the shards. Android follows iOS
+on *when* records are written.
+
+**What.** The record's shape still follows the TypeScript, which is the
+contract:
+
+- `id` is `AttemptStore.attemptId(sessionId, surface, itemId)` —
+  `"$sessionId:$surface:$itemId"`, three colon-joined parts, per
+  `src/data/attempts.ts:108-110`. Note iOS writes `"\(sessionId)-\(question.id)"`
+  instead, which is a second iOS bug: those ids will not deduplicate against
+  the web's or Android's. Do not copy it. Use `AttemptStore.attemptId`.
+- `surface` is `"qbank"`.
+- `at` is an ISO-8601 instant.
+- `subjectId`, `topic`, `difficulty` and `conceptIds` come off the `Question`.
+  `conceptIds` is already main-then-related with contextual concepts excluded,
+  so pass it through unchanged.
+- `correct` is `question.isCorrect(label)`. It is `Boolean?` and null means
+  nobody marked the work — never use null for a qbank answer.
+- `seconds` follows the web, not iOS: `null` in tutor mode, and in timed mode
+  `max(0, elapsed - elapsedWhenThisQuestionOpened)`
+  (`src/pages/student/QuestionBank.tsx:1251`). iOS records a duration in both
+  modes; the web's null is the contract.
+
+**How.** Read-modify-write through the cache, never the API:
+
+```
+LocalStore.document(AttemptStore.monthKey(month)) -> decode AttemptMonth (or a
+    fresh one) -> AttemptStore.addAttempt(...) -> SyncEngine.write(monthKey, json)
+
+LocalStore.document(AttemptStore.INDEX_KEY) -> decode AttemptIndex (or a fresh
+    one) -> AttemptStore.index(index, record) -> SyncEngine.write(INDEX_KEY, json)
+```
+
+`SyncEngine.write` already saves locally and queues the push in one
+transaction, so an attempt made offline is queued rather than lost. **The
+runner must never touch `SynapseApi`.** `addAttempt` refuses a duplicate id, so
+a double-tap inside one sitting logs once.
+
+The month is `AttemptStore.month(instant)` — local calendar components, not
+UTC. A late-evening answer east of Greenwich belongs to the month the student
+thinks it does.
+
+- [ ] **Step 3: The five navigator states**
+
+`stateOf(index)` is a direct port of `stateFor` in
+`src/pages/student/QuestionBank.tsx:1257-1263`:
+
+```
+picked == null -> if (index in visited && index != idx) OMITTED else UNSEEN
+reviewing || checked[questionId] == true -> if correct CORRECT else WRONG
+otherwise -> ANSWERED
+```
+
+Two consequences worth stating, because they are the point of the mode split:
+
+- In timed mode nothing sets `checked` until the sitting ends, so an answered
+  question reads `ANSWERED` — the strip cannot leak whether it was right.
+  Finishing sets `checked` for every answered question, and the same function
+  then reports `CORRECT`/`WRONG`.
+- `OMITTED` deliberately excludes the question the student is standing on:
+  being on a question you have not answered yet is not skipping it.
+
+Note the Android enum spells it `WRONG`, not `INCORRECT` as the web does. That
+is deliberate and already decided — `QuestionState` is local UI state, never
+serialized, and it matches the Swift.
+
+- [ ] **Step 4: Persist the sitting after every change**
+
+Write the whole `LiveSession` through `SyncEngine.write(LiveSession.KEY, json)`
+after every commit and every navigation, so a crash loses nothing and a sitting
+started on the website resumes on the phone. `LiveSession` is already
+`@Serializable`; encode it whole rather than hand-building the JSON, so a field
+cannot be dropped.
+
+`finish()` sets `phase` to `"results"` and `reviewing` to true.
+
+- [ ] **Step 5: Run and commit**
 
 ```bash
 git add android
