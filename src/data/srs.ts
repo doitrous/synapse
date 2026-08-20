@@ -7,6 +7,10 @@
  * SM-2 — and matching what they already know is the point.
  *
  * FSRS is deliberately not implemented. It fits its parameters against a
+ * Lateness is credited the way Anki credits it — see `gradeReview`. It is not
+ * an embellishment to simplify away: without it, a student returning from a
+ * week off has every interval shortened for having remembered longer.
+ *
  * review history, and on day one there is none; it would be guessing with more
  * arithmetic. It becomes worth revisiting once students have logged reviews.
  *
@@ -137,7 +141,23 @@ function gradeSteps(card: CardSchedule, answer: Grade, now: Date, config: SrsCon
 
   if (target >= steps.length) return graduate(card, answer, now, config)
 
-  return { ...card, state: stepState, step: target, due: atMinutes(now, steps[target] ?? 0) }
+  return { ...card, state: stepState, step: target, due: atMinutes(now, stepDelay(steps, answer, target)) }
+}
+
+/**
+ * How long a step waits.
+ *
+ * Hard on the *first* step is the one place this is not simply "that step".
+ * Anki averages the first two steps there — 5.5 minutes for `1m 10m` — because
+ * repeating a one-minute step would show the card again almost immediately,
+ * which is not what "hard" is asking for. From the second step on, and with a
+ * preset that has only one step to work with, it repeats the step it is on.
+ */
+function stepDelay(steps: number[], answer: Grade, target: number): number {
+  const current = steps[target] ?? 0
+  if (answer !== 'hard' || target !== 0) return current
+  const next = steps[1]
+  return next === undefined ? current : (current + next) / 2
 }
 
 function graduate(card: CardSchedule, answer: Grade, now: Date, config: SrsConfig): CardSchedule {
@@ -153,10 +173,17 @@ function graduate(card: CardSchedule, answer: Grade, now: Date, config: SrsConfi
 function gradeReview(card: CardSchedule, answer: Grade, now: Date, config: SrsConfig): CardSchedule {
   if (answer === 'again') return lapse(card, now, config)
 
+  // The days a card sat overdue are partly credited before multiplying, the
+  // way Anki does it. Without this, coming back from a week away shortens every
+  // interval — the student demonstrably remembered the card for longer than it
+  // was scheduled for, and shrinking the interval punishes them for the gap.
+  // A card answered early gets no credit: `delay` floors at zero.
+  const delay = Math.max(0, Math.floor((now.getTime() - new Date(card.due).getTime()) / DAY_MS))
+
   const interval = clampInterval(
-    answer === 'hard' ? card.interval * config.hardMultiplier
-      : answer === 'good' ? card.interval * card.ease
-        : card.interval * card.ease * config.easyBonus,
+    answer === 'hard' ? (card.interval + delay / 4) * config.hardMultiplier
+      : answer === 'good' ? (card.interval + delay / 2) * card.ease
+        : (card.interval + delay) * card.ease * config.easyBonus,
     config,
   )
 

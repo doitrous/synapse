@@ -102,3 +102,40 @@ test('a card is not due before its time', () => {
   assert.equal(isDue(review({ due: days(1) }), at), false)
   assert.equal(isDue(review({ due: minutes(-1) }), at), true)
 })
+
+test('Hard on the first learning step averages the first two steps, as Anki does', () => {
+  const learning: CardSchedule = { ...newCard(at), state: 'learning', step: 0 }
+  const card = grade(learning, 'hard', at, ANKI_DEFAULTS)
+  assert.equal(card.step, 0)
+  // (1 + 10) / 2 = 5.5 minutes.
+  assert.equal(card.due, new Date(at.getTime() + 5.5 * 60_000).toISOString())
+})
+
+test('with a single learning step there is nothing to average, so Hard repeats it', () => {
+  const config = { ...ANKI_DEFAULTS, learningSteps: [10] }
+  const learning: CardSchedule = { ...newCard(at), state: 'learning', step: 0 }
+  assert.equal(grade(learning, 'hard', at, config).due, minutes(10))
+})
+
+test('a review card graded late is credited half the overdue days on Good', () => {
+  const late = review({ interval: 10, ease: 2.5, due: days(-10) })
+  // (10 + 10/2) * 2.5 = 37.5, rounded.
+  assert.equal(grade(late, 'good', at, ANKI_DEFAULTS).interval, 38)
+})
+
+test('Hard credits a quarter of the overdue days', () => {
+  const late = review({ interval: 10, ease: 2.5, due: days(-10) })
+  // (10 + 10/4) * 1.2 = 15
+  assert.equal(grade(late, 'hard', at, ANKI_DEFAULTS).interval, 15)
+})
+
+test('Easy credits all of them', () => {
+  const late = review({ interval: 10, ease: 2.5, due: days(-10) })
+  // (10 + 10) * 2.5 * 1.3 = 65
+  assert.equal(grade(late, 'easy', at, ANKI_DEFAULTS).interval, 65)
+})
+
+test('a card answered early is credited nothing', () => {
+  const early = review({ interval: 10, ease: 2.5, due: days(5) })
+  assert.equal(grade(early, 'good', at, ANKI_DEFAULTS).interval, 25)
+})
