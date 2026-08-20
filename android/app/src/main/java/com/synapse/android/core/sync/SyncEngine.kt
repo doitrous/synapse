@@ -14,6 +14,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.sync.Mutex
+import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonNull
 
@@ -90,17 +91,18 @@ class SyncEngine(
     /**
      * Records a student's own edit and gets it moving toward the server.
      *
-     * The local copy is updated first — so a reader sees the edit
-     * immediately, offline or not — and the outbox entry that carries it to
-     * the server is queued right after. [drain] then runs opportunistically:
-     * most writes leave with the same call that made them, but a write made
-     * without a network never blocks on one — it simply waits in the queue
-     * for the next [refresh] or [write] to drain it.
+     * The local copy and the outbox entry that carries it to the server are
+     * written in one [LocalStore.putDocumentAndEnqueue] transaction — a
+     * student must never see an edit as saved locally with nothing queued to
+     * ship it, which two separate writes here would risk on a process death
+     * between them. [drain] then runs opportunistically: most writes leave
+     * with the same call that made them, but a write made without a network
+     * never blocks on one — it simply waits in the queue for the next
+     * [refresh] or [write] to drain it.
      */
     suspend fun write(key: String, json: String) {
         val existing = store.document(key)
-        store.putDocument(key, json, existing?.serverUpdatedAt)
-        store.enqueue(key, json, Instant.now())
+        store.putDocumentAndEnqueue(key, json, existing?.serverUpdatedAt, Instant.now())
         drain()
     }
 
@@ -111,7 +113,10 @@ class SyncEngine(
      *
      * A document the server refuses outright ([ApiError.Forbidden]) is
      * dropped rather than retried forever — retrying changes nothing about
-     * why it was refused. Anything else that can fail keeps the entry (and
+     * why it was refused. An entry whose own JSON cannot even be parsed is
+     * dropped the same way: it is not going to parse any better on the next
+     * drain, and leaving it in place would wedge every entry queued behind
+     * it forever. Anything else that can fail keeps the entry (and
      * everything queued after it, so replay order is never scrambled) for
      * the next drain.
      */
@@ -123,6 +128,8 @@ class SyncEngine(
                 store.clearOutbox(entry.id)
             } catch (e: CancellationException) {
                 throw e
+            } catch (e: SerializationException) {
+                store.clearOutbox(entry.id)
             } catch (e: ApiError.Forbidden) {
                 store.clearOutbox(entry.id)
             } catch (e: ApiError) {

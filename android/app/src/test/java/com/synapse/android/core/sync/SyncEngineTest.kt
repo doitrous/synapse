@@ -237,6 +237,23 @@ class SyncEngineTest {
     }
 
     @Test
+    fun `a malformed outbox entry is dropped without wedging the rest of the queue`() = runBlocking {
+        val badKey = "synapse.qbank.marked.v1"
+        val goodKey = "synapse.practical.progress.v1"
+        // Not valid JSON at all -- parseToJsonElement throws SerializationException,
+        // which must be handled the same way ApiError.Forbidden is, not left to
+        // abort the loop and strand goodKey behind it.
+        store.enqueue(badKey, "not valid json {{{", Instant.now())
+        store.enqueue(goodKey, """{"done":1}""", Instant.now())
+
+        engine.drain()
+
+        assertTrue(store.outbox().isEmpty())
+        assertTrue(requests.any { it.method == "PUT" && it.path == "/api/user-state/$goodKey" })
+        assertTrue(requests.none { it.method == "PUT" && it.path == "/api/user-state/$badKey" })
+    }
+
+    @Test
     fun `write puts the document locally and drains it opportunistically`() = runBlocking {
         val key = "synapse.qbank.marked.v1"
 
@@ -245,6 +262,24 @@ class SyncEngineTest {
         assertEquals("""["q1"]""", store.document(key)?.json)
         assertTrue(store.outbox().isEmpty())
         assertTrue(requests.any { it.method == "PUT" && it.path == "/api/user-state/$key" })
+    }
+
+    @Test
+    fun `write lands the document and the outbox entry together in one transaction`() = runBlocking {
+        val key = "synapse.qbank.marked.v1"
+        // Nothing drains it: write() must have already made both rows visible
+        // in the same LocalStore.putDocumentAndEnqueue transaction before
+        // drain() ever runs, not as two separable writes that could land one
+        // without the other on a process death in between.
+        overrides["PUT /api/user-state/$key"] = { MockResponse().setResponseCode(500) }
+
+        engine.write(key, """["q1"]""")
+
+        assertEquals("""["q1"]""", store.document(key)?.json)
+        val outboxEntries = store.outbox()
+        assertEquals(1, outboxEntries.size)
+        assertEquals(key, outboxEntries.single().key)
+        assertEquals("""["q1"]""", outboxEntries.single().json)
     }
 
     // -- Concurrency ----------------------------------------------------

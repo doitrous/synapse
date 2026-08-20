@@ -63,6 +63,32 @@ class LocalStore(private val database: CortexDatabase) {
     fun documentFlow(key: String): Flow<StoredDocument?> =
         documentDao.flow(key).map { it?.toDomain() }.distinctUntilChanged()
 
+    /**
+     * Caches a document and queues it for the server in one Room
+     * transaction — what [SyncEngine.write] uses instead of calling
+     * [putDocument] and [enqueue] back to back.
+     *
+     * Those two calls, done separately, leave a window where a process death
+     * lands the edit in [documentDao] with no matching row in [outboxDao]: the
+     * student sees the edit as saved (it is, locally) but nothing ever ships
+     * it to the server, and nothing about that failure is visible from
+     * either side. Wrapping both writes in [androidx.room.withTransaction]
+     * closes that window — either both rows land, or neither does.
+     */
+    suspend fun putDocumentAndEnqueue(key: String, json: String, serverUpdatedAt: Instant?, savedAt: Instant) {
+        database.withTransaction {
+            documentDao.upsert(
+                DocumentEntity(
+                    key = key,
+                    json = json,
+                    serverUpdatedAt = serverUpdatedAt,
+                    savedAt = Instant.now(),
+                ),
+            )
+            outboxDao.insert(OutboxEntity(key = key, json = json, savedAt = savedAt))
+        }
+    }
+
     // -- Ledger ----------------------------------------------------------
 
     /**
