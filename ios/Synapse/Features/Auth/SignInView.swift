@@ -24,6 +24,11 @@ struct SignInView: View {
     @State private var mode: Mode = .signIn
     @State private var email = ""
     @State private var password = ""
+    /// Asked for at sign-up only, and unique. See `AccountIdentity`.
+    @State private var name = ""
+    @State private var phone = ""
+    /// What the identity check said, when it said anything.
+    @State private var conflict: IdentityConflict?
     @FocusState private var focus: Field?
 
     /// Credentials passed in at launch, for driving the app in a simulator.
@@ -48,7 +53,7 @@ struct SignInView: View {
         #endif
     }
 
-    private enum Field { case email, password }
+    private enum Field { case name, email, phone, password }
 
     var body: some View {
         ScrollView {
@@ -57,6 +62,9 @@ struct SignInView: View {
                 picker
                 fields
                 submit
+                if let conflict {
+                    notice(conflict.message)
+                }
                 if let message = auth.message {
                     notice(message)
                 }
@@ -101,6 +109,15 @@ struct SignInView: View {
     @ViewBuilder
     private var fields: some View {
         VStack(spacing: 12) {
+            if mode == .signUp {
+                field("Full name", text: $name)
+                    .textContentType(.name)
+                    .textInputAutocapitalization(.words)
+                    .focused($focus, equals: .name)
+                    .submitLabel(.next)
+                    .onSubmit { focus = .email }
+            }
+
             field("Email", text: $email)
                 .keyboardType(.emailAddress)
                 .textContentType(.emailAddress)
@@ -109,6 +126,18 @@ struct SignInView: View {
                 .focused($focus, equals: .email)
                 .submitLabel(mode == .reset ? .go : .next)
                 .onSubmit { focus = mode == .reset ? nil : .password }
+
+            if mode == .signUp {
+                VStack(alignment: .leading, spacing: 4) {
+                    field("Phone number", text: $phone)
+                        .keyboardType(.phonePad)
+                        .textContentType(.telephoneNumber)
+                        .focused($focus, equals: .phone)
+                    Text("One account per number. Include the country code if you are outside Egypt.")
+                        .font(Theme.ui(12))
+                        .foregroundStyle(Theme.ink3)
+                }
+            }
 
             if mode != .reset {
                 secureField("Password", text: $password)
@@ -158,6 +187,11 @@ struct SignInView: View {
 
     private var canSubmit: Bool {
         guard !auth.isWorking, email.contains("@") else { return false }
+        if mode == .signUp {
+            // A number that will not normalise is not a number, and letting it
+            // through would create an account the uniqueness rule cannot see.
+            guard name.trimmed.count >= 2, AccountIdentity.normalisePhone(phone) != nil else { return false }
+        }
         // Supabase enforces a minimum too, but failing here costs no round trip
         // and tells the student before they wait for one.
         return mode == .reset || password.count >= 6
@@ -166,11 +200,32 @@ struct SignInView: View {
     private func submitCurrent() async {
         guard canSubmit else { return }
         focus = nil
+        conflict = nil
         switch mode {
         case .signIn: await auth.signIn(email: email, password: password)
-        case .signUp: await auth.signUp(email: email, password: password)
+        case .signUp: await createAccount()
         case .reset: await auth.sendPasswordReset(email: email)
         }
+    }
+
+    /// Create an account, having first asked whether one already exists.
+    ///
+    /// Asked before anything is created: somebody re-registering is sent to
+    /// sign in rather than handed an error after Supabase has already made an
+    /// auth user with no roster row behind it.
+    private func createAccount() async {
+        guard let phone = AccountIdentity.normalisePhone(phone),
+              let email = AccountIdentity.normaliseEmail(email)
+        else { return }
+
+        if let found = await auth.identityConflict(email: email, phone: phone) {
+            conflict = found
+            // Carried over to the sign-in form, filled in with what they typed.
+            if found.field == .email { mode = .signIn }
+            return
+        }
+
+        await auth.signUp(email: email, password: password, name: name.trimmed, phone: phone)
     }
 
     // MARK: - Field styling
