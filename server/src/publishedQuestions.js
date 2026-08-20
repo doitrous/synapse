@@ -8,8 +8,12 @@
  * thing that drifts silently once someone touches only one of them. There is
  * now one snapshot and one invalidator, called from the one place in
  * index.js where a ledger write happens.
+ *
+ * The marking rule itself lives in `questionKey.js`, which has no database
+ * import so it can be tested directly.
  */
 import { pool } from './db.js'
+import { questionKeysFromLedger } from './questionKey.js'
 
 const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
 
@@ -22,23 +26,13 @@ export function invalidatePublishedQuestions(key) {
 export async function publishedQuestions() {
   if (questionSnapshot) return questionSnapshot
   const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [LEDGER_KEY])
-  const byId = new Map()
+  let byId = new Map()
   if (rows.length) {
     try {
-      const ledger = JSON.parse(rows[0].v)
-      for (const item of Array.isArray(ledger) ? ledger : []) {
-        if (item?.kind !== 'question' || item.status !== 'Published') continue
-        const answers = item.questionData?.answers ?? []
-        byId.set(item.id, {
-          id: item.id,
-          title: item.title,
-          // The index of the correct option, or -1 when the author marked none.
-          correctIndex: answers.findIndex((answer) => answer?.correct),
-          optionCount: answers.length,
-        })
-      }
+      byId = questionKeysFromLedger(JSON.parse(rows[0].v))
     } catch {
       // A malformed ledger yields an empty set rather than a thrown request.
+      byId = new Map()
     }
   }
   questionSnapshot = byId
