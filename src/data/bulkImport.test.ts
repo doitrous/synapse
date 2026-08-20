@@ -177,6 +177,7 @@ const FULL_ARTICLE: Record<string, string> = {
   university_notes: 'HU: Kasr Alainy expects the two-level Wells score.',
   years: 'HU_Y3',
   module: 'CVS 01',
+  module_subject: 'CVS 01 > Physiology > Pulmonary circulation',
   subtopic: 'SUB_PE',
   microtopic: 'MIC_WELLS',
   nanotopic: 'NAN_DDIMER',
@@ -250,6 +251,7 @@ test('a fully populated article row imports with every field present', () => {
   assert.deepEqual(data.relatedArticleIds, ['ART-A'])
   assert.equal(data.fieldNotes?.['relatedArticle:ART-A'], 'Explains the mechanism.')
   assert.equal(data.fieldNotes?.moduleIds, 'awaiting a verified live module ID')
+  assert.deepEqual(data.moduleSubjectPaths, ['CVS 01 > Physiology > Pulmonary circulation'])
   assert.equal(data.calloutEvidence?.['Ordering D-dimer when CTPA is already indicated.']?.reviewedBy, 'Dr Omar')
   assert.equal(data.universityNotes?.length, 1)
   assert.equal(data.notes, 'Draft pending faculty sign-off.')

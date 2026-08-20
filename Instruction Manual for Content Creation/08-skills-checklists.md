@@ -67,6 +67,7 @@ number of steps you wrote.
 | `difficulty` | Difficulty | no | `Easy` · `Moderate` · `Hard` · `Challenging`. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `mark_scheme` | Mark scheme | **by contract** | The steps. One `Section (marks): step` per line. |
+| `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
 | `main_concept` | Main concept(s) | — | What the checklist is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | **No mastery.** |

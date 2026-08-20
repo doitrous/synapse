@@ -674,3 +674,38 @@ npm run medical:validate:authoring
 | `still carries a Components and relations section` | Forbidden section |
 | `related article X is authored nowhere in the batch directory`, but X is live | Directory-scoped check. Confirm with `medical:simulate`. |
 | A teaching point arrives cut in half | You used `;` in a prose list. One item per line. |
+
+---
+
+## `module_subject` — where inside a module this article belongs
+
+A module ID alone is too coarse to revise by: a module runs for a term and
+covers two or more disciplines, so "this belongs to `101 ISK`" does not tell a
+student working on the brachial plexus whether it is theirs.
+
+Write the way down, **one path per line**:
+
+```
+## module_subject
+101 ISK > Anatomy > Upper Limb > Brachial Plexus
+101 ISK > Histology > Epithelium
+```
+
+Newlines separate paths — never `|` or `;`. Every other list column accepts
+those, and this one must not: a faculty's own subject name may contain either,
+and splitting on them would cut it in half.
+
+The first segment may name the module, by ID or by name, and is optional.
+Segments match the module's subject tree by name, ignoring case and padding.
+
+A path that stops matching resolves to **nothing**, and reports the segment it
+failed on. It does not fall back to the last segment that did match — that would
+file the article a level above where it was meant to go, which is worse than
+being told it failed.
+
+The path is stored as written, not as a resolved ID. The subject tree gets
+reorganised as department books change, and a path that stops resolving can be
+reported and repaired, where a stale ID just points at nothing.
+
+Build the tree first, with an indented outline in **Academic Setup › Import** —
+see `01-subjects-and-topics.md`.

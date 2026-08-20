@@ -96,6 +96,18 @@ export const PUBLIC_FIELDS = new Set([
   // Resource
   'icon', 'institution', 'storageKey', 'chapters', 'includedConceptIds',
   'includedArticleIds', 'conceptLocations',
+  // Where inside a module an item sits. A student navigates by it, so it is
+  // theirs to see; it names curriculum structure, not anybody's source.
+  'moduleSubjectPaths',
+  // Question tags. Curriculum placement, blueprint weighting and the difficulty
+  // signals the adaptive engine runs on — all of which run on the student's own
+  // screen, so withholding them would break the feature rather than protect
+  // anything. None of it says where a question came from.
+  'module', 'topic', 'subtopic', 'conceptIds', 'years', 'cognitiveEffort',
+  'setting', 'intendedDifficulty', 'clinicalReasoningLevel', 'inferredDifficulty',
+  'examRelevance', 'contextualConceptIds', 'questionType', 'mainConceptIds',
+  'clinicalRelevance', 'academicRelevance', 'cognitiveEffortScore',
+  'examWeightByYear', 'questionOnlyFor',
 ])
 
 /** Remove every private key at any depth, leaving the rest untouched. */

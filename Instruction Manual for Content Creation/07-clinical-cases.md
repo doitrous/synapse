@@ -34,6 +34,7 @@ number of decisions you wrote.
 | `duration` | Duration | no | Expected minutes. |
 | `marks` | Marks / decisions | no | Recomputed as the **number of decisions**. |
 | `difficulty` | Difficulty | no | `Easy` · `Moderate` · `Hard` · `Challenging`. Whole-item difficulty; each decision may also set its own. |
+| `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
 | `main_concept` | Main concept(s) | — | What the case as a whole is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | What it also assesses. Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | Needed by the scenario, never assessed. **No mastery.** |

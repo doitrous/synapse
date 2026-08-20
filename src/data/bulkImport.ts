@@ -10,6 +10,7 @@ import {
   MEDIA_REQUEST_MEDIA, MEDIA_REQUEST_KINDS, MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES,
 } from './contentControl.ts'
 import { DIFFICULTIES } from './qbank.ts'
+import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
 import { optionalList } from './importSemantics.ts'
@@ -56,6 +57,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'question_type', label: 'Question type', help: 'What it tests — e.g. Pathophysiology, Diagnosis, Investigation, Treatment, Mechanism.' },
       { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this question primarily tests. At least one is expected.' },
       { key: 'module', label: 'Module ID(s)', help: 'Every module this question is applicable to, separated by |, ; or new lines.' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'clinical_relevance', label: 'Clinical relevance (0–1)', help: 'How clinically relevant the question is.' },
       { key: 'academic_relevance', label: 'Academic relevance (0–1)', help: 'How academically relevant the question is.' },
       { key: 'cognitive_effort_score', label: 'Cognitive effort score (0–1)', help: 'Fine-grained cognitive effort on a 0–1 scale (finer than the Low/Medium/High band below).' },
@@ -97,6 +99,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'university_notes', label: 'University-only notes', help: 'University-specific callouts, one per line as "OMS: note text". Rendered as a distinct in-article aside.' },
       { key: 'years', label: 'Year IDs', help: 'All years this article is applicable on (e.g. OMS_Y2).' },
       { key: 'module', label: 'Module ID(s)', help: 'Module(s) this article sits under.' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'subtopic', label: 'Subtopic ID', help: 'Subtopic ID (SUB_*).' },
       { key: 'microtopic', label: 'Microtopic ID', help: 'Microtopic ID (MIC_*).' },
       { key: 'template_id', label: 'Article template', help: `Which article template this follows: ${ARTICLE_TEMPLATE_IDS.join(', ')}. Sets the expected section headings.` },
@@ -155,6 +158,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'debrief', label: 'Case debrief', help: 'Summary shown after a clinical case. (Clinical case)' },
       { key: 'lab_subtype', label: 'Lab / Imaging', help: 'Lab or Imaging — for interpretation sets.' },
       { key: 'lab_questions', label: 'Interpretation questions', help: 'Start each with "### Stem", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" ("*= option" is correct) each followed by "Why: …", and "Explanation: …". "Media:" takes an image URL only — the runner renders it as an image, so audio and video show a broken image. (Lab/Imaging interpretation)' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this item primarily teaches.' },
       { key: 'concept_ids', label: 'Concept IDs', help: 'Concepts the item also assesses, separated by |, ; or new lines.' },
       { key: 'contextual_concept_ids', label: 'Contextual concept IDs', help: 'Concepts the scenario needs but does not assess. These receive no mastery evidence.' },
@@ -176,6 +180,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'topics', label: 'Tagged topics', help: 'Topic/subtopic IDs or titles this resource covers, separated by |, ; or new lines. Solving questions on this resource pulls in these topics.' },
       { key: 'chapter', label: 'Chapters', help: 'One or more chapters this resource covers, separated by |, ; or new lines (Files live in the Files tab, Videos in the Videos tab).' },
       { key: 'module_ids', label: 'Module IDs', help: 'Module IDs this resource serves (e.g. CVS 01), separated by |, ; or new lines.' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'included_concepts', label: 'Included concepts', help: 'Concept IDs this resource covers. Each concept is auto-updated to approve this resource. Add precise page/timestamp deep-links in the resource editor.' },
       { key: 'included_articles', label: 'Included library articles', help: 'Library article IDs this resource supports.' },
       { key: 'concept_locations', label: 'Concept deep-links', help: 'Pin concepts to a precise spot, one per line as "conceptId | page|line|slide|timestamp | locator", e.g. med.concept.heart-failure | page | 142.' },
@@ -694,6 +699,7 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
   const shared = {
     references: values.references?.trim() ? importLines(values.references) : undefined,
     conceptTags: practicalConceptTags(values),
+    moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
     mediaRequests: media?.trim() ? parseMediaRequests(media, ownerId, 'practical') : undefined,
     ...(learningObjective ? { learningObjective } : {}),
   } as unknown as PracticalCommon
@@ -1003,6 +1009,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
           questionType: text('question_type'),
           mainConceptIds: optionalList(values.main_concept),
           moduleIds: optionalList(values.module),
+          moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
           clinicalRelevance: clamp01(values.clinical_relevance),
           academicRelevance: clamp01(values.academic_relevance),
           cognitiveEffortScore: clamp01(values.cognitive_effort_score),
@@ -1077,6 +1084,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         universityIds: optionalList(values.universities),
         yearIds: optionalList(values.years),
         moduleIds: optionalList(values.module),
+        moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
         subtopicId: text('subtopic'), microtopicId: text('microtopic'), nanotopicId: text('nanotopic'),
         relatedConceptIds: optionalList(values.related_concepts),
         relatedArticleIds: related.ids.length ? related.ids : undefined,
@@ -1171,6 +1179,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       institution: values.source?.trim() || undefined,
       chapters: splitImportList(values.chapter),
       moduleIds: splitImportList(values.module_ids),
+      moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
       includedConceptIds: splitImportList(values.included_concepts),
       includedArticleIds: splitImportList(values.included_articles),
       conceptLocations: (values.concept_locations ?? '').split(/\r?\n/).map((line, i) => {

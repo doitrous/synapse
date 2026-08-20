@@ -195,6 +195,17 @@ export interface QuestionTags {
   mainConceptIds?: string[]
   /** Every module ID this question applies to. */
   moduleIds?: string[]
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`.
+   *
+   * A module ID alone is too coarse to revise by — a module runs a term and
+   * covers several disciplines. Kept as written rather than as a resolved ID,
+   * because the subject tree is reorganised as department books change and a
+   * path that stops resolving can be reported and repaired, where a stale ID
+   * just points at nothing. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   clinicalRelevance?: number
   academicRelevance?: number
   /** Cognitive effort on a 0–1 scale (finer than the Low/Medium/High band). */
@@ -250,6 +261,17 @@ export interface ArticleAuthoringData {
   /** Year IDs this article applies to. */
   yearIds?: string[]
   moduleIds?: string[]
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`.
+   *
+   * A module ID alone is too coarse to revise by — a module runs a term and
+   * covers several disciplines. Kept as written rather than as a resolved ID,
+   * because the subject tree is reorganised as department books change and a
+   * path that stops resolving can be reported and repaired, where a stale ID
+   * just points at nothing. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   /** Canonical placement in the complete medical-library taxonomy. */
   primaryNodeId?: string
   /** Additional valid placements across systems, disciplines, skills, and knowledge. */
@@ -318,6 +340,11 @@ export interface PracticalConceptTags {
 
 /** What all three practical formats carry, whatever their shape. */
 export interface PracticalCommon {
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   references: string[]
   conceptTags: PracticalConceptTags
   /**
@@ -447,6 +474,17 @@ export interface ResourceAuthoringData {
   chapters: string[]
   /** Every module ID this resource is attached to (multi-select). */
   moduleIds: string[]
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`.
+   *
+   * A module ID alone is too coarse to revise by — a module runs a term and
+   * covers several disciplines. Kept as written rather than as a resolved ID,
+   * because the subject tree is reorganised as department books change and a
+   * path that stops resolving can be reported and repaired, where a stale ID
+   * just points at nothing. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   /** Concept IDs whose material appears in this resource. */
   includedConceptIds: string[]
   /** Library article IDs bundled with this resource. */

@@ -141,9 +141,39 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 | `years` | Relevant years | Year IDs | `[]` |
 | `universities` | Relevant universities | University IDs | `[]` |
 | `module` | Module ID(s) | Every module this applies to | `[]` |
+| `module_subject` | Module subject path(s) | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One per line. | `[]` |
 | `question_only_for` | Restrict to years/universities | If set, the question applies **only** to these, regardless of subject scope | `[]` |
 
 `difficulty` and `inferred_difficulty` are different axes and both matter. `difficulty` is
+
+### `module_subject` — where inside a module this belongs
+
+A module ID alone is too coarse to revise by: a module runs for a term and
+covers two or more disciplines, so "this belongs to `101 ISK`" does not tell a
+student working on the brachial plexus whether it is theirs.
+
+Write the way down, one path per line:
+
+```
+101 ISK > Anatomy > Upper Limb > Brachial Plexus
+101 ISK > Histology > Epithelium
+```
+
+- **Newlines separate paths — not `|` or `;`.** Every other list column in the
+  importer accepts those, and this one must not: a faculty's own subject name
+  may contain either, and splitting on them would cut it in half.
+- The **first segment may name the module**, by ID or by name, and is optional.
+- Segments are matched against the module's subject tree by name, ignoring case
+  and padding. A path that stops matching partway resolves to **nothing** and
+  reports the segment it failed on — it does not fall back to the last segment
+  that did match, because that files the item a level above where it was meant
+  to go.
+- The path is stored **as written**, not as a resolved ID. The subject tree gets
+  reorganised as department books change, and a path that stops resolving can be
+  reported and repaired, where a stale ID just points at nothing.
+
+Build the tree first, with an indented outline in **Academic Setup › Import**.
+See `01-subjects-and-topics.md`.
 what you intended; `inferred_difficulty` is how many students you expect to get it right.
 `Hard` and `Challenging` both mean "expect most to miss this" — `Hard` is a concept a strong
 student gets right, `Challenging` needs several steps held at once.

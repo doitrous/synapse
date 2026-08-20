@@ -154,7 +154,7 @@ describe('Field classification cannot drift', () => {
     const INTERFACES = [
       'ManagedContentItem', 'QuestionAuthoringData', 'ArticleAuthoringData',
       'PracticalCommon', 'OsceAuthoringData', 'CaseAuthoringData',
-      'LabAuthoringData', 'ResourceAuthoringData',
+      'LabAuthoringData', 'ResourceAuthoringData', 'QuestionTags',
     ]
 
     const unclassified = []
