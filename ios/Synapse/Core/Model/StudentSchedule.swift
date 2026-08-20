@@ -129,7 +129,10 @@ enum StudentSchedule {
 
     /// `YYYY-MM-DD` and `HH:MM` as a local date — never as UTC, which shifts
     /// the day for anyone east or west of Greenwich.
-    private static func localDateTime(date: String, time: String) -> Date? {
+    ///
+    /// Shared with the upcoming list, which reads the student's own calendar
+    /// and has to place its blocks on the same day this places sessions.
+    static func localDateTime(date: String, time: String) -> Date? {
         let day = date.split(separator: "-").compactMap { Int($0) }
         guard day.count == 3 else { return nil }
         let clock = (time.isEmpty ? "00:00" : time).split(separator: ":").compactMap { Int($0) }

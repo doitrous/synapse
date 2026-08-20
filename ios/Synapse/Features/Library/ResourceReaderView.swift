@@ -210,7 +210,9 @@ struct ResourceReaderView: View {
             // Before anything else, so the reader opens where it was asked to
             // rather than jumping there a moment after the student arrives.
             if let openAt { jumpTo = openAt }
-            noteOpened()
+            // Detached from the reader's own opening: a slow round trip must
+            // not hold up the page the student came to read.
+            Task { await noteOpened() }
             // Read off the main thread: a large book's outline is a tree of
             // several thousand nodes, and building it on the way in would show
             // the student a frozen page.
@@ -308,18 +310,19 @@ struct ResourceReaderView: View {
     }
 
     /// Note that this document was opened, for the dashboard's "last used".
-    private func noteOpened() {
-        let defaults = UserDefaults.standard
-        let current = (defaults.data(forKey: RecentResource.key))
-            .flatMap { try? JSONDecoder().decode([RecentResource].self, from: $0) } ?? []
-
+    ///
+    /// Read from the server before it is written back. The key is dotted, so it
+    /// is a record the student owns and carries between devices — writing only
+    /// to this device would let a phone and a laptop each hold half a reading
+    /// history and overwrite the other's half on the next open.
+    private func noteOpened() async {
+        let current = (try? await api.userState([RecentResource].self, key: RecentResource.key))?.value ?? []
         let opened = RecentResource(
             id: resource.id, title: resource.title, type: resource.type.rawValue,
             subjectId: resource.subjectId, meta: resource.meta,
             openedAt: ISO8601DateFormatter().string(from: Date())
         )
-        guard let data = try? JSONEncoder().encode(RecentResource.noting(opened, in: current)) else { return }
-        defaults.set(data, forKey: RecentResource.key)
+        await sync.write(key: RecentResource.key, value: RecentResource.noting(opened, in: current))
     }
 
     /// How long this sitting has been.
