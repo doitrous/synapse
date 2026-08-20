@@ -162,7 +162,12 @@ if (kind === 'question') {
     const main = data.tags.mainConceptIds ?? []
     const also = data.tags.conceptIds ?? []
     const contextual = data.tags.contextualConceptIds ?? []
-    if (main.length !== 1) errors.push(`${where}: ${main.length} main concepts — a question tests exactly one`)
+    // At least one, not exactly one. A written question comparing two
+    // structures assesses both as co-primary, and so does a matching item;
+    // forcing a single main concept there means one of the things the question
+    // actually tests earns no mastery evidence. The practical branch has always
+    // required only one-or-more.
+    if (main.length < 1) errors.push(`${where}: no main_concept — name what this question tests`)
     for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
       for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
     }

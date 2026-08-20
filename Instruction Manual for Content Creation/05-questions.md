@@ -41,6 +41,17 @@ not.
 The student projection drops `contextual_concept_ids` entirely — that is the whole point of
 the third bucket.
 
+**A question may name more than one main concept.** It used to be forced to name
+exactly one, which is right for most single-best-answer items and wrong as soon
+as a question genuinely assesses two things at once — a written question asking
+a student to compare two structures, or a matching item pairing five. Forcing
+one there meant everything else the question tested earned no mastery evidence,
+so a student who kept failing the second half of such questions was never told.
+
+Name every concept the question really tests. Concepts it merely mentions go in
+`contextual_concept_ids`, which earns no mastery — that distinction is what
+keeps the profile honest, not the count.
+
 **A question may only test a concept that at least one article covers.** If no article
 teaches it, write the article first, or do not write the question.
 
@@ -122,7 +133,7 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 
 | Key | Label | Values | Default |
 |---|---|---|---|
-| `main_concept` | Main concept(s) | **Exactly one concept ID.** Zero or two is an error — *"a question tests exactly one"*. | — |
+| `main_concept` | Main concept(s) | **At least one concept ID.** Name every concept the question genuinely tests — each one earns mastery evidence. Zero is an error. | — |
 | `concept_ids` | Concept IDs | Also-assessed concepts | `[]` |
 | `contextual_concept_ids` | Contextual concept IDs | Needed by the scenario, never assessed | `[]` |
 | `topic` | Topic | Canonical topic or blueprint heading | `''` |
@@ -205,7 +216,7 @@ several are stricter than the field table's own defaults suggest:
 | 4 or 5 filled options | `N options — the contract is 4 to 5` |
 | every filled option has an explanation | `option X has no explanation` |
 | the correct letter is one of the filled options | `correct answer X is not one of the filled options` |
-| **exactly one** `main_concept` | `N main concepts — a question tests exactly one` |
+| **at least one** `main_concept` | `no main_concept — name what this question tests` |
 | every concept ID exists in live state | `main_concept X is not a concept that exists` |
 | no concept is both assessed and contextual | `X is both assessed and contextual` |
 | `library_ids` is non-empty | `no library_ids — nothing teaches this question's answer` |
