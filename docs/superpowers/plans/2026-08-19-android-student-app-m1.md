@@ -2227,7 +2227,27 @@ git commit -m "Ask what moved before downloading anything"
 - Consumes: `AuthModel`, `SyncEngine`, `CortexTheme`.
 - Produces: navigation graph with routes `qbank`, `practical`, `account`; `AccountViewModel` exposing `data class AccountUi(val email: String?, val lastSyncedAt: Instant?, val pendingWrites: Int)`.
 
-- [ ] **Step 1: Write the failing ViewModel test**
+- [ ] **Step 1: Add navigation and the Compose ViewModel binding**
+
+Add to `android/gradle/libs.versions.toml`:
+
+```toml
+[versions]
+navigationCompose = "2.9.8"
+
+[libraries]
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
+```
+
+`lifecycleRuntimeKtx` is already `2.11.0` in the catalog, and the ViewModel
+binding ships from the same release train, so it reuses that reference rather
+than pinning a second lifecycle version.
+
+Stay on the `androidx.navigation` 2.x artifact. `androidx.navigation3` is a
+different library with a different API, not a newer version of this one.
+
+- [ ] **Step 2: Write the failing ViewModel test**
 
 ```kotlin
 @Test fun `Account reports how many writes are still waiting`() {
@@ -2238,7 +2258,7 @@ git commit -m "Ask what moved before downloading anything"
 @Test fun `sign out clears the signed-in state`()
 ```
 
-- [ ] **Step 2: Implement, run, commit**
+- [ ] **Step 3: Implement, run, commit**
 
 ```bash
 git add android
