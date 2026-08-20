@@ -17,6 +17,9 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
     var reviewIntervalDays: ReviewIntervals
     var constraints: Constraints
     var priority: PriorityWeights
+    /// The default allocation when no exam horizon applies.
+    var defaultShares: AllocationShares
+    var horizonBands: [HorizonBand]
 
     /// Admin-authored, so it is read from the shared catalogue rather than the
     /// student's own record — which is why the key is hyphenated.
@@ -75,7 +78,17 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
         var fatiguePenalty: Double
     }
 
+    /// How a block divides as an exam approaches.
+    struct HorizonBand: Codable, Equatable, Sendable {
+        var id: String
+        var label: String
+        /// Nil is the open-ended band: more than the last bound, or no exam.
+        var maxDaysToExam: Int?
+        var shares: AllocationShares
+    }
+
     struct Constraints: Codable, Equatable, Sendable {
+        var minBlockSize: Int
         var maxBlockSize: Int
         /// How many times one item may be asked before it is worn out.
         var maxExposuresPerItem: Int
@@ -129,6 +142,7 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
             secure: 14
         ),
         constraints: Constraints(
+            minBlockSize: 20,
             maxBlockSize: 40,
             maxExposuresPerItem: 1,
             rollingDebtWindowBlocks: 4
@@ -144,6 +158,17 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
             repetitionPenalty: 0.15,
             exposurePenalty: 0.20,
             fatiguePenalty: 0.10
-        )
+        ),
+        defaultShares: AllocationShares(weakness: 0.40, coverage: 0.35, review: 0.15, uncertainty: 0.10),
+        horizonBands: [
+            // Fourteen days out, coverage overtakes depth: there is no longer
+            // time to fix everything, and breadth is what an exam asks for.
+            HorizonBand(id: "imminent", label: "14 days or fewer", maxDaysToExam: 14,
+                        shares: AllocationShares(weakness: 0.25, coverage: 0.50, review: 0.15, uncertainty: 0.10)),
+            HorizonBand(id: "near", label: "15–60 days", maxDaysToExam: 60,
+                        shares: AllocationShares(weakness: 0.40, coverage: 0.35, review: 0.15, uncertainty: 0.10)),
+            HorizonBand(id: "far", label: "More than 60 days, or no exam scheduled", maxDaysToExam: nil,
+                        shares: AllocationShares(weakness: 0.45, coverage: 0.25, review: 0.20, uncertainty: 0.10)),
+        ]
     )
 }
