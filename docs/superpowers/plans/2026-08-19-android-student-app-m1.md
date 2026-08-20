@@ -3111,6 +3111,48 @@ That sentence is load-bearing, not decoration: this product has no assessor
 identity, and a screen that implies otherwise tells a student they are signed
 off for a procedure when nobody has watched them do it.
 
+- [ ] **Step 4a: Carry the three fields the mark scheme is scored by**
+
+`core/model/Practical.kt` projects a mark scheme as
+`MarkSection(id, title, items: List<String>)` — it reads each authored item's
+`text` and throws away the item's `id`, and it never reads the section's
+`marks` at all. Nothing before this task ever rendered a mark scheme, so
+nothing noticed. Task 16 is the first consumer, and with that shape it cannot
+write the shared document correctly no matter how carefully its own code is
+written. Widen the projection here, in `core/model/Practical.kt`, and update
+`PracticalTest.kt` in the same commit.
+
+Three fields, and each one is a silent cross-client corruption if left out:
+
+- **`MarkSection.items` must carry the authored item id, not just its text.**
+  The web stores `checkedItems` as authored item ids and restores a run with
+  `checked.has(item.id)` (`PracticalRunner.tsx:227`, `:230`). Ticks Android
+  writes under a positional key restore nothing on the web, and the web's
+  restore nothing on Android — a student resuming a half-ticked station on the
+  other client finds it blank. Project items to `MarkItem(id, text)`, keeping
+  the existing fallback for a bare-string item and for a missing id.
+- **`MarkSection` must carry `marks`.** The web scores a station by weighted
+  section share:
+  `earnedMarks = Σ section.marks × (ticked in section / items in section)`,
+  `totalMarks = Σ section.marks` (`PracticalRunner.tsx:230-231`). A tick count
+  is not that. Writing `marks = ticks.size, outOf = totalItems` into
+  `bestMarks`/`outOf` puts a number in the shared document that means one thing
+  on the phone and another on the web, and `recordStationRun` compares the two
+  as if they were the same scale — so a genuinely better run can fail to
+  replace a worse one. Score exactly as the web does.
+- **`Decision` and `LabQuestion` must carry how many answerable options were
+  authored.** The web counts only stages with at least one non-blank option
+  (`PracticalRunner.tsx:421`, `:544`, and the comments above both explaining
+  that a stage with no options is not a question). `steps` and `items` are
+  "always the latest" while `lastStep` and `done` are monotonic maxima, so an
+  Android client counting unanswerable stages pushes `lastStep` above the
+  `steps` the web later writes, and the student reads "5 of 3". Project the
+  count of authored answers whose text is non-blank, and filter on it.
+
+Do not port the web's option/`correct` model itself — the reveal-style reader
+Step 4 specifies is deliberate and stays. Only the counts and ids cross into
+the shared document, and only those are in scope here.
+
 - [ ] **Step 5: Wire Practical into the shell**
 
 The `practical` route in `RootScreen.kt` is still the stub Task 12 left, so
