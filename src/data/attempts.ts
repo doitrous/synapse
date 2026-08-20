@@ -14,7 +14,7 @@ import type { Difficulty } from './qbank'
  */
 
 /** Which runner produced the record. */
-export type AttemptSurface = 'qbank' | 'case' | 'lab' | 'station' | 'room'
+export type AttemptSurface = 'qbank' | 'case' | 'lab' | 'station' | 'room' | 'card'
 
 export interface AttemptRecord {
   id: string
@@ -33,6 +33,12 @@ export interface AttemptRecord {
    * A station is ticked by the student against a checklist, so it is evidence
    * of practice and says nothing about correctness. Storing `false` there would
    * quietly drag every accuracy figure down; storing `true` would inflate it.
+   *
+   * A flashcard grade is the same kind of self-report, not a mark: the student
+   * is saying how well they knew the card, not confirming a keyed answer. Good
+   * and Again are recorded here as `null` for the same reason a station is —
+   * `true` for Good and `false` for Again would look reasonable and quietly
+   * corrupt every accuracy figure in the app with self-graded data.
    */
   correct: boolean | null
   /** Null when the item was untimed. */

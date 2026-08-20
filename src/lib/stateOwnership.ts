@@ -17,6 +17,7 @@ const USER_OWNED_PATTERNS = [
   /^synapse-notification-read-v1-/,
   /^synapse-applied-voucher-v1$/,
   /^synapse\.qbank\./,
+  /^synapse\.flashcards\./,
   /^synapse\.practical\./,
   /^synapse\.highlights\./,
   /^synapse\.annotations\./,

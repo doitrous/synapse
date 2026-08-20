@@ -24,12 +24,14 @@ enum StateOwnership {
             "^synapse-notification-read-v1-",
             "^synapse-applied-voucher-v1$",
             "^synapse\\.qbank\\.",
+            "^synapse\\.flashcards\\.",
             "^synapse\\.practical\\.",
             "^synapse\\.highlights\\.",
             "^synapse\\.annotations\\.",
             "^synapse\\.reader\\.",
             "^synapse\\.bookmarks\\.",
             "^synapse\\.progress\\.",
+            "^synapse\\.myDocuments\\.",
         ]
         return sources.compactMap { try? NSRegularExpression(pattern: $0) }
     }()
