@@ -71,7 +71,7 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
   { id: 'notifications', label: 'Student Notifications', to: '/admin/notifications', icon: BellRing, group: 'Operations',
     stateKeys: ['synapse-notification-campaigns-v1'], apiPrefixes: [] },
   { id: 'users', label: 'Users', to: '/admin/users', icon: UserCog, group: 'Operations',
-    stateKeys: [], apiPrefixes: ['/api/admin/users', '/api/access/users'] },
+    stateKeys: [], apiPrefixes: ['/api/admin/users'] },
   { id: 'students', label: 'Students', to: '/admin/students', icon: Users, group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/students'] },
   { id: 'payments', label: 'Payments & Finance', to: '/admin/payments', icon: Banknote, group: 'Operations',

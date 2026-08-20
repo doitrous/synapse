@@ -978,17 +978,12 @@ app.post('/api/admin/users/:id/scope', requireTab('users'), wrap(async (req, res
   res.json(result)
 }))
 
-app.get('/api/access/users', requireTab('users'), wrap(async (_req, res) => {
-  const [rows] = await pool.query(
-    'SELECT user_id AS userId, email, role, status, promoted_by AS promotedBy, promoted_at AS promotedAt, created_at AS createdAt FROM user_access ORDER BY created_at DESC',
-  )
-  res.json(rows)
-}))
-
-/* `POST /api/access/users/:userId/promote` used to live here. It wrote the same
-   `user_access.role` column as the route above while checking neither the
-   actor's rank nor a self-edit, which under a hierarchy is an escalation route
-   rather than a duplication. One door, one lock: use the role endpoint. */
+/* `GET /api/access/users` and `POST /api/access/users/:userId/promote` used to
+   live here, behind the Students tab's own panel. The promote route wrote the
+   same `user_access.role` column as `/api/admin/users/:id/role` while checking
+   neither the actor's rank nor a self-edit, which under a hierarchy is an
+   escalation route rather than a duplication. Both are gone with that panel:
+   roles are changed in Users, one door with one lock. */
 
 app.get('/api/backups', requireTab('audit'), wrap(async (_req, res) => {
   const [rows] = await pool.query(

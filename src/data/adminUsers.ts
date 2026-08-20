@@ -10,7 +10,8 @@
  */
 
 export type AccessStatus = 'active' | 'suspended'
-export type UserRole = 'student' | 'admin'
+/** Mirrors `STORED_ROLES` plus the super admin the server derives from an email. */
+export type UserRole = 'student' | 'reviewer' | 'admin' | 'editor' | 'super_admin'
 export type EntitlementState = 'none' | 'trialing' | 'active' | 'expired' | 'cancelled'
 
 export interface AdminUserIdentity {
@@ -18,6 +19,8 @@ export interface AdminUserIdentity {
   role: UserRole | null
   accessStatus: AccessStatus | null
   createdAt: string | null
+  /** A reviewer's assigned modules and years. Null for every other role. */
+  contentScope?: { moduleIds: string[]; yearIds: string[] } | null
 }
 
 export interface AdminUserSubscription {

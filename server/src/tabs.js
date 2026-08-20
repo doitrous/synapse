@@ -62,7 +62,7 @@ export const ADMIN_TABS = [
   { id: 'notifications', to: '/admin/notifications', group: 'Operations',
     stateKeys: ['synapse-notification-campaigns-v1'], apiPrefixes: [] },
   { id: 'users', to: '/admin/users', group: 'Operations',
-    stateKeys: [], apiPrefixes: ['/api/admin/users', '/api/access/users'] },
+    stateKeys: [], apiPrefixes: ['/api/admin/users'] },
   { id: 'students', to: '/admin/students', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/students'] },
   { id: 'payments', to: '/admin/payments', group: 'Operations',
