@@ -53,6 +53,7 @@ import { QuestionEditorDialog } from '@/components/admin/QuestionEditorDialog'
 import { LibraryArticleEditorDialog } from '@/components/admin/LibraryArticleEditorDialog'
 import { PracticalEditorDialog } from '@/components/admin/PracticalEditorDialog'
 import { ResourceEditorDialog } from '@/components/admin/ResourceEditorDialog'
+import { EssayEditorDialog } from '@/components/admin/EssayEditorDialog'
 import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
@@ -148,6 +149,10 @@ function itemSummary(item: ManagedContentItem) {
   if (item.kind === 'practical') {
     const unit = item.fields.Type === 'Clinical case' ? 'decisions' : item.fields.Type?.includes('interpretation') ? 'questions' : 'marks'
     return `${item.fields.Type} · ${item.fields.Duration} min · ${item.fields.Marks} ${unit}`
+  }
+  if (item.kind === 'essay') {
+    const points = item.essayData?.keyPoints.length ?? 0
+    return `${points} key point${points === 1 ? '' : 's'}`
   }
   return `${item.fields.Type} · ${item.fields.Source}`
 }
@@ -799,6 +804,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
         <PracticalEditorDialog open={editorOpen} item={editing} concepts={conceptGraph} contentItems={items} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'resource' ? (
         <ResourceEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+      ) : activeKind === 'essay' ? (
+        <EssayEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : (
         <ContentEditorDialog open={editorOpen} kind={activeKind} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       )}
