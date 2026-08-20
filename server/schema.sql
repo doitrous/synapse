@@ -49,11 +49,14 @@ CREATE TABLE IF NOT EXISTS user_state_versions (
 CREATE TABLE IF NOT EXISTS user_access (
   user_id       VARCHAR(64) PRIMARY KEY,
   email         VARCHAR(255),
-  role          ENUM('student','admin') NOT NULL DEFAULT 'student',
+  role          ENUM('student','reviewer','admin','editor') NOT NULL DEFAULT 'student',
   status        ENUM('active','suspended') NOT NULL DEFAULT 'active',
   -- A second factor is offered to everyone and forced on nobody. This records
   -- that an account asked to be held to aal2; see mfaSatisfied in auth.js.
   mfa_required  BOOLEAN NOT NULL DEFAULT 0,
+  -- Which modules and years a reviewer may write. NULL means none: a reviewer
+  -- with no assignment holds no content. Editors and super admins ignore it.
+  content_scope JSON NULL,
   promoted_by   VARCHAR(64),
   promoted_at   DATETIME,
   created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

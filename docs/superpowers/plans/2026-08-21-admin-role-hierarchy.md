@@ -131,25 +131,24 @@ In `server/src/db.js`, immediately after the `mfa_required` block (which ends wi
     }
 ```
 
-- [ ] **Step 3: Verify against a database**
+- [ ] **Step 3: Verify it parses**
 
-This is a schema change, so it is verified by running rather than by a unit test.
+Run: `cd server && node --check src/db.js`
+Expected: no output.
 
-Run: `cd server && npm run migrate`
-Expected: `✓ schema applied`
+- [ ] **Step 4: Verify against the database — on deploy, not locally**
 
-Then confirm both changes landed:
+There are no database credentials in this worktree (`server/.env.example` only), so this cannot be checked here. `migrate()` runs at server boot (`server/src/index.js:1414`), so the change applies on the next Coolify deploy. After that deploy, confirm both landed:
 
-```bash
-cd server && node --env-file-if-exists=.env -e "import('./src/db.js').then(async ({pool})=>{const [r]=await pool.query(\"SELECT COLUMN_NAME, COLUMN_TYPE FROM information_schema.columns WHERE table_schema=DATABASE() AND table_name='user_access' AND COLUMN_NAME IN ('role','content_scope')\");console.log(r);await pool.end()})"
+```sql
+SELECT COLUMN_NAME, COLUMN_TYPE FROM information_schema.columns
+ WHERE table_schema = DATABASE() AND table_name = 'user_access'
+   AND COLUMN_NAME IN ('role', 'content_scope');
 ```
 
-Expected: two rows — `role` with type `enum('student','reviewer','admin','editor')`, and `content_scope` with type `json`.
+Expected: `role` reads `enum('student','reviewer','admin','editor')`. **`content_scope` reads `longtext`, not `json`** — MariaDB implements JSON as a LONGTEXT alias with a validity constraint, and `information_schema` reports the underlying type. That is correct, not a failed migration.
 
-- [ ] **Step 4: Run it a second time to prove it is idempotent**
-
-Run: `cd server && npm run migrate`
-Expected: `✓ schema applied` again, with no error.
+Idempotency is proven by the second boot rather than a second command: both guards are existence checks, so a restart re-runs them and does nothing.
 
 - [ ] **Step 5: Commit**
 

@@ -46,6 +46,31 @@ export async function migrate() {
       )
     }
 
+    // The console grew from two roles to four. The lookup is on the column type
+    // rather than a marker, so a database restored from a dump that already has
+    // the wider enum boots without repeating the ALTER, and one that does not
+    // gets it. It never narrows, so an existing row keeps its value.
+    const [roleColumn] = await conn.query(
+      `SELECT COLUMN_TYPE AS type FROM information_schema.columns
+        WHERE table_schema = DATABASE() AND table_name = 'user_access' AND column_name = 'role'`,
+    )
+    if (roleColumn.length && !roleColumn[0].type.includes("'editor'")) {
+      await conn.query(
+        `ALTER TABLE user_access MODIFY COLUMN role
+           ENUM('student','reviewer','admin','editor') NOT NULL DEFAULT 'student'`,
+      )
+    }
+
+    // Which modules and years a reviewer may write. Added by lookup, like every
+    // column above, so a database that already has it still boots.
+    const [scopeColumn] = await conn.query(
+      `SELECT 1 FROM information_schema.columns
+        WHERE table_schema = DATABASE() AND table_name = 'user_access' AND column_name = 'content_scope'`,
+    )
+    if (!scopeColumn.length) {
+      await conn.query('ALTER TABLE user_access ADD COLUMN content_scope JSON NULL AFTER mfa_required')
+    }
+
     // Sign-up now asks for a phone number and a nationality, and the number has
     // to be unique or the same person can register twice under two emails.
     // Added by lookup rather than a marker, so a database restored from a dump
