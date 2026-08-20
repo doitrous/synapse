@@ -35,6 +35,7 @@ import {
   Compass,
   Scale,
   Bot,
+  Grid3x3,
 } from 'lucide-react'
 
 export type Portal = 'student' | 'admin'
@@ -81,6 +82,7 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Whiteboard', to: '/app/whiteboard', icon: PenTool },
       { label: 'Notebook', to: '/app/notebook', icon: Notebook },
+      { label: 'Term Grid', to: '/app/term-grid', icon: Grid3x3 },
       { label: 'Study Together', to: '/app/study-together', icon: Users },
     ],
   },

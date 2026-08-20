@@ -73,6 +73,7 @@ const AdaptiveStudy = lazyNamed(() => import('@/pages/student/AdaptiveStudy'), '
 const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resources')
 const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
 const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'), 'MedicalTaxonomy')
+const TermGridPage = lazyNamed(() => import('@/components/termgrid/TermGridPage'), 'TermGridPage')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
 const EssayQuestions = lazyNamed(() => import('@/pages/student/EssayQuestions'), 'EssayQuestions')
 const CalendarPage = lazyNamed(() => import('@/pages/student/Calendar'), 'CalendarPage')
@@ -123,6 +124,7 @@ const studentPages: Record<string, Preloadable> = {
   adaptive: AdaptiveStudy,
   resources: Resources,
   taxonomy: MedicalTaxonomy,
+  'term-grid': TermGridPage,
   practical: Practical,
   essays: EssayQuestions,
   calendar: CalendarPage,
@@ -173,7 +175,7 @@ const adminBuilt: Record<string, ReactElement> = {
   assistant: render(AssistantSetup),
 }
 
-const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'essays', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
+const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'essays', 'resources', 'taxonomy', 'term-grid', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
 const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'written', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
 
 const studentRoutes = [

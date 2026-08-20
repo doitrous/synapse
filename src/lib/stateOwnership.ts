@@ -29,6 +29,7 @@ const USER_OWNED_PATTERNS = [
   // every write — so the demo build's document list was silently inert and the
   // live build spent a retry budget on a document it could never have.
   /^synapse\.myDocuments\./,
+  /^synapse\.termgrid\./,
 ]
 
 export function isUserOwnedState(key: string): boolean {
