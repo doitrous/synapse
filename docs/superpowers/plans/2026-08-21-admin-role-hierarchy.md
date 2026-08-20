@@ -176,13 +176,14 @@ EOF
 - Consumes: nothing.
 - Produces:
   - `ROLE_RANK: Record<'student'|'reviewer'|'admin'|'editor'|'super_admin', number>`
+  - Role management starts at rank 2 (`ROLE_MANAGER_RANK`), module-private
   - `CONSOLE_ROLES: string[]` — every role with rank ≥ 1
   - `STORED_ROLES: string[]` — the four values the enum accepts
   - `parseSuperAdminEmails(raw: string): string[]`
   - `effectiveRole(email, storedRole, superAdminEmails): string`
   - `rank(role: string): number`
   - `canSetRole(actorRole, targetRole, nextRole): boolean`
-  - `assignableRoles(actorRole): string[]`
+  - `assignableRoles(actorRole, targetRole = 'student'): string[]` — defined via `canSetRole`, so a control cannot offer what the route would refuse
   - `hasConsoleAccess(role): boolean`
 
 - [ ] **Step 1: Write the failing server test**
@@ -362,7 +363,7 @@ export function assignableRoles(actorRole) {
 - [ ] **Step 4: Run the server test to verify it passes**
 
 Run: `cd server && node --test src/roles.test.js`
-Expected: PASS — 10 tests.
+Expected: PASS — 13 tests.
 
 - [ ] **Step 5: Write the client mirror `src/data/adminRoles.ts`**
 
@@ -474,6 +475,11 @@ EOF
 ```
 
 ---
+
+> **Amended during execution.** Two refinements came out of writing the tests, and both are in the shipped code:
+>
+> 1. `assignableRoles` takes the **target** as well as the actor. Without it, an actor who merely outranks a student was offered "student" — a change that does nothing, rendered as a one-option dropdown. It is now defined as `STORED_ROLES.filter((role) => canSetRole(actor, target, role))`, so the control and the route cannot disagree by construction.
+> 2. Role management requires **rank ≥ 2** (`ROLE_MANAGER_RANK`). Outranking somebody is not enough: the brief gives promote/demote to Super admin and Editor only, so an Admin or Reviewer now has none of it — even over a student. Admin keeps the rest of the Users tab; promotion is the one thing that is not theirs.
 
 ## Task 3: Give every request its real role, rank and scope
 
