@@ -51,6 +51,9 @@ struct ArticleReaderView: View {
         .navigationTitle(article.title)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                AssistantButton(surface: "Library")
+            }
             if let library {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {

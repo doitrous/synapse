@@ -13,6 +13,9 @@ struct SignedInView: View {
     @State private var failure: String?
     @State private var strings = Localisation()
     @State private var theme = ThemeStore()
+    /// One assistant for the app: the quota is a single server fact, and a
+    /// conversation should survive moving between surfaces.
+    @State private var assistant = AssistantModel()
     /// Which tab is showing, so a screen settles on arrival rather than on
     /// every redraw.
     @State private var tab = Destination.today
@@ -41,6 +44,7 @@ struct SignedInView: View {
         // stack, list and navigation bar beneath it at once.
         .environment(\.strings, strings)
         .environment(\.themeStore, theme)
+        .environment(\.assistant, assistant)
         // The palette is read through static members, so a change repaints by
         // rebuilding the tree beneath rather than by observation.
         .id(theme.appearance)
@@ -49,6 +53,9 @@ struct SignedInView: View {
         .task {
             await start()
             await strings.load()
+            // Asked once, at the root: every entry point checks the answer
+            // before drawing itself.
+            await assistant.loadStatus()
         }
     }
 
@@ -100,6 +107,7 @@ struct SignedInView: View {
             let store = try LocalStore(path: LocalStore.defaultURL().path)
             let sync = SyncEngine(api: auth.api, store: store)
             strings = Localisation(api: auth.api, sync: sync)
+            assistant = AssistantModel(api: auth.api)
             let audienceStore = AudienceStore(api: auth.api, store: store, sync: sync)
             container = Container(store: store, sync: sync, audienceStore: audienceStore)
 
