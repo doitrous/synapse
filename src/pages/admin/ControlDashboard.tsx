@@ -157,6 +157,13 @@ function itemSummary(item: ManagedContentItem) {
     const points = item.essayData?.keyPoints.length ?? 0
     return `${points} key point${points === 1 ? '' : 's'}`
   }
+  if (item.kind === 'histology') {
+    // Without this a slide fell through to the resource line below and rendered
+    // "undefined · undefined" — a slide has neither a Type nor a Source field.
+    const data = item.histologyData
+    const objectives = (data?.views ?? []).map((view) => `${view.objective}×`).join(' · ')
+    return [data?.tissue, data?.stain, objectives].filter(Boolean).join(' · ')
+  }
   return `${item.fields.Type} · ${item.fields.Source}`
 }
 
