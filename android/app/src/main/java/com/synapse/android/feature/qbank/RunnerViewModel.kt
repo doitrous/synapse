@@ -26,6 +26,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.flow.updateAndGet
 import kotlinx.serialization.json.Json
 
 /**
@@ -57,6 +58,15 @@ private object RealTicker : Ticker {
  * [backgroundScope] -- deliberately not `viewModelScope`, so a JVM test can
  * drive this class with no `Dispatchers.Main` to install, the same reason
  * `QuestionBankViewModel` avoids it.
+ *
+ * [backgroundScope] runs on [Dispatchers.Default], a real thread pool, and
+ * [tick] is the one thing in this class that writes [_session] from it --
+ * every screen-driven call ([choose], [commit], [goTo], [finish]) writes
+ * from the caller's own thread. That makes two threads capable of writing
+ * concurrently, so every write here goes through [MutableStateFlow.update]
+ * or [MutableStateFlow.updateAndGet] (an atomic compare-and-set retry loop)
+ * rather than a read-`.value`-then-set-`.value`, which would let a tick
+ * landing in between silently revert to the reader's stale snapshot.
  */
 class RunnerViewModel(
     initialSession: LiveSession,
@@ -114,10 +124,16 @@ class RunnerViewModel(
      * Records which option the student is looking at right now. Not
      * persisted on its own -- see the class doc -- [commit] is what makes a
      * pick durable.
+     *
+     * The question/option to record is decided from a plain snapshot -- only
+     * [tick] writes concurrently, and it never touches [LiveSession.idx] or
+     * [LiveSession.answers] -- but the write itself goes through
+     * [MutableStateFlow.update] rather than a read-then-set, so a tick
+     * racing this call can never be clobbered by it. See the class doc.
      */
     fun choose(label: String) {
-        val current = _session.value
-        val questionId = current.questionIds.getOrNull(current.idx) ?: return
+        val snapshot = _session.value
+        val questionId = snapshot.questionIds.getOrNull(snapshot.idx) ?: return
         val question = questionsById[questionId]
         if (question == null) {
             warnUnresolved(questionId)
@@ -125,7 +141,7 @@ class RunnerViewModel(
         }
         val optionIndex = question.options.indexOfFirst { it.label == label }
         if (optionIndex < 0) return
-        _session.value = current.copy(answers = current.answers + (questionId to optionIndex))
+        _session.update { cur -> cur.copy(answers = cur.answers + (questionId to optionIndex)) }
     }
 
     /**
@@ -139,25 +155,21 @@ class RunnerViewModel(
      * the two modes are pinned to write at different moments.
      */
     fun commit() {
-        val current = _session.value
-        val questionId = current.questionIds.getOrNull(current.idx) ?: return
+        val snapshot = _session.value
+        val questionId = snapshot.questionIds.getOrNull(snapshot.idx) ?: return
         val question = questionsById[questionId]
         if (question == null) {
             warnUnresolved(questionId)
             return
         }
-        val chosenIndex = current.answers[questionId] ?: return
+        val chosenIndex = snapshot.answers[questionId] ?: return
         val label = question.options.getOrNull(chosenIndex)?.label ?: return
+        val isTutor = snapshot.mode == SittingMode.TUTOR
 
-        val updated = if (current.mode == SittingMode.TUTOR) {
-            current.copy(checked = current.checked + (questionId to true))
-        } else {
-            current
-        }
-        persist(updated)
+        val updated = persist { cur -> if (isTutor) cur.copy(checked = cur.checked + (questionId to true)) else cur }
 
-        if (current.mode == SittingMode.TUTOR) {
-            backgroundScope.launch { recordAttempt(question, label, seconds = null, sessionId = current.sessionId) }
+        if (isTutor) {
+            backgroundScope.launch { recordAttempt(question, label, seconds = null, sessionId = updated.sessionId) }
         }
     }
 
@@ -166,11 +178,15 @@ class RunnerViewModel(
      * [stateOf] can tell "skipped" from "not reached".
      */
     fun goTo(index: Int) {
-        val current = _session.value
-        if (index !in current.questionIds.indices) return
-        val visited = if (current.idx in current.visited) current.visited else current.visited + current.idx
-        current.questionIds.getOrNull(index)?.let { openedAtElapsed.putIfAbsent(it, current.elapsed) }
-        persist(current.copy(idx = index, visited = visited))
+        val snapshot = _session.value
+        if (index !in snapshot.questionIds.indices) return
+        val updated = persist { cur ->
+            val visited = if (cur.idx in cur.visited) cur.visited else cur.visited + cur.idx
+            cur.copy(idx = index, visited = visited)
+        }
+        // Baselined against the elapsed the CAS actually committed, not the
+        // snapshot read before it -- see the class doc on the ticker race.
+        updated.questionIds.getOrNull(index)?.let { openedAtElapsed.putIfAbsent(it, updated.elapsed) }
     }
 
     /**
@@ -184,17 +200,24 @@ class RunnerViewModel(
      * re-log every answered question and double the index's totals.
      */
     fun finish() {
-        val current = _session.value
-        if (current.phase == PHASE_RESULTS) return
+        val snapshot = _session.value
+        if (snapshot.phase == PHASE_RESULTS) return
         tickerJob?.cancel()
 
-        val newlyChecked = current.answers.keys.associateWith { true }
-        val updated = current.copy(phase = PHASE_RESULTS, reviewing = true, checked = current.checked + newlyChecked)
-        persist(updated)
+        val updated = persist { cur ->
+            val newlyChecked = cur.answers.keys.associateWith { true }
+            cur.copy(phase = PHASE_RESULTS, reviewing = true, checked = cur.checked + newlyChecked)
+        }
 
-        if (current.mode == SittingMode.TIMED) {
+        if (snapshot.mode == SittingMode.TIMED) {
+            // Snapshotted before the launch: openedAtElapsed is a plain,
+            // non-thread-safe map, written on the caller's thread (goTo) and
+            // otherwise only ever read here, in a coroutine that can run on
+            // a different Dispatchers.Default thread. A goTo during review
+            // could otherwise structurally modify it while this iterates.
+            val baselines = openedAtElapsed.toMap()
             backgroundScope.launch {
-                for ((questionId, optionIndex) in current.answers) {
+                for ((questionId, optionIndex) in updated.answers) {
                     val question = questionsById[questionId]
                     if (question == null) {
                         warnUnresolved(questionId)
@@ -204,9 +227,12 @@ class RunnerViewModel(
                     // No baseline means the sitting was resumed after this
                     // question was already answered (a force-quit, say) --
                     // record that honestly as "unknown", never as 0 seconds.
-                    val openedAt = openedAtElapsed[questionId]
-                    val seconds = openedAt?.let { maxOf(0, current.elapsed - it) }
-                    recordAttempt(question, label, seconds, sessionId = current.sessionId)
+                    val openedAt = baselines[questionId]
+                    // updated.elapsed -- the CAS-committed value, not a
+                    // pre-CAS read -- so a tick that landed concurrently
+                    // with this finish() is never silently dropped.
+                    val seconds = openedAt?.let { maxOf(0, updated.elapsed - it) }
+                    recordAttempt(question, label, seconds, sessionId = updated.sessionId)
                 }
             }
         }
@@ -231,9 +257,17 @@ class RunnerViewModel(
         return QuestionState.ANSWERED
     }
 
-    private fun persist(updated: LiveSession) {
-        _session.value = updated
+    /**
+     * Applies [transform] atomically -- [MutableStateFlow.updateAndGet] is a
+     * compare-and-set retry loop, so [transform] must be pure; it can run
+     * more than once if [tick] wins a race in between attempts. The actual
+     * side effect (the write) happens once, outside the lambda, using the
+     * value the CAS actually committed.
+     */
+    private fun persist(transform: (LiveSession) -> LiveSession): LiveSession {
+        val updated = _session.updateAndGet(transform)
         backgroundScope.launch { sync.write(LiveSession.KEY, json.encodeToString(LiveSession.serializer(), updated)) }
+        return updated
     }
 
     /**

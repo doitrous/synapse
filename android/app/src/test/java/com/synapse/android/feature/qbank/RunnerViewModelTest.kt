@@ -17,8 +17,14 @@ import com.synapse.android.core.qbank.SittingMode
 import com.synapse.android.core.sync.SyncEngine
 import java.time.Instant
 import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.atomic.AtomicInteger
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.awaitCancellation
+import kotlinx.coroutines.cancelAndJoin
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
 import kotlinx.serialization.json.Json
@@ -29,6 +35,7 @@ import okhttp3.mockwebserver.MockWebServer
 import okhttp3.mockwebserver.RecordedRequest
 import org.junit.After
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Before
@@ -185,6 +192,62 @@ class RunnerViewModelTest {
 
         /** Never suspends: succeeds only if the loop is waiting right now. */
         fun tryAdvance(): Boolean = channel.trySend(Unit).isSuccess
+    }
+
+    /**
+     * Ticks [limit] times as fast as [Dispatchers.Default] will schedule it
+     * -- no delay at all -- then parks forever, so a test can race it
+     * against a real concurrent mutator (unlike [ManualTicker], which is
+     * driven by hand and never overlaps a tick with a mutator call).
+     */
+    private class BoundedTicker(private val limit: Int) : Ticker {
+        private val count = AtomicInteger(0)
+        val done = CompletableDeferred<Unit>()
+
+        override suspend fun await() {
+            if (count.incrementAndGet() > limit) {
+                done.complete(Unit)
+                awaitCancellation()
+            }
+        }
+    }
+
+    @Test
+    fun `concurrent ticks are never lost to a racing mutator`() = runBlocking {
+        val q1 = question("q1", correctLabel = "A")
+        val ticks = 3_000
+        val ticker = BoundedTicker(ticks)
+        val viewModel = RunnerViewModel(
+            sessionOf(SittingMode.TIMED, listOf(q1.id)),
+            listOf(q1),
+            store,
+            sync,
+            ticker,
+        )
+
+        var lastSeen = 0
+        var everDecreased = false
+        // A real background thread (Dispatchers.Default), hammering a
+        // mutator that goes through the same persist() path as commit() and
+        // finish() -- exactly what the ticker now races against for real.
+        val mutatorJob = launch(Dispatchers.Default) {
+            while (!ticker.done.isCompleted) {
+                viewModel.goTo(0)
+                val now = viewModel.session.value.elapsed
+                if (now < lastSeen) everDecreased = true
+                lastSeen = now
+            }
+        }
+
+        withTimeout(10_000) { ticker.done.await() }
+        mutatorJob.cancelAndJoin()
+
+        assertFalse("elapsed must never be observed going backwards while ticking", everDecreased)
+        assertEquals(
+            "every tick must survive a concurrently racing goTo(), or the sitting's clock undercounts",
+            ticks,
+            viewModel.session.value.elapsed,
+        )
     }
 
     @Test
