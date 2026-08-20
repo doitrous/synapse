@@ -307,6 +307,14 @@ class SupabaseAuthBackend(
 
     override suspend fun accessToken(): String? = try {
         readToken()
+    } catch (e: CancellationException) {
+        // Not a token failure -- the caller's scope died mid-read. Rethrow
+        // rather than recording it: a null return here reads as "no
+        // session" to SynapseApi, which would send an unauthenticated
+        // request on the way out of a cancelled scope, and lastTokenError
+        // would carry a misleading breadcrumb about a read that never
+        // actually failed.
+        throw e
     } catch (e: Exception) {
         // Swallowing this silently once cost the iOS app hours: the request
         // went out with no Authorization header, the API answered 401, and

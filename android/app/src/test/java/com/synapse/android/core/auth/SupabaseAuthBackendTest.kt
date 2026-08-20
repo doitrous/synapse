@@ -1,9 +1,11 @@
 package com.synapse.android.core.auth
 
 import com.synapse.android.core.config.AppConfig
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.runBlocking
 import okhttp3.OkHttpClient
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertNull
 import org.junit.Test
 
@@ -39,6 +41,22 @@ class SupabaseAuthBackendTest {
 
         assertNull(token)
         assertEquals("keystore unavailable", SupabaseAuthBackend.lastTokenError)
+    }
+
+    @Test fun `a cancelled token read propagates instead of returning null`() = runBlocking {
+        val errorBefore = SupabaseAuthBackend.lastTokenError
+        val backend = backend(tokenReader = { throw CancellationException("scope cancelled") })
+
+        var propagated: CancellationException? = null
+        try {
+            backend.accessToken()
+        } catch (e: CancellationException) {
+            propagated = e
+        }
+
+        assertNotNull("CancellationException should have propagated out of accessToken", propagated)
+        // Not a token failure -- must not leave a misleading breadcrumb.
+        assertEquals(errorBefore, SupabaseAuthBackend.lastTokenError)
     }
 
     private class FakeSessionStore : SessionStore {
