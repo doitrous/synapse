@@ -1,0 +1,188 @@
+/**
+ * How two people save the same document without one erasing the other.
+ *
+ * Every admin surface persists by replacing a whole JSON document, and all four
+ * content kinds live in one of them. With two admins a lost update was rare;
+ * with a team of reviewers it is the normal case. So a save is no longer a
+ * replacement: the client sends the version it started from, and this works out
+ * what that client actually changed, whether it was allowed to, and applies
+ * only that onto whatever is stored now.
+ *
+ * Documents that are keyed collections merge item by item. Everything else is
+ * still whole-document, but the caller's base version is checked, so a stale
+ * write is refused rather than silently winning.
+ */
+
+import { changeWritableBy } from './contentScope.js'
+
+const LEDGER = 'synapse-admin-content-ledger-v4'
+const GRAPH = 'synapse-concept-graph-v2'
+
+/**
+ * How to take a document apart, per key.
+ *
+ * `tabsFor` is what makes one shared document answer to five different tabs: a
+ * question edit needs Questions Setup, an article edit needs Library Setup, and
+ * neither is granted by the other.
+ */
+const ADAPTERS = {
+  [LEDGER]: {
+    collections: [{
+      name: 'items',
+      read: (document) => (Array.isArray(document) ? document : []),
+      write: (_document, items) => items,
+      kindOf: (item) => item?.kind ?? 'unknown',
+      tabsFor: (kind) => ({
+        article: ['library'], question: ['questions'], practical: ['practical'], resource: ['resources'],
+      }[kind] ?? []),
+    }],
+  },
+  [GRAPH]: {
+    collections: [
+      {
+        name: 'concepts',
+        read: (document) => (Array.isArray(document?.concepts) ? document.concepts : []),
+        write: (document, items) => ({ ...(document ?? {}), concepts: items }),
+        kindOf: () => 'concept',
+        tabsFor: () => ['concepts'],
+      },
+      {
+        name: 'relations',
+        read: (document) => (Array.isArray(document?.relations) ? document.relations : []),
+        write: (document, items) => ({ ...(document ?? {}), relations: items }),
+        kindOf: () => 'relation',
+        tabsFor: () => ['relationships'],
+      },
+    ],
+  },
+}
+
+export function isMergeable(key) {
+  return Boolean(ADAPTERS[key])
+}
+
+/** Stable across key order, so a re-serialised item is not a phantom change. */
+function fingerprint(value) {
+  if (value === null || value === undefined) return 'null'
+  if (typeof value !== 'object') return JSON.stringify(value)
+  if (Array.isArray(value)) return `[${value.map(fingerprint).join(',')}]`
+  return `{${Object.keys(value).sort()
+    .filter((key) => value[key] !== undefined)
+    .map((key) => `${JSON.stringify(key)}:${fingerprint(value[key])}`)
+    .join(',')}}`
+}
+
+function byId(items) {
+  return new Map(items.filter((item) => item && typeof item.id === 'string').map((item) => [item.id, item]))
+}
+
+/**
+ * What changed between two versions of a document, item by item.
+ *
+ * A change carries both sides because authorisation needs both — see
+ * `changeWritableBy`.
+ */
+export function diffDocument(key, base, next) {
+  const adapter = ADAPTERS[key]
+  if (!adapter) return []
+  const changes = []
+  for (const collection of adapter.collections) {
+    const before = byId(collection.read(base))
+    const after = byId(collection.read(next))
+    for (const id of new Set([...before.keys(), ...after.keys()])) {
+      const from = before.get(id) ?? null
+      const to = after.get(id) ?? null
+      if (from && to && fingerprint(from) === fingerprint(to)) continue
+      const kind = collection.kindOf(to ?? from)
+      changes.push({
+        collection: collection.name,
+        id,
+        kind,
+        tabs: collection.tabsFor(kind),
+        before: from,
+        after: to,
+      })
+    }
+  }
+  return changes
+}
+
+/** True when the only difference between two items is their media requests. */
+function mediaRequestsOnly(before, after) {
+  if (!before || !after) return false
+  const strip = (item) => {
+    const copy = { ...item }
+    for (const block of ['questionData', 'articleData', 'practicalData']) {
+      if (copy[block]) copy[block] = { ...copy[block], mediaRequests: undefined }
+    }
+    return copy
+  }
+  return fingerprint(strip(before)) === fingerprint(strip(after))
+}
+
+/**
+ * Whether this caller may make these changes.
+ *
+ * Refusals are collected rather than thrown on the first one, so a person is
+ * told everything that is wrong at once. The caller applies none of it either
+ * way: a half-saved page is worse than a rejected one.
+ */
+export function authoriseChanges(changes, { heldTabs, contentScope }) {
+  const held = new Set(heldTabs ?? [])
+  const refusals = []
+  for (const change of changes) {
+    // A media request lives inside its owner, so sourcing an asset is a write
+    // to the owning item. Media Requests grants that one edit, and so does the
+    // owner's tab — but only that edit: anything else needs the owner's tab.
+    const allowed = mediaRequestsOnly(change.before, change.after)
+      ? [...change.tabs, 'media']
+      : change.tabs
+    if (!allowed.some((tab) => held.has(tab))) {
+      refusals.push({ id: change.id, reason: `${change.kind} "${change.id}" is not part of your role` })
+      continue
+    }
+    if (!changeWritableBy(contentScope, change.kind, change.before, change.after)) {
+      refusals.push({
+        id: change.id,
+        reason: `${change.kind} "${change.id}" is outside the modules and years assigned to you`,
+      })
+    }
+  }
+  return { ok: refusals.length === 0, refusals }
+}
+
+/**
+ * This caller's changes, applied onto what is stored now.
+ *
+ * An item both sides touched is a conflict and the whole save is refused. Two
+ * people who edited different items both keep their work, which is the point.
+ */
+export function mergeDocument(key, base, stored, incoming) {
+  const adapter = ADAPTERS[key]
+  if (!adapter) return { ok: true, value: incoming }
+
+  const conflicts = []
+  let value = stored
+  for (const collection of adapter.collections) {
+    const before = byId(collection.read(base))
+    const mine = byId(collection.read(incoming))
+    const theirs = byId(collection.read(stored))
+    const result = new Map(theirs)
+
+    for (const id of new Set([...before.keys(), ...mine.keys()])) {
+      const from = before.get(id) ?? null
+      const to = mine.get(id) ?? null
+      if (from && to && fingerprint(from) === fingerprint(to)) continue
+
+      const current = theirs.get(id) ?? null
+      if (fingerprint(current) !== fingerprint(from)) { conflicts.push(id); continue }
+
+      if (to) result.set(id, to)
+      else result.delete(id)
+    }
+    value = collection.write(value, [...result.values()])
+  }
+
+  if (conflicts.length) return { ok: false, conflicts }
+  return { ok: true, value }
+}
