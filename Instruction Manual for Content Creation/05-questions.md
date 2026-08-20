@@ -133,6 +133,9 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 
 | Key | Label | Values | Default |
 |---|---|---|---|
+| `format` | Question format | `single best answer` (default) · `multiple response` · `true or false` · `matching` · `completion` · `labelling` · `image-based` · `short answer` · `structured written` · `essay` · `comparison table` · `multipart written` | `single best answer` |
+| `written_parts` | Written parts | The marked subparts of a written question. **Required on a written format, refused on any other.** | `[]` |
+| `derived_from` | Derived from | What this was derived from, when it was derived rather than transcribed. | — |
 | `main_concept` | Main concept(s) | **At least one concept ID.** Name every concept the question genuinely tests — each one earns mastery evidence. Zero is an error. | — |
 | `concept_ids` | Concept IDs | Also-assessed concepts | `[]` |
 | `contextual_concept_ids` | Contextual concept IDs | Needed by the scenario, never assessed | `[]` |
@@ -535,3 +538,70 @@ testing does not exist.
 | A concept gains mastery the student never earned | You put a contextual concept in `main_concept` |
 | The worked explanation reads thin | You wrote `explanation_<correct>` as a justification rather than the teaching moment |
 | Question references a concept nobody authored | Author the concept first, or drop the question |
+
+---
+
+## Formats other than single best answer
+
+The bank was built around one shape — a stem, four to six lettered options, one
+correct letter. That is the commonest thing a faculty sets and it is not the
+only thing. Kasr Al Ainy's own Year 1 papers carry matching blocks (one EPE
+paper is twenty matching items out of thirty-two), true/false, completion,
+labelling, and written questions with several marked subparts.
+
+A source question in a format the product did not support used to leave two
+options: rewrite it as an MCQ, which loses what it was actually testing, or skip
+it — which lets the importer decide what students get taught. **Neither is
+acceptable.** Record the question as the thing it is.
+
+Leave `format` blank and you get `single best answer`, so nothing authored
+before formats existed needs changing. A format nobody recognises is an error,
+never a silent fallback.
+
+### Written questions
+
+A written format carries `written_parts` instead of lettered answers, and
+`correct_answer` is not required:
+
+```
+## written_parts
+### (a) 5 marks
+Enumerate the contents of the femoral triangle.
+Expects: Femoral nerve
+Expects: Femoral artery
+Expects: Femoral vein
+Concept: CON-MSK-0001
+
+### (b) 5 marks
+Summarise the ligaments of the hip joint.
+Expects: Iliofemoral ligament
+Concept: CON-MSK-0002
+Depends on: a
+```
+
+`Expects:` lines are a **mark scheme, not a model answer** — the components an
+answer must contain to earn the marks. A part whose mark scheme the paper never
+printed is kept rather than dropped; losing the question because its answer is
+unknown is the wrong trade.
+
+Name every concept the parts assess in `main_concept`. A question asking a
+student to compare two structures assesses both, and both should earn mastery.
+
+### The two derivation restrictions
+
+These are absolute, and the importer enforces them.
+
+1. **A written question may only be derived from an existing written question.**
+   Not from an MCQ, not from a true/false item, not from a textbook passage, not
+   from a concept.
+2. **A practical question may only be derived from an existing practical.**
+
+A written question is not an MCQ with the options removed. What a faculty asks a
+student to write, how many marks each part carries, and which components earn
+them are conventions of that faculty's papers — they cannot be inferred from a
+question that never had them. Invent one from an MCQ and you produce something
+that looks right and trains a student for an exam nobody sets.
+
+Everything else is free. An MCQ may become a matching item; a concept taken from
+a department book may become a true/false item; a written source question may
+inspire a non-written one — as long as the written original is captured too.

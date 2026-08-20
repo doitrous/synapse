@@ -11,6 +11,8 @@ export type PublicationGate = 'publishable' | 'needs_evidence' | 'faculty_review
 
 export type ContentKind = 'question' | 'article' | 'practical' | 'resource' | 'deck' | 'essay' | 'histology'
 
+import type { QuestionFormat, WrittenPart } from './questionFormat.ts'
+
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
 export type AnswerLabel = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
@@ -217,6 +219,24 @@ export interface QuestionTags {
 }
 
 export interface QuestionAuthoringData {
+  /**
+   * What kind of question this is. Absent means `mcq_single_best`, so every
+   * question authored before formats existed keeps working untouched.
+   */
+  format?: QuestionFormat
+  /**
+   * The marked subparts of a written question — present only on the written
+   * formats, where the marks and expected components *are* the question.
+   */
+  writtenParts?: WrittenPart[]
+  /**
+   * What this was derived from, when it was derived rather than transcribed.
+   * A written question may only be derived from another written question; the
+   * validator enforces that against this. See `questionFormat.ts`.
+   */
+  derivedFromFormat?: QuestionFormat | 'concept' | 'practical'
+  /** The question this was derived from, when there is one. */
+  derivedFromId?: string
   attachments: MediaAttachment[]
   correctAnswer: AnswerLabel
   answers: QuestionAnswerDraft[]
