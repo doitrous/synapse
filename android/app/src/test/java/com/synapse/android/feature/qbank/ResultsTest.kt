@@ -64,16 +64,21 @@ class ResultsTest {
     private val json = Json { ignoreUnknownKeys = true }
     private val namesSerializer = MapSerializer(String.serializer(), String.serializer())
 
-    // dailyCounts/currentStreak resolve "today" through the JVM's default
-    // zone (see AttemptStats.localDay) -- pinned to UTC for the run so a
-    // record timestamped mid-day never lands on a different calendar date
-    // than the test expects on a CI box with a different local zone.
+    // dailyCounts/currentStreak resolve "today" -- and every record's day --
+    // through the JVM's default zone (see AttemptStats.localDay), and that
+    // is deliberate: a student who studies at 11pm must not have it counted
+    // against tomorrow. Pinned here to a fixed, real-offset zone (Asia/Riyadh,
+    // UTC+3, no daylight saving) rather than UTC, so the tests are both
+    // deterministic on any CI box AND able to tell the local-calendar rule
+    // apart from a regression to ZoneOffset.UTC -- pinning to UTC itself
+    // would make that regression invisible, since systemDefault() and
+    // ZoneOffset.UTC would then compute identical dates.
     private lateinit var originalTimeZone: TimeZone
 
     @Before
     fun setUp() {
         originalTimeZone = TimeZone.getDefault()
-        TimeZone.setDefault(TimeZone.getTimeZone("UTC"))
+        TimeZone.setDefault(TimeZone.getTimeZone("Asia/Riyadh"))
         server = MockWebServer()
         server.dispatcher = object : Dispatcher() {
             override fun dispatch(request: RecordedRequest): MockResponse {
@@ -178,6 +183,24 @@ class ResultsTest {
         )
 
         assertEquals(2, AttemptStats.distinctItems(records))
+    }
+
+    @Test
+    fun `dailyCounts resolves a late-night attempt onto the student's local day, not UTC's`() {
+        val today = LocalDate.of(2026, 8, 20)
+        val records = listOf(
+            // 20:00Z is 23:00 local (UTC+3) -- 08-19 under either zone.
+            record(id = "z1", at = "2026-08-19T20:00:00Z"),
+            // 21:30Z is 00:30 local (UTC+3) the *next* day -- 08-20 local,
+            // but still 08-19 under UTC. This is the record a reading of
+            // ZoneOffset.UTC instead of the device zone would misfile.
+            record(id = "z2", at = "2026-08-19T21:30:00Z"),
+        )
+
+        val days = AttemptStats.dailyCounts(records, days = 2, today = today)
+
+        assertEquals(1, days.single { it.date == "2026-08-19" }.attempts)
+        assertEquals(1, days.single { it.date == "2026-08-20" }.attempts)
     }
 
     // -- ResultsViewModel --------------------------------------------------
