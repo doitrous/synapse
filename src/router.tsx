@@ -194,7 +194,7 @@ const studentApp = {
 
 const adminApp = {
   path: '/admin',
-  element: <RequireAuth role="admin"><AppShell portal="admin" /></RequireAuth>,
+  element: <RequireAuth console><AppShell portal="admin" /></RequireAuth>,
   children: [
     { index: true, element: render(ControlDashboard) },
     { path: 'import/:kind', element: render(BulkImportPage) },

@@ -4,6 +4,8 @@ import { usePersistentState } from './usePersistentState'
 import { retryAfterSignIn } from './stateStore'
 import { supabase } from './supabase'
 import { yearId as deriveYearId } from '@/data/taxonomy'
+import { STORED_ROLES, rank as rankOf, type EffectiveRole } from '@/data/adminRoles'
+import { TAB_IDS } from '@/data/adminTabs'
 
 /**
  * Who is using the app, from the sources that actually know.
@@ -30,6 +32,12 @@ export interface StudentAudience {
   /** The scoped year identifier content is tagged with, e.g. "OMS_Y3". */
   yearId: string
   group: string
+}
+
+/** The modules and years a reviewer may write. Null means unscoped. */
+export interface ContentScope {
+  moduleIds: string[]
+  yearIds: string[]
 }
 
 export interface IdentityProfile {
@@ -63,7 +71,13 @@ export interface Identity {
   status: IdentityStatus
   userId: string | null
   email: string | null
-  role: 'student' | 'admin' | null
+  role: EffectiveRole | null
+  /** 0 student, 1 reviewer/admin, 2 editor, 3 super admin. */
+  rank: number
+  /** The admin tabs this account holds, resolved by the server. */
+  tabs: string[]
+  /** A reviewer's assigned modules and years; null for everyone else. */
+  contentScope: ContentScope | null
   aal: 'aal1' | 'aal2' | null
   /** Never a fabricated person: the real name, else the email, else "Student". */
   displayName: string
@@ -87,13 +101,21 @@ const EMPTY_AUDIENCE: StudentAudience = { universityId: '', year: '', yearId: ''
 const NO_ENTITLEMENT: Entitlement = { state: 'none', plan: 'Free', expiresAt: null, daysLeft: null }
 
 const ANONYMOUS: Identity = {
-  status: 'loading', userId: null, email: null, role: null, aal: null,
+  status: 'loading', userId: null, email: null, role: null, rank: 0, tabs: [], contentScope: null, aal: null,
   displayName: 'Student', profileMissing: true, audienceUnknown: true, profile: EMPTY_PROFILE, audience: EMPTY_AUDIENCE,
   entitlement: NO_ENTITLEMENT, subscription: null, reload: () => undefined,
 }
 
 interface MeResponse {
-  user: { id: string; email: string | null; role: string | null; aal: string | null } | null
+  user: {
+    id: string
+    email: string | null
+    role: string | null
+    rank?: number
+    tabs?: string[]
+    contentScope?: ContentScope | null
+    aal: string | null
+  } | null
   profile: IdentityProfile | null
   subscription: Subscription | null
   entitlement: Entitlement
@@ -132,13 +154,28 @@ export interface SelfDeclaredAudience {
   group: string
 }
 
+function readRole(value: string | null | undefined): EffectiveRole | null {
+  if (value === 'super_admin') return 'super_admin'
+  return STORED_ROLES.includes(value as never) ? (value as EffectiveRole) : 'student'
+}
+
+function readScope(value: ContentScope | null | undefined): ContentScope | null {
+  if (!value || typeof value !== 'object') return null
+  const list = (entries: unknown) => (Array.isArray(entries) ? entries.filter((entry) => typeof entry === 'string' && entry.trim()) : [])
+  const moduleIds = list(value.moduleIds)
+  const yearIds = list(value.yearIds)
+  return moduleIds.length || yearIds.length ? { moduleIds, yearIds } : null
+}
+
 export function IdentityProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<{
     status: IdentityStatus
     userId: string | null
     email: string | null
     metadataName: string | null
-    role: 'student' | 'admin' | null
+    role: EffectiveRole | null
+    tabs: string[]
+    contentScope: ContentScope | null
     aal: 'aal1' | 'aal2' | null
     profile: IdentityProfile | null
     subscription: Subscription | null
@@ -147,7 +184,13 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     // Without a backend there is no account system to consult, so the app is
     // usable immediately and simply knows nothing about who is using it.
     status: API_MODE ? 'loading' : 'demo',
-    userId: null, email: null, metadataName: null, role: null, aal: null,
+    userId: null, email: null, metadataName: null,
+    // The demo build has no account system to consult, so nothing is hidden:
+    // the offline prototype resolves to a super admin holding every tab.
+    role: API_MODE ? null : 'super_admin',
+    tabs: API_MODE ? [] : TAB_IDS,
+    contentScope: null,
+    aal: null,
     profile: null, subscription: null, entitlement: NO_ENTITLEMENT,
   }))
   const [selfAudience] = usePersistentState<SelfDeclaredAudience | null>(SELF_AUDIENCE_STORAGE_KEY, null)
@@ -174,7 +217,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       if (cancelled) return
 
       if (!me?.user) {
-        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, metadataName: null, role: null, aal: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
+        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, metadataName: null, role: null, tabs: [], contentScope: null, aal: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
         return
       }
       // Documents read before the session was restored were refused with a 401
@@ -187,7 +230,12 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
         userId: me.user.id,
         email: me.profile?.email ?? me.user.email ?? session?.user.email ?? null,
         metadataName,
-        role: me.user.role === 'admin' ? 'admin' : 'student',
+        // The server resolves the role, including the super admin it derives
+        // from the email. An unrecognised value reads as a student rather than
+        // being trusted: this is the browser's copy, not the authority.
+        role: readRole(me.user.role),
+        tabs: Array.isArray(me.user.tabs) ? me.user.tabs : [],
+        contentScope: readScope(me.user.contentScope),
         aal: me.user.aal === 'aal2' ? 'aal2' : 'aal1',
         profile: me.profile,
         subscription: me.subscription,
@@ -215,6 +263,9 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       userId: state.userId,
       email: state.email,
       role: state.role,
+      rank: rankOf(state.role ?? ''),
+      tabs: state.tabs,
+      contentScope: state.contentScope,
       aal: state.aal,
       displayName: nameFor(state.profile, state.metadataName, state.email),
       profileMissing: state.status === 'authenticated' && !state.profile,
