@@ -35,7 +35,16 @@ export async function apiGet<T>(path: string): Promise<T> {
 
 export async function apiSend<T>(path: string, method: string, body?: unknown, keepalive = false): Promise<T> {
   const res = await fetch(`${BASE}${path}`, { method, headers: await headers(true), body: body == null ? undefined : JSON.stringify(body), keepalive })
-  if (!res.ok) throw new ApiError(res.status, `${method} ${path}`)
+  if (!res.ok) {
+    // The refusal body is where the server says which item was refused and why.
+    // Reading it costs one parse on a path that has already failed, and it is
+    // the difference between "that did not save" and a sentence somebody can act on.
+    const detail = await res.json().catch(() => null)
+    const stated = detail && typeof detail === 'object' && typeof (detail as { error?: unknown }).error === 'string'
+      ? (detail as { error: string }).error
+      : undefined
+    throw new ApiError(res.status, `${method} ${path}`, stated, detail)
+  }
   return res.json() as Promise<T>
 }
 
@@ -131,6 +140,12 @@ export interface RemoteState<T> {
   value: T | null
   updatedAt: string | null
   /**
+   * The version row this document was read at, sent back on save so the server
+   * can work out what this client actually changed. Null when nothing is
+   * stored, or when an older server has not been redeployed yet.
+   */
+  version: number | null
+  /**
    * Why the read failed, or null when it succeeded. A missing key is a success
    * with a null value; this field means the document could not be read at all.
    * Without it a 403 is indistinguishable from "nothing stored yet", and the
@@ -141,20 +156,28 @@ export interface RemoteState<T> {
 
 export async function getState<T>(key: string): Promise<RemoteState<T>> {
   try {
-    const r = await apiGet<{ value: T | null; updatedAt?: string | null }>(`/state/${encodeURIComponent(key)}`)
-    return { value: r.value, updatedAt: r.updatedAt ?? null, error: null }
-  } catch (error) { return { value: null, updatedAt: null, error: errorKind(error) } }
+    const r = await apiGet<{ value: T | null; updatedAt?: string | null; version?: number | null }>(`/state/${encodeURIComponent(key)}`)
+    return { value: r.value, updatedAt: r.updatedAt ?? null, version: r.version ?? null, error: null }
+  } catch (error) { return { value: null, updatedAt: null, version: null, error: errorKind(error) } }
 }
-/** Write a state document by key. */
-export function putState(key: string, value: unknown): Promise<unknown> {
-  return apiPut(`/state/${encodeURIComponent(key)}`, { value })
+
+/**
+ * Write a state document by key.
+ *
+ * `baseVersion` is the version this client started from. The server uses it to
+ * reconstruct what changed rather than taking the whole document on trust, so
+ * two people editing different items no longer overwrite one another.
+ */
+export function putState(key: string, value: unknown, baseVersion: number | null): Promise<{ ok: boolean; version: number | null }> {
+  return apiPut(`/state/${encodeURIComponent(key)}`, { value, baseVersion })
 }
 
 export async function getUserState<T>(key: string): Promise<RemoteState<T>> {
   try {
     const r = await apiGet<{ value: T | null; updatedAt?: string | null }>(`/user-state/${encodeURIComponent(key)}`)
-    return { value: r.value, updatedAt: r.updatedAt ?? null, error: null }
-  } catch (error) { return { value: null, updatedAt: null, error: errorKind(error) } }
+    // Private per-user documents have one writer, so they need no version.
+    return { value: r.value, updatedAt: r.updatedAt ?? null, version: null, error: null }
+  } catch (error) { return { value: null, updatedAt: null, version: null, error: errorKind(error) } }
 }
 
 export function putUserState(key: string, value: unknown, keepalive = false): Promise<unknown> {
