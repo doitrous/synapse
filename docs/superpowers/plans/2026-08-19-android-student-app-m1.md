@@ -2259,6 +2259,17 @@ git commit -m "Tell a student whether their work has actually left the phone"
 - Consumes: `LocalStore`, `QBankScope`, `QuestionProjection`, `SittingMode`.
 - Produces: `QuestionBankViewModel` with `val topics: StateFlow<List<ChooserTopic>>`, `val scope: StateFlow<Set<String>>`, `fun toggle(key: String)`, `val availableCount: StateFlow<Int>`, `fun build(mode: SittingMode, count: Int): LiveSession`.
 
+**A collision to reproduce rather than fix.** `questionsInScope` matches a
+whole-topic selection by *title*, case-insensitively
+(`src/data/qbankScope.ts:47-52`), and `QuestionProjection` files any question
+with no topic tag under `"General"`. So a chooser topic titled "General" —
+whether synthesised from the questions or written into the library — selects
+every untagged question in the bank. Android reproduces this, because the
+TypeScript is the contract and a chooser that answered differently on Android
+would give the same student a different question count on their phone than on
+their laptop. Do not add a special case. Note it in a comment where the title
+match happens, so the next reader knows it is deliberate.
+
 - [ ] **Step 1: Write the failing test**
 
 ```kotlin
