@@ -56,6 +56,8 @@ import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useScopedItems } from '@/lib/useScopedContent'
+import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
 import { overlayPortal } from '@/lib/overlayPortal'
@@ -185,7 +187,17 @@ export type ContentScope = QuestionScope
 
 export function ControlDashboard({ initialKind = 'question', lockedKind = false, questionScope, scope }: { initialKind?: ContentKind; lockedKind?: boolean; questionScope?: QuestionScope; scope?: ContentScope }) {
   const activeScope = scope ?? questionScope
-  const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [ledger, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  /**
+   * What this person may actually work on.
+   *
+   * Only the read is narrowed. Every write below takes the functional form —
+   * `setItems((current) => …)` — so it operates on the stored document rather
+   * than on this view, and a scoped reviewer saving a change cannot delete the
+   * content they were never shown.
+   */
+  const items = useScopedItems(ledger)
+  const { contentScope } = useIdentity()
   const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [catalogue] = useUniversityCatalogue()
@@ -555,6 +567,17 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
               {rows.length === 0 ? '0 shown' : `${(currentPage - 1) * PAGE_SIZE + 1}–${Math.min(currentPage * PAGE_SIZE, rows.length)} of ${rows.length}`}
             </span>
           </div>
+
+          {/* An empty table has two very different causes for a scoped reviewer,
+              and "there is nothing here" is the wrong reading of the other one.
+              Said once, at the top, rather than in every empty state below. */}
+          {contentScope && ledger.length > items.length && (
+            <p className="border-b border-line bg-inset px-4 py-2 text-[11.5px] leading-relaxed text-ink-2">
+              You are seeing the {CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} in the modules and years assigned
+              to your account. {ledger.length - items.length} other item{ledger.length - items.length === 1 ? ' is' : 's are'} hidden.
+              Ask a super admin or an editor to widen your scope.
+            </p>
+          )}
 
           {/* Bulk actions. Sticky so the selection stays actionable while scrolling
               a long review queue, which is the case this exists for. */}

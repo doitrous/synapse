@@ -11,6 +11,7 @@ import { SearchInput, Select } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useScopedItems } from '@/lib/useScopedContent'
 import {
   CONTENT_LEDGER_STORAGE_KEY, initialManagedContent,
   MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES, MEDIA_REQUEST_MEDIA,
@@ -75,6 +76,9 @@ function rootOf(nodeId: string | undefined): { id: string; title: string } {
  */
 export function MediaRequests() {
   const [ledger, setLedger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  // The backlog shows only what this person may work on. `ledger` stays in
+  // scope below for one reason — see `nodeByArticle`.
+  const scoped = useScopedItems(ledger)
   const [query, setQuery] = useState('')
   const [system, setSystem] = useState('all')
   const [medium, setMedium] = useState('all')
@@ -85,10 +89,13 @@ export function MediaRequests() {
   const rows = useMemo<Row[]>(() => {
     // A question has no canonical placement of its own, so it inherits the one
     // belonging to the article that teaches its answer.
+    // Built from the whole ledger, not the scoped view: this only reads an
+    // article's placement so a question can inherit it, and the article that
+    // places a question a reviewer owns may itself be one they cannot edit.
     const nodeByArticle = new Map(
       ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item.articleData?.primaryNodeId]),
     )
-    return ledger.flatMap((item) => {
+    return scoped.flatMap((item) => {
       const requests =
         item.kind === 'article' ? item.articleData?.mediaRequests
         : item.kind === 'question' ? item.questionData?.mediaRequests
@@ -108,7 +115,7 @@ export function MediaRequests() {
         systemTitle: root.title,
       }))
     })
-  }, [ledger])
+  }, [ledger, scoped])
 
   const systems = useMemo(() => [...new Map(rows.map((row) => [row.systemId, row.systemTitle])).entries()].sort((a, b) => a[1].localeCompare(b[1])), [rows])
 
