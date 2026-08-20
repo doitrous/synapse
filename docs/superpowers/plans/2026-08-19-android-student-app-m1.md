@@ -1824,7 +1824,7 @@ git commit -m "Turn a status code into something the caller can act on"
 - Test: `android/app/src/test/java/com/synapse/android/core/auth/AuthModelTest.kt`
 
 **Interfaces:**
-- Consumes: `AppConfig` (`supabaseUrl`, `supabaseAnonKey`, `problems`), `SynapseApi` (`session(): SessionUser?`, and `ApiError.Unauthorized` / `.Transient`).
+- Consumes: `AppConfig` (`supabaseUrl`, `supabaseAnonKey`, `missing`, `isConfigured`), `SynapseApi` (`session(): SessionUser?`, and `ApiError.Unauthorized` / `.Transient`).
 - Produces:
   - `interface SessionStore { fun read(): String?; fun write(token: String?) }`, with `EncryptedSessionStore(context)` implementing it over `EncryptedSharedPreferences`. The stored string is opaque to the store — it holds a whole serialized session, not a bare access token.
   - `interface AuthBackend` — the narrow seam `AuthModel` talks to, so the test never needs a real Supabase client:
