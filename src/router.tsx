@@ -90,6 +90,7 @@ const EmailAutomations = lazyNamed(() => import('@/pages/admin/EmailAutomations'
 const PrivacySupport = lazyNamed(() => import('@/pages/admin/PrivacySupport'), 'PrivacySupport')
 const AdminSettings = lazyNamed(() => import('@/pages/admin/Settings'), 'Settings')
 const AuditSecurity = lazyNamed(() => import('@/pages/admin/AuditSecurity'), 'AuditSecurity')
+const AccessControl = lazyNamed(() => import('@/pages/admin/AccessControl'), 'AccessControl')
 const MedicalCoverageReview = lazyNamed(() => import('@/pages/admin/MedicalCoverageReview'), 'MedicalCoverageReview')
 const ReportsReview = lazyNamed(() => import('@/pages/admin/ReportsReview'), 'ReportsReview')
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
@@ -167,6 +168,7 @@ const adminBuilt: Record<string, ReactElement> = {
   privacy: render(PrivacySupport),
   settings: render(AdminSettings),
   audit: render(AuditSecurity),
+  access: render(AccessControl),
   assistant: render(AssistantSetup),
 }
 
