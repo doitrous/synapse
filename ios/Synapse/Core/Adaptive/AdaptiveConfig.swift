@@ -20,6 +20,7 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
     /// The default allocation when no exam horizon applies.
     var defaultShares: AllocationShares
     var horizonBands: [HorizonBand]
+    var readiness: ReadinessConfig
 
     /// Admin-authored, so it is read from the shared catalogue rather than the
     /// student's own record — which is why the key is hyphenated.
@@ -85,6 +86,14 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
         /// Nil is the open-ended band: more than the last bound, or no exam.
         var maxDaysToExam: Int?
         var shares: AllocationShares
+    }
+
+    struct ReadinessConfig: Codable, Equatable, Sendable {
+        /// Which Wilson interval to report.
+        var intervalConfidence: Double
+        /// Below this, a group's own range is not reported — a range from two
+        /// answers is a number pretending to be evidence.
+        var minItemsPerTopicReport: Int
     }
 
     struct Constraints: Codable, Equatable, Sendable {
@@ -169,6 +178,10 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
                         shares: AllocationShares(weakness: 0.40, coverage: 0.35, review: 0.15, uncertainty: 0.10)),
             HorizonBand(id: "far", label: "More than 60 days, or no exam scheduled", maxDaysToExam: nil,
                         shares: AllocationShares(weakness: 0.45, coverage: 0.25, review: 0.20, uncertainty: 0.10)),
-        ]
+        ],
+        readiness: ReadinessConfig(
+            intervalConfidence: 0.9,
+            minItemsPerTopicReport: 3
+        )
     )
 }
