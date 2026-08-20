@@ -52,7 +52,7 @@ struct MoreView: View {
                         PerformanceView(store: store, sync: sync)
                     }
                     link("Billing", "creditcard") {
-                        BillingView(audienceStore: audienceStore)
+                        BillingView(api: api, sync: sync)
                     }
                 }
                 .listRowBackground(Theme.surface)

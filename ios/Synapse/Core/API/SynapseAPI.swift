@@ -69,6 +69,9 @@ struct MeResponse: Decodable, Equatable {
     let user: SessionUser
     let profile: Profile?
     let entitlement: Entitlement?
+    /// The row behind the entitlement, carrying whatever note the person who
+    /// granted it wrote at the time.
+    let subscription: Subscription?
 
     struct Profile: Decodable, Equatable {
         let name: String?
@@ -168,6 +171,40 @@ struct SynapseAPI {
     /// Replace a private document. Last write wins, as on the web.
     func putUserState<Value: Encodable>(key: String, value: Value) async throws {
         _ = try await send(["user-state", key], method: "PUT", body: ValueBody(value: value))
+    }
+
+    // MARK: - Vouchers
+
+    /// The voucher this student currently has applied, if any.
+    func myVoucher() async throws -> VoucherRedemption? {
+        struct Envelope: Decodable { let redemption: VoucherRedemption? }
+        return try await get(Envelope.self, ["vouchers", "mine"]).redemption
+    }
+
+    struct VoucherResult: Decodable, Sendable {
+        let ok: Bool
+        /// Present when refused: the reason, in words meant for the student.
+        let message: String?
+        let voucher: Voucher?
+    }
+
+    /// Redeem a code.
+    ///
+    /// A refused voucher comes back as a 200 with a typed reason rather than as
+    /// an error status — it is a normal answer, and treating it as a failure
+    /// would put the transport into its retry path for something settled.
+    func redeemVoucher(code: String) async throws -> VoucherResult {
+        struct Body: Encodable { let code: String }
+        let data = try await send(["vouchers", "redeem"], method: "POST", body: Body(code: code))
+        do {
+            return try Self.decoder.decode(VoucherResult.self, from: data)
+        } catch {
+            throw APIError.malformed("vouchers/redeem: \(error)")
+        }
+    }
+
+    func releaseVoucher() async throws {
+        _ = try await send(["vouchers", "redemption"], method: "DELETE", body: Optional<Int>.none)
     }
 
     // MARK: - Study assistant
