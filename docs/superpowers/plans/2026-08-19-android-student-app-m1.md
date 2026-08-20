@@ -2200,7 +2200,49 @@ Write each out in full against `MockWebServer` plus an in-memory `LocalStore`.
 
 - [ ] **Step 2: Implement**
 
-`refresh()`: manifest → diff against stored stamps → fetch changed → shred the ledger → pull the user-owned keys the surfaces read (`synapse.qbank.activeSession.v1`, the rest of `synapse.qbank.*`, `synapse.practical.*`, `AttemptStore.INDEX_KEY`, and the current and previous month shards) applying `StatePrecedence` → `drain()`.
+`refresh()`: manifest → diff against stored stamps → fetch changed → shred the
+ledger → pull the user-owned keys the M1 surfaces read, applying
+`StatePrecedence` → `drain()`.
+
+**The user-owned key list is fixed, not a wildcard.** `StateOwnership` decides
+which *path* a key is fetched from; it does not enumerate keys, and there is no
+endpoint that lists them. So `refresh()` must name them. These are the keys M1
+actually reads, each verified against the web source that owns it:
+
+```kotlin
+val USER_KEYS: List<String> = listOf(
+    "synapse.qbank.activeSession.v1",   // src/pages/student/QuestionBank.tsx
+    "synapse.qbank.marked.v1",          // src/pages/student/QuestionBank.tsx
+    "synapse.qbank.questionNotes.v1",   // src/components/qbank/StudyRail.tsx
+    "synapse.qbank.sessionNames.v1",    // src/pages/student/QuestionBank.tsx
+    "synapse.practical.progress.v1",    // src/data/practicalProgress.ts
+    "synapse.account.prefs.v1",         // src/pages/student/Account.tsx
+    "synapse.account.audience.v1",      // src/lib/useIdentity.tsx
+)
+```
+
+plus `AttemptStore.INDEX_KEY` and the current and previous month shards from
+`AttemptStore.monthKey(...)` — two shards, because a sitting that starts on the
+31st and ends after midnight writes into both.
+
+Deliberately excluded, and each for a reason worth keeping: `synapse.qbank.attempts`
+is not a real key — it appears only as an ownership example in
+`src/lib/stateOwnership.test.ts:16`. `synapse.progress.mastery.v1` and
+`synapse.progress.adaptive.*` belong to features M1 does not build; syncing them
+would download and re-upload documents no Android code reads, which is how a
+client corrupts state it does not understand. `synapse.library.*`,
+`synapse.notebook.*`, `synapse.whiteboard.*`, `synapse.reader.*`,
+`synapse.bookmarks.*` and `synapse.annotations.*` are later milestones.
+
+Add a test that pins this list the same way the catalogue list is pinned:
+
+```kotlin
+@Test fun `the user-owned key list is exactly the M1 surfaces' keys`()
+@Test fun `every user-owned key resolves to the user-state path`() {
+    // A key that silently routes to /api/state is written where the web app
+    // will never look for it, and nothing reports an error.
+}
+```
 
 `write()` puts the document and the outbox entry in one transaction, then drains opportunistically. Deleting a drained entry by id — never "everything I just read" — is what keeps a write made mid-drain.
 
