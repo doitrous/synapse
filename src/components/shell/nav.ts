@@ -8,12 +8,15 @@ import {
   LineChart,
   FolderOpen,
   PenTool,
+  PenLine,
   Notebook,
   Users,
   CreditCard,
   UserCog,
   Languages,
   Compass,
+  Layers,
+  Grid3x3,
 } from 'lucide-react'
 import { ADMIN_TAB_VIEWS, type AdminTabGroup } from '@/data/adminTabs'
 
@@ -45,6 +48,7 @@ export const studentNav: NavGroup[] = [
       { label: 'Question Bank', to: '/app/qbank', icon: ListChecks },
       { label: 'Adaptive Study', to: '/app/adaptive', icon: Compass },
       { label: 'Practical', to: '/app/practical', icon: Stethoscope },
+      { label: 'Essay questions', to: '/app/essays', icon: PenLine },
       { label: 'Resources', to: '/app/resources', icon: FolderOpen },
       { label: 'Medical Taxonomy', to: '/app/taxonomy', icon: Languages },
     ],
@@ -60,6 +64,8 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Whiteboard', to: '/app/whiteboard', icon: PenTool },
       { label: 'Notebook', to: '/app/notebook', icon: Notebook },
+      { label: 'Flashcards', to: '/app/flashcards', icon: Layers },
+      { label: 'Term Grid', to: '/app/term-grid', icon: Grid3x3 },
       { label: 'Study Together', to: '/app/study-together', icon: Users },
     ],
   },

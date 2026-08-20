@@ -32,8 +32,18 @@ const ADAPTERS = {
       read: (document) => (Array.isArray(document) ? document : []),
       write: (_document, items) => items,
       kindOf: (item) => item?.kind ?? 'unknown',
+      // Every content kind in the ledger, and the tab that authors it. A kind
+      // missing from here maps to no tab and so refuses every write — which is
+      // the right failure (closed, and loud) but only if somebody notices, so
+      // `stateMerge.test.js` asserts this covers `ContentKind` exactly.
       tabsFor: (kind) => ({
-        article: ['library'], question: ['questions'], practical: ['practical'], resource: ['resources'],
+        article: ['library'],
+        question: ['questions'],
+        practical: ['practical'],
+        resource: ['resources'],
+        deck: ['flashcards'],
+        essay: ['written'],
+        histology: ['histology'],
       }[kind] ?? []),
     }],
   },

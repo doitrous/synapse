@@ -32,6 +32,11 @@ test('admin is operations and reviewer is content, and they barely overlap', () 
   assert.equal(admin.has('questions'), false)
   assert.equal(reviewer.has('questions'), true)
   assert.equal(reviewer.has('media'), true)
+  // Flashcards, written answers and histology are medical content too, and all
+  // three live in the same ledger the other kinds do.
+  assert.equal(reviewer.has('flashcards'), true)
+  assert.equal(reviewer.has('written'), true)
+  assert.equal(reviewer.has('histology'), true)
   assert.equal(reviewer.has('users'), false)
   assert.equal(reviewer.has('dashboard'), false)
   // Systems & Topics is editor-and-above this phase: its nodes carry no module
@@ -65,7 +70,7 @@ test('a state key resolves to the tabs that may write it', () => {
   assert.deepEqual(tabsForStateKey('synapse-vouchers-v1'), ['vouchers'])
   assert.deepEqual(
     tabsForStateKey('synapse-admin-content-ledger-v4'),
-    ['library', 'questions', 'practical', 'resources', 'media'],
+    ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'resources', 'media'],
   )
   assert.deepEqual(tabsForStateKey(ROLE_TABS_STATE_KEY), ['access'])
 })

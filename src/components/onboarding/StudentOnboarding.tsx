@@ -8,40 +8,40 @@ import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
 import { universities as seededUniversities } from '@/data/universities'
-import { usePersistentState } from '@/lib/usePersistentState'
-import { SELF_AUDIENCE_STORAGE_KEY, useIdentity, type SelfDeclaredAudience } from '@/lib/useIdentity'
+import { useIdentity } from '@/lib/useIdentity'
+import { supabase } from '@/lib/supabase'
 import { useT } from '@/lib/i18n'
 import { formatShare } from '@/data/moduleSubjects'
 import { priceAt, say, type CatalogPlan } from '@/data/planCatalog'
 import {
-  ONBOARDING_STORAGE_KEY, TRIAL_DAYS, liveUniversities, liveYears, offeredPlans,
-  onboardingComplete, planSelectable, trialFor, yearModules,
-  type OnboardingAnswers, type TrialGrant,
+  TRIAL_DAYS, liveUniversities, liveYears, offeredPlans, planSelectable, yearModules,
 } from '@/data/onboarding'
 
 /**
  * The three questions a new student is asked, in the order the answers depend
  * on each other.
  *
- * This replaced a dismissible modal that asked for a university and a year and
- * offered "Not now" beside them. Nothing else in the app works without those
- * two — the timetable, the scoped library, the question bank all match nothing
- * — so the way past it was the reason accounts existed with every surface
- * empty. It is now a step at a time, with no way to skip and nothing lost if
- * the tab is closed halfway.
+ * Nothing else in the app works without a university and a year — the
+ * timetable, the scoped library and the question bank all match nothing — so
+ * there is no way past this and nothing here is optional.
+ *
+ * Two things about *when* it appears matter as much as what it asks:
+ *
+ *  - It waits for the account to load. It used to render the moment identity
+ *    resolved, while the record of where the student studies was still in
+ *    flight, so a student who had already answered was asked again — and
+ *    answering differently is how one account ended up showing two different
+ *    enrolled years in two browsers.
+ *  - Whether it has been answered is read from the account itself, not from a
+ *    "completed" flag in a browser document. The flag lived in the shared
+ *    catalogue store, which no student may write; every save was refused, so
+ *    nothing was ever recorded and only the enrolment happening to be present
+ *    kept the screen away.
  *
  * Only live universities and years are offered, through the same `isYearLive`
  * the voucher rules read: a place that cannot take a voucher cannot take a
  * registration either.
  */
-
-interface StoredOnboarding {
-  answers: Partial<OnboardingAnswers>
-  trial?: TrialGrant
-  completedAt?: string
-}
-
-const EMPTY: StoredOnboarding = { answers: {} }
 
 function StepDots({ step, total }: { step: number; total: number }) {
   return (
@@ -58,17 +58,17 @@ function StepDots({ step, total }: { step: number; total: number }) {
 
 export function StudentOnboarding() {
   const t = useT()
-  const { audienceUnknown, status } = useIdentity()
-  const [configured] = useUniversityCatalogue()
+  const { audienceSettled, audienceUnknown, status, saveEnrolment } = useIdentity()
+  const [configured, , catalogueStatus] = useUniversityCatalogue()
   const [catalog] = usePlanCatalog()
-  const [stored, setStored] = usePersistentState<StoredOnboarding>(ONBOARDING_STORAGE_KEY, EMPTY)
-  const [, setAudience] = usePersistentState<SelfDeclaredAudience | null>(SELF_AUDIENCE_STORAGE_KEY, null)
 
   const [step, setStep] = useState(0)
-  const [universityId, setUniversityId] = useState(() => stored.answers.universityId ?? '')
-  const [yearId, setYearId] = useState(() => stored.answers.yearId ?? '')
-  const [planId, setPlanId] = useState(() => stored.answers.planId ?? '')
+  const [universityId, setUniversityId] = useState('')
+  const [yearId, setYearId] = useState('')
+  const [planId, setPlanId] = useState('')
   const [group, setGroup] = useState('')
+  const [saving, setSaving] = useState(false)
+  const [error, setError] = useState('')
 
   // An admin-configured catalogue is the real list; the seeded schools stand in
   // when none has been set up yet, so this is never an empty screen.
@@ -83,22 +83,44 @@ export function StudentOnboarding() {
     [catalog, universityId, year],
   )
 
-  if (status === 'loading' || !audienceUnknown || stored.completedAt) return null
+  // Nothing is decided until the account has answered for itself, and the
+  // catalogue this screen offers has arrived. Rendering earlier means asking a
+  // student who has already answered, and there is no way to un-ask it.
+  if (status === 'loading') return null
+  if (status === 'anonymous') return null
+  // Not merely "identity has resolved": the account's own answer may still be
+  // arriving. Asking a student who has already answered cannot be taken back.
+  if (!audienceSettled) return null
+  if (!audienceUnknown) return null
+  // A catalogue that cannot be read is not a reason to withhold the screen —
+  // the seeded list stands in — but one still on its way is.
+  if (!catalogueStatus.hydrated && !catalogueStatus.error) return null
 
-  function finish() {
-    const answers = { universityId, yearId, planId }
-    if (!onboardingComplete(answers) || !university || !year) return
-    setAudience({ universityId: university.id, year: year.year, group: group.trim() })
-    setStored({
-      answers,
-      trial: trialFor(answers.planId, new Date()),
-      completedAt: new Date().toISOString(),
-    })
+  async function finish() {
+    if (!university || !year || !planId) return
+    setError('')
+    setSaving(true)
+    try {
+      // Sign-up put the name, phone and nationality in Supabase user metadata,
+      // where the server never sees them. This is the first request that can
+      // carry them across, and it is also what finally gives the phone-number
+      // uniqueness check a row to compare against.
+      const metadata = (await supabase?.auth.getUser())?.data.user?.user_metadata as
+        { full_name?: string; name?: string; phone?: string; nationality?: string } | undefined
+      await saveEnrolment({
+        universityId: university.id,
+        year: year.year,
+        group: group.trim(),
+        plan: planId,
+        name: metadata?.full_name || metadata?.name,
+        phone: metadata?.phone,
+        nationality: metadata?.nationality,
+      })
+    } catch {
+      setSaving(false)
+      setError(t('That could not be saved. Check your connection and try again — nothing has been lost.'))
+    }
   }
-
-  /** Remember the answers so far, so closing the tab does not undo them. */
-  const remember = (answers: Partial<OnboardingAnswers>) =>
-    setStored((current) => ({ ...current, answers: { ...current.answers, ...answers } }))
 
   const canContinue = [Boolean(university), Boolean(year), Boolean(planId)][step]
 
@@ -131,7 +153,7 @@ export function StudentOnboarding() {
                 <li key={entry.id}>
                   <button
                     type="button"
-                    onClick={() => { setUniversityId(entry.id); setYearId(''); remember({ universityId: entry.id }) }}
+                    onClick={() => { setUniversityId(entry.id); setYearId('') }}
                     className={cn(
                       'flex w-full items-center gap-3 rounded-xl border p-3.5 text-start transition-colors',
                       universityId === entry.id ? 'border-primary bg-primary-tint/50' : 'border-line bg-surface hover:bg-inset',
@@ -161,7 +183,7 @@ export function StudentOnboarding() {
                   <li key={entry.id}>
                     <button
                       type="button"
-                      onClick={() => { setYearId(entry.id); remember({ yearId: entry.id }) }}
+                      onClick={() => setYearId(entry.id)}
                       className={cn(
                         'w-full rounded-xl border p-3 text-center transition-colors',
                         yearId === entry.id ? 'border-primary bg-primary-tint/50 text-primary-strong' : 'border-line bg-surface text-ink hover:bg-inset',
@@ -214,7 +236,7 @@ export function StudentOnboarding() {
                   selected={planId === plan.id}
                   selectable={planSelectable(catalog, plan)}
                   price={priceAt(plan, catalog.periods[0]?.id ?? '', catalog.periods)}
-                  onChoose={() => { setPlanId(plan.id); remember({ planId: plan.id }) }}
+                  onChoose={() => setPlanId(plan.id)}
                 />
               ))}
               {plans.length === 0 && (
@@ -225,6 +247,10 @@ export function StudentOnboarding() {
             </ul>
           )}
         </div>
+
+        {error && (
+          <p role="alert" className="mt-5 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger">{error}</p>
+        )}
 
         <div className="mt-8 flex items-center gap-2 border-t border-line pt-5">
           {step > 0 && (
@@ -238,7 +264,7 @@ export function StudentOnboarding() {
               {t('Continue')}
             </Button>
           ) : (
-            <Button type="button" variant="primary" iconLeft={Check} disabled={!canContinue} onClick={finish}>
+            <Button type="button" variant="primary" iconLeft={Check} loading={saving} disabled={!canContinue || saving} onClick={() => void finish()}>
               {t('Start studying')}
             </Button>
           )}

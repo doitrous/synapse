@@ -177,6 +177,7 @@ const FULL_ARTICLE: Record<string, string> = {
   university_notes: 'HU: Kasr Alainy expects the two-level Wells score.',
   years: 'HU_Y3',
   module: 'CVS 01',
+  module_subject: 'CVS 01 > Physiology > Pulmonary circulation',
   subtopic: 'SUB_PE',
   microtopic: 'MIC_WELLS',
   nanotopic: 'NAN_DDIMER',
@@ -250,6 +251,7 @@ test('a fully populated article row imports with every field present', () => {
   assert.deepEqual(data.relatedArticleIds, ['ART-A'])
   assert.equal(data.fieldNotes?.['relatedArticle:ART-A'], 'Explains the mechanism.')
   assert.equal(data.fieldNotes?.moduleIds, 'awaiting a verified live module ID')
+  assert.deepEqual(data.moduleSubjectPaths, ['CVS 01 > Physiology > Pulmonary circulation'])
   assert.equal(data.calloutEvidence?.['Ordering D-dimer when CTPA is already indicated.']?.reviewedBy, 'Dr Omar')
   assert.equal(data.universityNotes?.length, 1)
   assert.equal(data.notes, 'Draft pending faculty sign-off.')
@@ -741,4 +743,79 @@ test('an unknown difficulty band is rejected rather than quietly becoming Modera
     title: 'Station', subject: 'cvs', type: 'Skills checklist', difficulty: 'Fiendish',
   })
   assert.ok(errors.some((error) => error.includes('Difficulty must be one of')))
+})
+
+/* ---- decks --------------------------------------------------------------- */
+
+test('a deck needs at least one card', () => {
+  const errors = validateImportRow('deck', { title: 'CVS', subject: 'cvs' })
+  assert.ok(errors.some((error) => /card/i.test(error)))
+})
+
+test('a line with no separator does not count as a card', () => {
+  const errors = validateImportRow('deck', { title: 'CVS', subject: 'cvs', cards: 'Aorta - Largest artery' })
+  assert.ok(errors.some((error) => /card/i.test(error)))
+})
+
+test('an imported deck splits its cards on the pipe', () => {
+  const item = importRowToContent('deck', { title: 'CVS', subject: 'cvs', cards: 'Aorta | Largest artery' }, 'row-1')
+  assert.equal(item.deckData?.cards[0].front, 'Aorta')
+  assert.equal(item.deckData?.cards[0].back, 'Largest artery')
+})
+
+test('a deck with a description and multiple cards imports cleanly', () => {
+  const values = {
+    title: 'Coronary anatomy', subject: 'cvs',
+    description: 'Quick-fire recall for the major coronary vessels.',
+    cards: 'LAD | Supplies the anterior wall of the left ventricle\nRCA | Supplies the SA node in most people',
+  }
+  assert.deepEqual(validateImportRow('deck', values), [])
+  const item = importRowToContent('deck', values, 'row-2')
+  assert.equal(item.kind, 'deck')
+  assert.equal(item.deckData?.description, 'Quick-fire recall for the major coronary vessels.')
+  assert.equal(item.deckData?.cards.length, 2)
+  assert.equal(item.deckData?.cards[1].front, 'RCA')
+})
+
+/* ---- essay import ------------------------------------------------------- */
+
+test('a written question needs at least one key point', () => {
+  const errors = validateImportRow('essay', { title: 'Right heart failure', subject: 'cvs', prompt: 'Discuss.' })
+  assert.ok(errors.some((error) => /key point/i.test(error)))
+})
+
+test('an imported written question keeps its legible markers', () => {
+  const item = importRowToContent('essay', {
+    title: 'Right heart failure', subject: 'cvs', prompt: 'Discuss.',
+    key_points: '!Cor pulmonale\nRaised JVP',
+  }, 'row-1')
+  assert.equal(item.kind, 'essay')
+  assert.equal(item.essayData?.keyPoints[0].legible, true)
+  assert.equal(item.essayData?.keyPoints[0].text, 'Cor pulmonale')
+  assert.equal(item.essayData?.keyPoints[1].legible, undefined)
+  assert.equal(item.essayData?.prompt, 'Discuss.')
+})
+
+/* ---- histology ----------------------------------------------------------- */
+
+test('a histology row needs at least one image', () => {
+  const errors = validateImportRow('histology', { title: 'Ileum', subject: 'gi' })
+  assert.ok(errors.some((error) => /image/i.test(error)))
+})
+
+test('a histology row with one image is accepted', () => {
+  const errors = validateImportRow('histology', {
+    title: 'Ileum', subject: 'gi', tissue: 'Small bowel', stain: 'H&E', image_4x: 'four.jpg',
+  })
+  assert.deepEqual(errors, [])
+})
+
+test('an imported slide carries its views and no pins yet', () => {
+  const item = importRowToContent('histology', {
+    title: 'Ileum', subject: 'gi', tissue: 'Small bowel', stain: 'H&E',
+    image_4x: 'four.jpg', image_40x: 'forty.jpg',
+  }, 'row-1')
+  assert.equal(item.kind, 'histology')
+  assert.deepEqual(item.histologyData?.views.map((view) => view.objective), [4, 40])
+  assert.deepEqual(item.histologyData?.structures, [])
 })

@@ -329,7 +329,11 @@ CREATE TABLE IF NOT EXISTS user_documents (
   user_id      VARCHAR(64) NOT NULL,
   title        VARCHAR(255) NOT NULL,
   storage_key  VARCHAR(255) NOT NULL,
+  -- 'pdf' for anything the in-app reader can open, 'file' for everything else.
   media_type   VARCHAR(32) NOT NULL DEFAULT 'pdf',
+  -- What it was called and what it is, so a download arrives named and typed.
+  file_name    VARCHAR(255) NULL,
+  mime_type    VARCHAR(128) NULL,
   size_bytes   BIGINT UNSIGNED NOT NULL DEFAULT 0,
   sha256       CHAR(64) NULL,
   page_count   INT NULL,
@@ -466,4 +470,165 @@ CREATE TABLE IF NOT EXISTS assistant_provider_keys (
   key_hint    VARCHAR(8) NULL,
   updated_by  VARCHAR(64) NULL,
   updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* A note or a whiteboard, published behind a link.
+
+   The share is a copy, not a pointer into `user_state`. That is deliberate:
+   the student's own document keeps working exactly as it did whether or not it
+   has ever been shared, revoking a link cannot damage the original, and a
+   collaborator's edit lands on the shared copy rather than silently rewriting
+   somebody's private notebook. Republishing is an explicit act.
+
+   `access` is the whole permission model, and it is checked on the server.
+     private — only the owner may read it, so a leaked link reveals nothing.
+     view    — anybody holding the link may read it.
+     edit    — anybody holding the link who is signed in may also write to it.
+
+   No semicolons anywhere in this comment: `migrate()` splits the file on them
+   to get its statements, so one here would cut this block in half and leave an
+   unterminated comment for the server to execute at boot.
+
+   The id is a long random token and the only thing a URL carries, so nothing
+   about the owner or the document travels in the address. */
+CREATE TABLE IF NOT EXISTS shared_documents (
+  id          VARCHAR(64) PRIMARY KEY,
+  owner_id    VARCHAR(64) NOT NULL,
+  kind        VARCHAR(16) NOT NULL,
+  title       VARCHAR(255) NOT NULL,
+  access      VARCHAR(16) NOT NULL DEFAULT 'private',
+  payload     MEDIUMTEXT NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  updated_by  VARCHAR(64) NULL,
+  INDEX idx_shared_documents_owner (owner_id, kind, updated_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* ── Friends ─────────────────────────────────────────────────────────────
+   A friendship is a single row with its pair sorted, so two students pressing
+   Add at the same moment cannot create two rows describing one friendship.
+   `requested_by` is kept because it decides who is allowed to answer. */
+CREATE TABLE IF NOT EXISTS friendships (
+  user_a       VARCHAR(64) NOT NULL,
+  user_b       VARCHAR(64) NOT NULL,
+  requested_by VARCHAR(64) NOT NULL,
+  status       ENUM('pending','accepted','declined') NOT NULL DEFAULT 'pending',
+  created_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  responded_at DATETIME NULL,
+  PRIMARY KEY (user_a, user_b),
+  INDEX idx_friendships_b (user_b, status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Whether this student may be found in their cohort's directory. Default on:
+   being findable by your own classmates is the point of the directory, and the
+   cohort is already closed. The toggle lives in Account. */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS discoverable BOOLEAN NOT NULL DEFAULT 1;
+
+/* A link a student can send to anyone, on any channel we do not control.
+   Single use and short-lived: a link that lives forever in a group chat is a
+   standing invitation to an account no one meant to add. */
+CREATE TABLE IF NOT EXISTS friend_invites (
+  token      CHAR(32) PRIMARY KEY,
+  user_id    VARCHAR(64) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  expires_at DATETIME NOT NULL,
+  used_by    VARCHAR(64) NULL,
+  INDEX idx_friend_invites_user (user_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* ── Challenges ──────────────────────────────────────────────────────────
+   A challenge is the same paper, sat apart.
+   `question_ids` is frozen at creation for the same reason a study room's is:
+   a question published or archived mid-challenge would change what is being
+   compared, and the comparison is the whole point. */
+CREATE TABLE IF NOT EXISTS challenges (
+  id                     VARCHAR(64) PRIMARY KEY,
+  challenger_id          VARCHAR(64) NOT NULL,
+  opponent_id            VARCHAR(64) NOT NULL,
+  question_ids           LONGTEXT NOT NULL,
+  scope_label            VARCHAR(255) NOT NULL,
+  status                 ENUM('sent','declined','running','complete') NOT NULL DEFAULT 'sent',
+  challenger_finished_at DATETIME NULL,
+  opponent_finished_at   DATETIME NULL,
+  created_at             TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_challenges_opponent (opponent_id, status),
+  INDEX idx_challenges_challenger (challenger_id, status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Marked by the server against the published question, never by the client —
+   a score the other student sees must not be self-reported. */
+CREATE TABLE IF NOT EXISTS challenge_answers (
+  challenge_id VARCHAR(64) NOT NULL,
+  user_id      VARCHAR(64) NOT NULL,
+  question_id  VARCHAR(96) NOT NULL,
+  chosen_index INT NOT NULL,
+  correct      TINYINT(1) NOT NULL,
+  seconds      INT NULL,
+  answered_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (challenge_id, user_id, question_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Only the app-scoped Facebook id, and only while the student wants the link.
+   Name, photo and email are already on the account; copying Facebook's copies
+   would widen what we hold for nothing. `unlinked_at` records that a deletion
+   request was honoured, which Meta requires us to be able to show. */
+CREATE TABLE IF NOT EXISTS facebook_links (
+  user_id     VARCHAR(64) PRIMARY KEY,
+  fb_user_id  VARCHAR(64) NOT NULL UNIQUE,
+  linked_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  unlinked_at DATETIME NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* ── Study parties ───────────────────────────────────────────────────────── */
+CREATE TABLE IF NOT EXISTS study_parties (
+  id            VARCHAR(64) PRIMARY KEY,
+  code          VARCHAR(12) NOT NULL UNIQUE,
+  name          VARCHAR(255) NOT NULL,
+  host_user_id  VARCHAR(64) NOT NULL,
+  -- The cohort, copied from the host at creation. A party does not follow its
+  -- host into a new year; the people in it are the year it was made for.
+  university_id VARCHAR(64) NOT NULL,
+  year          VARCHAR(32) NOT NULL,
+  visibility    ENUM('open','invite') NOT NULL DEFAULT 'open',
+  created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  archived_at   DATETIME NULL,
+  INDEX idx_parties_cohort (university_id, year, visibility, archived_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_members (
+  party_id  VARCHAR(64) NOT NULL,
+  user_id   VARCHAR(64) NOT NULL,
+  role      ENUM('host','member') NOT NULL DEFAULT 'member',
+  joined_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (party_id, user_id),
+  INDEX idx_party_members_user (user_id, joined_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_sessions (
+  id          VARCHAR(64) PRIMARY KEY,
+  party_id    VARCHAR(64) NOT NULL,
+  name        VARCHAR(255) NOT NULL,
+  -- Frozen at creation: [{ kind: 'question'|'practical'|'essay', id }]
+  item_refs   LONGTEXT NOT NULL,
+  -- NULL means it is open from now, with no end.
+  starts_at   DATETIME NULL,
+  status      ENUM('open','scheduled','closed') NOT NULL DEFAULT 'open',
+  created_by  VARCHAR(64) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  closed_at   DATETIME NULL,
+  INDEX idx_party_sessions (party_id, status, starts_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Marked by the server for questions; for practical and essay items the
+   student says how it went, so `correct` is NULL — the same rule the attempt
+   log already follows, and the reason a session reports two numbers. */
+CREATE TABLE IF NOT EXISTS study_party_answers (
+  session_id  VARCHAR(64) NOT NULL,
+  user_id     VARCHAR(64) NOT NULL,
+  item_kind   VARCHAR(16) NOT NULL,
+  item_id     VARCHAR(96) NOT NULL,
+  correct     TINYINT(1) NULL,
+  seconds     INT NULL,
+  answered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (session_id, user_id, item_kind, item_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

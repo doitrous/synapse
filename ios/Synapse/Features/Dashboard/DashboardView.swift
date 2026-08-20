@@ -18,6 +18,10 @@ struct DashboardView: View {
     @State private var articleCount = 0
     @State private var questionCount = 0
     @State private var showingAccount = false
+    /// Both calendars, merged, so "what is next" answers from whichever has it.
+    @State private var upcoming: [UpcomingItem] = []
+    @State private var recent: [RecentResource] = []
+    private let api: SynapseAPI
 
     init(store: LocalStore, sync: SyncEngine, user: SessionUser, auth: AuthModel, audienceStore: AudienceStore) {
         _model = State(wrappedValue: PerformanceModel(store: store))
@@ -27,6 +31,7 @@ struct DashboardView: View {
         self.user = user
         self.auth = auth
         self.audienceStore = audienceStore
+        self.api = auth.api
     }
 
     private var audience: StudentAudience { audienceStore.audience }
@@ -37,12 +42,15 @@ struct DashboardView: View {
                 VStack(alignment: .leading, spacing: 18) {
                     if model.summary.attempts == 0 {
                         firstRun
+                        nextOnSchedule
                     } else {
                         todayLine
+                        nextOnSchedule
                         dueReviews
                         stats
                         weakest
                     }
+                    lastUsed
                     catalogue
                 }
                 .padding(16)
@@ -90,6 +98,163 @@ struct DashboardView: View {
         await model.load()
         articleCount = (try? await library.items(kind: .article, audience: audience).count) ?? 0
         questionCount = (try? await library.items(kind: .question, audience: audience).count) ?? 0
+
+        // Two calendars with two owners, read as one list. A student whose
+        // university has published nothing — which is most of them, most of the
+        // time — still has their own plan to be told about.
+        let universities = try? await library.catalogue(key: SyncEngine.universitiesKey)
+        let schedules = try? await library.catalogue(key: SyncEngine.moduleSchedulesKey)
+        let sessions = StudentSchedule.sessions(
+            universities: universities.flatMap { try? JSONSerialization.jsonObject(with: $0) },
+            schedules: schedules.flatMap { try? JSONSerialization.jsonObject(with: $0) },
+            audience: audience
+        )
+        let blocks = (try? await api.userState([StudyBlock].self, key: StudyBlock.storageKey))?.value ?? []
+        upcoming = Upcoming.merge(sessions: sessions, blocks: blocks)
+        recent = (try? await api.userState([RecentResource].self, key: RecentResource.key))?.value ?? []
+    }
+
+    // MARK: - What is next
+
+    /// The next thing on either calendar, and the one or two after it.
+    @ViewBuilder private var nextOnSchedule: some View {
+        if let next = Upcoming.next(upcoming) {
+            let rest = upcoming
+                .drop { $0.id != next.id }
+                .dropFirst()
+                .prefix(2)
+
+            VStack(alignment: .leading, spacing: 12) {
+                Text("Next on your schedule")
+                    .font(Theme.panelTitle())
+                    .foregroundStyle(Theme.ink2)
+
+                VStack(alignment: .leading, spacing: 6) {
+                    HStack(alignment: .firstTextBaseline, spacing: 8) {
+                        Text(clock(next.start))
+                            .font(Theme.numeric(15))
+                            .foregroundStyle(Theme.primary)
+                        Text(next.title)
+                            .font(Theme.ui(15, weight: 600))
+                            .foregroundStyle(Theme.ink)
+                            .lineLimit(2)
+                    }
+
+                    HStack(spacing: 6) {
+                        // Which calendar this came from, said plainly: a
+                        // student needs to know whether their university
+                        // expects them somewhere or they promised themselves.
+                        Label(next.source == .faculty ? "Your university" : "Your plan",
+                              systemImage: next.source == .faculty ? "building.columns" : "person")
+                            .font(Theme.ui(11, weight: 600))
+                            .foregroundStyle(next.source == .faculty ? Theme.primaryStrong : Theme.ink2)
+                            .padding(.horizontal, 7)
+                            .padding(.vertical, 3)
+                            .background(next.source == .faculty ? Theme.primaryTint : Theme.surface2)
+                            .clipShape(Capsule())
+
+                        if !next.kind.isEmpty {
+                            Text(next.kind)
+                                .font(Theme.ui(11))
+                                .foregroundStyle(Theme.ink3)
+                        }
+                        if let location = next.location {
+                            Label(location, systemImage: "mappin")
+                                .font(Theme.ui(11))
+                                .foregroundStyle(Theme.ink3)
+                                .lineLimit(1)
+                        }
+                    }
+                }
+
+                if !rest.isEmpty {
+                    Divider().overlay(Theme.line)
+                    ForEach(rest) { item in
+                        HStack(spacing: 10) {
+                            Text(clock(item.start))
+                                .font(Theme.numeric(12))
+                                .foregroundStyle(Theme.ink3)
+                                .frame(width: 44, alignment: .leading)
+                            Text(item.title)
+                                .font(Theme.ui(13))
+                                .foregroundStyle(Theme.ink2)
+                                .lineLimit(1)
+                            Spacer(minLength: 0)
+                        }
+                    }
+                }
+            }
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Theme.surface)
+            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        }
+    }
+
+    // MARK: - Last used
+
+    /// Documents this student actually opened. Absent until one has been.
+    @ViewBuilder private var lastUsed: some View {
+        if !recent.isEmpty {
+            VStack(alignment: .leading, spacing: 12) {
+                Text("Last used resources")
+                    .font(Theme.panelTitle())
+                    .foregroundStyle(Theme.ink2)
+
+                ForEach(recent.prefix(4)) { item in
+                    HStack(spacing: 10) {
+                        Image(systemName: symbol(item.type))
+                            .font(.system(size: 15))
+                            .foregroundStyle(Theme.ink2)
+                            .frame(width: 28, height: 28)
+                            .background(Theme.surface2)
+                            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.md))
+
+                        VStack(alignment: .leading, spacing: 1) {
+                            Text(item.title)
+                                .font(Theme.ui(14))
+                                .foregroundStyle(Theme.ink)
+                                .lineLimit(1)
+                            if !item.meta.isEmpty {
+                                Text(item.meta)
+                                    .font(Theme.ui(11.5))
+                                    .foregroundStyle(Theme.ink3)
+                                    .lineLimit(1)
+                            }
+                        }
+
+                        Spacer(minLength: 8)
+
+                        if let opened = ISO8601DateFormatter.read(item.openedAt) {
+                            Text(opened.formatted(.relative(presentation: .numeric)))
+                                .font(Theme.numeric(11))
+                                .foregroundStyle(Theme.ink3)
+                        }
+                    }
+                }
+            }
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Theme.surface)
+            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        }
+    }
+
+    private func clock(_ date: Date) -> String {
+        date.formatted(date: Calendar.current.isDateInToday(date) ? .omitted : .abbreviated,
+                       time: .shortened)
+    }
+
+    private func symbol(_ type: String) -> String {
+        switch type.lowercased() {
+        case "video": "play.circle"
+        case "guideline": "scroll"
+        case "deck": "rectangle.stack"
+        case "article": "newspaper"
+        default: "book.closed"
+        }
     }
 
     /// Nothing answered yet. Say what to do, not how well it went.

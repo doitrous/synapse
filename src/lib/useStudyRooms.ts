@@ -126,8 +126,14 @@ export function useRoom(roomId: string | null) {
 
 export function useStudyRoomActions() {
   const create = useCallback(
-    (input: { name: string; questionIds: string[]; timed: boolean; secondsPerQuestion: number | null }) =>
-      apiPost<{ ok: boolean; reason?: string; room?: StudyRoom }>('/study-rooms', input),
+    (input: {
+      name: string
+      questionIds: string[]
+      timed: boolean
+      secondsPerQuestion: number | null
+      /** Seated in the room at creation, so it opens with a friend already in it — no code needed. */
+      inviteUserIds?: string[]
+    }) => apiPost<{ ok: boolean; reason?: string; room?: StudyRoom }>('/study-rooms', input),
     [],
   )
   const join = useCallback(

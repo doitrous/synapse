@@ -43,6 +43,12 @@ export const ADMIN_TABS = [
     apiPrefixes: [] },
   { id: 'practical', to: '/admin/practical', group: 'Content',
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+  { id: 'flashcards', to: '/admin/flashcards', group: 'Content',
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+  { id: 'written', to: '/admin/written', group: 'Content',
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+  { id: 'histology', to: '/admin/histology', group: 'Content',
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
   { id: 'concepts', to: '/admin/concepts', group: 'Content',
     stateKeys: ['synapse-concept-graph-v2', 'synapse-import-journal-v1'], apiPrefixes: [] },
   { id: 'relationships', to: '/admin/relationships', group: 'Content',
@@ -92,7 +98,7 @@ export const DEFAULT_ROLE_TABS = {
     'dashboard', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
   ],
-  reviewer: ['library', 'questions', 'practical', 'concepts', 'resources', 'media'],
+  reviewer: ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'concepts', 'resources', 'media'],
 }
 
 /**

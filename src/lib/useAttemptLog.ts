@@ -44,6 +44,36 @@ export function useRecordAttempt() {
   }, [setIndex, setMonth])
 }
 
+/**
+ * Add several records at once.
+ *
+ * `useRecordAttempt` refuses a duplicate by comparing the index's `lastAt` with
+ * the record's own timestamp, which is right for one answer committed on a
+ * click and wrong for twenty committed in a loop: those all land in the same
+ * millisecond, and every record after the first would be dropped from the
+ * totals. This reads the shard instead and folds exactly what is new.
+ */
+export function useRecordAttempts() {
+  const month = attemptMonth(new Date())
+  const [shard, setMonth] = usePersistentState<AttemptMonth>(attemptMonthKey(month), () => emptyMonth(month))
+  const [, setIndex] = usePersistentState<AttemptIndex>(ATTEMPT_INDEX_KEY, EMPTY_INDEX)
+
+  return useCallback((inputs: Array<Omit<AttemptRecord, 'id' | 'at'>>) => {
+    const at = new Date().toISOString()
+    const seen = new Set(shard.records.map((record) => record.id))
+    const fresh: AttemptRecord[] = []
+    for (const input of inputs) {
+      const id = attemptId(input)
+      if (seen.has(id)) continue
+      seen.add(id)
+      fresh.push({ ...input, id, at })
+    }
+    if (!fresh.length) return
+    setMonth((current) => fresh.reduce(addAttempt, current))
+    setIndex((current) => fresh.reduce(indexAttempt, current))
+  }, [shard.records, setIndex, setMonth])
+}
+
 /** Headline totals, without reading a single month document. */
 export function useAttemptTotals(): AttemptIndex {
   const [index] = usePersistentState<AttemptIndex>(ATTEMPT_INDEX_KEY, EMPTY_INDEX)

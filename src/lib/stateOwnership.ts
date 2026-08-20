@@ -17,12 +17,20 @@ const USER_OWNED_PATTERNS = [
   /^synapse-notification-read-v1-/,
   /^synapse-applied-voucher-v1$/,
   /^synapse\.qbank\./,
+  /^synapse\.flashcards\./,
   /^synapse\.practical\./,
+  /^synapse\.essay\./,
   /^synapse\.highlights\./,
   /^synapse\.annotations\./,
   /^synapse\.reader\./,
   /^synapse\.bookmarks\./,
   /^synapse\.progress\./,
+  // The list of a student's own uploaded documents. Undotted it reached the
+  // shared catalogue store, where the server refuses a student every read and
+  // every write — so the demo build's document list was silently inert and the
+  // live build spent a retry budget on a document it could never have.
+  /^synapse\.myDocuments\./,
+  /^synapse\.termgrid\./,
 ]
 
 export function isUserOwnedState(key: string): boolean {

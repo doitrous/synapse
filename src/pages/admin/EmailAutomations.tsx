@@ -1,13 +1,15 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Plus, Mail, Zap, Inbox, Info, KeyRound, ChevronRight, Send, RotateCcw } from 'lucide-react'
+import { Plus, Mail, Zap, Inbox, Info, KeyRound, ChevronRight, Send, RotateCcw, Trash2 } from 'lucide-react'
 import { campaigns } from '@/data/admin'
 import {
   EMAIL_AUTOMATIONS_STORAGE_KEY,
   automationCategories,
   fillTemplate,
   initialAutomations,
+  normaliseAutomations,
   PLACEHOLDERS,
+  renderAutomation,
   type Automation,
 } from '@/data/emailAutomations'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -21,10 +23,56 @@ import { Field, TextInput, Textarea } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { emailConfigured, emailTransport, sendEmail } from '@/lib/email'
-import { isTransactional, renderEmail, styleBodyHtml } from '@/data/emailTemplate'
+import type { EmailDetail } from '@/data/emailTemplate'
 import { cn } from '@/lib/cn'
 
-/** Editing panel for one automation's subject and body. */
+/** The fields an admin may edit. Everything else about an automation is wiring. */
+const CONTENT_FIELDS = ['subject', 'preheader', 'title', 'body', 'action', 'details', 'note'] as const
+
+const sameContent = (a: Automation, b: Automation) =>
+  CONTENT_FIELDS.every((field) => JSON.stringify(a[field] ?? null) === JSON.stringify(b[field] ?? null))
+
+/** The label/value rows of the detail panel, which is absent when it is empty. */
+function DetailRows({ details, onChange }: { details: EmailDetail[]; onChange: (next: EmailDetail[] | undefined) => void }) {
+  const patch = (index: number, next: Partial<EmailDetail>) =>
+    onChange(details.map((row, i) => (i === index ? { ...row, ...next } : row)))
+
+  return (
+    <div className="space-y-1.5">
+      {details.map((row, index) => (
+        <div key={index} className="flex gap-1.5">
+          <TextInput
+            value={row.label}
+            onChange={(event) => patch(index, { label: event.target.value })}
+            placeholder="Label"
+            aria-label={`Fact ${index + 1} label`}
+            className="h-8 min-w-0 flex-1 text-[12.5px]"
+          />
+          <TextInput
+            value={row.value}
+            onChange={(event) => patch(index, { value: event.target.value })}
+            placeholder="Value"
+            aria-label={`Fact ${index + 1} value`}
+            className="h-8 min-w-0 flex-1 font-mono text-[12px]"
+          />
+          <button
+            type="button"
+            onClick={() => onChange(details.length === 1 ? undefined : details.filter((_, i) => i !== index))}
+            className="grid size-8 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-danger-tint hover:text-danger"
+            aria-label={`Remove fact ${index + 1}`}
+          >
+            <Icon icon={Trash2} size={13} />
+          </button>
+        </div>
+      ))}
+      <Button variant="ghost" size="sm" iconLeft={Plus} onClick={() => onChange([...details, { label: '', value: '' }])}>
+        Add a fact
+      </Button>
+    </div>
+  )
+}
+
+/** Editing panel for one automation's blocks. */
 function TemplateEditor({
   automation,
   onPatch,
@@ -38,7 +86,9 @@ function TemplateEditor({
   const [sending, setSending] = useState(false)
   const [result, setResult] = useState<string | null>(null)
   const seed = initialAutomations.find((entry) => entry.id === automation.id)
-  const edited = Boolean(seed) && (seed!.subject !== automation.subject || seed!.body !== automation.body)
+  const edited = Boolean(seed) && !sameContent(seed!, automation)
+  const action = automation.action
+  const details = automation.details ?? []
 
   async function sendTest() {
     if (!testTo.trim()) return
@@ -46,12 +96,7 @@ function TemplateEditor({
     setResult(null)
     // Sent through the same wrapper production mail uses, so a test proves the
     // real thing rather than a bare fragment that only exists in this box.
-    const rendered = renderEmail({
-      subject: fillTemplate(automation.subject),
-      bodyHtml: styleBodyHtml(fillTemplate(automation.body)),
-      category: automation.category,
-      unsubscribeUrl: isTransactional(automation.category) ? undefined : 'https://synapse.doitrous.com/unsubscribe?token=preview',
-    })
+    const rendered = renderAutomation(automation)
     const outcome = await sendEmail({
       to: testTo.trim(),
       subject: `[Test] ${fillTemplate(automation.subject)}`,
@@ -69,8 +114,46 @@ function TemplateEditor({
           <Field label="Subject">
             <TextInput value={automation.subject} onChange={(event) => onPatch({ subject: event.target.value })} />
           </Field>
-          <Field label="Body" hint="Simple HTML. Placeholders are replaced when the email is sent.">
-            <Textarea rows={7} value={automation.body} onChange={(event) => onPatch({ body: event.target.value })} className="font-mono text-[12px]" />
+          <Field
+            label="Preheader"
+            hint={`The grey line beside the subject in the inbox. Never repeat the greeting. ${automation.preheader.length}/85`}
+          >
+            <TextInput value={automation.preheader} onChange={(event) => onPatch({ preheader: event.target.value })} />
+          </Field>
+          <Field label="Title" hint="The heading above the body. Empty means the subject, which is the norm.">
+            <TextInput
+              value={automation.title ?? ''}
+              onChange={(event) => onPatch({ title: event.target.value || undefined })}
+              placeholder={automation.subject}
+            />
+          </Field>
+          <Field label="Body" hint="Simple HTML paragraphs. The button, the facts and the note are their own fields.">
+            <Textarea rows={5} value={automation.body} onChange={(event) => onPatch({ body: event.target.value })} className="font-mono text-[12px]" />
+          </Field>
+          <Field label="Action" hint="One per email, never two. Leave the label empty on mail that asks for nothing.">
+            <div className="flex flex-wrap gap-1.5">
+              <TextInput
+                value={action?.label ?? ''}
+                onChange={(event) => onPatch({ action: event.target.value ? { label: event.target.value, url: action?.url ?? '{{actionUrl}}' } : undefined })}
+                placeholder="Button label"
+                aria-label="Action label"
+                className="min-w-0 flex-1"
+              />
+              <TextInput
+                value={action?.url ?? ''}
+                onChange={(event) => onPatch({ action: action ? { ...action, url: event.target.value } : undefined })}
+                placeholder="{{actionUrl}}"
+                aria-label="Action URL"
+                disabled={!action}
+                className="min-w-0 flex-1 font-mono text-[12px]"
+              />
+            </div>
+          </Field>
+          <Field label="Facts" hint="Shown in a tinted panel. Omitted entirely when there are none.">
+            <DetailRows details={details} onChange={(next) => onPatch({ details: next?.length ? next : undefined })} />
+          </Field>
+          <Field label="Note" hint="The quieter last word below a hairline: an expiry, an “if this wasn’t you”.">
+            <Textarea rows={2} value={automation.note ?? ''} onChange={(event) => onPatch({ note: event.target.value || undefined })} className="font-mono text-[12px]" />
           </Field>
         </div>
         <div className="space-y-3">
@@ -78,24 +161,23 @@ function TemplateEditor({
             <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Preview</p>
             <div className="mt-2 overflow-hidden rounded-lg border border-line bg-surface">
               <p className="border-b border-line px-3 py-2 text-[12.5px] font-semibold text-ink">{fillTemplate(automation.subject)}</p>
+              {/* The preheader is the second thing an inbox shows and the one
+                  part of the message the reader sees before deciding to open
+                  it, so the preview shows it where the inbox would. */}
+              <p className="truncate border-b border-line px-3 py-1.5 text-[11.5px] text-ink-3">{fillTemplate(automation.preheader)}</p>
               {/* The real wrapper, in an iframe — the email carries its own document
                   and palette, and letting that loose in the page would inherit the
                   admin's theme and show something the recipient will never see. */}
               {/* Rendered at its true 600px and scaled down, rather than squeezed
                   into the column — a preview of a narrower email would be a
                   preview of an email nobody is going to receive. */}
-              <div className="h-[360px] overflow-hidden bg-white">
-              <iframe
-                title="Email preview"
-                sandbox=""
-                style={{ width: 600, height: 655, transform: 'scale(0.55)', transformOrigin: 'top left', border: 0 }}
-                srcDoc={renderEmail({
-                  subject: fillTemplate(automation.subject),
-                  bodyHtml: styleBodyHtml(fillTemplate(automation.body)),
-                  category: automation.category,
-                  unsubscribeUrl: isTransactional(automation.category) ? undefined : 'https://synapse.doitrous.com/unsubscribe?token=preview',
-                }).html}
-              />
+              <div className="h-[452px] overflow-hidden bg-white">
+                <iframe
+                  title="Email preview"
+                  sandbox=""
+                  style={{ width: 600, height: 822, transform: 'scale(0.55)', transformOrigin: 'top left', border: 0 }}
+                  srcDoc={renderAutomation(automation).html}
+                />
               </div>
             </div>
           </div>
@@ -107,6 +189,7 @@ function TemplateEditor({
                   key={token}
                   type="button"
                   onClick={() => onPatch({ body: `${automation.body}${token}` })}
+                  title={`Append ${token} to the body`}
                   className="rounded border border-line bg-surface px-1.5 py-0.5 font-mono text-[10px] text-ink-2 hover:border-primary-line hover:text-primary-strong"
                 >
                   {token}
@@ -133,8 +216,12 @@ function TemplateEditor({
 }
 
 export function EmailAutomations() {
-  const [automations, setAutomations] = usePersistentState<Automation[]>(EMAIL_AUTOMATIONS_STORAGE_KEY, initialAutomations)
+  const [stored, setAutomations] = usePersistentState<Automation[]>(EMAIL_AUTOMATIONS_STORAGE_KEY, initialAutomations)
   const [openId, setOpenId] = useState<string | null>(null)
+  // Edits saved against the older single-body shape are read into blocks on the
+  // way in, so an admin who rewrote a template last term gets the new layout
+  // rather than a message that has lost its button to it.
+  const automations = useMemo(() => normaliseAutomations(stored), [stored])
   const configured = emailConfigured()
   const transport = emailTransport()
 
@@ -145,7 +232,9 @@ export function EmailAutomations() {
 
   const reset = (id: string) => {
     const seed = initialAutomations.find((entry) => entry.id === id)
-    if (seed) patch(id, { subject: seed.subject, body: seed.body })
+    if (!seed) return
+    const { subject, preheader, title, body, action, details, note } = seed
+    patch(id, { subject, preheader, title, body, action, details, note })
   }
 
   return (

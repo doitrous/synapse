@@ -173,6 +173,23 @@ struct SynapseAPI {
         _ = try await send(["user-state", key], method: "PUT", body: ValueBody(value: value))
     }
 
+    // MARK: - Accounts
+
+    /// Whether this person already has an account, asked before one is made.
+    ///
+    /// Sign-up runs this first so somebody re-registering is sent to sign in
+    /// rather than handed an error after Supabase has already created an auth
+    /// user with no roster row behind it. The server holds the UNIQUE index and
+    /// is the authority; this is the question, not the enforcement.
+    func accountExists(email: String, phone: String) async throws -> (email: Bool, phone: Bool) {
+        struct Body: Encodable { let email: String; let phone: String }
+        struct Taken: Decodable { let email: Bool; let phone: Bool }
+        let data = try await send(["accounts", "exists"], method: "POST",
+                                  body: Body(email: email, phone: phone))
+        let taken = try Self.decoder.decode(Taken.self, from: data)
+        return (taken.email, taken.phone)
+    }
+
     // MARK: - Vouchers
 
     /// The voucher this student currently has applied, if any.

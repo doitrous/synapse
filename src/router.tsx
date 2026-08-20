@@ -66,6 +66,7 @@ const ForgotPassword = lazyNamed(() => import('@/pages/auth/ForgotPassword'), 'F
 const ResetPassword = lazyNamed(() => import('@/pages/auth/ResetPassword'), 'ResetPassword')
 const Logout = lazyNamed(() => import('@/pages/auth/Logout'), 'Logout')
 const Unsubscribe = lazyNamed(() => import('@/pages/Unsubscribe'), 'Unsubscribe')
+const SharedDocument = lazyNamed(() => import('@/pages/SharedDocument'), 'SharedDocument')
 
 const Dashboard = lazyNamed(() => import('@/pages/student/Dashboard'), 'Dashboard')
 const Library = lazyNamed(() => import('@/pages/student/Library'), 'Library')
@@ -74,7 +75,10 @@ const AdaptiveStudy = lazyNamed(() => import('@/pages/student/AdaptiveStudy'), '
 const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resources')
 const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
 const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'), 'MedicalTaxonomy')
+const TermGridPage = lazyNamed(() => import('@/components/termgrid/TermGridPage'), 'TermGridPage')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
+const Flashcards = lazyNamed(() => import('@/pages/student/Flashcards'), 'Flashcards')
+const EssayQuestions = lazyNamed(() => import('@/pages/student/EssayQuestions'), 'EssayQuestions')
 const CalendarPage = lazyNamed(() => import('@/pages/student/Calendar'), 'CalendarPage')
 const Performance = lazyNamed(() => import('@/pages/student/Performance'), 'Performance')
 const Whiteboard = lazyNamed(() => import('@/pages/student/Whiteboard'), 'Whiteboard')
@@ -106,6 +110,9 @@ const QuestionsSetup = lazyNamed(() => import('@/pages/admin/QuestionsSetup'), '
 const AdaptiveSetup = lazyNamed(() => import('@/pages/admin/AdaptiveSetup'), 'AdaptiveSetup')
 const ResourcesSetup = lazyNamed(() => import('@/pages/admin/ResourcesSetup'), 'ResourcesSetup')
 const PracticalSetup = lazyNamed(() => import('@/pages/admin/PracticalSetup'), 'PracticalSetup')
+const FlashcardsSetup = lazyNamed(() => import('@/pages/admin/FlashcardsSetup'), 'FlashcardsSetup')
+const WrittenSetup = lazyNamed(() => import('@/pages/admin/WrittenSetup'), 'WrittenSetup')
+const HistologySetup = lazyNamed(() => import('@/pages/admin/HistologySetup'), 'HistologySetup')
 const ConceptsImportPage = lazyNamed(() => import('@/pages/admin/ConceptsImportPage'), 'ConceptsImportPage')
 const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImportPage'), 'RelationsImportPage')
 const MediaRequests = lazyNamed(() => import('@/pages/admin/MediaRequests'), 'MediaRequests')
@@ -123,7 +130,10 @@ const studentPages: Record<string, Preloadable> = {
   adaptive: AdaptiveStudy,
   resources: Resources,
   taxonomy: MedicalTaxonomy,
+  'term-grid': TermGridPage,
   practical: Practical,
+  flashcards: Flashcards,
+  essays: EssayQuestions,
   calendar: CalendarPage,
   performance: Performance,
   whiteboard: Whiteboard,
@@ -156,6 +166,9 @@ const adminBuilt: Record<string, ReactElement> = {
   taxonomy: render(TaxonomySetup),
   glossary: render(GlossarySetup),
   practical: render(PracticalSetup),
+  flashcards: render(FlashcardsSetup),
+  written: render(WrittenSetup),
+  histology: render(HistologySetup),
   resources: render(ResourcesSetup),
   reports: render(ReportsReview),
   students: render(StudentsManagement),
@@ -172,8 +185,8 @@ const adminBuilt: Record<string, ReactElement> = {
   assistant: render(AssistantSetup),
 }
 
-const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
+const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'essays', 'resources', 'taxonomy', 'term-grid', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
@@ -281,6 +294,9 @@ export const router = createBrowserRouter([
   { path: '/logout', element: render(Logout) },
   // Followed from an inbox, signed out, on either host — never behind auth.
   { path: '/unsubscribe', element: render(Unsubscribe) },
+  // A note or a board somebody shared. Deliberately outside `/app`: whoever
+  // opens it may have no account, and the server decides what they may do.
+  { path: '/s/:id', element: render(SharedDocument) },
   { path: '/auth/verify-email', element: render(VerifyEmail) },
   { path: '/auth/mfa', element: render(MfaSetup) },
   { path: '/auth/forgot-password', element: render(ForgotPassword) },

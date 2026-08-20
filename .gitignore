@@ -42,6 +42,10 @@ server/node_modules
 ios/Config/Secrets.xcconfig
 ios/build/
 ios/DerivedData/
+# Swift packages cloned here rather than into DerivedData, so CI can cache
+# them at a stable path. Checkouts of other people's repositories — and
+# `oxlint` walks into their vendored JavaScript if they are left visible.
+ios/.spm/
 ios/Synapse.xcodeproj/project.xcworkspace/xcuserdata/
 ios/Synapse.xcodeproj/xcuserdata/
 # Resolved package versions live in the workspace; keep the pin, drop the noise.

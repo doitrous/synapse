@@ -29,7 +29,7 @@ export interface ContentScope {
   yearIds: string[]
 }
 
-export type ScopedKind = 'question' | 'article' | 'practical' | 'resource' | 'concept'
+export type ScopedKind = 'question' | 'article' | 'practical' | 'resource' | 'concept' | 'deck' | 'essay' | 'histology'
 export type ScopedItem = ManagedContentItem | Concept
 
 interface ItemTags {
@@ -65,6 +65,20 @@ function universityOfYear(value: unknown): string | null {
   return match ? match[1].toUpperCase() : null
 }
 
+/**
+ * The module a `module_subject` path names.
+ *
+ * A path reads `101 ISK > Anatomy > Upper Limb > Brachial Plexus`, written the
+ * way the faculty says it, and its first segment is the module. Content tagged
+ * only this finely still belongs to whoever reviews that module, so the path is
+ * a second source of module ids beside `moduleIds` rather than a replacement
+ * for it. See `moduleSubjectPath.ts`.
+ */
+function moduleOfPath(path: unknown): string | null {
+  const first = String(path ?? '').split('>')[0]?.trim()
+  return first || null
+}
+
 function list(value: unknown): unknown[] {
   return Array.isArray(value)
     ? value.filter((entry) => entry !== null && entry !== undefined && entry !== '')
@@ -77,16 +91,27 @@ function tagsOf(kind: ScopedKind, item: ScopedItem | null): ItemTags {
   if (!item) return { moduleIds: [], years: [], universityIds: [] }
   if (kind === 'question') {
     const tags = record.questionData?.tags ?? {}
-    return { moduleIds: list(tags.moduleIds), years: list(tags.years), universityIds: list(tags.universityIds) }
+    return {
+      moduleIds: [...list(tags.moduleIds), ...list(tags.moduleSubjectPaths).map(moduleOfPath).filter(Boolean)],
+      years: list(tags.years),
+      universityIds: list(tags.universityIds),
+    }
   }
   if (kind === 'concept') {
     return { moduleIds: list(record.moduleIds), years: list(record.learnerYears), universityIds: list(record.universityIds) }
   }
+  // deck, essay and histology carry no curriculum placement at all yet, so they
+  // fall through to nothing — which means untagged, which means only an
+  // unscoped caller may edit them.
   const data = (kind === 'article' ? record.articleData
     : kind === 'practical' ? record.practicalData
     : kind === 'resource' ? record.resourceData
     : null) ?? {}
-  return { moduleIds: list(data.moduleIds), years: list(data.yearIds), universityIds: list(data.universityIds) }
+  return {
+    moduleIds: [...list(data.moduleIds), ...list(data.moduleSubjectPaths).map(moduleOfPath).filter(Boolean)],
+    years: list(data.yearIds),
+    universityIds: list(data.universityIds),
+  }
 }
 
 export function itemModules(kind: ScopedKind, item: ScopedItem | null): string[] {

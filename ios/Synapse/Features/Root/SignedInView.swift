@@ -142,6 +142,15 @@ struct AccountView: View {
 
     @State private var university = ""
     @State private var year = ""
+    @State private var prefs: AccountPrefsStore
+
+    init(user: SessionUser, auth: AuthModel, sync: SyncEngine, audienceStore: AudienceStore) {
+        self.user = user
+        self.auth = auth
+        self.sync = sync
+        self.audienceStore = audienceStore
+        _prefs = State(wrappedValue: AccountPrefsStore(api: auth.api, sync: sync))
+    }
 
     var body: some View {
         NavigationStack {
@@ -192,6 +201,32 @@ struct AccountView: View {
                 }
                 .listRowBackground(Theme.surface)
 
+                Section {
+                    // Two choices rather than one: wanting to be told a lecture
+                    // moved is not the same as wanting to be told a concept is
+                    // fading.
+                    //
+                    // Rows rather than `Toggle`s. This is the third place in
+                    // the app where a stock control drew itself correctly and
+                    // then took no taps at all, and the fix is the same one the
+                    // resources filter and the question-bank footer already
+                    // use: a plain button that says what it is.
+                    switchRow("Review reminders", on: prefs.prefs.reviewReminders) {
+                        Task { await prefs.set(reviewReminders: !prefs.prefs.reviewReminders) }
+                    }
+                    switchRow("Timetable reminders", on: prefs.prefs.calendarReminders) {
+                        Task { await prefs.set(calendarReminders: !prefs.prefs.calendarReminders) }
+                    }
+                    row("Time zone", prefs.prefs.timezone)
+                } header: {
+                    Text(strings("Reminders"))
+                } footer: {
+                    Text(strings("Reminders are sent from the server, so it records the time zone this phone is in."))
+                        .font(Theme.ui(12))
+                }
+                .tint(Theme.primary)
+                .listRowBackground(Theme.surface)
+
                 Section("Sync") {
                     row("Status", statusText)
                     if sync.pendingUploads > 0 {
@@ -222,6 +257,33 @@ struct AccountView: View {
             .background(Theme.paper)
             .navigationTitle("Account")
         }
+        .task {
+            await prefs.load()
+            // Recorded on arrival, so a student who has travelled is not sent a
+            // reminder at four in the morning by a server that still thinks
+            // they are where they signed up.
+            await prefs.syncTimezone()
+        }
+    }
+
+    /// A setting that is either on or off, as a row that actually responds.
+    private func switchRow(
+        _ label: LocalizedStringKey, on: Bool, toggle: @escaping () -> Void
+    ) -> some View {
+        Button(action: toggle) {
+            HStack {
+                Text(label)
+                    .font(Theme.ui(15))
+                    .foregroundStyle(Theme.ink)
+                Spacer()
+                Image(systemName: on ? "checkmark.circle.fill" : "circle")
+                    .font(.system(size: 20))
+                    .foregroundStyle(on ? Theme.primary : Theme.ink3)
+            }
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .accessibilityAddTraits(on ? [.isButton, .isSelected] : .isButton)
     }
 
     /// Where a student says which cohort they are in.

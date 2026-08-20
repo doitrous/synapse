@@ -94,10 +94,50 @@ export async function apiAuthGate(req, res, next) {
   // It is safe to leave open: it accepts nothing but a 48-character opaque
   // token, returns 404 for anything it does not recognise, reads nothing back to
   // the caller, and can only ever add a suppression.
-  if (req.path === '/api/health' || req.path === '/api/webhooks/resend/inbound' || req.path === '/api/unsubscribe') return next()
+  //
+  // `/api/accounts/exists` is on this list for the same reason: sign-up asks it
+  // before an account exists, so there is no session to present. It was behind
+  // the gate and answered 401 to every caller, which the sign-up form swallowed
+  // — so the duplicate check it exists to perform never once ran. It answers
+  // taken or not taken, nothing else, and carries its own rate limit.
+  //
+  // Meta's deletion callback is here for the same reason and is authenticated
+  // its own way: Meta signs each call with the app secret, and the route
+  // refuses anything whose `signed_request` does not verify — including every
+  // call at all when no secret is configured. It sat behind this gate once and
+  // therefore answered 401 to every deletion request Meta ever sent, which is
+  // the failure this list exists to prevent.
+  if (
+    req.path === '/api/health'
+    || req.path === '/api/webhooks/resend/inbound'
+    || req.path === '/api/unsubscribe'
+    || req.path === '/api/accounts/exists'
+    || req.path === '/api/facebook/deletion-callback'
+  ) return next()
 
   const auth = req.header('authorization') || ''
   const token = auth.startsWith('Bearer ') ? auth.slice(7) : ''
+
+  /**
+   * Reading one shared document is answerable either way.
+   *
+   * A link to a note shared with a study group has to open for somebody who has
+   * no account, and it has to keep opening for somebody whose token has since
+   * expired — a stale session is not a reason to refuse a public page. So the
+   * identity is resolved when there is one and the request continues when there
+   * is not; `readShare` then decides, and answers 404 for a private share held
+   * by somebody else. Only this exact shape is optional: the list, the create
+   * and the update below it all require a session.
+   */
+  if (req.method === 'GET' && /^\/api\/shares\/[^/]+$/.test(req.path)) {
+    if (token && supabaseUrl) {
+      try {
+        const identity = await supabaseIdentity(token)
+        if (identity) req.identity = identity
+      } catch { /* an unreadable token is simply no identity here */ }
+    }
+    return next()
+  }
 
   // There is deliberately no bypass here. A shared secret that mints an admin
   // identity is indistinguishable from a stolen one, and the "no Supabase

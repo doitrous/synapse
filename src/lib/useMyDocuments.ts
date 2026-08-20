@@ -26,7 +26,16 @@ import {
 export interface MyDocument {
   id: string
   title: string
+  /**
+   * `pdf` for anything the in-app reader opens, `file` for everything else.
+   *
+   * Uploads used to be PDFs only. A whiteboard can carry any file, so the two
+   * kinds are distinguished: only a `pdf` appears where a reader is implied.
+   */
   mediaType: string
+  /** The name it was uploaded under, so a download arrives called that. */
+  fileName?: string | null
+  mimeType?: string | null
   sizeBytes: number
   pageCount: number | null
   createdAt: string
@@ -91,7 +100,7 @@ export function useMyDocuments(): MyDocumentsState {
       setLocal((current) => [newRecord(id, file, ref), ...current])
       return id
     }
-    const created = await apiPost<{ id: string; uploadId: string }>('/my-documents', { title: fileTitle(file) })
+    const created = await apiPost<{ id: string; uploadId: string }>('/my-documents', { title: fileTitle(file), fileName: file.name, mimeType: file.type })
     const total = Math.max(1, Math.ceil(file.size / CHUNK_BYTES))
     for (let index = 0; index < total; index++) {
       await apiUploadChunk(
@@ -146,7 +155,9 @@ function newRecord(id: string, file: File, ref: string): MyDocument {
   return {
     id,
     title: fileTitle(file),
-    mediaType: 'pdf',
+    mediaType: isPdf(file) ? 'pdf' : 'file',
+    fileName: file.name,
+    mimeType: file.type || null,
     sizeBytes: file.size,
     pageCount: null,
     createdAt: new Date().toISOString(),
@@ -154,6 +165,10 @@ function newRecord(id: string, file: File, ref: string): MyDocument {
   }
 }
 
+function isPdf(file: File): boolean {
+  return file.type === 'application/pdf' || /\.pdf$/i.test(file.name)
+}
+
 function fileTitle(file: File): string {
-  return file.name.replace(/\.pdf$/i, '').trim() || 'Untitled document'
+  return file.name.replace(/\.[A-Za-z0-9]{1,8}$/, '').trim() || 'Untitled document'
 }

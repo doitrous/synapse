@@ -100,3 +100,12 @@ export const CONFLICT_MESSAGE: Record<IdentityConflict['field'], string> = {
   email: 'That email is already registered. Sign in instead — we have filled it in for you.',
   phone: 'That phone number is already registered. Sign in instead — we have filled in the account it belongs to.',
 }
+
+/**
+ * The only rule a password has to satisfy.
+ *
+ * One number, in one place, read by sign-up and by the reset form. Two
+ * different minimums would mean a password accepted at registration could be
+ * refused when the same person came back to change it.
+ */
+export const MIN_PASSWORD = 6

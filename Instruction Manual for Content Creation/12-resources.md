@@ -126,6 +126,7 @@ What a student opens. Imports at **Bulk import → resource**.
 | `topics` | no | Topic/subtopic IDs or titles it covers. **Solving questions on this resource pulls in these topics**, so this is what makes it usable as a revision filter. |
 | `chapter` | no | Chapters it covers. Files land in the Files tab, videos in the Videos tab. |
 | `module_ids` | no | Modules it serves. |
+| `module_subject` | no | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
 | `included_concepts` | no | Concept IDs it covers. **Each named concept is auto-updated to approve this resource** — this is what fills a concept's `approvedFileResourceIds`, which every concept currently leaves blank. |
 | `included_articles` | no | Library article IDs it supports. |
 | `concept_locations` | no | Page-level deep links, one per line: `conceptId \| page\|line\|slide\|timestamp \| locator`. |

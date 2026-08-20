@@ -49,6 +49,11 @@ test('the two agree across all four content kinds and concepts', () => {
     ['resource', { resourceData: { yearIds: ['Year 2'] } }],
     ['concept', { learnerYears: [2] }],
     ['concept', { moduleIds: ['MOD_RES'] }],
+    ['question', { questionData: { tags: { moduleSubjectPaths: ['MOD_CVS > Anatomy > Upper Limb'] } } }],
+    ['article', { articleData: { moduleSubjectPaths: ['MOD_RES > Physiology'] } }],
+    ['deck', { id: 'd', kind: 'deck' }],
+    ['essay', { id: 'e', kind: 'essay' }],
+    ['histology', { id: 'h', kind: 'histology' }],
   ]
   for (const [kind, item] of cases) {
     assert.equal(

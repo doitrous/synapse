@@ -67,6 +67,7 @@ finding already circled cannot be used to test whether the student can find it.
 | `marks` | Marks / decisions | no | Recomputed as the **number of questions**. |
 | `difficulty` | Difficulty | no | Whole-item difficulty; each question may set its own. |
 | `lab_questions` | Interpretation questions | **yes** | The questions. Syntax below. |
+| `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
 | `main_concept` | Main concept(s) | — | What the set as a whole is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | **No mastery.** |

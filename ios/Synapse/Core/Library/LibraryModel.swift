@@ -30,6 +30,8 @@ final class LibraryModel {
     private(set) var atlas = LibraryAtlas.empty
     /// The published evidence, kept so a fact can show where it came from.
     private(set) var evidence = EvidenceStore.empty
+    /// The concept terms the reader makes pressable.
+    private(set) var concepts = ConceptTerms()
 
     private let store: LocalStore
     /// The student's cohort, which decides what is in scope. Nil until the
@@ -105,7 +107,13 @@ final class LibraryModel {
             let items = try await store.items(kind: .article, audience: audience)
             let evidence = EvidenceStore.decode(try await decodedCatalogue(SyncEngine.evidenceKey))
             self.evidence = evidence
-            let concepts = ConceptIndex.decode(try await decodedCatalogue(SyncEngine.conceptGraphKey))
+            let graphDocument = try await store.catalogue(key: SyncEngine.conceptGraphKey)
+            let concepts = ConceptIndex.decode(graphDocument.flatMap { try? JSONSerialization.jsonObject(with: $0) })
+            // The same document, read a second way: the projection wants
+            // published labels, the reader wants terms to match on.
+            self.concepts = ConceptTerms(
+                graph: graphDocument.flatMap { try? JSONDecoder().decode(ConceptGraph.self, from: $0) } ?? ConceptGraph()
+            )
 
             // Related reading may only point at an article this projection will
             // render, so the same filtered set decides both what exists and

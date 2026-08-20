@@ -1,5 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
+import { readFileSync } from 'node:fs'
 import { authoriseChanges, diffDocument, isMergeable, mergeDocument } from './stateMerge.js'
 
 const LEDGER = 'synapse-admin-content-ledger-v4'
@@ -7,6 +8,19 @@ const GRAPH = 'synapse-concept-graph-v2'
 
 const q = (id, title, moduleIds = ['MOD_CVS']) => ({
   id, kind: 'question', title, questionData: { tags: { moduleIds, years: [] } },
+})
+
+test('every content kind in the ledger is owned by a tab', () => {
+  // Read from the client's ContentKind union, so a kind added there without a
+  // tab here fails this test rather than silently refusing every save of it.
+  const source = readFileSync(new URL('../../src/data/contentControl.ts', import.meta.url), 'utf8')
+  const declared = source
+    .match(/export type ContentKind = ([^\n]+)/)[1]
+    .split('|').map((part) => part.trim().replace(/'/g, ''))
+  for (const kind of declared) {
+    const changes = diffDocument(LEDGER, [], [{ id: 'x', kind }])
+    assert.equal(changes[0].tabs.length > 0, true, `no tab authors "${kind}"`)
+  }
 })
 
 test('only the keyed collections merge', () => {

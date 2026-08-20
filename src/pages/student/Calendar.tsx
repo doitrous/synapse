@@ -6,7 +6,8 @@ import { getSubject, subjects } from '@/data/subjects'
 import {
   durationMinutes, isoDay, STUDY_BLOCKS_STORAGE_KEY, type StudyBlock,
 } from '@/data/studyBlocks'
-import { useStudentSchedule, type ScheduledSession } from '@/lib/useStudentSchedule'
+import { useStudentSchedule } from '@/lib/useStudentSchedule'
+import type { ScheduledSession } from '@/lib/studentSchedule'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { PageContainer } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'

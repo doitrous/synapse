@@ -1,68 +1,33 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
   StickyNote, ZoomIn, ZoomOut, Maximize, Trash2, Undo2, Redo2, PanelsTopLeft, Map, GripVertical,
-  Search, ChevronUp, ChevronDown, X,
+  Search, ChevronUp, ChevronDown, X, ImagePlus, Paperclip, Pencil, Eraser, MousePointer2,
+  FileText, Download, Link2,
 } from 'lucide-react'
 import { IconButton } from '@/components/ui/IconButton'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { clamp } from '@/lib/format'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { imageFileToBoundedDataUrl } from '@/lib/mediaStorage'
+import { useMyDocuments } from '@/lib/useMyDocuments'
+import { apiDownload, API_MODE } from '@/lib/api'
+import { uploadRouteId } from '@/lib/useReaderSource'
+import { ShareDialog } from '@/components/share/ShareDialog'
 import { useT } from '@/lib/i18n'
 import {
-  BOARD, NOTE_HEIGHT, NOTE_WIDTH, anchorOf, clampToBoard, clampView, defaultControls,
+  BOARD, anchorOf, clampToBoard, clampView, defaultControls,
   linkPath, matchNotes, noteAt, sidesBetween, toBoard, viewCentredOn,
   type Point, type Side,
 } from '@/lib/whiteboardGeometry'
+import {
+  FILE_H, FILE_W, IMAGE_W, INITIAL_BOARD, INK_COLOURS, INK_WIDTHS, NOTE_H, NOTE_W,
+  TONES, TONE_LABEL, TONE_ORDER, filesOf, imagesOf, inkOf, inkPath,
+  type BoardFile, type BoardImage, type BoardState, type Frame, type InkStroke, type LinkLine,
+  type Tool,
+} from '@/data/whiteboard'
 
-interface Note { id: string; x: number; y: number; text: string; tone: keyof typeof TONES }
-/**
- * A connector between two notes.
- *
- * `c1`/`c2` are optional on purpose: absent means "use the automatic curve",
- * which is what every link on an existing board has, so none of them change.
- * Present means the student bent it, and their bend is what is drawn.
- */
-interface LinkLine { id: string; from: string; to: string; c1?: Point; c2?: Point }
-interface Frame { id: string; x: number; y: number; width: number; height: number; title: string }
-interface BoardState { notes: Note[]; links: LinkLine[]; frames: Frame[] }
-
-/**
- * Eight light note colours.
- *
- * Tints rather than fills, so a note reads as paper with a wash over it and the
- * ink on top stays legible — including in the dark theme, where each of these
- * tokens is redefined. The original four keys are kept exactly as they were, so
- * notes already on a board keep the colour they were given.
- */
-const TONES = {
-  paper: 'bg-surface border-line',
-  teal: 'bg-primary-tint border-primary-line',
-  amber: 'bg-warning-tint border-warning/30',
-  rose: 'bg-danger-tint border-danger/25',
-  sage: 'bg-success-tint border-success/30',
-  slate: 'bg-surface-2 border-line-2',
-  sand: 'bg-inset border-line-2',
-  clay: 'bg-primary-tint/55 border-primary-line/70',
-} as const
-
-const TONE_ORDER = ['paper', 'teal', 'amber', 'rose', 'sage', 'sand', 'slate', 'clay'] as const
-
-/** What each colour is called, for the picker's labels. */
-const TONE_LABEL: Record<keyof typeof TONES, string> = {
-  paper: 'Paper', teal: 'Teal', amber: 'Amber', rose: 'Rose',
-  sage: 'Sage', slate: 'Slate', sand: 'Sand', clay: 'Clay',
-}
-const NOTE_W = NOTE_WIDTH
-const NOTE_H = NOTE_HEIGHT
-/**
- * A new whiteboard is empty.
- *
- * It used to be seeded with seven sticky notes, eight connectors and a frame
- * titled "Heart failure · mechanism to treatment" — someone else's diagram,
- * written into a real student's account the first time they dragged anything.
- */
-const INITIAL_BOARD: BoardState = { notes: [], links: [], frames: [] }
 
 type NoteOffset = { id: string; ox: number; oy: number }
 type Drag =
@@ -70,6 +35,11 @@ type Drag =
   | { type: 'note'; id: string; sx: number; sy: number; ox: number; oy: number }
   | { type: 'frame'; id: string; sx: number; sy: number; ox: number; oy: number; notes: NoteOffset[] }
   | { type: 'frame-resize'; id: string; sx: number; sy: number; ow: number; oh: number }
+  | { type: 'image'; id: string; sx: number; sy: number; ox: number; oy: number }
+  | { type: 'image-resize'; id: string; sx: number; sy: number; ow: number; oh: number; ratio: number }
+  | { type: 'file'; id: string; sx: number; sy: number; ox: number; oy: number }
+  /** Drawing a freehand line. The points are collected on the ref below. */
+  | { type: 'ink' }
   /** Pulling a connector out of a note's edge towards wherever it lands. */
   | { type: 'link'; from: string; side: Side }
   /** Bending an existing connector by one of its two control points. */
@@ -78,6 +48,8 @@ type Drag =
 
 export function Whiteboard() {
   const t = useT()
+  const navigate = useNavigate()
+  const documents = useMyDocuments()
   const canvasRef = useRef<HTMLDivElement>(null)
   // The board starts at its own corner: there is nothing before (0, 0) to show.
   const [view, setView] = useState({ x: 0, y: 0, scale: 1 })
@@ -100,6 +72,27 @@ export function Whiteboard() {
   const [query, setQuery] = useState('')
   const [searchOpen, setSearchOpen] = useState(false)
   const [hitIndex, setHitIndex] = useState(0)
+  /**
+   * What the pointer does on empty space.
+   *
+   * `select` pans and selects, which is what the board has always done. `pen`
+   * draws, and `eraser` removes a line by touching it. Deliberately a mode
+   * rather than a modifier: a freehand line is a sustained gesture, and holding
+   * a key for the length of a diagram is not drawing.
+   */
+  const [tool, setTool] = useState<Tool>('select')
+  const [inkColour, setInkColour] = useState<string>(INK_COLOURS[0].value)
+  const [inkWidth, setInkWidth] = useState<number>(INK_WIDTHS[1])
+  /** The picture or file that is selected, if either is. */
+  const [selectedItem, setSelectedItem] = useState<{ kind: 'image' | 'file'; id: string } | null>(null)
+  /** The line being drawn, before it is committed to the board. */
+  const [drawing, setDrawing] = useState<number[] | null>(null)
+  const drawingRef = useRef<number[] | null>(null)
+  const [attaching, setAttaching] = useState<'image' | 'file' | null>(null)
+  const [attachError, setAttachError] = useState('')
+  const pictureInput = useRef<HTMLInputElement>(null)
+  const fileInput = useRef<HTMLInputElement>(null)
+  const [sharing, setSharing] = useState(false)
   const drag = useRef<Drag>(null)
   const viewRef = useRef(view)
   const boardRef = useRef(board)
@@ -114,6 +107,12 @@ export function Whiteboard() {
   // reached through a ref rather than captured from the first render.
   const rememberRef = useRef(remember)
   rememberRef.current = remember
+  // The window listeners are registered once, so the pen's current colour and
+  // width have to be reachable through a ref rather than captured at mount.
+  const inkColourRef = useRef(inkColour)
+  inkColourRef.current = inkColour
+  const inkWidthRef = useRef(inkWidth)
+  inkWidthRef.current = inkWidth
   function undo() { const previous = history.current.pop(); if (!previous) return; future.current.push(snapshot()); setBoard(previous); setSelected(null) }
   function redo() { const next = future.current.pop(); if (!next) return; history.current.push(snapshot()); setBoard(next); setSelected(null) }
 
@@ -125,9 +124,9 @@ export function Whiteboard() {
   useEffect(() => {
     function onMove(event: PointerEvent) {
       const active = drag.current
-      // The two board-space gestures follow the cursor rather than a delta, and
-      // are handled below.
-      if (!active || active.type === 'link' || active.type === 'bend') return
+      // The board-space gestures — pulling a connector, bending one, drawing —
+      // follow the cursor rather than a delta, and are handled below.
+      if (!active || active.type === 'link' || active.type === 'bend' || active.type === 'ink') return
       const dx = event.clientX - active.sx
       const dy = event.clientY - active.sy
       const scale = viewRef.current.scale
@@ -155,6 +154,29 @@ export function Whiteboard() {
             return offset ? { ...note, x: offset.ox + wdx, y: offset.oy + wdy } : note
           }),
         }))
+      } else if (active.type === 'image') {
+        setBoard((current) => ({
+          ...current,
+          images: imagesOf(current).map((image) => image.id === active.id
+            ? { ...image, ...clampToBoard({ x: active.ox + dx / scale, y: active.oy + dy / scale }, { width: image.width, height: image.height }) }
+            : image),
+        }))
+      } else if (active.type === 'image-resize') {
+        // Width drives height, so a picture cannot be squashed out of shape.
+        const width = Math.max(80, active.ow + dx / scale)
+        setBoard((current) => ({
+          ...current,
+          images: imagesOf(current).map((image) => image.id === active.id
+            ? { ...image, width, height: Math.max(60, width / active.ratio) }
+            : image),
+        }))
+      } else if (active.type === 'file') {
+        setBoard((current) => ({
+          ...current,
+          files: filesOf(current).map((file) => file.id === active.id
+            ? { ...file, ...clampToBoard({ x: active.ox + dx / scale, y: active.oy + dy / scale }, { width: FILE_W, height: FILE_H }) }
+            : file),
+        }))
       } else if (active.type === 'frame-resize') {
         const wdx = dx / scale
         const wdy = dy / scale
@@ -165,13 +187,25 @@ export function Whiteboard() {
       }
     }
 
-    /** The two gestures that follow the cursor in board space rather than by delta. */
+    /** The gestures that follow the cursor in board space rather than by delta. */
     function onPointerBoard(event: PointerEvent) {
       const active = drag.current
-      if (!active || (active.type !== 'link' && active.type !== 'bend')) return
+      if (!active || (active.type !== 'link' && active.type !== 'bend' && active.type !== 'ink')) return
       const rect = canvasRef.current?.getBoundingClientRect()
       if (!rect) return
       const point = toBoard({ x: event.clientX - rect.left, y: event.clientY - rect.top }, viewRef.current)
+      if (active.type === 'ink') {
+        const points = drawingRef.current
+        if (!points) return
+        // Points closer together than this add nothing a hand can see and a
+        // great deal to the stored document.
+        const lastX = points[points.length - 2]
+        const lastY = points[points.length - 1]
+        if (Math.hypot(point.x - lastX, point.y - lastY) < 1.5) return
+        points.push(point.x, point.y)
+        setDrawing([...points])
+        return
+      }
       if (active.type === 'link') { setPulling(point); return }
       setBoard((current) => ({
         ...current,
@@ -188,6 +222,18 @@ export function Whiteboard() {
     function onUp(event: PointerEvent) {
       const active = drag.current
       drag.current = null
+      if (active?.type === 'ink') {
+        const points = drawingRef.current
+        drawingRef.current = null
+        setDrawing(null)
+        // A tap is not a line. Two points is the minimum that draws anything.
+        if (points && points.length >= 4) {
+          rememberRef.current()
+          const stroke: InkStroke = { id: `i${Date.now()}`, points, color: inkColourRef.current, width: inkWidthRef.current }
+          setBoard((current) => ({ ...current, ink: [...inkOf(current), stroke] }))
+        }
+        return
+      }
       if (active?.type !== 'link') { setPulling(null); return }
       setPulling(null)
       const rect = canvasRef.current?.getBoundingClientRect()
@@ -244,16 +290,34 @@ export function Whiteboard() {
     zoomBy(factor, event.clientX - rect.left, event.clientY - rect.top)
   }
 
-  function backgroundDown(event: React.PointerEvent) {
+  function clearSelection() {
     setSelected(null)
     setSelectedFrame(null)
     setSelectedLink(null)
+    setSelectedItem(null)
     setPalette(null)
+  }
+
+  function backgroundDown(event: React.PointerEvent) {
+    clearSelection()
+    if (tool === 'pen') {
+      const rect = canvasRef.current?.getBoundingClientRect()
+      if (!rect) return
+      const point = toBoard({ x: event.clientX - rect.left, y: event.clientY - rect.top }, view)
+      drawingRef.current = [point.x, point.y]
+      setDrawing([point.x, point.y])
+      drag.current = { type: 'ink' }
+      return
+    }
+    // The eraser removes lines by touching them; a press on bare board with it
+    // selected is still a pan, because otherwise there is no way to move around.
     drag.current = { type: 'pan', sx: event.clientX, sy: event.clientY, ox: view.x, oy: view.y }
   }
 
   /** Empty space, double-clicked, is where a note goes. */
   function backgroundDoubleClick(event: React.MouseEvent) {
+    // With the pen down, a double-click is two strokes, not a new note.
+    if (tool !== 'select') return
     const rect = canvasRef.current?.getBoundingClientRect()
     if (!rect) return
     const point = toBoard({ x: event.clientX - rect.left, y: event.clientY - rect.top }, view)
@@ -365,6 +429,125 @@ export function Whiteboard() {
     setSelected(null)
   }
 
+  /* ---- Pictures, files and ink ----------------------------------------- */
+
+  function imageDown(event: React.PointerEvent, image: BoardImage) {
+    if (tool !== 'select') return
+    event.stopPropagation()
+    clearSelection()
+    setSelectedItem({ kind: 'image', id: image.id })
+    remember()
+    drag.current = { type: 'image', id: image.id, sx: event.clientX, sy: event.clientY, ox: image.x, oy: image.y }
+  }
+
+  function imageResizeDown(event: React.PointerEvent, image: BoardImage) {
+    event.stopPropagation()
+    setSelectedItem({ kind: 'image', id: image.id })
+    remember()
+    drag.current = {
+      type: 'image-resize', id: image.id, sx: event.clientX, sy: event.clientY,
+      ow: image.width, oh: image.height, ratio: image.width / Math.max(1, image.height),
+    }
+  }
+
+  function fileDown(event: React.PointerEvent, file: BoardFile) {
+    if (tool !== 'select') return
+    event.stopPropagation()
+    clearSelection()
+    setSelectedItem({ kind: 'file', id: file.id })
+    remember()
+    drag.current = { type: 'file', id: file.id, sx: event.clientX, sy: event.clientY, ox: file.x, oy: file.y }
+  }
+
+  /** Remove whichever picture or file is selected. */
+  function removeSelectedItem() {
+    if (!selectedItem) return
+    remember()
+    setBoard((current) => selectedItem.kind === 'image'
+      ? { ...current, images: imagesOf(current).filter((image) => image.id !== selectedItem.id) }
+      : { ...current, files: filesOf(current).filter((file) => file.id !== selectedItem.id) })
+    setSelectedItem(null)
+  }
+
+  /** Touching a line with the eraser removes it. */
+  function eraseStroke(id: string) {
+    remember()
+    setBoard((current) => ({ ...current, ink: inkOf(current).filter((stroke) => stroke.id !== id) }))
+  }
+
+  /**
+   * Put a picture on the board.
+   *
+   * Bounded before it is stored, for the reason on `BoardImage`. The placed
+   * height comes from the image's own proportions, so nothing arrives stretched.
+   */
+  async function addPicture(file: File) {
+    setAttachError('')
+    setAttaching('image')
+    try {
+      const src = await imageFileToBoundedDataUrl(file)
+      const shape = await new Promise<{ width: number; height: number }>((resolve) => {
+        const probe = new Image()
+        probe.onload = () => resolve({ width: probe.naturalWidth, height: probe.naturalHeight })
+        probe.onerror = () => resolve({ width: 4, height: 3 })
+        probe.src = src
+      })
+      const centre = centerPoint()
+      const height = Math.round(IMAGE_W * (shape.height / Math.max(1, shape.width)))
+      const placed = clampToBoard({ x: centre.x - IMAGE_W / 2, y: centre.y - height / 2 }, { width: IMAGE_W, height })
+      remember()
+      const id = `p${Date.now()}`
+      setBoard((current) => ({
+        ...current,
+        images: [...imagesOf(current), { id, x: placed.x, y: placed.y, width: IMAGE_W, height, src, alt: file.name }],
+      }))
+      clearSelection()
+      setSelectedItem({ kind: 'image', id })
+    } catch (error) {
+      setAttachError(error instanceof Error ? error.message : t('That picture could not be added.'))
+    } finally {
+      setAttaching(null)
+    }
+  }
+
+  /**
+   * Pin a file to the board.
+   *
+   * The bytes go to the student's own document store, so the board document
+   * stays small, the file counts against the account's own space, and it opens
+   * on any device they sign in on. Only the reference is kept here.
+   */
+  async function addFile(file: File) {
+    setAttachError('')
+    setAttaching('file')
+    try {
+      const documentId = await documents.upload(file)
+      const centre = centerPoint()
+      const placed = clampToBoard({ x: centre.x - FILE_W / 2, y: centre.y - FILE_H / 2 }, { width: FILE_W, height: FILE_H })
+      remember()
+      const id = `d${Date.now()}`
+      const kind: BoardFile['kind'] = file.type === 'application/pdf' || /\.pdf$/i.test(file.name) ? 'pdf' : 'file'
+      setBoard((current) => ({
+        ...current,
+        files: [...filesOf(current), { id, x: placed.x, y: placed.y, documentId, name: file.name, sizeBytes: file.size, kind }],
+      }))
+      clearSelection()
+      setSelectedItem({ kind: 'file', id })
+    } catch (error) {
+      setAttachError(error instanceof Error ? error.message : t('That file could not be added.'))
+    } finally {
+      setAttaching(null)
+    }
+  }
+
+  /** Open a pinned file: a PDF in the reader, anything else as a download. */
+  function openFile(file: BoardFile) {
+    if (file.kind === 'pdf') { navigate(`/app/resources/${uploadRouteId(file.documentId)}`); return }
+    if (!API_MODE) { setAttachError(t('This preview keeps files in the browser, so they cannot be downloaded from here.')); return }
+    void apiDownload(`/my-documents/${encodeURIComponent(file.documentId)}/file`, file.name)
+      .catch(() => setAttachError(t('That file could not be opened.')))
+  }
+
   function setTone(id: string, tone: keyof typeof TONES) {
     remember()
     setBoard((current) => ({ ...current, notes: current.notes.map((note) => note.id === id ? { ...note, tone } : note) }))
@@ -399,8 +582,18 @@ export function Whiteboard() {
   const hitIds = useMemo(() => new Set(hits.map((note) => note.id)), [hits])
 
   const bounds = useMemo(() => {
-    const xs = [...board.notes.flatMap((note) => [note.x, note.x + NOTE_W]), ...board.frames.flatMap((frame) => [frame.x, frame.x + frame.width])]
-    const ys = [...board.notes.flatMap((note) => [note.y, note.y + NOTE_H]), ...board.frames.flatMap((frame) => [frame.y, frame.y + frame.height])]
+    const xs = [
+      ...board.notes.flatMap((note) => [note.x, note.x + NOTE_W]),
+      ...board.frames.flatMap((frame) => [frame.x, frame.x + frame.width]),
+      ...imagesOf(board).flatMap((image) => [image.x, image.x + image.width]),
+      ...filesOf(board).flatMap((file) => [file.x, file.x + FILE_W]),
+    ]
+    const ys = [
+      ...board.notes.flatMap((note) => [note.y, note.y + NOTE_H]),
+      ...board.frames.flatMap((frame) => [frame.y, frame.y + frame.height]),
+      ...imagesOf(board).flatMap((image) => [image.y, image.y + image.height]),
+      ...filesOf(board).flatMap((file) => [file.y, file.y + FILE_H]),
+    ]
     return { minX: Math.min(...xs, 0) - 80, minY: Math.min(...ys, 0) - 80, maxX: Math.max(...xs, 800) + 80, maxY: Math.max(...ys, 500) + 80 }
   }, [board])
 
@@ -438,10 +631,15 @@ export function Whiteboard() {
     }
     if (event.key === 'Delete' || event.key === 'Backspace') {
       if (selected) { event.preventDefault(); removeSelected() }
+      else if (selectedItem) { event.preventDefault(); removeSelectedItem() }
       else if (selectedFrame) { event.preventDefault(); removeFrame() }
       else if (selectedLink) { event.preventDefault(); removeSelectedLink() }
     }
-    if (event.key === 'Escape') { setSelected(null); setSelectedFrame(null); setSelectedLink(null); setPalette(null) }
+    // The tools have single-key shortcuts, as every drawing surface does.
+    if (event.key === 'v') setTool('select')
+    if (event.key === 'p' || event.key === 'd') setTool('pen')
+    if (event.key === 'e') setTool('eraser')
+    if (event.key === 'Escape') { clearSelection(); setTool('select') }
   }
 
   useEffect(() => {
@@ -592,7 +790,107 @@ export function Whiteboard() {
         })}
         {/* The connector currently being pulled, following the cursor. */}
         {pulled && <path d={pulled} fill="none" stroke="var(--color-primary)" strokeWidth={2} strokeDasharray="5 4" />}
+
+        {/* Freehand lines, in the same layer as the connectors so they sit
+            behind the notes — a diagram is annotated around what is on the
+            board, not over the top of it. */}
+        {inkOf(board).map((stroke) => (
+          <g key={stroke.id}>
+            <path
+              d={inkPath(stroke.points)}
+              fill="none"
+              stroke={stroke.color}
+              strokeWidth={stroke.width}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            {/* A thin line is not something a pointer can reliably hit, so the
+                eraser aims at this instead. It only takes the pointer while the
+                eraser is the active tool. */}
+            {tool === 'eraser' && (
+              <path
+                d={inkPath(stroke.points)}
+                fill="none"
+                stroke="transparent"
+                strokeWidth={Math.max(16, stroke.width + 12)}
+                strokeLinecap="round"
+                className="pointer-events-auto cursor-pointer"
+                onPointerDown={(event) => { event.stopPropagation(); eraseStroke(stroke.id) }}
+              />
+            )}
+          </g>
+        ))}
+
+        {/* The line under the pen right now. */}
+        {drawing && drawing.length >= 2 && (
+          <path d={inkPath(drawing)} fill="none" stroke={inkColour} strokeWidth={inkWidth} strokeLinecap="round" strokeLinejoin="round" />
+        )}
       </svg>
+
+      {/* Pictures, under the notes: a sticky note annotating a diagram has to
+          sit on top of it. */}
+      {imagesOf(board).map((image) => {
+        const isSelected = selectedItem?.kind === 'image' && selectedItem.id === image.id
+        return (
+          <div
+            key={image.id}
+            onPointerDown={(event) => imageDown(event, image)}
+            onDoubleClick={(event) => event.stopPropagation()}
+            className={cn(
+              'group absolute overflow-hidden rounded-lg border bg-surface shadow-panel',
+              tool === 'select' ? 'cursor-grab active:cursor-grabbing' : 'pointer-events-none',
+              isSelected ? 'border-primary ring-2 ring-primary ring-offset-1 ring-offset-paper' : 'border-line',
+            )}
+            style={{ left: image.x, top: image.y, width: image.width, height: image.height }}
+          >
+            <img src={image.src} alt={image.alt} draggable={false} className="size-full select-none object-contain" />
+            {tool === 'select' && (
+              <span
+                onPointerDown={(event) => imageResizeDown(event, image)}
+                role="presentation"
+                aria-label={t('Resize picture')}
+                className="absolute -bottom-1.5 -right-1.5 size-4 cursor-nwse-resize rounded-sm border border-line-2 bg-surface opacity-0 shadow-panel transition-opacity group-hover:opacity-100 rtl:-left-1.5 rtl:right-auto rtl:cursor-nesw-resize"
+              />
+            )}
+          </div>
+        )
+      })}
+
+      {/* Files, as cards that open what they point at. */}
+      {filesOf(board).map((file) => {
+        const isSelected = selectedItem?.kind === 'file' && selectedItem.id === file.id
+        return (
+          <div
+            key={file.id}
+            onPointerDown={(event) => fileDown(event, file)}
+            onDoubleClick={(event) => { event.stopPropagation(); openFile(file) }}
+            className={cn(
+              'absolute flex items-center gap-2.5 rounded-lg border bg-surface p-3 shadow-panel',
+              tool === 'select' ? 'cursor-grab active:cursor-grabbing' : 'pointer-events-none',
+              isSelected ? 'border-primary ring-2 ring-primary ring-offset-1 ring-offset-paper' : 'border-line',
+            )}
+            style={{ left: file.x, top: file.y, width: FILE_W, height: FILE_H }}
+          >
+            <span className="grid size-9 shrink-0 place-items-center rounded-md bg-inset text-primary-strong">
+              <Icon icon={file.kind === 'pdf' ? FileText : Download} size={17} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block truncate text-[12.5px] font-medium text-ink">{file.name}</span>
+              <span className="tnum mt-0.5 block font-mono text-[10.5px] text-ink-3">
+                {(file.sizeBytes / (1024 * 1024)).toFixed(file.sizeBytes < 10 * 1024 * 1024 ? 1 : 0)} MB
+              </span>
+              <button
+                type="button"
+                onPointerDown={(event) => event.stopPropagation()}
+                onClick={(event) => { event.stopPropagation(); openFile(file) }}
+                className="mt-0.5 text-[11px] font-semibold text-primary-strong hover:text-primary"
+              >
+                {file.kind === 'pdf' ? t('Open in the reader') : t('Download')}
+              </button>
+            </span>
+          </div>
+        )
+      })}
 
       {board.notes.map((note) => (
         <div
@@ -671,12 +969,47 @@ export function Whiteboard() {
     </div>
 
     <div className="absolute left-2 right-2 top-2 flex items-center gap-1 overflow-x-auto overscroll-x-contain rounded-xl border border-line bg-surface p-1 shadow-raised [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:left-4 sm:right-auto sm:top-4" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()}>
+      <IconButton icon={MousePointer2} label={t('Move and select')} active={tool === 'select'} onClick={() => setTool('select')} />
+      <IconButton icon={Pencil} label={t('Draw freehand')} active={tool === 'pen'} onClick={() => setTool('pen')} />
+      <IconButton icon={Eraser} label={t('Erase a line')} active={tool === 'eraser'} onClick={() => setTool('eraser')} />
+      {tool === 'pen' && (
+        <>
+          {INK_COLOURS.map((colour) => (
+            <button
+              key={colour.id}
+              type="button"
+              onClick={() => setInkColour(colour.value)}
+              aria-label={t(colour.id)}
+              aria-pressed={inkColour === colour.value}
+              className={cn('size-6 shrink-0 rounded-full border transition-transform hover:scale-110', inkColour === colour.value ? 'border-primary ring-2 ring-primary/40' : 'border-line')}
+              style={{ backgroundColor: colour.value }}
+            />
+          ))}
+          {INK_WIDTHS.map((width) => (
+            <button
+              key={width}
+              type="button"
+              onClick={() => setInkWidth(width)}
+              aria-label={`${t('Line width')} ${width}`}
+              aria-pressed={inkWidth === width}
+              className={cn('grid size-7 shrink-0 place-items-center rounded-md transition-colors', inkWidth === width ? 'bg-primary-tint' : 'hover:bg-inset')}
+            >
+              <span className="rounded-full bg-ink" style={{ width: width + 4, height: width }} />
+            </button>
+          ))}
+        </>
+      )}
+      <span className="mx-1 h-5 w-px bg-line" />
       <IconButton icon={StickyNote} label={t('Add note')} onClick={addNote} />
       <IconButton icon={PanelsTopLeft} label={t('Add section')} onClick={addFrame} />
+      <IconButton icon={ImagePlus} label={attaching === 'image' ? t('Adding the picture…') : t('Add a picture')} disabled={attaching !== null} onClick={() => pictureInput.current?.click()} />
+      <IconButton icon={Paperclip} label={attaching === 'file' ? t('Adding the file…') : t('Attach a file')} disabled={attaching !== null} onClick={() => fileInput.current?.click()} />
       <IconButton icon={Search} label={t('Search the board')} active={searchOpen} onClick={() => setSearchOpen((open) => !open)} />
+      <IconButton icon={Link2} label={t('Share this board')} onClick={() => setSharing(true)} />
       <span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Undo2} label={t('Undo')} onClick={undo} /><IconButton icon={Redo2} label={t('Redo')} onClick={redo} /><span className="mx-1 h-5 w-px bg-line" />
       <IconButton icon={ZoomOut} label={t('Zoom out')} onClick={() => zoomBy(0.8)} /><span className="tnum w-11 text-center font-mono text-[12px] text-ink-2">{Math.round(view.scale * 100)}%</span><IconButton icon={ZoomIn} label={t('Zoom in')} onClick={() => zoomBy(1.25)} /><IconButton icon={Maximize} label={t('Fit board to screen')} onClick={fitContent} />
       {selected && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete note')} onClick={removeSelected} /></>}
+      {selectedItem && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={selectedItem.kind === 'image' ? t('Delete picture') : t('Remove this file from the board')} onClick={removeSelectedItem} /></>}
       {selectedFrame && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete section')} onClick={removeFrame} /></>}
       {selectedLink && (
         <>
@@ -712,6 +1045,43 @@ export function Whiteboard() {
         <IconButton icon={ChevronDown} label={t('Next match')} size="sm" onClick={() => goToHit(hitIndex + 1)} />
         <IconButton icon={X} label={t('Close')} size="sm" onClick={() => { setSearchOpen(false); setQuery('') }} />
       </div>
+    )}
+
+    {/* A copy of the board, published under its own link. Read when the dialog
+        publishes, so what goes out is the board as it stands. */}
+    <ShareDialog
+      open={sharing}
+      onClose={() => setSharing(false)}
+      handle="board"
+      kind="whiteboard"
+      title={t('Whiteboard')}
+      payload={() => boardRef.current}
+    />
+
+    {/* Off-screen, driven by the toolbar buttons above. */}
+    <input
+      ref={pictureInput}
+      type="file"
+      accept="image/*"
+      className="sr-only"
+      onChange={(event) => { const file = event.target.files?.[0]; event.target.value = ''; if (file) void addPicture(file) }}
+    />
+    <input
+      ref={fileInput}
+      type="file"
+      className="sr-only"
+      onChange={(event) => { const file = event.target.files?.[0]; event.target.value = ''; if (file) void addFile(file) }}
+    />
+
+    {attachError && (
+      <p
+        role="alert"
+        onPointerDown={(event) => event.stopPropagation()}
+        className="absolute inset-x-2 top-[3.75rem] rounded-lg border border-danger/30 bg-danger-tint px-3 py-2 text-[12.5px] text-danger sm:inset-x-auto sm:start-4 sm:top-[4.25rem] sm:max-w-sm"
+      >
+        {attachError}
+        <button type="button" onClick={() => setAttachError('')} className="ms-2 font-semibold underline">{t('Dismiss')}</button>
+      </p>
     )}
 
     <div className="absolute bottom-[calc(0.75rem+env(safe-area-inset-bottom))] right-3 overflow-hidden rounded-xl border border-line bg-surface/95 p-2 shadow-raised sm:bottom-4 sm:right-4" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()} aria-label={t('Board minimap')}>

@@ -18,6 +18,16 @@ test('a student\'s own work is routed to their own record', () => {
   assert.equal(isUserOwnedState('synapse.annotations.doc-1.shard-0'), true)
   assert.equal(isUserOwnedState('synapse.bookmarks.resources.v1'), true)
   assert.equal(isUserOwnedState('synapse.account.audience.v1'), true)
+  assert.equal(isUserOwnedState('synapse.essay.answers.v1'), true)
+  assert.equal(isUserOwnedState('synapse.termgrid.progress.v1'), true)
+})
+
+test('a student\'s flashcard decks and schedules are their own record', () => {
+  // Same convention as the qbank prefix above: a dotted namespace under
+  // synapse.flashcards. belongs to the student who owns the deck's schedule,
+  // never to the shared catalogue that holds the deck's content.
+  assert.equal(isUserOwnedState('synapse.flashcards.decks.v1'), true)
+  assert.equal(isUserOwnedState('synapse.flashcards.dailyCounts.v1'), true)
 })
 
 test('every library key a student writes is their own', () => {
@@ -42,4 +52,17 @@ test('a library key that is not a student\'s stays shared', () => {
   // The prefix alone must not be enough, or a future admin-owned library
   // document would silently become per-student.
   assert.equal(isUserOwnedState('synapse.library.publishedIndex'), false)
+})
+
+test('a student\'s own uploads and share links are their own record', () => {
+  // Both reached the shared admin store under their old, undotted names, where
+  // a student is refused every read and every write of them.
+  assert.equal(isUserOwnedState('synapse.myDocuments.v1'), true)
+  assert.equal(isUserOwnedState('synapse.account.shares.v1'), true)
+})
+
+test('the retired onboarding key is not quietly matched again', () => {
+  // Whether an account has been enrolled is the server's answer now, read from
+  // `/api/me`. Nothing should route this to either store.
+  assert.equal(isUserOwnedState('synapse-onboarding-v1'), false)
 })

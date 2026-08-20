@@ -66,6 +66,7 @@ HCO₃⁻ 12 mmol/L (22–26) · Base excess −13 mmol/L (−2 to +2) · Lactat
 | `marks` | Marks / decisions | no | Recomputed as the **number of questions**. |
 | `difficulty` | Difficulty | no | Whole-item difficulty; each question may set its own. |
 | `lab_questions` | Interpretation questions | **yes** | The questions. Syntax below. |
+| `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
 | `main_concept` | Main concept(s) | — | What the set as a whole is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | **No mastery.** |

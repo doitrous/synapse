@@ -309,7 +309,8 @@ private struct BranchView: View {
                                 article: article, library: library,
                                 lookup: { model.articlesById[$0] },
                                 evidence: model.evidence,
-                                openSource: openSource
+                                openSource: openSource,
+                                concepts: model.concepts
                             )
                         } label: {
                             ArticleRow(article: article, library: library)
@@ -368,7 +369,8 @@ private struct ChapterList: View {
                                 article: article, library: library,
                                 lookup: { model?.articlesById[$0] },
                                 evidence: model?.evidence ?? .empty,
-                                openSource: openSource
+                                openSource: openSource,
+                                concepts: model?.concepts ?? ConceptTerms()
                             )
                         } label: {
                             ArticleRow(article: article, library: library)
@@ -419,7 +421,8 @@ private struct SearchResults: View {
                         article: article, library: library,
                         lookup: { model.articlesById[$0] },
                         evidence: model.evidence,
-                        openSource: openSource
+                        openSource: openSource,
+                        concepts: model.concepts
                     )
                 } label: {
                     ArticleRow(article: article, library: library)

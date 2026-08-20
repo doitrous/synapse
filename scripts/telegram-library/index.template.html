@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Kasr Al Ainy Study Archive</title>
+  <style>
+    :root{
+      --parchment:#f1ecdf;--paper:#fffdf7;--paper-raised:#fffefa;--paper-inset:#ebe5d8;
+      --ink:#192733;--ink-2:#3d4a53;--ink-3:#6f7779;--line:rgba(25,39,51,.12);--line-soft:rgba(25,39,51,.075);
+      --kasr:#7b1836;--kasr-deep:#5f1028;--kasr-tint:#f5e8ec;--sage:#56705d;--sage-tint:#e8f0e9;
+      --amber:#a66a25;--amber-tint:#f7eddc;--danger:#a9433d;--focus:#b45a76;
+      --radius-sm:7px;--radius-md:11px;--radius-lg:16px;--shadow:0 0 0 1px rgba(25,39,51,.045),0 1px 2px rgba(25,39,51,.04),0 6px 24px rgba(25,39,51,.045);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0}
+    body{background:var(--parchment);color:var(--ink);font-family:"Avenir Next","Segoe UI",Tahoma,Arial,sans-serif;font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased;overflow:hidden}
+    button,input,select{font:inherit;color:inherit}
+    button,a,select,input{outline:none}
+    button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{box-shadow:0 0 0 3px rgba(180,90,118,.28)}
+    button{cursor:pointer}
+    .app{height:100%;display:grid;grid-template-rows:auto 1fr}
+    .topbar{display:grid;grid-template-columns:280px minmax(300px,1fr) auto;align-items:center;gap:16px;padding:12px 16px;background:rgba(255,253,247,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(18px);z-index:20}
+    .brand{display:flex;align-items:center;gap:11px;min-width:0}
+    .seal{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--kasr);color:#fff;font-family:"Iowan Old Style",Georgia,serif;font-size:19px;font-weight:700;box-shadow:inset 0 0 0 4px rgba(255,255,255,.17)}
+    .brand-copy{min-width:0}
+    .brand-copy strong{display:block;font-family:"Iowan Old Style",Georgia,serif;font-size:17px;line-height:1.05;letter-spacing:-.015em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .brand-copy span{display:block;margin-top:2px;color:var(--ink-3);font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+    .search-wrap{position:relative}
+    .search-wrap:before{content:"⌕";position:absolute;left:13px;top:8px;color:var(--ink-3);font-size:18px;pointer-events:none}
+    html[dir=rtl] .search-wrap:before{left:auto;right:13px}
+    .search{width:100%;height:40px;padding:0 40px;border:1px solid var(--line);border-radius:var(--radius-md);background:var(--paper-inset);transition:border-color .15s ease,background .15s ease}
+    .search:focus{border-color:rgba(123,24,54,.42);background:var(--paper)}
+    .top-actions{display:flex;align-items:center;gap:8px}
+    .icon-btn,.text-btn{height:40px;border:1px solid var(--line);background:var(--paper);border-radius:var(--radius-sm);font-weight:650}
+    .icon-btn{min-width:40px;padding:0 10px}
+    .text-btn{padding:0 13px}
+    .text-btn.primary{background:var(--kasr);border-color:var(--kasr);color:#fff}
+    .shell{min-height:0;display:grid;grid-template-columns:280px minmax(420px,1fr) 340px}
+    .sidebar,.details{min-height:0;background:var(--paper);overflow:auto}
+    .sidebar{border-inline-end:1px solid var(--line)}
+    .details{border-inline-start:1px solid var(--line)}
+    .pane-head{position:sticky;top:0;z-index:5;padding:14px 16px;background:rgba(255,253,247,.94);border-bottom:1px solid var(--line-soft);backdrop-filter:blur(14px)}
+    .eyebrow{margin:0;color:var(--kasr);font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .pane-head h2{margin:4px 0 0;font-family:"Iowan Old Style",Georgia,serif;font-size:21px;line-height:1.15;letter-spacing:-.02em}
+    .quick-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:12px 12px 4px}
+    .quick{min-height:58px;padding:9px 10px;text-align:left;border:1px solid var(--line-soft);border-radius:var(--radius-md);background:var(--paper-raised)}
+    html[dir=rtl] .quick{text-align:right}
+    .quick:hover,.quick.active{border-color:rgba(123,24,54,.28);background:var(--kasr-tint)}
+    .quick span{display:block;color:var(--ink-3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.055em}
+    .quick strong{display:block;margin-top:2px;font-size:13px}
+    .tree{padding:8px 10px 24px}
+    details.tree-group{border-bottom:1px solid var(--line-soft)}
+    details.tree-group>summary{list-style:none;display:flex;align-items:center;min-height:42px;padding:4px 6px;gap:8px;cursor:pointer;font-weight:720}
+    details.tree-group>summary::-webkit-details-marker{display:none}
+    details.tree-group>summary:before{content:"›";color:var(--kasr);font-size:18px;transition:transform .16s ease}
+    details.tree-group[open]>summary:before{transform:rotate(90deg)}
+    html[dir=rtl] details.tree-group[open]>summary:before{transform:rotate(-90deg)}
+    .tree-items{padding:0 0 8px 22px}
+    html[dir=rtl] .tree-items{padding:0 22px 8px 0}
+    .tree-button{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:36px;padding:6px 8px;border:0;border-radius:var(--radius-sm);background:transparent;text-align:left;color:var(--ink-2)}
+    html[dir=rtl] .tree-button{text-align:right}
+    .tree-button:hover,.tree-button.active{background:var(--paper-inset);color:var(--ink)}
+    .count{font-variant-numeric:tabular-nums;color:var(--ink-3);font-size:11px}
+    .workspace{min-width:0;min-height:0;display:grid;grid-template-rows:auto auto minmax(0,1fr);background:var(--parchment)}
+    .workspace-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;background:var(--paper);border-bottom:1px solid var(--line)}
+    .breadcrumbs{min-width:0}
+    .breadcrumbs small{display:block;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .breadcrumbs h1{margin:3px 0 0;font-family:"Iowan Old Style",Georgia,serif;font-size:22px;line-height:1.15;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .view-tabs{display:flex;padding:3px;background:var(--paper-inset);border-radius:9px}
+    .view-tab{height:32px;padding:0 11px;border:0;border-radius:7px;background:transparent;color:var(--ink-2);font-size:12px;font-weight:700}
+    .view-tab.active{background:var(--paper);color:var(--kasr);box-shadow:0 1px 4px rgba(25,39,51,.1)}
+    .filters{display:flex;align-items:center;gap:7px;padding:9px 18px;background:var(--paper);border-bottom:1px solid var(--line-soft);overflow:auto}
+    select{height:34px;padding:0 30px 0 10px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--paper-raised);font-size:12px}
+    html[dir=rtl] select{padding:0 10px 0 30px}
+    .result-count{margin-inline-start:auto;color:var(--ink-3);font-size:11px;white-space:nowrap;font-variant-numeric:tabular-nums}
+    .library-view{min-height:0;display:grid;grid-template-columns:minmax(260px,36%) minmax(0,1fr)}
+    .results{overflow:auto;padding:12px}
+    .record{position:relative;width:100%;margin:0 0 8px;padding:12px 13px 11px;border:1px solid var(--line-soft);border-radius:var(--radius-md);background:var(--paper);text-align:left;box-shadow:0 1px 2px rgba(25,39,51,.02)}
+    html[dir=rtl] .record{text-align:right}
+    .record:hover,.record.active{border-color:rgba(123,24,54,.27);box-shadow:var(--shadow)}
+    .record.active:before{content:"";position:absolute;inset-block:9px;inset-inline-start:-1px;width:3px;border-radius:0 3px 3px 0;background:var(--kasr)}
+    .record-title{display:flex;align-items:flex-start;gap:8px;font-weight:720;line-height:1.3}
+    .record-title span:first-child{flex:1}
+    .record-meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+    .badge{display:inline-flex;align-items:center;min-height:22px;padding:2px 7px;border-radius:999px;background:var(--paper-inset);color:var(--ink-2);font-size:10px;font-weight:750}
+    .badge.current{background:var(--sage-tint);color:var(--sage)}
+    .badge.legacy,.badge.pending{background:var(--amber-tint);color:var(--amber)}
+    .badge.important{background:var(--kasr-tint);color:var(--kasr)}
+    .star{width:28px;height:28px;border:0;background:transparent;color:var(--ink-3);font-size:18px;line-height:1}
+    .star.on{color:var(--amber)}
+    .viewer{min-width:0;min-height:0;padding:12px 12px 12px 0}
+    html[dir=rtl] .viewer{padding:12px 0 12px 12px}
+    .viewer-frame{height:100%;min-height:360px;display:flex;flex-direction:column;border-radius:var(--radius-lg);background:var(--paper);box-shadow:var(--shadow);overflow:hidden}
+    .viewer-tools{display:flex;align-items:center;gap:7px;min-height:48px;padding:7px 10px;border-bottom:1px solid var(--line-soft)}
+    .viewer-tools .filename{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:700}
+    .page-input{width:64px;height:34px;border:1px solid var(--line);border-radius:8px;background:var(--cream);color:var(--ink);padding:0 8px;font:700 12px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace}
+    .viewer-body{flex:1;min-height:0;background:#d8d3ca}
+    .viewer-body iframe{display:block;width:100%;height:100%;border:0;background:#fff}
+    .empty{height:100%;display:grid;place-items:center;padding:36px;text-align:center;background:var(--paper)}
+    .empty-mark{width:74px;height:92px;margin:auto;border:1px solid var(--line);border-radius:6px 12px 12px 6px;background:var(--paper-raised);box-shadow:inset 9px 0 0 var(--kasr-tint),var(--shadow);position:relative}
+    .empty-mark:after{content:"KA";position:absolute;inset:0;display:grid;place-items:center;color:var(--kasr);font-family:"Iowan Old Style",Georgia,serif;font-size:22px;font-weight:700}
+    .empty h3{margin:16px 0 5px;font-family:"Iowan Old Style",Georgia,serif;font-size:22px}
+    .empty p{max-width:420px;margin:0;color:var(--ink-3)}
+    .calendar-view{display:none;min-height:0;grid-template-columns:minmax(0,1fr) 300px;padding:12px;gap:12px}
+    .calendar-view.active{display:grid}
+    .calendar-card,.agenda{min-height:0;background:var(--paper);border-radius:var(--radius-lg);box-shadow:var(--shadow);overflow:auto}
+    .calendar-head{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--line-soft)}
+    .calendar-head h3{margin:0;font-family:"Iowan Old Style",Georgia,serif;font-size:20px}
+    .calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);padding:8px}
+    .weekday{padding:7px;color:var(--ink-3);font-size:10px;font-weight:800;text-align:center;text-transform:uppercase;letter-spacing:.08em}
+    .day{min-height:92px;padding:7px;border-top:1px solid var(--line-soft);border-inline-start:1px solid var(--line-soft);background:var(--paper)}
+    .day.outside{color:#aaa;background:rgba(235,229,216,.34)}
+    .day-number{font-size:11px;font-weight:750;font-variant-numeric:tabular-nums}
+    .event{display:block;width:100%;margin-top:4px;padding:4px 5px;border:0;border-radius:5px;background:var(--sage-tint);color:var(--sage);font-size:9px;font-weight:750;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .event.exam{background:var(--kasr-tint);color:var(--kasr)}
+    .event.archive{background:var(--amber-tint);color:var(--amber);border:1px dashed rgba(166,106,37,.35)}
+    .agenda{padding:14px}
+    .agenda h3{margin:0 0 12px;font-family:"Iowan Old Style",Georgia,serif;font-size:18px}
+    .agenda-item{padding:10px 0;border-bottom:1px solid var(--line-soft)}
+    .agenda-item time{color:var(--kasr);font-size:10px;font-weight:800}
+    .agenda-item strong{display:block;margin-top:2px}
+    .messages-view{display:none;min-height:0;grid-template-columns:286px minmax(0,1fr);gap:12px;padding:12px;overflow:hidden}
+    .messages-view.active{display:grid}
+    .message-index,.message-stage{min-height:0;border-radius:var(--radius-lg);background:var(--paper);box-shadow:var(--shadow);overflow:auto}
+    .message-index{padding:14px}
+    .message-index-head{position:sticky;top:-14px;z-index:2;margin:-14px -14px 12px;padding:14px;background:rgba(255,253,247,.96);border-bottom:1px solid var(--line-soft);backdrop-filter:blur(12px)}
+    .message-index-head h3{margin:3px 0 0;font-family:"Iowan Old Style",Georgia,serif;font-size:20px}
+    .cohort-block{margin-top:16px}
+    .cohort-block h4{display:flex;align-items:center;gap:8px;margin:0 0 7px;color:var(--kasr);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+    .cohort-block h4:after{content:"";height:1px;flex:1;background:var(--line)}
+    .message-root{display:block;width:100%;margin:0 0 7px;padding:10px;border:1px solid var(--line-soft);border-radius:var(--radius-sm);background:var(--paper-raised);text-align:left}
+    html[dir=rtl] .message-root{text-align:right}
+    .message-root:hover,.message-root.active{border-color:rgba(123,24,54,.32);background:var(--kasr-tint)}
+    .message-root strong{display:block;line-height:1.25}
+    .message-root span{display:block;margin-top:4px;color:var(--ink-3);font-size:10px}
+    .message-stage{position:relative;padding:0 20px 26px}
+    .message-trail{position:sticky;top:0;z-index:4;display:flex;align-items:center;gap:9px;min-height:58px;margin:0 -20px;padding:9px 20px;background:rgba(255,253,247,.96);border-bottom:1px solid var(--line-soft);backdrop-filter:blur(12px)}
+    .message-trail .trail-copy{flex:1;min-width:0}
+    .message-trail small{display:block;color:var(--ink-3);font-size:10px;font-weight:750;text-transform:uppercase;letter-spacing:.07em}
+    .message-trail strong{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .message-sheet{position:relative;max-width:840px;margin:22px auto 0;padding:26px 28px 30px;border:1px solid var(--line);border-radius:4px 14px 14px 4px;background:var(--paper-raised);box-shadow:inset 10px 0 0 var(--kasr-tint),0 12px 34px rgba(25,39,51,.06)}
+    html[dir=rtl] .message-sheet{border-radius:14px 4px 4px 14px;box-shadow:inset -10px 0 0 var(--kasr-tint),0 12px 34px rgba(25,39,51,.06)}
+    .message-sheet:before{content:"";position:absolute;inset-block:24px 30px;inset-inline-start:21px;width:2px;background:var(--kasr)}
+    .message-heading{padding-inline-start:20px}
+    .message-heading .eyebrow{display:flex;align-items:center;gap:8px}
+    .message-heading h2{margin:7px 0 4px;font-family:"Iowan Old Style",Georgia,serif;font-size:26px;line-height:1.15}
+    .message-heading p{margin:0;color:var(--ink-3);font-size:11px}
+    .message-copy{margin:22px 0 0;padding:18px 18px 18px 30px;border:1px solid var(--line-soft);border-radius:var(--radius-md);background:var(--paper);white-space:pre-wrap;overflow-wrap:anywhere;font-family:"Avenir Next","Segoe UI",Tahoma,Arial,sans-serif;line-height:1.65}
+    html[dir=rtl] .message-copy{padding:18px 30px 18px 18px}
+    .message-inline{display:inline-flex;align-items:center;max-width:100%;padding:2px 6px;border:0;border-bottom:1px solid currentColor;background:var(--kasr-tint);color:var(--kasr);font:700 12px/1.35 ui-monospace,SFMono-Regular,Menlo,monospace;text-decoration:none;overflow-wrap:anywhere;cursor:pointer}
+    .message-pending{margin-top:20px;padding:15px 16px;border:1px dashed rgba(166,106,37,.42);border-radius:var(--radius-md);background:var(--amber-tint);color:var(--amber)}
+    .message-pending strong{display:block;margin-bottom:3px}
+    .message-section{margin-top:22px;padding-inline-start:20px}
+    .message-section h3{margin:0 0 9px;color:var(--ink-3);font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+    .message-link-list{display:grid;gap:7px}
+    .message-link{position:relative;display:grid;grid-template-columns:28px 1fr auto;align-items:center;gap:9px;width:100%;min-height:50px;padding:7px 9px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--paper);text-align:left;text-decoration:none;color:var(--ink)}
+    html[dir=rtl] .message-link{text-align:right}
+    .message-link:hover{border-color:rgba(123,24,54,.34);background:var(--kasr-tint)}
+    .thread-node{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--kasr);color:#fff;font-size:11px;font-weight:800}
+    .message-link small{display:block;color:var(--ink-3);font-size:10px}
+    .message-link .arrow{color:var(--kasr);font-size:18px}
+    .details-body{padding:14px 16px 30px}
+    .provenance-ribbon{position:relative;padding:13px 13px 13px 17px;border-radius:var(--radius-md);background:var(--kasr-tint);overflow:hidden}
+    html[dir=rtl] .provenance-ribbon{padding:13px 17px 13px 13px}
+    .provenance-ribbon:before{content:"";position:absolute;inset-block:0;inset-inline-start:0;width:5px;background:var(--kasr)}
+    .provenance-ribbon small{display:block;color:var(--kasr);font-size:9px;font-weight:850;letter-spacing:.1em;text-transform:uppercase}
+    .provenance-ribbon strong{display:block;margin-top:3px}
+    .detail-section{padding:14px 0;border-bottom:1px solid var(--line-soft)}
+    .detail-section h3{margin:0 0 8px;color:var(--ink-3);font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+    .detail-section p{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;color:var(--ink-2)}
+    .definition{display:grid;grid-template-columns:98px 1fr;gap:7px 10px;margin:0}
+    .definition dt{color:var(--ink-3);font-size:11px}
+    .definition dd{margin:0;font-weight:650;overflow-wrap:anywhere}
+    .source-link{display:flex;align-items:center;justify-content:space-between;min-height:42px;padding:7px 10px;border:1px solid var(--line);border-radius:var(--radius-sm);color:var(--kasr);font-weight:700;text-decoration:none}
+    .source-link:hover{background:var(--kasr-tint)}
+    .personal-shelves{margin:10px 10px 2px;border:1px solid var(--line);border-radius:var(--radius-md);background:linear-gradient(180deg,var(--paper-raised),var(--paper));box-shadow:0 1px 2px rgba(25,39,51,.03);overflow:hidden}
+    .shelf-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 10px 8px;border-bottom:1px solid var(--line-soft)}
+    .shelf-head div{min-width:0}
+    .shelf-head small{display:block;color:var(--kasr);font-size:9px;font-weight:850;letter-spacing:.1em;text-transform:uppercase}
+    .shelf-head strong{display:block;margin-top:1px;font-family:"Iowan Old Style",Georgia,serif;font-size:16px}
+    .shelf-add{width:30px;height:30px;border:1px solid var(--line);border-radius:50%;background:var(--paper);color:var(--kasr);font-size:19px;line-height:1}
+    .shelf-add:hover{border-color:rgba(123,24,54,.32);background:var(--kasr-tint)}
+    .folder-tree{padding:5px}
+    .folder-empty{padding:12px 10px;color:var(--ink-3);font-size:11px;line-height:1.45}
+    .folder-row{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 28px;align-items:center;gap:3px;margin:1px 0;padding-inline-start:calc(var(--folder-depth,0) * 15px)}
+    .folder-row:before{content:"";position:absolute;inset-inline-start:calc(var(--folder-depth,0) * 15px + 3px);top:9px;width:6px;height:18px;border-inline-start:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0 0 0 4px;opacity:calc(min(var(--folder-depth,0),1))}
+    .folder-open{display:grid;grid-template-columns:11px minmax(0,1fr) auto;align-items:center;gap:7px;min-height:35px;padding:5px 6px;border:0;border-radius:7px;background:transparent;text-align:left}
+    html[dir=rtl] .folder-open{text-align:right}
+    .folder-open:hover,.folder-open.active{background:color-mix(in srgb,var(--folder-color) 11%,var(--paper-inset))}
+    .folder-tab{width:9px;height:24px;border-radius:2px 5px 5px 2px;background:var(--folder-color);box-shadow:inset -2px 0 rgba(255,255,255,.2)}
+    html[dir=rtl] .folder-tab{border-radius:5px 2px 2px 5px}
+    .folder-name{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px;font-weight:700}
+    .folder-count{color:var(--ink-3);font-size:10px;font-variant-numeric:tabular-nums}
+    .folder-edit{width:28px;height:28px;border:0;border-radius:7px;background:transparent;color:var(--ink-3)}
+    .folder-edit:hover{background:var(--paper-inset);color:var(--kasr)}
+    .folder-note{max-width:700px;margin:4px 0 0;color:var(--ink-3);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .record-folder{display:inline-flex;align-items:center;gap:4px;color:var(--ink-3);font-size:10px;font-weight:700}
+    .record-folder:before{content:"";width:7px;height:13px;border-radius:2px 4px 4px 2px;background:var(--folder-color,var(--kasr))}
+    .detail-actions{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:10px}
+    .detail-action{min-height:40px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--paper);font-size:11px;font-weight:750}
+    .detail-action:hover{border-color:rgba(123,24,54,.34);background:var(--kasr-tint)}
+    .folder-chips{display:flex;flex-wrap:wrap;gap:6px}
+    .folder-chip{display:inline-flex;align-items:center;gap:6px;min-height:28px;padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:var(--paper);font-size:10px;font-weight:750}
+    .folder-chip:before{content:"";width:7px;height:16px;border-radius:2px 5px 5px 2px;background:var(--folder-color)}
+    .modal-layer{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:18px;background:rgba(25,39,51,.42);backdrop-filter:blur(4px)}
+    .modal-card{width:min(520px,100%);max-height:min(720px,calc(100vh - 36px));display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.28);border-radius:var(--radius-lg);background:var(--paper);box-shadow:0 24px 80px rgba(25,39,51,.28);overflow:hidden}
+    .modal-head{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;padding:18px 20px 14px;border-bottom:1px solid var(--line-soft)}
+    .modal-head .eyebrow{margin-bottom:3px}
+    .modal-head h2{margin:0;font-family:"Iowan Old Style",Georgia,serif;font-size:23px;line-height:1.15}
+    .modal-close{width:34px;height:34px;border:0;border-radius:50%;background:var(--paper-inset);font-size:18px}
+    .modal-body{overflow:auto;padding:18px 20px}
+    .field{display:block;margin-bottom:15px}
+    .field>span{display:block;margin-bottom:6px;color:var(--ink-2);font-size:11px;font-weight:800}
+    .field input,.field select,.field textarea{width:100%;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--paper-raised)}
+    .field input{height:40px;padding:0 11px}
+    .field select{height:40px}
+    .field textarea{min-height:96px;padding:10px 11px;resize:vertical;font:inherit;color:inherit}
+    .color-options{display:flex;flex-wrap:wrap;gap:8px}
+    .color-swatch{position:relative;width:34px;height:34px;border:2px solid transparent;border-radius:50%;background:var(--swatch);box-shadow:inset 0 0 0 3px var(--paper)}
+    .color-swatch.selected{border-color:var(--ink)}
+    .color-swatch.selected:after{content:"✓";position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-weight:900;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+    .modal-foot{display:flex;align-items:center;justify-content:flex-end;gap:8px;padding:12px 20px;border-top:1px solid var(--line-soft);background:var(--paper-raised)}
+    .modal-foot .danger-btn{margin-inline-end:auto;color:var(--danger)}
+    .folder-check-list{display:grid;gap:7px}
+    .folder-check{display:grid;grid-template-columns:auto 10px minmax(0,1fr);align-items:center;gap:9px;min-height:42px;padding:7px 9px;border:1px solid var(--line-soft);border-radius:var(--radius-sm);background:var(--paper-raised);padding-inline-start:calc(9px + var(--folder-depth,0) * 16px)}
+    .folder-check input{width:17px;height:17px;accent-color:var(--folder-color)}
+    .folder-check .folder-tab{height:22px}
+    .folder-check span:last-child{font-weight:700}
+    .modal-empty{padding:20px;border:1px dashed var(--line);border-radius:var(--radius-md);background:var(--paper-raised);text-align:center;color:var(--ink-3)}
+    .toast{position:fixed;z-index:120;inset-inline-end:18px;bottom:18px;max-width:360px;padding:11px 14px;border-radius:var(--radius-md);background:var(--ink);color:#fff;box-shadow:0 12px 36px rgba(25,39,51,.25);font-size:12px;font-weight:700}
+    .mobile-details,.mobile-folders{display:none}
+    [hidden]{display:none!important}
+    @media(max-width:1100px){.shell{grid-template-columns:250px minmax(0,1fr)}.details{display:none}.mobile-details{display:inline-flex}.topbar{grid-template-columns:250px 1fr auto}.library-view{grid-template-columns:320px minmax(0,1fr)}}
+    @media(max-width:760px){body{overflow:auto}.app{height:auto;min-height:100%}.topbar{position:sticky;top:0;grid-template-columns:1fr auto;padding:9px 10px}.brand-copy span{display:none}.search-wrap{grid-column:1/-1;grid-row:2}.mobile-folders{display:inline-flex}.shell{display:block}.sidebar{display:none}.sidebar.mobile-open{display:block;position:fixed;inset:108px 18% 0 0;z-index:32;box-shadow:18px 0 44px rgba(25,39,51,.22)}html[dir=rtl] .sidebar.mobile-open{inset:108px 0 0 18%;box-shadow:-18px 0 44px rgba(25,39,51,.22)}.details{position:fixed;inset:108px 0 0 18%;z-index:30;box-shadow:-18px 0 40px rgba(25,39,51,.18)}.workspace{min-height:calc(100vh - 108px)}.workspace-head{padding:12px}.filters{padding:8px 12px}.library-view{display:block}.results{max-height:42vh}.viewer{height:58vh;padding:0 10px 10px}.viewer-tools{flex-wrap:wrap}.calendar-view.active{display:block;padding:10px}.messages-view.active{display:block;padding:10px;overflow:visible}.message-index{max-height:32vh}.message-stage{margin-top:10px;padding:0 12px 20px}.message-sheet{padding:20px 16px 24px}.message-trail{margin:0 -12px;padding:8px 12px}.agenda{margin-top:10px}.day{min-height:64px;padding:4px}.event{font-size:0;height:7px;padding:0}.calendar-grid{padding:4px}.breadcrumbs h1{font-size:19px}.text-btn.primary{display:none}.modal-layer{padding:8px}.modal-card{max-height:calc(100vh - 16px)}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand"><div class="seal" aria-hidden="true">ق ع</div><div class="brand-copy"><strong data-i18n="brand">Kasr Al Ainy Archive</strong><span data-i18n="subbrand">Cairo University · Offline Library</span></div></div>
+      <label class="search-wrap"><span class="sr-only" hidden>Search</span><input id="search" class="search" type="search" autocomplete="off" data-i18n-placeholder="search" placeholder="Search files, doctors, modules and captions…"></label>
+      <div class="top-actions"><button id="foldersToggle" class="icon-btn mobile-folders" type="button" aria-label="Folders">▥</button><button id="lang" class="text-btn" type="button" aria-label="Switch language">العربية</button><button id="detailsToggle" class="icon-btn mobile-details" type="button" aria-label="Details">ⓘ</button><button id="openGuide" class="text-btn primary" type="button" data-i18n="guide">Library guide</button></div>
+    </header>
+    <main class="shell">
+      <aside class="sidebar">
+        <div class="pane-head"><p class="eyebrow" data-i18n="navigate">Navigate</p><h2 data-i18n="collection">The collection</h2></div>
+        <div id="quickGrid" class="quick-grid"></div>
+        <section class="personal-shelves" aria-labelledby="personalFoldersTitle">
+          <div class="shelf-head"><div><small data-i18n="personal">Personal</small><strong id="personalFoldersTitle" data-i18n="myFolders">My folders</strong></div><button id="newFolder" class="shelf-add" type="button" aria-label="New folder">+</button></div>
+          <div id="folderTree" class="folder-tree"></div>
+        </section>
+        <nav id="tree" class="tree" aria-label="Library"></nav>
+      </aside>
+      <section class="workspace">
+        <div class="workspace-head">
+          <div class="breadcrumbs"><small id="crumb">Cairo University · Kasr Al Ainy</small><h1 id="viewTitle" data-i18n="allMaterial">All study material</h1><p id="folderNote" class="folder-note" hidden></p></div>
+          <div class="view-tabs" role="tablist"><button id="libraryTab" class="view-tab active" type="button" role="tab" aria-selected="true" data-i18n="library">Library</button><button id="messagesTab" class="view-tab" type="button" role="tab" aria-selected="false" data-i18n="messages">Messages</button><button id="calendarTab" class="view-tab" type="button" role="tab" aria-selected="false" data-i18n="calendar">Calendar</button></div>
+        </div>
+        <div id="filters" class="filters">
+          <select id="yearFilter" aria-label="Academic year"><option value="" data-i18n="allYears">All years</option></select>
+          <select id="moduleFilter" aria-label="Module"><option value="" data-i18n="allModules">All modules</option></select>
+          <select id="typeFilter" aria-label="Material type"><option value="" data-i18n="allTypes">All types</option><option value="Study Files" data-i18n="studyFiles">Study files</option><option value="MCQs">MCQs</option><option value="Practical Files & Tests" data-i18n="practical">Practical</option></select>
+          <select id="ownerFilter" aria-label="Ownership"><option value="" data-i18n="allOwners">All owners</option><option value="official" data-i18n="departmentOfficial">Department / Official</option><option value="doctor" data-i18n="doctorCourses">Doctor courses</option><option value="unresolved" data-i18n="needsReview">Needs review</option></select>
+          <select id="doctorFilter" aria-label="Doctor"><option value="" data-i18n="allDoctors">All doctors</option></select>
+          <select id="cohortFilter" aria-label="Current or legacy"><option value="" data-i18n="allCohorts">Current and legacy</option><option value="current" data-i18n="current">Current</option><option value="legacy" data-i18n="legacy">Legacy</option></select>
+          <select id="flagFilter" aria-label="Special material"><option value="" data-i18n="allMaterial">All study material</option><option value="important" data-i18n="important">Important</option><option value="exam" data-i18n="previousExams">Previous exams</option><option value="practical" data-i18n="practical">Practical</option><option value="review" data-i18n="needsReview">Needs review</option></select>
+          <select id="statusFilter" aria-label="Status"><option value="" data-i18n="allStatus">All status</option><option value="downloaded" data-i18n="available">Available</option><option value="pending" data-i18n="pending">Pending</option><option value="important" data-i18n="important">Important</option><option value="exam" data-i18n="previousExams">Previous exams</option></select>
+          <span id="resultCount" class="result-count"></span>
+        </div>
+        <div id="libraryView" class="library-view">
+          <div id="results" class="results" aria-live="polite"></div>
+          <div class="viewer"><div class="viewer-frame"><div class="viewer-tools"><button id="prevFile" class="icon-btn" type="button" aria-label="Previous">‹</button><button id="nextFile" class="icon-btn" type="button" aria-label="Next">›</button><span id="viewerFilename" class="filename" data-i18n="viewer">Document viewer</span><label for="pageNumber" class="sr-only" data-i18n="page">Page</label><input id="pageNumber" class="page-input" type="number" min="1" value="1" aria-label="PDF page" hidden><button id="favoriteFile" class="text-btn" type="button" hidden>☆ Favorite</button><button id="organizeFile" class="text-btn" type="button" hidden data-i18n="addToFolder">Add to folder</button><a id="revealFile" class="text-btn" href="#" hidden data-i18n="reveal">Reveal in Finder</a><a id="openFile" class="text-btn" href="#" target="_blank" rel="noopener" hidden data-i18n="open">Open</a></div><div id="viewerBody" class="viewer-body"></div></div></div>
+        </div>
+        <div id="messagesView" class="messages-view">
+          <aside id="messageIndex" class="message-index" aria-label="Orientation messages"></aside>
+          <section id="messageStage" class="message-stage" aria-live="polite"></section>
+        </div>
+        <div id="calendarView" class="calendar-view">
+          <section class="calendar-card"><div class="calendar-head"><button id="prevMonth" class="icon-btn" type="button" aria-label="Previous month">‹</button><h3 id="monthTitle"></h3><button id="nextMonth" class="icon-btn" type="button" aria-label="Next month">›</button></div><div id="calendarGrid" class="calendar-grid"></div></section>
+          <aside class="agenda"><h3 data-i18n="officialSchedule">Official schedule</h3><div id="agendaList"></div></aside>
+        </div>
+      </section>
+      <aside id="details" class="details"><div class="pane-head"><p class="eyebrow" data-i18n="evidence">Evidence</p><h2 data-i18n="provenance">Provenance</h2></div><div id="detailsBody" class="details-body"></div></aside>
+    </main>
+  </div>
+  <div id="folderModal" class="modal-layer" hidden>
+    <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="folderModalTitle">
+      <header class="modal-head"><div><p class="eyebrow" data-i18n="personal">Personal</p><h2 id="folderModalTitle">New folder</h2></div><button class="modal-close" type="button" data-close-modal aria-label="Close">×</button></header>
+      <div class="modal-body">
+        <label class="field"><span data-i18n="folderName">Folder name</span><input id="folderName" maxlength="80" autocomplete="off"></label>
+        <label class="field"><span data-i18n="parentFolder">Parent folder</span><select id="folderParent"></select></label>
+        <label class="field"><span data-i18n="folderNoteLabel">Folder note</span><textarea id="folderNoteInput" maxlength="1000" data-i18n-placeholder="folderNotePlaceholder" placeholder="What is this collection for?"></textarea></label>
+        <div class="field"><span data-i18n="folderColor">Folder color</span><div id="folderColors" class="color-options"></div></div>
+      </div>
+      <footer class="modal-foot"><button id="deleteFolder" class="text-btn danger-btn" type="button" hidden data-i18n="deleteFolder">Delete folder</button><button class="text-btn" type="button" data-close-modal data-i18n="cancel">Cancel</button><button id="saveFolder" class="text-btn primary" type="button" data-i18n="saveFolder">Save folder</button></footer>
+    </section>
+  </div>
+  <div id="fileFoldersModal" class="modal-layer" hidden>
+    <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="fileFoldersTitle">
+      <header class="modal-head"><div><p class="eyebrow" data-i18n="organize">Organize</p><h2 id="fileFoldersTitle" data-i18n="addToFolder">Add to folder</h2></div><button class="modal-close" type="button" data-close-file-folders aria-label="Close">×</button></header>
+      <div class="modal-body"><p id="organizingFilename" class="folder-note"></p><div id="folderChecklist" class="folder-check-list"></div></div>
+      <footer class="modal-foot"><button id="createFolderFromFile" class="text-btn" type="button" data-i18n="newFolder">New folder</button><button class="text-btn" type="button" data-close-file-folders data-i18n="cancel">Cancel</button><button id="saveFileFolders" class="text-btn primary" type="button" data-i18n="saveChanges">Save changes</button></footer>
+    </section>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script id="library-data" type="application/json">__LIBRARY_DATA__</script>
+  <script>
+  (function(){
+    'use strict';
+    var DATA=JSON.parse(document.getElementById('library-data').textContent);
+    var manifest=DATA.manifest,events=DATA.calendar||[],records=manifest.records||[];
+    var messages=DATA.messages||{roots:[],messages:[]},targetRoot=DATA.targetRoot||'';
+    var messageById=new Map((messages.messages||[]).map(function(message){return [message.id,message]}));
+    var STORE='kasr-alainy.archive.v1';
+    var saved=parseSaved();
+    saved.folders=saved.folders&&typeof saved.folders==='object'?saved.folders:{};
+    var FOLDER_COLORS=['#7b1836','#a9433d','#a66a25','#56705d','#2f6f78','#3d5f92','#66508a','#8b5c43'];
+    var state={lang:saved.lang||'en',query:'',year:'',module:'',type:'',owner:'',doctor:'',cohort:'',flag:'',status:'',quick:'all',selected:null,view:'library',month:new Date(),visible:[],messageId:saved.messageId||messages.roots[0]||null,messageHistory:[],editingFolderId:null,organizingRecordId:null,selectedFolderColor:'#7b1836',reopenFileFolders:false};
+    var I18N={
+      en:{brand:'Kasr Al Ainy Archive',subbrand:'Cairo University · Offline Library',search:'Search files, doctors, modules, captions and messages…',guide:'Library guide',navigate:'Navigate',collection:'The collection',allMaterial:'All study material',library:'Library',messages:'Messages',messageArchive:'Orientation & gathered messages',calendar:'Calendar',allYears:'All years',allModules:'All modules',allTypes:'All types',allOwners:'All owners',departmentOfficial:'Department / Official',doctorCourses:'Doctor courses',allDoctors:'All doctors',allCohorts:'Current and legacy',needsReview:'Needs review',studyFiles:'Study files',practical:'Practical',allStatus:'All status',available:'Available',pending:'Pending',important:'Important',previousExams:'Previous exams',viewer:'Document viewer',page:'Page',open:'Open',reveal:'Reveal in Finder',officialSchedule:'Official schedule',evidence:'Evidence',provenance:'Provenance',all:'All records',favorites:'Favorites',recent:'Recently opened',continue:'Continue reading',media:'Media links',selectTitle:'Choose a file or source',selectHelp:'Use the year and module tree, search, or a quick view. Downloaded PDFs and Office previews open here.',noResults:'No matching material',noResultsHelp:'Try removing a filter or searching a broader term.',source:'Source',classification:'Classification',caption:'Original caption',occurrences:'Occurrences',year:'Academic year',module:'Module',owner:'Ownership',doctor:'Doctor',batch:'Source batch',status:'Status',confidence:'Confidence',current:'Current',legacy:'Legacy',pendingLabel:'Pending discovery',importantLabel:'Repeated across cohorts',openTelegram:'Open Telegram source',openExternal:'Open external source',openMessage:'Open archived message',openDocument:'Open referenced document',backMessage:'Back to previous message',backOriginal:'Back to original message',exactVerified:'Exact Telegram wording preserved',partialText:'Verified visible portion preserved',attachmentEndpoint:'Attachment endpoint verified',attachmentNoCaption:'Telegram exposes no written caption for this post. Matching downloaded study files are linked below; otherwise the original Telegram attachment remains available as provenance.',exactPending:'Exact wording awaits authenticated Telegram export; this entry is not inferred.',messageReferences:'Links referenced by this message',messageFiles:'Files referenced by this message',noEvents:'No verified official events for this month.',records:'records',personal:'Personal',myFolders:'My folders',noFolders:'Create folders for rotations, revision plans, or any collection you want.',newFolder:'New folder',editFolder:'Edit folder',folderName:'Folder name',parentFolder:'Parent folder',noParent:'No parent — top level',folderNoteLabel:'Folder note',folderNotePlaceholder:'What is this collection for?',folderColor:'Folder color',deleteFolder:'Delete folder',cancel:'Cancel',saveFolder:'Save folder',saveChanges:'Save changes',addToFolder:'Add to folder',organize:'Organize',favoriteAction:'☆ Favorite',favoritedAction:'★ Favorited',folders:'Folders',folderSaved:'Folder saved',folderDeleted:'Folder deleted',fileOrganized:'File organization saved',deleteFolderConfirm:'Delete this folder? Its subfolders will move up one level.',folderNameRequired:'Enter a folder name.'},
+      ar:{brand:'أرشيف قصر العيني',subbrand:'جامعة القاهرة · مكتبة دون إنترنت',search:'ابحث في الملفات والأطباء والموديولات والرسائل…',guide:'دليل المكتبة',navigate:'التنقل',collection:'المجموعة',allMaterial:'كل مواد الدراسة',library:'المكتبة',messages:'الرسائل',messageArchive:'رسائل التوجيه والرسائل المجمعة',calendar:'التقويم',allYears:'كل السنوات',allModules:'كل الموديولات',allTypes:'كل الأنواع',allOwners:'كل الجهات',departmentOfficial:'القسم / رسمي',doctorCourses:'كورسات الدكاترة',allDoctors:'كل الدكاترة',allCohorts:'الحديث والقديم',needsReview:'يحتاج مراجعة',studyFiles:'ملفات الدراسة',practical:'العملي',allStatus:'كل الحالات',available:'متاح',pending:'قيد الاستكمال',important:'مهم',previousExams:'امتحانات سابقة',viewer:'عارض المستندات',page:'الصفحة',open:'فتح',reveal:'إظهار في Finder',officialSchedule:'الجدول الرسمي',evidence:'الدليل',provenance:'المصدر والتصنيف',all:'كل السجلات',favorites:'المفضلة',recent:'فُتح مؤخراً',continue:'متابعة القراءة',media:'روابط الشرح',selectTitle:'اختر ملفاً أو مصدراً',selectHelp:'استخدم شجرة السنة والموديول أو البحث أو العرض السريع. ملفات PDF ومعاينات أوفيس تظهر هنا.',noResults:'لا توجد مواد مطابقة',noResultsHelp:'جرّب إزالة أحد الفلاتر أو استخدم بحثاً أوسع.',source:'المصدر',classification:'التصنيف',caption:'الشرح الأصلي',occurrences:'مرات الظهور',year:'السنة الدراسية',module:'الموديول',owner:'الجهة',doctor:'الدكتور',batch:'الدفعة المصدر',status:'الحالة',confidence:'الثقة',current:'حديث',legacy:'قديم',pendingLabel:'قيد الاستكشاف',importantLabel:'متكرر بين الدفعات',openTelegram:'فتح مصدر تيليجرام',openExternal:'فتح المصدر الخارجي',openMessage:'فتح الرسالة المحفوظة',openDocument:'فتح المستند المشار إليه',backMessage:'الرجوع للرسالة السابقة',backOriginal:'الرجوع للرسالة الأصلية',exactVerified:'تم حفظ نص تيليجرام كما هو',partialText:'تم حفظ الجزء الظاهر الموثق',attachmentEndpoint:'تم التحقق من نقطة المرفق',attachmentNoCaption:'لا يعرض تيليجرام وصفاً مكتوباً لهذه الرسالة. تظهر ملفات الدراسة المحلية المطابقة أدناه، وإلا يبقى مرفق تيليجرام الأصلي كرابط للمصدر.',exactPending:'النص الحرفي ينتظر تصدير تيليجرام الموثق؛ لم يتم تخمين هذا المحتوى.',messageReferences:'الروابط المشار إليها في الرسالة',messageFiles:'الملفات المشار إليها في الرسالة',noEvents:'لا توجد مواعيد رسمية مؤكدة لهذا الشهر.',records:'سجل',personal:'شخصي',myFolders:'مجلداتي',noFolders:'أنشئ مجلدات للدورات أو خطط المراجعة أو أي مجموعة تريدها.',newFolder:'مجلد جديد',editFolder:'تعديل المجلد',folderName:'اسم المجلد',parentFolder:'المجلد الأب',noParent:'بدون مجلد أب — المستوى الرئيسي',folderNoteLabel:'ملاحظة المجلد',folderNotePlaceholder:'ما الغرض من هذه المجموعة؟',folderColor:'لون المجلد',deleteFolder:'حذف المجلد',cancel:'إلغاء',saveFolder:'حفظ المجلد',saveChanges:'حفظ التغييرات',addToFolder:'إضافة إلى مجلد',organize:'تنظيم',favoriteAction:'☆ مفضلة',favoritedAction:'★ في المفضلة',folders:'المجلدات',folderSaved:'تم حفظ المجلد',folderDeleted:'تم حذف المجلد',fileOrganized:'تم حفظ تنظيم الملف',deleteFolderConfirm:'هل تريد حذف هذا المجلد؟ ستنتقل مجلداته الفرعية مستوى واحداً للأعلى.',folderNameRequired:'أدخل اسم المجلد.'}
+    };
+    var $=function(id){return document.getElementById(id)};
+    function parseSaved(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return {}}}
+    function persist(){saved.lang=state.lang;saved.messageId=state.messageId;localStorage.setItem(STORE,JSON.stringify(saved))}
+    function tr(key){return (I18N[state.lang]&&I18N[state.lang][key])||I18N.en[key]||key}
+    function esc(value){return String(value==null?'':value).replace(/[&<>"']/g,function(char){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]})}
+    function pathUrl(path){return path?path.split('/').map(encodeURIComponent).join('/'):''}
+    function absolutePath(path){return targetRoot.replace(/\/$/,'')+'/'+String(path||'').replace(/^\//,'')}
+    function base64Url(value){var bytes=new TextEncoder().encode(value),binary='';bytes.forEach(function(byte){binary+=String.fromCharCode(byte)});return btoa(binary).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')}
+    function finderRevealUrl(record){return record&&record.canonicalPath?'kasrarchive://reveal/'+base64Url(absolutePath(record.canonicalPath)):'#'}
+    function normalize(value){return String(value||'').toLocaleLowerCase().normalize('NFKD')}
+    function isPending(record){return !['downloaded','exact_duplicate','link_only_media','orientation_index'].includes(record.disposition)}
+    function isLegacy(record){
+      if(!record.sourceBatch)return false;
+      var year=manifest.years.find(function(item){return item.year===record.year});
+      return year?record.sourceBatch<year.effectiveBatch:record.sourceBatch<195;
+    }
+    function needsReview(record){return Boolean(record.reviewReason||record.ownership==='unresolved'||String(record.canonicalPath||'').indexOf('_Needs Review/')===0)}
+    function stableId(record){return record.sha256||record.canonicalId||record.id}
+    function favorite(record){return Boolean((saved.favorites||{})[stableId(record)])}
+    function toggleFavorite(record){saved.favorites=saved.favorites||{};var key=stableId(record);saved.favorites[key]=!saved.favorites[key];persist();renderQuick();renderResults();renderViewerActions(record);renderDetails(record)}
+    function folders(){return Object.values(saved.folders||{}).filter(function(folder){return folder&&folder.id&&folder.name})}
+    function folderById(id){return (saved.folders||{})[id]||null}
+    function folderChildren(parentId){return folders().filter(function(folder){return (folder.parentId||null)===(parentId||null)}).sort(function(a,b){return a.name.localeCompare(b.name)})}
+    function descendantFolderIds(id){var ids=[id],queue=[id];while(queue.length){var parent=queue.shift();folderChildren(parent).forEach(function(child){if(!ids.includes(child.id)){ids.push(child.id);queue.push(child.id)}})}return ids}
+    function folderDepth(folder){var depth=0,seen=new Set(),current=folder;while(current&&current.parentId&&!seen.has(current.parentId)&&depth<12){seen.add(current.parentId);current=folderById(current.parentId);if(current)depth++}return depth}
+    function folderPath(id){var parts=[],seen=new Set(),current=folderById(id);while(current&&!seen.has(current.id)){seen.add(current.id);parts.unshift(current.name);current=current.parentId?folderById(current.parentId):null}return parts}
+    function recordInFolder(record,folderId){var key=stableId(record),ids=descendantFolderIds(folderId);return ids.some(function(id){var folder=folderById(id);return Boolean(folder&&(folder.fileIds||[]).includes(key))})}
+    function directRecordInFolder(record,folderId){var folder=folderById(folderId);return Boolean(folder&&(folder.fileIds||[]).includes(stableId(record)))}
+    function recordFolders(record){return folders().filter(function(folder){return directRecordInFolder(record,folder.id)})}
+    function folderRecordCount(id){return records.filter(function(record){return record.disposition!=='orientation_index'&&recordInFolder(record,id)}).length}
+    function touchRecent(record){saved.recent=(saved.recent||[]).filter(function(id){return id!==record.id});saved.recent.unshift(record.id);saved.recent=saved.recent.slice(0,30);persist()}
+    function recordSearchText(record){return normalize([record.title,record.caption,record.module,(record.subjects||[]).join(' '),record.doctor,record.category,record.sourceBatch,record.disposition,(record.tags||[]).join(' ')].join(' '))}
+    function filterRecords(){
+      var query=normalize(state.query);
+      state.visible=records.filter(function(record){
+        if(record.disposition==='orientation_index')return false;
+        if(state.year&&String(record.year)!==state.year)return false;
+        if(state.module&&normalize(record.module)!==normalize(state.module))return false;
+        if(state.type&&record.category!==state.type)return false;
+        if(state.owner&&record.ownership!==state.owner)return false;
+        if(state.doctor&&normalize(record.doctor)!==normalize(state.doctor))return false;
+        if(state.cohort==='legacy'&&!isLegacy(record))return false;
+        if(state.cohort==='current'&&isLegacy(record))return false;
+        if(state.flag==='important'&&!record.important)return false;
+        if(state.flag==='exam'&&!record.isExam)return false;
+        if(state.flag==='practical'&&record.category!=='Practical Files & Tests')return false;
+        if(state.flag==='review'&&!needsReview(record))return false;
+        if(state.status==='downloaded'&&record.disposition!=='downloaded')return false;
+        if(state.status==='pending'&&!isPending(record))return false;
+        if(state.status==='important'&&!record.important)return false;
+        if(state.status==='exam'&&!record.isExam)return false;
+        if(state.quick==='favorites'&&!favorite(record))return false;
+        if(state.quick==='recent'&&!(saved.recent||[]).includes(record.id))return false;
+        if(state.quick==='continue'&&!(saved.progress||{})[stableId(record)])return false;
+        if(state.quick==='important'&&!record.important)return false;
+        if(state.quick==='exams'&&!record.isExam)return false;
+        if(state.quick==='media'&&record.disposition!=='link_only_media')return false;
+        if(state.quick&&state.quick.indexOf('folder:')===0&&!recordInFolder(record,state.quick.slice(7)))return false;
+        if(state.quick&&state.quick.indexOf('year:')===0&&String(record.year)!==state.quick.split(':')[1])return false;
+        if(state.quick&&state.quick.indexOf('module:')===0&&normalize(record.module)!==normalize(state.quick.slice(7)))return false;
+        return !query||recordSearchText(record).includes(query);
+      });
+      $('resultCount').textContent=state.visible.length.toLocaleString()+' '+tr('records');
+    }
+    function updateLanguage(){
+      document.documentElement.lang=state.lang;document.documentElement.dir=state.lang==='ar'?'rtl':'ltr';$('lang').textContent=state.lang==='en'?'العربية':'English';
+      document.querySelectorAll('[data-i18n]').forEach(function(el){el.textContent=tr(el.dataset.i18n)});
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el){el.placeholder=tr(el.dataset.i18nPlaceholder)});
+      persist();
+    }
+    function renderQuick(){
+      var items=[['all','all',records.length],['favorites','favorites',Object.values(saved.favorites||{}).filter(Boolean).length],['recent','recent',(saved.recent||[]).length],['continue','continue',Object.keys(saved.progress||{}).length],['important','important',records.filter(function(r){return r.important}).length],['exams','previousExams',records.filter(function(r){return r.isExam}).length],['media','media',records.filter(function(r){return r.disposition==='link_only_media'}).length]];
+      $('quickGrid').innerHTML=items.map(function(item){return '<button class="quick '+(state.quick===item[0]?'active':'')+'" type="button" data-quick="'+item[0]+'"><span>'+esc(tr(item[1]))+'</span><strong>'+item[2].toLocaleString()+'</strong></button>'}).join('');
+      $('quickGrid').querySelectorAll('[data-quick]').forEach(function(button){button.onclick=function(){state.quick=button.dataset.quick;state.year='';$('yearFilter').value='';render()}});
+    }
+    function renderTree(){
+      $('tree').innerHTML=manifest.years.map(function(year){
+        var yearRecords=records.filter(function(r){return r.year===year.year});
+        var modules=[].concat(year.modules||[]).map(function(m){return m.code}).concat(year.secondaryModules||[]);
+        return '<details class="tree-group" '+(state.quick==='year:'+year.year?'open':'')+'><summary><span>Year '+year.year+'</span><span class="count">'+yearRecords.length+'</span></summary><div class="tree-items"><button class="tree-button '+(state.quick==='year:'+year.year?'active':'')+'" data-tree="year:'+year.year+'"><span>'+tr('allMaterial')+'</span><span class="count">'+yearRecords.length+'</span></button>'+modules.map(function(module){var count=yearRecords.filter(function(r){return normalize(r.module)===normalize(module)}).length;return '<button class="tree-button '+(state.quick==='module:'+module?'active':'')+'" data-tree="module:'+esc(module)+'"><span>'+esc(module)+'</span><span class="count">'+count+'</span></button>'}).join('')+'</div></details>'
+      }).join('');
+      $('tree').querySelectorAll('[data-tree]').forEach(function(button){button.onclick=function(){state.quick=button.dataset.tree;render()}});
+    }
+    function safeFolderColor(value){return FOLDER_COLORS.includes(value)?value:FOLDER_COLORS[0]}
+    function flatFolderRows(){var rows=[],seen=new Set();function walk(parentId,depth){folderChildren(parentId).forEach(function(folder){if(seen.has(folder.id))return;seen.add(folder.id);rows.push({folder:folder,depth:depth});walk(folder.id,depth+1)})}walk(null,0);folders().forEach(function(folder){if(!seen.has(folder.id))rows.push({folder:folder,depth:0})});return rows}
+    function renderFolderTree(){
+      var rows=flatFolderRows();
+      if(!rows.length){$('folderTree').innerHTML='<div class="folder-empty">'+esc(tr('noFolders'))+'</div>';return}
+      $('folderTree').innerHTML=rows.map(function(item){var folder=item.folder,color=safeFolderColor(folder.color);return '<div class="folder-row" style="--folder-depth:'+item.depth+';--folder-color:'+color+'"><button class="folder-open '+(state.quick==='folder:'+folder.id?'active':'')+'" type="button" data-folder="'+esc(folder.id)+'"><span class="folder-tab"></span><span class="folder-name">'+esc(folder.name)+'</span><span class="folder-count">'+folderRecordCount(folder.id)+'</span></button><button class="folder-edit" type="button" data-edit-folder="'+esc(folder.id)+'" aria-label="'+esc(tr('editFolder'))+'">•••</button></div>'}).join('');
+      $('folderTree').querySelectorAll('[data-folder]').forEach(function(button){button.onclick=function(){state.quick='folder:'+button.dataset.folder;state.year='';state.module='';document.querySelector('.sidebar').classList.remove('mobile-open');render()}});
+      $('folderTree').querySelectorAll('[data-edit-folder]').forEach(function(button){button.onclick=function(){openFolderModal(button.dataset.editFolder)}});
+    }
+    function showToast(message){var toast=$('toast');toast.textContent=message;toast.hidden=false;clearTimeout(showToast.timer);showToast.timer=setTimeout(function(){toast.hidden=true},2400)}
+    function openFolderModal(id,parentId){
+      var folder=id?folderById(id):null;state.editingFolderId=folder?folder.id:null;state.selectedFolderColor=safeFolderColor(folder&&folder.color);
+      $('folderModalTitle').textContent=tr(folder?'editFolder':'newFolder');$('folderName').value=folder?folder.name:'';$('folderNoteInput').value=folder&&folder.note||'';$('deleteFolder').hidden=!folder;
+      var excluded=folder?new Set(descendantFolderIds(folder.id)):new Set();
+      var options='<option value="">'+esc(tr('noParent'))+'</option>'+flatFolderRows().filter(function(item){return !excluded.has(item.folder.id)}).map(function(item){return '<option value="'+esc(item.folder.id)+'">'+esc('— '.repeat(item.depth)+item.folder.name)+'</option>'}).join('');
+      $('folderParent').innerHTML=options;$('folderParent').value=folder?(folder.parentId||''):(parentId||'');
+      renderFolderColors();$('folderModal').hidden=false;setTimeout(function(){$('folderName').focus()},0);
+    }
+    function renderFolderColors(){$('folderColors').innerHTML=FOLDER_COLORS.map(function(color){return '<button class="color-swatch '+(state.selectedFolderColor===color?'selected':'')+'" style="--swatch:'+color+'" type="button" data-folder-color="'+color+'" aria-label="'+color+'"></button>'}).join('');$('folderColors').querySelectorAll('[data-folder-color]').forEach(function(button){button.onclick=function(){state.selectedFolderColor=button.dataset.folderColor;renderFolderColors()}})}
+    function closeFolderModal(){
+      $('folderModal').hidden=true;state.editingFolderId=null;
+      if(state.reopenFileFolders&&state.organizingRecordId){state.reopenFileFolders=false;var record=records.find(function(item){return item.id===state.organizingRecordId});if(record)openFileFolders(record)}
+    }
+    function saveFolder(){
+      var name=$('folderName').value.trim();if(!name){showToast(tr('folderNameRequired'));$('folderName').focus();return}
+      var id=state.editingFolderId||('folder-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,7));var previous=folderById(id)||{};
+      var fileIds=Array.isArray(previous.fileIds)?previous.fileIds.slice():[];
+      if(!state.editingFolderId&&state.reopenFileFolders&&state.organizingRecordId){var record=records.find(function(item){return item.id===state.organizingRecordId});if(record&&!fileIds.includes(stableId(record)))fileIds.push(stableId(record))}
+      saved.folders[id]={id:id,name:name,parentId:$('folderParent').value||null,note:$('folderNoteInput').value.trim(),color:safeFolderColor(state.selectedFolderColor),fileIds:fileIds,createdAt:previous.createdAt||new Date().toISOString(),updatedAt:new Date().toISOString()};
+      persist();renderFolderTree();showToast(tr('folderSaved'));closeFolderModal();updateLibraryHeading();
+    }
+    function deleteFolder(){
+      var folder=folderById(state.editingFolderId);if(!folder||!window.confirm(tr('deleteFolderConfirm')))return;
+      folderChildren(folder.id).forEach(function(child){child.parentId=folder.parentId||null;child.updatedAt=new Date().toISOString()});delete saved.folders[folder.id];if(state.quick==='folder:'+folder.id)state.quick='all';persist();closeFolderModal();render();showToast(tr('folderDeleted'));
+    }
+    function openFileFolders(record){
+      if(!record)return;state.organizingRecordId=record.id;$('organizingFilename').textContent=record.title||record.originalFilename||'';var rows=flatFolderRows();
+      $('folderChecklist').innerHTML=rows.length?rows.map(function(item){var folder=item.folder,color=safeFolderColor(folder.color);return '<label class="folder-check" style="--folder-depth:'+item.depth+';--folder-color:'+color+'"><input type="checkbox" data-folder-check="'+esc(folder.id)+'" '+(directRecordInFolder(record,folder.id)?'checked':'')+'><span class="folder-tab"></span><span>'+esc(folder.name)+'</span></label>'}).join(''):'<div class="modal-empty">'+esc(tr('noFolders'))+'</div>';
+      $('fileFoldersModal').hidden=false;
+    }
+    function closeFileFolders(clearRecord){$('fileFoldersModal').hidden=true;if(clearRecord!==false)state.organizingRecordId=null}
+    function saveFileFolders(){
+      var record=records.find(function(item){return item.id===state.organizingRecordId});if(!record)return closeFileFolders();var key=stableId(record),checked=new Set(Array.from($('folderChecklist').querySelectorAll('[data-folder-check]:checked')).map(function(input){return input.dataset.folderCheck}));
+      folders().forEach(function(folder){folder.fileIds=(folder.fileIds||[]).filter(function(id){return id!==key});if(checked.has(folder.id))folder.fileIds.push(key);folder.updatedAt=new Date().toISOString()});persist();closeFileFolders();renderFolderTree();renderResults();renderDetails(record);showToast(tr('fileOrganized'));
+    }
+    function updateLibraryHeading(){
+      var folder=state.quick&&state.quick.indexOf('folder:')===0?folderById(state.quick.slice(7)):null;
+      if(folder){$('crumb').textContent=tr('myFolders')+' › '+folderPath(folder.id).join(' › ');$('viewTitle').textContent=folder.name;$('folderNote').textContent=folder.note||'';$('folderNote').hidden=!folder.note;return}
+      $('crumb').textContent='Cairo University · Kasr Al Ainy';$('viewTitle').textContent=tr('allMaterial');$('folderNote').hidden=true;
+    }
+    function statusBadges(record){
+      var badges=[];
+      recordFolders(record).slice(0,2).forEach(function(folder){badges.push('<span class="record-folder" style="--folder-color:'+safeFolderColor(folder.color)+'">'+esc(folder.name)+'</span>')});
+      if(record.important)badges.push('<span class="badge important">'+esc(tr('importantLabel'))+'</span>');
+      if(isPending(record))badges.push('<span class="badge pending">'+esc(tr('pendingLabel'))+'</span>');
+      else if(isLegacy(record))badges.push('<span class="badge legacy">'+esc(tr('legacy'))+' '+record.sourceBatch+'</span>');
+      else badges.push('<span class="badge current">'+esc(tr('current'))+'</span>');
+      if(record.category)badges.push('<span class="badge">'+esc(record.category)+'</span>');
+      if(record.doctor)badges.push('<span class="badge">Dr '+esc(record.doctor)+'</span>');
+      return badges.join('');
+    }
+    function renderResults(){
+      filterRecords();
+      if(!state.visible.length){$('results').innerHTML='<div class="empty"><div><div class="empty-mark"></div><h3>'+esc(tr('noResults'))+'</h3><p>'+esc(tr('noResultsHelp'))+'</p></div></div>';return}
+      $('results').innerHTML=state.visible.map(function(record){return '<button class="record '+(state.selected===record.id?'active':'')+'" type="button" data-id="'+esc(record.id)+'"><div class="record-title"><span>'+esc(record.title||record.originalFilename||'Untitled')+'</span><span class="star '+(favorite(record)?'on':'')+'" data-star="'+esc(record.id)+'" aria-label="'+esc(tr('favorites'))+'">★</span></div><div class="record-meta">'+statusBadges(record)+'</div></button>'}).join('');
+      $('results').querySelectorAll('.record').forEach(function(button){button.onclick=function(event){var record=records.find(function(r){return r.id===button.dataset.id});if(event.target.dataset.star){toggleFavorite(record);event.stopPropagation();return}selectRecord(record)}});
+    }
+    function selectRecord(record){
+      state.selected=record.id;touchRecent(record);renderResults();renderViewer(record);renderDetails(record);
+    }
+    function renderViewer(record){
+      $('viewerFilename').textContent=record.title||record.originalFilename||tr('viewer');
+      renderViewerActions(record);
+      var source=record.previewPath||record.canonicalPath;
+      $('openFile').hidden=!source;$('openFile').href=source?pathUrl(source):'#';
+      $('revealFile').hidden=!record.canonicalPath;$('revealFile').href=finderRevealUrl(record);
+      if(source){
+        var page=((saved.progress||{})[stableId(record)]||{}).page||1;
+        $('pageNumber').hidden=false;$('pageNumber').value=page;
+        $('viewerBody').innerHTML='<iframe title="'+esc(record.title)+'" src="'+pathUrl(source)+'#page='+page+'"></iframe>';
+      }else{
+        $('pageNumber').hidden=true;
+        $('viewerBody').innerHTML='<div class="empty"><div><div class="empty-mark"></div><h3>'+esc(record.title||tr('selectTitle'))+'</h3><p>'+esc(isPending(record)?tr('pendingLabel'):tr('selectHelp'))+'</p></div></div>';
+      }
+    }
+    function renderViewerEmpty(){
+      $('viewerFilename').textContent=tr('viewer');$('openFile').hidden=true;$('openFile').href='#';$('revealFile').hidden=true;$('revealFile').href='#';$('favoriteFile').hidden=true;$('organizeFile').hidden=true;$('pageNumber').hidden=true;
+      $('viewerBody').innerHTML='<div class="empty"><div><div class="empty-mark"></div><h3>'+esc(tr('selectTitle'))+'</h3><p>'+esc(tr('selectHelp'))+'</p></div></div>';
+    }
+    function renderViewerActions(record){$('favoriteFile').hidden=!record;$('organizeFile').hidden=!record;if(record)$('favoriteFile').textContent=tr(favorite(record)?'favoritedAction':'favoriteAction')}
+    function renderDetails(record){
+      if(!record){$('detailsBody').innerHTML='<div class="empty"><div><div class="empty-mark"></div><h3>'+esc(tr('selectTitle'))+'</h3><p>'+esc(tr('selectHelp'))+'</p></div></div>';return}
+      var sourceBatch=record.sourceBatch||'—';
+      var owner=record.ownership==='doctor'?'Dr '+(record.doctor||'—'):record.ownership==='official'?'Department / Official':'Needs review';
+      var sourceLinks='';
+      if(record.canonicalPath)sourceLinks+='<a class="source-link" href="'+finderRevealUrl(record)+'"><span>'+esc(tr('reveal'))+'</span><span>⌖</span></a>';
+      if(record.telegramUrl)sourceLinks+='<a class="source-link" href="'+esc(record.telegramUrl)+'" target="_blank" rel="noopener"><span>'+esc(tr('openTelegram'))+'</span><span>↗</span></a>';
+      if(record.externalUrl)sourceLinks+='<a class="source-link" href="'+esc(record.externalUrl)+'" target="_blank" rel="noopener"><span>'+esc(tr('openExternal'))+'</span><span>↗</span></a>';
+      var occurrences=(record.occurrences||[]).map(function(item){var label='Batch '+esc(item.sourceBatch||sourceBatch);var link=item.telegramUrl?'<a class="source-link" href="'+esc(item.telegramUrl)+'" target="_blank" rel="noopener"><span>'+label+'</span><span>↗</span></a>':'<p>'+label+'</p>';return link+(item.caption?'<p>'+esc(item.caption)+'</p>':'')}).join('');
+      var assigned=recordFolders(record),folderChips=assigned.map(function(folder){return '<button class="folder-chip" type="button" data-detail-folder="'+esc(folder.id)+'" style="--folder-color:'+safeFolderColor(folder.color)+'">'+esc(folder.name)+'</button>'}).join('');
+      $('detailsBody').innerHTML='<div class="provenance-ribbon"><small>'+esc(tr('source'))+'</small><strong>Batch '+esc(sourceBatch)+' · '+esc(owner)+'</strong></div><div class="detail-actions"><button class="detail-action" type="button" data-detail-favorite>'+esc(tr(favorite(record)?'favoritedAction':'favoriteAction'))+'</button><button class="detail-action" type="button" data-detail-organize>'+esc(tr('addToFolder'))+'</button></div><section class="detail-section"><h3>'+esc(tr('folders'))+'</h3>'+(folderChips?'<div class="folder-chips">'+folderChips+'</div>':'<p>'+esc(tr('noFolders'))+'</p>')+'</section><section class="detail-section"><h3>'+esc(tr('classification'))+'</h3><dl class="definition"><dt>'+esc(tr('year'))+'</dt><dd>'+(record.year||'—')+'</dd><dt>'+esc(tr('module'))+'</dt><dd>'+esc(record.module||'—')+'</dd><dt>'+esc(tr('owner'))+'</dt><dd>'+esc(owner)+'</dd><dt>'+esc(tr('doctor'))+'</dt><dd>'+esc(record.doctor||'—')+'</dd><dt>'+esc(tr('batch'))+'</dt><dd>'+esc(sourceBatch)+'</dd><dt>'+esc(tr('status'))+'</dt><dd>'+esc(record.disposition||'—')+'</dd><dt>'+esc(tr('confidence'))+'</dt><dd>'+Math.round((record.confidence||0)*100)+'%</dd></dl></section><section class="detail-section"><h3>'+esc(tr('caption'))+'</h3><p>'+esc(record.caption||'—')+'</p></section>'+(occurrences?'<section class="detail-section"><h3>'+esc(tr('occurrences'))+'</h3>'+occurrences+'</section>':'')+(sourceLinks?'<section class="detail-section"><h3>'+esc(tr('source'))+'</h3>'+sourceLinks+'</section>':'');
+      var favoriteButton=$('detailsBody').querySelector('[data-detail-favorite]');if(favoriteButton)favoriteButton.onclick=function(){toggleFavorite(record)};
+      var organizeButton=$('detailsBody').querySelector('[data-detail-organize]');if(organizeButton)organizeButton.onclick=function(){openFileFolders(record)};
+      $('detailsBody').querySelectorAll('[data-detail-folder]').forEach(function(button){button.onclick=function(){state.quick='folder:'+button.dataset.detailFolder;setView('library');render()}});
+    }
+    function messageReference(message,url){
+      var key=String(url||'').replace(/[?#].*$/,'').replace(/\/$/,'').toLowerCase();
+      return (message.references||[]).find(function(reference){return String(reference.href||'').replace(/[?#].*$/,'').replace(/\/$/,'').toLowerCase()===key});
+    }
+    function referencedRecord(reference){
+      var matches=(reference.recordIds||[]).map(function(id){return records.find(function(record){return record.id===id})}).filter(Boolean);
+      return matches.find(function(record){return record.canonicalPath})||matches[0]||null;
+    }
+    function endpointRecord(reference){
+      var target=reference&&reference.targetMessageId?messageById.get(reference.targetMessageId):null;
+      if(!target||target.exactTextStatus!=='verified_public_attachment_or_media_endpoint')return null;
+      var matches=(target.recordIds||[]).map(function(id){return records.find(function(record){return record.id===id})}).filter(Boolean);
+      return matches.find(function(record){return record.canonicalPath})||matches[0]||referencedRecord(reference);
+    }
+    function renderMessageText(message){
+      var text=String(message.exactText||''),pattern=/https?:\/\/t\.me\/[A-Za-z0-9_]+(?:\/\d+)?/giu,last=0,html='',match;
+      while((match=pattern.exec(text))){
+        html+=esc(text.slice(last,match.index));
+        var reference=messageReference(message,match[0]);
+        var endpoint=reference?endpointRecord(reference):null;
+        if(endpoint)html+='<button class="message-inline" type="button" data-record="'+esc(endpoint.id)+'">'+esc(match[0])+'</button>';
+        else if(reference&&reference.targetMessageId)html+='<button class="message-inline" type="button" data-message="'+esc(reference.targetMessageId)+'">'+esc(match[0])+'</button>';
+        else if(reference&&referencedRecord(reference))html+='<button class="message-inline" type="button" data-record="'+esc(referencedRecord(reference).id)+'">'+esc(match[0])+'</button>';
+        else html+='<a class="message-inline" href="'+esc(match[0])+'" target="_blank" rel="noopener">'+esc(match[0])+'</a>';
+        last=pattern.lastIndex;
+      }
+      return html+esc(text.slice(last));
+    }
+    function messageLink(reference){
+      var record=endpointRecord(reference)||referencedRecord(reference),action='',kind='Telegram';
+      if(endpointRecord(reference)){action='data-record="'+esc(record.id)+'"';kind=tr('openDocument')}
+      else if(reference.targetMessageId){action='data-message="'+esc(reference.targetMessageId)+'"';kind=tr('openMessage')}
+      else if(record){action='data-record="'+esc(record.id)+'"';kind=tr('openDocument')}
+      if(action)return '<button class="message-link" type="button" '+action+'><span class="thread-node">'+(reference.targetMessageId?'↳':'▣')+'</span><span><strong>'+esc(reference.label||reference.href)+'</strong><small>'+esc(kind)+'</small></span><span class="arrow">›</span></button>';
+      return '<a class="message-link" href="'+esc(reference.href)+'" target="_blank" rel="noopener"><span class="thread-node">↗</span><span><strong>'+esc(reference.label||reference.href)+'</strong><small>Telegram</small></span><span class="arrow">›</span></a>';
+    }
+    function bindMessageActions(container){
+      container.querySelectorAll('[data-message]').forEach(function(button){button.onclick=function(){openMessage(button.dataset.message,true)}});
+      container.querySelectorAll('[data-record]').forEach(function(button){button.onclick=function(){var record=records.find(function(item){return item.id===button.dataset.record});if(record){setView('library');selectRecord(record)}}});
+      var back=container.querySelector('[data-message-back]');if(back)back.onclick=backMessage;
+      var original=container.querySelector('[data-message-original]');if(original)original.onclick=function(){var root=state.messageHistory[0];if(root){state.messageHistory=[];state.messageId=root;persist();renderMessages()}};
+    }
+    function openMessage(id,pushHistory){
+      if(!messageById.has(id))return;
+      if(pushHistory&&state.messageId&&state.messageId!==id)state.messageHistory.push(state.messageId);
+      state.messageId=id;persist();renderMessages();
+    }
+    function backMessage(){
+      var previous=state.messageHistory.pop();if(!previous)return;state.messageId=previous;persist();renderMessages();
+    }
+    function renderMessages(){
+      var query=normalize(state.query),scope=(messages.messages||[]).filter(function(message){return [200,199,198].includes(Number(message.sourceBatch))});
+      var visible=scope.filter(function(message){return !query||normalize([message.title,message.exactText,message.module,message.telegramUrl,message.sourceBatch].join(' ')).includes(query)});
+      $('messageIndex').innerHTML=[200,199,198].map(function(batch){
+        var cohort=visible.filter(function(message){return Number(message.sourceBatch)===batch});
+        if(!cohort.length)return '';
+        return '<section class="message-cohort"><h3>Batch '+batch+'</h3>'+cohort.map(function(message){return '<button class="message-index-item '+(message.id===state.messageId?'active':'')+'" type="button" data-message="'+esc(message.id)+'"><span>'+esc(message.title)+'</span><small>Year '+esc(message.year||'—')+(message.module?' · '+esc(message.module):'')+'</small></button>'}).join('')+'</section>';
+      }).join('')||'<div class="empty"><p>'+esc(tr('noResults'))+'</p></div>';
+      bindMessageActions($('messageIndex'));
+      var message=messageById.get(state.messageId)||messageById.get(messages.roots[0]);
+      if(!message){$('messageStage').innerHTML='<div class="empty"><h3>'+esc(tr('noResults'))+'</h3></div>';return}
+      state.messageId=message.id;
+      var verified=message.exactTextStatus&&message.exactTextStatus.indexOf('verified_')===0;
+      var attachmentEndpoint=message.exactTextStatus==='verified_public_attachment_or_media_endpoint';
+      var transcript=message.exactText?'<div class="message-copy" dir="auto">'+renderMessageText(message)+'</div>':attachmentEndpoint?'<div class="message-pending"><strong>'+esc(tr('attachmentEndpoint'))+'</strong><span>'+esc(tr('attachmentNoCaption'))+'</span></div>':'<div class="message-pending"><strong>'+esc(tr('pendingLabel'))+'</strong><span>'+esc(tr('exactPending'))+'</span></div>';
+      if(message.exactTextNote)transcript+='<div class="message-pending"><strong>'+esc(tr(attachmentEndpoint?'attachmentEndpoint':'partialText'))+'</strong><span>'+esc(message.exactTextNote)+'</span></div>';
+      var references=(message.references||[]).map(messageLink).join('');
+      var directRecords=(message.recordIds||[]).map(function(id){return records.find(function(record){return record.id===id})}).filter(function(record){return record&&record.disposition!=='orientation_index'});
+      var files=directRecords.map(function(record){return '<button class="message-link" type="button" data-record="'+esc(record.id)+'"><span class="thread-node">▣</span><span><strong>'+esc(record.title||record.originalFilename)+'</strong><small>'+esc(record.category||tr('openDocument'))+'</small></span><span class="arrow">›</span></button>'}).join('');
+      $('messageStage').innerHTML='<div class="message-trail">'+(state.messageHistory.length?'<button class="text-btn" type="button" data-message-back>‹ '+esc(tr('backMessage'))+'</button>':'')+(state.messageHistory.length>1?'<button class="text-btn" type="button" data-message-original>'+esc(tr('backOriginal'))+'</button>':'')+'<div class="trail-copy"><small>Batch '+esc(message.sourceBatch||'—')+' · Year '+esc(message.year||'—')+'</small><strong>'+esc(message.title)+'</strong></div><a class="text-btn" href="'+esc(message.telegramUrl)+'" target="_blank" rel="noopener">Telegram ↗</a></div><article class="message-sheet"><header class="message-header"><p class="eyebrow">'+esc(attachmentEndpoint?tr('attachmentEndpoint'):verified?tr('exactVerified'):tr('pendingLabel'))+'</p><h2>'+esc(message.title)+'</h2><p>'+esc(message.module||'Batch '+message.sourceBatch)+'</p></header>'+transcript+(references?'<section class="message-references"><h3>'+esc(tr('messageReferences'))+'</h3><div class="message-link-list">'+references+'</div></section>':'')+(files?'<section class="message-references"><h3>'+esc(tr('messageFiles'))+'</h3><div class="message-link-list">'+files+'</div></section>':'')+'</article>';
+      bindMessageActions($('messageStage'));
+    }
+    function setView(view){
+      state.view=view;
+      ['library','messages','calendar'].forEach(function(name){var tab=$(name+'Tab');tab.classList.toggle('active',view===name);tab.setAttribute('aria-selected',view===name)});
+      $('filters').hidden=view!=='library';$('libraryView').hidden=view!=='library';$('messagesView').classList.toggle('active',view==='messages');$('calendarView').classList.toggle('active',view==='calendar');
+      if(view==='library')updateLibraryHeading();else{$('viewTitle').textContent=tr(view==='messages'?'messageArchive':'calendar');$('folderNote').hidden=true}
+      if(view==='messages')renderMessages();if(view==='calendar')renderCalendar();
+    }
+    function renderCalendar(){
+      var year=state.month.getFullYear(),month=state.month.getMonth();
+      $('monthTitle').textContent=new Intl.DateTimeFormat(state.lang==='ar'?'ar-EG':'en-GB',{month:'long',year:'numeric'}).format(state.month);
+      var first=new Date(year,month,1),start=new Date(first);start.setDate(first.getDate()-((first.getDay()-6+7)%7));
+      var labels=state.lang==='ar'?['السبت','الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة']:['Sat','Sun','Mon','Tue','Wed','Thu','Fri'];
+      var html=labels.map(function(label){return '<div class="weekday">'+label+'</div>'}).join('');
+      var monthEvents=events.filter(function(event){var d=new Date(event.date+'T12:00:00');return d.getFullYear()===year&&d.getMonth()===month&&(!state.year||String(event.year)===state.year)});
+      for(var i=0;i<42;i++){var day=new Date(start);day.setDate(start.getDate()+i);var iso=day.getFullYear()+'-'+String(day.getMonth()+1).padStart(2,'0')+'-'+String(day.getDate()).padStart(2,'0');var dayEvents=events.filter(function(event){return event.date===iso&&(!state.year||String(event.year)===state.year)});html+='<div class="day '+(day.getMonth()===month?'':'outside')+'"><span class="day-number">'+day.getDate()+'</span>'+dayEvents.slice(0,3).map(function(event){return '<button class="event '+esc(event.type||'')+' '+(event.archive?'archive':'')+'" data-event="'+esc(event.id)+'" title="'+esc(event.title)+'">'+esc(event.title)+'</button>'}).join('')+'</div>'}
+      $('calendarGrid').innerHTML=html;
+      $('agendaList').innerHTML=monthEvents.length?monthEvents.map(function(event){return '<div class="agenda-item"><time>'+esc(event.date)+(event.startTime?' · '+esc(event.startTime):'')+'</time><strong>'+esc(event.title)+'</strong><span>'+esc(event.module||'')+'</span></div>'}).join(''):'<p>'+esc(tr('noEvents'))+'</p>';
+      $('calendarGrid').querySelectorAll('[data-event]').forEach(function(button){button.onclick=function(){var event=events.find(function(e){return e.id===button.dataset.event});var record=records.find(function(r){return r.id===event.sourceId});if(record){setView('library');selectRecord(record)}}});
+    }
+    function populateFilters(){
+      $('yearFilter').innerHTML='<option value="">'+esc(tr('allYears'))+'</option>'+manifest.years.map(function(year){return '<option value="'+year.year+'">Year '+year.year+' · Batch '+year.effectiveBatch+'</option>'}).join('');
+      var modules=[...new Set(records.map(function(record){return record.module}).filter(Boolean))].sort();
+      $('moduleFilter').innerHTML='<option value="">'+esc(tr('allModules'))+'</option>'+modules.map(function(module){return '<option value="'+esc(module)+'">'+esc(module)+'</option>'}).join('');
+      var doctors=[...new Set(records.map(function(record){return record.doctor}).filter(Boolean))].sort(function(a,b){return a.localeCompare(b)});
+      $('doctorFilter').innerHTML='<option value="">'+esc(tr('allDoctors'))+'</option>'+doctors.map(function(doctor){return '<option value="'+esc(doctor)+'">Dr '+esc(doctor)+'</option>'}).join('');
+      ['year','module','type','owner','doctor','cohort','flag','status'].forEach(function(key){var input=$(key+'Filter');if(input)input.value=state[key]||''});
+    }
+    function render(){
+      updateLanguage();populateFilters();renderQuick();renderFolderTree();renderTree();renderResults();if(!state.selected){renderDetails(null);renderViewerEmpty()}setView(state.view);
+    }
+    $('search').oninput=function(){state.query=this.value;if(state.view==='messages')renderMessages();else renderResults()};
+    $('yearFilter').onchange=function(){state.year=this.value;renderResults();if(state.view==='calendar')renderCalendar()};
+    $('moduleFilter').onchange=function(){state.module=this.value;renderResults()};
+    $('typeFilter').onchange=function(){state.type=this.value;renderResults()};
+    $('ownerFilter').onchange=function(){state.owner=this.value;renderResults()};
+    $('doctorFilter').onchange=function(){state.doctor=this.value;renderResults()};
+    $('cohortFilter').onchange=function(){state.cohort=this.value;renderResults()};
+    $('flagFilter').onchange=function(){state.flag=this.value;renderResults()};
+    $('statusFilter').onchange=function(){state.status=this.value;renderResults()};
+    $('lang').onclick=function(){state.lang=state.lang==='en'?'ar':'en';render()};
+    $('libraryTab').onclick=function(){setView('library')};$('messagesTab').onclick=function(){setView('messages')};$('calendarTab').onclick=function(){setView('calendar')};
+    $('prevMonth').onclick=function(){state.month=new Date(state.month.getFullYear(),state.month.getMonth()-1,1);renderCalendar()};
+    $('nextMonth').onclick=function(){state.month=new Date(state.month.getFullYear(),state.month.getMonth()+1,1);renderCalendar()};
+    $('prevFile').onclick=function(){var index=state.visible.findIndex(function(r){return r.id===state.selected});if(index>0)selectRecord(state.visible[index-1])};
+    $('nextFile').onclick=function(){var index=state.visible.findIndex(function(r){return r.id===state.selected});if(index>=0&&index<state.visible.length-1)selectRecord(state.visible[index+1])};
+    $('pageNumber').onchange=function(){var record=records.find(function(item){return item.id===state.selected});if(!record)return;var page=Math.max(1,Number(this.value)||1);saved.progress=saved.progress||{};saved.progress[stableId(record)]={page:page,updatedAt:new Date().toISOString()};persist();renderViewer(record);renderQuick()};
+    $('favoriteFile').onclick=function(){var record=records.find(function(item){return item.id===state.selected});if(record)toggleFavorite(record)};
+    $('organizeFile').onclick=function(){var record=records.find(function(item){return item.id===state.selected});if(record)openFileFolders(record)};
+    $('newFolder').onclick=function(){var parentId=state.quick&&state.quick.indexOf('folder:')===0?state.quick.slice(7):null;openFolderModal(null,parentId)};
+    $('saveFolder').onclick=saveFolder;$('deleteFolder').onclick=deleteFolder;$('saveFileFolders').onclick=saveFileFolders;
+    document.querySelectorAll('[data-close-modal]').forEach(function(button){button.onclick=closeFolderModal});
+    document.querySelectorAll('[data-close-file-folders]').forEach(function(button){button.onclick=function(){closeFileFolders()}});
+    $('createFolderFromFile').onclick=function(){state.reopenFileFolders=true;closeFileFolders(false);openFolderModal(null,null)};
+    $('folderModal').onclick=function(event){if(event.target===$('folderModal'))closeFolderModal()};
+    $('fileFoldersModal').onclick=function(event){if(event.target===$('fileFoldersModal'))closeFileFolders()};
+    $('openGuide').onclick=function(){location.href='_Library%20Guide%20%26%20Catalogs/README.md'};
+    $('foldersToggle').onclick=function(){document.querySelector('.sidebar').classList.toggle('mobile-open')};
+    $('detailsToggle').onclick=function(){var details=$('details');details.style.display=details.style.display==='block'?'none':'block'};
+    document.addEventListener('keydown',function(event){if((event.metaKey||event.ctrlKey)&&event.key.toLowerCase()==='k'){event.preventDefault();$('search').focus()}if(event.key==='Escape'){if(!$('fileFoldersModal').hidden)closeFileFolders();else if(!$('folderModal').hidden)closeFolderModal();else if(document.querySelector('.sidebar').classList.contains('mobile-open'))document.querySelector('.sidebar').classList.remove('mobile-open');else if(state.view==='messages'&&state.messageHistory.length)backMessage();else $('search').blur()}});
+    render();
+  })();
+  </script>
+</body>
+</html>

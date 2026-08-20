@@ -60,6 +60,7 @@ const ARTICLE_MAP = {
   publishedSections: 'published_sections', publishedSummary: 'published_summary',
   holdThese: 'hold_these', loseTheMark: 'lose_the_mark', questionIds: 'question_ids', resourceIds: 'resource_ids',
   annotations: 'annotations', universityIds: 'universities', yearIds: 'years', moduleIds: 'module',
+  moduleSubjectPaths: 'module_subject',
   primaryNodeId: 'primary_node_id', secondaryNodeIds: 'secondary_node_ids', subtopicId: 'subtopic',
   microtopicId: 'microtopic', nanotopicId: 'nanotopic', relatedConceptIds: 'related_concepts',
   universityNotes: 'university_notes', fieldNotes: 'field_notes', reviewer: 'reviewer',
@@ -84,7 +85,8 @@ const QUESTION_TAGS_MAP = {
   intendedDifficulty: 'difficulty', clinicalReasoningLevel: 'reasoning_level',
   inferredDifficulty: 'inferred_difficulty', examRelevance: 'exam_relevance',
   contextualConceptIds: 'contextual_concept_ids', questionType: 'question_type', mainConceptIds: 'main_concept',
-  moduleIds: 'module', clinicalRelevance: 'clinical_relevance', academicRelevance: 'academic_relevance',
+  moduleIds: 'module', moduleSubjectPaths: 'module_subject',
+  clinicalRelevance: 'clinical_relevance', academicRelevance: 'academic_relevance',
   cognitiveEffortScore: 'cognitive_effort_score', examWeightByYear: 'exam_weight_by_year',
   questionOnlyFor: 'question_only_for',
 }
@@ -124,7 +126,7 @@ const ANNOTATION_MAP = { id: 'annotations', quote: 'annotations', conceptId: 'an
  */
 const PRACTICAL_COMMON_MAP = {
   references: 'references', conceptTags: 'main_concept', mediaRequests: 'media_needed',
-  learningObjective: 'learning_objective',
+  learningObjective: 'learning_objective', moduleSubjectPaths: 'module_subject',
 }
 
 const OSCE_MAP = {
@@ -174,7 +176,8 @@ const MEDIA_REQUEST_MAP = {
 const RESOURCE_MAP = {
   universityIds: 'universities', yearIds: 'years', institution: 'source', collectionId: null,
   storageKey: null, sha256: null, rights: null, processingStatus: null, reviewer: null, finalPublisher: null,
-  chapters: 'chapter', moduleIds: 'module_ids', includedConceptIds: 'included_concepts',
+  chapters: 'chapter', moduleIds: 'module_ids', moduleSubjectPaths: 'module_subject',
+  includedConceptIds: 'included_concepts',
   includedArticleIds: 'included_articles', conceptLocations: 'concept_locations',
 }
 

@@ -8,6 +8,8 @@ import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
+import { REDACTED_STATE_KEYS } from './studentLedger.js'
+import { createShare, deleteShare, listShares, readShare, updateShare } from './shares.js'
 import { apiAuthGate, heldTabs, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
 import { hasConsoleAccess } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
@@ -15,6 +17,7 @@ import { authoriseChanges, diffDocument, mergeDocument } from './stateMerge.js'
 import {
   cancelSubscription,
   entitlementOf,
+  getDiscoverable,
   getUser,
   getUserActivity,
   getUserByIdentity,
@@ -25,8 +28,10 @@ import {
   readReason,
   recordAction,
   requestPasswordReset,
+  saveOwnEnrolment,
   setAccessStatus,
   setContentScope,
+  setDiscoverable,
   setRole,
 } from './accounts.js'
 import { withinRateLimit } from './identity.js'
@@ -44,8 +49,21 @@ import {
 } from './assistant.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
-  invalidateStudyRoomSnapshot,
 } from './studyRooms.js'
+import {
+  createParty, joinByCode, setVisibility, myParties, openParties, partyFor, leaveParty,
+  createSession, sessionsFor, sessionFor, answerItem, closeSession,
+} from './parties.js'
+import {
+  createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
+} from './challenges.js'
+import { invalidatePublishedQuestions } from './publishedQuestions.js'
+import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests, directorySearch } from './friends.js'
+import { mintInvite, redeemInvite } from './friendInvites.js'
+import {
+  linkAccount as linkFacebookAccount, unlinkAccount as unlinkFacebookAccount,
+  deletionCallback as facebookDeletionCallback, parseSignedRequest as parseFacebookSignedRequest,
+} from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
 
@@ -62,16 +80,16 @@ let medicalResourceLoad = null
 /**
  * Drop any server-side cache a state write has just made stale.
  *
- * Two caches now read from `app_state` — the medical-resource snapshot and the
- * published-question set behind study rooms — so invalidation is one call
- * rather than a growing list at every write site.
+ * Two caches now read from `app_state` — the medical-resource snapshot, and
+ * the published-question set shared by study rooms and challenges — so
+ * invalidation is one call rather than a growing list at every write site.
  */
 function invalidateSnapshots(key) {
   if (key === MEDICAL_EVIDENCE_STATE_KEY) {
     medicalResourceSnapshot = null
     medicalResourceLoad = null
   }
-  invalidateStudyRoomSnapshot(key)
+  invalidatePublishedQuestions(key)
 }
 const app = express()
 /**
@@ -204,6 +222,21 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
 }))
 
 /**
+ * Where this account studies, set by the student.
+ *
+ * Onboarding writes here, and the account page writes here when a student
+ * corrects their year. It is the only writer of that fact, and `/api/me` is the
+ * only reader — so a second browser cannot hold a different answer. This
+ * replaced a browser-local document that each device kept its own copy of,
+ * which is how one account came to show two different enrolled years.
+ */
+app.put('/api/me/enrolment', requireAuthenticated, wrap(async (req, res) => {
+  const result = await saveOwnEnrolment(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(result.error === 'no_identity' ? 404 : 400).json({ error: result.error })
+  res.json({ ok: true, profile: result.profile })
+}))
+
+/**
  * Everything this account has stored, as the account's own data.
  *
  * The Account page has always offered a download. It exported the settings blob
@@ -236,6 +269,25 @@ app.get('/api/me/export', requireAuthenticated, wrap(async (req, res) => {
     documents,
     uploads: uploads.map((row) => ({ ...row, downloadPath: `/api/my-documents/${row.id}/file` })),
   })
+}))
+
+/**
+ * Whether the caller shows up in their own year's directory.
+ *
+ * The column defaults to findable, because the cohort is already closed and
+ * being found by your own classmates is the point of the directory — but
+ * default-on only stays honest if a student can see and change it, which is
+ * what these two routes are for. The actor is always the verified session;
+ * the value being written is the only thing that comes from the body.
+ */
+app.get('/api/account/discoverable', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ discoverable: await getDiscoverable(req.identity.id) })
+}))
+
+app.post('/api/account/discoverable', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setDiscoverable(req.identity.id, Boolean(req.body?.discoverable))
+  if (result.error === 'not_found') return res.status(404).json({ error: 'no account to update' })
+  res.json(result)
 }))
 
 /* ── A student's own documents ───────────────────────────────────────────── */
@@ -301,10 +353,39 @@ function documentTitle(raw) {
   return title || 'Untitled document'
 }
 
+/**
+ * What a student is uploading, decided here rather than taken on trust.
+ *
+ * Only two kinds exist. `pdf` is what the in-app reader can open and is
+ * therefore what the annotation surfaces list. `file` is everything else — a
+ * slide deck, an image, a spreadsheet a student wants pinned to a whiteboard —
+ * and is only ever handed back as a download.
+ *
+ * The extension is derived from the name and reduced to letters and digits: it
+ * decides a path on disk, so it is a value this server computes, never one the
+ * client supplies.
+ */
+const PDF_MIME = 'application/pdf'
+
+function describeUpload(body) {
+  const fileName = String(body?.fileName ?? '').trim().replace(/[\r\n\t/\\]/g, ' ').slice(0, 200)
+  const declaredMime = String(body?.mimeType ?? '').trim().slice(0, 120)
+  const extension = (fileName.match(/\.([A-Za-z0-9]{1,8})$/)?.[1] ?? '').toLowerCase()
+  const isPdf = declaredMime === PDF_MIME || extension === 'pdf' || (!declaredMime && !extension)
+  return {
+    kind: isPdf ? 'pdf' : 'file',
+    extension: isPdf ? 'pdf' : (extension || 'bin'),
+    fileName: fileName || null,
+    // A type the browser will act on is not something to accept from a client.
+    // Anything that is not a PDF is stored and returned as opaque bytes.
+    mimeType: isPdf ? PDF_MIME : 'application/octet-stream',
+  }
+}
+
 async function myDocument(userId, id) {
   const [rows] = await pool.query(
-    `SELECT id, title, storage_key AS storageKey, media_type AS mediaType, size_bytes AS sizeBytes,
-       sha256, page_count AS pageCount, created_at AS createdAt
+    `SELECT id, title, storage_key AS storageKey, media_type AS mediaType, file_name AS fileName,
+       mime_type AS mimeType, size_bytes AS sizeBytes, sha256, page_count AS pageCount, created_at AS createdAt
      FROM user_documents WHERE id = ? AND user_id = ? AND deleted_at IS NULL`,
     [id, userId],
   )
@@ -313,8 +394,8 @@ async function myDocument(userId, id) {
 
 app.get('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
   const [rows] = await pool.query(
-    `SELECT id, title, media_type AS mediaType, size_bytes AS sizeBytes, page_count AS pageCount,
-       created_at AS createdAt
+    `SELECT id, title, media_type AS mediaType, file_name AS fileName, mime_type AS mimeType,
+       size_bytes AS sizeBytes, page_count AS pageCount, created_at AS createdAt
      FROM user_documents WHERE user_id = ? AND deleted_at IS NULL ORDER BY created_at DESC`,
     [req.identity.id],
   )
@@ -324,13 +405,14 @@ app.get('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
 
 app.post('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
   const id = randomUUID()
+  const upload = describeUpload(req.body)
   // Generated here, never accepted: a path is not something a client gets to say.
-  const storageKey = join('my-documents', req.identity.id.replace(/[^a-zA-Z0-9_-]/g, '_'), `${id}.pdf`)
+  const storageKey = join('my-documents', req.identity.id.replace(/[^a-zA-Z0-9_-]/g, '_'), `${id}.${upload.extension}`)
   await pool.query(
-    'INSERT INTO user_documents (id, user_id, title, storage_key, media_type) VALUES (?, ?, ?, ?, ?)',
-    [id, req.identity.id, documentTitle(req.body?.title), storageKey, 'pdf'],
+    'INSERT INTO user_documents (id, user_id, title, storage_key, media_type, file_name, mime_type) VALUES (?, ?, ?, ?, ?, ?, ?)',
+    [id, req.identity.id, documentTitle(req.body?.title), storageKey, upload.kind, upload.fileName, upload.mimeType],
   )
-  res.json({ id, uploadId: randomUUID().replace(/-/g, ''), chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES })
+  res.json({ id, uploadId: randomUUID().replace(/-/g, ''), chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES, mediaType: upload.kind })
 }))
 
 app.put('/api/my-documents/:id/chunks/:uploadId/:index', requireAuthenticated, wrap(async (req, res) => {
@@ -378,7 +460,8 @@ app.post('/api/my-documents/:id/chunks/:uploadId/complete', requireAuthenticated
       declaredSize,
       maxBytes: MY_DOCUMENT_MAX_BYTES,
       chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES,
-      requirePdf: true,
+      // Only a document that claims to be a PDF is held to being one.
+      requirePdf: document.mediaType === 'pdf',
     })
     await pool.query(
       'UPDATE user_documents SET size_bytes = ?, sha256 = ?, page_count = ? WHERE id = ? AND user_id = ?',
@@ -405,8 +488,12 @@ app.get('/api/my-documents/:id/file', requireAuthenticated, wrap(async (req, res
   if (!document) return res.status(404).json({ error: 'document not found' })
   const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
   if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'document file is still uploading' })
-  res.setHeader('Content-Type', 'application/pdf')
-  res.setHeader('Content-Disposition', `inline; filename="${basename(document.title).replace(/["\r\n]/g, '')}.pdf"`)
+  const isPdf = document.mediaType === 'pdf'
+  const name = basename(document.fileName || `${document.title}.${isPdf ? 'pdf' : 'bin'}`).replace(/["\r\n]/g, '')
+  res.setHeader('Content-Type', isPdf ? 'application/pdf' : 'application/octet-stream')
+  // A PDF is opened in the reader. Anything else is handed over as a download
+  // rather than rendered on this origin, whatever it claims to be.
+  res.setHeader('Content-Disposition', `${isPdf ? 'inline' : 'attachment'}; filename="${name}"`)
   res.setHeader('X-Content-Type-Options', 'nosniff')
   res.sendFile(fullPath)
 }))
@@ -420,6 +507,46 @@ app.delete('/api/my-documents/:id', requireAuthenticated, wrap(async (req, res) 
   )
   const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
   if (fullPath) await unlink(fullPath).catch(() => {})
+  res.json({ ok: true })
+}))
+
+/* ── Shared notes and whiteboards ────────────────────────────────────────── */
+
+/**
+ * A note or a board, published behind a link.
+ *
+ * The permission rules are in `shares.js`, deliberately away from the routing,
+ * because they are the only thing between "shared with my study group" and
+ * "on the open web". Read is the one route that answers without a session —
+ * see the note in `apiAuthGate` — and it still refuses a private share to
+ * anybody but its owner.
+ */
+app.post('/api/shares', requireAuthenticated, wrap(async (req, res) => {
+  const result = await createShare(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(400).json({ error: result.error })
+  res.json(result)
+}))
+
+app.get('/api/shares', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ items: await listShares(req.identity.id) })
+}))
+
+app.get('/api/shares/:id', wrap(async (req, res) => {
+  const result = await readShare(req.params.id, req.identity?.id ?? null)
+  if (result.error) return res.status(404).json({ error: result.error })
+  res.json(result.share)
+}))
+
+app.put('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
+  const result = await updateShare(req.params.id, req.identity.id, req.body ?? {})
+  if (result.error === 'not_found') return res.status(404).json({ error: result.error })
+  if (result.error) return res.status(400).json({ error: result.error })
+  res.json(result.share)
+}))
+
+app.delete('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
+  const result = await deleteShare(req.params.id, req.identity.id)
+  if (result.error) return res.status(404).json({ error: result.error })
   res.json({ ok: true })
 }))
 
@@ -473,6 +600,185 @@ app.post('/api/study-rooms/:id/answers', requireAuthenticated, wrap(async (req, 
 
 app.post('/api/study-rooms/:id/finish', requireAuthenticated, wrap(async (req, res) => {
   res.json(await finishRoom(req.identity.id, req.params.id))
+}))
+
+/* ── Study parties ───────────────────────────────────────────────────────── */
+
+app.post('/api/parties', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createParty(req.identity.id, req.body ?? {}))
+}))
+
+app.post('/api/parties/join', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await joinByCode(req.identity.id, req.body?.code))
+}))
+
+app.get('/api/parties/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ parties: await myParties(req.identity.id) })
+}))
+
+app.get('/api/parties/open', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ parties: await openParties(req.identity.id) })
+}))
+
+app.get('/api/parties/:id', requireAuthenticated, wrap(async (req, res) => {
+  const party = await partyFor(req.identity.id, req.params.id)
+  if (!party) return res.status(404).json({ error: 'party not found' })
+  res.json({ party })
+}))
+
+app.post('/api/parties/:id/visibility', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await setVisibility(req.identity.id, req.params.id, req.body?.visibility))
+}))
+
+app.post('/api/parties/:id/leave', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await leaveParty(req.identity.id, req.params.id))
+}))
+
+/* ── Study party sessions ────────────────────────────────────────────────── */
+
+app.post('/api/parties/:id/sessions', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createSession(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.get('/api/parties/:id/sessions', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ sessions: await sessionsFor(req.identity.id, req.params.id) })
+}))
+
+app.get('/api/party-sessions/:sessionId', requireAuthenticated, wrap(async (req, res) => {
+  const session = await sessionFor(req.identity.id, req.params.sessionId)
+  // A non-member gets the same answer as a non-existent session: whether a
+  // session exists is not something a stranger should be able to probe.
+  if (!session) return res.status(404).json({ error: 'session not found' })
+  res.json({ session })
+}))
+
+app.post('/api/party-sessions/:sessionId/answers', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await answerItem(req.identity.id, req.params.sessionId, req.body ?? {}))
+}))
+
+app.post('/api/party-sessions/:sessionId/close', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await closeSession(req.identity.id, req.params.sessionId))
+}))
+
+/* ── Challenges ──────────────────────────────────────────────────────────── */
+
+app.post('/api/challenges', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createChallenge(req.identity.id, req.body ?? {}))
+}))
+
+app.get('/api/challenges/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ challenges: await myChallenges(req.identity.id) })
+}))
+
+app.get('/api/challenges/:id', requireAuthenticated, wrap(async (req, res) => {
+  const challenge = await challengeFor(req.identity.id, req.params.id)
+  // A non-participant gets the same answer as a non-existent challenge: whether
+  // a challenge exists between two other people is not theirs to probe.
+  if (!challenge) return res.status(404).json({ error: 'challenge not found' })
+  res.json({ challenge })
+}))
+
+app.post('/api/challenges/:id/respond', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await respondToChallenge(req.identity.id, req.params.id, Boolean(req.body?.accept)))
+}))
+
+app.post('/api/challenges/:id/answers', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await submitChallengeAnswer(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.post('/api/challenges/:id/finish', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await finishChallenge(req.identity.id, req.params.id))
+}))
+
+/* ── Friends ─────────────────────────────────────────────────────────────── */
+
+app.get('/api/friends', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ friends: await myFriends(req.identity.id), requests: await myRequests(req.identity.id) })
+}))
+
+app.get('/api/friends/directory', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ people: await directorySearch(req.identity.id, req.query?.q) })
+}))
+
+app.post('/api/friends/request', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await sendRequest(req.identity.id, req.body?.userId))
+}))
+
+app.post('/api/friends/respond', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await respondToRequest(req.identity.id, req.body?.userId, Boolean(req.body?.accept)))
+}))
+
+app.post('/api/friends/remove', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await removeFriend(req.identity.id, req.body?.userId))
+}))
+
+app.post('/api/friends/invite', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await mintInvite(req.identity.id))
+}))
+
+app.post('/api/friends/invite/redeem', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await redeemInvite(req.identity.id, req.body?.token))
+}))
+
+/* ── Facebook link ────────────────────────────────────────────────────────
+   Dark until Meta approves `user_friends` for this app: nothing here starts
+   an OAuth handshake, so these routes exist for the day the flag flips on. */
+
+/**
+ * The same off switch the front end has.
+ *
+ * `VITE_FEATURE_FACEBOOK_FRIENDS` only ever hid the button, so linking still
+ * shipped live as an API — "it ships off" was true of the screen and not of
+ * the server. Off is the default: a flag nobody has set means the feature is
+ * not on, never that the check was forgotten.
+ */
+function facebookFriendsEnabled(_req, res, next) {
+  if (process.env.FEATURE_FACEBOOK_FRIENDS !== 'true') {
+    // A refusal with a reason, not a status code: every other refusal in this
+    // file answers 200 with `{ ok, reason }`, and the client's `apiSend` throws
+    // away the body of anything else — so a 4xx here would reach a student as
+    // "something went wrong" instead of a sentence.
+    return res.json({ ok: false, reason: 'facebook_disabled' })
+  }
+  return next()
+}
+
+app.post('/api/friends/facebook/link', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
+  res.json(await linkFacebookAccount(req.identity.id, req.body?.fbUserId))
+}))
+
+app.post('/api/friends/facebook/unlink', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
+  res.json(await unlinkFacebookAccount(req.identity.id))
+}))
+
+/**
+ * Meta's data-deletion callback, required for App Review.
+ *
+ * Public because Meta's own servers call it — there is no student session to
+ * require, and requiring one meant this route answered 401 to every deletion
+ * request, so the requirement it exists for did not work at all. What
+ * authenticates it instead is the `signed_request` Meta signs with the app
+ * secret: no secret configured, or a signature that does not verify, and the
+ * request is refused rather than processed. It is listed in `apiAuthGate`'s
+ * allowlist for that reason and no other.
+ *
+ * Left ungated by `FEATURE_FACEBOOK_FRIENDS` deliberately: anybody who ever
+ * linked an account must be able to have it deleted, including after linking
+ * is switched back off.
+ *
+ * Meta posts this form-encoded, so the parser is attached here rather than
+ * globally — no other route takes a form body.
+ */
+app.post('/api/facebook/deletion-callback', express.urlencoded({ extended: false }), wrap(async (req, res) => {
+  const appSecret = process.env.FACEBOOK_APP_SECRET
+  if (!appSecret) return res.status(503).json({ error: 'facebook_not_configured' })
+
+  const payload = parseFacebookSignedRequest(req.body?.signed_request ?? req.query?.signed_request, appSecret)
+  if (!payload?.user_id) return res.status(401).json({ error: 'invalid_signed_request' })
+
+  const fbUserId = String(payload.user_id)
+  await facebookDeletionCallback(fbUserId)
+  res.json({ url: `${PUBLIC_ORIGIN}/privacy`, confirmation_code: fbUserId })
 }))
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */
@@ -551,6 +857,21 @@ const STUDENT_READABLE_STATE = new Set([
   'synapse-notification-campaigns-v1',
   'synapse-vouchers-v1',
   'synapse-system-colors-v1',
+  // The current plan catalogue. Billing and onboarding both price against it,
+  // and without it a student was offered the seeded plans instead of the ones
+  // actually being sold.
+  'synapse-plan-catalog-v1',
+  // The student-ID discount offer, shown on Billing to the students it is for.
+  'synapse-student-id-discount-v1',
+  // The upload allowance, so the demo build can show the limit an admin set.
+  'synapse-storage-limits-v1',
+  // Adaptive Study runs entirely on these three, on the student's own screen.
+  // Admin-written and student-read: a student must not be able to edit the
+  // thresholds they are judged by, but a page that cannot read them silently
+  // falls back to defaults and reports figures nobody configured.
+  'synapse-adaptive-config-v1',
+  'synapse-adaptive-blueprints-v1',
+  'synapse-adaptive-heldout-v1',
 ])
 
 /**
@@ -593,8 +914,11 @@ app.get('/api/state', requireSuperAdmin, wrap(async (_req, res) => {
 }))
 
 app.get('/api/state/:key', wrap(async (req, res) => {
+  // Console access, not the single role 'admin': an editor or a reviewer
+  // authors this content and must read it whole. Redaction is for students.
+  const authoring = hasConsoleAccess(req.identity?.role)
   if (!STUDENT_READABLE_STATE.has(req.params.key)) {
-    if (!hasConsoleAccess(req.identity?.role)) return res.status(403).json({ error: 'console access required' })
+    if (!authoring) return res.status(403).json({ error: 'console access required' })
     if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
   }
   // `updatedAt` lets the client decide whether its crash-recovery copy is newer
@@ -612,8 +936,15 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   )
   if (!rows.length) return res.json({ value: null, updatedAt: null, version: null })
   const { updatedAt, version } = rows[0]
-  try { res.json({ value: JSON.parse(rows[0].v), updatedAt, version }) }
-  catch { res.json({ value: null, updatedAt, version }) }
+  let value
+  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt, version }) }
+  // Some readable documents are readable only in part. The content ledger holds
+  // every authored item in every state, including drafts, the author's private
+  // notes and the provenance of borrowed papers; a student gets its published
+  // projection instead. That happens here rather than in the browser, because a
+  // field removed after delivery has already been delivered.
+  const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(req.params.key)
+  res.json({ value: redact ? redact(value) : value, updatedAt, version })
 }))
 
 /**
@@ -1500,8 +1831,44 @@ app.get('/api/admin/assistant/models', requireTab('assistant'), wrap(async (req,
   return res.json(result)
 }))
 
+/** Locales built as their own entry document — one per extra `input` in
+ *  `vite.config.ts`. Adding one there means adding it here. */
+const LOCALE_ENTRY_PATHS = ['en', 'ar']
+
 const PUBLIC_DIR = process.env.PUBLIC_DIR || join(__dirname, '..', 'public')
 if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
+  /* The localized entry documents, matched before anything else touches them.
+   *
+   * `/en` and `/ar` are real HTML files, built as separate Vite inputs, because
+   * a link crawler runs no JavaScript: WhatsApp, iMessage, Slack and Google see
+   * only what is in the document they are served. Their Open Graph card, their
+   * `lang`/`dir`, and their canonical URL therefore have to be in the file, and
+   * cannot be set by the SPA after it mounts.
+   *
+   * They must be matched here, above the static middleware, because that
+   * middleware would otherwise see `public/ar` as a directory and 301 `/ar` to
+   * `/ar/` — and then, with directory indexes off, decline to serve it and drop
+   * it into the catch-all below, which sends the English root document. That is
+   * what shipped: every crawler asking for the Arabic page was handed the
+   * English one, with the wrong card and a canonical pointing at `/`.
+   *
+   * Never cached, exactly like the root document: these are the files a deploy
+   * needs to be able to change.
+   *
+   * (`nginx.conf` used to carry this as `location = /en` blocks. It was never
+   * copied into the image by the Dockerfile — the production container is this
+   * server, not nginx — so it never ran. It has been deleted rather than left
+   * to describe routing that does not happen.)
+   */
+  for (const locale of LOCALE_ENTRY_PATHS) {
+    const document = join(PUBLIC_DIR, locale, 'index.html')
+    if (!existsSync(document)) continue
+    app.get([`/${locale}`, `/${locale}/`], (_req, res) => {
+      res.setHeader('Cache-Control', 'no-cache')
+      res.sendFile(document)
+    })
+  }
+
   app.use('/assets', express.static(join(PUBLIC_DIR, 'assets'), { index: false, maxAge: '1y', immutable: true }))
   app.use(express.static(PUBLIC_DIR, {
     index: false,

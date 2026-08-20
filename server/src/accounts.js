@@ -221,7 +221,7 @@ export async function getUser(id) {
  * created from the identity rather than refusing the action. It carries the
  * Supabase user id as its own id, which keeps the two permanently aligned.
  */
-async function ensureStudentRow(conn, id) {
+export async function ensureStudentRow(conn, id) {
   const [existing] = await conn.query('SELECT id, user_id FROM students WHERE id = ? FOR UPDATE', [id])
   if (existing.length) return existing[0]
 
@@ -234,6 +234,46 @@ async function ensureStudentRow(conn, id) {
     [id, identity[0].email ?? null, identity[0].email ?? null, id],
   )
   return { id, user_id: id }
+}
+
+/**
+ * Whether classmates can find this student in the directory, as the student's
+ * own session sees it.
+ *
+ * Read directly by `user_id` rather than through `ensureStudentRow`, so
+ * checking the setting is never what creates the roster row — a student who
+ * has changed nothing still gets an honest answer. An absent row and a row
+ * nobody has touched mean the same thing here, because the column's own
+ * default is `1`: both read as discoverable.
+ */
+export async function getDiscoverable(userId) {
+  const [rows] = await pool.query('SELECT discoverable FROM students WHERE user_id = ? LIMIT 1', [userId])
+  return rows.length ? Boolean(rows[0].discoverable) : true
+}
+
+/**
+ * Write the choice for the caller's own row.
+ *
+ * Writing is where the row has to exist, so this is the one place that calls
+ * `ensureStudentRow` on behalf of a student rather than an admin — with the
+ * caller's own verified id, which is exactly how that helper is keyed
+ * everywhere else it is used.
+ */
+export async function setDiscoverable(userId, value) {
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, userId)
+    if (!student) { await conn.rollback(); return { error: 'not_found' } }
+    await conn.query('UPDATE students SET discoverable = ? WHERE user_id = ?', [value ? 1 : 0, userId])
+    await conn.commit()
+    return { ok: true, discoverable: Boolean(value) }
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
 }
 
 export async function recordAction(conn, { studentId, userId, action, detail, reason, actorId }) {
@@ -633,4 +673,112 @@ export async function identifierTaken({ email, phone }) {
     email: Boolean(cleanEmail && Number(rows?.[0]?.emailTaken ?? 0) > 0),
     phone: Boolean(cleanPhone && Number(rows?.[0]?.phoneTaken ?? 0) > 0),
   }
+}
+
+/* ── The student's own enrolment ─────────────────────────────────────────── */
+
+/** Full access for a new account, for this many days, however they arrive. */
+export const TRIAL_DAYS = 3
+
+function trimmed(value, max) {
+  const text = String(value ?? '').trim()
+  return text ? text.slice(0, max) : null
+}
+
+/**
+ * Where this account studies, written where every device can read it.
+ *
+ * This is the single source of truth the app was missing. The answers to
+ * onboarding used to live in a browser document, so two browsers signed into
+ * one account could — and did — disagree about which year the student was in.
+ * A row in `students`, keyed to the Supabase user id, cannot: the server is the
+ * only writer, ownership is a `WHERE user_id = ?`, and `/api/me` reads it back
+ * for everybody.
+ *
+ * The name, phone and nationality collected at sign-up live only in Supabase
+ * user metadata until this runs, which is also why phone uniqueness had nothing
+ * to check against. They are carried here on the first enrolment. A phone that
+ * belongs to somebody else is dropped rather than refused: it is not worth
+ * blocking a student out of their own account over, and the number is not a
+ * credential.
+ */
+export async function saveOwnEnrolment(userId, input) {
+  const universityId = trimmed(input?.universityId, 64)
+  const year = trimmed(input?.year, 32)
+  if (!universityId || !year) return { error: 'university_and_year_required' }
+  const group = trimmed(input?.group, 120)
+  const name = trimmed(input?.name, 255)
+  const nationality = trimmed(input?.nationality, 64)
+  const phone = normalisePhone(input?.phone)
+  const plan = trimmed(input?.plan, 64)
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, userId)
+    if (!student) { await conn.rollback(); return { error: 'no_identity' } }
+
+    // Only if it is free. The UNIQUE index would otherwise abort the whole
+    // transaction and lose the enrolment along with it.
+    let storedPhone = null
+    if (phone) {
+      const [held] = await conn.query('SELECT id FROM students WHERE phone = ? AND id <> ? LIMIT 1', [phone, student.id])
+      if (!held.length) storedPhone = phone
+    }
+
+    /**
+     * A roster row created from an identity alone has no name to put in it, so
+     * `ensureStudentRow` fills the column with the email address. That is a
+     * placeholder, not a name — and `COALESCE(name, ?)` treated it as one, so
+     * the real name carried from sign-up was discarded and every student was
+     * greeted by their own email address.
+     *
+     * A stored name that is anything other than the email was put there
+     * deliberately, by an administrator, and is never overwritten from here.
+     */
+    const [[stored]] = await conn.query('SELECT name, email FROM students WHERE id = ?', [student.id])
+    const placeholder = !stored?.name || stored.name === stored.email
+    const finalName = placeholder ? (name ?? stored?.name ?? null) : stored.name
+
+    await conn.query(
+      `UPDATE students
+          SET university_id = ?,
+              year = ?,
+              study_group = ?,
+              name = ?,
+              nationality = COALESCE(nationality, ?),
+              phone = COALESCE(phone, ?),
+              status = COALESCE(status, 'Active'),
+              joined = COALESCE(joined, CURDATE())
+        WHERE id = ?`,
+      [universityId, year, group, finalName, nationality, storedPhone, student.id],
+    )
+
+    // The trial is granted once, by the server, so it starts when the account
+    // was actually enrolled and expires at the same moment on every device.
+    // An account that already has a subscription — a paid one, or a trial from
+    // a previous sign-in — keeps it.
+    const [current] = await conn.query(
+      `SELECT id FROM subscriptions WHERE student_id = ? AND status <> 'cancelled' LIMIT 1`,
+      [student.id],
+    )
+    if (!current.length) {
+      const now = new Date()
+      await conn.query(
+        `INSERT INTO subscriptions (id, student_id, plan, status, started_at, expires_at, source, granted_by, note)
+         VALUES (?, ?, ?, 'trialing', ?, ?, 'trial', ?, ?)`,
+        [randomUUID(), student.id, plan ?? 'Free', now, addDays(now, TRIAL_DAYS), userId, `${TRIAL_DAYS}-day trial on enrolment`],
+      )
+      if (plan) await conn.query('UPDATE students SET plan = ? WHERE id = ?', [plan, student.id])
+    }
+
+    await conn.commit()
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+
+  return { ok: true, profile: await getUserByIdentity(userId) }
 }

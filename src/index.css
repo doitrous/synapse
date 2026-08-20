@@ -436,6 +436,23 @@
 @utility animate-slide-x {
   animation: cortex-slide-x 0.24s var(--ease-out-quint) backwards;
 }
+
+/* The frame only becomes a circle once the lens fills it — the last quarter of
+   the push-in. Rounding it from the start would put a porthole around the whole
+   instrument, which is not what you are looking through yet.
+
+   The frames themselves are stepped from JavaScript rather than by `steps()`:
+   a hundred and twenty of them live on a grid, and a CSS step function can walk
+   a single row but not two axes. Driving them by hand also means the sequence
+   is timed against a real clock, so it plays at the same speed on a slow
+   machine instead of stretching. */
+@keyframes cortex-microscope-iris {
+  0%, 74% { border-radius: 0.75rem; }
+  100% { border-radius: 50%; }
+}
+@utility animate-microscope-iris {
+  animation: cortex-microscope-iris var(--microscope-focus-ms, 2000ms) linear forwards;
+}
 /* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */
 [dir="rtl"] .animate-slide-x {
   animation-name: cortex-slide-x-rtl;

@@ -15,14 +15,12 @@
     <image xlink:href="__MARK__" x="-360" y="-40" width="700" height="700"/>
   </g>
 
-  <!-- brand lockup, right-aligned so the card mirrors. The logotype itself
-       stays LTR: it is a name, not running text, and the Arabic site sets it
-       the same way. The text is anchored to the right margin and the mark sits
-       to its left, clear of where the glyphs begin. -->
-  <image xlink:href="__MARK__" x="472" y="86" width="84" height="84"/>
-  <text x="1110" y="152" text-anchor="end" font-family="'Jost','Century Gothic','Futura','Avenir Next',Helvetica,Arial,sans-serif" font-size="56" font-weight="500" letter-spacing="2.5">
-    <tspan fill="#1553b3">CONNECT</tspan><tspan fill="#d13a63">CORTEX</tspan>
-  </text>
+  <!-- brand lockup, hung off the right margin so the card mirrors. The mark IS
+       the O in CONNECT — the wordmark and the symbol are one thing and are
+       never separated, in either direction. The logotype itself stays LTR: it
+       is a name, not running text, and the Arabic site sets it the same way.
+       render.mjs composes it and substitutes it here. -->
+  __LOCKUP__
 
   <!-- Arabic headline (personalization motto), right-aligned -->
   <text x="1110" y="360" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Baghdad','Noto Sans Arabic',Arial,sans-serif" font-size="96" font-weight="bold" fill="#161920">مذاكرة مفصلة عليك</text>

@@ -66,6 +66,25 @@ test('a practical is scoped once it is tagged', () => {
   assert.equal(itemWritableBy(scope, 'practical', practical({ yearIds: ['OMS_Y4'] })), false)
 })
 
+test('a module-subject path places content as surely as a module id', () => {
+  // `101 ISK > Anatomy > Upper Limb` is the finer tagging main introduced; the
+  // module is its first segment, and a reviewer for that module owns the item.
+  const byPath = { kind: 'question', questionData: { tags: { moduleSubjectPaths: ['MOD_CVS > Anatomy > Upper Limb'] } } }
+  assert.equal(itemWritableBy(scope, 'question', byPath), true)
+  const elsewhere = { kind: 'article', articleData: { moduleSubjectPaths: ['MOD_RES > Physiology'] } }
+  assert.equal(itemWritableBy(scope, 'article', elsewhere), false)
+  assert.equal(itemWritableBy({ moduleIds: ['MOD_RES'], yearIds: [] }, 'article', elsewhere), true)
+})
+
+test('a kind that cannot yet be placed belongs to no reviewer', () => {
+  // Decks, written answers and histology slides carry no placement at all, so
+  // they stay with the editors until they can say where they belong.
+  for (const kind of ['deck', 'essay', 'histology']) {
+    assert.equal(itemWritableBy(scope, kind, { id: 'x', kind }), false, kind)
+    assert.equal(itemWritableBy(null, kind, { id: 'x', kind }), true, kind)
+  }
+})
+
 test('a change is refused when either side of it is out of scope', () => {
   const mine = question({ moduleIds: ['MOD_CVS'], years: [] })
   const theirs = question({ moduleIds: ['MOD_RES'], years: [] })

@@ -12,6 +12,7 @@ import type { LucideIcon } from 'lucide-react'
 import {
   Gauge, Network, Languages, GraduationCap, Scale, Library, FileQuestion, Compass,
   Stethoscope, Braces, GitFork, Clapperboard, ImagePlus, Flag, Mail, Inbox, BellRing,
+  Layers, PenLine, Microscope,
   UserCog, Users, Banknote, TicketPercent, Bot, LifeBuoy, Settings, ShieldCheck, KeyRound,
 } from 'lucide-react'
 import { rank } from './adminRoles.ts'
@@ -52,6 +53,12 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
   { id: 'adaptive', label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass, group: 'Content',
     stateKeys: ['synapse-adaptive-config-v1', 'synapse-adaptive-blueprints-v1', 'synapse-adaptive-heldout-v1'], apiPrefixes: [] },
   { id: 'practical', label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope, group: 'Content',
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+  { id: 'flashcards', label: 'Flashcards Setup', to: '/admin/flashcards', icon: Layers, group: 'Content',
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+  { id: 'written', label: 'Written Setup', to: '/admin/written', icon: PenLine, group: 'Content',
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+  { id: 'histology', label: 'Histology', to: '/admin/histology', icon: Microscope, group: 'Content',
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
   { id: 'concepts', label: 'Concepts', to: '/admin/concepts', icon: Braces, group: 'Content',
     stateKeys: ['synapse-concept-graph-v2', 'synapse-import-journal-v1'], apiPrefixes: [] },
@@ -101,7 +108,7 @@ export const DEFAULT_ROLE_TABS: Record<string, string[]> = {
     'dashboard', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
   ],
-  reviewer: ['library', 'questions', 'practical', 'concepts', 'resources', 'media'],
+  reviewer: ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'concepts', 'resources', 'media'],
 }
 
 /** The tab ids this role holds. Mirrors `tabsForRole` in server/src/tabs.js. */

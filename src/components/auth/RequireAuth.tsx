@@ -33,6 +33,18 @@ export function RequireAuth({ console: needsConsole, tab, children }: {
     const next = `${location.pathname}${location.search}`
     return <Navigate to={`/login?next=${encodeURIComponent(next)}`} replace />
   }
+  // An address that has not been confirmed is an account that is not finished.
+  // Nothing used to stop one reaching the app, so the verification step read as
+  // an optional detour and a student could arrive at a dashboard without ever
+  // being told an email was waiting for them. On a project that does not
+  // require confirmation this is already true for everybody and never fires.
+  //
+  // Ahead of the console checks below, because an unfinished account has no
+  // business in the console either.
+  if (!identity.emailVerified) {
+    const address = identity.email ? `?email=${encodeURIComponent(identity.email)}` : ''
+    return <Navigate to={`/auth/verify-email${address}`} replace />
+  }
 
   if (needsConsole || tab) {
     if (!hasConsoleAccess(identity.role ?? '')) return <Navigate to="/app" replace />

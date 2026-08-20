@@ -10,9 +10,13 @@ import {
   MEDIA_REQUEST_MEDIA, MEDIA_REQUEST_KINDS, MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES,
 } from './contentControl.ts'
 import { DIFFICULTIES } from './qbank.ts'
+import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
 import { optionalList } from './importSemantics.ts'
+import { parseCardLines } from './decks.ts'
+import { parseKeyPoints, type EssayAuthoringData } from './essay.ts'
+import { OBJECTIVES, type SlideView, type HistologyAuthoringData } from './histology.ts'
 
 export interface ImportFieldDefinition {
   key: string
@@ -53,6 +57,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'question_type', label: 'Question type', help: 'What it tests — e.g. Pathophysiology, Diagnosis, Investigation, Treatment, Mechanism.' },
       { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this question primarily tests. At least one is expected.' },
       { key: 'module', label: 'Module ID(s)', help: 'Every module this question is applicable to, separated by |, ; or new lines.' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'clinical_relevance', label: 'Clinical relevance (0–1)', help: 'How clinically relevant the question is.' },
       { key: 'academic_relevance', label: 'Academic relevance (0–1)', help: 'How academically relevant the question is.' },
       { key: 'cognitive_effort_score', label: 'Cognitive effort score (0–1)', help: 'Fine-grained cognitive effort on a 0–1 scale (finer than the Low/Medium/High band below).' },
@@ -94,6 +99,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'university_notes', label: 'University-only notes', help: 'University-specific callouts, one per line as "OMS: note text". Rendered as a distinct in-article aside.' },
       { key: 'years', label: 'Year IDs', help: 'All years this article is applicable on (e.g. OMS_Y2).' },
       { key: 'module', label: 'Module ID(s)', help: 'Module(s) this article sits under.' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'subtopic', label: 'Subtopic ID', help: 'Subtopic ID (SUB_*).' },
       { key: 'microtopic', label: 'Microtopic ID', help: 'Microtopic ID (MIC_*).' },
       { key: 'template_id', label: 'Article template', help: `Which article template this follows: ${ARTICLE_TEMPLATE_IDS.join(', ')}. Sets the expected section headings.` },
@@ -152,6 +158,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'debrief', label: 'Case debrief', help: 'Summary shown after a clinical case. (Clinical case)' },
       { key: 'lab_subtype', label: 'Lab / Imaging', help: 'Lab or Imaging — for interpretation sets.' },
       { key: 'lab_questions', label: 'Interpretation questions', help: 'Start each with "### Stem", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" ("*= option" is correct) each followed by "Why: …", and "Explanation: …". "Media:" takes an image URL only — the runner renders it as an image, so audio and video show a broken image. (Lab/Imaging interpretation)' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this item primarily teaches.' },
       { key: 'concept_ids', label: 'Concept IDs', help: 'Concepts the item also assesses, separated by |, ; or new lines.' },
       { key: 'contextual_concept_ids', label: 'Contextual concept IDs', help: 'Concepts the scenario needs but does not assess. These receive no mastery evidence.' },
@@ -173,6 +180,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'topics', label: 'Tagged topics', help: 'Topic/subtopic IDs or titles this resource covers, separated by |, ; or new lines. Solving questions on this resource pulls in these topics.' },
       { key: 'chapter', label: 'Chapters', help: 'One or more chapters this resource covers, separated by |, ; or new lines (Files live in the Files tab, Videos in the Videos tab).' },
       { key: 'module_ids', label: 'Module IDs', help: 'Module IDs this resource serves (e.g. CVS 01), separated by |, ; or new lines.' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'included_concepts', label: 'Included concepts', help: 'Concept IDs this resource covers. Each concept is auto-updated to approve this resource. Add precise page/timestamp deep-links in the resource editor.' },
       { key: 'included_articles', label: 'Included library articles', help: 'Library article IDs this resource supports.' },
       { key: 'concept_locations', label: 'Concept deep-links', help: 'Pin concepts to a precise spot, one per line as "conceptId | page|line|slide|timestamp | locator", e.g. med.concept.heart-failure | page | 142.' },
@@ -181,6 +189,39 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'description', label: 'Description', help: 'What the resource teaches and why it is relevant.' },
     ],
     markdownExample: `# Item\n\n## title\nNICE NG158 · Venous thromboembolic diseases\n\n## subject\ncvs\n\n## type\nGuideline\n\n## source\nNICE\n\n## url\nhttps://www.nice.org.uk/guidance/ng158\n\n## year\n2026\n\n## topics\nTPC_HF\nSUB_HF_MGMT\n\n## chapter\nVenous thromboembolism\nHeart failure\n\n## module_ids\nCVS 01\n\n## included_concepts\nmed.concept.loop-diuretics\nmed.concept.heart-failure\n\n## included_articles\nhf-mgmt\n\n## concept_locations\nmed.concept.heart-failure | page | 142\nmed.concept.loop-diuretics | timestamp | 3:20\n\n## description\nDiagnosis and initial management of suspected pulmonary embolism.`,
+  },
+  deck: {
+    noun: 'flashcard decks',
+    fields: [
+      ...common,
+      { key: 'description', label: 'Description', help: 'What this deck covers.' },
+      { key: 'cards', label: 'Cards', required: true, help: 'One card per line, as "front | back". The text before the first | is the question side; everything after it is the answer side. A line with no | is not a card and is skipped.' },
+    ],
+    markdownExample: `# Item\n\n## title\nCVS: Coronary anatomy\n\n## subject\ncvs\n\n## description\nQuick-fire recall for the major coronary vessels.\n\n## cards\nAorta | Largest artery in the body\nLAD | Supplies the anterior wall of the left ventricle\nRCA | Supplies the SA node in most people`,
+  },
+  essay: {
+    noun: 'written questions',
+    fields: [
+      ...common,
+      { key: 'prompt', label: 'Question prompt', required: true, help: 'The essay question shown to the student before they write.' },
+      { key: 'key_points', label: 'Key points', help: 'What a complete answer covers, one point per line. Prefix a line with "!" to mark it as one of the words an examiner scans for — a diagnosis, an enzyme, an organism — that the student should write legibly. At least one key point is required.' },
+      { key: 'examiner_note', label: 'What the examiner scans for', help: 'Guidance on how the answer is actually marked, shown to the student once they reveal it.' },
+      { key: 'model_answer', label: 'Model answer', help: 'A full written answer the student can compare their own against.' },
+    ],
+    markdownExample: `# Item\n\n## title\nRight heart failure\n\n## subject\ncvs\n\n## prompt\nDiscuss the causes and management of right heart failure.\n\n## key_points\n!Cor pulmonale\nRaised JVP\nPeripheral oedema\n!Hepatomegaly\n\n## examiner_note\nMarks are lost for listing causes without linking them to right-sided signs.\n\n## model_answer\nRight heart failure follows a rise in pulmonary vascular resistance...\n\n---\n\n# Item\n...`,
+  },
+  histology: {
+    noun: 'histology slides',
+    fields: [
+      ...common,
+      { key: 'tissue', label: 'Tissue', help: 'What the slide is a section of, e.g. "Small bowel".' },
+      { key: 'stain', label: 'Stain', help: 'How the section was stained, e.g. "H&E".' },
+      { key: 'description', label: 'Description', help: 'What to look for on the slide.' },
+      { key: 'image_4x', label: 'Image at 4x', help: 'Low-power field image URL.' },
+      { key: 'image_10x', label: 'Image at 10x', help: 'Mid-power field image URL.' },
+      { key: 'image_40x', label: 'Image at 40x', help: 'High-power field image URL. At least one of the three power images is required.' },
+    ],
+    markdownExample: `# Item\n\n## title\nIleum\n\n## subject\ngi\n\n## tissue\nSmall bowel\n\n## stain\nH&E\n\n## description\nVilli, crypts of Lieberkühn, and Peyer's patches in the submucosa.\n\n## image_4x\nhttps://media.example.edu/histology/ileum-4x.jpg\n\n## image_40x\nhttps://media.example.edu/histology/ileum-40x.jpg\n\n---\n\n# Item\n...`,
   },
 }
 
@@ -658,6 +699,7 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
   const shared = {
     references: values.references?.trim() ? importLines(values.references) : undefined,
     conceptTags: practicalConceptTags(values),
+    moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
     mediaRequests: media?.trim() ? parseMediaRequests(media, ownerId, 'practical') : undefined,
     ...(learningObjective ? { learningObjective } : {}),
   } as unknown as PracticalCommon
@@ -819,6 +861,21 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
       errors.push(`Media request "${request.brief}" names "${request.section}", which is not a question in this item`)
     })
   }
+  if (kind === 'deck') {
+    if (parseCardLines(values.cards ?? '').length === 0) {
+      errors.push('A deck needs at least one card, written as "front | back"')
+    }
+  }
+  if (kind === 'essay') {
+    // A written question with nothing to mark against would leave the student
+    // ticking off nothing, which is the whole of the practice.
+    if (!parseKeyPoints(values.key_points).length) errors.push('At least one key point is required')
+  }
+  if (kind === 'histology') {
+    // A slide with no image cannot be looked at — the same rule
+    // `managedSlideToStudentSlide` enforces on the student side.
+    if (!slideViewsFrom(values).length) errors.push('At least one power image (4x, 10x, or 40x) is required')
+  }
   return errors
 }
 
@@ -870,6 +927,13 @@ function numberInRange(value: string, fallback: number, min: number, max: number
  */
 function optionalNumberInRange(value: string | undefined, fallback: number, min: number, max: number) {
   return value?.trim() ? numberInRange(value.trim(), fallback, min, max) : undefined
+}
+
+/** The views a row's `image_4x`/`image_10x`/`image_40x` columns describe, low power first. */
+function slideViewsFrom(values: Record<string, string>): SlideView[] {
+  return OBJECTIVES
+    .map((objective) => ({ objective, image: values[`image_${objective}x`]?.trim() ?? '' }))
+    .filter((view): view is SlideView => Boolean(view.image))
 }
 
 function stableHash(value: string) {
@@ -945,6 +1009,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
           questionType: text('question_type'),
           mainConceptIds: optionalList(values.main_concept),
           moduleIds: optionalList(values.module),
+          moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
           clinicalRelevance: clamp01(values.clinical_relevance),
           academicRelevance: clamp01(values.academic_relevance),
           cognitiveEffortScore: clamp01(values.cognitive_effort_score),
@@ -1019,6 +1084,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         universityIds: optionalList(values.universities),
         yearIds: optionalList(values.years),
         moduleIds: optionalList(values.module),
+        moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
         subtopicId: text('subtopic'), microtopicId: text('microtopic'), nanotopicId: text('nanotopic'),
         relatedConceptIds: optionalList(values.related_concepts),
         relatedArticleIds: related.ids.length ? related.ids : undefined,
@@ -1064,6 +1130,46 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       practicalData: practicalDataFrom(values),
     }
   }
+  if (kind === 'deck') {
+    return {
+      ...base,
+      fields: { Description: values.description || '' },
+      deckData: {
+        description: values.description || '',
+        cards: parseCardLines(values.cards ?? ''),
+      },
+    }
+  }
+  if (kind === 'essay') {
+    const essayData: EssayAuthoringData = {
+      prompt: values.prompt || '',
+      keyPoints: parseKeyPoints(values.key_points),
+      examinerNote: values.examiner_note || '',
+      modelAnswer: values.model_answer || '',
+    }
+    return {
+      ...base,
+      fields: { Prompt: values.prompt || '', ExaminerNote: values.examiner_note || '' },
+      essayData,
+    }
+  }
+  if (kind === 'histology') {
+    const histologyData: HistologyAuthoringData = {
+      tissue: values.tissue || '',
+      stain: values.stain || '',
+      views: slideViewsFrom(values),
+      // Pins are deliberately not importable: clicking a point on an image is
+      // not a spreadsheet cell, so an imported slide arrives with its images
+      // and metadata and an empty `structures` array, to be labelled in the
+      // editor.
+      structures: [],
+    }
+    return {
+      ...base,
+      fields: { Tissue: values.tissue || '', Stain: values.stain || '', Description: values.description || '' },
+      histologyData,
+    }
+  }
   return {
     ...base,
     fields: { Type: values.type || 'Article', Source: values.source || '', URL: values.url || '', Year: values.year || '', Topics: values.topics || '', Chapter: values.chapter || '', 'Included concepts': values.included_concepts || '', 'Included articles': values.included_articles || '', Description: values.description || '' },
@@ -1073,6 +1179,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       institution: values.source?.trim() || undefined,
       chapters: splitImportList(values.chapter),
       moduleIds: splitImportList(values.module_ids),
+      moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
       includedConceptIds: splitImportList(values.included_concepts),
       includedArticleIds: splitImportList(values.included_articles),
       conceptLocations: (values.concept_locations ?? '').split(/\r?\n/).map((line, i) => {

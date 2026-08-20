@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Check, Download, KeyRound, LifeBuoy, LogOut, Palette, ShieldCheck, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -10,10 +10,10 @@ import { Badge } from '@/components/ui/Badge'
 import { MfaControl } from '@/components/auth/MfaControl'
 import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { SELF_AUDIENCE_STORAGE_KEY, useIdentity, type SelfDeclaredAudience } from '@/lib/useIdentity'
+import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { universities as seededUniversities, YEARS } from '@/data/universities'
-import { API_MODE, apiGet } from '@/lib/api'
+import { API_MODE, apiGet, apiPost } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 
 /**
@@ -79,14 +79,15 @@ function RosterNote({ recorded }: { recorded: string }) {
  */
 function StudyContext() {
   const t = useT()
-  const { audience, profile, displayName, email } = useIdentity()
+  const { audience, profile, displayName, email, saveEnrolment } = useIdentity()
   const [configured] = useUniversityCatalogue()
-  const [, setSaved] = usePersistentState<SelfDeclaredAudience | null>(SELF_AUDIENCE_STORAGE_KEY, null)
 
   const [universityId, setUniversityId] = useState(audience.universityId)
   const [year, setYear] = useState(audience.year)
   const [group, setGroup] = useState(audience.group)
   const [justSaved, setJustSaved] = useState(false)
+  const [saving, setSaving] = useState(false)
+  const [error, setError] = useState('')
 
   // The admin-configured catalogue is the real list; the seeded schools stand
   // in when none has been set up yet, so this is never an empty dropdown.
@@ -99,14 +100,28 @@ function StudyContext() {
 
   const dirty = universityId !== audience.universityId || year !== audience.year || group !== audience.group
 
-  function save(event: React.FormEvent) {
+  /**
+   * Sent to the server, which is the only thing that holds this.
+   *
+   * It used to be written to a browser document, so correcting a year fixed it
+   * on the device it was corrected on and nowhere else.
+   */
+  async function save(event: React.FormEvent) {
     event.preventDefault()
-    setSaved({ universityId, year, group: group.trim() })
-    setJustSaved(true)
+    setError('')
+    setSaving(true)
+    try {
+      await saveEnrolment({ universityId, year, group: group.trim() })
+      setJustSaved(true)
+    } catch {
+      setError(t('That could not be saved. Check your connection and try again.'))
+    } finally {
+      setSaving(false)
+    }
   }
 
   return (
-    <form className="grid gap-4 p-5 sm:grid-cols-2" onSubmit={save}>
+    <form className="grid gap-4 p-5 sm:grid-cols-2" onSubmit={(event) => void save(event)}>
       <ReadOnlyField label={t('Full name')} value={profile.name ?? displayName} />
       <ReadOnlyField label={t('Email address')} value={profile.email ?? email} />
 
@@ -161,8 +176,10 @@ function StudyContext() {
         </p>
       </div>
 
+      {error && <p role="alert" className="text-[12.5px] text-danger sm:col-span-2">{error}</p>}
+
       <div className="flex justify-end sm:col-span-2">
-        <Button type="submit" variant="primary" disabled={!dirty} iconLeft={justSaved && !dirty ? Check : undefined}>
+        <Button type="submit" variant="primary" loading={saving} disabled={!dirty || saving} iconLeft={justSaved && !dirty ? Check : undefined}>
           {justSaved && !dirty ? t('Saved') : t('Save study context')}
         </Button>
       </div>
@@ -176,9 +193,36 @@ export function Account() {
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
+  // Matches the column default (`students.discoverable` is `1`), so a student
+  // who has never touched this setting — or has no roster row yet — sees the
+  // same "on" the server would report, without waiting on a round trip first.
+  const [discoverable, setDiscoverableState] = useState(true)
 
   const patch = (next: Partial<AccountPrefs>) => setPrefs((current) => ({ ...current, ...next }))
   const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Connect Cortex profile change request')}`
+
+  useEffect(() => {
+    if (!API_MODE) return
+    apiGet<{ discoverable: boolean }>('/account/discoverable')
+      .then((result) => setDiscoverableState(result.discoverable))
+      .catch(() => {})
+  }, [])
+
+  /**
+   * Flip the toggle immediately and tell the server. Without a backend this is
+   * the whole story — there is no directory to disappear from — so nothing is
+   * sent. If the write fails, the toggle reverts rather than showing a choice
+   * that was never actually saved.
+   */
+  async function toggleDiscoverable(next: boolean) {
+    setDiscoverableState(next)
+    if (!API_MODE) return
+    try {
+      await apiPost('/account/discoverable', { discoverable: next })
+    } catch {
+      setDiscoverableState(!next)
+    }
+  }
 
   /**
    * Everything this account has stored, not just what this page happens to hold.
@@ -287,7 +331,18 @@ export function Account() {
 
           <Panel>
             <PanelHeader title={t('Privacy and data')} />
-            <div className="space-y-2 p-4">
+            <div className="divide-y divide-line px-5">
+              <label className="flex cursor-pointer items-center justify-between gap-4 py-3.5">
+                <span>
+                  <span className="block text-[13.5px] font-medium text-ink">{t('Let classmates find me')}</span>
+                  <span className="mt-0.5 block text-[12px] text-ink-3">
+                    {t('Students in your own university and year can find you by name and ask to be friends. Turning this off does not remove friends you already have.')}
+                  </span>
+                </span>
+                <Toggle checked={discoverable} onChange={(value) => void toggleDiscoverable(value)} label={t('Let classmates find me')} />
+              </label>
+            </div>
+            <div className="space-y-2 border-t border-line p-4">
               <Button className="w-full justify-start" variant="secondary" iconLeft={Download} loading={exporting} onClick={() => void exportData()}>
                 {t('Download my data')}
               </Button>

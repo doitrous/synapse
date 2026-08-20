@@ -13,8 +13,9 @@ import { Kbd } from '@/components/ui/Kbd'
 import { cn } from '@/lib/cn'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
+import { ImmersionProvider, useImmersion } from './ImmersionContext'
 
-export function AppShell({ portal }: { portal: Portal }) {
+function AppShellInner({ portal }: { portal: Portal }) {
   const t = useT()
   // Both survive navigation and reload: collapsing the chrome to read is a
   // decision about this screen, and having to make it again on every page is
@@ -24,6 +25,10 @@ export function AppShell({ portal }: { portal: Portal }) {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const { pathname } = useLocation()
+  const { immersive } = useImmersion()
+  // The student's own preference is never written by a test — it is only
+  // overridden while one is running, and comes straight back afterwards.
+  const railed = collapsed || immersive
 
   // The sidebar destination this URL belongs to: "/app/resources/42" and
   // "/app/resources" are one destination, "/app/library" is another.
@@ -78,10 +83,10 @@ export function AppShell({ portal }: { portal: Portal }) {
         className={cn(
           'fixed inset-y-0 start-0 z-30 hidden border-e border-line transition-[width] duration-200 ease-[var(--ease-out-quint)]',
           focusMode ? 'lg:hidden' : 'lg:block',
-          collapsed ? 'w-(--spacing-sidebar-collapsed)' : 'w-(--spacing-sidebar)',
+          railed ? 'w-(--spacing-sidebar-collapsed)' : 'w-(--spacing-sidebar)',
         )}
       >
-        <Sidebar portal={portal} collapsed={collapsed} onToggleCollapse={toggleCollapsed} />
+        <Sidebar portal={portal} collapsed={railed} onToggleCollapse={toggleCollapsed} />
       </aside>
 
       {/* Mobile drawer */}
@@ -103,7 +108,7 @@ export function AppShell({ portal }: { portal: Portal }) {
       <div
         className={cn(
           'flex min-h-dvh min-w-0 flex-col transition-[padding] duration-200 ease-[var(--ease-out-quint)]',
-          focusMode ? '' : collapsed ? 'lg:ps-(--spacing-sidebar-collapsed)' : 'lg:ps-(--spacing-sidebar)',
+          focusMode ? '' : railed ? 'lg:ps-(--spacing-sidebar-collapsed)' : 'lg:ps-(--spacing-sidebar)',
         )}
       >
         <Topbar
@@ -138,12 +143,21 @@ export function AppShell({ portal }: { portal: Portal }) {
       )}
 
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
-      <StudyContextMenu />
+      <StudyContextMenu onOpenSearch={() => setSearchOpen(true)} />
       {portal === 'student' && <StudentOnboarding />}
       {/* Docked, not a page: the question is nearly always about what is
           already on screen. Renders nothing unless the assistant is on and
           included on this student's plan. */}
       {portal === 'student' && !focusMode && <StudyAssistant />}
     </div>
+  )
+}
+
+/** The provider has to sit above the routed page, which is what asks for it. */
+export function AppShell({ portal }: { portal: Portal }) {
+  return (
+    <ImmersionProvider>
+      <AppShellInner portal={portal} />
+    </ImmersionProvider>
   )
 }

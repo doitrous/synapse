@@ -2,11 +2,14 @@ import type { Status } from './admin.ts'
 import type { ConceptAnnotation } from './conceptGraph.ts'
 import type { Difficulty } from './qbank.ts'
 import type { ArticleSection } from './userLibrary.ts'
+import type { DeckAuthoringData } from './decks.ts'
+import type { EssayAuthoringData } from './essay.ts'
+import type { HistologyAuthoringData } from './histology.ts'
 
 export type ArticleArchetype = 'condition' | 'presentation' | 'concept' | 'anatomy' | 'drug' | 'skill' | 'investigation' | 'organism' | 'emergency' | 'public-health'
 export type PublicationGate = 'publishable' | 'needs_evidence' | 'faculty_review' | 'conflicted' | 'excluded'
 
-export type ContentKind = 'question' | 'article' | 'practical' | 'resource'
+export type ContentKind = 'question' | 'article' | 'practical' | 'resource' | 'deck' | 'essay' | 'histology'
 
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
@@ -192,6 +195,17 @@ export interface QuestionTags {
   mainConceptIds?: string[]
   /** Every module ID this question applies to. */
   moduleIds?: string[]
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`.
+   *
+   * A module ID alone is too coarse to revise by — a module runs a term and
+   * covers several disciplines. Kept as written rather than as a resolved ID,
+   * because the subject tree is reorganised as department books change and a
+   * path that stops resolving can be reported and repaired, where a stale ID
+   * just points at nothing. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   clinicalRelevance?: number
   academicRelevance?: number
   /** Cognitive effort on a 0–1 scale (finer than the Low/Medium/High band). */
@@ -247,6 +261,17 @@ export interface ArticleAuthoringData {
   /** Year IDs this article applies to. */
   yearIds?: string[]
   moduleIds?: string[]
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`.
+   *
+   * A module ID alone is too coarse to revise by — a module runs a term and
+   * covers several disciplines. Kept as written rather than as a resolved ID,
+   * because the subject tree is reorganised as department books change and a
+   * path that stops resolving can be reported and repaired, where a stale ID
+   * just points at nothing. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   /** Canonical placement in the complete medical-library taxonomy. */
   primaryNodeId?: string
   /** Additional valid placements across systems, disciplines, skills, and knowledge. */
@@ -315,6 +340,11 @@ export interface PracticalConceptTags {
 
 /** What all three practical formats carry, whatever their shape. */
 export interface PracticalCommon {
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   references: string[]
   conceptTags: PracticalConceptTags
   /**
@@ -457,6 +487,17 @@ export interface ResourceAuthoringData {
   chapters: string[]
   /** Every module ID this resource is attached to (multi-select). */
   moduleIds: string[]
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`.
+   *
+   * A module ID alone is too coarse to revise by — a module runs a term and
+   * covers several disciplines. Kept as written rather than as a resolved ID,
+   * because the subject tree is reorganised as department books change and a
+   * path that stops resolving can be reported and repaired, where a stale ID
+   * just points at nothing. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   /** Concept IDs whose material appears in this resource. */
   includedConceptIds: string[]
   /** Library article IDs bundled with this resource. */
@@ -498,6 +539,9 @@ export interface ManagedContentItem {
   articleData?: ArticleAuthoringData
   practicalData?: PracticalAuthoringData
   resourceData?: ResourceAuthoringData
+  deckData?: DeckAuthoringData
+  essayData?: EssayAuthoringData
+  histologyData?: HistologyAuthoringData
 }
 
 /** True when an item was taken from a university or college rather than authored here. */
@@ -546,6 +590,9 @@ export const CONTENT_KIND_LABEL: Record<ContentKind, { singular: string; plural:
   article: { singular: 'article', plural: 'Library articles' },
   practical: { singular: 'practical item', plural: 'Practical items' },
   resource: { singular: 'resource', plural: 'Resources' },
+  deck: { singular: 'deck', plural: 'Flashcard decks' },
+  essay: { singular: 'written question', plural: 'Written questions' },
+  histology: { singular: 'slide', plural: 'Histology slides' },
 }
 
 export const CONTENT_FIELDS: Record<ContentKind, Array<{ key: string; label: string; multiline?: boolean }>> = {
@@ -576,5 +623,17 @@ export const CONTENT_FIELDS: Record<ContentKind, Array<{ key: string; label: str
     { key: 'Chapter', label: 'Chapter / module' },
     { key: 'Included concepts', label: 'Included concept IDs (one per line)', multiline: true },
     { key: 'Included articles', label: 'Included library article IDs', multiline: true },
+  ],
+  deck: [
+    { key: 'Description', label: 'What this deck covers', multiline: true },
+  ],
+  essay: [
+    { key: 'Prompt', label: 'The question', multiline: true },
+    { key: 'ExaminerNote', label: 'What the examiner scans for', multiline: true },
+  ],
+  histology: [
+    { key: 'Tissue', label: 'Tissue' },
+    { key: 'Stain', label: 'Stain' },
+    { key: 'Description', label: 'What to look for', multiline: true },
   ],
 }
