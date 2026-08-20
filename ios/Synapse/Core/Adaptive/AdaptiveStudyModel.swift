@@ -98,6 +98,75 @@ final class AdaptiveStudyModel {
             }
     }
 
+    // MARK: - The week
+
+    /// Minutes a day the student says they have.
+    ///
+    /// Held here rather than saved, matching the website: it is a dial for
+    /// asking "what would my week look like at two hours a day", and a stored
+    /// answer to that question goes stale the moment a timetable changes.
+    var minutesPerDay = 90
+
+    /// The Monday of the week containing `today`.
+    func weekStart(from today: Date = Date()) -> String {
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(identifier: "UTC") ?? .gmt
+        // Monday-first regardless of locale: this is the same week the website
+        // plans, and a plan that started on Sunday on one device and Monday on
+        // another would be two different plans.
+        let weekday = calendar.component(.weekday, from: today)
+        let offset = (weekday + 5) % 7
+        let monday = calendar.date(byAdding: .day, value: -offset, to: today) ?? today
+        return StudySchedule.isoDay.string(from: monday)
+    }
+
+    /// A week built from where the student actually stands.
+    ///
+    /// Everything the planner needs is already computed: which concepts are
+    /// weak, which parts of the blueprint have had no practice, what is due for
+    /// review, and what has never been measured at all.
+    func weeklyPlan(from today: Date = Date()) -> WeeklyPlan {
+        let start = weekStart(from: today)
+        let startDate = StudySchedule.isoDay.date(from: start) ?? today
+
+        let days = (0..<7).map { index in
+            DayCapacity(
+                date: StudySchedule.isoDay.string(from: startDate.addingTimeInterval(Double(index) * 86_400)),
+                statedMinutes: minutesPerDay
+            )
+        }
+
+        let byStatus = { (wanted: Set<ConceptStatus>) in
+            self.states.values.filter { wanted.contains($0.status) }
+                .sorted { $0.mean != $1.mean ? $0.mean < $1.mean : $0.conceptId < $1.conceptId }
+                .map(\.conceptId)
+        }
+
+        let needs = [
+            PlanNeedInput(need: .weakness, conceptIds: byStatus([.weak, .attention]),
+                          label: "Weak concept repair"),
+            PlanNeedInput(need: .coverage, conceptIds: coverage.uncoveredConcepts.map(\.conceptId),
+                          label: "Blueprint coverage"),
+            PlanNeedInput(need: .review, conceptIds: byStatus([.reviewDue]),
+                          label: "Spaced review"),
+            PlanNeedInput(need: .uncertainty,
+                          conceptIds: blueprint.filter { states[$0.conceptId] == nil }.map(\.conceptId),
+                          label: "Measuring what is unknown"),
+        ]
+
+        return StudySchedule.buildWeeklyPlan(BuildPlanInput(
+            weekStart: start,
+            days: days,
+            shares: shares,
+            needs: needs,
+            config: config,
+            blueprintWeights: Dictionary(blueprint.map { ($0.conceptId, $0.weight) },
+                                         uniquingKeysWith: { a, _ in a }),
+            daysToExam: daysToExam,
+            generatedAt: ISO8601DateFormatter().string(from: today)
+        ))
+    }
+
     /// A concept's label, from the blueprint rather than the graph — the
     /// blueprint carries it so this reads without the concept graph beside it.
     func label(for conceptId: String) -> String {
