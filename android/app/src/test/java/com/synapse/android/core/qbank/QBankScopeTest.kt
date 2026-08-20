@@ -80,4 +80,63 @@ class QBankScopeTest {
         val picked = QBankScope.questions(pool, setOf("t:qt:Neurology"), topics)
         assertEquals(listOf("q5"), picked.map { it.id })
     }
+
+    @Test
+    fun `topics are synthesised from the questions when there is no library`() {
+        val synthesised = QBankScope.chooserTopics(pool, emptyList())
+
+        // Cardiology, Renal, Neurology — insertion order, one per distinct
+        // (subjectId, lowercased title) pair.
+        assertEquals(listOf("Cardiology", "Renal", "Neurology"), synthesised.map { it.title })
+        assertTrue(synthesised.all { it.subtopicIds.isEmpty() })
+        assertTrue(synthesised.all { QBankScope.isQuestionTopic(it.id) })
+    }
+
+    @Test
+    fun `a chapter keeps the first spelling seen and the order it appeared in`() {
+        val differentlyCased = listOf(
+            question("q1", "cardiology", emptyList()),
+            question("q2", "Renal", emptyList()),
+            question("q3", "CARDIOLOGY", emptyList()),
+            question("q4", "renal", emptyList()),
+        )
+
+        val synthesised = QBankScope.chooserTopics(differentlyCased, emptyList())
+
+        // The first spelling encountered wins, and the chapter list keeps the
+        // order the questions first named them in — a HashMap would reorder
+        // it between runs.
+        assertEquals(listOf("cardiology", "Renal"), synthesised.map { it.title })
+    }
+
+    @Test
+    fun `a library topic with that title suppresses the synthetic one under every subject`() {
+        val library = listOf(ChooserTopic("lib1", "Cardiology", "other-subject", emptyList()))
+        val fromMed = listOf(question("q1", "Cardiology", emptyList()))
+
+        val synthesised = QBankScope.chooserTopics(fromMed, library)
+
+        // `covered` is not subject-scoped: a library topic titled "Cardiology"
+        // under one subject suppresses a synthetic "Cardiology" under another.
+        assertEquals(listOf("Cardiology"), synthesised.map { it.title })
+        assertEquals(library, synthesised)
+    }
+
+    @Test
+    fun `the same chapter title under two subjects stays two topics`() {
+        val twoSubjects = listOf(
+            question("q1", "Cardiology", emptyList()),
+            Question(
+                id = "q2", subjectId = "surg", topic = "Cardiology", difficulty = "Moderate",
+                vignette = "", stem = "Stem q2", options = emptyList(), correctLabel = "A",
+                explanation = "", learningObjective = null, estimatedSeconds = null,
+                libraryIds = emptyList(), conceptIds = emptyList(),
+            ),
+        )
+
+        val synthesised = QBankScope.chooserTopics(twoSubjects, emptyList())
+
+        assertEquals(2, synthesised.size)
+        assertEquals(setOf("med", "surg"), synthesised.map { it.subjectId }.toSet())
+    }
 }
