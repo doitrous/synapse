@@ -1,0 +1,52 @@
+# The web app: lint, types, tests, and the production build.
+#
+# The build is here deliberately. Coolify builds `main` to deploy it, so a
+# commit that type-checks and tests but fails `vite build` would land green and
+# break the deploy instead of the branch.
+name: Web
+
+on:
+  pull_request:
+    paths-ignore: ['ios/**', '**/*.md', 'docs/**']
+  push:
+    branches: [main]
+    paths-ignore: ['ios/**', '**/*.md', 'docs/**']
+
+permissions:
+  contents: read
+
+# A new push makes the previous run's answer irrelevant.
+concurrency:
+  group: web-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Lint, types, tests, build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # `npm test` runs `node --test --experimental-strip-types`, which needs
+      # Node 22.6 or newer. Pinned to the major the app is developed against
+      # rather than `latest`, so a Node release cannot break CI on its own.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Types
+        run: npx tsc -b
+
+      - name: Tests
+        run: npm test
+
+      # `npm run build` is `tsc -b && vite build`; the types step above already
+      # ran, so a failure here is the bundle itself.
+      - name: Build
+        run: npm run build
