@@ -443,6 +443,11 @@ struct SynapseAPI {
         if let accessToken = try await token() {
             request.setValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
         }
+        // Which device is asking, so a write made here does not nudge the phone
+        // that made it awake for its own change.
+        if let device = await PushRegistrar.shared.deviceToken {
+            request.setValue(device, forHTTPHeaderField: "X-Device-Token")
+        }
         if let body {
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")
             request.httpBody = try JSONEncoder().encode(body)
