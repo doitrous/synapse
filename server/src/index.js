@@ -8,6 +8,7 @@ import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
+import { REDACTED_STATE_KEYS } from './studentLedger.js'
 import { createShare, deleteShare, listShares, readShare, updateShare } from './shares.js'
 import { apiAuthGate, mfaSatisfied, requireAdmin, requireAuthenticated } from './auth.js'
 import {
@@ -882,8 +883,9 @@ app.get('/api/state', requireAdmin, wrap(async (_req, res) => {
 }))
 
 app.get('/api/state/:key', wrap(async (req, res) => {
+  const isAdmin = req.identity?.role === 'admin'
   if (!STUDENT_READABLE_STATE.has(req.params.key)) {
-    if (req.identity?.role !== 'admin') return res.status(403).json({ error: 'admin role required' })
+    if (!isAdmin) return res.status(403).json({ error: 'admin role required' })
     if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
   }
   // `updatedAt` lets the client decide whether its crash-recovery copy is newer
@@ -891,7 +893,15 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // re-uploads old data over a newer server-side write.
   const [rows] = await pool.query('SELECT v, updated_at AS updatedAt FROM app_state WHERE k = ?', [req.params.key])
   if (!rows.length) return res.json({ value: null, updatedAt: null })
-  try { res.json({ value: JSON.parse(rows[0].v), updatedAt: rows[0].updatedAt }) } catch { res.json({ value: null, updatedAt: rows[0].updatedAt }) }
+  let value
+  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt: rows[0].updatedAt }) }
+  // Some readable documents are readable only in part. The content ledger holds
+  // every authored item in every state, including drafts, the author's private
+  // notes and the provenance of borrowed papers; a student gets its published
+  // projection instead. That happens here rather than in the browser, because a
+  // field removed after delivery has already been delivered.
+  const redact = isAdmin ? undefined : REDACTED_STATE_KEYS.get(req.params.key)
+  res.json({ value: redact ? redact(value) : value, updatedAt: rows[0].updatedAt })
 }))
 
 app.put('/api/state/:key', requireAdmin, wrap(async (req, res) => {
