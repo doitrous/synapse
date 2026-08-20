@@ -11,6 +11,8 @@ export type PublicationGate = 'publishable' | 'needs_evidence' | 'faculty_review
 
 export type ContentKind = 'question' | 'article' | 'practical' | 'resource' | 'deck' | 'essay' | 'histology'
 
+import type { QuestionFormat, WrittenPart } from './questionFormat.ts'
+
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
 export type AnswerLabel = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
@@ -217,6 +219,24 @@ export interface QuestionTags {
 }
 
 export interface QuestionAuthoringData {
+  /**
+   * What kind of question this is. Absent means `mcq_single_best`, so every
+   * question authored before formats existed keeps working untouched.
+   */
+  format?: QuestionFormat
+  /**
+   * The marked subparts of a written question — present only on the written
+   * formats, where the marks and expected components *are* the question.
+   */
+  writtenParts?: WrittenPart[]
+  /**
+   * What this was derived from, when it was derived rather than transcribed.
+   * A written question may only be derived from another written question; the
+   * validator enforces that against this. See `questionFormat.ts`.
+   */
+  derivedFromFormat?: QuestionFormat | 'concept' | 'practical'
+  /** The question this was derived from, when there is one. */
+  derivedFromId?: string
   attachments: MediaAttachment[]
   correctAnswer: AnswerLabel
   answers: QuestionAnswerDraft[]
@@ -356,6 +376,19 @@ export interface PracticalCommon {
   mediaRequests: MediaRequest[]
   /** What a student who passes this item has demonstrated. */
   learningObjective?: string
+  /**
+   * Curriculum placement, matching the blocks articles and resources already
+   * carry. A station used to record its references, its concepts and the assets
+   * it still needed, and nothing at all about where in the curriculum it sits —
+   * so it could not be assigned to a reviewer even in principle.
+   *
+   * Absent until somebody tags it, and that absence is what keeps an untagged
+   * station with the editors rather than handing it to whichever reviewer asked
+   * first. See `itemWritableBy` in server/src/contentScope.js.
+   */
+  universityIds?: string[]
+  yearIds?: string[]
+  moduleIds?: string[]
 }
 
 /** The shared blocks of a practical that has not been tagged yet. */
@@ -557,7 +590,7 @@ export function initialManagedContent(): ManagedContentItem[] {
  */
 export function itemScope(item: ManagedContentItem): { universityIds: string[]; yearIds: string[] } {
   const questionTags = item.questionData?.tags
-  const scope = item.articleData ?? item.resourceData
+  const scope = item.articleData ?? item.practicalData ?? item.resourceData
   return {
     universityIds: questionTags?.universityIds ?? scope?.universityIds ?? [],
     yearIds: questionTags?.years ?? scope?.yearIds ?? [],

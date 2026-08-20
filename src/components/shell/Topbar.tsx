@@ -11,10 +11,11 @@ import { useI18n } from '@/lib/i18n'
 import { initialNotificationCampaigns, notificationAllowedByPrefs, notificationIsDue, notificationMatchesStudent, NOTIFICATION_READ_STORAGE_KEY, NOTIFICATION_STORAGE_KEY, type NotificationCampaign } from '@/data/notifications'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
+import { hasConsoleAccess } from '@/data/adminRoles'
 import { API_MODE } from '@/lib/api'
 
-function currentTitle(portal: Portal, pathname: string): string {
-  const items = navFor(portal).flatMap((g) => g.items)
+function currentTitle(portal: Portal, pathname: string, tabs: readonly string[]): string {
+  const items = navFor(portal, tabs).flatMap((g) => g.items)
   const exact = items.find((i) => i.to === pathname)
   if (exact) return exact.label
   const root = portal === 'admin' ? '/admin' : '/app'
@@ -42,7 +43,7 @@ export function Topbar({
 }) {
   const { pathname } = useLocation()
   const { t } = useI18n()
-  const { audience, role } = useIdentity()
+  const { audience, role, tabs } = useIdentity()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
   const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
   const [readIds, setReadIds] = usePersistentState<string[]>(`${NOTIFICATION_READ_STORAGE_KEY}-${portal}`, [])
@@ -56,14 +57,16 @@ export function Topbar({
     .sort((a, b) => new Date(b.sentAt ?? b.scheduledAt).getTime() - new Date(a.sentAt ?? a.scheduledAt).getTime())
   const [popupId, setPopupId] = useState<string | null>(null)
   const popoverRef = useRef<HTMLDivElement>(null)
-  const title = currentTitle(portal, pathname)
+  const title = currentTitle(portal, pathname, tabs)
   const other = portal === 'admin' ? '/app' : '/admin'
   const otherLabel = portal === 'admin' ? t('Student app') : t('Admin console')
   // Only an admin has somewhere to switch to. Showing a student a route that
   // exists solely to bounce them off its guard advertises a door with no key.
   // The demo has no backend and therefore no roles, so nothing is being
   // concealed there — both portals are simply open.
-  const canSwitchPortal = role === 'admin' || !API_MODE
+  // Anyone with the console can cross between the two portals — not only the
+  // one role that used to be the whole of it.
+  const canSwitchPortal = hasConsoleAccess(role ?? '') || !API_MODE
   const unreadCount = notifications.filter((notification) => !readIds.includes(notification.id)).length
   const popupNotification = notifications.find((notification) => notification.id === popupId)
 

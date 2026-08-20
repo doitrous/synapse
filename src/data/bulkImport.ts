@@ -10,6 +10,10 @@ import {
   MEDIA_REQUEST_MEDIA, MEDIA_REQUEST_KINDS, MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES,
 } from './contentControl.ts'
 import { DIFFICULTIES } from './qbank.ts'
+import {
+  DEFAULT_QUESTION_FORMAT, QUESTION_FORMATS, derivationRefusal, isChoiceFormat,
+  isWrittenFormat, parseDerivedFrom, parseQuestionFormat, parseWrittenParts,
+} from './questionFormat.ts'
 import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
@@ -46,6 +50,9 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       ...common,
       { key: 'vignette', label: 'Question context / vignette', help: 'Clinical or academic context shown before the main question.' },
       { key: 'question', label: 'Question', required: true, help: 'The main question, kept separate from its context.' },
+      { key: 'format', label: 'Question format', help: 'single best answer (default), multiple response, true or false, matching, completion, labelling, image-based, short answer, structured written, essay, comparison table, or multipart written.' },
+      { key: 'written_parts', label: 'Written parts', help: 'The marked subparts of a written question. One "### (a) 5 marks" heading per part, then the prompt, then "Expects:" lines for the mark scheme and an optional "Concept:" line.' },
+      { key: 'derived_from', label: 'Derived from', help: 'What this was derived from, when it was derived rather than transcribed: a question ID, or the word concept, practical, or a format name. A written question may only be derived from another written question.' },
       { key: 'correct_answer', label: 'Correct answer', required: true, help: 'A, B, C, D, E, or F.' },
       ...(['A', 'B', 'C', 'D', 'E', 'F'] as const).flatMap((letter) => [
         { key: `answer_${letter.toLowerCase()}`, label: `Answer ${letter}`, help: `Answer option ${letter}. Blank optional answers are omitted.` },
@@ -765,11 +772,54 @@ const clamp01 = (value?: string) => {
 }
 
 export function validateImportRow(kind: ContentKind, values: Record<string, string>) {
-  const errors = IMPORT_SCHEMAS[kind].fields.filter((field) => field.required && !values[field.key]?.trim()).map((field) => `${field.label} is required`)
+  // A written question has no lettered correct answer, so `correct_answer`
+  // cannot be unconditionally required without making written questions
+  // unimportable — which is the state that forced source questions to be
+  // rewritten as MCQs or dropped.
+  const declaredFormat = kind === 'question' ? parseQuestionFormat(values.format) : null
+  const format = declaredFormat ?? DEFAULT_QUESTION_FORMAT
+  const written = kind === 'question' && isWrittenFormat(format)
+
+  const errors = IMPORT_SCHEMAS[kind].fields
+    .filter((field) => field.required && !values[field.key]?.trim())
+    .filter((field) => !(written && field.key === 'correct_answer'))
+    .map((field) => `${field.label} is required`)
+
   if (kind === 'question') {
-    const answer = values.correct_answer?.trim().toUpperCase()
-    if (answer && !/^[A-F]$/.test(answer)) errors.push('Correct answer must be A–F')
-    if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
+    if (values.format?.trim() && !declaredFormat) {
+      errors.push(`Question format "${values.format.trim()}" is not one of ${QUESTION_FORMATS.join(', ')}`)
+    }
+
+    if (isChoiceFormat(format)) {
+      const answer = values.correct_answer?.trim().toUpperCase()
+      if (answer && !/^[A-F]$/.test(answer)) errors.push('Correct answer must be A–F')
+      if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
+    }
+
+    if (written) {
+      const parts = parseWrittenParts(values.written_parts)
+      if (!parts.length) {
+        errors.push('A written question needs its parts — one "### (a) 5 marks" heading per marked subpart')
+      }
+      parts.forEach((part) => {
+        if (!part.prompt.trim()) errors.push(`Written part (${part.label}) has a heading but no question under it`)
+        const known = new Set(parts.map((other) => other.id))
+        if (part.dependsOnPartId && !known.has(part.dependsOnPartId)) {
+          errors.push(`Written part (${part.label}) depends on a part this question does not have`)
+        }
+      })
+    } else if (values.written_parts?.trim()) {
+      errors.push(`Written parts were given, but the format is ${format} — only a written format carries them`)
+    }
+
+    // The two absolute derivation restrictions. See `questionFormat.ts`.
+    const derivedFrom = parseDerivedFrom(values.derived_from)
+    if (derivedFrom.format) {
+      const refusal = derivationRefusal(derivedFrom.format, format)
+      if (refusal) errors.push(refusal)
+    } else if (written && values.derived_from?.trim()) {
+      errors.push('A written question must say what kind of thing it was derived from, and it may only be a written question')
+    }
   }
   if (kind === 'article') {
     const templateId = values.template_id?.trim()
@@ -973,6 +1023,11 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     // every concept, year and university the question was scoped to.
     const enumValue = <T extends string>(value: string | undefined, allowed: readonly string[], fallback: T) =>
       value?.trim() ? (allowed.includes(value.trim()) ? value.trim() as T : fallback) : undefined
+    // Absent means single best answer, so everything authored before formats
+    // existed keeps its meaning without being migrated.
+    const format = parseQuestionFormat(values.format) ?? DEFAULT_QUESTION_FORMAT
+    const writtenParts = parseWrittenParts(values.written_parts)
+    const derivedFrom = parseDerivedFrom(values.derived_from)
     const difficulty = enumValue<QuestionTags['intendedDifficulty']>(values.difficulty, ['Easy', 'Moderate', 'Hard', 'Challenging'], 'Moderate')
     // `answers` and `correctAnswer` stay eager: `question` and `correct_answer`
     // are required columns and the validator rejects a correct answer with no
@@ -989,6 +1044,10 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         attachments: (values.attachments?.trim() ? parseAttachments(values.attachments) : undefined) as MediaAttachment[],
         correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel,
         answers,
+        format,
+        writtenParts: writtenParts.length ? writtenParts : undefined,
+        derivedFromFormat: derivedFrom.format,
+        derivedFromId: derivedFrom.id,
         attachedImage: text('attached_image') as string,
         libraryIds: optionalList(values.library_ids) as string[],
         resourceIds: optionalList(values.resource_ids) as string[],

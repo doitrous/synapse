@@ -819,3 +819,104 @@ test('an imported slide carries its views and no pins yet', () => {
   assert.deepEqual(item.histologyData?.views.map((view) => view.objective), [4, 40])
   assert.deepEqual(item.histologyData?.structures, [])
 })
+
+/* ---- question formats beyond single-best-answer ------------------------ */
+
+/**
+ * A written question taken off a real Kasr Al Ainy paper.
+ *
+ * `EOY (BMS - 103) 198` opens with "1) Enumerate content of femoral triangle
+ * {5 Marks}" — no options, no correct letter, two marked parts. Before formats
+ * existed this row could not be imported at all: `correct_answer` was
+ * unconditionally required, so the only ways to keep the question were to
+ * invent options for it or to drop it.
+ */
+const WRITTEN_QUESTION: Record<string, string> = {
+  id: 'Q-BMS-103-W1',
+  title: 'Femoral triangle and hip joint',
+  subject: 'msk',
+  format: 'structured written',
+  question: 'Answer both parts.',
+  written_parts: `### (a) 5 marks
+Enumerate the contents of the femoral triangle.
+Expects: Femoral nerve
+Expects: Femoral artery
+Expects: Femoral vein
+Concept: CON-MSK-0001
+
+### (b) 5 marks
+Summarise the ligaments of the hip joint.
+Expects: Iliofemoral ligament
+Expects: Pubofemoral ligament
+Concept: CON-MSK-0002`,
+  derived_from: 'structured_written · Q-BMS-103-SOURCE',
+  main_concept: 'CON-MSK-0001 | CON-MSK-0002',
+  module_subject: '103 BMS > Anatomy > Lower Limb',
+}
+
+test('a written question imports without a lettered correct answer', () => {
+  assert.deepEqual(validateImportRow('question', WRITTEN_QUESTION), [])
+
+  const data = importRowToContent('question', WRITTEN_QUESTION, 'row-w1').questionData!
+  assert.equal(data.format, 'structured_written')
+  assert.equal(data.writtenParts?.length, 2)
+  assert.equal(data.writtenParts?.[0].marks, 5)
+  assert.deepEqual(data.writtenParts?.[0].expectedPoints,
+    ['Femoral nerve', 'Femoral artery', 'Femoral vein'])
+  assert.deepEqual(data.tags.mainConceptIds, ['CON-MSK-0001', 'CON-MSK-0002'],
+    'both parts are co-primary — neither is the only thing this question tests')
+  assert.deepEqual(data.tags.moduleSubjectPaths, ['103 BMS > Anatomy > Lower Limb'])
+})
+
+test('a written question derived from an MCQ is refused', () => {
+  // The restriction that matters most: a written question is not an MCQ with
+  // the options removed, and inventing one from an MCQ trains a student for an
+  // exam nobody sets.
+  const errors = validateImportRow('question',
+    { ...WRITTEN_QUESTION, derived_from: 'mcq_single_best · Q-CVS-014' })
+  assert.equal(errors.length, 1)
+  assert.match(errors[0], /only be derived from an existing written question/)
+})
+
+test('a written question derived from a concept alone is refused', () => {
+  const errors = validateImportRow('question', { ...WRITTEN_QUESTION, derived_from: 'concept' })
+  assert.equal(errors.length, 1)
+  assert.match(errors[0], /only be derived from an existing written question/)
+})
+
+test('a matching question may be derived from an MCQ', () => {
+  const row = {
+    id: 'Q-EPE-M1', title: 'Match each consultation skill to its description',
+    subject: 'msk', format: 'matching', question: 'Match each item.',
+    correct_answer: 'A', answer_a: 'Open-ended question', answer_b: 'Showing empathy',
+    derived_from: 'mcq_single_best · Q-EPE-004', main_concept: 'CON-COM-0001',
+  }
+  assert.deepEqual(validateImportRow('question', row), [])
+  assert.equal(importRowToContent('question', row, 'row-m1').questionData!.format, 'matching')
+})
+
+test('an unknown format is refused rather than silently defaulted', () => {
+  const errors = validateImportRow('question', { ...WRITTEN_QUESTION, format: 'viva voce' })
+  assert.ok(errors.some((error) => /is not one of/.test(error)),
+    'a format nobody recognises must not quietly become a single-best-answer question')
+})
+
+test('written parts on a non-written format are refused', () => {
+  const errors = validateImportRow('question', {
+    ...WRITTEN_QUESTION, format: 'mcq_single_best',
+    correct_answer: 'A', answer_a: 'Something',
+  })
+  assert.ok(errors.some((error) => /only a written format carries them/.test(error)))
+})
+
+test('a written question with no parts is refused', () => {
+  const errors = validateImportRow('question', { ...WRITTEN_QUESTION, written_parts: '' })
+  assert.ok(errors.some((error) => /needs its parts/.test(error)))
+})
+
+test('a question with no format still reads as single best answer', () => {
+  const data = importRowToContent('question', FULL_QUESTION, 'row-default').questionData!
+  assert.equal(data.format, 'mcq_single_best',
+    'everything authored before formats existed keeps its meaning')
+  assert.equal(data.writtenParts, undefined)
+})

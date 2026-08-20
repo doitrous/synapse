@@ -10,7 +10,6 @@ import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { adminStudents, type AdminStudent, type StudentStatus } from '@/data/students'
-import { AccountAccessPanel } from '@/components/admin/AccountAccessPanel'
 
 function statusTone(s: StudentStatus): 'success' | 'primary' | 'warning' | 'danger' {
   return s === 'Active' ? 'success' : s === 'Trial' ? 'primary' : s === 'Lapsed' ? 'warning' : 'danger'
@@ -44,9 +43,12 @@ export function StudentsManagement() {
 
   return (
     <PageContainer>
+      {/* The account-promotion panel that used to sit here is gone. It wrote
+          roles from the Students tab, which Admins hold and which no longer
+          carries any promotion power, and it did so through an endpoint that
+          checked neither rank nor self-edit. Roles are changed in Users, where
+          the record, the reason and the audit are already on screen. */}
       <PageHeader title="Students" description="Every registered student, organised by university and year. Select a scope on the left to focus." />
-
-      <AccountAccessPanel />
 
       <div className="grid items-start gap-4 lg:grid-cols-[16rem_minmax(0,1fr)]">
         {/* ---- Left menu: Master Students → university → year ---- */}

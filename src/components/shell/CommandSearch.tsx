@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
 import { Search, CornerDownLeft } from 'lucide-react'
-import { studentNav, adminNav } from './nav'
+import { studentNav, adminNavFor } from './nav'
+import { useIdentity } from '@/lib/useIdentity'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
 import { cn } from '@/lib/cn'
@@ -14,13 +15,18 @@ interface Cmd {
   group: string
 }
 
-const COMMANDS: Cmd[] = [
-  ...studentNav.flatMap((g) => g.items.map((i) => ({ ...i, group: 'Student app' }))),
-  ...adminNav.flatMap((g) => g.items.map((i) => ({ ...i, group: 'Admin console' }))),
-]
+const STUDENT_COMMANDS: Cmd[] = studentNav.flatMap((g) => g.items.map((i) => ({ ...i, group: 'Student app' })))
 
 export function CommandSearch({ open, onClose }: { open: boolean; onClose: () => void }) {
   const navigate = useNavigate()
+  // The palette used to be a module constant listing every console surface,
+  // which would offer a reviewer the payments page and take them to a redirect.
+  // Offering a page somebody cannot open is the same bug as linking to it.
+  const { tabs } = useIdentity()
+  const COMMANDS = useMemo<Cmd[]>(() => [
+    ...STUDENT_COMMANDS,
+    ...adminNavFor(tabs).flatMap((g) => g.items.map((i) => ({ ...i, group: 'Admin console' }))),
+  ], [tabs])
   const [query, setQuery] = useState('')
   const [active, setActive] = useState(0)
   const inputRef = useRef<HTMLInputElement>(null)
