@@ -114,4 +114,83 @@ class SynapseApiTest {
         api.readState("synapse-plans-v1")
         assertNull(server.takeRequest().getHeader("Authorization"))
     }
+
+    // Fixture shape copied from server/src/index.js:146-153.
+    @Test fun `session decodes every field for a signed-in user`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """{"user":{"id":"u1","email":"student@example.com","role":"student","aal":"aal1","mfaRequired":true}}"""
+        ))
+        val user = api.session()
+        assertEquals("u1", user?.id)
+        assertEquals("student@example.com", user?.email)
+        assertEquals("student", user?.role)
+        assertEquals("aal1", user?.aal)
+        assertEquals(true, user?.mfaRequired)
+    }
+
+    // Fixture shape copied from server/src/index.js:146-153: an anonymous
+    // caller gets a 200 with a null user, never a 401.
+    @Test fun `session returns null for an anonymous caller without throwing`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"user":null}"""))
+        val user = api.session()
+        assertNull(user)
+    }
+
+    // Fixture shape copied from server/src/index.js:165-176.
+    @Test fun `me decodes every field of user, profile and entitlement`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """
+            {
+              "user": {"id":"u1","email":"student@example.com","role":"student","aal":"aal1","mfaRequired":true},
+              "profile": {"studentId":"u1","name":"Jordan Lee","email":"student@example.com","universityId":"uni-1","year":"Y3","group":"G2","status":"active"},
+              "subscription": null,
+              "entitlement": {"state":"active","plan":"Pro","expiresAt":"2026-09-01T00:00:00.000Z","daysLeft":13}
+            }
+            """.trimIndent()
+        ))
+        val me = api.me()
+
+        assertEquals("u1", me.user.id)
+        assertEquals("student@example.com", me.user.email)
+        assertEquals("student", me.user.role)
+        assertEquals("aal1", me.user.aal)
+        assertEquals(true, me.user.mfaRequired)
+
+        assertEquals("u1", me.profile?.studentId)
+        assertEquals("Jordan Lee", me.profile?.name)
+        assertEquals("student@example.com", me.profile?.email)
+        assertEquals("uni-1", me.profile?.universityId)
+        assertEquals("Y3", me.profile?.year)
+        assertEquals("G2", me.profile?.group)
+        assertEquals("active", me.profile?.status)
+
+        assertEquals("active", me.entitlement?.state)
+        assertEquals("Pro", me.entitlement?.plan)
+        assertEquals(Instant.parse("2026-09-01T00:00:00Z"), me.entitlement?.expiresAt)
+        assertEquals(13, me.entitlement?.daysLeft)
+    }
+
+    // Fixture shape copied from server/src/index.js:165-176: a missing roster
+    // row is a 200 with a null `profile` and the server's own fallback
+    // entitlement (`{ state: 'none', plan: 'Free', expiresAt: null, daysLeft: null }`,
+    // server/src/index.js:172), not an error.
+    @Test fun `me decodes a null profile and the default entitlement without error`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """
+            {
+              "user": {"id":"u1","email":"student@example.com","role":"student","aal":"aal1","mfaRequired":false},
+              "profile": null,
+              "subscription": null,
+              "entitlement": {"state":"none","plan":"Free","expiresAt":null,"daysLeft":null}
+            }
+            """.trimIndent()
+        ))
+        val me = api.me()
+
+        assertNull(me.profile)
+        assertEquals("none", me.entitlement?.state)
+        assertEquals("Free", me.entitlement?.plan)
+        assertNull(me.entitlement?.expiresAt)
+        assertNull(me.entitlement?.daysLeft)
+    }
 }

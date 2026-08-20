@@ -92,6 +92,10 @@ class SynapseApi(
     suspend fun me(): MeResponse {
         val root = requestObject("GET", "/api/me")
         val user = decodeSessionUser(root["user"].asObjectOrMalformed("user"))
+        // Nullable by design: server/src/index.js:158-163 says a missing
+        // roster row is a 200 with nulls rather than a 404 — "your
+        // university has not set up your profile yet" is a state the app
+        // renders, not an error.
         val profileElement = root["profile"]
         val profile = if (profileElement == null || profileElement is JsonNull) {
             null
@@ -152,7 +156,10 @@ class SynapseApi(
         email = obj["email"].stringOrNull(),
         role = obj["role"].stringOrNull(),
         aal = obj["aal"].stringOrNull(),
-        mfaRequired = (obj["mfaRequired"] as? JsonPrimitive)?.booleanOrNull ?: false,
+        // Always sent, coerced with Boolean(...) at server/src/index.js:151
+        // (session) and :168 (me) — a missing or non-boolean value means the
+        // shape drifted, so it is Malformed rather than defaulted to false.
+        mfaRequired = obj["mfaRequired"].booleanOrMalformed("user.mfaRequired"),
     )
 
     private fun decodeProfile(obj: JsonObject): Profile = Profile(
@@ -166,8 +173,13 @@ class SynapseApi(
     )
 
     private fun decodeEntitlement(obj: JsonObject): Entitlement = Entitlement(
+        // state and plan are always present, including in the server's own
+        // fallback entitlement at server/src/index.js:172.
         state = obj["state"].stringOrMalformed("entitlement.state"),
-        plan = obj["plan"].stringOrNull(),
+        plan = obj["plan"].stringOrMalformed("entitlement.plan"),
+        // Genuinely nullable: the server's fallback entitlement at
+        // server/src/index.js:172 is
+        // { state: 'none', plan: 'Free', expiresAt: null, daysLeft: null }.
         expiresAt = obj["expiresAt"]?.takeUnless { it is JsonNull }?.let { parseInstant(it, "entitlement.expiresAt") },
         daysLeft = (obj["daysLeft"] as? JsonPrimitive)?.intOrNull,
     )
@@ -189,6 +201,9 @@ class SynapseApi(
 
     private fun JsonElement?.stringOrMalformed(field: String): String =
         stringOrNull() ?: throw ApiError.Malformed("expected a string at $field")
+
+    private fun JsonElement?.booleanOrMalformed(field: String): Boolean =
+        (this as? JsonPrimitive)?.booleanOrNull ?: throw ApiError.Malformed("expected a boolean at $field")
 
     /** Issues the request and parses the body as a JSON object, translating both HTTP and shape failures into [ApiError]. */
     private suspend fun requestObject(method: String, path: String, body: String? = null): JsonObject {
