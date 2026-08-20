@@ -49,13 +49,13 @@ struct TopicChooser: View {
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Everything") { scope = [] }
                         .font(Theme.ui(15))
-                        .tint(Theme.accent)
+                        .tint(Theme.primary)
                         .disabled(scope.isEmpty)
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button("Done") { dismiss() }
                         .font(Theme.ui(16, weight: 600))
-                        .tint(Theme.accent)
+                        .tint(Theme.primary)
                 }
             }
         }
@@ -100,7 +100,7 @@ struct TopicChooser: View {
                             Text(subjectName(group.subject))
                                 .font(Theme.ui(12, weight: 600))
                         }
-                        .foregroundStyle(Theme.accent)
+                        .foregroundStyle(Theme.primary)
                     }
                 }
                 .listRowBackground(Theme.surface)
@@ -136,6 +136,6 @@ struct TopicChooser: View {
         case .off: "square"
         }
         return Image(systemName: name)
-            .foregroundStyle(tick == .off ? Theme.ink3 : Theme.accent)
+            .foregroundStyle(tick == .off ? Theme.ink3 : Theme.primary)
     }
 }

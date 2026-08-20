@@ -5,7 +5,9 @@ import { ImagePlus,
   CircleCheck,
   FileQuestion,
   FolderOpen,
+  Microscope,
   Pencil,
+  PenLine,
   Plus,
   RotateCcw,
   Search,
@@ -54,6 +56,8 @@ import { LibraryArticleEditorDialog } from '@/components/admin/LibraryArticleEdi
 import { PracticalEditorDialog } from '@/components/admin/PracticalEditorDialog'
 import { ResourceEditorDialog } from '@/components/admin/ResourceEditorDialog'
 import { DeckEditorDialog } from '@/components/admin/DeckEditorDialog'
+import { EssayEditorDialog } from '@/components/admin/EssayEditorDialog'
+import { HistologyEditorDialog } from '@/components/admin/HistologyEditorDialog'
 import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
@@ -73,6 +77,8 @@ const KIND_ICON = {
   practical: Stethoscope,
   resource: FolderOpen,
   deck: Layers,
+  essay: PenLine,
+  histology: Microscope,
 }
 
 const STATUSES: Array<Status | 'All'> = ['All', 'Draft', 'In review', 'Published', 'Archived']
@@ -151,8 +157,21 @@ function itemSummary(item: ManagedContentItem) {
     return `${item.fields.Type} · ${item.fields.Duration} min · ${item.fields.Marks} ${unit}`
   }
   if (item.kind === 'deck') {
+    // Without this a deck fell through to the resource line below and rendered
+    // "undefined · undefined" — a deck has neither a Type nor a Source field.
     const count = item.deckData?.cards.length ?? 0
     return `${count} ${count === 1 ? 'card' : 'cards'}`
+  }
+  if (item.kind === 'essay') {
+    const points = item.essayData?.keyPoints.length ?? 0
+    return `${points} key point${points === 1 ? '' : 's'}`
+  }
+  if (item.kind === 'histology') {
+    // Without this a slide fell through to the resource line below and rendered
+    // "undefined · undefined" — a slide has neither a Type nor a Source field.
+    const data = item.histologyData
+    const objectives = (data?.views ?? []).map((view) => `${view.objective}×`).join(' · ')
+    return [data?.tissue, data?.stain, objectives].filter(Boolean).join(' · ')
   }
   return `${item.fields.Type} · ${item.fields.Source}`
 }
@@ -236,6 +255,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     practical: items.filter((item) => item.kind === 'practical').length,
     resource: items.filter((item) => item.kind === 'resource').length,
     deck: items.filter((item) => item.kind === 'deck').length,
+    essay: items.filter((item) => item.kind === 'essay').length,
+    histology: items.filter((item) => item.kind === 'histology').length,
   }), [items])
 
   const matching = useMemo(() => {
@@ -245,7 +266,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       .filter((item) => status === 'All' || item.status === status)
       // Navigator scope (Master → university → year) for question & resource catalogues.
       .filter((item) => {
-        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck')) return true
+        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck' && activeKind !== 'essay' && activeKind !== 'histology')) return true
         // Authored scope, not a hash of the item's id.
         return itemInScope(item, activeScope.universityId, activeScope.year)
       })
@@ -516,6 +537,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 ['practical', 'Practical'],
                 ['resource', 'Resources'],
                 ['deck', 'Flashcard decks'],
+                ['essay', 'Written questions'],
+                ['histology', 'Histology'],
               ] as const).map(([value, label]) => ({ value, label, icon: KIND_ICON[value], count: kindCounts[value] }))}
             />
           </div>}
@@ -806,6 +829,10 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
         <ResourceEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'deck' ? (
         <DeckEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+      ) : activeKind === 'essay' ? (
+        <EssayEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+      ) : activeKind === 'histology' ? (
+        <HistologyEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : (
         <ContentEditorDialog open={editorOpen} kind={activeKind} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       )}

@@ -166,6 +166,21 @@ enum LedgerDecoder {
             }
             if let aliases = article["aliases"] as? [String] { parts.append(contentsOf: aliases) }
             if let holds = article["holdThese"] as? [String] { parts.append(contentsOf: holds) }
+
+            // The article's own words.
+            //
+            // Without these the index held titles, summaries and key points
+            // only — so a term discussed at length in the text but never named
+            // in a heading could not be found at all, which is precisely the
+            // search a student runs when they half-remember something.
+            let sections = (article["publishedSections"] as? [[String: Any]])
+                ?? (article["sections"] as? [[String: Any]])
+                ?? []
+            for section in sections {
+                for key in ["heading", "body", "narrative"] {
+                    if let text = section[key] as? String, !text.isEmpty { parts.append(text) }
+                }
+            }
         }
 
         if let question = record["questionData"] as? [String: Any] {

@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Languages, BookA, Layers } from 'lucide-react'
+import { Languages, BookA, Layers, Grid3x3 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -11,6 +11,7 @@ import type { MedTermCategory } from '@/data/glossary'
 import { useMedicalGlossary } from '@/data/glossaryStore'
 import { deckFromTerms } from '@/data/decks'
 import { useDecks } from '@/lib/useDecks'
+import { buildGrid, MIN_TERMS, type GridTerm } from '@/data/crossword'
 import { useT } from '@/lib/i18n'
 
 /**
@@ -26,6 +27,16 @@ function currentFilterName(category: MedTermCategory | 'all', query: string): st
   if (trimmed) return `"${trimmed}"`
   return 'Medical Taxonomy'
 }
+
+/**
+ * Only used to answer "can this category build a puzzle at all" and "how many
+ * terms would it use" while the student is still browsing — never the seed
+ * that actually gets routed with. `buildGrid` already retries internally, so
+ * a fixed seed here is enough to tell a genuinely thin category (which fails
+ * at every seed) from one that merely got unlucky, without recomputing on
+ * every keystroke of the search box.
+ */
+const PREVIEW_SEED = 1
 
 export function MedicalTaxonomy() {
   const t = useT()
@@ -76,6 +87,35 @@ export function MedicalTaxonomy() {
     navigate('/app/flashcards')
   }
 
+  // Term Grid only ever plays one category (its own select has no "all"
+  // option), so "the terms in the current filter" means the category chip,
+  // not the search box on top of it — the search box has nothing on the
+  // Term Grid side to reconstruct it from.
+  const categoryTerms = useMemo<GridTerm[]>(
+    () =>
+      category === 'all'
+        ? []
+        : medicalTerms.filter((term) => term.category === category).map((term) => ({ term: term.term, clue: term.def })),
+    [medicalTerms, category],
+  )
+  const previewGrid = useMemo(() => buildGrid(categoryTerms, PREVIEW_SEED), [categoryTerms])
+  const canPlayGrid = category !== 'all' && previewGrid.words.length > 0
+
+  const handlePlayGrid = useCallback(() => {
+    if (category === 'all') return
+    // The preview only proved the category *can* interlock, not that this
+    // particular fresh seed will — a handful of retries costs nothing on a
+    // term set this small, and makes the rare unlucky seed invisible to the
+    // student rather than routing them to a puzzle that refuses itself.
+    for (let attempt = 0; attempt < 5; attempt++) {
+      const seed = Math.floor(Math.random() * 0x7fffffff)
+      if (buildGrid(categoryTerms, seed).words.length > 0) {
+        navigate(`/app/term-grid?category=${encodeURIComponent(category)}&seed=${seed}`)
+        return
+      }
+    }
+  }, [category, categoryTerms, navigate])
+
   return (
     <PageContainer>
       <PageHeader
@@ -109,6 +149,28 @@ export function MedicalTaxonomy() {
             {t('Study these as flashcards')} · <span className="tnum font-mono">{filtered.length}</span>
           </Button>
         </div>
+
+        {category !== 'all' && (
+          <div className="flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface-2 px-3 py-2.5">
+            {canPlayGrid ? (
+              <>
+                <span className="text-[12.5px] text-ink-3">
+                  {t('{count} terms will go into this puzzle').replace('{count}', String(previewGrid.words.length))}
+                </span>
+                <Button variant="secondary" size="sm" iconLeft={Grid3x3} onClick={handlePlayGrid} className="ms-auto">
+                  {t('Play these as a grid')}
+                </Button>
+              </>
+            ) : (
+              <span className="text-[12.5px] text-ink-3">
+                {t('Term Grid needs at least {min} terms in this category that can interlock into a crossword — this one has too few.').replace(
+                  '{min}',
+                  String(MIN_TERMS),
+                )}
+              </span>
+            )}
+          </div>
+        )}
       </div>
 
       {groups.length === 0 ? (

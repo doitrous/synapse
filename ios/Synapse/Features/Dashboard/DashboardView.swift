@@ -53,10 +53,13 @@ struct DashboardView: View {
             .navigationTitle("Today")
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
+                    AssistantButton(surface: "Dashboard")
+                }
+                ToolbarItem(placement: .topBarTrailing) {
                     Button { showingAccount = true } label: {
                         Image(systemName: "person.crop.circle")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .accessibilityLabel("Account")
                 }
             }

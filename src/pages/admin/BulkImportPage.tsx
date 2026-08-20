@@ -20,7 +20,7 @@ interface MappedRow { index: number; values: Record<string, string>; errors: str
 
 const IGNORE = '__ignore__'
 const steps = ['Choose a file', 'Confirm worksheet', 'Map columns', 'Full preview', 'Skipped rows', 'Import options']
-const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources', deck: 'flashcards' }
+const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources', deck: 'flashcards', essay: 'written', histology: 'histology' }
 
 function normalize(value: string) {
   return value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
@@ -85,9 +85,10 @@ function fingerprint(file: File, kind: ContentKind) {
 
 export function BulkImportPage() {
   const params = useParams()
-  // Read from the schema map rather than a list written out here: a hand-kept
-  // list forgets a kind sooner or later, and the failure is silent — the page
-  // falls back to questions and would import the wrong thing entirely.
+  // Read from the schema map rather than a list written out here. That list
+  // previously had to be kept in sync by hand and one addition missed it, so
+  // /admin/import/<new-kind> quietly fell back to questions and imported the
+  // wrong shape. Deriving it means a new kind cannot forget this line.
   const kind: ContentKind = Object.hasOwn(IMPORT_SCHEMAS, params.kind ?? '') ? params.kind as ContentKind : 'question'
   const schema = IMPORT_SCHEMAS[kind]
   const inputRef = useRef<HTMLInputElement>(null)

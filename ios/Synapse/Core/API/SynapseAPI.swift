@@ -170,6 +170,51 @@ struct SynapseAPI {
         _ = try await send(["user-state", key], method: "PUT", body: ValueBody(value: value))
     }
 
+    // MARK: - Study assistant
+
+    /// Whether the assistant is usable, and how much of today's quota is left.
+    func assistantStatus() async throws -> AssistantStatus {
+        try await get(AssistantStatus.self, ["assistant", "status"])
+    }
+
+    struct AssistantMessage: Encodable, Sendable {
+        let role: AssistantTurn.Role
+        let content: String
+    }
+
+    struct AssistantReply: Decodable, Sendable {
+        /// Nil when the model returned nothing usable, which is a failure the
+        /// student is told about rather than an empty bubble.
+        let reply: String?
+        let plan: String
+        let dailyMessages: Int
+        let used: Int
+        let remaining: Int
+    }
+
+    /// Send a turn.
+    ///
+    /// The whole transcript goes up each time because the server keeps none of
+    /// it: the conversation exists only in the client that is having it.
+    func assistantChat(
+        messages: [AssistantMessage], lang: String, context: AssistantContext
+    ) async throws -> AssistantReply {
+        struct Body: Encodable {
+            let messages: [AssistantMessage]
+            let lang: String
+            let context: AssistantContext
+        }
+        let data = try await send(
+            ["assistant", "chat"], method: "POST",
+            body: Body(messages: messages, lang: lang, context: context)
+        )
+        do {
+            return try Self.decoder.decode(AssistantReply.self, from: data)
+        } catch {
+            throw APIError.malformed("assistant/chat: \(error)")
+        }
+    }
+
     // MARK: - Source documents
 
     /// Whether a resource has a file behind it right now.

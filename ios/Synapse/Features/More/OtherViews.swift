@@ -60,7 +60,7 @@ struct CalendarView: View {
     var body: some View {
         Group {
             if isLoading {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else {
                 List {
@@ -155,7 +155,7 @@ struct CalendarView: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button { adding = true } label: { Image(systemName: "plus") }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
             }
         }
         .sheet(isPresented: $adding) {
@@ -296,7 +296,7 @@ struct GlossaryView: View {
     var body: some View {
         Group {
             if isLoading {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else if terms.isEmpty {
                 EmptyStateView(

@@ -26,12 +26,14 @@ enum StateOwnership {
             "^synapse\\.qbank\\.",
             "^synapse\\.flashcards\\.",
             "^synapse\\.practical\\.",
+            "^synapse\\.essay\\.",
             "^synapse\\.highlights\\.",
             "^synapse\\.annotations\\.",
             "^synapse\\.reader\\.",
             "^synapse\\.bookmarks\\.",
             "^synapse\\.progress\\.",
             "^synapse\\.myDocuments\\.",
+            "^synapse\\.termgrid\\.",
         ]
         return sources.compactMap { try? NSRegularExpression(pattern: $0) }
     }()

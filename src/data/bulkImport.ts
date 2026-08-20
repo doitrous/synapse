@@ -14,6 +14,8 @@ import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
 import { optionalList } from './importSemantics.ts'
 import { parseCardLines } from './decks.ts'
+import { parseKeyPoints, type EssayAuthoringData } from './essay.ts'
+import { OBJECTIVES, type SlideView, type HistologyAuthoringData } from './histology.ts'
 
 export interface ImportFieldDefinition {
   key: string
@@ -191,6 +193,30 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'cards', label: 'Cards', required: true, help: 'One card per line, as "front | back". The text before the first | is the question side; everything after it is the answer side. A line with no | is not a card and is skipped.' },
     ],
     markdownExample: `# Item\n\n## title\nCVS: Coronary anatomy\n\n## subject\ncvs\n\n## description\nQuick-fire recall for the major coronary vessels.\n\n## cards\nAorta | Largest artery in the body\nLAD | Supplies the anterior wall of the left ventricle\nRCA | Supplies the SA node in most people`,
+  },
+  essay: {
+    noun: 'written questions',
+    fields: [
+      ...common,
+      { key: 'prompt', label: 'Question prompt', required: true, help: 'The essay question shown to the student before they write.' },
+      { key: 'key_points', label: 'Key points', help: 'What a complete answer covers, one point per line. Prefix a line with "!" to mark it as one of the words an examiner scans for — a diagnosis, an enzyme, an organism — that the student should write legibly. At least one key point is required.' },
+      { key: 'examiner_note', label: 'What the examiner scans for', help: 'Guidance on how the answer is actually marked, shown to the student once they reveal it.' },
+      { key: 'model_answer', label: 'Model answer', help: 'A full written answer the student can compare their own against.' },
+    ],
+    markdownExample: `# Item\n\n## title\nRight heart failure\n\n## subject\ncvs\n\n## prompt\nDiscuss the causes and management of right heart failure.\n\n## key_points\n!Cor pulmonale\nRaised JVP\nPeripheral oedema\n!Hepatomegaly\n\n## examiner_note\nMarks are lost for listing causes without linking them to right-sided signs.\n\n## model_answer\nRight heart failure follows a rise in pulmonary vascular resistance...\n\n---\n\n# Item\n...`,
+  },
+  histology: {
+    noun: 'histology slides',
+    fields: [
+      ...common,
+      { key: 'tissue', label: 'Tissue', help: 'What the slide is a section of, e.g. "Small bowel".' },
+      { key: 'stain', label: 'Stain', help: 'How the section was stained, e.g. "H&E".' },
+      { key: 'description', label: 'Description', help: 'What to look for on the slide.' },
+      { key: 'image_4x', label: 'Image at 4x', help: 'Low-power field image URL.' },
+      { key: 'image_10x', label: 'Image at 10x', help: 'Mid-power field image URL.' },
+      { key: 'image_40x', label: 'Image at 40x', help: 'High-power field image URL. At least one of the three power images is required.' },
+    ],
+    markdownExample: `# Item\n\n## title\nIleum\n\n## subject\ngi\n\n## tissue\nSmall bowel\n\n## stain\nH&E\n\n## description\nVilli, crypts of Lieberkühn, and Peyer's patches in the submucosa.\n\n## image_4x\nhttps://media.example.edu/histology/ileum-4x.jpg\n\n## image_40x\nhttps://media.example.edu/histology/ileum-40x.jpg\n\n---\n\n# Item\n...`,
   },
 }
 
@@ -834,6 +860,16 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
       errors.push('A deck needs at least one card, written as "front | back"')
     }
   }
+  if (kind === 'essay') {
+    // A written question with nothing to mark against would leave the student
+    // ticking off nothing, which is the whole of the practice.
+    if (!parseKeyPoints(values.key_points).length) errors.push('At least one key point is required')
+  }
+  if (kind === 'histology') {
+    // A slide with no image cannot be looked at — the same rule
+    // `managedSlideToStudentSlide` enforces on the student side.
+    if (!slideViewsFrom(values).length) errors.push('At least one power image (4x, 10x, or 40x) is required')
+  }
   return errors
 }
 
@@ -885,6 +921,13 @@ function numberInRange(value: string, fallback: number, min: number, max: number
  */
 function optionalNumberInRange(value: string | undefined, fallback: number, min: number, max: number) {
   return value?.trim() ? numberInRange(value.trim(), fallback, min, max) : undefined
+}
+
+/** The views a row's `image_4x`/`image_10x`/`image_40x` columns describe, low power first. */
+function slideViewsFrom(values: Record<string, string>): SlideView[] {
+  return OBJECTIVES
+    .map((objective) => ({ objective, image: values[`image_${objective}x`]?.trim() ?? '' }))
+    .filter((view): view is SlideView => Boolean(view.image))
 }
 
 function stableHash(value: string) {
@@ -1087,6 +1130,36 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         description: values.description || '',
         cards: parseCardLines(values.cards ?? ''),
       },
+    }
+  }
+  if (kind === 'essay') {
+    const essayData: EssayAuthoringData = {
+      prompt: values.prompt || '',
+      keyPoints: parseKeyPoints(values.key_points),
+      examinerNote: values.examiner_note || '',
+      modelAnswer: values.model_answer || '',
+    }
+    return {
+      ...base,
+      fields: { Prompt: values.prompt || '', ExaminerNote: values.examiner_note || '' },
+      essayData,
+    }
+  }
+  if (kind === 'histology') {
+    const histologyData: HistologyAuthoringData = {
+      tissue: values.tissue || '',
+      stain: values.stain || '',
+      views: slideViewsFrom(values),
+      // Pins are deliberately not importable: clicking a point on an image is
+      // not a spreadsheet cell, so an imported slide arrives with its images
+      // and metadata and an empty `structures` array, to be labelled in the
+      // editor.
+      structures: [],
+    }
+    return {
+      ...base,
+      fields: { Tissue: values.tissue || '', Stain: values.stain || '', Description: values.description || '' },
+      histologyData,
     }
   }
   return {

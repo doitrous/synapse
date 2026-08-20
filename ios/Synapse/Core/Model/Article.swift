@@ -62,6 +62,14 @@ struct Article: Equatable, Identifiable, Sendable {
 struct EvidenceStore: Sendable {
     var claimIds: Set<String> = []
     var citationIds: Set<String> = []
+    /// The citations themselves, for showing a fact's sources.
+    ///
+    /// Only their ids were kept before, which is all the publication gate
+    /// needs — but a student asking "where does this come from" needs the
+    /// document, the page and the sentence it rests on.
+    var citations: [String: Citation] = [:]
+    /// Claim verification, by id.
+    var claims: [String: Claim] = [:]
     var spansById: [String: ArticleSpan] = [:]
     /// Spans grouped by `articleId|sectionId`, for the derived lookup.
     var spansBySection: [String: [ArticleSpan]] = [:]
@@ -84,7 +92,39 @@ struct EvidenceStore: Sendable {
         var isPDF: Bool { mediaType.lowercased() == "pdf" }
     }
 
-    struct ArticleSpan: Equatable, Sendable {
+    /// One exact source for a statement.
+    struct Citation: Equatable, Identifiable, Sendable {
+        let id: String
+        let resourceId: String
+        /// The page in the source document, when the citation names one.
+        let page: Int?
+        /// A locator that is not a page — a section, a figure, a timestamp.
+        let locatorLabel: String?
+        /// The sentence in the source that supports the statement.
+        let supportSpan: String?
+        /// Whether this is evidence for the claim itself or context for the
+        /// article. The web draws the distinction and so does this.
+        let countsAsClaimEvidence: Bool
+
+        /// What to show as the place: a page if there is one, otherwise
+        /// whatever locator the citation carries.
+        var placeLabel: String? {
+            if let page { return "Page \(page)" }
+            return locatorLabel
+        }
+    }
+
+    struct Claim: Equatable, Sendable {
+        let id: String
+        /// `verified`, `needs_review`, and the rest as authored.
+        let verificationStatus: String
+
+        var isVerified: Bool { verificationStatus == "verified" }
+        /// As authored, but readable: `needs_review` is not a phrase.
+        var label: String { verificationStatus.replacingOccurrences(of: "_", with: " ") }
+    }
+
+    struct ArticleSpan: Equatable, Identifiable, Sendable {
         let id: String
         let articleId: String
         let sectionId: String
@@ -100,10 +140,37 @@ struct EvidenceStore: Sendable {
         var store = EvidenceStore()
 
         for claim in root["claims"] as? [[String: Any]] ?? [] {
-            if let id = claim["id"] as? String { store.claimIds.insert(id) }
+            guard let id = claim["id"] as? String else { continue }
+            store.claimIds.insert(id)
+            store.claims[id] = Claim(
+                id: id,
+                verificationStatus: claim["verificationStatus"] as? String ?? "unverified"
+            )
         }
         for citation in root["citations"] as? [[String: Any]] ?? [] {
-            if let id = citation["id"] as? String { store.citationIds.insert(id) }
+            guard let id = citation["id"] as? String else { continue }
+            store.citationIds.insert(id)
+
+            // The locator is either an object with a page, or a bare string
+            // naming somewhere else in the document.
+            var page: Int?
+            var locatorLabel: String?
+            if let locator = citation["locator"] as? [String: Any] {
+                page = locator["page"] as? Int
+                locatorLabel = (locator["label"] as? String)?.nilIfEmpty
+                    ?? (locator["section"] as? String)?.nilIfEmpty
+            } else if let locator = (citation["locator"] as? String)?.nilIfEmpty {
+                locatorLabel = locator
+            }
+
+            store.citations[id] = Citation(
+                id: id,
+                resourceId: citation["resourceId"] as? String ?? "",
+                page: page,
+                locatorLabel: locatorLabel,
+                supportSpan: (citation["supportSpan"] as? String)?.nilIfEmpty,
+                countsAsClaimEvidence: citation["countsAsClaimEvidence"] as? Bool ?? true
+            )
         }
         for resource in root["resources"] as? [[String: Any]] ?? [] {
             guard let id = resource["id"] as? String else { continue }

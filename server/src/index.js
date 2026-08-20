@@ -33,6 +33,10 @@ import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
 } from './studyRooms.js'
 import {
+  createParty, joinByCode, setVisibility, myParties, openParties, partyFor, leaveParty,
+  createSession, sessionsFor, sessionFor, answerItem, closeSession,
+} from './parties.js'
+import {
   createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
 } from './challenges.js'
 import { invalidatePublishedQuestions } from './publishedQuestions.js'
@@ -564,6 +568,64 @@ app.post('/api/study-rooms/:id/answers', requireAuthenticated, wrap(async (req, 
 
 app.post('/api/study-rooms/:id/finish', requireAuthenticated, wrap(async (req, res) => {
   res.json(await finishRoom(req.identity.id, req.params.id))
+}))
+
+/* ── Study parties ───────────────────────────────────────────────────────── */
+
+app.post('/api/parties', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createParty(req.identity.id, req.body ?? {}))
+}))
+
+app.post('/api/parties/join', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await joinByCode(req.identity.id, req.body?.code))
+}))
+
+app.get('/api/parties/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ parties: await myParties(req.identity.id) })
+}))
+
+app.get('/api/parties/open', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ parties: await openParties(req.identity.id) })
+}))
+
+app.get('/api/parties/:id', requireAuthenticated, wrap(async (req, res) => {
+  const party = await partyFor(req.identity.id, req.params.id)
+  if (!party) return res.status(404).json({ error: 'party not found' })
+  res.json({ party })
+}))
+
+app.post('/api/parties/:id/visibility', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await setVisibility(req.identity.id, req.params.id, req.body?.visibility))
+}))
+
+app.post('/api/parties/:id/leave', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await leaveParty(req.identity.id, req.params.id))
+}))
+
+/* ── Study party sessions ────────────────────────────────────────────────── */
+
+app.post('/api/parties/:id/sessions', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createSession(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.get('/api/parties/:id/sessions', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ sessions: await sessionsFor(req.identity.id, req.params.id) })
+}))
+
+app.get('/api/party-sessions/:sessionId', requireAuthenticated, wrap(async (req, res) => {
+  const session = await sessionFor(req.identity.id, req.params.sessionId)
+  // A non-member gets the same answer as a non-existent session: whether a
+  // session exists is not something a stranger should be able to probe.
+  if (!session) return res.status(404).json({ error: 'session not found' })
+  res.json({ session })
+}))
+
+app.post('/api/party-sessions/:sessionId/answers', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await answerItem(req.identity.id, req.params.sessionId, req.body ?? {}))
+}))
+
+app.post('/api/party-sessions/:sessionId/close', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await closeSession(req.identity.id, req.params.sessionId))
 }))
 
 /* ── Challenges ──────────────────────────────────────────────────────────── */
@@ -1649,8 +1711,44 @@ app.get('/api/admin/assistant/models', requireAdmin, wrap(async (req, res) => {
   return res.json(result)
 }))
 
+/** Locales built as their own entry document — one per extra `input` in
+ *  `vite.config.ts`. Adding one there means adding it here. */
+const LOCALE_ENTRY_PATHS = ['en', 'ar']
+
 const PUBLIC_DIR = process.env.PUBLIC_DIR || join(__dirname, '..', 'public')
 if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
+  /* The localized entry documents, matched before anything else touches them.
+   *
+   * `/en` and `/ar` are real HTML files, built as separate Vite inputs, because
+   * a link crawler runs no JavaScript: WhatsApp, iMessage, Slack and Google see
+   * only what is in the document they are served. Their Open Graph card, their
+   * `lang`/`dir`, and their canonical URL therefore have to be in the file, and
+   * cannot be set by the SPA after it mounts.
+   *
+   * They must be matched here, above the static middleware, because that
+   * middleware would otherwise see `public/ar` as a directory and 301 `/ar` to
+   * `/ar/` — and then, with directory indexes off, decline to serve it and drop
+   * it into the catch-all below, which sends the English root document. That is
+   * what shipped: every crawler asking for the Arabic page was handed the
+   * English one, with the wrong card and a canonical pointing at `/`.
+   *
+   * Never cached, exactly like the root document: these are the files a deploy
+   * needs to be able to change.
+   *
+   * (`nginx.conf` used to carry this as `location = /en` blocks. It was never
+   * copied into the image by the Dockerfile — the production container is this
+   * server, not nginx — so it never ran. It has been deleted rather than left
+   * to describe routing that does not happen.)
+   */
+  for (const locale of LOCALE_ENTRY_PATHS) {
+    const document = join(PUBLIC_DIR, locale, 'index.html')
+    if (!existsSync(document)) continue
+    app.get([`/${locale}`, `/${locale}/`], (_req, res) => {
+      res.setHeader('Cache-Control', 'no-cache')
+      res.sendFile(document)
+    })
+  }
+
   app.use('/assets', express.static(join(PUBLIC_DIR, 'assets'), { index: false, maxAge: '1y', immutable: true }))
   app.use(express.static(PUBLIC_DIR, {
     index: false,

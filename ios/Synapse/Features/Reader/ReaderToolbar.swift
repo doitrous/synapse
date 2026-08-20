@@ -78,7 +78,7 @@ struct ReaderToolbar: View {
         }
         .padding(.vertical, 8)
         .padding(.horizontal, 5)
-        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: Theme.Radius.xxl))
+        .floatingChrome(in: RoundedRectangle(cornerRadius: Theme.Radius.xxl))
         .overlay(
             RoundedRectangle(cornerRadius: Theme.Radius.xxl).stroke(Theme.line, lineWidth: 1)
         )
@@ -168,9 +168,9 @@ struct ReaderToolbar: View {
     private func icon(_ symbol: String, active: Bool) -> some View {
         Image(systemName: symbol)
             .font(.system(size: 15))
-            .foregroundStyle(active ? Theme.onAccent : Theme.ink2)
+            .foregroundStyle(active ? Theme.onPrimary : Theme.ink2)
             .frame(width: 34, height: 31)
-            .background(active ? Theme.accent : Color.clear, in: RoundedRectangle(cornerRadius: Theme.Radius.md))
+            .background(active ? Theme.primary : Color.clear, in: RoundedRectangle(cornerRadius: Theme.Radius.md))
             .contentShape(Rectangle())
     }
 }

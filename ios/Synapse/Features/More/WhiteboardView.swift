@@ -28,7 +28,7 @@ struct WhiteboardView: View {
         GeometryReader { geometry in
             ZStack {
                 if isLoading {
-                    ProgressView().tint(Theme.accent)
+                    ProgressView().tint(Theme.primary)
                 } else {
                     canvas(geometry.size)
                 }
@@ -43,9 +43,9 @@ struct WhiteboardView: View {
         .toolbar {
             ToolbarItemGroup(placement: .topBarTrailing) {
                 Button { addNote() } label: { Image(systemName: "plus.square") }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                 Button { fitToContent() } label: { Image(systemName: "arrow.up.left.and.arrow.down.right") }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .disabled(board.notes.isEmpty)
             }
         }
@@ -123,7 +123,7 @@ struct WhiteboardView: View {
                     control1: link.c1.map { CGPoint(x: $0.x, y: $0.y) } ?? defaults.0,
                     control2: link.c2.map { CGPoint(x: $0.x, y: $0.y) } ?? defaults.1
                 )
-                context.stroke(path, with: .color(Theme.accentLine), lineWidth: 1.5)
+                context.stroke(path, with: .color(Theme.primaryLine), lineWidth: 1.5)
             }
         }
         .frame(width: BoardGeometry.size.width, height: BoardGeometry.size.height)
@@ -204,12 +204,12 @@ struct WhiteboardView: View {
                     )
                     .font(Theme.ui(13, weight: 500))
                 }
-                .tint(linkingFrom == nil ? Theme.accent : Theme.warning)
+                .tint(linkingFrom == nil ? Theme.primary : Theme.warning)
 
                 Button { editing = note } label: {
                     Label("Edit", systemImage: "pencil").font(Theme.ui(13, weight: 500))
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
 
                 Spacer()
                 Text("\(board.notes.count) note\(board.notes.count == 1 ? "" : "s")")
@@ -230,7 +230,7 @@ struct WhiteboardView: View {
         .padding(.horizontal, 16)
         .padding(.vertical, 10)
         .frame(maxWidth: .infinity)
-        .background(.ultraThinMaterial)
+        .floatingChrome(in: Rectangle())
     }
 
     // MARK: - Editing
@@ -331,20 +331,20 @@ private struct NoteCard: View {
     /// and the ink on top stays legible in either theme.
     private var background: Color {
         switch note.tone {
-        case "teal": Theme.accentTint
+        case "teal": Theme.primaryTint
         case "amber": Theme.warningTint
         case "rose": Theme.dangerTint
         case "sage": Theme.successTint
         case "slate": Theme.surface2
         case "sand": Theme.inset
-        case "clay": Theme.accentTint.opacity(0.55)
+        case "clay": Theme.primaryTint.opacity(0.55)
         default: Theme.surface
         }
     }
 
     private var border: Color {
         if isLinkSource { return Theme.warning }
-        if isSelected { return Theme.accent }
+        if isSelected { return Theme.primary }
         return Theme.line
     }
 }
@@ -374,7 +374,7 @@ private struct NoteEditorSheet: View {
                                     .frame(height: 36)
                                     .overlay(
                                         RoundedRectangle(cornerRadius: Theme.Radius.md)
-                                            .stroke(note.tone == tone ? Theme.accent : Theme.line,
+                                            .stroke(note.tone == tone ? Theme.primary : Theme.line,
                                                     lineWidth: note.tone == tone ? 2 : 1)
                                     )
                             }
@@ -403,13 +403,13 @@ private struct NoteEditorSheet: View {
 
     private func swatch(_ tone: String) -> Color {
         switch tone {
-        case "teal": Theme.accentTint
+        case "teal": Theme.primaryTint
         case "amber": Theme.warningTint
         case "rose": Theme.dangerTint
         case "sage": Theme.successTint
         case "slate": Theme.surface2
         case "sand": Theme.inset
-        case "clay": Theme.accentTint.opacity(0.55)
+        case "clay": Theme.primaryTint.opacity(0.55)
         default: Theme.surface
         }
     }

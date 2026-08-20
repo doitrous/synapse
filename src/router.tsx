@@ -73,8 +73,10 @@ const AdaptiveStudy = lazyNamed(() => import('@/pages/student/AdaptiveStudy'), '
 const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resources')
 const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
 const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'), 'MedicalTaxonomy')
+const TermGridPage = lazyNamed(() => import('@/components/termgrid/TermGridPage'), 'TermGridPage')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
 const Flashcards = lazyNamed(() => import('@/pages/student/Flashcards'), 'Flashcards')
+const EssayQuestions = lazyNamed(() => import('@/pages/student/EssayQuestions'), 'EssayQuestions')
 const CalendarPage = lazyNamed(() => import('@/pages/student/Calendar'), 'CalendarPage')
 const Performance = lazyNamed(() => import('@/pages/student/Performance'), 'Performance')
 const Whiteboard = lazyNamed(() => import('@/pages/student/Whiteboard'), 'Whiteboard')
@@ -106,6 +108,8 @@ const AdaptiveSetup = lazyNamed(() => import('@/pages/admin/AdaptiveSetup'), 'Ad
 const ResourcesSetup = lazyNamed(() => import('@/pages/admin/ResourcesSetup'), 'ResourcesSetup')
 const PracticalSetup = lazyNamed(() => import('@/pages/admin/PracticalSetup'), 'PracticalSetup')
 const FlashcardsSetup = lazyNamed(() => import('@/pages/admin/FlashcardsSetup'), 'FlashcardsSetup')
+const WrittenSetup = lazyNamed(() => import('@/pages/admin/WrittenSetup'), 'WrittenSetup')
+const HistologySetup = lazyNamed(() => import('@/pages/admin/HistologySetup'), 'HistologySetup')
 const ConceptsImportPage = lazyNamed(() => import('@/pages/admin/ConceptsImportPage'), 'ConceptsImportPage')
 const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImportPage'), 'RelationsImportPage')
 const MediaRequests = lazyNamed(() => import('@/pages/admin/MediaRequests'), 'MediaRequests')
@@ -123,8 +127,10 @@ const studentPages: Record<string, Preloadable> = {
   adaptive: AdaptiveStudy,
   resources: Resources,
   taxonomy: MedicalTaxonomy,
+  'term-grid': TermGridPage,
   practical: Practical,
   flashcards: Flashcards,
+  essays: EssayQuestions,
   calendar: CalendarPage,
   performance: Performance,
   whiteboard: Whiteboard,
@@ -158,6 +164,8 @@ const adminBuilt: Record<string, ReactElement> = {
   glossary: render(GlossarySetup),
   practical: render(PracticalSetup),
   flashcards: render(FlashcardsSetup),
+  written: render(WrittenSetup),
+  histology: render(HistologySetup),
   resources: render(ResourcesSetup),
   reports: render(ReportsReview),
   students: render(StudentsManagement),
@@ -173,8 +181,8 @@ const adminBuilt: Record<string, ReactElement> = {
   assistant: render(AssistantSetup),
 }
 
-const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
+const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'essays', 'resources', 'taxonomy', 'term-grid', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
