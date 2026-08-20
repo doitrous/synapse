@@ -2705,11 +2705,9 @@ git commit -m "Explain the wrong answers, not just the right one"
   ported from `src/data/attemptStats.ts`. Nothing in Android reads the month
   shards back yet; "previous sittings" is the first screen that needs to, and
   Task 17 needs the same module. Port `accuracyOf`, `dailyCounts`,
-  `currentStreak`, `distinctItems` and `bySession(records): List<SessionSummary>`,
-  where `data class SessionSummary(val sessionId: String, val startedAt: String, val endedAt: String, val attempts: Int, val marked: Int, val correct: Int)`.
-  Every day boundary uses **local** calendar components, matching
-  `localDay` (`src/data/attemptStats.ts:100`) and `AttemptStore.month`. A
-  student who studies at 11pm must not have it counted against tomorrow.
+  `currentStreak`, `distinctItems` and `bySession(records): List<SessionSummary>`.
+  Step 2 carries the exact signatures and the `SessionSummary` field set; use
+  them verbatim rather than inventing a shape here.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -2720,9 +2718,108 @@ git commit -m "Explain the wrong answers, not just the right one"
 @Test fun `previous sittings read from the attempt shards, not from the live session`()
 ```
 
-- [ ] **Step 2: Implement**
+- [ ] **Step 2: Port the read side of the attempt ledger**
 
-- [ ] **Step 3: Wire the Question Bank into the shell**
+Create `core/progress/AttemptStats.kt`. Task 5 built the write side; nothing in
+the app has ever read the month shards back, and this is the first screen that
+must. Task 17 consumes the same module, so build it here properly rather than
+deriving these figures inside a ViewModel.
+
+Port from `src/data/attemptStats.ts`. Every day and month boundary uses **local**
+calendar components, matching `localDay` (`:100`) and `AttemptStore.month` — a
+student who studies at 11pm must not have it counted against tomorrow.
+
+```kotlin
+object AttemptStats {
+    /** Attempts marked against a key. `correct == null` means nobody marked it. */
+    fun marked(records: List<AttemptRecord>): List<AttemptRecord>
+
+    /** Accuracy across marked attempts; null when nothing has been marked. */
+    fun accuracyOf(records: List<AttemptRecord>): Double?
+
+    /** Distinct items attempted -- coverage, not volume. Keyed "surface:itemId". */
+    fun distinctItems(records: List<AttemptRecord>): Int
+
+    /** One entry per day for the last [days] days, including the empty ones. */
+    fun dailyCounts(records: List<AttemptRecord>, days: Int, today: LocalDate = LocalDate.now()): List<DayCount>
+
+    /** Consecutive days ending today, or ending yesterday. */
+    fun currentStreak(records: List<AttemptRecord>, today: LocalDate = LocalDate.now()): Int
+
+    /** Sittings, newest first. */
+    fun bySession(records: List<AttemptRecord>): List<SessionSummary>
+}
+
+data class DayCount(val date: String, val attempts: Int, val marked: Int, val correct: Int)
+
+data class SessionSummary(
+    val sessionId: String,
+    /** When the first answer in the sitting was committed. */
+    val startedAt: String,
+    /** When the last one was. */
+    val endedAt: String,
+    val surface: String,
+    val answered: Int,
+    /** Answers actually marked -- a station is practice, not a score. */
+    val marked: Int,
+    val correct: Int,
+    val accuracy: Double?,
+    /** Distinct subjects covered, most-answered first. */
+    val subjectIds: List<String>,
+    val seconds: Int,
+)
+```
+
+Three behaviours are load-bearing and must be ported exactly, not approximated:
+
+- **`dailyCounts` emits every day in the window, including silent ones**
+  (`attemptStats.ts:109-126`). A chart needs the gaps as much as the activity;
+  dropping empty days compresses a fortnight of nothing into a solid week.
+- **`currentStreak` counts consecutive days ending today _or ending yesterday_**
+  (`attemptStats.ts:137-152`). Today having no attempts in it yet does not end
+  a streak — otherwise someone who studied daily for a month is told they are
+  on zero the moment they open the app in the morning. An empty *yesterday*,
+  with an empty today, is what ends it.
+- **`bySession` groups on `sessionId`, skipping records that carry none**, takes
+  `startedAt`/`endedAt` from the sorted `at` values rather than from insertion
+  order, computes accuracy over marked records only, orders `subjectIds`
+  most-answered first, sums `seconds` treating null as 0, and returns newest
+  first by `startedAt` (`attemptStats.ts:311-341`).
+
+**Which shards to read.** `AttemptIndex.months` is the list of months that have
+records; read those documents through `LocalStore`, newest first, and stop at
+twelve. Never enumerate shards by guessing keys, and never read a shard the
+index does not name — the index exists precisely so headline figures cost no
+shard reads.
+
+- [ ] **Step 3: Implement the two screens**
+
+**`ResultsScreen`** shows the sitting just finished, from the `LiveSession` in
+`phase == "results"`: score as `correct of answered (pct%)`, the elapsed clock
+when `mode == TIMED`, and a per-question list whose rows use `stateOf` from
+Task 14 so a skipped question reads as skipped. Guard the divide: a session
+with no questions must not render `NaN%` — the web bails out of exactly this
+case (`src/pages/student/QuestionBank.tsx:1143`).
+
+Omitted is reported separately from wrong. A question the student never
+answered is not a question they got wrong, and folding the two together
+understates accuracy and overstates effort.
+
+**`PreviousSittingsScreen`** lists `AttemptStats.bySession(...)` filtered to
+`surface == "qbank"`, newest first: name, date, answered count, accuracy.
+Names live under their own key, `synapse.qbank.sessionNames.v1`
+(`src/pages/student/QuestionBank.tsx:233`) — a sitting with no stored name
+falls back to its date, never to a raw `sessionId`.
+
+It reads the **shards**, never the live session document. A sitting that was
+finished and cleared still has its records; a live session that was abandoned
+without answers has none, and must not appear.
+
+A resumed sitting appears **once**. Every record it produced carries the same
+`sessionId` across both of its runs, so grouping on `sessionId` gives this for
+free — which is the reason the tests assert it.
+
+- [ ] **Step 4: Wire the Question Bank into the shell**
 
 Tasks 13 and 14 built the chooser, the builder and the runner without touching
 `RootScreen.kt`, so up to this point every one of those screens has been
@@ -2748,7 +2845,7 @@ Two rules for how that flow is expressed:
 
 Leave the `practical` route as it is; Task 16 owns it.
 
-- [ ] **Step 4: Run and commit**
+- [ ] **Step 5: Run and commit**
 
 ```bash
 git add android
