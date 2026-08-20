@@ -10,15 +10,19 @@ import com.synapse.android.core.model.AnswerOption
 import com.synapse.android.core.model.LedgerDecoder
 import com.synapse.android.core.model.Question
 import com.synapse.android.core.progress.AttemptIndex
+import com.synapse.android.core.progress.AttemptLedger
 import com.synapse.android.core.progress.AttemptMonth
 import com.synapse.android.core.progress.AttemptRecord
 import com.synapse.android.core.progress.AttemptStats
 import com.synapse.android.core.progress.AttemptStore
+import com.synapse.android.core.progress.DayCount
 import com.synapse.android.core.qbank.LiveSession
 import com.synapse.android.core.qbank.QuestionState
 import com.synapse.android.core.qbank.SittingMode
 import com.synapse.android.core.sync.SyncEngine
 import java.time.Instant
+import java.time.LocalDate
+import java.util.TimeZone
 import java.util.concurrent.ConcurrentHashMap
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
@@ -60,8 +64,16 @@ class ResultsTest {
     private val json = Json { ignoreUnknownKeys = true }
     private val namesSerializer = MapSerializer(String.serializer(), String.serializer())
 
+    // dailyCounts/currentStreak resolve "today" through the JVM's default
+    // zone (see AttemptStats.localDay) -- pinned to UTC for the run so a
+    // record timestamped mid-day never lands on a different calendar date
+    // than the test expects on a CI box with a different local zone.
+    private lateinit var originalTimeZone: TimeZone
+
     @Before
     fun setUp() {
+        originalTimeZone = TimeZone.getDefault()
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC"))
         server = MockWebServer()
         server.dispatcher = object : Dispatcher() {
             override fun dispatch(request: RecordedRequest): MockResponse {
@@ -86,6 +98,7 @@ class ResultsTest {
     fun tearDown() {
         server.shutdown()
         database.close()
+        TimeZone.setDefault(originalTimeZone)
     }
 
     // -- AttemptStats ----------------------------------------------------
@@ -102,6 +115,69 @@ class ResultsTest {
 
         assertEquals(0.5, AttemptStats.accuracyOf(records))
         assertNull(AttemptStats.accuracyOf(listOf(record(id = "a4", correct = null))))
+    }
+
+    @Test
+    fun `dailyCounts emits a silent day with zeros rather than dropping it`() {
+        val today = LocalDate.of(2026, 8, 19)
+        // 08-17 has one marked-correct attempt, 08-19 has one marked-wrong
+        // attempt, and 08-18 in between has nothing logged at all.
+        val records = listOf(
+            record(id = "d1", at = "2026-08-17T12:00:00Z", correct = true),
+            record(id = "d2", at = "2026-08-19T12:00:00Z", correct = false),
+        )
+
+        val days = AttemptStats.dailyCounts(records, days = 3, today = today)
+
+        assertEquals(3, days.size)
+        assertEquals(
+            DayCount(date = "2026-08-17", attempts = 1, marked = 1, correct = 1),
+            days.single { it.date == "2026-08-17" },
+        )
+        // The silent day: present, not dropped, and zeroed rather than
+        // inheriting a neighbour's counts.
+        assertEquals(
+            DayCount(date = "2026-08-18", attempts = 0, marked = 0, correct = 0),
+            days.single { it.date == "2026-08-18" },
+        )
+        assertEquals(
+            DayCount(date = "2026-08-19", attempts = 1, marked = 1, correct = 0),
+            days.single { it.date == "2026-08-19" },
+        )
+    }
+
+    @Test
+    fun `currentStreak crosses the today-yesterday boundary in both directions`() {
+        val today = LocalDate.of(2026, 8, 19)
+
+        // Active 08-16 through 08-18 (yesterday); nothing logged today yet.
+        // Today being silent so far must not zero the streak.
+        val endingYesterday = listOf(
+            record(id = "y1", at = "2026-08-16T12:00:00Z"),
+            record(id = "y2", at = "2026-08-17T12:00:00Z"),
+            record(id = "y3", at = "2026-08-18T12:00:00Z"),
+        )
+        assertEquals(3, AttemptStats.currentStreak(endingYesterday, today))
+
+        // Active 08-16 and 08-17, but both 08-18 (yesterday) and 08-19
+        // (today) are silent -- that is what actually ends a streak.
+        val brokenByTwoSilentDays = listOf(
+            record(id = "y4", at = "2026-08-16T12:00:00Z"),
+            record(id = "y5", at = "2026-08-17T12:00:00Z"),
+        )
+        assertEquals(0, AttemptStats.currentStreak(brokenByTwoSilentDays, today))
+    }
+
+    @Test
+    fun `distinctItems counts a repeated item once across two sittings`() {
+        // q1 attempted in two different sittings; q2 in one of them.
+        val records = listOf(
+            record(id = "s1:qbank:q1", sessionId = "s1", itemId = "q1"),
+            record(id = "s2:qbank:q1", sessionId = "s2", itemId = "q1"),
+            record(id = "s2:qbank:q2", sessionId = "s2", itemId = "q2"),
+        )
+
+        assertEquals(2, AttemptStats.distinctItems(records))
     }
 
     // -- ResultsViewModel --------------------------------------------------
@@ -190,6 +266,41 @@ class ResultsTest {
         val session = viewModel.build(SittingMode.TUTOR, count = 1)
 
         assertEquals("Cardio · Test 1", session.name)
+    }
+
+    // -- AttemptLedger -------------------------------------------------------
+
+    @Test
+    fun `the ledger caps at the newest twelve shards, never opening the thirteenth`() = runBlocking {
+        // Thirteen months in the index, 2025-01 (oldest) through 2026-01
+        // (newest, thirteen months later). The oldest is the thirteenth by
+        // recency, so the cap must exclude exactly it.
+        val months = (1..12).map { "2025-%02d".format(it) } + "2026-01"
+        val oldest = months.first()
+        val keptMonths = months.drop(1)
+        check(keptMonths.size == 12)
+
+        store.putDocument(AttemptStore.INDEX_KEY, json.encodeToString(AttemptIndex.serializer(), AttemptIndex(months = months)), null)
+
+        // The oldest shard's document is not valid AttemptMonth JSON at
+        // all -- if the cap ever slipped and this shard were opened,
+        // decoding it would throw and fail the test outright, rather than
+        // this test only being able to infer "never opened" from an absence
+        // that a merely-empty shard could produce just as easily.
+        store.putDocument(AttemptStore.monthKey(oldest), "not valid attempt-month json", null)
+
+        for (month in keptMonths) {
+            val monthDoc = AttemptStore.addAttempt(
+                AttemptMonth(month = month),
+                record(id = "$month:qbank:q1", at = "${month}-15T09:00:00Z"),
+            )
+            store.putDocument(AttemptStore.monthKey(month), json.encodeToString(AttemptMonth.serializer(), monthDoc), null)
+        }
+
+        val records = AttemptLedger.records(store)
+
+        assertEquals(12, records.size)
+        assertTrue(records.none { it.id.startsWith(oldest) })
     }
 
     // -- helpers -------------------------------------------------------
