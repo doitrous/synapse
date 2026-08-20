@@ -2588,6 +2588,7 @@ git commit -m "Explain the wrong answers, not just the right one"
 **Files:**
 - Create: `android/app/src/main/java/com/synapse/android/feature/qbank/ResultsScreen.kt`
 - Create: `android/app/src/main/java/com/synapse/android/feature/qbank/PreviousSittingsScreen.kt`
+- Modify: `android/app/src/main/java/com/synapse/android/feature/root/RootScreen.kt`
 - Test: `android/app/src/test/java/com/synapse/android/feature/qbank/ResultsTest.kt`
 
 **Interfaces:**
@@ -2603,7 +2604,35 @@ git commit -m "Explain the wrong answers, not just the right one"
 @Test fun `previous sittings read from the attempt shards, not from the live session`()
 ```
 
-- [ ] **Step 2: Implement, run, commit**
+- [ ] **Step 2: Implement**
+
+- [ ] **Step 3: Wire the Question Bank into the shell**
+
+Tasks 13 and 14 built the chooser, the builder and the runner without touching
+`RootScreen.kt`, so up to this point every one of those screens has been
+unreachable — the `qbank` route is still the stub Task 12 left. This is the
+task that replaces it, because this is the first point at which the whole
+flow exists to be wired.
+
+Replace the `qbank` stub with the flow, in this order:
+
+`TopicChooserScreen` -> `SessionBuilderScreen` -> `QuestionRunnerScreen` ->
+`ResultsScreen`, with `PreviousSittingsScreen` reachable from the chooser.
+
+Two rules for how that flow is expressed:
+
+- **A live session is resumed, not restarted.** On entering `qbank`, if
+  `LocalStore.documentFlow(LiveSession.KEY)` holds a session whose phase is
+  still running, go straight to the runner. A student who backgrounded the app
+  mid-sitting and came back to the chooser has lost their place, and the
+  session JSON is shared with the web and iOS clients, which both resume.
+- **Finishing a sitting must not leave the runner on the back stack.** Popping
+  back into a finished sitting is how a student ends up answering a test they
+  have already submitted.
+
+Leave the `practical` route as it is; Task 16 owns it.
+
+- [ ] **Step 4: Run and commit**
 
 ```bash
 git add android
@@ -2619,6 +2648,7 @@ git commit -m "Report what was skipped as skipped"
 - Create: `android/app/src/main/java/com/synapse/android/feature/practical/PracticalListScreen.kt`
 - Create: `android/app/src/main/java/com/synapse/android/feature/practical/PracticalReaderScreen.kt`
 - Create: `android/app/src/main/java/com/synapse/android/feature/practical/PracticalViewModel.kt`
+- Modify: `android/app/src/main/java/com/synapse/android/feature/root/RootScreen.kt`
 - Test: `android/app/src/test/java/com/synapse/android/core/practical/PracticalProgressTest.kt`
 - Test: `android/app/src/test/java/com/synapse/android/feature/practical/PracticalViewModelTest.kt`
 
@@ -2729,7 +2759,23 @@ invent a `"practical"` surface; nothing on the web would count it.
 @Test fun `a station with no mark scheme still opens`()
 ```
 
-- [ ] **Step 3: Implement, run, commit**
+- [ ] **Step 3: Implement**
+
+- [ ] **Step 4: Wire Practical into the shell**
+
+The `practical` route in `RootScreen.kt` is still the stub Task 12 left, so
+without this step everything above is unreachable. Replace it with
+`PracticalListScreen` -> `PracticalReaderScreen`.
+
+Task 15 wired the `qbank` route the same way and is the pattern to follow —
+read what it did rather than inventing a second convention. Leave the `qbank`
+and `account` routes alone.
+
+This is the last screen in milestone 1: after this step no route in the shell
+is a stub, and every screen the milestone builds is reachable from the nav
+graph.
+
+- [ ] **Step 5: Run and commit**
 
 ```bash
 git add android
@@ -2742,6 +2788,9 @@ git commit -m "Render five practical formats from one kind of item"
 
 - [ ] `cd android && ./gradlew :app:testDebugUnitTest` — all green, output pasted into the completion report.
 - [ ] `cd android && ./gradlew :app:assembleDebug` — `BUILD SUCCESSFUL`.
+- [ ] No route in `RootScreen.kt` is still a stub: `qbank` (Task 15) and
+      `practical` (Task 16) both reach real screens. A milestone whose screens
+      compile but cannot be opened has not shipped.
 - [ ] Install on a device or emulator and confirm by hand: sign in, sit five questions in tutor mode, force-quit mid-sitting, reopen and confirm the sitting resumes on the same question.
 - [ ] Turn on airplane mode, answer three more questions and tick an OSCE station, then reconnect and confirm Account's pending-writes count returns to zero.
 - [ ] Open the same account in the web app and confirm the attempts appear there — this is the end-to-end proof that the contract ports are right, and no unit test can substitute for it.
