@@ -33,6 +33,9 @@ import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
 } from './studyRooms.js'
 import {
+  createParty, joinByCode, setVisibility, myParties, openParties, partyFor, leaveParty,
+} from './parties.js'
+import {
   createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
 } from './challenges.js'
 import { invalidatePublishedQuestions } from './publishedQuestions.js'
@@ -564,6 +567,38 @@ app.post('/api/study-rooms/:id/answers', requireAuthenticated, wrap(async (req, 
 
 app.post('/api/study-rooms/:id/finish', requireAuthenticated, wrap(async (req, res) => {
   res.json(await finishRoom(req.identity.id, req.params.id))
+}))
+
+/* ── Study parties ───────────────────────────────────────────────────────── */
+
+app.post('/api/parties', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createParty(req.identity.id, req.body ?? {}))
+}))
+
+app.post('/api/parties/join', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await joinByCode(req.identity.id, req.body?.code))
+}))
+
+app.get('/api/parties/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ parties: await myParties(req.identity.id) })
+}))
+
+app.get('/api/parties/open', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ parties: await openParties(req.identity.id) })
+}))
+
+app.get('/api/parties/:id', requireAuthenticated, wrap(async (req, res) => {
+  const party = await partyFor(req.identity.id, req.params.id)
+  if (!party) return res.status(404).json({ error: 'party not found' })
+  res.json({ party })
+}))
+
+app.post('/api/parties/:id/visibility', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await setVisibility(req.identity.id, req.params.id, req.body?.visibility))
+}))
+
+app.post('/api/parties/:id/leave', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await leaveParty(req.identity.id, req.params.id))
 }))
 
 /* ── Challenges ──────────────────────────────────────────────────────────── */
