@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { Users, Globe, LogIn, Plus } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -48,6 +49,38 @@ export function PartiesPanel() {
   const [joinInput, setJoinInput] = useState('')
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
+
+  /**
+   * Walk in on the link, once.
+   *
+   * The link's whole point is that it works with nothing else done, so the code
+   * is spent here rather than asking a student to copy it out of their own
+   * address bar into the box below. Guarded by a ref rather than by the param,
+   * because clearing the param re-renders this effect before the URL change has
+   * landed and it would otherwise try the same code twice.
+   *
+   * A refusal is left on screen rather than swallowed: `wrong_cohort` covers
+   * both another year's party and a code naming nothing at all, and a student
+   * who followed a real link deserves to be told which of those happened as
+   * plainly as we can honestly put it.
+   */
+  const [searchParams, setSearchParams] = useSearchParams()
+  const spent = useRef<string | null>(null)
+  useEffect(() => {
+    const code = searchParams.get('party')
+    if (!code || spent.current === code) return
+    spent.current = code
+    void (async () => {
+      const result = await join(code.trim())
+      if (result?.ok && result.party) { setOpenPartyId(result.party.id); await reloadMine(); await reloadOpen() }
+      else setMessage(PARTY_REFUSALS[result?.reason ?? ''] ?? fallbackRefusal(t))
+      setSearchParams((current) => {
+        const next = new URLSearchParams(current)
+        next.delete('party')
+        return next
+      }, { replace: true })
+    })()
+  }, [searchParams, setSearchParams, join, reloadMine, reloadOpen, t])
 
   async function reloadAll() {
     await Promise.all([reloadMine(), reloadOpen()])

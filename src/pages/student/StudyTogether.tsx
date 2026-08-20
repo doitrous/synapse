@@ -402,6 +402,19 @@ export function StudyTogether() {
     })()
   }, [searchParams, setSearchParams, redeemInvite, t])
 
+  /**
+   * A party link opens the party, not just the page.
+   *
+   * The tab is this component's to choose, so arriving on `?party=` switches to
+   * it here; redeeming the code belongs to the panel that knows how, and clears
+   * the param when it is done. Without this the link lands a student on Shared
+   * tests with a code in the address bar and nothing telling them what to do
+   * with it — which is not a link, it is a puzzle.
+   */
+  useEffect(() => {
+    if (searchParams.get('party')) setTab('parties')
+  }, [searchParams])
+
   if (openRoomId) {
     return (
       <PageContainer>
