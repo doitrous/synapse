@@ -162,11 +162,11 @@ class AuthModel(
                 _state.value = AuthState.SignedIn(user)
                 _message.value = null
             } else {
-                // Not an error: Supabase knows this address and Synapse has
+                // Not an error: Supabase knows this address and Connect Cortex has
                 // no account for it yet.
                 _state.value = AuthState.SignedOut
                 if (explainFailure) {
-                    _message.value = "Signed in, but Synapse has no account for this address yet."
+                    _message.value = "Signed in, but Connect Cortex has no account for this address yet."
                 }
             }
         } catch (e: ApiError.Unauthorized) {
@@ -177,7 +177,7 @@ class AuthModel(
                 // unconfigured server, a suspended account and a clock skew
                 // is invisible -- naming one would send the reader after the
                 // wrong thing.
-                var text = "Your password was accepted, but Synapse rejected the session. " +
+                var text = "Your password was accepted, but Connect Cortex rejected the session. " +
                     "Please try again, or contact support if it keeps happening."
                 // Mirrors ios/Synapse/Core/Auth/AuthModel.swift:142-144: the
                 // same silent-failure risk exists here, since accessToken()
@@ -227,8 +227,8 @@ class AuthModel(
         fun describe(error: Throwable): String = when (error) {
             ApiError.Unauthorized -> "That session is no longer valid. Please sign in again."
             ApiError.Forbidden -> "This account doesn't have access to that."
-            is ApiError.Transient -> "Couldn't reach Synapse. Check your connection and try again."
-            is ApiError.Malformed -> "Synapse sent back something unexpected. Please try again."
+            is ApiError.Transient -> "Couldn't reach Connect Cortex. Check your connection and try again."
+            is ApiError.Malformed -> "Connect Cortex sent back something unexpected. Please try again."
             else -> error.message ?: "Something went wrong."
         }
     }
