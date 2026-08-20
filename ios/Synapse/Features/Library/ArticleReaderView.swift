@@ -15,6 +15,8 @@ struct ArticleReaderView: View {
     var evidence: EvidenceStore = .empty
     /// Open a source document at a page.
     var openSource: ((_ resourceId: String, _ page: Int?) -> Void)?
+    /// The concepts whose terms should be pressable in this article's prose.
+    var concepts = ConceptTerms()
 
     @State private var showingEvidence: EvidenceStore.ArticleSpan?
 
@@ -67,6 +69,7 @@ struct ArticleReaderView: View {
                 }
             }
         }
+        .environment(\.evidence, evidence)
         .sheet(item: $showingEvidence) { span in
             EvidenceDrawer(span: span, evidence: evidence, openSource: openSource)
         }
@@ -192,11 +195,7 @@ struct ArticleReaderView: View {
                 .padding(.top, 8)
 
         case .paragraph(let text):
-            Text(text)
-                .font(Theme.serifBody(17))
-                .foregroundStyle(Theme.ink)
-                .lineSpacing(6)
-                .textSelection(.enabled)
+            ConceptText(text, font: Theme.serifBody(17), index: concepts)
 
         case .callout(let title, let text):
             VStack(alignment: .leading, spacing: 4) {
@@ -229,11 +228,7 @@ struct ArticleReaderView: View {
                     .frame(width: 2)
 
                 VStack(alignment: .leading, spacing: 6) {
-                    Text(text)
-                        .font(Theme.serifBody(16))
-                        .foregroundStyle(Theme.ink)
-                        .lineSpacing(5)
-                        .textSelection(.enabled)
+                    ConceptText(text, font: Theme.serifBody(16), index: concepts)
 
                     if let span {
                         Button {
