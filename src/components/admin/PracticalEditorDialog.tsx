@@ -29,7 +29,9 @@ import { cn } from '@/lib/cn'
 import type { ConceptGraph } from '@/data/conceptGraph'
 import { EntityPicker, type PickerOption } from '@/components/admin/EntityPicker'
 import { ContentSourceFields } from '@/components/admin/ContentSourceFields'
-import { conceptOptions, contentOptions } from '@/components/admin/pickerOptions'
+import { conceptOptions, contentOptions, moduleOptions } from '@/components/admin/pickerOptions'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+import { YEARS } from '@/data/universities'
 import { useTaxonomyTree } from '@/data/taxonomyStore'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 
@@ -140,6 +142,8 @@ export function PracticalEditorDialog({ open, item, concepts, contentItems, onCl
   const [medicalTaxonomy] = useMedicalTaxonomy()
   const conceptPicks = useMemo(() => conceptOptions({ graph: concepts, taxonomy, medicalTaxonomy }), [concepts, taxonomy, medicalTaxonomy])
   const resourcePicks = useMemo(() => contentOptions(contentItems, 'resource'), [contentItems])
+  const [catalogue] = useUniversityCatalogue()
+  const modulePicks = useMemo(() => moduleOptions(catalogue), [catalogue])
 
   useEffect(() => { if (open) { const next = item ? { ...item, fields: { ...item.fields }, practicalData: seedData(item) } : blankItem(); setDraft(next); setActiveIndex(0); setOsceTab('candidate') } }, [item, open])
   useEffect(() => { if (!open) return; const handler = (event: KeyboardEvent) => event.key === 'Escape' && onClose(); window.addEventListener('keydown', handler); return () => window.removeEventListener('keydown', handler) }, [onClose, open])
@@ -155,8 +159,19 @@ export function PracticalEditorDialog({ open, item, concepts, contentItems, onCl
   const changeFormat = (value: string) => {
     const blank = value === 'Clinical case' ? newCase() : value === 'Lab interpretation' || value === 'Imaging interpretation' ? newLab(value === 'Imaging interpretation' ? 'Imaging' : 'Lab') : newOsce()
     // What the item is *about* does not change when its format does, so the
-    // concept tags, media requests and references survive the swap.
-    const next = { ...blank, references: data.references, conceptTags: data.conceptTags, mediaRequests: data.mediaRequests, ...(data.learningObjective ? { learningObjective: data.learningObjective } : {}) }
+    // concept tags, media requests, references and curriculum placement all
+    // survive the swap. Placement especially: dropping it here would silently
+    // unassign the station from the reviewer who owns it.
+    const next = {
+      ...blank,
+      references: data.references,
+      conceptTags: data.conceptTags,
+      mediaRequests: data.mediaRequests,
+      ...(data.learningObjective ? { learningObjective: data.learningObjective } : {}),
+      ...(data.universityIds ? { universityIds: data.universityIds } : {}),
+      ...(data.yearIds ? { yearIds: data.yearIds } : {}),
+      ...(data.moduleIds ? { moduleIds: data.moduleIds } : {}),
+    }
     setDraft((current) => ({ ...current, fields: { ...current.fields, Type: value }, practicalData: next }))
     setActiveIndex(0)
   }
@@ -172,7 +187,7 @@ export function PracticalEditorDialog({ open, item, concepts, contentItems, onCl
         audiences — but sitting outside the tab switch it rendered under Candidate
         and again under Examiner, reading as a duplicate. It stays with the
         candidate material, which is where the item is actually authored. */}
-    <div className="min-h-0 flex-1 overflow-y-auto"><div className="mx-auto max-w-[1180px] space-y-4 p-3 sm:p-5">{data.format === 'osce' ? <OsceEditor data={data} tab={osceTab} onTab={setOsceTab} onChange={updateData} resourcePicks={resourcePicks} /> : data.format === 'case' ? <CaseEditor data={data} index={activeIndex} onIndex={setActiveIndex} onChange={updateData} conceptPicks={conceptPicks} resourcePicks={resourcePicks} /> : <LabEditor data={data} index={activeIndex} onIndex={setActiveIndex} onChange={updateData} conceptPicks={conceptPicks} resourcePicks={resourcePicks} />}{(data.format !== 'osce' || osceTab === 'candidate') && <><TaggingPanel data={data} onChange={updateData} conceptPicks={conceptPicks} /><EditorShell title="Source" hint="Admin-only. Students are never shown where a practical item came from."><ContentSourceFields source={draft.source} onChange={(source) => setDraft((current) => ({ ...current, source }))} /></EditorShell></>}</div></div>
+    <div className="min-h-0 flex-1 overflow-y-auto"><div className="mx-auto max-w-[1180px] space-y-4 p-3 sm:p-5">{data.format === 'osce' ? <OsceEditor data={data} tab={osceTab} onTab={setOsceTab} onChange={updateData} resourcePicks={resourcePicks} /> : data.format === 'case' ? <CaseEditor data={data} index={activeIndex} onIndex={setActiveIndex} onChange={updateData} conceptPicks={conceptPicks} resourcePicks={resourcePicks} /> : <LabEditor data={data} index={activeIndex} onIndex={setActiveIndex} onChange={updateData} conceptPicks={conceptPicks} resourcePicks={resourcePicks} />}{(data.format !== 'osce' || osceTab === 'candidate') && <><TaggingPanel data={data} onChange={updateData} conceptPicks={conceptPicks} modulePicks={modulePicks} /><EditorShell title="Source" hint="Admin-only. Students are never shown where a practical item came from."><ContentSourceFields source={draft.source} onChange={(source) => setDraft((current) => ({ ...current, source }))} /></EditorShell></>}</div></div>
   </form></div>)
 }
 
@@ -193,10 +208,29 @@ function MarkSchemeEditor({ sections, onChange }: { sections: PracticalMarkSecti
  * read-only: they are fulfilled by attaching real media, not by editing the
  * request.
  */
-function TaggingPanel({ data, onChange, conceptPicks }: { data: PracticalAuthoringData; onChange: (data: PracticalAuthoringData) => void; conceptPicks: PickerOption[] }) {
+function TaggingPanel({ data, onChange, conceptPicks, modulePicks }: { data: PracticalAuthoringData; onChange: (data: PracticalAuthoringData) => void; conceptPicks: PickerOption[]; modulePicks: PickerOption[] }) {
   const tags = data.conceptTags
   const setTags = (patch: Partial<PracticalConceptTags>) => onChange({ ...data, conceptTags: { ...tags, ...patch } })
+  const toggleYear = (year: string) => onChange({
+    ...data,
+    yearIds: (data.yearIds ?? []).includes(year)
+      ? (data.yearIds ?? []).filter((id) => id !== year)
+      : [...(data.yearIds ?? []), year],
+  })
   return <div className="space-y-4">
+    {/* A station used to say nothing about where in the curriculum it sits,
+        which is why it could not be assigned to a reviewer. Left empty it stays
+        with the editors rather than going to whoever asked first. */}
+    <EditorShell title="Curriculum placement" hint="Who this station is for. Left empty it applies to every year, and only an editor can edit it.">
+      <EntityPicker label="Modules" noun="modules" options={modulePicks} selected={data.moduleIds ?? []} onChange={(moduleIds) => onChange({ ...data, moduleIds })} />
+      <p className="mb-1.5 mt-4 text-[11.5px] font-medium text-ink-2">Years <span className="font-normal text-ink-3">— leave empty for every year</span></p>
+      <div className="grid grid-cols-2 gap-1 sm:grid-cols-4">
+        {YEARS.map((year) => <label key={year} className="flex items-center gap-2 rounded px-1.5 py-1 text-[11.5px] text-ink-2 hover:bg-inset">
+          <input type="checkbox" className="accent-[var(--color-primary)]" checked={(data.yearIds ?? []).includes(year)} onChange={() => toggleYear(year)} />
+          {year.replace('Year ', 'Y')}
+        </label>)}
+      </div>
+    </EditorShell>
     <EditorShell title="What this teaches" hint="Contextual concepts are mentioned but not assessed, and receive no mastery evidence.">
       <div className="grid gap-4 sm:grid-cols-3">
         <EntityPicker label="Main concept(s)" noun="concepts" options={conceptPicks} selected={tags.mainConceptIds} onChange={(mainConceptIds) => setTags({ mainConceptIds })} />

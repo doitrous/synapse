@@ -13,7 +13,7 @@ import { pipeline } from 'node:stream/promises'
  * stops mid-stream, a temporary file opened with `wx` so two uploads cannot
  * collide, an atomic rename so a reader never sees a half-written book, a
  * path-traversal guard, and cleanup on every failure path. What it also had was
- * `requireAdmin` and a pre-qualified hash from the catalogue, neither of which a
+ * a tab guard and a pre-qualified hash from the catalogue, neither of which a
  * student's own lecture handout can have.
  *
  * Rather than loosen the library's gates to let students through them, the

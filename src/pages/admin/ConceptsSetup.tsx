@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useMemo, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Braces, BookOpenText, Plus, Save, Trash2, Check, Upload, TriangleAlert, ExternalLink, FileText, Database } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { ConceptNavigator } from '@/components/admin/ConceptNavigator'
+import { useScopedConcepts } from '@/lib/useScopedContent'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
@@ -234,6 +235,18 @@ export function ConceptsSetup() {
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [medicalTaxonomy] = useMedicalTaxonomy()
+  /**
+   * The navigator's graph, narrowed to what this person may edit.
+   *
+   * Only the browsing list is scoped, never `graph` itself. Every write takes
+   * the functional form, and the lookups above — the duplicate-id check, the
+   * label resolver — must still see the whole graph: a reviewer who cannot edit
+   * a concept must still be stopped from creating a second one with its id, and
+   * a related concept outside their scope should read as its name rather than
+   * as a bare identifier.
+   */
+  const scopedConcepts = useScopedConcepts(graph.concepts)
+  const navigatorGraph = useMemo(() => ({ ...graph, concepts: scopedConcepts }), [graph, scopedConcepts])
   const [selectedId, setSelectedId] = useState<string | null>(graph.concepts[0]?.id ?? null)
   const [creating, setCreating] = useState(false)
   const [importing, setImporting] = useState(false)
@@ -458,7 +471,7 @@ export function ConceptsSetup() {
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(19rem,22rem)_minmax(0,1fr)]">
         {/* ---- Navigator: stays put while the editor scrolls ---- */}
         <ConceptNavigator
-          graph={graph}
+          graph={navigatorGraph}
           taxonomy={taxonomy}
           medicalTaxonomy={medicalTaxonomy}
           selectedId={selectedId}
@@ -466,8 +479,8 @@ export function ConceptsSetup() {
           onRename={renameBranch}
           action={<Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="w-full">New concept</Button>}
           footer={<>
-            <span className="tnum font-mono font-medium text-ink-2">{graph.concepts.length}</span> concepts ·{' '}
-            <span className="tnum font-mono font-medium text-ink-2">{graph.concepts.filter((c) => !c.definition).length}</span> without a definition
+            <span className="tnum font-mono font-medium text-ink-2">{scopedConcepts.length}</span> concepts ·{' '}
+            <span className="tnum font-mono font-medium text-ink-2">{scopedConcepts.filter((c) => !c.definition).length}</span> without a definition
           </>}
           className="lg:sticky lg:top-[4.5rem] lg:max-h-[calc(100dvh-6rem)]"
         />

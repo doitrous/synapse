@@ -14,6 +14,9 @@ import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+import { useIdentity } from '@/lib/useIdentity'
+import { ROLE_LABEL, assignableRoles, type StoredRole } from '@/data/adminRoles'
+import { ReviewerScopeEditor } from '@/components/admin/ReviewerScopeEditor'
 import {
   useAdminUsers, fetchUser, grantSubscription, cancelSubscription,
   setAccess, sendPasswordReset, updateProfile, setUserRole, fetchUserActivity,
@@ -30,13 +33,21 @@ import {
  * reason is stored with the change and shown in the history below, which is what
  * makes an account decision auditable months later.
  */
+/** What the person confirming a role change is actually deciding. */
+const ROLE_CONSEQUENCE: Record<StoredRole, string> = {
+  student: 'They lose the admin console entirely and keep only the student app. The last account with console access cannot be demoted.',
+  reviewer: 'A reviewer works on medical content — library, questions, practicals, concepts and media — and only within the modules and years you assign them below. They see nothing else.',
+  admin: 'An admin runs operations: accounts, students, payments, vouchers, email and support. They cannot author or edit medical content.',
+  editor: 'An editor holds every console tab except Settings, Audit and Access Control, and can promote or demote anyone below them. They are not confined to any module or year.',
+}
+
 type PendingAction =
   | { kind: 'extend'; plan: string; days: number | null; note: string }
   | { kind: 'cancel'; immediate: boolean }
   | { kind: 'access'; status: 'active' | 'suspended' }
   | { kind: 'password' }
   | { kind: 'profile'; name: string; email: string; year: string; universityId: string; notes: string }
-  | { kind: 'role'; role: 'student' | 'admin' }
+  | { kind: 'role'; role: StoredRole }
 
 const PLAN_OPTIONS = ['Free', 'QBank', 'Adaptive', 'Adaptive add-on', 'Exam Sprint']
 
@@ -76,6 +87,7 @@ export function UsersManagement() {
   const { users, loading, error, load, passwordResetAvailable, setError } = useAdminUsers()
   const [filters, setFilters] = useState<UserFilters>({})
   const [query, setQuery] = useState('')
+  const identity = useIdentity()
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [detail, setDetail] = useState<AdminUserDetail | null>(null)
   const [detailLoading, setDetailLoading] = useState(false)
@@ -86,6 +98,19 @@ export function UsersManagement() {
   const [resetLink, setResetLink] = useState<string | null>(null)
   const [activity, setActivity] = useState<UserActivity | null>(null)
   const [activityBusy, setActivityBusy] = useState(false)
+  /**
+   * The roles this actor may give this person.
+   *
+   * The same function the server runs, so the control cannot offer a change the
+   * route would refuse. Their current role is dropped: "set them to what they
+   * already are" is not a choice, and offering it is how a one-option dropdown
+   * that does nothing gets built.
+   */
+  const offerableRoles = useMemo(
+    () => assignableRoles(identity.role ?? '', detail?.identity?.role ?? 'student')
+      .filter((role) => role !== detail?.identity?.role),
+    [identity.role, detail?.identity?.role],
+  )
 
   // Search is debounced into the server query rather than filtering in the
   // browser, because the list is capped server-side and a local filter would
@@ -137,7 +162,7 @@ export function UsersManagement() {
         setNotice(result.actionLink ? 'Recovery link generated. It is shown once — copy it now.' : 'Supabase issued the recovery email.')
       } else if (pending.kind === 'role') {
         await setUserRole(selectedId, { role: pending.role, reason })
-        setNotice(pending.role === 'admin' ? 'Promoted to admin.' : 'Demoted to student.')
+        setNotice(`Role changed to ${ROLE_LABEL[pending.role]}.`)
       } else if (pending.kind === 'profile') {
         await updateProfile(selectedId, {
           name: pending.name, email: pending.email, year: pending.year,
@@ -248,7 +273,7 @@ export function UsersManagement() {
                         ? <Badge tone="neutral">Never signed in</Badge>
                         : u.identity.accessStatus === 'suspended'
                           ? <Badge tone="danger">Suspended</Badge>
-                          : <Badge tone={u.identity.role === 'admin' ? 'primary' : 'success'}>{u.identity.role === 'admin' ? 'Admin' : 'Active'}</Badge>}
+                          : <Badge tone={u.identity.role && u.identity.role !== 'student' ? 'primary' : 'success'}>{u.identity.role && u.identity.role !== 'student' ? ROLE_LABEL[u.identity.role] : 'Active'}</Badge>}
                     </Td>
                   </Tr>
                 )
@@ -284,7 +309,7 @@ export function UsersManagement() {
                     {detail.identity
                       ? <Badge tone={detail.identity.accessStatus === 'suspended' ? 'danger' : 'success'}>{detail.identity.accessStatus === 'suspended' ? 'Suspended' : 'Can sign in'}</Badge>
                       : <Badge tone="neutral">Never signed in</Badge>}
-                    {detail.identity?.role === 'admin' && <Badge tone="primary">Admin</Badge>}
+                    {detail.identity?.role && detail.identity.role !== 'student' && <Badge tone="primary">{ROLE_LABEL[detail.identity.role]}</Badge>}
                   </div>
                 </div>
               </div>
@@ -327,10 +352,28 @@ export function UsersManagement() {
                       kind: 'profile', name: detail.name ?? '', email: detail.email ?? '',
                       year: detail.year ?? '', universityId: detail.universityId ?? '', notes: detail.notes ?? '',
                     })}>Edit profile</Button>
-                  <Button size="sm" variant="ghost" iconLeft={ShieldPlus} disabled={!detail.identity}
-                    onClick={() => setPending({ kind: 'role', role: detail.identity?.role === 'admin' ? 'student' : 'admin' })}>
-                    {detail.identity?.role === 'admin' ? 'Demote to student' : 'Make admin'}
-                  </Button>
+{/* Built from the same rule the server enforces, so nothing offered here
+                      can be refused. A super admin is stated, never offered: their
+                      role comes from the server's email allowlist and has no row
+                      to change. */}
+                  {detail.identity?.role === 'super_admin' ? (
+                    <span className="inline-flex items-center gap-1.5 text-[11.5px] text-ink-3">
+                      <Icon icon={ShieldPlus} size={14} />Super admin — set in server configuration
+                    </span>
+                  ) : offerableRoles.length > 0 ? (
+                    <Select
+                      aria-label="Change role"
+                      className="h-9 w-auto min-w-[10rem] text-[12.5px]"
+                      value=""
+                      disabled={!detail.identity}
+                      onChange={(event) => { if (event.target.value) setPending({ kind: 'role', role: event.target.value as StoredRole }) }}
+                    >
+                      <option value="">Change role…</option>
+                      {offerableRoles.map((role) => <option key={role} value={role}>{ROLE_LABEL[role]}</option>)}
+                    </Select>
+                  ) : (
+                    <span className="text-[11.5px] text-ink-3">Changing this person's role is above your level.</span>
+                  )}
                 </div>
 
                 {!detail.identity && (
@@ -340,6 +383,18 @@ export function UsersManagement() {
                   <p className="mt-2 text-[11.5px] text-ink-3">Password resets are unavailable until <span className="font-mono">SUPABASE_URL</span> and <span className="font-mono">SUPABASE_SERVICE_ROLE_KEY</span> are set on the server.</p>
                 )}
               </div>
+
+              {/* A reviewer is the only role confined to part of the catalogue,
+                  so this appears for them and nobody else. It is its own audited
+                  action rather than part of the promotion, because scope is
+                  changed far more often than the role that needs it. */}
+              {detail.identity?.role === 'reviewer' && (
+                <ReviewerScopeEditor
+                  userId={detail.id}
+                  scope={detail.identity.contentScope ?? null}
+                  onSaved={() => void openUser(detail.id)}
+                />
+              )}
 
               {/* ---- The confirm step, shared by every action ---- */}
               {pending && (
@@ -388,11 +443,7 @@ export function UsersManagement() {
                   )}
 
                   {pending.kind === 'role' && (
-                    <p className="mb-2 text-[12.5px] text-ink">
-                      {pending.role === 'admin'
-                        ? 'An admin can see and change every account, including this one. Grant it only to someone who should have that.'
-                        : 'They lose admin access immediately. The last remaining admin cannot be demoted.'}
-                    </p>
+                    <p className="mb-2 text-[12.5px] text-ink">{ROLE_CONSEQUENCE[pending.role]}</p>
                   )}
 
                   {pending.kind === 'profile' && (

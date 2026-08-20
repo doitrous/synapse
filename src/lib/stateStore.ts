@@ -1,4 +1,4 @@
-import { API_MODE, errorKind, getState, getUserState, isRetryable, putState, putUserState, stateOwnerId, type StateErrorKind } from './api'
+import { API_MODE, ApiError, errorKind, getState, getUserState, isRetryable, putState, putUserState, stateOwnerId, type StateErrorKind } from './api'
 import { isUserOwnedState } from './stateOwnership'
 import { recoveryCopyWins } from './statePrecedence'
 import { awaitsSession, hydrationRetryDelay, RETRY_MS } from './stateRetry'
@@ -31,6 +31,13 @@ export interface PersistentStateStatus {
   error: StateErrorKind | null
   /** True while a change is still on its way to the server. */
   pending: boolean
+  /**
+   * Why this save was refused, in a sentence for the person who made it.
+   *
+   * A status code cannot say which item somebody else edited, or which change
+   * was not this reviewer's to make. Cleared on the next successful read.
+   */
+  conflict: string | null
 }
 
 /**
@@ -67,6 +74,13 @@ interface Entry {
   retryTimer: number | null
   debounceTimer: number | null
   recoveryKey: string | null
+  /**
+   * The version this document was read at, sent with every save.
+   *
+   * Without it the server can only take a whole document on trust, which is how
+   * two people editing at once used to end with one of them losing everything.
+   */
+  version: number | null
   /** Consecutive 401s on this document, which decide when to stop asking. */
   unauthorizedAttempts: number
   /**
@@ -108,12 +122,13 @@ export function ensureEntry<T>(key: string, initial: T | (() => T)): Entry {
     key,
     userOwned: isUserOwnedState(key),
     value: local.found ? local.value : seed(),
-    status: { hydrated: !API_MODE, error: null, pending: false },
+    status: { hydrated: !API_MODE, error: null, pending: false, conflict: null },
     setter: (next) => setEntryValue(key, next),
-    snapshot: [undefined, () => undefined, { hydrated: false, error: null, pending: false }],
+    snapshot: [undefined, () => undefined, { hydrated: false, error: null, pending: false, conflict: null }],
     subscribers: new Set(),
     hydrated: !API_MODE,
     hydrating: false,
+    version: null,
     // What was just read is by definition already stored, so an unchanged
     // document does not rewrite itself on the first render that touches it.
     lastWritten: local.found ? JSON.stringify(local.value) : null,
@@ -164,8 +179,16 @@ function dropRecoveryCopy(entry: Entry): void {
   try { if (entry.recoveryKey) localStorage.removeItem(entry.recoveryKey) } catch { /* ignore */ }
 }
 
-function writeRemote(entry: Entry, value: unknown, keepalive = false): Promise<unknown> {
-  return entry.userOwned ? putUserState(entry.key, value, keepalive) : putState(entry.key, value)
+async function writeRemote(entry: Entry, value: unknown, keepalive = false): Promise<void> {
+  if (entry.userOwned) {
+    // A private document has one writer, so there is nothing to merge against.
+    await putUserState(entry.key, value, keepalive)
+    return
+  }
+  const result = await putState(entry.key, value, entry.version)
+  // Move to the version the server just wrote, or the next save would send a
+  // base it has already superseded and collide with itself.
+  if (result && typeof result.version === 'number') entry.version = result.version
 }
 
 /**
@@ -194,6 +217,24 @@ async function flush(entry: Entry): Promise<void> {
         await writeRemote(entry, pending.value)
       } catch (error) {
         const kind = errorKind(error)
+        if (kind === 'conflict' || kind === 'forbidden') {
+          // Neither is a transport failure and neither may be retried: the
+          // document moved, or this change was never this person's to make, so
+          // re-sending the same body would fail identically forever.
+          //
+          // The queued edit is dropped and the document re-read. That does lose
+          // the unsaved change — but keeping it would be worse: the next save
+          // would carry a base the server has already superseded, and applying
+          // it would revert whatever the other person just wrote. What must not
+          // happen, and no longer does, is losing it *silently*: `conflict`
+          // carries a sentence naming what collided.
+          entry.queued = null
+          dropRecoveryCopy(entry)
+          setStatus(entry, { error: kind, pending: false, conflict: refusalText(error, kind) })
+          entry.hydrated = false
+          hydrate(entry.key)
+          break
+        }
         if (!isRetryable(kind)) {
           if (awaitsSession(kind)) {
             // Not a decision about this document — a request that went out
@@ -233,6 +274,32 @@ async function flush(entry: Entry): Promise<void> {
   } finally {
     entry.writing = false
   }
+}
+
+/**
+ * What the server said, as a sentence rather than a status code.
+ *
+ * The two refusals carry different detail: a conflict names the items somebody
+ * else changed, a refusal names the changes that were not this person's to
+ * make. Both fall back to something true rather than something vague.
+ */
+function refusalText(error: unknown, kind: StateErrorKind): string {
+  const body = (error instanceof ApiError ? error.body : null) as {
+    reason?: string
+    conflicts?: string[]
+    refusals?: Array<{ reason?: string }>
+  } | null
+  if (body?.refusals?.length) {
+    return body.refusals.map((refusal) => refusal.reason).filter(Boolean).join('; ')
+  }
+  if (body?.conflicts?.length) {
+    return `Somebody else changed ${body.conflicts.join(', ')} while you were editing.`
+        + ' Their version has been loaded and your unsaved change to it was not applied.'
+  }
+  if (body?.reason) return body.reason
+  return kind === 'conflict'
+    ? 'Somebody else changed this while you were editing. Their version has been loaded and your unsaved change was not applied.'
+    : 'That change is not part of your role, so nothing was saved.'
 }
 
 /** Send anything buffered now, rather than when the debounce would have fired. */
@@ -323,6 +390,10 @@ export function hydrate(key: string): void {
       try { localStorage.removeItem(`synapse.pending.v1:user:${entry.key}`) } catch { /* ignore */ }
     }
 
+    // The version this document was read at. Every later save quotes it, so the
+    // server can tell this client's own changes from somebody else's.
+    entry.version = remote.version
+
     let recovered: { value: unknown; savedAt: string } | null = null
     try {
       const pending = entry.recoveryKey ? localStorage.getItem(entry.recoveryKey) : null
@@ -349,7 +420,7 @@ export function hydrate(key: string): void {
     entry.hydrating = false
     entry.unauthorizedAttempts = 0
     entry.awaitingSession = false
-    setStatus(entry, { hydrated: true, error: null })
+    setStatus(entry, { hydrated: true, error: null, conflict: null })
     notify(entry)
     void flush(entry)
   }

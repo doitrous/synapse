@@ -43,6 +43,7 @@ import { BackBar, backState } from '@/components/ui/BackBar'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
 import { useT } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
+import { hasConsoleAccess } from '@/data/adminRoles'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { MenuToggle } from '@/components/shell/MenuToggle'
 import { NewArticleDialog } from '@/components/library/NewArticleDialog'
@@ -1148,9 +1149,10 @@ export function Library() {
         ) : <span className="flex-1" />}
         <span className="flex-1 sm:hidden" />
         {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
-        {/* Authoring is an admin act. A student's own notes belong in the
-            notebook, which is where they already are. */}
-        {role === 'admin' && <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="shrink-0">{t('New article')}</Button>}
+        {/* Authoring belongs to the console, not to one role within it. A
+            student's own notes belong in the notebook, which is where they
+            already are. */}
+        {hasConsoleAccess(role ?? '') && <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="shrink-0">{t('New article')}</Button>}
       </header>
 
       <div className="min-h-0 flex-1">
@@ -1159,7 +1161,7 @@ export function Library() {
             availability={availability}
             empty={{
               title: t('No articles have been published yet'),
-              description: role === 'admin'
+              description: hasConsoleAccess(role ?? '')
                 ? t('Articles appear here once their status is Published. Drafts and items in review stay in Library Setup.')
                 : t('Your library is being written. Reviewed articles will appear here as they are published.'),
             }}
