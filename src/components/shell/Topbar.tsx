@@ -11,6 +11,7 @@ import { useI18n } from '@/lib/i18n'
 import { initialNotificationCampaigns, notificationAllowedByPrefs, notificationIsDue, notificationMatchesStudent, NOTIFICATION_READ_STORAGE_KEY, NOTIFICATION_STORAGE_KEY, type NotificationCampaign } from '@/data/notifications'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
+import { hasConsoleAccess } from '@/data/adminRoles'
 import { API_MODE } from '@/lib/api'
 
 function currentTitle(portal: Portal, pathname: string, tabs: readonly string[]): string {
@@ -63,7 +64,9 @@ export function Topbar({
   // exists solely to bounce them off its guard advertises a door with no key.
   // The demo has no backend and therefore no roles, so nothing is being
   // concealed there — both portals are simply open.
-  const canSwitchPortal = role === 'admin' || !API_MODE
+  // Anyone with the console can cross between the two portals — not only the
+  // one role that used to be the whole of it.
+  const canSwitchPortal = hasConsoleAccess(role ?? '') || !API_MODE
   const unreadCount = notifications.filter((notification) => !readIds.includes(notification.id)).length
   const popupNotification = notifications.find((notification) => notification.id === popupId)
 
