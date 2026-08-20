@@ -39,7 +39,32 @@ data class Practical(
     val debrief: String?,
     val references: List<String>,
 ) {
-    data class MarkSection(val id: String, val title: String, val items: List<String>)
+    /**
+     * One tickable point on the mark scheme.
+     *
+     * [id] is the *authored* id, and it has to be: the shared
+     * `synapse.practical.progress.v1` document stores a station's
+     * `checkedItems` as authored item ids, and the web restores a run with
+     * `checked.has(item.id)` (`PracticalRunner.tsx:227`, `:230`). A tick
+     * written under a positional key restores nothing on the web, and the
+     * web's restores nothing here.
+     */
+    data class MarkItem(val id: String, val text: String)
+
+    /**
+     * A block of the mark scheme.
+     *
+     * [marks] is the weight the whole section carries, not a per-item score.
+     * A station is scored by weighted section share -- see [earnedMarks] --
+     * so dropping this field puts a number in the shared document that means
+     * one thing on the phone and another on the web.
+     */
+    data class MarkSection(
+        val id: String,
+        val title: String,
+        val marks: Int,
+        val items: List<MarkItem>,
+    )
 
     data class Decision(
         val id: String,
@@ -47,9 +72,66 @@ data class Practical(
         val context: String,
         val prompt: String?,
         val answer: String?,
+        /**
+         * How many answers with non-blank text the author wrote for this
+         * decision. A stage with none is not a question -- the web filters
+         * it out of the run entirely (`PracticalRunner.tsx:421`) -- so it
+         * must not be counted towards `steps` here either. See
+         * [answerableDecisions].
+         */
+        val answerCount: Int,
     )
 
-    data class LabQuestion(val id: String, val prompt: String, val answer: String?)
+    data class LabQuestion(
+        val id: String,
+        val prompt: String,
+        val answer: String?,
+        /** As [Decision.answerCount]; the web's own filter is `PracticalRunner.tsx:544`. */
+        val answerCount: Int,
+    )
+
+    /**
+     * The decisions a student can actually be asked, in the order the web
+     * numbers them.
+     *
+     * `steps` in the shared document is "always the latest" while `lastStep`
+     * is a monotonic maximum, so counting unanswerable stages here would
+     * push `lastStep` above the `steps` the web later writes and leave the
+     * student reading "5 of 3". The attempt log's `itemId` is
+     * `"$caseId:$index"` against this same filtered list, so any reader must
+     * index into it, not into [decisions].
+     */
+    val answerableDecisions: List<Decision> get() = decisions.filter { it.answerCount > 0 }
+
+    /** As [answerableDecisions], for a lab or imaging set. */
+    val answerableQuestions: List<LabQuestion> get() = questions.filter { it.answerCount > 0 }
+
+    /**
+     * What a fully ticked mark scheme is worth: `Σ section.marks`
+     * (`PracticalRunner.tsx:181`). Distinct from [marks], which is the
+     * authored `Marks` *field* on the item -- the admin keeps them in step
+     * but a student's score must be computed from the sections that were
+     * actually ticked.
+     */
+    val totalMarks: Int get() = markSections.sumOf { it.marks }
+
+    /**
+     * What [ticked] is worth, by weighted section share:
+     * `Σ section.marks × (ticked in section / items in section)`, rounded --
+     * a verbatim port of `PracticalRunner.tsx:230`. A tick *count* is not
+     * this number, and writing one into `bestMarks` makes
+     * `recordStationRun` compare two different scales as if they were one.
+     */
+    fun earnedMarks(ticked: Set<String>): Int {
+        val earned = markSections.sumOf { section ->
+            if (section.items.isEmpty()) {
+                0.0
+            } else {
+                section.marks * (section.items.count { it.id in ticked }.toDouble() / section.items.size)
+            }
+        }
+        return kotlin.math.round(earned).toInt()
+    }
 }
 
 /** Builds a sittable practical from a ledger item. */
@@ -82,24 +164,44 @@ object PracticalProjection {
         )
     }
 
+    /**
+     * Reads a mark scheme as authored: `{ id, title, marks, items: [{ id, text }] }`
+     * (`PracticalMarkSectionDraft` in `src/data/contentControl.ts:347-352`).
+     *
+     * Tolerant on the way in, and deliberately so: a bare-string item, an
+     * item with no id, and a section with no `marks` must all still project
+     * rather than drop the section a student would otherwise never see. An
+     * item with no authored id falls back to `"$sectionId:$index"`; a
+     * section with no readable `marks` falls back to `0`, which is what the
+     * web's own importer does with an unparseable figure
+     * (`bulkImport.ts:267`).
+     */
     private fun markSectionsOf(raw: JsonElement?): List<Practical.MarkSection> {
         val array = raw as? JsonArray ?: return emptyList()
         return array.mapIndexedNotNull { index, entry ->
             val obj = entry.jsonObjectOrNull() ?: return@mapIndexedNotNull null
-            val items = (obj["items"] as? JsonArray)?.mapNotNull { itemElement ->
+            val sectionId = obj["id"]?.stringOrNull() ?: "sec-$index"
+            val items = (obj["items"] as? JsonArray)?.mapIndexedNotNull { itemIndex, itemElement ->
+                val fallbackId = "$sectionId:$itemIndex"
                 when (itemElement) {
                     is JsonPrimitive -> itemElement.contentOrNull?.trim()?.takeIf { it.isNotEmpty() }
+                        ?.let { Practical.MarkItem(id = fallbackId, text = it) }
                     else -> itemElement.jsonObjectOrNull()?.let { entryObject ->
-                        (entryObject["text"]?.stringOrNull() ?: entryObject["label"]?.stringOrNull())
-                            ?.trim()?.takeIf { it.isNotEmpty() }
+                        val text = (entryObject["text"]?.stringOrNull() ?: entryObject["label"]?.stringOrNull())
+                            ?.trim()?.takeIf { it.isNotEmpty() } ?: return@let null
+                        Practical.MarkItem(
+                            id = entryObject["id"]?.stringOrNull()?.trim()?.takeIf { it.isNotEmpty() } ?: fallbackId,
+                            text = text,
+                        )
                     }
                 }
             }.orEmpty()
             val title = obj["title"]?.stringOrNull()?.trim().orEmpty()
             if (items.isEmpty() && title.isEmpty()) return@mapIndexedNotNull null
             Practical.MarkSection(
-                id = obj["id"]?.stringOrNull() ?: "sec-$index",
+                id = sectionId,
                 title = title,
+                marks = obj["marks"]?.intOrNull() ?: 0,
                 items = items,
             )
         }
@@ -120,6 +222,7 @@ object PracticalProjection {
                     ?.trim()?.takeIf { it.isNotEmpty() },
                 answer = (obj["answer"]?.stringOrNull() ?: obj["explanation"]?.stringOrNull())
                     ?.trim()?.takeIf { it.isNotEmpty() },
+                answerCount = obj["answers"].nonBlankAnswerCount(),
             )
         }
     }
@@ -135,6 +238,7 @@ object PracticalProjection {
                 prompt = prompt,
                 answer = (obj["answer"]?.stringOrNull() ?: obj["explanation"]?.stringOrNull())
                     ?.trim()?.takeIf { it.isNotEmpty() },
+                answerCount = obj["answers"].nonBlankAnswerCount(),
             )
         }
     }
@@ -153,3 +257,19 @@ private fun JsonElement.stringOrNull(): String? = (this as? JsonPrimitive)?.cont
 
 private fun JsonElement.stringListOrEmpty(): List<String> =
     (this as? JsonArray)?.mapNotNull { it.stringOrNull() }.orEmpty()
+
+/** Reads a number authored either as a JSON number or as a string, the way `Duration` and `Marks` arrive. */
+private fun JsonElement.intOrNull(): Int? = (this as? JsonPrimitive)?.contentOrNull?.trim()?.toDoubleOrNull()?.toInt()
+
+/**
+ * How many of an authored `answers` array have non-blank text.
+ *
+ * The web's own filter, `answers.filter((answer) => answer.text.trim())`
+ * (`PracticalRunner.tsx:414`, `:542`), and the reason it exists: a stage
+ * with no options is not a question, and the runner used to invent three of
+ * them rather than skip it.
+ */
+private fun JsonElement?.nonBlankAnswerCount(): Int =
+    (this as? JsonArray)?.count { answer ->
+        !answer.jsonObjectOrNull()?.get("text")?.stringOrNull()?.trim().isNullOrEmpty()
+    } ?: 0

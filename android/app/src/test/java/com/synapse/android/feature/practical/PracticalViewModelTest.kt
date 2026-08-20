@@ -18,6 +18,8 @@ import java.util.concurrent.ConcurrentHashMap
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withTimeout
 import kotlinx.serialization.json.Json
 import okhttp3.OkHttpClient
@@ -118,15 +120,48 @@ class PracticalViewModelTest {
         value
     }
 
-    private suspend fun awaitMonth(minRecords: Int): AttemptMonth = withTimeout(5_000) {
-        val key = AttemptStore.monthKey(AttemptStore.month(java.time.Instant.now()))
-        var month = store.document(key)?.json?.let { json.decodeFromString(AttemptMonth.serializer(), it) }
+    private suspend fun thisMonth(): AttemptMonth? =
+        store.document(AttemptStore.monthKey(AttemptStore.month(java.time.Instant.now())))?.json
+            ?.let { json.decodeFromString(AttemptMonth.serializer(), it) }
+
+    /**
+     * [timeoutMs] is generous because a serialised write path is meant to be
+     * slow: twelve reveals are twelve turns through the lock, each of them
+     * two documents saved, queued and drained. Waiting too briefly would turn
+     * "this is correct but unhurried" into a red test.
+     */
+    private suspend fun awaitMonth(minRecords: Int, timeoutMs: Long = 20_000): AttemptMonth = withTimeout(timeoutMs) {
+        var month = thisMonth()
         while (month == null || month.records.size < minRecords) {
             delay(5)
-            month = store.document(key)?.json?.let { json.decodeFromString(AttemptMonth.serializer(), it) }
+            month = thisMonth()
         }
         month
     }
+
+    private suspend fun readIndex(): AttemptIndex =
+        store.document(AttemptStore.INDEX_KEY)?.json?.let { json.decodeFromString(AttemptIndex.serializer(), it) }
+            ?: AttemptIndex()
+
+    /**
+     * As [awaitMonth] and its [AttemptIndex] twin, but handing back whatever
+     * is stored when the wait runs out rather than failing on the timeout --
+     * so a test about *lost* records fails saying how many went missing
+     * instead of saying only that it waited.
+     */
+    private suspend fun awaitMonthOrGiveUp(minRecords: Int): AttemptMonth =
+        runCatching { awaitMonth(minRecords) }.getOrElse { thisMonth() ?: AttemptMonth(month = "none") }
+
+    private suspend fun awaitIndexOrGiveUp(minAttempts: Int): AttemptIndex = runCatching {
+        withTimeout(20_000) {
+            var index = readIndex()
+            while (index.totals.attempts < minAttempts) {
+                delay(5)
+                index = readIndex()
+            }
+            index
+        }
+    }.getOrElse { readIndex() }
 
     private suspend fun readProgress(): PracticalProgress =
         store.document(PRACTICAL_PROGRESS_KEY)?.json
@@ -296,6 +331,128 @@ class PracticalViewModelTest {
         assertEquals(expected, PRACTICAL_SKILLS.map { it.id }.toSet())
     }
 
+    /**
+     * A progress document written by a client that knows a station shape this
+     * one does not. Valid JSON; it will not decode here, because
+     * [com.synapse.android.core.practical.StationProgress] has no defaults.
+     * The cases, labs and skills in it are a real student's work.
+     */
+    private val fromAnotherClient =
+        """{"version":1,"stations":{"os-1":{"attempts":3,"score":{"marks":18,"outOf":20}}},""" +
+            """"cases":{"cc-1":{"status":"completed","lastStep":5,"steps":5,"lastAt":"2026-08-01T00:00:00Z"}},""" +
+            """"labs":{},"skills":{"sk-bp":{"status":"ready","lastAt":"2026-08-01T00:00:00Z"}}}"""
+
+    @Test
+    fun `an unreadable progress document is never overwritten with an empty one`() = runBlocking {
+        store.putDocument(PRACTICAL_PROGRESS_KEY, fromAnotherClient, null)
+        seed(practicalJson("os-1", "OSCE station", markSections = STATION_SECTION))
+        val viewModel = PracticalViewModel(store, sync)
+        withTimeout(5_000) { viewModel.items.first { it.size == 1 } }
+        viewModel.openStation("os-1", minutes = 8)
+        viewModel.tick("m1", true)
+
+        // The write path reads, folds and writes the *whole* document. If the
+        // read quietly yields an empty one, this single call erases a
+        // completed case and a signed-off skill -- on every client.
+        viewModel.finishStation("os-1", marks = 1, outOf = 2)
+
+        // Long enough for a wrong write to have landed. It logs an uncaught
+        // decode failure on the background scope, which is the point.
+        delay(300)
+        assertEquals(fromAnotherClient, store.document(PRACTICAL_PROGRESS_KEY)?.json)
+        assertTrue(store.outbox().none { it.key == PRACTICAL_PROGRESS_KEY })
+    }
+
+    @Test
+    fun `opening a station over an unreadable document still opens it`() = runBlocking {
+        // The other half of the rule: a read that writes nothing may fall
+        // back, because throwing here only costs the student the station.
+        store.putDocument(PRACTICAL_PROGRESS_KEY, fromAnotherClient, null)
+        seed(practicalJson("os-1", "OSCE station", markSections = STATION_SECTION))
+        val viewModel = PracticalViewModel(store, sync)
+        withTimeout(5_000) { viewModel.items.first { it.size == 1 } }
+
+        viewModel.openStation("os-1", minutes = 8)
+
+        assertTrue(viewModel.ticks.value.isEmpty())
+        assertEquals(8 * 60, viewModel.remaining.value)
+    }
+
+    @Test
+    fun `revealing every lab answer at once loses none of them`() = runBlocking {
+        val questions = (1..12).joinToString(",") {
+            """{"id":"q$it","prompt":"Question $it","answer":"A$it","answers":[{"id":"a$it","text":"A$it"}]}"""
+        }
+        seed(practicalJson("li-1", "Lab interpretation", questions = "[$questions]"))
+        val viewModel = PracticalViewModel(store, sync)
+        val lab = withTimeout(5_000) { viewModel.items.first { it.size == 1 } }.single()
+        assertEquals(12, lab.answerableQuestions.size)
+        viewModel.openLab(lab.id)
+
+        // Every Reveal is on screen at once; nothing stops a student hitting
+        // them in quick succession. Each call launches its own coroutine that
+        // reads the progress document and the month shard, folds, and writes
+        // both back -- so without a lock the later writes are folded onto
+        // stale reads and the earlier reveals simply vanish.
+        withContext(Dispatchers.Default) {
+            lab.answerableQuestions.forEachIndexed { index, question ->
+                viewModel.answerLabQuestion(lab.id, question.id, index, lab.answerableQuestions.size)
+            }
+        }
+
+        val month = awaitMonthOrGiveUp(12)
+        assertEquals(
+            (0 until 12).map { "li-1:$it" }.toSortedSet(),
+            month.records.filter { it.surface == "lab" }.map { it.itemId }.toSortedSet(),
+        )
+
+        runCatching { withTimeout(20_000) { while (readProgress().labs["li-1"]?.done != 12) delay(5) } }
+        assertEquals(12, readProgress().labs.getValue("li-1").done)
+
+        // The index is the other read-modify-write in the same critical
+        // section, and it is what every headline total is read from. A lost
+        // fold here is a student's attempt count quietly going backwards.
+        assertEquals(12, awaitIndexOrGiveUp(12).totals.attempts)
+    }
+
+    @Test
+    fun `leaving a station without finishing it banks nothing`() = runBlocking {
+        seed(practicalJson("os-1", "OSCE station", markSections = STATION_SECTION))
+        val viewModel = PracticalViewModel(store, sync)
+        withTimeout(5_000) { viewModel.items.first { it.size == 1 } }
+        viewModel.openStation("os-1", minutes = 8)
+        viewModel.tick("m1", true)
+
+        viewModel.abandonStation()
+
+        // The only other way out of a station banks a real attempt and a real
+        // score for a run that never happened.
+        delay(200)
+        assertNull(store.document(PRACTICAL_PROGRESS_KEY))
+        assertNull(store.document(AttemptStore.INDEX_KEY))
+        assertTrue(store.outbox().isEmpty())
+        assertTrue(viewModel.ticks.value.isEmpty())
+    }
+
+    @Test
+    fun `leaving a station does not erase what an earlier run banked`() = runBlocking {
+        seed(practicalJson("os-1", "OSCE station", markSections = STATION_SECTION))
+        val first = PracticalViewModel(store, sync)
+        withTimeout(5_000) { first.items.first { it.size == 1 } }
+        first.openStation("os-1", minutes = 8)
+        first.tick("m1", true)
+        first.finishStation("os-1", marks = 1, outOf = 2)
+        awaitDocument(PRACTICAL_PROGRESS_KEY)
+
+        val second = PracticalViewModel(store, sync)
+        second.openStation("os-1", minutes = 8)
+        second.tick("m2", true)
+        second.abandonStation()
+
+        delay(200)
+        assertEquals(listOf("m1"), readProgress().stations.getValue("os-1").checkedItems)
+    }
+
     @Test
     fun `an oral question writes neither progress nor an attempt`() = runBlocking {
         val viewModel = PracticalViewModel(store, sync)
@@ -306,5 +463,12 @@ class PracticalViewModelTest {
         delay(50)
         assertNull(store.document(PRACTICAL_PROGRESS_KEY))
         assertTrue(store.outbox().isEmpty())
+    }
+
+    private companion object {
+        /** Two authored mark items, ids and all, as the web writes them. */
+        const val STATION_SECTION =
+            """[{"id":"sec1","title":"Introduction","marks":2,""" +
+                """"items":[{"id":"m1","text":"Washes hands"},{"id":"m2","text":"Introduces self"}]}]"""
     }
 }

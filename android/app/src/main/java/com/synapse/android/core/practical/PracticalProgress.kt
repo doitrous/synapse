@@ -51,10 +51,18 @@ data class SkillProgress(val status: String, val lastAt: String)
  * The whole document. [stations], [cases], [labs] and [skills] must all
  * survive every re-encode, including the ones this app's own screens never
  * touch -- see this task's brief, "The one way this task loses a student's
- * work". A `@Serializable` data class with all four sections declared, and
- * `Json { ignoreUnknownKeys = true }` on read, is what makes that true: an
- * unfamiliar future key inside one of these sections is dropped, but never a
- * section itself.
+ * work". Declaring all four here, and reading the document whole rather than
+ * patching one section, is what makes that true: every station the web wrote
+ * comes back out of a fold this app made for a lab.
+ *
+ * What it does **not** buy is safety against the shared document *growing*.
+ * `Json { ignoreUnknownKeys = true }` lets an unfamiliar key through the
+ * decoder, but nothing carries it to the encoder, so it is gone on the way
+ * back out -- and a whole new top-level section the web adds later (say
+ * `"vivas"`) is an unfamiliar key like any other, dropped exactly the same
+ * way. Only the four sections named above survive an Android write. Any
+ * client adding a fifth has to be matched here before this app writes to a
+ * document that has one.
  */
 @Serializable
 data class PracticalProgress(

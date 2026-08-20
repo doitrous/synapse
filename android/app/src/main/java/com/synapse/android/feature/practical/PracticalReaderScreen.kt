@@ -9,14 +9,17 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.Tab
 import androidx.compose.material3.PrimaryTabRow
+import androidx.compose.material3.Tab
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -25,6 +28,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.synapse.android.core.model.Practical
@@ -34,6 +38,17 @@ import com.synapse.android.core.model.Practical
  * case, or a lab/imaging set. Skills and Oral are bundled lists rendered
  * inline on [PracticalListScreen] -- they are never "sat", so they have no
  * reader route here.
+ *
+ * Every screen below scrolls. `step` is not on the navigation back stack
+ * (see `RootScreen.PracticalRoute`), so a control pushed off the bottom of a
+ * phone by a long paragraph is not merely awkward -- it is unreachable, and
+ * in the case reader the control that goes first is the one that advances
+ * the case.
+ *
+ * Every screen below also has a way out that banks nothing. The only forward
+ * path out of a station is "Finish station", which writes a real attempt and
+ * a station-run fold; a student who opened the wrong item must not have to
+ * fake a sitting to leave it.
  */
 @Composable
 fun PracticalReaderScreen(practical: Practical, viewModel: PracticalViewModel, onExit: () -> Unit) {
@@ -41,13 +56,36 @@ fun PracticalReaderScreen(practical: Practical, viewModel: PracticalViewModel, o
         PracticalTab.OSCE -> StationReader(practical, viewModel, onExit)
         PracticalTab.CASES -> CaseReader(practical, viewModel, onExit)
         PracticalTab.LAB -> LabReader(practical, viewModel, onExit)
-        null -> Text("This item has no reader.")
+        null -> Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
+            Text("This item has no reader.")
+            TextButton(onClick = onExit) { Text("Back") }
+        }
     }
 }
 
 private fun clock(seconds: Int): String {
     val safe = seconds.coerceAtLeast(0)
     return "%d:%02d".format(safe / 60, safe % 60)
+}
+
+/**
+ * The in-screen way out, on the same row as the title.
+ *
+ * Task 15's convention (`PreviousSittingsScreen`): a plain "Back" the
+ * student can always see, rather than relying on the system gesture, which
+ * on these screens would leave the app rather than the reader.
+ */
+@Composable
+private fun ReaderHeader(title: String, trailing: String? = null, onBack: () -> Unit) {
+    Row(
+        modifier = Modifier.fillMaxWidth().padding(16.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        TextButton(onClick = onBack) { Text("Back") }
+        Text(title, style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
+        trailing?.let { Text(it, style = MaterialTheme.typography.titleMedium) }
+    }
 }
 
 @Composable
@@ -62,26 +100,38 @@ private fun StationReader(station: Practical, viewModel: PracticalViewModel, onE
     val totalItems = station.markSections.sumOf { it.items.size }
 
     if (finished) {
-        val checkedCount = ticks.size
-        Column(modifier = Modifier.fillMaxSize().padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(
+            modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
             Text("Station finished", style = MaterialTheme.typography.headlineSmall)
-            Text("$checkedCount / $totalItems items checked", style = MaterialTheme.typography.bodyMedium)
+            Text("${ticks.size} / $totalItems items checked", style = MaterialTheme.typography.bodyMedium)
+            Text(
+                "${station.earnedMarks(ticks)} / ${station.totalMarks} marks",
+                style = MaterialTheme.typography.bodyMedium,
+            )
             Button(onClick = onExit) { Text("Done") }
         }
         return
     }
 
+    // Leaving mid-run must bank nothing -- see abandonStation.
+    val leave = {
+        viewModel.abandonStation()
+        onExit()
+    }
+
     Column(modifier = Modifier.fillMaxSize()) {
-        Row(modifier = Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.SpaceBetween) {
-            Text(station.title, style = MaterialTheme.typography.titleMedium)
-            Text(clock(remaining), style = MaterialTheme.typography.titleMedium)
-        }
+        ReaderHeader(station.title, trailing = clock(remaining), onBack = leave)
         PrimaryTabRow(selectedTabIndex = tab) {
             Tab(selected = tab == 0, onClick = { tab = 0 }, text = { Text("Candidate") })
             Tab(selected = tab == 1, onClick = { tab = 1 }, text = { Text("Examiner & Actor") })
         }
         if (tab == 0) {
-            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Column(
+                modifier = Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+            ) {
                 Card {
                     Text(
                         "The actor brief and the mark scheme are behind the Examiner & Actor tab. " +
@@ -97,14 +147,19 @@ private fun StationReader(station: Practical, viewModel: PracticalViewModel, onE
             LazyColumn(modifier = Modifier.weight(1f).padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 station.markSections.forEach { section ->
                     item { Text(section.title, style = MaterialTheme.typography.titleSmall) }
-                    items(section.items.size) { index ->
-                        val tickId = "${section.id}:$index"
-                        Row(modifier = Modifier.fillMaxWidth()) {
+                    // Ticked under the *authored* item id, which is what the
+                    // shared document's checkedItems holds and what the web
+                    // restores a half-ticked run from. Deliberately not a
+                    // LazyColumn key, though: two sections of an imported
+                    // mark scheme can carry the same authored id, and a
+                    // duplicate key crashes the list outright.
+                    items(section.items) { markItem ->
+                        Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                             Checkbox(
-                                checked = tickId in ticks,
-                                onCheckedChange = { checked -> viewModel.tick(tickId, checked) },
+                                checked = markItem.id in ticks,
+                                onCheckedChange = { checked -> viewModel.tick(markItem.id, checked) },
                             )
-                            Text(section.items[index], style = MaterialTheme.typography.bodyMedium)
+                            Text(markItem.text, style = MaterialTheme.typography.bodyMedium)
                         }
                     }
                 }
@@ -112,7 +167,14 @@ private fun StationReader(station: Practical, viewModel: PracticalViewModel, onE
                     Button(
                         onClick = {
                             finished = true
-                            viewModel.finishStation(station.id, marks = ticks.size, outOf = totalItems)
+                            // Weighted section share, exactly as the web
+                            // scores it -- a tick count is a different scale,
+                            // and recordStationRun compares the two as one.
+                            viewModel.finishStation(
+                                station.id,
+                                marks = station.earnedMarks(ticks),
+                                outOf = station.totalMarks,
+                            )
                         },
                         modifier = Modifier.fillMaxWidth(),
                     ) { Text("Finish station") }
@@ -131,7 +193,10 @@ private fun CaseReader(case: Practical, viewModel: PracticalViewModel, onExit: (
     LaunchedEffect(case.id) { viewModel.openCase(case.id) }
 
     if (debrief) {
-        Column(modifier = Modifier.fillMaxSize().padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(
+            modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
             Text("Case debrief", style = MaterialTheme.typography.labelSmall)
             case.debrief?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
             Button(onClick = onExit) { Text("Finish case") }
@@ -139,9 +204,12 @@ private fun CaseReader(case: Practical, viewModel: PracticalViewModel, onExit: (
         return
     }
 
-    val decisions = case.decisions
+    // A stage the author gave no answerable options is not a decision -- see
+    // Practical.answerableDecisions. Indexing anywhere but this list would
+    // also put the wrong number in the attempt log's itemId.
+    val decisions = case.answerableDecisions
     if (decisions.isEmpty()) {
-        Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
+        Column(modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp)) {
             Text("This case has no decision points.", style = MaterialTheme.typography.bodyMedium)
             Button(onClick = onExit) { Text("Exit") }
         }
@@ -152,27 +220,32 @@ private fun CaseReader(case: Practical, viewModel: PracticalViewModel, onExit: (
     val isRevealed = decision.id in revealed
     val last = index == decisions.lastIndex
 
-    Column(modifier = Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text("${case.title} · step ${index + 1} / ${decisions.size}", style = MaterialTheme.typography.titleSmall)
-        Text(decision.title, style = MaterialTheme.typography.titleMedium)
-        Text(decision.context, style = MaterialTheme.typography.bodyMedium)
-        decision.prompt?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
+    Column(modifier = Modifier.fillMaxSize()) {
+        ReaderHeader("${case.title} · step ${index + 1} / ${decisions.size}", onBack = onExit)
+        Column(
+            modifier = Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 16.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Text(decision.title, style = MaterialTheme.typography.titleMedium)
+            Text(decision.context, style = MaterialTheme.typography.bodyMedium)
+            decision.prompt?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
 
-        if (isRevealed) {
-            Text("Decision rationale", style = MaterialTheme.typography.labelSmall)
-            Text(decision.answer.orEmpty(), style = MaterialTheme.typography.bodyMedium)
-        } else {
-            Button(
-                onClick = { viewModel.answerCaseDecision(case.id, decision.id, index, decisions.size) },
-                modifier = Modifier.fillMaxWidth(),
-            ) { Text("Reveal") }
-        }
-
-        Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
-            OutlinedButton(onClick = { if (index > 0) index -= 1 }, enabled = index > 0) { Text("Previous") }
             if (isRevealed) {
-                Button(onClick = { if (last) debrief = true else index += 1 }) {
-                    Text(if (last) "See the debrief" else "Next")
+                Text("Decision rationale", style = MaterialTheme.typography.labelSmall)
+                Text(decision.answer.orEmpty(), style = MaterialTheme.typography.bodyMedium)
+            } else {
+                Button(
+                    onClick = { viewModel.answerCaseDecision(case.id, decision.id, index, decisions.size) },
+                    modifier = Modifier.fillMaxWidth(),
+                ) { Text("Reveal") }
+            }
+
+            Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
+                OutlinedButton(onClick = { if (index > 0) index -= 1 }, enabled = index > 0) { Text("Previous") }
+                if (isRevealed) {
+                    Button(onClick = { if (last) debrief = true else index += 1 }) {
+                        Text(if (last) "See the debrief" else "Next")
+                    }
                 }
             }
         }
@@ -186,10 +259,12 @@ private fun LabReader(lab: Practical, viewModel: PracticalViewModel, onExit: () 
     LaunchedEffect(lab.id) { viewModel.openLab(lab.id) }
 
     val kindLabel = if (lab.type == "Imaging interpretation") "Imaging" else "Lab"
-    val questions = lab.questions
+    // As in CaseReader: only the questions the author gave answers to, so
+    // `items` and the attempt log's index mean what the web means by them.
+    val questions = lab.answerableQuestions
 
     Column(modifier = Modifier.fillMaxSize()) {
-        Text("$kindLabel · ${lab.title}", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(16.dp))
+        ReaderHeader("$kindLabel · ${lab.title}", onBack = onExit)
         LazyColumn(modifier = Modifier.weight(1f).padding(horizontal = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             itemsIndexed(questions) { index, question ->
                 val isRevealed = question.id in revealed

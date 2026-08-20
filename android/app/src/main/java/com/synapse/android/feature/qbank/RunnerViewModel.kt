@@ -6,10 +6,9 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.Question
-import com.synapse.android.core.progress.AttemptIndex
-import com.synapse.android.core.progress.AttemptMonth
 import com.synapse.android.core.progress.AttemptRecord
 import com.synapse.android.core.progress.AttemptStore
+import com.synapse.android.core.progress.writeAttempt
 import com.synapse.android.core.qbank.LiveSession
 import com.synapse.android.core.qbank.QuestionState
 import com.synapse.android.core.qbank.SittingMode
@@ -271,24 +270,17 @@ class RunnerViewModel(
     }
 
     /**
-     * Read-modify-write through the cache, never the API -- see this task's
-     * brief, step 2, "How". Two documents change per attempt: the month
-     * shard the record actually lives in, and the index that lets headline
-     * totals be read without opening every shard. [SyncEngine.write] saves
-     * each locally and queues it in one transaction, so an attempt made
-     * offline is queued rather than lost.
-     *
-     * [AttemptStore.addAttempt] refuses a record whose id already exists in
-     * the shard by handing back the exact same [AttemptMonth] instance it
-     * was given. That identity is the signal a duplicate call (e.g. [finish]
-     * somehow running twice) must not also fold into [AttemptIndex.totals]
-     * -- so when nothing changed, nothing is written, to either document.
+     * Banks one answered question through [writeAttempt] -- the single
+     * shared implementation of the read-modify-write, and of the dedupe
+     * invariant that stops [finish] somehow running twice from doubling the
+     * index's totals. This method's only job is to say what the record
+     * *is*; the practical surfaces say the same thing about theirs and hand
+     * it to the same writer.
      */
     private suspend fun recordAttempt(question: Question, label: String, seconds: Int?, sessionId: String) {
-        val now = Instant.now()
         val record = AttemptRecord(
             id = AttemptStore.attemptId(sessionId, SURFACE, question.id),
-            at = now.toString(),
+            at = Instant.now().toString(),
             surface = SURFACE,
             itemId = question.id,
             subjectId = question.subjectId,
@@ -299,19 +291,7 @@ class RunnerViewModel(
             seconds = seconds,
             sessionId = sessionId,
         )
-
-        val monthName = AttemptStore.month(now)
-        val monthKey = AttemptStore.monthKey(monthName)
-        val month = store.document(monthKey)?.json?.let { json.decodeFromString(AttemptMonth.serializer(), it) }
-            ?: AttemptMonth(month = monthName)
-        val updatedMonth = AttemptStore.addAttempt(month, record)
-        if (updatedMonth === month) return
-        sync.write(monthKey, json.encodeToString(AttemptMonth.serializer(), updatedMonth))
-
-        val index = store.document(AttemptStore.INDEX_KEY)?.json
-            ?.let { json.decodeFromString(AttemptIndex.serializer(), it) }
-            ?: AttemptIndex()
-        sync.write(AttemptStore.INDEX_KEY, json.encodeToString(AttemptIndex.serializer(), AttemptStore.index(index, record)))
+        writeAttempt(store, sync, record)
     }
 
     private fun warnUnresolved(questionId: String) {

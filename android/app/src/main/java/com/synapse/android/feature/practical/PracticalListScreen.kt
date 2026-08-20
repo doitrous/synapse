@@ -165,7 +165,14 @@ private fun CaseRow(case: Practical, status: String, onClick: () -> Unit) {
     Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
         Column(modifier = Modifier.weight(1f)) {
             Text("${case.title} · $label", style = MaterialTheme.typography.titleSmall)
-            Text("${case.minutes ?: 12} min · ${case.decisions.size} steps", style = MaterialTheme.typography.bodySmall)
+            // answerableDecisions, not decisions: this is the same count the
+            // reader writes into the shared document as `steps`, and a row
+            // promising four steps for a case the runner walks in three is
+            // the sort of drift a student notices and we never would.
+            Text(
+                "${case.minutes ?: 12} min · ${case.answerableDecisions.size} steps",
+                style = MaterialTheme.typography.bodySmall,
+            )
         }
         Button(onClick = onClick) { Text(cta) }
     }
@@ -177,8 +184,12 @@ private fun LabRow(lab: Practical, done: Int?, onClick: () -> Unit) {
     Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
         Column(modifier = Modifier.weight(1f)) {
             Text("$kindLabel · ${lab.title}", style = MaterialTheme.typography.titleSmall)
+            // As CaseRow: `done` is counted against the answerable questions,
+            // so the denominator has to be too, or a finished set reads
+            // "9 / 12 answered" forever.
+            val total = lab.answerableQuestions.size
             Text(
-                if (done != null) "$done / ${lab.questions.size} answered" else "${lab.questions.size} questions",
+                if (done != null) "$done / $total answered" else "$total questions",
                 style = MaterialTheme.typography.bodySmall,
             )
         }

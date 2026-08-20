@@ -13,10 +13,9 @@ import com.synapse.android.core.practical.recordCaseStep
 import com.synapse.android.core.practical.recordLabAnswered
 import com.synapse.android.core.practical.recordStationRun
 import com.synapse.android.core.practical.setSkillStatus
-import com.synapse.android.core.progress.AttemptIndex
-import com.synapse.android.core.progress.AttemptMonth
 import com.synapse.android.core.progress.AttemptRecord
 import com.synapse.android.core.progress.AttemptStore
+import com.synapse.android.core.progress.writeAttempt
 import com.synapse.android.core.sync.SyncEngine
 import java.time.Instant
 import kotlinx.coroutines.CoroutineScope
@@ -33,6 +32,9 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.flow.updateAndGet
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.serialization.json.Json
 
 /** Which of the list's three live tabs an authored [Practical.type] belongs on. A port of the routing in `useLivePracticals.ts:74-86`. */
@@ -76,14 +78,30 @@ fun practicalTab(type: String): PracticalTab? = when (type) {
  * [openStation].
  *
  * [finishStation], [answerCaseDecision] and [answerLabQuestion] all end in
- * [recordAttempt], which refuses a duplicate the same way
- * [com.synapse.android.feature.qbank.RunnerViewModel.recordAttempt] does:
- * [AttemptStore.addAttempt] hands back the exact [AttemptMonth] it was given
- * when the id already exists, and that identity check gates both the month
- * shard write and the index write, not just one of them. The `finished`-style
- * guards in this class (see [finishStation]) stop a second call from this
- * instance; the identity check is what also stops two *different* instances,
- * or a genuine retry, from double-counting.
+ * [recordAttempt], which hands the record to
+ * [com.synapse.android.core.progress.writeAttempt] -- the one shared
+ * implementation, used by the question bank runner too. It refuses a
+ * duplicate: [AttemptStore.addAttempt] hands back the exact
+ * [com.synapse.android.core.progress.AttemptMonth] it was given when the id
+ * already exists, and that identity check gates both the month shard write
+ * and the index write, not just one of them.
+ *
+ * **Every mutation runs inside [mutation].** The three methods above are
+ * driven by *independent* user taps -- a lab set shows every question's
+ * Reveal button at once -- so two of them a few hundred milliseconds apart
+ * used to start two coroutines that each read the progress document, each
+ * folded their own change onto what they read, and each wrote the whole
+ * thing back. Last write wins: one reveal silently vanishes, and so does one
+ * record from the month shard and one fold from the index totals. The
+ * duplicate check above does not help with that -- it prevents duplicates,
+ * not lost updates. Only serialising the whole read-fold-write path does,
+ * and the progress fold and the attempt write have to be inside the *same*
+ * critical section because both are read-modify-writes of documents the next
+ * tap is about to read.
+ *
+ * Note what a [Mutex] is not: it cannot serialise two *instances* of this
+ * class, or this app against the web. Those are resolved by
+ * [com.synapse.android.core.sync.SyncEngine]'s own precedence rules, not here.
  */
 class PracticalViewModel(
     private val store: LocalStore,
@@ -92,6 +110,9 @@ class PracticalViewModel(
 
     private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
     private val json = Json { ignoreUnknownKeys = true }
+
+    /** Serialises the whole read-fold-write path -- see the class doc. */
+    private val mutation = Mutex()
 
     val items: StateFlow<List<Practical>> = store.ledgerItems(ContentKind.PRACTICAL)
         .map { entries -> entries.filter { it.isStudentVisible }.mapNotNull(PracticalProjection::project) }
@@ -132,8 +153,13 @@ class PracticalViewModel(
         finishedStation = null
         openStationMinutes = minutes ?: DEFAULT_STATION_MINUTES
 
-        val current = loadProgress()
-        _ticks.value = current.stations[stationId]?.checkedItems?.toSet() ?: emptySet()
+        // Tolerant on purpose, and the only read here that is. Nothing is
+        // written from it: the worst an unreadable document costs is a run
+        // that starts with no ticks restored, which is a great deal better
+        // than throwing a student out of a station they can still sit. The
+        // *write* path must not do this -- see [loadProgress].
+        val current = runCatching { loadProgress() }.getOrNull()
+        _ticks.value = current?.stations?.get(stationId)?.checkedItems?.toSet() ?: emptySet()
         _remaining.update { openStationMinutes * 60 }
 
         tickerJob = backgroundScope.launch {
@@ -166,17 +192,39 @@ class PracticalViewModel(
         val sessionId = "station-$stationId-${millisBase36()}"
 
         backgroundScope.launch {
-            mutateProgress { recordStationRun(it, stationId, marks, outOf, checkedItems, nowIso()) }
-            recordAttempt(
-                surface = SURFACE_STATION,
-                itemId = stationId,
-                subjectId = item?.subjectId.orEmpty(),
-                topic = item?.title ?: stationId,
-                correct = null,
-                seconds = elapsedSeconds,
-                sessionId = sessionId,
-            )
+            mutation.withLock {
+                mutateProgress { recordStationRun(it, stationId, marks, outOf, checkedItems, nowIso()) }
+                recordAttempt(
+                    surface = SURFACE_STATION,
+                    itemId = stationId,
+                    subjectId = item?.subjectId.orEmpty(),
+                    topic = item?.title ?: stationId,
+                    correct = null,
+                    seconds = elapsedSeconds,
+                    sessionId = sessionId,
+                )
+            }
         }
+    }
+
+    /**
+     * Leaves an open station without banking it.
+     *
+     * A student who opened a station by mistake needs a way out that is not
+     * "Finish station" -- that button writes a real `"station"` attempt and a
+     * station-run fold for a run that never happened, putting a score nobody
+     * sat into their record. This stops the clock and drops the run's local
+     * state, and deliberately writes nothing at all: no progress fold, no
+     * attempt, nothing queued for the server. The ticks already stored from a
+     * *previous*, genuinely finished run are untouched, so reopening the
+     * station still resumes from them.
+     */
+    fun abandonStation() {
+        tickerJob?.cancel()
+        tickerJob = null
+        finishedStation = null
+        _ticks.value = emptySet()
+        _remaining.value = 0
     }
 
     /** Mints this case run's session id and clears any decisions revealed by a previous run. */
@@ -198,18 +246,20 @@ class PracticalViewModel(
         val item = items.value.firstOrNull { it.id == caseId }
         val sessionId = caseSessionId ?: "case-$caseId-${millisBase36()}"
         backgroundScope.launch {
-            mutateProgress {
-                recordCaseStep(it, caseId, lastStep = index + 1, steps = totalSteps, completed = index + 1 >= totalSteps, at = nowIso())
+            mutation.withLock {
+                mutateProgress {
+                    recordCaseStep(it, caseId, lastStep = index + 1, steps = totalSteps, completed = index + 1 >= totalSteps, at = nowIso())
+                }
+                recordAttempt(
+                    surface = SURFACE_CASE,
+                    itemId = "$caseId:$index",
+                    subjectId = item?.subjectId.orEmpty(),
+                    topic = item?.title ?: caseId,
+                    correct = null,
+                    seconds = null,
+                    sessionId = sessionId,
+                )
             }
-            recordAttempt(
-                surface = SURFACE_CASE,
-                itemId = "$caseId:$index",
-                subjectId = item?.subjectId.orEmpty(),
-                topic = item?.title ?: caseId,
-                correct = null,
-                seconds = null,
-                sessionId = sessionId,
-            )
         }
     }
 
@@ -221,34 +271,44 @@ class PracticalViewModel(
 
     /**
      * Reveals question [index] of [labId] and folds it into
-     * [PracticalProgress.labs]. `done` is the pre-reveal count of already
-     * revealed answers plus one, matching the web's `checked.size + 1`
+     * [PracticalProgress.labs]. `done` is how many answers stand revealed
+     * once this one has landed, matching the web's `checked.size + 1`
      * (captured before its own reveal lands).
+     *
+     * That count comes off the value [MutableStateFlow.updateAndGet]
+     * actually committed, not off a read taken before it: a lab set shows
+     * every Reveal button at once, so two taps a moment apart would both
+     * read the pre-reveal size and both claim to be `done = 1`. The lambda
+     * stays pure -- `updateAndGet` is a compare-and-set retry loop and may
+     * run it more than once.
      */
     fun answerLabQuestion(labId: String, questionId: String, index: Int, totalItems: Int) {
         if (questionId in _revealed.value) return
-        val done = _revealed.value.size + 1
-        _revealed.update { it + questionId }
+        val done = _revealed.updateAndGet { it + questionId }.size
 
         val item = items.value.firstOrNull { it.id == labId }
         val sessionId = labSessionId ?: "lab-$labId-${millisBase36()}"
         backgroundScope.launch {
-            mutateProgress { recordLabAnswered(it, labId, done = done, items = totalItems, at = nowIso()) }
-            recordAttempt(
-                surface = SURFACE_LAB,
-                itemId = "$labId:$index",
-                subjectId = item?.subjectId.orEmpty(),
-                topic = item?.title ?: labId,
-                correct = null,
-                seconds = null,
-                sessionId = sessionId,
-            )
+            mutation.withLock {
+                mutateProgress { recordLabAnswered(it, labId, done = done, items = totalItems, at = nowIso()) }
+                recordAttempt(
+                    surface = SURFACE_LAB,
+                    itemId = "$labId:$index",
+                    subjectId = item?.subjectId.orEmpty(),
+                    topic = item?.title ?: labId,
+                    correct = null,
+                    seconds = null,
+                    sessionId = sessionId,
+                )
+            }
         }
     }
 
     /** Cycles a bundled skill's status. Writes [PracticalProgress.skills] only -- never an attempt; there is nothing to attempt here. */
     fun markSkill(skillId: String, status: String) {
-        backgroundScope.launch { mutateProgress { setSkillStatus(it, skillId, status, nowIso()) } }
+        backgroundScope.launch {
+            mutation.withLock { mutateProgress { setSkillStatus(it, skillId, status, nowIso()) } }
+        }
     }
 
     /** Reveals an oral question's model answer. Purely local -- no progress write, no attempt, matching `OralTab`'s own reveal toggle. */
@@ -256,10 +316,26 @@ class PracticalViewModel(
         _revealed.update { it + questionId }
     }
 
-    /** A direct one-shot read, bypassing [progress] -- see the class doc. */
+    /**
+     * A direct one-shot read, bypassing [progress] -- see the class doc.
+     *
+     * **Throws if the stored document will not decode, and must keep
+     * throwing.** No document yet is `null`, and that is the only thing that
+     * legitimately becomes an empty [PracticalProgress]. A document that is
+     * *there* but unreadable is something else entirely: fold an empty
+     * document over it and the very next [mutateProgress] writes that empty
+     * document back over a real one, erasing the student's `stations`,
+     * `cases`, `labs` and `skills` in a single write, on every client. That
+     * is exactly the loss this task's brief exists to prevent, arriving
+     * through a different door. Every other persisted student document in
+     * this app is decoded the same throwing way -- see
+     * `RunnerViewModel.recordAttempt` and `QuestionBankViewModel.readNames`.
+     * [progress], which only ever paints a screen, is the one place a
+     * fallback is right.
+     */
     private suspend fun loadProgress(): PracticalProgress =
         store.document(PRACTICAL_PROGRESS_KEY)?.json
-            ?.let { runCatching { json.decodeFromString(PracticalProgress.serializer(), it) }.getOrNull() }
+            ?.let { json.decodeFromString(PracticalProgress.serializer(), it) }
             ?: PracticalProgress()
 
     /**
@@ -267,6 +343,9 @@ class PracticalViewModel(
      * writes the whole document back -- never just the section this call
      * touched. That is what lets a section this app never touches (see this
      * task's brief) survive every write here.
+     *
+     * Call it inside [mutation] -- the read and the write are not atomic on
+     * their own.
      */
     private suspend fun mutateProgress(transform: (PracticalProgress) -> PracticalProgress): PracticalProgress {
         val updated = transform(loadProgress())
@@ -275,8 +354,10 @@ class PracticalViewModel(
     }
 
     /**
-     * A direct port of [com.synapse.android.feature.qbank.RunnerViewModel.recordAttempt]'s
-     * read-modify-write, adapted to the surfaces this screen writes.
+     * Describes one practical attempt and hands it to
+     * [com.synapse.android.core.progress.writeAttempt], the shared writer the
+     * question bank uses too.
+     *
      * [difficulty] is always the literal [DIFFICULTY_MODERATE] -- confirmed
      * against `PracticalRunner.tsx` (lines 211, 455, 574), the web hardcodes
      * `'Moderate'` on every one of these three calls rather than reading the
@@ -291,10 +372,9 @@ class PracticalViewModel(
         seconds: Int?,
         sessionId: String,
     ) {
-        val now = Instant.now()
         val record = AttemptRecord(
             id = AttemptStore.attemptId(sessionId, surface, itemId),
-            at = now.toString(),
+            at = Instant.now().toString(),
             surface = surface,
             itemId = itemId,
             subjectId = subjectId,
@@ -305,19 +385,7 @@ class PracticalViewModel(
             seconds = seconds,
             sessionId = sessionId,
         )
-
-        val monthName = AttemptStore.month(now)
-        val monthKey = AttemptStore.monthKey(monthName)
-        val month = store.document(monthKey)?.json?.let { json.decodeFromString(AttemptMonth.serializer(), it) }
-            ?: AttemptMonth(month = monthName)
-        val updatedMonth = AttemptStore.addAttempt(month, record)
-        if (updatedMonth === month) return
-        sync.write(monthKey, json.encodeToString(AttemptMonth.serializer(), updatedMonth))
-
-        val index = store.document(AttemptStore.INDEX_KEY)?.json
-            ?.let { json.decodeFromString(AttemptIndex.serializer(), it) }
-            ?: AttemptIndex()
-        sync.write(AttemptStore.INDEX_KEY, json.encodeToString(AttemptIndex.serializer(), AttemptStore.index(index, record)))
+        writeAttempt(store, sync, record)
     }
 
     private fun nowIso(): String = Instant.now().toString()
