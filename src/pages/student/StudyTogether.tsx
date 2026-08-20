@@ -19,6 +19,7 @@ import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useMastery } from '@/lib/useMastery'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
+import { attemptSeconds } from '@/data/attempts'
 import { ROOM_REFUSALS, useMyRooms, useRoom, useStudyRoomActions } from '@/lib/useStudyRooms'
 import { FRIEND_REFUSALS, useFriends, type FriendProfile } from '@/lib/useFriends'
 import { useMyChallenges, useChallengeActions } from '@/lib/useChallenges'
@@ -65,6 +66,32 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
 
   const byId = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions])
   const answeredIds = useMemo(() => new Set(room?.myAnswers.map((entry) => entry.questionId) ?? []), [room])
+
+  // Which question is being asked, derived above the early returns below so the
+  // effect that times it can be a hook like any other.
+  const remaining = useMemo(
+    () => (room?.questionIds ?? []).filter((id) => !answeredIds.has(id)),
+    [room, answeredIds],
+  )
+  const currentId = remaining[Math.min(idx, Math.max(0, remaining.length - 1))]
+
+  /*
+   * When the question on screen appeared.
+   *
+   * A timed room recorded `seconds: null` against every answer — the column was
+   * written, the room's own `timed` flag was set, and the value was always
+   * empty — so the one mode built around a clock was the one that measured
+   * nothing. There is no clock on screen here and there should not be: this is
+   * measured, not displayed.
+   *
+   * Keyed on the question rather than reset from the Next handler, because Next
+   * is not the only thing that changes it: skipping an archived question does,
+   * and so does the poll bringing back a room this student has answered more of
+   * elsewhere. Starting from when the question actually appears also keeps the
+   * reload that fetches it out of the next question's time.
+   */
+  const questionShownAt = useRef(Date.now())
+  useEffect(() => { questionShownAt.current = Date.now() }, [currentId])
 
   if (!room) {
     return <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the shared test…')}</Panel>
@@ -216,8 +243,6 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
   }
 
   /* ---- Running ------------------------------------------------------- */
-  const remaining = room.questionIds.filter((id) => !answeredIds.has(id))
-  const currentId = remaining[Math.min(idx, Math.max(0, remaining.length - 1))]
   const question = currentId ? byId.get(currentId) : undefined
 
   if (!remaining.length) {
@@ -244,8 +269,12 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
 
   async function commit() {
     if (chosen === null || !question) return
+    // Read before the request, not after it: the student stopped thinking when
+    // they pressed Submit, and how long the server took to mark it is not time
+    // they spent on the question.
+    const seconds = attemptSeconds(room!.timed, questionShownAt.current, Date.now())
     setBusy(true)
-    const result = await answer(room!.id, { questionId: question.id, chosenIndex: chosen, seconds: null })
+    const result = await answer(room!.id, { questionId: question.id, chosenIndex: chosen, seconds })
     setBusy(false)
     if (!result.ok) return
     setVerdict({ correct: Boolean(result.correct), correctIndex: result.correctIndex ?? -1 })
@@ -260,7 +289,7 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
       difficulty: question.difficulty,
       conceptIds,
       correct: Boolean(result.correct),
-      seconds: null,
+      seconds,
       sessionId: `room-${room!.id}`,
     })
   }

@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  addAttempt, attemptId, attemptMonth, emptyMonth, EMPTY_INDEX, indexAttempt, recentMonths,
+  addAttempt, attemptId, attemptMonth, attemptSeconds, emptyMonth, EMPTY_INDEX, indexAttempt, recentMonths,
   removeSession, unindexAttempts, type AttemptRecord,
 } from './attempts.ts'
 
@@ -111,4 +111,20 @@ test('a timestamp is filed in its own month', () => {
 
 test('the recent window ends at the month asked for and runs backwards', () => {
   assert.deepEqual(recentMonths(3, new Date(2026, 1, 15)), ['2025-12', '2026-01', '2026-02'])
+})
+
+test('an untimed answer is filed without a duration', () => {
+  assert.equal(attemptSeconds(false, 1_000, 61_000), null)
+})
+
+test('a timed answer is filed with whole seconds', () => {
+  assert.equal(attemptSeconds(true, 1_000, 61_400), 60)
+})
+
+test('a clock corrected backwards mid-question does not file a negative', () => {
+  assert.equal(attemptSeconds(true, 61_000, 1_000), 0)
+})
+
+test('an answer given the instant the question appears is zero, not null', () => {
+  assert.equal(attemptSeconds(true, 5_000, 5_000), 0)
 })

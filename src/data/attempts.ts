@@ -109,6 +109,26 @@ export function attemptId(record: Pick<AttemptRecord, 'surface' | 'itemId' | 'se
   return `${record.sessionId}:${record.surface}:${record.itemId}`
 }
 
+/**
+ * How long an answer took, as `seconds` wants it.
+ *
+ * `seconds` is null when the item was untimed, and a runner that files a
+ * duration anyway does not merely add noise: `medianSeconds` reads the log as
+ * "how fast under a clock", so an untimed answer mixed in is a number about
+ * something else. Whether a sitting was timed is the runner's to say — a room
+ * carries a `timed` flag, the Question Bank carries a mode — so it is asked for
+ * rather than guessed at from the interval.
+ *
+ * Wall clocks are not monotonic: a device correcting its time mid-question can
+ * hand back an end before the start, which would file a negative duration
+ * against the question. Floored at zero, and whole seconds because that is the
+ * resolution every other writer records at.
+ */
+export function attemptSeconds(timed: boolean, startedAtMs: number, endedAtMs: number): number | null {
+  if (!timed) return null
+  return Math.max(0, Math.round((endedAtMs - startedAtMs) / 1000))
+}
+
 /** Fold a record into the index, so headline totals never need a shard read. */
 export function indexAttempt(index: AttemptIndex, record: AttemptRecord): AttemptIndex {
   const month = attemptMonth(record.at)
