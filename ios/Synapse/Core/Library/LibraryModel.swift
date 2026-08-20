@@ -39,6 +39,41 @@ final class LibraryModel {
         self.audience = audience
     }
 
+    /// Search the library through the cache's own full-text index.
+    ///
+    /// The index has been built, kept and migrated since the first week with
+    /// nothing calling it: search was a `contains` scan over titles and
+    /// summaries held in memory. Going through the index adds the article's
+    /// own words, its aliases, its Arabic title and its key points, and orders
+    /// hits by relevance rather than alphabetically — so a term discussed at
+    /// length in the text can be found at all, which is precisely the search a
+    /// student runs when they half-remember something.
+    ///
+    /// The projection still decides what may be shown: the index is a way of
+    /// finding ids quickly, not a second opinion about what is in scope.
+    func search(_ query: String) async -> [Article] {
+        let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard trimmed.count >= 2 else { return [] }
+
+        guard let hits = try? await store.search(trimmed, kind: .article, audience: audience) else {
+            // A broken index must not mean a broken search box.
+            return fallbackSearch(trimmed)
+        }
+
+        let found = hits.compactMap { articlesById[$0.id] }
+        return found.isEmpty ? fallbackSearch(trimmed) : found
+    }
+
+    /// Titles and summaries only, for when the index cannot answer.
+    private func fallbackSearch(_ trimmed: String) -> [Article] {
+        articlesById.values
+            .filter {
+                $0.title.localizedCaseInsensitiveContains(trimmed)
+                    || $0.summary.localizedCaseInsensitiveContains(trimmed)
+            }
+            .sorted { $0.title.localizedCaseInsensitiveCompare($1.title) == .orderedAscending }
+    }
+
     func load() async {
         isLoading = true
         defer { isLoading = false }

@@ -8,6 +8,12 @@ import SwiftUI
 /// related reading — sits after it rather than beside it.
 struct ArticleReaderView: View {
     let article: Article
+    var library: UserLibrary?
+    /// Resolves a related article's id, so "read next" leads somewhere.
+    var lookup: ((String) -> Article?)?
+
+    @State private var tagDraft = ""
+    @State private var addingTag = false
 
     var body: some View {
         ScrollView {
@@ -27,6 +33,7 @@ struct ArticleReaderView: View {
                 if !article.relatedArticles.isEmpty {
                     relatedReading
                 }
+                if library != nil { yourTags }
             }
             .padding(.horizontal, 20)
             .padding(.vertical, 24)
@@ -37,6 +44,104 @@ struct ArticleReaderView: View {
         .background(Theme.paper)
         .navigationTitle(article.title)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            if let library {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        Task { await library.toggleRead(article.id) }
+                    } label: {
+                        Image(systemName: library.hasRead(article.id)
+                            ? "checkmark.circle.fill" : "checkmark.circle")
+                    }
+                    .tint(library.hasRead(article.id) ? Theme.success : Theme.accent)
+                    .accessibilityLabel(library.hasRead(article.id) ? "Mark as unread" : "Mark as read")
+                }
+            }
+        }
+        .alert("Add a tag", isPresented: $addingTag) {
+            TextField("Tag", text: $tagDraft)
+            Button("Cancel", role: .cancel) { tagDraft = "" }
+            Button("Add") {
+                Task { await library?.add(tag: tagDraft, to: article.id) }
+                tagDraft = ""
+            }
+        }
+    }
+
+    /// What this student calls this article.
+    ///
+    /// The tags they have used elsewhere are offered alongside: someone who
+    /// tagged one article "exam" means "exam" on the next one too, and
+    /// retyping it invites "Exam" and "exams" to join it.
+    @ViewBuilder private var yourTags: some View {
+        if let library {
+            let mine = library.tags(on: article.id)
+            let reusable = library.allTags.filter { tag in
+                !mine.contains { $0.caseInsensitiveCompare(tag) == .orderedSame }
+            }
+
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Your tags")
+                    .font(Theme.panelTitle())
+                    .foregroundStyle(Theme.ink2)
+
+                if mine.isEmpty {
+                    Text("None yet. A tag is yours alone — nobody else sees it.")
+                        .font(Theme.ui(13))
+                        .foregroundStyle(Theme.ink3)
+                } else {
+                    HStack(spacing: 6) {
+                        ForEach(mine, id: \.self) { tag in
+                            Button {
+                                Task { await library.remove(tag: tag, from: article.id) }
+                            } label: {
+                                HStack(spacing: 4) {
+                                    Text(tag)
+                                    Image(systemName: "xmark").font(.system(size: 8))
+                                }
+                                .font(Theme.ui(12))
+                                .foregroundStyle(Theme.accent)
+                                .padding(.horizontal, 9)
+                                .padding(.vertical, 4)
+                                .background(Theme.accentTint, in: Capsule())
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                }
+
+                if !reusable.isEmpty {
+                    Text("Reuse")
+                        .font(Theme.ui(11))
+                        .foregroundStyle(Theme.ink3)
+                    HStack(spacing: 6) {
+                        ForEach(reusable.prefix(8), id: \.self) { tag in
+                            Button {
+                                Task { await library.add(tag: tag, to: article.id) }
+                            } label: {
+                                Text(tag)
+                                    .font(Theme.ui(12))
+                                    .foregroundStyle(Theme.ink2)
+                                    .padding(.horizontal, 9)
+                                    .padding(.vertical, 4)
+                                    .background(Theme.inset, in: Capsule())
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                }
+
+                Button {
+                    addingTag = true
+                } label: {
+                    Label("Add a tag", systemImage: "plus")
+                        .font(Theme.ui(13, weight: 600))
+                        .foregroundStyle(Theme.accent)
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.top, 8)
+        }
     }
 
     private var header: some View {
@@ -153,19 +258,49 @@ struct ArticleReaderView: View {
                 .foregroundStyle(Theme.ink2)
 
             ForEach(article.relatedArticles) { related in
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(related.title)
-                        .font(Theme.ui(15, weight: 500))
-                        .foregroundStyle(Theme.accent)
-                    if let reason = related.reason {
-                        Text(reason)
-                            .font(Theme.ui(13))
-                            .foregroundStyle(Theme.ink3)
+                // A link that leads somewhere, when the article it names is one
+                // this student can read. Until now this was text that looked
+                // like a link and did nothing.
+                if let destination = lookup?(related.id) {
+                    NavigationLink {
+                        ArticleReaderView(article: destination, library: library, lookup: lookup)
+                    } label: {
+                        relatedRow(related, leadsSomewhere: true)
                     }
+                    .buttonStyle(.plain)
+                } else {
+                    relatedRow(related, leadsSomewhere: false)
                 }
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.top, 8)
+    }
+
+    /// Named the same whether or not it leads anywhere, but only coloured as a
+    /// link when it does — an article withdrawn since this one was written is
+    /// still worth naming, and is not worth pretending to offer.
+    private func relatedRow(_ related: RelatedArticle, leadsSomewhere: Bool) -> some View {
+        HStack(alignment: .top, spacing: 8) {
+            VStack(alignment: .leading, spacing: 2) {
+                Text(related.title)
+                    .font(Theme.ui(15, weight: 500))
+                    .foregroundStyle(leadsSomewhere ? Theme.accent : Theme.ink2)
+                if let reason = related.reason {
+                    Text(reason)
+                        .font(Theme.ui(13))
+                        .foregroundStyle(Theme.ink3)
+                }
+            }
+            Spacer(minLength: 4)
+            if leadsSomewhere {
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 11, weight: .semibold))
+                    .foregroundStyle(Theme.ink3)
+                    .flipsForRightToLeftLayoutDirection(true)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .contentShape(Rectangle())
     }
 }
