@@ -61,6 +61,11 @@ struct MoreView: View {
             .scrollContentBackground(.hidden)
             .background(Theme.paper)
             .navigationTitle(strings("More"))
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    AssistantButton(surface: "More")
+                }
+            }
         }
     }
 

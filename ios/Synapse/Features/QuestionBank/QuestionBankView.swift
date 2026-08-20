@@ -361,6 +361,9 @@ private struct Runner: View {
     /// Flag, note and the jump grid, for the question on screen.
     @ToolbarContentBuilder var questionActions: some ToolbarContent {
         ToolbarItem(placement: .topBarTrailing) {
+            AssistantButton(surface: "Question Bank")
+        }
+        ToolbarItem(placement: .topBarTrailing) {
             Button { showingNavigator = true } label: {
                 Label("\(model.index + 1) / \(model.session.count)", systemImage: "square.grid.3x3")
                     .font(Theme.numeric(13))
