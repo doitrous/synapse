@@ -17,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavGraph.Companion.findStartDestination
+import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
@@ -40,9 +41,23 @@ private const val ROUTE_ACCOUNT = "account"
  * keyed on nothing that survives a rotation -- never from
  * `MainActivity.onCreate`, where a configuration change would re-run
  * session restore and cost a signed-in student a flash of the sign-in form.
+ *
+ * [AppGraph.config]`.isConfigured` is checked *before* [AppGraph.auth] is
+ * ever read. `graph.auth` is a `by lazy` chain that ends in
+ * `EncryptedSessionStore`'s eager Android Keystore access, so touching it on
+ * an unconfigured build -- even just to `collectAsState()` its `state` --
+ * builds the whole server-facing stack (and can fail in the Keystore) before
+ * the student ever sees the screen that explains what is missing. Returning
+ * early here, without so much as naming `graph.auth`, is what keeps that
+ * stack unreachable on this path rather than merely unlikely to run.
  */
 @Composable
 fun RootScreen(graph: AppGraph) {
+    if (!graph.config.isConfigured) {
+        NotConfiguredScreen(missing = graph.config.missing)
+        return
+    }
+
     val authState by graph.auth.state.collectAsState()
 
     LaunchedEffect(Unit) {
@@ -50,6 +65,10 @@ fun RootScreen(graph: AppGraph) {
     }
 
     when (val state = authState) {
+        // graph.config.isConfigured is checked above, before graph.auth is
+        // ever touched, so AuthModel.start() has no path back to this state
+        // from here -- kept only because AuthState is sealed and this `when`
+        // has to stay exhaustive.
         is AuthState.NotConfigured -> NotConfiguredScreen(missing = state.missing)
 
         // Never the sign-in form here. Flashing it and then replacing it is
@@ -140,7 +159,7 @@ private fun SignedInNavHost(graph: AppGraph) {
     }
 }
 
-private fun androidx.navigation.NavHostController.navigateToTab(route: String) {
+private fun NavHostController.navigateToTab(route: String) {
     navigate(route) {
         popUpTo(graph.findStartDestination().id) { saveState = true }
         launchSingleTop = true

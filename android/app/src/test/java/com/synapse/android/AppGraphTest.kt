@@ -3,9 +3,13 @@ package com.synapse.android
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import com.synapse.android.core.config.AppConfig
+import java.time.Instant
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withTimeout
 import org.junit.After
+import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
-import org.junit.Assert.assertSame
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -48,11 +52,31 @@ class AppGraphTest {
     }
 
     @Test
-    fun `the graph hands out the same database every time`() {
+    fun `a write made through store is visible through the database directly`() = runBlocking {
+        // The invariant that matters is not "reading the database val twice
+        // returns the same reference" -- that is true by Kotlin semantics no
+        // matter what AppGraph.database does. What actually matters is that
+        // AppGraph.store (what every screen writes through) and
+        // AppGraph.database (what a test or a future caller might read
+        // through directly) are backed by the *same Room instance* -- i.e.
+        // the same connection pool and the same InvalidationTracker. Two
+        // separate Room.databaseBuilder(...).build() calls over the same
+        // file would each pass a trivial assertSame-on-a-val check while
+        // still being two independent writers: a Flow queried from one would
+        // never notice a write made through the other, and it would fail
+        // silently -- no exception, just a Flow that stops updating. Writing
+        // through [AppGraph.store] and observing the change through a Flow
+        // queried straight off [AppGraph.database]'s own DAO is what would
+        // actually have caught that regression.
         val built = AppGraph(context(), unconfigured())
         graph = built
 
-        assertSame(built.database, built.database)
-        assertSame(built.store, built.store)
+        built.store.enqueue(key = "synapse.qbank.marked.v1", json = "{}", savedAt = Instant.now())
+
+        val countSeenThroughDatabase = withTimeout(5_000) {
+            built.database.outboxDao().count().first { it == 1 }
+        }
+
+        assertEquals(1, countSeenThroughDatabase)
     }
 }
