@@ -87,3 +87,27 @@ export function managedEssayToStudentEssay(item: ManagedContentItem): EssayQuest
     modelAnswer: data.modelAnswer,
   }
 }
+
+/** What a saved answer says about where the student had got to. */
+export interface SavedProgress {
+  ticked?: string[] | null
+  revealed?: boolean
+}
+
+/**
+ * Which stage a question reopens on.
+ *
+ * The one decision that guards the reveal rule, so it is stated here where it
+ * can be tested rather than inline in the component. Getting it wrong in the
+ * permissive direction shows a student the model answer to a question they
+ * have not attempted, which is the whole thing this surface exists to prevent.
+ *
+ * `revealed` is the fact; the fallback to `ticked != null` is only for answers
+ * written before that field existed, and it errs the same way — a student who
+ * has ticked something has certainly already seen the helpers.
+ */
+export function initialStage(saved: SavedProgress | undefined): 'write' | 'revealed' {
+  if (!saved) return 'write'
+  if (saved.revealed !== undefined) return saved.revealed ? 'revealed' : 'write'
+  return saved.ticked != null ? 'revealed' : 'write'
+}

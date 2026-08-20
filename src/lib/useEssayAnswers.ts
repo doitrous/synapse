@@ -16,6 +16,16 @@ export interface EssayAnswer {
   text: string
   /** Key point ids they ticked, or null when they have not marked it yet. */
   ticked: string[] | null
+  /**
+   * Whether the helpers have been opened.
+   *
+   * Kept apart from `ticked` because revealing and marking are different
+   * events. Inferring the stage from `ticked` meant revealing had to write an
+   * empty array to say "we are past writing" — which reads to `coveredCount`
+   * as a marked answer with nothing covered, and put "0 of 6" against a
+   * question the student had only peeked at.
+   */
+  revealed?: boolean
   updatedAt: string
 }
 

@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { parseKeyPoints, coveredCount, managedEssayToStudentEssay } from './essay.ts'
+import { parseKeyPoints, coveredCount, managedEssayToStudentEssay, initialStage } from './essay.ts'
 import type { ManagedContentItem } from './contentControl.ts'
 
 test('key points parse one per line', () => {
@@ -69,4 +69,25 @@ test('a published essay projects into the student shape', () => {
   assert.equal(essay?.prompt, 'Discuss the causes.')
   assert.equal(essay?.keyPoints.length, 2)
   assert.equal(essay?.keyPoints[1].legible, true)
+})
+
+test('a question never opened starts on the write stage', () => {
+  assert.equal(initialStage(undefined), 'write')
+})
+
+test('a draft that was never revealed comes back to writing', () => {
+  assert.equal(initialStage({ ticked: null, revealed: false }), 'write')
+})
+
+test('a question whose helpers were opened comes back revealed', () => {
+  assert.equal(initialStage({ ticked: null, revealed: true }), 'revealed')
+})
+
+test('an answer saved before `revealed` existed falls back to its ticks', () => {
+  assert.equal(initialStage({ ticked: ['a'] }), 'revealed')
+  assert.equal(initialStage({ ticked: null }), 'write')
+})
+
+test('revealed wins over ticks, so an unmarked reveal is not sent back to writing', () => {
+  assert.equal(initialStage({ ticked: null, revealed: true }), 'revealed')
 })

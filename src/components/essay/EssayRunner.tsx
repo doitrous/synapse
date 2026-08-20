@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ArrowLeft, Eye, FastForward, PenLine } from 'lucide-react'
-import { coveredCount, type EssayQuestion } from '@/data/essay'
+import { coveredCount, initialStage, type EssayQuestion } from '@/data/essay'
 import { useEssayAnswers } from '@/lib/useEssayAnswers'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { useT } from '@/lib/i18n'
@@ -49,7 +49,7 @@ export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: (
   // Reopening a question that was already revealed lands back on the mark
   // stage with the previous ticks, rather than making the student write again
   // to see helpers they have already earned this sitting.
-  const [stage, setStage] = useState<'write' | 'revealed'>(saved?.ticked != null ? 'revealed' : 'write')
+  const [stage, setStage] = useState<'write' | 'revealed'>(() => initialStage(saved))
   const [ticked, setTicked] = useState<Set<string>>(() => new Set(saved?.ticked ?? []))
 
   const pointIds = essay.keyPoints.map((point) => point.id)
@@ -58,7 +58,13 @@ export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: (
   function reveal() {
     if (stage === 'revealed') return
     setStage('revealed')
-    save(essay.id, { text, ticked: [...ticked] })
+    // `ticked` stays null: opening the helpers is not marking, and writing an
+    // empty array here would badge an unmarked question "0 of N covered".
+    save(essay.id, { text, ticked: null, revealed: true })
+    // Only when something was actually written. "Skip and show me" is a
+    // student looking up the answer, and logging that as practice would put
+    // work in their record that they did not do.
+    if (!text.trim()) return
     // Marked by the student, not the app — see AttemptRecord.correct in
     // src/data/attempts.ts. `seconds` is null for the same reason: nothing
     // here times how long the student took.
@@ -77,7 +83,7 @@ export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: (
 
   function changeText(next: string) {
     setText(next)
-    save(essay.id, { text: next, ticked: stage === 'revealed' ? [...ticked] : null })
+    save(essay.id, { text: next, ticked: stage === 'revealed' && ticked.size ? [...ticked] : null, revealed: stage === 'revealed' })
   }
 
   function toggle(pointId: string) {
@@ -85,7 +91,7 @@ export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: (
       const next = new Set(current)
       if (next.has(pointId)) next.delete(pointId)
       else next.add(pointId)
-      save(essay.id, { text, ticked: [...next] })
+      save(essay.id, { text, ticked: [...next], revealed: true })
       return next
     })
   }

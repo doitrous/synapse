@@ -32,8 +32,11 @@ const MIN_MARKED = 20
 /** Marked answers a subject needs before its own row is worth showing. */
 const MIN_PER_SUBJECT = 3
 
+// Keyed loosely, so nothing here fails to compile when a surface is added —
+// only the row goes out untranslated. Add the label with the surface.
 const SURFACE_LABEL: Record<string, string> = {
   qbank: 'Question bank',
+  essay: 'Written questions',
   room: 'Shared tests',
   case: 'Clinical cases',
   lab: 'Lab & imaging',
@@ -285,7 +288,7 @@ export function Performance() {
               ))}
             </div>
             <p className="mt-5 border-t border-line pt-4 text-[11.5px] leading-relaxed text-ink-3">
-              {t('Stations and checklists are self-scored, so they count as attempts but never toward an accuracy. Cohort comparison is not available: nothing in Connect Cortex aggregates other students yet.')}
+              {t('Stations, checklists and written questions are self-scored, so they count as attempts but never toward an accuracy. Cohort comparison is not available: nothing in Connect Cortex aggregates other students yet.')}
             </p>
           </div>
         </Panel>

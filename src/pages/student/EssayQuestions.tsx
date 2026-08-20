@@ -150,7 +150,10 @@ export function EssayQuestions() {
   const [active, setActive] = useState<EssayQuestionData | null>(null)
 
   if (active) {
-    return <EssayRunner essay={active} onExit={() => setActive(null)} />
+    // Keyed by question: without it, a future "next question" control would
+    // reconcile in place and carry the revealed stage — and so the next
+    // question's model answer — straight over an unattempted one.
+    return <EssayRunner key={active.id} essay={active} onExit={() => setActive(null)} />
   }
 
   return (
