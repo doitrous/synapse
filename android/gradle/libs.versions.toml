@@ -18,6 +18,12 @@ ksp = "2.2.10-2.0.2"
 room = "2.8.4"
 robolectric = "4.16.1"
 androidxTestCore = "1.7.0"
+navigationCompose = "2.9.8"
+# Pinned separately from lifecycleRuntimeKtx (2.11.0): lifecycle-viewmodel-compose
+# 2.11.0 raises its AAR's minCompileSdk to 37, which this project's pinned
+# compileSdk 36 cannot satisfy without bumping the toolchain. 2.10.0 is the
+# newest release still built against minCompileSdk 35.
+lifecycleViewmodelCompose = "2.10.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -46,6 +52,8 @@ androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = 
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
 androidx-test-core = { group = "androidx.test", name = "core", version.ref = "androidxTestCore" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
