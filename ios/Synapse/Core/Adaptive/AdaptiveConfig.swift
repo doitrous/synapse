@@ -20,6 +20,7 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
     /// The default allocation when no exam horizon applies.
     var defaultShares: AllocationShares
     var horizonBands: [HorizonBand]
+    var crashHorizons: [CrashHorizonBand]
     var readiness: ReadinessConfig
     var schedule: ScheduleConfig
 
@@ -87,6 +88,24 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
         /// Nil is the open-ended band: more than the last bound, or no exam.
         var maxDaysToExam: Int?
         var shares: AllocationShares
+    }
+
+    /// A compressed programme's character at one horizon.
+    ///
+    /// The band changes the emphasis, how often measurement happens and how far
+    /// a prerequisite gap is chased. It never changes the blueprint.
+    struct CrashHorizonBand: Codable, Equatable, Sendable {
+        var days: Int
+        var emphasis: String
+        var assessmentCadence: String
+        var recoveryPolicy: String
+        var shares: AllocationShares
+    }
+
+    /// The narrowest band that still holds this many days, or nil with no exam.
+    func crashHorizon(daysToExam: Int?) -> CrashHorizonBand? {
+        guard let daysToExam else { return nil }
+        return crashHorizons.sorted { $0.days < $1.days }.first { daysToExam <= $0.days }
     }
 
     struct ReadinessConfig: Codable, Equatable, Sendable {
@@ -207,6 +226,24 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
                         shares: AllocationShares(weakness: 0.40, coverage: 0.35, review: 0.15, uncertainty: 0.10)),
             HorizonBand(id: "far", label: "More than 60 days, or no exam scheduled", maxDaysToExam: nil,
                         shares: AllocationShares(weakness: 0.45, coverage: 0.25, review: 0.20, uncertainty: 0.10)),
+        ],
+        crashHorizons: [
+            CrashHorizonBand(days: 75, emphasis: "Foundation, breadth and spacing",
+                             assessmentCadence: "Baseline, then every 2–3 weeks",
+                             recoveryPolicy: "Full prerequisite repair",
+                             shares: AllocationShares(weakness: 0.45, coverage: 0.25, review: 0.20, uncertainty: 0.10)),
+            CrashHorizonBand(days: 60, emphasis: "Breadth and weak repair",
+                             assessmentCadence: "Baseline, then fortnightly",
+                             recoveryPolicy: "Focused prerequisites",
+                             shares: AllocationShares(weakness: 0.40, coverage: 0.35, review: 0.15, uncertainty: 0.10)),
+            CrashHorizonBand(days: 30, emphasis: "Blueprint coverage and mixed timed practice",
+                             assessmentCadence: "Weekly",
+                             recoveryPolicy: "Shortest approved intervention",
+                             shares: AllocationShares(weakness: 0.30, coverage: 0.45, review: 0.15, uncertainty: 0.10)),
+            CrashHorizonBand(days: 14, emphasis: "Exam simulation and highest-impact gaps",
+                             assessmentCadence: "Baseline and 1–2 final mocks",
+                             recoveryPolicy: "Avoid deep low-yield detours",
+                             shares: AllocationShares(weakness: 0.25, coverage: 0.50, review: 0.15, uncertainty: 0.10)),
         ],
         readiness: ReadinessConfig(
             intervalConfidence: 0.9,
