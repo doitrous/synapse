@@ -18,6 +18,7 @@ const USER_OWNED_PATTERNS = [
   /^synapse-applied-voucher-v1$/,
   /^synapse\.qbank\./,
   /^synapse\.practical\./,
+  /^synapse\.essay\./,
   /^synapse\.highlights\./,
   /^synapse\.annotations\./,
   /^synapse\.reader\./,

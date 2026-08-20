@@ -18,6 +18,7 @@ test('a student\'s own work is routed to their own record', () => {
   assert.equal(isUserOwnedState('synapse.annotations.doc-1.shard-0'), true)
   assert.equal(isUserOwnedState('synapse.bookmarks.resources.v1'), true)
   assert.equal(isUserOwnedState('synapse.account.audience.v1'), true)
+  assert.equal(isUserOwnedState('synapse.essay.answers.v1'), true)
 })
 
 test('every library key a student writes is their own', () => {

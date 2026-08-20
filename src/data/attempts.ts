@@ -14,7 +14,7 @@ import type { Difficulty } from './qbank'
  */
 
 /** Which runner produced the record. */
-export type AttemptSurface = 'qbank' | 'case' | 'lab' | 'station' | 'room'
+export type AttemptSurface = 'qbank' | 'case' | 'lab' | 'station' | 'room' | 'essay'
 
 export interface AttemptRecord {
   id: string
@@ -33,6 +33,8 @@ export interface AttemptRecord {
    * A station is ticked by the student against a checklist, so it is evidence
    * of practice and says nothing about correctness. Storing `false` there would
    * quietly drag every accuracy figure down; storing `true` would inflate it.
+   * An essay answer is marked the same way, by the student who wrote it, so it
+   * is recorded the same way: `null`, not a verdict.
    */
   correct: boolean | null
   /** Null when the item was untimed. */
