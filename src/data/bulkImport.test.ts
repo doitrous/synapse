@@ -742,3 +742,35 @@ test('an unknown difficulty band is rejected rather than quietly becoming Modera
   })
   assert.ok(errors.some((error) => error.includes('Difficulty must be one of')))
 })
+
+/* ---- decks --------------------------------------------------------------- */
+
+test('a deck needs at least one card', () => {
+  const errors = validateImportRow('deck', { title: 'CVS', subject: 'cvs' })
+  assert.ok(errors.some((error) => /card/i.test(error)))
+})
+
+test('a line with no separator does not count as a card', () => {
+  const errors = validateImportRow('deck', { title: 'CVS', subject: 'cvs', cards: 'Aorta - Largest artery' })
+  assert.ok(errors.some((error) => /card/i.test(error)))
+})
+
+test('an imported deck splits its cards on the pipe', () => {
+  const item = importRowToContent('deck', { title: 'CVS', subject: 'cvs', cards: 'Aorta | Largest artery' }, 'row-1')
+  assert.equal(item.deckData?.cards[0].front, 'Aorta')
+  assert.equal(item.deckData?.cards[0].back, 'Largest artery')
+})
+
+test('a deck with a description and multiple cards imports cleanly', () => {
+  const values = {
+    title: 'Coronary anatomy', subject: 'cvs',
+    description: 'Quick-fire recall for the major coronary vessels.',
+    cards: 'LAD | Supplies the anterior wall of the left ventricle\nRCA | Supplies the SA node in most people',
+  }
+  assert.deepEqual(validateImportRow('deck', values), [])
+  const item = importRowToContent('deck', values, 'row-2')
+  assert.equal(item.kind, 'deck')
+  assert.equal(item.deckData?.description, 'Quick-fire recall for the major coronary vessels.')
+  assert.equal(item.deckData?.cards.length, 2)
+  assert.equal(item.deckData?.cards[1].front, 'RCA')
+})

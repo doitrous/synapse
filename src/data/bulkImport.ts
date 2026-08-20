@@ -13,6 +13,7 @@ import { DIFFICULTIES } from './qbank.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
 import { optionalList } from './importSemantics.ts'
+import { parseCardLines } from './decks.ts'
 
 export interface ImportFieldDefinition {
   key: string
@@ -181,6 +182,15 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'description', label: 'Description', help: 'What the resource teaches and why it is relevant.' },
     ],
     markdownExample: `# Item\n\n## title\nNICE NG158 · Venous thromboembolic diseases\n\n## subject\ncvs\n\n## type\nGuideline\n\n## source\nNICE\n\n## url\nhttps://www.nice.org.uk/guidance/ng158\n\n## year\n2026\n\n## topics\nTPC_HF\nSUB_HF_MGMT\n\n## chapter\nVenous thromboembolism\nHeart failure\n\n## module_ids\nCVS 01\n\n## included_concepts\nmed.concept.loop-diuretics\nmed.concept.heart-failure\n\n## included_articles\nhf-mgmt\n\n## concept_locations\nmed.concept.heart-failure | page | 142\nmed.concept.loop-diuretics | timestamp | 3:20\n\n## description\nDiagnosis and initial management of suspected pulmonary embolism.`,
+  },
+  deck: {
+    noun: 'flashcard decks',
+    fields: [
+      ...common,
+      { key: 'description', label: 'Description', help: 'What this deck covers.' },
+      { key: 'cards', label: 'Cards', required: true, help: 'One card per line, as "front | back". The text before the first | is the question side; everything after it is the answer side. A line with no | is not a card and is skipped.' },
+    ],
+    markdownExample: `# Item\n\n## title\nCVS: Coronary anatomy\n\n## subject\ncvs\n\n## description\nQuick-fire recall for the major coronary vessels.\n\n## cards\nAorta | Largest artery in the body\nLAD | Supplies the anterior wall of the left ventricle\nRCA | Supplies the SA node in most people`,
   },
 }
 
@@ -819,6 +829,11 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
       errors.push(`Media request "${request.brief}" names "${request.section}", which is not a question in this item`)
     })
   }
+  if (kind === 'deck') {
+    if (parseCardLines(values.cards ?? '').length === 0) {
+      errors.push('A deck needs at least one card, written as "front | back"')
+    }
+  }
   return errors
 }
 
@@ -1062,6 +1077,16 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '',
       },
       practicalData: practicalDataFrom(values),
+    }
+  }
+  if (kind === 'deck') {
+    return {
+      ...base,
+      fields: { Description: values.description || '' },
+      deckData: {
+        description: values.description || '',
+        cards: parseCardLines(values.cards ?? ''),
+      },
     }
   }
   return {

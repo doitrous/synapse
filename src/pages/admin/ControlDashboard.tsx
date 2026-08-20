@@ -21,6 +21,7 @@ import { ImagePlus,
   Database,
   GraduationCap,
   TriangleAlert,
+  Layers,
 } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import {
@@ -70,6 +71,7 @@ const KIND_ICON = {
   article: BookOpenText,
   practical: Stethoscope,
   resource: FolderOpen,
+  deck: Layers,
 }
 
 const STATUSES: Array<Status | 'All'> = ['All', 'Draft', 'In review', 'Published', 'Archived']
@@ -228,6 +230,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     article: items.filter((item) => item.kind === 'article').length,
     practical: items.filter((item) => item.kind === 'practical').length,
     resource: items.filter((item) => item.kind === 'resource').length,
+    deck: items.filter((item) => item.kind === 'deck').length,
   }), [items])
 
   const matching = useMemo(() => {
@@ -507,6 +510,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 ['article', 'Library articles'],
                 ['practical', 'Practical'],
                 ['resource', 'Resources'],
+                ['deck', 'Flashcard decks'],
               ] as const).map(([value, label]) => ({ value, label, icon: KIND_ICON[value], count: kindCounts[value] }))}
             />
           </div>}

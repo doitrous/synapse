@@ -20,7 +20,7 @@ interface MappedRow { index: number; values: Record<string, string>; errors: str
 
 const IGNORE = '__ignore__'
 const steps = ['Choose a file', 'Confirm worksheet', 'Map columns', 'Full preview', 'Skipped rows', 'Import options']
-const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources' }
+const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources', deck: 'flashcards' }
 
 function normalize(value: string) {
   return value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
@@ -85,7 +85,7 @@ function fingerprint(file: File, kind: ContentKind) {
 
 export function BulkImportPage() {
   const params = useParams()
-  const kind: ContentKind = ['question', 'article', 'practical', 'resource'].includes(params.kind ?? '') ? params.kind as ContentKind : 'question'
+  const kind: ContentKind = ['question', 'article', 'practical', 'resource', 'deck'].includes(params.kind ?? '') ? params.kind as ContentKind : 'question'
   const schema = IMPORT_SCHEMAS[kind]
   const inputRef = useRef<HTMLInputElement>(null)
   const [step, setStep] = useState(0)
