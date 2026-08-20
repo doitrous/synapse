@@ -24,8 +24,12 @@ export function sameCohort(party, viewer) {
  * out.
  */
 export function canJoin(party, viewer) {
-  if (party.archivedAt) return { ok: false, reason: 'archived' }
+  // Cohort is checked before anything else on purpose. Answering "archived" to
+  // someone outside the cohort would confirm that a guessed code names a real
+  // party — the one thing a refusal here must never do. Outside the year, every
+  // code looks alike.
   if (!sameCohort(party, viewer)) return { ok: false, reason: 'wrong_cohort' }
+  if (party.archivedAt) return { ok: false, reason: 'archived' }
   return { ok: true }
 }
 

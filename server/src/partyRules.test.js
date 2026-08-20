@@ -69,3 +69,10 @@ test('a mixed session counts what was marked apart from what was practised', () 
 test('nothing answered reports nothing rather than zero of zero', () => {
   assert.deepEqual(tally([]), { marked: null, practised: 0 })
 })
+
+test('a guessed code for another cohort never reveals that the party exists', () => {
+  // Archived *and* wrong cohort must read as wrong cohort: answering "archived"
+  // would confirm the code names something real.
+  const refusal = canJoin(party({ archivedAt: '2026-01-01' }), viewer({ universityId: 'ain-shams' }))
+  assert.deepEqual(refusal, { ok: false, reason: 'wrong_cohort' })
+})

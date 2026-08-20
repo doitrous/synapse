@@ -200,8 +200,15 @@ export async function openParties(userId) {
             p.visibility, p.created_at AS createdAt, p.archived_at AS archivedAt,
             (SELECT COUNT(*) FROM study_party_members pm WHERE pm.party_id = p.id) AS members
        FROM study_parties p
-      WHERE p.university_id = ? AND p.year = ?`,
-    [cohort.universityId, cohort.year],
+      WHERE p.university_id = ? AND p.year = ?
+        -- "Open in your year" is a list of parties to join. One you are already
+        -- in is not an invitation, and offering to let someone join a party they
+        -- are standing in reads as a bug.
+        AND NOT EXISTS (
+          SELECT 1 FROM study_party_members pm
+           WHERE pm.party_id = p.id AND pm.user_id = ?
+        )`,
+    [cohort.universityId, cohort.year, userId],
   )
   const candidates = rows.map((row) => ({
     id: row.id,
