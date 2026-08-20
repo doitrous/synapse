@@ -2120,11 +2120,48 @@ git commit -m "Keep everything the app shows on the device"
 
 **Files:**
 - Create: `android/app/src/main/java/com/synapse/android/core/sync/SyncEngine.kt`
+- Modify: `android/app/src/main/java/com/synapse/android/core/progress/Attempt.kt`
 - Test: `android/app/src/test/java/com/synapse/android/core/sync/SyncEngineTest.kt`
+- Test: `android/app/src/test/java/com/synapse/android/core/progress/AttemptTest.kt` (extend)
 
 **Interfaces:**
 - Consumes: `SynapseApi`, `LocalStore`, `StateOwnership`, `StatePrecedence`, `LedgerDecoder`.
 - Produces: `class SyncEngine(api, store)` with `val status: StateFlow<SyncStatus>` where `sealed interface SyncStatus { Idle, Syncing, Done(changed: Int, at: Instant), Failed(reason: String) }`, `suspend fun refresh()`, `suspend fun write(key: String, json: String)`, `suspend fun drain()`, and `companion object { val CATALOGUE_KEYS: List<String> }`.
+- Produces, on `AttemptStore`: `fun attemptId(sessionId: String, surface: String, itemId: String): String`, `fun addAttempt(month: AttemptMonth, record: AttemptRecord): AttemptMonth`, `fun index(index: AttemptIndex, record: AttemptRecord, zone: ZoneId = ZoneId.systemDefault()): AttemptIndex`.
+
+- [ ] **Step 0: Finish the attempt ledger**
+
+Task 5 built `AttemptStore.fold`, which folds a record into the running
+totals. That is half of what the web's `indexAttempt`
+(`src/data/attempts.ts:113-125`) does. The other half was left open and is
+needed before anything writes an attempt:
+
+- `index()` also puts the record's month into `AttemptIndex.months`, **sorted**,
+  and only when it is not already there:
+  `months: index.months.includes(month) ? index.months : [...index.months, month].sort()`.
+  This list is how every client discovers which shards exist. A record folded
+  into the totals without its month being listed leaves a shard that nothing
+  ever looks in — the totals say a student answered 400 questions and the
+  history shows none of them.
+- `addAttempt()` refuses a record whose `id` is already in the month
+  (`src/data/attempts.ts:103-106`), returning the month unchanged. Ids come
+  from `attemptId`, which is `"$sessionId:$surface:$itemId"`
+  (`src/data/attempts.ts:108-110`) — so a second attempt at the same question
+  in a later sitting is a different record, but a double-tap in one sitting is
+  not two.
+
+Tests to add to `AttemptTest.kt`:
+
+```kotlin
+@Test fun `indexing a record lists the month it belongs to`()
+@Test fun `a month already listed is not listed twice`()
+@Test fun `months stay sorted when an older shard arrives late`() {
+    // A backfill hands over 2026-03 after 2026-08 is already there. Every
+    // client reads this list in order.
+}
+@Test fun `the same attempt recorded twice is stored once`()
+@Test fun `the same question answered again in a later sitting is a second record`()
+```
 
 - [ ] **Step 1: Write the failing test**
 
