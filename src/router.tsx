@@ -105,6 +105,7 @@ const QuestionsSetup = lazyNamed(() => import('@/pages/admin/QuestionsSetup'), '
 const AdaptiveSetup = lazyNamed(() => import('@/pages/admin/AdaptiveSetup'), 'AdaptiveSetup')
 const ResourcesSetup = lazyNamed(() => import('@/pages/admin/ResourcesSetup'), 'ResourcesSetup')
 const PracticalSetup = lazyNamed(() => import('@/pages/admin/PracticalSetup'), 'PracticalSetup')
+const FlashcardsSetup = lazyNamed(() => import('@/pages/admin/FlashcardsSetup'), 'FlashcardsSetup')
 const ConceptsImportPage = lazyNamed(() => import('@/pages/admin/ConceptsImportPage'), 'ConceptsImportPage')
 const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImportPage'), 'RelationsImportPage')
 const MediaRequests = lazyNamed(() => import('@/pages/admin/MediaRequests'), 'MediaRequests')
@@ -156,6 +157,7 @@ const adminBuilt: Record<string, ReactElement> = {
   taxonomy: render(TaxonomySetup),
   glossary: render(GlossarySetup),
   practical: render(PracticalSetup),
+  flashcards: render(FlashcardsSetup),
   resources: render(ResourcesSetup),
   reports: render(ReportsReview),
   students: render(StudentsManagement),
@@ -172,7 +174,7 @@ const adminBuilt: Record<string, ReactElement> = {
 }
 
 const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'resources', 'taxonomy', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
