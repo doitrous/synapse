@@ -15,6 +15,8 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
     var validity: Validity
     var statuses: StatusThresholds
     var reviewIntervalDays: ReviewIntervals
+    var constraints: Constraints
+    var priority: PriorityWeights
 
     /// Admin-authored, so it is read from the shared catalogue rather than the
     /// student's own record — which is why the key is hyphenated.
@@ -56,6 +58,30 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
         /// retention rather than recall within one sitting.
         var spacedSuccessMinHours: Double
         var weakHighConfidenceErrors: Int
+    }
+
+    /// What each reason to ask, or not to ask, is worth.
+    struct PriorityWeights: Codable, Equatable, Sendable {
+        var conceptWeakness: Double
+        var topicOrSubtopicGap: Double
+        var examBlueprintDeficit: Double
+        var spacedReviewUrgency: Double
+        var informationGain: Double
+        var recentErrorBoost: Double
+        var novelty: Double
+        /// The four below are subtracted.
+        var repetitionPenalty: Double
+        var exposurePenalty: Double
+        var fatiguePenalty: Double
+    }
+
+    struct Constraints: Codable, Equatable, Sendable {
+        var maxBlockSize: Int
+        /// How many times one item may be asked before it is worn out.
+        var maxExposuresPerItem: Int
+        /// How many blocks a coverage shortfall is repaid across. The window is
+        /// what stops an old shortfall haunting a student forever.
+        var rollingDebtWindowBlocks: Int
     }
 
     struct ReviewIntervals: Codable, Equatable, Sendable {
@@ -101,6 +127,23 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
             weak: 1,
             developing: 3,
             secure: 14
+        ),
+        constraints: Constraints(
+            maxBlockSize: 40,
+            maxExposuresPerItem: 1,
+            rollingDebtWindowBlocks: 4
+        ),
+        priority: PriorityWeights(
+            conceptWeakness: 0.32,
+            topicOrSubtopicGap: 0.18,
+            examBlueprintDeficit: 0.20,
+            spacedReviewUrgency: 0.12,
+            informationGain: 0.10,
+            recentErrorBoost: 0.05,
+            novelty: 0.03,
+            repetitionPenalty: 0.15,
+            exposurePenalty: 0.20,
+            fatiguePenalty: 0.10
         )
     )
 }
