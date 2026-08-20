@@ -34,6 +34,7 @@ import {
 } from './studyRooms.js'
 import {
   createParty, joinByCode, setVisibility, myParties, openParties, partyFor, leaveParty,
+  createSession, sessionsFor, sessionFor, answerItem, closeSession,
 } from './parties.js'
 import {
   createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
@@ -599,6 +600,32 @@ app.post('/api/parties/:id/visibility', requireAuthenticated, wrap(async (req, r
 
 app.post('/api/parties/:id/leave', requireAuthenticated, wrap(async (req, res) => {
   res.json(await leaveParty(req.identity.id, req.params.id))
+}))
+
+/* ── Study party sessions ────────────────────────────────────────────────── */
+
+app.post('/api/parties/:id/sessions', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createSession(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.get('/api/parties/:id/sessions', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ sessions: await sessionsFor(req.identity.id, req.params.id) })
+}))
+
+app.get('/api/party-sessions/:sessionId', requireAuthenticated, wrap(async (req, res) => {
+  const session = await sessionFor(req.identity.id, req.params.sessionId)
+  // A non-member gets the same answer as a non-existent session: whether a
+  // session exists is not something a stranger should be able to probe.
+  if (!session) return res.status(404).json({ error: 'session not found' })
+  res.json({ session })
+}))
+
+app.post('/api/party-sessions/:sessionId/answers', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await answerItem(req.identity.id, req.params.sessionId, req.body ?? {}))
+}))
+
+app.post('/api/party-sessions/:sessionId/close', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await closeSession(req.identity.id, req.params.sessionId))
 }))
 
 /* ── Challenges ──────────────────────────────────────────────────────────── */
