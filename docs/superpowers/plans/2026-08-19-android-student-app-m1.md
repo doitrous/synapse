@@ -2433,18 +2433,109 @@ would give the same student a different question count on their phone than on
 their laptop. Do not add a special case. Note it in a comment where the title
 match happens, so the next reader knows it is deliberate.
 
+- [ ] **Step 0: Port `chooserTopics`, because Android does not have it yet**
+
+`QBankScope` on Android ships `topicKey`, `subtopicKey`, `isQuestionTopic`,
+`subtopicIds` and `questions`. It does **not** have the function that produces
+the topics in the first place. Add it, ported from
+`src/data/qbankScope.ts:78-95`:
+
+```kotlin
+/**
+ * The chapters a student can actually choose from.
+ *
+ * Ported from `chooserTopics` in `src/data/qbankScope.ts:78`. The library tree
+ * is passed in, never imported. Milestone 1 ships no Library, so this is always
+ * called with an empty list and every topic returned is synthesised from the
+ * questions themselves — which is exactly the case the TypeScript was written
+ * for: a bank with questions but no published articles used to offer an empty
+ * box.
+ *
+ * A synthetic topic has no subtopics, and `questions()` already resolves a
+ * whole-topic selection by title, so it needs no special case there.
+ */
+fun chooserTopics(pool: List<Question>, libraryTopics: List<ChooserTopic>): List<ChooserTopic> {
+    val covered = libraryTopics.map { it.title.trim().lowercase() }.toSet()
+    val extra = LinkedHashMap<String, ChooserTopic>()
+
+    for (question in pool) {
+        val title = question.topic.trim()
+        if (title.isEmpty()) continue
+        val key = "${question.subjectId}::${title.lowercase()}"
+        if (title.lowercase() in covered || extra.containsKey(key)) continue
+        extra[key] = ChooserTopic(
+            id = "$QUESTION_TOPIC_PREFIX$key",
+            title = title,
+            subjectId = question.subjectId,
+            subtopicIds = emptyList(),
+        )
+    }
+
+    return libraryTopics + extra.values
+}
+```
+
+Three details that are load-bearing, all of them from the TypeScript:
+
+- The map key lowercases the title but the stored `title` keeps its original
+  case. The first spelling encountered wins, and later differently-cased
+  spellings collapse into it.
+- `LinkedHashMap` is not decoration. The TS builds a `Map` and spreads
+  `extra.values()`, which is insertion-ordered, so the chooser lists chapters in
+  the order the questions first named them. A `HashMap` would reorder the
+  student's chapter list between runs.
+- The key is scoped by `subjectId`, so the same chapter title under two subjects
+  stays two topics — but `covered` is **not** subject-scoped, matching the TS: a
+  library topic with that title suppresses the synthetic one under every
+  subject.
+
 - [ ] **Step 1: Write the failing test**
 
 ```kotlin
-@Test fun `only published questions in the student's cohort are offered`()
+@Test fun `every published question is offered, with no cohort filter`()
+@Test fun `topics are synthesised from the questions when there is no library`()
+@Test fun `a chapter keeps the first spelling seen and the order it appeared in`()
 @Test fun `selecting a topic selects nothing else`()
 @Test fun `the available count follows the scope`()
+@Test fun `an empty scope offers the whole bank`()
 @Test fun `building a sitting draws no more than the pool holds`()
 @Test fun `a built sitting starts in the running phase with nothing visited`()
 @Test fun `the sitting gets a stable id so its attempts can be grouped`()
 ```
 
+**There is no client-side cohort filter, and adding one is a defect.**
+`LedgerItem` carries `universityIds` and `yearIds`, and `contentControl.ts`
+does export an `itemInScope` gate — but the student Question Bank never calls
+it. `src/pages/student/QuestionBank.tsx:578` takes its pool straight from
+`usePublishedQuestions()`, which is
+`publishedQuestionsFromCatalogue(catalogue)` and filters on `status ===
+'Published'` and nothing else (`src/lib/usePublishedQuestions.ts:20,54-58`).
+`itemInScope` is used by the admin Control Dashboard and by Adaptive, neither
+of which is in this milestone. The TypeScript is the contract: the pool is
+every published question the cache holds. A phone that showed a smaller bank
+than the laptop would look like missing content, not like a filter.
+
 - [ ] **Step 2: Implement, run, commit**
+
+The pool is `LocalStore.ledgerItems(ContentKind.QUESTION)`, kept where
+`isStudentVisible` is true, projected through `QuestionProjection.project` and
+with the nulls dropped — a question that fails projection (fewer than two
+answers, or no answer matching `correctAnswer`) is not offerable, exactly as
+`managedQuestionToStudentQuestion` returns null for it.
+
+`build(mode, count)` returns a `LiveSession` and does not persist it; writing
+it under `LiveSession.KEY` is Task 14's job. It must:
+
+- draw from `QBankScope.questions(pool, scope, topics)`, shuffled, taking
+  `min(count, pool.size)` — never padding to `count`
+- set `sessionId` to a value unique per sitting, since the attempt ledger
+  groups by it
+- set `phase` to the running phase, `idx = 0`, `visited` empty, `reviewing`
+  false, `answers` and `checked` empty
+- set `startedAt` to an ISO-8601 instant string
+
+Read `LiveSession.kt` for the exact field names, the `phase` string the other
+clients write, and the `SittingMode` wire values. Do not invent any of them.
 
 ```bash
 git add android
