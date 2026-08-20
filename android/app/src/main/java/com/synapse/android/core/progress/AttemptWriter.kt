@@ -29,12 +29,14 @@ import kotlinx.serialization.json.Json
  * **This is not itself atomic against a concurrent caller.** Two coroutines
  * banking an attempt at the same moment both read the shard, both add their
  * own record to the copy they read, and the later write wins -- losing one
- * record from the shard and one fold from the index. Callers that can be
- * driven concurrently by independent user taps must serialise their own
- * mutation path; see [com.synapse.android.feature.practical.PracticalViewModel].
- * [com.synapse.android.feature.qbank.RunnerViewModel] does not need to: it
- * banks every attempt of a sitting in one sequential loop inside a single
- * coroutine.
+ * record from the shard and one fold from the index. Every caller that can
+ * be driven concurrently by independent user taps serialises its own
+ * mutation path behind a `Mutex`, and both of them can be: see
+ * [com.synapse.android.feature.practical.PracticalViewModel] for the three
+ * practical surfaces, and [com.synapse.android.feature.qbank.RunnerViewModel],
+ * whose tutor mode launches one banking coroutine per answer checked. Only
+ * the timed-mode finish path is naturally sequential, and it takes the same
+ * lock rather than resting on that.
  */
 suspend fun writeAttempt(store: LocalStore, sync: SyncEngine, record: AttemptRecord) {
     val monthName = AttemptStore.month(Instant.parse(record.at))

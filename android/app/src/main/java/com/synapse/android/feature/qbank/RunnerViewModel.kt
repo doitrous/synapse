@@ -21,6 +21,8 @@ import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -76,6 +78,14 @@ class RunnerViewModel(
 ) : ViewModel() {
 
     private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+
+    /**
+     * Serialises the attempt read-modify-write. Tutor mode banks an
+     * attempt from [commit], one independently launched coroutine per
+     * answer checked, so two quick checks would otherwise both read the
+     * same month shard and the later write would drop the earlier record.
+     */
+    private val banking = Mutex()
     private val json = Json { ignoreUnknownKeys = true }
     private val questionsById: Map<String, Question> = questions.associateBy { it.id }
 
@@ -291,7 +301,7 @@ class RunnerViewModel(
             seconds = seconds,
             sessionId = sessionId,
         )
-        writeAttempt(store, sync, record)
+        banking.withLock { writeAttempt(store, sync, record) }
     }
 
     private fun warnUnresolved(questionId: String) {

@@ -87,9 +87,27 @@ class RunnerViewModelTest {
     }
 
     @After
-    fun tearDown() {
+    fun tearDown() = runBlocking {
+        quiesce()
         server.shutdown()
         database.close()
+    }
+
+    /**
+     * [RunnerViewModel] persists from coroutines it launches itself and
+     * never awaits, so closing the database out from under one of them
+     * fails its transaction and prints a stack trace no assertion catches.
+     * Waits for the outbox to stop growing -- every write enqueues -- before
+     * the database goes away.
+     */
+    private suspend fun quiesce() {
+        var previous = -1
+        repeat(200) {
+            val current = store.outbox().size
+            if (current == previous) return
+            previous = current
+            delay(10)
+        }
     }
 
     private fun option(label: String) = AnswerOption(label = label, text = "Option $label", explanation = "Why $label")
@@ -550,5 +568,38 @@ class RunnerViewModelTest {
             warnings.any { it.msg.contains("ghost") },
         )
         assertEquals(emptyMap<String, Int>(), viewModel.session.value.answers)
+    }
+
+    @Test
+    fun `checking answer after answer in tutor mode banks every one of them`() = runBlocking {
+        // Tutor mode banks from commit(), one independently launched
+        // coroutine per answer checked -- so a student working quickly has
+        // several read-modify-writes of the same month shard in flight at
+        // once. Every one of their answers must survive that.
+        val questions = (1..24).map { question("q$it", correctLabel = "A") }
+        val viewModel = RunnerViewModel(
+            sessionOf(SittingMode.TUTOR, questions.map { it.id }),
+            questions,
+            store,
+            sync,
+        )
+
+        for (index in questions.indices) {
+            viewModel.goTo(index)
+            viewModel.choose("A")
+            viewModel.commit()
+        }
+
+        val month = runCatching { awaitMonth(monthKeyNow(), minRecords = questions.size) }.getOrNull()
+        assertEquals(
+            "every checked answer must reach the shard; a lost one is a lost attempt",
+            questions.map { it.id }.toSet(),
+            month?.records?.map { it.itemId }?.toSet() ?: emptySet<String>(),
+        )
+        assertEquals(
+            "the index folds once per record, so its total must match the shard",
+            questions.size,
+            awaitIndex(minAttempts = questions.size).totals.attempts,
+        )
     }
 }
