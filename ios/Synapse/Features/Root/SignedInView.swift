@@ -59,7 +59,7 @@ struct SignedInView: View {
                 )
             }
             Tab(strings("Library"), systemImage: "books.vertical") {
-                LibraryView(store: container.store, sync: container.sync, audience: audience)
+                LibraryView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
             Tab(strings("Questions"), systemImage: "questionmark.circle") {
                 QuestionBankView(store: container.store, sync: container.sync, api: auth.api, audience: audience)

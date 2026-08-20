@@ -8,6 +8,7 @@ import SwiftUI
 /// those a student wants depends entirely on what they sat down to do.
 struct LibraryView: View {
     @State private var model: LibraryModel
+    @State private var library: UserLibrary
     let sync: SyncEngine
 
     @State private var view: LibraryView.Mode = .home
@@ -18,8 +19,9 @@ struct LibraryView: View {
         case browsing(LibraryViewKind)
     }
 
-    init(store: LocalStore, sync: SyncEngine, audience: StudentAudience) {
+    init(store: LocalStore, sync: SyncEngine, api: SynapseAPI, audience: StudentAudience) {
         _model = State(wrappedValue: LibraryModel(store: store, audience: audience))
+        _library = State(wrappedValue: UserLibrary(api: api, sync: sync))
         self.sync = sync
     }
 
@@ -47,7 +49,10 @@ struct LibraryView: View {
             .navigationBarTitleDisplayMode(.large)
         }
         .searchable(text: $query, prompt: "Search the library")
-        .task { await model.load() }
+        .task {
+            await model.load()
+            await library.load()
+        }
         // The first sync usually finishes after this screen has already loaded
         // an empty cache. Without this the student is told there is nothing to
         // read while the content sits downloaded behind it.
@@ -65,16 +70,16 @@ struct LibraryView: View {
         if !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
             // A search cuts across every view — a student who knows the word
             // does not want to pick a shelf first.
-            SearchResults(model: model, query: query)
+            SearchResults(model: model, query: query, library: library)
         } else {
             switch view {
             case .home:
                 StudyChooser(model: model) { kind in view = .browsing(kind) }
             case .browsing(let kind):
                 if kind == .curriculum {
-                    ChapterList(chapters: model.chapters)
+                    ChapterList(model: model, library: library, chapters: model.chapters)
                 } else if let division = kind.division {
-                    DivisionBrowser(model: model, division: division, title: kind.label)
+                    DivisionBrowser(library: library, model: model, division: division, title: kind.label)
                 }
             }
         }
@@ -202,6 +207,7 @@ private struct StudyChooser: View {
 
 /// Browsing one division of the taxonomy, a level at a time.
 private struct DivisionBrowser: View {
+    var library: UserLibrary?
     let model: LibraryModel
     let division: String
     let title: String
@@ -218,7 +224,7 @@ private struct DivisionBrowser: View {
         } else {
             List(roots) { node in
                 NavigationLink {
-                    BranchView(model: model, node: node)
+                    BranchView(model: model, library: library, node: node)
                 } label: {
                     BranchRow(model: model, node: node)
                 }
@@ -234,6 +240,7 @@ private struct DivisionBrowser: View {
 /// One branch: its sub-branches, then the articles sitting on it.
 private struct BranchView: View {
     let model: LibraryModel
+    var library: UserLibrary?
     let node: TaxonomyNode
 
     var body: some View {
@@ -246,7 +253,7 @@ private struct BranchView: View {
                 Section {
                     ForEach(children) { child in
                         NavigationLink {
-                            BranchView(model: model, node: child)
+                            BranchView(model: model, library: library, node: child)
                         } label: {
                             BranchRow(model: model, node: child)
                         }
@@ -258,9 +265,12 @@ private struct BranchView: View {
                 Section {
                     ForEach(direct) { article in
                         NavigationLink {
-                            ArticleReaderView(article: article)
+                            ArticleReaderView(
+                                article: article, library: library,
+                                lookup: { model.articlesById[$0] }
+                            )
                         } label: {
-                            ArticleRow(article: article)
+                            ArticleRow(article: article, library: library)
                         }
                         .listRowBackground(Theme.surface)
                     }
@@ -300,6 +310,8 @@ private struct BranchRow: View {
 
 /// The flat chapter list, used by My Curriculum.
 private struct ChapterList: View {
+    var model: LibraryModel?
+    var library: UserLibrary?
     let chapters: [LibraryChapter]
 
     var body: some View {
@@ -308,9 +320,12 @@ private struct ChapterList: View {
                 Section {
                     ForEach(chapter.articles) { article in
                         NavigationLink {
-                            ArticleReaderView(article: article)
+                            ArticleReaderView(
+                                article: article, library: library,
+                                lookup: { model?.articlesById[$0] }
+                            )
                         } label: {
-                            ArticleRow(article: article)
+                            ArticleRow(article: article, library: library)
                         }
                         .listRowBackground(Theme.surface)
                     }
@@ -331,24 +346,33 @@ private struct ChapterList: View {
 private struct SearchResults: View {
     let model: LibraryModel
     let query: String
+    var library: UserLibrary?
+
+    @State private var matches: [Article] = []
 
     var body: some View {
-        let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
-        let matches = model.articlesById.values
-            .filter {
-                $0.title.localizedCaseInsensitiveContains(trimmed)
-                    || $0.summary.localizedCaseInsensitiveContains(trimmed)
+        Group {
+            if matches.isEmpty {
+                ContentUnavailableView.search(text: query)
+            } else {
+                results
             }
-            .sorted { $0.title.localizedCaseInsensitiveCompare($1.title) == .orderedAscending }
+        }
+        // Through the cache's index rather than a scan in memory, so the body
+        // of an article is searched and not only its title.
+        .task(id: query) { matches = await model.search(query) }
+    }
 
-        if matches.isEmpty {
-            ContentUnavailableView.search(text: query)
-        } else {
+    private var results: some View {
+        Group {
             List(matches) { article in
                 NavigationLink {
-                    ArticleReaderView(article: article)
+                    ArticleReaderView(
+                        article: article, library: library,
+                        lookup: { model.articlesById[$0] }
+                    )
                 } label: {
-                    ArticleRow(article: article)
+                    ArticleRow(article: article, library: library)
                 }
                 .listRowBackground(Theme.surface)
             }
@@ -361,6 +385,7 @@ private struct SearchResults: View {
 
 struct ArticleRow: View {
     let article: Article
+    var library: UserLibrary?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
@@ -379,6 +404,18 @@ struct ArticleRow: View {
                 Label("\(article.readingMinutes) min", systemImage: "clock")
                 if !article.linkedQuestionIds.isEmpty {
                     Label("\(article.linkedQuestionIds.count)", systemImage: "questionmark.circle")
+                }
+                if library?.hasRead(article.id) == true {
+                    Label("Read", systemImage: "checkmark.circle.fill")
+                        .foregroundStyle(Theme.success)
+                }
+                ForEach(library?.tags(on: article.id) ?? [], id: \.self) { tag in
+                    Text(tag)
+                        .font(Theme.ui(10))
+                        .foregroundStyle(Theme.ink2)
+                        .padding(.horizontal, 5)
+                        .padding(.vertical, 1)
+                        .background(Theme.inset, in: Capsule())
                 }
             }
             .font(Theme.numeric(11))
