@@ -101,7 +101,7 @@ struct ReaderPanel: View {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button("Done", action: close)
                         .font(Theme.ui(16, weight: 600))
-                        .tint(Theme.accent)
+                        .tint(Theme.primary)
                 }
             }
         }
@@ -131,7 +131,7 @@ struct ReaderPanel: View {
                     Label("Section here", systemImage: "plus")
                 }
                 .font(Theme.ui(15, weight: 600))
-                .tint(Theme.accent)
+                .tint(Theme.primary)
             }
         } else {
             List {
@@ -139,7 +139,7 @@ struct ReaderPanel: View {
                     Button { naming = true } label: {
                         Label("Section here", systemImage: "plus")
                             .font(Theme.ui(14, weight: 600))
-                            .foregroundStyle(Theme.accent)
+                            .foregroundStyle(Theme.primary)
                     }
                 }
                 .listRowBackground(Theme.surface)
@@ -183,7 +183,7 @@ struct ReaderPanel: View {
         HStack(spacing: 8) {
             if mine {
                 Capsule()
-                    .fill(Theme.accent)
+                    .fill(Theme.primary)
                     .frame(width: 2, height: 14)
             }
             Text(title)
@@ -233,7 +233,7 @@ struct ReaderPanel: View {
             if scanning {
                 Section {
                     HStack(spacing: 10) {
-                        ProgressView().tint(Theme.accent)
+                        ProgressView().tint(Theme.primary)
                         Text("Reading the document…")
                             .font(Theme.ui(13))
                             .foregroundStyle(Theme.ink2)
@@ -272,7 +272,7 @@ struct ReaderPanel: View {
                     Button(action: scan) {
                         Label("Search the document too", systemImage: "magnifyingglass")
                             .font(Theme.ui(14, weight: 600))
-                            .foregroundStyle(Theme.accent)
+                            .foregroundStyle(Theme.primary)
                     }
                 }
                 .listRowBackground(Theme.surface)
@@ -287,7 +287,7 @@ struct ReaderPanel: View {
             HStack(spacing: 6) {
                 Text("Page \(hit.page)")
                     .font(Theme.numeric(11))
-                    .foregroundStyle(Theme.accent)
+                    .foregroundStyle(Theme.primary)
                 if hit.isOwnWriting {
                     Text(hit.label)
                         .font(Theme.ui(11))

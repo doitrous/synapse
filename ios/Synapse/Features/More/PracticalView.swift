@@ -14,7 +14,7 @@ struct PracticalView: View {
     var body: some View {
         Group {
             if isLoading {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else if groups.isEmpty {
                 EmptyStateView(
@@ -71,7 +71,7 @@ struct PracticalView: View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: item.symbol)
                 .font(.system(size: 15))
-                .foregroundStyle(Theme.accent)
+                .foregroundStyle(Theme.primary)
                 .frame(width: 22)
             VStack(alignment: .leading, spacing: 3) {
                 Text(item.title)
@@ -120,7 +120,7 @@ struct PracticalView: View {
     private func colour(_ status: PracticalProgress.SkillStatus) -> Color {
         switch status {
         case .notStarted: Theme.ink3
-        case .practised: Theme.accent
+        case .practised: Theme.primary
         case .ready: Theme.success
         }
     }
@@ -245,8 +245,8 @@ struct PracticalDetailView: View {
                             .font(Theme.ui(16, weight: 600))
                             .frame(maxWidth: .infinity)
                             .frame(height: 48)
-                            .background(revealed ? Theme.inset : Theme.accent)
-                            .foregroundStyle(revealed ? Theme.ink3 : Theme.onAccent)
+                            .background(revealed ? Theme.inset : Theme.primary)
+                            .foregroundStyle(revealed ? Theme.ink3 : Theme.onPrimary)
                             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                     }
                     .disabled(revealed)

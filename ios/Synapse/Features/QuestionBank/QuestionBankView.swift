@@ -20,7 +20,7 @@ struct QuestionBankView: View {
         NavigationStack {
             Group {
                 if model.isLoading {
-                    ProgressView().tint(Theme.accent)
+                    ProgressView().tint(Theme.primary)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if let reason = model.emptyReason {
                     EmptyStateView(symbol: "questionmark.circle", title: "No questions yet", detail: reason)
@@ -147,7 +147,7 @@ private struct SessionBuilder: View {
                     } label: {
                         HStack(spacing: 10) {
                             Image(systemName: preset.symbol)
-                                .foregroundStyle(pool.isEmpty ? Theme.ink3 : Theme.accent)
+                                .foregroundStyle(pool.isEmpty ? Theme.ink3 : Theme.primary)
                                 .frame(width: 22)
                             Text(preset.title)
                                 .font(Theme.ui(15))
@@ -183,7 +183,7 @@ private struct SessionBuilder: View {
                     } label: {
                         Label("^[\(store.markedCount) flagged question](inflect: true)", systemImage: "flag.fill")
                             .font(Theme.ui(15, weight: 600))
-                            .foregroundStyle(Theme.accent)
+                            .foregroundStyle(Theme.primary)
                     }
                 } footer: {
                     Text("The ones you marked to come back to.")
@@ -199,7 +199,7 @@ private struct SessionBuilder: View {
                             .foregroundStyle(Theme.ink)
                         Spacer()
                         Text(scopeSummary)
-                            .foregroundStyle(Theme.accent)
+                            .foregroundStyle(Theme.primary)
                         Image(systemName: "chevron.right")
                             .font(.system(size: 12, weight: .semibold))
                             .foregroundStyle(Theme.ink3)
@@ -237,8 +237,8 @@ private struct SessionBuilder: View {
                         .frame(maxWidth: .infinity)
                         .frame(height: 44)
                 }
-                .listRowBackground(Theme.accent)
-                .foregroundStyle(Theme.onAccent)
+                .listRowBackground(Theme.primary)
+                .foregroundStyle(Theme.onPrimary)
             } footer: {
                 Text("\(matching) question\(matching == 1 ? "" : "s") available.")
                     .font(Theme.ui(13))
@@ -345,7 +345,7 @@ private struct Runner: View {
                     .font(Theme.ui(16, weight: 600))
                     .frame(width: 48, height: 48)
                     .background(Theme.surface)
-                    .foregroundStyle(Theme.accent)
+                    .foregroundStyle(Theme.primary)
                     .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
             }
             .disabled(model.index == 0)
@@ -355,7 +355,7 @@ private struct Runner: View {
         }
         .padding(.horizontal, 20)
         .padding(.bottom, 8)
-        .background(.ultraThinMaterial)
+        .floatingChrome(in: Rectangle())
     }
 
     /// Flag, note and the jump grid, for the question on screen.
@@ -365,7 +365,7 @@ private struct Runner: View {
                 Label("\(model.index + 1) / \(model.session.count)", systemImage: "square.grid.3x3")
                     .font(Theme.numeric(13))
             }
-            .tint(Theme.accent)
+            .tint(Theme.primary)
         }
         if let question = model.current, let store {
             ToolbarItem(placement: .topBarTrailing) {
@@ -374,7 +374,7 @@ private struct Runner: View {
                 } label: {
                     Image(systemName: store.isMarked(question.id) ? "flag.fill" : "flag")
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
                 .accessibilityLabel(store.isMarked(question.id) ? "Unflag" : "Flag for later")
             }
             ToolbarItem(placement: .topBarTrailing) {
@@ -384,7 +384,7 @@ private struct Runner: View {
                 } label: {
                     Image(systemName: store.note(question.id).isEmpty ? "note.text" : "note.text.badge.plus")
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
                 .accessibilityLabel("Your note")
             }
         }
@@ -409,8 +409,8 @@ private struct Runner: View {
                 .font(Theme.ui(16, weight: 600))
                 .frame(maxWidth: .infinity)
                 .frame(height: 48)
-                .background(Theme.accent)
-                .foregroundStyle(Theme.onAccent)
+                .background(Theme.primary)
+                .foregroundStyle(Theme.onPrimary)
                 .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
         }
         .padding(.horizontal, 20)
@@ -506,7 +506,7 @@ private struct Runner: View {
                             .background(Theme.inset, in: Capsule())
                     }
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
                 .padding(14)
                 .background(Theme.surface)
                 .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
@@ -516,7 +516,7 @@ private struct Runner: View {
             // Named last because it states what the question was testing —
             // shown earlier it would give the answer away.
             if let objective = question.learningObjective, !objective.isEmpty {
-                block("What this tests", symbol: nil, tint: Theme.accentStrong, text: objective)
+                block("What this tests", symbol: nil, tint: Theme.primaryStrong, text: objective)
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -585,7 +585,7 @@ private struct Results: View {
 
                 Button("Another sitting") { model.restart() }
                     .font(Theme.ui(16, weight: 600))
-                    .foregroundStyle(Theme.accent)
+                    .foregroundStyle(Theme.primary)
             }
             .padding(20)
             .frame(maxWidth: 680)

@@ -39,7 +39,7 @@ struct WidgetTextSheet: View {
                             dismiss()
                         }
                         .font(Theme.ui(16, weight: 600))
-                        .tint(Theme.accent)
+                        .tint(Theme.primary)
                     }
                 }
         }

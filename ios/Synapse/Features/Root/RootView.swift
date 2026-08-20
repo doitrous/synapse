@@ -25,7 +25,7 @@ struct RootView: View {
 private struct RestoringView: View {
     var body: some View {
         ProgressView()
-            .tint(Theme.accent)
+            .tint(Theme.primary)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Theme.paper)
     }

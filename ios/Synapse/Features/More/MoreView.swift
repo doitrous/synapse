@@ -77,7 +77,7 @@ struct MoreView: View {
                 Text(strings(title)).font(Theme.ui(16))
             } icon: {
                 Image(systemName: symbol)
-                    .foregroundStyle(Theme.accent)
+                    .foregroundStyle(Theme.primary)
                     // A chevron or an arrow points the other way in Arabic; a
                     // calendar or a clipboard does not.
                     .flipsForRightToLeftLayoutDirection(true)

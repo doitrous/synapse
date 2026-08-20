@@ -52,7 +52,7 @@ struct OptionRow: View {
         switch state {
         case .correct: Theme.success
         case .chosenWrong: Theme.danger
-        case .chosen: Theme.accentStrong
+        case .chosen: Theme.primaryStrong
         default: Theme.ink3
         }
     }
@@ -60,7 +60,7 @@ struct OptionRow: View {
     private var background: Color {
         switch state {
         case .unanswered, .otherWrong: Theme.surface
-        case .chosen: Theme.accentTint
+        case .chosen: Theme.primaryTint
         case .correct, .chosenWrong: Theme.surface2
         }
     }
@@ -69,7 +69,7 @@ struct OptionRow: View {
         switch state {
         case .correct: Theme.success
         case .chosenWrong: Theme.danger
-        case .chosen: Theme.accent
+        case .chosen: Theme.primary
         default: Theme.line
         }
     }

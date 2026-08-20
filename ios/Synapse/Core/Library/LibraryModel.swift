@@ -28,6 +28,8 @@ final class LibraryModel {
     private(set) var articlesById: [String: Article] = [:]
     /// The medical taxonomy, indexed for browsing.
     private(set) var atlas = LibraryAtlas.empty
+    /// The published evidence, kept so a fact can show where it came from.
+    private(set) var evidence = EvidenceStore.empty
 
     private let store: LocalStore
     /// The student's cohort, which decides what is in scope. Nil until the
@@ -37,6 +39,27 @@ final class LibraryModel {
     init(store: LocalStore, audience: StudentAudience = .unknown) {
         self.store = store
         self.audience = audience
+    }
+
+    /// The source document behind a citation, when this student has it.
+    ///
+    /// Built from the evidence store rather than the resource catalogue: the
+    /// evidence store is the register of source documents and is what knows
+    /// which of them have bytes behind them.
+    func resource(_ id: String) -> LibraryResource? {
+        guard let file = evidence.resourceFiles[id] else { return nil }
+        return LibraryResource(
+            id: id,
+            title: file.title,
+            type: .book,
+            subjectId: "",
+            source: "",
+            meta: "",
+            year: nil,
+            chapters: [],
+            hasFile: true,
+            file: file
+        )
     }
 
     /// Search the library through the cache's own full-text index.
@@ -81,6 +104,7 @@ final class LibraryModel {
         do {
             let items = try await store.items(kind: .article, audience: audience)
             let evidence = EvidenceStore.decode(try await decodedCatalogue(SyncEngine.evidenceKey))
+            self.evidence = evidence
             let concepts = ConceptIndex.decode(try await decodedCatalogue(SyncEngine.conceptGraphKey))
 
             // Related reading may only point at an article this projection will
