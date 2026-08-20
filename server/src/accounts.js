@@ -18,6 +18,7 @@
  */
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
+import { hasConsoleAccess } from './roles.js'
 import { normaliseEmail, normalisePhone } from './identity.js'
 
 const SUPABASE_URL = process.env.SUPABASE_URL?.replace(/\/$/, '')
@@ -356,11 +357,14 @@ export async function setAccessStatus(studentId, { status, reason, actorId }) {
 
     const [access] = await conn.query('SELECT role FROM user_access WHERE user_id = ? FOR UPDATE', [userId])
     if (!access.length) { await conn.rollback(); return { error: 'no_identity' } }
-    // Suspending an admin would remove the ability to undo it if it were the
-    // last one. Refusing here is cheaper than recovering from that.
-    if (access[0].role === 'admin' && status === 'suspended') {
+    // Suspending somebody who holds the console would remove the ability to
+    // undo it if they were the last one. Refusing here is cheaper than
+    // recovering from that. This reads console access rather than the single
+    // role 'admin', or widening the console to four roles would have quietly
+    // made editors and reviewers suspendable.
+    if (hasConsoleAccess(access[0].role) && status === 'suspended') {
       await conn.rollback()
-      return { error: 'cannot_suspend_admin' }
+      return { error: 'cannot_suspend_console' }
     }
 
     await conn.query('UPDATE user_access SET status = ? WHERE user_id = ?', [status, userId])

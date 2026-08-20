@@ -1,6 +1,7 @@
 import { createRemoteJWKSet, jwtVerify } from 'jose'
 import { pool } from './db.js'
 import { effectiveRole, hasConsoleAccess, parseSuperAdminEmails, rank } from './roles.js'
+import { ROLE_TABS_STATE_KEY, holdsTab, tabsForRole } from './tabs.js'
 
 const supabaseUrl = process.env.SUPABASE_URL?.replace(/\/$/, '')
 const issuer = supabaseUrl ? `${supabaseUrl}/auth/v1` : null
@@ -135,6 +136,52 @@ export function mfaSatisfied(identity) {
   return !identity.mfaRequired || identity.aal === 'aal2'
 }
 
+/**
+ * The role→tabs document, cached until it is written.
+ *
+ * Every guarded request reads it, so it cannot be a query per request. The
+ * cache is dropped by `invalidateRoleTabs`, which the state route calls when
+ * this key changes — the same invalidation shape the medical-resource snapshot
+ * already uses.
+ */
+let roleTabsCache = null
+
+export function invalidateRoleTabs() {
+  roleTabsCache = null
+}
+
+async function roleTabs() {
+  if (roleTabsCache) return roleTabsCache
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [ROLE_TABS_STATE_KEY])
+  roleTabsCache = (rows.length ? safeParse(rows[0].v) : null) ?? {}
+  return roleTabsCache
+}
+
+/** Every tab this identity holds. */
+export async function heldTabs(identity) {
+  if (!identity) return []
+  return tabsForRole(identity.role, await roleTabs())
+}
+
+/**
+ * A route belongs to a tab, and you must hold that tab.
+ *
+ * This is the whole permission model: hiding a tab in Access Control is not a
+ * cosmetic change, it is this refusal.
+ */
+export function requireTab(...tabIds) {
+  return async function guard(req, res, next) {
+    if (!hasConsoleAccess(req.identity?.role)) return res.status(403).json({ error: 'console access required' })
+    if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+    try {
+      if (!holdsTab(await heldTabs(req.identity), tabIds)) {
+        return res.status(403).json({ error: 'that area is not part of your role' })
+      }
+    } catch (error) { return next(error) }
+    return next()
+  }
+}
+
 /** Any console role at all. Not sufficient on its own — see `requireTab`. */
 export function requireConsole(req, res, next) {
   if (!hasConsoleAccess(req.identity?.role)) return res.status(403).json({ error: 'console access required' })
@@ -154,5 +201,3 @@ export function requireAuthenticated(req, res, next) {
   return next()
 }
 
-/** Temporary: every caller moves to `requireTab` in the next task, then this goes. */
-export const requireAdmin = requireConsole
