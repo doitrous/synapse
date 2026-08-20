@@ -743,6 +743,25 @@ test('an unknown difficulty band is rejected rather than quietly becoming Modera
   assert.ok(errors.some((error) => error.includes('Difficulty must be one of')))
 })
 
+/* ---- essay import ------------------------------------------------------- */
+
+test('a written question needs at least one key point', () => {
+  const errors = validateImportRow('essay', { title: 'Right heart failure', subject: 'cvs', prompt: 'Discuss.' })
+  assert.ok(errors.some((error) => /key point/i.test(error)))
+})
+
+test('an imported written question keeps its legible markers', () => {
+  const item = importRowToContent('essay', {
+    title: 'Right heart failure', subject: 'cvs', prompt: 'Discuss.',
+    key_points: '!Cor pulmonale\nRaised JVP',
+  }, 'row-1')
+  assert.equal(item.kind, 'essay')
+  assert.equal(item.essayData?.keyPoints[0].legible, true)
+  assert.equal(item.essayData?.keyPoints[0].text, 'Cor pulmonale')
+  assert.equal(item.essayData?.keyPoints[1].legible, undefined)
+  assert.equal(item.essayData?.prompt, 'Discuss.')
+})
+
 /* ---- histology ----------------------------------------------------------- */
 
 test('a histology row needs at least one image', () => {

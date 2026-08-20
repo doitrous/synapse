@@ -14,6 +14,7 @@ import {
   listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
   setAccessStatus, requestPasswordReset, recordAction, readReason,
   passwordResetConfigured, getUserActivity, setRole, identifierTaken, entitlementOf, saveOwnEnrolment,
+  getDiscoverable, setDiscoverable,
 } from './accounts.js'
 import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
@@ -30,8 +31,21 @@ import {
 } from './assistant.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
-  invalidateStudyRoomSnapshot,
 } from './studyRooms.js'
+import {
+  createParty, joinByCode, setVisibility, myParties, openParties, partyFor, leaveParty,
+  createSession, sessionsFor, sessionFor, answerItem, closeSession,
+} from './parties.js'
+import {
+  createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
+} from './challenges.js'
+import { invalidatePublishedQuestions } from './publishedQuestions.js'
+import { sendRequest, respondToRequest, removeFriend, myFriends, myRequests, directorySearch } from './friends.js'
+import { mintInvite, redeemInvite } from './friendInvites.js'
+import {
+  linkAccount as linkFacebookAccount, unlinkAccount as unlinkFacebookAccount,
+  deletionCallback as facebookDeletionCallback, parseSignedRequest as parseFacebookSignedRequest,
+} from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
 
@@ -48,16 +62,16 @@ let medicalResourceLoad = null
 /**
  * Drop any server-side cache a state write has just made stale.
  *
- * Two caches now read from `app_state` — the medical-resource snapshot and the
- * published-question set behind study rooms — so invalidation is one call
- * rather than a growing list at every write site.
+ * Two caches now read from `app_state` — the medical-resource snapshot, and
+ * the published-question set shared by study rooms and challenges — so
+ * invalidation is one call rather than a growing list at every write site.
  */
 function invalidateSnapshots(key) {
   if (key === MEDICAL_EVIDENCE_STATE_KEY) {
     medicalResourceSnapshot = null
     medicalResourceLoad = null
   }
-  invalidateStudyRoomSnapshot(key)
+  invalidatePublishedQuestions(key)
 }
 const app = express()
 /**
@@ -223,6 +237,25 @@ app.get('/api/me/export', requireAuthenticated, wrap(async (req, res) => {
     documents,
     uploads: uploads.map((row) => ({ ...row, downloadPath: `/api/my-documents/${row.id}/file` })),
   })
+}))
+
+/**
+ * Whether the caller shows up in their own year's directory.
+ *
+ * The column defaults to findable, because the cohort is already closed and
+ * being found by your own classmates is the point of the directory — but
+ * default-on only stays honest if a student can see and change it, which is
+ * what these two routes are for. The actor is always the verified session;
+ * the value being written is the only thing that comes from the body.
+ */
+app.get('/api/account/discoverable', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ discoverable: await getDiscoverable(req.identity.id) })
+}))
+
+app.post('/api/account/discoverable', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setDiscoverable(req.identity.id, Boolean(req.body?.discoverable))
+  if (result.error === 'not_found') return res.status(404).json({ error: 'no account to update' })
+  res.json(result)
 }))
 
 /* ── A student's own documents ───────────────────────────────────────────── */
@@ -535,6 +568,185 @@ app.post('/api/study-rooms/:id/answers', requireAuthenticated, wrap(async (req, 
 
 app.post('/api/study-rooms/:id/finish', requireAuthenticated, wrap(async (req, res) => {
   res.json(await finishRoom(req.identity.id, req.params.id))
+}))
+
+/* ── Study parties ───────────────────────────────────────────────────────── */
+
+app.post('/api/parties', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createParty(req.identity.id, req.body ?? {}))
+}))
+
+app.post('/api/parties/join', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await joinByCode(req.identity.id, req.body?.code))
+}))
+
+app.get('/api/parties/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ parties: await myParties(req.identity.id) })
+}))
+
+app.get('/api/parties/open', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ parties: await openParties(req.identity.id) })
+}))
+
+app.get('/api/parties/:id', requireAuthenticated, wrap(async (req, res) => {
+  const party = await partyFor(req.identity.id, req.params.id)
+  if (!party) return res.status(404).json({ error: 'party not found' })
+  res.json({ party })
+}))
+
+app.post('/api/parties/:id/visibility', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await setVisibility(req.identity.id, req.params.id, req.body?.visibility))
+}))
+
+app.post('/api/parties/:id/leave', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await leaveParty(req.identity.id, req.params.id))
+}))
+
+/* ── Study party sessions ────────────────────────────────────────────────── */
+
+app.post('/api/parties/:id/sessions', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createSession(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.get('/api/parties/:id/sessions', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ sessions: await sessionsFor(req.identity.id, req.params.id) })
+}))
+
+app.get('/api/party-sessions/:sessionId', requireAuthenticated, wrap(async (req, res) => {
+  const session = await sessionFor(req.identity.id, req.params.sessionId)
+  // A non-member gets the same answer as a non-existent session: whether a
+  // session exists is not something a stranger should be able to probe.
+  if (!session) return res.status(404).json({ error: 'session not found' })
+  res.json({ session })
+}))
+
+app.post('/api/party-sessions/:sessionId/answers', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await answerItem(req.identity.id, req.params.sessionId, req.body ?? {}))
+}))
+
+app.post('/api/party-sessions/:sessionId/close', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await closeSession(req.identity.id, req.params.sessionId))
+}))
+
+/* ── Challenges ──────────────────────────────────────────────────────────── */
+
+app.post('/api/challenges', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createChallenge(req.identity.id, req.body ?? {}))
+}))
+
+app.get('/api/challenges/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ challenges: await myChallenges(req.identity.id) })
+}))
+
+app.get('/api/challenges/:id', requireAuthenticated, wrap(async (req, res) => {
+  const challenge = await challengeFor(req.identity.id, req.params.id)
+  // A non-participant gets the same answer as a non-existent challenge: whether
+  // a challenge exists between two other people is not theirs to probe.
+  if (!challenge) return res.status(404).json({ error: 'challenge not found' })
+  res.json({ challenge })
+}))
+
+app.post('/api/challenges/:id/respond', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await respondToChallenge(req.identity.id, req.params.id, Boolean(req.body?.accept)))
+}))
+
+app.post('/api/challenges/:id/answers', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await submitChallengeAnswer(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.post('/api/challenges/:id/finish', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await finishChallenge(req.identity.id, req.params.id))
+}))
+
+/* ── Friends ─────────────────────────────────────────────────────────────── */
+
+app.get('/api/friends', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ friends: await myFriends(req.identity.id), requests: await myRequests(req.identity.id) })
+}))
+
+app.get('/api/friends/directory', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ people: await directorySearch(req.identity.id, req.query?.q) })
+}))
+
+app.post('/api/friends/request', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await sendRequest(req.identity.id, req.body?.userId))
+}))
+
+app.post('/api/friends/respond', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await respondToRequest(req.identity.id, req.body?.userId, Boolean(req.body?.accept)))
+}))
+
+app.post('/api/friends/remove', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await removeFriend(req.identity.id, req.body?.userId))
+}))
+
+app.post('/api/friends/invite', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await mintInvite(req.identity.id))
+}))
+
+app.post('/api/friends/invite/redeem', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await redeemInvite(req.identity.id, req.body?.token))
+}))
+
+/* ── Facebook link ────────────────────────────────────────────────────────
+   Dark until Meta approves `user_friends` for this app: nothing here starts
+   an OAuth handshake, so these routes exist for the day the flag flips on. */
+
+/**
+ * The same off switch the front end has.
+ *
+ * `VITE_FEATURE_FACEBOOK_FRIENDS` only ever hid the button, so linking still
+ * shipped live as an API — "it ships off" was true of the screen and not of
+ * the server. Off is the default: a flag nobody has set means the feature is
+ * not on, never that the check was forgotten.
+ */
+function facebookFriendsEnabled(_req, res, next) {
+  if (process.env.FEATURE_FACEBOOK_FRIENDS !== 'true') {
+    // A refusal with a reason, not a status code: every other refusal in this
+    // file answers 200 with `{ ok, reason }`, and the client's `apiSend` throws
+    // away the body of anything else — so a 4xx here would reach a student as
+    // "something went wrong" instead of a sentence.
+    return res.json({ ok: false, reason: 'facebook_disabled' })
+  }
+  return next()
+}
+
+app.post('/api/friends/facebook/link', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
+  res.json(await linkFacebookAccount(req.identity.id, req.body?.fbUserId))
+}))
+
+app.post('/api/friends/facebook/unlink', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
+  res.json(await unlinkFacebookAccount(req.identity.id))
+}))
+
+/**
+ * Meta's data-deletion callback, required for App Review.
+ *
+ * Public because Meta's own servers call it — there is no student session to
+ * require, and requiring one meant this route answered 401 to every deletion
+ * request, so the requirement it exists for did not work at all. What
+ * authenticates it instead is the `signed_request` Meta signs with the app
+ * secret: no secret configured, or a signature that does not verify, and the
+ * request is refused rather than processed. It is listed in `apiAuthGate`'s
+ * allowlist for that reason and no other.
+ *
+ * Left ungated by `FEATURE_FACEBOOK_FRIENDS` deliberately: anybody who ever
+ * linked an account must be able to have it deleted, including after linking
+ * is switched back off.
+ *
+ * Meta posts this form-encoded, so the parser is attached here rather than
+ * globally — no other route takes a form body.
+ */
+app.post('/api/facebook/deletion-callback', express.urlencoded({ extended: false }), wrap(async (req, res) => {
+  const appSecret = process.env.FACEBOOK_APP_SECRET
+  if (!appSecret) return res.status(503).json({ error: 'facebook_not_configured' })
+
+  const payload = parseFacebookSignedRequest(req.body?.signed_request ?? req.query?.signed_request, appSecret)
+  if (!payload?.user_id) return res.status(401).json({ error: 'invalid_signed_request' })
+
+  const fbUserId = String(payload.user_id)
+  await facebookDeletionCallback(fbUserId)
+  res.json({ url: `${PUBLIC_ORIGIN}/privacy`, confirmation_code: fbUserId })
 }))
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */
@@ -1499,8 +1711,44 @@ app.get('/api/admin/assistant/models', requireAdmin, wrap(async (req, res) => {
   return res.json(result)
 }))
 
+/** Locales built as their own entry document — one per extra `input` in
+ *  `vite.config.ts`. Adding one there means adding it here. */
+const LOCALE_ENTRY_PATHS = ['en', 'ar']
+
 const PUBLIC_DIR = process.env.PUBLIC_DIR || join(__dirname, '..', 'public')
 if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
+  /* The localized entry documents, matched before anything else touches them.
+   *
+   * `/en` and `/ar` are real HTML files, built as separate Vite inputs, because
+   * a link crawler runs no JavaScript: WhatsApp, iMessage, Slack and Google see
+   * only what is in the document they are served. Their Open Graph card, their
+   * `lang`/`dir`, and their canonical URL therefore have to be in the file, and
+   * cannot be set by the SPA after it mounts.
+   *
+   * They must be matched here, above the static middleware, because that
+   * middleware would otherwise see `public/ar` as a directory and 301 `/ar` to
+   * `/ar/` — and then, with directory indexes off, decline to serve it and drop
+   * it into the catch-all below, which sends the English root document. That is
+   * what shipped: every crawler asking for the Arabic page was handed the
+   * English one, with the wrong card and a canonical pointing at `/`.
+   *
+   * Never cached, exactly like the root document: these are the files a deploy
+   * needs to be able to change.
+   *
+   * (`nginx.conf` used to carry this as `location = /en` blocks. It was never
+   * copied into the image by the Dockerfile — the production container is this
+   * server, not nginx — so it never ran. It has been deleted rather than left
+   * to describe routing that does not happen.)
+   */
+  for (const locale of LOCALE_ENTRY_PATHS) {
+    const document = join(PUBLIC_DIR, locale, 'index.html')
+    if (!existsSync(document)) continue
+    app.get([`/${locale}`, `/${locale}/`], (_req, res) => {
+      res.setHeader('Cache-Control', 'no-cache')
+      res.sendFile(document)
+    })
+  }
+
   app.use('/assets', express.static(join(PUBLIC_DIR, 'assets'), { index: false, maxAge: '1y', immutable: true }))
   app.use(express.static(PUBLIC_DIR, {
     index: false,

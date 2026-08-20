@@ -615,7 +615,7 @@ export const AR: Record<string, string> = {
 
   // Panel titles
   'Two systems, measured separately': 'نظامان يُقاسان بشكل منفصل',
-  'What Connect Cortex measures': 'ما يقيسه سينابس',
+  'What Connect Cortex measures': 'ما يقيسه Connect Cortex',
   'What it does not measure': 'ما لا يقيسه',
   'How your next block is put together': 'كيف تُبنى مجموعتك التالية',
   'Rules that are never relaxed': 'قواعد لا يجري التساهل فيها أبدًا',
@@ -699,7 +699,7 @@ export const AR: Record<string, string> = {
   'Not enough distinct questions yet to say anything about this.':
     'لا توجد أسئلة مختلفة كافية بعد لقول أي شيء عن هذا.',
   'One recent answer went wrong. Connect Cortex will check this again — this is not a weakness label.':
-    'إجابة حديثة واحدة كانت خاطئة. سيتحقق سينابس من هذا مرة أخرى — وهذا ليس وصفًا بالضعف.',
+    'إجابة حديثة واحدة كانت خاطئة. سيتحقق Connect Cortex من هذا مرة أخرى — وهذا ليس وصفًا بالضعف.',
   'Repeated evidence across different questions points to a real gap here.':
     'أدلة متكررة عبر أسئلة مختلفة تشير إلى وجود فجوة حقيقية هنا.',
   'Measurable, but not yet strong enough to count as secure.':
@@ -725,7 +725,7 @@ export const AR: Record<string, string> = {
   // Page shell — the header and tab strip around the rules surface. Left in
   // English these framed an Arabic page, which reads worse than either alone.
   'Connect Cortex keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.':
-    'يواصل سينابس اكتشاف ما يُرجَّح أن تنساه أو تسيء فهمه، ويعيده إليك في الوقت المناسب، ويُبقي تدريبك متوافقًا مع مخطط امتحانك.',
+    'يواصل Connect Cortex اكتشاف ما يُرجَّح أن تنساه أو تسيء فهمه، ويعيده إليك في الوقت المناسب، ويُبقي تدريبك متوافقًا مع مخطط امتحانك.',
   Algorithm: 'الخوارزمية',
   'days to exam': 'يومًا حتى الامتحان',
   'Your university and year are not set': 'لم تُحدَّد جامعتك وسنتك الدراسية',

@@ -71,6 +71,12 @@ const SERIF = "Georgia,'Times New Roman',Times,serif"
  *  through the geometric sans-serifs that ship on real machines. */
 const BRAND = "Jost,'Century Gothic',Futura,'Avenir Next','Trebuchet MS',sans-serif"
 
+/** The brand mark, absolute. A message is read outside the app, so a relative
+ *  path resolves against the mail client and 404s. Written out rather than
+ *  imported from `pageMeta.ts` for the same reason the palette is: nothing in
+ *  this file may depend on the running app, so that a server can render mail. */
+const MARK_URL = 'https://synapse.doitrous.com/brand/logo.png'
+
 /** Who is sending, and from where. Required in most jurisdictions, and filters look. */
 export interface EmailSender {
   name: string
@@ -290,12 +296,33 @@ ${facts.map((fact, index) => {
 
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:100%;">
 
-<!-- MASTHEAD. Letters, not an image: images are blocked by default in most
-     clients, and a masthead that renders as a grey box is worse than one made of
-     type. The brain-O cannot survive here, so the blue/rose split IS the mark. -->
+<!-- MASTHEAD. The lockup as the product sets it: the mark IS the O in CONNECT,
+     Jost 500 uppercase at 0.045em, so the wordmark and the symbol are one thing.
+
+     The masthead still may never depend on an image loading — most clients block
+     them by default, and a grey box is worse than one made of type. So the O is
+     the only image in the message, and it is given two ways to fail into the
+     letter it stands in for:
+
+       A styled alt="O". Clients that block images draw the alt text with the
+       styles carried on the image itself, so the letter arrives in the same
+       face, size and blue as the run around it.
+
+       An mso branch, because Word draws a placeholder icon rather than honour
+       alt text. Outlook gets the letter directly and never sees the image.
+
+     Images on, the mark. Images off or Outlook, CONNECTCORTEX in letters, which
+     is logo-wordmark.png — an approved lockup, not a fallback that looks
+     broken. There is no state where the masthead is a hole.
+
+     CORTEX stays primaryStrong rather than the --brand-rose the app sets it in.
+     This file holds every text colour to AA against the fill behind it, and
+     #d13a63 measures 4.3:1 on the paper at 19px. It is the same call DESIGN.md
+     already makes for the logotype on the dark ground, for the same stated
+     reason: the logotype is TEXT, so it takes the text step. -->
 <tr>
 <td style="padding:0 4px 14px;">
-<span style="font-family:${BRAND};font-size:19px;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;mso-line-height-rule:exactly;line-height:19px;"><span style="color:${COLOR.brandBlue};">Connect</span><span style="color:${COLOR.primaryStrong};">Cortex</span></span>
+<span style="font-family:${BRAND};font-size:19px;font-weight:500;letter-spacing:0.045em;text-transform:uppercase;white-space:nowrap;mso-line-height-rule:exactly;line-height:19px;color:${COLOR.brandBlue};">C<!--[if !mso]><!--><img src="${MARK_URL}" width="20" height="20" alt="O" style="width:20px;height:20px;line-height:20px;vertical-align:-5px;border:0;outline:none;text-decoration:none;font-family:${BRAND};font-size:19px;font-weight:500;letter-spacing:0.045em;color:${COLOR.brandBlue};"><!--<![endif]--><!--[if mso]>O<![endif]-->NNECT<span style="color:${COLOR.primaryStrong};">CORTEX</span></span>
 </td>
 </tr>
 

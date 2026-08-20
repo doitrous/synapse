@@ -7,6 +7,7 @@ import { ImagePlus,
   FolderOpen,
   Microscope,
   Pencil,
+  PenLine,
   Plus,
   RotateCcw,
   Search,
@@ -53,6 +54,7 @@ import { QuestionEditorDialog } from '@/components/admin/QuestionEditorDialog'
 import { LibraryArticleEditorDialog } from '@/components/admin/LibraryArticleEditorDialog'
 import { PracticalEditorDialog } from '@/components/admin/PracticalEditorDialog'
 import { ResourceEditorDialog } from '@/components/admin/ResourceEditorDialog'
+import { EssayEditorDialog } from '@/components/admin/EssayEditorDialog'
 import { HistologyEditorDialog } from '@/components/admin/HistologyEditorDialog'
 import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
@@ -72,6 +74,7 @@ const KIND_ICON = {
   article: BookOpenText,
   practical: Stethoscope,
   resource: FolderOpen,
+  essay: PenLine,
   histology: Microscope,
 }
 
@@ -149,6 +152,10 @@ function itemSummary(item: ManagedContentItem) {
   if (item.kind === 'practical') {
     const unit = item.fields.Type === 'Clinical case' ? 'decisions' : item.fields.Type?.includes('interpretation') ? 'questions' : 'marks'
     return `${item.fields.Type} · ${item.fields.Duration} min · ${item.fields.Marks} ${unit}`
+  }
+  if (item.kind === 'essay') {
+    const points = item.essayData?.keyPoints.length ?? 0
+    return `${points} key point${points === 1 ? '' : 's'}`
   }
   return `${item.fields.Type} · ${item.fields.Source}`
 }
@@ -231,6 +238,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     article: items.filter((item) => item.kind === 'article').length,
     practical: items.filter((item) => item.kind === 'practical').length,
     resource: items.filter((item) => item.kind === 'resource').length,
+    essay: items.filter((item) => item.kind === 'essay').length,
     histology: items.filter((item) => item.kind === 'histology').length,
   }), [items])
 
@@ -241,7 +249,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       .filter((item) => status === 'All' || item.status === status)
       // Navigator scope (Master → university → year) for question & resource catalogues.
       .filter((item) => {
-        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'histology')) return true
+        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'essay' && activeKind !== 'histology')) return true
         // Authored scope, not a hash of the item's id.
         return itemInScope(item, activeScope.universityId, activeScope.year)
       })
@@ -511,6 +519,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 ['article', 'Library articles'],
                 ['practical', 'Practical'],
                 ['resource', 'Resources'],
+                ['essay', 'Written questions'],
                 ['histology', 'Histology'],
               ] as const).map(([value, label]) => ({ value, label, icon: KIND_ICON[value], count: kindCounts[value] }))}
             />
@@ -800,6 +809,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
         <PracticalEditorDialog open={editorOpen} item={editing} concepts={conceptGraph} contentItems={items} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'resource' ? (
         <ResourceEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+      ) : activeKind === 'essay' ? (
+        <EssayEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'histology' ? (
         <HistologyEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : (

@@ -14,7 +14,8 @@ import { formatLongDate } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 import { useLocalPreference } from '@/lib/useLocalPreference'
-import { nextExam, useStudentSchedule } from '@/lib/useStudentSchedule'
+import { useStudentSchedule } from '@/lib/useStudentSchedule'
+import { nextExam } from '@/lib/studentSchedule'
 
 function greetingKey(): string {
   const h = new Date().getHours()

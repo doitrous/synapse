@@ -8,6 +8,7 @@ import {
   LineChart,
   FolderOpen,
   PenTool,
+  PenLine,
   Notebook,
   Users,
   CreditCard,
@@ -34,6 +35,7 @@ import {
   Compass,
   Scale,
   Bot,
+  Grid3x3,
   Microscope,
 } from 'lucide-react'
 
@@ -65,6 +67,7 @@ export const studentNav: NavGroup[] = [
       { label: 'Question Bank', to: '/app/qbank', icon: ListChecks },
       { label: 'Adaptive Study', to: '/app/adaptive', icon: Compass },
       { label: 'Practical', to: '/app/practical', icon: Stethoscope },
+      { label: 'Essay questions', to: '/app/essays', icon: PenLine },
       { label: 'Resources', to: '/app/resources', icon: FolderOpen },
       { label: 'Medical Taxonomy', to: '/app/taxonomy', icon: Languages },
     ],
@@ -80,6 +83,7 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Whiteboard', to: '/app/whiteboard', icon: PenTool },
       { label: 'Notebook', to: '/app/notebook', icon: Notebook },
+      { label: 'Term Grid', to: '/app/term-grid', icon: Grid3x3 },
       { label: 'Study Together', to: '/app/study-together', icon: Users },
     ],
   },
@@ -105,6 +109,7 @@ export const adminNav: NavGroup[] = [
       { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },
       { label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass },
       { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
+      { label: 'Written Setup', to: '/admin/written', icon: PenLine },
       { label: 'Histology', to: '/admin/histology', icon: Microscope },
       { label: 'Concepts', to: '/admin/concepts', icon: Braces },
       { label: 'Relationships', to: '/admin/relationships', icon: GitFork },

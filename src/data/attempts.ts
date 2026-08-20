@@ -14,7 +14,7 @@ import type { Difficulty } from './qbank'
  */
 
 /** Which runner produced the record. */
-export type AttemptSurface = 'qbank' | 'case' | 'lab' | 'station' | 'room'
+export type AttemptSurface = 'qbank' | 'case' | 'lab' | 'station' | 'room' | 'essay'
 
 export interface AttemptRecord {
   id: string
@@ -33,6 +33,8 @@ export interface AttemptRecord {
    * A station is ticked by the student against a checklist, so it is evidence
    * of practice and says nothing about correctness. Storing `false` there would
    * quietly drag every accuracy figure down; storing `true` would inflate it.
+   * An essay answer is marked the same way, by the student who wrote it, so it
+   * is recorded the same way: `null`, not a verdict.
    */
   correct: boolean | null
   /** Null when the item was untimed. */
@@ -107,6 +109,26 @@ export function addAttempt(month: AttemptMonth, record: AttemptRecord): AttemptM
 
 export function attemptId(record: Pick<AttemptRecord, 'surface' | 'itemId' | 'sessionId'>): string {
   return `${record.sessionId}:${record.surface}:${record.itemId}`
+}
+
+/**
+ * How long an answer took, as `seconds` wants it.
+ *
+ * `seconds` is null when the item was untimed, and a runner that files a
+ * duration anyway does not merely add noise: `medianSeconds` reads the log as
+ * "how fast under a clock", so an untimed answer mixed in is a number about
+ * something else. Whether a sitting was timed is the runner's to say — a room
+ * carries a `timed` flag, the Question Bank carries a mode — so it is asked for
+ * rather than guessed at from the interval.
+ *
+ * Wall clocks are not monotonic: a device correcting its time mid-question can
+ * hand back an end before the start, which would file a negative duration
+ * against the question. Floored at zero, and whole seconds because that is the
+ * resolution every other writer records at.
+ */
+export function attemptSeconds(timed: boolean, startedAtMs: number, endedAtMs: number): number | null {
+  if (!timed) return null
+  return Math.max(0, Math.round((endedAtMs - startedAtMs) / 1000))
 }
 
 /** Fold a record into the index, so headline totals never need a shard read. */

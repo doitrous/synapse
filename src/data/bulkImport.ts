@@ -13,6 +13,7 @@ import { DIFFICULTIES } from './qbank.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
 import { optionalList } from './importSemantics.ts'
+import { parseKeyPoints, type EssayAuthoringData } from './essay.ts'
 import { OBJECTIVES, type SlideView, type HistologyAuthoringData } from './histology.ts'
 
 export interface ImportFieldDefinition {
@@ -182,6 +183,17 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'description', label: 'Description', help: 'What the resource teaches and why it is relevant.' },
     ],
     markdownExample: `# Item\n\n## title\nNICE NG158 · Venous thromboembolic diseases\n\n## subject\ncvs\n\n## type\nGuideline\n\n## source\nNICE\n\n## url\nhttps://www.nice.org.uk/guidance/ng158\n\n## year\n2026\n\n## topics\nTPC_HF\nSUB_HF_MGMT\n\n## chapter\nVenous thromboembolism\nHeart failure\n\n## module_ids\nCVS 01\n\n## included_concepts\nmed.concept.loop-diuretics\nmed.concept.heart-failure\n\n## included_articles\nhf-mgmt\n\n## concept_locations\nmed.concept.heart-failure | page | 142\nmed.concept.loop-diuretics | timestamp | 3:20\n\n## description\nDiagnosis and initial management of suspected pulmonary embolism.`,
+  },
+  essay: {
+    noun: 'written questions',
+    fields: [
+      ...common,
+      { key: 'prompt', label: 'Question prompt', required: true, help: 'The essay question shown to the student before they write.' },
+      { key: 'key_points', label: 'Key points', help: 'What a complete answer covers, one point per line. Prefix a line with "!" to mark it as one of the words an examiner scans for — a diagnosis, an enzyme, an organism — that the student should write legibly. At least one key point is required.' },
+      { key: 'examiner_note', label: 'What the examiner scans for', help: 'Guidance on how the answer is actually marked, shown to the student once they reveal it.' },
+      { key: 'model_answer', label: 'Model answer', help: 'A full written answer the student can compare their own against.' },
+    ],
+    markdownExample: `# Item\n\n## title\nRight heart failure\n\n## subject\ncvs\n\n## prompt\nDiscuss the causes and management of right heart failure.\n\n## key_points\n!Cor pulmonale\nRaised JVP\nPeripheral oedema\n!Hepatomegaly\n\n## examiner_note\nMarks are lost for listing causes without linking them to right-sided signs.\n\n## model_answer\nRight heart failure follows a rise in pulmonary vascular resistance...\n\n---\n\n# Item\n...`,
   },
   histology: {
     noun: 'histology slides',
@@ -833,6 +845,11 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
       errors.push(`Media request "${request.brief}" names "${request.section}", which is not a question in this item`)
     })
   }
+  if (kind === 'essay') {
+    // A written question with nothing to mark against would leave the student
+    // ticking off nothing, which is the whole of the practice.
+    if (!parseKeyPoints(values.key_points).length) errors.push('At least one key point is required')
+  }
   if (kind === 'histology') {
     // A slide with no image cannot be looked at — the same rule
     // `managedSlideToStudentSlide` enforces on the student side.
@@ -1088,6 +1105,19 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '',
       },
       practicalData: practicalDataFrom(values),
+    }
+  }
+  if (kind === 'essay') {
+    const essayData: EssayAuthoringData = {
+      prompt: values.prompt || '',
+      keyPoints: parseKeyPoints(values.key_points),
+      examinerNote: values.examiner_note || '',
+      modelAnswer: values.model_answer || '',
+    }
+    return {
+      ...base,
+      fields: { Prompt: values.prompt || '', ExaminerNote: values.examiner_note || '' },
+      essayData,
     }
   }
   if (kind === 'histology') {
