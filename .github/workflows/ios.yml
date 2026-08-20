@@ -1,0 +1,104 @@
+# The iOS app: build and run the test suite on a simulator.
+#
+# Scoped to `ios/**` on purpose. macOS runners bill at ten times the rate of
+# Linux ones on a private repository, and the two halves of this repo do not
+# overlap — a web-only change has nothing here to prove.
+#
+# No secrets are needed. `Config/Base.xcconfig` pulls Supabase credentials in
+# with `#include? "Secrets.xcconfig"` — an *optional* include, so a checkout
+# without that file builds and tests fine and the app just reports itself as
+# not configured.
+name: iOS
+
+on:
+  pull_request:
+    paths: ['ios/**', '.github/workflows/ios.yml']
+  push:
+    branches: [main]
+    paths: ['ios/**', '.github/workflows/ios.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Build and test
+    # Must carry the iOS 26 SDK or newer — see the preflight step for why.
+    runs-on: macos-26
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # `Design/Glass.swift` calls `glassEffect` and `GlassEffectContainer`
+      # behind `if #available(iOS 26.0, *)`. That gates *runtime*, not
+      # compilation: the symbols still have to exist in the SDK being built
+      # against, so an older Xcode fails with "cannot find 'glassEffect' in
+      # scope" — thousands of lines deep in the build log, saying nothing about
+      # the real cause. Fail here instead, with the reason.
+      - name: Preflight — check the SDK is new enough
+        run: |
+          set -euo pipefail
+          xcodebuild -version
+          sdk=$(xcrun --sdk iphonesimulator --show-sdk-version)
+          echo "iOS simulator SDK: $sdk"
+          if [ "${sdk%%.*}" -lt 26 ]; then
+            echo "::error::This app compiles against iOS 26 APIs, so it needs the iOS 26 SDK or newer. This runner has $sdk. Move the job to a newer macOS runner image."
+            exit 1
+          fi
+
+      # Packages are cloned into the workspace rather than the default spot
+      # inside DerivedData, which is the only way to give the cache a stable
+      # path. Keyed on Package.resolved, so the cache is reused until a
+      # dependency actually moves.
+      - name: Cache Swift packages
+        uses: actions/cache@v4
+        with:
+          path: ios/.spm
+          key: spm-${{ runner.os }}-${{ hashFiles('ios/Synapse.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved') }}
+          restore-keys: spm-${{ runner.os }}-
+
+      # Naming a simulator outright ("iPhone 16") ties the workflow to whatever
+      # the runner image happens to ship and breaks on the next image bump.
+      # Any available iPhone will do: the app deploys to iOS 18.0.
+      - name: Pick a simulator
+        run: |
+          set -euo pipefail
+          udid=$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          runtimes = json.load(sys.stdin)["devices"]
+          for runtime, devices in sorted(runtimes.items()):
+              if "iOS" not in runtime:
+                  continue
+              for device in devices:
+                  if device.get("isAvailable") and "iPhone" in device["name"]:
+                      print(device["udid"])
+                      sys.exit(0)
+          sys.exit("no available iPhone simulator on this runner")
+          ')
+          echo "SIMULATOR_UDID=$udid" >> "$GITHUB_ENV"
+          xcrun simctl list devices available | grep -F "$udid"
+
+      - name: Build and test
+        run: |
+          set -euo pipefail
+          xcodebuild test \
+            -project ios/Synapse.xcodeproj \
+            -scheme Synapse \
+            -destination "platform=iOS Simulator,id=$SIMULATOR_UDID" \
+            -clonedSourcePackagesDirPath ios/.spm \
+            -resultBundlePath ios/TestResults.xcresult
+
+      # The .xcresult holds the per-test failure detail that the raw log makes
+      # hard to read. Only worth keeping when something actually failed.
+      - name: Upload results on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcresult
+          path: ios/TestResults.xcresult
+          retention-days: 7
