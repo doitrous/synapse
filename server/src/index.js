@@ -8,8 +8,10 @@ import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
-import { apiAuthGate, heldTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
+import { apiAuthGate, heldTabs, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
 import { hasConsoleAccess } from './roles.js'
+import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
+import { authoriseChanges, diffDocument, mergeDocument } from './stateMerge.js'
 import {
   listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
   setAccessStatus, requestPasswordReset, recordAction, readReason,
@@ -586,38 +588,129 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // `updatedAt` lets the client decide whether its crash-recovery copy is newer
   // than the stored document. Without it a stale browser silently wins and
   // re-uploads old data over a newer server-side write.
-  const [rows] = await pool.query('SELECT v, updated_at AS updatedAt FROM app_state WHERE k = ?', [req.params.key])
-  if (!rows.length) return res.json({ value: null, updatedAt: null })
-  try { res.json({ value: JSON.parse(rows[0].v), updatedAt: rows[0].updatedAt }) } catch { res.json({ value: null, updatedAt: rows[0].updatedAt }) }
+  //
+  // `version` is the row this document was read at. The client sends it back on
+  // save, which is what lets the write below reconstruct what that client
+  // actually changed instead of taking its whole document on trust.
+  const [rows] = await pool.query(
+    `SELECT s.v, s.updated_at AS updatedAt,
+            (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
+       FROM app_state s WHERE s.k = ?`,
+    [req.params.key],
+  )
+  if (!rows.length) return res.json({ value: null, updatedAt: null, version: null })
+  const { updatedAt, version } = rows[0]
+  try { res.json({ value: JSON.parse(rows[0].v), updatedAt, version }) }
+  catch { res.json({ value: null, updatedAt, version }) }
 }))
 
+/**
+ * Save a shared document.
+ *
+ * Three refusals, in the order they become knowable: you must hold a tab that
+ * owns this key; the changes you are making must be yours to make; and nobody
+ * may have changed the same item underneath you. Each answers with what is
+ * wrong, because a save that fails silently is the bug this route used to have.
+ */
 app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
-  const v = JSON.stringify(req.body?.value ?? null)
+  const key = req.params.key
+  const owners = tabsForStateKey(key)
+  const held = await heldTabs(req.identity)
+  const superAdmin = req.identity.role === 'super_admin'
+
+  // A key no tab declares is reachable only by a super admin. Fail closed: a
+  // document added later without a registry entry becomes a bug report, never
+  // a hole.
+  if (!superAdmin && !holdsTab(held, owners)) {
+    return res.status(403).json({ error: 'that area is not part of your role' })
+  }
+
+  const baseVersion = req.body?.baseVersion
+  if (baseVersion === undefined) {
+    return res.status(400).json({ error: 'baseVersion is required; reload this page and try again' })
+  }
+
   const conn = await pool.getConnection()
   try {
     await conn.beginTransaction()
-    const [current] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [req.params.key])
-    if (!current.length || current[0].v !== v) {
-      await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [req.params.key, v, req.identity.id])
+    const [currentRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [key])
+    const storedRaw = currentRows.length ? currentRows[0].v : null
+    const [versionRows] = await conn.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [key])
+    const storedVersion = versionRows[0]?.version ?? null
+
+    let base = null
+    if (baseVersion !== null) {
+      const [baseRows] = await conn.query('SELECT v FROM app_state_versions WHERE id = ? AND k = ?', [baseVersion, key])
+      if (!baseRows.length) {
+        await conn.rollback()
+        return res.status(409).json({
+          error: 'stale',
+          reason: 'this page was loaded from a version that is no longer on record — reload and try again',
+        })
+      }
+      base = JSON.parse(baseRows[0].v)
+    } else if (storedVersion !== null) {
+      // The client believed this document did not exist, and it does.
+      await conn.rollback()
+      return res.status(409).json({
+        error: 'stale',
+        reason: 'this document was created while you were editing — reload and try again',
+      })
+    }
+
+    const stored = storedRaw === null ? null : JSON.parse(storedRaw)
+    const incoming = req.body?.value ?? null
+
+    if (!superAdmin) {
+      const changes = diffDocument(key, base, incoming)
+      // A document with no adapter yields no changes; the base-version check
+      // above is what protects it, and the tab check above is its authorisation.
+      const authorised = authoriseChanges(changes, { heldTabs: held, contentScope: req.identity.contentScope })
+      if (!authorised.ok) {
+        await conn.rollback()
+        return res.status(403).json({ error: 'refused', refusals: authorised.refusals })
+      }
+    }
+
+    const merged = mergeDocument(key, base, stored, incoming)
+    if (!merged.ok) {
+      await conn.rollback()
+      return res.status(409).json({
+        error: 'conflict',
+        conflicts: merged.conflicts,
+        reason: 'somebody else changed the same items while you were editing',
+      })
+    }
+
+    const v = JSON.stringify(merged.value ?? null)
+    let version = storedVersion
+    if (storedRaw !== v) {
+      const [inserted] = await conn.query(
+        'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [key, v, req.identity.id],
+      )
+      version = inserted.insertId
       await conn.query(
-        'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)',
-        [req.params.key, v],
+        'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [key, v],
       )
     }
     await conn.commit()
-    invalidateSnapshots(req.params.key)
+    invalidateSnapshots(key)
+    if (key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
+    res.json({ ok: true, version })
   } catch (error) {
     await conn.rollback()
     throw error
   } finally {
     conn.release()
   }
-  res.json({ ok: true })
 }))
 
 app.delete('/api/state/:key', requireSuperAdmin, wrap(async (req, res) => {
+  // Deleting a whole document is not an edit: it has no per-item diff and so no
+  // scope to judge it against. Super admin only.
   await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
   invalidateSnapshots(req.params.key)
+  if (req.params.key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
   res.json({ ok: true })
 }))
 
