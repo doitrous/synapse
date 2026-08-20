@@ -7,10 +7,10 @@ name: Web
 
 on:
   pull_request:
-    paths-ignore: ['ios/**', '**/*.md', 'docs/**']
+    paths-ignore: ['ios/**', '.github/workflows/ios.yml', '**/*.md', 'docs/**']
   push:
     branches: [main]
-    paths-ignore: ['ios/**', '**/*.md', 'docs/**']
+    paths-ignore: ['ios/**', '.github/workflows/ios.yml', '**/*.md', 'docs/**']
 
 permissions:
   contents: read
