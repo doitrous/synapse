@@ -1639,8 +1639,13 @@ export function QuestionBank() {
     // answer; the incoming branch factored the record out into `attemptFor`, so
     // one answer and a whole sitting cannot value a question differently. Both.
     setChecked((c) => ({ ...c, [q.id]: true }))
-    logAttempt(attemptFor(q, chosen, mode === 'timed' ? Math.max(0, elapsed - questionStartedAt.current) : null))
-    questionStartedAt.current = elapsed
+    // Untimed, and not a `mode === 'timed'` question. This is the Tutor writer:
+    // the button that calls it is rendered in no other mode, and the clock runs
+    // in no mode but timed. Asking anyway read a clock that never started and
+    // could only ever file a measured-looking zero. A timed sitting is measured
+    // by `switchTiming`, which owns `questionStartedAt` — this used to reset it
+    // from underneath — and committed by `commitAnswers`.
+    logAttempt(attemptFor(q, chosen, null))
   }
 
   /*
