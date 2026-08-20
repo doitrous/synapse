@@ -11,6 +11,9 @@ struct ResourceReaderView: View {
     let files: ResourceFileStore
     let api: SynapseAPI
     let sync: SyncEngine
+    /// A page a citation asked for, so a fact can land on its exact source
+    /// rather than on the first page of a four-hundred-page book.
+    var openAt: Int?
 
     @State private var pageLabel = ""
     @State private var annotations: AnnotationStore?
@@ -72,14 +75,14 @@ struct ResourceReaderView: View {
                     Button { panel = .contents } label: {
                         Image(systemName: "list.bullet.indent")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .accessibilityLabel("Contents")
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { panel = .search } label: {
                         Image(systemName: "magnifyingglass")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .accessibilityLabel("Search this document")
                 }
                 ToolbarItem(placement: .topBarTrailing) {
@@ -100,7 +103,7 @@ struct ResourceReaderView: View {
                     } label: {
                         Image(systemName: "ellipsis.circle")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                 }
             }
         }
@@ -120,7 +123,7 @@ struct ResourceReaderView: View {
                             .foregroundStyle(Theme.ink2)
                             .padding(.horizontal, 10)
                             .padding(.vertical, 5)
-                            .background(.ultraThinMaterial, in: Capsule())
+                            .floatingChrome(in: Capsule())
                     }
                     if !selection.isEmpty { selectionBar }
                     // Reserved space too, and for the same reason: its buttons
@@ -204,6 +207,9 @@ struct ResourceReaderView: View {
             if target != nil { DispatchQueue.main.async { jumpTo = nil } }
         }
         .task {
+            // Before anything else, so the reader opens where it was asked to
+            // rather than jumping there a moment after the student arrives.
+            if let openAt { jumpTo = openAt }
             noteOpened()
             // Read off the main thread: a large book's outline is a tree of
             // several thousand nodes, and building it on the way in would show
@@ -335,10 +341,10 @@ struct ResourceReaderView: View {
             }
         }
         .font(Theme.ui(13, weight: 600))
-        .tint(Theme.accent)
+        .tint(Theme.primary)
         .padding(.horizontal, 16)
         .padding(.vertical, 10)
-        .background(.regularMaterial, in: Capsule())
+        .floatingChrome(in: Capsule())
         .padding(.bottom, 16)
     }
 
@@ -430,10 +436,10 @@ struct ResourceReaderView: View {
         }
         .font(Theme.ui(13, weight: 600))
         .labelStyle(.titleOnly)
-        .tint(Theme.accent)
+        .tint(Theme.primary)
         .padding(.horizontal, 16)
         .padding(.vertical, 10)
-        .background(.regularMaterial, in: Capsule())
+        .floatingChrome(in: Capsule())
         .padding(.bottom, 16)
     }
 
@@ -455,14 +461,14 @@ struct ResourceReaderView: View {
     private func downloading(_ fraction: Double) -> some View {
         VStack(spacing: 14) {
             ProgressView(value: fraction)
-                .tint(Theme.accent)
+                .tint(Theme.primary)
                 .frame(maxWidth: 220)
             Text(fraction > 0 ? "\(Int(fraction * 100))%" : "Starting…")
                 .font(Theme.numeric(13))
                 .foregroundStyle(Theme.ink2)
             Button("Cancel") { files.cancel(resource.id) }
                 .font(Theme.ui(14))
-                .tint(Theme.accent)
+                .tint(Theme.primary)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
@@ -471,7 +477,7 @@ struct ResourceReaderView: View {
         VStack(spacing: 12) {
             Image(systemName: "arrow.down.circle")
                 .font(.system(size: 34))
-                .foregroundStyle(Theme.accent)
+                .foregroundStyle(Theme.primary)
             Text(resource.title)
                 .font(Theme.display(20))
                 .foregroundStyle(Theme.ink)
@@ -488,8 +494,8 @@ struct ResourceReaderView: View {
                     .font(Theme.ui(16, weight: 600))
                     .frame(maxWidth: 220)
                     .frame(height: 46)
-                    .background(Theme.accent)
-                    .foregroundStyle(Theme.onAccent)
+                    .background(Theme.primary)
+                    .foregroundStyle(Theme.onPrimary)
                     .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
             }
             .padding(.top, 4)

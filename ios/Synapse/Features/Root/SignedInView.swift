@@ -12,6 +12,12 @@ struct SignedInView: View {
     @State private var container: Container?
     @State private var failure: String?
     @State private var strings = Localisation()
+    @State private var theme = ThemeStore()
+    /// Which tab is showing, so a screen settles on arrival rather than on
+    /// every redraw.
+    @State private var tab = Destination.today
+
+    enum Destination: String, Hashable { case today, library, questions, resources, more }
 
     var body: some View {
         Group {
@@ -20,11 +26,11 @@ struct SignedInView: View {
             } else if let failure {
                 EmptyStateView(
                     symbol: "exclamationmark.triangle",
-                    title: "Synapse could not start",
+                    title: "Connect Cortex could not start",
                     detail: failure
                 )
             } else {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(Theme.paper)
             }
@@ -34,6 +40,10 @@ struct SignedInView: View {
         // trailing rather than left and right, so flipping this flips every
         // stack, list and navigation bar beneath it at once.
         .environment(\.strings, strings)
+        .environment(\.themeStore, theme)
+        // The palette is read through static members, so a change repaints by
+        // rebuilding the tree beneath rather than by observation.
+        .id(theme.appearance)
         .environment(\.layoutDirection, strings.layoutDirection)
         .environment(\.locale, strings.language.locale)
         .task {
@@ -51,23 +61,23 @@ struct SignedInView: View {
     private func tabs(_ container: Container) -> some View {
         let audience = container.audienceStore.audience
 
-        return TabView {
-            Tab(strings("Today"), systemImage: "sun.max") {
+        return TabView(selection: $tab) {
+            Tab(strings("Today"), systemImage: "sun.max", value: Destination.today) {
                 DashboardView(
                     store: container.store, sync: container.sync,
                     user: user, auth: auth, audienceStore: container.audienceStore
                 )
             }
-            Tab(strings("Library"), systemImage: "books.vertical") {
+            Tab(strings("Library"), systemImage: "books.vertical", value: Destination.library) {
                 LibraryView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
-            Tab(strings("Questions"), systemImage: "questionmark.circle") {
+            Tab(strings("Questions"), systemImage: "questionmark.circle", value: Destination.questions) {
                 QuestionBankView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
-            Tab(strings("Resources"), systemImage: "folder") {
+            Tab(strings("Resources"), systemImage: "folder", value: Destination.resources) {
                 ResourcesView(store: container.store, sync: container.sync, audience: audience, api: auth.api)
             }
-            Tab(strings("More"), systemImage: "square.grid.2x2") {
+            Tab(strings("More"), systemImage: "square.grid.2x2", value: Destination.more) {
                 MoreView(
                     store: container.store, sync: container.sync,
                     audience: audience, audienceStore: container.audienceStore,
@@ -75,7 +85,10 @@ struct SignedInView: View {
                 )
             }
         }
-        .tint(Theme.accent)
+        .tint(Theme.primary)
+        // Eight points on arrival, keyed on the destination: the shell stays
+        // put and only the page beneath it re-settles.
+        .screenIn(tab)
         // Rebuild the surfaces when the cohort resolves, so a student who set
         // their year a moment ago is not still looking at everyone's content.
         .id(audience)
@@ -112,6 +125,7 @@ struct SignedInView: View {
 /// Account, sync state, and signing out.
 struct AccountView: View {
     @Environment(\.strings) private var strings
+    @Environment(\.themeStore) private var theme
 
     let user: SessionUser
     let auth: AuthModel
@@ -131,6 +145,24 @@ struct AccountView: View {
                 .listRowBackground(Theme.surface)
 
                 cohort
+
+                Section {
+                    Picker(strings("Theme"), selection: Binding(
+                        get: { theme.appearance },
+                        set: { theme.use($0) }
+                    )) {
+                        ForEach(AppTheme.allCases, id: \.self) {
+                            Text(strings($0.label)).tag($0)
+                        }
+                    }
+                    .pickerStyle(.menu)
+                } header: {
+                    Text(strings("Appearance"))
+                } footer: {
+                    Text(strings("Warm is the paper-coloured ground. Light and dark are the same tokens on a cooler one."))
+                        .font(Theme.ui(12))
+                }
+                .listRowBackground(Theme.surface)
 
                 Section {
                     // In each language's own name. Someone looking for Arabic
@@ -163,7 +195,7 @@ struct AccountView: View {
                     Button("Refresh now") {
                         Task { await sync.refresh() }
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                 }
                 .listRowBackground(Theme.surface)
 
@@ -217,7 +249,7 @@ struct AccountView: View {
                         )
                     }
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
                 .disabled(university.isEmpty || year.isEmpty)
             }
         } header: {

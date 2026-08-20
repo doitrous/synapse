@@ -32,7 +32,7 @@ struct PreviousTests: View {
                                 } label: {
                                     Label("Rename", systemImage: "pencil")
                                 }
-                                .tint(Theme.accent)
+                                .tint(Theme.primary)
                             }
                     }
                     .listRowBackground(Theme.surface)
@@ -68,7 +68,7 @@ struct PreviousTests: View {
                 if let accuracy = session.accuracy {
                     Text("\(Int((accuracy * 100).rounded()))%")
                         .font(Theme.numeric(14))
-                        .foregroundStyle(accuracy >= 0.75 ? Theme.success : accuracy >= 0.6 ? Theme.accent : Theme.warning)
+                        .foregroundStyle(accuracy >= 0.75 ? Theme.success : accuracy >= 0.6 ? Theme.primary : Theme.warning)
                 } else {
                     Text("—")
                         .font(Theme.numeric(14))

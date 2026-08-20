@@ -24,7 +24,7 @@ struct ResourcesView: View {
         NavigationStack {
             Group {
                 if model.isLoading {
-                    ProgressView().tint(Theme.accent)
+                    ProgressView().tint(Theme.primary)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if let reason = model.emptyReason {
                     EmptyStateView(symbol: "folder", title: "No resources yet", detail: reason)
@@ -41,7 +41,7 @@ struct ResourcesView: View {
                     } label: {
                         Image(systemName: savedOnly ? "bookmark.fill" : "bookmark")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .accessibilityLabel(savedOnly ? "Showing saved only" : "Show saved only")
                 }
             }
@@ -149,7 +149,7 @@ struct ResourcesView: View {
         Button(action: toggle) {
             HStack(spacing: 10) {
                 Image(systemName: isOn ? "checkmark.square.fill" : "square")
-                    .foregroundStyle(isOn ? Theme.accent : Theme.ink3)
+                    .foregroundStyle(isOn ? Theme.primary : Theme.ink3)
                 Text(title)
                     .font(Theme.ui(14))
                     .foregroundStyle(Theme.ink)
@@ -194,7 +194,7 @@ private struct ResourceRow: View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: resource.type.symbol)
                 .font(.system(size: 15))
-                .foregroundStyle(Theme.accent)
+                .foregroundStyle(Theme.primary)
                 .frame(width: 22)
 
             VStack(alignment: .leading, spacing: 3) {
@@ -235,7 +235,7 @@ private struct ResourceRow: View {
             Button(action: toggle) {
                 Image(systemName: isSaved ? "bookmark.fill" : "bookmark")
                     .font(.system(size: 14))
-                    .foregroundStyle(isSaved ? Theme.accent : Theme.ink3)
+                    .foregroundStyle(isSaved ? Theme.primary : Theme.ink3)
             }
             .buttonStyle(.plain)
             .accessibilityLabel(isSaved ? "Remove from saved" : "Save")

@@ -20,7 +20,7 @@ struct StudyTogetherView: View {
                     lobby(model)
                 }
             } else {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
@@ -56,7 +56,7 @@ struct StudyTogetherView: View {
                     Button("Join") {
                         Task { if await model.join(code: code) { code = "" } }
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .disabled(code.trimmed.isEmpty)
                 }
             } header: {
@@ -75,7 +75,7 @@ struct StudyTogetherView: View {
                     Label("Build a shared test", systemImage: "plus.circle")
                         .font(Theme.ui(15))
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
             }
             .listRowBackground(Theme.surface)
 
@@ -97,7 +97,7 @@ struct StudyTogetherView: View {
                                 Spacer()
                                 Text(summary.code)
                                     .font(Theme.numeric(13, weight: 500))
-                                    .foregroundStyle(Theme.accent)
+                                    .foregroundStyle(Theme.primary)
                             }
                         }
                         .buttonStyle(.plain)
@@ -212,7 +212,7 @@ private struct RoomView: View {
         }
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
-                Button("Leave") { model.close() }.tint(Theme.accent)
+                Button("Leave") { model.close() }.tint(Theme.primary)
             }
         }
     }
@@ -246,8 +246,8 @@ private struct RoomView: View {
                         .font(Theme.ui(16, weight: 600))
                         .frame(maxWidth: .infinity)
                         .frame(height: 48)
-                        .background(Theme.accent)
-                        .foregroundStyle(Theme.onAccent)
+                        .background(Theme.primary)
+                        .foregroundStyle(Theme.onPrimary)
                         .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                 }
             } else {
@@ -300,10 +300,10 @@ private struct RoomView: View {
                                     .frame(maxWidth: .infinity, alignment: .leading)
                             }
                             .padding(14)
-                            .background(model.chosenIndex == position ? Theme.accentTint : Theme.surface)
+                            .background(model.chosenIndex == position ? Theme.primaryTint : Theme.surface)
                             .overlay(
                                 RoundedRectangle(cornerRadius: Theme.Radius.lg)
-                                    .stroke(model.chosenIndex == position ? Theme.accentLine : Theme.line, lineWidth: 1)
+                                    .stroke(model.chosenIndex == position ? Theme.primaryLine : Theme.line, lineWidth: 1)
                             )
                             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                         }
@@ -321,8 +321,8 @@ private struct RoomView: View {
                                 .font(Theme.ui(16, weight: 600))
                                 .frame(maxWidth: .infinity)
                                 .frame(height: 48)
-                                .background(Theme.accent)
-                                .foregroundStyle(Theme.onAccent)
+                                .background(Theme.primary)
+                                .foregroundStyle(Theme.onPrimary)
                                 .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                         }
                     }
@@ -366,8 +366,8 @@ private struct RoomView: View {
                             .font(Theme.ui(16, weight: 600))
                             .frame(maxWidth: .infinity)
                             .frame(height: 48)
-                            .background(Theme.accent)
-                            .foregroundStyle(Theme.onAccent)
+                            .background(Theme.primary)
+                            .foregroundStyle(Theme.onPrimary)
                             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                     }
                 } else if !room.myAnswers.isEmpty {
@@ -454,7 +454,7 @@ private struct RoomView: View {
                         Image(systemName: "chevron.left")
                             .frame(width: 48, height: 48)
                             .background(Theme.surface)
-                            .foregroundStyle(Theme.accent)
+                            .foregroundStyle(Theme.primary)
                             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                     }
                     .disabled(position == 0)
@@ -466,15 +466,15 @@ private struct RoomView: View {
                             .frame(maxWidth: .infinity)
                             .frame(height: 48)
                             .background(Theme.surface)
-                            .foregroundStyle(Theme.accent)
+                            .foregroundStyle(Theme.primary)
                             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                     }
 
                     Button { reviewIndex = min(rows.count - 1, position + 1) } label: {
                         Image(systemName: "chevron.right")
                             .frame(width: 48, height: 48)
-                            .background(Theme.accent)
-                            .foregroundStyle(Theme.onAccent)
+                            .background(Theme.primary)
+                            .foregroundStyle(Theme.onPrimary)
                             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                     }
                     .disabled(position >= rows.count - 1)
@@ -482,7 +482,7 @@ private struct RoomView: View {
                 }
                 .padding(.horizontal, 20)
                 .padding(.bottom, 8)
-                .background(.ultraThinMaterial)
+                .floatingChrome(in: Rectangle())
             }
         }
     }

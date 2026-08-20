@@ -56,7 +56,7 @@ struct DashboardView: View {
                     Button { showingAccount = true } label: {
                         Image(systemName: "person.crop.circle")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .accessibilityLabel("Account")
                 }
             }
