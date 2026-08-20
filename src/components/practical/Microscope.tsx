@@ -9,7 +9,7 @@ import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
-const INSTRUMENT = '/microscope/microscope.jpg'
+const INSTRUMENT = '/microscope/microscope.png'
 const GRID = '/microscope/focus-grid.jpg'
 
 /**
