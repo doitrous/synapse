@@ -2591,10 +2591,22 @@ The web app writes **nothing** in timed mode: `logAttempt` is called from
 exactly one place, inside `checkAnswer`, and the "Check answer" button is
 rendered only when `mode === 'tutor'`
 (`src/pages/student/QuestionBank.tsx:1488`). That is a bug in the web app, not
-a contract to port — following it would mean a student who sits a timed test on
-their phone has no record that they sat it: no accuracy, no totals, and nothing
-in previous sittings, which Task 15 reads from the shards. Android follows iOS
-on *when* records are written.
+a contract to port, and the web's own source says so: inside `checkAnswer`,
+`seconds` is computed as
+`mode === 'timed' ? Math.max(0, elapsed - questionStartedAt.current) : null`
+(`src/pages/student/QuestionBank.tsx:1251`). That ternary is unreachable in its
+`'timed'` branch — `checkAnswer` cannot run in timed mode — so it can only ever
+evaluate to `null`. Dead code of that shape is written by an author who intends
+timed attempts to be recorded, with a per-question duration; a button gate
+prevents it. Android therefore implements the website's **intent**, which is
+also what iOS already does.
+
+Following the website's *behaviour* here would mean a student who sits a timed
+test on their phone has no record that they sat it: no accuracy, no totals, and
+nothing in previous sittings, which Task 15 reads from the shards. This is the
+one place in M1 where Android deliberately does not reproduce what the current
+website does, and it is recorded here so a later reader does not "fix" it
+backwards.
 
 **What.** The record's shape still follows the TypeScript, which is the
 contract:
@@ -2689,6 +2701,15 @@ git commit -m "Explain the wrong answers, not just the right one"
 **Interfaces:**
 - Consumes: `AttemptStore`, `LocalStore`, `LiveSession`.
 - Produces: `ResultsViewModel` with `val summary: StateFlow<SittingSummary>` where `data class SittingSummary(val answered: Int, val correct: Int, val omitted: Int, val seconds: Int)`.
+- Produces: `core/progress/AttemptStats.kt` — the read side of the ledger,
+  ported from `src/data/attemptStats.ts`. Nothing in Android reads the month
+  shards back yet; "previous sittings" is the first screen that needs to, and
+  Task 17 needs the same module. Port `accuracyOf`, `dailyCounts`,
+  `currentStreak`, `distinctItems` and `bySession(records): List<SessionSummary>`,
+  where `data class SessionSummary(val sessionId: String, val startedAt: String, val endedAt: String, val attempts: Int, val marked: Int, val correct: Int)`.
+  Every day boundary uses **local** calendar components, matching
+  `localDay` (`src/data/attemptStats.ts:100`) and `AttemptStore.month`. A
+  student who studies at 11pm must not have it counted against tomorrow.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -2879,6 +2900,320 @@ git commit -m "Render five practical formats from one kind of item"
 
 ---
 
+### Task 17: The Question Bank landing statistics
+
+The web's Question Bank landing is not a bare chooser. Above the chooser sits a
+statistics panel — bank coverage, a stat trio, a seven-day activity chart and
+accuracy by subject (`src/pages/student/QuestionBank.tsx:119-200`). Task 13
+built the chooser without it, because this plan was written against the iOS
+app, which has no equivalent. It is part of the current website and it belongs
+in milestone 1.
+
+Everything it shows is derived from the attempt ledger Task 14 writes, through
+`AttemptStats` — which Task 15 introduces and this task consumes. **Dispatch
+this task after Task 15, never before it.**
+
+**Files:**
+- Modify: `android/app/src/main/java/com/synapse/android/feature/qbank/TopicChooserScreen.kt`
+- Modify: `android/app/src/main/java/com/synapse/android/feature/qbank/QBankViewModel.kt`
+- Modify: `android/app/src/main/java/com/synapse/android/design/Theme.kt`
+- Test: `android/app/src/test/java/com/synapse/android/feature/qbank/QBankStatsTest.kt`
+
+**Interfaces:**
+- Consumes: `AttemptStats.accuracyOf`, `.dailyCounts`, `.currentStreak`,
+  `.distinctItems` (Task 15); `QuestionProjection`; `LocalStore`.
+- Produces: `data class QBankStats(val seen: Int, val total: Int, val accuracy: Double?, val weekTotal: Int, val streak: Int, val week: List<DayCount>, val bySubject: List<SubjectAccuracy>)`
+  and `data class SubjectAccuracy(val subjectId: String, val marked: Int, val correct: Int)`.
+
+- [ ] **Step 1: Add the one missing palette token**
+
+`Theme.kt` carries 28 of the web's colour tokens. The activity chart needs a
+29th: `--color-primary-soft`, which is what the web fills its bars with
+(`src/pages/student/QuestionBank.tsx:177`, `bg-primary-soft`). Add it to
+`CortexColors` and to every palette:
+
+```kotlin
+// in CortexColors, beside primaryTint
+val primarySoft: Color,
+```
+
+Light `#EF8FA3`, dark `#8C2745`, warm inherits light (the warm block does not
+override it). Values from `src/index.css:35` and `:216`.
+
+The remaining unported tokens — `--color-grid`, `--color-grid-major`,
+`--color-scale-0..5`, `--color-primary-hover`, `--color-accent-soft` — stay
+unported on purpose. `grid` and `scale` belong to charts no milestone-1 screen
+draws, and `hover` has no meaning on a touch surface, where Android expresses
+press state through the ripple. Add them when a screen needs them, not before.
+
+- [ ] **Step 2: Write the failing tests**
+
+```kotlin
+@Test fun `coverage counts distinct questions, not attempts`()
+@Test fun `accuracy ignores unmarked attempts rather than scoring them zero`()
+@Test fun `the week always has seven entries, including the silent days`()
+@Test fun `a streak survives a today with no attempts yet`()
+@Test fun `a streak does not survive an empty yesterday`()
+@Test fun `subject accuracy omits subjects the student has never answered`()
+```
+
+The fourth and fifth are the ones that matter. `currentStreak`
+(`src/data/attemptStats.ts:137-152`) counts consecutive days ending today **or
+ending yesterday**: opening the app at 9am must not report a month of daily
+study as a streak of zero simply because today has no attempts in it yet. An
+empty *yesterday*, with an empty today, is what ends a streak.
+
+- [ ] **Step 3: Implement the panel**
+
+Render, in this order, matching `QuestionBank.tsx:140-200`:
+
+1. **Bank completed** — `seen` / `total`, with `total - seen` remaining
+   underneath. `seen` is `distinctItems` over `surface == "qbank"` records;
+   `total` is the size of the projected question pool.
+2. **The stat trio** — accuracy (`—` when null, never `0%`), attempts this
+   week, day streak. Accuracy takes `success`, streak takes `primary`.
+3. **Last 7 days** — seven bars, each `attempts / peak` of a 64.dp track,
+   where `peak = max(1, week.map(attempts).max())`. The `max(1, …)` is what
+   stops a division by zero on a week with no work in it.
+4. **Accuracy by subject** — descending, and when the student has answered
+   nothing it renders the web's sentence rather than an empty box: "Answer a
+   few questions in a subject and its accuracy appears here."
+
+Read attempts through `LocalStore` only. This screen must never touch
+`SynapseApi`.
+
+- [ ] **Step 4: Run and commit**
+
+```bash
+git add android
+git commit -m "Show the student what the bank already knows about them"
+```
+
+---
+
+### Task 18: Light, Warm and Dark
+
+The website offers three themes, chosen by the reader and kept on the device:
+`THEMES = ['light', 'warm', 'dark']` (`src/lib/useTheme.tsx:13`), surfaced on
+the account page as "Light, warm, or dark. Kept on this device."
+(`src/pages/student/Account.tsx:270`). Android currently has two, picked for
+the student by `isSystemInDarkTheme()` and not changeable anywhere.
+
+**Files:**
+- Modify: `android/app/src/main/java/com/synapse/android/design/Theme.kt`
+- Create: `android/app/src/main/java/com/synapse/android/design/ThemePreference.kt`
+- Modify: `android/app/src/main/java/com/synapse/android/MainActivity.kt`
+- Modify: `android/app/src/main/java/com/synapse/android/feature/account/AccountScreen.kt`
+- Modify: `android/app/src/main/java/com/synapse/android/feature/account/AccountViewModel.kt`
+- Test: `android/app/src/test/java/com/synapse/android/design/ThemePreferenceTest.kt`
+
+**Interfaces:**
+- Produces: `enum class CortexThemeChoice(val wire: String) { LIGHT("light"), WARM("warm"), DARK("dark") }`;
+  `class ThemePreference(context: Context)` with `val choice: StateFlow<CortexThemeChoice>` and `fun set(choice: CortexThemeChoice)`;
+  `CortexTheme(choice: CortexThemeChoice, content: @Composable () -> Unit)`.
+
+- [ ] **Step 1: Add the warm palette**
+
+Warm is a **partial** override in the CSS: `:root[data-theme='warm']`
+(`src/index.css:153-187`) restates the grounds, the inks, the rules and the
+tints, and leaves every fill, every label colour and every `on-*` exactly as
+the light theme has them. Express that as a `copy`, so it cannot silently
+drift from light on the fields it does not claim:
+
+```kotlin
+/**
+ * Warm restates the grounds, inks, rules and tints and inherits everything
+ * else from light -- the fills and the `on-*` pairs are deliberately shared.
+ * A `copy` keeps that true: a token added to light arrives in warm as well,
+ * which is what the CSS cascade does.
+ */
+val WarmCortexColors = LightCortexColors.copy(
+    paper = Color(0xFFF7F2EA), surface = Color(0xFFFFFDF9),
+    surface2 = Color(0xFFF1EBE1), inset = Color(0xFFE9E1D4),
+    ink = Color(0xFF1F1B16), ink2 = Color(0xFF675E51), ink3 = Color(0xFF9B9284),
+    line = Color(0xFFE9E0D2), line2 = Color(0xFFD7CCB9),
+    primaryTint = Color(0xFFFDEFEF), primaryLine = Color(0xFFF0C8D1),
+    accentTint = Color(0xFFEEF1F8), accentLine = Color(0xFFCBD8EE),
+    successTint = Color(0xFFE8EFDF),
+    warningTint = Color(0xFFF7EDD7),
+    dangerTint = Color(0xFFF9E6E3),
+)
+```
+
+- [ ] **Step 2: Write the failing tests**
+
+```kotlin
+@Test fun `an unset preference is light, not the system setting`()
+@Test fun `an unrecognised stored value falls back to light rather than crashing`()
+@Test fun `each choice round-trips through storage by its wire name`()
+@Test fun `warm shares every fill and on-colour with light`()
+```
+
+The last one is the guard on Step 1: it asserts that `WarmCortexColors` and
+`LightCortexColors` agree on `primary`, `accent`, `success`, `warning`,
+`danger` and every `on*`, so a future edit that hand-writes warm instead of
+copying light fails here rather than in a reader's eyes.
+
+- [ ] **Step 3: Implement the preference**
+
+Plain `SharedPreferences` under the key `synapse-theme`, storing the `wire`
+string. Three deliberate choices:
+
+- **Not `EncryptedSharedPreferences`.** A colour preference is not a secret,
+  and the encrypted store touches the Keystore, which the unconfigured build
+  must not do.
+- **Not synced.** The web keeps this in `localStorage`, explicitly out of
+  `usePersistentState` (`src/lib/useTheme.tsx:6-10`). It is a per-device
+  choice; putting it in the outbox would make a phone restyle a desktop.
+- **Default light, not the system.** This is the website's default
+  (`src/lib/useTheme.tsx:24`) and there is no fourth "System" option on any
+  client. It is worth knowing that this ignores the platform's dark setting
+  on first launch, which is unusual for Android; the milestone follows the
+  website, and a "System" choice can be added later as a fourth option
+  without changing the stored values.
+
+Read once, synchronously, in `MainActivity.onCreate` before `setContent`, so
+the first frame is already in the right theme. The web solves the same problem
+with a boot script for the same reason (`src/lib/useTheme.tsx:9-10`) — a first
+paint in the wrong theme that then corrects itself is worse than either theme.
+
+- [ ] **Step 4: Add the picker to Account**
+
+A three-way segmented control above "Sign out", labelled `Appearance`, with the
+web's helper line underneath: "Light, warm, or dark. Kept on this device."
+Selecting recomposes the whole tree immediately — no restart, no confirmation.
+
+- [ ] **Step 5: Run and commit**
+
+```bash
+git add android
+git commit -m "Let a reader choose the ground they read on"
+```
+
+---
+
+### Task 19: The mark
+
+The app ships with no icon and no mark. `AndroidManifest.xml` declares no
+`android:icon`, so the launcher shows Android's default silhouette, and no
+screen carries the logotype the website puts on its sign-in page, its sidebar
+and its 404 (`src/components/brand/Wordmark.tsx`).
+
+The artwork is client-supplied and already in the repository under
+`public/brand/`. Use it as-is. The web's own note applies here: it is the
+supplied artwork, not a redrawn or traced approximation, and the halves are
+never recoloured or separated.
+
+**Files:**
+- Create: `android/app/src/main/res/drawable-nodpi/brand_mark.png` (from `public/brand/logo.png`)
+- Create: `android/app/src/main/res/drawable-nodpi/brand_mark_dark.png` (from `public/brand/logo-dark.png`)
+- Create: `android/app/src/main/res/drawable-nodpi/brand_wordmark.png` (from `public/brand/logo-wordmark.png`)
+- Create: `android/app/src/main/res/drawable-nodpi/brand_wordmark_white.png` (from `public/brand/logo-wordmark-white.png`)
+- Create: `android/app/src/main/res/drawable/ic_launcher_foreground.xml`
+- Create: `android/app/src/main/res/values/brand.xml`
+- Create: `android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml`
+- Create: `android/app/src/main/java/com/synapse/android/design/Wordmark.kt`
+- Modify: `android/app/src/main/AndroidManifest.xml`
+- Modify: `android/app/src/main/java/com/synapse/android/feature/auth/SignInScreen.kt`
+
+**Interfaces:**
+- Produces: `@Composable fun Wordmark(modifier: Modifier = Modifier, height: Dp = 28.dp)`.
+
+- [ ] **Step 1: Copy the artwork**
+
+```bash
+cd android/app/src/main/res && mkdir -p drawable-nodpi
+cp ../../../../../public/brand/logo.png drawable-nodpi/brand_mark.png
+cp ../../../../../public/brand/logo-dark.png drawable-nodpi/brand_mark_dark.png
+cp ../../../../../public/brand/logo-wordmark.png drawable-nodpi/brand_wordmark.png
+cp ../../../../../public/brand/logo-wordmark-white.png drawable-nodpi/brand_wordmark_white.png
+```
+
+`drawable-nodpi` because these are fixed-resolution artwork drawn at a size the
+layout dictates, not density-specific variants — under any other qualifier
+Android would rescale them by an assumed density and blur them.
+
+- [ ] **Step 2: The launcher icon**
+
+An adaptive icon, so the launcher can mask it to whatever shape the device
+uses. The mark must sit inside the inner 66% safe zone or the mask will clip
+it, which is what the inset is for:
+
+```xml
+<!-- res/drawable/ic_launcher_foreground.xml -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/brand_mark"
+    android:inset="26%" />
+```
+
+```xml
+<!-- res/values/brand.xml -->
+<resources>
+    <!-- The mark is drawn for a light ground; --color-paper is that ground. -->
+    <color name="brand_launcher_background">#F5F7FB</color>
+</resources>
+```
+
+```xml
+<!-- res/mipmap-anydpi-v26/ic_launcher.xml -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/brand_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
+```
+
+Then `android:icon="@mipmap/ic_launcher"` and
+`android:roundIcon="@mipmap/ic_launcher"` on `<application>`.
+
+**A known limitation, to report rather than paper over:** the supplied square
+mark is 192x187px. Android wants a 432x432px launcher foreground, so on an
+xxxhdpi screen this icon will be visibly soft. Ship it — a soft correct mark
+beats Android's default silhouette — and record in the completion report that
+a higher-resolution or vector master would fix it. Do not upscale it and do
+not trace a replacement.
+
+- [ ] **Step 3: The wordmark composable**
+
+The website reconstructs its lockup from live text because it needs it
+selectable and theme-reactive. Android does not: use the supplied
+`logo-wordmark` artwork, choosing the white variant on dark grounds, which is
+the same swap the web makes for the same reason
+(`src/components/brand/Wordmark.tsx:9-12` — the deep blue goes muddy on a dark
+ground).
+
+```kotlin
+@Composable
+fun Wordmark(modifier: Modifier = Modifier, height: Dp = 28.dp) {
+    val dark = LocalCortex.current === DarkCortexColors
+    Image(
+        painter = painterResource(
+            if (dark) R.drawable.brand_wordmark_white else R.drawable.brand_wordmark,
+        ),
+        // The lockup reads "Connect Cortex"; that is its accessible name, and
+        // the artwork must never be announced as a file name.
+        contentDescription = "Connect Cortex",
+        modifier = modifier.height(height),
+        contentScale = ContentScale.FillHeight,
+    )
+}
+```
+
+- [ ] **Step 4: Put it on the sign-in screen**
+
+Replace `Text("Sign in to Connect Cortex")` with the `Wordmark` above a plain
+`Text("Sign in")`, matching `src/pages/auth/AuthLayout.tsx:41`. The lockup
+already says the product's name, so the heading repeating it is the one thing
+the web does not do.
+
+- [ ] **Step 5: Run and commit**
+
+```bash
+git add android
+git commit -m "Wear the mark on the screen that greets you"
+```
+
+---
+
 ## Verification before calling milestone 1 done
 
 - [ ] `cd android && ./gradlew :app:testDebugUnitTest` — all green, output pasted into the completion report.
@@ -2886,6 +3221,14 @@ git commit -m "Render five practical formats from one kind of item"
 - [ ] No route in `RootScreen.kt` is still a stub: `qbank` (Task 15) and
       `practical` (Task 16) both reach real screens. A milestone whose screens
       compile but cannot be opened has not shipped.
+- [ ] The app has an icon that is not Android's default silhouette, and the
+      sign-in screen carries the lockup (Task 19).
+- [ ] Account offers Light, Warm and Dark, the choice survives a restart, and
+      the first frame after a restart is already in the chosen theme — not
+      light-then-corrected (Task 18).
+- [ ] No user-visible string anywhere says "Synapse":
+      `grep -rn 'Synapse' android/app/src/main --include='*.kt' | grep '"'`
+      returns only type names, never message text.
 - [ ] Install on a device or emulator and confirm by hand: sign in, sit five questions in tutor mode, force-quit mid-sitting, reopen and confirm the sitting resumes on the same question.
 - [ ] Turn on airplane mode, answer three more questions and tick an OSCE station, then reconnect and confirm Account's pending-writes count returns to zero.
 - [ ] Open the same account in the web app and confirm the attempts appear there — this is the end-to-end proof that the contract ports are right, and no unit test can substitute for it.
