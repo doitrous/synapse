@@ -26,11 +26,43 @@ test('a message is one 600px column on the paper, and always light', () => {
   assert.doesNotMatch(html, /display:\s*(flex|grid)|float:/)
 })
 
-test('the masthead is letters, never an image', () => {
+/** The masthead with its one image taken out — what a client that blocks images
+ *  is left with, and what Word is served through the mso branch. The `<head>`
+ *  has an mso block of its own, so leave that one alone. */
+function withoutTheMark(html: string): string {
+  return html
+    .replace(/<!--\[if !mso\]><!-->[\s\S]*?<!--<!\[endif\]-->/g, '')
+    .replace(/<!--\[if mso\]>([\s\S]*?)<!\[endif\]-->/g, (m, inner) => (inner.includes('<style') ? m : inner))
+}
+
+test('the mark is the O in CONNECT, and the only image in the message', () => {
   const { html } = renderEmail(base)
-  assert.doesNotMatch(html, /<img/)
-  assert.match(html, /#1553b3;">Connect<\/span>/)
-  assert.match(html, /#a82449;">Cortex<\/span>/)
+  const images = html.match(/<img[^>]*>/g) ?? []
+  assert.equal(images.length, 1, 'the mark is the one image a message is allowed')
+  assert.match(images[0], /src="https:\/\/[^"]+\/brand\/logo\.png"/)
+  // Absolute, because a message is read outside the app.
+  assert.doesNotMatch(images[0], /src="\//)
+  // One run: C, the mark, NNECT, CORTEX. Never a real letter O, never a space.
+  assert.match(html, /">C<!--\[if !mso\]><!--><img/)
+  assert.match(html, /-->NNECT<span style="color:#a82449;">CORTEX<\/span>/)
+})
+
+test('the masthead falls back to letters, so it is never a hole', () => {
+  const { html } = renderEmail(base)
+  const mark = (html.match(/<img[^>]*>/g) ?? [])[0]
+  // Images off: the client draws the alt text using the styles on the <img>, so
+  // the O has to arrive in the same face, size and blue as the run around it.
+  assert.match(mark, /alt="O"/)
+  assert.match(mark, /font-family:Jost,/)
+  assert.match(mark, /font-size:19px/)
+  assert.match(mark, /color:#1553b3/)
+  // Outlook draws a placeholder icon rather than honour alt text, so Word is
+  // handed the letter directly and never sees the image at all.
+  assert.match(html, /<!--\[if mso\]>O<!\[endif\]-->/)
+  // Whichever way the image fails, what is left is the wordmark in full.
+  const bare = withoutTheMark(html)
+  assert.doesNotMatch(bare, /<img/)
+  assert.match(bare, /#1553b3;">CONNECT<span style="color:#a82449;">CORTEX<\/span>/)
 })
 
 test('the rose rule sits above the card, and is the first brand chrome', () => {

@@ -104,6 +104,16 @@ the baseline, tracking 0.045em — and drift from it is a bug.
   appear in both measurements and cancel. That keeps the lockup correct even
   though the face is not Jost — Jost is a webfont and resvg reads only installed
   ones, so it lands on Futura, the geometric sans Jost is a revival of.
+- **Email** (`src/data/emailTemplate.ts`) makes the O the one image in the
+  message, and gives it two ways to fail into the letter it stands in for: a
+  styled `alt="O"` for clients with images off, and an `mso` branch for Outlook,
+  whose Word engine draws a placeholder icon rather than honour alt text. Every
+  outcome is either the mark or `CONNECTCORTEX` in letters — which is
+  `logo-wordmark.png`, an approved lockup. A masthead is never a hole. The rose
+  half is `--color-primary-strong` there rather than `--brand-rose`: mail holds
+  every text colour to AA against its fill, and the plain rose measures 4.3:1 on
+  the paper at 19px. It is the substitution the dark theme already makes, for
+  the reason given there — the logotype is text, so it takes the text step.
 - **Favicon** is `favicon.png`, the mark on a tinted rounded square. All three
   entry documents point at it: `index.html`, `en/`, and `ar/`.
 
