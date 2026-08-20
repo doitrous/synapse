@@ -2269,6 +2269,78 @@ git commit -m "Ask what moved before downloading anything"
 - Consumes: `AuthModel`, `SyncEngine`, `CortexTheme`.
 - Produces: navigation graph with routes `qbank`, `practical`, `account`; `AccountViewModel` exposing `data class AccountUi(val email: String?, val lastSyncedAt: Instant?, val pendingWrites: Int)`.
 
+- [ ] **Step 0: Build the object graph**
+
+Nothing so far constructs anything. Tasks 8-11 each produced a class that
+takes its collaborators as constructor parameters, and no task has yet said
+who calls those constructors or how long the instances live. This step does,
+because getting it wrong is not a style problem:
+
+**`CortexDatabase` must be one instance per process.** Room hands out a
+connection pool per instance; two instances over the same file are two
+writers that do not see each other's invalidations, so a `Flow` from one goes
+quiet after the other writes, and the screen simply stops updating with no
+error anywhere. Recreating the database in `MainActivity.onCreate` gets a
+fresh one on every rotation.
+
+Create `android/app/src/main/java/com/synapse/android/SynapseApp.kt`:
+
+```kotlin
+class SynapseApp : Application() {
+    lateinit var graph: AppGraph
+        private set
+
+    override fun onCreate() {
+        super.onCreate()
+        graph = AppGraph(this, AppConfig.fromBuild())
+    }
+}
+```
+
+and register it in the manifest with `android:name=".SynapseApp"`, keeping the
+existing `android:allowBackup="false"`.
+
+`AppGraph` holds one of everything, and the construction order matters — it
+looks circular and is not:
+
+```kotlin
+class AppGraph(context: Context, val config: AppConfig) {
+    private val http = OkHttpClient()
+
+    // The backend owns the token. Build it first, hand its reader to the API,
+    // and the apparent cycle (api needs a token, auth needs the api) resolves
+    // without a lateinit or a holder object.
+    val authBackend: AuthBackend = SupabaseAuthBackend(config, http)
+    val api = SynapseApi(config.apiBaseUrl, http, authBackend::accessToken)
+    val auth = AuthModel(config, api, authBackend)
+
+    // Task 10 already ships this factory, and it is the only correct way to
+    // open the file: it pins the name and forces applicationContext, so the
+    // database cannot capture an Activity.
+    val database = CortexDatabase.build(context)
+    val store = LocalStore(database)
+    val sync = SyncEngine(api, store)
+}
+```
+
+Every one of these is created eagerly except the Supabase client inside
+`SupabaseAuthBackend`, which is already `by lazy` for its own reasons.
+
+**When `config.isConfigured` is false, build nothing that needs a server.**
+`AppGraph` must not construct `SynapseApi` or the auth backend against a blank
+host — `RootScreen` shows `NotConfiguredScreen` and no other object is needed.
+Make the network half of the graph `by lazy` so an unconfigured build reaches
+that screen instead of throwing in `Application.onCreate`, which crashes
+before anything can render the explanation.
+
+Test:
+
+```kotlin
+@Test fun `an unconfigured build reaches the explanation screen instead of crashing`()
+@Test fun `the graph hands out the same database every time`()
+```
+
+
 - [ ] **Step 1: Add navigation and the Compose ViewModel binding**
 
 Add to `android/gradle/libs.versions.toml`:
@@ -2300,7 +2372,36 @@ different library with a different API, not a newer version of this one.
 @Test fun `sign out clears the signed-in state`()
 ```
 
-- [ ] **Step 3: Implement, run, commit**
+- [ ] **Step 3: Route on the auth state, and only then implement**
+
+`RootScreen` collects `AuthModel.state` and shows exactly one thing per state.
+The mapping is not a detail — Task 9 built a four-state machine specifically so
+this screen would never have to guess:
+
+| `AuthState`         | What the student sees                                          |
+|---------------------|----------------------------------------------------------------|
+| `NotConfigured`     | `NotConfiguredScreen`, listing `missing`. No retry, no network. |
+| `Restoring`         | A neutral splash. **Never the sign-in form** — flashing it and then replacing it is how an app tells a signed-in student they were signed out. |
+| `SignedOut`         | `SignInScreen`, with `message` shown if non-null.               |
+| `SignedIn`          | The navigation graph: `qbank`, `practical`, `account`.          |
+
+`isWorking` drives a progress indicator on `SignInScreen`; it is orthogonal to
+`state` and must not be allowed to replace the form.
+
+Call `auth.start()` once, from `RootScreen`'s `LaunchedEffect(Unit)`, not from
+`MainActivity.onCreate` — a rotation must not re-run the restore.
+
+On reaching `SignedIn`, launch `sync.refresh()` once. A failure there is not
+fatal: the app is offline-first and every screen reads from `LocalStore`, so a
+refresh that fails leaves the student with what they already had. Show the
+outcome on Account, not as a blocking dialog.
+
+`AccountUi.pendingWrites` comes from `store.outboxCount()` and
+`lastSyncedAt` from the sync status. A `null` timestamp renders as "Not yet
+synced" — never as a formatted epoch, which reads as 1 January 1970 and looks
+like corruption.
+
+- [ ] **Step 4: Run, then commit**
 
 ```bash
 git add android
