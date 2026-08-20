@@ -575,3 +575,57 @@ CREATE TABLE IF NOT EXISTS facebook_links (
   linked_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   unlinked_at DATETIME NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* ── Study parties ───────────────────────────────────────────────────────── */
+CREATE TABLE IF NOT EXISTS study_parties (
+  id            VARCHAR(64) PRIMARY KEY,
+  code          VARCHAR(12) NOT NULL UNIQUE,
+  name          VARCHAR(255) NOT NULL,
+  host_user_id  VARCHAR(64) NOT NULL,
+  -- The cohort, copied from the host at creation. A party does not follow its
+  -- host into a new year; the people in it are the year it was made for.
+  university_id VARCHAR(64) NOT NULL,
+  year          VARCHAR(32) NOT NULL,
+  visibility    ENUM('open','invite') NOT NULL DEFAULT 'open',
+  created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  archived_at   DATETIME NULL,
+  INDEX idx_parties_cohort (university_id, year, visibility, archived_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_members (
+  party_id  VARCHAR(64) NOT NULL,
+  user_id   VARCHAR(64) NOT NULL,
+  role      ENUM('host','member') NOT NULL DEFAULT 'member',
+  joined_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (party_id, user_id),
+  INDEX idx_party_members_user (user_id, joined_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_sessions (
+  id          VARCHAR(64) PRIMARY KEY,
+  party_id    VARCHAR(64) NOT NULL,
+  name        VARCHAR(255) NOT NULL,
+  -- Frozen at creation: [{ kind: 'question'|'practical'|'essay', id }]
+  item_refs   LONGTEXT NOT NULL,
+  -- NULL means it is open from now, with no end.
+  starts_at   DATETIME NULL,
+  status      ENUM('open','scheduled','closed') NOT NULL DEFAULT 'open',
+  created_by  VARCHAR(64) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  closed_at   DATETIME NULL,
+  INDEX idx_party_sessions (party_id, status, starts_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Marked by the server for questions; for practical and essay items the
+   student says how it went, so `correct` is NULL — the same rule the attempt
+   log already follows, and the reason a session reports two numbers. */
+CREATE TABLE IF NOT EXISTS study_party_answers (
+  session_id  VARCHAR(64) NOT NULL,
+  user_id     VARCHAR(64) NOT NULL,
+  item_kind   VARCHAR(16) NOT NULL,
+  item_id     VARCHAR(96) NOT NULL,
+  correct     TINYINT(1) NULL,
+  seconds     INT NULL,
+  answered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (session_id, user_id, item_kind, item_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
