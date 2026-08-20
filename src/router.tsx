@@ -107,6 +107,7 @@ const AdaptiveSetup = lazyNamed(() => import('@/pages/admin/AdaptiveSetup'), 'Ad
 const ResourcesSetup = lazyNamed(() => import('@/pages/admin/ResourcesSetup'), 'ResourcesSetup')
 const PracticalSetup = lazyNamed(() => import('@/pages/admin/PracticalSetup'), 'PracticalSetup')
 const WrittenSetup = lazyNamed(() => import('@/pages/admin/WrittenSetup'), 'WrittenSetup')
+const HistologySetup = lazyNamed(() => import('@/pages/admin/HistologySetup'), 'HistologySetup')
 const ConceptsImportPage = lazyNamed(() => import('@/pages/admin/ConceptsImportPage'), 'ConceptsImportPage')
 const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImportPage'), 'RelationsImportPage')
 const MediaRequests = lazyNamed(() => import('@/pages/admin/MediaRequests'), 'MediaRequests')
@@ -160,6 +161,7 @@ const adminBuilt: Record<string, ReactElement> = {
   glossary: render(GlossarySetup),
   practical: render(PracticalSetup),
   written: render(WrittenSetup),
+  histology: render(HistologySetup),
   resources: render(ResourcesSetup),
   reports: render(ReportsReview),
   students: render(StudentsManagement),
@@ -176,7 +178,7 @@ const adminBuilt: Record<string, ReactElement> = {
 }
 
 const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'essays', 'resources', 'taxonomy', 'term-grid', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'written', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),

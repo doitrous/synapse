@@ -36,6 +36,7 @@ import {
   Scale,
   Bot,
   Grid3x3,
+  Microscope,
 } from 'lucide-react'
 
 export type Portal = 'student' | 'admin'
@@ -109,6 +110,7 @@ export const adminNav: NavGroup[] = [
       { label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass },
       { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
       { label: 'Written Setup', to: '/admin/written', icon: PenLine },
+      { label: 'Histology', to: '/admin/histology', icon: Microscope },
       { label: 'Concepts', to: '/admin/concepts', icon: Braces },
       { label: 'Relationships', to: '/admin/relationships', icon: GitFork },
       { label: 'Resources & Media', to: '/admin/resources', icon: Clapperboard },

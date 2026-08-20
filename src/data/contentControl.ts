@@ -3,11 +3,12 @@ import type { ConceptAnnotation } from './conceptGraph.ts'
 import type { Difficulty } from './qbank.ts'
 import type { ArticleSection } from './userLibrary.ts'
 import type { EssayAuthoringData } from './essay.ts'
+import type { HistologyAuthoringData } from './histology.ts'
 
 export type ArticleArchetype = 'condition' | 'presentation' | 'concept' | 'anatomy' | 'drug' | 'skill' | 'investigation' | 'organism' | 'emergency' | 'public-health'
 export type PublicationGate = 'publishable' | 'needs_evidence' | 'faculty_review' | 'conflicted' | 'excluded'
 
-export type ContentKind = 'question' | 'article' | 'practical' | 'resource' | 'essay'
+export type ContentKind = 'question' | 'article' | 'practical' | 'resource' | 'essay' | 'histology'
 
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
@@ -487,6 +488,7 @@ export interface ManagedContentItem {
   practicalData?: PracticalAuthoringData
   resourceData?: ResourceAuthoringData
   essayData?: EssayAuthoringData
+  histologyData?: HistologyAuthoringData
 }
 
 /** True when an item was taken from a university or college rather than authored here. */
@@ -536,6 +538,7 @@ export const CONTENT_KIND_LABEL: Record<ContentKind, { singular: string; plural:
   practical: { singular: 'practical item', plural: 'Practical items' },
   resource: { singular: 'resource', plural: 'Resources' },
   essay: { singular: 'written question', plural: 'Written questions' },
+  histology: { singular: 'slide', plural: 'Histology slides' },
 }
 
 export const CONTENT_FIELDS: Record<ContentKind, Array<{ key: string; label: string; multiline?: boolean }>> = {
@@ -570,5 +573,10 @@ export const CONTENT_FIELDS: Record<ContentKind, Array<{ key: string; label: str
   essay: [
     { key: 'Prompt', label: 'The question', multiline: true },
     { key: 'ExaminerNote', label: 'What the examiner scans for', multiline: true },
+  ],
+  histology: [
+    { key: 'Tissue', label: 'Tissue' },
+    { key: 'Stain', label: 'Stain' },
+    { key: 'Description', label: 'What to look for', multiline: true },
   ],
 }
