@@ -144,7 +144,10 @@ test('every automation renders the same wrapper, down to the rose rule', () => {
     assert.match(html, /width="600"/, automation.id)
     assert.match(html, /— The Connect Cortex team/, automation.id)
     assert.doesNotMatch(html, /#949aa8/, `${automation.id} reaches for ink-3`)
-    assert.doesNotMatch(html, /<img/, automation.id)
+    // The masthead's O is the one image a message may carry. Nothing an author
+    // writes may add another: a body that needs an image is a body that goes
+    // blank in every client that blocks them.
+    assert.equal((html.match(/<img/g) ?? []).length, 1, `${automation.id} carries an image beyond the mark`)
     assert.doesNotMatch(html, /\{\{/, automation.id)
   })
 })
