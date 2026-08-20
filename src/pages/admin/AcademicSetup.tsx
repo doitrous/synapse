@@ -606,7 +606,14 @@ export function AcademicSetup() {
         open={importOpen}
         university={uni}
         onClose={() => setImportOpen(false)}
-        onImport={(years) => { patchSelected((u) => ({ ...u, years })); setImportOpen(false) }}
+        onImport={(years, imported) => {
+          patchSelected((u) => ({ ...u, years }))
+          // Merge rather than replace: an outline describes the modules it
+          // names and says nothing about the rest, so overwriting the store
+          // would delete the subject trees of every module left out of it.
+          setSubjects((current) => ({ ...current, ...imported }))
+          setImportOpen(false)
+        }}
       />
     </PageContainer>
   )
