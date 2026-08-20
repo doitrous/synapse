@@ -47,6 +47,7 @@ import {
   usageSummary as assistantUsage,
   listModels as assistantModels,
 } from './assistant.js'
+import { sendSilentNudge } from './push.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
 } from './studyRooms.js'
@@ -1071,6 +1072,7 @@ app.get('/api/user-state/:key', wrap(async (req, res) => {
 app.put('/api/user-state/:key', wrap(async (req, res) => {
   const v = JSON.stringify(req.body?.value ?? null)
   const conn = await pool.getConnection()
+  let changed = false
   try {
     await conn.beginTransaction()
     const [current] = await conn.query(
@@ -1078,6 +1080,7 @@ app.put('/api/user-state/:key', wrap(async (req, res) => {
       [req.identity.id, req.params.key],
     )
     if (!current.length || current[0].v !== v) {
+      changed = true
       await conn.query(
         'INSERT INTO user_state_versions (user_id, k, v) VALUES (?, ?, ?)',
         [req.identity.id, req.params.key, v],
@@ -1094,6 +1097,17 @@ app.put('/api/user-state/:key', wrap(async (req, res) => {
     throw error
   } finally {
     conn.release()
+  }
+  // Tell this student's other devices that something of theirs moved, so the
+  // app does not have to wait for its next refresh to find out. Deliberately
+  // not awaited and unable to reject: the write has already succeeded, and a
+  // push that fails must not turn it into an error the student sees.
+  if (changed) {
+    sendSilentNudge({
+      userId: req.identity.id,
+      exceptToken: normaliseDeviceToken(req.get('X-Device-Token')),
+      key: req.params.key,
+    }).catch(() => {})
   }
   res.json({ ok: true })
 }))
