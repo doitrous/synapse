@@ -1,7 +1,7 @@
 import Foundation
 
 /// One answer in a readiness assessment.
-struct ReadinessAnswer: Equatable, Sendable {
+struct ReadinessAnswer: Codable, Equatable, Sendable {
     var questionId: String
     var groupId: String
     var correct: Bool
@@ -12,7 +12,7 @@ struct ReadinessAnswer: Equatable, Sendable {
 }
 
 /// How one blueprint group came out.
-struct GroupResult: Identifiable, Equatable, Sendable {
+struct GroupResult: Codable, Identifiable, Equatable, Sendable {
     var groupId: String
     var groupLabel: String
     var answered: Int
@@ -29,7 +29,7 @@ struct GroupResult: Identifiable, Equatable, Sendable {
 
 /// A blueprint area the assessment could not represent — the honest asterisk on
 /// the score.
-struct UnderRepresentedGroup: Identifiable, Equatable, Sendable {
+struct UnderRepresentedGroup: Codable, Identifiable, Equatable, Sendable {
     var groupId: String
     var groupLabel: String
     var wanted: Int
@@ -38,7 +38,7 @@ struct UnderRepresentedGroup: Identifiable, Equatable, Sendable {
     var id: String { groupId }
 }
 
-struct ReadinessResult: Equatable, Sendable {
+struct ReadinessResult: Codable, Equatable, Sendable {
     var id: String
     var at: String
     /// Blueprint-balanced score interval, 0–1. Never a single number.
