@@ -4,7 +4,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -31,10 +30,14 @@ import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.ContentKind
 import com.synapse.android.core.model.Question
 import com.synapse.android.core.model.QuestionProjection
+import com.synapse.android.core.model.Practical
 import com.synapse.android.core.qbank.LiveSession
 import com.synapse.android.feature.account.AccountScreen
 import com.synapse.android.feature.account.AccountViewModel
 import com.synapse.android.feature.auth.SignInScreen
+import com.synapse.android.feature.practical.PracticalListScreen
+import com.synapse.android.feature.practical.PracticalReaderScreen
+import com.synapse.android.feature.practical.PracticalViewModel
 import com.synapse.android.feature.qbank.PreviousSittingsScreen
 import com.synapse.android.feature.qbank.PreviousSittingsViewModel
 import com.synapse.android.feature.qbank.QuestionBankViewModel
@@ -130,7 +133,7 @@ private fun RestoringScreen() {
     }
 }
 
-/** The signed-in shell: `qbank` and `practical` are stubs here -- later tasks build the real screens behind these routes. */
+/** The signed-in shell. `qbank` and `practical` each hold their own local step inside one destination -- see [QuestionBankRoute] and [PracticalRoute]. */
 @Composable
 private fun SignedInNavHost(graph: AppGraph) {
     val navController = rememberNavController()
@@ -167,7 +170,7 @@ private fun SignedInNavHost(graph: AppGraph) {
             modifier = Modifier.padding(padding),
         ) {
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
-            composable(ROUTE_PRACTICAL) { StubScreen("Practical") }
+            composable(ROUTE_PRACTICAL) { PracticalRoute(graph) }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: AccountViewModel = viewModel(
                     factory = AccountViewModel.factory(graph.auth, graph.sync, graph.store),
@@ -183,13 +186,6 @@ private fun NavHostController.navigateToTab(route: String) {
         popUpTo(graph.findStartDestination().id) { saveState = true }
         launchSingleTop = true
         restoreState = true
-    }
-}
-
-@Composable
-private fun StubScreen(name: String) {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("$name is coming soon", style = MaterialTheme.typography.bodyLarge)
     }
 }
 
@@ -282,6 +278,43 @@ private fun QuestionBankRoute(graph: AppGraph) {
             val viewModel: PreviousSittingsViewModel = viewModel(factory = PreviousSittingsViewModel.factory(graph.store))
             PreviousSittingsScreen(viewModel = viewModel, onBack = { step = QbankStep.Chooser })
         }
+    }
+}
+
+/**
+ * Where the practical tab is, right now.
+ *
+ * A plain local step, not a nested `NavHost` -- the same reasoning as
+ * [QuestionBankRoute]: the whole list-then-reader flow lives inside one
+ * destination on the outer [NavHost] ([RootScreen.ROUTE_PRACTICAL]), so
+ * there is no nested back stack to leave a finished sitting on.
+ *
+ * Unlike [QuestionBankRoute] there is no on-disk "still running" session to
+ * resume into: a station's countdown and a case's or lab's reveal state are
+ * transient, held only in [PracticalViewModel] for as long as the reader is
+ * open, so this always starts on [PracticalStep.List].
+ */
+private sealed interface PracticalStep {
+    data object List : PracticalStep
+    data class Reader(val practical: Practical) : PracticalStep
+}
+
+@Composable
+private fun PracticalRoute(graph: AppGraph) {
+    val viewModel: PracticalViewModel = viewModel(factory = PracticalViewModel.factory(graph.store, graph.sync))
+    var step by remember { mutableStateOf<PracticalStep>(PracticalStep.List) }
+
+    when (val current = step) {
+        PracticalStep.List -> PracticalListScreen(
+            viewModel = viewModel,
+            onOpenPractical = { practical -> step = PracticalStep.Reader(practical) },
+        )
+
+        is PracticalStep.Reader -> PracticalReaderScreen(
+            practical = current.practical,
+            viewModel = viewModel,
+            onExit = { step = PracticalStep.List },
+        )
     }
 }
 
