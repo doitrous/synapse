@@ -4,6 +4,7 @@ import { FolderOpen, ChevronRight, Network, GraduationCap } from 'lucide-react'
 import { ControlDashboard, type ContentScope } from './ControlDashboard'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useScopedItems } from '@/lib/useScopedContent'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, itemInScope, type ManagedContentItem } from '@/data/contentControl'
 import { Icon } from '@/components/ui/Icon'
 import { StorageLimitsPanel } from '@/components/admin/StorageLimitsPanel'
@@ -21,7 +22,8 @@ export function ResourcesSetup() {
   const [universities] = useUniversityCatalogue()
   const [selection, setSelection] = useState<Selection>({})
   const [openUni, setOpenUni] = useState<string | null>(null)
-  const [items] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const items = useScopedItems(ledger)
 
   const scope: ContentScope = { universityId: selection.universityId, year: selection.year }
   const isMaster = !selection.universityId && !selection.year

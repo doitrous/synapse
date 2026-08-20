@@ -10,12 +10,29 @@ import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
 import { REDACTED_STATE_KEYS } from './studentLedger.js'
 import { createShare, deleteShare, listShares, readShare, updateShare } from './shares.js'
-import { apiAuthGate, mfaSatisfied, requireAdmin, requireAuthenticated } from './auth.js'
+import { apiAuthGate, heldTabs, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
+import { hasConsoleAccess } from './roles.js'
+import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
+import { authoriseChanges, diffDocument, mergeDocument } from './stateMerge.js'
 import {
-  listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
-  setAccessStatus, requestPasswordReset, recordAction, readReason,
-  passwordResetConfigured, getUserActivity, setRole, identifierTaken, entitlementOf, saveOwnEnrolment,
-  getDiscoverable, setDiscoverable,
+  cancelSubscription,
+  entitlementOf,
+  getDiscoverable,
+  getUser,
+  getUserActivity,
+  getUserByIdentity,
+  grantSubscription,
+  identifierTaken,
+  listUsers,
+  passwordResetConfigured,
+  readReason,
+  recordAction,
+  requestPasswordReset,
+  saveOwnEnrolment,
+  setAccessStatus,
+  setContentScope,
+  setDiscoverable,
+  setRole,
 } from './accounts.js'
 import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
@@ -159,15 +176,20 @@ app.post('/api/accounts/exists', wrap(async (req, res) => {
   res.json(await identifierTaken({ email, phone }))
 }))
 
-app.get('/api/session', (req, res) => res.json({
+app.get('/api/session', wrap(async (req, res) => res.json({
   user: req.identity ? {
     id: req.identity.id,
     email: req.identity.email,
     role: req.identity.role,
+    rank: req.identity.rank,
+    // What the console should render. Resolved here so the browser never has to
+    // work out its own permissions, and never disagrees with the guard.
+    tabs: await heldTabs(req.identity),
+    contentScope: req.identity.contentScope,
     aal: req.identity.aal,
     mfaRequired: Boolean(req.identity.mfaRequired),
   } : null,
-}))
+})))
 
 /**
  * The caller's own profile and entitlement.
@@ -181,7 +203,16 @@ app.get('/api/session', (req, res) => res.json({
 app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
   const user = await getUserByIdentity(req.identity.id)
   res.json({
-    user: { id: req.identity.id, email: req.identity.email, role: req.identity.role, aal: req.identity.aal, mfaRequired: Boolean(req.identity.mfaRequired) },
+    user: {
+      id: req.identity.id,
+      email: req.identity.email,
+      role: req.identity.role,
+      rank: req.identity.rank,
+      tabs: await heldTabs(req.identity),
+      contentScope: req.identity.contentScope,
+      aal: req.identity.aal,
+      mfaRequired: Boolean(req.identity.mfaRequired),
+    },
     profile: user
       ? { studentId: user.id, name: user.name, email: user.email, universityId: user.universityId, year: user.year, group: user.group, status: user.status }
       : null,
@@ -875,7 +906,7 @@ app.get('/api/state/manifest', requireAuthenticated, wrap(async (_req, res) => {
 }))
 
 // Bulk hydrate on app boot.
-app.get('/api/state', requireAdmin, wrap(async (_req, res) => {
+app.get('/api/state', requireSuperAdmin, wrap(async (_req, res) => {
   const [rows] = await pool.query('SELECT k, v FROM app_state')
   const out = {}
   for (const r of rows) { try { out[r.k] = JSON.parse(r.v) } catch { out[r.k] = null } }
@@ -883,54 +914,146 @@ app.get('/api/state', requireAdmin, wrap(async (_req, res) => {
 }))
 
 app.get('/api/state/:key', wrap(async (req, res) => {
-  const isAdmin = req.identity?.role === 'admin'
+  // Console access, not the single role 'admin': an editor or a reviewer
+  // authors this content and must read it whole. Redaction is for students.
+  const authoring = hasConsoleAccess(req.identity?.role)
   if (!STUDENT_READABLE_STATE.has(req.params.key)) {
-    if (!isAdmin) return res.status(403).json({ error: 'admin role required' })
+    if (!authoring) return res.status(403).json({ error: 'console access required' })
     if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
   }
   // `updatedAt` lets the client decide whether its crash-recovery copy is newer
   // than the stored document. Without it a stale browser silently wins and
   // re-uploads old data over a newer server-side write.
-  const [rows] = await pool.query('SELECT v, updated_at AS updatedAt FROM app_state WHERE k = ?', [req.params.key])
-  if (!rows.length) return res.json({ value: null, updatedAt: null })
+  //
+  // `version` is the row this document was read at. The client sends it back on
+  // save, which is what lets the write below reconstruct what that client
+  // actually changed instead of taking its whole document on trust.
+  const [rows] = await pool.query(
+    `SELECT s.v, s.updated_at AS updatedAt,
+            (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
+       FROM app_state s WHERE s.k = ?`,
+    [req.params.key],
+  )
+  if (!rows.length) return res.json({ value: null, updatedAt: null, version: null })
+  const { updatedAt, version } = rows[0]
   let value
-  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt: rows[0].updatedAt }) }
+  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt, version }) }
   // Some readable documents are readable only in part. The content ledger holds
   // every authored item in every state, including drafts, the author's private
   // notes and the provenance of borrowed papers; a student gets its published
   // projection instead. That happens here rather than in the browser, because a
   // field removed after delivery has already been delivered.
-  const redact = isAdmin ? undefined : REDACTED_STATE_KEYS.get(req.params.key)
-  res.json({ value: redact ? redact(value) : value, updatedAt: rows[0].updatedAt })
+  const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(req.params.key)
+  res.json({ value: redact ? redact(value) : value, updatedAt, version })
 }))
 
-app.put('/api/state/:key', requireAdmin, wrap(async (req, res) => {
-  const v = JSON.stringify(req.body?.value ?? null)
+/**
+ * Save a shared document.
+ *
+ * Three refusals, in the order they become knowable: you must hold a tab that
+ * owns this key; the changes you are making must be yours to make; and nobody
+ * may have changed the same item underneath you. Each answers with what is
+ * wrong, because a save that fails silently is the bug this route used to have.
+ */
+app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
+  const key = req.params.key
+  const owners = tabsForStateKey(key)
+  const held = await heldTabs(req.identity)
+  const superAdmin = req.identity.role === 'super_admin'
+
+  // A key no tab declares is reachable only by a super admin. Fail closed: a
+  // document added later without a registry entry becomes a bug report, never
+  // a hole.
+  if (!superAdmin && !holdsTab(held, owners)) {
+    return res.status(403).json({ error: 'that area is not part of your role' })
+  }
+
+  const baseVersion = req.body?.baseVersion
+  if (baseVersion === undefined) {
+    return res.status(400).json({ error: 'baseVersion is required; reload this page and try again' })
+  }
+
   const conn = await pool.getConnection()
   try {
     await conn.beginTransaction()
-    const [current] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [req.params.key])
-    if (!current.length || current[0].v !== v) {
-      await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [req.params.key, v, req.identity.id])
+    const [currentRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [key])
+    const storedRaw = currentRows.length ? currentRows[0].v : null
+    const [versionRows] = await conn.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [key])
+    const storedVersion = versionRows[0]?.version ?? null
+
+    let base = null
+    if (baseVersion !== null) {
+      const [baseRows] = await conn.query('SELECT v FROM app_state_versions WHERE id = ? AND k = ?', [baseVersion, key])
+      if (!baseRows.length) {
+        await conn.rollback()
+        return res.status(409).json({
+          error: 'stale',
+          reason: 'this page was loaded from a version that is no longer on record — reload and try again',
+        })
+      }
+      base = JSON.parse(baseRows[0].v)
+    } else if (storedVersion !== null) {
+      // The client believed this document did not exist, and it does.
+      await conn.rollback()
+      return res.status(409).json({
+        error: 'stale',
+        reason: 'this document was created while you were editing — reload and try again',
+      })
+    }
+
+    const stored = storedRaw === null ? null : JSON.parse(storedRaw)
+    const incoming = req.body?.value ?? null
+
+    if (!superAdmin) {
+      const changes = diffDocument(key, base, incoming)
+      // A document with no adapter yields no changes; the base-version check
+      // above is what protects it, and the tab check above is its authorisation.
+      const authorised = authoriseChanges(changes, { heldTabs: held, contentScope: req.identity.contentScope })
+      if (!authorised.ok) {
+        await conn.rollback()
+        return res.status(403).json({ error: 'refused', refusals: authorised.refusals })
+      }
+    }
+
+    const merged = mergeDocument(key, base, stored, incoming)
+    if (!merged.ok) {
+      await conn.rollback()
+      return res.status(409).json({
+        error: 'conflict',
+        conflicts: merged.conflicts,
+        reason: 'somebody else changed the same items while you were editing',
+      })
+    }
+
+    const v = JSON.stringify(merged.value ?? null)
+    let version = storedVersion
+    if (storedRaw !== v) {
+      const [inserted] = await conn.query(
+        'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [key, v, req.identity.id],
+      )
+      version = inserted.insertId
       await conn.query(
-        'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)',
-        [req.params.key, v],
+        'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [key, v],
       )
     }
     await conn.commit()
-    invalidateSnapshots(req.params.key)
+    invalidateSnapshots(key)
+    if (key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
+    res.json({ ok: true, version })
   } catch (error) {
     await conn.rollback()
     throw error
   } finally {
     conn.release()
   }
-  res.json({ ok: true })
 }))
 
-app.delete('/api/state/:key', requireAdmin, wrap(async (req, res) => {
+app.delete('/api/state/:key', requireSuperAdmin, wrap(async (req, res) => {
+  // Deleting a whole document is not an edit: it has no per-item diff and so no
+  // scope to judge it against. Super admin only.
   await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
   invalidateSnapshots(req.params.key)
+  if (req.params.key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
   res.json({ ok: true })
 }))
 
@@ -1022,7 +1145,8 @@ app.get('/api/unsubscribe', wrap(async (req, res) => {
   res.json({ ok: true, category: result.category })
 }))
 
-app.use(['/api/students', '/api/mailboxes', '/api/mail'], requireAdmin)
+app.use('/api/students', requireTab('students'))
+app.use(['/api/mailboxes', '/api/mail'], requireTab('mailbox'))
 
 /* ── Roles and recoverable snapshots ───────────────────────────────────── */
 
@@ -1032,7 +1156,7 @@ app.use(['/api/students', '/api/mailboxes', '/api/mail'], requireAdmin)
    person can sign in and what they have paid for; an audit trail that says who
    and why is the difference between an administrative record and a mystery. */
 
-app.get('/api/admin/users', requireAdmin, wrap(async (req, res) => {
+app.get('/api/admin/users', requireTab('users'), wrap(async (req, res) => {
   res.json(await listUsers({
     query: req.query.q ? String(req.query.q) : undefined,
     status: req.query.status ? String(req.query.status) : undefined,
@@ -1043,19 +1167,19 @@ app.get('/api/admin/users', requireAdmin, wrap(async (req, res) => {
   }))
 }))
 
-app.get('/api/admin/users/capabilities', requireAdmin, (_req, res) => {
+app.get('/api/admin/users/capabilities', requireTab('users'), (_req, res) => {
   // The UI asks before it offers. A reset button that cannot work should be
   // explained on the screen, not discovered when someone presses it.
   res.json({ passwordReset: passwordResetConfigured })
 })
 
-app.get('/api/admin/users/:id', requireAdmin, wrap(async (req, res) => {
+app.get('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => {
   const user = await getUser(req.params.id)
   if (!user) return res.status(404).json({ error: 'user not found' })
   res.json(user)
 }))
 
-app.patch('/api/admin/users/:id', requireAdmin, wrap(async (req, res) => {
+app.patch('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   const fields = ['name', 'email', 'university_id', 'year', 'study_group', 'notes']
@@ -1082,7 +1206,7 @@ app.patch('/api/admin/users/:id', requireAdmin, wrap(async (req, res) => {
   }
 }))
 
-app.post('/api/admin/users/:id/subscription', requireAdmin, wrap(async (req, res) => {
+app.post('/api/admin/users/:id/subscription', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   const plan = String(req.body?.plan || '').trim()
@@ -1098,7 +1222,7 @@ app.post('/api/admin/users/:id/subscription', requireAdmin, wrap(async (req, res
   res.json(result)
 }))
 
-app.post('/api/admin/users/:id/subscription/cancel', requireAdmin, wrap(async (req, res) => {
+app.post('/api/admin/users/:id/subscription/cancel', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   const result = await cancelSubscription(req.params.id, {
@@ -1108,19 +1232,19 @@ app.post('/api/admin/users/:id/subscription/cancel', requireAdmin, wrap(async (r
   res.json(result)
 }))
 
-app.post('/api/admin/users/:id/access', requireAdmin, wrap(async (req, res) => {
+app.post('/api/admin/users/:id/access', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   const status = req.body?.status
   if (!['active', 'suspended'].includes(status)) return res.status(400).json({ error: 'status must be active or suspended' })
   const result = await setAccessStatus(req.params.id, { status, reason, actorId: req.identity.id })
   if (result.error === 'no_identity') return res.status(409).json({ error: 'this person has never signed in, so there is no account to suspend' })
-  if (result.error === 'cannot_suspend_admin') return res.status(409).json({ error: 'demote this admin before suspending the account' })
+  if (result.error === 'cannot_suspend_console') return res.status(409).json({ error: 'demote this account to student before suspending it' })
   if (result.error) return res.status(404).json({ error: result.error })
   res.json(result)
 }))
 
-app.post('/api/admin/users/:id/password-reset', requireAdmin, wrap(async (req, res) => {
+app.post('/api/admin/users/:id/password-reset', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   const result = await requestPasswordReset(req.params.id, { reason, actorId: req.identity.id })
@@ -1133,7 +1257,7 @@ app.post('/api/admin/users/:id/password-reset', requireAdmin, wrap(async (req, r
   res.json(result)
 }))
 
-app.get('/api/admin/users/:id/activity', requireAdmin, wrap(async (req, res) => {
+app.get('/api/admin/users/:id/activity', requireTab('users'), wrap(async (req, res) => {
   // Keyed on the Supabase user id, because `user_state` is written by the app
   // under the signed-in identity. A roster row that has never signed in owns no
   // state, and reports none rather than erroring.
@@ -1142,17 +1266,20 @@ app.get('/api/admin/users/:id/activity', requireAdmin, wrap(async (req, res) => 
   res.json(await getUserActivity(user.identity?.userId ?? null))
 }))
 
-app.post('/api/admin/users/:id/role', requireAdmin, wrap(async (req, res) => {
+app.post('/api/admin/users/:id/role', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   if (req.params.id === req.identity.id) return res.status(409).json({ error: 'you cannot change your own role' })
-  const result = await setRole(req.params.id, { role: req.body?.role, reason, actorId: req.identity.id })
+  const result = await setRole(req.params.id, {
+    role: req.body?.role, reason, actorId: req.identity.id, actorRole: req.identity.role,
+  })
   const REFUSALS = {
-    invalid_role: [400, 'role must be student or admin'],
+    invalid_role: [400, 'role must be student, reviewer, admin or editor'],
+    forbidden: [403, 'that change is above your level'],
     no_identity: [409, 'this person has never signed in, so there is no role to change'],
     suspended: [409, 'reactivate this account before changing its role'],
     unchanged: [409, 'that is already their role'],
-    last_admin: [409, 'this is the last active admin — promote someone else first'],
+    last_console: [409, 'this is the last account with console access — promote someone else first'],
     not_found: [404, 'user not found'],
   }
   if (result.error) {
@@ -1162,51 +1289,34 @@ app.post('/api/admin/users/:id/role', requireAdmin, wrap(async (req, res) => {
   res.json(result)
 }))
 
-app.get('/api/access/users', requireAdmin, wrap(async (_req, res) => {
-  const [rows] = await pool.query(
-    'SELECT user_id AS userId, email, role, status, promoted_by AS promotedBy, promoted_at AS promotedAt, created_at AS createdAt FROM user_access ORDER BY created_at DESC',
-  )
-  res.json(rows)
-}))
-
-app.post('/api/access/users/:userId/promote', requireAdmin, wrap(async (req, res) => {
-  const role = req.body?.role
-  const reason = String(req.body?.reason || '').trim()
-  if (!['student', 'admin'].includes(role)) return res.status(400).json({ error: 'invalid role' })
-  if (reason.length < 8) return res.status(400).json({ error: 'promotion reason must be explicit' })
-
-  const conn = await pool.getConnection()
-  try {
-    await conn.beginTransaction()
-    const [rows] = await conn.query('SELECT role, status FROM user_access WHERE user_id = ? FOR UPDATE', [req.params.userId])
-    if (!rows.length) {
-      await conn.rollback()
-      return res.status(404).json({ error: 'user not found' })
-    }
-    if (rows[0].status !== 'active') {
-      await conn.rollback()
-      return res.status(409).json({ error: 'suspended account must be reactivated before role changes' })
-    }
-    const previousRole = rows[0].role
-    await conn.query(
-      'UPDATE user_access SET role = ?, promoted_by = ?, promoted_at = NOW() WHERE user_id = ?',
-      [role, req.identity.id, req.params.userId],
-    )
-    await conn.query(
-      'INSERT INTO role_promotion_audit (user_id, previous_role, next_role, promoted_by, reason) VALUES (?, ?, ?, ?, ?)',
-      [req.params.userId, previousRole, role, req.identity.id, reason],
-    )
-    await conn.commit()
-    res.json({ ok: true })
-  } catch (error) {
-    await conn.rollback()
-    throw error
-  } finally {
-    conn.release()
+app.post('/api/admin/users/:id/scope', requireTab('users'), wrap(async (req, res) => {
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  const result = await setContentScope(req.params.id, {
+    moduleIds: req.body?.moduleIds, yearIds: req.body?.yearIds,
+    reason, actorId: req.identity.id, actorRole: req.identity.role,
+  })
+  const REFUSALS = {
+    forbidden: [403, 'that change is above your level'],
+    not_scoped: [409, 'only a reviewer is assigned modules and years'],
+    no_identity: [409, 'this person has never signed in, so there is nothing to scope'],
+    not_found: [404, 'user not found'],
   }
+  if (result.error) {
+    const [status, message] = REFUSALS[result.error] ?? [400, result.error]
+    return res.status(status).json({ error: message })
+  }
+  res.json(result)
 }))
 
-app.get('/api/backups', requireAdmin, wrap(async (_req, res) => {
+/* `GET /api/access/users` and `POST /api/access/users/:userId/promote` used to
+   live here, behind the Students tab's own panel. The promote route wrote the
+   same `user_access.role` column as `/api/admin/users/:id/role` while checking
+   neither the actor's rank nor a self-edit, which under a hierarchy is an
+   escalation route rather than a duplication. Both are gone with that panel:
+   roles are changed in Users, one door with one lock. */
+
+app.get('/api/backups', requireTab('audit'), wrap(async (_req, res) => {
   const [rows] = await pool.query(
     'SELECT id, label, created_by AS createdBy, created_at AS createdAt, OCTET_LENGTH(snapshot_json) AS sizeBytes FROM data_snapshots ORDER BY created_at DESC LIMIT 50',
   )
@@ -1236,7 +1346,7 @@ async function readMedicalLibraryLaunchData() {
 }
 
 /** Read-only launch preflight. It never changes production data. */
-app.get('/api/launch/medical-library-v1/preview', requireAdmin, wrap(async (_req, res) => {
+app.get('/api/launch/medical-library-v1/preview', requireTab('audit'), wrap(async (_req, res) => {
   const launch = await readMedicalLibraryLaunchData()
   const [migration] = await pool.query('SELECT id, applied_at AS appliedAt FROM schema_migrations WHERE id = ?', [launch.migrationId])
   const keys = Object.keys(launch.states)
@@ -1253,7 +1363,7 @@ app.get('/api/launch/medical-library-v1/preview', requireAdmin, wrap(async (_req
 
 /* ── Medical library coverage review (admin-only) ───────────────────────── */
 
-app.get('/api/medical-library/coverage/summary', requireAdmin, wrap(async (_req, res) => {
+app.get('/api/medical-library/coverage/summary', requireTab('library'), wrap(async (_req, res) => {
   const [[totals], destinations, systems, sourceStates, collections] = await Promise.all([
     pool.query('SELECT COUNT(*) AS candidates, COUNT(DISTINCT source_id) AS candidateSources FROM medical_library_candidate_coverage').then(([rows]) => rows),
     pool.query('SELECT destination, COUNT(*) AS count FROM medical_library_candidate_coverage GROUP BY destination ORDER BY count DESC').then(([rows]) => rows),
@@ -1271,7 +1381,7 @@ app.get('/api/medical-library/coverage/summary', requireAdmin, wrap(async (_req,
   })
 }))
 
-app.get('/api/medical-library/coverage/candidates', requireAdmin, wrap(async (req, res) => {
+app.get('/api/medical-library/coverage/candidates', requireTab('library'), wrap(async (req, res) => {
   const page = Math.max(1, Number.parseInt(String(req.query.page || '1'), 10) || 1)
   const pageSize = Math.min(100, Math.max(10, Number.parseInt(String(req.query.pageSize || '50'), 10) || 50))
   const destination = String(req.query.destination || '').trim()
@@ -1310,7 +1420,7 @@ app.get('/api/medical-library/coverage/candidates', requireAdmin, wrap(async (re
   })
 }))
 
-app.get('/api/medical-library/coverage/sources', requireAdmin, wrap(async (req, res) => {
+app.get('/api/medical-library/coverage/sources', requireTab('library'), wrap(async (req, res) => {
   const collectionId = String(req.query.collectionId || '').trim()
   const status = String(req.query.status || '').trim()
   const where = []
@@ -1357,7 +1467,7 @@ function resolvedChunkUploadPath(resourceId, uploadId) {
 }
 
 /** Remove interrupted upload work only after every stored resource is live. */
-app.post('/api/medical-resources/cleanup-uploads', requireAdmin, wrap(async (_req, res) => {
+app.post('/api/medical-resources/cleanup-uploads', requireTab('resources'), wrap(async (_req, res) => {
   const storedResources = (await medicalResourceRecords()).filter((resource) => resource.storageKey)
   if (!storedResources.length) return res.status(409).json({ error: 'no qualified stored resources are registered' })
   const missingResourceIds = storedResources
@@ -1379,7 +1489,7 @@ app.get('/api/medical-resources/:resourceId/status', requireAuthenticated, wrap(
     id: resource.id,
     available: Boolean(fullPath && existsSync(fullPath)),
     externalUrl: resource.sourceUri || null,
-    storageKey: req.identity.role === 'admin' ? resource.storageKey || null : undefined,
+    storageKey: hasConsoleAccess(req.identity.role) ? resource.storageKey || null : undefined,
   })
 }))
 
@@ -1395,7 +1505,7 @@ app.get('/api/medical-resources/:resourceId', requireAuthenticated, wrap(async (
   res.sendFile(fullPath)
 }))
 
-app.put('/api/medical-resources/:resourceId/file', requireAdmin, wrap(async (req, res) => {
+app.put('/api/medical-resources/:resourceId/file', requireTab('resources'), wrap(async (req, res) => {
   const resource = await resourceRecord(req.params.resourceId)
   if (!resource) return res.status(404).json({ error: 'resource not found' })
   const fullPath = resolvedResourcePath(resource.storageKey)
@@ -1413,7 +1523,7 @@ app.put('/api/medical-resources/:resourceId/file', requireAdmin, wrap(async (req
  * These endpoints accept bounded chunks, then verify the reconstructed file
  * against the qualified source hash before it becomes visible to readers.
  */
-app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireAdmin, wrap(async (req, res) => {
+app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireTab('resources'), wrap(async (req, res) => {
   const resource = await resourceRecord(req.params.resourceId)
   if (!resource) return res.status(404).json({ error: 'resource not found' })
   const fullPath = resolvedResourcePath(resource.storageKey)
@@ -1428,7 +1538,7 @@ app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireAdm
   res.json({ ok: true, index, sizeBytes })
 }))
 
-app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', requireAdmin, wrap(async (req, res) => {
+app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', requireTab('resources'), wrap(async (req, res) => {
   const resource = await resourceRecord(req.params.resourceId)
   if (!resource) return res.status(404).json({ error: 'resource not found' })
   const fullPath = resolvedResourcePath(resource.storageKey)
@@ -1459,12 +1569,12 @@ app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', require
   }
 }))
 
-app.post('/api/backups', requireAdmin, wrap(async (req, res) => {
+app.post('/api/backups', requireTab('audit'), wrap(async (req, res) => {
   const label = req.body?.label || `Manual snapshot ${new Date().toISOString()}`
   res.json(await createDataSnapshot(label, req.identity.id))
 }))
 
-app.get('/api/backups/:id/download', requireAdmin, wrap(async (req, res) => {
+app.get('/api/backups/:id/download', requireTab('audit'), wrap(async (req, res) => {
   const [rows] = await pool.query(
     'SELECT label, snapshot_json AS snapshotJson FROM data_snapshots WHERE id = ?',
     [req.params.id],
@@ -1687,35 +1797,35 @@ app.post('/api/assistant/chat', requireAuthenticated, wrap(async (req, res) => {
   return res.json(result)
 }))
 
-app.get('/api/admin/assistant', requireAdmin, wrap(async (_req, res) => {
+app.get('/api/admin/assistant', requireTab('assistant'), wrap(async (_req, res) => {
   res.json(await assistantAdminSettings())
 }))
 
-app.put('/api/admin/assistant', requireAdmin, wrap(async (req, res) => {
+app.put('/api/admin/assistant', requireTab('assistant'), wrap(async (req, res) => {
   const result = await assistantSaveSettings(req.body ?? {}, req.identity.id)
   if (result.error) return res.status(400).json(result)
   return res.json(result)
 }))
 
-app.put('/api/admin/assistant/tiers/:plan', requireAdmin, wrap(async (req, res) => {
+app.put('/api/admin/assistant/tiers/:plan', requireTab('assistant'), wrap(async (req, res) => {
   const result = await assistantSaveTierLimit({ ...req.body, plan: req.params.plan })
   if (result.error) return res.status(400).json(result)
   return res.json(result)
 }))
 
-app.delete('/api/admin/assistant/tiers/:plan', requireAdmin, wrap(async (req, res) => {
+app.delete('/api/admin/assistant/tiers/:plan', requireTab('assistant'), wrap(async (req, res) => {
   const result = await assistantDeleteTierLimit(req.params.plan)
   if (result.error) return res.status(400).json(result)
   return res.json(result)
 }))
 
-app.get('/api/admin/assistant/usage', requireAdmin, wrap(async (req, res) => {
+app.get('/api/admin/assistant/usage', requireTab('assistant'), wrap(async (req, res) => {
   res.json(await assistantUsage({ days: req.query.days }))
 }))
 
 // Asked of the provider, so the model list is what it will actually accept
 // today rather than what was true when this was written.
-app.get('/api/admin/assistant/models', requireAdmin, wrap(async (req, res) => {
+app.get('/api/admin/assistant/models', requireTab('assistant'), wrap(async (req, res) => {
   const result = await assistantModels(req.query.provider)
   if (result.error) return res.status(result.status ?? 502).json(result)
   return res.json(result)

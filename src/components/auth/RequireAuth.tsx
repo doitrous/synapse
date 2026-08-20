@@ -2,6 +2,7 @@ import { Navigate, useLocation } from 'react-router-dom'
 import type { ReactElement } from 'react'
 import { useIdentity } from '@/lib/useIdentity'
 import { RouteLoading } from '@/components/shell/RouteLoading'
+import { hasConsoleAccess } from '@/data/adminRoles'
 
 /**
  * A portal only renders for someone entitled to see it.
@@ -12,8 +13,16 @@ import { RouteLoading } from '@/components/shell/RouteLoading'
  * and the admin console loaded twenty-five pages that each failed on their own.
  * Sending someone to sign in — and back to where they were going — is both more
  * honest and less work than twenty-five separate error states.
+ *
+ * `tab` narrows it further: a route belongs to a tab, and a role that does not
+ * hold that tab never renders it. The same registry decides what the sidebar
+ * offers, so a visible link and a rendering page cannot disagree.
  */
-export function RequireAuth({ role, children }: { role?: 'admin'; children: ReactElement }) {
+export function RequireAuth({ console: needsConsole, tab, children }: {
+  console?: boolean
+  tab?: string
+  children: ReactElement
+}) {
   const identity = useIdentity()
   const location = useLocation()
 
@@ -29,10 +38,28 @@ export function RequireAuth({ role, children }: { role?: 'admin'; children: Reac
   // an optional detour and a student could arrive at a dashboard without ever
   // being told an email was waiting for them. On a project that does not
   // require confirmation this is already true for everybody and never fires.
+  //
+  // Ahead of the console checks below, because an unfinished account has no
+  // business in the console either.
   if (!identity.emailVerified) {
     const address = identity.email ? `?email=${encodeURIComponent(identity.email)}` : ''
     return <Navigate to={`/auth/verify-email${address}`} replace />
   }
-  if (role === 'admin' && identity.role !== 'admin') return <Navigate to="/app" replace />
+
+  if (needsConsole || tab) {
+    if (!hasConsoleAccess(identity.role ?? '')) return <Navigate to="/app" replace />
+    // Console access now requires a second factor, because the console decides
+    // who else gets console access. Somebody promoted an hour ago has not
+    // enrolled yet; send them to enrol rather than to twenty-five pages that
+    // each answer mfa_required on their own.
+    if (identity.aal !== 'aal2') {
+      const next = `${location.pathname}${location.search}`
+      return <Navigate to={`/auth/mfa?next=${encodeURIComponent(next)}`} replace />
+    }
+  }
+  // A tab this role does not hold is not a 404 — the console exists, this part
+  // of it is simply not theirs. `/admin` sends them to a page that is.
+  if (tab && !identity.tabs.includes(tab)) return <Navigate to="/admin" replace />
+
   return children
 }

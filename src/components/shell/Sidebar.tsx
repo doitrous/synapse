@@ -27,9 +27,9 @@ export function Sidebar({
   onToggleCollapse?: () => void
   onNavigate?: () => void
 }) {
-  const groups = navFor(portal)
   const { t } = useI18n()
   const identity = useIdentity()
+  const groups = navFor(portal, identity.tabs)
   // `audience`, not `profile`: the roster record is authoritative but often
   // absent, and `audience` is the merge of it with what the student told
   // onboarding. Reading `profile` here showed nothing to every student whose

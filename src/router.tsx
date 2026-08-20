@@ -4,6 +4,8 @@ import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RequireAuth } from '@/components/auth/RequireAuth'
+import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
+import { useIdentity } from '@/lib/useIdentity'
 import { ADMIN_ORIGIN, STUDENT_ORIGIN, isAdminHost, isStudentHost, samePathOn } from '@/lib/portalHost'
 
 /**
@@ -92,6 +94,7 @@ const EmailAutomations = lazyNamed(() => import('@/pages/admin/EmailAutomations'
 const PrivacySupport = lazyNamed(() => import('@/pages/admin/PrivacySupport'), 'PrivacySupport')
 const AdminSettings = lazyNamed(() => import('@/pages/admin/Settings'), 'Settings')
 const AuditSecurity = lazyNamed(() => import('@/pages/admin/AuditSecurity'), 'AuditSecurity')
+const AccessControl = lazyNamed(() => import('@/pages/admin/AccessControl'), 'AccessControl')
 const MedicalCoverageReview = lazyNamed(() => import('@/pages/admin/MedicalCoverageReview'), 'MedicalCoverageReview')
 const ReportsReview = lazyNamed(() => import('@/pages/admin/ReportsReview'), 'ReportsReview')
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
@@ -178,11 +181,12 @@ const adminBuilt: Record<string, ReactElement> = {
   privacy: render(PrivacySupport),
   settings: render(AdminSettings),
   audit: render(AuditSecurity),
+  access: render(AccessControl),
   assistant: render(AssistantSetup),
 }
 
 const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'essays', 'resources', 'taxonomy', 'term-grid', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
@@ -190,7 +194,47 @@ const studentRoutes = [
   // the viewport, and it has to be linkable at a page.
   { path: 'resources/:id', element: render(ResourceReader) },
 ]
-const adminRoutes = adminPaths.map((path) => ({ path, element: adminBuilt[path] ?? render(Placeholder) }))
+/**
+ * The tab that owns each admin path.
+ *
+ * Derived from the same registry the sidebar reads, so a link that is offered
+ * and a page that renders can never disagree — and neither can disagree with
+ * the server, which checks the same tab when the page saves.
+ */
+const TAB_BY_PATH = new Map(ADMIN_TAB_VIEWS.map((view) => [view.to.replace(/^\/admin\/?/, ''), view.id]))
+
+/** A nested path belongs to its parent's tab: `academic/marks` is Marks & Weights. */
+function tabForAdminPath(path: string): string | undefined {
+  const own = TAB_BY_PATH.get(path)
+  if (own) return own
+  const parent = path.slice(0, path.lastIndexOf('/'))
+  return parent ? tabForAdminPath(parent) : undefined
+}
+
+const adminRoutes = adminPaths.map((path) => ({
+  path,
+  element: <RequireAuth tab={tabForAdminPath(path)}>{adminBuilt[path] ?? render(Placeholder)}</RequireAuth>,
+}))
+
+/** An admin child route, guarded by whichever tab owns its path. */
+const guarded = (path: string, element: ReactElement) => ({
+  path,
+  element: <RequireAuth tab={tabForAdminPath(path)}>{element}</RequireAuth>,
+})
+
+/**
+ * Where `/admin` goes.
+ *
+ * The Control Dashboard is enrolment and revenue, which a reviewer does not
+ * hold, so the console cannot have one fixed front door. It opens on the first
+ * tab this person actually has.
+ */
+function AdminHome() {
+  const identity = useIdentity()
+  if (identity.status === 'demo' || identity.tabs.includes('dashboard')) return <ControlDashboard />
+  const first = ADMIN_TAB_VIEWS.find((view) => view.id !== 'dashboard' && identity.tabs.includes(view.id))
+  return first ? <Navigate to={first.to} replace /> : <Navigate to="/app" replace />
+}
 
 // Which portal this origin serves. Everywhere else — localhost, previews — both
 // halves stay mounted, so development is unaffected by the production split.
@@ -207,19 +251,21 @@ const studentApp = {
 
 const adminApp = {
   path: '/admin',
-  element: <RequireAuth role="admin"><AppShell portal="admin" /></RequireAuth>,
+  element: <RequireAuth console><AppShell portal="admin" /></RequireAuth>,
   children: [
-    { index: true, element: render(ControlDashboard) },
-    { path: 'import/:kind', element: render(BulkImportPage) },
-    { path: 'concepts/import', element: render(ConceptsImportPage) },
-    { path: 'relationships/import', element: render(RelationsImportPage) },
-    { path: 'academic/import', element: render(AcademicImportPage) },
-    { path: 'academic/marks', element: render(MarksWeights) },
-    { path: 'taxonomy/import', element: render(SubjectsImportPage) },
-    { path: 'glossary/import', element: render(GlossaryImportPage) },
-    { path: 'library/coverage', element: render(MedicalCoverageReview) },
-    { path: 'library/media', element: render(MediaRequests) },
-    { path: 'library/evidence/import', element: render(EvidenceImportPage) },
+    { index: true, element: <AdminHome /> },
+    // `import/:kind` is the one path whose tab depends on the parameter, so it
+    // is guarded by the ledger tabs its four kinds map onto.
+    { path: 'import/:kind', element: <RequireAuth console>{render(BulkImportPage)}</RequireAuth> },
+    guarded('concepts/import', render(ConceptsImportPage)),
+    guarded('relationships/import', render(RelationsImportPage)),
+    guarded('academic/import', render(AcademicImportPage)),
+    guarded('academic/marks', render(MarksWeights)),
+    guarded('taxonomy/import', render(SubjectsImportPage)),
+    guarded('glossary/import', render(GlossaryImportPage)),
+    guarded('library/coverage', render(MedicalCoverageReview)),
+    guarded('library/media', render(MediaRequests)),
+    guarded('library/evidence/import', render(EvidenceImportPage)),
     ...adminRoutes,
   ],
 }

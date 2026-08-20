@@ -18,6 +18,9 @@
  */
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
+import { STORED_ROLES, canSetRole, effectiveRole, hasConsoleAccess, parseSuperAdminEmails, rank } from './roles.js'
+
+const superAdminEmails = parseSuperAdminEmails(process.env.SUPER_ADMIN_EMAILS)
 import { normaliseEmail, normalisePhone } from './identity.js'
 
 const SUPABASE_URL = process.env.SUPABASE_URL?.replace(/\/$/, '')
@@ -396,11 +399,14 @@ export async function setAccessStatus(studentId, { status, reason, actorId }) {
 
     const [access] = await conn.query('SELECT role FROM user_access WHERE user_id = ? FOR UPDATE', [userId])
     if (!access.length) { await conn.rollback(); return { error: 'no_identity' } }
-    // Suspending an admin would remove the ability to undo it if it were the
-    // last one. Refusing here is cheaper than recovering from that.
-    if (access[0].role === 'admin' && status === 'suspended') {
+    // Suspending somebody who holds the console would remove the ability to
+    // undo it if they were the last one. Refusing here is cheaper than
+    // recovering from that. This reads console access rather than the single
+    // role 'admin', or widening the console to four roles would have quietly
+    // made editors and reviewers suspendable.
+    if (hasConsoleAccess(access[0].role) && status === 'suspended') {
       await conn.rollback()
-      return { error: 'cannot_suspend_admin' }
+      return { error: 'cannot_suspend_console' }
     }
 
     await conn.query('UPDATE user_access SET status = ? WHERE user_id = ?', [status, userId])
@@ -545,8 +551,8 @@ export async function getUserActivity(userId) {
  * Demoting the last admin is refused. There is no way back from an estate with
  * no administrator that does not involve editing the database by hand.
  */
-export async function setRole(studentId, { role, reason, actorId }) {
-  if (!['student', 'admin'].includes(role)) return { error: 'invalid_role' }
+export async function setRole(studentId, { role, reason, actorId, actorRole }) {
+  if (!STORED_ROLES.includes(role)) return { error: 'invalid_role' }
   const conn = await pool.getConnection()
   try {
     await conn.beginTransaction()
@@ -555,16 +561,26 @@ export async function setRole(studentId, { role, reason, actorId }) {
     const userId = student.user_id
     if (!userId) { await conn.rollback(); return { error: 'no_identity' } }
 
-    const [access] = await conn.query('SELECT role, status FROM user_access WHERE user_id = ? FOR UPDATE', [userId])
+    const [access] = await conn.query(
+      'SELECT role, status, email FROM user_access WHERE user_id = ? FOR UPDATE', [userId],
+    )
     if (!access.length) { await conn.rollback(); return { error: 'no_identity' } }
     if (access[0].status !== 'active') { await conn.rollback(); return { error: 'suspended' } }
+
+    // The target's rank is their *effective* one, so an allowlisted super admin
+    // cannot be demoted by writing to their row.
+    const targetRole = effectiveRole(access[0].email, access[0].role, superAdminEmails)
+    if (!canSetRole(actorRole, targetRole, role)) { await conn.rollback(); return { error: 'forbidden' } }
     if (access[0].role === role) { await conn.rollback(); return { error: 'unchanged' } }
 
-    if (access[0].role === 'admin' && role === 'student') {
-      const [[{ admins }]] = await conn.query(
-        "SELECT COUNT(*) AS admins FROM user_access WHERE role = 'admin' AND status = 'active'",
+    // Somebody must be able to open the console tomorrow. The allowlist makes
+    // this near-impossible to trip, but an allowlisted account that has never
+    // signed in owns no row, so the net stays.
+    if (rank(targetRole) >= 1 && rank(role) < 1) {
+      const [[{ consoles }]] = await conn.query(
+        "SELECT COUNT(*) AS consoles FROM user_access WHERE role <> 'student' AND status = 'active'",
       )
-      if (admins <= 1) { await conn.rollback(); return { error: 'last_admin' } }
+      if (consoles <= 1) { await conn.rollback(); return { error: 'last_console' } }
     }
 
     await conn.query(
@@ -581,6 +597,51 @@ export async function setRole(studentId, { role, reason, actorId }) {
     })
     await conn.commit()
     return { ok: true, role }
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}
+
+/**
+ * Which modules and years a reviewer may write.
+ *
+ * Audited exactly like a role change, because it is one: widening somebody's
+ * scope is widening their access, and "who gave them Year 4" is the same class
+ * of question as "who made them a reviewer".
+ */
+export async function setContentScope(studentId, { moduleIds, yearIds, reason, actorId, actorRole }) {
+  const clean = (value) => [...new Set((Array.isArray(value) ? value : [])
+    .map((entry) => String(entry ?? '').trim())
+    .filter(Boolean))]
+  const scope = { moduleIds: clean(moduleIds), yearIds: clean(yearIds) }
+  const stored = scope.moduleIds.length || scope.yearIds.length ? JSON.stringify(scope) : null
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, studentId)
+    if (!student) { await conn.rollback(); return { error: 'not_found' } }
+    const userId = student.user_id
+    if (!userId) { await conn.rollback(); return { error: 'no_identity' } }
+
+    const [access] = await conn.query(
+      'SELECT role, status, email FROM user_access WHERE user_id = ? FOR UPDATE', [userId],
+    )
+    if (!access.length) { await conn.rollback(); return { error: 'no_identity' } }
+    const targetRole = effectiveRole(access[0].email, access[0].role, superAdminEmails)
+    // Scope only means anything for a reviewer, and you must outrank them.
+    if (rank(actorRole) <= rank(targetRole)) { await conn.rollback(); return { error: 'forbidden' } }
+    if (targetRole !== 'reviewer') { await conn.rollback(); return { error: 'not_scoped' } }
+
+    await conn.query('UPDATE user_access SET content_scope = ? WHERE user_id = ?', [stored, userId])
+    await recordAction(conn, {
+      studentId, userId, action: 'access.scope', detail: stored ?? 'none', reason, actorId,
+    })
+    await conn.commit()
+    return { ok: true, scope: stored ? scope : null }
   } catch (error) {
     await conn.rollback()
     throw error

@@ -1,3 +1,4 @@
+import type { StoredRole } from '@/data/adminRoles'
 import { useCallback, useEffect, useState } from 'react'
 import { API_MODE, apiGet, apiPost, apiSend } from '@/lib/api'
 import type { AdminUser, AdminUserDetail } from '@/data/adminUsers'
@@ -104,8 +105,20 @@ export async function updateProfile(id: string, body: Record<string, unknown>) {
   return apiSend(`/admin/users/${encodeURIComponent(id)}`, 'PATCH', body)
 }
 
-export async function setUserRole(id: string, body: { role: 'student' | 'admin'; reason: string }) {
+export async function setUserRole(id: string, body: { role: StoredRole; reason: string }) {
   return apiPost(`/admin/users/${encodeURIComponent(id)}/role`, body)
+}
+
+/**
+ * Which modules and years a reviewer may write.
+ *
+ * Audited exactly like a role change, because it is one: widening somebody's
+ * scope is widening their access.
+ */
+export async function setUserScope(id: string, body: { moduleIds: string[]; yearIds: string[]; reason: string }) {
+  return apiPost<{ ok: boolean; scope: { moduleIds: string[]; yearIds: string[] } | null }>(
+    `/admin/users/${encodeURIComponent(id)}/scope`, body,
+  )
 }
 
 /**

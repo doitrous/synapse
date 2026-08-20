@@ -1,13 +1,17 @@
 import { useLocation } from 'react-router-dom'
 import { Check } from 'lucide-react'
 import { PLACEHOLDERS } from './placeholders'
-import { studentNav, adminNav } from '@/components/shell/nav'
+import { studentNav } from '@/components/shell/nav'
+import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 
-const ALL_ITEMS = [...studentNav, ...adminNav].flatMap((g) => g.items)
+// Naming an unbuilt route, not deciding who may reach it — so this reads the
+// whole registry rather than the caller's tabs. A page nobody holds still has a
+// name, and RequireAuth is what stops them arriving at it.
+const ALL_ITEMS = [...studentNav.flatMap((g) => g.items), ...ADMIN_TAB_VIEWS]
 
 /** A faint schematic of the surface to come — a blueprint, not a spinner. */
 function BlueprintSketch() {
