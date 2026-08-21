@@ -2676,3 +2676,60 @@ moved from **35 columns to 54**.
 **Byte-identity against a stale base passes while shipping a regression.** The gate has to name
 the property, not the comparison: *the concept batch must still emit 54 columns*. Same shape as
 a stale registry that deletes what it no longer knows about.
+
+---
+
+## Two live defects on `main` right now — both verified
+
+### 1. `main` can emit a matching question with no options and no prompts, silently
+
+`scripts/kasr/emit.ts:313` reads **`scheme.options`** and **`scheme.matches`**.
+`scripts/kasr/seeds/from-json.ts` on main declares **`matchingOptions`** / **`matchingPrompts`**
+and passes `json.schemes` straight through. **They do not meet.**
+
+```
+emit.ts reads:        scheme.format  scheme.matches  scheme.options  scheme.prompt
+from-json declares:   matchingOptions  matchingPrompts  scheme.parts  json.schemes
+```
+
+So a matching block emitted through that path produces **empty columns**, and nothing errors —
+the same class as everything else in this file. A 180-line `from-json.ts` that parses the flat
+strings into the structured pair and validates is going up with the 102 push; main's is 120
+lines and is the broken one.
+
+### 2. `main`'s `pagetext.py` has lost the readability guard
+
+Main's copy is **119 lines with zero matches** for `readability` / `control` / `unreadable`. The
+version carrying the `U+0001` fix is **207 lines**.
+
+So a lane running main's `pagetext.py` will cache a file whose text layer is **6,075 non-
+whitespace characters, every one `U+0001`**, as `mode: "native"` with a healthy character count
+and **zero readable content** — the original bug, back on main, and silent exactly as before.
+
+**Check which copy you are running before you trust a cache.** `wc -l` distinguishes them.
+
+## Two lanes wrote different tools under the same obvious name
+
+`scripts/kasr/build-evidence.ts` — **364 lines on `main`**, one lane's generator deriving claims
+and citations from concept definitions. **320 lines in another lane's tree**, emitting a
+module's evidence-source and catalogue-resource records from the manifest. **Entirely different
+tools, same name.**
+
+Git reported it only as *"untracked file would be overwritten"*. Resolved carelessly, the claims
+generator would have been **replaced by a source-record emitter**, and the failure would have
+surfaced as *missing claims* — nowhere near the cause.
+
+Renamed to `build-module-sources.ts`, **with the collision recorded in its header so the next
+person finds the reason rather than re-making the name.**
+
+> **An obvious name is a collision risk precisely because it is obvious.** Before adding a
+> `build-*` or `check-*` script, look for the name on `main` — and if you rename one, say in the
+> file why.
+
+### Compare, don't assume, when your file is already on main
+
+Five files were already there. Comparing each rather than taking either side wholesale gave
+four different answers: **identical** (took main's), **main's is a rewrite** (took main's,
+dropped mine), **generated** (took main's), and **main's is missing a fix** (kept mine) — twice.
+
+**"It is already on main" is not a verdict.** It is the start of a diff.
