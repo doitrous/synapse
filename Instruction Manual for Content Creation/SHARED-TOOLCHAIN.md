@@ -500,9 +500,20 @@ The live record whose `canonicalKey` is exactly that string is **`CON-FND-3CC86C
 *canonical-key* collision. It mints a second ID for a concept that already exists and
 affirmatively confirms it. There is no warning to miss — there is a green light to trust.
 
+**This is total, not occasional.** Of the 210 `CON-CVS-*` and `CON-RES-*` concepts carrying
+a `canonicalKey`, **210 fail to reproduce their live ID** — every one. Sampling twelve
+directly: every one mismatched, and four minted **nothing at all**. The live IDs came from
+an earlier scheme, so the tool's `ok` is **meaningless for anything already in the graph**.
+
 **For an existing concept, look the ID up in the graph by canonical key or label. Never
 compute it.** A lane that assumes the mint is stable across history will silently fork every
 concept it touches, and the tool will confirm each fork.
+
+**The fix already exists in the next tool along.** `find-existing.mjs:59` tests
+`concept.canonicalKey` alongside label, aliases and definition — the exact check
+`mint-concept-id.mjs` lacks. The two tools disagree about what a collision is, **and the one
+that mints has the weaker test.** Until that is fixed, run `find-existing.mjs` before
+minting rather than trusting the mint's `ok`.
 
 This lands hardest on the update-plus-mint workflow every lane has now adopted: an update
 row carrying a re-derived ID does not update anything — it creates a rival.
