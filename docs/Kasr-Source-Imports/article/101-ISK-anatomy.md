@@ -4079,3 +4079,607 @@ sections.Mechanism: The remark that the radial tuberosity faces medially in pron
 sections.Clinical significance: The reading of failed supination and failed pronation as localising tests is reasoning across the nerve injury chapter and this one. Both losses are the book's own statements; using them as tests is not.
 ## notes
 Two concepts, one article, because both are about the two forearm bones and because the retinaculum's fourth compartment carries the nerve that supplies the supinator. Where the department book is thinner than the concept — the five septa, Lister's tubercle, the anterior border of the radius — the fuller source is named in conflicts rather than being quietly promoted to the department's own word.
+
+---
+
+# Item
+## id
+ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES
+## title
+Cutaneous nerve supply of the upper limb
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-F4FC0C323C654E
+## related_articles
+ART-101-ANA-RADIAL-NERVE: Three of the strips below belong to the radial nerve, and its own article gives their origins by level along its course.
+ART-101-ANA-AXILLARY-NERVE: The upper lateral cutaneous nerve of the arm is the end of the axillary nerve's posterior branch, and the patch it supplies is the sensory loss of an axillary lesion.
+ART-101-ANA-MUSCULOCUTANEOUS-NERVE: The lateral cutaneous nerve of the forearm is the musculocutaneous nerve's own continuation, which is what makes a motor nerve of the arm a skin nerve of the forearm.
+## aliases
+Cutaneous nerves of the upper limb | Cutaneous innervation | Intercostobrachial nerve | Sensory supply of the arm
+## reading_time
+11
+## summary
+The skin of the limb is supplied in named strips, and the map is learnt by region rather than by nerve because that is how the examiner asks it. Two facts do most of the work. The skin over the deltoid has two different nerves, supraclavicular above and axillary below, which is why an axillary lesion numbs a patch and not a shoulder. And the medial side of the arm is supplied from the chest wall, by the intercostobrachial nerve, which belongs to no part of the brachial plexus at all.
+## sections
+### Definition
+The cutaneous nerve supply of the upper limb is the map of which named nerve supplies which area of skin. The department book teaches it by region — shoulder, axilla and arm; then forearm; then hand — and names the parent nerve of each cutaneous branch, because the parent nerve is what a lesion damages.
+
+Two of the suppliers do not come from the brachial plexus. The lateral supraclavicular nerve is a branch of the cervical plexus, from C3 and C4. The intercostobrachial nerve is the lateral cutaneous branch of the second intercostal nerve, which is a thoracic nerve. The rest are branches of the plexus or of its named terminal nerves.
+
+### Mechanism
+The map looks arbitrary until it is read as the consequence of two things: where the limb bud came from, and where each nerve runs.
+
+The territories at the top of the limb are supplied from above and from the side because the limb grew out between them. The skin over the upper half of the deltoid still belongs to the cervical plexus, C3 and C4, through the lateral supraclavicular nerve — the same nerves that supply the skin between the clavicle and the second rib. The skin of the floor of the axilla and the upper medial arm still belongs to the thoracic wall, through the intercostobrachial nerve. Both are territories the limb did not take over.
+
+Everything below them is supplied by the nerve that happens to run there. The radial nerve runs on the back of the limb, so it supplies the back of the arm and the back of the forearm. The medial cord's cutaneous branches run down the medial side, so they supply the medial arm and the medial forearm. The musculocutaneous nerve emerges at the lateral border of the biceps tendon, so its continuation supplies the lateral forearm. The axillary nerve winds round the surgical neck and curves round the posterior border of deltoid, so its cutaneous branch reaches only the skin over the lower half of that muscle.
+
+That gives the rule for the arm: back from the radial, medial from the chest wall above and the medial cord below, lateral from the cervical plexus above, the axillary nerve in the middle and the radial nerve below.
+
+The final mechanism worth holding is overlap. Branches of the median nerve overlap the whole area of skin supplied by the superficial radial nerve except a small triangular area on the dorsum of the web between thumb and index, which the superficial radial nerve supplies alone. Because adjacent territories overlap, a nerve lesion gives paraesthesia over a wide area and complete loss over a small one, and the small one is the nerve's autonomous zone.
+
+### Key determinants
+The map, region by region, as the department book gives it.
+
+The shoulder, axilla and upper arm.
+
+Posterior side: the posterior cutaneous nerve of the arm, from the radial nerve in the axilla, supplying the back of the arm from the deltoid tuberosity to the elbow.
+
+Medial side, upper half and the floor of the axilla: the intercostobrachial nerve, the lateral cutaneous branch of the second intercostal nerve.
+
+Medial side, lower half: the medial cutaneous nerve of the arm, from the medial cord.
+
+Lateral side, over the upper half of deltoid: the lateral supraclavicular nerve, C3 and C4, from the cervical plexus.
+
+Lateral side, over the lower half of deltoid: the upper lateral cutaneous nerve of the arm, from the posterior branch of the axillary nerve.
+
+Lateral side, lower lateral arm: the lower lateral cutaneous nerve of the arm, from the radial nerve in the spiral groove, supplying the skin on the lower half of the lateral side of the arm.
+
+The forearm, front and back on each of three sides.
+
+Lateral: the lateral cutaneous nerve of the forearm, the continuation of the musculocutaneous nerve, dividing into anterior and posterior branches and supplying the lateral side front and back to the wrist, and the skin of the upper part of the ball of the thumb.
+
+Medial: the medial cutaneous nerve of the forearm, from the medial cord, dividing into anterior and posterior branches and supplying the medial side front and back.
+
+Posterior, in the middle: the posterior cutaneous nerve of the forearm, from the radial nerve in the spiral groove, supplying the middle of the back of the forearm down to the wrist.
+
+The hand.
+
+Palm: the palmar cutaneous branch of the median nerve supplies the lateral two-thirds, except the proximal part of the ball of the thumb, which is supplied by the lateral cutaneous nerve of the forearm; the palmar cutaneous branch of the ulnar nerve supplies the medial third.
+
+Palmar aspect of the fingers: the terminal branches of the median nerve supply the lateral three and a half fingers and the distal halves of their dorsal aspects; the superficial terminal branch of the ulnar nerve supplies the medial one and a half.
+
+Dorsum of the hand: the dorsal digital branches of the superficial radial nerve supply the lateral two-thirds; the dorsal cutaneous branch of the ulnar nerve supplies the medial third.
+
+Dorsal aspect of the fingers: the superficial radial nerve supplies the proximal halves of the lateral three and a half fingers, their distal halves being supplied by the median nerve; the ulnar dorsal cutaneous branch supplies the medial one and a half.
+
+### Clinical significance
+The map is what turns a numb patch into a diagnosis, and the department book's nerve injury chapter uses it that way for every lesion it describes.
+
+The patch over the lower half of the deltoid is the axillary nerve's, so numbness there after a shoulder dislocation is the sensory half of an axillary nerve injury.
+
+The lateral side of the upper limb is the C5 and C6 territory, so sensory loss there is the sensory half of Erb's palsy. The medial side of the arm, forearm and hand is the C8 and T1 territory, so loss there belongs to Klumpke's paralysis.
+
+The small triangular area on the dorsum of the first web space is the superficial radial nerve's autonomous zone, and it is the only area of complete sensory loss after a radial nerve lesion — everything else the nerve supplies is overlapped by branches of the median.
+
+The intercostobrachial nerve supplies the floor of the axilla, which is why an axillary clearance can leave a patient numb over the medial upper arm without any lesion of the brachial plexus.
+
+### Common misconceptions
+The skin over the deltoid does not have one nerve. Its upper half is supraclavicular, from the cervical plexus, and only its lower half is axillary. That is why the sensory loss of an axillary lesion is a patch rather than a shoulder, and it is the most commonly examined single fact on this leaf.
+
+The intercostobrachial nerve is not a branch of the brachial plexus. It is the lateral cutaneous branch of the second intercostal nerve.
+
+Upper and lower lateral cutaneous nerves of the arm have different parents. The upper is from the posterior branch of the axillary nerve; the lower is from the radial nerve in the spiral groove. The names are nearly identical and the origins are not.
+
+The medial cutaneous nerves of the arm and of the forearm are two separate branches of the medial cord, not one nerve supplying both.
+
+The dorsum of the fingers is not all radial. The superficial radial nerve stops at the proximal halves of the lateral three and a half fingers; the distal halves are median, supplied by branches that have come round from the palmar side.
+
+The lateral cutaneous nerve of the forearm is the musculocutaneous nerve. A student who lists it without its parent has lost the fact that a motor nerve of the arm ends as a skin nerve of the forearm.
+## hold_these
+The back of the arm is supplied by the posterior cutaneous nerve of the arm from the radial nerve, from the deltoid tuberosity to the elbow.
+The medial side of the arm is supplied above by the intercostobrachial nerve, the lateral cutaneous branch of the 2nd intercostal nerve, which also covers the floor of the axilla, and below by the medial cutaneous nerve of the arm from the medial cord.
+The skin over the upper half of deltoid is supplied by the lateral supraclavicular nerve, C3 and C4, from the cervical plexus.
+The skin over the lower half of deltoid is supplied by the upper lateral cutaneous nerve of the arm, from the posterior branch of the axillary nerve.
+The lower lateral side of the arm is supplied by the lower lateral cutaneous nerve of the arm, from the radial nerve in the spiral groove.
+The forearm is supplied laterally by the lateral cutaneous nerve of the forearm from the musculocutaneous, medially by the medial cutaneous nerve of the forearm from the medial cord, and in the middle of the back by the posterior cutaneous nerve of the forearm from the radial.
+The palm is median over the lateral two-thirds and ulnar over the medial third, the thumb ball being lateral cutaneous nerve of the forearm.
+The dorsum of the hand is superficial radial over the lateral two-thirds and ulnar over the medial third.
+On the dorsal aspect of the lateral three and a half fingers the superficial radial nerve supplies the proximal halves and the median nerve the distal halves.
+Median branches overlap the whole superficial radial territory except a small triangular area on the dorsum of the web between thumb and index.
+## lose_the_mark
+Giving one nerve for the skin over the deltoid. The upper half is supraclavicular, C3 and C4; only the lower half is axillary.
+Calling the intercostobrachial nerve a branch of the brachial plexus. It is the lateral cutaneous branch of the 2nd intercostal nerve.
+Swapping the parents of the upper and lower lateral cutaneous nerves of the arm. Upper is axillary; lower is radial in the spiral groove.
+Naming the territories without their parent nerves. The question asks origin and territory for each, and a bare list of names answers half.
+Giving the whole dorsum of the lateral three and a half fingers to the radial nerve. Only the proximal halves; the distal halves are median.
+Forgetting the thumb ball exception in the palm. The proximal part of the thenar skin is supplied by the lateral cutaneous nerve of the forearm.
+Omitting the overlap. A wide paraesthesia with a tiny area of complete loss is a consequence of overlap, and the overlap is examined by name.
+## image_recommendations
+### diagram · Cutaneous nerve map of the whole upper limb, anterior and posterior views side by side, each territory tinted and labelled with its nerve and that nerve's parent, with the boundary across the middle of the deltoid drawn as a hard line between the supraclavicular and axillary territories
+Purpose: The answer is a map, and the single most examined fact on it is a boundary halfway down one muscle. A tinted map is the form the knowledge takes; a list of strips is a transcription of it that loses every adjacency.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Figs. 100 and 101 on Anatomy page 258, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-F4FC0C323C654E.
+### diagram · Cutaneous nerve supply of the hand, palm and dorsum, with the lateral two-thirds and medial third boundaries drawn on each, and the fingers shaded so the median territory on the distal dorsal halves of the lateral three and a half fingers is visibly different from the radial territory on their proximal halves
+Purpose: The hand's map has two boundaries that run in different directions — one along the hand and one across each finger — and prose has to describe them one at a time. One figure carries both, and the finger boundary is the one students consistently lose.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book Fig. 102 on Anatomy page 259
+Rights: newly drawn for this product, or CC-BY
+### diagram · The superficial radial territory on the dorsum of the hand with the median overlap drawn as a hatched layer over it, leaving the triangular autonomous area in the first web space unhatched
+Purpose: Overlap is why a wide paraesthesia accompanies a tiny area of complete loss, and hatching is exactly what shows two nerves supplying one patch of skin. A sentence asserts it; the figure demonstrates it.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn, following the department book's statement of the overlap and Fig. 115
+Rights: newly drawn for this product, or CC-BY
+Notes: The same plate is requested by ART-101-ANA-RADIAL-NERVE. One drawing serves both.
+## conflicts
+Whether the intercostobrachial nerve is the lateral cutaneous branch of the second intercostal nerve or of the second thoracic nerve. The department book's Axilla chapter calls it "the lateral cutaneous branch of the 2nd thoracic nerve"; its nerve supply chapter and both revision sources call it the lateral cutaneous branch of the second intercostal nerve. These name the same nerve — the second intercostal nerve is the ventral ramus of the second thoracic nerve — and the wording used here is the one the nerve supply chapter and the revisions share.
+## evidence_gaps
+The dermatomes of the upper limb are not stated anywhere in this article. The department book's "Segmental nerve supply of upper limb" section on page 260 consists of two figures with no text, so the values live only inside images the extraction could not read. This is a genuine gap in the corpus and the segmental map is a different question from the cutaneous map.
+No Kasr source states the cutaneous supply of the skin over the scapula, or of the back of the shoulder above the level of the deltoid tuberosity, beyond the posterior cutaneous nerve of the arm's stated territory.
+No Kasr source gives the root values of the individual cutaneous nerves, except the lateral supraclavicular nerve's C3 and C4.
+No Kasr source explains why territories overlap, only that they do and where the one exception is.
+The developmental explanation offered in Mechanism, that the cervical and thoracic territories at the top of the limb are skin the limb bud did not take over, is general embryological reasoning and is named in field_notes.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 9 "Cutaneous nerve supply of the upper limb and nerve injuries", PDF pages 257-269 — the whole map by region, the parent nerve of every branch, the palm, dorsum and finger territories, and the statement of the median overlap with its single exception, with Figs. 100 to 102 and 115. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapters 1, 4 and 5, PDF pages 153-162, 178-193 and 194-204 — the supraclavicular nerves from the cervical plexus, the intercostobrachial nerve as a content of the axilla, the medial cord's two cutaneous branches, and the musculocutaneous nerve becoming the lateral cutaneous nerve of the forearm.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 128, topic "Cutaneous innervation of the upper limb" — the same map region by region with the same parents, and the same statement of the overlap. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 7, "Model answer: cutaneous nerves of the hand and of the shoulder, axilla and arm" — the model answer to a past paper, which is the exact question this concept was drafted from.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, whose upper-limb short-answer questions carry 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Mechanism: The explanation that the supraclavicular and intercostobrachial territories are skin the limb bud never took over is general embryological knowledge, added to make an otherwise arbitrary map memorable. No Kasr source offers any explanation of the map's pattern.
+sections.Mechanism: The rule stated for the arm — back from the radial, medial from the chest wall above and the medial cord below, lateral from cervical plexus, axillary and radial in that order downwards — is this article's own summary of the book's six separate statements.
+sections.Clinical significance: The remark about axillary clearance leaving the medial upper arm numb is general clinical knowledge. The book states the intercostobrachial nerve's territory and names it as a content of the axilla, and does not connect the two.
+## notes
+Written as a new article rather than declared on ART-101-ANA-RADIAL-NERVE, which teaches the radial nerve's own three cutaneous branches thoroughly and teaches none of the other seven. Three of the strips here belong to that article's nerve and are cross-referenced to it; the other territories — supraclavicular, intercostobrachial, medial cord, axillary, musculocutaneous, median and ulnar — have no other home in the batch.
+
+---
+
+# Item
+## id
+ART-101-ANA-AXILLARY-NERVE
+## title
+The axillary nerve
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-EE022A2043C10F
+## related_articles
+ART-101-ANA-SHOULDER-SPACES-ROTATION: The quadrangular space is what this nerve passes through, and the deltoid and teres minor it supplies are described there with their attachments and actions.
+ART-101-ANA-RADIAL-NERVE: The other terminal branch of the posterior cord, taught to the same seven-part specification, and the nerve the lower triangular space carries while this one takes the quadrangular.
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES: The axillary nerve is one of the four nerves through which Erb's palsy paralyses its nine muscles, and deltoid and teres minor are two of them.
+## aliases
+Axillary nerve | Circumflex nerve | N. axillaris | Axillary nerve injury | Flat shoulder
+## reading_time
+10
+## summary
+The orientation sheet asks every named nerve for seven things, and for the axillary nerve six of them fit in a paragraph: it comes off the posterior cord, carries C5 and C6, crosses the quadrangular space, winds round the surgical neck of the humerus, and supplies two muscles and one patch of skin. The seventh — the effect of injury — is what the exam actually wants, and it follows from the course: the nerve is against bone at the surgical neck, so a dislocated shoulder or a fracture there takes it.
+## sections
+### Overview and position
+The axillary nerve, also called the circumflex nerve, is the smaller of the two terminal branches of the posterior cord of the brachial plexus. Its root value is C5 and C6.
+
+It begins in the axilla and it does not descend into the arm. It passes downwards and laterally, turns backwards at the lower border of subscapularis through the quadrangular space, and ends by winding round the back of the surgical neck of the humerus.
+
+Because it is a posterior-cord nerve, everything it supplies is on the extensor side: the department book states the rule that all branches of the lateral and medial cords supply the flexor side while all branches of the posterior cord supply the extensor side of the upper limb.
+
+### Structure
+The course is short and has three parts.
+
+In the axilla, the nerve arises from the posterior cord and passes downwards and laterally, below the capsule of the shoulder joint.
+
+At the lower border of subscapularis it turns backwards and passes through the quadrangular space, accompanied by the posterior circumflex humeral artery. Where it crosses, it gives an articular branch to the shoulder joint.
+
+Having emerged behind, it winds round the back of the surgical neck of the humerus and ends by dividing into two branches.
+
+The anterior branch continues round the surgical neck, deep to deltoid, and ends near the anterior border of that muscle, supplying it.
+
+The posterior branch gives a branch to teres minor, then curves round the posterior border of deltoid, pierces the deep fascia and continues as the upper lateral cutaneous nerve of the arm, supplying the skin over the lower half of the deltoid.
+
+So the branches are three in kind: articular to the shoulder joint, muscular to deltoid and teres minor, and cutaneous as the upper lateral cutaneous nerve of the arm.
+
+### Relations
+Every relation of this nerve is a place it can be injured, which is why the course is short and the clinical section is long.
+
+In the axilla it lies below the capsule of the shoulder joint. The department book states that below the joint the capsule is lax and forms a fold bulging downwards into the upper part of the axilla, directly related to the axillary nerve and the posterior circumflex humeral artery, and stretched when the arm is fully abducted. The nerve is therefore lying against the weakest part of the joint's capsule.
+
+In the quadrangular space it is bounded above by teres minor behind and subscapularis in front with the capsule of the shoulder joint, below by teres major, medially by the long head of triceps, and laterally by the surgical neck of the humerus. It travels with the posterior circumflex humeral vessels.
+
+Behind the surgical neck of the humerus it lies on bone, deep to deltoid. That is the relation the fracture reaches.
+
+In the axilla generally, the nerve is one of the structures a crutch pressed into the armpit compresses.
+
+### Blood supply, innervation and lymphatics
+What the axillary nerve supplies is asked as branch plus area.
+
+Muscles: deltoid, through the anterior branch and through the muscular part of the posterior branch, and teres minor, through the posterior branch. Two muscles, and no others.
+
+Joint: the shoulder joint, through an articular branch given as the nerve crosses the quadrangular space.
+
+Skin: the lower half of the deltoid, through the upper lateral cutaneous nerve of the arm, which is the continuation of the posterior branch. The upper half of the deltoid is supplied by the lateral supraclavicular nerve, C3 and C4, from the cervical plexus, and that boundary is what makes the sensory loss of an axillary lesion a patch rather than a shoulder.
+
+The artery that accompanies the nerve is the posterior circumflex humeral artery, a branch of the third part of the axillary artery, which arises at the lower border of subscapularis, runs backwards with the nerve through the quadrangular space, winds round the surgical neck and anastomoses with the anterior circumflex humeral artery. No Kasr source describes the vasa nervorum of the nerve itself.
+
+### Development
+Neither Kasr source describes the development of a peripheral nerve, and nothing is invented here.
+
+What the department book does give is the general rule from its embryology part: each somite's dermomyotome divides into a dorsal part, forming the skeletal muscle and dermis on the back of the vertebral column, and a ventral part, forming the skeletal muscles and dermis of the rest of the body, and the spinal nerve divides into dorsal and ventral primary rami to supply the divided dermomyotome. The roots of the brachial plexus are the ventral primary rami of C5 to T1, so the axillary nerve and everything it supplies belong to the ventral division.
+
+The dermatome values that would complete this account are inside two unreadable figures on page 260 of the department book, which is recorded in `evidence_gaps`.
+
+### Surface and imaging anatomy
+No Kasr source gives a surface marking line for the axillary nerve. Two bony landmarks stand in for one.
+
+The surgical neck of the humerus is the level at which the nerve crosses bone, and it lies just below the head, at the upper end of the shaft — the level at which a fracture is described as a fracture of the surgical neck.
+
+The lower half of the deltoid is the nerve's sensory territory, and it is found on the living shoulder as the lower half of the rounded contour the muscle makes. That patch is where sensation is tested after a shoulder injury.
+
+No Kasr source gives a radiographic or ultrasound appearance of the nerve. What the sources give radiologically is the two injuries: dislocation of the shoulder joint and fracture of the surgical neck of the humerus.
+
+### Clinical correlations
+The orientation sheet asks for the effect of injury by name, and this nerve's injury is one of the seven the department book sets out.
+
+The causes are three, and all three are places the course has already explained. Dislocation of the shoulder joint, because the nerve lies against the lax inferior part of the capsule which bulges into the axilla. Fracture of the surgical neck of the humerus, because the nerve is wound round that neck against bone. And pressure of a badly adjusted crutch in the armpit, because the nerve begins in the axilla. The VIP Academy revision specifies downward dislocation of the shoulder joint.
+
+The motor effect is impaired abduction of the shoulder and a flat shoulder. Abduction is lost through the range deltoid provides — from fifteen to ninety degrees — because deltoid is paralysed, and the rounded contour of the shoulder flattens as deltoid wastes, because deltoid is what makes that contour. Teres minor is also paralysed, and the department book gives it as a lateral rotator and a steadier of the humeral head in the glenoid cavity.
+
+The sensory effect is a patch of sensory loss over the lower half of the deltoid, which is the territory of the upper lateral cutaneous nerve of the arm.
+
+What is not lost matters as much. Abduction from zero to fifteen degrees is initiated by supraspinatus, supplied by the suprascapular nerve, and abduction beyond ninety degrees is scapular rotation by trapezius and serratus anterior. So an axillary lesion removes the middle of the range, not the whole of it.
+
+### Variations and anomalies
+No Kasr source describes any variation of the axillary nerve.
+## hold_these
+The axillary (circumflex) nerve arises in the axilla from the posterior cord, as the smaller of its two terminal branches; root value C5 and C6.
+It passes backwards at the lower border of subscapularis through the quadrangular space, with the posterior circumflex humeral artery, to the back of the surgical neck of the humerus.
+It gives an articular branch to the shoulder joint as it crosses the quadrangular space.
+Its anterior branch continues round the surgical neck to supply deltoid; its posterior branch supplies teres minor then becomes the upper lateral cutaneous nerve of the arm.
+It supplies two muscles only: deltoid and teres minor.
+It supplies the skin over the lower half of the deltoid; the upper half is supraclavicular, C3 and C4.
+Its causes of injury are dislocation of the shoulder joint, fracture of the surgical neck of the humerus, and crutch pressure in the armpit.
+Injury gives impaired abduction of the shoulder through the 15 to 90 degree range, a flat shoulder from deltoid wasting, and sensory loss over the lower half of the deltoid.
+The lax inferior fold of the shoulder joint capsule bulges into the upper axilla directly related to this nerve and the posterior circumflex humeral artery, and is stretched when the arm is fully abducted.
+Abduction is not lost entirely: supraspinatus still initiates 0 to 15 degrees and scapular rotation still carries the arm beyond 90.
+## lose_the_mark
+Reporting total loss of abduction. Supraspinatus initiates the first fifteen degrees and the scapular rotators act above ninety; it is the middle range that goes.
+Giving the root value as C5 to T1. The axillary nerve is C5 and C6.
+Saying the sensory loss covers the shoulder. It is a patch over the lower half of deltoid only, because the upper half is supraclavicular.
+Naming deltoid alone as the muscle supplied. Teres minor is the second and is regularly dropped.
+Placing the nerve in the lower triangular space. That space carries the radial nerve and the profunda brachii vessels; the axillary nerve takes the quadrangular space.
+Omitting the articular branch to the shoulder joint. It is one of the three kinds of branch.
+Giving the injury without the three causes. Dislocation, fracture of the surgical neck and crutch pressure are all named by the department book.
+Calling the nerve the larger terminal branch of the posterior cord. The radial nerve is the larger; the axillary is the smaller.
+## image_recommendations
+### anatomy plate · Posterior view of the shoulder with deltoid reflected, showing the axillary nerve emerging from the quadrangular space with the posterior circumflex humeral artery, winding round the surgical neck of the humerus, and dividing into an anterior branch running on under deltoid and a posterior branch giving teres minor and emerging at the posterior border of deltoid as the upper lateral cutaneous nerve of the arm
+Purpose: The whole clinical account depends on the nerve lying against one named part of one bone, and on its terminal division happening there. A dissection view with deltoid reflected is the only way to see a course that is otherwise entirely hidden by the muscle it supplies.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book Fig. 107 on Anatomy page 263 and Figs. 25 and 26 on page 177
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-EE022A2043C10F.
+### diagram · Coronal section of the shoulder joint with the arm at rest and again fully abducted, showing the lax inferior fold of the capsule bulging into the upper axilla in the first and stretched over the axillary nerve and posterior circumflex humeral artery in the second, with the head of the humerus drawn displacing downwards in a third panel
+Purpose: The reason a dislocated shoulder injures this nerve and no other is a relation between a weak point of a capsule and a nerve lying under it. Three panels turn the department book's one sentence into the mechanism the question is really asking about.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book's Joints of Upper Limb chapter statement on the inferior capsular fold, Anatomy pages 270-291
+Rights: newly drawn for this product, or CC-BY
+### clinical photograph · A patient with a flat shoulder from deltoid wasting after an axillary nerve injury, shown beside the normal rounded contour on the other side, with the area of sensory loss over the lower half of the deltoid outlined
+Purpose: A flattened contour is recognised by comparison and not by description, and the sensory patch is a boundary halfway down a muscle. Showing both on one patient makes the two halves of the lesion one picture.
+Priority: strongly helpful
+Status: needed
+Kind: clinical photograph
+Section: Clinical correlations
+Source direction: openly licensed clinical teaching set, with consent recorded
+Rights: must be CC-BY or public domain, with patient consent recorded
+### diagram · Abduction of the arm drawn as a bar from 0 to 180 degrees with the three ranges coloured and labelled by muscle and nerve — supraspinatus and suprascapular nerve to 15, deltoid and axillary nerve to 90, trapezius and serratus anterior with accessory and long thoracic nerves to 180 — and the axillary segment struck through
+Purpose: The pitfall this article exists to correct is reporting total loss of abduction. A single bar with one segment removed shows exactly what an axillary lesion costs and exactly what survives.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn for this product, from the department book's stated ranges
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+The direction of the dislocation. The department book states that axillary nerve injury is frequent in dislocation of the shoulder joint, without specifying a direction. The VIP Academy Upper Limb revision specifies downward dislocation. Both are given above, the book's general statement first.
+Whether the nerve passes below the capsule of the shoulder joint or through the quadrangular space first. The department book's Axilla chapter says it passes downwards and laterally and, at the lower border of subscapularis, backwards through the quadrangular space; the VIP Academy revision says it passes backwards below the capsule of the shoulder joint through the quadrangular space. These describe the same course from two reference points and both wordings are used above.
+## evidence_gaps
+The dermatome values of the upper limb are not stated in this article. The department book's segmental nerve supply section on page 260 is two figures with no text, so the values live only inside images the extraction could not read.
+No Kasr source describes the development of a peripheral nerve, the vasa nervorum of the axillary nerve, or its internal fascicular anatomy.
+No Kasr source gives a surface marking line for the axillary nerve, unlike the brachial artery, for which a surface line is stated.
+No Kasr source gives a recovery time, a prognosis, or any management for axillary nerve injury; only causes, motor effects and sensory effects are stated.
+No Kasr source names quadrilateral space syndrome or any compressive neuropathy of this nerve, and neither is mentioned here.
+No Kasr source states that teres minor's paralysis has any detectable effect. The muscle is named as paralysed and its actions are given from the muscle chapter; no source says what its loss looks like.
+No independent citation has been attached to any statement in this article. Three Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the axillary nerve as a branch of the posterior cord with root value C5 and C6, its course through the quadrangular space, its articular branch, and its anterior and posterior terminal branches with what each supplies; the posterior circumflex humeral artery; and the flexor/extensor rule for the cords. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9 "Cutaneous nerve supply of the upper limb and nerve injuries", PDF pages 257-269 — the three causes of axillary nerve injury and its motor and sensory effects, and the cutaneous map that makes the deltoid boundary examinable, with Fig. 107.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — deltoid and teres minor with their attachments, nerve supply and actions, the ranges of abduction, and the boundaries and contents of the quadrangular space.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 11 "Joints of Upper Limb", PDF pages 270-291 — the lax inferior capsular fold bulging into the upper axilla in direct relation to the axillary nerve and the posterior circumflex humeral artery, and the mechanism of abduction.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 42, topic "Axillary (circumflex) nerve; axillary artery course and parts" — the same origin, root value, course and branches, and the three causes of injury with downward dislocation specified. Extracted to scripts/kasr/extract/notes.json.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Nerves: Brachial plexus, Median, Radial, Ulnar, Axillary, Musculo-cutaneous nerves (origin, root value, end, course, name of branches with areas supplied by these branches and the effect of injury)", with four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+sections.Relations: Reading each relation as a site of injury is this article's own organising device. Every relation and every cause is the department book's; the correspondence between them is drawn here.
+sections.Clinical correlations: The final paragraph, on what abduction survives an axillary lesion, assembles the department book's three stated ranges from three different chapters. The book gives the ranges and gives the injury, and does not put them together.
+sections.Development: The section states the department book's general somite and ventral-ramus rule and says in its own text that the book does not derive a peripheral nerve, exactly as ART-101-ANA-RADIAL-NERVE does for the same reason.
+## notes
+Written as a separate article rather than by extending ART-101-ANA-RADIAL-NERVE into a general nerve-injuries article. The orientation sheet names the axillary nerve in its own right and demands the same seven-part answer it demands for the radial nerve — origin, root value, end, course, branches, areas supplied, effect of injury — so the honest shape is a peer article to that one, built to the same specification. Folding it into an article titled "The radial nerve" would have made that article's title false and would have buried a seven-mark answer inside another nerve's clinical section.
+
+---
+
+# Item
+## id
+ART-101-ANA-MUSCULOCUTANEOUS-NERVE
+## title
+The musculocutaneous nerve
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-F125616F7ED37A
+## related_articles
+ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES: The lateral cutaneous nerve of the forearm is this nerve's own continuation, and its territory is one strip of that map.
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES: Erb's palsy paralyses biceps, brachialis and coracobrachialis through this nerve, which is why the elbow is extended and the forearm pronated.
+ART-101-ANA-BRACHIAL-ARTERY: The nerve descends lateral to the third part of the axillary artery and the uppermost part of the brachial artery before it leaves them for coracobrachialis.
+## aliases
+Musculocutaneous nerve | Musculo-cutaneous nerve | Lateral cutaneous nerve of the forearm | N. musculocutaneus
+## reading_time
+8
+## summary
+The name is the answer. This nerve is muscular in the arm and cutaneous in the forearm: it supplies the three muscles of the front of the arm, then pierces the deep fascia an inch above the elbow and becomes the lateral cutaneous nerve of the forearm. The two things students lose are the third root, C7, and the small lateral part of brachialis that the radial nerve takes instead.
+## sections
+### Overview and position
+The musculocutaneous nerve arises in the axilla, from the lateral cord of the brachial plexus. Its root value is C5, C6 and C7.
+
+It runs the length of the anterior compartment of the arm, supplying its three muscles, and then leaves the arm as a purely cutaneous nerve of the forearm. It does not enter the hand and it supplies no joint of the wrist.
+
+Because it is a lateral cord nerve, everything it supplies is on the flexor side: the department book states that all branches of the lateral and medial cords supply the flexor side, while all branches of the posterior cord supply the extensor side.
+
+### Structure
+The course has four stages and a name change.
+
+In the axilla it descends lateral to the third part of the axillary artery, and then lateral to the uppermost part of the brachial artery.
+
+It pierces coracobrachialis. That is the single fact by which this nerve is identified in a dissection, and it is the reason coracobrachialis is sometimes described as perforated.
+
+Having emerged from that muscle, it descends obliquely between biceps in front and brachialis behind, supplying the three muscles as it passes.
+
+About one inch above the elbow it pierces the deep fascia at the lateral border of the tendon of biceps and becomes superficial, continuing as the lateral cutaneous nerve of the forearm.
+
+The branches are of two kinds. Muscular branches supply coracobrachialis, biceps and brachialis — with the qualification that a small lateral part of brachialis is supplied by a twig from the radial nerve instead. And the cutaneous continuation, the lateral cutaneous nerve of the forearm, divides into an anterior and a posterior branch, which supply the skin of the lateral side of the forearm, front and back, down to the wrist, and the skin of the upper part of the ball of the thumb.
+
+### Relations
+In the axilla the nerve lies lateral to the third part of the axillary artery, which is the part around which the branches of all three cords are distributed.
+
+In the upper arm it lies lateral to the uppermost part of the brachial artery, and it leaves that relation by turning into coracobrachialis while the artery continues down the medial side.
+
+Within the arm it lies between two muscles it supplies, biceps superficially and brachialis deep, running obliquely from medial above to lateral below.
+
+At the elbow it emerges at the lateral border of the biceps tendon. The other structures at that level are the contents of the cubital fossa — from medial to lateral, the median nerve, the end of the brachial artery, the tendon of biceps, and the radial nerve — and this nerve has already left the fossa's territory by piercing the deep fascia lateral to that tendon.
+
+### Blood supply, innervation and lymphatics
+What the nerve supplies, as branch plus area.
+
+Muscles: coracobrachialis, biceps brachii and brachialis — the whole flexor group of the arm, except a small lateral part of brachialis supplied by the radial nerve.
+
+Skin: through the lateral cutaneous nerve of the forearm and its anterior and posterior branches, the skin of the lateral side of the forearm front and back to the wrist, and the skin of the upper part of the ball of the thumb. That thumb-ball territory is the exception inside the palm's map, where the rest of the lateral two-thirds is median.
+
+No Kasr source states that this nerve supplies any joint, and no Kasr source describes its vasa nervorum.
+
+### Development
+No Kasr source describes the development of a peripheral nerve. The department book's general rule applies: the roots of the brachial plexus are the ventral primary rami of C5 to T1, so this nerve and everything it supplies belong to the ventral division of the dermomyotome. The dermatome values that would complete the account are inside two unreadable figures on page 260 of the book, which is recorded in `evidence_gaps`.
+
+### Surface and imaging anatomy
+No Kasr source gives a surface marking line for the musculocutaneous nerve.
+
+One landmark is stated and is usable: the nerve becomes superficial about one inch above the elbow, at the lateral border of the tendon of biceps. That tendon can be made prominent by resisted elbow flexion, and the point just lateral to it an inch above the joint is where the nerve crosses from the deep to the superficial plane.
+
+No Kasr source gives a radiographic or ultrasound appearance of the nerve.
+
+### Clinical correlations
+The department book's nerve injury chapter describes seven injuries and this nerve is not one of them. That is a genuine silence and it is recorded in `evidence_gaps` rather than filled from elsewhere.
+
+What the corpus does state about this nerve clinically is indirect, and it is examinable. In Erb's paralysis, injury of the upper trunk at C5 and C6, biceps, brachialis and coracobrachialis are paralysed through the musculocutaneous nerve. Two components of the porter's tip deformity follow from that: the elbow is extended, because biceps and most of brachialis are gone, and the forearm is pronated, because biceps is gone and biceps is the powerful supinator of the flexed elbow.
+
+The same fact appears from the other side in radial nerve injury. Failure of supination there is failure of supination of the extended forearm only, because supinator is radial and biceps — musculocutaneous — still supinates the flexed elbow. The two nerves cover the movement between them, and which one is out is tested by the position of the elbow.
+
+### Variations and anomalies
+No Kasr source describes any variation of the musculocutaneous nerve, its communication with the median nerve, or a case in which it fails to pierce coracobrachialis. None is invented here.
+## hold_these
+The musculocutaneous nerve arises in the axilla from the lateral cord of the brachial plexus; root value C5, C6 and C7.
+It descends lateral to the third part of the axillary artery and the uppermost part of the brachial artery.
+It pierces coracobrachialis, then descends obliquely between biceps and brachialis.
+About one inch above the elbow it pierces the deep fascia at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm.
+Its muscular branches supply coracobrachialis, biceps and brachialis — the flexor group of the arm.
+A small lateral part of brachialis is supplied by a twig from the radial nerve, not by this nerve.
+The lateral cutaneous nerve of the forearm divides into anterior and posterior branches supplying the skin of the lateral forearm front and back to the wrist.
+It also supplies the skin of the upper part of the ball of the thumb, which is the exception in the median territory of the palm.
+All branches of the lateral and medial cords supply the flexor side of the limb; all branches of the posterior cord supply the extensor side.
+Biceps is the powerful supinator of the flexed elbow, which is why its loss in Erb's palsy leaves the forearm pronated.
+## lose_the_mark
+Giving the root value as C5 and C6. The department book carries C7 as well.
+Saying the nerve supplies the whole of brachialis. A small lateral part is supplied by a twig from the radial nerve.
+Naming the muscles without the cutaneous continuation. The nerve is called musculocutaneous because it is both, and the lateral cutaneous nerve of the forearm is half the answer.
+Forgetting that it pierces coracobrachialis. That is the identifying feature of its course.
+Omitting the thumb-ball territory. The upper part of the ball of the thumb is supplied by this nerve, not by the median.
+Placing its exit from the deep fascia at the elbow. It is about one inch above the elbow, at the lateral border of the biceps tendon.
+Listing an effect of injury from the department book. The book describes seven nerve injuries and this nerve is not among them; what is stated is its share in Erb's palsy.
+## image_recommendations
+### anatomy plate · Anterior view of the arm with biceps reflected, showing the musculocutaneous nerve leaving the lateral cord, piercing coracobrachialis, running obliquely between biceps and brachialis with muscular branches to all three, and piercing the deep fascia an inch above the elbow at the lateral border of the biceps tendon to continue as the lateral cutaneous nerve of the forearm
+Purpose: The nerve is identified by one event — piercing a muscle — and defined by one transition, from muscular to cutaneous. Both are things that happen at a place, and a dissection view carries them where a list of branches does not.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Arm chapter, Anatomy pages 194-204
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-F125616F7ED37A, whose exam question asked for origin, root value and branches.
+### diagram · The lateral cutaneous nerve of the forearm's territory drawn on anterior and posterior views of the forearm, with its anterior and posterior branches shown dividing, and the upper part of the ball of the thumb shaded separately inside the median territory of the palm
+Purpose: The thumb-ball exception is a small island of one nerve's territory inside another's, which is exactly the kind of fact prose states and readers forget. Shading it inside the palm map is the only form in which it is memorable.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Blood supply, innervation and lymphatics
+Source direction: purpose-drawn, following the department book Figs. 100 to 102 on Anatomy pages 258-259
+Rights: newly drawn for this product, or CC-BY
+### diagram · Supination shown twice — the elbow flexed with biceps acting through the musculocutaneous nerve, and the elbow extended with supinator acting through the posterior interosseous nerve — with the two nerves colour-coded
+Purpose: The clinically useful fact is that two different nerves supinate at two different elbow positions, and that this is how the two lesions are told apart. One paired figure makes a testing manoeuvre out of two separate statements.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn for this product, from the department book's Joints of Upper Limb chapter statements on the supinators
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Which part of brachialis the radial nerve takes. The department book's Arm chapter says the flexor group is supplied by the musculocutaneous nerve "with the small lateral part of brachialis also supplied by a twig from the radial nerve", and its account of the radial nerve lists a branch to "a small lateral part of brachialis". The VIP Academy revision says the musculocutaneous nerve supplies brachialis "except a small lateral part". All three wordings agree and the exception is preserved above.
+## evidence_gaps
+No Kasr source describes any injury of the musculocutaneous nerve, its causes, its motor effects or its sensory effects. The department book's nerve injury chapter covers seven nerves and this is not one of them, although the orientation sheet names it among the nerves examined and asks for "the effect of injury" for each. This is the most consequential gap on this article and the Clinical correlations section says so in its own text.
+No Kasr source gives a surface marking line for the nerve.
+No Kasr source states whether the nerve gives articular branches to the elbow joint.
+No Kasr source describes any variation of the nerve, including the common communication with the median nerve.
+No Kasr source describes the vasa nervorum or the internal fascicular anatomy of the nerve.
+The dermatome values of the upper limb are not stated in this article; the department book's segmental nerve supply section on page 260 is two figures with no text.
+No independent citation has been attached to any statement in this article. Two Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 5 "Arm", PDF pages 194-204 — the origin, root value C5, C6 and C7, the course lateral to the axillary and brachial arteries, the piercing of coracobrachialis, the descent between biceps and brachialis, the muscular branches with the brachialis exception, and the piercing of the deep fascia one inch above the elbow to become the lateral cutaneous nerve of the forearm with its two branches and their territory. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the musculocutaneous nerve as a branch of the lateral cord, and the flexor/extensor rule for the cords.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9, PDF pages 257-269 — the lateral cutaneous nerve of the forearm's place in the cutaneous map, and Erb's palsy, in which this nerve's three muscles are paralysed.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 11, PDF pages 270-291 — biceps as the most powerful supinator of the flexed elbow and supinator as the main supinator of the extended elbow.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 52, topic "Musculocutaneous nerve and brachial artery" — the same origin, root value, course and branches, with the brachialis exception stated the same way. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 5, "Model answer: musculocutaneous nerve and radial nerve in axilla and arm" — the model answer to a past paper on this nerve.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which names the musculo-cutaneous nerve among the nerves examined for "origin, root value, end, course, name of branches with areas supplied by these branches and the effect of injury". Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the absence of any stated effect of injury — which the orientation sheet demands — is a second reason.
+sections.Surface and imaging anatomy: The manoeuvre of resisted elbow flexion to raise the biceps tendon is general clinical practice, offered only as a way of finding a landmark the sources do state.
+sections.Clinical correlations: The section is explicitly built from what the corpus says about this nerve elsewhere, because the corpus states no injury of it. Both paragraphs assemble statements the department book makes in other chapters, and the assembly is this article's own.
+sections.Development: Stated as an absence with the book's general rule, exactly as ART-101-ANA-RADIAL-NERVE and ART-101-ANA-AXILLARY-NERVE do, because the same silence covers all three.
+## notes
+The orientation sheet asks this nerve for seven things and the department book supplies six. The seventh, the effect of injury, is missing from the corpus for this nerve alone among the six named ones, and the article states that rather than importing a lesion from a general textbook.
