@@ -137,10 +137,25 @@ export function parseAcademicOutline(
     return uniqueModuleId(written)
   }
 
+  // An outline usually opens with a comment saying where it came from, and
+  // those run to many lines. Skipping only the line that starts `<!--` reported
+  // every other line of the note as unrecognised, which buried the real errors
+  // under twenty false ones.
+  let inComment = false
+
   markdown.split('\n').forEach((raw, idx) => {
     const line = raw.trim()
     const lineNo = idx + 1
-    if (!line || line.startsWith('<!--')) return
+
+    if (inComment) {
+      if (line.includes('-->')) inComment = false
+      return
+    }
+    if (line.startsWith('<!--')) {
+      if (!line.includes('-->')) inComment = true
+      return
+    }
+    if (!line) return
 
     if (line.startsWith('## ')) {
       if (!curYear) { errors.push(`Line ${lineNo}: term "${line.slice(3)}" has no year above it.`); return }

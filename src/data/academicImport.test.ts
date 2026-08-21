@@ -177,3 +177,27 @@ describe('The Kasr Year 1 structure the corpus states', () => {
     assert.equal(out.resolvedShorthand.length, 5)
   })
 })
+
+describe('An outline may explain itself', () => {
+  test('a multi-line HTML comment is skipped whole', () => {
+    // Found by writing a real one: skipping only the line that opens `<!--`
+    // reported every other line of the note as unrecognised, and buried the
+    // real errors under twenty false ones.
+    const out = parseAcademicOutline(`<!--
+  Where this came from, and why the marks are what they are.
+  Several lines of it, including a - dash and a # hash.
+-->
+
+# Year 1
+- Module [101 ISK]
+  - Anatomy`, { universityShort: 'KAU', knownModuleIds: KASR })
+    assert.deepEqual(out.errors, [])
+    assert.equal(out.subjectCount, 1)
+  })
+
+  test('a one-line comment is still skipped', () => {
+    const out = parseAcademicOutline('<!-- a note -->\n# Year 1\n- Module [101 ISK]',
+      { universityShort: 'KAU', knownModuleIds: KASR })
+    assert.deepEqual(out.errors, [])
+  })
+})
