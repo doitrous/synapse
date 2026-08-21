@@ -29,10 +29,24 @@ itself is the same failure as one deleted and is harder to see. Counting is the
 `---`-separated-chunks-containing-`# Item` rule the ledgers use, so the two
 agree by construction.
 
-**This cannot tell you the ledger is right.** A ledger regenerated after a loss
-records the loss as normal, which is why it is committed with the batches and
-should be regenerated deliberately rather than as a habit. What it catches is
-the tree drifting away from a record made when the work was known good.
+**This cannot tell you the ledger is right, and it fails in both directions.**
+
+A ledger regenerated *after* a loss records the loss as normal, and the missing
+rows stop being missing. So **run this before regenerating a ledger, not after**
+— once regenerated, the shortfall is gone as a fact and not only as content.
+
+The converse happened too, and is subtler. A ledger regenerated from a working
+tree records what is in that tree, committed or not. `101 ISK`'s ledger went
+from 1,123 claims to 1,134 in a commit that touched **only the two coverage
+files** and neither batch, so eleven claims and three citations were counted at
+regeneration and never committed. The ledger is now the only evidence they were
+ever written. That is not a deletion and this script cannot tell the two apart:
+it reports a disagreement between a record and a tree, and which one is wrong is
+a question for whoever owns the module.
+
+Both failures have one cause — the ledger and the batches were written at
+different moments. They are committed together for that reason, and regenerating
+one without the other is what breaks the guarantee.
 """
 import os
 import re
