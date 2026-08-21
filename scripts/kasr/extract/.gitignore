@@ -38,3 +38,9 @@ pagetext-eom/
 108-INT/pagetext-ocr/
 108-INT/highlights/
 sitting-rows/
+
+# The 102 INT MCQ extractor re-OCRs the four question books at 400 dpi, because
+# at the default resolution the printed answer-key grids lose about a fifth of
+# their cells. Same reasoning as `pagetext/` above: a cache, regenerable from
+# the PDFs, and `mcq-bank.json` beside it is the result and is tracked.
+102-INT/pagetext-400/

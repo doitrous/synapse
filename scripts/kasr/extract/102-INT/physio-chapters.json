@@ -1,0 +1,581 @@
+[
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Introduction",
+  "bookTitle": "Introduction",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 115,
+  "physicalEnd": 120,
+  "printedStart": 2,
+  "printedEnd": 7,
+  "excludedFromWrittenExam": true,
+  "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102' names '- INTRODUCTION', '- BODY FLUIDS' and '- HOMEOSTASIS'. Cancelled for the written paper only; still taught and still examined practically.",
+  "evidence": "Part II contents, physical p113, 'Introduction 2' | body headings 'INTRODUCTION' and 'BODY FLUIDS' on physical p115 and 'HOMEOSTASIS' on physical p118 | running head 'Hemopoietic System', page foot prints 2 on p115",
+  "yearBookChapters": [],
+  "conflict": "Presence conflict. The module book opens its physiology half with this chapter (printed 2-6: what is physiology, body fluids and their compartments, homeostasis and control systems). The year book src_bfeed7a91f343a86b255 has no counterpart anywhere in its 102 half (physical 9-74); it carries the same material inside its BMS-103 section instead, at physical p79-p81 ('INTRODUCTION / What is physiology?', the ICF/ECF/IVF/ISF compartments, and the heading 'Homeostasis:'). The two books disagree about which module owns this material. Not resolved: the exam orientation lists INTRODUCTION, BODY FLUIDS and HOMEOSTASIS under '102 / HEMOPOIETIC SYSTEM', which agrees with the module book, but the year book files the pages under 103. Recorded here under 102 following the module book and the orientation; no year-book page was pulled across."
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > General functions and blood components",
+  "bookTitle": "General functions and blood components",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 120,
+  "physicalEnd": 121,
+  "printedStart": 7,
+  "printedEnd": 8,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'General functions and blood components 7' | body heading 'BLOOD' on physical p120 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "General function & components",
+    "bookTitle": "Blood",
+    "physicalStart": 9,
+    "physicalEnd": 10,
+    "printedStart": 1,
+    "printedEnd": 2,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents (Module INT-102 · Blood) on physical p7, 'General function & components 1' | centred chapter heading 'Blood' on physical p9 | running head 'Hemopoietic System' pp9-49"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Plasma proteins",
+  "bookTitle": "Plasma proteins",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 121,
+  "physicalEnd": 123,
+  "printedStart": 8,
+  "printedEnd": 10,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'Plasma proteins 8' | body heading 'PLASMA' on physical p121, with 'Site of Formation of Plasma Proteins:' on p122 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Plasma",
+    "bookTitle": "Plasma",
+    "physicalStart": 10,
+    "physicalEnd": 14,
+    "printedStart": 2,
+    "printedEnd": 6,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Plasma 2' | centred chapter heading on physical p10"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > RBCs and haemoglobin",
+  "bookTitle": "RBCs and Hemoglobin",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 123,
+  "physicalEnd": 125,
+  "printedStart": 10,
+  "printedEnd": 12,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'RBCs and Hemoglobin 10' | body heading 'RED BLOOD CORPUSCLES (ERYTHROCYTES / RBCs)' on physical p123 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Red blood corpuscles",
+    "bookTitle": "Red Blood Corpuscles (Erythrocytes/RBC'S)",
+    "physicalStart": 14,
+    "physicalEnd": 15,
+    "printedStart": 6,
+    "printedEnd": 7,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'RBCs 6' | centred chapter heading on physical p14"
+   },
+   {
+    "title": "Haemoglobin",
+    "bookTitle": "Hemoglobin",
+    "physicalStart": 15,
+    "physicalEnd": 18,
+    "printedStart": 7,
+    "printedEnd": 10,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, '- Hemoglobin 7' | bold heading on physical p15 (extracted as 'He.,-.oglobin')"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Erythropoiesis",
+  "bookTitle": "Erythropoiesis",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 125,
+  "physicalEnd": 127,
+  "printedStart": 12,
+  "printedEnd": 14,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'Erythropoiesis 12' | body heading 'ERYTHROPOIESIS' on physical p125 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Erythropoiesis",
+    "bookTitle": "Erythropoisis",
+    "physicalStart": 18,
+    "physicalEnd": 21,
+    "printedStart": 10,
+    "printedEnd": 13,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Erythropoiesis 10' | centred chapter heading on physical p18, which the book misspells 'Erythropoisis'"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Iron",
+  "bookTitle": "Iron",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 127,
+  "physicalEnd": 131,
+  "printedStart": 14,
+  "printedEnd": 18,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'Iron 14' | body heading 'IRON' on physical p127 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Iron",
+    "bookTitle": "Iron",
+    "physicalStart": 21,
+    "physicalEnd": 25,
+    "printedStart": 13,
+    "printedEnd": 17,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Iron 13' | centred chapter heading on physical p21"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Vitamin B12 and folic acid",
+  "bookTitle": "Vitamin B12 and Folic acid",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 131,
+  "physicalEnd": 132,
+  "printedStart": 18,
+  "printedEnd": 19,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'Vitamin B12 and Folic acid 18' | body headings 'VITAMINS' and 'VITAMIN B12' on physical p131 and 'FOLIC ACID' on physical p132 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Vitamins",
+    "bookTitle": "Vitamins",
+    "physicalStart": 25,
+    "physicalEnd": 27,
+    "printedStart": 17,
+    "printedEnd": 19,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Vitamins 17' | centred chapter heading on physical p25"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Anaemia",
+  "bookTitle": "Anemia",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 132,
+  "physicalEnd": 134,
+  "printedStart": 19,
+  "printedEnd": 21,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": "PARTIAL. Orientation src_701b6db49a7c01d79428 p1 names '-POLYCYTHEMIA' among the topics not included in the final theoretical exam. In this book polycythaemia is not a chapter: it is a body heading 'POLYCYTHEMIA' on physical p133 (printed 20), inside this chapter and absent from the Part II contents. The chapter as a whole is NOT excluded - anaemia itself is examinable - so the flag is false and the exclusion is recorded here instead of being applied to the record.",
+  "evidence": "Part II contents, physical p113, 'Anemia 19' | body heading 'ANEMIA' on physical p132 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Anaemia",
+    "bookTitle": "Anemia",
+    "physicalStart": 27,
+    "physicalEnd": 30,
+    "printedStart": 19,
+    "printedEnd": 22,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Anemia 19' | centred chapter heading on physical p27"
+   },
+   {
+    "title": "Polycythaemia",
+    "bookTitle": "Polycythemia",
+    "physicalStart": 30,
+    "physicalEnd": 31,
+    "printedStart": 22,
+    "printedEnd": 23,
+    "excludedFromWrittenExam": true,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Polycythemia 22' | bold heading 'Polycythemia:' on physical p30",
+    "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102 / HEMOPOIETIC SYSTEM / -POLYCYTHEMIA'. Cancelled for the written paper only; still taught and still examined practically."
+   }
+  ],
+  "conflict": "Boundary conflict with an exclusion consequence. The year book makes 'Polycythemia' its own chapter (physical 30-31, printed 22-23) and the previous pass flagged that chapter excludedFromWrittenExam: true. The module book folds the same material into Anemia as an unlisted body heading on physical p133. Under the module tree there is no node that can carry the exclusion flag on its own, so a boolean at chapter level cannot express it. Not resolved: both positions stand - the year book's separate excluded chapter, and the module book's merged examinable one."
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Platelets and haemostasis",
+  "bookTitle": "Platelets and Hemostasis",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 134,
+  "physicalEnd": 140,
+  "printedStart": 21,
+  "printedEnd": 27,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'Platelets and Hemostasis 21' | body headings 'PLATELETS' and 'HEMOSTASIS' both on physical p134 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Platelets",
+    "bookTitle": "Platelets",
+    "physicalStart": 31,
+    "physicalEnd": 33,
+    "printedStart": 23,
+    "printedEnd": 25,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Platelets 23' | centred chapter heading on physical p31"
+   },
+   {
+    "title": "Haemostasis",
+    "bookTitle": "Hemostasis",
+    "physicalStart": 33,
+    "physicalEnd": 40,
+    "printedStart": 25,
+    "printedEnd": 32,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Hemostasis 25' | centred chapter heading on physical p33"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Physiological limitations of blood coagulation",
+  "bookTitle": "Physiological limitations of blood coagulation",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 140,
+  "physicalEnd": 141,
+  "printedStart": 27,
+  "printedEnd": 28,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'Physiological limitations of blood coagulation 27' | body heading 'PHYSIOLOGICAL LIMITATIONS OF BLOOD COAGULATION' on physical p140, opening 'What prevents intravascular clotting?' | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Anticlotting mechanisms",
+    "bookTitle": "Anti-Clotting Mechanisms",
+    "physicalStart": 40,
+    "physicalEnd": 41,
+    "printedStart": 32,
+    "printedEnd": 33,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Anticlotting mechanisms 32' | centred chapter heading on physical p40"
+   }
+  ],
+  "conflict": "Naming and boundary conflict, and the one that matters most for the paper. The 2025 end-of-year paper src_f90429f7c288986e68b5 p9 asks, verbatim, 'Explain physiological limitations of blood coagulation {9 Marks}' - the module book's chapter title. The year book has no chapter of that name: it prints 'Anti-Clotting Mechanisms' on physical p40 (printed 32) and splits the same content differently, giving 'A. General limiting reactions' (3 items) and 'B. Specific limiting reactions' (3 items), while the module book gives one numbered list of 6 (healthy endothelium, heparin, the liver, continuous normal flow rate, the TXA2/prostacyclin balance, the fibrinolytic system). The year book also carries part of the answer back in its 'Hemostasis' chapter. Not resolved: the year book's two-group split is real and is preserved in yearBookChapters."
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Anticoagulants",
+  "bookTitle": "Anticoagulants",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 141,
+  "physicalEnd": 142,
+  "printedStart": 28,
+  "printedEnd": 29,
+  "excludedFromWrittenExam": true,
+  "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102' names '- ANTICOAGULANTS'. Cancelled for the written paper only; still taught and still examined practically.",
+  "evidence": "Part II contents, physical p113, 'Anticoagulants 28' | body heading 'ANTICOAGULANTS' on physical p141, followed by the Heparin/Dicumarol comparison table (Table 3) on physical p142 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Anticoagulants",
+    "bookTitle": "Anticoagulants",
+    "physicalStart": 41,
+    "physicalEnd": 42,
+    "printedStart": 33,
+    "printedEnd": 34,
+    "excludedFromWrittenExam": true,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Anticoagulants 33' | centred chapter heading on physical p41",
+    "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102 / HEMOPOIETIC SYSTEM / - ANTICOAGULANTS'. Cancelled for the written paper only; still taught and still examined practically."
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Abnormalities of haemostasis",
+  "bookTitle": "Abnormalities of Hemostasis",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 142,
+  "physicalEnd": 144,
+  "printedStart": 29,
+  "printedEnd": 31,
+  "excludedFromWrittenExam": true,
+  "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102' names '- ABNORMALITIES OF HEMOSTASIS'. Cancelled for the written paper only; still taught and still examined practically.",
+  "evidence": "Part II contents, physical p113, 'Abnormalities of Hemostasis 29' | body heading 'ABNORMALITIES OF HEMOSTASIS' on physical p142 | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Abnormalities of haemostasis",
+    "bookTitle": "Abnormalities of Hemostasis",
+    "physicalStart": 42,
+    "physicalEnd": 44,
+    "printedStart": 34,
+    "printedEnd": 36,
+    "excludedFromWrittenExam": true,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Abnormalities of hemostasis 34' | centred chapter heading on physical p42",
+    "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102 / HEMOPOIETIC SYSTEM / - ABNORMALITIES OF HEMOSTASIS'. Cancelled for the written paper only; still taught and still examined practically."
+   }
+  ],
+  "conflict": "Presence conflict, recorded here because the missing material sits immediately after this chapter in the year book. The year book has a chapter 'Leucocytes (White Blood Cells WBCs)' at physical 44-46 (printed 36-38), between its 'Abnormalities of hemostasis' and its 'Blood groups'. The module book has no leucocyte chapter at all: 'Leucocytes' appears nowhere in Part II, and WBCs are mentioned only three times in passing (physical p120 in the list of blood cells, p133 under polycythaemia, p146 among the indications for transfusion). The orientation src_701b6db49a7c01d79428 does not mention leucocytes either way, so it cannot arbitrate. Not resolved: the year book teaches a leucocyte chapter that the module book does not print, and no record in this file claims those pages."
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Blood > Blood groups and blood transfusion",
+  "bookTitle": "Blood groups and Blood transfusion",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 144,
+  "physicalEnd": 146,
+  "printedStart": 31,
+  "printedEnd": 33,
+  "excludedFromWrittenExam": true,
+  "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102' names both '- BLOOD GROUPS' and '- BLOOD TRANSFUSION'. Cancelled for the written paper only; still taught and still examined practically.",
+  "evidence": "Part II contents, physical p113, 'Blood groups and Blood transfusion 31' | body headings 'BLOOD GROUPS' on physical p144 and 'BLOOD TRANSFUSION' on physical p146; p146 is the last Hemopoietic System page, p147 opens the Autonomic Nervous System with its own running head 'Autonomic nervous System' | running head 'Hemopoietic System'",
+  "yearBookChapters": [
+   {
+    "title": "Blood groups",
+    "bookTitle": "Blood Groups",
+    "physicalStart": 46,
+    "physicalEnd": 48,
+    "printedStart": 38,
+    "printedEnd": 40,
+    "excludedFromWrittenExam": true,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p7, 'Blood gro~ps 38' | centred chapter heading on physical p46",
+    "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102 / HEMOPOIETIC SYSTEM / - BLOOD GROUPS'. Cancelled for the written paper only; still taught and still examined practically."
+   },
+   {
+    "title": "Blood transfusion",
+    "bookTitle": "Blood Transfusion",
+    "physicalStart": 48,
+    "physicalEnd": 49,
+    "printedStart": 40,
+    "printedEnd": 41,
+    "excludedFromWrittenExam": true,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Bold heading 'Blood Transfusion:' with its own Indications / Precautions / Effects of incompatible blood transfusion on physical pp48-49. Not listed in the contents on physical p7; the last contents entry is 'Blood gro~ps 38'. A stray 'Blood Transfusion' string also renders on physical p42 between the anticoagulant table and 'Abnormalities of Hemostasis' - treated as a layout artefact, not a chapter start, because no transfusion prose follows it there.",
+    "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102 / HEMOPOIETIC SYSTEM / - BLOOD TRANSFUSION'. Cancelled for the written paper only; still taught and still examined practically."
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Autonomic nervous system > The nervous system",
+  "bookTitle": "The nervous system",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 148,
+  "physicalEnd": 151,
+  "printedStart": 35,
+  "printedEnd": 38,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'The nervous system 35' | body heading 'THE NERVOUS SYSTEM' on physical p148 | running head 'Autonomic nervous System' pp147-167",
+  "yearBookChapters": [
+   {
+    "title": "Introduction to nervous system",
+    "bookTitle": "The nervous system",
+    "physicalStart": 50,
+    "physicalEnd": 53,
+    "printedStart": 42,
+    "printedEnd": 45,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents (Module INT-102 · ANS) on physical p8, 'Introduction to nervous system 42' | part title 'AUTONOMIC NERVOUS SYSTEM' and centred heading 'The nervous system' on physical p50 | running head 'Autonomic Nervous System (A.N.S)' pp50-74"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Autonomic nervous system > Organisation of autonomic nervous system",
+  "bookTitle": "Organization of autonomic nervous system",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 151,
+  "physicalEnd": 152,
+  "printedStart": 38,
+  "printedEnd": 39,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'Organization of autonomic nervous system 38' | the body heading on physical p151 is 'THE AUTONOMIC NERVOUS SYSTEM', with the sub-heading 'General organization of autonomic outflow:' beneath it; bookTitle quotes the contents, which is where the word 'Organization' comes from | running head 'Autonomic nervous System'",
+  "yearBookChapters": [
+   {
+    "title": "The autonomic nervous system",
+    "bookTitle": "The Autonomic Nervous System",
+    "physicalStart": 53,
+    "physicalEnd": 54,
+    "printedStart": 45,
+    "printedEnd": 46,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p8, 'The Autonomic Nervous System 45' | centred chapter heading on physical p53"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Autonomic nervous system > Autonomic ganglia",
+  "bookTitle": "Autonomic ganglia",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 152,
+  "physicalEnd": 154,
+  "printedStart": 39,
+  "printedEnd": 41,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": null,
+  "evidence": "Part II contents, physical p113, 'Autonomic ganglia 39' | body heading 'AUTONOMIC GANGLIA' on physical p152, with 'Types of autonomic ganglia: (Fig. 7)' on the same page and 'Fig. 7: Types of ganglia' on physical p153 | running head 'Autonomic nervous System'",
+  "yearBookChapters": [
+   {
+    "title": "Autonomic ganglia",
+    "bookTitle": "Autonomic Ganglia",
+    "physicalStart": 54,
+    "physicalEnd": 56,
+    "printedStart": 46,
+    "printedEnd": 48,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p8, 'Autonomic ganglia 46' | heading 'Autonomic Ganglia:' on physical p54"
+   }
+  ],
+  "conflict": null
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system",
+  "bookTitle": "Sympathetic nervous system",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 154,
+  "physicalEnd": 159,
+  "printedStart": 41,
+  "printedEnd": 46,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": "PARTIAL. Orientation src_701b6db49a7c01d79428 p1 names '- ALARM or \"STRESS\" Response of Sympathetic Nervous System' among the topics not included in the final theoretical exam. In this book that is not a chapter: it is a body heading 'ALARM or \"STRESS\" Response of Sympathetic Nervous System' on physical p158 (printed 45), inside this chapter and absent from the Part II contents. The chapter as a whole is NOT excluded, so the flag is false and the exclusion is recorded here.",
+  "evidence": "Part II contents, physical p113, 'Sympathetic nervous system 41' | body heading 'THE SYMPATHETIC NERVOUS SYSTEM' with '(Thoraco-Lumbar)' beneath it on physical p154 | running head 'Autonomic nervous System'",
+  "yearBookChapters": [
+   {
+    "title": "Sympathetic nervous system",
+    "bookTitle": "The Sympathetic Nervous System (thoraco- lumbar)",
+    "physicalStart": 56,
+    "physicalEnd": 62,
+    "printedStart": 48,
+    "printedEnd": 54,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p8, 'Sympathetic nervous system 48' | heading 'The Sympathetic Nervous System (thoraco- lumbar):' on physical p56"
+   },
+   {
+    "title": "Alarm or stress response of the sympathetic nervous system",
+    "bookTitle": "Alarm \"Stress.. response of sympathetic Nervous System",
+    "physicalStart": 73,
+    "physicalEnd": 73,
+    "printedStart": 65,
+    "printedEnd": 65,
+    "excludedFromWrittenExam": true,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Heading on physical p73, immediately before 'Drugs that affect the autonomic activity'. Not listed in the contents on physical p8. The extracted string carries OCR damage to the closing quotation mark; the announcement's own wording is 'ALARM or \"STRESS\" Response of Sympathetic Nervous System'.",
+    "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102 / AUTONOMIC NERVOUS SYSTEM / - ALARM or \"STRESS\" Response of Sympathetic Nervous System'. Cancelled for the written paper only; still taught and still examined practically."
+   }
+  ],
+  "conflict": "Boundary conflict with an exclusion consequence. The year book makes the alarm/stress response its own chapter (physical 73, printed 65) and the previous pass flagged it excludedFromWrittenExam: true. The module book prints it as an unlisted heading inside the sympathetic chapter. A boolean at chapter level cannot express the difference. Not resolved: both positions stand."
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system",
+  "bookTitle": "Parasympathetic nervous system",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 159,
+  "physicalEnd": 162,
+  "printedStart": 46,
+  "printedEnd": 49,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": "PARTIAL. Orientation src_701b6db49a7c01d79428 p1 names '- Centers of the Autonomic Reflexes' among the topics not included in the final theoretical exam. In this book that is not a chapter: it is a body heading 'Centers of the Autonomic Reflexes' on physical p161 (printed 48), inside this chapter and absent from the Part II contents. The chapter as a whole is NOT excluded, so the flag is false and the exclusion is recorded here.",
+  "evidence": "Part II contents, physical p113, 'Parasympathetic nervous system 46' | body heading 'THE PARASYMPATHETIC NERVOUS SYSTEM' with '(Cranio-Sacral)' and 'ANABOLIC and Energy preserving system (rest, digest, reading)' beneath it on physical p159 | running head 'Autonomic nervous System'",
+  "yearBookChapters": [
+   {
+    "title": "Parasympathetic nervous system",
+    "bookTitle": "Parasympathetic nervous system",
+    "physicalStart": 62,
+    "physicalEnd": 66,
+    "printedStart": 54,
+    "printedEnd": 58,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p8, 'Parasympathetic nervous system 54'. The body heading on physical p62 did not extract - the page text jumps from the sympathetic section's closing NB to 'Anabolic and Energy preserving system (rest, digest, reading)' and then 'A) Functions of Parasympathetic System on Head lk Neck'. bookTitle is therefore quoted from the contents, not from the body page."
+   },
+   {
+    "title": "Centres of the autonomic reflexes",
+    "bookTitle": "Centers of the Autonomic Reflexes",
+    "physicalStart": 66,
+    "physicalEnd": 66,
+    "printedStart": 58,
+    "printedEnd": 58,
+    "excludedFromWrittenExam": true,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Heading 'Centers of the Autonomic Reflexes:' on physical p66. Not listed in the contents on physical p8, which goes straight from 'Parasympathetic nervous system 54' to 'Chemical transmission 58'.",
+    "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102 / AUTONOMIC NERVOUS SYSTEM / - Centers of the Autonomic Reflexes'. Cancelled for the written paper only; still taught and still examined practically."
+   }
+  ],
+  "conflict": "Boundary conflict with an exclusion consequence, plus an ordering disagreement. The year book makes 'Centers of the Autonomic Reflexes' its own chapter (physical 66, printed 58) and the previous pass flagged it excluded; the module book prints it as an unlisted heading inside the parasympathetic chapter. The two books also order it differently: the year book puts it before 'Chemical transmission' and after the parasympathetic chapter has ended, the module book puts it inside the parasympathetic chapter. Not resolved: both positions stand."
+ },
+ {
+  "subjectPath": "102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors",
+  "bookTitle": "Chemical transmission at autonomic junctions & autonomic receptors",
+  "sourceId": "src_a488633802ec053c6325",
+  "physicalStart": 162,
+  "physicalEnd": 167,
+  "printedStart": 49,
+  "printedEnd": 54,
+  "excludedFromWrittenExam": false,
+  "exclusionNote": "PARTIAL, on two counts. Orientation src_701b6db49a7c01d79428 p1 names '- CHEMICAL TRANSMISSION AT AUTONOMIC JUNCTIONS' and '- DRUGS THAT AFFECT THE AUTONOMIC ACTIVITY' among the topics not included in the final theoretical exam. Both fall inside this one module-book chapter: the chemical-transmission material runs physical p162-p163 (printed 49-50) and the drugs material is the body heading 'AGENTS THAT AFFECT THE AUTONOMIC ACTIVITY' on physical p167 (printed 54), which the Part II contents does not list. But the chapter's middle - noradrenaline and the adrenergic receptors and their distribution and actions, physical p164-p166 (printed 51-53) - is the material the year book chapters separately as 'Receptors of the effector organs', which the orientation does NOT exclude. Flagging the whole chapter true would cancel examinable material, so the flag is false and the partial exclusion is recorded here.",
+  "evidence": "Part II contents, physical p113, 'Chemical transmission at autonomic junctions & autonomic receptors 49' (the entry wraps over two lines) | body heading 'CHEMICAL TRANSMISSION AT AUTONOMIC JUNCTIONS' on physical p162, then 'ACETYLCHOLINE' on p162, 'NORADRENALINE (NOREPINEPHRINE)' on p164, 'Adrenergic Receptors:' on p165, 'Distribution and Actions of Adrenergic Receptors:' on p166 and 'AGENTS THAT AFFECT THE AUTONOMIC ACTIVITY' on p167, the last page of the book | running head 'Autonomic nervous System'",
+  "yearBookChapters": [
+   {
+    "title": "Chemical transmission at autonomic junctions",
+    "bookTitle": "Chemical Transmission at Autonomic junctions",
+    "physicalStart": 66,
+    "physicalEnd": 69,
+    "printedStart": 58,
+    "printedEnd": 61,
+    "excludedFromWrittenExam": true,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p8, 'Chemical transmission 58' | centred chapter heading on physical p66",
+    "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102 / AUTONOMIC NERVOUS SYSTEM / - CHEMICAL TRANSMISSION AT AUTONOMIC JUNCTIONS'. Cancelled for the written paper only; still taught and still examined practically."
+   },
+   {
+    "title": "Receptors of the effector organs",
+    "bookTitle": "Receptors of the effector organs",
+    "physicalStart": 69,
+    "physicalEnd": 73,
+    "printedStart": 61,
+    "printedEnd": 65,
+    "excludedFromWrittenExam": false,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p8, 'Receptors of the effector organs 61' | body heading on physical p69, which extracts damaged as 'Receptors of he effector or ans:'; bookTitle is quoted from the contents"
+   },
+   {
+    "title": "Drugs that affect the autonomic activity",
+    "bookTitle": "Drugs that affect the autonomic activity",
+    "physicalStart": 73,
+    "physicalEnd": 74,
+    "printedStart": 65,
+    "printedEnd": 66,
+    "excludedFromWrittenExam": true,
+    "sourceId": "src_bfeed7a91f343a86b255",
+    "evidence": "Contents on physical p8, 'Drugs that affect the autonomic activity 65' | centred chapter heading on physical p73; the section ends on physical p74 at the references block",
+    "exclusionNote": "Orientation src_701b6db49a7c01d79428 p1, 'Theoretical topics not included in final theoretical exam: 102 / AUTONOMIC NERVOUS SYSTEM / - DRUGS THAT AFFECT THE AUTONOMIC ACTIVITY'. Cancelled for the written paper only; still taught and still examined practically."
+   }
+  ],
+  "conflict": "Three-way boundary conflict, and the worst exclusion mismatch in the file. The year book splits these pages into three chapters with two different exam statuses: 'Chemical transmission at autonomic junctions' (physical 66-69, excluded), 'Receptors of the effector organs' (physical 69-73, NOT excluded) and 'Drugs that affect the autonomic activity' (physical 73-74, excluded). The module book merges all three into one contents-listed chapter, so the excluded and the examinable material share a node. There is also a wording conflict on the third: the orientation says 'DRUGS THAT AFFECT THE AUTONOMIC ACTIVITY', which is the year book's exact heading; the module book prints 'AGENTS THAT AFFECT THE AUTONOMIC ACTIVITY'. Not resolved: splitting the module chapter to match the year book would invent boundaries the module book does not print, and merging silently would hide the fact that part of the chapter is off the paper."
+ }
+]
