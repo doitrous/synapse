@@ -6732,3 +6732,572 @@ sections.Mechanism: The reasoning that a firm rod has no further use once the co
 sections.Clinical significance: The section is short because the corpus gives no clinical material on the notochord, and it says so in its own text rather than importing a lesion from a general textbook.
 ## notes
 Written as a separate short article on the Third Week leaf rather than folded into ART-101-ANA-PARAXIAL-MESODERM, because the notochord and the somites are two different derivatives of gastrulation asked as two different questions, and because the notochord's four steps are a self-contained six-mark answer. The two articles cross-reference each other at the point where they meet: the sclerotome surrounding the notochord.
+
+---
+
+# Item
+## id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## title
+Muscles of the back
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Muscles of the Back
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M01 | SYS-MSK-T01-S03-M02 | SYS-MSK-T03-S02-M03
+## related_concepts
+CON-MSK-49E1E587FB6ED6
+CON-MSK-84E91B4CD6B6DF
+CON-MSK-59453A6F6ACC2E
+CON-MSK-2BCDBB34965818
+CON-MSK-C89FCDA03E8C99
+## related_articles
+ART-101-ANA-PECTORALIS-MAJOR: The other muscle inserting into the bicipital groove, and the other half of the axillary folds — pectoralis major makes the anterior fold, latissimus dorsi with teres major the posterior one.
+ART-101-ANA-SHOULDER-SPACES-ROTATION: Trapezius is one half of the couple that rotates the scapula past ninety degrees; serratus anterior, teres major and teres minor, which this article names only where they touch the back muscles, are taught in full there.
+ART-101-ANA-AXILLA-BREAST: Latissimus dorsi and teres major form the posterior wall of the axilla, and the back drains its lymph to the subscapular group of axillary nodes described there.
+ART-101-ANA-MUSCLE-ATTACHMENTS: The general rules about origin, insertion and reversal of action are what let latissimus dorsi pull the trunk up to the arm instead of the arm down to the trunk.
+ART-101-ANA-SCAPULAR-ANASTOMOSIS: The subscapular artery continues past the circumflex scapular branch as the thoraco-dorsal artery, which is the one named blood supply any Kasr source gives a muscle of the back.
+## aliases
+Muscles of the back | Muscles connecting the upper limb with the vertebral column | Trapezius | Latissimus dorsi | Rhomboideus major | Rhomboideus minor | Levator scapulae | Triangle of auscultation | Lumbar triangle | Posterior axillary fold
+## reading_time
+13
+## summary
+Five muscles connect the upper limb to the vertebral column, in two layers — trapezius and latissimus dorsi superficially, levator scapulae and the two rhomboids deep. The examiner wants attachments, nerve supply and action for each, and three things beyond that: trapezius has a U-shaped insertion and the only motor supply in the whole limb that comes from outside the brachial plexus, latissimus dorsi has a triple relation to teres major, and the two named triangles on the back — the triangle of auscultation and the lumbar triangle — are defined by these muscles' free borders. Paralysis of trapezius drops the shoulder, and it is the deformity these question books ask most.
+## sections
+### Overview and position
+The muscles of the back, in this module, are not the erector spinae. They are upper limb muscles that happen to lie on the back: five muscles which connect the bones of the shoulder girdle and the humerus to the vertebral column, so that pulling on the vertebral column moves the limb, and fixing the limb lets them move the trunk.
+
+They lie in two layers, and the layers are how the answer is laid out.
+
+The superficial layer is trapezius and latissimus dorsi. Both are large, flat and triangular, both are subcutaneous over most of their extent, and between them they cover the whole back from the skull to the iliac crest.
+
+The deep layer is levator scapulae, rhomboideus minor and rhomboideus major. All three lie under cover of trapezius, all three run from the cervical or upper thoracic spines downwards and laterally to the medial border of the scapula, and all three take the same nerve.
+
+Two muscles, then three, and the two counts are worth holding separately because a question that asks for "the superficial layer" is asking for a list of two.
+
+The department book opens the chapter by stating that these muscles are supplied by the anterior primary rami of the spinal nerves. Read on and the same chapter gives trapezius a motor supply from the spinal root of the accessory nerve, which is a cranial nerve and not a spinal ramus at all. The book contains both statements. They are recorded in `conflicts` rather than reconciled here, and the muscle-by-muscle supply the book gives is the one used throughout this article.
+
+### Structure
+Each muscle is examined to the same four-part specification the orientation sheet names for every muscle of the limb: origin, insertion, nerve supply, action.
+
+**Trapezius.** A flat triangular muscle of the superficial layer, arising from a continuous line down the midline of the skull, neck and thorax: from the external occipital protuberance and the medial third of the superior nuchal line; from the ligamentum nuchae and the spine of the seventh cervical vertebra; and from the spines of all the thoracic vertebrae with their supraspinous ligaments.
+
+Its insertion is U-shaped, and that shape is the point. The upper fibres descend to the posterior border of the lateral third of the clavicle. The middle fibres run horizontally to the medial border of the acromion and the upper lip of the crest of the spine of the scapula. The lower fibres ascend to a rough tubercle on the crest of the spine near its root. Written out as a line on the bone, the three attachments make a U opening medially — which is what the muscle's fibres, converging from a long vertical origin onto a short horizontal insertion, have to produce.
+
+Its nerve supply is split. Motor comes from the spinal root of the accessory nerve, the eleventh cranial nerve. Sensation comes from the third and fourth cervical nerves.
+
+Its actions follow the three sets of fibres. The upper fibres elevate the shoulder girdle. The middle fibres, with the rhomboids, retract the scapula and brace back the shoulder. The upper and lower fibres acting together rotate the scapula so the glenoid cavity faces upward, which is what allows the arm to be raised above the head.
+
+**Latissimus dorsi.** A large triangular flat muscle covering the lower half of the back down to the iliac crest, with a very wide origin and a very narrow tendon of insertion — a muscle shaped like a fan collapsing into a strap.
+
+Its origins are five: by fleshy fibres from the spines of the lower six thoracic vertebrae, under cover of trapezius; from the thoracolumbar fascia; from the posterior third of the outer lip of the iliac crest; from the outer surface of the lower four ribs; and by a few fibres from the dorsal aspect of the inferior angle of the scapula.
+
+It inserts into the floor of the bicipital groove of the humerus. That is a single small target for all five origins, and it is worth noticing that the three muscles reaching the bicipital groove divide it between them: pectoralis major takes the lateral lip, teres major the medial lip, and latissimus dorsi the floor between them.
+
+Its nerve is the thoraco-dorsal nerve, also called the nerve to latissimus dorsi, from the posterior cord of the brachial plexus, C6, C7 and C8.
+
+Its actions are extension, medial rotation and adduction of the arm. With the arm fixed, the same pull raises the trunk instead: acting with the sternocostal part of pectoralis major it pulls the trunk upwards, as in climbing. And through its attachment to the ribs it assists in violent expiration, as in coughing.
+
+**Levator scapulae.** Arises by four slips from the transverse processes of the upper four cervical vertebrae and inserts into the dorsal surface of the medial border of the scapula above the root of the spine. Supplied by the dorsal scapular nerve, C5, with fibres from C3 and C4 as well. It elevates the shoulder girdle with the upper fibres of trapezius, rotates the scapula so the glenoid cavity faces downward, and retracts the scapula.
+
+**Rhomboideus minor.** Arises from the lower part of the ligamentum nuchae and from the spines of C7 and T1, and inserts into the dorsal surface of the medial border of the scapula opposite the root of the spine. Supplied by the dorsal scapular nerve, C5. It rotates the scapula so the glenoid faces downward, with levator scapulae, and retracts it, with the middle fibres of trapezius.
+
+**Rhomboideus major.** Arises from the spines of T2 to T5 and their supraspinous ligaments, and inserts into the dorsal surface of the medial border of the scapula from the root of the spine down to the inferior angle. Supplied by the dorsal scapular nerve, C5, and with the same actions as rhomboideus minor.
+
+The three deep muscles read as one strip broken into three: levator scapulae above the root of the spine, rhomboideus minor opposite it, rhomboideus major below it, in that order down the medial border of the scapula. Learn the border and the three muscles fall into place on it.
+
+### Relations
+The relations of these muscles are what the examiner actually asks about, because every named space on the back is bounded by a free border of one of them.
+
+**Latissimus dorsi and teres major have a triple relation**, and it is the one relation in this chapter with a figure of its own. Following the upper border of latissimus dorsi laterally: it lies first *behind* teres major, then curves *below* it, and at the insertion lies *in front* of it. Behind, below, in front — three positions of one border against one muscle, and the sequence is the answer. At the insertion the two usually fuse, and the fused mass is the **posterior axillary fold**.
+
+The upper border of latissimus dorsi also crosses over the inferior angle of the scapula on its way laterally, which is why a few of its fibres arise from that angle.
+
+**The medial border of the scapula is gripped by four muscles and the lateral border by two.** On the dorsal surface of the medial border, from above downwards: levator scapulae above the root of the spine, rhomboideus minor opposite it, rhomboideus major below it. On the costal surface of the same border, along its whole length, serratus anterior. On the dorsal surface of the lateral border: teres minor from the upper two thirds and teres major from the lower third, with the long head of triceps arising just above the border from the infraglenoid tubercle. Medial border pulls the scapula about on the chest wall; lateral border sends muscles to the humerus.
+
+**The triangle of auscultation** lies on the back, medial to the lower part of the scapula. It is bounded above by the lateral border of trapezius, below by the upper border of latissimus dorsi, and laterally by the lower part of the medial border of the scapula. Its floor is rhomboideus major together with the sixth and seventh ribs and the intercostal space between them.
+
+**The lumbar triangle** lies just above the iliac crest. It is bounded below by the iliac crest, medially by the lateral border of latissimus dorsi, and laterally by the posterior border of external abdominal oblique. Its floor is internal abdominal oblique and transversus abdominis.
+
+The two triangles are the same idea at the two ends of latissimus dorsi. Where the muscle's upper border falls short of trapezius, a gap opens over the ribs and you can listen through it. Where its lower lateral border falls short of external oblique, a gap opens over the abdominal wall and something can push through it.
+
+The deep layer has one relation of its own: the dorsal scapular nerve descends along the medial border of the scapula deep to levator scapulae and the rhomboids, supplying them from behind.
+
+### Blood supply, innervation and lymphatics
+**Innervation is the high-yield half of this section**, and the whole of it can be put as one sentence with an exception: every muscle acting on the shoulder girdle takes a named branch of the brachial plexus, except trapezius.
+
+Trapezius is supplied motor by the spinal root of the accessory nerve, the eleventh cranial nerve, with C3 and C4 supplying sensation. It is the only muscle of the upper limb whose motor supply does not come from the brachial plexus, and the mark is in saying *spinal root*: the cranial root of the accessory nerve joins the vagus and is distributed to the larynx and pharynx, and both roots appear as options in these question books.
+
+Levator scapulae, rhomboideus minor and rhomboideus major all take the dorsal scapular nerve, also called the nerve to the rhomboids, from the roots of the brachial plexus, C5. Levator scapulae additionally receives fibres from C3 and C4.
+
+Latissimus dorsi takes the thoraco-dorsal nerve from the posterior cord, C6, C7 and C8.
+
+The neighbouring muscles the same question sweeps up: serratus anterior takes the nerve to serratus anterior — the long thoracic nerve, the nerve of Bell — from the roots, C5, C6 and C7. Teres major takes the lower subscapular nerve, C5 and C6, from the posterior cord. Teres minor takes the axillary, or circumflex, nerve, C5 and C6.
+
+**Blood supply.** The department book names one artery to one of these muscles: the subscapular artery, from the third part of the axillary artery, continues below the origin of the circumflex scapular artery as the **thoraco-dorsal artery**, which supplies latissimus dorsi and shares in the anastomosis around the scapula. No Kasr source names the arterial supply of trapezius, the rhomboids or levator scapulae, and none is invented here.
+
+**Lymphatics.** The back drains forwards into the axilla. The posterior, or subscapular, group of axillary lymph nodes lies on the posterior wall of the axilla along the subscapular artery and receives lymph from the back as far down as the iliac crest and from the back of the shoulder; the deep lymph vessels of the scapular region end in the same group. That is the whole of what the sources give for the lymph drainage of this region.
+
+### Development
+No Kasr source describes the development of the muscles of the back, of the myotomes they arise from, or of the migration that carries a muscle supplied by a cranial nerve onto the back of the thorax. Nothing is invented here, and the absence is recorded in `evidence_gaps`.
+
+### Surface and imaging anatomy
+Two of these muscles make visible landmarks on a living back, and one of the named triangles exists only as a surface anatomy instruction.
+
+**The triangle of auscultation** is named for what a clinician does over it. Only a thin floor of rhomboideus major, two ribs and one intercostal space separates the stethoscope from the lung there, because the two large superficial muscles have both fallen short of the same patch of chest wall. Breath sounds are heard clearly over it, and the clarity is what named it.
+
+**The posterior axillary fold** is the fused lower border of latissimus dorsi and teres major, felt as a ridge at the back of the armpit. The department book notes that it lies lower than the anterior fold, which is pectoralis major.
+
+**The deltopectoral groove**, at the other end of the girdle, is the furrow between pectoralis major and deltoid; it belongs to the pectoral region rather than the back but is worth holding beside the folds, because the same list of surface landmarks is asked from either side.
+
+No Kasr source gives a radiographic, ultrasound or cross-sectional appearance of any muscle of the back.
+
+### Clinical correlations
+**Paralysis of trapezius causes shoulder drop.** The department book states it in those words, and it is the single most frequently asked fact on this leaf. Trapezius suspends the whole shoulder girdle from the occiput and the vertebral spines; take the muscle away and the girdle sags under the weight of the limb. The nerve at risk is the spinal accessory, which is superficial in the posterior triangle of the neck and can be cut there.
+
+The deformity is asked immediately alongside its twin, and the two are easy to swap. **Shoulder drop is trapezius**; a **flat shoulder** — loss of the rounded contour — is deltoid, wasting after an axillary nerve injury, and the book states that one separately in the shoulder region chapter. The two answers differ in one word and the question books offer both in the same option list.
+
+**The lumbar triangle may be a site of hernia.** The book says so directly. The triangle is a gap in the muscular wall bounded by bone below, latissimus dorsi medially and external oblique laterally, with only internal oblique and transversus abdominis in its floor — a weak spot in the abdominal wall, and abdominal contents can push through it as a lumbar hernia.
+
+**The triangle of auscultation is where a chest is listened to** for the reason given above, and this is the only place in the chapter where the anatomy of a gap is also its clinical use.
+
+**Loss of retraction.** A patient who cannot draw the scapula back has lost the muscles that retract it: the middle fibres of trapezius and the rhomboids. Both appear in the past papers as a pair, because retraction takes both and neither compensates for the other.
+
+The three back muscles that reach the humerus or the girdle from the trunk also give latissimus dorsi its two everyday tests: the climbing pull, with the arm fixed overhead, and the cough, through the rib attachment.
+
+### Variations and anomalies
+No Kasr source describes any variation of the muscles of the back — no absent rhomboid, no accessory slip, no variant of the trapezius insertion. None is invented here.
+## hold_these
+Five muscles connect the upper limb to the vertebral column: trapezius and latissimus dorsi superficially, levator scapulae and rhomboideus major and minor deeply.
+Trapezius arises from the external occipital protuberance and medial third of the superior nuchal line, the ligamentum nuchae and the C7 spine, and all the thoracic spines with their supraspinous ligaments.
+The insertion of trapezius is U-shaped: upper fibres to the posterior border of the lateral third of the clavicle, middle fibres to the medial border of the acromion and the upper lip of the crest of the spine, lower fibres to a tubercle on the crest near its root.
+Trapezius is supplied motor by the spinal root of the accessory nerve and sensory by C3 and C4 — the one muscle of the upper limb not supplied motor from the brachial plexus.
+Trapezius upper fibres elevate the girdle, middle fibres retract the scapula with the rhomboids, and upper and lower fibres together rotate the glenoid cavity upwards so the arm can be raised overhead.
+Paralysis of trapezius leads to shoulder drop; paralysis of deltoid flattens the shoulder.
+Latissimus dorsi arises from the lower 6 thoracic spines, the thoracolumbar fascia, the posterior third of the outer lip of the iliac crest, the outer surface of the lower 4 ribs, and the inferior angle of the scapula.
+Latissimus dorsi inserts into the floor of the bicipital groove and is supplied by the thoraco-dorsal nerve (C6, C7, C8) from the posterior cord.
+Latissimus dorsi extends, medially rotates and adducts the arm; with pectoralis major it raises the trunk as in climbing; and it assists violent expiration as in coughing.
+The upper border of latissimus dorsi has a triple relation to teres major — behind it, then below it, then in front of it at the insertion — and the two fuse there to form the posterior axillary fold.
+The medial border of the scapula receives levator scapulae above the root of the spine, rhomboideus minor opposite it, rhomboideus major below it, and serratus anterior along its costal surface.
+The lateral border of the scapula gives origin to teres minor from its upper two thirds and teres major from its lower third, with the long head of triceps from the infraglenoid tubercle just above.
+The triangle of auscultation is bounded above by the lateral border of trapezius, below by the upper border of latissimus dorsi and laterally by the medial border of the scapula; its floor is rhomboideus major with the 6th and 7th ribs and the space between them.
+The lumbar triangle is bounded below by the iliac crest, medially by latissimus dorsi and laterally by external abdominal oblique, with internal oblique and transversus abdominis in its floor; it may be a site of lumbar hernia.
+Levator scapulae, rhomboideus minor and rhomboideus major are all supplied by the dorsal scapular nerve (C5); levator scapulae also receives C3 and C4.
+Levator scapulae elevates the girdle, retracts the scapula and rotates the glenoid cavity downwards — the opposite rotation to trapezius with serratus anterior.
+The thoraco-dorsal artery, the continuation of the subscapular artery, supplies latissimus dorsi and shares in the anastomosis around the scapula.
+The back drains its lymph to the subscapular (posterior) group of axillary nodes, as far down as the iliac crest.
+## lose_the_mark
+Answering "the accessory nerve" without saying which root. It is the spinal root that supplies trapezius; the cranial root joins the vagus and supplies the larynx and pharynx, and both are offered as options.
+Saying paralysed trapezius flattens the shoulder. It drops the shoulder. Flattening is deltoid wasting after an axillary nerve injury, and these books ask the two side by side.
+Giving the trapezius insertion as one attachment. It is U-shaped and each limb of the U is separately marked: clavicle, acromion, crest of the spine.
+Giving the nuchal ligament as an origin of latissimus dorsi. That belongs to trapezius and to rhomboideus minor; latissimus dorsi never reaches above the sixth thoracic spine.
+Attributing flexion, abduction or lateral rotation to latissimus dorsi. Its actions are extension, adduction and medial rotation, and a past paper answers "none of the above" to exactly that list.
+Putting serratus anterior on the lateral border of the scapula. It grips the costal surface of the medial border along its whole length, which is what lets it hold that border against the chest wall.
+Bringing teres major into the triangle of auscultation. Teres major is a lateral-border muscle running to the humerus; it bounds the axillary spaces, not this triangle.
+Giving the triangle of auscultation only three boundaries. The floor — rhomboideus major with the 6th and 7th ribs — carries its own marks and is what explains the name.
+Merging the triangle of auscultation with the lumbar triangle. They are two gaps at the two ends of latissimus dorsi, with different boundaries, different floors and different clinical points.
+Naming only the lateral rotation of the scapula and not its direction. Trapezius with serratus anterior turns the glenoid up; levator scapulae with the rhomboids turns it down.
+Giving the deep layer one nerve without its root. It is the dorsal scapular nerve, C5, and levator scapulae takes C3 and C4 in addition.
+Inserting latissimus dorsi into the medial lip of the bicipital groove. That is teres major. Latissimus dorsi takes the floor and pectoralis major the lateral lip.
+## image_recommendations
+### anatomy plate · Posterior view of the trunk with trapezius and latissimus dorsi drawn on the left half and cut away on the right to show levator scapulae and both rhomboids, every origin and insertion labelled on the bone, and the U-shaped insertion of trapezius traced along the clavicle, acromion and crest of the scapular spine
+Purpose: The whole answer is attachments on bones, in two layers that hide each other. A half-intact, half-reflected figure is the only way to show both layers at once, and the U-shape of the trapezius insertion is a shape, not a sentence.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Muscles of the Back chapter Figs. 12, 13, 14 and 17
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concepts CON-MSK-49E1E587FB6ED6 and CON-MSK-84E91B4CD6B6DF.
+### diagram · The triple relation of latissimus dorsi to teres major, drawn as three steps along the muscle's upper border in an anterior view — behind teres major, then curving below it, then in front of it at the insertion — with the fused posterior axillary fold marked and the three bicipital-groove attachments labelled (pectoralis major lateral lip, latissimus dorsi floor, teres major medial lip)
+Purpose: A relation that changes three times along one border cannot be held from prose; students remember two of the three positions and guess the order. Adding the three groove attachments to the same figure settles the other fact students reverse.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book Fig. 15, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+### diagram · The triangle of auscultation and the lumbar triangle on one posterior view, each outlined with its three boundaries labelled by the muscle border that makes it and its floor shaded and named, with the 6th and 7th ribs drawn through the floor of the upper triangle
+Purpose: The two triangles are confused precisely because both are made by latissimus dorsi. One figure carrying both, at their real positions on the back, makes them two places rather than two lists.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book Fig. 16
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-2BCDBB34965818.
+### diagram · The scapula seen from behind and from the front on one plate, with every muscle attached to the medial border labelled in order from above down and every muscle attached to the lateral border labelled beside it, colour-coded by which border it grips and which bone it runs to
+Purpose: The examinable point is a sorting rule — medial border moves the scapula, lateral border moves the humerus — and a sorting rule is learnt from a picture of the two columns, not from a list that interleaves them.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book's Muscles of the Back chapter, PDF pages 163-168, and Muscles of the Shoulder Region chapter, PDF pages 169-177
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-59453A6F6ACC2E.
+### diagram · Nerve supply of the muscles acting on the shoulder girdle, drawn as the brachial plexus with each named branch running to its muscle, and the spinal root of the accessory nerve drawn entering the field from the neck in a different colour to show that it comes from outside the plexus
+Purpose: The whole concept is one exception inside a set, and colouring the exception differently is what states it. A table of nerve names does not show that trapezius is fed from somewhere else entirely.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Blood supply, innervation and lymphatics
+Source direction: purpose-drawn, following the department book Axilla chapter, PDF pages 178-193, for the plexus branches and root values
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-C89FCDA03E8C99. The plexus half of the drawing overlaps what ART-101-ANA-BRACHIAL-PLEXUS requests; one base drawing can serve both.
+### clinical photograph · A patient with a right-sided shoulder drop from trapezius palsy photographed from behind beside a patient with a flattened shoulder from deltoid wasting, the two contours outlined
+Purpose: The two deformities are asked against each other and are distinguished by contour, which is a visual difference. Seeing them side by side is what stops the swap the question books are built to catch.
+Priority: strongly helpful
+Status: needed
+Kind: clinical photograph
+Section: Clinical correlations
+Source direction: openly licensed clinical image library, or a consented departmental photograph; no identifiable face
+Rights: must be CC-BY or public domain with documented consent
+Notes: The same pair is wanted by ART-101-ANA-AXILLARY-NERVE for the deltoid half.
+## conflicts
+Whether these muscles are supplied by the anterior primary rami. The department book opens the chapter by stating that the muscles of the back "are supplied by the anterior primary rami of the spinal nerves", and then in the same chapter gives trapezius a motor supply from the spinal root of the accessory nerve — a cranial nerve, not a spinal ramus. The two statements cannot both be true of trapezius. The book's own muscle-by-muscle table is used throughout this article, because that is what the question books and the past papers mark against, and the general opening sentence is recorded here rather than repeated as fact. Nothing in the Kasr corpus resolves it.
+Which lip of the crest of the scapular spine the lower fibres of trapezius reach. The department book says a rough tubercle on the crest of the spine near its root, without naming a lip. The VIP Academy revision book says a tubercle on the lower lip of the crest. The book's wording is used, and the difference matters because the same chapter set gives the lower lip of that crest as an origin of deltoid.
+Whether the lower fibres of trapezius depress the shoulder girdle. The department book's Muscles of the Back chapter lists elevation, retraction and upward rotation and does not state depression; the VIP Academy revision book states that the lower fibres depress the scapula, and the concept as drafted from the question books says the same. The book's own account of shoulder-girdle depression, given with the shoulder girdle movements, credits pectoralis minor and subclavius. The book's chapter is followed here and the alternative recorded, because a student meeting "lower fibres depress" elsewhere should know where it comes from.
+How many ribs latissimus dorsi arises from. The department book and the VIP Academy revision book both say the lower four ribs; the concept as drafted from the question books says "the lower three or four ribs". Four is used, on the faculty's own source.
+## evidence_gaps
+No Kasr source names the arterial supply of trapezius, levator scapulae, rhomboideus major or rhomboideus minor. Only latissimus dorsi has a named artery in the corpus, the thoraco-dorsal.
+No Kasr source describes the venous drainage of any muscle of the back.
+No Kasr source describes the development of these muscles, or why a muscle on the back of the thorax is supplied by a cranial nerve.
+No Kasr source gives the root value of the spinal root of the accessory nerve, or its course through the posterior triangle of the neck. The statement in Clinical correlations that the nerve is superficial in the posterior triangle and can be cut there is named in field_notes.
+No Kasr source describes a nerve injury to the dorsal scapular or thoraco-dorsal nerve, or the deformity either would produce.
+No Kasr source gives the incidence, presentation or repair of a lumbar hernia. The book states only that the lumbar triangle "might be a site of hernia".
+No Kasr source states what is heard, or is normally not heard, over the triangle of auscultation beyond the statement that breath sounds are clear there.
+No Kasr source describes any variation or anomaly of these five muscles.
+No Kasr source gives a radiological or cross-sectional image of the region.
+No independent citation has been attached to any statement in this article. The department book and the VIP Academy revision book agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 2 "Muscles connecting the upper limb with vertebral column (Muscles of the Back)", PDF pages 163-168 — the two layers and their membership, the attachments, nerve supply and actions of all five muscles, the U-shaped insertion of trapezius, the split motor and sensory supply of trapezius, the five origins of latissimus dorsi, the triple relation to teres major and the posterior axillary fold, both triangles with their boundaries and floors, the statement that paralysis of trapezius leads to shoulder drop, and the statement that the lumbar triangle might be a site of hernia. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — teres minor from the upper two thirds and teres major from the lower third of the dorsal surface of the lateral border of the scapula with their nerve supplies, serratus anterior on the costal surface of the medial border with the long thoracic nerve, the flattening of the shoulder in deltoid paralysis, and the deltopectoral groove.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the root values of the dorsal scapular, thoraco-dorsal, lower subscapular, long thoracic and axillary nerves, the course of the dorsal scapular nerve deep to levator scapulae and the rhomboids, the thoraco-dorsal artery to latissimus dorsi, the posterior wall of the axilla and the posterior axillary fold, and the subscapular group of axillary lymph nodes receiving from the back as far as the iliac crest.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 5 "Arm", PDF pages 194-204 — the long head of triceps arising from the infraglenoid tubercle.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 1 "The Pectoral Region", PDF pages 153-162 — pectoralis major inserting into the lateral lip of the bicipital groove, which is what makes the floor of that groove a separate target.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 24, topic "Muscles connecting the upper limb with the vertebral column" — the same five muscles with the same attachments, nerve supplies and actions, and the explicit statement that trapezius is the only muscle in the upper limb not supplied by the brachial plexus. Extracted to scripts/kasr/extract/notes.json.
+VIP Academy revision book (src_8ebe255353ca4d184c5f), page 26, past questions — "Paralysis of the following muscle leads to shoulder drop" answered trapezius; "Patient was unable to retract his scapula because of paralysis of trapezius and ..." answered the rhomboids (2024); "Actions of the latissimus dorsi: flexes / abducts / laterally rotates the arm" answered "none of the above"; and, on page 32, "Paralysis of the following muscle leads to flat shoulder" answered deltoid.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 3, "Model answer: muscles producing abduction of the shoulder girdle beyond 90 degrees" — the trapezius attachments, nerve supply and actions as a model written answer, including shoulder drop on paralysis.
+Dr Galal's final-revision compendium (src_fc7ea5960363431009ed), page 4, topics 4 and 5, "Trapezius" and "Latissimus dorsi" — both carry the author's "Q." high-yield marker and both have a model answer present. Recorded in scripts/kasr/extract/practical.json as writtenItems.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which examines "all muscles (attachment, nerve supply and action) except muscles of the hand" and sets four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: The 24 multiple-choice questions on this leaf already name this article in their own `library_ids`, so the reciprocal link is written from the question side and is not duplicated here.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+secondaryNodeIds: The five concepts on this leaf carry SYS-MSK-T03-S02-M03 (Trauma and orthopedics > Soft-tissue injury > Muscle) or SYS-MSK-T01-S01-M03 (Regional anatomy > Upper limb > Elbow) as their secondary placement. The second of those is the upper-limb leaf the sibling articles use as a general tag, but this article is not about the elbow, so Shoulder (SYS-MSK-T01-S01-M01) and Back (SYS-MSK-T01-S03-M02) are used instead alongside the muscle node. The canonical taxonomy is a clinical one and has no node for a regional muscle group.
+sections.Structure: The observation that the three attachments of trapezius make a U opening medially because a long vertical origin converges on a short horizontal insertion is this article's own reading. The book gives the three attachments and calls the insertion U-shaped without explaining the shape.
+sections.Structure: The grouping of the three bicipital-groove attachments — pectoralis major to the lateral lip, latissimus dorsi to the floor, teres major to the medial lip — joins statements the book makes in three separate chapters. Each attachment is the book's; the assembly is this article's.
+sections.Relations: The framing of the two triangles as "the same idea at the two ends of latissimus dorsi" is this article's own device. The book gives the two triangles in separate paragraphs and draws no parallel between them.
+sections.Blood supply, innervation and lymphatics: The statement that trapezius is the only muscle of the upper limb whose motor supply does not come from the brachial plexus is the VIP Academy revision book's wording. The department book gives the supply muscle by muscle without generalising.
+sections.Clinical correlations: The mechanism offered for shoulder drop — that trapezius suspends the girdle from the skull and spines, so the girdle sags without it — is reasoning from the book's own attachments. The book states the deformity and not the mechanism. The statement that the spinal accessory nerve is superficial in the posterior triangle of the neck and can be cut there is general anatomy: no Kasr source in the extracted corpus describes the nerve's course, and it is recorded in evidence_gaps.
+sections.Clinical correlations: The account of a lumbar hernia as abdominal contents pushing through a gap whose floor is only internal oblique and transversus abdominis is inference from the book's stated boundaries. The book states only that the triangle might be a site of hernia.
+sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers the development of these muscles.
+## notes
+Written as one article for the whole leaf rather than one per muscle, because the department book teaches the five as a set in two layers and because four of the five concepts on this leaf cut across muscles rather than down them — the nerve supply concept, the scapular border concept and the triangle concept each need three or four of the muscles at once.
+
+Five further concepts are named as the main concept of questions on this leaf but are not declared here, because this article does not teach them and other articles do: CON-MSK-04D3ACA71DC025 and CON-MSK-1CA86BE843A07C (scapular rotation and the movements of the shoulder girdle, taught by ART-101-ANA-SHOULDER-SPACES-ROTATION), CON-MSK-24E318F2E3F18E (the long thoracic nerve at mastectomy, ART-101-ANA-AXILLA-BREAST) and CON-MSK-EE022A2043C10F (axillary nerve injury, ART-101-ANA-AXILLARY-NERVE). Their question rows reach this leaf because the question books file them under the back muscles; the teaching sits where the anatomy sits, and `related_concepts` names only what is taught here.
+
+---
+
+# Item
+## id
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## title
+Veins and lymph drainage of the upper limb
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-CVS-T01-S01 | SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-66A2E56C00F3A7
+CON-MSK-1F14D98DCE111B
+## related_articles
+ART-101-ANA-BRACHIAL-ARTERY: The two venae comitantes of the brachial artery are what join the basilic vein to make the axillary vein, and the bicipital aponeurosis that crosses in front of that artery is what separates it from the median cubital vein.
+ART-101-ANA-CUBITAL-FOSSA: The median cubital vein lies in the roof of the cubital fossa, and the fossa's floor, boundaries and contents are what a needle in that vein is aimed away from.
+ART-101-ANA-AXILLA-BREAST: The five groups of axillary lymph nodes, into which almost every lymph vessel of the limb finally drains, are described there with the axilla itself.
+ART-101-ANA-DEEP-FASCIA: The cephalic vein is one of the four structures that pierce the clavipectoral fascia, which is the worked example of a named sheet of deep fascia.
+ART-101-ANA-HAND-ARTERIES: The cephalic vein begins at the back of the wrist beside the anatomical snuff box, where the radial artery is crossing in the opposite direction.
+## aliases
+Veins of the upper limb | Cephalic vein | Basilic vein | Median cubital vein | Median vein of the forearm | Dorsal venous arch | Dorsal venous network | Venae comitantes | Lymph drainage of the upper limb | Supratrochlear nodes | Epitrochlear nodes | Infraclavicular nodes | Deltopectoral nodes
+## reading_time
+12
+## summary
+The veins of the upper limb come in two groups that freely communicate and carry valves, and the department book makes the unusual claim that the superficial group is the larger and the more important of the two. Five superficial veins are named, all of them starting from one network on the back of the hand, and one of them — the median cubital vein — the book calls the most prominent superficial vein in the body and the one used for intravenous injection. The same chapter, despite its title, carries the whole lymph drainage of the limb: two superficial groups of nodes, the deep nodes along the arteries, and the rule that almost everything ends in the axilla.
+## sections
+### Overview and position
+The veins of the upper limb are divided into a superficial and a deep group. The two communicate freely with each other and both are provided with valves.
+
+The superficial veins run in the superficial fascia, immediately under the skin. The department book states that they are larger and more important than the deep veins, into which they finally end — a statement worth noticing, because it is the reverse of what a student expects from a limb whose arteries are all deep. It is also the reason the whole clinical content of this chapter is about superficial veins.
+
+They begin on the dorsum of the hand. Every named superficial vein of the limb traces back to one network there, and the two great veins of the limb are simply its two ends: the lateral end becomes the cephalic vein, the medial end the basilic vein. Fix that and half the chapter follows.
+
+The deep veins accompany the arteries as venae comitantes, two to each main artery, as far as the brachial artery; above that the limb has a single trunk, the axillary vein.
+
+The chapter is titled "Veins of the Upper Limb" and the subject tree gives it no other name, but it also carries the entire lymph drainage of the limb — the superficial and deep nodes, the vessels that reach them, and the direction of flow. That material is taught here for that reason, in the section on lymphatics, and the mismatch between the title and the contents is recorded in `evidence_gaps`.
+
+### Structure
+**The superficial veins are five**, and the list is how the answer opens.
+
+**The superficial dorsal venous network**, or dorsal venous arch, is a network of veins lying in the superficial fascia on the dorsum of the hand. It receives the dorsal digital and dorsal metacarpal veins. It is the source of everything that follows.
+
+**The cephalic vein** begins from the *lateral* end of the dorsal venous arch, just behind the styloid process of the radius. It winds upwards onto the anterior surface of the forearm and ascends on its lateral side; crosses the lateral part of the roof of the cubital fossa; runs in a groove along the lateral side of the arm; and reaches the deltopectoral groove, between pectoralis major and deltoid. Just below the clavicle it pierces the deep fascia and the clavipectoral fascia and ends in the terminal part of the axillary vein.
+
+**The basilic vein** begins from the *medial* end of the same arch. It ascends along the medial surface of the forearm, turns onto the anterior surface just below the elbow, and crosses the medial part of the roof of the cubital fossa. In the arm it pierces the deep fascia at the middle of the arm, at the insertion of coracobrachialis, and from there ascends medial to the brachial artery. At the lower border of teres major it is joined by the two venae comitantes of the brachial artery, and the union of the three is the axillary vein.
+
+The asymmetry there is worth holding. The cephalic vein *ends in* the axillary vein; the basilic vein *helps form* it. They are not two versions of the same ending.
+
+**The median vein of the forearm** begins near the wrist by the union of a few veins from the palm — the front of the hand, not the back — and ascends in the middle of the front of the forearm. Below the elbow it ends in one of three ways: in the basilic vein, or in the cephalic vein, or by dividing into a median basilic vein which joins the basilic and a median cephalic vein which joins the cephalic.
+
+**The median cubital vein** connects the cephalic and basilic veins in the superficial fascia of the roof of the cubital fossa, running upwards and medially from the one to the other. The department book calls it the most prominent superficial vein in the body and states that it is used for intravenous injection.
+
+**The deep veins are two entries.** The venae comitantes: veins accompanying the main arteries, usually two to each artery, anastomosing freely with each other. Those of the radial and ulnar arteries join to form those of the brachial artery, and those of the brachial artery join the basilic vein at the lower border of teres major. And the axillary vein, the single trunk that carries all of it out of the limb.
+
+That is the point a past paper turns on: the axillary artery is *not* accompanied by two venae comitantes. It has one companion vein, the axillary vein, and the paired arrangement stops at the brachial artery.
+
+### Relations
+Three relations in this chapter carry marks, and all three are places where a vein meets something that is not a vein.
+
+**The median cubital vein and the bicipital aponeurosis.** The median cubital vein crosses the cubital fossa superficial to the bicipital aponeurosis, and that sheet of fibrous tissue separates the vein from the brachial artery and the median nerve lying deep to it. The whole clinical use of the vein rests on this one relation: there is a floor under it.
+
+**The cephalic vein and the clavipectoral fascia.** In the deltopectoral groove the cephalic vein is running up between pectoralis major and deltoid, and to reach the axillary vein it has to get behind the anterior wall of the axilla. It does so by piercing the deep fascia and the clavipectoral fascia just below the clavicle. It is one of the four structures that pierce that fascia, and the list of four is separately examined.
+
+**The basilic vein and the brachial artery.** Having pierced the deep fascia at the middle of the arm, the basilic vein ascends medial to the brachial artery — deep, alongside a great artery, for the upper half of the arm. It is the only superficial vein of the limb that spends part of its course deep to the deep fascia, and the level at which it dives is the same level at which the median nerve crosses the artery and the ulnar nerve leaves it.
+
+Two smaller relations complete the picture. The cephalic vein begins behind the styloid process of the radius, at the lateral corner of the back of the wrist, where the radial artery is crossing the same region in the opposite direction on its way into the palm. And the supratrochlear lymph nodes lie in the superficial fascia of the roof of the cubital fossa, above the medial epicondyle, along the basilic vein — a node group located by a vein.
+
+### Blood supply, innervation and lymphatics
+This is where the lymph drainage of the whole limb belongs, because it is where the department book puts it.
+
+**The nodes come in two groups, and the smaller group is the one that gets asked.**
+
+The **deep lymph nodes** are the five groups of axillary lymph nodes, plus a few scattered nodes along the arteries: in the cubital fossa at the bifurcation of the brachial artery, in the arm along the brachial artery, and in the forearm along the radial and ulnar arteries.
+
+The **superficial lymph nodes** are few and scattered, in two named groups.
+
+The **supratrochlear**, or epitrochlear, nodes lie in the superficial fascia of the roof of the cubital fossa, above the medial epicondyle, along the basilic vein. They receive afferents from the medial side of the hand and forearm, and their efferents go to the *lateral* group of axillary nodes.
+
+The **infraclavicular**, or deltopectoral, nodes lie along the cephalic vein in the deltopectoral groove, immediately below the clavicle — outside the axilla, not in it. They receive the few lymphatics that accompany that vein, and their efferents go to the *apical* group of axillary nodes.
+
+The two groups are a matched pair and are asked against each other: medial group, on the basilic vein, sending to the lateral axillary nodes; lateral group, on the cephalic vein, sending to the apical axillary nodes. Get the pairing the wrong way round and both halves of the answer are wrong.
+
+**The vessels follow the veins.** Superficial lymph vessels from the medial side of the wrist follow the basilic vein through the forearm, pierce the deep fascia with it, and end in the lateral group of axillary nodes; some of them end just above the elbow in the supratrochlear nodes on the way. Superficial lymph vessels from the lateral side of the wrist follow the cephalic vein; at the insertion of deltoid most of them incline medially, pierce the deep fascia and end in the lateral, or humeral, group of axillary nodes, while a few stay with the cephalic vein to the apical group.
+
+**The deep lymph vessels follow the arteries** — radial, ulnar and brachial — and end in the lateral group of axillary nodes. Deep vessels from the scapular region end in the subscapular group and those from the pectoral region in the pectoral group.
+
+Read together, the whole limb drains into the axilla, and it does so mainly through one door: the **lateral (humeral) group**, which takes the superficial vessels of both sides of the limb and the deep vessels of the whole limb.
+
+### Development
+No Kasr source describes the development of the venous or lymphatic pattern of the upper limb, the origin of the limb veins, or when the valves appear. Nothing is invented here.
+
+### Surface and imaging anatomy
+Superficial veins are the part of the vascular system that can be seen and touched without an instrument, and this chapter is largely surface anatomy already.
+
+The **dorsal venous network** is visible under the skin on the back of any hand with the fingers dependent, and it is where a cannula usually goes in practice.
+
+The **cephalic vein** can be traced in the deltopectoral groove, the visible furrow between pectoralis major and deltoid running down from below the middle of the clavicle. Following the groove is following the vein.
+
+The **median cubital vein** is the vein a tourniquet makes stand up in front of the elbow; the department book's own description of it as the most prominent superficial vein in the body is a surface observation.
+
+The **supratrochlear nodes** are the one lymph node group of the limb that can be felt at a defined landmark: in the roof of the cubital fossa above the medial epicondyle, along the basilic vein.
+
+No Kasr source gives a venogram, an ultrasound appearance, or a written surface-marking line for any vein of the limb, in the way the department book gives a line for the brachial artery. That is recorded in `evidence_gaps`.
+
+### Clinical correlations
+**Venepuncture and intravenous injection at the median cubital vein.** The book states plainly that the median cubital vein is used for intravenous injection, and everything the anatomy contributes says why: it is large, it is the most prominent superficial vein in the body, it lies in the superficial fascia where a needle reaches it at once, and the bicipital aponeurosis lies between it and the brachial artery and the median nerve. The aponeurosis is the safety feature. Take it away and the same needle track runs onto an artery and a nerve.
+
+The corollary, which the question books test, is that the median cubital vein is a *superficial* vein. Being the vein a needle goes into does not make it deep; the deep veins are the venae comitantes and the axillary vein, and none of them is ever punctured from the surface.
+
+**Finding a vein in the arm when the superficial veins fail.** A past paper describes a patient prepared for dialysis in whom no suitable vein could be found until one was located on the medial side of the arm passing through the superficial and deep fascia to join the veins beside the brachial artery. That description is the basilic vein and nothing else: it is the only superficial vein of the limb that pierces the deep fascia in the arm and runs on to join the venae comitantes of the brachial artery.
+
+**Lymph drainage and the spread of infection.** Because the superficial lymph vessels of the limb follow the two great superficial veins, an infection on the medial side of the hand travels up the line of the basilic vein and may stop at the supratrochlear nodes above the medial epicondyle; one on the lateral side follows the cephalic vein and, at the insertion of deltoid, turns medially into the axilla with the rest. Almost everything ends in the lateral group of the axillary nodes, and everything that leaves the axilla leaves through the apical group.
+
+**What the chapter promises and does not deliver.** The chapter's own intended learning outcomes name the sites of intravenous injection commonly used and the interpretation of a faulty intravenous injection. The extracted text carries no such section: the only clinical statement is the remark about the median cubital vein. Nothing has been supplied here to fill that gap, and it is recorded in `evidence_gaps` so a reviewer with the printed book can close it.
+
+### Variations and anomalies
+The department book describes one normal variation, and it is examinable in its own right. **The median vein of the forearm has three possible endings**: it may end in the basilic vein, or in the cephalic vein, or divide below the elbow into a median basilic vein joining the basilic and a median cephalic vein joining the cephalic. The third pattern is the one the question books ask for by name.
+
+No Kasr source describes any other variation of the veins of the limb — no absent cephalic vein, no variant termination of the basilic, no anomalous communication with the deep veins beyond the free communication the chapter states for the two groups generally.
+## hold_these
+The veins of the upper limb are in two groups, superficial and deep, which communicate freely and are provided with valves.
+The department book states that the superficial veins are larger and more important than the deep veins, into which they finally end.
+The five superficial veins are the superficial dorsal venous network, the cephalic vein, the basilic vein, the median vein of the forearm and the median cubital vein.
+The cephalic vein begins from the lateral end of the dorsal venous arch just behind the styloid process of the radius, ascends on the lateral side of the forearm and arm, reaches the deltopectoral groove and, just below the clavicle, pierces the deep and clavipectoral fasciae to end in the terminal part of the axillary vein.
+The basilic vein begins from the medial end of the dorsal venous arch, ascends on the medial side of the forearm, pierces the deep fascia at the middle of the arm at the insertion of coracobrachialis and ascends medial to the brachial artery.
+At the lower border of teres major the basilic vein is joined by the two venae comitantes of the brachial artery to form the axillary vein — the cephalic vein ends in the axillary vein, the basilic vein helps form it.
+The median vein of the forearm begins near the wrist from a few veins of the palm and ends below the elbow in the basilic or the cephalic vein, or divides into a median basilic and a median cephalic vein.
+The median cubital vein connects the cephalic and basilic veins in the roof of the cubital fossa, crossing superficial to the bicipital aponeurosis, which separates it from the brachial artery and the median nerve.
+The book calls the median cubital vein the most prominent superficial vein in the body and states that it is used for intravenous injection.
+The deep veins are the venae comitantes, two to each main artery as far as the brachial, plus the axillary vein — the axillary artery is not accompanied by two venae comitantes.
+The deep lymph nodes of the limb are the five groups of axillary nodes plus scattered nodes in the cubital fossa at the bifurcation of the brachial artery, along the brachial artery in the arm and along the radial and ulnar arteries in the forearm.
+The superficial lymph nodes are two groups: supratrochlear (epitrochlear) and infraclavicular (deltopectoral).
+Supratrochlear nodes lie in the roof of the cubital fossa above the medial epicondyle along the basilic vein, receive from the medial side of the hand and forearm, and send efferents to the lateral group of axillary nodes.
+Infraclavicular nodes lie along the cephalic vein in the deltopectoral groove just below the clavicle and send efferents to the apical group of axillary nodes.
+Superficial lymph vessels of the medial side of the wrist follow the basilic vein to the lateral axillary group, some ending in the supratrochlear nodes; those of the lateral side follow the cephalic vein and at the insertion of deltoid mostly turn medially to the lateral (humeral) group, a few continuing to the apical group.
+Deep lymph vessels follow the radial, ulnar and brachial arteries to the lateral group of axillary nodes; those from the scapular region end in the subscapular group and those from the pectoral region in the pectoral group.
+## lose_the_mark
+Swapping the two ends of the dorsal venous arch. The cephalic vein is lateral and the basilic medial, at their origin and along their whole course.
+Saying the basilic vein pierces the clavipectoral fascia. That is the cephalic vein. The basilic pierces the deep fascia at the middle of the arm and never reaches the clavipectoral fascia at all.
+Giving both great veins the same ending. The cephalic ends in the axillary vein; the basilic joins the venae comitantes of the brachial artery to form it.
+Calling the median cubital vein a deep vein because it is the one a needle goes into. It lies in the superficial fascia; what makes it safe is the bicipital aponeurosis beneath it.
+Saying the bicipital aponeurosis separates the *cephalic* vein from the brachial artery. It separates the median cubital vein from that artery and from the median nerve.
+Saying the axillary artery is accompanied by two venae comitantes. The paired arrangement stops at the brachial artery; the axillary artery has one companion vein.
+Starting the median vein of the forearm on the back of the hand. It begins near the wrist from a few veins of the palm, in front.
+Giving the median vein of the forearm only one ending. It has three, and the division into median basilic and median cephalic veins is the one asked by name.
+Pairing the node groups the wrong way round. Supratrochlear nodes lie on the basilic vein and drain to the lateral axillary group; infraclavicular nodes lie on the cephalic vein and drain to the apical group.
+Putting the infraclavicular nodes inside the axilla. They lie in the deltopectoral groove, outside it, which is why their efferents have to pierce the anterior wall to reach the apical group.
+Forgetting that the veins are valved and that the two groups communicate freely. Both are in the opening sentence of the chapter and both are separately asked.
+Leaving out the deep nodes along the arteries. The deep group is the five axillary groups *plus* the nodes in the cubital fossa, the arm and the forearm.
+## image_recommendations
+### anatomy plate · The superficial veins of the upper limb on one anterior view and one posterior view of the same limb, from the dorsal venous network to the axillary vein, with the cephalic vein traced in one colour and the basilic in another, the median vein of the forearm and the median cubital vein between them, and the two points where a vein pierces fascia marked — the basilic at the middle of the arm and the cephalic below the clavicle
+Purpose: The whole answer is one continuous course for each vein from the hand to the axilla, and courses are read off a drawing rather than reconstructed from four sentences. Colouring lateral against medial states the fact students most often reverse.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Veins of the Upper Limb chapter Figs. 96 and 97
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-66A2E56C00F3A7.
+### diagram · A cross-section and a surface view of the cubital fossa at the same level, showing the median cubital vein in the superficial fascia, the bicipital aponeurosis immediately deep to it, and the brachial artery and median nerve deep to that, with the needle track of a venepuncture drawn through the vein and stopping at the aponeurosis
+Purpose: The clinical point is a layered relation — vein, then aponeurosis, then artery and nerve — and a section is the only view in which layers are visible. Drawing the needle makes the aponeurosis's protective role the subject of the picture rather than a caption.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn for this product, following the department book's Veins chapter and its Cubital Fossa material
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-1F14D98DCE111B. The same section is wanted by ART-101-ANA-CUBITAL-FOSSA for the roof of the fossa.
+### diagram · The three possible endings of the median vein of the forearm drawn side by side on the same outline of the cubital region — into the basilic, into the cephalic, and dividing into median basilic and median cephalic veins
+Purpose: Three alternatives of one structure are exactly what a single figure of "the normal pattern" hides. Drawing them as three panels makes the variation the fact, which is how the question books ask it.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Variations and anomalies
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
+### diagram · Lymph drainage of the upper limb as a single flow diagram over a limb outline — supratrochlear nodes on the basilic vein and infraclavicular nodes on the cephalic vein, arrows from the medial and lateral sides of the wrist, the deep vessels along the three arteries, and every arrow converging on the named axillary groups with the apical group as the exit
+Purpose: This is a set of routes with named destinations, and the examinable error is pairing a node group with the wrong destination. Arrows on an outline make each pairing checkable at a glance; prose puts the two pairs six lines apart, which is where they get swapped.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Blood supply, innervation and lymphatics
+Source direction: purpose-drawn, following the department book's Figs. 98 and 99, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: The axillary group half of this figure overlaps the node plate requested by ART-101-ANA-AXILLA-BREAST; one drawing can carry both if the limb routes are added to it.
+### clinical photograph · A forearm with a tourniquet applied, photographed from the front, with the median cubital vein and the cephalic and basilic veins visible and labelled on the living surface
+Purpose: The book's claim that this is the most prominent superficial vein in the body is a claim about what a person can see, and it is settled by one photograph of a real arm rather than by a schematic.
+Priority: strongly helpful
+Status: needed
+Kind: clinical photograph
+Section: Surface and imaging anatomy
+Source direction: openly licensed clinical image library, or a consented departmental photograph; no identifiable face
+Rights: must be CC-BY or public domain with documented consent
+## conflicts
+Where the cephalic vein begins. The department book says it begins from the lateral end of the dorsal venous arch just behind the styloid process of the radius; the VIP Academy revision book says it begins from the lateral end of the arch in the roof of the anatomical snuff box. Both put the origin at the lateral end of the arch, and the two landmarks are adjacent, but they are not the same landmark. The department book's wording is used.
+Which surface of the forearm the basilic vein ascends on. The department book says the medial surface of the forearm; the VIP Academy revision book says the postero-medial surface, reaching the front just below the elbow. The book's wording is used and the difference recorded, because a diagram drawn from one and a description written from the other do not match at the wrist.
+Where the supratrochlear nodes lie relative to the basilic vein. The department book says they lie along the basilic vein. A question in the bank keys as correct the statement that they lie in the cubital fossa roof *medial to* the basilic vein. The book's "along" is used; the bank's "medial to" is recorded because a student who has memorised the option will meet the book's wording and should know it is the same node group.
+Whether the median vein of the forearm is itself a common site for intravenous injection. One question in the bank keys as correct an option that ends "It is a common site for intravenous injections", attached to the median vein of the forearm. Both the department book and the VIP Academy revision book name the median *cubital* vein as the vein used for intravenous injection and say nothing of the kind about the median vein of the forearm. The book is followed; the bank option is recorded because it is a single option carrying two statements, and only the first of them — the division into median basilic and median cephalic veins — is what makes it the right answer.
+## evidence_gaps
+The chapter's own intended learning outcomes promise the sites of intravenous injection commonly used and the interpretation of a faulty intravenous injection. No such section exists in the extracted text; the only clinical statement in the chapter is the remark that the median cubital vein is used for intravenous injection. Nothing has been supplied here in its place.
+No Kasr source states what a faulty intravenous injection into this vein damages, or what an intra-arterial injection at the cubital fossa causes.
+No Kasr source gives a surface-marking line for any vein of the upper limb, in the way the department book gives one for the brachial artery.
+No Kasr source describes the development of the veins or the lymphatics of the limb, or when their valves appear.
+No Kasr source describes the tributaries of the cephalic or basilic vein by name, although the exam orientation asks for "all veins of the upper limb (beginning, course, end and name of the tributaries and areas drained by these tributaries)". Only the median cubital vein and the median vein of the forearm are given as named connections.
+No Kasr source describes venous thrombosis, varicosity, cannulation complications or lymphoedema of the upper limb.
+No Kasr source states the number of valves in any named vein, or where they are concentrated.
+No Kasr source describes the lymphatic drainage of the hand separately from that of the wrist, nor names a node group in the palm.
+The subject tree names this leaf for veins alone, while the chapter also carries the whole lymph drainage of the limb; that material is taught here because there is nowhere else on the tree for it, and no Kasr source assigns it a node of its own.
+No independent citation has been attached to any statement in this article. The department book and the VIP Academy revision book agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 8 "Veins of the Upper Limb", PDF pages 253-256 — the division into superficial and deep groups with free communication and valves, the statement that the superficial veins are larger and more important, the dorsal venous network, the beginning, course and termination of the cephalic and basilic veins, the three endings of the median vein of the forearm, the median cubital vein with the bicipital aponeurosis and its use for intravenous injection, the venae comitantes and the axillary vein, and the whole lymph drainage of the limb — deep and superficial nodes, the supratrochlear and infraclavicular groups with their afferents and efferents, the superficial vessels following the two great veins, and the deep vessels following the arteries. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the five groups of axillary lymph nodes into which the limb's vessels drain, and the apical group as the exit from the axilla.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 1 "The Pectoral Region", PDF pages 153-162 — the clavipectoral fascia and the four structures that pierce it, of which the cephalic vein is one.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 3 "Muscles of the Shoulder Region", PDF pages 169-177 — the deltopectoral groove lodging the uppermost part of the cephalic vein and the deltopectoral lymph nodes.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 5 "Arm", PDF pages 194-204 — the basilic vein piercing the deep fascia at the middle of the arm at the insertion of coracobrachialis, at the same level as the median nerve crossing the brachial artery, and the bicipital aponeurosis crossing in front of that artery and separating it from the median cubital vein.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 132, topic "Superficial and deep veins of the upper limb" — the same five superficial veins with the same courses, the same account of the median cubital vein and the bicipital aponeurosis, and the venae comitantes of the radial and ulnar arteries forming those of the brachial. Extracted to scripts/kasr/extract/notes.json.
+VIP Academy revision book (src_8ebe255353ca4d184c5f), page 134, past questions — "Regarding veins of upper limb, one is correct answer" keyed to the cephalic vein starting at the lateral end of the dorsal venous arch, with the axillary artery having two venae comitantes offered and rejected; "Median vein of the forearm" keyed to the division into median basilic and median cephalic veins; and a 2017 clinical case in which the vein found on the medial side of the arm piercing superficial and deep fascia to join the veins beside the brachial artery is keyed as the basilic.
+VIP Academy revision book (src_8ebe255353ca4d184c5f), page 138, past questions — "Lymphatics that accompany the cephalic vein drain into the" keyed to the apical group (2024), and "Concerning lymph drainage of upper limb" keyed to the supratrochlear nodes lying in the cubital fossa roof beside the basilic vein.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which examines "all veins of the upper limb (beginning, course, end and name of the tributaries and areas drained by these tributaries)" and sets four upper-limb short-answer questions at 7 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: The 8 multiple-choice questions on this leaf already name this article in their own `library_ids`, so the reciprocal link is written from the question side and is not duplicated here.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+secondaryNodeIds: The canonical taxonomy has no node for the peripheral veins and none for the lymph drainage of a limb — its cardiovascular branch stops at cardiac anatomy and its lymphoreticular branch is entirely disease. SYS-CVS-T01-S01 and SYS-MSK-T01-S01-M03 are the placements the sibling vessel articles use, and the second is defensible here because the median cubital vein and the supratrochlear nodes are both at the elbow. The absence of a better node is a fact about the taxonomy, not about this article.
+sections.Overview and position: The observation that the two great veins are simply the two ends of the dorsal venous network is this article's own device for holding the chapter together. The book gives the network and the two origins in separate sentences and draws no such conclusion.
+sections.Structure: The contrast drawn between the cephalic vein *ending in* the axillary vein and the basilic vein *helping form* it is this article's framing. Both statements are the book's.
+sections.Relations: The remark that the basilic vein is the only superficial vein of the limb that runs deep to the deep fascia in the arm follows from the book's own courses for the five superficial veins, but the book does not state it as a generalisation.
+sections.Blood supply, innervation and lymphatics: The summary that the lateral (humeral) group is the main door into the axilla for the whole limb is this article's reading of the book's four separate drainage statements. Each route is the book's; the conclusion that they converge is drawn here.
+sections.Clinical correlations: The account of infection tracking along the superficial lymph vessels is inference from the book's stated routes. No Kasr source describes lymphangitis, lymphadenitis or any infection of the limb.
+sections.Clinical correlations: The reasoning that the bicipital aponeurosis is what makes the median cubital vein safe, and that without it the same needle track would reach artery and nerve, joins the book's anatomical relation to its own clinical remark. The book states both facts and not the link between them.
+sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers the development of the limb veins.
+sections.Surface and imaging anatomy: The statement that the dorsal venous network is where a cannula usually goes in practice is general clinical knowledge, not a Kasr statement, and is recorded in evidence_gaps as a place the corpus is silent.
+## notes
+Written for the whole leaf, veins and lymphatics together, because the department book's chapter 8 carries both under a title that names only the veins and the subject tree offers no other home for the lymph drainage. Eight of the module's multiple-choice questions point at this leaf and two of them are lymph-drainage questions, so an article that stopped at the veins would have left them untaught while still appearing to cover them.
+
+One further concept is named as the main concept of a question on this leaf but is not declared here, because this article does not teach it and another article does: CON-MSK-44234D1863CE8E, the extensor retinaculum and its six compartments, taught by ART-101-ANA-FOREARM-RETINACULUM-ROTATION. Its question rows reach this leaf through the question books' own filing, not through the anatomy.

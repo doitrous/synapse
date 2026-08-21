@@ -22,12 +22,12 @@ looks exactly like a file with nothing in it.
 | Batch | Items |
 | --- | --- |
 | `concept/101-ISK-concepts.md` | 71 |
-| `concept/101-ISK-mcq-concepts.md` | 88 |
+| `concept/101-ISK-mcq-concepts.md` | 100 |
 | `concept/101-ISK-practical-concepts.md` | 43 |
-| `question/101-ISK-mcq.md` | 640 |
-| `article/101-ISK-anatomy.md` | 34 |
+| `question/101-ISK-mcq.md` | 672 |
+| `article/101-ISK-anatomy.md` | 36 |
 | `article/101-ISK-histology-2.md` | 12 |
-| `article/101-ISK-histology-3.md` | 2 |
+| `article/101-ISK-histology-3.md` | 3 |
 | `article/101-ISK-histology.md` | 6 |
 | `practical/101-ISK-histology-practical.md` | 38 |
 | `written/101-ISK-BAQOON-2022-written.md` | 14 |
