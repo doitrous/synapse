@@ -1,7 +1,8 @@
 import { test, describe } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  QUESTION_FORMATS, WRITTEN_FORMATS, derivationRefusal, isWrittenFormat, mayDerive,
+  QUESTION_FORMATS, RUNNABLE_FORMATS, WRITTEN_FORMATS, derivationRefusal,
+  isRunnableFormat, isWrittenFormat, mayDerive,
   parseDerivedFrom, parseQuestionFormat, parseWrittenParts, writtenTotalMarks,
 } from './questionFormat.ts'
 
@@ -162,5 +163,32 @@ describe('Reading what a question was derived from', () => {
   test('an empty cell says nothing', () => {
     assert.deepEqual(parseDerivedFrom(''), {})
     assert.deepEqual(parseDerivedFrom(undefined), {})
+  })
+})
+
+describe('Formats that cannot yet be shown are refused', () => {
+  test('every runnable format is a real format', () => {
+    for (const format of RUNNABLE_FORMATS) {
+      assert.ok((QUESTION_FORMATS as readonly string[]).includes(format), format)
+    }
+  })
+
+  test('multiple response is not runnable', () => {
+    // It would go through the single-best-answer path, where `correctAnswer`
+    // holds one letter — a question with three right options would mark two of
+    // them wrong and tell the student so.
+    assert.equal(isRunnableFormat('mcq_multi'), false)
+  })
+
+  test('completion and labelling are not runnable', () => {
+    assert.equal(isRunnableFormat('completion'), false)
+    assert.equal(isRunnableFormat('labeling'), false)
+  })
+
+  test('everything with a runner is runnable', () => {
+    for (const format of ['mcq_single_best', 'true_false', 'image_based', 'matching',
+      'short_answer', 'structured_written', 'essay', 'comparison_table', 'multipart_written'] as const) {
+      assert.equal(isRunnableFormat(format), true, format)
+    }
   })
 })

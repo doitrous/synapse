@@ -152,6 +152,33 @@ export function writtenTotalMarks(parts: readonly WrittenPart[]): number {
   return parts.reduce((total, part) => total + (Number.isFinite(part.marks) ? part.marks : 0), 0)
 }
 
+/**
+ * Formats a student can actually be shown today.
+ *
+ * The rest exist in `QUESTION_FORMATS` so that a source question can be
+ * *classified* correctly while the surfaces to run it are built. Importing one
+ * before then is what this list prevents, and the reason is that the failures
+ * are silent rather than loud:
+ *
+ *  - `mcq_multi` renders through the single-best-answer path, where
+ *    `correctAnswer` holds one letter. A question with three correct options
+ *    would be marked as though only the first were right, and the student would
+ *    be told they were wrong when they were not.
+ *  - `completion` and `labeling` have no payload and no runner, so they would
+ *    reach a student as an empty question or not at all.
+ *
+ * Being refused at import is the loud failure. Add a format here only when
+ * something can genuinely render and mark it.
+ */
+export const RUNNABLE_FORMATS = [
+  'mcq_single_best', 'true_false', 'image_based', 'matching',
+  'short_answer', 'structured_written', 'essay', 'comparison_table', 'multipart_written',
+] as const
+
+export function isRunnableFormat(format: QuestionFormat): boolean {
+  return (RUNNABLE_FORMATS as readonly string[]).includes(format)
+}
+
 /* ---- reading a format and its parts out of an import row ---------------- */
 
 /** Every spelling of a format an author might reasonably write. */

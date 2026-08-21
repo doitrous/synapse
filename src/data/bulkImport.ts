@@ -12,7 +12,7 @@ import {
 import { DIFFICULTIES } from './qbank.ts'
 import {
   DEFAULT_QUESTION_FORMAT, QUESTION_FORMATS, derivationRefusal, isChoiceFormat,
-  isWrittenFormat, parseDerivedFrom, parseQuestionFormat, parseWrittenParts,
+  isRunnableFormat, isWrittenFormat, parseDerivedFrom, parseQuestionFormat, parseWrittenParts,
 } from './questionFormat.ts'
 import { matchingErrors, parseMatching } from './matchingQuestion.ts'
 import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
@@ -797,6 +797,12 @@ export function validateImportRow(kind: ContentKind, values: Record<string, stri
       const answer = values.correct_answer?.trim().toUpperCase()
       if (answer && !/^[A-F]$/.test(answer)) errors.push('Correct answer must be A–F')
       if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
+    }
+
+    // A format with nowhere to run is refused rather than imported to sit
+    // invisible or, worse, render as something it is not.
+    if (!isRunnableFormat(format)) {
+      errors.push(`Nothing can show a ${format} question to a student yet, so importing one would either hide it or mark it wrongly. Capture the source question and wait for the runner.`)
     }
 
     if (format === 'matching') {

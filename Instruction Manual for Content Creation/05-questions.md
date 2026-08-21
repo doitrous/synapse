@@ -637,3 +637,23 @@ Options may be written `A | text`, `A. text` or `A) text`, and prompts may use
 `=`, `->` or `:`. Any line that cannot be read is an error naming how many were
 lost — a block must never arrive half-imported in silence. A letter written
 twice is reported as the repeat it is, since only the first is ever reachable.
+
+### Which formats can be shown to a student today
+
+A format is refused at import until something can run and mark it. That refusal
+is deliberate: the alternative failures are silent. `mcq_multi` would go through
+the single-best-answer path, where the correct answer is one letter — a question
+with three right options would mark two of them wrong and tell the student so.
+`completion` and `labeling` have no payload and no runner, so they would arrive
+as an empty question or not at all.
+
+| Format | Where a student meets it |
+|---|---|
+| `mcq_single_best` · `true_false` · `image_based` | Question Bank |
+| `matching` | Essay questions → Matching questions |
+| `short_answer` · `structured_written` · `essay` · `comparison_table` · `multipart_written` | Essay questions → Exam questions |
+| `mcq_multi` · `completion` · `labeling` | **Nowhere yet — refused at import** |
+
+Capture a source question in a refused format in the source record and wait for
+the runner. Do not rewrite it as an MCQ to get it in; that changes what it
+tests, which is the whole thing this is here to prevent.
