@@ -272,3 +272,54 @@ test('a --with sibling that is also a directory sibling is counted once', () => 
     rmSync(module.root, { recursive: true, force: true })
   }
 })
+
+test('[clear] in a parseSections column is refused, and an empty body is not', () => {
+  // The third spelling of "deliberately empty", which nothing checked. There are
+  // two documented ones — an empty body for text(), `[clear]` for optionalList()
+  // — and check-empties.py classifies every column as one or the other. Section
+  // columns are neither, so they fell through the gap and it reported
+  // "0 sentinel-in-text" on thirty articles carrying exactly that.
+  //
+  // parseSections('[clear]') does not return []. With no `###` to split on it
+  // returns one section with an empty heading whose body is the literal string
+  // "[clear]" — and on `published_sections`, the evidence-gated student
+  // projection, that is a section a student can read.
+  const module = authorModule()
+  try {
+    const withSentinel = join(module.root, 'article', 'TEST-sentinel.md')
+    const article = (publishedSections: string) => [
+      '# Item',
+      '## id',
+      'ART-TEST-SENTINEL',
+      '## title',
+      'The cardiac pacemaker',
+      '## subject',
+      'cvs',
+      '## summary',
+      'Which tissue sets the heart rate.',
+      '## sections',
+      '### Mechanism',
+      'The sinoatrial node depolarises fastest.',
+      '## published_sections',
+      publishedSections,
+      '',
+    ].join('\n')
+
+    writeFileSync(withSentinel, article('[clear]'))
+    const refused = validate(withSentinel)
+    assert.ok(
+      refused.errors.some((error) => error.includes('published_sections holds the literal "[clear]"')),
+      `expected the sentinel to be refused, got ${JSON.stringify(refused.errors)}`,
+    )
+
+    // The correct empty for this column, which must stay clean.
+    writeFileSync(withSentinel, article(''))
+    const accepted = validate(withSentinel)
+    assert.ok(
+      !accepted.errors.some((error) => error.includes('[clear]')),
+      `an empty body is the right way to say this, got ${JSON.stringify(accepted.errors)}`,
+    )
+  } finally {
+    rmSync(module.root, { recursive: true, force: true })
+  }
+})
