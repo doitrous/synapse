@@ -2331,3 +2331,64 @@ The other three sentinel-poisoned columns are **a missing value dressed as a pre
 
 **A field that is empty tells you nothing. A field that is confidently wrong tells you something
 false — and every gate agreed with it.**
+
+---
+
+## CORRECTION: do not match `source_relative_path` to the index on a doubly-indexed source
+
+**I told four lanes to take `source_relative_path` from the corpus index rather than the
+manifest row. For the fourteen doubly-indexed sources that advice is unstable, and matching it
+buys a failure on the next rebuild.**
+
+The index reports **one** `sourceRelativePath` per content-addressed id. For a file indexed
+twice, **which of the two names it reports depends on which manifest row was written last — so
+it changes when the index is regenerated.**
+
+Observed, not theorised. A resource record for `src_078450096f7b08eb1284` was corrected to match
+the index; merging `main` brought a regenerated index that had flipped, and the same record
+failed again **with the error reversed**:
+
+```
+before:  is "…(2).pdf" in the corpus, not "…(2) copy.pdf"
+after:   is "…(2) copy.pdf" in the corpus, not "…(2).pdf"
+```
+
+Same file, same id, same bytes. **Matching the index is chasing a value with no reason to stay
+put.**
+
+### The fix that holds: state no relative path at all
+
+Verified in the validator — `validate-content-batch.mjs:627`:
+
+```js
+else if (values.source_relative_path?.trim() && values.source_relative_path.trim() !== record.sourceRelativePath)
+```
+
+**It compares only when the field is present.** And `:626` still refuses an id the corpus does
+not contain, so the **id resolves the file** — which is the entire point of content addressing.
+
+So on a doubly-indexed source, **omit `source_relative_path` and put the reason on the record**,
+so the omission reads as a decision rather than an oversight. That is **14 sources across four
+lanes**; two lanes have not hit it yet.
+
+### And a real fix upstream, for whoever owns the index generator
+
+> For a duplicated id, report **both** paths or report **none**. Reporting an arbitrary one
+> makes every downstream assertion a coin flip.
+
+The generator assigns `sources[source.sourceId] = {…}` while looping manifest rows, so the last
+row wins — and nothing about that ordering is stable across a regeneration.
+
+### The shape shared by the three guards in this section
+
+Worth naming, because three lanes arrived at it independently:
+
+| Guard | Refuses to let a silent no-op look like a pass |
+|---|---|
+| `batchFile()` refusing `[clear]` on a text column | a generator that **cannot emit** the bug |
+| `main()` returning 2 on an empty classification | a checker that **says so** when it cannot fail |
+| omitting a path that has no stable value | an assertion **not made** rather than made on a coin flip |
+
+All three prefer **an explicit absence to a confident wrong answer** — which is the same
+principle as *a field that is empty tells you nothing; a field that is confidently wrong tells
+you something false.*
