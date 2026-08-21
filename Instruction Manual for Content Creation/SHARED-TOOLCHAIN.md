@@ -1834,3 +1834,51 @@ reading.
 A registry listing fewer papers does not error. Depending on the generator it builds less
 **or removes what it no longer knows about**. Re-read the registry at merge time; a list quoted
 from a message is stale the moment it is sent.
+
+### `reviewer` / `final_publisher`: a named absence, not `[clear]` — settled
+
+Two lanes diverged and one convention has to win, because **two conventions in one library is
+worse than either.**
+
+The facts, verified rather than argued:
+
+- **Both fields are on `conceptPopulated`** (`audit-medical-content-fields.mjs:48-49`), so they
+  must carry a value.
+- **`conceptImport.ts:207-208` applies no default** — `reviewer: text(values.reviewer)` is a
+  plain passthrough. Whatever a batch writes is stored verbatim. The manual's *"Defaults to"*
+  describes the **admin form**, not the importer.
+- **§10's gate is `medical:simulate` at zero errors *and* `medical:audit --source` at zero.**
+
+So `[clear]` is honest and **makes the batch unshippable by the manual's own checklist** — the
+audit will never return zero while those fields are empty. "Valid and false" versus "true and
+failing" was the right framing; what settles it is that the failing option fails a **gate**,
+not a metric.
+
+**Settled: write a named absence.**
+
+```
+Unassigned — no faculty reviewer has seen this yet
+```
+
+It is non-empty, so the audit passes. It **asserts nothing false** — which was the whole of the
+objection to naming a team. And unlike `[clear]` it is **distinguishable from a field nobody
+filled in**, and greppable when review does happen.
+
+**Use that exact string.** A sentinel is only useful if it is identical everywhere; a
+paraphrase per lane gives back the ambiguity it was meant to remove.
+
+### An exhaustive `Record` is a compile-time promise the runtime never keeps
+
+`--experimental-strip-types` **erases types without checking them**, and every generator in
+`scripts/kasr/` runs that way. So a `Record<Tier, string>` that TypeScript believes is
+exhaustive **is not**, at runtime, and the miss produces `undefined` rather than an error.
+
+The worked case, and the symptom is what makes it dangerous: `SourceRef.tier` had a vocabulary
+of its own — `resit` and `formative` are absent from `EXAM_SOURCE_TIERS`, and `examSignal.ts:193`
+coerces an unknown tier to `other` **silently**, costing a resit paper its blueprint weight.
+Making `TIER_PREFIX` exhaustive then turned those seeds into
+**`101-ISK-undefined-2022-written.md`**, and the orphan sweep **deleted four real batches** to
+make room for names that no longer matched. Restored within the minute.
+
+> **Assume an exhaustive map is not.** Throw on the unknown key rather than letting it produce
+> a value — the symptom otherwise is a **plausible filename**, not an error.
