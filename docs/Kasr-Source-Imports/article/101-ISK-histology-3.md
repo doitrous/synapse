@@ -478,3 +478,245 @@ reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence fo
 ## notes
 Companion to ART-101-HIS-CYTOPLASMIC-ORGANELLES. The centriole, the cilium, the flagellum, the microvillus and the stereocilium are all built by the two filament systems described here, but they are taught in ART-101-HIS-MEMBRANOUS-SPECIALISATIONS and are cross-referred rather than repeated, so that the microtubule counts live in exactly one article.
 The Mechanism section reads the two filament systems against each other — hold a shape and move along a line, against change a shape and pinch off — which is this article's reading of the book's two function lists rather than a comparison the book itself draws. It is written as a reading for that reason.
+
+---
+
+# Item
+## id
+ART-101-HIS-CT-CELLS-COMPARED
+## title
+Connective tissue cells compared: fibroblast, fat cell, plasma cell and macrophage
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## topic
+Connective tissue
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## primary_node_id
+DIS-HIS-T02
+## related_concepts
+CON-FND-9EA7F8E2898EB7
+CON-FND-2E2D5D5817E5F5
+CON-FND-CC62175DBE7355
+CON-FND-45A380D5F6A77F
+## related_articles
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The mast cell, its metachromasia and its four secretions, and the chapter's resident-against-transient classification, are taught there in full.
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES: The monocyte becomes the macrophage and the B lymphocyte becomes the plasma cell, and both parent cells are described there.
+ART-101-HIS-SECRETORY-PATHWAY-ORGANELLES: The plasma cell's basophilia and its negative Golgi image are the light-microscopic signatures of rough endoplasmic reticulum and Golgi apparatus, explained there.
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES: The collagen, elastic and reticular fibres the fibroblast synthesises.
+## aliases
+Fibroblast | Fibrocyte | Adipocyte | Unilocular fat cell | Multilocular fat cell | Plasma cell | Macrophage | Histiocyte
+## reading_time
+14
+## summary
+This chapter is taught as five comparison tables and the paper asks it back as tables. Four of the cells sit in three of them: active fibroblast against fibrocyte, unilocular fat cell against multilocular, and plasma cell against macrophage. Each table runs the same four columns — origin, site, light microscopy, electron microscopy — and the marks are won by filling the columns rather than by describing the cells, because two cells that look alike in one column are always separated in another.
+## sections
+### Definition
+Connective tissue proper is built of cells plus matrix, and its cells divide by how long they stay. Resident cells are stable and long-lived: the undifferentiated mesenchymal cell, the pericyte, the fibroblast, the fat cell, the reticular cell, the mast cell and the macrophage — seven of them. Transient cells are short-lived: the plasma cell and the leucocytes — two. The book also sorts the same cells a second way, by function, into four classes: undifferentiated cells, connective-tissue-forming cells, fat-containing cells, and cells responsible for immunity and defence.
+
+Origin is the first column of every table and it is where two of the four cells here break the pattern. The fibroblast arises from the undifferentiated mesenchymal cell and from the pericyte. The adipose cell arises from the undifferentiated mesenchymal cell. But the macrophage arises from the monocyte, and the plasma cell from the B lymphocyte — both from the blood, which is why one of them is counted resident and the other transient, and why neither is a mesenchymal derivative.
+
+The fibroblast is the most common cell of connective tissue and is found in nearly all types of connective tissue proper. The macrophage is also called the histiocyte, which is the name it takes when it is fixed in connective tissue.
+
+### Mechanism
+Each cell's appearance follows from the job it is doing, and in two of these four the book gives the cell in two states so that the correspondence can be seen twice.
+
+**The fibroblast** is the connective-tissue-forming cell, and it exists as an active fibroblast and an inactive fibrocyte. It does four things: it synthesises the connective tissue fibres, it synthesises the ground substance of the matrix, it produces growth factors for cell growth and differentiation, and it heals and repairs connective tissue after injury. The fibrocyte is the same cell resting — it maintains the tissue by a continuous slow turnover of the extracellular components, and on injury it becomes active again for wound healing. So a fibroblast that is synthesising is built for protein synthesis, and one that is not is built for nothing much, and every feature in both columns follows from that single fact.
+
+**The adipose cell** stores fat, and the two kinds store it differently because they use it differently. The unilocular fat cell forms white adipose connective tissue. It synthesises and stores fat, supports organs such as the kidney, insulates against heat loss, and — the book is explicit that this is an endocrine function — secretes leptin, which inhibits food intake, stimulates the metabolic rate and causes loss of body weight. The multilocular fat cell forms brown adipose connective tissue and performs thermogenesis, breaking fat down to release heat through the thermogenin protein in its mitochondria. One cell banks the fat; the other burns it, which is why one has a single droplet and few mitochondria and the other has many droplets and many mitochondria rich in cytochrome oxidase.
+
+**The plasma cell** arises from the B lymphocyte and is numerous in lymphoid tissue. Its function is the synthesis and secretion of antibodies, and it is the book's own type example of a protein-forming cell: it is packed with rough endoplasmic reticulum, has a well developed Golgi and many mitochondria, and has no secretory granules at all, because it exports antibody continuously rather than storing it.
+
+**The macrophage** arises from the monocyte and is found in connective tissue, lymphoid tissue, bone marrow, brain, lung and liver. It does four things: it phagocytoses and destroys foreign particles, microorganisms and dead cells; it fuses with its fellows into multinucleated foreign body giant cells to engulf particles too large for one cell; it presents antigen to activate lymphocytes; and it destroys old red cells in the liver and spleen. On electron microscopy it shows pseudopodia and is rich in lysosomes, phagocytosed particles and residual bodies, with a prominent Golgi, few rough endoplasmic reticulum profiles and a heterochromatic nucleus — the exact inverse of the plasma cell's ultrastructure.
+
+### Key determinants
+Run the book's own columns.
+
+**Active fibroblast against inactive fibrocyte.** The active cell is branched, with many long thin processes, deeply basophilic cytoplasm, and a central large oval pale nucleus with a prominent nucleolus. By electron microscopy it is a protein-synthesising cell: well developed rough endoplasmic reticulum and Golgi apparatus, many mitochondria, and a euchromatic nucleus. The fibrocyte is smaller and spindle-shaped, with few processes, paler cytoplasm, and a small darker nucleus carrying more heterochromatin; by electron microscopy it has less rough endoplasmic reticulum, less Golgi and fewer mitochondria. Every feature is the opposite of the active cell's, so an answer that describes the fibrocyte when the question said active fibroblast is wrong in every row, not one.
+
+**Unilocular against multilocular fat cell.** Origin is the same for both, the undifferentiated mesenchymal cell, and that is the one row where they agree. The unilocular cell forms white adipose connective tissue; it is large, fifty to a hundred and fifty micrometres, and oval; its fat is one large droplet containing dissolved carotenoids, which displaces the cytoplasm and nucleus to the periphery. Because haematoxylin and eosin dissolves the fat away, what is left is the signet ring appearance, and Sudan III stains the droplet orange. By electron microscopy it has abundant smooth endoplasmic reticulum, few mitochondria and one large electron-dense droplet. The multilocular cell forms brown adipose connective tissue; it is smaller, its fat is in multiple small droplets so there is no signet ring, its nucleus is mostly eccentric and round, and it is brown-pigmented; by electron microscopy it has less smooth endoplasmic reticulum and many mitochondria rich in cytochrome oxidase.
+
+**Plasma cell against macrophage**, which the resit paper asks under three headings: origin, site and light microscopy.
+
+Origin: the plasma cell from the B lymphocyte, through the plasmablast; the macrophage from the monocyte.
+
+Site: the plasma cell in lymphoid tissue; the macrophage fixed in connective tissue as the histiocyte, and free in lymphoid tissue, bone marrow, brain, liver and lung.
+
+Light microscopy: the plasma cell is a large oval cell with deeply basophilic cytoplasm showing a negative Golgi image, and a spherical eccentric nucleus whose dark heterochromatin alternates with lighter euchromatin to give the cart-wheel, or clock-face, appearance. The macrophage is a large branched motile cell with an irregular boundary, pale granular cytoplasm and a single darkly stained eccentric kidney-shaped nucleus, and it is demonstrated by vital stains such as trypan blue or India ink, which it takes up.
+
+Both nuclei are eccentric, so eccentricity settles nothing. What settles it is the pattern — cart-wheel against kidney-shaped — the negative Golgi image, and the ingested vital stain.
+
+**Plasma cell against mast cell**, the chapter's other printed comparison, is the same discipline applied to a different pair. Both are large and both are basophilic. The mast cell's basophilia is granular and metachromatic, turning purple or red with toluidine blue because of the heparin in its granules, and its nucleus is central, spherical and pale. The plasma cell's basophilia is diffuse and comes from rough endoplasmic reticulum, it has no granules at all, and its nucleus is eccentric and cart-wheeled. One stain separates them outright.
+
+### Normal values
+The unilocular adipose cell is 50–150 µm across, the largest cell described in this chapter. Connective tissue proper has seven resident cell types and two transient cell types, and four functional classes. The book gives four fibroblast functions, four unilocular fat cell functions, and four macrophage functions.
+
+### Clinical significance
+The book states this chapter's consequences mostly as functions rather than as diseases, and each of the four cells carries one that matters.
+
+The fibroblast is the cell of healing. It heals and repairs connective tissue after injury, and the inactive fibrocyte becomes active again for wound healing — which means that a tissue's capacity to repair is a matter of how many fibroblasts it holds and whether they can be switched on.
+
+The unilocular fat cell is an endocrine organ. Its leptin inhibits food intake, stimulates the metabolic rate and causes loss of body weight, so adipose tissue is not an inert store but a tissue that signals about its own size. The multilocular fat cell generates heat directly, by breaking fat down through the thermogenin protein of its mitochondria.
+
+The macrophage carries the chapter's defence load. It destroys foreign particles, microorganisms and dead cells; it fuses into multinucleated foreign body giant cells when a particle is too large for one cell to engulf, which is the cell a pathologist sees around a foreign body; it presents antigen to activate lymphocytes, joining the innate response to the specific one; and it destroys the old red cells in the liver and spleen, which is where the red cell's life ends.
+
+The plasma cell is where the humoral immune response ends. A B lymphocyte, meeting its antigen and activated by a T-helper cell, becomes a plasmablast and then a plasma cell, and it is the plasma cell and not the lymphocyte that makes the antibody.
+
+### Common misconceptions
+The signet ring is not an artefact to be waved away. It is the diagnostic light-microscopic appearance of the unilocular fat cell, and it exists precisely because haematoxylin and eosin dissolved the fat out — which is also why Sudan III, which does not, shows the droplet orange instead. The multilocular cell, whose fat is in many small droplets, does not give the appearance at all.
+
+Describing the fibrocyte and calling it a fibroblast. The question asks the active cell: branched, deeply basophilic, large pale euchromatic nucleus with a prominent nucleolus, rich in rough endoplasmic reticulum. The inactive cell is its opposite in every row.
+
+Separating the plasma cell from the macrophage on basophilia. Both can look dark at low power. The cart-wheel nucleus with a negative Golgi image against the kidney-shaped nucleus with ingested vital stain is what separates them.
+
+Expecting secretory granules in a plasma cell. It has none. It exports antibody continuously, which is why its cytoplasm is rough endoplasmic reticulum rather than stored product, and why a granular basophilic cell is a mast cell instead.
+
+Calling the macrophage a mesenchymal derivative because it is a resident connective tissue cell. It is resident, but it comes from the monocyte, and the histiocyte is the name of the fixed form rather than a different cell.
+## hold_these
+The fibroblast is the commonest cell of connective tissue proper and arises from the undifferentiated mesenchymal cell and from the pericyte.
+The active fibroblast is branched with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus; by EM it has well developed rER and Golgi, many mitochondria and a euchromatic nucleus.
+The fibrocyte is smaller and spindle-shaped, with few processes, paler cytoplasm, a smaller darker nucleus with more heterochromatin, and less rER, Golgi and mitochondria.
+Fibroblast functions are synthesis of connective tissue fibres, synthesis of ground substance, production of growth factors, and healing and repair after injury.
+Both adipose cells arise from the undifferentiated mesenchymal cell; the unilocular forms white adipose connective tissue and the multilocular forms brown.
+The unilocular fat cell is 50-150 µm, stores fat as one large droplet containing dissolved carotenoids, gives the signet ring appearance in H&E because the fat is dissolved away, and stains orange with Sudan III.
+By EM the unilocular fat cell has abundant sER, few mitochondria and one large electron-dense droplet; the multilocular has less sER and many mitochondria rich in cytochrome oxidase.
+Unilocular fat cell functions are synthesis and storage of fat, support of organs such as the kidney, heat insulation, and secretion of leptin, which inhibits food intake and stimulates metabolic rate and loss of body weight.
+The multilocular fat cell performs thermogenesis through the thermogenin protein in its mitochondria.
+The plasma cell arises from the B lymphocyte, lies in lymphoid tissue, and shows deeply basophilic cytoplasm with a negative Golgi image and an eccentric cart-wheel or clock-face nucleus.
+By EM the plasma cell is rich in rER with a well developed Golgi, many mitochondria, a euchromatic nucleus and no secretory granules; its function is the synthesis and secretion of antibodies.
+The macrophage arises from the monocyte, is fixed in connective tissue as the histiocyte and free in lymphoid tissue, bone marrow, brain, liver and lung, and is a large branched motile cell with an irregular boundary, pale granular cytoplasm and a darkly stained eccentric kidney-shaped nucleus.
+The macrophage is demonstrated by vital stains such as trypan blue or India ink, which it phagocytoses.
+Macrophage functions are phagocytosis and destruction of foreign particles, microorganisms and dead cells; fusion into multinucleated foreign body giant cells; antigen presentation to activate lymphocytes; and destruction of old red cells in liver and spleen.
+Connective tissue proper has seven resident cell types and two transient cell types, and four functional classes.
+## lose_the_mark
+Describing the fibrocyte when the question asks for the active fibroblast. The two are opposites in every row of the table.
+Dismissing the signet ring as an artefact. It is the diagnostic LM appearance of the unilocular fat cell, and it exists because H&E dissolved the fat.
+Giving the signet ring appearance to the multilocular fat cell. Its fat is in multiple small droplets and it has no signet ring.
+Deriving the macrophage from the mesenchymal cell. It comes from the monocyte, and the plasma cell comes from the B lymphocyte.
+Separating the plasma cell and the macrophage by cytoplasmic basophilia. Both can look dark; the cart-wheel nucleus and negative Golgi image against the kidney-shaped nucleus and ingested vital stain are what settle it.
+Expecting secretory granules in the plasma cell. It has none, because antibody is exported continuously rather than stored.
+Naming the plasma cell nucleus as central. It is eccentric, and its pattern is the cart-wheel or clock-face.
+Listing three fibroblast functions. The book gives four, and production of growth factors is the one usually dropped.
+Treating adipose tissue as an inert fat store. The book gives leptin secretion as an endocrine function of the unilocular cell.
+Calling the histiocyte a separate cell from the macrophage. It is the macrophage's name when fixed in connective tissue.
+## annotations
+### definition_of · CON-FND-9EA7F8E2898EB7
+Quote: The fibroblast is the most common cell of connective tissue and is found in nearly all types of connective tissue proper.
+Block: body
+### definition_of · CON-FND-CC62175DBE7355
+Quote: arises from the B lymphocyte and is numerous in lymphoid tissue. Its function is the synthesis and secretion of antibodies
+Block: body
+### definition_of · CON-FND-2E2D5D5817E5F5
+Quote: The unilocular fat cell forms white adipose connective tissue.
+Block: body
+### contrasts_with · CON-FND-45A380D5F6A77F
+Quote: Origin: the plasma cell from the B lymphocyte, through the plasmablast; the macrophage from the monocyte.
+Block: body
+### often_confused_with · CON-FND-45A380D5F6A77F
+Quote: Separating the plasma cell and the macrophage by cytoplasmic basophilia.
+Block: trap
+### often_confused_with · CON-FND-9EA7F8E2898EB7
+Quote: Describing the fibrocyte when the question asks for the active fibroblast.
+Block: trap
+## image_recommendations
+### comparison table · Plasma cell against macrophage at the same magnification, with origin, site and light-microscopic picture set out in three rows beneath the two images, the cart-wheel nucleus and negative Golgi image marked on one and the kidney-shaped nucleus and ingested vital stain marked on the other
+Purpose: The paper asks this pair under exactly these three headings, and the discrimination is visual: two large dark cells that are told apart by nuclear pattern and by what one of them has eaten. Two plates seen separately leave the student comparing memories rather than cells.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: composite built from two openly licensed micrographs, following the department book's page 45 and page 46 tables
+Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
+Notes: Serves concepts CON-FND-45A380D5F6A77F and CON-FND-CC62175DBE7355.
+### histology · Unilocular adipose tissue in H&E showing the signet ring appearance with peripherally displaced nuclei, beside a Sudan III preparation of the same tissue with the droplets stained orange
+Purpose: The signet ring is the visible consequence of a stain removing the thing being studied, and the paired plate is the only way to show that the fat was there. A single H&E plate teaches the artefact as though it were the anatomy.
+Priority: required
+Status: needed
+Kind: histology
+Section: Key determinants
+Source direction: openly licensed histology teaching set
+Rights: must be CC-BY or public domain
+Notes: Serves concept CON-FND-2E2D5D5817E5F5.
+### comparison table · Unilocular against multilocular adipose cell, side by side at the same magnification, with rows for origin, tissue formed, size, droplets, nucleus position, pigmentation, smooth endoplasmic reticulum and mitochondria
+Purpose: The book prints this as a table and the 2024 paper asks it back as a table. Multilocular fat is also the half students have never seen, having met only white fat in every other slide.
+Priority: required
+Status: needed
+Kind: comparison table
+Section: Key determinants
+Source direction: purpose-drawn from the department book's page 44 table, with openly licensed micrographs, redrawn rather than reproduced
+Rights: must be CC-BY or public domain, or newly drawn for this product
+### histology · Connective tissue spread showing an active fibroblast beside an inactive fibrocyte in the same field, processes and nuclear detail resolved
+Purpose: Active and inactive are relative descriptions — smaller, paler, darker nucleus — and a relative description needs both terms present. One cell alone cannot show that a nucleus is the paler of two.
+Priority: required
+Status: needed
+Kind: histology
+Section: Key determinants
+Source direction: openly licensed histology teaching set, or an institutional slide scan
+Rights: must be CC-BY or public domain
+Notes: Serves concept CON-FND-9EA7F8E2898EB7.
+### diagram · Origins of the connective tissue cells as one branching chart, the undifferentiated mesenchymal cell giving pericyte, fibroblast, fat cell, reticular cell and mast cell on one branch, and the blood giving the monocyte to macrophage and the B lymphocyte to plasmablast to plasma cell on the other
+Purpose: Origin is the first column of every table in this chapter and the one that catches students out, because two of the cells that live in connective tissue were born in blood. Drawn as two branches from two sources, that stops being an exception to memorise.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Definition
+Source direction: purpose-drawn, following the department book's page 42 chart
+Rights: newly drawn for this product, or CC-BY
+### histology · Multinucleated foreign body giant cell formed by fused macrophages, surrounding a foreign particle
+Purpose: The fusion is the book's explanation of a cell a student will meet again in pathology, and seeing many nuclei in one cytoplasm is what makes the word multinucleated concrete.
+Priority: optional
+Status: needed
+Kind: histology
+Section: Clinical significance
+Source direction: openly licensed histopathology teaching set
+Rights: must be CC-BY or public domain
+## conflicts
+Origin of the plasma cell. This chapter of the department book states only that the plasma cell arises from the B lymphocyte. The same book's non-granular leucocyte chapter, printed pages 36-38, gives the fuller sequence: B lymphocyte, activated by antigen and by a T-helper cell, becomes a plasmablast and then a plasma cell. Concept CON-FND-45A380D5F6A77F names the plasmablast in the origin column. This article gives the fuller sequence and marks it as coming from the other chapter of the same book, rather than dropping a step the paper's own answer key expects.
+## evidence_gaps
+The connective tissue chapter names no disease. Its only two applied notes are the mast cell's — the allergic reaction and anaphylactic shock — and both belong to ART-101-HIS-CONNECTIVE-TISSUE-CELLS. The Clinical significance section here is therefore built from the functions the book states for each cell, not from named conditions, and it says so.
+The book gives no size for the fibroblast, the plasma cell, the macrophage or the multilocular fat cell. The only diameter in the chapter is the unilocular adipose cell at 50-150 µm.
+The book gives no life span for any cell in this chapter, only the resident-against-transient distinction. The mast cell's weeks to months and the basophil's few days come from the granular leucocyte chapter, and no equivalent figure exists for the fibroblast, the fat cell, the plasma cell or the macrophage.
+The book does not name any antibody class the plasma cell secretes, nor distinguish between them.
+The book does not describe the internal structure of the fat droplet, nor say whether the unilocular droplet is membrane-bound.
+The book states that the macrophage has pale granular cytoplasm but does not say what the granules are. The reader is left to infer the lysosomes named in the electron-microscopic row.
+The page 42, 43, 44, 45 and 46 tables carry rhetorical "Why?" prompts beside several rows, left for the student rather than answered. Where this article gives a reason for a feature — many mitochondria for thermogenesis, rough endoplasmic reticulum for antibody export — it is this article's reading of the book's own two columns, not an answer the book prints.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "Connective Tissue Cells", printed pages 41-46, in particular the page 43 table of active against inactive fibroblast, the page 44 table of unilocular against multilocular adipose cell, the page 45 table of reticular cell against macrophage and the page 46 table of mast cell against plasma cell. Extracted to scripts/kasr/extract/deptbook.json, manifest source src_b1e6dc481eaf337268d0.
+The plasmablast step in the plasma cell's origin is taken from the same book's chapter "Non Granular leucocytes", printed pages 36-38.
+## field_notes
+arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every plate this article needs is written as an image recommendation.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: None of the four concepts this article teaches carries a secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+## notes
+Companion to ART-101-HIS-CONNECTIVE-TISSUE-CELLS, which teaches the same chapter but is built around the mast cell. The deliberate overlap is in two places. First, the resident-against-transient classification, which is restated here because every table in this article has origin as its first column and the classification is what that column means. Second, the plasma cell against mast cell comparison, which is one of the chapter's five printed tables: the mast cell half is taught there, the plasma cell half here, and a student answering that table needs both. If the two articles are merged, those are the seams.
+The four cells here plus the mast cell there account for five of the chapter's seven resident cells. The undifferentiated mesenchymal cell, the pericyte and the reticular cell are described in neither article at length, and no concept currently sits on them.

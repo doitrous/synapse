@@ -910,7 +910,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+ART-101-HIS-CT-CELLS-COMPARED
 ## owner
 Claude
 ## source_citation
@@ -984,7 +984,7 @@ Medium
 ## estimated_seconds
 300
 ## library_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## owner
 Claude
 ## source_citation

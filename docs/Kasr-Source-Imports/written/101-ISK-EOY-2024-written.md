@@ -1099,7 +1099,7 @@ Medium
 ## estimated_seconds
 240
 ## library_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
+ART-101-HIS-SECRETORY-PATHWAY-ORGANELLES
 ## owner
 Claude
 ## source_citation
@@ -1250,7 +1250,7 @@ Medium
 ## estimated_seconds
 240
 ## library_ids
-ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## owner
 Claude
 ## source_citation
