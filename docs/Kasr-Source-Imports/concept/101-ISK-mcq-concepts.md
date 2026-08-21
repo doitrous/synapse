@@ -5,6 +5,7 @@
     Articular system — 13 questions, 4 concepts
     Axilla — 68 questions, 17 concepts
     Blood Platelets — 19 questions, 5 concepts
+    Connective Tissue Cells — 89 questions, 21 concepts
     Cytoplasm — 286 questions, 23 concepts
     Embryonic Period — 9 questions, 2 concepts
     Fetal Membranes — 69 questions, 16 concepts
@@ -18,6 +19,7 @@
     Hand — 68 questions, 13 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
     Microscopes — 7 questions, 2 concepts
+    Microtechniques — 87 questions, 21 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Nerve Supply of Upper Limb & Nerve Injuries — 159 questions, 27 concepts
@@ -46,7 +48,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  377 questions were excluded and 0 held back for having no
+  412 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4995,6 +4997,2891 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
+Connective tissue cells divide into fixed and free, and into branched and unbranched — and the two divisions do not coincide
+## id
+CON-FND-7D55448AC644C5
+## canonical_key
+connective-tissue-cells-fixed-free-and-which-are-branched
+## definition
+The cells of connective tissue proper are grouped two ways. By permanence: the fixed cells are the fibroblast and fibrocyte, the fat cell, the undifferentiated mesenchymal cell, the pericyte, the reticular cell and the pigment cell, all resident and long-lived; the free cells are the macrophage, the mast cell, the plasma cell and the wandering leukocytes, which come and go and are mostly short-lived — the plasma cell most obviously so. By shape: the branched cells are the fibroblast, the undifferentiated mesenchymal cell, the pericyte, the macrophage and the pigment cell, all of which send out processes; the unbranched are the fat cell, which is a sphere, and the plasma cell and mast cell, which are oval. Cells of other tissues are not connective tissue cells at all however phagocytic they are: the microglia is the macrophage of the central nervous system and belongs to nervous tissue, and the Kupffer cell and the dust cell belong to liver and lung.
+## explicit_objective
+Sort the connective tissue cells into fixed and free and into branched and unbranched, and reject cells that belong to other tissues.
+## pitfalls
+Assuming a free cell must be branched because it moves. The macrophage is free and branched, but the plasma cell and the mast cell are free and oval, while the fibroblast is fixed and the most branched of all — motility and shape are unrelated here.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p9 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p2 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Fixed connective tissue cells | Free connective tissue cells | Branched cells
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All of the following is branched Connective tissue cells EXCEPT:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The mast cell stores heparin and histamine and releases them when allergen binds its IgE — which is what an anaphylactic reaction is
+## id
+CON-FND-7D406E91EA3BF2
+## canonical_key
+mast-cell-granule-contents-and-the-anaphylactic-reaction
+## definition
+The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and — in the books' account — serotonin; it also releases eosinophil chemotactic factor and leukotrienes. Its surface carries receptors for IgE, so that when an allergen binds antibody already fixed to the cell, the granules are discharged at once. That discharge is the immediate allergic reaction: locally, itching, swelling and wheal; systemically, the vasodilatation and increased permeability that produce oedema, bronchospasm and a sudden fall in blood pressure — anaphylactic shock, as after a penicillin injection or a peanut in a sensitised child. The mast cell does not make histaminase; that is the eosinophil's enzyme, and it is what ends the reaction the mast cell began.
+## explicit_objective
+List what the mast cell releases, explain how IgE triggers the release, and connect each mediator to a sign of the allergic reaction.
+## pitfalls
+Giving the mast cell histaminase. It releases histamine and the eosinophil destroys it — the two cells are the two ends of one reaction, and swapping the enzyme for the amine reverses which cell is causing the trouble.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p9 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p5 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
+src_7449943b97c0e18d37b0 | question_book | | p4 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Anaphylaxis | Histamine release | IgE receptors | Allergic reaction
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Mast cells secrete:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The active fibroblast comes from the mesenchymal cell and is built to synthesise protein
+## id
+CON-FND-9EA7F8E2898EB7
+## canonical_key
+fibroblast-features-function
+## definition
+The fibroblast is the commonest cell of connective tissue proper and arises from the undifferentiated mesenchymal cell and from the pericyte. In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus. By electron microscopy it is a protein-synthesising cell: well-developed rER and Golgi apparatus, many mitochondria and a euchromatic nucleus. The inactive form, the fibrocyte, is a smaller spindle cell with few processes, paler cytoplasm and a smaller darker nucleus with more heterochromatin and less rER, Golgi and mitochondria.
+## explicit_objective
+State where the fibroblast comes from and describe the active fibroblast by light and electron microscopy.
+## pitfalls
+Describing the fibrocyte and calling it a fibroblast. The question asks the active cell — branched, deeply basophilic, pale euchromatic nucleus — and the inactive one is the opposite of it in every feature.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p9 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p10 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p5 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p20 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.79
+## exam_weight_by_year
+KAU_Y1=0.79
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Active fibroblast | Fibrocyte
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Most common cell in Connective tissue is :
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The emitted definition describes the fibroblast and does not list what it secretes. Four rows of this leaf turn on the products — collagen, elastin and fibrillin, reticular fibres and the ground substance — and on what the cell does not make, heparin, and does not do, grow epithelium. The teaching is carried in the option explanations here; the definition should be widened rather than a second fibroblast key minted, since the batch already carries `fibroblast-active-and-fibrocyte-inactive` as a rival.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The plasma cell is a B lymphocyte turned into an antibody factory, and its nucleus shows it
+## id
+CON-FND-CC62175DBE7355
+## canonical_key
+plasma-cell-features-function
+## definition
+The plasma cell arises from the B lymphocyte and is numerous in lymphoid tissue. It is a large oval cell with deeply basophilic cytoplasm showing a negative Golgi image, and an eccentric spherical nucleus whose dark heterochromatin alternates with lighter euchromatin to give the cart-wheel or clock-face appearance. By electron microscopy it is a protein-forming cell rich in rough endoplasmic reticulum, with a well developed Golgi, many mitochondria, a euchromatic nucleus and no secretory granules. Its function is the synthesis and secretion of antibodies.
+## explicit_objective
+Give the origin, site and light-microscopic picture of the plasma cell and relate them to antibody secretion.
+## pitfalls
+Expecting secretory granules. The plasma cell has none — it exports antibody continuously, which is why its cytoplasm is rough endoplasmic reticulum rather than stored product.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Plasmacyte | Cart-wheel nucleus | Clock-face nucleus
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The cell responsible for production of antibodies is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The mast cell and the plasma cell are both basophilic and share nothing else
+## id
+CON-FND-0BB73C5CC1821B
+## canonical_key
+mast-cell-lm-em-metachromasia
+## definition
+The mast cell arises from the undifferentiated mesenchymal cell and lies in loose connective tissue around blood vessels and under the epithelium of the lung and digestive tube. It is a large oval cell, twenty to thirty micrometres, with a central spherical pale nucleus and cytoplasm full of basophilic granules that toluidine blue stains metachromatically purple or red. By electron microscopy it has a well developed Golgi, many mitochondria, few rough endoplasmic reticulum profiles and electron-dense membrane-bound granules.
+## explicit_objective
+Give the origin, site and light-microscopic picture of the mast cell, and distinguish it from the plasma cell.
+## pitfalls
+Reading basophilia as one finding. The mast cell's basophilia is granular and metachromatic; the plasma cell's is diffuse cytoplasmic basophilia from rough endoplasmic reticulum and is not metachromatic at all.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p16 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p9 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Mastocyte | Tissue basophil
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Basophilic granules are present in:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
+## id
+CON-HEM-A8DC563DBFFDF6
+## canonical_key
+b-lymphocyte-becomes-the-plasma-cell
+## definition
+The B lymphocyte matures in the bone marrow in mammals and carries surface receptors for IgM and IgD. When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response. Some of its progeny become B memory cells, which give the rapid second response. The plasma cell itself is a transient connective tissue cell with deeply basophilic cytoplasm, a negative Golgi image and a cart-wheel nucleus.
+## explicit_objective
+Trace the plasma cell back to the B lymphocyte and name what activates the change.
+## pitfalls
+Deriving the plasma cell from the T lymphocyte or the monocyte because both are involved in the response. The T helper cell only permits the change; the cell that becomes a plasma cell is the B lymphocyte.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p10 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p6 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p2 | 101 ISK
+src_995e491b2e22cc96d8ef | question_book | | p3 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+[clear]
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] Which of these blood elements can differentiate into plasma cells?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues
+## id
+CON-HEM-719FA556594454
+## canonical_key
+monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage
+## definition
+The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look. It spends about three days in the blood, then enters connective tissue and becomes the macrophage, living some three months. It is an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body — the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system.
+## explicit_objective
+Identify the monocyte by size and nuclear shape and name the tissue cells it gives rise to.
+## pitfalls
+Calling the large lymphocyte the largest leukocyte. It reaches 10–15 µm; the monocyte reaches 20 µm, and it is the nuclear shape — kidney, not round — that settles it on a film.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p9 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p10 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p10 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p6 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p5 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+[clear]
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Macrophages originate from..?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis
+## id
+CON-HEM-607B783A16FBEB
+## canonical_key
+basophil-granule-contents-and-anaphylaxis
+## definition
+Basophils are 0–1% of the white cell count, 10–12 µm, with an S-shaped nucleus obscured by coarse granules that stain metachromatically purple with toluidine blue because of their heparin. The specific granules are large, rounded and electron dense, holding histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane carries receptors for IgE. Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma. Basophilia is above 2%.
+## explicit_objective
+List what the basophil granule contains, and connect each substance to the clinical event it produces.
+## pitfalls
+Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors — the book compares them directly — but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_995e491b2e22cc96d8ef | question_book | | p4 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p5 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p2 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+Basophil granules | Anaphylaxis | Basophilia
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] basophil membrane contain receptor for
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The pericyte is an undifferentiated cell wrapped round a capillary with actin and myosin in it, able to contract and to become something else
+## id
+CON-FND-4589050BE16100
+## canonical_key
+pericyte-and-undifferentiated-mesenchymal-cell
+## definition
+Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes. They are small cells with a dark, heterochromatic nucleus and few organelles, which is the picture of an undifferentiated cell rather than a working one — and they are indeed undifferentiated, able to give rise to fibroblasts, to smooth muscle and to new endothelium after injury. They carry a network of actin and myosin filaments, so they are contractile and can narrow the capillary they sit on. The undifferentiated mesenchymal cell of connective tissue proper is the same kind of reserve cell away from a vessel wall.
+## explicit_objective
+Describe the pericyte's position, its nucleus and organelle content, and give the two things its actin–myosin network and its undifferentiated state allow it to do.
+## pitfalls
+Reading "few organelles and a dark nucleus" as a dying cell. It is the signature of a resting, undifferentiated one — the same picture as the fibrocyte — and it is what makes the pericyte a reserve the tissue can call on.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p11 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p1 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
+src_7449943b97c0e18d37b0 | question_book | | p1 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p8 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Pericyte | Undifferentiated mesenchymal cell | Perivascular cell
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Pericytes of the connective tissue arises from:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
+## id
+CON-FND-86543DB2855310
+## canonical_key
+white-versus-brown-adipose-connective-tissue
+## definition
+White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat. Brown adipose connective tissue is made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria.
+## explicit_objective
+Contrast white and brown adipose tissue by fat cell type, colour, age distribution and function.
+## pitfalls
+Attributing thermogenesis to white fat because it insulates. Insulating against heat loss and generating heat are different jobs and belong to different tissues.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p13 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p5 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p19 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p16 | 101 ISK
+src_7449943b97c0e18d37b0 | question_book | | p3 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p18 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+[clear]
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES | ART-101-ANA-PECTORALIS-MAJOR | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Brown adipose C.T. is present in the following site in adults:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
+## id
+CON-FND-37C773B1F99BE3
+## canonical_key
+adipose-ct-stores-insulates-supports-and-secretes-leptin
+## definition
+Adipose connective tissue is fat cells predominating, held by a fine network of reticular fibres with collagen dividing it into incomplete lobules. It synthesises and stores fat, insulates the body against heat loss, keeps organs such as the kidney in position, fills the spaces between tissues and gives the skin its contour. It also has an endocrine function: it secretes leptin, which inhibits food intake and raises the metabolic rate. It has no role in immunity.
+## explicit_objective
+List the functions of adipose connective tissue, including its endocrine one.
+## pitfalls
+Forgetting that fat is an endocrine organ, and equally, crediting it with defence functions. Antibody comes from the plasma cell, and no fat cell makes any.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+[clear]
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Leptin hormone Is secreted by the following cell:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction
+## id
+CON-FND-1438DCA008F0DB
+## canonical_key
+dense-white-fibrous-ct-regular-versus-irregular
+## definition
+Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance. It is regular when the bundles are parallel and the pull is in one direction — tendons, ligaments and aponeuroses — and irregular when the bundles interweave in different planes to resist pull from any direction, as in the dermis of the skin, the capsules of organs, the periosteum and perichondrium, and the stroma that surrounds the lobules of the mammary gland. Both are dense; the direction of the bundles is what separates them, and it follows from the direction of the force.
+## explicit_objective
+Tell dense regular from dense irregular white fibrous connective tissue on a section and name a site of each.
+## pitfalls
+Reading "densely packed collagen with few cells" as regular. That much is true of both; the word that decides it is whether the bundles run one way or many, and a capsule or a gland stroma is surrounded from all sides and so is irregular.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d9391aa0861f41e44 | question_book | | p8 | 101 ISK
+src_7449943b97c0e18d37b0 | question_book | | p3 | 101 ISK
+src_7449943b97c0e18d37b0 | question_book | | p4 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+[clear]
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-ANA-PECTORALIS-MAJOR
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Asection in the tendon shows all the following features except:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Red bone marrow is a stroma of fixed cells and blood sinusoids holding free developing blood cells and stem cells
+## id
+CON-HEM-E27E5F8544640A
+## canonical_key
+red-bone-marrow-stroma-and-free-cells
+## definition
+Red bone marrow has a stroma and free cells. The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood. The free cells are the developing stages of the blood cells and the stem cells, immature white cells outnumbering immature red cells about five to one because most white cells are shorter-lived.
+## explicit_objective
+Name the fixed cells, the sinusoids and the free cells of red bone marrow and say what each contributes.
+## pitfalls
+Expecting the sinusoid to have a continuous basement membrane like an ordinary capillary. It is the gaps in it that let a finished blood cell leave the marrow at all.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_2944234d11e92ac4bbc8 | question_book | | p5 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p8 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p8 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p12 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p6 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+[clear]
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Fixed cells of bone marrow include the following except:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
+## id
+CON-FND-6F4EB91B19C122
+## canonical_key
+connective-tissue-fibres-collagen-reticular-and-elastic
+## definition
+Connective tissue has three kinds of fibre. Collagen is the commonest, and its types differ by where they are: type I in dense connective tissue — tendon, ligament, capsule of organs, dermis and bone — type II in cartilage, type III as the reticular fibre, and type IV in the basement membrane. Reticular fibres are fine, branching type III collagen, stained black by silver, and they form the supporting stroma of parenchymatous organs such as liver, spleen, lymph node and bone marrow. Elastic fibres are made of elastin with a fibrillin microfibril scaffold, stain brown with orcein, and give yellow elastic connective tissue — ligamentum nuchae, ligamenta flava and the vocal ligaments — its ability to recoil.
+## explicit_objective
+Match each fibre type to the tissue it builds, and name a site where each predominates.
+## pitfalls
+Reading "reticular" as a separate protein. A reticular fibre is collagen — type III — and the two questions in these books that name type III and reticular tissue have the same answer, the stroma of parenchymatous organs, phrased two ways.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p9 | 101 ISK
+src_7449943b97c0e18d37b0 | question_book | | p2 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p14 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p16 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p13 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Collagen types | Reticular fibres | Elastic fibres | Ligamentum nuchae
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Collagen fibers are formed by the following cell:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Reticular fibres are branching, argyrophilic and PAS-positive, invisible in H&E, and the reticular cells that make them are modified fibroblasts of the organ stroma
+## id
+CON-FND-471B49C03F8BF8
+## canonical_key
+reticular-fibres-and-reticular-cells
+## definition
+Reticular fibres are fine, branching fibres of type III collagen that form a network rather than bundles. They are stained black by silver — argyrophilic — and are PAS-positive because of the carbohydrate on them; they are not demonstrable in a routine H&E section at all. They form the supporting stroma of the parenchymatous organs, and the reticular cells that produce them lie along them. A reticular cell is regarded as a modified fibroblast, is found mainly in the stroma of organs, and in the lymphoid organs and bone marrow has a phagocytic function; it is not demonstrated by iron haematoxylin, which is the centriole stain.
+## explicit_objective
+Give the stains that show a reticular fibre and the one that does not, and describe the reticular cell and where it lives.
+## pitfalls
+Saying reticular fibres form bundles. They branch and anastomose into a mesh — which is why the tissue is named for a net — while it is collagen that bundles.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p6 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p14 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p5 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p18 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Argyrophilic | Silver stain | Reticular cell | Reticular tissue
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The type III collagen fibers are secreted by the following cells:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
+## id
+CON-FND-0E38E21957DB05
+## canonical_key
+rough-endoplasmic-reticulum-structure-and-protein-export
+## definition
+The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds. The rough kind is parallel flattened cisternae bounded by a single membrane whose outer, cytoplasmic surface is studded with ribosomes bound to receptor proteins called ribophorins; it is continuous with the outer membrane of the nuclear envelope, which is itself studded with polyribosomes for the same reason. It is abundant in cells that make protein for export, such as the plasma cell, and its ribosomes are what give those cells their light-microscopic basophilia, focal, diffuse or localised. It synthesises the exported proteins, segregates them into its lumen away from the cytoplasm, performs their initial glycosylation, packs them into transfer vesicles for the Golgi apparatus, protects the cytoplasm from the hydrolytic enzymes it makes, and serves as an intracellular pathway.
+## explicit_objective
+Describe the rough endoplasmic reticulum's membranes and ribosome attachment, and list what it does to a protein before the Golgi apparatus receives it.
+## pitfalls
+Giving rough endoplasmic reticulum two membranes because a mitochondrion has two. It has one, and the ribosomes are on its outer face — the face towards the cytoplasm, where the messenger RNA is.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p5 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p26 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
+src_6846577508f49244d715 | question_book | | p12 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p11 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_6846577508f49244d715 | question_book | | p1 | 101 ISK
+src_6846577508f49244d715 | question_book | | p6 | 101 ISK
+src_6846577508f49244d715 | question_book | | p26 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Granular endoplasmic reticulum | Ribophorin | Cisternae | Protein segregation
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Concerning rER:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Smooth endoplasmic reticulum is invisible in itself and known by the acidophilia it causes and its ribosome-free tubules
+## id
+CON-FND-0B3CC0A79F9150
+## canonical_key
+ser-structure-function-steroid-detoxification
+## definition
+Smooth endoplasmic reticulum is a membranous organelle concerned with lipid and steroid synthesis, well developed in cells that form fat and steroid hormones, such as liver cells. On light microscopy it is not demonstrated as such, but where it is abundant it gives the cytoplasm an acidophilia. On electron microscopy it is a network of branching and anastomosing tubules of variable shape, continuous with the rough endoplasmic reticulum, whose membranes carry no bound ribosomes.
+## explicit_objective
+Describe smooth endoplasmic reticulum as it appears on light microscopy and on electron microscopy, and say what it does.
+## pitfalls
+Expecting to see it under the light microscope. What is seen is the cytoplasmic acidophilia it produces when abundant, not the organelle.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d1414701d8fcb55932b6 | question_book | | p6 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_4a8ddb5edfab86d624d8 | question_book | | p6 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
+src_4a8ddb5edfab86d624d8 | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
+src_6846577508f49244d715 | question_book | | p13 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p26 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
+src_6846577508f49244d715 | question_book | | p2 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Agranular endoplasmic reticulum
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] A newborn presenting with yellow coloration of skin and eyes by examination is expected to have:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes
+## id
+CON-FND-9EBFBDE42AC100
+## canonical_key
+golgi-apparatus-lm-appearance-and-position
+## definition
+The Golgi apparatus is not seen in a haematoxylin and eosin section as a structure; what is seen is a pale unstained area beside the nucleus where the rest of the basophilic cytoplasm is interrupted — the negative Golgi image, most familiar in the plasma cell. It is demonstrated positively by silver, which shows it as a network of brown granules and fibrils. Its position tells what the cell is doing with its product: it lies apically, above the nucleus, in a secretory cell discharging at a free surface, and around the nucleus — perinuclear — in the nerve cell, which has no single secretory face.
+## explicit_objective
+Recognise the negative Golgi image, name the stain that shows the Golgi positively, and give its position in a secretory cell and in a nerve cell.
+## pitfalls
+Expecting the pale supranuclear area to be empty. It is where the Golgi is; it looks pale because the Golgi takes neither dye, not because nothing is there.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p10 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p4 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
+src_6846577508f49244d715 | question_book | | p6 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_4a8ddb5edfab86d624d8 | question_book | | p1 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p11 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
+src_6846577508f49244d715 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p13 | 101 ISK
+src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Negative Golgi image | Golgi hof | Silver impregnation
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] In H&E stained sections of plasma cell, Golgi apparatus appears:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Sudan III stains fat orange in a frozen section; in H&E the fat has dissolved and the cell is left as a signet ring
+## id
+CON-FND-721D9B96A2367F
+## canonical_key
+sudan-shows-fat-and-the-signet-ring-cell
+## definition
+Fat is demonstrated by the fat stains, of which Sudan III is the type example, staining it orange; the section must be a frozen one, because the xylol of the paraffin technique dissolves the fat away. In a routine H&E section the fat has therefore gone, and a unilocular fat cell appears as an empty vacuole with the cytoplasm squeezed into a thin rim and the nucleus flattened against one side — the signet ring appearance. The unilocular cell holds one large droplet, does not divide, and is the cell of white adipose tissue, which stores fat; heat generation belongs to the multilocular cell of brown fat.
+## explicit_objective
+Name the fat stain and the technique it needs, and explain the signet ring appearance from what H&E does to fat.
+## pitfalls
+Attributing the signet ring to a fat stain. It is what H&E leaves behind — a hole where the droplet was. A Sudan-stained fat cell is a solid orange ball and looks nothing like a ring.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p1 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p4 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p18 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Sudan III | Fat stain | Signet ring appearance
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] give orange color with fat cell:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A vital stain stains living cells inside the living animal, a supravital stain stains living cells outside the body
+## id
+CON-FND-5EFDEADAA559B8
+## canonical_key
+vital-and-supravital-stains
+## definition
+A vital stain is one given to a living animal, whose cells then take it up while alive: trypan blue and Indian ink are injected, and the macrophages phagocytose them, which is how the macrophage is demonstrated. A supravital stain works on living cells outside the body — brilliant cresyl blue added to a drop of fresh blood shows the reticulum of the reticulocyte, which is residual ribosomal RNA and disappears as the cell matures. The distinction is where the cell is when it is stained, not what the dye is.
+## explicit_objective
+Define vital and supravital staining, and give the cell each is used to demonstrate.
+## pitfalls
+Treating supra- as "better". It means outside — supravital staining happens outside the living body, on cells that are still alive, and the two words differ by that single fact.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p6 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Trypan blue | Indian ink | Brilliant cresyl blue | Supravital
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] This cell can be vitally stained:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A metachromatic stain gives a colour that is not its own — toluidine blue turns violet-magenta on the heparin of mast cell and basophil granules
+## id
+CON-FND-A5D2D2350D099D
+## canonical_key
+metachromatic-stain-toluidine-blue-and-heparin
+## definition
+A metachromatic stain is one that produces a colour different from the colour of the dye itself. Toluidine blue is the example: it is blue, and on the sulphated mucopolysaccharide granules of the mast cell and of the blood basophil it turns violet, purple or magenta red. The molecule responsible is heparin, which is why the same reaction identifies both cells and why no other connective tissue cell shows it — the plasma cell is basophilic but not metachromatic, the macrophage takes trypan blue, and the fat cell takes Sudan.
+## explicit_objective
+Define metachromasia, name the stain and the two cells it identifies, and give the granule component responsible.
+## pitfalls
+Reading metachromasia as simply "stains strongly". The point is that the colour changes — a granule that goes purple in a blue dye is metachromatic, and one that merely goes a deeper blue is not.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p15 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p10 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p4 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p5 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Toluidine blue | Metachromasia | Metachromatic granules
+## article_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Metachromatic granules are present in:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
 Organelles are living and essential, inclusions are not, and organelles divide into membranous and non-membranous
 ## id
 CON-FND-2560DB7970AF40
@@ -5056,7 +7943,7 @@ Cytology
 ## aliases
 Cytoplasmic inclusions | Membranous organelles | Non-membranous organelles
 ## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5494,430 +8381,6 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES
 direct_statement
 ## original_wording
 [asked 2x across the question books] One item is a feature of defective mitochondria:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Rough endoplasmic reticulum is flattened cisternae studded on the outside with ribosomes, and it makes and segregates protein for export
-## id
-CON-FND-0E38E21957DB05
-## canonical_key
-rough-endoplasmic-reticulum-structure-and-protein-export
-## definition
-The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds. The rough kind is parallel flattened cisternae bounded by a single membrane whose outer, cytoplasmic surface is studded with ribosomes bound to receptor proteins called ribophorins; it is continuous with the outer membrane of the nuclear envelope, which is itself studded with polyribosomes for the same reason. It is abundant in cells that make protein for export, such as the plasma cell, and its ribosomes are what give those cells their light-microscopic basophilia, focal, diffuse or localised. It synthesises the exported proteins, segregates them into its lumen away from the cytoplasm, performs their initial glycosylation, packs them into transfer vesicles for the Golgi apparatus, protects the cytoplasm from the hydrolytic enzymes it makes, and serves as an intracellular pathway.
-## explicit_objective
-Describe the rough endoplasmic reticulum's membranes and ribosome attachment, and list what it does to a protein before the Golgi apparatus receives it.
-## pitfalls
-Giving rough endoplasmic reticulum two membranes because a mitochondrion has two. It has one, and the ribosomes are on its outer face — the face towards the cytoplasm, where the messenger RNA is.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Cytology > Cytoplasm
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p26 | 101 ISK
-src_6846577508f49244d715 | question_book | | p19 | 101 ISK
-src_6846577508f49244d715 | question_book | | p12 | 101 ISK
-src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
-src_620516ae7327c0f4fc2f | question_book | | p11 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
-src_6846577508f49244d715 | question_book | | p1 | 101 ISK
-src_6846577508f49244d715 | question_book | | p6 | 101 ISK
-src_6846577508f49244d715 | question_book | | p26 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
-src_6846577508f49244d715 | question_book | | p20 | 101 ISK
-src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-1.00
-## exam_weight_by_year
-KAU_Y1=1.00
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Cytology
-## aliases
-Granular endoplasmic reticulum | Ribophorin | Cisternae | Protein segregation
-## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
-## support_mode
-direct_statement
-## original_wording
-[asked 2x across the question books] Concerning rER:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Smooth endoplasmic reticulum is invisible in itself and known by the acidophilia it causes and its ribosome-free tubules
-## id
-CON-FND-0B3CC0A79F9150
-## canonical_key
-ser-structure-function-steroid-detoxification
-## definition
-Smooth endoplasmic reticulum is a membranous organelle concerned with lipid and steroid synthesis, well developed in cells that form fat and steroid hormones, such as liver cells. On light microscopy it is not demonstrated as such, but where it is abundant it gives the cytoplasm an acidophilia. On electron microscopy it is a network of branching and anastomosing tubules of variable shape, continuous with the rough endoplasmic reticulum, whose membranes carry no bound ribosomes.
-## explicit_objective
-Describe smooth endoplasmic reticulum as it appears on light microscopy and on electron microscopy, and say what it does.
-## pitfalls
-Expecting to see it under the light microscope. What is seen is the cytoplasmic acidophilia it produces when abundant, not the organelle.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Cytology > Cytoplasm
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_4a8ddb5edfab86d624d8 | question_book | | p6 | 101 ISK
-src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
-src_4a8ddb5edfab86d624d8 | question_book | | p2 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
-src_6846577508f49244d715 | question_book | | p13 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p26 | 101 ISK
-src_6846577508f49244d715 | question_book | | p25 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p6 | 101 ISK
-src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
-src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
-src_6846577508f49244d715 | question_book | | p2 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-1.00
-## exam_weight_by_year
-KAU_Y1=1.00
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Cytology
-## aliases
-Agranular endoplasmic reticulum
-## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
-## support_mode
-direct_statement
-## original_wording
-[asked 2x across the question books] A newborn presenting with yellow coloration of skin and eyes by examination is expected to have:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-The Golgi apparatus is invisible in H&E except as a pale negative image, and its position follows the direction the cell secretes
-## id
-CON-FND-9EBFBDE42AC100
-## canonical_key
-golgi-apparatus-lm-appearance-and-position
-## definition
-The Golgi apparatus is not seen in a haematoxylin and eosin section as a structure; what is seen is a pale unstained area beside the nucleus where the rest of the basophilic cytoplasm is interrupted — the negative Golgi image, most familiar in the plasma cell. It is demonstrated positively by silver, which shows it as a network of brown granules and fibrils. Its position tells what the cell is doing with its product: it lies apically, above the nucleus, in a secretory cell discharging at a free surface, and around the nucleus — perinuclear — in the nerve cell, which has no single secretory face.
-## explicit_objective
-Recognise the negative Golgi image, name the stain that shows the Golgi positively, and give its position in a secretory cell and in a nerve cell.
-## pitfalls
-Expecting the pale supranuclear area to be empty. It is where the Golgi is; it looks pale because the Golgi takes neither dye, not because nothing is there.
-## concept_type
-structural_description
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Cytology > Cytoplasm
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p4 | 101 ISK
-src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p5 | 101 ISK
-src_6846577508f49244d715 | question_book | | p6 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.71
-## exam_weight_by_year
-KAU_Y1=0.71
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Cytology
-## aliases
-Negative Golgi image | Golgi hof | Silver impregnation
-## article_ids
-ART-101-HIS-CYTOPLASMIC-ORGANELLES
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] A brown fibrillar network in the cytoplasm represents:
 ## conflicts
 [clear]
 ## uncertainty
@@ -9201,138 +11664,6 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 direct_statement
 ## original_wording
 [asked 1x across the question books] Regarding monozygotic twin (DEP BOOK - 2024)
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of
-## id
-CON-FND-6F4EB91B19C122
-## canonical_key
-connective-tissue-fibres-collagen-reticular-and-elastic
-## definition
-Connective tissue has three kinds of fibre. Collagen is the commonest, and its types differ by where they are: type I in dense connective tissue — tendon, ligament, capsule of organs, dermis and bone — type II in cartilage, type III as the reticular fibre, and type IV in the basement membrane. Reticular fibres are fine, branching type III collagen, stained black by silver, and they form the supporting stroma of parenchymatous organs such as liver, spleen, lymph node and bone marrow. Elastic fibres are made of elastin with a fibrillin microfibril scaffold, stain brown with orcein, and give yellow elastic connective tissue — ligamentum nuchae, ligamenta flava and the vocal ligaments — its ability to recoil.
-## explicit_objective
-Match each fibre type to the tissue it builds, and name a site where each predominates.
-## pitfalls
-Reading "reticular" as a separate protein. A reticular fibre is collagen — type III — and the two questions in these books that name type III and reticular tissue have the same answer, the stroma of parenchymatous organs, phrased two ways.
-## concept_type
-classification
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_4e481d399b2ffd65b97a | question_book | | p16 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p13 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Connective Tissue
-## aliases
-Collagen types | Reticular fibres | Elastic fibres | Ligamentum nuchae
-## article_ids
-ART-101-ANA-CHORIONIC-VILLI-PLACENTA
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] Collagen type 1 is present in:
 ## conflicts
 [clear]
 ## uncertainty
@@ -15559,147 +17890,20 @@ kau
 ## exam_signal
 src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Blood
-## aliases
-Eosinophil granules | Acidophil | Eosinophilia
-## article_ids
-ART-101-HIS-GRANULAR-LEUKOCYTES
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] ……………. contain histaminase, sulfatase, Neurotoxin
-## conflicts
-The department book puts eosinophils at 1–4% of the differential count. Several question books and my own first reading of the 2025 paper give 2–4%. The book is this faculty’s own and governs; the discrepancy is recorded rather than resolved silently, because a one-mark question on the count could be marked either way.
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis
-## id
-CON-HEM-607B783A16FBEB
-## canonical_key
-basophil-granule-contents-and-anaphylaxis
-## definition
-Basophils are 0–1% of the count, 10–12 µm, with an irregular segmented S-shaped nucleus obscured by coarse granules that stain metachromatically purple with toluidine blue because of their heparin. The specific granules are large, rounded and electron dense, holding histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane carries receptors for IgE. Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma. Basophilia is above 2%.
-## explicit_objective
-List what the basophil granule contains, and connect each substance to the clinical event it produces.
-## pitfalls
-Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors — the book compares them directly — but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-haem
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-SYS-HEM-T01-S01-M02
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Granular leukocytes
-## universities
-kau
-## learner_years
-1
-## exam_signal
 src_34c967631e388497dc35 | question_book | | p5 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p2 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p6 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p1 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p10 | 101 ISK
+src_995e491b2e22cc96d8ef | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -15711,15 +17915,15 @@ Histology
 ## subtopic
 Blood
 ## aliases
-Basophil granules | Anaphylaxis | Basophilia
+Eosinophil granules | Acidophil | Eosinophilia
 ## article_ids
-ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+ART-101-HIS-GRANULAR-LEUKOCYTES | ART-101-HIS-MICROTECHNIQUES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] basophil membrane contain receptor for
+[asked 2x across the question books] Eosinophils are lowered 1% in the following
 ## conflicts
-[clear]
+The department book puts eosinophils at 1–4% of the differential count. Several question books and my own first reading of the 2025 paper give 2–4%. The book is this faculty’s own and governs; the discrepancy is recorded rather than resolved silently, because a one-mark question on the count could be marked either way.
 ## uncertainty
 [clear]
 ## evidence_gaps
@@ -15980,138 +18184,6 @@ ART-101-HIS-HAEMOPOIESIS
 direct_statement
 ## original_wording
 [asked 1x across the question books] Bone marrow component which can be transplanted into Patients suffering from leukemia is ………..:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Red bone marrow is a stroma of fixed cells and blood sinusoids holding free developing blood cells and stem cells
-## id
-CON-HEM-E27E5F8544640A
-## canonical_key
-red-bone-marrow-stroma-and-free-cells
-## definition
-Red bone marrow has a stroma and free cells. The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood. The free cells are the developing stages of the blood cells and the stem cells, immature white cells outnumbering immature red cells about five to one because most white cells are shorter-lived.
-## explicit_objective
-Name the fixed cells, the sinusoids and the free cells of red bone marrow and say what each contributes.
-## pitfalls
-Expecting the sinusoid to have a continuous basement membrane like an ordinary capillary. It is the gaps in it that let a finished blood cell leave the marrow at all.
-## concept_type
-structural_description
-## status
-under review
-## subject
-haem
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-SYS-HEM-T01-S02-M03
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Haemopoiesis
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_34c967631e388497dc35 | question_book | | p12 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p6 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Blood
-## aliases
-[clear]
-## article_ids
-ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-RED-BLOOD-CORPUSCLES
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] C.T mesenchymal cells have the following charcters EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty
@@ -17741,20 +19813,21 @@ kau
 ## exam_signal
 src_6846577508f49244d715 | question_book | | p11 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p18 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
 src_6846577508f49244d715 | question_book | | p2 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
 src_6846577508f49244d715 | question_book | | p10 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
-src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.95
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.95
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -17768,11 +19841,1216 @@ Cytology
 ## aliases
 Plasmalemma | Unit membrane | Trilaminar membrane
 ## article_ids
-ART-101-HIS-MICROSCOPES | ART-101-HIS-THE-CELL | ART-101-ANA-EMBRYONIC-FOLDING
+ART-101-HIS-MICROSCOPES | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-THE-CELL | ART-101-ANA-EMBRYONIC-FOLDING
 ## support_mode
 direct_statement
 ## original_wording
 [asked 1x across the question books] All the statements concerned to the cell membrane are true EXCEPT:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Haematoxylin is a basic blue dye that binds acidic components, eosin an acidic pink dye that binds basic ones — so the nucleus is always blue and the cytoplasm may be either
+## id
+CON-FND-885E424CA72424
+## canonical_key
+h-and-e-basophilia-and-acidophilia
+## definition
+Haematoxylin and eosin is the stain used in routine histological slides and the commonest staining system in histology. Haematoxylin is a basic blue dye and binds the acidic components of the cell, which are therefore called basophilic: the nucleus, rich in DNA and RNA, and the ribosomes, whether free or attached to the rough endoplasmic reticulum. Eosin is an acidic pink or red dye and binds basic structures, which are called acidophilic — most cytoplasm, and collagen. It follows that the nucleus is always basophilic while the cytoplasm may be either: a protein-forming cell with abundant rough endoplasmic reticulum and many ribosomes is basophilic, and a steroid-forming cell full of smooth endoplasmic reticulum is acidophilic.
+## explicit_objective
+Say which of the two dyes is basic and which acidic, what each binds, and predict the staining of a cell from what its cytoplasm contains.
+## pitfalls
+Reading basophilic as "stained by a basic dye component". It means the opposite way round — a basophilic structure is acidic and takes the basic dye. Getting the direction wrong reverses every answer in the chapter at once.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p1 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p11 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+H&E | Haematoxylin | Eosin | Basophilic | Acidophilic
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The most common staining system In the histology is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Paraffin is the commonest technique, celloidin the most perfect and freezing the most rapid — and only freezing keeps the enzymes and the fat
+## id
+CON-FND-E88B6534F2FA05
+## canonical_key
+tissue-processing-paraffin-celloidin-and-freezing
+## definition
+The department book teaches three ways of processing tissue for light microscopy, each with its own advantages and disadvantages. The paraffin technique is the most common: short preparation, serial sections, very thin sections and easy staining — but its xylol solvent dissolves fat out and its heat destroys enzymes, so it cannot show the chemical components of the cell. The celloidin technique is the most perfect: no heat, so fine detail and structure are preserved, and it suits large organs such as the eyeball and soft tissue such as brain — but preparation is long, the sections are thick, no serial sections are possible and they do not stain easily. The freezing technique is the most rapid, which is why it is used to diagnose a tumour during an operation, and because no heat and no solvent are used it preserves both the enzymes and the fat, so it is the technique the histochemical stains require — but its sections are thick, hard to cut, not serial and not easily stained.
+## explicit_objective
+Give the advantage each technique is named for, and say which technique a histochemical or a fat stain requires and why.
+## pitfalls
+Giving the freezing technique the paraffin technique's advantages. It is fast, and that is all it is fast at: the sections are thick, not serial and hard to stain, and every question in these books offers those three as its distractors.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p1 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Paraffin technique | Celloidin technique | Freezing technique | Frozen section
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The suitable technique to stain the glycogen inside the cells is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+PAS and Best's carmine both show carbohydrate — glycogen, goblet cell mucus, the basement membrane and the cell coat
+## id
+CON-FND-D174A99E733011
+## canonical_key
+pas-and-bests-carmine-show-carbohydrate
+## definition
+Carbohydrate is demonstrated by two histochemical stains. Periodic acid–Schiff — PAS — stains glycogen magenta red, and stains any other carbohydrate-rich structure too: the mucus of the goblet cell, the basement membrane, and the glycocalyx of the cell membrane. Best's carmine stains glycogen red and is specific to it. Both need a frozen section for glycogen, because glycogen is water-soluble and dissolves out of a paraffin section, leaving vacuoles where it was. The basement membrane is shown by silver as well as by PAS; neither is visible in a routine H&E section.
+## explicit_objective
+Name the two carbohydrate stains and what each demonstrates, and say which processing technique glycogen needs.
+## pitfalls
+Answering "PAS" for fat. PAS is for carbohydrate and Sudan for fat, and the two are offered in the same option list in half the questions of this leaf — one printing of the fat question in these books is keyed to PAS in error.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p19 | 101 ISK
+src_6846577508f49244d715 | question_book | | p11 | 101 ISK
+src_6846577508f49244d715 | question_book | | p8 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p3 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+PAS | Periodic acid-Schiff | Best's carmine | Glycogen stain
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] The following inclusion can be stained with Best's carmine:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Collagen is acidophilic, forms branching bundles of non-branching fibres, and Mallory stains it blue while van Gieson stains it red
+## id
+CON-FND-0D4DD0D93BEFB0
+## canonical_key
+collagen-fibre-characters-and-its-stains
+## definition
+Collagen fibres are white in the fresh state when they are present in great numbers, which is why the tissues built of them are called white fibrous. In section they are acidophilic and stain pink with haematoxylin and eosin. They are wavy, and they run as branching bundles made up of individual fibres that do not themselves branch — the bundle divides, the fibre does not. Where collagen has to be told apart from the other fibres, a trichrome stain is used: Mallory's trichrome stains collagen blue, and van Gieson stains it red while leaving elastic fibres yellow.
+## explicit_objective
+Give the staining reaction of collagen in H&E, Mallory and van Gieson, and describe the branching of bundle against fibre.
+## pitfalls
+Saying collagen fibres branch. The bundles branch and the fibres inside them do not — and the reverse is true of elastic fibres, which branch individually and form no bundles, so the two questions are set against each other.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p19 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Mallory trichrome | Van Gieson | White fibres | Collagen staining
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] By Mallory stain, Collagen fibers are stained:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Elastic fibres are thin, branching and stretchable, stain brown with orcein and yellow with van Gieson, and are acidophilic in H&E
+## id
+CON-FND-DCAFB202E68551
+## canonical_key
+elastic-fibre-characters-and-orcein
+## definition
+Elastic fibres are thin, stretchable and branching, and they run singly rather than in bundles. They are yellow in the fresh state when abundant, which is why ligamentum nuchae and the ligamenta flava are called yellow elastic tissue. They are acidophilic and poorly seen in a routine H&E section, and they are demonstrated by orcein, which stains them brown, and by van Gieson, which stains them yellow while colouring collagen red. They show no transverse striations — that is a feature of skeletal muscle, not of a fibre.
+## explicit_objective
+Give the physical characters of the elastic fibre and the colour it takes with orcein, van Gieson and H&E.
+## pitfalls
+Calling elastic fibres basophilic. They are acidophilic like collagen; what makes them hard to see in H&E is that they are thin and take the eosin weakly, not that they take the haematoxylin.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p3 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p9 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Orcein | Yellow elastic fibres | Elastin staining
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Elastic fibers can be stained brown by:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Leishman's stain is a neutral stain — an acidic and a basic dye together in methyl alcohol, which fixes the film as it stains it
+## id
+CON-FND-07BB9B31359FFF
+## canonical_key
+neutral-stain-leishman-and-the-blood-film
+## definition
+A neutral stain is a mixture of an acidic and a basic dye, so that acidophilic and basophilic structures are shown in one preparation. Leishman's stain is the example the department book gives, and it is what blood films are stained with: acidic red eosin and basic blue methylene blue dissolved in methyl alcohol, which serves as the fixative. That is why a blood film needs no separate fixation step — it is air-dried and then flooded with the stain. The mixture is what lets one slide show the acidophilic granules of the eosinophil, the basophilic granules of the basophil and the acidophilic haemoglobin of the red cell at once.
+## explicit_objective
+Classify Leishman's stain, name its two dyes and its solvent, and say why a blood film needs no separate fixative.
+## pitfalls
+Calling Leishman's a vital stain because it is used on blood. Vital and supravital describe living cells; a blood film is air-dried and dead before the stain reaches it, and the word for a mixture of two dyes is neutral.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c6ab1b49dc16762227e1 | question_book | | p11 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p4 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Leishman stain | Neutral stain | Blood film
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Lishman stain is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Janus green shows mitochondria, iron haematoxylin shows centrioles, and silver shows the Golgi — each organelle has its own dye
+## id
+CON-FND-84EB25F9AC8F46
+## canonical_key
+special-stains-for-mitochondria-and-centrioles
+## definition
+Organelles too small or too pale for routine staining have their own dyes. Janus green B stains mitochondria, and it does so because it is a vital dye reduced by the respiratory enzymes of the living mitochondrion. Iron haematoxylin stains centrioles, which lie beside the nucleus and are otherwise invisible. Silver stains the Golgi apparatus as a network of brown granules and fibrils, and stains nerve cells and fibres brown and reticular fibres black. None of the three organelles is demonstrable in a routine haematoxylin and eosin section.
+## explicit_objective
+Match each of the three organelle stains to the organelle it shows.
+## pitfalls
+Swapping Janus green and iron haematoxylin. Both are stains for a single small structure beside the nucleus, and the questions in these books offer them in the same option list every time; Janus is the green one and green goes with the mitochondrion.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_6846577508f49244d715 | question_book | | p25 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p14 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Janus green | Iron haematoxylin | Silver impregnation
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] mitochondria can be stained by:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+An enzyme is demonstrated by the reaction it catalyses — acid phosphatase marks the lysosome and catalase the peroxisome
+## id
+CON-FND-C1C9398BCCDA53
+## canonical_key
+enzyme-histochemistry-acid-phosphatase-and-catalase
+## definition
+Histochemical enzyme stains show an organelle by showing what its enzymes do, and they need a frozen section because heat and solvents destroy the enzyme. Acid phosphatase is the marker enzyme of the lysosome, and a histochemical reaction for it is the standard way of identifying a lysosome and of showing that a cell is phagocytic — it is how the macrophage is demonstrated histochemically. The peroxisome's own enzymes are the oxidases, which carry out beta-oxidation of long-chain fatty acids and generate hydrogen peroxide, and catalase, which destroys that peroxide; a reaction for catalase is therefore what marks a peroxisome.
+## explicit_objective
+Name the marker enzyme of the lysosome and of the peroxisome, and say why enzyme histochemistry needs a frozen section.
+## pitfalls
+Giving the peroxisome a phosphatase. The phosphatases are the lysosome's; the peroxisome has oxidases and catalase, and the whole distinction between the two organelles is which enzymes they carry.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p5 | 101 ISK
+src_6846577508f49244d715 | question_book | | p21 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Acid phosphatase | Alkaline phosphatase | Histochemical stain | Catalase
+## article_ids
+ART-101-HIS-MICROTECHNIQUES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Lysosomes are stained by:
+## conflicts
+The department book's microtechniques page lists acid and alkaline phosphatase together as "lysosomal enzymes" demonstrated by enzyme stains, and says nothing about how a peroxisome is shown. Its cytoplasm chapter gives the peroxisome oxidases and catalase. The books ask which stain shows a peroxisome and one printing is keyed to alkaline phosphatase; catalase is what the book's own account of the organelle implies, and that is what is taught here.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A red cell is a non-nucleated biconcave disc, 6–9 µm across, acidophilic with a pale centre one third of its diameter
+## id
+CON-HEM-623C790132C4D6
+## canonical_key
+rbc-shape-size-and-light-microscopic-appearance
+## definition
+Blood is a special connective tissue circulating in vessels, 45 per cent cells and 55 per cent plasma, and its formed elements are erythrocytes, leukocytes and thrombocytes. On a Leishman-stained film the red cell is rounded in top view and biconcave in side view, non-nucleated, and acidophilic — it takes the acidic eosin because haemoglobin is a basic protein — with a pale centre about a third of its diameter, which is what "normochromic" describes. It is 6–9 µm across, averaging 7.5 µm, and 2.2 µm thick at the edge against 0.8 µm at the centre. Abnormal shapes follow from a changed membrane or haemoglobin content: spherocytes, ovalocytes, sickle cells and pear-shaped poikilocytes, all more fragile and more easily haemolysed. Abnormal sizes are microcytes under 6 µm, macrocytes over 9 µm, and anisocytosis, several sizes in one film.
+## explicit_objective
+Describe a normal red cell on a stained film — shape in both views, size, staining and central pallor — and name the abnormalities of shape and size.
+## pitfalls
+Reading the two views the wrong way round. The disc is rounded seen from above and biconcave seen edge-on; a red cell described as biconvex is a normal cell with its profile inverted, and it is offered in these books as a distractor more often than any other single error.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p8 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p8 | 101 ISK
+src_c6ab1b49dc16762227e1 | question_book | | p10 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p4 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p23 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+Erythrocyte | Normochromic | Anisocytosis | Poikilocyte | Central pallor
+## article_ids
+ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-RED-BLOOD-CORPUSCLES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which of the following is described as having a "central pallor"?
 ## conflicts
 [clear]
 ## uncertainty
@@ -20265,275 +23543,6 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-The monocyte is the largest leukocyte and the precursor of every phagocytic cell of the tissues
-## id
-CON-HEM-719FA556594454
-## canonical_key
-monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage
-## definition
-The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look. It spends about three days in the blood, then enters connective tissue and becomes the macrophage, living some three months. It is an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body — the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts of bone and the microglia of the central nervous system.
-## explicit_objective
-Identify the monocyte by size and nuclear shape and name the tissue cells it gives rise to.
-## pitfalls
-Calling the large lymphocyte the largest leukocyte. It reaches 10–15 µm; the monocyte reaches 20 µm, and it is the nuclear shape — kidney, not round — that settles it on a film.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-haem
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-SYS-HEM-T01-S01-M02
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Non granular leukocytes
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p6 | 101 ISK
-src_c6ab1b49dc16762227e1 | question_book | | p5 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.55
-## exam_weight_by_year
-KAU_Y1=0.55
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Blood
-## aliases
-[clear]
-## article_ids
-ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-RED-BLOOD-CORPUSCLES
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] Cells increased in chronic infection:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-The plasma cell is a B lymphocyte that has been activated by antigen and by a helper T cell
-## id
-CON-HEM-A8DC563DBFFDF6
-## canonical_key
-b-lymphocyte-becomes-the-plasma-cell
-## definition
-The B lymphocyte matures in the bone marrow in mammals and carries surface receptors for IgM and IgD. When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response. Some of its progeny become B memory cells, which give the rapid second response. The plasma cell itself is a transient connective tissue cell with deeply basophilic cytoplasm, a negative Golgi image and a cart-wheel nucleus.
-## explicit_objective
-Trace the plasma cell back to the B lymphocyte and name what activates the change.
-## pitfalls
-Deriving the plasma cell from the T lymphocyte or the monocyte because both are involved in the response. The T helper cell only permits the change; the cell that becomes a plasma cell is the B lymphocyte.
-## concept_type
-developmental_process
-## status
-under review
-## subject
-haem
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-SYS-HEM-T01-S01-M02
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Non granular leukocytes
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p6 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p2 | 101 ISK
-src_995e491b2e22cc96d8ef | question_book | | p3 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.47
-## exam_weight_by_year
-KAU_Y1=0.47
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Blood
-## aliases
-[clear]
-## article_ids
-ART-101-HIS-NON-GRANULAR-LEUKOCYTES
-## support_mode
-direct_statement
-## original_wording
-[asked 3x across the question books] Which of these blood elements can differentiate into plasma cells?
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
 Both immune responses start with a macrophage presenting antigen to a helper T cell
 ## id
 CON-HEM-681584C9DC1F94
@@ -22018,274 +25027,6 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-White adipose tissue is unilocular and stores fat; brown adipose tissue is multilocular and burns it for heat
-## id
-CON-FND-86543DB2855310
-## canonical_key
-white-versus-brown-adipose-connective-tissue
-## definition
-White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat. Brown adipose connective tissue is made of multilocular fat cells and is brown from its richer blood supply and the cytochrome pigments of its many mitochondria; it is affected by hormones but not by diet, is abundant in fetal life and in the newborn, is lost during childhood and replaced by white fat, and performs thermogenesis — burning fat to release heat through the thermogenin of its mitochondria.
-## explicit_objective
-Contrast white and brown adipose tissue by fat cell type, colour, age distribution and function.
-## pitfalls
-Attributing thermogenesis to white fat because it insulates. Insulating against heat loss and generating heat are different jobs and belong to different tissues.
-## concept_type
-comparison
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_7449943b97c0e18d37b0 | question_book | | p3 | 101 ISK
-src_bb081b0479f7a33666cd | question_book | | p18 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p17 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p7 | 101 ISK
-src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
-src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.71
-## exam_weight_by_year
-KAU_Y1=0.71
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Connective Tissue
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-PECTORALIS-MAJOR | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
-## support_mode
-direct_statement
-## original_wording
-[asked 2x across the question books] Brown adipose C.T. is present in the following site in adults:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Dense white fibrous connective tissue is regular when its collagen bundles run one way and irregular when they run in every direction
-## id
-CON-FND-1438DCA008F0DB
-## canonical_key
-dense-white-fibrous-ct-regular-versus-irregular
-## definition
-Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance. It is regular when the bundles are parallel and the pull is in one direction — tendons, ligaments and aponeuroses — and irregular when the bundles interweave in different planes to resist pull from any direction, as in the dermis of the skin, the capsules of organs, the periosteum and perichondrium, and the stroma that surrounds the lobules of the mammary gland. Both are dense; the direction of the bundles is what separates them, and it follows from the direction of the force.
-## explicit_objective
-Tell dense regular from dense irregular white fibrous connective tissue on a section and name a site of each.
-## pitfalls
-Reading "densely packed collagen with few cells" as regular. That much is true of both; the word that decides it is whether the bundles run one way or many, and a capsule or a gland stroma is surrounded from all sides and so is irregular.
-## concept_type
-comparison
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_7449943b97c0e18d37b0 | question_book | | p4 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Connective Tissue
-## aliases
-[clear]
-## article_ids
-ART-101-ANA-PECTORALIS-MAJOR
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] A 43-year-old woman presented with a breast mass, examination of the biopsy revealed a normal lobule of mammary gland surrounded by densely packed collagen fibers oriented in different directions | with few cells in between. This area is primarily composed of which | of the following types of C.T.:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
 A microvillus has an actin core and absorbs; a stereocilium is a long non-motile microvillus; only the cilium is built of microtubules and beats
 ## id
 CON-FND-5114283D5309E5
@@ -23305,142 +26046,6 @@ direct_statement
 [clear]
 ## evidence_gaps
 The department book describes the consequences without naming the disease. "Immotile cilia syndrome" appears in the question books as an option and is used here because they use it, not because this faculty's text does.
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-A red cell is a non-nucleated biconcave disc, 6–9 µm across, acidophilic with a pale centre one third of its diameter
-## id
-CON-HEM-623C790132C4D6
-## canonical_key
-rbc-shape-size-and-light-microscopic-appearance
-## definition
-Blood is a special connective tissue circulating in vessels, 45 per cent cells and 55 per cent plasma, and its formed elements are erythrocytes, leukocytes and thrombocytes. On a Leishman-stained film the red cell is rounded in top view and biconcave in side view, non-nucleated, and acidophilic — it takes the acidic eosin because haemoglobin is a basic protein — with a pale centre about a third of its diameter, which is what "normochromic" describes. It is 6–9 µm across, averaging 7.5 µm, and 2.2 µm thick at the edge against 0.8 µm at the centre. Abnormal shapes follow from a changed membrane or haemoglobin content: spherocytes, ovalocytes, sickle cells and pear-shaped poikilocytes, all more fragile and more easily haemolysed. Abnormal sizes are microcytes under 6 µm, macrocytes over 9 µm, and anisocytosis, several sizes in one film.
-## explicit_objective
-Describe a normal red cell on a stained film — shape in both views, size, staining and central pallor — and name the abnormalities of shape and size.
-## pitfalls
-Reading the two views the wrong way round. The disc is rounded seen from above and biconcave seen edge-on; a red cell described as biconvex is a normal cell with its profile inverted, and it is offered in these books as a distractor more often than any other single error.
-## concept_type
-structural_description
-## status
-under review
-## subject
-haem
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-SYS-HEM-T01-S01-M02
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Blood > Red Blood Corpuscles
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_2944234d11e92ac4bbc8 | question_book | | p1 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p8 | 101 ISK
-src_2944234d11e92ac4bbc8 | question_book | | p8 | 101 ISK
-src_c6ab1b49dc16762227e1 | question_book | | p10 | 101 ISK
-src_34c967631e388497dc35 | question_book | | p4 | 101 ISK
-src_bb081b0479f7a33666cd | question_book | | p23 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.63
-## exam_weight_by_year
-KAU_Y1=0.63
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Blood
-## aliases
-Erythrocyte | Normochromic | Anisocytosis | Poikilocyte | Central pallor
-## article_ids
-ART-101-HIS-RED-BLOOD-CORPUSCLES
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] Normal RBCs are :
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
 ## arabic_label
 
 ## arabic_aliases
@@ -28175,137 +30780,6 @@ ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 direct_statement
 ## original_wording
 [asked 1x across the question books] Among the functions of the loose areolar connective tissue: |
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Adipose connective tissue stores fat, insulates, supports organs, fills spaces and secretes leptin
-## id
-CON-FND-37C773B1F99BE3
-## canonical_key
-adipose-ct-stores-insulates-supports-and-secretes-leptin
-## definition
-Adipose connective tissue is fat cells predominating, held by a fine network of reticular fibres with collagen dividing it into incomplete lobules. It synthesises and stores fat, insulates the body against heat loss, keeps organs such as the kidney in position, fills the spaces between tissues and gives the skin its contour. It also has an endocrine function: it secretes leptin, which inhibits food intake and raises the metabolic rate. It has no role in immunity.
-## explicit_objective
-List the functions of adipose connective tissue, including its endocrine one.
-## pitfalls
-Forgetting that fat is an endocrine organ, and equally, crediting it with defence functions. Antibody comes from the plasma cell, and no fat cell makes any.
-## concept_type
-structure_function_relationship
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T02
-## secondary_node_ids
-[clear]
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Connective Tissue
-## aliases
-[clear]
-## article_ids
-ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] The followings are functions for adipose C.T EXCEPT:
 ## conflicts
 [clear]
 ## uncertainty

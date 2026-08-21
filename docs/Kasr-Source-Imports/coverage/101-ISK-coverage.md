@@ -22,9 +22,9 @@ looks exactly like a file with nothing in it.
 | Batch | Items |
 | --- | --- |
 | `concept/101-ISK-concepts.md` | 71 |
-| `concept/101-ISK-mcq-concepts.md` | 209 |
+| `concept/101-ISK-mcq-concepts.md` | 227 |
 | `concept/101-ISK-practical-concepts.md` | 43 |
-| `question/101-ISK-mcq.md` | 1356 |
+| `question/101-ISK-mcq.md` | 1497 |
 | `article/101-ISK-anatomy-2.md` | 11 |
 | `article/101-ISK-anatomy.md` | 39 |
 | `article/101-ISK-histology-2.md` | 12 |
