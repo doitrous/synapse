@@ -42,6 +42,35 @@
  * the Golgi apparatus, where four other rows in the same books key
  * detoxification to smooth endoplasmic reticulum and the department book gives
  * it to smooth endoplasmic reticulum too. *
+ * A later pass added the twenty-five rows this leaf takes from the six sat
+ * end-of-module papers, which outrank every question book. They arrive with no
+ * answers at all: only three of the six papers were marked scripts, and the
+ * highlight recovery in `eom-answers.json` reaches just three of these rows —
+ * `lysosomes-are-b-non-membra-ic-cells`, `best-s-carmine-is-used-to-demonstrate`
+ * and `the-shaft-of-cilium-contains-microtubules`. Every other answer here is
+ * worked from the department book and says so in its `answerOverrideReason`,
+ * which is the only place a reader can tell a recovered key from a reasoned one.
+ *
+ * Seven of the twenty-five are excluded, and six of those seven fail the same
+ * way: the 2022 and 2024 papers are photographs of scripts a candidate had
+ * ringed, and the pen crossing an option letter makes the extractor read that
+ * option into the stem. Where the crossed option was a distractor the row
+ * survives with a gap in its letters; where it was the answer — Best's carmine,
+ * whose recovered key points at a "Glycogen" that is no longer an option — the
+ * row cannot be sat at all. Four rows lost every option that way and hold two or
+ * three whole questions in one stem. All seven name the page to rescan.
+ *
+ * `necrosis-versus-apoptosis-cell-death` is the one concept minted here that no
+ * department-book sentence supports; its `gaps` note says so. Four more —
+ * `red-corpuscle-adaptation-to-gas-transport`, `platelet-granule-types-and-contents`,
+ * `plasma-cell-features-function` and `pas-and-best-carmine-demonstrate-carbohydrate`
+ * — plus `gap-junction-lets-ions-and-small-molecules-through` are copied verbatim
+ * from the leaves that own them, because the papers ask about those cells from
+ * the cytoplasm side and a rival key would halve a student's mastery of them.
+ * The `gaps` note on `organelle-content-identifies-what-a-cell-does`, which
+ * predicted this, is now partly discharged for the new rows only: the rows
+ * already filed under it were left alone.
+ *
  * `scripts/kasr/extract/mcq-bank.json` was regenerated part-way through this
  * pass: an option-repair run recovered 76 options across 69 rows that a
  * publisher watermark had split. Every row in this file was re-checked against
@@ -426,6 +455,95 @@ export const LEAF: McqLeafSeed = {
       aliases: ['Proteosome', 'Ubiquitin'],
       gaps: [
         'The department book\'s cytology chapter does not mention proteasomes at all — it names ribosomes and the cytoskeleton as the only non-membranous organelles. The question books nevertheless examine the proteasome as a distractor and, in two rows, as the answer. The concept is minted because it is examined, and this note records that no statement in the faculty\'s own text supports it.',
+      ],
+    },
+    {
+      key: 'necrosis-versus-apoptosis-cell-death',
+      label: 'Necrosis is passive death by swelling and bursting; apoptosis is the programmed death that packages the cell up tidily',
+      definition:
+        'A cell can die two ways. Necrosis is always pathological and always passive: injury lets water in, the cell and its organelles swell, the membranes rupture and the contents spill into the tissue, which is why necrosis provokes inflammation in the surrounding tissue. Apoptosis is an active, energy-requiring, genetically programmed process that can be physiological — it is how unwanted cells are removed during development and turnover — as well as pathological; the cell shrinks, its chromatin condenses, and it breaks up into membrane-bound apoptotic bodies that neighbouring cells phagocytose without any spill and without inflammation. Every feature of one is the opposite of the corresponding feature of the other, which is how the examiners set it.',
+      objective:
+        'Separate necrosis from apoptosis on whether the process is passive or programmed and on whether the cell swells and bursts or shrinks and fragments.',
+      pitfall:
+        'Reading "programmed" or "physiological" as a description of necrosis because both words sound orderly and clinical. Both belong to apoptosis; necrosis is the accident, and swelling is its signature.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
+      type: 'classification',
+      aliases: ['Apoptosis', 'Programmed cell death', 'Apoptotic bodies'],
+      gaps: [
+        'The department book teaches no cell death anywhere in its histology chapters — the word "necrosis" appears once in the whole text, in the anatomy chapter on end arteries, and "apoptosis" not at all. The 2020 end-of-module paper nevertheless set a four-option necrosis question whose three distractors are each a property of apoptosis, so the concept is minted because a sat paper examined it. Nothing in the faculty\'s own text supports the answer; it rests on the standard necrosis-apoptosis contrast, and the row records that.',
+      ],
+    },
+    {
+      key: 'red-corpuscle-adaptation-to-gas-transport',
+      label: 'Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas',
+      definition:
+        'The department book prints the red corpuscle\'s adaptations as three rows: plasmalemma, shape and content. The plasmalemma is flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in. The shape is a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels. The content is the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days. It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.',
+      objective:
+        'Give the three adaptations of the red corpuscle to gas transport and say what each one buys and what it costs.',
+      pitfall:
+        'Answering that a small nucleus leaves room for haemoglobin. There is no nucleus at all in the mature cell, and every "except" question in this leaf uses a small or a heterochromatic nucleus as its false option.',
+      subject: 'haem', primary: 'DIS-HIS-T02', secondary: ['SYS-HEM-T01-S01-M01'],
+      modulePath: '101 ISK > Histology > Blood > Red Blood Corpuscles',
+      type: 'structure_function_relationship',
+      aliases: ['Biconcave disc', 'Haemoglobin reductase', 'Carbonic anhydrase'],
+    },
+    {
+      key: 'platelet-granule-types-and-contents',
+      label: 'Platelets carry three granule types — alpha, delta and lambda — each with different contents',
+      definition: 'Alpha granules hold clotting factors, fibrinogen and platelet-derived growth factor. Delta (dense) granules hold ADP, ATP, calcium and serotonin. Lambda granules are lysosomes, holding hydrolytic enzymes. All three lie in the granulomere.',
+      objective: 'Name the three platelet granule types and give the contents of each.',
+      pitfall: 'Putting serotonin in the alpha granules. It is in the delta granules with the calcium and the adenine nucleotides, and that grouping is what the question turns on.',
+      subject: 'haem', primary: 'DIS-HIS-T01', secondary: ['SYS-HEM-T01-S01-M03'],
+      modulePath: '101 ISK > Histology > Blood > Blood Platelets',
+      type: 'classification',
+    },
+    {
+      key: 'plasma-cell-features-function',
+      label: 'The plasma cell is a B lymphocyte turned into an antibody factory, and its nucleus shows it',
+      definition:
+        'The plasma cell arises from the B lymphocyte and is numerous in lymphoid tissue. It is a large oval cell with deeply basophilic cytoplasm showing a negative Golgi image, and an eccentric spherical nucleus whose dark heterochromatin alternates with lighter euchromatin to give the cart-wheel or clock-face appearance. By electron microscopy it is a protein-forming cell rich in rough endoplasmic reticulum, with a well developed Golgi, many mitochondria, a euchromatic nucleus and no secretory granules. Its function is the synthesis and secretion of antibodies.',
+      objective: 'Give the origin, site and light-microscopic picture of the plasma cell and relate them to antibody secretion.',
+      pitfall: 'Expecting secretory granules. The plasma cell has none — it exports antibody continuously, which is why its cytoplasm is rough endoplasmic reticulum rather than stored product.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T02',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Cells',
+      type: 'structure_function_relationship',
+      aliases: ['Plasmacyte', 'Cart-wheel nucleus', 'Clock-face nucleus'],
+    },
+    {
+      key: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      label: 'PAS and Best\'s carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike',
+      definition:
+        'Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane. Best\'s carmine is the older stain for the same target and reddens glycogen specifically. The consequence the books trade on is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.',
+      objective: 'Name the two stains that demonstrate carbohydrate and list the structures they redden.',
+      pitfall:
+        'Expecting one stain to mean one structure. PAS reddens glycogen, mucus, reticular fibres, basement membrane and cell coat, because it reacts with sugar wherever sugar is; the discriminating question is always what a structure is made of.',
+      subject: 'fnd', primary: 'DIS-HIS-T04', secondary: [],
+      modulePath: '101 ISK > Histology > Introduction > Microtechniques',
+      type: 'structure_function_relationship',
+      aliases: ['PAS', 'Periodic acid-Schiff', "Best's carmine"],
+    },
+    {
+      key: 'gap-junction-lets-ions-and-small-molecules-through',
+      label: 'The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells',
+      definition:
+        'The gap junction, or nexus, is a communicating junction. The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next. Between muscle cells the same channels carry impulses. It is the only one of the four lateral junctions through which anything actually passes, and it is not part of the junctional complex.',
+      objective:
+        'State what a gap junction lets through, how many subunits form one channel, and why it is classed as communicating rather than occluding or adhering.',
+      pitfall:
+        'Treating it as a hole in the membrane. The channel is narrow and selective — ions and small molecules only — and large proteins do not cross it.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations',
+      type: 'structure_function_relationship',
+      aliases: ['Nexus', 'Communicating junction', 'Gap junction'],
+      gaps: [
+        'The department book does not use the word connexin or connexon, describing the channel only as six symmetrical transmembrane protein molecules. Question books that ask for connexin are asking beyond this faculty\'s stated source.',
       ],
     },
   ],
@@ -4027,6 +4145,345 @@ export const LEAF: McqLeafSeed = {
         C: 'Correct. Pinocytosis, cell drinking — small invaginations of the membrane surrounding extracellular fluid.',
         D: 'Autophagy is the digestion of the cell\'s own worn organelles by a lysosome. It is internal and involves no uptake from outside at all.',
       },
+    },
+    {
+      key: 'microfilaments-form-the-following-structure-74d631df',
+      conceptKey: 'microfilament-structure-and-functions',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Attribute a named cell-surface projection to the filament system that builds its core.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'The 2020 paper printed no key and the highlight recovery found none on this sitting, so the answer comes from the department book, not from a key: it gives the microvillus core as an actin filament core inserted into a terminal web, and lists microvilli and stereocilia as the structures microfilaments form. Cilia, flagella and the mitotic spindle are all listed under microtubules on the facing page, so the three distractors are one systematic error.',
+      explanations: {
+        a: 'The core of a cilium is the axoneme — nine peripheral doublets and two central singlets, all of them microtubules. A cilium contains no actin at all.',
+        b: 'A flagellum has exactly the axonemal structure of a cilium and is simply far longer, so it too is microtubular. Picking this means treating "core of a projection" as one category instead of asking which filament builds it.',
+        c: 'The mitotic spindle is microtubular and is organised by the centrioles. Microfilaments do act in cell division, but at the cleavage furrow that pinches the two daughters apart, not in the spindle.',
+        d: 'Correct. The microvillus is a finger-like projection with a core of actin microfilaments anchored in the terminal web, and it is the department book\'s type example of a microfilament-built structure.',
+      },
+    },
+    {
+      key: 'regarding-multivesicular-body-they-are-ef4b9803',
+      conceptKey: 'lysosome-types-secondary-fates',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Place the multivesicular body among the secondary lysosomes by what the primary lysosome fused with.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'No key was printed on the 2020 paper and none was recovered from the highlights, so the answer is taken from the department book: it defines the multivesicular body as a primary lysosome plus a pinocytic vesicle, digesting fluid. That makes it a secondary lysosome with fluid content and rules the other three options out one by one.',
+      explanations: {
+        a: 'A primary lysosome is the newly budded vesicle whose enzymes have not yet met anything. The multivesicular body has already fused with a pinocytic vesicle, which is what makes it secondary — the word "primary" is about timing, not size.',
+        b: 'The residual body is the end state left after any secondary lysosome has finished digesting, so it comes after the multivesicular body rather than being another name for it. Confusing the two is the commonest way to lose this item.',
+        c: 'Correct. A multivesicular body is a primary lysosome fused with a pinocytic vesicle, so it is a secondary lysosome whose substrate is fluid — the fluid counterpart of the heterolysosome.',
+        d: 'Restricted residence in cardiac muscle and nerve cells belongs to lipofuscin, the age pigment that accumulates in long-lived non-dividing cells. Multivesicular bodies form wherever pinocytosis happens, which is nearly everywhere.',
+      },
+    },
+    {
+      key: 'the-cytoplasm-of-macrophage-is-rich-in-the-following-organel-d7216d3d',
+      conceptKey: 'organelle-content-identifies-what-a-cell-does',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Predict the organelle profile of a phagocyte from the work it does.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2020 paper carried no key, so the answer is worked from the department book rather than from one: it names macrophages and neutrophils as the cells in which lysosomes are abundant, and it makes lysosomal enzymes in the rough endoplasmic reticulum, carries them by transfer vesicle to the Golgi and releases them from the Golgi as lysosomes. A cell that digests therefore needs both the Golgi and the lysosomes, which is option c.',
+      explanations: {
+        a: 'The Golgi half is right and the smooth endoplasmic reticulum half is wrong. Abundant smooth ER marks a steroid- or lipid-forming cell, such as the adrenal cortical cell or the hepatocyte, not a phagocyte.',
+        b: 'Lysosomes are right, free ribosomes are not. Free ribosomes make protein the cell keeps in its own cytosol; the macrophage\'s hydrolytic enzymes are made on attached ribosomes and routed through the Golgi, so the rough ER and the Golgi are what its lysosomes depend on.',
+        c: 'Correct. The macrophage digests what it engulfs, so it is rich in lysosomes, and rich in the Golgi apparatus that makes them.',
+        d: 'Mitochondria and smooth ER together describe a steroid-secreting cell. Every cell has mitochondria, so naming them says nothing about what this one does — which is what the question is asking.',
+      },
+    },
+    {
+      key: 'regarding-neuron-transport-of-neurotransmitters-is-related-t-9a2a541c',
+      conceptKey: 'microtubule-structure-and-functions',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Attribute intracellular transport of organelles and macromolecules to the microtubule.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'No key was printed on the 2020 paper and none was recovered, so the answer comes from the department book: it lists transport of organelles and macromolecules among the functions of microtubules and gives no transport function to any other cytoskeletal element in the neuron.',
+      explanations: {
+        a: 'Nissl bodies are the neuron\'s rough endoplasmic reticulum and free ribosomes, seen by light microscopy as basophilic clumps. They are where the neuron makes protein, not how it moves it — this option trades on both being about neurotransmitters somewhere in the chain.',
+        b: 'Neurofilaments are the neuron\'s intermediate filaments. The department book gives intermediate filaments one function, support, and it is the only one of the three cytoskeletal systems with no transport role at all.',
+        c: 'Centrioles are microtubular, which makes this the closest wrong answer, but their work is organising the mitotic spindle. The mature neuron does not divide, and centrioles do not run transport down an axon.',
+        d: 'Correct. Microtubules transport organelles and macromolecules through the cytoplasm, and in the neuron they are the tracks along which vesicles of neurotransmitter travel to the terminal.',
+      },
+    },
+    {
+      key: 'necrosis-2d473176',
+      conceptKey: 'necrosis-versus-apoptosis-cell-death',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Separate necrosis from apoptosis by what happens to the cell and its organelles.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'Neither a printed key nor a recovered highlight covers this row, and — unusually for this leaf — the answer does not come from the department book either: the book teaches no cell death anywhere in its histology chapters, so there is no faculty text to work it from. The answer is the standard necrosis-apoptosis contrast, on which the item is built: the three distractors are each a property of apoptosis, and swelling and rupture is the one property of necrosis among the four. The concept carries a `gaps` note recording that no source this faculty would accept supports it.',
+      explanations: {
+        a: 'Being either physiological or pathological is apoptosis. Necrosis is always pathological — it is the response to injury, never a planned part of development or turnover.',
+        b: 'Breaking into membrane-bound vesicles is apoptosis, whose fragments are the apoptotic bodies that neighbouring cells then phagocytose. Necrosis leaves no tidy packages; the contents spill.',
+        c: 'Correct. In necrosis the injured cell and its organelles take up water, swell and rupture, releasing their contents into the surrounding tissue and provoking inflammation.',
+        d: 'An active, energy-requiring, genetically programmed process is the definition of apoptosis. Necrosis is passive — a cell that has lost control of its own water, not one carrying out a programme.',
+      },
+    },
+    {
+      key: 'storage-packaging-and-chemical-modification-of-proteins-occu-2ca3aed8',
+      conceptKey: 'golgi-apparatus-em-structure-products-and-functions',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Attribute storage, packing and chemical modification of protein to the Golgi apparatus.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2021 paper printed no key and the highlight recovery did not cover this sitting, so the answer is taken from the department book: it gives the Golgi apparatus as the organelle that packs, concentrates and stores protein and modifies it chemically by adding carbohydrate to make glycoprotein.',
+      explanations: {
+        a: 'Free ribosomes synthesise protein — and protein the cell keeps for itself, such as its glycolytic enzymes. They neither store nor modify what they make.',
+        b: 'Attached ribosomes are the tempting near-miss: they do make the protein a cell exports. But synthesis is where the pathway starts, and the stem asks about the three things that happen to the protein afterwards, all of which are the Golgi\'s.',
+        c: 'Correct. The Golgi receives transfer vesicles at its cis face and packs, concentrates, stores and glycosylates their protein before budding it off the trans face.',
+        d: 'The cytoskeleton is non-membranous and structural — microtubules, microfilaments and intermediate filaments. It can transport a vesicle but it cannot store or chemically modify what is inside one.',
+      },
+    },
+    {
+      key: 'cytokeratin-neurofilaments-and-lamins-are-types-of-86a32ccb',
+      conceptKey: 'intermediate-filament-types-and-tumour-diagnosis',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Recognise the six named proteins as members of the intermediate filament class.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered for that sitting, so the answer comes from the department book: it names cytokeratin, vimentin, desmin, neurofilaments, glial fibrillar acidic protein and lamins as the six intermediate filament proteins, and gives tubulin and actin as the subunits of the other two systems.',
+      explanations: {
+        a: 'Microtubules are built from alpha and beta tubulin only. Naming three different proteins is already evidence the answer is not a single-subunit system.',
+        b: 'Microfilaments are built from G actin coiled into F actin, again a single protein. Their diameter, 5 to 7 nm, is the smallest of the three.',
+        c: 'A protofilament is not a class of filament but a part of one: thirteen of them lie side by side to make the wall of a single microtubule. The word is in the option set to catch a student answering on the sound of it.',
+        d: 'Correct. Intermediate filaments are the one system defined by chemically differing subunits, which is why the class has six named proteins — one per tissue — and why identifying them names a tumour\'s cell of origin.',
+      },
+    },
+    {
+      key: 'cytoplasmic-basophilia-reflects-the-abundance-of-1c1b1ea2',
+      conceptKey: 'free-versus-attached-ribosomes-and-cytoplasmic-basophilia',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Explain cytoplasmic basophilia by the ribosomal RNA on the rough endoplasmic reticulum.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'The 2021 paper carried no key and no highlight was recovered for it, so the answer is worked from the department book: ribosomes cause cytoplasmic basophilia because of the acidity of the phosphate group in their RNA, and the book puts basophilia in the light-microscopy row of the rough endoplasmic reticulum and acidophilia in the same row for the smooth.',
+      explanations: {
+        a: 'Mitochondria are acidophilic in a routine section and are demonstrated by iron haematoxylin or Janus green rather than by basophilic dye. They carry a little RNA, but far too little to colour the cytoplasm.',
+        b: 'Correct. Basophilia is the ribosomal RNA taking up the basic dye, and rough endoplasmic reticulum is ribosomes on a membrane — which is why the book gives basophilia as the light-microscopic feature of rER.',
+        c: 'Smooth endoplasmic reticulum is the exact opposite: it has no ribosomes at all, so where it is abundant the cytoplasm is acidophilic. Answering "sER" here inverts the one fact the item tests.',
+        d: 'The Golgi apparatus is invisible in H&E except as a pale negative Golgi image beside the nucleus — an unstained area, which is the opposite of a basophilic one.',
+      },
+    },
+    {
+      key: 'regarding-golgi-apparatus-which-statement-is-correct-d23c47dd',
+      conceptKey: 'golgi-apparatus-em-structure-products-and-functions',
+      difficulty: 'Hard', questionType: 'Structure and function',
+      learningObjective: 'Identify the cis and trans faces as the feature that distinguishes the Golgi stack from the rough endoplasmic reticulum.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered, so the answer comes from the department book. The book is careful with its two descriptions: rough endoplasmic reticulum is "parallel flattened cisternae" and the Golgi is "interconnected parallel flat curved saccules" with an entry (cis) and exit (trans) face. Only one option names something that is true of the Golgi and of nothing else, and that is b. Option a is worth flagging: read outside the book\'s vocabulary it is not plainly false, since the Golgi\'s saccules are flat and parallel too, and the item is only single-best-answer because the book reserves "cisternae" for the endoplasmic reticulum. It is authored as Hard for that reason.',
+      explanations: {
+        a: 'This is the department book\'s wording for the rough endoplasmic reticulum, not for the Golgi, whose stacks it calls flat curved saccules. It is the intended trap and it is a fair one only if you have the book\'s two descriptions side by side — outside that vocabulary the sentence is nearly true of the Golgi as well.',
+        b: 'Correct, and correct uniquely: an entry cis face receiving transfer vesicles from the rough endoplasmic reticulum and an exit trans face budding secretory vesicles and lysosomes is a polarity no other organelle has.',
+        c: 'Breaking glycogen down to glucose is a function of smooth endoplasmic reticulum, which is also why glycogen granules gather in cytoplasm rich in sER. The Golgi adds carbohydrate to protein; it does not dismantle stored carbohydrate.',
+        d: 'Cell respiration is the mitochondrion, the power-house. Nothing in the Golgi generates ATP.',
+      },
+    },
+    {
+      key: 'heterolysosomes-are-formed-of-primary-lysosomes-plus-vesicle-0b37e987',
+      conceptKey: 'lysosome-types-secondary-fates',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Name the vesicle a primary lysosome fuses with to make a heterolysosome.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'The 2021 paper printed no key and none was recovered for that sitting, so the answer is taken from the department book: a heterolysosome is a primary lysosome fused with a phagosome and digests solid particles, and the book\'s own example of phagocytosis is a white blood cell engulfing bacteria. A bacterium is the only solid engulfed particle in the option set.',
+      explanations: {
+        a: 'Old organelles are taken up in an autophagic vesicle, and the primary lysosome that fuses with it makes an autolysosome. Each of the three distractors here is a different lysosome type, so a student who has learnt them as a list rather than by substrate has nothing to choose on.',
+        b: 'Correct. Bacteria are solid particles taken in by phagocytosis into a phagosome, and phagosome plus primary lysosome is the heterolysosome.',
+        c: 'Fluid droplets enter by pinocytosis, and pinocytic vesicle plus primary lysosome is the multivesicular body — the fluid counterpart of this question\'s answer.',
+        d: 'Undigested material is what is left at the end of digestion, in a residual body. It is the outcome of the process rather than an input to it.',
+      },
+    },
+    {
+      key: 'fibroblasts-have-6598ecf4',
+      conceptKey: 'organelle-content-identifies-what-a-cell-does',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Read the fibroblast\'s organelle profile off the fact that it exports protein.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered for it, so the answer is worked from the department book, which describes the active fibroblast as a protein-synthesising cell with well developed rough endoplasmic reticulum and Golgi and lists rER as the organelle of cells forming protein for export.',
+      explanations: {
+        a: 'Abundant smooth endoplasmic reticulum belongs to cells making lipid or steroid — the hepatocyte, the adrenal cortical cell. The fibroblast makes collagen, which is protein.',
+        b: 'Free ribosomes make protein the cell keeps for its own use. Collagen and the ground substance are exported into the matrix, so they are made on ribosomes attached to the rough endoplasmic reticulum instead.',
+        c: 'Many lysosomes mark a phagocyte such as the macrophage. The fibroblast builds the matrix rather than digesting anything in it.',
+        d: 'Correct. The fibroblast is the department book\'s type example of a protein-secreting cell: deeply basophilic cytoplasm because it is packed with rough endoplasmic reticulum, plus a well developed Golgi and a pale euchromatic nucleus.',
+      },
+    },
+    {
+      key: 'regarding-rbcs-adaptation-to-perform-their-function-they-are-5d5ab389',
+      conceptKey: 'red-corpuscle-adaptation-to-gas-transport',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Name the enzyme the red corpuscle keeps in order to carry carbon dioxide.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: under the red corpuscle\'s adaptation to function it lists the contained enzymes as haemoglobin reductase, to combine with oxygen, and carbonic anhydrase, to carry carbon dioxide. The same book\'s statement that the mature cell has no nucleus and no organelles disposes of option b.',
+      explanations: {
+        a: 'Correct. Carbonic anhydrase is one of the two enzymes the red corpuscle keeps when it discards everything else, and it is what lets the cell carry carbon dioxide as bicarbonate.',
+        b: 'The mature red corpuscle has no organelles at all — no nucleus, no mitochondria, no ribosomes — and that is precisely the adaptation: the space they would occupy is given to haemoglobin. Being rich in mitochondria is the opposite of the answer.',
+        c: 'The red corpuscle is a biconcave disc, so its centre is the thinnest part and looks pale, not granular. A granular central part is the platelet\'s granulomere, and this option is borrowed from the neighbouring leaf.',
+        d: 'Calcium and serotonin are the contents of the platelet\'s delta granules. Repeating the same borrowing, this option tests whether a student can keep the two small blood elements apart.',
+      },
+    },
+    {
+      key: 'lambda-granules-of-blood-platelets-contain-bcb70686',
+      conceptKey: 'platelet-granule-types-and-contents',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Identify the lambda granule of the platelet as its lysosome.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered, so the answer is taken from the department book, whose blood platelet chapter states that lambda granules are lysosomes used for clot removal after healing of the vessel. The other three options are the contents the same chapter assigns to the alpha and delta granules.',
+      explanations: {
+        a: 'Correct. The lambda granule is the platelet\'s lysosome, carrying hydrolytic enzymes that remove the clot once the vessel wall has healed.',
+        b: 'ATP and ADP are in the delta, or dense, granules, together with calcium and serotonin. Delta is the granule of the substances that recruit more platelets, not of the enzymes that clear up afterwards.',
+        c: 'Growth factors — platelet-derived growth factor in particular — are in the alpha granules, whose job is repair of the vessel wall.',
+        d: 'Clotting factors and fibrinogen are also alpha granule contents. Alpha is the largest and commonest granule, which is why it is the most attractive wrong answer here.',
+      },
+    },
+    {
+      key: 'ribophorins-are-a-o-rail-931e52b2',
+      conceptKey: 'rough-endoplasmic-reticulum-structure-and-protein-export',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Define the ribophorin as the receptor that binds a ribosome to the rough endoplasmic reticulum.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2022 paper printed no key and the highlight recovery returned nothing for this row, so the answer is worked from the department book: it describes the rough endoplasmic reticulum as cisternae studded with ribosomes bound to ribophorins, and its attached-ribosome diagram labels the ribophorin as the point at which the large subunit meets the membrane. Both the stem and three of the four options carry optical-character noise from the scan — "a\" o rail" in the stem, "Sgt emn" after option a — but every option is still legible enough to judge.',
+      explanations: {
+        a: 'Inactive chromatin is heterochromatin and belongs in the nucleus. Placing a ribosomal term among two chromatin options is the item\'s whole design: it separates students who know what a ribophorin is from students guessing on the shape of the word.',
+        b: 'Active chromatin is euchromatin, again nuclear. Nothing about the ribophorin is chromatin of either kind.',
+        c: 'Correct. Ribophorins are the integral membrane receptors on the rough endoplasmic reticulum to which ribosomes attach by their large subunit.',
+        d: 'Polyribosomes linked by mRNA are free ribosomes reading one message together, in rosettes or spiral chains. They are unattached by definition, so they are what a ribophorin is not holding.',
+      },
+    },
+    {
+      key: 'lysosomes-are-b-non-membra-ic-cells-5e22b436',
+      conceptKey: 'lysosome-enzymes-origin-and-functions',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The stem contains one of the question\'s own options and the option set is a choice short. On this 2022 script the candidate\'s pen crossed the letter of option b, so the extractor read it as part of the stem: the row now asks "Lysosomes are: b. Non-membra ic cells." and offers only a, c and d — three options where the contract is four to five, with the crossed option\'s text sitting inside the question. Option d is truncated as well ("Are few in phagocyt"). The recovered key resolves the row to option a with high confidence and the department book agrees that lysosomal enzymes are made in the rough endoplasmic reticulum and released from the Golgi, but a keyed answer does not make a broken item sittable, and reconstructing the missing option from the book would be writing a new question and attributing it to a sitting. A rescan of page 2 of the 2022 paper needs to recover option b\'s letter and full text and the tail of option d; the row is then live with its answer already known.',
+    },
+    {
+      key: 'detoxification-of-drug-needs-mainly-c-rer-d-both-b-aadeb8f7',
+      conceptKey: 'ser-structure-function-steroid-detoxification',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Half the options have leaked into the stem. The pen crossed the letters of options c and d on this 2022 script, so the row now reads "Detoxification of drug needs mainly c. rER. d. Both b" and offers only two options — a and b — against a contract of four to five. The stem therefore states two of the choices while the option list withholds them, which is not a question a student can sit. The department book gives detoxification of drugs, alcohol and hormones to smooth endoplasmic reticulum, so the answer would be option a, but supplying the two lost options from the book would be authoring a new item and calling it a sitting. A rescan of page 2 of the 2022 paper needs to recover the letters and text of options c and d, and the truncated "Both b" they end in.',
+    },
+    {
+      key: 'the-shaft-of-cilium-contains-microtubules-8ecf4d4f',
+      conceptKey: 'cilium-origin-and-ultrastructure',
+      difficulty: 'Easy', questionType: 'Structural detail',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The row is an option short: the 2022 paper set four numbers and only three survived extraction — 27, 20 and 18 — against a contract of four to five, and the stem has lost its blank to the scanner as well ("The shaft of cilium contains ...........microtubules: ,"). The recovered key resolves it to option b with high confidence and the department book gives the same figure, nine peripheral doublets plus two central singlets making twenty, so the answer is not in doubt; what is missing is a fourth choice, and inventing one would be writing a question rather than transcribing one. A rescan of page 2 of the 2022 paper needs to recover the lost option and the blank in the stem. The 2024 paper set the same question, as `the-shaft-of-cilia-is-composed-of-microtubules`, and that copy is in worse condition still.',
+    },
+    {
+      key: 'the-plasma-cell-is-characterized-by-27181c22',
+      conceptKey: 'plasma-cell-features-function',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Recognise the plasma cell by its eccentric clock-face nucleus and basophilic cytoplasm.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'The 2022 paper carried no key and none was recovered for this row, so the answer is taken from the department book: it describes the plasma cell as having deeply basophilic cytoplasm and an eccentric spherical nucleus whose alternating heterochromatin and euchromatin give the cart-wheel or clock-face appearance. The same description rules out options c and d directly.',
+      explanations: {
+        a: 'Surface IgE receptors belong to the mast cell and the basophil, which is how an allergen triggers them to degranulate. The plasma cell makes antibody and releases it; it does not sit with antibody bound to its surface.',
+        b: 'Correct. The eccentric nucleus with dark heterochromatin alternating with lighter euchromatin is the clock-face or cart-wheel appearance, and it is the single feature that names a plasma cell down a microscope.',
+        c: 'The plasma cell\'s cytoplasm is deeply basophilic, not acidophilic, because it is filled with rough endoplasmic reticulum. Deep acidophilia would mean smooth endoplasmic reticulum and a steroid-forming cell.',
+        d: 'Rich in rough endoplasmic reticulum and Golgi, not in smooth endoplasmic reticulum and lysosomes. This option swaps the plasma cell\'s organelles for a phagocyte\'s, and it is the answer a student gives who knows the cell is busy without knowing what it makes.',
+      },
+    },
+    {
+      key: 'enzymes-of-peroxisomes-arise-fromm-7dc8d4f0',
+      conceptKey: 'peroxisome-oxidase-and-catalase',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Option c was lost in extraction and option d is "Both b&c", so the option set cannot be repaired and the answer cannot be established: whichever of b and d the examiner keyed depends entirely on what the missing option said. The department book makes both halves true — peroxisomes bud off the rough endoplasmic reticulum, and their enzymes are made on free ribosomes — which is exactly why the lost option decides the item rather than being disposable. The 2021 paper set the same question with four intact options — `peroxisomal-enzymes-are-synthesized-by`, authored in `nucleus.ts` — and there the answer is free polysomes with rER offered separately as a distractor, which is evidence for b but does not settle whether this examiner meant "Both". Option b is also mangled here ("Free ribo SOME 2 Lit."). Recoverable by rescanning page 1 of the 2022 paper.',
+    },
+    {
+      key: 'best-s-carmine-is-used-to-demonstrate-d-glycogen-a58b1861',
+      conceptKey: 'pas-and-best-carmine-demonstrate-carbohydrate',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The correct option is not in the option set. The recovered key resolves this row to option d with high confidence, and the department book agrees that Best\'s carmine stains glycogen red — but the candidate\'s pen crossed the letter of option d, so "d. Glycogen" was read into the tail of the stem and only mitochondria, Golgi complex and fat survived as options. A student sitting the row as extracted would have to pick a wrong answer. Kept rather than deleted because the stem still shows the missing option verbatim, so a rescan of page 2 of the 2022 paper restores the row in full.',
+    },
+    {
+      key: 'heterolysosome-is-formed-of-primary-lysosome-ana-2-22-2-2-ne-fb2ad5ce',
+      conceptKey: 'lysosome-types-secondary-fates',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The bank row carries no options at all. This is one of the 2024 rows off a script whose candidate ringed the answers: the pen crossed every option letter, so the four options were read into the stem and the option map is empty. They are legible there — Pinocytic vesicle, Destroyed organelle, Residual body, Phagosome — and the department book makes Phagosome the answer, but options cannot be added to the bank by hand, and a question with no options cannot be emitted. Recoverable by rescanning page 1 of the 2024 paper, at which point the row becomes a clean duplicate of `heterolysosomes-are-formed-of-primary-lysosomes-plus-vesicle-0b37e987`.',
+    },
+    {
+      key: 'the-cytoplasmic-organelle-concerned-with-detoxification-of-d-80094f06',
+      conceptKey: 'ser-structure-function-steroid-detoxification',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No options in the bank row, and the stem has run two questions together. The pen crossed the option letters of question 7, so its four options (sER, rER, Golgi apparatus, Lysosomes) were read into the stem, and the whole of question 8 — the intermediate filament of connective tissue, with its own four options — followed them into the same field. Both questions are legible and both answers are in the department book, sER and vimentin, but neither can be emitted from a row with an empty option map and a stem containing two stems. A rescan of page 1 of the 2024 paper would split them into two clean rows.',
+    },
+    {
+      key: 'the-shaft-of-cilia-is-composed-of-microtubules-a-627-v8-a0-0-257af8a1',
+      conceptKey: 'cilium-origin-and-ultrastructure',
+      difficulty: 'Easy', questionType: 'Structural detail',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The row has one option, and that option is not an option: it is the four options of the following question — "Formed of tubulin / Form microvilli / Diameter 8-10nm / Include lamins", which belong to a microfilament stem — run together into a single string, while this question\'s own numeric options survive only as the noise "a 627 v8 a0" in the stem. Neither question can be reconstructed from it. The cilium half duplicates `the-shaft-of-cilium-contains-microtubules-8ecf4d4f`, which is authored above with the same answer of twenty; the microfilament half is lost until page 1 of the 2024 paper is rescanned.',
+    },
+    {
+      key: 'formation-of-mitotic-spindle-in-mitosis-is-related-to-at-act-3f18d899',
+      conceptKey: 'centriole-structure-and-role-in-cell-division',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No options in the bank row: the pen crossed all four letters and they were read into the stem, where they remain legible as Actin, Microvilli, Centriole and Lysosome. The department book gives the answer as the centriole — the centrosome duplicates in S phase and moves to the poles as the microtubule organising centre — but a row with an empty option map cannot be emitted. Recoverable by rescanning page 2 of the 2024 paper.',
+    },
+    {
+      key: 'passage-of-impulses-between-muscle-cells-is-helped-by-p-zonu-c2a002b5',
+      conceptKey: 'gap-junction-lets-ions-and-small-molecules-through',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No options in the bank row, and three questions have run together in the stem. Question 34\'s four options (Zonula adherens, Nexus, Macula adherens, Occluding junction) were read into it after the pen crossed their letters, then the whole of question 35 on the red corpuscles and the opening line of question 36 on platelet lysosomes followed. The department book answers the first — the nexus, or gap junction, is the one junction that passes ions and impulses between cells — but a row that holds three questions and no options cannot be emitted as any of them. A rescan of page 3 of the 2024 paper would split it into three.',
+    },
+    {
+      key: 'a-tumor-is-decided-to-be-of-epithelial-origin-when-it-contai-568ea1c1',
+      conceptKey: 'intermediate-filament-types-and-tumour-diagnosis',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Use the intermediate filament protein in a tumour to name the tissue it arose from.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'One of the strays the extractor could not file to a leaf; it is authored here because intermediate filaments are taught in this chapter. The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: its table of intermediate filament proteins gives cytokeratin to epithelial tissue, and its applied note says identification of these proteins is important in diagnosing tumours because the cell of origin can be recognised.',
+      explanations: {
+        a: 'Lamins are intermediate filaments of the nuclear envelope, present in the nucleus of every cell. A protein every cell has cannot name a tumour\'s tissue of origin.',
+        b: 'Tubulin is the subunit of microtubules, not an intermediate filament at all, and again it is universal. The option is here to catch a student answering on "filament protein" rather than on which class.',
+        c: 'Correct. Cytokeratin is the intermediate filament of epithelium, so a tumour full of it is a carcinoma — of epithelial origin.',
+        d: 'Desmin is the intermediate filament of muscle. A desmin-rich tumour is a muscle tumour, which is the whole point of the technique: each of these four proteins names a different tissue.',
+      },
+    },
+    {
+      key: 'protein-on-cytoplasmic-side-is-inve-or-mediated-endocytosis-23c8a758',
+      conceptKey: 'endocytosis-three-types-and-exocytosis',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'One of the strays the extractor could not file to a leaf; it belongs to this chapter because receptor-mediated endocytosis is taught here. It is not sittable: option c was lost on the 2022 script, leaving three options where the contract is four to five, option b is trailed by noise ("Clathrin, = = ae 4"), and the stem itself has been eaten in the middle — "Protein on cytoplasmic side is inve > or mediated endocytosis" is what is left of a sentence naming receptor-mediated endocytosis. The department book gives clathrin as the protein that aggregates with the receptors to form a coated pit, so option b would be the answer, but supplying the missing option from the book would be writing a new question rather than transcribing one. A rescan of page 1 of the 2022 paper needs to recover option c and the middle of the stem.',
     },
   ],
 }

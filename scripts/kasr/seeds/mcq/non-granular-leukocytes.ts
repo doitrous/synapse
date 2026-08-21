@@ -12,6 +12,19 @@
  * keyed and once with its last two options fused by the OCR, and there the
  * damaged copy goes; but the antigen-presenting-cell pair differs only by the
  * word "all", both copies are clean and both are keyed, so both stand.
+ *
+ * Three rows from the sat end-of-module papers are added at the end, one live and
+ * two excluded. The live row is answered from the department book, which has the
+ * histiocyte arising from the monocyte. The CD8 row is the interesting exclusion:
+ * its answer *was* recovered, resolving to option c with full overlap and agreeing
+ * with the book that CD8 cells are the cytotoxic ones — but the pen crossed option
+ * c's letter and the extractor merged it into option b, so the keyed answer is no
+ * longer an option that can be chosen.
+ *
+ * `lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates` is minted here. The
+ * department book supports it in full — it names the three types, says outright
+ * that they cannot be told apart by microscopy, and gives cell-mediated immunity to
+ * T and humoral to B — and no existing concept in the batch carried it.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -70,6 +83,22 @@ export const LEAF: McqLeafSeed = {
       subject: 'haem', primary: 'DIS-HIS-T02', secondary: ['SYS-HEM-T01-S01-M02'],
       modulePath: '101 ISK > Histology > Blood > Non granular leukocytes',
       type: 'classification',
+    },
+    {
+      key: 'lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates',
+      label: 'The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either',
+      definition:
+        'By function there are three lymphocytes, and the department book is explicit that they cannot be told apart by light or electron microscopy — only by their surface receptors. T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity. Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell. B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody. Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.',
+      objective:
+        'Name the three functional lymphocytes, give the immunity each mediates and where each matures, and give the four functional types of T cell with their CD markers.',
+      pitfall:
+        'Trying to tell them apart down a microscope. The book says outright that all three look alike by light and electron microscopy and differ only in their surface receptors, so every question about them is a question about markers — CD4 helper, CD8 cytotoxic — and never about appearance.',
+      subject: 'haem',
+      primary: 'DIS-HIS-T02',
+      secondary: ['SYS-HEM-T01-S01-M02'],
+      modulePath: '101 ISK > Histology > Blood > Non granular leukocytes',
+      type: 'classification',
+      aliases: ['T lymphocyte', 'B lymphocyte', 'Natural killer cell', 'CD4', 'CD8', 'Cell mediated immunity', 'Humoral immunity'],
     },
   ],
 
@@ -230,6 +259,54 @@ export const LEAF: McqLeafSeed = {
         B: 'The megakaryocyte sheds platelets in the marrow. It has nothing to do with immunity.',
         C: 'Correct. The B lymphocyte, activated by its antigen and by a helper T cell, becomes a plasmablast and then a plasma cell secreting antibody.',
         D: 'The near miss, and the reason this is asked: T lymphocytes are essential to the humoral response — the helper T cell is what licenses the B cell — but they mediate cell-mediated immunity and never become plasma cells themselves.',
+      },
+    },
+    {
+      key: 'histiocytes-originate-from-d2806594',
+      conceptKey: 'monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Name the blood cell the tissue macrophage comes from.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: the macrophage, which it calls the histiocyte, arises from the monocyte, and monocytes leave the blood, enter connective tissue and change into macrophages.',
+      explanations: {
+        a: 'The pericyte is the connective tissue stem cell around a capillary and gives rise to fibroblasts, smooth muscle and endothelium. It is a resident cell, and the histiocyte comes from the blood.',
+        b: 'The B lymphocyte becomes the plasma cell. Both answers are "a blood cell that settles in connective tissue and changes", which is what makes this the strongest distractor — but the product is an antibody factory, not a phagocyte.',
+        c: 'The adipocyte arises from the undifferentiated mesenchymal cell and stores fat. It gives rise to nothing.',
+        d: 'Correct. The monocyte is the circulating form; once in the tissue it becomes the macrophage, also called the histiocyte, and the same lineage gives the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts and the microglia.',
+      },
+    },
+    {
+      key: 'regarding-t-lymphocytes-the-cd8-t-cells-are-1-c-s-efd0263d',
+      conceptKey: 'lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The correct option has been absorbed into the one before it. The pen crossed the letter of option c on this 2022 script, so the bank holds option b as "Memory. © & Cytotoxic." The recovered key resolves this row to option c with high confidence and full overlap, and the department book agrees — the CD8+ T cells are the cytotoxic ones, secreting perforins that make pores in virally infected, transplanted and neoplastic cells — but option c no longer exists as an option, so the keyed answer cannot be selected. Recoverable by rescanning page 4 of the 2022 paper.',
+    },
+    {
+      key: 'monocytes-are-the-origin-of-cells-7-plasma-je-mast-oa-macrop-7511b5be',
+      conceptKey: 'monocyte-is-the-largest-leukocyte-and-becomes-the-macrophage',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The bank row has no options. All four option letters were crossed by the pen on this 2024 script and the options were read into the stem, where they remain legible as Plasma, Mast, Macrophages and Fibroblasts. The department book answers it — monocytes enter connective tissue and become macrophages — and the live row `histiocytes-originate-from` above examines the same fact from the other end. A question with an empty option map cannot be emitted; recoverable by rescanning page 2 of the 2024 paper.',
+    },
+    {
+      key: 'the-surface-marker-receptor-that-identifies-nk-cell-is-d0f357c0',
+      conceptKey: 'lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Give the surface marker of the natural killer cell and contrast it with the T and B cell receptors.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'One of the strays the extractor could not file to a leaf; it is authored here because it names a lymphocyte marker. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: natural killer cells carry CD16 and others and have neither T nor B cell receptors.',
+      explanations: {
+        a: 'Correct. CD16 is the marker the book gives for the natural killer cell — which matters precisely because the three lymphocytes are indistinguishable by microscopy and can only be told apart by their surface receptors.',
+        b: 'CD4 is the helper T cell. Both CD numbers, and both lymphocytes, which is what makes this the closest wrong answer; the book gives CD4 and CD8 to the T cell alone.',
+        c: 'IgM is one of the two receptors of the B lymphocyte, together with IgD. The natural killer cell carries neither T nor B receptors, and that absence is part of its definition.',
+        d: 'The option is truncated to "Ig" on the paper, and whichever immunoglobulin it named it would still be a B cell receptor rather than an NK marker.',
       },
     },
   ],

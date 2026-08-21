@@ -45,6 +45,15 @@
  * the rebuilt bank afterwards, and the exclusions that the repair made obsolete
  * were rewritten as live questions. If the bank is repaired again, the
  * exclusions are the part of this file to re-read.
+ *
+ * Three rows from the sat end-of-module papers are added at the end, one live and
+ * two excluded. The live one asks the ciliary axoneme as a four-way cross of the
+ * two microtubule counts with the two possible coverings, and its answer is worked
+ * from the department book rather than from a key, since none was recovered. Of the
+ * two exclusions, one has its four options merged into two compound entries and the
+ * other holds two questions and no options. `cilium-origin-and-ultrastructure` and
+ * `red-corpuscle-membrane-carries-blood-groups-outside-and-a-cytoskeleton-inside`
+ * are copied verbatim from the leaves that mint them.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -120,6 +129,54 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations',
       type: 'classification',
       aliases: ['Zonula occludens', 'Zonula adherens', 'Macula adherens', 'Desmosome', 'Gap junction', 'Nexus', 'Connexon', 'Junctional complex'],
+    },
+    {
+      key: 'cilium-origin-and-ultrastructure',
+      label: 'A cilium arises from a basal body and is built on a 9+2 axoneme',
+      definition:
+        'A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface. On electron microscopy the shaft contains an axoneme of nine peripheral microtubule doublets around a central pair, with dynein arms on the doublets that produce the beat.',
+      objective:
+        'Describe where a cilium comes from and what its 9+2 axoneme looks like on electron microscopy.',
+      pitfall:
+        'Giving microvilli the same answer. A microvillus has an actin core and no axoneme, and does not beat.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations',
+      type: 'structure_function_relationship',
+    },
+    {
+      key: 'red-corpuscle-membrane-carries-blood-groups-outside-and-a-cytoskeleton-inside',
+      label: 'The red corpuscle membrane does two different jobs on its two faces: antigens outside, a spectrin and actin cytoskeleton inside',
+      definition:
+        'The outer surface of the red corpuscle\'s plasma membrane carries its glycocalyx, and the carbohydrate of that coat is where the antigenic sites of the ABO blood groups and of the Rh factor sit — so blood grouping is a property of the outside of the membrane. Beneath the inner surface lies a cytoskeleton of peripheral proteins, spectrin and actin, which maintains the biconcave shape and gives the membrane its elasticity and stability under the repeated deformation of passing through capillaries. Hereditary spherocytosis is the disease of that cytoskeleton: a primary defect in spectrin gene expression, so the cell rounds up into a sphere, loses its deformability and is destroyed early.',
+      objective:
+        'Say what the outer and the inner surfaces of the red corpuscle membrane each carry, and name the protein whose gene defect causes hereditary spherocytosis.',
+      pitfall:
+        'Crediting the cytoskeleton with the blood groups, or the coat with the shape. The two faces of one membrane do two unrelated jobs, and every question in this pair is built on swapping them.',
+      subject: 'haem', primary: 'DIS-HIS-T02', secondary: ['SYS-HEM-T02-S02-M01'],
+      modulePath: '101 ISK > Histology > Blood > Red Blood Corpuscles',
+      type: 'structure_function_relationship',
+      aliases: ['Spectrin', 'Glycocalyx', 'Hereditary spherocytosis', 'ABO antigens'],
+    },
+    {
+      key: 'neuron-shape-classes-unipolar-bipolar-and-multipolar',
+      label: 'Nerve cells are classed by how many processes leave the cell body: one, two, or more than two',
+      definition:
+        'A neuron is named by the number of processes leaving its cell body. A unipolar cell has one — in the human, the spinal and cranial sensory ganglion cells, whose single process divides at once into two branches, so that they are strictly pseudounipolar. A bipolar cell has two, one at each end of the cell body: the cells of the vestibular and cochlear ganglia, the bipolar cells of the retina and the olfactory receptor cells. A multipolar cell has more than two — one axon and many dendrites — and it is the commonest form, taking in the motor cells of the ventral horn of the spinal cord and the Purkinje cells of the cerebellar cortex. The class follows from the work: a cell relaying one sensory line needs two poles, and a cell gathering from thousands of inputs needs many.',
+      objective:
+        'Sort a named nerve cell into the unipolar, bipolar or multipolar class by counting the processes leaving its cell body.',
+      pitfall:
+        'Reading "unipolar" as the simplest and so as the commonest. The multipolar cell is the commonest, and the unipolar cell of a sensory ganglion is the specialised one — a bipolar cell whose two processes have fused into a single stalk.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > The cell',
+      type: 'classification',
+      aliases: ['Multipolar neuron', 'Bipolar neuron', 'Unipolar neuron', 'Pseudounipolar', 'Purkinje cell'],
+      gaps: [
+        'This module\'s department book has no nervous tissue histology at all — its nervous system chapter is gross anatomy, and the words multipolar, bipolar, unipolar and Purkinje appear nowhere in the text. The 2020 end-of-module paper nevertheless asked where multipolar nerve cells are found, so the concept is minted from a sat paper, and the answer rests on the standard classification rather than on any statement of this faculty\'s. It is filed under the cytology leaf because it is a question about cell shape and because no histology leaf of 101 ISK covers nervous tissue; when a nervous tissue leaf exists, the row should be re-homed to it.',
+      ],
     },
   ],
 
@@ -625,6 +682,54 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'Only three options survived — keratin, desmin and lamins — and none of them is the answer. Spectrin, the red cell membrane cytoskeletal protein that holds the biconcave shape, is in the lost option, so this row cannot be sat or even scored as extracted. A rescan of the page is the only fix.',
+    },
+    {
+      key: 'the-axoneme-of-a-cilium-is-composed-of-c3ba98a7',
+      conceptKey: 'cilium-origin-and-ultrastructure',
+      difficulty: 'Moderate', questionType: 'Structural detail',
+      learningObjective: 'Give the microtubule count of the ciliary axoneme and say whether it lies inside or outside the plasmalemma.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it defines cilia as motile processes with a microtubular core covered by plasmalemma, names the shaft the axoneme, and gives that shaft nine peripheral doublets plus two central singlets — twenty microtubules. The four options cross the two counts with the two coverings, so only one crossing is right.',
+      explanations: {
+        a: 'Twenty-seven is the basal body, and the centriole it comes from: nine triplets. The covering is right and the number is wrong, which is the harder half of the item to see.',
+        b: 'Both halves wrong. Twenty-seven belongs to the basal body, and the basal body is the part that sits inside the apical cytoplasm — but that makes it the structure the option is describing, not the axoneme.',
+        c: 'The right count with the wrong covering. The axoneme projects above the cell surface, and everything that projects from a cell is covered by its plasma membrane; a bare bundle of microtubules in the extracellular space would not be part of a cell at all.',
+        d: 'Correct. The axoneme is the shaft of the cilium: 9 + 2 — nine peripheral doublets and two central singlets, twenty microtubules — sheathed in the plasmalemma.',
+      },
+    },
+    {
+      key: 'the-normal-shape-of-rbcs-is-kept-t-hf-d1204949',
+      conceptKey: 'red-corpuscle-membrane-carries-blood-groups-outside-and-a-cytoskeleton-inside',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The options have been merged in pairs. The candidate\'s pen crossed the letters of options b and d on this 2022 script, so the bank holds "Glycocalyx. C n and spectrin." and "Lipoproteins of plasmalemma, = ~dsHaemoglobin S." — two entries where the paper had four, each pairing a false option with a true or a false one. The answer is the fragment "[acti]n and spectrin", the cytoskeletal network on the inner face of the red cell membrane that holds the biconcave shape, and it survives only inside the glycocalyx entry. Recoverable by rescanning page 4 of the 2022 paper.',
+    },
+    {
+      key: 'the-following-is-a-non-membranous-organelle-d-io-cell-membra-07829deb',
+      conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No options in the bank row, and two questions in one stem. The pen crossed the option letters of question 3 on this 2024 script, so its options — Cell membrane, Mitochondria, Golgi apparatus, Ribosomes — went into the stem, and question 4 on the peroxisomes followed with its own four. The department book answers both: ribosomes and the cytoskeleton are its only non-membranous organelles, and peroxisomes bud from the rough, not the smooth, endoplasmic reticulum and produce heat rather than ATP. Neither can be emitted from a row with an empty option map. Recoverable by rescanning page 1 of the 2024 paper, which would split it into two.',
+    },
+    {
+      key: 'multipolar-nerve-cells-are-present-in-46f1ffc3',
+      conceptKey: 'neuron-shape-classes-unipolar-bipolar-and-multipolar',
+      difficulty: 'Hard', questionType: 'Classification',
+      learningObjective: 'Sort named nerve cells into unipolar, bipolar and multipolar by the number of processes leaving the cell body.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'One of the strays the extractor could not file to a leaf. It is authored here, in the cytology leaf, because it is a question about cell shape and because this module\'s book has no nervous tissue histology chapter to file it under — its nervous system chapter is gross anatomy. That is also why the answer comes from neither a key nor the book: the 2020 paper printed none, the highlight recovery does not cover that sitting, and the words multipolar, bipolar and unipolar appear nowhere in the department book. The answer is the standard classification the item is built on, and the concept carries a `gaps` note saying so.',
+      explanations: {
+        a: 'Correct. The Purkinje cell of the cerebellar cortex is the type example of a multipolar neuron: one axon and a great many dendrites leaving the cell body, so more than two processes in all.',
+        b: 'Spinal ganglion cells are unipolar — strictly pseudounipolar, a single process that divides in two — and they are the standard example of that class. This is the strongest distractor because a ganglion is where most students first meet a named nerve cell.',
+        c: 'Vestibular ganglion cells in the ear are bipolar: one process at each end of the cell body. They belong with the retinal and olfactory cells, not with the Purkinje cell.',
+        d: 'The bipolar cells of the retina are the second standard example of the bipolar class, which is why the item offers two bipolar options — a student who knows only that ganglia are unipolar still has to choose between them.',
+      },
     },
   ],
 }

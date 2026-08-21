@@ -34,6 +34,14 @@
  * five. A student who has memorised the table can answer nearly the whole leaf,
  * which is why the explanations here try to give the reason behind each row of
  * it rather than the row.
+ *
+ * Six rows from the sat end-of-module papers are added at the end, three live and
+ * three excluded, and none of the six carries a recovered answer — every live one
+ * is worked from the department book and says so. The exclusions are all the ringed
+ * scripts of 2022 and 2024: the thyroid follicle row has its four options merged
+ * into two compound entries, the simple cubical row has one question's stem sitting
+ * against the next question's options, and the lung alveoli row has no options at
+ * all. All three name the page to rescan.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -1869,6 +1877,78 @@ export const LEAF: McqLeafSeed = {
         C: 'Stratified columnar epithelium has tall surface cells.',
         D: 'Stratified squamous epithelium has flat surface cells — the shape at the opposite extreme, and the reason a distended bladder is so often misread as stratified squamous.',
       },
+    },
+    {
+      key: 'the-type-of-epithelium-providing-thin-membrane-and-smooth-su-ad66e0f1',
+      conceptKey: 'simple-squamous-epithelium-sites-names-and-functions',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Attribute a thin membrane and a smooth surface to simple squamous epithelium.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book rather than from a key: it gives simple squamous epithelium as one layer of flat cells providing a smooth surface for easy passage of fluids and easy movement of organs, and a thin membrane for gas exchange. Both halves of the stem are quoted from that sentence.',
+      explanations: {
+        a: 'Correct. One layer of flat cells is the thinnest epithelium there is, which is why it lines the alveolus for gas exchange and the pleura and peritoneum for organs to slide against.',
+        b: 'Simple cubical epithelium is one layer of cube-shaped cells and its functions are secretion and reabsorption — thyroid follicles, kidney convoluted tubules. A cube is thicker than a flat cell, and nothing diffuses across it.',
+        c: 'Simple columnar epithelium is taller still and works in secretion and absorption along the digestive tract. Height is what this option gets wrong.',
+        d: 'Stratified squamous epithelium has flat cells only at its surface and many layers beneath. Its function is protection, which is the opposite requirement — thickness rather than thinness.',
+      },
+    },
+    {
+      key: 'the-type-of-epithelium-with-contractile-function-is-500344fa',
+      conceptKey: 'epithelium-general-characters-and-four-functional-classes',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Name the functional class of epithelium that contracts.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'No key was printed on the 2020 paper and none was recovered, so the answer is taken from the department book, whose four-way functional classification names myo-epithelium as the class of epithelial cells with a contractile function.',
+      explanations: {
+        a: 'Surface epithelium covers surfaces and lines cavities. It is the first of the four classes and the one that does not do a specialised job at all.',
+        b: 'Neuro-epithelium is epithelium modified as a receptor — taste, smell, hearing. It responds to a stimulus rather than producing movement.',
+        c: 'Correct. Myo-epithelial cells are epithelial cells given a contractile function, and they squeeze secretion out of the acini of glands such as the salivary and mammary glands.',
+        d: 'Urothelium is another name for transitional epithelium, which is a kind of surface epithelium and is distensible rather than contractile. Stretching passively and contracting actively are opposite properties, and this option trades on both being about a changing shape.',
+      },
+    },
+    {
+      key: 'respiratory-epithelium-refers-to-91549080',
+      conceptKey: 'pseudostratified-columnar-epithelium-is-simple-and-has-three-forms',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Give the full name of the epithelium called respiratory epithelium.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: the second of the three forms of pseudostratified columnar epithelium is the ciliated form with goblet cells, and the book names it the respiratory epithelium of the nose, trachea and bronchi.',
+      explanations: {
+        a: 'Simple cubical epithelium lines thyroid follicles and kidney tubules. It has neither cilia nor goblet cells, so it can move nothing along a surface.',
+        b: 'Stratified cubical epithelium is a rare two-layered type found in sweat gland ducts. Nothing in the respiratory tract is lined by it.',
+        c: 'Every word is right except two. The lower respiratory tract — the bronchioles — is lined by simple columnar *ciliated* epithelium, and the named respiratory epithelium of the upper tract is pseudostratified. Dropping the cilia leaves an epithelium that cannot clear secretions at all.',
+        d: 'Correct. Pseudostratified columnar ciliated epithelium with goblet cells is the respiratory epithelium: the goblet cells make the mucus and the cilia sweep it upwards.',
+      },
+    },
+    {
+      key: 'follicles-of-thyroid-gland-are-lined-by-vgreteeeeeereett-epi-cb1e60f6',
+      conceptKey: 'simple-cubical-and-simple-columnar-epithelium-sites-and-functions',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The options have been merged in pairs and cannot be separated into a set a student could choose from. The candidate\'s pen crossed the letters of options b and d on this 2022 script, so the bank holds two entries where the paper had four: "Simple columnar ciliated. \'b. Simple squamous." and "Simple cubical. \'d. Simple columnar non-ciliated." The department book answers the question — thyroid follicles are one of its two named sites of simple cubical epithelium — but the correct wording sits at the front of a compound option that also carries a rival answer, so choosing it would be choosing two things at once. Recoverable by rescanning page 3 of the 2022 paper.',
+    },
+    {
+      key: 'simple-cubical-epithelium-is-found-in-the-following-site-bui-8edff262',
+      conceptKey: 'simple-cubical-and-simple-columnar-epithelium-sites-and-functions',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Two questions have crossed over each other. The pen crossed the option letters of question 28 on this 2024 script, so its four options went into the stem — Bowman\'s capsule of kidney, convoluted tubules of kidney, endothelium of blood vessels, epidermis of the skin — and the stem then ran on into question 29, "Lung bronchioles are lined with". The two entries left in the option map, "Simple squamous epithelium" and "Simple columnar epithelium", belong to question 29 and not to this stem at all, so the row would present one question\'s stem against another question\'s options. The department book answers both — convoluted tubules for the first, simple columnar ciliated for the second — but neither can be emitted from this row. Recoverable by rescanning page 3 of the 2024 paper.',
+    },
+    {
+      key: 'lung-alveoli-are-lined-by-a-simple-squamous-epithelium-b-str-139f1357',
+      conceptKey: 'simple-squamous-epithelium-sites-names-and-functions',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The bank row has no options. All four option letters were crossed by the candidate\'s pen on this 2024 script and the options were read into the stem, where they are still legible as Simple squamous epithelium, Stratified columnar epithelium, Respiratory epithelium and Transitional epithelium. The department book answers it plainly — simple squamous epithelium lining the lung alveoli is called pneumocytes — but a question with an empty option map cannot be emitted. Recoverable by rescanning page 3 of the 2024 paper.',
     },
   ],
 }

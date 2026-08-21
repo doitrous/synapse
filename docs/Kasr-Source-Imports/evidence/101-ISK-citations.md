@@ -1,7 +1,7 @@
 <!--
   Where the department book says what the claims say.
 
-  329 citations, every one quoting the book's own line.
+  332 citations, every one quoting the book's own line.
 
   A span is attached only where it carries at least 60% of the claim's
   distinctive vocabulary, and only from the chapter the concept's own curriculum
@@ -3243,6 +3243,34 @@ yes
 
 # Item
 ## id
+CIT-A9BD191EC49D
+## claim_id
+CLM-EDB12D72B6A4
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+Forms a supporting framework · Umbilical cord (Wharton’s jelly) Sites stroma of organs e.g. lymph · Vitreous humor of the eye node, liver, spleen, … · Pulp of teeth
+## locator_type
+printed_page
+## locator_page
+48
+## locator_section
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## locator_detail
+PDF page 49, printed as 48
+## context_note
+Matched to the claim on 70% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.70
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
 CIT-14A780141202
 ## claim_id
 CLM-8B73A00B08C8
@@ -3887,6 +3915,90 @@ yes
 
 # Item
 ## id
+CIT-8BCE2AD56BB7
+## claim_id
+CLM-ECA53193F12A
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+4- Gap junction (Nexus) communicating junction:
+## locator_type
+printed_page
+## locator_page
+60
+## locator_section
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## locator_detail
+PDF page 61, printed as 60
+## context_note
+Matched to the claim on 100% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.90
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-A5724B2608DC
+## claim_id
+CLM-91CA1DC13180
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+• Two adjacent cell membranes are separated by a narrow gap but connected by narrow channels that bridge the intercellular space. • Each channel is formed of 6 symmetrical molecules of transmembrane protein. • Functions: 1- Exchange of ions and small molecules between adjacent epithelial cells.
+## locator_type
+printed_page
+## locator_page
+60
+## locator_section
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## locator_detail
+PDF page 61, printed as 60
+## context_note
+Matched to the claim on 68% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.68
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-3D1E0ACB9220
+## claim_id
+CLM-D8AC2D81AC01
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+narrow channels that bridge the intercellular space. • Each channel is formed of 6 symmetrical molecules of transmembrane protein. • Functions: 1- Exchange of ions and small molecules between adjacent epithelial cells. 2- Passage of impulses between muscle cells.
+## locator_type
+printed_page
+## locator_page
+60
+## locator_section
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## locator_detail
+PDF page 61, printed as 60
+## context_note
+Matched to the claim on 71% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.71
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
 CIT-BC13FBD41129
 ## claim_id
 CLM-88055399A567
@@ -4468,34 +4580,6 @@ PDF page 75
 Matched to the claim on 92% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
 ## confidence
 0.90
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-A9BD191EC49D
-## claim_id
-CLM-EDB12D72B6A4
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-Forms a supporting framework · Umbilical cord (Wharton’s jelly) Sites stroma of organs e.g. lymph · Vitreous humor of the eye node, liver, spleen, … · Pulp of teeth
-## locator_type
-printed_page
-## locator_page
-48
-## locator_section
-101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-## locator_detail
-PDF page 49, printed as 48
-## context_note
-Matched to the claim on 70% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.70
 ## counts_as_claim_evidence
 yes
 
@@ -6155,6 +6239,34 @@ yes
 
 # Item
 ## id
+CIT-660FCB84736B
+## claim_id
+CLM-25DD8FC36FFE
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+Usually one nucleus is present in each cell (mononucleated). Some cells have two nuclei (binucleated) as liver cells. Some have more than two nuclei (multinucleated) as osteoclasts & skeletal muscles.
+## locator_type
+printed_page
+## locator_page
+21
+## locator_section
+101 ISK > Histology > Cytology > Nucleus
+## locator_detail
+PDF page 22, printed as 21
+## context_note
+Matched to the claim on 63% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.63
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
 CIT-5FD7AF0DB56E
 ## claim_id
 CLM-59C10CF80DB6
@@ -6939,34 +7051,6 @@ yes
 
 # Item
 ## id
-CIT-660FCB84736B
-## claim_id
-CLM-25DD8FC36FFE
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-Usually one nucleus is present in each cell (mononucleated). Some cells have two nuclei (binucleated) as liver cells. Some have more than two nuclei (multinucleated) as osteoclasts & skeletal muscles.
-## locator_type
-printed_page
-## locator_page
-21
-## locator_section
-101 ISK > Histology > Cytology > Nucleus
-## locator_detail
-PDF page 22, printed as 21
-## context_note
-Matched to the claim on 63% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.63
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
 CIT-C2ACA8E49CEB
 ## claim_id
 CLM-85D6F9E63200
@@ -7072,90 +7156,6 @@ PDF page 61, printed as 60
 Matched to the claim on 82% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
 ## confidence
 0.82
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-8BCE2AD56BB7
-## claim_id
-CLM-ECA53193F12A
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-4- Gap junction (Nexus) communicating junction:
-## locator_type
-printed_page
-## locator_page
-60
-## locator_section
-101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-## locator_detail
-PDF page 61, printed as 60
-## context_note
-Matched to the claim on 100% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.90
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-A5724B2608DC
-## claim_id
-CLM-91CA1DC13180
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-• Two adjacent cell membranes are separated by a narrow gap but connected by narrow channels that bridge the intercellular space. • Each channel is formed of 6 symmetrical molecules of transmembrane protein. • Functions: 1- Exchange of ions and small molecules between adjacent epithelial cells.
-## locator_type
-printed_page
-## locator_page
-60
-## locator_section
-101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-## locator_detail
-PDF page 61, printed as 60
-## context_note
-Matched to the claim on 68% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.68
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-3D1E0ACB9220
-## claim_id
-CLM-D8AC2D81AC01
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-narrow channels that bridge the intercellular space. • Each channel is formed of 6 symmetrical molecules of transmembrane protein. • Functions: 1- Exchange of ions and small molecules between adjacent epithelial cells. 2- Passage of impulses between muscle cells.
-## locator_type
-printed_page
-## locator_page
-60
-## locator_section
-101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-## locator_detail
-PDF page 61, printed as 60
-## context_note
-Matched to the claim on 71% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.71
 ## counts_as_claim_evidence
 yes
 
@@ -8248,6 +8248,90 @@ PDF page 121
 Matched to the claim on 75% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
 ## confidence
 0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-6CDE2B272C8D
+## claim_id
+CLM-7F9FD4284ED7
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+ Nutrient artery: it enters the middle of the shaft through an oblique nutrient foramen and runs away from the growing end of bone. It supplies the inner 2/3 of the shaft.
+## locator_type
+printed_page
+## locator_page
+118
+## locator_section
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## locator_detail
+PDF page 118
+## context_note
+Matched to the claim on 87% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.87
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-80DDA61D318C
+## claim_id
+CLM-97FE8E2BB5C6
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+ Periosteal arteries: they supply the outer ⅓ of the shaft and they communicate with other arteries.
+## locator_type
+printed_page
+## locator_page
+118
+## locator_section
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## locator_detail
+PDF page 118
+## context_note
+Matched to the claim on 63% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.63
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-D73D280BF718
+## claim_id
+CLM-B8CDA0F73421
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+ Metaphyseal arteries: they enter the bone through minute foramina to supply the
+## locator_type
+printed_page
+## locator_page
+118
+## locator_section
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## locator_detail
+PDF page 118
+## context_note
+Matched to the claim on 88% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.88
 ## counts_as_claim_evidence
 yes
 

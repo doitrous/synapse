@@ -32,6 +32,16 @@
  * membranes unit membranes too, so that statement is the faculty's own, and the
  * false one is the option calling the electron-microscopic appearance a
  * bilayer.
+ *
+ * Two rows from the sat end-of-module papers are added at the end, both live and
+ * both from the 2020 paper, where they sit three questions apart as a deliberate
+ * pair: the electron-microscopic feature of a steroid-secreting cell and of a
+ * protein-forming cell, with smooth and rough endoplasmic reticulum offered in both
+ * option sets. Neither carried a recovered answer; both are worked from the
+ * department book and say so. They are authored against
+ * `organelle-content-identifies-what-a-cell-does`, copied verbatim from
+ * `cytoplasm.ts`, because that is exactly the inference they test — given the cell,
+ * name the organelle — and because answering either one requires the other.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -72,6 +82,24 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Histology > Cytology > The cell',
       type: 'structural_description',
       aliases: ['Plasmalemma', 'Unit membrane', 'Trilaminar membrane'],
+    },
+    {
+      key: 'organelle-content-identifies-what-a-cell-does',
+      label: 'What a cell is doing can be read from which organelle is prominent in it',
+      definition:
+        'A cell\'s organelle profile follows from its work, and the books examine the inference in both directions. A protein-forming cell for export — the plasma cell, the fibroblast, the pancreatic acinar cell — has abundant rough endoplasmic reticulum, deeply basophilic cytoplasm, a well-developed Golgi apparatus and a pale euchromatic nucleus. A steroid-forming cell has abundant smooth endoplasmic reticulum instead, and its cytoplasm is acidophilic. A phagocyte — the macrophage or histiocyte, the neutrophil, the monocyte — has many lysosomes, a prominent Golgi and pseudopodia. A resting cell such as the fibrocyte has few organelles, little rough endoplasmic reticulum and pale cytoplasm. The mature erythrocyte has gone to the other extreme and has no nucleus, no mitochondria and no ribosomes at all, having lost them as its haemoglobin content rose.',
+      objective:
+        'Predict which organelle will be prominent in a named cell, and name the cell from a described organelle profile.',
+      pitfall:
+        'Reading basophilia as a property of the cell rather than of its ribosomes. A cell is basophilic because it is full of rough endoplasmic reticulum, so the staining and the organelle are one fact, not two that have to be memorised separately.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
+      type: 'structure_function_relationship',
+      gaps: [
+        'Several cells used in these rows have concepts of their own that already belong to sibling leaves of this batch — `fibroblast-active-and-fibrocyte-inactive` in `haemopoiesis.ts`, the macrophage and plasma cell in the connective-tissue leaves, and the erythrocyte in a leaf not yet seeded. None of them could be declared again here without emitting a duplicate concept id, so the cell-specific facts are carried in the option explanations. When those leaves are authored, these rows should be re-homed to them.',
+      ],
     },
   ],
 
@@ -154,6 +182,36 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'Two of the four options are unusable. C has swallowed D and reads "Transmission electron microscope ‏.ل‎ Fluorescent microscope", so a student picking C cannot say which microscope they picked; D then reads "100 mm", which is text bled in from a neighbouring question and is not an answer to this stem at all. The intended set is scanning EM, light microscope, transmission EM, fluorescent microscope, and the answer is the scanning electron microscope, which shows surfaces in three dimensions. Recoverable by rescanning the page.',
+    },
+    {
+      key: 'electron-microscopic-feature-of-cells-responsible-for-steroi-2182b5c4',
+      conceptKey: 'organelle-content-identifies-what-a-cell-does',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Name the organelle that identifies a steroid-secreting cell on electron microscopy.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: smooth endoplasmic reticulum is sited in lipid-forming cells and its functions include synthesis of the steroid hormones cortisone and testosterone. This row and `electron-microscopic-feature-of-protein-forming-cells-is` are the same question asked for the two secretory cell types, and they must be answered as a pair.',
+      explanations: {
+        a: 'Proteasomes destroy abnormal and short-lived cytosolic proteins. They are not even mentioned in the department book\'s cytology chapter, and nothing about them is secretory.',
+        b: 'Numerous free ribosomes mark a cell making protein for its own use. A steroid is a lipid, and no ribosome makes one.',
+        c: 'Correct. Abundant smooth endoplasmic reticulum is the electron-microscopic signature of a steroid-forming cell — the adrenal cortical cell, the Leydig cell — and it goes with acidophilic cytoplasm by light microscopy.',
+        d: 'Well-developed rough endoplasmic reticulum is the protein-forming cell, and it is the answer to the sister question on this same paper. Swapping the two is the single mistake both items are built to catch.',
+      },
+    },
+    {
+      key: 'electron-microscopic-feature-of-protein-forming-cells-is-1631f787',
+      conceptKey: 'organelle-content-identifies-what-a-cell-does',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Name the organelle that identifies a protein-secreting cell on electron microscopy.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'No key was printed on the 2020 paper and none was recovered, so the answer comes from the department book, which sites rough endoplasmic reticulum in protein-forming cells — its example is the plasma cell — and gives it protein synthesis, segregation, glycosylation and packing into transfer vesicles.',
+      explanations: {
+        a: 'Numerous lysosomes mark a phagocyte: the macrophage, the neutrophil, the monocyte. A cell that digests is not a cell that builds.',
+        b: 'Numerous peroxisomes mark the liver and kidney cell, where they oxidise long-chain fatty acids. Their own enzymes are made on free ribosomes elsewhere in the cytoplasm.',
+        c: 'Well-developed smooth endoplasmic reticulum is the steroid- or lipid-forming cell, and it is the answer to the sister question on the same paper. It has no ribosomes at all, so it cannot make protein.',
+        d: 'Correct. Rough endoplasmic reticulum is rough because it is studded with ribosomes bound to ribophorins, and those ribosomes make the protein the cell exports.',
+      },
     },
   ],
 }

@@ -72,6 +72,32 @@
  * books' own copies key two different letters; two are the shoulder joint's
  * nerve supply, which offers the axillary and the suprascapular nerves side by
  * side when the department's own concept names both.
+ *
+ * A later pass added the thirteen rows this leaf takes from the six sat
+ * end-of-module papers, which outrank every question book in this programme.
+ * Only two of them are sittable. Eleven come from the 2024 script, a paper
+ * recovered from a copy a candidate had ringed with a pen, and the pen went
+ * through the option letters: the extractor could not tell option from stem
+ * and left `options` empty, so the whole item survives only as one run-on
+ * paragraph — several of which run on into the next question as well. Nothing
+ * in a seed file can put those options back, because the emitter takes the
+ * stem and the options from the bank and an author may add only judgement to
+ * them. They are excluded here with that said plainly, and every one of them
+ * is a question worth having: a rescan of the unringed original recovers all
+ * eleven at once.
+ *
+ * Neither of the two sittable rows carries a key. The recovered answer sheet
+ * covers only the 2021 and 2022 papers, and its one entry that touches this
+ * leaf — the suprascapular nerve, keyed to the upper trunk — lands on the one
+ * row whose keyed option was swallowed into the stem. Both answers set here
+ * therefore come from the department book, and each says so in its reason.
+ *
+ * Two concepts are added, both reused rather than minted: the biceps and the
+ * brachialis concepts already carried by `arm.ts`, copied verbatim. The two
+ * questions are asked as questions about a muscle's nerve, which is why the
+ * slice put them in this leaf, but the objective they test is the muscle's,
+ * and minting a nerve-side rival to either key would split a student's
+ * mastery of the same fact in two.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -366,6 +392,26 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries',
       type: 'functional_relationship',
       aliases: ['Compartment rule of nerve supply'],
+    },
+    {
+      key: 'biceps-brachii-heads-insertion-nerve-action',
+      label: 'Biceps has two heads with different scapular origins, inserts on the radius, and is the powerful supinator',
+      definition: 'Biceps brachii arises by a long head from the supraglenoid tubercle of the scapula, whose tendon runs through the shoulder joint inside the capsule but outside the synovial membrane before descending in the intertubercular groove, and by a short head from the lateral part of the tip of the coracoid process, lateral to coracobrachialis. The two bellies join and insert by the bicipital tendon into the posterior rough part of the radial (bicipital) tuberosity and by the bicipital aponeurosis into the deep fascia over the flexor muscles of the forearm. It is supplied by the musculocutaneous nerve, from the lateral cord. It flexes the elbow and is the powerful supinator of the flexed forearm; it is not a pronator, and it does not extend the elbow.',
+      objective: 'Give the two origins, the insertion, the nerve supply and the actions of biceps brachii, and say what else takes attachment to the coracoid process.',
+      pitfall: 'Putting the long head on the infraglenoid tubercle and the insertion on the ulnar tuberosity. Infraglenoid belongs to the long head of triceps and the ulnar tuberosity to brachialis, and each swap is a whole different muscle.',
+      subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T03-S02-M03'],
+      modulePath: '101 ISK > Anatomy > Upper Limb > Arm',
+      type: 'structural_description',
+    },
+    {
+      key: 'brachialis-attachments-nerve-and-elbow-flexion',
+      label: 'Brachialis arises from the lower half of the humerus, inserts on the ulna, and is the main flexor of the elbow',
+      definition: 'Brachialis arises from the lower half of the front of the shaft of the humerus and from the medial and lateral intermuscular septa, embracing the insertion of deltoid above, and inserts into the coronoid process and the tuberosity of the ulna. It is supplied by the musculocutaneous nerve, with a small twig from the radial nerve to its lateral part. It is the main flexor of the elbow joint and does nothing else: it acts whatever the position of the forearm, and is therefore the muscle that flexes the pronated forearm, in which position biceps is at a mechanical disadvantage.',
+      objective: 'Give the origin, insertion, nerve supply and single action of brachialis, and say why it and not biceps flexes the pronated forearm.',
+      pitfall: 'Giving brachialis the median nerve. It lies against the median nerve and the brachial artery through the whole arm, which is what makes the swap easy; its nerve is the musculocutaneous, plus a radial twig.',
+      subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T03-S02-M03'],
+      modulePath: '101 ISK > Anatomy > Upper Limb > Arm',
+      type: 'structural_description',
     },
   ],
 
@@ -2451,6 +2497,133 @@ export const LEAF: McqLeafSeed = {
         D: 'The axillary nerve ends at the shoulder.',
         E: 'The musculocutaneous nerve flexes the elbow and supplies nothing below it but skin.',
       },
+    },
+    {
+      key: 'concerning-the-biceps-muscle-select-the-true-statement-8ad372b3',
+      conceptKey: 'biceps-brachii-heads-insertion-nerve-action',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Give the origins, the nerve and the action of biceps brachii, and separate each from the muscle it is most often confused with.',
+      answerOverride: 'd',
+      answerOverrideReason: 'The 2021 paper printed no key, and the recovered answer sheet has no entry for this source at all, so the answer is taken from the department book rather than from a key. The book puts the long head on the supraglenoid tubercle and the infraglenoid on the long head of triceps, supplies biceps from the musculocutaneous nerve of the lateral cord, and calls it the powerful supinator — so a, b and c are each false on the book\u2019s own words. It also puts the short head on the lateral part of the tip of the coracoid process, lateral to coracobrachialis, which is d exactly.',
+      explanations: {
+        a: 'The infraglenoid tubercle belongs to the long head of triceps. Both tubercles sit on the scapula at the rim of the glenoid, one above and one below, and a student who has learnt that a long head arises from a glenoid tubercle without learning which one gets this wrong half the time; the biceps head is supra-, above the glenoid, where its tendon can drop into the joint.',
+        b: 'The medial cord gives the ulnar nerve and the two medial cutaneous nerves, and nothing that reaches the front of the arm. Biceps is musculocutaneous, from the lateral cord. The option is tempting to a student who has memorised that biceps is a flexor and that the medial cord is on the flexor side of the plexus, which is true and still gives the wrong cord.',
+        c: 'Exactly backwards, and the commonest error on this muscle. Biceps inserts on the posterior rough part of the radial tuberosity, so contracting it unwinds the radius \u2014 it is the powerful supinator of the flexed forearm, the movement of driving a right-handed screw. Students choose pronation because the tendon plainly crosses the forearm and must turn it somehow.',
+        d: 'Correct. The short head and coracobrachialis share the tip of the coracoid process, biceps taking the lateral part of it and coracobrachialis the medial \u2014 which is why the two are described together and why the conjoined origin is a landmark rather than one muscle\u2019s.',
+      },
+    },
+    {
+      key: 'regarding-the-brachiali-muscle-select-thecorrect-statement-98135a3f',
+      conceptKey: 'brachialis-attachments-nerve-and-elbow-flexion',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Give the origin, insertion, nerve and action of brachialis, and say why it and not biceps is the main flexor of the elbow.',
+      answerOverride: 'c',
+      answerOverrideReason: 'The 2022 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, not from a key. The book states brachialis arises from the lower half of the anterior humeral shaft, inserts into the coronoid process and ulnar tuberosity, takes the musculocutaneous nerve with a radial twig, and is the primary flexor of the elbow \u2014 which makes a, b and d false and c its own wording. OCR has mangled the stem and the option text without touching their sense.',
+      explanations: {
+        a: 'The nerve of brachialis is the musculocutaneous, with a small twig from the radial to its lateral part. The median nerve is the one that lies on brachialis through the whole length of the arm, with the brachial artery, and that intimacy is what makes the swap so easy to make and so easy to examine.',
+        b: 'The upper third of the shaft carries the insertion of deltoid, which brachialis embraces from below; brachialis itself arises from the lower half of the front of the shaft. A student who remembers only that brachialis is on the humerus will guess an end and has an even chance of the wrong one.',
+        c: 'Correct. Brachialis crosses only the elbow and pulls on the ulna, which cannot rotate, so it flexes whatever position the forearm is in \u2014 including pronation, where biceps is at a mechanical disadvantage. That is what makes it the main flexor rather than biceps.',
+        d: 'There is no pronator tuberosity on the radius for brachialis to reach; the radial tuberosity takes biceps and the middle of the lateral surface takes pronator teres. Brachialis inserts on the ulna, at the coronoid process and the ulnar tuberosity, and reaching for a named tuberosity on the radius is the reflex this distractor is built on.',
+      },
+    },
+    {
+      key: 'the-suprascapular-nerve-is-a-branch-from-the-b-upper-trunk-ae3a9e1b',
+      conceptKey: 'brachial-plexus-formation-branches',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The option that carries the answer is inside the stem. The stem reads "The suprascapular nerve is a branch from the: ~b. Upper trunk", so option b \u2014 the correct one \u2014 is not in the option set at all; option a has swallowed a second option as well ("Roots of the brachial plexus. S Posterior cord."), and option d survives as the two letters "Po". The recovered answer sheet keys this question b, which confirms both the anatomy and the diagnosis: the upper trunk is the answer and the upper trunk is the line that leaked. A rescan of the page recovers the item whole.',
+    },
+    {
+      key: 'the-muscles-supplied-by-deep-branch-of-uinar-nerve-se-vis-7-e2bb7487',
+      conceptKey: 'small-muscles-of-the-hand-groups-and-their-nerves',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script: the candidate\u2019s pen crossed the option letters, so the extractor left `options` empty and the four options survive only inside the stem \u2014 abductor pollicis brevis, flexor pollicis brevis, the lateral two lumbricals and all the interossei. Worse, the stem runs on into question 52 ("If the median nerve was injured above the elbow, which of these muscles would retain function?") with its own four options, so the row is two questions in one paragraph. The seeds cannot repair a bank stem, and a stem carrying two questions cannot be sat. A rescan of an unringed copy recovers both.',
+    },
+    {
+      key: 'opposition-of-thumb-is-dependent-upon-the-functional-integri-3874744d',
+      conceptKey: 'carpal-tunnel-median-nerve-compression',
+      difficulty: 'Easy', questionType: 'Clinical application',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script, with `options` empty: the four choices survive only inside the stem, and the pen has taken the fourth of them with it \u2014 the stem ends "ofRadial nerve 74. erve", so the option that names the median nerve\u2019s rival is gone and the stem itself is truncated mid-word. The question is intact in this leaf as `opposition-of-the-thumb-is-dependent-upon-the-functional-int-4a5d2ae7`, which is the copy to use.',
+    },
+    {
+      key: 'regarding-ulnar-nerve-injury-as-often-occurs-where-the-nerve-5a34b85a',
+      conceptKey: 'ulnar-nerve-injury-claw-hand',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script, with `options` empty: the four options are inside the stem, option a has lost its opening words to the pen, and the stem then runs on into question 56 ("Concerning the muscles of the rotator cuff:"). The question survives whole in this leaf as `regarding-ulnar-nerve-injury-2024-y-y-011dd18a`, which is the copy to sit; nothing here is lost that that copy does not carry.',
+    },
+    {
+      key: 'the-median-nerve-supplies-flexor-carpi-ulnaris-and-half-of-f-df4c8d81',
+      conceptKey: 'median-nerve-origin-course-and-supply-in-the-hand',
+      difficulty: 'Hard', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script, with `options` empty: all four options are inside the stem, and the letters that would separate them have been struck through \u2014 "_ supplies flexor carpi ulnaris\u2026 \u201cB. gives rise to most of its branches\u2026 4 may be compressed between the two heads of pronator teres\u2026 J enters cubital fossa lateral to the brachial artery." The item is worth recovering: it is the only sat question in this leaf that examines the pronator teres compression and the nerve\u2019s relation in the cubital fossa in one place. A rescan of an unringed copy recovers it.',
+    },
+    {
+      key: 'ina-patient-with-erb-duchenne-palsy-a-neta-arising-the-brach-fbd22134',
+      conceptKey: 'erb-palsy-upper-trunk-injury',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script, with `options` empty and the stem itself broken ("a neta arising the brachial plexus is nonfunctional"). Five option fragments survive inside it \u2014 lateral pectoral, suprascapular, dorsal scapular, long thoracic \u2014 with no reliable letters. The same question is already sittable in this leaf from the question books, as `in-patient-with-erb-duchenne-palsy-a-nerve-arising-from-the-905a22c0`.',
+    },
+    {
+      key: 'the-superficial-muscles-of-front-of-forearm-include-7-pronat-9ad6a19e',
+      conceptKey: 'flexor-and-extensor-compartments-take-different-nerves',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script, with `options` empty: the four options are inside the stem and the stem then runs on into question 75 ("The contents of cubital fossa include:") with four more. Two questions in one row cannot be sat as one, and no seed can split a bank stem. Both are worth a rescan \u2014 the cubital fossa contents are examined in every paper in this module.',
+    },
+    {
+      key: 'the-structures-passing-deep-to-flexor-retinaculum-include-te-9e74c52b',
+      conceptKey: 'flexor-retinaculum-what-passes-deep-superficial-and-through-it',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script, with `options` empty: the four options survive inside the stem \u2014 tendon of flexor digitorum profundus, ulnar artery, radial artery, ulnar nerve \u2014 with the letters struck through. This leaf already carries the same question, keyed and sittable, in several copies from the question books; the rescan is still worth doing because a sat paper outranks them all.',
+    },
+    {
+      key: 'loss-of-sensation-from-the-tip-of-the-index-finger-is-indica-40ab0117',
+      conceptKey: 'cutaneous-supply-of-the-palm-and-the-dorsum-of-the-hand',
+      difficulty: 'Easy', questionType: 'Clinical application',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script, with `options` empty: the four nerves are inside the stem ("am radial Af. median A. ulnar _-d, musculocutaneous"), the pen having taken the letters. The identical question is sittable in this leaf as `loss-of-sensation-from-the-tip-of-the-index-nger-is-indicati-ee3a5db7`.',
+    },
+    {
+      key: 'what-is-the-innervation-of-the-jumbrical-muscles-joa-ulnarn-43d6c02a',
+      conceptKey: 'lumbricals-and-interossei-attachments-actions-and-nerves',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script. One option was recovered and it is not this question\u2019s: option a reads "it is a terminal branch of the lateral cord of the brachial plexus", which belongs to question 90, "The ulnar nerve", whose stem has also been pulled into this row. The lumbrical options themselves \u2014 all ulnar, all radial, all median, half median and half ulnar \u2014 are inside the stem with their letters struck through. A rescan recovers both questions.',
+    },
+    {
+      key: 'as-it-emerges-from-the-axilla-the-median-nerve-lies-where-wi-26277239',
+      conceptKey: 'median-nerve-origin-course-and-supply-in-the-hand',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'From the ringed 2024 script, with `options` empty: the four positions are inside the stem ("AL: posterior AGiateral ey anterior \u00a2 medial"), and the stem is truncated at "lies where wit brachial artery?" with a stray "e humerus" trailing it. The anatomy the question wants \u2014 lateral to the artery at the start of the arm, crossing to medial at the middle of it \u2014 is taught by this leaf\u2019s median nerve concept, but the item needs a rescan before it can be sat.',
     },
   ],
 }

@@ -53,6 +53,7 @@
    "totalMarks": 72,
    "timeAllowed": 120,
    "statedQuestions": 120,
+   "readability": "candidate's ringed script; option letters destroyed by ink, options unrecoverable by OCR at any resolution or psm",
    "recovered": 77,
    "missing": 43,
    "scannedTwice": false,

@@ -10,7 +10,7 @@
     EOY Anatomy cases 1st year 2025-1 (2).pdf — other 2025, 11 questions
 
   71 concepts from 109 questions.
-  31 of them were asked on more than one paper, and carry an exam_signal
+  41 of them were asked on more than one paper, and carry an exam_signal
   line per sitting: repetition is the strongest blueprint evidence this corpus
   holds, and it only exists once the papers are read together.
 
@@ -1624,12 +1624,14 @@ kau
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p13 | 101 ISK
 src_530685004e73e670a4ed | baqoon | 2024 | p1 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.13
+0.22
 ## exam_weight_by_year
-KAU_Y1=0.13
+KAU_Y1=0.22
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2283,12 +2285,14 @@ kau
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
 src_530685004e73e670a4ed | baqoon | 2024 | p4 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.10
+0.16
 ## exam_weight_by_year
-KAU_Y1=0.10
+KAU_Y1=0.16
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2415,12 +2419,14 @@ kau
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
 src_1641d3629225bb111726 | baqoon | 2022 | p6 | 101 ISK
 src_f3d7ac13bbc97156212f | baqoon | 2023 | p8 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.13
+0.20
 ## exam_weight_by_year
-KAU_Y1=0.13
+KAU_Y1=0.20
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2547,12 +2553,14 @@ kau
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
 src_530685004e73e670a4ed | baqoon | 2024 | p3 | 101 ISK
 src_f3d7ac13bbc97156212f | baqoon | 2023 | p9 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.13
+0.20
 ## exam_weight_by_year
-KAU_Y1=0.13
+KAU_Y1=0.20
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2679,12 +2687,14 @@ kau
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
 src_1641d3629225bb111726 | baqoon | 2022 | p8 | 101 ISK
 src_f3d7ac13bbc97156212f | baqoon | 2023 | p10 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.13
+0.20
 ## exam_weight_by_year
-KAU_Y1=0.13
+KAU_Y1=0.20
 ## clinical_relevance
 0.8
 ## academic_relevance
@@ -3071,18 +3081,21 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p3 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.07
+0.16
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.16
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -5031,18 +5044,21 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p5 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.07
+0.17
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.17
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -5423,12 +5439,14 @@ kau
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p8 | 101 ISK
 src_530685004e73e670a4ed | baqoon | 2024 | p3 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.10
+0.17
 ## exam_weight_by_year
-KAU_Y1=0.10
+KAU_Y1=0.17
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -5814,18 +5832,20 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p10 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.07
+0.14
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.14
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -6075,12 +6095,13 @@ kau
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p12 | 101 ISK
 src_530685004e73e670a4ed | baqoon | 2024 | p3 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.10
+0.14
 ## exam_weight_by_year
-KAU_Y1=0.10
+KAU_Y1=0.14
 ## clinical_relevance
 0.8
 ## academic_relevance
@@ -6335,18 +6356,19 @@ kau
 1
 ## exam_signal
 src_1641d3629225bb111726 | baqoon | 2022 | p4 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.07
+0.10
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.10
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -6725,18 +6747,20 @@ kau
 1
 ## exam_signal
 src_1641d3629225bb111726 | baqoon | 2022 | p8 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.07
+0.14
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.14
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -7117,18 +7141,20 @@ kau
 1
 ## exam_signal
 src_530685004e73e670a4ed | baqoon | 2024 | p1 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.06
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.06
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -7247,18 +7273,20 @@ kau
 1
 ## exam_signal
 src_530685004e73e670a4ed | baqoon | 2024 | p1 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.06
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.06
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -7377,18 +7405,20 @@ kau
 1
 ## exam_signal
 src_530685004e73e670a4ed | baqoon | 2024 | p2 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.06
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.06
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -7637,18 +7667,19 @@ kau
 1
 ## exam_signal
 src_530685004e73e670a4ed | baqoon | 2024 | p4 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.06
+0.09
 ## exam_weight_by_year
-KAU_Y1=0.06
+KAU_Y1=0.09
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -8288,18 +8319,21 @@ kau
 1
 ## exam_signal
 src_f3d7ac13bbc97156212f | baqoon | 2023 | p7 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.08
+0.19
 ## exam_weight_by_year
-KAU_Y1=0.08
+KAU_Y1=0.19
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic

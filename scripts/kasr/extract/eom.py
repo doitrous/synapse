@@ -119,6 +119,24 @@ SITTINGS = {
     "2024-12-05": {
         "files": ["EOM ISK EOM exam 2024.pdf"],
         "moduleCode": "ISK-101", "totalMarks": 72, "timeAllowed": 120, "statedQuestions": 120,
+        # This one is a candidate's own script and the pen is all over it. The
+        # rings land on the option letters, so the markers this parser needs are
+        # the characters the ink destroyed, and the damage does not stop there:
+        # at 400 dpi, and under every page-segmentation mode tesseract has,
+        # "ribosomes" comes back "Posomes" and "Golgi apparatus" comes back "Sai
+        # apparatus". The stems are mostly legible; the options are not.
+        #
+        # So its rows carry clean-ish stems, no options, and `optionsInStem`.
+        # Thirty of them were excluded at authoring for exactly this, and that
+        # was the right call — a seed can add judgement but takes stem and
+        # options verbatim from the bank, so nothing at the seed layer can
+        # separate what OCR never split.
+        #
+        # Recovering this paper needs a reader or a vision model on the page
+        # images, not another OCR pass. Recorded here so the next person does
+        # not spend an afternoon rediscovering it.
+        "readability": "candidate's ringed script; option letters destroyed by ink, "
+                       "options unrecoverable by OCR at any resolution or psm",
     },
 }
 

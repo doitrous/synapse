@@ -11,6 +11,14 @@
  * from that batch verbatim so re-emitting it is an update that changes nothing
  * except adding the question-book occurrences to its exam signal. A second
  * concept for the same idea would split a student's mastery in half.
+ *
+ * One row from the sat end-of-module papers is added at the end, and it is excluded.
+ * It is a 2024 row off a ringed script with no options: the four went into the stem,
+ * where they read Multinucleated, Acidophilic, Seen in blood film and Size 50-70 um.
+ * The department book settles it by elimination — the megakaryocyte has a single
+ * multilobed nucleus, basophilic cytoplasm and lives in the marrow — leaving its
+ * stated diameter of 50-70 µm as the only true option. Kept with its reason so a
+ * rescan of page 3 can make it live.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -297,6 +305,15 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: 'The correct option reads "2-4 pm": OCR has eaten the micron sign, so the right answer is printed as a unit of time. A student cannot be asked to pick an option whose units are wrong. Recoverable by rescanning — the intended answer is the 2–4 µm diameter.',
+    },
+    {
+      key: 'the-cell-of-origin-of-platelets-is-characterized-by-x-multin-43755b3d',
+      conceptKey: 'platelet-origin-from-megakaryocyte',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The bank row has no options. The pen crossed all four option letters on this 2024 script and the options were read into the stem, where they survive as Multinucleated, Acidophilic, Seen in blood film and Size 50-70 um. The department book answers it by elimination: the megakaryocyte has a single multilobed nucleus rather than many nuclei, basophilic rather than acidophilic cytoplasm, and lives in the bone marrow rather than the blood film — leaving its stated diameter of 50-70 µm as the only true option. A question with an empty option map cannot be emitted; recoverable by rescanning page 3 of the 2024 paper.',
     },
   ],
 }

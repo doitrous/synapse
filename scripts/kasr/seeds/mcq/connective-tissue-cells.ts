@@ -51,6 +51,18 @@
  * secretions and the two anaphylaxis cases; the existing mast cell concept is
  * about identifying the cell down a microscope, and what it releases is a
  * different thing to know.
+ *
+ * Nine rows from the sat end-of-module papers are added at the end. No answer among
+ * them was recovered — the highlight pass in `eom-answers.json` reaches no row in
+ * this leaf — so all six live answers are worked from the department book and each
+ * says so in its `answerOverrideReason`. The three exclusions are the batch's usual
+ * failure: on the 2022 and 2024 scripts the candidate's pen crossed option letters,
+ * sending those options into the stem, and `thermogenesis-is-a-function-of` lost
+ * its correct option into the one above it.
+ *
+ * `connective-tissue-fibre-stains-by-fibre-type` and
+ * `mucoid-ct-is-jelly-rich-in-hyaluronic-acid` are copied verbatim from the leaves
+ * that mint them, because two of the papers' rows ask them from the cell side.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -176,6 +188,9 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Histology > Blood > Granular leukocytes',
       type: 'structure_function_relationship',
       aliases: ['Basophil granules', 'Anaphylaxis', 'Basophilia'],
+      conflicts: [
+        'The recovered key for the 2022 end-of-module paper resolves its question 40 — which white blood cells contain histamine and heparin — to Eosinophils, while the department book gives histamine and heparin to the basophil and the mast cell and gives the eosinophil histaminase and sulphatase, which destroy them. The disagreement is recorded rather than resolved. The evidence in `eom-answers.json` points at the extraction rather than at either source: only three of the four option boxes were found on that page, the option that was lost is Basophils, and the candidate\'s highlight overlaps the box the key names by 13% of its area. The row is excluded in `microtechniques.ts` with the same note.',
+      ],
     },
     {
       key: 'pericyte-and-undifferentiated-mesenchymal-cell',
@@ -356,6 +371,30 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Histology > Introduction > Microtechniques',
       type: 'structure_function_relationship',
       aliases: ['Toluidine blue', 'Metachromasia', 'Metachromatic granules'],
+    },
+    {
+      key: 'connective-tissue-fibre-stains-by-fibre-type',
+      label: 'Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart',
+      definition:
+        'The department book prints the three fibres against the stains that show them. Collagen is pink with eosin, blue with Mallory\'s trichrome and red with van Gieson. Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson. Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content. Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.',
+      objective:
+        'Give the colour each of the three connective tissue fibres takes with H&E, Mallory, van Gieson, orcein, silver and PAS, and choose the right stain when asked to demonstrate one fibre.',
+      pitfall:
+        'Answering "brown" without asking which brown. Orcein browns elastic fibres and silver browns reticular fibres; naming the colour is not naming the stain, and the two fibres look nothing alike once shown.',
+      subject: 'fnd', primary: 'DIS-HIS-T04', secondary: ['DIS-HIS-T02'],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Fibres',
+      type: 'comparison',
+      aliases: ['Mallory trichrome', 'Van Gieson', 'Orcein', 'Silver impregnation'],
+    },
+    {
+      key: 'mucoid-ct-is-jelly-rich-in-hyaluronic-acid',
+      label: 'Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp',
+      definition: 'Mucoid connective tissue contains mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid. It is found in the umbilical cord, where it is called Wharton\'s jelly, in the vitreous humour of the eye and in the pulp of the teeth. Its role is supportive.',
+      objective: 'Recognise mucoid connective tissue by its ground substance and name its three sites.',
+      pitfall: 'Reaching for loose areolar connective tissue because it too has abundant ground substance. What marks mucoid tissue out is that the matrix is jelly and the cells are almost only fibroblasts.',
+      subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
+      modulePath: '101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper',
+      type: 'structural_description',
     },
   ],
 
@@ -1429,6 +1468,123 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'Option B was lost, leaving three. The key, A for the fibroblast, is right, and the same teaching is live at `the-ground-substance-of-connective-tissue-is-synthesized-mai-cd0927fe`.',
+    },
+    {
+      key: 'macrophages-can-be-stained-with-64f1f7d3',
+      conceptKey: 'vital-and-supravital-stains',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Name the stain that demonstrates a macrophage, and say why it works.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book rather than from a key: it says the macrophage is demonstrated by vital stains such as trypan blue or India ink, which it phagocytoses. The other three options are the stains the same chapters give to other cells and fibres.',
+      explanations: {
+        a: 'Correct. Trypan blue is a vital stain — injected into the living animal — and the macrophage identifies itself by eating it, so the dye granules inside the cell are the demonstration.',
+        b: 'Toluidine blue stains the mast cell and the blood basophil metachromatically, turning their heparin granules purple. It is the neighbouring cell in the same chapter and the commonest wrong answer here.',
+        c: 'Silver stains reticular fibres brown, and the Golgi apparatus. It shows a fibre network, not a phagocyte.',
+        d: 'Orcein browns elastic fibres. Both silver and orcein give a brown result, which is why naming the colour is never enough to name the stain.',
+      },
+    },
+    {
+      key: 'mast-cells-can-be-metachromatically-stained-with-f11c8392',
+      conceptKey: 'metachromatic-stain-toluidine-blue-and-heparin',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Name the metachromatic stain of the mast cell granule.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is taken from the department book: the mast cell\'s basophilic granules are stained metachromatically purple or red by toluidine blue. It is the only metachromatic stain the book teaches.',
+      explanations: {
+        a: 'Indian ink is a vital stain the macrophage phagocytoses. It marks a cell by being eaten, not by changing colour, so it cannot be metachromatic at all.',
+        b: 'Sudan III stains fat orange, on a frozen section, and identifies the adipocyte. Nothing about it involves a colour change.',
+        c: 'Correct. Toluidine blue is blue, and on the sulphated heparin of the mast cell granule it turns violet or magenta red — a colour different from the dye\'s own, which is what metachromasia means.',
+        d: 'Trypan blue is the other vital stain of the macrophage. Two of the four options here are macrophage stains, so a student who has not separated the mast cell from the macrophage has a one-in-two chance of the wrong cell.',
+      },
+    },
+    {
+      key: 'mallory-trichrome-stain-can-be-used-for-demonstration-of-6d56187b',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Give the fibre Mallory\'s trichrome demonstrates and the colour it gives.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'The 2021 paper carried no key and no highlight was recovered for it, so the answer is worked from the department book\'s fibre-and-stain table: collagen fibres are pink with eosin, blue with Mallory\'s trichrome and red with van Gieson. Mallory is listed against no other fibre.',
+      explanations: {
+        a: 'Correct. Mallory\'s trichrome stains collagen fibres blue, and it is one of the three stains the book tabulates against collagen.',
+        b: 'Reticular fibres are invisible in H&E and are shown by silver, which browns them, or by PAS, which reddens them because of their sugar content. Mallory does not reach them.',
+        c: 'A macrophage is a cell, not a fibre, and it is demonstrated by a vital stain it eats. Putting a cell in a fibre-stain question tests whether the student knows what the stain is for.',
+        d: 'Actin microfilaments are cytoskeletal and intracellular, and the book says all three cytoskeletal systems are hard to see by light microscopy except by immunofluorescence. No trichrome shows them.',
+      },
+    },
+    {
+      key: 'the-following-cell-stained-metachromati-ally-with-toluidine-453ba687',
+      conceptKey: 'mast-cell-lm-em-metachromasia',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Name the connective tissue cell that stains metachromatically.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2022 paper printed no key for this row and the highlight recovery returned nothing for it, so the answer comes from the department book: only the mast cell is described as having granules stained metachromatically purple or red by toluidine blue. This is the same fact as `mast-cells-can-be-metachromatically-stained-with`, asked from the other end.',
+      explanations: {
+        a: 'The plasma cell is deeply basophilic, which makes it the closest wrong answer — but its basophilia is diffuse cytoplasmic staining from rough endoplasmic reticulum, and it takes the dye\'s own colour. Basophilic is not the same as metachromatic.',
+        b: 'The macrophage is demonstrated by a vital stain it phagocytoses, trypan blue or India ink, and its cytoplasm is only palely basophilic.',
+        c: 'Correct. The mast cell\'s granules are sulphated and rich in heparin, and heparin is what turns blue toluidine violet-magenta.',
+        d: 'The pericyte is a small undifferentiated cell around a capillary, with few organelles and no granules at all. There is nothing in it for a metachromatic dye to react with.',
+      },
+    },
+    {
+      key: 'the-c-t-cell-that-gives-rise-to-fibroblast-is-dd05bec0',
+      conceptKey: 'pericyte-and-undifferentiated-mesenchymal-cell',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Name the connective tissue cells a fibroblast can arise from.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'No key was printed on the 2022 paper and none was recovered, so the answer is taken from the department book: the fibroblast arises from undifferentiated mesenchymal cells and from pericytes, and the pericyte in injury divides and differentiates into endothelium, fibroblasts and smooth muscle cells. The undifferentiated mesenchymal cell is not among the four options, which leaves the pericyte as the only stem cell on the list.',
+      explanations: {
+        a: 'Correct. The pericyte is the adult mesenchymal stem cell of connective tissue, lying against the capillary wall, and on injury it divides into endothelium, smooth muscle and fibroblasts.',
+        b: 'The mast cell arises from the undifferentiated mesenchymal cell itself and gives rise to nothing. It is a differentiated secretory cell, not a reserve.',
+        c: 'The fat cell also arises from the undifferentiated mesenchymal cell and is an end point. A cell full of stored lipid is the least likely thing on the list to divide into something else.',
+        d: 'The reticular cell is the tempting one, because it can turn phagocytic when stimulated by antigen — but changing behaviour is not differentiating into another cell type, and the book has it arising from the undifferentiated mesenchymal cell rather than giving rise to fibroblasts.',
+      },
+    },
+    {
+      key: 'the-mucoid-c-t-is-characterized-by-1711ddbb',
+      conceptKey: 'mucoid-ct-is-jelly-rich-in-hyaluronic-acid',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Recognise mucoid connective tissue by its jelly-like ground substance.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'The 2022 paper carried no key and no highlight was recovered for that row, so the answer comes from the department book, which describes mucoid connective tissue as containing mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid. The extractor has mangled two words of option a — "€xCess" and "Substance" — but the option is legible.',
+      explanations: {
+        a: 'Correct. The excess of soft jelly-like ground substance is what mucoid tissue is: Wharton\'s jelly of the umbilical cord, the vitreous humour and the dental pulp.',
+        b: 'Fat cells predominating is adipose connective tissue. Both are loose types, and grouping them is the mistake this option exists to catch.',
+        c: 'High vascularity belongs to loose areolar tissue and to brown adipose tissue. Wharton\'s jelly is a packing around the umbilical vessels, not a vascular tissue itself.',
+        d: 'Predominating collagen fibres is white fibrous connective tissue, a dense type. Mucoid tissue has only fine collagen and reticular fibres, which is why it is a jelly rather than a cord.',
+      },
+    },
+    {
+      key: 'thermogenesis-is-a-function-of-88fee2d0',
+      conceptKey: 'white-versus-brown-adipose-connective-tissue',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The correct option has been swallowed by another. The candidate\'s pen crossed the letter of option c on this 2022 script, so "c. Multilocular fat cell" was read as the tail of option b and the bank now holds "Histiocyté. ¢. Multilocular fat cell." as one entry. The department book gives thermogenesis to the multilocular fat cell of brown adipose tissue, breaking down fat to release heat through thermogenin in its mitochondria — so the answer is inside option b\'s string rather than being an option of its own, and the row cannot be sat until page 2 of the 2022 paper is rescanned.',
+    },
+    {
+      key: 'the-following-cell-can-give-rise-to-endothelial-cell-of-fibr-982990c2',
+      conceptKey: 'pericyte-and-undifferentiated-mesenchymal-cell',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The bank row has no options. This is a 2024 row off a ringed script: the pen crossed all four option letters and they were read into the stem, where they remain legible as Fibroblast, Mast cell, Histiocyte and Pericyte. The department book answers it — the pericyte in injury divides and differentiates into endothelium, fibroblasts and smooth muscle cells — and the same fact is examined in the live row `the-c-t-cell-that-gives-rise-to-fibroblast-is` above. Options cannot be added to the bank by hand, so the row waits on a rescan of page 2 of the 2024 paper.',
+    },
+    {
+      key: 'the-antigen-presenting-c-t-cell-is-histiocyte-plasma-cell-yf-a7a84400',
+      conceptKey: 'connective-tissue-cells-fixed-free-and-which-are-branched',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No options in the bank row. The pen crossed the option letters on this 2024 script and all four went into the stem, where they read Histiocyte, Plasma cell, Mast cell and Fibroblast. The department book gives antigen presentation to the macrophage, which it names the histiocyte, and also to the reticular cell — which is not among the options, so the intended answer is the histiocyte. A question with an empty option map cannot be emitted; recoverable by rescanning page 2 of the 2024 paper.',
     },
   ],
 }

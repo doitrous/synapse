@@ -1,15 +1,15 @@
 <!--
   Every assertion the 101 ISK concepts make, as claims.
 
-  1123 claims from 314 concepts.
+  1153 claims from 321 concepts.
 
   A concept asserts something and its `definition` is that assertion written
   out, so the claims are its sentences rather than a second set of facts written
   alongside — two records of one thing can disagree, and then nobody knows which
   the module teaches.
 
-  329 carry a citation to the department book and stand at `verified`.
-  794 do not, and stand at `needs_evidence`. That split is the point of
+  332 carry a citation to the department book and stand at `verified`.
+  821 do not, and stand at `needs_evidence`. That split is the point of
   the file: a claim is only as good as the span under it, and the ones without a
   span are the work list for the pass that finds them.
 
@@ -11335,6 +11335,223 @@ curriculum: 101 ISK > Histology > Introduction > Microtechniques
 
 # Item
 ## id
+CLM-0302C7B78015
+## concept_id
+CON-FND-CE178A6B5707B1
+## subject
+The department book prints the three fibres against the
+## predicate
+stains
+## object
+that show them
+## display_text
+The department book prints the three fibres against the stains that show them.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+
+---
+
+# Item
+## id
+CLM-B64A39EE51C8
+## concept_id
+CON-FND-CE178A6B5707B1
+## subject
+Collagen
+## predicate
+is
+## object
+pink with eosin, blue with Mallory's trichrome and red with van Gieson
+## display_text
+Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.86
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+
+---
+
+# Item
+## id
+CLM-B72363DEF178
+## concept_id
+CON-FND-CE178A6B5707B1
+## subject
+Elastic fibres
+## predicate
+are
+## object
+pink with eosin, brown with orcein and yellow with van Gieson
+## display_text
+Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.75
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+
+---
+
+# Item
+## id
+CLM-38E6D2F301D7
+## concept_id
+CON-FND-CE178A6B5707B1
+## subject
+Reticular fibres
+## predicate
+are
+## object
+not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content
+## display_text
+Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+
+---
+
+# Item
+## id
+CLM-BF194D2E11A9
+## concept_id
+CON-FND-CE178A6B5707B1
+## subject
+Van Gieson
+## predicate
+is
+## object
+therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre
+## display_text
+Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
+curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+
+---
+
+# Item
+## id
+CLM-BCA15D0A6628
+## concept_id
+CON-FND-EA4034F1E87235
+## subject
+Mucoid connective tissue
+## predicate
+contains
+## object
+mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid
+## display_text
+Mucoid connective tissue contains mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
+CLM-EDB12D72B6A4
+## concept_id
+CON-FND-EA4034F1E87235
+## subject
+It
+## predicate
+is
+## object
+found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth
+## display_text
+It is found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.70
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp
+curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+---
+
+# Item
+## id
 CLM-B71E5410B751
 ## concept_id
 CON-FND-103DF490A6E01E
@@ -11515,161 +11732,6 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: Reticular fibres are invisible in H&E and appear as a fine brown branching network after silver
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-
----
-
-# Item
-## id
-CLM-0302C7B78015
-## concept_id
-CON-FND-CE178A6B5707B1
-## subject
-The department book prints the three fibres against the
-## predicate
-stains
-## object
-that show them
-## display_text
-The department book prints the three fibres against the stains that show them.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-
----
-
-# Item
-## id
-CLM-B64A39EE51C8
-## concept_id
-CON-FND-CE178A6B5707B1
-## subject
-Collagen
-## predicate
-is
-## object
-pink with eosin, blue with Mallory's trichrome and red with van Gieson
-## display_text
-Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.86
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-
----
-
-# Item
-## id
-CLM-B72363DEF178
-## concept_id
-CON-FND-CE178A6B5707B1
-## subject
-Elastic fibres
-## predicate
-are
-## object
-pink with eosin, brown with orcein and yellow with van Gieson
-## display_text
-Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.75
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-
----
-
-# Item
-## id
-CLM-38E6D2F301D7
-## concept_id
-CON-FND-CE178A6B5707B1
-## subject
-Reticular fibres
-## predicate
-are
-## object
-not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content
-## display_text
-Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
-curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
-
----
-
-# Item
-## id
-CLM-BF194D2E11A9
-## concept_id
-CON-FND-CE178A6B5707B1
-## subject
-Van Gieson
-## predicate
-is
-## object
-therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre
-## display_text
-Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart
 curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
 
 ---
@@ -15055,6 +15117,471 @@ curriculum: 101 ISK > Histology > Cytology > Cytoplasm
 
 # Item
 ## id
+CLM-F2BB15C7F947
+## concept_id
+CON-FND-25C25E4FA62811
+## subject
+Necrosis
+## predicate
+is
+## object
+always pathological and always passive: injury lets water in, the cell and its organelles swell, the membranes rupture and the contents spill into the tissue, which is why necrosis provokes inflammation in the surrounding tissue
+## display_text
+Necrosis is always pathological and always passive: injury lets water in, the cell and its organelles swell, the membranes rupture and the contents spill into the tissue, which is why necrosis provokes inflammation in the surrounding tissue.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Necrosis is passive death by swelling and bursting; apoptosis is the programmed death that packages the cell up tidily
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-97E5D05DF514
+## concept_id
+CON-FND-25C25E4FA62811
+## subject
+Apoptosis
+## predicate
+is
+## object
+an active, energy-requiring, genetically programmed process that can be physiological — it is how unwanted cells are removed during development and turnover — as well as pathological; the cell shrinks, its chromatin condenses, and it breaks up into membrane-bound apoptotic bodies that neighbouring cells phagocytose without any spill and without inflammation
+## display_text
+Apoptosis is an active, energy-requiring, genetically programmed process that can be physiological — it is how unwanted cells are removed during development and turnover — as well as pathological; the cell shrinks, its chromatin condenses, and it breaks up into membrane-bound apoptotic bodies that neighbouring cells phagocytose without any spill and without inflammation.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Necrosis is passive death by swelling and bursting; apoptosis is the programmed death that packages the cell up tidily
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-DDB25FAB1ECD
+## concept_id
+CON-FND-25C25E4FA62811
+## subject
+Every feature of one
+## predicate
+is
+## object
+the opposite of the corresponding feature of the other, which is how the examiners set it
+## display_text
+Every feature of one is the opposite of the corresponding feature of the other, which is how the examiners set it.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Necrosis is passive death by swelling and bursting; apoptosis is the programmed death that packages the cell up tidily
+curriculum: 101 ISK > Histology > Cytology > Cytoplasm
+
+---
+
+# Item
+## id
+CLM-1261F5201E63
+## concept_id
+CON-HEM-2C81CE9CF9F3D8
+## subject
+The department book prints the red corpuscle's adaptations as three rows: plasmalemma
+## predicate
+states
+## object
+The department book prints the red corpuscle's adaptations as three rows: plasmalemma, shape and content.
+## display_text
+The department book prints the red corpuscle's adaptations as three rows: plasmalemma, shape and content.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
+curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
+
+---
+
+# Item
+## id
+CLM-21D786E5AF22
+## concept_id
+CON-HEM-2C81CE9CF9F3D8
+## subject
+The plasmalemma
+## predicate
+is
+## object
+flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in
+## display_text
+The plasmalemma is flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
+curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
+
+---
+
+# Item
+## id
+CLM-5643630A381F
+## concept_id
+CON-HEM-2C81CE9CF9F3D8
+## subject
+The shape
+## predicate
+is
+## object
+a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels
+## display_text
+The shape is a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
+curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
+
+---
+
+# Item
+## id
+CLM-50A24C222011
+## concept_id
+CON-HEM-2C81CE9CF9F3D8
+## subject
+The content
+## predicate
+is
+## object
+the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days
+## display_text
+The content is the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
+curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
+
+---
+
+# Item
+## id
+CLM-508AD1221482
+## concept_id
+CON-HEM-2C81CE9CF9F3D8
+## subject
+It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen
+## predicate
+states
+## object
+It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.
+## display_text
+It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
+curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
+
+---
+
+# Item
+## id
+CLM-D6D04B0382F8
+## concept_id
+CON-FND-05C930A781CE55
+## subject
+Periodic acid–Schiff
+## predicate
+is
+## object
+a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane
+## display_text
+Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: PAS and Best's carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-D9E7996367EC
+## concept_id
+CON-FND-05C930A781CE55
+## subject
+Best's carmine
+## predicate
+is
+## object
+the older stain for the same target and reddens glycogen specifically
+## display_text
+Best's carmine is the older stain for the same target and reddens glycogen specifically.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: PAS and Best's carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-934A18DC3EC7
+## concept_id
+CON-FND-05C930A781CE55
+## subject
+The consequence the books trade on
+## predicate
+is
+## object
+that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate
+## display_text
+The consequence the books trade on is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: PAS and Best's carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike
+curriculum: 101 ISK > Histology > Introduction > Microtechniques
+
+---
+
+# Item
+## id
+CLM-ECA53193F12A
+## concept_id
+CON-FND-ACB35745EC9A5D
+## subject
+The gap junction, or nexus,
+## predicate
+is
+## object
+a communicating junction
+## display_text
+The gap junction, or nexus, is a communicating junction.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.90
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
+curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+
+---
+
+# Item
+## id
+CLM-91CA1DC13180
+## concept_id
+CON-FND-ACB35745EC9A5D
+## subject
+The gap between the two membranes
+## predicate
+is
+## object
+narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next
+## display_text
+The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.68
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
+curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+
+---
+
+# Item
+## id
+CLM-D8AC2D81AC01
+## concept_id
+CON-FND-ACB35745EC9A5D
+## subject
+Between muscle cells the same channels carry impulses.
+## predicate
+states
+## object
+Between muscle cells the same channels carry impulses.
+## display_text
+Between muscle cells the same channels carry impulses.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.71
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
+curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+
+---
+
+# Item
+## id
+CLM-5D7FB72A566E
+## concept_id
+CON-FND-ACB35745EC9A5D
+## subject
+It
+## predicate
+is
+## object
+the only one of the four lateral junctions through which anything actually passes, and it is not part of the junctional complex
+## display_text
+It is the only one of the four lateral junctions through which anything actually passes, and it is not part of the junctional complex.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
+curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+
+---
+
+# Item
+## id
 CLM-88055399A567
 ## concept_id
 CON-DEV-8F17D9869A6D15
@@ -16352,68 +16879,6 @@ no
 ## qualifiers
 concept: The second week runs to a timetable: day 7 implantation and two trophoblasts, day 8 the amniotic cavity, day 9 the primary yolk sac and lacunae, day 11–12 extra-embryonic mesoderm, day 13 the chorionic cavity
 curriculum: 101 ISK > Anatomy > General Embryology > Second Week of Development
-
----
-
-# Item
-## id
-CLM-BCA15D0A6628
-## concept_id
-CON-FND-EA4034F1E87235
-## subject
-Mucoid connective tissue
-## predicate
-contains
-## object
-mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid
-## display_text
-Mucoid connective tissue contains mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
-
----
-
-# Item
-## id
-CLM-EDB12D72B6A4
-## concept_id
-CON-FND-EA4034F1E87235
-## subject
-It
-## predicate
-is
-## object
-found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth
-## display_text
-It is found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.70
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp
-curriculum: 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
 
 ---
 
@@ -20232,6 +20697,161 @@ curriculum: 101 ISK > Histology > Blood > Granular leukocytes
 
 # Item
 ## id
+CLM-ABAB059427EF
+## concept_id
+CON-HEM-FDAC2D5F64032E
+## subject
+By function there
+## predicate
+are
+## object
+three lymphocytes, and the department book is explicit that they cannot be told apart by light or electron microscopy — only by their surface receptors
+## display_text
+By function there are three lymphocytes, and the department book is explicit that they cannot be told apart by light or electron microscopy — only by their surface receptors.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-C0BBE882DB2D
+## concept_id
+CON-HEM-FDAC2D5F64032E
+## subject
+T lymphocytes
+## predicate
+are
+## object
+60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity
+## display_text
+T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-B47CE2FFF4D1
+## concept_id
+CON-HEM-FDAC2D5F64032E
+## subject
+Their functional types
+## predicate
+are
+## object
+the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell
+## display_text
+Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-4C4EA49F63CE
+## concept_id
+CON-HEM-FDAC2D5F64032E
+## subject
+B lymphocytes
+## predicate
+are
+## object
+20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody
+## display_text
+B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-0913FFA8D9C8
+## concept_id
+CON-HEM-FDAC2D5F64032E
+## subject
+Natural killer cells
+## predicate
+are
+## object
+5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon
+## display_text
+Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
 CLM-D4B1DB514E3D
 ## concept_id
 CON-HEM-AEB2E6C6E8A423
@@ -20443,6 +21063,161 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: The haemopoietic stem cell is the marrow component transplanted to treat leukaemia, because it alone repopulates every blood cell line
+curriculum: 101 ISK > Histology > Blood > Haemopoiesis
+
+---
+
+# Item
+## id
+CLM-771AE73BE8C2
+## concept_id
+CON-HEM-25C4304A1DB441
+## subject
+Tissues
+## predicate
+are
+## object
+grouped by how their cells replace themselves
+## display_text
+Tissues are grouped by how their cells replace themselves.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Cell populations are static, renewing or potentially renewable, and the difference is whether the cell can come back into the cycle
+curriculum: 101 ISK > Histology > Blood > Haemopoiesis
+
+---
+
+# Item
+## id
+CLM-CB030BD22758
+## concept_id
+CON-HEM-25C4304A1DB441
+## subject
+A static population
+## predicate
+is
+## object
+made of end cells that have left the cell cycle permanently and are never replaced — the neuron and the cardiac muscle cell
+## display_text
+A static population is made of end cells that have left the cell cycle permanently and are never replaced — the neuron and the cardiac muscle cell.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Cell populations are static, renewing or potentially renewable, and the difference is whether the cell can come back into the cycle
+curriculum: 101 ISK > Histology > Blood > Haemopoiesis
+
+---
+
+# Item
+## id
+CLM-BFFBCDD5236F
+## concept_id
+CON-HEM-25C4304A1DB441
+## subject
+A renewing population
+## predicate
+is
+## object
+losing cells continuously and replacing them continuously from stem cells, as the blood, the epidermis and the lining of the gut do
+## display_text
+A renewing population is losing cells continuously and replacing them continuously from stem cells, as the blood, the epidermis and the lining of the gut do.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Cell populations are static, renewing or potentially renewable, and the difference is whether the cell can come back into the cycle
+curriculum: 101 ISK > Histology > Blood > Haemopoiesis
+
+---
+
+# Item
+## id
+CLM-7E42C0CB9723
+## concept_id
+CON-HEM-25C4304A1DB441
+## subject
+A potentially renewable population sits between the two: its cells
+## predicate
+have
+## object
+left the cycle into a resting phase and are not dividing, but they retain the ability to re-enter the cycle and divide when replacement is needed — the liver cell and the fibroblast after injury
+## display_text
+A potentially renewable population sits between the two: its cells have left the cycle into a resting phase and are not dividing, but they retain the ability to re-enter the cycle and divide when replacement is needed — the liver cell and the fibroblast after injury.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Cell populations are static, renewing or potentially renewable, and the difference is whether the cell can come back into the cycle
+curriculum: 101 ISK > Histology > Blood > Haemopoiesis
+
+---
+
+# Item
+## id
+CLM-074105A41EBF
+## concept_id
+CON-HEM-25C4304A1DB441
+## subject
+What
+## predicate
+separates
+## object
+the third group from the first is reversibility, and what separates it from the second is that the division happens on demand rather than continuously
+## display_text
+What separates the third group from the first is reversibility, and what separates it from the second is that the division happens on demand rather than continuously.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Cell populations are static, renewing or potentially renewable, and the difference is whether the cell can come back into the cycle
 curriculum: 101 ISK > Histology > Blood > Haemopoiesis
 
 ---
@@ -21534,6 +22309,192 @@ curriculum: 101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
 
 # Item
 ## id
+CLM-A86E5FDB078D
+## concept_id
+CON-MSK-171B2F8B24F6E7
+## subject
+Flexion of the arm
+## predicate
+is
+## object
+by the anterior fibres of deltoid, the clavicular head of pectoralis major, coracobrachialis and biceps
+## display_text
+Flexion of the arm is by the anterior fibres of deltoid, the clavicular head of pectoralis major, coracobrachialis and biceps.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
+curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
+
+---
+
+# Item
+## id
+CLM-5DC13CD1C64F
+## concept_id
+CON-MSK-171B2F8B24F6E7
+## subject
+Extension
+## predicate
+is
+## object
+by latissimus dorsi, the principal extensor, with teres major and the posterior fibres of deltoid
+## display_text
+Extension is by latissimus dorsi, the principal extensor, with teres major and the posterior fibres of deltoid.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
+curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
+
+---
+
+# Item
+## id
+CLM-B837E5005EF1
+## concept_id
+CON-MSK-171B2F8B24F6E7
+## subject
+Adduction
+## predicate
+is
+## object
+by pectoralis major, latissimus dorsi and teres major — the three muscles of the intertubercular groove
+## display_text
+Adduction is by pectoralis major, latissimus dorsi and teres major — the three muscles of the intertubercular groove.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
+curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
+
+---
+
+# Item
+## id
+CLM-1FABE4C4253E
+## concept_id
+CON-MSK-171B2F8B24F6E7
+## subject
+Medial rotation
+## predicate
+is
+## object
+by pectoralis major, latissimus dorsi, teres major, subscapularis and the anterior (clavicular) fibres of deltoid
+## display_text
+Medial rotation is by pectoralis major, latissimus dorsi, teres major, subscapularis and the anterior (clavicular) fibres of deltoid.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
+curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
+
+---
+
+# Item
+## id
+CLM-A45433BDC48F
+## concept_id
+CON-MSK-171B2F8B24F6E7
+## subject
+Lateral rotation
+## predicate
+is
+## object
+by infraspinatus, teres minor and the posterior fibres of deltoid
+## display_text
+Lateral rotation is by infraspinatus, teres minor and the posterior fibres of deltoid.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
+curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
+
+---
+
+# Item
+## id
+CLM-5CA4773FE797
+## concept_id
+CON-MSK-171B2F8B24F6E7
+## subject
+Supraspinatus takes part in no rotation at all
+## predicate
+states
+## object
+Supraspinatus takes part in no rotation at all, and serratus anterior acts on the scapula rather than on the joint.
+## display_text
+Supraspinatus takes part in no rotation at all, and serratus anterior acts on the scapula rather than on the joint.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
+curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
+
+---
+
+# Item
+## id
 CLM-82C7B0136152
 ## concept_id
 CON-MSK-BF3670E27D6F12
@@ -22464,99 +23425,6 @@ curriculum: 101 ISK > Histology > Introduction > Microtechniques
 
 # Item
 ## id
-CLM-D6D04B0382F8
-## concept_id
-CON-FND-05C930A781CE55
-## subject
-Periodic acid–Schiff
-## predicate
-is
-## object
-a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane
-## display_text
-Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: PAS and Best's carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike
-curriculum: 101 ISK > Histology > Introduction > Microtechniques
-
----
-
-# Item
-## id
-CLM-D9E7996367EC
-## concept_id
-CON-FND-05C930A781CE55
-## subject
-Best's carmine
-## predicate
-is
-## object
-the older stain for the same target and reddens glycogen specifically
-## display_text
-Best's carmine is the older stain for the same target and reddens glycogen specifically.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: PAS and Best's carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike
-curriculum: 101 ISK > Histology > Introduction > Microtechniques
-
----
-
-# Item
-## id
-CLM-934A18DC3EC7
-## concept_id
-CON-FND-05C930A781CE55
-## subject
-The consequence the books trade on
-## predicate
-is
-## object
-that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate
-## display_text
-The consequence the books trade on is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: PAS and Best's carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike
-curriculum: 101 ISK > Histology > Introduction > Microtechniques
-
----
-
-# Item
-## id
 CLM-76DE60BD0C33
 ## concept_id
 CON-FND-03C08D6EA7C7BE
@@ -23048,6 +23916,254 @@ no
 ## qualifiers
 concept: White and brown fat are told apart by whether the cell holds one fat droplet or many
 curriculum: 101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+
+---
+
+# Item
+## id
+CLM-1BF486DEB5CD
+## concept_id
+CON-HEM-785718A47454E8
+## subject
+White blood cells
+## predicate
+are
+## object
+classified by whether their cytoplasm carries specific granules
+## display_text
+White blood cells are classified by whether their cytoplasm carries specific granules.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-3DE92F5DF477
+## concept_id
+CON-HEM-785718A47454E8
+## subject
+The granular leukocytes
+## predicate
+are
+## object
+the neutrophil, the eosinophil and the basophil, each named for how its specific granules stain, and each has a segmented nucleus — the neutrophil so much so that it is also called the polymorphonuclear leukocyte
+## display_text
+The granular leukocytes are the neutrophil, the eosinophil and the basophil, each named for how its specific granules stain, and each has a segmented nucleus — the neutrophil so much so that it is also called the polymorphonuclear leukocyte.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-397234147568
+## concept_id
+CON-HEM-785718A47454E8
+## subject
+The non-granular leukocytes
+## predicate
+are
+## object
+the monocyte and the lymphocyte, whose cytoplasm holds only azurophil granules, which are lysosomes and are not specific granules
+## display_text
+The non-granular leukocytes are the monocyte and the lymphocyte, whose cytoplasm holds only azurophil granules, which are lysosomes and are not specific granules.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-496C21F2E7EC
+## concept_id
+CON-HEM-785718A47454E8
+## subject
+Platelets
+## predicate
+are
+## object
+not leukocytes at all
+## display_text
+Platelets are not leukocytes at all.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
+curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-25DD8FC36FFE
+## concept_id
+CON-FND-AEAB45FAA2C33D
+## subject
+Most cells
+## predicate
+have
+## object
+one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many
+## display_text
+Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.63
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A cell is named from the number, position, shape and staining of its nucleus
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-93513F308B21
+## concept_id
+CON-FND-AEAB45FAA2C33D
+## subject
+The nucleus may be central
+## predicate
+states
+## object
+The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline.
+## display_text
+The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A cell is named from the number, position, shape and staining of its nucleus
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-68231F3E682E
+## concept_id
+CON-FND-AEAB45FAA2C33D
+## subject
+The books use a fixed set of examples: the neutrophil
+## predicate
+has
+## object
+a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet
+## display_text
+The books use a fixed set of examples: the neutrophil has a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A cell is named from the number, position, shape and staining of its nucleus
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-DF36D12A7C98
+## concept_id
+CON-FND-AEAB45FAA2C33D
+## subject
+Nuclear level
+## predicate
+is
+## object
+used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified
+## display_text
+Nuclear level is used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A cell is named from the number, position, shape and staining of its nucleus
+curriculum: 101 ISK > Histology > Cytology > Nucleus
 
 ---
 
@@ -25316,130 +26432,6 @@ curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
 
 # Item
 ## id
-CLM-1BF486DEB5CD
-## concept_id
-CON-HEM-785718A47454E8
-## subject
-White blood cells
-## predicate
-are
-## object
-classified by whether their cytoplasm carries specific granules
-## display_text
-White blood cells are classified by whether their cytoplasm carries specific granules.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
-CLM-3DE92F5DF477
-## concept_id
-CON-HEM-785718A47454E8
-## subject
-The granular leukocytes
-## predicate
-are
-## object
-the neutrophil, the eosinophil and the basophil, each named for how its specific granules stain, and each has a segmented nucleus — the neutrophil so much so that it is also called the polymorphonuclear leukocyte
-## display_text
-The granular leukocytes are the neutrophil, the eosinophil and the basophil, each named for how its specific granules stain, and each has a segmented nucleus — the neutrophil so much so that it is also called the polymorphonuclear leukocyte.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
-CLM-397234147568
-## concept_id
-CON-HEM-785718A47454E8
-## subject
-The non-granular leukocytes
-## predicate
-are
-## object
-the monocyte and the lymphocyte, whose cytoplasm holds only azurophil granules, which are lysosomes and are not specific granules
-## display_text
-The non-granular leukocytes are the monocyte and the lymphocyte, whose cytoplasm holds only azurophil granules, which are lysosomes and are not specific granules.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
-CLM-496C21F2E7EC
-## concept_id
-CON-HEM-785718A47454E8
-## subject
-Platelets
-## predicate
-are
-## object
-not leukocytes at all
-## display_text
-Platelets are not leukocytes at all.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non-granular — monocyte and lymphocyte
-curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
-
----
-
-# Item
-## id
 CLM-B8590DF61E92
 ## concept_id
 CON-FND-C5C16B3F123155
@@ -26029,130 +27021,6 @@ curriculum: 101 ISK > Histology > Cytology > Nucleus
 
 # Item
 ## id
-CLM-25DD8FC36FFE
-## concept_id
-CON-FND-AEAB45FAA2C33D
-## subject
-Most cells
-## predicate
-have
-## object
-one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many
-## display_text
-Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.63
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: A cell is named from the number, position, shape and staining of its nucleus
-curriculum: 101 ISK > Histology > Cytology > Nucleus
-
----
-
-# Item
-## id
-CLM-93513F308B21
-## concept_id
-CON-FND-AEAB45FAA2C33D
-## subject
-The nucleus may be central
-## predicate
-states
-## object
-The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline.
-## display_text
-The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: A cell is named from the number, position, shape and staining of its nucleus
-curriculum: 101 ISK > Histology > Cytology > Nucleus
-
----
-
-# Item
-## id
-CLM-68231F3E682E
-## concept_id
-CON-FND-AEAB45FAA2C33D
-## subject
-The books use a fixed set of examples: the neutrophil
-## predicate
-has
-## object
-a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet
-## display_text
-The books use a fixed set of examples: the neutrophil has a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: A cell is named from the number, position, shape and staining of its nucleus
-curriculum: 101 ISK > Histology > Cytology > Nucleus
-
----
-
-# Item
-## id
-CLM-DF36D12A7C98
-## concept_id
-CON-FND-AEAB45FAA2C33D
-## subject
-Nuclear level
-## predicate
-is
-## object
-used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified
-## display_text
-Nuclear level is used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: A cell is named from the number, position, shape and staining of its nucleus
-curriculum: 101 ISK > Histology > Cytology > Nucleus
-
----
-
-# Item
-## id
 CLM-33CBE1C1B614
 ## concept_id
 CON-FND-5097CA5BAB2E51
@@ -26302,6 +27170,223 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: Named syndromes follow from a specific extra chromosome, missing sex chromosome or deleted arm
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-60FDC4CAF401
+## concept_id
+CON-FND-69671A492023B8
+## subject
+Sex chromatin, or the Barr body,
+## predicate
+is
+## object
+an X chromosome that has been inactivated and condensed into a mass of heterochromatin — a dark plaque against the inner nuclear membrane in most cells, and the drumstick appendage on the segmented nucleus in a proportion of female neutrophils
+## display_text
+Sex chromatin, or the Barr body, is an X chromosome that has been inactivated and condensed into a mass of heterochromatin — a dark plaque against the inner nuclear membrane in most cells, and the drumstick appendage on the segmented nucleus in a proportion of female neutrophils.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The Barr body is one X chromosome switched off, so a nucleus shows one fewer Barr body than it has X chromosomes
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-3F0EC08A7716
+## concept_id
+CON-FND-69671A492023B8
+## subject
+Because exactly one X stays active in every cell, the count
+## predicate
+is
+## object
+always the number of X chromosomes minus one: a normal male, XY, has none; a normal female, XX, has one; Turner syndrome, XO, has a single X and therefore none at all; Klinefelter syndrome, XXY, has two X chromosomes and therefore one
+## display_text
+Because exactly one X stays active in every cell, the count is always the number of X chromosomes minus one: a normal male, XY, has none; a normal female, XX, has one; Turner syndrome, XO, has a single X and therefore none at all; Klinefelter syndrome, XXY, has two X chromosomes and therefore one.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The Barr body is one X chromosome switched off, so a nucleus shows one fewer Barr body than it has X chromosomes
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-8C1461A69ACE
+## concept_id
+CON-FND-69671A492023B8
+## subject
+It
+## predicate
+is
+## object
+the inactive extra X that is seen, never the active one
+## display_text
+It is the inactive extra X that is seen, never the active one.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The Barr body is one X chromosome switched off, so a nucleus shows one fewer Barr body than it has X chromosomes
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-D846AE7AE4D1
+## concept_id
+CON-FND-EB83F2B16C479F
+## subject
+A chromosome
+## predicate
+has
+## object
+two named landmarks the examiners set against each other
+## display_text
+A chromosome has two named landmarks the examiners set against each other.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-75C170C6210B
+## concept_id
+CON-FND-EB83F2B16C479F
+## subject
+The centromere
+## predicate
+is
+## object
+the constriction holding the two sister chromatids together, and the kinetochore is the protein plate assembled on it — the point at which the microtubules of the mitotic spindle attach, so that the chromatids can be pulled to opposite poles in anaphase
+## display_text
+The centromere is the constriction holding the two sister chromatids together, and the kinetochore is the protein plate assembled on it — the point at which the microtubules of the mitotic spindle attach, so that the chromatids can be pulled to opposite poles in anaphase.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-25314AA68FCB
+## concept_id
+CON-FND-EB83F2B16C479F
+## subject
+The telomere
+## predicate
+is
+## object
+a different structure at a different place: a region of repeated DNA sequence capping each end of the chromosome, which protects that end from degradation and from fusing with its neighbours
+## display_text
+The telomere is a different structure at a different place: a region of repeated DNA sequence capping each end of the chromosome, which protects that end from degradation and from fusing with its neighbours.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-96540B27ACB5
+## concept_id
+CON-FND-EB83F2B16C479F
+## subject
+One
+## predicate
+is
+## object
+a middle and an attachment; the other is an end and a cap
+## display_text
+One is a middle and an attachment; the other is an end and a cap.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
 curriculum: 101 ISK > Histology > Cytology > Nucleus
 
 ---
@@ -26866,130 +27951,6 @@ curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous S
 
 # Item
 ## id
-CLM-ECA53193F12A
-## concept_id
-CON-FND-ACB35745EC9A5D
-## subject
-The gap junction, or nexus,
-## predicate
-is
-## object
-a communicating junction
-## display_text
-The gap junction, or nexus, is a communicating junction.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.90
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
-curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-
----
-
-# Item
-## id
-CLM-91CA1DC13180
-## concept_id
-CON-FND-ACB35745EC9A5D
-## subject
-The gap between the two membranes
-## predicate
-is
-## object
-narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next
-## display_text
-The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.68
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
-curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-
----
-
-# Item
-## id
-CLM-D8AC2D81AC01
-## concept_id
-CON-FND-ACB35745EC9A5D
-## subject
-Between muscle cells the same channels carry impulses.
-## predicate
-states
-## object
-Between muscle cells the same channels carry impulses.
-## display_text
-Between muscle cells the same channels carry impulses.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.71
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
-curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-
----
-
-# Item
-## id
-CLM-5D7FB72A566E
-## concept_id
-CON-FND-ACB35745EC9A5D
-## subject
-It
-## predicate
-is
-## object
-the only one of the four lateral junctions through which anything actually passes, and it is not part of the junctional complex
-## display_text
-It is the only one of the four lateral junctions through which anything actually passes, and it is not part of the junctional complex.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: The gap junction is the only junction material passes through: paired channels of six subunits each carry ions, small molecules and impulses between cells
-curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-
----
-
-# Item
-## id
 CLM-55AB1302754C
 ## concept_id
 CON-FND-993662DC8318E5
@@ -27418,161 +28379,6 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: The red corpuscle count is five million, the life span a hundred and twenty days, and both anaemia and polycythaemia are defined by crossing a number
-curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
-
----
-
-# Item
-## id
-CLM-1261F5201E63
-## concept_id
-CON-HEM-2C81CE9CF9F3D8
-## subject
-The department book prints the red corpuscle's adaptations as three rows: plasmalemma
-## predicate
-states
-## object
-The department book prints the red corpuscle's adaptations as three rows: plasmalemma, shape and content.
-## display_text
-The department book prints the red corpuscle's adaptations as three rows: plasmalemma, shape and content.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
-curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
-
----
-
-# Item
-## id
-CLM-21D786E5AF22
-## concept_id
-CON-HEM-2C81CE9CF9F3D8
-## subject
-The plasmalemma
-## predicate
-is
-## object
-flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in
-## display_text
-The plasmalemma is flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
-curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
-
----
-
-# Item
-## id
-CLM-5643630A381F
-## concept_id
-CON-HEM-2C81CE9CF9F3D8
-## subject
-The shape
-## predicate
-is
-## object
-a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels
-## display_text
-The shape is a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
-curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
-
----
-
-# Item
-## id
-CLM-50A24C222011
-## concept_id
-CON-HEM-2C81CE9CF9F3D8
-## subject
-The content
-## predicate
-is
-## object
-the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days
-## display_text
-The content is the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
-curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
-
----
-
-# Item
-## id
-CLM-508AD1221482
-## concept_id
-CON-HEM-2C81CE9CF9F3D8
-## subject
-It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen
-## predicate
-states
-## object
-It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.
-## display_text
-It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas
 curriculum: 101 ISK > Histology > Blood > Red Blood Corpuscles
 
 ---
@@ -29036,192 +29842,6 @@ curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
 
 # Item
 ## id
-CLM-A86E5FDB078D
-## concept_id
-CON-MSK-171B2F8B24F6E7
-## subject
-Flexion of the arm
-## predicate
-is
-## object
-by the anterior fibres of deltoid, the clavicular head of pectoralis major, coracobrachialis and biceps
-## display_text
-Flexion of the arm is by the anterior fibres of deltoid, the clavicular head of pectoralis major, coracobrachialis and biceps.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
-curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
-
----
-
-# Item
-## id
-CLM-5DC13CD1C64F
-## concept_id
-CON-MSK-171B2F8B24F6E7
-## subject
-Extension
-## predicate
-is
-## object
-by latissimus dorsi, the principal extensor, with teres major and the posterior fibres of deltoid
-## display_text
-Extension is by latissimus dorsi, the principal extensor, with teres major and the posterior fibres of deltoid.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
-curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
-
----
-
-# Item
-## id
-CLM-B837E5005EF1
-## concept_id
-CON-MSK-171B2F8B24F6E7
-## subject
-Adduction
-## predicate
-is
-## object
-by pectoralis major, latissimus dorsi and teres major — the three muscles of the intertubercular groove
-## display_text
-Adduction is by pectoralis major, latissimus dorsi and teres major — the three muscles of the intertubercular groove.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
-curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
-
----
-
-# Item
-## id
-CLM-1FABE4C4253E
-## concept_id
-CON-MSK-171B2F8B24F6E7
-## subject
-Medial rotation
-## predicate
-is
-## object
-by pectoralis major, latissimus dorsi, teres major, subscapularis and the anterior (clavicular) fibres of deltoid
-## display_text
-Medial rotation is by pectoralis major, latissimus dorsi, teres major, subscapularis and the anterior (clavicular) fibres of deltoid.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
-curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
-
----
-
-# Item
-## id
-CLM-A45433BDC48F
-## concept_id
-CON-MSK-171B2F8B24F6E7
-## subject
-Lateral rotation
-## predicate
-is
-## object
-by infraspinatus, teres minor and the posterior fibres of deltoid
-## display_text
-Lateral rotation is by infraspinatus, teres minor and the posterior fibres of deltoid.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
-curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
-
----
-
-# Item
-## id
-CLM-5CA4773FE797
-## concept_id
-CON-MSK-171B2F8B24F6E7
-## subject
-Supraspinatus takes part in no rotation at all
-## predicate
-states
-## object
-Supraspinatus takes part in no rotation at all, and serratus anterior acts on the scapula rather than on the joint.
-## display_text
-Supraspinatus takes part in no rotation at all, and serratus anterior acts on the scapula rather than on the joint.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Each movement of the shoulder joint has a principal muscle, and neighbouring muscles do opposite things
-curriculum: 101 ISK > Anatomy > Upper Limb > Shoulder Region
-
----
-
-# Item
-## id
 CLM-60AB40CA6972
 ## concept_id
 CON-MSK-9A22BB8909AF29
@@ -30146,6 +30766,161 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: The three cartilages are told apart by their matrix, and each has its own list of sites
+curriculum: 101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+
+---
+
+# Item
+## id
+CLM-31EAA7FE9922
+## concept_id
+CON-MSK-40012FE18569EC
+## subject
+A long bone
+## predicate
+is
+## object
+supplied by four sets of arteries
+## display_text
+A long bone is supplied by four sets of arteries.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A long bone takes four sets of arteries, and the shaft is divided between two of them — nutrient artery inside, periosteal arteries outside
+curriculum: 101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+
+---
+
+# Item
+## id
+CLM-7F9FD4284ED7
+## concept_id
+CON-MSK-40012FE18569EC
+## subject
+The nutrient (diaphyseal) artery enters the middle of the shaft through an oblique nutrient foramen,
+## predicate
+runs
+## object
+away from the growing end, and supplies the inner two-thirds of the shaft
+## display_text
+The nutrient (diaphyseal) artery enters the middle of the shaft through an oblique nutrient foramen, runs away from the growing end, and supplies the inner two-thirds of the shaft.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.87
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A long bone takes four sets of arteries, and the shaft is divided between two of them — nutrient artery inside, periosteal arteries outside
+curriculum: 101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+
+---
+
+# Item
+## id
+CLM-97FE8E2BB5C6
+## concept_id
+CON-MSK-40012FE18569EC
+## subject
+The periosteal arteries enter from the periosteum and supply the outer third of the shaft.
+## predicate
+states
+## object
+The periosteal arteries enter from the periosteum and supply the outer third of the shaft.
+## display_text
+The periosteal arteries enter from the periosteum and supply the outer third of the shaft.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.63
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A long bone takes four sets of arteries, and the shaft is divided between two of them — nutrient artery inside, periosteal arteries outside
+curriculum: 101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+
+---
+
+# Item
+## id
+CLM-B8CDA0F73421
+## concept_id
+CON-MSK-40012FE18569EC
+## subject
+The metaphyseal arteries enter through minute foramina and supply the metaphyses.
+## predicate
+states
+## object
+The metaphyseal arteries enter through minute foramina and supply the metaphyses.
+## display_text
+The metaphyseal arteries enter through minute foramina and supply the metaphyses.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.88
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A long bone takes four sets of arteries, and the shaft is divided between two of them — nutrient artery inside, periosteal arteries outside
+curriculum: 101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+
+---
+
+# Item
+## id
+CLM-FAC93DF8E421
+## concept_id
+CON-MSK-40012FE18569EC
+## subject
+The epiphyseal arteries supply the epiphyses, and after the epiphyseal plate ossifies they anastomose with the metaphyseal arteries — which
+## predicate
+is
+## object
+why the growing bone and the adult bone have different patterns of blood supply across the growth plate
+## display_text
+The epiphyseal arteries supply the epiphyses, and after the epiphyseal plate ossifies they anastomose with the metaphyseal arteries — which is why the growing bone and the adult bone have different patterns of blood supply across the growth plate.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: A long bone takes four sets of arteries, and the shaft is divided between two of them — nutrient artery inside, periosteal arteries outside
 curriculum: 101 ISK > Anatomy > Basis of Anatomy > Skeletal system
 
 ---
@@ -31666,6 +32441,161 @@ no
 ## qualifiers
 concept: Four lateral junctions are told apart by the width of the intercellular space and by what is anchored on the cytoplasmic side
 curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+
+---
+
+# Item
+## id
+CLM-48FA33A9DF47
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+A neuron
+## predicate
+is
+## object
+named by the number of processes leaving its cell body
+## display_text
+A neuron is named by the number of processes leaving its cell body.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
+
+---
+
+# Item
+## id
+CLM-DC82924BA048
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+A unipolar cell
+## predicate
+has
+## object
+one — in the human, the spinal and cranial sensory ganglion cells, whose single process divides at once into two branches, so that they are strictly pseudounipolar
+## display_text
+A unipolar cell has one — in the human, the spinal and cranial sensory ganglion cells, whose single process divides at once into two branches, so that they are strictly pseudounipolar.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
+
+---
+
+# Item
+## id
+CLM-DBFA932FF498
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+A bipolar cell
+## predicate
+has
+## object
+two, one at each end of the cell body: the cells of the vestibular and cochlear ganglia, the bipolar cells of the retina and the olfactory receptor cells
+## display_text
+A bipolar cell has two, one at each end of the cell body: the cells of the vestibular and cochlear ganglia, the bipolar cells of the retina and the olfactory receptor cells.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
+
+---
+
+# Item
+## id
+CLM-0C9EE49FCEAE
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+A multipolar cell
+## predicate
+has
+## object
+more than two — one axon and many dendrites — and it is the commonest form, taking in the motor cells of the ventral horn of the spinal cord and the Purkinje cells of the cerebellar cortex
+## display_text
+A multipolar cell has more than two — one axon and many dendrites — and it is the commonest form, taking in the motor cells of the ventral horn of the spinal cord and the Purkinje cells of the cerebellar cortex.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
+
+---
+
+# Item
+## id
+CLM-466557563149
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+The class follows from the work: a cell relaying one sensory line needs two poles
+## predicate
+states
+## object
+The class follows from the work: a cell relaying one sensory line needs two poles, and a cell gathering from thousands of inputs needs many.
+## display_text
+The class follows from the work: a cell relaying one sensory line needs two poles, and a cell gathering from thousands of inputs needs many.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
 
 ---
 

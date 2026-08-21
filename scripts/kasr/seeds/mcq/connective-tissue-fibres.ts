@@ -45,6 +45,13 @@
  * Ten answers are overridden, every one of them because the source printed no
  * key at all. None of this leaf's extracted answers contradicts the department
  * book.
+ *
+ * Four rows from the sat end-of-module papers are added at the end, two live and
+ * two excluded, with no recovered answers among them: both live answers are worked
+ * from the department book's fibre-and-stain table and its collagen-type table and
+ * say so. The two exclusions are 2024 rows off a ringed script — one lost the
+ * option naming silver, the other reduced four Roman-numeral combinations to
+ * unreadable fragments — and neither can be reconstructed without a rescan.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -824,6 +831,69 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'The damaged twin of `one-of-the-functions-of-undifferentiated-mesenchymal-cells-i-de37d63f`. Its stem has lost two words to the scan — "One of the functi of undifferentiated hymal cells is" — and although the four options are intact, a stem missing the name of the cell it asks about is not sittable. The clean copy is imported.',
+    },
+    {
+      key: 'in-basement-membrane-a-major-component-of-basal-lamina-is-97048613',
+      conceptKey: 'basement-membrane-two-layers-and-what-fixes-the-epithelium-to-it',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Name the collagen type that makes up the basal lamina, and separate it from the types in the reticular lamina and the anchoring fibrils.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it gives the basal lamina as an electron-dense sheet of type IV collagen granules and glycoproteins made by the epithelial cells, and its collagen table lists type IV in granular form in the basement membrane. The three distractors are the three other collagen types the same table names.',
+      explanations: {
+        a: 'Correct. Type IV collagen is granular rather than fibrillar, is secreted by the epithelial cells themselves, and is the collagen of the basal lamina — the epithelial half of the basement membrane.',
+        b: 'Type III collagen is the reticular fibre, and it is in the basement membrane — but in the reticular lamina, the connective tissue half. This option is right about the membrane and wrong about the layer, which is exactly the distinction the stem asks for.',
+        c: 'Type I collagen is the ordinary collagen bundle of connective tissue proper, tendon, bone and organ capsules. It is nowhere in the basement membrane.',
+        d: 'Type VII collagen is in the basement membrane too, as the anchoring fibrils that tie it to the underlying connective tissue. It fixes the membrane down rather than forming the lamina, so like option b it is a real component in the wrong role.',
+      },
+    },
+    {
+      key: 'the-c-t-fibers-stained-brown-with-orc-in-are-ottttteeudeeeee-76c56217',
+      conceptKey: 'connective-tissue-fibre-stains-by-fibre-type',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Name the fibre orcein browns, and keep it apart from the fibre silver browns.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'No key was printed on the 2022 paper and none was recovered for this row, so the answer comes from the department book\'s fibre-and-stain table: elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson, while it is silver, not orcein, that browns reticular fibres. The stem carries scanner noise where the blank was ("ottttteeudeeeeeees") but is otherwise intact.',
+      explanations: {
+        a: 'Reticular fibres are also stained brown — but by silver, not orcein, and the two browns are the trap this option sets. Reticular fibres are invisible in H&E and take PAS red as well, because of their sugar content.',
+        b: 'Correct. Orcein is the elastic fibre stain and turns them brown; the book pairs it with van Gieson, which turns the same fibres yellow.',
+        c: 'Collagen is pink with eosin, blue with Mallory and red with van Gieson. Orcein is not in its row at all.',
+        d: '"b and c" would require orcein to brown collagen as well as elastic fibres. It does not, and van Gieson is the stain that shows both fibres in one section — in two different colours, red and yellow, which is the point of using it.',
+      },
+    },
+    {
+      key: 'reticular-fibers-can-be-specially-stained-with-mee-van-gieso-5439519b',
+      conceptKey: 'reticular-fibre-silver-identification',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The bank row has no options, and the first of the four is illegible in the stem as well. This is a 2024 row off a ringed script: the pen crossed the option letters and the options were read into the stem, which now reads "\\ Mee - Van Gieson fe PAS 9 Oreein" — three of the four recoverable as Van Gieson, PAS and orcein, and the first reduced to a stray backslash and "Mee". The department book makes silver the special stain of the reticular fibre, so the lost option is almost certainly silver, but "almost certainly" is not a basis for authoring an answer nobody can see. Recoverable by rescanning page 2 of the 2024 paper.',
+    },
+    {
+      key: 'basement-membrane-shows-the-following-types-of-collagen-zf-i-aad62df4',
+      conceptKey: 'collagen-types-and-where-each-is-found',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No options, and what reached the stem in their place is unreadable: "ZF iit avi ABA AMLRIV ZN. Vail AGA, ML & IV". These were four combinations of Roman numerals on the 2024 paper and the pen through their letters left the extractor with numeral fragments it could not resolve — "AMLRIV" and "AGA, ML & IV" are the same option list read two different ways. The department book gives the basement membrane types III, IV and VII, so the intended answer is recoverable in principle, but no option string here can be trusted to say so. Recoverable only by rescanning page 3 of the 2024 paper.',
+    },
+    {
+      key: 'the-reticular-connective-tissue-can-be-demonstrated-with-3a8d865b',
+      conceptKey: 'reticular-fibre-silver-identification',
+      difficulty: 'Easy', questionType: 'Stain identification',
+      learningObjective: 'Name the stain that shows reticular tissue and say why H&E does not.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'One of the strays the extractor could not file to a leaf; it is authored here because the answer is the reticular fibre\'s stain. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: reticular fibres are not visible in H&E and are stained brown by silver, and its chapter on the types of connective tissue proper says reticular connective tissue is stained brown-black by silver.',
+      explanations: {
+        a: 'Toluidine blue is the metachromatic stain of the mast cell and the blood basophil, acting on the heparin in their granules. It shows a cell, not a fibre network.',
+        b: 'Correct. Reticular fibres are argyrophilic — silver-loving — and silver blackens them, which is the only way to see the stroma of a lymph node, spleen or liver as a network.',
+        c: 'H&E is the option that makes the question worth asking: the department book says outright that reticular fibres are not visible in it, which is why a special stain is needed at all.',
+        d: 'Sudan III stains fat orange and needs a frozen section. It identifies the adipocyte, the tissue reticular fibres also support but are not made of.',
+      },
     },
   ],
 }

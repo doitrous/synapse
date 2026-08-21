@@ -1,49 +1,49 @@
 <!--
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
-    Arm — 63 questions, 13 concepts
+    Arm — 64 questions, 13 concepts
     Articular system — 13 questions, 4 concepts
     Axilla — 68 questions, 17 concepts
-    Blood Platelets — 19 questions, 5 concepts
+    Blood Platelets — 20 questions, 5 concepts
     Cardiovascular system — 9 questions, 2 concepts
-    Connective Tissue Cells — 89 questions, 21 concepts
-    Connective Tissue Fibres — 51 questions, 11 concepts
-    Cytoplasm — 286 questions, 23 concepts
+    Connective Tissue Cells — 98 questions, 23 concepts
+    Connective Tissue Fibres — 56 questions, 11 concepts
+    Cytoplasm — 313 questions, 29 concepts
     Embryonic Period — 9 questions, 2 concepts
-    Fascia — 14 questions, 2 concepts
-    Fetal Membranes — 69 questions, 16 concepts
+    Fascia — 15 questions, 2 concepts
+    Fetal Membranes — 77 questions, 16 concepts
     Fetal Period — 6 questions, 3 concepts
-    First Week of Development — 24 questions, 6 concepts
-    Forearm — 171 questions, 28 concepts
-    Gametes — 31 questions, 4 concepts
-    Glandular Epithelium — 68 questions, 6 concepts
-    Granular leukocytes — 13 questions, 3 concepts
-    Haemopoiesis — 6 questions, 4 concepts
-    Hand — 68 questions, 13 concepts
-    Introduction — 16 questions, 3 concepts
-    Joints of Upper Limb — 23 questions, 5 concepts
+    First Week of Development — 31 questions, 6 concepts
+    Forearm — 175 questions, 28 concepts
+    Gametes — 33 questions, 4 concepts
+    Glandular Epithelium — 73 questions, 6 concepts
+    Granular leukocytes — 16 questions, 4 concepts
+    Haemopoiesis — 7 questions, 5 concepts
+    Hand — 71 questions, 13 concepts
+    Introduction — 18 questions, 3 concepts
+    Joints of Upper Limb — 26 questions, 6 concepts
     Lymphatic system — 4 questions, 2 concepts
-    Microscopes — 7 questions, 2 concepts
-    Microtechniques — 87 questions, 24 concepts
+    Microscopes — 9 questions, 3 concepts
+    Microtechniques — 98 questions, 28 concepts
     Muscles of the Back — 29 questions, 9 concepts
-    Muscular system — 11 questions, 4 concepts
+    Muscular system — 12 questions, 4 concepts
     Myo Epithelium — 1 questions, 1 concepts
-    Nerve Supply of Upper Limb & Nerve Injuries — 159 questions, 27 concepts
+    Nerve Supply of Upper Limb & Nerve Injuries — 172 questions, 29 concepts
     Nervous system — 16 questions, 4 concepts
     Neuro Epithelium — 3 questions, 1 concepts
-    Non granular leukocytes — 14 questions, 5 concepts
-    Nucleus — 70 questions, 7 concepts
+    Non granular leukocytes — 18 questions, 6 concepts
+    Nucleus — 82 questions, 11 concepts
     Pectoral Region — 34 questions, 12 concepts
-    Polarity and Membranous Specializations — 87 questions, 9 concepts
-    Red Blood Corpuscles — 61 questions, 15 concepts
+    Polarity and Membranous Specializations — 92 questions, 10 concepts
+    Red Blood Corpuscles — 64 questions, 15 concepts
     Second Week of Development — 44 questions, 10 concepts
-    Shoulder Region — 40 questions, 19 concepts
-    Skeletal system — 43 questions, 7 concepts
-    Surface Epithelium — 129 questions, 10 concepts
-    The cell — 41 questions, 4 concepts
-    Third Week of Development — 33 questions, 6 concepts
-    Types of Connective Tissue Proper — 19 questions, 6 concepts
-    Veins of the Upper Limb — 9 questions, 3 concepts
+    Shoulder Region — 50 questions, 20 concepts
+    Skeletal system — 46 questions, 8 concepts
+    Surface Epithelium — 135 questions, 10 concepts
+    The cell — 45 questions, 7 concepts
+    Third Week of Development — 35 questions, 7 concepts
+    Types of Connective Tissue Proper — 21 questions, 7 concepts
+    Veins of the Upper Limb — 10 questions, 3 concepts
 
   Extracted from 2867 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -55,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  477 questions were excluded and 0 held back for having no
+  556 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -17908,6 +17908,504 @@ Answer changed from the source's: The books key this to B. All three of the firs
 
 # Item
 ## id
+QM-101-47521A12B332
+## title
+Macrophages can be stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Macrophages can be stained with:
+## answer_a
+Trypan blue.
+## explanation_a
+Correct. Trypan blue is a vital stain — injected into the living animal — and the macrophage identifies itself by eating it, so the dye granules inside the cell are the demonstration.
+## answer_b
+Toluidine blue.
+## explanation_b
+Toluidine blue stains the mast cell and the blood basophil metachromatically, turning their heparin granules purple. It is the neighbouring cell in the same chapter and the commonest wrong answer here.
+## answer_c
+Silver.
+## explanation_c
+Silver stains reticular fibres brown, and the Golgi apparatus. It shows a fibre network, not a phagocyte.
+## answer_d
+Orcein
+## explanation_d
+Orcein browns elastic fibres. Both silver and orcein give a brown result, which is why naming the colour is never enough to name the stain.
+## correct_answer
+a
+## main_concept
+CON-FND-5EFDEADAA559B8
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+null
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain identification
+## learning_objective
+Name the stain that demonstrates a macrophage, and say why it works.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q17. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book rather than from a key: it says the macrophage is demonstrated by vital stains such as trypan blue or India ink, which it phagocytoses. The other three options are the stains the same chapters give to other cells and fibres.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-D36737F11898
+## title
+Mast cells can be metachromatically stained with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mast cells can be metachromatically stained with:
+## answer_a
+Indian ink.
+## explanation_a
+Indian ink is a vital stain the macrophage phagocytoses. It marks a cell by being eaten, not by changing colour, so it cannot be metachromatic at all.
+## answer_b
+Sudan Ill.
+## explanation_b
+Sudan III stains fat orange, on a frozen section, and identifies the adipocyte. Nothing about it involves a colour change.
+## answer_c
+Toluidine blue.
+## explanation_c
+Correct. Toluidine blue is blue, and on the sulphated heparin of the mast cell granule it turns violet or magenta red — a colour different from the dye's own, which is what metachromasia means.
+## answer_d
+Trypan blue.
+## explanation_d
+Trypan blue is the other vital stain of the macrophage. Two of the four options here are macrophage stains, so a student who has not separated the mast cell from the macrophage has a one-in-two chance of the wrong cell.
+## correct_answer
+c
+## main_concept
+CON-FND-A5D2D2350D099D
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+null
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain identification
+## learning_objective
+Name the metachromatic stain of the mast cell granule.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q19. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is taken from the department book: the mast cell's basophilic granules are stained metachromatically purple or red by toluidine blue. It is the only metachromatic stain the book teaches.
+
+
+---
+
+# Item
+## id
+QM-101-D30ED76BED61
+## title
+Mallory trichrome stain can be used for demonstration of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mallory trichrome stain can be used for demonstration of:
+## answer_a
+Collagen fibers.
+## explanation_a
+Correct. Mallory's trichrome stains collagen fibres blue, and it is one of the three stains the book tabulates against collagen.
+## answer_b
+Reticular fibers.
+## explanation_b
+Reticular fibres are invisible in H&E and are shown by silver, which browns them, or by PAS, which reddens them because of their sugar content. Mallory does not reach them.
+## answer_c
+Macrophages.
+## explanation_c
+A macrophage is a cell, not a fibre, and it is demonstrated by a vital stain it eats. Putting a cell in a fibre-stain question tests whether the student knows what the stain is for.
+## answer_d
+actin microfibers.
+## explanation_d
+Actin microfilaments are cytoskeletal and intracellular, and the book says all three cytoskeletal systems are hard to see by light microscopy except by immunofluorescence. No trichrome shows them.
+## correct_answer
+a
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+null
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain identification
+## learning_objective
+Give the fibre Mallory's trichrome demonstrates and the colour it gives.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q22. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for it, so the answer is worked from the department book's fibre-and-stain table: collagen fibres are pink with eosin, blue with Mallory's trichrome and red with van Gieson. Mallory is listed against no other fibre.
+
+
+---
+
+# Item
+## id
+QM-101-22A2D485D3C0
+## title
+The following cell stained metachromati¢ally with toluidine blue is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The following cell stained metachromati¢ally with toluidine blue is:
+## answer_a
+Plasma cell.
+## explanation_a
+The plasma cell is deeply basophilic, which makes it the closest wrong answer — but its basophilia is diffuse cytoplasmic staining from rough endoplasmic reticulum, and it takes the dye's own colour. Basophilic is not the same as metachromatic.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage is demonstrated by a vital stain it phagocytoses, trypan blue or India ink, and its cytoplasm is only palely basophilic.
+## answer_c
+Mast cell.
+## explanation_c
+Correct. The mast cell's granules are sulphated and rich in heparin, and heparin is what turns blue toluidine violet-magenta.
+## answer_d
+Pericyte.
+## explanation_d
+The pericyte is a small undifferentiated cell around a capillary, with few organelles and no granules at all. There is nothing in it for a metachromatic dye to react with.
+## correct_answer
+c
+## main_concept
+CON-FND-0BB73C5CC1821B
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+null
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the connective tissue cell that stains metachromatically.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p1 q1. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key for this row and the highlight recovery returned nothing for it, so the answer comes from the department book: only the mast cell is described as having granules stained metachromatically purple or red by toluidine blue. This is the same fact as `mast-cells-can-be-metachromatically-stained-with`, asked from the other end.
+
+
+---
+
+# Item
+## id
+QM-101-5A8B7171EDED
+## title
+The C.T. cell that gives rise to fibroblast is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The C.T. cell that gives rise to fibroblast is:
+## answer_a
+Pericyte.
+## explanation_a
+Correct. The pericyte is the adult mesenchymal stem cell of connective tissue, lying against the capillary wall, and on injury it divides into endothelium, smooth muscle and fibroblasts.
+## answer_b
+Mast cell.
+## explanation_b
+The mast cell arises from the undifferentiated mesenchymal cell itself and gives rise to nothing. It is a differentiated secretory cell, not a reserve.
+## answer_c
+Fat cell.
+## explanation_c
+The fat cell also arises from the undifferentiated mesenchymal cell and is an end point. A cell full of stored lipid is the least likely thing on the list to divide into something else.
+## answer_d
+Reticular cell.
+## explanation_d
+The reticular cell is the tempting one, because it can turn phagocytic when stimulated by antigen — but changing behaviour is not differentiating into another cell type, and the book has it arising from the undifferentiated mesenchymal cell rather than giving rise to fibroblasts.
+## correct_answer
+a
+## main_concept
+CON-FND-4589050BE16100
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+null
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the connective tissue cells a fibroblast can arise from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p2 q18. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2022 paper and none was recovered, so the answer is taken from the department book: the fibroblast arises from undifferentiated mesenchymal cells and from pericytes, and the pericyte in injury divides and differentiates into endothelium, fibroblasts and smooth muscle cells. The undifferentiated mesenchymal cell is not among the four options, which leaves the pericyte as the only stem cell on the list.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-932B5DC4DA00
+## title
+The mucoid C.T. is Characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The mucoid C.T. is Characterized by:
+## answer_a
+Jelly-like €xCess ground Substance.
+## explanation_a
+Correct. The excess of soft jelly-like ground substance is what mucoid tissue is: Wharton's jelly of the umbilical cord, the vitreous humour and the dental pulp.
+## answer_b
+Fat cells predominate.
+## explanation_b
+Fat cells predominating is adipose connective tissue. Both are loose types, and grouping them is the mistake this option exists to catch.
+## answer_c
+High vascularity.
+## explanation_c
+High vascularity belongs to loose areolar tissue and to brown adipose tissue. Wharton's jelly is a packing around the umbilical vessels, not a vascular tissue itself.
+## answer_d
+Predominating collagen fibers.
+## explanation_d
+Predominating collagen fibres is white fibrous connective tissue, a dense type. Mucoid tissue has only fine collagen and reticular fibres, which is why it is a jelly rather than a cord.
+## correct_answer
+a
+## main_concept
+CON-FND-EA4034F1E87235
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## topic
+null
+## subtopic
+Connective Tissue Cells
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise mucoid connective tissue by its jelly-like ground substance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p2 q24. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper carried no key and no highlight was recovered for that row, so the answer comes from the department book, which describes mucoid connective tissue as containing mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid. The extractor has mangled two words of option a — "€xCess" and "Substance" — but the option is legible.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-101-E9F5C2AF48EF
 ## title
 Which of the following is NOT a fiber found in connective tissue?
@@ -21060,6 +21558,255 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Co
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. An aneurysm is a dilated arterial segment, and the aorta is yellow elastic connective tissue whose recoil comes from its elastic fibres; losing them lets the wall stretch and stay stretched. None of the other three components supplies recoil.
+
+
+---
+
+# Item
+## id
+QM-101-D35074C2FA98
+## title
+In basement membrane, a major component of basal lamina is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In basement membrane, a major component of basal lamina is:
+## answer_a
+Collagen type IV.
+## explanation_a
+Correct. Type IV collagen is granular rather than fibrillar, is secreted by the epithelial cells themselves, and is the collagen of the basal lamina — the epithelial half of the basement membrane.
+## answer_b
+Collagen type Ill.
+## explanation_b
+Type III collagen is the reticular fibre, and it is in the basement membrane — but in the reticular lamina, the connective tissue half. This option is right about the membrane and wrong about the layer, which is exactly the distinction the stem asks for.
+## answer_c
+Collagen type |.
+## explanation_c
+Type I collagen is the ordinary collagen bundle of connective tissue proper, tendon, bone and organ capsules. It is nowhere in the basement membrane.
+## answer_d
+Collagen type VII.
+## explanation_d
+Type VII collagen is in the basement membrane too, as the anchoring fibrils that tie it to the underlying connective tissue. It fixes the membrane down rather than forming the lamina, so like option b it is a real component in the wrong role.
+## correct_answer
+a
+## main_concept
+CON-FND-47743DDD3ED7A0
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+null
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the collagen type that makes up the basal lamina, and separate it from the types in the reticular lamina and the anchoring fibrils.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q31. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it gives the basal lamina as an electron-dense sheet of type IV collagen granules and glycoproteins made by the epithelial cells, and its collagen table lists type IV in granular form in the basement membrane. The three distractors are the three other collagen types the same table names.
+
+
+---
+
+# Item
+## id
+QM-101-EE659E1B34C4
+## title
+The C.T. fibers stained brown with-orcéin are ottttteeudeeeeeees fibers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The C.T. fibers stained brown with-orcéin are ottttteeudeeeeeees fibers:
+## answer_a
+Reticular.
+## explanation_a
+Reticular fibres are also stained brown — but by silver, not orcein, and the two browns are the trap this option sets. Reticular fibres are invisible in H&E and take PAS red as well, because of their sugar content.
+## answer_b
+Elastic.
+## explanation_b
+Correct. Orcein is the elastic fibre stain and turns them brown; the book pairs it with van Gieson, which turns the same fibres yellow.
+## answer_c
+Collagen.
+## explanation_c
+Collagen is pink with eosin, blue with Mallory and red with van Gieson. Orcein is not in its row at all.
+## answer_d
+b&c .
+## explanation_d
+"b and c" would require orcein to brown collagen as well as elastic fibres. It does not, and van Gieson is the stain that shows both fibres in one section — in two different colours, red and yellow, which is the point of using it.
+## correct_answer
+b
+## main_concept
+CON-FND-CE178A6B5707B1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+null
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain identification
+## learning_objective
+Name the fibre orcein browns, and keep it apart from the fibre silver browns.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p2 q23. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2022 paper and none was recovered for this row, so the answer comes from the department book's fibre-and-stain table: elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson, while it is silver, not orcein, that browns reticular fibres. The stem carries scanner noise where the blank was ("ottttteeudeeeeeees") but is otherwise intact.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7898C3C68E5D
+## title
+The reticular connective tissue can be demonstrated with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The reticular connective tissue can be demonstrated with:
+## answer_a
+Toluidine blue.
+## explanation_a
+Toluidine blue is the metachromatic stain of the mast cell and the blood basophil, acting on the heparin in their granules. It shows a cell, not a fibre network.
+## answer_b
+silver.
+## explanation_b
+Correct. Reticular fibres are argyrophilic — silver-loving — and silver blackens them, which is the only way to see the stroma of a lymph node, spleen or liver as a network.
+## answer_c
+H&E.
+## explanation_c
+H&E is the option that makes the question worth asking: the department book says outright that reticular fibres are not visible in it, which is why a special stain is needed at all.
+## answer_d
+Sudan Ill.
+## explanation_d
+Sudan III stains fat orange and needs a frozen section. It identifies the adipocyte, the tissue reticular fibres also support but are not made of.
+## correct_answer
+b
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+null
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain identification
+## learning_objective
+Name the stain that shows reticular tissue and say why H&E does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q24. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because the answer is the reticular fibre's stain. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: reticular fibres are not visible in H&E and are stained brown by silver, and its chapter on the types of connective tissue proper says reticular connective tissue is stained brown-black by silver.
 
 
 ---
@@ -42077,6 +42824,1334 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-341F976DC823
+## title
+Microfilaments form the following structure:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microfilaments form the following structure:
+## answer_a
+Core of cilia.
+## explanation_a
+The core of a cilium is the axoneme — nine peripheral doublets and two central singlets, all of them microtubules. A cilium contains no actin at all.
+## answer_b
+Core of flagella.
+## explanation_b
+A flagellum has exactly the axonemal structure of a cilium and is simply far longer, so it too is microtubular. Picking this means treating "core of a projection" as one category instead of asking which filament builds it.
+## answer_c
+Mitotic spindle in cell division.
+## explanation_c
+The mitotic spindle is microtubular and is organised by the centrioles. Microfilaments do act in cell division, but at the cleavage furrow that pinches the two daughters apart, not in the spindle.
+## answer_d
+Core of microvilli.
+## explanation_d
+Correct. The microvillus is a finger-like projection with a core of actin microfilaments anchored in the terminal web, and it is the department book's type example of a microfilament-built structure.
+## correct_answer
+d
+## main_concept
+CON-FND-DAF4EB4BC63077
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute a named cell-surface projection to the filament system that builds its core.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q2. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery found none on this sitting, so the answer comes from the department book, not from a key: it gives the microvillus core as an actin filament core inserted into a terminal web, and lists microvilli and stereocilia as the structures microfilaments form. Cilia, flagella and the mitotic spindle are all listed under microtubules on the facing page, so the three distractors are one systematic error.
+
+
+---
+
+# Item
+## id
+QM-101-B50348F860C4
+## title
+Regarding multivesicular body, they are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding multivesicular body, they are:
+## answer_a
+Type of primary lysosomes.
+## explanation_a
+A primary lysosome is the newly budded vesicle whose enzymes have not yet met anything. The multivesicular body has already fused with a pinocytic vesicle, which is what makes it secondary — the word "primary" is about timing, not size.
+## answer_b
+Also known as residual body
+## explanation_b
+The residual body is the end state left after any secondary lysosome has finished digesting, so it comes after the multivesicular body rather than being another name for it. Confusing the two is the commonest way to lose this item.
+## answer_c
+Secondary lysosome with fluid content.
+## explanation_c
+Correct. A multivesicular body is a primary lysosome fused with a pinocytic vesicle, so it is a secondary lysosome whose substrate is fluid — the fluid counterpart of the heterolysosome.
+## answer_d
+Only found in cardiac and nerve cells
+## explanation_d
+Restricted residence in cardiac muscle and nerve cells belongs to lipofuscin, the age pigment that accumulates in long-lived non-dividing cells. Multivesicular bodies form wherever pinocytosis happens, which is nearly everywhere.
+## correct_answer
+c
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Place the multivesicular body among the secondary lysosomes by what the primary lysosome fused with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q6. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered from the highlights, so the answer is taken from the department book: it defines the multivesicular body as a primary lysosome plus a pinocytic vesicle, digesting fluid. That makes it a secondary lysosome with fluid content and rules the other three options out one by one.
+
+
+---
+
+# Item
+## id
+QM-101-62F0CE3551EB
+## title
+The cytoplasm of macrophage is rich in the following organelles:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cytoplasm of macrophage is rich in the following organelles:
+## answer_a
+Golgi apparatus & sER.
+## explanation_a
+The Golgi half is right and the smooth endoplasmic reticulum half is wrong. Abundant smooth ER marks a steroid- or lipid-forming cell, such as the adrenal cortical cell or the hepatocyte, not a phagocyte.
+## answer_b
+Free ribosome & lysosome
+## explanation_b
+Lysosomes are right, free ribosomes are not. Free ribosomes make protein the cell keeps in its own cytosol; the macrophage's hydrolytic enzymes are made on attached ribosomes and routed through the Golgi, so the rough ER and the Golgi are what its lysosomes depend on.
+## answer_c
+Golgi apparatus & lysosome.
+## explanation_c
+Correct. The macrophage digests what it engulfs, so it is rich in lysosomes, and rich in the Golgi apparatus that makes them.
+## answer_d
+Mitochondria & sER.
+## explanation_d
+Mitochondria and smooth ER together describe a steroid-secreting cell. Every cell has mitochondria, so naming them says nothing about what this one does — which is what the question is asking.
+## correct_answer
+c
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Predict the organelle profile of a phagocyte from the work it does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p3 q17. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper carried no key, so the answer is worked from the department book rather than from one: it names macrophages and neutrophils as the cells in which lysosomes are abundant, and it makes lysosomal enzymes in the rough endoplasmic reticulum, carries them by transfer vesicle to the Golgi and releases them from the Golgi as lysosomes. A cell that digests therefore needs both the Golgi and the lysosomes, which is option c.
+
+
+---
+
+# Item
+## id
+QM-101-0D968B68E2D6
+## title
+Regarding neuron, transport of neurotransmitters is related to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding neuron, transport of neurotransmitters is related to:
+## answer_a
+Nissl bodies.
+## explanation_a
+Nissl bodies are the neuron's rough endoplasmic reticulum and free ribosomes, seen by light microscopy as basophilic clumps. They are where the neuron makes protein, not how it moves it — this option trades on both being about neurotransmitters somewhere in the chain.
+## answer_b
+Neurofilaments.
+## explanation_b
+Neurofilaments are the neuron's intermediate filaments. The department book gives intermediate filaments one function, support, and it is the only one of the three cytoskeletal systems with no transport role at all.
+## answer_c
+Centrioles.
+## explanation_c
+Centrioles are microtubular, which makes this the closest wrong answer, but their work is organising the mitotic spindle. The mature neuron does not divide, and centrioles do not run transport down an axon.
+## answer_d
+Microtubules.
+## explanation_d
+Correct. Microtubules transport organelles and macromolecules through the cytoplasm, and in the neuron they are the tracks along which vesicles of neurotransmitter travel to the terminal.
+## correct_answer
+d
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute intracellular transport of organelles and macromolecules to the microtubule.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q26. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer comes from the department book: it lists transport of organelles and macromolecules among the functions of microtubules and gives no transport function to any other cytoskeletal element in the neuron.
+
+
+---
+
+# Item
+## id
+QM-101-DB02B653BA6E
+## title
+Necrosis:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Necrosis:
+## answer_a
+Can be physiological or pathological
+## explanation_a
+Being either physiological or pathological is apoptosis. Necrosis is always pathological — it is the response to injury, never a planned part of development or turnover.
+## answer_b
+Cells break into large vesicles
+## explanation_b
+Breaking into membrane-bound vesicles is apoptosis, whose fragments are the apoptotic bodies that neighbouring cells then phagocytose. Necrosis leaves no tidy packages; the contents spill.
+## answer_c
+Cells and organelles swell and burst
+## explanation_c
+Correct. In necrosis the injured cell and its organelles take up water, swell and rupture, releasing their contents into the surrounding tissue and provoking inflammation.
+## answer_d
+Is active programmed process
+## explanation_d
+An active, energy-requiring, genetically programmed process is the definition of apoptosis. Necrosis is passive — a cell that has lost control of its own water, not one carrying out a programme.
+## correct_answer
+c
+## main_concept
+CON-FND-25C25E4FA62811
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Separate necrosis from apoptosis by what happens to the cell and its organelles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q30. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither a printed key nor a recovered highlight covers this row, and — unusually for this leaf — the answer does not come from the department book either: the book teaches no cell death anywhere in its histology chapters, so there is no faculty text to work it from. The answer is the standard necrosis-apoptosis contrast, on which the item is built: the three distractors are each a property of apoptosis, and swelling and rupture is the one property of necrosis among the four. The concept carries a `gaps` note recording that no source this faculty would accept supports it.
+
+
+---
+
+# Item
+## id
+QM-101-A6DA7F00309E
+## title
+Storage, packaging and chemical modification of proteins occur in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Storage, packaging and chemical modification of proteins occur in:
+## answer_a
+Free ribosomes.
+## explanation_a
+Free ribosomes synthesise protein — and protein the cell keeps for itself, such as its glycolytic enzymes. They neither store nor modify what they make.
+## answer_b
+Attached ribosomes.
+## explanation_b
+Attached ribosomes are the tempting near-miss: they do make the protein a cell exports. But synthesis is where the pathway starts, and the stem asks about the three things that happen to the protein afterwards, all of which are the Golgi's.
+## answer_c
+Golgi apparatus.
+## explanation_c
+Correct. The Golgi receives transfer vesicles at its cis face and packs, concentrates, stores and glycosylates their protein before budding it off the trans face.
+## answer_d
+Cytoskeleton. !
+## explanation_d
+The cytoskeleton is non-membranous and structural — microtubules, microfilaments and intermediate filaments. It can transport a vesicle but it cannot store or chemically modify what is inside one.
+## correct_answer
+c
+## main_concept
+CON-FND-405BB5EA3C359E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute storage, packing and chemical modification of protein to the Golgi apparatus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p1 q1. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery did not cover this sitting, so the answer is taken from the department book: it gives the Golgi apparatus as the organelle that packs, concentrates and stores protein and modifies it chemically by adding carbohydrate to make glycoprotein.
+
+
+---
+
+# Item
+## id
+QM-101-A9FAEA8E3C1C
+## title
+Cytokeratin, neurofilaments and lamins are types of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cytokeratin, neurofilaments and lamins are types of:
+## answer_a
+Microtubules.
+## explanation_a
+Microtubules are built from alpha and beta tubulin only. Naming three different proteins is already evidence the answer is not a single-subunit system.
+## answer_b
+Microfilaments.
+## explanation_b
+Microfilaments are built from G actin coiled into F actin, again a single protein. Their diameter, 5 to 7 nm, is the smallest of the three.
+## answer_c
+Protofilaments.
+## explanation_c
+A protofilament is not a class of filament but a part of one: thirteen of them lie side by side to make the wall of a single microtubule. The word is in the option set to catch a student answering on the sound of it.
+## answer_d
+Intermediate filaments.
+## explanation_d
+Correct. Intermediate filaments are the one system defined by chemically differing subunits, which is why the class has six named proteins — one per tissue — and why identifying them names a tumour's cell of origin.
+## correct_answer
+d
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise the six named proteins as members of the intermediate filament class.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p1 q6. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer comes from the department book: it names cytokeratin, vimentin, desmin, neurofilaments, glial fibrillar acidic protein and lamins as the six intermediate filament proteins, and gives tubulin and actin as the subunits of the other two systems.
+
+
+---
+
+# Item
+## id
+QM-101-85BE4F396C3E
+## title
+Cytoplasmic basophilia reflects the abundance of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cytoplasmic basophilia reflects the abundance of:
+## answer_a
+Mitochondria.
+## explanation_a
+Mitochondria are acidophilic in a routine section and are demonstrated by iron haematoxylin or Janus green rather than by basophilic dye. They carry a little RNA, but far too little to colour the cytoplasm.
+## answer_b
+rER.
+## explanation_b
+Correct. Basophilia is the ribosomal RNA taking up the basic dye, and rough endoplasmic reticulum is ribosomes on a membrane — which is why the book gives basophilia as the light-microscopic feature of rER.
+## answer_c
+sER.
+## explanation_c
+Smooth endoplasmic reticulum is the exact opposite: it has no ribosomes at all, so where it is abundant the cytoplasm is acidophilic. Answering "sER" here inverts the one fact the item tests.
+## answer_d
+Golgi apparatus.
+## explanation_d
+The Golgi apparatus is invisible in H&E except as a pale negative Golgi image beside the nucleus — an unstained area, which is the opposite of a basophilic one.
+## correct_answer
+b
+## main_concept
+CON-FND-60953640114635
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Explain cytoplasmic basophilia by the ribosomal RNA on the rough endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p1 q7. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for it, so the answer is worked from the department book: ribosomes cause cytoplasmic basophilia because of the acidity of the phosphate group in their RNA, and the book puts basophilia in the light-microscopy row of the rough endoplasmic reticulum and acidophilia in the same row for the smooth.
+
+
+---
+
+# Item
+## id
+QM-101-DEA4A4E1668F
+## title
+Regarding Golgi apparatus, which statement is correct:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding Golgi apparatus, which statement is correct:
+## answer_a
+Formed of parallel flattened cisternae.
+## explanation_a
+This is the department book's wording for the rough endoplasmic reticulum, not for the Golgi, whose stacks it calls flat curved saccules. It is the intended trap and it is a fair one only if you have the book's two descriptions side by side — outside that vocabulary the sentence is nearly true of the Golgi as well.
+## answer_b
+Have Cis and Trans faces.
+## explanation_b
+Correct, and correct uniquely: an entry cis face receiving transfer vesicles from the rough endoplasmic reticulum and an exit trans face budding secretory vesicles and lysosomes is a polarity no other organelle has.
+## answer_c
+Involved in glycogen breakdown.
+## explanation_c
+Breaking glycogen down to glucose is a function of smooth endoplasmic reticulum, which is also why glycogen granules gather in cytoplasm rich in sER. The Golgi adds carbohydrate to protein; it does not dismantle stored carbohydrate.
+## answer_d
+Involved in cell respiration.
+## explanation_d
+Cell respiration is the mitochondrion, the power-house. Nothing in the Golgi generates ATP.
+## correct_answer
+b
+## main_concept
+CON-FND-405BB5EA3C359E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Identify the cis and trans faces as the feature that distinguishes the Golgi stack from the rough endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p1 q9. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer comes from the department book. The book is careful with its two descriptions: rough endoplasmic reticulum is "parallel flattened cisternae" and the Golgi is "interconnected parallel flat curved saccules" with an entry (cis) and exit (trans) face. Only one option names something that is true of the Golgi and of nothing else, and that is b. Option a is worth flagging: read outside the book's vocabulary it is not plainly false, since the Golgi's saccules are flat and parallel too, and the item is only single-best-answer because the book reserves "cisternae" for the endoplasmic reticulum. It is authored as Hard for that reason.
+
+
+---
+
+# Item
+## id
+QM-101-DC51815283FD
+## title
+Heterolysosomes are formed of primary lysosomes plus vesicles containing:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Heterolysosomes are formed of primary lysosomes plus vesicles containing:
+## answer_a
+Old organelles.
+## explanation_a
+Old organelles are taken up in an autophagic vesicle, and the primary lysosome that fuses with it makes an autolysosome. Each of the three distractors here is a different lysosome type, so a student who has learnt them as a list rather than by substrate has nothing to choose on.
+## answer_b
+Bacteria.
+## explanation_b
+Correct. Bacteria are solid particles taken in by phagocytosis into a phagosome, and phagosome plus primary lysosome is the heterolysosome.
+## answer_c
+Fluid droplets.
+## explanation_c
+Fluid droplets enter by pinocytosis, and pinocytic vesicle plus primary lysosome is the multivesicular body — the fluid counterpart of this question's answer.
+## answer_d
+Undigested materials.
+## explanation_d
+Undigested material is what is left at the end of digestion, in a residual body. It is the outcome of the process rather than an input to it.
+## correct_answer
+b
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the vesicle a primary lysosome fuses with to make a heterolysosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q11. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and none was recovered for that sitting, so the answer is taken from the department book: a heterolysosome is a primary lysosome fused with a phagosome and digests solid particles, and the book's own example of phagocytosis is a white blood cell engulfing bacteria. A bacterium is the only solid engulfed particle in the option set.
+
+
+---
+
+# Item
+## id
+QM-101-FD0F291EFF8D
+## title
+Fibroblasts have:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fibroblasts have:
+## answer_a
+Many sER.
+## explanation_a
+Abundant smooth endoplasmic reticulum belongs to cells making lipid or steroid — the hepatocyte, the adrenal cortical cell. The fibroblast makes collagen, which is protein.
+## answer_b
+Many free ribosomes.
+## explanation_b
+Free ribosomes make protein the cell keeps for its own use. Collagen and the ground substance are exported into the matrix, so they are made on ribosomes attached to the rough endoplasmic reticulum instead.
+## answer_c
+Many lysosomes.
+## explanation_c
+Many lysosomes mark a phagocyte such as the macrophage. The fibroblast builds the matrix rather than digesting anything in it.
+## answer_d
+Many rER.
+## explanation_d
+Correct. The fibroblast is the department book's type example of a protein-secreting cell: deeply basophilic cytoplasm because it is packed with rough endoplasmic reticulum, plus a well developed Golgi and a pale euchromatic nucleus.
+## correct_answer
+d
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Read the fibroblast's organelle profile off the fact that it exports protein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q18. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for it, so the answer is worked from the department book, which describes the active fibroblast as a protein-synthesising cell with well developed rough endoplasmic reticulum and Golgi and lists rER as the organelle of cells forming protein for export.
+
+
+---
+
+# Item
+## id
+QM-101-5AC6BA6B22A1
+## title
+Regarding RBCs adaptation to perform their function, They are:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding RBCs adaptation to perform their function, They are:
+## answer_a
+Containing carbonic anhydrase enzyme.
+## explanation_a
+Correct. Carbonic anhydrase is one of the two enzymes the red corpuscle keeps when it discards everything else, and it is what lets the cell carry carbon dioxide as bicarbonate.
+## answer_b
+Rich in mitochondria.
+## explanation_b
+The mature red corpuscle has no organelles at all — no nucleus, no mitochondria, no ribosomes — and that is precisely the adaptation: the space they would occupy is given to haemoglobin. Being rich in mitochondria is the opposite of the answer.
+## answer_c
+Having a central granular part.
+## explanation_c
+The red corpuscle is a biconcave disc, so its centre is the thinnest part and looks pale, not granular. A granular central part is the platelet's granulomere, and this option is borrowed from the neighbouring leaf.
+## answer_d
+Rich in Ca** and serotonin.
+## explanation_d
+Calcium and serotonin are the contents of the platelet's delta granules. Repeating the same borrowing, this option tests whether a student can keep the two small blood elements apart.
+## correct_answer
+a
+## main_concept
+CON-HEM-2C81CE9CF9F3D8
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the enzyme the red corpuscle keeps in order to carry carbon dioxide.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q35. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: under the red corpuscle's adaptation to function it lists the contained enzymes as haemoglobin reductase, to combine with oxygen, and carbonic anhydrase, to carry carbon dioxide. The same book's statement that the mature cell has no nucleus and no organelles disposes of option b.
+
+
+---
+
+# Item
+## id
+QM-101-F8DBB630670E
+## title
+Lambda granules of blood platelets contain:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Lambda granules of blood platelets contain:
+## answer_a
+Lysosomes.
+## explanation_a
+Correct. The lambda granule is the platelet's lysosome, carrying hydrolytic enzymes that remove the clot once the vessel wall has healed.
+## answer_b
+ATP and ADP.
+## explanation_b
+ATP and ADP are in the delta, or dense, granules, together with calcium and serotonin. Delta is the granule of the substances that recruit more platelets, not of the enzymes that clear up afterwards.
+## answer_c
+Growth factors.
+## explanation_c
+Growth factors — platelet-derived growth factor in particular — are in the alpha granules, whose job is repair of the vessel wall.
+## answer_d
+clotting factors.
+## explanation_d
+Clotting factors and fibrinogen are also alpha granule contents. Alpha is the largest and commonest granule, which is why it is the most attractive wrong answer here.
+## correct_answer
+a
+## main_concept
+CON-HEM-B000CE18F93F83
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Identify the lambda granule of the platelet as its lysosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q37. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer is taken from the department book, whose blood platelet chapter states that lambda granules are lysosomes used for clot removal after healing of the vessel. The other three options are the contents the same chapter assigns to the alpha and delta granules.
+
+
+---
+
+# Item
+## id
+QM-101-E144D5035FEB
+## title
+Ribophorins are: a" o rail
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Ribophorins are: a" o rail
+## answer_a
+Inactive chromatin. Sgt emn
+## explanation_a
+Inactive chromatin is heterochromatin and belongs in the nucleus. Placing a ribosomal term among two chromatin options is the item's whole design: it separates students who know what a ribophorin is from students guessing on the shape of the word.
+## answer_b
+Active chromatin.
+## explanation_b
+Active chromatin is euchromatin, again nuclear. Nothing about the ribophorin is chromatin of either kind.
+## answer_c
+Receptors for ribosomal attachment on
+## explanation_c
+Correct. Ribophorins are the integral membrane receptors on the rough endoplasmic reticulum to which ribosomes attach by their large subunit.
+## answer_d
+Polyribosomes linked by mRNA. i
+## explanation_d
+Polyribosomes linked by mRNA are free ribosomes reading one message together, in rosettes or spiral chains. They are unattached by definition, so they are what a ribophorin is not holding.
+## correct_answer
+c
+## main_concept
+CON-FND-0E38E21957DB05
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Define the ribophorin as the receptor that binds a ribosome to the rough endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p1 q3. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key and the highlight recovery returned nothing for this row, so the answer is worked from the department book: it describes the rough endoplasmic reticulum as cisternae studded with ribosomes bound to ribophorins, and its attached-ribosome diagram labels the ribophorin as the point at which the large subunit meets the membrane. Both the stem and three of the four options carry optical-character noise from the scan — "a" o rail" in the stem, "Sgt emn" after option a — but every option is still legible enough to judge.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F046FA69FBC8
+## title
+The plasma cell is characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The plasma cell is characterized by:
+## answer_a
+Surface IgE receptors.
+## explanation_a
+Surface IgE receptors belong to the mast cell and the basophil, which is how an allergen triggers them to degranulate. The plasma cell makes antibody and releases it; it does not sit with antibody bound to its surface.
+## answer_b
+Eccentric clock face nucleus.
+## explanation_b
+Correct. The eccentric nucleus with dark heterochromatin alternating with lighter euchromatin is the clock-face or cart-wheel appearance, and it is the single feature that names a plasma cell down a microscope.
+## answer_c
+Deep acidophilic cytoplasm:
+## explanation_c
+The plasma cell's cytoplasm is deeply basophilic, not acidophilic, because it is filled with rough endoplasmic reticulum. Deep acidophilia would mean smooth endoplasmic reticulum and a steroid-forming cell.
+## answer_d
+Rich,in sERI& lysosomes.
+## explanation_d
+Rich in rough endoplasmic reticulum and Golgi, not in smooth endoplasmic reticulum and lysosomes. This option swaps the plasma cell's organelles for a phagocyte's, and it is the answer a student gives who knows the cell is busy without knowing what it makes.
+## correct_answer
+b
+## main_concept
+CON-FND-CC62175DBE7355
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the plasma cell by its eccentric clock-face nucleus and basophilic cytoplasm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p2 q21. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper carried no key and none was recovered for this row, so the answer is taken from the department book: it describes the plasma cell as having deeply basophilic cytoplasm and an eccentric spherical nucleus whose alternating heterochromatin and euchromatin give the cart-wheel or clock-face appearance. The same description rules out options c and d directly.
+
+
+---
+
+# Item
+## id
+QM-101-468EF240E5FD
+## title
+A tumor is decided to be of epithelial origin when it contains mainly:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A tumor is decided to be of epithelial origin when it contains mainly:
+## answer_a
+Lamin.
+## explanation_a
+Lamins are intermediate filaments of the nuclear envelope, present in the nucleus of every cell. A protein every cell has cannot name a tumour's tissue of origin.
+## answer_b
+Tubulin.
+## explanation_b
+Tubulin is the subunit of microtubules, not an intermediate filament at all, and again it is universal. The option is here to catch a student answering on "filament protein" rather than on which class.
+## answer_c
+Cytokeratin.
+## explanation_c
+Correct. Cytokeratin is the intermediate filament of epithelium, so a tumour full of it is a carcinoma — of epithelial origin.
+## answer_d
+Desmin.
+## explanation_d
+Desmin is the intermediate filament of muscle. A desmin-rich tumour is a muscle tumour, which is the whole point of the technique: each of these four proteins names a different tissue.
+## correct_answer
+c
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Use the intermediate filament protein in a tumour to name the tissue it arose from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q3. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because intermediate filaments are taught in this chapter. The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: its table of intermediate filament proteins gives cytokeratin to epithelial tissue, and its applied note says identification of these proteins is important in diagnosing tumours because the cell of origin can be recognised.
+
+
+---
+
+# Item
+## id
 QM-101-0E8432546A64
 ## title
 Segmentation of somites starts at
@@ -45065,6 +47140,338 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-B3533A4BBDD7
+## title
+Premature separation of placenta occurs due to:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Premature separation of placenta occurs due to:
+## answer_a
+Short umbilical cord.
+## explanation_a
+Correct. A cord too short to pay out as the fetus descends is put under traction during delivery, and the pull is transmitted to the placenta and strips it off the decidua basalis before the baby is delivered.
+## answer_b
+Long umbilical cord.
+## explanation_b
+The long cord is the dangerous one a student remembers, because the book calls neck encirclement and a true knot life-threatening — but both of those strangle the fetal circulation through the cord itself. A long cord has slack to spare and pulls on nothing.
+## answer_c
+Accessory placenta.
+## explanation_c
+An accessory placenta is an anomaly of number, a separate lobe joined to the main disc by vessels. It matters because the extra lobe may be retained after delivery, which is the opposite problem: placenta left behind rather than placenta detached early.
+## answer_d
+Placenta accreta.
+## explanation_d
+Placenta accreta is abnormal infiltration of the placenta into the uterine wall, and it too is the opposite of this question — an accreta will not separate when it should, and is a cause of retained placenta and post-partum haemorrhage.
+## correct_answer
+a
+## main_concept
+CON-DEV-3E918A4C74B56D
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+null
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attach premature separation of the placenta to the short cord, and give what each of the other cord and placental anomalies causes instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q40. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book rather than from a key. The book lists among the congenital anomalies of the cord "short cord limiting fetal movement and causing premature separation of placenta during delivery", which is option a in the paper’s own words.
+
+
+---
+
+# Item
+## id
+QM-101-6D0868759B15
+## title
+Concerning the umbilical cord at birth, select the incorrect statement:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the umbilical cord at birth, select the incorrect statement:
+## answer_a
+About 50-60 cm in length.
+## explanation_a
+True, and the book’s figure exactly: 50–60 cm long and about 2 cm across. The length matters because it is what the two length anomalies are measured against.
+## answer_b
+Contains 2 veins and one artery.
+## explanation_b
+Correct — this is the incorrect statement, and the answer. The cord carries two arteries and one vein, not two veins and one artery. The count is inverted so often because the fetal circulation is inverted: the paired vessels are the arteries carrying deoxygenated blood away from the fetus, and the single vessel is the vein bringing oxygenated blood back. A student who reasons from the adult body, where veins outnumber arteries, gets it backwards.
+## answer_c
+ls attached to the fetal surface of the placenta.
+## explanation_c
+True. The cord is attached near the centre of the smooth, amnion-covered fetal surface; attachment at the margin is battledore placenta and attachment through the amniotic membrane is velamentous, and both are named as anomalies precisely because the normal site is the fetal surface.
+## answer_d
+Short cord may lead to premature separation of the placenta.
+## explanation_d
+True, and it is the book’s first named cord anomaly: a short cord limits fetal movement and is put under traction at delivery, stripping the placenta prematurely.
+## correct_answer
+b
+## main_concept
+CON-DEV-134C8B5E98D759
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+null
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the vessel count, the length and the placental attachment of the definitive umbilical cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p5 q55. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book gives the definitive cord two umbilical arteries and one umbilical vein, a length of 50–60 cm, attachment near the centre of the fetal surface of the placenta, and a short cord as a cause of premature separation — so a, c and d are its own words and b is the one statement it contradicts.
+
+
+---
+
+# Item
+## id
+QM-101-4FD496E4B8AA
+## title
+Concerning the placenta, one of the following is incorrect:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the placenta, one of the following is incorrect:
+## answer_a
+Its fetal part develops from chorion frondosum.
+## explanation_a
+True. The fetal part is the chorionic plate, and the chorionic plate is chorion frondosum — the pole of the chorion facing decidua basalis, where the villi are kept and grow.
+## answer_b
+Its maternal part develops from decidua capsularis.
+## explanation_b
+Correct — this is the incorrect statement, and the answer. The maternal part is decidua basalis. Decidua capsularis is the thin layer that covers the conceptus on the side facing the uterine cavity; it degenerates as the sac expands, which is what lets the amniochorionic membrane meet decidua parietalis. Students pick it because all three deciduae are learnt as one list and only one of them makes placenta.
+## answer_c
+There is a barrier between fetal and maternal blood.
+## explanation_c
+True. The placental barrier separates maternal blood in the intervillous spaces from fetal blood in the tertiary villi, and it is the whole reason the two circulations never mix.
+## answer_d
+Has many hormonal functions.
+## explanation_d
+True. The placenta is an endocrine gland as well as an exchange organ, secreting progesterone, oestrogen, human chorionic gonadotropin and somatomammotropin.
+## correct_answer
+b
+## main_concept
+CON-DEV-D870770450E17D
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+null
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the fetal and the maternal part of the placenta, and say which of the three deciduae each part comes from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p6 q59. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book. The book states the placenta is formed by union of a maternal part — the decidual plate, which is decidua basalis — and a fetal part, the chorionic plate, which is chorion frondosum. Option b names decidua capsularis, which the book gives no part in the placenta at all.
+
+
+---
+
+# Item
+## id
+QM-101-7266DD28B4BF
+## title
+Regarding the umbilical cord at birth, select the incorrect statement:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the umbilical cord at birth, select the incorrect statement:
+## answer_a
+About 50-60 cm in length.
+## explanation_a
+True, and the book’s figure: the cord is 50–60 cm long and about 2 cm in diameter.
+## answer_b
+Contains 2 veins and 2 arteries.
+## explanation_b
+Correct — this is the incorrect statement, and the answer. The count is two arteries and one vein, three vessels in all, not four. This year’s version is harder than the previous year’s "2 veins and one artery", because it gets the total wrong as well as the distribution, and a student who has learnt only "three vessels" can still catch it.
+## answer_c
+Is attached to the fetal surface.of thé placenta.
+## explanation_c
+True. The cord is attached near the centre of the fetal surface of the placenta — the smooth surface covered by amnion, over which the umbilical vessels run to reach the villi.
+## answer_d
+Short cord may lead to premature separation of the placenta.
+## explanation_d
+True, and the book’s own account of the short cord: it limits fetal movement and separates the placenta prematurely during delivery.
+## correct_answer
+b
+## main_concept
+CON-DEV-134C8B5E98D759
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## topic
+null
+## subtopic
+Fetal Membranes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the vessel count, the length and the placental attachment of the definitive umbilical cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p5 q56. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book: the definitive cord holds two umbilical arteries and one umbilical vein. This is the previous year’s question reset with the false option changed from "2 veins and one artery" to "2 veins and 2 arteries"; the other three options are word for word the same and are all true.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-101-2BAB71EC9F7F
 ## title
 Fetal period starts at the beginning of
@@ -46391,6 +48798,255 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-2CDC958B0DCF
+## title
+The process of fusion between sperm and ovum is called:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The process of fusion between sperm and ovum is called:
+## answer_a
+Cleavage.
+## explanation_a
+Cleavage is what happens after the union, not the union itself: the zygote divides mitotically inside the zona pellucida into smaller and smaller blastomeres. The book lists the start of cleavage as one of the four results of fertilisation, which is the relation a student picking this option has got the wrong way round.
+## answer_b
+Gastrulation.
+## explanation_b
+Gastrulation belongs to the third week, not the first. It is the formation of the three germ layers from the bilaminar disc, and the only thing it has in common with fertilisation is that both are single named events a student is asked to define.
+## answer_c
+Capacitation.
+## explanation_c
+Capacitation is a change in the sperm, not a fusion with the ovum — the removal of the glycoprotein coat and seminal proteins from the acrosome during the sperm’s passage through the female tract, which is what makes it able to fertilise. The book lists it as the step before phase I, so it is the nearest wrong answer on the page and the one a student who has learnt the steps in order will reach for.
+## answer_d
+Fertilization.
+## explanation_d
+Correct. Fertilisation is the union of sperm and ovum to form a zygote, and it occurs in the ampullary part of the uterine tube.
+## correct_answer
+d
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+null
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the process by which sperm and ovum unite, and separate it from the three first-week processes it is most often confused with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p6 q43. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book. The book defines fertilization in exactly these words: "the process by which sperm and ovum unite to form a zygote".
+
+
+---
+
+# Item
+## id
+QM-101-488BC21C6A83
+## title
+All of the followings are abnormal site of implantation except:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the followings are abnormal site of implantation except:
+## answer_a
+Internal os of the uterus.
+## explanation_a
+An abnormal site, and the commonest one that is still inside the uterus. Implantation at the internal os gives placenta previa, where the placenta lies over or beside the outlet the fetus has to come through.
+## answer_b
+Mesentery of small intestine.
+## explanation_b
+An abnormal site. The book’s omental ectopic is implantation on the surface of the peritoneum, and the mesentery of the small intestine is peritoneum — a blastocyst expelled from the fimbrial end of the tube into the peritoneal cavity can settle there.
+## answer_c
+Lungs.
+## explanation_c
+Correct — this is the exception, and the answer. The lung is not a site of implantation, abnormal or otherwise: the blastocyst reaches the peritoneal cavity at worst, and there is no route from the uterine tube to the chest. Students hesitate because the other three are memorised as a list and the lung is not on it, which is precisely what the question is testing.
+## answer_d
+Uterine tube.
+## explanation_d
+An abnormal site, and the commonest ectopic pregnancy of all. The book divides tubal implantation into ampullary, isthmic and intramural, and it is dangerous because the tube ruptures as the conceptus grows.
+## correct_answer
+c
+## main_concept
+CON-DEV-89FC3BBB3C9BCE
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+null
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+List the abnormal sites of implantation the department book names, and recognise a site the blastocyst can never reach.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p5 q53. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book’s abnormal sites are the lower uterine segment (placenta previa, at the internal os), and ectopic implantation — tubal, ovarian and omental, on the surface of the peritoneum. The internal os, the mesentery and the uterine tube are all on that list; the lung is not, and cannot be, because nothing carries a blastocyst there. This is also the option that was lost from the question-book printing of this question, `all-of-the-following-are-abnormal-sites-of-implantation-exce-cafc7147`, which is excluded there for exactly that reason.
+
+
+---
+
+# Item
+## id
+QM-101-DA896063F534
+## title
+Morulla is:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Morulla is:
+## answer_a
+2 cell's stage.
+## explanation_a
+The two-cell stage is the first day of cleavage and has no name of its own. It is offered first because a reader who has copied option a into the stem of the other printing of this question made exactly this mistake.
+## answer_b
+4 cell’s stage.
+## explanation_b
+Four blastomeres is the second day. Still a cleaving zygote, still inside an intact zona pellucida, and still not a morula.
+## answer_c
+8 cell’s stage.
+## explanation_c
+Eight blastomeres is the third day, and it is the number the book states most prominently, which is what makes this the strongest distractor — a student who remembers "day 3" and "8 cells" together stops one step early. The morula is the next count in the same sentence.
+## answer_d
+16 cell’s stage.
+## explanation_d
+Correct. At 16 cells the ball is called the morula, and it is formed in the uterine tube within three days of the zygote; it has no cavity and its zona pellucida is intact, which is what separates it from the blastocyst that follows.
+## correct_answer
+d
+## main_concept
+CON-DEV-F5A87FDF5D911C
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+null
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the cell number at which the cleaving embryo is called a morula.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p5 q54. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which gives the cleavage sequence as 8 blastomeres on the third day, then 16 — the morula — then 32 and 64. The question-book printing of the same question, `morula-is-2022-vi-y-ad-ac-a-2-cell-s-stage-c7ed442b`, lost an option and is excluded in this file; this sat printing has all four.
 
 
 ---
@@ -58678,6 +61334,89 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-5F1DF3ABDAF5
+## title
+One of the following muscles cannot perform flexion shah
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following muscles cannot perform flexion shah
+## answer_a
+Pronator quadratus.
+## explanation_a
+Correct. Pronator quadratus lies in the flexor compartment and is supplied by the anterior interosseous branch of the median nerve like the rest of the deep group, but its fibres run transversely from ulna to radius. A transverse pull can only rotate; it cannot bend a joint, and pronator quadratus crosses none.
+## answer_b
+Flexor pollicis longus.
+## explanation_b
+Flexor pollicis longus flexes the interphalangeal and metacarpophalangeal joints of the thumb and assists at the wrist. Students who have learnt "pollicis longus" as a thumb muscle sometimes forget it is a flexor at all.
+## answer_c
+Flexor digitorum profundus.
+## explanation_c
+Flexor digitorum profundus flexes the distal interphalangeal joints of the medial four fingers, and through them the more proximal joints and the wrist — it is the only muscle that can bend the last joint of a finger.
+## answer_d
+Flexor carpi ulnaris.
+## explanation_d
+Flexor carpi ulnaris flexes and adducts the hand at the wrist. It is the odd one of the superficial group for its nerve, being ulnar rather than median, and a student who remembers it as the exception may reach for it as the exception here too — but the question is about action, not nerve.
+## correct_answer
+a
+## main_concept
+CON-MSK-46C40109E7D957
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+## topic
+null
+## subtopic
+Forearm
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the one muscle of the flexor compartment of the forearm that flexes nothing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p8 q83. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book puts pronator quadratus in the deep flexor group but gives it only pronation: it runs horizontally across the front of the lower radius and ulna, crosses no joint that can flex, and does not appear in the book’s list of the muscles that flex the wrist. Flexor pollicis longus, flexor digitorum profundus and flexor carpi ulnaris are all on that list.
+
+
+---
+
+# Item
+## id
 QM-101-2E31171A9A45
 ## title
 Regarding formation of sperms
@@ -59751,6 +62490,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-AD1D45E82A5A
+## title
+During which stage of first meiotic division does crossing-over occur?
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+During which stage of first meiotic division does crossing-over occur?
+## answer_a
+prophase
+## explanation_a
+Correct. Crossing-over happens in prophase of the first meiotic division — at pachytene, once the homologous chromosomes have paired and each is already split into two chromatids, so that segments can be exchanged between the non-sister chromatids at the chiasmata.
+## answer_b
+Metaphase
+## explanation_b
+Metaphase I is when the paired chromosomes line up on the equator of the spindle. The pairing that crossing-over needs has already happened by then, and this is the commonest wrong answer because students remember that meiosis pairs chromosomes and metaphase is where pairs are visible in a diagram.
+## answer_c
+anaphase
+## explanation_c
+Anaphase I is when the homologous chromosomes are pulled apart to opposite poles — the separation, not the exchange. It is also the stage at which failure of that separation, non-disjunction, produces gametes with the wrong chromosome number.
+## answer_d
+telophase
+## explanation_d
+Telophase I is the reforming of the nuclei around the two separated sets. By then the chromosomes are no longer in contact at all, so no exchange between them is possible.
+## correct_answer
+a
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+null
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Name the stage of the first meiotic division at which homologous chromosomes exchange segments.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q32. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Filed here from the unassigned pile: the stem names no structure any leaf’s vocabulary matched, but crossing-over during the first meiotic division is gametogenesis and belongs to this leaf. The 2020 paper printed no key and the recovered answer sheet does not cover this source. The answer does not come from the department book either — the book teaches no meiosis at all, and that gap is recorded on this concept. It is set to prophase because crossing-over is by definition an event of prophase I, at the pachytene stage, when the homologous chromosomes are synapsed; the other three stages are each defined by an event that is not it, so only one option is defensible and a faculty reviewer is not needed to say which.
 
 
 ---
@@ -63326,6 +66148,255 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-AD4E926DA829
+## title
+Apocrine secretion refers to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Apocrine secretion refers to:
+## answer_a
+The most common mode of secretion.
+## explanation_a
+The most common mode is merocrine, which is how most glands work most of the time. Apocrine costs the cell part of itself and is therefore the less usual arrangement.
+## answer_b
+No changes occur in secretory cell.
+## explanation_b
+No change in the secretory cell is merocrine, where the product leaves by exocytosis and the membrane is restored. Apocrine takes the apex away with the secretion, so there is a change by definition.
+## answer_c
+Secretion comes out with apex of the cell.
+## explanation_c
+Correct. In apocrine secretion the apical part of the cytoplasm is pinched off and leaves with the product — the prefix apo-, meaning off or away, is the whole definition.
+## answer_d
+The whole cell is lost with secretion.
+## explanation_d
+Losing the whole cell is holocrine, as in the sebaceous gland. The three modes form a ladder of how much of the cell is spent, and this option is one rung past the answer.
+## correct_answer
+c
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+null
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Define apocrine secretion by what the cell loses with its product.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p3 q23. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which defines the three modes in one line each: merocrine discharges by exocytosis with no change in the cell, apocrine releases the secretion with the apex of the cell, and holocrine loses the whole cell.
+
+
+---
+
+# Item
+## id
+QM-101-B21B3B2B372F
+## title
+Simple branched gland explains that the:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Simple branched gland explains that the:
+## answer_a
+Duct is branched and secretory part is not branched.
+## explanation_a
+This inverts the naming. A branched duct makes the gland compound, and the word simple would then be wrong — the two halves of the name cannot both refer to the duct.
+## answer_b
+Duct is not branched but secretory part is branched.
+## explanation_b
+Correct. "Simple" fixes the duct as unbranched and "branched" then has only the secretory portion left to describe.
+## answer_c
+Duct and secretory part are not branched.
+## explanation_c
+Neither part branching is a plain simple gland — simple tubular or simple alveolar — with no second word at all. Adding "branched" to the name has to mean something.
+## answer_d
+Duct and secretory part are branched.
+## explanation_d
+Both branching is a compound gland, and a compound gland is never called simple. This is the option for a student reading "branched" as a property of the whole gland.
+## correct_answer
+b
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+null
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Say which part of a simple branched gland is branched.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q29. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for it, so the answer is worked from the department book: a simple gland is one with a single non-branching duct, and it is called simple branched when only the secretory portion branches. Simple always describes the duct, and branched always describes the secretory part.
+
+
+---
+
+# Item
+## id
+QM-101-FD20AE5E4C78
+## title
+Regarding merocrine secretion:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding merocrine secretion:
+## answer_a
+The whole cell come out with secretion.
+## explanation_a
+The whole cell coming out with the secretion is holocrine — the sebaceous gland, where the swollen cell ruptures and is lost entirely.
+## answer_b
+The least common mode of secretion.
+## explanation_b
+Merocrine is the most common mode, not the least. Only one word separates this option from a true statement, and it is the word the examiner changed.
+## answer_c
+The apical part of the cell come out with the secretion.
+## explanation_c
+The apical part leaving with the secretion is apocrine. The three modes are one question asked three ways in these papers, and each mode appears as a distractor in the others.
+## answer_d
+No change occurs in the secretory cell.
+## explanation_d
+Correct. In merocrine secretion the product leaves by exocytosis, the vesicle membrane fuses with the cell membrane and is recovered, and the cell is unchanged — which is why it can secrete indefinitely.
+## correct_answer
+d
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+null
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Define merocrine secretion and say how common it is.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q30. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book, which gives merocrine as the most common mode, discharged by exocytosis with no change in the secretory cell. Option b is the same sentence with "least" substituted for "most", which is what makes it the item's trap.
+
+
+---
+
+# Item
+## id
 QM-101-737F2B31B791
 ## title
 basophil membrane contain receptor for
@@ -64239,6 +67310,172 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-15A810AD8D41
+## title
+Regarding basophils, they:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding basophils, they:
+## answer_a
+Constitute 3-8% of circulating leucocytes.
+## explanation_a
+Three to eight per cent is the monocyte. Basophils are 0–1%, the rarest white cell in the book, and basophilia begins above 2%.
+## answer_b
+Increase in acute pyogenic infection.
+## explanation_b
+Acute pyogenic infection raises the neutrophils, the first line of non-specific defence. The basophil rises in allergy, and its own products — histamine, heparin, leukotrienes — are what an allergic reaction is made of.
+## answer_c
+Have kidney shaped nuclei.
+## explanation_c
+A kidney-shaped nucleus is the monocyte's. The basophil's is irregular, segmented and S-shaped, and it is usually hidden altogether by the granules lying over it.
+## answer_d
+Are rich in metachromatically stained granules.
+## explanation_d
+Correct. The basophil's coarse granules are metachromatic — toluidine blue is blue and turns them purple — because of the heparin in them, and the mast cell shares the property for the same reason.
+## correct_answer
+d
+## main_concept
+CON-HEM-607B783A16FBEB
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## topic
+null
+## subtopic
+Granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the basophil from a set of counts, nuclear shapes and staining claims.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q41. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer is worked from the department book. Three of the four options contradict its own numbers and descriptions — basophils are 0–1% of the count, they rise in allergy rather than in pyogenic infection, and their nucleus is irregular and S-shaped — while the fourth restates its sentence that their coarse granules stain metachromatically purple with toluidine blue because of their heparin.
+
+
+---
+
+# Item
+## id
+QM-101-46CF1CD96629
+## title
+Which leucocyte is responsible for Cell mediated immunity?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which leucocyte is responsible for Cell mediated immunity?
+## answer_a
+B- lymphocyte.
+## explanation_a
+The B lymphocyte mediates humoral immunity: activated by antigen and by a helper T cell it becomes a plasma cell and secretes antibody. Antibody is a molecule in the plasma, which is what "humoral" means, and it is the opposite arm from the one asked for.
+## answer_b
+T- lymphocytes.
+## explanation_b
+Correct. T lymphocytes mature in the thymus, carry CD4 and CD8 receptors, and mediate cell-mediated immunity — the cytotoxic CD8 cells killing infected and neoplastic cells directly rather than through an antibody.
+## answer_c
+Basophils.
+## explanation_c
+Basophils belong to the allergic response, not to either immune arm. They secrete histamine, heparin and leukotrienes and have only limited phagocytic power.
+## answer_d
+Monocyte.
+## explanation_d
+The monocyte becomes the macrophage, which presents antigen and so starts both responses — but presenting is not mediating, and the cell that carries the cell-mediated response out is the T lymphocyte.
+## correct_answer
+b
+## main_concept
+CON-HEM-FDAC2D5F64032E
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## topic
+null
+## subtopic
+Granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the lymphocyte that mediates cell-mediated immunity and the one that mediates humoral immunity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q44. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer comes from the department book, which says in as many words that T lymphocytes mediate cell-mediated immunity and B lymphocytes mediate humoral immunity.
+
+
+---
+
+# Item
+## id
 QM-101-7F60FB78CD75
 ## title
 Bone marrow component which can be transplanted into Patients suffering from leukemia i…
@@ -64482,6 +67719,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pd
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
+
+
+---
+
+# Item
+## id
+QM-101-50D3BDB5C3F9
+## title
+Potentially renewable cells:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Potentially renewable cells:
+## answer_a
+Continuously replaced from stem cells.
+## explanation_a
+Continuous replacement from stem cells is a renewing population — blood, epidermis, the lining of the gut. The word the stem turns on is "potentially": these cells are not being replaced continuously, they are held in reserve.
+## answer_b
+Are end cells
+## explanation_b
+End cells are a static population: neurons and cardiac muscle, which have left the cycle for good and are never replaced. That is the opposite of potentially renewable, and it is the option for a student reading "potentially" as "not actually".
+## answer_c
+Have a transient exit from cell cycle in G2 phase.
+## explanation_c
+The right idea with the wrong phase. A cell that leaves the cycle transiently leaves it in the resting phase after mitosis, not in G2 — G2 is the gap between DNA replication and mitosis, and a cell that has already copied its DNA is committed to dividing rather than resting.
+## answer_d
+Return to continue cell cycle on need for replacement
+## explanation_d
+Correct. A potentially renewable cell is out of the cycle but able to come back into it, and it does so when the tissue needs replacing — the liver cell after resection, the fibrocyte becoming an active fibroblast for wound healing.
+## correct_answer
+d
+## main_concept
+CON-HEM-25C4304A1DB441
+## library_ids
+ART-101-HIS-HAEMOPOIESIS
+## topic
+null
+## subtopic
+Haemopoiesis
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Define a potentially renewable cell population and separate it from a renewing one and from end cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q31. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither a printed key nor a recovered highlight covers this row, and the department book does not settle it either: it teaches no classification of cell populations at all — the chapter covers bone marrow structure, the reticulocyte and the megakaryocyte and nothing else. The answer is therefore not from a key and not from the book, but from the standard three-way grouping the item is built on, in which the potentially renewable cell is the one that has left the cycle reversibly and returns to it when replacement is needed. Option c is the same statement with G2 substituted for the resting phase, which is what marks it as the examiner's intended trap. The concept carries a `gaps` note recording that no source this faculty would accept supports the answer.
 
 
 ---
@@ -69302,6 +72622,172 @@ Answer changed from the source's: The source printed no key. The ulnar nerve gro
 
 # Item
 ## id
+QM-101-B23B912DB072
+## title
+A 14-year-old boy falls on his outstretched hand and has a fracture of the scaphoid bon…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 14-year-old boy falls on his outstretched hand and has a fracture of the scaphoid bone. The fracture is most likely accompanied by a rupture of which of the following arteries?
+## answer_a
+Ulnar artery.
+## explanation_a
+The ulnar artery is on the opposite side of the wrist, entering the palm superficial to the flexor retinaculum lateral to the pisiform. A fall on the outstretched hand that breaks the scaphoid is nowhere near it.
+## answer_b
+Deep palmar arterial arch.
+## explanation_b
+The deep palmar arch is in the palm, immediately distal to the bases of the metacarpals — well beyond the carpus and separated from the scaphoid by the whole proximal row plus the trapezium. It is tempting because the arch is mainly radial in origin, so a student reasoning "scaphoid, therefore radial, therefore the radial arch" reaches it.
+## answer_c
+Radial artery.
+## explanation_c
+Correct. The radial artery winds backwards round the lateral side of the wrist and crosses the anatomical snuffbox, whose floor is formed by the scaphoid; it lies directly on the bone, which is why a scaphoid fracture may tear it.
+## answer_d
+Princeps pollicis artery.
+## explanation_d
+The princeps pollicis arises only after the radial artery has left the snuffbox and passed between the two heads of the first dorsal interosseous into the palm. It supplies the thumb, distal to the injury.
+## correct_answer
+c
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+null
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Say which artery lies against the scaphoid, and name the vessels that lie nowhere near it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p11 q115. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book takes the radial artery round the lateral side of the wrist and across the anatomical snuffbox, whose floor is the scaphoid, and says its pulsation can be felt there — so it is the radial artery that lies directly on the fractured bone.
+
+
+---
+
+# Item
+## id
+QM-101-DF5415F07CAD
+## title
+A 14-year-old boy fell on-his outstretched hand and has.a fracture of the scaphoid bone…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 14-year-old boy fell on-his outstretched hand and has.a fracture of the scaphoid bone. The fracture is most likely accompanied by a rupture of which of the following arteries?
+## answer_a
+Ulnar artery
+## explanation_a
+The ulnar artery reaches the palm on the medial side of the wrist, superficial to the flexor retinaculum and lateral to the pisiform. It is the whole width of the carpus away from the scaphoid.
+## answer_b
+Deep palmar arterial arch
+## explanation_b
+The deep palmar arch lies across the bases of the metacarpals, distal to the carpus. Its main feed is the radial artery, which is why a student who has correctly reasoned "radial" can still pick the wrong radial structure.
+## answer_c
+Radial artery
+## explanation_c
+Correct, and the same answer as the 2021 printing of this question. The radial artery lies on the scaphoid in the floor of the snuffbox, where its pulsation is felt.
+## answer_d
+Princeps pollicis artery
+## explanation_d
+The princeps pollicis is a branch given after the artery has entered the palm between the heads of the first dorsal interosseous, and it runs to the thumb.
+## correct_answer
+c
+## main_concept
+CON-MSK-58D5F74E9595C3
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## topic
+null
+## subtopic
+Hand
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Say which artery lies against the scaphoid, and name the vessels that lie nowhere near it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p10 q112. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper reprints the previous year’s question word for word, in the past tense, with the same four options. It printed no key either, and the recovered answer sheet does not cover this source, so the answer again comes from the department book: the radial artery crosses the anatomical snuffbox, whose floor is the scaphoid.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-101-D81B9F3F35BD
 ## title
 Anatomical position is: (DEP BOOK). Vi
@@ -69960,6 +73446,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The bank carries D, "Inferior", which cannot stand: inferior means lower, and has nothing to do with the median plane. The department book's own table of terms of position gives medial as "nearer the median plane", so the answer is C. The extractor appears to have read a page mark rather than a key.
+
+
+---
+
+# Item
+## id
+QM-101-0288DE1B7D1D
+## title
+Regarding the anatomical planes, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the anatomical planes, choose the correct answer:
+## answer_a
+Sagittal plane divides the body into two equal halves upper and lower.
+## explanation_a
+Wrong on both counts: a sagittal plane is vertical and never divides upper from lower. This is the option that pairs the right plane name with the wrong pair of parts, and it is the easiest of the four to eliminate.
+## answer_b
+Coronal plane divides the body into two equal halves anterior and posterior.
+## explanation_b
+The coronal plane does divide the body into anterior and posterior parts, but not into equal halves — the book says "an anterior part towards the front and a posterior part towards the back" and no more, and any coronal plane through the body qualifies. The option is true in its direction and false in the word equal, which is precisely the discrimination this question is built on.
+## answer_c
+Sagittal plane divides the body into two equal halves right and left.
+## explanation_c
+Correct. The median, or sagittal, plane passes vertically in the midline and divides the body into equal right and left halves. A plane parallel to it and near it is the paramedian plane, and that one gives unequal halves — which is why the book names it separately.
+## answer_d
+Transvers plane divides the body into two equal halves upper and lower.
+## explanation_d
+The transverse (horizontal) plane divides the body into upper and lower parts, but again not equal ones: it can be taken at any level. It fails on the same word as option b.
+## correct_answer
+c
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+null
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Say which of the anatomical planes divides the body into two equal halves, and which two parts each of the others leaves behind.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q38. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book defines the median (sagittal) plane as the vertical plane in the midline "dividing it into equal right and left halves" — the only one of the four planes it describes with the word equal. Of the coronal plane it says only that it cuts the body into an anterior and a posterior part, and of the horizontal plane into an upper and a lower part, with no claim of equality; that single word is what separates option c from options b and d.
 
 
 ---
@@ -71626,6 +75195,89 @@ Answer changed from the source's: The bank carries A, but the sternoclavicular j
 
 # Item
 ## id
+QM-101-EF963D2E2D79
+## title
+Which of the following flexes the arm at the glenohumeral joint?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following flexes the arm at the glenohumeral joint?
+## answer_a
+Pectoralis major.
+## explanation_a
+Correct. The clavicular head of pectoralis major flexes the arm at the glenohumeral joint. The muscle as a whole also adducts and medially rotates, and its sternocostal head extends the flexed arm — so the same muscle appears as the answer to several opposite questions, which is why the department examines it so often.
+## answer_b
+Latissimus dorsi.
+## explanation_b
+Latissimus dorsi is the principal extensor of the shoulder, the exact opposite of what the stem asks. It is picked by students who remember it as a powerful mover of the arm without remembering the direction.
+## answer_c
+Subscapularis.
+## explanation_c
+Subscapularis is a rotator cuff muscle on the front of the scapula, and its action at the joint is medial rotation. Lying in front of the joint makes it look like a flexor, which is the trap.
+## answer_d
+Infraspinatus.
+## explanation_d
+Infraspinatus is the cuff muscle behind the scapula and rotates the arm laterally. Like subscapularis it steadies the humeral head in the glenoid cavity, and that stabilising role is not a movement.
+## correct_answer
+a
+## main_concept
+CON-MSK-171B2F8B24F6E7
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## topic
+null
+## subtopic
+Joints of Upper Limb
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Movements
+## learning_objective
+Name a flexor of the shoulder joint, and say what each of the other three muscles offered does at that joint instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p9 q96. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book, which gives flexion of the shoulder to the clavicular head of pectoralis major, the anterior fibres of deltoid and coracobrachialis, assisted by the long head of biceps. Pectoralis major is the only one of the four options on that list: latissimus dorsi extends, subscapularis rotates medially and infraspinatus rotates laterally.
+
+
+---
+
+# Item
+## id
 QM-101-AF05A432D22C
 ## title
 The right lymphatic duct drains:
@@ -72035,6 +75687,172 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
+
+
+---
+
+# Item
+## id
+QM-101-6CB1BE86B999
+## title
+Electron microscopic feature of cells responsible for steroid hormone secretion is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Electron microscopic feature of cells responsible for steroid hormone secretion is:
+## answer_a
+Numerous proteasomes
+## explanation_a
+Proteasomes destroy abnormal and short-lived cytosolic proteins. They are not even mentioned in the department book's cytology chapter, and nothing about them is secretory.
+## answer_b
+Numerous ribosomes.
+## explanation_b
+Numerous free ribosomes mark a cell making protein for its own use. A steroid is a lipid, and no ribosome makes one.
+## answer_c
+Well - developed sER.
+## explanation_c
+Correct. Abundant smooth endoplasmic reticulum is the electron-microscopic signature of a steroid-forming cell — the adrenal cortical cell, the Leydig cell — and it goes with acidophilic cytoplasm by light microscopy.
+## answer_d
+Well - developed rER.
+## explanation_d
+Well-developed rough endoplasmic reticulum is the protein-forming cell, and it is the answer to the sister question on this same paper. Swapping the two is the single mistake both items are built to catch.
+## correct_answer
+c
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+null
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the organelle that identifies a steroid-secreting cell on electron microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q4. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: smooth endoplasmic reticulum is sited in lipid-forming cells and its functions include synthesis of the steroid hormones cortisone and testosterone. This row and `electron-microscopic-feature-of-protein-forming-cells-is` are the same question asked for the two secretory cell types, and they must be answered as a pair.
+
+
+---
+
+# Item
+## id
+QM-101-A71B773FCA77
+## title
+Electron microscopic feature of protein forming cells is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Electron microscopic feature of protein forming cells is:
+## answer_a
+Numerous lysosomes.
+## explanation_a
+Numerous lysosomes mark a phagocyte: the macrophage, the neutrophil, the monocyte. A cell that digests is not a cell that builds.
+## answer_b
+Numerous peroxisomes.
+## explanation_b
+Numerous peroxisomes mark the liver and kidney cell, where they oxidise long-chain fatty acids. Their own enzymes are made on free ribosomes elsewhere in the cytoplasm.
+## answer_c
+Well - developed sER.
+## explanation_c
+Well-developed smooth endoplasmic reticulum is the steroid- or lipid-forming cell, and it is the answer to the sister question on the same paper. It has no ribosomes at all, so it cannot make protein.
+## answer_d
+Well - developed rER.
+## explanation_d
+Correct. Rough endoplasmic reticulum is rough because it is studded with ribosomes bound to ribophorins, and those ribosomes make the protein the cell exports.
+## correct_answer
+d
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+null
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the organelle that identifies a protein-secreting cell on electron microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q7. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer comes from the department book, which sites rough endoplasmic reticulum in protein-forming cells — its example is the plasma cell — and gives it protein synthesis, segregation, glycosylation and packing into transfer vesicles.
 
 
 ---
@@ -77602,6 +81420,338 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-DA9C8E2E3B20
+## title
+Cell membrane can be stained by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane can be stained by:
+## answer_a
+AG.
+## explanation_a
+Correct. Silver is one of the two stains the book gives for the plasma membrane, and it works on the carbohydrate of the cell coat rather than on the lipid bilayer.
+## answer_b
+Tryban blue.
+## explanation_b
+Trypan blue, misprinted here as "Tryban", is a vital stain that the macrophage phagocytoses. It marks a whole cell by being eaten, not a membrane.
+## answer_c
+I|ron haematoxylin.
+## explanation_c
+Iron haematoxylin stains mitochondria dark blue, and centrioles. It is a stain for organelles inside the cell.
+## answer_d
+Saudan Iii.
+## explanation_d
+Sudan III stains fat orange on a frozen section. The membrane is largely lipid, which is what makes this option tempting — but Sudan shows stored neutral fat in droplets, not the phospholipid of a bilayer.
+## correct_answer
+a
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+null
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain identification
+## learning_objective
+Name the light-microscopic stain that shows the plasma membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p1 q4. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it says the plasma membrane is hard to see by light microscopy and needs silver or PAS. Silver — printed here as "AG.", the chemical symbol — is the only one of the four options the book names.
+
+
+---
+
+# Item
+## id
+QM-101-1E69CB60987C
+## title
+Cell membrane can be stained by th : i ; Fo! g histochemical stain:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane can be stained by th : i ; Fo! g histochemical stain:
+## answer_a
+Sudan Ill,
+## explanation_a
+Sudan III is a fat stain and needs a frozen section, since the alcohols of ordinary processing dissolve the fat away. It is a lipid stain rather than a histochemical reaction.
+## answer_b
+Trypa Blues
+## explanation_b
+Trypan blue is a vital stain for the macrophage, given to the living animal. Nothing about it is histochemical, and it demonstrates a cell rather than a membrane.
+## answer_c
+Brilliant cresyl blue.
+## explanation_c
+Brilliant cresyl blue is the supravital stain of the reticulocyte, showing the residual ribosomal RNA in an immature red cell. Wrong cell, wrong component, wrong class of stain.
+## answer_d
+Periodic acid Schiff reaction (PAS
+## explanation_d
+Correct. The periodic acid–Schiff reaction is a histochemical test for carbohydrate, and the cell coat on the outer surface of the membrane is glycoprotein and glycolipid — which is why PAS reddens it.
+## correct_answer
+d
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+null
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stain identification
+## learning_objective
+Name the histochemical stain that demonstrates the plasma membrane, and say what in the membrane it reacts with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 2022.pdf p1 q2. Manifest src_a54bbf7a625ba2b172fc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The highlight recovery reached this row on the 2022 script but could not resolve it — the record is ambiguous and low confidence, with no answer — so the answer comes from the department book instead: it names silver and PAS as the two ways of showing the plasma membrane, and PAS is the histochemical one, reacting with the carbohydrate of the glycocalyx. Silver is not among these four options, which leaves PAS as the only candidate. The stem is peppered with scanner noise ("th : i ; Fo! g") but its sense — "by the following histochemical stain" — is intact.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-4D0826977D0B
+## title
+The blood count of a patient suffering from acute tonsillitis shows increase in the per…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The blood count of a patient suffering from acute tonsillitis shows increase in the percentage of:
+## answer_a
+Lymphocytes.
+## explanation_a
+Lymphocytes are the second line of defence and rise in chronic and in viral infection. The word in the stem doing the work is "acute".
+## answer_b
+Basophils.
+## explanation_b
+Basophils are 0–1% of the count at the best of times, and they rise in allergy, not in infection. A cell that scarce cannot produce a noticeable rise in a differential count.
+## answer_c
+Eosinophils.
+## explanation_c
+Eosinophils rise in allergy and in parasitic infestation — eosinophilia is above 5%. They terminate an allergic reaction rather than fighting bacteria.
+## answer_d
+Neutrophils.
+## explanation_d
+Correct. Neutrophils are drawn to bacterial toxins, leave the blood by diapedesis and phagocytose the bacteria, so an acute pyogenic infection raises their percentage above 75%.
+## correct_answer
+d
+## main_concept
+CON-HEM-3899015C5024C0
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+null
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Predict which leukocyte rises in an acute bacterial infection.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q38. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is worked from the department book: neutrophils are the first line of non-specific defence, bacterial toxins attract them, and neutrophilia is defined as a count above 75%. Acute tonsillitis is an acute bacterial infection.
+
+
+---
+
+# Item
+## id
+QM-101-96A7BF73921A
+## title
+Cytoplasm with frosted glass appearance is a feature of:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Cytoplasm with frosted glass appearance is a feature of:
+## answer_a
+Eosinophils.
+## explanation_a
+The eosinophil's cytoplasm is crowded with large acidophilic specific granules — the opposite of frosted glass, which is a haze without visible granules.
+## answer_b
+Neutrophils.
+## explanation_b
+The neutrophil has numerous fine pale specific granules and is the closest wrong answer, since fine and pale is halfway to frosted. But the book reserves the phrase for the monocyte, and the neutrophil's granules are specific granules rather than lysosomes.
+## answer_c
+Monocytes.
+## explanation_c
+Correct. The monocyte has no specific granules at all; its pale basophilic cytoplasm is hazed by azurophil granules, which are lysosomes, and that haze is the frosted-glass appearance.
+## answer_d
+Basophils.
+## explanation_d
+The basophil's coarse granules are so dense that they obscure the nucleus itself. Nothing about it is faint.
+## correct_answer
+c
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-MICROTECHNIQUES
+## topic
+null
+## subtopic
+Microtechniques
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the leukocyte whose cytoplasm is described as frosted glass, and say what gives it that look.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q39. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for it, so the answer comes from the department book, which uses the phrase only once: monocytes have non-granular pale basophilic cytoplasm with a frosted-glass appearance due to lysosomes, the azurophil granules. No other cell in the book is described this way.
+
+
+---
+
+# Item
+## id
 QM-101-854F82F2D4A8
 ## title
 Upward rotation of the scapula in raising the arm above head, due to contraction of; ma…
@@ -79936,6 +84086,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The bank carries B, "Antagonist", which the department chapter contradicts in one line: the antagonist is defined as the muscle which *opposes* the action of the prime mover, and cannot be the muscle that assists it. Of the four options only the synergist is described by the chapter as acting so that the prime mover's action becomes maximal.
+
+
+---
+
+# Item
+## id
+QM-101-65CCE3F5CFF3
+## title
+Regarding the classification of the muscles according to the action, one of the followi…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the classification of the muscles according to the action, one of the following is not true:
+## answer_a
+Prime mover.
+## explanation_a
+True as a type of muscle action: the prime mover, or agonist, is the muscle that initiates and maintains the movement.
+## answer_b
+Antagonist.
+## explanation_b
+True: the antagonist is the muscle that opposes the action of the prime mover. Students hesitate here because "opposing" sounds like something outside a classification of how muscles produce a movement — but a movement needs its brake as much as its motor.
+## answer_c
+Fixator.
+## explanation_c
+True: the fixator, or stabiliser, fixes the origin of the prime mover or steadies the joint it acts on, so that the pull has something to work against.
+## answer_d
+Symphysis.
+## explanation_d
+Correct — this is the one that is not true, and the answer. A symphysis is a secondary cartilaginous joint, such as the pubic symphysis or an intervertebral disc; it is a way of joining bones, not a role a muscle plays. The fourth muscle role the option displaces is the synergist, which cancels unwanted movement at the other joints the prime mover crosses.
+## correct_answer
+d
+## main_concept
+CON-MSK-F598AF39FBE297
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## topic
+null
+## subtopic
+Muscular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the four roles a muscle can play in a movement, and recognise a term that belongs to joints rather than to muscles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q37. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Filed here rather than in `articular-system.ts`, where the slice put it on the word "symphysis": the question classifies muscles by action, and this leaf owns that concept and the department chapter it comes from. The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which gives exactly four types of muscle action — prime mover (agonist), antagonist, fixator (stabiliser) and synergist. A symphysis is a secondary cartilaginous joint and is on no list of muscle actions.
 
 
 ---
@@ -91839,6 +96072,172 @@ Answer changed from the source's: The printed key is A, the ulnar nerve, and it 
 
 # Item
 ## id
+QM-101-2976EB971950
+## title
+Concerning the biceps muscle, select the true statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the biceps muscle, select the true statement:
+## answer_a
+Long head arises from infraglenoid tubercle.
+## explanation_a
+The infraglenoid tubercle belongs to the long head of triceps. Both tubercles sit on the scapula at the rim of the glenoid, one above and one below, and a student who has learnt that a long head arises from a glenoid tubercle without learning which one gets this wrong half the time; the biceps head is supra-, above the glenoid, where its tendon can drop into the joint.
+## answer_b
+Is supplied by a branch of the medial cord of the brachial plexus.
+## explanation_b
+The medial cord gives the ulnar nerve and the two medial cutaneous nerves, and nothing that reaches the front of the arm. Biceps is musculocutaneous, from the lateral cord. The option is tempting to a student who has memorised that biceps is a flexor and that the medial cord is on the flexor side of the plexus, which is true and still gives the wrong cord.
+## answer_c
+Is a pronator of the forearm
+## explanation_c
+Exactly backwards, and the commonest error on this muscle. Biceps inserts on the posterior rough part of the radial tuberosity, so contracting it unwinds the radius — it is the powerful supinator of the flexed forearm, the movement of driving a right-handed screw. Students choose pronation because the tendon plainly crosses the forearm and must turn it somehow.
+## answer_d
+Short head arises from coracoid process, lateral to coracobrachialis.
+## explanation_d
+Correct. The short head and coracobrachialis share the tip of the coracoid process, biceps taking the lateral part of it and coracobrachialis the medial — which is why the two are described together and why the conjoined origin is a landmark rather than one muscle’s.
+## correct_answer
+d
+## main_concept
+CON-MSK-875049D4420AA4
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+null
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the origins, the nerve and the action of biceps brachii, and separate each from the muscle it is most often confused with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p7 q77. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key, and the recovered answer sheet has no entry for this source at all, so the answer is taken from the department book rather than from a key. The book puts the long head on the supraglenoid tubercle and the infraglenoid on the long head of triceps, supplies biceps from the musculocutaneous nerve of the lateral cord, and calls it the powerful supinator — so a, b and c are each false on the book’s own words. It also puts the short head on the lateral part of the tip of the coracoid process, lateral to coracobrachialis, which is d exactly.
+
+
+---
+
+# Item
+## id
+QM-101-D2A4D126EE08
+## title
+Regarding the brachiali§ muScle, select thecorrect statement:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the brachiali§ muScle, select thecorrect statement:
+## answer_a
+It is innervated bythe median nerve.
+## explanation_a
+The nerve of brachialis is the musculocutaneous, with a small twig from the radial to its lateral part. The median nerve is the one that lies on brachialis through the whole length of the arm, with the brachial artery, and that intimacy is what makes the swap so easy to make and so easy to examine.
+## answer_b
+Arises from the upper third ofthe shaft of humerus:
+## explanation_b
+The upper third of the shaft carries the insertion of deltoid, which brachialis embraces from below; brachialis itself arises from the lower half of the front of the shaft. A student who remembers only that brachialis is on the humerus will guess an end and has an even chance of the wrong one.
+## answer_c
+The main flexor of the elbowjoint. :
+## explanation_c
+Correct. Brachialis crosses only the elbow and pulls on the ulna, which cannot rotate, so it flexes whatever position the forearm is in — including pronation, where biceps is at a mechanical disadvantage. That is what makes it the main flexor rather than biceps.
+## answer_d
+Attaches to the pronator tuberosity of the radius.
+## explanation_d
+There is no pronator tuberosity on the radius for brachialis to reach; the radial tuberosity takes biceps and the middle of the lateral surface takes pronator teres. Brachialis inserts on the ulna, at the coronoid process and the ulnar tuberosity, and reaching for a named tuberosity on the radius is the reflex this distractor is built on.
+## correct_answer
+c
+## main_concept
+CON-MSK-2D2E4341DC5990
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+null
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the origin, insertion, nerve and action of brachialis, and say why it and not biceps is the main flexor of the elbow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p9 q99. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, not from a key. The book states brachialis arises from the lower half of the anterior humeral shaft, inserts into the coronoid process and ulnar tuberosity, takes the musculocutaneous nerve with a radial twig, and is the primary flexor of the elbow — which makes a, b and d false and c its own wording. OCR has mangled the stem and the option text without touching their sense.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-101-329B5CBFE849
 ## title
 Desmin intermediate filaments are present:
@@ -93576,6 +97975,172 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-D32820C68456
+## title
+Histiocytes originate from:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Histiocytes originate from:
+## answer_a
+Pericyte.
+## explanation_a
+The pericyte is the connective tissue stem cell around a capillary and gives rise to fibroblasts, smooth muscle and endothelium. It is a resident cell, and the histiocyte comes from the blood.
+## answer_b
+B-lymphocyte.
+## explanation_b
+The B lymphocyte becomes the plasma cell. Both answers are "a blood cell that settles in connective tissue and changes", which is what makes this the strongest distractor — but the product is an antibody factory, not a phagocyte.
+## answer_c
+Adipocyte.
+## explanation_c
+The adipocyte arises from the undifferentiated mesenchymal cell and stores fat. It gives rise to nothing.
+## answer_d
+Monocyte.
+## explanation_d
+Correct. The monocyte is the circulating form; once in the tissue it becomes the macrophage, also called the histiocyte, and the same lineage gives the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts and the microglia.
+## correct_answer
+d
+## main_concept
+CON-HEM-719FA556594454
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+null
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the blood cell the tissue macrophage comes from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q25. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: the macrophage, which it calls the histiocyte, arises from the monocyte, and monocytes leave the blood, enter connective tissue and change into macrophages.
+
+
+---
+
+# Item
+## id
+QM-101-981D9966E703
+## title
+The surface marker/ receptor that identifies NK cell is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The surface marker/ receptor that identifies NK cell is:
+## answer_a
+CD16.
+## explanation_a
+Correct. CD16 is the marker the book gives for the natural killer cell — which matters precisely because the three lymphocytes are indistinguishable by microscopy and can only be told apart by their surface receptors.
+## answer_b
+CD4.
+## explanation_b
+CD4 is the helper T cell. Both CD numbers, and both lymphocytes, which is what makes this the closest wrong answer; the book gives CD4 and CD8 to the T cell alone.
+## answer_c
+lg M.
+## explanation_c
+IgM is one of the two receptors of the B lymphocyte, together with IgD. The natural killer cell carries neither T nor B receptors, and that absence is part of its definition.
+## answer_d
+Ig
+## explanation_d
+The option is truncated to "Ig" on the paper, and whichever immunoglobulin it named it would still be a B cell receptor rather than an NK marker.
+## correct_answer
+a
+## main_concept
+CON-HEM-FDAC2D5F64032E
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+null
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Give the surface marker of the natural killer cell and contrast it with the T and B cell receptors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q42. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a lymphocyte marker. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: natural killer cells carry CD16 and others and have neither T nor B cell receptors.
 
 
 ---
@@ -98311,6 +102876,753 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-541098D46E70
+## title
+Choose the correct statement concerning the nucleolus:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement concerning the nucleolus:
+## answer_a
+Pars amorpha contains mature rRNA.
+## explanation_a
+The pars amorpha holds no rRNA of any maturity — it is DNA, the nucleolar organiser carrying the genes from which rRNA is transcribed. Naming it as the mature form skips the whole sequence.
+## answer_b
+Pars amorpha contains immature rRNA.
+## explanation_b
+Immature rRNA is the pars fibrosa, not the pars amorpha. This is the near-miss of option a and catches a student who has learnt that amorpha comes first without learning that what comes first is the gene.
+## answer_c
+Pars granulosa contains mature rRNA.
+## explanation_c
+Correct. The pars granulosa is granules of mature ribosomal RNA, the last of the three stages: gene in the amorpha, new transcript in the fibrosa, finished product in the granulosa.
+## answer_d
+Pars granulosa contains immature rRNA
+## explanation_d
+The pars granulosa is the mature form. Swapping "immature" in here inverts the one fact that separates the granulosa from the fibrosa, and the four options are the two parts crossed with the two maturities precisely so that only one crossing is right.
+## correct_answer
+c
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural detail
+## learning_objective
+Match each dark part of the nucleolus to the stage of ribosomal RNA it holds.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p2 q12. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it gives the pars amorpha as the nucleolar organiser of DNA filaments carrying the rRNA genes, the pars fibrosa as strands of newly formed rRNA, and the pars granulosa as granules of mature rRNA. Only option c matches a part to the right stage.
+
+
+---
+
+# Item
+## id
+QM-101-262FCF916D51
+## title
+Sex chromatin (Barr body):
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Sex chromatin (Barr body):
+## answer_a
+Inactive x chromosome in turner syndrome
+## explanation_a
+Turner syndrome is XO: a single X and nothing else. With only one X there is nothing to switch off, so a Turner nucleus shows no Barr body at all — this is the option most students take, because Turner is the sex-chromosome disorder they meet first.
+## answer_b
+Active x chromosome in turner syndrome
+## explanation_b
+Doubly wrong. Turner has no spare X to inactivate, and the Barr body is by definition the inactive one — the active X is never what is seen.
+## answer_c
+Inactive extra X chromosome in Klinefelter syndrome.
+## explanation_c
+Correct. Klinefelter syndrome is XXY, so there is one X more than the cell needs; that extra X is inactivated and condensed into the Barr body, exactly as the second X is in a normal female.
+## answer_d
+Active extra x chromosome in Klinefelter syndrome.
+## explanation_d
+The right syndrome with the wrong X. Klinefelter does have an extra X, but the one that condenses into sex chromatin is the inactivated one; the active X stays extended and invisible.
+## correct_answer
+c
+## main_concept
+CON-FND-69671A492023B8
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical correlation
+## learning_objective
+Decide which sex-chromosome constitution shows a Barr body, and say which X it is.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q33. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered. The department book does not settle this one either: it names the Barr body only in the granular leukocyte chapter, to say that one is visible in 3-6% of female neutrophils, and never states that it is an inactivated X. The answer therefore rests on the inactivation rule — one X stays active, the rest condense — applied to the two constitutions the book does give, Turner XO and Klinefelter XXY. The concept carries a `gaps` note saying that the rule is not in the faculty's own text.
+
+
+---
+
+# Item
+## id
+QM-101-C59C3328EF53
+## title
+The two ribosomal subunits join each other in the:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The two ribosomal subunits join each other in the:
+## answer_a
+Cytoplasm during cell division.
+## explanation_a
+The place is right and the occasion is wrong. The subunits do meet in the cytoplasm, but they meet to translate a message, not to divide — and a cell in mitosis has largely stopped synthesising protein.
+## answer_b
+Cytoplasm during protein synthesis
+## explanation_b
+Correct. The subunits leave the nucleus separately and come together on a strand of mRNA in the cytoplasm only while a protein is actually being made; when translation ends they separate again.
+## answer_c
+Nucleus during cell division.
+## explanation_c
+The nucleolus is where the two subunits are assembled out of rRNA and protein, so the nucleus is a tempting answer — but they are assembled there as two separate subunits and exported as two, never as a joined ribosome.
+## answer_d
+Nucleus during protein synthesis.
+## explanation_d
+Protein synthesis does not happen in the nucleus. Combining the right occasion with the wrong compartment, this is the mirror of option a and catches the same half-knowledge from the other side.
+## correct_answer
+b
+## main_concept
+CON-FND-4284C6B8667CD6
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Say where and when the two ribosomal subunits come together.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p1 q3. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book: the two subunits are assembled in the nucleolus, return separately to the cytoplasm, and join one another only during protein synthesis. Both halves of option b come straight from that sentence.
+
+
+---
+
+# Item
+## id
+QM-101-C0A7639900F5
+## title
+Peroxisomal enzymes are synthesized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Peroxisomal enzymes are synthesized by:
+## answer_a
+sER.
+## explanation_a
+Smooth endoplasmic reticulum makes phospholipid and steroid and detoxifies drugs. It has no ribosomes at all, so it cannot synthesise any protein, let alone an enzyme.
+## answer_b
+rER.
+## explanation_b
+This is the trap, and it is a good one: the peroxisome itself does bud off the rough endoplasmic reticulum. But the membrane vesicle and the enzymes inside it come from different places, and the rER makes protein for export and for other membranous organelles, not for this one.
+## answer_c
+Free polysomes.
+## explanation_c
+Correct. Peroxisomal oxidases and catalase are made on free ribosomes — polysomes lying loose in the cytosol — which is the general rule for protein a cell keeps for its own use.
+## answer_d
+Nucleus.
+## explanation_d
+The nucleus makes RNA, not protein. No enzyme is synthesised inside it; its ribosomal subunits are exported before any translation happens.
+## correct_answer
+c
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute peroxisomal enzymes to free ribosomes rather than to the reticulum the vesicle buds from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q10. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and none was recovered for it, so the answer comes from the department book, which says peroxisomes are membranous vesicles budding off the rough endoplasmic reticulum with enzymes made on free ribosomes. The vesicle and the enzymes have different origins, and the stem asks about the enzymes.
+
+
+---
+
+# Item
+## id
+QM-101-5AD1A6327FAF
+## title
+Regarding peripheral chromatin, it is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding peripheral chromatin, it is:
+## answer_a
+A part of euchromatin.
+## explanation_a
+Peripheral chromatin is one of the three sites of heterochromatin, not of euchromatin. It is attached to the inner surface of the nuclear membrane precisely because it is coiled and condensed enough to be seen there.
+## answer_b
+Formed of the nucleoproteins.
+## explanation_b
+Correct, though it looks too general to be the answer. All chromatin is nucleoprotein — double-stranded DNA plus histone and non-histone protein — and peripheral chromatin is chromatin, so the statement holds. The other three options each attach it to the wrong place.
+## answer_c
+Surrounding the nucleolus.
+## explanation_c
+Condensed around the nucleolus is nucleolus-associated chromatin, the third site. The three sites are set out as a list in the book and the question simply asks which one the name "peripheral" belongs to.
+## answer_d
+Scattered in the nuclear sap.
+## explanation_d
+Scattered in the nuclear sap describes chromatin islands, the second site. Peripheral chromatin is by definition not scattered — it is against the membrane.
+## correct_answer
+b
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Place peripheral chromatin among the three sites of heterochromatin and say what all chromatin is made of.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q13. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer is worked from the department book. It defines chromatin as nucleoproteins — double-stranded DNA with histone and non-histone protein — which is true of peripheral chromatin as of any other, and it gives the three sites of heterochromatin as peripheral chromatin attached to the inner nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin. That makes b the only true statement and turns c and d into the other two sites.
+
+
+---
+
+# Item
+## id
+QM-101-17E066A154EA
+## title
+In the nucleolus, the newly formed rRNA is found in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In the nucleolus, the newly formed rRNA is found in:
+## answer_a
+Pars amorpha.
+## explanation_a
+The pars amorpha is the nucleolar organiser — the DNA carrying the rRNA genes. It is the source of the transcript, not the transcript, and the two are one step apart in the sequence.
+## answer_b
+Pars fibrosa.
+## explanation_b
+Correct. The pars fibrosa is strands of newly synthesised rRNA, the fibrillar half of the nucleolonema.
+## answer_c
+Nucleolar organiser.
+## explanation_c
+Nucleolar organiser is another name for the pars amorpha, so this option is option a wearing a different label — offering both names in one option set is how the item checks that a student knows they are the same thing.
+## answer_d
+Pars granulosa.
+## explanation_d
+The pars granulosa holds mature rRNA granules, the finished product. It is the last stage, and "newly formed" is what rules it out.
+## correct_answer
+b
+## main_concept
+CON-FND-30573B6D0A9AFD
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural detail
+## learning_objective
+Name the part of the nucleolus that holds newly transcribed ribosomal RNA.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q15. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book, which gives the pars fibrosa as strands of newly formed rRNA and reserves the pars granulosa for the mature granules.
+
+
+---
+
+# Item
+## id
+QM-101-4BC17ADE7D93
+## title
+The statement best matches the euchromatin is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The statement best matches the euchromatin is:
+## answer_a
+It is coiled chromatin.
+## explanation_a
+Coiled chromatin is heterochromatin. Coiling is the physical fact behind the whole distinction, and it runs the other way for euchromatin, which is extended.
+## answer_b
+Dark basophilic nucleus by L.M.
+## explanation_b
+A dark basophilic nucleus by light microscopy is the condensed nucleus of a heterochromatic, inactive cell. Euchromatin gives a pale, vesicular nucleus with a clear nucleolus.
+## answer_c
+It contains active genes.
+## explanation_c
+Correct. Euchromatin is the extended form carrying active genes, which is why it predominates in protein-forming cells such as the nerve cell and the liver cell.
+## answer_d
+It forms chromatin islands.
+## explanation_d
+Chromatin islands are one of the three sites of heterochromatin, scattered in the nuclear sap. Euchromatin is too dispersed to form a visible clump of any kind.
+## correct_answer
+c
+## main_concept
+CON-FND-6C5ABFD844D630
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify active genes as the defining property of euchromatin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q16. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer comes from the department book, whose definition of euchromatin is extended, uncoiled chromatin containing active genes. Each of the other three options is a property the same page assigns to heterochromatin.
+
+
+---
+
+# Item
+## id
+QM-101-69BD0966ED83
+## title
+Nuclear Lamins are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Nuclear Lamins are:
+## answer_a
+Mature rRNA.
+## explanation_a
+Mature rRNA is the pars granulosa of the nucleolus. Lamins are protein — intermediate filament protein — and have nothing to do with ribosomal RNA at any stage.
+## answer_b
+Newly formed rRNA.
+## explanation_b
+Newly formed rRNA is the pars fibrosa. The word "fibrosa" is doing the damage here: lamins are fibrillar too, and a student matching on the word rather than the substance lands on the wrong structure.
+## answer_c
+Attached to outer nuclear membrane
+## explanation_c
+The outer nuclear membrane is the one continuous with the rough endoplasmic reticulum and studded with polyribosomes. Nothing is attached to it on the nuclear side, because it does not face the nucleus.
+## answer_d
+Attached to inner nuclear membrane
+## explanation_d
+Correct. The nuclear lamina is a meshwork of lamins against the inner nuclear membrane, and peripheral chromatin attaches to the same surface.
+## correct_answer
+d
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the nuclear lamina against the inner nuclear membrane and keep it apart from the nucleolar parts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q14. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because the nuclear lamina is part of this chapter's envelope. The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: the inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it. The outer membrane is the rough one, studded with polyribosomes.
+
+
+---
+
+# Item
+## id
+QM-101-6EE1A9B606A3
+## title
+Kinetochores:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Kinetochores:
+## answer_a
+Are regions of repeated sequence at ends of chromosomes
+## explanation_a
+Repeated sequence at the ends of chromosomes is the telomere. The item offers the telomere twice, described two different ways, which is how it separates students who know both terms from students who know only that both are parts of a chromosome.
+## answer_b
+Are segments of DNA molecules
+## explanation_b
+Every part of a chromosome is a segment of DNA, so this says nothing that distinguishes a kinetochore from anything else. A statement true of the whole cannot identify a part.
+## answer_c
+Attach to spindle fibers during cell division
+## explanation_c
+Correct. The kinetochore is the protein plate assembled on the centromere, and the spindle microtubules attach to it to pull the chromatids apart in cell division.
+## answer_d
+Protect end of chromosome from destruction
+## explanation_d
+Protecting the chromosome end from destruction is the telomere's function — the same structure as option a, given by its job rather than its sequence.
+## correct_answer
+c
+## main_concept
+CON-FND-EB83F2B16C479F
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Define the kinetochore by what attaches to it, and separate it from the telomere.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q29. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a question about chromosome structure. No key was printed on the 2020 paper and none was recovered — and, unusually, the department book does not settle it either: the words kinetochore, centromere and telomere appear nowhere in its text. The answer is the standard definition on which the item is built, the kinetochore being the plate at the centromere to which the spindle microtubules attach, with two of the three distractors describing the telomere instead. The concept carries a `gaps` note recording that no source this faculty would accept supports it.
 
 
 ---
@@ -105463,6 +110775,338 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-85B6E5640CBD
+## title
+Chronic respiratory tract infection may be caused by abnormality in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Chronic respiratory tract infection may be caused by abnormality in:
+## answer_a
+Cilia
+## explanation_a
+Correct. Cilia sweep mucus and trapped particles up out of the airway; when they cannot beat, the secretions sit still and bacteria grow in them, which is the mechanism the book gives for chronic respiratory infection.
+## answer_b
+Microvilli.
+## explanation_b
+Microvilli increase surface area for absorption and have an actin core with no motility at all. They are found in the small intestine, not the airway, so nothing they do could clear a secretion.
+## answer_c
+Neurofilaments.
+## explanation_c
+Neurofilaments are the intermediate filaments of neurons and are purely supportive. This option is here for a student who has learnt that cilia contain filaments without learning which.
+## answer_d
+Nuclear lamina.
+## explanation_d
+The nuclear lamina is made of lamins, also intermediate filaments, and lies inside the nucleus against the inner nuclear membrane. It is as far from the apical surface of a respiratory cell as anything in the cell can be.
+## correct_answer
+a
+## main_concept
+CON-FND-BBC8959FD63F56
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+null
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Trace chronic respiratory infection back to immotile cilia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q5. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which states in its own applied note that inability of the cilia to move results in bacterial infection on top of accumulated secretions, causing chronic respiratory infections.
+
+
+---
+
+# Item
+## id
+QM-101-E99D863F77F9
+## title
+The communicating type of junction is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The communicating type of junction is:
+## answer_a
+Tight junction.
+## explanation_a
+The tight junction is occluding: it fuses adjacent membranes into a belt round the apex of the cell precisely to stop substances passing between cells. It is the opposite of communicating.
+## answer_b
+Adherent junction.
+## explanation_b
+The adherens junction is adhering. Its transmembrane proteins are joined across a wide space with the help of calcium and anchored to actin filaments, and it holds cells together without conducting anything.
+## answer_c
+Gap junction.
+## explanation_c
+Correct. Each channel of the gap junction is six symmetrical transmembrane protein molecules, and through them ions and small molecules move directly from one cytoplasm to the next — and impulses between muscle cells.
+## answer_d
+Desmosomes.
+## explanation_d
+Desmosomes are the maculae adherentes, the strongest junction, anchoring intermediate filaments at scattered spots. Strength is what they provide, not passage.
+## correct_answer
+c
+## main_concept
+CON-FND-ACB35745EC9A5D
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+null
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the junction classed as communicating and say what it lets through.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q33. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is taken from the department book, which names the gap junction the nexus or communicating junction and gives it as the only one of the four through which ions, small molecules and impulses pass.
+
+
+---
+
+# Item
+## id
+QM-101-CE2A3E93ADFF
+## title
+Intermediate filam : é a A ae
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Intermediate filam : é a A ae
+## answer_a
+Form lamins. () (
+## explanation_a
+Correct, and confirmed by the recovered key. Lamins make up the nuclear lamina against the inner nuclear membrane, and the department book lists them among the intermediate filament proteins alongside cytokeratin, vimentin, desmin, neurofilaments and glial fibrillar acidic protein.
+## answer_b
+forested Microvilli.
+## explanation_b
+Microvilli are formed by microfilaments — a core of actin inserted into the terminal web. The option is printed here as "forested Microvilli", which is "Form Microvilli" read badly.
+## answer_c
+Form mitotic spin ri | division.
+## explanation_c
+The mitotic spindle is microtubular and is organised by the centrioles. Intermediate filaments have exactly one function in this book, support, and take no part in cell division.
+## answer_d
+Are formed of actin filaments.
+## explanation_d
+Actin is the subunit of microfilaments. Intermediate filaments are the one system with chemically differing subunits — six of them, one per tissue — which is what makes identifying them useful in naming a tumour's cell of origin.
+## correct_answer
+a
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+null
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the lamins of the nuclear envelope as intermediate filaments, and keep microtubule and microfilament jobs off the class.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 2022.pdf p1 q8. Manifest src_a54bbf7a625ba2b172fc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This row is covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence, and the department book agrees — lamins are the sixth of its six named intermediate filament proteins, sited in the nuclear envelope. The row is authored despite heavy scanner noise: the stem has been cut down to "Intermediate filam : é a A ae" and three of the four options carry stray characters ("Form lamins. () (", "forested Microvilli.", "Form mitotic spin ri | division."). Every option is still identifiable and the answer is keyed, so the row is kept rather than set aside — but the stem needs retyping before a student sees it, and a rescan of page 1 of the 2022 paper is the proper fix.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-41D0DCFD41C2
+## title
+Concerning Zonula occludens (occluding junction):
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning Zonula occludens (occluding junction):
+## answer_a
+Itis a type of apical epithelial specializations.
+## explanation_a
+The apical specialisations are cilia, flagella, microvilli and stereocilia. The zonula occludens sits at the apical end of the *lateral* membrane, and the book classes it with the lateral specialisations — a distinction of position against class that this option is built on.
+## answer_b
+Two adjacent cell’membranes fuse at certain points. ’
+## explanation_b
+Correct. The two membranes fuse at points via transmembrane proteins on each cell, and the belt of fusion is what restricts passage of substances between the cells.
+## answer_c
+The adjacent cell- membranes are widely separated:
+## explanation_c
+Widely separated membranes describe the zonula adherens and the desmosome, where the gap is bridged by calcium-dependent proteins. Fusion and separation are opposite arrangements, and only one junction fuses.
+## answer_d
+It occurs as scattered Spots...
+## explanation_d
+Occurring as scattered spots is the macula adherens — macula means spot. The zonula occludens is a zonula, a belt, and encircles the cell completely.
+## correct_answer
+b
+## main_concept
+CON-FND-2EAD7BC676C215
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+null
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the zonula occludens from a set that describes the other three junctions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p3 q33. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a lateral junction question. The 2022 paper printed no key for it and the highlight recovery returned nothing, so the answer comes from the department book: the tight or occluding junction is where two adjacent cell membranes fuse at certain points through transmembrane proteins, encircling the apex of the cell like a belt. The book also groups all four junctions as lateral specialisations, which is what makes option a false.
+
+
+---
+
+# Item
+## id
 QM-101-32DF95121AF2
 ## title
 Normal RBCs are :
@@ -109358,6 +115002,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pd
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
+
+
+---
+
+# Item
+## id
+QM-101-443387D27CB5
+## title
+Formation of an abnormal rigid type of Hb (HBS) results in:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Formation of an abnormal rigid type of Hb (HBS) results in:
+## answer_a
+Aplastic anemia.
+## explanation_a
+Aplastic anaemia is a failure of the bone marrow to produce cells at all. The haemoglobin it does make is normal; there is simply not enough of it, and the white cells and platelets fall with the red.
+## answer_b
+Sickle cell anemia.
+## explanation_b
+Correct. HbS is rigid and deforms the corpuscle into a sickle shape, which makes it fragile and unable to squeeze through a capillary — the two adaptations the normal red cell depends on.
+## answer_c
+Spherocytosis.
+## explanation_c
+Spherocytosis is a membrane defect: the cell loses its biconcave shape and becomes a sphere, which raises its osmotic fragility. The fault is in the membrane cytoskeleton, not in the haemoglobin.
+## answer_d
+Favism.
+## explanation_d
+Favism is haemolysis brought on by eating broad beans in a person deficient in an enzyme of the red cell. Like spherocytosis it destroys normal haemoglobin rather than being caused by an abnormal one.
+## correct_answer
+b
+## main_concept
+CON-HEM-C79EA8644C0C9C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+null
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical correlation
+## learning_objective
+Name the anaemia caused by an abnormal rigid haemoglobin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q36. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a red cell disease. The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which gives sickle cell anaemia as the condition in which an abnormal rigid haemoglobin, HbS, distorts the corpuscle into a sickle.
 
 
 ---
@@ -114095,6 +119822,255 @@ Answer changed from the source's: The source printed no key. Deltoid is the book
 
 # Item
 ## id
+QM-101-3573661EC944
+## title
+The serratus anterior muscle, mark the wrong answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The serratus anterior muscle, mark the wrong answer:
+## answer_a
+Arises by eight digitations from the upper eight ribs.
+## explanation_a
+True. The book gives eight digitations from the outer surfaces of the upper eight ribs, the first arising from the 1st and 2nd ribs and being the largest, and the lower five converging on the inferior angle of the scapula.
+## answer_b
+Is innervated by long thoracic nerve.
+## explanation_b
+True, and the nerve that makes this muscle clinically famous. The long thoracic nerve, C5 to C7, runs down the outer surface of the muscle in the mid-axillary line, which is exactly where an axillary clearance can divide it.
+## answer_c
+Is a powerful retractor of shoulder.
+## explanation_c
+Correct — this is the wrong statement, and the answer. Serratus anterior is the main and powerful protractor of the shoulder: it pulls the scapula forwards round the chest wall, which is the movement of a punch or a push. Retraction is the opposite movement and belongs to the rhomboids and the middle fibres of trapezius. A student who has learnt only that this muscle is powerful and that it holds the scapula down will accept either direction.
+## answer_d
+Fixes the scapula tolthe chest a il Of the upper limb.
+## explanation_d
+True, and the fact behind the winged scapula. Serratus anterior holds the medial border of the scapula against the chest wall; when it is paralysed the border stands off as the patient pushes against resistance.
+## correct_answer
+c
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+null
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the origin, nerve and actions of serratus anterior, and say which direction it moves the shoulder.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p8 q91. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book gives serratus anterior eight digitations from the upper eight ribs (option a), the long thoracic nerve (option b), and fixation of the scapula to the chest wall (option d) — and calls it "the main and powerful protractor of the shoulder", which makes option c, retractor, the one wrong statement the stem asks for.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1D62D31BEEFF
+## title
+Which one of the;fotiowing muscles canpextend the arm?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the;fotiowing muscles canpextend the arm?
+## answer_a
+Latissimus dorsi.
+## explanation_a
+Correct. Latissimus dorsi is the principal extensor of the arm at the shoulder; it also adducts and medially rotates, which is the combination that drives the arm down and back in swimming and climbing.
+## answer_b
+Clavicular fibers of pectoralis major.
+## explanation_b
+The clavicular head of pectoralis major is a flexor — it is the sternocostal head that extends the flexed arm, and the option names the wrong half of the muscle. This is the sharpest distractor of the four because half the muscle would have been right.
+## answer_c
+Anterior fibers of deltoid:
+## explanation_c
+The anterior fibres of deltoid flex and medially rotate. It is the posterior fibres that extend, so deltoid too is a correct answer only if the option names the right fibres.
+## answer_d
+Coracobrachialis,
+## explanation_d
+Coracobrachialis runs from the coracoid process down the medial side of the humerus and assists flexion and adduction. It cannot extend, because it lies in front of the joint’s axis.
+## correct_answer
+a
+## main_concept
+CON-MSK-171B2F8B24F6E7
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+null
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the principal extensor of the arm at the shoulder, and say what the other three muscles offered do instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p7 q81. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book, which gives extension of the arm to the posterior fibres of deltoid, teres major and latissimus dorsi. Latissimus dorsi is the only one of the four options on that list; the other three — the clavicular fibres of pectoralis major, the anterior fibres of deltoid and coracobrachialis — are the book’s three flexors.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6023E5A1F187
+## title
+What muscles are‘Hecessary to.raisé the arm above the shoulder?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+What muscles are‘Hecessary to.raisé the arm above the shoulder?
+## answer_a
+First the supraspinatus; next the deltoid, and:then.the.serratus anterior
+## explanation_a
+Correct. Supraspinatus starts the movement over the first fifteen degrees, deltoid carries it to ninety, and past ninety the shoulder joint is out of range — the scapula rotates instead, turning the glenoid cavity upwards, and serratus anterior with trapezius does that.
+## answer_b
+First the deltoid, next the Supraspinatus, and'then the serratus anterior
+## explanation_b
+Deltoid first is the intuitive answer, because deltoid is the muscle a student can see and feel. It cannot start abduction: with the arm at the side its pull is almost vertical along the shaft of the humerus, so it needs supraspinatus to swing the arm out first.
+## answer_c
+First the supraspinatus, next the serratus anterior, and then the deltoid
+## explanation_c
+Right first and right last, wrong in the middle. Serratus anterior does not act on the glenohumeral joint at all, and putting it before deltoid asks the scapula to rotate before the arm has left the side.
+## answer_d
+First the serratusjanterior; he C.. and then:the supraspinatus
+## explanation_d
+Exactly reversed. This is the order a student gives who has learnt that serratus anterior is needed to get the arm above the head and has taken "needed" to mean "first"; it is needed last.
+## correct_answer
+a
+## main_concept
+CON-MSK-04D3ACA71DC025
+## library_ids
+ART-101-ANA-SHOULDER-REGION
+## topic
+null
+## subtopic
+Shoulder Region
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Put supraspinatus, deltoid and serratus anterior in the order in which they act as the arm is raised above the head.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p10 q110. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book gives supraspinatus abduction from 0 to 15 degrees, initiating it; the middle fibres of deltoid from 15 to 90; and beyond 90 it says the greater tuberosity meets the coraco-acromial ligament and further elevation is upward rotation of the scapula, produced by trapezius with the lower five digitations of serratus anterior. That is supraspinatus, then deltoid, then serratus anterior — option a’s order.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-101-01E33C2FDED9
 ## title
 Appendicular skeleton is formed of:
@@ -115915,6 +121891,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-E653B50FF534
+## title
+The following artery supplies the inner part of the shaft of long bone:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following artery supplies the inner part of the shaft of long bone:
+## answer_a
+Epiphyseal artery.
+## explanation_a
+The epiphyseal arteries supply the expanded ends of the bone, and only after the epiphyseal plate has ossified do they anastomose with the metaphyseal arteries. Before that they are shut off from the shaft entirely, which is the anatomical reason a growing bone and an adult bone behave differently.
+## answer_b
+Periosteai arteries.
+## explanation_b
+The periosteal arteries are the other half of this question and the commonest wrong answer, because they are the vessels of the shaft a student pictures first. They supply the outer third; the stem asks for the inner part.
+## answer_c
+Diaphyseal artery.
+## explanation_c
+Correct. The nutrient, or diaphyseal, artery enters through the oblique nutrient foramen at the middle of the shaft, runs away from the growing end, and supplies the inner two-thirds of the shaft.
+## answer_d
+Metaphyseal artery.
+## explanation_d
+The metaphyseal arteries enter through minute foramina to supply the metaphysis, the narrow, highly active zone just under the epiphyseal cartilage. That is a region of the bone, not a part of the shaft’s interior.
+## correct_answer
+c
+## main_concept
+CON-MSK-40012FE18569EC
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+null
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Assign each part of a long bone to the artery that supplies it, and divide the shaft between the nutrient and the periosteal arteries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q35. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which states that the nutrient artery enters the middle of the shaft and supplies the inner two-thirds of it, while the periosteal arteries supply the outer third. The paper calls that vessel the diaphyseal artery and the book calls it the nutrient artery; the two names are the same vessel — the artery of the diaphysis — and no other option names anything in the interior of the shaft.
 
 
 ---
@@ -125466,6 +131525,255 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-3B1D27031FE1
+## title
+The type of epithelium providing thin membrane and smooth surface is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of epithelium providing thin membrane and smooth surface is:
+## answer_a
+Simple squamous epithelium.
+## explanation_a
+Correct. One layer of flat cells is the thinnest epithelium there is, which is why it lines the alveolus for gas exchange and the pleura and peritoneum for organs to slide against.
+## answer_b
+Simple cubical epithelium.
+## explanation_b
+Simple cubical epithelium is one layer of cube-shaped cells and its functions are secretion and reabsorption — thyroid follicles, kidney convoluted tubules. A cube is thicker than a flat cell, and nothing diffuses across it.
+## answer_c
+Simple columnar epithelium.
+## explanation_c
+Simple columnar epithelium is taller still and works in secretion and absorption along the digestive tract. Height is what this option gets wrong.
+## answer_d
+Stratified squamous epithelium.
+## explanation_d
+Stratified squamous epithelium has flat cells only at its surface and many layers beneath. Its function is protection, which is the opposite requirement — thickness rather than thinness.
+## correct_answer
+a
+## main_concept
+CON-FND-E51851DAB2DD13
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+null
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute a thin membrane and a smooth surface to simple squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p3 q21. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book rather than from a key: it gives simple squamous epithelium as one layer of flat cells providing a smooth surface for easy passage of fluids and easy movement of organs, and a thin membrane for gas exchange. Both halves of the stem are quoted from that sentence.
+
+
+---
+
+# Item
+## id
+QM-101-A2F2EAC3C68E
+## title
+The type of epithelium with contractile function is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of epithelium with contractile function is:
+## answer_a
+Surface epithelium.
+## explanation_a
+Surface epithelium covers surfaces and lines cavities. It is the first of the four classes and the one that does not do a specialised job at all.
+## answer_b
+Neuro-epithelium.
+## explanation_b
+Neuro-epithelium is epithelium modified as a receptor — taste, smell, hearing. It responds to a stimulus rather than producing movement.
+## answer_c
+Myo-epithelium.
+## explanation_c
+Correct. Myo-epithelial cells are epithelial cells given a contractile function, and they squeeze secretion out of the acini of glands such as the salivary and mammary glands.
+## answer_d
+Urothelium.
+## explanation_d
+Urothelium is another name for transitional epithelium, which is a kind of surface epithelium and is distensible rather than contractile. Stretching passively and contracting actively are opposite properties, and this option trades on both being about a changing shape.
+## correct_answer
+c
+## main_concept
+CON-FND-49350AB867CB5A
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+null
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the functional class of epithelium that contracts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q25. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer is taken from the department book, whose four-way functional classification names myo-epithelium as the class of epithelial cells with a contractile function.
+
+
+---
+
+# Item
+## id
+QM-101-E6920915BAC6
+## title
+Respiratory epithelium refers to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Respiratory epithelium refers to:
+## answer_a
+Simple cubical epithelium.
+## explanation_a
+Simple cubical epithelium lines thyroid follicles and kidney tubules. It has neither cilia nor goblet cells, so it can move nothing along a surface.
+## answer_b
+Stratified cubical epithelium.
+## explanation_b
+Stratified cubical epithelium is a rare two-layered type found in sweat gland ducts. Nothing in the respiratory tract is lined by it.
+## answer_c
+Simple columnar non ciliated epithelium with goblet cells.
+## explanation_c
+Every word is right except two. The lower respiratory tract — the bronchioles — is lined by simple columnar *ciliated* epithelium, and the named respiratory epithelium of the upper tract is pseudostratified. Dropping the cilia leaves an epithelium that cannot clear secretions at all.
+## answer_d
+Pseudostratified columnar ciliated epithelium with goblet cells.
+## explanation_d
+Correct. Pseudostratified columnar ciliated epithelium with goblet cells is the respiratory epithelium: the goblet cells make the mucus and the cilia sweep it upwards.
+## correct_answer
+d
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## topic
+null
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Give the full name of the epithelium called respiratory epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q28. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: the second of the three forms of pseudostratified columnar epithelium is the ciliated form with goblet cells, and the book names it the respiratory epithelium of the nose, trachea and bronchi.
+
+
+---
+
+# Item
+## id
 QM-101-60604D8E349F
 ## title
 Integral proteins are represented by:
@@ -128288,6 +134596,172 @@ Answer changed from the source's: The book keys C, phospholipids. Phospholipids 
 
 # Item
 ## id
+QM-101-63F3131DB852
+## title
+The axoneme of a cilium is composed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The axoneme of a cilium is composed of:
+## answer_a
+27 microtubules covered by cell membrane.
+## explanation_a
+Twenty-seven is the basal body, and the centriole it comes from: nine triplets. The covering is right and the number is wrong, which is the harder half of the item to see.
+## answer_b
+27 microtubules not covered by cell membrane.
+## explanation_b
+Both halves wrong. Twenty-seven belongs to the basal body, and the basal body is the part that sits inside the apical cytoplasm — but that makes it the structure the option is describing, not the axoneme.
+## answer_c
+20 microtubules not covered by cell membrane.
+## explanation_c
+The right count with the wrong covering. The axoneme projects above the cell surface, and everything that projects from a cell is covered by its plasma membrane; a bare bundle of microtubules in the extracellular space would not be part of a cell at all.
+## answer_d
+20 microtubules covered by cell membrane.
+## explanation_d
+Correct. The axoneme is the shaft of the cilium: 9 + 2 — nine peripheral doublets and two central singlets, twenty microtubules — sheathed in the plasmalemma.
+## correct_answer
+d
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+null
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structural detail
+## learning_objective
+Give the microtubule count of the ciliary axoneme and say whether it lies inside or outside the plasmalemma.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q12. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it defines cilia as motile processes with a microtubular core covered by plasmalemma, names the shaft the axoneme, and gives that shaft nine peripheral doublets plus two central singlets — twenty microtubules. The four options cross the two counts with the two coverings, so only one crossing is right.
+
+
+---
+
+# Item
+## id
+QM-101-91FC1EF793C4
+## title
+Multipolar nerve cells are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Multipolar nerve cells are present in:
+## answer_a
+Purkinje cells in cerebellar cortex.
+## explanation_a
+Correct. The Purkinje cell of the cerebellar cortex is the type example of a multipolar neuron: one axon and a great many dendrites leaving the cell body, so more than two processes in all.
+## answer_b
+Spinal ganglia.
+## explanation_b
+Spinal ganglion cells are unipolar — strictly pseudounipolar, a single process that divides in two — and they are the standard example of that class. This is the strongest distractor because a ganglion is where most students first meet a named nerve cell.
+## answer_c
+Vestibular ganglia in ear.
+## explanation_c
+Vestibular ganglion cells in the ear are bipolar: one process at each end of the cell body. They belong with the retinal and olfactory cells, not with the Purkinje cell.
+## answer_d
+Retina of the eye.
+## explanation_d
+The bipolar cells of the retina are the second standard example of the bipolar class, which is why the item offers two bipolar options — a student who knows only that ganglia are unipolar still has to choose between them.
+## correct_answer
+a
+## main_concept
+CON-FND-14D80DE53DE835
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+null
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Sort named nerve cells into unipolar, bipolar and multipolar by the number of processes leaving the cell body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q28. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf. It is authored here, in the cytology leaf, because it is a question about cell shape and because this module's book has no nervous tissue histology chapter to file it under — its nervous system chapter is gross anatomy. That is also why the answer comes from neither a key nor the book: the 2020 paper printed none, the highlight recovery does not cover that sitting, and the words multipolar, bipolar and unipolar appear nowhere in the department book. The answer is the standard classification the item is built on, and the concept carries a `gaps` note saying so.
+
+
+---
+
+# Item
+## id
 QM-101-1F081C17FA22
 ## title
 Before folding, the most caudal structure in the tail fold is
@@ -129616,6 +136090,172 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-E467B76F3068
+## title
+One of the following are paired structures in the embryo:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following are paired structures in the embryo:
+## answer_a
+Somites.
+## explanation_a
+Correct. The paraxial mesoderm lies on both sides of the midline, so its segments come in pairs; the book counts somites in pairs from the first pair of occipital somites on the twentieth day onwards.
+## answer_b
+Buccopharyngeal membrane.
+## explanation_b
+The bucco-pharyngeal membrane is a single median structure, one of the two places where ectoderm and endoderm fuse with no mesoderm between them. There is one of it, at the cranial end of the disc.
+## answer_c
+Pericardial bulge.
+## explanation_c
+The pericardial bulge is a single midline swelling, the developing heart lifting the ventral surface of the embryo. Students pair it because the heart later has two sides, but the bulge itself is one.
+## answer_d
+Allantois.
+## explanation_d
+The allantois is a single diverticulum from the caudal wall of the yolk sac into the connecting stalk. Like the other two distractors it is median and unpaired, and it is offered because it is the least familiar of the four.
+## correct_answer
+a
+## main_concept
+CON-DEV-5E63C211DEEE00
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+null
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the paired structures of the early embryo from the median, unpaired ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p6 q45. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which counts somites in pairs throughout — 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8 to 10 coccygeal pairs, three pairs separating each day — because the paraxial mesoderm lies on both sides of the notochord and neural tube and segments on each side. The other three options are single median structures.
+
+
+---
+
+# Item
+## id
+QM-101-DC83E3E02B4E
+## title
+Neural tube is formed from the following cells:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Neural tube is formed from the following cells:
+## answer_a
+Endoderm.
+## explanation_a
+Endoderm makes the epithelial lining of the gut and its glands. It lies on the opposite face of the disc from the neural plate, and a student picking it has usually confused the notochord’s induction — which comes from below — with the source of the tube itself.
+## answer_b
+Lateral plate mesoderm
+## explanation_b
+Lateral plate mesoderm splits into somatic and splanchnic layers and lines the body cavity; the neural tube is not mesodermal at all. It is offered because mesoderm is the layer that makes most of the body’s bulk.
+## answer_c
+Ectoderm.
+## explanation_c
+Correct. The neural plate is a thickened median region of ectoderm; its edges rise as neural folds, meet and fuse to make the neural tube, and that tube becomes the brain and the spinal cord.
+## answer_d
+Extraembryonic mesoderm.
+## explanation_d
+Extra-embryonic mesoderm is outside the embryonic disc altogether — it makes the connecting stalk, the chorion and the linings of the cavities — so it can form no part of the embryo’s own nervous system.
+## correct_answer
+c
+## main_concept
+CON-DEV-4BC4233153C3DC
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## topic
+null
+## subtopic
+Third Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Give the germ layer the neural tube comes from, and say what each of the other layers offered makes instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p6 q47. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book derives the whole nervous system from the neural plate, a thickened median region of the ectoderm overlying the notochord, which folds into the neural tube; the endoderm and the two mesoderms make no part of it.
+
+
+---
+
+# Item
+## id
 QM-101-B50755646E3D
 ## title
 Loose areolar C.T is abundant in all of the following except:
@@ -130777,6 +137417,172 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-101-35EE92B23D64
+## title
+The followin e of connective tissue (C.T.) is widely distributed in body:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The followin e of connective tissue (C.T.) is widely distributed in body:
+## answer_a
+Irregular white fibrous C.T.
+## explanation_a
+Irregular white fibrous connective tissue is a dense type, sited in the reticular layer of the dermis, in ligaments, in the sclera and in organ capsules. It is widespread but it is not everywhere, and it is dense rather than loose.
+## answer_b
+Loose areolar C.T.
+## explanation_b
+Correct. Loose areolar connective tissue is the commonest type, holds every kind of connective tissue cell and every kind of fibre, and the book says it is found everywhere in the body except the brain.
+## answer_c
+Yellow elastic C.T.
+## explanation_c
+Yellow elastic connective tissue is confined to places that must recoil: the aorta, the trachea and bronchi, the vocal cords and three named ligaments.
+## answer_d
+Regular white fibrous C.T.
+## explanation_d
+Regular white fibrous connective tissue is tendon and cornea — collagen bundles laid parallel to withstand pull in one direction. Its whole point is that it is specialised to a site.
+## correct_answer
+b
+## main_concept
+CON-FND-B784BE0F18B493
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+null
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the type of connective tissue proper found everywhere in the body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p2 q13. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: loose areolar connective tissue is the most common type and is found everywhere in the body except the brain — between organs, in the papillary layer of the dermis, in mucosa and serous membranes and around vessels and nerves. The stem has lost a word to the scanner ("The followin e of connective tissue"), but the question is intact.
+
+
+---
+
+# Item
+## id
+QM-101-C6E322951464
+## title
+The type of C.T. in tendons is tetaedSeouserssides OlTE
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of C.T. in tendons is tetaedSeouserssides OlTE
+## answer_a
+White fibrous,
+## explanation_a
+Correct, and confirmed by the recovered key. A tendon is regular white fibrous connective tissue: parallel collagen bundles that resist stretch in one direction, with rows of fibroblasts between them.
+## answer_b
+Elastic,
+## explanation_b
+Yellow elastic connective tissue recoils after stretching and is found in the aorta, the trachea and the ligamentum flavum. A tendon that stretched and recoiled would waste the muscle's pull.
+## answer_c
+Mucoid.
+## explanation_c
+Mucoid connective tissue is the soft jelly of the umbilical cord, the vitreous and the dental pulp. It is the least resistant tissue in the chapter.
+## answer_d
+Adipose.
+## explanation_d
+Adipose connective tissue stores fat, insulates and supports organs. It is a packing tissue and carries no load.
+## correct_answer
+a
+## main_concept
+CON-FND-1438DCA008F0DB
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## topic
+null
+## subtopic
+Types of Connective Tissue Proper
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the connective tissue of a tendon and say how its fibres are arranged.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 2022.pdf p2 q25. Manifest src_a54bbf7a625ba2b172fc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence, and the department book agrees — regular white fibrous connective tissue has collagen bundles laid regularly with fibroblasts in rows between them, and its sites are the tendon and the cornea. The stem carries scanner noise where the blank was ("tetaedSeouserssides OlTE") but the question and every option are intact.
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 

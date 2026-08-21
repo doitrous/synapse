@@ -168,6 +168,11 @@ function authored() {
     if (!existsSync(dir)) continue
     for (const name of readdirSync(dir)) {
       if (!name.endsWith('.md')) continue
+      // This module's batches only. `docs/Kasr-Source-Imports` now holds 104 CPS
+      // and 108 INT as well, and a file headed "101 ISK — source coverage" that
+      // counts another module's articles is not a coverage report, it is a
+      // total. It was claiming 4,240 items where 101 ISK has 3,792.
+      if (!name.startsWith('101-ISK')) continue
       const text = readFileSync(join(dir, name), 'utf8')
       const items = text.split(/^\s*---\s*$/m).filter((part) => part.includes('# Item')).length
       counts.set(`${kind}/${name}`, items)
