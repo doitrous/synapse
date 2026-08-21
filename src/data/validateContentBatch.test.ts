@@ -173,3 +173,153 @@ test('a --with file that is not the kind it is needed as resolves nothing', () =
     rmSync(module.root, { recursive: true, force: true })
   }
 })
+
+test('--with resolving one concept does not excuse another that exists nowhere', () => {
+  // The strongest form of the previous two, and the one that cannot pass by
+  // accident. Both other negative tests withhold the concept batch, so a
+  // validator that had silently stopped folding siblings in altogether would
+  // still satisfy them. Here the fold-in is demonstrably running — one claim in
+  // the same file resolves through it — and the second claim names a concept
+  // authored in no batch and no live state. Widening what counts as existing
+  // must never excuse an absence.
+  const module = authorModule()
+  try {
+    writeFileSync(module.claims, [
+      '# Item',
+      '## id',
+      'CLM-TEST-SA-NODE-01',
+      '## concept_id',
+      'CON-TEST-SA-NODE',
+      '## subject',
+      'The sinoatrial node',
+      '## predicate',
+      'sets',
+      '## object',
+      'the heart rate',
+      '## display_text',
+      'The sinoatrial node sets the heart rate.',
+      '## risk_class',
+      'foundational_stable',
+      '',
+      '---',
+      '',
+      '# Item',
+      '## id',
+      'CLM-TEST-INVENTED-01',
+      '## concept_id',
+      'CON-TEST-AUTHORED-NOWHERE',
+      '## subject',
+      'A concept nobody wrote',
+      '## predicate',
+      'is',
+      '## object',
+      'not in any batch or in live state',
+      '## display_text',
+      'This claim names a concept that exists in no batch and no live state.',
+      '## risk_class',
+      'foundational_stable',
+      '',
+    ].join('\n'))
+
+    const report = validate(module.claims, module.concepts)
+    assert.equal(report.items, 2)
+
+    // The fold-in ran: the note says so, and the resolvable claim is not faulted.
+    assert.ok(
+      report.notes.some((note) => note.includes('1 concept rows treated as pending import')),
+      `expected the sibling fold-in to report itself, got ${JSON.stringify(report.notes)}`,
+    )
+    assert.ok(
+      !report.errors.some((error) => error.includes('CON-TEST-SA-NODE does not exist')),
+      `the named concept should have resolved, got ${JSON.stringify(report.errors)}`,
+    )
+
+    // And the invented one still fails, in that same run.
+    assert.ok(
+      report.errors.some((error) => error.includes('Concept CON-TEST-AUTHORED-NOWHERE does not exist')),
+      `expected the invented concept to be refused, got ${JSON.stringify(report.errors)}`,
+    )
+  } finally {
+    rmSync(module.root, { recursive: true, force: true })
+  }
+})
+
+test('a --with sibling that is also a directory sibling is counted once', () => {
+  // Naming the resources batch beside a claim batch is the documented way to run
+  // this, and it put that file in both the directory scan and the --with list.
+  // The ID sets deduplicated it; `everything.citation` is an array and did not.
+  const module = authorModule()
+  try {
+    const resources = join(module.root, 'evidence', 'TEST-resources.md')
+    writeFileSync(resources, [
+      '# Item',
+      '## id',
+      'RES-WEB-TEST-01',
+      '## title',
+      'A source',
+      '## institution',
+      'Kasr Alainy',
+      '## processing_status',
+      'authoritative_article_level_reference',
+      '',
+    ].join('\n'))
+
+    const report = validate(module.claims, module.concepts, resources)
+    const counted = report.notes.filter((note) => note.includes('resource rows treated as pending import'))
+    assert.equal(counted.length, 1, `the resources batch should be reported once, got ${JSON.stringify(counted)}`)
+    assert.ok(counted[0].includes('1 resource rows'), `expected one row, got ${counted[0]}`)
+  } finally {
+    rmSync(module.root, { recursive: true, force: true })
+  }
+})
+
+test('[clear] in a parseSections column is refused, and an empty body is not', () => {
+  // The third spelling of "deliberately empty", which nothing checked. There are
+  // two documented ones — an empty body for text(), `[clear]` for optionalList()
+  // — and check-empties.py classifies every column as one or the other. Section
+  // columns are neither, so they fell through the gap and it reported
+  // "0 sentinel-in-text" on thirty articles carrying exactly that.
+  //
+  // parseSections('[clear]') does not return []. With no `###` to split on it
+  // returns one section with an empty heading whose body is the literal string
+  // "[clear]" — and on `published_sections`, the evidence-gated student
+  // projection, that is a section a student can read.
+  const module = authorModule()
+  try {
+    const withSentinel = join(module.root, 'article', 'TEST-sentinel.md')
+    const article = (publishedSections: string) => [
+      '# Item',
+      '## id',
+      'ART-TEST-SENTINEL',
+      '## title',
+      'The cardiac pacemaker',
+      '## subject',
+      'cvs',
+      '## summary',
+      'Which tissue sets the heart rate.',
+      '## sections',
+      '### Mechanism',
+      'The sinoatrial node depolarises fastest.',
+      '## published_sections',
+      publishedSections,
+      '',
+    ].join('\n')
+
+    writeFileSync(withSentinel, article('[clear]'))
+    const refused = validate(withSentinel)
+    assert.ok(
+      refused.errors.some((error) => error.includes('published_sections holds the literal "[clear]"')),
+      `expected the sentinel to be refused, got ${JSON.stringify(refused.errors)}`,
+    )
+
+    // The correct empty for this column, which must stay clean.
+    writeFileSync(withSentinel, article(''))
+    const accepted = validate(withSentinel)
+    assert.ok(
+      !accepted.errors.some((error) => error.includes('[clear]')),
+      `an empty body is the right way to say this, got ${JSON.stringify(accepted.errors)}`,
+    )
+  } finally {
+    rmSync(module.root, { recursive: true, force: true })
+  }
+})

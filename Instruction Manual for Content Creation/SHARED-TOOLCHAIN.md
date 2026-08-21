@@ -860,8 +860,9 @@ otherwise. That is why one lane measured 156-against-67 and two others measured 
 and 0-against-0.
 
 **Do not detect it by comparing error counts.** A count that matches another count proves
-nothing about either. **Check positively:** grep the output for `is not a concept that exists`
-and expect **0** — a direct observation that the sibling batch was folded in.
+nothing about either. **Check positively** — and see the correction below: the sibling note is
+the right signal, but until recently it was **absent on evidence batches whether or not `--with`
+was honoured**, so a lane following this advice on a claim batch saw nothing on a good run.
 
 **The real fix belongs in the script, not in how people call it.** An argument the parser does
 not recognise should be an **error**, not a silent no-op — today, `--with` taking a value that
@@ -2676,3 +2677,245 @@ moved from **35 columns to 54**.
 **Byte-identity against a stale base passes while shipping a regression.** The gate has to name
 the property, not the comparison: *the concept batch must still emit 54 columns*. Same shape as
 a stale registry that deletes what it no longer knows about.
+
+---
+
+## Two live defects on `main` right now — both verified
+
+### 1. `main` can emit a matching question with no options and no prompts, silently
+
+`scripts/kasr/emit.ts:313` reads **`scheme.options`** and **`scheme.matches`**.
+`scripts/kasr/seeds/from-json.ts` on main declares **`matchingOptions`** / **`matchingPrompts`**
+and passes `json.schemes` straight through. **They do not meet.**
+
+```
+emit.ts reads:        scheme.format  scheme.matches  scheme.options  scheme.prompt
+from-json declares:   matchingOptions  matchingPrompts  scheme.parts  json.schemes
+```
+
+So a matching block emitted through that path produces **empty columns**, and nothing errors —
+the same class as everything else in this file. A 180-line `from-json.ts` that parses the flat
+strings into the structured pair and validates is going up with the 102 push; main's is 120
+lines and is the broken one.
+
+### 2. `main`'s `pagetext.py` has lost the readability guard
+
+Main's copy is **119 lines with zero matches** for `readability` / `control` / `unreadable`. The
+version carrying the `U+0001` fix is **207 lines**.
+
+So a lane running main's `pagetext.py` will cache a file whose text layer is **6,075 non-
+whitespace characters, every one `U+0001`**, as `mode: "native"` with a healthy character count
+and **zero readable content** — the original bug, back on main, and silent exactly as before.
+
+**Check which copy you are running before you trust a cache.** `wc -l` distinguishes them.
+
+## Two lanes wrote different tools under the same obvious name
+
+`scripts/kasr/build-evidence.ts` — **364 lines on `main`**, one lane's generator deriving claims
+and citations from concept definitions. **320 lines in another lane's tree**, emitting a
+module's evidence-source and catalogue-resource records from the manifest. **Entirely different
+tools, same name.**
+
+Git reported it only as *"untracked file would be overwritten"*. Resolved carelessly, the claims
+generator would have been **replaced by a source-record emitter**, and the failure would have
+surfaced as *missing claims* — nowhere near the cause.
+
+Renamed to `build-module-sources.ts`, **with the collision recorded in its header so the next
+person finds the reason rather than re-making the name.**
+
+> **An obvious name is a collision risk precisely because it is obvious.** Before adding a
+> `build-*` or `check-*` script, look for the name on `main` — and if you rename one, say in the
+> file why.
+
+### Compare, don't assume, when your file is already on main
+
+Five files were already there. Comparing each rather than taking either side wholesale gave
+four different answers: **identical** (took main's), **main's is a rewrite** (took main's,
+dropped mine), **generated** (took main's), and **main's is missing a fix** (kept mine) — twice.
+
+**"It is already on main" is not a verdict.** It is the start of a diff.
+
+---
+
+## CORRECTION: the sibling-note check did not work on the batch kind it mattered most for
+
+**I fanned out "confirm the output says *N rows treated as pending import* before trusting an
+error count". It was good discipline and it did not work for evidence batches — the exact kind
+the `--with` fix was about.**
+
+That note comes from `foldInSiblings`, which **only the question and practical branches call.**
+The evidence branch built its own sibling union and reported nothing, so a **claim, citation or
+span** batch printed `"notes": []` **whether `--with` had been honoured or ignored.**
+
+> A lane following the advice would have seen no note on a perfectly good run and concluded the
+> validator was blind. **The check was itself a stand-in for a signal that was not being
+> emitted.**
+
+**Fixed — evidence batches now emit the same note, naming files as typed:**
+
+```
+→ errors: 0
+  note: docs/Kasr-Source-Imports/concept/104-CPS-concepts.md: 22 concept rows treated as pending import
+  note: docs/Kasr-Source-Imports/article/104-CPS-articles.md: 13 article rows treated as pending import
+```
+
+**And the check is now sharper than the original advice:**
+
+> **Count the notes against the number of `--with` flags you passed.** If one is missing, that
+> file **was not read as the kind you expected.**
+
+That catches a case the presence-of-any-note test never could — a file folded in under the wrong
+detected kind.
+
+### A `--with` file in the batch's own directory was read twice
+
+Fired on the **documented invocation** — naming the resources batch beside a claim batch. It
+only doubled an array nothing currently reads, so **no lane has a wrong result from it**. Fixed,
+with a test.
+
+*(Withdrawn: an earlier suggestion that the obsolete copy-into-evidence workaround might be
+documented in `KASR-SOURCE-EXTRACTION-PLAN.md` or `MASTER-PLAN.md`. All of `docs/` was grepped —
+it is documented nowhere. No stale passage, no doc owner to chase.)*
+
+Suite is now **1323 pass / 0 fail**, `tsc` clean.
+
+## One red file blocks every concept lane from proving its own work
+
+CI is red on:
+
+```
+docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology-updates.md
+   nine items with no canonical_key
+   49 concepts unpopulated on resourceIds and atomicClaimIds
+```
+
+**Why it is everyone's problem:** `check-concept-ids.ts` **scans the whole concept directory
+regardless of the paths it is given.** So **no concept lane can demonstrate its own files are
+clean while that file is red** — the same unscoped-gate shape as `content.yml`, one directory
+down.
+
+**It needs an owner.** It is a 108 file; nine missing `canonical_key` values is a small fix
+against a large blast radius.
+
+---
+
+## A regeneration deleted two other modules' written batches, in a commit about neither
+
+The orphan sweep, realised. `3248210` — *"Place forty-nine sitting signals the matcher would not
+guess at"*:
+
+```
+ concept/101-ISK-concepts.md                  144 +-
+ written/104-CPS-EOY-2025-written.md         1399 -------
+ written/108-INT-EOY-written.md              3815 --------------------
+ scripts/kasr/seeds/sittings.ts               104 +
+ 4 files changed, 193 insertions(+), 5269 deletions(-)
+```
+
+**5,269 lines of two other modules' committed written batches, removed by a commit whose subject
+names neither and whose stated purpose is adding sitting signals.** One of them belonged to a
+module that had merged through a PR with green checks hours earlier.
+
+**The mechanism is the stale registry.** A generator regenerating `written/` sweeps files it
+does not recognise, and its registry only knows the papers its own lane registered. **A registry
+listing fewer papers does not error — it deletes what it no longer knows about.** This is the
+third instance of that class and the first that reached `main`.
+
+> **Before committing a regeneration, read the deletions in your own diff.** A `git diff --stat`
+> showing four-figure deletions in a directory you did not mean to touch is the whole signal,
+> and it is available before the push rather than after.
+
+### `medical:batches-present` is correctly red, and should stay red
+
+One lane wired that check **after its own written batch was deleted twice in an hour** by
+commits about a different module — the second time its rebase pulled the deletion onto its disk
+and **every other check stayed green.**
+
+It currently fails naming `written/104-CPS-EOY-2025-written.md`, absent while its ledger expects
+15 items. **That is the check working.** The restore is in an open PR; that PR passes, and only
+PRs without it fail.
+
+> **A check that went quiet about a genuinely missing batch to keep the pipeline green would be
+> worth nothing.** A red that names a real absence is the most valuable state a gate can be in.
+
+### Satisfying one unscoped gate can break another
+
+Both were the same lane's to fix, and the sequence is instructive. Fixing `medical:presence` on
+nine update rows meant restating eighteen fields from live state — including `resourceIds`,
+**whose live value points at a source outside the Kasr corpus.** Nine rows then cited a source ID
+naming no manifest row, and **`medical:citations` went red for every lane** until it was removed.
+
+The reasoning that settled it is worth keeping:
+
+> Those nine concepts were sourced by somebody else. **This module's claim on them is a module
+> attachment, not a provenance claim.** Restating a true value from another corpus was an
+> assertion the module had no standing to make.
+
+**Omitting the column leaves the live value untouched** — verified `resourceIds` identical to
+live afterwards, `created 0 / updated 9`, 0 fields emptied. *A true value can still be a claim
+you are not entitled to make.*
+
+### When a checker is right and the answer is "yes, that is missing"
+
+The `resourceIds` / `atomicClaimIds` half of that red was **not** a checker misreading sanctioned
+gaps. **89 concepts genuinely have no evidence chain**, because the module has none. They carry
+stated `field_notes` reasons, but both fields sit on the must-populate list with **no
+reason-escape** — so the checker is correct and the lane declined to silence it, putting it first
+on the module's own OWED ledger instead.
+
+**Separate the halves of a red before fixing it.** One half was a real absence to own; the other
+was nine missing keys to supply. Fixing them the same way would have been wrong twice.
+
+### The orphan sweep, fixed — and verified in both directions
+
+`removeOrphans` read the whole `written/` directory and deleted anything the current run had not
+just written, **so every other module's file looked exactly like output whose paper had been
+unregistered.** From a bare directory read there was nothing to say, which is why the commit
+said nothing.
+
+**The fix is "cannot reach", not "knows better":** the sweep is scoped to the prefix that
+`slug()` itself builds filenames from — **the same constant, not a second literal beside it.**
+
+> The failure was never the literal being wrong. It was **a sweep whose idea of "mine" could
+> drift from the generator's** — and two copies of `'101-ISK-'` can drift where one cannot.
+
+**Verified in both directions, because a sweep that stopped deleting genuine orphans would be
+this bug wearing the fix as a disguise:**
+
+```
+planted 104-CPS-PROBE-written.md        -> survives a full regeneration untouched
+planted 101-ISK-STALE-2019-written.md   -> still removed, and named in the output
+```
+
+`104-CPS-EOY-2025-written.md` is **restored on `main`**; `medical:batches-present` clears on its
+own.
+
+### Read the shape of your diff, not only its content
+
+The lane's own account of what it missed, and it is the most portable sentence in this section:
+
+> **I read the *content* of my diff and not its *shape*.**
+
+`git diff --stat` showing four-figure deletions in a directory the commit had no business
+touching was available before the push. Content review answers *"is this change right?"*. Shape
+review answers *"is this the change I meant to make?"* — and only the second catches a sweep.
+
+## With `main` moving every two minutes, every report about it is stale by default
+
+**Three consecutive stale reports, from three different lanes, in one stretch:**
+
+- I reported 17 `published_sections` errors and nine missing `canonical_key` — **all already
+  fixed.**
+- The reporting lane relayed the same to two others as live — **it had read the same stale tree.**
+- That lane then reported `medical:citations` red for `src_d98abbe78377e7262afc` on nine concepts
+  — **verified just now: 0 occurrences, 0 `resource_ids` blocks. Already removed.**
+
+Nobody was careless. `main` moves roughly every two minutes, so **a red observed and a red
+reported are different facts**, and the gap between them is where all three landed.
+
+> **Fetch at the moment of reporting, not at the moment of observing — and say when you
+> checked.** A finding about `main` without a timestamp is a claim about a tree that no longer
+> exists.
+
+That the source ID genuinely appears in no manifest row is confirmed — so it was a real error
+while it existed, and reporting it was right. Only its tense was wrong.

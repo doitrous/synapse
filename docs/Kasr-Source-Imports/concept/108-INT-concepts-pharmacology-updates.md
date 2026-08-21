@@ -66,6 +66,48 @@
 # Item
 ## id
 CON-FND-3CC86CC26BF549
+## source_candidate_ids
+concept_07664c1db4280e6f1ee6f3ce | concept_0f6a0331a1ec76eab71e9a3c
+## secondary_node_ids
+DIS-PHA-T01 | DIS-PHA
+## reviewer
+Medical team, Admin team
+## resource_occurrence_ids
+OCC-B52B461759A2DD | OCC-3884B9ED2FB653
+## publication_status
+faculty_review
+## owner
+Admin team
+## merge_ids
+MRG-REVIEW-FND-97D9BF9FE97FC3
+## last_reviewed
+2026-08-11
+## final_publisher
+Admin team
+## evidence_gaps
+Faculty review and current authoritative evidence are required before publication.
+## editorial_review_status
+faculty_signoff_required
+## atomic_claim_ids
+CLM-FND-1CD6611D37BC37 | CLM-FND-3CC86CC26BF549
+## confidence
+0.96
+## support_mode
+direct
+## academic_relevance
+0.9
+## clinical_relevance
+0.8
+## universities
+kau
+## learner_years
+1 | 2 | 3
+## concept_type
+directly_taught_pharmacology_concept
+## primary_node_id
+SYS-FND-T04-S01
+## subject
+pharm
 ## canonical_key
 teaching.pharma.loading.definition
 ## explicit_objective
@@ -123,6 +165,46 @@ atomicClaimIds: Left as extracted. No evidence pass has been run for 108 INT and
 # Item
 ## id
 CON-FND-7F59EAD61B05E0
+## source_candidate_ids
+concept_13767925eee721123debd46f
+## secondary_node_ids
+DIS-PHA-T01 | DIS-PHA
+## reviewer
+Medical team, Admin team
+## resource_occurrence_ids
+OCC-AAAB6CD8E50170
+## publication_status
+faculty_review
+## owner
+Admin team
+## last_reviewed
+2026-08-11
+## final_publisher
+Admin team
+## evidence_gaps
+Faculty review and current authoritative evidence are required before publication.
+## editorial_review_status
+faculty_signoff_required
+## atomic_claim_ids
+CLM-FND-7F59EAD61B05E0
+## confidence
+0.96
+## support_mode
+direct
+## academic_relevance
+0.9
+## clinical_relevance
+0.8
+## universities
+kau
+## learner_years
+1 | 2 | 3
+## concept_type
+directly_taught_pharmacology_concept
+## primary_node_id
+SYS-FND-T04-S01
+## subject
+pharm
 ## canonical_key
 teaching.pharma.maintenance.definition
 ## explicit_objective
@@ -182,6 +264,48 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-CBA2A73AE9A6D8
+## source_candidate_ids
+concept_661b519bce2af196be2fe3e5 | concept_da5527a310829e0497a75626
+## secondary_node_ids
+DIS-PHA-T01 | DIS-PHA
+## reviewer
+Medical team, Admin team
+## resource_occurrence_ids
+OCC-047FFC0E91D28A | OCC-335AF6D2AF5C3D
+## publication_status
+needs_evidence
+## owner
+Admin team
+## merge_ids
+MRG-REVIEW-FND-8E05BB6A62A3A1
+## last_reviewed
+2026-08-11
+## final_publisher
+Admin team
+## evidence_gaps
+The editorially revised wording requires independent claim-level evidence before publication.
+## editorial_review_status
+editorially_revised_needs_independent_evidence
+## atomic_claim_ids
+CLM-FND-44EB37CE98DCB4 | CLM-FND-CBA2A73AE9A6D8
+## confidence
+0.96
+## support_mode
+direct
+## academic_relevance
+0.9
+## clinical_relevance
+0.65
+## universities
+kau
+## learner_years
+1 | 2 | 3
+## concept_type
+directly_taught_pharmacology_concept
+## primary_node_id
+SYS-FND-T04-S01-M02
+## subject
+pharm
 ## canonical_key
 teaching.pharma.vd.definition
 ## explicit_objective
@@ -240,6 +364,46 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-0D3254CF812B1A
+## source_candidate_ids
+concept_276017cfe55caa25d3c65de4
+## secondary_node_ids
+DIS-PHA-T01 | DIS-PHA
+## reviewer
+Medical team, Admin team
+## resource_occurrence_ids
+OCC-93EE1AF5B36296
+## publication_status
+needs_evidence
+## owner
+Admin team
+## last_reviewed
+2026-08-11
+## final_publisher
+Admin team
+## evidence_gaps
+The editorially revised wording requires independent claim-level evidence before publication.
+## editorial_review_status
+editorially_revised_needs_independent_evidence
+## atomic_claim_ids
+CLM-FND-0D3254CF812B1A
+## confidence
+0.96
+## support_mode
+direct
+## academic_relevance
+0.9
+## clinical_relevance
+0.65
+## universities
+kau
+## learner_years
+1 | 2 | 3
+## concept_type
+directly_taught_pharmacology_concept
+## primary_node_id
+SYS-FND-T04-S01-M02
+## subject
+pharm
 ## canonical_key
 teaching.pharma.vd.apparent
 ## explicit_objective
@@ -295,6 +459,46 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-FD53CFAE6AAC72
+## source_candidate_ids
+concept_5735f4ca6e96cb51f767c38a
+## secondary_node_ids
+DIS-PHA-T01 | DIS-PHA
+## reviewer
+Medical team, Admin team
+## resource_occurrence_ids
+OCC-DB4C476C4DA8C7
+## publication_status
+needs_evidence
+## owner
+Admin team
+## last_reviewed
+2026-08-11
+## final_publisher
+Admin team
+## evidence_gaps
+The editorially revised wording requires independent claim-level evidence before publication.
+## editorial_review_status
+editorially_revised_needs_independent_evidence
+## atomic_claim_ids
+CLM-FND-FD53CFAE6AAC72
+## confidence
+0.96
+## support_mode
+direct
+## academic_relevance
+0.9
+## clinical_relevance
+0.65
+## universities
+kau
+## learner_years
+1 | 2 | 3
+## concept_type
+directly_taught_pharmacology_concept
+## primary_node_id
+SYS-FND-T04-S01-M02
+## subject
+pharm
 ## canonical_key
 teaching.pharma.vd.high
 ## explicit_objective
@@ -354,6 +558,46 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-43BED56FA9D1E9
+## source_candidate_ids
+concept_3a1e20d305e92cf494c3d27d
+## secondary_node_ids
+DIS-PHA-T01 | DIS-PHA
+## reviewer
+Medical team, Admin team
+## resource_occurrence_ids
+OCC-C597F50AB28346
+## publication_status
+needs_evidence
+## owner
+Admin team
+## last_reviewed
+2026-08-11
+## final_publisher
+Admin team
+## evidence_gaps
+The editorially revised wording requires independent claim-level evidence before publication.
+## editorial_review_status
+editorially_revised_needs_independent_evidence
+## atomic_claim_ids
+CLM-FND-43BED56FA9D1E9
+## confidence
+0.96
+## support_mode
+direct
+## academic_relevance
+0.9
+## clinical_relevance
+0.65
+## universities
+kau
+## learner_years
+1 | 2 | 3
+## concept_type
+directly_taught_pharmacology_concept
+## primary_node_id
+SYS-FND-T04-S01-M02
+## subject
+pharm
 ## canonical_key
 teaching.pharma.vd.low
 ## explicit_objective
@@ -412,6 +656,46 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-87C323BB0CE321
+## source_candidate_ids
+concept_17b05427b3b20ddc211a63ab
+## secondary_node_ids
+DIS-PHA-T01 | DIS-PHA
+## reviewer
+Medical team, Admin team
+## resource_occurrence_ids
+OCC-FDFBE8E3C2922D
+## publication_status
+needs_evidence
+## owner
+Admin team
+## last_reviewed
+2026-08-11
+## final_publisher
+Admin team
+## evidence_gaps
+The editorially revised wording requires independent claim-level evidence before publication.
+## editorial_review_status
+editorially_revised_needs_independent_evidence
+## atomic_claim_ids
+CLM-FND-87C323BB0CE321
+## confidence
+0.96
+## support_mode
+direct
+## academic_relevance
+0.9
+## clinical_relevance
+0.65
+## universities
+kau
+## learner_years
+1 | 2 | 3
+## concept_type
+directly_taught_pharmacology_concept
+## primary_node_id
+SYS-FND-T04-S01-M04
+## subject
+pharm
 ## canonical_key
 teaching.pharma.clearance.volume
 ## explicit_objective
@@ -468,6 +752,46 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-01E59D0FD26046
+## source_candidate_ids
+concept_09800b97a8dd7a3cad0cfed1
+## secondary_node_ids
+DIS-PHA-T01 | DIS-PHA
+## reviewer
+Medical team, Admin team
+## resource_occurrence_ids
+OCC-B440CCA0C0A332
+## publication_status
+needs_evidence
+## owner
+Admin team
+## last_reviewed
+2026-08-11
+## final_publisher
+Admin team
+## evidence_gaps
+The editorially revised wording requires independent claim-level evidence before publication.
+## editorial_review_status
+editorially_revised_needs_independent_evidence
+## atomic_claim_ids
+CLM-FND-01E59D0FD26046
+## confidence
+0.96
+## support_mode
+direct
+## academic_relevance
+0.9
+## clinical_relevance
+0.65
+## universities
+kau
+## learner_years
+1 | 2 | 3
+## concept_type
+directly_taught_pharmacology_concept
+## primary_node_id
+SYS-FND-T04-S01-M04
+## subject
+pharm
 ## canonical_key
 teaching.pharma.tubular.secretion
 ## explicit_objective
@@ -530,6 +854,46 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-9D89A82094F8AA
+## source_candidate_ids
+concept_3666b9398c5962370b98087e
+## secondary_node_ids
+DIS-PHA-T01 | DIS-PHA
+## reviewer
+Medical team, Admin team
+## resource_occurrence_ids
+OCC-527542AE101453
+## publication_status
+needs_evidence
+## owner
+Admin team
+## last_reviewed
+2026-08-11
+## final_publisher
+Admin team
+## evidence_gaps
+The editorially revised wording requires independent claim-level evidence before publication.
+## editorial_review_status
+editorially_revised_needs_independent_evidence
+## atomic_claim_ids
+CLM-FND-9D89A82094F8AA
+## confidence
+0.96
+## support_mode
+direct
+## academic_relevance
+0.9
+## clinical_relevance
+0.65
+## universities
+kau
+## learner_years
+1 | 2 | 3
+## concept_type
+directly_taught_pharmacology_concept
+## primary_node_id
+SYS-FND-T04-S01-M04
+## subject
+pharm
 ## canonical_key
 teaching.pharma.enterohepatic
 ## explicit_objective

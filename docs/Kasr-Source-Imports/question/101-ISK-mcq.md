@@ -55,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  556 questions were excluded and 0 held back for having no
+  557 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -17942,7 +17942,7 @@ CON-FND-5EFDEADAA559B8
 ## library_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## topic
-null
+Connective Tissue Cells
 ## subtopic
 Connective Tissue Cells
 ## module
@@ -18025,7 +18025,7 @@ CON-FND-A5D2D2350D099D
 ## library_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## topic
-null
+Connective Tissue Cells
 ## subtopic
 Connective Tissue Cells
 ## module
@@ -18108,7 +18108,7 @@ CON-FND-CE178A6B5707B1
 ## library_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## topic
-null
+Connective Tissue Cells
 ## subtopic
 Connective Tissue Cells
 ## module
@@ -18191,7 +18191,7 @@ CON-FND-0BB73C5CC1821B
 ## library_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## topic
-null
+Connective Tissue Cells
 ## subtopic
 Connective Tissue Cells
 ## module
@@ -18274,7 +18274,7 @@ CON-FND-4589050BE16100
 ## library_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## topic
-null
+Connective Tissue Cells
 ## subtopic
 Connective Tissue Cells
 ## module
@@ -18357,7 +18357,7 @@ CON-FND-EA4034F1E87235
 ## library_ids
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## topic
-null
+Connective Tissue Cells
 ## subtopic
 Connective Tissue Cells
 ## module
@@ -21598,7 +21598,7 @@ CON-FND-47743DDD3ED7A0
 ## library_ids
 ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
 ## topic
-null
+Connective Tissue Fibres
 ## subtopic
 Connective Tissue Fibres
 ## module
@@ -21681,7 +21681,7 @@ CON-FND-CE178A6B5707B1
 ## library_ids
 ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
 ## topic
-null
+Connective Tissue Fibres
 ## subtopic
 Connective Tissue Fibres
 ## module
@@ -21764,7 +21764,7 @@ CON-FND-4DBDF635382663
 ## library_ids
 ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
 ## topic
-null
+Connective Tissue Fibres
 ## subtopic
 Connective Tissue Fibres
 ## module
@@ -42858,7 +42858,7 @@ CON-FND-DAF4EB4BC63077
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -42941,7 +42941,7 @@ CON-FND-9D325B98FC59A0
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43024,7 +43024,7 @@ CON-FND-7D25B3CB28F0F6
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43107,7 +43107,7 @@ CON-FND-05D3B2832089AB
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43190,7 +43190,7 @@ CON-FND-25C25E4FA62811
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43273,7 +43273,7 @@ CON-FND-405BB5EA3C359E
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43356,7 +43356,7 @@ CON-FND-6268E97A4A9F26
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43439,7 +43439,7 @@ CON-FND-60953640114635
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43522,7 +43522,7 @@ CON-FND-405BB5EA3C359E
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43605,7 +43605,7 @@ CON-FND-9D325B98FC59A0
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43688,7 +43688,7 @@ CON-FND-7D25B3CB28F0F6
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43771,7 +43771,7 @@ CON-HEM-2C81CE9CF9F3D8
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43854,7 +43854,7 @@ CON-HEM-B000CE18F93F83
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -43937,7 +43937,7 @@ CON-FND-0E38E21957DB05
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -44020,7 +44020,7 @@ CON-FND-CC62175DBE7355
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -44103,7 +44103,7 @@ CON-FND-6268E97A4A9F26
 ## library_ids
 ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## topic
-null
+Cytoplasm
 ## subtopic
 Cytoplasm
 ## module
@@ -47174,7 +47174,7 @@ CON-DEV-3E918A4C74B56D
 ## library_ids
 ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## topic
-null
+Fetal Membranes
 ## subtopic
 Fetal Membranes
 ## module
@@ -47257,7 +47257,7 @@ CON-DEV-134C8B5E98D759
 ## library_ids
 ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## topic
-null
+Fetal Membranes
 ## subtopic
 Fetal Membranes
 ## module
@@ -47340,7 +47340,7 @@ CON-DEV-D870770450E17D
 ## library_ids
 ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## topic
-null
+Fetal Membranes
 ## subtopic
 Fetal Membranes
 ## module
@@ -47423,7 +47423,7 @@ CON-DEV-134C8B5E98D759
 ## library_ids
 ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## topic
-null
+Fetal Membranes
 ## subtopic
 Fetal Membranes
 ## module
@@ -48838,7 +48838,7 @@ CON-DEV-F33BB68138377B
 ## library_ids
 ART-101-ANA-FERTILIZATION
 ## topic
-null
+First Week of Development
 ## subtopic
 First Week of Development
 ## module
@@ -48921,7 +48921,7 @@ CON-DEV-89FC3BBB3C9BCE
 ## library_ids
 ART-101-ANA-FERTILIZATION
 ## topic
-null
+First Week of Development
 ## subtopic
 First Week of Development
 ## module
@@ -49004,7 +49004,7 @@ CON-DEV-F5A87FDF5D911C
 ## library_ids
 ART-101-ANA-FERTILIZATION
 ## topic
-null
+First Week of Development
 ## subtopic
 First Week of Development
 ## module
@@ -61368,7 +61368,7 @@ CON-MSK-46C40109E7D957
 ## library_ids
 ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## topic
-null
+Forearm
 ## subtopic
 Forearm
 ## module
@@ -62530,7 +62530,7 @@ CON-DEV-0BA870DF2C2E13
 ## library_ids
 ART-101-ANA-GAMETES
 ## topic
-null
+Gametes
 ## subtopic
 Gametes
 ## module
@@ -66182,7 +66182,7 @@ CON-FND-D9E83D81037173
 ## library_ids
 ART-101-HIS-GLANDULAR-EPITHELIUM
 ## topic
-null
+Glandular Epithelium
 ## subtopic
 Glandular Epithelium
 ## module
@@ -66265,7 +66265,7 @@ CON-FND-30381062FF7E61
 ## library_ids
 ART-101-HIS-GLANDULAR-EPITHELIUM
 ## topic
-null
+Glandular Epithelium
 ## subtopic
 Glandular Epithelium
 ## module
@@ -66348,7 +66348,7 @@ CON-FND-D9E83D81037173
 ## library_ids
 ART-101-HIS-GLANDULAR-EPITHELIUM
 ## topic
-null
+Glandular Epithelium
 ## subtopic
 Glandular Epithelium
 ## module
@@ -67344,7 +67344,7 @@ CON-HEM-607B783A16FBEB
 ## library_ids
 ART-101-HIS-GRANULAR-LEUKOCYTES
 ## topic
-null
+Granular leukocytes
 ## subtopic
 Granular leukocytes
 ## module
@@ -67427,7 +67427,7 @@ CON-HEM-FDAC2D5F64032E
 ## library_ids
 ART-101-HIS-GRANULAR-LEUKOCYTES
 ## topic
-null
+Granular leukocytes
 ## subtopic
 Granular leukocytes
 ## module
@@ -67759,7 +67759,7 @@ CON-HEM-25C4304A1DB441
 ## library_ids
 ART-101-HIS-HAEMOPOIESIS
 ## topic
-null
+Haemopoiesis
 ## subtopic
 Haemopoiesis
 ## module
@@ -72656,7 +72656,7 @@ CON-MSK-58D5F74E9595C3
 ## library_ids
 ART-101-ANA-HAND-ARTERIES
 ## topic
-null
+Hand
 ## subtopic
 Hand
 ## module
@@ -72739,7 +72739,7 @@ CON-MSK-58D5F74E9595C3
 ## library_ids
 ART-101-ANA-HAND-ARTERIES
 ## topic
-null
+Hand
 ## subtopic
 Hand
 ## module
@@ -73486,7 +73486,7 @@ CON-MSK-EE7CDEF8ACA587
 ## library_ids
 ART-101-ANA-INTRODUCTION
 ## topic
-null
+Introduction
 ## subtopic
 Introduction
 ## module
@@ -75229,7 +75229,7 @@ CON-MSK-171B2F8B24F6E7
 ## library_ids
 ART-101-ANA-ELBOW-JOINT
 ## topic
-null
+Joints of Upper Limb
 ## subtopic
 Joints of Upper Limb
 ## module
@@ -75727,7 +75727,7 @@ CON-FND-7D25B3CB28F0F6
 ## library_ids
 ART-101-HIS-MICROSCOPES
 ## topic
-null
+Microscopes
 ## subtopic
 Microscopes
 ## module
@@ -75810,7 +75810,7 @@ CON-FND-7D25B3CB28F0F6
 ## library_ids
 ART-101-HIS-MICROSCOPES
 ## topic
-null
+Microscopes
 ## subtopic
 Microscopes
 ## module
@@ -81454,7 +81454,7 @@ CON-FND-F4B7458F8B8265
 ## library_ids
 ART-101-HIS-MICROTECHNIQUES
 ## topic
-null
+Microtechniques
 ## subtopic
 Microtechniques
 ## module
@@ -81537,7 +81537,7 @@ CON-FND-F4B7458F8B8265
 ## library_ids
 ART-101-HIS-MICROTECHNIQUES
 ## topic
-null
+Microtechniques
 ## subtopic
 Microtechniques
 ## module
@@ -81620,7 +81620,7 @@ CON-HEM-3899015C5024C0
 ## library_ids
 ART-101-HIS-MICROTECHNIQUES
 ## topic
-null
+Microtechniques
 ## subtopic
 Microtechniques
 ## module
@@ -81703,7 +81703,7 @@ CON-HEM-719FA556594454
 ## library_ids
 ART-101-HIS-MICROTECHNIQUES
 ## topic
-null
+Microtechniques
 ## subtopic
 Microtechniques
 ## module
@@ -84126,7 +84126,7 @@ CON-MSK-F598AF39FBE297
 ## library_ids
 ART-101-ANA-MUSCLE-ATTACHMENTS
 ## topic
-null
+Muscular system
 ## subtopic
 Muscular system
 ## module
@@ -96106,7 +96106,7 @@ CON-MSK-875049D4420AA4
 ## library_ids
 ART-101-ANA-RADIAL-NERVE
 ## topic
-null
+Nerve Supply of Upper Limb & Nerve Injuries
 ## subtopic
 Nerve Supply of Upper Limb & Nerve Injuries
 ## module
@@ -96189,7 +96189,7 @@ CON-MSK-2D2E4341DC5990
 ## library_ids
 ART-101-ANA-RADIAL-NERVE
 ## topic
-null
+Nerve Supply of Upper Limb & Nerve Injuries
 ## subtopic
 Nerve Supply of Upper Limb & Nerve Injuries
 ## module
@@ -98015,7 +98015,7 @@ CON-HEM-719FA556594454
 ## library_ids
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## topic
-null
+Non granular leukocytes
 ## subtopic
 Non granular leukocytes
 ## module
@@ -98098,7 +98098,7 @@ CON-HEM-FDAC2D5F64032E
 ## library_ids
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## topic
-null
+Non granular leukocytes
 ## subtopic
 Non granular leukocytes
 ## module
@@ -102916,7 +102916,7 @@ CON-FND-30573B6D0A9AFD
 ## library_ids
 ART-101-HIS-NUCLEUS
 ## topic
-null
+Nucleus
 ## subtopic
 Nucleus
 ## module
@@ -102999,7 +102999,7 @@ CON-FND-69671A492023B8
 ## library_ids
 ART-101-HIS-NUCLEUS
 ## topic
-null
+Nucleus
 ## subtopic
 Nucleus
 ## module
@@ -103082,7 +103082,7 @@ CON-FND-4284C6B8667CD6
 ## library_ids
 ART-101-HIS-NUCLEUS
 ## topic
-null
+Nucleus
 ## subtopic
 Nucleus
 ## module
@@ -103165,7 +103165,7 @@ CON-FND-195407DF67047D
 ## library_ids
 ART-101-HIS-NUCLEUS
 ## topic
-null
+Nucleus
 ## subtopic
 Nucleus
 ## module
@@ -103248,7 +103248,7 @@ CON-FND-6C5ABFD844D630
 ## library_ids
 ART-101-HIS-NUCLEUS
 ## topic
-null
+Nucleus
 ## subtopic
 Nucleus
 ## module
@@ -103331,7 +103331,7 @@ CON-FND-30573B6D0A9AFD
 ## library_ids
 ART-101-HIS-NUCLEUS
 ## topic
-null
+Nucleus
 ## subtopic
 Nucleus
 ## module
@@ -103414,7 +103414,7 @@ CON-FND-6C5ABFD844D630
 ## library_ids
 ART-101-HIS-NUCLEUS
 ## topic
-null
+Nucleus
 ## subtopic
 Nucleus
 ## module
@@ -103497,7 +103497,7 @@ CON-FND-C5C16B3F123155
 ## library_ids
 ART-101-HIS-NUCLEUS
 ## topic
-null
+Nucleus
 ## subtopic
 Nucleus
 ## module
@@ -103580,7 +103580,7 @@ CON-FND-EB83F2B16C479F
 ## library_ids
 ART-101-HIS-NUCLEUS
 ## topic
-null
+Nucleus
 ## subtopic
 Nucleus
 ## module
@@ -110809,7 +110809,7 @@ CON-FND-BBC8959FD63F56
 ## library_ids
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## topic
-null
+Polarity and Membranous Specializations
 ## subtopic
 Polarity and Membranous Specializations
 ## module
@@ -110892,7 +110892,7 @@ CON-FND-ACB35745EC9A5D
 ## library_ids
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## topic
-null
+Polarity and Membranous Specializations
 ## subtopic
 Polarity and Membranous Specializations
 ## module
@@ -110941,89 +110941,6 @@ Answer changed from the source's: No key was printed on the 2021 paper and none 
 
 # Item
 ## id
-QM-101-CE2A3E93ADFF
-## title
-Intermediate filam : é a A ae
-## subject
-fnd
-## status
-Draft
-## format
-single_best_answer
-## question
-Intermediate filam : é a A ae
-## answer_a
-Form lamins. () (
-## explanation_a
-Correct, and confirmed by the recovered key. Lamins make up the nuclear lamina against the inner nuclear membrane, and the department book lists them among the intermediate filament proteins alongside cytokeratin, vimentin, desmin, neurofilaments and glial fibrillar acidic protein.
-## answer_b
-forested Microvilli.
-## explanation_b
-Microvilli are formed by microfilaments — a core of actin inserted into the terminal web. The option is printed here as "forested Microvilli", which is "Form Microvilli" read badly.
-## answer_c
-Form mitotic spin ri | division.
-## explanation_c
-The mitotic spindle is microtubular and is organised by the centrioles. Intermediate filaments have exactly one function in this book, support, and take no part in cell division.
-## answer_d
-Are formed of actin filaments.
-## explanation_d
-Actin is the subunit of microfilaments. Intermediate filaments are the one system with chemically differing subunits — six of them, one per tissue — which is what makes identifying them useful in naming a tumour's cell of origin.
-## correct_answer
-a
-## main_concept
-CON-FND-6268E97A4A9F26
-## library_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
-## topic
-null
-## subtopic
-Polarity and Membranous Specializations
-## module
-101 ISK
-## module_subject
-101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Recognise the lamins of the nuclear envelope as intermediate filaments, and keep microtubule and microfilament jobs off the class.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 2022.pdf p1 q8. Manifest src_a54bbf7a625ba2b172fc.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: This row is covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence, and the department book agrees — lamins are the sixth of its six named intermediate filament proteins, sited in the nuclear envelope. The row is authored despite heavy scanner noise: the stem has been cut down to "Intermediate filam : é a A ae" and three of the four options carry stray characters ("Form lamins. () (", "forested Microvilli.", "Form mitotic spin ri | division."). Every option is still identifiable and the answer is keyed, so the row is kept rather than set aside — but the stem needs retyping before a student sees it, and a rescan of page 1 of the 2022 paper is the proper fix.
-1 materially different wording of this question exist in the books and were not collapsed into it.
-
----
-
-# Item
-## id
 QM-101-41D0DCFD41C2
 ## title
 Concerning Zonula occludens (occluding junction):
@@ -111058,7 +110975,7 @@ CON-FND-2EAD7BC676C215
 ## library_ids
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## topic
-null
+Polarity and Membranous Specializations
 ## subtopic
 Polarity and Membranous Specializations
 ## module
@@ -115042,7 +114959,7 @@ CON-HEM-C79EA8644C0C9C
 ## library_ids
 ART-101-HIS-RED-BLOOD-CORPUSCLES
 ## topic
-null
+Red Blood Corpuscles
 ## subtopic
 Red Blood Corpuscles
 ## module
@@ -119856,7 +119773,7 @@ CON-MSK-24E318F2E3F18E
 ## library_ids
 ART-101-ANA-SHOULDER-REGION
 ## topic
-null
+Shoulder Region
 ## subtopic
 Shoulder Region
 ## module
@@ -119939,7 +119856,7 @@ CON-MSK-171B2F8B24F6E7
 ## library_ids
 ART-101-ANA-SHOULDER-REGION
 ## topic
-null
+Shoulder Region
 ## subtopic
 Shoulder Region
 ## module
@@ -120022,7 +119939,7 @@ CON-MSK-04D3ACA71DC025
 ## library_ids
 ART-101-ANA-SHOULDER-REGION
 ## topic
-null
+Shoulder Region
 ## subtopic
 Shoulder Region
 ## module
@@ -121931,7 +121848,7 @@ CON-MSK-40012FE18569EC
 ## library_ids
 ART-101-ANA-SKELETAL-SYSTEM
 ## topic
-null
+Skeletal system
 ## subtopic
 Skeletal system
 ## module
@@ -131559,7 +131476,7 @@ CON-FND-E51851DAB2DD13
 ## library_ids
 ART-101-HIS-SURFACE-EPITHELIUM
 ## topic
-null
+Surface Epithelium
 ## subtopic
 Surface Epithelium
 ## module
@@ -131642,7 +131559,7 @@ CON-FND-49350AB867CB5A
 ## library_ids
 ART-101-HIS-SURFACE-EPITHELIUM
 ## topic
-null
+Surface Epithelium
 ## subtopic
 Surface Epithelium
 ## module
@@ -131725,7 +131642,7 @@ CON-FND-68DA70C4BBE2A1
 ## library_ids
 ART-101-HIS-SURFACE-EPITHELIUM
 ## topic
-null
+Surface Epithelium
 ## subtopic
 Surface Epithelium
 ## module
@@ -134630,7 +134547,7 @@ CON-FND-0FAE59E00B748E
 ## library_ids
 ART-101-HIS-THE-CELL
 ## topic
-null
+The cell
 ## subtopic
 The cell
 ## module
@@ -134713,7 +134630,7 @@ CON-FND-14D80DE53DE835
 ## library_ids
 ART-101-HIS-THE-CELL
 ## topic
-null
+The cell
 ## subtopic
 The cell
 ## module
@@ -136124,7 +136041,7 @@ CON-DEV-5E63C211DEEE00
 ## library_ids
 ART-101-ANA-EMBRYONIC-FOLDING
 ## topic
-null
+Third Week of Development
 ## subtopic
 Third Week of Development
 ## module
@@ -136207,7 +136124,7 @@ CON-DEV-4BC4233153C3DC
 ## library_ids
 ART-101-ANA-EMBRYONIC-FOLDING
 ## topic
-null
+Third Week of Development
 ## subtopic
 Third Week of Development
 ## module
@@ -137456,7 +137373,7 @@ CON-FND-B784BE0F18B493
 ## library_ids
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## topic
-null
+Types of Connective Tissue Proper
 ## subtopic
 Types of Connective Tissue Proper
 ## module
@@ -137539,7 +137456,7 @@ CON-FND-1438DCA008F0DB
 ## library_ids
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## topic
-null
+Types of Connective Tissue Proper
 ## subtopic
 Types of Connective Tissue Proper
 ## module
