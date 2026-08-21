@@ -2,12 +2,14 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
+    Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
+    The cell — 46 questions, 5 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
 
   Extracted from 2704 distinct questions across thirty question books and
@@ -20,7 +22,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  20 questions were excluded and 0 held back for having no
+  52 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1349,6 +1351,3575 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q48. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-82DCF129E456
+## title
+Simple branched tubular glands:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Simple branched tubular glands:
+## answer_a
+Have branched ducts
+## explanation_a
+The commonest wrong answer, and the one the name invites. A branching duct is what "compound" means, and this gland has already been called simple, which settles the duct as unbranched.
+## answer_b
+Are endocrine gland
+## explanation_b
+An endocrine gland is ductless, so it cannot be described by duct branching at all. Every term in this name presupposes a duct.
+## answer_c
+Have alveolar secretory unit
+## explanation_c
+Tubular and alveolar are alternatives, not companions: the secretory unit here is a tube, which is what the word tubular states.
+## answer_d
+Have branched secretory part
+## explanation_d
+Correct. Simple fixes the duct as unbranched and tubular fixes the secretory unit as a tube, so the only structure left for "branched" to describe is the secretory portion.
+## correct_answer
+D
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Attribute "branched" in a gland's name to the secretory part, not the duct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q42; Dpt Book MCQ histo 101 .NEW (1).pdf p13 q36; Epithelium | Module 101 questions.pdf.pdf p15 q42. Manifest src_510c935c09a7e7cbff32, src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C5D8078F54AD
+## title
+Exocrine glands:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Exocrine glands:
+## answer_a
+Are only unicellular glands
+## explanation_a
+Unicellular glands such as the goblet cell are exocrine, but so are the multicellular ones. This option mistakes one subdivision of exocrine glands for the whole class.
+## answer_b
+Discharge secretory product by diffusion into the blood
+## explanation_b
+Diffusion into the blood is what an endocrine gland does, and it is precisely what having a duct makes unnecessary.
+## answer_c
+Discharge their secretion via ducts
+## explanation_c
+Correct. An exocrine gland has a secretory portion that makes the secretion and an excretory portion — the ducts — that carries it outside the gland.
+## answer_d
+Secretes hormones
+## explanation_d
+Hormones are the endocrine product. An exocrine secretion is delivered to a surface or a lumen, not to the bloodstream.
+## correct_answer
+C
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define an exocrine gland by its duct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q32; Epithelium | Module 101 questions.pdf.pdf p14 q32. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-21DEE449ECEA
+## title
+Myo-epithelial cells are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Myo-epithelial cells are:
+## answer_a
+Present around acini of salivary glands
+## explanation_a
+Correct. The salivary gland is exocrine, so it has ducts, and its acini are wrapped by myo-epithelial cells whose contraction drives the secretion into them. The mammary and sweat glands are the book's other two examples.
+## answer_b
+Found in thyroid gland
+## explanation_b
+The thyroid is a ductless endocrine gland. Its follicular cells release their hormone into blood capillaries, so there is no duct to squeeze anything into and no myo-epithelial cell to do it.
+## answer_c
+Found in pancreas
+## explanation_c
+The pancreas is the trap, because it is a mixed gland and its exocrine half really does have acini and ducts. The book's stated sites are the salivary, mammary and sweat glands, and it does not extend them to the pancreas.
+## answer_d
+Modified type of epithelium which act as a receptor
+## explanation_d
+Acting as a receptor is neuro-epithelium, the class next door. Myo-epithelium is modified to contract, which is a different one of the four modifications.
+## correct_answer
+A
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Work out which glands can have myo-epithelial cells by asking whether the gland has a duct to squeeze secretion into.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q48; Epithelium | Module 101 questions.pdf.pdf p16 q48. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-FDF15B66FAB3
+## title
+Sebaceous gland is considered as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Sebaceous gland is considered as:
+## answer_a
+Compound tubular gland
+## explanation_a
+Compound needs a branching duct. The sebaceous gland empties by a single short duct into a hair follicle, and its secretory units are rounded rather than tubular.
+## answer_b
+Simple branched alveolar gland
+## explanation_b
+Correct. A single unbranched duct makes it simple, several rounded secretory units off that one duct make it branched, and the rounded shape makes it alveolar.
+## answer_c
+Branched tubular
+## explanation_c
+Right on the branching, wrong on the shape. The sebaceous secretory unit is a rounded sac, not a tube — this is the answer of a student who remembered "branched" and stopped there.
+## answer_d
+Compound tubule- alveolar gland
+## explanation_d
+Compound tubulo-alveolar is the salivary gland. Two of the three terms are wrong here.
+## correct_answer
+B
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Place the sebaceous gland in the combined classification.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q44; Epithelium | Module 101 questions.pdf.pdf p16 q44. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-218E636E376F
+## title
+The compound tubulo-alveolar glands are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The compound tubulo-alveolar glands are present in:
+## answer_a
+Sweat glands
+## explanation_a
+The sweat gland is simple coiled tubular: one unbranched duct and a tube coiled up in the dermis.
+## answer_b
+Intestinal crypts
+## explanation_b
+Intestinal crypts are simple tubular — straight unbranched tubes opening on the surface, with no duct tree at all.
+## answer_c
+Salivary glands
+## explanation_c
+Correct. The salivary glands have a duct system that branches like a tree, and flask-shaped secretory units, which is what tubulo-alveolar names.
+## answer_d
+Fundus of stomach
+## explanation_d
+The fundic glands of the stomach are simple branched tubular: the duct does not branch, the secretory part does.
+## correct_answer
+C
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the gland that is compound tubulo-alveolar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q41; Epithelium | Module 101 questions.pdf.pdf p15 q41. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6289115CEFF4
+## title
+According to the mode of secretion the exocrine glands classified into:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+According to the mode of secretion the exocrine glands classified into:
+## answer_a
+Apocrine, holocrine and merocrine glands
+## explanation_a
+Correct. Mode of secretion asks how much of the cell goes with the product, and the three answers are apocrine, holocrine and merocrine.
+## answer_b
+Mucous, serous and mucoserous glands
+## explanation_b
+Mucous, serous and mucoserous is the classification by the *nature* of the secretion — what it is made of, rather than how it leaves.
+## answer_c
+Simple, branched, and compound glands
+## explanation_c
+Simple, branched and compound classify the duct, which is a question about the gland's architecture rather than its secretory mechanism.
+## answer_d
+Alveolar, tubular and tubuloalveolar glands
+## explanation_d
+Alveolar, tubular and tubuloalveolar classify the shape of the secretory part. The book has five criteria and this question names one of them; picking the wrong list is the standard error.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Match a classifying criterion to the set of categories it produces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q51. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5BEA51098E5C
+## title
+According to their function, there are two major types of epithelial tissue, these are
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+According to their function, there are two major types of epithelial tissue, these are
+## answer_a
+epithelial tissue and cartilage
+## explanation_a
+Cartilage is connective tissue, not epithelium. This option does not answer the question it was asked.
+## answer_b
+holocrine and apocrine glands
+## explanation_b
+Holocrine and apocrine are modes of secretion within one class of epithelium, not two classes of epithelial tissue.
+## answer_c
+transitional and pseudostratified epithelium
+## explanation_c
+Transitional and pseudostratified are two types of *surface* epithelium, so both sit inside one of the answer's two categories.
+## answer_d
+covering and secretory epithelium
+## explanation_d
+Correct as this book puts it — covering epithelium and secretory epithelium. Note that the department book itself recognises four classes, adding neuro-epithelium and myo-epithelium to these two; a question offering only two is using the coarser split.
+## correct_answer
+D
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Separate epithelium that covers from epithelium that secretes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q51. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-B30364AE96D3
+## title
+All are true about goblet cell Except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All are true about goblet cell Except:
+## answer_a
+Secret mucous
+## explanation_a
+True, so not the exception. Mucus is the goblet cell's product, which is why it is classed as a mucous gland.
+## answer_b
+Flask in shape
+## explanation_b
+True, so not the exception. The name describes the shape — a narrow base and a swollen mucus-filled apex.
+## answer_c
+Multicellular gland
+## explanation_c
+The exception, and the answer. Picked by students who count the cells around it rather than the cells doing the secreting. A goblet cell is the book's example of a unicellular gland.
+## answer_d
+Present in the respiratory tract
+## explanation_d
+True, so not the exception. Goblet cells are scattered through the pseudostratified columnar ciliated epithelium of the airway, and through the simple columnar epithelium of the intestine.
+## correct_answer
+C
+## main_concept
+CON-FND-B22A5E7A56EC8F
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise that the goblet cell is a gland of exactly one cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q60. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8CC5DB44DDA5
+## title
+Apocrine gland is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Apocrine gland is :
+## answer_a
+Goblet cell
+## explanation_a
+The goblet cell discharges mucus by exocytosis and stays intact, which is merocrine.
+## answer_b
+Salivary gland
+## explanation_b
+The salivary gland is the standard merocrine example — its cells lose nothing at all.
+## answer_c
+Sebaceous gland
+## explanation_c
+The sebaceous gland is holocrine: the whole cell disintegrates and becomes the secretion. This is one rung too far along the ladder.
+## answer_d
+Lactating mammary gland
+## explanation_d
+Correct. The lactating mammary gland releases its lipid droplets wrapped in a piece of the apical cytoplasm, which is what apocrine means.
+## correct_answer
+D
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the gland that loses the apex of its cells with its secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q63. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3E9665BC49BA
+## title
+Compound tubular glands are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Compound tubular glands are present in:
+## answer_a
+Pancreas
+## explanation_a
+The pancreas has a branching duct system, so it is compound, but its secretory units are rounded acini — it is compound alveolar, not tubular.
+## answer_b
+Parotid
+## explanation_b
+The parotid is a salivary gland, compound tubulo-alveolar. The duct term is right and the shape term is not.
+## answer_c
+Prostate
+## explanation_c
+The prostate is compound tubulo-alveolar as well. It is chosen by students who know it is compound and stop there.
+## answer_d
+Kidney
+## explanation_d
+Correct. The kidney is the book's compound tubular example: a branching duct tree whose secretory units are tubes rather than rounded acini.
+## correct_answer
+D
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Name a compound tubular gland, where both terms have to be right at once.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q39. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A7689507A031
+## title
+Concerning the classification of the exocrine glands the term”simple” refers that:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the classification of the exocrine glands the term”simple” refers that:
+## answer_a
+Its duct is not branching
+## explanation_a
+Correct. Simple means the duct does not branch. It says nothing about how many secretory units hang off it — a simple branched gland has several.
+## answer_b
+Its secretory part is one unit
+## explanation_b
+This describes an unbranched *secretory* part, which is what "simple" is routinely mistaken for. A simple branched gland is the counter-example: simple duct, several secretory units.
+## answer_c
+Its secretory part is tubular
+## explanation_c
+Tubular describes the shape of the secretory part, and is chosen from an adjacent list rather than from the one the question asked about.
+## answer_d
+Its secretory part is alveolar
+## explanation_d
+Alveolar likewise describes shape. Neither shape term has anything to say about the duct.
+## correct_answer
+A
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Attribute the word "simple" to the duct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q52. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-27D4460FFE15
+## title
+Concerning the exocrine glands the term “compound” refers to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the exocrine glands the term “compound” refers to:
+## answer_a
+Its duct is branching
+## explanation_a
+Correct. Compound means the duct branches like a tree, with each branch carrying its own secretory part.
+## answer_b
+Its secretory part is branching
+## explanation_b
+A branching secretory part is what "branched" names, and it can occur under a simple duct — a simple branched gland is exactly that.
+## answer_c
+A and B
+## explanation_c
+The tempting hedge. It is true that a compound gland has many secretory parts, but the word compound is defined on the duct, and choosing both makes the term unable to distinguish anything.
+## answer_d
+Its secretory part is alveolar
+## explanation_d
+Alveolar is a shape term from a different criterion, and a compound gland may be tubular, alveolar or tubulo-alveolar.
+## correct_answer
+A
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Attribute the word "compound" to the duct alone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q54. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9972D1EB2D2D
+## title
+Concerning the exocrine glands the term “tubular” refers to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the exocrine glands the term “tubular” refers to:
+## answer_a
+Its duct is not branching
+## explanation_a
+An unbranching duct is "simple". This is the answer to the neighbouring question in the same series, and the two are routinely swapped.
+## answer_b
+Its secretory part is one unit
+## explanation_b
+The number of secretory units is not what tubular describes; a gland can have one tube or many.
+## answer_c
+Its secretory part is tubular
+## explanation_c
+Correct. Tubular means the secretory unit is a tube, as against rounded (alveolar) or flask-shaped (tubulo-alveolar).
+## answer_d
+Its secretory part is alveolar
+## explanation_d
+Alveolar is the alternative to tubular, not a synonym for it — the secretory unit is rounded rather than tube-like.
+## correct_answer
+C
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Attribute the word "tubular" to the shape of the secretory part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q53. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D547DF736C54
+## title
+Concerning the myoepithelial cells all the statements are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the myoepithelial cells all the statements are true EXCEPT:
+## answer_a
+They are spindle shaped cells
+## explanation_a
+Treat as true, so not the exception. The question books describe myo-epithelial cells as spindle-shaped and basket-like around the acinus; the department book gives no shape, so this is not sourced to it.
+## answer_b
+They contain actin and myosin
+## explanation_b
+Treat as true, so not the exception. Contractile proteins are what let the cell squeeze, though again the department book states only that the cell contracts and does not name actin and myosin.
+## answer_c
+They can contract
+## explanation_c
+True, so not the exception, and it is the one thing the department book does state — myo-epithelium is epithelium modified to contract.
+## answer_d
+They are related to the endocrine glands
+## explanation_d
+The exception, and the answer. An endocrine gland is ductless: its secretion leaves through the blood capillaries beside it, so there is no duct to squeeze it into and no work for a myo-epithelial cell to do. They belong to exocrine glands — salivary, mammary and sweat.
+## correct_answer
+D
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Reason from the duct: a gland with no duct has nothing for a myo-epithelial cell to expel secretion into.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p9 q71. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C95BC195F775
+## title
+Fundic glands of the stomach are considered as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Fundic glands of the stomach are considered as:
+## answer_a
+Simple tubular glands
+## explanation_a
+Simple tubular is the intestinal crypt: a straight unbranched tube. The trap is that both organs are in the gut and both have tubular glands.
+## answer_b
+Simple alveolar glands
+## explanation_b
+Alveolar means a rounded secretory unit. The fundic gland is a tube running down through the mucosa.
+## answer_c
+Simple branched tubular glands
+## explanation_c
+Correct. The duct does not branch, so it is simple; the secretory portion divides at its base into several tubes, so it is branched; and the units are tubes, so it is tubular.
+## answer_d
+Compound tubular glands
+## explanation_d
+Compound requires a branching duct tree, which the fundic gland does not have — it opens directly into a gastric pit.
+## correct_answer
+C
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Distinguish the fundic gland from the intestinal crypt by whether the secretory part branches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p16 q45. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3544082D62E7
+## title
+Glands are classified according to the presence or absence of ducts into:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glands are classified according to the presence or absence of ducts into:
+## answer_a
+exocrine, endocrine or mixed glands
+## explanation_a
+Correct. A duct makes a gland exocrine, no duct makes it endocrine, and having both parts makes it mixed.
+## answer_b
+serous and mucous glands
+## explanation_b
+Serous and mucous classify the nature of the secretion, which is a different one of the book's five criteria.
+## answer_c
+unicellular and multi-cellular glands
+## explanation_c
+Unicellular and multicellular classify exocrine glands by the number of secretory cells, and presuppose that the duct question has already been answered.
+## answer_d
+none of the above
+## explanation_d
+A hedge that is wrong because option A is exactly right. It is chosen when the three-way answer is misremembered as two-way, exocrine and endocrine only.
+## correct_answer
+A
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Match the duct criterion to the three classes it produces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q59. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-88381E2A6A76
+## title
+glands that lose their upper portion of cytoplasm during secretion:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+glands that lose their upper portion of cytoplasm during secretion:
+## answer_a
+apocrine
+## explanation_a
+Correct. Apocrine secretion is released together with the apex of the cell, so a piece of apical cytoplasm goes with the product.
+## answer_b
+merocrine
+## explanation_b
+Merocrine costs the cell nothing — the product leaves by exocytosis and the cell is unchanged.
+## answer_c
+holocrine
+## explanation_c
+Holocrine costs the cell everything. Losing the upper portion is the middle rung, not the last one.
+## answer_d
+autocrine
+## explanation_d
+Autocrine describes a cell that acts on itself, which is a signalling term and not one of the book's three modes of secretion.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match the loss of the cell apex to apocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q66. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D741BDD8C2DC
+## title
+Glands whose ducts have many branches are called
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glands whose ducts have many branches are called
+## answer_a
+simple
+## explanation_a
+Simple is the opposite: a duct that does not branch.
+## answer_b
+compound
+## explanation_b
+Correct. A branching duct tree is what compound means.
+## answer_c
+branched
+## explanation_c
+"Branched" is reserved for a branching secretory portion, and it is the word this question is designed to make you reach for wrongly.
+## answer_d
+alveolar
+## explanation_d
+Alveolar describes the shape of the secretory unit and says nothing about the duct.
+## correct_answer
+B
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the gland whose duct branches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q49. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-767CF8F3E5E8
+## title
+Glandular epithelium is classified according to mode of secretion into:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glandular epithelium is classified according to mode of secretion into:
+## answer_a
+Apocrine where no change occurs in the secretory cells
+## explanation_a
+The description belongs to merocrine, not apocrine. In apocrine secretion the cell does change — it loses its apex.
+## answer_b
+Merocrine where the apex of the cell is destroyed during secretion
+## explanation_b
+Backwards. Losing the apex of the cell is apocrine; merocrine leaves the cell untouched.
+## answer_c
+Merocrine where all the cell is destroyed during secretion
+## explanation_c
+Destruction of the whole cell is holocrine. This is the same swap as B, one rung further along.
+## answer_d
+Holocrine where all the cell is destroyed during secretion
+## explanation_d
+Correct. Holocrine secretion accumulates in the cell until the swollen cell ruptures and the whole cell is lost with the product.
+## correct_answer
+D
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pair each mode of secretion with the right amount of cell loss.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q34. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Each option pairs a mode with a description, and only D pairs them correctly: holocrine is the mode in which the whole cell is destroyed. A gives merocrine's description to apocrine, B gives apocrine's to merocrine, and C gives holocrine's to merocrine.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1CF8FFDE3A00
+## title
+Goblet cell is an example of all of the followings Except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Goblet cell is an example of all of the followings Except:
+## answer_a
+unicellular gland
+## explanation_a
+True, so not the exception. One cell doing the secreting is exactly what unicellular means.
+## answer_b
+mucous gland
+## explanation_b
+True, so not the exception. Its product is mucus, which makes it a mucous gland.
+## answer_c
+Simple columnar secretory epithelium
+## explanation_c
+The exception, and the answer, and a fine trap: goblet cells really do sit within simple columnar epithelium in the intestine. But "simple columnar secretory epithelium" names the surface epithelium around the cell, not the cell itself, and the goblet cell is also found in pseudostratified columnar ciliated epithelium, where that description would be wrong outright.
+## answer_d
+exocrine gland
+## explanation_d
+True, so not the exception. Its secretion reaches a free surface rather than the blood, which makes it exocrine.
+## correct_answer
+C
+## main_concept
+CON-FND-B22A5E7A56EC8F
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Separate what the goblet cell is from the epithelium it sits in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q58. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9E6F6012FD0E
+## title
+Holocrine gland is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Holocrine gland is :
+## answer_a
+Goblet cell
+## explanation_a
+The goblet cell secretes by exocytosis and survives it, which is merocrine.
+## answer_b
+Salivary gland
+## explanation_b
+The salivary gland is merocrine — the standard example of the mode that costs the cell nothing.
+## answer_c
+Sebaceous gland
+## explanation_c
+Correct. Sebum is disintegrated sebaceous cells: the cell fills with lipid, swells, ruptures and becomes the secretion.
+## answer_d
+Lactating mammary gland
+## explanation_d
+The lactating mammary gland is apocrine, losing only the apex. Chosen by students who know it loses something and do not check how much.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the gland that loses whole cells with its secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q64. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-21CA8E84B5EE
+## title
+Holocrine secretion:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Holocrine secretion:
+## answer_a
+Occurs in endocrine gland
+## explanation_a
+Modes of secretion are a classification of *exocrine* glands. An endocrine gland is ductless and releases hormone into blood; it has no holocrine form.
+## answer_b
+Destruction of the whole cell
+## explanation_b
+Correct. The product accumulates, the swollen cell ruptures, and the whole cell is lost with the secretion.
+## answer_c
+Destruction of apical parts of cell
+## explanation_c
+Destruction of the apical part is apocrine — one rung short.
+## answer_d
+No change in secretory cells
+## explanation_d
+No change in the secretory cell is merocrine, the commonest mode and the opposite extreme from this one.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Histology-general
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+State how much of the cell holocrine secretion destroys.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q35. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Holocrine secretion is defined as the whole cell being lost with the product, which is option B; A is false because holocrine is a mode of exocrine secretion, and C and D are the definitions of apocrine and merocrine.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-80E2879A4EBD
+## title
+if part of the apical cytoplasm is released with secretion of a gland, the gland is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+if part of the apical cytoplasm is released with secretion of a gland, the gland is:
+## answer_a
+merocrinic gland
+## explanation_a
+Merocrine secretion leaves the cell intact; nothing of the cytoplasm goes with the product.
+## answer_b
+apocrine gland
+## explanation_b
+Correct. Apocrine means the apex goes with the secretion, which is exactly what the stem describes.
+## answer_c
+holocrine gland
+## explanation_c
+Holocrine loses the entire cell, not part of it.
+## answer_d
+endocrine gland
+## explanation_d
+Endocrine is a classification by duct, not by mode. It answers a different criterion altogether, and is chosen when the "-crine" ending is read as if all four words belonged to one list.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match the loss of apical cytoplasm to apocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q10. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-871DF165B661
+## title
+Ina gland, entire cells break down to form the secretion
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Ina gland, entire cells break down to form the secretion
+## answer_a
+exocrine
+## explanation_a
+Exocrine is the class of gland, not the mode. All three modes below are exocrine, so this cannot distinguish anything.
+## answer_b
+merocrine
+## explanation_b
+Merocrine costs the cell nothing at all — the far end of the ladder from this stem.
+## answer_c
+holocrine
+## explanation_c
+Correct. Entire cells breaking down to become the product is the definition of holocrine secretion.
+## answer_d
+autocrine
+## explanation_d
+Autocrine is a signalling term for a cell acting on itself and is not one of the book's three modes.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match whole-cell destruction to holocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q50. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-DB7047F7D6AF
+## title
+Intestinal glands are considered as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Intestinal glands are considered as:
+## answer_a
+Simple tubular glands
+## explanation_a
+Correct. The intestinal crypt is a straight unbranched tube opening on the surface — simple duct, tubular secretory part, no branching.
+## answer_b
+Simple branched tubular
+## explanation_b
+Simple branched tubular is the fundic gland of the stomach. The two are the classic pair, and the whole difference is whether the secretory part divides at its base.
+## answer_c
+Compound tubular
+## explanation_c
+Compound requires a branching duct tree, which the intestine's crypts do not have.
+## answer_d
+Simple coiled tubular
+## explanation_d
+Simple coiled tubular is the sweat gland, whose tube is coiled up in the dermis. The intestinal crypt is straight.
+## correct_answer
+A
+## main_concept
+CON-FND-677595D34287F6
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Place the intestinal crypt in the combined classification.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q35. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B5491AF22BE0
+## title
+Merocrine gland is :
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Merocrine gland is :
+## answer_a
+Goblet cell
+## explanation_a
+The goblet cell is in fact merocrine as well, which makes this option arguable rather than plainly wrong. The salivary gland is the example the books intend, and the one that appears in the answer key.
+## answer_b
+Salivary gland
+## explanation_b
+Correct. The salivary gland discharges its secretion by exocytosis with no change in the secretory cell, which is merocrine and the commonest mode.
+## answer_c
+Sebaceous gland
+## explanation_c
+The sebaceous gland is holocrine: the cell is the secretion.
+## answer_d
+Lactating mammary gland
+## explanation_d
+The lactating mammary gland is apocrine, losing the apex of each cell with the milk fat.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the gland whose cells lose nothing when they secrete.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q125. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5B60428BE79F
+## title
+Mixed gland is a mixture of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mixed gland is a mixture of:
+## answer_a
+Endocrine and exocrine glands
+## explanation_a
+Correct. A mixed gland has an exocrine part with a duct system and an endocrine part without, the pancreas being the example.
+## answer_b
+Simple and compound glands
+## explanation_b
+Simple and compound are two forms of exocrine duct. A gland is one or the other, and no gland is called mixed for having both.
+## answer_c
+Unicellular and multicellular glands
+## explanation_c
+Unicellular and multicellular is another exocrine subdivision, and again not what "mixed" refers to.
+## answer_d
+Stroma and parenchyma
+## explanation_d
+Stroma and parenchyma are the supporting and working tissue of any organ, so every gland is a mixture of them. The word tells you nothing, which is what makes it a plausible-sounding distractor.
+## correct_answer
+A
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define a mixed gland by the two secretory arrangements it contains.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p7 q55. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-53440DF241C6
+## title
+modify to give secretion:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+modify to give secretion:
+## answer_a
+surface
+## explanation_a
+Surface epithelium covers surfaces and lines cavities. Some of its cells secrete — the goblet cell does — but the class is defined by covering.
+## answer_b
+glandular
+## explanation_b
+Correct. Glandular epithelium is by definition epithelium modified to act as a gland and produce secretion.
+## answer_c
+neuro-epithelium
+## explanation_c
+Neuro-epithelium is modified to receive a stimulus, not to make a product.
+## answer_d
+myo-epithelium
+## explanation_d
+Myo-epithelium is modified to contract, and it acts on secretion made by somebody else.
+## correct_answer
+B
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify the class of epithelium that is modified to secrete.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q1. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FCFC88EF38A2
+## title
+most common mechanism, secretion discharged with no change in cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+most common mechanism, secretion discharged with no change in cell:
+## answer_a
+apocrine
+## explanation_a
+Apocrine costs the cell its apex, so there is a change in the secretory cell — and it is much the rarer arrangement.
+## answer_b
+merocrine
+## explanation_b
+Correct. Merocrine secretion is discharged by exocytosis with no change in the cell, and the book names it the most common mode.
+## answer_c
+holocrine
+## explanation_c
+Holocrine destroys the cell entirely, which is the largest change of the three.
+## answer_d
+none of the above
+## explanation_d
+A hedge with no reason to be chosen: merocrine answers the stem exactly.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Name the commonest mode of secretion and state what it costs the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q3. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-09377F79E0ED
+## title
+One of the following glands is considered as apocrine gland:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following glands is considered as apocrine gland:
+## answer_a
+Sebaceous glands
+## explanation_a
+Sebaceous glands are holocrine — the whole cell becomes sebum.
+## answer_b
+Mammary gland
+## explanation_b
+Correct. The mammary gland releases milk fat wrapped in the apex of the cell, which is apocrine.
+## answer_c
+Salivary gland
+## explanation_c
+Salivary glands are merocrine, losing nothing.
+## answer_d
+Pancreas
+## explanation_d
+The exocrine pancreas is merocrine too; it is chosen when a student is looking for something unusual and picks the gland that is unusual for a different reason — it is the mixed gland.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the apocrine gland among four named glands.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p15 q38. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6718B37C4E22
+## title
+Parotid gland is considered:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Parotid gland is considered:
+## answer_a
+Mucous secreting gland
+## explanation_a
+Mucous is the sublingual gland's predominant character, not the parotid's. A mucous secretion is viscid and carries no enzymes.
+## answer_b
+Serous secreting gland
+## explanation_b
+Correct. The parotid is purely serous — a watery secretion containing enzymes, which is what serous means in this classification.
+## answer_c
+Mucoserous secreting gland
+## explanation_c
+Mucoserous is the submandibular gland, which has both cell types. Chosen by students who know the three salivary glands differ and cannot recall which is which.
+## answer_d
+Unicellular secreting gland
+## explanation_d
+Unicellular is a classification by cell number and would make the parotid a single cell. The only unicellular gland the book names is the goblet cell.
+## correct_answer
+B
+## main_concept
+CON-FND-BD4F040EFC8693
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the parotid by the nature of its secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p14 q34. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-747A2FB6EFC2
+## title
+Salivary glands are considered as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Salivary glands are considered as:
+## answer_a
+Merocrine glands
+## explanation_a
+Correct. Salivary secretion leaves by exocytosis with no change in the secretory cell, which is merocrine — and merocrine is the commonest mode.
+## answer_b
+Holocrine glands
+## explanation_b
+Holocrine is the sebaceous gland, where the whole cell is lost.
+## answer_c
+Apocrine glands
+## explanation_c
+Apocrine is the lactating mammary gland, which loses the apex of its cells.
+## answer_d
+Compound alveolar
+## explanation_d
+The interesting distractor, because it is not false — the salivary gland *is* compound tubulo-alveolar. It answers a different criterion, though: this option classifies by architecture where the other three classify by mode, and a question whose other options are all modes is asking about mode.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Classify the salivary gland by mode of secretion when a shape term is also on offer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p16 q43. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-EE04BD3704EF
+## title
+Salivary glands is an example of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Salivary glands is an example of:
+## answer_a
+exocrine gland
+## explanation_a
+True, but not the whole answer. The salivary gland has ducts, so it is exocrine.
+## answer_b
+endocrine gland
+## explanation_b
+False. An endocrine gland is ductless and sends its product into the blood; salivary secretion goes down a duct into the mouth.
+## answer_c
+Merocrine gland
+## explanation_c
+True, but not the whole answer. It secretes by exocytosis without losing any of the cell, so it is merocrine.
+## answer_d
+Both a & c
+## explanation_d
+Correct. The criteria are independent, and the same gland is exocrine under one and merocrine under another. A student who stops at the first true option has answered half the question.
+## correct_answer
+D
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recognise that one gland is classified under several criteria at once.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q61. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5601BDFFEB01
+## title
+secretion is come out with all cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+secretion is come out with all cell:
+## answer_a
+apocrine
+## explanation_a
+Apocrine loses the apex only, which is the middle of the three.
+## answer_b
+merocrine
+## explanation_b
+Merocrine loses nothing; the cell is unchanged by secreting.
+## answer_c
+holocrine
+## explanation_c
+Correct. In holocrine secretion the swollen cell ruptures and the whole cell goes out with the product.
+## answer_d
+none of the above
+## explanation_d
+There is a mode that fits the stem exactly, so a hedge cannot be right here.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match whole-cell loss to holocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q5. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B4198A04739E
+## title
+secretion is come out with apex of cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+secretion is come out with apex of cell:
+## answer_a
+apocrine
+## explanation_a
+Correct. Apocrine secretion is released together with the apex of the cell.
+## answer_b
+merocrine
+## explanation_b
+Merocrine costs the cell nothing — exocytosis leaves the membrane and cytoplasm intact.
+## answer_c
+holocrine
+## explanation_c
+Holocrine costs the whole cell, not just its apex.
+## answer_d
+none of the above
+## explanation_d
+Apocrine answers the stem exactly, so the hedge is not needed.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match loss of the cell apex to apocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q4. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-19D52946337D
+## title
+single duct with non-branching secretory cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+single duct with non-branching secretory cell:
+## answer_a
+simple non branched
+## explanation_a
+Correct. One unbranched duct makes it simple, and a secretory part that does not divide makes it non-branched.
+## answer_b
+compound
+## explanation_b
+Compound requires the duct to branch, which the stem has ruled out.
+## answer_c
+tubular
+## explanation_c
+Tubular is a shape term from the other criterion, and the stem says nothing about shape.
+## answer_d
+all the above
+## explanation_d
+A hedge that cannot hold, since compound directly contradicts the single unbranched duct in the stem.
+## correct_answer
+A
+## main_concept
+CON-FND-30381062FF7E61
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the gland in which neither the duct nor the secretory part branches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q6. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D8E2A1F5DE30
+## title
+the gland which releases its secretion by exocytosis without change is classified as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+the gland which releases its secretion by exocytosis without change is classified as:
+## answer_a
+merocrine gland
+## explanation_a
+Correct. Merocrine secretion is discharged by exocytosis with no change in the secretory cell.
+## answer_b
+apocrine gland
+## explanation_b
+Apocrine loses the apex of the cell with the product, so the cell is changed.
+## answer_c
+holocrine gland
+## explanation_c
+Holocrine loses the whole cell.
+## answer_d
+eccrine gland
+## explanation_d
+Eccrine is not one of the three modes this book recognises. Where a question book uses it, it means merocrine — which is why this option is the hardest of the four to dismiss, and why it is worth knowing the department book's list is three long.
+## correct_answer
+A
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Name the mode in which the cell is unchanged by secreting.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q3. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C8F3973AC87D
+## title
+The most common type of secretion of exocrine cells is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The most common type of secretion of exocrine cells is:
+## answer_a
+All possible types of secretion are roughly equally
+## explanation_a
+The book is explicit that one mode predominates, so an even split is not the answer. It is chosen when the fact was never learnt and the option sounds cautious.
+## answer_b
+Merocrine secretion
+## explanation_b
+Correct. Merocrine is stated to be the most common mode, which fits: it is the only one that costs the cell nothing and can therefore be repeated indefinitely.
+## answer_c
+Holocrine secretion
+## explanation_c
+Holocrine destroys a cell per secretion and is confined to a few glands such as the sebaceous.
+## answer_d
+Apocrine secretion
+## explanation_d
+Apocrine is likewise uncommon, and the lactating mammary gland is its one everyday example.
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+State which mode of secretion is the commonest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p7 q35. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-8FA8AD0F0704
+## title
+The secretions of endocrine glands are released directly
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The secretions of endocrine glands are released directly
+## answer_a
+onto the skin surface
+## explanation_a
+Delivery onto a surface is exocrine, and the skin is where several exocrine glands empty — sweat and sebaceous among them.
+## answer_b
+into the bloodstream
+## explanation_b
+Correct. An endocrine gland is ductless; its hormone passes into the blood capillaries beside the secretory cells and is carried to distant parts of the body.
+## answer_c
+into a gland duct
+## explanation_c
+A gland duct is precisely what an endocrine gland does not have. This is the definition of the class it is being distinguished from.
+## answer_d
+into the brain tissue
+## explanation_d
+Release into brain tissue would make the gland a neurosecretory structure with a local target. The defining feature of an endocrine gland is that the blood carries its product *away*.
+## correct_answer
+B
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State where an endocrine gland delivers its secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p10 q52. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-673FFE6A43CB
+## title
+The type of secretion in which cells lose part of their cytoplasm is called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of secretion in which cells lose part of their cytoplasm is called:
+## answer_a
+Merocrine
+## explanation_a
+Merocrine cells lose no cytoplasm at all.
+## answer_b
+Apocrine
+## explanation_b
+Correct. Losing part of the cytoplasm — the apex — with the product is apocrine.
+## answer_c
+Holocrine
+## explanation_c
+Holocrine cells lose all of their cytoplasm, along with everything else.
+## answer_d
+Cytocrine
+## explanation_d
+Cytocrine is not one of the book's modes. It is a real term for pigment transfer from melanocyte to keratinocyte, and here it functions purely as a plausible-sounding fourth "-crine".
+## correct_answer
+B
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match partial loss of cytoplasm to apocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q5. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-2B41A3899F8F
+## title
+When the cell is expelled as a secretory product, which term applies:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+When the cell is expelled as a secretory product, which term applies:
+## answer_a
+Merocrine
+## explanation_a
+Merocrine expels only the product; the cell stays where it is.
+## answer_b
+Apocrine
+## explanation_b
+Apocrine expels the apex of the cell along with the product, which is part of the cell rather than the cell.
+## answer_c
+Holocrine
+## explanation_c
+Correct. When the cell itself is the secretory product, the mode is holocrine.
+## answer_d
+Cytocrine
+## explanation_d
+Cytocrine is not one of the three modes, despite the "cyto-" making it sound like the one that involves whole cells. That resemblance is the trap.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match expulsion of the whole cell to holocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q6. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8D9256DE69CD
+## title
+Which of the following glands eliminates its complete cells as a secretory product
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following glands eliminates its complete cells as a secretory product
+## answer_a
+Merocrine
+## explanation_a
+Merocrine eliminates no cells; that is what makes it repeatable and the commonest mode.
+## answer_b
+Apocrine
+## explanation_b
+Apocrine eliminates the apical part of a cell, not the complete cell.
+## answer_c
+Holocrine
+## explanation_c
+Correct. Holocrine glands lose the entire cell with the secretion, and replace it from a basal reserve.
+## answer_d
+Endocrine
+## explanation_d
+Endocrine answers a different criterion — presence of a duct — and no endocrine gland is described by any of the three modes.
+## correct_answer
+C
+## main_concept
+CON-FND-D9E83D81037173
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Match elimination of complete cells to holocrine secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q1. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-3A435BE5FD9E
+## title
+which of the following is an example of mixed gland:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+which of the following is an example of mixed gland:
+## answer_a
+Thyroid gland
+## explanation_a
+The thyroid is purely endocrine. Its follicles look like secretory units with a lumen, which is what makes it tempting, but nothing leaves them by a duct.
+## answer_b
+Salivary gland
+## explanation_b
+The salivary gland is purely exocrine, and "mixed" is being read here in its other sense — a mucoserous secretion. That double meaning is the trap the question is built on.
+## answer_c
+Pancreas
+## explanation_c
+Correct. The pancreas has exocrine acini draining through a duct system and endocrine islets releasing insulin and glucagon into the blood, which is the definition of a mixed gland.
+## answer_d
+None of the above
+## explanation_d
+A hedge that is wrong because the pancreas is exactly the example the classification was written for.
+## correct_answer
+C
+## main_concept
+CON-FND-0A988681FF1ABF
+## library_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## topic
+Epithelium
+## subtopic
+Glandular Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the gland that has both an exocrine and an endocrine part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q50. Manifest src_1fb914ce96908301b7b1.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -5337,6 +8908,3243 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-101-60604D8E349F
+## title
+Integral proteins are represented by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Integral proteins are represented by:
+## answer_a
+Non continuous layer
+## explanation_a
+A non-continuous layer describes the way peripheral proteins are scattered over the membrane surfaces, not the integral protein.
+## answer_b
+Loosely attached to both surfaces of cell membrane
+## explanation_b
+This is the definition of a peripheral protein — loosely attached to either surface — and it is the exact opposite of an integral one. It is the option most often taken by students who read "integral" as "important" rather than as "built in".
+## answer_c
+Small molecules
+## explanation_c
+Small molecules are what integral proteins carry, not what they are. Glucose and ions cross through them; they are not made of them.
+## answer_d
+Trans. membrane protein
+## explanation_d
+Correct. Integral proteins are transmembrane: they run right through the lipid bilayer, which is what allows them to be channels for ions and water and carriers such as the sodium–potassium pump.
+## correct_answer
+D
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Histology-general
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the integral protein as the one that crosses the bilayer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p2 q2; Cytology | Module 101 questions.pdf.pdf p24 q2. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A5882AC7D924
+## title
+A teen ager presenting with slower growth rate than expected for age and delayed sexual…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A teen ager presenting with slower growth rate than expected for age and delayed sexual development, investigations may show:
+## answer_a
+Defective cell receptors and decreased hormone level in blood
+## explanation_a
+A low hormone level would explain the failure without any receptor being involved, and the point of the question is a target cell that cannot hear a message that is being sent normally.
+## answer_b
+Defective cell membrane and normal hormone level
+## explanation_b
+A defect of the whole cell membrane would not produce a picture confined to growth and sexual development. What is selective here is the receptor, not the membrane.
+## answer_c
+Defective cell receptors and normal hormone {evel
+## explanation_c
+Correct. The hormone is present in the blood at a normal level, but the target cell has no receptors on its coat to bind it, so the signal is never received — the department book gives this as a cause of dwarfism.
+## answer_d
+Defective endoplasmic reticulum receptors
+## explanation_d
+The receptors that bind circulating hormones sit on the cell coat at the external surface, where the hormone can reach them. Endoplasmic reticulum is inside the cell and a blood-borne hormone never arrives there.
+## correct_answer
+C
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Explain a failure of hormone action when the hormone level itself is normal.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p6 q3. Manifest src_4a8ddb5edfab86d624d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book's own applied note gives this exact case: despite a normal blood level of growth hormone, lack of growth hormone receptors on the target cell membrane causes a type of dwarfism. Only option C states both halves — receptors defective, hormone level normal.
+
+
+---
+
+# Item
+## id
+QM-101-B157487E0D41
+## title
+About function of cell coat, which of the followings is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+About function of cell coat, which of the followings is true:
+## answer_a
+important for cell recognition
+## explanation_a
+True, but not the whole answer. Cell recognition — one cell identifying another as self or foreign — is a cell coat function.
+## answer_b
+important for cell adhesion
+## explanation_b
+True, but not the whole answer. Adhesion of cells to each other is a cell coat function.
+## answer_c
+site of receptors
+## explanation_c
+True, but not the whole answer. The coat carries the specific receptors for drugs, hormones, bacteria and viruses.
+## answer_d
+All of the above
+## explanation_d
+Correct. Recognition, adhesion and reception are three of the coat's functions and the book lists protection and cell immunity beside them; a student who stops at the first true option has answered a third of the question.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+List all the functions of the cell coat rather than stopping at the first true one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q81. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are each stated by the department book as a cell coat function, so the only option that is not incomplete is D.
+
+
+---
+
+# Item
+## id
+QM-101-7353313311E0
+## title
+all the following statements about the cell membrane are true except
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all the following statements about the cell membrane are true except
+## answer_a
+its thickness is about 7.5.10nm
+## explanation_a
+True, so not the exception. 7.5–10 nm is the thickness the department book gives.
+## answer_b
+it is not visible by the light microscope with H, E
+## explanation_b
+True, so not the exception. The membrane is below the resolving power of the light microscope in an H&E section, which is why it has to be inferred rather than seen.
+## answer_c
+the cell coat is present on its inner surface
+## explanation_c
+The exception, and the answer. Picked by students who remember that peripheral proteins sit on both surfaces and extend that to the coat. The carbohydrate is added on the external face only; the inner surface carries the cytoskeleton instead.
+## answer_d
+Can be stained with silver or PAS
+## explanation_d
+True, so not the exception. Silver and PAS both act on the carbohydrate of the coat, and they are the only way the membrane is shown by light microscopy.
+## correct_answer
+C
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the cell coat on the outer surface and nowhere else.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q2. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1F0C9CBD6932
+## title
+All the following statements concerning gap junction (nexus) are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following statements concerning gap junction (nexus) are true EXCEPT:
+## answer_a
+Leaves an intercellular cleft 2-3 nm
+## explanation_a
+True, so not the exception. The gap junction leaves a narrow intercellular cleft — narrow, but a real one.
+## answer_b
+Minute structure bridging the gap called connexons
+## explanation_b
+True, so not the exception. The minute structures crossing that cleft are the connexons.
+## answer_c
+Each connexon consists of six subunits
+## explanation_c
+True, so not the exception. Each channel is built of six symmetrical transmembrane protein subunits.
+## answer_d
+Provides an actual fusion of adjacent two cell membranes
+## explanation_d
+The exception, and the answer. Actual fusion of the two membranes belongs to the zonula occludens, where the distance between them falls to zero. The gap junction is named for the gap it keeps; a student who has learnt "junction means the membranes join" picks this one.
+## correct_answer
+D
+## main_concept
+CON-FND-17E5245CBA11D0
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Epithelium
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish a bridged gap from a true membrane fusion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q88. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-289E0B1CBF8B
+## title
+As regards the glycocalyx:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+As regards the glycocalyx:
+## answer_a
+Present on both surfaces of cell membrane
+## explanation_a
+The coat is on the external surface only. This option is the mirror of the commonest error, and it is what students choose when they generalise from peripheral proteins, which really are on both.
+## answer_b
+Embeded in lipid bilayer
+## explanation_b
+The glycocalyx projects from the outer face of the bilayer; it is not embedded within it. What is embedded in the lipid is cholesterol and the integral proteins.
+## answer_c
+Formed of proteins & lipids
+## explanation_c
+It is formed of glycoproteins and glycolipids — that is, of the carbohydrate attached to protein and to lipid. Naming proteins and lipids without the sugar leaves out the only part that makes it a glycocalyx.
+## answer_d
+Plays a role in cell adhesion & recognition
+## explanation_d
+Correct. Adhesion and recognition are the coat's two headline functions, and both follow from its being the outermost, cell-specific layer of the cell.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Choose the true statement about the glycocalyx from three near-misses about its position and composition.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p26 q24. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-92EE60348789
+## title
+by EM cell membrane:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+by EM cell membrane:
+## answer_a
+appear formed of 3 layers
+## explanation_a
+True, but not the whole answer. Three layers is what "trilaminar" means and what "unit membrane" names.
+## answer_b
+have outer & inner electron dense
+## explanation_b
+True, but not the whole answer. The two dark lines are the electron-dense outer and inner layers.
+## answer_c
+have middle electron lucent
+## explanation_c
+True, but not the whole answer. The middle layer is electron lucent, which is why the membrane reads as two dark lines with a clear one between them.
+## answer_d
+all of the above
+## explanation_d
+Correct. The three options are one description broken into pieces, and the question is testing whether the whole trilaminar picture is held together.
+## correct_answer
+D
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Describe the trilaminar unit membrane completely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q88. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are the three parts of one statement — the unit membrane is three layers, the outer two electron dense and the middle electron lucent — so no single one of them can be the answer.
+
+
+---
+
+# Item
+## id
+QM-101-46CEB21AF3A7
+## title
+Cell coat:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell coat:
+## answer_a
+mix of glycolipid, glycoprotein
+## explanation_a
+True. The coat is a mixture of glycolipid and glycoprotein — sugar carried on the lipid and on the protein of the outer leaflet.
+## answer_b
+have receptors
+## explanation_b
+True. The receptors for drugs, hormones, bacteria and viruses are part of the coat.
+## answer_c
+on internal surface only
+## explanation_c
+False, and it is the statement the answer excludes. The coat is on the external surface only.
+## answer_d
+all except C
+## explanation_d
+Correct. A and B are true and C is false, so "all except C" is the only option that holds. A student who reads only as far as C and stops has taken the trap the option set is built around.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the one false statement in a set about the cell coat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p2 q17. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-85716F507B4B
+## title
+Cell membrane is formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane is formed of:
+## answer_a
+Lipids
+## explanation_a
+True, but not the whole answer. Lipid is the phospholipid bilayer plus cholesterol.
+## answer_b
+Carbohydrates
+## explanation_b
+True, but not the whole answer. Carbohydrate is the smallest component by mass and sits on the outer surface only, but it is a component.
+## answer_c
+Proteins
+## explanation_c
+True, but not the whole answer. Protein is about half the membrane by mass.
+## answer_d
+All of the above
+## explanation_d
+Correct. Lipid, protein and carbohydrate — the three-part answer the department book's own heading gives.
+## correct_answer
+D
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name all three molecular components of the cell membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p10 q7. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C753E50F4CB8
+## title
+Cell membrane of basophils shows receptors for:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell membrane of basophils shows receptors for:
+## answer_a
+Ig A
+## explanation_a
+IgA is the immunoglobulin of secretions — tears, saliva, gut and airway mucus. Nothing puts a receptor for it on the basophil.
+## answer_b
+Ig E
+## explanation_b
+Correct. The basophil membrane carries receptors for IgE, and that is why a second exposure to an allergen makes the cell degranulate and release its histamine.
+## answer_c
+Ig M
+## explanation_c
+IgM is the first antibody of a primary response and the largest. Chosen by students reasoning from size or from primacy, neither of which is what the receptor is selected for.
+## answer_d
+Ig D
+## explanation_d
+IgD sits on the surface of B lymphocytes as an antigen receptor. It is a membrane immunoglobulin, which makes it tempting, but it is on a different cell.
+## correct_answer
+B
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Blood
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the immunoglobulin whose receptor the basophil membrane carries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q58. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B2AD0BE7F308
+## title
+Clathrin:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Clathrin:
+## answer_a
+Is a protein coats the cytoplasmic surface of the cell membrane
+## explanation_a
+Correct. Clathrin coats the cytoplasmic surface of the membrane over the aggregated receptors, and the basket it forms is what invaginates the patch into a coated pit and then pinches it off as a coated vesicle.
+## answer_b
+Is a protein coats the outer surface of the cell membrane
+## explanation_b
+The outer surface is where the ligand and the cell coat are. A protein cage there would sit between the receptor and the molecule it has to bind. This is the option the book keys, and it is the side-swap the question is really testing.
+## answer_c
+Is a specific receptor for ligand
+## explanation_c
+Clathrin is structural, not a receptor. The receptors are separate transmembrane molecules that clathrin gathers up from the inside.
+## answer_d
+A specific enzyme presents inside the endosome
+## explanation_d
+The enzymes that digest the endosome's contents come from lysosomes. Clathrin never enters that part of the story — it is shed from the vesicle soon after it forms.
+## correct_answer
+A
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Place clathrin on the cytoplasmic side of the coated pit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p15 q44. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, and B is wrong. Clathrin assembles as a basket on the cytoplasmic surface of the membrane, pulling the pit inwards; it cannot be on the outer surface, because the outer surface is where the ligand binds and a coat there would block the very receptors the process depends on. A and B are the same sentence with the side swapped, which is the signature of a one-letter key slip. Recorded rather than silently followed.
+
+
+---
+
+# Item
+## id
+QM-101-1B606041B41E
+## title
+Coated vesicles:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Coated vesicles:
+## answer_a
+They are vesicles which derived from the cell membrane
+## explanation_a
+Correct. A coated vesicle is a piece of the cell membrane that has invaginated as a coated pit and pinched off, so it is derived from the cell membrane itself.
+## answer_b
+Coated by clathrin from the outside
+## explanation_b
+The clathrin coat is on the cytoplasmic side, not the outside. Swapping the side is the commonest error on this organelle, and it is why "all of the above" cannot be taken.
+## answer_c
+Contain ingested macromolecules as hormones
+## explanation_c
+Receptor-mediated endocytosis really does take up hormones — the book gives growth hormone as its example — but a vesicle that carries a hormone is described by its cargo, and the option that says what a coated vesicle *is* is A.
+## answer_d
+All of the above
+## explanation_d
+Not all of the above, because B has the coat on the wrong surface. This is the option chosen by students who recognise that C is defensible and assume the set is cumulative.
+## correct_answer
+A
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State where a coated vesicle comes from and which side its coat is on.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p14 q43. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D969628A2123
+## title
+Concerning highly selective lipoproteins of plasmalemma, which is false?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning highly selective lipoproteins of plasmalemma, which is false?
+## answer_a
+allows gas exchange
+## explanation_a
+True, so not the false one. Oxygen and carbon dioxide cross the lipid bilayer freely, which is the whole basis of the red cell's work.
+## answer_b
+allows escape of Hb
+## explanation_b
+False, and therefore the answer. If haemoglobin could escape, the red cell would empty itself into the plasma; selectivity means small gases pass and the large protein does not.
+## answer_c
+prevents of escape of Hb
+## explanation_c
+True, so not the false one. It is the same statement as B with the sense reversed, and having both in one option set is the point — a student who reads quickly will pick whichever they see first.
+## answer_d
+none of the above
+## explanation_d
+There is a false statement in the set, so "none of the above" cannot stand.
+## correct_answer
+B
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Blood
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise selective permeability as keeping large molecules in while letting gases through.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q70. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-184A377D9DD4
+## title
+function of cell coat:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+function of cell coat:
+## answer_a
+identification, adhesion
+## explanation_a
+True, but not the whole answer. Identification and adhesion are the two functions most often quoted.
+## answer_b
+immunity
+## explanation_b
+True, but not the whole answer. The book lists cell immunity among the coat's functions.
+## answer_c
+protection
+## explanation_c
+True, but not the whole answer. Protection is on the same list.
+## answer_d
+all the above
+## explanation_d
+Correct. The department book gives adhesion, identification, protection and cell immunity together, so any single option leaves most of the list out.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall the full list of cell coat functions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p2 q18. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-10F1B3FE279F
+## title
+function of the cell coat is /are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+function of the cell coat is /are:
+## answer_a
+cell adhesion
+## explanation_a
+True, but not the whole answer. Adhesion of one cell to another is a coat function.
+## answer_b
+cell recognition
+## explanation_b
+True, but not the whole answer. Recognition of self from foreign is a coat function.
+## answer_c
+act as specific cell receptor
+## explanation_c
+True, but not the whole answer. The specific receptors of the cell are carried on the coat.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three are coat functions; the question is asked in this shape three separate times across the books, which is a fair measure of how much weight the department puts on it.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall the full list of cell coat functions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q19. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1BC9AF49F28D
+## title
+Gap junction Is characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Gap junction Is characterized by:
+## answer_a
+Present at site of mechanical stress e.g. friction
+## explanation_a
+Sites of mechanical stress and friction are where desmosomes are, because the desmosome is the strongest junction. The gap junction is a communication device and adds almost nothing to adhesion.
+## answer_b
+Intercellular space filled with adhesive material
+## explanation_b
+An intercellular space filled with adhesive material describes the adherens junction and the desmosome, where transmembrane proteins are joined across a wide gap with calcium.
+## answer_c
+Condensation of actin at the cytoplasmic side of plasma membrane
+## explanation_c
+Condensation of actin on the cytoplasmic side is the zonula adherens. Intermediate filaments, not actin, go to the desmosome, and nothing is anchored at a gap junction.
+## answer_d
+Permits the passage of ions
+## explanation_d
+Correct. The gap junction's channels let ions and small molecules pass directly from one cytoplasm to the next, which is also how impulses travel between muscle cells.
+## correct_answer
+D
+## main_concept
+CON-FND-17E5245CBA11D0
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Histology-general
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the gap junction by what passes through it rather than by what holds it together.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q42. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C each describe a different junction — desmosome, adherens junction and adherens junction again — and only D describes the gap junction, whose channels carry ions and small molecules.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7DD4AEBF8F5F
+## title
+Glycocalyx can be detected by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycocalyx can be detected by:
+## answer_a
+H & E
+## explanation_a
+H&E shows neither the membrane nor its coat; the coat is too thin and too little coloured by either dye. This is the option taken by students who assume that anything on a routine slide must be H&E-visible.
+## answer_b
+PAS
+## explanation_b
+True, but not the whole answer. PAS is the carbohydrate stain and it does show the coat.
+## answer_c
+Ag
+## explanation_c
+True, but not the whole answer. Silver also demonstrates it.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct. Both PAS and silver work, and both work for the same reason — they are acting on the sugar of the glycoproteins and glycolipids, not on the membrane itself.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## learning_objective
+Choose the stains that demonstrate carbohydrate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p3 q16. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8364BC600AB6
+## title
+Glycocalyx is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycocalyx is:
+## answer_a
+the protein component of the cell membrane
+## explanation_a
+The protein component is the peripheral and integral proteins. "Glyco-" is the part of the word that names what this actually is.
+## answer_b
+the carbohydrate component of the cell membrane
+## explanation_b
+Correct. The glycocalyx is the carbohydrate of the cell membrane, presented as glycoproteins and glycolipids on the outer surface.
+## answer_c
+the hydrophilic end of lipid
+## explanation_c
+The hydrophilic end of the phospholipid is its head, which faces the aqueous solution. It is on the outer surface too, which is what makes this option tempting, but it is lipid, not sugar.
+## answer_d
+the hydrophobic end of lipid
+## explanation_d
+The hydrophobic end is the fatty acid tail, and it points inwards, away from the surface entirely.
+## correct_answer
+B
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the glycocalyx as the carbohydrate component of the membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p9 q66. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F8BFA6C6DF80
+## title
+Glycocalyx is formed of
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycocalyx is formed of
+## answer_a
+Molecules of lipoproteins and glycoproteins
+## explanation_a
+Lipoproteins are what the membrane as a whole is often called. The coat is specifically the sugar carried on lipid and on protein, and "lipoprotein" leaves the sugar out.
+## answer_b
+Molecules of glycolipids and glycoproteins
+## explanation_b
+Correct. Glycolipids and glycoproteins — carbohydrate attached to the lipid and to the protein of the outer leaflet.
+## answer_c
+Molecules of proteoglycans and glycoproteins
+## explanation_c
+Proteoglycans are ground substance molecules of connective tissue. They are sugar-rich, which is why the option looks plausible, but they are extracellular matrix, not membrane coat.
+## answer_d
+Molecules of phospholipids and cholesterol
+## explanation_d
+Phospholipids and cholesterol are the lipid of the bilayer itself, underneath the coat rather than part of it.
+## correct_answer
+B
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the two molecule types that make up the cell coat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q3. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-D977AEFB3ECD
+## title
+How thick is the plasma membrane?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+How thick is the plasma membrane?
+## answer_a
+7.5-10 angstroms
+## explanation_a
+Angstroms are a tenth of a nanometre, so 7.5–10 Å would be under a nanometre — thinner than a single phospholipid molecule, and thinner than one leaflet of the bilayer.
+## answer_b
+7.5-10 nanometers
+## explanation_b
+Correct. 7.5–10 nm, which is why the membrane cannot be resolved by light microscopy and needs the electron microscope.
+## answer_c
+7.5-10 micrometers
+## explanation_c
+Micrometres would make the membrane about the width of a red blood cell. The whole point of the figure is that the membrane is far below light-microscopic resolution.
+## answer_d
+7.5-10 millimeters
+## explanation_d
+Millimetres would make it visible to the naked eye. The option is in the set only to mark the far end of the unit ladder that this question is entirely about.
+## correct_answer
+B
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give membrane thickness in the correct unit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p4 q18. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-A30D22C64E3F
+## title
+In zonula occludens, distance between two cell membranes is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In zonula occludens, distance between two cell membranes is:
+## answer_a
+20 nm
+## explanation_a
+20 nm is roughly the wide intercellular space of an adherens junction or a desmosome. Chosen by students who know the tight junction is narrow but not that it is nothing.
+## answer_b
+20 um
+## explanation_b
+20 µm is a thousand times too large — wider than most whole cells, so no junction could span it.
+## answer_c
+Zero
+## explanation_c
+Correct. At the zonula occludens the two membranes fuse at points, so the distance between them falls to zero. That is why the junction seals the space and stops material passing between the cells.
+## answer_d
+200 um
+## explanation_d
+200 µm is larger still, and is in the set only as the far end of the unit ladder.
+## correct_answer
+C
+## main_concept
+CON-FND-17E5245CBA11D0
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Epithelium
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State the intercellular distance at a tight junction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p17 q53. Manifest src_d184b8378f4d66d285e0.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8DEDD9DAE098
+## title
+One of the followings is not a function of the cell membrane:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the followings is not a function of the cell membrane:
+## answer_a
+Active transport
+## explanation_a
+Active transport is a membrane function: the sodium–potassium pump is an integral protein of the membrane.
+## answer_b
+Passive diffusion
+## explanation_b
+Passive diffusion is a membrane function too, and the most basic one — gases cross the bilayer by it without any protein at all. This is the option the book keys, and taking it would mean denying that anything crosses a membrane unaided.
+## answer_c
+Phagocytosis
+## explanation_c
+Phagocytosis is a membrane function: the pseudopodia that surround a particle are membrane, and the phagosome is made from it.
+## answer_d
+RNA synthesis
+## explanation_d
+Correct. RNA synthesis is done in the nucleus on a DNA template. It is the one item on the list the plasma membrane has nothing to do with.
+## correct_answer
+D
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate what the membrane does from what the nucleus does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q14. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, and passive diffusion is a membrane function — it is the plainest one there is. RNA synthesis happens in the nucleus and is the only listed activity the membrane has no part in. The key is one letter off; the answer is D.
+
+
+---
+
+# Item
+## id
+QM-101-E4BD11256E43
+## title
+Pinocytosis is the process by which the cell membrane can engulf:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pinocytosis is the process by which the cell membrane can engulf:
+## answer_a
+Fluid droplets
+## explanation_a
+Correct. Pinocytosis is cell drinking: small invaginations of the membrane surround extracellular fluid and whatever is dissolved in it.
+## answer_b
+Solid particles
+## explanation_b
+Solid particles are taken by phagocytosis, using pseudopodia. The two words differ only in the Greek for eating and drinking, and that is the whole distinction being tested.
+## answer_c
+Bacteria
+## explanation_c
+A bacterium is a solid particle and is the department book's own example of phagocytosis by a white blood cell.
+## answer_d
+Foreign bodies
+## explanation_d
+A foreign body is again solid, and again phagocytosis. Three of the four options are the same wrong answer stated three ways, which tells you where the examiner expects the mistake.
+## correct_answer
+A
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Say what pinocytosis takes in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p25 q13. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-C0E930159466
+## title
+Protein components of the cell membrane is
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Protein components of the cell membrane is
+## answer_a
+Peripheral present inside the lipid bilayer
+## explanation_a
+Peripheral proteins are outside the lipid bilayer, on one surface or the other. Inside the bilayer is where the integral proteins are.
+## answer_b
+Peripheral small continuous molecules outside the lipid bilayer
+## explanation_b
+The first half is right — peripheral proteins are outside the bilayer — but they are not a continuous layer; they are scattered and loosely attached. "Continuous" is what makes this option false.
+## answer_c
+integral present outside the lipid bilayer
+## explanation_c
+Integral proteins are not outside the bilayer. This option and A are the same swap made in both directions, which is what the question is set to catch.
+## answer_d
+integral may cross the lipid bilayer
+## explanation_d
+Correct. Integral proteins are transmembrane: they may cross the whole bilayer, which is what lets them serve as channels and pumps.
+## correct_answer
+D
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish peripheral from integral protein by position.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q2. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Each of A, B and C states a protein type on the wrong side of the bilayer; only D — integral proteins may cross the lipid bilayer — is as the department book has it.
+
+
+---
+
+# Item
+## id
+QM-101-746B8B8470EE
+## title
+Responsible for blood Grouping:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Responsible for blood Grouping:
+## answer_a
+Cell coat on outer surface of RBCs
+## explanation_a
+Correct. The blood group antigens are glycoprotein and glycolipid molecules of the cell coat on the outer surface of the red cell — cell identification, which is exactly what the coat is for.
+## answer_b
+Cytoskeleton on the inner surface of RBCs plasma membrane
+## explanation_b
+The membrane cytoskeleton on the inner surface gives the red cell its elasticity and its biconcave shape. It faces the cytoplasm, so it cannot be what another person's antibodies recognise.
+## answer_c
+Cholesterol
+## explanation_c
+Cholesterol stabilises the bilayer. It is the same in every red cell of every group and carries no identity.
+## answer_d
+Phospholipids
+## explanation_d
+Phospholipids likewise are structural and identical between people. Only the sugar of the coat varies enough to type blood by.
+## correct_answer
+A
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Blood
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attribute the blood group antigens to the cell coat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q42. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2C563A38D3F7
+## title
+Responsible for RBCs Elasticity & flexibility:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Responsible for RBCs Elasticity & flexibility:
+## answer_a
+Cell coat on outer surface of RBCs
+## explanation_a
+The cell coat on the outer surface carries the blood group antigens. It identifies the cell; it does not give it shape. This is the paired question to `responsible-for-blood-grouping`, with the same four options, and swapping the two answers is what the pair is designed to catch.
+## answer_b
+Cytoskeleton on the inner surface of RBCs plasma membrane
+## explanation_b
+Correct. The network of peripheral proteins on the inner surface of the plasma membrane is what lets the red cell fold through a capillary narrower than itself and spring back.
+## answer_c
+Cholesterol
+## explanation_c
+Cholesterol stabilises the bilayer and restricts phospholipid movement — it makes the membrane less mobile, not more deformable.
+## answer_d
+Phospholipids
+## explanation_d
+Phospholipids form the bilayer, which is fluid but has no mechanical memory of its own. Shape and recoil come from the protein scaffold beneath it.
+## correct_answer
+B
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Blood
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute red cell deformability to the membrane cytoskeleton on the inner surface.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q43. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5E9950F9878C
+## title
+The carbohydrate coat that is found on the outer surface of the cell membrane is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The carbohydrate coat that is found on the outer surface of the cell membrane is:
+## answer_a
+plasmalemma
+## explanation_a
+Plasmalemma is the membrane itself, the structure the coat sits on.
+## answer_b
+Glycocalyx
+## explanation_b
+Correct. Glycocalyx is the name for the carbohydrate coat of the outer membrane surface.
+## answer_c
+cristae
+## explanation_c
+Cristae are the folds of the inner mitochondrial membrane. They are in the option set because this book uses one quartet of membranous terms across several questions.
+## answer_d
+cisternae
+## explanation_d
+Cisternae are the flattened sacs of the endoplasmic reticulum and the Golgi.
+## correct_answer
+B
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the carbohydrate coat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p1 q1. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6681A45B06B1
+## title
+The cell limiting membrane is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell limiting membrane is:
+## answer_a
+plasmalemma
+## explanation_a
+Correct. The plasmalemma is the limiting membrane that envelopes the cell — that is the department book's own definition of it.
+## answer_b
+Glycocalyx
+## explanation_b
+The glycocalyx is carried on the plasmalemma's outer surface. It is a coat, not a membrane, and it does not limit the cell by itself.
+## answer_c
+cristae
+## explanation_c
+Cristae are folds of the inner mitochondrial membrane, inside an organelle rather than around the cell.
+## answer_d
+cisternae
+## explanation_d
+Cisternae are the sacs of the endoplasmic reticulum, again inside the cell.
+## correct_answer
+A
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the limiting membrane of the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q9. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5ABBC3E6C206
+## title
+The cell membrane can be demonstrated by
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell membrane can be demonstrated by
+## answer_a
+H&E
+## explanation_a
+H&E does not show it. This is the option most students take, because H&E is the slide they see every week — but the membrane is below the light microscope's resolution and neither dye concentrates in it.
+## answer_b
+PAS
+## explanation_b
+Correct. PAS stains the carbohydrate of the cell coat, and it is that reaction, not the membrane itself, which makes the cell outline visible.
+## answer_c
+Sudan III
+## explanation_c
+Sudan III is a fat stain, used on frozen sections for fat inclusions. The membrane's lipid is far too little to show with it.
+## answer_d
+Orcein
+## explanation_d
+Orcein stains elastic fibres in connective tissue and has nothing to do with the cell membrane.
+## correct_answer
+B
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stains and techniques
+## learning_objective
+Choose the stain that shows the cell membrane by light microscopy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p24 q1. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7A8EE77C6B82
+## title
+The cell membrane of the mast cells have specific receptors for:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell membrane of the mast cells have specific receptors for:
+## answer_a
+IgM
+## explanation_a
+IgM is the first antibody of a primary response, made and released by plasma cells rather than bound at a mast cell surface.
+## answer_b
+IgG
+## explanation_b
+IgG is the commonest circulating immunoglobulin and the one crossing the placenta. Chosen by students reasoning from abundance.
+## answer_c
+IgA
+## explanation_c
+IgA is the immunoglobulin of secretions and is handled by epithelium, not by mast cells.
+## answer_d
+IgE
+## explanation_d
+Correct. The mast cell membrane carries IgE receptors, which is what makes it degranulate on re-exposure to an allergen — the same receptor the basophil has, and the department book compares the two cells directly.
+## correct_answer
+D
+## main_concept
+CON-FND-F2237ED98E88F3
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Connective Tissue
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the immunoglobulin whose receptor the mast cell membrane carries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q39. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5956BF7665DA
+## title
+The cell membrane’s thickness ranges from:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell membrane’s thickness ranges from:
+## answer_a
+4-6 nm thick
+## explanation_a
+4–6 nm is thinner than the bilayer plus its coat, and is roughly what a single leaflet with its head groups would measure.
+## answer_b
+6-7.5 nm thick
+## explanation_b
+6–7.5 nm brushes the bottom of the true range without reaching it. This option is set immediately below the answer, so it catches a half-remembered figure.
+## answer_c
+7.5-10 nm thick
+## explanation_c
+Correct. 7.5–10 nm is the range the department book gives.
+## answer_d
+10-30 nm thick
+## explanation_d
+10–30 nm is thicker than any plasma membrane and closer to the width of an intercellular gap at an adherens junction.
+## correct_answer
+C
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the membrane thickness as a range within the right order of magnitude.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q89. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives 7.5–10 nm, which is option C; here every option is in nanometres, so the question tests the figure rather than the unit.
+
+
+---
+
+# Item
+## id
+QM-101-3E2B2A4C58D7
+## title
+The function of cholesterol in the cell membrane is to:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The function of cholesterol in the cell membrane is to:
+## answer_a
+act as channels
+## explanation_a
+Channels are integral proteins spanning the bilayer. Cholesterol sits between the fatty acid tails and conducts nothing.
+## answer_b
+stabilize the cell membrane
+## explanation_b
+Correct. Cholesterol lies among the hydrophobic tails, restricts the movement of the phospholipids and so stabilises the membrane and modulates its fluidity.
+## answer_c
+act as receptors
+## explanation_c
+Receptors are on the cell coat and are glycoprotein. Cholesterol is buried in the lipid interior where no extracellular ligand could reach it.
+## answer_d
+both a & c are correct
+## explanation_d
+Both a and c would need cholesterol to be a channel and a receptor, and it is neither. This is the option for a student who thinks a lipid this famous must be doing more than one thing.
+## correct_answer
+B
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State what cholesterol does in the bilayer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q15. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C201BD3B8707
+## title
+The inner folds of mitochondrial membrane are called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The inner folds of mitochondrial membrane are called:
+## answer_a
+plasmalemma
+## explanation_a
+Plasmalemma is the limiting membrane of the whole cell, not a fold inside an organelle.
+## answer_b
+Glycocalyx
+## explanation_b
+Glycocalyx is the carbohydrate coat on the outer surface of the plasmalemma.
+## answer_c
+cristae
+## explanation_c
+Correct. Cristae are the folds of the inner mitochondrial membrane, and they carry the elementary particles with ATP synthase activity.
+## answer_d
+cisternae
+## explanation_d
+Cisternae are the flattened sacs of the endoplasmic reticulum and of the Golgi. This quartet of four membranous terms is reused across several questions in this book, and answering it is a matter of holding all four apart at once.
+## correct_answer
+C
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Tell the plasmalemma apart from the other membranous terms the books offer beside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q8. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6849D26CAB42
+## title
+The process by which the cell membrane engulfs a solid particle is called:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The process by which the cell membrane engulfs a solid particle is called:
+## answer_a
+microcytosis
+## explanation_a
+Microcytosis is not a process of the cell membrane. The word is invented from "micro-" by analogy and is in the set to catch a guess made on word shape.
+## answer_b
+exocytosis
+## explanation_b
+Exocytosis moves material out of the cell, not in.
+## answer_c
+phagocytosis
+## explanation_c
+Correct. Phagocytosis, cell eating: pseudopodia surround the solid particle and enclose it in a phagosome.
+## answer_d
+pinocytosis
+## explanation_d
+Pinocytosis takes in fluid. It is the paired term and the intended trap; the two differ only in what is engulfed.
+## correct_answer
+C
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Name the process that takes in a solid particle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q10. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0DEA8F1A2035
+## title
+The thickness of the cell membraneis:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The thickness of the cell membraneis:
+## answer_a
+7.5 – 10 mm
+## explanation_a
+7.5–10 mm is a centimetre-scale membrane. The option is at the far end of the unit ladder this question is built from.
+## answer_b
+7.5 – 10 µm
+## explanation_b
+7.5–10 µm is about the diameter of a red blood cell — a thousand times too thick.
+## answer_c
+7.5 – 10 nm
+## explanation_c
+Correct. 7.5–10 nm.
+## answer_d
+None of the above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## correct_answer
+C
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give membrane thickness in the correct unit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p10 q8. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-722A91AFC392
+## title
+thickness of the cell membrane is about:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+thickness of the cell membrane is about:
+## answer_a
+7.5.10nm
+## explanation_a
+Correct. 7.5–10 nm, printed here without the dash. This is the fifth time the books ask membrane thickness, and the fourth different way of setting the trap.
+## answer_b
+7.5 .10 µm
+## explanation_b
+The same figure in micrometres, a thousandfold too thick.
+## answer_c
+75.100nm
+## explanation_c
+75–100 nm is ten times the true thickness and is closer to the diameter of a small vesicle.
+## answer_d
+75.100µm
+## explanation_d
+75–100 µm is larger than most whole cells.
+## correct_answer
+A
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give membrane thickness in the correct unit and the correct order of magnitude.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q1. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4091AA357726
+## title
+uptake of extracellular fluid by the cell membrane is called
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+uptake of extracellular fluid by the cell membrane is called
+## answer_a
+phagocytosis
+## explanation_a
+Phagocytosis takes in solid particles. It is the paired term and the intended trap.
+## answer_b
+exocytosis
+## explanation_b
+Exocytosis discharges material from the cell; it is the opposite direction.
+## answer_c
+pinocytosis
+## explanation_c
+Correct. Pinocytosis, cell drinking — small invaginations of the membrane surrounding extracellular fluid.
+## answer_d
+autophagy
+## explanation_d
+Autophagy is the digestion of the cell's own worn organelles by a lysosome. It is internal and involves no uptake from outside at all.
+## correct_answer
+C
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Name the process that takes in extracellular fluid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q5. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A1121ECFAB20
+## title
+What is the limiting membrane of a cell?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+What is the limiting membrane of a cell?
+## answer_a
+Plasmalemma
+## explanation_a
+Correct. The plasmalemma is the limiting membrane enveloping the cell.
+## answer_b
+Glycocalyx
+## explanation_b
+The glycocalyx is the coat carried on the plasmalemma's outer face, not the membrane itself.
+## answer_c
+Protoplasm
+## explanation_c
+Protoplasm is the whole living content of the cell, cytoplasm and nucleus together. It is what the membrane encloses, not what encloses it.
+## answer_d
+Cristae
+## explanation_d
+Cristae are folds of the inner mitochondrial membrane.
+## correct_answer
+A
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the limiting membrane of the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q4. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-41363525B8AA
+## title
+Which molecule of the cell membrane has a stabilizing effect?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which molecule of the cell membrane has a stabilizing effect?
+## answer_a
+cholesterol
+## explanation_a
+Correct. Cholesterol sits among the fatty acid tails, restricts phospholipid movement and stabilises the bilayer.
+## answer_b
+cell coat
+## explanation_b
+The cell coat is on the outer surface and does recognition, adhesion and reception. It contributes nothing to the mechanical stability of the lipid.
+## answer_c
+Phospholipids
+## explanation_c
+Phospholipids are the component cholesterol acts on: on their own they are mobile, and that mobility is what stabilisation restrains. This is the option the book keys, and taking it reverses the relationship the question is about.
+## answer_d
+Intrinsic proteins
+## explanation_d
+Intrinsic — integral — proteins are channels, carriers and pumps. They cross the bilayer but they do not hold it together.
+## correct_answer
+A
+## main_concept
+CON-FND-85CC08A33D0A88
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+Cytology
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute membrane stabilisation to cholesterol.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p9 q2. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, phospholipids. Phospholipids are the fluid part of the membrane — cholesterol is what restricts their movement and stabilises it, and the same books key `the-function-of-cholesterol-in-the-cell-membrane-is-to` as "stabilize the cell membrane". The two questions cannot both be right, and the one with cholesterol named in the stem is the one to trust.
 
 
 ---

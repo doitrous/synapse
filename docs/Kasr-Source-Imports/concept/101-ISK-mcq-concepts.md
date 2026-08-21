@@ -2,12 +2,14 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
+    Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
+    The cell — 46 questions, 5 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
 
   Extracted from 2704 distinct questions across thirty question books and
@@ -20,7 +22,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  20 questions were excluded and 0 held back for having no
+  52 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -464,6 +466,581 @@ direct_statement
 
 ## evidence_gaps
 [clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Glandular epithelium is epithelium modified to secrete, and the presence of a duct divides glands into exocrine, endocrine and mixed
+## id
+CON-FND-0A988681FF1ABF
+## canonical_key
+glands-classified-by-presence-of-duct
+## definition
+Glandular epithelium is a type of epithelium modified to act as a gland and produce secretion. Glands are classified by the presence or absence of a duct. An exocrine gland has a secretory portion, whose cells make the secretion, and an excretory portion — the ducts — that carries it outside the gland. An endocrine gland is ductless: groups of secretory cells with blood capillaries between them, whose hormone is carried away by the blood to distant parts of the body. A mixed gland has both, an exocrine part with a duct system and an endocrine part without; the pancreas is the example. Because myo-epithelial cells exist to squeeze secretion into a duct, they are found around exocrine acini — salivary, mammary and sweat glands — and not in a ductless gland such as the thyroid.
+## explicit_objective
+Divide glands into exocrine, endocrine and mixed by whether a duct is present, and say where each sends its secretion.
+## pitfalls
+Treating "ductless" as a minor detail. It decides everything downstream: where the secretion goes (a surface or the blood), whether the gland can be classified by duct branching at all, and whether it has myo-epithelial cells.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p12 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p14 | 101 ISK
+src_510c935c09a7e7cbff32 | question_book | | p5 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p9 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p9 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p8 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p7 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p10 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p6 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Exocrine gland | Endocrine gland | Ductless gland | Mixed gland
+## article_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+The department book names no example of a mixed gland. The question books answer "pancreas" consistently, and the pancreas does have both exocrine acini with a duct system and the islets of Langerhans without, so the example is taught here; it is not this faculty's stated wording.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Exocrine glands secrete in one of three modes — merocrine, apocrine or holocrine — distinguished by how much of the cell is lost
+## id
+CON-FND-D9E83D81037173
+## canonical_key
+exocrine-gland-modes-of-secretion
+## definition
+By mode of secretion an exocrine gland is merocrine, apocrine or holocrine. Merocrine secretion is discharged outside the cell by exocytosis with no change in the secretory cell; it is the commonest mode, and the salivary glands are the example. In apocrine secretion the product is released together with the apex of the cell, so part of the apical cytoplasm is lost with it; the lactating mammary gland is the example. In holocrine secretion the product accumulates inside the cell, the swollen cell ruptures, and the whole cell is lost with the secretion; the sebaceous gland is the example.
+## explicit_objective
+Name the three modes of secretion, state how much of the cell each destroys, and give the gland that uses it.
+## pitfalls
+Reading the prefixes as if they described the secretion rather than the cost to the cell. The ladder runs none, apex, whole cell — merocrine, apocrine, holocrine — and every distractor in this leaf is one rung out of place.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_1fb914ce96908301b7b1 | question_book | | p7 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p8 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p12 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p7 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p9 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p15 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p15 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p7 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p1 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Merocrine | Apocrine | Holocrine | Mode of secretion
+## article_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+Some question books offer "eccrine" as a fourth mode alongside merocrine. The department book recognises three modes only, and eccrine is not one of them; where a book uses it, it means merocrine.
+## uncertainty
+
+## evidence_gaps
+The department book describes the three mechanisms and states explicitly that no named gland is given for any of them. Sebaceous for holocrine, lactating mammary for apocrine and salivary for merocrine come from the question books, are consistent across them and agree with general histology, but are not sourced to this faculty's own text.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+"Simple" and "compound" describe the duct, "branched" describes the secretory part, and "tubular" or "alveolar" describes its shape
+## id
+CON-FND-30381062FF7E61
+## canonical_key
+exocrine-gland-classification-by-duct-branching-and-secretory-shape
+## definition
+An exocrine gland consists of a secretory part and a duct, and each is classified separately. By branching of the duct a gland is simple, meaning its duct does not branch, or compound, meaning the duct branches like a tree with each branch carrying a secretory part; a simple gland whose secretory portion alone branches is called simple branched. By the shape of the secretory part a gland is tubular, when the secretory unit is a tube, alveolar or acinar, when it is rounded, or tubulo-alveolar, when it is flask-shaped. Every named gland carries one term from each list.
+## explicit_objective
+Say which structure the word "simple", "compound", "branched", "tubular" or "alveolar" is describing in a gland's name.
+## pitfalls
+Taking "simple branched tubular" to mean a branching duct. Simple has already settled the duct — it does not branch — so the only thing left for "branched" to describe is the secretory part.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_510c935c09a7e7cbff32 | question_book | | p5 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p13 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p15 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p7 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p9 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Simple gland | Compound gland | Branched gland | Tubular gland | Alveolar gland | Acinar gland
+## article_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Each named exocrine gland sits at one place in the combined classification — intestinal simple tubular, fundic simple branched tubular, sebaceous simple branched alveolar, salivary compound tubulo-alveolar
+## id
+CON-FND-677595D34287F6
+## canonical_key
+named-exocrine-glands-in-the-combined-classification
+## definition
+The book sets out the combined classification as nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar. The glands the question books place in them are the intestinal glands (crypts) as simple tubular, the fundic glands of the stomach as simple branched tubular, the sweat gland as simple coiled tubular, the collecting system of the kidney as compound tubular, the sebaceous gland as simple branched alveolar, and the salivary glands as compound tubulo-alveolar.
+## explicit_objective
+Place a named gland in the combined classification, reading the duct term and the secretory-shape term separately.
+## pitfalls
+Answering from the organ rather than from the architecture. The stomach and the intestine are neighbours and both have tubular glands, but the fundic gland branches at its base and the intestinal crypt does not, and that single difference is the whole answer.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_510c935c09a7e7cbff32 | question_book | | p5 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p15 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Combined classification of exocrine glands | Simple coiled tubular | Compound tubulo-alveolar
+## article_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+The department book prints the nine-way classification as diagrams with no organ named against any of them. Every organ example here comes from the question books, which are consistent with each other on all six.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The goblet cell is a unicellular exocrine gland: one flask-shaped mucous-secreting cell sitting within a surface epithelium
+## id
+CON-FND-B22A5E7A56EC8F
+## canonical_key
+goblet-cell-the-unicellular-exocrine-gland
+## definition
+By number of cells an exocrine gland is unicellular, formed of a single cell, or multicellular. The goblet cell is the unicellular example: a single flask-shaped cell that secretes mucus onto a free surface, scattered within the pseudostratified columnar ciliated epithelium of the respiratory tract and within the simple columnar epithelium of the intestine. It is exocrine because its secretion reaches a surface, and it needs no duct because it already sits on one.
+## explicit_objective
+Identify the goblet cell as a unicellular mucous exocrine gland and say where it is found.
+## pitfalls
+Calling it multicellular because it lives among many cells. The classification counts the cells that make the secretion, and there is exactly one.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_1fb914ce96908301b7b1 | question_book | | p8 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p7 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Goblet cell | Unicellular gland | Mucous cell
+## article_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+By the nature of what they make, exocrine glands are watery, serous or mucous — and the parotid is the serous one
+## id
+CON-FND-BD4F040EFC8693
+## canonical_key
+exocrine-glands-by-nature-of-secretion
+## definition
+By the nature of its secretion an exocrine gland is watery, serous — a watery secretion containing enzymes — or mucous. The parotid gland is purely serous; a gland containing both kinds of secretory cell is called mucoserous or mixed in nature, which is a different sense of "mixed" from the exocrine-plus-endocrine one.
+## explicit_objective
+Classify a gland by the nature of its secretion, and recognise the parotid as the purely serous salivary gland.
+## pitfalls
+Confusing the two meanings of mixed. A mucoserous gland is mixed in the nature of its secretion; a mixed gland proper is one with an exocrine part and an endocrine part.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Glandular Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d184b8378f4d66d285e0 | question_book | | p14 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Serous gland | Mucous gland | Mucoserous gland
+## article_ids
+ART-101-HIS-GLANDULAR-EPITHELIUM
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+The department book names no gland against watery, serous or mucous. That the parotid is serous comes from the question books.
 ## owner
 Claude
 ## publication_status
@@ -2220,6 +2797,493 @@ Blood
 
 ## article_ids
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The plasma membrane is a 7.5–10 nm trilaminar unit membrane, invisible in H&E and shown only by silver or PAS
+## id
+CON-FND-F4B7458F8B8265
+## canonical_key
+plasma-membrane-unit-membrane-em-and-thickness
+## definition
+The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. The books set it against three other membranous terms: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.
+## explicit_objective
+Give the thickness of the plasma membrane in the right unit, describe its trilaminar appearance on electron microscopy, and name the stains that show it by light microscopy.
+## pitfalls
+Reading 7.5–10 in the wrong unit. Nanometres is the only order of magnitude that fits: micrometres would make the membrane thicker than most organelles, and angstroms would make it thinner than one lipid molecule.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_6846577508f49244d715 | question_book | | p10 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Plasmalemma | Unit membrane | Trilaminar membrane
+## article_ids
+ART-101-HIS-THE-CELL
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The cell membrane is a phospholipid bilayer with cholesterol, peripheral and integral proteins, and carbohydrate on its outer face
+## id
+CON-FND-85CC08A33D0A88
+## canonical_key
+plasma-membrane-molecular-components-and-fluid-mosaic
+## definition
+The cell membrane is built of lipid, protein and carbohydrate. The lipid is phospholipid arranged as a bilayer, hydrophilic heads facing outwards to the aqueous solution on either side and hydrophobic tails directed inwards; cholesterol lies among the fatty acid tails, restricting phospholipid movement and so stabilising the membrane. Protein is about half the membrane mass and takes two forms: peripheral proteins, loosely attached to either surface, and integral or transmembrane proteins, which cross the bilayer and act as channel proteins for ions and water and as carrier proteins for small polar molecules such as glucose and for the sodium–potassium pump. The carbohydrate lies on the external surface only. Beneath the inner surface a cytoskeleton of peripheral proteins gives the red cell its elasticity and flexibility and holds its biconcave shape, while the membrane's own selective permeability lets gases cross and keeps haemoglobin in.
+## explicit_objective
+Name the three molecular components of the cell membrane, say where each sits, and give what each one does.
+## pitfalls
+Swapping peripheral for integral. Only an integral protein crosses the bilayer, and only an integral protein can be a channel or a pump; a peripheral protein rests on a surface and is loosely attached.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_6846577508f49244d715 | question_book | | p10 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
+src_6846577508f49244d715 | question_book | | p11 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p2 | 101 ISK
+src_6846577508f49244d715 | question_book | | p9 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.87
+## exam_weight_by_year
+KAU_Y1=0.87
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Fluid mosaic model | Integral protein | Peripheral protein | Membrane cholesterol
+## article_ids
+ART-101-HIS-THE-CELL
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The cell coat is the carbohydrate of the outer membrane surface, and it does the cell's recognising, adhering and receiving
+## id
+CON-FND-F2237ED98E88F3
+## canonical_key
+cell-coat-glycocalyx-composition-and-functions
+## definition
+The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only. It is not seen with haematoxylin and eosin but is demonstrated with PAS or with silver, because it is carbohydrate. It functions in cell adhesion, in cell identification and recognition, in protection and in cell immunity, and it carries the cell's specific receptors — for drugs, for hormones, for bacteria and for viruses. The blood group antigens are cell coat molecules on the erythrocyte surface, and a receptor of this kind is what makes one cell answer a signal another cell ignores.
+## explicit_objective
+State where the cell coat lies, what it is made of, how it is demonstrated, and list its functions including its work as the cell's receptor field.
+## pitfalls
+Putting the coat on the inner surface as well as the outer. It is on the outer surface only; the inner surface carries the cytoskeleton, and swapping the two is the commonest way this question is failed.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_4a8ddb5edfab86d624d8 | question_book | | p6 | 101 ISK
+src_6846577508f49244d715 | question_book | | p19 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p26 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p2 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p6 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
+src_6846577508f49244d715 | question_book | | p3 | 101 ISK
+src_6846577508f49244d715 | question_book | | p9 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p1 | 101 ISK
+src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Glycocalyx | Cell coat | Membrane receptors
+## article_ids
+ART-101-HIS-THE-CELL
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Two rows filed under this leaf name the immunoglobulin the basophil and the mast cell have membrane receptors for. The cell-specific facts belong to `basophil-granule-contents-and-anaphylaxis` and `mast-cell-identification`, both already minted in other batches; they are taught in the option explanations here rather than duplicated as a concept, because a concept already declared by a sibling leaf of this batch cannot be declared again without emitting a duplicate id.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The membrane takes material in by phagocytosis, pinocytosis or receptor-mediated endocytosis, and puts it out by exocytosis
+## id
+CON-FND-E66C68C0B80D16
+## canonical_key
+endocytosis-three-types-and-exocytosis
+## definition
+Endocytosis is the bulk movement of material into the cell by forming vesicles from the plasma membrane, and it is of three kinds. Phagocytosis, cell eating, surrounds a solid particle with pseudopodia — a white blood cell engulfing a bacterium. Pinocytosis, cell drinking, takes in extracellular fluid and what is dissolved in it through small invaginations, as the thyroid follicular cell takes up colloid. Receptor-mediated endocytosis begins when a ligand binds its receptors; the receptors aggregate over a patch of membrane that clathrin coats on its cytoplasmic side, forming a coated pit which pinches off as a coated vesicle — this is how growth hormone is taken up. Exocytosis is the reverse: a cytoplasmic vesicle fuses with the plasma membrane and discharges its contents outside without breaking the continuity of the membrane.
+## explicit_objective
+Distinguish the three types of endocytosis by what is taken in and by how the membrane does it, and contrast all three with exocytosis.
+## pitfalls
+Deciding by the size of the word rather than by what is engulfed. Phagocytosis takes solids, pinocytosis takes fluid, and receptor-mediated endocytosis takes whatever its receptor binds however little of it there is.
+## concept_type
+mechanism
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p15 | 101 ISK
+src_6846577508f49244d715 | question_book | | p14 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p25 | 101 ISK
+src_6846577508f49244d715 | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Phagocytosis | Pinocytosis | Receptor mediated endocytosis | Coated pit | Clathrin
+## article_ids
+ART-101-HIS-THE-CELL
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Four lateral junctions are told apart by the width of the intercellular space and by what is anchored on the cytoplasmic side
+## id
+CON-FND-17E5245CBA11D0
+## canonical_key
+cell-junction-types-and-what-each-does
+## definition
+Epithelial cells are linked laterally by four junctions. In the tight or occluding junction, the zonula occludens, the two adjacent cell membranes actually fuse at points through transmembrane proteins, leaving no space between them at all, and it encircles the apex of the cell like a belt, restricting passage between the cells. In the adherens junction, the zonula adherens, a wide intercellular space is bridged by transmembrane proteins joined with the help of calcium ions, and condensed protein on the cytoplasmic side binds them to actin filaments; it too encircles the cell. The macula adherens, or desmosome, has the same calcium-dependent bridging but its cytoplasmic attachment plaque anchors intermediate filaments, and it does not encircle the cell — it is scattered as circular spots and is the strongest junction, found where surfaces meet friction. The gap junction, or nexus, leaves a narrow gap bridged by channels, each built of six symmetrical transmembrane protein subunits, through which ions and small molecules pass between cells and impulses pass between muscle cells. Zonula occludens, zonula adherens and desmosome together make the junctional complex.
+## explicit_objective
+Name the four lateral cell junctions and distinguish them by intercellular spacing, by the filament each anchors, and by what each one is for.
+## pitfalls
+Attributing membrane fusion to the gap junction. Only the zonula occludens fuses the two membranes; the gap junction leaves a real gap and bridges it — that is the whole point of the name.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p13 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p17 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Zonula occludens | Zonula adherens | Macula adherens | Desmosome | Gap junction | Nexus | Connexon | Junctional complex
+## article_ids
+ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## conflicts
