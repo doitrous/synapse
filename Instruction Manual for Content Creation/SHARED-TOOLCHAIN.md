@@ -439,3 +439,47 @@ for `haem`; the label search found it in one pass.
 
 **So the search is not only a duplicate check.** Two records that disagree are worse than
 two that overlap: a student meets both and neither is marked as contested.
+
+### A label hit is not a merge instruction
+
+The search above finds records worth reading. It does not tell you what to do with one, and
+the wrong reflex — merge on a hit — is its own expensive mistake.
+
+§4 is explicit: two subjects meaning different things by the same words get **disambiguated
+labels**, not a merge. Three outcomes, and only the first removes a record:
+
+| What you found | What to do |
+|---|---|
+| Same idea, same grain | Do not mint. Reference the live ID; update it with the module attachment. |
+| Same words, different subject or grain | Mint yours with a disambiguated label. Cross-link, and record the live ID in `rejected_merge_candidate_ids` so the next lane does not re-litigate it. |
+| Two records that **disagree** | Neither is a duplicate. Add a `conflicts` line naming the record. |
+
+The worked cases:
+
+- `action potential` and `depolariz` return seven hits each, **mostly cardiac**
+  (`CON-CVS-*`). A physiology lane merging a nerve action potential into a myocyte one
+  makes both worse. Cross-link; do not merge.
+- `CON-MSK-*` holds one module's upper limb beside another's lower limb. Same namespace,
+  different content, no overlap.
+- An *identification* concept and a *function* concept are different grains — but "bone
+  cells include osteoblasts, osteocytes…" against "compare osteoblast and osteoclast by
+  origin, site, LM and EM" is close enough to need a **human decision**, not a rule.
+
+That last one is the honest limit of this protocol: the search surfaces the candidate
+reliably, and the call on grain is a judgement. Make it explicitly and record which way you
+went, so the next lane inherits a decision rather than a coincidence.
+
+### The zones that are legacy-populated
+
+Namespaces are populated where their subjects are not, so this is where a label search pays:
+
+```
+CON-IMM- 133   CON-HEM- 122   CON-INF- 121   CON-AND- 115
+CON-DEV- 111   CON-GYN- 111   CON-OBS-  87   CON-FND-  85   CON-DER-  57
+```
+
+A lane authoring biochemistry, histology, physiology or embryology is working over these
+whether or not its subject search says so. Three of one module's four subjects author
+directly into them, with direct hits rather than near-misses — G6PD and favism already live
+as `CON-HEM-A1EF4D20C85878`, bone cells as `CON-MSK-967E873EEEACE0`, sarcomere banding on
+contraction as `CON-MSK-70448A9B07D24A`.
