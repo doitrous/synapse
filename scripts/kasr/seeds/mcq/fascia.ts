@@ -203,5 +203,14 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: 'Not a question. The stem is the fragment "1i" and the three options are lines lifted from three different questions on the page — "Fibroplastin", "Formation of aponeurosis" and "Surround the muscles of the upper and lower limbs". There is no stem to rescan; what is on the page is the wreckage of a column break.',
     },
+    {
+      key: 'regarding-the-deep-fascia-puis-ae-ee-ps-i-forms-the-retinacu-4ca6d512',
+      conceptKey: 'deep-fascia-parts-functions',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Two questions in one row, with `options` empty, from the ringed 2024 script. The stem is question 100, "Regarding the deep fascia", whose four statements are inside it and half-destroyed \u2014 "forms the retinaculae", "it contains \u2026 and nerves", "loosely attached to the skin" \u2014 and it then runs on into question 101, "Which of the following terms describes a muscle that assists the prime mover in performing its action?", with its own four options. The department book\u2019s answers are that the deep fascia does form the retinacula, and that the muscle assisting the prime mover is the synergist. Neither half can be sat while they share a stem, and no seed can split a bank stem; a rescan of an unringed copy recovers both.',
+    },
   ],
 }

@@ -25,6 +25,16 @@
  * `the-basement-membrane-one-of-the-following-is-false-8973190b`, where the
  * printed key marks a true statement as the false one, and two rows where the
  * source printed no key at all.
+ *
+ * Three rows from the sat end-of-module papers are added at the end and all three
+ * are live, which makes this the only histology leaf in the batch with no
+ * exclusions. `intermediate-filam` is the one row whose answer was recovered from a
+ * marked script, and it is authored despite a stem the scanner cut down to
+ * "Intermediate filam : é a A ae": every option is identifiable and the key is
+ * high-confidence, so the row is kept with the damage recorded in its
+ * `answerOverrideReason` rather than set aside. Its stem needs retyping before a
+ * student sees it. `intermediate-filament-types-and-tumour-diagnosis` is copied
+ * verbatim from `cytoplasm.ts`, where it was minted.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -193,6 +203,22 @@ export const LEAF: McqLeafSeed = {
       gaps: [
         'The department book describes the consequences without naming the disease. "Immotile cilia syndrome" appears in the question books as an option and is used here because they use it, not because this faculty\'s text does.',
       ],
+    },
+    {
+      key: 'intermediate-filament-types-and-tumour-diagnosis',
+      label: 'Intermediate filaments are supportive, 8–10 nm, and each tissue has its own protein — which is what makes them diagnostic',
+      definition:
+        'Intermediate filaments are 8–10 nm across, between the microfilaments and the microtubules in size, and are formed by the polymerisation of tetrameric subunits that differ chemically from tissue to tissue. Their role is supportive rather than motile. Cytokeratin is the intermediate filament of epithelium, vimentin of connective tissue and muscle, desmin of muscle, neurofilaments of neurons, glial fibrillary acidic protein of glial cells, and the lamins of the nuclear envelope. Because each is tissue-specific, identifying the intermediate filament protein of a tumour by immunocytochemistry reveals the cell the tumour arose from, and that matters for its diagnosis and its treatment.',
+      objective:
+        'Give the diameter and subunit of an intermediate filament, name the six proteins and their tissues, and explain why they are used in tumour diagnosis.',
+      pitfall:
+        'Choosing microtubules for the tumour question because chemotherapy acts on microtubules. Two different tumour questions sit side by side in these books: microtubules are what a drug blocks, and intermediate filaments are what a pathologist stains.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
+      type: 'classification',
+      aliases: ['Cytokeratin', 'Vimentin', 'Desmin', 'Neurofilament', 'GFAP', 'Lamins'],
     },
   ],
 
@@ -1295,6 +1321,75 @@ export const LEAF: McqLeafSeed = {
         C: 'Correct. The desmosome shows a wide intercellular space with a dense midline where the transmembrane proteins of the two cells meet, flanked by an attachment plaque on each side.',
         D: 'The gap junction\'s space is narrow — that is what "gap" names — and it is crossed by channels rather than marked by a midline.',
       },
+    },
+    {
+      key: 'chronic-respiratory-tract-infection-may-be-caused-by-abnorma-e07e980f',
+      conceptKey: 'immotile-cilia-cause-respiratory-infection-and-infertility',
+      difficulty: 'Easy', questionType: 'Clinical application',
+      learningObjective: 'Trace chronic respiratory infection back to immotile cilia.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which states in its own applied note that inability of the cilia to move results in bacterial infection on top of accumulated secretions, causing chronic respiratory infections.',
+      explanations: {
+        a: 'Correct. Cilia sweep mucus and trapped particles up out of the airway; when they cannot beat, the secretions sit still and bacteria grow in them, which is the mechanism the book gives for chronic respiratory infection.',
+        b: 'Microvilli increase surface area for absorption and have an actin core with no motility at all. They are found in the small intestine, not the airway, so nothing they do could clear a secretion.',
+        c: 'Neurofilaments are the intermediate filaments of neurons and are purely supportive. This option is here for a student who has learnt that cilia contain filaments without learning which.',
+        d: 'The nuclear lamina is made of lamins, also intermediate filaments, and lies inside the nucleus against the inner nuclear membrane. It is as far from the apical surface of a respiratory cell as anything in the cell can be.',
+      },
+    },
+    {
+      key: 'the-communicating-type-of-junction-is-a60d9b6b',
+      conceptKey: 'gap-junction-lets-ions-and-small-molecules-through',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Name the junction classed as communicating and say what it lets through.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is taken from the department book, which names the gap junction the nexus or communicating junction and gives it as the only one of the four through which ions, small molecules and impulses pass.',
+      explanations: {
+        a: 'The tight junction is occluding: it fuses adjacent membranes into a belt round the apex of the cell precisely to stop substances passing between cells. It is the opposite of communicating.',
+        b: 'The adherens junction is adhering. Its transmembrane proteins are joined across a wide space with the help of calcium and anchored to actin filaments, and it holds cells together without conducting anything.',
+        c: 'Correct. Each channel of the gap junction is six symmetrical transmembrane protein molecules, and through them ions and small molecules move directly from one cytoplasm to the next — and impulses between muscle cells.',
+        d: 'Desmosomes are the maculae adherentes, the strongest junction, anchoring intermediate filaments at scattered spots. Strength is what they provide, not passage.',
+      },
+    },
+    {
+      key: 'intermediate-filam-a-a-ae-9348dba3',
+      conceptKey: 'intermediate-filament-types-and-tumour-diagnosis',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Recognise the lamins of the nuclear envelope as intermediate filaments, and keep microtubule and microfilament jobs off the class.',
+      answerOverride: 'a',
+      answerOverrideReason:
+        'This row is covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence, and the department book agrees — lamins are the sixth of its six named intermediate filament proteins, sited in the nuclear envelope. The row is authored despite heavy scanner noise: the stem has been cut down to "Intermediate filam : é a A ae" and three of the four options carry stray characters ("Form lamins. () (", "forested Microvilli.", "Form mitotic spin ri | division."). Every option is still identifiable and the answer is keyed, so the row is kept rather than set aside — but the stem needs retyping before a student sees it, and a rescan of page 1 of the 2022 paper is the proper fix.',
+      explanations: {
+        a: 'Correct, and confirmed by the recovered key. Lamins make up the nuclear lamina against the inner nuclear membrane, and the department book lists them among the intermediate filament proteins alongside cytokeratin, vimentin, desmin, neurofilaments and glial fibrillar acidic protein.',
+        b: 'Microvilli are formed by microfilaments — a core of actin inserted into the terminal web. The option is printed here as "forested Microvilli", which is "Form Microvilli" read badly.',
+        c: 'The mitotic spindle is microtubular and is organised by the centrioles. Intermediate filaments have exactly one function in this book, support, and take no part in cell division.',
+        d: 'Actin is the subunit of microfilaments. Intermediate filaments are the one system with chemically differing subunits — six of them, one per tissue — which is what makes identifying them useful in naming a tumour\'s cell of origin.',
+      },
+    },
+    {
+      key: 'concerning-zonula-occludens-occluding-junction-619cc1d9',
+      conceptKey: 'zonula-occludens-seals-the-space-between-cells',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Pick the true statement about the zonula occludens from a set that describes the other three junctions.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'One of the strays the extractor could not file to a leaf; it is authored here because it is a lateral junction question. The 2022 paper printed no key for it and the highlight recovery returned nothing, so the answer comes from the department book: the tight or occluding junction is where two adjacent cell membranes fuse at certain points through transmembrane proteins, encircling the apex of the cell like a belt. The book also groups all four junctions as lateral specialisations, which is what makes option a false.',
+      explanations: {
+        a: 'The apical specialisations are cilia, flagella, microvilli and stereocilia. The zonula occludens sits at the apical end of the *lateral* membrane, and the book classes it with the lateral specialisations — a distinction of position against class that this option is built on.',
+        b: 'Correct. The two membranes fuse at points via transmembrane proteins on each cell, and the belt of fusion is what restricts passage of substances between the cells.',
+        c: 'Widely separated membranes describe the zonula adherens and the desmosome, where the gap is bridged by calcium-dependent proteins. Fusion and separation are opposite arrangements, and only one junction fuses.',
+        d: 'Occurring as scattered spots is the macula adherens — macula means spot. The zonula occludens is a zonula, a belt, and encircles the cell completely.',
+      },
+    },
+    {
+      key: 'the-intercellular-space-in-macula-adherens-measures-0dd7cc14',
+      conceptKey: 'zonula-adherens-against-macula-adherens',
+      difficulty: 'Hard', questionType: 'Structural detail',
+      learningObjective: 'Not sittable: no establishable answer.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The answer cannot be established from any source this faculty accepts. The row is intact — one of the strays the extractor could not file to a leaf, with four clean numeric options, Zero, 3 nm, 15-20 nm and 30 nm — but the 2021 paper printed no key, the highlight recovery does not cover that sitting, and the department book gives no measurement for the intercellular space of any junction: it says only that the macula adherens has a wide intercellular space, against the narrow gap of the gap junction and the fusion of the zonula occludens. The general literature is not agreed either, putting the desmosome gap at anything from 20 to 35 nm, so two of the four options are defensible. Excluded rather than authored to a guess. Recoverable if a marked script of the 2021 paper turns up, or if the department publishes a figure.',
     },
   ],
 }

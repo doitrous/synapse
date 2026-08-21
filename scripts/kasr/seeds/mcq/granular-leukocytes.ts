@@ -11,6 +11,19 @@
  * what is in the granules, what the cell does with it, and what the count does
  * in disease — and a student can know one and not the others, so they are not
  * one concept with three questions.
+ *
+ * Three rows from the sat end-of-module papers are added at the end and all three
+ * are live. None carried a recovered answer, so each is worked from the department
+ * book and says so: the basophil row against its own numbers (0–1% of the count, an
+ * S-shaped nucleus, metachromatic granules), the cell-mediated immunity row against
+ * its sentence giving that arm to the T lymphocyte, and the neutrophil row against
+ * its list of specific granule contents. The neutrophil row lost two of its four
+ * options to a pen through their letters and is authored as a two-option item, the
+ * answer being one of the two that survived.
+ *
+ * `lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates` is copied verbatim
+ * from `non-granular-leukocytes.ts`, where it is minted — the paper asks it from
+ * the granulocyte side, and a rival key would halve a student's mastery of it.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -73,6 +86,25 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Histology > Blood > Granular leukocytes',
       type: 'structure_function_relationship',
       aliases: ['Basophil granules', 'Anaphylaxis', 'Basophilia'],
+      conflicts: [
+        'The recovered key for the 2022 end-of-module paper resolves its question 40 — which white blood cells contain histamine and heparin — to Eosinophils, while the department book gives histamine and heparin to the basophil and the mast cell and gives the eosinophil histaminase and sulphatase, which destroy them. The disagreement is recorded rather than resolved. The evidence in `eom-answers.json` points at the extraction rather than at either source: only three of the four option boxes were found on that page, the option that was lost is Basophils, and the candidate\'s highlight overlaps the box the key names by 13% of its area. The row is excluded in `microtechniques.ts` with the same note.',
+      ],
+    },
+    {
+      key: 'lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates',
+      label: 'The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either',
+      definition:
+        'By function there are three lymphocytes, and the department book is explicit that they cannot be told apart by light or electron microscopy — only by their surface receptors. T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity. Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell. B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody. Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.',
+      objective:
+        'Name the three functional lymphocytes, give the immunity each mediates and where each matures, and give the four functional types of T cell with their CD markers.',
+      pitfall:
+        'Trying to tell them apart down a microscope. The book says outright that all three look alike by light and electron microscopy and differ only in their surface receptors, so every question about them is a question about markers — CD4 helper, CD8 cytotoxic — and never about appearance.',
+      subject: 'haem',
+      primary: 'DIS-HIS-T02',
+      secondary: ['SYS-HEM-T01-S01-M02'],
+      modulePath: '101 ISK > Histology > Blood > Non granular leukocytes',
+      type: 'classification',
+      aliases: ['T lymphocyte', 'B lymphocyte', 'Natural killer cell', 'CD4', 'CD8', 'Cell mediated immunity', 'Humoral immunity'],
     },
   ],
 
@@ -242,6 +274,45 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'A cytology question about peroxisomes, filed here by the keyword mapper. It belongs to the Cytoplasm leaf. Not wrong, just in the wrong place, and importing it here would attach mastery evidence for a cytology concept to a blood one.',
+    },
+    {
+      key: 'regarding-basophils-they-5693d302',
+      conceptKey: 'basophil-granule-contents-and-anaphylaxis',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Pick the true statement about the basophil from a set of counts, nuclear shapes and staining claims.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer is worked from the department book. Three of the four options contradict its own numbers and descriptions — basophils are 0–1% of the count, they rise in allergy rather than in pyogenic infection, and their nucleus is irregular and S-shaped — while the fourth restates its sentence that their coarse granules stain metachromatically purple with toluidine blue because of their heparin.',
+      explanations: {
+        a: 'Three to eight per cent is the monocyte. Basophils are 0–1%, the rarest white cell in the book, and basophilia begins above 2%.',
+        b: 'Acute pyogenic infection raises the neutrophils, the first line of non-specific defence. The basophil rises in allergy, and its own products — histamine, heparin, leukotrienes — are what an allergic reaction is made of.',
+        c: 'A kidney-shaped nucleus is the monocyte\'s. The basophil\'s is irregular, segmented and S-shaped, and it is usually hidden altogether by the granules lying over it.',
+        d: 'Correct. The basophil\'s coarse granules are metachromatic — toluidine blue is blue and turns them purple — because of the heparin in them, and the mast cell shares the property for the same reason.',
+      },
+    },
+    {
+      key: 'which-leucocyte-is-responsible-for-cell-mediated-immunity-48f4b4fa',
+      conceptKey: 'lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Name the lymphocyte that mediates cell-mediated immunity and the one that mediates humoral immunity.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered for that sitting, so the answer comes from the department book, which says in as many words that T lymphocytes mediate cell-mediated immunity and B lymphocytes mediate humoral immunity.',
+      explanations: {
+        a: 'The B lymphocyte mediates humoral immunity: activated by antigen and by a helper T cell it becomes a plasma cell and secretes antibody. Antibody is a molecule in the plasma, which is what "humoral" means, and it is the opposite arm from the one asked for.',
+        b: 'Correct. T lymphocytes mature in the thymus, carry CD4 and CD8 receptors, and mediate cell-mediated immunity — the cytotoxic CD8 cells killing infected and neoplastic cells directly rather than through an antibody.',
+        c: 'Basophils belong to the allergic response, not to either immune arm. They secrete histamine, heparin and leukotrienes and have only limited phagocytic power.',
+        d: 'The monocyte becomes the macrophage, which presents antigen and so starts both responses — but presenting is not mediating, and the cell that carries the cell-mediated response out is the T lymphocyte.',
+      },
+    },
+    {
+      key: 'neutrophils-are-characterized-by-6-have-non-segmented-nuclel-934eb5dc',
+      conceptKey: 'neutrophil-granules-and-first-line-defence',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The stem carries one of the options and two of the four are gone. The pen crossed the letters of options b and c on this 2022 script, so the row now reads "Neutrophils are characterized by: 6 Have non segmented nuclel." — option b sitting inside the stem, its letter read as a "6" and its last word mangled — and offers only a and d, two options against a contract of four to five. Option a is damaged too, trailing the noise "i cutteond". The department book makes phagocytin one of the four contents of the neutrophil\'s specific granules, so option a would be the answer, but a question that states one of its own choices in the stem and hides two more is not sittable, and supplying them from the book would be authoring a new item. A rescan of page 4 of the 2022 paper needs to recover the letters and text of options b and c and the tail of option a.',
     },
   ],
 }

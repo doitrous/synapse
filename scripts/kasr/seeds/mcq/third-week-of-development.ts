@@ -151,6 +151,20 @@ export const LEAF: McqLeafSeed = {
       type: 'structural_description',
       aliases: ['Plasmalemma', 'Unit membrane', 'Trilaminar membrane'],
     },
+    {
+      key: 'paraxial-mesoderm-somite-derivatives',
+      label: 'Each somite splits into a sclerotome and a dermomyotome, and those become bone, dermis and muscle',
+      definition:
+        'Somites are the transverse segments of the paraxial mesoderm, which lies on both sides of the notochord and neural tube. Each somite divides obliquely into a ventromedial sclerotome and a dorsolateral dermomyotome. The sclerotome cells migrate medially to surround the notochord and neural tube and form the vertebrae and intervertebral discs. The dermomyotome subdivides into a dermatome, which forms the dermis of the skin, and a myotome, which forms the skeletal muscles of the body; the dorsal part of the dermomyotome forms the muscle and dermis of the back of the vertebral column and its ventral part those of the rest of the body, matching the dorsal and ventral primary rami of the spinal nerve.',
+      objective: 'Describe how a somite differentiates into sclerotome and dermomyotome and name what each derivative forms.',
+      pitfall: 'Reading "dermatome" here as the skin area of a spinal nerve. In the somite it is the part of the dermomyotome that makes dermis \u2014 although the two senses are related, because the dorsal and ventral parts follow the two primary rami.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T01',
+      secondary: [],
+      modulePath: '101 ISK > Anatomy > General Embryology > Third Week of Development',
+      type: 'developmental_process',
+      aliases: ['Sclerotome', 'Dermomyotome', 'Myotome', 'Paraxial mesoderm'],
+    },
   ],
 
   questions: [
@@ -530,6 +544,34 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'No correct option is present. The department book puts the transformation of the primary into the secondary — definitive — yolk sac on the thirteenth day, in the second week, and the four options offered are the first, third, fourth and fifth weeks. Either an option was lost and replaced or the question was printed without its answer; the row cannot be sat either way. A rescan of the page is needed to say which, and this is the one row in this leaf whose defect is not a duplicate, a swallowed option or a mis-set key.',
+    },
+    {
+      key: 'one-of-the-following-are-paired-structures-in-the-embryo-14f7f5b7',
+      conceptKey: 'paraxial-mesoderm-somite-derivatives',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Separate the paired structures of the early embryo from the median, unpaired ones.',
+      answerOverride: 'a',
+      answerOverrideReason: 'The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which counts somites in pairs throughout \u2014 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8 to 10 coccygeal pairs, three pairs separating each day \u2014 because the paraxial mesoderm lies on both sides of the notochord and neural tube and segments on each side. The other three options are single median structures.',
+      explanations: {
+        a: 'Correct. The paraxial mesoderm lies on both sides of the midline, so its segments come in pairs; the book counts somites in pairs from the first pair of occipital somites on the twentieth day onwards.',
+        b: 'The bucco-pharyngeal membrane is a single median structure, one of the two places where ectoderm and endoderm fuse with no mesoderm between them. There is one of it, at the cranial end of the disc.',
+        c: 'The pericardial bulge is a single midline swelling, the developing heart lifting the ventral surface of the embryo. Students pair it because the heart later has two sides, but the bulge itself is one.',
+        d: 'The allantois is a single diverticulum from the caudal wall of the yolk sac into the connecting stalk. Like the other two distractors it is median and unpaired, and it is offered because it is the least familiar of the four.',
+      },
+    },
+    {
+      key: 'neural-tube-is-formed-from-the-following-cells-61c7f665',
+      conceptKey: 'neural-plate-and-the-ectodermal-origin-of-the-nervous-system',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Give the germ layer the neural tube comes from, and say what each of the other layers offered makes instead.',
+      answerOverride: 'c',
+      answerOverrideReason: 'The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book derives the whole nervous system from the neural plate, a thickened median region of the ectoderm overlying the notochord, which folds into the neural tube; the endoderm and the two mesoderms make no part of it.',
+      explanations: {
+        a: 'Endoderm makes the epithelial lining of the gut and its glands. It lies on the opposite face of the disc from the neural plate, and a student picking it has usually confused the notochord\u2019s induction \u2014 which comes from below \u2014 with the source of the tube itself.',
+        b: 'Lateral plate mesoderm splits into somatic and splanchnic layers and lines the body cavity; the neural tube is not mesodermal at all. It is offered because mesoderm is the layer that makes most of the body\u2019s bulk.',
+        c: 'Correct. The neural plate is a thickened median region of ectoderm; its edges rise as neural folds, meet and fuse to make the neural tube, and that tube becomes the brain and the spinal cord.',
+        d: 'Extra-embryonic mesoderm is outside the embryonic disc altogether \u2014 it makes the connecting stalk, the chorion and the linings of the cavities \u2014 so it can form no part of the embryo\u2019s own nervous system.',
+      },
     },
   ],
 }

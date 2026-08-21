@@ -32,6 +32,14 @@
  *
  * `ART-101-HIS-GLANDULAR-EPITHELIUM` does not exist yet; another lane is
  * writing it. Cited anyway.
+ *
+ * Five rows from the sat end-of-module papers are added at the end. The three live
+ * ones cover the three modes of secretion between them — apocrine, merocrine and,
+ * by exclusion, holocrine — and none has a recovered answer, so each is worked from
+ * the department book's one-line definitions and says so. Both exclusions are the
+ * same holocrine question, once from 2022 with its answer merged into a compound
+ * option and once from 2024 with no options at all; a rescan of either would make
+ * it live.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -996,6 +1004,69 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'The answer is neuro-epithelium — the taste bud\'s supporting (sustentacular) cells — so the question belongs to the Neuro Epithelium leaf, where that concept is declared. Worth flagging separately: the department book\'s neuro-epithelium section is three bullet points and never mentions supporting cells, so even in the right leaf this question tests something no source in this corpus states. It needs an evidence note as well as a `leaf` correction.',
+    },
+    {
+      key: 'apocrine-secretion-refers-to-43576108',
+      conceptKey: 'exocrine-gland-modes-of-secretion',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Define apocrine secretion by what the cell loses with its product.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which defines the three modes in one line each: merocrine discharges by exocytosis with no change in the cell, apocrine releases the secretion with the apex of the cell, and holocrine loses the whole cell.',
+      explanations: {
+        a: 'The most common mode is merocrine, which is how most glands work most of the time. Apocrine costs the cell part of itself and is therefore the less usual arrangement.',
+        b: 'No change in the secretory cell is merocrine, where the product leaves by exocytosis and the membrane is restored. Apocrine takes the apex away with the secretion, so there is a change by definition.',
+        c: 'Correct. In apocrine secretion the apical part of the cytoplasm is pinched off and leaves with the product — the prefix apo-, meaning off or away, is the whole definition.',
+        d: 'Losing the whole cell is holocrine, as in the sebaceous gland. The three modes form a ladder of how much of the cell is spent, and this option is one rung past the answer.',
+      },
+    },
+    {
+      key: 'simple-branched-gland-explains-that-the-ed2afc3d',
+      conceptKey: 'exocrine-gland-classification-by-duct-branching-and-secretory-shape',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Say which part of a simple branched gland is branched.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered for it, so the answer is worked from the department book: a simple gland is one with a single non-branching duct, and it is called simple branched when only the secretory portion branches. Simple always describes the duct, and branched always describes the secretory part.',
+      explanations: {
+        a: 'This inverts the naming. A branched duct makes the gland compound, and the word simple would then be wrong — the two halves of the name cannot both refer to the duct.',
+        b: 'Correct. "Simple" fixes the duct as unbranched and "branched" then has only the secretory portion left to describe.',
+        c: 'Neither part branching is a plain simple gland — simple tubular or simple alveolar — with no second word at all. Adding "branched" to the name has to mean something.',
+        d: 'Both branching is a compound gland, and a compound gland is never called simple. This is the option for a student reading "branched" as a property of the whole gland.',
+      },
+    },
+    {
+      key: 'regarding-merocrine-secretion-2e8e53fc',
+      conceptKey: 'exocrine-gland-modes-of-secretion',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Define merocrine secretion and say how common it is.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book, which gives merocrine as the most common mode, discharged by exocytosis with no change in the secretory cell. Option b is the same sentence with "least" substituted for "most", which is what makes it the item\'s trap.',
+      explanations: {
+        a: 'The whole cell coming out with the secretion is holocrine — the sebaceous gland, where the swollen cell ruptures and is lost entirely.',
+        b: 'Merocrine is the most common mode, not the least. Only one word separates this option from a true statement, and it is the word the examiner changed.',
+        c: 'The apical part leaving with the secretion is apocrine. The three modes are one question asked three ways in these papers, and each mode appears as a distractor in the others.',
+        d: 'Correct. In merocrine secretion the product leaves by exocytosis, the vesicle membrane fuses with the cell membrane and is recovered, and the cell is unchanged — which is why it can secrete indefinitely.',
+      },
+    },
+    {
+      key: 'regarding-holocrine-mode-of-glandular-secretion-33bc2ea4',
+      conceptKey: 'exocrine-gland-modes-of-secretion',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The correct option and a distractor have been merged into one entry. The candidate\'s pen crossed the letter of option d on this 2022 script, so the bank holds option c as "The whole cell is lost with secretion. =\" i, No change in secretory cells." — the answer the department book gives for holocrine secretion, run together with the merocrine option that is meant to be its rival. A student choosing that entry would be choosing both a true and a false statement at once. Recoverable by rescanning page 3 of the 2022 paper, after which it becomes a clean duplicate of the 2024 row below.',
+    },
+    {
+      key: 'regarding-the-holocrine-mode-of-dine-tion-lar-secre-2z-no-ch-83b7c46d',
+      conceptKey: 'exocrine-gland-modes-of-secretion',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No options in the bank row, and the stem itself is broken up ("Regarding the holocrine mode of dine tion: lar secre"). All four options were read into it after the pen crossed their letters, and they remain legible there: No change in secretory cells, Apex of cell come out with secretion, The whole cell is lost with secretion, The most common type. The department book makes the third of those the answer. A question with an empty option map cannot be emitted, so the row waits on a rescan of page 3 of the 2024 paper.',
     },
   ],
 }

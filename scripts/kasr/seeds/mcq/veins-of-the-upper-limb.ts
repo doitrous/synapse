@@ -179,5 +179,14 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: 'Option B was dropped in extraction, leaving A, C and D, and the contract is four to five options. No rescan is needed: this row\'s own `variants` entry preserves the source line with all four options intact, so recovery is a re-parse of the bank rather than a return to the paper. The intact copy is `one-of-the-following-structures-lies-deep-to-the-extensor-re-3a476aa5`, which is keyed and asked twice, so nothing is lost by leaving this one out.',
     },
+    {
+      key: 'cept-es-regarding-the-extensor-retinaculum-the-following-sta-20891ed1',
+      conceptKey: 'extensor-retinaculum-attachments-compartments',
+      difficulty: 'Hard', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Only one option field was recovered and it holds no readable option \u2014 "The third con al Di arty , ee _ \u201c~- anlit an ae". The other three statements are inside the stem, which itself begins with the tail of the previous question ("cept: es Regarding the extensor retinaculum, the following statements are true except"). The recovered answer sheet keys this question D, and D is exactly the field that cannot be read, so the key confirms which option the scan destroyed without making the row sittable. Two of the statements that can be read are true as printed \u2014 the retinaculum is attached laterally to the anterior border of the lower end of the radius, and the cephalic and basilic veins cross it \u2014 which makes the destroyed option the likeliest place for the exception the stem asks for. A rescan of the page recovers it.',
+    },
   ],
 }

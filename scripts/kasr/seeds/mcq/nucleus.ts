@@ -30,6 +30,27 @@
  *   - `regarding-the-ovum` is keyed C, but the department book states that
  *     female gametogenesis begins in intrauterine life, and states in its own
  *     words that the corona radiata is the outer cover — option D. *
+ * A later pass added the ten rows this leaf takes from the sat end-of-module
+ * papers. None of them carries an answer: the highlight recovery in
+ * `eom-answers.json` reaches no row in this leaf at all, so every one of the
+ * seven live answers is worked from the department book and says so in its
+ * `answerOverrideReason` — the only place a reader can tell a recovered key from
+ * a reasoned one. Three rows are excluded, all for the same reason as their
+ * counterparts in `cytoplasm.ts`: the 2022 and 2024 papers are photographs of
+ * ringed scripts, and a pen through an option letter sends that option into the
+ * stem. Two of the three hold two questions in one field and no options at all.
+ *
+ * `sex-chromatin-barr-body-is-an-inactivated-x-chromosome` is minted here. It is
+ * the only concept in this leaf the department book does not support: the book
+ * names the Barr body once, in the granular leukocyte chapter, only to say one
+ * is visible in 3-6% of female neutrophils, and never says it is an inactivated
+ * X. The 2020 paper set the question anyway, and a sat paper outranks the books,
+ * so the concept exists with a `gaps` note rather than the question being
+ * dropped. `ribosome-structure-and-origin-in-the-nucleolus` and
+ * `peroxisome-oxidase-and-catalase` are copied verbatim from `cytoplasm.ts`,
+ * where they were minted: the papers ask both from the nuclear side, and a rival
+ * key would halve a student's mastery of either.
+ *
  * `scripts/kasr/extract/mcq-bank.json` was regenerated part-way through this
  * pass: an option-repair run recovered 76 options across 69 rows that a
  * publisher watermark had split. Every row in this file was re-checked against
@@ -161,6 +182,76 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Anatomy > General Embryology > Gametes',
       type: 'structural_description',
       aliases: ['Sperm', 'Ovum', 'Corona radiata', 'Zona pellucida'],
+    },
+    {
+      key: 'sex-chromatin-barr-body-is-an-inactivated-x-chromosome',
+      label: 'The Barr body is one X chromosome switched off, so a nucleus shows one fewer Barr body than it has X chromosomes',
+      definition:
+        'Sex chromatin, or the Barr body, is an X chromosome that has been inactivated and condensed into a mass of heterochromatin — a dark plaque against the inner nuclear membrane in most cells, and the drumstick appendage on the segmented nucleus in a proportion of female neutrophils. Because exactly one X stays active in every cell, the count is always the number of X chromosomes minus one: a normal male, XY, has none; a normal female, XX, has one; Turner syndrome, XO, has a single X and therefore none at all; Klinefelter syndrome, XXY, has two X chromosomes and therefore one. It is the inactive extra X that is seen, never the active one.',
+      objective:
+        'Define the Barr body as an inactivated X chromosome and use the "number of X chromosomes minus one" rule to say which sex-chromosome constitutions show one.',
+      pitfall:
+        'Expecting Turner syndrome to show a Barr body because it is the sex-chromosome disorder students meet first. Turner is a chromosome short, not one over — with only one X there is nothing to inactivate, and it is Klinefelter\'s extra X that becomes the Barr body.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Nucleus',
+      type: 'structure_function_relationship',
+      aliases: ['Sex chromatin', 'Barr body', 'Drumstick'],
+      gaps: [
+        'The department book names the Barr body once, in the granular leukocyte chapter, only to say that one can be seen in 3-6% of female neutrophils. It nowhere states that the Barr body is an inactivated X chromosome, and it gives no sex-chromosome constitution for Turner or Klinefelter beyond XO and XXY in the nucleus chapter\'s clinical note. The 2020 end-of-module paper set the question anyway, so the concept is minted from a sat paper and this note records that the inactivation rule itself is not in the faculty\'s text.',
+      ],
+    },
+    {
+      key: 'ribosome-structure-and-origin-in-the-nucleolus',
+      label: 'A ribosome is a non-membranous particle of rRNA and protein, assembled as two unequal subunits in the nucleolus',
+      definition:
+        'A ribosome is a non-membranous particle formed of ribosomal RNA and protein, appearing on electron microscopy as an electron-dense granule 20–30 nm across. Its rRNA is formed in the nucleolus and its proteins in the cytoplasm; both unite in the nucleolus into a large and a small subunit of unequal size, which return separately to the cytoplasm and join one another only during protein synthesis, held together by the messenger RNA that threads between them. The growing polypeptide chain is carried on the large subunit. Ribosomes linked along one strand of mRNA are polyribosomes or polysomes, seen as bead-like rosettes or spiral chains.',
+      objective:
+        'Give the composition of a ribosome, say where each of its parts is made and where they are assembled, and explain what joins its two subunits.',
+      pitfall:
+        'Making the two subunits equal, or making the ribosome membranous. It is two unequal subunits and it has no membrane at all — which is why it is one of only two non-membranous organelles.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
+      type: 'structural_description',
+      aliases: ['Polyribosome', 'Polysome', 'Ribosomal subunits'],
+    },
+    {
+      key: 'peroxisome-oxidase-and-catalase',
+      label: 'A peroxisome holds oxidases that make hydrogen peroxide and catalase that destroys it',
+      definition:
+        'Peroxisomes, or microbodies, are spherical membranous vesicles bounded by a single membrane, budding off the rough endoplasmic reticulum, whose enzymes are made on free ribosomes rather than on attached ones. They hold two kinds of enzyme. The oxidases carry out beta-oxidation of long-chain fatty acids, which produces heat rather than ATP and generates hydrogen peroxide as a toxic by-product; catalase then breaks that hydrogen peroxide into water and oxygen. They are abundant in liver and kidney cells and they increase in number by division. Lack of peroxisomal enzymes affects the function of organs such as the liver.',
+      objective:
+        'Name the two enzyme groups of the peroxisome, say what each does, and distinguish the organelle from the lysosome by its enzymes.',
+      pitfall:
+        'Giving the peroxisome hydrolytic enzymes. It has oxidases and catalase; hydrolases are the lysosome\'s, and every "except" question about peroxisomes in these books is built on that one substitution.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
+      type: 'structure_function_relationship',
+      aliases: ['Microbody', 'Catalase', 'Beta oxidation'],
+    },
+    {
+      key: 'kinetochore-and-telomere-are-different-parts-of-a-chromosome',
+      label: 'The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends',
+      definition:
+        'A chromosome has two named landmarks the examiners set against each other. The centromere is the constriction holding the two sister chromatids together, and the kinetochore is the protein plate assembled on it — the point at which the microtubules of the mitotic spindle attach, so that the chromatids can be pulled to opposite poles in anaphase. The telomere is a different structure at a different place: a region of repeated DNA sequence capping each end of the chromosome, which protects that end from degradation and from fusing with its neighbours. One is a middle and an attachment; the other is an end and a cap.',
+      objective:
+        'Say what attaches to the kinetochore and when, and distinguish it from the telomere by position and by function.',
+      pitfall:
+        'Answering with the telomere because both are named parts of a chromosome and both sound like machinery. The test is position: kinetochore in the middle, at the centromere, holding the spindle; telomere at each end, holding nothing.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Cytology > Nucleus',
+      type: 'structure_function_relationship',
+      aliases: ['Kinetochore', 'Centromere', 'Telomere'],
+      gaps: [
+        'The department book names none of these structures: kinetochore, centromere and telomere appear nowhere in its text, and its nucleus chapter stops at chromatin, nucleolus and nuclear sap. The 2020 end-of-module paper set a four-option kinetochore question whose distractors are the telomere twice over, so the concept is minted from a sat paper and this note records that the answer rests on the standard definitions rather than on the faculty\'s own text.',
+      ],
     },
   ],
 
@@ -1032,6 +1123,168 @@ export const LEAF: McqLeafSeed = {
         B: 'True, but not the whole answer. A single large droplet is what does the pushing.',
         C: 'True, but not the whole answer. What is left of the cytoplasm is a thin rim around that droplet.',
         D: 'Correct. All three together are the signet ring: one huge droplet, a rim of cytoplasm and a flattened nucleus at one edge — three descriptions of a single consequence.',
+      },
+    },
+    {
+      key: 'choose-the-correct-statement-concerning-the-nucleolus-4e7d6ebb',
+      conceptKey: 'nucleolus-parts-and-ribosome-formation',
+      difficulty: 'Moderate', questionType: 'Structural detail',
+      learningObjective: 'Match each dark part of the nucleolus to the stage of ribosomal RNA it holds.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it gives the pars amorpha as the nucleolar organiser of DNA filaments carrying the rRNA genes, the pars fibrosa as strands of newly formed rRNA, and the pars granulosa as granules of mature rRNA. Only option c matches a part to the right stage.',
+      explanations: {
+        a: 'The pars amorpha holds no rRNA of any maturity — it is DNA, the nucleolar organiser carrying the genes from which rRNA is transcribed. Naming it as the mature form skips the whole sequence.',
+        b: 'Immature rRNA is the pars fibrosa, not the pars amorpha. This is the near-miss of option a and catches a student who has learnt that amorpha comes first without learning that what comes first is the gene.',
+        c: 'Correct. The pars granulosa is granules of mature ribosomal RNA, the last of the three stages: gene in the amorpha, new transcript in the fibrosa, finished product in the granulosa.',
+        d: 'The pars granulosa is the mature form. Swapping "immature" in here inverts the one fact that separates the granulosa from the fibrosa, and the four options are the two parts crossed with the two maturities precisely so that only one crossing is right.',
+      },
+    },
+    {
+      key: 'sex-chromatin-barr-body-a9e29fc6',
+      conceptKey: 'sex-chromatin-barr-body-is-an-inactivated-x-chromosome',
+      difficulty: 'Hard', questionType: 'Clinical correlation',
+      learningObjective: 'Decide which sex-chromosome constitution shows a Barr body, and say which X it is.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'No key was printed on the 2020 paper and none was recovered. The department book does not settle this one either: it names the Barr body only in the granular leukocyte chapter, to say that one is visible in 3-6% of female neutrophils, and never states that it is an inactivated X. The answer therefore rests on the inactivation rule — one X stays active, the rest condense — applied to the two constitutions the book does give, Turner XO and Klinefelter XXY. The concept carries a `gaps` note saying that the rule is not in the faculty\'s own text.',
+      explanations: {
+        a: 'Turner syndrome is XO: a single X and nothing else. With only one X there is nothing to switch off, so a Turner nucleus shows no Barr body at all — this is the option most students take, because Turner is the sex-chromosome disorder they meet first.',
+        b: 'Doubly wrong. Turner has no spare X to inactivate, and the Barr body is by definition the inactive one — the active X is never what is seen.',
+        c: 'Correct. Klinefelter syndrome is XXY, so there is one X more than the cell needs; that extra X is inactivated and condensed into the Barr body, exactly as the second X is in a normal female.',
+        d: 'The right syndrome with the wrong X. Klinefelter does have an extra X, but the one that condenses into sex chromatin is the inactivated one; the active X stays extended and invisible.',
+      },
+    },
+    {
+      key: 'the-two-ribosomal-subunits-join-each-other-in-the-9326eb11',
+      conceptKey: 'ribosome-structure-and-origin-in-the-nucleolus',
+      difficulty: 'Moderate', questionType: 'Mechanism',
+      learningObjective: 'Say where and when the two ribosomal subunits come together.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book: the two subunits are assembled in the nucleolus, return separately to the cytoplasm, and join one another only during protein synthesis. Both halves of option b come straight from that sentence.',
+      explanations: {
+        a: 'The place is right and the occasion is wrong. The subunits do meet in the cytoplasm, but they meet to translate a message, not to divide — and a cell in mitosis has largely stopped synthesising protein.',
+        b: 'Correct. The subunits leave the nucleus separately and come together on a strand of mRNA in the cytoplasm only while a protein is actually being made; when translation ends they separate again.',
+        c: 'The nucleolus is where the two subunits are assembled out of rRNA and protein, so the nucleus is a tempting answer — but they are assembled there as two separate subunits and exported as two, never as a joined ribosome.',
+        d: 'Protein synthesis does not happen in the nucleus. Combining the right occasion with the wrong compartment, this is the mirror of option a and catches the same half-knowledge from the other side.',
+      },
+    },
+    {
+      key: 'peroxisomal-enzymes-are-synthesized-by-0ed8adda',
+      conceptKey: 'peroxisome-oxidase-and-catalase',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Attribute peroxisomal enzymes to free ribosomes rather than to the reticulum the vesicle buds from.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2021 paper printed no key and none was recovered for it, so the answer comes from the department book, which says peroxisomes are membranous vesicles budding off the rough endoplasmic reticulum with enzymes made on free ribosomes. The vesicle and the enzymes have different origins, and the stem asks about the enzymes.',
+      explanations: {
+        a: 'Smooth endoplasmic reticulum makes phospholipid and steroid and detoxifies drugs. It has no ribosomes at all, so it cannot synthesise any protein, let alone an enzyme.',
+        b: 'This is the trap, and it is a good one: the peroxisome itself does bud off the rough endoplasmic reticulum. But the membrane vesicle and the enzymes inside it come from different places, and the rER makes protein for export and for other membranous organelles, not for this one.',
+        c: 'Correct. Peroxisomal oxidases and catalase are made on free ribosomes — polysomes lying loose in the cytosol — which is the general rule for protein a cell keeps for its own use.',
+        d: 'The nucleus makes RNA, not protein. No enzyme is synthesised inside it; its ribosomal subunits are exported before any translation happens.',
+      },
+    },
+    {
+      key: 'regarding-peripheral-chromatin-it-is-73b7e96c',
+      conceptKey: 'euchromatin-versus-heterochromatin',
+      difficulty: 'Hard', questionType: 'Structure and function',
+      learningObjective: 'Place peripheral chromatin among the three sites of heterochromatin and say what all chromatin is made of.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered, so the answer is worked from the department book. It defines chromatin as nucleoproteins — double-stranded DNA with histone and non-histone protein — which is true of peripheral chromatin as of any other, and it gives the three sites of heterochromatin as peripheral chromatin attached to the inner nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin. That makes b the only true statement and turns c and d into the other two sites.',
+      explanations: {
+        a: 'Peripheral chromatin is one of the three sites of heterochromatin, not of euchromatin. It is attached to the inner surface of the nuclear membrane precisely because it is coiled and condensed enough to be seen there.',
+        b: 'Correct, though it looks too general to be the answer. All chromatin is nucleoprotein — double-stranded DNA plus histone and non-histone protein — and peripheral chromatin is chromatin, so the statement holds. The other three options each attach it to the wrong place.',
+        c: 'Condensed around the nucleolus is nucleolus-associated chromatin, the third site. The three sites are set out as a list in the book and the question simply asks which one the name "peripheral" belongs to.',
+        d: 'Scattered in the nuclear sap describes chromatin islands, the second site. Peripheral chromatin is by definition not scattered — it is against the membrane.',
+      },
+    },
+    {
+      key: 'in-the-nucleolus-the-newly-formed-rrna-is-found-in-b06e5c75',
+      conceptKey: 'nucleolus-parts-and-ribosome-formation',
+      difficulty: 'Moderate', questionType: 'Structural detail',
+      learningObjective: 'Name the part of the nucleolus that holds newly transcribed ribosomal RNA.',
+      answerOverride: 'b',
+      answerOverrideReason:
+        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book, which gives the pars fibrosa as strands of newly formed rRNA and reserves the pars granulosa for the mature granules.',
+      explanations: {
+        a: 'The pars amorpha is the nucleolar organiser — the DNA carrying the rRNA genes. It is the source of the transcript, not the transcript, and the two are one step apart in the sequence.',
+        b: 'Correct. The pars fibrosa is strands of newly synthesised rRNA, the fibrillar half of the nucleolonema.',
+        c: 'Nucleolar organiser is another name for the pars amorpha, so this option is option a wearing a different label — offering both names in one option set is how the item checks that a student knows they are the same thing.',
+        d: 'The pars granulosa holds mature rRNA granules, the finished product. It is the last stage, and "newly formed" is what rules it out.',
+      },
+    },
+    {
+      key: 'the-statement-best-matches-the-euchromatin-is-6dd2fffd',
+      conceptKey: 'euchromatin-versus-heterochromatin',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Identify active genes as the defining property of euchromatin.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'No key was printed on the 2021 paper and none was recovered, so the answer comes from the department book, whose definition of euchromatin is extended, uncoiled chromatin containing active genes. Each of the other three options is a property the same page assigns to heterochromatin.',
+      explanations: {
+        a: 'Coiled chromatin is heterochromatin. Coiling is the physical fact behind the whole distinction, and it runs the other way for euchromatin, which is extended.',
+        b: 'A dark basophilic nucleus by light microscopy is the condensed nucleus of a heterochromatic, inactive cell. Euchromatin gives a pale, vesicular nucleus with a clear nucleolus.',
+        c: 'Correct. Euchromatin is the extended form carrying active genes, which is why it predominates in protein-forming cells such as the nerve cell and the liver cell.',
+        d: 'Chromatin islands are one of the three sites of heterochromatin, scattered in the nuclear sap. Euchromatin is too dispersed to form a visible clump of any kind.',
+      },
+    },
+    {
+      key: 'euchromatin-is-ly-acidophilic-6534d33f',
+      conceptKey: 'euchromatin-versus-heterochromatin',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The option set cannot be repaired. The candidate\'s pen crossed the option letters on this 2022 script, so the tail of one option has been read into the stem — which now ends "Euchromatin is: ly acidophilic", the remains of a "Deeply acidophilic" option — and two further options have been merged into one string, "Inactive chromatin. ee nuclei of small lymphocytes", which is plainly the false option "Inactive chromatin" run together with a second option about the small lymphocyte. That leaves two entries where the paper had four, one of them holding two questions\' worth of text. The department book makes "Electron lucent by EM" the true statement about euchromatin, but a row whose options cannot be told apart cannot be sat. Recoverable by rescanning page 2 of the 2022 paper.',
+    },
+    {
+      key: 'the-nucleus-of-active-protein-forming-cell-appears-a-condens-aa1cff9b',
+      conceptKey: 'euchromatin-versus-heterochromatin',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'The bank row has no options at all. This is one of the 2024 rows off a ringed script: every option letter was crossed by the pen, so the four options were read into the stem, where they are still legible as Condensed, Vesicular, heterochromatic and Electron dense by E.M. The department book answers it plainly — a pale-stained vesicular nucleus indicates an active cell, and euchromatin predominates in protein-forming cells — but options cannot be added to the bank by hand and a question with an empty option map cannot be emitted. Recoverable by rescanning page 1 of the 2024 paper.',
+    },
+    {
+      key: 'mast-cell-show-deep-acidophilic-cytoplasm-b-clock-face-nucle-3526a54c',
+      conceptKey: 'nucleus-shape-position-and-number-identify-the-cell',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No options, and two questions in one stem. The pen crossed the option letters of question 25 on the mast cell, so its options ran into the stem, and the following question — which cell synthesises connective tissue fibres and ground substance, with its own four options — followed them into the same field, along with enough optical noise ("Clock f4 m. y", "Non granular cytoplas nce", "ciproblast") that even the surviving words are unreliable. Both answers are in the department book, the surface receptor for IgE for the mast cell and the fibroblast for the second, but neither question can be emitted from this row. Recoverable by rescanning page 3 of the 2024 paper, which would split it into two.',
+    },
+    {
+      key: 'nuclear-lamins-are-63b70235',
+      conceptKey: 'nuclear-envelope-and-nuclear-pore-complex',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Place the nuclear lamina against the inner nuclear membrane and keep it apart from the nucleolar parts.',
+      answerOverride: 'd',
+      answerOverrideReason:
+        'One of the strays the extractor could not file to a leaf; it is authored here because the nuclear lamina is part of this chapter\'s envelope. The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: the inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it. The outer membrane is the rough one, studded with polyribosomes.',
+      explanations: {
+        a: 'Mature rRNA is the pars granulosa of the nucleolus. Lamins are protein — intermediate filament protein — and have nothing to do with ribosomal RNA at any stage.',
+        b: 'Newly formed rRNA is the pars fibrosa. The word "fibrosa" is doing the damage here: lamins are fibrillar too, and a student matching on the word rather than the substance lands on the wrong structure.',
+        c: 'The outer nuclear membrane is the one continuous with the rough endoplasmic reticulum and studded with polyribosomes. Nothing is attached to it on the nuclear side, because it does not face the nucleus.',
+        d: 'Correct. The nuclear lamina is a meshwork of lamins against the inner nuclear membrane, and peripheral chromatin attaches to the same surface.',
+      },
+    },
+    {
+      key: 'kinetochores-6dad55b5',
+      conceptKey: 'kinetochore-and-telomere-are-different-parts-of-a-chromosome',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Define the kinetochore by what attaches to it, and separate it from the telomere.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'One of the strays the extractor could not file to a leaf; it is authored here because it is a question about chromosome structure. No key was printed on the 2020 paper and none was recovered — and, unusually, the department book does not settle it either: the words kinetochore, centromere and telomere appear nowhere in its text. The answer is the standard definition on which the item is built, the kinetochore being the plate at the centromere to which the spindle microtubules attach, with two of the three distractors describing the telomere instead. The concept carries a `gaps` note recording that no source this faculty would accept supports it.',
+      explanations: {
+        a: 'Repeated sequence at the ends of chromosomes is the telomere. The item offers the telomere twice, described two different ways, which is how it separates students who know both terms from students who know only that both are parts of a chromosome.',
+        b: 'Every part of a chromosome is a segment of DNA, so this says nothing that distinguishes a kinetochore from anything else. A statement true of the whole cannot identify a part.',
+        c: 'Correct. The kinetochore is the protein plate assembled on the centromere, and the spindle microtubules attach to it to pull the chromatids apart in cell division.',
+        d: 'Protecting the chromosome end from destruction is the telomere\'s function — the same structure as option a, given by its job rather than its sequence.',
       },
     },
   ],

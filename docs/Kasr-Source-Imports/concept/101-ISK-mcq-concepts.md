@@ -7,8 +7,8 @@
     Blood Platelets — 20 questions, 5 concepts
     Cardiovascular system — 9 questions, 2 concepts
     Connective Tissue Cells — 98 questions, 23 concepts
-    Connective Tissue Fibres — 55 questions, 11 concepts
-    Cytoplasm — 311 questions, 29 concepts
+    Connective Tissue Fibres — 56 questions, 11 concepts
+    Cytoplasm — 313 questions, 29 concepts
     Embryonic Period — 9 questions, 2 concepts
     Fascia — 15 questions, 2 concepts
     Fetal Membranes — 77 questions, 16 concepts
@@ -31,16 +31,16 @@
     Nerve Supply of Upper Limb & Nerve Injuries — 172 questions, 29 concepts
     Nervous system — 16 questions, 4 concepts
     Neuro Epithelium — 3 questions, 1 concepts
-    Non granular leukocytes — 17 questions, 6 concepts
-    Nucleus — 80 questions, 10 concepts
+    Non granular leukocytes — 18 questions, 6 concepts
+    Nucleus — 82 questions, 11 concepts
     Pectoral Region — 34 questions, 12 concepts
-    Polarity and Membranous Specializations — 90 questions, 10 concepts
-    Red Blood Corpuscles — 63 questions, 15 concepts
+    Polarity and Membranous Specializations — 92 questions, 10 concepts
+    Red Blood Corpuscles — 64 questions, 15 concepts
     Second Week of Development — 44 questions, 10 concepts
     Shoulder Region — 50 questions, 20 concepts
     Skeletal system — 46 questions, 8 concepts
     Surface Epithelium — 135 questions, 10 concepts
-    The cell — 44 questions, 6 concepts
+    The cell — 45 questions, 7 concepts
     Third Week of Development — 35 questions, 7 concepts
     Types of Connective Tissue Proper — 21 questions, 7 concepts
     Veins of the Upper Limb — 10 questions, 3 concepts
@@ -55,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  554 questions were excluded and 0 held back for having no
+  556 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -8641,6 +8641,7 @@ src_c30d9391aa0861f41e44 | question_book | | p11 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p1 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p17 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p5 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p14 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p6 | 101 ISK
@@ -8648,9 +8649,9 @@ src_bb081b0479f7a33666cd | question_book | | p18 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.79
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.79
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -11718,6 +11719,7 @@ src_6846577508f49244d715 | question_book | | p16 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p12 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p1 | 101 ISK
+src_9487fd713153c573087f | question_book | | p1 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p5 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p28 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p4 | 101 ISK
@@ -11725,9 +11727,9 @@ src_a54bbf7a625ba2b172fc | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.79
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.79
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -28008,12 +28010,13 @@ src_620516ae7327c0f4fc2f | question_book | | p14 | 101 ISK
 src_6846577508f49244d715 | question_book | | p18 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p16 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p29 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -28793,6 +28796,137 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
+The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
+## id
+CON-FND-EB83F2B16C479F
+## canonical_key
+kinetochore-and-telomere-are-different-parts-of-a-chromosome
+## definition
+A chromosome has two named landmarks the examiners set against each other. The centromere is the constriction holding the two sister chromatids together, and the kinetochore is the protein plate assembled on it — the point at which the microtubules of the mitotic spindle attach, so that the chromatids can be pulled to opposite poles in anaphase. The telomere is a different structure at a different place: a region of repeated DNA sequence capping each end of the chromosome, which protects that end from degradation and from fusing with its neighbours. One is a middle and an attachment; the other is an end and a cap.
+## explicit_objective
+Say what attaches to the kinetochore and when, and distinguish it from the telomere by position and by function.
+## pitfalls
+Answering with the telomere because both are named parts of a chromosome and both sound like machinery. The test is position: kinetochore in the middle, at the centromere, holding the spindle; telomere at each end, holding nothing.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9487fd713153c573087f | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Kinetochore | Centromere | Telomere
+## article_ids
+ART-101-HIS-NUCLEUS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Kinetochores:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book names none of these structures: kinetochore, centromere and telomere appear nowhere in its text, and its nucleus chapter stops at chromatin, nucleolus and nuclear sap. The 2020 end-of-module paper set a four-option kinetochore question whose distractors are the telomere twice over, so the concept is minted from a sat paper and this note records that the answer rests on the standard definitions rather than on the faculty's own text.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-THE-CELL | ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NON-GRANULAR-LEUKOCYTES | ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-D846AE7AE4D1 | CLM-75C170C6210B | CLM-25314AA68FCB | CLM-96540B27ACB5
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
 The breast lies from the second to the sixth rib on a bed of pectoralis major, serratus anterior and external oblique
 ## id
 CON-MSK-CE160ABC8341C8
@@ -29236,12 +29370,13 @@ src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p2 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p7 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p9 | 101 ISK
+src_ce4292e31edea7517e7b | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -30442,12 +30577,13 @@ src_34c967631e388497dc35 | question_book | | p1 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p4 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p8 | 101 ISK
 src_c6ab1b49dc16762227e1 | question_book | | p2 | 101 ISK
+src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -34561,6 +34697,137 @@ src_b1e6dc481eaf337268d0
 [clear]
 ## atomic_claim_ids
 CLM-1E8813C96183 | CLM-D374E75C6EA1 | CLM-249826C16E35 | CLM-BF53E5828737 | CLM-3166BEFEDE9A | CLM-A259020E8A5E
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+## id
+CON-FND-14D80DE53DE835
+## canonical_key
+neuron-shape-classes-unipolar-bipolar-and-multipolar
+## definition
+A neuron is named by the number of processes leaving its cell body. A unipolar cell has one — in the human, the spinal and cranial sensory ganglion cells, whose single process divides at once into two branches, so that they are strictly pseudounipolar. A bipolar cell has two, one at each end of the cell body: the cells of the vestibular and cochlear ganglia, the bipolar cells of the retina and the olfactory receptor cells. A multipolar cell has more than two — one axon and many dendrites — and it is the commonest form, taking in the motor cells of the ventral horn of the spinal cord and the Purkinje cells of the cerebellar cortex. The class follows from the work: a cell relaying one sensory line needs two poles, and a cell gathering from thousands of inputs needs many.
+## explicit_objective
+Sort a named nerve cell into the unipolar, bipolar or multipolar class by counting the processes leaving its cell body.
+## pitfalls
+Reading "unipolar" as the simplest and so as the commonest. The multipolar cell is the commonest, and the unipolar cell of a sensory ganglion is the specialised one — a bipolar cell whose two processes have fused into a single stalk.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+[clear]
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9487fd713153c573087f | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Multipolar neuron | Bipolar neuron | Unipolar neuron | Pseudounipolar | Purkinje cell
+## article_ids
+ART-101-HIS-THE-CELL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Multipolar nerve cells are present in:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+This module's department book has no nervous tissue histology at all — its nervous system chapter is gross anatomy, and the words multipolar, bipolar, unipolar and Purkinje appear nowhere in the text. The 2020 end-of-module paper nevertheless asked where multipolar nerve cells are found, so the concept is minted from a sat paper, and the answer rests on the standard classification rather than on any statement of this faculty's. It is filed under the cytology leaf because it is a question about cell shape and because no histology leaf of 101 ISK covers nervous tissue; when a nervous tissue leaf exists, the row should be re-homed to it.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-HIS-NUCLEUS | ART-101-HIS-RED-BLOOD-CORPUSCLES | ART-101-HIS-MICROSCOPES | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_b1e6dc481eaf337268d0
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+CLM-48FA33A9DF47 | CLM-DC82924BA048 | CLM-DBFA932FF498 | CLM-0C9EE49FCEAE | CLM-466557563149
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids

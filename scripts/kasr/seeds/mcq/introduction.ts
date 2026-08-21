@@ -250,5 +250,28 @@ export const LEAF: McqLeafSeed = {
         D: 'The answer the extractor took from this page, and the reason for the override. Inferior means lower or caudal; it names a position on the vertical axis and says nothing about the midline.',
       },
     },
+    {
+      key: 'regarding-the-anatomical-planes-choose-the-correct-answer-e008c529',
+      conceptKey: 'anatomical-planes-median-coronal-horizontal',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Say which of the anatomical planes divides the body into two equal halves, and which two parts each of the others leaves behind.',
+      answerOverride: 'c',
+      answerOverrideReason: 'The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book defines the median (sagittal) plane as the vertical plane in the midline "dividing it into equal right and left halves" \u2014 the only one of the four planes it describes with the word equal. Of the coronal plane it says only that it cuts the body into an anterior and a posterior part, and of the horizontal plane into an upper and a lower part, with no claim of equality; that single word is what separates option c from options b and d.',
+      explanations: {
+        a: 'Wrong on both counts: a sagittal plane is vertical and never divides upper from lower. This is the option that pairs the right plane name with the wrong pair of parts, and it is the easiest of the four to eliminate.',
+        b: 'The coronal plane does divide the body into anterior and posterior parts, but not into equal halves \u2014 the book says "an anterior part towards the front and a posterior part towards the back" and no more, and any coronal plane through the body qualifies. The option is true in its direction and false in the word equal, which is precisely the discrimination this question is built on.',
+        c: 'Correct. The median, or sagittal, plane passes vertically in the midline and divides the body into equal right and left halves. A plane parallel to it and near it is the paramedian plane, and that one gives unequal halves \u2014 which is why the book names it separately.',
+        d: 'The transverse (horizontal) plane divides the body into upper and lower parts, but again not equal ones: it can be taken at any level. It fails on the same word as option b.',
+      },
+    },
+    {
+      key: 'which-of-the-following-bones-fo-ms-bart-of-the-axial-skeleto-a2e4a76e',
+      conceptKey: 'anatomical-planes-median-coronal-horizontal',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Two questions in one row, with `options` empty, from the ringed 2024 script. The stem is question 103, "Which of the following bones forms part of the axial skeleton?", whose options the pen destroyed entirely \u2014 not one of them survives \u2014 and it then runs on into question 104, "A plane which separates the body into an anterior and posterior part is called a", with four options that are partly readable: median plane, sagittal plane, horizontal plane, coronal plane. The concept named here is the one that owns the readable half; the axial-skeleton half is sittable elsewhere in this bank as `which-of-the-following-bones-forms-part-of-the-axial-skeleto-0eaf1181`. The department book\u2019s answer to the plane question is the coronal (frontal) plane. A rescan of an unringed copy recovers both.',
+    },
   ],
 }

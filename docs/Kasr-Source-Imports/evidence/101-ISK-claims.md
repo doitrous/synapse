@@ -1,7 +1,7 @@
 <!--
   Every assertion the 101 ISK concepts make, as claims.
 
-  1144 claims from 319 concepts.
+  1153 claims from 321 concepts.
 
   A concept asserts something and its `definition` is that assertion written
   out, so the claims are its sentences rather than a second set of facts written
@@ -9,7 +9,7 @@
   the module teaches.
 
   332 carry a citation to the department book and stand at `verified`.
-  812 do not, and stand at `needs_evidence`. That split is the point of
+  821 do not, and stand at `needs_evidence`. That split is the point of
   the file: a claim is only as good as the span under it, and the ones without a
   span are the work list for the pass that finds them.
 
@@ -27269,6 +27269,130 @@ curriculum: 101 ISK > Histology > Cytology > Nucleus
 
 # Item
 ## id
+CLM-D846AE7AE4D1
+## concept_id
+CON-FND-EB83F2B16C479F
+## subject
+A chromosome
+## predicate
+has
+## object
+two named landmarks the examiners set against each other
+## display_text
+A chromosome has two named landmarks the examiners set against each other.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-75C170C6210B
+## concept_id
+CON-FND-EB83F2B16C479F
+## subject
+The centromere
+## predicate
+is
+## object
+the constriction holding the two sister chromatids together, and the kinetochore is the protein plate assembled on it — the point at which the microtubules of the mitotic spindle attach, so that the chromatids can be pulled to opposite poles in anaphase
+## display_text
+The centromere is the constriction holding the two sister chromatids together, and the kinetochore is the protein plate assembled on it — the point at which the microtubules of the mitotic spindle attach, so that the chromatids can be pulled to opposite poles in anaphase.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-25314AA68FCB
+## concept_id
+CON-FND-EB83F2B16C479F
+## subject
+The telomere
+## predicate
+is
+## object
+a different structure at a different place: a region of repeated DNA sequence capping each end of the chromosome, which protects that end from degradation and from fusing with its neighbours
+## display_text
+The telomere is a different structure at a different place: a region of repeated DNA sequence capping each end of the chromosome, which protects that end from degradation and from fusing with its neighbours.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
+CLM-96540B27ACB5
+## concept_id
+CON-FND-EB83F2B16C479F
+## subject
+One
+## predicate
+is
+## object
+a middle and an attachment; the other is an end and a cap
+## display_text
+One is a middle and an attachment; the other is an end and a cap.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: The kinetochore is where the spindle grips a chromosome; the telomere is the repeated sequence that caps its ends
+curriculum: 101 ISK > Histology > Cytology > Nucleus
+
+---
+
+# Item
+## id
 CLM-2040E11FDEAE
 ## concept_id
 CON-MSK-CE160ABC8341C8
@@ -32317,6 +32441,161 @@ no
 ## qualifiers
 concept: Four lateral junctions are told apart by the width of the intercellular space and by what is anchored on the cytoplasmic side
 curriculum: 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+
+---
+
+# Item
+## id
+CLM-48FA33A9DF47
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+A neuron
+## predicate
+is
+## object
+named by the number of processes leaving its cell body
+## display_text
+A neuron is named by the number of processes leaving its cell body.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
+
+---
+
+# Item
+## id
+CLM-DC82924BA048
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+A unipolar cell
+## predicate
+has
+## object
+one — in the human, the spinal and cranial sensory ganglion cells, whose single process divides at once into two branches, so that they are strictly pseudounipolar
+## display_text
+A unipolar cell has one — in the human, the spinal and cranial sensory ganglion cells, whose single process divides at once into two branches, so that they are strictly pseudounipolar.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
+
+---
+
+# Item
+## id
+CLM-DBFA932FF498
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+A bipolar cell
+## predicate
+has
+## object
+two, one at each end of the cell body: the cells of the vestibular and cochlear ganglia, the bipolar cells of the retina and the olfactory receptor cells
+## display_text
+A bipolar cell has two, one at each end of the cell body: the cells of the vestibular and cochlear ganglia, the bipolar cells of the retina and the olfactory receptor cells.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
+
+---
+
+# Item
+## id
+CLM-0C9EE49FCEAE
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+A multipolar cell
+## predicate
+has
+## object
+more than two — one axon and many dendrites — and it is the commonest form, taking in the motor cells of the ventral horn of the spinal cord and the Purkinje cells of the cerebellar cortex
+## display_text
+A multipolar cell has more than two — one axon and many dendrites — and it is the commonest form, taking in the motor cells of the ventral horn of the spinal cord and the Purkinje cells of the cerebellar cortex.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
+
+---
+
+# Item
+## id
+CLM-466557563149
+## concept_id
+CON-FND-14D80DE53DE835
+## subject
+The class follows from the work: a cell relaying one sensory line needs two poles
+## predicate
+states
+## object
+The class follows from the work: a cell relaying one sensory line needs two poles, and a cell gathering from thousands of inputs needs many.
+## display_text
+The class follows from the work: a cell relaying one sensory line needs two poles, and a cell gathering from thousands of inputs needs many.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+curriculum: 101 ISK > Histology > Cytology > The cell
 
 ---
 

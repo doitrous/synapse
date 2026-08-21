@@ -7,8 +7,8 @@
     Blood Platelets — 20 questions, 5 concepts
     Cardiovascular system — 9 questions, 2 concepts
     Connective Tissue Cells — 98 questions, 23 concepts
-    Connective Tissue Fibres — 55 questions, 11 concepts
-    Cytoplasm — 311 questions, 29 concepts
+    Connective Tissue Fibres — 56 questions, 11 concepts
+    Cytoplasm — 313 questions, 29 concepts
     Embryonic Period — 9 questions, 2 concepts
     Fascia — 15 questions, 2 concepts
     Fetal Membranes — 77 questions, 16 concepts
@@ -31,16 +31,16 @@
     Nerve Supply of Upper Limb & Nerve Injuries — 172 questions, 29 concepts
     Nervous system — 16 questions, 4 concepts
     Neuro Epithelium — 3 questions, 1 concepts
-    Non granular leukocytes — 17 questions, 6 concepts
-    Nucleus — 80 questions, 10 concepts
+    Non granular leukocytes — 18 questions, 6 concepts
+    Nucleus — 82 questions, 11 concepts
     Pectoral Region — 34 questions, 12 concepts
-    Polarity and Membranous Specializations — 90 questions, 10 concepts
-    Red Blood Corpuscles — 63 questions, 15 concepts
+    Polarity and Membranous Specializations — 92 questions, 10 concepts
+    Red Blood Corpuscles — 64 questions, 15 concepts
     Second Week of Development — 44 questions, 10 concepts
     Shoulder Region — 50 questions, 20 concepts
     Skeletal system — 46 questions, 8 concepts
     Surface Epithelium — 135 questions, 10 concepts
-    The cell — 44 questions, 6 concepts
+    The cell — 45 questions, 7 concepts
     Third Week of Development — 35 questions, 7 concepts
     Types of Connective Tissue Proper — 21 questions, 7 concepts
     Veins of the Upper Limb — 10 questions, 3 concepts
@@ -55,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  554 questions were excluded and 0 held back for having no
+  556 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -21725,6 +21725,89 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: No key was printed on the 2022 paper and none was recovered for this row, so the answer comes from the department book's fibre-and-stain table: elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson, while it is silver, not orcein, that browns reticular fibres. The stem carries scanner noise where the blank was ("ottttteeudeeeeeees") but is otherwise intact.
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7898C3C68E5D
+## title
+The reticular connective tissue can be demonstrated with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The reticular connective tissue can be demonstrated with:
+## answer_a
+Toluidine blue.
+## explanation_a
+Toluidine blue is the metachromatic stain of the mast cell and the blood basophil, acting on the heparin in their granules. It shows a cell, not a fibre network.
+## answer_b
+silver.
+## explanation_b
+Correct. Reticular fibres are argyrophilic — silver-loving — and silver blackens them, which is the only way to see the stroma of a lymph node, spleen or liver as a network.
+## answer_c
+H&E.
+## explanation_c
+H&E is the option that makes the question worth asking: the department book says outright that reticular fibres are not visible in it, which is why a special stain is needed at all.
+## answer_d
+Sudan Ill.
+## explanation_d
+Sudan III stains fat orange and needs a frozen section. It identifies the adipocyte, the tissue reticular fibres also support but are not made of.
+## correct_answer
+b
+## main_concept
+CON-FND-4DBDF635382663
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## topic
+null
+## subtopic
+Connective Tissue Fibres
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Stain identification
+## learning_objective
+Name the stain that shows reticular tissue and say why H&E does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q24. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because the answer is the reticular fibre's stain. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: reticular fibres are not visible in H&E and are stained brown by silver, and its chapter on the types of connective tissue proper says reticular connective tissue is stained brown-black by silver.
+
 
 ---
 
@@ -43980,6 +44063,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2022 paper carried no key and none was recovered for this row, so the answer is taken from the department book: it describes the plasma cell as having deeply basophilic cytoplasm and an eccentric spherical nucleus whose alternating heterochromatin and euchromatin give the cart-wheel or clock-face appearance. The same description rules out options c and d directly.
+
+
+---
+
+# Item
+## id
+QM-101-468EF240E5FD
+## title
+A tumor is decided to be of epithelial origin when it contains mainly:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A tumor is decided to be of epithelial origin when it contains mainly:
+## answer_a
+Lamin.
+## explanation_a
+Lamins are intermediate filaments of the nuclear envelope, present in the nucleus of every cell. A protein every cell has cannot name a tumour's tissue of origin.
+## answer_b
+Tubulin.
+## explanation_b
+Tubulin is the subunit of microtubules, not an intermediate filament at all, and again it is universal. The option is here to catch a student answering on "filament protein" rather than on which class.
+## answer_c
+Cytokeratin.
+## explanation_c
+Correct. Cytokeratin is the intermediate filament of epithelium, so a tumour full of it is a carcinoma — of epithelial origin.
+## answer_d
+Desmin.
+## explanation_d
+Desmin is the intermediate filament of muscle. A desmin-rich tumour is a muscle tumour, which is the whole point of the technique: each of these four proteins names a different tissue.
+## correct_answer
+c
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+null
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Use the intermediate filament protein in a tumour to name the tissue it arose from.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q3. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because intermediate filaments are taught in this chapter. The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: its table of intermediate filament proteins gives cytokeratin to epithelial tissue, and its applied note says identification of these proteins is important in diagnosing tumours because the cell of origin can be recognised.
 
 
 ---
@@ -97898,6 +98064,89 @@ Answer changed from the source's: The 2021 paper carried no key and the highligh
 
 # Item
 ## id
+QM-101-981D9966E703
+## title
+The surface marker/ receptor that identifies NK cell is:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The surface marker/ receptor that identifies NK cell is:
+## answer_a
+CD16.
+## explanation_a
+Correct. CD16 is the marker the book gives for the natural killer cell — which matters precisely because the three lymphocytes are indistinguishable by microscopy and can only be told apart by their surface receptors.
+## answer_b
+CD4.
+## explanation_b
+CD4 is the helper T cell. Both CD numbers, and both lymphocytes, which is what makes this the closest wrong answer; the book gives CD4 and CD8 to the T cell alone.
+## answer_c
+lg M.
+## explanation_c
+IgM is one of the two receptors of the B lymphocyte, together with IgD. The natural killer cell carries neither T nor B receptors, and that absence is part of its definition.
+## answer_d
+Ig
+## explanation_d
+The option is truncated to "Ig" on the paper, and whichever immunoglobulin it named it would still be a B cell receptor rather than an NK marker.
+## correct_answer
+a
+## main_concept
+CON-HEM-FDAC2D5F64032E
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## topic
+null
+## subtopic
+Non granular leukocytes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Give the surface marker of the natural killer cell and contrast it with the T and B cell receptors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q42. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a lymphocyte marker. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: natural killer cells carry CD16 and others and have neither T nor B cell receptors.
+
+
+---
+
+# Item
+## id
 QM-101-DD564E1304C6
 ## title
 Concerning euchromatin:
@@ -103208,6 +103457,172 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer comes from the department book, whose definition of euchromatin is extended, uncoiled chromatin containing active genes. Each of the other three options is a property the same page assigns to heterochromatin.
+
+
+---
+
+# Item
+## id
+QM-101-69BD0966ED83
+## title
+Nuclear Lamins are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Nuclear Lamins are:
+## answer_a
+Mature rRNA.
+## explanation_a
+Mature rRNA is the pars granulosa of the nucleolus. Lamins are protein — intermediate filament protein — and have nothing to do with ribosomal RNA at any stage.
+## answer_b
+Newly formed rRNA.
+## explanation_b
+Newly formed rRNA is the pars fibrosa. The word "fibrosa" is doing the damage here: lamins are fibrillar too, and a student matching on the word rather than the substance lands on the wrong structure.
+## answer_c
+Attached to outer nuclear membrane
+## explanation_c
+The outer nuclear membrane is the one continuous with the rough endoplasmic reticulum and studded with polyribosomes. Nothing is attached to it on the nuclear side, because it does not face the nucleus.
+## answer_d
+Attached to inner nuclear membrane
+## explanation_d
+Correct. The nuclear lamina is a meshwork of lamins against the inner nuclear membrane, and peripheral chromatin attaches to the same surface.
+## correct_answer
+d
+## main_concept
+CON-FND-C5C16B3F123155
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the nuclear lamina against the inner nuclear membrane and keep it apart from the nucleolar parts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q14. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because the nuclear lamina is part of this chapter's envelope. The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: the inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it. The outer membrane is the rough one, studded with polyribosomes.
+
+
+---
+
+# Item
+## id
+QM-101-6EE1A9B606A3
+## title
+Kinetochores:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Kinetochores:
+## answer_a
+Are regions of repeated sequence at ends of chromosomes
+## explanation_a
+Repeated sequence at the ends of chromosomes is the telomere. The item offers the telomere twice, described two different ways, which is how it separates students who know both terms from students who know only that both are parts of a chromosome.
+## answer_b
+Are segments of DNA molecules
+## explanation_b
+Every part of a chromosome is a segment of DNA, so this says nothing that distinguishes a kinetochore from anything else. A statement true of the whole cannot identify a part.
+## answer_c
+Attach to spindle fibers during cell division
+## explanation_c
+Correct. The kinetochore is the protein plate assembled on the centromere, and the spindle microtubules attach to it to pull the chromatids apart in cell division.
+## answer_d
+Protect end of chromosome from destruction
+## explanation_d
+Protecting the chromosome end from destruction is the telomere's function — the same structure as option a, given by its job rather than its sequence.
+## correct_answer
+c
+## main_concept
+CON-FND-EB83F2B16C479F
+## library_ids
+ART-101-HIS-NUCLEUS
+## topic
+null
+## subtopic
+Nucleus
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Define the kinetochore by what attaches to it, and separate it from the telomere.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q29. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a question about chromosome structure. No key was printed on the 2020 paper and none was recovered — and, unusually, the department book does not settle it either: the words kinetochore, centromere and telomere appear nowhere in its text. The answer is the standard definition on which the item is built, the kinetochore being the plate at the centromere to which the spindle microtubules attach, with two of the three distractors describing the telomere instead. The concept carries a `gaps` note recording that no source this faculty would accept supports it.
 
 
 ---
@@ -110609,6 +111024,89 @@ Answer changed from the source's: This row is covered by the recovered key: the 
 
 # Item
 ## id
+QM-101-41D0DCFD41C2
+## title
+Concerning Zonula occludens (occluding junction):
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning Zonula occludens (occluding junction):
+## answer_a
+Itis a type of apical epithelial specializations.
+## explanation_a
+The apical specialisations are cilia, flagella, microvilli and stereocilia. The zonula occludens sits at the apical end of the *lateral* membrane, and the book classes it with the lateral specialisations — a distinction of position against class that this option is built on.
+## answer_b
+Two adjacent cell’membranes fuse at certain points. ’
+## explanation_b
+Correct. The two membranes fuse at points via transmembrane proteins on each cell, and the belt of fusion is what restricts passage of substances between the cells.
+## answer_c
+The adjacent cell- membranes are widely separated:
+## explanation_c
+Widely separated membranes describe the zonula adherens and the desmosome, where the gap is bridged by calcium-dependent proteins. Fusion and separation are opposite arrangements, and only one junction fuses.
+## answer_d
+It occurs as scattered Spots...
+## explanation_d
+Occurring as scattered spots is the macula adherens — macula means spot. The zonula occludens is a zonula, a belt, and encircles the cell completely.
+## correct_answer
+b
+## main_concept
+CON-FND-2EAD7BC676C215
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## topic
+null
+## subtopic
+Polarity and Membranous Specializations
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the zonula occludens from a set that describes the other three junctions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p3 q33. Manifest src_ce4292e31edea7517e7b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a lateral junction question. The 2022 paper printed no key for it and the highlight recovery returned nothing, so the answer comes from the department book: the tight or occluding junction is where two adjacent cell membranes fuse at certain points through transmembrane proteins, encircling the apex of the cell like a belt. The book also groups all four junctions as lateral specialisations, which is what makes option a false.
+
+
+---
+
+# Item
+## id
 QM-101-32DF95121AF2
 ## title
 Normal RBCs are :
@@ -114504,6 +115002,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pd
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
+
+
+---
+
+# Item
+## id
+QM-101-443387D27CB5
+## title
+Formation of an abnormal rigid type of Hb (HBS) results in:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Formation of an abnormal rigid type of Hb (HBS) results in:
+## answer_a
+Aplastic anemia.
+## explanation_a
+Aplastic anaemia is a failure of the bone marrow to produce cells at all. The haemoglobin it does make is normal; there is simply not enough of it, and the white cells and platelets fall with the red.
+## answer_b
+Sickle cell anemia.
+## explanation_b
+Correct. HbS is rigid and deforms the corpuscle into a sickle shape, which makes it fragile and unable to squeeze through a capillary — the two adaptations the normal red cell depends on.
+## answer_c
+Spherocytosis.
+## explanation_c
+Spherocytosis is a membrane defect: the cell loses its biconcave shape and becomes a sphere, which raises its osmotic fragility. The fault is in the membrane cytoskeleton, not in the haemoglobin.
+## answer_d
+Favism.
+## explanation_d
+Favism is haemolysis brought on by eating broad beans in a person deficient in an enzyme of the red cell. Like spherocytosis it destroys normal haemoglobin rather than being caused by an abnormal one.
+## correct_answer
+b
+## main_concept
+CON-HEM-C79EA8644C0C9C
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## topic
+null
+## subtopic
+Red Blood Corpuscles
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical correlation
+## learning_objective
+Name the anaemia caused by an abnormal rigid haemoglobin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q36. Manifest src_9e6aad6c6af097e473d6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a red cell disease. The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which gives sickle cell anaemia as the condition in which an abnormal rigid haemoglobin, HbS, distorts the corpuscle into a sickle.
 
 
 ---
@@ -134092,6 +134673,89 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it defines cilia as motile processes with a microtubular core covered by plasmalemma, names the shaft the axoneme, and gives that shaft nine peripheral doublets plus two central singlets — twenty microtubules. The four options cross the two counts with the two coverings, so only one crossing is right.
+
+
+---
+
+# Item
+## id
+QM-101-91FC1EF793C4
+## title
+Multipolar nerve cells are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Multipolar nerve cells are present in:
+## answer_a
+Purkinje cells in cerebellar cortex.
+## explanation_a
+Correct. The Purkinje cell of the cerebellar cortex is the type example of a multipolar neuron: one axon and a great many dendrites leaving the cell body, so more than two processes in all.
+## answer_b
+Spinal ganglia.
+## explanation_b
+Spinal ganglion cells are unipolar — strictly pseudounipolar, a single process that divides in two — and they are the standard example of that class. This is the strongest distractor because a ganglion is where most students first meet a named nerve cell.
+## answer_c
+Vestibular ganglia in ear.
+## explanation_c
+Vestibular ganglion cells in the ear are bipolar: one process at each end of the cell body. They belong with the retinal and olfactory cells, not with the Purkinje cell.
+## answer_d
+Retina of the eye.
+## explanation_d
+The bipolar cells of the retina are the second standard example of the bipolar class, which is why the item offers two bipolar options — a student who knows only that ganglia are unipolar still has to choose between them.
+## correct_answer
+a
+## main_concept
+CON-FND-14D80DE53DE835
+## library_ids
+ART-101-HIS-THE-CELL
+## topic
+null
+## subtopic
+The cell
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Sort named nerve cells into unipolar, bipolar and multipolar by the number of processes leaving the cell body.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q28. Manifest src_9487fd713153c573087f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf. It is authored here, in the cytology leaf, because it is a question about cell shape and because this module's book has no nervous tissue histology chapter to file it under — its nervous system chapter is gross anatomy. That is also why the answer comes from neither a key nor the book: the 2020 paper printed none, the highlight recovery does not cover that sitting, and the words multipolar, bipolar and unipolar appear nowhere in the department book. The answer is the standard classification the item is built on, and the concept carries a `gaps` note saying so.
 
 
 ---
