@@ -762,10 +762,12 @@ def run_source(src, force):
     answers, page_stats = [], []
     position = 0
     for page in range(1, npages + 1):
-        words = ocr_words(sid, pdf, page, cfg["dpi"], force)
-        blocks = mcq_blocks(words)
+        blocks, words = best_parse(sid, pdf, page, cfg["dpi"], force)
         col = text_column(words)
-        stat = {"page": page, "questionsFound": len(blocks), "ocrWords": len(words)}
+        stat = {"page": page, "questionsFound": len(blocks), "ocrWords": len(words),
+                "ocrModes": sorted({b["ocrMode"] for b in blocks}),
+                "questionsWithMergedOptionBox": sum(1 for b in blocks if b["merged"]),
+                "annotationDiffPixels": annot_diff(sid, pdf, page, cfg["dpi"], force)}
         if cfg["markPath"] == "fill":
             found = fill_page(sid, pdf, page, cfg, force)
             regs, offside = [], []

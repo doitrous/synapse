@@ -2,7 +2,7 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
-    Cytoplasm — 145 questions, 23 concepts
+    Cytoplasm — 190 questions, 23 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
@@ -26,7 +26,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  122 questions were excluded and 0 held back for having no
+  127 questions were excluded and 1 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -12066,6 +12066,3251 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The department book names the peroxisome "microbody" in its own heading, so A is the answer and the other three organelles have separate names of their own.
+
+
+---
+
+# Item
+## id
+QM-101-F3735FCAD60A
+## title
+microfilament:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+microfilament:
+## answer_a
+stable
+## explanation_a
+A stable filament could not change the shape of a cell during endocytosis or pinch it in two at division. Stability is the wrong property for the element whose whole role is movement.
+## answer_b
+dynamic
+## explanation_b
+Correct. Microfilaments assemble and disassemble continually — dynamic — which is what lets actin build a cleavage furrow and then take it apart again.
+## answer_c
+a, b
+## explanation_c
+Both would require the filament to be two contradictory things at once. Microtubules are the element the books describe as being of both kinds.
+## answer_d
+none of the above
+## explanation_d
+There is a correct option, so "none of the above" cannot stand.
+## correct_answer
+B
+## main_concept
+CON-FND-DAF4EB4BC63077
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the microfilament as a dynamic structure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q19. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3296E0D102AF
+## title
+Microfilaments have the following functions EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microfilaments have the following functions EXCEPT:
+## answer_a
+Microtubule organizing center
+## explanation_a
+The exception, and the answer. The microtubule organising centre is rich in gamma tubulin and holds the centrioles; it directs microtubules. The word in its own name says which element it belongs to.
+## answer_b
+Movement of cytoplasmic components
+## explanation_b
+True, so not the exception. Microfilaments move cytoplasmic components about.
+## answer_c
+Determine the shape of the cell
+## explanation_c
+True, so not the exception. Actin beneath the plasmalemma determines and changes cell shape.
+## answer_d
+Developing cleavage furrow
+## explanation_d
+True, so not the exception. The cleavage furrow is a contractile ring of actin. This is the option the book keys, and taking it would deny microfilaments their part in cell division.
+## correct_answer
+A
+## main_concept
+CON-FND-DAF4EB4BC63077
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Attribute the microtubule organising centre to tubulin, not actin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p15 q52. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys D, developing the cleavage furrow, which is a microfilament function the department book names explicitly. The microtubule organising centre — option A — is where microtubules grow from and has nothing to do with actin, so A is the exception.
+
+
+---
+
+# Item
+## id
+QM-101-88D487F520D2
+## title
+Microtubular organizing center:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microtubular organizing center:
+## answer_a
+From which microtubules originate
+## explanation_a
+True, but not the whole answer. It is where microtubules begin and by which their assembly is directed.
+## answer_b
+Rich in gamma tubulin
+## explanation_b
+True, but not the whole answer. Gamma tubulin is the third form, found here rather than in the tube itself.
+## answer_c
+Contain two perpendicular centrioles
+## explanation_c
+True, but not the whole answer. Two centrioles at right angles sit at its heart, in a tubulin matrix.
+## answer_d
+All of the above
+## explanation_d
+Correct. Origin, protein and content are three parts of one description of the centrosome.
+## correct_answer
+D
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Describe the microtubule organising centre completely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p14 q79. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are each stated by the department book of the MTOC — microtubules originate from it, it contains gamma tubulin, and it holds the two perpendicular centrioles — so D is the only complete option.
+
+
+---
+
+# Item
+## id
+QM-101-E5EC3AB19824
+## title
+microtubule may be:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+microtubule may be:
+## answer_a
+stable
+## explanation_a
+True, but not the whole answer. The microtubules of a ciliary axoneme or a centriole are stable and stay assembled.
+## answer_b
+dynamic
+## explanation_b
+True, but not the whole answer. The microtubules of the cytoplasm and of the mitotic spindle grow and shrink continually.
+## answer_c
+a, b
+## explanation_c
+Correct. Both, and the difference is what the microtubule is for: a permanent scaffold in a cilium, a temporary one in a dividing cell.
+## answer_d
+none of the above
+## explanation_d
+There is a correct option, so "none of the above" cannot stand.
+## correct_answer
+C
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that microtubules exist in both stable and dynamic populations.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q14. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DC6FEF98AE85
+## title
+Microtubules are formed from:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microtubules are formed from:
+## answer_a
+ubiquitin
+## explanation_a
+Ubiquitin is the tag that marks a protein for the proteasome. It is a label, not a building block.
+## answer_b
+tubulin
+## explanation_b
+Correct. Tubulin, as alpha and beta dimers polymerised into protofilaments.
+## answer_c
+actin
+## explanation_c
+Actin builds the microfilaments — the other cytoskeletal element and the standing alternative.
+## answer_d
+globulin
+## explanation_d
+Globulin is a plasma protein class, including the immunoglobulins. It has nothing to do with the cytoskeleton, and the resemblance to "globular actin" is what makes it worth offering.
+## correct_answer
+B
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the microtubule protein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p9 q68. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5CE581A8178E
+## title
+Microtubules are formed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Microtubules are formed of:
+## answer_a
+Alpha tubulin
+## explanation_a
+True, but not the whole answer. Alpha tubulin is half of each dimer.
+## answer_b
+Beta tubulin
+## explanation_b
+True, but not the whole answer. Beta tubulin is the other half.
+## answer_c
+Gamma tubulin
+## explanation_c
+Gamma tubulin is in the microtubule organising centre, where it nucleates new microtubules. It directs their growth without becoming part of the tube. This is the option the book keys.
+## answer_d
+Both a & b
+## explanation_d
+Correct. Alpha and beta together — the dimer that repeats along each of the thirteen protofilaments.
+## answer_e
+Both a & c
+## explanation_e
+Alpha and gamma is the wrong pair: it takes one of the two wall proteins and one of the organising centre's, which is exactly the confusion the option set is built to expose.
+## correct_answer
+D
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the two tubulins in the wall from the third in the organising centre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p25 q29. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, gamma tubulin, which is the tubulin of the microtubule organising centre and is not what the wall is built from. The protofilaments are dimers of alpha and beta tubulin, which is option D.
+
+
+---
+
+# Item
+## id
+QM-101-E50A29F04C82
+## title
+microvilli:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+microvilli:
+## answer_a
+formed of microtubules
+## explanation_a
+Microtubules are the core of a cilium, not of a microvillus. It is the single substitution every question about these two structures is built on.
+## answer_b
+formed of actin filaments
+## explanation_b
+True, but not the whole answer. The core is a bundle of actin filaments inserted into the terminal web.
+## answer_c
+present in small intestine & kidney
+## explanation_c
+True, but not the whole answer. Small intestine and kidney tubule — the two great absorbing surfaces.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct. Actin core and absorptive site are one fact rather than two: the microvillus exists to increase surface area, and the actin is what holds it out.
+## correct_answer
+D
+## main_concept
+CON-FND-632A634868EEC6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Epithelium
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the core protein of a microvillus and the organs where it is found.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q78. Manifest src_1fb914ce96908301b7b1.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4E84CF67FD3E
+## title
+mitochondria:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+mitochondria:
+## answer_a
+can move and divide
+## explanation_a
+True, but not the whole answer. Mitochondria move to where the cell needs energy and increase in number by simple division.
+## answer_b
+cristae are carrying ATP synthetase to produce ATP
+## explanation_b
+True, but not the whole answer. The elementary particles on the cristae carry the ATP synthase.
+## answer_c
+can generate heat
+## explanation_c
+True, but not the whole answer. In brown fat the energy leaves as heat instead of ATP.
+## answer_d
+all of the above
+## explanation_d
+Correct. Movement, division, ATP and heat are all within one organelle's repertoire, and a student who stops at ATP has taken a quarter of it.
+## correct_answer
+D
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+List what a mitochondrion can do beyond making ATP.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p7 q51. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2D25BE5662AB
+## title
+mitochondria hive dark blue with ………... while green with
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+mitochondria hive dark blue with ………... while green with
+## answer_a
+janus green, iron H
+## explanation_a
+The two stains are the right pair but in the wrong order. Janus green gives green — the name carries the colour — so it cannot be the dark blue one.
+## answer_b
+iron H, janus green
+## explanation_b
+Correct. Iron haematoxylin gives dark blue, Janus green gives green. Haematoxylin is blue in every preparation it is used in, which is the way to hold the pair the right way round.
+## answer_c
+iron H, silver
+## explanation_c
+Silver gives brown or black and is the Golgi stain, not a mitochondrial one.
+## answer_d
+silver, PAS
+## explanation_d
+Silver and PAS are the Golgi and the carbohydrate stains respectively; neither shows mitochondria.
+## correct_answer
+B
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## learning_objective
+Match each mitochondrial stain to the colour it gives.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p4 q3. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-645004D66D3F
+## title
+mitochondria matrix is composed of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+mitochondria matrix is composed of:
+## answer_a
+oxidative enzymes
+## explanation_a
+True, but not the whole answer. The oxidative enzymes of the citric acid cycle are in the matrix.
+## answer_b
+DNA, Ca
+## explanation_b
+True, but not the whole answer. Mitochondrial DNA and the dense calcium-rich granules are there too.
+## answer_c
+mRNA, tRNA, rRNA
+## explanation_c
+True, but not the whole answer. Messenger, transfer and ribosomal RNA are all present, which is what lets the organelle make some of its own protein.
+## answer_d
+All The Above
+## explanation_d
+Correct. Enzymes, genetic material and ions together, and between them they are why a mitochondrion can divide without the nucleus.
+## correct_answer
+D
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+List everything in the mitochondrial matrix.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p4 q8. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D345CF9A731F
+## title
+Mitochondria of brown fat cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mitochondria of brown fat cell:
+## answer_a
+contains thermogenin protein
+## explanation_a
+True, but not the whole answer. Thermogenin uncouples oxidation from ATP production, so the energy leaves as heat.
+## answer_b
+contain cytochrome
+## explanation_b
+True, but not the whole answer. Cytochrome pigment is what makes brown fat brown.
+## answer_c
+affected by hormones
+## explanation_c
+True, but not the whole answer. Their activity is under hormonal control, which is how the body turns the heating on.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three, and they are one story: a mitochondrion adapted to burn fuel for warmth rather than for work.
+## correct_answer
+D
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Describe what is special about the mitochondria of brown fat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p9 q57. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-96C9B755AC7E
+## title
+Mitochondria plays a role in regulation of:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mitochondria plays a role in regulation of:
+## answer_a
+Sodium metabolism
+## explanation_a
+Sodium is handled by the sodium–potassium pump in the plasma membrane — an integral protein, not a mitochondrial function.
+## answer_b
+Sulfur metabolism
+## explanation_b
+Sulphur metabolism belongs to the sulfatases, which are lysosomal and peroxisomal enzymes.
+## answer_c
+Calcium metabolism
+## explanation_c
+Correct. The matrix granules are calcium-rich, and the mitochondrion stores and releases calcium as well as making ATP.
+## answer_d
+All of the above
+## explanation_d
+Only one of the three is a mitochondrial role, so "all of the above" cannot stand.
+## correct_answer
+C
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the ion the mitochondrion helps regulate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q93. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book describes dense calcium-rich granules in the mitochondrial matrix acting as catalysts; no role in sodium or sulphur handling is given anywhere, so C is the only supported option and D cannot stand.
+
+
+---
+
+# Item
+## id
+QM-101-E6A843D1E21E
+## title
+Multilocular fat cell all true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Multilocular fat cell all true EXCEPT:
+## answer_a
+Its accumulation form brown fat
+## explanation_a
+True, so not the exception. Multilocular cells collected together are brown fat.
+## answer_b
+Its mitochondria is rich in thermogenin & cytochrome enzymes
+## explanation_b
+True, so not the exception. Thermogenin and cytochrome are what its mitochondria are rich in.
+## answer_c
+Its mitochondria is rich in ATP synthetase enzyme
+## explanation_c
+The exception, and the answer. A brown fat mitochondrion is built to release energy as heat, which means uncoupling oxidation from ATP synthesis — so it is comparatively poor in ATP synthase, not rich in it. This is the one option that needs the mechanism rather than a list.
+## answer_d
+Its nucleus is spherical & central in position
+## explanation_d
+True, so not the exception. The nucleus stays spherical and central, because no single droplet is large enough to push it aside.
+## correct_answer
+C
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+See why a heat-producing mitochondrion is poor in ATP synthase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q130. Manifest src_4e481d399b2ffd65b97a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CA76D08EAA2D
+## title
+Multilocular fat cells are characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Multilocular fat cells are characterized by:
+## answer_a
+they have signet ring appearance
+## explanation_a
+The signet ring is the unilocular white cell, with one droplet flattening the nucleus to the edge.
+## answer_b
+they are heat insulator
+## explanation_b
+Heat insulation is white fat, which works by lying between the body and the cold. Brown fat is a heat *generator*, which is the opposite relationship to temperature.
+## answer_c
+affected by starvation
+## explanation_c
+Affected by starvation is again white fat, the body's energy store; brown fat is not mobilised the same way.
+## answer_d
+abundant mitochondria
+## explanation_d
+Correct. Abundant mitochondria are the defining feature, and everything else about brown fat follows from them — the colour, the heat, the vascularity.
+## correct_answer
+D
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Connective Tissue
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify brown fat by its mitochondrial content.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q46. Manifest src_c30d9391aa0861f41e44.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-DD17D3875DBF
+## title
+Multivesicular bodies are formed when:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Multivesicular bodies are formed when:
+## answer_a
+1ry lysosomes fuse with phagosome
+## explanation_a
+A phagosome gives the heterolysosome — solid material from outside. This is the option the book keys, and it names the wrong one of the three fusions.
+## answer_b
+1ry lysosomes fuse with pinocytic vesicles
+## explanation_b
+Correct. A pinocytic vesicle, holding fluid. Many such small vesicles inside one lysosome is what "multivesicular" describes.
+## answer_c
+1ry lysosomes fuse with old organelles
+## explanation_c
+Old organelles give the autolysosome, the cell digesting itself.
+## answer_d
+All of the above
+## explanation_d
+The three fusions give three different bodies, so "all of the above" would make the three names interchangeable.
+## correct_answer
+B
+## main_concept
+CON-FND-9D325B98FC59A0
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Match the multivesicular body to the substrate it fused with.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p22 q9. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys A, the phagosome, which gives the heterolysosome. A multivesicular body is a primary lysosome fused with a pinocytic vesicle, and the same books key `fusion-of-1ry-lysosome-with-pinocytic-vesicle-334eaa05` as the multivesicular body. Overridden to B.
+
+
+---
+
+# Item
+## id
+QM-101-5E24A76F6CFC
+## title
+Neuro filaments are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Neuro filaments are:
+## answer_a
+Microfilaments
+## explanation_a
+Microfilaments are actin, the same in every cell, and have no neuronal form.
+## answer_b
+Intermediate filaments
+## explanation_b
+Correct. Neurofilaments are the intermediate filament of the neuron — one of the six tissue-specific proteins the department book names.
+## answer_c
+Thick filaments
+## explanation_c
+Thick filaments are myosin of the muscle contractile apparatus. This is the option the book keys, and it puts a nerve protein into muscle.
+## answer_d
+Microtubules
+## explanation_d
+Microtubules are tubulin and are abundant in axons, which is what makes this option tempting; but the axon has both, and only one of them is called a neurofilament.
+## correct_answer
+B
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Classify neurofilaments among the cytoskeletal elements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p16 q56. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, thick filaments, which are the myosin of muscle and are not cytoskeletal at all. Neurofilaments are on the department book's own list of intermediate filament proteins, so the answer is B.
+
+
+---
+
+# Item
+## id
+QM-101-E48C5C175F7F
+## title
+non membranous dense particles, formed of rRNA And Protein:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+non membranous dense particles, formed of rRNA And Protein:
+## answer_a
+ribosome
+## explanation_a
+Correct. rRNA and protein, non-membranous, electron dense — the department book's own definition of a ribosome.
+## answer_b
+proteasome
+## explanation_b
+A proteasome is protein alone and holds no RNA.
+## answer_c
+lysosome
+## explanation_c
+A lysosome is membrane-bound and full of enzyme, which makes it the opposite of every word in the stem.
+## answer_d
+cytoskeleton
+## explanation_d
+The cytoskeleton is non-membranous too, which is the half-match, but it is a network of filaments rather than a dense particle and contains no RNA.
+## correct_answer
+A
+## main_concept
+CON-FND-4284C6B8667CD6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the ribosome from its composition.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p11 q1. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F126AD398507
+## title
+One of the following cilium parts has an identical structure to the centriole:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following cilium parts has an identical structure to the centriole:
+## answer_a
+Basal body
+## explanation_a
+Correct. The basal body is a centriole that has migrated to the apical surface: nine triplets, 27 microtubules, the same arrangement exactly.
+## answer_b
+Rootles
+## explanation_b
+The rootlets are nine single microtubules growing down into the cytoplasm from the basal body — a ninth of a centriole, not a copy of one. This is the option the book keys.
+## answer_c
+Shaft
+## explanation_c
+The shaft is the 9+2 axoneme, twenty microtubules with a central pair a centriole never has.
+## answer_d
+None of the above
+## explanation_d
+One of the three parts does match a centriole, so "none of the above" cannot stand.
+## correct_answer
+A
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the basal body as a centriole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q17. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, the rootlets, which are nine single microtubules. The basal body is nine triplets — exactly a centriole, which is what it is derived from — and the same books key `the-basal-body-of-cilia-is-similar-to-87e21812` as the centriole. Overridden to A.
+
+
+---
+
+# Item
+## id
+QM-101-FDA17F2FD456
+## title
+one of the following statements is not related to mitochondria?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+one of the following statements is not related to mitochondria?
+## answer_a
+they are membranous organelles
+## explanation_a
+True, so related. Two membranes make it the most membranous organelle there is.
+## answer_b
+they can be stained by janus green stain
+## explanation_b
+True, so related. Janus green is the vital stain for mitochondria.
+## answer_c
+they are the power house of the cell
+## explanation_c
+True, so related. Power house of the cell is the book's own phrase for it.
+## answer_d
+their outer membrane is provided with cristae
+## explanation_d
+Not related, and the answer. The cristae are folds of the *inner* membrane; the outer one is smooth and carries porins. Putting the folds outside is the single commonest mitochondrial error.
+## correct_answer
+D
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the cristae on the inner membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p21 q15. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4FBDE32504EB
+## title
+one of the following statements is not related to smooth ER:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+one of the following statements is not related to smooth ER:
+## answer_a
+consists of anastomosing branching tubules
+## explanation_a
+True, so related. Anastomosing branching tubules is its electron-microscopic form.
+## answer_b
+prominent in cells that synthesize lipids
+## explanation_b
+True, so related. It is prominent in lipid-synthesising cells such as the liver cell.
+## answer_c
+its membranes are studded with ribosomes
+## explanation_c
+Not related, and the answer. Ribosomes on the membrane are what make endoplasmic reticulum rough. Their absence is the entire definition of the smooth kind.
+## answer_d
+has a role in detoxification of drugs
+## explanation_d
+True, so related. Detoxification of drugs is one of its named functions.
+## correct_answer
+C
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall that smooth endoplasmic reticulum carries no ribosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p21 q11. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BDEBBB0A97ED
+## title
+Organelle is prominent in cells that synthesize steroid hormones:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Organelle is prominent in cells that synthesize steroid hormones:
+## answer_a
+rER
+## explanation_a
+Rough endoplasmic reticulum makes protein for export. A hormone that is not a protein needs none of its machinery.
+## answer_b
+sER
+## explanation_b
+Correct. Smooth endoplasmic reticulum synthesises the steroid hormones, and a cell making them is packed with it.
+## answer_c
+Lysosome
+## explanation_c
+Lysosomes digest and synthesise nothing.
+## answer_d
+Peroxisome
+## explanation_d
+Peroxisomes oxidise fatty acids. They handle lipid without building a hormone from it.
+## correct_answer
+B
+## main_concept
+CON-FND-0B3CC0A79F9150
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Histology-general
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute steroid synthesis to smooth endoplasmic reticulum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p3 q19. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Steroid hormone synthesis is a named function of smooth endoplasmic reticulum in the department book, and the identical row `which-organelle-is-prominent-in-cells-that-synthesize-steroi-1a88c75b` is keyed B in the same books.
+
+
+---
+
+# Item
+## id
+QM-101-1EDA4BC6669F
+## title
+outer membrane of mitochondria:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+outer membrane of mitochondria:
+## answer_a
+smooth
+## explanation_a
+True, but not the whole answer. Smooth — no cristae, which are the inner membrane's.
+## answer_b
+contain porins
+## explanation_b
+True, but not the whole answer. Porins are the channels that make it leaky.
+## answer_c
+permeable to small molecule
+## explanation_c
+True, but not the whole answer. Permeability to small molecules is what the porins achieve.
+## answer_d
+all the above
+## explanation_d
+Correct. The three are one description: it is smooth because it does not need area, and permeable because the selectivity is the inner membrane's job.
+## correct_answer
+D
+## main_concept
+CON-FND-29AD7E837E1E1E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Describe the outer mitochondrial membrane completely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p4 q5. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9751F8A9AE20
+## title
+Oxidative enzymes are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Oxidative enzymes are present in:
+## answer_a
+Golgi apparatus
+## explanation_a
+The Golgi packs and modifies protein and holds no enzyme of this kind.
+## answer_b
+peroxisomes
+## explanation_b
+Correct. Oxidase is one of the peroxisome's two enzyme groups — the one that carries out beta-oxidation and makes hydrogen peroxide.
+## answer_c
+Lysosomes
+## explanation_c
+Lysosomes hold hydrolases. The oxidase/hydrolase substitution is the standing trap in every question about either organelle.
+## answer_d
+sER
+## explanation_d
+Smooth endoplasmic reticulum carries the detoxifying and lipid-synthesising enzymes rather than oxidases.
+## correct_answer
+B
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute oxidases to the peroxisome among the organelles offered.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p21 q6. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-86FC8B051995
+## title
+peroxisomal enzymes are synthetized in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+peroxisomal enzymes are synthetized in:
+## answer_a
+free polysomes
+## explanation_a
+Correct. Free polysomes — free ribosomes strung on one messenger RNA — make the peroxisome's enzymes and release them into the cytosol for import.
+## answer_b
+attached ribosome
+## explanation_b
+Attached ribosomes make protein for export or for the secretory pathway. The peroxisome takes the other route, even though its membrane buds from the rough reticulum.
+## answer_c
+lysosome
+## explanation_c
+The lysosome degrades protein; it makes none.
+## answer_d
+cytosol
+## explanation_d
+The cytosol is where the free ribosomes are, but it is a compartment rather than a structure, and the question asks what does the synthesising.
+## correct_answer
+A
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute peroxisomal enzymes to free ribosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p9 q13. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1CE08B8970E4
+## title
+Pinocytosis is the process by which the cell can engulf:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Pinocytosis is the process by which the cell can engulf:
+## answer_a
+Fluid droplets
+## explanation_a
+Correct. Fluid droplets: small invaginations of the membrane closing round extracellular fluid and whatever is dissolved in it.
+## answer_b
+Solid particles
+## explanation_b
+Solid particles are phagocytosis, taken by pseudopodia. This is the option the book keys, and cell eating and cell drinking are the two halves of the same distinction.
+## answer_c
+Hormones
+## explanation_c
+Hormones are taken by receptor-mediated endocytosis, which needs a receptor because a hormone is present in too small a quantity to catch by drinking.
+## answer_d
+Foreign bodies
+## explanation_d
+Foreign bodies are solid, so again phagocytosis.
+## correct_answer
+A
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Say what pinocytosis takes in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q21. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, solid particles, which is phagocytosis. Pinocytosis is cell drinking — fluid droplets — and the same books key `pinocytosis-is-the-process-by-which-the-cell-membrane-can-en-352b7949` as fluid droplets. This row and the receptor-mediated row on the same page are both keyed one line off.
+
+
+---
+
+# Item
+## id
+QM-101-7B6E81EBEA2B
+## title
+Platelets characterized by the following except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Platelets characterized by the following except:
+## answer_a
+Presence of microtubules & microfilaments
+## explanation_a
+True, so not the exception. The hyalomere holds a marginal bundle of microtubules and actin microfilaments — a complete cytoskeleton in a cell fragment.
+## answer_b
+Presence of different types of granules
+## explanation_b
+True, so not the exception. Alpha, delta and lambda granules fill the granulomere.
+## answer_c
+Presence of large lobulated nuclei
+## explanation_c
+The exception, and the answer. A platelet is a fragment shed from a megakaryocyte and has no nucleus at all. The lobulated nucleus in this option is the megakaryocyte's, which is where the fragment came from.
+## answer_d
+Important in blood coagulation
+## explanation_d
+True, so not the exception. Adhesion, aggregation and the release of clotting factors are what platelets are for.
+## correct_answer
+C
+## main_concept
+CON-FND-6D29BE5A5B1325
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Blood
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recall that a platelet is a cytoplasmic fragment with a full cytoskeleton and no nucleus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q49. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E96BD6232684
+## title
+polymerization of tetrameric subunit:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+polymerization of tetrameric subunit:
+## answer_a
+microtubule
+## explanation_a
+A microtubule is built from dimers of alpha and beta tubulin, not tetramers.
+## answer_b
+intermediate filaments
+## explanation_b
+Correct. Intermediate filaments polymerise from tetrameric subunits whose chemistry differs from tissue to tissue — which is why there are six of them and why they are diagnostic.
+## answer_c
+microfilaments
+## explanation_c
+A microfilament is two coiled chains of globular actin.
+## answer_d
+proteasome
+## explanation_d
+A proteasome is an enzyme complex and does not polymerise into a filament at all.
+## correct_answer
+B
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the intermediate filament from its subunit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q21. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-BE0305906113
+## title
+polypeptide chain is present in ribosome in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+polypeptide chain is present in ribosome in:
+## answer_a
+small subunit
+## explanation_a
+The small subunit binds the messenger RNA and reads it. It carries no polypeptide.
+## answer_b
+large subunit
+## explanation_b
+Correct. The large subunit is where the chain is assembled and where it emerges — and it is also the subunit that binds the ribophorins of the rough reticulum, which is no coincidence: the chain has to be delivered into the cisterna.
+## answer_c
+a,b
+## explanation_c
+Only one subunit carries it, so "a, b" cannot stand.
+## answer_d
+none of the above
+## explanation_d
+There is a correct option, so "none of the above" cannot stand.
+## correct_answer
+B
+## main_concept
+CON-FND-4284C6B8667CD6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the growing polypeptide on the large ribosomal subunit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p11 q5. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1009EE5D7657
+## title
+power house of the cell is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+power house of the cell is:
+## answer_a
+rough endoplasmic
+## explanation_a
+Rough endoplasmic reticulum makes protein, and spends energy doing it.
+## answer_b
+cell membrane
+## explanation_b
+The cell membrane spends energy too, on active transport.
+## answer_c
+mitochondria
+## explanation_c
+Correct. The mitochondrion — the department book's own phrase, and the organelle every other one draws its ATP from.
+## answer_d
+golgi
+## explanation_d
+The Golgi packs and ships. It is a warehouse, not a power station.
+## correct_answer
+C
+## main_concept
+CON-FND-B845AC57451E7F
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the organelle that makes the cell's energy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p4 q1. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D96D932008BD
+## title
+prinuclear golgi apparatus is present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+prinuclear golgi apparatus is present in:
+## answer_a
+Enteroendocrine cells
+## explanation_a
+Enteroendocrine cells secrete into the blood at their base, so their Golgi is not perinuclear.
+## answer_b
+Epididymis
+## explanation_b
+The epididymis is lined by cells with stereocilia secreting at a free surface — an apical arrangement.
+## answer_c
+secretory cells
+## explanation_c
+A secretory cell keeps its Golgi apical, above the nucleus and below the surface it discharges at.
+## answer_d
+nerve cells
+## explanation_d
+Correct. The nerve cell, which distributes its product along processes running in all directions and so has no single face to point the Golgi at.
+## correct_answer
+D
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the cell whose Golgi surrounds the nucleus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p6 q41. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-33B95A8DC9D9
+## title
+protein secreting cells are characterized by supranuclear unstained area which represents:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+protein secreting cells are characterized by supranuclear unstained area which represents:
+## answer_a
+rough endoplasmic reticulum
+## explanation_a
+Rough endoplasmic reticulum is what makes the *rest* of the cytoplasm deeply basophilic. It is the stained background against which the pale area shows.
+## answer_b
+ribosomes
+## explanation_b
+Ribosomes are the reason for that basophilia, so again they are what is stained rather than what is not.
+## answer_c
+golgi apparatus
+## explanation_c
+Correct. The unstained area above the nucleus is the Golgi apparatus — the negative Golgi image, pale because the organelle takes neither dye.
+## answer_d
+secretory vesicles
+## explanation_d
+Secretory vesicles often stain, and where they do they are conspicuous rather than invisible.
+## correct_answer
+C
+## main_concept
+CON-FND-9EBFBDE42AC100
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## learning_objective
+Identify the pale supranuclear area as the Golgi.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q21. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AF686BB36A27
+## title
+protein subunit of microfilament:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+protein subunit of microfilament:
+## answer_a
+B.Actin
+## explanation_a
+There is no "B actin" in this scheme. The two forms are G — globular — and F — filamentous — and the letter here is invented by analogy with the tubulins.
+## answer_b
+alpha tubulin
+## explanation_b
+Alpha tubulin builds microtubules.
+## answer_c
+gamma tubulin
+## explanation_c
+Gamma tubulin is in the microtubule organising centre.
+## answer_d
+G.Actin
+## explanation_d
+Correct. Globular G actin is the subunit; two chains of it coil into filamentous F actin, which is the filament itself.
+## correct_answer
+D
+## main_concept
+CON-FND-DAF4EB4BC63077
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the microfilament subunit precisely.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q18. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F00AA2A9707B
+## title
+protein subunit of microtubule:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+protein subunit of microtubule:
+## answer_a
+alpha tubulin
+## explanation_a
+True, but not the whole answer. Alpha tubulin is one half of the dimer.
+## answer_b
+beta tubulin
+## explanation_b
+True, but not the whole answer. Beta tubulin is the other half.
+## answer_c
+gamma tubulin
+## explanation_c
+Gamma tubulin is in the microtubule organising centre and nucleates microtubules without joining the wall. It is the one tubulin that is not a subunit of the tube.
+## answer_d
+a,b
+## explanation_d
+Correct. Alpha and beta together, repeating along each protofilament.
+## correct_answer
+D
+## main_concept
+CON-FND-05D3B2832089AB
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name both tubulins that build the microtubule wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p12 q13. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5179B1CB6EAA
+## title
+pseudopodia extend from cell to surround particles:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+pseudopodia extend from cell to surround particles:
+## answer_a
+pinocytosis
+## explanation_a
+Pinocytosis is an invagination inwards, not a projection outwards. The direction of the membrane movement is the whole distinction.
+## answer_b
+exocytosis
+## explanation_b
+Exocytosis discharges material outwards but forms no pseudopodium.
+## answer_c
+phagocytosis
+## explanation_c
+Correct. Pseudopodia extending to surround a solid particle is phagocytosis — the department book's example is a white blood cell engulfing a bacterium.
+## answer_d
+receptors-mediated
+## explanation_d
+Receptor-mediated endocytosis works by a flat patch of membrane sinking in as a coated pit, again inwards rather than outwards.
+## correct_answer
+C
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Recognise phagocytosis by its pseudopodia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p2 q20. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C1C12325A872
+## title
+Receptor mediated endocytosis is the process by which the cell can engulf:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Receptor mediated endocytosis is the process by which the cell can engulf:
+## answer_a
+Fluid droplets
+## explanation_a
+Fluid droplets are pinocytosis, which needs no receptor at all.
+## answer_b
+Solid particles
+## explanation_b
+Solid particles are phagocytosis, taken by pseudopodia. This is the option the book keys.
+## answer_c
+Hormones
+## explanation_c
+Correct. Hormones — a molecule present in tiny quantity, which the cell can only capture by binding it to a specific receptor and then invaginating the patch it has gathered on.
+## answer_d
+Foreign bodies
+## explanation_d
+A foreign body is solid, so phagocytosis again. Three of the four options describe the other two routes.
+## correct_answer
+C
+## main_concept
+CON-FND-E66C68C0B80D16
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Say what receptor-mediated endocytosis takes in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p24 q23. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, solid particles, which is phagocytosis. Receptor-mediated endocytosis takes up specific molecules bound by their receptors, and the department book's own example is the uptake of growth hormone — option C. This row sits beside `pinocytosis-is-the-process-by-which-the-cell-can-engulf-60be5e4b` on the same page and both keys are one line off.
+
+
+---
+
+# Item
+## id
+QM-101-32CC88DF1373
+## title
+Regarding blood platelets, the peripheral zone contains:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding blood platelets, the peripheral zone contains:
+## answer_a
+Lysosomes
+## explanation_a
+Lysosomes are the platelet's lambda granules, and all its granules lie in the central granulomere.
+## answer_b
+Actin microfilaments
+## explanation_b
+Correct. The peripheral zone is the hyalomere, and it holds the marginal microtubule bundle and the actin microfilaments — the machinery that changes the platelet's shape and throws out its pseudopodia.
+## answer_c
+Glycogen
+## explanation_c
+Glycogen is an inclusion and lies centrally with the granules.
+## answer_d
+Serotonin
+## explanation_d
+Serotonin is in the delta granules of the granulomere. The whole question is a peripheral-versus-central sort, and everything except the cytoskeleton is central.
+## correct_answer
+B
+## main_concept
+CON-FND-DAF4EB4BC63077
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Blood
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the actin of the platelet in its peripheral zone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q3. Manifest src_34c967631e388497dc35.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A6E4907D388D
+## title
+Regarding primary lysosome, the following is true:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding primary lysosome, the following is true:
+## answer_a
+Increase in protein forming cell
+## explanation_a
+Lysosomes increase in phagocytic cells, not in protein-forming ones. A plasma cell exports; a macrophage digests.
+## answer_b
+Can appear by histochemical test
+## explanation_b
+Correct. The acid phosphatase histochemical reaction is the only way a lysosome is demonstrated by light microscopy.
+## answer_c
+is heterogeneous by EM
+## explanation_c
+Heterogeneous by electron microscopy is the *secondary* lysosome. The primary one is homogeneous because it has not yet fused with anything.
+## answer_d
+Contain respiratory enzymes
+## explanation_d
+Respiratory enzymes are mitochondrial. The lysosome holds hydrolases.
+## correct_answer
+B
+## main_concept
+CON-FND-42CCE864C55A08
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Cytology
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about a primary lysosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p7 q37. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-88C727AF54D3
+## title
+Regarding Red blood cells all are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding Red blood cells all are true EXCEPT:
+## answer_a
+have a biconcave shape which maximizes the surface/volume ratio for gas
+## explanation_a
+True, so not the exception. The biconcave disc gives the largest surface for a given volume, which is what gas exchange needs.
+## answer_b
+have no mitochondria
+## explanation_b
+True, so not the exception. No mitochondria — which is why the cell cannot consume the oxygen it carries.
+## answer_c
+have a membrane-associated cytoskeleton which maintains their shape
+## explanation_c
+True, so not the exception. The membrane cytoskeleton on the inner surface is what holds the biconcave shape and lets the cell deform through a capillary.
+## answer_d
+have a life span in peripheral blood of about 20 days
+## explanation_d
+The exception, and the answer. The red cell lives about 120 days, not 20. Twenty is close enough to a month to feel plausible for a cell with no nucleus to repair itself with, which is exactly why it is offered.
+## answer_e
+are removed, when aged, by cells in the spleen
+## explanation_e
+True, so not the exception. Aged red cells are removed by the macrophages of the spleen.
+## correct_answer
+D
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Blood
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Normal values
+## learning_objective
+Give the red cell's life span and recall what it has no organelles for.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q74. Manifest src_2944234d11e92ac4bbc8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-57931D3DD287
+## title
+Regarding the cilia, choose the correct statement:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cilia, choose the correct statement:
+## answer_a
+The core is rich in actin filaments
+## explanation_a
+An actin-rich core is the microvillus and the stereocilium. A cilium's core is microtubule, and that is what lets it beat.
+## answer_b
+The axoneme is formed of 20 microtubules
+## explanation_b
+Correct. The axoneme is 9 peripheral doublets plus 2 central singlets — 20 microtubules.
+## answer_c
+Its main function is increasing the surface area of cells
+## explanation_c
+Increasing surface area is what a microvillus is for. A cilium moves material along a surface rather than enlarging it.
+## answer_d
+The basal body is formed of 9 doublets of microtubules
+## explanation_d
+The basal body is nine *triplets*, like the centriole it came from. The doublets are the shaft. Three of the four options give the cilium a microvillus's property or the wrong part's structure.
+## correct_answer
+B
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+## topic
+Epithelium
+## subtopic
+Cytoplasm
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the true statement about the cilium from three microvillus-flavoured distractors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p6 q30. Manifest src_25ac512fb1cb23a6f696.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
 
 
 ---
