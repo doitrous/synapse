@@ -5,11 +5,18 @@
     Axilla — 68 questions, 17 concepts
     Blood Platelets — 19 questions, 5 concepts
     Cytoplasm — 286 questions, 23 concepts
+    Embryonic Period — 9 questions, 1 concepts
+    Fascia — 14 questions, 2 concepts
+    Fetal Period — 6 questions, 2 concepts
+    First Week of Development — 24 questions, 5 concepts
+    Gametes — 31 questions, 4 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Hand — 68 questions, 13 concepts
+    Introduction — 16 questions, 3 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
+    Microscopes — 7 questions, 2 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Neuro Epithelium — 3 questions, 1 concepts
@@ -18,6 +25,7 @@
     Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
     Shoulder Region — 40 questions, 19 concepts
+    Skeletal system — 43 questions, 7 concepts
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
@@ -33,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  185 questions were excluded and 0 held back for having no
+  262 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -7788,6 +7796,1884 @@ originalWording: These questions come from departmental question books rather th
 
 # Item
 ## label
+Somites appear first at the occipital region and spread caudally at three pairs a day, which is what lets their number date the embryo
+## id
+CON-DEV-DAF7FB6BF109D5
+## canonical_key
+somite-segmentation-sequence-regional-count-and-age-formula
+## definition
+The paraxial mesoderm divides transversely into somites, and the segmentation is orderly enough to be used as a clock. The first pair separates at the occipital region on the twentieth gestational day and further pairs appear caudally at a rate of three pairs a day until the thirtieth day — the somite period — after which segmentation continues more slowly and irregularly to the thirty-fifth or fortieth day, by which time there are forty-two to forty-four pairs. Cephalic to the first occipital somite the segments are smaller and are called somitomeres. Regionally the somites are four occipital, eight cervical, twelve thoracic, five lumbar, five sacral and eight to ten coccygeal pairs. Because the rate is fixed, the department book gives the age of an embryo in the somite period as: age in days = (number of somites − 1) / 3 + 20.
+## explicit_objective
+State where somite segmentation begins and in which direction it proceeds, give the number of pairs in each region, and use the department book's formula to date an embryo from its somite count.
+## pitfalls
+Starting the count at the cervical region because that is where the first vertebra is. Segmentation starts one region higher, at the occipital, and those four pairs go into the base of the skull rather than into the vertebral column — which is also why the formula subtracts one rather than starting from zero.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p7 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p93 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Somites | Somitomeres | Somite period
+## article_ids
+ART-101-ANA-PARAXIAL-MESODERM
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book gives the somite age formula and the regional counts, but neither the question books nor the book itself works an example. The 25-day answer authored here is the formula applied to sixteen somites — (16 − 1) / 3 + 20 — and no printed key in the corpus confirms it.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Superficial fascia insulates, smooths, mobilises, conducts, and carries muscles and glands
+## id
+CON-MSK-2145D2D62EC401
+## canonical_key
+superficial-fascia-features
+## definition
+Superficial fascia is a layer of loose connective tissue just deep to the skin, allowing the skin to move more or less freely over the underlying structures. It contains a variable quantity of fat, more in females — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum. Its functions are to prevent heat loss as a thermal insulator; to soften and smooth the body surface; to facilitate movement of the skin over underlying structures; to act as the medium conducting nerves, vessels and lymphatics to the skin; to contain skin muscles, as the muscles of expression in the face; and to contain special glands such as the mammary glands.
+## explicit_objective
+List the six functions of the superficial fascia the department book gives.
+## pitfalls
+Giving fat storage as the function. The fat is the material; the functions are what the layer does with it — insulation, contour, mobility, conduction, and housing muscles and glands.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_51fef9b6234c5d381f59 | question_book | | p2 | 101 ISK
+src_08bc782553366518791e | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Subcutaneous tissue | Hypodermis
+## article_ids
+ART-101-ANA-FASCIA
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Deep fascia is one non-elastic collagen membrane that takes five different forms, each with its own job
+## id
+CON-MSK-6CD9FFF51AE9CD
+## canonical_key
+deep-fascia-parts-functions
+## definition
+Deep fascia is an inelastic membrane of compact regular collagen fibres, well defined in the limbs and absent in the face and the anterior abdominal wall. It forms broad sheets around groups of muscles, which fix underlying structures in position, give attachment to muscles and help venous return; intermuscular septa and interosseous membranes, which separate muscle groups of different action and nerve supply and add surface for attachment; retinacula, thickened transverse bands at wrist and ankle that hold the tendons in place; the palmar and plantar aponeuroses, thick layers protecting the vessels, nerves and tendons beneath; and fibrous sheaths around large vessels, such as the carotid sheath around the carotid arteries, internal jugular vein and vagus nerve.
+## explicit_objective
+List the functions of deep fascia by naming the structures it forms and what each achieves.
+## pitfalls
+Answering with the functions of superficial fascia — insulation, smoothing the contour, carrying vessels to the skin. Those belong to the other layer, and deep fascia is where the question is.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_51fef9b6234c5d381f59 | question_book | | p2 | 101 ISK
+src_08bc782553366518791e | question_book | | p4 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-FASCIA
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The fetal period runs from the beginning of the ninth week until birth and is a period of maturation and rapid growth, not of organ formation
+## id
+CON-DEV-6C38692F7890F4
+## canonical_key
+fetal-period-timing-and-its-features
+## definition
+The fetal period is the period from the beginning of the 9th week of development — that is, the beginning of the third month — until birth. Organogenesis is already over: what characterises the fetal period is maturation of the tissues and organs that the embryonic period laid down, together with rapid growth of the body. The face becomes human-looking and the limbs lengthen during the third month, and the external genitalia are differentiated by the end of it. Lanugo hair covers the fetus from the fourth month and vernix caseosa covers the skin at the fifth; the skin stays wrinkled until the end of the sixth month because there is no subcutaneous fat under it. Fetal movements are clearly recognised from the fifth month, and the testes descend into the scrotum just before birth. Pregnancy lasts about 280 days or forty weeks counted from the first day of the last menstruation, or 266 days — thirty-eight weeks — counted more accurately from fertilisation.
+## explicit_objective
+State when the fetal period begins and ends, and say what distinguishes it from the embryonic period that precedes it.
+## pitfalls
+Counting the fetal period from the second month because the embryonic period is remembered as "the first month". The embryonic period is the fourth to the eighth week, so the fetal period begins at the ninth — the third month, not the second.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p12 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Lanugo hair | Vernix caseosa
+## article_ids
+ART-101-ANA-AMNIOTIC-FLUID
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+The books carry two keyed copies of "the weight of fetus at full term ranges between", and they disagree: the 2025 question book keys 3000-3400 grams, and the department-book copy keys 1400-2100 grams. The department book's own figure is inside Table 1, which is printed as an image, so the book cannot be quoted against either key. 3000-3400 grams is the copy imported here, because it is the term birth weight every other source this faculty uses gives and because the losing key is a DEP BOOK row whose answers are read off the page margin rather than from a key.
+## uncertainty
+[clear]
+## evidence_gaps
+The department book states no full-term weight in extractable text. Its growth data — crown-rump and crown-heel length against age in weeks, and weight — is carried entirely inside Table 1 on page 106 as an image.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A fetus is measured by crown-rump or crown-heel length, and the head falls from half the crown-rump length to a quarter of the crown-heel length at birth
+## id
+CON-DEV-3409538816E2FD
+## canonical_key
+fetal-measurements-and-head-to-body-proportion
+## definition
+Fetal length is given either as crown-rump length (CRL), the sitting height, or as crown-heel length (CHL), measured from the vertex of the skull to the heel — the standing height. The two are used at different stages and are not interchangeable. The proportion of the body that the head occupies falls steadily through the fetal period: at the beginning of the third month the head is about one half of the crown-rump length, at the beginning of the fifth month about one third of the crown-heel length, and at birth about one quarter of the crown-heel length. The head is still disproportionately large at term, which is why the fetal skull is the part that determines whether labour obstructs.
+## explicit_objective
+Name the two measurements used for a fetus and give the fraction of body length the head occupies at the third month, the fifth month and at birth.
+## pitfalls
+Reading the three fractions off the same measurement. The one-half figure is of the crown-rump length and the one-third and one-quarter figures are of the crown-heel length, so the head shrinks relative to the body faster than the three numbers alone suggest.
+## concept_type
+structural_description
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p13 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Crown-rump length | Crown-heel length | CRL | CHL
+## article_ids
+ART-101-ANA-AMNIOTIC-FLUID
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Fertilisation happens in the ampulla of the uterine tube and has four results
+## id
+CON-DEV-F33BB68138377B
+## canonical_key
+fertilization-site-mechanism-results
+## definition
+Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third. Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## explicit_objective
+State where fertilisation occurs and give the four results the department book lists.
+## pitfalls
+Saying the uterus. Fertilisation is tubal; the uterus is where the product of it implants, four days later.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p2 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p88 | 101 ISK
+src_08bc782553366518791e | question_book | | p114 | 101 ISK
+src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Conception
+## article_ids
+ART-101-ANA-FERTILIZATION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+The 2023 and 2022 sittings, as reprinted in the department question book, key "Fertilization occurs in the following site of fallopian tube" to the isthmus. The department book states the ampullary part, the lateral third, both in its text and in the caption of figure 2.1. The question is imported with the answer the book gives and the disagreement recorded, because a paper keyed against the book has been sat twice and a student may meet it again.
+## uncertainty
+The paper prints "Fertlization". The misspelling is the paper's and is kept in `asked` unedited.
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The blastocyst is a trophoblast wall around a blastocele, with the embryoblast heaped against one side and defining the embryonic pole
+## id
+CON-DEV-CDC94B6FDAD75A
+## canonical_key
+blastocyst-structure-poles-and-cavity
+## definition
+The blastocyst forms once the morula reaches the uterine cavity: the zona pellucida begins to degenerate at the end of the fifth day, uterine fluid passes through it and opens spaces between the cells which fuse into a single cavity, and the blastocyst is complete at the end of the sixth day. It has an outer cell mass, the trophoblast, forming its wall — a single layer of cells; an inner cell mass, the embryoblast, lying against the inside of one side of that wall; and the cavity itself, the blastocele. The side of the trophoblast that lies outside the embryoblast is the embryonic pole, and the opposite side is the abembryonic pole. Implantation begins at the embryonic pole, normally in the endometrium of the upper part of the posterior wall of the uterus just below the fundus.
+## explicit_objective
+Name the parts of the blastocyst, say which pole is which and which of them begins implantation.
+## pitfalls
+Placing the inner cell mass at the abembryonic pole. The pole is named after the embryoblast — the embryonic pole is by definition the trophoblast outside it — so the two cannot be at opposite ends, and this is the false statement the books build a question around.
+## concept_type
+structural_description
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
+src_08bc782553366518791e | question_book | | p116 | 101 ISK
+src_08bc782553366518791e | question_book | | p117 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Trophoblast | Embryoblast | Blastocele | Embryonic pole | Abembryonic pole
+## article_ids
+ART-101-ANA-FERTILIZATION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Cleavage divides the zygote inside the zona pellucida into a sixteen-cell morula by the third day, while the tube carries it to the uterus by the fourth
+## id
+CON-DEV-5F0D89A63C847E
+## canonical_key
+cleavage-morula-and-migration-to-the-uterus
+## definition
+Cleavage is mitotic division of the zygote into smaller and smaller blastomeres, all of it happening inside the zona pellucida, which is why the embryo does not grow as its cell number rises. There are two blastomeres on the first day, four on the second, and eight on the third, after which sixteen cells make the morula and division continues to thirty-two and sixty-four. While this is going on the embryo is carried along the uterine tube by three things at once: muscular peristalsis of the tube, the beat of its cilia, and its mucus secretion, which both eases the passage and feeds the embryo. The embryo reaches the uterine cavity on the fourth day, and the zona pellucida only starts to degenerate at the end of the fifth — after arrival, not before.
+## explicit_objective
+Give the cell numbers of cleavage day by day, name the stage that reaches the uterus, and state what confines the dividing cells and what moves them.
+## pitfalls
+Believing the zona is shed early so that the morula can implant. The zona holds the blastomeres together through the whole journey and degenerates only in the uterine cavity; the stage that starts implantation is the blastocyst, never the morula.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
+src_08bc782553366518791e | question_book | | p116 | 101 ISK
+src_08bc782553366518791e | question_book | | p114 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Cleavage | Blastomere | Morula
+## article_ids
+ART-101-ANA-FERTILIZATION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Implantation goes wrong either low inside the uterus or entirely outside it
+## id
+CON-DEV-89FC3BBB3C9BCE
+## canonical_key
+implantation-abnormal-sites
+## definition
+Abnormal implantation is of two kinds. Abnormal intrauterine implantation is in the lower uterine segment: placenta previa, where the placenta is related to the internal os, in complete or total, partial and marginal forms; and low-lying placenta, where the lower edge lies within two centimetres of the internal os. Ectopic pregnancy is implantation outside the uterine cavity — tubal, in the ampulla, isthmus or intramural part; ovarian, on the surface of the ovary; or omental, on the surface of the peritoneum.
+## explicit_objective
+Classify the abnormal sites of implantation into intrauterine and ectopic and name the sites under each.
+## pitfalls
+Treating placenta previa as ectopic. It is inside the uterus; what is abnormal is how low, and the danger is obstructed labour and bleeding rather than rupture.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p3 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Ectopic pregnancy | Placenta previa
+## article_ids
+ART-101-ANA-FERTILIZATION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+The department book carries abnormal sites of implantation in its Second Week chapter, while `clusters.json` places this objective under First Week of Development. The cluster path is used here so the key stays the one the corpus deduplicates on; the book chapter is the Second Week one.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The decidua is the pregnant endometrium, in three parts named by their relation to the conceptus
+## id
+CON-DEV-B84639AB8FF5DE
+## canonical_key
+decidua-definition-parts-fates
+## definition
+The decidua is the functional layer of the endometrium after implantation, so named because it is shed at birth. Decidua basalis lies deep to the conceptus and becomes the maternal part of the placenta; decidua capsularis covers it and is stretched and lost as the sac grows; decidua parietalis lines the rest of the cavity and fuses with the capsularis by about the fourth month, obliterating the uterine cavity.
+## explicit_objective
+Define the decidua, name its three parts by their relation to the conceptus, and give the fate of each.
+## pitfalls
+Swapping basalis and capsularis. Basalis is beneath and becomes placenta; capsularis is the covering and disappears.
+## concept_type
+structural_description
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p118 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+[clear]
+## article_ids
+ART-101-ANA-FERTILIZATION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Each gamete nucleus carries 22 autosomes and one sex chromosome — always X in the ovum, X or Y in the sperm
+## id
+CON-DEV-0BA870DF2C2E13
+## canonical_key
+gamete-morphology-and-the-haploid-nucleus
+## definition
+The sperm is about 55 µm long and has a head, neck, middle piece and tail. Its head holds a condensed nucleus carrying 22 autosomes and either an X or a Y chromosome, with an acrosomal cap of hyaluronidase and acrosin over most of the nucleus, and spermatogenesis begins at puberty and continues into old age. The mature ovum is a secondary oocyte about 120 µm across whose nucleus carries 22 autosomes and an X chromosome only, with a large cytoplasm that is the zygote's first source of nutrition; oogenesis begins in intrauterine life, is arrested, and resumes from puberty to the menopause. The ovum has three coverings, from within outwards: cell membrane, zona pellucida — a glycoprotein coat carrying the sperm receptors — and corona radiata, the outer cover of follicular cells held together by hyaluronic acid.
+## explicit_objective
+State the chromosome content of each gamete nucleus, and name the parts of the sperm and the three coverings of the ovum in order.
+## pitfalls
+Giving the ovum "either X or Y". The sex of the child is decided by the sperm, because the oocyte nucleus can only carry an X; the two gamete questions are written with the same option in both, and it is true for one and false for the other.
+## concept_type
+structural_description
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p1 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p87 | 101 ISK
+src_f32859b80fb79d668010 | question_book | | p2 | 101 ISK
+src_08bc782553366518791e | question_book | | p114 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Sperm | Ovum | Corona radiata | Zona pellucida
+## article_ids
+ART-101-ANA-FERTILIZATION | ART-101-HIS-NUCLEUS
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A microvillus has an actin core and absorbs; a stereocilium is a long non-motile microvillus; only the cilium is built of microtubules and beats
+## id
+CON-FND-5114283D5309E5
+## canonical_key
+microvillus-and-stereocilium-against-the-cilium
+## definition
+The apical specialisations differ in their core and in what they do. A microvillus is a short finger-like projection whose core is actin filaments inserted into a terminal web; it has no axoneme, no basal body and no rootlets, it does not move, and it increases the surface area for absorption. Seen by light microscopy a carpet of microvilli is the brush or striated border of the absorptive columnar cell of the intestine. A stereocilium is not a cilium at all: it is a long, non-motile microvillus with an actin core, and it helps absorption in the epididymis. A cilium is a motile process with a microtubular core, and a flagellum has the same axoneme but is far longer and moves the cell itself.
+## explicit_objective
+Tell a microvillus, a stereocilium and a cilium apart by their core filament, their motility and their function, and name the light-microscopic appearance of each.
+## pitfalls
+Reading "stereocilium" as a kind of cilium. The name says cilium and the structure is a microvillus — long, actin-cored and motionless — and the book says so explicitly.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_6846577508f49244d715 | question_book | | p8 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p11 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p11 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p2 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
+src_6846577508f49244d715 | question_book | | p11 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
+src_6846577508f49244d715 | question_book | | p23 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p10 | 101 ISK
+src_1fb914ce96908301b7b1 | question_book | | p3 | 101 ISK
+src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p12 | 101 ISK
+src_25ac512fb1cb23a6f696 | question_book | | p10 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+1.00
+## exam_weight_by_year
+KAU_Y1=1.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Epithelial Tissues
+## aliases
+Microvilli | Brush border | Striated border | Stereocilia | Terminal web
+## article_ids
+ART-101-ANA-FERTILIZATION | ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book gives no length or diameter for a microvillus, a stereocilium, a cilium or a flagellum, so "short" and "long" here are relative to each other and not to a stated figure.
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Fertilisation runs in four named steps — capacitation, then phase I through the corona radiata, phase II through the zona pellucida, phase III through the oocyte membrane
+## id
+CON-DEV-7DC9EC16B34924
+## canonical_key
+fertilization-steps-capacitation-and-three-phases
+## definition
+The department book gives fertilisation as four steps in a fixed order, and the question books ask them by their numbers. Capacitation comes first and is not one of the numbered phases: it is the removal, in the female genital tract, of the glycoprotein coat covering the acrosomal region of the sperm, and it takes about seven hours. Phase I is dispersion of the corona radiata: of the two to three hundred million sperms in an ejaculate only three to five hundred reach the ovum, and they release hyaluronidase to open passages between the follicular cells. Phase II is penetration of the zona pellucida, also called the acrosomal reaction: the sperm head binds the zona through its specific receptors, which triggers release of acrosin and trypsin-like material from the acrosomal cap and dissolves a path the tail then drives the sperm along. Phase III is opening of the cell membrane of the oocyte: the two cell membranes fuse and open, and the sperm nucleus, mitochondrial sheath and axial filament pass into the oocyte cytoplasm.
+## explicit_objective
+Name capacitation and the three numbered phases of fertilisation in order, and say what the sperm crosses in each.
+## pitfalls
+Counting capacitation as phase I. It happens in the female tract long before the sperm meets the ovum and is not numbered, so calling it phase I shifts every later phase by one — which is exactly what the question books test by asking for phase II and phase III with the same four options.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p2 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p88 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Capacitation | Acrosomal reaction | Phases of fertilization
+## article_ids
+ART-101-ANA-FERTILIZATION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The cortical and zona reaction is the block to polyspermy, and it fires only once the sperm is already inside the oocyte cytoplasm
+## id
+CON-DEV-79E0801E11BA09
+## canonical_key
+cortical-and-zona-reaction-blocks-polyspermy
+## definition
+The cortical and zona reaction is the mechanism that prevents polyspermy. Once the fertilising sperm has entered the cytoplasm of the oocyte, lysosomal enzymes are released from the cortical granules that lie immediately inside the oocyte cell membrane. Those enzymes do two things: they change the structure of the sperm receptors in the zona pellucida so that it stops attracting further sperms, and they make the oocyte cell membrane and the zona pellucida impenetrable to any other sperm. It is therefore a consequence of successful fertilisation rather than a step towards it, and it is the ovum, not the sperm, that supplies the enzymes.
+## explicit_objective
+State what the cortical and zona reaction is for, where its enzymes come from, and at what moment in fertilisation it occurs.
+## pitfalls
+Placing it during penetration of the zona pellucida, because that is the structure it changes. The trigger is the sperm arriving in the cytoplasm; a block that fired while the sperm was still crossing the zona would shut out the sperm that set it off.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12d639a625d8305c4454 | question_book | | p2 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p88 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Zona reaction | Cortical reaction | Block to polyspermy | Polyspermy
+## article_ids
+ART-101-ANA-FERTILIZATION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
 Glandular epithelium is epithelium modified to secrete, and the presence of a duct divides glands into exocrine, endocrine and mixed
 ## id
 CON-FND-0A988681FF1ABF
@@ -11200,6 +13086,409 @@ originalWording: These questions come from departmental question books rather th
 
 # Item
 ## label
+Every anatomical description assumes the erect position: standing, eyes forward, arms at the sides, palms facing forwards
+## id
+CON-MSK-D193498AB94D21
+## canonical_key
+anatomical-erect-position-is-the-reference-for-all-description
+## definition
+The anatomical erect position is the reference position for describing the anatomy of the body: the body stands erect, the eyes look forwards, the upper limbs hang by the sides, the palms face forwards and the thumbs are directed laterally. Every term of position — anterior, medial, proximal — is stated as though the body were in it, whatever posture the patient is actually in. The other four positions the book names are clinical postures, not references: supine, lying on the back; prone, lying on the face; lithotomy, on the back with hip and knee flexed and the hips abducted; and lateral decubitus, lying on the right or left side.
+## explicit_objective
+State the anatomical erect position in full and name the four other positions the department book defines.
+## pitfalls
+Forgetting the palms. Every other element of the position is the posture a person naturally stands in; supinated forearms are the one deliberate part, and it is the part examiners test.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p2 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p1 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p2 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Anatomical position
+## article_ids
+ART-101-ANA-INTRODUCTION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The three anatomical planes are named by the two parts each one leaves behind
+## id
+CON-MSK-EE7CDEF8ACA587
+## canonical_key
+anatomical-planes-median-coronal-horizontal
+## definition
+The median (sagittal) plane is the vertical plane passing in the midline of the body, dividing it into equal right and left halves; a paramedian plane is parallel to it and near it, and therefore gives unequal halves. The coronal (frontal) plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The horizontal (transverse) plane runs horizontally, cutting the body into an upper (superior) and a lower (inferior) part.
+## explicit_objective
+Name each anatomical plane, say in which direction it runs and which two parts it divides the body into.
+## pitfalls
+Reading "vertical" as identifying the plane. Both the median and the coronal plane are vertical; what separates them is the pair of parts left behind — right and left for the median, front and back for the coronal.
+## concept_type
+classification
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p2 | 101 ISK
+src_08bc782553366518791e | question_book | | p3 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p2 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Planes of the body | Sagittal plane | Frontal plane | Transverse plane
+## article_ids
+ART-101-ANA-INTRODUCTION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Medial and lateral are measured from the median plane; proximal and distal from the root of the limb
+## id
+CON-MSK-A0C1F50FABDC0F
+## canonical_key
+terms-of-position-medial-lateral-proximal-distal
+## definition
+The department book tabulates fourteen terms of position. Median is exactly in the midline; medial is nearer to the median plane and lateral away from it. Proximal is nearer to the root of the limb and distal away from it. Anterior (ventral) is nearer the front and posterior (dorsal, retro-) nearer the back; superior (cranial) is upper and inferior (caudal) lower; external (outer) is near or on the surface and internal (inner) inside; superficial is towards the skin and deep away from it; peri- means around.
+## explicit_objective
+Give the term for a stated relation, and name the reference — the median plane, the root of the limb, or the skin — that each pair is measured from.
+## pitfalls
+Using medial and proximal interchangeably because both mean "towards the middle of something". They measure from different things: medial from the median plane of the body, proximal from where the limb joins the trunk.
+## concept_type
+classification
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_51fef9b6234c5d381f59 | question_book | | p1 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p2 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p2 | 101 ISK
+src_08bc782553366518791e | question_book | | p3 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Terms of position | Anatomical terminology
+## article_ids
+ART-101-ANA-INTRODUCTION
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
 The movements possible at an upper limb joint follow from its type and the number of its axes
 ## id
 CON-MSK-B88F413E4536F9
@@ -11526,6 +13815,278 @@ Upper Limb
 [clear]
 ## article_ids
 ART-101-ANA-ELBOW-JOINT
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Magnification is how much bigger a microscope makes a thing look; resolution is how close two points may lie and still be seen as two
+## id
+CON-FND-B26B5864907F95
+## canonical_key
+magnification-and-resolution-of-the-light-and-electron-microscope
+## definition
+Magnification power is the degree of enlargement, the power of the objective lens multiplied by the power of the eyepiece; the light microscope reaches 15 × 100 = 1500 times, and the transmission electron microscope 1000 to 100,000 times or more. Resolution power is a different quantity: the least distance between two points at which they can still be seen as two points and not one. It is 0.2 mm for the naked eye, 0.2 µm for the light microscope and 0.2 nm for the electron microscope — the same figure in three units, each a thousandfold apart, since 1 mm = 1000 µm and 1 µm = 1000 nm. The transmission electron microscope illuminates with an electron beam, magnifies with electromagnetic coils and shows its image on a fluorescent screen; the scanning electron microscope gives a three-dimensional image of surfaces only.
+## explicit_objective
+Define magnification and resolution power separately, and give the resolution of the naked eye, the light microscope and the electron microscope in the correct unit.
+## pitfalls
+Reading the unit rather than the digits. Every one of the three resolutions is 0.2 — what distinguishes the eye from the electron microscope is entirely whether that 0.2 is in millimetres, micrometres or nanometres, and an option list that keeps the digits and swaps the units is the standard trap in this chapter.
+## concept_type
+comparison
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T04
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
+src_bb081b0479f7a33666cd | question_book | | p1 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Introduction
+## aliases
+Resolving power | Magnifying power | TEM | SEM
+## article_ids
+ART-101-HIS-MICROSCOPES
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The plasma membrane is a 7.5–10 nm trilaminar unit membrane, invisible in H&E and shown only by silver or PAS
+## id
+CON-FND-F4B7458F8B8265
+## canonical_key
+plasma-membrane-unit-membrane-em-and-thickness
+## definition
+The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. The books set it against three other membranous terms: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.
+## explicit_objective
+Give the thickness of the plasma membrane in the right unit, describe its trilaminar appearance on electron microscopy, and name the stains that show it by light microscopy.
+## pitfalls
+Reading 7.5–10 in the wrong unit. Nanometres is the only order of magnitude that fits: micrometres would make the membrane thicker than most organelles, and angstroms would make it thinner than one lipid molecule.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d1414701d8fcb55932b6 | question_book | | p1 | 101 ISK
+src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_6846577508f49244d715 | question_book | | p10 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.79
+## exam_weight_by_year
+KAU_Y1=0.79
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Plasmalemma | Unit membrane | Trilaminar membrane
+## article_ids
+ART-101-HIS-MICROSCOPES | ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
@@ -14317,138 +16878,6 @@ originalWording: These questions come from departmental question books rather th
 
 # Item
 ## label
-Each gamete nucleus carries 22 autosomes and one sex chromosome — always X in the ovum, X or Y in the sperm
-## id
-CON-DEV-0BA870DF2C2E13
-## canonical_key
-gamete-morphology-and-the-haploid-nucleus
-## definition
-The sperm is about 55 µm long and has a head, neck, middle piece and tail. Its head holds a condensed nucleus carrying 22 autosomes and either an X or a Y chromosome, with an acrosomal cap of hyaluronidase and acrosin over most of the nucleus, and spermatogenesis begins at puberty and continues into old age. The mature ovum is a secondary oocyte about 120 µm across whose nucleus carries 22 autosomes and an X chromosome only, with a large cytoplasm that is the zygote's first source of nutrition; oogenesis begins in intrauterine life, is arrested, and resumes from puberty to the menopause. The ovum has three coverings, from within outwards: cell membrane, zona pellucida — a glycoprotein coat carrying the sperm receptors — and corona radiata, the outer cover of follicular cells held together by hyaluronic acid.
-## explicit_objective
-State the chromosome content of each gamete nucleus, and name the parts of the sperm and the three coverings of the ovum in order.
-## pitfalls
-Giving the ovum "either X or Y". The sex of the child is decided by the sperm, because the oocyte nucleus can only carry an X; the two gamete questions are written with the same option in both, and it is true for one and false for the other.
-## concept_type
-structural_description
-## status
-under review
-## subject
-dev
-## primary_node_id
-DIS-EMB-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > General Embryology > Gametes
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_08bc782553366518791e | question_book | | p114 | 101 ISK
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Anatomy
-## subtopic
-General Embryology
-## aliases
-Sperm | Ovum | Corona radiata | Zona pellucida
-## article_ids
-ART-101-HIS-NUCLEUS
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
 The breast lies from the second to the sixth rib on a bed of pectoralis major, serratus anterior and external oblique
 ## id
 CON-MSK-CE160ABC8341C8
@@ -14912,152 +17341,6 @@ direct_statement
 [clear]
 ## evidence_gaps
 [clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-A microvillus has an actin core and absorbs; a stereocilium is a long non-motile microvillus; only the cilium is built of microtubules and beats
-## id
-CON-FND-5114283D5309E5
-## canonical_key
-microvillus-and-stereocilium-against-the-cilium
-## definition
-The apical specialisations differ in their core and in what they do. A microvillus is a short finger-like projection whose core is actin filaments inserted into a terminal web; it has no axoneme, no basal body and no rootlets, it does not move, and it increases the surface area for absorption. Seen by light microscopy a carpet of microvilli is the brush or striated border of the absorptive columnar cell of the intestine. A stereocilium is not a cilium at all: it is a long, non-motile microvillus with an actin core, and it helps absorption in the epididymis. A cilium is a motile process with a microtubular core, and a flagellum has the same axoneme but is far longer and moves the cell itself.
-## explicit_objective
-Tell a microvillus, a stereocilium and a cilium apart by their core filament, their motility and their function, and name the light-microscopic appearance of each.
-## pitfalls
-Reading "stereocilium" as a kind of cilium. The name says cilium and the structure is a microvillus — long, actin-cored and motionless — and the book says so explicitly.
-## concept_type
-comparison
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_bb081b0479f7a33666cd | question_book | | p11 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p11 | 101 ISK
-src_25ac512fb1cb23a6f696 | question_book | | p2 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p8 | 101 ISK
-src_6846577508f49244d715 | question_book | | p11 | 101 ISK
-src_1fb914ce96908301b7b1 | question_book | | p11 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p3 | 101 ISK
-src_6846577508f49244d715 | question_book | | p23 | 101 ISK
-src_1fb914ce96908301b7b1 | question_book | | p10 | 101 ISK
-src_1fb914ce96908301b7b1 | question_book | | p3 | 101 ISK
-src_d184b8378f4d66d285e0 | question_book | | p6 | 101 ISK
-src_25ac512fb1cb23a6f696 | question_book | | p4 | 101 ISK
-src_25ac512fb1cb23a6f696 | question_book | | p12 | 101 ISK
-src_25ac512fb1cb23a6f696 | question_book | | p10 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-1.00
-## exam_weight_by_year
-KAU_Y1=1.00
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Epithelial Tissues
-## aliases
-Microvilli | Brush border | Striated border | Stereocilia | Terminal web
-## article_ids
-ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-The department book gives no length or diameter for a microvillus, a stereocilium, a cilium or a flagellum, so "short" and "long" here are relative to each other and not to a stated figure.
 ## arabic_label
 [clear]
 ## arabic_aliases
@@ -17295,6 +19578,943 @@ originalWording: These questions come from departmental question books rather th
 
 # Item
 ## label
+The axial skeleton is the skull, hyoid, sternum, ribs and vertebral column; the appendicular skeleton is the limbs and their girdles
+## id
+CON-MSK-9A22BB8909AF29
+## canonical_key
+skeleton-axial-versus-appendicular
+## definition
+By position the skeleton divides in two. The axial skeleton is the skull, the mandible, the hyoid bone, the sternum, the ribs and the vertebral column — the central axis of the body. The appendicular or peripheral skeleton is the bones of the upper and lower limbs, and includes the girdles by which the limbs hang from the axis: the clavicle and scapula above, the hip bone below.
+## explicit_objective
+Assign a named bone to the axial or the appendicular skeleton.
+## pitfalls
+Putting the clavicle and scapula with the axial skeleton because they lie on the trunk. They are the pectoral girdle, part of the upper limb; the sternum they meet is the axial bone.
+## concept_type
+classification
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_764a2521809818b8abdc | question_book | | p4 | 101 ISK
+src_08bc782553366518791e | question_book | | p8 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Peripheral skeleton
+## article_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+Bones fall into six shape classes, and the department book names one worked example of each
+## id
+CON-MSK-00B4A0D32A6420
+## canonical_key
+bone-shapes-six-classes-with-examples
+## definition
+By shape there are six classes of bone. A long bone has two expanded ends and a shaft. A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone. A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe. A pneumatic bone contains air cavities, chiefly the skull bones around the nose. An irregular bone, such as a vertebra, has an irregular shape with projecting processes and is built like a short bone. A sesamoid bone is a small nodule of bone embedded in a muscle tendon; the patella, in the tendon of quadriceps femoris, is the largest.
+## explicit_objective
+Classify a named bone into one of the six shape classes, and give the book's example of each class.
+## pitfalls
+Calling the patella a short bone because it is small and rounded. Its class is decided by where it sits — inside a tendon — not by its size.
+## concept_type
+classification
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_51fef9b6234c5d381f59 | question_book | | p4 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p5 | 101 ISK
+src_0f1171705349e98b44e6 | question_book | | p30 | 101 ISK
+src_0f68f0c75a8effe74782 | question_book | | p53 | 101 ISK
+src_08bc782553366518791e | question_book | | p8 | 101 ISK
+src_08bc782553366518791e | question_book | | p7 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Classification of bones by shape
+## article_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The air cavities of a pneumatic bone lighten the skull, give the voice resonance and warm inspired air — they do not strengthen it
+## id
+CON-MSK-6DCABD3AE947F5
+## canonical_key
+pneumatic-bone-air-cavities-and-their-uses
+## definition
+A pneumatic bone contains air. The bones concerned are mainly the skull bones surrounding the nose — the maxilla, the frontal — so their air cavities are called the paranasal sinuses. A bone may hold one large cavity, as the maxillary sinus does, or many small air cells, as the mastoid does. The cavities decrease the weight of the skull, give resonance to the voice, and are lined by a highly vascular mucosa that warms inspired air.
+## explicit_objective
+State the three uses of the air cavity in a pneumatic bone, and say what it does not do.
+## pitfalls
+Adding strength to the list. A cavity can only take bone away; what air buys is lightness, resonance and a warm airway, and strength is what it costs.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_08bc782553366518791e | question_book | | p8 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Paranasal sinuses
+## article_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A long bone is an epiphysis at each end, a diaphysis between them, and a metaphysis where the two meet
+## id
+CON-MSK-EFD497A9922A4D
+## canonical_key
+long-bone-regions-epiphysis-diaphysis-metaphysis
+## definition
+The epiphyses are the expanded upper and lower ends of a long bone; they carry the articular surfaces and are covered with hyaline cartilage. The diaphysis is the shaft — a tube of compact bone with a central medullary cavity, lined by endosteum, filled with bone marrow and covered by the periosteum. In a growing bone the two are separated by a disc of hyaline cartilage, the epiphyseal cartilage. The metaphysis lies just beneath that cartilage and is the most active part of the long bone.
+## explicit_objective
+Name the region of a long bone from a description of it, and give what each region contains.
+## pitfalls
+Confusing the metaphysis with the diaphysis. The metaphysis is the narrow, highly active zone under the growth plate; the diaphysis is the whole hollow shaft below it.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_51fef9b6234c5d381f59 | question_book | | p3 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p4 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p4 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Parts of a long bone
+## article_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A long bone lengthens at its epiphyseal plates and widens from the periosteum, and the end that ossifies later is the growing end
+## id
+CON-MSK-C30E73A5353ABB
+## canonical_key
+long-bone-grows-in-length-at-the-epiphyseal-plate
+## definition
+A long bone increases in length from the epiphysial plates of cartilage, by proliferation of their cells, and increases in width from the osteoblasts in the inner layer of the periosteum. The epiphyseal plate at one end ossifies earlier than the other; the end whose plate ossifies later goes on growing longer and is called the growing end. The nutrient artery enters the shaft obliquely and runs away from the growing end. Fusion of epiphysis with diaphysis is under hormonal control and happens in females about two years earlier than in males.
+## explicit_objective
+Name the structure that lengthens a long bone, the one that widens it, and say what makes one end the growing end.
+## pitfalls
+Answering "metaphysis" because the book calls it the most active part of the bone. Activity is not the same as growth: the cartilage cells of the plate divide, and the metaphysis is the bone left behind as they do.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_51fef9b6234c5d381f59 | question_book | | p4 | 101 ISK
+src_08bc782553366518791e | question_book | | p8 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Growing end | Epiphysial plate
+## article_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+A bone forms either directly in a connective tissue membrane or by replacing a cartilage model, and which one it did is fixed for each bone
+## id
+CON-MSK-2C78EFB16CA67F
+## canonical_key
+ossification-membranous-versus-cartilaginous
+## definition
+Bones form by one of two processes. In intra-membranous ossification bone develops directly from a connective tissue membrane of mesenchyme, beginning at one or more centres; the clavicle and the skull cap form this way. In intra-cartilaginous (endochondral) ossification the mesenchyme first becomes a cartilage model, which is then changed into bone; the long bones, the vertebrae, the ribs and the base of the skull form this way.
+## explicit_objective
+Say by which of the two processes a named bone ossifies, and give the book's examples of each.
+## pitfalls
+Reading the clavicle as a long bone and therefore cartilaginous. It is the standing exception the examiner uses: shaped like a long bone, but ossified in membrane.
+## concept_type
+classification
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_51fef9b6234c5d381f59 | question_book | | p3 | 101 ISK
+src_764a2521809818b8abdc | question_book | | p4 | 101 ISK
+src_08bc782553366518791e | question_book | | p19 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Endochondral ossification | Intramembranous ossification
+## article_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The three cartilages are told apart by their matrix, and each has its own list of sites
+## id
+CON-MSK-AEB62E99182AEE
+## canonical_key
+cartilage-three-types-and-their-sites
+## definition
+Cartilage is a rubbery, tough and resilient connective tissue with no blood vessels, nerves or lymphatics, nourished by diffusion from the vessels of the perichondrium. Hyaline cartilage has a translucent, glass-like matrix with numerous small rounded cells and is the most widespread: developing bones in the fetus, the epiphyseal plates, the articular cartilage of joints, the costal cartilages and xiphoid process, and the larynx except the epiglottis together with the tracheal rings. It is the only one that ossifies in old age. White fibrocartilage has an opaque matrix rich in collagen bundles and few cells, and is found in the intervertebral discs. Yellow elastic fibrocartilage has a yellow matrix rich in elastic fibres and abundant cells, and is found in the tip of the nose, the auricle of the ear and the epiglottis.
+## explicit_objective
+Name the type of cartilage at a given site, and give the matrix that distinguishes each type.
+## pitfalls
+Putting the epiglottis with the rest of the larynx. The larynx is hyaline except the epiglottis, which is yellow elastic — and the exception is what gets asked.
+## concept_type
+classification
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_764a2521809818b8abdc | question_book | | p4 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p3 | 101 ISK
+src_08bc782553366518791e | question_book | | p7 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+Hyaline cartilage | White fibrocartilage | Yellow elastic fibrocartilage
+## article_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## support_mode
+direct_statement
+## original_wording
+[clear]
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+[clear]
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+[clear]
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+[clear]
+## reviewer
+[clear]
+## final_publisher
+[clear]
+## last_reviewed
+[clear]
+## review_due
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
 Epithelial tissue is avascular, crowded, rests on a basement membrane and regenerates well, and falls into four classes by what its cells are modified to do
 ## id
 CON-FND-49350AB867CB5A
@@ -18608,144 +21828,6 @@ Epithelial Tissues
 Metaplasia | Squamous metaplasia | Bilharziasis
 ## article_ids
 ART-101-HIS-SURFACE-EPITHELIUM
-## support_mode
-direct_statement
-## original_wording
-[clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-[clear]
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-[clear]
-## resource_ids
-[clear]
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-[clear]
-## reviewer
-[clear]
-## final_publisher
-[clear]
-## last_reviewed
-[clear]
-## review_due
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
-
----
-
-# Item
-## label
-The plasma membrane is a 7.5–10 nm trilaminar unit membrane, invisible in H&E and shown only by silver or PAS
-## id
-CON-FND-F4B7458F8B8265
-## canonical_key
-plasma-membrane-unit-membrane-em-and-thickness
-## definition
-The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. The books set it against three other membranous terms: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.
-## explicit_objective
-Give the thickness of the plasma membrane in the right unit, describe its trilaminar appearance on electron microscopy, and name the stains that show it by light microscopy.
-## pitfalls
-Reading 7.5–10 in the wrong unit. Nanometres is the only order of magnitude that fits: micrometres would make the membrane thicker than most organelles, and angstroms would make it thinner than one lipid molecule.
-## concept_type
-structural_description
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Cytology > The cell
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_6846577508f49244d715 | question_book | | p20 | 101 ISK
-src_620516ae7327c0f4fc2f | question_book | | p4 | 101 ISK
-src_6846577508f49244d715 | question_book | | p2 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
-src_6846577508f49244d715 | question_book | | p10 | 101 ISK
-src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
-src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
-## weight_confidence
-0.8
-## blueprint_weight
-0.71
-## exam_weight_by_year
-KAU_Y1=0.71
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Cytology
-## aliases
-Plasmalemma | Unit membrane | Trilaminar membrane
-## article_ids
-ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording

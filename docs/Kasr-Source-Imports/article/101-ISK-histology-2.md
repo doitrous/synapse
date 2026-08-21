@@ -34,6 +34,21 @@
   chapter they come from named in `evidence_basis`. Four leaves carry no concept
   at all yet, and their `field_notes` say so rather than borrowing one.
 
+  A later pass extended six of these twelve — Red Blood Corpuscles, Non granular
+  leukocytes, Haemopoiesis, Connective Tissue Fibres, Types of Connective Tissue
+  Proper and Nucleus — with an "On the slide" section, because the fifteen
+  identification concepts in ../concept/101-ISK-practical-concepts.md that sat on
+  those six leaves were taught by no article and a question on any of them had
+  nothing a student could go and read. No second article was written for a leaf
+  that already had one. That section's source is not the department textbook but
+  the Histology Department's practical book (src_b4cb8bf9f0c7a6584b4b) and the
+  revision deck (src_05a0b0c29acc94017b8f), catalogued in
+  scripts/kasr/extract/practical.json, and each of the six articles names it
+  separately in `evidence_basis` so the two halves can be checked against two
+  different books. Where those sections say something neither book states — a
+  magnification, where an osteoclast sits, that the practical's "open face" is the
+  textbook's "vesicular" — it is recorded in `evidence_gaps` rather than asserted.
+
   The repository holds zero medical images (../media-requests/media-audit.md).
   Every plate these articles need is written as an `image_recommendations` block
   for a human to source. Nothing here downloads, generates or attaches an asset.
@@ -81,13 +96,15 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M01
 SYS-HEM-T01-S02-M02
+## related_concepts
+CON-HEM-1935D59A1D2839 | CON-HEM-4F5347CC3664E0
 ## related_articles
 ART-101-HIS-HAEMOPOIESIS: The reticulocyte that replaces a lost red corpuscle, and the marrow that makes it, are described there.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The cell coat and the cytoskeleton this article relies on are set out in the cytology chapter, and the red corpuscle is the book's own worked example of both.
 ## aliases
 RBCs | Erythrocytes | Red blood cells | Red corpuscles
 ## reading_time
-12
+15
 ## summary
 Everything the examiner asks about the red corpuscle comes back to one design decision: it threw away its nucleus and its organelles to carry more haemoglobin, and it took a biconcave shape to trade gas across a larger surface. The diameter, the pale centre, the acidophilia, the rouleaux, the crenation and the 120-day life span are all consequences of that one trade, and the paper marks the consequences.
 ## sections
@@ -150,6 +167,16 @@ Aged corpuscles are not destroyed by megakaryocytes and not destroyed only in th
 Crenation is what a hypertonic solution does, and haemolysis with a cell ghost is what a hypotonic solution does. The pair is reversed more often than any other fact in this chapter, and a single sentence fixes it: a hypertonic solution draws water out, so the cell shrinks.
 
 Rouleaux is not a sign of damage and not a feature of normal circulation. It is reversible, it harms nothing, and it needs slow flow to occur.
+### On the slide
+The practical asks this chapter as a spot, and the spot has two halves. The department's stem opens "This is a ..., stained with ...", and the preparation carries marks of its own before any cell in the field is named. The answer is a blood film, stained with Leishman's stain. A student who writes only the name of the arrowed cell has left half the question blank.
+
+What identifies the preparation is the field rather than any one cell in it. A blood film is a monolayer: acidophilic non-nucleated corpuscles fill it and lie separately rather than bound into a tissue, occasional nucleated leucocytes are scattered among them, and small platelet fragments lie in the gaps. Nothing has been cut, so there is no matrix, no basement membrane and no epithelial surface anywhere in the field — which is how a film is told from a section before anything in it is named.
+
+The corpuscle itself is identified on three characters, and the answer page wants them together: non-nucleated, acidophilic, and centrally pale over about one third of the diameter. All three are consequences the chapter has already given. It has no nucleus because it discarded one; it is acidophilic because haemoglobin is a basic protein and binds the acid dye; and it is 0.8 µm thick at the centre against 2.2 µm at the edge, so the middle transmits more light. The pale centre is thinning, not a hole. It is neither a nucleus nor a vacuole, and calling it either throws away the mark that the word non-nucleated was there to earn.
+
+The crenated corpuscle sits on the same plate. It is the same cell shrunken in a hypertonic medium, and it is recognised by notches around its outline where a normal corpuscle is smoothly circular. The department arrows one of each in one field precisely so that the two are separated on their edges rather than on their colour, which is identical.
+
+Read a film at oil immersion. At low power a blood film is a pink haze: the central pallor is a proportion of a 7.5 µm cell, and a proportion cannot be judged in a cell too small to resolve.
 ## hold_these
 The red corpuscle is 6–9 µm across with an average of 7.5 µm, and the pale centre is about one third of the diameter.
 It is 2.2 µm thick at the edge and 0.8 µm at the centre, which is why the centre is pale.
@@ -162,6 +189,11 @@ The cytoskeleton of actin and spectrin on the inner surface keeps the shape, whi
 Hypertonic solution causes crenation, hypotonic solution causes swelling, bursting and a cell ghost, and isotonicity is the osmotic pressure of 0.9% saline.
 Rouleaux occurs in slow circulation, is caused by the surface tension of the biconcave surface, is reversible and harmless, and explains the raised erythrocyte sedimentation rate.
 On electron microscopy the cell membrane is the only structure present, the interior being homogeneous electron-dense haemoglobin.
+The practical stem opens "This is a ..., stained with ...", and the answer — a blood film, stained with Leishman's stain — carries its own marks before any cell in it is named.
+A blood film is told from a section by the field: a monolayer of separate cells with no matrix, no basement membrane and no cut surface anywhere in it.
+The corpuscle is identified on three characters together — non-nucleated, acidophilic, and centrally pale over about one third of the diameter.
+A crenated corpuscle is recognised by notches around its outline, and the department arrows it beside a normal corpuscle in the same field.
+A blood film is read at oil immersion; at low power none of the three characters can be judged.
 ## lose_the_mark
 Pairing the adaptations wrongly. The flexible membrane is for squeezing through capillaries and the lipoprotein membrane for gas exchange, while the biconcave shape gives surface area and the rounded edges ease passage through branched vessels.
 Swapping crenation and haemolysis. Hypertonic shrinks and crenates, hypotonic swells and bursts.
@@ -172,6 +204,9 @@ Attributing rouleaux to low surface tension. The book attributes it to the surfa
 Saying the pale centre is half the diameter. The book states one third.
 Calling the red corpuscle a true cell. The book states that red corpuscles and platelets are not true cells.
 Explaining the corpuscle's acidophilia by saying haemoglobin is acidic. Haemoglobin is a basic protein, which is why it binds the acid dye.
+Naming the arrowed cell and stopping. The stem asks for the preparation and the stain first, and those two blanks carry marks of their own.
+Calling the central pallor a nucleus or a vacuole. It is the thin middle of a biconcave disc, 0.8 µm against 2.2 µm at the edge, and the mature corpuscle has no nucleus at all.
+Answering H&E for a blood film. H&E is the routine section stain; a film takes a neutral stain, which is Leishman's.
 ## image_recommendations
 ### histology · Human peripheral blood film, Leishman stain, oil immersion, showing normochromic red corpuscles with the pale central third clearly visible
 Purpose: The pale centre being one third of the diameter is a proportion, and a proportion is what a student either sees or guesses. The written paper asks for the fraction and the practical asks the student to recognise it.
@@ -214,6 +249,23 @@ Kind: diagram
 Section: Key determinants
 Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
+### histology · Leishman-stained blood film at oil immersion with a normal centrally pale corpuscle and a crenated corpuscle in the same field, unlabelled
+Purpose: The department arrows both on one plate and expects them separated on their outlines. Two cells in one field make crenation a shape difference the student can see; described separately, it becomes a word that sounds like damage.
+Priority: required
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed haematology atlas or an institutional teaching set
+Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
+Notes: An unlabelled version is preferred so the same plate can carry a labelling question later.
+### histology · Low-power survey field of a Leishman-stained blood film — the monolayer as a whole, corpuscles dominating, one scattered leucocyte, platelet fragments between them
+Purpose: The first half of every blood spot is naming the preparation, and that is a judgment about the whole field rather than about any cell in it. A survey field is what the student is being asked to recognise, and no close-up of a single cell teaches it.
+Priority: required
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed haematology atlas
+Rights: must be CC-BY or public domain
 ## conflicts
 [clear]
 ## evidence_gaps
@@ -223,18 +275,21 @@ No numerical value is given for the erythrocyte sedimentation rate, nor for the 
 The book gives no figure for the newborn red corpuscle count, saying only that the count is highest in the newborn and falls gradually.
 The book does not say how much of the 120-day life span is spent where, nor at what rate corpuscles are replaced.
 No independent citation has been attached to any figure in this article. Every number is traceable to the department book only, which is a single source.
+The practical book prints no magnification on any blood-film plate. The instruction in "On the slide" to read a film at oil immersion is standard laboratory practice rather than a statement of this faculty's, and it is named as such in field_notes.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter III "Blood", section on Red Blood Corpuscles, printed pages 26-28, including the page 28 table "Adaptation of RBCs To Perform Their Functions". Extracted to scripts/kasr/extract/deptbook.json.
+Histology Department practical book, "DPT Practical Histo 101" (manifest source src_b4cb8bf9f0c7a6584b4b), and the departmental revision deck "DPT 1 - ISK 101 - Final Revision" (manifest source src_05a0b0c29acc94017b8f), catalogued slide by slide in scripts/kasr/extract/practical.json. This is the source of the "On the slide" section, of the callouts drawn from it, and of nothing else in this article; the pages are named in that section's own concepts in ../concept/101-ISK-practical-concepts.md.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation.
-relatedConcepts: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md sits on this leaf yet. None is invented here, and none of the existing concepts is claimed as taught by this article when it is not.
+relatedConcepts: Both concepts in ../concept/101-ISK-practical-concepts.md whose module subject path names this leaf are listed, copied rather than re-derived — CON-HEM-1935D59A1D2839, the survey identification of a Leishman film as a preparation, and CON-HEM-4F5347CC3664E0, the identification of the corpuscle itself. Both are taught in "On the slide". CON-HEM-1935D59A1D2839 also carries the Granular leukocytes and Blood Platelets paths, because the same opening stem is asked on those plates too; it is claimed here alone rather than on three articles, since the survey answer is one sentence and repeating it in three places would be the same fact maintained three times. No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md sits on this leaf.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The question books ask for the molecular cause of hereditary spherocytosis (a spectrin gene defect) and for an acid–base buffering function. Neither is in this chapter, and neither is taught here. Both are recorded as evidence gaps for a faculty reviewer to rule on.
+slideIdentification: The "On the slide" section is written from the practical book and the revision deck rather than from the department textbook, which teaches the corpuscle but sets no spot. Its source is named separately in evidence_basis so that a reviewer can check the two halves of the article against two different books.
 ## notes
 The book teaches this chapter as a table of factor against adaptation, and the question books test the pairing rather than the list, so the Mechanism section is organised as three factors with two adaptations each rather than as prose about function.
 
@@ -280,6 +335,8 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M02
 SYS-HEM-T01-S02-M01
+## related_concepts
+CON-HEM-29CA381FD3707B
 ## related_articles
 ART-101-HIS-GRANULAR-LEUKOCYTES: The differential count this article completes is stated there, and the total leukocytic count applies to both halves of it.
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The macrophage and the plasma cell, which are what the monocyte and the B lymphocyte become once they leave the blood, are described there.
@@ -287,7 +344,7 @@ ART-101-HIS-HAEMOPOIESIS: The marrow stem cell that both lines start from, and t
 ## aliases
 Agranulocytes | Non granular leucocytes | Mononuclear leucocytes | Monocytes and lymphocytes
 ## reading_time
-13
+16
 ## summary
 Two cells sit in this half of the differential count, and the exam separates them on one thing each: the monocyte on its size and its kidney-shaped nucleus, the lymphocyte on its surface receptors. Neither can be told apart from its neighbours by the granules, because neither has specific granules, so the questions turn instead on what each becomes after it leaves the blood — a macrophage, or a plasma cell.
 ## sections
@@ -350,6 +407,16 @@ A large lymphocyte is not a monocyte. The monocyte is larger, at 13–20 µm aga
 Natural killer cells are not a kind of T lymphocyte. They arise from the same precursor pool but never pass through the thymus, and they carry neither T-cell nor B-cell receptors — which is exactly why they can act without T-helper stimulation.
 
 Being non-granular does not mean having no granules at all. Both cells carry azurophil granules, which are lysosomes; what they lack is specific granules.
+### On the slide
+The practical puts both cells on one plate and separates them on two things: the shape of the nucleus and the look of the cytoplasm. The department's stem for the monocyte is "Blue arrow points to ..., characterized by ... nucleus and the cytoplasm shows ... appearance", and the two words the answer page wants in those blanks are kidney-shaped and frosted glass.
+
+The monocyte is the largest cell in the field. It is larger than the corpuscles around it, which are 7.5 µm, and larger than any other leucocyte at 13–20 µm. Its nucleus is pale, eccentric and bent along its length into a kidney; its cytoplasm is abundant and pale basophilic, and its azurophil granules are too fine to be resolved singly, so instead of showing as granules they haze the whole cytoplasm evenly. That even haze is what frosted glass names. The term is descriptive rather than technical, and a student who has never seen the texture cannot recognise it from the words.
+
+The lymphocyte on the same film is the smaller cell, and its stem is "Red arrow points to ..., characterized by ... nucleus surrounded by ... cytoplasm". The answer page wants dark and thin rim: a heterochromatic nucleus filling almost the whole cell, with only a narrow crescent of pale basophilic cytoplasm at one side. A small lymphocyte is 6–8 µm, about the size of the corpuscles lying beside it, and that comparison is the most reliable size judgment available on a film, where no scale bar is printed.
+
+The trap is the large lymphocyte, which shares two features with the monocyte: a pale indented nucleus and abundant cytoplasm. Two things still separate them. The large lymphocyte's cytoplasm is deeply basophilic — a definite blue — where the monocyte's is pale and frosted. And its nucleus is indented rather than kidney-shaped: the indentation is a notch on one side, where the monocyte's nucleus is curved along its whole length. Size supports the call and does not settle it, because 13–20 µm and 10–15 µm overlap.
+
+Read at oil immersion. Neither the frosted-glass texture nor the width of a lymphocyte's cytoplasmic rim survives low power.
 ## hold_these
 The monocyte is the largest leucocyte at 13–20 µm, 3–8% of white cells, with a large eccentric pale kidney-shaped nucleus and frosted-glass cytoplasm.
 Monocyte life span is 3 days in blood and 3 months in connective tissue.
@@ -363,6 +430,9 @@ Cytotoxic CD8-positive T cells secrete perforins, helper CD4-positive T cells ac
 Total leukocytic count is 4,000–11,000 per mm³, leukocytosis above 11,000 and leukopenia below 4,000.
 The differential leukocytic count is the percentage of each type against the total, read on a Leishman-stained blood film.
 Lymphocytes are the only cells which can return to the blood after leaving it.
+On a Leishman film the monocyte is named by a kidney-shaped eccentric pale nucleus with frosted-glass cytoplasm, and the lymphocyte by a dark nucleus surrounded by a thin rim of cytoplasm.
+Frosted glass is the azurophil granules being too fine to resolve singly — an even haze, not an absence of granules.
+A small lymphocyte is about the size of the corpuscles beside it, 6–8 µm against 7.5 µm, and that comparison is the most reliable size judgment on a film.
 ## lose_the_mark
 Deriving the macrophage from the lymphocyte. The monocyte is the parent of every phagocytic cell the book names.
 Deriving the plasma cell from the T lymphocyte. The plasma cell comes from the B lymphocyte, after activation by a T-helper cell.
@@ -372,6 +442,8 @@ Saying non-granular means no granules. Both cells carry azurophil granules, whic
 Giving IgE as the B lymphocyte receptor. The book gives IgM and IgD, and IgE receptors belong to the basophil and the mast cell.
 Reporting monocytopenia or lymphocytopenia as an isolated finding. The book presents both as part of a pancytopenia.
 Confusing the two counts. The total leukocytic count is cells per mm³, and the differential count is a percentage of the total.
+Calling a large lymphocyte a monocyte on a spot plate. Both have a pale indented nucleus and abundant cytoplasm; the large lymphocyte's cytoplasm is deeply basophilic rather than frosted, and its nucleus is notched rather than bent into a kidney.
+Answering a spot stem with a diameter. The department asks for the nucleus and for the cytoplasm, and 13–20 µm against 10–15 µm overlaps in any case.
 ## image_recommendations
 ### histology · Blood film, Leishman stain, oil immersion, one monocyte and one small lymphocyte in the same field at the same magnification
 Purpose: The discrimination is one of relative size and nuclear shape, and relative size cannot be judged from two separate plates. Two cells in one field make the 13–20 µm against 6–8 µm difference visible rather than remembered.
@@ -414,6 +486,15 @@ Kind: diagram
 Section: Mechanism
 Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
+### histology · Large lymphocyte and monocyte in the same Leishman-stained field at oil immersion, the deeply basophilic cytoplasm of the one against the frosted-glass cytoplasm of the other
+Purpose: This is the confusion the practical book's own pitfall names, and it is a difference of cytoplasmic texture and colour depth. Neither survives description: frosted glass and deeply basophilic both read as "blue cytoplasm" to a student who has not seen them side by side.
+Priority: required
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed haematology atlas or an institutional teaching set
+Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
+Notes: An unlabelled version is preferred so the same plate can carry a labelling question later.
 ## conflicts
 [clear]
 ## evidence_gaps
@@ -423,18 +504,21 @@ The book names CD4, CD8 and CD16 but does not say what a CD number is.
 The question books ask which blood cell can divide. This chapter does not state that the lymphocyte divides, although it describes activation to plasmablast and plasma cell.
 The macrophage's own structure and its role as an antigen-presenting cell are taught in the connective tissue chapter, not here, so this article names the destination without describing it.
 No independent citation has been attached to any figure in this article.
+The practical book prints no magnification on any blood-film plate. The instruction in "On the slide" to read a film at oil immersion is standard laboratory practice rather than a statement of this faculty's, and it is named as such in field_notes.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter III "Blood", section on Non Granular Leucocytes, printed pages 36-38, including the page 37 tables comparing small with large lymphocytes and T with B with natural killer cells. Extracted to scripts/kasr/extract/deptbook.json.
+Histology Department practical book, "DPT Practical Histo 101" (manifest source src_b4cb8bf9f0c7a6584b4b), and the departmental revision deck "DPT 1 - ISK 101 - Final Revision" (manifest source src_05a0b0c29acc94017b8f), catalogued slide by slide in scripts/kasr/extract/practical.json. This is the source of the "On the slide" section, of the callouts drawn from it, and of nothing else in this article; the pages are named in that section's own concepts in ../concept/101-ISK-practical-concepts.md.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation.
-relatedConcepts: No authored concept sits on this leaf yet. The existing blood concepts cover granulocytes and platelets, and neither is what this article teaches, so none is claimed.
+relatedConcepts: The one concept in ../concept/101-ISK-practical-concepts.md whose module subject path names this leaf is listed, copied rather than re-derived: CON-HEM-29CA381FD3707B, telling a lymphocyte from a monocyte on a film. It is taught in "On the slide", including the large-lymphocyte pitfall the concept carries. No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md sits on this leaf.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The question books ask which cell is the stem cell of the histiocyte, using a word this chapter never uses. Histiocyte is the connective tissue chapter's synonym for the fixed macrophage, and the answer is still the monocyte. The synonym is recorded here rather than introduced into the prose as though the book had taught it.
+slideIdentification: The "On the slide" section is written from the practical book and the revision deck rather than from the department textbook, and its source is named separately in evidence_basis so that a reviewer can check the two halves of the article against two different books.
 ## notes
 The differential count percentages in this article and in ART-101-HIS-GRANULAR-LEUKOCYTES together make up the book's whole differential, and they should be checked as a set at the evidence pass rather than one article at a time.
 
@@ -480,6 +564,8 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M01
 SYS-HEM-T01-S02-M03
+## related_concepts
+CON-HEM-C020FBF779203C | CON-HEM-CF325DABA0EA62
 ## related_articles
 ART-101-HIS-BLOOD-PLATELETS: The megakaryocyte described here is where the platelet comes from, and the demarcation channels are set out in full there.
 ART-101-HIS-RED-BLOOD-CORPUSCLES: The reticulocyte is the immature form of the corpuscle described there, and the 120-day life span is what the marrow is replacing.
@@ -487,7 +573,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The reticular cell, the fibroblast, the und
 ## aliases
 Haematopoiesis | Hemopoiesis | Blood cell formation | Bone marrow
 ## reading_time
-9
+12
 ## summary
 The department book teaches haemopoiesis as a place rather than as a series of cells: what red bone marrow is made of, how a finished cell gets out of it, and two cells you can recognise — the reticulocyte and the megakaryocyte. It does not walk the erythroid or myeloid maturation series, and an answer built around blast and myelocyte stages is answering a question this chapter never sets.
 ## sections
@@ -538,6 +624,16 @@ Reticular cells are part of the fixed stroma, not part of the free cell populati
 The megakaryocyte's nucleus is single and multilobed, not several nuclei. Reading it as multinucleated turns a correct option into a wrong one.
 
 The reticulum of the reticulocyte is ribosomal remnant, not a nucleus and not a granule, and it is demonstrated supravitally — outside the living body — rather than by a vital stain, which is given to the living animal.
+### On the slide
+Two plates come out of this chapter, and each of them opens by asking for the tissue rather than for the cell.
+
+Bone marrow. The stem is "Identify the tissue", and only then "The blue arrow points to ...". A marrow section is recognised as a crowded field: developing blood cells packed at a density no other tissue reaches, with large round empty-looking spaces set among them. Those spaces are the fat cells, which the book states are the largest cells in the marrow, and in a paraffin section their fat has already been dissolved away by the xylol, so each is left as a clear ring with its nucleus flattened against one side. Recognising the emptiness as fat rather than as damage is most of the identification, and the department arrows the fat cells on a plate of their own for exactly that reason.
+
+The megakaryocyte cannot be missed once it is looked for. At 50–70 µm it is several times the diameter of anything around it, with basophilic cytoplasm and a single very large dark nucleus thrown into lobes. Read the lobes carefully, because the whole of the trap is in them: they belong to one nucleus. The megakaryocyte is not multinucleated. The other very large lobed-looking cell a first-year student can name — the osteoclast — genuinely is multinucleated, and two things separate the two without any argument about the microscope. The osteoclast's lobes are separate nuclei with separate membranes. And the osteoclast lies against a bone surface in a resorption bay, which is not the tissue the stem has just asked to be named.
+
+The reticulocyte plate. Its stem is "This is a ... stained with ... which is a ... stain", and all three blanks are marked: a blood film, stained with brilliant cresyl blue, which is a supravital stain. Supravital is the word being tested. The reticulum is not something the cell carries about with it ready to be seen — it is the remnant of ribosomes and polysomes, precipitated into a visible network by a dye applied to cells that are still alive, outside the body. Leishman's stain is applied to a film that has already been dried and fixed, and it shows no reticulum at all. That is why a separate preparation exists, and why Leishman is the wrong answer here even though every other blood plate in the book is a Leishman film.
+
+What is on the plate is an otherwise ordinary field of pink acidophilic corpuscles, in which the occasional cell carries a blue mesh across it. The reticulocyte is 9 µm against the mature corpuscle's 7.5 µm, but that difference is not judgeable in a field; the reticulum is the identification and the size is not. Reticulocytes do not exceed 1% of the cells in peripheral blood, so the arrowed cell will be one of very few in the whole field.
 ## hold_these
 Haemopoiesis is the formation of blood cells in bone marrow and in lymphatic organs such as the thymus.
 Red marrow is active and lies in most bones of children and in the flat, short and irregular bones of adults, while yellow marrow is inactive fat in the shafts of adult long bones and can convert back at need.
@@ -549,6 +645,10 @@ Reticulocytes do not exceed 1% in peripheral blood, and the percentage rises aft
 The megakaryocyte is 50–70 µm with a single multilobed dark nucleus and basophilic cytoplasm.
 Demarcation channels are invaginations of the megakaryocyte's own cell membrane, and platelet ribbons are its pseudopodia.
 The component transplanted in marrow disease is the haemopoietic stem cell.
+The bone marrow spot asks for the tissue first: a crowded field of developing blood cells with fat cells among them as clear rings, their fat dissolved out by the paraffin technique.
+On the plate the megakaryocyte is identified by its size, 50–70 µm, and by one very large dark multilobed nucleus in basophilic cytoplasm.
+The reticulocyte stem has three marked blanks — a blood film, brilliant cresyl blue, and supravital — and supravital is the word being tested.
+The reticulum is precipitated ribosomal remnant, visible only while the cell is alive; a Leishman film shows none of it.
 ## lose_the_mark
 Placing red marrow in the shaft of an adult long bone. That is where yellow marrow lies.
 Giving the sinusoid a continuous basement membrane. It is non-continuous, which is how cells get out.
@@ -558,6 +658,9 @@ Inverting the ratio to 1:5. The book states 5:1, immature white cells to immatur
 Calling brilliant cresyl blue a vital stain. A vital stain is given inside the living animal, and reticulocytes are stained supravitally, outside the body.
 Describing the reticulocyte as basophilic. Its cytoplasm is acidophilic from haemoglobin, and only the reticulum is basophilic.
 Answering a question about haemopoiesis with a maturation series of blasts and myelocytes. This chapter teaches marrow structure, the reticulocyte and the megakaryocyte, and nothing else.
+Calling the megakaryocyte multinucleated on the spot plate, or answering osteoclast. The lobes are one nucleus, and the osteoclast lies on a bone surface rather than in the marrow field the stem has already asked you to name.
+Answering Leishman for the reticulocyte plate. Leishman's is applied to a dried, fixed film and shows no reticulum; the reticulum exists only in a supravital preparation.
+Naming the reticulocyte from its size. At 9 µm against 7.5 µm the difference cannot be judged in a field; the blue reticulum is the identification.
 ## image_recommendations
 ### comparison table · Red versus yellow bone marrow — activity, site in the child, site in the adult, content, and convertibility
 Purpose: The book asks this as a table and the paper asks it back as a table. The examinable error is a site error, and sites compare badly in prose.
@@ -592,6 +695,23 @@ Section: Mechanism
 Source direction: purpose-drawn, following the department book's page 40 figure rather than reproducing it
 Rights: newly drawn for this product, or CC-BY
 Notes: The same drawing serves ART-101-HIS-BLOOD-PLATELETS, where the demarcation channels are the origin story of the platelet.
+### histology · Bone marrow section at low power — the crowded field of developing cells, fat cells as clear rings among them, and one megakaryocyte in the same field for scale
+Purpose: The stem asks for the tissue before it asks for the cell, and the tissue is a judgment about density and about what the empty spaces are. A close-up of a megakaryocyte cannot teach it; a whole field can, and the same field carries the size comparison the megakaryocyte is identified on.
+Priority: required
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed histology teaching set or an institutional marrow-biopsy teaching slide
+Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
+Notes: An unlabelled version is preferred so the same plate can carry a labelling question later.
+### diagram · The megakaryocyte's single multilobed nucleus drawn beside an osteoclast's several separate nuclei, each cell in its own setting — the one in a marrow field, the other in a resorption bay on a bone surface
+Purpose: The examinable error is reading lobes as nuclei, and it survives being told not to. Drawn side by side, one nucleus with lobes and several nuclei with membranes of their own are visibly different things, and the two settings answer the tissue half of the stem at the same time.
+Priority: required
+Status: needed
+Kind: diagram
+Section: On the slide
+Source direction: purpose-drawn for this product
+Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
 ## evidence_gaps
@@ -601,18 +721,22 @@ No growth factor is named. Erythropoietin does not appear in the chapter, althou
 The book gives no normal cellularity for marrow, and no age at which red marrow retreats from the long bones.
 The book does not say where haemopoiesis occurs before birth.
 No independent citation has been attached to any figure in this article.
+The practical book prints no magnification on the bone marrow or reticulocyte plates, and states no stain for the marrow sections at all. "On the slide" says the marrow fat cells are empty because the paraffin technique dissolved the fat; the book's microtechniques chapter states that xylol dissolves fat, but it never applies that statement to a marrow section, and the two are joined here rather than in the source.
+The osteoclast comparison in "On the slide" uses facts the book teaches in its skeletal and cytology chapters — that the osteoclast is multinucleated — and not in this one. Where an osteoclast sits is not stated in the histology part of the book at all.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter III "Blood", section on Haemopoiesis, printed pages 39-40, including the page 39 red-versus-yellow marrow table and the page 40 megakaryocyte figure. Extracted to scripts/kasr/extract/deptbook.json.
+Histology Department practical book, "DPT Practical Histo 101" (manifest source src_b4cb8bf9f0c7a6584b4b), and the departmental revision deck "DPT 1 - ISK 101 - Final Revision" (manifest source src_05a0b0c29acc94017b8f), catalogued slide by slide in scripts/kasr/extract/practical.json. This is the source of the "On the slide" section, of the callouts drawn from it, and of nothing else in this article; the pages are named in that section's own concepts in ../concept/101-ISK-practical-concepts.md.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation.
-relatedConcepts: No authored concept sits on this leaf yet, and none is invented here.
+relatedConcepts: Both concepts in ../concept/101-ISK-practical-concepts.md whose module subject path names this leaf are listed, copied rather than re-derived — CON-HEM-C020FBF779203C, the supravital identification of the reticulocyte, and CON-HEM-CF325DABA0EA62, identifying bone marrow by its fat cells and its megakaryocyte. Both are taught in "On the slide". No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md sits on this leaf.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: Some question books ask this leaf for myeloblasts, metamyelocytes and band cells, and for the bones in which erythropoiesis occurs. The department book teaches none of them in this chapter. Nothing about those stages is asserted here, and the absence is recorded as an evidence gap for a faculty reviewer rather than filled from another textbook.
+slideIdentification: The "On the slide" section is written from the practical book and the revision deck rather than from the department textbook, and its source is named separately in evidence_basis. The one statement in it that neither book makes — where an osteoclast sits — is recorded as an evidence gap rather than presented as the faculty's.
 ## notes
 This leaf carries only six questions in the extracted question bank, but two of the six are the same question about bone marrow transplantation asked twice, and a third asks what increases as haemopoietic activity falls. Both turn on marrow structure rather than on a maturation series, which supports writing the article the way the book teaches it.
 
@@ -1240,7 +1364,7 @@ DIS-HIS-T01
 ## secondary_node_ids
 SYS-FND-T01-S01-M03
 ## related_concepts
-CON-FND-BC0AAA59F11F66 | CON-FND-C5C16B3F123155 | CON-FND-6C5ABFD844D630 | CON-FND-30573B6D0A9AFD | CON-FND-AEAB45FAA2C33D | CON-FND-5097CA5BAB2E51 | CON-DEV-0BA870DF2C2E13
+CON-FND-BC0AAA59F11F66 | CON-FND-C5C16B3F123155 | CON-FND-6C5ABFD844D630 | CON-FND-30573B6D0A9AFD | CON-FND-AEAB45FAA2C33D | CON-FND-5097CA5BAB2E51 | CON-DEV-0BA870DF2C2E13 | CON-FND-E2DE55693981A7 | CON-FND-C81FD3E574D3AA | CON-FND-BAABF179A898ED
 ## related_articles
 ART-101-HIS-THE-CELL: The cell's other basic component, and the plasma membrane whose trilaminar profile the nuclear envelope repeats twice over.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The rough endoplasmic reticulum the outer nuclear membrane is continuous with, and the ribosomes whose subunits leave through the nuclear pores, are described there.
@@ -1250,7 +1374,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES: The gamete nuclei summarised in Clinical sig
 ## aliases
 Nuclear envelope | Chromatin | Euchromatin | Heterochromatin | Nucleolus | Nuclear sap
 ## reading_time
-13
+16
 ## summary
 One idea runs through the whole chapter, and the paper asks it a dozen different ways: a nucleus tells you how busy its cell is. Uncoiled euchromatin means active genes, a pale vesicular nucleus and a clear nucleolus; coiled heterochromatin means inactive genes, a small dark condensed nucleus and no visible nucleolus. The envelope, the pores, the three parts of the nucleolus and the sap are the machinery that idea runs on, and the number, position and shape of the nucleus are how half the cells in this module are identified in the first place.
 ## sections
@@ -1333,6 +1457,14 @@ Not every cell has one nucleus and not every multinucleated cell is abnormal. Li
 The ovum nucleus does not carry either sex chromosome. It carries 22 autosomes and an X, always; the sperm nucleus is the one that carries an X or a Y.
 
 The corona radiata is not the innermost covering of the ovum. The order from within outwards is cell membrane, zona pellucida, corona radiata, so the corona radiata is the outer one.
+### On the slide
+The nucleus is spotted twice, once by light microscopy and once by electron microscopy, and the two plates want different vocabulary out of the same chapter.
+
+Open face against closed face, by light microscopy. The department's plate prints the two side by side and labels them open face nucleus and closed face nucleus. Those are the practical's names for what the chapter calls vesicular and condensed, and a student who has learnt only one pair of words will not recognise the other on the paper. An open-face nucleus is pale, faintly basophilic, because its chromatin is extended, and it belongs to an active, protein-forming cell — the book's example is the nerve cell. A closed-face nucleus is small and darkly basophilic because its chromatin is condensed, and the book's example is the small lymphocyte. The paleness is the finding and not a staining failure: an examiner arrowing a pale nucleus is asking what the cell is doing, and the answer is that it is synthesising.
+
+Euchromatic against heterochromatic, by electron microscopy. Here the stem says "identify the structure (be specific)", and a student who writes "nucleus" has answered nothing at all. Both micrographs carry the same components, and the department arrows them in the same order on both: peripheral heterochromatin on the inner membrane, chromatin islands out in the nuclear sap, nucleolus-associated chromatin or the nucleolus itself, nuclear sap or euchromatin marked with a star, the nuclear membrane, and on the euchromatic plate a nuclear pore. Since the labels are shared, no single arrow decides which plate this is. Proportion decides it. A heterochromatic nucleus is dominated by electron-dense condensed chromatin and belongs to an inactive cell; a euchromatic nucleus is mostly pale, electron-lucent nuclear sap with a clear nucleolus and belongs to an active one. Judge the field as a whole first, then name the arrows.
+
+The envelope plate. A third micrograph carries the nuclear membrane and the nucleolus arrowed on the same field, and the two are confused because both lie within the nucleus and both are dark. The envelope is at the boundary: two parallel unit membranes with the perinuclear space between them, interrupted where the two fuse at a pore. The two layers are not alike, and the department's own labelled plate names them outer nuclear layer and inner nuclear layer — the outer carrying ribosomes and running on into rough endoplasmic reticulum, the inner carrying the lamina and the peripheral chromatin. The nucleolus is not at the boundary and has no membrane of its own at all: it is a rounded, deeply basophilic, spongy mass sitting inside the nucleus. Anything with a limiting double membrane is the envelope; a dense rounded mass with none is the nucleolus.
 ## hold_these
 The nucleus is the largest component of all cells except red blood corpuscles and platelets, which the book states are not true cells.
 Liver cells are binucleated; osteoclasts and skeletal muscle are multinucleated.
@@ -1356,6 +1488,10 @@ Down syndrome is trisomy 21 with 47 chromosomes; Klinefelter is XXY with 47; Tur
 The sperm nucleus carries 22 autosomes and either an X or a Y chromosome; the ovum nucleus carries 22 autosomes and an X only.
 The sperm is about 55 µm long — head 4 µm, middle piece 6 µm, tail 45 µm — with the acrosomal cap over most of the nucleus, not over the middle piece; spermatogenesis starts at puberty.
 The mature ovum is about 120 µm across, and its three coverings from within outwards are cell membrane, zona pellucida (glycoprotein, carrying the sperm receptors) and corona radiata (follicular cells joined by hyaluronic acid).
+Open face and closed face are the practical's names for the vesicular and the condensed nucleus: open is pale, euchromatic and active, closed is dark, heterochromatic and inactive.
+An electron micrograph of a nucleus must be named specifically as euchromatic or heterochromatic; both carry the same components and differ only in proportion.
+The arrowed components are the same on both nuclear micrographs — peripheral heterochromatin, chromatin islands, nucleolus-associated chromatin or the nucleolus, nuclear sap or euchromatin, the nuclear membrane, and the nuclear pore.
+The envelope is identified at the boundary by two membranes with a perinuclear space between them, and the nucleolus by being a dense rounded mass inside the nucleus with no membrane at all.
 ## lose_the_mark
 Calling the nucleolus a membranous organelle. By electron microscopy it has no limiting membrane at all.
 Describing heterochromatin as fine threads or as coiled filaments rather than coarse dark clumps. Fine threads are euchromatin.
@@ -1372,6 +1508,10 @@ Calling a pseudostratified epithelium stratified because its nuclei lie at sever
 Giving the ovum nucleus an X or a Y. Only the sperm nucleus carries either; the ovum always carries an X.
 Putting the acrosomal cap over the middle piece, or giving the ovum a diameter of 12 µm. The cap covers most of the nucleus in the head, and the ovum is about 120 µm.
 Naming the corona radiata as the inner covering of the ovum. It is the outer one.
+Answering "nucleus" to a stem that says be specific. The mark is on the word euchromatic or heterochromatic.
+Answering "nuclear membrane" for the arrow on the nucleolus. The department arrows both on the same plate, and only one of the two has a membrane.
+Reading a pale open-face nucleus as poorly stained. The pallor is the finding: extended chromatin, and a cell that is actively synthesising.
+Naming a nuclear micrograph from a single arrowed component. Both plates carry the same components; only the proportion of condensed chromatin tells them apart.
 ## image_recommendations
 ### comparison table · Euchromatin versus heterochromatin — coiling, gene activity, type of cell, light-microscopic appearance of chromatin, appearance of the whole nucleus and nucleolus, and electron density
 Purpose: The book prints this as a table on page 24 and the paper asks it back column by column. In prose the six contrasts collapse into a general impression of "pale means active", and the student loses the electron-density and nucleolus rows.
@@ -1414,6 +1554,23 @@ Kind: diagram
 Section: Mechanism
 Source direction: purpose-drawn, following the department book's page 23 and page 25 figures rather than reproducing them
 Rights: newly drawn for this product, or CC-BY
+### histology · Electron micrograph of a heterochromatic nucleus and one of a euchromatic nucleus, printed at the same magnification and unlabelled, so that what is read is the proportion of condensed chromatin
+Purpose: The department arrows the same components on both plates, so no label discriminates them and the answer is a judgment about the whole field. That judgment can only be trained on two fields shown together; one micrograph at a time teaches naming, not choosing.
+Priority: required
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed electron microscopy teaching set or an institutional EM archive
+Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
+Notes: An unlabelled version is preferred so the same pair can carry a labelling question later.
+### histology · High-magnification electron micrograph of the nuclear envelope — both unit membranes, the perinuclear space between them, ribosomes on the outer membrane, and one pore where the two fuse
+Purpose: The envelope is examined as a boundary with internal structure, and the pore is defined as the place where two membranes become one. At the magnification of a whole-nucleus micrograph none of that resolves, so the fact is learnt as words and then lost against the nucleolus.
+Priority: required
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed electron microscopy teaching set
+Rights: must be CC-BY or public domain
 ## conflicts
 [clear]
 ## evidence_gaps
@@ -1427,18 +1584,22 @@ The book does not state the Barr body here, although the granular leucocyte chap
 The book gives no chromosome number for the normal human somatic cell anywhere in this chapter. The gamete chromosome complements given in Clinical significance are from the embryology part of the same book, not from this chapter, and the cytology chapter never states how a haploid gamete nucleus relates to a diploid somatic one.
 The book describes no stage of gametogenesis, no meiosis and no reduction division anywhere in the histology part, so nothing is said here about how a gamete comes to carry half the chromosomes.
 No independent citation has been attached to any figure in this article. Every number is traceable to the department book only, which is a single source.
+The practical book prints no magnification on any of its nuclear plates and names no fixative or embedding method for the electron micrographs.
+"Open face" and "closed face" appear in the practical book and never in the department textbook, which uses vesicular and condensed for the same two nuclei. The equation of the two pairs of terms is made here, from the two books read together, and it is not stated in either.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter II "Cytology", section on The Nucleus, printed pages 22-25, including the page 24 euchromatin-versus-heterochromatin table, the page 23 nuclear pore complex figure and the page 25 electron micrograph of the nucleolus. The gamete nuclei summarised in Clinical significance are from the same book's Part II, General Embryology, chapter on Gametes, printed pages 66-67. The named cells in the nuclear-shape paragraph are from the same book's Blood, Connective Tissue and Epithelial Tissues chapters, printed pages 26-62. Extracted to scripts/kasr/extract/deptbook.json.
+Histology Department practical book, "DPT Practical Histo 101" (manifest source src_b4cb8bf9f0c7a6584b4b), and the departmental revision deck "DPT 1 - ISK 101 - Final Revision" (manifest source src_05a0b0c29acc94017b8f), catalogued slide by slide in scripts/kasr/extract/practical.json. This is the source of the "On the slide" section, of the callouts drawn from it, and of nothing else in this article; the pages are named in that section's own concepts in ../concept/101-ISK-practical-concepts.md.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: All six concepts whose module subject path is 101 ISK > Histology > Cytology > Nucleus are listed, copied from ../concept/101-ISK-mcq-concepts.md, together with a seventh, CON-DEV-0BA870DF2C2E13, whose own module subject path is the General Embryology > Gametes leaf but whose article_ids name this article and whose two questions are filed on this leaf. Rather than leave those two questions with nothing to read, the gamete nuclei are summarised in Clinical significance from the embryology chapter of the same book, with the source named. Each listed concept is taught above — the four parts, the nuclear sap and the functions in Definition and Mechanism; the envelope and the pore-versus-pore-complex distinction in Mechanism and Key determinants; euchromatin against heterochromatin and the three heterochromatin sites in Mechanism and Key determinants; the three parts of the nucleolus and what it makes in Mechanism and Key determinants; nuclear number, position, shape and level as the way a cell is named in Key determinants; and the four named chromosomal syndromes in Clinical significance. The last of those six was minted while this article was being written and is the only one whose content the histology chapter itself does not carry; it is taught with its source named rather than left uncovered.
+relatedConcepts: All six concepts whose module subject path is 101 ISK > Histology > Cytology > Nucleus are listed, copied from ../concept/101-ISK-mcq-concepts.md, together with a seventh, CON-DEV-0BA870DF2C2E13, whose own module subject path is the General Embryology > Gametes leaf but whose article_ids name this article and whose two questions are filed on this leaf. Rather than leave those two questions with nothing to read, the gamete nuclei are summarised in Clinical significance from the embryology chapter of the same book, with the source named. Each listed concept is taught above — the four parts, the nuclear sap and the functions in Definition and Mechanism; the envelope and the pore-versus-pore-complex distinction in Mechanism and Key determinants; euchromatin against heterochromatin and the three heterochromatin sites in Mechanism and Key determinants; the three parts of the nucleolus and what it makes in Mechanism and Key determinants; nuclear number, position, shape and level as the way a cell is named in Key determinants; and the four named chromosomal syndromes in Clinical significance. The last of those six was minted while this article was being written and is the only one whose content the histology chapter itself does not carry; it is taught with its source named rather than left uncovered. The three practical concepts added afterwards — CON-FND-E2DE55693981A7, CON-FND-C81FD3E574D3AA and CON-FND-BAABF179A898ED — are every concept in ../concept/101-ISK-practical-concepts.md carrying this leaf's module subject path, copied rather than re-derived, and each is taught in "On the slide": the open-face against closed-face plate, the nuclear envelope and pore against the nucleolus on the electron micrograph, and the euchromatic against heterochromatic judgment that the department asks to be made specifically.
 questionIds: The extracted question bank files seventy-one questions on this leaf. They are authored in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: Two blocks of content in this article are not in the department book's nucleus chapter, and both are named as such rather than smuggled in. The karyotypes of Down, Turner, Klinefelter and cri-du-chat syndromes in Clinical significance come from the departmental question books, which mark several of them as departmental questions; the chapter itself teaches only that chromosomal alterations are associated with tumours and genetic diseases. They are taught here because concept CON-FND-5097CA5BAB2E51 sits on this leaf and the questions on it would otherwise have nowhere to be read, and they carry an explicit sentence in the prose saying the chapter does not state them. The named cells in the nuclear-shape paragraph are from other chapters of the same book, cross-referenced rather than reproduced, and so is the gamete material in Clinical significance, which belongs to the embryology part. Nothing in this article comes from a textbook other than the department's own book and its own question books.
+slideIdentification: The "On the slide" section is written from the practical book and the revision deck rather than from the department textbook, and its source is named separately in evidence_basis. The one bridge between the two books — that the practical's open face and closed face are the textbook's vesicular and condensed — is made here and stated in neither, so it is recorded as an evidence gap for a reviewer to confirm.
 ## notes
 Several questions filed on this leaf in the extracted bank are really questions about a named blood or connective tissue cell whose nucleus is the discriminating feature — the S-shaped basophil nucleus, the kidney-shaped monocyte nucleus, the multilobed megakaryocyte nucleus. This article supplies the vocabulary of nuclear shape and activity; the cells themselves are described in their own articles.
 
@@ -1483,6 +1644,8 @@ Year 1
 DIS-HIS-T02
 ## secondary_node_ids
 SYS-FND-T03-S02-M03
+## related_concepts
+CON-FND-103DF490A6E01E | CON-FND-4DBDF635382663
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The fibroblast, the reticular cell and the chondroblast that make these fibres are described there, along with the ground substance the fibres lie in.
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE: Which fibre predominates is what names each type of connective tissue proper, and the six types are set out there.
@@ -1491,7 +1654,7 @@ ART-101-HIS-MICROTECHNIQUES: Mallory, van Gieson, orcein, silver and PAS are def
 ## aliases
 Collagen fibres | Elastic fibres | Reticular fibres | Collagen types
 ## reading_time
-10
+13
 ## summary
 Three fibres, and the book separates them on four things at once: the protein they are made of, the cell that makes them, what they look like by light microscopy, and — the part the paper leans on hardest — which stain shows them. Collagen is the strongest and the most abundant, elastic is the one that recoils, and reticular is the one that is invisible in haematoxylin and eosin and has to be found with silver.
 ## sections
@@ -1552,6 +1715,16 @@ Elastic fibres are not deeply basophilic. They stain pink with eosin like collag
 Collagen is not elastic. It is flexible but inelastic; recoil is the elastic fibre's property, and the two words are not synonyms.
 
 Cartilage collagen is not made by fibroblasts. Type II comes from chondroblasts, and type IV of the basal lamina comes from the epithelial cells themselves, not from the connective tissue below.
+### On the slide
+Both fibre spots are set on loose areolar tissue or on a silver preparation, and both are decided on shape rather than on colour.
+
+Collagen against elastic, in one field. The department arrows one of each on a section of loose areolar tissue and asks for the name and one visible character. Both fibres are acidophilic and both are pink, so colour cannot separate them here; a student reaching for colour is answering from the fresh-state row or the orcein row of the book's table instead of from the plate in front of them. What separates them is level and course. Collagen appears as thick, condensed, wavy bundles, and the answer page accepts condensed, bundles or acidophilic as the character. Elastic fibres run singly — thin, branching, in a zigzag course — and the answer page accepts singly, thin, zigzag or acidophilic. Bundled and wavy against single and zigzag is the whole of the discrimination.
+
+Colour does decide it in two other situations, and both are the book's own: in the fresh state collagen is white and elastic tissue is yellow, and orcein stains elastic fibres brown while leaving collagen unstained. Neither applies to a routine section, so the first thing to settle on a fibre question is which of the three the examiner is asking — the fresh state, an orcein preparation, or the H&E plate on the bench.
+
+Reticular fibres are the ones that are not on the H&E plate at all. They are type III collagen with a high sugar content, invisible in haematoxylin and eosin, and it is silver that brings them out brown, with PAS as the alternative giving red. On a silver preparation the stem asks first for the stain and then for two visible characters, and the answer page wants brown, thin, and branching or anastomosing. Anastomosing is the word that matters: these fibres do not merely branch, they rejoin, and a mesh that closes on itself is what allows them to be a supporting stroma rather than a set of separate threads.
+
+Brown is not the discriminator, and the department builds the trap on that. Orcein gives brown too, and orcein is the elastic stain. On a brown preparation the question to ask is what the brown thing is doing: a fibre running singly in a zigzag course is elastic, and a mesh of thin fibres branching and rejoining is reticular.
 ## hold_these
 The three connective tissue fibres are collagen (type I collagen), elastic (elastin) and reticular (type III collagen).
 Collagen fibres are the strongest, flexible but inelastic, giving strength and resisting stretching, and are wavy branching bundles made of non-branching fibres.
@@ -1566,6 +1739,11 @@ Type II collagen is fine fibres in cartilage, from chondroblasts.
 Type IV collagen is granular, in the basement membrane, made by the epithelial cells.
 Type VII collagen forms the anchoring fibres of basement membranes.
 Vitamin C deficiency causes defective collagen synthesis — scurvy, with unhealed wounds and bleeding gums; keloid is excessive collagen deposition in a skin scar.
+On the plate collagen and elastic are told apart by bundling and course, not by colour: collagen is thick, wavy, condensed bundles and elastic is single, thin, branching and zigzag. Both are acidophilic.
+The answer page accepts condensed, bundles or acidophilic as a character of collagen, and singly, thin, zigzag or acidophilic as a character of an elastic fibre.
+Colour decides between them only in the fresh state — collagen white, elastic tissue yellow — or with orcein, which browns the elastic fibre and leaves collagen unstained.
+On a silver preparation the accepted characters of reticular fibres are brown, thin, and branching and anastomosing.
+Anastomosing is the word being tested: reticular fibres rejoin into a closed network, which is what lets them be the stroma of an organ.
 ## lose_the_mark
 Treating reticular fibres as a separate protein. They are type III collagen.
 Writing that reticular fibres stain pink with H&E. They are not visible in H&E at all.
@@ -1576,6 +1754,8 @@ Calling elastic fibres deeply basophilic. They are pink with eosin, brown with o
 Saying collagen is elastic. It is flexible but inelastic; recoil belongs to the elastic fibre.
 Naming the fibroblast as the source of every collagen. Osteoblasts make type I in bone, chondroblasts make type II, and epithelial cells make type IV.
 Choosing Mallory or van Gieson to demonstrate reticular fibres. Silver is the answer, and PAS the alternative.
+Deciding between collagen and elastic by colour on a stained section. Both are pink there; colour separates them only in the fresh state or with orcein.
+Answering orcein for a brown fibre network. Orcein gives brown as well, and it stains elastic fibres. Brown, thin, branching and anastomosing is silver on reticular fibres.
 ## image_recommendations
 ### comparison table · The three connective tissue fibres in one table — protein, cell of origin, light-microscopic appearance, stains and colours, physical characters, function — as the book prints it
 Purpose: The book sets this out as a table on page 47 and every question on the leaf asks for one cell of that table. Rebuilt from prose the grid loses its rows, and it is precisely the row-by-row contrast that is being marked.
@@ -1617,6 +1797,15 @@ Kind: diagram
 Section: Key determinants
 Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
+### histology · Loose areolar connective tissue at high power with a thick wavy collagen bundle and a single zigzag elastic fibre in the same field, both pink, unlabelled
+Purpose: The examinable claim is that two fibres of identical colour are separated on shape alone. That claim is a picture. Printed as a sentence it is one more line to believe; printed as a field it is a discrimination the student makes once and keeps.
+Priority: required
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed histology teaching set, or an institutional spread preparation of areolar tissue
+Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
+Notes: An unlabelled version is preferred so the same plate can carry a labelling question later.
 ## conflicts
 [clear]
 ## evidence_gaps
@@ -1627,18 +1816,21 @@ No account is given of elastic fibre composition beyond the word elastin — no 
 The book states that reticular fibres have a high sugar content but does not say what that carbohydrate is.
 The mechanism by which vitamin C deficiency impairs collagen synthesis is not given; the book states the association and no more.
 No independent citation has been attached to any figure in this article. Every statement is traceable to the department book only, which is a single source.
+The practical book prints no magnification and no stain on the loose areolar plate on which collagen and elastic fibres are arrowed. "On the slide" describes it as a routine acidophilic preparation because the answer page calls both fibres acidophilic, which is the eosin row of the book's own table; the plate is never named as H&E in either book.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter on Connective Tissue, section on Connective Tissue Fibres, printed pages 47-48, including the page 47 table of fibre types and the page 48 table of the most common collagen types. The basal lamina and reticular lamina statements are the same book's Polarity and Membranous Specializations chapter, printed pages 60-62. Extracted to scripts/kasr/extract/deptbook.json.
+Histology Department practical book, "DPT Practical Histo 101" (manifest source src_b4cb8bf9f0c7a6584b4b), and the departmental revision deck "DPT 1 - ISK 101 - Final Revision" (manifest source src_05a0b0c29acc94017b8f), catalogued slide by slide in scripts/kasr/extract/practical.json. This is the source of the "On the slide" section, of the callouts drawn from it, and of nothing else in this article; the pages are named in that section's own concepts in ../concept/101-ISK-practical-concepts.md.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md carries the module subject path of this leaf, so the list is empty. None is invented here, and no concept belonging to another leaf is claimed as taught by this article.
+relatedConcepts: Both concepts in ../concept/101-ISK-practical-concepts.md whose module subject path names this leaf are listed, copied rather than re-derived — CON-FND-103DF490A6E01E, telling collagen from elastic in one field, and CON-FND-4DBDF635382663, identifying reticular fibres on a silver preparation. Both are taught in "On the slide". No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md carries this leaf's module subject path, and none is invented here.
 questionIds: The extracted question bank files fifty-one questions on this leaf. They are authored in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: Nothing in this article comes from outside the department book. The basal lamina and reticular lamina facts used in Key determinants are from the same book's epithelial chapter rather than from this one, and the evidence basis says so; they are included because the question books ask them against this leaf and because they are collagen type statements.
+slideIdentification: The "On the slide" section is written from the practical book and the revision deck rather than from the department textbook, and its source is named separately in evidence_basis so that a reviewer can check the two halves of the article against two different books.
 ## notes
 The department book prints the fibre table and the collagen table on facing material, and the "Types of C.T. Proper" chart falls on the same page 48 as the collagen table. The two leaves are therefore easy to conflate in revision; this article stops at the fibres, and ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE begins with the chart.
 
@@ -1684,7 +1876,7 @@ DIS-HIS-T02
 ## secondary_node_ids
 DIS-HIS-T03
 ## related_concepts
-CON-FND-FE298AB3CE47E9 | CON-FND-5DCA7C68C51E38 | CON-FND-B784BE0F18B493 | CON-FND-37C773B1F99BE3 | CON-FND-86543DB2855310 | CON-FND-EA4034F1E87235
+CON-FND-FE298AB3CE47E9 | CON-FND-5DCA7C68C51E38 | CON-FND-B784BE0F18B493 | CON-FND-37C773B1F99BE3 | CON-FND-86543DB2855310 | CON-FND-EA4034F1E87235 | CON-FND-3E3303864A3CE8 | CON-FND-49D5829AC3DCA1 | CON-FND-7FB8290199B237 | CON-FND-B33D27A8517527 | CON-FND-4671C4D2911392
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: Every cell named here — the fibroblast, the fat cell, the reticular cell, the mast cell, the macrophage, the plasma cell — is described there, along with the ground substance.
 ART-101-HIS-CONNECTIVE-TISSUE-FIBRES: Which fibre predominates is what names most of these types, and the three fibres and their stains are set out there.
@@ -1692,7 +1884,7 @@ ART-101-HIS-RED-BLOOD-CORPUSCLES: Blood is one of the specialised connective tis
 ## aliases
 Loose areolar CT | Adipose tissue | Brown fat | Reticular CT | Mucoid CT | Wharton's jelly | White fibrous CT | Yellow elastic CT
 ## reading_time
-14
+17
 ## summary
 Connective tissue is graded by the consistency of its matrix, and that one criterion sorts everything: soft matrix is connective tissue proper, rubbery is cartilage, solid is bone and fluid is blood. Within connective tissue proper, four loose types and two dense ones each carry a single defining fact — loose areolar is the commonest and contains everything, brown fat makes heat, mucoid is jelly, yellow elastic recoils — and the exam asks for exactly those facts and the sites that go with them.
 ## sections
@@ -1765,6 +1957,18 @@ Blood is connective tissue. Being fluid and circulating does not exclude it — 
 Mesenchyme is not a specialised connective tissue. It is the embryonic connective tissue from which all the others arise.
 
 Dense connective tissue is not the commonest type. It is loose areolar tissue, and a tissue full of fibres is what loose areolar tissue is not.
+### On the slide
+Five of these types are set as spots, and one instruction is common to every one of them: be specific. "Connective tissue" is never a complete answer. On three of the plates the department also asks the colour of the tissue in the fresh state, which is a fact from the book rather than anything visible in the section on the bench — the stem is testing whether the student can hold the table and the slide together.
+
+Loose areolar tissue. Two fibre populations in one field with cells scattered between them. Thick pink collagen bundles run one way, single thin zigzag elastic fibres another, fibroblast nuclei lie between them, and the matrix fills the open spaces the department marks with a star. What makes it loose areolar rather than fibrous is that the fibres do not fill the field: there is visible matrix everywhere between them, and both kinds of fibre are present at once. That combination is unique to this tissue, and it is why the same plate is used to ask both fibres.
+
+White fibrous tissue, regular and irregular. Thick acidophilic collagen bundles and very little else — few cells, minimal matrix, no elastic fibre worth seeing. White in the fresh state. The whole of the difference between the two is arrangement. In the regular form the bundles run parallel in one direction and the fibroblast nuclei lie in rows squeezed between them; this is tendon and cornea. In the irregular form the bundles run in every direction and cross one another, with the fibroblasts scattered rather than in rows; this is the reticular dermis, ligament, sclera and organ capsule. A regular plate looks combed and an irregular one looks woven, and that is the fastest way to make the call before counting anything.
+
+Yellow elastic tissue. A dense field again, but made of the other fibre: thin, single, zigzag fibres running parallel and packed close, with little matrix between them. Yellow in the fresh state — and the department asks the fresh colour on this plate and on both fibrous plates precisely so that they cannot be answered alike. Orcein is the stain it names, and orcein gives brown. Ligamentum flavum and ligamentum nuchae are the sites the book supplies.
+
+Reticular tissue. This one does not stand on its own; it is the framework inside an organ, so the plate is a silver preparation of spleen, lymph node or liver, and what is seen is a brown mesh of thin fibres that branch and anastomose. The stem asks for the type of connective tissue and for the stain in the same breath. Watch the word doing double duty: on one plate the answer is reticular connective tissue, which is the tissue, and on another it is reticular fibres, which is the arrowed structure. Both are right, to different questions.
+
+Mucoid tissue. Here the field is mostly matrix — a pale, homogeneous, jelly-like ground substance, with a few fibroblasts scattered through it and delicate fibres crossing it. Beside any other connective tissue plate it reads as empty, and that emptiness is the diagnosis. Umbilical cord, where it is Wharton's jelly, the vitreous humour and the dental pulp are its sites. The confusion is with loose areolar tissue, which is also pale: loose areolar tissue shows two fibre populations and many cells, while in mucoid tissue the ground substance is what fills the field.
 ## hold_these
 Connective tissue is divided by the consistency of its matrix: soft is CT proper, rubbery is cartilage, solid is bone, fluid is blood; cartilage, bone and blood are the specialised connective tissues and mesenchyme is the embryonic one.
 CT proper has four loose types — areolar, adipose, reticular, mucoid — and two dense types — white fibrous and yellow elastic.
@@ -1778,6 +1982,11 @@ Reticular CT is reticular cells and a fine reticular fibre network forming the s
 Mucoid CT is mainly fibroblasts in a soft jelly rich in mucus and hyaluronic acid, in the umbilical cord (Wharton's jelly), the vitreous humour and the dental pulp.
 Regular white fibrous CT is tendon and cornea and withstands stretch in one direction; irregular is the reticular dermis, ligaments, sclera and organ capsules and withstands stretch in different directions.
 Yellow elastic CT lies in large arteries such as the aorta, the trachea, bronchi and bronchioles, the vocal cords, the ligamentum flavum, the ligamentum nuchae and the suspensory ligament of the penis.
+Every connective tissue spot says be specific: "connective tissue" is not an answer, and on three plates the fresh-state colour is asked as well.
+Regular and irregular white fibrous tissue differ only in arrangement — parallel bundles with fibroblast nuclei in rows, against bundles running in every direction with fibroblasts scattered. Both are white in the fresh state.
+Yellow elastic tissue is yellow in the fresh state and brown with orcein, and its fibres are thin, single and zigzag.
+Loose areolar tissue is recognised by both fibre types being present with visible matrix between them, and mucoid tissue by ground substance predominating over both cells and fibres.
+The reticular plate is a silver preparation of an organ's stroma, and the characters wanted are brown, thin, and branching and anastomosing.
 ## lose_the_mark
 Naming a dense or fibre-rich tissue as the commonest type. Loose areolar connective tissue is the commonest and the most widespread.
 Giving the brain as a site of loose areolar connective tissue. It is the one stated exception.
@@ -1789,6 +1998,10 @@ Refusing to count blood as connective tissue. Its matrix is plasma, and a fluid 
 Calling mesenchyme a specialised connective tissue. It is the embryonic connective tissue that all the others come from.
 Answering loose areolar for the jelly rich in hyaluronic acid. That is mucoid connective tissue — umbilical cord, vitreous, dental pulp.
 Putting tendon among the irregular dense tissues. Tendon and cornea are regular; dermis, ligaments, sclera and organ capsules are irregular.
+Answering "connective tissue" and stopping. The stem asks for the specific type, and regular against irregular carries a mark of its own.
+Answering white for the fresh colour of yellow elastic tissue. White belongs to the fibrous types, and the department asks the fresh colour on both plates so that they are not answered alike.
+Reading a pale mucoid field as loose areolar tissue. Loose areolar tissue shows two fibre populations and many cells; in mucoid tissue the ground substance fills the field.
+Confusing reticular connective tissue with the reticular fibre. One is the tissue the stem asks to be named, the other is the structure the arrow points at, and the same word answers both.
 ## image_recommendations
 ### diagram · The classification chart of connective tissue — matrix consistency splitting proper from cartilage, bone and blood, then proper splitting into four loose and two dense types, with mesenchyme shown as the embryonic origin
 Purpose: The book prints this chart on page 48 and the leaf is asked as a placement question — where does this named tissue sit. A tree carries placement; a paragraph carries an order of mention, which is a different thing.
@@ -1830,6 +2043,31 @@ Kind: comparison table
 Section: Key determinants
 Source direction: purpose-drawn from the department book's page 51 table, redrawn rather than reproduced
 Rights: newly drawn for this product, or CC-BY
+### histology · Regular and irregular white fibrous connective tissue at the same magnification side by side — parallel bundles with fibroblast nuclei in rows against bundles running in every direction
+Purpose: The two tissues are made of the same fibres and differ only in arrangement, so the discrimination is a visual texture — combed against woven — and no wording of it settles the plate. Printed at one magnification the difference is immediate; on separate pages neither field looks like anything but pink collagen.
+Priority: required
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed histology teaching set — tendon for the regular field, reticular dermis or organ capsule for the irregular
+Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
+Notes: An unlabelled version is preferred so the same plate can carry a labelling question later.
+### histology · Mucoid connective tissue from an umbilical cord section beside loose areolar connective tissue at the same magnification, the jelly-like ground substance of the one against the two fibre populations of the other
+Purpose: The pitfall the practical book names is that a pale field gets read as loose areolar tissue. What settles it is what fills the field, which is a comparison and not a feature. Paired plates make the comparison; a single mucoid field does not.
+Priority: required
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed histology teaching set — Wharton's jelly for the mucoid field
+Rights: must be CC-BY or public domain
+### histology · Yellow elastic connective tissue stained with orcein — thin single zigzag fibres, brown, packed parallel with little matrix between them
+Purpose: The stem asks for the stain, the colour it gives and two characters of the fibres, all from one plate. Orcein brown on packed parallel zigzag fibres is that whole answer as a single image, and it is also the plate that stops orcein being confused with the silver preparation.
+Priority: strongly helpful
+Status: needed
+Kind: histology
+Section: On the slide
+Source direction: openly licensed histology teaching set — ligamentum nuchae or aorta
+Rights: must be CC-BY or public domain
 ## conflicts
 [clear]
 ## evidence_gaps
@@ -1840,18 +2078,22 @@ The book names thermogenin as the mitochondrial protein of brown fat but gives n
 Leptin is named with its two effects and no receptor, no site of action and no measured level.
 The book does not say why loose areolar connective tissue limits the spread of infection; the statement is made and not explained.
 No independent citation has been attached to any statement in this article. Everything is traceable to the department book only, which is a single source.
+The practical book prints no magnification on any connective tissue plate, and names a stain only on the reticular plate (silver) and the elastic plate (orcein). The loose areolar, fibrous and mucoid plates are described in "On the slide" from what the answer pages accept, and their stain is stated in neither book.
+The department asks the fresh-state colour of a tissue on a stained section, which the section itself cannot show. That is a recall question wearing a spot question's clothes, and it is answered from the book's tables rather than from the plate.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter on Connective Tissue, section on Types of Connective Tissue Proper, printed pages 48-51, including the page 48 classification chart, the page 49 loose areolar table and reticular-versus-mucoid table, the page 50 white-versus-brown adipose table and the page 51 white fibrous versus yellow elastic table. The matrix-consistency classification that opens the Definition is the same book's Connective Tissue Cells chapter, printed pages 41-46. Extracted to scripts/kasr/extract/deptbook.json.
+Histology Department practical book, "DPT Practical Histo 101" (manifest source src_b4cb8bf9f0c7a6584b4b), and the departmental revision deck "DPT 1 - ISK 101 - Final Revision" (manifest source src_05a0b0c29acc94017b8f), catalogued slide by slide in scripts/kasr/extract/practical.json. This is the source of the "On the slide" section, of the callouts drawn from it, and of nothing else in this article; the pages are named in that section's own concepts in ../concept/101-ISK-practical-concepts.md.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: All six concepts whose module subject path is 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper are listed, copied from ../concept/101-ISK-mcq-concepts.md, and each is taught above — the proper-versus-specialised classification in Definition, loose areolar as the complete and commonest type in Mechanism and Key determinants, its sites and functions in Key determinants, the functions of adipose tissue including leptin in Key determinants and Clinical significance, white against brown fat in Key determinants, and mucoid connective tissue in Mechanism and Key determinants.
+relatedConcepts: All six concepts whose module subject path is 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper are listed, copied from ../concept/101-ISK-mcq-concepts.md, and each is taught above — the proper-versus-specialised classification in Definition, loose areolar as the complete and commonest type in Mechanism and Key determinants, its sites and functions in Key determinants, the functions of adipose tissue including leptin in Key determinants and Clinical significance, white against brown fat in Key determinants, and mucoid connective tissue in Mechanism and Key determinants. The five practical concepts added afterwards — CON-FND-3E3303864A3CE8, CON-FND-49D5829AC3DCA1, CON-FND-7FB8290199B237, CON-FND-B33D27A8517527 and CON-FND-4671C4D2911392 — are every concept in ../concept/101-ISK-practical-concepts.md carrying this leaf's module subject path, copied rather than re-derived, and each is taught in "On the slide": loose areolar tissue, reticular tissue and its silver preparation, yellow elastic tissue with its fresh colour and its orcein brown, regular against irregular white fibrous tissue, and mucoid tissue against the loose areolar field it is mistaken for.
 questionIds: Questions for this article are authored in the question pass, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The proper-versus-specialised classification and the naming of mesenchyme as the embryonic connective tissue come from the department book's connective tissue cells chapter rather than from this one, and the evidence basis says so. Nothing from outside the department book is asserted anywhere in this article.
+slideIdentification: The "On the slide" section is written from the practical book and the revision deck rather than from the department textbook, and its source is named separately in evidence_basis so that a reviewer can check the two halves of the article against two different books.
 ## notes
 The department book teaches this leaf almost entirely as tables, one per page, and the question books test it almost entirely as single-cell recall from those tables. The article is therefore organised so that every table row is stated once as a sentence and once again in hold_these, which is where a student revising against a table will look.
 

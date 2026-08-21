@@ -5,11 +5,18 @@
     Axilla — 68 questions, 17 concepts
     Blood Platelets — 19 questions, 5 concepts
     Cytoplasm — 286 questions, 23 concepts
+    Embryonic Period — 9 questions, 1 concepts
+    Fascia — 14 questions, 2 concepts
+    Fetal Period — 6 questions, 2 concepts
+    First Week of Development — 24 questions, 5 concepts
+    Gametes — 31 questions, 4 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Hand — 68 questions, 13 concepts
+    Introduction — 16 questions, 3 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
+    Microscopes — 7 questions, 2 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Myo Epithelium — 1 questions, 1 concepts
     Neuro Epithelium — 3 questions, 1 concepts
@@ -18,6 +25,7 @@
     Pectoral Region — 34 questions, 12 concepts
     Polarity and Membranous Specializations — 87 questions, 9 concepts
     Shoulder Region — 40 questions, 19 concepts
+    Skeletal system — 43 questions, 7 concepts
     Surface Epithelium — 129 questions, 10 concepts
     The cell — 41 questions, 4 concepts
     Types of Connective Tissue Proper — 19 questions, 6 concepts
@@ -33,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  185 questions were excluded and 0 held back for having no
+  262 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -31751,6 +31759,3144 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-0E8432546A64
+## title
+Segmentation of somites starts at
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Segmentation of somites starts at
+## answer_a
+Occipital region
+## explanation_a
+Correct. The first pair of somites separates at the occipital region on the twentieth day, and segmentation then spreads caudally at three pairs a day.
+## answer_b
+Cervical region
+## explanation_b
+One region too low, and the commonest wrong answer because the cervical somites are the first that go on to make vertebrae. The four occipital pairs come first and end up in the base of the skull.
+## answer_c
+Thoracic region
+## explanation_c
+The thoracic somites are the largest group — twelve pairs — but they appear well into the somite period, several days after the occipital ones.
+## answer_d
+Lumbar region
+## explanation_d
+The lumbar region is nearly at the caudal end of the sequence. A somite count of five lumbar pairs belongs to an embryo several days older than one whose segmentation is only starting.
+## correct_answer
+A
+## main_concept
+CON-DEV-DAF7FB6BF109D5
+## library_ids
+ART-101-ANA-PARAXIAL-MESODERM
+## topic
+Embryology
+## subtopic
+Embryonic Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental timing
+## learning_objective
+Name the region at which somite segmentation begins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p7 q41. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8091A048D7A2
+## title
+At the occipital region, the embryo has ........... somites,
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+At the occipital region, the embryo has ........... somites,
+## answer_a
+Four
+## explanation_a
+Correct. There are four occipital pairs — the first somites to separate, on the twentieth day, and the ones that go into the base of the skull rather than the vertebral column.
+## answer_b
+Six
+## explanation_b
+Six is not a figure in the book's regional table at all. It is the option a student picks who half-remembers a number between the four occipital and the eight cervical pairs.
+## answer_c
+Three
+## explanation_c
+Three is the number of pairs that separate each *day* during the somite period, not the number in the occipital region. The two figures sit a line apart in the book and are easily swapped.
+## answer_d
+Five
+## explanation_d
+Five is the count for the lumbar region and again for the sacral. Reading it here is reading the wrong row of the same table.
+## correct_answer
+A
+## main_concept
+CON-DEV-DAF7FB6BF109D5
+## library_ids
+ART-101-ANA-PARAXIAL-MESODERM
+## topic
+Embryonic Period
+## subtopic
+Embryonic Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Give the number of occipital somite pairs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p93 q43. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither copy of this question in the bank carries a key. The department book prints the regional classification of the somites as four occipital, eight cervical, twelve thoracic, five lumbar, five sacral and eight to ten coccygeal pairs, so the answer is four.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2576371561FD
+## title
+The age of an embryo with 16 pairs of somites is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The age of an embryo with 16 pairs of somites is
+## answer_a
+23 days. 1
+## explanation_a
+Twenty-three days is what the formula gives for ten somites. Reaching it from sixteen means dividing by five rather than three, or starting the count from the twentieth day without the subtraction.
+## answer_b
+24 days
+## explanation_b
+Twenty-four days corresponds to thirteen somites. It is the answer a student gets who forgets to subtract one before dividing, then rounds down.
+## answer_c
+25 days
+## explanation_c
+Correct. (16 − 1) / 3 + 20 = 5 + 20 = 25 days. The subtraction is there because the first pair appears on day twenty itself, so only the pairs after it represent elapsed days.
+## answer_d
+26 days
+## explanation_d
+Twenty-six days corresponds to nineteen somites — three pairs, one day, further on. It is the answer from omitting the subtraction: 16 / 3 + 20 rounded up.
+## correct_answer
+C
+## main_concept
+CON-DEV-DAF7FB6BF109D5
+## library_ids
+ART-101-ANA-PARAXIAL-MESODERM
+## topic
+Embryonic Period
+## subtopic
+Embryonic Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental timing
+## learning_objective
+Date an embryo from its somite count using the department book's formula.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p93 q42. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No copy of this question in the bank carries a key. The department book prints the formula "age in days = (number of somites − 1) / 3 + 20", which for sixteen somites gives (16 − 1) / 3 + 20 = 25 days. The answer is the book's own arithmetic rather than an author's judgement, and the absence of any printed key is recorded as a gap on the concept.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-81BA0CFD3266
+## title
+One of the functions of superficial fascia is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the functions of superficial fascia is:
+## answer_a
+Presence of skin muscles
+## explanation_a
+Correct. Superficial fascia contains the skin muscles — the muscles of facial expression are the book's example, and they are there precisely because the face has no deep fascia to hold them.
+## answer_b
+Formation of aponeurosis
+## explanation_b
+An aponeurosis — palmar, plantar — is deep fascia. Tempting because both layers are connective tissue sheets, but only the deep layer is dense enough to make one.
+## answer_c
+Formation of broad sheets
+## explanation_c
+Broad sheets around muscle groups are the first of the five forms deep fascia takes. Superficial fascia surrounds nothing; it lies flat under the skin.
+## answer_d
+Formation of interosseous membranes
+## explanation_d
+Interosseous membranes are deep fascia, spanning between two bones to separate muscle groups. Superficial fascia never reaches bone.
+## correct_answer
+A
+## main_concept
+CON-MSK-2145D2D62EC401
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate a function of superficial fascia from three that belong to deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q9. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8BAF5832C09D
+## title
+Concerning the superﬁcial fascia, select the correct statement: (2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the superﬁcial fascia, select the correct statement: (2018)
+## answer_a
+It contains fat.
+## explanation_a
+Correct. Fat is the defining content of superficial fascia — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.
+## answer_b
+It forms retinacula.
+## explanation_b
+Retinacula are localised transverse thickenings of *deep* fascia at the wrist and ankle. Picked by students who remember that a retinaculum is superficially placed, which is a statement about depth rather than about which layer it is made of.
+## answer_c
+It forms intermuscular septa.
+## explanation_c
+Intermuscular septa are deep fascia dipping between muscle groups. Superficial fascia has no septa; it does not descend between muscles at all.
+## answer_d
+It forms sheath around vessels.
+## explanation_d
+Sheaths around great vessels, such as the carotid sheath, are deep fascia. The superficial layer conducts vessels *to the skin* rather than wrapping the big ones, and that near-miss is what makes this the strongest distractor.
+## correct_answer
+A
+## main_concept
+CON-MSK-2145D2D62EC401
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Fascia
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Recognise the one property that belongs to superficial rather than deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p4 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2018 source printed no key. The department book states that superficial fascia contains a variable quantity of fat, and attributes retinacula, intermuscular septa and vessel sheaths to deep fascia, so A is the only option the chapter supports.
+
+
+---
+
+# Item
+## id
+QM-101-08E75F516311
+## title
+One of the functions of deep fascia is that it:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the functions of deep fascia is that it:
+## answer_a
+Facilitates the movement of the skin
+## explanation_a
+Facilitating the movement of the skin over the structures beneath is a function of superficial fascia. Deep fascia is inelastic and anchors things rather than freeing them.
+## answer_b
+Prevents heat loss from the body
+## explanation_b
+Preventing heat loss is superficial fascia acting as a thermal insulator, and it does it with its fat. Deep fascia has no fat.
+## answer_c
+Contains many types of glands
+## explanation_c
+The glands — the mammary gland is the book's example — sit in superficial fascia. This option is the mirror image of the previous two: a superficial-fascia function offered under the deep layer's name.
+## answer_d
+Forms the interosseous membranes
+## explanation_d
+Correct. Interosseous membranes are one of the five forms deep fascia takes, separating muscle groups of different action and nerve supply and adding surface for their attachment.
+## correct_answer
+D
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate a function of deep fascia from three that belong to superficial fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q10. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5CD65FFC810F
+## title
+Deep fascia: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Deep fascia: (DEP BOOK)
+## answer_a
+Strong and thick in the anterior abdominal wall
+## explanation_a
+The direct contradiction of the book, which names the anterior abdominal wall as one of the two places deep fascia is absent. Picked because the abdominal wall obviously has strong aponeurotic sheets — but those are the aponeuroses of the flat abdominal muscles, not a deep fascial layer.
+## answer_b
+More thickened in females than in males
+## explanation_b
+A transplanted fact. It is the *fat of the superficial fascia* that the book says is more abundant in females; deep fascia is described with no sex difference at all.
+## answer_d
+Absent in the face
+## explanation_d
+Correct. Deep fascia is absent in the face — which is why the muscles of facial expression insert into skin instead — and in the anterior abdominal wall.
+## correct_answer
+D
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Fascia
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say where deep fascia is thick, where it is thin and where it is missing altogether.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p4 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and option B is missing from the scan. D is nonetheless settled: the department book states that deep fascia is absent in the face and in the anterior wall of the abdomen, which makes D true and A — its exact contradiction — false. B is a claim about sex difference the chapter makes only of the fat in superficial fascia, never of deep fascia. Revisit if a rescan recovers option C.
+
+
+---
+
+# Item
+## id
+QM-101-CBA642B45621
+## title
+Regarding the deep fascia: (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the deep fascia: (2024)
+## answer_a
+It is present in the face
+## explanation_a
+The face is one of the two sites the book names as having no deep fascia; the muscles of expression insert into the dermis instead. This option is the standard trap of the leaf.
+## answer_b
+It forms the retinaculae
+## explanation_b
+Correct. Retinacula are localised transverse thickened bands of deep fascia around the wrist and ankle joints, holding the tendons in position.
+## answer_c
+It contains blood vessels and nerves. y
+## explanation_c
+True of superficial fascia, which is the medium conducting nerves, vessels and lymphatics to the skin. Deep fascia sheathes the big vessels rather than containing them, which is a different relation and a different layer.
+## correct_answer
+B
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Fascia
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name a structure deep fascia forms, and say where it is not found.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p4 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2024 source printed no key, and option D is missing from the scan. B is stated by the book outright — deep fascia forms retinacula at the wrist and ankle — while A contradicts the book's statement that deep fascia is absent in the face, and the chapter never describes deep fascia as containing vessels and nerves. Revisit if a rescan recovers option D.
+
+
+---
+
+# Item
+## id
+QM-101-FD83330508B2
+## title
+The intermuscular septa and interosseous membranes:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The intermuscular septa and interosseous membranes:
+## answer_a
+Surround the muscles of the upper and lower limbs
+## explanation_a
+Surrounding the muscles of the limbs is what the broad sheets of deep fascia do — the first of its five forms, and the one the septa arise from. The septa are what dips inward from those sheets, not the sheets themselves.
+## answer_b
+Separate different groups of muscles which have different actions
+## explanation_b
+Correct. Septa and interosseous membranes separate groups of muscles that have different actions and different nerve supplies, and give extra surface for attachment.
+## answer_c
+Are transverse thickened bands of deep fascia present at wrist joint
+## explanation_c
+That is the retinaculum, printed here as a distractor because this leaf's four stems share one option block and each stem's answer is another stem's distractor.
+## answer_d
+Form tough sheaths around big blood vessels
+## explanation_d
+Tough sheaths around big vessels are the carotid sheath and its like — the fifth form of deep fascia, not the septa.
+## correct_answer
+B
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Match the intermuscular septa and interosseous membranes to their job among the four forms of deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q11. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-4A55FDC3D1C8
+## title
+The retinacula:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The retinacula:
+## answer_a
+Surround the muscles of the upper and lower limbs
+## explanation_a
+The broad sheets of deep fascia surround the limb muscles. A retinaculum is a band across a joint, not a sleeve around a muscle group.
+## answer_b
+Separate different groups of muscles which have different actions
+## explanation_b
+Separating muscle groups of different action is the work of the intermuscular septa, which is the answer to the neighbouring stem sharing this option block.
+## answer_c
+Are transverse thickened bands of deep fascia present at wrist joint
+## explanation_c
+Correct. Retinacula are localised transverse thickened bands of deep fascia at the wrist and ankle that keep the tendons in position as they cross the joint.
+## answer_d
+Form tough sheaths around big blood vessels
+## explanation_d
+Fibrous sheaths around great vessels — the carotid sheath — are a different form of deep fascia. Both are "wrappings", which is what makes this option worth printing.
+## correct_answer
+C
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Basis
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Match the retinacula to their job among the four forms of deep fascia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q12. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8E88BBDB24E2
+## title
+The retinacula: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The retinacula: (DEP BOOK)
+## answer_a
+Expand the origin of muscles
+## explanation_a
+Expanding the surface available for muscle attachment is what the intermuscular septa and interosseous membranes do. A retinaculum gives no muscle its origin; it lies across tendons that are already formed.
+## answer_c
+Keep the underlying tendons in position
+## explanation_c
+Correct. The retinaculum holds the underlying tendons against the skeleton as they cross the joint, which is what stops them bowstringing when the joint bends.
+## answer_d
+Are found around the knee
+## explanation_d
+The book sites the retinacula at the wrist and the ankle. The knee is where a student places them by analogy with the patellar retinacula met in a later year, which this chapter does not teach.
+## correct_answer
+C
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## library_ids
+ART-101-ANA-FASCIA
+## topic
+Fascia
+## subtopic
+Fascia
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State what a retinaculum does and where it is found.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p4 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: A different printing of "The retinacula" with a different option block, no key, and option B lost to the scan. C is the department book's own wording — retinacula keep the tendons in position — and D contradicts the book's siting of them at the wrist and ankle. Revisit if a rescan recovers option B.
+
+
+---
+
+# Item
+## id
+QM-101-2BAB71EC9F7F
+## title
+Fetal period starts at the beginning of
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Fetal period starts at the beginning of
+## answer_a
+2"d month
+## explanation_a
+The second month is still the embryonic period, which runs from the fourth to the eighth week — the month in which the organs are being formed, not maturing.
+## answer_b
+3rd month
+## explanation_b
+Correct. The fetal period begins at the beginning of the ninth week, which is the beginning of the third month, and runs to birth.
+## answer_c
+4th month
+## explanation_c
+By the fourth month the fetus is already growing lanugo hair; the period it belongs to began a month earlier.
+## answer_d
+5th month
+## explanation_d
+The fifth month is when fetal movements become clearly recognisable and vernix caseosa appears — events inside the fetal period, not its start.
+## correct_answer
+B
+## main_concept
+CON-DEV-6C38692F7890F4
+## library_ids
+ART-101-ANA-AMNIOTIC-FLUID
+## topic
+Embryology
+## subtopic
+Fetal Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental timing
+## learning_objective
+Give the month at which the fetal period begins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q77. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-742FD8A20473
+## title
+The weight of fetus at full tern'l ranges between
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The weight of fetus at full tern'l ranges between
+## answer_a
+900 - 1300 grams
+## explanation_a
+Nine hundred to thirteen hundred grams is the weight of a fetus around the middle of the third trimester, not at term — a figure a student reaches for by halving the real one.
+## answer_b
+1400- 2100 grams
+## explanation_b
+Fourteen hundred to twenty-one hundred grams is preterm. It is also the answer the department-book copy of this question keys, which is why the two copies of the question disagree; the disagreement is recorded on the concept.
+## answer_c
+3000 - 3400 grams
+## explanation_c
+Correct. A fetus at full term weighs about three to three and a half kilograms.
+## answer_d
+4600 - 5300 grams
+## explanation_d
+Four and a half to five kilograms is macrosomia — a complication, characteristically of maternal diabetes, rather than the normal range.
+## correct_answer
+C
+## main_concept
+CON-DEV-6C38692F7890F4
+## library_ids
+ART-101-ANA-AMNIOTIC-FLUID
+## topic
+Embryology
+## subtopic
+Fetal Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Give the weight range of a fetus at full term.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q78. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7A77BC14D32E
+## title
+At full term, the head of the fetus represent about
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+At full term, the head of the fetus represent about
+## answer_a
+1/5 of the CH length
+## explanation_a
+One fifth is an adult-like proportion and the head has not shrunk that far by birth. The newborn head is still strikingly large relative to the body.
+## answer_b
+1/6 of the CH length
+## explanation_b
+One sixth is roughly the adult figure, reached long after birth as the trunk and limbs outgrow the head.
+## answer_c
+1/3 of the CH length
+## explanation_c
+One third is the proportion at the beginning of the fifth month, not at term — the figure from the row above it in the same table.
+## answer_d
+1/4 Of the CH length
+## explanation_d
+Correct. At birth the head is about one quarter of the crown-heel length, down from about one half of the crown-rump length at the beginning of the third month.
+## correct_answer
+D
+## main_concept
+CON-DEV-3409538816E2FD
+## library_ids
+ART-101-ANA-AMNIOTIC-FLUID
+## topic
+Embryology
+## subtopic
+Fetal Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the fraction of the crown-heel length that the head occupies at birth.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p13 q79. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-EA8CED3A4A20
+## title
+Fertilization occurs in the
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Fertilization occurs in the
+## answer_a
+Fallopian tube
+## explanation_a
+Correct. Fertilisation is tubal — the ampullary part of the fallopian tube, its lateral third — and everything after it happens somewhere the embryo has travelled to.
+## answer_b
+Surface of ovary
+## explanation_b
+The surface of the ovary is where the oocyte is released, not where it meets a sperm. Implantation there is ovarian ectopic pregnancy, which is why the option is worth showing.
+## answer_c
+Uterine cavity
+## explanation_c
+The commonest wrong answer, because the uterus is where pregnancy is felt to happen. The uterine cavity is reached on the fourth day, three days after fertilisation.
+## answer_d
+Pelvic cavity
+## explanation_d
+The pelvic cavity is where an oocyte would end up if the fimbriae failed to catch it; implantation there is omental ectopic pregnancy. It is not the normal site of anything.
+## correct_answer
+A
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Name the organ in which fertilisation takes place.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q7; Anatomy MCQ Book [2025] [first priority].pdf p88 q7. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-29E187AF9249
+## title
+Fertilization occurs in the following site of fallopian tube (2023 - 2022) y
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Fertilization occurs in the following site of fallopian tube (2023 - 2022) y
+## answer_a
+Intramural part
+## explanation_a
+The intramural part is where the tube passes through the uterine wall — the narrowest and most medial segment, and a site of ectopic implantation rather than of fertilisation.
+## answer_b
+Isthmus
+## explanation_b
+The isthmus is the narrow medial third, and it is what this reprint marks. It is a recognised site of tubal ectopic pregnancy, which is probably how it reached the margin; the department book puts fertilisation in the lateral third.
+## answer_c
+Lateral 1/3 P
+## explanation_c
+Correct. The ampullary part is the lateral third of the tube, the widest part, and the department book names it as the site of fertilisation in its own definition.
+## answer_d
+Infundibulum
+## explanation_d
+The infundibulum is the funnel with the fimbriae, lateral to the ampulla. It collects the oocyte at ovulation and passes it on; fertilisation happens a little medial to it.
+## correct_answer
+C
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the part of the fallopian tube in which fertilisation takes place.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p114 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The department question book marks B, the isthmus, on this reprint of the 2023 and 2022 sittings. The department book itself states the ampullary part of the uterine tube, the lateral third, in the opening sentence of its First Week chapter and again in the caption of figure 2.1 — which is option C. Overridden to what the faculty teaches, and the disagreement recorded on `fertilization-site-mechanism-results` rather than resolved out of sight, because the keyed answer has been sat twice.
+
+
+---
+
+# Item
+## id
+QM-101-B9918CF719F2
+## title
+One of the following is a result of fertilization
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a result of fertilization
+## answer_a
+Determination of sex
+## explanation_a
+Correct. Determination of sex is one of the four results the book lists — male (XY) or female (XX) according to which sperm fertilised the ovum — alongside formation of the zygote, restoration of the diploid number and the start of cleavage and migration.
+## answer_b
+Cortical and zona reaction
+## explanation_b
+The cortical and zona reaction happens during fertilisation, as the block to polyspermy. It is part of the mechanism, not something fertilisation leaves behind, and this is the distinction the question is built on.
+## answer_c
+Formation of male and female pronuclei
+## explanation_c
+The two pronuclei form as a step on the way to the zygote nucleus and then disappear into it. A result of fertilisation persists; a pronucleus does not.
+## answer_d
+Zygote nucleus contains haploid number of chromosomes
+## explanation_d
+The opposite of the truth, and the trap for a student who remembers that gametes are haploid. Fertilisation restores the diploid number of forty-six; the zygote nucleus is diploid, which is why restoration is listed as a result at all.
+## correct_answer
+A
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Separate the results of fertilisation from the steps that produce them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q13. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-75A93F37D7D2
+## title
+One of the following.is true about blastocyst
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following.is true about blastocyst
+## answer_a
+It has no cavity
+## explanation_a
+The cavity is what makes it a blastocyst rather than a morula. It is called the blastocele and it forms as uterine fluid opens spaces between the morula cells that then fuse.
+## answer_b
+It starts implantation by its abembryonic pole
+## explanation_b
+The wrong pole. Implantation starts at the embryonic pole, the trophoblast lying outside the embryoblast — which is why the embryo ends up deepest in the endometrium rather than facing the cavity.
+## answer_c
+It is formed 3 days after formation of the zygote
+## explanation_c
+Three days after the zygote gives the morula, not the blastocyst. The blastocyst is complete at the end of the sixth day, after the morula has reached the uterine cavity on the fourth.
+## answer_d
+Its inner cell mass is called embryoblast
+## explanation_d
+Correct. The inner cell mass of the blastocyst is the embryoblast, and it is the part that becomes the embryo; the outer cell mass forming the wall is the trophoblast.
+## correct_answer
+D
+## main_concept
+CON-DEV-CDC94B6FDAD75A
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the parts of the blastocyst and identify the pole that begins implantation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q15. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-664986E0250D
+## title
+Concerning the blastocyst, select the false answer: (2023) em em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the blastocyst, select the false answer: (2023) em em
+## answer_a
+Its cavity is called the blastocele
+## explanation_a
+True, so not the answer. The cavity of the blastocyst is the blastocele, formed by fusion of the spaces uterine fluid opens between the morula cells.
+## answer_b
+Its wall is formed by outer cell mass
+## explanation_b
+True, so not the answer. The wall of the blastocyst is the outer cell mass — the trophoblast — a single layer of cells around the blastocele.
+## answer_c
+Its inner cell mass is located at its ab-embryonic pole. Ac ad
+## explanation_c
+Correct, in that this is the false statement. The inner cell mass lies at the embryonic pole; the pole is named after it, and the abembryonic pole is by definition the side with no embryoblast behind it.
+## answer_d
+Normally implants in the posterior wall of the fundus of the uterus
+## explanation_d
+True, so not the answer. Implantation normally occurs in the endometrium of the upper part of the posterior wall of the uterus, just below the fundus.
+## correct_answer
+C
+## main_concept
+CON-DEV-CDC94B6FDAD75A
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Identify the one false statement about the blastocyst among three true ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-34B92D5D09F0
+## title
+Trophoblast is the outer wall of: (2016 – DEP BOOK) Ac ad Ac ad ad ad
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Trophoblast is the outer wall of: (2016 – DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Morula.
+## explanation_a
+The morula is a solid ball of blastomeres with no wall and no cavity to have a wall around. It becomes a blastocyst only once fluid opens the blastocele.
+## answer_b
+Blastocyst.
+## explanation_b
+Correct. The trophoblast is the outer cell mass forming the single-layered wall of the blastocyst, and everything the placenta is later made of descends from it.
+## answer_c
+Chorionic vesicle.
+## explanation_c
+The chorionic vesicle is a later stage, of the second week, and its wall is three layers — somatic mesoderm, cytotrophoblast and syncytiotrophoblast — of which the trophoblast has by then become two.
+## answer_d
+Placenta.
+## explanation_d
+The placenta is a trophoblast derivative rather than a stage the trophoblast walls, and it has two plates rather than one wall. Picked by a student who knows trophoblast means placenta-forming.
+## correct_answer
+B
+## main_concept
+CON-DEV-CDC94B6FDAD75A
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the stage whose wall is the trophoblast.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3F2643CA59FC
+## title
+Regarding morula
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding morula
+## answer_a
+It is formed in uterine tube within 3 days after formation of zygote
+## explanation_a
+Correct. Cleavage gives eight blastomeres on the third day and then sixteen — the morula — while the embryo is still in the uterine tube; it reaches the uterine cavity on the fourth day.
+## answer_b
+It is formed after degeneration of zona pellucida
+## explanation_b
+The zona pellucida is still intact around the morula and confines every division inside it. It only begins to degenerate at the end of the fifth day, once the embryo is in the uterine cavity.
+## answer_c
+It contains a cavity
+## explanation_c
+A cavity is exactly what the morula does not have. The appearance of the blastocele is what turns it into a blastocyst.
+## answer_d
+It is the stage that starts implantation
+## explanation_d
+Implantation is started by the blastocyst, at its embryonic pole, on the seventh day. A morula in the endometrium is a stage too early and a day too soon.
+## correct_answer
+A
+## main_concept
+CON-DEV-5F0D89A63C847E
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Give where and when the morula forms and say what it does not yet have.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q14. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F10BABD7977B
+## title
+Which structure bounds cells after fertilization as they compact to form the morula? (2…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Which structure bounds cells after fertilization as they compact to form the morula? (2024)
+## answer_a
+Zona pellucida
+## explanation_a
+Correct. Cleavage happens entirely inside the zona pellucida, which is why the blastomeres get smaller instead of the embryo getting bigger, and why compaction into a morula happens within a fixed shell.
+## answer_b
+Corona radiate
+## explanation_b
+The corona radiata is dispersed by the sperm in phase I of fertilisation and is gone by the time cleavage begins.
+## answer_c
+Pronucleus
+## explanation_c
+A pronucleus is one of the two nuclei that fuse to make the zygote nucleus. It is inside a single cell and has ceased to exist before the first cleavage division.
+## answer_d
+Inner cell maas
+## explanation_d
+The inner cell mass is a part of the blastocyst, several divisions later, and it is bounded by the trophoblast rather than bounding anything itself.
+## correct_answer
+A
+## main_concept
+CON-DEV-5F0D89A63C847E
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the structure that confines the blastomeres during cleavage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5059EDA4DC6D
+## title
+Morula is: (2022) Vi y ad Ac a- 2 cell's stage
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Morula is: (2022) Vi y ad Ac a- 2 cell's stage
+## answer_a
+2 cell's stage.
+## explanation_a
+Two blastomeres is the first day of cleavage. The morula is three more divisions along.
+## answer_c
+8 cell's stage.
+## explanation_c
+Eight cells is the third day, immediately before the morula. This is the closest wrong answer and the one that catches a student who remembers the day rather than the count.
+## answer_d
+16 cell's stage.
+## explanation_d
+Correct. The morula is the sixteen-cell stage, reached on the third day in the uterine tube, after which cleavage continues to thirty-two and sixty-four cells.
+## correct_answer
+D
+## main_concept
+CON-DEV-5F0D89A63C847E
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental timing
+## learning_objective
+Give the number of cells at the morula stage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p114 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1A424422F5EB
+## title
+Placenta previa
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Placenta previa
+## answer_a
+Is the implantation of blastocyst in the lower segment of uterine cavity
+## explanation_a
+Correct. Placenta previa is implantation in the lower segment of the uterine cavity, where the placenta comes to be related to the internal os — inside the uterus, but too low.
+## answer_b
+Is the implantation of blastocyst in the uterine tube
+## explanation_b
+Implantation in the uterine tube is tubal ectopic pregnancy, whose danger is rupture of the tube with internal haemorrhage rather than obstructed labour.
+## answer_c
+Is the implantation of blastocyst at the surface of ovary
+## explanation_c
+Implantation on the surface of the ovary is ovarian ectopic pregnancy. All three ectopic options are here because the classification splits abnormal implantation into intrauterine and ectopic, and previa is the intrauterine one.
+## answer_d
+Is the implantation of blastocyst in the pelvic cavity
+## explanation_d
+Implantation on the peritoneum is omental ectopic pregnancy. Like the other two ectopic options it is outside the uterus, which placenta previa never is.
+## correct_answer
+A
+## main_concept
+CON-DEV-89FC3BBB3C9BCE
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Define placenta previa by its site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q17. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-358F8851FF93
+## title
+Decidua basalis (DEP BOOK) em em em em em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Decidua basalis (DEP BOOK) em em em em em
+## answer_a
+It is the post-Implantation endometrium at the lower segment of uterine cavity
+## explanation_a
+Position, not level. Post-implantation endometrium in the lower segment is what placenta previa implants into; the basalis is defined by lying deep to the conceptus wherever that is.
+## answer_b
+It Is the covering of blastocyst after implantation
+## explanation_b
+That is the decidua capsularis — the part that covers the embryo and separates it from the uterine cavity, and which is stretched and lost as the sac grows.
+## answer_c
+It is the part of endometrium between the implanted blastocyst and myometrium
+## explanation_c
+Correct. The decidua basalis is the endometrium between the implanted blastocyst and the myometrium, and it persists as the decidual plate, the maternal part of the placenta.
+## answer_d
+It is the endometrium that lines uterine cavity. Ac ad
+## explanation_d
+That is the decidua parietalis, which lines the rest of the uterine cavity and fuses with the capsularis, obliterating the cavity, before being expelled after delivery.
+## correct_answer
+C
+## main_concept
+CON-DEV-B84639AB8FF5DE
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Define the decidua basalis by its position relative to the conceptus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2E31171A9A45
+## title
+Regarding formation of sperms
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding formation of sperms
+## answer_a
+Starts at birth and stopped at old age
+## explanation_a
+Nothing about gametogenesis starts at birth in either sex. This option pairs a female-sounding start with the male ending and is the one a student picks who remembers only that one sex starts early.
+## answer_b
+Starts at birth and stopped at puberty
+## explanation_b
+Puberty is where spermatogenesis begins, not where it stops. Reversing the two makes the male fertile only before puberty, which is the opposite of what puberty means.
+## answer_c
+Starts at puberty and continues till old. age
+## explanation_c
+Correct. In the male, gametogenesis starts at puberty and continues into old age — which is the whole contrast the book draws against the female, where it starts before birth and stops at the menopause.
+## answer_d
+Starts at old age and continues till death
+## explanation_d
+A man who began making sperm in old age would have been infertile for his whole reproductive life. The option exists to be obviously wrong and to leave three that need thinking about.
+## correct_answer
+C
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental timing
+## learning_objective
+Give when spermatogenesis begins and how long it continues.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q1; Anatomy MCQ Book [2025] [first priority].pdf p87 q1. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1F446CCD6005
+## title
+Regarding oogenesis
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding oogenesis
+## answer_a
+Starts at puberty and continues till age
+## explanation_a
+This is the male pattern, printed here as a female option. Spermatogenesis starts at puberty; oogenesis has been under way since intrauterine life by the time puberty arrives.
+## answer_b
+Starts at birth and continues till menopause
+## explanation_b
+Half right, and the half that is wrong is the important one. Oogenesis does continue to the menopause, but it starts before birth rather than at it — and the arrest between the two is the fact the option hides.
+## answer_c
+Starts at birth and continues till puberty
+## explanation_c
+Stopping at puberty inverts the female cycle: puberty is when the arrested oocytes resume, so this option describes the process ending exactly where it restarts.
+## answer_d
+Starts in the intra-uterine life, then arrested to be continued at puberty
+## explanation_d
+Correct. Oogenesis begins in intrauterine life, is arrested, and resumes from puberty through the ovarian cycles until the menopause. The arrest is what makes an ovum as old as the woman carrying it.
+## correct_answer
+D
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Give the intrauterine start, the arrest and the resumption of oogenesis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q2; Anatomy MCQ Book [2025] [first priority].pdf p87 q2. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F464FEAE3B4D
+## title
+One of the following parts of sperm is responsible for production of energy
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following parts of sperm is responsible for production of energy
+## answer_a
+Mitochondrial sheath
+## explanation_a
+Correct. The middle piece is a mitochondrial sheath wound round the proximal part of the axial filament, and it is the source of the energy that drives sperm motility.
+## answer_b
+Nucleus
+## explanation_b
+The nucleus carries the father's hereditary material and nothing else. It is condensed precisely so that the head can be small and carry no machinery.
+## answer_c
+Acrosomal cap
+## explanation_c
+The acrosomal cap holds hyaluronidase and acrosin — enzymes for getting through the corona radiata and the zona pellucida, not for making ATP.
+## answer_d
+Tail
+## explanation_d
+The commonest wrong answer, because the tail is what visibly moves. The tail is an axial filament with minimal cytoplasm around it; it spends the energy the middle piece makes.
+## correct_answer
+A
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the part of the sperm that supplies the energy for its motility.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q3. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-19D9DAD4A420
+## title
+Movement of the sperm depends on
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Movement of the sperm depends on
+## answer_a
+Acrosomal cap and tail
+## explanation_a
+Pairs the right effector with the wrong power source. The acrosomal cap is a bag of enzymes; it contributes nothing to motility and is discarded during the acrosomal reaction.
+## answer_b
+Mitochondrial sheath and tail
+## explanation_b
+Correct. The mitochondrial sheath of the middle piece makes the energy and the tail directs the movement towards the ovum, so the two together are what motility depends on.
+## answer_c
+Head and mitochondrial sheath
+## explanation_c
+Half of it is right — the mitochondrial sheath — but the head is a passenger. It carries the nucleus and the acrosome and does no work of movement.
+## answer_d
+Head and acrosomal cap
+## explanation_d
+Neither part moves the sperm. This option is picked by a student who reads "sperm" as "head" and reaches for the two structures that are drawn largest in the figure.
+## correct_answer
+B
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the two parts of the sperm that between them produce and deliver movement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q4. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2AAF96BE1645
+## title
+Sperm receptors are present on
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Sperm receptors are present on
+## answer_a
+Zona pellucida
+## explanation_a
+Correct. The zona pellucida is a glycoprotein coat around the oocyte cell membrane and it carries the sperm receptors — which is also why the cortical reaction works by changing them.
+## answer_b
+Corona radiata
+## explanation_b
+The corona radiata is the outer cover of follicular cells stuck together by hyaluronic acid. The sperm disperses it in phase I; it binds nothing.
+## answer_c
+Cell membrane
+## explanation_c
+The cell membrane is what the sperm fuses with in phase III, one layer deeper. Binding happens a layer out, at the zona, and that is what makes phase II a separate step.
+## answer_d
+Nuclear membrane
+## explanation_d
+The nuclear membrane is inside the oocyte. A sperm receptor there would be unreachable, which is what makes this the throwaway option in a set of four coverings.
+## correct_answer
+A
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the covering of the ovum that carries the sperm receptors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q5; Anatomy MCQ Book [2025] [first priority].pdf p87 q5. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-45D6FC331772
+## title
+‏ممم‎ IS the outer cover of the mature ovum
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+‏ممم‎ IS the outer cover of the mature ovum
+## answer_a
+Zona pellucida
+## explanation_a
+One layer short. The zona pellucida is the middle covering — the glycoprotein coat carrying the sperm receptors — with the corona radiata outside it.
+## answer_b
+Cell membrane
+## explanation_b
+The innermost of the three, and the one the sperm finally fuses with in phase III. Picked by a student listing the coverings from the wrong end.
+## answer_c
+Corona radiata
+## explanation_c
+Correct. From within outwards the coverings are cell membrane, zona pellucida and corona radiata, so the corona radiata — follicular cells held together by hyaluronic acid — is the outer one, and the first thing a sperm has to get through.
+## answer_d
+Nuclear membrane. 7
+## explanation_d
+Not a covering of the ovum at all. The nuclear membrane is inside the cell, and it is in the list to catch a student who reads "cover" as "membrane".
+## correct_answer
+C
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the outermost of the three coverings of the mature ovum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ by Dr.Jalal [Embryology] (1).pdf p2 q6. Manifest src_f32859b80fb79d668010.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and no other copy of this question survives in the bank. The department book states the coverings of the ovum from inner to outer as cell membrane, zona pellucida and corona radiata, and defines the corona radiata in its own words as "the outer cover of the ovum formed of follicular cells adherent to each other by hyaluronic acid" — so C is the book's own answer and the other three are the layers it names inside it.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-780B37F19307
+## title
+Cilia are present in all of the following EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cilia are present in all of the following EXCEPT:
+## answer_a
+trachea
+## explanation_a
+The trachea is lined by pseudostratified columnar ciliated epithelium, and its cilia are what sweep mucus up towards the pharynx.
+## answer_b
+bronchi
+## explanation_b
+The bronchi carry the same ciliated lining as the trachea; the whole conducting airway is a mucociliary escalator.
+## answer_c
+fallopian tube
+## explanation_c
+The fallopian tube is lined by ciliated columnar cells, and their beat is one of the three mechanisms that move the embryo along the tube to the uterus.
+## answer_d
+sperm
+## explanation_d
+Correct. The sperm has a flagellum, not a cilium. The axoneme inside it is the same nine-plus-two arrangement, but a flagellum is far longer and moves the cell itself, whereas a cilium moves fluid past a cell that stays put.
+## correct_answer
+D
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Cytology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the ciliated epithelia from the one cell whose motile process is a flagellum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q59. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B71836E8AC4A
+## title
+flagella are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+flagella are present in:
+## answer_a
+trachea
+## explanation_a
+The tracheal lining is ciliated. Its job is to move mucus over a stationary epithelium, which is what cilia are for.
+## answer_b
+bronchi
+## explanation_b
+The bronchi are ciliated for the same reason as the trachea, and neither has anything that moves itself.
+## answer_c
+fallopian tube
+## explanation_c
+The fallopian tube is ciliated. The cell stays in the epithelium; what travels is the embryo being pushed along.
+## answer_d
+sperm
+## explanation_d
+Correct. The sperm is the only human cell with a flagellum — one long process, built on the same axoneme as a cilium, whose whole purpose is to propel the cell it belongs to.
+## correct_answer
+D
+## main_concept
+CON-FND-5114283D5309E5
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Cytology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the human cell that carries a flagellum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q60. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AF1B108C2387
+## title
+Sperm capacitation is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Sperm capacitation is
+## answer_a
+Increase the amount of acrosomal enzymes
+## explanation_a
+Capacitation uncovers the acrosome rather than filling it. The amount of acrosin and hyaluronidase does not change; what changes is that they can now be released.
+## answer_b
+Increase movement of the tail
+## explanation_b
+Tempting because a capacitated sperm does swim differently, but the book defines capacitation by what is removed, not by how the tail behaves.
+## answer_c
+Decease amount of the cytoplasm
+## explanation_c
+The sperm shed almost all their cytoplasm during spermiogenesis in the testis, long before they reach the female tract. Nothing about capacitation concerns cytoplasm.
+## answer_d
+Removal of glycoprotein coat from the head of the sperm
+## explanation_d
+Correct. Capacitation is removal, in the female genital tract, of the glycoprotein coat covering the acrosomal region of the sperm — which is what lets the acrosomal reaction happen at the zona later.
+## correct_answer
+D
+## main_concept
+CON-DEV-7DC9EC16B34924
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Define capacitation and say where it happens.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q8; Anatomy MCQ Book [2025] [first priority].pdf p88 q8. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FC9B251847BC
+## title
+Phase II of fertilization is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Phase II of fertilization is
+## answer_a
+Penetration of corona radiate
+## explanation_a
+Dispersion of the corona radiata is phase I, one step earlier — the sperm releasing hyaluronidase to open passages between the follicular cells.
+## answer_b
+Capacitation of sperms
+## explanation_b
+Capacitation happens in the female tract before the sperm ever reaches the ovum and is not one of the numbered phases at all. Counting it as phase I is what pushes a student one step out on this question and the next.
+## answer_c
+Penetration of cell membrane of ovum
+## explanation_c
+Opening the cell membrane of the oocyte is phase III, the last step, when the two membranes fuse and the sperm contents pass in.
+## answer_d
+Penetration of zona pellucida
+## explanation_d
+Correct. Phase II is penetration of the zona pellucida — the acrosomal reaction, in which the bound sperm head releases acrosin and trypsin-like material and dissolves a path through the coat.
+## correct_answer
+D
+## main_concept
+CON-DEV-7DC9EC16B34924
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name phase II of fertilisation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q9; Anatomy MCQ Book [2025] [first priority].pdf p88 q9. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-37DCBFC76CA0
+## title
+Phase III of fertilization is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Phase III of fertilization is
+## answer_a
+Penetration of corona radiate
+## explanation_a
+Phase I. The books print this option in both the phase II and the phase III question, and it is the answer to neither.
+## answer_b
+Capacitation of sperms
+## explanation_b
+Capacitation is unnumbered and comes before phase I, so it cannot be the third of three.
+## answer_c
+Penetration of cell membrane of ovum
+## explanation_c
+Correct. Phase III is opening of the cell membrane of the oocyte: the two membranes fuse and open, and the sperm nucleus, mitochondrial sheath and axial filament enter the cytoplasm.
+## answer_d
+Penetration of zona pellucida
+## explanation_d
+Phase II. A student who has confidently answered the previous question will pick this one by elimination in the wrong direction.
+## correct_answer
+C
+## main_concept
+CON-DEV-7DC9EC16B34924
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name phase III of fertilisation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q10; Anatomy MCQ Book [2025] [first priority].pdf p88 q10. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-37FA17936A49
+## title
+Cortical and :zona reactions occur
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Cortical and :zona reactions occur
+## answer_a
+After passage of sperms through corona radiate
+## explanation_a
+Far too early. The sperm has still to cross the zona pellucida at this point, and a block that fired now would keep out the sperm that triggered it.
+## answer_b
+During sperm penetration of zona pellucida
+## explanation_b
+The intuitive answer, because the zona is the structure the reaction changes. But the reaction is triggered by the sperm arriving in the cytoplasm; the change to the zona is done from inside the oocyte afterwards.
+## answer_c
+After entrance of the sperm to the cytoplasm of the ovum
+## explanation_c
+Correct. The cortical granules lie just inside the oocyte cell membrane and release their lysosomal enzymes once the sperm has entered the cytoplasm — which is why the fertilising sperm is never shut out by the block it causes.
+## answer_d
+After formation of the zygote
+## explanation_d
+Too late. The two pronuclei have to fuse before there is a zygote, and by then the block to polyspermy has been in place for some time.
+## correct_answer
+C
+## main_concept
+CON-DEV-79E0801E11BA09
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Place the cortical and zona reaction in the sequence of fertilisation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q12; Anatomy MCQ Book [2025] [first priority].pdf p88 q12. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8311F67DF780
+## title
+Zona reaction
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Zona reaction
+## answer_a
+Is the sperm penetration of zona pellucida
+## explanation_a
+That is phase II of fertilisation. The zona reaction acts on the zona pellucida but is not the crossing of it — one is the sperm getting in, the other is everything else being kept out.
+## answer_b
+Occurs by release of lysosomal enzymes from cortical granules of the ovum
+## explanation_b
+Correct. The zona reaction is the release of lysosomal enzymes from the cortical granules of the ovum, which alter the sperm receptors in the zona and make it impenetrable to further sperms.
+## answer_c
+Occurs after capacitation of the sperms
+## explanation_c
+True as a statement about time and useless as an answer. Everything in fertilisation happens after capacitation, so this locates nothing; the question asks what the zona reaction is, not what precedes it.
+## answer_d
+Is the degeneration of zona pellucida
+## explanation_d
+The zona does not degenerate here. It degenerates at the end of the fifth day, in the uterine cavity, to let the blastocyst hatch — a different event several days later.
+## correct_answer
+B
+## main_concept
+CON-DEV-79E0801E11BA09
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Define the zona reaction by its mechanism rather than by the structure it acts on.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q11; Anatomy MCQ Book [2025] [first priority].pdf p88 q11. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-101-82DCF129E456
 ## title
 Simple branched tubular glands:
@@ -41296,6 +44442,670 @@ Answer changed from the source's: The source printed no key. The ulnar nerve gro
 
 # Item
 ## id
+QM-101-D81B9F3F35BD
+## title
+Anatomical position is: (DEP BOOK). Vi
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Anatomical position is: (DEP BOOK). Vi
+## answer_a
+A term used to refer to the body facing forwards and sitting down.
+## explanation_a
+Sitting is not the reference. A position that changes with the chair could not be a reference for describing anything; the anatomical position is standing, and it is fixed.
+## answer_b
+The position in which the body Is lying down with feet parallel and arms by the sides.
+## explanation_b
+Lying down with the arms at the sides is the supine position, which the book names separately. It is a clinical posture, not the reference posture.
+## answer_c
+The position in which the body is erect, facing front with feet parallel and arms hanging at the sides with the palms facing forwards.
+## explanation_c
+Correct, and complete: erect, facing front, feet parallel, arms hanging at the sides, palms facing forwards. The palms are what make this statement the right one.
+## answer_d
+The position in which the body is erect, facing forward with feet parallel and arms hanging at the sides with palms facing backwards.
+## explanation_d
+Identical to C except that the palms face backwards — which is where they naturally hang, and therefore the option a student who has never noticed the detail will pick. In the anatomical position the forearms are supinated so the palms face forwards and the thumbs point laterally.
+## correct_answer
+C
+## main_concept
+CON-MSK-D193498AB94D21
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Pick the full statement of the anatomical erect position from four near-identical postures.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p2 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. The identical row `anatomical-position-is-ebd3fee8`, asked twice, is keyed C — and this is the only copy in which C and D are printed in full, so it is the only copy in which the key can be acted on at all.
+
+
+---
+
+# Item
+## id
+QM-101-4CB595203971
+## title
+The following statement describes the anatomical position:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following statement describes the anatomical position:
+## answer_a
+The eyes are looking backwards
+## explanation_a
+Reversed. The eyes look forwards; a body facing one way with the eyes looking the other is not a posture anyone could hold, which is what makes this the easiest option to eliminate.
+## answer_b
+The upper limbs are hanging by the sides
+## explanation_b
+Correct. The upper limbs hang by the sides — the only one of the four statements the book gives as printed.
+## answer_c
+The palms are facing backwards
+## explanation_c
+Reversed, and the commonest error in this leaf. The palms face forwards, not backwards; this is the one element of the position that is not the way a body naturally stands.
+## answer_d
+The thumbs are directed medially
+## explanation_d
+Reversed. The thumbs are directed laterally, which follows from the palms facing forwards. A student who put the palms backwards will put the thumbs medially too, so the two errors travel together.
+## correct_answer
+B
+## main_concept
+CON-MSK-D193498AB94D21
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Basis
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Identify the one statement about the anatomical position that is true, given three that invert a detail of it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p1 q1; Anatomy MCQ Book [2025] [first priority].pdf p2 q1. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-7CC514FE115D
+## title
+The plane which divides the body into 2 equal halves right and left is: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The plane which divides the body into 2 equal halves right and left is: (DEP BOOK)
+## answer_a
+Median plane
+## explanation_a
+Correct. The median or sagittal plane runs vertically in the midline, and the word "equal" is what selects it over the paramedian plane.
+## answer_b
+Coronal plane
+## explanation_b
+The coronal plane is vertical too, which is why it is picked. It divides the body into anterior and posterior parts, not right and left.
+## answer_c
+Paramedian plane
+## explanation_c
+The trap the word "equal" is in the stem for. The paramedian plane is parallel to the median plane and near it, so it also gives a right and a left part — unequal ones.
+## answer_d
+Horizontal plane. Vi P ad
+## explanation_d
+The horizontal plane cuts across the body into an upper and a lower part. It divides nothing into right and left.
+## correct_answer
+A
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the plane that divides the body into equal right and left halves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p2 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its twin `the-plane-which-divides-the-body-into-2-equal-halves-right-a-8f461c93` is keyed A, and A is what the department book states: the median (sagittal) plane passes in the midline and gives equal right and left halves.
+
+
+---
+
+# Item
+## id
+QM-101-120730AF9092
+## title
+A plane which separates the body into an anterior and posterior part is called a: (2024…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A plane which separates the body into an anterior and posterior part is called a: (2024). y y
+## answer_a
+Median plane.
+## explanation_a
+The median plane is vertical like the coronal, but it separates right from left.
+## answer_b
+Sagittal plane.
+## explanation_b
+The book gives "sagittal" as the second name of the median plane, so this option is A again under another name — and two identical options cannot both be the answer, which is itself a way to eliminate them.
+## answer_c
+Horizontal plane.
+## explanation_c
+The horizontal plane gives an upper and a lower part. A student picks it when reading "separates the body into two parts" and stopping there.
+## answer_d
+Coronal plane.
+## explanation_d
+Correct. Coronal, also called frontal: a vertical plane leaving an anterior part in front and a posterior part behind.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the plane that separates the body into an anterior and a posterior part.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p3 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book defines the coronal (frontal) plane as the one cutting the body vertically into an anterior part towards the front and a posterior part towards the back, so D is the only option that answers the stem.
+
+
+---
+
+# Item
+## id
+QM-101-543988846157
+## title
+Which of the following is true about the coronal plane?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true about the coronal plane?
+## answer_a
+It is a horizontal plane
+## explanation_a
+The coronal plane is vertical, not horizontal. This option and C are the same error stated twice, which is a sign that neither is the answer.
+## answer_b
+It divides the body into anterior and posterior halves
+## explanation_b
+Correct, subject to the book's wording: the coronal plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The department book says "parts"; only a plane through the exact mid-thickness of the body would give halves.
+## answer_c
+It cuts the body into upper and lower halves
+## explanation_c
+Upper and lower is the horizontal (transverse) plane. Picked by students who remember that the coronal plane is a cross-section of some kind without remembering which way it faces.
+## answer_d
+It is a vertical plane that divides the body into 2 equal right and left halves
+## explanation_d
+A correct definition of the median plane, offered under the coronal plane's name. Both are vertical, which is what makes the swap tempting.
+## correct_answer
+B
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Say both what the coronal plane cuts and which way it runs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p2 q4. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the only true statement: the coronal plane divides the body into an anterior and a posterior part. The book says "parts" rather than "halves", and the item's wording is looser than the book's, but no other option is defensible — A and C describe the horizontal plane and D the median.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6AF0770CC61F
+## title
+The anatomical term that means "away from the median plane" is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anatomical term that means "away from the median plane" is:
+## answer_a
+Lateral
+## explanation_a
+Correct. Lateral is away from the median plane; medial is towards it.
+## answer_b
+Medial
+## explanation_b
+The exact opposite, and the option a student picks by matching the words "median" and "medial" rather than reading the direction.
+## answer_c
+Distal
+## explanation_c
+Distal is away from the root of the limb, not away from the midline. Both mean "further out", which is why the two pairs are confused; they measure from different reference points.
+## answer_d
+Proximal
+## explanation_d
+Proximal is nearer the root of the limb — the wrong axis and the wrong direction at once.
+## correct_answer
+A
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Basis
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the term for a position away from the median plane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p1 q5; Anatomy MCQ Book [2025] [first priority].pdf p2 q5. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F377B3580666
+## title
+The anatomical term that means "nearer to the root of the limb" is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The anatomical term that means "nearer to the root of the limb" is:
+## answer_a
+Lateral
+## explanation_a
+Lateral is measured from the median plane of the body, not along the limb.
+## answer_b
+Medial
+## explanation_b
+Medial is the other half of that same pair, and belongs to the trunk axis rather than the limb axis.
+## answer_c
+Distal
+## explanation_c
+The exact opposite: distal is away from the root of the limb. A student who reads only "root" and answers by feel takes this half the time.
+## answer_d
+Proximal
+## explanation_d
+Correct. Proximal is nearer to the root of the limb — the shoulder for the upper limb, the hip for the lower.
+## correct_answer
+D
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Basis
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the term for a position nearer the root of the limb.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q6. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2092A939DF82
+## title
+Near to the median plane is: (DEP BOOK). em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Near to the median plane is: (DEP BOOK). em em
+## answer_a
+Lateral
+## explanation_a
+Lateral is the opposite — away from the median plane.
+## answer_b
+Proximal
+## explanation_b
+Proximal is measured along a limb, from its root, not from the midline of the body.
+## answer_c
+Medial
+## explanation_c
+Correct, and the override. Medial is nearer to the median plane; median itself is exactly in the midline.
+## answer_d
+Inferior
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Inferior means lower or caudal; it names a position on the vertical axis and says nothing about the midline.
+## correct_answer
+C
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## library_ids
+ART-101-ANA-INTRODUCTION
+## topic
+Introduction
+## subtopic
+Introduction
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Give the term for a position nearer the median plane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p3 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, "Inferior", which cannot stand: inferior means lower, and has nothing to do with the median plane. The department book's own table of terms of position gives medial as "nearer the median plane", so the answer is C. The extractor appears to have read a page mark rather than a key.
+
+
+---
+
+# Item
+## id
 QM-101-CBBE021ADCBF
 ## title
 The radial collateral ligament, choose the correct answer:
@@ -42950,6 +46760,255 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, but the sternoclavicular joint is a saddle joint, not a hinge. Its complete fibrocartilaginous articular disc is the feature this module teaches about it, and B is the only true statement of the four.
+
+
+---
+
+# Item
+## id
+QM-101-C7770987F487
+## title
+The resolution of TEM is about
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The resolution of TEM is about
+## answer_a
+0.2 nm
+## explanation_a
+Correct, and keyed. The electron microscope resolves to 0.2 nm — a thousand times finer than the light microscope, which is why organelles and membranes are electron-microscopic structures.
+## answer_b
+0.4 um
+## explanation_b
+A micrometre answer for an electron microscope. 0.4 µm is coarser than the light microscope's own 0.2 µm, so this option would make the electron microscope the worse instrument.
+## answer_c
+0.2 mm
+## explanation_c
+0.2 mm is the resolution of the naked eye. The digits are the ones the student remembers, which is exactly why the unit is what the question is really testing.
+## answer_d
+0.4 mm
+## explanation_d
+Coarser still than the naked eye. Two points 0.4 mm apart are separable without any instrument at all.
+## correct_answer
+A
+## main_concept
+CON-FND-B26B5864907F95
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+Cytology
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a number
+## learning_objective
+Give the resolution power of the transmission electron microscope in the correct unit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p12 q71. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-101-47BEAD719BCC
+## title
+One statement is correct
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One statement is correct
+## answer_a
+Magnification power of the light microscope is 15 times only
+## explanation_a
+Fifteen is the eyepiece alone. Magnification is objective times eyepiece, 100 × 15, so the light microscope reaches 1500 times — a student who has memorised the eyepiece figure and not the multiplication picks this.
+## answer_b
+Resolution power of light microscope is 0.2 pm
+## explanation_b
+Correct as the department book has it: the light microscope resolves 0.2 µm. The printed "pm" is taken as the extraction's usual mangling of µ, since no source in this module quotes a picometre for anything.
+## answer_c
+Resolution power of electron microscope is 0.2 mm
+## explanation_c
+0.2 mm is the naked eye, not the electron microscope. Same digits, unit three thousandfold steps too coarse.
+## answer_d
+Magnification power of the electron microscope is 1500 times only
+## explanation_d
+1500 times is the light microscope's ceiling, and the whole point of an electron microscope is that it is not bound by it: it magnifies from 1000 to 100,000 times or more.
+## correct_answer
+B
+## main_concept
+CON-FND-B26B5864907F95
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+Histology-general
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a number
+## learning_objective
+Pick the one true statement from a set that swaps the magnification and resolution figures of the two microscopes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p1 q7. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, C and D are each decisively false against the department book — the light microscope magnifies 1500 not 15 times, the electron microscope resolves 0.2 nm not 0.2 mm, and it magnifies to 100,000 times not 1500 — which leaves B as the only statement that can stand. B is printed as "0.2 pm", and pm would be wrong; the book gives 0.2 µm, and the extraction of these books renders µ as p elsewhere in the same page (7.0 um for 7.0 µm among them), so the option is read as micrometres. That reading is recorded here rather than repaired in the bank.
+
+
+---
+
+# Item
+## id
+QM-101-A447D737C56E
+## title
+Electron microscope OF Cell membrane
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Electron microscope OF Cell membrane
+## answer_a
+bilaminar
+## explanation_a
+The molecular arrangement, not the electron-microscopic appearance. The lipid is a bilayer of phospholipid, but what the electron microscope shows is three bands, because both hydrophilic surfaces take the stain and the hydrophobic core between them does not.
+## answer_b
+trilaminar
+## explanation_b
+Correct. Two dark, electron-dense layers with an intermediate light, electron-lucent layer between them — the trilaminar or unit membrane.
+## answer_c
+tetralaminar
+## explanation_c
+Four layers is what a student counts after adding the fuzzy cell coat to the three. The coat is on the outer surface only and is not part of the unit membrane.
+## answer_d
+unilaminar
+## explanation_d
+One layer is what light microscopy suggests, where the membrane is not resolved at all and appears as a line at the cell edge.
+## correct_answer
+B
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+Cytology
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Ultrastructure
+## learning_objective
+State how many layers the plasma membrane shows on electron microscopy and what each one is.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p1 q10. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
 
 
 ---
@@ -61072,6 +65131,1990 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Deltoid is the book's multipennate example; the sibling printing `an-example-of-multipennate-muscle-is-132e2b26`, asked twice, keys A.
+
+
+---
+
+# Item
+## id
+QM-101-01E33C2FDED9
+## title
+Appendicular skeleton is formed of:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Appendicular skeleton is formed of:
+## answer_a
+Skull and mandible
+## explanation_a
+The skull and mandible are the top of the axial skeleton — the central axis, not the appendages hung from it.
+## answer_b
+Bones of the upper and lower limbs
+## explanation_b
+Correct. Appendicular means the appendages: the bones of the upper and lower limbs, girdles included.
+## answer_c
+Ribs and stemum
+## explanation_c
+Ribs and sternum are axial. They form the thoracic cage around the axis; the fact that the upper limb attaches to the sternum through the clavicle does not make the sternum a limb bone.
+## answer_d
+Vertebral column
+## explanation_d
+The vertebral column is the axis itself, and the option a student picks by reading "appendicular" as "attached to".
+## correct_answer
+B
+## main_concept
+CON-MSK-9A22BB8909AF29
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+State what the appendicular skeleton is made of.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p4 q16. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its three-option twin `appendicular-skeleton-includes-dep-book-ac-ad-ac-ad-ad-ad-99ec3dc9` is keyed to the same statement, "Bones of the limbs", and the department book defines the appendicular (peripheral) skeleton as the bones of the upper and lower limbs.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-55623272E453
+## title
+Which of the following bones forms part of the axial skeleton? (2024). Ac P a- Clavicle…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones forms part of the axial skeleton? (2024). Ac P a- Clavicle. P Vi b- Ulna
+## answer_a
+Clavicle.
+## explanation_a
+The clavicle is the anterior bar of the pectoral girdle and belongs to the upper limb, however much of it lies across the front of the chest.
+## answer_b
+Ulna.
+## explanation_b
+The ulna is a forearm bone, appendicular beyond argument.
+## answer_c
+Sternum.
+## explanation_c
+Correct. The sternum is one of the six components of the axial skeleton the book lists, with the skull, mandible, hyoid, ribs and vertebral column.
+## answer_d
+Scapula.
+## explanation_d
+The scapula is the posterior half of the pectoral girdle. It lies on the thoracic cage without joining it, which is exactly why it moves with the limb and not with the axis.
+## correct_answer
+C
+## main_concept
+CON-MSK-9A22BB8909AF29
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the axial bone from a list of three pectoral girdle and limb bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q27. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8D03376567A9
+## title
+The patella is a:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The patella is a:
+## answer_a
+Short bone
+## explanation_a
+Short bones are the carpals and tarsals — spongy bone in a thin compact shell, filling a region rather than sitting in a tendon. The patella is picked as short by students going on its size.
+## answer_b
+Long bone
+## explanation_b
+A long bone has two epiphyses and a shaft. The patella has neither.
+## answer_c
+Flat bone
+## explanation_c
+A flat bone is two compact plates with spongy bone between; the scapula and ribs are the examples. The patella is flattened in profile, which is the whole of the resemblance.
+## answer_d
+Seasamoid bone
+## explanation_d
+Correct. The patella is a nodule of bone embedded in the tendon of quadriceps femoris in front of the knee — the largest sesamoid bone in the body — and its job is to reduce friction between that tendon and the bone beneath.
+## correct_answer
+D
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the patella by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q25; Anatomy MCQ Book [2025] [first priority].pdf p5 q25. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-776499738644
+## title
+The scapula is a:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The scapula is a:
+## answer_a
+Short bone
+## explanation_a
+Short bones are cuboidal and packed together in the wrist and ankle. The scapula is a broad plate.
+## answer_b
+Long bone
+## explanation_b
+A long bone has a shaft and two ends. The scapula has processes — spine, acromion, coracoid — but no shaft.
+## answer_c
+Flat bone
+## explanation_c
+Correct. The scapula is one of the book's three examples of a flat bone, with the skull cap and the ribs: two thin plates of compact bone with a spongy layer between.
+## answer_d
+Seasamoid bone
+## explanation_d
+A sesamoid bone lies inside a tendon. The scapula gives tendons their origin instead of being carried in one.
+## correct_answer
+C
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the scapula by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q22; Anatomy MCQ Book [2025] [first priority].pdf p5 q22. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9ED6E22DB0AC
+## title
+The ribs are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The ribs are:
+## answer_a
+Short bone
+## explanation_a
+A short bone is roughly cubical. A rib is a long curved strip, and nothing about it is short except its thickness.
+## answer_b
+Long bone
+## explanation_b
+The commonest error here, because a rib is manifestly long. Length is not what defines a long bone: a long bone has two expanded epiphyses and a marrow-filled shaft, and a rib has neither.
+## answer_c
+Flat bone
+## explanation_c
+Correct. The ribs are flat bones — two thin plates of compact bone with spongy bone between, which is also why the sternum and the ribs hold red marrow in adult life.
+## answer_d
+Seasamoid bone
+## explanation_d
+A sesamoid bone is embedded in a tendon. The ribs are joined to the vertebrae behind and the costal cartilages in front.
+## correct_answer
+C
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Classify the ribs by shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q23; Anatomy MCQ Book [2025] [first priority].pdf p5 q23. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-DE819E32FB53
+## title
+Which of the following bones is a flat bone:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones is a flat bone:
+## answer_a
+Humerus
+## explanation_a
+The humerus is the type example of a long bone — two epiphyses and a shaft with a medullary cavity.
+## answer_b
+Scapula
+## explanation_b
+Correct. The scapula is a flat bone: two thin plates of compact bone with a spongy layer between them.
+## answer_c
+Ulna
+## explanation_c
+The ulna is a long bone of the forearm.
+## answer_d
+Clavicle
+## explanation_d
+The clavicle is the trap. It is the one bone that ossifies in membrane like a flat bone of the skull, yet it is classed by shape as a long bone; membrane ossification and flat shape are two different classifications and this option asks for the second.
+## correct_answer
+B
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Upper Limb
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the flat bone from four bones of the upper limb and its girdle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p30 q1; Upper MCQ Dr.jalal (1).pdf p53 q1. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Asked twice and keyed on neither page. The department book names the scapula as one of its three examples of a flat bone, and none of the other three options is flat: the humerus and ulna are long bones and the clavicle, though it ossifies in membrane, is classed as a long bone.
+
+
+---
+
+# Item
+## id
+QM-101-AFB1875CAEB6
+## title
+Which of the following bones is classiﬁed as a ﬂat bone? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones is classiﬁed as a ﬂat bone? (2024)
+## answer_a
+Scapula
+## explanation_a
+Correct. The scapula is the book's example of a flat bone.
+## answer_b
+Femur
+## explanation_b
+The femur is a long bone, and the longest one. It is printed here to be eliminated on sight.
+## answer_c
+Carpals. y
+## explanation_c
+The carpals are the book's example of short bones — spongy bone under a thin compact shell. A student who reads "small and squat" as "flat" takes this one.
+## correct_answer
+A
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the flat bone from a long bone and a group of short bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q26. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8CA22DC4F501
+## title
+One of the following is a ﬂat bone: (DEP BOOK - 2017)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a ﬂat bone: (DEP BOOK - 2017)
+## answer_a
+Vertebra.
+## explanation_a
+The vertebra is the book's example of an irregular bone — irregular in shape with projecting processes, and built inside like a short bone.
+## answer_b
+Cap of skull.
+## explanation_b
+Correct. The cap of the skull is a flat bone: outer and inner tables of compact bone with the diploe between them.
+## answer_c
+Humerus.
+## explanation_c
+The humerus is a long bone.
+## answer_d
+Scaphoid.
+## explanation_d
+The scaphoid is a carpal bone, and the carpals are the book's example of short bones.
+## correct_answer
+B
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Pick the flat bone from an irregular, a long and a short bone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q18. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2017 source printed no key. The department book names the skull cap as one of its three flat bones, and files the other three options elsewhere: the vertebra under irregular bones, the humerus under long, the scaphoid under short.
+
+
+---
+
+# Item
+## id
+QM-101-885B5B1D9FA3
+## title
+One of the following is an irregular bone: (DEP BOOK - 2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is an irregular bone: (DEP BOOK - 2018)
+## answer_a
+Clavicle
+## explanation_a
+The clavicle is classed as a long bone, and is the bone this leaf keeps using to separate ossification from shape.
+## answer_b
+Scapula. P
+## explanation_b
+The scapula is flat. It has an awkward outline, which is what makes students read "irregular" into it — but irregularity of outline is not the class; projecting processes on a solid, short-bone-like body are.
+## answer_c
+Metacarpus
+## explanation_c
+The metacarpals are miniature long bones, each with a base, a shaft and a head.
+## answer_d
+Vertebra
+## explanation_d
+Correct. The vertebra is the book's worked example of an irregular bone.
+## correct_answer
+D
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Pick the irregular bone from a long, a flat and a group of long bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q17. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B3F8B23A6E70
+## title
+Which of the following bones is a sesamoid bone? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following bones is a sesamoid bone? (2024)
+## answer_a
+Pisiform
+## explanation_a
+Correct. The pisiform sits in the tendon of flexor carpi ulnaris, which is what a sesamoid bone is — a nodule of bone within a tendon. It is the one carpal bone that qualifies.
+## answer_b
+Scaphoid. P
+## explanation_b
+The scaphoid is a true carpal bone in the proximal row, articulating with the radius. Its being small and rounded is the whole of its resemblance to a sesamoid.
+## answer_c
+Triquetral
+## explanation_c
+The triquetral is a proximal-row carpal bone, articulating with the articular disc.
+## answer_d
+Hamate
+## explanation_d
+The hamate is a distal-row carpal bone. Its hook gives attachment to the flexor retinaculum, which is a tendon-related fact that makes it a tempting misread — but the bone lies in the carpus, not in a tendon.
+## correct_answer
+A
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recognise a sesamoid bone among the carpal bones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q24. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C31D55E16279
+## title
+The sinuses are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The sinuses are:
+## answer_a
+Short bone
+## explanation_a
+Short bones are the carpals and tarsals, and hold no air.
+## answer_b
+Long bone
+## explanation_b
+Long bones have a marrow cavity, not an air cavity, and none of them is pneumatic.
+## answer_c
+Flat bone
+## explanation_c
+The flat bones of the skull cap are the nearest true answer, and the reason this distractor works: the skull has both, but its air-filled bones surround the nose rather than roofing the brain.
+## answer_d
+Pneumatic bones
+## explanation_d
+Correct. A bone containing air is a pneumatic bone, and the air cavities of the skull bones around the nose are the paranasal sinuses.
+## correct_answer
+D
+## main_concept
+CON-MSK-00B4A0D32A6420
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the class of bone that contains the paranasal sinuses.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q24. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E150494556CA
+## title
+One of the following is not a function of pneumatic bone: (2022). em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not a function of pneumatic bone: (2022). em em em em em
+## answer_a
+Warming of inspired air
+## explanation_a
+A genuine function. The sinus is lined by a highly vascular mucosa, and inspired air passing the nose is warmed by it.
+## answer_b
+Withstand forces and stresses
+## explanation_b
+Correct as the exception, and the answer. Hollowing a bone cannot make it stronger; the air is bought at the cost of substance, which is why a blow to the face fractures the maxilla and the orbital floor so readily.
+## answer_c
+Resonance of voice
+## explanation_c
+A genuine function. The air cavities resonate, and this is why the voice changes when a sinus fills during a cold.
+## answer_d
+Lighting the weight of skull
+## explanation_d
+A genuine function, and the one most often given first: the cavities decrease the weight of the skull that the neck has to balance.
+## correct_answer
+B
+## main_concept
+CON-MSK-6DCABD3AE947F5
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give what the air cavity of a pneumatic bone does, and identify the property it costs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q22. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AA65C6DD5381
+## title
+The expanded upper and lower ends of the long bone are called:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The expanded upper and lower ends of the long bone are called:
+## answer_a
+Epiphysis
+## explanation_a
+Correct. The epiphyses are the expanded upper and lower ends, used for articulation and covered with hyaline cartilage.
+## answer_b
+Epiphyseal plate
+## explanation_b
+The epiphyseal plate is the disc of hyaline cartilage *between* epiphysis and diaphysis in a growing bone, not the end itself. One letter of Greek separates them and the plate is inside the bone.
+## answer_c
+Diaphysis
+## explanation_c
+The diaphysis is the shaft between the two ends.
+## answer_d
+Metaphysis
+## explanation_d
+The metaphysis is the zone of the shaft immediately under the epiphyseal cartilage — close to the end, which is what makes it the strongest distractor, but not the end.
+## correct_answer
+A
+## main_concept
+CON-MSK-EFD497A9922A4D
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the expanded ends of a long bone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q19; Anatomy MCQ Book [2025] [first priority].pdf p4 q19. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-73709561FFD6
+## title
+The compact bone with a central medullary cavity is called:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The compact bone with a central medullary cavity is called:
+## answer_a
+Epiphysis
+## explanation_a
+The epiphysis is the expanded end. It is spongy bone under a shell, with no medullary cavity.
+## answer_b
+Epiphyseal plate
+## explanation_b
+The epiphyseal plate is cartilage, not bone at all.
+## answer_c
+Diaphysis
+## explanation_c
+Correct, and the override. The diaphysis is the shaft: a tube of compact bone around a central medullary cavity lined with endosteum and filled with marrow.
+## answer_d
+Metaphysis
+## explanation_d
+The answer printed in both copies of this question in the books, and the reason for the override. The metaphysis is the short, highly active segment just under the epiphyseal cartilage; it is part of the shaft, but it is not the description in the stem.
+## correct_answer
+C
+## main_concept
+CON-MSK-EFD497A9922A4D
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name the region of a long bone that is a tube of compact bone around a medullary cavity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q20. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, "Metaphysis", and so does the second copy of this question — and both conflict with the department book, whose definition of the diaphysis is word for word the stem of this question: "a tube of compact bone with a central medullary cavity lined with endosteum and filled with bone marrow". The metaphysis is defined separately as the part just beneath the epiphyseal cartilage. A key repeated on two pages is still one wrong key, and the conflict is recorded rather than absorbed.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-939E9C644E81
+## title
+The part which is responsible for the growth of long bones in length is called:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The part which is responsible for the growth of long bones in length is called:
+## answer_a
+Epiphysis
+## explanation_a
+The epiphysis is the end that the plate pushes away; it is carried along by the growth rather than producing it.
+## answer_b
+Epiphyseal plate
+## explanation_b
+Correct. The bone increases in length from the epiphysial plates of cartilage, by proliferation of their cells.
+## answer_c
+Diaphysis
+## explanation_c
+The diaphysis is what the growth adds to. It lengthens, but it does not do the lengthening.
+## answer_d
+Metaphysis
+## explanation_d
+The metaphysis is called the most active part of the long bone, which is exactly why it is chosen. Its activity is turning newly made cartilage into bone; the cell division that adds length happens in the plate above it.
+## correct_answer
+B
+## main_concept
+CON-MSK-C30E73A5353ABB
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the part of a long bone that lengthens it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p4 q21. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-70A55CFAAC9B
+## title
+Longitudinal growth in a growing bone passes through which of the following? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Longitudinal growth in a growing bone passes through which of the following? (2024)
+## answer_a
+Metaphysis.
+## explanation_a
+The metaphysis is where the new cartilage is replaced by bone, and the book calls it the most active part of the long bone — which is why it draws the answer. Growth passes *out of* it; it does not begin there.
+## answer_b
+Diaphysis.
+## explanation_b
+The diaphysis is the shaft. It gains length at its ends and gains width from the periosteum, but it generates neither.
+## answer_c
+Epiphyseal plate.
+## explanation_c
+Correct. The epiphyseal plate of hyaline cartilage divides and is replaced from below, and that is the whole mechanism of growth in length.
+## answer_d
+Epiphyseal line.
+## explanation_d
+The epiphyseal line is the plate after it has ossified — the mark left when growth has finished. Choosing it is choosing the end of the process rather than the process.
+## correct_answer
+C
+## main_concept
+CON-MSK-C30E73A5353ABB
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the structure through which a growing bone lengthens, and separate it from the scar it leaves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q23. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2024 source printed no key. The department book states that long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells, which makes C the answer; D names what is left after that plate has ossified and growth has stopped.
+
+
+---
+
+# Item
+## id
+QM-101-559EF0964155
+## title
+Intra-cartilagenous ossification occurs in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Intra-cartilagenous ossification occurs in:
+## answer_a
+Roof of the skull
+## explanation_a
+The roof of the skull ossifies in membrane, directly from mesenchyme, with no cartilage model. It is printed twice in this question, as A and again as C.
+## answer_b
+Clavicle
+## explanation_b
+The clavicle is the book's other example of membranous ossification, and the classic trap: it looks like a long bone and long bones are cartilaginous, but the clavicle is not.
+## answer_c
+Skull cap
+## explanation_c
+The skull cap is the same structure as option A under another name. Two identical options cannot both be the answer, which is a way to eliminate the pair.
+## answer_d
+Vertebrae
+## explanation_d
+Correct. The vertebrae are on the book's intra-cartilaginous list with the long bones, the ribs and the base of the skull: mesenchyme first becomes a cartilage model, and the model is then replaced by bone.
+## correct_answer
+D
+## main_concept
+CON-MSK-2C78EFB16CA67F
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a bone that ossifies by replacing a cartilage model.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q18; Anatomy MCQ Book [2025] [first priority].pdf p4 q18. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-79FF4E8557D4
+## title
+One of the following bones undergoes membranous ossiﬁcation: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following bones undergoes membranous ossiﬁcation: (DEP BOOK)
+## answer_a
+Clavicle.
+## explanation_a
+Correct. The clavicle is one of the book's two examples of intra-membranous ossification, with the skull cap — and the only limb bone that forms this way.
+## answer_b
+Radius.
+## explanation_b
+The radius is a long bone and ossifies in cartilage, like every other bone of the limbs except the clavicle.
+## answer_c
+Humerus.
+## explanation_c
+The humerus ossifies in cartilage.
+## answer_d
+Ulna.
+## explanation_d
+The ulna ossifies in cartilage. A, B, C and D are all bones of the upper limb, which is what makes this question a test of the exception rather than of the rule.
+## correct_answer
+A
+## main_concept
+CON-MSK-2C78EFB16CA67F
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the bone of the upper limb that ossifies in membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p19 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-875DE732590E
+## title
+Hyaline cartilage is present in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Hyaline cartilage is present in:
+## answer_a
+Epiglottis
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage — the standing exception to "the larynx is hyaline", and the reason this option is printed first.
+## answer_b
+Aurice of the ear
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage, which is what lets it be folded and spring back.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Correct. The articular cartilage covering the surfaces of a synovial joint is hyaline, as are the epiphyseal plates, the costal cartilages and the developing bones of the fetus.
+## answer_d
+Intervertebral disc
+## explanation_d
+The intervertebral disc is white fibrocartilage — an opaque matrix packed with collagen bundles, built to take compression rather than to glide.
+## correct_answer
+C
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name a site of hyaline cartilage among sites of the other two types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p4 q15. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book lists the articular cartilage of joints among the sites of hyaline cartilage, and files the other three options elsewhere: the epiglottis and the auricle under yellow elastic fibrocartilage, the intervertebral disc under white fibrocartilage.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-413433FF6722
+## title
+White fibrocartilage is present in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+White fibrocartilage is present in:
+## answer_a
+Epiglottis
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage.
+## answer_b
+Auricle of the ear
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Articular cartilage is hyaline. It is the most tempting wrong answer here because a joint surface takes load, and load is what fibrocartilage is for — but the surface has to be smooth, and collagen bundles are not.
+## answer_d
+Intervertebral disc
+## explanation_d
+Correct. The intervertebral disc is the department book's one named site of white fibrocartilage, and unlike hyaline it does not ossify in old age.
+## correct_answer
+D
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of white fibrocartilage among sites of the other two types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q14. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3C68E0BE48EB
+## title
+White ﬁbrocartilage is present in one of the following: (2019). Ac P a- Epiglottis. P V…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+White ﬁbrocartilage is present in one of the following: (2019). Ac P a- Epiglottis. P Vi b- Auricle of ear. y
+## answer_a
+Epiglottis.
+## explanation_a
+The epiglottis is yellow elastic fibrocartilage.
+## answer_b
+Auricle of ear.
+## explanation_b
+The auricle of the ear is yellow elastic fibrocartilage.
+## answer_c
+Intervertebral disc of cartilage.
+## explanation_c
+Correct. The intervertebral disc is the book's named site of white fibrocartilage.
+## answer_d
+Costal cartilage.
+## explanation_d
+Costal cartilage is hyaline, and it is the distractor that separates this printing from the others: a student who has learnt only "fibrocartilage takes load" will reach for the cartilage that carries the ribcage.
+## correct_answer
+C
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name the site of white fibrocartilage when a hyaline site of the thoracic wall is offered alongside.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q20. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-D17D48856FCA
+## title
+An example of white ﬁbrocartilage (DEP BOOK – 2017)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+An example of white ﬁbrocartilage (DEP BOOK – 2017)
+## answer_a
+Intervertebral disc
+## explanation_a
+Correct as the book has it. The intervertebral disc is the one site of white fibrocartilage this chapter names.
+## answer_b
+Articular cartilage
+## explanation_b
+Articular cartilage is hyaline — smooth, translucent, and nourished from synovial fluid.
+## answer_c
+Symphysis pubis. y
+## explanation_c
+The symphysis pubis is in fact fibrocartilage, and this item is weaker than it looks for printing it: the department chapter simply never names the pubic symphysis among the sites, so within this course only A is available. A student who knows more anatomy than the chapter teaches is the one this option will catch, and the item needs a faculty eye.
+## correct_answer
+A
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Give the department book's named example of white fibrocartilage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-02CE8E9E2ABF
+## title
+Yellow elastic fibrocartilage is present in:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Yellow elastic fibrocartilage is present in:
+## answer_a
+Developing bone of the fetus
+## explanation_a
+Developing bone in the fetus is a hyaline cartilage model, waiting to be replaced.
+## answer_b
+Auricle of the ear
+## explanation_b
+Correct. The auricle of the ear is yellow elastic fibrocartilage, with the tip of the nose and the epiglottis.
+## answer_c
+Articular cartilage of joints
+## explanation_c
+Articular cartilage is hyaline.
+## answer_d
+Symphysis pubis
+## explanation_d
+The symphysis pubis is fibrous rather than elastic, and is offered here because "yellow elastic fibrocartilage" contains the word fibrocartilage — the classic misreading of the name.
+## correct_answer
+B
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Basis
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the site of yellow elastic fibrocartilage among sites of the other two types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p3 q13. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-49DF99EE21D8
+## title
+The type of cartilage in the tip of the nose is: (DEP BOOK). em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of cartilage in the tip of the nose is: (DEP BOOK). em em em em em
+## answer_a
+Hyaline cartilage
+## explanation_a
+Hyaline cartilage is in the developing bones, the epiphyseal plates, the joint surfaces, the costal cartilages and the larynx below the epiglottis — never in the nasal tip.
+## answer_b
+White ﬁbrocartilage
+## explanation_b
+White fibrocartilage is the intervertebral disc. It is built to resist compression, and a nose tip that resisted compression would not spring back.
+## answer_c
+Yellow elastic ﬁbrocartilage
+## explanation_c
+Correct. The tip of the nose is yellow elastic fibrocartilage, with the auricle of the ear and the epiglottis — the three places that have to bend and recoil.
+## answer_d
+No cartilage at all
+## explanation_d
+The tip of the nose is cartilage, which is exactly why it has no bony landmark and why it moves when pressed. Chosen by students who confuse the soft, mobile tip with the absence of a skeleton.
+## correct_answer
+C
+## main_concept
+CON-MSK-AEB62E99182AEE
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+## topic
+Skeletal system
+## subtopic
+Skeletal system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Skeletal system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the type of cartilage at the tip of the nose.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p7 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
 
 
 ---
