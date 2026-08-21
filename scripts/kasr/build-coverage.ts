@@ -12,6 +12,7 @@
  * the numbers are today's.
  */
 import { existsSync, readFileSync, readdirSync, mkdirSync, writeFileSync } from 'node:fs'
+import { seededBySource } from './seeds/registry.ts'
 import { join } from 'node:path'
 
 const REPO = process.cwd()
@@ -59,11 +60,11 @@ for (const source of rows_) {
 }
 
 /** What each extractor found, indexed by the manifest ID it recorded. */
-type Yield = 'written' | 'mcq' | 'slides' | 'radiology' | 'chapters' | 'topics' | 'answers' | 'sittings'
+type Yield = 'written' | 'mcq' | 'slides' | 'radiology' | 'chapters' | 'topics' | 'answers' | 'sittings' | 'seeded'
 const tally = new Map<string, Record<Yield, number> & { capped?: string }>()
 const bump = (id: string, field: Yield, by = 1) => {
   const row = tally.get(id) ?? {
-    written: 0, mcq: 0, slides: 0, radiology: 0, chapters: 0, topics: 0, answers: 0, sittings: 0 }
+    written: 0, mcq: 0, slides: 0, radiology: 0, chapters: 0, topics: 0, answers: 0, sittings: 0, seeded: 0 }
   row[field] += by
   tally.set(id, row)
 }
@@ -107,6 +108,13 @@ if (notes?.orientation?.verbatim) {
 const sittings = maybe('scripts/kasr/extract/sittings.json')
 for (const sitting of sittings?.sittings ?? []) bump(sitting.sourceId, 'sittings', sitting.topics.length)
 for (const model of sittings?.modelAnswers ?? []) bump(model.sourceId, 'answers', model.questions.length)
+// A paper transcribed straight into a seed file, question by question with a
+// mark scheme against each, is the most thoroughly read thing in this corpus —
+// and it left no extractor JSON behind, so a tally built from those alone
+// reported it as never opened. The 2023 Baqoon resit was exactly that: thirteen
+// questions seeded off a clean text layer, listed here as "not yet read".
+for (const [id, count] of seededBySource()) bump(id, 'seeded', count)
+
 for (const topic of notes?.topics ?? []) bump(topic.sourceId, 'topics')
 for (const past of notes?.pastQuestions ?? []) bump(past.sourceId, 'written')
 
@@ -153,6 +161,7 @@ const line = (source: ManifestSource) => {
     t?.topics && `${t.topics} topics`,
     t?.answers && `${t.answers} model answers`,
     t?.sittings && `${t.sittings} sitting topics`,
+    t?.seeded && `${t.seeded} seeded`,
   ].filter(Boolean).join(', ')
   const state = yields ? (t?.capped ? `read ${t.capped}` : 'read in full') : 'not yet read'
   const names = alsoFiledAs.get(source.sourceId) ?? [source.fileName]
