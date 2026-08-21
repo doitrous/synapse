@@ -342,3 +342,72 @@ nobody's PR happened to touch it, into a catalogue imported by hand for live stu
 obligation it creates is the other way round — **main must never be red.** A file cut off
 mid-run with a header and no items cannot be classified by the kind detector, fails, and
 takes every lane down with it. Keep it out of the import root until it has items.
+
+### Search by label text, never by `subjectId`
+
+**A subject-scoped search hides 43% of the library.**
+
+**12 of the 20 runtime subjects have zero live concepts** — `fnd dev haem imm inf obs gyn
+androl psy derm mul pop`. And **736 of 1,718 concepts carry `subjectId: 'medical'`**, which
+`00-START-HERE.md:170` names as "legacy data, not a subject you may use". Those legacy
+records populate exactly the code namespaces Year 1 mints into:
+
+```
+CON-HEM-*  122   all 'medical'      CON-DEV-*  111   all 'medical'
+CON-IMM-*  133   all 'medical'      CON-MUL-*    0    CON-POP-*  0
+```
+
+So a lane searching `haem` or `imm` for an existing blood concept gets **zero** and concludes
+the zone is virgin. A label-text search over the same ground returns 15 platelet records, 15
+erythrocyte, 4 leukocyte, 2 eosinophil, 19 epithelium.
+
+§4 calls duplicated concepts the most expensive mistake in this repo, "because nothing
+detects them at import time and a student ends up with two half-covered versions of one
+idea". The search that catches one is **label text across all subjects**.
+
+101's seventeen Year-1 concepts were checked individually against the legacy set and are
+clean — its histological *identification* criteria are a different grain from the legacy
+*function* records. That is grain luck, not method.
+
+Two consequences for whoever mints next:
+
+- `CON-FND-*` is **not** an empty namespace — 85 records, all `subjectId: 'pharm'`. General
+  pathology will share the code with general pharmacology. Correct under decoupling, not obvious.
+- A Year-1 `CON-HEM-*` concept will be the **first non-legacy member** of that namespace.
+  Whoever mints it is establishing the `haem` convention, not conforming to one. Worth being
+  a decision rather than a coincidence.
+
+### The `pharm` fix: refuse, don't default
+
+`seeds/types.ts` no longer maps `pharm` to a body-system code. `SYSTEM` became
+`DEFAULT_SYSTEM` (`Partial<Record<KasrSubject, BodySystem>>`) with **`pharm` deliberately
+absent**, and `systemFor(subject, override?)` **throws** on `pharm` with no override,
+naming the live counts in the message. `Seed.system?: BodySystem` is a per-seed override, so
+a cardiac drug mints `CON-CVS-…` while `subject` stays `pharm`.
+
+`check-id-stability.ts` asserts the **refusal**. That is the assertion that matters: a
+default merely *changed* to `FND` passes every other check and is still wrong for the 121
+`CON-INF-*` anti-infectives.
+
+### Probing readability: count words, not characters
+
+The shipped guard counts **words** — `[^\W\d_]{3,}`, runs of three or more letters — over
+three pages (first, middle, last-but-one) taking the best, not page 1 alone. Leader dots
+are not letters, so dotted exam papers need no stripping. `…` is category `Po`, so a
+*character* ratio scores a dotted page 100% while a word count correctly finds none.
+
+```
+all U+0001 x6000      words=0   wordChars=0.0   control=1.0
+real prose            words=8   wordChars=1.0   control=0.0
+dotted answer lines   words=0   wordChars=1.0   control=0.0
+```
+
+Each cache file records `mode`, `modeReason` (pages probed, word count, percentages),
+`manifestTextLayer`, `readability`, and **`unreadablePages`** — pages with characters but no
+words, kept distinct from `emptyPages`, because conflating "nothing extracted" with
+"something did and it isn't language" is how a whole book got skipped. `--reprobe` audits an
+existing cache **without re-extracting** and exits non-zero, so a lane can check inherited
+cache before trusting it.
+
+The manifest's `textLayer` was correct for all 69 sources in one lane and all 51 in another;
+the two known errors are concentrated in a third lane's set, not corpus-wide.
