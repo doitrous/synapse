@@ -14,6 +14,7 @@
  */
 
 import { changeWritableBy } from './contentScope.js'
+import { LIBRARY_TREES_STATE_KEY } from './libraryTrees.js'
 
 const LEDGER = 'synapse-admin-content-ledger-v4'
 const GRAPH = 'synapse-concept-graph-v2'
@@ -45,6 +46,21 @@ const ADAPTERS = {
         essay: ['written'],
         histology: ['histology'],
       }[kind] ?? []),
+    }],
+  },
+  [LIBRARY_TREES_STATE_KEY]: {
+    collections: [{
+      name: 'trees',
+      // Each tree becomes an item whose id is its scope, so everything the role
+      // hierarchy already does per item — the tab check, the scope check, the
+      // conflict detection — applies to a tree without a line of new logic.
+      read: (document) => Object.entries(document?.trees ?? {}).map(([id, nodes]) => ({ id, nodes })),
+      write: (document, items) => ({
+        ...(document ?? {}),
+        trees: Object.fromEntries(items.map((item) => [item.id, item.nodes])),
+      }),
+      kindOf: () => 'libraryTree',
+      tabsFor: () => ['library'],
     }],
   },
   [GRAPH]: {

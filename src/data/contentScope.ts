@@ -22,6 +22,7 @@
 
 import type { ManagedContentItem } from './contentControl.ts'
 import type { Concept } from './conceptGraph.ts'
+import { parseTreeScope } from './libraryTrees.ts'
 
 /** The modules and years a reviewer may write. */
 export interface ContentScope {
@@ -29,7 +30,7 @@ export interface ContentScope {
   yearIds: string[]
 }
 
-export type ScopedKind = 'question' | 'article' | 'practical' | 'resource' | 'concept' | 'deck' | 'essay' | 'histology'
+export type ScopedKind = 'question' | 'article' | 'practical' | 'resource' | 'concept' | 'deck' | 'essay' | 'histology' | 'libraryTree'
 export type ScopedItem = ManagedContentItem | Concept
 
 interface ItemTags {
@@ -95,6 +96,17 @@ function tagsOf(kind: ScopedKind, item: ScopedItem | null): ItemTags {
       moduleIds: [...list(tags.moduleIds), ...list(tags.moduleSubjectPaths).map(moduleOfPath).filter(Boolean)],
       years: list(tags.years),
       universityIds: list(tags.universityIds),
+    }
+  }
+  if (kind === 'libraryTree') {
+    // A tree carries no tags of its own: the key it is stored under is its
+    // placement, and that is the whole of it.
+    const scope = parseTreeScope(record.id)
+    if (!scope) return { moduleIds: [], years: [], universityIds: [] }
+    return {
+      moduleIds: scope.kind === 'module' ? [scope.id] : [],
+      years: scope.kind === 'year' ? [scope.id] : [],
+      universityIds: [],
     }
   }
   if (kind === 'concept') {

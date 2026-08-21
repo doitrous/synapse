@@ -23,6 +23,8 @@
  * Internship years are deliberately not numbers: "OMS_INT1" is not year 1, and
  * treating it as one would hand a first-year reviewer the interns.
  */
+import { parseTreeScope } from './libraryTrees.js'
+
 export function yearNumber(value) {
   if (typeof value === 'number') return Number.isInteger(value) && value > 0 ? value : null
   const text = String(value ?? '').trim()
@@ -67,6 +69,18 @@ function tagsOf(kind, item) {
       moduleIds: [...list(tags.moduleIds), ...list(tags.moduleSubjectPaths).map(moduleOfPath).filter(Boolean)],
       years: list(tags.years),
       universityIds: list(tags.universityIds),
+    }
+  }
+  if (kind === 'libraryTree') {
+    // A tree carries no tags of its own: the key it is stored under is its
+    // placement, and that is the whole of it. `module:MOD_CVS` is the
+    // cardiovascular module's tree and nothing else's.
+    const scope = parseTreeScope(item.id)
+    if (!scope) return { moduleIds: [], years: [], universityIds: [] }
+    return {
+      moduleIds: scope.kind === 'module' ? [scope.id] : [],
+      years: scope.kind === 'year' ? [scope.id] : [],
+      universityIds: [],
     }
   }
   if (kind === 'concept') {
