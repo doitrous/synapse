@@ -149,13 +149,37 @@ if (kind === 'question') {
     const siblingRows = parseMarkdown(await readFile(sibling, 'utf8'))
     const siblingKind = detectKind(siblingRows[0] ?? {})
     for (const row of siblingRows) {
-      if (!row.id?.trim()) continue
-      if (siblingKind === 'concept') concepts.set(row.id.trim(), { id: row.id.trim(), publicationStatus: row.publication_status?.trim(), pending: sibling })
-      if (siblingKind === 'article') articles.set(row.id.trim(), { id: row.id.trim(), status: row.status ?? 'Draft', pending: sibling })
-      if (siblingKind === 'resource') resources.add(row.id.trim())
+      const id = row.id?.trim()
+      if (!id) continue
+      if (siblingKind === 'concept') {
+        concepts.set(id, { id, publicationStatus: row.publication_status?.trim(), articleIds: [], pending: sibling })
+      }
+      if (siblingKind === 'article') {
+        articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
+      }
+      if (siblingKind === 'resource') resources.add(id)
     }
     notes.push(`${sibling}: ${siblingRows.length} ${siblingKind} rows treated as pending import`)
   }
+
+  // An article's `related_concepts` is what puts its ID on the concept record
+  // at import. A concept and an article both waiting to be imported would
+  // otherwise look, to the coverage check, like a concept nothing teaches — so
+  // the same link is made here, from the article side, exactly as the importer
+  // makes it.
+  for (const sibling of alongside) {
+    const siblingRows = parseMarkdown(await readFile(sibling, 'utf8'))
+    if (detectKind(siblingRows[0] ?? {}) !== 'article') continue
+    for (const row of siblingRows) {
+      const articleId = row.id?.trim()
+      if (!articleId) continue
+      for (const conceptId of (row.related_concepts ?? '').split(/[|;\n]/).map((id) => id.trim()).filter(Boolean)) {
+        const concept = concepts.get(conceptId)
+        if (concept) concept.articleIds = [...new Set([...(concept.articleIds ?? []), articleId])]
+      }
+    }
+  }
+
 
   const known = new Set(IMPORT_SCHEMAS.question.fields.map((field) => field.key))
   const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']

@@ -24,7 +24,7 @@ CON-HEM-5724364F46CD5A
 ## canonical_key
 eosinophil-versus-neutrophil-light-microscopy
 ## definition
-Neutrophils are the commonest leukocyte at 60–70% of the differential count, with a nucleus of two to five lobes and fine granules that take neither dye strongly. Eosinophils are 2–4%, with a characteristically bilobed nucleus and coarse granules that stain deeply with eosin.
+Neutrophils are the commonest leukocyte at 60–70% of the differential count, with a nucleus of two to five lobes and fine granules that take neither dye strongly. Eosinophils are 1–4%, with a characteristically bilobed nucleus and coarse granules that stain deeply with eosin.
 ## explicit_objective
 Distinguish eosinophils from neutrophils on a stained film by differential count, nuclear shape and granule staining.
 ## pitfalls
@@ -48,7 +48,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p1 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -98,7 +98,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p2 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p2 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -148,7 +148,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p2 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p2 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -198,7 +198,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p3 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p3 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -248,7 +248,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p4 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p4 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -298,7 +298,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p5 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p5 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -348,7 +348,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p7 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p7 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -398,7 +398,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p8 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p8 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -448,7 +448,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p9 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p9 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -498,7 +498,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p10 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p10 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -548,7 +548,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p11 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p11 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -598,7 +598,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p12 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p12 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -648,7 +648,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p13 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p13 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -698,7 +698,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p14 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p14 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -748,7 +748,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p15 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p15 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode
@@ -798,7 +798,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_kau_y1_101_eoy_199 | end_of_year | 2025 | p15 | 101 ISK
+src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p15 | 101 ISK
 ## weight_confidence
 0.7
 ## support_mode

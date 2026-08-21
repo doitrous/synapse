@@ -1,0 +1,67 @@
+# The authored content under `docs/Kasr-Source-Imports/`.
+#
+# The web workflow ignores `docs/**` and `**/*.md`, which was right when docs
+# were prose. They are not any more: the extraction programme puts thousands of
+# exam questions there as Markdown batches, and a batch that fails the importer
+# fails silently at 2am in an admin's browser rather than loudly on a pull
+# request. This job is that pull request.
+#
+# It is deliberately not the web job with a wider trigger. A README edit should
+# not run `vite build`; a batch edit should not need to.
+name: Content
+
+on:
+  pull_request:
+    paths: ['docs/Kasr-Source-Imports/**', 'scripts/kasr/**', 'scripts/validate-content-batch.mjs']
+  push:
+    branches: [main]
+    paths: ['docs/Kasr-Source-Imports/**', 'scripts/kasr/**', 'scripts/validate-content-batch.mjs']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: content-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Citations and batches
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - run: npm ci
+
+      # Every `src_`-prefixed token under the import root must name a real
+      # manifest row. Two shipped documents cited IDs that named no file, and
+      # nothing noticed because a citation is only load-bearing when a reviewer
+      # tries to follow it — by which point they cannot find the page.
+      - name: Manifest citations
+        run: npm run medical:citations
+
+      # Concepts first: a question resolves its concept against what exists, so
+      # the concept batch has to be a sibling the question batch can be told
+      # about with `--with`.
+      - name: Validate every batch
+        run: |
+          set -e
+          concepts=$(ls docs/Kasr-Source-Imports/concept/*.md 2>/dev/null || true)
+          articles=$(ls docs/Kasr-Source-Imports/article/*.md 2>/dev/null || true)
+          siblings=""
+          for file in $concepts $articles; do siblings="$siblings --with $file"; done
+
+          failed=0
+          for file in docs/Kasr-Source-Imports/*/*.md; do
+            case "$file" in
+              */manifest/*|*/INDEX.md|*/academic/*|*/coverage/*|*/media-requests/*) continue ;;
+            esac
+            echo "--- $file"
+            npm run -s medical:batch -- "$file" $siblings || failed=1
+          done
+          exit $failed

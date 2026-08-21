@@ -10,7 +10,7 @@ import type { Paper, Scheme, Seed, SourceRef } from './types.ts'
 
 /** The manifest row this paper is. */
 export const SOURCE: SourceRef = {
-  id: 'src_kau_y1_101_eoy_199',
+  id: 'src_8cb257f4b6a6dcd730d0',
   file: 'EOY (ISK - 101) 199 (1).pdf',
   sittingYear: 2025,
   tier: 'end_of_year',
@@ -24,7 +24,7 @@ export const SEEDS: Seed[] = [
     asked: 'Compare between Eosinophils & Neutrophils regarding (Differential count, Shape of nucleus and LM cytoplasmic granules).',
     label: 'Eosinophils and neutrophils are told apart by count, nuclear lobes and granule staining',
     key: 'eosinophil-versus-neutrophil-light-microscopy',
-    definition: 'Neutrophils are the commonest leukocyte at 60–70% of the differential count, with a nucleus of two to five lobes and fine granules that take neither dye strongly. Eosinophils are 2–4%, with a characteristically bilobed nucleus and coarse granules that stain deeply with eosin.',
+    definition: 'Neutrophils are the commonest leukocyte at 60–70% of the differential count, with a nucleus of two to five lobes and fine granules that take neither dye strongly. Eosinophils are 1–4%, with a characteristically bilobed nucleus and coarse granules that stain deeply with eosin.',
     objective: 'Distinguish eosinophils from neutrophils on a stained film by differential count, nuclear shape and granule staining.',
     pitfall: 'Counting lobes alone. A young neutrophil may be bilobed; the granules, not the nucleus, are what settle it.',
     subject: 'haem', primary: 'DIS-HIS-T02', secondary: ['SYS-HEM-T01-S01-M02'],
@@ -219,7 +219,7 @@ export const SCHEMES: Record<string, Scheme> = {
     prompt: 'Compare eosinophils and neutrophils by differential count, shape of the nucleus, and the appearance of the cytoplasmic granules on light microscopy.',
     expects: [
       'Neutrophils are 60–70% of the differential count',
-      'Eosinophils are 2–4% of the differential count',
+      'Eosinophils are 1–4% of the differential count',
       'The neutrophil nucleus has two to five lobes',
       'The eosinophil nucleus is characteristically bilobed',
       'Neutrophil granules are fine and take neither dye strongly',
