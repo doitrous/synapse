@@ -125,7 +125,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-4A7294C9E808 | CLM-192992AB4F58
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -173,6 +173,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -261,7 +262,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-A7EAA4FFE57A | CLM-8E03625DC54E
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -309,6 +310,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -398,7 +400,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-8BCF4C1A82D0
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -446,6 +448,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -535,7 +538,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-AF4E6AD46EA2 | CLM-02442E6933D4
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -583,6 +586,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -674,7 +678,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-AC5DD85957A8 | CLM-0013FE57E973
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -722,6 +726,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -812,7 +817,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-CA090CD6BD21 | CLM-1F498C9A39D5
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -860,6 +865,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -951,7 +957,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-50CDBD05AC9D | CLM-F093E67B63A1
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -999,6 +1005,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1088,7 +1095,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-B225441F16DE | CLM-6856A1B10E0E
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1136,6 +1143,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1225,7 +1233,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-E0980A526ABD | CLM-235D7D9980D0 | CLM-46F220342DB0
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1273,6 +1281,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1360,7 +1369,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-F1FA7F00D06B | CLM-76E6418935A8
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1408,6 +1417,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1495,7 +1505,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-78572F33D7B4 | CLM-EF111D365BB3
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1543,6 +1553,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1633,7 +1644,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-72DE1AE17BA1 | CLM-9AD1E185441F
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1681,6 +1692,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1771,7 +1783,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-DC0E308A3C70 | CLM-6ADAF4EDEFB6 | CLM-BA80C6B966E8
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1819,6 +1831,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -1909,7 +1922,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-ABC6CA1FEC07 | CLM-7F681C2EFE6B
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1957,6 +1970,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2048,7 +2062,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-6A316C719A40 | CLM-9C45060F8E5E
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2096,6 +2110,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2184,7 +2199,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-F2FE38EB817F | CLM-96F0CAA58ECB
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2233,6 +2248,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 articleIds: No article has been written for Cytology > Nucleus yet. The six histology articles cover Cytoplasm, Blood granular leukocytes, Blood platelets, Connective tissue cells, Surface epithelium and Membranous specialisations; this concept waits for the nucleus article rather than being tagged to one that does not teach it.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2325,7 +2341,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-C2EACD1B5515 | CLM-12F12C06B63D
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2374,6 +2390,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Cytology > Nucleus yet. The six histology articles cover Cytoplasm, Blood granular leukocytes, Blood platelets, Connective tissue cells, Surface epithelium and Membranous specialisations; this concept waits for the nucleus article rather than being tagged to one that does not teach it.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2467,7 +2484,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-D96270215FDD | CLM-511C0120E363
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2516,6 +2533,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Cytology > Nucleus yet. The six histology articles cover Cytoplasm, Blood granular leukocytes, Blood platelets, Connective tissue cells, Surface epithelium and Membranous specialisations; this concept waits for the nucleus article rather than being tagged to one that does not teach it.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2609,7 +2627,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-AC40AF522D56 | CLM-844A3696A9B4 | CLM-EE8CCAEBFDAF
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2658,6 +2676,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: This slide spans red cells, granular leukocytes and platelets at once, and no single article teaches the film as a preparation; it is left untagged rather than attached to the one article that covers a third of it.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2747,7 +2766,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-953E853A139F | CLM-094DC5EF7B2F
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2795,6 +2814,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -2885,7 +2905,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-C5E18F755432 | CLM-A0CA91E5DB91
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2933,6 +2953,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3025,7 +3046,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-0D36CBF7E1AB | CLM-BB3BC7B0813F | CLM-6CA73E077F84
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3074,6 +3095,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Blood > Non granular leukocytes yet; the granular-leukocyte article covers the other three cells and does not teach this one.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3164,7 +3186,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-A85A8FEBB3FC | CLM-9EFE627A47B2
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3212,6 +3234,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3303,7 +3326,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-418454C5625E | CLM-FB8B221EC344
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3352,6 +3375,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Blood > Red Blood Corpuscles yet; tagging this to the granular-leukocyte article would claim coverage that article does not give.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3442,7 +3466,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-175DE250251F | CLM-A783DF9C16BB | CLM-C02499778CF6
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3491,6 +3515,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Blood > Haemopoiesis yet.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3582,7 +3607,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-E8609222DE56 | CLM-2FF5551348E8
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3630,6 +3655,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Blood > Haemopoiesis yet.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3720,7 +3746,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-028422CC2117 | CLM-B3C48E4FB0FF
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3768,6 +3794,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3855,7 +3882,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-3A0335A796EC | CLM-36F81F0B6929 | CLM-272BFA805017 | CLM-9EC02F6EEEF8 | CLM-D4724C34042D | CLM-C461FB8AA1B0
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3903,6 +3930,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -3993,7 +4021,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-409630D47C02 | CLM-0804C2DF54EB
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4041,6 +4069,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4133,7 +4162,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-CC9470AE7C9A | CLM-3CC1741CE53B | CLM-62C427013E01
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4181,6 +4210,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4273,7 +4303,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-B71E5410B751 | CLM-0F1EFDEEB6C7 | CLM-FD3D151A2CCF
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4322,6 +4352,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Connective Tissue Fibres yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4413,7 +4444,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-073310CA54A9 | CLM-78C99C71D6F5 | CLM-7BF739AF77E0
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4462,6 +4493,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Connective Tissue Fibres yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4553,7 +4585,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-DB463F8F93F8 | CLM-B219B60A4301
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4602,6 +4634,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4693,7 +4726,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-2C090FC11C7F | CLM-03C2C86731A5
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4742,6 +4775,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4833,7 +4867,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-1F5E874D820B | CLM-2F05853BA172
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4882,6 +4916,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -4975,7 +5010,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-00595A53E65D | CLM-0785D3FD3F0D
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5024,6 +5059,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -5112,7 +5148,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-5636F519D1CC | CLM-455AC71857D8
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5161,6 +5197,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 articleIds: No article has been written for Connective Tissue > Types of Connective Tissue Proper yet; the connective-tissue article covers the cells only.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -5253,7 +5290,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-D19467ED6115 | CLM-B5873445E798
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5301,6 +5338,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -5394,7 +5432,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-51A288E04048 | CLM-D3010F08C9FB
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5442,6 +5480,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -5532,7 +5571,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-C2AF9483B8CE | CLM-B75EBF5DDD84
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5580,6 +5619,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -5671,7 +5711,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-6F004981E420 | CLM-9EED68AF159A
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5719,6 +5759,7 @@ lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -5806,7 +5847,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-5498AD6516DE | CLM-47EDFE45053D
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5854,6 +5895,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
 uncertainty: See evidence_gaps — the identification is certain, the wording the examiner would accept is not.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting; the tier is department_book because EXAM_SOURCE_TIERS has no "formative".
+
 ---
 
 # Item
@@ -5946,7 +5988,7 @@ src_b4cb8bf9f0c7a6584b4b | src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-63C0F465AEAE | CLM-A2259B805595
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
