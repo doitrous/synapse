@@ -86,7 +86,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -114,15 +114,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -217,7 +217,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -245,15 +245,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -348,7 +348,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -376,15 +376,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -482,7 +482,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -510,15 +510,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -613,7 +613,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -641,15 +641,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -744,7 +744,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -772,15 +772,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -875,7 +875,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -903,15 +903,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1006,7 +1006,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1034,15 +1034,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1137,7 +1137,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1165,15 +1165,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1270,7 +1270,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1298,15 +1298,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1402,7 +1402,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1430,15 +1430,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1535,7 +1535,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1563,15 +1563,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1667,7 +1667,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1695,15 +1695,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1799,7 +1799,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1827,15 +1827,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1932,7 +1932,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1960,15 +1960,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2066,7 +2066,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2094,15 +2094,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2199,7 +2199,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2227,15 +2227,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2331,7 +2331,7 @@ direct_statement
 ## evidence_gaps
 The book names internal fascia as a third kind of fascia and then does not describe it, so a student asked to contrast deep with internal fascia has nothing in the department text to answer from.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2359,15 +2359,15 @@ The book names internal fascia as a third kind of fascia and then does not descr
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2464,7 +2464,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2492,15 +2492,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2597,7 +2597,7 @@ The paper prints "Fertlization". The misspelling is the paper's and is kept in `
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2625,15 +2625,15 @@ The paper prints "Fertlization". The misspelling is the paper's and is kept in `
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2730,7 +2730,7 @@ The department book carries abnormal sites of implantation in its Second Week ch
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2758,15 +2758,15 @@ The department book carries abnormal sites of implantation in its Second Week ch
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2862,7 +2862,7 @@ The paper prints its mark marker twice on this question — "{5 Marks}. {5 Marks
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2890,15 +2890,15 @@ The paper prints its mark marker twice on this question — "{5 Marks}. {5 Marks
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2994,7 +2994,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3022,15 +3022,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3125,7 +3125,7 @@ The book's own chapter note says the ILO promises the course and branches of the
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3153,15 +3153,15 @@ The book's own chapter note says the ILO promises the course and branches of the
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3257,7 +3257,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3285,15 +3285,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3388,7 +3388,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3416,15 +3416,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3521,7 +3521,7 @@ Subpart (b) asks what movements would be affected "following paralysis of these 
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3549,15 +3549,15 @@ Subpart (b) asks what movements would be affected "following paralysis of these 
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3653,7 +3653,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3681,15 +3681,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3785,7 +3785,7 @@ direct_statement
 ## evidence_gaps
 The book's Golgi section carries its "Functions:" heading with the content entirely inside an unextractable figure, so the functions of the Golgi are not available as department text. This question asks only for site, stains and light-microscopic picture, all of which are in the text.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3813,15 +3813,15 @@ The book's Golgi section carries its "Functions:" heading with the content entir
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3916,7 +3916,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3944,15 +3944,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4047,7 +4047,7 @@ direct_statement
 ## evidence_gaps
 The paper's table asks for Origin, Site and L.M. The book gives the origin (both from the undifferentiated mesenchymal cell) and the light-microscopic pictures, and gives the "site" only as the tissue each cell forms — white adipose connective tissue against brown adipose connective tissue. It names no body sites for brown fat, so the Site row is answered at the level the book supports and no further.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4075,15 +4075,15 @@ The paper's table asks for Origin, Site and L.M. The book gives the origin (both
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4179,7 +4179,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4207,15 +4207,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4310,7 +4310,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4338,15 +4338,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4442,7 +4442,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4470,15 +4470,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4574,7 +4574,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4602,15 +4602,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4706,7 +4706,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4734,15 +4734,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4837,7 +4837,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4865,15 +4865,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4969,7 +4969,7 @@ direct_statement
 ## evidence_gaps
 The book defines the cubital fossa and gives its floor, roof and contents, and its classification list names "Boundaries of the cubital fossa", but the three boundaries themselves — brachioradialis, pronator teres and the line between the epicondyles — are not present as text in the extracted chapter. The scheme asks for them and marks the parts the book supports.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4997,15 +4997,15 @@ The book defines the cubital fossa and gives its floor, roof and contents, and i
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5100,7 +5100,7 @@ New key, minted here. `clusters.json` has no objective for the movements of the 
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5128,15 +5128,15 @@ New key, minted here. `clusters.json` has no objective for the movements of the 
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5231,7 +5231,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5259,15 +5259,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5363,7 +5363,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5391,15 +5391,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5495,7 +5495,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5523,15 +5523,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5626,7 +5626,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5654,15 +5654,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5758,7 +5758,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5786,15 +5786,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5889,7 +5889,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5917,15 +5917,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6020,7 +6020,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6048,15 +6048,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6152,7 +6152,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6180,15 +6180,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6283,7 +6283,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6311,15 +6311,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6414,7 +6414,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6442,15 +6442,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6545,7 +6545,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6573,15 +6573,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6676,7 +6676,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6704,15 +6704,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6807,7 +6807,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6835,15 +6835,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -6939,7 +6939,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -6967,15 +6967,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7071,7 +7071,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7099,15 +7099,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7202,7 +7202,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7230,15 +7230,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7333,7 +7333,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7361,15 +7361,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7464,7 +7464,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7492,15 +7492,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7595,7 +7595,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7623,15 +7623,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7726,7 +7726,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7754,15 +7754,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7858,7 +7858,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -7886,15 +7886,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -7989,7 +7989,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8017,15 +8017,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8120,7 +8120,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8148,15 +8148,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8251,7 +8251,7 @@ New key, minted here. `clusters.json` has no objective for the anastomosis aroun
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8279,15 +8279,15 @@ New key, minted here. `clusters.json` has no objective for the anastomosis aroun
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8382,7 +8382,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8410,15 +8410,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8513,7 +8513,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8541,15 +8541,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8644,7 +8644,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8672,15 +8672,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8775,7 +8775,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8803,15 +8803,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -8906,7 +8906,7 @@ New key, minted here. `clusters.json` has an objective for the T lymphocyte (`t-
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -8934,15 +8934,15 @@ New key, minted here. `clusters.json` has an objective for the T lymphocyte (`t-
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -9037,7 +9037,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -9065,15 +9065,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -9168,7 +9168,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -9196,15 +9196,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -9299,7 +9299,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -9327,15 +9327,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status

@@ -110,8 +110,30 @@ ${conceptTail()}`
  * for one kind of concept and not another is an authoring accident, not a
  * decision.
  *
- * Nineteen of these keys carry `[clear]`, and the distinction is the whole
- * point. `medical:audit` asks two questions of every field: is it populated,
+ * `[clear]` means "present and deliberately empty" — **on a list column only**.
+ * On a text column the importer stores the literal string, so emitting it for
+ * `reviewer` gave every concept a reviewer named `[clear]`, which satisfies the
+ * audit by accident and tells a reader nothing. The six text columns here are a
+ * real value or nothing: `materialiseNewConcept` fills `arabicLabel`,
+ * `lastReviewed`, `reviewDue` and `exclusionReason` as null whether the key is
+ * written or not, so presence is satisfied without writing anything.
+ *
+ * `reviewer` and `finalPublisher` are different again: they are on
+ * `conceptPopulated`, which takes no `field_notes` excuse, so an empty one is an
+ * audit error — and §10's gate is the audit at zero, so `[clear]` there is not
+ * a worse metric, it is a batch that cannot ship.
+ *
+ * The strings are sentinels and are deliberately identical across every lane in
+ * this programme: a sentinel only works if it is greppable, and the point is
+ * that a real reviewer's name replacing one is visible. They assert nothing
+ * false — nobody has reviewed or published any of this — and unlike an empty
+ * field they are distinguishable from one nobody filled in.
+ *
+ * A parallel lane first filled these with team names, which would have had
+ * every concept assert a review that did not happen, to the very reviewer this
+ * content is going to.
+ *
+ * The rest carry `[clear]`, and that distinction is the whole point. `medical:audit` asks two questions of every field: is it populated,
  * and does the key exist at all. Writing a `field_notes` reason answers the
  * first and fails the second, because a key that was never emitted reports as
  * *absent* rather than as deliberately empty — and an empty `## key` block
@@ -127,7 +149,7 @@ ${conceptTail()}`
  */
 function conceptTail(): string {
   return `## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -155,15 +177,15 @@ function conceptTail(): string {
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status

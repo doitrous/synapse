@@ -104,7 +104,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -132,15 +132,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -238,7 +238,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -266,15 +266,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -373,7 +373,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -401,15 +401,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -508,7 +508,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -536,15 +536,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -645,7 +645,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -673,15 +673,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -781,7 +781,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -809,15 +809,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -918,7 +918,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -946,15 +946,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1053,7 +1053,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1081,15 +1081,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1188,7 +1188,7 @@ direct_statement
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1216,15 +1216,15 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1321,7 +1321,7 @@ direct_statement
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1349,15 +1349,15 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1454,7 +1454,7 @@ direct_statement
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1482,15 +1482,15 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1590,7 +1590,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1618,15 +1618,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1726,7 +1726,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1754,15 +1754,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1862,7 +1862,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -1890,15 +1890,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -1999,7 +1999,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2027,15 +2027,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2132,7 +2132,7 @@ direct_statement
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2160,15 +2160,15 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2270,7 +2270,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2298,15 +2298,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2409,7 +2409,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2437,15 +2437,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2548,7 +2548,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2576,15 +2576,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2684,7 +2684,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2712,15 +2712,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2820,7 +2820,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2848,15 +2848,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -2957,7 +2957,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -2985,15 +2985,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3094,7 +3094,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3122,15 +3122,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3230,7 +3230,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3258,15 +3258,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3366,7 +3366,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3394,15 +3394,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3504,7 +3504,7 @@ CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the l
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3532,15 +3532,15 @@ CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the l
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3640,7 +3640,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3668,15 +3668,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3773,7 +3773,7 @@ direct_statement
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3801,15 +3801,15 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -3909,7 +3909,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -3937,15 +3937,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4047,7 +4047,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4075,15 +4075,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4184,7 +4184,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4212,15 +4212,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4321,7 +4321,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4349,15 +4349,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4458,7 +4458,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4486,15 +4486,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4595,7 +4595,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4623,15 +4623,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4732,7 +4732,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4760,15 +4760,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -4871,7 +4871,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -4899,15 +4899,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5005,7 +5005,7 @@ direct_statement
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5033,15 +5033,15 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5144,7 +5144,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5172,15 +5172,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5283,7 +5283,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5311,15 +5311,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5419,7 +5419,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5447,15 +5447,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5556,7 +5556,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5584,15 +5584,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5689,7 +5689,7 @@ direct_statement
 ## evidence_gaps
 This slide is a titled teaching plate: the book prints its caption but sets no marked question on it, so what the examiner accepts as a visible character is taken from the caption and from Prof. Dalia El Marakby's departmental handout rather than from a model answer page.
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5717,15 +5717,15 @@ This slide is a titled teaching plate: the book prints its caption but sets no m
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status
@@ -5827,7 +5827,7 @@ direct_statement
 ## evidence_gaps
 [clear]
 ## arabic_label
-[clear]
+
 ## arabic_aliases
 [clear]
 ## microtopic
@@ -5855,15 +5855,15 @@ direct_statement
 ## rejected_merge_candidate_ids
 [clear]
 ## exclusion_reason
-[clear]
+
 ## reviewer
-[clear]
+Unassigned — no faculty reviewer has seen this yet
 ## final_publisher
-[clear]
+Unassigned — not published; it has not passed the evidence gate
 ## last_reviewed
-[clear]
+
 ## review_due
-[clear]
+
 ## owner
 Claude
 ## publication_status

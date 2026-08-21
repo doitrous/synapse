@@ -34,6 +34,20 @@ const POPULATED = [
   'atomicClaimIds', 'supportMode', 'confidence', 'originalWording', 'owner', 'reviewer',
   'finalPublisher', 'publicationStatus', 'editorialReviewStatus', 'weightConfidence', 'fieldNotes',
 ]
+/**
+ * The only fields the audit lets a `field_notes` reason excuse.
+ *
+ * `conceptPopulated` does NOT take one — `requirePaths` runs bare `hasValue`.
+ * My first version of this check allowed a note for any populated field, which
+ * made it *more lenient than the audit it emulates*: it said green where the
+ * real thing says red, which is the worst thing a check can do.
+ */
+const NOTE_EXCUSES = [
+  'arabicLabel', 'aliases', 'pitfalls', 'moduleIds', 'microtopicId', 'nanotopicId',
+  'approvedFileResourceIds', 'approvedVideoResourceIds', 'lastReviewed', 'reviewDue',
+  'resourceOccurrenceIds', 'sourceCandidateIds',
+]
+
 const PRESENT = [
   'systemId', 'topicTagId', 'subtopicId', 'microtopicId', 'nanotopicId', 'secondaryNodeIds',
   'relatedConceptIds', 'moduleIds', 'aliases', 'arabicLabel', 'arabicAliases', 'pitfalls',
@@ -72,7 +86,8 @@ for (const file of process.argv.slice(2)) {
       if (!(key in concept) || concept[key] === undefined) (absent[key] ??= []).push(concept.id)
     }
     for (const key of POPULATED) {
-      if (isEmpty(concept[key]) && !concept.fieldNotes?.[key]) (unpopulated[key] ??= []).push(concept.id)
+      const excused = NOTE_EXCUSES.includes(key) && concept.fieldNotes?.[key]
+      if (isEmpty(concept[key]) && !excused) (unpopulated[key] ??= []).push(concept.id)
     }
   }
 
