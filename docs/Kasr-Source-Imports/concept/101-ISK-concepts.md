@@ -6,10 +6,11 @@
     EOY 195 first 2022 101 ISK final (1).pdf — end of year 2022, 19 questions
     EOY 195 first 2022  101 ISK  final module (1).pdf — resit 2022, 17 questions
     EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — resit 2024, 16 questions
+    EOY BAQOON 197 دور تاني.pdf — resit 2023, 13 questions
     EOY Anatomy cases 1st year 2025-1 (2).pdf — formative 2025, 11 questions
 
-  65 concepts from 96 questions.
-  27 of them were asked on more than one paper, and carry an exam_signal
+  71 concepts from 109 questions.
+  31 of them were asked on more than one paper, and carry an exam_signal
   line per sitting: repetition is the strongest blueprint evidence this corpus
   holds, and it only exists once the papers are read together.
 
@@ -979,18 +980,19 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p11 | 101 ISK
+src_f3d7ac13bbc97156212f | resit | 2023 | p2 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.09
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.09
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -1653,6 +1655,8 @@ Anatomy
 Basis of Anatomy
 ## aliases
 Fascia profunda | Investing layer of deep fascia
+## article_ids
+ART-101-ANA-DEEP-FASCIA
 ## support_mode
 direct_statement
 ## original_wording
@@ -1726,12 +1730,13 @@ kau
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
 src_1641d3629225bb111726 | resit | 2022 | p6 | 101 ISK
+src_f3d7ac13bbc97156212f | resit | 2023 | p8 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.10
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.10
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1744,6 +1749,8 @@ Anatomy
 Basis of Anatomy
 ## aliases
 Synarthrosis
+## article_ids
+ART-101-ANA-FIBROUS-JOINTS
 ## support_mode
 direct_statement
 ## original_wording
@@ -1817,12 +1824,13 @@ kau
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
 src_530685004e73e670a4ed | resit | 2024 | p3 | 101 ISK
+src_f3d7ac13bbc97156212f | resit | 2023 | p9 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.10
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.10
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1835,6 +1843,8 @@ Anatomy
 General Embryology
 ## aliases
 Conception
+## article_ids
+ART-101-ANA-FERTILIZATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -1908,12 +1918,13 @@ kau
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p1 | 101 ISK
 src_1641d3629225bb111726 | resit | 2022 | p8 | 101 ISK
+src_f3d7ac13bbc97156212f | resit | 2023 | p10 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.10
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.10
+KAU_Y1=0.13
 ## clinical_relevance
 0.8
 ## academic_relevance
@@ -1926,6 +1937,8 @@ Anatomy
 General Embryology
 ## aliases
 Ectopic pregnancy | Placenta previa
+## article_ids
+ART-101-ANA-IMPLANTATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -2017,6 +2030,8 @@ Anatomy
 General Embryology
 ## aliases
 Omphalocele | Single umbilical artery
+## article_ids
+ART-101-ANA-UMBILICAL-CORD
 ## support_mode
 direct_statement
 ## original_wording
@@ -2108,6 +2123,8 @@ Anatomy
 Upper Limb
 ## aliases
 Deltoideus
+## article_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -2198,6 +2215,8 @@ Anatomy
 Upper Limb
 ## aliases
 Lateral cutaneous nerve of the forearm
+## article_ids
+ART-101-ANA-MUSCULOCUTANEOUS-NERVE
 ## support_mode
 direct_statement
 ## original_wording
@@ -2270,24 +2289,27 @@ kau
 1
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p3 | 101 ISK
+src_f3d7ac13bbc97156212f | resit | 2023 | p6 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.07
+0.10
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.10
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
 Upper Limb
 ## aliases
 Arteria brachialis
+## article_ids
+ART-101-ANA-BRACHIAL-ARTERY
 ## support_mode
 direct_statement
 ## original_wording
@@ -2378,6 +2400,8 @@ Anatomy
 Upper Limb
 ## aliases
 SC joint
+## article_ids
+ART-101-ANA-STERNOCLAVICULAR-JOINT
 ## support_mode
 direct_statement
 ## original_wording
@@ -2470,6 +2494,8 @@ Anatomy
 Upper Limb
 ## aliases
 Wrist drop | Saturday night palsy
+## article_ids
+ART-101-ANA-RADIAL-NERVE
 ## support_mode
 direct_statement
 ## original_wording
@@ -2561,6 +2587,8 @@ Anatomy
 Upper Limb
 ## aliases
 Wrist laceration | Suicidal wrist cut
+## article_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## support_mode
 direct_statement
 ## original_wording
@@ -3448,24 +3476,27 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p4 | 101 ISK
+src_f3d7ac13bbc97156212f | resit | 2023 | p5 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.07
+0.10
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.10
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
 Upper Limb
 ## aliases
 Antecubital fossa
+## article_ids
+ART-101-ANA-CUBITAL-FOSSA
 ## support_mode
 direct_statement
 ## original_wording
@@ -3556,6 +3587,8 @@ Anatomy
 Upper Limb
 ## aliases
 Scapular movements | Pectoral girdle movements
+## article_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -3646,6 +3679,8 @@ Anatomy
 Upper Limb
 ## aliases
 Arteria ulnaris
+## article_ids
+ART-101-ANA-ULNAR-ARTERY
 ## support_mode
 direct_statement
 ## original_wording
@@ -3718,24 +3753,27 @@ kau
 1
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p7 | 101 ISK
+src_f3d7ac13bbc97156212f | resit | 2023 | p4 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.07
+0.10
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.10
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
 Upper Limb
 ## aliases
 Plexus brachialis
+## article_ids
+ART-101-ANA-BRACHIAL-PLEXUS
 ## support_mode
 direct_statement
 ## original_wording
@@ -3827,6 +3865,8 @@ Anatomy
 Upper Limb
 ## aliases
 Supinator | Biceps brachii
+## article_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -3917,6 +3957,8 @@ Anatomy
 Basis of Anatomy
 ## aliases
 Diarthrosis
+## article_ids
+ART-101-ANA-SYNOVIAL-JOINTS
 ## support_mode
 direct_statement
 ## original_wording
@@ -4008,6 +4050,8 @@ Anatomy
 Basis of Anatomy
 ## aliases
 Subcutaneous tissue | Hypodermis
+## article_ids
+ART-101-ANA-DEEP-FASCIA
 ## support_mode
 direct_statement
 ## original_wording
@@ -4098,6 +4142,8 @@ Anatomy
 General Embryology
 ## aliases
 Liquor amnii
+## article_ids
+ART-101-ANA-AMNIOTIC-FLUID
 ## support_mode
 direct_statement
 ## original_wording
@@ -4188,6 +4234,8 @@ Anatomy
 General Embryology
 ## aliases
 Cephalo-caudal folding | Lateral folding | Primitive umbilical ring
+## article_ids
+ART-101-ANA-EMBRYONIC-FOLDING
 ## support_mode
 direct_statement
 ## original_wording
@@ -4279,6 +4327,8 @@ Anatomy
 General Embryology
 ## aliases
 Velamentous placenta | Battledore placenta | Placenta membranacea | Placenta accreta
+## article_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## support_mode
 direct_statement
 ## original_wording
@@ -4459,6 +4509,8 @@ Anatomy
 Upper Limb
 ## aliases
 Gleno-humeral joint | Coraco-acromial arch
+## article_ids
+ART-101-ANA-SHOULDER-JOINT
 ## support_mode
 direct_statement
 ## original_wording
@@ -4549,6 +4601,8 @@ Anatomy
 Upper Limb
 ## aliases
 Scapular anastomosis | Collateral circulation of the scapula
+## article_ids
+ART-101-ANA-SCAPULAR-ANASTOMOSIS
 ## support_mode
 direct_statement
 ## original_wording
@@ -4639,6 +4693,8 @@ Anatomy
 Upper Limb
 ## aliases
 Armpit | Axillary contents
+## article_ids
+ART-101-ANA-AXILLA-BREAST
 ## support_mode
 direct_statement
 ## original_wording
@@ -4729,6 +4785,8 @@ Anatomy
 General Embryology
 ## aliases
 Sclerotome | Dermomyotome | Myotome | Paraxial mesoderm
+## article_ids
+ART-101-ANA-PARAXIAL-MESODERM
 ## support_mode
 direct_statement
 ## original_wording
@@ -4820,6 +4878,8 @@ Anatomy
 Upper Limb
 ## aliases
 Fractured clavicle | Collar bone fracture
+## article_ids
+ART-101-ANA-CLAVICLE
 ## support_mode
 direct_statement
 ## original_wording
@@ -4911,6 +4971,8 @@ Anatomy
 Upper Limb
 ## aliases
 Ulnar claw hand | Ulnar paradox
+## article_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5001,6 +5063,8 @@ Anatomy
 Upper Limb
 ## aliases
 Quadrangular space | Triangular interval | Spaces below the shoulder joint
+## article_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -5091,6 +5155,8 @@ Anatomy
 Upper Limb
 ## aliases
 
+## article_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -5181,6 +5247,8 @@ Anatomy
 Upper Limb
 ## aliases
 Cutaneous nerves of the arm
+## article_ids
+ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5271,6 +5339,8 @@ Anatomy
 Upper Limb
 ## aliases
 Upward rotation of the scapula
+## article_ids
+ART-101-ANA-SHOULDER-SPACES-ROTATION
 ## support_mode
 direct_statement
 ## original_wording
@@ -5361,6 +5431,8 @@ Anatomy
 General Embryology
 ## aliases
 Chorion frondosum and chorion laeve
+## article_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## support_mode
 direct_statement
 ## original_wording
@@ -5452,6 +5524,8 @@ Anatomy
 Upper Limb
 ## aliases
 Circumflex nerve injury | Flat shoulder
+## article_ids
+ART-101-ANA-AXILLARY-NERVE
 ## support_mode
 direct_statement
 ## original_wording
@@ -5673,6 +5747,546 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
+The anastomosis around the elbow joins collateral branches from above to recurrent branches from below, around each epicondyle
+## id
+CON-MSK-951D4DFF864245
+## canonical_key
+elbow-anastomosis-arteries-origin
+## definition
+The anastomosis around the elbow joint is between the brachial artery above and the radial and ulnar arteries below, and the book describes it around the two epicondyles. Behind the medial epicondyle the superior ulnar collateral and the posterior branch of the inferior ulnar collateral, both from the brachial artery, meet the posterior ulnar recurrent from the ulnar artery; in front of it the anterior branch of the inferior ulnar collateral meets the anterior ulnar recurrent. Behind the lateral epicondyle the posterior descending (middle collateral) branch of the profunda brachii meets the posterior interosseous recurrent; in front of it the anterior descending (radial collateral) branch of the profunda brachii meets the radial recurrent from the radial artery. A transverse anastomosis lies above the olecranon fossa between the inferior ulnar collateral and the posterior descending branch of the profunda brachii.
+## explicit_objective
+Name the arteries taking part in the anastomosis around the elbow and give the parent artery of each.
+## pitfalls
+Confusing it with the anastomosis around the scapula, which the papers ask at least as often. That one is subclavian to third-part-axillary, out of the suprascapular, deep transverse cervical, subscapular and circumflex scapular arteries; this one is brachial to radial and ulnar, out of collateral and recurrent branches.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_f3d7ac13bbc97156212f | resit | 2023 | p3 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.08
+## exam_weight_by_year
+KAU_Y1=0.08
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Collateral circulation at the elbow | Peri-articular anastomosis of the elbow
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q2, 5 marks] name the arteries share in anastomosis around elbow and give their origin
+## conflicts
+New key, minted here. `clusters.json` has no objective for the anastomosis around the elbow. Its nearest entry is `scapular-anastomosis-arteries`, which is a different anastomosis between different arteries in a different chapter of the book, and the only other mention of the word is inside `elastic-fibres-orcein-staining`, where it describes fibres branching. Flagged rather than forced onto the scapular key.
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Each movement at the shoulder joint has its own set of muscles, and above a right angle the scapula takes over
+## id
+CON-MSK-88711B7586CF2F
+## canonical_key
+shoulder-joint-movements-muscles
+## definition
+The shoulder is a polyaxial ball-and-socket joint. Flexion is by the clavicular head of pectoralis major, the anterior fibres of deltoid and coracobrachialis, assisted by the long head of biceps; extension by the posterior fibres of deltoid, teres major and latissimus dorsi, with the sternocostal head of pectoralis major extending the flexed arm. Abduction is by supraspinatus, which initiates it, and the middle (acromial) fibres of deltoid; adduction by pectoralis major, teres major, latissimus dorsi, coracobrachialis, subscapularis, infraspinatus and teres minor. Medial rotation is by pectoralis major, teres major, latissimus dorsi, the anterior fibres of deltoid and subscapularis; lateral rotation by infraspinatus, the posterior fibres of deltoid and teres minor. Circumduction combines all of these. Beyond about a right angle the greater tuberosity meets the coraco-acromial ligament and the arm is raised further by the scapula rotating upwards, by the upper and lower fibres of trapezius with the lower five digitations of serratus anterior.
+## explicit_objective
+List the movements of the shoulder joint with the muscles producing each, and say where movement at the joint stops and scapular rotation takes over.
+## pitfalls
+Answering the whole of abduction with deltoid. Supraspinatus starts it, deltoid carries it to a right angle, and everything above that is upward rotation of the scapula — three different sets of muscles in one movement.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_f3d7ac13bbc97156212f | resit | 2023 | p7 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.08
+## exam_weight_by_year
+KAU_Y1=0.08
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Glenohumeral joint movements
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q6, 5 marks] list. movements of shoulder joint and mention muscles produce it
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The notochord forms in four steps, guides the embryo, and ends as the nucleus pulposus
+## id
+CON-DEV-1BCF37C48AF307
+## canonical_key
+notochord-formation-fate
+## definition
+The notochord is the temporary primitive axial skeleton of the embryonic disc and develops in four steps. The prenotochordal process is a solid cord of epiblast cells from the primitive pit that invaginates and extends cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane. The cavity of the primitive pit then extends into it as the notochordal canal, whose roof lies against ectoderm, whose floor is fused with endoderm and whose cavity is continuous with the amniotic cavity. Degeneration of that floor with the fused endoderm opens the neurenteric canal, a temporary communication between amniotic cavity and yolk sac, leaving roof and sides as the notochordal plate. The plate then folds on itself into the definitive notochord, a solid cord with no cavity, and the endoderm approximates and fuses beneath it so amniotic cavity and yolk sac are separate again. It is the temporary axial skeleton, its firmness limits the head fold during folding, and the vertebral column forms around it. Most of it degenerates; the part within the intervertebral disc persists as the nucleus pulposus.
+## explicit_objective
+Summarise the notochord: its four steps of formation, its importance, and its fate.
+## pitfalls
+Saying the notochord becomes the vertebral column. It does not — the column forms around it and the notochord degenerates, surviving only as the nucleus pulposus of the intervertebral disc.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_f3d7ac13bbc97156212f | resit | 2023 | p11 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.08
+## exam_weight_by_year
+KAU_Y1=0.08
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Notochordal plate | Nucleus pulposus
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q10, 5 marks] summrize notochrod
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The rER is basophilic by light microscopy, ribosome-studded by electron microscopy, and makes export protein
+## id
+CON-FND-834F212F6343CE
+## canonical_key
+rer-structure-function-protein-synthesis
+## definition
+Rough endoplasmic reticulum is the organelle of protein-forming cells such as the plasma cell. By light microscopy it is what gives the cytoplasm its basophilia, from the RNA of the ribosomes on it. By electron microscopy it is parallel flattened cisternae, continuous with the outer nuclear envelope, studded on their outer surface with ribosomes attached by their large subunit at ribophorins. It synthesises export protein, segregates it and performs its initial glycosylation, packs it into transfer vesicles for the Golgi apparatus, protects the cytoplasm from hydrolytic enzymes, and serves as an intracellular pathway.
+## explicit_objective
+Describe the rER as seen by light microscopy and by electron microscopy, and give its functions.
+## pitfalls
+Crediting the membrane with the basophilia. It is the RNA in the attached ribosomes that is acidic and takes the basic dye — which is why a cell packed with sER is acidophilic instead.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_f3d7ac13bbc97156212f | resit | 2023 | p13 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.08
+## exam_weight_by_year
+KAU_Y1=0.08
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Rough endoplasmic reticulum | Granular endoplasmic reticulum
+## support_mode
+direct_statement
+## original_wording
+[Histology Q1, 5 marks] discribe the histological structure of rER (LM, EM and function)
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The active fibroblast comes from the mesenchymal cell and is built to synthesise protein
+## id
+CON-FND-9EA7F8E2898EB7
+## canonical_key
+fibroblast-features-function
+## definition
+The fibroblast is the commonest cell of connective tissue proper and arises from the undifferentiated mesenchymal cell and from the pericyte. In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus. By electron microscopy it is a protein-synthesising cell: well-developed rER and Golgi apparatus, many mitochondria and a euchromatic nucleus. The inactive form, the fibrocyte, is a smaller spindle cell with few processes, paler cytoplasm and a smaller darker nucleus with more heterochromatin and less rER, Golgi and mitochondria.
+## explicit_objective
+State where the fibroblast comes from and describe the active fibroblast by light and electron microscopy.
+## pitfalls
+Describing the fibrocyte and calling it a fibroblast. The question asks the active cell — branched, deeply basophilic, pale euchromatic nucleus — and the inactive one is the opposite of it in every feature.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_f3d7ac13bbc97156212f | resit | 2023 | p14 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.08
+## exam_weight_by_year
+KAU_Y1=0.08
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Active fibroblast | Fibrocyte
+## support_mode
+direct_statement
+## original_wording
+[Histology Q2, 5 marks] state the origin and describe the LM, EM of active fibroblast
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+B lymphocytes are told from T and NK cells only by their surface receptors, IgM and IgD
+## id
+CON-HEM-9F3C4150F1076B
+## canonical_key
+b-lymphocyte-percentage-surface-receptors
+## definition
+Lymphocytes are 20–30% of the leucocytes, and by activity they are small or large; large lymphocytes are 5–10% of the leucocytes and 10–15 µm across, with a large indented pale nucleus, a clear nucleolus and abundant deeply basophilic cytoplasm, and they are either activated lymphocytes or natural killer cells. By function there are three kinds — T, B and natural killer — which look alike by light and electron microscopy and differ only in their surface receptors. B lymphocytes are 20–30% of the lymphocytes, with a life span of a few days to a few months. They mature in the bursa of Fabricius in birds and in the bone marrow in mammals, carry receptors for IgM and IgD, and mediate humoral immunity: on meeting their antigen and being activated by T-helper cells they become plasmablasts, then plasma cells producing antibody, and B memory cells.
+## explicit_objective
+Give the percentage of the B lymphocyte and name the surface receptors it carries.
+## pitfalls
+Trying to recognise a B lymphocyte down the microscope. T, B and NK cells are identical by light and electron microscopy; the surface receptors are the only thing that separates them, which is why the question asks for those and not for a picture.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_f3d7ac13bbc97156212f | resit | 2023 | p15 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.08
+## exam_weight_by_year
+KAU_Y1=0.08
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+B cell | Large lymphocyte
+## support_mode
+direct_statement
+## original_wording
+[Histology Q3, 5 marks] describe Large B-lymphocyte regarding percentage, surface receptors
+## conflicts
+New key, minted here. `clusters.json` has an objective for the T lymphocyte (`t-lymphocyte-subsets-cd4-cd8`) and one for the natural killer cell (`nk-cell-features-markers`) but none for the B lymphocyte; the nearest, `plasma-cell-features-function`, is about the cell a B lymphocyte becomes and says nothing about its percentage or its surface receptors. `leukocyte-classification-granular-nongranular` only places the lymphocyte among the non-granular leucocytes. Flagged rather than filed under the plasma cell.
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
 Falling while clutching an object avulses the lower trunk of the brachial plexus and claws the hand
 ## id
 CON-MSK-528AA0580391C0
@@ -5722,6 +6336,8 @@ Anatomy
 Upper Limb
 ## aliases
 Klumpke's paralysis | Lower trunk avulsion | Complete claw hand
+## article_ids
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5812,6 +6428,8 @@ Anatomy
 Upper Limb
 ## aliases
 Duchenne-Erb's paralysis | Porter's tip deformity | Waiter's tip
+## article_ids
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES
 ## support_mode
 direct_statement
 ## original_wording
@@ -5902,6 +6520,8 @@ Anatomy
 Upper Limb
 ## aliases
 Carpal tunnel syndrome | Ape hand | Monkey's hand
+## article_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## support_mode
 direct_statement
 ## original_wording

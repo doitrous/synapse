@@ -97,6 +97,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-CLAVICLE
 ## owner
 Claude
 ## source_citation
@@ -274,6 +276,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES
 ## owner
 Claude
 ## source_citation
@@ -364,6 +368,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES
 ## owner
 Claude
 ## source_citation
@@ -453,6 +459,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
@@ -538,6 +546,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-AXILLARY-NERVE
 ## owner
 Claude
 ## source_citation
@@ -627,6 +637,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation
@@ -723,6 +735,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation
@@ -811,6 +825,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
 ## owner
 Claude
 ## source_citation
