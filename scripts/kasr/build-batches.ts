@@ -42,7 +42,10 @@ function concepts() {
   }
 
   const blocks = [...byKey.values()].map(({ paper, seed, repeats }) =>
-    conceptBlock(paper.source, seed, repeats))
+    conceptBlock(paper.source, seed, repeats, {
+      paperMarks: paper.seeds.reduce((sum, one) => sum + one.marks, 0),
+      articleId: ARTICLE_FOR_CONCEPT[mintConceptId(seed.subject, seed.key)],
+    }))
 
   const repeated = [...byKey.values()].filter((entry) => entry.repeats.length).length
   const header = `Concepts for 101 ISK, from every paper read so far.

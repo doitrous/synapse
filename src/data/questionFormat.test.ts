@@ -187,3 +187,23 @@ describe('Formats that cannot yet be shown are refused', () => {
     }
   })
 })
+
+test('a part worth a fraction of a mark keeps its scheme', () => {
+  // A Kasr case prints one total over four lettered subparts, so each is worth
+  // 0.75. An integer-only heading matched nothing and the part vanished — and a
+  // dropped part is not an error anywhere, it is just a question that arrives
+  // with no mark scheme.
+  const parts = parseWrittenParts(
+    '### (a) 0.75 marks\nWhat lymph nodes should be removed?\nExpects: The axillary nodes\n'
+    + '### (b) 0.75 marks\nShould the other breast be examined?\nExpects: Yes — lymphatics cross the midline')
+  assert.equal(parts.length, 2)
+  assert.equal(parts[0].marks, 0.75)
+  assert.deepEqual(parts.map((part) => part.label), ['a', 'b'])
+  assert.equal(parts[1].expectedPoints.length, 1)
+})
+
+test('whole marks still parse, and a part with no marks stated is worth none', () => {
+  const parts = parseWrittenParts('### (a) 5 marks\nPrompt\nExpects: Point\n### (b)\nPrompt\nExpects: Point')
+  assert.equal(parts[0].marks, 5)
+  assert.equal(parts[1].marks, 0)
+})

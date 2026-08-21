@@ -515,6 +515,8 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
 ## owner
 Claude
 ## source_citation
@@ -587,6 +589,8 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-CARTILAGINOUS-JOINTS
 ## owner
 Claude
 ## source_citation
@@ -659,6 +663,8 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-DECIDUA
 ## owner
 Claude
 ## source_citation
@@ -731,6 +737,8 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
 ## owner
 Claude
 ## source_citation
@@ -804,6 +812,8 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
 ## owner
 Claude
 ## source_citation
@@ -877,6 +887,8 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
@@ -950,6 +962,8 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation
@@ -1023,6 +1037,8 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-ELBOW-JOINT
 ## owner
 Claude
 ## source_citation
@@ -1107,6 +1123,8 @@ Medium
 3
 ## estimated_seconds
 180
+## library_ids
+ART-101-ANA-AXILLA-BREAST
 ## owner
 Claude
 ## source_citation
@@ -1192,6 +1210,8 @@ Medium
 1
 ## estimated_seconds
 180
+## library_ids
+ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation

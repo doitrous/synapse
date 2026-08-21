@@ -1414,3 +1414,412 @@ sections.Development: Left substantively empty on purpose. No Kasr source derive
 sections.Clinical correlations: The sentence about radial artery cannulation and grafting is general clinical knowledge, added to make the double supply mean something. The Kasr sources describe the anastomoses without naming a procedure.
 ## notes
 Two concepts are taught here: the deep palmar arch and the anatomical snuff box. They share a chapter in the department book only loosely, but they share the radial artery, which is the thread the article follows. The department book's internal disagreement about the interval between the two arches is recorded in conflicts rather than silently resolved.
+
+---
+
+# Item
+## id
+ART-101-ANA-ELBOW-JOINT
+## title
+The elbow joint
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-782A87EC05EF74
+## related_articles
+ART-101-ANA-CARTILAGINOUS-JOINTS: The elbow is the worked example of the third class of joint, and shows what a cavity, a complete capsule and a synovial membrane add to a union between bones.
+ART-101-ANA-RADIAL-NERVE: The radial nerve ends in front of the lateral epicondyle, in the lateral part of the cubital fossa that lies in front of this joint.
+## aliases
+Elbow | Humero-ulnar and humero-radial joint | Articulatio cubiti
+## reading_time
+12
+## summary
+The elbow is asked as three things — type, bony parts, ligaments — and each has an exact form. It is synovial, uniaxial, hinge. The bony parts are two above and two below, with each surface matched to its partner. And the ligaments are two, one fan-shaped preventing abduction and one triangular preventing adduction, with the anular ligament belonging to the superior radio-ulnar joint that shares its capsule.
+## sections
+### Overview and position
+The elbow joint lies between the lower end of the humerus above and the upper ends of the ulna and radius below. It is a synovial joint, uniaxial, of the hinge type — the department book's own three-word classification, and the type example it uses when defining a hinge joint in the basis-of-anatomy chapter, where a hinge is described as having a trochlea-like convex articular surface and one transverse axis, allowing only flexion and extension because of strong collateral ligaments.
+
+It does not stand alone. The elbow and the superior radio-ulnar joint have a common capsule and their joint spaces are continuous, and the synovial membrane of the superior radio-ulnar joint is a downward prolongation of the elbow's. That is why the anular ligament appears in the elbow's own capsular attachment, and it is also why the anular ligament is not one of the elbow's ligaments. Naming it as one is the pitfall the concept records.
+
+### Structure
+The articular surfaces are given proximally and distally, and each half is a pair.
+
+Proximally: the condyle of the humerus, that is the trochlea and the capitulum.
+
+Distally: the trochlear notch of the ulna and the head of the radius.
+
+The pairing is what the marks are for. The trochlea articulates with the trochlear notch of the ulna; the capitulum articulates with the upper circular surface of the head of the radius.
+
+The capsule is attached in three named places, and this is a separate part of the answer from the ligaments. Above and in front, to the humerus just above the coronoid and radial fossae, extending to the roots of the medial and lateral epicondyles. Above and behind, to the lower end of the humerus just above the olecranon fossa. Below, to the margins of the olecranon and to the anular ligament, which encircles the head of the radius. The capsule is thin in front and behind, but thick on each side because of the strong collateral ligaments.
+
+There are two ligaments, and each is described by shape, by attachment and by what it prevents.
+
+The medial, or ulnar, collateral ligament is fan-shaped. It is attached above to the medial epicondyle and below to the medial margin of the trochlear notch — that is, to the medial margins of the olecranon and coronoid processes. It prevents abduction of the elbow joint.
+
+The lateral, or radial, collateral ligament is a strong triangular ligament. It is attached above, by its apex, to the lateral epicondyle, and below, by its base, to the outer surface of the anular ligament. It prevents adduction.
+
+Two ligaments belong to the superior radio-ulnar joint that shares the capsule, and they are worth naming so they are not misfiled. The anular ligament is about three quarters of a circle, attached to the anterior and posterior borders of the radial notch of the ulna and encircling the head of the radius; it is slightly narrower below than above, which prevents the head of the radius from being dislocated downwards. The quadrate ligament is a quadrangular band connecting the lower margin of the radial notch of the ulna to the medial aspect of the neck of the radius, closing the joint cavity from below.
+
+The movements are two, and each has its muscles. Flexion is mainly by brachialis and biceps, assisted by brachioradialis and the superficial flexors of the forearm. Extension is by triceps, assisted by anconeus.
+
+### Relations
+In front of the joint is the cubital fossa, an inverted triangular hollow occupying the upper third of the front of the forearm, and one of the five spaces the orientation sheet names. Its base is the line between the two epicondyles, its lateral boundary brachioradialis, its medial boundary pronator teres, and its apex where those two meet. Its floor is brachialis medially and supinator laterally. Its roof is skin, superficial fascia and deep fascia reinforced by the bicipital aponeurosis. Its contents, from medial to lateral, are the median nerve, the termination of the brachial artery with the beginnings of the ulnar and radial arteries, the tendon of biceps, and the radial nerve with the beginning of its posterior interosseous branch.
+
+Behind the joint is the olecranon and the tendon of triceps. A few fibres from the deep surface of the lower part of triceps, called articularis cubiti, insert into the posterior part of the fibrous capsule and draw it up during extension, preventing it from being caught inside the joint.
+
+Medially, the ulnar nerve lies behind the medial epicondyle, which is why a fracture there reaches it. Laterally, the radial nerve lies in front of the lateral epicondyle, where it divides.
+
+The bicipital aponeurosis in the roof of the fossa separates the median cubital vein superficially from the median nerve and the terminal brachial artery deep to it, which is the relation that protects the artery from a needle in the vein.
+
+### Blood supply, innervation and lymphatics
+The joint is supplied by the anastomosis around the elbow, which the department book describes as an anastomosis between the brachial artery above and the radial and ulnar arteries below, arranged in relation to the two epicondyles.
+
+Around the medial epicondyle, on its back: the superior ulnar collateral artery and the posterior branch of the inferior ulnar collateral artery, both from the brachial artery, meeting the posterior ulnar recurrent artery from the ulnar artery. On its front: the anterior branch of the inferior ulnar collateral artery, from the brachial artery, meeting the anterior ulnar recurrent artery from the ulnar artery.
+
+Around the lateral epicondyle, on its back: the posterior descending, or middle collateral, branch of the profunda brachii artery, meeting the posterior interosseous recurrent artery, which arises from the posterior interosseous branch of the ulnar artery. On its front: the anterior descending, or radial collateral, branch of the profunda brachii, meeting the radial recurrent artery from the radial artery.
+
+There is also a transverse anastomosis, lying above the olecranon fossa, between the inferior ulnar collateral artery and the posterior descending branch of the profunda brachii.
+
+For innervation, the department book states that the ulnar nerve gives articular branches to the elbow joint in the forearm, and that the elbow receives a twig from the radial nerve through the branch to the small lateral part of brachialis. No Kasr source gives a complete list of the joint's articular nerves.
+
+The lymph of the region drains to the supratrochlear lymph nodes, which lie in the superficial fascia of the roof of the cubital fossa above the medial epicondyle and medial to the basilic vein, and whose efferents go to the lateral group of axillary nodes.
+
+### Development
+Neither Kasr source describes the development of the elbow joint, the appearance or fusion of the epiphyses at the lower end of the humerus, or the ossification of the olecranon.
+
+What can be said, and only this, comes from the basis-of-anatomy chapter: a growing long bone carries an epiphyseal plate of hyaline cartilage between epiphysis and diaphysis, the plate at one end ossifying two to three years before the other, and the later-ossifying end being the growing end. The nutrient artery runs away from the growing end. Which end of the humerus, radius or ulna is the growing end is not stated in either book, and it is not asserted here.
+
+### Surface and imaging anatomy
+Three bony points around the elbow are subcutaneous and palpable: the medial epicondyle, the lateral epicondyle and the olecranon. The line between the two epicondyles is the base of the cubital fossa, and the brachial artery descends midway between them into the fossa.
+
+The carrying angle is the angle at the elbow that disappears in pronation — one of the six changes the department book lists for pronation, alongside the shaft of the radius crossing in front of the ulna, the palm turning backwards, the thumb turning medially and the interosseous membrane becoming lax.
+
+Neither Kasr source gives a radiographic description of the elbow, an ossification timetable, or a fat-pad sign. What the sources do give radiologically is the fracture: fracture of the medial epicondyle, supracondylar fracture of the humerus, and fracture of the head, neck or upper shaft of the radius with downward dislocation of the radial head.
+
+### Clinical correlations
+Three injuries at this joint appear in the department book's nerve-injury chapter, and each is an anatomical relation turned into a lesion.
+
+Supracondylar fracture of the humerus may injure the median nerve, which lies in the cubital fossa on brachialis in front of the joint.
+
+Fracture, dislocation or compression at the elbow may injure the ulnar nerve posterior to the medial epicondyle, and the same nerve may be entrapped a little lower in the cubital tunnel, formed by the tendinous arch connecting the humeral and ulnar heads of flexor carpi ulnaris.
+
+Fracture of the head, neck or upper part of the shaft of the radius, or downward dislocation of the radial head, may injure the posterior interosseous nerve, producing finger drop without wrist drop.
+
+The anular ligament has a clinical function of its own: being narrower below than above, it prevents the head of the radius from being dislocated downwards.
+
+The anastomosis around the elbow matters for the same reason the scapular anastomosis does. It links the brachial artery above the joint with the radial and ulnar arteries below it, so flow to the forearm can be maintained across an obstruction at the level of the joint.
+
+### Variations and anomalies
+No Kasr source in this corpus describes any variation or anomaly of the elbow joint. Nothing is stated here.
+## hold_these
+Type: synovial, uniaxial, hinge.
+Bony parts proximally: the condyle of the humerus, that is the trochlea and the capitulum.
+Bony parts distally: the trochlear notch of the ulna and the head of the radius.
+The trochlea articulates with the trochlear notch; the capitulum articulates with the upper circular surface of the radial head.
+The medial (ulnar) collateral ligament is fan-shaped, from the medial epicondyle to the medial margin of the trochlear notch, and prevents abduction.
+The lateral (radial) collateral ligament is triangular, by its apex from the lateral epicondyle and by its base to the outer surface of the anular ligament, and prevents adduction.
+The capsule is thin in front and behind and thick on each side because of the collateral ligaments; below it is attached to the margins of the olecranon and to the anular ligament.
+The elbow and the superior radio-ulnar joint share one capsule and one continuous joint cavity.
+The anular ligament is about three quarters of a circle, is narrower below than above, and prevents downward dislocation of the radial head.
+Flexion: brachialis and biceps mainly, assisted by brachioradialis and the superficial flexors. Extension: triceps, assisted by anconeus.
+Articularis cubiti draws the posterior part of the capsule up during extension so it is not caught in the joint.
+## lose_the_mark
+Listing the anular ligament among the ligaments of the elbow. It belongs to the superior radio-ulnar joint, which shares the capsule but is a separate pivot joint.
+Naming the bony parts without pairing them. The marks are for trochlea against trochlear notch and capitulum against radial head, not for four bones in a list.
+Giving the type as "hinge" alone. The department's answer is three words: synovial, uniaxial, hinge.
+Describing the medial collateral ligament as triangular and the lateral as fan-shaped. It is the other way round in every Kasr source: medial fan-shaped, lateral triangular.
+Omitting what each collateral ligament prevents. Medial prevents abduction, lateral prevents adduction, and both sources state it as part of the ligament's description.
+Answering the ligaments but not the capsule. The capsular attachments are a separate paragraph in the department book and can be asked on their own.
+Giving the ulnar collateral ligament three bands, anterior, posterior and oblique. That is another textbook's description; the Kasr sources describe one fan-shaped ligament.
+## image_recommendations
+### anatomy plate · The elbow joint opened from the front with the capsule cut, showing the trochlea against the trochlear notch and the capitulum against the upper surface of the radial head, the two pairings colour-matched
+Purpose: The marked point is which humeral surface meets which forearm bone, and that is a pairing between curved surfaces. Colour-matched pairs make it self-evident; a sentence has to be re-parsed each time.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas - Gray's public-domain plates - or purpose-drawn following the department book Fig. 125
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+Notes: Serves concept CON-MSK-782A87EC05EF74, exam question "Regarding Elbow joint, Mention its type, bony parts and describe its ligaments", 7 marks.
+### diagram · Medial and lateral views of the elbow side by side, the fan-shaped ulnar collateral ligament spreading from the medial epicondyle to the trochlear notch and the triangular radial collateral ligament running apex-down from the lateral epicondyle to the anular ligament, with arrows marking the movement each prevents
+Purpose: Shape, attachment and function are three marked facts about each ligament and all three are geometric. Two facing views also fix which shape belongs to which side, which is the commonest transposition in this answer.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Structure
+Source direction: purpose-drawn, following the department book Figs. 128 and 129
+Rights: newly drawn for this product, or CC-BY
+### diagram · Line of attachment of the elbow capsule drawn on the humerus, ulna and radius in anterior and posterior views, showing the attachment above the coronoid and radial fossae, above the olecranon fossa, to the olecranon margins and to the anular ligament, with the shared cavity of the superior radio-ulnar joint tinted
+Purpose: That the elbow and superior radio-ulnar joint share one capsule and one cavity is the fact that keeps the anular ligament out of the elbow's ligament list. A tinted continuous cavity shows the sharing directly.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Structure
+Source direction: purpose-drawn, following the department book Figs. 126 and 127
+Rights: newly drawn for this product, or CC-BY
+### diagram · The anastomosis around the elbow drawn as a network on the two epicondyles, with the four groups labelled - behind and in front of the medial epicondyle, behind and in front of the lateral epicondyle - plus the transverse anastomosis above the olecranon fossa, each vessel tagged with its parent artery
+Purpose: The answer is eight named vessels arranged in four places, and the point of the arrangement is that brachial branches meet recurrent branches. A network drawing carries the pairing; a list of eight names does not survive an exam.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Blood supply, innervation and lymphatics
+Source direction: purpose-drawn, following the department book Fig. 51
+Rights: newly drawn for this product, or CC-BY
+### imaging example · Lateral radiograph of a normal adult elbow, unlabelled, with a companion labelled copy naming olecranon, coronoid process, radial head and capitulum
+Purpose: Every clinical use of this joint is read off a radiograph, and students who have only seen the dissected joint cannot orientate a lateral film. Two copies, one clean and one labelled, allow self-testing.
+Priority: optional
+Status: needed
+Kind: imaging example
+Section: Surface and imaging anatomy
+Source direction: openly licensed radiology teaching collection
+Rights: must be CC-BY or public domain, fully de-identified
+## conflicts
+The shape and bands of the ulnar collateral ligament. Concept CON-MSK-782A87EC05EF74 describes it as triangular, running from the medial epicondyle in anterior, posterior and oblique bands to the coronoid process and olecranon. All four Kasr sources describe it as fan-shaped, running from the medial epicondyle to the medial margin of the trochlear notch, with no bands named, and reserve the word triangular for the lateral collateral ligament. This article follows the Kasr sources, and the concept should be corrected at the evidence pass.
+How much of the radial head the superior radio-ulnar joint uses. The VIP Upper Limb book states that only one quarter of the circumference of the radial head articulates with the radial notch, the remaining three quarters lying against the anular ligament. The department book and Dr. Galal's revision state the articulation without the fraction. The fraction is recorded here as the VIP book's, not as the department's.
+Where the brachial artery ends. The department book puts it in the cubital fossa below the elbow joint at the level of the neck of the radius. Dr. Galal's revision says the cubital fossa without the level. Both are consistent; the fuller wording is used.
+## evidence_gaps
+No Kasr source gives a complete list of the nerves supplying the elbow joint. Only the ulnar nerve's articular branches are stated explicitly, so Hilton's law is not applied here to fill in the rest.
+No Kasr source describes the development of the elbow, the ossification centres at the lower end of the humerus, or their order and age of appearance and fusion. This is a real gap for a joint whose paediatric radiology depends on it.
+No Kasr source gives a value for the carrying angle in degrees, or states that it differs between the sexes. Only that it disappears in pronation.
+No Kasr source describes the anterior or posterior fat pads, the radiographic anterior humeral line, or any other radiological sign at the elbow.
+No Kasr source describes pulled elbow, olecranon bursitis, tennis or golfer's elbow, and none is mentioned here.
+No Kasr source describes any variation or anomaly of this joint.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 10 "Joints of the Upper Limb", PDF pages 270-291 — type, articular surfaces, capsular attachments, the two collateral ligaments, movements and muscles, and the superior and inferior radio-ulnar joints with the anular and quadrate ligaments, Figs. 125-131. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter on the Arm, PDF pages 194-204 — triceps and articularis cubiti, the brachial artery's ending, and the anastomosis around the elbow joint with Fig. 51; the Forearm chapter, PDF pages 205-234 — the cubital fossa and the ulnar nerve's articular branches; and chapter 9, PDF pages 257-269 — the nerve injuries at this joint.
+Dr. Galal final revision (src_fc7ea5960363431009ed), page 42 — "Q.Articular surfaces", "Q.Type", "Q. Ligaments" and "Q. Movements & muscles acting" for the elbow, with the radio-ulnar joints in the same table; and page 14 — "Anastomosis around elbow".
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), page 150 — elbow joint and radio-ulnar joints. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 13 — the model answer for the elbow joint, sterno-clavicular joint and supination/pronation.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: "Joints: All joints except joints of the hand (type, subtype, articulating surfaces, ligaments, movements and name of muscles producing these movements)", with four upper-limb short-answer questions at 7 marks each.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+scope: The orientation sheet asks every joint for type, subtype, articulating surfaces, ligaments, movements and the muscles producing them, and all six are answered here. The joints of the hand are excluded by the same sheet and are absent on purpose.
+sections.Development: Left substantively empty on purpose. The ossification centres of the lower humerus are a real curriculum gap in both books and are recorded in evidence_gaps rather than filled from general knowledge.
+sections.Relations: The observation that the bicipital aponeurosis protects the brachial artery from a needle in the median cubital vein is general clinical knowledge; the department book states the anatomical relation without naming the procedure.
+sections.Blood supply, innervation and lymphatics: The statement that the elbow receives a twig from the radial nerve is inferred from the department book's own account of the radial branch to the small lateral part of brachialis, which the book says also supplies part of the capsule of the elbow joint.
+## notes
+All four Kasr sources agree on type, articular surfaces and the two collateral ligaments. The divergence is from the concept record, over the shape and banding of the ulnar collateral ligament, and it is recorded in conflicts.
+
+---
+
+# Item
+## id
+ART-101-ANA-AXILLA-BREAST
+## title
+The axilla, the breast, and what a mastectomy takes with it
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+101 ISK > Anatomy > Upper Limb > Pectoral Region
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-GYN-T06-S01-M01 | SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-C8C7E857552F4C | CON-MSK-8D52E127159B80
+## related_articles
+ART-101-ANA-PECTORALIS-MAJOR: Pectoralis major and minor are the anterior wall of the axilla, and pectoralis minor is what the surgical levels of the nodes are numbered against.
+ART-101-ANA-RADIAL-NERVE: The other nerve of the posterior cord, and the other lesion this faculty asks by its deformity.
+## aliases
+Axilla | Axillary lymph nodes | Lymphatic drainage of the breast | Winged scapula | Long thoracic nerve injury
+## reading_time
+11
+## summary
+The department asks this region as one question with two halves: where the breast drains, and what the surgeon damages getting there. Both halves are answered by the same fact — the axilla is a pyramid whose walls carry the nodes on the inside and the nerves on the surface, so an operation that clears the one is working directly on the other. Learn the five node groups by the wall each lies against and the long thoracic nerve by the wall it lies on, and the case answers itself.
+## sections
+### Overview and position
+The axilla is a pyramidal region between the upper part of the side of the chest wall and the upper part of the medial side of the arm. It has four walls, an apex and a base, and it is the passage through which everything reaching the upper limb from the neck must travel.
+
+The apex is the cervico-axillary canal, the gateway from the neck. The base looks downwards: skin rich in hairs, sweat and sebaceous glands, superficial fascia, and the deep axillary fascia.
+
+The four walls each have a name and a content worth knowing separately.
+
+The anterior, or pectoral, wall has a superficial layer of pectoralis major and a deep layer — the axillary septum — of subclavius, clavipectoral fascia and pectoralis minor.
+
+The posterior, or subscapular, wall is the lateral part of subscapularis, teres major and latissimus dorsi.
+
+The lateral, or humeral, wall is the narrowest of the four: the bicipital groove of the humerus with the short head of biceps and coracobrachialis.
+
+The medial, or costal, wall is the upper four ribs with their intercostal muscles and the upper part of serratus anterior. That wall is where this article's second half lives.
+
+### Structure
+The contents of the axilla are the axillary artery and its branches, the axillary vein and its tributaries, the cords of the brachial plexus and their branches, the long thoracic nerve, the intercostobrachial nerve, the axillary lymph nodes and fat.
+
+The vessels and the plexus run from the apex to the base along the lateral wall, nearer the anterior wall than the posterior. The long thoracic nerve does not travel with them. It descends vertically on the outer surface of serratus anterior — on the medial wall, on the surface of the muscle it supplies, inside the space a surgeon opens.
+
+**The five groups of axillary lymph nodes** are arranged by the walls and apex, usually along the blood vessels, and this faculty asks them by name.
+
+The **anterior (pectoral)** group lies along the lower border of pectoralis minor with the lateral thoracic artery. It receives from the central and lateral quadrant of the mammary gland and from the anterolateral chest wall. This is the group the breast reaches first and the group a breast carcinoma reaches first.
+
+The **posterior (subscapular)** group lies on the posterior wall along the subscapular artery, receiving from the back down to the iliac crest and from the back of the shoulder. It also takes the axillary tail of the breast.
+
+The **lateral (humeral)** group lies medial and behind the axillary vein in the lateral wall, receiving from the upper limb except the territory that follows the cephalic vein.
+
+The **central** group lies in the fat above the base of the axilla and receives from all three of the preceding groups.
+
+The **apical** group lies at the apex along the medial side of the axillary vein. It receives from every axillary group, from the upper and peripheral part of the mammary gland, and from the upper limb by way of the infraclavicular nodes. Everything ends here before leaving the axilla.
+
+Surgeons number them against pectoralis minor rather than by these names: **level 1** below the muscle (anterior, posterior and lateral), **level 2** deep to it (central), **level 3** above it (apical). Both schemes are worth holding, because the anatomical name is what an examiner asks for and the level is what an operation note says.
+
+### Relations
+The breast lies in the superficial fascia of the pectoral region, its base extending from the second rib above to the sixth costal cartilage below. It is a modified sweat gland of sixteen to twenty lobes, arranged radially and converging on the nipple, each lobe draining by a lactiferous duct that widens deep to the areola into a lactiferous sinus. Fibrous septa — Cooper's ligaments — run from the skin to the deep fascia and separate the lobes into compartments.
+
+The axillary tail is a tongue-like prolongation from the superolateral quadrant. It curves round the lower border of pectoralis major and pierces the deep fascia to enter the axilla, which is why the breast is not, surgically, confined to the chest wall.
+
+### Blood supply, innervation and lymphatics
+The arterial supply of the breast is the lateral thoracic artery from the second part of the axillary artery, supplying mainly the lateral half, with perforating branches of the internal mammary artery — chiefly in the second, third and fourth intercostal spaces — supplying the medial half.
+
+**The lymphatic drainage is the examined fact.** Two plexuses drain the gland: a superficial or subareolar plexus under the skin of the areola, and a deep plexus in the substance of the gland.
+
+From there the routes divide by quadrant, and the division is the whole answer:
+
+- The **lateral quadrants** drain mainly to the **pectoral group** of axillary nodes.
+- The **axillary tail** drains to the **subscapular group**.
+- The **upper lateral part** drains to the **infraclavicular nodes**, which lie along the cephalic vein in the deltopectoral groove and send their efferents on to the apical group by vessels piercing the clavipectoral fascia.
+- The **medial quadrants** drain mainly to the **parasternal nodes** along the internal mammary artery, *inside the thorax*.
+- Some lymphatics **cross the midline** to the opposite breast, and some reach the abdomen.
+
+About three quarters of the whole drains laterally into the axilla. That proportion is why carcinoma of the breast presents in the axilla and why the axilla is cleared at operation — and the medial quarter is why a clear axilla is not a clear chest.
+
+### Development
+Not examined for this module at first-year level, and the department book does not give a developmental account of the breast in this chapter. What the book does give is the lifespan: the breast is small in children, enlarges at puberty in the female through an increase in the stroma — superficial fascia and fat — enlarges further in pregnancy and lactation, and atrophies after the menopause. The nipple's position changes after the first childbirth and lactation, so it lies at a variable level thereafter and cannot be used as a surface landmark in a parous woman.
+
+### Surface and imaging anatomy
+The nipple usually overlies the fourth intercostal space in the male and the nulliparous female. The axillary artery, with the arm abducted to a right angle, is represented by a horizontal line drawn between the mid-point of the clavicle and the point midway between the two epicondyles of the humerus.
+
+### Clinical correlations
+**Why the arm will not lift after a mastectomy.** The long thoracic nerve arises from the roots of the brachial plexus — C5, C6 and C7 — and descends vertically on the outer surface of serratus anterior on the medial wall of the axilla. It is not buried; it lies on the muscle it supplies, in the space being cleared. The department book names radical mastectomy explicitly as an occasion of its injury.
+
+Serratus anterior rotates the scapula upwards and holds its medial border against the chest wall. Abduction of the arm above the shoulder needs that upward rotation, so paralysis of the muscle stops the arm at about shoulder height. The book gives three consequences together: **winging of the scapula, difficulty in protraction of the shoulder girdle, and difficulty in raising the arm above the head.**
+
+The deformity has a name and the examiner wants it: **winged scapula** — the medial border of the scapula standing away from the chest wall, most obvious when the patient pushes against a wall.
+
+**Why the skin dimples.** Cooper's ligaments run from the gland to the skin. A malignant tumour invading the fibrous septa pulls on the overlying skin and retracts it. Obstruction of the superficial lymphatics causes oedema of the skin, which is then pitted at the attachments of the hair follicles — *peau d'orange*.
+
+**Why a breast abscess is drained radially.** The lobes are arranged radially around the nipple. A radial incision follows the plane between lobes, so it avoids spreading infection into neighbouring lobes and damages fewer ducts than a circumferential one.
+
+**Why the anastomosis around the scapula matters.** Through it, blood can bypass an obstruction between the first part of the subclavian artery and the third part of the axillary artery — a collateral route that keeps the limb alive when the main channel is blocked.
+## hold_these
+The axilla is a pyramid: four walls, an apex (the cervico-axillary canal) and a base.
+Anterior wall pectoralis major over subclavius, clavipectoral fascia and pectoralis minor; posterior wall subscapularis, teres major and latissimus dorsi; lateral wall the bicipital groove with the short head of biceps and coracobrachialis; medial wall the upper four ribs with their intercostals and the upper part of serratus anterior.
+Five groups of axillary nodes: anterior (pectoral), posterior (subscapular), lateral (humeral), central and apical.
+The apical group receives from every other group and is the last station inside the axilla.
+Surgical levels are numbered against pectoralis minor: level 1 below, level 2 deep to it, level 3 above.
+About three quarters of the lymph of the breast drains to the axillary nodes, the lateral quadrants going first to the pectoral group.
+The medial quadrants drain to the parasternal nodes along the internal mammary artery, inside the thorax.
+Some lymphatics cross the midline to the opposite breast, which is why the other breast is examined.
+The axillary tail pierces the deep fascia and drains to the subscapular group.
+The long thoracic nerve is C5, C6, C7 and descends on the outer surface of serratus anterior on the medial wall of the axilla.
+Long thoracic nerve injury at radical mastectomy gives winging of the scapula, difficulty protracting the shoulder girdle, and difficulty raising the arm above the head.
+The breast has 16 to 20 lobes; its base runs from the 2nd rib to the 6th costal cartilage.
+Four structures pierce the clavipectoral fascia: the cephalic vein, the lateral pectoral nerve, the acromio-thoracic artery, and lymph vessels from the infraclavicular nodes to the apical group.
+## lose_the_mark
+Naming only the axillary nodes when asked where the breast drains. The medial quadrants go to parasternal nodes inside the thorax, and a question that says "lymphatic drainage of the breast" is marking both routes.
+Blaming the axillary nerve for the arm that will not lift. The axillary nerve would weaken abduction to ninety degrees and numb the regimental badge area. It is loss of scapular rotation *above* the shoulder, with winging, that names the long thoracic nerve.
+Answering "should the other breast be examined?" with yes and no reason. The mark is for the reason: lymphatics cross the midline.
+Giving four groups of axillary nodes. There are five, and the one usually dropped is the central group, which is the one every other group drains into.
+Confusing the anatomical groups with the surgical levels. Level 2 is the central group alone; it is not "the middle three".
+Calling the pectoral group the only first station. The tail goes to the subscapular group and the upper lateral part to the infraclavicular nodes.
+Putting the long thoracic nerve on the posterior wall. It is on the medial wall, on serratus anterior, which is why clearing the axilla threatens it.
+Draining a breast abscess with a circumferential incision. The lobes are radial; a radial incision spares them.
+## image_recommendations
+### diagram · Sagittal cut-away of the axilla as a pyramid, with the four walls labelled by name and by the muscles forming each, the apex marked as the cervico-axillary canal, and the base below
+Purpose: Every node group in this article is located by the wall it lies against, and every wall is a list of muscles. Without a picture of the pyramid the five groups are five arbitrary names to memorise instead of five positions to read off.
+Priority: required
+Status: needed
+Rights: Must be an original drawing or a licence that permits redistribution; the faculty's own deck contains at least one third-party image and is not a safe source.
+Section: Overview and position
+### diagram · Anterior view of the breast and axilla showing the five axillary node groups with arrows for the drainage of each quadrant, the axillary tail, the parasternal chain inside the thorax, and the crossing lymphatics to the opposite breast
+Purpose: This is the examined question, and it is a question about direction. The medial-quadrant route to the parasternal nodes and the crossing to the other breast are exactly the parts students omit, and both are invisible in prose but obvious as arrows.
+Priority: required
+Status: needed
+Rights: Original drawing or redistributable licence required.
+Section: Blood supply, innervation and lymphatics
+### photograph · A patient pushing against a wall with the medial border of the right scapula standing away from the chest wall, shown beside a normal side for comparison
+Purpose: Winging is a shape, and the examiner asks for it by name after describing the disability. A student who has seen one recognises it; a student who has only read "the medial border stands off" often cannot say what they would look for.
+Priority: strongly helpful
+Status: needed
+Rights: Consented clinical photograph, or an anatomical illustration if no consented image is available.
+Section: Clinical correlations
+### diagram · Course of the long thoracic nerve from the C5, C6 and C7 roots, descending vertically on the outer surface of serratus anterior on the medial wall of the axilla
+Purpose: The whole clinical point is that the nerve lies on the surface of its muscle inside the space being cleared. A diagram showing it exposed on the medial wall makes the surgical risk self-evident; a list of root values does not.
+Priority: required
+Status: needed
+Rights: Original drawing or redistributable licence required.
+Section: Clinical correlations
+## evidence_gaps
+The department book's Axilla chapter gives no descriptive text under its 'Apex (cervico-axillary canal)' heading — the apex boundaries are carried only in a figure the extractor could not read. The apex is named here but not bounded, and its boundaries should be added from p. 178 of the book by someone who can see the figure.
+The book gives no developmental account of the breast in this chapter, so the Development section reports its lifespan rather than its embryology.
+## field_notes
+arabicTitle: Arabic terminology for this material has not been reviewed; it is filled during the evidence pass rather than guessed.
+publishedSummary: Not published — this article has not passed the evidence gate, so there is no student projection yet.
+publishedSections: As above.
+reviewer: No faculty reviewer has seen this yet.
+lastReviewed: Never reviewed.
+questionIds: The questions that test this article are authored in the same pass and are wired from the question side, which is where the importer maintains the link.

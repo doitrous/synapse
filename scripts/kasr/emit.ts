@@ -19,8 +19,25 @@ import type { BankRow, McqAuthored, McqConcept, McqLeafSeed } from './seeds/mcq.
 const occurrence = (source: SourceRef, seed: Seed) =>
   `${source.id} | ${source.tier} | ${source.sittingYear} | p${seed.page} | 101 ISK`
 
-export function conceptBlock(source: SourceRef, seed: Seed, alsoSeenOn: string[] = []): string {
+/**
+ * How much of the paper this concept is worth, as a 0–1 weight.
+ *
+ * Its marks over the paper's total, lifted by each further sitting it appears
+ * on. A thing asked in three years running is worth more of a student's time
+ * than its marks on any one paper say, and repetition is the only evidence in
+ * this corpus for that.
+ */
+const blueprintWeight = (seed: Seed, paperMarks: number, sittings: number) =>
+  Math.min(1, (seed.marks / Math.max(paperMarks, 1)) * (1 + 0.5 * sittings)).toFixed(2)
+
+export function conceptBlock(
+  source: SourceRef, seed: Seed, alsoSeenOn: string[] = [],
+  context: { paperMarks?: number; articleId?: string } = {},
+): string {
   const signals = [occurrence(source, seed), ...alsoSeenOn].join('\n')
+  const weight = blueprintWeight(seed, context.paperMarks ?? 81, alsoSeenOn.length)
+  const clinical = seed.type === 'clinical_correlation'
+  const path = seed.modulePath.split(' > ')
   return `# Item
 ## label
 ${seed.label}
@@ -56,10 +73,32 @@ kau
 ${signals}
 ## weight_confidence
 ${alsoSeenOn.length ? '0.9' : '0.7'}
-## support_mode
+## blueprint_weight
+${weight}
+## exam_weight_by_year
+KAU_Y1=${weight}
+## clinical_relevance
+${clinical ? '0.8' : '0.3'}
+## academic_relevance
+0.9
+## confidence
+${alsoSeenOn.length ? '0.9' : '0.75'}
+## topic
+${path[1] ?? seed.section}
+## subtopic
+${path[2] ?? path.at(-1) ?? ''}
+## aliases
+${(seed.aliases ?? []).join(' | ')}
+${context.articleId ? `## article_ids\n${context.articleId}\n` : ''}## support_mode
 direct_statement
 ## original_wording
 [${seed.section} Q${seed.q}, ${seed.marks} marks] ${seed.asked}
+## conflicts
+${(seed.conflicts ?? []).join('\n')}
+## uncertainty
+${seed.uncertainty ?? ''}
+## evidence_gaps
+${(seed.gaps ?? []).join('\n') || '[clear]'}
 ## owner
 Claude
 ## publication_status
@@ -67,7 +106,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.`
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.`
 }
 
 /**

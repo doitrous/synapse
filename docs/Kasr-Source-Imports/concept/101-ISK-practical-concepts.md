@@ -2024,3 +2024,332 @@ authored_needs_independent_evidence
 ## field_notes
 arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
 exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting.
+
+---
+
+# Item
+## label
+Simple squamous epithelium is one layer of flat cells with flat nuclei
+## id
+CON-FND-CC0954729ED55F
+## canonical_key
+simple-squamous-epithelium-identification
+## definition
+Simple squamous epithelium is a single layer of flat cells whose nuclei are flattened and bulge slightly into the lumen. Cut in section it reads as a thin line of widely spaced flat nuclei on a basement membrane, and it lines the heart and blood vessels, the lung alveoli, the serous membranes and Bowman's capsule.
+## explicit_objective
+Identify simple squamous epithelium on a section, give one visible feature, and name the flat nucleus and the basement membrane when marked.
+## pitfalls
+Missing it altogether in a blood vessel, where the endothelium is so thin it reads as part of the wall. The department sets a vessel plate for exactly that reason.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+DIS-HIS-T04
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p193 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p185 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p167 | 101 ISK
+src_05a0b0c29acc94017b8f | department_book | undated | p27 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## original_wording
+[DPT Practical Histo 101 p.193, answer p.194] Identify type of epithelium in the rectangle / Arrowhead points to ... / One visible feature for B / Yellow arrow points to ...
+[Answer page] nucleus flat / single (arrowhead); basement membrane (yellow arrow)
+[DPT Practical Histo 101 p.197, answer p.198] simple squamous: flat cells, one layer; nuclei flat / single / central
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting.
+
+---
+
+# Item
+## label
+Simple cubical epithelium is one layer of square cells with central rounded nuclei
+## id
+CON-FND-8760847341DE80
+## canonical_key
+simple-cubical-epithelium-identification
+## definition
+Simple cubical epithelium is a single layer of cells as tall as they are wide, each with a central rounded nucleus. It lines the convoluted tubules of the kidney, the secretory acini of glands and the thyroid follicles, and its functions are secretion and reabsorption.
+## explicit_objective
+Identify simple cubical epithelium, give one visible feature, and name the rounded central nucleus and the basement membrane when marked.
+## pitfalls
+Calling it simple columnar. Both are one layer with a single nucleus per cell; the decision is height against width, and the columnar cell's nucleus is oval and basal rather than round and central.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+DIS-HIS-T04
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p195 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p187 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p171 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p172 | 101 ISK
+src_05a0b0c29acc94017b8f | department_book | undated | p27 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## original_wording
+[DPT Practical Histo 101 p.195, answer p.196] Identify type of epithelium / Arrowheads point to ... / One visible feature for B / Yellow arrow points to ...
+[Answer page] nuclei rounded / central / single (arrowheads); basement membrane (yellow arrow)
+[DPT Practical Histo 101 p.197, answer p.198] simple cubical: square shape, short cells, single layer
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting.
+
+---
+
+# Item
+## label
+Simple columnar epithelium is one layer of tall cells with oval nuclei at the same basal level
+## id
+CON-FND-A214482F13AD8D
+## canonical_key
+simple-columnar-epithelium-identification
+## definition
+Simple columnar epithelium is a single layer of tall cells, each with an oval nucleus lying at the same level near the base. It lines the stomach and the small and large intestine, and its functions are secretion and absorption.
+## explicit_objective
+Identify simple columnar epithelium, give one visible feature, and name the structure marked beneath or beside it.
+## pitfalls
+Calling it pseudostratified. Both are built of tall cells resting on one basement membrane, but in simple columnar the nuclei sit in one row at the same level; the moment they are crowded at several levels the epithelium is pseudostratified.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+DIS-HIS-T04
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p199 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p173 | 101 ISK
+src_05a0b0c29acc94017b8f | department_book | undated | p29 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## original_wording
+[DPT Practical Histo 101 p.199, answer p.200] Identify type of epithelium / Mention 1 visible feature for A / Name the structure pointed to by yellow arrow / Mention 1 visible feature for B
+[Answer page] tall cells; one layer; oval basal nuclei
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting.
+
+---
+
+# Item
+## label
+Pseudostratified columnar ciliated epithelium is one layer whose crowded nuclei lie at several levels
+## id
+CON-FND-9715187C19E7FA
+## canonical_key
+pseudostratified-columnar-epithelium-identification
+## definition
+Pseudostratified epithelium is genuinely one layer: every cell rests on the basement membrane, but not every cell reaches the surface, and the crowding puts their nuclei at more than one level so the epithelium looks stratified. The respiratory variety carries motile cilia and goblet cells.
+## explicit_objective
+Identify pseudostratified columnar ciliated epithelium, give two visible characters, and name the cilia, the goblet cell, the basement membrane and the underlying connective tissue when marked.
+## pitfalls
+Reading the several rows of nuclei as several layers of cells and answering stratified columnar. In a truly stratified epithelium the superficial cells do not reach the basement membrane; here every cell does, and the department expects the word pseudostratified.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+DIS-HIS-T04
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p201 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p191 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p175 | 101 ISK
+src_05a0b0c29acc94017b8f | department_book | undated | p31 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## original_wording
+[DPT Practical Histo 101 p.201, answer p.202] Identify the epithelium / Mention 2 visible characters / Blue arrow points to ... & green arrow ... / Cell pointed by red arrow is ... & star marks ...
+[Answer page] tall cells; 1 cell layer; crowded nuclei; cilia; basement membrane; goblet cell; connective tissue
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting.
+
+---
+
+# Item
+## label
+Stereocilia are long non-motile microvilli, not cilia, and mark the male genital tract
+## id
+CON-FND-28F7FA711C1C1C
+## canonical_key
+stereocilia-versus-cilia-identification
+## definition
+The pseudostratified epithelium of the male genital tract carries stereocilia: long, often clumped apical processes that are microvilli, not true cilia. They contain no axoneme and cannot beat, and the epithelium that carries them has no goblet cells, unlike the ciliated respiratory variety.
+## explicit_objective
+Tell stereocilia from motile cilia on a pseudostratified epithelium and say what each implies about the site.
+## pitfalls
+Answering "cilia" because the processes are long and apical. Length is what makes stereocilia look like cilia; the absence of microtubules and of goblet cells, and the site, are what separate them.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+DIS-HIS-T04
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p177 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## original_wording
+[DPT Practical Histo 101 p.177] Pseudostratified columnar ciliated epithelium with stereocilia
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting.
+
+---
+
+# Item
+## label
+Keratinized and non-keratinized stratified squamous epithelium differ in what lies on the surface
+## id
+CON-FND-8EEA6972B77898
+## canonical_key
+keratinized-versus-non-keratinized-stratified-squamous
+## definition
+Both are many layers of polyhedral cells with rounded central nuclei, becoming flatter towards the surface and resting on a basement membrane over connective tissue. In the non-keratinized form the surface cells are flat and still nucleated; in the keratinized form they are replaced by an acidophilic anuclear horny layer of condensed keratin.
+## explicit_objective
+Identify stratified squamous epithelium as keratinized or non-keratinized, name the horny layer or the flattened superficial layer, and name the intermediate layers and the underlying connective tissue when marked.
+## pitfalls
+Deciding by thickness. A thick non-keratinized epithelium such as oesophagus is thicker than thin skin; the answer is decided by whether the superficial cells still have nuclei.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+DIS-HIS-T04
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p203 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p205 | 101 ISK
+src_b4cb8bf9f0c7a6584b4b | department_book | undated | p180 | 101 ISK
+src_05a0b0c29acc94017b8f | department_book | undated | p33 | 101 ISK
+## weight_confidence
+0.6
+## support_mode
+direct_statement
+## original_wording
+[DPT Practical Histo 101 p.203, answer p.204] Identify the epithelium / Yellow arrow points to ... & give 1 feature / Green arrow points to ... & give 1 feature / Name tissue marked by blue star
+[Answer page, keratinized] horny layer / keratin, acidophilic condensed layers; intermediate layers, polyhedral cells, rounded nuclei; connective tissue
+[DPT Practical Histo 101 p.205, answer p.206, non-keratinized] superficial layer: flat cells / flat nuclei
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+exam_signal: the practical book and the revision deck print no year, so the year slot reads "undated" rather than a guessed sitting.

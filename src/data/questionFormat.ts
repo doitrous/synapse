@@ -219,8 +219,17 @@ export function parseQuestionFormat(raw: string | undefined): QuestionFormat | n
   return FORMAT_ALIASES[value.replace(/[_/-]+/g, ' ')] ?? null
 }
 
-/** `### (a) 5 marks` — the label and the marks a paper prints beside a part. */
-const PART_HEADING = /^###\s*\(?\s*([A-Za-z0-9ivx]+)\s*\)?\s*(?:[-–—·|]\s*)?(?:(\d+)\s*marks?)?\s*$/i
+/**
+ * `### (a) 5 marks` — the label and the marks a paper prints beside a part.
+ *
+ * Marks may be fractional. A Kasr case prints one total of 3 over four lettered
+ * subparts, so each is worth 0.75, and `markWritten` already keeps a part's
+ * marks fractional on purpose — rounding each part and totalling drifts from
+ * the mark on the page. Requiring an integer here made those headings match
+ * nothing, and an unmatched heading is not an error: the part is silently
+ * dropped, so the question arrives with no mark scheme at all.
+ */
+const PART_HEADING = /^###\s*\(?\s*([A-Za-z0-9ivx]+)\s*\)?\s*(?:[-–—·|]\s*)?(?:(\d+(?:\.\d+)?)\s*marks?)?\s*$/i
 
 /**
  * Read the marked subparts of a written question.

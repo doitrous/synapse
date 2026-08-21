@@ -16,8 +16,10 @@ looks exactly like a file with nothing in it.
 | Batch | Items |
 | --- | --- |
 | `concept/101-ISK-concepts.md` | 17 |
-| `article/101-ISK-anatomy.md` | 3 |
+| `concept/101-ISK-practical-concepts.md` | 43 |
+| `article/101-ISK-anatomy.md` | 9 |
 | `article/101-ISK-histology.md` | 6 |
+| `practical/101-ISK-histology-practical.md` | 0 |
 | `written/101-ISK-EOY-2025-written.md` | 16 |
 
 ## Read short
