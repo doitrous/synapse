@@ -26,16 +26,21 @@ not just the last, and the answer distribution among intact questions is even
 That matters because it means these are recoverable by re-reading the cached page
 text rather than by re-running OCR: no page is re-rendered here.
 
-    python3 scripts/kasr/extract/repair-options.py [--dry-run | --self-test]
+    python3 scripts/kasr/extract/repair-options.py [--module "104 CPS"] \
+        [--dry-run | --self-test]
+
+`--module` selects the watermark profile AND the files: without it the bank and
+the page cache read and written are 101's, so `--module "104 CPS"` used to
+repair 104's rows into 101's bank -- the exact accident README.md describes.
 """
 import json
 import os
 import re
 import sys
 
+from kasr_module import out_path
+
 HERE = os.path.dirname(os.path.abspath(__file__))
-BANK = os.path.join(HERE, "mcq-bank.json")
-PAGETEXT = os.path.join(HERE, "pagetext")
 
 # Watermarks are a property of a PUBLISHER, not of the format.
 #
@@ -77,6 +82,11 @@ WATERMARKS: dict[str, "re.Pattern[str] | None"] = {
 }
 
 DEFAULT_MODULE = "101 ISK"
+
+
+def paths(module):
+    """(bank, page cache) for a module. 101 keeps the unprefixed paths."""
+    return out_path(module, "mcq-bank.json"), out_path(module, "pagetext")
 
 # `a- text`, `a. text`, `a) text`, with any indent.
 #
@@ -364,7 +374,8 @@ def main():
     if module not in WATERMARKS:
         print(f"no watermark profile for {module!r}; lines pass through untouched", file=sys.stderr)
     watermark = WATERMARKS.get(module)
-    bank = json.load(open(BANK))
+    bank_path, pagetext_dir = paths(module)
+    bank = json.load(open(bank_path, encoding="utf-8"))
     cache = {}
 
     repaired = 0
@@ -381,7 +392,7 @@ def main():
         for where in row["occurrences"]:
             source = where["sourceId"]
             if source not in cache:
-                path = os.path.join(PAGETEXT, f"{source}.json")
+                path = os.path.join(pagetext_dir, f"{source}.json")
                 cache[source] = json.load(open(path))["pages"] if os.path.exists(path) else None
             pages = cache[source]
             if not pages:
@@ -421,9 +432,18 @@ def main():
             if len(filled) < 4:
                 still_short += 1
 
+    # Naming the cause matters more than the count: the two corpora lose options
+    # for different reasons, and a report that blamed a watermark 104 does not
+    # have would send the next reader looking for one.
+    cause = ("publisher watermark ('ViP', 'Ac', 'ad') interleaved with the options, "
+             "leaving blank lines that ended a parse assuming options are contiguous"
+             if watermark is not None else
+             "OCR replacing option labels with look-alike glyphs ('0', '6', '\u00a2', "
+             "'\u00a9', '\u00ae', '\u20ac', '@'); the letter is recovered from the "
+             "label's position in the sequence, never from its shape")
     bank["optionRepair"] = {
-        "cause": "publisher watermark ('ViP', 'Ac', 'ad') interleaved with the options, "
-                 "leaving blank lines that ended a parse assuming options are contiguous",
+        "module": module,
+        "cause": cause,
         "rowsRepaired": repaired,
         "optionsRecovered": gained,
         "stillUnderFour": still_short,
@@ -433,8 +453,9 @@ def main():
     print(f"repaired {repaired} rows, recovered {gained} options, "
           f"{still_short} still under four, {unchanged} unchanged")
     if not dry:
-        json.dump(bank, open(BANK, "w"), indent=1, ensure_ascii=False)
-        print(f"written -> {BANK}")
+        with open(bank_path, "w", encoding="utf-8") as fh:
+            json.dump(bank, fh, indent=1, ensure_ascii=False)
+        print(f"written -> {bank_path}")
 
 
 if __name__ == "__main__":
