@@ -41,15 +41,44 @@ interface ManifestSource {
 const manifest = JSON.parse(readFileSync(join(REPO, MANIFEST), 'utf8'))
 const sources: Record<string, unknown> = {}
 
+/**
+ * Fourteen source IDs are on more than one manifest row — the same bytes filed
+ * under two names, or under two modules. The ID is content-addressed, so both
+ * rows are the same file and both paths are true.
+ *
+ * This used to assign row-by-row, so the **last row won** and the reported path
+ * depended on manifest order. Nothing about that order is stable across a
+ * regeneration, and it bit a lane for real: it corrected a record to match the
+ * index, regenerated, and the same record failed again with the error reversed —
+ * same file, same ID, same bytes.
+ *
+ * So an ambiguous ID now reports **no** single path. `sourceRelativePath` is
+ * null and `sourceRelativePaths` carries all of them, sorted. A consumer that
+ * wants to assert a path can assert against the set; one that wants a single
+ * answer is told there isn't one, which is the truth. An arbitrary pick makes
+ * every downstream assertion a coin flip, and a *stable* arbitrary pick only
+ * hides that it was a flip.
+ */
+const paths = new Map<string, Set<string>>()
+for (const source of manifest.sources as ManifestSource[]) {
+  const seen = paths.get(source.sourceId) ?? new Set<string>()
+  seen.add(source.corpusRelativePath)
+  paths.set(source.sourceId, seen)
+}
+
 let excluded = 0
+let ambiguous = 0
 for (const source of manifest.sources as ManifestSource[]) {
   // An excluded file is still a file the corpus contains. The exclusion is a
   // decision about whether to extract from it, not a claim that it is absent —
   // and a citation that names one should fail on the exclusion, with a reason,
   // rather than on "this source does not exist", which would be untrue.
-  if (source.exclusionReason) excluded += 1
+  if (source.exclusionReason && !sources[source.sourceId]) excluded += 1
+  const all = [...(paths.get(source.sourceId) ?? [])].sort()
+  if (all.length > 1 && !sources[source.sourceId]) ambiguous += 1
   sources[source.sourceId] = {
-    sourceRelativePath: source.corpusRelativePath,
+    sourceRelativePath: all.length === 1 ? all[0] : null,
+    sourceRelativePaths: all,
     sha256: source.sha256,
     processingStatus: source.processingStatus,
     pageCount: source.pageCount ?? null,
@@ -69,4 +98,4 @@ writeFileSync(join(REPO, OUT), `${JSON.stringify({
   sources,
 }, null, 1)}\n`)
 
-console.log(JSON.stringify({ sources: Object.keys(sources).length, excluded, out: OUT }, null, 1))
+console.log(JSON.stringify({ sources: Object.keys(sources).length, excluded, ambiguous, out: OUT }, null, 1))

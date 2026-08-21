@@ -8186,3 +8186,3579 @@ Extracted by the 102 INT lane from the shared 102/103 biochemistry question book
 
 ## randomise_answers
 yes
+
+---
+
+# Item
+
+## id
+QM-103-35BEBDAFC6F5
+
+## title
+Which of the following enzymes might be deficient in a newborn with elevated phenylalanine and phenylpyruvate?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A newborn infant has elevated levels of phenylalanine and phenylpyruvate in her blood.
+
+## question
+Which of the following enzymes might be deficient in this baby?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 22. Transcribed; the printed clinical sentence has been moved into the vignette and the ask kept in the question field.
+
+## correct_answer
+C
+
+## answer_a
+Phenylalanine dehydrogenase
+
+## explanation_a
+Incorrect, and no such enzyme handles phenylalanine in this pathway. A dehydrogenase would oxidise, and the reaction that is blocked is a hydroxylation. The name is close enough to the right one to catch a student recognising the first word only.
+
+## answer_b
+Phenylalanine oxidase
+
+## explanation_b
+Incorrect, and the same trap with a different suffix. Phenylalanine is not handled by an oxidase; the only oxidase in this part of the syllabus is L-amino acid oxidase, which is general and not specific to phenylalanine.
+
+## answer_c
+Phenylalanine hydroxylase
+
+## explanation_c
+Correct. Most cases of phenylketonuria are due to deficiency of phenylalanine hydroxylase, the BH4-dependent enzyme that converts phenylalanine to tyrosine. When it fails, phenylalanine cannot go down its normal route, so it is diverted into phenylpyruvate, phenyl-lactate and phenyl-acetate — which is exactly the biochemical picture in this baby, and the source of the musty or mousy odour of the urine. Three consequences follow from the one block: the raised phenylalanine and its metabolites interfere with the transport of tyrosine and tryptophan into the brain, so neurotransmitter synthesis falls and untreated children show mental retardation by the age of one year; hypopigmentation of hair, skin and iris follows both from tyrosine deficiency and from competitive inhibition of tyrosinase by high phenylalanine; and treatment is dietary restriction of phenylalanine with tyrosine supplementation, begun early enough to prevent the neurological damage.
+
+## answer_d
+Tyrosine hydroxylase
+
+## explanation_d
+Incorrect, and it is the most instructive distractor. Tyrosine hydroxylase is the next enzyme along, converting tyrosine to DOPA at the start of catecholamine synthesis; it uses the same cofactor. But a block there would leave phenylalanine normal, because phenylalanine would still be converted to tyrosine. The raised phenylalanine in the vignette places the lesion upstream of tyrosine, not downstream of it.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Easy
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-FND-D7BB8C3AFB54CC
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-A6E502DCE4232F
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+82
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-FND-587B0A39D3C0BD
+
+## library_ids
+ART-103-BIO-PHENYLKETONURIA
+
+## resource_ids
+
+## learning_objective
+Identify phenylalanine hydroxylase as the enzyme deficient in classic PKU, and use the position of the raised metabolite to place the block relative to tyrosine.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 130 (printed 123), question 22. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 102, "Phenylketonuria (PKU)".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p130-q22. correctSource verbatim: "printed key (p132)". SPLIT REPAIR, not an OCR repair: the printed item runs the clinical sentence and the ask together; the sentence now sits in `vignette` and the ask in `question`. MAPPED TO AN EXISTING CONCEPT: CON-FND-D7BB8C3AFB54CC was already authored from the 2025 end-of-year paper and states exactly what this item tests, so nothing new was minted; the same is true of the contextual CON-FND-587B0A39D3C0BD. That two independent sources — the exam paper and the department question book — both examine this concept is the repeated-appearance evidence the concept's exam_signal exists to record. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-5BE16A5FF62D
+
+## title
+The synthesis of one of the following compounds is not deficient in a patient suffering from Phenylketonuria
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+In untreated phenylketonuria tyrosine is in short supply and phenylalanine is high enough to inhibit enzymes competitively. Anything built from tyrosine suffers; anything built elsewhere does not.
+
+## question
+The synthesis of one of the following compounds is not deficient in a patient suffering from Phenylketonuria
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 23. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Melanin
+
+## explanation_a
+Deficient, so not the answer. Melanin is made from tyrosine via DOPA by tyrosinase, and it fails twice over in PKU: there is too little tyrosine to start from, and high phenylalanine competitively inhibits tyrosinase. This is the hypopigmentation of hair, skin and iris.
+
+## answer_b
+Melatonin
+
+## explanation_b
+Correct — melatonin is the one that is **not** deficient in this list, because it is not a tyrosine derivative at all. Melatonin is made from **tryptophan**: tryptophan is hydroxylated and decarboxylated to serotonin, serotonin is acetylated to N-acetylserotonin in the pineal body, and SAM methylates that to melatonin. None of those steps needs tyrosine. The item is really testing whether a student can separate the two aromatic amino acid families, because the names melanin and melatonin differ by two letters and belong to different precursors. Worth noting for completeness: PKU does impair the *transport* of tryptophan into the brain, so central serotonin can fall — but that is a transport effect on the brain, not a failure of melatonin synthesis, and the book's own account of PKU attributes the deficiency list to tyrosine.
+
+## answer_c
+Catecholamines
+
+## explanation_c
+Deficient, so not the answer. Dopamine, noradrenaline and adrenaline all descend from tyrosine through DOPA, so a tyrosine shortage limits them — and the book names impaired neurotransmitter synthesis in the brain as part of why untreated PKU causes mental retardation.
+
+## answer_d
+Thyroid hormone
+
+## explanation_d
+Deficient, so not the answer. T3 and T4 are built by iodinating the tyrosine residues of thyroglobulin, so they too depend on tyrosine supply.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Hard
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-FND-FA4D15805B9D02 | CON-NEU-6C4A6BDA725F0E
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.65
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+44
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-D7BB8C3AFB54CC | CON-FND-1DF6B985CB77A1
+
+## library_ids
+ART-103-BIO-PHENYLALANINE-AND-TYROSINE | ART-103-BIO-TRYPTOPHAN-AND-HISTIDINE
+
+## resource_ids
+
+## learning_objective
+Separate the tyrosine-derived compounds from the tryptophan-derived ones, and predict which are affected in phenylketonuria.
+
+## media_recommendations
+### comparison table · Question stem
+Brief: Tyrosine and tryptophan in two columns with their derivatives beneath — catecholamines, melanin, thyroid hormones under one; serotonin, melatonin, nicotinic acid under the other
+Purpose: The item exists because melanin and melatonin are separated by two letters and by an entire precursor. Two columns is the smallest presentation that makes the split unmistakable, and it also answers three other questions in this chapter.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 130 (printed 123), question 23. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 101 (tyrosine derivatives), printed page 102 (PKU manifestations) and printed page 104 (melatonin from serotonin).
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p130-q23. correctSource verbatim: "printed key (p132)". No OCR repair was needed. TWO MAIN CONCEPTS: the item genuinely assesses both the tyrosine derivative list and the tryptophan derivative list — a student must hold both to answer — so both earn mastery evidence, and library_ids names an article for each. PKU itself is contextual: the scenario needs it, the item does not test it. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+85
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-44B689DEA800
+
+## title
+Regarding a one-week-old male infant with classic phenylketonuria:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A one-week-old male infant is found on newborn screening to have classic phenylketonuria. Four statements are offered about his amino acid requirements, his diagnosis and his management.
+
+## question
+Regarding a one-week-old male infant with classic phenylketonuria:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 24. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Tyrosine is a nonessential amino acid for the infant
+
+## explanation_a
+Incorrect for this infant, and the reasoning is the point. Tyrosine is normally non-essential because phenylalanine hydroxylase makes it from phenylalanine. In classic PKU that enzyme is missing, so the only route to tyrosine is closed and it becomes *conditionally essential* — which is why treatment supplements it. A student who answers from the summary table without applying the disease takes this option.
+
+## answer_b
+Results from deficiency of the enzyme phenylalanine hydroxylase
+
+## explanation_b
+Correct. Most cases of PKU are due to deficiency of phenylalanine hydroxylase; the remaining one to two per cent are due to deficiency of its coenzyme tetrahydrobiopterin, and those need BH4 supplementation as well as diet. The consequences all follow from the single block: phenylalanine and its diverted metabolites — phenylpyruvate, phenyl-lactate, phenyl-acetate — accumulate in tissues, plasma and urine and give the urine a musty odour; they interfere with the transport of tyrosine and tryptophan into the brain, so neurotransmitter synthesis falls and untreated children show mental retardation by the age of one year; and pigment fails, from tyrosine deficiency together with competitive inhibition of tyrosinase. Because the damage is developmental and cumulative, the treatment must start in the first weeks of life — which is what makes newborn screening worth doing.
+
+## answer_c
+Follow up for phenylalanine level is not required
+
+## explanation_c
+Incorrect, and dangerously so. The diet is a balance: too much phenylalanine causes neurological damage, and too little starves the infant of an essential amino acid needed for protein synthesis. Only repeated measurement keeps a patient inside that window.
+
+## answer_d
+A diet free of phenylalanine should be initiated in the second year of life
+
+## explanation_d
+Incorrect on the timing, and it inverts the clinical urgency. The book is explicit that early diagnosis is important to avoid mental retardation, which manifests by the age of one year — so waiting until the second year concedes exactly the damage treatment exists to prevent. Note also that the diet is phenylalanine-*restricted*, not phenylalanine-free: phenylalanine is an essential amino acid and cannot be removed altogether.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Moderate
+
+## question_type
+Management
+
+## main_concept
+CON-FND-D7BB8C3AFB54CC
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.55
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-81A4F3A9C51B7B
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+58
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-FND-587B0A39D3C0BD
+
+## library_ids
+ART-103-BIO-PHENYLKETONURIA
+
+## resource_ids
+
+## learning_objective
+State the enzyme deficient in classic PKU, explain why tyrosine becomes conditionally essential, and justify why treatment must begin in the neonatal period and be monitored.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 130 (printed 123), question 24. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 102, "Phenylketonuria (PKU) — Causes, Manifestations, Treatment".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p130-q24. correctSource verbatim: "printed key (p132)". No OCR repair was needed; the vignette adds only that the infant was found on newborn screening, which is context and not a fact the item turns on. MAPPED TO EXISTING CONCEPTS: both CON-FND-D7BB8C3AFB54CC and CON-FND-81A4F3A9C51B7B were authored from the 2025 end-of-year paper and cover the enzyme defect and the dietary treatment respectively; nothing was minted for this item. This is treatment content, so it stays Draft for faculty review. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-B46D790631A6
+
+## title
+Melanin synthesis is decreased in:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Melanin is made in melanocytes from DOPA by tyrosinase, and DOPA comes from tyrosine. Anything that removes the substrate or blocks the enzyme will pale the hair, skin and iris.
+
+## question
+Melanin synthesis is decreased in:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 25. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Exposure to sun
+
+## explanation_a
+Incorrect, and it is the opposite of the truth. Ultraviolet exposure *increases* melanin synthesis — that is what tanning is, and it is the protective response whose absence in albinism leaves the skin sensitive to ultraviolet rays.
+
+## answer_b
+Alkaptonuria
+
+## explanation_b
+Incorrect. Alkaptonuria is a block further down tyrosine's *catabolic* pathway, at homogentisate oxidase. Homogentisate accumulates and auto-oxidises to dark quinones, so the patient acquires **extra** dark pigment in bone and cartilage — ochronosis — and passes urine that blackens on standing. The pigment is not melanin and the melanin pathway is untouched.
+
+## answer_c
+Vitamin B6 deficiency
+
+## explanation_c
+Incorrect for melanin specifically. B6 deficiency does impair PLP-dependent reactions broadly — transamination, the decarboxylations that make GABA, histamine and serotonin, cystathionine synthase, and ALA synthase — but the two enzymes of the melanin route, tyrosine hydroxylase and tyrosinase, are not PLP-dependent. This distractor catches a student who generalises "B6 is everywhere in amino acid metabolism" without checking the specific enzyme.
+
+## answer_d
+Phenylketonuria
+
+## explanation_d
+Correct, and the mechanism is doubled, which is why the department book names both halves. First, phenylalanine cannot be converted to tyrosine, so there is a shortage of the substrate melanin is built from. Second, the phenylalanine that accumulates competitively inhibits **tyrosinase**, the enzyme that makes melanin from DOPA. Substrate lack and enzyme inhibition together give the hypopigmentation of hair, skin and iris that is one of the three cardinal manifestations of classic PKU, alongside the raised phenylalanine with its musty-smelling metabolites and the CNS damage. Contrast this with albinism, where tyrosine and phenylalanine are entirely normal and the sole lesion is a genetic lack of tyrosinase — same pale phenotype, quite different biochemistry.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-FND-1DF6B985CB77A1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-FA4D15805B9D02
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+64
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-49155E4E08617B
+
+## library_ids
+ART-103-BIO-PHENYLKETONURIA
+
+## resource_ids
+
+## learning_objective
+Give both mechanisms of hypopigmentation in PKU, and distinguish it from albinism and from the pigment of alkaptonuria.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 130 (printed 123), question 25. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 102: "Hypopigmentation of hair, skin, and iris of the eye due to deficiency of tyrosine. High levels of phenylalanine also competitively inhibit tyrosinase enzyme."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p130-q25. correctSource verbatim: "printed key (p132)". No OCR repair was needed. MAPPED TO AN EXISTING CONCEPT: CON-FND-1DF6B985CB77A1, authored from the 2025 end-of-year paper, already states the two-mechanism account of PKU hypopigmentation that this item tests, so nothing was minted. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-37150A587EA9
+
+## title
+Which of the following enzymes could be defective in a child passing black coloured urine?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A child was brought to the paediatric clinic with a complaint of passage of black coloured urine. The mother reports that the urine is a normal colour when passed and darkens as it stands.
+
+## question
+Which of the following enzymes could be defective?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 26. Transcribed; the printed clinical sentence has been moved into the vignette and the ask kept in the question field.
+
+## correct_answer
+C
+
+## answer_a
+Tyrosine aminotransferase
+
+## explanation_a
+Incorrect. Tyrosine aminotransferase catalyses the *first* step of tyrosine catabolism, converting tyrosine to p-hydroxyphenylpyruvate. A block there would raise tyrosine itself and would produce no homogentisate at all — and homogentisate is what darkens.
+
+## answer_b
+Fumarylacetoacetate hydrolase
+
+## explanation_b
+Incorrect for this presentation, and it is the closest wrong answer because it is the very next enzyme along. It acts *after* homogentisate oxidase, hydrolysing the final intermediate into fumarate and acetoacetate, so a block there does not let homogentisate accumulate and gives no black urine.
+
+## answer_c
+Homogentisate oxidase
+
+## explanation_c
+Correct — this is alkaptonuria. Homogentisate oxidase opens the ring of homogentisate to maleylacetoacetate, and it requires vitamin C and Fe²⁺. When it is deficient, homogentisate accumulates in the tissues and is excreted in the urine, where it auto-oxidises to deep brown quinones. That is why the history in the vignette matters so much: the child voids urine of normal colour and it darkens only on standing, because the oxidation happens in air rather than in the bladder. The same quinones deposit in bone and cartilage, colouring them brown — ochronosis — and the patient suffers arthritis. Set alkaptonuria beside the other two tyrosine disorders and the pattern is clean: PKU is a block *before* tyrosine, albinism a block in the *synthetic* branch to melanin, and alkaptonuria a block in the *catabolic* branch.
+
+## answer_d
+Tyrosinase
+
+## explanation_d
+Incorrect, and it names the opposite phenotype. Lack of tyrosinase is albinism, in which hair, skin and choroid are devoid of melanin — too little pigment, not too much. A student who has linked "tyrosine enzyme" to "pigment" without asking which direction takes this.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-FND-49155E4E08617B
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-634036621EB132
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-PHENYLALANINE-AND-TYROSINE
+
+## resource_ids
+
+## learning_objective
+Identify homogentisate oxidase deficiency as alkaptonuria from the history of urine darkening on standing, and place the three tyrosine-pathway disorders relative to one another.
+
+## media_recommendations
+### diagram · Explanation for answer C
+Brief: The phenylalanine–tyrosine pathway as a single tree, with PKU marked at phenylalanine hydroxylase, albinism at tyrosinase on the melanin branch, and alkaptonuria at homogentisate oxidase on the catabolic branch
+Purpose: Three diseases sit at three different points of one pathway and every distractor here is an adjacent enzyme. Marking the blocks on one tree is what converts three memorised names into one map a student can reason from.
+Priority: required
+Status: needed
+Section: Explanation C
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 130 (printed 123), question 26. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 102, "Alkaptonuria", and the tyrosine catabolism diagram on printed page 100.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p130-q26. correctSource verbatim: "printed key (p132)". SPLIT REPAIR, not an OCR repair: the printed item runs the clinical sentence and the ask together; the sentence now sits in `vignette` and the ask in `question`. The vignette's second sentence — that the urine is normal when passed and darkens on standing — is the book's own observation ("The child void urine of normal color, but soon it darkens to black") moved into the presentation, and it is the finding that discriminates option C from option B. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-6350ED72B7FA
+
+## title
+Albinism is a genetic disease due to lack of one of the following enzymes:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A child has white hair, very pale skin that burns easily in the sun, and a translucent iris. Plasma phenylalanine and tyrosine are normal.
+
+## question
+Albinism is a genetic disease due to lack of one of the following enzymes:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 27. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Homogentisate oxidase
+
+## explanation_a
+Incorrect, and it is the opposite disease. Lack of homogentisate oxidase is alkaptonuria, in which pigment *accumulates*: homogentisate auto-oxidises to brown quinones that darken urine on standing and stain cartilage and bone.
+
+## answer_b
+Monoamine oxidase
+
+## explanation_b
+Incorrect. MAO degrades the biogenic amines and is the enzyme that converts serotonin to 5-HIAA, the metabolite measured in carcinoid tumour. It has no role in pigment formation.
+
+## answer_c
+Tyrosinase
+
+## explanation_c
+Correct. Albinism is a genetic disease due to lack of tyrosinase, the enzyme that converts DOPA into melanin inside the melanocyte. Hair, skin and the choroidal cells lining the eye globe are therefore devoid of melanin, and the skin becomes sensitive to ultraviolet rays because the pigment that normally absorbs it is missing. The vignette's normal plasma phenylalanine and tyrosine are what place the lesion here rather than in PKU: in albinism the amino acids upstream are entirely normal and only the last synthetic step has failed, whereas in PKU the pale phenotype is a downstream consequence of a raised phenylalanine and a low tyrosine. Same appearance, different level of the pathway — and the plasma tells you which.
+
+## answer_d
+Cystathionine synthase
+
+## explanation_d
+Incorrect. Cystathionine synthase deficiency is homocystinuria, a disorder of the sulfur amino acids with vascular, skeletal, ocular and neurological features. Its ocular sign is lens dislocation, not iris translucency, which is a fair reason for a student to hesitate between the two eye findings.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## difficulty
+Easy
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-DER-6665EA8EA687C3
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aromatic Amino Acids (Phenylalanine and Tyrosine)
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-FA4D15805B9D02
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-1DF6B985CB77A1
+
+## library_ids
+ART-DER-TOP-9820AF6B50 | ART-103-BIO-PHENYLALANINE-AND-TYROSINE
+
+## resource_ids
+
+## learning_objective
+Name tyrosinase as the enzyme lacking in albinism, and use the plasma amino acid pattern to distinguish albinism from the hypopigmentation of phenylketonuria.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 131 (printed 124), question 27. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 103, "Albinism".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p131-q27. correctSource verbatim: "printed key (p132)". No OCR repair was needed. MAPPED TO A LIVE CONCEPT: searching live state by label text rather than by subject returned CON-DER-6665EA8EA687C3, "Albinism is absent melanin production caused by a genetic defect in tyrosinase synthesis", which is already live under the legacy subjectId "medical" and is taught by the live article ART-DER-TOP-9820AF6B50. Nothing was minted. The 103 biochemistry article is named alongside it in library_ids so the item is reachable from the module's own library as well. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-19BAEB91B1D1
+
+## title
+Tryptophan could be considered as precursor of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Tryptophan is the only amino acid that yields a vitamin as well as two neuroactive amines, which is why its deficiency and its diversion both matter clinically.
+
+## question
+Tryptophan could be considered as precursor of:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 28. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Melatonin
+
+## explanation_a
+Correct. Tryptophan is hydroxylated by BH4-dependent tryptophan hydroxylase to 5-hydroxytryptophan and decarboxylated to serotonin; in the pineal body serotonin is acetylated to N-acetylserotonin and then methylated by SAM to melatonin. Melatonin acts as an antioxidant, rises during the dark hours and falls in daylight, so it promotes sleep to some extent, and acts as an antidepressant. Tryptophan's other two products are worth holding beside it: nicotinic acid, made in the presence of vitamin B6, so that deficiency of either tryptophan or B6 gives pellagra-like manifestations; and serotonin itself, a CNS transmitter that also contracts smooth muscle and causes vasoconstriction. Add formyl-THF from its catabolism and the indole and skatole produced when it is putrefied in the large intestine, and that is the whole tryptophan list.
+
+## answer_b
+Thyroid hormones
+
+## explanation_b
+Incorrect. Thyroid hormones come from iodinated **tyrosine** residues of thyroglobulin. Both are aromatic amino acids hydroxylated by BH4-dependent enzymes, which is the family resemblance the distractor trades on.
+
+## answer_c
+Melanin
+
+## explanation_c
+Incorrect. Melanin comes from **tyrosine** by way of DOPA, using tyrosinase. Melanin and melatonin are two letters apart and belong to different amino acids — the single most reliable confusion in this chapter.
+
+## answer_d
+Epinephrine
+
+## explanation_d
+Incorrect. Adrenaline is the end of the **tyrosine** catecholamine chain, made by SAM-dependent methylation of noradrenaline. SAM appears in both this pathway and in melatonin synthesis, which is a real link but not one that makes tryptophan the precursor.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Tryptophan
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-NEU-6C4A6BDA725F0E
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Tryptophan
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+76
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-FA4D15805B9D02 | CON-FND-3622E11F05032C
+
+## library_ids
+ART-103-BIO-TRYPTOPHAN-AND-HISTIDINE
+
+## resource_ids
+
+## learning_objective
+List tryptophan's derivatives — serotonin, melatonin, nicotinic acid, formyl-THF, indole and skatole — and assign the tyrosine-derived distractors to their own precursor.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 131 (printed 124), question 28. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 103–104, "TRYPTOPHAN — Functions and Derivatives".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p131-q28. correctSource verbatim: "printed key (p132)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-E65F615B6C82
+
+## title
+Serotonin:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Serotonin is made both in nervous tissue and in the argentaffin cells of the intestine, and its two settings suggest two different functions.
+
+## question
+Serotonin:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 29. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Causes vasodilatation.
+
+## explanation_a
+Incorrect, and it is the exact inversion of the answer. Serotonin stimulates contraction of smooth muscle, and contracting vascular smooth muscle narrows the vessel. The amine that causes vasodilatation in this chapter is **histamine**, from histidine — and confusing the two biogenic amines' vascular effects is the error this option is built to catch.
+
+## answer_b
+Causes albinism.
+
+## explanation_b
+Incorrect. Albinism is lack of tyrosinase, on the tyrosine pathway. Serotonin belongs to tryptophan and has no connection to pigmentation.
+
+## answer_c
+Is an antioxidant
+
+## explanation_c
+Incorrect for serotonin, but true of the molecule one step downstream, which makes this the sharpest distractor here. The department book attributes antioxidant activity to **melatonin**, which is made from serotonin in the pineal body. A student who has read the tryptophan section and remembers "antioxidant" without remembering which of the two molecules it belonged to lands here.
+
+## answer_d
+Acts as a vasoconstrictor
+
+## explanation_d
+Correct. Serotonin, or 5-hydroxytryptamine, is synthesised in nervous tissue and in the argentaffin cells of the intestine. It is an important chemical transmitter in the central nervous system, and it stimulates contraction of smooth muscle, which produces vasoconstriction. Both halves of that sentence matter for the exam: the CNS transmitter role is what antidepressants act on, and the smooth-muscle role is what makes a carcinoid tumour — a tumour of the argentaffin cells that overproduces serotonin — a systemic illness rather than a local one. Serotonin is degraded by monoamine oxidase to 5-HIAA, which is the metabolite measured in blood and urine when carcinoid is suspected.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Tryptophan
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-NEU-6C4A6BDA725F0E
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Tryptophan
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-82BFCE60217493
+
+## library_ids
+ART-103-BIO-TRYPTOPHAN-AND-HISTIDINE
+
+## resource_ids
+
+## learning_objective
+State serotonin's two actions — CNS transmitter and smooth muscle contraction causing vasoconstriction — and contrast its vascular effect with histamine's.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 131 (printed 124), question 29. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 103: "It is an important chemical transmitter in the CNS. Also, it stimulates contraction of smooth muscles leading to vasoconstriction", and printed page 104 for melatonin as antioxidant.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p131-q29. correctSource verbatim: "printed key (p132)". No OCR repair was needed; the trailing full stops on options a and b are the book's own inconsistent punctuation and are left as printed. CANCELLATION NOTE: the contrast drawn with histamine in explanation a comes from Histidine on printed page 105, which the orientation cancels. It is offered as an aid in an explanation only; the item tests serotonin, which is not cancelled, and CON-FND-82BFCE60217493 is tagged contextual so no mastery is awarded for histamine here. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-0A76A3857976
+
+## title
+Serotonin is synthesized from which of the following amino acids?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Serotonin is 5-hydroxytryptamine. The name records both the modification and the amino acid it was made from.
+
+## question
+Serotonin is synthesized from which of the following amino acids?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 30. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Cysteine
+
+## explanation_a
+Incorrect. Cysteine gives cystine, taurine, glutathione, PAPS and thioethanolamine — a sulfur chemistry with no amines among it.
+
+## answer_b
+Histidine
+
+## explanation_b
+Incorrect, but it is the closest structural neighbour: histidine is decarboxylated to histamine, another biogenic amine with vascular effects. The difference is that histamine needs only a decarboxylation, whereas serotonin needs a hydroxylation first.
+
+## answer_c
+Serine
+
+## explanation_c
+Incorrect, and it is pure name-similarity. "Serine" and "serotonin" share four letters and nothing else: serine gives glycine, cysteine's carbon skeleton, phospholipids and one-carbon units.
+
+## answer_d
+Tryptophan
+
+## explanation_d
+Correct. Tryptophan hydroxylase, which requires tetrahydrobiopterin, converts tryptophan to 5-hydroxytryptophan, and decarboxylation then gives serotonin — 5-hydroxytryptamine. Reading the chemical name backwards recovers the whole pathway: "tryptamine" says decarboxylated tryptophan, and "5-hydroxy" says the ring was hydroxylated first. Serotonin then has two fates worth knowing: monoamine oxidase degrades it to 5-HIAA, the urinary marker of carcinoid tumour, and in the pineal body it is acetylated and methylated by SAM to melatonin.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Tryptophan
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-NEU-6C4A6BDA725F0E
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Tryptophan
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.2
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+86
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-TRYPTOPHAN-AND-HISTIDINE
+
+## resource_ids
+
+## learning_objective
+Name tryptophan as serotonin's precursor and read the two synthetic steps out of the chemical name 5-hydroxytryptamine.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 131 (printed 124), question 30. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 103, "3- Serotonin", and the tryptophan hydroxylase diagram on printed page 104.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p131-q30. correctSource verbatim: "printed key (p132)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-34651B1F6A20
+
+## title
+In carcinoid tumor the patient presents with increased levels of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A patient with episodic flushing, diarrhoea and wheezing is investigated for a tumour of the argentaffin cells of the gastrointestinal tract.
+
+## question
+In carcinoid tumor the patient presents with increased levels of:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 31. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Melatonin
+
+## explanation_a
+Incorrect. Melatonin is made from serotonin in the **pineal body**, not in the intestine, and the argentaffin cells of a carcinoid tumour have no melatonin-forming machinery. This distractor works because melatonin is genuinely downstream of serotonin, and a student who knows the pathway but not the tissue takes it.
+
+## answer_b
+Tyrosine
+
+## explanation_b
+Incorrect. Tyrosine belongs to a different amino acid family altogether and is not affected. A tyrosine-derived tumour marker exists, but it belongs to phaeochromocytoma and the catecholamines, not to carcinoid.
+
+## answer_c
+5-HIAA
+
+## explanation_c
+Correct. A carcinoid tumour, or argentaffinoma, is a tumour of the argentaffin cells of the gastrointestinal tract, and it overproduces serotonin. Both serotonin and its metabolite **5-hydroxyindole-acetic acid (5-HIAA)** are raised in blood and urine, 5-HIAA being formed from serotonin by monoamine oxidase. Urinary 5-HIAA is the practical test because it is a stable end product rather than a rapidly cleared amine. There is a second consequence that the department lists as a thing to explain on a biochemical basis: **pellagra may develop in carcinoid tumour**, because the tumour shunts tryptophan metabolism towards serotonin and its metabolites, leaving markedly less tryptophan for nicotinic acid synthesis. A tumour of one pathway therefore produces a vitamin deficiency in another, which is the sort of connection worth carrying into a written paper.
+
+## answer_d
+Nicotinic acid
+
+## explanation_d
+Incorrect, and it is the option that moves in the opposite direction. Nicotinic acid synthesis *falls* in carcinoid tumour because tryptophan is diverted into serotonin — which is exactly why pellagra may develop. A student who has learned that carcinoid involves tryptophan, without tracking which branch gains and which loses, will pick it.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Tryptophan
+
+## difficulty
+Moderate
+
+## question_type
+Investigation
+
+## main_concept
+CON-GIT-4952149F99782D
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Tryptophan
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-NEU-6C4A6BDA725F0E
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-C9E5128193029E
+
+## library_ids
+ART-103-BIO-TRYPTOPHAN-AND-HISTIDINE
+
+## resource_ids
+
+## learning_objective
+Name 5-HIAA as the raised metabolite in carcinoid tumour, and explain why pellagra may develop in the same patient.
+
+## media_recommendations
+### flowchart · Explanation for answer C
+Brief: Tryptophan branching to nicotinic acid on one side and to serotonin then 5-HIAA on the other, with the carcinoid tumour drawn as pulling flux down the serotonin branch and the nicotinic acid branch thinning
+Purpose: Options C and D are the two ends of one branch point moving in opposite directions, and that is the fact the question is set on. A flux diagram shows the diversion; a sentence saying "tryptophan is shunted" does not make the loss on the other branch visible.
+Priority: required
+Status: needed
+Section: Explanation C
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 131 (printed 124), question 31. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 104: "Carcinoid tumor or argentaffinoma … presents with increased levels of serotonin and its metabolite, 5-hydroxyindole-acetic acid (5-HIAA) in both blood and urine … Pellagra may develop in carcinoid tumor."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p131-q31. correctSource verbatim: "printed key (p132)". No OCR repair was needed. The vignette's flushing, diarrhoea and wheezing are authored clinical context and are not in the department book, which describes the tumour biochemically; they are standard carcinoid syndrome features and none of them is what the item tests. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-7BCACD362EF0
+
+## title
+In carcinoid tumor, the argentaffin cells in the intestine overproduce:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Argentaffin cells are one of the two normal sites of serotonin synthesis, the other being nervous tissue. A tumour of them is a tumour of a synthetic cell.
+
+## question
+In carcinoid tumor, the argentaffin cells in the intestine overproduce:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 32. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Serotonin
+
+## explanation_a
+Correct. Serotonin is synthesised in nervous tissue and in the argentaffin cells of the intestine, so a tumour of those cells overproduces what they already make. Both serotonin and its monoamine oxidase product 5-HIAA rise in blood and urine, and because so much tryptophan is diverted into this branch, nicotinic acid synthesis falls and pellagra may develop. The reasoning is worth generalising: to predict what an endocrine tumour secretes, ask what the cell of origin secretes normally — the tumour amplifies the cell's own chemistry rather than inventing new chemistry.
+
+## answer_b
+Histamine
+
+## explanation_b
+Incorrect for carcinoid. Histamine is the decarboxylation product of histidine and is stored in mast cells and basophils, which are the cells a tumour would have to arise from. Some carcinoid tumours do release other mediators, but the amine the department book names is serotonin.
+
+## answer_c
+Tryptamine
+
+## explanation_c
+Incorrect, and it is the near-miss. Tryptamine is decarboxylated tryptophan *without* the hydroxylation, whereas serotonin is 5-hydroxytryptamine — hydroxylated first, then decarboxylated. One missing hydroxyl group separates the two names, and the tryptophan hydroxylase step is what the pathway actually does first.
+
+## answer_d
+Tyrosine
+
+## explanation_d
+Incorrect. Tyrosine is an amino acid, not a secreted mediator, and it belongs to the other aromatic family. Nothing in the argentaffin cell overproduces it.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Tryptophan
+
+## difficulty
+Easy
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-GIT-4952149F99782D
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Tryptophan
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+78
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-NEU-6C4A6BDA725F0E
+
+## library_ids
+ART-103-BIO-TRYPTOPHAN-AND-HISTIDINE
+
+## resource_ids
+
+## learning_objective
+State that carcinoid tumour overproduces serotonin, and distinguish serotonin from tryptamine by the hydroxylation step.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 131 (printed 124), question 32. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 103–104, "Serotonin … synthesized in the nervous tissue and in the intestine by argentaffin cells" and "Carcinoid tumor or argentaffinoma".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p131-q32. correctSource verbatim: "printed key (p132)". No OCR repair was needed. This item and question 31 of the same chapter share a main concept — one asks what the tumour makes and the other what is measured — and both are kept; the repetition is the blueprint signal. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-DD91757C49B0
+
+## title
+Histamine is formed from histidine by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Histidine is an essential, glucogenic amino acid whose carbon skeleton joins the glutamate pool. Its best-known derivative is made by a single chemical step.
+
+## question
+Histamine is formed from histidine by:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Individual Amino Acid Metabolism, multiple choice question 33. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Deamination
+
+## explanation_a
+Incorrect, and it removes the wrong group. Deamination strips the nitrogen off, leaving a keto acid; histamine still has its nitrogen — that is what makes it an amine. Any answer that removes nitrogen cannot give an amine.
+
+## answer_b
+Dehydrogenation
+
+## explanation_b
+Incorrect. Dehydrogenation is an oxidation, removing hydrogen, and histidine's route to histamine is not an oxidation. Histidine's catabolic route does begin with a lyase reaction to give N-formimino-glutamate, but that is a different pathway with a different product.
+
+## answer_c
+Decarboxylation
+
+## explanation_c
+Correct. Histamine is the decarboxylation product of histidine — the α-carboxyl group leaves as CO2 and the nitrogen stays, giving the amine. The department book records that histamine causes vasodilatation and mediates allergic reactions, and that histidine's other special role is in the binding of iron and oxygen to the globin of haemoglobin and the apomyoglobin of myoglobin. This is the fourth example in the chapter of the same rule: a biogenic amine is made by decarboxylating an amino acid while keeping its nitrogen — glutamate to GABA, DOPA to dopamine, 5-hydroxytryptophan to serotonin, histidine to histamine — and every one of those decarboxylases is PLP-dependent.
+
+## answer_d
+Carboxylation
+
+## explanation_d
+Incorrect, and it is the reverse of the answer. Carboxylation *adds* a carboxyl group; the vitamin K–dependent γ-carboxylation of glutamate residues in clotting factors is the example this chapter gives, and it produces no amine at all.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Histidine
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-82BFCE60217493
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Histidine
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.4
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.05
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+82
+
+## exam_relevance
+1
+
+## contextual_concept_ids
+CON-NEU-46F59E9C3EA406
+
+## library_ids
+ART-103-BIO-TRYPTOPHAN-AND-HISTIDINE
+
+## resource_ids
+
+## learning_objective
+State that histamine is formed from histidine by decarboxylation, and generalise the rule that biogenic amines are decarboxylation products.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Individual Amino Acid Metabolism, PDF page 131 (printed 124), question 33. Answer key on PDF page 132 (printed 125). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 105: "Histamine is the decarboxylation product of histidine."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p131-q33. correctSource verbatim: "printed key (p132)". No OCR repair was needed. CANCELLED TOPIC — this is the one item of this chapter that falls on the department's cancelled list. The orientation cancels "Histidine & proline (p105)" for both the end-of-module and the final exam, and this question tests the Histidine item on printed page 105 directly. The question is kept, because a cancelled topic is still in the question book and a student may still meet it, but the weights deliberately claim no examination: exam_relevance is 1 and exam_weight_by_year is 0.05. The cancellation is recorded on the concept CON-FND-82BFCE60217493 in field_notes with weight_confidence held low. The book's own phrasing, "It causes vasodilatation and ameliorates allergic reactions", reads oddly — "ameliorates" appears to be printed for "mediates" — and the explanation uses "mediates"; this is flagged for the faculty reviewer rather than corrected in the source citation. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-A87F24F58B91
+
+## title
+Major sites of heme biosynthesis are:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Heme is needed for two quite different purposes — to carry oxygen, and to hold the iron of the cytochromes. The two organs that make most of it are the two that need it most.
+
+## question
+Major sites of heme biosynthesis are:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 1. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+liver and kidney
+
+## explanation_a
+Incorrect, and this is the pair a student reaches for when they have merged two different lists. Liver and kidney together are the sites of **L-amino acid oxidase**, and the kidney's role in nitrogen handling is prominent elsewhere in this syllabus — but the kidney is not a major site of heme synthesis.
+
+## answer_b
+liver and bone marrow
+
+## explanation_b
+Correct. The major sites are the erythrocyte-producing cells of the bone marrow, which are active in haemoglobin synthesis, and the liver, which synthesises several heme proteins, particularly cytochrome P450. The two sites explain the two regulatory patterns: marrow synthesis is geared to erythropoiesis and is relatively steady, whereas hepatic synthesis must respond quickly to demand for cytochrome P450 — which is why drugs that induce P450, such as barbiturates, induce ALA synthase and can precipitate an acute porphyric attack. Intracellularly, the pathway is split: the initial reaction and the last three steps occur in mitochondria, and the intermediate steps in the cytosol.
+
+## answer_c
+RBCs and kidney
+
+## explanation_c
+Incorrect, and the first half is the more instructive error. Mature red blood cells have no mitochondria, and the first and last three steps of heme synthesis are mitochondrial — so a mature erythrocyte cannot make heme at all. It is the *nucleated precursors* in the marrow that do. This is the same fact that makes glycolysis the red cell's only source of ATP.
+
+## answer_d
+Heart and kidney
+
+## explanation_d
+Incorrect. Cardiac muscle is rich in mitochondria and therefore in cytochromes, so it needs heme, but it is not a major site of synthesis. Needing a molecule and manufacturing it for the body are different things.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Biosynthesis of Heme
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-HEM-3D75438A839FBD
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Biosynthesis of Heme
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.35
+
+## cognitive_effort_score
+0.4
+
+## exam_weight_by_year
+KAU_Y1=0.05
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+65
+
+## exam_relevance
+1
+
+## contextual_concept_ids
+CON-HEM-095C9C97B56CCA
+
+## library_ids
+ART-103-BIO-HEME-BIOSYNTHESIS-AND-PORPHYRIA
+
+## resource_ids
+
+## learning_objective
+Name the bone marrow and liver as the major sites of heme biosynthesis, and explain why a mature red cell cannot make heme.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 137 (printed 130), question 1. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 115, "BIOSYNTHESIS OF HEME — Site".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p137-q1. correctSource verbatim: "printed key (p140)". No OCR repair was needed. CANCELLED TOPIC: the department orientation cancels "Biosynthesis of heme & Porphyria (pp115–118)" entirely, for both the end-of-module and the final exam. This item tests the Site subsection of Biosynthesis of Heme on printed page 115 and is squarely inside that cancellation. The question is kept — it is in the question book and a student may still meet it — but exam_relevance is 1 and exam_weight_by_year is 0.05 so that nothing in this record claims the topic is examined; the cancellation is recorded on CON-HEM-3D75438A839FBD with weight_confidence held low. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-C2E445B64EEE
+
+## title
+One of the following is true about 5-aminolevulinate synthase (ALA synthase):
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+ALA synthase is the key regulatory enzyme of heme biosynthesis. Four statements are offered about where it works, what it needs and what controls it.
+
+## question
+One of the following is true about 5-aminolevulinate synthase (ALA synthase):
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 2. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+It is cytosolic enzyme
+
+## explanation_a
+Incorrect. ALA synthase is **mitochondrial** — it catalyses the initial reaction, and the book places the initial reaction and the last three steps in mitochondria with the intermediate steps in the cytosol. The compartment is not incidental: succinyl-CoA, one of its two substrates, is a citric acid cycle intermediate and is generated inside the mitochondrion.
+
+## answer_b
+The enzyme is allosterically inhibited by ALA
+
+## explanation_b
+Incorrect, and it names the wrong inhibitor. ALA synthase is allosterically inhibited by **heme** — the end product — and heme also represses the enzyme's synthesis. That is classic end-product feedback inhibition, and inhibition by its own immediate product ALA would be a different and much less useful arrangement.
+
+## answer_c
+The enzyme needs pyridoxal phosphate (PLP) as a coenzyme
+
+## explanation_c
+Correct. ALA synthase condenses glycine with succinyl-CoA to form δ-aminolevulinate, and it requires pyridoxal phosphate as coenzyme — the same vitamin B6 derivative that serves every transaminase and every amino acid decarboxylase. Because glycine's α-amino group is what PLP handles, this is chemically the same kind of reaction as those. Two consequences fall out. Vitamin B6 deficiency can impair heme synthesis and contribute to a sideroblastic anaemia, which is why B6 appears in the differential of a microcytic anaemia. And the enzyme is doubly controlled by heme — inhibited allosterically and repressed at the level of synthesis — which is why drugs that consume heme by inducing cytochrome P450, such as barbiturates, oestrogens and sulfonamides, de-repress ALA synthase and can precipitate an acute porphyric attack.
+
+## answer_d
+The enzyme catalyzes condensation of Alanine and succinyl-CoA
+
+## explanation_d
+Incorrect on the amino acid. The condensation is of **glycine** with succinyl-CoA, not alanine. Glycine's role as a heme precursor is one of the six items in its own derivative list, and swapping the two smallest amino acids is the error this option catches.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Biosynthesis of Heme
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## main_concept
+CON-HEM-3D75438A839FBD
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Biosynthesis of Heme
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.35
+
+## cognitive_effort_score
+0.65
+
+## exam_weight_by_year
+KAU_Y1=0.05
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-38F3A09255526F
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+45
+
+## exam_relevance
+1
+
+## contextual_concept_ids
+CON-FND-C9E5128193029E
+
+## library_ids
+ART-103-BIO-HEME-BIOSYNTHESIS-AND-PORPHYRIA
+
+## resource_ids
+
+## learning_objective
+State the substrates, compartment, coenzyme and feedback control of ALA synthase, and explain why P450-inducing drugs de-repress it.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The heme biosynthetic pathway across the mitochondrial and cytosolic compartments, with ALA synthase marked as the key regulatory step, its glycine and succinyl-CoA substrates, its PLP coenzyme, and the two heme feedback arrows — allosteric inhibition and repression of synthesis
+Purpose: The item asks four different things about one enzyme — compartment, substrate, coenzyme and control — and each distractor changes one of them. A single annotated step diagram carries all four at once, where prose forces a student to hold four separate sentences.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 137 (printed 130), question 2. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 115, step 1, and printed page 118 for the drug induction of ALA synthase.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p137-q2. correctSource verbatim: "printed key (p140)". No OCR repair was needed. CANCELLED TOPIC: Biosynthesis of heme & Porphyria (printed pages 115–118) is cancelled by the department orientation for both exams, and this item is inside it. Kept, with exam_relevance 1 and exam_weight_by_year 0.05 so no examination is claimed; the cancellation is recorded on CON-HEM-3D75438A839FBD. The sideroblastic anaemia link in the explanation is standard haematology background and is not in the department book. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+85
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-813884B8474D
+
+## title
+Neuropsychiatric manifestations of porphyria are characterized by the accumulation of:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Porphyrias split into two clinical pictures, and which one a patient gets is decided by where in the pathway the block sits — before the porphyrinogen ring is closed, or after it.
+
+## question
+Neuropsychiatric manifestations of porphyria are characterized by the accumulation of:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 3. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+δ-aminolevulinate or porphobilinogen
+
+## explanation_a
+Correct, and the rule behind it is what makes the whole topic tractable. A block **before** the porphyrinogen ring has been assembled leaves the small linear precursors ALA and PBG to accumulate; these are neurotoxic — they decrease ATPase activity in nerve cells — and they injure sympathetic nerves, giving abdominal pain, and somatic nerves, giving peripheral neuritis, skeletal muscle paralysis and neuropsychiatric symptoms. A block **after** the ring is closed leaves porphyrinogens to accumulate in skin and tissues, where they oxidise spontaneously to porphyrins that absorb light at about 400 nm, release free radicals, damage lysosomes and destroy skin cells — photosensitivity. So the clinical division is not arbitrary: it maps directly onto whether the accumulating molecule is a small neurotoxic precursor or a light-absorbing ring. In the neuropsychiatric group, uroporphyrinogen I synthase is relatively or absolutely inhibited while ALA synthase activity rises, which is why the precursors build up so markedly.
+
+## answer_b
+uroporphyrinogen III
+
+## explanation_b
+Incorrect. Uroporphyrinogen III is a closed tetrapyrrole ring, so accumulating it produces the photosensitive picture, not the neuropsychiatric one.
+
+## answer_c
+coproporphyrinogen III
+
+## explanation_c
+Incorrect, for the same reason as B and one step further down the pathway. It is a porphyrinogen — ring closed — and therefore belongs to the photosensitivity group.
+
+## answer_d
+protoporphyrinogen
+
+## explanation_d
+Incorrect. Protoporphyrinogen IX is the last porphyrinogen before oxidation to protoporphyrin IX and insertion of iron. Accumulating it also gives photosensitivity.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Porphyrias
+
+## difficulty
+Hard
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-HEM-66B1DEEC8ED961
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Porphyrias
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.35
+
+## cognitive_effort_score
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.05
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+1
+
+## contextual_concept_ids
+CON-HEM-3D75438A839FBD
+
+## library_ids
+ART-103-BIO-HEME-BIOSYNTHESIS-AND-PORPHYRIA
+
+## resource_ids
+
+## learning_objective
+Explain why a block before ring closure gives neuropsychiatric porphyria and a block after it gives photosensitivity, naming the accumulating species in each.
+
+## media_recommendations
+### diagram · Explanation for answer A
+Brief: The heme pathway with a vertical line at the point of ring closure — precursors ALA and PBG to the left labelled "neurotoxic, neuropsychiatric", porphyrinogens to the right labelled "oxidise to porphyrins, photosensitivity" — and the two example diseases marked at their enzymes
+Purpose: The entire clinical classification of porphyria reduces to one position on the pathway, and a student who cannot see where the line falls has to memorise disease-by-disease. Drawing the line is what turns four facts into one rule.
+Priority: required
+Status: needed
+Section: Explanation A
+Source direction: openly licensed biochemistry or haematology text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 137 (printed 130), question 3. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 118, "PORPHYRIAS — I- Neuropsychiatric manifestation" and "II- Photosensitivity".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p137-q3. correctSource verbatim: "printed key (p140)". OCR REPAIR: option a reads "6-aminolevulinate" in the bank — a digit 6 for the Greek delta — repaired to "δ-aminolevulinate", which is how the department book prints it. CANCELLED TOPIC: Porphyrias (printed page 118) is inside the cancelled range "Biosynthesis of heme & Porphyria (pp115–118)". Kept, with exam_relevance 1 and exam_weight_by_year 0.05; the cancellation is recorded on CON-HEM-66B1DEEC8ED961. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+85
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-24FF23933365
+
+## title
+Acute intermittent porphyria is due to deficiency of the following enzyme:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A young woman has recurrent attacks of severe abdominal pain with no surgical cause, peripheral neuropathy and confusion. The attacks follow courses of medication. Her skin is normal.
+
+## question
+Acute intermittent porphyria is due to deficiency of the following enzyme:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 4. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Uroporphyrinogen III synthase
+
+## explanation_a
+Incorrect. Uroporphyrinogen III synthase cyclises hydroxymethylbilane by removing water — it acts *after* the linear tetrapyrrole has been made, so a block there leaves ring-containing material to accumulate and would not give the pure neuropsychiatric picture the vignette describes.
+
+## answer_b
+Uroporphyrinogen decarboxylase
+
+## explanation_b
+Incorrect — this is the enzyme of **porphyria cutanea tarda**, the book's example of the photosensitive group. It decarboxylates the four acetate side chains of uroporphyrinogen III to methyl groups, well past ring closure, so its deficiency accumulates porphyrinogens in the skin. The normal skin in the vignette is the finding that excludes it.
+
+## answer_c
+Uroporphyrinogen I synthase
+
+## explanation_c
+Correct. Acute intermittent porphyria is the department book's named example of the neuropsychiatric group, and it is caused by deficiency of uroporphyrinogen I synthase — the enzyme that condenses four porphobilinogen molecules into the linear tetrapyrrole hydroxymethylbilane. Because the block is before any ring is closed, ALA and PBG accumulate; ALA synthase activity rises at the same time, worsening the build-up. Those two precursors are neurotoxic, and the clinical picture is what the vignette shows — abdominal pain from sympathetic nerve injury, peripheral neuritis and neuropsychiatric symptoms, with no photosensitivity because no porphyrin reaches the skin. The relation to drugs is mechanistic rather than incidental: barbiturates, oestrogens and sulfonamides induce ALA synthase, so they drive more substrate into a pathway that is already blocked and precipitate an attack.
+
+## answer_d
+Ferrochelatase
+
+## explanation_d
+Incorrect. Ferrochelatase inserts ferrous iron into protoporphyrin IX in the last step of the pathway, and it is one of the two enzymes inhibited by lead. A block at the very end accumulates protoporphyrin, a closed ring, so again the picture would be photosensitive rather than neuropsychiatric.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Porphyrias
+
+## difficulty
+Hard
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-HEM-66B1DEEC8ED961
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Porphyrias
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.35
+
+## cognitive_effort_score
+0.65
+
+## exam_weight_by_year
+KAU_Y1=0.05
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+44
+
+## exam_relevance
+1
+
+## contextual_concept_ids
+CON-HEM-3D75438A839FBD
+
+## library_ids
+ART-103-BIO-HEME-BIOSYNTHESIS-AND-PORPHYRIA
+
+## resource_ids
+
+## learning_objective
+Match acute intermittent porphyria to uroporphyrinogen I synthase deficiency, and use the presence or absence of photosensitivity to place a porphyria's block relative to ring closure.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 137 (printed 130), question 4. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 118: "Example: Acute intermittent porphyria (uroporphyrinogen I synthase deficiency)", and printed pages 115–116 for the enzymes named in the distractors.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p137-q4. correctSource verbatim: "printed key (p140)". No OCR repair was needed. The vignette is authored clinical framing built from the book's own description of the neuropsychiatric group; it names no drug and no dose. CANCELLED TOPIC: inside "Biosynthesis of heme & Porphyria (pp115–118)". Kept, with exam_relevance 1 and exam_weight_by_year 0.05; recorded on CON-HEM-66B1DEEC8ED961. NOTE FOR REVIEW: the department book names the acute intermittent porphyria enzyme "uroporphyrinogen I synthase", which many international texts now call hydroxymethylbilane synthase or PBG deaminase. The book's own name is used, since that is what the paper will ask. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-0308D8FF1E04
+
+## title
+Porphyria cutanea tarda is due to deficiency of the following enzyme:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A middle-aged man has blistering and scarring on the backs of his hands after sun exposure, with fragile skin. He has no abdominal pain and no neuropathy.
+
+## question
+Porphyria cutanea tarda is due to deficiency of the following enzyme:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 5. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Uroporphyrinogen III synthase
+
+## explanation_a
+Incorrect for this disease, though it does act after ring closure and would therefore also give photosensitivity. The book names uroporphyrinogen **decarboxylase** as the porphyria cutanea tarda enzyme, and the two names differ only in the second word — which is what makes this the hardest distractor on the item.
+
+## answer_b
+Uroporphyrinogen decarboxylase
+
+## explanation_b
+Correct. Porphyria cutanea tarda is the department book's example of the photosensitive group, and it is caused by deficiency of uroporphyrinogen decarboxylase — the enzyme that removes the four acetate side chains of uroporphyrinogen III as CO2 to give coproporphyrinogen III. Because the block lies **after** the porphyrinogen ring has been formed, porphyrinogens accumulate in skin and tissues, oxidise spontaneously to porphyrins, and those porphyrins absorb light at about 400 nm. The excited porphyrin releases free radicals that damage lysosomes; lysosomal enzymes are released and destroy skin cells, so sun exposure produces skin damage and scarring — the blistering, fragile, sun-exposed skin in the vignette. Set against acute intermittent porphyria, the pair is a clean illustration of one rule: block before ring closure gives nerves, block after ring closure gives skin.
+
+## answer_c
+Uroporphyrinogen I synthase
+
+## explanation_c
+Incorrect — that is the enzyme of **acute intermittent porphyria**, which accumulates ALA and PBG and gives the neuropsychiatric picture. The vignette explicitly excludes it: no abdominal pain, no neuropathy.
+
+## answer_d
+Ferrochelatase
+
+## explanation_d
+Incorrect for this disease. Ferrochelatase inserts iron in the final step and is one of the two enzymes lead inhibits. A deficiency does cause a photosensitive porphyria, but it is not the one the book names here.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Porphyrias
+
+## difficulty
+Hard
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-HEM-66B1DEEC8ED961
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Porphyrias
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.35
+
+## cognitive_effort_score
+0.65
+
+## exam_weight_by_year
+KAU_Y1=0.05
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+43
+
+## exam_relevance
+1
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-HEME-BIOSYNTHESIS-AND-PORPHYRIA
+
+## resource_ids
+
+## learning_objective
+Match porphyria cutanea tarda to uroporphyrinogen decarboxylase deficiency, and give the mechanism by which accumulated porphyrins damage skin.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 137 (printed 130), question 5. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 118: "Example: Porphyria cutanea tarda (uroporphyrinogen decarboxylase deficiency)", and printed page 115, step 5.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p137-q5. correctSource verbatim: "printed key (p140)". No OCR repair was needed. This item shares its four options verbatim with question 4 of the same chapter — the book sets the same option list twice and asks for a different disease each time, so the pair is answerable only by knowing both. Both are kept and both point at the same main concept. The vignette is authored clinical framing built from the book's own photosensitivity mechanism. CANCELLED TOPIC: inside "Biosynthesis of heme & Porphyria (pp115–118)". Kept, with exam_relevance 1 and exam_weight_by_year 0.05; recorded on CON-HEM-66B1DEEC8ED961. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-F47356E89E1A
+
+## title
+Effect of lead poisoning on heme metabolism is:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A child living near an informal battery-recycling workshop has a microcytic anaemia that does not respond to iron. Lead is the suspected cause.
+
+## question
+Effect of lead poisoning on heme metabolism is:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 6. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Interfere with OH containing enzyme in heme biosynthesis
+
+## explanation_a
+Incorrect. Lead's targets are named specifically by the book and neither is characterised by a hydroxyl group; lead binds sulfhydryl groups, not hydroxyls. The option is vague enough to sound plausible to a student who remembers only that lead poisons an enzyme.
+
+## answer_b
+Inhibition of ALA dehydratase and ferrochelatase
+
+## explanation_b
+Correct, and the department book states it as a note in its own right: "In lead poisoning, lead inhibits ALA dehydratase and ferrochelatase enzymes." The two blocks sit at opposite ends of the pathway. ALA dehydratase is the second step, condensing two ALA molecules into porphobilinogen in the cytosol — blocking it backs ALA up. Ferrochelatase is the last step, inserting ferrous iron into protoporphyrin IX in the mitochondrion — blocking it leaves protoporphyrin unable to become heme, and leaves iron unused. That double block explains the clinical picture in the vignette: heme cannot be completed, so the anaemia is microcytic, and it does not respond to iron because iron supply was never the problem — the enzyme that inserts it is poisoned.
+
+## answer_c
+Elevated levels of uroporphyrin in urine.
+
+## explanation_c
+Incorrect. Uroporphyrin accumulation belongs to the porphyrias with a block at or after uroporphyrinogen — porphyria cutanea tarda being the book's example. Lead blocks earlier than that and at the very end, so it is ALA that accumulates rather than uroporphyrin.
+
+## answer_d
+Can lead to megaloblastic anemia
+
+## explanation_d
+Incorrect, and it names the wrong morphology. Megaloblastic anaemia is a disorder of DNA synthesis, caused by deficiency of folate or vitamin B12; interference with heme synthesis produces a **microcytic** picture, because the cell divides normally but cannot fill itself with haemoglobin. Getting the direction of the red cell size right is the discrimination this option tests.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Biosynthesis of Heme
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-HEM-4C0C6A97CA8788
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Biosynthesis of Heme
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.35
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.05
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+1
+
+## contextual_concept_ids
+CON-HEM-3D75438A839FBD | CON-FND-1A4A49607783A9
+
+## library_ids
+ART-103-BIO-HEME-BIOSYNTHESIS-AND-PORPHYRIA
+
+## resource_ids
+
+## learning_objective
+Name the two enzymes of heme synthesis inhibited by lead and explain why the resulting anaemia is microcytic and iron-unresponsive.
+
+## media_recommendations
+### diagram · Explanation for answer B
+Brief: The heme pathway with lead's two inhibition points marked — ALA dehydratase at step 2 in the cytosol and ferrochelatase at step 8 in the mitochondrion — and ALA accumulation shown behind the first block
+Purpose: The memorable thing about lead is that it hits the pathway twice, at opposite ends, and a list of two enzyme names does not convey that. Marking both blocks on one pathway is what makes the pattern stick and explains why iron therapy fails.
+Priority: strongly helpful
+Status: needed
+Section: Explanation B
+Source direction: openly licensed biochemistry or toxicology text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 137 (printed 130), question 6. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 116: "N.B. In lead poisoning, lead inhibits ALA dehydratase and ferrochelatase enzymes", and printed page 115, step 2.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p137-q6. correctSource verbatim: "printed key (p140)". No OCR repair was needed; the trailing full stop on option c is the book's own. The vignette's informal battery-recycling exposure is authored Egyptian context — lead exposure from informal battery recycling and smelting is a documented local source — and it is framing only; no epidemiological figure is claimed. CANCELLED TOPIC: the lead note sits on printed page 116, inside "Biosynthesis of heme & Porphyria (pp115–118)". Kept, with exam_relevance 1 and exam_weight_by_year 0.05; recorded on CON-HEM-4C0C6A97CA8788. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-6C4D720FF4D0
+
+## title
+Which of the following organs is NOT involved in heme catabolism:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Bilirubin is not made in one place. The department book follows its formation through three successive locations before it reaches the stool.
+
+## question
+Which of the following organs is NOT involved in heme catabolism:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 7. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Liver
+
+## explanation_a
+Involved, so not the answer. The liver takes up unconjugated bilirubin from albumin, conjugates it with glucuronic acid by glucuronyl transferase, and secretes the conjugated pigment into bile.
+
+## answer_b
+Spleen
+
+## explanation_b
+Involved, so not the answer. The spleen is part of the reticuloendothelial system, where aged erythrocytes are taken up after about 120 days and heme oxygenase begins the degradation.
+
+## answer_c
+Kidney
+
+## explanation_c
+Correct — the kidney is the organ **not** involved in heme catabolism. The book gives the three sites as the reticuloendothelial system, the liver and the intestine, and the kidney appears nowhere in that sequence. What the kidney does is *excrete* two water-soluble products that reach it in blood: a very small amount of urobilinogen that escapes the enterohepatic circulation and is oxidised in air to the urobilin giving urine its normal colour, and — only when it is abnormally raised — conjugated bilirubin. Excreting a product is not participating in the pathway that made it, and this is the same distinction that separates the liver from the kidney in urea metabolism: one organ makes, the other clears. Holding that distinction answers questions in both chapters.
+
+## answer_d
+Intestine
+
+## explanation_d
+Involved, so not the answer. In the large intestine, bacterial enzymes release bilirubin from glucuronic acid and reduce it successively to stercobilinogen, which is oxidised in air to the stercobilin that colours stool.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Heme Catabolism
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-HEM-26C990AD8F630C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Heme Catabolism
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-REN-744E6E6F75BEFA
+
+## library_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Name the three organs of heme catabolism in sequence, and distinguish participating in a pathway from excreting its products.
+
+## media_recommendations
+### flowchart · Question stem
+Brief: Heme catabolism across three panels — reticuloendothelial system (heme oxygenase, biliverdin, bilirubin on albumin), liver (uptake, glucuronyl transferase, secretion into bile), intestine (bacterial reduction to stercobilinogen, stercobilin in stool) — with the kidney shown off to one side receiving only urobilinogen
+Purpose: The item is answered by seeing that one organ is outside the main sequence. Three panels with the kidney drawn as a side branch makes that spatial; a prose list of four organs invites a student to treat them as equivalent.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 138 (printed 131), question 7. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 119–120, "HEME CATABOLISM — A) Reticuloendothelial System, B) Liver, C) Intestines".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p138-q7. correctSource verbatim: "none" — the bank recorded correct as null and correctSource as "none", meaning no OCR pass read a key for this item at all. NULL KEY RECOVERED FROM THE PAGE: PDF page 140 was opened with the Read tool and the printed key table read visually — row 7 reads "7. c", and every other row on that page matches the bank exactly. The key is c, which the department book supports: the kidney appears in none of its three sites of bilirubin formation. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-A29E6566AF73
+
+## title
+In the liver, bilirubin is conjugated with:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Bilirubin arriving at the liver is hydrophobic and albumin-bound. It must be made water-soluble before it can be excreted, and one chemical modification does it.
+
+## question
+In the liver, bilirubin is conjugated with:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 8. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Glucuronic acid
+
+## explanation_a
+Correct. Unconjugated bilirubin is taken up by liver cells, dissociates from albumin, and is conjugated with **glucuronic acid** by the enzyme glucuronyl transferase — two molecules of UDP-glucuronic acid per bilirubin. The conjugation increases polarity and water solubility, and that single change produces every property that separates the two forms of bilirubin: conjugated bilirubin is not bound to plasma proteins, can be excreted in urine, and does not cross the blood–brain barrier, so it cannot cause kernicterus. Glucuronyl transferase is inducible — by phenobarbital and by glucose — which is what makes phenobarbital a treatment in neonatal jaundice and in Crigler-Najjar type II. The uridine-diphosphate-glucuronic acid route is the same general detoxification chemistry the liver uses for many drugs, so conjugation is worth understanding as a strategy rather than as a single fact.
+
+## answer_b
+Hyaluronic acid
+
+## explanation_b
+Incorrect. Hyaluronic acid is a glycosaminoglycan of the extracellular matrix. It contains glucuronic acid as one of its repeating units, which is exactly the resemblance that makes it a plausible distractor — but the conjugating agent is the monosaccharide acid itself, not the polymer.
+
+## answer_c
+Galacturonic acid
+
+## explanation_c
+Incorrect. Galacturonic acid is the uronic acid of pectin, a plant polysaccharide, and has no role in human bilirubin handling. It differs from glucuronic acid by one hydroxyl configuration, which is a fair test of whether a student knows the molecule or only its ending.
+
+## answer_d
+Arachidonic acid
+
+## explanation_d
+Incorrect. Arachidonic acid is a polyunsaturated fatty acid and the precursor of the eicosanoids. It shares nothing with the uronic acids but the word "acid".
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Heme Catabolism
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-HEM-7A26AE75471EF8
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Heme Catabolism
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.35
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+72
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-HEM-C87C15A849F158
+
+## library_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Name glucuronic acid and glucuronyl transferase in bilirubin conjugation, and derive the properties of conjugated bilirubin from the increase in water solubility.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 138 (printed 131), question 8. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 119, "B) Liver".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p138-q8. correctSource verbatim: "printed key (p140)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-6D80654A048E
+
+## title
+The rate-limiting step in bilirubin metabolism is:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Four candidate steps of bilirubin handling are offered. Only one of them is the bottleneck — the step that limits how fast the whole sequence can run.
+
+## question
+The rate-limiting step in bilirubin metabolism is:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 9. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Degradation of heme is by the heme oxygenase system
+
+## explanation_a
+Incorrect as the rate-limiting step, though it is a true statement about the first reaction. Heme oxygenase in the reticuloendothelial cells opens the ring using NADPH and oxygen, releasing ferric iron and carbon monoxide and producing green biliverdin. It is the first step, and students commonly assume the first step is always the limiting one — but the bottleneck here lies at the far end.
+
+## answer_b
+Conjugation of bile by glucuronyltransferase
+
+## explanation_b
+Incorrect as the rate-limiting step, and it is the strongest distractor because conjugation is the step that fails in so many diseases — physiological neonatal jaundice, Crigler-Najjar, Gilbert. That an enzyme is a common site of *pathology* does not make it the normal bottleneck. Note also the option's wording: it is bilirubin that is conjugated, not bile.
+
+## answer_c
+Reduction of bilirubin to biliverdin, by biliverdin reductase
+
+## explanation_c
+Incorrect, and it is stated backwards. Biliverdin reductase reduces **biliverdin to bilirubin** — green to yellow — not the reverse. An option that describes a reaction running the wrong way cannot be the rate-limiting step of anything.
+
+## answer_d
+Secretion of conjugated bilirubin into the bile
+
+## explanation_d
+Correct. The active, energy-requiring transport of conjugated bilirubin across the canalicular membrane into bile is the slowest step and therefore the one that limits the throughput of the whole pathway. Two things follow. Because secretion is limiting, it is also the step that fails first when the liver is stressed or when the pathway is overloaded — which is why hepatocellular jaundice raises the conjugated fraction as well as the unconjugated one, and why any obstruction downstream causes conjugated bilirubin to regurgitate back into the blood. And because conjugated bilirubin is water-soluble and not protein-bound, once it is in the blood it appears in the urine, which is why dark urine is the signature of a conjugated hyperbilirubinaemia.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Heme Catabolism
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## main_concept
+CON-HEM-7A26AE75471EF8
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Heme Catabolism
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.65
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-GIT-4A2A86832F1FF2
+
+## library_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Identify biliary secretion of conjugated bilirubin as the rate-limiting step, and correct the direction of the biliverdin reductase reaction.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 138 (printed 131), question 9. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. The department textbook (Dpt book Biochemistry 103, printed pages 119–120) describes each of these steps but does not state which is rate-limiting; that identification rests on the department question book's printed key and on standard biochemistry references.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p138-q9. correctSource verbatim: "printed key (p140)". No OCR repair was needed; options a and b are ungrammatical as printed ("Degradation of heme is by…", "Conjugation of bile by…") and are left as the book set them. SOURCE GAP, flagged for the faculty reviewer: the department textbook nowhere calls biliary secretion the rate-limiting step of bilirubin metabolism, although it describes the step. The claim is carried by the question book's key and by standard references, and is recorded in the `uncertainty` of CON-HEM-7A26AE75471EF8. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-962984E72230
+
+## title
+Conjugated bilirubin is characterized by:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The department book sets the two forms of bilirubin against each other in a table with nine rows. Every row follows from one difference: whether glucuronic acid has been attached.
+
+## question
+Conjugated bilirubin is characterized by:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 10. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Water soluble
+
+## explanation_a
+Correct, and it is the property from which all the others follow. Conjugation with glucuronic acid increases polarity and water solubility, and once bilirubin is water-soluble it no longer needs albumin to travel, so it is **not** bound to plasma proteins; being unbound and soluble, it can be filtered and appears in urine; and being polar, it cannot cross the lipid barrier of the blood–brain barrier, so it does not cause kernicterus. It is called cholebilirubin because bile is its route of excretion, and direct-reacting because it reacts with the Van den Bergh reagent within a minute without needing methanol. The single question to ask of any statement about bilirubin is therefore: is this the soluble form or the insoluble one? Every row of the table answers from there.
+
+## answer_b
+Bound to plasma protein
+
+## explanation_b
+Incorrect — that is the unconjugated form. Unconjugated bilirubin is only slightly soluble in plasma, so it is carried on albumin, and that binding is what keeps it out of the urine and, up to a point, out of the brain.
+
+## answer_c
+Can cross blood brain barrier
+
+## explanation_c
+Incorrect, and it is the clinically important error. Only **unconjugated** bilirubin crosses the blood–brain barrier, because it is hydrophobic — and it does so when its plasma level exceeds the carrying capacity of albumin, about 20 mg/dL, producing kernicterus. A student who believes conjugated bilirubin causes kernicterus will misjudge which jaundiced neonate is at risk.
+
+## answer_d
+Increased in hemolytic anemia
+
+## explanation_d
+Incorrect. In haemolytic jaundice the excess is **unconjugated**: bilirubin is produced faster than the liver can conjugate and secrete it, so the unconjugated fraction rises while the conjugated fraction stays normal. The book's own comparison table records exactly that.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Blood Bilirubin
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-HEM-C87C15A849F158
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Blood Bilirubin
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.4
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Both
+
+## reasoning_level
+2
+
+## inferred_difficulty
+70
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-HEM-F2B664C215C912
+
+## library_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+Derive the properties of conjugated bilirubin — solubility, protein binding, renal excretion, blood–brain barrier — from the single fact of conjugation.
+
+## media_recommendations
+### comparison table · Question stem
+Brief: The department book's own nine-row comparison of unconjugated and conjugated bilirubin — serum level, other name, Van den Bergh reaction, polarity, water solubility, renal excretion, albumin binding, blood–brain barrier, and behaviour in haemolytic, obstructive and hepatotoxic jaundice
+Purpose: Four questions in this chapter are single rows of this one table, and students who learn the rows separately mix them up. Reproducing the table once serves all four and shows that every row is a consequence of solubility.
+Priority: required
+Status: needed
+Source direction: openly licensed clinical biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 138 (printed 131), question 10. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 123, the unconjugated-versus-conjugated bilirubin comparison table, and printed page 119.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p138-q10. correctSource verbatim: "printed key (p140)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-5152334A1BAA
+
+## title
+Which of the following is not a characteristic of unconjugated bilirubin:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Three of the four statements below are rows of the department book's comparison table read correctly. One has been inverted.
+
+## question
+Which of the following is not a characteristic of unconjugated bilirubin:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 11. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Water insoluble
+
+## explanation_a
+A true characteristic, so not the answer. Unconjugated bilirubin has not been given glucuronic acid, so it stays mostly non-polar and water-insoluble — which is why it is described as only slightly soluble in plasma.
+
+## answer_b
+Is not bound to plasma proteins
+
+## explanation_b
+Correct — this is the inverted statement, and therefore the answer. Unconjugated bilirubin **is** bound to plasma protein: being poorly soluble, it is transported in blood carried on albumin. That binding has two consequences the exam returns to. It cannot be filtered by the kidney, so unconjugated bilirubin never appears in urine — which is the origin of the term "acholuric jaundice" for the haemolytic picture. And albumin binding is protective up to a limit: when the plasma level exceeds the carrying capacity of albumin, about 20 mg/dL, the free fraction crosses the blood–brain barrier and produces kernicterus. It is the *conjugated* form that is not protein-bound, and swapping the two is the single most consequential error a student can make in this chapter.
+
+## answer_c
+Normal blood level ranges between 0.2-0.9 mg/dL
+
+## explanation_c
+A true characteristic, so not the answer. The book gives the indirect (unconjugated) bilirubin range as 0.2–0.9 mg/dL, with direct bilirubin below 0.3 mg/dL and total serum bilirubin 0.2–1.2 mg/dL.
+
+## answer_d
+If increased > 20 mg/dl can lead to kernicterus
+
+## explanation_d
+A true characteristic, so not the answer. Above about 20 mg/dL the albumin carrying capacity is exceeded and the hydrophobic pigment passes the blood–brain barrier, producing brain damage.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Blood Bilirubin
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-HEM-C87C15A849F158
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Blood Bilirubin
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.85
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-HEM-20178168A8FCF0
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Both
+
+## reasoning_level
+2
+
+## inferred_difficulty
+64
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-HEME-CATABOLISM-AND-BILIRUBIN
+
+## resource_ids
+
+## learning_objective
+State that unconjugated bilirubin is albumin-bound, give the normal indirect and direct reference ranges, and explain why albumin binding both prevents urinary excretion and delays kernicterus.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 138 (printed 131), question 11. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 119 (albumin binding and the 20 mg/dL threshold), printed page 121 (reference ranges) and printed page 123 (comparison table).
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p138-q11. correctSource verbatim: "printed key (p140)". No OCR repair was needed; "mg/dl" in option d and "mg/dL" in option c are the book's own inconsistent capitalisation and are left as printed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-87F0C63C678B
+
+## title
+Crigler-Najjar Syndrome, type I is characterized by:
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Two inherited defects of bilirubin conjugation are told apart by how complete the enzyme loss is, and that difference decides whether an inducing drug can help.
+
+## question
+Crigler-Najjar Syndrome, type I is characterized by:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, Metabolism Of Heme, multiple choice question 12. Transcribed; the option list was truncated in extraction and has been restored from the printed page, as described in author_notes.
+
+## correct_answer
+D
+
+## answer_a
+Partial deficiency of UDP-glucuronyltransferase
+
+## explanation_a
+Incorrect for type I — this describes type **II**. The distinction is the whole point of the pair: type I is a complete or near-complete absence of the enzyme, type II a partial deficiency with some residual activity.
+
+## answer_b
+Serum unconjugated bilirubin does not exceed 20 mg/dL
+
+## explanation_b
+Incorrect for type I, and the number is the clinically decisive one. In type II the bilirubin generally stays below the albumin carrying capacity of about 20 mg/dL, so kernicterus is unusual; in type I it rises above it, and kernicterus is the expected outcome. Reading this option as "type I" is what would lead a student to underestimate the risk.
+
+## answer_c
+autosomal dominant disease
+
+## explanation_c
+Incorrect. Crigler-Najjar type I is inherited as an autosomal **recessive** disease, which fits a complete enzyme loss — two defective alleles are needed to abolish activity, whereas one working allele would leave residual enzyme.
+
+## answer_d
+Patients do not respond to phenobarbital therapy
+
+## explanation_d
+Correct, and the reason is mechanistic rather than arbitrary. Phenobarbital works by **inducing** glucuronyl transferase — the book notes that the enzyme is induced by certain drugs, phenobarbital among them, and that is why phenobarbital is used in physiological neonatal jaundice and in Crigler-Najjar type II. Induction increases the amount of an enzyme the cell can still make. In type I there is essentially no functional enzyme to induce, so the drug has nothing to work on and the patient does not respond. That single fact is the most useful discriminator between the two types, because it turns a memorised pair into a piece of reasoning: if the defect is complete, an inducer cannot help.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Jaundice (Icterus or Hyperbilirubinemia)
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## main_concept
+CON-HEM-20178168A8FCF0
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Heme Metabolism > Jaundice (Icterus or Hyperbilirubinemia)
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.7
+
+## cognitive_effort_score
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.55
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-HEM-7A26AE75471EF8
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+CON-HEM-C87C15A849F158
+
+## library_ids
+ART-103-BIO-HYPERBILIRUBINAEMIA-SYNDROMES
+
+## resource_ids
+
+## learning_objective
+Distinguish Crigler-Najjar type I from type II by completeness of enzyme deficiency, bilirubin level, inheritance and response to phenobarbital, and explain why an enzyme inducer cannot rescue a complete deficiency.
+
+## media_recommendations
+### comparison table · Question stem
+Brief: Crigler-Najjar type I, Crigler-Najjar type II and Gilbert syndrome in three columns, with rows for the defect, the enzyme activity remaining, the usual bilirubin level, the inheritance, the response to phenobarbital and the risk of kernicterus
+Purpose: The three syndromes differ by degree along one axis, and questions 12, 13 and 16 of this chapter each test a different cell of that grid. A single table is what lets a student reason across the three instead of memorising each separately.
+Priority: required
+Status: needed
+Source direction: openly licensed clinical biochemistry or paediatrics text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter Metabolism Of Heme, PDF page 138 (printed 131), question 12. Answer key on PDF page 140 (printed 133). Manifest src_07f0a0ff41addf826c7f. The department textbook (Dpt book Biochemistry 103, printed page 122) covers Gilbert syndrome but does not describe Crigler-Najjar; the induction of glucuronyl transferase by phenobarbital is on printed page 119, and the 20 mg/dL albumin threshold on printed page 119. The question book's own "Compare between: Crigler Najjar syndrome type I and type II" is on its printed page 133.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p138-q12. correctSource verbatim: "printed key (p140)". SUSPECT FLAG RESOLVED — the bank flags this item "option ran on": its option d carries the whole of the *next* printed question appended to it, and an option e was fabricated by the OCR from that overflow. PDF page 138 was opened with the Read tool: the book prints exactly four options for question 12, ending "d) Patients do not respond to phenobarbital therapy". The options have been restored to those four and the spurious option e removed. The overflow text belongs to printed question 13, "………. is condition caused by a defect in the uptake of unconjugated bilirubin by the liver", whose printed key is c, Gilbert Syndrome — that question exists in the book but has no row of its own in the extraction bank, so it is not imported here and is reported to the lead as recoverable. SOURCE GAP: the department textbook does not teach Crigler-Najjar; the item rests on the question book, and this is recorded on CON-HEM-20178168A8FCF0. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes

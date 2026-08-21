@@ -613,8 +613,15 @@ if (kind !== 'concept') {
       else {
         const record = corpusSources[id]
         if (!record) errors.push(`${where}: ${id} is not a source the corpus contains — do not invent a source ID`)
-        else if (values.source_relative_path?.trim() && values.source_relative_path.trim() !== record.sourceRelativePath) {
-          errors.push(`${where}: ${id} is "${record.sourceRelativePath}" in the corpus, not "${values.source_relative_path.trim()}"`)
+        // Fourteen IDs are on more than one manifest row — the same bytes filed
+        // under two names or two modules — so both paths are true and the index
+        // reports no single one. Accept any path the corpus actually holds for
+        // this ID, and keep refusing one it does not: the ID resolves the file,
+        // which is what content addressing is for.
+        else if (values.source_relative_path?.trim()
+          && !(record.sourceRelativePaths ?? [record.sourceRelativePath]).includes(values.source_relative_path.trim())) {
+          const known = (record.sourceRelativePaths ?? [record.sourceRelativePath]).filter(Boolean)
+          errors.push(`${where}: ${id} is ${known.map((p) => `"${p}"`).join(' or ')} in the corpus, not "${values.source_relative_path.trim()}"`)
         }
       }
     }

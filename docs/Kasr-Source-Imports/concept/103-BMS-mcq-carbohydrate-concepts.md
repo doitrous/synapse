@@ -184,7 +184,7 @@ CON-MSK-EAED404BB7FE10
 [clear]
 
 ## uncertainty
-The book states 7.3 kcal/mole both as the boundary between the two classes and as the yield of each terminal ATP bond, without naming the conditions the figure is measured under. Textbooks that print −7.3 kcal/mol are giving the standard free-energy change; the value inside a living cell is larger. The book does not make that distinction and neither does the examiner.
+The book states 7.3 kcal/mole both as the boundary between the two classes and as the yield of each terminal ATP bond, without naming the conditions the figure is measured under. Textbooks that print −7.3 kcal/mol are giving the standard free-energy change — the value inside a living cell is larger. The book does not make that distinction and neither does the examiner.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -727,7 +727,7 @@ CLM-FND-REDOX-TERMINAL-ACCEPTOR-01
 [clear]
 
 ## uncertainty
-The book never prints a table of standard redox potentials, so the ranking of NAD, FMN, FAD and oxygen is taken from the direction of electron flow the book does print rather than from stated numbers. That the flow is towards oxygen is explicit; the individual values are not.
+The book never prints a table of standard redox potentials, so the ranking of NAD, FMN, FAD and oxygen is taken from the direction of electron flow the book does print rather than from stated numbers. That the flow is towards oxygen is explicit — the individual values are not.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -1457,7 +1457,7 @@ CLM-FND-SUBSTRATE-LEVEL-PHOSPHORYLATION-01
 [clear]
 
 ## uncertainty
-The book writes the succinate thiokinase product as ATP in the cycle diagram and as "ATP (or GTP)" in the bioenergetics chapter. The nucleotide is not settled in the text and is not settled here either; what is asserted is that this is the cycle's only substrate-level step.
+The book writes the succinate thiokinase product as ATP in the cycle diagram and as "ATP (or GTP)" in the bioenergetics chapter. The nucleotide is not settled in the text and is not settled here either — what is asserted is that this is the cycle's only substrate-level step.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -1988,10 +1988,10 @@ CLM-FND-TCA-YIELD-01
 [clear]
 
 ## conflicts
-The department book prints two totals. The cycle diagram on file page 18 marks "9 ATP" against the ETC arrow; the importance section on file page 19 states "10 moles of ATP" and itemises 7.5 + 1.5 + 1. The question book's printed key follows ten. Ten is taught here and the nine is recorded so a reviewer can see both.
+The department book prints two totals. The cycle diagram on file page 18 marks "9 ATP" against the ETC arrow — the importance section on file page 19 states "10 moles of ATP" and itemises 7.5 + 1.5 + 1. The question book's printed key follows ten. Ten is taught here and the nine is recorded so a reviewer can see both.
 
 ## uncertainty
-The cycle diagram in the book labels the chain output "9 ATP" while the importance section totals ten. Nine is the older 3/2 accounting for NADH and FADH2; ten follows the 2.5/1.5 figures the bioenergetics chapter states and is what the summary text and the answer key both use. The discrepancy is inside one book and is recorded rather than resolved.
+The cycle diagram in the book labels the chain output "9 ATP" while the importance section totals ten. Nine is the older 3/2 accounting for NADH and FADH2 — ten follows the 2.5/1.5 figures the bioenergetics chapter states and is what the summary text and the answer key both use. The discrepancy is inside one book and is recorded rather than resolved.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -2170,7 +2170,7 @@ CLM-FND-TCA-AMPHIBOLIC-01
 [clear]
 
 ## uncertainty
-The book routes α-ketoglutarate to glutamate specifically, and the question book asks more loosely which intermediate is used "for the formation of amino acids". Glutamate is an amino acid and is the gateway to the others by transamination, so the two agree; but the book does not itself say "α-ketoglutarate makes amino acids" in those words.
+The book routes α-ketoglutarate to glutamate specifically, and the question book asks more loosely which intermediate is used "for the formation of amino acids". Glutamate is an amino acid and is the gateway to the others by transamination, so the two agree — but the book does not itself say "α-ketoglutarate makes amino acids" in those words.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -2347,10 +2347,10 @@ CLM-FND-TCA-INHIBITORS-01
 [clear]
 
 ## conflicts
-The book's heading calls these "Invitro inhibitors", yet its own text describes fluoroacetate as a rodenticide converted to fluorocitrate "in the body". Both poisonings are clinical, so the heading is not followed here; a reviewer should decide whether "Invitro" is a slip for "in vivo".
+The book's heading calls these "Invitro inhibitors", yet its own text describes fluoroacetate as a rodenticide converted to fluorocitrate "in the body". Both poisonings are clinical, so the heading is not followed here — a reviewer should decide whether "Invitro" is a slip for "in vivo".
 
 ## uncertainty
-The book gives no dose, no clinical picture and no management for either poisoning, and none is asserted here. It also prints "Fluroacetate" for fluoroacetate; the spelling is the book's.
+The book gives no dose, no clinical picture and no management for either poisoning, and none is asserted here. It also prints "Fluroacetate" for fluoroacetate — the spelling is the book's.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -2529,7 +2529,7 @@ CON-GIT-CFF765C2EF7ED9
 [clear]
 
 ## uncertainty
-The book names the end products and says the monosaccharides are absorbed by different mechanisms, but it does not describe the brush-border disaccharidases as a step, name a deficiency, or give a clinical picture. That a deficiency leaves the disaccharides unabsorbed follows from the book's statement that only monosaccharides are absorbed, and is the question book's own scenario; no prevalence or management is asserted.
+The book names the end products and says the monosaccharides are absorbed by different mechanisms, but it does not describe the brush-border disaccharidases as a step, name a deficiency, or give a clinical picture. That a deficiency leaves the disaccharides unabsorbed follows from the book's statement that only monosaccharides are absorbed, and is the question book's own scenario — no prevalence or management is asserted.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -3251,10 +3251,10 @@ CLM-FND-GLYCOLYSIS-YIELD-01
 CON-MSK-CC13A748326880
 
 ## conflicts
-Older textbooks and older Kasr teaching give 36 to 38 ATP per glucose, using 3 ATP per NADH and 2 per FADH2. The department book uses 2.5 and 1.5 and totals 32, and the question book's key follows the book. Thirty-two is taught; the older figure is recorded so a student who meets it elsewhere knows why it differs.
+Older textbooks and older Kasr teaching give 36 to 38 ATP per glucose, using 3 ATP per NADH and 2 per FADH2. The department book uses 2.5 and 1.5 and totals 32, and the question book's key follows the book. Thirty-two is taught — the older figure is recorded so a student who meets it elsewhere knows why it differs.
 
 ## uncertainty
-The book's own table gives 32 with the 2.5/1.5 accounting. The 33 figure for a glucosyl unit of muscle glycogen is not printed in the book; it follows from its statement that glycogenolysis yields glucose 1-phosphate, which is converted to glucose 6-phosphate by phosphoglucomutase without spending ATP, so the hexokinase ATP is saved. The question book's printed key gives 33 and that arithmetic is what supports it.
+The book's own table gives 32 with the 2.5/1.5 accounting. The 33 figure for a glucosyl unit of muscle glycogen is not printed in the book — it follows from its statement that glycogenolysis yields glucose 1-phosphate, which is converted to glucose 6-phosphate by phosphoglucomutase without spending ATP, so the hexokinase ATP is saved. The question book's printed key gives 33 and that arithmetic is what supports it.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -3436,7 +3436,7 @@ CLM-FND-GLYCOLYSIS-INHIBITORS-01
 [clear]
 
 ## uncertainty
-The book names arsenic and iodoacetate as inhibitors of glyceraldehyde 3-phosphate dehydrogenase. The question book asks about "arsenate", which chemically is not arsenite; the book does not distinguish them at this step, and neither does the question. Nothing about which arsenic species is meant is asserted.
+The book names arsenic and iodoacetate as inhibitors of glyceraldehyde 3-phosphate dehydrogenase. The question book asks about "arsenate", which chemically is not arsenite — the book does not distinguish them at this step, and neither does the question. Nothing about which arsenic species is meant is asserted.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -3976,7 +3976,7 @@ CLM-FND-PDH-COMPLEX-01
 [clear]
 
 ## uncertainty
-The question book sets a thiamine-deficient patient with heart disease, which is wet beriberi; the department book covers beriberi in its vitamins chapter and does not connect the cardiac failure to pyruvate dehydrogenase in the carbohydrate chapter. The enzyme link is the book's; the cardiac presentation is the question's, and no mechanism joining the two is asserted.
+The question book sets a thiamine-deficient patient with heart disease, which is wet beriberi — the department book covers beriberi in its vitamins chapter and does not connect the cardiac failure to pyruvate dehydrogenase in the carbohydrate chapter. The enzyme link is the book's — the cardiac presentation is the question's, and no mechanism joining the two is asserted.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -4698,7 +4698,7 @@ CON-MSK-10DF05A8B81781 | CON-MSK-38F07C3ED8023F
 AMP activation of glycogen phosphorylase b is asserted by the question book's key and by the live concept CON-MSK-10DF05A8B81781, and is absent from the department book, which lists only ATP and glucose 6-phosphate as allosteric effectors of the phosphorylase and calcium as the muscle override. A reviewer should decide whether to teach AMP here or to send it to the physiology of exercise.
 
 ## uncertainty
-The department book states that ATP and glucose 6-phosphate inhibit the active phosphorylase and that calcium activates phosphorylase kinase in contracting muscle, but it does not print AMP as an allosteric activator of phosphorylase b. That statement is standard in international texts and is the question book's printed key; it is included here and flagged, because it is the one claim in this concept the department book does not itself carry.
+The department book states that ATP and glucose 6-phosphate inhibit the active phosphorylase and that calcium activates phosphorylase kinase in contracting muscle, but it does not print AMP as an allosteric activator of phosphorylase b. That statement is standard in international texts and is the question book's printed key — it is included here and flagged, because it is the one claim in this concept the department book does not itself carry.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -4879,7 +4879,7 @@ CLM-FND-VON-GIERKE-01
 [clear]
 
 ## uncertainty
-The book calls it "one of the most common glycogen storage diseases worldwide" and gives no figure, and none is invented. Its only management statement is that patients should eat frequently during the day, especially carbohydrate-containing food; nothing further is asserted, and the record is held at needs_evidence for that reason.
+The book calls it "one of the most common glycogen storage diseases worldwide" and gives no figure, and none is invented. Its only management statement is that patients should eat frequently during the day, especially carbohydrate-containing food — nothing further is asserted, and the record is held at needs_evidence for that reason.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -5241,7 +5241,7 @@ CLM-FND-GLUCONEOGENIC-SUBSTRATES-01
 [clear]
 
 ## uncertainty
-The book calls leucine and lysine "purely ketogenic" and every other amino acid convertible to glucose. Some international sources classify several more as ketogenic and glucogenic at once; the department book's two-name list is what is taught and what the exam follows.
+The book calls leucine and lysine "purely ketogenic" and every other amino acid convertible to glucose. Some international sources classify several more as ketogenic and glucogenic at once — the department book's two-name list is what is taught and what the exam follows.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
@@ -5775,7 +5775,7 @@ CLM-FND-RECIPROCAL-REGULATION-01
 CON-END-3EA6071BAE8130
 
 ## conflicts
-The question book offers "it is important to maintain blood glucose during overnight fast" as a distractor against "it is activated by elevated levels of FFA oxidation", and marks the second correct. Both are consistent with the department book, which makes glycogenolysis the main source up to about 18 hours; the discrimination rests on the word "overnight". A faculty reviewer should confirm the intended reading before this item is published.
+The question book offers "it is important to maintain blood glucose during overnight fast" as a distractor against "it is activated by elevated levels of FFA oxidation", and marks the second correct. Both are consistent with the department book, which makes glycogenolysis the main source up to about 18 hours — the discrimination rests on the word "overnight". A faculty reviewer should confirm the intended reading before this item is published.
 
 ## uncertainty
 The book says gluconeogenesis "starts 4 to 6 hours after the last meal at a slow rate" and becomes the main source of blood glucose after 12 to 18 hours. An overnight fast therefore sits on the boundary between glycogenolysis and gluconeogenesis, which is why the question book's key for the gluconeogenesis question is the fatty-acid option rather than the overnight-fast option even though both read as true. The boundary is the book's and is recorded rather than resolved.
@@ -6138,7 +6138,7 @@ CLM-FND-G6P-BRANCH-POINT-01
 [clear]
 
 ## uncertainty
-The book names the five pathways at the junction but does not rank the fates of glucose 6-phosphate in the fed state. That glycolysis is the major fate follows from its statement that glycolysis is the main pathway for glucose oxidation in all cells, and is how the question book's key reads; the ranking itself is not printed.
+The book names the five pathways at the junction but does not rank the fates of glucose 6-phosphate in the fed state. That glycolysis is the major fate follows from its statement that glycolysis is the main pathway for glucose oxidation in all cells, and is how the question book's key reads — the ranking itself is not printed.
 
 ## evidence_gaps
 Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
