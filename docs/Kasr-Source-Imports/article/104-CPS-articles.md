@@ -119,7 +119,6 @@ The second error is to attribute phase 1 to the closure of the calcium channels.
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 Phase 1 is a small rapid repolarization carried by transient outward potassium channels (Ito), with chloride influx and inactivation of the fast sodium channels.
@@ -313,7 +312,6 @@ The semilunar valves are sometimes offered as the thing that distinguishes rapid
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 Both ejection phases run with the semilunar valves open; the phases differ in the pressure gradient and the rate of emptying, not in valve state.
@@ -522,7 +520,6 @@ The baroreceptor question is frequently answered with the atrial volume receptor
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 Venous return depends on mean systemic filling pressure minus right atrial pressure, divided by the resistance to venous return.
@@ -733,7 +730,6 @@ Laplace's law is often quoted to argue that a small alveolus must empty into a l
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 Intrapleural pressure is negative because the lung continuously tends to recoil inwards while the chest wall continuously tends to expand outwards.
@@ -931,7 +927,6 @@ The second is to attribute the fetal left shift to something special about the g
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 P50 is the PO2 at which haemoglobin is 50% saturated; normal is 27 mmHg.
@@ -1116,7 +1111,6 @@ The inferior hemiazygos vein begins in variable ways, and the department book sa
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 There are eleven posterior intercostal veins and a subcostal vein on each side, and the two sides terminate differently.
@@ -1322,7 +1316,6 @@ The origin of the inferior hemiazygos vein within this compartment is variable, 
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 Visceral pleura takes the same autonomic supply as the lung, through the anterior and posterior pulmonary plexuses, and is not sensitive to pain or temperature.
@@ -1537,7 +1530,6 @@ The proportions are the variation. Whether the sinu-atrial and atrioventricular 
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 The circumflex artery is one of the two terminal branches of the left coronary artery and arises at the upper end of the anterior interventricular groove.
@@ -1742,7 +1734,6 @@ A right-sided aortic arch, a double aortic arch and an aberrant right subclavian
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 The aortic sac forms from fusion of the two ventral aortae and consists of a stem and a right and a left horn.
@@ -1980,7 +1971,6 @@ The thymus's septa are not the same thing as lobulation with follicles. The thym
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 Primary lymphoid organs are the thymus and bone marrow; secondary are lymph nodes, spleen and tonsils.
@@ -2256,7 +2246,6 @@ Aneuploidy is also not the same as polyploidy. Polyploidy is an exact multiple o
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 Specialized cells classify by ability to reproduce into non-renewing, potentially renewable and continuously renewing.
@@ -2453,7 +2442,6 @@ A sinusoid is not a fenestrated capillary. Both have pores, but the fenestrated 
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 Continuous (somatic) capillary: small and regular, endothelium continuous with no pores, tight junctions present, basal lamina continuous, pericytes present, macrophages absent.
@@ -2668,7 +2656,6 @@ Olfactory mucosa is not simply respiratory mucosa without goblet cells. It has t
 ## published_summary
 
 ## published_sections
-[clear]
 
 ## hold_these
 Olfactory mucosa covers the roof and superior conchae; the middle and inferior conchae carry respiratory epithelium.

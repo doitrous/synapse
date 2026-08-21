@@ -2796,3 +2796,126 @@ down.
 
 **It needs an owner.** It is a 108 file; nine missing `canonical_key` values is a small fix
 against a large blast radius.
+
+---
+
+## A regeneration deleted two other modules' written batches, in a commit about neither
+
+The orphan sweep, realised. `3248210` — *"Place forty-nine sitting signals the matcher would not
+guess at"*:
+
+```
+ concept/101-ISK-concepts.md                  144 +-
+ written/104-CPS-EOY-2025-written.md         1399 -------
+ written/108-INT-EOY-written.md              3815 --------------------
+ scripts/kasr/seeds/sittings.ts               104 +
+ 4 files changed, 193 insertions(+), 5269 deletions(-)
+```
+
+**5,269 lines of two other modules' committed written batches, removed by a commit whose subject
+names neither and whose stated purpose is adding sitting signals.** One of them belonged to a
+module that had merged through a PR with green checks hours earlier.
+
+**The mechanism is the stale registry.** A generator regenerating `written/` sweeps files it
+does not recognise, and its registry only knows the papers its own lane registered. **A registry
+listing fewer papers does not error — it deletes what it no longer knows about.** This is the
+third instance of that class and the first that reached `main`.
+
+> **Before committing a regeneration, read the deletions in your own diff.** A `git diff --stat`
+> showing four-figure deletions in a directory you did not mean to touch is the whole signal,
+> and it is available before the push rather than after.
+
+### `medical:batches-present` is correctly red, and should stay red
+
+One lane wired that check **after its own written batch was deleted twice in an hour** by
+commits about a different module — the second time its rebase pulled the deletion onto its disk
+and **every other check stayed green.**
+
+It currently fails naming `written/104-CPS-EOY-2025-written.md`, absent while its ledger expects
+15 items. **That is the check working.** The restore is in an open PR; that PR passes, and only
+PRs without it fail.
+
+> **A check that went quiet about a genuinely missing batch to keep the pipeline green would be
+> worth nothing.** A red that names a real absence is the most valuable state a gate can be in.
+
+### Satisfying one unscoped gate can break another
+
+Both were the same lane's to fix, and the sequence is instructive. Fixing `medical:presence` on
+nine update rows meant restating eighteen fields from live state — including `resourceIds`,
+**whose live value points at a source outside the Kasr corpus.** Nine rows then cited a source ID
+naming no manifest row, and **`medical:citations` went red for every lane** until it was removed.
+
+The reasoning that settled it is worth keeping:
+
+> Those nine concepts were sourced by somebody else. **This module's claim on them is a module
+> attachment, not a provenance claim.** Restating a true value from another corpus was an
+> assertion the module had no standing to make.
+
+**Omitting the column leaves the live value untouched** — verified `resourceIds` identical to
+live afterwards, `created 0 / updated 9`, 0 fields emptied. *A true value can still be a claim
+you are not entitled to make.*
+
+### When a checker is right and the answer is "yes, that is missing"
+
+The `resourceIds` / `atomicClaimIds` half of that red was **not** a checker misreading sanctioned
+gaps. **89 concepts genuinely have no evidence chain**, because the module has none. They carry
+stated `field_notes` reasons, but both fields sit on the must-populate list with **no
+reason-escape** — so the checker is correct and the lane declined to silence it, putting it first
+on the module's own OWED ledger instead.
+
+**Separate the halves of a red before fixing it.** One half was a real absence to own; the other
+was nine missing keys to supply. Fixing them the same way would have been wrong twice.
+
+### The orphan sweep, fixed — and verified in both directions
+
+`removeOrphans` read the whole `written/` directory and deleted anything the current run had not
+just written, **so every other module's file looked exactly like output whose paper had been
+unregistered.** From a bare directory read there was nothing to say, which is why the commit
+said nothing.
+
+**The fix is "cannot reach", not "knows better":** the sweep is scoped to the prefix that
+`slug()` itself builds filenames from — **the same constant, not a second literal beside it.**
+
+> The failure was never the literal being wrong. It was **a sweep whose idea of "mine" could
+> drift from the generator's** — and two copies of `'101-ISK-'` can drift where one cannot.
+
+**Verified in both directions, because a sweep that stopped deleting genuine orphans would be
+this bug wearing the fix as a disguise:**
+
+```
+planted 104-CPS-PROBE-written.md        -> survives a full regeneration untouched
+planted 101-ISK-STALE-2019-written.md   -> still removed, and named in the output
+```
+
+`104-CPS-EOY-2025-written.md` is **restored on `main`**; `medical:batches-present` clears on its
+own.
+
+### Read the shape of your diff, not only its content
+
+The lane's own account of what it missed, and it is the most portable sentence in this section:
+
+> **I read the *content* of my diff and not its *shape*.**
+
+`git diff --stat` showing four-figure deletions in a directory the commit had no business
+touching was available before the push. Content review answers *"is this change right?"*. Shape
+review answers *"is this the change I meant to make?"* — and only the second catches a sweep.
+
+## With `main` moving every two minutes, every report about it is stale by default
+
+**Three consecutive stale reports, from three different lanes, in one stretch:**
+
+- I reported 17 `published_sections` errors and nine missing `canonical_key` — **all already
+  fixed.**
+- The reporting lane relayed the same to two others as live — **it had read the same stale tree.**
+- That lane then reported `medical:citations` red for `src_d98abbe78377e7262afc` on nine concepts
+  — **verified just now: 0 occurrences, 0 `resource_ids` blocks. Already removed.**
+
+Nobody was careless. `main` moves roughly every two minutes, so **a red observed and a red
+reported are different facts**, and the gap between them is where all three landed.
+
+> **Fetch at the moment of reporting, not at the moment of observing — and say when you
+> checked.** A finding about `main` without a timestamp is a claim about a tree that no longer
+> exists.
+
+That the source ID genuinely appears in no manifest row is confirmed — so it was a real error
+while it existed, and reporting it was right. Only its tense was wrong.

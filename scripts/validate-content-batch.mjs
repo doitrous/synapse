@@ -114,6 +114,40 @@ if (!VALIDATED_KINDS.includes(kind)) {
 }
 
 /**
+ * Columns read by `parseSections`, and the third way to spell "deliberately
+ * empty" — which until now nothing checked.
+ *
+ * There are two documented empties: an empty body for a `text()` column, and
+ * `[clear]` for an `optionalList()` one. Each is silently wrong in the other's
+ * column, and `scripts/kasr/extract/108-INT/check-empties.py` exists to catch
+ * exactly that. It classifies every column as one or the other — and these are
+ * neither, so they fell through the gap between the two buckets and it reported
+ * "0 sentinel-in-text" on files full of them.
+ *
+ * `parseSections('[clear]')` does not return `[]`. It returns one section with
+ * an empty heading whose body is the literal string `[clear]`, because there is
+ * no `###` heading to split on. On `published_sections` — the evidence-gated
+ * student projection — that is a section a student can read, containing the
+ * word "[clear]". Thirty articles across three batches in two lanes were
+ * carrying it, and all three files passed `medical:batch` with zero errors.
+ *
+ * The correct empty here is an empty body: `parseSections` returns `[]` for
+ * both `''` and `undefined`.
+ */
+const SECTION_COLUMNS = ['sections', 'published_sections', 'annotations', 'media', 'media_recommendations']
+rows.forEach((values, index) => {
+  for (const column of SECTION_COLUMNS) {
+    if (values[column]?.trim() !== '[clear]') continue
+    errors.push(
+      `Item ${index + 1} (${values.id ?? values.title ?? values.label ?? 'untitled'}): `
+      + `${column} holds the literal "[clear]". That sentinel is read by optionalList() columns, and this one is `
+      + 'parsed by parseSections(), which has no heading to split on and stores a section whose body is the word '
+      + '"[clear]" — visible content, not an empty list. Leave the body empty instead; parseSections returns [] for that.',
+    )
+  }
+})
+
+/**
  * Fold `--with` siblings in as though already imported.
  *
  * Both the question branch and the practical branch resolve concepts against
