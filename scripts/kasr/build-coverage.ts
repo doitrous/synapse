@@ -52,16 +52,30 @@ const COMMAND = 'scripts/kasr/build-coverage.ts'
  */
 const scoped = (name: string) => {
   const own = `scripts/kasr/extract/${SLUG}/${name}`
-  return existsSync(join(REPO, own)) ? own : `scripts/kasr/extract/${name}`
+  if (existsSync(join(REPO, own))) return own
+  // The bare paths are 101's results, from before any of this was namespaced.
+  // Falling back to them for another module would read one module's extraction
+  // as another's, so only the module that owns them may.
+  return MODULE === '101 ISK' ? `scripts/kasr/extract/${name}` : own
 }
 
 const manifest = read('docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json')
 const sources: ManifestSource[] = manifest.sources.filter(
   (s: ManifestSource) => s.moduleId === MODULE || s.secondaryModule === MODULE)
 
-/** What each extractor found, indexed by the manifest ID it recorded. */
+/**
+ * What each extractor found, indexed by the manifest ID it recorded.
+ *
+ * A result file may hold rows for sources outside this module — the shared
+ * question dump does, and so does anything a lane ran before namespacing. A row
+ * whose source is not this module's is dropped rather than counted, because the
+ * headline totals are read as this module's yield and once said they are very
+ * hard to unsay.
+ */
+const mine = new Set(sources.map((s) => s.sourceId))
 const tally = new Map<string, { written: number; mcq: number; slides: number; radiology: number; chapters: number; topics: number; capped?: string }>()
 const bump = (id: string, field: 'written' | 'mcq' | 'slides' | 'radiology' | 'chapters' | 'topics', by = 1) => {
+  if (!mine.has(id)) return
   const row = tally.get(id) ?? { written: 0, mcq: 0, slides: 0, radiology: 0, chapters: 0, topics: 0 }
   row[field] += by
   tally.set(id, row)
@@ -91,6 +105,39 @@ for (const file of [...(mcq?.files ?? []), ...(practical?.files ?? []), ...(note
   const row = tally.get(file.sourceId)
   if (row) row.capped = `${file.pagesRead ?? '?'}/${file.pages ?? '?'} pages`
 }
+
+/**
+ * Which sources have had their text pulled, and what came back.
+ *
+ * Extracting a file's text is not the same as reading it, and the difference
+ * is the one this report exists to make visible. A source can be fully
+ * extracted and still have yielded nothing, because nobody has authored from
+ * it yet — that is scheduled work. A source that extracted to *nothing* is a
+ * different problem: an OCR pass that returned blank pages is a file still
+ * waiting to be read by eye, and it must not sit in the same bucket as a file
+ * nobody has opened.
+ *
+ * The cache is gitignored, so a clean checkout reports no extraction rather
+ * than pretending to some.
+ */
+function extracted() {
+  const rows = new Map<string, { pages: number; empty: number; mode: string }>()
+  const dir = join(REPO, 'scripts/kasr/extract/pagetext')
+  if (!existsSync(dir)) return rows
+  for (const name of readdirSync(dir)) {
+    if (!name.endsWith('.json')) continue
+    const doc = read(`scripts/kasr/extract/pagetext/${name}`)
+    // One cache, every module. Another lane's extraction is not this module's.
+    if (!mine.has(doc.sourceId)) continue
+    rows.set(doc.sourceId, {
+      pages: doc.pages.length,
+      empty: (doc.emptyPages ?? []).length,
+      mode: doc.mode,
+    })
+  }
+  return rows
+}
+const text = extracted()
 
 /** Items authored into batches, counted from the batch files themselves. */
 function authored() {
@@ -147,7 +194,15 @@ const line = (source: ManifestSource) => {
     t?.topics && `${t.topics} topics`,
   ].filter(Boolean).join(', ')
   const state = yields ? (t?.capped ? `read ${t.capped}` : 'read in full') : 'not yet read'
-  return `| ${source.fileName.replace(/\|/g, '\\|')} | ${source.sourceCategory} | ${source.pageCount ?? '—'} | ${yields || '—'} | ${state} |`
+  const x = text.get(source.sourceId)
+  const extractedAs = x
+    ? (x.empty === 0 ? x.mode : `${x.mode}, ${x.empty}/${x.pages} blank`)
+    : '—'
+  // The column is omitted entirely where nothing has been extracted, rather
+  // than printed as a row of dashes: a module with no extraction has nothing
+  // to say here, and saying it in a column is not the same as saying nothing.
+  const textCell = text.size ? ` ${extractedAs} |` : ''
+  return `| ${source.fileName.replace(/\|/g, '\\|')} | ${source.sourceCategory} | ${source.pageCount ?? '—'} |${textCell} ${yields || '—'} | ${state} |`
 }
 
 const untouched = rows.filter((source) => !tally.get(source.sourceId))
@@ -185,7 +240,30 @@ ${capped.length
   ? `${capped.length} file${capped.length === 1 ? '' : 's'} stopped short of the end. Each is named with how far it got, so the remainder is scheduled work rather than a silent gap.\n\n${capped.map((source) => `- **${source.fileName}** — ${tally.get(source.sourceId)!.capped}`).join('\n')}`
   : 'Nothing was capped: every file that was opened was read to the end.'}
 
-## Not yet read
+${text.size ? `## Text extracted
+
+${(() => {
+      const mine = rows.filter((source) => text.has(source.sourceId))
+      const pages = mine.reduce((sum, s) => sum + text.get(s.sourceId)!.pages, 0)
+      const blank = mine.reduce((sum, s) => sum + text.get(s.sourceId)!.empty, 0)
+      const ocr = mine.filter((s) => text.get(s.sourceId)!.mode === 'ocr')
+      const silent = mine.filter((s) => {
+        const x = text.get(s.sourceId)!
+        return x.empty === x.pages && x.pages > 0
+      })
+      return `Text has been pulled from ${mine.length} of ${rows.length} sources — ${pages} pages, `
+        + `${ocr.length} of them by OCR because the file carries no text layer. `
+        + `${blank} page${blank === 1 ? '' : 's'} came back empty.\n\n`
+        + `Having text is not the same as having read it: a source below can be fully `
+        + `extracted and still yield nothing, because authoring from it is scheduled `
+        + `rather than done.\n`
+        + (silent.length
+          ? `\n${silent.length} source${silent.length === 1 ? '' : 's'} extracted to **nothing at all** — `
+            + `every page blank. These need a human eye or a better OCR pass; they are not empty files.\n\n`
+            + silent.map((s) => `- **${s.fileName}** (${s.sourceCategory}, ${s.pageCount ?? '?'} pages)`).join('\n') + '\n'
+          : '')
+    })()}
+` : ''}## Not yet read
 
 ${untouched.length
   ? `${untouched.length} file${untouched.length === 1 ? '' : 's'}.\n\n${untouched.map((source) => `- **${source.fileName}** (${source.sourceCategory}, ${source.pageCount ?? '?'} pages)`).join('\n')}`
@@ -195,8 +273,8 @@ ${untouched.length
 
 ${unranked.length
   ? `${unranked.length} categor${unranked.length === 1 ? 'y is' : 'ies are'} not in this report's priority order and sort last: ${unranked.map((c) => `\`${c}\``).join(', ')}. Rank them in \`CATEGORY_ORDER\` to place them.\n\n`
-  : ''}| File | Category | Pages | Yielded | State |
-| --- | --- | --- | --- | --- |
+  : ''}| File | Category | Pages |${text.size ? ' Text |' : ''} Yielded | State |
+| --- | --- | --- |${text.size ? ' --- |' : ''} --- | --- |
 ${rows.map(line).join('\n')}
 `
 
