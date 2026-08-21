@@ -66,6 +66,8 @@
 # Item
 ## id
 CON-FND-3CC86CC26BF549
+## canonical_key
+teaching.pharma.loading.definition
 ## explicit_objective
 Explain or apply: A loading dose is the initial dose that raises plasma drug level to the target concentration
 ## definition
@@ -121,6 +123,8 @@ atomicClaimIds: Left as extracted. No evidence pass has been run for 108 INT and
 # Item
 ## id
 CON-FND-7F59EAD61B05E0
+## canonical_key
+teaching.pharma.maintenance.definition
 ## explicit_objective
 Explain or apply: A maintenance dose replaces drug eliminated since the preceding dose to maintain steady state
 ## definition
@@ -178,6 +182,8 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-CBA2A73AE9A6D8
+## canonical_key
+teaching.pharma.vd.definition
 ## explicit_objective
 Explain or apply: Apparent volume of distribution is the hypothetical fluid volume that would contain the total drug amount at the measured plasma concentration
 ## definition
@@ -234,6 +240,8 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-0D3254CF812B1A
+## canonical_key
+teaching.pharma.vd.apparent
 ## explicit_objective
 Explain or apply: Apparent volume of distribution may exceed physical body volume, as stated for digoxin
 ## definition
@@ -287,6 +295,8 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-FD53CFAE6AAC72
+## canonical_key
+teaching.pharma.vd.high
 ## explicit_objective
 Explain or apply: A high apparent volume of distribution indicates multicompartment distribution or tissue concentration
 ## definition
@@ -344,6 +354,8 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-43BED56FA9D1E9
+## canonical_key
+teaching.pharma.vd.low
 ## explicit_objective
 Explain or apply: A low apparent volume of distribution indicates retention in the vascular compartment due to high molecular weight or high plasma-protein binding
 ## definition
@@ -400,6 +412,8 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-87C323BB0CE321
+## canonical_key
+teaching.pharma.clearance.volume
 ## explicit_objective
 Explain or apply: Clearance is the volume of body fluid from which drug is removed per unit time
 ## definition
@@ -454,6 +468,8 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-01E59D0FD26046
+## canonical_key
+teaching.pharma.tubular.secretion
 ## explicit_objective
 Explain or apply: Active tubular excretion is saturable and is a site of competition and drug interaction
 ## definition
@@ -514,6 +530,8 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-9D89A82094F8AA
+## canonical_key
+teaching.pharma.enterohepatic
 ## explicit_objective
 Explain or apply: Biliary drug excretion can be followed by intestinal reabsorption and enterohepatic circulation
 ## definition
