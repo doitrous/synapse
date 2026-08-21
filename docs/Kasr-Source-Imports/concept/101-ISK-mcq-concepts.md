@@ -2,6 +2,7 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Blood Platelets — 19 questions, 5 concepts
+    Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
     Non granular leukocytes — 14 questions, 5 concepts
@@ -17,7 +18,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  18 questions were excluded and 0 held back for having no
+  20 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -62,8 +63,32 @@ src_bb081b0479f7a33666cd | question_book | | p25 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -71,7 +96,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -114,8 +157,32 @@ src_34c967631e388497dc35 | question_book | | p12 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p8 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -123,7 +190,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -164,8 +249,32 @@ src_c6ab1b49dc16762227e1 | question_book | | p7 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -173,7 +282,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -217,8 +344,32 @@ src_34c967631e388497dc35 | question_book | | p8 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -226,7 +377,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -267,8 +436,32 @@ src_34c967631e388497dc35 | question_book | | p8 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-BLOOD-PLATELETS
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -276,7 +469,306 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The neutrophil carries two granule populations and is the first line of non-specific defence
+## id
+CON-HEM-3899015C5024C0
+## canonical_key
+neutrophil-granules-and-first-line-defence
+## definition
+Neutrophils are 60–70% of the white cell count, 10–12 µm, with a dark segmented nucleus of two to five lobes joined by thin chromatin threads. Their azurophil (primary) granules are large, few and dark — primary lysosomes holding myeloperoxidase. Their specific (secondary) granules are small, many and pale, holding collagenase, phagocytin, lysozyme and lactoferrin. Bacterial toxins attract them; they leave the blood by diapedesis between endothelial cells and become motile microphages.
+## explicit_objective
+Distinguish the neutrophil’s azurophil and specific granules by size, number, staining and contents, and say what each contributes to defence.
+## pitfalls
+Treating the two granule populations as one. The exam asks which granule holds which enzyme, and myeloperoxidase is in the azurophil granule while lactoferrin, phagocytin, lysozyme and collagenase are in the specific one.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_34c967631e388497dc35 | question_book | | p5 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p6 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p13 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+Polymorphonuclear leucocyte | Neutrophil granules | Microphage
+## article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+The department book states dead neutrophils form pus cells and that pus raises body temperature by stimulating the heat-regulating centre. No physiology source in this corpus supports the mechanism as stated; it is recorded because the book states it and it is examinable, not because it is verified.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The eosinophil ends an allergic reaction with histaminase and sulphatase, and kills parasites with its granule protein
+## id
+CON-HEM-CA78CC131E0236
+## canonical_key
+eosinophil-granule-contents-and-role-in-allergy
+## definition
+Eosinophils are 1–4% of the count, 10–14 µm, with a bilobed horse-shoe nucleus joined by a thick chromatin thread and large acidophilic specific granules. On electron microscopy the granule is oval with an electron-dense crystalloid core of basic protein. The cell terminates allergy by secreting histaminase and sulphatase, which destroy histamine and heparin, and by phagocytosing antigen–antibody complexes; it defends against parasites by the cytotoxic effect of its granule protein. Eosinophilia is above 5%, eosinopenia below 1%.
+## explicit_objective
+Name the contents of the eosinophil granule and explain how each ends an allergic reaction or kills a parasite.
+## pitfalls
+Confusing histaminase with histamine. The eosinophil destroys histamine; the basophil releases it. A question naming histaminase, sulphatase and neurotoxin is naming the eosinophil, and the same question with histamine and heparin is naming the basophil.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+Eosinophil granules | Acidophil | Eosinophilia
+## article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## support_mode
+direct_statement
+## conflicts
+The department book puts eosinophils at 1–4% of the differential count. Several question books and my own first reading of the 2025 paper give 2–4%. The book is this faculty’s own and governs; the discrepancy is recorded rather than resolved silently, because a one-mark question on the count could be marked either way.
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
+
+---
+
+# Item
+## label
+The basophil holds histamine and heparin, carries IgE receptors, and its histamine release is anaphylaxis
+## id
+CON-HEM-607B783A16FBEB
+## canonical_key
+basophil-granule-contents-and-anaphylaxis
+## definition
+Basophils are 0–1% of the count, 10–12 µm, with an irregular segmented S-shaped nucleus obscured by coarse granules that stain metachromatically purple with toluidine blue because of their heparin. The specific granules are large, rounded and electron dense, holding histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane carries receptors for IgE. Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma. Basophilia is above 2%.
+## explicit_objective
+List what the basophil granule contains, and connect each substance to the clinical event it produces.
+## pitfalls
+Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors — the book compares them directly — but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_34c967631e388497dc35 | question_book | | p5 | 101 ISK
+src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p2 | 101 ISK
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+Basophil granules | Anaphylaxis | Basophilia
+## article_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## support_mode
+direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -316,8 +808,32 @@ kau
 src_c6ab1b49dc16762227e1 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -325,7 +841,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -365,8 +899,32 @@ kau
 src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -374,7 +932,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -414,8 +990,32 @@ kau
 
 ## weight_confidence
 0.6
+## blueprint_weight
+0.15
+## exam_weight_by_year
+KAU_Y1=0.15
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -423,7 +1023,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -463,8 +1081,32 @@ kau
 src_4e481d399b2ffd65b97a | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+
+## article_ids
+ART-101-HIS-HAEMOPOIESIS
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -472,7 +1114,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -516,8 +1176,32 @@ src_764a2521809818b8abdc | question_book | | p49 | 101 ISK
 src_08bc782553366518791e | question_book | | p100 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -525,7 +1209,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -572,8 +1274,32 @@ src_764a2521809818b8abdc | question_book | | p27 | 101 ISK
 src_69103a53ec28a93958d5 | question_book | | p17 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.79
+## exam_weight_by_year
+KAU_Y1=0.79
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -581,7 +1307,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -626,8 +1370,32 @@ src_08bc782553366518791e | question_book | | p102 | 101 ISK
 src_08bc782553366518791e | question_book | | p61 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -635,7 +1403,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -678,8 +1464,32 @@ src_08bc782553366518791e | question_book | | p102 | 101 ISK
 src_08bc782553366518791e | question_book | | p103 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -687,7 +1497,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -727,8 +1555,32 @@ kau
 src_08bc782553366518791e | question_book | | p96 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## article_ids
+ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -736,7 +1588,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -779,8 +1649,32 @@ src_c6ab1b49dc16762227e1 | question_book | | p5 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p18 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -788,7 +1682,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -831,8 +1743,32 @@ src_34c967631e388497dc35 | question_book | | p2 | 101 ISK
 src_995e491b2e22cc96d8ef | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -840,7 +1776,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -881,8 +1835,32 @@ src_bb081b0479f7a33666cd | question_book | | p24 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -890,7 +1868,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -930,8 +1926,32 @@ kau
 src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -939,7 +1959,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -979,8 +2017,32 @@ kau
 src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## article_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -988,7 +2050,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -1030,8 +2110,32 @@ src_4e481d399b2ffd65b97a | question_book | | p7 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p6 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+
+## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1039,7 +2143,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -1080,8 +2202,32 @@ src_4e481d399b2ffd65b97a | question_book | | p3 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p9 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+
+## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1089,7 +2235,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -1133,8 +2297,32 @@ src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
 ## weight_confidence
 0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+
+## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1142,7 +2330,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -1182,8 +2388,32 @@ kau
 src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+
+## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1191,7 +2421,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -1231,8 +2479,32 @@ kau
 src_4e481d399b2ffd65b97a | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+
+## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1240,7 +2512,25 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.
 
 ---
@@ -1281,8 +2571,32 @@ src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+
+## article_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
 ## owner
 Claude
 ## publication_status
@@ -1290,5 +2604,23 @@ needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.

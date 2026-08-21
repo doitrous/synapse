@@ -2,9 +2,10 @@
   Concepts for 101 ISK, from every paper read so far.
 
     EOY (ISK - 101) 199 (1).pdf — end of year 2025, 17 questions
+    EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — resit 2024, 16 questions
 
-  17 concepts from 17 questions.
-  0 of them were asked on more than one paper, and carry an exam_signal
+  33 concepts from 33 questions.
+  4 of them were asked on more than one paper, and carry an exam_signal
   line per sitting: repetition is the strongest blueprint evidence this corpus
   holds, and it only exists once the papers are read together.
 
@@ -325,18 +326,19 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p3 | 101 ISK
+src_cd60acf6ffe62830b01d | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.05
+0.07
 ## exam_weight_by_year
-KAU_Y1=0.05
+KAU_Y1=0.07
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Histology
 ## subtopic
@@ -877,18 +879,20 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p10 | 101 ISK
+src_ec930bfde4ad26924402 | resit | 2023 | p1 | 101 ISK
+src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.07
+0.15
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.15
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -1061,18 +1065,19 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p12 | 101 ISK
+src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.09
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.09
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -1245,18 +1250,19 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p14 | 101 ISK
+src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.09
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.09
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -1547,6 +1553,1446 @@ direct_statement
 [Anatomy Q9, 0 marks] Case (1) c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?
 ## conflicts
 
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The quadrangular and two triangular spaces below the shoulder each have set boundaries and their own contents
+## id
+CON-MSK-8533FCB18D819B
+## canonical_key
+intermuscular-spaces-quadrangular-triangular-boundaries-contents
+## definition
+Three intermuscular spaces lie just below the shoulder joint. The quadrangular space, laterally, is bounded above by teres minor behind and subscapularis in front, below by teres major, medially by the long head of triceps and laterally by the surgical neck of the humerus; it transmits the posterior circumflex humeral vessels and the axillary (circumflex) nerve. The upper triangular space, medially, has the same upper and lower boundaries with the long head of triceps laterally, and transmits only the circumflex scapular artery. The lower triangular space (triangular interval) lies lateral to the long head of triceps, bounded above by teres major and laterally by the lateral head of triceps and the shaft of the humerus, and transmits the radial nerve and the profunda brachii vessels.
+## explicit_objective
+Give the boundaries and contents of the quadrangular, upper triangular and lower triangular spaces.
+## pitfalls
+Treating the long head of triceps as one boundary throughout. It is the medial boundary of the quadrangular space and the lateral boundary of the upper triangular space — which side of it a structure lies on is what separates the axillary nerve from the circumflex scapular artery.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p1 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Quadrangular space | Triangular interval | Spaces below the shoulder joint
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q1, 5 marks] Boundaries and contents of intermuscular spaces
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The superficial palmar arch is mainly ulnar and distal; the deep arch is mainly radial and proximal
+## id
+CON-MSK-BC95DAE3531583
+## canonical_key
+palmar-arterial-arches-site-formation-branches
+## definition
+The superficial palmar arch lies between the palmar aponeurosis and the flexor tendons, crossing at the midshaft of the metacarpals; it is formed mainly by the ulnar artery and completed by the superficial palmar branch of the radial artery, and gives three common palmar digital arteries and a palmar digital artery to the medial side of the little finger. The deep palmar arch lies deep to the flexor tendons, just distal to the bases of the metacarpals and about half an inch proximal to the superficial arch; it is formed mainly by the radial artery and completed by the deep palmar branch of the ulnar artery, and gives three palmar metacarpal arteries, three perforating branches to the dorsal metacarpal arteries, and recurrent branches to the anterior carpal arch.
+## explicit_objective
+Compare the superficial and deep palmar arches by site, formation and branches.
+## pitfalls
+Swapping which artery mainly forms which. The superficial arch is the ulnar artery completed by the radial; the deep arch is the radial completed by the ulnar — and the superficial one is the distal of the two.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p1 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Arterial arches of the hand
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q2, 5 marks] Superficial palmar arch and deep palmar arch compare (site, formation, branches)
+## conflicts
+This paper’s answer places the superficial arch half an inch distal to the deep arch; the department book (Hand) states one centimetre. Both are recorded; neither is corrected.
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The extensor retinaculum is anchored to radius and to pisiform and triquetral, and its septa make six tendon compartments
+## id
+CON-MSK-44234D1863CE8E
+## canonical_key
+extensor-retinaculum-attachments-compartments
+## definition
+The extensor retinaculum is a thick band of the deep fascia of the forearm lying obliquely across the back of the wrist, attached laterally to the anterior border of the lower end of the radius and medially to the pisiform and the triquetral. Five septa passing to ridges on the back of the lower end of the radius divide the space beneath it into six compartments, holding from lateral to medial: abductor pollicis longus with extensor pollicis brevis; extensor carpi radialis longus and brevis; extensor pollicis longus; the tendons of extensor digitorum and extensor indicis with the posterior interosseous nerve and anterior interosseous artery; extensor digiti minimi; and extensor carpi ulnaris.
+## explicit_objective
+Give the attachments of the extensor retinaculum and name the contents of each of its six compartments in order.
+## pitfalls
+Losing the order by naming the compartments from a list of tendons rather than from Lister’s tubercle. The second compartment lies lateral to the tubercle and the third medial to it, which is what fixes the sequence.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p1 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q3, 5 marks] Extensor retinaculum (boundaries and compartments)
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The skin of the arm is supplied in named strips from the radial nerve, the medial cord and the axillary nerve
+## id
+CON-MSK-F4FC0C323C654E
+## canonical_key
+upper-limb-cutaneous-nerve-supply
+## definition
+The back of the arm is supplied by the posterior cutaneous nerve of the arm from the radial nerve. The medial side is supplied above by the intercostobrachial nerve, the lateral cutaneous branch of the second intercostal nerve, which also covers the floor of the axilla, and below by the medial cutaneous nerve of the arm from the medial cord. The lateral side is supplied over the upper half of the deltoid by the lateral supraclavicular nerve from C3 and C4, over the lower half of the deltoid by the upper lateral cutaneous nerve of the arm from the posterior branch of the axillary nerve, and over the lower lateral arm by the lower lateral cutaneous nerve of the arm from the radial nerve in the spiral groove.
+## explicit_objective
+Name the cutaneous nerves of the shoulder region, axilla and arm, and give the origin and territory of each.
+## pitfalls
+Assuming the skin over the deltoid has one nerve. Its upper half is supraclavicular, from the cervical plexus, and only its lower half is axillary — which is why the sensory loss of an axillary lesion is a patch, not the whole shoulder.
+## concept_type
+structural_description
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p2 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Cutaneous nerves of the arm
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q4, 5 marks] Cutaneous nerves of arm region (origin, supply)
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Beyond ninety degrees the scapula rotates, by trapezius and serratus anterior
+## id
+CON-MSK-04D3ACA71DC025
+## canonical_key
+scapular-rotation-abduction-beyond-90-muscles
+## definition
+Abduction of the arm beyond about ninety degrees cannot happen at the shoulder joint, because the greater tuberosity meets the coraco-acromial ligament; the arm is raised further by the scapula rotating on the chest wall so the glenoid cavity faces upwards. That rotation is produced by the upper and lower fibres of trapezius, supplied motor by the spinal root of the accessory nerve with sensory C3 and C4, acting with the lower five digitations of serratus anterior, supplied by the nerve to serratus anterior (long thoracic nerve, nerve of Bell). Serratus anterior is also the powerful protractor of the scapula and fixes it against the chest wall, so its paralysis wings the scapula.
+## explicit_objective
+Name the muscles that rotate the scapula to carry abduction beyond ninety degrees, and give the nerve supply and action of each.
+## pitfalls
+Answering with deltoid and supraspinatus. Those carry abduction to ninety degrees; past it the question is about the shoulder girdle, and the answer is trapezius and serratus anterior.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T03-S02-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Shoulder Region
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p2 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Upward rotation of the scapula
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q5, 5 marks] Nerve supply and action of muscles producing abduction of shoulder girdle (more than 90)
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Supination and pronation turn the radius about an axis from its head to the head of the ulna
+## id
+CON-MSK-E10403A4189B45
+## canonical_key
+supination-pronation-muscles-attachments-nerve
+## definition
+Supination is lateral rotation of the forearm and pronation medial rotation, both taking place at the superior and inferior radio-ulnar joints about a vertical axis running from the centre of the head of the radius above to the head of the ulna below, at the attachment of the apex of the articular disc. In supination the radius and ulna lie parallel, the palm faces forwards, the thumb points laterally and the interosseous membrane is tense; in pronation the shaft of the radius crosses in front of the ulna, the palm faces backwards, the thumb points medially and the membrane is lax. Biceps supinates when the elbow is flexed and supinator when it is extended; pronator teres and pronator quadratus pronate; brachioradialis brings the forearm to the mid-prone position.
+## explicit_objective
+Define supination and pronation, give the joints and the axis of the movement, and name the muscles producing each.
+## pitfalls
+Placing the axis through the middle of the forearm. It runs from the head of the radius to the head of the ulna, which is why it is the radius that swings and the ulna that stays.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T06-S01-M01
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Forearm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p3 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q6, 5 marks] Supination and pronation (def, axis, muscles producing)
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Fertilization runs from capacitation through three phases of penetration to fusion of the two pronuclei
+## id
+CON-DEV-F33BB68138377B
+## canonical_key
+fertilization-site-mechanism-results
+## definition
+Fertilization begins with capacitation, the removal of the glycoprotein coat from the acrosomal region of the sperm in the female tract, taking about seven hours. Phase I is dispersion of the corona radiata by the three to five hundred sperms that reach the ovum. Phase II is penetration of the zona pellucida: the sperm binds to zona receptors and its acrosomal enzymes dissolve a path for one sperm. Phase III is fusion of the plasma membranes of sperm and oocyte, the sperm contents passing in and the sperm membrane staying outside. The cortical and zona reaction then prevents polyspermy; the secondary oocyte completes the second meiotic division, producing the mature ovum and the second polar body; and the male and female pronuclei fuse to form the nucleus of the zygote.
+## explicit_objective
+Describe the mechanism of fertilization from capacitation through the three phases of penetration to formation of the zygote nucleus.
+## pitfalls
+Treating the block to polyspermy as mechanical. It is the cortical and zona reaction — lysosomal enzymes from the cortical granules altering the zona receptors — not the zona simply being thick.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p3 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q7, 5 marks] Mechanism of fertilization
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Placental anomalies are of position, shape, number and cord attachment
+## id
+CON-DEV-723B31B1B9ED2E
+## canonical_key
+placenta-anomalies
+## definition
+Anomalies of the placenta are grouped by position, by shape, by number and by the attachment of the umbilical cord. In position, implantation in the lower uterine segment gives placenta praevia, which this paper grades as parietalis, where the margin lies above the internal os, marginalis, where the margin covers it, and centralis, where the central part covers it. In shape the placenta may be bilobed or trilobed. In number there may be a twin placenta, two placentae with two cords, or an accessory placenta accompanying the main one. In cord attachment, a velamentous placenta has the cord attached through the membranes and a battledore placenta has it attached at the margin.
+## explicit_objective
+Group the anomalies of the placenta by position, shape, number and cord attachment, and name an example of each.
+## pitfalls
+Confusing velamentous with battledore. Velamentous means the cord runs in through the membranes before reaching the placenta; battledore means it reaches the placenta but at its edge.
+## concept_type
+classification
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p3 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Congenital anomalies of the placenta
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q8, 5 marks] Analomies of placenta (regarding attachment of cord, abnormal sites of implantaion)
+## conflicts
+This paper’s answer grades placenta praevia as parietalis, marginalis and centralis. The department book (Second Week of Development) grades it complete/total, partial and marginal, and adds low-lying placenta. The two namings are not reconciled here.
+## uncertainty
+
+## evidence_gaps
+The paper’s answer does not cover the book’s further groups — anomalies of diameter (placenta membranacea) and of infiltration (accreta, increta, percreta) — so a full mark scheme for this question is not established by either source alone.
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Chorionic villi run primary to secondary to tertiary, and the chorion that carries them splits into frondosum and laeve
+## id
+CON-DEV-E099FAA01BEAEB
+## canonical_key
+chorionic-villi-types-development
+## definition
+Chorionic villi are projections of the chorion that begin at the end of the second week and develop through the third. A primary villus is a core of proliferating cytotrophoblast pushing the syncytiotrophoblast; it becomes a secondary villus when somatic extra-embryonic mesoderm enters the core, and a tertiary villus when fetal blood vessels appear in that mesoderm, the villi then separated by intervillous spaces full of maternal blood. A tertiary villus has a stem (anchoring) part running between chorion and decidua basalis and free (floating) side branches where exchange happens. The chorion carrying well-developed villi is the chorion frondosum, which persists as the fetal part of the placenta; the rest is chorion laeve, whose villi degenerate.
+## explicit_objective
+Name the three types of chorionic villus and what changes between them, and give the fate of chorion frondosum and chorion laeve.
+## pitfalls
+Calling a villus tertiary as soon as it has a mesodermal core. Mesoderm alone makes it secondary; it is tertiary only once vessels have formed in that mesoderm.
+## concept_type
+developmental_process
+## status
+under review
+## subject
+dev
+## primary_node_id
+DIS-EMB-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p4 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+General Embryology
+## aliases
+Chorion frondosum and chorion laeve
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q9, 5 marks] Chorionic villi types and fate
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Deep fascia works by what it forms — sheets, septa, retinacula, aponeuroses and vascular sheaths
+## id
+CON-MSK-6CD9FFF51AE9CD
+## canonical_key
+deep-fascia-parts-functions
+## definition
+Deep fascia is an inelastic membrane of compact regular collagen fibres, well defined in the limbs and absent in the face and the anterior abdominal wall. It forms broad sheets around groups of muscles, which fix underlying structures in position, give attachment to muscles and help venous return; intermuscular septa and interosseous membranes, which separate muscle groups of different action and nerve supply and add surface for attachment; retinacula, thickened transverse bands at wrist and ankle that hold the tendons in place; the palmar and plantar aponeuroses, thick layers protecting the vessels, nerves and tendons beneath; and fibrous sheaths around large vessels, such as the carotid sheath around the carotid arteries, internal jugular vein and vagus nerve.
+## explicit_objective
+List the functions of deep fascia by naming the structures it forms and what each achieves.
+## pitfalls
+Answering with the functions of superficial fascia — insulation, smoothing the contour, carrying vessels to the skin. Those belong to the other layer, and deep fascia is where the question is.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p4 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Basis of Anatomy
+## aliases
+
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q10, 5 marks] Functions of deep fascia
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Shoulder dislocation endangers the axillary nerve, costing deltoid and teres minor
+## id
+CON-MSK-EE022A2043C10F
+## canonical_key
+axillary-nerve-injury-shoulder-dislocation
+## definition
+The axillary (circumflex) nerve, C5 and C6, winds round the surgical neck of the humerus through the quadrangular space, where dislocation of the shoulder, fracture of the surgical neck and crutch pressure all endanger it. It supplies deltoid and teres minor. Its injury loses abduction of the shoulder through the range deltoid provides, from fifteen to ninety degrees, flattens the rounded contour of the shoulder as deltoid wastes, and numbs a patch of skin over the lower half of the deltoid.
+## explicit_objective
+Name the nerve endangered by shoulder dislocation, the muscles it supplies, and the movement, deformity and sensory loss its injury produces.
+## pitfalls
+Reporting total loss of abduction. Supraspinatus still initiates the first fifteen degrees and the scapular rotators still act above ninety; it is the middle range that goes.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p5 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.8
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Circumflex nerve injury | Flat shoulder
+## support_mode
+direct_statement
+## original_wording
+[Cases Q6, 5 marks] 6) A 45 years old woman was admitted to hospital with dislocation of her right shoulder. a. What nerve is endangered by this dislocation? b. What are the muscles supplied by this nerve? c. What movements would be affected if this nerve was injured? d. What would be the deformity resulting from this paralysis? e. Where would be the skin sensory loss resulting from such an injury?
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The snuff box is floored by the scaphoid, so tenderness in it after a fall means a scaphoid fracture
+## id
+CON-MSK-1424177E093253
+## canonical_key
+anatomical-snuff-box-site-boundaries-contents
+## definition
+The anatomical snuff box is a triangular hollow at the lateral part of the back of the wrist, seen when the thumb is extended. It is bounded medially by the tendon of extensor pollicis longus and laterally by the tendons of abductor pollicis longus and extensor pollicis brevis. Its floor is the styloid process of the radius with the scaphoid proximally and the trapezium distally, crossed by the tendons of extensor carpi radialis longus and brevis. Its roof is skin and superficial fascia carrying the beginning of the cephalic vein and branches of the superficial radial nerve. It contains the radial artery, whose pulsation is felt there — and because the scaphoid floors it, tenderness in the box after a fall on the outstretched hand means a fractured scaphoid.
+## explicit_objective
+Give the diagnosis suggested by tenderness in the anatomical snuff box after a fall, and the boundaries, contents, floor and roof of the box.
+## pitfalls
+Reading a normal radiograph as excluding the fracture. The scaphoid is what floors the box and the fracture is often invisible at first; the tenderness is the finding that matters.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+msk
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## modules
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p5 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.8
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Anatomy
+## subtopic
+Upper Limb
+## aliases
+Anatomical snuffbox | Scaphoid fracture
+## support_mode
+direct_statement
+## original_wording
+[Cases Q10, 5 marks] 10) A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a. What is the expected diagnosis? b. What are the boundaries of the anatomical snuff box? c. What are the contents of the anatomical snuff box? d. What makes the floor of the anatomical snuff box? e. What makes the roof of the anatomical snuff box?
+## conflicts
+This paper’s answer gives the contents as the radial artery with the tendons of extensor carpi radialis longus and brevis. The department book (Forearm) counts those two tendons as crossing the floor rather than as contents, and adds the beginning of the cephalic vein in the roof. Recorded as both state it.
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Smooth endoplasmic reticulum is invisible in itself and known by the acidophilia it causes and its ribosome-free tubules
+## id
+CON-FND-0B3CC0A79F9150
+## canonical_key
+ser-structure-function-steroid-detoxification
+## definition
+Smooth endoplasmic reticulum is a membranous organelle concerned with lipid and steroid synthesis, well developed in cells that form fat and steroid hormones, such as liver cells. On light microscopy it is not demonstrated as such, but where it is abundant it gives the cytoplasm an acidophilia. On electron microscopy it is a network of branching and anastomosing tubules of variable shape, continuous with the rough endoplasmic reticulum, whose membranes carry no bound ribosomes.
+## explicit_objective
+Describe smooth endoplasmic reticulum as it appears on light microscopy and on electron microscopy, and say what it does.
+## pitfalls
+Expecting to see it under the light microscope. What is seen is the cytoplasmic acidophilia it produces when abundant, not the organelle.
+## concept_type
+structure_function_relationship
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p6 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Agranular endoplasmic reticulum
+## support_mode
+direct_statement
+## original_wording
+[Histology Q1, 5 marks] Outline LM and EM of sER
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+A secondary lysosome is named by what the primary lysosome fused with, and all end as residual bodies
+## id
+CON-FND-9D325B98FC59A0
+## canonical_key
+lysosome-types-secondary-fates
+## definition
+Secondary lysosomes are heterogeneous membranous vesicles that have entered digestive events. A heterolysosome is a primary lysosome fused with a phagosome, digesting solid particles; a multivesicular body is a primary lysosome fused with a pinocytic vesicle, digesting fluid; an autolysosome is a primary lysosome fused with old organelles. What is left undigested becomes a residual body, which is either discharged from the cell by exocytosis or stays in it as lipofuscin, the pigment that accumulates with age particularly in non-dividing cells such as cardiac muscle and nerve cells.
+## explicit_objective
+Name the three types of secondary lysosome by what the primary lysosome fused with, and give the fate of the residual body.
+## pitfalls
+Treating the residual body as a fourth type of secondary lysosome. It is the end state of all three, not a parallel kind.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T01
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p6 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Cytology
+## aliases
+Heterolysosome | Autolysosome | Multivesicular body | Residual body
+## support_mode
+direct_statement
+## original_wording
+[Histology Q2, 5 marks] Types of 2ndry lysosome and their fates
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Plasma cell and macrophage differ in origin, in where they sit and in what they look like stained
+## id
+CON-FND-45A380D5F6A77F
+## canonical_key
+plasma-cell-vs-macrophage-comparison
+## definition
+The plasma cell arises from the B lymphocyte through the plasmablast and lies in lymphoid tissue; on light microscopy it is a large oval cell with deeply basophilic cytoplasm showing a negative Golgi image, and a spherical eccentric nucleus whose alternating hetero- and euchromatin give the cart-wheel or clock-face appearance. The macrophage arises from the monocyte, is fixed in connective tissue as the histiocyte and free in lymphoid tissue, bone marrow, brain, liver and lung; on light microscopy it is a large branched motile cell with an irregular boundary, pale granular cytoplasm and a single darkly stained eccentric kidney-shaped nucleus, and it is demonstrated by vital stains such as trypan blue or India ink, which it takes up.
+## explicit_objective
+Compare the plasma cell and the macrophage by origin, by site, and by their light-microscopic appearance.
+## pitfalls
+Separating them by basophilia alone. Both can look dark; it is the cart-wheel nucleus and negative Golgi image against the kidney-shaped nucleus and ingested vital stain that tell them apart.
+## concept_type
+structural_description
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p7 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Connective Tissue
+## aliases
+Histiocyte
+## support_mode
+direct_statement
+## original_wording
+[Histology Q3, 5 marks] Compare betwean plasma cell and macrophage (origin, site, LM)
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+[clear]
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopic: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
+resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The eosinophil is a small fraction of the leukocytes with a bilobed nucleus and granules that end allergy
+## id
+CON-HEM-77B701F6105076
+## canonical_key
+eosinophil-features-granules-function
+## definition
+Eosinophils are one to four per cent of the leukocytes. On light microscopy they are rounded cells ten to fourteen micrometres across with a bilobed, horse-shoe-shaped nucleus and cytoplasm full of numerous large refractile acidophilic granules. They terminate allergic reactions by secreting histaminase and sulphatase, which destroy histamine and heparin, and by phagocytosing antigen–antibody complexes; and they defend against parasites, their neurotoxins causing nervous dysfunction in the parasite. Their number rises in allergy and parasitic infection and falls with cortisone therapy.
+## explicit_objective
+Give the differential count of the eosinophil, its light-microscopic appearance, and its functions.
+## pitfalls
+Reading eosinophilia as infection in general. It is allergy and parasites that raise the eosinophil; pyogenic infection raises the neutrophil.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+SYS-HEM-T01-S01-M02
+## modules
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_530685004e73e670a4ed | resit | 2024 | p8 | 101 ISK
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Blood
+## aliases
+
+## support_mode
+direct_statement
+## original_wording
+[Histology Q4, 5 marks] Eosinphile (percentage, LM, function)
+## conflicts
+The clustered label built from the end-of-year papers reads the eosinophil count as 2–4%. Both the department book (Granular leukocytes) and this paper’s own answer read 1–4%, and that is what is recorded here.
 ## uncertainty
 
 ## evidence_gaps

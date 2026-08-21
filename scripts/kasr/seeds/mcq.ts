@@ -37,6 +37,14 @@ export interface McqConcept {
   secondary: string[]
   modulePath: string
   type: string
+  /** Alternate names a student or a question book may use. Never a second concept. */
+  aliases?: string[]
+  /** Where sources disagree. Recorded, never resolved silently. */
+  conflicts?: string[]
+  /** What is still unsupported by a source this faculty would accept. */
+  gaps?: string[]
+  /** What is genuinely unclear, as opposed to unsourced. */
+  uncertainty?: string
 }
 
 export interface McqAuthored {

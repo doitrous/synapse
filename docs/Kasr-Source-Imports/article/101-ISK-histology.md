@@ -60,7 +60,7 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M02
 ## related_concepts
-CON-HEM-5724364F46CD5A
+CON-HEM-5724364F46CD5A | CON-HEM-3899015C5024C0 | CON-HEM-CA78CC131E0236 | CON-HEM-607B783A16FBEB
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The basophil and the mast cell share metachromatic granules and IgE receptors, and the department book compares them directly.
 ## aliases
