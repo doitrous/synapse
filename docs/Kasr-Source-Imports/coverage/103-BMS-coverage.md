@@ -15,6 +15,12 @@ looks exactly like a file with nothing in it.
 
 | Batch | Items |
 | --- | --- |
+| `concept/103-BMS-anatomy-concepts.md` | 15 |
+| `concept/103-BMS-histology-concepts.md` | 8 |
+| `concept/103-BMS-physiology-concepts.md` | 8 |
+| `article/103-BMS-anatomy.md` | 6 |
+| `article/103-BMS-histology.md` | 4 |
+| `article/103-BMS-physiology.md` | 3 |
 | `evidence/103-BMS-sources.md` | 6 |
 
 ## Read short
@@ -23,7 +29,7 @@ Nothing was capped: every file that was opened was read to the end.
 
 ## Text extracted
 
-Text has been pulled from 51 of 51 sources — 2057 pages, 19 of them by OCR because the file carries no text layer. 190 pages came back empty.
+Text has been pulled from 51 of 51 sources — 2057 pages, 450 of those pages by OCR, across 19 files carrying no text layer. 190 pages came back empty.
 
 Having text is not the same as having read it: a source below can be fully extracted and still yield nothing, because authoring from it is scheduled rather than done.
 
