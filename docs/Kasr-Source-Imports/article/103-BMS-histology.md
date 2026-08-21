@@ -65,7 +65,7 @@ The skin
 The Dermis
 
 ## nanotopic
-[clear]
+
 
 ## primary_node_id
 DIS-HIS-T03
@@ -159,7 +159,7 @@ Counting the hypodermis as the third layer of the skin. The book names it, descr
 Expecting a visible line between the two dermal layers. The book separates them on what the tissue is made of and how much blood it carries, not on a boundary you can point at, and a stained section shows a gradient.
 
 ## published_summary
-[clear]
+
 
 ## published_sections
 [clear]
@@ -265,10 +265,10 @@ The book lists adipocytes among the cells of both dermal layers but places adipo
 [clear]
 
 ## last_reviewed
-[clear]
+
 
 ## review_due
-[clear]
+
 
 ## notes
 Written to teach CON-DER-56784AB396C13E, the concept tested by Histology question 1 of the 2025 end-of-year paper. The department book gives the two layers only as a paired table and never describes either alone; the Mechanism section is the one part of this article that reasons beyond the table, and it reasons only from facts the same book states — that the epidermis is avascular, and that the papillary layer is more vascular "to nourish epidermis".
@@ -312,7 +312,7 @@ Bone Cells
 Osteoblast and osteoclast
 
 ## nanotopic
-[clear]
+
 
 ## primary_node_id
 DIS-HIS-T02
@@ -398,7 +398,7 @@ Assuming every osteoblast becomes an osteocyte. The book is specific: 10% to 20%
 Confusing the osteoclast with the megakaryocyte because both are large and multinucleated in appearance. The department book prints a comparison between the two precisely because students mix them up; the osteoclast sits in Howship's lacuna and the megakaryocyte does not.
 
 ## published_summary
-[clear]
+
 
 ## published_sections
 [clear]
@@ -520,10 +520,10 @@ The book calls the same structure a "brush border" in the osteoclast's L.M. row 
 [clear]
 
 ## last_reviewed
-[clear]
+
 
 ## review_due
-[clear]
+
 
 ## notes
 Written to teach the two concepts tested by Histology question 2 of the 2025 end-of-year paper, which is worth 6 of the section's 15 marks. The four axes of the article's Key determinants section are the department book's own row headings — Origin, Site, L.M., E.M. — so a student who can fill that grid can answer the question as set. The live concept CON-MSK-967E873EEEACE0 enumerates the four bone cells and is a level above this article; it is updated in the concept batch to carry this module rather than being folded in here.
@@ -567,7 +567,7 @@ Cardiac Muscle
 The Intercalated Discs
 
 ## nanotopic
-[clear]
+
 
 ## primary_node_id
 DIS-HIS-T02
@@ -652,7 +652,7 @@ Treating a cardiac muscle fibre as a single multinucleated cell like a skeletal 
 Expecting the discs to look like Z lines. Z lines are inside a sarcomere and are found in every striated muscle; intercalated discs are cell boundaries and are found only in cardiac muscle.
 
 ## published_summary
-[clear]
+
 
 ## published_sections
 [clear]
@@ -761,10 +761,10 @@ The book writes "adherent junctions (fascia adherens)" without saying whether th
 [clear]
 
 ## last_reviewed
-[clear]
+
 
 ## review_due
-[clear]
+
 
 ## notes
 Written to teach CON-MSK-0DEAF126DF8F2E, the concept tested by Histology question 3 of the 2025 end-of-year paper. The question asks for two pictures and the book gives two paragraphs, one per picture; the Mechanism section is the article's own reasoning about why the two components are arranged as they are, drawn only from what the book states about their positions and their protection from contraction forces. One sentence in Mechanism — the fascia adherens as the anchorage of the terminal sarcomere — goes beyond the book and is flagged in evidence_gaps.
@@ -808,7 +808,7 @@ Smooth Muscle
 Histological structure of the smooth muscle fibre
 
 ## nanotopic
-[clear]
+
 
 ## primary_node_id
 DIS-HIS-T02
@@ -905,7 +905,7 @@ Reading a corkscrew nucleus as an abnormality. It is the normal appearance of th
 Calling the dense bodies Z lines. They correspond to the Z line functionally, as the anchorage for actin, but they are scattered and membrane-associated rather than transverse plates, which is precisely why the cell is not striated.
 
 ## published_summary
-[clear]
+
 
 ## published_sections
 [clear]
@@ -1014,10 +1014,10 @@ The department book prints no E.M. heading for smooth muscle. Everything the exa
 [clear]
 
 ## last_reviewed
-[clear]
+
 
 ## review_due
-[clear]
+
 
 ## notes
 Written to teach CON-MSK-888DFA3AA4E974, the concept tested by Histology question 4 of the 2025 end-of-year paper. The one editorial decision worth a reviewer's eye is which of the book's "Histological structure" bullets count as the EM picture. Sarcolemma, caveolae, sarcoplasmic organelles, myofilament arrangement, dense bodies, intermediate filaments and calmodulin are treated as ultrastructural; size, shape and site are treated as light-microscopic and are kept in the Definition section instead. The solved copy of the paper includes the nucleus in its model answer, so the nucleus is kept in Key determinants too.
