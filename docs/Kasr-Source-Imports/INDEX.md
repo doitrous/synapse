@@ -3,15 +3,44 @@
 Batches extracted from Cairo University's Kasr Al Ainy corpus, on their way into
 the canonical library. University `kau`; Year 1 is `KAU_Y1`.
 
-**Nothing here is medical content yet.** The manifest is complete; extraction has
-not started.
+Extraction has started, on module **101 ISK** first. The
+[coverage ledger](coverage/101-ISK-coverage.md) says exactly which of its source
+files have been read and which have not; rerun
+`scripts/kasr/build-coverage.ts` and its numbers are today's.
+
+## Import order
+
+The batches depend on each other, and applying them out of order half-imports
+them. Concepts first, then articles, then everything that points at both:
+
+1. `academic/` — the module-subject tree. Everything else's `module_subject`
+   resolves against it.
+2. `concept/` — nothing else can be imported without these.
+3. `article/` — an article names its concepts, which is what puts its ID on the
+   concept record.
+4. `written/`, `question/`, `practical/` — each names a concept and an article,
+   and the importer will not accept one that names something absent.
+5. `media-requests/` — admin-only, applied by pasting a block into the item's
+   own media column. Nothing student-facing changes until a human supplies the
+   file.
+
+To check a batch before importing it, name its dependencies with `--with`:
+
+```
+npm run medical:batch -- docs/Kasr-Source-Imports/written/101-ISK-EOY-2025-written.md \
+  --with docs/Kasr-Source-Imports/concept/101-ISK-concepts.md \
+  --with docs/Kasr-Source-Imports/article/101-ISK-histology.md
+```
+
+`npm run medical:citations` checks that every manifest ID cited anywhere here
+names a real file. Both run on every pull request that touches this folder.
 
 ## What is here
 
 | Folder | Holds |
 |---|---|
 | [`manifest/`](manifest/) | **Done** — every source file, its module, exam type, priority and year signals. [Readable index](manifest/README.md). |
-| `coverage/` | Per-source coverage ledgers: which pages were covered, excluded, or deferred |
+| [`coverage/`](coverage/101-ISK-coverage.md) | Per-source coverage ledgers: what each file yielded, and which have not been read |
 | `academic/` | Year, term, module and module-subject structure |
 | `subjects/` | Module-subject trees mirroring each department book's chapters |
 | `taxonomy/` | Canonical taxonomy placements |
@@ -20,11 +49,11 @@ not started.
 | `concept/` | Canonical concepts |
 | `relations/` | Typed concept relations |
 | `article/` | Library articles |
-| `question/` | Non-written assessment items |
-| `written/` | Written and essay questions |
+| `question/` | Non-written assessment items — multiple choice, matching, labelling |
+| `written/` | Written and essay questions. The import *kind* is `question`; the split is by content type, not by contract |
 | `practical/` | Practical and OSCE items |
 | `glossary/` | Glossary terms |
-| `media-requests/` | Admin-only media requests |
+| [`media-requests/`](media-requests/) | Admin-only media requests, and the [audit](media-requests/media-audit.md) of how media is modelled. The repository holds **zero** medical images |
 
 ## Module IDs are exact
 

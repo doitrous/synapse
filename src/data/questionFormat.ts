@@ -219,8 +219,24 @@ export function parseQuestionFormat(raw: string | undefined): QuestionFormat | n
   return FORMAT_ALIASES[value.replace(/[_/-]+/g, ' ')] ?? null
 }
 
-/** `### (a) 5 marks` — the label and the marks a paper prints beside a part. */
-const PART_HEADING = /^###\s*\(?\s*([A-Za-z0-9ivx]+)\s*\)?\s*(?:[-–—·|]\s*)?(?:(\d+)\s*marks?)?\s*$/i
+/**
+ * `### (a) 5 marks` — the label and the marks a paper prints beside a part.
+ *
+ * A label may be compound. A paper that sets two cases and letters the parts
+ * within each prints `I-a`, `I-b`, `II-a` — and an alphanumeric-only label made
+ * those headings match nothing, so every part of that question was dropped and
+ * the question arrived with no mark scheme. The same silent-drop as the
+ * fractional-marks bug below, in a different disguise: nothing about an
+ * unmatched heading is an error inside the parser.
+ *
+ * Marks may be fractional. A Kasr case prints one total of 3 over four lettered
+ * subparts, so each is worth 0.75, and `markWritten` already keeps a part's
+ * marks fractional on purpose — rounding each part and totalling drifts from
+ * the mark on the page. Requiring an integer here made those headings match
+ * nothing, and an unmatched heading is not an error: the part is silently
+ * dropped, so the question arrives with no mark scheme at all.
+ */
+const PART_HEADING = /^###\s*\(?\s*([A-Za-z0-9]+(?:[-.][A-Za-z0-9]+)*)\s*\)?\s*(?:[-–—·|]\s*)?(?:(\d+(?:\.\d+)?)\s*marks?)?\s*$/i
 
 /**
  * Read the marked subparts of a written question.

@@ -2,7 +2,6 @@
  "file": "/Users/doitrous/Desktop/Kasr Alainy/y1/101 ISK/Department Book/Department Book Module 101.pdf",
  "sourceId": "src_b1e6dc481eaf337268d0",
  "manifestSourceId": "src_b1e6dc481eaf337268d0",
- "sourceIdNote": "The subject-tree note originally cited src_5c8bb4bf7f1b32c9f3a1, which is in no manifest row at all. kasr-y1-sources.json records this PDF (291 pages, sha256 b1e6dc48...) as src_b1e6dc481eaf337268d0, and that is what is used here and in the subject tree now.",
  "pages": 291,
  "pageNumbering": "All startPage/endPage/figure page values are PHYSICAL PDF pages (1-based). The book's printed numbers differ: Part I printed = physical - 1; Part II restarts its own numbering.",
  "chapters": [
@@ -5430,6 +5429,2072 @@
     "Book states: paralysis of the deltoid muscle results in flattening of the shoulder and loss of abduction of the shoulder joint from 15 to 90 degrees.",
     "Book states: because serratus anterior fixes the scapula against the chest wall, its paralysis results in projection of the inferior angle and medial border of the scapula backwards when pushing against resistance - winging of the scapula.",
     "Serratus anterior is described in this chapter, not in the pectoral region chapter, although it is grouped with the muscles connecting the upper limb with the thoracic wall."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Axilla",
+   "bookTitle": "AXILLA (Chapter 4)",
+   "startPage": 178,
+   "endPage": 193,
+   "found": true,
+   "keyPoints": [
+    "The axilla is a pyramidal region situated between the upper part of the side of the chest wall and the upper part of the medial side of the arm; it is a four-sided pyramid with an apex, a base (floor) and four walls - anterior, posterior, lateral and medial.",
+    "The apex is the cervico-axillary canal.",
+    "The anterior (pectoral) wall has a superficial layer of pectoralis major and a deep layer (axillary septum) of subclavius, clavipectoral fascia, pectoralis minor and the suspensory ligament of the axilla; the lower border of pectoralis major forms the anterior axillary fold and the wall is shorter than the posterior wall.",
+    "The posterior (subscapular) wall is formed by the lateral part of subscapularis, teres major and latissimus dorsi; teres major and latissimus dorsi form the posterior axillary fold which lies lower than the anterior fold.",
+    "The lateral (humeral) wall is the narrowest and is formed by the bicipital groove of the humerus, the short head of biceps and coracobrachialis.",
+    "The medial (costal) wall is formed by the upper four ribs with their intercostal muscles and the upper part of serratus anterior.",
+    "The base (floor) looks downwards and is formed by skin rich in hairs, sweat and sebaceous glands, superficial fascia, and deep (axillary) fascia which receives the attachment of the suspensory ligament of the axilla.",
+    "Contents of the axilla: the axillary artery and its branches, the axillary vein and its tributaries, the cords of the brachial plexus and their branches, the long thoracic nerve, the intercostobrachial nerve (lateral cutaneous branch of the 2nd thoracic nerve), five groups of axillary lymph nodes, the tail of the mammary gland and axillary fat.",
+    "The axillary vessels and brachial plexus run from the apex to the base along the lateral wall of the axilla, nearer to the anterior than the posterior wall.",
+    "The brachial plexus lies partly in the neck and partly in the axilla and consists of roots, trunks, divisions and cords.",
+    "Roots are formed by the ventral primary rami of the 5th, 6th, 7th and 8th cervical and 1st thoracic nerves.",
+    "The upper trunk is formed by union of the 5th and 6th cervical roots, the middle trunk by the 7th cervical root only, and the lower trunk by union of the 8th cervical and 1st thoracic roots; the three trunks lie above the clavicle in the neck.",
+    "Each trunk divides behind the clavicle into anterior (ventral) and posterior (dorsal) divisions.",
+    "The medial cord is formed by the anterior division of the lower trunk, the lateral cord by fusion of the anterior divisions of the upper and middle trunks, and the posterior cord by fusion of the posterior divisions of the three trunks; the cords lie in the axilla.",
+    "All branches of the lateral and medial cords supply the flexor side, while all branches of the posterior cord supply the extensor side of the upper limb.",
+    "Branches of the roots: the nerve to rhomboids (dorsal scapular nerve), which descends along the medial border of the scapula deep to levator scapulae and the rhomboids and supplies them, and the nerve to serratus anterior (long thoracic nerve).",
+    "Branches of the trunks come only from the upper trunk: the nerve to subclavius, which descends in front of the plexus to the muscle, and the suprascapular nerve.",
+    "The suprascapular nerve runs downwards and laterally in the neck to the suprascapular notch, passes through the suprascapular foramen below the suprascapular ligament into the supraspinous fossa to supply supraspinatus, then descends through the spinoglenoid notch into the infraspinous fossa to supply infraspinatus, giving articular branches to the acromioclavicular and shoulder joints.",
+    "Branches of the lateral cord: musculocutaneous nerve (its largest branch), lateral root of the median nerve, and lateral pectoral nerve which pierces the clavipectoral fascia and supplies pectoralis major.",
+    "Branches of the medial cord: ulnar nerve (its largest branch), medial root of the median nerve, medial pectoral nerve which pierces and supplies pectoralis minor and ends by supplying pectoralis major, medial cutaneous nerve of the arm supplying the skin on the medial side of the lower half of the arm, and medial cutaneous nerve of the forearm which descends medial to the third part of the axillary artery and the upper half of the brachial artery to supply the skin of the medial side of the forearm to the wrist.",
+    "Branches of the posterior cord: radial nerve (the larger of its two terminal branches), axillary (circumflex) nerve, upper subscapular nerve to the upper part of subscapularis, lower subscapular nerve to the lower part of subscapularis and teres major, and the nerve to latissimus dorsi (thoraco-dorsal nerve).",
+    "The axillary nerve passes downwards and laterally, and at the lower border of subscapularis passes backwards through the quadrangular space, winding round the back of the surgical neck of the humerus where it gives an articular branch to the shoulder joint.",
+    "The axillary nerve ends as an anterior branch continuing round the surgical neck to end near the anterior border of deltoid and supply it, and a posterior branch giving a branch to teres minor then curving round the posterior border of deltoid as the upper lateral cutaneous nerve of the arm supplying the skin over the lower half of the deltoid.",
+    "The axillary artery begins at the outer border of the first rib as the continuation of the subclavian artery, enters the axilla through its apex, runs downwards and laterally along the lateral wall, and ends at the lower border of teres major (lower limit of the axilla) by becoming the brachial artery.",
+    "Pectoralis minor divides the axillary artery into three parts: first part above the muscle, second part deep to it, and third part - the longest - below it.",
+    "Relations to the cords: the lateral and posterior cords lie lateral to the first part and the medial cord posterior to it; around the second part the cords lie according to their names - medial, lateral and posterior; and the branches of each cord are distributed around the third part.",
+    "The first part of the axillary artery gives the superior thoracic artery, arising at the lower border of subclavius to supply it and anastomose with intercostal arteries.",
+    "The second part gives the acromio-thoracic artery and the lateral thoracic artery.",
+    "The acromio-thoracic artery is a short trunk arising behind the upper border of pectoralis minor which pierces the clavipectoral fascia and divides into acromial, pectoral (the largest, descending between the two pectoral muscles supplying them and the breast), clavicular (to subclavius and the sternoclavicular joint) and deltoid branches (in the deltopectoral groove to deltoid and pectoralis major).",
+    "The lateral thoracic artery arises behind the lower border of pectoralis minor and runs along it to the side of the chest, supplying serratus anterior, the pectoral muscles and subscapularis; in females it is large and gives lateral mammary branches.",
+    "The third part gives the subscapular artery (its largest branch), the anterior circumflex humeral artery and the posterior circumflex humeral artery.",
+    "The subscapular artery arises at the lower border of subscapularis and gives the circumflex scapular artery, below which it continues as the thoraco-dorsal artery supplying latissimus dorsi and sharing in the anastomosis around the scapula.",
+    "The circumflex scapular artery is usually larger than the continuation of the subscapular artery; it curves round the lateral border of the scapula traversing the upper triangular space and shares in the anastomosis around the scapula.",
+    "The anterior circumflex humeral artery is very small, arises at the lower border of subscapularis, runs in front of the surgical neck of the humerus, gives an ascending branch to the shoulder joint and anastomoses with the posterior circumflex humeral artery.",
+    "The posterior circumflex humeral artery arises at the lower border of subscapularis, runs backwards with the axillary nerve through the quadrangular space, winds round the surgical neck of the humerus and anastomoses with the anterior circumflex humeral artery.",
+    "Anastomosis around the scapula links branches of the first part of the subclavian artery (suprascapular artery and the deep branch of the transverse cervical artery from the thyro-cervical trunk), branches of the third part of the axillary artery (subscapular and circumflex scapular arteries) and the posterior intercostal arteries from the descending thoracic aorta.",
+    "Anastomosis around the surgical neck of the humerus (cruciate anastomosis) links the descending branch of the suprascapular artery from the subclavian, the anterior and posterior circumflex humeral arteries from the third part of the axillary, and the ascending branch of the profunda brachii from the brachial artery.",
+    "Anastomosis around the shoulder joint links the acromial and deltoid branches of the thoraco-acromial artery, the suprascapular artery from the subclavian and the ascending branch of the anterior circumflex humeral artery.",
+    "The axillary vein begins at the lower border of teres major by union of the basilic vein and the two venae comitantes of the brachial artery, ascends on the medial side of the axillary artery, and ends at the outer border of the 1st rib at the apex of the axilla by becoming the subclavian vein; its tributaries correspond to the branches of the axillary artery plus the cephalic vein, the venae comitantes of the brachial artery and the basilic vein.",
+    "The axillary lymph nodes are arranged anatomically into five groups related to the walls and apex of the axilla, usually along the blood vessels: anterior (pectoral), posterior (subscapular), lateral (humeral), central and apical.",
+    "The anterior (pectoral) group lies along the lower border of pectoralis minor with the lateral thoracic artery, receiving from the central and lateral quadrant of the mammary gland and the anterolateral trunk above the umbilicus, and draining to the central and apical nodes.",
+    "The posterior (subscapular) group lies on the posterior axillary wall along the subscapular artery, receiving from the posterior trunk down to the iliac crest and the back of the shoulder region, and draining to the central and apical nodes.",
+    "The lateral (humeral) group lies medial and behind the axillary vein in the lateral wall, receiving from the upper limb except the cephalic vein territory, and draining to the central nodes, apical nodes and lower deep cervical nodes.",
+    "The central group lies in the fat above the base of the axilla, receiving from all the preceding groups and draining to the apical group.",
+    "The apical group lies at the apex of the axilla along the medial side of the axillary vein, receiving from all axillary groups, from the upper and peripheral mammary gland and from the upper limb via the cephalic vein lymphatics, and draining a few efferents to the lower deep cervical nodes and the majority to the subclavian lymph trunk.",
+    "Surgically the axillary lymph nodes are divided into three levels relative to pectoralis minor: level 1 below it (anterior, posterior and lateral groups), level 2 deep to it (central group) and level 3 above it (apical group)."
+   ],
+   "definitions": [
+    {
+     "term": "Axilla",
+     "text": "A pyramidal region situated between the upper part of the side of the chest wall and the upper part of the medial side of the arm."
+    },
+    {
+     "term": "Cervico-axillary canal",
+     "text": "The apex of the axilla."
+    },
+    {
+     "term": "Anterior axillary fold",
+     "text": "The lower border of pectoralis major."
+    },
+    {
+     "term": "Cruciate anastomosis",
+     "text": "The anastomosis around the surgical neck of the humerus."
+    },
+    {
+     "term": "Intercostobrachial nerve",
+     "text": "The lateral cutaneous branch of the 2nd thoracic nerve, a content of the axilla."
+    }
+   ],
+   "numbers": [
+    "4 walls plus an apex and a base",
+    "Brachial plexus roots C5, C6, C7, C8 and T1",
+    "3 trunks, 6 divisions (anterior and posterior of each trunk), 3 cords",
+    "Dorsal scapular nerve C5",
+    "Long thoracic nerve C5,6,7",
+    "Nerve to subclavius C5,6",
+    "Suprascapular nerve C5,6",
+    "Musculocutaneous nerve C5,6,7",
+    "Lateral root of median nerve C5,6,7",
+    "Lateral pectoral nerve C5,6,7",
+    "Ulnar nerve C7,8 and T1",
+    "Medial root of median nerve C8 and T1",
+    "Medial pectoral nerve C8 and T1",
+    "Medial cutaneous nerve of the arm C8 and T1",
+    "Medial cutaneous nerve of the forearm C8 and T1",
+    "Radial nerve C5,6,7,8 and T1",
+    "Axillary (circumflex) nerve C5,6",
+    "Upper subscapular nerve C5,6",
+    "Lower subscapular nerve C5,6",
+    "Thoraco-dorsal nerve C6,7,8",
+    "Medial wall formed by the upper 4 ribs",
+    "Axillary artery divided into 3 parts by pectoralis minor: 1 branch, 2 branches, 3 branches",
+    "Acromio-thoracic artery divides into 4 branches",
+    "About 20 to 30 axillary lymph nodes in 5 groups",
+    "3 surgical levels of axillary lymph nodes"
+   ],
+   "classifications": [
+    {
+     "of": "Walls of the axilla",
+     "items": [
+      "Anterior (pectoral)",
+      "Posterior (subscapular)",
+      "Lateral (humeral)",
+      "Medial (costal)"
+     ]
+    },
+    {
+     "of": "Contents of the axilla",
+     "items": [
+      "Axillary artery and branches",
+      "Axillary vein and tributaries",
+      "Cords of the brachial plexus and their branches, long thoracic nerve, intercostobrachial nerve",
+      "Five groups of axillary lymph nodes",
+      "Tail of mammary gland and axillary fat"
+     ]
+    },
+    {
+     "of": "Stages of the brachial plexus",
+     "items": [
+      "Roots (C5-T1 ventral rami)",
+      "Trunks (upper, middle, lower)",
+      "Divisions (anterior and posterior)",
+      "Cords (medial, lateral, posterior)"
+     ]
+    },
+    {
+     "of": "Branches of the roots",
+     "items": [
+      "Nerve to rhomboids (dorsal scapular nerve)",
+      "Nerve to serratus anterior (long thoracic nerve)"
+     ]
+    },
+    {
+     "of": "Branches of the upper trunk",
+     "items": [
+      "Nerve to subclavius",
+      "Suprascapular nerve"
+     ]
+    },
+    {
+     "of": "Branches of the lateral cord",
+     "items": [
+      "Musculocutaneous nerve",
+      "Lateral root of median nerve",
+      "Lateral pectoral nerve"
+     ]
+    },
+    {
+     "of": "Branches of the medial cord",
+     "items": [
+      "Ulnar nerve",
+      "Medial root of median nerve",
+      "Medial pectoral nerve",
+      "Medial cutaneous nerve of the arm",
+      "Medial cutaneous nerve of the forearm"
+     ]
+    },
+    {
+     "of": "Branches of the posterior cord",
+     "items": [
+      "Radial nerve",
+      "Axillary (circumflex) nerve",
+      "Upper subscapular nerve",
+      "Lower subscapular nerve",
+      "Nerve to latissimus dorsi (thoraco-dorsal nerve)"
+     ]
+    },
+    {
+     "of": "Branches of the axillary artery",
+     "items": [
+      "First part: superior thoracic artery",
+      "Second part: acromio-thoracic artery, lateral thoracic artery",
+      "Third part: subscapular artery, anterior circumflex humeral artery, posterior circumflex humeral artery"
+     ]
+    },
+    {
+     "of": "Branches of the acromio-thoracic artery",
+     "items": [
+      "Acromial",
+      "Pectoral",
+      "Clavicular",
+      "Deltoid"
+     ]
+    },
+    {
+     "of": "Anastomoses of the axillary artery",
+     "items": [
+      "Anastomosis around the scapula",
+      "Anastomosis around the surgical neck of the humerus (cruciate)",
+      "Anastomosis around the shoulder joint"
+     ]
+    },
+    {
+     "of": "Axillary lymph node groups",
+     "items": [
+      "Anterior (pectoral)",
+      "Posterior (subscapular)",
+      "Lateral (humeral)",
+      "Central",
+      "Apical"
+     ]
+    },
+    {
+     "of": "Surgical levels of axillary lymph nodes",
+     "items": [
+      "Level 1 - below pectoralis minor: anterior, posterior and lateral groups",
+      "Level 2 - deep to pectoralis minor: central group",
+      "Level 3 - above pectoralis minor: apical group"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 178,
+     "caption": "Fig. 27: Boundaries of axilla",
+     "kind": "diagram"
+    },
+    {
+     "page": 179,
+     "caption": "Walls of the axilla - table of wall, components and notes",
+     "kind": "table"
+    },
+    {
+     "page": 179,
+     "caption": "Fig. 28: Walls of axilla",
+     "kind": "diagram"
+    },
+    {
+     "page": 180,
+     "caption": "Fig. 29: Walls of axilla",
+     "kind": "diagram"
+    },
+    {
+     "page": 181,
+     "caption": "Fig. 30: Contents of axilla",
+     "kind": "diagram"
+    },
+    {
+     "page": 182,
+     "caption": "Fig. 31: Formation of brachial plexus & location (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 184,
+     "caption": "Fig. 32: Branches of brachial plexus",
+     "kind": "diagram"
+    },
+    {
+     "page": 185,
+     "caption": "Fig. 33: Branches of the posterior cord (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 186,
+     "caption": "Fig. 34: Relations of the axillary artery to brachial plexus",
+     "kind": "diagram"
+    },
+    {
+     "page": 187,
+     "caption": "Fig. 35: Axillary artery course & branches",
+     "kind": "diagram"
+    },
+    {
+     "page": 190,
+     "caption": "Fig. 36: Anastomosis around the scapula (with anastomosis with the posterior intercostal arteries labelled)",
+     "kind": "diagram"
+    },
+    {
+     "page": 191,
+     "caption": "Fig. 37: Anastomosis around surgical neck & around shoulder joint (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 192,
+     "caption": "Fig. 38: Axillary vein (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 193,
+     "caption": "Fig. 39: Axillary lymph nodes",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: through the anastomosis around the scapula blood can bypass an obstruction between the first part of the subclavian artery and the third part of the axillary artery to maintain blood flow to the upper limb.",
+    "Book states: through the anastomosis with the posterior intercostal arteries, blood flow can be maintained to the lower half of the body in a congenital anomaly called coarctation of the aorta.",
+    "Book gives the surface anatomy of the axillary artery: with the arm abducted to a right angle it is represented by a horizontal line between the midclavicular point and the posterior fold of the axilla where its pulsation can be felt.",
+    "The 'Apex (cervico-axillary canal)' heading on page 178 has no descriptive text under it - the apex boundaries are carried only in Fig. 27."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Arm",
+   "bookTitle": "ARM (Chapter 5)",
+   "startPage": 194,
+   "endPage": 204,
+   "found": true,
+   "keyPoints": [
+    "The deep fascia of the arm (brachial fascia) forms a sheath for the arm muscles, thin in front and thick behind, and sends two fibrous septa - the lateral and medial intermuscular septa - deeply among the muscles, separating the flexor (anterior) from the extensor (posterior) group and providing additional surfaces for muscle attachment.",
+    "The arm is divided by the intermuscular septa into an anterior (flexor) compartment containing three muscles and a posterior (extensor) compartment containing one.",
+    "The flexor group consists of biceps and coracobrachialis superficially and brachialis deep to them; they are supplied by the musculocutaneous nerve, with the small lateral part of brachialis also supplied by a twig from the radial nerve.",
+    "Biceps brachii arises by a short head from the tip of the coracoid process (with coracobrachialis) and a long head from the supraglenoid tubercle whose tendon runs in the bicipital groove; it inserts into the radial tuberosity by the bicipital tendon and into the deep fascia by the bicipital aponeurosis.",
+    "Biceps is a powerful supinator when the elbow is flexed, flexes the elbow, its long head tendon stabilises the humeral head and its short head assists shoulder flexion.",
+    "Coracobrachialis arises from the tip of the coracoid process, inserts into the midpoint of the medial border of the humeral shaft and assists flexion and adduction of the shoulder joint.",
+    "Brachialis arises from the lower half of the anterior humeral shaft and the anterior aspects of the medial and lateral intermuscular septa, inserts into the coronoid process and ulnar tuberosity, and is the primary flexor of the elbow.",
+    "Triceps arises by a long head from the infraglenoid tubercle, a lateral head from the upper lip of the spiral groove on the posterior surface of the humerus, and a medial head from the posterior surface of the shaft below the spiral groove.",
+    "Triceps inserts into the upper surface of the olecranon process, with a few fibres called articularis cubiti emerging from the deep surface of its lower part to insert into the posterior part of the fibrous capsule of the elbow.",
+    "Triceps is supplied by the radial nerve - in the axilla to the long and medial heads and in the spiral groove to the lateral and medial heads; it is the powerful extensor of the elbow joint, and articularis cubiti draws up the posterior part of the elbow capsule during extension preventing it from being caught inside the joint.",
+    "The nerves of the arm are the musculocutaneous, radial, ulnar and median.",
+    "The musculocutaneous nerve arises in the axilla from the lateral cord, descends lateral to the third part of the axillary artery and the uppermost part of the brachial artery, pierces coracobrachialis, and descends obliquely between biceps and brachialis supplying these three muscles.",
+    "About one inch above the elbow the musculocutaneous nerve pierces the deep fascia at the lateral border of the biceps tendon to become the lateral cutaneous nerve of the forearm, dividing into anterior and posterior branches which supply the skin of the lateral side of the forearm and the upper part of the ball of the thumb.",
+    "The radial nerve arises in the axilla as the larger terminal branch of the posterior cord, descends on the posterior wall of the axilla behind the third part of the axillary artery.",
+    "In the upper arm the radial nerve passes downwards and laterally behind the proximal part of the brachial artery, separating it from the long head of triceps; in the middle it passes between the long and medial heads of triceps into the spiral groove, running downwards and laterally between the lateral and medial heads with the profunda brachii vessels.",
+    "In the lower third the radial nerve pierces the lateral intermuscular septum with the radial collateral artery to reach the front of the arm, descending between brachialis and brachioradialis to the front of the lateral epicondyle, where it gives the posterior interosseous nerve (mainly muscular) and continues as the superficial radial nerve (mainly cutaneous).",
+    "Radial nerve branches in the axilla: muscular to the long and medial heads of triceps, and the posterior cutaneous nerve of the arm supplying the skin on the back of the arm from the deltoid tuberosity down to the elbow.",
+    "Radial nerve branches in the spiral groove: muscular to the lateral and medial heads of triceps and anconeus; the lower lateral cutaneous nerve of the arm supplying skin on the lower lateral surface of the arm; and the posterior cutaneous nerve of the forearm supplying skin in the middle of the back of the forearm down to the wrist.",
+    "In the lower arm, in the groove between brachialis and brachioradialis, the radial nerve gives muscular branches to brachioradialis, extensor carpi radialis longus and a small lateral part of brachialis.",
+    "The brachial artery begins at the lower border of teres major as the continuation of the axillary artery, descends on the medial side of the shaft of the humerus, passes to the front of the arm and descends midway between the epicondyles into the cubital fossa.",
+    "It ends in the cubital fossa below the elbow joint at the level of the neck of the radius by dividing into radial and ulnar arteries.",
+    "The brachial artery is superficial throughout its course, covered only by skin and superficial and deep fasciae, slightly overlapped by coracobrachialis and the medial edge of biceps, and is accompanied by two venae comitantes.",
+    "At the middle of the arm, opposite the insertion of coracobrachialis, the median nerve crosses the brachial artery from lateral to medial, the ulnar nerve leaves it by piercing the medial intermuscular septum into the posterior compartment, and the basilic vein and medial cutaneous nerve of the forearm leave it by piercing the deep fascia to become superficial.",
+    "The profunda brachii artery is the largest and highest branch, arising from the posteromedial aspect of the brachial artery just below the lower border of teres major; it accompanies the radial nerve backwards between the long and medial heads of triceps through the lower triangular space to the spiral groove, covered by the lateral head of triceps.",
+    "Profunda brachii branches: muscular to triceps, a small nutrient artery to the humerus (may be absent), an ascending branch anastomosing with the descending branch of the posterior circumflex humeral artery in the cruciate anastomosis, and two terminal descending branches - anterior descending (radial collateral) and posterior descending (middle collateral).",
+    "The superior ulnar collateral artery arises about the middle of the arm opposite the insertion of coracobrachialis and accompanies the ulnar nerve to the back of the medial epicondyle.",
+    "The inferior ulnar collateral artery arises above the elbow joint, gives an anterior branch descending to anastomose with the anterior ulnar recurrent artery in front of the medial epicondyle, then pierces the medial intermuscular septum to reach the back of the medial epicondyle.",
+    "Other brachial branches are the nutrient artery to the humerus, muscular branches to biceps, brachialis and coracobrachialis, and the terminal radial and ulnar arteries.",
+    "The anastomosis around the elbow joint is between the brachial artery above and the radial and ulnar arteries below, described around the medial and lateral epicondyles.",
+    "Around the medial epicondyle: behind it, the superior ulnar collateral and the posterior branch of the inferior ulnar collateral meet the posterior ulnar recurrent artery; in front of it, the anterior branch of the inferior ulnar collateral meets the anterior ulnar recurrent artery.",
+    "Around the lateral epicondyle: behind it, the posterior descending (middle collateral) branch of profunda brachii meets the posterior interosseous recurrent artery; in front of it, the anterior descending (radial collateral) branch meets the radial recurrent artery.",
+    "A transverse anastomosis lies above the olecranon fossa between the inferior ulnar collateral and the posterior descending branch of the profunda brachii."
+   ],
+   "definitions": [
+    {
+     "term": "Brachial fascia",
+     "text": "The deep fascia of the arm, forming a sheath for the arm muscles and sending medial and lateral intermuscular septa."
+    },
+    {
+     "term": "Articularis cubiti",
+     "text": "Few fibres from the deep surface of the lower part of triceps inserting into the posterior part of the fibrous capsule of the elbow."
+    },
+    {
+     "term": "Bicipital aponeurosis",
+     "text": "The expansion by which biceps brachii is inserted into the deep fascia."
+    },
+    {
+     "term": "Lateral cutaneous nerve of the forearm",
+     "text": "The continuation of the musculocutaneous nerve after it pierces the deep fascia at the lateral border of the biceps tendon."
+    }
+   ],
+   "numbers": [
+    "Anterior compartment contains 3 muscles, posterior compartment 1",
+    "Triceps arises by 3 heads",
+    "Musculocutaneous nerve C5,6,7",
+    "Radial nerve C5,6,7,8 and T1",
+    "Musculocutaneous nerve pierces the deep fascia about one inch above the elbow",
+    "Brachial artery ends 1 cm below the elbow joint at the level of the neck of the radius",
+    "Inferior ulnar collateral artery arises 5 cm above the elbow joint",
+    "Brachial artery accompanied by 2 venae comitantes",
+    "6 groups of brachial artery branches"
+   ],
+   "classifications": [
+    {
+     "of": "Compartments of the arm",
+     "items": [
+      "Anterior (ventral, flexor) compartment - 3 muscles",
+      "Posterior (dorsal, extensor) compartment - 1 muscle"
+     ]
+    },
+    {
+     "of": "Flexor group of the arm",
+     "items": [
+      "Biceps brachii",
+      "Coracobrachialis",
+      "Brachialis"
+     ]
+    },
+    {
+     "of": "Heads of triceps",
+     "items": [
+      "Long head - infraglenoid tubercle",
+      "Lateral head - upper lip of the spiral groove",
+      "Medial head - posterior surface of the shaft below the spiral groove"
+     ]
+    },
+    {
+     "of": "Nerves of the arm",
+     "items": [
+      "Musculocutaneous nerve",
+      "Radial nerve",
+      "Ulnar nerve",
+      "Median nerve"
+     ]
+    },
+    {
+     "of": "Branches of the radial nerve in the arm",
+     "items": [
+      "In the axilla: muscular to long and medial heads of triceps; posterior cutaneous nerve of the arm",
+      "In the spiral groove: muscular to lateral and medial heads of triceps and anconeus; lower lateral cutaneous nerve of the arm; posterior cutaneous nerve of the forearm",
+      "In the lower arm: muscular to brachioradialis, extensor carpi radialis longus and lateral part of brachialis",
+      "Terminal: posterior interosseous nerve and superficial radial nerve"
+     ]
+    },
+    {
+     "of": "Branches of the brachial artery",
+     "items": [
+      "Profunda brachii artery",
+      "Superior ulnar collateral artery",
+      "Inferior ulnar collateral artery",
+      "Nutrient artery to the humerus",
+      "Muscular branches",
+      "Terminal radial and ulnar arteries"
+     ]
+    },
+    {
+     "of": "Branches of the profunda brachii artery",
+     "items": [
+      "Muscular branches to triceps",
+      "Small nutrient artery to humerus",
+      "Ascending branch (cruciate anastomosis)",
+      "Anterior descending branch (radial collateral)",
+      "Posterior descending branch (middle collateral)"
+     ]
+    },
+    {
+     "of": "Anastomosis around the elbow joint",
+     "items": [
+      "Behind the medial epicondyle: superior ulnar collateral and posterior branch of inferior ulnar collateral with posterior ulnar recurrent",
+      "In front of the medial epicondyle: anterior branch of inferior ulnar collateral with anterior ulnar recurrent",
+      "Behind the lateral epicondyle: middle collateral with posterior interosseous recurrent",
+      "In front of the lateral epicondyle: radial collateral with radial recurrent",
+      "Transverse anastomosis above the olecranon fossa"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 194,
+     "caption": "Fig. 40: Cross section in the arm",
+     "kind": "diagram"
+    },
+    {
+     "page": 195,
+     "caption": "Fig. 41: Muscles of anterior compartment arm",
+     "kind": "diagram"
+    },
+    {
+     "page": 195,
+     "caption": "Flexor group of the arm - table of muscle, origin, insertion and action",
+     "kind": "table"
+    },
+    {
+     "page": 196,
+     "caption": "Fig. 42: Posterior compartment of arm",
+     "kind": "diagram"
+    },
+    {
+     "page": 196,
+     "caption": "Fig. 43: Articularis cubiti muscle",
+     "kind": "diagram"
+    },
+    {
+     "page": 197,
+     "caption": "Fig. 44: Musculocutaneous nerve",
+     "kind": "diagram"
+    },
+    {
+     "page": 198,
+     "caption": "Fig. 45: Radial nerve (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 199,
+     "caption": "Fig. 46: Radial nerve in the spiral groove",
+     "kind": "diagram"
+    },
+    {
+     "page": 200,
+     "caption": "Fig. 47: Terminal branches of radial nerve in cubital fossa (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 201,
+     "caption": "Fig. 48: Brachial artery course & relation to median nerve",
+     "kind": "diagram"
+    },
+    {
+     "page": 201,
+     "caption": "Fig. 49: Branches of brachial A. (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 203,
+     "caption": "Fig. 50: brachial artery beginning, end & surface anatomy",
+     "kind": "diagram"
+    },
+    {
+     "page": 204,
+     "caption": "Fig. 51: Anastomosis around elbow (Anterior view)",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book gives the surface anatomy of the brachial artery: a vertical line between a point at the posterior fold of the axilla, where the axillary artery pulsation is felt, and a point midway between the two epicondyles of the humerus medial to the biceps tendon.",
+    "The book defers the radial, ulnar and median nerves with 'These nerves will be discussed later', then in the same chapter gives a full account of the radial nerve - an internal inconsistency in the chapter's plan.",
+    "The page 201 caption line 'Branches (Figs. 82, 83)' appears to be a stale cross-reference; the branches are actually in Figs. 48 and 49."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Forearm",
+   "bookTitle": "FOREARM (Chapter 6)",
+   "startPage": 205,
+   "endPage": 234,
+   "found": true,
+   "keyPoints": [
+    "The deep fascia of the forearm (antebrachial fascia) is thicker posteriorly than anteriorly and gives partial origin to the forearm muscles both in front and behind.",
+    "It is strengthened above by the bicipital aponeurosis; along the posterior border of the ulna it forms a strong ulnar aponeurosis giving origin to flexor carpi ulnaris, extensor carpi ulnaris and flexor digitorum profundus; and at the wrist it thickens into the flexor retinaculum in front and the extensor retinaculum behind.",
+    "The cubital fossa is an inverted triangular hollow in front of the elbow joint occupying the upper one third of the front of the forearm.",
+    "Its base is directed upwards as an imaginary line between the two epicondyles of the humerus; the lateral boundary is brachioradialis, the medial boundary pronator teres, and the apex the meeting of brachioradialis overlapping pronator teres.",
+    "The floor of the cubital fossa is formed by brachialis medially and supinator laterally.",
+    "The roof is skin and superficial fascia containing parts of the cephalic and basilic veins and the median cubital vein connecting them, the anterior branches of the lateral and medial cutaneous nerves of the forearm, and the supratrochlear lymph nodes in its upper lateral part, plus deep fascia reinforced by the bicipital aponeurosis.",
+    "Contents of the cubital fossa from medial to lateral: the median nerve (which leaves by passing between the two heads of pronator teres), the termination of the brachial artery with the beginning of ulnar and radial arteries, the tendon of biceps, and the radial nerve with the beginning of its posterior interosseous branch.",
+    "The bicipital aponeurosis lies in the roof and separates the median cubital vein superficially from the median nerve and terminal brachial artery deep to it.",
+    "The muscles of the front of the forearm are the flexors of wrist and digits and the pronators, arranged in superficial and deep groups.",
+    "The superficial group is five muscles arising by a common tendon from the anterior surface of the medial epicondyle (common flexor origin): four superficial - pronator teres, flexor carpi radialis, palmaris longus and flexor carpi ulnaris from lateral to medial - and one deep, flexor digitorum superficialis.",
+    "The superficial group is supplied by the median nerve except flexor carpi ulnaris, which is supplied by the ulnar nerve; their common actions are flexion of the wrist (except pronator teres) and weak flexion of the elbow.",
+    "Pronator teres has a humeral head from the common flexor origin and an ulnar head from the coronoid process, inserts into the pronator tuberosity in the middle of the lateral surface of the radial shaft, and gives powerful pronation of the forearm and weak elbow flexion.",
+    "Flexor carpi radialis inserts into the bases of the 2nd and 3rd metacarpals and flexes and abducts the hand at the wrist; flexor carpi ulnaris has humeral and ulnar heads, inserts into the pisiform then the 5th metacarpal and hamate, and flexes and adducts the hand; palmaris longus inserts into the apex of the palmar aponeurosis, flexing the wrist and tensing the aponeurosis.",
+    "Flexor digitorum superficialis has a humero-ulnar head from the common flexor origin and coronoid process and a radial head from the anterior oblique line of the radius, inserting by four tendons each splitting into two slips into the sides of the middle phalanges of the medial four fingers.",
+    "The median nerve enters the forearm between the two heads of pronator teres, while the ulnar nerve passes between the two heads of flexor carpi ulnaris.",
+    "The deep group of the front is three muscles: flexor pollicis longus laterally and flexor digitorum profundus medially superficially, and pronator quadratus deepest, running horizontally in front of the lower parts of radius and ulna.",
+    "The deep group is supplied by the anterior interosseous branch of the median nerve except the medial half of flexor digitorum profundus, which is supplied by the ulnar nerve.",
+    "Flexor digitorum profundus arises from the anterior and medial surfaces of the ulna and the adjacent interosseous membrane and inserts into the distal phalanges of the medial four fingers, its tendons passing deep to those of flexor digitorum superficialis.",
+    "The muscles of the back of the forearm are the extensors of wrist and digits; all their tendons except brachioradialis pass deep to the extensor retinaculum.",
+    "The superficial extensor group is seven muscles from lateral to medial: brachioradialis, extensor carpi radialis longus, extensor carpi radialis brevis, extensor digitorum, extensor digiti minimi, extensor carpi ulnaris and anconeus, arising from a common extensor origin on the anterior and lateral surfaces of the lateral epicondyle except brachioradialis, extensor carpi radialis longus and anconeus.",
+    "Brachioradialis, extensor carpi radialis longus and anconeus are supplied by the radial nerve itself; extensor carpi radialis brevis, extensor digitorum, extensor digiti minimi and extensor carpi ulnaris are supplied by the posterior interosseous nerve.",
+    "The extensor expansion is a strong triangular fibrous sheet with its base proximal and apex distal covering the dorsum of the proximal phalanx of each medial four fingers, receiving the extensor tendons of the digits and the tendons of lumbricals and interossei.",
+    "At the proximal interphalangeal joint the extensor expansion divides into an intermediate part attached to the base of the middle phalanx and two collateral parts attached to the base of the terminal phalanx.",
+    "The deep extensor group is five muscles from above downwards: supinator, abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus and extensor indicis, all supplied by the posterior interosseous branch of the radial nerve.",
+    "Supinator surrounds the upper third of the shaft of the radius, arising from the supinator crest and fossa of the ulna and from the lateral epicondyle, lateral collateral ligament of the elbow and annular ligament, inserting into the posterior, lateral and anterior aspects of the upper third of the radius above the oblique lines; it supinates the forearm.",
+    "The supinator is pierced by the posterior interosseous nerve, which curves round the upper part of the radius inside the muscle substance, splitting it into superficial and deep layers.",
+    "The anatomical snuffbox is a triangular hollow at the lateral part of the dorsum of the wrist, clearly visible when the thumb is extended, bounded medially by the tendon of extensor pollicis longus and laterally by the tendons of abductor pollicis longus and extensor pollicis brevis.",
+    "Its roof is skin, superficial fascia containing the beginning of the cephalic vein and digital branches of the superficial radial nerve, and deep fascia; its floor is the styloid process of the radius, the scaphoid proximally and the trapezium distally.",
+    "The snuffbox contains the radial artery as it crosses the dorsum of the hand, whose pulsations can be felt there, and the tendons of extensor carpi radialis longus and brevis cross its floor.",
+    "The ulnar nerve arises in the axilla from the medial cord; it descends on the medial side of the third part of the axillary artery and the medial side of the upper half of the brachial artery, then at the middle of the arm pierces the medial intermuscular septum into the posterior compartment.",
+    "At the elbow the ulnar nerve descends behind the medial epicondyle grooving it, enters the forearm between the two heads of flexor carpi ulnaris and descends on flexor digitorum profundus covered by that muscle in the upper two-thirds; in the lower third it becomes superficial between the tendon of flexor carpi ulnaris medially and the tendons of flexor digitorum superficialis laterally.",
+    "At the wrist the ulnar nerve descends superficial to the flexor retinaculum, lateral to the pisiform and medial to the ulnar artery, ending in front of the retinaculum by dividing into a superficial (mainly cutaneous) and a deep (mainly muscular) branch.",
+    "The ulnar nerve gives no branches in the axilla and arm; in the forearm it gives articular branches to the elbow joint, muscular branches to flexor carpi ulnaris and the medial half of flexor digitorum profundus, a palmar cutaneous branch to the skin of the medial third of the palm, and a dorsal cutaneous branch dividing into two dorsal digital nerves for the medial third of the dorsum of the hand and the medial one and a half fingers.",
+    "The median nerve arises in the axilla by two roots from the medial and lateral cords forming the median nerve trunk on the lateral side of the axillary artery; it descends lateral to the third part of the axillary artery and the upper half of the brachial artery, crosses the brachial artery opposite the insertion of coracobrachialis and descends medial to its lower half lying on brachialis.",
+    "In the cubital fossa the median nerve lies on brachialis deep to the bicipital aponeurosis, which separates it from the median cubital vein; it leaves by passing between the two heads of pronator teres, separated posteriorly by the deep head from the ulnar artery.",
+    "It then reaches the deep surface of flexor digitorum superficialis and descends between it and flexor digitorum profundus, becoming superficial immediately above the wrist between the tendon of flexor carpi radialis laterally and the tendons of flexor digitorum superficialis medially, and enters the palm deep to the flexor retinaculum, ending in the carpal tunnel by dividing into lateral and medial terminal divisions.",
+    "The median nerve gives no branches in the axilla and arm; in the forearm it gives articular branches to the elbow and superior radio-ulnar joints, muscular branches to pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis, the anterior interosseous nerve, and a palmar cutaneous branch.",
+    "The anterior interosseous nerve arises as the median nerve emerges between the heads of pronator teres, descends on the anterior surface of the interosseous membrane between flexor pollicis longus laterally and flexor digitorum profundus medially, disappears deep to pronator quadratus and supplies flexor pollicis longus, pronator quadratus and the lateral half of flexor digitorum profundus plus the inferior radio-ulnar and wrist joints.",
+    "The palmar cutaneous branch of the median nerve arises about one inch above the wrist and descends superficial to the flexor retinaculum to supply the skin of the lateral two-thirds of the palm, except a proximal small part of thenar skin supplied by the lateral cutaneous nerve of the forearm.",
+    "The superficial radial nerve begins in front of the lateral epicondyle as the continuation of the radial nerve immediately below the origin of the posterior interosseous nerve and descends in the lateral part of the front of the forearm overlapped by brachioradialis, lateral to the radial artery.",
+    "It is separated from the radial artery by a triangular gap in the upper third, lies closely lateral to it in the middle third, and in the lower third leaves it by turning backwards round the lateral surface of the radius under cover of the brachioradialis tendon; short of the wrist it pierces the deep fascia and crosses the roof of the anatomical snuffbox to the dorsum of the hand.",
+    "It ends by dividing into five dorsal digital nerves - two for both sides of the thumb, one for the lateral border of the index and two for the clefts between index, middle and ring fingers - supplying the dorsal aspect of the lateral three and a half fingers as far as their distal halves and the skin of the lateral two-thirds of the dorsum of the hand.",
+    "The posterior interosseous nerve arises from the radial nerve in front of the lateral epicondyle, descends under cover of brachioradialis, supplies extensor carpi radialis brevis and supinator then pierces supinator, emerging on the back of the forearm to descend with the posterior interosseous artery between the superficial and deep extensors.",
+    "It then passes under cover of extensor pollicis longus to join the anterior interosseous artery on the back of the interosseous membrane and descends with it deep to the extensor retinaculum through the 4th compartment to the back of the wrist, ending in an expanded termination (pseudoganglion) giving articular filaments.",
+    "The posterior interosseous nerve supplies the inferior radio-ulnar, wrist and some intercarpal joints, and all extensor muscles of the back of the forearm, superficial and deep, except brachioradialis, extensor carpi radialis longus and anconeus.",
+    "The flexor retinaculum is a thickened transverse band of deep fascia crossing in front of the carpus, converting the anterior concavity of the bony carpal arch into the carpal tunnel.",
+    "It attaches medially to the pisiform and hook of hamate; laterally it splits into a superficial lamina attached to the tubercle of the scaphoid and crest of the trapezium and a deep lamina attached to the medial lip of the groove on the trapezium, the two laminae forming with that groove a special tunnel for the tendon of flexor carpi radialis and its synovial sheath.",
+    "Below, the flexor retinaculum is continuous with the deep fascia of the palm especially the apex of the palmar aponeurosis; above, with the deep fascia on the front of the forearm.",
+    "Structures passing superficial to the flexor retinaculum from medial to lateral: ulnar nerve, ulnar artery, palmar cutaneous branch of the ulnar nerve, tendon of palmaris longus and palmar cutaneous branch of the median nerve.",
+    "Structures deep to it, in the carpal tunnel: nine tendons (four of flexor digitorum superficialis, four of flexor digitorum profundus and one of flexor pollicis longus), two synovial sheaths (ulnar and radial bursae), the median nerve lying directly under cover of the retinaculum, and the recurrent branch of the deep palmar arch as the deepest structure; the tendon of flexor carpi radialis with its sheath runs in the special tunnel.",
+    "Muscles attached to the anterior surface of the flexor retinaculum: thenar muscles laterally and hypothenar muscles medially by origin, and the tendon of palmaris longus in the middle by insertion.",
+    "The carpal tunnel has sides and floor formed by the anterior surface of the carpal bones forming the bony carpal arch, and a roof formed by the flexor retinaculum.",
+    "The extensor retinaculum is a thickened band of deep fascia extending obliquely across the back of the wrist, attached laterally to the lower end of the radius and medially to the triquetral and pisiform; fibrous septa to ridges on the back of the lower end of the radius divide the space deep to it into six compartments.",
+    "Extensor retinaculum compartments from lateral to medial: 1st holds abductor pollicis longus and extensor pollicis brevis; 2nd extensor carpi radialis longus and brevis; 3rd extensor pollicis longus; 4th the four tendons of extensor digitorum, extensor indicis, the posterior interosseous nerve and the anterior interosseous artery; 5th extensor digiti minimi; 6th extensor carpi ulnaris.",
+    "The radial artery begins in the cubital fossa below the elbow joint at the level of the neck of the radius as the smaller terminal branch of the brachial artery, passes downwards and laterally in the lateral part of the front of the forearm, is overlapped above by brachioradialis and becomes superficial below where its pulsation is felt between the tendons of flexor carpi radialis medially and brachioradialis laterally.",
+    "At the wrist the radial artery winds backwards round the lateral side of the wrist through the anatomical snuffbox to the dorsum of the hand.",
+    "Radial artery branches: the radial recurrent artery ascending in front of the lateral epicondyle to anastomose with the radial collateral artery; muscular branches to the radial side muscles; the anterior carpal artery joining the anterior carpal arch; and the superficial palmar artery which descends through and supplies the thenar muscles and completes the superficial palmar arch with the terminal ulnar artery.",
+    "The ulnar artery begins in the cubital fossa below the elbow joint as the larger terminal branch of the brachial artery, runs obliquely downwards and medially in the upper third then vertically along the medial side of the front of the forearm.",
+    "At the wrist the ulnar artery descends superficial to the flexor retinaculum lateral to the ulnar nerve and the pisiform and medial to the hook of hamate, ending in the hand as the superficial palmar arch.",
+    "Ulnar artery branches near the elbow: the anterior ulnar recurrent artery ascending in front of the medial epicondyle to anastomose with the anterior branch of the inferior ulnar collateral; the posterior ulnar recurrent artery ascending between the two heads of flexor carpi ulnaris to the back of the medial epicondyle to meet the superior ulnar collateral; and the common interosseous artery.",
+    "The common interosseous artery is a short trunk arising about one inch below the beginning of the ulnar artery which descends backwards to the upper margin of the interosseous membrane and divides into anterior and posterior interosseous arteries.",
+    "The anterior interosseous artery, the larger, descends on the anterior surface of the interosseous membrane with the anterior interosseous nerve, pierces the membrane at the upper border of pronator quadratus to reach the back of the forearm and anastomose with the termination of the posterior interosseous artery, then descends with the posterior interosseous nerve deep to the extensor retinaculum in the 4th compartment to join the posterior carpal arch.",
+    "Its branches are the median artery which accompanies and supplies the median nerve (vasa nervosa), muscular branches, nutrient arteries of both radius and ulna, and a descending branch deep to pronator quadratus joining the anterior carpal arch.",
+    "The posterior interosseous artery, smaller, passes backwards above the interosseous membrane and descends between the superficial and deep muscles of the back of the forearm with the posterior interosseous nerve, becoming small and ending by anastomosing with the anterior interosseous artery; near its origin it gives the posterior interosseous recurrent artery to the back of the lateral epicondyle plus muscular branches.",
+    "In the forearm the ulnar artery gives muscular branches to the ulnar side muscles; at the wrist it gives the anterior carpal artery which forms the anterior carpal arch with its radial counterpart, and the posterior carpal artery which forms the posterior carpal arch."
+   ],
+   "definitions": [
+    {
+     "term": "Antebrachial fascia",
+     "text": "The deep fascia of the forearm, thicker posteriorly than anteriorly, giving partial origin to the forearm muscles."
+    },
+    {
+     "term": "Cubital fossa",
+     "text": "An inverted triangular hollow in front of the elbow joint occupying the upper one third of the front of the forearm."
+    },
+    {
+     "term": "Extensor expansion",
+     "text": "Strong triangular fibrous sheet with base proximal and apex distal, covering the dorsum of the proximal phalanx of each of the medial four fingers and receiving the extensor, lumbrical and interosseous tendons."
+    },
+    {
+     "term": "Anatomical snuffbox",
+     "text": "Triangular hollow at the lateral part of the dorsum of the wrist, visible when the thumb is extended."
+    },
+    {
+     "term": "Flexor retinaculum",
+     "text": "Thickened transverse band of deep fascia crossing in front of the carpus, converting the anterior concavity of the bony carpal arch into the carpal tunnel."
+    },
+    {
+     "term": "Extensor retinaculum",
+     "text": "Thickened band of deep fascia of the forearm extending obliquely across the back of the wrist, divided by septa into six compartments."
+    },
+    {
+     "term": "Pseudoganglion",
+     "text": "The expanded termination of the posterior interosseous nerve giving articular filaments."
+    },
+    {
+     "term": "Carpal tunnel syndrome",
+     "text": "Compression of the median nerve while passing through the carpal tunnel."
+    },
+    {
+     "term": "Ulnar aponeurosis",
+     "text": "Strong thickening of deep fascia along the posterior border of the ulna giving origin to flexor carpi ulnaris, extensor carpi ulnaris and flexor digitorum profundus."
+    }
+   ],
+   "numbers": [
+    "Superficial flexor group: 5 muscles (4 superficial + 1 deep)",
+    "Deep flexor group: 3 muscles",
+    "Superficial extensor group: 7 muscles",
+    "Deep extensor group: 5 muscles",
+    "Extensor retinaculum has 6 compartments",
+    "Carpal tunnel contains 9 flexor tendons, 2 synovial sheaths and 1 nerve",
+    "5 structures pass superficial to the flexor retinaculum",
+    "Radial and ulnar arteries begin 1 cm below the elbow joint at the level of the neck of the radius",
+    "Median nerve C5,6,7,8 and T1",
+    "Ulnar nerve mainly C8 and T1 with C7 fibres",
+    "Superficial radial nerve ends as 5 dorsal digital nerves supplying the lateral 3.5 fingers",
+    "Ulnar dorsal cutaneous branch supplies the medial 1.5 fingers",
+    "Common interosseous artery arises about one inch below the beginning of the ulnar artery",
+    "Median palmar cutaneous branch arises one inch above the wrist",
+    "Posterior interosseous nerve and anterior interosseous artery run in the 4th extensor compartment"
+   ],
+   "classifications": [
+    {
+     "of": "Sites of thickening of the antebrachial fascia",
+     "items": [
+      "Bicipital aponeurosis above",
+      "Ulnar aponeurosis along the posterior border of ulna",
+      "Flexor retinaculum",
+      "Extensor retinaculum"
+     ]
+    },
+    {
+     "of": "Boundaries of the cubital fossa",
+     "items": [
+      "Base: line between the two epicondyles",
+      "Lateral: brachioradialis",
+      "Medial: pronator teres",
+      "Apex: meeting of brachioradialis and pronator teres",
+      "Floor: brachialis and supinator",
+      "Roof: skin, superficial fascia and deep fascia with bicipital aponeurosis"
+     ]
+    },
+    {
+     "of": "Contents of the cubital fossa (medial to lateral)",
+     "items": [
+      "Median nerve",
+      "Termination of brachial artery with beginning of ulnar and radial arteries",
+      "Tendon of biceps",
+      "Radial nerve and beginning of posterior interosseous nerve"
+     ]
+    },
+    {
+     "of": "Superficial flexor group of the forearm",
+     "items": [
+      "Pronator teres",
+      "Flexor carpi radialis",
+      "Palmaris longus",
+      "Flexor carpi ulnaris",
+      "Flexor digitorum superficialis (deep to the other four)"
+     ]
+    },
+    {
+     "of": "Deep flexor group of the forearm",
+     "items": [
+      "Flexor pollicis longus",
+      "Flexor digitorum profundus",
+      "Pronator quadratus"
+     ]
+    },
+    {
+     "of": "Superficial extensor group",
+     "items": [
+      "Brachioradialis",
+      "Extensor carpi radialis longus",
+      "Extensor carpi radialis brevis",
+      "Extensor digitorum",
+      "Extensor digiti minimi",
+      "Extensor carpi ulnaris",
+      "Anconeus"
+     ]
+    },
+    {
+     "of": "Deep extensor group",
+     "items": [
+      "Supinator",
+      "Abductor pollicis longus",
+      "Extensor pollicis brevis",
+      "Extensor pollicis longus",
+      "Extensor indicis"
+     ]
+    },
+    {
+     "of": "Boundaries of the anatomical snuffbox",
+     "items": [
+      "Medially: tendon of extensor pollicis longus",
+      "Laterally: tendons of abductor pollicis longus and extensor pollicis brevis",
+      "Floor: styloid process of radius, scaphoid, trapezium",
+      "Roof: skin, superficial fascia with cephalic vein and superficial radial nerve branches, deep fascia"
+     ]
+    },
+    {
+     "of": "Nerves in the forearm",
+     "items": [
+      "Ulnar nerve",
+      "Median nerve",
+      "Superficial radial nerve",
+      "Posterior interosseous nerve"
+     ]
+    },
+    {
+     "of": "Structures superficial to the flexor retinaculum (medial to lateral)",
+     "items": [
+      "Ulnar nerve",
+      "Ulnar artery",
+      "Palmar cutaneous branch of ulnar nerve",
+      "Tendon of palmaris longus",
+      "Palmar cutaneous branch of median nerve"
+     ]
+    },
+    {
+     "of": "Contents of the carpal tunnel",
+     "items": [
+      "Four tendons of flexor digitorum superficialis",
+      "Four tendons of flexor digitorum profundus",
+      "Tendon of flexor pollicis longus",
+      "Ulnar and radial bursae",
+      "Median nerve",
+      "Recurrent branch of the deep palmar arch"
+     ]
+    },
+    {
+     "of": "Compartments of the extensor retinaculum (lateral to medial)",
+     "items": [
+      "1st: abductor pollicis longus and extensor pollicis brevis",
+      "2nd: extensor carpi radialis longus and brevis",
+      "3rd: extensor pollicis longus",
+      "4th: extensor digitorum (4 tendons), extensor indicis, posterior interosseous nerve, anterior interosseous artery",
+      "5th: extensor digiti minimi",
+      "6th: extensor carpi ulnaris"
+     ]
+    },
+    {
+     "of": "Branches of the radial artery in the forearm",
+     "items": [
+      "Radial recurrent artery",
+      "Muscular branches",
+      "Anterior carpal artery",
+      "Superficial palmar artery"
+     ]
+    },
+    {
+     "of": "Branches of the ulnar artery",
+     "items": [
+      "Anterior ulnar recurrent artery",
+      "Posterior ulnar recurrent artery",
+      "Common interosseous artery (anterior and posterior interosseous)",
+      "Muscular branches",
+      "Anterior carpal artery",
+      "Posterior carpal artery"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 206,
+     "caption": "Fig. 52: Boundaries of cubital fossa",
+     "kind": "diagram"
+    },
+    {
+     "page": 206,
+     "caption": "Fig. 53: Roof of the cubital fossa",
+     "kind": "diagram"
+    },
+    {
+     "page": 207,
+     "caption": "Fig. 54: Contents of cubital fossa",
+     "kind": "diagram"
+    },
+    {
+     "page": 209,
+     "caption": "Fig. 55: Muscles of front of forearm (superficial group)",
+     "kind": "diagram"
+    },
+    {
+     "page": 209,
+     "caption": "Superficial flexor group - table of muscle, origin, insertion and action",
+     "kind": "table"
+    },
+    {
+     "page": 211,
+     "caption": "Fig. 56: median & ulnar nerves in relation to forearm muscles",
+     "kind": "diagram"
+    },
+    {
+     "page": 212,
+     "caption": "Deep flexor group - table of muscle, origin, insertion and action",
+     "kind": "table"
+    },
+    {
+     "page": 212,
+     "caption": "Fig. 57: Muscles of front of forearm (Deep group)",
+     "kind": "diagram"
+    },
+    {
+     "page": 212,
+     "caption": "Fig. 58: Insertion of the flexor digitorum superficialis & profundus",
+     "kind": "diagram"
+    },
+    {
+     "page": 213,
+     "caption": "Fig. 59: superficial group of muscles of the forearm",
+     "kind": "diagram"
+    },
+    {
+     "page": 214,
+     "caption": "Superficial extensor group - table of muscle, origin, insertion, nerve supply and action",
+     "kind": "table"
+    },
+    {
+     "page": 214,
+     "caption": "Fig. 60: Extensor expansion",
+     "kind": "diagram"
+    },
+    {
+     "page": 215,
+     "caption": "Fig. 61: muscles of the back of forearm (deep)",
+     "kind": "diagram"
+    },
+    {
+     "page": 216,
+     "caption": "Fig. 62: Attachments of the supinator m. & its relation to posterior interosseous nerve",
+     "kind": "diagram"
+    },
+    {
+     "page": 217,
+     "caption": "Deep extensor group - table of muscle, origin, insertion and action",
+     "kind": "table"
+    },
+    {
+     "page": 217,
+     "caption": "Fig. 63: Attachments of the muscles of the back of the forearm (Deep Group)",
+     "kind": "diagram"
+    },
+    {
+     "page": 218,
+     "caption": "Fig. 64: The anatomical snuff box",
+     "kind": "diagram"
+    },
+    {
+     "page": 219,
+     "caption": "Fig. 65: Ulnar nerve & artery in lower part of forearm",
+     "kind": "diagram"
+    },
+    {
+     "page": 220,
+     "caption": "Fig. 66: Ulnar nerve branches",
+     "kind": "diagram"
+    },
+    {
+     "page": 222,
+     "caption": "Fig. 67: Median nerve in the arm",
+     "kind": "diagram"
+    },
+    {
+     "page": 223,
+     "caption": "Fig. 68: Median nerve branches",
+     "kind": "diagram"
+    },
+    {
+     "page": 225,
+     "caption": "Fig. 69 (printed as 'Fig. 112'): Course of the superficial radial nerve in front of forearm",
+     "kind": "diagram"
+    },
+    {
+     "page": 225,
+     "caption": "Fig. 70: Superficial radial nerve course & branches",
+     "kind": "diagram"
+    },
+    {
+     "page": 226,
+     "caption": "Fig. 71: Terminal branches of superficial radial nerve & course and branches of posterior interosseous nerve (Back of forearm)",
+     "kind": "diagram"
+    },
+    {
+     "page": 227,
+     "caption": "Fig. 72: Flexor retinaculum & the related structures",
+     "kind": "diagram"
+    },
+    {
+     "page": 228,
+     "caption": "Fig. 73: Flexor retinaculum & the carpal tunnel",
+     "kind": "diagram"
+    },
+    {
+     "page": 229,
+     "caption": "Fig. 74: Extensor retinaculum & its compartments",
+     "kind": "diagram"
+    },
+    {
+     "page": 229,
+     "caption": "Extensor retinaculum compartments - table of compartment, location and contents",
+     "kind": "table"
+    },
+    {
+     "page": 230,
+     "caption": "Fig. 75: Radial artery course",
+     "kind": "diagram"
+    },
+    {
+     "page": 231,
+     "caption": "Fig. 76: Radial artery branches (muscular branches and anterior carpal branch labelled)",
+     "kind": "diagram"
+    },
+    {
+     "page": 232,
+     "caption": "Fig. 77: Ulnar artery branches",
+     "kind": "diagram"
+    },
+    {
+     "page": 233,
+     "caption": "Fig. 78: Ulnar artery end & branches",
+     "kind": "diagram"
+    },
+    {
+     "page": 234,
+     "caption": "Fig. 79: Ulnar & radial arteries branches",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: carpal tunnel syndrome is compression of the median nerve while passing through the carpal tunnel, and may be caused by inflammation of the synovial sheaths of the flexor tendons, arthritic changes of the intercarpal joints, osteophytes of the carpal bones, dislocation of the lunate bone, or accumulation of fluid such as blood or pus in the tunnel; for the results it cross-refers to median nerve injury.",
+    "Book gives the surface anatomy of the radial artery as a line from a point midway between the two epicondyles medial to the biceps tendon to a point at the front of the lower end of the radius where the pulsation is felt, continued round the radial side of the wrist to the proximal end of the first metacarpal interosseous space.",
+    "Book gives the surface anatomy of the ulnar artery as a line through three points: midway between the epicondyles medial to the biceps tendon; the medial side of the forearm at the junction of the upper third with the lower two-thirds; and just lateral to the pisiform at the wrist.",
+    "This is the longest chapter in the book at 30 physical pages, and it covers cubital fossa, both muscle compartments, four nerves, both retinacula and both forearm arteries.",
+    "Several stale figure cross-references appear: the median nerve section cites 'Figs. 107, 108' and one superficial-radial-nerve figure is printed as 'Fig. 112' although the chapter's own numbering is Figs. 52-79."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Hand",
+   "bookTitle": "HAND (Chapter 7)",
+   "startPage": 235,
+   "endPage": 252,
+   "found": true,
+   "keyPoints": [
+    "The deep fascia of the palm has three parts: a thin lateral part over the thenar eminence, a thin medial part over the hypothenar eminence, and a thick strong central part over the intermediate compartment called the palmar aponeurosis.",
+    "The palmar aponeurosis is the thickest and strongest part of the palmar deep fascia, firmly attached to the overlying palmar skin by dense fibrous tissue, and it protects the tendons, vessels and nerves going to the fingers.",
+    "It is triangular: its apex is directed upwards, fuses with the flexor retinaculum and receives the insertion of the palmaris longus tendon; its base divides into four slips, each passing to the root of a finger and becoming continuous with the fibrous flexor sheath of one of the medial four fingers.",
+    "Its lateral margin is continuous with the much thinner deep fascia over the thenar eminence; its medial margin is continuous with that over the hypothenar eminence and gives origin to palmaris brevis.",
+    "The palmar aponeurosis sends three palmar septa deeply: the lateral palmar septum to the 1st metacarpal, pierced by the branches of the median nerve to the thenar muscles; the medial palmar septum to the 5th metacarpal, pierced by the deep branches of the ulnar nerve and ulnar artery; and the intermediate palmar septum passing from near the lateral margin between the index tendons and the other finger tendons to the palmar surface of the 3rd metacarpal.",
+    "The fascial spaces of the hand (intermediate compartment of the palm) are bounded ventrally by the palmar aponeurosis, dorsally by the 3rd, 4th and 5th metacarpals with the related interossei and adductor pollicis, medially by the medial palmar septum and laterally by the lateral palmar septum.",
+    "The mid-palmar space is the medial space, bounded laterally by the intermediate palmar septum and medially by the medial palmar septum; it contains the long flexor tendons to the 3rd, 4th and 5th fingers, the 2nd, 3rd and 4th lumbricals, and the digital nerves and vessels to the medial three and a half fingers.",
+    "The thenar space is the lateral space, bounded laterally by the lateral palmar septum, medially by the intermediate palmar septum and dorsally by the transverse head of adductor pollicis and its covering fascia; it contains the long flexor tendons of the index and thumb, the 1st lumbrical, and the digital nerves and vessels to the lateral one and a half fingers.",
+    "Both spaces communicate distally with the finger webs and proximally with the space deep to the common synovial sheath in the carpal tunnel.",
+    "The space of Parona lies between pronator quadratus posteriorly and the flexor tendons of the forearm in front and is continuous with the deep palmar space behind the long flexor tendons in the carpal tunnel.",
+    "The superficial distal pulp space of the finger is the pulp space of the distal phalanx at the fingertip, very tightly packed with small lobules of subcutaneous fat separated by many fibrous septa passing from the skin to the periosteum of the distal phalanx.",
+    "The thenar muscles - abductor pollicis brevis, flexor pollicis brevis and opponens pollicis - arise from the crest of the trapezium and the lateral side of the flexor retinaculum, insert into the lateral side of the base of the proximal phalanx of the thumb (opponens into the lateral surface of the shaft of the first metacarpal), and are supplied by the recurrent muscular branch of the median nerve.",
+    "Adductor pollicis arises by an oblique head from the bases of the 2nd and 3rd metacarpals and a transverse head from the front of the shaft of the 3rd metacarpal, inserts into the medial side of the base of the proximal phalanx of the thumb in common with flexor pollicis brevis, is supplied by the deep branch of the ulnar nerve and adducts the thumb at the carpometacarpal joint.",
+    "The hypothenar muscles - abductor digiti minimi, flexor digiti minimi brevis and opponens digiti minimi - arise from the pisiform, hook of hamate and medial side of the flexor retinaculum, insert into the medial side of the base of the proximal phalanx of the little finger (opponens into the medial surface of the shaft of the 5th metacarpal), and are supplied by the deep branch of the ulnar nerve.",
+    "Palmaris brevis lies in the superficial fascia of the palm beneath the skin of the hypothenar eminence, arises from the flexor retinaculum and medial border of the palmar aponeurosis, inserts into the skin of the medial side of the palm, is supplied by the superficial branch of the ulnar nerve and deepens the hollow of the palm by wrinkling and raising that skin.",
+    "The lumbricals arise from the tendons of flexor digitorum profundus in the palm; the lateral two each arise by a single head from the lateral margin of the lateral two tendons, and the medial two each by two heads from the adjacent margins of the medial three tendons.",
+    "Lumbrical tendons turn backwards on the lateral side of the metacarpophalangeal joints of the medial four fingers to join the corresponding extensor expansions and are finally inserted into the dorsal aspects of the bases of the distal phalanges.",
+    "The lateral two lumbricals are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve; acting with the interossei they flex the metacarpophalangeal joints and extend the interphalangeal joints, putting the fingers into the writing position.",
+    "Palmar interossei arise by a single head from the palmar surfaces of the metacarpals of the thumb, index, ring and little fingers; the 1st inserts into the medial side of the thumb's proximal phalanx and the others into the extensor expansions; they adduct the fingers towards the middle finger (mnemonic PAD).",
+    "Dorsal interossei arise by two heads from the adjacent sides of the metacarpals and insert into the extensor expansions - laterally for the index and middle, medially for the middle and ring; they abduct the fingers away from the middle finger (mnemonic DAB).",
+    "All interossei are supplied by the deep branch of the ulnar nerve; the middle finger has two dorsal interossei and the first dorsal interosseous is the largest, while the first palmar interosseous is often absent. The middle finger is the reference line for abduction and adduction.",
+    "The common flexor sheath (ulnar bursa) encloses the eight tendons of flexor digitorum superficialis and profundus in the carpal tunnel, with a parietal layer lining the tunnel and a visceral layer covering the tendons; it extends proximally above the flexor retinaculum and distally ends at the middle of the metacarpals but continues with the little finger's sheath.",
+    "The flexor pollicis sheath (radial bursa) encloses the tendon of flexor pollicis longus, extends proximally and continues distally to the tendon's insertion, and usually communicates with the ulnar bursa in the carpal tunnel.",
+    "Digital synovial sheaths (digital bursae) enclose the flexor tendons in each finger in two layers, extending proximally to the distal palm crease - except the little finger, which connects with the ulnar bursa - and distally to the tendon insertions.",
+    "The flexor carpi radialis tendon has its own synovial sheath in its own compartment in the groove of the trapezium; the two layers of any synovial sheath are separated by a very narrow space with minimal synovial fluid.",
+    "The synovial sheaths of the index, middle and ring fingers do not communicate with the ulnar bursa but are separated from it by a short distance where the tendons are bare.",
+    "The ulnar nerve enters the palm in front of the medial part of the flexor retinaculum, lateral to the pisiform and just medial to the ulnar artery, and divides there into superficial and deep terminal branches.",
+    "The superficial branch of the ulnar nerve descends deep to palmaris brevis, supplying it, then divides into two palmar digital branches supplying the skin on the palmar surfaces of the little finger and the medial half of the ring finger.",
+    "The deep branch of the ulnar nerve dips between abductor and flexor digiti minimi with the deep branch of the ulnar artery, pierces opponens digiti minimi, curves round the hook of hamate and turns laterally across the palm in the concavity of the deep palmar arch, ending near the lateral border of the palm.",
+    "The deep branch of the ulnar nerve supplies the hypothenar muscles, the medial two lumbricals, all eight interossei, adductor pollicis, sometimes an additional supply to flexor pollicis brevis, and gives articular branches to the wrist and metacarpophalangeal joints.",
+    "The median nerve enters the palm deep to the flexor retinaculum in the carpal tunnel and divides into a smaller lateral and a medial division.",
+    "The lateral division gives the recurrent branch to the thenar muscles - flexor pollicis brevis, abductor pollicis brevis and opponens pollicis - then divides into three palmar digital branches: two for both sides of the thumb and one for the lateral side of the index which also supplies the 1st lumbrical.",
+    "The medial division divides into two branches: one to the cleft between index and middle fingers giving a muscular branch to the 2nd lumbrical and two palmar digital branches, and one to the cleft between middle and ring fingers dividing into two palmar digital branches.",
+    "The palmar digital branches of the median nerve supply not only the whole palmar aspect but also turn backwards to supply the distal half of the dorsal aspects of the lateral three and a half fingers.",
+    "The deep branch of the ulnar nerve supplies all the intrinsic muscles of the hand except five - the lateral two lumbricals and the three thenar muscles - which are supplied by the median nerve.",
+    "The ulnar artery enters the palm superficial to the medial part of the flexor retinaculum, lateral to the ulnar nerve and pisiform and covered by palmaris brevis, and divides in front of the retinaculum into deep and superficial divisions.",
+    "Its deep division passes backwards between abductor digiti minimi and flexor digiti minimi brevis, penetrates opponens digiti minimi and anastomoses with the end of the deep palmar arch at the base of the 5th metacarpal, accompanied by the deep branch of the ulnar nerve; the superficial division curves laterally across the palm as the superficial palmar arch.",
+    "The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons and the digital branches of the median nerve, crossing the palm at the level of the midshaft of the metacarpals, distal to the deep palmar arch; it is formed mainly by the ulnar artery and completed by the superficial palmar branch of the radial artery at the thenar eminence.",
+    "The superficial palmar arch gives four palmar digital arteries: one to the medial side of the little finger from its medial end under cover of palmaris brevis, and three common palmar digital arteries from its convexity to the three clefts between the medial four fingers, each joined by the corresponding palmar metacarpal artery from the deep arch and dividing into a pair of proper palmar digital arteries.",
+    "The radial artery leaves the forearm by winding backwards round the lateral side of the wrist superficial to the lateral ligament, crosses the anatomical snuffbox deep to abductor pollicis longus and extensor pollicis brevis and over the tendons of extensor carpi radialis longus and brevis (where its pulsation can be felt), and leaves deep to the tendon of extensor pollicis longus.",
+    "On the dorsum of the hand it descends to the proximal part of the 1st interosseous space and passes forwards between the two heads of the 1st dorsal interosseous into the palm, emerging between the oblique and transverse heads of adductor pollicis and running medially immediately distal to the bases of the metacarpals as the deep palmar arch.",
+    "Radial artery branches on the dorsum of the hand: the posterior carpal artery which forms the posterior carpal arch with its ulnar counterpart, the first dorsal digital branch to the lateral border of the thumb, and the first dorsal metacarpal artery which divides into two dorsal digital branches for the adjacent sides of thumb and index.",
+    "Radial artery branches in the palm: the princeps pollicis artery arising as the artery emerges between the two heads of the 1st dorsal interosseous and dividing at the base of the proximal phalanx of the thumb into the two palmar digital branches of the thumb; the radialis indicis artery of variable origin running along the lateral side of the index on the palmar aspect; and the deep palmar arch.",
+    "The deep palmar arch lies deep to the flexor tendons, crossing the palm immediately distal to the bases of the metacarpals, proximal to the superficial palmar arch; it is formed mainly by the radial artery and completed by the deep palmar branch of the ulnar artery at the base of the 5th metacarpal, and is concave towards the wrist with the deep branch of the ulnar nerve in its concavity.",
+    "The deep palmar arch gives three palmar metacarpal arteries to the clefts between the medial four fingers joining the common digital branches of the superficial arch, three perforating branches passing dorsally through the proximal parts of the 2nd, 3rd and 4th intermetacarpal spaces to join the dorsal metacarpal arteries, and recurrent branches ascending in front of the wrist joint to the anterior carpal arch.",
+    "There are four arterial arches in the hand: anterior carpal, posterior carpal, superficial palmar and deep palmar.",
+    "The anterior carpal arch lies on the front of the carpus deep to the flexor tendons and is formed by the anterior carpal branches of ulnar and radial arteries, a descending branch from the anterior interosseous artery and recurrent branches from the deep palmar arch, together forming a cruciate anastomosis.",
+    "The posterior carpal arch lies on the back of the carpus deep to the extensor tendons, formed by the posterior carpal branches of ulnar and radial arteries and the anterior and posterior interosseous arteries; it gives the 2nd, 3rd and 4th dorsal metacarpal arteries, each bifurcating into two dorsal digital branches for the adjacent sides of the medial four fingers, plus a dorsal digital branch to the medial border of the little finger. The 1st dorsal metacarpal artery arises from the radial artery on the dorsum of the hand."
+   ],
+   "definitions": [
+    {
+     "term": "Palmar aponeurosis",
+     "text": "The thick strong central part of the deep fascia of the palm, triangular, protecting the tendons, vessels and nerves going to the fingers."
+    },
+    {
+     "term": "Mid-palmar space",
+     "text": "The medial fascial space of the palm underneath the palmar aponeurosis, between the intermediate and medial palmar septa."
+    },
+    {
+     "term": "Thenar space",
+     "text": "The lateral fascial space of the palm underneath the palmar aponeurosis, between the lateral and intermediate palmar septa."
+    },
+    {
+     "term": "Space of Parona",
+     "text": "The space between pronator quadratus posteriorly and the flexor tendons of the forearm in front."
+    },
+    {
+     "term": "Superficial distal pulp space",
+     "text": "The pulp space of the distal phalanx at the tip of the finger, tightly packed with fat lobules separated by fibrous septa running from skin to periosteum."
+    },
+    {
+     "term": "Common flexor sheath (ulnar bursa)",
+     "text": "Synovial sheath enclosing the eight tendons of flexor digitorum superficialis and profundus as they pass through the carpal tunnel."
+    },
+    {
+     "term": "Flexor pollicis sheath (radial bursa)",
+     "text": "Synovial sheath enclosing the tendon of flexor pollicis longus."
+    },
+    {
+     "term": "Superficial palmar arch",
+     "text": "Arch immediately deep to the palmar aponeurosis formed mainly by the ulnar artery and completed by the superficial palmar branch of the radial artery."
+    },
+    {
+     "term": "Deep palmar arch",
+     "text": "Arch deep to the flexor tendons formed mainly by the radial artery and completed by the deep palmar branch of the ulnar artery."
+    }
+   ],
+   "numbers": [
+    "Deep fascia of the palm has 3 parts",
+    "Palmar aponeurosis base divides into 4 slips",
+    "3 palmar septa",
+    "4 lumbricals",
+    "4 palmar interossei (1st may be absent) and 4 dorsal interossei",
+    "Interossei supplied by the deep branch of the ulnar nerve (C8, T1)",
+    "Ulnar bursa encloses 8 tendons",
+    "Bursae extend 1 inch proximally above the flexor retinaculum",
+    "Index, middle and ring sheaths separated from the ulnar bursa by 1-3 cm of bare tendon",
+    "Superficial branch of ulnar nerve supplies the medial 1.5 fingers",
+    "Median palmar digital branches supply the lateral 3.5 fingers",
+    "Deep branch of ulnar nerve supplies all intrinsic hand muscles except 5",
+    "Superficial palmar arch lies 1 cm distal to the deep palmar arch",
+    "Deep palmar arch is half an inch proximal to the superficial arch",
+    "Deep palmar arch surface anatomy: a curved line 4 cm long",
+    "Superficial arch gives 4 palmar digital arteries; deep arch gives 3 palmar metacarpal and 3 perforating branches",
+    "4 arterial arches in the hand"
+   ],
+   "classifications": [
+    {
+     "of": "Parts of the deep fascia of the palm",
+     "items": [
+      "Lateral part over the thenar eminence",
+      "Medial part over the hypothenar eminence",
+      "Central part - palmar aponeurosis"
+     ]
+    },
+    {
+     "of": "Palmar septa",
+     "items": [
+      "Lateral palmar septum (to 1st metacarpal)",
+      "Medial palmar septum (to 5th metacarpal)",
+      "Intermediate palmar septum (to 3rd metacarpal)"
+     ]
+    },
+    {
+     "of": "Fascial spaces of the palm",
+     "items": [
+      "Mid-palmar (middle palmar) space",
+      "Thenar space"
+     ]
+    },
+    {
+     "of": "Muscles of the hand",
+     "items": [
+      "Lateral: thenar muscles and adductor pollicis",
+      "Medial: hypothenar muscles and palmaris brevis",
+      "Intermediate: lumbricals and interossei"
+     ]
+    },
+    {
+     "of": "Thenar muscles",
+     "items": [
+      "Abductor pollicis brevis",
+      "Flexor pollicis brevis",
+      "Opponens pollicis"
+     ]
+    },
+    {
+     "of": "Hypothenar muscles",
+     "items": [
+      "Abductor digiti minimi",
+      "Flexor digiti minimi brevis",
+      "Opponens digiti minimi"
+     ]
+    },
+    {
+     "of": "Interossei",
+     "items": [
+      "Palmar interossei - adduct (PAD)",
+      "Dorsal interossei - abduct (DAB)"
+     ]
+    },
+    {
+     "of": "Synovial sheaths of the hand",
+     "items": [
+      "Common flexor sheath (ulnar bursa)",
+      "Flexor pollicis sheath (radial bursa)",
+      "Digital synovial sheaths (digital bursae)",
+      "Separate sheath for flexor carpi radialis"
+     ]
+    },
+    {
+     "of": "Nerves in the hand",
+     "items": [
+      "Superficial branch of ulnar nerve",
+      "Deep branch of ulnar nerve",
+      "Lateral division of median nerve",
+      "Medial division of median nerve"
+     ]
+    },
+    {
+     "of": "Muscles supplied by the median nerve in the hand",
+     "items": [
+      "Abductor pollicis brevis",
+      "Flexor pollicis brevis",
+      "Opponens pollicis",
+      "1st lumbrical",
+      "2nd lumbrical"
+     ]
+    },
+    {
+     "of": "Branches of the radial artery in the hand",
+     "items": [
+      "Dorsum: posterior carpal artery, first dorsal digital branch, first dorsal metacarpal artery",
+      "Palm: princeps pollicis, radialis indicis, deep palmar arch"
+     ]
+    },
+    {
+     "of": "Arterial arches in the hand",
+     "items": [
+      "Anterior carpal arch",
+      "Posterior carpal arch",
+      "Superficial palmar arch",
+      "Deep palmar arch"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 235,
+     "caption": "Fig. 80 (referenced) - deep fascia of the palm",
+     "kind": "diagram"
+    },
+    {
+     "page": 236,
+     "caption": "Fig. 80: Attachments of the palmar aponeurosis & structures deep to it, labelling the four slips of the base, palmar aponeurosis (cut & reflected), deep fascia covering thenar eminence, superficial palmar arch, common synovial sheath of long flexor tendons, median nerve, tendon of palmaris longus and flexor retinaculum",
+     "kind": "diagram"
+    },
+    {
+     "page": 237,
+     "caption": "Fig. 81: fascial spaces of the hand",
+     "kind": "diagram"
+    },
+    {
+     "page": 238,
+     "caption": "Fig. 82: communications of fascial spaces of the hand",
+     "kind": "diagram"
+    },
+    {
+     "page": 239,
+     "caption": "Fig. 83: superficial distal pulp space of the finger",
+     "kind": "diagram"
+    },
+    {
+     "page": 240,
+     "caption": "Fig. 84: Muscles of the hand",
+     "kind": "diagram"
+    },
+    {
+     "page": 241,
+     "caption": "Muscles of the thenar eminence - table of muscle, origin, insertion, nerve supply and action",
+     "kind": "table"
+    },
+    {
+     "page": 241,
+     "caption": "Fig. 85: Thenar muscles",
+     "kind": "diagram"
+    },
+    {
+     "page": 241,
+     "caption": "Fig. 86: Adductor pollicis muscle",
+     "kind": "diagram"
+    },
+    {
+     "page": 242,
+     "caption": "Muscles of the hypothenar eminence - table of muscle, origin, insertion, nerve supply and action",
+     "kind": "table"
+    },
+    {
+     "page": 242,
+     "caption": "Fig. 87: hypothenar muscles & palmaris brevis",
+     "kind": "diagram"
+    },
+    {
+     "page": 243,
+     "caption": "Fig. 88: Lumbricals, with tendons of flexor digitorum profundus labelled",
+     "kind": "diagram"
+    },
+    {
+     "page": 244,
+     "caption": "Palmar Interossei (PAD) versus Dorsal Interossei (DAB) - comparative table of number, origin, insertion, nerve supply, action, special notes and mnemonic",
+     "kind": "table"
+    },
+    {
+     "page": 244,
+     "caption": "Fig. 89: Interosseous muscles",
+     "kind": "diagram"
+    },
+    {
+     "page": 245,
+     "caption": "Fig. 90: Synovial sheathes",
+     "kind": "diagram"
+    },
+    {
+     "page": 246,
+     "caption": "Fig. 91: Ulnar n. in the hand",
+     "kind": "diagram"
+    },
+    {
+     "page": 247,
+     "caption": "Fig. 92: Median & ulnar nerves in the hand",
+     "kind": "diagram"
+    },
+    {
+     "page": 249,
+     "caption": "Fig. 93: Ulnar artery in the hand and superficial palmar arch",
+     "kind": "diagram"
+    },
+    {
+     "page": 251,
+     "caption": "Fig. 94: Radial artery in the hand and the deep palmar arch",
+     "kind": "diagram"
+    },
+    {
+     "page": 252,
+     "caption": "Fig. 95: arterial arches of the hand, with anterior carpal arch and anterior carpal branches of RA & UA labelled",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: when the superficial distal pulp space is inflamed it is very painful because pus is entrapped under tension in the narrow space and compresses the nerves.",
+    "Book states: the blood vessels of the shaft and head, but not the base, of the terminal phalanx traverse the pulp space, so severe infection may cause thrombosis of those vessels and death of the shaft and head of the distal phalanx while the base is spared.",
+    "Book states: infection of the 2nd, 3rd and 4th synovial sheaths remains localised to their fingers, but infection of the thumb or little finger (radial and ulnar bursae) may spread to the palm, carpal tunnel and forearm.",
+    "Book states infection may extend from the space of Parona to the spaces of the palm and vice versa.",
+    "Book gives the surface anatomy of the superficial palmar arch as a curved line with its convexity distal, drawn across the hand from the distal border of the root of the extended thumb; and of the deep palmar arch as a curved line 4 cm long from a point just distal to the hook of hamate at the level of the proximal border of the fully extended thumb.",
+    "The chapter ILO asks the student to 'Define the fibrous flexor sheathes and describe its attachment', but the chapter has no dedicated section on the fibrous flexor sheaths - they are mentioned only in passing where the palmar aponeurosis slips become continuous with them.",
+    "EXAM SCOPE: the department's orientation sheet declares the muscles of the hand outside the examinable syllabus. Within this chapter that covers the thenar muscles, adductor pollicis, the hypothenar muscles, palmaris brevis, the lumbricals and the interossei (physical pages 240-244). The palmar aponeurosis and its septa, the fascial spaces and space of Parona, the distal pulp space, the synovial sheaths, the nerves of the hand and all the arteries and arterial arches remain in scope."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb",
+   "bookTitle": "VEINS OF THE UPPER LIMB (Chapter 8)",
+   "startPage": 253,
+   "endPage": 256,
+   "found": true,
+   "keyPoints": [
+    "The veins of the upper limb are divided into superficial and deep groups which communicate freely and are provided with valves.",
+    "Superficial veins run in the superficial fascia; the book states they are larger and more important than the deep veins, into which they finally end, and they begin in the dorsum of the hand.",
+    "The superficial dorsal venous network (arch) is a network of veins in the superficial fascia on the dorsum of the hand receiving the dorsal digital and metacarpal veins.",
+    "The cephalic vein begins from the lateral end of the dorsal venous arch just behind the styloid process of the radius, runs upwards onto the anterior surface of the forearm ascending on its lateral side, crosses the lateral part of the roof of the cubital fossa, runs in a groove along the lateral side of the arm and reaches the deltopectoral groove.",
+    "Just below the clavicle the cephalic vein pierces the deep fascia and clavipectoral fascia to end in the terminal part of the axillary vein.",
+    "The basilic vein begins from the medial end of the dorsal venous arch, ascends along the medial surface of the forearm, turns to the anterior surface just below the elbow, crosses the medial part of the roof of the cubital fossa, pierces the deep fascia at the middle of the arm at the insertion of coracobrachialis and ascends medial to the brachial artery.",
+    "At the lower border of teres major the basilic vein is joined by the two venae comitantes of the brachial artery, together forming the axillary vein.",
+    "The median vein of the forearm begins near the wrist by union of a few veins from the palm, ascends in the middle of the front of the forearm and below the elbow ends in the basilic or cephalic vein, or divides into a median basilic vein joining the basilic and a median cephalic vein joining the cephalic.",
+    "The median cubital vein connects the cephalic and basilic veins in the superficial fascia of the roof of the cubital fossa, crossing superficial to the bicipital aponeurosis which separates it from the brachial artery and median nerve; the book states it is the most prominent superficial vein in the body and is used for intravenous injection.",
+    "The deep veins are the venae comitantes, two accompanying each main artery and anastomosing with each other, with those of the radial and ulnar arteries joining those of the brachial artery, plus the axillary vein.",
+    "Deep lymph nodes of the upper limb are the five groups of axillary lymph nodes plus a few nodes in the cubital fossa at the bifurcation of the brachial artery, in the arm along the brachial artery and in the forearm along the radial and ulnar arteries.",
+    "Superficial lymph nodes are few scattered nodes in two groups: supratrochlear (epitrochlear) and infraclavicular (deltopectoral).",
+    "Supratrochlear nodes lie in the superficial fascia of the roof of the cubital fossa above the medial epicondyle along the basilic vein; they receive afferents from the medial side of the hand and forearm and send efferents to the lateral group of axillary lymph nodes.",
+    "Infraclavicular nodes lie along the cephalic vein in the deltopectoral groove immediately below the clavicle; they receive few lymphatics accompanying that vein and send efferents to the apical group of axillary lymph nodes.",
+    "Superficial lymph vessels on the medial side of the wrist follow the basilic vein in the forearm, pierce the deep fascia with it and end in the lateral group of axillary nodes, some ending just above the elbow in the supratrochlear nodes.",
+    "Superficial lymph vessels on the lateral side of the wrist follow the cephalic vein; at the insertion of deltoid most incline medially to pierce the deep fascia and end in the lateral (humeral) group of axillary nodes, while a few continue with the cephalic vein to the apical group.",
+    "Deep lymph vessels follow the main arteries - radial, ulnar and brachial - and end in the lateral group of axillary lymph nodes; deep vessels from the scapular region end in the subscapular group and those from the pectoral region in the pectoral group."
+   ],
+   "definitions": [
+    {
+     "term": "Venae comitantes",
+     "text": "Deep veins accompanying the main arteries, usually two per artery, anastomosing with each other."
+    },
+    {
+     "term": "Median cubital vein",
+     "text": "Vein connecting cephalic and basilic veins in the roof of the cubital fossa, crossing superficial to the bicipital aponeurosis."
+    },
+    {
+     "term": "Supratrochlear (epitrochlear) lymph nodes",
+     "text": "Superficial nodes in the roof of the cubital fossa above the medial epicondyle along the basilic vein."
+    },
+    {
+     "term": "Infraclavicular (deltopectoral) lymph nodes",
+     "text": "Superficial nodes along the cephalic vein in the deltopectoral groove immediately below the clavicle."
+    }
+   ],
+   "numbers": [
+    "2 groups of veins (superficial and deep)",
+    "5 named superficial veins of the upper limb",
+    "2 venae comitantes per main artery",
+    "2 groups of superficial lymph nodes",
+    "5 groups of axillary (deep) lymph nodes"
+   ],
+   "classifications": [
+    {
+     "of": "Superficial veins of the upper limb",
+     "items": [
+      "Superficial dorsal venous network (arch)",
+      "Cephalic vein",
+      "Basilic vein",
+      "Median vein of the forearm",
+      "Median cubital vein"
+     ]
+    },
+    {
+     "of": "Deep veins of the upper limb",
+     "items": [
+      "Venae comitantes",
+      "Axillary vein"
+     ]
+    },
+    {
+     "of": "Lymph nodes of the upper limb",
+     "items": [
+      "Deep: axillary groups plus nodes in cubital fossa, arm and forearm",
+      "Superficial: supratrochlear (epitrochlear) and infraclavicular (deltopectoral)"
+     ]
+    },
+    {
+     "of": "Superficial lymph drainage",
+     "items": [
+      "Medial side of the wrist - along basilic vein to lateral axillary group (some to supratrochlear nodes)",
+      "Lateral side of the wrist - along cephalic vein to lateral (humeral) axillary group, few to apical group"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 253,
+     "caption": "Fig. 96: Superficial veins of the U.L",
+     "kind": "diagram"
+    },
+    {
+     "page": 254,
+     "caption": "Fig. 97: Superficial venous drainage of the upper limb (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 255,
+     "caption": "Fig. 98: Lymph vessels & nodes of upper limb",
+     "kind": "diagram"
+    },
+    {
+     "page": 256,
+     "caption": "Fig. 99: Direction of lymphatic drainage of the upper limb",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states the median cubital vein is the most prominent superficial vein in the body and is used for intravenous injection; the bicipital aponeurosis separates it from the brachial artery and median nerve lying deep to it.",
+    "The chapter ILOs promise the sites of intravenous injection commonly used and interpretation of faulty intravenous injection, but the text gives only the median cubital vein remark - no dedicated clinical section appears in the extracted text.",
+    "The chapter is titled 'Veins of the Upper Limb' in the running head but also carries the whole lymph drainage of the upper limb; the subject tree has no separate node for that."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries",
+   "bookTitle": "CUTANEOUS NERVE SUPPLY OF THE UPPER LIMB and NERVE INJURIES (Chapter 9)",
+   "startPage": 257,
+   "endPage": 269,
+   "found": true,
+   "keyPoints": [
+    "Cutaneous supply of the posterior side of the shoulder, axilla and upper arm is by the posterior cutaneous nerve of the arm from the radial nerve in the axilla, supplying the back of the arm from the deltoid tuberosity to the elbow.",
+    "The medial side is supplied by the intercostobrachial nerve (lateral cutaneous branch of the 2nd intercostal nerve) over the axillary floor and upper half of the medial arm, and the medial cutaneous nerve of the arm from the medial cord over the lower half of the medial arm.",
+    "The lateral side is supplied by the lateral supraclavicular nerve (C3, C4) over the upper half of deltoid, the upper lateral cutaneous nerve of the arm from the posterior branch of the axillary nerve over the lower half of deltoid, and the lower lateral cutaneous nerve of the arm from the radial nerve in the spiral groove over the lateral arm from the deltoid tuberosity to the elbow.",
+    "The forearm is supplied by the lateral cutaneous nerve (from the musculocutaneous) laterally front and back, the medial cutaneous nerve (from the medial cord) medially front and back, and the posterior cutaneous nerve (from the radial) over the middle posterior forearm.",
+    "In the palm the ulnar nerve supplies the medial third and the median nerve the lateral two-thirds, except the ball of the thumb which is supplied by the lateral cutaneous nerve of the forearm.",
+    "On the palmar surface of the fingers the ulnar supplies the medial one and a half and the median the lateral three and a half fingers plus their distal dorsal halves.",
+    "On the dorsum the ulnar supplies the medial third and the radial the lateral two-thirds; on the dorsal fingers the ulnar supplies the medial one and a half and the radial the lateral three and a half but only their proximal halves, the distal halves being supplied by the median.",
+    "The book notes that branches of the median nerve overlap the whole area of skin supplied by the superficial radial nerve except a triangular area on the dorsum of the web between thumb and index, which is supplied only by the superficial radial nerve.",
+    "Upper trunk injury (Duchenne-Erb's paralysis) may result from excessive displacement of the head to one side with depression of the shoulder on the other, causing excessive traction or tearing of the C5,6 roots; the book notes this may occur in infants during delivery as a birth injury.",
+    "Erb's paralysis produces the 'porter's tip deformity': the shoulder is adducted from paralysis of deltoid and supraspinatus and medially rotated from paralysis of infraspinatus and teres minor, the elbow is extended from paralysis of biceps and most of brachialis, and the forearm is pronated from paralysis of biceps; sensation is lost on the lateral side of the upper limb.",
+    "Lower trunk injury (Klumpke's paralysis) may result from excessive abduction of the arm with traction or tearing of the C8 and T1 roots - as in falling from a height clutching an object, or traction of an infant's arm during delivery - and also from a cervical rib or malignant lower deep cervical lymph nodes.",
+    "Because C8 and T1 fibres are mainly distributed through the ulnar nerve to the lumbricals and interossei, Klumpke's paralysis gives a claw hand with hyperextension of the metacarpophalangeal joints from the unopposed extensor digitorum and flexion of the interphalangeal joints from the unopposed flexor digitorum superficialis and profundus, plus loss of abduction and adduction of the fingers; sensation is lost on the medial side of arm and forearm, the medial third of the palm and the medial one and a half fingers.",
+    "Axillary nerve injury is frequent in dislocation of the shoulder joint, fracture of the surgical neck of the humerus and pressure of a badly adjusted crutch in the armpit; it gives impaired shoulder abduction and a flat shoulder from deltoid wasting, with a patch of sensory loss over the lower half of the deltoid.",
+    "Long thoracic nerve injury may occur during radical mastectomy and gives winging of the scapula, difficulty in protraction of the shoulder girdle and difficulty in raising the arm above the head.",
+    "Ulnar nerve injury may occur posterior to the medial epicondyle from fracture, dislocation or compression at the elbow; in the cubital tunnel formed by the tendinous arch connecting the humeral and ulnar heads of flexor carpi ulnaris; or at the wrist from cut or stab wounds.",
+    "Ulnar injury at the wrist gives partial claw hand - extension of the metacarpophalangeal joints of the 4th and 5th fingers with flexion of their interphalangeal joints from paralysis of their lumbricals and interossei, the 2nd and 3rd fingers being less affected because their lumbricals are median-supplied.",
+    "Ulnar injury at the wrist also gives loss of abduction and adduction of the fingers so the patient cannot grip paper placed between the fingers, loss of adduction of the thumb from paralysis of adductor pollicis so paper cannot be gripped between thumb and index, flattening of the hypothenar eminence and hollowing between the metacarpals on the dorsum.",
+    "Ulnar injury above or at the elbow makes the clawing less apparent in the 4th and 5th fingers because the medial half of flexor digitorum profundus is also paralysed, and adds radial deviation of the hand from paralysis of flexor carpi ulnaris; sensory loss then covers the medial third of the palm, the medial one and a half fingers front and back, and the medial third of the back of the hand.",
+    "Median nerve injury above the elbow may follow supracondylar fracture of the humerus; pronator syndrome is entrapment near the elbow between the two heads of pronator teres from trauma, muscular hypertrophy or fibrous bands; at the wrist it may follow cut or stab wounds or carpal tunnel syndrome.",
+    "Median injury at the wrist gives the ape (monkey's) hand deformity: wasting of the thenar muscles with flattening of the thenar eminence, loss of opposition of the thumb, lateral rotation of the thumb so the 1st metacarpal becomes parallel to the others from loss of opponens tone, and adduction of the thumb because adductor pollicis is intact while the abductor is paralysed.",
+    "Sensory loss in median injury at the wrist covers the lateral three and a half fingers palmar and distal dorsal aspects; if the palmar cutaneous branch is included, also the lateral two-thirds of the palm; in carpal tunnel syndrome there is paraesthesia just over the lateral three and a half fingers.",
+    "Median injury above the elbow adds to the ape hand: loss of pronation from paralysis of both pronators, ulnar deviation from paralysis of flexor carpi radialis, weak flexion of the wrist from paralysis of most of its flexors, loss of flexion of the index and middle phalanges (pointing fingers - these fingers remain straight when making a fist) from paralysis of flexor digitorum superficialis and the lateral half of profundus, and loss of flexion of all joints of the thumb from paralysis of flexor pollicis longus and brevis.",
+    "Radial nerve injury may follow fracture of the shaft of the humerus in the spiral groove, pressure of a badly adjusted crutch in the armpit, or a drunkard falling asleep with one arm over the back of a chair (Saturday night palsy); the posterior interosseous nerve may be injured in fracture of the head, neck or upper shaft of the radius or downward dislocation of the radial head.",
+    "Radial nerve injury above the elbow gives wrist drop and finger drop from paralysis of all extensors of wrist and fingers, which is very disabling because a firm grip is impossible while the wrist is flexed; it also impairs extension of the elbow against resistance from triceps affection and causes failure of supination of the extended forearm.",
+    "In posterior interosseous nerve injury there is only finger drop without wrist drop, because the intact extensor carpi radialis longus alone can maintain extension of the wrist.",
+    "Radial sensory effects vary with the level of injury: a patch of sensory loss over the lower half of deltoid; a small area of complete sensory loss on the dorsum of the hand between the 1st and 2nd metacarpals, restricted because of overlap by adjacent nerves; and paraesthesia over the posterior surface of arm and forearm, the lower lateral side of the arm, the lateral two-thirds of the dorsum of the hand and the posterior surfaces of the proximal phalanges of the lateral three and a half fingers."
+   ],
+   "definitions": [
+    {
+     "term": "Duchenne-Erb's paralysis",
+     "text": "Upper trunk (C5,6) injury of the brachial plexus producing the porter's tip deformity."
+    },
+    {
+     "term": "Porter's tip deformity",
+     "text": "The posture in Erb's paralysis: shoulder adducted and medially rotated, elbow extended, forearm pronated."
+    },
+    {
+     "term": "Klumpke's paralysis",
+     "text": "Lower trunk (C8, T1) injury of the brachial plexus producing claw hand."
+    },
+    {
+     "term": "Claw hand",
+     "text": "Hyperextension of the metacarpophalangeal joints with flexion of the interphalangeal joints from paralysis of lumbricals and interossei."
+    },
+    {
+     "term": "Saturday night palsy",
+     "text": "Radial nerve injury in the axilla from a drunkard falling asleep with one arm over the back of a chair."
+    },
+    {
+     "term": "Ape (monkey's) hand",
+     "text": "Median nerve deformity: wasted thenar eminence, thumb laterally rotated and adducted with loss of opposition."
+    },
+    {
+     "term": "Pronator syndrome",
+     "text": "Entrapment of the median nerve near the elbow between the two heads of pronator teres."
+    },
+    {
+     "term": "Pointing fingers",
+     "text": "Sign in high median injury where the index and middle fingers remain straight when making a fist."
+    }
+   ],
+   "numbers": [
+    "Erb's paralysis involves C5,6 roots",
+    "Klumpke's paralysis involves C8 and T1 roots",
+    "Lateral supraclavicular nerve C3, C4",
+    "Ulnar supplies medial 1/3 of palm and medial 1.5 fingers",
+    "Median supplies lateral 2/3 of palm and lateral 3.5 fingers",
+    "Radial supplies lateral 2/3 of the dorsum of the hand",
+    "Partial claw hand affects the 4th and 5th fingers",
+    "6 nerve injury syndromes covered"
+   ],
+   "classifications": [
+    {
+     "of": "Cutaneous nerves of shoulder, axilla and upper arm",
+     "items": [
+      "Posterior: posterior cutaneous nerve of the arm (radial)",
+      "Medial: intercostobrachial nerve; medial cutaneous nerve of the arm",
+      "Lateral: lateral supraclavicular nerve; upper lateral cutaneous nerve of the arm; lower lateral cutaneous nerve of the arm"
+     ]
+    },
+    {
+     "of": "Cutaneous nerves of the forearm",
+     "items": [
+      "Lateral cutaneous nerve (musculocutaneous) - lateral forearm front and back",
+      "Medial cutaneous nerve (medial cord) - medial forearm front and back",
+      "Posterior cutaneous nerve (radial) - middle posterior forearm"
+     ]
+    },
+    {
+     "of": "Nerve injuries covered",
+     "items": [
+      "Upper trunk injury (Duchenne-Erb's paralysis)",
+      "Lower trunk injury (Klumpke's paralysis)",
+      "Axillary nerve injury",
+      "Long thoracic nerve injury",
+      "Ulnar nerve injury",
+      "Median nerve injury",
+      "Radial nerve injury"
+     ]
+    },
+    {
+     "of": "Causes of ulnar nerve injury",
+     "items": [
+      "Posterior to the medial epicondyle: fracture, dislocation or compression at the elbow",
+      "Cubital tunnel compression",
+      "At the wrist: cut or stab wounds"
+     ]
+    },
+    {
+     "of": "Causes of median nerve injury",
+     "items": [
+      "Supracondylar fracture of the humerus",
+      "Pronator syndrome",
+      "Cut or stab wounds at the wrist",
+      "Carpal tunnel syndrome"
+     ]
+    },
+    {
+     "of": "Causes of radial nerve injury",
+     "items": [
+      "Fracture of the shaft of the humerus in the spiral groove",
+      "Crutch pressure in the axilla",
+      "Saturday night palsy",
+      "Posterior interosseous injury from radial head/neck/shaft fracture or dislocation"
+     ]
+    },
+    {
+     "of": "Signs of median nerve injury above the elbow",
+     "items": [
+      "Loss of pronation",
+      "Ulnar deviation",
+      "Weak flexion of the wrist",
+      "Loss of flexion of index and middle phalanges (pointing fingers)",
+      "Loss of flexion of all joints of the thumb"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 258,
+     "caption": "Fig. 100: cutaneous innervation of the upper limb (anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 258,
+     "caption": "Fig. 101: cutaneous innervation of the upper limb (posterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 259,
+     "caption": "Fig. 102: cutaneous nerve supply of the hand",
+     "kind": "diagram"
+    },
+    {
+     "page": 260,
+     "caption": "Fig. 103: Anterior view of Upper limb - segmental (dermatome) nerve supply",
+     "kind": "diagram"
+    },
+    {
+     "page": 260,
+     "caption": "Fig. 104: Posterior view of upper limb - segmental (dermatome) nerve supply",
+     "kind": "diagram"
+    },
+    {
+     "page": 261,
+     "caption": "Fig. 105: showing Erb's paralysis 'Porter's tip deformity' of left upper limb",
+     "kind": "diagram"
+    },
+    {
+     "page": 262,
+     "caption": "Fig. 106: (A & B) showing excessive abduction of the upper limb and (C) showing Claw Hand deformity",
+     "kind": "diagram"
+    },
+    {
+     "page": 263,
+     "caption": "Fig. 107: axillary nerve injury",
+     "kind": "diagram"
+    },
+    {
+     "page": 263,
+     "caption": "Fig. 108: long thoracic nerve injury",
+     "kind": "diagram"
+    },
+    {
+     "page": 264,
+     "caption": "Fig. 109: Claw Hand deformity at wrist & at elbow",
+     "kind": "diagram"
+    },
+    {
+     "page": 265,
+     "caption": "Fig. 110: Sensory loss in ulnar nerve palsy",
+     "kind": "diagram"
+    },
+    {
+     "page": 265,
+     "caption": "Fig. 111: Loss of abduction & adduction in ulnar nerve palsy",
+     "kind": "diagram"
+    },
+    {
+     "page": 266,
+     "caption": "Fig. 112: median nerve palsy with ape hand deformity and atrophy of thenar muscles",
+     "kind": "diagram"
+    },
+    {
+     "page": 267,
+     "caption": "Fig. 113: motor & sensory losses in median nerve injury",
+     "kind": "diagram"
+    },
+    {
+     "page": 267,
+     "caption": "Signs of median nerve injury above the elbow - two-column table of sign and its cause",
+     "kind": "table"
+    },
+    {
+     "page": 268,
+     "caption": "Fig. 114: radial nerve course & injury",
+     "kind": "diagram"
+    },
+    {
+     "page": 269,
+     "caption": "Fig. 115: Area of pure sensory loss in radial nerve palsy",
+     "kind": "diagram"
+    },
+    {
+     "page": 269,
+     "caption": "Fig. 116: Areas of paresthesia of the upper limb in high-level injury of radial nerve",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "The whole second half of this chapter is clinical: seven named nerve injuries with their causes, motor deformities and sensory losses.",
+    "Book states Erb's paralysis may occur in infants during delivery as a birth injury, and Klumpke's paralysis may follow traction of an infant's arm during delivery, a fall from a height clutching an object, a cervical rib, or malignant lower deep cervical lymph nodes.",
+    "Book states long thoracic nerve injury may occur during radical mastectomy.",
+    "The 'SEGMENTAL NERVE SUPPLY OF UPPER LIMB' section on page 260 consists of two figures only - Figs. 103 and 104 - with no accompanying text, so the dermatome values themselves are carried entirely inside the images.",
+    "The chapter ILO promises the whole course and branches of radial, ulnar and median nerves, but those courses were given in the Arm and Forearm chapters; this chapter carries only the cutaneous distribution and the injuries."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Upper Limb > Joints of Upper Limb",
+   "bookTitle": "JOINTS OF THE UPPER LIMB (Chapter 10)",
+   "startPage": 270,
+   "endPage": 291,
+   "found": true,
+   "keyPoints": [
+    "The acromio-clavicular joint is a synovial joint of the plane variety between the acromial end of the clavicle and the medial margin of the acromion; it usually contains an articular disc dividing its cavity into two incomplete compartments, and its capsule is strengthened above by the acromio-clavicular ligament.",
+    "The acromio-clavicular joint shares a little in the movements of the shoulder girdle and in transmitting forces from the upper limb to the clavicle, but the main medium transmitting those forces is the coraco-clavicular ligament.",
+    "The coraco-clavicular ligament is a very strong bond connecting the clavicle with the coracoid process, in two incompletely separated parts: a quadrilateral trapezoid part forming the anterolateral portion, attached below to the upper surface of the coracoid process and above to the trapezoid line on the lower surface of the lateral third of the clavicle; and a conoid part forming the posteromedial portion, a dense band attached below to the upper and posterior aspect of the bend of the coracoid process and above to the conoid tubercle of the clavicle.",
+    "The coraco-clavicular ligament limits the movements of the acromio-clavicular joint, prevents dislocation of the acromial end of the clavicle, and is the main medium by which the scapula and the upper limb are suspended from the clavicle.",
+    "The sterno-clavicular joint is a synovial modified saddle joint between the clavicular notch of the manubrium sterni with the first costal cartilage and the sternal end of the clavicle.",
+    "Its intra-articular disc is a flat circular fibrocartilaginous disc attached by its circumference to the fibrous capsule, dividing the joint into two separate cavities; it absorbs the forces transmitted from the shoulder region through the clavicle and prevents dislocation of the sternal end of the clavicle.",
+    "The capsule of the sterno-clavicular joint surrounds it completely, thicker in front and behind and thin above and below.",
+    "Its ligaments are the anterior and posterior sterno-clavicular ligaments, the interclavicular ligament passing from the upper aspect of one clavicle's sternal end to the other across and attached to the upper margin of the manubrium, and the costo-clavicular ligament.",
+    "The costo-clavicular ligament is attached below to the upper aspect of the 1st costo-chondral junction and above to the margins of the impression on the lower surface of the medial end of the clavicle; it prevents excessive elevation and protraction of the clavicle, the same function as subclavius which acts as a dynamic ligament.",
+    "The sterno-clavicular joint is stable, its strength depending on its ligaments and the intra-articular disc.",
+    "Movements of the shoulder girdle occur at both the acromio-clavicular and sterno-clavicular joints; the scapula moves on the clavicle at the acromio-clavicular joint but movement there is limited, while movement at the sterno-clavicular joint increases the range of scapular movement.",
+    "Shoulder girdle elevation is by the upper fibres of trapezius, levator scapulae and both rhomboids; depression by pectoralis minor and the inferior fibres of trapezius.",
+    "Upward rotation (glenoid cavity facing upwards) is by the upper and lower fibres of trapezius with serratus anterior; downward rotation by levator scapulae and both rhomboids.",
+    "Protraction is by serratus anterior and pectoralis minor; retraction by the middle fibres of trapezius and both rhomboids.",
+    "The shoulder joint is a synovial polyaxial (ball and socket) joint between the head of the humerus and the glenoid cavity deepened by the labrum glenoidale.",
+    "The labrum glenoidale is a fibrocartilaginous rim whose base is fixed to the circumference of the glenoid cavity; it deepens and widens the articular socket and protects the edges of the glenoid cavity.",
+    "The fibrous capsule is attached medially to the circumference of the glenoid cavity beyond the labrum, extending above onto the root of the coracoid process to include the supraglenoid tubercle inside the capsule; laterally to the anatomical neck of the humerus except below, where it descends onto the medial side of the surgical neck.",
+    "The capsule has two to three perforations: an anterior one through which the synovial membrane communicates with the subscapular bursa, an antero-lateral one for the tendon of the long head of biceps, and an inconstant posterior one which may communicate with the bursa deep to the infraspinatus tendon.",
+    "The synovial membrane lines the fibrous capsule and is reflected over the intracapsular non-articular bony parts, is continuous with the subscapular bursa through the anterior perforation, and envelops the tendon of the long head of biceps as a tubular sheath emerging through the lateral perforation.",
+    "Intracapsular structures of the shoulder joint: the tendon of the long head of biceps, the head of the humerus and the medial part of its surgical neck, the labrum glenoidale, the glenoid cavity with the supraglenoid tubercle, and the synovial membrane.",
+    "Shoulder joint ligaments: three weak gleno-humeral ligaments strengthening the anterior capsule from the anterior margin of the glenoid cavity to the lesser tuberosity and anatomical neck; the stronger coraco-humeral ligament strengthening the upper capsule from the coracoid process to the upper border of the greater tuberosity; the transverse humeral ligament, a broad band from lesser to greater tuberosity converting the intertubercular groove into a canal and acting as a retinaculum for the long head of biceps; and the coraco-acromial ligament.",
+    "Bursae related to the shoulder joint: the subscapular bursa deep to subscapularis between it and the front of the capsule; a bursa deep to the infraspinatus tendon behind the capsule; the subacromial bursa between deltoid and the capsule, prolonged under the acromion separating it from the supraspinatus tendon and not communicating with the joint cavity; a bursa between the coracoid process and the capsule; and a subcutaneous bursa on the upper surface of the acromion.",
+    "The shoulder joint is weak, unstable and easily dislocated because the fitting of its bony parts is poor - a very large humeral head against a small shallow glenoid cavity - because the capsule and its ligaments are weak and lax, and because the capsule is not directly supported by any muscle from below.",
+    "The joint is supported above by the tendons of supraspinatus and the long head of biceps, in front by subscapularis and behind by infraspinatus and teres minor; the tendons of supraspinatus, subscapularis, infraspinatus and teres minor form the rotator muscle cuff which reinforces the capsule and provides active support during movement, while deltoid covers the joint in front, behind and laterally.",
+    "Below, the joint has no muscular support: the capsule is lax and forms a fold bulging downwards into the upper part of the axilla, directly related to the axillary nerve and posterior circumflex humeral artery, and stretched when the arm is fully abducted; the long head of triceps supports the capsule from below only when the arm is abducted.",
+    "The joint is protected from above by the coraco-acromial arch: the strong flat triangular coraco-acromial ligament, with its apex attached to the tip of the acromion and its base to the lateral margin of the upper surface of the coracoid process, together with the two processes forms an arch immediately above the joint acting as a secondary socket for the humeral head.",
+    "Shoulder flexion is by the clavicular head of pectoralis major, the anterior fibres of deltoid and coracobrachialis, assisted by the long head of biceps; extension by the posterior fibres of deltoid, teres major and latissimus dorsi, with the sternocostal head of pectoralis major extending the flexed arm.",
+    "Shoulder abduction is by supraspinatus and the middle (acromial) fibres of deltoid; adduction by pectoralis major, teres major, latissimus dorsi, coracobrachialis, subscapularis, infraspinatus and teres minor.",
+    "Medial rotation is by pectoralis major, teres major, latissimus dorsi, the anterior fibres of deltoid and subscapularis; lateral rotation by infraspinatus, the posterior fibres of deltoid and teres minor; circumduction is a combination of all these.",
+    "Mechanism of abduction: supraspinatus initiates abduction through the first small range, the middle (acromial) fibres of deltoid continue it to about a right angle, after which the head cannot move further because the greater tuberosity impinges on the coraco-acromial ligament; raising the arm above the head is then achieved by the scapula rotating over the chest wall so the glenoid cavity faces upwards, done by the upper and lower fibres of trapezius with the lower five digitations of serratus anterior.",
+    "The book states that during abduction of the arm there are simultaneous movements of the shoulder joint and shoulder girdle in a fixed ratio, continuing until the whole remaining movement takes place by upward rotation of the scapula.",
+    "The elbow joint is a synovial uniaxial (hinge) joint; proximally the condyle of the humerus (trochlea and capitulum), distally the trochlear notch of the ulna and the head of the radius, the trochlea articulating with the trochlear notch and the capitulum with the upper circular surface of the radial head.",
+    "The elbow capsule is attached above and in front to the humerus just above the coronoid and radial fossae extending to the roots of the epicondyles, above and behind just above the olecranon fossa, and below to the margins of the olecranon and the annular ligament encircling the radial head.",
+    "The elbow and the superior radio-ulnar joint have a common capsule; the capsule is thin in front and behind but thick on each side because of the strong collateral ligaments.",
+    "The medial (ulnar) collateral ligament is fan-shaped, attached above to the medial epicondyle and below to the medial margin of the trochlear notch, and prevents abduction of the elbow; the lateral (radial) collateral ligament is a strong triangular ligament attached by its apex to the lateral epicondyle and by its base to the outer surface of the annular ligament, and prevents adduction.",
+    "Elbow extension is by triceps assisted by anconeus; flexion mainly by brachialis and biceps, assisted by brachioradialis and the superficial flexors of the forearm.",
+    "The superior radio-ulnar joint is a synovial uniaxial (pivot) joint in which the circumference of the head of the radius rotates against the radial notch of the ulna; its capsule is continuous above with that of the elbow joint and their joint spaces are continuous, and its synovial membrane is a downward prolongation of the elbow's.",
+    "The annular ligament is attached to the anterior and posterior borders of the radial notch of the ulna and encircles the head of the radius; it is slightly narrower below than above, which prevents the head of the radius from being dislocated downwards.",
+    "The quadrate ligament is a quadrangular band connecting the lower margin of the radial notch of the ulna to the medial aspect of the neck of the radius, lying just below the joint and closing its cavity from below.",
+    "The inferior radio-ulnar joint is a synovial uniaxial (pivot) joint between the head of the ulna, the ulnar notch of the radius and the articular disc.",
+    "The articular disc is a fibrocartilaginous triangular disc attached by its apex into a depression between the styloid process and the inferior surface of the ulnar head; it separates the cavity of the inferior radio-ulnar joint from that of the wrist joint.",
+    "The capsule of the inferior radio-ulnar joint is slightly thickened anteriorly and posteriorly and lax above to allow the wide movement of pronation; its synovial membrane projects upwards as a small pouch, the recessus sacciformis, between radius and ulna in front of the interosseous membrane.",
+    "Pronation and supination occur at the superior and inferior radio-ulnar joints around a vertical axis passing from the centre of the head of the radius above to the rough impression of the head of the ulna below, at the attachment of the apex of the articular disc.",
+    "Mechanism: the head of the radius rotates within the ring formed by the radial notch and the annular ligament; the shaft of the radius swings while the shaft of the ulna stays relatively fixed; at the inferior joint the lower end of the radius and the articular disc rotate around the head of the ulna, carrying the hand, in a circle centred on the attachment of the apex of the disc to the root of the ulnar styloid process.",
+    "In supination the radius and ulna lie parallel, the palm faces forwards, the thumb is directed laterally and the interosseous membrane is tense.",
+    "In pronation the shaft of the radius lies across the front of the shaft of the ulna so its lower end lies medial to the ulna, the hand moves with the radius so the palm looks backwards, the thumb is directed medially, the interosseous membrane becomes lax and the carrying angle at the elbow disappears.",
+    "Supinators are biceps - the main supinator of the flexed elbow - and supinator, plus brachioradialis which puts the forearm in the midprone position; pronators are pronator teres and pronator quadratus, plus brachioradialis in the same midprone role.",
+    "The book states supinators are in general more powerful than pronators, that biceps is the most powerful supinator during elbow flexion, and that supinator is the main supinator during elbow extension.",
+    "The interosseous membrane joins radius and ulna, attached laterally to the interosseous border of the radius, medially to that of the ulna, ending above at a free border below the radial tuberosity and blending below with the capsule of the inferior radio-ulnar joint; its fibres run obliquely downwards and medially from radius to ulna.",
+    "The interosseous membrane increases the area, front and back, for the origin of forearm muscles - flexor pollicis longus and flexor digitorum profundus from its anterior surface, and abductor pollicis longus, extensor pollicis longus, extensor pollicis brevis and extensor indicis from its posterior surface - and, by the direction of its fibres, transmits forces received by the radius from the hand upwards to the humerus.",
+    "The wrist joint is a synovial biaxial (ellipsoid) joint; its proximal articular surface has an ellipsoid outline slightly concave in both directions, formed by the inferior surface of the lower end of the radius - a lateral triangular part for the scaphoid and a medial quadrilateral part for the lunate - and the articular disc of the inferior radio-ulnar joint below the head of the ulna.",
+    "The distal articular surface is formed by the scaphoid, lunate and triquetral from lateral to medial, together forming an oval surface convex in all directions; the scaphoid and lunate lie below the radius and the triquetral below the articular disc.",
+    "The ulna does not come into direct contact with the carpal bones and does not share in the wrist joint because of the articular disc, so the wrist joint is called the radio-carpal joint.",
+    "Wrist ligaments: the radial collateral ligament from the tip of the radial styloid to the lateral side of scaphoid and trapezium; the ulnar collateral ligament from the end of the ulnar styloid to the medial side of triquetral and pisiform; the palmar radiocarpal ligament running obliquely and medially from the anterior margin of the lower end of the radius and its styloid to the anterior surface of scaphoid, lunate and triquetral; the palmar ulnocarpal ligament from the base of the ulnar styloid and the anterior margin of the disc to the anterior surface of lunate and triquetral; and the dorsal radiocarpal ligament running downwards and medially to the dorsal surfaces of the same three bones, weaker than the palmar one.",
+    "Wrist flexion is by flexor carpi radialis, flexor carpi ulnaris, palmaris longus, flexor digitorum superficialis and profundus and flexor pollicis longus; extension by extensor carpi radialis longus and brevis, extensor carpi ulnaris, extensor digitorum, extensor indicis and extensor digiti minimi.",
+    "Wrist adduction is by flexor carpi ulnaris and extensor carpi ulnaris; abduction by extensor carpi radialis longus and brevis, flexor carpi radialis, abductor pollicis longus and extensor pollicis brevis.",
+    "Relations of the wrist joint: anteriorly the flexor retinaculum and the structures passing both deep and superficial to it; posteriorly the extensor retinaculum and the structures deep to it; postero-laterally the anatomical snuffbox.",
+    "The mid-carpal joint is a synovial modified ellipsoid joint between the proximal row of carpal bones as one unit and the distal row as the second, with a common capsule and common joint cavity; the carpal bones are held together by strong interosseous ligaments and its movements are complementary to those of the wrist but much more limited.",
+    "The carpo-metacarpal joint of the thumb is a synovial biaxial saddle joint between the superior surface of the trapezium and the base of the 1st metacarpal, each articular surface being concavo-convex.",
+    "It is relatively freely mobile because the 1st metacarpal lies at a right angle to the plane of the palm and the fibrous capsule is loose; flexion and extension occur parallel to the palm, abduction and adduction at right angles to the palm, and opposition is flexion plus medial rotation.",
+    "The carpo-metacarpal joints of the medial four fingers are synovial plane joints with minimal gliding movement; the little finger has an opponens muscle which can move its metacarpal forwards and laterally towards the thumb, helping to cup the hand.",
+    "The metacarpo-phalangeal joints are synovial ellipsoid joints between the convex heads of the metacarpals and the shallow concavities of the bases of the proximal phalanges; that of the thumb is classified as hinge because abduction and adduction are restricted there.",
+    "At the metacarpo-phalangeal joints of the medial four fingers, flexion is by lumbricals, interossei and flexor digitorum superficialis and profundus; extension by extensor digitorum, extensor indicis and extensor digiti minimi; adduction by the palmar interossei; abduction by the dorsal interossei.",
+    "The book states abduction and adduction at the metacarpo-phalangeal joints are free when the fingers are extended but become gradually limited as the fingers flex, becoming impossible when the hand is completely closed.",
+    "At the metacarpo-phalangeal joint of the thumb, flexion is by flexor pollicis longus and brevis and extension by extensor pollicis longus and brevis, with abduction and adduction very much restricted.",
+    "The interphalangeal joints are synovial uniaxial (hinge) joints allowing flexion and extension only; in the medial four fingers flexion is by flexor digitorum profundus and flexor digitorum superficialis (the latter acting only on the proximal interphalangeal joint), and extension by lumbricals, interossei, extensor digitorum, extensor indicis and extensor digiti minimi; in the thumb flexion is by flexor pollicis longus and extension by extensor pollicis longus."
+   ],
+   "definitions": [
+    {
+     "term": "Coraco-clavicular ligament",
+     "text": "Very strong bond connecting the clavicle with the coracoid process of the scapula, in trapezoid and conoid parts; the main medium by which the scapula and upper limb are suspended from the clavicle."
+    },
+    {
+     "term": "Costo-clavicular ligament",
+     "text": "Ligament from the 1st costo-chondral junction to the lower surface of the medial end of the clavicle, preventing excessive elevation and protraction of the clavicle."
+    },
+    {
+     "term": "Labrum glenoidale",
+     "text": "Fibrocartilaginous rim fixed to the circumference of the glenoid cavity, deepening and widening the articular socket and protecting its edges."
+    },
+    {
+     "term": "Rotator muscle cuff",
+     "text": "The tendons of supraspinatus, subscapularis, infraspinatus and teres minor, intimately related to the fibrous capsule, reinforcing it and providing active support during movement."
+    },
+    {
+     "term": "Coraco-acromial arch",
+     "text": "The coraco-acromial ligament with the coracoid and acromion processes, forming a secondary socket immediately above the shoulder joint supporting the head of the humerus from above."
+    },
+    {
+     "term": "Subacromial bursa",
+     "text": "Bursa between deltoid and the capsule of the shoulder joint, prolonged under the acromion separating it from the supraspinatus tendon; it does not communicate with the joint cavity."
+    },
+    {
+     "term": "Annular ligament",
+     "text": "Ligament attached to the anterior and posterior borders of the radial notch of the ulna encircling the head of the radius, narrower below than above so preventing downward dislocation of the radial head."
+    },
+    {
+     "term": "Quadrate ligament",
+     "text": "Quadrangular band connecting the lower margin of the radial notch of the ulna to the medial aspect of the neck of the radius, closing the joint cavity from below."
+    },
+    {
+     "term": "Recessus sacciformis",
+     "text": "Small upward pouch of the synovial membrane of the inferior radio-ulnar joint between radius and ulna in front of the interosseous membrane."
+    },
+    {
+     "term": "Radio-carpal joint",
+     "text": "Alternative name for the wrist joint, so called because the ulna does not share in its formation."
+    },
+    {
+     "term": "Mid-carpal joint",
+     "text": "Synovial modified ellipsoid joint between the proximal and distal rows of carpal bones, each acting as one unit."
+    }
+   ],
+   "numbers": [
+    "Acromio-clavicular joint: synovial, plane variety",
+    "Sterno-clavicular joint: synovial, modified saddle",
+    "Shoulder joint capsule descends half an inch onto the medial side of the surgical neck",
+    "2-3 perforations in the shoulder joint capsule",
+    "5 bursae related to the shoulder joint",
+    "3 gleno-humeral ligaments",
+    "5 intracapsular structures of the shoulder joint",
+    "Supraspinatus initiates abduction from 0 to 15 or 18 degrees",
+    "Deltoid continues abduction to 90 or 100 degrees",
+    "Raising the arm above the head from 90 to 180 degrees is scapular rotation",
+    "Every 10 degrees of shoulder abduction adds 5 degrees of scapular upward rotation, until 90 degrees",
+    "Annular ligament is about 3/4 of a circle",
+    "Interosseous membrane free border 2.5 cm below the radial tuberosity",
+    "Wrist proximal articular surface: transverse diameter about 5 cm, antero-posterior about 2 cm",
+    "5 wrist ligaments",
+    "Fingers flex 90 degrees at the metacarpo-phalangeal joints",
+    "Thumb metacarpo-phalangeal joint allows only 60 degrees of flexion and extension",
+    "1st metacarpal lies at 90 degrees to the plane of the palm"
+   ],
+   "classifications": [
+    {
+     "of": "Joints of the shoulder girdle",
+     "items": [
+      "Acromio-clavicular joint",
+      "Sterno-clavicular joint"
+     ]
+    },
+    {
+     "of": "Parts of the coraco-clavicular ligament",
+     "items": [
+      "Trapezoid part (anterolateral)",
+      "Conoid part (posteromedial)"
+     ]
+    },
+    {
+     "of": "Ligaments of the sterno-clavicular joint",
+     "items": [
+      "Anterior sterno-clavicular ligament",
+      "Posterior sterno-clavicular ligament",
+      "Interclavicular ligament",
+      "Costo-clavicular ligament"
+     ]
+    },
+    {
+     "of": "Movements of the shoulder girdle",
+     "items": [
+      "Elevation: upper trapezius, levator scapulae, rhomboids",
+      "Depression: pectoralis minor, inferior trapezius",
+      "Upward rotation: upper and lower trapezius, serratus anterior",
+      "Downward rotation: levator scapulae, rhomboids",
+      "Protraction: serratus anterior, pectoralis minor",
+      "Retraction: middle trapezius, rhomboids"
+     ]
+    },
+    {
+     "of": "Perforations of the shoulder joint capsule",
+     "items": [
+      "Anterior - to the subscapular bursa",
+      "Lateral (antero-lateral) - tendon of long head of biceps",
+      "Posterior (not constant) - bursa deep to infraspinatus"
+     ]
+    },
+    {
+     "of": "Intracapsular structures of the shoulder joint",
+     "items": [
+      "Tendon of long head of biceps",
+      "Head of humerus and medial part of surgical neck",
+      "Labrum glenoidale",
+      "Glenoid cavity and supraglenoid tubercle",
+      "Synovial membrane"
+     ]
+    },
+    {
+     "of": "Ligaments of the shoulder joint",
+     "items": [
+      "Three gleno-humeral ligaments (weak)",
+      "Coraco-humeral ligament (stronger)",
+      "Transverse humeral ligament",
+      "Coraco-acromial ligament"
+     ]
+    },
+    {
+     "of": "Bursae related to the shoulder joint",
+     "items": [
+      "Subscapular bursa",
+      "Bursa deep to the infraspinatus tendon",
+      "Subacromial bursa",
+      "Bursa between coracoid process and capsule",
+      "Subcutaneous bursa on the upper surface of the acromion"
+     ]
+    },
+    {
+     "of": "Muscular support of the shoulder joint",
+     "items": [
+      "Above: supraspinatus and long head of biceps",
+      "In front: subscapularis",
+      "Behind: infraspinatus and teres minor",
+      "Below: none (lax capsular fold related to axillary nerve and posterior circumflex humeral artery)"
+     ]
+    },
+    {
+     "of": "Ligaments of the elbow joint",
+     "items": [
+      "Medial (ulnar) collateral ligament - prevents abduction",
+      "Lateral (radial) collateral ligament - prevents adduction"
+     ]
+    },
+    {
+     "of": "Radio-ulnar joints",
+     "items": [
+      "Superior radio-ulnar joint (pivot)",
+      "Inferior radio-ulnar joint (pivot)",
+      "Interosseous membrane (fibrous union)"
+     ]
+    },
+    {
+     "of": "Ligaments of the superior radio-ulnar joint",
+     "items": [
+      "Annular ligament",
+      "Quadrate ligament"
+     ]
+    },
+    {
+     "of": "Muscles working on the radio-ulnar joints",
+     "items": [
+      "Supinators: biceps, supinator, brachioradialis (midprone)",
+      "Pronators: pronator teres, pronator quadratus, brachioradialis (midprone)"
+     ]
+    },
+    {
+     "of": "Muscles arising from the interosseous membrane",
+     "items": [
+      "Anterior surface: flexor pollicis longus, flexor digitorum profundus",
+      "Posterior surface: abductor pollicis longus, extensor pollicis longus, extensor pollicis brevis, extensor indicis"
+     ]
+    },
+    {
+     "of": "Ligaments of the wrist joint",
+     "items": [
+      "Radial collateral ligament",
+      "Ulnar collateral ligament",
+      "Palmar radiocarpal ligament",
+      "Palmar ulnocarpal ligament",
+      "Dorsal radiocarpal ligament"
+     ]
+    },
+    {
+     "of": "Movements of the carpo-metacarpal joint of the thumb",
+     "items": [
+      "Flexion (parallel to the palm)",
+      "Extension (parallel to the palm)",
+      "Abduction (at right angle to the palm)",
+      "Adduction (at right angle to the palm)",
+      "Opposition (flexion + medial rotation)",
+      "Circumduction"
+     ]
+    },
+    {
+     "of": "Joints of the hand covered",
+     "items": [
+      "Mid-carpal joint",
+      "Carpo-metacarpal joint of the thumb",
+      "Carpo-metacarpal joints of the medial four fingers",
+      "Metacarpo-phalangeal joints",
+      "Interphalangeal joints"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 270,
+     "caption": "Fig. 117: Anterior view of acromioclavicular joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 272,
+     "caption": "Fig. 118: sternoclavicular joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 272,
+     "caption": "Fig. 119: ligaments of sternoclavicular joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 273,
+     "caption": "Fig. 120: upward & downward rotation of scapula",
+     "kind": "diagram"
+    },
+    {
+     "page": 274,
+     "caption": "Fig. 121: articular surfaces of shoulder joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 274,
+     "caption": "Fig. 122: Perforations of the capsule of shoulder joint (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 275,
+     "caption": "Fig. 123: ligaments of shoulder joint, with the gleno-humeral ligaments labelled",
+     "kind": "diagram"
+    },
+    {
+     "page": 276,
+     "caption": "Fig. 124: bursae related to shoulder joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 279,
+     "caption": "Fig. 125: Articular surfaces of elbow joint (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 279,
+     "caption": "Fig. 126: Attachments of capsule of elbow joint (Anterior view), with the line of attachment and the superior radio-ulnar joint labelled",
+     "kind": "diagram"
+    },
+    {
+     "page": 279,
+     "caption": "Fig. 127: Attachments of capsule of elbow joint (Posterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 280,
+     "caption": "Fig. 128: Radial collateral ligament of elbow joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 280,
+     "caption": "Fig. 129: Ulnar collateral ligament of elbow joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 281,
+     "caption": "Fig. 130: Superior radioulnar joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 282,
+     "caption": "Fig. 131: Inferior radioulnar joint, with the recessus sacciformis labelled",
+     "kind": "diagram"
+    },
+    {
+     "page": 283,
+     "caption": "Fig. 132: Movements of radioulnar joints (Anterior view), showing the axis of movement, supination and pronation",
+     "kind": "diagram"
+    },
+    {
+     "page": 284,
+     "caption": "Fig. 133: Interosseous membrane (Anterior view), labelling head of radius, biceps tendon, oblique cord, radius, ulna and interosseous membrane",
+     "kind": "diagram"
+    },
+    {
+     "page": 285,
+     "caption": "Fig. 134: Wrist joint (Opened) showing articular surfaces (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 286,
+     "caption": "Fig. 135: Ligaments of wrist joint (Anterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 286,
+     "caption": "Fig. 136: Ligaments of wrist joint (Posterior view)",
+     "kind": "diagram"
+    },
+    {
+     "page": 288,
+     "caption": "Fig. 137: joints of the hand (coronal section)",
+     "kind": "diagram"
+    },
+    {
+     "page": 289,
+     "caption": "Fig. 138: carpo-metacarpal joint of thumb",
+     "kind": "diagram"
+    },
+    {
+     "page": 289,
+     "caption": "Movements of the carpo-metacarpal joint of the thumb - table of movement, plane and muscles involved",
+     "kind": "table"
+    },
+    {
+     "page": 289,
+     "caption": "Fig. 139: Movements of the thumb at the carpo-metacarpal joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 290,
+     "caption": "Fig. 140: Movements of the thumb at the metacarpo-phalangeal joints",
+     "kind": "diagram"
+    },
+    {
+     "page": 291,
+     "caption": "Fig. 141: the inter-phalangeal joints and its movements",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: if the clavicle is fractured medial to the attachment of the coraco-clavicular ligament, the upper limb drops.",
+    "Book states the lax inferior fold of the shoulder joint capsule bulges into the upper axilla directly related to the axillary nerve and the posterior circumflex humeral artery and is stretched when the arm is fully abducted - the anatomical basis of the axillary nerve injury in shoulder dislocation described in Chapter 9.",
+    "Book states abduction of the arm is arrested at the glenohumeral joint because the greater tuberosity impinges on the coraco-acromial ligament, after which further elevation is scapular rotation.",
+    "EXAM SCOPE: the department's orientation sheet declares the joints of the hand outside the examinable syllabus. Within this chapter that covers the mid-carpal joint, the carpo-metacarpal joints (thumb and medial four fingers), the metacarpo-phalangeal joints and the interphalangeal joints (physical pages 288-291). The shoulder girdle joints, shoulder joint, elbow joint, radio-ulnar joints, interosseous membrane and wrist joint on pages 270-287 remain in scope.",
+    "The chapter ILO promises interpretation of clinical problems from dislocation of each joint in relation to important nerves or arteries, but the only such note in the chapter text is the clavicle-fracture remark; the shoulder dislocation / axillary nerve link is made in the nerve injuries chapter instead."
    ]
   }
  ]

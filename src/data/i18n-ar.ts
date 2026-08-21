@@ -385,6 +385,84 @@ export const AR: Record<string, string> = {
   S: 'س',
 
   // ---- Study Together -------------------------------------------------------
+  // Fragments below ('person', 'people are', 'correct', 'open', 'timed') are
+  // concatenated into sentences in JSX. Arabic word order does not always fall
+  // the same way English's does, so each is translated to read acceptably in
+  // the position it is used rather than as a dictionary entry. Sentences that
+  // could be whole strings should become whole strings when that code is next
+  // touched — a fragment is a translation you cannot fully get right.
+  'Loading the shared test…': 'جارٍ تحميل الاختبار المشترك…',
+  'Who is in': 'من في الغرفة',
+  person: 'شخص',
+  people: 'أشخاص',
+  'person is': 'شخص',
+  'people are': 'أشخاص',
+  'still working. Their scores appear as they finish.': 'ما زالوا يعملون. تظهر نتائجهم عند انتهائهم.',
+  'Waiting to start': 'في انتظار البدء',
+  'Share this code so others can join': 'شارك هذا الرمز ليتمكن الآخرون من الانضمام',
+  timed: 'موقوت',
+  untimed: 'غير موقوت',
+  'Everyone answers the same set at their own pace, and results open once you finish.':
+    'يجيب الجميع على المجموعة نفسها بالوتيرة التي تناسبهم، وتظهر النتائج بمجرد انتهائك.',
+  'Start the test': 'ابدأ الاختبار',
+  'Waiting for the host to start.': 'في انتظار أن يبدأ المضيف.',
+  Leave: 'مغادرة',
+  'Review answers': 'مراجعة الإجابات',
+  'Back to your result': 'العودة إلى نتيجتك',
+  'These questions are no longer published, so they cannot be reopened.':
+    'لم تعد هذه الأسئلة منشورة، لذا لا يمكن فتحها من جديد.',
+  'Your result': 'نتيجتك',
+  correct: 'صحيحة',
+  'Everyone has finished.': 'انتهى الجميع.',
+  'Back to shared tests': 'العودة إلى الاختبارات المشتركة',
+  'You have answered every question.': 'أجبت على كل الأسئلة.',
+  'Finish and see results': 'إنهاء وعرض النتائج',
+  'This question is no longer available.': 'لم يعد هذا السؤال متاحًا.',
+  'Skip it': 'تخطَّه',
+  'See results': 'عرض النتائج',
+  'Next question': 'السؤال التالي',
+  'Submit answer': 'إرسال الإجابة',
+  'Correct.': 'صحيح.',
+  'Not this time.': 'ليس هذه المرة.',
+  'Study session with': 'جلسة مذاكرة مع',
+  'Friend request sent.': 'أُرسل طلب الصداقة.',
+  'That invite link could not be used.': 'تعذّر استخدام رابط الدعوة هذا.',
+  'Sit the same set of questions as your classmates.': 'اجلس للأسئلة نفسها التي يجلس لها زملاؤك.',
+  'Sit the same set of questions as your classmates, then compare results.':
+    'اجلس للأسئلة نفسها التي يجلس لها زملاؤك، ثم قارنوا النتائج.',
+  'The same paper, sat separately. The comparison opens once you have both finished.':
+    'الورقة نفسها، كلٌّ يجلس لها على حدة. تُفتح المقارنة بمجرد انتهائكما معًا.',
+  'Shared test': 'اختبار مشترك',
+  'That test could not be created.': 'تعذّر إنشاء هذا الاختبار.',
+  'That code could not be used.': 'تعذّر استخدام هذا الرمز.',
+  'Shared tests need the backend': 'تحتاج الاختبارات المشتركة إلى الخادم',
+  'A shared test lives on the server so other people can join it by code. Connect the backend to create one.':
+    'يعيش الاختبار المشترك على الخادم ليتمكن الآخرون من الانضمام إليه برمز. اربط الخادم لإنشاء واحد.',
+  'Name it': 'سمِّه',
+  'Which topics?': 'أي المواضيع؟',
+  'questions available': 'سؤالًا متاحًا',
+  'all topics': 'كل المواضيع',
+  'Recorded on each answer, for comparing pace afterwards.': 'يُسجَّل مع كل إجابة، لمقارنة السرعة لاحقًا.',
+  'No questions published yet': 'لا توجد أسئلة منشورة بعد',
+  'Create and get a code': 'أنشئ واحصل على رمز',
+  'e.g. K7PQR2': 'مثال: K7PQR2',
+  'Shared test code': 'رمز الاختبار المشترك',
+  'Your shared tests': 'اختباراتك المشتركة',
+  open: 'مفتوح',
+  'No shared test open. Create one, or join with a code.':
+    'لا يوجد اختبار مشترك مفتوح. أنشئ واحدًا، أو انضم برمز.',
+  Waiting: 'في الانتظار',
+  Running: 'جارٍ',
+  'Nothing finished yet.': 'لم ينتهِ شيء بعد.',
+  'Study parties need the backend': 'تحتاج مجموعات المذاكرة إلى الخادم',
+  'A party lives on the server so the rest of your year can find and join it. Connect the backend to start one.':
+    'تعيش المجموعة على الخادم ليتمكن بقية دفعتك من العثور عليها والانضمام إليها. اربط الخادم لبدء واحدة.',
+  'Friends need the backend': 'يحتاج الأصدقاء إلى الخادم',
+  'Friend requests live on the server so both people can see them. Connect the backend to add friends.':
+    'تعيش طلبات الصداقة على الخادم ليتمكن الطرفان من رؤيتها. اربط الخادم لإضافة أصدقاء.',
+  'Shared tests': 'الاختبارات المشتركة',
+  Parties: 'المجموعات',
+  Friends: 'الأصدقاء',
   'Create or join a shared test with a short code, then work through it live with classmates.':
     'أنشئ أو انضم إلى اختبار مشترك برمز قصير، ثم اعملوا عليه مباشرةً مع زملائك.',
   'Test ready to share': 'الاختبار جاهز للمشاركة',
