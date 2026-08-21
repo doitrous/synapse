@@ -1,0 +1,10 @@
+# OCR caches, not results. `pagetext/` is the per-page text of every PDF and
+# `parts/` and `raw/` are per-file intermediates — together several megabytes of
+# machine output that any of the extractors will regenerate. The JSON beside
+# them is the result and is tracked, because a batch that cites a page number
+# should be checkable against what the page actually said.
+pagetext/
+parts/
+raw/
+__pycache__/
+status-*.json

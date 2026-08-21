@@ -15,12 +15,32 @@ import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '..
 import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
 import { RELATION_IMPORT_FIELDS, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { IMPORT_SCHEMAS, importRowToContent, validateImportRow, parseSections } from '../src/data/bulkImport.ts'
+import { isWrittenFormat, parseQuestionFormat } from '../src/data/questionFormat.ts'
 import { materialiseNewItem } from '../src/data/importMerge.ts'
 import { missingRequiredSections } from '../src/data/articleTemplates.ts'
 import { MEDICAL_TAXONOMY_INDEX } from '../src/data/medicalLibraryTaxonomy.ts'
+import { detectBatchKind } from '../src/data/batchKind.ts'
 
 const file = process.argv[2]
-if (!file) throw new Error('Usage: validate-content-batch.mjs <batch.md>')
+if (!file) throw new Error('Usage: validate-content-batch.mjs <batch.md> [--with <sibling.md> ...]')
+
+/**
+ * Batches that will be imported alongside this one.
+ *
+ * A question resolves its concept and its article against live state, because a
+ * question pointing at a concept nobody authored is the failure that check
+ * exists to catch. But a programme that authors the concepts, the questions and
+ * the articles for one paper in a single pass has none of them imported yet, so
+ * every question in it fails against a ledger that has not been told about the
+ * sibling file sitting next to it.
+ *
+ * `--with` names those siblings explicitly. It widens what counts as existing;
+ * it never suppresses an error, and a file not named here still has to be real.
+ */
+const alongside = process.argv.slice(3).reduce((files, arg, index, argv) => {
+  if (arg === '--with' && argv[index + 1]) files.push(argv[index + 1])
+  return files
+}, [])
 
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 
@@ -40,27 +60,7 @@ function parseMarkdown(text) {
 
 const rows = parseMarkdown(await readFile(file, 'utf8'))
 
-/**
- * Which contract this file is written against.
- *
- * Inferred from the columns rather than the filename, so a file cannot be
- * validated against the wrong contract by being misnamed.
- */
-function detectKind(sample) {
-  if ('source' in sample && 'type' in sample && 'target' in sample) return 'relation'
-  if ('correct_answer' in sample && 'answer_a' in sample) return 'question'
-  if ('summary' in sample && 'sections' in sample) return 'article'
-  if ('claim_id' in sample && 'resource_id' in sample) return 'citation'
-  if ('concept_id' in sample && 'display_text' in sample) return 'claim'
-  if ('article_id' in sample && 'section_id' in sample) return 'span'
-  if ('institution' in sample && 'processing_status' in sample) return 'resource'
-  if ('type' in sample && ('mark_scheme' in sample || 'decisions' in sample || 'lab_questions' in sample || 'candidate_instructions' in sample)) return 'practical'
-  // A positive test rather than a fallback. Falling back to 'concept' meant any
-  // unrecognised row became one; the simulator, which shared this shape, applied
-  // a stray question batch as sixteen concept upserts without reporting anything.
-  if ('label' in sample || 'canonical_key' in sample) return 'concept'
-  return 'unknown'
-}
+const detectKind = detectBatchKind
 
 const kind = detectKind(rows[0] ?? {})
 const errors = []
@@ -141,6 +141,22 @@ if (kind === 'question') {
   const articles = new Map(ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item]))
   const resources = new Set(ledger.filter((item) => item.kind === 'resource').map((item) => item.id))
 
+  // Siblings named with `--with`, folded in as though already imported. Each is
+  // parsed with the same parser and classified by the same detector, so a file
+  // that is not what it claims to be contributes nothing and the question that
+  // depended on it still fails.
+  for (const sibling of alongside) {
+    const siblingRows = parseMarkdown(await readFile(sibling, 'utf8'))
+    const siblingKind = detectKind(siblingRows[0] ?? {})
+    for (const row of siblingRows) {
+      if (!row.id?.trim()) continue
+      if (siblingKind === 'concept') concepts.set(row.id.trim(), { id: row.id.trim(), publicationStatus: row.publication_status?.trim(), pending: sibling })
+      if (siblingKind === 'article') articles.set(row.id.trim(), { id: row.id.trim(), status: row.status ?? 'Draft', pending: sibling })
+      if (siblingKind === 'resource') resources.add(row.id.trim())
+    }
+    notes.push(`${sibling}: ${siblingRows.length} ${siblingKind} rows treated as pending import`)
+  }
+
   const known = new Set(IMPORT_SCHEMAS.question.fields.map((field) => field.key))
   const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']
   const built = []
@@ -156,17 +172,37 @@ if (kind === 'question') {
     const data = item.questionData
     built.push(item)
 
-    // Options and their explanations. An option without an explanation teaches
-    // nothing, which is the one thing this content type exists to do.
-    const answered = data.answers.filter((answer) => answer.text.trim())
-    if (answered.length < 4 || answered.length > 5) {
-      errors.push(`${where}: ${answered.length} option${answered.length === 1 ? '' : 's'} — the contract is 4 to 5`)
-    }
-    for (const answer of answered) {
-      if (!answer.explanation.trim()) errors.push(`${where}: option ${answer.label} has no explanation`)
-    }
-    if (!answered.some((answer) => answer.label === data.correctAnswer)) {
-      errors.push(`${where}: correct answer ${data.correctAnswer} is not one of the filled options`)
+    // What a well-formed item looks like depends on its format. A written
+    // question has no lettered options at all, and checking it for four of them
+    // reported an entire end-of-year paper as sixteen broken questions.
+    if (isWrittenFormat(parseQuestionFormat(values.format))) {
+      // The mark scheme is to a written question what the options are to a
+      // single-best-answer one: without it there is nothing to practise
+      // against, and `markWritten` scores a part with no points as zero.
+      const parts = data.writtenParts ?? []
+      if (!parts.length) {
+        errors.push(`${where}: no written_parts — a written question with no parts cannot be marked`)
+      }
+      for (const part of parts) {
+        if (!part.expectedPoints.length) {
+          errors.push(`${where}: part (${part.label}) has no Expects lines, so it would always score zero`)
+        }
+        if (!part.prompt.trim()) errors.push(`${where}: part (${part.label}) has no prompt`)
+        if (!(part.marks > 0)) errors.push(`${where}: part (${part.label}) is worth no marks`)
+      }
+    } else {
+      // Options and their explanations. An option without an explanation teaches
+      // nothing, which is the one thing this content type exists to do.
+      const answered = data.answers.filter((answer) => answer.text.trim())
+      if (answered.length < 4 || answered.length > 5) {
+        errors.push(`${where}: ${answered.length} option${answered.length === 1 ? '' : 's'} — the contract is 4 to 5`)
+      }
+      for (const answer of answered) {
+        if (!answer.explanation.trim()) errors.push(`${where}: option ${answer.label} has no explanation`)
+      }
+      if (!answered.some((answer) => answer.label === data.correctAnswer)) {
+        errors.push(`${where}: correct answer ${data.correctAnswer} is not one of the filled options`)
+      }
     }
 
     // The difficulty the author wrote, not the one the importer settled for.

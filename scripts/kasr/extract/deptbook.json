@@ -1,0 +1,3571 @@
+{
+ "file": "/Users/doitrous/Desktop/Kasr Alainy/y1/101 ISK/Department Book/Department Book Module 101.pdf",
+ "sourceId": "src_5c8bb4bf7f1b32c9f3a1",
+ "manifestSourceId": "src_b1e6dc481eaf337268d0",
+ "sourceIdNote": "The subject-tree note and the extraction request both cite src_5c8bb4bf7f1b32c9f3a1, but kasr-y1-sources.json records this PDF (291 pages, sha256 b1e6dc48...) as src_b1e6dc481eaf337268d0. Both are recorded here; the manifest one is authoritative.",
+ "pages": 291,
+ "pageNumbering": "All startPage/endPage/figure page values are PHYSICAL PDF pages (1-based). The book's printed numbers differ: Part I printed = physical - 1; Part II restarts its own numbering.",
+ "chapters": [
+  {
+   "subjectPath": "101 ISK > Histology > Introduction > Microscopes",
+   "bookTitle": "MICROSCOPES",
+   "startPage": 4,
+   "endPage": 5,
+   "found": true,
+   "keyPoints": [
+    "Histology (histos = tissue, logy = science) is the science that deals with the study of tissue.",
+    "Cells aggregate into 4 basic tissue types: epithelial, connective, muscular and nervous tissue.",
+    "Microscopes are optical instruments for examining histological specimens; they are of two classes, light and electron.",
+    "Light microscope: source of illumination is daylight or an electric lamp; magnifying system is the ocular (eyepiece) plus objective lenses.",
+    "Magnification power is the degree of enlargement, calculated as objective power x eyepiece power.",
+    "Electron microscope has two types: transmission (TEM) and scanning (SEM).",
+    "TEM uses an electron beam for illumination and electromagnetic coils as the magnifying system; the image is finally seen on a fluorescent screen.",
+    "SEM gives three-dimensional images on the screen and shows only the surfaces of the examined objects.",
+    "Resolution power is the least distance between two points that can still be seen as two points and not one."
+   ],
+   "definitions": [
+    {
+     "term": "Histology",
+     "text": "Science dealing with the study of tissue (histos = tissue, logy = science)."
+    },
+    {
+     "term": "Tissues",
+     "text": "Numerous cells aggregated to form the 4 basic types."
+    },
+    {
+     "term": "Magnification power",
+     "text": "The degree of enlargement; power of the objective lens multiplied by the power of the eyepiece lens."
+    },
+    {
+     "term": "Resolution power",
+     "text": "The least distance between two points that can be seen as two and not as one point."
+    }
+   ],
+   "numbers": [
+    "Maximum magnification power of the LM = 15 (eyepiece) x 100 (objective) = 1500 times",
+    "TEM magnification 1000 to 100,000 times or more",
+    "Resolution power of the naked eye = 0.2 mm",
+    "Resolution power of the light microscope = 0.2 µm",
+    "Resolution power of the electron microscope = 0.2 nm",
+    "1 mm = 1000 µm",
+    "1 µm = 1000 nm",
+    "1 nm = 10 angstroms (Å)"
+   ],
+   "classifications": [
+    {
+     "of": "Basic tissue types",
+     "items": [
+      "Epithelial tissue",
+      "Connective tissue",
+      "Muscular tissue",
+      "Nervous tissue"
+     ]
+    },
+    {
+     "of": "Microscopes",
+     "items": [
+      "Light microscope (L.M.)",
+      "Electron microscope (E.M.)"
+     ]
+    },
+    {
+     "of": "Electron microscopes",
+     "items": [
+      "Transmission electron microscope (TEM)",
+      "Scanning electron microscope (SEM)"
+     ]
+    },
+    {
+     "of": "Parts of the light microscope described",
+     "items": [
+      "Source of illumination",
+      "Magnifying system (ocular + objective lenses)",
+      "Magnification power"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 4,
+     "caption": "Unlabelled line drawing of a light microscope beside the '1 - Light Microscope (L.M.)' text block",
+     "kind": "diagram"
+    },
+    {
+     "page": 5,
+     "caption": "Unlabelled images accompanying '2- The Electron Microscope (E.M.)' (TEM and SEM)",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter opens with an ILO list: define histology and name the basic tissue types; define magnification and resolution power; describe structure and characters of light and electron microscopes; list microtechniques; name common fixatives and their functions; describe advantages and disadvantages of techniques; list commonly used stains.",
+    "Book states the unit chain as mm = 1000 µm, µm = 1000 nm, nm = 10 Å."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Introduction > Microtechniques",
+   "bookTitle": "Tissue Processing Methods (Microtechniques) for L.M. examination",
+   "startPage": 5,
+   "endPage": 6,
+   "found": true,
+   "keyPoints": [
+    "Three tissue-processing methods are taught: paraffin, celloidin and freezing technique, each with stated advantages and disadvantages.",
+    "Paraffin technique is 'the most common': short preparation time, serial sections for research, very thin sections, easily stained; but xylol solvent dissolves fat and heat damages enzymes so it cannot show the chemical components of the cell.",
+    "Celloidin technique is 'the most perfect': perfect for fine details, no heat so structure is preserved, suitable for large organs (eyeball) and soft tissues such as brain; but long preparation, thick sections, no serial sections, not easily stained.",
+    "Freezing technique is 'the most rapid': most rapid for diagnosis of tumours during surgery and preserves enzymes so is used for histochemical stains; but thick sections, difficult to cut, no serial sections, not easily stained.",
+    "Haematoxylin and eosin (H&E) is the most commonly used stain in routine histological slides.",
+    "Haematoxylin is a basic blue dye that binds acidic (basophilic) components such as the nucleus (rich in DNA and RNA) and may stain cytoplasm of protein-forming cells basophilic because of ribosomes.",
+    "Eosin is an acidic pink/red dye that binds basic (acidophilic) structures such as cytoplasm.",
+    "The nucleus is always basophilic while cytoplasm may be acidophilic or basophilic.",
+    "Silver (Ag) stains Golgi apparatus, nerve cells and fibres brown, and reticular fibres black.",
+    "A neutral stain such as Leishman's stain is a mixture of acidic and basic stains, used to demonstrate blood cells.",
+    "Vital stain stains living cells inside the living animal as they phagocytose the stain (trypan blue, Indian ink); supravital stain stains living cells outside the body, e.g. reticulocytes with brilliant cresyl blue.",
+    "A metachromatic stain gives a colour different from that of the stain itself, e.g. toluidine blue reacting with mucopolysaccharide granules of blood basophils or mast cells to give violet.",
+    "Histochemical stains need the frozen technique: PAS stains glycogen magenta red, Sudan III stains fat orange, and enzyme methods demonstrate acid and alkaline phosphatases as lysosomal enzymes.",
+    "Orcein stains elastic fibres brown.",
+    "Immunohistochemical stains use dye-labelled antibodies to demonstrate specific antigens such as the proteins of intermediate filaments."
+   ],
+   "definitions": [
+    {
+     "term": "Basophilic",
+     "text": "Acidic components of the cell that bind the basic dye haematoxylin and stain blue."
+    },
+    {
+     "term": "Acidophilic",
+     "text": "Basic structures of the cell that bind the acidic dye eosin and stain pink/red."
+    },
+    {
+     "term": "Metachromatic stain",
+     "text": "A stain that gives a new colour different from that of the stain itself."
+    },
+    {
+     "term": "Vital stain",
+     "text": "Staining of living cells inside the living animal."
+    },
+    {
+     "term": "Supravital stain",
+     "text": "Staining of living cells outside the living body."
+    }
+   ],
+   "numbers": [
+    "3 tissue-processing microtechniques (paraffin, celloidin, freezing)",
+    "8 special histological stains listed"
+   ],
+   "classifications": [
+    {
+     "of": "Microtechniques for L.M. examination",
+     "items": [
+      "Paraffin technique (most common)",
+      "Celloidin technique (most perfect)",
+      "Freezing technique (most rapid)"
+     ]
+    },
+    {
+     "of": "Special histological stains for light microscopy",
+     "items": [
+      "Silver (Ag)",
+      "Neutral stain e.g. Leishman's",
+      "Vital stain e.g. trypan blue, Indian ink",
+      "Supravital stain e.g. brilliant cresyl blue",
+      "Metachromatic stain e.g. toluidine blue",
+      "Histochemical stains (PAS, fat stains, enzyme stains)",
+      "Orcein stain",
+      "Immunohistochemical stains"
+     ]
+    },
+    {
+     "of": "Histochemical stains",
+     "items": [
+      "Periodic Acid-Schiff (PAS) for glycogen",
+      "Fat stains e.g. Sudan III",
+      "Enzyme stains: acid and alkaline phosphatases"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 5,
+     "caption": "Tissue Processing Methods (Microtechniques) for L.M. examination - 3-column table of microtechnique / advantages / disadvantages",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "The chapter ILOs ask the student to name the most common fixatives and list their functions, but the extracted text of pages 4-6 lists processing techniques and stains rather than a named list of fixatives.",
+    "Book states that the freezing technique is the most rapid method for diagnosis of tumours during surgery."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Cytology > The cell",
+   "bookTitle": "The cell",
+   "startPage": 7,
+   "endPage": 7,
+   "found": true,
+   "keyPoints": [
+    "The cell is the basic structural and functional unit of the living body.",
+    "Cell functions listed: absorption, respiration, secretion, excretion, sensation, conduction, contraction, movement, growth and reproduction.",
+    "Cell size varies widely between cell types.",
+    "Cell shape may be rounded, oval, flat, stellate, polygonal, cubical or columnar.",
+    "The animal cell is formed of two basic components: cytoplasm and nucleus."
+   ],
+   "definitions": [
+    {
+     "term": "The cell",
+     "text": "The basic structural and functional unit of the living body."
+    }
+   ],
+   "numbers": [
+    "Cell size varies from 4 µm (granular cells of cerebellum) to 150 µm (ovum)",
+    "2 basic components of the animal cell"
+   ],
+   "classifications": [
+    {
+     "of": "Cell shapes",
+     "items": [
+      "Rounded",
+      "Oval",
+      "Flat",
+      "Stellate",
+      "Polygonal",
+      "Cubical",
+      "Columnar"
+     ]
+    },
+    {
+     "of": "Cell functions",
+     "items": [
+      "Absorption",
+      "Respiration",
+      "Secretion",
+      "Excretion",
+      "Sensation",
+      "Conduction",
+      "Contraction",
+      "Movement",
+      "Growth",
+      "Reproduction"
+     ]
+    },
+    {
+     "of": "Basic components of the animal cell",
+     "items": [
+      "Cytoplasm",
+      "Nucleus"
+     ]
+    }
+   ],
+   "figures": [],
+   "appliedNotes": [
+    "Chapter II opens with 10 ILOs covering organelles, inclusions, and the nucleus, including comparing membranous with non-membranous organelles and distinguishing euchromatin from heterochromatin."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Cytology > Cytoplasm",
+   "bookTitle": "The Cytoplasm",
+   "startPage": 7,
+   "endPage": 21,
+   "found": true,
+   "keyPoints": [
+    "Cytoplasm is formed of cytosol, organelles and inclusions; cytosol is a fluid containing carbohydrates, proteins, lipids, minerals, ions and salts, RNA, metabolites, O2 and CO2.",
+    "Organelles are living, permanent, essential, active and have vital functions; inclusions are non-living, temporary, usually not essential, inert and result from cell activity.",
+    "Organelles are classified by the presence of a limiting membrane into membranous (plasma membrane, mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes, peroxisomes) and non-membranous (ribosomes and cytoskeleton).",
+    "The plasma membrane appears by EM as two dark layers separated by an intermediate light layer - the trilaminar or unit membrane - with fuzzy cell coat (glycocalyx) on its outer surface only; by LM it is hard to see and needs silver or PAS.",
+    "Membrane lipid is phospholipid arranged in a bilayer (heads outward to aqueous solutions, tails inward) plus cholesterol among the hydrophobic fatty acids that restricts phospholipid movement and modulates fluidity.",
+    "Membrane protein exists as peripheral proteins loosely attached to both surfaces and integral (transmembrane) proteins, the latter being channel proteins for ions and water and carrier proteins for small polar molecules such as glucose and the Na-K pump.",
+    "Membrane carbohydrate at the external surface forms glycoproteins and glycolipids; the cell coat (glycocalyx) includes receptors for drugs, hormones, bacteria and viruses and functions in adhesion, identification, protection and cell immunity.",
+    "Endocytosis is bulk movement into the cell by forming vesicles and has three types: phagocytosis (pseudopodia surround a particle, e.g. WBCs engulfing bacteria), pinocytosis (small invaginations surrounding extracellular fluid, e.g. colloid in thyroid follicular cells) and receptor-mediated endocytosis (receptors aggregate with clathrin to form a coated pit that pinches off as a coated vesicle, e.g. uptake of growth hormone).",
+    "Exocytosis is bulk movement out of the cell: a cytoplasmic vesicle fuses with the cell membrane and releases its contents without affecting membrane continuity.",
+    "Mitochondria are the power-house of the cell, sited in the most active areas, bounded by two unit membranes; the outer is smooth with porins and permeable to small molecules, the inner is selectively permeable and folds into cristae bearing elementary particles with ATP synthase activity.",
+    "Mitochondrial matrix contains oxidative enzymes of the citric acid cycle, DNA, mRNA, tRNA and rRNA, and dense Ca2+-rich granules acting as catalysts; mitochondria increase in number by simple division and stain dark blue with iron haematoxylin and green with Janus green.",
+    "Endoplasmic reticulum is a membranous network of intercommunicating channels and sacs (cisternae) extending from the nucleus to the cell membrane, of rough and smooth types.",
+    "rER sits in protein-forming cells (plasma cell), shows LM basophilia, has parallel flattened cisternae continuous with the outer nuclear envelope studded with ribosomes bound to ribophorins, and functions in protein synthesis, segregation, initial glycosylation, packing into transfer vesicles for the Golgi, protection of cytoplasm from hydrolytic enzymes, and as an intracellular pathway.",
+    "sER sits in lipid-forming cells (liver), gives acidophilia when abundant, has anastomosing tubular cisternae continuous with rER and no ribosomes, and functions in phospholipid synthesis, steroid hormone synthesis (cortisone, testosterone), glycogen breakdown to glucose, detoxification of drugs, alcohol and hormones, Ca2+ release in muscle contraction and as an intracellular pathway.",
+    "Golgi apparatus is a membranous organelle concerned with secretion, well developed in secretory cells; it is invisible in H&E except as a pale 'negative Golgi image' near the nucleus, and is demonstrated by silver as a network of brown granules and fibrils, sited apically or perinuclearly (nerve cells).",
+    "By EM the Golgi is interconnected parallel flat curved saccules stacked above each other, each stack having an entry (cis) face receiving transfer vesicles from rER and an exit (trans) face budding secretory vesicles or lysosomes.",
+    "Lysosomes are membranous organelles containing hydrolytic enzymes (protease, sulfatase) for intracytoplasmic digestion; enzymes are made in rER, carried by transfer vesicles to the Golgi and released in lysosomes; they are abundant in phagocytic cells (macrophages, neutrophils) and require histochemical stains.",
+    "Primary lysosomes are newly released homogeneous moderately electron-dense vesicles; secondary lysosomes are heterogeneous and of three types - heterolysosome (1ry lysosome + phagosome, digests solid particles), multivesicular body (1ry lysosome + pinocytic vesicle, digests fluid) and autolysosome (1ry lysosome + autophagic vesicle containing destroyed endogenous substrate such as mitochondria).",
+    "Undigested material is retained as residual bodies which are either discharged by exocytosis (cytostool) or accumulate over years in long-lived cells such as cardiac muscle and nerve cells as lipofuscin (age pigment).",
+    "Lysosome functions: digest nutrients and phagocytosed bacteria and viruses, remove excess or non-functional organelles, postmortem autolysis, fertilisation by helping the sperm head penetrate the ovum, and activation of thyroid hormone by breaking the hormone-protein bond.",
+    "Peroxisomes (microbodies) are membranous vesicles budding off the rER with enzymes made on free ribosomes; oxidases perform beta-oxidation of long-chain fatty acids producing heat (not ATP) and toxic hydrogen peroxide, and catalase breaks hydrogen peroxide into water and oxygen.",
+    "Ribosomes are non-membranous particles of rRNA and protein; rRNA forms in the nucleolus, proteins form in cytoplasm, both unite in the nucleolus into small and large subunits that return to the cytoplasm and join only during protein synthesis.",
+    "Ribosomes cause cytoplasmic basophilia (focal, diffuse or localised) because of the acidity of the phosphate group in RNA; they are free (single or as polyribosomes linked by mRNA in rosettes or spiral chains) or attached to rER by their large subunit at ribophorins.",
+    "Free ribosomes form proteins used within the cell such as glycolytic enzymes; attached ribosomes form proteins secreted by cells such as enzymes and hormones.",
+    "The cytoskeleton is a network of microtubules, microfilaments and intermediate filaments with linking proteins forming a microtrabecular lattice; all three are difficult to see by LM except by immunofluorescence.",
+    "Microtubules are hollow cylinders with a wall of 13 parallel protofilaments of alpha and beta tubulin directed by the microtubule organising centre (MTOC, containing gamma tubulin); they determine cell shape and elongation, transport organelles and macromolecules, form the mitotic spindle, and form centrioles, cilia and flagella.",
+    "Microfilaments are fine strands of two chains of globular G actin coiled into filamentous F actin lying beneath the plasmalemma and in microvilli; they change cell shape in endocytosis, exocytosis and amoeboid movement, transport organelles, cleave the cell in division, form the microvillus core and act in muscle contraction.",
+    "Intermediate filaments are formed by polymerisation of chemically differing tetrameric subunits and are supportive: cytokeratin in epithelium, vimentin in connective and muscular tissue, desmin in muscular tissue, neurofilaments in neurons, glial fibrillar acidic protein (GFAP) in glial cells, lamins in the nuclear envelope.",
+    "A centriole is a cylindrical microtubular structure; two lie perpendicular to each other surrounded by a tubulin matrix (centrosome) in non-dividing cells, and each cylinder wall is 9 triplets of microtubules. Centrioles form the mitotic spindle (the centrosome duplicates in S phase and moves to the poles as MTOC) and share in forming cilia and flagella.",
+    "Cilia are motile processes with a microtubular core covered by plasmalemma, formed of basal body, shaft (axoneme) and rootlets; centrioles duplicate thousands of times into basal bodies that migrate to the apical cytoplasm. The shaft has 9 peripheral doublets plus 2 central singlets; rootlets are formed by the C microtubule of each triplet growing into the cytoplasm and fix the basal body and shaft.",
+    "Cilia beat repeatedly by bending of adjacent doublets to move secretions or particles in one direction (respiratory and female genital tracts) and can be modified as receptors in the rods and cones of the retina.",
+    "Flagella are motile projections designed to move the cell itself, with exactly the axonemal structure of a cilium but far longer; in humans a flagellum forms the sperm tail.",
+    "Microvilli are finger-like projections shorter than cilia seen by LM as an apical striated brush border, with an actin filament core inserted into a terminal web, increasing surface area for absorption (small intestine).",
+    "Stereocilia are non-motile solid long microvilli with an actin core and no microtubules, helping absorption in the male genital system e.g. epididymis.",
+    "Cytoplasmic inclusions comprise stored food (carbohydrate as glycogen granules in liver and muscle, and fat) and pigments.",
+    "Glycogen dissolves away in H&E leaving vacuoles, stains red with Best's carmine and magenta red with PAS, and by EM is single granules or rosette aggregations concentrated in cytoplasm rich in sER; fat is vacuolated in H&E and orange with Sudan III.",
+    "Pigments are coloured particles produced by the cell or taken from outside: endogenous (haemoglobin in RBCs carrying O2 and CO2, melanin in skin giving colour and protecting from ultraviolet rays, lipofuscin in cardiac muscle and nerve cells as an age-accumulating waste product) and exogenous (carbon and dust particles taken by dust cells of the lung, carotene pigments, tattoo dyes taken by phagocytic cells)."
+   ],
+   "definitions": [
+    {
+     "term": "Plasma membrane (plasmalemma)",
+     "text": "Limiting membrane that envelopes all the cells."
+    },
+    {
+     "term": "Unit (trilaminar) membrane",
+     "text": "EM appearance of two dark layers separated by an intermediate light layer."
+    },
+    {
+     "term": "Cell coat (glycocalyx)",
+     "text": "Glycoprotein and glycolipid molecules on the external surface of the cell membrane, including receptors for drugs, hormones, bacteria and viruses."
+    },
+    {
+     "term": "Mitochondria",
+     "text": "Membranous organelles containing enzymes for aerobic respiration and energy production; the power-house of the cell."
+    },
+    {
+     "term": "Endoplasmic reticulum",
+     "text": "Membranous network extending from the nucleus to the cell membrane enclosing intercommunicating channels and sacs called cisternae."
+    },
+    {
+     "term": "Golgi apparatus",
+     "text": "A membranous organelle concerned with secretion."
+    },
+    {
+     "term": "Lysosome",
+     "text": "Membranous organelle containing hydrolytic enzymes responsible for intracytoplasmic digestion."
+    },
+    {
+     "term": "Peroxisome (microbody)",
+     "text": "Membranous organelle containing oxidase and catalase enzymes."
+    },
+    {
+     "term": "Ribosome",
+     "text": "Non-membranous particle formed of rRNA and proteins."
+    },
+    {
+     "term": "Cytoskeleton",
+     "text": "Complex network of microtubules, microfilaments and intermediate filaments with linking proteins forming a microtrabecular lattice."
+    },
+    {
+     "term": "Centriole",
+     "text": "Cylindrical structure composed of microtubules."
+    },
+    {
+     "term": "Cilia",
+     "text": "Motile processes with a microtubular core covered by plasmalemma."
+    },
+    {
+     "term": "Stereocilia",
+     "text": "Non-motile solid cilia; not true cilia but long microvilli."
+    },
+    {
+     "term": "Pigments",
+     "text": "Coloured particles either produced by the cells or taken from outside; materials possessing colour of their own nature."
+    },
+    {
+     "term": "Residual body",
+     "text": "Vesicle retaining undigested material after secondary lysosome activity."
+    }
+   ],
+   "numbers": [
+    "Plasma membrane thickness 7.5-10 nm",
+    "Protein is about 50% of total membrane mass",
+    "Mitochondria up to 2000 per cell in the liver cell",
+    "Golgi stack of 3-10 saccules",
+    "Microtubule wall of 13 parallel protofilaments",
+    "Microtubule diameter 24 nm",
+    "Microfilament diameter 5-7 nm",
+    "Intermediate filament diameter 8-10 nm",
+    "Centriole wall 9 bundles x 3 microtubules = 27 microtubules",
+    "Ciliary basal body 27 microtubules in 9 triplets",
+    "Ciliary shaft 9 peripheral doublets + 2 central singlets = 20 microtubules",
+    "Ciliary rootlets 9 microtubules (C microtubule of each triplet)",
+    "6 intermediate filament proteins named",
+    "3 types of endocytosis"
+   ],
+   "classifications": [
+    {
+     "of": "Cytoplasm",
+     "items": [
+      "Cytosol",
+      "Organelles",
+      "Inclusions"
+     ]
+    },
+    {
+     "of": "Membranous organelles",
+     "items": [
+      "Plasma membrane",
+      "Mitochondria",
+      "Endoplasmic reticulum",
+      "Golgi apparatus",
+      "Lysosomes",
+      "Peroxisomes"
+     ]
+    },
+    {
+     "of": "Non-membranous organelles",
+     "items": [
+      "Ribosomes",
+      "Cytoskeleton: microtubules (centrioles, cilia, flagella)",
+      "Cytoskeleton: filaments (thin and intermediate)"
+     ]
+    },
+    {
+     "of": "Molecular structure of the cell membrane",
+     "items": [
+      "Lipid (phospholipid bilayer + cholesterol)",
+      "Protein (peripheral and integral)",
+      "Carbohydrate (glycoproteins and glycolipids)"
+     ]
+    },
+    {
+     "of": "Endocytosis",
+     "items": [
+      "Phagocytosis (cell eating)",
+      "Pinocytosis (cell drinking)",
+      "Receptor mediated endocytosis"
+     ]
+    },
+    {
+     "of": "Endoplasmic reticulum",
+     "items": [
+      "Rough endoplasmic reticulum",
+      "Smooth endoplasmic reticulum"
+     ]
+    },
+    {
+     "of": "Secondary lysosomes",
+     "items": [
+      "Heterolysosome",
+      "Multivesicular body",
+      "Autolysosome"
+     ]
+    },
+    {
+     "of": "Cytoskeletal elements",
+     "items": [
+      "Microtubules",
+      "Microfilaments",
+      "Intermediate filaments"
+     ]
+    },
+    {
+     "of": "Intermediate filament proteins",
+     "items": [
+      "Cytokeratin - epithelial tissue",
+      "Vimentin - connective and muscular tissue",
+      "Desmin - muscular tissue",
+      "Neurofilaments - neurons",
+      "Glial fibrillar acidic protein (GFAP) - glial cells",
+      "Lamins - nuclear envelope"
+     ]
+    },
+    {
+     "of": "Structures formed by microtubules",
+     "items": [
+      "Centrioles",
+      "Cilia",
+      "Flagella"
+     ]
+    },
+    {
+     "of": "Structures formed by microfilaments",
+     "items": [
+      "Microvilli",
+      "Stereocilia"
+     ]
+    },
+    {
+     "of": "Cytoplasmic inclusions",
+     "items": [
+      "Stored food: carbohydrates (glycogen)",
+      "Stored food: fats",
+      "Pigments"
+     ]
+    },
+    {
+     "of": "Pigments",
+     "items": [
+      "Endogenous: haemoglobin, melanin, lipofuscin",
+      "Exogenous: carbon and dust particles, carotene, tattoo marks"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 7,
+     "caption": "Table contrasting Organelles (living, permanent, essential, active, vital functions) with Inclusions (non-living, temporary, usually not essential, inert, result from cell activity)",
+     "kind": "table"
+    },
+    {
+     "page": 7,
+     "caption": "Table of membranous versus non-membranous organelles",
+     "kind": "table"
+    },
+    {
+     "page": 7,
+     "caption": "EM picture of plasmalemma",
+     "kind": "micrograph"
+    },
+    {
+     "page": 8,
+     "caption": "Molecular structure of cell membrane",
+     "kind": "diagram"
+    },
+    {
+     "page": 10,
+     "caption": "Different types of endocytosis / Receptor mediated endocytosis",
+     "kind": "diagram"
+    },
+    {
+     "page": 10,
+     "caption": "Unlabelled diagram of exocytosis beside the text",
+     "kind": "diagram"
+    },
+    {
+     "page": 11,
+     "caption": "Unlabelled EM/diagram of mitochondrion showing cristae, outer and inner membranes and matrix",
+     "kind": "diagram"
+    },
+    {
+     "page": 12,
+     "caption": "Comparative table: Rough Endoplasmic Reticulum versus Smooth Endoplasmic Reticulum (site, LM, EM, function)",
+     "kind": "table"
+    },
+    {
+     "page": 13,
+     "caption": "Unlabelled diagrams of the Golgi apparatus: negative Golgi image (LM) and stacked saccules with cis/trans faces and secretory vesicles (EM)",
+     "kind": "diagram"
+    },
+    {
+     "page": 14,
+     "caption": "Unlabelled diagram of secondary lysosome types accompanying the lysosome text",
+     "kind": "diagram"
+    },
+    {
+     "page": 15,
+     "caption": "Types of 2ry lysosomes and residual body",
+     "kind": "diagram"
+    },
+    {
+     "page": 15,
+     "caption": "Unlabelled diagram of peroxisomes",
+     "kind": "diagram"
+    },
+    {
+     "page": 16,
+     "caption": "Diagram showing different types of basophilia",
+     "kind": "diagram"
+    },
+    {
+     "page": 16,
+     "caption": "Diagram of free ribosomes / polyribosomes",
+     "kind": "diagram"
+    },
+    {
+     "page": 16,
+     "caption": "Diagram of attached ribosome showing mRNA, small and large subunits, ribophorin, rER and polypeptide",
+     "kind": "diagram"
+    },
+    {
+     "page": 17,
+     "caption": "Cytoskeleton diagram labelling Microtubules (MT), Microfilaments and Intermediate filaments",
+     "kind": "diagram"
+    },
+    {
+     "page": 18,
+     "caption": "Comparative table: Microtubules versus Microfilaments versus Intermediate filaments (structure, diameter, protein subunit, location, LM, function)",
+     "kind": "table"
+    },
+    {
+     "page": 19,
+     "caption": "Centriole (L.S.) and Centriole (T.S.)",
+     "kind": "diagram"
+    },
+    {
+     "page": 19,
+     "caption": "Structure of Microtubules in doublet and triplet",
+     "kind": "diagram"
+    },
+    {
+     "page": 19,
+     "caption": "Diagram of a cilium labelling shaft and basal body",
+     "kind": "diagram"
+    },
+    {
+     "page": 20,
+     "caption": "Microvillus diagram labelling brush border (L.M.), terminal web and E.M. core",
+     "kind": "diagram"
+    },
+    {
+     "page": 21,
+     "caption": "Glycogen stained by Best's Carmine",
+     "kind": "micrograph"
+    },
+    {
+     "page": 21,
+     "caption": "Glycogen stained by PAS",
+     "kind": "micrograph"
+    },
+    {
+     "page": 21,
+     "caption": "Sudan III stain (fat globule in fat cell)",
+     "kind": "micrograph"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: despite a normal blood level of growth hormone, lack of GH receptors at the cell membrane of target cells leads to a type of dwarfism.",
+    "Book states: a defect in mitochondrial enzymes leads to failure to produce ATP needed for all vital activities, e.g. in muscle it causes muscular weakness.",
+    "Book states: lack of lysosomal enzymes such as sulfatases results in intracellular accumulation of sulfated compounds which interfere with normal function of nerve cells.",
+    "Book states: lack of peroxisomal enzymes affects the function of some organs such as the liver.",
+    "Book states: cancer chemotherapy is used to arrest cell proliferation in tumours by preventing microtubule formation.",
+    "Book states: identification of intermediate filament proteins by immunocytochemical methods is important for diagnosis and treatment of tumours because the cell of origin can be recognised.",
+    "Book states: inability of the cilia to move results in bacterial infection on top of accumulated secretions causing chronic respiratory infections, and immotile flagella cause male infertility.",
+    "The Golgi apparatus section on p.13 has a 'Functions:' heading whose content is carried entirely in an unextractable figure - the functions are not present as text."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Cytology > Nucleus",
+   "bookTitle": "The Nucleus",
+   "startPage": 22,
+   "endPage": 25,
+   "found": true,
+   "keyPoints": [
+    "The nucleus is the largest component of all cells except RBCs and platelets, which the book states are not true cells.",
+    "Most cells are mononucleated; liver cells are binucleated; osteoclasts and skeletal muscle are multinucleated.",
+    "Nuclear position may be central, basal, peripheral or eccentric; nuclear shape may be flat, rounded, oval, bilobed, segmented/multilobed or kidney-shaped.",
+    "The nucleus is basophilic in H&E because of its DNA and RNA content.",
+    "A pale-stained (vesicular) nucleus indicates an active cell (nerve cell, liver cell); a darkly stained (condensed) nucleus indicates an inactive cell (small lymphocyte).",
+    "The nucleus is structurally made of nuclear membrane (envelope), chromatin material, nucleolus and nuclear sap.",
+    "The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted by nuclear pores; the outer membrane is rough with polyribosomes and continuous with rER cisternae, the inner is fibrillar with attached peripheral chromatin and associated with the nuclear lamina made mainly of lamins.",
+    "Nuclear pore complexes are circular openings where inner and outer membranes fuse, formed of 30 nucleoporin proteins arranged as an octagonal ring, with filaments extending into cytoplasm and nucleus; they transport proteins into the nucleus and export RNA and ribosomal subunits through a transporter protein.",
+    "Chromatin is chromosomal material in the uncoiled state in non-dividing nuclei, representing the genetic material, formed of nucleoproteins (double-stranded DNA plus histone and non-histone protein).",
+    "Euchromatin is extended uncoiled chromatin with active genes, predominating in metabolically active protein-forming cells, appearing as fine threads giving a pale basophilic vesicular nucleus with a clear nucleolus and electron-lucent by EM.",
+    "Heterochromatin is coiled inactive chromatin with inactive genes, predominating in metabolically inactive cells such as the small lymphocyte, appearing as coarse dark basophilic clumps (condensed nucleus with unclear nucleolus) and electron-dense by EM.",
+    "Heterochromatin has three sites: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.",
+    "Chromatin functions: carries genetic information, forms mRNA, rRNA and tRNA, and directs and controls protein synthesis.",
+    "The nucleolus is a rounded deeply basophilic mass rich in nucleic acids surrounded by chromatin, usually one or two per nucleus; by EM it is spongy and not limited by a membrane, with dark areas (pars amorpha or nucleolar organiser of DNA filaments carrying rRNA genes, pars fibrosa of newly formed rRNA strands, pars granulosa of mature rRNA granules - the latter two together called nucleolonema) and light areas of nucleolar sap.",
+    "The nucleolus forms ribosomal RNA and ribosomal subunits which pass through nuclear pores to the cytoplasm.",
+    "Nuclear sap is a colloidal solution filling the spaces between chromatin and nucleolus, formed of nucleoproteins, enzymes, sugars, calcium, potassium and phosphorus ions, providing a medium for transport of RNA through nuclear pores.",
+    "Functions of the nucleus: carries all genetic information and hereditary factors, controls all cell functions including protein synthesis, is responsible for RNA formation, and directs cell division."
+   ],
+   "definitions": [
+    {
+     "term": "Chromatin",
+     "text": "In non-dividing nuclei, the chromosomal material in the uncoiled state; the genetic material, formed of nucleoproteins."
+    },
+    {
+     "term": "Euchromatin",
+     "text": "Extended (uncoiled) chromatin containing active genes."
+    },
+    {
+     "term": "Heterochromatin",
+     "text": "Coiled inactive chromatin containing inactive genes."
+    },
+    {
+     "term": "Nucleolonema",
+     "text": "Pars granulosa and pars fibrosa of the nucleolus taken together."
+    },
+    {
+     "term": "Nuclear sap",
+     "text": "Colloidal solution filling the spaces between chromatin material and nucleolus."
+    },
+    {
+     "term": "Nuclear pore complex",
+     "text": "Circular opening where the inner and outer nuclear membranes fuse, formed of nucleoporin proteins in an octagonal ring."
+    }
+   ],
+   "numbers": [
+    "Nuclear pore complex formed of 30 nucleoporin proteins in an octagonal ring",
+    "Usually 1 or 2 nucleoli per nucleus",
+    "4 structural parts of the nucleus",
+    "3 sites of heterochromatin",
+    "4 functions of the nucleus listed"
+   ],
+   "classifications": [
+    {
+     "of": "Structure of the nucleus",
+     "items": [
+      "Nuclear membrane (envelope)",
+      "Chromatin material",
+      "Nucleolus",
+      "Nuclear sap"
+     ]
+    },
+    {
+     "of": "Position of nuclei",
+     "items": [
+      "Central",
+      "Basal",
+      "Peripheral",
+      "Eccentric"
+     ]
+    },
+    {
+     "of": "Shape of nuclei",
+     "items": [
+      "Flat",
+      "Rounded",
+      "Oval",
+      "Bilobed",
+      "Segmented / multilobed",
+      "Kidney"
+     ]
+    },
+    {
+     "of": "Nuclear appearance",
+     "items": [
+      "Pale-stained (vesicular) - active cells",
+      "Darkly stained (condensed) - inactive cells"
+     ]
+    },
+    {
+     "of": "Forms of chromatin",
+     "items": [
+      "Euchromatin",
+      "Heterochromatin"
+     ]
+    },
+    {
+     "of": "Sites of heterochromatin",
+     "items": [
+      "Peripheral chromatin",
+      "Chromatin islands",
+      "Nucleolus-associated chromatin"
+     ]
+    },
+    {
+     "of": "Dark areas of the nucleolus (EM)",
+     "items": [
+      "Pars amorpha (nucleolar organizer)",
+      "Pars fibrosa (fibrillar component)",
+      "Pars granulosa (granular component)"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 22,
+     "caption": "Diagrams of nuclear position (central, basal, peripheral, eccentric)",
+     "kind": "diagram"
+    },
+    {
+     "page": 22,
+     "caption": "Diagrams of nuclear shape (flat, rounded, oval, bilobed, segmented/multilobed, kidney)",
+     "kind": "diagram"
+    },
+    {
+     "page": 22,
+     "caption": "Pale (vesicular) nucleus and Dark (condensed) nucleus",
+     "kind": "micrograph"
+    },
+    {
+     "page": 23,
+     "caption": "Diagram for Structure of Nucleus",
+     "kind": "diagram"
+    },
+    {
+     "page": 23,
+     "caption": "Diagram for nuclear pore complex, labelling cytoplasmic filaments, cytoplasmic ring, transporter protein, nuclear ring and nuclear basket",
+     "kind": "diagram"
+    },
+    {
+     "page": 24,
+     "caption": "Comparative table: Euchromatin versus Heterochromatin",
+     "kind": "table"
+    },
+    {
+     "page": 24,
+     "caption": "Vesicular Nucleus and Condensed Nucleus, with heterochromatin labelled",
+     "kind": "micrograph"
+    },
+    {
+     "page": 25,
+     "caption": "EM of the nucleolus",
+     "kind": "micrograph"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: chromosomal alterations are associated with tumours and genetic diseases.",
+    "Book states: large nucleoli are found in rapidly growing malignant cells.",
+    "Book states that RBCs and platelets are 'not true cells'."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Blood > Red Blood Corpuscles",
+   "bookTitle": "Red Blood Corpuscles (RBCs) (Erythrocytes)",
+   "startPage": 26,
+   "endPage": 28,
+   "found": true,
+   "keyPoints": [
+    "Blood is a special type of connective tissue that circulates inside blood vessels, formed of cells and an extracellular fluid matrix called plasma.",
+    "Blood is examined as a blood film: a drop of blood spread on a glass slide and air-dried, stained with a neutral stain such as Leishman's - a mixture of acidic red eosin and basic blue methylene blue dissolved in methyl alcohol as fixative.",
+    "RBCs are non-nucleated biconcave discs; rounded in top view, biconcave in side view to increase surface area for gas exchange.",
+    "Abnormal shapes arise from changes in cell membrane or Hb content: spherocytes, ovalocytes, sickle cells (crescent) and poikilocytes (pear-shaped); they are more fragile and more prone to haemolysis causing anaemia.",
+    "Abnormal sizes: microcytes, macrocytes, and anisocytosis (different sizes in the same film).",
+    "In an unstained film RBCs appear coloured due to Hb; in a Leishman-stained film they are rounded, non-nucleated and acidophilic because Hb is a basic protein, with a pale centre - normochromic RBCs.",
+    "Rouleaux is the reversible adhesion of RBCs like piles of coins occurring in slow (not normal) circulation, due to surface tension caused by the biconcave surface, with no damage to the cells.",
+    "By EM RBCs have no nucleus or organelles and are filled with electron-dense homogeneous haemoglobin; the cell membrane is flexible, a cytoskeleton of actin and spectrin maintains shape and membrane stability, and the glycocalyx carries the antigenic sites for the ABO blood groups and Rh factor.",
+    "Old RBCs are phagocytosed by macrophages in liver, bone marrow and spleen; the pigment is excreted as bile pigments while iron is reused to form new RBCs.",
+    "Osmotic fragility: RBCs keep normal shape in isotonic plasma; in hypertonic solution they shrink and show notches (crenation); in hypotonic solution they swell, burst and leak haemoglobin, leaving a cell ghost.",
+    "RBCs are counted by haemocytometer or electronic counting instruments; the count is highest in newborns and decreases gradually.",
+    "Adaptation to function: the plasmalemma is flexible to be squeezed through narrow capillaries and is lipoprotein (highly selective) for gas exchange; the biconcave shape with rounded edges increases surface area and eases passage through branched vessels; absence of nuclei and organelles means no division but more space for Hb; contained enzymes include Hb reductase to combine with O2 and carbonic anhydrase to carry CO2."
+   ],
+   "definitions": [
+    {
+     "term": "Blood",
+     "text": "A special type of connective tissue that circulates inside blood vessels, formed of cells and an extracellular fluid matrix called plasma."
+    },
+    {
+     "term": "Rouleaux",
+     "text": "RBCs adhering to each other resembling piles of coins in slow circulation; reversible with no damage."
+    },
+    {
+     "term": "Crenation",
+     "text": "Shrinkage with notches when RBCs are placed in a hypertonic solution."
+    },
+    {
+     "term": "Cell ghost",
+     "text": "The remaining cell membrane after haemolysis."
+    },
+    {
+     "term": "Anaemia",
+     "text": "Decreased number of RBCs (oligocythaemia) and/or decreased haemoglobin concentration."
+    },
+    {
+     "term": "Polycythaemia",
+     "text": "Increased number of RBCs due to hypoxia stimulating the bone marrow."
+    }
+   ],
+   "numbers": [
+    "Blood composition: 45% blood cells and 55% plasma",
+    "RBC diameter 6-9 µm, average 7.5 µm",
+    "RBC thickness 2.2 µm at the edge and 0.8 µm at the centre",
+    "Pale centre about 1/3 of the diameter of the RBC",
+    "Microcytes less than 6 µm, macrocytes more than 9 µm",
+    "RBC life span about 120 days",
+    "Isotonic plasma osmotic pressure equal to 0.9% saline",
+    "Average RBC count 5 million/mm3",
+    "Adult male 4.5-5.5 million/mm3",
+    "Adult female 4-5 million/mm3",
+    "Anaemia: RBCs below 4 million/mm3",
+    "Polycythaemia: RBCs above 6 million/mm3",
+    "RBC content 33% Hb, 66% H2O, 1% enzymes"
+   ],
+   "classifications": [
+    {
+     "of": "Four basic tissues and their germ layers",
+     "items": [
+      "Epithelial tissue - ectodermal, mesodermal or endodermal",
+      "Connective tissue - mesodermal (CT proper, cartilage, bone, blood)",
+      "Muscular tissue - mesodermal",
+      "Nervous tissue - ectodermal"
+     ]
+    },
+    {
+     "of": "Abnormal RBC shapes",
+     "items": [
+      "Spherocytes",
+      "Ovalocytes",
+      "Sickle cells",
+      "Poikilocytes"
+     ]
+    },
+    {
+     "of": "Abnormal RBC sizes",
+     "items": [
+      "Microcytes",
+      "Macrocytes",
+      "Anisocytosis"
+     ]
+    },
+    {
+     "of": "Types of anaemia named",
+     "items": [
+      "Pernicious anaemia (vitamin B12 deficiency, failed intrinsic factor production by the stomach)",
+      "Sickle cell anaemia (abnormal rigid Hb accumulating at one side of the cell)",
+      "Aplastic anaemia (bone marrow destruction by chemotherapy or irradiation, causing pancytopenia)"
+     ]
+    },
+    {
+     "of": "Polycythaemia",
+     "items": [
+      "Physiological - high altitude, muscular exercise, newborns",
+      "Pathological - chronic lung and heart diseases"
+     ]
+    },
+    {
+     "of": "Factors of RBC adaptation",
+     "items": [
+      "Plasmalemma",
+      "Shape",
+      "Content"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 26,
+     "caption": "Top view and Side view of the RBC",
+     "kind": "diagram"
+    },
+    {
+     "page": 26,
+     "caption": "Unlabelled drawings of abnormal RBC shapes",
+     "kind": "diagram"
+    },
+    {
+     "page": 26,
+     "caption": "Unlabelled image of rouleaux (RBCs in piles of coins)",
+     "kind": "micrograph"
+    },
+    {
+     "page": 28,
+     "caption": "Adaptation of RBCs To Perform Their Functions - table of factor versus mode of adaptation",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: long chains of RBCs in rouleaux sediment more easily, which is the mechanism for an increased Erythrocyte Sedimentation Rate (ESR), which rises non-specifically with inflammation.",
+    "Book states the higher male RBC count is due to the stimulatory effect of male hormones on the bone marrow.",
+    "Chapter III opens with 7 ILOs including comparing RBCs with leucocytes and comparing basophils with mast cells.",
+    "Book states RBCs and platelets are 'not true cells'."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Blood > Blood Platelets",
+   "bookTitle": "PLATELETS (THROMBOCYTES)",
+   "startPage": 29,
+   "endPage": 31,
+   "found": true,
+   "keyPoints": [
+    "Platelets are small oval non-nucleated cytoplasmic fragments that develop from the megakaryocyte.",
+    "By LM each platelet has two zones: an outer pale basophilic (clear) peripheral zone, the hyalomere, and a central dark granular zone, the granulomere.",
+    "The cell membrane has a thick cell coat that helps platelet aggregation into a platelet plug to stop bleeding.",
+    "The hyalomere contains a cytoskeleton of microtubules maintaining cell shape and actin microfilaments that let activated platelets change shape and aid clot retraction.",
+    "The hyalomere also contains membranous channels: an open canalicular system of cell-membrane invaginations that releases serotonin causing vasoconstriction of the injured vessel, and a dense tubular system storing Ca2+.",
+    "The granulomere contains few mitochondria, ribosomes and glycogen for energy plus three types of granules.",
+    "Alpha (specific) granules contain clotting factors and growth factors.",
+    "Delta (dense) granules contain serotonin, ATP, ADP and Ca2+.",
+    "Lambda granules are lysosomes used for clot removal after healing of the vessel."
+   ],
+   "definitions": [
+    {
+     "term": "Hyalomere",
+     "text": "Outer pale basophilic (clear) peripheral zone of the platelet."
+    },
+    {
+     "term": "Granulomere",
+     "text": "Central dark granular zone of the platelet."
+    },
+    {
+     "term": "Purpura (thrombocytopenia)",
+     "text": "Decreased number of platelets."
+    }
+   ],
+   "numbers": [
+    "Platelet count 200,000-400,000/mm3",
+    "Platelet diameter 2-4 µm",
+    "3 types of granules in the granulomere",
+    "Purpura: platelets less than 50,000/mm3"
+   ],
+   "classifications": [
+    {
+     "of": "Zones of the platelet",
+     "items": [
+      "Hyalomere",
+      "Granulomere"
+     ]
+    },
+    {
+     "of": "Granules of the granulomere",
+     "items": [
+      "Alpha (specific) granules",
+      "Delta (dense) granules",
+      "Lambda granules (lysosomes)"
+     ]
+    },
+    {
+     "of": "Hyalomere contents",
+     "items": [
+      "Cytoskeleton: microtubules and actin microfilaments",
+      "Membranous channels: open canalicular system and dense tubular system"
+     ]
+    },
+    {
+     "of": "Causes of purpura",
+     "items": [
+      "Decreased production (bone marrow depression)",
+      "Increased breakdown (autoimmune disease)"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 30,
+     "caption": "Diagram of Platelet",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states purpura is characterised by prolonged bleeding time and excessive bleeding after minor trauma.",
+    "Page 26 carries a stray heading fragment 'STHROMBOCYTES' above the RBC section, apparently a layout artefact of the platelet heading."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Blood > Granular leukocytes",
+   "bookTitle": "Granular Leucocytes",
+   "startPage": 32,
+   "endPage": 35,
+   "found": true,
+   "keyPoints": [
+    "Granular leucocytes have a short life span of a few days and are compensated by new cells from blood stem cells in bone marrow.",
+    "Their nucleus is single but segmented and condensed, with peripheral heterochromatin and central euchromatin; the cytoplasm has few organelles (Golgi, mitochondria, rER) and both non-specific (azurophilic) and specific granules.",
+    "Azurophilic means having affinity for azure dye (oxidised methylene blue); granular leucocytes are classified by the staining affinity of their specific granules.",
+    "Neutrophils (polymorphonuclear leucocytes) have a dark segmented nucleus of 2-5 lobes joined by thin chromatin threads and many shapes; a Barr body can be seen in a proportion of female cells.",
+    "Neutrophil cytoplasm has numerous fine pale specific granules and few large purple azurophil granules; by EM it has pseudopodia, few organelles and more glycogen for energy.",
+    "Neutrophil azurophil (primary) granules are large, few and dark, considered primary lysosomes containing myeloperoxidase for defence against bacteria and viruses.",
+    "Neutrophil specific (secondary) granules are small, many and pale, containing collagenase, phagocytin, lysozyme and lactoferrin.",
+    "Neutrophils are the first line of (non-specific) defence: bacterial toxins attract them, they leave the blood by migrating between endothelial cells - diapedesis - and become motile microphages with pseudopodia in connective tissue.",
+    "In connective tissue neutrophils phagocytose bacteria: specific granules first release lactoferrin (binds iron, bacteriostatic), phagocytin (bactericidal), lysozyme (destroys bacterial proteins) and collagenase (destroys collagen to facilitate neutrophil movement); azurophil granules then release myeloperoxidase and lysing enzymes.",
+    "Dead neutrophils form pus cells; pus raises body temperature to stimulate the heat-regulating centre in the brain; neutrophils also attract monocytes to clean the site, stimulate the bone marrow to form more neutrophils and secrete a trephone substance that helps wound healing.",
+    "Eosinophils have a bilobed (horse-shoe shaped) nucleus connected by a thick chromatin thread and large acidophilic specific granules; by EM the specific granule is oval with an electron-dense core of basic protein (internum) and a less dense periphery (externum) containing histaminase, sulphatase and eosinophil-derived neurotoxin, plus small azurophil granules that are lysosomes.",
+    "Eosinophils terminate allergy by secreting histaminase and sulphatase to destroy histamine and heparin and by phagocytosing antigen-antibody complexes, and defend against parasites by the cytotoxic effect of the internum forming pores in their bodies and by neurotoxins causing parasite nervous dysfunction.",
+    "Basophils have an irregular, segmented, S-shaped nucleus and coarse basophilic granules that obscure the nucleus and stain metachromatically purple with toluidine blue because of their heparin.",
+    "Basophil specific granules are large, rounded and electron dense, containing histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane shows receptors for IgE.",
+    "Basophils secrete heparin (prevents clotting and promotes allergy) and histamine (vasodilatation causing a sudden drop in blood pressure - anaphylaxis), attract eosinophils by eosinophil chemotactic factor, release leukotrienes causing bronchospasm and bronchial asthma, and have limited phagocytic power.",
+    "Basophils and mast cells both have metachromatically stained granules due to histamine and heparin and both carry IgE surface receptors, but differ in life span, size, nuclear shape and phagocytic ability."
+   ],
+   "definitions": [
+    {
+     "term": "Azurophilic",
+     "text": "Having affinity for azure dye (oxidised methylene blue)."
+    },
+    {
+     "term": "Diapedesis",
+     "text": "Process by which neutrophils leave the blood by migrating between the endothelial cells of blood vessels into connective tissue."
+    },
+    {
+     "term": "Neutrophilia",
+     "text": "Increased percentage of neutrophils."
+    },
+    {
+     "term": "Neutropenia",
+     "text": "Decreased percentage of neutrophils."
+    },
+    {
+     "term": "Eosinophilia",
+     "text": "Increased percentage of eosinophils."
+    },
+    {
+     "term": "Basophilia (blood)",
+     "text": "Increased percentage of basophils."
+    }
+   ],
+   "numbers": [
+    "Neutrophils 60-70% of WBCs",
+    "Neutrophil diameter 10-12 µm",
+    "Neutrophil nucleus 2-5 lobes",
+    "Barr body seen in 3-6% of female neutrophils",
+    "Neutrophilia above 75%",
+    "Neutropenia below 60%",
+    "Eosinophils 1-4%",
+    "Eosinophil diameter 10-14 µm",
+    "Eosinophilia above 5%",
+    "Eosinopenia below 1%",
+    "Basophils 0-1%",
+    "Basophil diameter 10-12 µm",
+    "Basophilia above 2%",
+    "Mast cell size 20-30 µm versus basophil 10-12 µm",
+    "Mast cell life span weeks to months versus basophil few days"
+   ],
+   "classifications": [
+    {
+     "of": "Granular leucocytes",
+     "items": [
+      "Neutrophils",
+      "Eosinophils",
+      "Basophils"
+     ]
+    },
+    {
+     "of": "Neutrophil granules",
+     "items": [
+      "Azurophil (primary) - primary lysosomes with myeloperoxidase",
+      "Specific (secondary) - collagenase, phagocytin, lysozyme, lactoferrin"
+     ]
+    },
+    {
+     "of": "Basophil specific granule contents",
+     "items": [
+      "Histamine",
+      "Heparin",
+      "Eosinophil chemotactic factor",
+      "Leukotrienes"
+     ]
+    },
+    {
+     "of": "Eosinophil specific granule contents",
+     "items": [
+      "Histaminase",
+      "Sulphatase",
+      "Eosinophil-derived neurotoxin"
+     ]
+    },
+    {
+     "of": "Causes of neutrophilia",
+     "items": [
+      "Acute pyogenic infection: acute tonsillitis, acute appendicitis, abscess"
+     ]
+    },
+    {
+     "of": "Causes of neutropenia",
+     "items": [
+      "Typhoid fever (commonest cause)",
+      "Tuberculosis",
+      "Viral infection such as influenza"
+     ]
+    },
+    {
+     "of": "Causes of eosinophilia",
+     "items": [
+      "Allergic diseases: urticaria, eczema, bronchial asthma",
+      "Parasites such as bilharziasis"
+     ]
+    },
+    {
+     "of": "Causes of basophilia",
+     "items": [
+      "Allergic diseases",
+      "Parasitic diseases",
+      "Viral infection (chicken pox)",
+      "Liver cirrhosis"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 31,
+     "caption": "Comparison between Erythrocytes and Leucocytes - table of types, content, number, size, life span, osmotic fragility, origin and maturation, shape, functions, motility",
+     "kind": "table"
+    },
+    {
+     "page": 32,
+     "caption": "NEUTROPHIL - EM diagram labelling phagocytic vesicle fused with azurophil granule",
+     "kind": "diagram"
+    },
+    {
+     "page": 33,
+     "caption": "Diagram of bacteria releasing toxins attracting a neutrophil out of a blood capillary (diapedesis)",
+     "kind": "diagram"
+    },
+    {
+     "page": 34,
+     "caption": "Eosinophils versus Basophils - table of %, diameter, life span, LM, EM and functions, with specific granule and azurophil granule labelled on each",
+     "kind": "table"
+    },
+    {
+     "page": 35,
+     "caption": "Comparison between Basophils and Mast Cell - table of life span, size, nucleus, phagocytosis, granules, surface receptor",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Book states cortisone treatment causes eosinopenia by inhibiting the release of eosinophils from the bone marrow.",
+    "Book states basophil histamine release causes vasodilatation with a sudden drop in blood pressure, i.e. anaphylaxis, and leukotrienes cause bronchospasm and bronchial asthma."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Blood > Non granular leukocytes",
+   "bookTitle": "Non Granular leucocytes",
+   "startPage": 36,
+   "endPage": 38,
+   "found": true,
+   "keyPoints": [
+    "The non-granular leucocytes are monocytes and lymphocytes.",
+    "Monocytes have a large, eccentric, kidney-shaped pale nucleus with one or two nucleoli and non-granular pale basophilic cytoplasm with a frosted-glass appearance due to lysosomes (azurophil granules).",
+    "By EM the monocyte nucleus is euchromatic with a clear nucleolus and the cytoplasm has pseudopodia, mitochondria, rER, a well developed Golgi and many primary and secondary lysosomes.",
+    "Monocytes are highly phagocytic: they stay in blood, then enter connective tissue and change into macrophages that phagocytose bacteria and debris; they are antigen-presenting cells and the precursors of all phagocytic cells - dust cells of the lung, Kupffer cells of the liver, osteoclasts of bone and microglia of the CNS.",
+    "Lymphocytes are the second most common WBC, the second line of defence and immune-competent cells with surface markers (receptors) for antigens.",
+    "By activity lymphocytes are small (dark nucleus filling the cell, little pale basophilic cytoplasmic rim; heterochromatic nucleus with many free ribosomes, two centrioles and small azurophil granules) or large (large indented pale nucleus with clear nucleolus, abundant deeply basophilic cytoplasm; euchromatic nucleus with prominent nucleolus and more mitochondria, rER, ribosomes, Golgi and lysosomes).",
+    "Large lymphocytes are either activated lymphocytes or natural killer cells.",
+    "By function there are three types - T lymphocytes, B lymphocytes and natural killer cells - which look alike by LM and EM and differ only in their surface receptors.",
+    "T lymphocytes mature when stem cells from bone marrow migrate to the thymus gland and differentiate and acquire receptors (thymic education); their surface markers are T-cell receptors such as CD4 and CD8 proteins; they mediate cell-mediated immunity.",
+    "B lymphocytes mature in the bursa of Fabricius in birds and in bone marrow in mammals, carrying receptors for IgM and IgD, and mediate humoral immunity.",
+    "Natural killer cells develop from precursors of T and B cells but do not mature in the thymus; they carry CD16 and others and have neither T nor B cell receptors; they act in innate early immunity without T-helper stimulation, act similarly to cytotoxic T cells and secrete interferon (antiviral).",
+    "T lymphocyte functional types: cytotoxic CD8+ cells secreting perforins that make pores in virally infected, transplanted or neoplastic cells; helper CD4+ cells that activate B cells in the humoral response; regulatory (suppressor) T cells maintaining unresponsiveness to self antigens and suppressing excessive responses; and memory T cells giving a rapid secondary response.",
+    "B lymphocytes, when exposed to specific antigen and activated by T-helper cells, become plasmablasts then plasma cells producing antibodies, and B memory cells responsible for the rapid second immune response.",
+    "Lymphocytes are actively motile and circulate continuously between blood and lymphatic organs; the book states they are the only cells which can return to blood, and they are found in blood, lymph and lymphatic tissue.",
+    "Total leukocytic count is the total number of WBCs per mm3, counted by haemocytometer or electronic counting instrument.",
+    "Differential leukocytic count is the percentage of each type of WBC to the total number of leucocytes, counted in a blood film stained with Leishman stain."
+   ],
+   "definitions": [
+    {
+     "term": "Total leukocytic count",
+     "text": "The total number of WBCs per mm3 of blood."
+    },
+    {
+     "term": "Differential leukocytic count",
+     "text": "The percentage of each type of WBC to the total number of leucocytes."
+    },
+    {
+     "term": "Leukocytosis",
+     "text": "Increased total number of WBCs."
+    },
+    {
+     "term": "Leukopenia",
+     "text": "Decreased total number of WBCs."
+    },
+    {
+     "term": "Leukaemia",
+     "text": "Cancer that starts in bone marrow giving a very high leucocytic count, with abnormal and immature WBC forms in peripheral blood."
+    }
+   ],
+   "numbers": [
+    "Monocytes 3-8% of WBCs",
+    "Monocyte diameter 13-20 µm",
+    "Monocyte life span 3 days in blood and 3 months in connective tissue",
+    "Monocytosis above 8%, monocytopenia below 3%",
+    "Lymphocytes 20-30% of WBCs",
+    "Small lymphocytes 15-20% of WBCs, diameter 6-8 µm",
+    "Large lymphocytes 5-10% of WBCs, diameter 10-15 µm",
+    "T lymphocytes 60-80%, life span years",
+    "B lymphocytes 20-30%, life span few days to few months",
+    "NK cells 5-10%, life span years",
+    "Lymphocytosis above 30%, lymphocytopenia below 20%",
+    "Total leukocytic count 4,000-11,000/mm3",
+    "Leukocytosis above 11,000/mm3",
+    "Leukopenia below 4,000/mm3"
+   ],
+   "classifications": [
+    {
+     "of": "Non-granular leucocytes",
+     "items": [
+      "Monocytes",
+      "Lymphocytes"
+     ]
+    },
+    {
+     "of": "Lymphocytes by activity",
+     "items": [
+      "Small lymphocytes",
+      "Large lymphocytes"
+     ]
+    },
+    {
+     "of": "Lymphocytes by function",
+     "items": [
+      "T lymphocytes",
+      "B lymphocytes",
+      "Natural killer (NK) cells"
+     ]
+    },
+    {
+     "of": "T lymphocyte functional types",
+     "items": [
+      "Cytotoxic CD8+ T cells",
+      "Helper CD4+ T cells",
+      "Regulatory (suppressor) T cells",
+      "Memory T cells"
+     ]
+    },
+    {
+     "of": "Cells derived from monocytes",
+     "items": [
+      "Macrophages",
+      "Dust cells of the lung",
+      "Kupffer cells of the liver",
+      "Osteoclasts of bone",
+      "Microglia of the CNS"
+     ]
+    },
+    {
+     "of": "Causes of monocytosis",
+     "items": [
+      "Chronic infections: tuberculosis, syphilis, glandular fever",
+      "Monocytic leukaemia"
+     ]
+    },
+    {
+     "of": "Causes of lymphocytosis",
+     "items": [
+      "Physiological in children",
+      "Chronic infections e.g. tuberculosis and whooping cough",
+      "Leukaemia"
+     ]
+    },
+    {
+     "of": "Leukocytosis",
+     "items": [
+      "Physiological (transient): pregnancy, labour, cold bath, exercise",
+      "Pathological: acute or chronic infections"
+     ]
+    },
+    {
+     "of": "Causes of leukopenia",
+     "items": [
+      "X-ray",
+      "Irradiation",
+      "Typhoid fever",
+      "Influenza virus",
+      "Excessive use of some antibiotics"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 36,
+     "caption": "Monocytes and Lymphocytes - paired images opening the Non Granular leucocytes section",
+     "kind": "micrograph"
+    },
+    {
+     "page": 36,
+     "caption": "Unlabelled LM and EM images of the monocyte",
+     "kind": "diagram"
+    },
+    {
+     "page": 37,
+     "caption": "Small versus Large lymphocyte - table of percentage, diameter, LM and EM with accompanying drawings",
+     "kind": "table"
+    },
+    {
+     "page": 37,
+     "caption": "T lymphocyte versus B lymphocyte versus Natural killer cells - table of percentage, life span, maturation site, surface markers and functions",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Book states HIV, the human immunodeficiency virus that causes AIDS, destroys T-helper cells, decreasing immunity so the patient becomes susceptible to infections.",
+    "Book states monocytopenia occurs as part of pancytopenia, as does lymphocytopenia."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Blood > Haemopoiesis",
+   "bookTitle": "Haemopoiesis",
+   "startPage": 39,
+   "endPage": 40,
+   "found": true,
+   "keyPoints": [
+    "Haemopoiesis is the formation of blood cells in bone marrow and lymphatic organs such as the thymus.",
+    "Bone marrow is myeloid tissue and is of two types: red (active) and yellow (inactive).",
+    "Red bone marrow is present in most bones of children and, in adults, in flat, short and irregular bones; yellow bone marrow lies in the shafts of adult long bones and is a fat store that can change into active marrow on need.",
+    "The stroma of red bone marrow has fixed cells - reticular cells which with reticular fibres form a background network, fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells, which the book states are the largest cells in bone marrow.",
+    "Blood sinusoids are wide irregular blood capillaries lined by endothelial cells with a non-continuous basement membrane, through whose pores blood cells leave into the blood.",
+    "The free cells of red bone marrow are the developing stages of blood cells and stem cells.",
+    "The ratio of immature WBCs to immature RBCs in marrow is stated as 5:1, because the life span of most WBCs is shorter than that of RBCs.",
+    "The reticulocyte is an immature RBC, slightly larger than a mature RBC, with acidophilic (Hb) cytoplasm containing remnants of ribosomes and polysomes forming a reticulum, demonstrated by the supravital stain brilliant cresyl blue.",
+    "The reticulocyte percentage in peripheral blood is normally low and increases in haemorrhage or destruction of RBCs.",
+    "The megakaryocyte is a very large cell with a single multilobed dark nucleus and basophilic cytoplasm; invaginations of its cell membrane form demarcation channels dividing the cytoplasm into fragments that shed as platelets, and it also extends pseudopodia (platelet ribbons) from which platelets detach."
+   ],
+   "definitions": [
+    {
+     "term": "Haemopoiesis",
+     "text": "Formation of blood cells in bone marrow and lymphatic organs e.g. thymus."
+    },
+    {
+     "term": "Bone marrow",
+     "text": "Myeloid tissue."
+    },
+    {
+     "term": "Blood sinusoids",
+     "text": "Wide irregular blood capillaries lined with endothelial cells with a non-continuous basement membrane."
+    },
+    {
+     "term": "Reticulocyte",
+     "text": "Immature RBC with cytoplasmic remnants of ribosomes and polysomes forming a reticulum."
+    }
+   ],
+   "numbers": [
+    "Ratio of immature WBCs to immature RBCs in marrow = 5:1",
+    "Reticulocyte size 9 µm",
+    "Reticulocytes do not exceed 1% in peripheral blood",
+    "Megakaryocyte diameter 50-70 µm"
+   ],
+   "classifications": [
+    {
+     "of": "Types of bone marrow",
+     "items": [
+      "Red bone marrow (active)",
+      "Yellow bone marrow (inactive)"
+     ]
+    },
+    {
+     "of": "Structure of red bone marrow",
+     "items": [
+      "Stroma: fixed cells and blood sinusoids",
+      "Free cells: developing blood cell stages and stem cells"
+     ]
+    },
+    {
+     "of": "Fixed cells of the stroma",
+     "items": [
+      "Reticular cells with reticular fibres",
+      "Fibroblasts",
+      "Undifferentiated mesenchymal cells",
+      "Pericytes",
+      "Osteogenic cells",
+      "Fat cells"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 39,
+     "caption": "Red versus Yellow bone marrow - comparative table",
+     "kind": "table"
+    },
+    {
+     "page": 40,
+     "caption": "Megakaryocyte with Platelets - labelled diagram",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states bone marrow aspirate or biopsy is needed to diagnose disorders such as aplastic anaemia or leukaemia.",
+    "Book states that in bone marrow diseases such as leukaemia, stem cells taken from a donor are infused into the same or another person (bone marrow transplantation).",
+    "The chapter ILO asks for the histological structure of cells involved in the various stages of haemopoiesis, but the text covers only bone marrow structure, the reticulocyte and the megakaryocyte - it does not walk through the erythroid or myeloid maturation series."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Connective Tissue > Connective Tissue Cells",
+   "bookTitle": "CONNECTIVE TISSUE CELLS",
+   "startPage": 41,
+   "endPage": 46,
+   "found": true,
+   "keyPoints": [
+    "Connective tissue links epithelial, muscular and nervous tissues to maintain a functionally integrated body; it originates from the middle mesodermal layer, from which mesenchymal cells migrate throughout the body to give rise to CT cells.",
+    "CT is formed of widely separated cells with a large amount of intercellular matrix and is penetrated by blood vessels, lymphatics and nerves.",
+    "CT functions: structural support, a medium for exchange of metabolic wastes, nutrients and oxygen between blood and body cells, a site of fat storage, and defence and protection by phagocytic and immune cells.",
+    "CT is made of cells plus matrix; by matrix consistency it is soft (CT proper), rubbery (cartilage), solid (bone) or fluid (blood).",
+    "CT proper cells are resident (stable, long-lived): UMCs, pericytes, fibroblasts, fat cells, reticular cells, mast cells and macrophages; and transient (short-lived): plasma cells and leukocytes.",
+    "The undifferentiated mesenchymal cell (UMC) is an unspecialised embryonic stem cell that remains undifferentiated in certain adult areas as a life-long source of cells (bone marrow for blood cells, around vessels for pericytes); it is a small branched cell with pale basophilic cytoplasm, a central large oval pale nucleus with visible nucleoli, many free ribosomes and a euchromatic nucleus, able to divide and differentiate into all other CT cell types.",
+    "The pericyte (perivascular cell) is an adult mesenchymal stem cell around blood capillaries, branched with long processes, containing a network of actin and myosin; in injury it divides and differentiates into endothelium, fibroblasts and smooth muscle cells, and by contraction causes vasoconstriction.",
+    "The fibroblast is the most common CT cell, found in nearly all types of CT proper, arising from UMC and pericytes.",
+    "The active fibroblast is branched with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with prominent nucleolus; by EM it is a protein-synthesising cell with well developed rER and Golgi, many mitochondria and a euchromatic nucleus.",
+    "The inactive fibroblast (fibrocyte) is a smaller spindle cell with few processes, paler cytoplasm, a small darker nucleus with more heterochromatin and less rER, Golgi and mitochondria; in injury it becomes active for wound healing and maintains CT by continuous slow turnover of extracellular components.",
+    "Fibroblast functions: synthesis of CT fibres, synthesis of ground substance of the matrix, production of growth factors for cell growth and differentiation, and healing and repair of CT after injury.",
+    "The adipose cell (adipocyte) arises from UMC and is unilocular (white adipose CT) or multilocular (brown adipose CT).",
+    "The unilocular fat cell is large and oval with fat stored as one large droplet containing dissolved carotenoids that displaces cytoplasm and nucleus peripherally; H&E dissolves the fat giving the signet ring appearance, and Sudan III stains it orange. By EM it has abundant sER, few mitochondria and one large electron-dense droplet.",
+    "The multilocular fat cell is smaller with multiple small droplets, no signet ring appearance, a mostly eccentric round nucleus, brown pigmentation, less sER and many mitochondria rich in cytochrome oxidase.",
+    "Unilocular fat cell functions: synthesis and storage of fat, support of organs such as the kidney, heat insulation, and an endocrine function - secretion of leptin which inhibits food intake and stimulates metabolic rate and loss of body weight. Multilocular fat cells perform thermogenesis, breaking down fat to release heat via thermogenin protein in their mitochondria.",
+    "The reticular cell arises from UMC, lies in the stroma of glands and organs such as spleen, lymph node and endocrine glands, and is a small stellate cell with many long thin processes joined by cell junctions; it forms a supportive network with reticular fibres, secretes reticular fibres, turns phagocytic when stimulated by antigen, and is an antigen-presenting cell.",
+    "The macrophage (histiocyte) arises from the monocyte and is found in CT, lymphoid tissue, bone marrow, brain, lung and liver; it is large and irregular with pale basophilic cytoplasm and an eccentric dark kidney-shaped nucleus, demonstrated by vital stains such as trypan blue or India ink which it phagocytoses.",
+    "By EM the macrophage has pseudopodia, is rich in lysosomes, phagocytosed particles and residual bodies, with a prominent Golgi, few rER and a heterochromatic nucleus.",
+    "Macrophage functions: phagocytosis and destruction of foreign particles, microorganisms and dead cells; fusion into multinucleated foreign body giant cells to engulf large particles; antigen presentation to activate lymphocytes; and destruction of old RBCs in liver and spleen.",
+    "The mast cell arises from UMC and lies in loose CT around blood vessels and under the epithelium of lung and digestive tube; it is a large oval cell with basophilic granules stained metachromatically purple or red by toluidine blue and a central spherical pale nucleus; by EM it has a well developed Golgi, many mitochondria, few rER and electron-dense membrane-bound granules.",
+    "The mast cell carries surface receptors for IgE and secretes heparin (anticoagulant), histamine (vasodilatation and increased permeability), leukotrienes (smooth muscle contraction in the bronchial tree causing bronchial asthma) and eosinophil chemotactic factor (attracts eosinophils to the allergic site).",
+    "The plasma cell arises from the B lymphocyte, is numerous in lymphoid tissue, and is a large oval cell with deeply basophilic cytoplasm showing a negative Golgi image and an eccentric spherical nucleus whose dark heterochromatin alternates with lighter euchromatin giving the cart-wheel or clock-face appearance; by EM it is a protein-forming cell rich in rER with a well developed Golgi, many mitochondria, a euchromatic nucleus and no secretory granules. Its function is synthesis and secretion of antibodies.",
+    "Extravasated leukocytes leave blood through capillaries to perform their immunity functions.",
+    "CT cells can also be classified by function into undifferentiated cells, CT-forming cells, fat-containing cells, and cells responsible for immunity and defence."
+   ],
+   "definitions": [
+    {
+     "term": "Undifferentiated mesenchymal cell (UMC)",
+     "text": "Unspecialised stem cell of the embryo that remains undifferentiated in certain adult areas as a life-long source of some cells."
+    },
+    {
+     "term": "Pericyte (perivascular cell)",
+     "text": "Adult mesenchymal stem cell present around blood capillaries."
+    },
+    {
+     "term": "Fibrocyte",
+     "text": "Inactive fibroblast."
+    },
+    {
+     "term": "Signet ring appearance",
+     "text": "LM appearance of the unilocular fat cell after fat is removed during H&E staining."
+    },
+    {
+     "term": "Macrophage (histiocyte)",
+     "text": "Connective tissue cell derived from the monocyte, highly phagocytic."
+    },
+    {
+     "term": "Foreign body giant cell",
+     "text": "Multinucleated cell formed by fusion of macrophages to engulf large particles."
+    },
+    {
+     "term": "Cart-wheel (clock-face) nucleus",
+     "text": "Plasma cell nucleus with dark heterochromatin alternating with lighter euchromatin."
+    }
+   ],
+   "numbers": [
+    "Unilocular adipose cell 50-150 µm",
+    "7 resident CT proper cell types",
+    "2 transient CT proper cell types",
+    "4 functional classes of CT cells"
+   ],
+   "classifications": [
+    {
+     "of": "Components of connective tissue by matrix",
+     "items": [
+      "Soft - C.T. proper",
+      "Rubbery - Cartilage",
+      "Solid - Bone",
+      "Fluid - Blood"
+     ]
+    },
+    {
+     "of": "Resident (stable, long-lived) CT proper cells",
+     "items": [
+      "UMCs",
+      "Pericyte",
+      "Fibroblast",
+      "Fat cell (adipocyte)",
+      "Reticular cell",
+      "Mast cell",
+      "Macrophage"
+     ]
+    },
+    {
+     "of": "Transient (short-lived) CT proper cells",
+     "items": [
+      "Plasma cell",
+      "Leukocytes"
+     ]
+    },
+    {
+     "of": "Matrix of CT proper",
+     "items": [
+      "Fibres: collagen, elastic, reticular",
+      "Ground substance"
+     ]
+    },
+    {
+     "of": "Fibroblast states",
+     "items": [
+      "Active fibroblast",
+      "Inactive fibroblast (fibrocyte)"
+     ]
+    },
+    {
+     "of": "Adipose cells",
+     "items": [
+      "Unilocular adipose cell (white adipose CT)",
+      "Multilocular adipose cell (brown adipose CT)"
+     ]
+    },
+    {
+     "of": "CT cells by function",
+     "items": [
+      "Undifferentiated cells: UMCs, pericytes",
+      "CT-forming cells: fibroblasts, fibrocytes, reticular cells",
+      "Fat-containing cells: unilocular and multilocular adipocytes",
+      "Cells responsible for immunity and defence: macrophage, plasma cell, mast cells, leukocytes"
+     ]
+    },
+    {
+     "of": "Mast cell secretions",
+     "items": [
+      "Heparin",
+      "Histamine",
+      "Leukotrienes",
+      "Eosinophil chemotactic factor"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 41,
+     "caption": "Components of connective tissue - branching chart of Cells and Matrix into soft (C.T. proper), rubbery (cartilage), solid (bone) and fluid (blood)",
+     "kind": "diagram"
+    },
+    {
+     "page": 42,
+     "caption": "Connective tissue proper - chart of resident cells, transient cells and matrix (fibres and ground substance)",
+     "kind": "diagram"
+    },
+    {
+     "page": 42,
+     "caption": "UMC versus Pericyte - comparative table of origin, site, LM, EM and function with drawings",
+     "kind": "table"
+    },
+    {
+     "page": 43,
+     "caption": "Active versus Inactive fibroblast (fibrocyte) - comparative table with LM drawings",
+     "kind": "table"
+    },
+    {
+     "page": 44,
+     "caption": "Unilocular versus Multilocular adipose cell - comparative table with LM images",
+     "kind": "table"
+    },
+    {
+     "page": 45,
+     "caption": "Reticular cell versus Macrophage (histiocyte) - comparative table with LM images",
+     "kind": "table"
+    },
+    {
+     "page": 46,
+     "caption": "Mast cell versus Plasma cell - comparative table with LM images",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: in some people the immune system recognises harmless antigens (allergens) as foreign bodies; binding of allergens to IgE on the mast cell surface triggers release of its secretions, giving an allergic (hypersensitivity) reaction manifesting as erythema and itching of skin, runny nose, bronchospasm, and vomiting, diarrhoea and abdominal cramping.",
+    "Book states: massive discharge of mast cells can cause life-threatening anaphylactic shock through severe vasodilatation and increased vascular permeability leading to severe hypotension.",
+    "The tables carry rhetorical 'Why?' prompts left for the student rather than answers (e.g. beside the pericyte actin-myosin network and the macrophage shape)."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Connective Tissue > Connective Tissue Fibres",
+   "bookTitle": "CONNECTIVE TISSUE FIBRES",
+   "startPage": 47,
+   "endPage": 48,
+   "found": true,
+   "keyPoints": [
+    "Fibres are formed of protein molecules polymerised into thin threads; three types are taught - collagen, elastic and reticular.",
+    "Collagen fibres are made of type I collagen protein, synthesised mainly by fibroblasts and by osteoblasts in bone; by LM they are wavy branching bundles formed of non-branching fibres, colourless in fresh sections and white when condensed as tendon.",
+    "Collagen fibres stain pink with eosin, blue with Mallory's trichrome and red with van Gieson; they are the strongest fibres, flexible but inelastic, giving strength and resisting stretching.",
+    "Elastic fibres are made of elastin protein, synthesised mainly by fibroblasts and also by chondroblasts and smooth muscle cells; they are single, thin and branching, yellow in fresh sections.",
+    "Elastic fibres stain pink with eosin, brown with orcein and yellow with van Gieson; they stretch and recoil, giving elasticity.",
+    "Reticular fibres are type III collagen, synthesised mainly by fibroblasts, reticular cells and smooth muscle cells, forming a fine fibrillar network.",
+    "Reticular fibres are not visible in H&E; because of their high sugar content they are stained brown by silver and red by PAS. They form a loose flexible supporting network in the stroma of organs such as spleen and liver.",
+    "The most common collagen types are tabulated: type I arranged in bundles in CT proper, tendon, bone and organ capsules from fibroblasts and osteoblasts; type II as fine fibres in cartilage from chondroblasts; type III as reticular fibres in the stroma of some organs from fibroblasts, reticular cells and smooth muscle cells; type IV in granular form in basement membrane associated with epithelium from epithelial cells; and type VII as anchoring fibres in basement membranes from fibroblasts.",
+    "The book refers collagen synthesis itself out to Biochemistry rather than teaching it here."
+   ],
+   "definitions": [
+    {
+     "term": "Connective tissue fibres",
+     "text": "Protein molecules polymerised to form thin threads."
+    }
+   ],
+   "numbers": [
+    "3 types of CT fibres",
+    "5 collagen types tabulated (I, II, III, IV, VII)"
+   ],
+   "classifications": [
+    {
+     "of": "Connective tissue fibres",
+     "items": [
+      "Collagen fibres (type I collagen)",
+      "Elastic fibres (elastin)",
+      "Reticular fibres (type III collagen)"
+     ]
+    },
+    {
+     "of": "Most common types of collagen",
+     "items": [
+      "Type I - bundles; CT proper, tendon, bone, organ capsule; fibroblasts and osteoblasts",
+      "Type II - fine fibres; cartilage; chondroblasts",
+      "Type III - reticular fibres; stroma of some organs; fibroblasts, reticular cells, smooth muscle cells",
+      "Type IV - granules; basement membrane with epithelium; epithelial cells",
+      "Type VII - anchoring fibres; basement membranes; fibroblasts"
+     ]
+    },
+    {
+     "of": "Stains for collagen fibres",
+     "items": [
+      "Eosin - pink",
+      "Mallory's trichrome - blue",
+      "Van Gieson - red"
+     ]
+    },
+    {
+     "of": "Stains for elastic fibres",
+     "items": [
+      "Eosin - pink",
+      "Orcein - brown",
+      "Van Gieson - yellow"
+     ]
+    },
+    {
+     "of": "Stains for reticular fibres",
+     "items": [
+      "H&E - not visible",
+      "Silver - brown",
+      "PAS - red"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 47,
+     "caption": "Types of connective tissue fibres - table of structure, synthesis, LM, staining, characters and functions with LM images of each fibre type",
+     "kind": "table"
+    },
+    {
+     "page": 48,
+     "caption": "The most common types of collagens - table of main character, main sites and cells of origin",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: vitamin C deficiency (scurvy) is due to defective collagen synthesis and is characterised by unhealed wounds and bleeding gums.",
+    "Book states: keloid is a local swelling caused by an abnormal healing process leading to increased deposition of collagen in scars of skin.",
+    "Book directs the student to Biochemistry for collagen synthesis: 'COLLAGEN SYNTHESIS: Refer to the Biochemistry'.",
+    "The 'Types of C.T. Proper' overview chart falls on the same page (48) as the collagen table."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper",
+   "bookTitle": "TYPES OF C.T. PROPER",
+   "startPage": 48,
+   "endPage": 51,
+   "found": true,
+   "keyPoints": [
+    "CT proper is divided into loose (abundant ground substance and tissue fluid in which cells and fibres are scattered) and dense (abundant fibres with fewer cells).",
+    "Loose types are loose areolar CT, adipose CT, reticular CT and mucoid CT; dense types are white fibrous CT and yellow elastic CT.",
+    "Loose areolar CT is the most common type, containing all types of CT cells and all types of fibres (mainly collagen bundles) with the most abundant matrix.",
+    "Loose areolar CT is loose because of potential cavities (areolae) that can hold large amounts of fluid or gases; it is flexible and well vascularised, and is found everywhere in the body except the brain - filling spaces between organs, in the papillary layer of the dermis, in mucosa and serous membranes and around vessels and nerves.",
+    "Loose areolar CT functions in exchange of nutrients to and from blood vessels, binding structures together and limiting spread of infection.",
+    "Reticular CT contains reticular cells and a fine network of reticular fibres with a moderate amount of matrix; it is a delicate type forming the supporting framework (stroma) of organs such as lymph node, liver and spleen, and is stained brown-black by silver.",
+    "Mucoid CT contains mainly fibroblasts with fine collagen and reticular fibres and a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid; it is found in the umbilical cord (Wharton's jelly), vitreous humour of the eye and pulp of teeth, and is supportive.",
+    "Adipose CT has fat cells predominating, with reticular fibres forming a fine network supporting and binding individual fat cells and collagen fibres dividing the tissue into incomplete lobules.",
+    "White adipose CT has unilocular fat cells and is white because of low vascularity and carotenoids dissolved in the fat droplets; it is affected by diet and hormones, is widely distributed under the skin (especially in females, gluteal region and abdominal wall), in mammary gland, mesentery and around kidney and other organs, and functions in heat insulation, fat storage, support of organs, leptin secretion and giving the skin its contour.",
+    "Brown adipose CT has multilocular fat cells and is brown from higher vascularity and cytochrome pigments in mitochondria; it is affected by hormones but not by diet, is present in large amounts in fetal life and newborns, is lost during childhood and replaced by white fat, persists in adults in interscapular, mediastinal and axillary regions, and performs thermogenesis in newborns.",
+    "White fibrous CT has fibroblasts and collagen fibres packed in bundles with minimal matrix; it is very dense and white in the fresh state, resistant and less flexible.",
+    "Regular white fibrous CT has regularly arranged collagen bundles with fibroblasts arranged in rows in between, sited in tendons and cornea, withstanding stretch in one direction; irregular white fibrous CT has irregularly arranged bundles with scattered fibroblasts, sited in the reticular layer of the dermis, ligaments, sclera of the eye and capsules of organs, withstanding stretch in different directions.",
+    "Yellow elastic CT has fibroblasts and condensed parallel elastic fibres with a small amount of matrix; it is dense with a great predominance of elastic fibres, yellow in the fresh state and has great elastic power (recoil when stretched).",
+    "Yellow elastic CT is sited in large arteries (aorta), trachea, bronchi, bronchioles and around alveoli, vocal cords, and some ligaments - ligamentum flavum joining the vertebrae, ligamentum nuchae at the back of the neck and the suspensory ligament of the penis."
+   ],
+   "definitions": [
+    {
+     "term": "Areolae",
+     "text": "Potential cavities in loose CT which can accommodate a large amount of fluid or gases."
+    },
+    {
+     "term": "Wharton's jelly",
+     "text": "Mucoid connective tissue of the umbilical cord."
+    }
+   ],
+   "numbers": [
+    "4 loose types and 2 dense types of CT proper",
+    "3 named elastic ligaments"
+   ],
+   "classifications": [
+    {
+     "of": "Types of C.T. proper",
+     "items": [
+      "Loose: loose areolar CT, adipose CT, reticular CT, mucoid CT",
+      "Dense: white fibrous CT, yellow elastic CT"
+     ]
+    },
+    {
+     "of": "Adipose connective tissue",
+     "items": [
+      "White adipose C.T. (unilocular)",
+      "Brown adipose C.T. (multilocular)"
+     ]
+    },
+    {
+     "of": "White fibrous C.T.",
+     "items": [
+      "Regular white fibrous C.T.",
+      "Irregular white fibrous C.T."
+     ]
+    },
+    {
+     "of": "Sites of yellow elastic C.T.",
+     "items": [
+      "Large arteries (aorta)",
+      "Trachea, bronchi, bronchioles and around alveoli",
+      "Vocal cords",
+      "Ligamentum flavum",
+      "Ligamentum nuchae",
+      "Suspensory ligament of penis"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 48,
+     "caption": "Types of C.T. proper - chart splitting Loose (areolar, adipose, reticular, mucoid) from Dense (white fibrous, yellow elastic)",
+     "kind": "diagram"
+    },
+    {
+     "page": 49,
+     "caption": "Loose (areolar) C.T. - table of structure, characters, sites, functions with LM image",
+     "kind": "table"
+    },
+    {
+     "page": 49,
+     "caption": "Reticular C.T. versus Mucoid C.T. - comparative table with LM images",
+     "kind": "table"
+    },
+    {
+     "page": 50,
+     "caption": "Adipose connective tissue - white versus brown, comparative table with LM images",
+     "kind": "table"
+    },
+    {
+     "page": 51,
+     "caption": "White fibrous C.T. versus Yellow elastic C.T. - comparative table with L.S. and T.S. images of tendon",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Book states loose areolar CT limits the spread of infection.",
+    "The table carries a rhetorical 'Why?' beside the brown colour of the multilocular fat cell rather than an answer."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Epithelial Tissues > Surface Epithelium",
+   "bookTitle": "I- SURFACE EPITHELIUM",
+   "startPage": 52,
+   "endPage": 56,
+   "found": true,
+   "keyPoints": [
+    "Epithelial tissue is so called because it mostly covers outer surfaces or lines the surfaces of cavities all over the body.",
+    "General characters: crowded cells with minimal intercellular space; a free upper surface and a basal surface resting on a basement membrane which may be clear or not clear; avascular, since blood and lymph vessels cannot penetrate between epithelial cells although nerves can, so nutrition comes by diffusion from the underlying connective tissue; and a high power of regeneration.",
+    "Epithelium may be ectodermal (skin), mesodermal (serous membranes) or endodermal (GIT).",
+    "Epithelial tissue is classified into surface epithelium (covers surfaces or lines cavities), glandular epithelium (cells modified to secrete), neuro-epithelium (cells modified as receptors) and myo-epithelium (cells with a contractile function).",
+    "Surface epithelium is classified by the number of layers into simple and stratified.",
+    "Simple epithelium is one layer of cells all resting on a basement membrane and is divided by cell shape into simple squamous, simple cubical, simple columnar, simple columnar ciliated and pseudostratified columnar.",
+    "Simple squamous epithelium is one layer of flat cells with flat nuclei; it provides a smooth surface for easy passage of fluids and easy movement of organs and a thin membrane for gas exchange.",
+    "Simple squamous epithelium is called endothelium when lining blood vessels and heart, pneumocytes when lining lung alveoli, and mesothelium when lining serous membranes (pleura, pericardium, peritoneum); it also lines Bowman's capsule of the kidney for filtration of blood.",
+    "Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei, functioning in secretion and reabsorption, sited in secretory acini of glands such as thyroid follicles and in convoluted tubules of the kidney.",
+    "Simple columnar epithelium is one layer of tall columnar cells with basal oval nuclei, functioning in secretion and absorption, lining the digestive tract such as stomach and small and large intestine.",
+    "Simple columnar ciliated epithelium adds cilia that transport fluid or particles over the surface in one direction; it lines the lower respiratory tract (lung bronchioles) to move secretions upwards and the uterus and fallopian tube to move the ovum.",
+    "Pseudostratified columnar epithelium is actually simple - one cell layer with all cells on the basement membrane - but some columnar cells do not reach the surface and crowding places nuclei at more than one level, giving a false stratified appearance.",
+    "Pseudostratified columnar epithelium has three forms: non-ciliated (vas deferens, membranous part of male urethra); ciliated with motile cilia and goblet cells, the respiratory epithelium of nose, trachea and bronchi (the goblet cell is a mucous-secreting cell); and ciliated with non-motile cilia (stereocilia, which are long microvilli not true cilia) in the epididymis.",
+    "Stratified epithelium is formed of more than one layer, its main function is protection, and it is classified by the shape of the superficial cells into stratified squamous, transitional (stratified cuboidal), stratified columnar and stratified cubical.",
+    "Stratified squamous epithelium has a clear wavy basement membrane, a basal layer of columnar cells with basal oval nuclei, intermediate layers of polyhedral cells with central rounded nuclei joined by desmosomes and becoming smaller towards the surface, and a superficial layer of flat cells with flat nuclei.",
+    "Stratified squamous epithelium is non-keratinised (no keratin; oral cavity, oesophagus, cornea, anal canal, tip of urethra, vagina) or keratinised (covered by a keratin layer; epidermis of skin).",
+    "Transitional epithelium has a non-clear, non-wavy basement membrane, a basal layer of cuboidal cells with central rounded nuclei, intermediate polyhedral cells that are pushed laterally in the full bladder to decrease epithelial thickness, and dome-shaped superficial cells with an upper convex surface joined by junctional complexes whose luminal surface is covered by rigid plaques acting as a barrier; the superficial cells become flat in the full bladder.",
+    "Transitional epithelium lines the urinary tract - prostatic urethra, pelvis of ureter, ureter and urinary bladder - and is called urothelium; it provides distensibility and protection against the cytotoxic effect of urine.",
+    "Stratified cubical epithelium is a rare type of few (usually two) layers of cubical cells as in the ducts of sweat glands.",
+    "Stratified columnar epithelium resembles stratified squamous but with few layers and columnar superficial cells; ciliated in fetal oesophagus (rare) and non-ciliated at the recto-anal junction, in large ducts of glands and in the penile part of the male urethra."
+   ],
+   "definitions": [
+    {
+     "term": "Epithelial tissue",
+     "text": "Tissue of crowded cells with minimal intercellular space that mostly covers outer surfaces or lines the surfaces of cavities, resting on a basement membrane and avascular."
+    },
+    {
+     "term": "Endothelium",
+     "text": "Simple squamous epithelium lining blood vessels and heart."
+    },
+    {
+     "term": "Mesothelium",
+     "text": "Simple squamous epithelium lining serous membranes."
+    },
+    {
+     "term": "Pseudostratified columnar epithelium",
+     "text": "One cell layer in which some columnar cells do not reach the surface and crowded nuclei lie at more than one level, giving a false stratified appearance."
+    },
+    {
+     "term": "Urothelium",
+     "text": "Transitional epithelium lining the urinary tract."
+    },
+    {
+     "term": "Goblet cell",
+     "text": "A mucous-secreting cell."
+    },
+    {
+     "term": "Metaplasia",
+     "text": "Transformation of one type of epithelium into another under certain abnormal conditions."
+    }
+   ],
+   "numbers": [
+    "Stratified squamous epithelium 5-30 layers",
+    "Transitional epithelium 6-8 layers in the empty bladder and 3-4 layers in the full bladder",
+    "Stratified cubical epithelium usually 2 layers",
+    "5 types of simple epithelium",
+    "4 types of stratified epithelium",
+    "3 embryonic origins of epithelium",
+    "4 classes of epithelial tissue"
+   ],
+   "classifications": [
+    {
+     "of": "Epithelial tissue",
+     "items": [
+      "Surface epithelium",
+      "Glandular epithelium",
+      "Neuro-epithelium",
+      "Myo-epithelium"
+     ]
+    },
+    {
+     "of": "Origin of epithelial tissue",
+     "items": [
+      "Ectodermal e.g. skin",
+      "Mesodermal e.g. serous membranes",
+      "Endodermal e.g. gastrointestinal tract"
+     ]
+    },
+    {
+     "of": "Simple epithelium",
+     "items": [
+      "Simple squamous",
+      "Simple cubical",
+      "Simple columnar",
+      "Simple columnar ciliated",
+      "Pseudostratified columnar"
+     ]
+    },
+    {
+     "of": "Pseudostratified columnar epithelium",
+     "items": [
+      "Non-ciliated",
+      "Ciliated with motile cilia and goblet cells (respiratory epithelium)",
+      "Ciliated with non-motile cilia (stereocilia)"
+     ]
+    },
+    {
+     "of": "Stratified epithelium",
+     "items": [
+      "Stratified squamous",
+      "Transitional (stratified cuboidal)",
+      "Stratified columnar",
+      "Stratified cubical"
+     ]
+    },
+    {
+     "of": "Stratified squamous epithelium subtypes",
+     "items": [
+      "Non-keratinized: oral cavity, oesophagus, cornea, anal canal, tip of urethra, vagina",
+      "Keratinized: epidermis of skin"
+     ]
+    },
+    {
+     "of": "Names of simple squamous epithelium by site",
+     "items": [
+      "Endothelium - blood vessels and heart",
+      "Pneumocytes - lung alveoli",
+      "Mesothelium - pleura, pericardium, peritoneum",
+      "Lining of Bowman's capsule - kidney"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 52,
+     "caption": "Unlabelled LM drawings of simple squamous, simple cubical and simple columnar epithelium beside their text blocks",
+     "kind": "diagram"
+    },
+    {
+     "page": 53,
+     "caption": "Unlabelled drawings of simple columnar ciliated and the three pseudostratified columnar types",
+     "kind": "diagram"
+    },
+    {
+     "page": 55,
+     "caption": "Stratified squamous versus Transitional epithelium - comparative table of number of layers, basement membrane, basal, intermediate and superficial layers, subtypes and sites, and function",
+     "kind": "table"
+    },
+    {
+     "page": 56,
+     "caption": "Keratinized stratified squamous epithelium (keratin labelled) and Non-keratinized stratified squamous epithelium",
+     "kind": "micrograph"
+    },
+    {
+     "page": 56,
+     "caption": "Empty bladder and Full bladder transitional epithelium",
+     "kind": "micrograph"
+    },
+    {
+     "page": 56,
+     "caption": "Unlabelled drawings of stratified cubical and stratified columnar epithelium",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: metaplasia - under certain abnormal conditions one type of epithelium may transform into another, e.g. in heavy cigarette smokers the pseudostratified columnar ciliated epithelium lining the bronchi may transform into stratified squamous epithelium, and in bilharziasis the epithelium of the urinary bladder may change into stratified squamous epithelium.",
+    "Chapter V opens with 10 ILOs covering the four main tissues, epithelial definition, origin and types, simple and stratified epithelium, glandular epithelium and its classification, neuroepithelium, myoepithelium and epithelial specialisations."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Epithelial Tissues > Glandular Epithelium",
+   "bookTitle": "II- GLANDULAR EPITHELIUM",
+   "startPage": 57,
+   "endPage": 58,
+   "found": true,
+   "keyPoints": [
+    "Glandular epithelium is epithelium modified to act as a gland and produce secretion.",
+    "By the presence or absence of a duct, glands are exocrine, endocrine or mixed.",
+    "An exocrine gland has secretory cells (secretory portion) that form the secretion and ducts (excretory portion) that carry it outside the gland.",
+    "An endocrine (ductless) gland is groups of secretory cells with blood capillaries and no ducts; its hormone secretion is carried by blood to different parts of the body.",
+    "A mixed gland has an exocrine part with a duct system and an endocrine part without.",
+    "Exocrine glands are classified by number of cells into unicellular (one cell) and multicellular (more than one cell).",
+    "By nature of secretion glands are watery, serous (watery secretion with enzymes) or mucous.",
+    "By mode of secretion: merocrine (the most common - secretion discharged by exocytosis with no change in the secretory cell); apocrine (secretion released with the apex of the cell); holocrine (secretion accumulates, the swollen cell ruptures and the whole cell is lost with the secretion).",
+    "By branching of the duct: a simple gland has a single non-branching duct (called simple branched when only the secretory portion branches), while a compound gland has a duct branching like a tree, each branch carrying a secretory part.",
+    "By shape of the secretory part: tubular (secretory unit a tube), alveolar/acinar (secretory unit rounded) or tubuloalveolar (secretory part flask-shaped).",
+    "Because every exocrine gland consists of secretory parts and ducts, the book presents a combined nine-way classification: simple tubular, simple branched tubular, simple coiled tubular, compound tubular; simple alveolar, simple branched alveolar, compound alveolar; simple tubulo-alveolar, simple branched tubulo-alveolar, compound tubulo-alveolar."
+   ],
+   "definitions": [
+    {
+     "term": "Glandular epithelium",
+     "text": "A type of epithelium which modifies to act as a gland and produce secretion."
+    },
+    {
+     "term": "Exocrine gland",
+     "text": "Gland formed of a secretory portion and ducts that carry the secretion outside the gland."
+    },
+    {
+     "term": "Endocrine gland",
+     "text": "Ductless gland formed of groups of secretory cells and blood capillaries whose hormone secretion is carried by blood."
+    },
+    {
+     "term": "Merocrine secretion",
+     "text": "Secretion discharged outside the cell by exocytosis with no change in the secretory cell."
+    },
+    {
+     "term": "Apocrine secretion",
+     "text": "Secretion released together with the apex of the cell."
+    },
+    {
+     "term": "Holocrine secretion",
+     "text": "Secretion accumulates in the cell, the swollen cell ruptures and the whole cell is lost with the secretion."
+    }
+   ],
+   "numbers": [
+    "5 criteria for classifying exocrine glands",
+    "3 modes of secretion",
+    "3 shapes of secretory part",
+    "3 gland classes by duct presence"
+   ],
+   "classifications": [
+    {
+     "of": "Glands by presence of duct",
+     "items": [
+      "Exocrine gland",
+      "Endocrine gland (ductless)",
+      "Mixed gland"
+     ]
+    },
+    {
+     "of": "Exocrine glands by number of cells",
+     "items": [
+      "Unicellular",
+      "Multicellular"
+     ]
+    },
+    {
+     "of": "Exocrine glands by nature of secretion",
+     "items": [
+      "Watery",
+      "Serous (watery with enzymes)",
+      "Mucous"
+     ]
+    },
+    {
+     "of": "Exocrine glands by mode of secretion",
+     "items": [
+      "Merocrine",
+      "Apocrine",
+      "Holocrine"
+     ]
+    },
+    {
+     "of": "Exocrine glands by branching of the duct",
+     "items": [
+      "Simple (and simple branched)",
+      "Compound"
+     ]
+    },
+    {
+     "of": "Exocrine glands by shape of secretory part",
+     "items": [
+      "Tubular",
+      "Alveolar (acinar)",
+      "Tubuloalveolar"
+     ]
+    },
+    {
+     "of": "Combined classification of exocrine glands",
+     "items": [
+      "Simple tubular",
+      "Simple branched tubular",
+      "Simple coiled tubular",
+      "Compound tubular",
+      "Simple alveolar",
+      "Simple branched alveolar",
+      "Compound alveolar",
+      "Simple tubulo-alveolar",
+      "Simple branched tubulo-alveolar",
+      "Compound tubulo-alveolar"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 58,
+     "caption": "Diagrams of tubular glands: simple tubular, simple branched tubular, simple coiled tubular, compound tubular",
+     "kind": "diagram"
+    },
+    {
+     "page": 58,
+     "caption": "Diagrams of alveolar glands: simple alveolar, simple branched alveolar, compound alveolar",
+     "kind": "diagram"
+    },
+    {
+     "page": 58,
+     "caption": "Diagrams of tubulo-alveolar glands: simple, simple branched, compound",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "The named gland examples for each mode of secretion are not given in the text; only the mechanisms are described."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Epithelial Tissues > Neuro Epithelium",
+   "bookTitle": "III- NEURO-EPITHELIUM",
+   "startPage": 59,
+   "endPage": 59,
+   "found": true,
+   "keyPoints": [
+    "Neuro-epithelium is a special type of epithelial tissue.",
+    "Its epithelial cells, called sensory cells, are modified to act as receptors and receive stimuli for some sensation.",
+    "The most common example given is the taste buds in the tongue for taste sensation."
+   ],
+   "definitions": [
+    {
+     "term": "Neuro-epithelium",
+     "text": "Special epithelial tissue whose cells (sensory cells) are modified to act as receptors and receive stimuli for some sensation."
+    }
+   ],
+   "numbers": [],
+   "classifications": [],
+   "figures": [
+    {
+     "page": 59,
+     "caption": "Unlabelled image of a taste bud accompanying the neuro-epithelium text",
+     "kind": "micrograph"
+    }
+   ],
+   "appliedNotes": [
+    "This is one of the shortest sections in the book - three bullet points and one image; the tree node exists but the book teaches it only at outline depth."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Epithelial Tissues > Myo Epithelium",
+   "bookTitle": "VI- MYO-EPITHELIUM",
+   "startPage": 59,
+   "endPage": 59,
+   "found": true,
+   "keyPoints": [
+    "Myo-epithelial cells are a special type of epithelium modified to contract.",
+    "They lie between the base of the secretory cells and their basement membrane.",
+    "When they contract they squeeze the secretory cells to discharge their secretion into the ducts.",
+    "Examples given are around the acini of salivary glands, mammary glands and sweat glands."
+   ],
+   "definitions": [
+    {
+     "term": "Myo-epithelium",
+     "text": "Special type of epithelium modified to contract, lying between the base of secretory cells and their basement membrane."
+    }
+   ],
+   "numbers": [],
+   "classifications": [
+    {
+     "of": "Sites of myo-epithelial cells",
+     "items": [
+      "Around acini of salivary glands",
+      "Mammary glands",
+      "Sweat glands"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 59,
+     "caption": "Unlabelled diagram of myo-epithelial cells around a secretory acinus",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "The book numbers this section 'VI- MYO- EPITHELIUM' although it is the fourth class of epithelium listed; the numbering appears to be a typographic error for IV."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations",
+   "bookTitle": "Cell Polarity and Membranous Specializations",
+   "startPage": 60,
+   "endPage": 62,
+   "found": true,
+   "keyPoints": [
+    "Membranous specialisations are grouped as apical, lateral and basal.",
+    "Apical specialisations are cilia, flagella, microvilli and stereocilia; the book cross-refers these to the cytology chapter rather than repeating them.",
+    "Lateral membranes of epithelial cells are linked mainly by adhesive transmembrane protein molecules forming four recognised junctions.",
+    "Tight or occluding junction (zonula occludens): two adjacent cell membranes fuse at certain points via transmembrane protein molecules on each cell, completely encircling the apex of the cell like a belt, restricting passage of substances between adjacent cells.",
+    "Adherens junction (zonula adherens): the two membranes are separated by a wide intercellular space in which extracellular parts of transmembrane proteins are connected with the help of Ca2+ ions; on the cytoplasmic side condensed protein molecules bind them to actin filaments; it encircles the cell like a belt and provides lateral adhesion.",
+    "Macula adherens (desmosome): wide intercellular space with Ca2+-dependent interconnection of transmembrane protein molecules; the thickened cytoplasmic side is the attachment plaque, composed of several proteins capable of anchoring intermediate filaments; it does not encircle the cell but is scattered as circular spots.",
+    "Desmosomes are present between epithelial cells especially in stratified squamous epithelium and are the strongest type of junction, providing firm adhesion to support surfaces subjected to friction.",
+    "The junctional complex usually includes three junction types - zonula occludens, zonula adherens and desmosomes - between adjacent cells, e.g. simple columnar cells lining the small intestine.",
+    "Gap junction (nexus, communicating junction): the two membranes are separated by a narrow gap but connected by narrow channels bridging the intercellular space, each channel formed of six symmetrical transmembrane protein molecules; it allows exchange of ions and small molecules between adjacent epithelial cells and passage of impulses between muscle cells.",
+    "Basal specialisations are hemidesmosomes, the basement membrane and basal infoldings.",
+    "Hemidesmosomes take the shape of half a desmosome at the basal part of basal cells and fix the epithelium to the underlying basement membrane and connective tissue.",
+    "The basement membrane is an amorphous dense layer next to the basal surface of epithelial cells, appearing as a red line with PAS or brown with silver; it may be clear (thick) as in skin or non-clear (thin) as in transitional epithelium.",
+    "By EM the basement membrane has two layers: the basal lamina (epithelial component), an electron-dense sheet of type IV collagen granules and glycoproteins, and the reticular lamina (connective tissue component) of type III collagen (reticular fibres) and ground substance; both are attached to the underlying connective tissue by structures including type VII collagen anchoring fibrils.",
+    "Basement membrane functions: supporting the epithelium and fixing it to connective tissue, and controlling the passage of molecules, e.g. in kidney capillaries and lung alveoli.",
+    "Basal infoldings are invaginations of the basal cell membrane that increase surface area, separated by vertically arranged mitochondria providing the energy for active transport; they occur in ion-transporting cells such as kidney tubules."
+   ],
+   "definitions": [
+    {
+     "term": "Zonula occludens (tight/occluding junction)",
+     "text": "Junction where two adjacent cell membranes fuse at points via transmembrane proteins, encircling the apex of the cell like a belt."
+    },
+    {
+     "term": "Zonula adherens (adherens junction)",
+     "text": "Belt-like junction where transmembrane proteins across a wide intercellular space are connected by Ca2+ and bound to actin filaments cytoplasmically."
+    },
+    {
+     "term": "Macula adherens (desmosome)",
+     "text": "Spot junction with a cytoplasmic attachment plaque anchoring intermediate filaments; the strongest type of junction."
+    },
+    {
+     "term": "Junctional complex",
+     "text": "Zonula occludens, zonula adherens and desmosomes present together between adjacent cells."
+    },
+    {
+     "term": "Gap junction (nexus)",
+     "text": "Communicating junction of narrow channels bridging a narrow intercellular gap."
+    },
+    {
+     "term": "Hemidesmosome",
+     "text": "Half-desmosome at the basal part of basal cells fixing epithelium to the basement membrane."
+    },
+    {
+     "term": "Basement membrane",
+     "text": "Amorphous dense layer located next to the basal surface of epithelial cells."
+    },
+    {
+     "term": "Basal lamina",
+     "text": "Epithelial component of the basement membrane; electron-dense sheet of type IV collagen granules and glycoproteins."
+    },
+    {
+     "term": "Reticular lamina",
+     "text": "Connective tissue component of the basement membrane; type III collagen (reticular fibres) and ground substance."
+    }
+   ],
+   "numbers": [
+    "4 types of lateral cell junction",
+    "Each gap junction channel formed of 6 symmetrical transmembrane protein molecules",
+    "Junctional complex = 3 junction types",
+    "Basement membrane = 2 EM layers"
+   ],
+   "classifications": [
+    {
+     "of": "Membranous specialisations",
+     "items": [
+      "Apical specialisations",
+      "Lateral specialisations (cell junctions)",
+      "Basal specialisations"
+     ]
+    },
+    {
+     "of": "Apical specialisations",
+     "items": [
+      "Cilia",
+      "Flagella",
+      "Microvilli",
+      "Stereocilia"
+     ]
+    },
+    {
+     "of": "Lateral specialisations (cell junctions)",
+     "items": [
+      "Tight or occluding junction (zonula occludens)",
+      "Adherens junction (zonula adherens)",
+      "Macula adherens (desmosomes)",
+      "Gap junction (nexus)"
+     ]
+    },
+    {
+     "of": "Basal specialisations",
+     "items": [
+      "Hemidesmosomes",
+      "Basement membrane",
+      "Basal infoldings"
+     ]
+    },
+    {
+     "of": "Layers of the basement membrane (EM)",
+     "items": [
+      "Basal lamina (epithelial component)",
+      "Reticular lamina (C.T. component)"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 60,
+     "caption": "Unlabelled diagrams of zonula occludens and zonula adherens beside their text",
+     "kind": "diagram"
+    },
+    {
+     "page": 61,
+     "caption": "Unlabelled diagram of macula adherens (desmosome) with attachment plaque",
+     "kind": "diagram"
+    },
+    {
+     "page": 61,
+     "caption": "Unlabelled diagram of the gap junction channel",
+     "kind": "diagram"
+    },
+    {
+     "page": 62,
+     "caption": "Unlabelled diagram of hemidesmosomes at the basal cell surface",
+     "kind": "diagram"
+    },
+    {
+     "page": 62,
+     "caption": "Unlabelled EM image of the basement membrane showing basal and reticular laminae",
+     "kind": "micrograph"
+    },
+    {
+     "page": 62,
+     "caption": "Unlabelled diagram of basal infoldings with vertically arranged mitochondria",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "The apical specialisations section is a cross-reference only: 'Cilia, flagella, microvilli and stereocilia: See the cytology (P. 21-22)' - printed pages 21-22, i.e. physical PDF pages 22-23 by the Part I offset, although the cytology text for these actually sits on printed pages 19-20.",
+    "Part I ends on physical page 63 with a REFERENCES list of eight standard histology textbooks (Cormack; Gartner and Hiatt; Junqueira and Carneiro; Mills; Ross, Kaye and Pawlina; Singh; Young and Heath). The subject tree has no node for this."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > General Embryology > Gametes",
+   "bookTitle": "Male & Female Gametes (Chapter 1)",
+   "startPage": 66,
+   "endPage": 67,
+   "found": true,
+   "keyPoints": [
+    "Male and female gametes are the reproductive cells formed from primordial germ cells by gametogenesis.",
+    "Gametogenesis takes place in the gonads - testis and ovary.",
+    "In the male gametogenesis starts at puberty and continues till old age.",
+    "In the female it starts in intrauterine life, is arrested, then continues from puberty till menopause through ovarian cycles.",
+    "The human sperm consists of head, neck, middle piece and tail.",
+    "The sperm head contains a condensed nucleus carrying the father's hereditary material, an acrosomal cap containing hyaluronidase and acrosin enzymes surrounding most of the nucleus, minimal cytoplasm and a surrounding cell membrane.",
+    "The neck is the narrow part between the head and the middle piece.",
+    "The middle piece is composed of a mitochondrial sheath around the proximal part of the axial filament and is the source of energy for sperm motility.",
+    "The tail is composed of an axial filament surrounded by minimal cytoplasm and cell membrane and directs the movement of the sperm towards the ovum during fertilisation.",
+    "The mature ovum consists of a secondary oocyte carrying the mother's hereditary material and a large cytoplasm that is the initial source of nutrition of the zygote.",
+    "The ovum is surrounded by three coverings from inner to outer: cell membrane, zona pellucida and corona radiata.",
+    "The zona pellucida is a glycoprotein coat surrounding the cell membrane that carries sperm receptors.",
+    "The corona radiata is the outer cover formed of follicular cells adherent to each other by hyaluronic acid."
+   ],
+   "definitions": [
+    {
+     "term": "Gametogenesis",
+     "text": "The process by which male and female gametes are formed from primordial germ cells."
+    },
+    {
+     "term": "Zona pellucida",
+     "text": "Glycoprotein coat surrounding the cell membrane of the oocyte, carrying sperm receptors."
+    },
+    {
+     "term": "Corona radiata",
+     "text": "Outer cover of the ovum formed of follicular cells adherent to each other by hyaluronic acid."
+    }
+   ],
+   "numbers": [
+    "Ovulation occurs on the 14th day of the ovarian cycle",
+    "Human sperm 55 microns long",
+    "Sperm head 4 microns long",
+    "Sperm middle piece 6 microns long",
+    "Sperm tail 45 microns long",
+    "Sperm nucleus carries 22 autosomes and X or Y chromosome",
+    "Mature ovum diameter about 120 microns",
+    "Oocyte nucleus carries 22 autosomes and X chromosome",
+    "3 coverings of the secondary oocyte"
+   ],
+   "classifications": [
+    {
+     "of": "Parts of the sperm",
+     "items": [
+      "Head",
+      "Neck",
+      "Middle piece",
+      "Tail"
+     ]
+    },
+    {
+     "of": "Contents of the sperm head",
+     "items": [
+      "Condensed nucleus",
+      "Acrosomal cap (hyaluronidase and acrosin)",
+      "Minimal cytoplasm",
+      "Cell membrane"
+     ]
+    },
+    {
+     "of": "Coverings of the ovum (inner to outer)",
+     "items": [
+      "Cell membrane",
+      "Zona pellucida",
+      "Corona radiata"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 66,
+     "caption": "Figure 1.1 - morphology of the sperm (male gamete)",
+     "kind": "diagram"
+    },
+    {
+     "page": 66,
+     "caption": "Figure 1.2 - morphology of the ovum (female gamete)",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter 1 ILOs: identify the morphology of the mature male gamete (sperm) and of the mature female gamete (ovum)."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > General Embryology > First Week of Development",
+   "bookTitle": "First Week of Development (Chapter 2)",
+   "startPage": 68,
+   "endPage": 71,
+   "found": true,
+   "keyPoints": [
+    "Fertilisation is the process by which sperm and ovum unite to form a zygote, occurring in the ampullary part of the uterine tube (lateral third).",
+    "Capacitation is the removal, in the female genital system, of the glycoprotein coat covering the acrosomal region of the sperms.",
+    "Phase I - dispersion of corona radiata cells: only a small fraction of ejaculated sperms reach the ovum and disperse the corona radiata by releasing hyaluronidase, opening passages between the cells.",
+    "Phase II - penetration of the zona pellucida (acrosomal reaction): sperms are drawn to the zona by specific receptors, the head binds the zona and triggers release of acrosin and trypsin-like material from the acrosomal cap, dissolving a path so the tail-propelled sperm reaches the oocyte cell membrane.",
+    "Phase III - opening of the cell membrane of the oocyte: the cell membranes of the fertilising sperm head and the oocyte fuse and open, letting the sperm nucleus, mitochondrial sheath and axial filament pass into the oocyte cytoplasm.",
+    "The cortical and zona reaction prevents polyspermy by releasing lysosomal enzymes from cortical granules lying inner to the oocyte cell membrane.",
+    "These enzymes change the structure of the sperm receptors in the zona pellucida to stop attracting more sperms, and make the cell membrane and zona pellucida impenetrable to other sperms.",
+    "After the sperm contents enter, the secondary oocyte nucleus completes the second meiotic division forming the nucleus of the ootid and the second polar body, and matures into the female pronucleus.",
+    "The sperm nucleus enlarges to become the male pronucleus, and the nuclear membranes of both pronuclei fuse to form the nucleus of the zygote.",
+    "Results of fertilisation: formation of the zygote; determination of sex, male (XY) or female (XX), according to the type of fertilising sperm; restoration of the diploid chromosome number; and the start of cleavage and migration from the fertilisation site to implantation in the uterine cavity.",
+    "Cleavage: the zygote divides mitotically within the zona pellucida into smaller blastomeres, progressing day by day to the morula and beyond.",
+    "The embryo migrates through the uterine tube to the uterine cavity by muscular peristalsis of the tube, moving cilia pushing it along, and mucus secretion from the tube which facilitates migration and provides nutrition.",
+    "Blastocyst formation: the morula reaches the uterine cavity, the zona pellucida begins to degenerate, uterine fluid passes through it forming multiple spaces between morula cells which fuse into a single cavity, the blastocele.",
+    "The blastocyst has an outer cell mass (trophoblast) forming its single-layered wall, an inner cell mass (embryoblast) lying inner to one side of the trophoblast, the blastocele cavity, an embryonic pole (trophoblast outer to the embryoblast) and an abembryonic pole on the opposite side."
+   ],
+   "definitions": [
+    {
+     "term": "Fertilization",
+     "text": "The process by which sperm and ovum unite to form a zygote."
+    },
+    {
+     "term": "Capacitation",
+     "text": "Removal of the glycoprotein coat covering the acrosomal region of the sperms in the female genital system."
+    },
+    {
+     "term": "Acrosomal reaction",
+     "text": "Phase II of fertilisation - binding of the sperm head to the zona pellucida triggering release of acrosin and trypsin-like enzymes that dissolve a path through it."
+    },
+    {
+     "term": "Cortical and zona reaction",
+     "text": "Process preventing polyspermy through release of lysosomal enzymes from cortical granules inner to the oocyte cell membrane."
+    },
+    {
+     "term": "Blastocele",
+     "text": "The cavity of the blastocyst."
+    },
+    {
+     "term": "Trophoblast",
+     "text": "Outer cell mass forming the single-cell-layer wall of the blastocyst."
+    },
+    {
+     "term": "Embryoblast",
+     "text": "Inner cell mass lying inner to one side of the trophoblast."
+    },
+    {
+     "term": "Embryonic pole",
+     "text": "Part of the trophoblast that lies outer to the embryoblast."
+    },
+    {
+     "term": "Abembryonic pole",
+     "text": "Part of the trophoblast on the side opposite to the embryonic pole."
+    }
+   ],
+   "numbers": [
+    "Capacitation takes about 7 hours",
+    "300-500 sperms out of 200-300 million per ejaculate reach the ovum",
+    "Day 1: 2 blastomeres",
+    "Day 2: 4 blastomeres",
+    "Day 3: 8 blastomeres, then 16 (morula), 32, 64 cells",
+    "Embryo reaches the uterine cavity on the 4th day",
+    "Zona pellucida starts to degenerate at the end of the 5th day",
+    "Blastocyst completes its development at the end of the 6th day",
+    "Diploid number 46 chromosomes; haploid 23 chromosomes"
+   ],
+   "classifications": [
+    {
+     "of": "Steps of fertilization",
+     "items": [
+      "Capacitation of sperms",
+      "Phase I - dispersion of corona radiata cells",
+      "Phase II - penetration of zona pellucida (acrosomal reaction)",
+      "Phase III - opening of the cell membrane of the oocyte"
+     ]
+    },
+    {
+     "of": "Results of fertilization",
+     "items": [
+      "Formation of the zygote",
+      "Determination of the sex of the zygote",
+      "Restoration of the diploid number of chromosomes",
+      "Start of cleavage and migration"
+     ]
+    },
+    {
+     "of": "Mechanisms of migration through the uterine tube",
+     "items": [
+      "Muscular peristalsis of the uterine tube",
+      "Moving cilia",
+      "Mucus secretion facilitating migration and providing nutrition"
+     ]
+    },
+    {
+     "of": "Structure of the blastocyst",
+     "items": [
+      "Outer cell mass (trophoblast)",
+      "Inner cell mass (embryoblast)",
+      "Blastocele",
+      "Embryonic pole",
+      "Abembryonic pole"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 68,
+     "caption": "Figure 2.1 - site of fertilization in the ampullary part of the uterine tube",
+     "kind": "diagram"
+    },
+    {
+     "page": 68,
+     "caption": "Figure 2.2 - steps of fertilization",
+     "kind": "diagram"
+    },
+    {
+     "page": 69,
+     "caption": "Figure 2.3 - cortical and zona reaction",
+     "kind": "diagram"
+    },
+    {
+     "page": 70,
+     "caption": "Figure 2.4 - cleavage and migration, and formation of the blastocyst",
+     "kind": "diagram"
+    },
+    {
+     "page": 71,
+     "caption": "Figure 2.5 - structure of the blastocyst",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter 2 ILOs: know the term fertilization; understand the steps of fertilization; figure out the expected results of fertilization; describe the cleavage and migration of the developing embryo and formation of the blastocyst.",
+    "Book states polyspermy is prevented by the cortical and zona reaction."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > General Embryology > Second Week of Development",
+   "bookTitle": "Second Week of Development (Chapter 3)",
+   "startPage": 72,
+   "endPage": 79,
+   "found": true,
+   "keyPoints": [
+    "Implantation is the process by which the blastocyst becomes embedded in the superficial layers of the endometrium.",
+    "It normally occurs in the endometrium of the upper part of the posterior wall of the uterus just below the fundus; less frequently in the upper part of the anterior wall.",
+    "At the beginning of implantation the endometrium is in the secretory phase, characterised by increased endometrial thickness, increased number and size of endometrial cells, spiral glands filled with secretion, and spiral arteries with increased arterio-venous anastomosis.",
+    "Implantation starts with adhesion of the blastocyst by its embryonic pole to the endometrium.",
+    "Trophoblast cells at the embryonic pole proliferate into a new outer layer that has no cell membranes - the syncytiotrophoblast - which grows as implantation progresses.",
+    "The syncytiotrophoblast forms proteolytic enzyme that erodes the endometrium to create the implantation cavity; the blastocyst enters it and becomes completely embedded, and the penetrated endometrial epithelium is blocked by a fibrin clot which the endometrial epithelium later proliferates to cover.",
+    "During implantation the trophoblast differentiates into an outer syncytiotrophoblast and an inner cytotrophoblast, the amniotic cavity and yolk sac form, and the bilaminar embryonic disc forms from the embryoblast.",
+    "Abnormal intrauterine implantation includes placenta previa (implantation in the lower uterine segment with the placenta related to the internal os) in complete/total, partial and marginal forms, and low-lying placenta.",
+    "Ectopic pregnancy may be tubal (ampulla, isthmus or intramural part), ovarian (on the surface of the ovary) or omental (on the surface of the peritoneum); tubal rupture with internal haemorrhage is expected.",
+    "The decidua is the endometrium after implantation; it thickens through increased number and size of endometrial cells, spiral dilated glands with increased secretion, and spiral arteries with arterio-venous anastomosis.",
+    "Parts of the decidua: decidua basalis between implanted embryo and myometrium; decidua capsularis covering the embryo and separating it from the uterine cavity; decidua parietalis lining the rest of the uterine cavity.",
+    "Fate of the decidua: the decidua basalis (decidual plate) persists to form the maternal part of the placenta, while capsularis and parietalis fuse with obliteration of the uterine cavity and are expelled after delivery.",
+    "Seventh day: the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, starting at the embryonic pole.",
+    "Eighth day: the blastocyst is partially embedded; the hypoblast forms from embryoblast cells facing the blastocele which become cuboidal; the amniotic cavity forms within the rest of the inner cell mass, separating amnioblast (in contact with cytotrophoblast, the first source of amniotic fluid, forming the roof of the amniotic cavity) from epiblast (tall columnar cells in contact with hypoblast, forming the floor); epiblast plus hypoblast form the bilaminar embryonic disc.",
+    "Ninth and tenth days: the blastocyst is completely embedded, the penetrated endometrial epithelium is closed by fibrin clot, the blastocele is transformed into the primary yolk sac after formation of Heuser's membrane (flat cells derived from hypoblast), almost the whole blastocyst wall is differentiated into syncytiotrophoblast and cytotrophoblast, and lacunar spaces appear in the syncytiotrophoblast (lacunar stage).",
+    "Eleventh and twelfth days: endometrial epithelium overgrows and covers the fibrin clot completing implantation; lacunar spaces fill with maternal blood forming the utero-placental circulation; extra-embryonic mesoderm cells derived from the yolk sac wall form between the cytotrophoblast externally and the embryonic disc with amniotic and yolk sac cavities internally; multiple large spaces appear in the loose extra-embryonic mesoderm.",
+    "Thirteenth day: spaces of the extra-embryonic coelom communicate to form a single chorionic cavity, and extra-embryonic mesoderm is distributed into somatic (somatopleuric) mesoderm lining the cytotrophoblast and covering the amniotic cavity, and splanchnic (splanchnopleuric) mesoderm covering the secondary yolk sac.",
+    "The chorion is the wall of the chorionic vesicle formed of three layers from inside out: somatic mesoderm, cytotrophoblast and syncytiotrophoblast.",
+    "The connecting stalk is the part of the extra-embryonic mesoderm that connects the chorion with the caudal end of the embryonic disc.",
+    "New endodermal cells from the hypoblast migrate to re-line the primary yolk sac, transforming it into the secondary yolk sac with pinching off of a large part and marked reduction in size; a diverticulum from the caudal wall of the secondary yolk sac extends into the connecting stalk and is called the allantois.",
+    "Formation of primary chorionic villi from the chorion begins."
+   ],
+   "definitions": [
+    {
+     "term": "Implantation",
+     "text": "The process by which the blastocyst becomes embedded in the superficial layers of endometrium."
+    },
+    {
+     "term": "Syncytiotrophoblast",
+     "text": "Outer trophoblast layer of cells that have no cell membrane, formed by proliferation at the embryonic pole."
+    },
+    {
+     "term": "Decidua",
+     "text": "The endometrium after implantation."
+    },
+    {
+     "term": "Heuser's membrane",
+     "text": "Membrane of flat cells derived from the hypoblast whose formation transforms the blastocele into the primary yolk sac."
+    },
+    {
+     "term": "Chorion",
+     "text": "The wall of the chorionic vesicle, formed of somatic mesoderm, cytotrophoblast and syncytiotrophoblast from inside outwards."
+    },
+    {
+     "term": "Connecting stalk",
+     "text": "Part of the extra-embryonic mesoderm connecting the chorion with the caudal end of the embryonic disc."
+    },
+    {
+     "term": "Allantois",
+     "text": "Diverticulum from the caudal wall of the secondary yolk sac extending inside the connecting stalk."
+    },
+    {
+     "term": "Placenta previa",
+     "text": "Implantation in the lower segment of the uterine cavity where the placenta is related to the internal os."
+    },
+    {
+     "term": "Low lying placenta",
+     "text": "Implantation in the lower uterine segment where the lower edge of the placenta lies within two cm of the margin of the internal os."
+    }
+   ],
+   "numbers": [
+    "Implantation begins on the 7th gestational day and is completed on the 11th",
+    "Blastocyst completely embedded on the 9th day",
+    "Endometrial epithelium covers the fibrin clot on the 11th day",
+    "Amniotic cavity forms at the 8th day, yolk sac at the 9th day",
+    "Low lying placenta: lower edge within 2 cm of the internal os",
+    "Tubal rupture with internal haemorrhage expected maximally at the 8th week of pregnancy",
+    "3 parts of the decidua",
+    "Chorion formed of 3 layers"
+   ],
+   "classifications": [
+    {
+     "of": "Changes of the blastocyst during implantation",
+     "items": [
+      "Trophoblast differentiates into syncytiotrophoblast and cytotrophoblast",
+      "Formation of amniotic cavity and yolk sac",
+      "Formation of bilaminar embryonic disc"
+     ]
+    },
+    {
+     "of": "Abnormal sites of implantation",
+     "items": [
+      "Intrauterine: placenta previa (complete, partial, marginal)",
+      "Intrauterine: low lying placenta",
+      "Ectopic: tubal (ampulla, isthmus, intramural)",
+      "Ectopic: ovarian",
+      "Ectopic: omental"
+     ]
+    },
+    {
+     "of": "Parts of decidua",
+     "items": [
+      "Decidua basalis",
+      "Decidua capsularis",
+      "Decidua parietalis"
+     ]
+    },
+    {
+     "of": "Layers of the chorion (inside to outside)",
+     "items": [
+      "Somatic mesoderm",
+      "Cytotrophoblast",
+      "Syncytiotrophoblast"
+     ]
+    },
+    {
+     "of": "Extra-embryonic mesoderm",
+     "items": [
+      "Somatic (somatopleuric) mesoderm",
+      "Splanchnic (splanchnopleuric) mesoderm"
+     ]
+    },
+    {
+     "of": "Layers of the bilaminar embryonic disc",
+     "items": [
+      "Epiblast",
+      "Hypoblast"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 72,
+     "caption": "Figure 3.1 - features of the endometrium of implantation",
+     "kind": "diagram"
+    },
+    {
+     "page": 73,
+     "caption": "Figure 3.2 - mechanism of implantation",
+     "kind": "diagram"
+    },
+    {
+     "page": 74,
+     "caption": "Figures 3.3 and 3.4 - abnormal sites of implantation (placenta previa types and ectopic pregnancy sites)",
+     "kind": "diagram"
+    },
+    {
+     "page": 75,
+     "caption": "Figure 3.5 - decidua and its parts",
+     "kind": "diagram"
+    },
+    {
+     "page": 75,
+     "caption": "Figure 3.6 - seventh gestational day",
+     "kind": "diagram"
+    },
+    {
+     "page": 76,
+     "caption": "Figure 3.7 - eighth gestational day",
+     "kind": "diagram"
+    },
+    {
+     "page": 77,
+     "caption": "Figure 3.8 - ninth and tenth gestational days",
+     "kind": "diagram"
+    },
+    {
+     "page": 77,
+     "caption": "Figure 3.9 - eleventh and twelfth gestational days",
+     "kind": "diagram"
+    },
+    {
+     "page": 78,
+     "caption": "Figure 3.10 - thirteenth gestational day",
+     "kind": "diagram"
+    },
+    {
+     "page": 78,
+     "caption": "Figure 3.11 - allantois",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter 3 ILOs: define implantation and describe its mechanism; be oriented about abnormal sites of implantation; recognise decidua and understand its parts; know the steps of transformation of the blastocyst to the chorionic vesicle.",
+    "Book states that in tubal ectopic pregnancy rupture of the tube with internal haemorrhage is expected."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > General Embryology > Third Week of Development",
+   "bookTitle": "Third Week of Development (Chapter 4)",
+   "startPage": 80,
+   "endPage": 86,
+   "found": true,
+   "keyPoints": [
+    "The most characteristic events of the third gestational week are formation of the chorionic villi and gastrulation of the embryonic disc.",
+    "Chorionic villi start forming at the end of the second week and complete at the end of the third week, passing through primary, secondary and tertiary stages.",
+    "Primary villi are a core of cytotrophoblast covered by syncytiotrophoblast, separated from each other by lacunar spaces.",
+    "Secondary villi form at the middle of the third week when somatic mesoderm is incorporated into the core; each has a somatic mesoderm core surrounded by cytotrophoblast and syncytiotrophoblast, separated by intervillous spaces.",
+    "Tertiary villi form by the end of the third week as fetal blood vessels develop within the mesodermal core; each villus from inside out is somatic mesoderm core with fetal blood vessels, cytotrophoblast layer and syncytiotrophoblast layer.",
+    "A cytotrophoblastic shell forms around the tertiary villi and intervillous spaces, originating from the cytotrophoblastic layer of the tertiary villi.",
+    "Parts of tertiary villi: the stem (anchoring) villus is the middle part extending between chorion and decidua basalis; free (floating or absorbing) villi are side branches from the stem that float in maternal blood in the intervillous spaces and are the site of exchange of nutrients and gases between maternal and fetal blood.",
+    "Parts of the chorion: chorion frondosum (chorionic plate) carries well developed tertiary villi and contacts the decidua basalis; chorion leave is the smooth remaining part carrying degenerated tertiary villi and covered by decidua capsularis.",
+    "Fate of the chorion: chorion frondosum persists as the fetal part of the placenta; chorion leave fuses with deciduae capsularis and parietalis and degenerates.",
+    "Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar disc, beginning with formation of the primitive streak and node in the epiblast layer.",
+    "The primitive streak is a median narrow groove with bulging sides in the midline of the caudal part of the epiblast, developed by proliferation and migration of epiblast cells towards the primitive groove.",
+    "The primitive node is a rounded bulge at the cranial end of the primitive streak with a middle primitive pit.",
+    "By invagination, epiblast cells passing through the primitive groove form the endodermal layer (replacing the hypoblast), the intra-embryonic mesoderm as a middle layer, and the notochord in the median region; the rest of the epiblast is called ectoderm, and its junction with the amnion is the amnio-ectodermal junction.",
+    "The book emphasises that all three layers of the embryonic disc are derived from the epiblast layer.",
+    "The bucco-pharyngeal (prochordal) membrane is a rounded area of fusion between ectoderm and endoderm at the cranial part of the embryonic disc; the cloacal membrane is the equivalent at the caudal part.",
+    "During the third gestational week the embryonic disc changes shape from oval to pear-shaped with a broader cranial part.",
+    "The notochord is the temporary primitive axial skeleton of the embryonic disc and develops in four steps.",
+    "Step 1 - prenotochordal process: a solid cord of epiblast cells derived from the primitive pit invaginates and extends cranially in the midline between ectoderm and endoderm until it reaches the bucco-pharyngeal membrane.",
+    "Step 2 - notochordal canal: the primitive pit cavity extends into the prenotochordal process, giving a roof in contact with ectoderm, a floor fused with endoderm in the midline, and a cavity continuous with the amniotic cavity.",
+    "Step 3 - neurenteric canal and notochordal plate: degeneration of the floor of the notochordal canal together with the fused median region of endoderm creates a temporary communication between amniotic cavity and yolk sac; the persistent roof and sides form the notochordal plate whose sides fuse with the remaining endoderm.",
+    "Step 4 - definitive notochord: the notochordal plate folds upon itself forming a solid notochord with no cavity, and the endoderm approximates and fuses on both sides so amniotic cavity and yolk sac regain their separation.",
+    "Importance of the notochord: it is the temporary primitive axial skeleton; during folding of the embryonic disc its firmness limits the head fold; and the vertebral column forms around it.",
+    "Fate of the notochord: most of it degenerates except the part within the intervertebral disc, which persists as the nucleus pulposus.",
+    "The intra-embryonic mesoderm is the middle layer between ectoderm and endoderm, derived from epiblast cells passing through the primitive streak and node during the third week.",
+    "Intra-embryonic mesoderm is absent at the bucco-pharyngeal and cloacal membranes (where ectoderm and endoderm fuse) and in the median region between primitive node and bucco-pharyngeal membrane (occupied by notochord and neural tube)."
+   ],
+   "definitions": [
+    {
+     "term": "Gastrulation",
+     "text": "The transformation of the bilaminar embryonic disc into a trilaminar disc."
+    },
+    {
+     "term": "Primitive streak",
+     "text": "Median narrow groove with bulging sides formed in the midline of the caudal part of the epiblast layer."
+    },
+    {
+     "term": "Primitive node",
+     "text": "Rounded bulge at the cranial end of the primitive streak with a middle primitive pit."
+    },
+    {
+     "term": "Bucco-pharyngeal (prochordal) membrane",
+     "text": "Rounded area of fusion between ectoderm and endoderm at the cranial part of the embryonic disc."
+    },
+    {
+     "term": "Cloacal membrane",
+     "text": "Rounded area of fusion between ectoderm and endoderm at the caudal part of the embryonic disc."
+    },
+    {
+     "term": "Notochord",
+     "text": "The temporary primitive axial skeleton of the embryonic disc."
+    },
+    {
+     "term": "Neurenteric canal",
+     "text": "Temporary communication between amniotic cavity and yolk sac."
+    },
+    {
+     "term": "Chorion frondosum (chorionic plate)",
+     "text": "Part of the chorion carrying well developed tertiary villi, in contact with the decidua basalis."
+    },
+    {
+     "term": "Chorion leave",
+     "text": "Smooth remaining part of the chorion carrying degenerated tertiary villi, covered by decidua capsularis."
+    },
+    {
+     "term": "Stem (anchoring) villus",
+     "text": "Middle part of the tertiary villus extending between chorion and decidua basalis."
+    },
+    {
+     "term": "Free (floating, absorbing) villi",
+     "text": "Side branches from the stem villus that float in maternal blood in the intervillous spaces, where exchange occurs."
+    }
+   ],
+   "numbers": [
+    "Chorionic villi form from the end of week 2 to the end of week 3",
+    "Secondary villi appear at the middle of the third week",
+    "Tertiary villi appear by the end of the third week",
+    "3 types of chorionic villi",
+    "3 layers of the tertiary villus",
+    "4 steps of notochord development",
+    "2 parts of the chorion"
+   ],
+   "classifications": [
+    {
+     "of": "Types of chorionic villi",
+     "items": [
+      "Primary villi",
+      "Secondary villi",
+      "Tertiary villi"
+     ]
+    },
+    {
+     "of": "Structure of the tertiary villus (inside out)",
+     "items": [
+      "Somatic mesoderm core with fetal blood vessels",
+      "Cytotrophoblast layer",
+      "Syncytiotrophoblast layer"
+     ]
+    },
+    {
+     "of": "Parts of tertiary villi",
+     "items": [
+      "Stem (anchoring) villus",
+      "Free (floating or absorbing) villi"
+     ]
+    },
+    {
+     "of": "Parts of the chorion",
+     "items": [
+      "Chorion frondosum (chorionic plate)",
+      "Chorion leave"
+     ]
+    },
+    {
+     "of": "Products of invagination during gastrulation",
+     "items": [
+      "Endodermal layer replacing the hypoblast",
+      "Intra-embryonic mesoderm",
+      "Notochord",
+      "Remaining epiblast = ectoderm"
+     ]
+    },
+    {
+     "of": "Steps of notochord development",
+     "items": [
+      "Prenotochordal process",
+      "Notochordal canal",
+      "Neurenteric canal and notochordal plate",
+      "Definitive notochord"
+     ]
+    },
+    {
+     "of": "Importance of the notochord",
+     "items": [
+      "Temporary primitive axial skeleton",
+      "Its firmness limits the head fold during folding",
+      "Vertebral column forms around it"
+     ]
+    },
+    {
+     "of": "Regions lacking intra-embryonic mesoderm",
+     "items": [
+      "Bucco-pharyngeal membrane",
+      "Cloacal membrane",
+      "Median region between primitive node and bucco-pharyngeal membrane"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 80,
+     "caption": "Figure 4.1 - primary and secondary chorionic villi",
+     "kind": "diagram"
+    },
+    {
+     "page": 81,
+     "caption": "Figures 4.2 and 4.3 - tertiary chorionic villi and parts of the chorion",
+     "kind": "diagram"
+    },
+    {
+     "page": 82,
+     "caption": "Figure 4.4 - gastrulation",
+     "kind": "diagram"
+    },
+    {
+     "page": 82,
+     "caption": "Figure 4.5 - embryonic disc changing from oval to pear shape",
+     "kind": "diagram"
+    },
+    {
+     "page": 83,
+     "caption": "Figure 4.6 - prenotochordal process",
+     "kind": "diagram"
+    },
+    {
+     "page": 84,
+     "caption": "Figure 4.7 - notochordal canal",
+     "kind": "diagram"
+    },
+    {
+     "page": 84,
+     "caption": "Figure 4.8 - neurenteric canal and notochordal plate",
+     "kind": "diagram"
+    },
+    {
+     "page": 85,
+     "caption": "Figure 4.9 - definitive notochord",
+     "kind": "diagram"
+    },
+    {
+     "page": 85,
+     "caption": "Figure 4.10 - fate of notochord",
+     "kind": "diagram"
+    },
+    {
+     "page": 86,
+     "caption": "Figure 4.11 - intra-embryonic mesoderm",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter 4 ILOs: trace the changes in the embryo during the 3rd week; describe the development of chorionic villi at primary, secondary and tertiary stages; cite the parts of the tertiary villus and the function of each; recognise the parts of the chorionic villi and the fate of each; define and describe gastrulation; describe the stages of notochord formation, its functions and fate; review the site and differentiation of the intraembryonic mesoderm.",
+    "Book states the nucleus pulposus of the intervertebral disc is the persisting remnant of the notochord."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > General Embryology > Embryonic Period",
+   "bookTitle": "Embryonic Period (Chapter 5)",
+   "startPage": 87,
+   "endPage": 93,
+   "found": true,
+   "keyPoints": [
+    "The embryonic period is the period of organogenesis.",
+    "Derivatives of ectoderm: central nervous system; derivatives of the neural crest; otic and lens placodes forming internal ear and lens of the eye; peripheral nerves and sensory epithelium of ear, nose and eye; epidermis of the skin; pituitary gland; and the beginning and end of the digestive tract.",
+    "Derivatives of endoderm - mucous lining epithelium: digestive system except its beginning and end, respiratory tract, most of urinary bladder and urethra, tympanic cavity and Eustachian tube.",
+    "Derivatives of endoderm - glandular epithelium: parenchyma of liver, pancreas, thyroid, thymus, tonsils (palatine and nasopharyngeal) and parathyroid glands.",
+    "The intra-embryonic mesoderm divides into paraxial mesoderm (both sides of notochord and neural tube, from the cranial part of the primitive streak), intermediate mesoderm (between paraxial and lateral plate, from the middle part of the streak) and lateral plate mesoderm (lateral to intermediate, from the caudal part of the streak).",
+    "Paraxial mesoderm divides transversely into segments called somites; segmentation begins at the occipital region and extends caudally to the coccygeal region. Somitomeres are smaller segments cephalic to the first occipital somite.",
+    "The somite period runs while segmentation is regular, then continues at a slower irregular rate.",
+    "Somites are regionally classified from cranial to caudal into occipital, cervical, thoracic, lumbar, sacral and coccygeal pairs.",
+    "The book gives a formula for determining the age of the embryo during the somite period from the number of somites.",
+    "Each somite divides obliquely into a ventromedial sclerotome and a dorsolateral dermomyotome.",
+    "Sclerotome cells migrate medially to surround the notochord and neural tube, forming the vertebrae and intervertebral discs.",
+    "The dermomyotome subdivides into dermatome (forming the dermis of the skin) and myotome (forming the skeletal muscles of the body); its dorsal part forms skeletal muscle and dermis on the back of the vertebral column and its ventral part those of the rest of the body, matching the dorsal and ventral primary rami of the spinal nerve.",
+    "Intermediate mesoderm forms the urogenital system.",
+    "Lateral plate mesoderm is continuous with the opposite side mainly cranial to the bucco-pharyngeal membrane and with extra-embryonic mesoderm at the margin of the disc; its cranial part is the septum transversum which forms the central tendon of the diaphragm, and the part between the serous pericardium and endoderm is the cardiogenic area.",
+    "The intra-embryonic coelom is a horse-shoe cavity formed inside the lateral plate mesoderm whose caudal ends communicate with the extra-embryonic coelom; it forms the serous sacs of the body - serous pericardium, pleura and peritoneal canals.",
+    "The coelom splits the lateral plate mesoderm into somatopleuric (somatic) mesoderm in contact with ectoderm, forming the lining connective tissue of the trunk wall and the parietal layers of the serous sacs, and splanchnopleuric (splanchnic) mesoderm in contact with endoderm, forming connective tissue and smooth muscle of gut and respiratory tract, cardiac muscle and the visceral layers of the serous sacs.",
+    "Folding of the embryonic disc is the process by which the disc is folded upon itself.",
+    "Causes of folding: expansion of the amniotic cavity producing longitudinal and transverse folding, and growth of neural tube and somites increasing longitudinal length with subsequent cephalo-caudal folding.",
+    "Types of folding: cephalo-caudal (longitudinal) folding giving head fold and tail fold, and transverse (lateral) folding giving right and left lateral folds.",
+    "The head fold is limited by the relatively firm notochord and the tail fold by the relatively firm primitive streak.",
+    "Steps of folding: expansion of the amniotic cavity shifts the amnio-ectodermal junction ventrally with dorsal bulging of the embryo into the amniotic cavity; cranio-caudal elongation from growth of neural tube and somites forms head and tail folds; and completed lateral folds give the embryo a cylindrical shape with the three layers arranged from outside inwards as ectoderm, mesoderm and endoderm.",
+    "Results of folding include transformation into a cylindrical body with a body cavity, the amniotic cavity surrounding the embryo, and formation of the primitive umbilical ring - the defect in the ventral abdominal wall where the lateral folds fail to fuse because of the connecting stalk, allantois and vitelline duct.",
+    "The gut mucosa forms from endoderm and the gut is divided into foregut in the head fold, hindgut in the tail fold and midgut in the middle between the lateral folds; the secondary yolk sac is compressed to form the vitelline (vitello-intestinal) duct connected to the midgut.",
+    "Folding also produces the forebrain bulge from the growing forebrain, the pericardial bulge from the growing heart and pericardium, and the stomodeum - an ectodermal depression between the forebrain and pericardial bulges separated from the foregut by the bucco-pharyngeal membrane.",
+    "Ventral and dorsal mesenteries form as the two peritoneal canals approach the gut and meet on its ventral and dorsal aspects.",
+    "Reversal of position: in the head fold the septum transversum becomes caudal instead of being most cranial, and the bucco-pharyngeal membrane becomes the most cranial structure; in the tail fold the connecting stalk with allantois becomes more cranial and ventral, and the cloacal membrane becomes the most caudal."
+   ],
+   "definitions": [
+    {
+     "term": "Embryonic period",
+     "text": "The period of organogenesis."
+    },
+    {
+     "term": "Somites",
+     "text": "Segmented masses of paraxial mesoderm."
+    },
+    {
+     "term": "Somitomeres",
+     "text": "Smaller segments present cephalic to the first occipital somite."
+    },
+    {
+     "term": "Sclerotome",
+     "text": "Ventromedial part of the somite whose cells migrate medially around notochord and neural tube to form vertebrae and intervertebral discs."
+    },
+    {
+     "term": "Dermomyotome",
+     "text": "Dorsolateral part of the somite, subdivided into dermatome and myotome."
+    },
+    {
+     "term": "Septum transversum",
+     "text": "Cranial part of the lateral plate mesoderm that forms the central tendon of the diaphragm."
+    },
+    {
+     "term": "Cardiogenic area",
+     "text": "Part of the lateral plate mesoderm lying between the serous pericardium and endoderm."
+    },
+    {
+     "term": "Intra-embryonic coelom",
+     "text": "Horse-shoe cavity formed inside the lateral plate mesoderm that forms the serous sacs of the body."
+    },
+    {
+     "term": "Primitive umbilical ring",
+     "text": "Defect in the ventral abdominal wall where the lateral folds fail to fuse because of the connecting stalk, allantois and vitelline duct."
+    },
+    {
+     "term": "Stomodeum",
+     "text": "Ectodermal depression between forebrain and pericardial bulges, separated from the foregut by the bucco-pharyngeal membrane."
+    }
+   ],
+   "numbers": [
+    "Embryonic period is from the 4th to the 8th gestational weeks",
+    "Intra-embryonic mesoderm divides into three parts on the 17th gestational day",
+    "First pair of occipital somites separates on the 20th gestational day",
+    "Three pairs of somites separate each day until the 30th gestational day",
+    "Somite period is from day 21 till day 30 (regular segmentation)",
+    "Segmentation continues at a slower irregular rate till the 35th or 40th day",
+    "42-44 pairs of somites by day 40",
+    "Somites: 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8-10 coccygeal pairs",
+    "Age in days = (number of somites - 1) / 3 + 20",
+    "Folding begins at the end of the third week and is completed at the end of the fourth week",
+    "10 results of folding listed"
+   ],
+   "classifications": [
+    {
+     "of": "Parts of the intra-embryonic mesoderm",
+     "items": [
+      "Paraxial mesoderm",
+      "Intermediate mesoderm",
+      "Lateral plate mesoderm"
+     ]
+    },
+    {
+     "of": "Differentiation of the somite",
+     "items": [
+      "Sclerotome",
+      "Dermomyotome (dermatome + myotome)"
+     ]
+    },
+    {
+     "of": "Regional classification of somites",
+     "items": [
+      "4 occipital pairs",
+      "8 cervical pairs",
+      "12 thoracic pairs",
+      "5 lumbar pairs",
+      "5 sacral pairs",
+      "8-10 coccygeal pairs"
+     ]
+    },
+    {
+     "of": "Division of lateral plate mesoderm by the coelom",
+     "items": [
+      "Somatopleuric (somatic) mesoderm",
+      "Splanchnopleuric (splanchnic) mesoderm"
+     ]
+    },
+    {
+     "of": "Types of folding",
+     "items": [
+      "Cephalo-caudal (longitudinal): head fold and tail fold",
+      "Transverse (lateral): right and left lateral folds"
+     ]
+    },
+    {
+     "of": "Divisions of the gut after folding",
+     "items": [
+      "Foregut - head fold",
+      "Midgut - between the lateral folds",
+      "Hindgut - tail fold"
+     ]
+    },
+    {
+     "of": "Derivatives of ectoderm",
+     "items": [
+      "Central nervous system",
+      "Derivatives of neural crest",
+      "Otic and lens placodes",
+      "Peripheral nerves and sensory epithelium of ear, nose, eye",
+      "Epidermis of the skin",
+      "Pituitary gland",
+      "Beginning and end of digestive tract"
+     ]
+    },
+    {
+     "of": "Derivatives of endoderm",
+     "items": [
+      "Mucous lining epithelium of digestive system (except beginning and end), respiratory tract, most of urinary bladder and urethra, tympanic cavity and Eustachian tube",
+      "Glandular epithelium: parenchyma of liver, pancreas, thyroid, thymus, tonsils and parathyroid glands"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 87,
+     "caption": "Figure 5.1 - differentiation of the intra-embryonic disc into paraxial, intermediate and lateral plate mesoderm",
+     "kind": "diagram"
+    },
+    {
+     "page": 88,
+     "caption": "Figures 5.2 and 5.3 - paraxial mesoderm, somites and their differentiation",
+     "kind": "diagram"
+    },
+    {
+     "page": 89,
+     "caption": "Unlabelled diagram of dermomyotome division and spinal nerve rami",
+     "kind": "diagram"
+    },
+    {
+     "page": 89,
+     "caption": "Figures 5.4 and 5.5 - lateral plate mesoderm and intra-embryonic coelom",
+     "kind": "diagram"
+    },
+    {
+     "page": 91,
+     "caption": "Figures 5.6 and 5.7 - steps of folding of the embryonic disc",
+     "kind": "diagram"
+    },
+    {
+     "page": 92,
+     "caption": "Figures 5.8 to 5.10 - results of folding",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter 5 ILOs: determine the embryonic period and its significance; list the structures and organs derived from each of the three germ layers.",
+    "The chapter lists ectodermal and endodermal derivatives but treats mesodermal derivatives through the separate intra-embryonic mesoderm section rather than as a matching list.",
+    "Book gives the somite age formula as: Age in days = (Number of somites - 1)/3 + 20."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > General Embryology > Fetal Membranes",
+   "bookTitle": "Fetal Membranes (Chapter 6)",
+   "startPage": 94,
+   "endPage": 105,
+   "found": true,
+   "keyPoints": [
+    "Fetal membranes are the tissues that protect, support and provide the embryo with nutrition: chorion and chorionic villi, placenta, amnion, umbilical cord and yolk sac.",
+    "The placenta is a temporary organ developing in the uterus during pregnancy, the vital connection between mother and developing fetus; it is disc-shaped and lies mostly in the upper segment of the posterior wall of the uterine cavity near the fundus.",
+    "The fetal surface is smooth, covered with transparent amnion, with the umbilical cord attached near its centre and umbilical vessels running on it to reach the tertiary villi; the maternal surface is fixed to the uterine wall, shows cotyledons separated by grooves, and is covered by a thin layer of decidua basalis.",
+    "The placenta is formed by union of a maternal part - the decidual plate (decidua basalis) - and a fetal part - the chorionic plate (chorion frondosum).",
+    "The chorionic plate is formed, from outside the placenta inwards, of amnion, somatopleuric extra-embryonic mesoderm, cytotrophoblast and syncytiotrophoblast, and carries the umbilical vessels entering (arteries) and leaving (veins) the villi.",
+    "The decidual plate is formed, from outside inwards, of decidua basalis containing maternal arterioles, venules and uterine glands, the cytotrophoblastic shell, and syncytiotrophoblast lining the intervillous spaces.",
+    "Each tertiary villus is composed, from its outer layer to its core, of syncytiotrophoblast, cytotrophoblast, somatic mesoderm and endothelium of fetal blood vessels; each has a stem (anchoring) part and absorbing (free or floating) parts.",
+    "Intervillous spaces are intercommunicating spaces between tertiary villi receiving their floating branches, containing maternal blood derived from uterine arterioles of the decidua basalis.",
+    "Placental (decidual) septa are incomplete septa extending from the decidual plate into the intervillous spaces, each with a core of decidua basalis covered by cytotrophoblast and syncytiotrophoblast; opposite each septum is a groove on the maternal surface separating the cotyledons.",
+    "Maternal placental circulation: arterial blood flows to the intervillous spaces through decidual arterioles and, after exchange, flows back to the decidual venules.",
+    "Fetal placental circulation: umbilical arteries carry fetal blood from fetus to placenta through the umbilical cord and run on the fetal surface to enter the tertiary villi; after exchange, fetal blood is drained through an umbilical vein back to the fetus.",
+    "The placental barrier separates maternal blood in the intervillous spaces from fetal blood in the tertiary villi. In early pregnancy it is syncytiotrophoblast, cytotrophoblast, somatic mesoderm and fetal vessel endothelium; in the second half of pregnancy it is only syncytiotrophoblast and fetal vessel endothelium, becoming thinner to allow rapid exchange for the larger fetus.",
+    "Placental barrier functions: separates fetal from maternal blood; permits exchange of nutrients, gases and waste products; prevents passage of bacteria and most viruses, with named exceptions; and mostly prevents passage of toxic material and maternal hormones.",
+    "Placental functions: exchange of metabolic products; exchange of gases; transmission of maternal antibodies to fetal blood so the fetus gains immunity; endocrine function; protective role; and excretory function removing fetal urea and creatinine.",
+    "Placental hormones: progesterone maintains the endometrium of pregnancy; oestrogen stimulates uterine growth and maturation of the mammary gland; human chorionic gonadotropin (HCG) maintains the corpus luteum and is used to detect pregnancy; somatomammotropin gives the fetus priority on maternal blood glucose and promotes breast development.",
+    "Congenital anomalies of the placenta are grouped by position, shape (bilobed or trilobed), number (twin or accessory placenta), attachment of the umbilical cord (velamentous - cord attached through the amniotic membrane; battledore - cord attached to the margin), diameter (placenta membranacea, thinner and wider) and infiltration (accreta, increta, percreta).",
+    "The amnion is the wall of the amniotic cavity; the amniotic cavity appears within the inner cell mass, after which the embryoblast differentiates into amnioblast cells adjacent to cytotrophoblast and epiblast cells adjacent to hypoblast, the amnio-ectodermal junction being where amnion meets the periphery of the ectoderm.",
+    "Expansion of the amniotic cavity causes folding of the embryonic disc with formation of the primitive umbilical ring, forms a sheath of amnion around the umbilical cord, covers the fetal surface of the placenta, brings amnion into contact with chorion forming the amniochorionic membrane with obliteration of the chorionic cavity, and finally brings that membrane with decidua capsularis into contact with decidua parietalis, obliterating the uterine cavity.",
+    "Amniotic fluid is a clear watery fluid of water, electrolytes, protein, carbohydrates, lipids, phospholipids and urea; it is first produced by amnioblast cells, then derived from maternal blood by osmosis, and fetal urine is added after kidney development.",
+    "Functions of amniotic fluid in early pregnancy: shock absorber protecting the fetus from external trauma, thermal insulator ensuring constant fetal temperature, prevention of adhesion of the fetus to the uterine wall and of fetal body parts to each other.",
+    "Functions in late pregnancy: space for fetal movements essential for development of fetal muscles, space for accumulation of fetal urine, and a medium the fetus starts to swallow to learn how to suckle.",
+    "Functions during delivery: protects the fetus against uterine contractions, the fore bag of the amniotic sac helps gradual dilatation of the cervical canal, rupture of the amniotic sac is the sign of the start of labour, and sterile amniotic fluid washes the vagina just before passage of the fetus.",
+    "The book states that amniotic fluid contains considerable amounts of stem cells and is a source of stem cells.",
+    "Polyhydramnios is increased amniotic fluid at full term, with causes including unknown cause in a third of cases, maternal diabetes, congenital malformation of the oesophagus (e.g. oesophageal atresia) interfering with fetal swallowing, and CNS malformation such as anencephaly.",
+    "Oligohydramnios is decreased amniotic fluid at full term and may result from bilateral renal agenesis or obstruction of the urinary tract.",
+    "The umbilical cord connects the fetus with the placenta, extending between the fetal surface of the placenta and the ventral aspect of the fetal abdominal wall; it is tortuous because of the wavy course of the umbilical arteries, and a wider curve of an umbilical artery may form a false knot with no fetal stress.",
+    "The cord contains two umbilical arteries and one umbilical vein embedded in Wharton's jelly and ensheathed with amnion; it transmits fetal blood between fetus and placenta and allows free mobility of the fetus.",
+    "Development of the cord: the primitive umbilical ring forms during the 4th week as the expanding amniotic cavity folds the disc and shifts the amnio-ectodermal junction ventrally; its contents are the allantois and umbilical vessels inside the connecting stalk and the vitelline duct with vitelline vessels.",
+    "The primitive umbilical cord forms when amnion ensheathes the structures passing through the ring; its contents are the secondary yolk sac, vitelline duct and vessels, the connecting stalk, remnant of allantois and umbilical vessels, and later the herniated intestinal loops (physiological umbilical hernia).",
+    "The definitive umbilical cord forms when the intestinal loop returns to the abdominal cavity, one umbilical vein and the extra-embryonic part of the vitelline vessels obliterate, the vitelline duct, secondary yolk sac and extra-embryonic allantois degenerate, and Wharton's jelly forms from the mesoderm of the connecting stalk.",
+    "Congenital anomalies of the cord: short cord limiting fetal movement and causing premature separation of placenta during delivery; long cord which may encircle the fetal neck or form a true knot; congenital umbilical hernia (omphalocele) from failure of return of the intestine; presence of one umbilical artery from degeneration of the other; and abnormal attachment to the placenta (battledore, or ending outside the placenta with vessels running through the amnion).",
+    "The primary yolk sac forms when flat cells derived from hypoblast form Heuser's membrane lining the blastocele; the secondary (definitive) yolk sac forms by new hypoblast-derived cells lining Heuser's membrane, size reduction by pinching off from the growing chorionic cavity, and formation of the allantois as a diverticulum from its caudal wall into the connecting stalk.",
+    "After folding, the secondary yolk sac is compressed to form the vitelline (vitello-intestinal) duct connecting the midgut with the part of the yolk sac outside the folded disc; the secondary yolk sac and vitelline duct are gradually reduced and finally degenerate.",
+    "Functions of the yolk sac: shares with endoderm in formation of the gut; forms the apex of the urinary bladder from the proximal part of the allantois; primordial germ cells develop when epiblast migrates to the wall of its caudal part; blood vessels of the gut develop in the mesoderm around the vitelline duct, the intra-embryonic part forming gut blood supply while the extra-embryonic part disappears; and blood cells develop in its splanchnic extra-embryonic mesoderm in early pregnancy."
+   ],
+   "definitions": [
+    {
+     "term": "Fetal membranes",
+     "text": "Tissues that play an important role in protection, support and providing the embryo with nutrition."
+    },
+    {
+     "term": "Cotyledons",
+     "text": "Elevations on the maternal surface of the placenta separated from each other by grooves."
+    },
+    {
+     "term": "Intervillous spaces",
+     "text": "Intercommunicating spaces between tertiary villi that receive their floating branches and contain maternal blood."
+    },
+    {
+     "term": "Placental (decidual) septa",
+     "text": "Incomplete septa extending from the decidual plate into the cavity of the intervillous spaces."
+    },
+    {
+     "term": "Placental barrier (membrane)",
+     "text": "Membrane separating maternal blood in the intervillous spaces from fetal blood in the tertiary villi."
+    },
+    {
+     "term": "Amnion",
+     "text": "The wall of the amniotic cavity."
+    },
+    {
+     "term": "Amnio-ectodermal junction",
+     "text": "The meeting between amnion and the periphery of the ectoderm."
+    },
+    {
+     "term": "Polyhydramnios",
+     "text": "Increased amniotic fluid at full term."
+    },
+    {
+     "term": "Oligohydramnios",
+     "text": "Decreased amniotic fluid at full term."
+    },
+    {
+     "term": "Velamentous placenta",
+     "text": "The umbilical cord is attached to the placenta through the amniotic membrane."
+    },
+    {
+     "term": "Battledore placenta",
+     "text": "The umbilical cord is attached to the margin of the placenta."
+    },
+    {
+     "term": "Placenta membranacea",
+     "text": "A thinner and wider placenta."
+    },
+    {
+     "term": "Omphalocele (congenital umbilical hernia)",
+     "text": "The proximal part of the cord contains loops of intestine due to failure of return of intestine to the abdominal cavity."
+    },
+    {
+     "term": "Heuser's membrane",
+     "text": "Membrane of flat cells derived from hypoblast lining the blastocele, forming the primary yolk sac."
+    }
+   ],
+   "numbers": [
+    "Placenta weight 500-600 gm",
+    "Placenta diameter 15-25 cm",
+    "Placenta thickness 3 cm",
+    "15-20 cotyledons on the maternal surface",
+    "Intervillous spaces contain 150 ml blood changed 3-4 times/min",
+    "Placental septa appear during the 4th and 5th gestational months",
+    "80-100 decidual arterioles supply the intervillous spaces",
+    "Placental barrier thins from 4 layers to 2 from the 4th month",
+    "Maternal antibodies transmitted from the 14th week",
+    "HCG maintains the corpus luteum till the 4th month",
+    "Amniotic cavity appears on the 8th day",
+    "Fetal urine added to amniotic fluid from the 5th month",
+    "Amniotic fluid volume 1.0-1.5 litre from the 37th week till birth",
+    "Polyhydramnios: more than two litres at full term; cause unknown in 35% of cases",
+    "Oligohydramnios: less than 400 ml at full term",
+    "Umbilical cord length 50-60 cm, diameter 2 cm",
+    "Cord contains 2 umbilical arteries and 1 umbilical vein",
+    "Intestinal loops herniate into the cord on the 6th week and return by the 3rd month",
+    "Primary yolk sac forms at the 9th gestational day, secondary at the 13th",
+    "Amnion contacts chorion at the beginning of the 3rd month; uterine cavity obliterated at the end of the 3rd month",
+    "Fetus starts swallowing amniotic fluid at the beginning of the 5th month"
+   ],
+   "classifications": [
+    {
+     "of": "Fetal membranes",
+     "items": [
+      "Chorion and chorionic villi",
+      "Placenta",
+      "Amnion",
+      "Umbilical cord",
+      "Yolk sac"
+     ]
+    },
+    {
+     "of": "Structure of the placenta",
+     "items": [
+      "Chorionic plate",
+      "Decidual plate",
+      "Tertiary villi"
+     ]
+    },
+    {
+     "of": "Layers of the chorionic plate (outside in)",
+     "items": [
+      "Amnion",
+      "Somatopleuric extra-embryonic mesoderm",
+      "Cytotrophoblast",
+      "Syncytiotrophoblast"
+     ]
+    },
+    {
+     "of": "Layers of the decidual plate (outside in)",
+     "items": [
+      "Decidua basalis with maternal arterioles, venules and uterine glands",
+      "Cytotrophoblastic shell",
+      "Syncytiotrophoblast lining the intervillous spaces"
+     ]
+    },
+    {
+     "of": "Placental barrier in early pregnancy (maternal to fetal)",
+     "items": [
+      "Syncytiotrophoblast",
+      "Cytotrophoblast",
+      "Somatic mesoderm",
+      "Endothelium of fetal blood vessels"
+     ]
+    },
+    {
+     "of": "Placental barrier from the 4th month",
+     "items": [
+      "Syncytiotrophoblast",
+      "Endothelium of fetal blood vessels"
+     ]
+    },
+    {
+     "of": "Placental hormones",
+     "items": [
+      "Progesterone",
+      "Estrogen",
+      "Human chorionic gonadotropin (HCG)",
+      "Somatomammotropin"
+     ]
+    },
+    {
+     "of": "Functions of placenta",
+     "items": [
+      "Exchange of metabolic products",
+      "Exchange of gases",
+      "Transmission of maternal antibodies",
+      "Endocrine function",
+      "Protective role",
+      "Excretory function"
+     ]
+    },
+    {
+     "of": "Congenital anomalies of placenta",
+     "items": [
+      "In position",
+      "In shape (bilobed, trilobed)",
+      "In number (twin, accessory)",
+      "In attachment of umbilical cord (velamentous, battledore)",
+      "In diameter (placenta membranacea)",
+      "In infiltration (accreta, increta, percreta)"
+     ]
+    },
+    {
+     "of": "Functions of amniotic fluid",
+     "items": [
+      "Early pregnancy: shock absorber, thermal insulator, prevents adhesion of fetus to uterine wall and of fetal parts",
+      "Late pregnancy: space for fetal movements, space for fetal urine, medium to swallow and learn to suckle",
+      "During delivery: protection against uterine contractions, fore bag dilating the cervix, rupture signalling labour, washing the vagina",
+      "Source of stem cells"
+     ]
+    },
+    {
+     "of": "Causes of polyhydramnios",
+     "items": [
+      "Unknown",
+      "Maternal diabetes",
+      "Congenital malformation of oesophagus e.g. oesophageal atresia",
+      "Congenital malformation of CNS e.g. anencephaly"
+     ]
+    },
+    {
+     "of": "Causes of oligohydramnios",
+     "items": [
+      "Bilateral renal agenesis",
+      "Obstruction of the urinary tract"
+     ]
+    },
+    {
+     "of": "Contents of the primitive umbilical ring",
+     "items": [
+      "Allantois and umbilical vessels inside the connecting stalk",
+      "Vitelline (vitello-intestinal) duct and vitelline vessels"
+     ]
+    },
+    {
+     "of": "Congenital anomalies of the umbilical cord",
+     "items": [
+      "Short cord",
+      "Long cord (neck encirclement or true knot)",
+      "Congenital umbilical hernia (omphalocele)",
+      "Presence of one umbilical artery",
+      "Abnormal attachment to placenta"
+     ]
+    },
+    {
+     "of": "Functions of the yolk sac",
+     "items": [
+      "Formation of gut",
+      "Formation of apex of urinary bladder",
+      "Development of primordial germ cells",
+      "Formation of blood vessels of the gut",
+      "Formation of blood cells"
+     ]
+    },
+    {
+     "of": "Placental infiltration anomalies",
+     "items": [
+      "Placenta accreta - infiltrates till the myometrium",
+      "Placenta increta - infiltrates the myometrium",
+      "Placenta percreta - infiltrates till the covering peritoneum"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 94,
+     "caption": "Figure 6.1 - external features of full-term placenta",
+     "kind": "diagram"
+    },
+    {
+     "page": 95,
+     "caption": "Unlabelled image of the maternal surface of the placenta showing cotyledons",
+     "kind": "diagram"
+    },
+    {
+     "page": 95,
+     "caption": "Figure 6.2 - structure of placenta",
+     "kind": "diagram"
+    },
+    {
+     "page": 96,
+     "caption": "Figure 6.3 - placental circulation",
+     "kind": "diagram"
+    },
+    {
+     "page": 97,
+     "caption": "Figure 6.4 - placental barrier (membrane)",
+     "kind": "diagram"
+    },
+    {
+     "page": 98,
+     "caption": "Figures 6.5 to 6.7 - congenital anomalies of placenta",
+     "kind": "diagram"
+    },
+    {
+     "page": 100,
+     "caption": "Figure 6.8 - formation of the amniotic cavity",
+     "kind": "diagram"
+    },
+    {
+     "page": 100,
+     "caption": "Figure 6.9 - results of expansion of the amniotic cavity",
+     "kind": "diagram"
+    },
+    {
+     "page": 102,
+     "caption": "Figure 6.10 - morphology of the umbilical cord at full term",
+     "kind": "diagram"
+    },
+    {
+     "page": 103,
+     "caption": "Figure 6.11 - development of the umbilical cord",
+     "kind": "diagram"
+    },
+    {
+     "page": 104,
+     "caption": "Figure 6.12 - congenital anomalies of the umbilical cord",
+     "kind": "diagram"
+    },
+    {
+     "page": 104,
+     "caption": "Figures 6.13 and 6.14 - development of the yolk sac",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter 6 carries 13 ILOs, the longest ILO list in the book, covering placenta, amnion, amniotic fluid, umbilical cord and yolk sac.",
+    "Book states the placental barrier prevents passage of bacteria and most viruses 'except HIV, poliomyelitis, rubella, cytomegalovirus and measles'.",
+    "Book states premature rupture of the amniotic sac is the commonest cause of preterm labour.",
+    "Book states a long cord encircling the fetal neck or forming a true knot are serious life-threatening conditions.",
+    "The book lists 'placenta accreta: placenta infiltrates till the myometrium' and 'placenta increta: placenta infiltrates the myometrium' - as printed the two definitions are nearly identical and the accreta/increta distinction is not clearly drawn; recorded as the book states it."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > General Embryology > Fetal Period",
+   "bookTitle": "Fetal Period (Chapter 7)",
+   "startPage": 106,
+   "endPage": 107,
+   "found": true,
+   "keyPoints": [
+    "The fetal period is the period from the beginning of the 9th week till birth.",
+    "It is characterised by maturation of tissues and organs as well as rapid growth of the body.",
+    "Fetal length is indicated as crown-rump length (CRL, sitting height) or crown-heel length (CHL, from the vertex of the skull to the heel, standing height); these measurements are correlated with the age of the fetus in weeks in a table.",
+    "Relative size of head to body changes across gestation, from a large fraction of crown-rump length early to a smaller fraction of crown-heel length at birth.",
+    "Changes in external features: the face becomes human-looking and the limbs become longer during the 3rd month; external genitalia are differentiated at the end of the 3rd month.",
+    "Lanugo hair covers the fetus starting from the 4th month, and the skin is covered by a fatty substance called vernix caseosa at the 5th month.",
+    "The skin remains wrinkled till the end of the 6th month because of the absence of subcutaneous fat.",
+    "The testes descend to the scrotum just before birth.",
+    "Fetal movements are clearly recognised from the fifth month of pregnancy.",
+    "Duration of pregnancy is counted either from the first day of the last menstruation or, more accurately, from fertilisation."
+   ],
+   "definitions": [
+    {
+     "term": "Fetal period",
+     "text": "The period from the beginning of the 9th week till birth, characterised by maturation of tissues and organs and rapid body growth."
+    },
+    {
+     "term": "Crown-rump length (CRL)",
+     "text": "Sitting height of the fetus."
+    },
+    {
+     "term": "Crown-heel length (CHL)",
+     "text": "Measurement from the vertex of the skull to the heel; standing height."
+    },
+    {
+     "term": "Vernix caseosa",
+     "text": "Fatty substance covering the skin of the fetus at the 5th month."
+    },
+    {
+     "term": "Lanugo hair",
+     "text": "Hair covering the fetus starting from the 4th month."
+    }
+   ],
+   "numbers": [
+    "Fetal period from the beginning of the 9th week till birth",
+    "At the beginning of the 3rd month the head is 1/2 the CR length",
+    "At the beginning of the 5th month the head is 1/3 the CH length",
+    "At birth the head is 1/4 the CH length",
+    "Lanugo hair from the 4th month; vernix caseosa at the 5th month; skin wrinkled till the end of the 6th month",
+    "Fetal movements recognised from the 5th month",
+    "Duration of pregnancy about 280 days (40 weeks) from the first day of the last menstruation, or 266 days (38 weeks) after fertilisation"
+   ],
+   "classifications": [
+    {
+     "of": "Measurements of the fetus",
+     "items": [
+      "Crown-rump length (CRL) - sitting height",
+      "Crown-heel length (CHL) - standing height"
+     ]
+    },
+    {
+     "of": "Changes in external features",
+     "items": [
+      "Face becomes human-looking (3rd month)",
+      "Limbs become longer (3rd month)",
+      "External genitalia differentiated (end of 3rd month)",
+      "Lanugo hair (from 4th month)",
+      "Vernix caseosa (5th month)",
+      "Skin wrinkled till end of 6th month",
+      "Testes descend just before birth"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 106,
+     "caption": "Table 1: growth changes during fetal life",
+     "kind": "table"
+    },
+    {
+     "page": 106,
+     "caption": "Figure 7.1 - relative size of head to body",
+     "kind": "diagram"
+    },
+    {
+     "page": 107,
+     "caption": "Figure 7.1: Normal growth in fetal period",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter 7 ILOs: identify the features of the fetal period; describe how to measure the fetus at different stages of growth.",
+    "The growth data itself (CRL/CHL against age in weeks) is carried entirely inside Table 1 as an image and is not present as extractable text.",
+    "Figure 7.1 is used twice on consecutive pages - once for relative head size and once captioned 'Normal growth in fetal period'.",
+    "This is the shortest Anatomy chapter: two pages, largely a table and a figure."
+   ]
+  }
+ ]
+}

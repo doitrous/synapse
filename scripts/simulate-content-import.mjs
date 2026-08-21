@@ -25,6 +25,7 @@ import {
   EVIDENCE_IMPORT_FIELDS, evidenceErrors, reconcileClaimEvidence,
   resourceFromRow, claimFromRow, citationFromRow, spanFromRow,
 } from '../src/data/evidenceImport.ts'
+import { detectBatchKind } from '../src/data/batchKind.ts'
 
 const args = process.argv.slice(2)
 const option = (name) => {
@@ -53,23 +54,7 @@ function parseMarkdown(text) {
   })
 }
 
-function detectKind(sample) {
-  if ('source' in sample && 'type' in sample && 'target' in sample) return 'relation'
-  if ('summary' in sample && 'sections' in sample) return 'article'
-  if ('claim_id' in sample && 'resource_id' in sample) return 'citation'
-  if ('concept_id' in sample && 'display_text' in sample) return 'claim'
-  if ('article_id' in sample && 'section_id' in sample) return 'span'
-  if ('institution' in sample && 'processing_status' in sample) return 'resource'
-  if ('type' in sample && ('mark_scheme' in sample || 'decisions' in sample || 'lab_questions' in sample || 'candidate_instructions' in sample)) return 'practical'
-  if ('vignette' in sample || 'correct_answer' in sample || 'answer_a' in sample) return 'question'
-  // Concepts get a positive test too. This used to be the fallback, which meant
-  // *any* unrecognised row became a concept: a stray question batch was applied
-  // as sixteen concept upserts, creating one empty concept and writing over
-  // fields on fifteen real ones. Nothing reported it, because guessing the wrong
-  // kind is not a row error. An unrecognised shape is now unknown, and refused.
-  if ('label' in sample || 'canonical_key' in sample) return 'concept'
-  return 'unknown'
-}
+const detectKind = detectBatchKind
 
 /* ---- load ---------------------------------------------------------------- */
 

@@ -1,52 +1,24 @@
 /**
- * Turn the 2025 end-of-year paper for 101 ISK into a concept batch.
+ * The 2025 end-of-year paper for 101 ISK, as data.
  *
- * One concept per assessable objective, which for this paper is one per
- * question: the faculty wrote sixteen questions and each asks for one thing.
- * Where a question genuinely asks for two — the two cases, which want the
- * anatomy *and* what it means clinically — that is recorded as two concepts and
- * the question is co-primary on both, which the validator now permits.
- *
- * Every concept carries the source occurrence that produced it: the manifest's
- * source ID, the page, and the question number, so a reviewer can open the
- * paper at the right place and disagree.
- *
- * The batch is generated rather than typed so that the next twenty-seven papers
- * can be added as data instead of as prose, and so the field set cannot drift
- * between one concept and the next.
+ * `EOY (ISK - 101) 199` — sixteen questions, eighty-one marks: six in Histology
+ * and ten in Anatomy, of which the last two are cases. Written questions
+ * throughout; not one multiple-choice item on it, which is what the module's
+ * orientation says the paper is.
  */
-import { writeFileSync } from 'node:fs'
-import { createHash } from 'node:crypto'
+import type { Paper, Scheme, Seed, SourceRef } from './types.ts'
 
 /** The manifest row this paper is. */
-const SOURCE = {
+export const SOURCE: SourceRef = {
   id: 'src_kau_y1_101_eoy_199',
   file: 'EOY (ISK - 101) 199 (1).pdf',
   sittingYear: 2025,
   tier: 'end_of_year',
+  sections: ['Histology', 'Anatomy'],
 }
 
-interface Seed {
-  /** The question number on the paper, and which section it sat in. */
-  q: number
-  section: 'Histology' | 'Anatomy'
-  page: number
-  marks: number
-  /** The question as the paper words it, kept for provenance. */
-  asked: string
-  label: string
-  key: string
-  definition: string
-  objective: string
-  pitfall: string
-  subject: 'msk' | 'fnd' | 'dev' | 'haem'
-  primary: string
-  secondary: string[]
-  modulePath: string
-  type: string
-}
 
-const SEEDS: Seed[] = [
+export const SEEDS: Seed[] = [
   {
     q: 1, section: 'Histology', page: 1, marks: 3,
     asked: 'Compare between Eosinophils & Neutrophils regarding (Differential count, Shape of nucleus and LM cytoplasmic granules).',
@@ -241,89 +213,190 @@ const SEEDS: Seed[] = [
   },
 ]
 
-/** `CON-<SYS>-<14 hex>`, minted from the canonical key so it is stable. */
-function mintId(subject: Seed['subject'], key: string): string {
-  const system = { msk: 'MSK', fnd: 'FND', dev: 'DEV', haem: 'HEM' }[subject]
-  const hash = createHash('sha256').update(`kau:101 ISK:${key}`).digest('hex').toUpperCase()
-  return `CON-${system}-${hash.slice(0, 14)}`
+export const SCHEMES: Record<string, Scheme> = {
+  H1: {
+    format: 'comparison_table',
+    prompt: 'Compare eosinophils and neutrophils by differential count, shape of the nucleus, and the appearance of the cytoplasmic granules on light microscopy.',
+    expects: [
+      'Neutrophils are 60–70% of the differential count',
+      'Eosinophils are 2–4% of the differential count',
+      'The neutrophil nucleus has two to five lobes',
+      'The eosinophil nucleus is characteristically bilobed',
+      'Neutrophil granules are fine and take neither dye strongly',
+      'Eosinophil granules are coarse and stain deeply with eosin',
+    ],
+  },
+  H2: {
+    format: 'short_answer',
+    prompt: 'Explain how the electron-microscopic structure of the hyalomere of the platelet relates to its function.',
+    expects: [
+      'The marginal bundle of microtubules holds the resting discoid shape',
+      'Contraction of that bundle produces the pseudopodia of the activated platelet',
+      'The open canalicular system discharges the granule contents to the exterior',
+      'The dense tubular system stores the calcium that triggers release',
+    ],
+  },
+  H3: {
+    format: 'structured_written',
+    prompt: 'Discuss the mast cell as seen on light microscopy, on electron microscopy, and with special staining.',
+    expects: [
+      'On light microscopy: a large cell with a central rounded nucleus and cytoplasm packed with coarse granules',
+      'On electron microscopy: the granules show a scroll or lamellar internal structure',
+      'With toluidine blue the granules are metachromatic, staining purple where the dye is blue',
+      'The metachromasia is due to the heparin the granules contain',
+    ],
+  },
+  H4: {
+    format: 'short_answer',
+    prompt: 'Describe the types of lysosome as they appear on electron microscopy.',
+    expects: [
+      'A primary lysosome is small, uniformly electron-dense and membrane-bound, newly budded from the Golgi',
+      'Its acid hydrolases have not yet acted on a substrate',
+      'A secondary lysosome is larger and heterogeneous, having fused with a phagosome or autophagosome',
+      'A residual body is the end state, holding indigestible material',
+    ],
+  },
+  H5: {
+    format: 'structured_written',
+    prompt: 'Describe the origin of a cilium and its appearance on electron microscopy.',
+    expects: [
+      'A cilium arises from a basal body',
+      'The basal body derives from a centriole that migrates to the apical cell surface',
+      'The shaft contains an axoneme of nine peripheral microtubule doublets around a central pair',
+      'Dynein arms on the doublets produce the beat',
+    ],
+  },
+  H6: {
+    format: 'comparison_table',
+    prompt: 'Compare the lining epithelium of the oesophagus and of the urinary bladder, and relate each to the demand on that organ.',
+    expects: [
+      'The oesophagus is lined by stratified squamous non-keratinised epithelium',
+      'That epithelium resists the abrasion of a passing bolus',
+      'The bladder is lined by transitional epithelium (urothelium)',
+      'Its dome-shaped superficial cells and plaque-bearing membrane allow stretch while staying impermeable to urine',
+    ],
+  },
+  A1: {
+    format: 'short_answer',
+    prompt: 'Mention the types of muscle attachment.',
+    expects: [
+      'Direct attachment, the fibres inserting into the periosteum',
+      'Indirect attachment through a tendon, a cord of dense regular connective tissue',
+      'Indirect attachment through an aponeurosis, a flattened sheet of the same tissue',
+      'The two attachments are named origin and insertion',
+      'The origin is conventionally the more fixed end',
+      'Which end is fixed reverses between one movement and another',
+    ],
+  },
+  A2: {
+    format: 'comparison_table',
+    prompt: 'Compare primary and secondary cartilaginous joints.',
+    expects: [
+      'A primary cartilaginous joint (synchondrosis) unites bones by hyaline cartilage',
+      'It is usually temporary and ossifies with growth — the epiphyseal plate is the type example',
+      'It permits no movement',
+      'A secondary cartilaginous joint (symphysis) unites bones by fibrocartilage',
+      'It lies in the midline and is permanent — the pubic symphysis and the intervertebral discs',
+      'It permits slight movement',
+    ],
+  },
+  A3: {
+    format: 'structured_written',
+    prompt: 'Describe the decidua: its definition, its parts, and the fate of each part.',
+    expects: [
+      'The decidua is the functional layer of the endometrium after implantation, so named because it is shed at birth',
+      'Decidua basalis lies deep to the conceptus',
+      'Basalis becomes the maternal part of the placenta',
+      'Decidua capsularis covers the conceptus and is stretched and lost as the sac grows',
+      'Decidua parietalis lines the rest of the uterine cavity',
+      'Parietalis fuses with capsularis by about the fourth month, obliterating the cavity',
+    ],
+  },
+  A4: {
+    format: 'structured_written',
+    prompt: 'Summarise the types of embryonic folding and the causes of each.',
+    expects: [
+      'Folding converts the flat trilaminar disc into a cylinder',
+      'Longitudinal folding, at head and tail',
+      'It is driven by the rapid growth of the neural tube, particularly the brain',
+      'It carries the septum transversum and the heart ventrally',
+      'Transverse (lateral) folding, driven by growth of the somites',
+      'It closes the ventral body wall and pinches the gut off from the yolk sac',
+    ],
+  },
+  A5: {
+    format: 'structured_written',
+    prompt: 'Mention the attachments, actions and nerve supply of pectoralis major.',
+    expects: [
+      'Clavicular head from the medial half of the clavicle',
+      'Sternocostal head from the sternum and the upper six costal cartilages',
+      'Inserts into the lateral lip of the bicipital groove',
+      'Adducts and medially rotates the arm',
+      'The clavicular head flexes the arm',
+      'The sternocostal head extends it from flexion',
+      'Supplied by the lateral and medial pectoral nerves',
+    ],
+  },
+  A6: {
+    format: 'structured_written',
+    prompt: 'Give the origin and root value of the radial nerve, and its branches in the axilla and in the arm.',
+    expects: [
+      'It is the largest branch of the posterior cord of the brachial plexus',
+      'Root value C5 to T1',
+      'In the axilla: muscular branches to the long and medial heads of triceps',
+      'In the axilla: the posterior cutaneous nerve of the arm',
+      'In the arm: branches to the lateral and medial heads of triceps and to anconeus',
+      'In the arm: the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm',
+      'It ends by dividing into superficial and deep terminal branches',
+    ],
+  },
+  A7: {
+    format: 'structured_written',
+    prompt: 'Describe the site, formation and branches of the deep palmar arch.',
+    expects: [
+      'It lies on the bases of the metacarpals, deep to the long flexor tendons',
+      'About a finger’s breadth proximal to the superficial palmar arch',
+      'At the level of the proximal border of the extended thumb',
+      'Formed mainly by the terminal part of the radial artery',
+      'Completed medially by the deep branch of the ulnar artery',
+      'Gives three palmar metacarpal arteries',
+      'Gives perforating branches to the dorsal metacarpal arteries and recurrent branches to the carpal arch',
+    ],
+  },
+  A8: {
+    format: 'structured_written',
+    prompt: 'Give the type of the elbow joint, its bony parts, and describe its ligaments.',
+    expects: [
+      'A synovial joint of hinge type',
+      'Between the trochlea and capitulum of the humerus above',
+      'And the trochlear notch of the ulna with the head of the radius below',
+      'The radial collateral ligament runs from the lateral epicondyle to the anular ligament',
+      'The ulnar collateral ligament is triangular and arises from the medial epicondyle',
+      'It has anterior, posterior and oblique bands',
+      'These reach the coronoid process and the olecranon',
+    ],
+  },
+  A9: {
+    format: 'structured_written',
+    prompt: 'A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed. Account for the lymphatic drainage of the breast and its bearing on the operation.',
+    expects: [
+      'About three quarters of the lymph of the breast drains to the axillary nodes',
+      'Chiefly the anterior (pectoral) group, then the central and apical nodes',
+      'The medial quadrants drain to the internal thoracic (parasternal) nodes',
+      'Carcinoma therefore spreads first to the axilla, which is why the axilla is sampled or cleared at operation',
+    ],
+  },
+  A10: {
+    format: 'structured_written',
+    prompt: 'A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box. Account for the findings and the risk that follows.',
+    expects: [
+      'The floor of the anatomical snuff box is the scaphoid',
+      'Tenderness there after a fall on the outstretched hand indicates a scaphoid fracture',
+      'The scaphoid is supplied largely by a retrograde branch of the radial artery entering distally',
+      'A fracture across the waist may cut off the proximal fragment’s supply and cause avascular necrosis',
+    ],
+  },
 }
 
-const blocks = SEEDS.map((seed) => {
-  const id = mintId(seed.subject, seed.key)
-  return `# Item
-## label
-${seed.label}
-## id
-${id}
-## canonical_key
-${seed.key}
-## definition
-${seed.definition}
-## explicit_objective
-${seed.objective}
-## pitfalls
-${seed.pitfall}
-## concept_type
-${seed.type}
-## status
-under review
-## subject
-${seed.subject}
-## primary_node_id
-${seed.primary}
-## secondary_node_ids
-${seed.secondary.join(' | ')}
-## modules
-101 ISK
-## module_subject
-${seed.modulePath}
-## universities
-kau
-## learner_years
-1
-## exam_signal
-${SOURCE.id} | ${SOURCE.tier} | ${SOURCE.sittingYear} | p${seed.page} | 101 ISK
-## weight_confidence
-0.7
-## support_mode
-direct_statement
-## original_wording
-[${seed.section} Q${seed.q}, ${seed.marks} marks] ${seed.asked}
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.`
-})
 
-const header = `<!--
-  Concepts from the 2025 end-of-year paper for 101 ISK.
-
-  Source: ${SOURCE.file} — Kasr Al Ainy, module 101 ISK, end-of-year ${SOURCE.sittingYear}.
-  Manifest ID ${SOURCE.id}. Sixteen questions, sixteen concepts: the faculty
-  asked one thing per question.
-
-  The paper is eight short-answer questions and two cases in Anatomy, and six
-  short-answer questions in Histology — written questions throughout, exactly as
-  the orientation for this module states. None of it is multiple choice.
-
-  Placement is on the discipline view (DIS-ANA, DIS-HIS, DIS-EMB), which is
-  where basic-science material belongs; the system view is a secondary placement
-  where one genuinely applies. \`module_subject\` carries the curriculum
-  position, which is the Kasr-specific half and does not belong in the canonical
-  tree.
-
-  Every concept carries the source occurrence that produced it, so a reviewer
-  can open the paper at that page and disagree with the reading.
-
-  Generated by scripts/kasr/build-101-concepts.ts — edit the seeds there.
--->
-
-`
-
-const out = 'docs/Kasr-Source-Imports/concept/101-ISK-EOY-2025.md'
-writeFileSync(out, header + blocks.join('\n\n---\n\n') + '\n')
-console.log(`${SEEDS.length} concepts -> ${out}`)
+export const PAPER: Paper = { source: SOURCE, seeds: SEEDS, schemes: SCHEMES }
