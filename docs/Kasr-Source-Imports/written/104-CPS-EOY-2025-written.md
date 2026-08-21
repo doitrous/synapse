@@ -53,10 +53,6 @@ Expects: Arterial pressure rises to its peak during rapid ejection and falls dur
 Concept: CON-CVS-A70930DB23A5B4
 ## main_concept
 CON-CVS-818EC10C20A623 | CON-CVS-A70930DB23A5B4
-## concept_ids
-CON-CVS-A70930DB23A5B4
-## contextual_concept_ids
-[clear]
 ## topic
 Physiology
 ## subtopic
@@ -86,16 +82,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.5
 ## inferred_difficulty
 55
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.5
+## cognitive_effort
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
@@ -146,10 +138,6 @@ Expects: That rise comes from increased EDV (Starling's mechanism) and decreased
 Concept: CON-CVS-A99309543A270D
 ## main_concept
 CON-CVS-C1D705743C07E3 | CON-CVS-A99309543A270D
-## concept_ids
-CON-CVS-A99309543A270D
-## contextual_concept_ids
-[clear]
 ## topic
 Physiology
 ## subtopic
@@ -178,16 +166,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.75
 ## inferred_difficulty
 30
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.75
+## cognitive_effort
+High
 ## reasoning_level
 1
 ## estimated_seconds
@@ -247,10 +231,6 @@ Expects: Right atrial and caval pressure rise, the gradient narrows and venous r
 Concept: CON-CVS-08B8764A5D501B
 ## main_concept
 CON-CVS-B21C3D54DE291E | CON-CVS-08B8764A5D501B
-## concept_ids
-CON-CVS-08B8764A5D501B
-## contextual_concept_ids
-[clear]
 ## topic
 Physiology
 ## subtopic
@@ -279,16 +259,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.75
 ## inferred_difficulty
 30
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.75
+## cognitive_effort
+High
 ## reasoning_level
 1
 ## estimated_seconds
@@ -340,10 +316,6 @@ Expects: The two opposing tendencies are what make intrapleural pressure negativ
 Concept: CON-RES-1BA6BE714676EC
 ## main_concept
 CON-CVS-C3E60AC7A9EDB1 | CON-RES-1BA6BE714676EC
-## concept_ids
-CON-RES-1BA6BE714676EC
-## contextual_concept_ids
-[clear]
 ## topic
 Physiology
 ## subtopic
@@ -373,16 +345,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.5
 ## inferred_difficulty
 55
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.5
+## cognitive_effort
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
@@ -439,10 +407,6 @@ Expects: Inadequate lymph flow, as in longstanding elephantiasis, giving a non-p
 Concept: CON-RES-4D4CBF3BB8AF1E
 ## main_concept
 CON-RES-4D4CBF3BB8AF1E
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
 ## topic
 Physiology
 ## subtopic
@@ -471,16 +435,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.5
 ## inferred_difficulty
 55
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.5
+## cognitive_effort
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
@@ -535,10 +495,6 @@ Expects: Treatment: termination of exposure, exchange blood transfusion, hyperba
 Concept: CON-RES-D95A9FD64ABF25
 ## main_concept
 CON-RES-D95A9FD64ABF25
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
 ## topic
 Physiology
 ## subtopic
@@ -567,16 +523,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.5
 ## inferred_difficulty
 55
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.5
+## cognitive_effort
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
@@ -623,10 +575,6 @@ Expects: Both hemiazygos veins cross the midline and end in the azygos vein
 Concept: CON-CVS-19E63D8A8E7EDA
 ## main_concept
 CON-CVS-19E63D8A8E7EDA
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
 ## topic
 Anatomy
 ## subtopic
@@ -655,16 +603,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.75
 ## inferred_difficulty
 30
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.75
+## cognitive_effort
+High
 ## reasoning_level
 1
 ## estimated_seconds
@@ -709,10 +653,6 @@ Expects: Parietal pleura, peripheral part of diaphragmatic: lower intercostal ne
 Concept: CON-RES-3AB5ED388161A2
 ## main_concept
 CON-RES-3AB5ED388161A2
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
 ## topic
 Anatomy
 ## subtopic
@@ -741,16 +681,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.5
 ## inferred_difficulty
 55
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.5
+## cognitive_effort
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
@@ -798,10 +734,6 @@ Expects: Branch: artery to the A-V node and bundle in 20% of people
 Concept: CON-CVS-CFF45F193765C4
 ## main_concept
 CON-CVS-CFF45F193765C4
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
 ## topic
 Anatomy
 ## subtopic
@@ -830,16 +762,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.5
 ## inferred_difficulty
 55
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.5
+## cognitive_effort
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
@@ -885,10 +813,6 @@ Expects: Lymph nodes: posterior mediastinal lymph nodes
 Concept: CON-RES-03AB23DA654BAF
 ## main_concept
 CON-RES-03AB23DA654BAF
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
 ## topic
 Anatomy
 ## subtopic
@@ -917,16 +841,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-Low
-## cognitive_effort_score
-0.3
 ## inferred_difficulty
 75
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.3
+## cognitive_effort
+Low
 ## reasoning_level
 1
 ## estimated_seconds
@@ -968,10 +888,6 @@ Expects: The stem and the left horn form the proximal part of the arch of the ao
 Concept: CON-DEV-9A66BF99D1BD3D
 ## main_concept
 CON-DEV-9A66BF99D1BD3D
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
 ## topic
 Anatomy
 ## subtopic
@@ -1000,16 +916,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.5
 ## inferred_difficulty
 55
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.5
+## cognitive_effort
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
@@ -1062,10 +974,6 @@ Expects: Pressing and stretching of the left recurrent laryngeal nerve, which ho
 Concept: CON-CVS-4F6394A2A7C0C5
 ## main_concept
 CON-CVS-4F6394A2A7C0C5
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
 ## topic
 Anatomy
 ## subtopic
@@ -1094,16 +1002,12 @@ Academic
 0.3
 ## exam_relevance
 7.4
-## cognitive_effort
-High
-## cognitive_effort_score
-0.75
 ## inferred_difficulty
 30
-## exam_weight_by_year
-KAU_Y1=0.74
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.75
+## cognitive_effort
+High
 ## reasoning_level
 1
 ## estimated_seconds
@@ -1152,10 +1056,6 @@ Expects: Marginal zone: periphery, with T and B lymphocytes, plasma cells and ma
 Concept: CON-HEM-7B050DE7FE2B80
 ## main_concept
 CON-HEM-BF004EF03BD129 | CON-HEM-7B050DE7FE2B80
-## concept_ids
-CON-HEM-7B050DE7FE2B80
-## contextual_concept_ids
-[clear]
 ## topic
 Histology
 ## subtopic
@@ -1185,16 +1085,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-Low
-## cognitive_effort_score
-0.3
 ## inferred_difficulty
 75
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.3
+## cognitive_effort
+Low
 ## reasoning_level
 1
 ## estimated_seconds
@@ -1244,10 +1140,6 @@ Expects: Simple loss from failure to align at metaphase or lagging in anaphase
 Concept: CON-DEV-C2AC39B48A8F21
 ## main_concept
 CON-FND-A2E40256517389 | CON-DEV-C2AC39B48A8F21
-## concept_ids
-CON-DEV-C2AC39B48A8F21
-## contextual_concept_ids
-[clear]
 ## topic
 Histology
 ## subtopic
@@ -1277,16 +1169,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-Low
-## cognitive_effort_score
-0.3
 ## inferred_difficulty
 75
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.3
+## cognitive_effort
+Low
 ## reasoning_level
 1
 ## estimated_seconds
@@ -1337,10 +1225,6 @@ Expects: Goblet cells: absent in olfactory mucosa, present in respiratory mucosa
 Concept: CON-RES-B7F9FACECA4AFF
 ## main_concept
 CON-CVS-9585A65D9EDA4D | CON-RES-B7F9FACECA4AFF
-## concept_ids
-CON-RES-B7F9FACECA4AFF
-## contextual_concept_ids
-[clear]
 ## topic
 Histology
 ## subtopic
@@ -1370,16 +1254,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
-## cognitive_effort
-High
-## cognitive_effort_score
-0.5
 ## inferred_difficulty
 55
-## exam_weight_by_year
-KAU_Y1=1.00
-## resource_ids
-src_078450096f7b08eb1284
+## cognitive_effort_score
+0.5
+## cognitive_effort
+Medium
 ## reasoning_level
 1
 ## estimated_seconds
