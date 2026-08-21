@@ -1,19 +1,27 @@
 #!/usr/bin/env python3
 """Deduplicate mcq.json into a question bank + write the human report.
 
+    python3 scripts/kasr/extract/bank.py [--module "104 CPS"]
+
 Same question  = same normalised stem AND same normalised option SET.
 Same stem, different options = a VARIANT, kept on the row, never collapsed.
 Different answers for the same question = CONFLICT, never silently resolved.
 Answers are compared by option TEXT, not by letter, so a reordered option list
 does not fake a conflict.
-"""
-import json, os, re, hashlib, collections
-import leaves
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(HERE, "mcq.json")
-BANK = os.path.join(HERE, "mcq-bank.json")
-REPORT = os.path.join(HERE, "mcq-report.md")
+Matching blocks are not MCQs and are not deduplicated against them: they carry a
+prompt column and an option bank with spare options, and collapsing them by
+"stem plus option set" would compare two things that have neither. They are
+carried through to the bank whole, in `matching`.
+"""
+import json, os, re, sys, hashlib, collections
+import leaves
+from kasr_module import DEFAULT_MODULE, out_path, parse_module
+
+MODULE = DEFAULT_MODULE
+SRC = out_path(MODULE, "mcq.json")
+BANK = out_path(MODULE, "mcq-bank.json")
+REPORT = out_path(MODULE, "mcq-report.md")
 RANK = {"high": 3, "medium": 2, "low": 1}
 
 
@@ -42,13 +50,32 @@ def blank_kind(row, ocr_files):
     return "short-answer-or-unparsed"
 
 
-def main():
+def main(argv=()):
+    global MODULE, SRC, BANK, REPORT
+    MODULE, rest = parse_module(list(argv))
+    if rest:
+        raise SystemExit("unexpected arguments: %s" % " ".join(rest))
+    SRC = out_path(MODULE, "mcq.json")
+    BANK = out_path(MODULE, "mcq-bank.json")
+    REPORT = out_path(MODULE, "mcq-report.md")
+    # The leaf table is per-module for the same reason the source categories
+    # are. Left on 101's, every 104 stem scores zero against upper limb and
+    # cytology and the coverage table reads as an empty corpus.
+    leaves.use(MODULE)
+
     with open(SRC, encoding="utf-8") as fh:
         doc = json.load(fh)
     ocr_files = {f["file"] for f in doc["files"] if f["method"] == "ocr"}
 
-    mcqs = [q for q in doc["questions"] if q["questionType"] == "mcq"]
-    noopt = [q for q in doc["questions"] if q["questionType"] != "mcq"]
+    # Rows from a file that is not a question book. mcq.py keeps them so the
+    # file does not read as unopened; they are not questions, so they are not
+    # banked. Counted and named in the report rather than dropped in silence.
+    prose = [q for q in doc["questions"] if q.get("notAQuestionBook")]
+    rows = [q for q in doc["questions"] if not q.get("notAQuestionBook")]
+
+    matching = [q for q in rows if q["questionType"] == "matching"]
+    mcqs = [q for q in rows if q["questionType"] == "mcq"]
+    noopt = [q for q in rows if q["questionType"] not in ("mcq", "matching")]
     blanks = collections.Counter(blank_kind(q, ocr_files) for q in noopt)
 
     # group: normalised stem -> option-signature -> rows
@@ -108,7 +135,8 @@ def main():
             conf = "none"
 
         topics = collections.Counter(r["topic"] for r in rows if r["topic"] != "unknown")
-        subj, chap, leaf = leaves.classify(rep["stem"] + " " + " ".join(rep["options"].values()))
+        subj, chap, leaf = leaves.classify(rep["stem"] + " " + " ".join(rep["options"].values()),
+                                           MODULE)
 
         row = {
             "key": slug(rep["stem"], main_sig),
@@ -130,23 +158,72 @@ def main():
         bank.append(row)
 
     bank.sort(key=lambda r: (-r["timesAsked"], r["key"]))
+    match_bank = build_matching(matching)
+    excluded_files = collections.Counter(q["file"] for q in prose)
     out = {
-        "generatedFrom": "scripts/kasr/extract/mcq.json (Kasr Al Ainy 101 ISK instructor material)",
+        "generatedFrom": "%s (Kasr Al Ainy %s, %s)"
+                         % (os.path.relpath(SRC, os.path.dirname(os.path.abspath(__file__))),
+                            MODULE, " + ".join(doc.get("sourceCategories", []))),
+        "module": MODULE,
         "distinctQuestions": len(bank),
         "fromRows": len(mcqs),
         "duplicateRowsCollapsed": len(mcqs) - len(bank),
         "answerConflicts": len(conflicts),
         "withAnswer": sum(1 for r in bank if r["answer"]),
         "excludedNoOptionRows": {"total": len(noopt), **dict(blanks)},
+        "excludedNotQuestionBooks": {"total": len(prose), **dict(excluded_files)},
+        "distinctMatchingBlocks": len(match_bank),
         "questions": bank,
+        "matching": match_bank,
     }
     with open(BANK, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=1)
-    print(f"bank: {len(bank)} distinct from {len(mcqs)} rows; conflicts={len(conflicts)}")
-    write_report(doc, out, bank, conflicts, blanks, noopt)
+    print(f"bank: {len(bank)} distinct from {len(mcqs)} rows; conflicts={len(conflicts)}; "
+          f"matching={len(match_bank)} distinct from {len(matching)}")
+    write_report(doc, out, bank, conflicts, blanks, noopt, match_bank, prose)
 
 
-def write_report(doc, out, bank, conflicts, blanks, noopt):
+def build_matching(rows):
+    """Collapse matching blocks that print the same prompt column.
+
+    The 2023 and undated editions of each department paper set the same tables,
+    so the same block arrives twice; they are the same question and are merged
+    on their prompt column. The option bank is taken from whichever copy reads
+    the most options, because a copy that lost one lost a distractor.
+    """
+    groups = collections.defaultdict(list)
+    for r in rows:
+        groups["|".join(sorted(norm(p["text"]) for p in r["matchingPrompts"]))].append(r)
+    out = []
+    for key, rs in groups.items():
+        rep = max(rs, key=lambda r: (len(r["matchingOptions"]), len(r["matchingPrompts"])))
+        subj, chap, leaf = leaves.classify(
+            " ".join(p["text"] for p in rep["matchingPrompts"]) + " " +
+            " ".join(rep["matchingOptions"].values()), MODULE)
+        out.append({
+            "key": slug(rep["stem"] + key, key),
+            "stem": rep["stem"],
+            "matchingPrompts": rep["matchingPrompts"],
+            "matchingOptions": rep["matchingOptions"],
+            "distractorOptions": rep["distractorOptions"],
+            "occurrences": [{"sourceId": r["sourceId"], "file": r["file"],
+                             "page": r["page"], "printedTableLabel": r.get("printedTableLabel")}
+                            for r in rs],
+            "timesAsked": len(rs),
+            "topic": rep["topic"],
+            "confidence": rep["confidence"],
+            # No block in this corpus has a readable pairing: every one of these
+            # papers prints its key as a grid on the answers page and every one
+            # of those grids came back from OCR as broken table rules. Left
+            # unanswered rather than guessed.
+            "answer": None, "answerConfidence": "none",
+            "subject": subj, "chapter": chap, "leaf": leaf,
+        })
+    out.sort(key=lambda r: (-r["timesAsked"], r["key"]))
+    return out
+
+
+def write_report(doc, out, bank, conflicts, blanks, noopt, match_bank=(), prose=()):
     # overlap between files
     filecount = collections.Counter()
     uniq = collections.Counter()
@@ -164,7 +241,7 @@ def write_report(doc, out, bank, conflicts, blanks, noopt):
     leafc = collections.Counter((r["subject"], r["chapter"], r["leaf"]) for r in bank)
 
     L = []
-    L.append("# Module 101 ISK — MCQ bank report\n")
+    L.append("# Module %s — MCQ bank report\n" % MODULE)
     L.append("Generated by `scripts/kasr/extract/bank.py` from `mcq.json`. "
              "Transcription only — no question content was authored or completed.\n")
     L.append("## Totals\n")
@@ -173,7 +250,48 @@ def write_report(doc, out, bank, conflicts, blanks, noopt):
     L.append(f"- {out['withAnswer']} carry an answer; **{out['answerConflicts']} have conflicting answers** across sources.")
     L.append(f"- {sum(len(r['variants']) for r in bank)} option-set variants preserved on their parent question.")
     L.append(f"- {out['excludedNoOptionRows']['total']} option-less rows excluded from the bank: " +
-             ", ".join(f"{v} {k}" for k, v in blanks.most_common()) + ".\n")
+             ", ".join(f"{v} {k}" for k, v in blanks.most_common()) + ".")
+    if match_bank:
+        L.append(f"- **{len(match_bank)} distinct matching blocks** kept whole, with "
+                 f"{sum(r['distractorOptions'] for r in match_bank)} distractor options preserved. "
+                 "None carries an answer: every one of these papers prints its pairing as a grid "
+                 "on the answers page, and every one of those grids came back from OCR as broken "
+                 "table rules.")
+    if prose:
+        L.append(f"- {len(prose)} rows excluded as **not from a question book** — see below.")
+    L.append("")
+
+    L.append("## Every file the module offered\n")
+    L.append("A file that was opened and yielded nothing is listed here with a zero, so it "
+             "cannot be mistaken for a file nobody opened.\n")
+    L.append("| File | Method | Pages read | Rows | MCQ | Matching | Option-less | With answer |")
+    L.append("|---|---|---:|---:|---:|---:|---:|---:|")
+    for f in sorted(doc["files"], key=lambda f: -f.get("mcqRows", 0)):
+        note = " *(not a question book)*" if f.get("notAQuestionBook") else ""
+        L.append("| %s%s | %s | %s | %s | %s | %s | %s | %s |"
+                 % (f["file"], note, f.get("method", "?"), f.get("pagesRead", 0),
+                    f.get("extracted", 0), f.get("mcqRows", 0), f.get("matchingRows", 0),
+                    f.get("noOptionRows", 0), f.get("withAnswer", 0)))
+    thin_files = [f for f in doc["files"] if f.get("yieldNote")]
+    if thin_files:
+        L.append("\n### Files that were opened and yielded little\n")
+        L.append("Read, and this is what was in them.\n")
+        for f in thin_files:
+            L.append(f"- **{f['file']}** ({f.get('pagesRead', 0)} pages read, "
+                     f"{f.get('mcqRows', 0)} MCQ rows) — {f['yieldNote']}")
+
+    if prose:
+        L.append("\n### Excluded as not a question book\n")
+        L.append("Each was opened and its whole text searched for a question-paper heading; none "
+                 "has one. What the parser found in them is numbered prose with the shape of an "
+                 "MCQ and none of the substance, so the rows stay in `mcq.json`, flagged, and out "
+                 "of the bank.\n")
+        for f in doc["files"]:
+            if f.get("notAQuestionBook"):
+                L.append(f"- **{f['file']}** — {f['notAQuestionBook']} "
+                         f"({f.get('extracted', 0)} rows, {f.get('mcqRows', 0)} of them "
+                         "option-bearing, none a question).")
+    L.append("")
 
     L.append("## Duplication by file\n")
     L.append("| File | Distinct questions | Unique to this file | Shared |")
@@ -197,20 +315,34 @@ def write_report(doc, out, bank, conflicts, blanks, noopt):
             for c in r["conflictingAnswers"]:
                 L.append(f"    - `{c['answer']}` ({c['answerText'][:50]}) — {c['file']} p{c['page']} #{c['number']} [{c['answerSource']}]")
 
+    if match_bank:
+        L.append("\n## Matching blocks\n")
+        L.append("Kept as `matching` with their prompt column and their whole option bank, "
+                 "including the options nothing matches — those spare options are what the "
+                 "block tests, and flattening the block into prose loses them.\n")
+        L.append("| Block | Prompts | Options | Distractors | Printed in |")
+        L.append("|---|---:|---:|---:|---|")
+        for r in match_bank:
+            where = ", ".join(sorted({o["file"] for o in r["occurrences"]}))
+            L.append(f"| {r['stem']} — {r['matchingPrompts'][0]['text'][:40]}… | "
+                     f"{len(r['matchingPrompts'])} | {len(r['matchingOptions'])} | "
+                     f"{r['distractorOptions']} | {where} |")
+
     L.append("\n## Coverage against the subject tree\n")
     L.append("Leaf assignment is keyword-based against "
-             "`docs/Kasr-Source-Imports/academic/101-isk-structure.md` and is approximate.\n")
+             "`docs/Kasr-Source-Imports/academic/%s-structure.md` and is approximate.\n"
+             % MODULE.lower().replace(" ", "-"))
     L.append("| Subject | Chapter | Leaf | Questions |")
     L.append("|---|---|---|---:|")
     for subj, chap, leaf, _k in leaves.TREE:
-        L.append(f"| {subj} | {chap} | {leaf} | {leafc.get((subj, chap, leaf), 0)} |")
+        L.append(f"| {subj} | {chap} | {leaf or '—'} | {leafc.get((subj, chap, leaf), 0)} |")
     un = leafc.get((None, None, None), 0)
     L.append(f"| — | unmapped | (no keyword matched) | {un} |")
 
     thin = [(s, c, l, leafc.get((s, c, l), 0)) for s, c, l, _ in leaves.TREE if leafc.get((s, c, l), 0) < 15]
     L.append("\n### Thin leaves (fewer than 15 questions)\n")
     for s, c, l, n in sorted(thin, key=lambda x: x[3]):
-        L.append(f"- **{n}** — {s} › {c} › {l}")
+        L.append(f"- **{n}** — {s} › {c} › {l or '—'}")
 
     with open(REPORT, "w", encoding="utf-8") as fh:
         fh.write("\n".join(L) + "\n")
@@ -218,4 +350,4 @@ def write_report(doc, out, bank, conflicts, blanks, noopt):
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

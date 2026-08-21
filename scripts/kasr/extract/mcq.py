@@ -143,6 +143,56 @@ TOPIC_RULES_104 = [
 MODULE_TOPIC_RULES = {"101 ISK": TOPIC_RULES_101, "104 CPS": TOPIC_RULES_104}
 TOPIC_RULES = TOPIC_RULES_101
 
+# Files the manifest files as question books that are not question books.
+#
+# These are read, not assumed: each one was opened and its whole text searched
+# for a question-paper heading, and none of the three has one. What the parser
+# pulls out of them is numbered prose -- `1. A segment of respiratory tissue:`
+# with `a- Autonomic innervation:` beneath it -- which has the shape of an MCQ
+# and none of the substance. Every row from all three was inspected; not one is
+# a question. They stay in mcq.json, flagged, because a file that was opened and
+# yielded nothing must not look like a file nobody opened. bank.py drops them.
+MODULE_PROSE_SOURCES = {
+    "101 ISK": {},
+    "104 CPS": {
+        # 152 pages of thorax lecture notes. No question-paper heading anywhere;
+        # its 36 "MCQs" are the a-/b-/c- sub-lists of anatomical descriptions.
+        "Cardiopulmonary system Dr.Mahmoud alaa (1).pdf": "anatomy lecture notes",
+        # Titled "THE MOST IMPORTANT WRITTEN QUESTIONS" on its own first page --
+        # a short-answer revision book, and the written lane's material.
+        "HISTO WRITTEN BY DR ZAHRA.pdf": "written/SAQ revision, not MCQ",
+        # A practical slide deck: "Identify the organ", "Black arrow points to
+        # ......". Labelling questions off a slide image, which is practical.py's
+        # material and not recoverable as MCQ from the text layer alone.
+        "DPT 3- CPS 104 - Final revision (1).pdf": "practical slide deck (labelling)",
+    },
+}
+PROSE_SOURCES = {}
+
+# Why a file that was opened yielded next to nothing. Not a filter -- these files
+# are extracted like any other -- but a low row count with no explanation beside
+# it reads exactly like a file nobody opened, and the two need to be tellable
+# apart. Carried onto the file's row and printed in bank.py's per-file table.
+MODULE_YIELD_NOTES = {
+    "101 ISK": {},
+    "104 CPS": {
+        "EOY Anatomy MCQ by Dr.Jalal [Thorax] Without Answers.pdf":
+            "Scanned so poorly that the option labels are gone: 1,697 lines of text "
+            "and one recognisable option marker in 44 pages. The stems are there and "
+            "the options are not, so nothing here can be trusted as transcribed. Its "
+            "questions are the same book as `EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf`, "
+            "which is legible and yielded 104.",
+        "PHYSIO MCQ ELSHERIFTips & Tricks 104 - Dr. Elsherif 🐉🔥 (3).pdf":
+            "Not a question book but a companion to one: 176 items headed `Idea N "
+            "[DEP BOOK]` or `[Pervious Exam]`, each a stem, a `Correct Answer: B. ...` "
+            "and an Arabic explanation. 73 pages carry eight option-shaped lines in "
+            "total, so there are no distractors to transcribe. Its 145 stem-and-answer "
+            "pairs are an answer source for the DPT BOOK Physio papers, which is a "
+            "separate job -- 30 of them already match a bank stem exactly.",
+    },
+}
+YIELD_NOTES = {}
+
 
 def log(msg):
     print(msg, flush=True)
@@ -467,11 +517,203 @@ def parse_answer_key(pages):
     return key
 
 
+# ---------------------------------------------------------------- matching blocks
+#
+# Eight of 104's department histology papers end on a section headed
+# `(C) Match Column (A) with Column (B)`, set as two-column tables: five numbered
+# prompts on the left, seven lettered options on the right. Two of the seven
+# match nothing, and those two are the question -- a student who can name the
+# structure still has to notice which of two plausible descriptions is the one
+# the examiner means.
+#
+# parse_questions cannot see that. It reads `1. Post capillary venules` as a
+# stem and `a. Are fenestrated elongated endothelial cells.` as that stem's
+# option A, which flattens a five-against-seven discrimination into five
+# one-option fragments and throws the distractors away. So the block is found
+# first, its lines are handed to parse_questions as `skip`, and it comes out as
+# `questionType: "matching"` with matchingPrompts and matchingOptions intact --
+# the shape seeds/types.ts already carries.
+MATCH_START = re.compile(r"(?i)\bmatch\s+column\s*\(?\s*a")
+# `Table I`, `Table Il`, `Table lll`, `Table <0 006` -- the roman numeral is the
+# part OCR is worst at, so the label is taken as printed and only the word
+# `Table` at the start of a line is trusted to mean a new table began.
+MATCH_TABLE = re.compile(r"(?i)^\W{0,4}table\b\s*(.{0,8}?)\s*\W*$")
+# The answers page ends the section. It arrives with the page furniture the
+# scan leaves in front of it -- `| 1 Answers`, `Answers of Lymphatic` -- so a
+# few leading digits and rules are allowed before the word.
+MATCH_END = re.compile(r"(?i)^[\W\d]{0,8}(?:answers?\b|\(\s*[A-E]\s*\)\s*(?:multiple|problem|true|complete))")
+MATCH_COLUMN_HEAD = re.compile(r"(?i)^\W*column\s*[\(\{]?\s*[ab]")
+MATCH_PROMPT = re.compile(r"^\s*(\d{1,2})\s*[.,)]\s*(\S.*)$")
+# `a.`, `b)`, `c._`, `d -` and the Arabic letters and digits the scan puts in
+# their place. The label is only a signal that a row starts; which letter it is
+# comes from position -- the same rule, and for the same reason, as
+# repair-options.py's `resolve`: filing an option under the wrong letter is
+# worse than losing it.
+MATCH_OPTION = re.compile(r"^\s*([A-Za-zء-ي0-9¢©®€@]{1,2})\s*[.,)_\-]+\s*(\S.*)$")
+# A prompt or an option starting part-way along a line. The table rule between
+# the columns survives as `|` only sometimes; where it did not, the two columns
+# arrive as one line and the row has to be cut at its second label.
+MATCH_INLINE = re.compile(r"(?<=\s)(?=(?:\d{1,2}|[a-h])\s*[.,)_\-]+\s+\S)")
+MATCH_LETTERS = "abcdefgh"
+
+
+def _letters_by_position(found):
+    """[(printed_label, text)] -> {letter: text}, letters taken from position.
+
+    Same rule as repair-options.py's `resolve`, which is where it is tested: a
+    label the scan recognised keeps its letter, one it did not takes the letter
+    after it. Nothing is inferred from a mangled glyph's shape.
+    """
+    out, expected = {}, 0
+    for label, text in found:
+        low = (label or "").lower()
+        if len(low) == 1 and low in MATCH_LETTERS:
+            index = MATCH_LETTERS.index(low)
+            if index < expected - 1:
+                continue
+            expected = index + 1
+        else:
+            if expected >= len(MATCH_LETTERS):
+                continue
+            index = expected
+            expected += 1
+        out.setdefault(MATCH_LETTERS[index], text)
+    return out
+
+
+def find_matching_blocks(lines):
+    """Locate `Match Column (A) with Column (B)` sections.
+
+    Returns (set_of_line_indices, [block]) where a block is
+    {"page", "table", "prompts": [(n, text)], "options": [(label, text)]}.
+    """
+    n = len(lines)
+    consumed, blocks = set(), []
+    i = 0
+    while i < n:
+        if not MATCH_START.search(lines[i][1]):
+            i += 1
+            continue
+        start = i
+        j = i + 1
+        cur = None
+        section = []
+        while j < n:
+            text = lines[j][1]
+            if MATCH_END.match(text) or MATCH_START.search(text):
+                break
+            mt = MATCH_TABLE.match(text)
+            if mt:
+                if cur:
+                    section.append(cur)
+                # The numeral is named by its place in the section, not by what
+                # the scan made of the glyphs: `Table Il`, `Table <0 006` and
+                # `Table oe` are all the second table on the page, and reading
+                # them as printed produced three tables with unusable names. The
+                # printed form is kept beside it so the page stays findable.
+                printed = re.sub(r"\s+", " ", mt.group(1)).strip()
+                cur = {"page": lines[j][0], "table": len(section) + 1,
+                       "printedTable": printed, "prompts": [], "options": []}
+                j += 1
+                continue
+            if cur is None:
+                cur = {"page": lines[j][0], "table": None, "prompts": [], "options": []}
+            _read_matching_row(text, cur)
+            j += 1
+        if cur:
+            section.append(cur)
+        section = [b for b in section if len(b["prompts"]) >= 2 and len(b["options"]) >= 2]
+        if section:
+            consumed.update(range(start, j))
+            blocks.extend(section)
+            i = j
+        else:
+            i = start + 1
+    return consumed, blocks
+
+
+def _read_matching_row(text, block):
+    """Read one printed line of a matching table into `block`.
+
+    The two columns arrive separated by the table rule, which OCR renders as
+    `|`; a line may hold a prompt, an option, both, or the wrapped tail of
+    either. A cell that parses as neither continues whichever the same cell
+    last held, so `d. Isolation of developing thymocytes from contact` and its
+    orphaned `with antigens` stay one option.
+    """
+    if MATCH_COLUMN_HEAD.match(text):
+        return
+    for cell in re.split(r"[|│┃]", text):
+        for piece in MATCH_INLINE.split(cell):
+            piece = clean(piece)
+            if not piece or len(piece) < 2:
+                continue
+            mp = MATCH_PROMPT.match(piece)
+            if mp and len(mp.group(2)) > 3 and 1 <= int(mp.group(1)) <= 12:
+                block["prompts"].append([int(mp.group(1)), clean(mp.group(2))])
+                block["_last"] = ("prompts", len(block["prompts"]) - 1)
+                continue
+            mo = MATCH_OPTION.match(piece)
+            if mo and len(mo.group(2)) > 3:
+                block["options"].append([mo.group(1), clean(mo.group(2))])
+                block["_last"] = ("options", len(block["options"]) - 1)
+                continue
+            last = block.get("_last")
+            if last and 3 < len(piece) < 90:
+                which, index = last
+                block[which][index][1] = clean(block[which][index][1] + " " + piece)
+
+
+def matching_rows(info, blocks):
+    """Turn located blocks into mcq.json rows."""
+    rows = []
+    topic = topic_for(info["file"])
+    for b in blocks:
+        options = _letters_by_position(b["options"])
+        prompts = [{"number": num, "text": text} for num, text in b["prompts"]]
+        if len(prompts) < 2 or len(options) < 2:
+            continue
+        label = f"Table {b['table']}" if b["table"] else "Match Column (A) with Column (B)"
+        printed = b.get("printedTable")
+        rows.append({
+            "sourceId": info["sourceId"], "file": info["file"], "page": b["page"],
+            "number": b["prompts"][0][0], "questionType": "matching",
+            "stem": f"Match Column (A) with Column (B) — {label}",
+            "options": {},
+            "matchingPrompts": prompts,
+            "matchingOptions": options,
+            "distractorOptions": max(0, len(options) - len(prompts)),
+            "printedTableLabel": printed or None,
+            "answer": None, "answerSource": "none", "topic": topic,
+            # The pairing is printed as a grid on the answers page, and in every
+            # one of these eight files OCR reduced that grid to broken table
+            # rules. Recorded as unanswered rather than guessed.
+            "confidence": "medium" if info["method"] != "ocr" else "low",
+            "ocrNoise": info["method"] == "ocr",
+        })
+    return rows
+
+
 # ---------------------------------------------------------------- per file
 def load_manifest(module, categories):
-    by_name = {}
+    """Manifest rows for a module's question books, one per *source*.
+
+    Deduplicated by sourceId, not by file name, because the manifest carries the
+    same PDF under two names: 104's `EOY Final 104, 199 (2) copy.pdf` and
+    `EOY Final 104, 199 (2).pdf` are one sha256 and one sourceId, which is why
+    the module has 47 rows and 46 sources. Keyed by name alone they are two
+    files, and the resumable `parts/` path -- which is the sourceId -- would
+    silently make the second a no-op that still printed as a file.
+    """
+    by_name, seen = {}, {}
     for category in categories:
         for s in module_sources(module, category=category):
+            first = seen.get(s["sourceId"])
+            if first is not None:
+                log("DUPLICATE-SOURCE %s: %r is %r again, skipped"
+                    % (s["sourceId"], s["fileName"], first))
+                continue
+            seen[s["sourceId"]] = s["fileName"]
             by_name[s["fileName"]] = s
     return by_name
 
@@ -523,25 +765,30 @@ def extract_file(entry):
 
     pages = get_pages(entry, info)
     if not pages:
-        return info, [], {}
+        return info, [], {}, []
 
     if name in KEY_FILES:
         key = parse_answer_key(pages)
         info["role"] = "answer-key"
         info["keyEntries"] = len(key)
-        return info, [], key
+        return info, [], key, []
 
     lines = flatten(pages)
     skip, blocks = find_key_blocks(lines)
+    # Matching tables are taken out before the MCQ walk, not after: their rows
+    # read as one-option questions, and once flattened the option bank is gone.
+    match_skip, match_blocks = find_matching_blocks(lines)
+    skip = skip | match_skip
     questions = parse_questions(lines, skip)
     matched = apply_inline_keys(questions, blocks)
     info["inFileAnswerGrids"] = len(blocks)
     info["answersFromInFileGrid"] = matched
-    return info, questions, {}
+    info["matchingBlocks"] = len(match_blocks)
+    return info, questions, {}, match_blocks
 
 
-def finalise(info, questions, key, key_from):
-    rows = []
+def finalise(info, questions, key, key_from, match_blocks=()):
+    rows = list(matching_rows(info, match_blocks))
     method = info["method"]
     topic = topic_for(info["file"])
     for q in questions:
@@ -586,8 +833,17 @@ def finalise(info, questions, key, key_from):
         if asrc == "answer-key":
             row["answerKeyFile"] = key_from
         rows.append(row)
+    note = YIELD_NOTES.get(info["file"])
+    if note:
+        info["yieldNote"] = note
+    prose = PROSE_SOURCES.get(info["file"])
+    if prose:
+        info["notAQuestionBook"] = prose
+        for row in rows:
+            row["notAQuestionBook"] = prose
     info["extracted"] = len(rows)
     info["mcqRows"] = sum(1 for r in rows if r["questionType"] == "mcq")
+    info["matchingRows"] = sum(1 for r in rows if r["questionType"] == "matching")
     info["noOptionRows"] = sum(1 for r in rows if r["questionType"] == "no-options")
     info["withAnswer"] = sum(1 for r in rows if r["answer"])
     return rows
@@ -611,6 +867,7 @@ def merge_and_write():
         "ocrPageCap": OCR_PAGE_CAP,
         "totalQuestions": len(questions),
         "totalMcq": sum(1 for q in questions if q["questionType"] == "mcq"),
+        "totalMatching": sum(1 for q in questions if q["questionType"] == "matching"),
         "totalWithAnswer": sum(1 for q in questions if q["answer"]),
         "files": files,
         "questions": questions,
@@ -647,7 +904,7 @@ def parse_categories(argv):
 
 def main(argv):
     global MODULE, PARTS, TEXTCACHE, OUT, CATEGORIES, ANSWER_PAIRS, KEY_FILES, \
-        POOR_OCR, TOPIC_RULES
+        POOR_OCR, TOPIC_RULES, PROSE_SOURCES, YIELD_NOTES
     if "--help" in argv or "-h" in argv:
         print(USAGE)
         return
@@ -659,6 +916,8 @@ def main(argv):
     ANSWER_PAIRS = MODULE_ANSWER_PAIRS.get(MODULE, {})
     KEY_FILES = set(ANSWER_PAIRS.values())
     POOR_OCR = MODULE_POOR_OCR.get(MODULE, set())
+    PROSE_SOURCES = MODULE_PROSE_SOURCES.get(MODULE, {})
+    YIELD_NOTES = MODULE_YIELD_NOTES.get(MODULE, {})
     TOPIC_RULES = MODULE_TOPIC_RULES.get(MODULE, TOPIC_RULES_101)
     PARTS = out_path(MODULE, "parts")
     TEXTCACHE = out_path(MODULE, "pagetext")
@@ -691,12 +950,12 @@ def main(argv):
             log(f"SKIP  {name} (already done, {cached['info'].get('extracted', 0)} q)")
             continue
         try:
-            info, questions, key = extract_file(entry)
+            info, questions, key, match_blocks = extract_file(entry)
         except Exception as exc:
             info = {"file": name, "sourceId": entry["sourceId"],
                     "pages": entry.get("pageCount"), "pagesRead": 0, "capped": False,
                     "extracted": 0, "method": "none", "error": f"{type(exc).__name__}: {exc}"}
-            questions, key = [], {}
+            questions, key, match_blocks = [], {}, []
 
         key_from = ANSWER_PAIRS.get(name)
         pair_key = {}
@@ -705,7 +964,7 @@ def main(argv):
             pair_key = {int(k): v for k, v in raw.items()}
             info["answerKeyFile"] = key_from
             info["answerKeyEntries"] = len(pair_key)
-        rows = finalise(info, questions, pair_key, key_from)
+        rows = finalise(info, questions, pair_key, key_from, match_blocks)
 
         with open(part_path, "w", encoding="utf-8") as fh:
             json.dump({"info": info, "questions": rows,
@@ -713,7 +972,8 @@ def main(argv):
         if key:
             keys_by_file[name] = {str(k): v for k, v in key.items()}
         log(f"DONE  {name} | method={info['method']} pages={info['pagesRead']}/{info.get('pages')} "
-            f"capped={info['capped']} q={info['extracted']} "
+            f"capped={info['capped']} q={info['extracted']} mcq={info.get('mcqRows', 0)} "
+            f"match={info.get('matchingRows', 0)} "
             f"key={len(key) if key else ''} err={info.get('error','')}")
         total = merge_and_write()
         log(f"      merged -> {total} questions total")
