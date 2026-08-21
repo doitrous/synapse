@@ -205,9 +205,14 @@ Eosinophil differential count. The department book states 1-4% of white cells. C
 The book gives no life span in days for any granulocyte beyond the phrase "a few days", so no number is stated here.
 The book does not name the stain used for the routine differential count. Leishman and Giemsa are named only in the image request, as direction to a fulfiller, not as taught content.
 The book does not explain why a young neutrophil may appear bilobed, although the concept's pitfall depends on it. The band form and the maturation sequence are not covered in this chapter.
+The department book states that a Barr body is visible in a proportion of female neutrophils but does not describe its shape and does not say what it is. The drumstick shape, the thin connecting chromatin thread and the figure of 3-6% are from Prof. Dalia El Marakby's Blood handout; that the Barr body is the inactive X chromosome, and that the department also calls it sex chromatin, is from the department's own end-of-module paper (src_9487fd713153c573087f, 2021), where it is set as a four-option question. Neither the book nor the handout states the X-inactivation itself, and no mechanism for it is given anywhere in the corpus.
+The book does not name Leishman's stain in this chapter; the practical book does, on every blood plate, and it is cited to the practical book here.
 No independent citation has been attached to any figure in this article. Every number is traceable to the department book only, which is a single source.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter "Granular Leucocytes", printed pages 32-35. Extracted to scripts/kasr/extract/deptbook.json.
+Prof. Dalia El Marakby's Blood handout (src_450c71dc6273b2e64ca3), page 8, topic "Granular leucocytes" — the drumstick (Barr body) appendage in 3-6% of a female's neutrophils, and the same account of the three granulocytes. Extracted to scripts/kasr/extract/notes.json.
+The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a6584b4b), catalogued in scripts/kasr/extract/practical.json — the marked plates and facing answer pages for the Leishman film carrying a neutrophil (p. 90), the neutrophil with a Barr body (p. 92), the eosinophil (p. 94), the single basophil (pp. 96, 98) and the field of basophils (p. 106). Every marker and accepted answer in "What the department's plates mark" is taken from those answer pages.
+The department's 2021 end-of-module paper (src_9487fd713153c573087f), which sets "Sex chromatin (Barr body)" as a four-option question with the inactive X chromosome as its subject, catalogued in scripts/kasr/extract/clusters.json.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
@@ -216,8 +221,11 @@ subtopic: No SUB_ identifier has been assigned to this module in the canonical t
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+practicalIdentification: The Barr body paragraph draws on three sources at once — the book for its presence, the handout for its drumstick shape and its 3-6%, and the department's own end-of-module paper for what it is. Each is named in evidence_basis and the gap between them is recorded in evidence_gaps.
 ## notes
 Written entirely from the department book chapter. The only content drawn from outside it is the naming of Leishman and Giemsa stains inside an image request, which is sourcing direction to a human and not taught content.
+
+Extended later to close the practical gap on this leaf. The basophil concept needed nothing written: its granules, its masked S-shaped nucleus, its metachromasia and the mast cell comparison were already here in full, and only the department's own marker answers were added. The Barr body did need writing. The article had it as seven words — "In a proportion of female neutrophils a Barr body is visible" — which names a thing without describing it, and the whole of the spot question is how a drumstick differs from a lobe.
 
 Two further concepts were declared on this article without changing a word of it, because the article already taught both in full: the eosinophil's differential count, light-microscopic picture and functions, and the basophil's count, nucleus, metachromatic granules, IgE receptors and four secretions. Both are set out in Key determinants, Mechanism, Normal values and Clinical significance, and the mast cell comparison the basophil concept's pitfall turns on is in Common misconceptions.
 

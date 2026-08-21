@@ -386,7 +386,7 @@ ${concept.subject}
 ## primary_node_id
 ${concept.primary}
 ## secondary_node_ids
-${concept.secondary.join(' | ')}
+${concept.secondary.join(' | ') || '[clear]'}
 ## modules
 101 ISK
 ## module_subject
@@ -396,7 +396,7 @@ kau
 ## learner_years
 1
 ## exam_signal
-${signals.join('\n')}
+${signals.join('\n') || '[clear]'}
 ## weight_confidence
 ${signals.length > 2 ? '0.8' : '0.6'}
 ## blueprint_weight

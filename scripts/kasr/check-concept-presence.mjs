@@ -20,10 +20,23 @@
  * someone imports it. This asks the same two questions of the batch instead,
  * which is the point: the answer is wanted before the import, not after.
  *
+ * It also checks the shape of every column against the parser that actually
+ * reads it, which is a second and separate way to be silently wrong:
+ *
+ *   text column   deliberately empty  ->  empty body     (stores null)
+ *   list column   deliberately empty  ->  `[clear]`      (stores [])
+ *
+ * Get it backwards and a text column holds the literal four characters
+ * `[clear]`, or a list column holds null where "considered, and empty" was
+ * meant. **The parser is measured, not read**: a probe value goes through the
+ * importer and the stored type is observed, because the names mislead in both
+ * directions — `pitfalls` reads like a list and is text, while `conflicts`,
+ * `uncertainty` and `original_wording` read like prose and are lists.
+ *
  * Exits non-zero on any absence, so it can be wired into CI.
  */
 import { readFileSync } from 'node:fs'
-import { conceptFromRow, materialiseNewConcept, resolvePlacement } from '../../src/data/conceptImport.ts'
+import { conceptFromRow, materialiseNewConcept, resolvePlacement, CONCEPT_IMPORT_FIELDS } from '../../src/data/conceptImport.ts'
 import { CURRICULUM_CATALOG } from '../../src/data/curriculumCatalog.ts'
 
 /** Kept identical to `audit-medical-content-fields.mjs`; drift here is silent. */
@@ -54,6 +67,29 @@ const PRESENT = [
   'approvedFileResourceIds', 'approvedVideoResourceIds', 'conflicts', 'uncertainty', 'evidenceGaps',
   'mergeIds', 'rejectedMergeCandidateIds', 'lastReviewed', 'reviewDue', 'exclusionReason',
 ]
+
+/**
+ * Which parser each column goes through, measured rather than read.
+ *
+ * A probe with a `|` in it goes through the importer for every column; if what
+ * comes out is an array the column is a list, and if it is a string it is text.
+ * Reading the source would work too, until someone changes a parser without
+ * changing the column name.
+ */
+const SHAPE = {}
+{
+  const base = { id: 'CON-PROBE', label: 'L', canonical_key: 'k', definition: 'd' }
+  const before = materialiseNewConcept(conceptFromRow(base))
+  for (const { key } of CONCEPT_IMPORT_FIELDS) {
+    if (base[key] !== undefined) continue
+    const probe = materialiseNewConcept(conceptFromRow({ ...base, [key]: 'AAA | BBB' }))
+    for (const prop of new Set([...Object.keys(probe), ...Object.keys(before)])) {
+      if (JSON.stringify(probe[prop]) !== JSON.stringify(before[prop])) {
+        SHAPE[key] = Array.isArray(probe[prop]) ? 'list' : 'text'
+      }
+    }
+  }
+}
 
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 
@@ -91,7 +127,20 @@ for (const file of process.argv.slice(2)) {
     }
   }
 
-  const gaps = [...Object.entries(absent).map(([k, v]) => [`absent: ${k}`, v]),
+  const shape = {}
+  for (const row of rows) {
+    for (const [col, value] of Object.entries(row)) {
+      if (SHAPE[col] === 'list' && value === '') {
+        (shape[`${col} is a list column emitted empty — needs [clear], or it stores null where [] was meant`] ??= []).push(row.id)
+      }
+      if (SHAPE[col] === 'text' && value === '[clear]') {
+        (shape[`${col} is a text column holding the literal string "[clear]"`] ??= []).push(row.id)
+      }
+    }
+  }
+
+  const gaps = [...Object.entries(shape),
+                ...Object.entries(absent).map(([k, v]) => [`absent: ${k}`, v]),
                 ...Object.entries(unpopulated).map(([k, v]) => [`unpopulated with no reason: ${k}`, v])]
   console.log(`${file.split('/').pop()} — ${rows.length} concepts`)
   if (!gaps.length) console.log('   both questions answered for every field')
