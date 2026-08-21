@@ -1019,11 +1019,28 @@ EOM 196 104 - 2023          28218 vs 26991   x1.05   ** SUSPECT **
 answers are not in the text layer.** Two seconds, works on any pair, and it would have caught
 the highlight case too.
 
+**It does not apply to a paper with no text layer at all.** The 101 EOM set yields **0
+characters** from `pdftotext`, so the ratio is `0/0`, not `1.0` — the test is undefined rather
+than negative. Worse for the recovery step: `pdftotext -bbox-layout` yields **no word boxes
+either**, so option boxes must come from OCR *before* any highlight-to-option intersection can
+run. Check that the denominator exists before reading the ratio.
+
 | Variant | Found by | Not found by |
 |---|---|---|
 | Answers in the text | extraction | — |
 | Pink highlight over the option | rasterise, intersect highlight rects with text bboxes — 48/48, 0 false positives | `pdftotext` |
 | **Handwritten grey biro, X through wrong options** | **reading the render** | text extraction **and** a colour check — 177 coloured pixels on a page, 0.02% |
+
+**A fourth case sits above all three: the key as PDF annotation objects over a clean scan.**
+Exact vector data, not pixels. `pdfimages` shows the base scan has no colour at all, and
+`gs -dShowAnnots=false` makes every mark vanish.
+
+**A grep keyed on `/Subtype /Highlight` misses these** — iPad ink lands as **`/Stamp`** and
+Preview's rectangle tool as **`/Square`**. The 2021 and 2022 solved EOM copies are one of each.
+
+The clean read is to **render annots-on and annots-off and diff**: no colour thresholding, and
+the unsolved-control test passes by construction. Prefer it whenever annotations are present —
+it is exact where the raster route is statistical.
 
 Hand-circles need a different shape rule from filled highlights: a hollow annulus may group as
 two thin regions, or none.
@@ -1071,3 +1088,35 @@ Error: 1 batch filename(s) claimed by more than one paper — one would overwrit
 It throws **at generation time, before anything is written** — existing batch files keep their
 timestamps through the refusal, so there is no partial write to clean up. Loud, not a skip.
 Verified by forcing a year collision rather than by reading the code.
+
+### A duplicate scan is not a duplicate file, and nothing catches it for you
+
+Three of the six 101 EOM papers are duplicate pairs — **~4 distinct sittings, not 6.** Neither
+existing defence sees them:
+
+- **The byte dedup misses them**: each pair has a **distinct sha256**, because they are
+  separate scans of the same sitting.
+- **`bank.py` will not collapse them**: the same question scanned twice **OCRs differently**
+  and lands in different clusters.
+
+Bank the 18/12/2021 sitting from `src_17bf088a37f1ab6540a3` and the 10/12/2022 sitting from
+`src_a54bbf7a625ba2b172fc`; drop `src_9e6aad6c6af097e473d6` and `src_ce4292e31edea7517e7b`.
+
+The general rule: **content-addressed identity answers "is this the same file", never "is this
+the same exam".** A sitting can arrive twice under two hashes, and only reading the covers
+tells you.
+
+### Manifest defects: five more, one generator
+
+All from `scripts/corpus-intake/manifest.py:287`, all found by reading cover pages by hand:
+
+- a wrong `solvedStatus`
+- two wrong `examSittingYear`s
+- a probable wrong `moduleId` — a paper whose cover reads *"END Module: INT-101"* filed under
+  `101 ISK`
+- `src_415d10984252678d4a7a` *"Anatomy Formative Assessment [Upper Limb].pdf"* categorised
+  **`Written Questions`** and **100% MCQ** — a written lane will draw a blank on it
+
+That is now **four defect families** across `textLayer`, `subject`, `sourceCategory`,
+`examSittingYear`, `solvedStatus` and `moduleId`. Every one was found by looking at the
+document; none by any check the pipeline runs.
