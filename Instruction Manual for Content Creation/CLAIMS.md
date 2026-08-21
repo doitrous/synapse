@@ -33,8 +33,6 @@ scope. Whoever owns it picks it up from here.
 | — | — | — | — |
 | 103-bms | `scripts/kasr/build-coverage.ts` taking `--module`, defaulting to `101 ISK` | Every lane needs it and five in-place edits is five conflicts; 103-bms is making the change once, per SHARED-TOOLCHAIN §2 — rebase onto it rather than writing a sixth | 103-BMS-coverage.md, and the same ledger for every other module |
 | 103-bms | `scripts/kasr/{types,emit,build-batches}.ts` taking a module parameter, defaulting to `101 ISK` | They hardcode `101 ISK` in the ID mint, the `exam_signal` grammar and the output paths. **102 holds this retrofit** — 103-bms rebases onto it rather than forking the field set, per SHARED-TOOLCHAIN §2 | 103-BMS-concepts.md, 103-BMS-EOY-2025-written.md |
-| 103-bms | The `103 BMS` slice of `DPT BOOK MCQ D book bio 102&103 mcq (1).pdf` (`src_07f0a0ff41addf826c7f`) | The file has exactly one manifest row and it is `102 INT`, so 102 owns and OCRs it once. Re-reading it here would mint the same questions twice under different IDs | 103 BMS biochemistry question coverage |
-| 103-bms | The `103 BMS` slice of `DPT BOOK 102, 103, 104 physiology question &answer (1).pdf` (`src_34deb8ce27268cb7e890`) | Same: one manifest row, `102 INT`. 102 tags each item with the module it teaches | 103 BMS physiology question coverage |
 
 ---
 
@@ -72,6 +70,7 @@ scope. Whoever owns it picks it up from here.
 | 2026-08-21 | 103-bms | `103 BMS` · Histology · EOY 2025 written | docs/Kasr-Source-Imports/written/103-BMS-EOY-2025-histology-written.md | 4 questions, fieldsUsed 41, 0 errors |
 | 2026-08-21 | 103-bms | `103 BMS` · Physiology · EOY 2025 written | docs/Kasr-Source-Imports/written/103-BMS-EOY-2025-physiology-written.md | 4 questions, fieldsUsed 41, 0 errors |
 | 2026-08-21 | 103-bms | `103 BMS` · source coverage ledger | docs/Kasr-Source-Imports/coverage/103-BMS-coverage.md | 6 of 51 sources read; the other 45 named |
+| 2026-08-21 | 102-int -> 103-bms | `103 BMS` slice of the shared department question books | `scripts/kasr/extract/102-INT/mcq-bank.json` (102's file, read-only from here) | **Delivered.** 1,102 MCQs extracted and module-tagged; 391 are `103 BMS` — 336 Biochemistry from `src_07f0a0ff41addf826c7f`, 55 Physiology from `src_2093c80b1f9c25f9c0a4`. 353 carry a printed answer key, 19 flagged suspect, 2 options damaged by OCR out of 1,563. Verified in place; not yet authored into batches |
 
 ---
 
