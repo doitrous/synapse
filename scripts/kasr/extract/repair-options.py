@@ -26,7 +26,7 @@ not just the last, and the answer distribution among intact questions is even
 That matters because it means these are recoverable by re-reading the cached page
 text rather than by re-running OCR: no page is re-rendered here.
 
-    python3 scripts/kasr/extract/repair-options.py [--dry-run]
+    python3 scripts/kasr/extract/repair-options.py [--dry-run | --self-test]
 """
 import json
 import os
@@ -152,7 +152,45 @@ def tidy(found):
     return [(label, text) for label, text in cleaned if text]
 
 
+def self_test():
+    """Prove position-resolution survives a run of corrupted labels.
+
+    The case that matters is two mangled labels in a row: if the resolver
+    anchored on "the letter after the last one I recognised", a run would
+    resolve everything after it one place short. It does not — `expected`
+    advances per label, recognised or not — but a parallel corpus read entirely
+    by OCR has runs of three and four, so this is worth a test rather than a
+    reading of the code.
+
+    Wrong-letter is worse than absent here, because the answer key is by letter.
+    """
+    cases = {
+        "clean": [("a", "A1"), ("b", "B1"), ("c", "C1"), ("d", "D1")],
+        "single corruption": [("a", "A1"), ("b", "B1"), ("0", "C1"), ("d", "D1")],
+        "double, c and d": [("a", "A1"), ("b", "B1"), ("6", "C1"), ("0", "D1")],
+        "first label mangled": [("6", "A1"), ("b", "B1"), ("c", "C1"), ("d", "D1")],
+        "triple run": [("a", "A1"), ("0", "B1"), ("6", "C1"), ("\u00a2", "D1")],
+        "every label mangled": [("0", "A1"), ("6", "B1"), ("\u00a2", "C1"), ("0", "D1")],
+    }
+    failed = 0
+    for name, found in cases.items():
+        out = resolve(found)
+        ok = len(out) == 4 and all(out.get(letter) == f"{letter}1" for letter in "ABCD")
+        print(f"{'PASS' if ok else 'FAIL'}  {name:<22} {dict(sorted(out.items()))}")
+        failed += 0 if ok else 1
+
+    # A label out of order is the watermark faking one and must not overwrite.
+    out = resolve([("a", "A1"), ("b", "B1"), ("a", "JUNK"), ("c", "C1")])
+    ok = out.get("A") == "A1"
+    print(f"{'PASS' if ok else 'FAIL'}  a repeated letter does not overwrite the first")
+    failed += 0 if ok else 1
+
+    return failed
+
+
 def main():
+    if "--self-test" in sys.argv:
+        sys.exit(1 if self_test() else 0)
     dry = "--dry-run" in sys.argv
     bank = json.load(open(BANK))
     cache = {}
