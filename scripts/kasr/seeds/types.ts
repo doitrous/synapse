@@ -131,8 +131,46 @@ const SYSTEM: Record<KasrSubject, string> = {
  * whose mastery is split four ways across them.
  */
 export function mintConceptId(subject: KasrSubject, key: string): string {
-  const hash = createHash('sha256').update(`kau:101 ISK:${key}`).digest('hex').toUpperCase()
-  return `CON-${SYSTEM[subject]}-${hash.slice(0, 14)}`
+  return `CON-${SYSTEM[subject]}-${conceptHash(key)}`
+}
+
+/**
+ * The part of a concept ID that identifies the idea, without the subject.
+ *
+ * The subject only selects the prefix, so the same key under two subjects gives
+ * one hash behind two prefixes — `CON-DEV-B84639…` and `CON-MSK-B84639…` are
+ * two IDs for one concept, and nothing at import time would notice. Exposing
+ * the hash lets `subjectCollisions` find that by looking, rather than leaving it
+ * to a convention two authors have to remember.
+ */
+export function conceptHash(key: string): string {
+  return createHash('sha256').update(`kau:101 ISK:${key}`).digest('hex').toUpperCase().slice(0, 14)
+}
+
+/**
+ * Canonical keys that have been given more than one subject.
+ *
+ * The one way this pipeline can still mint rival IDs for one idea. Two authors
+ * working the same key — one filing the decidua under `dev`, the other under
+ * `msk` — produce two concepts a student's mastery splits across, and the IDs
+ * differ only in a prefix nobody reads closely.
+ *
+ * Returns the offenders rather than throwing, so a caller can report every one
+ * of them at once instead of one per run.
+ */
+export function subjectCollisions(
+  entries: readonly { key: string; subject: KasrSubject; where: string }[],
+): { key: string; subjects: string[]; where: string[] }[] {
+  const byKey = new Map<string, { subjects: Set<string>; where: Set<string> }>()
+  for (const entry of entries) {
+    const found = byKey.get(entry.key) ?? { subjects: new Set(), where: new Set() }
+    found.subjects.add(entry.subject)
+    found.where.add(entry.where)
+    byKey.set(entry.key, found)
+  }
+  return [...byKey.entries()]
+    .filter(([, seen]) => seen.subjects.size > 1)
+    .map(([key, seen]) => ({ key, subjects: [...seen.subjects].sort(), where: [...seen.where].sort() }))
 }
 
 /**
