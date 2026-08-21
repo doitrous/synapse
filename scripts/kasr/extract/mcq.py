@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
-"""Extract MCQs from a Kasr Al Ainy module's instructor question books.
+"""Extract MCQs from a Kasr Al Ainy module's question books.
 
-    python3 scripts/kasr/extract/mcq.py [--module "104 CPS"]
+    python3 scripts/kasr/extract/mcq.py [--module "104 CPS"] [--category NAME ...]
 
 Defaults to module 101 ISK, whose results are committed at the unprefixed
 paths; any other module writes into extract/<module-slug>/, caches included.
+
+Which manifest categories hold a module's question books is per-module data
+(MODULE_CATEGORIES), because it differs: 101 files them all as
+`Instructor material`, 104 keeps ten of seventeen under `Department Questions`.
+`--category` overrides the table for one run.
 
 Transcription only: text is copied out of the PDFs, never authored or completed.
 Resumable -- each file's result is written to parts/<sourceId>.json and mcq.json
@@ -27,9 +32,22 @@ PARTS = out_path(MODULE, "parts")
 TEXTCACHE = out_path(MODULE, "pagetext")
 OUT = out_path(MODULE, "mcq.json")
 
+# Which manifest categories hold a module's question books.
+#
+# 101 keeps them all under `Instructor material`, and that is the default, so
+# nothing about 101's committed source set moves. 104 does not: ten of its
+# seventeen question books are filed under `Department Questions`, and selecting
+# only `Instructor material` would drop them without saying so.
+MODULE_CATEGORIES = {
+    "101 ISK": ["Instructor material"],
+    "104 CPS": ["Instructor material", "Department Questions"],
+}
+DEFAULT_CATEGORIES = ["Instructor material"]
+CATEGORIES = DEFAULT_CATEGORIES
+
 # The 101 pass named its question books one by one. A module without such a
-# list takes every instructor-material PDF the manifest gives it.
-TARGETS = [
+# list takes every PDF the manifest gives it in the categories above.
+TARGETS_101 = [
     "101 mcq all after edit(3)-نسخ.pdf",
     "Anatomy MCQ Book [2025] [first priority].pdf",
     "Anatomy MCQ by Dr.Jalal [Embryology] (1).pdf",
@@ -66,20 +84,40 @@ TARGETS = [
     "Forearm Quiz (3).pdf",
 ]
 
-# question book -> separate answer-key file
-ANSWER_PAIRS = {
+MODULE_TARGETS = {"101 ISK": TARGETS_101}
+
+# question book -> separate answer-key file.
+#
+# 104 has none, and that is a reading of the files rather than of their names.
+# `EOY Anatomy MCQ by Dr.Jalal [Thorax] Without Answers.pdf` and the
+# `DPT HISTO MCQ [X] 2023.pdf` files look like halves of a pair, but every one
+# of them opens on numbered questions with lettered options: they are second
+# editions of the same books, not keys to them. Listing one as a key would send
+# a whole book of questions through parse_answer_key and drop them. Their
+# answers are printed as grids in their own back pages, which find_key_blocks
+# already picks up, and their duplicate questions are what bank.py collapses.
+ANSWER_PAIRS_101 = {
     "Blood MCQ pdf_87895.pdf": "Blood MCQ answer.pdf_87896.pdf",
     "CT MCQ 2024 JPG.pdf": "CT MCQ answer JPG.pdf",
     "Cytology Mcq_87432.pdf": "Cytology MCQ answers_87421.pdf",
     "Eithelium mcq 2025  JPG.pdf": "Epithelium MCQ 2025 answers.pdf",
 }
+MODULE_ANSWER_PAIRS = {"101 ISK": ANSWER_PAIRS_101, "104 CPS": {}}
+ANSWER_PAIRS = ANSWER_PAIRS_101
 KEY_FILES = set(ANSWER_PAIRS.values())
 
 # Scans so degraded that OCR interleaves options between neighbouring questions.
 # Everything from these is forced to low confidence and flagged for manual work.
-POOR_OCR = {"Basis MCQ by Dr.Jalal (1).pdf"}
+MODULE_POOR_OCR = {
+    "101 ISK": {"Basis MCQ by Dr.Jalal (1).pdf"},
+    # 104's scan lost the option labels of the "Without Answers" Thorax book
+    # outright -- 1,697 lines of text and one recognisable option marker in the
+    # whole file -- so what it does yield cannot be trusted as transcribed.
+    "104 CPS": {"EOY Anatomy MCQ by Dr.Jalal [Thorax] Without Answers.pdf"},
+}
+POOR_OCR = MODULE_POOR_OCR["101 ISK"]
 
-TOPIC_RULES = [
+TOPIC_RULES_101 = [
     ("Embryology", ("embryo",)),
     ("Connective Tissue", ("connective tissue", "ct mcq")),
     ("Upper Limb", ("upper limb", "upper", "arm", "forearm")),
@@ -89,6 +127,21 @@ TOPIC_RULES = [
     ("Basis", ("basis",)),
     ("Histology-general", ("histo",)),
 ]
+
+# 104's books are named by system, not by tissue. Matched in order, so
+# `DPT HISTO MCQ [Cardiovascular].pdf` is Cardiovascular and not Histology.
+TOPIC_RULES_104 = [
+    ("Anatomy", ("thorax", "anatomy", "cardiopulmonary system")),
+    ("Cytogenetics", ("cytogenetics",)),
+    ("Lymphatic", ("lymphatic",)),
+    ("Respiratory", ("respiratory", "respir")),
+    ("Cardiovascular", ("cardiovascular", "vascular", "cardio")),
+    ("Physiology", ("physio",)),
+    ("Histology-general", ("histo",)),
+]
+
+MODULE_TOPIC_RULES = {"101 ISK": TOPIC_RULES_101, "104 CPS": TOPIC_RULES_104}
+TOPIC_RULES = TOPIC_RULES_101
 
 
 def log(msg):
@@ -415,10 +468,11 @@ def parse_answer_key(pages):
 
 
 # ---------------------------------------------------------------- per file
-def load_manifest(module):
+def load_manifest(module, categories):
     by_name = {}
-    for s in module_sources(module, category="Instructor material"):
-        by_name[s["fileName"]] = s
+    for category in categories:
+        for s in module_sources(module, category=category):
+            by_name[s["fileName"]] = s
     return by_name
 
 
@@ -550,8 +604,10 @@ def merge_and_write():
         questions.extend(part["questions"])
     doc = {
         "generatedFrom": "Kasr Al Ainy corpus, module " + MODULE +
-                         ", sourceCategory 'Instructor material' "
-                         "(paths resolved via docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json)",
+                         ", sourceCategory " +
+                         " + ".join(repr(c) for c in CATEGORIES) +
+                         " (paths resolved via docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json)",
+        "sourceCategories": list(CATEGORIES),
         "ocrPageCap": OCR_PAGE_CAP,
         "totalQuestions": len(questions),
         "totalMcq": sum(1 for q in questions if q["questionType"] == "mcq"),
@@ -569,26 +625,51 @@ def merge_and_write():
 USAGE = __doc__
 
 
+def parse_categories(argv):
+    """Pull repeated `--category X` out of argv; empty means 'use the default'."""
+    picked, rest, i = [], [], 0
+    while i < len(argv):
+        arg = argv[i]
+        if arg == "--category":
+            if i + 1 >= len(argv):
+                raise SystemExit('--category needs a name, e.g. --category "Department Questions"')
+            picked.append(argv[i + 1])
+            i += 2
+            continue
+        if arg.startswith("--category="):
+            picked.append(arg.split("=", 1)[1])
+            i += 1
+            continue
+        rest.append(arg)
+        i += 1
+    return picked, rest
+
+
 def main(argv):
-    global MODULE, PARTS, TEXTCACHE, OUT
+    global MODULE, PARTS, TEXTCACHE, OUT, CATEGORIES, ANSWER_PAIRS, KEY_FILES, \
+        POOR_OCR, TOPIC_RULES
     if "--help" in argv or "-h" in argv:
         print(USAGE)
         return
     MODULE, argv = parse_module(argv)
+    picked, argv = parse_categories(argv)
     if argv:
         raise SystemExit("unexpected arguments: %s\n%s" % (" ".join(argv), USAGE))
+    CATEGORIES = picked or MODULE_CATEGORIES.get(MODULE, DEFAULT_CATEGORIES)
+    ANSWER_PAIRS = MODULE_ANSWER_PAIRS.get(MODULE, {})
+    KEY_FILES = set(ANSWER_PAIRS.values())
+    POOR_OCR = MODULE_POOR_OCR.get(MODULE, set())
+    TOPIC_RULES = MODULE_TOPIC_RULES.get(MODULE, TOPIC_RULES_101)
     PARTS = out_path(MODULE, "parts")
     TEXTCACHE = out_path(MODULE, "pagetext")
     OUT = out_path(MODULE, "mcq.json")
 
     os.makedirs(PARTS, exist_ok=True)
     os.makedirs(TEXTCACHE, exist_ok=True)
-    by_name = load_manifest(MODULE)
-    log("module %s -> %s" % (MODULE, os.path.relpath(OUT, os.getcwd())))
-    if MODULE == DEFAULT_MODULE:
-        targets = TARGETS
-    else:
-        targets = sorted(by_name)
+    by_name = load_manifest(MODULE, CATEGORIES)
+    log("module %s | categories %s -> %s"
+        % (MODULE, ", ".join(CATEGORIES), os.path.relpath(OUT, os.getcwd())))
+    targets = MODULE_TARGETS.get(MODULE) or sorted(by_name)
     missing = [t for t in targets if t not in by_name]
     for t in missing:
         log(f"MANIFEST-MISS {t}")
