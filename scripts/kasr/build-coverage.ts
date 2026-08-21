@@ -86,6 +86,14 @@ for (const q of mcq?.questions ?? []) {
   if (keyId) bump(keyId, 'answers')
 }
 
+// The end-of-module papers, re-read at 300 dpi. These are sat papers and the
+// highest-priority multiple-choice source in the corpus; the first pass got 359
+// mangled rows off them at 150 dpi and this one gets 360 clean questions across
+// the four sittings the six files actually are. Counted here so the ledger
+// reports the reading that is used rather than the one that was superseded.
+const eom = maybe('scripts/kasr/extract/eom.json')
+for (const question of eom?.questions ?? []) bump(question.sourceId, 'mcq')
+
 const practical = maybe('scripts/kasr/extract/practical.json')
 for (const slide of practical?.slides ?? []) bump(slide.sourceId, 'slides')
 for (const item of practical?.writtenItems ?? []) bump(item.sourceId, 'written')
@@ -155,7 +163,7 @@ for (const file of [...(mcq?.files ?? []), ...(practical?.files ?? []), ...(note
 function authored() {
   const counts = new Map<string, number>()
   const root = 'docs/Kasr-Source-Imports'
-  for (const kind of ['concept', 'question', 'article', 'practical', 'written']) {
+  for (const kind of ['concept', 'question', 'article', 'practical', 'written', 'evidence']) {
     const dir = join(REPO, root, kind)
     if (!existsSync(dir)) continue
     for (const name of readdirSync(dir)) {
