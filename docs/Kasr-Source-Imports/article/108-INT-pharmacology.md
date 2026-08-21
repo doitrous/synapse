@@ -174,6 +174,7 @@ Students often read "kinetics" as speed and "dynamics" as strength. Both halves 
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Pharmacokinetics is what the body does to the drug; pharmacodynamics is what the drug does to the body.
@@ -384,6 +385,7 @@ The other common error is treating "carrier-mediated" and "active" as the same t
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Only the non-ionised, lipid-soluble fraction of a drug can cross a membrane by simple diffusion.
@@ -622,6 +624,7 @@ Induction does not always reduce toxicity. If the toxic species is the metabolit
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Bioavailability is the fraction of the dose reaching the systemic circulation unchanged; it is 1 for an intravenous dose by definition.
@@ -869,6 +872,7 @@ A larger dose does not reach steady state sooner. It reaches a higher steady sta
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Four to five half-lives to steady state, and four to five to wash out.
@@ -1112,6 +1116,7 @@ The parallel rightward shift belongs to the competitive antagonist. The fall in 
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Affinity is binding; efficacy is what the binding produces; potency is how much is needed.
@@ -1371,6 +1376,7 @@ Using teratogenicity and mutagenicity as synonyms. One is a malformation in the 
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Type A is augmented, dose-related and predictable; Type B is bizarre, not dose-related and not predictable.
@@ -1605,6 +1611,7 @@ Calling any pair of opposing drugs competitive antagonists. Competitive antagoni
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Pharmaceutical before the patient, pharmacokinetic along ADME, pharmacodynamic at the site of action.
@@ -1825,6 +1832,7 @@ Treating the index as a property of a patient. It is a population figure; what a
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 The therapeutic index is a measure of safety, not of potency or efficacy.
@@ -2037,6 +2045,7 @@ Choosing a bolus for a drug whose danger is its peak. The total dose can be exac
 ## published_summary
 
 ## published_sections
+[clear]
 
 ## hold_these
 Enteral goes to the gut, parenteral bypasses it, topical acts on a surface.
