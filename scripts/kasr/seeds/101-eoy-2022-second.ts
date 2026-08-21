@@ -185,7 +185,7 @@ export const SEEDS: Seed[] = [
     q: 7, section: 'Section A', page: 5, marks: 5,
     asked: 'Mention the branches of the radial nerve.',
     label: 'The radial nerve arises from the posterior cord, C5–T1, and branches in axilla, spiral groove and lower arm',
-    key: 'radial-nerve-origin-roots-branches',
+    key: 'radial-nerve-origin-root-branches',
     definition: 'The radial nerve arises in the axilla as the larger terminal branch of the posterior cord of the brachial plexus, root value C5 to T1. In the axilla it gives muscular branches to the long and medial heads of triceps and the posterior cutaneous nerve of the arm. In the spiral groove it gives muscular branches to the lateral and medial heads of triceps and to anconeus, the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm. In the lower arm, in the groove between brachialis and brachioradialis, it gives muscular branches to brachioradialis, extensor carpi radialis longus and the small lateral part of brachialis, and then divides in front of the lateral epicondyle into the posterior interosseous nerve, mainly muscular, and the superficial radial nerve, mainly cutaneous.',
     objective: 'List the branches of the radial nerve at each level — axilla, spiral groove, lower arm — and name its two terminal branches.',
     pitfall: 'Giving the root value as C5–C8. The radial nerve carries T1, and dropping it changes which lesions are predicted to affect it.',

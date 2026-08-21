@@ -1029,29 +1029,29 @@ Problem Solving Questions. I: a 45-year-old woman with a hard painless lump in t
 What lymph nodes should be removed during the mastectomy operation?
 Expects: The axillary lymph nodes
 Expects: Chiefly the anterior (pectoral) group along the lower border of pectoralis minor, then the central and apical groups
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (I-b) 1 marks
 What other areas do these lymph nodes drain?
 Expects: The upper limb
 Expects: The front and back of the chest
 Expects: The abdominal walls, down to the level of the umbilicus
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (I-c) 1 marks
 Should the physician examine the other breast? Why?
 Expects: Yes
 Expects: Because of the free intercommunication of the lymphatics of the breasts of both sides
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (I-d) 1 marks
 After the operation the patient was unable to abduct her arm above the shoulder. How can this be explained?
 Expects: The long thoracic nerve was injured during dissection of the axillary lymph nodes
 Expects: This paralyses serratus anterior
 Expects: Serratus anterior rotates the scapula so the glenoid cavity looks upwards, which raising the arm overhead requires
-Concept: CON-MSK-8D52E127159B80
+Concept: CON-MSK-24E318F2E3F18E
 ### (I-e) 1 marks
 What other deformity can be noticed?
 Expects: Winging of the scapula
 Expects: With difficulty in protraction of the shoulder girdle
-Concept: CON-MSK-8D52E127159B80
+Concept: CON-MSK-24E318F2E3F18E
 ### (II-a) 1 marks
 What nerve is liable to be injured?
 Expects: The radial nerve
@@ -1079,7 +1079,7 @@ Expects: It is restricted because of overlap by adjacent nerves
 Expects: Paraesthesia over the posterior surface of the arm and forearm, the lower lateral side of the arm and the lateral two-thirds of the dorsum of the hand
 Concept: CON-MSK-712EBE5936F7E4
 ## main_concept
-CON-MSK-C8C7E857552F4C | CON-MSK-8D52E127159B80 | CON-MSK-712EBE5936F7E4
+CON-MSK-1B2BD8EC2B44B8 | CON-MSK-24E318F2E3F18E | CON-MSK-712EBE5936F7E4
 ## topic
 Section A
 ## subtopic

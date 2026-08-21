@@ -999,7 +999,7 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-59B3B8AB2A2CFA
+CON-MSK-A49B57B03A3610
 ## related_articles
 ART-101-ANA-AXILLA-BREAST: The radial nerve is a branch of the posterior cord, and the cords and their branches are contents of the axilla.
 ART-101-ANA-HAND-ARTERIES: The superficial radial nerve leaves the forearm through the roof of the anatomical snuff box, alongside the cephalic vein.
@@ -1120,7 +1120,7 @@ Kind: anatomy plate
 Section: Structure
 Source direction: openly licensed anatomy atlas - Gray's public-domain plates - or purpose-drawn following the department book Figs. 45 and 46
 Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
-Notes: Serves concept CON-MSK-59B3B8AB2A2CFA, whose exam question was "Regarding Radial nerve, mention its origin, root value and branches in axilla and upper arm", 7 marks.
+Notes: Serves concept CON-MSK-A49B57B03A3610, whose exam question was "Regarding Radial nerve, mention its origin, root value and branches in axilla and upper arm", 7 marks.
 ### diagram · Branching chart of the radial nerve arranged by level in four bands - axilla, spiral groove, lower third of arm, terminal - with muscular branches on one side and cutaneous branches on the other, each cutaneous branch carrying its skin territory
 Purpose: The answer is a grouped list and students reproduce it ungrouped, which is where the marks go. A chart that is itself grouped by level is the revision artefact the mark scheme rewards.
 Priority: required
@@ -1682,7 +1682,7 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-GYN-T06-S01-M01 | SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-C8C7E857552F4C | CON-MSK-8D52E127159B80
+CON-MSK-1B2BD8EC2B44B8 | CON-MSK-24E318F2E3F18E
 ## related_articles
 ART-101-ANA-PECTORALIS-MAJOR: Pectoralis major and minor are the anterior wall of the axilla, and pectoralis minor is what the surgical levels of the nodes are numbered against.
 ART-101-ANA-RADIAL-NERVE: The other nerve of the posterior cord, and the other lesion this faculty asks by its deformity.
@@ -4683,3 +4683,236 @@ sections.Clinical correlations: The section is explicitly built from what the co
 sections.Development: Stated as an absence with the book's general rule, exactly as ART-101-ANA-RADIAL-NERVE and ART-101-ANA-AXILLARY-NERVE do, because the same silence covers all three.
 ## notes
 The orientation sheet asks this nerve for seven things and the department book supplies six. The seventh, the effect of injury, is missing from the corpus for this nerve alone among the six named ones, and the article states that rather than importing a lesion from a general textbook.
+
+---
+
+# Item
+## id
+ART-101-ANA-MEDIAN-ULNAR-NERVES
+## title
+The median and ulnar nerves and injuries at the wrist
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## topic
+Upper limb
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-ANATOMY
+## archetype
+anatomy
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## primary_node_id
+DIS-ANA-T02
+## secondary_node_ids
+SYS-MSK-T01-S01-M03
+## related_concepts
+CON-MSK-9B52018C4649BD | CON-MSK-B640E3E982A149 | CON-MSK-6DD9511FAB3EF1
+## related_articles
+ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES: The palm, dorsum and finger territories these two nerves divide between them are one region of that map, and the thumb-ball exception is on it.
+ART-101-ANA-HAND-ARTERIES: The radial and ulnar arteries the same wrist laceration divides end as the two palmar arches, and the deep branch of the ulnar nerve curves round in the concavity of the deep arch.
+ART-101-ANA-BRACHIAL-PLEXUS-INJURIES: Klumpke's paralysis claws the hand through the same C8 and T1 fibres that run in the ulnar nerve to the lumbricals and interossei.
+## aliases
+Median nerve | Ulnar nerve | Carpal tunnel syndrome | Claw hand | Ape hand | Wrist laceration
+## reading_time
+14
+## summary
+Between them these two nerves supply every intrinsic muscle of the hand, which is why a cut across the front of the wrist costs the hand its whole fine function. Three questions come off that fact. Carpal tunnel syndrome is the median nerve compressed under the flexor retinaculum and its disability is the loss of thumb opposition. Claw hand is the ulnar nerve, and it is worse at the wrist than at the elbow because a high lesion also takes the long flexors that do the clawing.
+## sections
+### Overview and position
+The median nerve arises in the axilla by two roots, a medial root from the medial cord and a lateral root from the lateral cord, the medial root crossing in front of the axillary artery to join the lateral. Its root value is C5, C6, C7, C8 and T1.
+
+The ulnar nerve arises in the axilla from the medial cord, root value C7, C8 and T1, the C7 fibres reaching it from the lateral cord in the axilla or from the median nerve in the forearm.
+
+Neither nerve gives a single branch in the axilla or in the arm. Both are passengers down the arm and both do all their work in the forearm and the hand, which is why the arm can be opened without either being at risk and why every lesion the department book describes is at the elbow or below.
+
+### Structure
+The median nerve first.
+
+In the axilla it descends lateral to the third part of the axillary artery, and in the upper half of the arm lateral to the upper half of the brachial artery. At the middle of the arm, opposite the insertion of coracobrachialis, it crosses the brachial artery from lateral to medial, and in the lower half of the arm it lies medial to the artery, on brachialis.
+
+In the cubital fossa it lies on brachialis, separated from the median cubital vein by the bicipital aponeurosis. It leaves the fossa by passing between the two heads of pronator teres, separated from the ulnar artery by the deep head of that muscle.
+
+In the forearm it descends in the middle of the front, between flexor digitorum superficialis and flexor digitorum profundus. Immediately above the wrist it becomes superficial, between the tendon of flexor carpi radialis laterally and the tendons of flexor digitorum superficialis medially.
+
+At the wrist it enters the palm through the carpal tunnel, deep to the flexor retinaculum and lying directly under cover of it, and ends by dividing into lateral and medial terminal divisions.
+
+Its branches: none in the axilla or arm; in the forearm, articular branches to the elbow and superior radio-ulnar joints, muscular branches to pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis, the anterior interosseous nerve, and the palmar cutaneous branch. The anterior interosseous nerve descends on the front of the interosseous membrane between flexor pollicis longus and flexor digitorum profundus, disappears deep to pronator quadratus, and supplies flexor pollicis longus, pronator quadratus and the lateral half of flexor digitorum profundus, plus the inferior radio-ulnar and wrist joints. The palmar cutaneous branch arises about an inch above the wrist and runs superficial to the flexor retinaculum to the skin of the lateral two-thirds of the palm. In the palm, the lateral terminal division gives a recurrent branch to the thenar muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — and digital branches to the thumb, the lateral side of the index and the first lumbrical; the medial terminal division supplies the second lumbrical and digital branches to the adjacent sides of index, middle and ring fingers.
+
+Now the ulnar nerve.
+
+In the axilla it descends medial to the third part of the axillary artery, and in the upper half of the arm medial to the upper half of the brachial artery. At the middle of the arm it pierces the medial intermuscular septum into the posterior compartment, taking the superior ulnar collateral artery with it, and descends there.
+
+At the elbow it passes behind the medial epicondyle and enters the forearm between the two heads of flexor carpi ulnaris.
+
+In the forearm it descends on the medial side, between flexor carpi ulnaris and the medial half of flexor digitorum profundus. Above the wrist it becomes superficial between the tendon of flexor carpi ulnaris medially and the tendons of flexor digitorum superficialis laterally.
+
+At the wrist it descends superficial to the flexor retinaculum — not through the carpal tunnel — lateral to the pisiform and medial to the ulnar artery, and ends in front of the retinaculum by dividing into a superficial, mainly cutaneous, branch and a deep, mainly muscular, branch.
+
+Its branches: none in the axilla or arm; in the forearm, muscular branches to flexor carpi ulnaris and the medial half of flexor digitorum profundus, articular branches to the elbow, a palmar cutaneous nerve to the medial third of the palm and a dorsal cutaneous nerve to the medial third of the dorsum and the medial one and a half fingers. In the palm, the superficial terminal branch supplies palmaris brevis and the skin of the medial one and a half fingers; the deep terminal branch dips between abductor and flexor digiti minimi, pierces opponens digiti minimi and curves laterally in the concavity of the deep palmar arch to end in adductor pollicis, supplying on the way the hypothenar muscles, the third and fourth lumbricals, all eight interossei and adductor pollicis.
+
+### Relations
+At the wrist the two nerves lie in the two positions the injuries turn on.
+
+The median nerve is inside the carpal tunnel. The tunnel's sides and floor are the anterior concavity of the carpal bones and its roof is the flexor retinaculum. Its contents are nine tendons — four of flexor digitorum superficialis, four of flexor digitorum profundus and one of flexor pollicis longus — two synovial sheaths, the ulnar and radial bursae, the median nerve lying directly under cover of the retinaculum as the most superficial structure, and the recurrent branch of the deep palmar arch as the deepest.
+
+The ulnar nerve is outside it. It passes superficial to the flexor retinaculum, with the ulnar artery on its lateral side and the pisiform lateral to it as well.
+
+Five structures pass superficial to the flexor retinaculum, and a transverse cut in front of the wrist divides all of them: from medial to lateral, the ulnar nerve, the ulnar artery, the palmar cutaneous branch of the ulnar nerve, the tendon of palmaris longus, and the palmar cutaneous branch of the median nerve.
+
+The radial artery is at the same level on the other side, having become superficial in the lower forearm where its pulsation is felt between the tendons of flexor carpi radialis medially and brachioradialis laterally, before it turns backwards round the lateral side of the wrist.
+
+At the elbow the ulnar nerve lies behind the medial epicondyle, against bone, and then in the cubital tunnel formed by the tendinous arch connecting the two heads of flexor carpi ulnaris.
+
+### Blood supply, innervation and lymphatics
+The division of the hand between the two nerves is the fact the whole article rests on.
+
+Median: the thenar muscles through the recurrent branch, and the lateral two lumbricals.
+
+Ulnar: the hypothenar muscles, the medial two lumbricals, all eight interossei — four palmar and four dorsal — and adductor pollicis, all through the deep terminal branch.
+
+Between them that is every intrinsic muscle of the hand. Nothing else supplies one.
+
+Skin, palmar: median over the lateral two-thirds of the palm, except the proximal part of the thumb ball, which is lateral cutaneous nerve of the forearm; ulnar over the medial third. On the fingers, median over the palmar aspects of the lateral three and a half and the distal halves of their dorsal aspects; ulnar over the medial one and a half.
+
+Skin, dorsal: superficial radial over the lateral two-thirds and the proximal halves of the lateral three and a half fingers; ulnar dorsal cutaneous branch over the medial third and the medial one and a half fingers.
+
+The arteries that accompany them: the ulnar artery lies medial to the median nerve at the wrist and lateral to the ulnar nerve, and the two forearm arteries end as the superficial and deep palmar arches, the deep arch carrying the deep branch of the ulnar nerve in its concavity.
+
+### Development
+No Kasr source describes the development of a peripheral nerve. The department book's general rule applies — the roots of the brachial plexus are the ventral primary rami of C5 to T1 — and the dermatome values that would complete it are inside two unreadable figures on page 260 of the book, recorded in `evidence_gaps`.
+
+### Surface and imaging anatomy
+Both nerves become superficial at the wrist and both are found by tendons.
+
+The median nerve lies between the tendon of flexor carpi radialis laterally and the tendons of flexor digitorum superficialis medially, immediately above the wrist, and then passes under the flexor retinaculum.
+
+The ulnar nerve lies between the tendon of flexor carpi ulnaris medially and the tendons of flexor digitorum superficialis laterally, and at the wrist it is lateral to the pisiform, which is palpable.
+
+The ulnar nerve is also palpable behind the medial epicondyle, where it lies against bone.
+
+No Kasr source gives a radiographic or ultrasound appearance of either nerve.
+
+### Clinical correlations
+Three lesions, and each is a consequence of a relation already described.
+
+Carpal tunnel syndrome. The lesion is compression of the median nerve as it passes deep to the flexor retinaculum, and the department book gives the causes: lunate dislocation, carpal bone osteophytes, arthritic changes of the intercarpal joints, inflammation of the flexor synovial sheaths, or fluid accumulation. The sensory picture is paraesthesia over the lateral three and a half fingers — and note that the palmar cutaneous branch, which supplies the lateral two-thirds of the palm, arises about an inch above the wrist and runs superficial to the retinaculum, so it escapes a lesion inside the tunnel. That is the anatomical reason the palm is spared in carpal tunnel syndrome and not in a cut wrist. The motor picture is wasting of the thenar muscles with flattening of the thenar eminence, loss of opposition of the thumb, lateral rotation of the thumb so that the first metacarpal becomes parallel to the others as opponens loses its tone, and adduction of the thumb because adductor pollicis — ulnar — is intact while the abductor is paralysed. That posture is the ape or monkey hand. The disability is the loss of opposition: sensation over the fingers that do fine work is impaired, but it is the thumb that cannot be brought round to meet them.
+
+Ulnar nerve injury at the elbow. The causes are fracture of the medial epicondyle, dislocation or compression at the elbow, and compression in the cubital tunnel. The muscles paralysed are flexor carpi ulnaris and the medial half of flexor digitorum profundus in the forearm, and in the hand the hypothenar muscles, the medial two lumbricals, all the interossei and adductor pollicis. The signs are radial deviation of the wrist, from paralysis of flexor carpi ulnaris; loss of adduction of the thumb, so the patient cannot grip a piece of paper between thumb and index; loss of abduction and adduction of the fingers, so paper cannot be gripped between the fingers; flattening of the hypothenar eminence and hollowing between the metacarpals on the dorsum. Sensory loss covers the medial third of the palm and of the dorsum of the hand and both aspects of the medial one and a half fingers. And the deformity is a partial claw hand which is less apparent than after an injury at the wrist.
+
+That last point is the discriminating question, and the reason is mechanical. The claw is produced by the long flexors pulling the interphalangeal joints into flexion while the lumbricals and interossei that would oppose them are gone. An injury at the elbow paralyses the medial half of flexor digitorum profundus as well, so the very muscle that would flex those joints into the claw is also out, and the clawing is less. An injury at the wrist leaves the profundus intact, so the claw is fully expressed. A higher lesion produces a lesser deformity, which is the opposite of what a student expects.
+
+A transverse laceration in front of the wrist. What it divides follows from the relations: the ulnar nerve and the ulnar artery, the palmar cutaneous branches of both nerves, the tendon of palmaris longus, and — deep to the retinaculum or at its edge — the median nerve, with the radial artery superficial on the lateral side at the same level. The neurological loss is therefore sensory over the palmar aspect of the hand and fingers, both territories at once, and motor over every intrinsic muscle of the hand, because the median and ulnar nerves supply all of them between them. The hand keeps its long flexors and extensors, whose bellies are in the forearm above the cut, and loses everything that makes it a hand rather than a hook.
+
+### Variations and anomalies
+No Kasr source describes any variation of either nerve, including the communication between the musculocutaneous and median nerves or a Martin-Gruber anastomosis. None is invented here.
+## hold_these
+The median nerve arises by two roots, medial from the medial cord and lateral from the lateral cord, root value C5 to T1; the ulnar nerve arises from the medial cord, root value C7, C8 and T1.
+Neither nerve gives any branch in the axilla or the arm.
+At the middle of the arm the median nerve crosses the brachial artery from lateral to medial and the ulnar nerve pierces the medial intermuscular septum into the posterior compartment.
+The median nerve enters the palm through the carpal tunnel, lying directly under cover of the flexor retinaculum; the ulnar nerve passes superficial to the retinaculum, lateral to the pisiform and medial to the ulnar artery.
+The median palmar cutaneous branch arises an inch above the wrist and passes superficial to the retinaculum, which is why the palm is spared in carpal tunnel syndrome.
+The median nerve supplies the thenar muscles and the lateral two lumbricals; the ulnar nerve supplies the hypothenar muscles, the medial two lumbricals, all eight interossei and adductor pollicis.
+Between them the two nerves supply every intrinsic muscle of the hand.
+Carpal tunnel syndrome gives paraesthesia over the lateral three and a half fingers, thenar wasting, and the ape hand — thumb adducted and laterally rotated with loss of opposition.
+Ulnar injury at the elbow gives radial deviation, loss of thumb adduction, loss of finger abduction and adduction, hypothenar wasting, and a partial claw hand.
+Clawing is less apparent after an ulnar lesion at the elbow than at the wrist, because the medial half of flexor digitorum profundus is also paralysed.
+Five structures pass superficial to the flexor retinaculum: from medial to lateral the ulnar nerve, the ulnar artery, the ulnar palmar cutaneous branch, the tendon of palmaris longus, and the median palmar cutaneous branch.
+## lose_the_mark
+Assuming a higher ulnar lesion is worse. Clawing needs the long flexors intact to pull the fingers, so an elbow lesion that also paralyses flexor digitorum profundus claws less than a wrist lesion.
+Answering carpal tunnel syndrome with the sensory loss only. The disability is the loss of opposition of the thumb, which costs the hand its grip.
+Including the lateral two-thirds of the palm in the sensory loss of carpal tunnel syndrome. The palmar cutaneous branch leaves above the retinaculum and passes superficial to it, so it is spared inside the tunnel — but not by a cut wrist.
+Saying the ulnar nerve passes through the carpal tunnel. It passes superficial to the flexor retinaculum.
+Giving the ulnar root value as C8 and T1. The department book carries C7 as well.
+Listing branches of either nerve in the arm. Neither gives any branch in the axilla or the arm.
+Naming only some intrinsic muscles as lost after a wrist laceration. Every one of them is median or ulnar, so all of them go.
+Attributing the adducted thumb of the ape hand to an overactive adductor. Adductor pollicis is ulnar and simply unopposed once the median-supplied abductor is paralysed.
+## image_recommendations
+### anatomy plate · Anterior view of the whole upper limb with the median nerve and the ulnar nerve drawn in two colours from their origins in the axilla to their terminal divisions in the hand, with the four crossing points marked — the median crossing the brachial artery at mid-arm, the ulnar piercing the medial septum at mid-arm, the median passing between the heads of pronator teres, and the ulnar passing behind the medial epicondyle
+Purpose: The two courses are learnt as a pair and are told apart by four events at two levels. One plate in two colours makes the pairing structural rather than a matter of holding two separate descriptions in mind.
+Priority: required
+Status: needed
+Kind: anatomy plate
+Section: Structure
+Source direction: openly licensed anatomy atlas such as Gray's public-domain plates, or purpose-drawn following the department book's Arm and Forearm chapters
+Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
+### diagram · Transverse section at the level of the flexor retinaculum, showing the carpal tunnel with its nine tendons, two bursae and the median nerve directly under the retinaculum, and outside the tunnel, superficial to the retinaculum, the five structures in order from medial to lateral, with the radial artery marked on the lateral side
+Purpose: Three separate questions — carpal tunnel syndrome, ulnar injury at the wrist, and what a transverse laceration divides — are all answered by one cross-section. Nothing else shows at once that the median nerve is inside and the ulnar nerve outside.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Relations
+Source direction: purpose-drawn, following the department book Figs. 72 and 73 in the Forearm chapter, Anatomy pages 205-234
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves all three concepts on this article.
+### diagram · Claw hand explained in two panels — an ulnar lesion at the wrist with flexor digitorum profundus intact and the interphalangeal joints fully flexed, beside an ulnar lesion at the elbow with the medial half of profundus also paralysed and the same joints only partly flexed — the paralysed muscles greyed out in each
+Purpose: The examinable point is a counter-intuitive comparison between two levels of the same lesion, and it turns on which muscle is greyed out. Two panels side by side make the argument; a sentence asserting that a higher lesion claws less does not.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Clinical correlations
+Source direction: purpose-drawn, following the department book Fig. 109 on Anatomy page 264
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-MSK-B640E3E982A149.
+### clinical photograph · A hand with the ape or monkey deformity after a median nerve lesion — thenar eminence wasted and flat, thumb adducted and laterally rotated into the plane of the other metacarpals — shown beside a normal hand attempting opposition
+Purpose: The deformity is a change in the plane of one bone, which is a three-dimensional fact that a photograph settles and a description does not. Pairing it with an attempted opposition shows the disability rather than the appearance.
+Priority: required
+Status: needed
+Kind: clinical photograph
+Section: Clinical correlations
+Source direction: openly licensed clinical teaching set, with consent recorded; the department book Fig. 112 may serve as drawing direction rather than being reproduced
+Rights: must be CC-BY or public domain, with patient consent recorded
+Notes: Serves concept CON-MSK-9B52018C4649BD.
+## conflicts
+Whether the sensory loss of carpal tunnel syndrome includes the palm. The department book states that in carpal tunnel syndrome there is paraesthesia just over the lateral three and a half fingers, while in a cut wrist the lateral two-thirds of the palm is also lost if the palmar cutaneous branch is involved. Concept CON-MSK-9B52018C4649BD gives the sensory territory as the palmar surface of the lateral three and a half fingers and the dorsal aspect of their distal phalanges, and does not mention the palm. These agree; the distinction between the two causes is stated above because the corpus makes it and it is the anatomical point of the palmar cutaneous branch.
+Which lumbricals the median nerve supplies. The department book's account of ulnar injury says the second and third fingers are less affected because their lumbricals are median-supplied; its account of the median nerve in the palm gives the first and second lumbricals to the median. Concept CON-MSK-9B52018C4649BD says the lateral two lumbricals. All three agree on two lumbricals and the numbering above follows the palm account.
+Whether the ulnar nerve supplies flexor pollicis brevis. The VIP Academy revision says the deep terminal branch "may also supply" it; the department book does not raise the question. The hedge is preserved by not listing the muscle among the ulnar-supplied ones above.
+## evidence_gaps
+No Kasr source states where to compress an artery to arrest bleeding from a wrist laceration. Concept CON-MSK-6DD9511FAB3EF1 names compression of the brachial artery against the humerus at the middle and at the lower part of the arm. What the corpus supports is that the brachial artery is superficial throughout its course, covered only by skin and fascia, and runs on the medial side of the shaft of the humerus, with a stated surface marking. The article does not assert the compression manoeuvre, and the gap is named in field_notes.
+No Kasr source states the management, repair or prognosis of any of the three lesions.
+No Kasr source describes Froment's sign, Tinel's sign, Phalen's test or any named bedside test, although the two paper-grip manoeuvres for adductor pollicis and the interossei are the book's own.
+No Kasr source describes any variation of either nerve.
+No Kasr source describes the vasa nervorum or the internal fascicular anatomy of either nerve.
+The dermatome values of the upper limb are not stated in this article; the department book's segmental nerve supply section on page 260 is two figures with no text.
+No independent citation has been attached to any statement in this article. Two Kasr sources agree with each other, which is agreement rather than corroboration.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Upper Limb chapter 6 "Forearm", PDF pages 205-234 — the course and branches of both nerves in the forearm and hand, the anterior interosseous nerve, both palmar cutaneous branches, the flexor retinaculum with the five structures superficial to it and the contents of the carpal tunnel, and the ulnar nerve's position at the wrist, with Figs. 72 and 73. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 9 "Cutaneous nerve supply of the upper limb and nerve injuries", PDF pages 257-269 — the causes, motor signs, sensory losses and deformities of median and ulnar nerve injury at both levels, the ape hand, the two claw hands and the reason the higher ulnar lesion claws less, with Figs. 109 to 113.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 5 "Arm", PDF pages 194-204 — the relations of both nerves to the brachial artery and the four events at the middle of the arm.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Upper Limb chapter 4 "Axilla", PDF pages 178-193 — the two roots of the median nerve and the ulnar nerve as the largest branch of the medial cord.
+VIP Academy revision book "Module 101 - Upper limb" (src_8ebe255353ca4d184c5f), pages 82 to 92, topics "Median and ulnar nerves — origin and course", "Branches of the median and ulnar nerves", "Proximal injuries of the median and ulnar nerves", "Distal injuries of the median and ulnar nerves at the wrist" and "Radial and ulnar arteries — beginning, course and end" — the root values including the ulnar C7 fibres, the full branch lists, both levels of injury for each nerve, and the superficial position of both forearm arteries at the wrist. Extracted to scripts/kasr/extract/notes.json.
+Kasr past-question summary (src_647a13d829db0d2a6584), page 17 — the model answer for the carpal tunnel, giving its boundaries, contents and syndrome.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, which names the median and ulnar nerves among the nerves examined for origin, root value, end, course, branches, areas supplied and the effect of injury, with four upper-limb short-answer questions at 7 marks each and a clinical case. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the unsourced compression manoeuvre recorded in evidence_gaps is a second reason.
+sections.Clinical correlations: The explanation that the palmar cutaneous branch escapes a lesion inside the carpal tunnel because it leaves an inch above the wrist and runs superficial to the retinaculum is reasoning from two of the book's own statements. The book states the branch's course and states the two different sensory pictures, and does not connect them.
+sections.Clinical correlations: The mechanical account of why a higher ulnar lesion claws less follows the department book's own stated reason — that the medial half of flexor digitorum profundus is also paralysed — and expands it into the muscle-by-muscle argument given here.
+sections.Clinical correlations: The account of what a wrist laceration divides is assembled from the book's list of the five structures superficial to the flexor retinaculum, its account of the carpal tunnel, and the VIP Academy revision's account of the two forearm arteries at the wrist. No Kasr source describes the laceration itself, and the compression manoeuvre named in the concept is not stated here.
+sections.Blood supply, innervation and lymphatics: The claim that between them the two nerves supply every intrinsic muscle of the hand is an inference from the two branch lists, which together account for the thenar muscles, hypothenar muscles, all four lumbricals, all eight interossei and adductor pollicis. No Kasr source states it as a generalisation.
+## notes
+Three concepts, one article, because all three are answered from one cross-section at the wrist and because the two nerves are learnt as a pair — ape hand against claw hand, inside the tunnel against outside it. The wrist laceration is the case that makes the pairing matter, and it is also the concept the corpus supports least well: the anatomy is fully sourced and the first-aid manoeuvre is not, which is stated rather than papered over.

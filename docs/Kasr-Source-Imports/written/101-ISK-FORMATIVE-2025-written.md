@@ -127,30 +127,30 @@ A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the
 ### (a) 1 marks
 What lymph nodes should be removed during the mastectomy operation?
 Expects: The axillary lymph nodes
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (b) 1 marks
 What other areas do these lymph nodes drain?
 Expects: The upper limb
 Expects: The front and back of the chest
 Expects: The abdominal walls, down to the level of the umbilicus
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (c) 1 marks
 Should the physician examine the other breast? Why?
 Expects: Yes
 Expects: Because of the free intercommunication of the lymphatics of the breasts of both sides
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (d) 1 marks
 After the operation the patient was unable to abduct her arm above the shoulder. How can this be explained?
 Expects: The long thoracic nerve could have been injured during dissection of the axillary lymph nodes
 Expects: This leads to paralysis of the serratus anterior muscle
 Expects: Serratus anterior rotates the scapula, which raising the arm above the head requires
-Concept: CON-MSK-8D52E127159B80
+Concept: CON-MSK-24E318F2E3F18E
 ### (e) 1 marks
 What other deformity can be noticed?
 Expects: Winging of the scapula
-Concept: CON-MSK-8D52E127159B80
+Concept: CON-MSK-24E318F2E3F18E
 ## main_concept
-CON-MSK-C8C7E857552F4C | CON-MSK-8D52E127159B80
+CON-MSK-1B2BD8EC2B44B8 | CON-MSK-24E318F2E3F18E
 ## topic
 Upper Limb
 ## subtopic

@@ -169,7 +169,7 @@ export const SEEDS: Seed[] = [
     q: 6, section: 'Anatomy', page: 12, marks: 7,
     asked: 'Regarding Radial nerve, mention its origin, root value and branches in axilla and upper arm.',
     label: 'The radial nerve arises from the posterior cord, C5–T1, and branches in axilla and arm',
-    key: 'radial-nerve-origin-roots-branches',
+    key: 'radial-nerve-origin-root-branches',
     definition: 'The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1. In the axilla it gives muscular branches to the long and medial heads of triceps and the posterior cutaneous nerve of the arm. In the arm it gives branches to the lateral and medial heads of triceps and anconeus, the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm, before dividing into superficial and deep terminal branches.',
     objective: 'State the origin and root value of the radial nerve and list its branches in the axilla and the arm.',
     pitfall: 'Giving the root value as C5–C8. The radial nerve carries T1, and dropping it changes which lesions are predicted to affect it.',
@@ -209,7 +209,7 @@ export const SEEDS: Seed[] = [
     q: 9, section: 'Anatomy', page: 15, marks: 3,
     asked: 'Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed. a) What lymph nodes should be removed during mastectomy operation? b) Should the physician examine the other breast? Why? c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?',
     label: 'Breast lymph drains mainly to the axillary nodes, which is why mastectomy clears the axilla',
-    key: 'breast-lymphatic-drainage-axillary',
+    key: 'breast-lymphatic-drainage',
     definition: 'About three quarters of the lymph of the breast drains laterally to the axillary nodes, chiefly the anterior (pectoral) group, then to central and apical nodes. The medial quadrants drain to the internal thoracic (parasternal) nodes, and some drains to the opposite breast and to the abdomen. This is why carcinoma spreads first to the axilla and why the axillary nodes are sampled or cleared at operation.',
     objective: 'Explain the lymphatic drainage of the breast and why it determines where carcinoma spreads and what surgery removes.',
     pitfall: 'Forgetting the medial route. A medial-quadrant tumour can reach parasternal nodes with a clear axilla, so a negative axilla is not a clear chest.',
@@ -239,7 +239,7 @@ export const SEEDS: Seed[] = [
     q: 9, section: 'Anatomy', page: 15, marks: 0,
     asked: 'Case (1) c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?',
     label: 'Injury to the long thoracic nerve at mastectomy paralyses serratus anterior, winging the scapula',
-    key: 'long-thoracic-nerve-injury-winged-scapula',
+    key: 'long-thoracic-nerve-serratus-anterior-winging',
     definition: 'The long thoracic nerve (C5, C6, C7) runs on the surface of serratus anterior on the medial wall of the axilla, where it is exposed during axillary clearance. Serratus anterior rotates the scapula upward and holds its medial border against the chest wall, so its paralysis prevents abduction of the arm above the shoulder and lets the medial border stand off — a winged scapula.',
     objective: 'Explain why a mastectomy patient cannot abduct above the shoulder, and name the deformity that accompanies it.',
     pitfall: 'Blaming the axillary nerve. That would weaken abduction to ninety degrees and numb the regimental badge area; it is loss of scapular rotation above the shoulder, with winging, that names the long thoracic nerve.',
@@ -437,7 +437,7 @@ export const SCHEMES: Record<string, Scheme> = {
       {
         letter: 'c',
         prompt: 'After the operation the patient was unable to abduct her arm above the shoulder. Account for this.',
-        conceptKey: 'long-thoracic-nerve-injury-winged-scapula',
+        conceptKey: 'long-thoracic-nerve-serratus-anterior-winging',
         expects: [
           'The long thoracic nerve (C5, C6, C7) was injured during axillary clearance',
           'It lies on the surface of serratus anterior on the medial wall of the axilla',
@@ -447,7 +447,7 @@ export const SCHEMES: Record<string, Scheme> = {
       {
         letter: 'd',
         prompt: 'What other deformity can be noticed?',
-        conceptKey: 'long-thoracic-nerve-injury-winged-scapula',
+        conceptKey: 'long-thoracic-nerve-serratus-anterior-winging',
         expects: [
           'Winging of the scapula — its medial border stands off the chest wall',
         ],

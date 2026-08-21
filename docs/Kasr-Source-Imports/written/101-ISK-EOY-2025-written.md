@@ -852,9 +852,9 @@ Expects: In the axilla: the posterior cutaneous nerve of the arm
 Expects: In the arm: branches to the lateral and medial heads of triceps and to anconeus
 Expects: In the arm: the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm
 Expects: It ends by dividing into superficial and deep terminal branches
-Concept: CON-MSK-59B3B8AB2A2CFA
+Concept: CON-MSK-A49B57B03A3610
 ## main_concept
-CON-MSK-59B3B8AB2A2CFA
+CON-MSK-A49B57B03A3610
 ## topic
 Anatomy
 ## subtopic
@@ -1072,25 +1072,25 @@ A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the
 What lymph nodes should be removed during the mastectomy operation?
 Expects: The axillary nodes, which receive about three quarters of the lymph of the breast
 Expects: Chiefly the anterior (pectoral) group, then the central and apical nodes
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (b) 0.75 marks
 Should the physician examine the other breast? Why?
 Expects: Yes
 Expects: Lymphatics cross the midline, so carcinoma can reach the opposite breast
 Expects: The medial quadrants also drain to the internal thoracic (parasternal) nodes, so a clear axilla is not a clear chest
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
 ### (c) 0.75 marks
 After the operation the patient was unable to abduct her arm above the shoulder. Account for this.
 Expects: The long thoracic nerve (C5, C6, C7) was injured during axillary clearance
 Expects: It lies on the surface of serratus anterior on the medial wall of the axilla
 Expects: Serratus anterior rotates the scapula upward, which abduction above the shoulder requires
-Concept: CON-MSK-8D52E127159B80
+Concept: CON-MSK-24E318F2E3F18E
 ### (d) 0.75 marks
 What other deformity can be noticed?
 Expects: Winging of the scapula — its medial border stands off the chest wall
-Concept: CON-MSK-8D52E127159B80
+Concept: CON-MSK-24E318F2E3F18E
 ## main_concept
-CON-MSK-C8C7E857552F4C | CON-MSK-8D52E127159B80
+CON-MSK-1B2BD8EC2B44B8 | CON-MSK-24E318F2E3F18E
 ## topic
 Anatomy
 ## subtopic

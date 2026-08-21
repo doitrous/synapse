@@ -300,7 +300,7 @@ export const SEEDS: Seed[] = [
     q: 14, section: 'Section A', page: 13, marks: 10,
     asked: 'Problem Solving Questions: I. A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed. (5 marks) a. What lymph nodes should be removed during mastectomy operation? b. What other areas do these lymph nodes drain? c. Should the physician examine the other breast? Why? d. After the operation, the patient was unable to abduct her arm above the shoulder. How can this be explained? e. What other deformity can be noticed? II) A 12 years old boy suffered from fracture middle of the shaft of the humerus following a car accident. (5 marks) a. What nerve is liable to be injured? b. What movements would be affected following paralysis of these muscles? c. What is the name of the resulting deformity? d. Why this deformity is considered functionally disabling? e. Mention the site of the sensory loss that would occur?',
     label: 'Breast lymph drains mainly to the axillary nodes, which is why mastectomy clears the axilla',
-    key: 'breast-lymphatic-drainage-axillary',
+    key: 'breast-lymphatic-drainage',
     definition: 'The axillary lymph nodes take the great majority of the lymph of the breast and are the nodes removed at mastectomy. The anterior (pectoral) group lies along the lower border of pectoralis minor and receives from the central and lateral quadrants of the gland; the posterior (subscapular) group receives from the posterior trunk down to the iliac crest; the apical group, at the apex of the axilla, receives from all the other groups and from the upper limb. Together they drain the upper limb, the front and back of the chest and the abdominal walls down to the umbilicus. The lymphatics of the two breasts intercommunicate freely, which is why carcinoma of one is a reason to examine the other.',
     objective: 'Explain which nodes a mastectomy removes, what else those nodes drain, and why the opposite breast must be examined.',
     pitfall: 'Treating the axillary nodes as breast nodes only. They drain the whole upper limb and a wide field of trunk wall, so an enlarged axillary node is not by itself a breast finding.',
@@ -316,7 +316,7 @@ export const SEEDS: Seed[] = [
     q: 14, section: 'Section A', page: 13, marks: 0,
     asked: 'd. After the operation, the patient was unable to abduct her arm above the shoulder. How can this be explained? e. What other deformity can be noticed?',
     label: 'Injury to the long thoracic nerve at mastectomy paralyses serratus anterior, winging the scapula',
-    key: 'long-thoracic-nerve-injury-winged-scapula',
+    key: 'long-thoracic-nerve-serratus-anterior-winging',
     definition: 'The long thoracic nerve runs in the axilla and may be injured during radical mastectomy. It supplies serratus anterior, the main and powerful protractor of the shoulder, whose lower five digitations act with the upper and lower fibres of trapezius to rotate the scapula so the glenoid cavity looks upwards. Its injury gives winging of the scapula, difficulty in protraction of the shoulder girdle and difficulty in raising the arm above the head.',
     objective: 'Explain why a mastectomy patient cannot abduct above the shoulder, and name the deformity that accompanies it.',
     pitfall: 'Blaming the axillary nerve. That would flatten the shoulder and numb the skin over the lower deltoid; it is loss of scapular rotation above the shoulder, with winging, that names the long thoracic nerve.',
@@ -598,7 +598,7 @@ export const SCHEMES: Record<string, Scheme> = {
       {
         letter: 'I-d',
         prompt: 'After the operation the patient was unable to abduct her arm above the shoulder. How can this be explained?',
-        conceptKey: 'long-thoracic-nerve-injury-winged-scapula',
+        conceptKey: 'long-thoracic-nerve-serratus-anterior-winging',
         expects: [
           'The long thoracic nerve was injured during dissection of the axillary lymph nodes',
           'This paralyses serratus anterior',
@@ -608,7 +608,7 @@ export const SCHEMES: Record<string, Scheme> = {
       {
         letter: 'I-e',
         prompt: 'What other deformity can be noticed?',
-        conceptKey: 'long-thoracic-nerve-injury-winged-scapula',
+        conceptKey: 'long-thoracic-nerve-serratus-anterior-winging',
         expects: ['Winging of the scapula', 'With difficulty in protraction of the shoulder girdle'],
       },
       {

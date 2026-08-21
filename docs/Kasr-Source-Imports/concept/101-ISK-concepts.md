@@ -1042,9 +1042,9 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ## label
 The radial nerve arises from the posterior cord, C5–T1, and branches in axilla and arm
 ## id
-CON-MSK-59B3B8AB2A2CFA
+CON-MSK-A49B57B03A3610
 ## canonical_key
-radial-nerve-origin-roots-branches
+radial-nerve-origin-root-branches
 ## definition
 The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1. In the axilla it gives muscular branches to the long and medial heads of triceps and the posterior cutaneous nerve of the arm. In the arm it gives branches to the lateral and medial heads of triceps and anconeus, the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm, before dividing into superficial and deep terminal branches.
 ## explicit_objective
@@ -1322,9 +1322,9 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ## label
 Breast lymph drains mainly to the axillary nodes, which is why mastectomy clears the axilla
 ## id
-CON-MSK-C8C7E857552F4C
+CON-MSK-1B2BD8EC2B44B8
 ## canonical_key
-breast-lymphatic-drainage-axillary
+breast-lymphatic-drainage
 ## definition
 About three quarters of the lymph of the breast drains laterally to the axillary nodes, chiefly the anterior (pectoral) group, then to central and apical nodes. The medial quadrants drain to the internal thoracic (parasternal) nodes, and some drains to the opposite breast and to the abdomen. This is why carcinoma spreads first to the axilla and why the axillary nodes are sampled or cleared at operation.
 ## explicit_objective
@@ -1511,9 +1511,9 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ## label
 Injury to the long thoracic nerve at mastectomy paralyses serratus anterior, winging the scapula
 ## id
-CON-MSK-8D52E127159B80
+CON-MSK-24E318F2E3F18E
 ## canonical_key
-long-thoracic-nerve-injury-winged-scapula
+long-thoracic-nerve-serratus-anterior-winging
 ## definition
 The long thoracic nerve (C5, C6, C7) runs on the surface of serratus anterior on the medial wall of the axilla, where it is exposed during axillary clearance. Serratus anterior rotates the scapula upward and holds its medial border against the chest wall, so its paralysis prevents abduction of the arm above the shoulder and lets the medial border stand off — a winged scapula.
 ## explicit_objective

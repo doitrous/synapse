@@ -498,9 +498,9 @@ Expects: In the spiral groove: the posterior cutaneous nerve of the forearm, to 
 Expects: In the lower arm, between brachialis and brachioradialis: muscular branches to brachioradialis, extensor carpi radialis longus and a small lateral part of brachialis
 Expects: Terminal: the posterior interosseous nerve, mainly muscular
 Expects: Terminal: the superficial radial nerve, mainly cutaneous
-Concept: CON-MSK-59B3B8AB2A2CFA
+Concept: CON-MSK-A49B57B03A3610
 ## main_concept
-CON-MSK-59B3B8AB2A2CFA
+CON-MSK-A49B57B03A3610
 ## topic
 Section A
 ## subtopic
